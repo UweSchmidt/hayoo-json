@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-generate"
+        "phrase": "haskell-generate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Expression",
           "name": "Expression",
           "package": "haskell-generate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Expression",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Expression",
           "name": "Expression",
           "package": "haskell-generate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Expression",
           "name": "Expression",
           "package": "haskell-generate",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Expression",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Expression",
           "name": "Expression",
           "package": "haskell-generate",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Expression",
           "name": "Expression",
           "package": "haskell-generate",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Expression",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Expression",
           "name": "Expression",
           "package": "haskell-generate",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Expression",
           "name": "app",
           "package": "haskell-generate",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Expression",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Expression",
           "name": "app",
           "normalized": "Expression(a-\u003eb)-\u003eExpression a-\u003eExpression b",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Expression",
           "name": "runExpression",
           "package": "haskell-generate",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Expression",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Expression",
           "name": "runExpression",
           "package": "haskell-generate",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Monad",
           "package": "haskell-generate",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Monad",
           "package": "haskell-generate",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a type alias for a Generate action that returns an expression of type \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "ExpG",
           "package": "haskell-generate",
@@ -158,6 +171,7 @@
         "index": {
           "description": "This is type alias for Generate action that returns an expression of type",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "ExpG",
           "package": "haskell-generate",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to a function. With a reference to a function, you can apply it (by lifting it into ExprT using \u003ccode\u003e\u003ca\u003eexpr\u003c/a\u003e\u003c/code\u003e) to some value\n or export it using \u003ccode\u003e\u003ca\u003eexportFun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "FunRef",
           "package": "haskell-generate",
@@ -181,6 +196,7 @@
         "index": {
           "description": "reference to function With reference to function you can apply it by lifting it into ExprT using expr to some value or export it using exportFun",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "FunRef",
           "package": "haskell-generate",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a expression from a haskell value. This can for example be used to create lambdas:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eputStrLn $ generateExp $ expr (\\x f -\u003e f \u003c\u003e$ x)\n\u003c/code\u003e\u003c/strong\u003e\\ pvar_0 -\u003e \\ pvar_1 -\u003e pvar_1 pvar_0\n\u003c/pre\u003e\u003cp\u003eOr string literals:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eputStrLn $ generateExp $ expr \"I'm a string!\"\n\u003c/code\u003e\u003c/strong\u003e['I', '\\'', 'm', ' ', 'a', ' ', 's', 't', 'r', 'i', 'n', 'g', '!']\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "GenExp",
           "package": "haskell-generate",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Generate expression from haskell value This can for example be used to create lambdas putStrLn generateExp expr pvar pvar pvar pvar Or string literals putStrLn generateExp expr string",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "GenExp",
           "package": "haskell-generate",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis monad keeps track of a counter for generating unique names and the set of modules\n that are needed for the expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Generate",
           "package": "haskell-generate",
@@ -227,6 +246,7 @@
         "index": {
           "description": "This monad keeps track of counter for generating unique names and the set of modules that are needed for the expression",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Generate",
           "package": "haskell-generate",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the resulting type of a function generating a module. It is a ModuleM action returning the export list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "ModuleG",
           "package": "haskell-generate",
@@ -250,6 +271,7 @@
         "index": {
           "description": "This is the resulting type of function generating module It is ModuleM action returning the export list",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "ModuleG",
           "package": "haskell-generate",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module keeps track of the needed imports, but also has a list of declarations in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "ModuleM",
           "package": "haskell-generate",
@@ -273,6 +296,7 @@
         "index": {
           "description": "module keeps track of the needed imports but also has list of declarations in it",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "ModuleM",
           "package": "haskell-generate",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent variables, and also constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Name",
           "package": "haskell-generate",
@@ -295,6 +320,7 @@
         "index": {
           "description": "This type is used to represent variables and also constructors",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Name",
           "package": "haskell-generate",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator for \u003ccode\u003e\u003ca\u003eapplyE\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "(\u003c\u003e$)",
           "package": "haskell-generate",
@@ -319,6 +346,7 @@
         "index": {
           "description": "Operator for applyE",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "(\u003c\u003e$) \u003c\u003e$",
           "normalized": "ExpG(a-\u003eb)-\u003eExpG a-\u003eExpG b",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "FunRef",
           "package": "haskell-generate",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "FunRef",
           "package": "haskell-generate",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Generate",
           "package": "haskell-generate",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Generate",
           "package": "haskell-generate",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003evarid\u003c/em\u003e or \u003cem\u003econid\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Ident",
           "package": "haskell-generate",
@@ -387,6 +420,7 @@
         "index": {
           "description": "varid or conid",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Ident",
           "package": "haskell-generate",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "ModuleM",
           "package": "haskell-generate",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "ModuleM",
           "normalized": "ModuleM(Writer(Set ModuleName,[Decl])a)",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003evarsym\u003c/em\u003e or \u003cem\u003econsym\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Symbol",
           "package": "haskell-generate",
@@ -434,6 +471,7 @@
         "index": {
           "description": "varsym or consym",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "Symbol",
           "package": "haskell-generate",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a declaration to the module. Return a reference to it that can be used to either apply the function to some values or export it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "addDecl",
           "package": "haskell-generate",
@@ -458,6 +497,7 @@
         "index": {
           "description": "Add declaration to the module Return reference to it that can be used to either apply the function to some values or export it",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "addDecl",
           "normalized": "Name-\u003eExpG a-\u003eModuleM(FunRef a)",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function in a haskell expression to a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE",
           "package": "haskell-generate",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Apply function in haskell expression to value",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE",
           "normalized": "ExpG(a-\u003eb)-\u003eExpG a-\u003eExpG b",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplyE for 2 arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE2",
           "package": "haskell-generate",
@@ -509,6 +552,7 @@
         "index": {
           "description": "ApplyE for arguments",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE2",
           "normalized": "ExpG(a-\u003eb-\u003ec)-\u003eExpG a-\u003eExpG b-\u003eExpG c",
@@ -524,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to 3 arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE3",
           "package": "haskell-generate",
@@ -534,6 +579,7 @@
         "index": {
           "description": "Apply function to arguments",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE3",
           "normalized": "ExpG(a-\u003eb-\u003ec-\u003ed)-\u003eExpG a-\u003eExpG b-\u003eExpG c-\u003eExpG d",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to 4 arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE4",
           "package": "haskell-generate",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Apply function to arguments",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE4",
           "normalized": "ExpG(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eExpG a-\u003eExpG b-\u003eExpG c-\u003eExpG d-\u003eExpG e",
@@ -574,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to 5 arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE5",
           "package": "haskell-generate",
@@ -584,6 +633,7 @@
         "index": {
           "description": "Apply function to arguments",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE5",
           "normalized": "ExpG(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eExpG a-\u003eExpG b-\u003eExpG c-\u003eExpG d-\u003eExpG e-\u003eExpG f",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to 6 arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE6",
           "package": "haskell-generate",
@@ -609,6 +660,7 @@
         "index": {
           "description": "Apply function to arguments",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "applyE6",
           "normalized": "ExpG(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eExpG a-\u003eExpG b-\u003eExpG c-\u003eExpG d-\u003eExpG e-\u003eExpG f-\u003eExpG g",
@@ -624,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a case expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "caseE",
           "package": "haskell-generate",
@@ -634,6 +687,7 @@
         "index": {
           "description": "Generate case expression",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "caseE",
           "normalized": "ExpG a-\u003e[(Pat,ExpG b)]-\u003eExpG b",
@@ -649,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a ExportSpec for a given function item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "exportFun",
           "package": "haskell-generate",
@@ -659,6 +714,7 @@
         "index": {
           "description": "Generate ExportSpec for given function item",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "exportFun",
           "normalized": "FunRef a-\u003eExportSpec",
@@ -675,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates the haskell expression from the given haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "expr",
           "package": "haskell-generate",
@@ -685,6 +742,7 @@
         "index": {
           "description": "This function generates the haskell expression from the given haskell value",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "expr",
           "normalized": "a-\u003eExpG(GenExpType a)",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print the expression generated by a given action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "generateExp",
           "package": "haskell-generate",
@@ -710,6 +769,7 @@
         "index": {
           "description": "Pretty print the expression generated by given action",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "generateExp",
           "normalized": "ExpG a-\u003eString",
@@ -726,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the source code for a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "generateModule",
           "package": "haskell-generate",
@@ -736,6 +797,7 @@
         "index": {
           "description": "Generate the source code for module",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "generateModule",
           "normalized": "ModuleG-\u003eString-\u003eString",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new unique variable name with the given prefix. Note that this new variable name\n is only unique relative to other variable names generated by this function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "newName",
           "package": "haskell-generate",
@@ -762,6 +825,7 @@
         "index": {
           "description": "Generate new unique variable name with the given prefix Note that this new variable name is only unique relative to other variable names generated by this function",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "newName",
           "normalized": "String-\u003eGenerate Name",
@@ -778,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a haskell-src-exts Exp as the result of a Generate action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "returnE",
           "package": "haskell-generate",
@@ -788,6 +853,7 @@
         "index": {
           "description": "Use haskell-src-exts Exp as the result of Generate action",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "returnE",
           "normalized": "Exp-\u003eExpG a",
@@ -803,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the set of modules and the value from a Generate action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "runGenerate",
           "package": "haskell-generate",
@@ -813,6 +880,7 @@
         "index": {
           "description": "Extract the set of modules and the value from Generate action",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "runGenerate",
           "normalized": "Generate a-\u003e(a,Set ModuleName)",
@@ -829,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the Module from a module generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "runModuleM",
           "package": "haskell-generate",
@@ -839,6 +908,7 @@
         "index": {
           "description": "Extract the Module from module generator",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "runModuleM",
           "normalized": "ModuleG-\u003eString-\u003eModule",
@@ -854,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "unGenerate",
           "package": "haskell-generate",
@@ -863,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "unGenerate",
           "package": "haskell-generate",
@@ -877,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport a value constructor from a module. Returns the qualified name of the constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "useCon",
           "package": "haskell-generate",
@@ -887,6 +960,7 @@
         "index": {
           "description": "Import value constructor from module Returns the qualified name of the constructor",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "useCon",
           "normalized": "String-\u003eName-\u003eGenerate QName",
@@ -903,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport a function from a module. This function is polymorphic in the type of the resulting expression, \n you should probably only use this function to define type-restricted specializations. \n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e addInt :: ExpG (Int -\u003e Int -\u003e Int) -- Here we restricted the type to something sensible\n addInt = useValue \"Prelude\" $ Symbol \"+\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "useValue",
           "package": "haskell-generate",
@@ -913,6 +988,7 @@
         "index": {
           "description": "Import function from module This function is polymorphic in the type of the resulting expression you should probably only use this function to define type-restricted specializations Example addInt ExpG Int Int Int Here we restricted the type to something sensible addInt useValue Prelude Symbol",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "useValue",
           "normalized": "String-\u003eName-\u003eExpG a",
@@ -929,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the value of a variable with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.Monad",
           "name": "useVar",
           "package": "haskell-generate",
@@ -939,6 +1016,7 @@
         "index": {
           "description": "Use the value of variable with the given name",
           "hierarchy": "Language Haskell Generate Monad",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.Monad",
           "name": "useVar",
           "normalized": "Name-\u003eExpG a",
@@ -954,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "PreludeDef",
           "package": "haskell-generate",
@@ -962,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "PreludeDef",
           "package": "haskell-generate",
@@ -975,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "(\u003c\u003e.)",
           "package": "haskell-generate",
@@ -984,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "(\u003c\u003e.) \u003c\u003e.",
           "normalized": "ExpG(a-\u003eb)-\u003eExpG(c-\u003ea)-\u003eExpG(c-\u003eb)",
@@ -998,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "abs'",
           "package": "haskell-generate",
@@ -1007,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "abs'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1021,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "acos'",
           "package": "haskell-generate",
@@ -1030,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "acos'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1044,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "acosh'",
           "package": "haskell-generate",
@@ -1053,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "acosh'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1067,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "add'",
           "package": "haskell-generate",
@@ -1076,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "add'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -1090,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "all'",
           "package": "haskell-generate",
@@ -1099,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "all'",
           "normalized": "a b ExpG((c-\u003eBool)-\u003e[c]-\u003eBool)",
@@ -1113,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "and'",
           "package": "haskell-generate",
@@ -1122,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "and'",
           "normalized": "ExpG([Bool]-\u003eBool)",
@@ -1136,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "any'",
           "package": "haskell-generate",
@@ -1145,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "any'",
           "normalized": "a b ExpG((c-\u003eBool)-\u003e[c]-\u003eBool)",
@@ -1159,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "append'",
           "package": "haskell-generate",
@@ -1168,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "append'",
           "normalized": "a b ExpG([c]-\u003e[c]-\u003e[c])",
@@ -1182,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "appendFile'",
           "package": "haskell-generate",
@@ -1191,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "appendFile'",
           "normalized": "ExpG(FilePath-\u003eString-\u003eIO())",
@@ -1206,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "asTypeOf'",
           "package": "haskell-generate",
@@ -1215,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "asTypeOf'",
           "normalized": "a b ExpG(c-\u003ec-\u003ec)",
@@ -1230,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "asin'",
           "package": "haskell-generate",
@@ -1239,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "asin'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1253,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "asinh'",
           "package": "haskell-generate",
@@ -1262,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "asinh'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1276,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "atan'",
           "package": "haskell-generate",
@@ -1285,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "atan'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1299,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "atan2'",
           "package": "haskell-generate",
@@ -1308,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "atan2'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -1322,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "atanh'",
           "package": "haskell-generate",
@@ -1331,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "atanh'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1345,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "bind'",
           "package": "haskell-generate",
@@ -1354,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "bind'",
           "normalized": "a b c ExpG(d b-\u003e(b-\u003ed e)-\u003ed e)",
@@ -1368,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "break'",
           "package": "haskell-generate",
@@ -1377,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "break'",
           "normalized": "a b ExpG((c-\u003eBool)-\u003e[c]-\u003e([c],[c]))",
@@ -1391,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "ceiling'",
           "package": "haskell-generate",
@@ -1400,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "ceiling'",
           "normalized": "ExpG(a-\u003eb)",
@@ -1414,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "concat'",
           "package": "haskell-generate",
@@ -1423,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "concat'",
           "normalized": "a b ExpG([[c]]-\u003e[c])",
@@ -1437,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "concatMap'",
           "package": "haskell-generate",
@@ -1446,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "concatMap'",
           "normalized": "a b c ExpG((b-\u003e[d])-\u003e[b]-\u003e[d])",
@@ -1461,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "cons",
           "package": "haskell-generate",
@@ -1470,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "cons",
           "normalized": "ExpG(a-\u003e[a]-\u003e[a])",
@@ -1484,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "const'",
           "package": "haskell-generate",
@@ -1493,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "const'",
           "normalized": "a b c ExpG(b-\u003ed-\u003eb)",
@@ -1507,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "cos'",
           "package": "haskell-generate",
@@ -1516,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "cos'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1530,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "cosh'",
           "package": "haskell-generate",
@@ -1539,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "cosh'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1553,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "curry'",
           "package": "haskell-generate",
@@ -1562,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "curry'",
           "normalized": "a b c d ExpG(((b,c)-\u003ee)-\u003eb-\u003ec-\u003ee)",
@@ -1576,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "cycle'",
           "package": "haskell-generate",
@@ -1585,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "cycle'",
           "normalized": "a b ExpG([c]-\u003e[c])",
@@ -1599,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "decodeFloat'",
           "package": "haskell-generate",
@@ -1608,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "decodeFloat'",
           "normalized": "ExpG(a-\u003e(Integer,Int))",
@@ -1623,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "div'",
           "package": "haskell-generate",
@@ -1632,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "div'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -1646,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "divMod'",
           "package": "haskell-generate",
@@ -1655,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "divMod'",
           "normalized": "ExpG(a-\u003ea-\u003e(a,a))",
@@ -1670,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "divide'",
           "package": "haskell-generate",
@@ -1679,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "divide'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -1693,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "dot'",
           "package": "haskell-generate",
@@ -1702,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "dot'",
           "normalized": "a b c d ExpG((b-\u003ec)-\u003e(e-\u003eb)-\u003ee-\u003ec)",
@@ -1716,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "drop'",
           "package": "haskell-generate",
@@ -1725,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "drop'",
           "normalized": "a b ExpG(Int-\u003e[c]-\u003e[c])",
@@ -1739,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "dropWhile'",
           "package": "haskell-generate",
@@ -1748,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "dropWhile'",
           "normalized": "a b ExpG((c-\u003eBool)-\u003e[c]-\u003e[c])",
@@ -1763,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "either'",
           "package": "haskell-generate",
@@ -1772,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "either'",
           "normalized": "a b c d ExpG((b-\u003ec)-\u003e(e-\u003ec)-\u003eEither b e-\u003ec)",
@@ -1786,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "elem'",
           "package": "haskell-generate",
@@ -1795,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "elem'",
           "normalized": "ExpG(a-\u003e[a]-\u003eBool)",
@@ -1809,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "encodeFloat'",
           "package": "haskell-generate",
@@ -1818,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "encodeFloat'",
           "normalized": "ExpG(Integer-\u003eInt-\u003ea)",
@@ -1833,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "equal'",
           "package": "haskell-generate",
@@ -1842,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "equal'",
           "normalized": "ExpG(a-\u003ea-\u003eBool)",
@@ -1856,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "even'",
           "package": "haskell-generate",
@@ -1865,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "even'",
           "normalized": "ExpG(a-\u003eBool)",
@@ -1879,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "exp'",
           "package": "haskell-generate",
@@ -1888,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "exp'",
           "normalized": "ExpG(a-\u003ea)",
@@ -1902,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "exponent'",
           "package": "haskell-generate",
@@ -1911,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "exponent'",
           "normalized": "ExpG(a-\u003eInt)",
@@ -1925,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "false'",
           "package": "haskell-generate",
@@ -1934,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "false'",
           "package": "haskell-generate",
@@ -1946,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "filter'",
           "package": "haskell-generate",
@@ -1955,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "filter'",
           "normalized": "a b ExpG((c-\u003eBool)-\u003e[c]-\u003e[c])",
@@ -1969,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "flip'",
           "package": "haskell-generate",
@@ -1978,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "flip'",
           "normalized": "a b c d ExpG((b-\u003ec-\u003ee)-\u003ec-\u003eb-\u003ee)",
@@ -1992,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floatDigits'",
           "package": "haskell-generate",
@@ -2001,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floatDigits'",
           "normalized": "ExpG(a-\u003eInt)",
@@ -2016,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floatPow'",
           "package": "haskell-generate",
@@ -2025,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floatPow'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -2040,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floatRadix'",
           "package": "haskell-generate",
@@ -2049,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floatRadix'",
           "normalized": "ExpG(a-\u003eInteger)",
@@ -2064,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floatRange'",
           "package": "haskell-generate",
@@ -2073,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floatRange'",
           "normalized": "ExpG(a-\u003e(Int,Int))",
@@ -2088,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floor'",
           "package": "haskell-generate",
@@ -2097,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "floor'",
           "normalized": "ExpG(a-\u003eb)",
@@ -2111,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fmap'",
           "package": "haskell-generate",
@@ -2120,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fmap'",
           "normalized": "a b c ExpG((b-\u003ed)-\u003ee b-\u003ee d)",
@@ -2134,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "foldl'",
           "package": "haskell-generate",
@@ -2143,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "foldl'",
           "normalized": "a b c ExpG((b-\u003ed-\u003eb)-\u003eb-\u003e[d]-\u003eb)",
@@ -2157,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "foldl1'",
           "package": "haskell-generate",
@@ -2166,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "foldl1'",
           "normalized": "a b ExpG((c-\u003ec-\u003ec)-\u003e[c]-\u003ec)",
@@ -2180,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "foldr'",
           "package": "haskell-generate",
@@ -2189,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "foldr'",
           "normalized": "a b c ExpG((b-\u003ed-\u003ed)-\u003ed-\u003e[b]-\u003ed)",
@@ -2203,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "foldr1'",
           "package": "haskell-generate",
@@ -2212,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "foldr1'",
           "normalized": "a b ExpG((c-\u003ec-\u003ec)-\u003e[c]-\u003ec)",
@@ -2226,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fromInteger'",
           "package": "haskell-generate",
@@ -2235,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fromInteger'",
           "normalized": "ExpG(Integer-\u003ea)",
@@ -2250,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fromIntegral'",
           "package": "haskell-generate",
@@ -2259,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fromIntegral'",
           "normalized": "ExpG(a-\u003eb)",
@@ -2274,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fromRational'",
           "package": "haskell-generate",
@@ -2283,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fromRational'",
           "normalized": "ExpG(Rational-\u003ea)",
@@ -2298,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fst'",
           "package": "haskell-generate",
@@ -2307,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "fst'",
           "normalized": "a b c ExpG((b,d)-\u003eb)",
@@ -2321,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "gcd'",
           "package": "haskell-generate",
@@ -2330,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "gcd'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -2344,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "getChar'",
           "package": "haskell-generate",
@@ -2353,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "getChar'",
           "package": "haskell-generate",
@@ -2366,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "getContents'",
           "package": "haskell-generate",
@@ -2375,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "getContents'",
           "package": "haskell-generate",
@@ -2388,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "getLine'",
           "package": "haskell-generate",
@@ -2397,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "getLine'",
           "package": "haskell-generate",
@@ -2410,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "head'",
           "package": "haskell-generate",
@@ -2419,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "head'",
           "normalized": "a b ExpG([c]-\u003ec)",
@@ -2433,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "id'",
           "package": "haskell-generate",
@@ -2442,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "id'",
           "normalized": "a b ExpG(c-\u003ec)",
@@ -2456,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "index'",
           "package": "haskell-generate",
@@ -2465,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "index'",
           "normalized": "a b ExpG([c]-\u003eInt-\u003ec)",
@@ -2479,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "init'",
           "package": "haskell-generate",
@@ -2488,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "init'",
           "normalized": "a b ExpG([c]-\u003e[c])",
@@ -2502,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "interact'",
           "package": "haskell-generate",
@@ -2511,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "interact'",
           "normalized": "ExpG((String-\u003eString)-\u003eIO())",
@@ -2525,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isDenormalized'",
           "package": "haskell-generate",
@@ -2534,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isDenormalized'",
           "normalized": "ExpG(a-\u003eBool)",
@@ -2549,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isIEEE'",
           "package": "haskell-generate",
@@ -2558,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isIEEE'",
           "normalized": "ExpG(a-\u003eBool)",
@@ -2573,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isInfinite'",
           "package": "haskell-generate",
@@ -2582,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isInfinite'",
           "normalized": "ExpG(a-\u003eBool)",
@@ -2597,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isNaN'",
           "package": "haskell-generate",
@@ -2606,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isNaN'",
           "normalized": "ExpG(a-\u003eBool)",
@@ -2621,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isNegativeZero'",
           "package": "haskell-generate",
@@ -2630,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "isNegativeZero'",
           "normalized": "ExpG(a-\u003eBool)",
@@ -2645,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "iterate'",
           "package": "haskell-generate",
@@ -2654,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "iterate'",
           "normalized": "a b ExpG((c-\u003ec)-\u003ec-\u003e[c])",
@@ -2668,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "just'",
           "package": "haskell-generate",
@@ -2677,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "just'",
           "normalized": "a b ExpG(c-\u003eMaybe c)",
@@ -2691,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "last'",
           "package": "haskell-generate",
@@ -2700,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "last'",
           "normalized": "a b ExpG([c]-\u003ec)",
@@ -2714,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "lcm'",
           "package": "haskell-generate",
@@ -2723,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "lcm'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -2737,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "left'",
           "package": "haskell-generate",
@@ -2746,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "left'",
           "normalized": "a b c ExpG(b-\u003eEither b d)",
@@ -2760,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "length'",
           "package": "haskell-generate",
@@ -2769,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "length'",
           "normalized": "a b ExpG([c]-\u003eInt)",
@@ -2783,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "lines'",
           "package": "haskell-generate",
@@ -2792,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "lines'",
           "normalized": "ExpG(String-\u003e[String])",
@@ -2806,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "log'",
           "package": "haskell-generate",
@@ -2815,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "log'",
           "normalized": "ExpG(a-\u003ea)",
@@ -2829,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "logBase'",
           "package": "haskell-generate",
@@ -2838,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "logBase'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -2853,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "lookup'",
           "package": "haskell-generate",
@@ -2862,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "lookup'",
           "normalized": "ExpG(a-\u003e[(a,b)]-\u003eMaybe b)",
@@ -2876,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "map'",
           "package": "haskell-generate",
@@ -2885,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "map'",
           "normalized": "a b c ExpG((b-\u003ed)-\u003e[b]-\u003e[d])",
@@ -2899,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "mapM'",
           "package": "haskell-generate",
@@ -2908,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "mapM'",
           "normalized": "ExpG((a-\u003eb c)-\u003e[a]-\u003eb[c])",
@@ -2923,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "mapM_'",
           "package": "haskell-generate",
@@ -2932,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "mapM_'",
           "normalized": "ExpG((a-\u003eb c)-\u003e[a]-\u003eb())",
@@ -2946,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "maximum'",
           "package": "haskell-generate",
@@ -2955,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "maximum'",
           "normalized": "ExpG([a]-\u003ea)",
@@ -2969,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "maybe'",
           "package": "haskell-generate",
@@ -2978,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "maybe'",
           "normalized": "a b c ExpG(b-\u003e(d-\u003eb)-\u003eMaybe d-\u003eb)",
@@ -2992,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "minimum'",
           "package": "haskell-generate",
@@ -3001,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "minimum'",
           "normalized": "ExpG([a]-\u003ea)",
@@ -3015,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "mod'",
           "package": "haskell-generate",
@@ -3024,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "mod'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -3038,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "mult'",
           "package": "haskell-generate",
@@ -3047,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "mult'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -3061,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "negate'",
           "package": "haskell-generate",
@@ -3070,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "negate'",
           "normalized": "ExpG(a-\u003ea)",
@@ -3084,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "not'",
           "package": "haskell-generate",
@@ -3093,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "not'",
           "normalized": "ExpG(Bool-\u003eBool)",
@@ -3107,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "notElem'",
           "package": "haskell-generate",
@@ -3116,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "notElem'",
           "normalized": "ExpG(a-\u003e[a]-\u003eBool)",
@@ -3131,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "nothing'",
           "package": "haskell-generate",
@@ -3140,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "nothing'",
           "package": "haskell-generate",
@@ -3152,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "null'",
           "package": "haskell-generate",
@@ -3161,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "null'",
           "normalized": "a b ExpG([c]-\u003eBool)",
@@ -3175,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "odd'",
           "package": "haskell-generate",
@@ -3184,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "odd'",
           "normalized": "ExpG(a-\u003eBool)",
@@ -3198,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "or'",
           "package": "haskell-generate",
@@ -3207,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "or'",
           "normalized": "ExpG([Bool]-\u003eBool)",
@@ -3221,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "pi'",
           "package": "haskell-generate",
@@ -3230,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "pi'",
           "package": "haskell-generate",
@@ -3242,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "print'",
           "package": "haskell-generate",
@@ -3251,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "print'",
           "normalized": "ExpG(a-\u003eIO())",
@@ -3265,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "product'",
           "package": "haskell-generate",
@@ -3274,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "product'",
           "normalized": "ExpG([a]-\u003ea)",
@@ -3288,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "properFraction'",
           "package": "haskell-generate",
@@ -3297,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "properFraction'",
           "normalized": "ExpG(a-\u003e(b,a))",
@@ -3312,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "putChar'",
           "package": "haskell-generate",
@@ -3321,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "putChar'",
           "normalized": "ExpG(Char-\u003eIO())",
@@ -3336,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "putStr'",
           "package": "haskell-generate",
@@ -3345,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "putStr'",
           "normalized": "ExpG(String-\u003eIO())",
@@ -3360,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "putStrLn'",
           "package": "haskell-generate",
@@ -3369,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "putStrLn'",
           "normalized": "ExpG(String-\u003eIO())",
@@ -3384,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "quot'",
           "package": "haskell-generate",
@@ -3393,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "quot'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -3407,6 +3697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "quotRem'",
           "package": "haskell-generate",
@@ -3416,6 +3707,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "quotRem'",
           "normalized": "ExpG(a-\u003ea-\u003e(a,a))",
@@ -3431,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "read'",
           "package": "haskell-generate",
@@ -3440,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "read'",
           "normalized": "ExpG(String-\u003ea)",
@@ -3454,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "readFile'",
           "package": "haskell-generate",
@@ -3463,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "readFile'",
           "normalized": "ExpG(FilePath-\u003eIO String)",
@@ -3478,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "readIO'",
           "package": "haskell-generate",
@@ -3487,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "readIO'",
           "normalized": "ExpG(String-\u003eIO a)",
@@ -3502,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "readLn'",
           "package": "haskell-generate",
@@ -3511,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "readLn'",
           "package": "haskell-generate",
@@ -3524,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "realToFrac'",
           "package": "haskell-generate",
@@ -3533,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "realToFrac'",
           "normalized": "ExpG(a-\u003eb)",
@@ -3548,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "recip'",
           "package": "haskell-generate",
@@ -3557,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "recip'",
           "normalized": "ExpG(a-\u003ea)",
@@ -3571,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "rem'",
           "package": "haskell-generate",
@@ -3580,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "rem'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -3594,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "repeat'",
           "package": "haskell-generate",
@@ -3603,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "repeat'",
           "normalized": "a b ExpG(c-\u003e[c])",
@@ -3617,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "replicate'",
           "package": "haskell-generate",
@@ -3626,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "replicate'",
           "normalized": "a b ExpG(Int-\u003ec-\u003e[c])",
@@ -3640,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "return'",
           "package": "haskell-generate",
@@ -3649,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "return'",
           "normalized": "a b ExpG(c-\u003ed c)",
@@ -3663,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "reverse'",
           "package": "haskell-generate",
@@ -3672,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "reverse'",
           "normalized": "a b ExpG([c]-\u003e[c])",
@@ -3686,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "right'",
           "package": "haskell-generate",
@@ -3695,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "right'",
           "normalized": "a b c ExpG(d-\u003eEither b d)",
@@ -3709,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "round'",
           "package": "haskell-generate",
@@ -3718,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "round'",
           "normalized": "ExpG(a-\u003eb)",
@@ -3732,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scaleFloat'",
           "package": "haskell-generate",
@@ -3741,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scaleFloat'",
           "normalized": "ExpG(Int-\u003ea-\u003ea)",
@@ -3756,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scanl'",
           "package": "haskell-generate",
@@ -3765,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scanl'",
           "normalized": "a b c ExpG((b-\u003ed-\u003eb)-\u003eb-\u003e[d]-\u003e[b])",
@@ -3779,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scanl1'",
           "package": "haskell-generate",
@@ -3788,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scanl1'",
           "normalized": "a b ExpG((c-\u003ec-\u003ec)-\u003e[c]-\u003e[c])",
@@ -3802,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scanr'",
           "package": "haskell-generate",
@@ -3811,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scanr'",
           "normalized": "a b c ExpG((b-\u003ed-\u003ed)-\u003ed-\u003e[b]-\u003e[d])",
@@ -3825,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scanr1'",
           "package": "haskell-generate",
@@ -3834,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "scanr1'",
           "normalized": "a b ExpG((c-\u003ec-\u003ec)-\u003e[c]-\u003e[c])",
@@ -3848,6 +4176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "show'",
           "package": "haskell-generate",
@@ -3857,6 +4186,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "show'",
           "normalized": "ExpG(a-\u003eString)",
@@ -3871,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "significand'",
           "package": "haskell-generate",
@@ -3880,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "significand'",
           "normalized": "ExpG(a-\u003ea)",
@@ -3894,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "signum'",
           "package": "haskell-generate",
@@ -3903,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "signum'",
           "normalized": "ExpG(a-\u003ea)",
@@ -3917,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "sin'",
           "package": "haskell-generate",
@@ -3926,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "sin'",
           "normalized": "ExpG(a-\u003ea)",
@@ -3940,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "sinh'",
           "package": "haskell-generate",
@@ -3949,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "sinh'",
           "normalized": "ExpG(a-\u003ea)",
@@ -3963,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "snd'",
           "package": "haskell-generate",
@@ -3972,6 +4311,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "snd'",
           "normalized": "a b c ExpG((b,d)-\u003ed)",
@@ -3986,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "span'",
           "package": "haskell-generate",
@@ -3995,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "span'",
           "normalized": "a b ExpG((c-\u003eBool)-\u003e[c]-\u003e([c],[c]))",
@@ -4009,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "splitAt'",
           "package": "haskell-generate",
@@ -4018,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "splitAt'",
           "normalized": "a b ExpG(Int-\u003e[c]-\u003e([c],[c]))",
@@ -4033,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "sqrt'",
           "package": "haskell-generate",
@@ -4042,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "sqrt'",
           "normalized": "ExpG(a-\u003ea)",
@@ -4056,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "subtract'",
           "package": "haskell-generate",
@@ -4065,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "subtract'",
           "normalized": "ExpG(a-\u003ea-\u003ea)",
@@ -4079,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "sum'",
           "package": "haskell-generate",
@@ -4088,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "sum'",
           "normalized": "ExpG([a]-\u003ea)",
@@ -4102,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tail'",
           "package": "haskell-generate",
@@ -4111,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tail'",
           "normalized": "a b ExpG([c]-\u003e[c])",
@@ -4125,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "take'",
           "package": "haskell-generate",
@@ -4134,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "take'",
           "normalized": "a b ExpG(Int-\u003e[c]-\u003e[c])",
@@ -4148,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "takeWhile'",
           "package": "haskell-generate",
@@ -4157,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "takeWhile'",
           "normalized": "a b ExpG((c-\u003eBool)-\u003e[c]-\u003e[c])",
@@ -4172,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tan'",
           "package": "haskell-generate",
@@ -4181,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tan'",
           "normalized": "ExpG(a-\u003ea)",
@@ -4195,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tanh'",
           "package": "haskell-generate",
@@ -4204,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tanh'",
           "normalized": "ExpG(a-\u003ea)",
@@ -4218,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "then'",
           "package": "haskell-generate",
@@ -4227,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "then'",
           "normalized": "a b c ExpG(d b-\u003ed e-\u003ed e)",
@@ -4241,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "toInteger'",
           "package": "haskell-generate",
@@ -4250,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "toInteger'",
           "normalized": "ExpG(a-\u003eInteger)",
@@ -4265,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "true'",
           "package": "haskell-generate",
@@ -4274,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "true'",
           "package": "haskell-generate",
@@ -4286,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "truncate'",
           "package": "haskell-generate",
@@ -4295,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "truncate'",
           "normalized": "ExpG(a-\u003eb)",
@@ -4309,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple0",
           "package": "haskell-generate",
@@ -4318,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple0",
           "normalized": "ExpG()",
@@ -4332,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple2",
           "package": "haskell-generate",
@@ -4341,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple2",
           "normalized": "ExpG(a-\u003eb-\u003e(a,b))",
@@ -4355,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple3",
           "package": "haskell-generate",
@@ -4364,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple3",
           "normalized": "ExpG(a-\u003eb-\u003ec-\u003e(a,b,c))",
@@ -4378,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple4",
           "package": "haskell-generate",
@@ -4387,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple4",
           "normalized": "ExpG(a-\u003eb-\u003ec-\u003ed-\u003e(a,b,c,d))",
@@ -4401,6 +4777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple5",
           "package": "haskell-generate",
@@ -4410,6 +4787,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "tuple5",
           "normalized": "ExpG(a-\u003eb-\u003ec-\u003ed-\u003e(a,b,c,d,e))",
@@ -4424,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "uncurry'",
           "package": "haskell-generate",
@@ -4433,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "uncurry'",
           "normalized": "a b c d ExpG((b-\u003ec-\u003ee)-\u003e(b,c)-\u003ee)",
@@ -4447,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "undefined'",
           "package": "haskell-generate",
@@ -4456,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "undefined'",
           "package": "haskell-generate",
@@ -4468,6 +4850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "unlines'",
           "package": "haskell-generate",
@@ -4477,6 +4860,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "unlines'",
           "normalized": "ExpG([String]-\u003eString)",
@@ -4491,6 +4875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "until'",
           "package": "haskell-generate",
@@ -4500,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "until'",
           "normalized": "a b ExpG((c-\u003eBool)-\u003e(c-\u003ec)-\u003ec-\u003ec)",
@@ -4514,6 +4900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "unwords'",
           "package": "haskell-generate",
@@ -4523,6 +4910,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "unwords'",
           "normalized": "ExpG([String]-\u003eString)",
@@ -4537,6 +4925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "unzip'",
           "package": "haskell-generate",
@@ -4546,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "unzip'",
           "normalized": "a b c ExpG([(b,d)]-\u003e([b],[d]))",
@@ -4560,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "unzip3'",
           "package": "haskell-generate",
@@ -4569,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "unzip3'",
           "normalized": "a b c d ExpG([(b,c,e)]-\u003e([b],[c],[e]))",
@@ -4583,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "words'",
           "package": "haskell-generate",
@@ -4592,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "words'",
           "normalized": "ExpG(String-\u003e[String])",
@@ -4606,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "writeFile'",
           "package": "haskell-generate",
@@ -4615,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "writeFile'",
           "normalized": "ExpG(FilePath-\u003eString-\u003eIO())",
@@ -4630,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "zip'",
           "package": "haskell-generate",
@@ -4639,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "zip'",
           "normalized": "a b c ExpG([b]-\u003e[d]-\u003e[(b,d)])",
@@ -4653,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "zip3'",
           "package": "haskell-generate",
@@ -4662,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "zip3'",
           "normalized": "a b c d ExpG([b]-\u003e[c]-\u003e[e]-\u003e[(b,c,e)])",
@@ -4676,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "zipWith'",
           "package": "haskell-generate",
@@ -4685,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "zipWith'",
           "normalized": "a b c d ExpG((b-\u003ec-\u003ee)-\u003e[b]-\u003e[c]-\u003e[e])",
@@ -4700,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "zipWith3'",
           "package": "haskell-generate",
@@ -4709,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate PreludeDef",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.PreludeDef",
           "name": "zipWith3'",
           "normalized": "a b c d e ExpG((b-\u003ec-\u003ed-\u003ef)-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[f])",
@@ -4724,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.TH",
           "name": "TH",
           "package": "haskell-generate",
@@ -4732,6 +5137,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate TH",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.TH",
           "name": "TH",
           "package": "haskell-generate",
@@ -4746,6 +5152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare a function. The name of the definition will be the name of the function with an added apostrophe. (Example: declareFunction 'add generates \n a definition with the name add').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.TH",
           "name": "declareFunction",
           "package": "haskell-generate",
@@ -4756,6 +5163,7 @@
         "index": {
           "description": "Declare function The name of the definition will be the name of the function with an added apostrophe Example declareFunction add generates definition with the name add",
           "hierarchy": "Language Haskell Generate TH",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.TH",
           "name": "declareFunction",
           "normalized": "Name-\u003eDecsQ",
@@ -4772,6 +5180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a ExpG for the given function, using the given name for the definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.TH",
           "name": "declareNamedFunction",
           "package": "haskell-generate",
@@ -4782,6 +5191,7 @@
         "index": {
           "description": "Make ExpG for the given function using the given name for the definition",
           "hierarchy": "Language Haskell Generate TH",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.TH",
           "name": "declareNamedFunction",
           "normalized": "(Name,String)-\u003eDecsQ",
@@ -4798,6 +5208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare a symbol, using the given name for the definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.TH",
           "name": "declareNamedSymbol",
           "package": "haskell-generate",
@@ -4808,6 +5219,7 @@
         "index": {
           "description": "Declare symbol using the given name for the definition",
           "hierarchy": "Language Haskell Generate TH",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.TH",
           "name": "declareNamedSymbol",
           "normalized": "(Name,String)-\u003eDecsQ",
@@ -4824,6 +5236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a ExpG for some thing, using the given name for the definition. The third tuple element\n specifies the constructor to use for constructing the Name. This can either be \u003ccode\u003e'Symbol\u003c/code\u003e (for symbols)\n or \u003ccode\u003e'Ident\u003c/code\u003e (for functions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate.TH",
           "name": "declareNamedThing",
           "package": "haskell-generate",
@@ -4834,6 +5247,7 @@
         "index": {
           "description": "Make ExpG for some thing using the given name for the definition The third tuple element specifies the constructor to use for constructing the Name This can either be Symbol for symbols or Ident for functions",
           "hierarchy": "Language Haskell Generate TH",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate.TH",
           "name": "declareNamedThing",
           "normalized": "(Name,String,Name)-\u003eDecsQ",
@@ -4849,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:49 UTC 2014",
           "module": "Language.Haskell.Generate",
           "name": "Generate",
           "package": "haskell-generate",
@@ -4857,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Generate",
+          "indexed": "2014-03-11T18:30:49",
           "module": "Language.Haskell.Generate",
           "name": "Generate",
           "package": "haskell-generate",

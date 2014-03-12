@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-treify"
+        "phrase": "data-treify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "TGraph",
           "package": "data-treify",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "TGraph",
           "package": "data-treify",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped binding pair, parameterized by variable and node type\n constructors. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "Bind",
           "package": "data-treify",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Typed binding pair parameterized by variable and node type constructors",
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "Bind",
           "package": "data-treify",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph, described by bindings and a root variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "Graph",
           "package": "data-treify",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Graph described by bindings and root variable",
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "Graph",
           "package": "data-treify",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "Id",
           "package": "data-treify",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Identifiers",
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "Id",
           "package": "data-treify",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "ShowF",
           "package": "data-treify",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "ShowF",
           "package": "data-treify",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "V",
           "package": "data-treify",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Typed variables",
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "V",
           "package": "data-treify",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "Bind",
           "package": "data-treify",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "Bind",
           "package": "data-treify",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "Graph",
           "package": "data-treify",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "Graph",
           "normalized": "Graph[Bind a b](V a c)",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "V",
           "package": "data-treify",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "V",
           "package": "data-treify",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast version, using an IntMap.\n Important: partially apply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "bindEnv",
           "package": "data-treify",
@@ -229,6 +248,7 @@
         "index": {
           "description": "Fast version using an IntMap Important partially apply",
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "bindEnv",
           "normalized": "[Bind a b]-\u003eV a c-\u003eb(V a)c",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.Reify.TGraph",
           "name": "showF",
           "package": "data-treify",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data Reify TGraph",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.Reify.TGraph",
           "name": "showF",
           "normalized": "a b-\u003eString",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.TReify",
           "name": "TReify",
           "package": "data-treify",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data TReify",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.TReify",
           "name": "TReify",
           "package": "data-treify",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.TReify",
           "name": "MuRef",
           "package": "data-treify",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data TReify",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.TReify",
           "name": "MuRef",
           "package": "data-treify",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.TReify",
           "name": "mapDeRef",
           "package": "data-treify",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Data TReify",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.TReify",
           "name": "mapDeRef",
           "normalized": "(a b c d-\u003ee d-\u003ef(g d))-\u003ea b c d-\u003ee d-\u003ef(DeRef e g d)",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereifyGraph\u003c/a\u003e\u003c/code\u003e takes a data structure that admits \u003ccode\u003e\u003ca\u003eMuRef\u003c/a\u003e\u003c/code\u003e, and returns\n a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e that contains the dereferenced nodes, with their children as\n \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e rather than recursive values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:01 UTC 2014",
           "module": "Data.TReify",
           "name": "reifyGraph",
           "package": "data-treify",
@@ -344,6 +373,7 @@
         "index": {
           "description": "reifyGraph takes data structure that admits MuRef and returns Graph that contains the dereferenced nodes with their children as Integer rather than recursive values",
           "hierarchy": "Data TReify",
+          "indexed": "2014-03-11T17:50:01",
           "module": "Data.TReify",
           "name": "reifyGraph",
           "normalized": "a b-\u003ec b-\u003eIO(Graph a(DeRef c)b)",

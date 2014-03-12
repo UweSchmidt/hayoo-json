@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fficxx-runtime"
+        "phrase": "fficxx-runtime",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "Cast",
           "package": "fficxx-runtime",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "Cast",
           "package": "fficxx-runtime",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "BottomType",
           "package": "fficxx-runtime",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "BottomType",
           "package": "fficxx-runtime",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "Castable",
           "package": "fficxx-runtime",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "Castable",
           "package": "fficxx-runtime",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "Existable",
           "package": "fficxx-runtime",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "Existable",
           "package": "fficxx-runtime",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "FPtr",
           "package": "fficxx-runtime",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "FPtr",
           "package": "fficxx-runtime",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "GADTTypeable",
           "package": "fficxx-runtime",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "GADTTypeable",
           "package": "fficxx-runtime",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "cast",
           "package": "fficxx-runtime",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "cast",
           "normalized": "a-\u003eb",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "cast_fptr_to_obj",
           "package": "fficxx-runtime",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "cast_fptr_to_obj",
           "normalized": "ForeignPtr(Raw a)-\u003ea",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "get_fptr",
           "package": "fficxx-runtime",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "get_fptr",
           "normalized": "a-\u003eForeignPtr(Raw a)",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "uncast",
           "package": "fficxx-runtime",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "uncast",
           "normalized": "a-\u003eb",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform0",
           "package": "fficxx-runtime",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform0",
           "normalized": "(a-\u003eIO b)-\u003ec-\u003eIO d",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform1",
           "package": "fficxx-runtime",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform1",
           "normalized": "(a-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003eIO f",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform10",
           "package": "fficxx-runtime",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform10",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform11",
           "package": "fficxx-runtime",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform11",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform2",
           "package": "fficxx-runtime",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform2",
           "normalized": "(a-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003eIO f",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform3",
           "package": "fficxx-runtime",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform3",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform4",
           "package": "fficxx-runtime",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform4",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform5",
           "package": "fficxx-runtime",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform5",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform6",
           "package": "fficxx-runtime",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform6",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform7",
           "package": "fficxx-runtime",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform7",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform8",
           "package": "fficxx-runtime",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform8",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform9",
           "package": "fficxx-runtime",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xform9",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:23 UTC 2014",
           "module": "FFICXX.Runtime.Cast",
           "name": "xformnull",
           "package": "fficxx-runtime",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Runtime Cast",
+          "indexed": "2014-03-11T18:08:23",
           "module": "FFICXX.Runtime.Cast",
           "name": "xformnull",
           "normalized": "IO a-\u003eIO b",

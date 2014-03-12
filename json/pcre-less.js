@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pcre-less"
+        "phrase": "pcre-less",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.Quackers",
           "name": "Quackers",
           "package": "pcre-less",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less Quackers",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.Quackers",
           "name": "Quackers",
           "package": "pcre-less",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.Quackers",
           "name": "QLR",
           "package": "pcre-less",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less Quackers",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.Quackers",
           "name": "QLR",
           "package": "pcre-less",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.Quackers",
           "name": "compile",
           "package": "pcre-less",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less Quackers",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.Quackers",
           "name": "compile",
           "normalized": "a-\u003eRegex",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.Quackers",
           "name": "execute",
           "package": "pcre-less",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less Quackers",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.Quackers",
           "name": "execute",
           "normalized": "a-\u003eString-\u003e[MatchArray]",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "REOpts",
           "package": "pcre-less",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "REOpts",
           "package": "pcre-less",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RECtOpts",
           "package": "pcre-less",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RECtOpts",
           "package": "pcre-less",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RERtOpts",
           "package": "pcre-less",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RERtOpts",
           "package": "pcre-less",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtAnchored",
           "package": "pcre-less",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtAnchored",
           "package": "pcre-less",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtAutoCallout",
           "package": "pcre-less",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtAutoCallout",
           "package": "pcre-less",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtBlank",
           "package": "pcre-less",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtBlank",
           "package": "pcre-less",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtCaseless",
           "package": "pcre-less",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtCaseless",
           "package": "pcre-less",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtDollarEndOnly",
           "package": "pcre-less",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtDollarEndOnly",
           "package": "pcre-less",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtDotAll",
           "package": "pcre-less",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtDotAll",
           "package": "pcre-less",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtExtended",
           "package": "pcre-less",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtExtended",
           "package": "pcre-less",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtExtra",
           "package": "pcre-less",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtExtra",
           "package": "pcre-less",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtFirstLine",
           "package": "pcre-less",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtFirstLine",
           "package": "pcre-less",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtMultiLine",
           "package": "pcre-less",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtMultiLine",
           "package": "pcre-less",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtNoAutoCapture",
           "package": "pcre-less",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtNoAutoCapture",
           "package": "pcre-less",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtNoUtf8Check",
           "package": "pcre-less",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtNoUtf8Check",
           "package": "pcre-less",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtUngreedy",
           "package": "pcre-less",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtUngreedy",
           "package": "pcre-less",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtUtf8",
           "package": "pcre-less",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "CtUtf8",
           "package": "pcre-less",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtAnchored",
           "package": "pcre-less",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtAnchored",
           "package": "pcre-less",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtBlank",
           "package": "pcre-less",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtBlank",
           "package": "pcre-less",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtNoUtf8Check",
           "package": "pcre-less",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtNoUtf8Check",
           "package": "pcre-less",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtNotBol",
           "package": "pcre-less",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtNotBol",
           "package": "pcre-less",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtNotEmpty",
           "package": "pcre-less",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtNotEmpty",
           "package": "pcre-less",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtNotEol",
           "package": "pcre-less",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtNotEol",
           "package": "pcre-less",
@@ -609,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtPartial",
           "package": "pcre-less",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "RtPartial",
           "package": "pcre-less",
@@ -631,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "reCtOpts",
           "package": "pcre-less",
@@ -640,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "reCtOpts",
           "normalized": "[RECtOpts]-\u003eCompOption",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less.REOpts",
           "name": "reRtOpts",
           "package": "pcre-less",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less REOpts",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less.REOpts",
           "name": "reRtOpts",
           "normalized": "[RERtOpts]-\u003eExecOption",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "Less",
           "package": "pcre-less",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "Less",
           "package": "pcre-less",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "(\u003c\u003c)",
           "package": "pcre-less",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "(\u003c\u003c) \u003c\u003c",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "(=~)",
           "package": "pcre-less",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "(=~) =~",
           "normalized": "String-\u003ea-\u003eMatch",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "bref",
           "package": "pcre-less",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "bref",
           "normalized": "Match-\u003eInt-\u003eString",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "derefs",
           "package": "pcre-less",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "derefs",
           "normalized": "(Int-\u003eString)-\u003eString-\u003eString",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "matchN",
           "package": "pcre-less",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "matchN",
           "normalized": "Match-\u003eInt-\u003eMatch",
@@ -815,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "subg",
           "package": "pcre-less",
@@ -824,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "subg",
           "normalized": "Match-\u003eString-\u003eString",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "subs",
           "package": "pcre-less",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "subs",
           "normalized": "Match-\u003eString-\u003eString",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:20 UTC 2014",
           "module": "Text.Regex.Less",
           "name": "truth",
           "package": "pcre-less",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Less",
+          "indexed": "2014-03-11T19:36:20",
           "module": "Text.Regex.Less",
           "name": "truth",
           "normalized": "Match-\u003eBool",

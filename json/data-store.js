@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-store"
+        "phrase": "data-store",
+        "type": "phrase"
       },
       "type": "context"
     }

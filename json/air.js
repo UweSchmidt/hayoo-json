@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "air"
+        "phrase": "air",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "ListBuilder",
           "package": "air",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ListBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "ListBuilder",
           "package": "air",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "ListBuilder",
           "package": "air",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ListBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "ListBuilder",
           "package": "air",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "execListBuilder",
           "package": "air",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ListBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "execListBuilder",
           "normalized": "ListBuilder a b-\u003e[a]",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "list",
           "package": "air",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ListBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "list",
           "normalized": "ListBuilder a b-\u003e[a]",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "many",
           "package": "air",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ListBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "many",
           "normalized": "[a]-\u003eListBuilder a()",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "one",
           "package": "air",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ListBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "one",
           "normalized": "a-\u003eListBuilder a()",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "runListBuilder",
           "package": "air",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ListBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ListBuilder",
           "name": "runListBuilder",
           "normalized": "ListBuilder a b-\u003e(b,[a])",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ObjectBuilder",
           "name": "ObjectBuilder",
           "package": "air",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ObjectBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ObjectBuilder",
           "name": "ObjectBuilder",
           "package": "air",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ObjectBuilder",
           "name": "ObjectBuilder",
           "package": "air",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ObjectBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ObjectBuilder",
           "name": "ObjectBuilder",
           "package": "air",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ObjectBuilder",
           "name": "execObjectBuilder",
           "package": "air",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ObjectBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ObjectBuilder",
           "name": "execObjectBuilder",
           "normalized": "a-\u003eObjectBuilder a-\u003ea",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Control.Monad.ObjectBuilder",
           "name": "object",
           "package": "air",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Air Control Monad ObjectBuilder",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Control.Monad.ObjectBuilder",
           "name": "object",
           "normalized": "ObjectBuilder a-\u003ea",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Default",
           "name": "Default",
           "package": "air",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Air Data Default",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Default",
           "name": "Default",
           "package": "air",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types with a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Default",
           "name": "Default",
           "package": "air",
@@ -297,6 +322,7 @@
         "index": {
           "description": "class for types with default value",
           "hierarchy": "Air Data Default",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Default",
           "name": "Default",
           "package": "air",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Default",
           "name": "def",
           "package": "air",
@@ -321,6 +348,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Air Data Default",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Default",
           "name": "def",
           "package": "air",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Managed",
           "name": "Managed",
           "package": "air",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Air Data Managed",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Managed",
           "name": "Managed",
           "package": "air",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Managed",
           "name": "Managed",
           "package": "air",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Air Data Managed",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Managed",
           "name": "Managed",
           "package": "air",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Managed",
           "name": "destroy",
           "package": "air",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Air Data Managed",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Managed",
           "name": "destroy",
           "normalized": "a-\u003eIO()",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Managed",
           "name": "initialize",
           "package": "air",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Air Data Managed",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Managed",
           "name": "initialize",
           "package": "air",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Managed",
           "name": "with_managed_object",
           "package": "air",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Air Data Managed",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Managed",
           "name": "with_managed_object",
           "normalized": "(a-\u003eIO())-\u003eIO()",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Monoid",
           "name": "Monoid",
           "package": "air",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Air Data Monoid",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Monoid",
           "name": "Monoid",
           "package": "air",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Monoid",
           "name": "Monoid",
           "package": "air",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Air Data Monoid",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Monoid",
           "name": "Monoid",
           "package": "air",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Monoid",
           "name": "(+)",
           "package": "air",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Air Data Monoid",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Monoid",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -508,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Monoid",
           "name": "mappend",
           "package": "air",
@@ -518,6 +563,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Air Data Monoid",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Monoid",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -533,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Monoid",
           "name": "mconcat",
           "package": "air",
@@ -543,6 +590,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Air Data Monoid",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Monoid",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -558,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Monoid",
           "name": "mempty",
           "package": "air",
@@ -568,6 +617,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Air Data Monoid",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Monoid",
           "name": "mempty",
           "package": "air",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel.TH",
           "name": "TH",
           "package": "air",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel TH",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel.TH",
           "name": "TH",
           "package": "air",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel.TH",
           "name": "mkLabel",
           "package": "air",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel TH",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel.TH",
           "name": "mkLabel",
           "normalized": "Name-\u003eQ[Dec]",
@@ -626,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive labels for all the record selector in a datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel.TH",
           "name": "mkLabels",
           "package": "air",
@@ -636,6 +691,7 @@
         "index": {
           "description": "Derive labels for all the record selector in datatype",
           "hierarchy": "Air Data Record SimpleLabel TH",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel.TH",
           "name": "mkLabels",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "SimpleLabel",
           "package": "air",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "SimpleLabel",
           "package": "air",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": ":-\u003e",
           "package": "air",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": ":-\u003e",
           "package": "air",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Getter",
           "package": "air",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Getter",
           "package": "air",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Modifier",
           "package": "air",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Modifier",
           "package": "air",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Point",
           "package": "air",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Point",
           "package": "air",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Setter",
           "package": "air",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Setter",
           "package": "air",
@@ -777,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003esetM\u003c/a\u003e\u003c/code\u003e that reads like an assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "(=:)",
           "package": "air",
@@ -787,6 +856,7 @@
         "index": {
           "description": "Alias for setM that reads like an assignment",
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "(=:) =:",
           "normalized": "(a-\u003eb)-\u003eb-\u003ec()",
@@ -801,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Label",
           "package": "air",
@@ -810,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "Label",
           "package": "air",
@@ -824,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the getter function from a label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "get",
           "package": "air",
@@ -834,6 +907,7 @@
         "index": {
           "description": "Get the getter function from label",
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "get",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -849,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value out of state pointed to by the specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "getM",
           "package": "air",
@@ -859,6 +934,7 @@
         "index": {
           "description": "Get value out of state pointed to by the specified label",
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "getM",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -873,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "label",
           "package": "air",
@@ -882,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "label",
           "normalized": "Getter a b-\u003eSetter a b-\u003ea-\u003eb",
@@ -897,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the modifier function from a label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "mod",
           "package": "air",
@@ -907,6 +986,7 @@
         "index": {
           "description": "Get the modifier function from label",
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "mod",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -922,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a value with a function somewhere in state pointed to by the\n specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "modM",
           "package": "air",
@@ -932,6 +1013,7 @@
         "index": {
           "description": "Modify value with function somewhere in state pointed to by the specified label",
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "modM",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb)-\u003ec()",
@@ -947,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the setter function from a label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "set",
           "package": "air",
@@ -957,6 +1040,7 @@
         "index": {
           "description": "Get the setter function from label",
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "set",
           "normalized": "(a-\u003eb)-\u003eb-\u003ea-\u003ea",
@@ -972,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a value somewhere in state pointed to by the specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "setM",
           "package": "air",
@@ -982,6 +1067,7 @@
         "index": {
           "description": "Set value somewhere in state pointed to by the specified label",
           "hierarchy": "Air Data Record SimpleLabel",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Data.Record.SimpleLabel",
           "name": "setM",
           "normalized": "(a-\u003eb)-\u003eb-\u003ec()",
@@ -996,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Env",
           "name": "Env",
           "package": "air",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Air Env",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Env",
           "name": "Env",
           "package": "air",
@@ -1017,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "Light",
           "package": "air",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "Light",
           "package": "air",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "(!!)",
           "package": "air",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "(!!) !!",
           "normalized": "[a]-\u003eb-\u003eMaybe a",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "(-)",
           "package": "air",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "(-) -",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "(/)",
           "package": "air",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "(/) /",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath",
@@ -1107,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "(\u003c)",
           "package": "air",
@@ -1116,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "(\u003c) \u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "(\u003c-\u003e)",
           "package": "air",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1153,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "(\u003e)",
           "package": "air",
@@ -1162,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "(\u003e) \u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -1176,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "(^)",
           "package": "air",
@@ -1185,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "(^) ^",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -1199,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "(.)",
           "package": "air",
@@ -1208,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "(.) .",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -1222,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ap2",
           "package": "air",
@@ -1231,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ap2",
           "normalized": "(a-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec b",
@@ -1245,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ap3",
           "package": "air",
@@ -1254,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ap3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1268,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ap4",
           "package": "air",
@@ -1277,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ap4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1291,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ap5",
           "package": "air",
@@ -1300,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ap5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1314,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ap6",
           "package": "air",
@@ -1323,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ap6",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1337,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ap7",
           "package": "air",
@@ -1346,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ap7",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1360,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ap8",
           "package": "air",
@@ -1369,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ap8",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1383,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ap9",
           "package": "air",
@@ -1392,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ap9",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1406,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "aren't",
           "package": "air",
@@ -1415,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "aren't",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1429,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "at",
           "package": "air",
@@ -1438,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "at",
           "normalized": "a-\u003e[b]-\u003eMaybe b",
@@ -1452,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "belongs_to",
           "package": "air",
@@ -1461,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "belongs_to",
           "normalized": "a b-\u003eb-\u003eBool",
@@ -1475,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "capitalize",
           "package": "air",
@@ -1484,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "capitalize",
           "normalized": "String-\u003eString",
@@ -1498,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "cherry_pick",
           "package": "air",
@@ -1507,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "cherry_pick",
           "normalized": "[a]-\u003e[b]-\u003e[Maybe b]",
@@ -1521,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "clone",
           "package": "air",
@@ -1530,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "clone",
           "normalized": "a-\u003e(a,a)",
@@ -1544,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "compare_by",
           "package": "air",
@@ -1553,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "compare_by",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -1567,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "concat_map",
           "package": "air",
@@ -1576,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "concat_map",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003e[b]",
@@ -1590,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "don't",
           "package": "air",
@@ -1599,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "don't",
           "normalized": "a b-\u003ea()",
@@ -1613,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "downto",
           "package": "air",
@@ -1622,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "downto",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -1636,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "drop",
           "package": "air",
@@ -1645,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "drop",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -1659,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "eighth",
           "package": "air",
@@ -1668,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "eighth",
           "normalized": "[a]-\u003eMaybe a",
@@ -1682,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "end",
           "package": "air",
@@ -1691,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "end",
           "normalized": "a()",
@@ -1705,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ends_with",
           "package": "air",
@@ -1714,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ends_with",
           "normalized": "String-\u003eString-\u003eBool",
@@ -1728,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "eq",
           "package": "air",
@@ -1737,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "eq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1751,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "exit_success",
           "package": "air",
@@ -1760,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "exit_success",
           "normalized": "IO()",
@@ -1774,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "fifth",
           "package": "air",
@@ -1783,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "fifth",
           "normalized": "[a]-\u003eMaybe a",
@@ -1797,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "filter_fst",
           "package": "air",
@@ -1806,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "filter_fst",
           "normalized": "(a-\u003eBool)-\u003e[(a,b)]-\u003e[(a,b)]",
@@ -1820,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "filter_snd",
           "package": "air",
@@ -1829,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "filter_snd",
           "normalized": "(a-\u003eBool)-\u003e[(b,a)]-\u003e[(b,a)]",
@@ -1843,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "first",
           "package": "air",
@@ -1852,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "first",
           "normalized": "[a]-\u003eMaybe a",
@@ -1866,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "fork",
           "package": "air",
@@ -1875,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "fork",
           "normalized": "IO a-\u003eIO()",
@@ -1889,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "forth",
           "package": "air",
@@ -1898,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "forth",
           "normalized": "[a]-\u003eMaybe a",
@@ -1912,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "from_i",
           "package": "air",
@@ -1921,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "from_i",
           "normalized": "a-\u003eb",
@@ -1935,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "has",
           "package": "air",
@@ -1944,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "has",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -1958,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "in_group_of",
           "package": "air",
@@ -1967,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "in_group_of",
           "normalized": "a-\u003e[b]-\u003e[[b]]",
@@ -1981,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "index",
           "package": "air",
@@ -1990,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "index",
           "normalized": "[a]-\u003eb-\u003ea",
@@ -2004,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "indexed",
           "package": "air",
@@ -2013,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "indexed",
           "normalized": "[a]-\u003e[(b,a)]",
@@ -2027,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "inject",
           "package": "air",
@@ -2036,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "inject",
           "normalized": "a-\u003e(a-\u003eb-\u003ea)-\u003ec b-\u003ea",
@@ -2050,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "inject'",
           "package": "air",
@@ -2059,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "inject'",
           "normalized": "a-\u003e(a-\u003eb-\u003ea)-\u003ec b-\u003ea",
@@ -2073,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "insert_at",
           "package": "air",
@@ -2082,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "insert_at",
           "normalized": "a-\u003eb-\u003e[b]-\u003e[b]",
@@ -2096,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "insert_unique",
           "package": "air",
@@ -2105,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "insert_unique",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2119,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "io",
           "package": "air",
@@ -2128,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -2142,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "is",
           "package": "air",
@@ -2151,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "is",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2165,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "is_not",
           "package": "air",
@@ -2174,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "is_not",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2188,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "is_unique",
           "package": "air",
@@ -2197,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "is_unique",
           "normalized": "[a]-\u003eBool",
@@ -2211,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "isn't",
           "package": "air",
@@ -2220,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "isn't",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2234,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "join",
           "package": "air",
@@ -2243,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "join",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -2257,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "l2s",
           "package": "air",
@@ -2266,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "l2s",
           "normalized": "ByteString-\u003eByteString",
@@ -2280,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "label_by",
           "package": "air",
@@ -2289,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "label_by",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[(b,a)]",
@@ -2303,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "labeling",
           "package": "air",
@@ -2312,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "labeling",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[(a,b)]",
@@ -2326,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "length",
           "package": "air",
@@ -2335,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "length",
           "normalized": "[a]-\u003eb",
@@ -2349,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "list2",
           "package": "air",
@@ -2358,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "list2",
           "normalized": "(a,a)-\u003e[a]",
@@ -2372,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "list3",
           "package": "air",
@@ -2381,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "list3",
           "normalized": "(a,a,a)-\u003e[a]",
@@ -2395,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ljust",
           "package": "air",
@@ -2404,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ljust",
           "normalized": "a-\u003eb-\u003e[b]-\u003e[b]",
@@ -2418,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "lower",
           "package": "air",
@@ -2427,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "lower",
           "normalized": "String-\u003eString",
@@ -2441,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "map_fst",
           "package": "air",
@@ -2450,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "map_fst",
           "normalized": "(a-\u003eb)-\u003e[(a,c)]-\u003e[(b,c)]",
@@ -2464,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "map_snd",
           "package": "air",
@@ -2473,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "map_snd",
           "normalized": "(a-\u003eb)-\u003e[(c,a)]-\u003e[(c,b)]",
@@ -2487,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "ninth",
           "package": "air",
@@ -2496,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "ninth",
           "normalized": "[a]-\u003eMaybe a",
@@ -2510,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "puts",
           "package": "air",
@@ -2519,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "puts",
           "normalized": "String-\u003eIO()",
@@ -2533,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "reduce",
           "package": "air",
@@ -2542,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "reduce",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -2556,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "reduce'",
           "package": "air",
@@ -2565,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "reduce'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -2579,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "reject",
           "package": "air",
@@ -2588,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "reject",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -2602,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "remove_at",
           "package": "air",
@@ -2611,6 +2838,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "remove_at",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -2625,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "replace_at",
           "package": "air",
@@ -2634,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "replace_at",
           "normalized": "a-\u003eb-\u003e[b]-\u003e[b]",
@@ -2648,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "replicate",
           "package": "air",
@@ -2657,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "replicate",
           "normalized": "a-\u003eb-\u003e[b]",
@@ -2671,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "rjust",
           "package": "air",
@@ -2680,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "rjust",
           "normalized": "a-\u003eb-\u003e[b]-\u003e[b]",
@@ -2694,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "rsort",
           "package": "air",
@@ -2703,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "rsort",
           "normalized": "[a]-\u003e[a]",
@@ -2717,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "s2l",
           "package": "air",
@@ -2726,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "s2l",
           "normalized": "ByteString-\u003eByteString",
@@ -2740,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "same",
           "package": "air",
@@ -2749,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "same",
           "normalized": "[a]-\u003eBool",
@@ -2763,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "second",
           "package": "air",
@@ -2772,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "second",
           "normalized": "[a]-\u003eMaybe a",
@@ -2786,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "select",
           "package": "air",
@@ -2795,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "select",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -2809,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "seventh",
           "package": "air",
@@ -2818,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "seventh",
           "normalized": "[a]-\u003eMaybe a",
@@ -2832,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "sixth",
           "package": "air",
@@ -2841,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "sixth",
           "normalized": "[a]-\u003eMaybe a",
@@ -2855,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "sleep",
           "package": "air",
@@ -2864,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "sleep",
           "normalized": "a-\u003eIO()",
@@ -2878,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "slice",
           "package": "air",
@@ -2887,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "slice",
           "normalized": "a-\u003ea-\u003e[b]-\u003e[b]",
@@ -2901,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "splat",
           "package": "air",
@@ -2910,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "splat",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a,b)-\u003ec",
@@ -2924,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "splat3",
           "package": "air",
@@ -2933,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "splat3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(a,b,c)-\u003ed",
@@ -2947,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "splitAt",
           "package": "air",
@@ -2956,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "splitAt",
           "normalized": "a-\u003e[b]-\u003e([b],[b])",
@@ -2971,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "split_to",
           "package": "air",
@@ -2980,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "split_to",
           "normalized": "a-\u003e[b]-\u003e[[b]]",
@@ -2994,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "starts_with",
           "package": "air",
@@ -3003,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "starts_with",
           "normalized": "String-\u003eString-\u003eBool",
@@ -3017,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "swap",
           "package": "air",
@@ -3026,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "swap",
           "normalized": "(a,b)-\u003e(b,a)",
@@ -3040,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "take",
           "package": "air",
@@ -3049,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "take",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -3063,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "tenth",
           "package": "air",
@@ -3072,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "tenth",
           "normalized": "[a]-\u003eMaybe a",
@@ -3086,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "third",
           "package": "air",
@@ -3095,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "third",
           "normalized": "[a]-\u003eMaybe a",
@@ -3109,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "times",
           "package": "air",
@@ -3118,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "times",
           "normalized": "a-\u003eb-\u003e[a]",
@@ -3132,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "to_a",
           "package": "air",
@@ -3141,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "to_a",
           "normalized": "[a]-\u003eArray Int a",
@@ -3155,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "to_a'",
           "package": "air",
@@ -3164,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "to_a'",
           "normalized": "(a,a)-\u003e[b]-\u003eArray a b",
@@ -3178,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "to_f",
           "package": "air",
@@ -3187,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "to_f",
           "normalized": "a-\u003eb",
@@ -3201,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "to_h",
           "package": "air",
@@ -3210,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "to_h",
           "normalized": "[(a,b)]-\u003eMap a b",
@@ -3224,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "to_list",
           "package": "air",
@@ -3233,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "to_list",
           "normalized": "a b-\u003e[b]",
@@ -3247,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "to_s",
           "package": "air",
@@ -3256,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "to_s",
           "normalized": "a-\u003eString",
@@ -3270,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "to_set",
           "package": "air",
@@ -3279,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "to_set",
           "normalized": "[a]-\u003eSet a",
@@ -3293,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "trace'",
           "package": "air",
@@ -3302,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "trace'",
           "normalized": "a-\u003ea",
@@ -3316,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "tuple2",
           "package": "air",
@@ -3325,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "tuple2",
           "normalized": "[a]-\u003eMaybe(a,a)",
@@ -3339,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "tuple3",
           "package": "air",
@@ -3348,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "tuple3",
           "normalized": "[a]-\u003eMaybe(a,a,a)",
@@ -3362,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "unique",
           "package": "air",
@@ -3371,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "unique",
           "normalized": "[a]-\u003e[a]",
@@ -3385,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "upper",
           "package": "air",
@@ -3394,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "upper",
           "normalized": "String-\u003eString",
@@ -3408,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "upto",
           "package": "air",
@@ -3417,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "upto",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -3431,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.Light",
           "name": "void",
           "package": "air",
@@ -3440,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Air Light",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.Light",
           "name": "void",
           "normalized": "a b-\u003ea()",
@@ -3454,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.SimpleMath",
           "name": "SimpleMath",
           "package": "air",
@@ -3462,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Air SimpleMath",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.SimpleMath",
           "name": "SimpleMath",
           "package": "air",
@@ -3475,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.SimpleMath",
           "name": "explode",
           "package": "air",
@@ -3484,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "Air SimpleMath",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.SimpleMath",
           "name": "explode",
           "normalized": "a-\u003e[Int]",
@@ -3498,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.SimpleMath",
           "name": "hist",
           "package": "air",
@@ -3507,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Air SimpleMath",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.SimpleMath",
           "name": "hist",
           "normalized": "(a,a)-\u003e[a]-\u003eArray a b",
@@ -3521,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.SimpleMath",
           "name": "powerslice",
           "package": "air",
@@ -3530,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Air SimpleMath",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.SimpleMath",
           "name": "powerslice",
           "normalized": "[a]-\u003e[[a]]",
@@ -3544,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.TH.Air",
           "name": "Air",
           "package": "air",
@@ -3552,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Air TH Air",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.TH.Air",
           "name": "Air",
           "package": "air",
@@ -3565,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.TH.Air",
           "name": "tuple",
           "package": "air",
@@ -3574,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Air TH Air",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.TH.Air",
           "name": "tuple",
           "normalized": "Int-\u003eExpQ",
@@ -3588,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.TH.Default",
           "name": "Default",
           "package": "air",
@@ -3596,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Air TH Default",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.TH.Default",
           "name": "Default",
           "package": "air",
@@ -3609,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.TH.Default",
           "name": "mkDefault",
           "package": "air",
@@ -3618,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Air TH Default",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.TH.Default",
           "name": "mkDefault",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3633,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.TH.Here",
           "name": "Here",
           "package": "air",
@@ -3641,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Air TH Here",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.TH.Here",
           "name": "Here",
           "package": "air",
@@ -3654,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.TH.Here",
           "name": "here",
           "package": "air",
@@ -3663,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Air TH Here",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.TH.Here",
           "name": "here",
           "package": "air",
@@ -3675,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air.TH",
           "name": "TH",
           "package": "air",
@@ -3683,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Air TH",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air.TH",
           "name": "TH",
           "package": "air",
@@ -3696,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:11 UTC 2014",
           "module": "Air",
           "name": "Air",
           "package": "air",
@@ -3704,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Air",
+          "indexed": "2014-03-11T17:09:11",
           "module": "Air",
           "name": "Air",
           "package": "air",

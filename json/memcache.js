@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "memcache"
+        "phrase": "memcache",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA memcache client.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Client",
           "name": "Client",
           "package": "memcache",
@@ -28,6 +29,7 @@
         "index": {
           "description": "memcache client",
           "hierarchy": "Database Memcache Client",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Client",
           "name": "Client",
           "package": "memcache",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMemcache related errors and exception handling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "Errors",
           "package": "memcache",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Memcache related errors and exception handling",
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "Errors",
           "package": "memcache",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions that may be thrown by Memcache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemcacheError",
           "package": "memcache",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Exceptions that may be thrown by Memcache",
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemcacheError",
           "package": "memcache",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemErrInvalidArgs",
           "package": "memcache",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemErrInvalidArgs",
           "package": "memcache",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemErrKeyExists",
           "package": "memcache",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemErrKeyExists",
           "package": "memcache",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemErrNoKey",
           "package": "memcache",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemErrNoKey",
           "package": "memcache",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemErrOutOfMemory",
           "package": "memcache",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemErrOutOfMemory",
           "package": "memcache",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemErrStoreFailed",
           "package": "memcache",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemErrStoreFailed",
           "package": "memcache",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemErrUnknownCmd",
           "package": "memcache",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemErrUnknownCmd",
           "package": "memcache",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemErrValueNonNumeric",
           "package": "memcache",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemErrValueNonNumeric",
           "package": "memcache",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "MemErrValueTooLarge",
           "package": "memcache",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "MemErrValueTooLarge",
           "package": "memcache",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a status to an error. Note, not all status's are errors and so\n this is a partial function!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "statusToError",
           "package": "memcache",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Convert status to an error Note not all status are errors and so this is partial function",
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "statusToError",
           "normalized": "Status-\u003eMemcacheError",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an IncorrectResponse exception for a wrong received response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "throwIncorrectRes",
           "package": "memcache",
@@ -300,6 +325,7 @@
         "index": {
           "description": "Throw an IncorrectResponse exception for wrong received response",
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "throwIncorrectRes",
           "normalized": "Response-\u003eString-\u003eIO a",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a status to an exception. Note, not all status's are errors and so\n this is not a complete function!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Errors",
           "name": "throwStatus",
           "package": "memcache",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Convert status to an exception Note not all status are errors and so this is not complete function",
           "hierarchy": "Database Memcache Errors",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Errors",
           "name": "throwStatus",
           "normalized": "Response-\u003eIO a",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA raw, low level interface to the memcache protocol.\n\u003c/p\u003e\u003cp\u003eThe various operations are represented in full as they appear at the\n protocol level and so aren't generaly well suited for application use.\n Instead, applications should use Database.Memcache.Client which presents a\n higher level API suited for application use.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "Protocol",
           "package": "memcache",
@@ -351,6 +380,7 @@
         "index": {
           "description": "raw low level interface to the memcache protocol The various operations are represented in full as they appear at the protocol level and so aren generaly well suited for application use Instead applications should use Database.Memcache.Client which presents higher level API suited for application use",
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "Protocol",
           "package": "memcache",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "add",
           "package": "memcache",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "add",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003eFlags-\u003eExpiration-\u003eIO(Maybe Version)",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "append",
           "package": "memcache",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "append",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003eVersion-\u003eIO(Maybe Version)",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "decrement",
           "package": "memcache",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "decrement",
           "normalized": "Connection-\u003eKey-\u003eInitial-\u003eDelta-\u003eExpiration-\u003eVersion-\u003eIO(Maybe(Word,Version))",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "delete",
           "package": "memcache",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "delete",
           "normalized": "Connection-\u003eKey-\u003eVersion-\u003eIO Bool",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "flush",
           "package": "memcache",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "flush",
           "normalized": "Connection-\u003eMaybe Expiration-\u003eIO()",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "gat",
           "package": "memcache",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "gat",
           "normalized": "Connection-\u003eKey-\u003eExpiration-\u003eIO(Maybe(Value,Flags,Version))",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "get",
           "package": "memcache",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "get",
           "normalized": "Connection-\u003eKey-\u003eIO(Maybe(Value,Flags,Version))",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "increment",
           "package": "memcache",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "increment",
           "normalized": "Connection-\u003eKey-\u003eInitial-\u003eDelta-\u003eExpiration-\u003eVersion-\u003eIO(Maybe(Word,Version))",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "noop",
           "package": "memcache",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "noop",
           "normalized": "Connection-\u003eIO()",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "prepend",
           "package": "memcache",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "prepend",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003eVersion-\u003eIO(Maybe Version)",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "quit",
           "package": "memcache",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "quit",
           "normalized": "Connection-\u003eIO()",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "replace",
           "package": "memcache",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "replace",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003eFlags-\u003eExpiration-\u003eVersion-\u003eIO(Maybe Version)",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "set",
           "package": "memcache",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "set",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003eFlags-\u003eExpiration-\u003eIO Version",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "set'",
           "package": "memcache",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "set'",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003eFlags-\u003eExpiration-\u003eVersion-\u003eIO(Maybe Version)",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "stats",
           "package": "memcache",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "stats",
           "normalized": "Connection-\u003eMaybe Key-\u003eIO(Maybe[(ByteString,ByteString)])",
@@ -709,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "touch",
           "package": "memcache",
@@ -718,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "touch",
           "normalized": "Connection-\u003eKey-\u003eExpiration-\u003eIO(Maybe Version)",
@@ -732,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Protocol",
           "name": "version",
           "package": "memcache",
@@ -741,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Protocol",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Protocol",
           "name": "version",
           "normalized": "Connection-\u003eIO ByteString",
@@ -756,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSASL authentication support for memcached.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.SASL",
           "name": "SASL",
           "package": "memcache",
@@ -765,6 +830,7 @@
         "index": {
           "description": "SASL authentication support for memcached",
           "hierarchy": "Database Memcache SASL",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.SASL",
           "name": "SASL",
           "package": "memcache",
@@ -779,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePassword for authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.SASL",
           "name": "Password",
           "package": "memcache",
@@ -788,6 +855,7 @@
         "index": {
           "description": "Password for authentication",
           "hierarchy": "Database Memcache SASL",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.SASL",
           "name": "Password",
           "package": "memcache",
@@ -802,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsername for authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.SASL",
           "name": "Username",
           "package": "memcache",
@@ -811,6 +880,7 @@
         "index": {
           "description": "Username for authentication",
           "hierarchy": "Database Memcache SASL",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.SASL",
           "name": "Username",
           "package": "memcache",
@@ -825,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform SASL authentication with the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.SASL",
           "name": "authenticate",
           "package": "memcache",
@@ -835,6 +906,7 @@
         "index": {
           "description": "Perform SASL authentication with the server",
           "hierarchy": "Database Memcache SASL",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.SASL",
           "name": "authenticate",
           "normalized": "Connection-\u003eUsername-\u003ePassword-\u003eIO Bool",
@@ -850,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandles the connections between a memcache client and the various servers\n that make up the cluster.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Server",
           "name": "Server",
           "package": "memcache",
@@ -859,6 +932,7 @@
         "index": {
           "description": "Handles the connections between memcache client and the various servers that make up the cluster",
           "hierarchy": "Database Memcache Server",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Server",
           "name": "Server",
           "package": "memcache",
@@ -873,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Memcache connection handle.\n XXX: Should make abstract\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Server",
           "name": "Connection",
           "package": "memcache",
@@ -882,6 +957,7 @@
         "index": {
           "description": "Memcache connection handle XXX Should make abstract",
           "hierarchy": "Database Memcache Server",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Server",
           "name": "Connection",
           "package": "memcache",
@@ -895,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Server",
           "name": "Conn",
           "package": "memcache",
@@ -904,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Server",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Server",
           "name": "Conn",
           "package": "memcache",
@@ -917,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Server",
           "name": "conn",
           "package": "memcache",
@@ -926,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Server",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Server",
           "name": "conn",
           "package": "memcache",
@@ -939,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablish a new connection to a memcache backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Server",
           "name": "newMemcacheClient",
           "package": "memcache",
@@ -949,6 +1030,7 @@
         "index": {
           "description": "Establish new connection to memcache backend",
           "hierarchy": "Database Memcache Server",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Server",
           "name": "newMemcacheClient",
           "normalized": "HostName-\u003ePortNumber-\u003eIO Connection",
@@ -965,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a single response from the memcache cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Server",
           "name": "recv",
           "package": "memcache",
@@ -975,6 +1058,7 @@
         "index": {
           "description": "Retrieve single response from the memcache cluster",
           "hierarchy": "Database Memcache Server",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Server",
           "name": "recv",
           "normalized": "Socket-\u003eIO Response",
@@ -990,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a request to the memcache cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Server",
           "name": "send",
           "package": "memcache",
@@ -1000,6 +1085,7 @@
         "index": {
           "description": "Send request to the memcache cluster",
           "hierarchy": "Database Memcache Server",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Server",
           "name": "send",
           "normalized": "Socket-\u003eRequest-\u003eIO()",
@@ -1015,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a receieve a single request/response pair to the memcache cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Server",
           "name": "sendRecv",
           "package": "memcache",
@@ -1025,6 +1112,7 @@
         "index": {
           "description": "Send receieve single request response pair to the memcache cluster",
           "hierarchy": "Database Memcache Server",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Server",
           "name": "sendRecv",
           "normalized": "Connection-\u003eRequest-\u003eIO Response",
@@ -1041,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStores the various types needed by memcache. Mostly concerned with the\n representation of the protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Types",
           "package": "memcache",
@@ -1050,6 +1139,7 @@
         "index": {
           "description": "Stores the various types needed by memcache Mostly concerned with the representation of the protocol",
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Types",
           "package": "memcache",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Delta",
           "package": "memcache",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Delta",
           "package": "memcache",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Expiration",
           "package": "memcache",
@@ -1092,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Expiration",
           "package": "memcache",
@@ -1105,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Extras",
           "package": "memcache",
@@ -1113,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Extras",
           "package": "memcache",
@@ -1126,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Flags",
           "package": "memcache",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Flags",
           "package": "memcache",
@@ -1147,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Header",
           "package": "memcache",
@@ -1155,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Header",
           "package": "memcache",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "IncorrectResponse",
           "package": "memcache",
@@ -1176,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "IncorrectResponse",
           "package": "memcache",
@@ -1189,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Initial",
           "package": "memcache",
@@ -1197,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Initial",
           "package": "memcache",
@@ -1210,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "K",
           "package": "memcache",
@@ -1218,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "K",
           "package": "memcache",
@@ -1230,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Key",
           "package": "memcache",
@@ -1238,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Key",
           "package": "memcache",
@@ -1251,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "OpRequest",
           "package": "memcache",
@@ -1259,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "OpRequest",
           "package": "memcache",
@@ -1272,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "OpResponse",
           "package": "memcache",
@@ -1280,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "OpResponse",
           "package": "memcache",
@@ -1293,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ProtocolError",
           "package": "memcache",
@@ -1301,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ProtocolError",
           "package": "memcache",
@@ -1314,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Q",
           "package": "memcache",
@@ -1322,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Q",
           "package": "memcache",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Request",
           "package": "memcache",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Request",
           "package": "memcache",
@@ -1355,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Response",
           "package": "memcache",
@@ -1363,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Response",
           "package": "memcache",
@@ -1376,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "SEIncr",
           "package": "memcache",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "SEIncr",
           "package": "memcache",
@@ -1397,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "SESet",
           "package": "memcache",
@@ -1405,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "SESet",
           "package": "memcache",
@@ -1418,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "SETouch",
           "package": "memcache",
@@ -1426,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "SETouch",
           "package": "memcache",
@@ -1439,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Status",
           "package": "memcache",
@@ -1447,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Status",
           "package": "memcache",
@@ -1460,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Value",
           "package": "memcache",
@@ -1468,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Value",
           "package": "memcache",
@@ -1481,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Version",
           "package": "memcache",
@@ -1489,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Version",
           "package": "memcache",
@@ -1502,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ErrInvalidArgs",
           "package": "memcache",
@@ -1511,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ErrInvalidArgs",
           "package": "memcache",
@@ -1524,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ErrItemNotStored",
           "package": "memcache",
@@ -1533,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ErrItemNotStored",
           "package": "memcache",
@@ -1546,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ErrKeyExists",
           "package": "memcache",
@@ -1555,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ErrKeyExists",
           "package": "memcache",
@@ -1568,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ErrKeyNotFound",
           "package": "memcache",
@@ -1577,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ErrKeyNotFound",
           "package": "memcache",
@@ -1590,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ErrOutOfMemory",
           "package": "memcache",
@@ -1599,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ErrOutOfMemory",
           "package": "memcache",
@@ -1612,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ErrUnknownCommand",
           "package": "memcache",
@@ -1621,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ErrUnknownCommand",
           "package": "memcache",
@@ -1634,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ErrValueNonNumeric",
           "package": "memcache",
@@ -1643,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ErrValueNonNumeric",
           "package": "memcache",
@@ -1656,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ErrValueTooLarge",
           "package": "memcache",
@@ -1665,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ErrValueTooLarge",
           "package": "memcache",
@@ -1678,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Header",
           "package": "memcache",
@@ -1687,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Header",
           "package": "memcache",
@@ -1700,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "IncludeKey",
           "package": "memcache",
@@ -1709,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "IncludeKey",
           "package": "memcache",
@@ -1722,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "IncorrectResponse",
           "package": "memcache",
@@ -1731,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "IncorrectResponse",
           "package": "memcache",
@@ -1744,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Loud",
           "package": "memcache",
@@ -1753,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Loud",
           "package": "memcache",
@@ -1766,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "NoError",
           "package": "memcache",
@@ -1775,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "NoError",
           "package": "memcache",
@@ -1788,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "NoKey",
           "package": "memcache",
@@ -1797,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "NoKey",
           "package": "memcache",
@@ -1810,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ProtocolError",
           "package": "memcache",
@@ -1819,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ProtocolError",
           "package": "memcache",
@@ -1832,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Quiet",
           "package": "memcache",
@@ -1841,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Quiet",
           "package": "memcache",
@@ -1854,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Req",
           "package": "memcache",
@@ -1863,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Req",
           "package": "memcache",
@@ -1876,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqAdd",
           "package": "memcache",
@@ -1885,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqAdd",
           "package": "memcache",
@@ -1898,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqAppend",
           "package": "memcache",
@@ -1907,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqAppend",
           "package": "memcache",
@@ -1920,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqDecrement",
           "package": "memcache",
@@ -1929,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqDecrement",
           "package": "memcache",
@@ -1942,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqDelete",
           "package": "memcache",
@@ -1951,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqDelete",
           "package": "memcache",
@@ -1964,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqFlush",
           "package": "memcache",
@@ -1973,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqFlush",
           "package": "memcache",
@@ -1986,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqGAT",
           "package": "memcache",
@@ -1995,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqGAT",
           "package": "memcache",
@@ -2008,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqGet",
           "package": "memcache",
@@ -2017,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqGet",
           "package": "memcache",
@@ -2030,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqIncrement",
           "package": "memcache",
@@ -2039,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqIncrement",
           "package": "memcache",
@@ -2052,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqNoop",
           "package": "memcache",
@@ -2061,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqNoop",
           "package": "memcache",
@@ -2074,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqPrepend",
           "package": "memcache",
@@ -2083,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqPrepend",
           "package": "memcache",
@@ -2096,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqQuit",
           "package": "memcache",
@@ -2105,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqQuit",
           "package": "memcache",
@@ -2118,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqReplace",
           "package": "memcache",
@@ -2127,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqReplace",
           "package": "memcache",
@@ -2140,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqSASLList",
           "package": "memcache",
@@ -2149,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqSASLList",
           "package": "memcache",
@@ -2162,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqSASLStart",
           "package": "memcache",
@@ -2171,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqSASLStart",
           "package": "memcache",
@@ -2184,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqSASLStep",
           "package": "memcache",
@@ -2193,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqSASLStep",
           "package": "memcache",
@@ -2206,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqSet",
           "package": "memcache",
@@ -2215,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqSet",
           "package": "memcache",
@@ -2228,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqStat",
           "package": "memcache",
@@ -2237,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqStat",
           "package": "memcache",
@@ -2250,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqTouch",
           "package": "memcache",
@@ -2259,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqTouch",
           "package": "memcache",
@@ -2272,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ReqVersion",
           "package": "memcache",
@@ -2281,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ReqVersion",
           "package": "memcache",
@@ -2294,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "Res",
           "package": "memcache",
@@ -2303,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "Res",
           "package": "memcache",
@@ -2316,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResAdd",
           "package": "memcache",
@@ -2325,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResAdd",
           "package": "memcache",
@@ -2338,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResAppend",
           "package": "memcache",
@@ -2347,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResAppend",
           "package": "memcache",
@@ -2360,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResDecrement",
           "package": "memcache",
@@ -2369,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResDecrement",
           "package": "memcache",
@@ -2382,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResDelete",
           "package": "memcache",
@@ -2391,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResDelete",
           "package": "memcache",
@@ -2404,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResFlush",
           "package": "memcache",
@@ -2413,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResFlush",
           "package": "memcache",
@@ -2426,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResGAT",
           "package": "memcache",
@@ -2435,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResGAT",
           "package": "memcache",
@@ -2448,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResGATK",
           "package": "memcache",
@@ -2457,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResGATK",
           "package": "memcache",
@@ -2470,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResGet",
           "package": "memcache",
@@ -2479,6 +2700,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResGet",
           "package": "memcache",
@@ -2492,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResGetK",
           "package": "memcache",
@@ -2501,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResGetK",
           "package": "memcache",
@@ -2514,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResIncrement",
           "package": "memcache",
@@ -2523,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResIncrement",
           "package": "memcache",
@@ -2536,6 +2762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResNoop",
           "package": "memcache",
@@ -2545,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResNoop",
           "package": "memcache",
@@ -2558,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResPrepend",
           "package": "memcache",
@@ -2567,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResPrepend",
           "package": "memcache",
@@ -2580,6 +2810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResQuit",
           "package": "memcache",
@@ -2589,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResQuit",
           "package": "memcache",
@@ -2602,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResReplace",
           "package": "memcache",
@@ -2611,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResReplace",
           "package": "memcache",
@@ -2624,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResSASLList",
           "package": "memcache",
@@ -2633,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResSASLList",
           "package": "memcache",
@@ -2646,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResSASLStart",
           "package": "memcache",
@@ -2655,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResSASLStart",
           "package": "memcache",
@@ -2668,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResSASLStep",
           "package": "memcache",
@@ -2677,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResSASLStep",
           "package": "memcache",
@@ -2690,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResSet",
           "package": "memcache",
@@ -2699,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResSet",
           "package": "memcache",
@@ -2712,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResStat",
           "package": "memcache",
@@ -2721,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResStat",
           "package": "memcache",
@@ -2734,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResTouch",
           "package": "memcache",
@@ -2743,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResTouch",
           "package": "memcache",
@@ -2756,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "ResVersion",
           "package": "memcache",
@@ -2765,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "ResVersion",
           "package": "memcache",
@@ -2778,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "SEIncr",
           "package": "memcache",
@@ -2787,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "SEIncr",
           "package": "memcache",
@@ -2800,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "SESet",
           "package": "memcache",
@@ -2809,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "SESet",
           "package": "memcache",
@@ -2822,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "SETouch",
           "package": "memcache",
@@ -2831,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "SETouch",
           "package": "memcache",
@@ -2844,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "SaslAuthContinue",
           "package": "memcache",
@@ -2853,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "SaslAuthContinue",
           "package": "memcache",
@@ -2866,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "SaslAuthFail",
           "package": "memcache",
@@ -2875,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "SaslAuthFail",
           "package": "memcache",
@@ -2888,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "bodyLen",
           "package": "memcache",
@@ -2897,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "bodyLen",
           "package": "memcache",
@@ -2910,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "cas",
           "package": "memcache",
@@ -2919,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "cas",
           "package": "memcache",
@@ -2931,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "emptyReq",
           "package": "memcache",
@@ -2940,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "emptyReq",
           "package": "memcache",
@@ -2953,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "extraLen",
           "package": "memcache",
@@ -2962,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "extraLen",
           "package": "memcache",
@@ -2975,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "increspActual",
           "package": "memcache",
@@ -2984,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "increspActual",
           "package": "memcache",
@@ -2997,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "increspMessage",
           "package": "memcache",
@@ -3006,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "increspMessage",
           "package": "memcache",
@@ -3019,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "keyLen",
           "package": "memcache",
@@ -3028,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "keyLen",
           "package": "memcache",
@@ -3041,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "mEMCACHE_HEADER_SIZE",
           "package": "memcache",
@@ -3050,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "mEMCACHE_HEADER_SIZE",
           "package": "memcache",
@@ -3063,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "op",
           "package": "memcache",
@@ -3072,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "op",
           "package": "memcache",
@@ -3084,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "opaque",
           "package": "memcache",
@@ -3093,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "opaque",
           "package": "memcache",
@@ -3105,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "protocolHeader",
           "package": "memcache",
@@ -3114,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "protocolHeader",
           "package": "memcache",
@@ -3127,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "protocolMessage",
           "package": "memcache",
@@ -3136,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "protocolMessage",
           "package": "memcache",
@@ -3149,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "protocolParams",
           "package": "memcache",
@@ -3158,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "protocolParams",
           "normalized": "[String]",
@@ -3173,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "reqCas",
           "package": "memcache",
@@ -3182,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "reqCas",
           "package": "memcache",
@@ -3195,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "reqOp",
           "package": "memcache",
@@ -3204,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "reqOp",
           "package": "memcache",
@@ -3217,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "reqOpaque",
           "package": "memcache",
@@ -3226,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "reqOpaque",
           "package": "memcache",
@@ -3239,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "resCas",
           "package": "memcache",
@@ -3248,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "resCas",
           "package": "memcache",
@@ -3261,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "resOp",
           "package": "memcache",
@@ -3270,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "resOp",
           "package": "memcache",
@@ -3283,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "resOpaque",
           "package": "memcache",
@@ -3292,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "resOpaque",
           "package": "memcache",
@@ -3305,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "resStatus",
           "package": "memcache",
@@ -3314,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "resStatus",
           "package": "memcache",
@@ -3327,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Types",
           "name": "status",
           "package": "memcache",
@@ -3336,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Database Memcache Types",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Types",
           "name": "status",
           "package": "memcache",
@@ -3349,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeals with serializing and parsing memcached requests and responses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "Wire",
           "package": "memcache",
@@ -3358,6 +3659,7 @@
         "index": {
           "description": "Deals with serializing and parsing memcached requests and responses",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "Wire",
           "package": "memcache",
@@ -3372,6 +3674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a Response body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "dzBody",
           "package": "memcache",
@@ -3382,6 +3685,7 @@
         "index": {
           "description": "Deserialize Response body",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "dzBody",
           "normalized": "Header-\u003eGet Response",
@@ -3398,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a Response body from a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "dzBody'",
           "package": "memcache",
@@ -3408,6 +3713,7 @@
         "index": {
           "description": "Deserialize Response body from ByteString",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "dzBody'",
           "normalized": "Header-\u003eByteString-\u003eResponse",
@@ -3424,6 +3730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a Header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "dzHeader",
           "package": "memcache",
@@ -3434,6 +3741,7 @@
         "index": {
           "description": "Deserialize Header",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "dzHeader",
           "package": "memcache",
@@ -3448,6 +3756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a Header from a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "dzHeader'",
           "package": "memcache",
@@ -3458,6 +3767,7 @@
         "index": {
           "description": "Deserialize Header from ByteString",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "dzHeader'",
           "normalized": "ByteString-\u003eHeader",
@@ -3474,6 +3784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a Response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "dzResponse",
           "package": "memcache",
@@ -3484,6 +3795,7 @@
         "index": {
           "description": "Deserialize Response",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "dzResponse",
           "package": "memcache",
@@ -3498,6 +3810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a Response from a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "dzResponse'",
           "package": "memcache",
@@ -3508,6 +3821,7 @@
         "index": {
           "description": "Deserialize Response from ByteString",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "dzResponse'",
           "normalized": "ByteString-\u003eResponse",
@@ -3524,6 +3838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a request to a ByteString Builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "szRequest",
           "package": "memcache",
@@ -3534,6 +3849,7 @@
         "index": {
           "description": "Serialize request to ByteString Builder",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "szRequest",
           "normalized": "Request-\u003eBuilder",
@@ -3550,6 +3866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a request to a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:06 UTC 2014",
           "module": "Database.Memcache.Wire",
           "name": "szRequest'",
           "package": "memcache",
@@ -3560,6 +3877,7 @@
         "index": {
           "description": "Serialize request to ByteString",
           "hierarchy": "Database Memcache Wire",
+          "indexed": "2014-03-11T19:16:06",
           "module": "Database.Memcache.Wire",
           "name": "szRequest'",
           "normalized": "Request-\u003eByteString",

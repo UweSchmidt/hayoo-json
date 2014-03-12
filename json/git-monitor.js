@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "git-monitor"
+        "phrase": "git-monitor",
+        "type": "phrase"
       },
       "type": "context"
     }

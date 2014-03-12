@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aws-sdk-xml-unordered"
+        "phrase": "aws-sdk-xml-unordered",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "Unordered",
           "package": "aws-sdk-xml-unordered",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "Unordered",
           "package": "aws-sdk-xml-unordered",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "ElementName",
           "package": "aws-sdk-xml-unordered",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "ElementName",
           "package": "aws-sdk-xml-unordered",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "ElementPath",
           "package": "aws-sdk-xml-unordered",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "ElementPath",
           "package": "aws-sdk-xml-unordered",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "ParseError",
           "package": "aws-sdk-xml-unordered",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "ParseError",
           "package": "aws-sdk-xml-unordered",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "XmlElement",
           "package": "aws-sdk-xml-unordered",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "XmlElement",
           "package": "aws-sdk-xml-unordered",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "(.-)",
           "package": "aws-sdk-xml-unordered",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "(.-) .-",
           "normalized": "ElementName-\u003eElementPath-\u003eElementPath",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe operator like aeson's (.:).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "(.\u003c)",
           "package": "aws-sdk-xml-unordered",
@@ -157,6 +170,7 @@
         "index": {
           "description": "the operator like aeson",
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "(.\u003c) .\u003c",
           "normalized": "XmlElement-\u003eText-\u003ea b",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix version of \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "(.=)",
           "package": "aws-sdk-xml-unordered",
@@ -182,6 +197,7 @@
         "index": {
           "description": "infix version of Node",
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "(.=) .=",
           "normalized": "ElementName-\u003e[ElementPath]-\u003eElementPath",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "ParseError",
           "package": "aws-sdk-xml-unordered",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "ParseError",
           "package": "aws-sdk-xml-unordered",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "anytag",
           "package": "aws-sdk-xml-unordered",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "anytag",
           "package": "aws-sdk-xml-unordered",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "content",
           "package": "aws-sdk-xml-unordered",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "content",
           "normalized": "XmlElement-\u003ea b",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "convert",
           "package": "aws-sdk-xml-unordered",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "convert",
           "normalized": "(XmlElement-\u003ea b)-\u003eConduitM XmlElement c a b",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "convertConduit",
           "package": "aws-sdk-xml-unordered",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "convertConduit",
           "normalized": "(XmlElement-\u003ea b)-\u003eConduit XmlElement a b",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "convertMany",
           "package": "aws-sdk-xml-unordered",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "convertMany",
           "normalized": "(XmlElement-\u003ea b)-\u003eConduitM XmlElement c a[b]",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function throws error if the result of \u003ccode\u003e\u003ca\u003eelementM\u003c/a\u003e\u003c/code\u003e is Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "element",
           "package": "aws-sdk-xml-unordered",
@@ -343,6 +372,7 @@
         "index": {
           "description": "This function throws error if the result of elementM is Nothing",
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "element",
           "normalized": "Text-\u003e(XmlElement-\u003ea b)-\u003eXmlElement-\u003ea b",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap from \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eXmlElement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "elementConduit",
           "package": "aws-sdk-xml-unordered",
@@ -368,6 +399,7 @@
         "index": {
           "description": "map from Event to XmlElement",
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "elementConduit",
           "normalized": "ElementPath-\u003eConduit Event a XmlElement",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etop-level xml element consumer.\n e.g.,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "elementConsumer",
           "package": "aws-sdk-xml-unordered",
@@ -394,6 +427,7 @@
         "index": {
           "description": "top-level xml element consumer e.g",
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "elementConsumer",
           "package": "aws-sdk-xml-unordered",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'elementM conv name el' return Nothing if \u003ccode\u003eel\u003c/code\u003e doesn't have any elements named \u003ca\u003ename\u003c/a\u003e. otherwise, return 'Just a'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "elementM",
           "package": "aws-sdk-xml-unordered",
@@ -417,6 +452,7 @@
         "index": {
           "description": "elementM conv name el return Nothing if el doesn have any elements named name otherwise return Just",
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "elementM",
           "normalized": "Text-\u003e(XmlElement-\u003ea b)-\u003eXmlElement-\u003ea(Maybe b)",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "elements",
           "package": "aws-sdk-xml-unordered",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "elements",
           "normalized": "Text-\u003eText-\u003e(XmlElement-\u003ea b)-\u003eXmlElement-\u003ea[b]",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "end",
           "package": "aws-sdk-xml-unordered",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "end",
           "normalized": "ElementName-\u003eElementPath",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "parseErrorMessage",
           "package": "aws-sdk-xml-unordered",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "parseErrorMessage",
           "package": "aws-sdk-xml-unordered",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "tag",
           "package": "aws-sdk-xml-unordered",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "tag",
           "normalized": "a-\u003eElementName",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif conversion is success, it consume an element. otherwise, it does not consume any elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:54 UTC 2014",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "tryConvert",
           "package": "aws-sdk-xml-unordered",
@@ -532,6 +577,7 @@
         "index": {
           "description": "if conversion is success it consume an element otherwise it does not consume any elements",
           "hierarchy": "Cloud AWS Lib Parser Unordered",
+          "indexed": "2014-03-11T17:15:54",
           "module": "Cloud.AWS.Lib.Parser.Unordered",
           "name": "tryConvert",
           "normalized": "(XmlElement-\u003ea b)-\u003eConduitM XmlElement c a(Maybe b)",

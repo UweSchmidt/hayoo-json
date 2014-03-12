@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cpython"
+        "phrase": "cpython",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Constants",
           "name": "Constants",
           "package": "cpython",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "CPython Constants",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Constants",
           "name": "Constants",
           "package": "cpython",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Python \u003ccode\u003eFalse\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Constants",
           "name": "false",
           "package": "cpython",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The Python False object",
           "hierarchy": "CPython Constants",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Constants",
           "name": "false",
           "package": "cpython",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Constants",
           "name": "isFalse",
           "package": "cpython",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "CPython Constants",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Constants",
           "name": "isFalse",
           "normalized": "SomeObject-\u003eIO Bool",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Constants",
           "name": "isNone",
           "package": "cpython",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "CPython Constants",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Constants",
           "name": "isNone",
           "normalized": "SomeObject-\u003eIO Bool",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Constants",
           "name": "isTrue",
           "package": "cpython",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "CPython Constants",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Constants",
           "name": "isTrue",
           "normalized": "SomeObject-\u003eIO Bool",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Python \u003ccode\u003eNone\u003c/code\u003e object, denoting lack of value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Constants",
           "name": "none",
           "package": "cpython",
@@ -145,6 +156,7 @@
         "index": {
           "description": "The Python None object denoting lack of value",
           "hierarchy": "CPython Constants",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Constants",
           "name": "none",
           "package": "cpython",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Python \u003ccode\u003eTrue\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Constants",
           "name": "true",
           "package": "cpython",
@@ -168,6 +181,7 @@
         "index": {
           "description": "The Python True object",
           "hierarchy": "CPython Constants",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Constants",
           "name": "true",
           "package": "cpython",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Iterator",
           "name": "Iterator",
           "package": "cpython",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Iterator",
           "name": "Iterator",
           "package": "cpython",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Iterator",
           "name": "Iterator",
           "package": "cpython",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Iterator",
           "name": "Iterator",
           "package": "cpython",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Iterator",
           "name": "SomeIterator",
           "package": "cpython",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Iterator",
           "name": "SomeIterator",
           "package": "cpython",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to convert an object to a generic \u003ccode\u003e\u003ca\u003eIterator\u003c/a\u003e\u003c/code\u003e. If the object does\n not implement the iterator protocol, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Iterator",
           "name": "castToIterator",
           "package": "cpython",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Attempt to convert an object to generic Iterator If the object does not implement the iterator protocol returns Nothing",
           "hierarchy": "CPython Protocols Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Iterator",
           "name": "castToIterator",
           "normalized": "a-\u003eIO(Maybe SomeIterator)",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next value from the iteration, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if there are no\n remaining items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Iterator",
           "name": "next",
           "package": "cpython",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Return the next value from the iteration or Nothing if there are no remaining items",
           "hierarchy": "CPython Protocols Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Iterator",
           "name": "next",
           "normalized": "a-\u003eIO(Maybe SomeObject)",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Iterator",
           "name": "toIterator",
           "package": "cpython",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Iterator",
           "name": "toIterator",
           "normalized": "a-\u003eSomeIterator",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "Mapping",
           "package": "cpython",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "Mapping",
           "package": "cpython",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "Mapping",
           "package": "cpython",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "Mapping",
           "package": "cpython",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "SomeMapping",
           "package": "cpython",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "SomeMapping",
           "package": "cpython",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "castToMapping",
           "package": "cpython",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "castToMapping",
           "normalized": "a-\u003eIO(Maybe SomeMapping)",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "deleteItem",
           "package": "cpython",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "deleteItem",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "getItem",
           "package": "cpython",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "getItem",
           "normalized": "a-\u003eb-\u003eIO SomeObject",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "hasKey",
           "package": "cpython",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "hasKey",
           "normalized": "a-\u003eb-\u003eIO Bool",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "items",
           "package": "cpython",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "items",
           "normalized": "a-\u003eIO List",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "keys",
           "package": "cpython",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "keys",
           "normalized": "a-\u003eIO List",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "setItem",
           "package": "cpython",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "setItem",
           "normalized": "a-\u003eb-\u003ec-\u003eIO()",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "size",
           "package": "cpython",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "size",
           "normalized": "a-\u003eIO Integer",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "toMapping",
           "package": "cpython",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "toMapping",
           "normalized": "a-\u003eSomeMapping",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Mapping",
           "name": "values",
           "package": "cpython",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Mapping",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Mapping",
           "name": "values",
           "normalized": "a-\u003eIO List",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "Number",
           "package": "cpython",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "Number",
           "package": "cpython",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "Number",
           "package": "cpython",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "Number",
           "package": "cpython",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "SomeNumber",
           "package": "cpython",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "SomeNumber",
           "package": "cpython",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "absolute",
           "package": "cpython",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "absolute",
           "normalized": "a-\u003eIO SomeNumber",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "add",
           "package": "cpython",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "add",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -726,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "and",
           "package": "cpython",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "and",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "castToNumber",
           "package": "cpython",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "castToNumber",
           "normalized": "a-\u003eIO(Maybe SomeNumber)",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "divmod",
           "package": "cpython",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "divmod",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "floorDivide",
           "package": "cpython",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "floorDivide",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -820,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceAdd",
           "package": "cpython",
@@ -829,6 +900,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceAdd",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceAnd",
           "package": "cpython",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceAnd",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -868,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceFloorDivide",
           "package": "cpython",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceFloorDivide",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceMultiply",
           "package": "cpython",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceMultiply",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -916,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceOr",
           "package": "cpython",
@@ -925,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceOr",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlacePower",
           "package": "cpython",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlacePower",
           "normalized": "a-\u003eb-\u003eMaybe c-\u003eIO SomeNumber",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceRemainder",
           "package": "cpython",
@@ -973,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceRemainder",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceShiftL",
           "package": "cpython",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceShiftL",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1012,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceShiftR",
           "package": "cpython",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceShiftR",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1036,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceSubtract",
           "package": "cpython",
@@ -1045,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceSubtract",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1060,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceTrueDivide",
           "package": "cpython",
@@ -1069,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceTrueDivide",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceXor",
           "package": "cpython",
@@ -1093,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "inPlaceXor",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1108,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "invert",
           "package": "cpython",
@@ -1117,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "invert",
           "normalized": "a-\u003eIO SomeNumber",
@@ -1131,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "multiply",
           "package": "cpython",
@@ -1140,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "multiply",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1154,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "negative",
           "package": "cpython",
@@ -1163,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "negative",
           "normalized": "a-\u003eIO SomeNumber",
@@ -1177,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "or",
           "package": "cpython",
@@ -1186,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "or",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1200,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "positive",
           "package": "cpython",
@@ -1209,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "positive",
           "normalized": "a-\u003eIO SomeNumber",
@@ -1223,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "power",
           "package": "cpython",
@@ -1232,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "power",
           "normalized": "a-\u003eb-\u003eMaybe c-\u003eIO SomeNumber",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "remainder",
           "package": "cpython",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "remainder",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "shiftL",
           "package": "cpython",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "shiftL",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1292,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "shiftR",
           "package": "cpython",
@@ -1301,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "shiftR",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1315,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "subtract",
           "package": "cpython",
@@ -1324,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "subtract",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1338,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "toBase",
           "package": "cpython",
@@ -1347,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "toBase",
           "normalized": "a-\u003eInteger-\u003eIO Unicode",
@@ -1362,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "toFloat",
           "package": "cpython",
@@ -1371,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "toFloat",
           "normalized": "a-\u003eIO Float",
@@ -1386,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "toInteger",
           "package": "cpython",
@@ -1395,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "toInteger",
           "normalized": "a-\u003eIO Integer",
@@ -1410,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "toNumber",
           "package": "cpython",
@@ -1419,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "toNumber",
           "normalized": "a-\u003eSomeNumber",
@@ -1434,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "trueDivide",
           "package": "cpython",
@@ -1443,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "trueDivide",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1458,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Number",
           "name": "xor",
           "package": "cpython",
@@ -1467,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Number",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Number",
           "name": "xor",
           "normalized": "a-\u003eb-\u003eIO SomeNumber",
@@ -1481,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "Object",
           "package": "cpython",
@@ -1489,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "Object",
           "package": "cpython",
@@ -1502,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "Comparison",
           "package": "cpython",
@@ -1510,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "Comparison",
           "package": "cpython",
@@ -1523,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "Concrete",
           "package": "cpython",
@@ -1531,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "Concrete",
           "package": "cpython",
@@ -1544,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "Object",
           "package": "cpython",
@@ -1552,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "Object",
           "package": "cpython",
@@ -1565,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "SomeObject",
           "package": "cpython",
@@ -1573,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "SomeObject",
           "package": "cpython",
@@ -1586,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "EQ",
           "package": "cpython",
@@ -1595,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "EQ",
           "package": "cpython",
@@ -1608,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "GE",
           "package": "cpython",
@@ -1617,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "GE",
           "package": "cpython",
@@ -1630,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "GT",
           "package": "cpython",
@@ -1639,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "GT",
           "package": "cpython",
@@ -1652,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "LE",
           "package": "cpython",
@@ -1661,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "LE",
           "package": "cpython",
@@ -1674,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "LT",
           "package": "cpython",
@@ -1683,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "LT",
           "package": "cpython",
@@ -1696,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "NE",
           "package": "cpython",
@@ -1705,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "NE",
           "package": "cpython",
@@ -1718,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "ascii",
           "package": "cpython",
@@ -1727,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "ascii",
           "normalized": "a-\u003eIO Unicode",
@@ -1742,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a bytes representation of object \u003cem\u003eself\u003c/em\u003e, or throw an exception\n on failure. This is equivalent to the Python expression \u003ccode\u003ebytes(self)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "bytes",
           "package": "cpython",
@@ -1752,6 +1903,7 @@
         "index": {
           "description": "Compute bytes representation of object self or throw an exception on failure This is equivalent to the Python expression bytes self",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "bytes",
           "normalized": "a-\u003eIO Bytes",
@@ -1767,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a callable Python object \u003cem\u003eself\u003c/em\u003e, with arguments given by the\n tuple and named arguments given by the dictionary. Returns the result of\n the call on success, or throws an exception on failure. This is the\n equivalent of the Python expression \u003ccode\u003eself(*args, **kw)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "call",
           "package": "cpython",
@@ -1777,6 +1930,7 @@
         "index": {
           "description": "Call callable Python object self with arguments given by the tuple and named arguments given by the dictionary Returns the result of the call on success or throws an exception on failure This is the equivalent of the Python expression self args kw",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "call",
           "normalized": "a-\u003eTuple-\u003eDictionary-\u003eIO SomeObject",
@@ -1792,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a callable Python object \u003cem\u003eself\u003c/em\u003e, with arguments given by the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "callArgs",
           "package": "cpython",
@@ -1802,6 +1957,7 @@
         "index": {
           "description": "Call callable Python object self with arguments given by the list",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "callArgs",
           "normalized": "a-\u003e[SomeObject]-\u003eIO SomeObject",
@@ -1818,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall the named method of object \u003cem\u003eself\u003c/em\u003e, with arguments given by the\n tuple and named arguments given by the dictionary. Returns the result of\n the call on success, or throws an exception on failure. This is the\n equivalent of the Python expression \u003ccode\u003eself.method(args)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "callMethod",
           "package": "cpython",
@@ -1828,6 +1985,7 @@
         "index": {
           "description": "Call the named method of object self with arguments given by the tuple and named arguments given by the dictionary Returns the result of the call on success or throws an exception on failure This is the equivalent of the Python expression self.method args",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "callMethod",
           "normalized": "a-\u003eText-\u003eTuple-\u003eDictionary-\u003eIO SomeObject",
@@ -1844,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall the named method of object \u003cem\u003eself\u003c/em\u003e, with arguments given by the\n list. Returns the result of the call on success, or throws an exception\n on failure. This is the equivalent of the Python expression\n \u003ccode\u003eself.method(args)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "callMethodArgs",
           "package": "cpython",
@@ -1854,6 +2013,7 @@
         "index": {
           "description": "Call the named method of object self with arguments given by the list Returns the result of the call on success or throws an exception on failure This is the equivalent of the Python expression self.method args",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "callMethodArgs",
           "normalized": "a-\u003eText-\u003e[SomeObject]-\u003eIO SomeObject",
@@ -1870,6 +2030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if the object \u003cem\u003eself\u003c/em\u003e is callable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "callable",
           "package": "cpython",
@@ -1880,6 +2041,7 @@
         "index": {
           "description": "Determine if the object self is callable",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "callable",
           "normalized": "a-\u003eIO Bool",
@@ -1895,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to cast an object to some concrete class. If the object\n isn't an instance of the class or subclass, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "cast",
           "package": "cpython",
@@ -1905,6 +2068,7 @@
         "index": {
           "description": "Attempt to cast an object to some concrete class If the object isn an instance of the class or subclass returns Nothing",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "cast",
           "normalized": "a-\u003eIO(Maybe b)",
@@ -1920,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an attribute with the given name, for object \u003cem\u003eself\u003c/em\u003e. Throws an\n exception on failure. This is the equivalent of the Python statement\n \u003ccode\u003edel self.name\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "deleteAttribute",
           "package": "cpython",
@@ -1930,6 +2095,7 @@
         "index": {
           "description": "Delete an attribute with the given name for object self Throws an exception on failure This is the equivalent of the Python statement del self.name",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "deleteAttribute",
           "normalized": "a-\u003eUnicode-\u003eIO()",
@@ -1946,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is equivalent to the Python expression \u003ccode\u003edir(self)\u003c/code\u003e, returning a\n (possibly empty) list of strings appropriate for the object argument,\n or throws an exception if there was an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "dir",
           "package": "cpython",
@@ -1956,6 +2123,7 @@
         "index": {
           "description": "This is equivalent to the Python expression dir self returning possibly empty list of strings appropriate for the object argument or throws an exception if there was an error",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "dir",
           "normalized": "a-\u003eIO List",
@@ -1971,6 +2139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve an attribute with the given name from object \u003cem\u003eself\u003c/em\u003e. Returns\n the attribute value on success, and throws an exception on failure. This\n is the equivalent of the Python expression \u003ccode\u003eself.name\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "getAttribute",
           "package": "cpython",
@@ -1981,6 +2150,7 @@
         "index": {
           "description": "Retrieve an attribute with the given name from object self Returns the attribute value on success and throws an exception on failure This is the equivalent of the Python expression self.name",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "getAttribute",
           "normalized": "a-\u003eUnicode-\u003eIO SomeObject",
@@ -1997,6 +2167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is equivalent to the Python expression \u003ccode\u003eiter(self)\u003c/code\u003e. It returns a\n new iterator for the object argument, or the object itself if the object\n is already an iterator. Throws \u003ccode\u003eTypeError\u003c/code\u003e if the object cannot be\n iterated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "getIterator",
           "package": "cpython",
@@ -2007,6 +2178,7 @@
         "index": {
           "description": "This is equivalent to the Python expression iter self It returns new iterator for the object argument or the object itself if the object is already an iterator Throws TypeError if the object cannot be iterated",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "getIterator",
           "normalized": "a-\u003eIO SomeObject",
@@ -2023,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e object corresponding to the object type of \u003cem\u003eself\u003c/em\u003e. On\n failure, throws \u003ccode\u003eSystemError\u003c/code\u003e. This is equivalent to the Python expression\n \u003ccode\u003etype(o)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "getType",
           "package": "cpython",
@@ -2033,6 +2206,7 @@
         "index": {
           "description": "Returns Type object corresponding to the object type of self On failure throws SystemError This is equivalent to the Python expression type",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "getType",
           "normalized": "a-\u003eIO Type",
@@ -2049,6 +2223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if \u003cem\u003eself\u003c/em\u003e has an attribute with the given name, and\n \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise. This is equivalent to the Python expression\n \u003ccode\u003ehasattr(self, name)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "hasAttribute",
           "package": "cpython",
@@ -2059,6 +2234,7 @@
         "index": {
           "description": "Returns True if self has an attribute with the given name and False otherwise This is equivalent to the Python expression hasattr self name",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "hasAttribute",
           "normalized": "a-\u003eUnicode-\u003eIO Bool",
@@ -2075,6 +2251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute and return the hash value of an object \u003cem\u003eself\u003c/em\u003e. On failure,\n throws an exception. This is the equivalent of the Python expression\n \u003ccode\u003ehash(self)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "hash",
           "package": "cpython",
@@ -2085,6 +2262,7 @@
         "index": {
           "description": "Compute and return the hash value of an object self On failure throws an exception This is the equivalent of the Python expression hash self",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "hash",
           "normalized": "a-\u003eIO Integer",
@@ -2100,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if \u003cem\u003einst\u003c/em\u003e is an instance of the class \u003cem\u003ecls\u003c/em\u003e or a\n subclass of \u003cem\u003ecls\u003c/em\u003e, or \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if not. On error, throws an exception.\n If \u003cem\u003ecls\u003c/em\u003e is a type object rather than a class object, \u003ccode\u003e\u003ca\u003eisInstance\u003c/a\u003e\u003c/code\u003e\n returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if \u003cem\u003einst\u003c/em\u003e is of type \u003cem\u003ecls\u003c/em\u003e. If \u003cem\u003ecls\u003c/em\u003e is a tuple, the check\n will be done against every entry in \u003cem\u003ecls\u003c/em\u003e. The result will be \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when\n at least one of the checks returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, otherwise it will be \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e. If\n \u003cem\u003einst\u003c/em\u003e is not a class instance and \u003cem\u003ecls\u003c/em\u003e is neither a type object, nor a\n class object, nor a tuple, \u003cem\u003einst\u003c/em\u003e must have a \u003ccode\u003e__class__\u003c/code\u003e attribute &#2014;\n the class relationship of the value of that attribute with \u003cem\u003ecls\u003c/em\u003e will be\n used to determine the result of this function.\n\u003c/p\u003e\u003cp\u003eSubclass determination is done in a fairly straightforward way, but\n includes a wrinkle that implementors of extensions to the class system\n may want to be aware of. If A and B are class objects, B is a subclass of\n A if it inherits from A either directly or indirectly. If either is not a\n class object, a more general mechanism is used to determine the class\n relationship of the two objects. When testing if B is a subclass of A, if\n A is B, \u003ccode\u003e\u003ca\u003eisSubclass\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e. If A and B are different objects,\n B&#2018;s \u003ccode\u003e__bases__\u003c/code\u003e attribute is searched in a depth-first fashion for\n A &#2014; the presence of the \u003ccode\u003e__bases__\u003c/code\u003e attribute is considered\n sufficient for this determination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "isInstance",
           "package": "cpython",
@@ -2110,6 +2289,7 @@
         "index": {
           "description": "Returns True if inst is an instance of the class cls or subclass of cls or False if not On error throws an exception If cls is type object rather than class object isInstance returns True if inst is of type cls If cls is tuple the check will be done against every entry in cls The result will be True when at least one of the checks returns True otherwise it will be False If inst is not class instance and cls is neither type object nor class object nor tuple inst must have class attribute the class relationship of the value of that attribute with cls will be used to determine the result of this function Subclass determination is done in fairly straightforward way but includes wrinkle that implementors of extensions to the class system may want to be aware of If and are class objects is subclass of if it inherits from either directly or indirectly If either is not class object more general mechanism is used to determine the class relationship of the two objects When testing if is subclass of if is isSubclass returns True If and are different objects bases attribute is searched in depth-first fashion for the presence of the bases attribute is considered sufficient for this determination",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "isInstance",
           "normalized": "a-\u003eb-\u003eIO Bool",
@@ -2126,6 +2306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the class \u003cem\u003ederived\u003c/em\u003e is identical to or derived from\n the class \u003cem\u003ecls\u003c/em\u003e, otherwise returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e. In case of an error, throws\n an exception. If \u003cem\u003ecls\u003c/em\u003e is a tuple, the check will be done against every\n entry in \u003cem\u003ecls\u003c/em\u003e. The result will be \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when at least one of the checks\n returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, otherwise it will be \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e. If either \u003cem\u003ederived\u003c/em\u003e or \u003cem\u003ecls\u003c/em\u003e\n is not an actual class object (or tuple), this function uses the generic\n algorithm described above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "isSubclass",
           "package": "cpython",
@@ -2136,6 +2317,7 @@
         "index": {
           "description": "Returns True if the class derived is identical to or derived from the class cls otherwise returns False In case of an error throws an exception If cls is tuple the check will be done against every entry in cls The result will be True when at least one of the checks returns True otherwise it will be False If either derived or cls is not an actual class object or tuple this function uses the generic algorithm described above",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "isSubclass",
           "normalized": "a-\u003eb-\u003eIO Bool",
@@ -2152,6 +2334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint \u003ccode\u003erepr(self)\u003c/code\u003e to a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "print",
           "package": "cpython",
@@ -2162,6 +2345,7 @@
         "index": {
           "description": "Print repr self to handle",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "print",
           "normalized": "a-\u003eHandle-\u003eIO()",
@@ -2177,6 +2361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a string representation of object \u003cem\u003eself\u003c/em\u003e, or throw an exception\n on failure. This is the equivalent of the Python expression \u003ccode\u003erepr(self)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "repr",
           "package": "cpython",
@@ -2187,6 +2372,7 @@
         "index": {
           "description": "Compute string representation of object self or throw an exception on failure This is the equivalent of the Python expression repr self",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "repr",
           "normalized": "a-\u003eIO Unicode",
@@ -2202,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare the values of \u003cem\u003ea\u003c/em\u003e and \u003cem\u003eb\u003c/em\u003e using the specified comparison.\n If an exception is raised, throws an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "richCompare",
           "package": "cpython",
@@ -2212,6 +2399,7 @@
         "index": {
           "description": "Compare the values of and using the specified comparison If an exception is raised throws an exception",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "richCompare",
           "normalized": "a-\u003eb-\u003eComparison-\u003eIO Bool",
@@ -2228,6 +2416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the value of the attribute with the given name, for object \u003cem\u003eself\u003c/em\u003e,\n to the value \u003cem\u003ev\u003c/em\u003e. THrows an exception on failure. This is the equivalent\n of the Python statement \u003ccode\u003eself.name = v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "setAttribute",
           "package": "cpython",
@@ -2238,6 +2427,7 @@
         "index": {
           "description": "Set the value of the attribute with the given name for object self to the value THrows an exception on failure This is the equivalent of the Python statement self.name",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "setAttribute",
           "normalized": "a-\u003eUnicode-\u003eb-\u003eIO()",
@@ -2254,6 +2444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a string representation of object \u003cem\u003eself\u003c/em\u003e, or throw an exception\n on failure. This is the equivalent of the Python expression \u003ccode\u003estr(self)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "string",
           "package": "cpython",
@@ -2264,6 +2455,7 @@
         "index": {
           "description": "Compute string representation of object self or throw an exception on failure This is the equivalent of the Python expression str self",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "string",
           "normalized": "a-\u003eIO Unicode",
@@ -2279,6 +2471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the object \u003cem\u003eself\u003c/em\u003e is considered to be true, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n otherwise. This is equivalent to the Python expression \u003ccode\u003enot not self\u003c/code\u003e. On\n failure, throws an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "toBool",
           "package": "cpython",
@@ -2289,6 +2482,7 @@
         "index": {
           "description": "Returns True if the object self is considered to be true and False otherwise This is equivalent to the Python expression not not self On failure throws an exception",
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "toBool",
           "normalized": "a-\u003eIO Bool",
@@ -2304,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Object",
           "name": "toObject",
           "package": "cpython",
@@ -2313,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Object",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Object",
           "name": "toObject",
           "normalized": "a-\u003eSomeObject",
@@ -2328,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "Sequence",
           "package": "cpython",
@@ -2336,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "Sequence",
           "package": "cpython",
@@ -2349,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "Sequence",
           "package": "cpython",
@@ -2357,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "Sequence",
           "package": "cpython",
@@ -2370,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "SomeSequence",
           "package": "cpython",
@@ -2378,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "SomeSequence",
           "package": "cpython",
@@ -2391,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "append",
           "package": "cpython",
@@ -2400,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "append",
           "normalized": "a-\u003eb-\u003eIO SomeSequence",
@@ -2415,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to convert an object to a generic \u003ccode\u003e\u003ca\u003eSequence\u003c/a\u003e\u003c/code\u003e. If the object does\n not implement the sequence protocol, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "castToSequence",
           "package": "cpython",
@@ -2425,6 +2630,7 @@
         "index": {
           "description": "Attempt to convert an object to generic Sequence If the object does not implement the sequence protocol returns Nothing",
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "castToSequence",
           "normalized": "a-\u003eIO(Maybe SomeSequence)",
@@ -2440,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "contains",
           "package": "cpython",
@@ -2449,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "contains",
           "normalized": "a-\u003eb-\u003eIO Bool",
@@ -2463,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "count",
           "package": "cpython",
@@ -2472,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "count",
           "normalized": "a-\u003eb-\u003eIO Integer",
@@ -2486,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "deleteItem",
           "package": "cpython",
@@ -2495,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "deleteItem",
           "normalized": "a-\u003eInteger-\u003eIO()",
@@ -2510,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "deleteSlice",
           "package": "cpython",
@@ -2519,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "deleteSlice",
           "normalized": "a-\u003eInteger-\u003eInteger-\u003eIO()",
@@ -2535,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the sequence \u003cem\u003eseq\u003c/em\u003e as a tuple, unless it is already a tuple or\n list, in which case \u003cem\u003eseq\u003c/em\u003e is returned. If an error occurs, throws\n \u003ccode\u003eTypeError\u003c/code\u003e with the given text as the exception text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "fast",
           "package": "cpython",
@@ -2545,6 +2760,7 @@
         "index": {
           "description": "Returns the sequence seq as tuple unless it is already tuple or list in which case seq is returned If an error occurs throws TypeError with the given text as the exception text",
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "fast",
           "normalized": "a-\u003eText-\u003eIO SomeSequence",
@@ -2559,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "getItem",
           "package": "cpython",
@@ -2568,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "getItem",
           "normalized": "a-\u003eInteger-\u003eIO SomeObject",
@@ -2583,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "getSlice",
           "package": "cpython",
@@ -2592,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "getSlice",
           "normalized": "a-\u003eInteger-\u003eInteger-\u003eIO SomeObject",
@@ -2607,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "inPlaceAppend",
           "package": "cpython",
@@ -2616,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "inPlaceAppend",
           "normalized": "a-\u003eb-\u003eIO SomeSequence",
@@ -2631,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "inPlaceRepeat",
           "package": "cpython",
@@ -2640,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "inPlaceRepeat",
           "normalized": "a-\u003eInteger-\u003eIO a",
@@ -2656,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first index \u003cem\u003ei\u003c/em\u003e for which \u003ccode\u003eself[i] == v\u003c/code\u003e. This is equivalent\n to the Python expression \u003ccode\u003eself.index(v)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "index",
           "package": "cpython",
@@ -2666,6 +2891,7 @@
         "index": {
           "description": "Return the first index for which self This is equivalent to the Python expression self.index",
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "index",
           "normalized": "a-\u003eb-\u003eIO Integer",
@@ -2680,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "length",
           "package": "cpython",
@@ -2689,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "length",
           "normalized": "a-\u003eIO Integer",
@@ -2703,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "repeat",
           "package": "cpython",
@@ -2712,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "repeat",
           "normalized": "a-\u003eInteger-\u003eIO a",
@@ -2726,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "setItem",
           "package": "cpython",
@@ -2735,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "setItem",
           "normalized": "a-\u003eInteger-\u003eb-\u003eIO()",
@@ -2750,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "setSlice",
           "package": "cpython",
@@ -2759,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "setSlice",
           "normalized": "a-\u003eInteger-\u003eInteger-\u003eb-\u003eIO()",
@@ -2775,6 +3009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list object with the same contents as the arbitrary sequence\n \u003cem\u003eseq\u003c/em\u003e. The returned list is guaranteed to be new.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "toList",
           "package": "cpython",
@@ -2785,6 +3020,7 @@
         "index": {
           "description": "Return list object with the same contents as the arbitrary sequence seq The returned list is guaranteed to be new",
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "toList",
           "normalized": "a-\u003eIO List",
@@ -2800,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "toSequence",
           "package": "cpython",
@@ -2809,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "toSequence",
           "normalized": "a-\u003eSomeSequence",
@@ -2825,6 +3063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a tuple object with the same contents as the arbitrary sequence\n \u003cem\u003eseq\u003c/em\u003e. If \u003cem\u003eseq\u003c/em\u003e is already a tuple, it is re-used rather than copied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Protocols.Sequence",
           "name": "toTuple",
           "package": "cpython",
@@ -2835,6 +3074,7 @@
         "index": {
           "description": "Return tuple object with the same contents as the arbitrary sequence seq If seq is already tuple it is re-used rather than copied",
           "hierarchy": "CPython Protocols Sequence",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Protocols.Sequence",
           "name": "toTuple",
           "normalized": "a-\u003eIO Tuple",
@@ -2850,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Reflection",
           "name": "Reflection",
           "package": "cpython",
@@ -2858,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "CPython Reflection",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Reflection",
           "name": "Reflection",
           "package": "cpython",
@@ -2872,6 +3114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e of the builtins in the current execution frame,\n or the interpreter of the thread state if no frame is currently executing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Reflection",
           "name": "getBuiltins",
           "package": "cpython",
@@ -2882,6 +3125,7 @@
         "index": {
           "description": "Return Dictionary of the builtins in the current execution frame or the interpreter of the thread state if no frame is currently executing",
           "hierarchy": "CPython Reflection",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Reflection",
           "name": "getBuiltins",
           "package": "cpython",
@@ -2896,6 +3140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current thread state's frame, which is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no frame\n is currently executing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Reflection",
           "name": "getFrame",
           "package": "cpython",
@@ -2906,6 +3151,7 @@
         "index": {
           "description": "Return the current thread state frame which is Nothing if no frame is currently executing",
           "hierarchy": "CPython Reflection",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Reflection",
           "name": "getFrame",
           "package": "cpython",
@@ -2920,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a description string, depending on the type of func. Return\n values include \u003ccode\u003e\"()\"\u003c/code\u003e for functions and methods, \u003ccode\u003e\"constructor\"\u003c/code\u003e,\n \u003ccode\u003e\"instance\"\u003c/code\u003e, and \u003ccode\u003e\"object\"\u003c/code\u003e. Concatenated with the result of\n \u003ccode\u003e\u003ca\u003egetFunctionName\u003c/a\u003e\u003c/code\u003e, the result will be a description of \u003cem\u003efunc\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Reflection",
           "name": "getFunctionDescription",
           "package": "cpython",
@@ -2930,6 +3177,7 @@
         "index": {
           "description": "Return description string depending on the type of func Return values include for functions and methods constructor instance and object Concatenated with the result of getFunctionName the result will be description of func",
           "hierarchy": "CPython Reflection",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Reflection",
           "name": "getFunctionDescription",
           "normalized": "a-\u003eIO Text",
@@ -2946,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the name of \u003cem\u003efunc\u003c/em\u003e if it is a function, class or instance object,\n else the name of \u003cem\u003efunc\u003c/em\u003e's type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Reflection",
           "name": "getFunctionName",
           "package": "cpython",
@@ -2956,6 +3205,7 @@
         "index": {
           "description": "Return the name of func if it is function class or instance object else the name of func type",
           "hierarchy": "CPython Reflection",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Reflection",
           "name": "getFunctionName",
           "normalized": "a-\u003eIO Text",
@@ -2972,6 +3222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e of the global variables in the current execution\n frame, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no frame is currently executing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Reflection",
           "name": "getGlobals",
           "package": "cpython",
@@ -2982,6 +3233,7 @@
         "index": {
           "description": "Return Dictionary of the global variables in the current execution frame or Nothing if no frame is currently executing",
           "hierarchy": "CPython Reflection",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Reflection",
           "name": "getGlobals",
           "package": "cpython",
@@ -2996,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e of the local variables in the current execution\n frame, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no frame is currently executing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Reflection",
           "name": "getLocals",
           "package": "cpython",
@@ -3006,6 +3259,7 @@
         "index": {
           "description": "Return Dictionary of the local variables in the current execution frame or Nothing if no frame is currently executing",
           "hierarchy": "CPython Reflection",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Reflection",
           "name": "getLocals",
           "package": "cpython",
@@ -3019,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.System",
           "name": "System",
           "package": "cpython",
@@ -3027,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "CPython System",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.System",
           "name": "System",
           "package": "cpython",
@@ -3041,6 +3297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an entry to \u003ccode\u003esys.warnoptions\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.System",
           "name": "addWarnOption",
           "package": "cpython",
@@ -3051,6 +3308,7 @@
         "index": {
           "description": "Add an entry to sys.warnoptions",
           "hierarchy": "CPython System",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.System",
           "name": "addWarnOption",
           "normalized": "Text-\u003eIO()",
@@ -3067,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete \u003cem\u003ename\u003c/em\u003e from the \u003ccode\u003esys\u003c/code\u003e module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.System",
           "name": "deleteObject",
           "package": "cpython",
@@ -3077,6 +3336,7 @@
         "index": {
           "description": "Delete name from the sys module",
           "hierarchy": "CPython System",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.System",
           "name": "deleteObject",
           "normalized": "Text-\u003eIO()",
@@ -3093,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the object \u003cem\u003ename\u003c/em\u003e from the \u003ccode\u003esys\u003c/code\u003e module, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it does\n not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.System",
           "name": "getObject",
           "package": "cpython",
@@ -3103,6 +3364,7 @@
         "index": {
           "description": "Return the object name from the sys module or Nothing if it does not exist",
           "hierarchy": "CPython System",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.System",
           "name": "getObject",
           "normalized": "Text-\u003eIO(Maybe SomeObject)",
@@ -3119,6 +3381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset \u003ccode\u003esys.warnoptions\u003c/code\u003e to an empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.System",
           "name": "resetWarnOptions",
           "package": "cpython",
@@ -3129,6 +3392,7 @@
         "index": {
           "description": "Reset sys.warnoptions to an empty list",
           "hierarchy": "CPython System",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.System",
           "name": "resetWarnOptions",
           "normalized": "IO()",
@@ -3145,6 +3409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003cem\u003ename\u003c/em\u003e in the \u003ccode\u003esys\u003c/code\u003e module to a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.System",
           "name": "setObject",
           "package": "cpython",
@@ -3155,6 +3420,7 @@
         "index": {
           "description": "Set name in the sys module to value",
           "hierarchy": "CPython System",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.System",
           "name": "setObject",
           "normalized": "Text-\u003ea-\u003eIO()",
@@ -3171,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003esys.path\u003c/code\u003e to a list object of paths found in the parameter, which\n should be a list of paths separated with the platform's search path\n delimiter (\u003ccode\u003e':'\u003c/code\u003e on Unix, \u003ccode\u003e';'\u003c/code\u003e on Windows).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.System",
           "name": "setPath",
           "package": "cpython",
@@ -3181,6 +3448,7 @@
         "index": {
           "description": "Set sys.path to list object of paths found in the parameter which should be list of paths separated with the platform search path delimiter on Unix on Windows",
           "hierarchy": "CPython System",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.System",
           "name": "setPath",
           "normalized": "Text-\u003eIO()",
@@ -3196,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.ByteArray",
           "name": "ByteArray",
           "package": "cpython",
@@ -3204,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "CPython Types ByteArray",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.ByteArray",
           "name": "ByteArray",
           "package": "cpython",
@@ -3217,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.ByteArray",
           "name": "ByteArray",
           "package": "cpython",
@@ -3225,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "CPython Types ByteArray",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.ByteArray",
           "name": "ByteArray",
           "package": "cpython",
@@ -3238,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.ByteArray",
           "name": "append",
           "package": "cpython",
@@ -3247,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "CPython Types ByteArray",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.ByteArray",
           "name": "append",
           "normalized": "ByteArray-\u003eByteArray-\u003eIO ByteArray",
@@ -3310,6 +3584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new byte array from any object which implements the buffer\n protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.ByteArray",
           "name": "fromObject",
           "package": "cpython",
@@ -3320,6 +3595,7 @@
         "index": {
           "description": "Create new byte array from any object which implements the buffer protocol",
           "hierarchy": "CPython Types ByteArray",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.ByteArray",
           "name": "fromObject",
           "normalized": "a-\u003eIO ByteArray",
@@ -3335,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.ByteArray",
           "name": "length",
           "package": "cpython",
@@ -3344,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "CPython Types ByteArray",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.ByteArray",
           "name": "length",
           "normalized": "ByteArray-\u003eIO Integer",
@@ -3358,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.ByteArray",
           "name": "resize",
           "package": "cpython",
@@ -3367,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "CPython Types ByteArray",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.ByteArray",
           "name": "resize",
           "normalized": "ByteArray-\u003eInteger-\u003eIO()",
@@ -3406,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Bytes",
           "name": "Bytes",
           "package": "cpython",
@@ -3414,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Bytes",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Bytes",
           "name": "Bytes",
           "package": "cpython",
@@ -3427,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Bytes",
           "name": "Bytes",
           "package": "cpython",
@@ -3435,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Bytes",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Bytes",
           "name": "Bytes",
           "package": "cpython",
@@ -3448,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Bytes",
           "name": "append",
           "package": "cpython",
@@ -3457,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Bytes",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Bytes",
           "name": "append",
           "normalized": "Bytes-\u003eBytes-\u003eIO Bytes",
@@ -3520,6 +3806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new byte string from any object which implements the buffer\n protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Bytes",
           "name": "fromObject",
           "package": "cpython",
@@ -3530,6 +3817,7 @@
         "index": {
           "description": "Create new byte string from any object which implements the buffer protocol",
           "hierarchy": "CPython Types Bytes",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Bytes",
           "name": "fromObject",
           "normalized": "a-\u003eIO Bytes",
@@ -3545,6 +3833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Bytes",
           "name": "length",
           "package": "cpython",
@@ -3554,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Bytes",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Bytes",
           "name": "length",
           "normalized": "Bytes-\u003eIO Integer",
@@ -3593,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "Capsule",
           "package": "cpython",
@@ -3601,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "Capsule",
           "package": "cpython",
@@ -3614,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "Capsule",
           "package": "cpython",
@@ -3622,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "Capsule",
           "package": "cpython",
@@ -3659,6 +3953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current context stored in the capsule, which might be \u003ccode\u003eNULL\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "getContext",
           "package": "cpython",
@@ -3669,6 +3964,7 @@
         "index": {
           "description": "Return the current context stored in the capsule which might be NULL",
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "getContext",
           "normalized": "Capsule-\u003eIO(Ptr())",
@@ -3685,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current name stored in the capsule, which might be \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "getName",
           "package": "cpython",
@@ -3695,6 +3992,7 @@
         "index": {
           "description": "Return the current name stored in the capsule which might be Nothing",
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "getName",
           "normalized": "Capsule-\u003eIO(Maybe Text)",
@@ -3711,6 +4009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the pointer stored in the capsule. On failure, throws an\n exception.\n\u003c/p\u003e\u003cp\u003eThe name parameter must compare exactly to the name stored in the capsule.\n If the name stored in the capsule is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the name passed in must\n also be \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e. Python uses the C function strcmp() to compare capsule\n names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "getPointer",
           "package": "cpython",
@@ -3721,6 +4020,7 @@
         "index": {
           "description": "Retrieve the pointer stored in the capsule On failure throws an exception The name parameter must compare exactly to the name stored in the capsule If the name stored in the capsule is Nothing the name passed in must also be Nothing Python uses the function strcmp to compare capsule names",
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "getPointer",
           "normalized": "Capsule-\u003eMaybe Text-\u003eIO(Ptr())",
@@ -3737,6 +4037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport a pointer to a C object from a capsule attribute in a module.\n The name parameter should specify the full name to the attribute, as in\n \u003ccode\u003e\"module.attribute\"\u003c/code\u003e. The name stored in the capsule must match this\n string exactly. If the second parameter is \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e, import the module\n without blocking (using \u003ccode\u003ePyImport_ImportModuleNoBlock()\u003c/code\u003e). Otherwise,\n imports the module conventionally (using \u003ccode\u003ePyImport_ImportModule()\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eReturn the capsule&#8217;s internal pointer on success. On failure, throw\n an exception. If the module could not be imported, and if importing in\n non-blocking mode, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "importNamed",
           "package": "cpython",
@@ -3747,6 +4048,7 @@
         "index": {
           "description": "Import pointer to object from capsule attribute in module The name parameter should specify the full name to the attribute as in module.attribute The name stored in the capsule must match this string exactly If the second parameter is False import the module without blocking using PyImport ImportModuleNoBlock Otherwise imports the module conventionally using PyImport ImportModule Return the capsule internal pointer on success On failure throw an exception If the module could not be imported and if importing in non-blocking mode returns Nothing",
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "importNamed",
           "normalized": "Text-\u003eBool-\u003eIO(Maybe(Ptr()))",
@@ -3763,6 +4065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether or not a capsule is valid. A valid capsule's type is\n \u003ccode\u003e\u003ca\u003ecapsuleType\u003c/a\u003e\u003c/code\u003e, has a non-NULL pointer stored in it, and its internal name\n matches the name parameter. (See \u003ccode\u003e\u003ca\u003egetPointer\u003c/a\u003e\u003c/code\u003e for information on how\n capsule names are compared.)\n\u003c/p\u003e\u003cp\u003eIn other words, if \u003ccode\u003e\u003ca\u003eisValid\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, calls to any of the\n accessors (any function starting with \u003ccode\u003eget\u003c/code\u003e) are guaranteed to succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "isValid",
           "package": "cpython",
@@ -3773,6 +4076,7 @@
         "index": {
           "description": "Determines whether or not capsule is valid valid capsule type is capsuleType has non-NULL pointer stored in it and its internal name matches the name parameter See getPointer for information on how capsule names are compared In other words if isValid returns True calls to any of the accessors any function starting with get are guaranteed to succeed",
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "isValid",
           "normalized": "Capsule-\u003eMaybe Text-\u003eIO Bool",
@@ -3789,6 +4093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the context pointer inside the capsule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "setContext",
           "package": "cpython",
@@ -3799,6 +4104,7 @@
         "index": {
           "description": "Set the context pointer inside the capsule",
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "setContext",
           "normalized": "Capsule-\u003ePtr()-\u003eIO()",
@@ -3815,6 +4121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the void pointer inside the capsule. The pointer may not be \u003ccode\u003eNULL\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Capsule",
           "name": "setPointer",
           "package": "cpython",
@@ -3825,6 +4132,7 @@
         "index": {
           "description": "Set the void pointer inside the capsule The pointer may not be NULL",
           "hierarchy": "CPython Types Capsule",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Capsule",
           "name": "setPointer",
           "normalized": "Capsule-\u003ePtr()-\u003eIO()",
@@ -3840,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Cell",
           "name": "Cell",
           "package": "cpython",
@@ -3848,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Cell",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Cell",
           "name": "Cell",
           "package": "cpython",
@@ -3861,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Cell",
           "name": "Cell",
           "package": "cpython",
@@ -3869,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Cell",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Cell",
           "name": "Cell",
           "package": "cpython",
@@ -3906,6 +4218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the contents of a cell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Cell",
           "name": "get",
           "package": "cpython",
@@ -3916,6 +4229,7 @@
         "index": {
           "description": "Return the contents of cell",
           "hierarchy": "CPython Types Cell",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Cell",
           "name": "get",
           "normalized": "Cell-\u003eIO(Maybe SomeObject)",
@@ -3931,6 +4245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and return a new cell containing the value \u003cem\u003eobj\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Cell",
           "name": "new",
           "package": "cpython",
@@ -3941,6 +4256,7 @@
         "index": {
           "description": "Create and return new cell containing the value obj",
           "hierarchy": "CPython Types Cell",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Cell",
           "name": "new",
           "normalized": "Maybe a-\u003eIO Cell",
@@ -3956,6 +4272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the contents of a cell to \u003cem\u003eobj\u003c/em\u003e. This releases the reference to any\n current content of the cell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Cell",
           "name": "set",
           "package": "cpython",
@@ -3966,6 +4283,7 @@
         "index": {
           "description": "Set the contents of cell to obj This releases the reference to any current content of the cell",
           "hierarchy": "CPython Types Cell",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Cell",
           "name": "set",
           "normalized": "Cell-\u003eMaybe a-\u003eIO()",
@@ -3980,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Code",
           "name": "Code",
           "package": "cpython",
@@ -3988,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Code",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Code",
           "name": "Code",
           "package": "cpython",
@@ -4001,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Code",
           "name": "Code",
           "package": "cpython",
@@ -4009,6 +4330,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Code",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Code",
           "name": "Code",
           "package": "cpython",
@@ -4045,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Complex",
           "name": "Complex",
           "package": "cpython",
@@ -4053,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Complex",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Complex",
           "name": "Complex",
           "package": "cpython",
@@ -4066,6 +4390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Complex",
           "name": "Complex",
           "package": "cpython",
@@ -4074,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Complex",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Complex",
           "name": "Complex",
           "package": "cpython",
@@ -4160,6 +4486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "Dictionary",
           "package": "cpython",
@@ -4168,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "Dictionary",
           "package": "cpython",
@@ -4181,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "Dictionary",
           "package": "cpython",
@@ -4189,6 +4518,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "Dictionary",
           "package": "cpython",
@@ -4203,6 +4533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty an existing dictionary of all key-value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "clear",
           "package": "cpython",
@@ -4213,6 +4544,7 @@
         "index": {
           "description": "Empty an existing dictionary of all key-value pairs",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "clear",
           "normalized": "Dictionary-\u003eIO()",
@@ -4228,6 +4560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a dictionary contains \u003cem\u003ekey\u003c/em\u003e. If an item in the dictionary\n matches \u003cem\u003ekey\u003c/em\u003e, return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, otherwise return \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e. On error, throws\n an exception. This is equivalent to the Python expression \u003ccode\u003ekey in d\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "contains",
           "package": "cpython",
@@ -4238,6 +4571,7 @@
         "index": {
           "description": "Determine if dictionary contains key If an item in the dictionary matches key return True otherwise return False On error throws an exception This is equivalent to the Python expression key in",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "contains",
           "normalized": "Dictionary-\u003ea-\u003eIO Bool",
@@ -4253,6 +4587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a new dictionary that contains the same key-value pairs as the\n old dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "copy",
           "package": "cpython",
@@ -4263,6 +4598,7 @@
         "index": {
           "description": "Return new dictionary that contains the same key-value pairs as the old dictionary",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "copy",
           "normalized": "Dictionary-\u003eIO Dictionary",
@@ -4278,6 +4614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the entry in a dictionary with key \u003cem\u003ekey\u003c/em\u003e. \u003cem\u003ekey\u003c/em\u003e must be hashable;\n if it isn&#8217;t, throws \u003ccode\u003eTypeError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "deleteItem",
           "package": "cpython",
@@ -4288,6 +4625,7 @@
         "index": {
           "description": "Remove the entry in dictionary with key key key must be hashable if it isn throws TypeError",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "deleteItem",
           "normalized": "Dictionary-\u003ea-\u003eIO()",
@@ -4327,6 +4665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the object from a dictionary which has a key \u003cem\u003ekey\u003c/em\u003e. Return\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the key is not present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "getItem",
           "package": "cpython",
@@ -4337,6 +4676,7 @@
         "index": {
           "description": "Return the object from dictionary which has key key Return Nothing if the key is not present",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "getItem",
           "normalized": "Dictionary-\u003ea-\u003eIO(Maybe SomeObject)",
@@ -4353,6 +4693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e containing all the items in the dictionary, as in\n the Python method \u003ccode\u003edict.items()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "items",
           "package": "cpython",
@@ -4363,6 +4704,7 @@
         "index": {
           "description": "Return List containing all the items in the dictionary as in the Python method dict.items",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "items",
           "normalized": "Dictionary-\u003eIO List",
@@ -4378,6 +4720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e containing all the keys in the dictionary, as in\n the Python method \u003ccode\u003edict.keys()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "keys",
           "package": "cpython",
@@ -4388,6 +4731,7 @@
         "index": {
           "description": "Return List containing all the keys in the dictionary as in the Python method dict.keys",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "keys",
           "normalized": "Dictionary-\u003eIO List",
@@ -4403,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterate over mapping object \u003cem\u003eb\u003c/em\u003e adding key-value pairs to a dictionary.\n \u003cem\u003eb\u003c/em\u003e may be a dictionary, or any object supporting \u003ccode\u003e\u003ca\u003ekeys\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egetItem\u003c/a\u003e\u003c/code\u003e.\n If the third parameter is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, existing pairs in will be replaced if a\n matching key is found in \u003cem\u003eb\u003c/em\u003e, otherwise pairs will only be added if there\n is not already a matching key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "merge",
           "package": "cpython",
@@ -4413,6 +4758,7 @@
         "index": {
           "description": "Iterate over mapping object adding key-value pairs to dictionary may be dictionary or any object supporting keys and getItem If the third parameter is True existing pairs in will be replaced if matching key is found in otherwise pairs will only be added if there is not already matching key",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "merge",
           "normalized": "Dictionary-\u003ea-\u003eBool-\u003eIO()",
@@ -4428,6 +4774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate or merge into a dictionary, from the key-value pairs in \u003cem\u003eseq2\u003c/em\u003e.\n \u003cem\u003eseq2\u003c/em\u003e must be an iterable object producing iterable objects of length 2,\n viewed as key-value pairs. In case of duplicate keys, the last wins if\n the third parameter is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, otherwise the first wins. Equivalent\n Python:\n\u003c/p\u003e\u003cpre\u003e\n def mergeFromSeq2(a, seq2, override):\n \tfor key, value in seq2:\n \t\tif override or key not in a:\n \t\t\ta[key] = value\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "mergeFromSeq2",
           "package": "cpython",
@@ -4438,6 +4785,7 @@
         "index": {
           "description": "Update or merge into dictionary from the key-value pairs in seq2 seq2 must be an iterable object producing iterable objects of length viewed as key-value pairs In case of duplicate keys the last wins if the third parameter is True otherwise the first wins Equivalent Python def mergeFromSeq2 seq2 override for key value in seq2 if override or key not in key value",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "mergeFromSeq2",
           "normalized": "Dictionary-\u003ea-\u003eBool-\u003eIO()",
@@ -4453,6 +4801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "new",
           "package": "cpython",
@@ -4462,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "new",
           "package": "cpython",
@@ -4475,6 +4825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts \u003cem\u003evalue\u003c/em\u003e into a dictionary with a key of \u003cem\u003ekey\u003c/em\u003e. \u003cem\u003ekey\u003c/em\u003e must be\n hashable; if it isn&#8217;t, throws \u003ccode\u003eTypeError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "setItem",
           "package": "cpython",
@@ -4485,6 +4836,7 @@
         "index": {
           "description": "Inserts value into dictionary with key of key key must be hashable if it isn throws TypeError",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "setItem",
           "normalized": "Dictionary-\u003ea-\u003eb-\u003eIO()",
@@ -4501,6 +4853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of items in the dictionary. This is equivalent to\n \u003ccode\u003elen(d)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "size",
           "package": "cpython",
@@ -4511,6 +4864,7 @@
         "index": {
           "description": "Return the number of items in the dictionary This is equivalent to len",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "size",
           "normalized": "Dictionary-\u003eIO Integer",
@@ -4526,6 +4880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the same as \u003ccode\u003e(\\a b -\u003e \u003ccode\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/code\u003e a b True)\u003c/code\u003e in Haskell, or\n \u003ccode\u003ea.update(b)\u003c/code\u003e in Python.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "update",
           "package": "cpython",
@@ -4536,6 +4891,7 @@
         "index": {
           "description": "This is the same as merge True in Haskell or a.update in Python",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "update",
           "normalized": "Dictionary-\u003ea-\u003eIO()",
@@ -4551,6 +4907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e containing all the values in the dictionary, as in\n the Python method \u003ccode\u003edict.values()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Dictionary",
           "name": "values",
           "package": "cpython",
@@ -4561,6 +4918,7 @@
         "index": {
           "description": "Return List containing all the values in the dictionary as in the Python method dict.values",
           "hierarchy": "CPython Types Dictionary",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Dictionary",
           "name": "values",
           "normalized": "Dictionary-\u003eIO List",
@@ -4575,6 +4933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Exception",
           "name": "Exception",
           "package": "cpython",
@@ -4583,6 +4942,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Exception",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Exception",
           "name": "Exception",
           "package": "cpython",
@@ -4596,6 +4956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Exception",
           "name": "Exception",
           "package": "cpython",
@@ -4604,6 +4965,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Exception",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Exception",
           "name": "Exception",
           "package": "cpython",
@@ -4617,6 +4979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Exception",
           "name": "exceptionTraceback",
           "package": "cpython",
@@ -4626,6 +4989,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Exception",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Exception",
           "name": "exceptionTraceback",
           "normalized": "Exception-\u003eMaybe SomeObject",
@@ -4641,6 +5005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Exception",
           "name": "exceptionType",
           "package": "cpython",
@@ -4650,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Exception",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Exception",
           "name": "exceptionType",
           "normalized": "Exception-\u003eSomeObject",
@@ -4665,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Exception",
           "name": "exceptionValue",
           "package": "cpython",
@@ -4674,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Exception",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Exception",
           "name": "exceptionValue",
           "normalized": "Exception-\u003eSomeObject",
@@ -4689,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Float",
           "name": "Float",
           "package": "cpython",
@@ -4697,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Float",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Float",
           "name": "Float",
           "package": "cpython",
@@ -4710,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Float",
           "name": "Float",
           "package": "cpython",
@@ -4718,6 +5089,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Float",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Float",
           "name": "Float",
           "package": "cpython",
@@ -4804,6 +5176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "Function",
           "package": "cpython",
@@ -4812,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "Function",
           "package": "cpython",
@@ -4825,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "Function",
           "package": "cpython",
@@ -4833,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "Function",
           "package": "cpython",
@@ -4870,6 +5246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the annotations for a function. This can be a mutable dictionary,\n or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "getAnnotations",
           "package": "cpython",
@@ -4880,6 +5257,7 @@
         "index": {
           "description": "Return the annotations for function This can be mutable dictionary or Nothing",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "getAnnotations",
           "normalized": "Function-\u003eIO(Maybe Dictionary)",
@@ -4896,6 +5274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the closure associated with a function. This can be \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n or a tuple of \u003ccode\u003eCell\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "getClosure",
           "package": "cpython",
@@ -4906,6 +5285,7 @@
         "index": {
           "description": "Return the closure associated with function This can be Nothing or tuple of Cell",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "getClosure",
           "normalized": "Function-\u003eIO(Maybe Tuple)",
@@ -4922,6 +5302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the code object associated with a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "getCode",
           "package": "cpython",
@@ -4932,6 +5313,7 @@
         "index": {
           "description": "Return the code object associated with function",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "getCode",
           "normalized": "Function-\u003eIO Code",
@@ -4948,6 +5330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the default parameter values for a function. This can be a tuple\n or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "getDefaults",
           "package": "cpython",
@@ -4958,6 +5341,7 @@
         "index": {
           "description": "Return the default parameter values for function This can be tuple or Nothing",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "getDefaults",
           "normalized": "Function-\u003eIO(Maybe Tuple)",
@@ -4974,6 +5358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the globals dictionary associated with a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "getGlobals",
           "package": "cpython",
@@ -4984,6 +5369,7 @@
         "index": {
           "description": "Return the globals dictionary associated with function",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "getGlobals",
           "normalized": "Function-\u003eIO Dictionary",
@@ -5000,6 +5386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003ccode\u003e__module__\u003c/code\u003e attribute of a function. This is normally\n a \u003ccode\u003eUnicode\u003c/code\u003e containing the module name, but can be set to any other\n object by Python code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "getModule",
           "package": "cpython",
@@ -5010,6 +5397,7 @@
         "index": {
           "description": "Return the module attribute of function This is normally Unicode containing the module name but can be set to any other object by Python code",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "getModule",
           "normalized": "Function-\u003eIO SomeObject",
@@ -5026,6 +5414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a new function associated with the given code object. The second\n parameter will be used as the globals accessible to the function.\n\u003c/p\u003e\u003cp\u003eThe function's docstring, name, and \u003ccode\u003e__module__\u003c/code\u003e are retrieved from the\n code object. The parameter defaults and closure are set to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "new",
           "package": "cpython",
@@ -5036,6 +5425,7 @@
         "index": {
           "description": "Return new function associated with the given code object The second parameter will be used as the globals accessible to the function The function docstring name and module are retrieved from the code object The parameter defaults and closure are set to Nothing",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "new",
           "normalized": "Code-\u003eDictionary-\u003eIO Function",
@@ -5051,6 +5441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the annotations for a function object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "setAnnotations",
           "package": "cpython",
@@ -5061,6 +5452,7 @@
         "index": {
           "description": "Set the annotations for function object",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "setAnnotations",
           "normalized": "Function-\u003eMaybe Dictionary-\u003eIO()",
@@ -5077,6 +5469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the closure associated with a function. The tuple should contain\n \u003ccode\u003eCell\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "setClosure",
           "package": "cpython",
@@ -5087,6 +5480,7 @@
         "index": {
           "description": "Set the closure associated with function The tuple should contain Cell",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "setClosure",
           "normalized": "Function-\u003eMaybe Tuple-\u003eIO()",
@@ -5103,6 +5497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default values for a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Function",
           "name": "setDefaults",
           "package": "cpython",
@@ -5113,6 +5508,7 @@
         "index": {
           "description": "Set the default values for function",
           "hierarchy": "CPython Types Function",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Function",
           "name": "setDefaults",
           "normalized": "Function-\u003eMaybe Tuple-\u003eIO()",
@@ -5128,6 +5524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.InstanceMethod",
           "name": "InstanceMethod",
           "package": "cpython",
@@ -5136,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "CPython Types InstanceMethod",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.InstanceMethod",
           "name": "InstanceMethod",
           "package": "cpython",
@@ -5149,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.InstanceMethod",
           "name": "InstanceMethod",
           "package": "cpython",
@@ -5157,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "CPython Types InstanceMethod",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.InstanceMethod",
           "name": "InstanceMethod",
           "package": "cpython",
@@ -5170,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.InstanceMethod",
           "name": "function",
           "package": "cpython",
@@ -5179,6 +5580,7 @@
         },
         "index": {
           "hierarchy": "CPython Types InstanceMethod",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.InstanceMethod",
           "name": "function",
           "normalized": "InstanceMethod-\u003eIO SomeObject",
@@ -5216,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.InstanceMethod",
           "name": "new",
           "package": "cpython",
@@ -5225,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "CPython Types InstanceMethod",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.InstanceMethod",
           "name": "new",
           "normalized": "a-\u003eIO InstanceMethod",
@@ -5239,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Integer",
           "name": "Integer",
           "package": "cpython",
@@ -5247,6 +5652,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Integer",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Integer",
           "name": "Integer",
           "package": "cpython",
@@ -5260,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Integer",
           "name": "Integer",
           "package": "cpython",
@@ -5268,6 +5675,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Integer",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Integer",
           "name": "Integer",
           "package": "cpython",
@@ -5354,6 +5762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Iterator",
           "name": "Iterator",
           "package": "cpython",
@@ -5362,6 +5771,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Iterator",
           "name": "Iterator",
           "package": "cpython",
@@ -5375,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Iterator",
           "name": "CallableIterator",
           "package": "cpython",
@@ -5383,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Iterator",
           "name": "CallableIterator",
           "package": "cpython",
@@ -5396,6 +5808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Iterator",
           "name": "SequenceIterator",
           "package": "cpython",
@@ -5404,6 +5817,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Iterator",
           "name": "SequenceIterator",
           "package": "cpython",
@@ -5418,6 +5832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a new \u003ccode\u003e\u003ca\u003eIterator\u003c/a\u003e\u003c/code\u003e. The first parameter, \u003cem\u003ecallable\u003c/em\u003e, can be any\n Python callable object that can be called with no parameters; each call\n to it should return the next item in the iteration. When \u003cem\u003ecallable\u003c/em\u003e\n returns a value equal to \u003cem\u003esentinel\u003c/em\u003e, the iteration will be terminated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Iterator",
           "name": "callableIteratorNew",
           "package": "cpython",
@@ -5428,6 +5843,7 @@
         "index": {
           "description": "Return new Iterator The first parameter callable can be any Python callable object that can be called with no parameters each call to it should return the next item in the iteration When callable returns value equal to sentinel the iteration will be terminated",
           "hierarchy": "CPython Types Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Iterator",
           "name": "callableIteratorNew",
           "normalized": "a-\u003eb-\u003eIO CallableIterator",
@@ -5467,6 +5883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an \u003ccode\u003e\u003ca\u003eIterator\u003c/a\u003e\u003c/code\u003e that works with a general sequence object, \u003cem\u003eseq\u003c/em\u003e.\n The iteration ends when the sequence raises \u003ccode\u003eIndexError\u003c/code\u003e for the\n subscripting operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Iterator",
           "name": "sequenceIteratorNew",
           "package": "cpython",
@@ -5477,6 +5894,7 @@
         "index": {
           "description": "Return an Iterator that works with general sequence object seq The iteration ends when the sequence raises IndexError for the subscripting operation",
           "hierarchy": "CPython Types Iterator",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Iterator",
           "name": "sequenceIteratorNew",
           "normalized": "a-\u003eIO SequenceIterator",
@@ -5515,6 +5933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "List",
           "package": "cpython",
@@ -5523,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "List",
           "package": "cpython",
@@ -5536,6 +5956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "List",
           "package": "cpython",
@@ -5544,6 +5965,7 @@
         },
         "index": {
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "List",
           "package": "cpython",
@@ -5558,6 +5980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend \u003cem\u003eitem\u003c/em\u003e to the end of th list. Throws an exception if unsuccessful.\n Analogous to \u003ccode\u003elist.append(item)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "append",
           "package": "cpython",
@@ -5568,6 +5991,7 @@
         "index": {
           "description": "Append item to the end of th list Throws an exception if unsuccessful Analogous to list.append item",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "append",
           "normalized": "List-\u003ea-\u003eIO()",
@@ -5608,6 +6032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the object at a given position in the list. The position must be\n positive; indexing from the end of the list is not supported. If the\n position is out of bounds, throws an \u003ccode\u003eIndexError\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "getItem",
           "package": "cpython",
@@ -5618,6 +6043,7 @@
         "index": {
           "description": "Returns the object at given position in the list The position must be positive indexing from the end of the list is not supported If the position is out of bounds throws an IndexError exception",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "getItem",
           "normalized": "List-\u003eInteger-\u003eIO SomeObject",
@@ -5634,6 +6060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of the objects in list containing the objects between\n the given indexes. Throws an exception if unsuccessful. Analogous to\n \u003ccode\u003elist[low:high]\u003c/code\u003e. Negative indices, as when slicing from Python, are not\n supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "getSlice",
           "package": "cpython",
@@ -5644,6 +6071,7 @@
         "index": {
           "description": "Return list of the objects in list containing the objects between the given indexes Throws an exception if unsuccessful Analogous to list low high Negative indices as when slicing from Python are not supported",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "getSlice",
           "normalized": "List-\u003eInteger-\u003eInteger-\u003eIO List",
@@ -5660,6 +6088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts \u003cem\u003eitem\u003c/em\u003e into the list in front of the given index. Throws an\n exception if unsuccessful. Analogous to \u003ccode\u003elist.insert(index, item)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "insert",
           "package": "cpython",
@@ -5670,6 +6099,7 @@
         "index": {
           "description": "Inserts item into the list in front of the given index Throws an exception if unsuccessful Analogous to list.insert index item",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "insert",
           "normalized": "List-\u003eInteger-\u003ea-\u003eIO()",
@@ -5711,6 +6141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "length",
           "package": "cpython",
@@ -5720,6 +6151,7 @@
         },
         "index": {
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "length",
           "normalized": "List-\u003eIO Integer",
@@ -5758,6 +6190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverses the items of a list in place. This is equivalent to\n \u003ccode\u003elist.reverse()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "reverse",
           "package": "cpython",
@@ -5768,6 +6201,7 @@
         "index": {
           "description": "Reverses the items of list in place This is equivalent to list.reverse",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "reverse",
           "normalized": "List-\u003eIO()",
@@ -5783,6 +6217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the item at a given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "setItem",
           "package": "cpython",
@@ -5793,6 +6228,7 @@
         "index": {
           "description": "Set the item at given index",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "setItem",
           "normalized": "List-\u003eInteger-\u003ea-\u003eIO()",
@@ -5809,6 +6245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the slice of a list between \u003cem\u003elow\u003c/em\u003e and \u003cem\u003ehigh\u003c/em\u003e to the contents of\n a replacement list. Analogous to \u003ccode\u003elist[low:high] = replacement\u003c/code\u003e. The\n replacement may be \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, indicating the assignment of an empty list\n (slice deletion). Negative indices, as when slicing from Python, are not\n supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "setSlice",
           "package": "cpython",
@@ -5818,6 +6255,7 @@
         "index": {
           "description": "Sets the slice of list between low and high to the contents of replacement list Analogous to list low high replacement The replacement may be Nothing indicating the assignment of an empty list slice deletion Negative indices as when slicing from Python are not supported",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "setSlice",
           "normalized": "List-\u003eInteger-\u003eInteger-\u003eMaybe List-\u003eIO()",
@@ -5834,6 +6272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort the items of a list in place. This is equivalent to \u003ccode\u003elist.sort()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "sort",
           "package": "cpython",
@@ -5844,6 +6283,7 @@
         "index": {
           "description": "Sort the items of list in place This is equivalent to list.sort",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "sort",
           "normalized": "List-\u003eIO()",
@@ -5884,6 +6324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a new \u003ccode\u003e\u003ca\u003eTuple\u003c/a\u003e\u003c/code\u003e containing the contents of a list; equivalent to\n \u003ccode\u003etuple(list)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.List",
           "name": "toTuple",
           "package": "cpython",
@@ -5894,6 +6335,7 @@
         "index": {
           "description": "Return new Tuple containing the contents of list equivalent to tuple list",
           "hierarchy": "CPython Types List",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.List",
           "name": "toTuple",
           "normalized": "List-\u003eIO Tuple",
@@ -5909,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Method",
           "name": "Method",
           "package": "cpython",
@@ -5917,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Method",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Method",
           "name": "Method",
           "package": "cpython",
@@ -5930,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Method",
           "name": "Method",
           "package": "cpython",
@@ -5938,6 +6383,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Method",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Method",
           "name": "Method",
           "package": "cpython",
@@ -5951,6 +6397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Method",
           "name": "function",
           "package": "cpython",
@@ -5960,6 +6407,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Method",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Method",
           "name": "function",
           "normalized": "Method-\u003eIO SomeObject",
@@ -5997,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Method",
           "name": "new",
           "package": "cpython",
@@ -6006,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Method",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Method",
           "name": "new",
           "normalized": "a-\u003eb-\u003eIO Method",
@@ -6020,6 +6470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Method",
           "name": "self",
           "package": "cpython",
@@ -6029,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Method",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Method",
           "name": "self",
           "normalized": "Method-\u003eIO SomeObject",
@@ -6043,6 +6495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "Module",
           "package": "cpython",
@@ -6051,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "Module",
           "package": "cpython",
@@ -6064,6 +6518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "Module",
           "package": "cpython",
@@ -6072,6 +6527,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "Module",
           "package": "cpython",
@@ -6086,6 +6542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an integer constant to a module. This convenience computation can be\n used from the module&#8217;s initialization computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "addIntegerConstant",
           "package": "cpython",
@@ -6096,6 +6553,7 @@
         "index": {
           "description": "Add an integer constant to module This convenience computation can be used from the module initialization computation",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "addIntegerConstant",
           "normalized": "Module-\u003eText-\u003eInteger-\u003eIO()",
@@ -6112,6 +6570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an object to a module with the given name. This is a convenience\n computation which can be used from the module&#8217;s initialization\n computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "addObject",
           "package": "cpython",
@@ -6122,6 +6581,7 @@
         "index": {
           "description": "Add an object to module with the given name This is convenience computation which can be used from the module initialization computation",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "addObject",
           "normalized": "Module-\u003eText-\u003ea-\u003eIO()",
@@ -6138,6 +6598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a string constant to a module. This convenience computation can be\n used from the module&#8217;s initialization computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "addTextConstant",
           "package": "cpython",
@@ -6148,6 +6609,7 @@
         "index": {
           "description": "Add string constant to module This convenience computation can be used from the module initialization computation",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "addTextConstant",
           "normalized": "Module-\u003eText-\u003eText-\u003eIO()",
@@ -6164,6 +6626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the dictionary object that implements a module&#8217;s namespace;\n this object is the same as the \u003ccode\u003e__dict__\u003c/code\u003e attribute of the module. This\n computation never fails. It is recommended extensions use other\n computations rather than directly manipulate a module&#8217;s \u003ccode\u003e__dict__\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "getDictionary",
           "package": "cpython",
@@ -6174,6 +6637,7 @@
         "index": {
           "description": "Return the dictionary object that implements module namespace this object is the same as the dict attribute of the module This computation never fails It is recommended extensions use other computations rather than directly manipulate module dict",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "getDictionary",
           "normalized": "Module-\u003eIO Dictionary",
@@ -6190,6 +6654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the name of the file from which a module was loaded using the\n module&#8217;s \u003ccode\u003e__file__\u003c/code\u003e attribute. If this is not defined, or if it is\n not a string, throws \u003ccode\u003eSystemError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "getFilename",
           "package": "cpython",
@@ -6200,6 +6665,7 @@
         "index": {
           "description": "Returns the name of the file from which module was loaded using the module file attribute If this is not defined or if it is not string throws SystemError",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "getFilename",
           "normalized": "Module-\u003eIO Text",
@@ -6216,6 +6682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a module&#8217;s \u003ccode\u003e__name__\u003c/code\u003e value. If the module does not\n provide one, or if it is not a string, throws \u003ccode\u003eSystemError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "getName",
           "package": "cpython",
@@ -6226,6 +6693,7 @@
         "index": {
           "description": "Returns module name value If the module does not provide one or if it is not string throws SystemError",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "getName",
           "normalized": "Module-\u003eIO Text",
@@ -6242,6 +6710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a higher-level interface that calls the current &#8220;import\n hook&#8221; (with an explicit level of \u003ccode\u003e0\u003c/code\u003e, meaning absolute import). It\n invokes the \u003ccode\u003e__import__()\u003c/code\u003e computation from the \u003ccode\u003e__builtins__\u003c/code\u003e of the\n current globals. This means that the import is done using whatever import\n hooks are installed in the current environment.\n\u003c/p\u003e\u003cp\u003eThis computation always uses absolute imports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "importModule",
           "package": "cpython",
@@ -6252,6 +6721,7 @@
         "index": {
           "description": "This is higher-level interface that calls the current import hook with an explicit level of meaning absolute import It invokes the import computation from the builtins of the current globals This means that the import is done using whatever import hooks are installed in the current environment This computation always uses absolute imports",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "importModule",
           "normalized": "Text-\u003eIO Module",
@@ -6291,6 +6761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a new module object with the \u003ccode\u003e__name__\u003c/code\u003e attribute set. Only the\n module&#8217;s \u003ccode\u003e__doc__\u003c/code\u003e and \u003ccode\u003e__name__\u003c/code\u003e attributes are filled in; the\n caller is responsible for providing a \u003ccode\u003e__file__\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "new",
           "package": "cpython",
@@ -6301,6 +6772,7 @@
         "index": {
           "description": "Return new module object with the name attribute set Only the module doc and name attributes are filled in the caller is responsible for providing file attribute",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "new",
           "normalized": "Text-\u003eIO Module",
@@ -6316,6 +6788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReload a module. If an error occurs, an exception is thrown and the old\n module still exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Module",
           "name": "reload",
           "package": "cpython",
@@ -6326,6 +6799,7 @@
         "index": {
           "description": "Reload module If an error occurs an exception is thrown and the old module still exists",
           "hierarchy": "CPython Types Module",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Module",
           "name": "reload",
           "normalized": "Module-\u003eIO Module",
@@ -6341,6 +6815,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAny functionality not listed below is best accessed using the either\n the \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e protocol (including \u003ccode\u003ecallMethod\u003c/code\u003e, \u003ccode\u003erichCompare\u003c/code\u003e, \u003ccode\u003ehash\u003c/code\u003e,\n \u003ccode\u003erepr\u003c/code\u003e, \u003ccode\u003eisTrue\u003c/code\u003e, and \u003ccode\u003egetIter\u003c/code\u003e) or the \u003ccode\u003eNumber\u003c/code\u003e protocol (including \u003ccode\u003e\u003ca\u003eand\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003esubtract\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003exor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003einPlaceAnd\u003c/code\u003e, \u003ccode\u003einPlaceSubtract\u003c/code\u003e, \u003ccode\u003einPlaceOr\u003c/code\u003e,\n and \u003ccode\u003einPlaceXor\u003c/code\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "Set",
           "package": "cpython",
@@ -6350,6 +6825,7 @@
         "index": {
           "description": "Any functionality not listed below is best accessed using the either the Object protocol including callMethod richCompare hash repr isTrue and getIter or the Number protocol including and subtract or xor inPlaceAnd inPlaceSubtract inPlaceOr and inPlaceXor",
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "Set",
           "package": "cpython",
@@ -6363,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "AnySet",
           "package": "cpython",
@@ -6371,6 +6848,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "AnySet",
           "package": "cpython",
@@ -6384,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "FrozenSet",
           "package": "cpython",
@@ -6392,6 +6871,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "FrozenSet",
           "package": "cpython",
@@ -6405,6 +6885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "Set",
           "package": "cpython",
@@ -6413,6 +6894,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "Set",
           "package": "cpython",
@@ -6427,6 +6909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd \u003cem\u003ekey\u003c/em\u003e to a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e. Also works with \u003ccode\u003e\u003ca\u003eFrozenSet\u003c/a\u003e\u003c/code\u003e (like\n \u003ccode\u003e\u003ca\u003esetItem\u003c/a\u003e\u003c/code\u003e it can be used to fill-in the values of\n brand new \u003ccode\u003e\u003ca\u003eFrozenSet\u003c/a\u003e\u003c/code\u003es before they are exposed to other code). Throws a\n \u003ccode\u003eTypeError\u003c/code\u003e if the key is unhashable. Throws a \u003ccode\u003eMemoryError\u003c/code\u003e if there is\n no room to grow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "add",
           "package": "cpython",
@@ -6437,6 +6920,7 @@
         "index": {
           "description": "Add key to Set Also works with FrozenSet like setItem it can be used to fill-in the values of brand new FrozenSet before they are exposed to other code Throws TypeError if the key is unhashable Throws MemoryError if there is no room to grow",
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "add",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -6452,6 +6936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all elements from a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "clear",
           "package": "cpython",
@@ -6462,6 +6947,7 @@
         "index": {
           "description": "Remove all elements from set",
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "clear",
           "normalized": "Set-\u003eIO()",
@@ -6477,6 +6963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if found, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if not found. Unlike the Python\n \u003ccode\u003e__contains__()\u003c/code\u003e method, this computation does not automatically convert\n unhashable \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003es into temporary \u003ccode\u003e\u003ca\u003eFrozenSet\u003c/a\u003e\u003c/code\u003es. Throws a \u003ccode\u003eTypeError\u003c/code\u003e if the\n key is unhashable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "contains",
           "package": "cpython",
@@ -6487,6 +6974,7 @@
         "index": {
           "description": "Return True if found False if not found Unlike the Python contains method this computation does not automatically convert unhashable Set into temporary FrozenSet Throws TypeError if the key is unhashable",
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "contains",
           "normalized": "a-\u003eb-\u003eIO Bool",
@@ -6502,6 +6990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if found and removed, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if not found (no action\n taken). Does not throw \u003ccode\u003eKeyError\u003c/code\u003e for missing keys. Throws a \u003ccode\u003eTypeError\u003c/code\u003e\n if \u003cem\u003ekey\u003c/em\u003e is unhashable. Unlike the Python \u003ccode\u003ediscard()\u003c/code\u003e method, this\n computation does not automatically convert unhashable sets into temporary\n \u003ccode\u003e\u003ca\u003eFrozenSet\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "discard",
           "package": "cpython",
@@ -6512,6 +7001,7 @@
         "index": {
           "description": "Return True if found and removed False if not found no action taken Does not throw KeyError for missing keys Throws TypeError if key is unhashable Unlike the Python discard method this computation does not automatically convert unhashable sets into temporary FrozenSet",
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "discard",
           "normalized": "Set-\u003ea-\u003eIO Bool",
@@ -6629,6 +7119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an arbitrary object in the set, and removes the object from the\n set. Throws \u003ccode\u003eKeyError\u003c/code\u003e if the set is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "pop",
           "package": "cpython",
@@ -6639,6 +7130,7 @@
         "index": {
           "description": "Return an arbitrary object in the set and removes the object from the set Throws KeyError if the set is empty",
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "pop",
           "normalized": "Set-\u003eIO SomeObject",
@@ -6677,6 +7169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size of a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFrozenSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Set",
           "name": "size",
           "package": "cpython",
@@ -6687,6 +7180,7 @@
         "index": {
           "description": "Return the size of Set or FrozenSet",
           "hierarchy": "CPython Types Set",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Set",
           "name": "size",
           "normalized": "a-\u003eIO Integer",
@@ -6751,6 +7245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Slice",
           "name": "Slice",
           "package": "cpython",
@@ -6759,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Slice",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Slice",
           "name": "Slice",
           "package": "cpython",
@@ -6772,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Slice",
           "name": "Slice",
           "package": "cpython",
@@ -6780,6 +7277,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Slice",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Slice",
           "name": "Slice",
           "package": "cpython",
@@ -6794,6 +7292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the start, stop, step, and slice length from a \u003ccode\u003e\u003ca\u003eSlice\u003c/a\u003e\u003c/code\u003e,\n assuming a sequence of the given length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Slice",
           "name": "getIndices",
           "package": "cpython",
@@ -6803,6 +7302,7 @@
         "index": {
           "description": "Retrieve the start stop step and slice length from Slice assuming sequence of the given length",
           "hierarchy": "CPython Types Slice",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Slice",
           "name": "getIndices",
           "normalized": "Slice-\u003eInteger-\u003eIO(Integer,Integer,Integer,Integer)",
@@ -6819,6 +7319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a new slice object with the given values. The \u003cem\u003estart\u003c/em\u003e, \u003cem\u003estop\u003c/em\u003e,\n and \u003cem\u003estep\u003c/em\u003e parameters are used as the values of the slice object\n attributes of the same names. Any of the values may be \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, in which\n case \u003ccode\u003eNone\u003c/code\u003e will be used for the corresponding attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Slice",
           "name": "new",
           "package": "cpython",
@@ -6829,6 +7330,7 @@
         "index": {
           "description": "Return new slice object with the given values The start stop and step parameters are used as the values of the slice object attributes of the same names Any of the values may be Nothing in which case None will be used for the corresponding attribute",
           "hierarchy": "CPython Types Slice",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Slice",
           "name": "new",
           "normalized": "Maybe a-\u003eMaybe b-\u003eMaybe c-\u003eIO Slice",
@@ -6866,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Tuple",
           "name": "Tuple",
           "package": "cpython",
@@ -6874,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Tuple",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Tuple",
           "name": "Tuple",
           "package": "cpython",
@@ -6887,6 +7391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Tuple",
           "name": "Tuple",
           "package": "cpython",
@@ -6895,6 +7400,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Tuple",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Tuple",
           "name": "Tuple",
           "package": "cpython",
@@ -6934,6 +7440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the object at a given index from a tuple, or throws \u003ccode\u003eIndexError\u003c/code\u003e\n if the index is out of bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Tuple",
           "name": "getItem",
           "package": "cpython",
@@ -6944,6 +7451,7 @@
         "index": {
           "description": "Return the object at given index from tuple or throws IndexError if the index is out of bounds",
           "hierarchy": "CPython Types Tuple",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Tuple",
           "name": "getItem",
           "normalized": "Tuple-\u003eInteger-\u003eIO SomeObject",
@@ -6960,6 +7468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a slice of a tuple from \u003cem\u003elow\u003c/em\u003e to \u003cem\u003ehigh\u003c/em\u003e, and return it as a new\n tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Tuple",
           "name": "getSlice",
           "package": "cpython",
@@ -6970,6 +7479,7 @@
         "index": {
           "description": "Take slice of tuple from low to high and return it as new tuple",
           "hierarchy": "CPython Types Tuple",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Tuple",
           "name": "getSlice",
           "normalized": "Tuple-\u003eInteger-\u003eInteger-\u003eIO Tuple",
@@ -7012,6 +7522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Tuple",
           "name": "length",
           "package": "cpython",
@@ -7021,6 +7532,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Tuple",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Tuple",
           "name": "length",
           "normalized": "Tuple-\u003eIO Integer",
@@ -7035,6 +7547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Tuple",
           "name": "setItem",
           "package": "cpython",
@@ -7044,6 +7557,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Tuple",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Tuple",
           "name": "setItem",
           "normalized": "Tuple-\u003eInteger-\u003ea-\u003eIO()",
@@ -7107,6 +7621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Type",
           "name": "Type",
           "package": "cpython",
@@ -7115,6 +7630,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Type",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Type",
           "name": "Type",
           "package": "cpython",
@@ -7128,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Type",
           "name": "Type",
           "package": "cpython",
@@ -7136,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Type",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Type",
           "name": "Type",
           "package": "cpython",
@@ -7150,6 +7668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the first parameter is a subtype of the second\n parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Type",
           "name": "isSubtype",
           "package": "cpython",
@@ -7160,6 +7679,7 @@
         "index": {
           "description": "Returns True if the first parameter is subtype of the second parameter",
           "hierarchy": "CPython Types Type",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Type",
           "name": "isSubtype",
           "normalized": "Type-\u003eType-\u003eIO Bool",
@@ -7198,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Unicode",
           "package": "cpython",
@@ -7206,6 +7727,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Unicode",
           "package": "cpython",
@@ -7219,6 +7741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Encoding",
           "package": "cpython",
@@ -7227,6 +7750,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Encoding",
           "package": "cpython",
@@ -7240,6 +7764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "ErrorHandling",
           "package": "cpython",
@@ -7248,6 +7773,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "ErrorHandling",
           "package": "cpython",
@@ -7261,6 +7787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "FindDirection",
           "package": "cpython",
@@ -7269,6 +7796,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "FindDirection",
           "package": "cpython",
@@ -7282,6 +7810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "MatchDirection",
           "package": "cpython",
@@ -7290,6 +7819,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "MatchDirection",
           "package": "cpython",
@@ -7303,6 +7833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Unicode",
           "package": "cpython",
@@ -7311,6 +7842,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Unicode",
           "package": "cpython",
@@ -7324,6 +7856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Backwards",
           "package": "cpython",
@@ -7333,6 +7866,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Backwards",
           "package": "cpython",
@@ -7346,6 +7880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Forwards",
           "package": "cpython",
@@ -7355,6 +7890,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Forwards",
           "package": "cpython",
@@ -7368,6 +7904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Ignore",
           "package": "cpython",
@@ -7377,6 +7914,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Ignore",
           "package": "cpython",
@@ -7390,6 +7928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Prefix",
           "package": "cpython",
@@ -7399,6 +7938,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Prefix",
           "package": "cpython",
@@ -7412,6 +7952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Replace",
           "package": "cpython",
@@ -7421,6 +7962,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Replace",
           "package": "cpython",
@@ -7434,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Strict",
           "package": "cpython",
@@ -7443,6 +7986,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Strict",
           "package": "cpython",
@@ -7456,6 +8000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "Suffix",
           "package": "cpython",
@@ -7465,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "Suffix",
           "package": "cpython",
@@ -7478,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "append",
           "package": "cpython",
@@ -7487,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "append",
           "normalized": "Unicode-\u003eUnicode-\u003eIO Unicode",
@@ -7502,6 +8050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether \u003cem\u003eelement\u003c/em\u003e is contained in a string.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eelement\u003c/em\u003e has to coerce to a one element string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "contains",
           "package": "cpython",
@@ -7512,6 +8061,7 @@
         "index": {
           "description": "Check whether element is contained in string element has to coerce to one element string",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "contains",
           "normalized": "Unicode-\u003ea-\u003eIO Bool",
@@ -7527,6 +8077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of non-overlapping occurrences of the substring in\n \u003ccode\u003estring[start:end]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "count",
           "package": "cpython",
@@ -7536,6 +8087,7 @@
         "index": {
           "description": "Return the number of non-overlapping occurrences of the substring in string start end",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "count",
           "normalized": "Unicode-\u003eUnicode-\u003eInteger-\u003eInteger-\u003eIO Integer",
@@ -7551,6 +8103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eUnicode\u003c/a\u003e\u003c/code\u003e object by decoding a \u003ccode\u003e\u003ca\u003eBytes\u003c/a\u003e\u003c/code\u003e object. The encoding and\n error mode have the same meaning as the parameters of the the\n \u003ccode\u003estr.encode()\u003c/code\u003e method. The codec to be used is looked up using the Python\n codec registry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "decode",
           "package": "cpython",
@@ -7561,6 +8114,7 @@
         "index": {
           "description": "Create Unicode object by decoding Bytes object The encoding and error mode have the same meaning as the parameters of the the str.encode method The codec to be used is looked up using the Python codec registry",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "decode",
           "normalized": "Bytes-\u003eEncoding-\u003eErrorHandling-\u003eIO Unicode",
@@ -7576,6 +8130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eUnicode\u003c/a\u003e\u003c/code\u003e object and return the result as \u003ccode\u003e\u003ca\u003eBytes\u003c/a\u003e\u003c/code\u003e object.\n The encoding and error mode have the same meaning as the parameters of\n the the \u003ccode\u003estr.encode()\u003c/code\u003e method. The codec to be used is looked up using\n the Python codec registry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "encode",
           "package": "cpython",
@@ -7586,6 +8141,7 @@
         "index": {
           "description": "Encode Unicode object and return the result as Bytes object The encoding and error mode have the same meaning as the parameters of the the str.encode method The codec to be used is looked up using the Python codec registry",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "encode",
           "normalized": "Unicode-\u003eEncoding-\u003eErrorHandling-\u003eIO Bytes",
@@ -7601,6 +8157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first position of the substring in \u003ccode\u003estring*[*start:end]\u003c/code\u003e\n using the given direction. The return value is the index of the first\n match; a value of \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e indicates that no match was found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "find",
           "package": "cpython",
@@ -7610,6 +8167,7 @@
         "index": {
           "description": "Return the first position of the substring in string start end using the given direction The return value is the index of the first match value of Nothing indicates that no match was found",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "find",
           "normalized": "Unicode-\u003eUnicode-\u003eInteger-\u003eInteger-\u003eFindDirection-\u003eIO(Maybe Integer)",
@@ -7625,6 +8183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a new \u003ccode\u003e\u003ca\u003eUnicode\u003c/a\u003e\u003c/code\u003e object from the given format and args; this is\n analogous to \u003ccode\u003eformat % args\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "format",
           "package": "cpython",
@@ -7635,6 +8194,7 @@
         "index": {
           "description": "Return new Unicode object from the given format and args this is analogous to format args",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "format",
           "normalized": "Unicode-\u003eTuple-\u003eIO Unicode",
@@ -7650,6 +8210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce an encoded object \u003cem\u003eobj\u003c/em\u003e to an Unicode object.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBytes\u003c/a\u003e\u003c/code\u003e and other char buffer compatible objects are decoded according to\n the given encoding and error handling mode.\n\u003c/p\u003e\u003cp\u003eAll other objects, including \u003ccode\u003e\u003ca\u003eUnicode\u003c/a\u003e\u003c/code\u003e objects, cause a \u003ccode\u003eTypeError\u003c/code\u003e to be\n thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "fromEncodedObject",
           "package": "cpython",
@@ -7660,6 +8221,7 @@
         "index": {
           "description": "Coerce an encoded object obj to an Unicode object Bytes and other char buffer compatible objects are decoded according to the given encoding and error handling mode All other objects including Unicode objects cause TypeError to be thrown",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "fromEncodedObject",
           "normalized": "a-\u003eEncoding-\u003eErrorHandling-\u003eIO Unicode",
@@ -7676,6 +8238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for \u003ccode\u003e\u003ccode\u003e\u003ca\u003efromEncodedObject\u003c/a\u003e\u003c/code\u003e \"utf-8\" \u003ccode\u003e\u003ca\u003eStrict\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "fromObject",
           "package": "cpython",
@@ -7686,6 +8249,7 @@
         "index": {
           "description": "Shortcut for fromEncodedObject utf-8 Strict",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "fromObject",
           "normalized": "a-\u003eIO Unicode",
@@ -7727,6 +8291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin a sequence of strings using the given separator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "join",
           "package": "cpython",
@@ -7737,6 +8302,7 @@
         "index": {
           "description": "Join sequence of strings using the given separator",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "join",
           "normalized": "Unicode-\u003ea-\u003eIO Unicode",
@@ -7751,6 +8317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "length",
           "package": "cpython",
@@ -7760,6 +8327,7 @@
         },
         "index": {
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "length",
           "normalized": "Unicode-\u003eIO Integer",
@@ -7775,6 +8343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace occurrences of the substring with a given replacement. If the\n maximum count is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, replace all occurences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "replace",
           "package": "cpython",
@@ -7784,6 +8353,7 @@
         "index": {
           "description": "Replace occurrences of the substring with given replacement If the maximum count is Nothing replace all occurences",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "replace",
           "normalized": "Unicode-\u003eUnicode-\u003eUnicode-\u003eMaybe Integer-\u003eIO Unicode",
@@ -7799,6 +8369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a string giving a \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eUnicode\u003c/a\u003e\u003c/code\u003e objects. If the separator is\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, splitting will be done at all whitespace substrings. Otherwise,\n splits occur at the given separator. Separators are not included in the\n resulting list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "split",
           "package": "cpython",
@@ -7808,6 +8379,7 @@
         "index": {
           "description": "Split string giving List of Unicode objects If the separator is Nothing splitting will be done at all whitespace substrings Otherwise splits occur at the given separator Separators are not included in the resulting list",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "split",
           "normalized": "Unicode-\u003eMaybe Unicode-\u003eMaybe Integer-\u003eIO List",
@@ -7823,6 +8395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a \u003ccode\u003e\u003ca\u003eUnicode\u003c/a\u003e\u003c/code\u003e string at line breaks, returning a list of \u003ccode\u003e\u003ca\u003eUnicode\u003c/a\u003e\u003c/code\u003e\n strings. CRLF is considered to be one line break. If the second parameter\n is \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e, the line break characters are not included in the resulting\n strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "splitLines",
           "package": "cpython",
@@ -7833,6 +8406,7 @@
         "index": {
           "description": "Split Unicode string at line breaks returning list of Unicode strings CRLF is considered to be one line break If the second parameter is False the line break characters are not included in the resulting strings",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "splitLines",
           "normalized": "Unicode-\u003eBool-\u003eIO List",
@@ -7849,6 +8423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the substring matches \u003ccode\u003estring*[*start:end]\u003c/code\u003e at the\n given tail end (either a \u003ccode\u003e\u003ca\u003ePrefix\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eSuffix\u003c/a\u003e\u003c/code\u003e match), \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "tailMatch",
           "package": "cpython",
@@ -7858,6 +8433,7 @@
         "index": {
           "description": "Return True if the substring matches string start end at the given tail end either Prefix or Suffix match False otherwise",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "tailMatch",
           "normalized": "Unicode-\u003eUnicode-\u003eInteger-\u003eInteger-\u003eMatchDirection-\u003eIO Bool",
@@ -7899,6 +8475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a string by applying a character mapping table to it.\n\u003c/p\u003e\u003cp\u003eThe mapping table must map Unicode ordinal integers to Unicode ordinal\n integers or \u003ccode\u003eNone\u003c/code\u003e (causing deletion of the character).\n\u003c/p\u003e\u003cp\u003eMapping tables need only provide the \u003ccode\u003e__getitem__()\u003c/code\u003e interface;\n dictionaries and sequences work well. Unmapped character ordinals (ones\n which cause a \u003ccode\u003eLookupError\u003c/code\u003e) are left untouched and are copied as-is.\n\u003c/p\u003e\u003cp\u003eThe error mode has the usual meaning for codecs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.Unicode",
           "name": "translate",
           "package": "cpython",
@@ -7909,6 +8486,7 @@
         "index": {
           "description": "Translate string by applying character mapping table to it The mapping table must map Unicode ordinal integers to Unicode ordinal integers or None causing deletion of the character Mapping tables need only provide the getitem interface dictionaries and sequences work well Unmapped character ordinals ones which cause LookupError are left untouched and are copied as-is The error mode has the usual meaning for codecs",
           "hierarchy": "CPython Types Unicode",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.Unicode",
           "name": "translate",
           "normalized": "Unicode-\u003ea-\u003eErrorHandling-\u003eIO Unicode",
@@ -7946,6 +8524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.WeakReference",
           "name": "WeakReference",
           "package": "cpython",
@@ -7954,6 +8533,7 @@
         },
         "index": {
           "hierarchy": "CPython Types WeakReference",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.WeakReference",
           "name": "WeakReference",
           "package": "cpython",
@@ -7967,6 +8547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.WeakReference",
           "name": "Proxy",
           "package": "cpython",
@@ -7975,6 +8556,7 @@
         },
         "index": {
           "hierarchy": "CPython Types WeakReference",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.WeakReference",
           "name": "Proxy",
           "package": "cpython",
@@ -7988,6 +8570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.WeakReference",
           "name": "Reference",
           "package": "cpython",
@@ -7996,6 +8579,7 @@
         },
         "index": {
           "hierarchy": "CPython Types WeakReference",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.WeakReference",
           "name": "Reference",
           "package": "cpython",
@@ -8010,6 +8594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the referenced object from a weak reference. If the referent is\n no longer live, returns \u003ccode\u003eNone\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.WeakReference",
           "name": "getObject",
           "package": "cpython",
@@ -8020,6 +8605,7 @@
         "index": {
           "description": "Return the referenced object from weak reference If the referent is no longer live returns None",
           "hierarchy": "CPython Types WeakReference",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.WeakReference",
           "name": "getObject",
           "normalized": "Reference-\u003eIO SomeObject",
@@ -8036,6 +8622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a weak reference proxy for the object. This will always return a\n new reference, but is not guaranteed to create a new object; an existing\n proxy may be returned. The second parameter, \u003cem\u003ecallback\u003c/em\u003e, can be a callable\n object that receives notification when \u003cem\u003eobj\u003c/em\u003e is garbage collected; it\n should accept a single parameter, which will be the weak reference object\n itself. If ob is not a weakly-referencable object, or if \u003cem\u003ecallback\u003c/em\u003e is not\n callable, this will throw a \u003ccode\u003eTypeError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.WeakReference",
           "name": "newProxy",
           "package": "cpython",
@@ -8046,6 +8633,7 @@
         "index": {
           "description": "Return weak reference proxy for the object This will always return new reference but is not guaranteed to create new object an existing proxy may be returned The second parameter callback can be callable object that receives notification when obj is garbage collected it should accept single parameter which will be the weak reference object itself If ob is not weakly-referencable object or if callback is not callable this will throw TypeError",
           "hierarchy": "CPython Types WeakReference",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.WeakReference",
           "name": "newProxy",
           "normalized": "a-\u003eMaybe b-\u003eIO Proxy",
@@ -8062,6 +8650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a weak reference for the object. This will always return a new\n reference, but is not guaranteed to create a new object; an existing\n reference object may be returned. The second parameter, \u003cem\u003ecallback\u003c/em\u003e, can\n be a callable object that receives notification when \u003cem\u003eobj\u003c/em\u003e is garbage\n collected; it should accept a single parameter, which will be the weak\n reference object itself. If ob is not a weakly-referencable object, or if\n \u003cem\u003ecallback\u003c/em\u003e is not callable, this will throw a \u003ccode\u003eTypeError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types.WeakReference",
           "name": "newReference",
           "package": "cpython",
@@ -8072,6 +8661,7 @@
         "index": {
           "description": "Return weak reference for the object This will always return new reference but is not guaranteed to create new object an existing reference object may be returned The second parameter callback can be callable object that receives notification when obj is garbage collected it should accept single parameter which will be the weak reference object itself If ob is not weakly-referencable object or if callback is not callable this will throw TypeError",
           "hierarchy": "CPython Types WeakReference",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types.WeakReference",
           "name": "newReference",
           "normalized": "a-\u003eMaybe b-\u003eIO Reference",
@@ -8087,6 +8677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Types",
           "package": "cpython",
@@ -8095,6 +8686,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Types",
           "package": "cpython",
@@ -8108,6 +8700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "AnySet",
           "package": "cpython",
@@ -8116,6 +8709,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "AnySet",
           "package": "cpython",
@@ -8129,6 +8723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "ByteArray",
           "package": "cpython",
@@ -8137,6 +8732,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "ByteArray",
           "package": "cpython",
@@ -8150,6 +8746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Bytes",
           "package": "cpython",
@@ -8158,6 +8755,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Bytes",
           "package": "cpython",
@@ -8171,6 +8769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "CallableIterator",
           "package": "cpython",
@@ -8179,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "CallableIterator",
           "package": "cpython",
@@ -8192,6 +8792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Capsule",
           "package": "cpython",
@@ -8200,6 +8801,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Capsule",
           "package": "cpython",
@@ -8213,6 +8815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Cell",
           "package": "cpython",
@@ -8221,6 +8824,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Cell",
           "package": "cpython",
@@ -8234,6 +8838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Code",
           "package": "cpython",
@@ -8242,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Code",
           "package": "cpython",
@@ -8255,6 +8861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Complex",
           "package": "cpython",
@@ -8263,6 +8870,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Complex",
           "package": "cpython",
@@ -8276,6 +8884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Dictionary",
           "package": "cpython",
@@ -8284,6 +8893,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Dictionary",
           "package": "cpython",
@@ -8297,6 +8907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Exception",
           "package": "cpython",
@@ -8305,6 +8916,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Exception",
           "package": "cpython",
@@ -8318,6 +8930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Float",
           "package": "cpython",
@@ -8326,6 +8939,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Float",
           "package": "cpython",
@@ -8339,6 +8953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "FrozenSet",
           "package": "cpython",
@@ -8347,6 +8962,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "FrozenSet",
           "package": "cpython",
@@ -8360,6 +8976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Function",
           "package": "cpython",
@@ -8368,6 +8985,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Function",
           "package": "cpython",
@@ -8381,6 +8999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "InstanceMethod",
           "package": "cpython",
@@ -8389,6 +9008,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "InstanceMethod",
           "package": "cpython",
@@ -8402,6 +9022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Integer",
           "package": "cpython",
@@ -8410,6 +9031,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Integer",
           "package": "cpython",
@@ -8423,6 +9045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "List",
           "package": "cpython",
@@ -8431,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "List",
           "package": "cpython",
@@ -8444,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Method",
           "package": "cpython",
@@ -8452,6 +9077,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Method",
           "package": "cpython",
@@ -8465,6 +9091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Module",
           "package": "cpython",
@@ -8473,6 +9100,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Module",
           "package": "cpython",
@@ -8486,6 +9114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Proxy",
           "package": "cpython",
@@ -8494,6 +9123,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Proxy",
           "package": "cpython",
@@ -8507,6 +9137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Reference",
           "package": "cpython",
@@ -8515,6 +9146,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Reference",
           "package": "cpython",
@@ -8528,6 +9160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "SequenceIterator",
           "package": "cpython",
@@ -8536,6 +9169,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "SequenceIterator",
           "package": "cpython",
@@ -8549,6 +9183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Set",
           "package": "cpython",
@@ -8557,6 +9192,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Set",
           "package": "cpython",
@@ -8570,6 +9206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Slice",
           "package": "cpython",
@@ -8578,6 +9215,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Slice",
           "package": "cpython",
@@ -8591,6 +9229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Tuple",
           "package": "cpython",
@@ -8599,6 +9238,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Tuple",
           "package": "cpython",
@@ -8612,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Type",
           "package": "cpython",
@@ -8620,6 +9261,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Type",
           "package": "cpython",
@@ -8633,6 +9275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython.Types",
           "name": "Unicode",
           "package": "cpython",
@@ -8641,6 +9284,7 @@
         },
         "index": {
           "hierarchy": "CPython Types",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython.Types",
           "name": "Unicode",
           "package": "cpython",
@@ -8654,6 +9298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "CPython",
           "package": "cpython",
@@ -8662,6 +9307,7 @@
         },
         "index": {
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "CPython",
           "package": "cpython",
@@ -8676,6 +9322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy the (sub-)interpreter represented by the given thread state.\n The given thread state must be the current thread state. See the\n discussion of thread states below. When the call returns, the current\n thread state is \u003ccode\u003eNULL\u003c/code\u003e. All thread states associated with this\n interpreter are destroyed. (The global interpreter lock must be held\n before calling this computation and is still held when it returns.)\n \u003ccode\u003e\u003ca\u003efinalize\u003c/a\u003e\u003c/code\u003e will destroy all sub-interpreters that haven&#8217;t been\n explicitly destroyed at that point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "endInterpreter",
           "package": "cpython",
@@ -8686,6 +9333,7 @@
         "index": {
           "description": "Destroy the sub interpreter represented by the given thread state The given thread state must be the current thread state See the discussion of thread states below When the call returns the current thread state is NULL All thread states associated with this interpreter are destroyed The global interpreter lock must be held before calling this computation and is still held when it returns finalize will destroy all sub-interpreters that haven been explicitly destroyed at that point",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "endInterpreter",
           "normalized": "ThreadState-\u003eIO()",
@@ -8702,6 +9350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndo all initializations made by \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e and subsequent use of\n Python/C API computations, and destroy all sub-interpreters (see\n \u003ccode\u003e\u003ca\u003enewInterpreter\u003c/a\u003e\u003c/code\u003e below) that were created and not yet destroyed since the\n last call to \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e. Ideally, this frees all memory allocated by the\n Python interpreter. This is a no-op when called for a second time (without\n calling \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e again first). There is no return value; errors during\n finalization are ignored.\n\u003c/p\u003e\u003cp\u003eThis computation is provided for a number of reasons. An embedding\n application might want to restart Python without having to restart the\n application itself. An application that has loaded the Python interpreter\n from a dynamically loadable library (or DLL) might want to free all memory\n allocated by Python before unloading the DLL. During a hunt for memory\n leaks in an application a developer might want to free all memory\n allocated by Python before exiting from the application.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eBugs and caveats\u003c/em\u003e: The destruction of modules and objects in modules is\n done in arbitrary order; this may cause destructors (\u003ccode\u003e__del__()\u003c/code\u003e methods)\n to fail when they depend on other objects (even functions) or modules.\n Dynamically loaded extension modules loaded by Python are not unloaded.\n Small amounts of memory allocated by the Python interpreter may not be\n freed (if you find a leak, please report it). Memory tied up in circular\n references between objects is not freed. Some memory allocated by extension\n modules may not be freed. Some extensions may not work properly if their\n initialization routine is called more than once; this can happen if an\n application calls \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efinalize\u003c/a\u003e\u003c/code\u003e more than once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "finalize",
           "package": "cpython",
@@ -8712,6 +9361,7 @@
         "index": {
           "description": "Undo all initializations made by initialize and subsequent use of Python API computations and destroy all sub-interpreters see newInterpreter below that were created and not yet destroyed since the last call to initialize Ideally this frees all memory allocated by the Python interpreter This is no-op when called for second time without calling initialize again first There is no return value errors during finalization are ignored This computation is provided for number of reasons An embedding application might want to restart Python without having to restart the application itself An application that has loaded the Python interpreter from dynamically loadable library or DLL might want to free all memory allocated by Python before unloading the DLL During hunt for memory leaks in an application developer might want to free all memory allocated by Python before exiting from the application Bugs and caveats The destruction of modules and objects in modules is done in arbitrary order this may cause destructors del methods to fail when they depend on other objects even functions or modules Dynamically loaded extension modules loaded by Python are not unloaded Small amounts of memory allocated by the Python interpreter may not be freed if you find leak please report it Memory tied up in circular references between objects is not freed Some memory allocated by extension modules may not be freed Some extensions may not work properly if their initialization routine is called more than once this can happen if an application calls initialize and finalize more than once",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "finalize",
           "normalized": "IO()",
@@ -8727,6 +9377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn information about the sequence number and build date and time of\n the current Python interpreter instance, for example\n\u003c/p\u003e\u003cpre\u003e\n  \"#67, Aug  1 1997, 22:34:28\"\n\u003c/pre\u003e\u003cp\u003eThe value is available to Python code as part of the variable\n \u003ccode\u003esys.version\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getBuildInfo",
           "package": "cpython",
@@ -8737,6 +9388,7 @@
         "index": {
           "description": "Return information about the sequence number and build date and time of the current Python interpreter instance for example Aug The value is available to Python code as part of the variable sys.version",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getBuildInfo",
           "package": "cpython",
@@ -8751,6 +9403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an indication of the compiler used to build the current Python\n version, in square brackets, for example:\n\u003c/p\u003e\u003cpre\u003e\n  \"[GCC 2.7.2.2]\"\n\u003c/pre\u003e\u003cp\u003eThe value is available to Python code as part of the variable\n \u003ccode\u003esys.version\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getCompiler",
           "package": "cpython",
@@ -8761,6 +9414,7 @@
         "index": {
           "description": "Return an indication of the compiler used to build the current Python version in square brackets for example GCC The value is available to Python code as part of the variable sys.version",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getCompiler",
           "package": "cpython",
@@ -8775,6 +9429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the official copyright string for the current Python version,\n for example\n\u003c/p\u003e\u003cpre\u003e\n  \"Copyright 1991-1995 Stichting Mathematisch Centrum, Amsterdam\"\n\u003c/pre\u003e\u003cp\u003eThe value is available to Python code as \u003ccode\u003esys.copyright\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getCopyright",
           "package": "cpython",
@@ -8785,6 +9440,7 @@
         "index": {
           "description": "Return the official copyright string for the current Python version for example Copyright Stichting Mathematisch Centrum Amsterdam The value is available to Python code as sys.copyright",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getCopyright",
           "package": "cpython",
@@ -8799,6 +9455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003cem\u003eexec-prefix\u003c/em\u003e for installed platform-\u003cem\u003edependent\u003c/em\u003e files. This\n is derived through a number of complicated rules from the program name\n set with setProgramName' and some environment variables; for example, if\n the program name is \u003ccode\u003e\"/usr/local/bin/python\"\u003c/code\u003e, the exec-prefix is\n \u003ccode\u003e\"/usr/local\"\u003c/code\u003e. This corresponds to the \u003ccode\u003eexec_prefix\u003c/code\u003e variable in the\n top-level Makefile and the \u003cem\u003e--exec-prefix\u003c/em\u003e argument to the \u003ccode\u003econfigure\u003c/code\u003e\n script at build time. The value is available to Python code as\n \u003ccode\u003esys.exec_prefix\u003c/code\u003e. It is only useful on UNIX.\n\u003c/p\u003e\u003cp\u003eBackground: The exec-prefix differs from the prefix when platform\n dependent files (such as executables and shared libraries) are installed\n in a different directory tree. In a typical installation, platform\n dependent files may be installed in the \u003ccode\u003e/usr/local/plat\u003c/code\u003e subtree while\n platform independent may be installed in \u003ccode\u003e/usr/local\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eGenerally speaking, a platform is a combination of hardware and software\n families, e.g. Sparc machines running the Solaris 2.x operating system\n are considered the same platform, but Intel machines running Solaris\n 2.x are another platform, and Intel machines running Linux are yet\n another platform. Different major revisions of the same operating system\n generally also form different platforms. Non-UNIX operating systems are a\n different story; the installation strategies on those systems are so\n different that the prefix and exec-prefix are meaningless, and set to the\n empty string. Note that compiled Python bytecode files are platform\n independent (but not independent from the Python version by which they\n were compiled!).\n\u003c/p\u003e\u003cp\u003eSystem administrators will know how to configure the \u003ccode\u003emount\u003c/code\u003e or \u003ccode\u003eautomount\u003c/code\u003e\n programs to share \u003ccode\u003e/usr/local\u003c/code\u003e between platforms while having\n \u003ccode\u003e/usr/local/plat\u003c/code\u003e be a different filesystem for each platform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getExecPrefix",
           "package": "cpython",
@@ -8809,6 +9466,7 @@
         "index": {
           "description": "Return the exec-prefix for installed platform dependent files This is derived through number of complicated rules from the program name set with setProgramName and some environment variables for example if the program name is usr local bin python the exec-prefix is usr local This corresponds to the exec prefix variable in the top-level Makefile and the exec-prefix argument to the configure script at build time The value is available to Python code as sys.exec prefix It is only useful on UNIX Background The exec-prefix differs from the prefix when platform dependent files such as executables and shared libraries are installed in different directory tree In typical installation platform dependent files may be installed in the usr local plat subtree while platform independent may be installed in usr local Generally speaking platform is combination of hardware and software families e.g Sparc machines running the Solaris operating system are considered the same platform but Intel machines running Solaris are another platform and Intel machines running Linux are yet another platform Different major revisions of the same operating system generally also form different platforms Non-UNIX operating systems are different story the installation strategies on those systems are so different that the prefix and exec-prefix are meaningless and set to the empty string Note that compiled Python bytecode files are platform independent but not independent from the Python version by which they were compiled System administrators will know how to configure the mount or automount programs to share usr local between platforms while having usr local plat be different filesystem for each platform",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getExecPrefix",
           "package": "cpython",
@@ -8823,6 +9481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the default module search path; this is computed from the\n program name (set by \u003ccode\u003e\u003ca\u003esetProgramName\u003c/a\u003e\u003c/code\u003e above) and some environment\n variables. The returned string consists of a series of directory names\n separated by a platform dependent delimiter character. The delimiter\n character is \u003ccode\u003e':'\u003c/code\u003e on Unix and Mac OS X, \u003ccode\u003e';'\u003c/code\u003e on Windows. The value\n is available to Python code as the list \u003ccode\u003esys.path\u003c/code\u003e, which may be modified\n to change the future search path for loaded modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getPath",
           "package": "cpython",
@@ -8833,6 +9492,7 @@
         "index": {
           "description": "Return the default module search path this is computed from the program name set by setProgramName above and some environment variables The returned string consists of series of directory names separated by platform dependent delimiter character The delimiter character is on Unix and Mac OS on Windows The value is available to Python code as the list sys.path which may be modified to change the future search path for loaded modules",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getPath",
           "package": "cpython",
@@ -8847,6 +9507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the platform identifier for the current platform. On Unix, this\n is formed from the &#8220;official&#8221; name of the operating system,\n converted to lower case, followed by the major revision number; e.g., for\n Solaris 2.x, which is also known as SunOS 5.x, the value is \u003ccode\u003e\"sunos5\"\u003c/code\u003e.\n On Mac OS X, it is \u003ccode\u003e\"darwin\"\u003c/code\u003e. On Windows, it is \u003ccode\u003e\"win\"\u003c/code\u003e. The value\n is available to Python code as \u003ccode\u003esys.platform\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getPlatform",
           "package": "cpython",
@@ -8857,6 +9518,7 @@
         "index": {
           "description": "Return the platform identifier for the current platform On Unix this is formed from the official name of the operating system converted to lower case followed by the major revision number e.g for Solaris which is also known as SunOS the value is sunos5 On Mac OS it is darwin On Windows it is win The value is available to Python code as sys.platform",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getPlatform",
           "package": "cpython",
@@ -8871,6 +9533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the prefix for installed platform-independent files. This is\n derived through a number of complicated rules from the program name set\n with \u003ccode\u003e\u003ca\u003esetProgramName\u003c/a\u003e\u003c/code\u003e and some environment variables; for example, if the\n program name is \u003ccode\u003e\"/usr/local/bin/python\"\u003c/code\u003e, the prefix is\n \u003ccode\u003e\"/usr/local\"\u003c/code\u003e. This corresponds to the \u003ccode\u003eprefix\u003c/code\u003e variable in the\n top-level Makefile and the \u003cem\u003e--prefix\u003c/em\u003e argument to the \u003ccode\u003econfigure\u003c/code\u003e script\n at build time. The value is available to Python code as \u003ccode\u003esys.prefix\u003c/code\u003e. It\n is only useful on UNIX. See also \u003ccode\u003e\u003ca\u003egetExecPrefix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getPrefix",
           "package": "cpython",
@@ -8881,6 +9544,7 @@
         "index": {
           "description": "Return the prefix for installed platform-independent files This is derived through number of complicated rules from the program name set with setProgramName and some environment variables for example if the program name is usr local bin python the prefix is usr local This corresponds to the prefix variable in the top-level Makefile and the prefix argument to the configure script at build time The value is available to Python code as sys.prefix It is only useful on UNIX See also getExecPrefix",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getPrefix",
           "package": "cpython",
@@ -8895,6 +9559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the full program name of the Python executable; this is computed\n as a side-effect of deriving the default module search path from the\n program name (set by \u003ccode\u003e\u003ca\u003esetProgramName\u003c/a\u003e\u003c/code\u003e above). The value is available to\n Python code as \u003ccode\u003esys.executable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getProgramFullPath",
           "package": "cpython",
@@ -8905,6 +9570,7 @@
         "index": {
           "description": "Return the full program name of the Python executable this is computed as side-effect of deriving the default module search path from the program name set by setProgramName above The value is available to Python code as sys.executable",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getProgramFullPath",
           "package": "cpython",
@@ -8919,6 +9585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the program name set with \u003ccode\u003e\u003ca\u003esetProgramName\u003c/a\u003e\u003c/code\u003e, or the default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getProgramName",
           "package": "cpython",
@@ -8929,6 +9596,7 @@
         "index": {
           "description": "Return the program name set with setProgramName or the default",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getProgramName",
           "package": "cpython",
@@ -8943,6 +9611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the default &#8220;home&#8221;, that is, the value set by a\n previous call to \u003ccode\u003e\u003ca\u003esetPythonHome\u003c/a\u003e\u003c/code\u003e, or the value of the \u003ccode\u003ePYTHONHOME\u003c/code\u003e\n environment variable if it is set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getPythonHome",
           "package": "cpython",
@@ -8953,6 +9622,7 @@
         "index": {
           "description": "Return the default home that is the value set by previous call to setPythonHome or the value of the PYTHONHOME environment variable if it is set",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getPythonHome",
           "package": "cpython",
@@ -8967,6 +9637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the version of this Python interpreter. This is a string that\n looks something like\n\u003c/p\u003e\u003cpre\u003e\n  \"3.0a5+ (py3k:63103M, May 12 2008, 00:53:55) \\n[GCC 4.2.3]\"\n\u003c/pre\u003e\u003cp\u003eThe first word (up to the first space character) is the current Python\n version; the first three characters are the major and minor version\n separated by a period. The value is available to Python code as\n \u003ccode\u003esys.version\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "getVersion",
           "package": "cpython",
@@ -8977,6 +9648,7 @@
         "index": {
           "description": "Return the version of this Python interpreter This is string that looks something like a5 py3k May GCC The first word up to the first space character is the current Python version the first three characters are the major and minor version separated by period The value is available to Python code as sys.version",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "getVersion",
           "package": "cpython",
@@ -8991,6 +9663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the Python interpreter. In an application embedding Python,\n this should be called before using any other Python/C API computations;\n with the exception of \u003ccode\u003e\u003ca\u003esetProgramName\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003einitThreads\u003c/code\u003e,\n \u003ccode\u003ereleaseLock\u003c/code\u003e, and \u003ccode\u003eacquireLock\u003c/code\u003e. This initializes the table\n of loaded modules (\u003ccode\u003esys.modules\u003c/code\u003e), and creates the fundamental modules\n \u003ccode\u003ebuiltins\u003c/code\u003e, \u003ccode\u003e__main__\u003c/code\u003e and \u003ccode\u003esys\u003c/code\u003e. It also initializes the module search\n path (\u003ccode\u003esys.path\u003c/code\u003e). It does not set \u003ccode\u003esys.argv\u003c/code\u003e; use \u003ccode\u003e\u003ca\u003esetArgv\u003c/a\u003e\u003c/code\u003e for that. This\n is a no-op when called for a second time (without calling \u003ccode\u003e\u003ca\u003efinalize\u003c/a\u003e\u003c/code\u003e\n first). There is no return value; it is a fatal error if the initialization\n fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "initialize",
           "package": "cpython",
@@ -9001,6 +9674,7 @@
         "index": {
           "description": "Initialize the Python interpreter In an application embedding Python this should be called before using any other Python API computations with the exception of setProgramName initThreads releaseLock and acquireLock This initializes the table of loaded modules sys.modules and creates the fundamental modules builtins main and sys It also initializes the module search path sys.path It does not set sys.argv use setArgv for that This is no-op when called for second time without calling finalize first There is no return value it is fatal error if the initialization fails",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "initialize",
           "normalized": "IO()",
@@ -9016,6 +9690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when the Python interpreter has been initialized, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n if not. After \u003ccode\u003e\u003ca\u003efinalize\u003c/a\u003e\u003c/code\u003e is called, this returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e until\n \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e is called again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "isInitialized",
           "package": "cpython",
@@ -9026,6 +9701,7 @@
         "index": {
           "description": "Return True when the Python interpreter has been initialized False if not After finalize is called this returns False until initialize is called again",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "isInitialized",
           "package": "cpython",
@@ -9040,6 +9716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new sub-interpreter. This is an (almost) totally separate\n environment for the execution of Python code. In particular, the new\n interpreter has separate, independent versions of all imported modules,\n including the fundamental modules \u003ccode\u003ebuiltins\u003c/code\u003e, \u003ccode\u003e__main__\u003c/code\u003e and \u003ccode\u003esys\u003c/code\u003e. The\n table of loaded modules (\u003ccode\u003esys.modules\u003c/code\u003e) and the module search path\n (\u003ccode\u003esys.path\u003c/code\u003e) are also separate. The new environment has no \u003ccode\u003esys.argv\u003c/code\u003e\n variable. It has new standard I/O stream file objects \u003ccode\u003esys.stdin\u003c/code\u003e,\n \u003ccode\u003esys.stdout\u003c/code\u003e and \u003ccode\u003esys.stderr\u003c/code\u003e (however these refer to the same underlying\n \u003ccode\u003eFILE\u003c/code\u003e structures in the C library).\n\u003c/p\u003e\u003cp\u003eThe return value points to the first thread state created in the new\n sub-interpreter. This thread state is made in the current thread state.\n Note that no actual thread is created; see the discussion of thread states\n below. If creation of the new interpreter is unsuccessful, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned; no exception is set since the exception state is stored in the\n current thread state and there may not be a current thread state. (Like\n all other Python/C API computations, the global interpreter lock must be\n held before calling this computation and is still held when it returns;\n however, unlike most other Python/C API computations, there\n needn&#8217;t be a current thread state on entry.)\n\u003c/p\u003e\u003cp\u003eExtension modules are shared between (sub-)interpreters as follows: the\n first time a particular extension is imported, it is initialized normally,\n and a (shallow) copy of its module&#8217;s dictionary is squirreled away.\n When the same extension is imported by another (sub-)interpreter, a new\n module is initialized and filled with the contents of this copy; the\n extension&#8217;s \u003ccode\u003einit\u003c/code\u003e procedure is not called. Note that this is\n different from what happens when an extension is imported after the\n interpreter has been completely re-initialized by calling \u003ccode\u003e\u003ca\u003efinalize\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e; in that case, the extension&#8217;s \u003ccode\u003einit\u003cem\u003emodule\u003c/em\u003e\u003c/code\u003e\n procedure is called again.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eBugs and caveats\u003c/em\u003e: Because sub-interpreters (and the main interpreter)\n are part of the same process, the insulation between them isn&#8217;t\n perfect &#8212; for example, using low-level file operations like\n \u003ccode\u003eos.close()\u003c/code\u003e they can (accidentally or maliciously) affect each\n other&#8217;s open files. Because of the way extensions are shared\n between (sub-)interpreters, some extensions may not work properly; this\n is especially likely when the extension makes use of (static) global\n variables, or when the extension manipulates its module&#8217;s\n dictionary after its initialization. It is possible to insert objects\n created in one sub-interpreter into a namespace of another\n sub-interpreter; this should be done with great care to avoid sharing\n user-defined functions, methods, instances or classes between\n sub-interpreters, since import operations executed by such objects may\n affect the wrong (sub-)interpreter&#8217;s dictionary of loaded modules.\n (XXX This is a hard-to-fix bug that will be addressed in a future release.)\n\u003c/p\u003e\u003cp\u003eAlso note that the use of this functionality is incompatible with\n extension modules such as PyObjC and ctypes that use the \u003ccode\u003ePyGILState_*()\u003c/code\u003e\n APIs (and this is inherent in the way the \u003ccode\u003ePyGILState_*()\u003c/code\u003e procedures\n work). Simple things may work, but confusing behavior will always be near.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "newInterpreter",
           "package": "cpython",
@@ -9050,6 +9727,7 @@
         "index": {
           "description": "Create new sub-interpreter This is an almost totally separate environment for the execution of Python code In particular the new interpreter has separate independent versions of all imported modules including the fundamental modules builtins main and sys The table of loaded modules sys.modules and the module search path sys.path are also separate The new environment has no sys.argv variable It has new standard stream file objects sys.stdin sys.stdout and sys.stderr however these refer to the same underlying FILE structures in the library The return value points to the first thread state created in the new sub-interpreter This thread state is made in the current thread state Note that no actual thread is created see the discussion of thread states below If creation of the new interpreter is unsuccessful Nothing is returned no exception is set since the exception state is stored in the current thread state and there may not be current thread state Like all other Python API computations the global interpreter lock must be held before calling this computation and is still held when it returns however unlike most other Python API computations there needn be current thread state on entry Extension modules are shared between sub interpreters as follows the first time particular extension is imported it is initialized normally and shallow copy of its module dictionary is squirreled away When the same extension is imported by another sub interpreter new module is initialized and filled with the contents of this copy the extension init procedure is not called Note that this is different from what happens when an extension is imported after the interpreter has been completely re-initialized by calling finalize and initialize in that case the extension init module procedure is called again Bugs and caveats Because sub-interpreters and the main interpreter are part of the same process the insulation between them isn perfect for example using low-level file operations like os.close they can accidentally or maliciously affect each other open files Because of the way extensions are shared between sub interpreters some extensions may not work properly this is especially likely when the extension makes use of static global variables or when the extension manipulates its module dictionary after its initialization It is possible to insert objects created in one sub-interpreter into namespace of another sub-interpreter this should be done with great care to avoid sharing user-defined functions methods instances or classes between sub-interpreters since import operations executed by such objects may affect the wrong sub interpreter dictionary of loaded modules XXX This is hard-to-fix bug that will be addressed in future release Also note that the use of this functionality is incompatible with extension modules such as PyObjC and ctypes that use the PyGILState APIs and this is inherent in the way the PyGILState procedures work Simple things may work but confusing behavior will always be near",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "newInterpreter",
           "package": "cpython",
@@ -9064,6 +9742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003esys.argv\u003c/code\u003e. The first parameter is similar to the result of\n \u003ccode\u003egetProgName\u003c/code\u003e, with the difference that it should refer to the script\n file to be executed rather than the executable hosting the Python\n interpreter. If there isn&#8217;t a script that will be run, the first\n parameter can be an empty string. If this function fails to initialize\n \u003ccode\u003esys.argv\u003c/code\u003e, a fatal condition is signalled using \u003ccode\u003ePy_FatalError()\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function also prepends the executed script&#8217;s path to\n \u003ccode\u003esys.path\u003c/code\u003e. If no script is executed (in the case of calling \u003ccode\u003epython -c\u003c/code\u003e\n or just the interactive interpreter), the empty string is used instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "setArgv",
           "package": "cpython",
@@ -9074,6 +9753,7 @@
         "index": {
           "description": "Set sys.argv The first parameter is similar to the result of getProgName with the difference that it should refer to the script file to be executed rather than the executable hosting the Python interpreter If there isn script that will be run the first parameter can be an empty string If this function fails to initialize sys.argv fatal condition is signalled using Py FatalError This function also prepends the executed script path to sys.path If no script is executed in the case of calling python or just the interactive interpreter the empty string is used instead",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "setArgv",
           "normalized": "Text-\u003e[Text]-\u003eIO()",
@@ -9090,6 +9770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis computation should be called before \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e is called for the\n first time, if it is called at all. It tells the interpreter the value of\n the \u003ccode\u003eargv[0]\u003c/code\u003e argument to the \u003ccode\u003emain\u003c/code\u003e procedure of the program. This is\n used by \u003ccode\u003e\u003ca\u003egetPath\u003c/a\u003e\u003c/code\u003e and some other computations below to find the Python\n run-time libraries relative to the interpreter executable. The default\n value is \u003ccode\u003e\"python\"\u003c/code\u003e. No code in the Python interpreter will change the\n program name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "setProgramName",
           "package": "cpython",
@@ -9100,6 +9781,7 @@
         "index": {
           "description": "This computation should be called before initialize is called for the first time if it is called at all It tells the interpreter the value of the argv argument to the main procedure of the program This is used by getPath and some other computations below to find the Python run-time libraries relative to the interpreter executable The default value is python No code in the Python interpreter will change the program name",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "setProgramName",
           "normalized": "Text-\u003eIO()",
@@ -9116,6 +9798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default &#8220;home&#8221; directory, that is, the location\n of the standard Python libraries. The libraries are searched in\n \u003ccode\u003e\u003cem\u003ehome\u003c/em\u003e/lib/\u003cem\u003epython version\u003c/em\u003e\u003c/code\u003e and \u003ccode\u003e\u003cem\u003ehome\u003c/em\u003e/lib/\u003cem\u003epython version\u003c/em\u003e\u003c/code\u003e. No\n code in the Python interpreter will change the Python home.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:12 UTC 2014",
           "module": "CPython",
           "name": "setPythonHome",
           "package": "cpython",
@@ -9126,6 +9809,7 @@
         "index": {
           "description": "Set the default home directory that is the location of the standard Python libraries The libraries are searched in home lib python version and home lib python version No code in the Python interpreter will change the Python home",
           "hierarchy": "CPython",
+          "indexed": "2014-03-11T17:42:12",
           "module": "CPython",
           "name": "setPythonHome",
           "normalized": "Maybe Text-\u003eIO()",

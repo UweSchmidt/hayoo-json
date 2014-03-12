@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Biobase"
+        "phrase": "Biobase",
+        "type": "phrase"
       },
       "type": "context"
     }

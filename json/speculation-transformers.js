@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "speculation-transformers"
+        "phrase": "speculation-transformers",
+        "type": "phrase"
       },
       "type": "context"
     }

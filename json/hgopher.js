@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgopher"
+        "phrase": "hgopher",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "HGopher",
           "package": "hgopher",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "HGopher",
           "package": "hgopher",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "GResponse",
           "package": "hgopher",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "GResponse",
           "package": "hgopher",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "Item",
           "package": "hgopher",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "Item",
           "package": "hgopher",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "Record",
           "package": "hgopher",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "Record",
           "package": "hgopher",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "Audio",
           "package": "hgopher",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "Audio",
           "package": "hgopher",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "BinHexTxt",
           "package": "hgopher",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "BinHexTxt",
           "package": "hgopher",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "BinaryArc",
           "package": "hgopher",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "BinaryArc",
           "package": "hgopher",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "BinaryFil",
           "package": "hgopher",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "BinaryFil",
           "package": "hgopher",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "CSOSearch",
           "package": "hgopher",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "CSOSearch",
           "package": "hgopher",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "Directory",
           "package": "hgopher",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "Directory",
           "package": "hgopher",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "ErrorMess",
           "package": "hgopher",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "ErrorMess",
           "package": "hgopher",
@@ -257,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA raw response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "GFile",
           "package": "hgopher",
@@ -267,6 +290,7 @@
         "index": {
           "description": "raw response",
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "GFile",
           "package": "hgopher",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "GIFImage",
           "package": "hgopher",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "GIFImage",
           "package": "hgopher",
@@ -303,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA listing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "GItems",
           "package": "hgopher",
@@ -313,6 +340,7 @@
         "index": {
           "description": "listing",
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "GItems",
           "normalized": "GItems[(Item,Record)]",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "HTMLFile",
           "package": "hgopher",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "HTMLFile",
           "package": "hgopher",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "Image",
           "package": "hgopher",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "Image",
           "package": "hgopher",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "Info",
           "package": "hgopher",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "Info",
           "package": "hgopher",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "PlainText",
           "package": "hgopher",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "PlainText",
           "package": "hgopher",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "Record",
           "package": "hgopher",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "Record",
           "package": "hgopher",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "SearchEng",
           "package": "hgopher",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "SearchEng",
           "package": "hgopher",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "TN3270Ptr",
           "package": "hgopher",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "TN3270Ptr",
           "package": "hgopher",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "TelnetPtr",
           "package": "hgopher",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "TelnetPtr",
           "package": "hgopher",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "UUEncoded",
           "package": "hgopher",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "UUEncoded",
           "package": "hgopher",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "host",
           "package": "hgopher",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "host",
           "package": "hgopher",
@@ -548,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function runs the server.\n Provide a port number and a function to handle requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "mainServer",
           "package": "hgopher",
@@ -558,6 +607,7 @@
         "index": {
           "description": "This function runs the server Provide port number and function to handle requests",
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "mainServer",
           "normalized": "PortNumber-\u003e(String-\u003eIO GResponse)-\u003eIO()",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "name",
           "package": "hgopher",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "name",
           "package": "hgopher",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "other",
           "package": "hgopher",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "other",
           "normalized": "[String]",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "port",
           "package": "hgopher",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "port",
           "package": "hgopher",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:42 UTC 2014",
           "module": "Network.HGopher",
           "name": "selector",
           "package": "hgopher",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Network HGopher",
+          "indexed": "2014-03-11T18:38:42",
           "module": "Network.HGopher",
           "name": "selector",
           "package": "hgopher",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pipes-websockets"
+        "phrase": "pipes-websockets",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:43 UTC 2014",
           "module": "Pipes.Network.Websockets",
           "name": "Websockets",
           "package": "pipes-websockets",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Pipes Network Websockets",
+          "indexed": "2014-03-11T19:39:43",
           "module": "Pipes.Network.Websockets",
           "name": "Websockets",
           "package": "pipes-websockets",

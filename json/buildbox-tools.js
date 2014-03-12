@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "buildbox-tools"
+        "phrase": "buildbox-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

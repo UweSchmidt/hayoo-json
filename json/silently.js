@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "silently"
+        "phrase": "silently",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNeed to prevent output to the terminal, a file, or stderr? Need to capture it and use it for\n your own means? Now you can, with \u003ccode\u003e\u003ca\u003esilence\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecapture\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:17 UTC 2014",
           "module": "System.IO.Silently",
           "name": "Silently",
           "package": "silently",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Need to prevent output to the terminal file or stderr Need to capture it and use it for your own means Now you can with silence and capture",
           "hierarchy": "System IO Silently",
+          "indexed": "2014-03-11T20:02:17",
           "module": "System.IO.Silently",
           "name": "Silently",
           "package": "silently",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an IO action while preventing and capturing all output to stdout.\n This will, as a side effect, create and delete a temp file in the temp directory or current directory if there is no temp directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:17 UTC 2014",
           "module": "System.IO.Silently",
           "name": "capture",
           "package": "silently",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Run an IO action while preventing and capturing all output to stdout This will as side effect create and delete temp file in the temp directory or current directory if there is no temp directory",
           "hierarchy": "System IO Silently",
+          "indexed": "2014-03-11T20:02:17",
           "module": "System.IO.Silently",
           "name": "capture",
           "normalized": "IO a-\u003eIO(String,a)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecapture\u003c/a\u003e\u003c/code\u003e, but discards the result of given action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:17 UTC 2014",
           "module": "System.IO.Silently",
           "name": "capture_",
           "package": "silently",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Like capture but discards the result of given action",
           "hierarchy": "System IO Silently",
+          "indexed": "2014-03-11T20:02:17",
           "module": "System.IO.Silently",
           "name": "capture_",
           "normalized": "IO a-\u003eIO String",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an IO action while preventing and capturing all output to the given handles.\n This will, as a side effect, create and delete a temp file in the temp directory or current directory if there is no temp directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:17 UTC 2014",
           "module": "System.IO.Silently",
           "name": "hCapture",
           "package": "silently",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Run an IO action while preventing and capturing all output to the given handles This will as side effect create and delete temp file in the temp directory or current directory if there is no temp directory",
           "hierarchy": "System IO Silently",
+          "indexed": "2014-03-11T20:02:17",
           "module": "System.IO.Silently",
           "name": "hCapture",
           "normalized": "[Handle]-\u003eIO a-\u003eIO(String,a)",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ehCapture\u003c/a\u003e\u003c/code\u003e, but discards the result of given action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:17 UTC 2014",
           "module": "System.IO.Silently",
           "name": "hCapture_",
           "package": "silently",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Like hCapture but discards the result of given action",
           "hierarchy": "System IO Silently",
+          "indexed": "2014-03-11T20:02:17",
           "module": "System.IO.Silently",
           "name": "hCapture_",
           "normalized": "[Handle]-\u003eIO a-\u003eIO String",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an IO action while preventing all output to the given handles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:17 UTC 2014",
           "module": "System.IO.Silently",
           "name": "hSilence",
           "package": "silently",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Run an IO action while preventing all output to the given handles",
           "hierarchy": "System IO Silently",
+          "indexed": "2014-03-11T20:02:17",
           "module": "System.IO.Silently",
           "name": "hSilence",
           "normalized": "[Handle]-\u003eIO a-\u003eIO a",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an IO action while preventing all output to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:17 UTC 2014",
           "module": "System.IO.Silently",
           "name": "silence",
           "package": "silently",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Run an IO action while preventing all output to stdout",
           "hierarchy": "System IO Silently",
+          "indexed": "2014-03-11T20:02:17",
           "module": "System.IO.Silently",
           "name": "silence",
           "normalized": "IO a-\u003eIO a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-pkpass"
+        "phrase": "hs-pkpass",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides types and functions for type-safe generation of PassBook's \u003ccode\u003epass.json\u003c/code\u003e files.\n\u003c/p\u003e\u003cp\u003eThis is a complete implementation of the Passbook Package Format Reference, available at\n    \u003ca\u003ehttps://developer.apple.com/library/ios/#documentation/UserExperience/Reference/PassKit_Bundle/Chapters/Introduction.html\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIt ensures that passes are created correctly wherever possible. Currently, NSBundle localization is not supported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Types",
           "package": "hs-pkpass",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides types and functions for type-safe generation of PassBook pass.json files This is complete implementation of the Passbook Package Format Reference available at https developer.apple.com library ios documentation UserExperience Reference PassKit Bundle Chapters Introduction.html It ensures that passes are created correctly wherever possible Currently NSBundle localization is not supported",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Types",
           "package": "hs-pkpass",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass field alignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Alignment",
           "package": "hs-pkpass",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Pass field alignment",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Alignment",
           "package": "hs-pkpass",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pass barcode. In most cases the helper function \u003ccode\u003e\u003ca\u003emkBarcode\u003c/a\u003e\u003c/code\u003e should be sufficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Barcode",
           "package": "hs-pkpass",
@@ -74,6 +79,7 @@
         "index": {
           "description": "pass barcode In most cases the helper function mkBarcode should be sufficient",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Barcode",
           "package": "hs-pkpass",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBarcode is constructed by a Barcode format, an encoding\n  type and the Barcode message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "BarcodeFormat",
           "package": "hs-pkpass",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Barcode is constructed by Barcode format an encoding type and the Barcode message",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "BarcodeFormat",
           "package": "hs-pkpass",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass field date/time display style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "DateTimeStyle",
           "package": "hs-pkpass",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Pass field date time display style",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "DateTimeStyle",
           "package": "hs-pkpass",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA location field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Location",
           "package": "hs-pkpass",
@@ -143,6 +154,7 @@
         "index": {
           "description": "location field",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Location",
           "package": "hs-pkpass",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe manifest.json file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Manifest",
           "package": "hs-pkpass",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The manifest.json file",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Manifest",
           "package": "hs-pkpass",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass field number display style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "NumberStyle",
           "package": "hs-pkpass",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Pass field number display style",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "NumberStyle",
           "package": "hs-pkpass",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete pass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Pass",
           "package": "hs-pkpass",
@@ -212,6 +229,7 @@
         "index": {
           "description": "complete pass",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Pass",
           "package": "hs-pkpass",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fields within a pass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassContent",
           "package": "hs-pkpass",
@@ -235,6 +254,7 @@
         "index": {
           "description": "The fields within pass",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassContent",
           "package": "hs-pkpass",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single pass field. The type \u003ccode\u003e\u003ca\u003ePassValue\u003c/a\u003e\u003c/code\u003e holds the fields value and ensures that the JSON output is compatible with Passbook.\n  To create a very simple key/value field containing text you can use the \u003ccode\u003e\u003ca\u003emkSimpleField\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassField",
           "package": "hs-pkpass",
@@ -258,6 +279,7 @@
         "index": {
           "description": "single pass field The type PassValue holds the fields value and ensures that the JSON output is compatible with Passbook To create very simple key value field containing text you can use the mkSimpleField function",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassField",
           "package": "hs-pkpass",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a pass including its fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassType",
           "package": "hs-pkpass",
@@ -281,6 +304,7 @@
         "index": {
           "description": "The type of pass including its fields",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassType",
           "package": "hs-pkpass",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuxiliary type to ensure that field values are rendered correctly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassValue",
           "package": "hs-pkpass",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Auxiliary type to ensure that field values are rendered correctly",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassValue",
           "package": "hs-pkpass",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple RGB color value. In combination with the \u003ccode\u003e\u003ca\u003ergb\u003c/a\u003e\u003c/code\u003e function this can be written just like in\n  CSS, e.g. \u003ccode\u003ergb(43, 53, 65)\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003ergb\u003c/a\u003e\u003c/code\u003e function also ensures that the provided values are valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "RGBColor",
           "package": "hs-pkpass",
@@ -327,6 +354,7 @@
         "index": {
           "description": "simple RGB color value In combination with the rgb function this can be written just like in CSS e.g rgb The rgb function also ensures that the provided values are valid",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "RGBColor",
           "package": "hs-pkpass",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "RelevantDate",
           "package": "hs-pkpass",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "RelevantDate",
           "package": "hs-pkpass",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoardingPass transit type. Only necessary for Boarding Passes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "TransitType",
           "package": "hs-pkpass",
@@ -371,6 +402,7 @@
         "index": {
           "description": "BoardingPass transit type Only necessary for Boarding Passes",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "TransitType",
           "package": "hs-pkpass",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "WebService",
           "package": "hs-pkpass",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "WebService",
           "package": "hs-pkpass",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Air",
           "package": "hs-pkpass",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Air",
           "package": "hs-pkpass",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Aztec",
           "package": "hs-pkpass",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Aztec",
           "package": "hs-pkpass",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Barcode",
           "package": "hs-pkpass",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Barcode",
           "package": "hs-pkpass",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "BoardingPass",
           "package": "hs-pkpass",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "BoardingPass",
           "package": "hs-pkpass",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Boat",
           "package": "hs-pkpass",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Boat",
           "package": "hs-pkpass",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Bus",
           "package": "hs-pkpass",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Bus",
           "package": "hs-pkpass",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Center",
           "package": "hs-pkpass",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Center",
           "package": "hs-pkpass",
@@ -559,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Coupon",
           "package": "hs-pkpass",
@@ -568,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Coupon",
           "package": "hs-pkpass",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Decimal",
           "package": "hs-pkpass",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Decimal",
           "package": "hs-pkpass",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Event",
           "package": "hs-pkpass",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Event",
           "package": "hs-pkpass",
@@ -626,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to \u003ccode\u003eNSDateFormatterFullStyle\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Full",
           "package": "hs-pkpass",
@@ -636,6 +691,7 @@
         "index": {
           "description": "Corresponds to NSDateFormatterFullStyle",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Full",
           "package": "hs-pkpass",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "GenericPass",
           "package": "hs-pkpass",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "GenericPass",
           "package": "hs-pkpass",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "GenericTransit",
           "package": "hs-pkpass",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "GenericTransit",
           "package": "hs-pkpass",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "LeftAlign",
           "package": "hs-pkpass",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "LeftAlign",
           "package": "hs-pkpass",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Location",
           "package": "hs-pkpass",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Location",
           "package": "hs-pkpass",
@@ -738,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to \u003ccode\u003eNSDateFormatterLongStyle\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Long",
           "package": "hs-pkpass",
@@ -748,6 +813,7 @@
         "index": {
           "description": "Corresponds to NSDateFormatterLongStyle",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Long",
           "package": "hs-pkpass",
@@ -762,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Filename, Hash)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Manifest",
           "package": "hs-pkpass",
@@ -772,6 +839,7 @@
         "index": {
           "description": "Filename Hash",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Manifest",
           "normalized": "Manifest[(Text,Text)]",
@@ -788,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to \u003ccode\u003eNSDateFormatterMediumStyle\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Medium",
           "package": "hs-pkpass",
@@ -798,6 +867,7 @@
         "index": {
           "description": "Corresponds to NSDateFormatterMediumStyle",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Medium",
           "package": "hs-pkpass",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Natural",
           "package": "hs-pkpass",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Natural",
           "package": "hs-pkpass",
@@ -834,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to \u003ccode\u003eNSDateFormatterNoStyle\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "None",
           "package": "hs-pkpass",
@@ -844,6 +917,7 @@
         "index": {
           "description": "Corresponds to NSDateFormatterNoStyle",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "None",
           "package": "hs-pkpass",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PDF417",
           "package": "hs-pkpass",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PDF417",
           "package": "hs-pkpass",
@@ -879,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Pass",
           "package": "hs-pkpass",
@@ -888,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Pass",
           "package": "hs-pkpass",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassContent",
           "package": "hs-pkpass",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassContent",
           "package": "hs-pkpass",
@@ -923,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassDate",
           "package": "hs-pkpass",
@@ -932,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassDate",
           "package": "hs-pkpass",
@@ -945,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassDouble",
           "package": "hs-pkpass",
@@ -954,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassDouble",
           "package": "hs-pkpass",
@@ -967,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassField",
           "package": "hs-pkpass",
@@ -976,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassField",
           "package": "hs-pkpass",
@@ -989,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassInt",
           "package": "hs-pkpass",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassInt",
           "package": "hs-pkpass",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "PassText",
           "package": "hs-pkpass",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "PassText",
           "package": "hs-pkpass",
@@ -1033,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Percent",
           "package": "hs-pkpass",
@@ -1042,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Percent",
           "package": "hs-pkpass",
@@ -1055,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "QRCode",
           "package": "hs-pkpass",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "QRCode",
           "package": "hs-pkpass",
@@ -1077,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "RelevantDate",
           "package": "hs-pkpass",
@@ -1086,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "RelevantDate",
           "package": "hs-pkpass",
@@ -1099,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "RightAlign",
           "package": "hs-pkpass",
@@ -1108,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "RightAlign",
           "package": "hs-pkpass",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Scientific",
           "package": "hs-pkpass",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Scientific",
           "package": "hs-pkpass",
@@ -1144,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to \u003ccode\u003eNSDateFormatterShortStyle\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Short",
           "package": "hs-pkpass",
@@ -1154,6 +1255,7 @@
         "index": {
           "description": "Corresponds to NSDateFormatterShortStyle",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Short",
           "package": "hs-pkpass",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "SpellOut",
           "package": "hs-pkpass",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "SpellOut",
           "package": "hs-pkpass",
@@ -1189,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "StoreCard",
           "package": "hs-pkpass",
@@ -1198,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "StoreCard",
           "package": "hs-pkpass",
@@ -1211,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "Train",
           "package": "hs-pkpass",
@@ -1220,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "Train",
           "package": "hs-pkpass",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "WebService",
           "package": "hs-pkpass",
@@ -1242,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "WebService",
           "package": "hs-pkpass",
@@ -1256,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText displayed near the barcode (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "altText",
           "package": "hs-pkpass",
@@ -1266,6 +1377,7 @@
         "index": {
           "description": "Text displayed near the barcode optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "altText",
           "package": "hs-pkpass",
@@ -1280,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAltitude, in meters, of the location (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "altitude",
           "package": "hs-pkpass",
@@ -1290,6 +1403,7 @@
         "index": {
           "description": "Altitude in meters of the location optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "altitude",
           "package": "hs-pkpass",
@@ -1303,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of iTunes Store item identifiers for associated apps (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "associatedStoreIdentifiers",
           "package": "hs-pkpass",
@@ -1313,6 +1428,7 @@
         "index": {
           "description": "list of iTunes Store item identifiers for associated apps optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "associatedStoreIdentifiers",
           "normalized": "[Text]",
@@ -1329,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentication token for use with the web service. Must be 16 characters or longer (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "authenticationToken",
           "package": "hs-pkpass",
@@ -1339,6 +1456,7 @@
         "index": {
           "description": "Authentication token for use with the web service Must be characters or longer optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "authenticationToken",
           "package": "hs-pkpass",
@@ -1353,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional fields to be displayed on the front of the pass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "auxiliaryFields",
           "package": "hs-pkpass",
@@ -1363,6 +1482,7 @@
         "index": {
           "description": "Additional fields to be displayed on the front of the pass",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "auxiliaryFields",
           "normalized": "[PassField]",
@@ -1379,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to be on the back of the pass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "backFields",
           "package": "hs-pkpass",
@@ -1389,6 +1510,7 @@
         "index": {
           "description": "Fields to be on the back of the pass",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "backFields",
           "normalized": "[PassField]",
@@ -1405,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground color of the pass (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "backgroundColor",
           "package": "hs-pkpass",
@@ -1415,6 +1538,7 @@
         "index": {
           "description": "Background color of the pass optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "backgroundColor",
           "package": "hs-pkpass",
@@ -1429,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBarcode information (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "barcode",
           "package": "hs-pkpass",
@@ -1439,6 +1564,7 @@
         "index": {
           "description": "Barcode information optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "barcode",
           "package": "hs-pkpass",
@@ -1452,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage displayed when the pass is updated. May contain the \u003ccode\u003e%@\u003c/code\u003e placeholder for the value. (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "changeMessage",
           "package": "hs-pkpass",
@@ -1462,6 +1589,7 @@
         "index": {
           "description": "Message displayed when the pass is updated May contain the placeholder for the value optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "changeMessage",
           "package": "hs-pkpass",
@@ -1476,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO 4217 currency code for the field's value (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "currencyCode",
           "package": "hs-pkpass",
@@ -1486,6 +1615,7 @@
         "index": {
           "description": "ISO currency code for the field value optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "currencyCode",
           "package": "hs-pkpass",
@@ -1500,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle of date to display (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "dateStyle",
           "package": "hs-pkpass",
@@ -1510,6 +1641,7 @@
         "index": {
           "description": "Style of date to display optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "dateStyle",
           "package": "hs-pkpass",
@@ -1524,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrief description of the pass (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "description",
           "package": "hs-pkpass",
@@ -1534,6 +1667,7 @@
         "index": {
           "description": "Brief description of the pass required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "description",
           "package": "hs-pkpass",
@@ -1547,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForeground color of the pass (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "foregroundColor",
           "package": "hs-pkpass",
@@ -1557,6 +1692,7 @@
         "index": {
           "description": "Foreground color of the pass optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "foregroundColor",
           "package": "hs-pkpass",
@@ -1571,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBarcode format (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "format",
           "package": "hs-pkpass",
@@ -1581,6 +1718,7 @@
         "index": {
           "description": "Barcode format required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "format",
           "package": "hs-pkpass",
@@ -1594,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to be displayed on the front of the pass. Always shown in the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "headerFields",
           "package": "hs-pkpass",
@@ -1604,6 +1743,7 @@
         "index": {
           "description": "Fields to be displayed on the front of the pass Always shown in the stack",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "headerFields",
           "normalized": "[PassField]",
@@ -1620,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the date/time displayed relative to the current time or absolute? Default: \u003ccode\u003eFalse\u003c/code\u003e (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "isRelative",
           "package": "hs-pkpass",
@@ -1630,6 +1771,7 @@
         "index": {
           "description": "Is the date time displayed relative to the current time or absolute Default False optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "isRelative",
           "package": "hs-pkpass",
@@ -1644,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust be a unique key within the scope of the pass (e.g. \"departure-gate\") (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "key",
           "package": "hs-pkpass",
@@ -1654,6 +1797,7 @@
         "index": {
           "description": "Must be unique key within the scope of the pass e.g departure-gate required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "key",
           "package": "hs-pkpass",
@@ -1667,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel text for the field. (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "label",
           "package": "hs-pkpass",
@@ -1677,6 +1822,7 @@
         "index": {
           "description": "Label text for the field optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "label",
           "package": "hs-pkpass",
@@ -1690,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor of the label text. If omitted, the color is determined automatically. (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "labelColor",
           "package": "hs-pkpass",
@@ -1700,6 +1847,7 @@
         "index": {
           "description": "Color of the label text If omitted the color is determined automatically optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "labelColor",
           "package": "hs-pkpass",
@@ -1714,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLatitude, in degrees, of the location (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "latitude",
           "package": "hs-pkpass",
@@ -1724,6 +1873,7 @@
         "index": {
           "description": "Latitude in degrees of the location required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "latitude",
           "package": "hs-pkpass",
@@ -1737,6 +1887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations where the pass is relevant (e.g. that of a store) (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "locations",
           "package": "hs-pkpass",
@@ -1747,6 +1898,7 @@
         "index": {
           "description": "Locations where the pass is relevant e.g that of store optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "locations",
           "normalized": "[Location]",
@@ -1762,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText displayed next to the logo on the pass (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "logoText",
           "package": "hs-pkpass",
@@ -1772,6 +1925,7 @@
         "index": {
           "description": "Text displayed next to the logo on the pass optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "logoText",
           "package": "hs-pkpass",
@@ -1786,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLongitude, in degrees, of the location (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "longitude",
           "package": "hs-pkpass",
@@ -1796,6 +1951,7 @@
         "index": {
           "description": "Longitude in degrees of the location required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "longitude",
           "package": "hs-pkpass",
@@ -1809,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage / payload to be displayed as a barcode (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "message",
           "package": "hs-pkpass",
@@ -1819,6 +1976,7 @@
         "index": {
           "description": "Message payload to be displayed as barcode required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "message",
           "package": "hs-pkpass",
@@ -1832,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBarcode encoding. Default in the mkBarcode functions is iso-8859-1 (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "messageEncoding",
           "package": "hs-pkpass",
@@ -1842,6 +2001,7 @@
         "index": {
           "description": "Barcode encoding Default in the mkBarcode functions is iso-8859-1 required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "messageEncoding",
           "package": "hs-pkpass",
@@ -1856,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function takes a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eBarcodeFormat\u003c/a\u003e\u003c/code\u003e and uses the text\n  for both the barcode message and the alternative text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "mkBarcode",
           "package": "hs-pkpass",
@@ -1866,6 +2027,7 @@
         "index": {
           "description": "This function takes Text and BarcodeFormat and uses the text for both the barcode message and the alternative text",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "mkBarcode",
           "normalized": "Text-\u003eBarcodeFormat-\u003eBarcode",
@@ -1882,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a simple \u003ccode\u003e\u003ca\u003ePassField\u003c/a\u003e\u003c/code\u003e with just a key, a value and an optional label.\n  All the other optional fields are set to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "mkSimpleField",
           "package": "hs-pkpass",
@@ -1891,6 +2054,7 @@
         "index": {
           "description": "Creates simple PassField with just key value and an optional label All the other optional fields are set to Nothing",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "mkSimpleField",
           "normalized": "Text-\u003ePassValue-\u003eMaybe Text-\u003ePassField",
@@ -1907,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle of number to display. See \u003ccode\u003eNSNumberFormatterStyle\u003c/code\u003e docs for more information. (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "numberStyle",
           "package": "hs-pkpass",
@@ -1917,6 +2082,7 @@
         "index": {
           "description": "Style of number to display See NSNumberFormatterStyle docs for more information optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "numberStyle",
           "package": "hs-pkpass",
@@ -1931,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay name of the organization that signed the pass (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "organizationName",
           "package": "hs-pkpass",
@@ -1941,6 +2108,7 @@
         "index": {
           "description": "Display name of the organization that signed the pass required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "organizationName",
           "package": "hs-pkpass",
@@ -1955,6 +2123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kind of pass and the passes' fields (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "passContent",
           "package": "hs-pkpass",
@@ -1965,6 +2134,7 @@
         "index": {
           "description": "The kind of pass and the passes fields required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "passContent",
           "package": "hs-pkpass",
@@ -1979,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass type identifier, as issued by Apple (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "passTypeIdentifier",
           "package": "hs-pkpass",
@@ -1989,6 +2160,7 @@
         "index": {
           "description": "Pass type identifier as issued by Apple required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "passTypeIdentifier",
           "package": "hs-pkpass",
@@ -2003,6 +2175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to be displayed prominently on the front of the pass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "primaryFields",
           "package": "hs-pkpass",
@@ -2013,6 +2186,7 @@
         "index": {
           "description": "Fields to be displayed prominently on the front of the pass",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "primaryFields",
           "normalized": "[PassField]",
@@ -2029,6 +2203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO 8601 formatted date for when the pass becomes relevant (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "relevantDate",
           "package": "hs-pkpass",
@@ -2039,6 +2214,7 @@
         "index": {
           "description": "ISO formatted date for when the pass becomes relevant optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "relevantDate",
           "package": "hs-pkpass",
@@ -2053,6 +2229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText displayed on the lock screen when the pass is relevant (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "relevantText",
           "package": "hs-pkpass",
@@ -2063,6 +2240,7 @@
         "index": {
           "description": "Text displayed on the lock screen when the pass is relevant optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "relevantText",
           "package": "hs-pkpass",
@@ -2077,6 +2255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003eJust RGBColor\u003c/code\u003e if all supplied numbers are between 0 and 255.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "rgb",
           "package": "hs-pkpass",
@@ -2087,6 +2266,7 @@
         "index": {
           "description": "Creates Just RGBColor if all supplied numbers are between and",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "rgb",
           "normalized": "(Int,Int,Int)-\u003eMaybe RGBColor",
@@ -2102,6 +2282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to be displayed on the front of the pass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "secondaryFields",
           "package": "hs-pkpass",
@@ -2112,6 +2293,7 @@
         "index": {
           "description": "Fields to be displayed on the front of the pass",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "secondaryFields",
           "normalized": "[PassField]",
@@ -2128,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique serial number for the pass (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "serialNumber",
           "package": "hs-pkpass",
@@ -2138,6 +2321,7 @@
         "index": {
           "description": "Unique serial number for the pass required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "serialNumber",
           "package": "hs-pkpass",
@@ -2152,6 +2336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eTrue\u003c/code\u003e, the strip image is displayed without a shine effect. (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "suppressStripShine",
           "package": "hs-pkpass",
@@ -2162,6 +2347,7 @@
         "index": {
           "description": "If True the strip image is displayed without shine effect optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "suppressStripShine",
           "package": "hs-pkpass",
@@ -2176,6 +2362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTeam identifier for the organization (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "teamIdentifier",
           "package": "hs-pkpass",
@@ -2186,6 +2373,7 @@
         "index": {
           "description": "Team identifier for the organization required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "teamIdentifier",
           "package": "hs-pkpass",
@@ -2200,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlignment for the field's contents. Not allowed for primary fields. (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "textAlignment",
           "package": "hs-pkpass",
@@ -2210,6 +2399,7 @@
         "index": {
           "description": "Alignment for the field contents Not allowed for primary fields optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "textAlignment",
           "package": "hs-pkpass",
@@ -2224,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle of time to display (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "timeStyle",
           "package": "hs-pkpass",
@@ -2234,6 +2425,7 @@
         "index": {
           "description": "Style of time to display optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "timeStyle",
           "package": "hs-pkpass",
@@ -2248,6 +2440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of the field. Must be a string, ISO 8601 date or a number. (required)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "value",
           "package": "hs-pkpass",
@@ -2258,6 +2451,7 @@
         "index": {
           "description": "Value of the field Must be string ISO date or number required",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "value",
           "package": "hs-pkpass",
@@ -2271,6 +2465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains the authentication token (16 characters or longer) and the API end point for a Web Service\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "webService",
           "package": "hs-pkpass",
@@ -2281,6 +2476,7 @@
         "index": {
           "description": "Contains the authentication token characters or longer and the API end point for Web Service",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "webService",
           "package": "hs-pkpass",
@@ -2295,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL of a web service that conforms to the API described in the Passbook Web Service Reference (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook.Types",
           "name": "webServiceURL",
           "package": "hs-pkpass",
@@ -2305,6 +2502,7 @@
         "index": {
           "description": "The URL of web service that conforms to the API described in the Passbook Web Service Reference optional",
           "hierarchy": "Passbook Types",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook.Types",
           "name": "webServiceURL",
           "package": "hs-pkpass",
@@ -2319,6 +2517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides different functions to sign a Passbook \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003ePlease read the documentation!\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eOne set of functions uses the \u003ccode\u003esignpass\u003c/code\u003e tool included in Apple's Passbook\n    Support Materials to sign the pass. This uses the system keychain directly, but\n    works on OS X only.\n\u003c/p\u003e\u003cp\u003eThe other set of functions uses OpenSSL instead, in this case you need to export\n    your certificate using the process described in the OpenSSL section of this document.\n\u003c/p\u003e\u003cp\u003eIf you want to use this module with an existing .pkpass file, you can import it\n    using the function \u003ccode\u003e\u003ca\u003eloadPass\u003c/a\u003e\u003c/code\u003e. Please note that you still need to provide the\n    assets in a separate directory, \u003ccode\u003e\u003ca\u003eloadPass\u003c/a\u003e\u003c/code\u003e only parses the \u003ccode\u003epass.json\u003c/code\u003e file.\n\u003c/p\u003e\u003cp\u003eUsing these function is very simple, assuming you have created a \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e called\n    \u003ccode\u003emyPass\u003c/code\u003e and you have the related assets (e.g. the logo.png and icon.png files)\n    stored in a folder named \u003ccode\u003emyPass/\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou want the signed pass to be stored in a folder called \u003ccode\u003epasses/\u003c/code\u003e. You call\n    \u003ccode\u003e\u003ca\u003esignpass\u003c/a\u003e\u003c/code\u003e like this:\n\u003c/p\u003e\u003cpre\u003e (path, passId) \u003c- signpass \"myPass\" \"passes\" myPass\n\u003c/pre\u003e\u003cp\u003eYou will find the pass at \u003ccode\u003epath\u003c/code\u003e with the filename \u003ccode\u003epassId.pkpass\u003c/code\u003e. Using the\n    types from \u003ca\u003ePassbook.Types\u003c/a\u003e ensures that passes are generated correctly.\n\u003c/p\u003e\u003cp\u003ePlease note that an \u003ccode\u003eicon.png\u003c/code\u003e file \u003cem\u003emust be\u003c/em\u003e present in your asset folder,\n    otherwise the generated pass will not work. This is \u003cem\u003enot\u003c/em\u003e checked by this module.\n\u003c/p\u003e\u003cp\u003eRefer to Apple's Passbook documentation at \u003ca\u003ehttps://developer.apple.com/passbook/\u003c/a\u003e\n    for more information or to retrieve the \u003ccode\u003esignpass\u003c/code\u003e tool which is included in the\n    Passbook Support Materials. (iOS Developer Membership necessary)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "Passbook",
           "package": "hs-pkpass",
@@ -2328,6 +2527,7 @@
         "index": {
           "description": "This module provides different functions to sign Passbook Pass Please read the documentation One set of functions uses the signpass tool included in Apple Passbook Support Materials to sign the pass This uses the system keychain directly but works on OS only The other set of functions uses OpenSSL instead in this case you need to export your certificate using the process described in the OpenSSL section of this document If you want to use this module with an existing pkpass file you can import it using the function loadPass Please note that you still need to provide the assets in separate directory loadPass only parses the pass.json file Using these function is very simple assuming you have created Pass called myPass and you have the related assets e.g the logo.png and icon.png files stored in folder named myPass You want the signed pass to be stored in folder called passes You call signpass like this path passId signpass myPass passes myPass You will find the pass at path with the filename passId.pkpass Using the types from Passbook.Types ensures that passes are generated correctly Please note that an icon.png file must be present in your asset folder otherwise the generated pass will not work This is not checked by this module Refer to Apple Passbook documentation at https developer.apple.com passbook for more information or to retrieve the signpass tool which is included in the Passbook Support Materials iOS Developer Membership necessary",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "Passbook",
           "package": "hs-pkpass",
@@ -2342,6 +2542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a random UUID for a Pass using \u003ca\u003eData.UUID\u003c/a\u003e and \u003ca\u003eSystem.Random\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "genPassId",
           "package": "hs-pkpass",
@@ -2352,6 +2553,7 @@
         "index": {
           "description": "Generates random UUID for Pass using Data.UUID and System.Random",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "genPassId",
           "package": "hs-pkpass",
@@ -2366,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to parse the pass.json file contained in a .pkpass into a valid\n  \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e. If Passbook accepts the .pkpass file, this function should never\n  return \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "loadPass",
           "package": "hs-pkpass",
@@ -2375,6 +2578,7 @@
         "index": {
           "description": "Tries to parse the pass.json file contained in pkpass into valid Pass If Passbook accepts the pkpass file this function should never return Nothing",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "loadPass",
           "normalized": "FilePath-\u003eIO(Maybe Pass)",
@@ -2391,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the filepaths to the folder containing the path assets\n  and the output folder, the paths to the certificate and the key,\n  a \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e and uses a random UUID to create and sign the pass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "signOpen",
           "package": "hs-pkpass",
@@ -2400,6 +2605,7 @@
         "index": {
           "description": "Takes the filepaths to the folder containing the path assets and the output folder the paths to the certificate and the key Pass and uses random UUID to create and sign the pass",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "signOpen",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath-\u003eFilePath-\u003ePass-\u003eIO(FilePath,Text)",
@@ -2416,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigns the \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e using the provided ID, no random UUID generation happens here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "signOpenWithId",
           "package": "hs-pkpass",
@@ -2425,6 +2632,7 @@
         "index": {
           "description": "Signs the Pass using the provided ID no random UUID generation happens here",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "signOpenWithId",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath-\u003eFilePath-\u003ePass-\u003eText-\u003eIO FilePath",
@@ -2441,6 +2649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorks like \u003ccode\u003e\u003ca\u003esignOpen\u003c/a\u003e\u003c/code\u003e, except for the fourth argument which is a\n  modifier function that updates the pass with the generated UUID.\n  This is useful for cases where you want to store the UUID in the barcode\n  or some other field on the pass as well.\n\u003c/p\u003e\u003cp\u003eAn example function for use with this is \u003ccode\u003e\u003ca\u003eupdateBarcode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "signOpenWithModifier",
           "package": "hs-pkpass",
@@ -2450,6 +2659,7 @@
         "index": {
           "description": "Works like signOpen except for the fourth argument which is modifier function that updates the pass with the generated UUID This is useful for cases where you want to store the UUID in the barcode or some other field on the pass as well An example function for use with this is updateBarcode",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "signOpenWithModifier",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath-\u003eFilePath-\u003ePass-\u003e(Text-\u003ePass-\u003ePass)-\u003eIO(FilePath,Text)",
@@ -2466,6 +2676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the filepaths to the folder containing the path assets\n  and the output folder, a \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e and uses a random UUID to\n  create and sign the pass.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eImportant:\u003c/em\u003e OS X only!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "signpass",
           "package": "hs-pkpass",
@@ -2475,6 +2686,7 @@
         "index": {
           "description": "Takes the filepaths to the folder containing the path assets and the output folder Pass and uses random UUID to create and sign the pass Important OS only",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "signpass",
           "normalized": "FilePath-\u003eFilePath-\u003ePass-\u003eIO(FilePath,Text)",
@@ -2490,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigns the \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e using the provided ID, no random UUID generation happens here.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eImportant:\u003c/em\u003e OS X only!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "signpassWithId",
           "package": "hs-pkpass",
@@ -2499,6 +2712,7 @@
         "index": {
           "description": "Signs the Pass using the provided ID no random UUID generation happens here Important OS only",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "signpassWithId",
           "normalized": "Text-\u003eFilePath-\u003eFilePath-\u003ePass-\u003eIO FilePath",
@@ -2515,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorks like \u003ccode\u003e\u003ca\u003esignpass\u003c/a\u003e\u003c/code\u003e, except for the fourth argument which is a\n  modifier function that updates the pass with the generated UUID.\n  This is useful for cases where you want to store the UUID in the barcode\n  or some other field on the pass as well.\n\u003c/p\u003e\u003cp\u003eAn example function for use with this is \u003ccode\u003e\u003ca\u003eupdateBarcode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eImportant:\u003c/em\u003e OS X only!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "signpassWithModifier",
           "package": "hs-pkpass",
@@ -2524,6 +2739,7 @@
         "index": {
           "description": "Works like signpass except for the fourth argument which is modifier function that updates the pass with the generated UUID This is useful for cases where you want to store the UUID in the barcode or some other field on the pass as well An example function for use with this is updateBarcode Important OS only",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "signpassWithModifier",
           "normalized": "FilePath-\u003eFilePath-\u003ePass-\u003e(Text-\u003ePass-\u003ePass)-\u003eIO(FilePath,Text)",
@@ -2540,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the barcode in a pass with the UUID. This can be passed to \u003ccode\u003e\u003ca\u003esignpassWithModifier\u003c/a\u003e\u003c/code\u003e\n  or \u003ccode\u003e\u003ca\u003esignOpenWithModifier\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:11 UTC 2014",
           "module": "Passbook",
           "name": "updateBarcode",
           "package": "hs-pkpass",
@@ -2550,6 +2767,7 @@
         "index": {
           "description": "Updates the barcode in pass with the UUID This can be passed to signpassWithModifier or signOpenWithModifier",
           "hierarchy": "Passbook",
+          "indexed": "2014-03-11T18:46:11",
           "module": "Passbook",
           "name": "updateBarcode",
           "normalized": "Text-\u003ePass-\u003ePass",

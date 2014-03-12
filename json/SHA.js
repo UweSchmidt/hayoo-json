@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SHA"
+        "phrase": "SHA",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePure implementations of the SHA suite of hash functions. The implementation\n is basically an unoptimized translation of FIPS 180-2 into Haskell. If you're\n looking for performance, you probably won't find it here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "SHA",
           "package": "SHA",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pure implementations of the SHA suite of hash functions The implementation is basically an unoptimized translation of FIPS into Haskell If you re looking for performance you probably won find it here",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "SHA",
           "package": "SHA",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract datatype for digests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "Digest",
           "package": "SHA",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An abstract datatype for digests",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "Digest",
           "package": "SHA",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "SHA1State",
           "package": "SHA",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "SHA1State",
           "package": "SHA",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "SHA256State",
           "package": "SHA",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "SHA256State",
           "package": "SHA",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "SHA512State",
           "package": "SHA",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "SHA512State",
           "package": "SHA",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a digest to a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "bytestringDigest",
           "package": "SHA",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Convert digest to ByteString",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "bytestringDigest",
           "normalized": "Digest a-\u003eByteString",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha1Incremental",
           "package": "SHA",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha1Incremental",
           "normalized": "Decoder SHA State-\u003eInt-\u003eDigest SHA State",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha224Incremental",
           "package": "SHA",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha224Incremental",
           "normalized": "Decoder SHA State-\u003eInt-\u003eDigest SHA State",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha256Incremental",
           "package": "SHA",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha256Incremental",
           "normalized": "Decoder SHA State-\u003eInt-\u003eDigest SHA State",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha384Incremental",
           "package": "SHA",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha384Incremental",
           "normalized": "Decoder SHA State-\u003eInt-\u003eDigest SHA State",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha512Incremental",
           "package": "SHA",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "completeSha512Incremental",
           "normalized": "Decoder SHA State-\u003eInt-\u003eDigest SHA State",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute an HMAC using SHA-1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha1",
           "package": "SHA",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Compute an HMAC using SHA-1",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha1",
           "normalized": "ByteString-\u003eByteString-\u003eDigest SHA State",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute an HMAC using SHA-224.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha224",
           "package": "SHA",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Compute an HMAC using SHA-224",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha224",
           "normalized": "ByteString-\u003eByteString-\u003eDigest SHA State",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute an HMAC using SHA-256.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha256",
           "package": "SHA",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Compute an HMAC using SHA-256",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha256",
           "normalized": "ByteString-\u003eByteString-\u003eDigest SHA State",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute an HMAC using SHA-384.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha384",
           "package": "SHA",
@@ -358,6 +387,7 @@
         "index": {
           "description": "Compute an HMAC using SHA-384",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha384",
           "normalized": "ByteString-\u003eByteString-\u003eDigest SHA State",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute an HMAC using SHA-512.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha512",
           "package": "SHA",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Compute an HMAC using SHA-512",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "hmacSha512",
           "normalized": "ByteString-\u003eByteString-\u003eDigest SHA State",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a digest to an Integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "integerDigest",
           "package": "SHA",
@@ -409,6 +442,7 @@
         "index": {
           "description": "Convert digest to an Integer",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "integerDigest",
           "normalized": "Digest a-\u003eInteger",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the SHA-1 hash of the given ByteString. The output is guaranteed\n to be exactly 160 bits, or 20 bytes, long. This is a good default for\n programs that need a good, but not necessarily hyper-secure, hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha1",
           "package": "SHA",
@@ -435,6 +470,7 @@
         "index": {
           "description": "Compute the SHA-1 hash of the given ByteString The output is guaranteed to be exactly bits or bytes long This is good default for programs that need good but not necessarily hyper-secure hash function",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha1",
           "normalized": "ByteString-\u003eDigest SHA State",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003esha1\u003c/a\u003e\u003c/code\u003e but use an incremental interface. When the decoder has\n been completely fed, \u003ccode\u003e\u003ca\u003ecompleteSha1Incremental\u003c/a\u003e\u003c/code\u003e must be used so it can\n finish successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha1Incremental",
           "package": "SHA",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Similar to sha1 but use an incremental interface When the decoder has been completely fed completeSha1Incremental must be used so it can finish successfully",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha1Incremental",
           "package": "SHA",
@@ -474,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the SHA-224 hash of the given ByteString. Note that SHA-224 and\n SHA-384 differ only slightly from SHA-256 and SHA-512, and use truncated\n versions of the resulting hashes. So using 224/384 may not, in fact, save\n you very much ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha224",
           "package": "SHA",
@@ -484,6 +523,7 @@
         "index": {
           "description": "Compute the SHA-224 hash of the given ByteString Note that SHA-224 and SHA-384 differ only slightly from SHA-256 and SHA-512 and use truncated versions of the resulting hashes So using may not in fact save you very much",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha224",
           "normalized": "ByteString-\u003eDigest SHA State",
@@ -499,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003esha224\u003c/a\u003e\u003c/code\u003e but use an incremental interface. When the decoder has\n been completely fed, \u003ccode\u003e\u003ca\u003ecompleteSha224Incremental\u003c/a\u003e\u003c/code\u003e must be used so it can\n finish successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha224Incremental",
           "package": "SHA",
@@ -509,6 +550,7 @@
         "index": {
           "description": "Similar to sha224 but use an incremental interface When the decoder has been completely fed completeSha224Incremental must be used so it can finish successfully",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha224Incremental",
           "package": "SHA",
@@ -523,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the SHA-256 hash of the given ByteString. The output is guaranteed\n to be exactly 256 bits, or 32 bytes, long. If your security requirements\n are pretty serious, this is a good choice. For truly significant security\n concerns, however, you might try one of the bigger options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha256",
           "package": "SHA",
@@ -533,6 +576,7 @@
         "index": {
           "description": "Compute the SHA-256 hash of the given ByteString The output is guaranteed to be exactly bits or bytes long If your security requirements are pretty serious this is good choice For truly significant security concerns however you might try one of the bigger options",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha256",
           "normalized": "ByteString-\u003eDigest SHA State",
@@ -548,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003esha256\u003c/a\u003e\u003c/code\u003e but use an incremental interface. When the decoder has\n been completely fed, \u003ccode\u003e\u003ca\u003ecompleteSha256Incremental\u003c/a\u003e\u003c/code\u003e must be used so it can\n finish successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha256Incremental",
           "package": "SHA",
@@ -558,6 +603,7 @@
         "index": {
           "description": "Similar to sha256 but use an incremental interface When the decoder has been completely fed completeSha256Incremental must be used so it can finish successfully",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha256Incremental",
           "package": "SHA",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the SHA-384 hash of the given ByteString. Yup, you guessed it,\n the output will be exactly 384 bits, or 48 bytes, long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha384",
           "package": "SHA",
@@ -582,6 +629,7 @@
         "index": {
           "description": "Compute the SHA-384 hash of the given ByteString Yup you guessed it the output will be exactly bits or bytes long",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha384",
           "normalized": "ByteString-\u003eDigest SHA State",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003esha384\u003c/a\u003e\u003c/code\u003e but use an incremental interface. When the decoder has\n been completely fed, \u003ccode\u003e\u003ca\u003ecompleteSha384Incremental\u003c/a\u003e\u003c/code\u003e must be used so it can\n finish successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha384Incremental",
           "package": "SHA",
@@ -607,6 +656,7 @@
         "index": {
           "description": "Similar to sha384 but use an incremental interface When the decoder has been completely fed completeSha384Incremental must be used so it can finish successfully",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha384Incremental",
           "package": "SHA",
@@ -621,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor those for whom only the biggest hashes will do, this computes the\n SHA-512 hash of the given ByteString. The output will be 64 bytes, or\n 512 bits, long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha512",
           "package": "SHA",
@@ -631,6 +682,7 @@
         "index": {
           "description": "For those for whom only the biggest hashes will do this computes the SHA-512 hash of the given ByteString The output will be bytes or bits long",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha512",
           "normalized": "ByteString-\u003eDigest SHA State",
@@ -646,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003esha512\u003c/a\u003e\u003c/code\u003e but use an incremental interface. When the decoder has\n been completely fed, \u003ccode\u003e\u003ca\u003ecompleteSha512Incremental\u003c/a\u003e\u003c/code\u003e must be used so it can\n finish successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha512Incremental",
           "package": "SHA",
@@ -656,6 +709,7 @@
         "index": {
           "description": "Similar to sha512 but use an incremental interface When the decoder has been completely fed completeSha512Incremental must be used so it can finish successfully",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "sha512Incremental",
           "package": "SHA",
@@ -670,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a digest to a string.\n The digest is rendered as fixed with hexadecimal number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:34 UTC 2014",
           "module": "Data.Digest.Pure.SHA",
           "name": "showDigest",
           "package": "SHA",
@@ -680,6 +735,7 @@
         "index": {
           "description": "Convert digest to string The digest is rendered as fixed with hexadecimal number",
           "hierarchy": "Data Digest Pure SHA",
+          "indexed": "2014-03-11T16:59:34",
           "module": "Data.Digest.Pure.SHA",
           "name": "showDigest",
           "normalized": "Digest a-\u003eString",

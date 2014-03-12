@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk-mac-integration"
+        "phrase": "gtk-mac-integration",
+        "type": "phrase"
       },
       "type": "context"
     }

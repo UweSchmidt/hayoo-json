@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multisetrewrite"
+        "phrase": "multisetrewrite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "Base",
           "package": "multisetrewrite",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "Base",
           "package": "multisetrewrite",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "EMatch",
           "package": "multisetrewrite",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "EMatch",
           "package": "multisetrewrite",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "InternalMsg",
           "package": "multisetrewrite",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "InternalMsg",
           "package": "multisetrewrite",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "L",
           "package": "multisetrewrite",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "L",
           "package": "multisetrewrite",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "Match",
           "package": "multisetrewrite",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "Match",
           "package": "multisetrewrite",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "Tag",
           "package": "multisetrewrite",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "Tag",
           "package": "multisetrewrite",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "VAR",
           "package": "multisetrewrite",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "VAR",
           "package": "multisetrewrite",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "DontCare",
           "package": "multisetrewrite",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "DontCare",
           "package": "multisetrewrite",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "InternalMsg",
           "package": "multisetrewrite",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "InternalMsg",
           "package": "multisetrewrite",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "VAR",
           "package": "multisetrewrite",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "VAR",
           "package": "multisetrewrite",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "Val",
           "package": "multisetrewrite",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "Val",
           "package": "multisetrewrite",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "Var",
           "package": "multisetrewrite",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "Var",
           "package": "multisetrewrite",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "dontCareVar",
           "package": "multisetrewrite",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "dontCareVar",
           "package": "multisetrewrite",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "internal_match",
           "package": "multisetrewrite",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "internal_match",
           "normalized": "[Tag]-\u003eInternalMsg a-\u003ea-\u003eIO(Bool,[Tag])",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "lookupTag",
           "package": "multisetrewrite",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "lookupTag",
           "normalized": "[Tag]-\u003eTag-\u003eBool",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "match",
           "package": "multisetrewrite",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "match",
           "normalized": "[Tag]-\u003ea-\u003ea-\u003eIO(Bool,[Tag])",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "message",
           "package": "multisetrewrite",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "message",
           "package": "multisetrewrite",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "msg_tag",
           "package": "multisetrewrite",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "msg_tag",
           "package": "multisetrewrite",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "newTag",
           "package": "multisetrewrite",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "newTag",
           "normalized": "IO(IORef())",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "newVar",
           "package": "multisetrewrite",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "newVar",
           "package": "multisetrewrite",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "readVar",
           "package": "multisetrewrite",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "readVar",
           "normalized": "VAR a-\u003eIO a",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "var_tag",
           "package": "multisetrewrite",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "var_tag",
           "package": "multisetrewrite",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "variable",
           "package": "multisetrewrite",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "variable",
           "package": "multisetrewrite",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.Base",
           "name": "writeVar",
           "package": "multisetrewrite",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite Base",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.Base",
           "name": "writeVar",
           "normalized": "VAR a-\u003ea-\u003eIO()",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "RuleCompiler",
           "package": "multisetrewrite",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "RuleCompiler",
           "package": "multisetrewrite",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "Check",
           "package": "multisetrewrite",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "Check",
           "package": "multisetrewrite",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "Cnt",
           "package": "multisetrewrite",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "Cnt",
           "package": "multisetrewrite",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "Code_RHS",
           "package": "multisetrewrite",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "Code_RHS",
           "package": "multisetrewrite",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "CompClause",
           "package": "multisetrewrite",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "CompClause",
           "package": "multisetrewrite",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "RuleCompiler",
           "package": "multisetrewrite",
@@ -657,6 +716,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "RuleCompiler",
           "package": "multisetrewrite",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "AtomicGuardVerify",
           "package": "multisetrewrite",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "AtomicGuardVerify",
           "package": "multisetrewrite",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "Verify",
           "package": "multisetrewrite",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "Verify",
           "package": "multisetrewrite",
@@ -714,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "VerifyAndDelete",
           "package": "multisetrewrite",
@@ -723,6 +788,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "VerifyAndDelete",
           "package": "multisetrewrite",
@@ -736,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "atomicVerifyAndDeleteCnt",
           "package": "multisetrewrite",
@@ -745,6 +812,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "atomicVerifyAndDeleteCnt",
           "normalized": "a-\u003eCode_RHS b-\u003e[(Check c,IO(Maybe(Code_RHS b)))]-\u003eIO(Maybe(Code_RHS b))",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "compileCnt",
           "package": "multisetrewrite",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "compileCnt",
           "normalized": "Code_RHS()-\u003e[MatchTask a]-\u003e[CompClause b c()]",
@@ -784,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "compileSingleCnt",
           "package": "multisetrewrite",
@@ -793,6 +864,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "compileSingleCnt",
           "normalized": "a-\u003eCnt b-\u003e([(Check c,Cnt b)],Code_RHS b)-\u003e[Tag]-\u003e[MatchTask d]-\u003eIO(Maybe(Code_RHS b))",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "extractMsg",
           "package": "multisetrewrite",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "extractMsg",
           "normalized": "a-\u003eIO(Maybe(InternalMsg b))",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "getIndex",
           "package": "multisetrewrite",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "getIndex",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "initSearch",
           "package": "multisetrewrite",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "initSearch",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -880,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "nextMsg",
           "package": "multisetrewrite",
@@ -889,6 +968,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "nextMsg",
           "normalized": "a-\u003eb-\u003eIO(Maybe c)",
@@ -904,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "optimize",
           "package": "multisetrewrite",
@@ -913,6 +994,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "optimize",
           "normalized": "[[MatchTask a]]-\u003e[[MatchTask a]]",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "printMsg",
           "package": "multisetrewrite",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "printMsg",
           "normalized": "a-\u003eb-\u003eIO String",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "printReachMsg",
           "package": "multisetrewrite",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "printReachMsg",
           "normalized": "a-\u003eb-\u003eIO String",
@@ -975,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "select",
           "package": "multisetrewrite",
@@ -984,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleCompiler",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleCompiler",
           "name": "select",
           "normalized": "a-\u003eb-\u003e[CompClause a b c]-\u003eIO(Maybe(Code_RHS c))",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "RuleSyntax",
           "package": "multisetrewrite",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "RuleSyntax",
           "package": "multisetrewrite",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "ConvertHead",
           "package": "multisetrewrite",
@@ -1027,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "ConvertHead",
           "package": "multisetrewrite",
@@ -1040,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "MatchTask",
           "package": "multisetrewrite",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "MatchTask",
           "package": "multisetrewrite",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "WITHATOMICGUARD",
           "package": "multisetrewrite",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "WITHATOMICGUARD",
           "package": "multisetrewrite",
@@ -1082,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "WITHGUARD",
           "package": "multisetrewrite",
@@ -1090,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "WITHGUARD",
           "package": "multisetrewrite",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "AtomicGuard",
           "package": "multisetrewrite",
@@ -1112,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "AtomicGuard",
           "package": "multisetrewrite",
@@ -1125,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "Guard",
           "package": "multisetrewrite",
@@ -1134,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "Guard",
           "package": "multisetrewrite",
@@ -1147,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "Prop",
           "package": "multisetrewrite",
@@ -1156,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "Prop",
           "package": "multisetrewrite",
@@ -1169,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "Simp",
           "package": "multisetrewrite",
@@ -1178,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "Simp",
           "package": "multisetrewrite",
@@ -1191,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "WITHATOMICGUARD",
           "package": "multisetrewrite",
@@ -1200,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "WITHATOMICGUARD",
           "package": "multisetrewrite",
@@ -1213,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "WITHGUARD",
           "package": "multisetrewrite",
@@ -1222,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "WITHGUARD",
           "package": "multisetrewrite",
@@ -1235,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "convertHead",
           "package": "multisetrewrite",
@@ -1244,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite RuleSyntax",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.RuleSyntax",
           "name": "convertHead",
           "normalized": "a-\u003e[MatchTask b]",
@@ -1259,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "StorePrettyPrinter",
           "package": "multisetrewrite",
@@ -1267,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StorePrettyPrinter",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "StorePrettyPrinter",
           "package": "multisetrewrite",
@@ -1280,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "PrettyPrint",
           "package": "multisetrewrite",
@@ -1288,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StorePrettyPrinter",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "PrettyPrint",
           "package": "multisetrewrite",
@@ -1301,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "prettyIt",
           "package": "multisetrewrite",
@@ -1310,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StorePrettyPrinter",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "prettyIt",
           "normalized": "a-\u003eIO String",
@@ -1325,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "prettyItList",
           "package": "multisetrewrite",
@@ -1334,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StorePrettyPrinter",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "prettyItList",
           "normalized": "[a]-\u003eString-\u003eIO String",
@@ -1349,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "retrieveBag",
           "package": "multisetrewrite",
@@ -1358,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StorePrettyPrinter",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "retrieveBag",
           "normalized": "Bag a-\u003eIO[a]",
@@ -1373,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "retrieveList",
           "package": "multisetrewrite",
@@ -1382,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StorePrettyPrinter",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StorePrettyPrinter",
           "name": "retrieveList",
           "normalized": "ListHandle a-\u003eIO[a]",
@@ -1397,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "StoreRepresentation",
           "package": "multisetrewrite",
@@ -1405,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "StoreRepresentation",
           "package": "multisetrewrite",
@@ -1418,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "HashIdx",
           "package": "multisetrewrite",
@@ -1426,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "HashIdx",
           "package": "multisetrewrite",
@@ -1439,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "HashOp",
           "package": "multisetrewrite",
@@ -1447,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "HashOp",
           "package": "multisetrewrite",
@@ -1460,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "Location",
           "package": "multisetrewrite",
@@ -1468,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "Location",
           "package": "multisetrewrite",
@@ -1481,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "Store",
           "package": "multisetrewrite",
@@ -1489,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "Store",
           "package": "multisetrewrite",
@@ -1502,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "HashOp",
           "package": "multisetrewrite",
@@ -1511,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "HashOp",
           "package": "multisetrewrite",
@@ -1524,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "Store",
           "package": "multisetrewrite",
@@ -1533,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "Store",
           "package": "multisetrewrite",
@@ -1546,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "addMsg",
           "package": "multisetrewrite",
@@ -1555,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "addMsg",
           "normalized": "Store a-\u003ea-\u003eIO(Location a)",
@@ -1570,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "compileRulePattern",
           "package": "multisetrewrite",
@@ -1579,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "compileRulePattern",
           "normalized": "[([MatchTask a],Code_RHS())]-\u003e[CompClause(Store a)(Location a)()]",
@@ -1594,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "executeRules",
           "package": "multisetrewrite",
@@ -1603,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "executeRules",
           "normalized": "Store a-\u003eLocation a-\u003e[CompClause(Store a)(Location a)()]-\u003eIO(Maybe(Code_RHS()))",
@@ -1618,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "hashMsg",
           "package": "multisetrewrite",
@@ -1627,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "hashMsg",
           "normalized": "a-\u003eHashIdx",
@@ -1642,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "hashOp",
           "package": "multisetrewrite",
@@ -1651,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "hashOp",
           "package": "multisetrewrite",
@@ -1664,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "msgTable",
           "package": "multisetrewrite",
@@ -1673,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "msgTable",
           "normalized": "[Bag(InternalMsg a)]",
@@ -1688,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "newStore",
           "package": "multisetrewrite",
@@ -1697,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "newStore",
           "normalized": "HashOp a-\u003eIO(Store a)",
@@ -1712,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:13 UTC 2014",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "numberOfTables",
           "package": "multisetrewrite",
@@ -1721,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "MultiSetRewrite StoreRepresentation",
+          "indexed": "2014-03-11T19:24:13",
           "module": "MultiSetRewrite.StoreRepresentation",
           "name": "numberOfTables",
           "package": "multisetrewrite",

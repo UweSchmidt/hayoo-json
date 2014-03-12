@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-enumerator"
+        "phrase": "xml-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneralized cursors to be applied to different nodes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor.Generic",
           "name": "Generic",
           "package": "xml-enumerator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Generalized cursors to be applied to different nodes",
           "hierarchy": "Text XML Cursor Generic",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor.Generic",
           "name": "Generic",
           "package": "xml-enumerator",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor.Generic",
           "name": "Axis",
           "package": "xml-enumerator",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text XML Cursor Generic",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor.Generic",
           "name": "Axis",
           "package": "xml-enumerator",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cursor: contains an XML \u003ccode\u003eNode\u003c/code\u003e and pointers to its children, ancestors and siblings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor.Generic",
           "name": "Cursor",
           "package": "xml-enumerator",
@@ -72,6 +77,7 @@
         "index": {
           "description": "cursor contains an XML Node and pointers to its children ancestors and siblings",
           "hierarchy": "Text XML Cursor Generic",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor.Generic",
           "name": "Cursor",
           "package": "xml-enumerator",
@@ -567,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor.Generic",
           "name": "toCursor",
           "package": "xml-enumerator",
@@ -575,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Text XML Cursor Generic",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor.Generic",
           "name": "toCursor",
           "normalized": "(a-\u003e[a])-\u003ea-\u003eCursor a",
@@ -591,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides for simple DOM traversal. It is inspired by XPath. There are two central concepts here:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eCursor\u003c/a\u003e\u003c/code\u003e represents a node in the DOM. It also contains information on the node's \u003cem\u003elocation\u003c/em\u003e. While the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e datatype will only know of its children, a \u003ccode\u003eCursor\u003c/code\u003e knows about its parent and siblings as well. (The underlying mechanism allowing this is called a zipper, see \u003ca\u003ehttp://www.haskell.org/haskellwiki/Zipper\u003c/a\u003e and \u003ca\u003ehttp://www.haskell.org/haskellwiki/Tying_the_Knot\u003c/a\u003e.)\n\u003c/li\u003e\u003cli\u003e An \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e, in its simplest form, takes a \u003ccode\u003eCursor\u003c/code\u003e and returns a list of \u003ccode\u003eCursor\u003c/code\u003es. It is used for selections, such as finding children, ancestors, etc. Axes can be chained together to express complex rules, such as all children named \u003cem\u003efoo\u003c/em\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe terminology used in this module is taken directly from the XPath\n specification: \u003ca\u003ehttp://www.w3.org/TR/xpath/\u003c/a\u003e. For those familiar with XPath,\n the one major difference is that attributes are not considered nodes in this\n module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "Cursor",
           "package": "xml-enumerator",
@@ -600,6 +609,7 @@
         "index": {
           "description": "This module provides for simple DOM traversal It is inspired by XPath There are two central concepts here Cursor represents node in the DOM It also contains information on the node location While the Node datatype will only know of its children Cursor knows about its parent and siblings as well The underlying mechanism allowing this is called zipper see http www.haskell.org haskellwiki Zipper and http www.haskell.org haskellwiki Tying the Knot An Axis in its simplest form takes Cursor and returns list of Cursor It is used for selections such as finding children ancestors etc Axes can be chained together to express complex rules such as all children named foo The terminology used in this module is taken directly from the XPath specification http www.w3.org TR xpath For those familiar with XPath the one major difference is that attributes are not considered nodes in this module",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "Cursor",
           "package": "xml-enumerator",
@@ -614,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of an Axis that returns a list of Cursors.\n They are roughly modeled after \u003ca\u003ehttp://www.w3.org/TR/xpath/#axes\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eAxes can be composed with \u003ccode\u003e\u003ca\u003e\u003e=\u003e\u003c/a\u003e\u003c/code\u003e, where e.g. \u003ccode\u003ef \u003e=\u003e g\u003c/code\u003e means that on all results of\n the \u003ccode\u003ef\u003c/code\u003e axis, the \u003ccode\u003eg\u003c/code\u003e axis will be applied, and all results joined together. \n Because Axis is just a type synonym for \u003ccode\u003eCursor -\u003e [Cursor]\u003c/code\u003e, it is possible to use\n other standard functions like \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e similarly.\n\u003c/p\u003e\u003cp\u003eThe operators \u003ccode\u003e&|\u003c/code\u003e, \u003ccode\u003e&/\u003c/code\u003e, \u003ccode\u003e&//\u003c/code\u003e and \u003ccode\u003e&.//\u003c/code\u003e can be used to combine axes so that the second\n axis works on the context nodes, children, descendants, respectively the context node as \n well as its descendants of the results of the first axis.\n\u003c/p\u003e\u003cp\u003eThe operators \u003ccode\u003e$|\u003c/code\u003e, \u003ccode\u003e$/\u003c/code\u003e, \u003ccode\u003e$//\u003c/code\u003e and \u003ccode\u003e$.//\u003c/code\u003e can be used to apply an axis (right-hand side)\n to a cursor so that it is applied on the cursor itself, its children, its descendants,\n respectively itself and its descendants.\n\u003c/p\u003e\u003cp\u003eNote that many of these operators also work on \u003cem\u003egeneralised Axes\u003c/em\u003e that can return \n lists of something other than Cursors, for example Content elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "Axis",
           "package": "xml-enumerator",
@@ -623,6 +634,7 @@
         "index": {
           "description": "The type of an Axis that returns list of Cursors They are roughly modeled after http www.w3.org TR xpath axes Axes can be composed with where e.g means that on all results of the axis the axis will be applied and all results joined together Because Axis is just type synonym for Cursor Cursor it is possible to use other standard functions like or concatMap similarly The operators and can be used to combine axes so that the second axis works on the context nodes children descendants respectively the context node as well as its descendants of the results of the first axis The operators and can be used to apply an axis right-hand side to cursor so that it is applied on the cursor itself its children its descendants respectively itself and its descendants Note that many of these operators also work on generalised Axes that can return lists of something other than Cursors for example Content elements",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "Axis",
           "package": "xml-enumerator",
@@ -637,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that can be used in a predicate check as a boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "Boolean",
           "package": "xml-enumerator",
@@ -646,6 +659,7 @@
         "index": {
           "description": "Something that can be used in predicate check as boolean",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "Boolean",
           "package": "xml-enumerator",
@@ -660,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cursor: contains an XML \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e and pointers to its children, ancestors and siblings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "Cursor",
           "package": "xml-enumerator",
@@ -669,6 +684,7 @@
         "index": {
           "description": "cursor contains an XML Node and pointers to its children ancestors and siblings",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "Cursor",
           "package": "xml-enumerator",
@@ -683,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all non-elements. Compare roughly to XPath:\n \u003cem\u003eA node test * is true for any node of the principal node type. For example, child::* will select all element children of the context node [...]\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "anyElement",
           "package": "xml-enumerator",
@@ -693,6 +710,7 @@
         "index": {
           "description": "Remove all non-elements Compare roughly to XPath node test is true for any node of the principal node type For example child will select all element children of the context node",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "anyElement",
           "package": "xml-enumerator",
@@ -707,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect attributes on the current element (or nothing if it is not an element). XPath:\n \u003cem\u003ethe attribute axis contains the attributes of the context node; the axis will be empty unless the context node is an element\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eNote that this is not strictly an \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e, but will work with most combinators.\n\u003c/p\u003e\u003cp\u003eThe return list of the generalised axis contains as elements lists of \u003ccode\u003eContent\u003c/code\u003e \n elements, each full list representing an attribute value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "attribute",
           "package": "xml-enumerator",
@@ -717,6 +736,7 @@
         "index": {
           "description": "Select attributes on the current element or nothing if it is not an element XPath the attribute axis contains the attributes of the context node the axis will be empty unless the context node is an element Note that this is not strictly an Axis but will work with most combinators The return list of the generalised axis contains as elements lists of Content elements each full list representing an attribute value",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "attribute",
           "normalized": "Name-\u003eCursor-\u003e[Text]",
@@ -732,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect only those element nodes containing the given attribute key/value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "attributeIs",
           "package": "xml-enumerator",
@@ -742,6 +763,7 @@
         "index": {
           "description": "Select only those element nodes containing the given attribute key value pair",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "attributeIs",
           "normalized": "Name-\u003eText-\u003eAxis",
@@ -757,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "bool",
           "package": "xml-enumerator",
@@ -766,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "bool",
           "normalized": "a-\u003eBool",
@@ -781,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter cursors that don't pass a check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "check",
           "package": "xml-enumerator",
@@ -791,6 +816,7 @@
         "index": {
           "description": "Filter cursors that don pass check",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "check",
           "normalized": "(Cursor-\u003ea)-\u003eAxis",
@@ -806,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter elements that don't pass a check, and remove all non-elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "checkElement",
           "package": "xml-enumerator",
@@ -816,6 +843,7 @@
         "index": {
           "description": "Filter elements that don pass check and remove all non-elements",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "checkElement",
           "normalized": "(Element-\u003ea)-\u003eAxis",
@@ -832,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter elements that don't pass a name check, and remove all non-elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "checkName",
           "package": "xml-enumerator",
@@ -842,6 +871,7 @@
         "index": {
           "description": "Filter elements that don pass name check and remove all non-elements",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "checkName",
           "normalized": "(Name-\u003ea)-\u003eAxis",
@@ -858,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter nodes that don't pass a check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "checkNode",
           "package": "xml-enumerator",
@@ -868,6 +899,7 @@
         "index": {
           "description": "Filter nodes that don pass check",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "checkNode",
           "normalized": "(Node-\u003ea)-\u003eAxis",
@@ -884,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect only text nodes, and directly give the \u003ccode\u003eContent\u003c/code\u003e values. XPath:\n \u003cem\u003eThe node test text() is true for any text node.\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eNote that this is not strictly an \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e, but will work with most combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "content",
           "package": "xml-enumerator",
@@ -894,6 +927,7 @@
         "index": {
           "description": "Select only text nodes and directly give the Content values XPath The node test text is true for any text node Note that this is not strictly an Axis but will work with most combinators",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "content",
           "normalized": "Cursor-\u003e[Text]",
@@ -909,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut a cursor off from its parent. The idea is to allow restricting the scope of queries on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "cut",
           "package": "xml-enumerator",
@@ -919,6 +954,7 @@
         "index": {
           "description": "Cut cursor off from its parent The idea is to allow restricting the scope of queries on it",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "cut",
           "normalized": "Cursor-\u003eCursor",
@@ -934,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect only those elements with a matching tag name. XPath:\n \u003cem\u003eA node test that is a QName is true if and only if the type of the node (see [5 Data Model]) is the principal node type and has an expanded-name equal to the expanded-name specified by the QName.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "element",
           "package": "xml-enumerator",
@@ -944,6 +981,7 @@
         "index": {
           "description": "Select only those elements with matching tag name XPath node test that is QName is true if and only if the type of the node see Data Model is the principal node type and has an expanded-name equal to the expanded-name specified by the QName",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "element",
           "normalized": "Name-\u003eAxis",
@@ -958,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "force",
           "package": "xml-enumerator",
@@ -967,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "force",
           "normalized": "a-\u003e[b]-\u003ec b",
@@ -981,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "forceM",
           "package": "xml-enumerator",
@@ -990,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "forceM",
           "normalized": "a-\u003e[b c]-\u003eb c",
@@ -1005,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eCursor\u003c/a\u003e\u003c/code\u003e. It will point to the document root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "fromDocument",
           "package": "xml-enumerator",
@@ -1015,6 +1058,7 @@
         "index": {
           "description": "Convert Document to Cursor It will point to the document root",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "fromDocument",
           "normalized": "Document-\u003eCursor",
@@ -1031,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eCursor\u003c/a\u003e\u003c/code\u003e (without parents).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "fromNode",
           "package": "xml-enumerator",
@@ -1041,6 +1086,7 @@
         "index": {
           "description": "Convert Node to Cursor without parents",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "fromNode",
           "normalized": "Node-\u003eCursor",
@@ -1057,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect only those element nodes with the given attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "hasAttribute",
           "package": "xml-enumerator",
@@ -1067,6 +1114,7 @@
         "index": {
           "description": "Select only those element nodes with the given attribute",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "hasAttribute",
           "normalized": "Name-\u003eAxis",
@@ -1083,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect attributes on the current element (or nothing if it is not an element).  Namespace and case are ignored. XPath:\n \u003cem\u003ethe attribute axis contains the attributes of the context node; the axis will be empty unless the context node is an element\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eNote that this is not strictly an \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e, but will work with most combinators.\n\u003c/p\u003e\u003cp\u003eThe return list of the generalised axis contains as elements lists of \u003ccode\u003eContent\u003c/code\u003e \n elements, each full list representing an attribute value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "laxAttribute",
           "package": "xml-enumerator",
@@ -1093,6 +1142,7 @@
         "index": {
           "description": "Select attributes on the current element or nothing if it is not an element Namespace and case are ignored XPath the attribute axis contains the attributes of the context node the axis will be empty unless the context node is an element Note that this is not strictly an Axis but will work with most combinators The return list of the generalised axis contains as elements lists of Content elements each full list representing an attribute value",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "laxAttribute",
           "normalized": "Text-\u003eCursor-\u003e[Text]",
@@ -1109,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect only those elements with a loosely matching tag name. Namespace and case are ignored. XPath:\n \u003cem\u003eA node test that is a QName is true if and only if the type of the node (see [5 Data Model]) is the principal node type and has an expanded-name equal to the expanded-name specified by the QName.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Cursor",
           "name": "laxElement",
           "package": "xml-enumerator",
@@ -1119,6 +1170,7 @@
         "index": {
           "description": "Select only those elements with loosely matching tag name Namespace and case are ignored XPath node test that is QName is true if and only if the type of the node see Data Model is the principal node type and has an expanded-name equal to the expanded-name specified by the QName",
           "hierarchy": "Text XML Cursor",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Cursor",
           "name": "laxElement",
           "normalized": "Text-\u003eAxis",
@@ -1135,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides both a native Haskell solution for parsing XML\n documents into a stream of events, and a set of parser combinators for\n dealing with a stream of events.\n\u003c/p\u003e\u003cp\u003eAs a simple example, if you have the following XML file:\n\u003c/p\u003e\u003cpre\u003e \u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\n \u003cpeople\u003e\n     \u003cperson age=\"25\"\u003eMichael\u003c/person\u003e\n     \u003cperson age=\"2\"\u003eEliezer\u003c/person\u003e\n \u003c/people\u003e\n\u003c/pre\u003e\u003cp\u003eThen this code:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n import Text.XML.Stream.Parse\n import Data.Text (Text, unpack)\n \n data Person = Person { age :: Int, name :: Text }\n     deriving Show\n \n parsePerson = tagName \"person\" (requireAttr \"age\") $ \\age -\u003e do\n     name \u003c- content\n     return $ Person (read $ unpack age) name\n \n parsePeople = tagNoAttr \"people\" $ many parsePerson\n \n main = parseFile_ def \"people.xml\" $ force \"people required\" parsePeople\n\u003c/pre\u003e\u003cp\u003ewill produce:\n\u003c/p\u003e\u003cpre\u003e [Person {age = 25, name = \"Michael\"},Person {age = 2, name = \"Eliezer\"}]\n\u003c/pre\u003e\u003cp\u003ePrevious versions of this module contained a number of more sophisticated\n functions written by Aristid Breitkreuz and Dmitry Olshansky. To keep this\n package simpler, those functions are being moved to a separate package. This\n note will be updated with the name of the package(s) when available.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "Parse",
           "package": "xml-enumerator",
@@ -1144,6 +1197,7 @@
         "index": {
           "description": "This module provides both native Haskell solution for parsing XML documents into stream of events and set of parser combinators for dealing with stream of events As simple example if you have the following XML file xml version encoding utf-8 people person age Michael person person age Eliezer person people Then this code LANGUAGE OverloadedStrings import Text.XML.Stream.Parse import Data.Text Text unpack data Person Person age Int name Text deriving Show parsePerson tagName person requireAttr age age do name content return Person read unpack age name parsePeople tagNoAttr people many parsePerson main parseFile def people.xml force people required parsePeople will produce Person age name Michael Person age name Eliezer Previous versions of this module contained number of more sophisticated functions written by Aristid Breitkreuz and Dmitry Olshansky To keep this package simpler those functions are being moved to separate package This note will be updated with the name of the package when available",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "Parse",
           "package": "xml-enumerator",
@@ -1158,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for parsing attributes. By default, it requires you to deal with\n all attributes present on an element, and will throw an exception if there\n are unhandled attributes. Use the \u003ccode\u003e\u003ca\u003erequireAttr\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eoptionalAttr\u003c/a\u003e\u003c/code\u003e et al\n functions for handling an attribute, and \u003ccode\u003e\u003ca\u003eignoreAttrs\u003c/a\u003e\u003c/code\u003e if you would like to\n skip the rest of the attributes on an element.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance behave like \u003ccode\u003eFirst\u003c/code\u003e monoid. It chooses first\n parser which doesn't fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "AttrParser",
           "package": "xml-enumerator",
@@ -1167,6 +1222,7 @@
         "index": {
           "description": "monad for parsing attributes By default it requires you to deal with all attributes present on an element and will throw an exception if there are unhandled attributes Use the requireAttr optionalAttr et al functions for handling an attribute and ignoreAttrs if you would like to skip the rest of the attributes on an element Alternative instance behave like First monoid It chooses first parser which doesn fail",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "AttrParser",
           "package": "xml-enumerator",
@@ -1180,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "DecodeEntities",
           "package": "xml-enumerator",
@@ -1188,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "DecodeEntities",
           "package": "xml-enumerator",
@@ -1201,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "ParseSettings",
           "package": "xml-enumerator",
@@ -1209,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "ParseSettings",
           "package": "xml-enumerator",
@@ -1222,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "XmlException",
           "package": "xml-enumerator",
@@ -1230,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "XmlException",
           "package": "xml-enumerator",
@@ -1243,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "InvalidEndElement",
           "package": "xml-enumerator",
@@ -1252,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "InvalidEndElement",
           "package": "xml-enumerator",
@@ -1265,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "InvalidEntity",
           "package": "xml-enumerator",
@@ -1274,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "InvalidEntity",
           "package": "xml-enumerator",
@@ -1287,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "UnparsedAttributes",
           "package": "xml-enumerator",
@@ -1296,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "UnparsedAttributes",
           "normalized": "UnparsedAttributes[(Name,[Content])]",
@@ -1311,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "XmlException",
           "package": "xml-enumerator",
@@ -1320,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "XmlException",
           "package": "xml-enumerator",
@@ -1334,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of the first parser which returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. If no parsers\n succeed (i.e., return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e), this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "choose",
           "package": "xml-enumerator",
@@ -1344,6 +1415,7 @@
         "index": {
           "description": "Get the value of the first parser which returns Just If no parsers succeed i.e return Just this function returns Nothing",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "choose",
           "normalized": "[Iteratee Event a(Maybe b)]-\u003eIteratee Event a(Maybe b)",
@@ -1359,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrabs the next piece of content. If none if available, returns \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n This is simply a wrapper around \u003ccode\u003e\u003ca\u003econtentMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "content",
           "package": "xml-enumerator",
@@ -1369,6 +1442,7 @@
         "index": {
           "description": "Grabs the next piece of content If none if available returns empty This is simply wrapper around contentMaybe",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "content",
           "package": "xml-enumerator",
@@ -1382,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrabs the next piece of content if available. This function skips over any\n comments and instructions and concatenates all content until the next start\n or end tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "contentMaybe",
           "package": "xml-enumerator",
@@ -1392,6 +1467,7 @@
         "index": {
           "description": "Grabs the next piece of content if available This function skips over any comments and instructions and concatenates all content until the next start or end tag",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "contentMaybe",
           "package": "xml-enumerator",
@@ -1429,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomatically determine which UTF variant is being used. This function\n first checks for BOMs, removing them as necessary, and then check for the\n equivalent of \u003c?xml for each of UTF-8, UTF-16LE\u003cem\u003eBE, and UTF-32LE\u003c/em\u003eBE. It\n defaults to assuming UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "detectUtf",
           "package": "xml-enumerator",
@@ -1439,6 +1516,7 @@
         "index": {
           "description": "Automatically determine which UTF variant is being used This function first checks for BOMs removing them as necessary and then check for the equivalent of xml for each of UTF-8 UTF-16LE BE and UTF-32LE BE It defaults to assuming UTF-8",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "detectUtf",
           "package": "xml-enumerator",
@@ -1453,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce an optional parser into a required parser. All of the \u003ccode\u003e\u003ca\u003etag\u003c/a\u003e\u003c/code\u003e\n functions, \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e deal with \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e parsers. Use this when you\n want to finally force something to happen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "force",
           "package": "xml-enumerator",
@@ -1462,6 +1541,7 @@
         "index": {
           "description": "Force an optional parser into required parser All of the tag functions choose and many deal with Maybe parsers Use this when you want to finally force something to happen",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "force",
           "normalized": "String-\u003eIteratee Event a(Maybe b)-\u003eIteratee Event a b",
@@ -1477,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip the remaining attributes on an element. Since this will clear the\n list of attributes, you must call this \u003cem\u003eafter\u003c/em\u003e any calls to \u003ccode\u003e\u003ca\u003erequireAttr\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eoptionalAttr\u003c/a\u003e\u003c/code\u003e, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "ignoreAttrs",
           "package": "xml-enumerator",
@@ -1487,6 +1568,7 @@
         "index": {
           "description": "Skip the remaining attributes on an element Since this will clear the list of attributes you must call this after any calls to requireAttr optionalAttr etc",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "ignoreAttrs",
           "normalized": "AttrParser()",
@@ -1503,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep parsing elements as long as the parser returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "many",
           "package": "xml-enumerator",
@@ -1513,6 +1596,7 @@
         "index": {
           "description": "Keep parsing elements as long as the parser returns Just",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "many",
           "normalized": "Iteratee Event a(Maybe b)-\u003eIteratee Event a[b]",
@@ -1528,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value for an attribute if present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "optionalAttr",
           "package": "xml-enumerator",
@@ -1538,6 +1623,7 @@
         "index": {
           "description": "Return the value for an attribute if present",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "optionalAttr",
           "normalized": "Name-\u003eAttrParser(Maybe Text)",
@@ -1553,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "optionalAttrRaw",
           "package": "xml-enumerator",
@@ -1562,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "optionalAttrRaw",
           "normalized": "((Name,[Content])-\u003eMaybe a)-\u003eAttrParser(Maybe a)",
@@ -1578,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of the first parser which returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. If no parsers\n succeed (i.e., return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e), this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e orE a b = choose [a, b]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "orE",
           "package": "xml-enumerator",
@@ -1588,6 +1677,7 @@
         "index": {
           "description": "Get the value of the first parser which returns Just If no parsers succeed i.e return Just this function returns Nothing orE choose",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "orE",
           "normalized": "Iteratee Event a(Maybe b)-\u003eIteratee Event a(Maybe b)-\u003eIteratee Event a(Maybe b)",
@@ -1603,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a byte stream into \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es. This function is implemented fully in\n Haskell using attoparsec-text for parsing. The produced error messages do\n not give line/column information, so you may prefer to stick with the parser\n provided by libxml-enumerator. However, this has the advantage of not\n relying on any C libraries.\n\u003c/p\u003e\u003cp\u003eThis relies on \u003ccode\u003e\u003ca\u003edetectUtf\u003c/a\u003e\u003c/code\u003e to determine character encoding, and \u003ccode\u003e\u003ca\u003eparseText\u003c/a\u003e\u003c/code\u003e\n to do the actual parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "parseBytes",
           "package": "xml-enumerator",
@@ -1613,6 +1704,7 @@
         "index": {
           "description": "Parses byte stream into Event This function is implemented fully in Haskell using attoparsec-text for parsing The produced error messages do not give line column information so you may prefer to stick with the parser provided by libxml-enumerator However this has the advantage of not relying on any libraries This relies on detectUtf to determine character encoding and parseText to do the actual parsing",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "parseBytes",
           "normalized": "ParseSettings-\u003eEnumeratee ByteString Event a b",
@@ -1629,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper function which reads a file from disk using \u003ccode\u003e\u003ca\u003eenumFile\u003c/a\u003e\u003c/code\u003e, detects\n character encoding using \u003ccode\u003e\u003ca\u003edetectUtf\u003c/a\u003e\u003c/code\u003e, parses the XML using \u003ccode\u003e\u003ca\u003eparseBytes\u003c/a\u003e\u003c/code\u003e, and\n then hands off control to your supplied parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "parseFile",
           "package": "xml-enumerator",
@@ -1639,6 +1732,7 @@
         "index": {
           "description": "helper function which reads file from disk using enumFile detects character encoding using detectUtf parses the XML using parseBytes and then hands off control to your supplied parser",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "parseFile",
           "normalized": "ParseSettings-\u003eFilePath-\u003eIteratee Event IO a-\u003eIO(Either SomeException a)",
@@ -1655,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eparseFile\u003c/a\u003e\u003c/code\u003e, but throws any exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "parseFile_",
           "package": "xml-enumerator",
@@ -1665,6 +1760,7 @@
         "index": {
           "description": "The same as parseFile but throws any exceptions",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "parseFile_",
           "normalized": "ParseSettings-\u003eFilePath-\u003eIteratee Event IO a-\u003eIO a",
@@ -1681,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an event stream from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "parseLBS",
           "package": "xml-enumerator",
@@ -1691,6 +1788,7 @@
         "index": {
           "description": "Parse an event stream from lazy ByteString",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "parseLBS",
           "normalized": "ParseSettings-\u003eByteString-\u003eIteratee Event IO a-\u003eIO(Either SomeException a)",
@@ -1707,6 +1805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eparseLBS\u003c/a\u003e\u003c/code\u003e, but throws exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "parseLBS_",
           "package": "xml-enumerator",
@@ -1717,6 +1816,7 @@
         "index": {
           "description": "Same as parseLBS but throws exceptions",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "parseLBS_",
           "normalized": "ParseSettings-\u003eByteString-\u003eIteratee Event IO a-\u003eIO a",
@@ -1733,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a character stream into \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es. This function is implemented\n fully in Haskell using attoparsec-text for parsing. The produced error\n messages do not give line/column information, so you may prefer to stick\n with the parser provided by libxml-enumerator. However, this has the\n advantage of not relying on any C libraries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "parseText",
           "package": "xml-enumerator",
@@ -1743,6 +1844,7 @@
         "index": {
           "description": "Parses character stream into Event This function is implemented fully in Haskell using attoparsec-text for parsing The produced error messages do not give line column information so you may prefer to stick with the parser provided by libxml-enumerator However this has the advantage of not relying on any libraries",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "parseText",
           "normalized": "ParseSettings-\u003eEnumeratee Text Event a b",
@@ -1784,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire that a certain attribute be present and return its value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "requireAttr",
           "package": "xml-enumerator",
@@ -1794,6 +1897,7 @@
         "index": {
           "description": "Require that certain attribute be present and return its value",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "requireAttr",
           "normalized": "Name-\u003eAttrParser Text",
@@ -1809,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "requireAttrRaw",
           "package": "xml-enumerator",
@@ -1818,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "requireAttrRaw",
           "normalized": "String-\u003e((Name,[Content])-\u003eMaybe a)-\u003eAttrParser a",
@@ -1834,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most generic way to parse a tag. It takes a predicate for checking if\n this is the correct tag name, an \u003ccode\u003e\u003ca\u003eAttrParser\u003c/a\u003e\u003c/code\u003e for handling attributes, and\n then a parser for dealing with content.\n\u003c/p\u003e\u003cp\u003eThis function automatically absorbs its balancing closing tag, and will\n throw an exception if not all of the attributes or child elements are\n consumed. If you want to allow extra attributes, see \u003ccode\u003e\u003ca\u003eignoreAttrs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function automatically ignores comments, instructions and whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "tag",
           "package": "xml-enumerator",
@@ -1844,6 +1951,7 @@
         "index": {
           "description": "The most generic way to parse tag It takes predicate for checking if this is the correct tag name an AttrParser for handling attributes and then parser for dealing with content This function automatically absorbs its balancing closing tag and will throw an exception if not all of the attributes or child elements are consumed If you want to allow extra attributes see ignoreAttrs This function automatically ignores comments instructions and whitespace",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "tag",
           "normalized": "(Name-\u003eMaybe a)-\u003e(a-\u003eAttrParser b)-\u003e(b-\u003eIteratee Event c d)-\u003eIteratee Event c(Maybe d)",
@@ -1859,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simplified version of \u003ccode\u003e\u003ca\u003etag\u003c/a\u003e\u003c/code\u003e which matches for specific tag names instead\n of taking a predicate function. This is often sufficient, and when combined\n with OverloadedStrings and the IsString instance of \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, can prove to be\n very concise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "tagName",
           "package": "xml-enumerator",
@@ -1869,6 +1978,7 @@
         "index": {
           "description": "simplified version of tag which matches for specific tag names instead of taking predicate function This is often sufficient and when combined with OverloadedStrings and the IsString instance of Name can prove to be very concise",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "tagName",
           "normalized": "Name-\u003eAttrParser a-\u003e(a-\u003eIteratee Event b c)-\u003eIteratee Event b(Maybe c)",
@@ -1885,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA further simplified tag parser, which requires that no attributes exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "tagNoAttr",
           "package": "xml-enumerator",
@@ -1895,6 +2006,7 @@
         "index": {
           "description": "further simplified tag parser which requires that no attributes exist",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "tagNoAttr",
           "normalized": "Name-\u003eIteratee Event a b-\u003eIteratee Event a(Maybe b)",
@@ -1911,6 +2023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simplified version of \u003ccode\u003e\u003ca\u003etag\u003c/a\u003e\u003c/code\u003e which matches against boolean predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "tagPredicate",
           "package": "xml-enumerator",
@@ -1921,6 +2034,7 @@
         "index": {
           "description": "simplified version of tag which matches against boolean predicates",
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "tagPredicate",
           "normalized": "(Name-\u003eBool)-\u003eAttrParser a-\u003e(a-\u003eIteratee Event b c)-\u003eIteratee Event b(Maybe c)",
@@ -1936,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "xmlBadInput",
           "package": "xml-enumerator",
@@ -1945,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "xmlBadInput",
           "package": "xml-enumerator",
@@ -1958,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Parse",
           "name": "xmlErrorMessage",
           "package": "xml-enumerator",
@@ -1967,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Parse",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Parse",
           "name": "xmlErrorMessage",
           "package": "xml-enumerator",
@@ -1981,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eEnumeratee\u003c/code\u003es to render XML \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es. Unlike libxml-enumerator and\n expat-enumerator, this module does not provide IO and ST variants, since the\n underlying rendering operations are pure functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Render",
           "name": "Render",
           "package": "xml-enumerator",
@@ -1990,6 +2109,7 @@
         "index": {
           "description": "Enumeratee to render XML Event Unlike libxml-enumerator and expat-enumerator this module does not provide IO and ST variants since the underlying rendering operations are pure functions",
           "hierarchy": "Text XML Stream Render",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Render",
           "name": "Render",
           "package": "xml-enumerator",
@@ -2003,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Render",
           "name": "RenderSettings",
           "package": "xml-enumerator",
@@ -2011,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Text XML Stream Render",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Render",
           "name": "RenderSettings",
           "package": "xml-enumerator",
@@ -2025,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a stream of \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es into a prettified one, adding extra\n whitespace. Note that this can change the meaning of your XML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Render",
           "name": "prettify",
           "package": "xml-enumerator",
@@ -2035,6 +2158,7 @@
         "index": {
           "description": "Convert stream of Event into prettified one adding extra whitespace Note that this can change the meaning of your XML",
           "hierarchy": "Text XML Stream Render",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Render",
           "name": "prettify",
           "package": "xml-enumerator",
@@ -2048,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a stream of \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es into a stream of \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es. Builders are from\n the blaze-builder package, and allow the create of optimally sized\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es with minimal buffer copying.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Render",
           "name": "renderBuilder",
           "package": "xml-enumerator",
@@ -2058,6 +2183,7 @@
         "index": {
           "description": "Render stream of Event into stream of Builder Builders are from the blaze-builder package and allow the create of optimally sized ByteString with minimal buffer copying",
           "hierarchy": "Text XML Stream Render",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Render",
           "name": "renderBuilder",
           "normalized": "RenderSettings-\u003eEnumeratee Event Builder a b",
@@ -2074,6 +2200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a stream of \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es into a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es. This function\n wraps around \u003ccode\u003e\u003ca\u003erenderBuilder\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ebuilderToByteString\u003c/a\u003e\u003c/code\u003e, so it produces\n optimally sized \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es with minimal buffer copying.\n\u003c/p\u003e\u003cp\u003eThe output is UTF8 encoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Render",
           "name": "renderBytes",
           "package": "xml-enumerator",
@@ -2084,6 +2211,7 @@
         "index": {
           "description": "Render stream of Event into stream of ByteString This function wraps around renderBuilder and builderToByteString so it produces optimally sized ByteString with minimal buffer copying The output is UTF8 encoded",
           "hierarchy": "Text XML Stream Render",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Render",
           "name": "renderBytes",
           "normalized": "RenderSettings-\u003eEnumeratee Event ByteString a b",
@@ -2100,6 +2228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a stream of \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es into a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es. This function\n wraps around \u003ccode\u003e\u003ca\u003erenderBuilder\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ebuilderToByteString\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erenderBytes\u003c/a\u003e\u003c/code\u003e, so it\n produces optimally sized \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es with minimal buffer copying.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Stream.Render",
           "name": "renderText",
           "package": "xml-enumerator",
@@ -2110,6 +2239,7 @@
         "index": {
           "description": "Render stream of Event into stream of ByteString This function wraps around renderBuilder builderToByteString and renderBytes so it produces optimally sized ByteString with minimal buffer copying",
           "hierarchy": "Text XML Stream Render",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Stream.Render",
           "name": "renderText",
           "normalized": "RenderSettings-\u003eEnumeratee Event Text a b",
@@ -2151,6 +2281,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDOM-based XML parsing and rendering.\n\u003c/p\u003e\u003cp\u003eIn this module, attribute values and content nodes can contain either raw\n text or entities. In most cases, these can be fully resolved at parsing. If\n that is the case for your documents, the \u003ca\u003eText.XML\u003c/a\u003e module provides\n simplified datatypes that only contain raw text.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "Unresolved",
           "package": "xml-enumerator",
@@ -2160,6 +2291,7 @@
         "index": {
           "description": "DOM-based XML parsing and rendering In this module attribute values and content nodes can contain either raw text or entities In most cases these can be fully resolved at parsing If that is the case for your documents the Text.XML module provides simplified datatypes that only contain raw text",
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "Unresolved",
           "package": "xml-enumerator",
@@ -2173,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "InvalidEventStream",
           "package": "xml-enumerator",
@@ -2181,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "InvalidEventStream",
           "package": "xml-enumerator",
@@ -2194,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "ParseSettings",
           "package": "xml-enumerator",
@@ -2202,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "ParseSettings",
           "package": "xml-enumerator",
@@ -2215,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "RenderSettings",
           "package": "xml-enumerator",
@@ -2223,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "RenderSettings",
           "package": "xml-enumerator",
@@ -2236,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "InvalidEventStream",
           "package": "xml-enumerator",
@@ -2245,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "InvalidEventStream",
           "package": "xml-enumerator",
@@ -2258,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "fromEvents",
           "package": "xml-enumerator",
@@ -2267,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "fromEvents",
           "package": "xml-enumerator",
@@ -2280,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "lazyConsume",
           "package": "xml-enumerator",
@@ -2289,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "lazyConsume",
           "normalized": "Enumerator a IO()-\u003eIO[a]",
@@ -2304,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "parseEnum",
           "package": "xml-enumerator",
@@ -2313,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "parseEnum",
           "normalized": "ParseSettings-\u003eEnumerator ByteString a Document-\u003ea(Either SomeException Document)",
@@ -2328,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "parseEnum_",
           "package": "xml-enumerator",
@@ -2337,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "parseEnum_",
           "normalized": "ParseSettings-\u003eEnumerator ByteString a Document-\u003ea Document",
@@ -2352,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "parseLBS",
           "package": "xml-enumerator",
@@ -2361,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "parseLBS",
           "normalized": "ParseSettings-\u003eByteString-\u003eEither SomeException Document",
@@ -2376,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "parseLBS_",
           "package": "xml-enumerator",
@@ -2385,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "parseLBS_",
           "normalized": "ParseSettings-\u003eByteString-\u003eDocument",
@@ -2400,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "readFile",
           "package": "xml-enumerator",
@@ -2409,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "readFile",
           "normalized": "ParseSettings-\u003eFilePath-\u003eIO(Either SomeException Document)",
@@ -2424,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "readFile_",
           "package": "xml-enumerator",
@@ -2433,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "readFile_",
           "normalized": "ParseSettings-\u003eFilePath-\u003eIO Document",
@@ -2448,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "renderBuilder",
           "package": "xml-enumerator",
@@ -2457,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "renderBuilder",
           "normalized": "RenderSettings-\u003eDocument-\u003eEnumerator Builder a b",
@@ -2472,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "renderBytes",
           "package": "xml-enumerator",
@@ -2481,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "renderBytes",
           "normalized": "RenderSettings-\u003eDocument-\u003eEnumerator ByteString a b",
@@ -2496,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "renderLBS",
           "package": "xml-enumerator",
@@ -2505,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "renderLBS",
           "normalized": "RenderSettings-\u003eDocument-\u003eByteString",
@@ -2520,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "renderText",
           "package": "xml-enumerator",
@@ -2529,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "renderText",
           "normalized": "RenderSettings-\u003eDocument-\u003eEnumerator Text a b",
@@ -2544,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "toEvents",
           "package": "xml-enumerator",
@@ -2553,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "toEvents",
           "normalized": "Document-\u003e[Event]",
@@ -2568,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML.Unresolved",
           "name": "writeFile",
           "package": "xml-enumerator",
@@ -2577,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Text XML Unresolved",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML.Unresolved",
           "name": "writeFile",
           "normalized": "RenderSettings-\u003eFilePath-\u003eDocument-\u003eIO()",
@@ -2593,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDOM-based parsing and rendering.\n\u003c/p\u003e\u003cp\u003eThis module requires that all entities be resolved at parsing. If you need\n to interact with unresolved entities, please use \u003ca\u003eText.XML.Unresolved\u003c/a\u003e. This\n is the recommended module for most uses cases.\n\u003c/p\u003e\u003cp\u003eWhile many of the datatypes in this module are simply re-exported from\n \u003ccode\u003eData.XML.Types\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e are all redefined here to\n disallow the possibility of unresolved entities. Conversion functions are\n provided to switch between the two sets of datatypes.\n\u003c/p\u003e\u003cp\u003eFor simpler, bidirectional traversal of the DOM tree, see the\n \u003ca\u003eText.XML.Cursor\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "XML",
           "package": "xml-enumerator",
@@ -2602,6 +2771,7 @@
         "index": {
           "description": "DOM-based parsing and rendering This module requires that all entities be resolved at parsing If you need to interact with unresolved entities please use Text.XML.Unresolved This is the recommended module for most uses cases While many of the datatypes in this module are simply re-exported from Data.XML.Types Document Node and Element are all redefined here to disallow the possibility of unresolved entities Conversion functions are provided to switch between the two sets of datatypes For simpler bidirectional traversal of the DOM tree see the Text.XML.Cursor module",
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "XML",
           "package": "xml-enumerator",
@@ -2616,6 +2786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: due to the incredible complexity of DTDs, this type only supports\n external subsets. I've tried adding internal subset types, but they\n quickly gain more code than the rest of this module put together.\n\u003c/p\u003e\u003cp\u003eIt is possible that some future version of this library might support\n internal subsets, but I am no longer actively working on adding them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Doctype",
           "package": "xml-enumerator",
@@ -2624,6 +2795,7 @@
         "index": {
           "description": "Note due to the incredible complexity of DTDs this type only supports external subsets ve tried adding internal subset types but they quickly gain more code than the rest of this module put together It is possible that some future version of this library might support internal subsets but am no longer actively working on adding them",
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Doctype",
           "package": "xml-enumerator",
@@ -2637,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Document",
           "package": "xml-enumerator",
@@ -2645,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Document",
           "package": "xml-enumerator",
@@ -2658,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Element",
           "package": "xml-enumerator",
@@ -2666,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Element",
           "package": "xml-enumerator",
@@ -2679,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "ExternalID",
           "package": "xml-enumerator",
@@ -2686,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "ExternalID",
           "package": "xml-enumerator",
@@ -2699,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Instruction",
           "package": "xml-enumerator",
@@ -2706,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Instruction",
           "package": "xml-enumerator",
@@ -2719,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Miscellaneous",
           "package": "xml-enumerator",
@@ -2726,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Miscellaneous",
           "package": "xml-enumerator",
@@ -2740,6 +2922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fully qualified name.\n\u003c/p\u003e\u003cp\u003ePrefixes are not semantically important; they are included only to\n simplify pass-through parsing. When comparing names with \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\n methods, prefixes are ignored.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eIsString\u003c/code\u003e instance supports Clark notation; see\n \u003ca\u003ehttp://www.jclark.com/xml/xmlns.htm\u003c/a\u003e and\n \u003ca\u003ehttp://infohost.nmt.edu/tcc/help/pubs/pylxml/etree-QName.html\u003c/a\u003e. Use\n the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension for very simple \u003ccode\u003eName\u003c/code\u003e\n construction:\n\u003c/p\u003e\u003cpre\u003e myname :: Name\n myname = \"{http://example.com/ns/my-namespace}my-name\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Name",
           "package": "xml-enumerator",
@@ -2748,6 +2931,7 @@
         "index": {
           "description": "fully qualified name Prefixes are not semantically important they are included only to simplify pass-through parsing When comparing names with Eq or Ord methods prefixes are ignored The IsString instance supports Clark notation see http www.jclark.com xml xmlns.htm and http infohost.nmt.edu tcc help pubs pylxml etree-QName.html Use the OverloadedStrings language extension for very simple Name construction myname Name myname http example.com ns my-namespace my-name",
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Name",
           "package": "xml-enumerator",
@@ -2761,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Node",
           "package": "xml-enumerator",
@@ -2769,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Node",
           "package": "xml-enumerator",
@@ -2782,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "ParseSettings",
           "package": "xml-enumerator",
@@ -2790,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "ParseSettings",
           "package": "xml-enumerator",
@@ -2803,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Prologue",
           "package": "xml-enumerator",
@@ -2810,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Prologue",
           "package": "xml-enumerator",
@@ -2823,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "RenderSettings",
           "package": "xml-enumerator",
@@ -2831,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "RenderSettings",
           "package": "xml-enumerator",
@@ -2844,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "UnresolvedEntityException",
           "package": "xml-enumerator",
@@ -2852,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "UnresolvedEntityException",
           "package": "xml-enumerator",
@@ -2865,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Doctype",
           "package": "xml-enumerator",
@@ -2873,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Doctype",
           "package": "xml-enumerator",
@@ -2886,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Document",
           "package": "xml-enumerator",
@@ -2895,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Document",
           "package": "xml-enumerator",
@@ -2908,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Element",
           "package": "xml-enumerator",
@@ -2917,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Element",
           "package": "xml-enumerator",
@@ -2930,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Instruction",
           "package": "xml-enumerator",
@@ -2938,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Instruction",
           "package": "xml-enumerator",
@@ -2951,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "MiscComment",
           "package": "xml-enumerator",
@@ -2959,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "MiscComment",
           "package": "xml-enumerator",
@@ -2972,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "MiscInstruction",
           "package": "xml-enumerator",
@@ -2980,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "MiscInstruction",
           "package": "xml-enumerator",
@@ -2993,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Name",
           "package": "xml-enumerator",
@@ -3001,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Name",
           "package": "xml-enumerator",
@@ -3014,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "NodeComment",
           "package": "xml-enumerator",
@@ -3023,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "NodeComment",
           "package": "xml-enumerator",
@@ -3036,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "NodeContent",
           "package": "xml-enumerator",
@@ -3045,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "NodeContent",
           "package": "xml-enumerator",
@@ -3058,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "NodeElement",
           "package": "xml-enumerator",
@@ -3067,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "NodeElement",
           "package": "xml-enumerator",
@@ -3080,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "NodeInstruction",
           "package": "xml-enumerator",
@@ -3089,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "NodeInstruction",
           "package": "xml-enumerator",
@@ -3102,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "Prologue",
           "package": "xml-enumerator",
@@ -3110,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "Prologue",
           "package": "xml-enumerator",
@@ -3123,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "PublicID",
           "package": "xml-enumerator",
@@ -3131,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "PublicID",
           "package": "xml-enumerator",
@@ -3144,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "SystemID",
           "package": "xml-enumerator",
@@ -3152,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "SystemID",
           "package": "xml-enumerator",
@@ -3165,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "UnresolvedEntityException",
           "package": "xml-enumerator",
@@ -3174,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "UnresolvedEntityException",
           "package": "xml-enumerator",
@@ -3187,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "doctypeID",
           "package": "xml-enumerator",
@@ -3195,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "doctypeID",
           "package": "xml-enumerator",
@@ -3208,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "doctypeName",
           "package": "xml-enumerator",
@@ -3216,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "doctypeName",
           "package": "xml-enumerator",
@@ -3229,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "documentEpilogue",
           "package": "xml-enumerator",
@@ -3238,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "documentEpilogue",
           "normalized": "[Miscellaneous]",
@@ -3253,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "documentPrologue",
           "package": "xml-enumerator",
@@ -3262,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "documentPrologue",
           "package": "xml-enumerator",
@@ -3275,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "documentRoot",
           "package": "xml-enumerator",
@@ -3284,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "documentRoot",
           "package": "xml-enumerator",
@@ -3297,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "elementAttributes",
           "package": "xml-enumerator",
@@ -3306,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "elementAttributes",
           "normalized": "[(Name,Text)]",
@@ -3321,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "elementName",
           "package": "xml-enumerator",
@@ -3330,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "elementName",
           "package": "xml-enumerator",
@@ -3343,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "elementNodes",
           "package": "xml-enumerator",
@@ -3352,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "elementNodes",
           "normalized": "[Node]",
@@ -3367,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "fromEvents",
           "package": "xml-enumerator",
@@ -3376,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "fromEvents",
           "package": "xml-enumerator",
@@ -3389,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "fromXMLDocument",
           "package": "xml-enumerator",
@@ -3398,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "fromXMLDocument",
           "normalized": "Document-\u003eEither(Set Text)Document",
@@ -3413,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "fromXMLElement",
           "package": "xml-enumerator",
@@ -3422,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "fromXMLElement",
           "normalized": "Element-\u003eEither(Set Text)Element",
@@ -3437,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "fromXMLNode",
           "package": "xml-enumerator",
@@ -3446,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "fromXMLNode",
           "normalized": "Node-\u003eEither(Set Text)Node",
@@ -3461,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "instructionData",
           "package": "xml-enumerator",
@@ -3469,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "instructionData",
           "package": "xml-enumerator",
@@ -3482,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "instructionTarget",
           "package": "xml-enumerator",
@@ -3490,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "instructionTarget",
           "package": "xml-enumerator",
@@ -3503,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "nameLocalName",
           "package": "xml-enumerator",
@@ -3511,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "nameLocalName",
           "package": "xml-enumerator",
@@ -3524,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "nameNamespace",
           "package": "xml-enumerator",
@@ -3532,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "nameNamespace",
           "package": "xml-enumerator",
@@ -3545,6 +3801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "namePrefix",
           "package": "xml-enumerator",
@@ -3553,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "namePrefix",
           "package": "xml-enumerator",
@@ -3566,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "parseEnum",
           "package": "xml-enumerator",
@@ -3575,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "parseEnum",
           "normalized": "ParseSettings-\u003eEnumerator ByteString a Document-\u003ea(Either SomeException Document)",
@@ -3590,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "parseEnum_",
           "package": "xml-enumerator",
@@ -3599,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "parseEnum_",
           "normalized": "ParseSettings-\u003eEnumerator ByteString a Document-\u003ea Document",
@@ -3614,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "parseLBS",
           "package": "xml-enumerator",
@@ -3623,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "parseLBS",
           "normalized": "ParseSettings-\u003eByteString-\u003eEither SomeException Document",
@@ -3638,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "parseLBS_",
           "package": "xml-enumerator",
@@ -3647,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "parseLBS_",
           "normalized": "ParseSettings-\u003eByteString-\u003eDocument",
@@ -3662,6 +3928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "parseText",
           "package": "xml-enumerator",
@@ -3671,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "parseText",
           "normalized": "ParseSettings-\u003eText-\u003eEither SomeException Document",
@@ -3686,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "parseTextEnum",
           "package": "xml-enumerator",
@@ -3695,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "parseTextEnum",
           "normalized": "ParseSettings-\u003eEnumerator Text a Document-\u003ea(Either SomeException Document)",
@@ -3710,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "parseTextEnum_",
           "package": "xml-enumerator",
@@ -3719,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "parseTextEnum_",
           "normalized": "ParseSettings-\u003eEnumerator Text a Document-\u003ea Document",
@@ -3734,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "parseText_",
           "package": "xml-enumerator",
@@ -3743,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "parseText_",
           "normalized": "ParseSettings-\u003eText-\u003eDocument",
@@ -3758,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "prologueAfter",
           "package": "xml-enumerator",
@@ -3766,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "prologueAfter",
           "normalized": "[Miscellaneous]",
@@ -3781,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "prologueBefore",
           "package": "xml-enumerator",
@@ -3789,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "prologueBefore",
           "normalized": "[Miscellaneous]",
@@ -3804,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "prologueDoctype",
           "package": "xml-enumerator",
@@ -3812,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "prologueDoctype",
           "package": "xml-enumerator",
@@ -3825,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "readFile",
           "package": "xml-enumerator",
@@ -3834,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "readFile",
           "normalized": "ParseSettings-\u003eFilePath-\u003eIO(Either SomeException Document)",
@@ -3849,6 +4131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "readFile_",
           "package": "xml-enumerator",
@@ -3858,6 +4141,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "readFile_",
           "normalized": "ParseSettings-\u003eFilePath-\u003eIO Document",
@@ -3873,6 +4157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "renderBytes",
           "package": "xml-enumerator",
@@ -3882,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "renderBytes",
           "normalized": "RenderSettings-\u003eDocument-\u003eEnumerator ByteString a b",
@@ -3897,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "renderLBS",
           "package": "xml-enumerator",
@@ -3906,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "renderLBS",
           "normalized": "RenderSettings-\u003eDocument-\u003eByteString",
@@ -3921,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "renderText",
           "package": "xml-enumerator",
@@ -3930,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "renderText",
           "normalized": "RenderSettings-\u003eDocument-\u003eText",
@@ -3945,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "toXMLDocument",
           "package": "xml-enumerator",
@@ -3954,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "toXMLDocument",
           "normalized": "Document-\u003eDocument",
@@ -3969,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "toXMLElement",
           "package": "xml-enumerator",
@@ -3978,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "toXMLElement",
           "normalized": "Element-\u003eElement",
@@ -3993,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "toXMLNode",
           "package": "xml-enumerator",
@@ -4002,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "toXMLNode",
           "normalized": "Node-\u003eNode",
@@ -4017,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:11 UTC 2014",
           "module": "Text.XML",
           "name": "writeFile",
           "package": "xml-enumerator",
@@ -4026,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Text XML",
+          "indexed": "2014-03-11T20:42:11",
           "module": "Text.XML",
           "name": "writeFile",
           "normalized": "RenderSettings-\u003eFilePath-\u003eDocument-\u003eIO()",

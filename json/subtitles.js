@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "subtitles"
+        "phrase": "subtitles",
+        "type": "phrase"
       },
       "type": "context"
     }

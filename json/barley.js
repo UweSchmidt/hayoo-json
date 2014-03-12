@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "barley"
+        "phrase": "barley",
+        "type": "phrase"
       },
       "type": "context"
     }

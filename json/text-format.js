@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "text-format"
+        "phrase": "text-format",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes that can be rendered to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Buildable",
           "name": "Buildable",
           "package": "text-format",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Types that can be rendered to Builder",
           "hierarchy": "Data Text Buildable",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Buildable",
           "name": "Buildable",
           "package": "text-format",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types that can be rendered to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Buildable",
           "name": "Buildable",
           "package": "text-format",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The class of types that can be rendered to Builder",
           "hierarchy": "Data Text Buildable",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Buildable",
           "name": "Buildable",
           "package": "text-format",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Buildable",
           "name": "build",
           "package": "text-format",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Text Buildable",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Buildable",
           "name": "build",
           "normalized": "a-\u003eBuilder",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes that can be used as a collection of arguments for formatting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Params",
           "name": "Params",
           "package": "text-format",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Types that can be used as collection of arguments for formatting",
           "hierarchy": "Data Text Format Params",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Params",
           "name": "Params",
           "package": "text-format",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types that can be used as a collection of arguments\n for formatting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Params",
           "name": "Params",
           "package": "text-format",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The class of types that can be used as collection of arguments for formatting",
           "hierarchy": "Data Text Format Params",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Params",
           "name": "Params",
           "package": "text-format",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Params",
           "name": "buildParams",
           "package": "text-format",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Data Text Format Params",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Params",
           "name": "buildParams",
           "normalized": "a-\u003e[Builder]",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for text mangling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Types",
           "name": "Types",
           "package": "text-format",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Types for text mangling",
           "hierarchy": "Data Text Format Types",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Types",
           "name": "Types",
           "package": "text-format",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA format string. This is intentionally incompatible with other\n string types, to make it difficult to construct a format string by\n concatenating string fragments (a very common way to accidentally\n make code vulnerable to malicious data).\n\u003c/p\u003e\u003cp\u003eThis type is an instance of \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e, so the easiest way to\n construct a query is to enable the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language\n extension and then simply write the query in double quotes.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Data.Text.Format\n\n f :: Format\n f = \"hello {}\"\n\u003c/pre\u003e\u003cp\u003eThe underlying type is \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, so literal Haskell strings that\n contain Unicode characters will be correctly handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Types",
           "name": "Format",
           "package": "text-format",
@@ -190,6 +205,7 @@
         "index": {
           "description": "format string This is intentionally incompatible with other string types to make it difficult to construct format string by concatenating string fragments very common way to accidentally make code vulnerable to malicious data This type is an instance of IsString so the easiest way to construct query is to enable the OverloadedStrings language extension and then simply write the query in double quotes LANGUAGE OverloadedStrings import Data.Text.Format Format hello The underlying type is Text so literal Haskell strings that contain Unicode characters will be correctly handled",
           "hierarchy": "Data Text Format Types",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Types",
           "name": "Format",
           "package": "text-format",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an integral type in hexadecimal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Types",
           "name": "Hex",
           "package": "text-format",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Render an integral type in hexadecimal",
           "hierarchy": "Data Text Format Types",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Types",
           "name": "Hex",
           "package": "text-format",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this \u003ccode\u003enewtype\u003c/code\u003e wrapper for your single parameter if you are\n formatting a string containing exactly one substitution site.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Types",
           "name": "Only",
           "package": "text-format",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Use this newtype wrapper for your single parameter if you are formatting string containing exactly one substitution site",
           "hierarchy": "Data Text Format Types",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Types",
           "name": "Only",
           "package": "text-format",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a value using its \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Types",
           "name": "Shown",
           "package": "text-format",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Render value using its Show instance",
           "hierarchy": "Data Text Format Types",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Types",
           "name": "Shown",
           "package": "text-format",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format.Types",
           "name": "Hex",
           "package": "text-format",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data Text Format Types",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format.Types",
           "name": "Hex",
           "package": "text-format",
@@ -386,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast, efficient, flexible support for formatting text strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "Format",
           "package": "text-format",
@@ -395,6 +420,7 @@
         "index": {
           "description": "Fast efficient flexible support for formatting text strings",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "Format",
           "package": "text-format",
@@ -409,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA format string. This is intentionally incompatible with other\n string types, to make it difficult to construct a format string by\n concatenating string fragments (a very common way to accidentally\n make code vulnerable to malicious data).\n\u003c/p\u003e\u003cp\u003eThis type is an instance of \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e, so the easiest way to\n construct a query is to enable the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language\n extension and then simply write the query in double quotes.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Data.Text.Format\n\n f :: Format\n f = \"hello {}\"\n\u003c/pre\u003e\u003cp\u003eThe underlying type is \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, so literal Haskell strings that\n contain Unicode characters will be correctly handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "Format",
           "package": "text-format",
@@ -418,6 +445,7 @@
         "index": {
           "description": "format string This is intentionally incompatible with other string types to make it difficult to construct format string by concatenating string fragments very common way to accidentally make code vulnerable to malicious data This type is an instance of IsString so the easiest way to construct query is to enable the OverloadedStrings language extension and then simply write the query in double quotes LANGUAGE OverloadedStrings import Data.Text.Format Format hello The underlying type is Text so literal Haskell strings that contain Unicode characters will be correctly handled",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "Format",
           "package": "text-format",
@@ -432,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this \u003ccode\u003enewtype\u003c/code\u003e wrapper for your single parameter if you are\n formatting a string containing exactly one substitution site.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "Only",
           "package": "text-format",
@@ -441,6 +470,7 @@
         "index": {
           "description": "Use this newtype wrapper for your single parameter if you are formatting string containing exactly one substitution site",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "Only",
           "package": "text-format",
@@ -455,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a value using its \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "Shown",
           "package": "text-format",
@@ -464,6 +495,7 @@
         "index": {
           "description": "Render value using its Show instance",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "Shown",
           "package": "text-format",
@@ -478,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a format string and arguments to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "build",
           "package": "text-format",
@@ -488,6 +521,7 @@
         "index": {
           "description": "Render format string and arguments to Builder",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "build",
           "normalized": "Format-\u003ea-\u003eBuilder",
@@ -503,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using scientific/engineering\n notation (e.g. \u003ccode\u003e2.3e123\u003c/code\u003e), with the given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "expt",
           "package": "text-format",
@@ -512,6 +547,7 @@
         "index": {
           "description": "Render floating point number using scientific engineering notation e.g e123 with the given number of decimal places",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "expt",
           "normalized": "Int-\u003ea-\u003eBuilder",
@@ -527,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using normal notation, with the\n given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "fixed",
           "package": "text-format",
@@ -536,6 +573,7 @@
         "index": {
           "description": "Render floating point number using normal notation with the given number of decimal places",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "fixed",
           "normalized": "Int-\u003ea-\u003eBuilder",
@@ -551,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a format string and arguments to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "format",
           "package": "text-format",
@@ -561,6 +600,7 @@
         "index": {
           "description": "Render format string and arguments to Text",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "format",
           "normalized": "Format-\u003ea-\u003eText",
@@ -576,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an integer using hexadecimal notation.  (No leading \u003ca\u003e0x\u003c/a\u003e\n is added.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "hex",
           "package": "text-format",
@@ -586,6 +627,7 @@
         "index": {
           "description": "Render an integer using hexadecimal notation No leading is added",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "hex",
           "normalized": "a-\u003eBuilder",
@@ -601,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a format string and arguments, then print the result to\n the given file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "hprint",
           "package": "text-format",
@@ -611,6 +654,7 @@
         "index": {
           "description": "Render format string and arguments then print the result to the given file handle",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "hprint",
           "normalized": "Handle-\u003eFormat-\u003ea-\u003eb()",
@@ -626,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the left hand side of a string until it reaches \u003ccode\u003ek\u003c/code\u003e\n characters wide, if necessary filling with character \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "left",
           "package": "text-format",
@@ -636,6 +681,7 @@
         "index": {
           "description": "Pad the left hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "left",
           "normalized": "Int-\u003eChar-\u003ea-\u003eBuilder",
@@ -651,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number, with the given number of digits\n of precision.  Uses decimal notation for values between \u003ccode\u003e0.1\u003c/code\u003e and\n \u003ccode\u003e9,999,999\u003c/code\u003e, and scientific notation otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "prec",
           "package": "text-format",
@@ -660,6 +707,7 @@
         "index": {
           "description": "Render floating point number with the given number of digits of precision Uses decimal notation for values between and and scientific notation otherwise",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "prec",
           "normalized": "Int-\u003ea-\u003eBuilder",
@@ -675,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a format string and arguments, then print the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "print",
           "package": "text-format",
@@ -685,6 +734,7 @@
         "index": {
           "description": "Render format string and arguments then print the result",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "print",
           "normalized": "Format-\u003ea-\u003eb()",
@@ -700,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the right hand side of a string until it reaches \u003ccode\u003ek\u003c/code\u003e\n characters wide, if necessary filling with character \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "right",
           "package": "text-format",
@@ -710,6 +761,7 @@
         "index": {
           "description": "Pad the right hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "right",
           "normalized": "Int-\u003eChar-\u003ea-\u003eBuilder",
@@ -725,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using the smallest number of\n digits that correctly represent it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:12 UTC 2014",
           "module": "Data.Text.Format",
           "name": "shortest",
           "package": "text-format",
@@ -735,6 +788,7 @@
         "index": {
           "description": "Render floating point number using the smallest number of digits that correctly represent it",
           "hierarchy": "Data Text Format",
+          "indexed": "2014-03-11T20:20:12",
           "module": "Data.Text.Format",
           "name": "shortest",
           "normalized": "a-\u003eBuilder",

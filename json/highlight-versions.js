@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "highlight-versions"
+        "phrase": "highlight-versions",
+        "type": "phrase"
       },
       "type": "context"
     }

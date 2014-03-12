@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TableAlgebra"
+        "phrase": "TableAlgebra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "XML",
           "package": "TableAlgebra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "XML",
           "package": "TableAlgebra",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "ColName",
           "package": "TableAlgebra",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "ColName",
           "package": "TableAlgebra",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "Dictionary",
           "package": "TableAlgebra",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "Dictionary",
           "package": "TableAlgebra",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "Graph",
           "package": "TableAlgebra",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "Graph",
           "package": "TableAlgebra",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "GraphNode",
           "package": "TableAlgebra",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "GraphNode",
           "package": "TableAlgebra",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "XML",
           "package": "TableAlgebra",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "XML",
           "package": "TableAlgebra",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "XMLNode",
           "package": "TableAlgebra",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "XMLNode",
           "package": "TableAlgebra",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "addNodeTrans",
           "package": "TableAlgebra",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "addNodeTrans",
           "normalized": "GraphNode-\u003eXMLNode-\u003eXML()",
@@ -190,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an attribute for an xml node, attrname = n and its value is v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "attr",
           "package": "TableAlgebra",
@@ -200,6 +217,7 @@
         "index": {
           "description": "Construct an attribute for an xml node attrname and its value is",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "attr",
           "normalized": "String-\u003eString-\u003eAttribute",
@@ -215,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach list of attributes to an xml element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "attrsOf",
           "package": "TableAlgebra",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Attach list of attributes to an xml element",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "attrsOf",
           "normalized": "[Attribute]-\u003eElement()-\u003eElement()",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChilds of takes a list of xml elements, and nests them in the xml element given as a second argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "childsOf",
           "package": "TableAlgebra",
@@ -251,6 +272,7 @@
         "index": {
           "description": "Childs of takes list of xml elements and nests them in the xml element given as second argument",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "childsOf",
           "normalized": "[Element()]-\u003eElement()-\u003eElement()",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a column with name n, and new status v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "column",
           "package": "TableAlgebra",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Construct column with name and new status",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "column",
           "normalized": "String-\u003eBool-\u003eElement()",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a content node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "contentNode",
           "package": "TableAlgebra",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Construct content node",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "contentNode",
           "normalized": "Element()",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData child of takes some data that can be printed and adds that as child to the xml element given as second argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "dataChildOf",
           "package": "TableAlgebra",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Data child of takes some data that can be printed and adds that as child to the xml element given as second argument",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "dataChildOf",
           "normalized": "a-\u003eElement()-\u003eElement()",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "debugEnabled",
           "package": "TableAlgebra",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "debugEnabled",
           "package": "TableAlgebra",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "document",
           "package": "TableAlgebra",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "document",
           "normalized": "Document a-\u003eDoc",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "freshId",
           "package": "TableAlgebra",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "freshId",
           "package": "TableAlgebra",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "getNode",
           "package": "TableAlgebra",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "getNode",
           "normalized": "Int-\u003eXML Algebra",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "getTags",
           "package": "TableAlgebra",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "getTags",
           "normalized": "GraphNode-\u003eXML(Maybe[String])",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "isDefined",
           "package": "TableAlgebra",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "isDefined",
           "normalized": "GraphNode-\u003eXML(Maybe XMLNode)",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "iterCol",
           "package": "TableAlgebra",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "iterCol",
           "normalized": "Element()",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "mkPlanBundle",
           "package": "TableAlgebra",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "mkPlanBundle",
           "normalized": "[Element()]-\u003eElement()",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "mkQueryPlan",
           "package": "TableAlgebra",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "mkQueryPlan",
           "normalized": "Maybe(Int,Int)-\u003eElement()-\u003e[Element()]-\u003eXML Int",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "mkXMLDocument",
           "package": "TableAlgebra",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "mkXMLDocument",
           "normalized": "Element()-\u003eDocument()",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an algebraic node with id xId and of kind t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "node",
           "package": "TableAlgebra",
@@ -589,6 +638,7 @@
         "index": {
           "description": "Construct an algebraic node with id xId and of kind",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "node",
           "normalized": "XMLNode-\u003eString-\u003eElement()",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "posCol",
           "package": "TableAlgebra",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "posCol",
           "normalized": "Element()",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "runXML",
           "package": "TableAlgebra",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "runXML",
           "normalized": "Bool-\u003eMap AlgNode Algebra-\u003eMap AlgNode[String]-\u003eXML a-\u003e[Element()]",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "serializeAlgebra",
           "package": "TableAlgebra",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "serializeAlgebra",
           "normalized": "[Element()]-\u003eGraphNode-\u003eXML XMLNode",
@@ -675,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "stringChildOf",
           "package": "TableAlgebra",
@@ -684,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "stringChildOf",
           "normalized": "String-\u003eElement()-\u003eElement()",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML element representing a type              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "typeN",
           "package": "TableAlgebra",
@@ -710,6 +769,7 @@
         "index": {
           "description": "XML element representing type",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "typeN",
           "normalized": "ATy-\u003eElement()",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an xml tag with name n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "xmlElem",
           "package": "TableAlgebra",
@@ -735,6 +796,7 @@
         "index": {
           "description": "Construct an xml tag with name",
           "hierarchy": "Database Ferry Algebra Render XML",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra.Render.XML",
           "name": "xmlElem",
           "normalized": "String-\u003eElement()",
@@ -751,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides a convenient interface to construct Table Algebra\nplans that can be dealt with by Pathfinder\n(http:\u003cem/\u003ewww-db.informatik.uni-tuebingen.de\u003cem\u003eresearch\u003c/em\u003epathfinder). \nA describtion of the algebra can be found at: \nhttp:\u003cem/\u003edbworld.informatik.uni-tuebingen.de\u003cem\u003eprojects\u003c/em\u003epathfinder\u003cem\u003ewiki\u003c/em\u003eLogical_Algebra\nThis module only provides a subset of the complete algebra.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Algebra",
           "package": "TableAlgebra",
@@ -760,6 +823,7 @@
         "index": {
           "description": "This package provides convenient interface to construct Table Algebra plans that can be dealt with by Pathfinder http www-db.informatik.uni-tuebingen.de research pathfinder describtion of the algebra can be found at http dbworld.informatik.uni-tuebingen.de projects pathfinder wiki Logical Algebra This module only provides subset of the complete algebra",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Algebra",
           "package": "TableAlgebra",
@@ -774,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlgebraic types\n  At this level we do not have any structural types anymore\n  those are represented by columns. ASur is used for surrogate\n  values that occur for nested lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "ATy",
           "package": "TableAlgebra",
@@ -783,6 +848,7 @@
         "index": {
           "description": "Algebraic types At this level we do not have any structural types anymore those are represented by columns ASur is used for surrogate values that occur for nested lists",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "ATy",
           "package": "TableAlgebra",
@@ -797,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around values that can occur in an algebraic plan                  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "AVal",
           "package": "TableAlgebra",
@@ -806,6 +873,7 @@
         "index": {
           "description": "Wrapper around values that can occur in an algebraic plan",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "AVal",
           "package": "TableAlgebra",
@@ -819,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "AggrType",
           "package": "TableAlgebra",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "AggrType",
           "package": "TableAlgebra",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "AlgNode",
           "package": "TableAlgebra",
@@ -848,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "AlgNode",
           "package": "TableAlgebra",
@@ -862,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn algebraic plan is the result of constructing a graph.\n | The pair consists of the mapping from nodes to their respective ids\n | and the algres from the top node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "AlgPlan",
           "package": "TableAlgebra",
@@ -871,6 +944,7 @@
         "index": {
           "description": "An algebraic plan is the result of constructing graph The pair consists of the mapping from nodes to their respective ids and the algres from the top node",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "AlgPlan",
           "package": "TableAlgebra",
@@ -885,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe column data type is used to represent the table structure while\n  compiling ferry core into an algebraic plan\n  The col column contains the column number and the type of its contents\n  The NCol column is used to group columns that together form an element of a record\n , its string argument is used to represent the field name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Column",
           "package": "TableAlgebra",
@@ -894,6 +969,7 @@
         "index": {
           "description": "The column data type is used to represent the table structure while compiling ferry core into an algebraic plan The col column contains the column number and the type of its contents The NCol column is used to group columns that together form an element of record its string argument is used to represent the field name",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Column",
           "package": "TableAlgebra",
@@ -908,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne table can have multiple columns     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Columns",
           "package": "TableAlgebra",
@@ -917,6 +994,7 @@
         "index": {
           "description": "One table can have multiple columns",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Columns",
           "package": "TableAlgebra",
@@ -931,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable environemtn mapping from variables to compiled nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Gam",
           "package": "TableAlgebra",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "Variable environemtn mapping from variables to compiled nodes",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Gam",
           "package": "TableAlgebra",
@@ -954,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraphs are constructed in a monadic environment.\n | The graph constructed has to be a DAG.\n | The reader monad provides access to the variable environment Gamma and the loop table\n | The variable environment is a mapping from variable names to graphnodes that represent\n | their compiled form.\n | The state monad gives access to a supply of fresh variables, and maintains a map from\n | nodes to node ids. When a node is inserted and an equal node (equal means, equal node \n | and equal child nodes) already exists in the map the node id for that already existing\n | node is returned. This allows maximal sharing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "GraphM",
           "package": "TableAlgebra",
@@ -963,6 +1044,7 @@
         "index": {
           "description": "Graphs are constructed in monadic environment The graph constructed has to be DAG The reader monad provides access to the variable environment Gamma and the loop table The variable environment is mapping from variable names to graphnodes that represent their compiled form The state monad gives access to supply of fresh variables and maintains map from nodes to node ids When node is inserted and an equal node equal means equal node and equal child nodes already exists in the map the node id for that already existing node is returned This allows maximal sharing",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "GraphM",
           "package": "TableAlgebra",
@@ -977,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "KeyInfos",
           "package": "TableAlgebra",
@@ -986,6 +1069,7 @@
         "index": {
           "description": "Multiple keys",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "KeyInfos",
           "package": "TableAlgebra",
@@ -1000,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProjection information, a list of new attribute names, and their old names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "ProjInf",
           "package": "TableAlgebra",
@@ -1009,6 +1094,7 @@
         "index": {
           "description": "Projection information list of new attribute names and their old names",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "ProjInf",
           "package": "TableAlgebra",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "ProjPair",
           "package": "TableAlgebra",
@@ -1030,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "ProjPair",
           "package": "TableAlgebra",
@@ -1044,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchema information, represents a table structure, the first element of the tuple is the column name the second its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "SchemaInfos",
           "package": "TableAlgebra",
@@ -1053,6 +1142,7 @@
         "index": {
           "description": "Schema information represents table structure the first element of the tuple is the column name the second its type",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "SchemaInfos",
           "package": "TableAlgebra",
@@ -1067,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorting rows in a direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "SortDir",
           "package": "TableAlgebra",
@@ -1076,6 +1167,7 @@
         "index": {
           "description": "Sorting rows in direction",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "SortDir",
           "package": "TableAlgebra",
@@ -1089,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "ABool",
           "package": "TableAlgebra",
@@ -1098,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "ABool",
           "package": "TableAlgebra",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "ADec",
           "package": "TableAlgebra",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "ADec",
           "package": "TableAlgebra",
@@ -1133,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "ADouble",
           "package": "TableAlgebra",
@@ -1142,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "ADouble",
           "package": "TableAlgebra",
@@ -1155,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "AInt",
           "package": "TableAlgebra",
@@ -1164,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "AInt",
           "package": "TableAlgebra",
@@ -1177,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "ANat",
           "package": "TableAlgebra",
@@ -1186,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "ANat",
           "package": "TableAlgebra",
@@ -1199,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "AStr",
           "package": "TableAlgebra",
@@ -1208,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "AStr",
           "package": "TableAlgebra",
@@ -1221,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "ASur",
           "package": "TableAlgebra",
@@ -1230,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "ASur",
           "package": "TableAlgebra",
@@ -1243,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "All",
           "package": "TableAlgebra",
@@ -1252,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "All",
           "package": "TableAlgebra",
@@ -1265,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Asc",
           "package": "TableAlgebra",
@@ -1274,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Asc",
           "package": "TableAlgebra",
@@ -1287,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Avg",
           "package": "TableAlgebra",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Avg",
           "package": "TableAlgebra",
@@ -1309,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Col",
           "package": "TableAlgebra",
@@ -1318,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Col",
           "normalized": "Int-\u003eATy-\u003eColumn",
@@ -1333,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Count",
           "package": "TableAlgebra",
@@ -1342,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Count",
           "package": "TableAlgebra",
@@ -1355,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Desc",
           "package": "TableAlgebra",
@@ -1364,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Desc",
           "package": "TableAlgebra",
@@ -1377,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Dist",
           "package": "TableAlgebra",
@@ -1386,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Dist",
           "package": "TableAlgebra",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Max",
           "package": "TableAlgebra",
@@ -1408,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Max",
           "package": "TableAlgebra",
@@ -1421,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Min",
           "package": "TableAlgebra",
@@ -1430,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Min",
           "package": "TableAlgebra",
@@ -1443,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "NCol",
           "package": "TableAlgebra",
@@ -1452,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "NCol",
           "normalized": "String-\u003eColumns-\u003eColumn",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Prod",
           "package": "TableAlgebra",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Prod",
           "package": "TableAlgebra",
@@ -1489,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "Sum",
           "package": "TableAlgebra",
@@ -1498,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "Sum",
           "package": "TableAlgebra",
@@ -1512,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply aggregate functions to a plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "aggr",
           "package": "TableAlgebra",
@@ -1522,6 +1653,7 @@
         "index": {
           "description": "Apply aggregate functions to plan",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "aggr",
           "normalized": "[(AggrType,ResAttrName,Maybe AttrName)]-\u003eMaybe PartAttrName-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -1537,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply aggregate functions to a plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "aggrM",
           "package": "TableAlgebra",
@@ -1547,6 +1680,7 @@
         "index": {
           "description": "Apply aggregate functions to plan",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "aggrM",
           "normalized": "[(AggrType,ResAttrName,Maybe AttrName)]-\u003eMaybe PartAttrName-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -1562,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach a column \u003ccode\u003eResAttrName\u003c/code\u003e of type \u003ccode\u003e\u003ca\u003eATy\u003c/a\u003e\u003c/code\u003e with value\n \u003ccode\u003e\u003ca\u003eAVal\u003c/a\u003e\u003c/code\u003e in all rows to table \u003ccode\u003e\u003ca\u003eAlgNode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "attach",
           "package": "TableAlgebra",
@@ -1572,6 +1707,7 @@
         "index": {
           "description": "Attach column ResAttrName of type ATy with value AVal in all rows to table AlgNode",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "attach",
           "normalized": "ResAttrName-\u003eATy-\u003eAVal-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -1587,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach a column \u003ccode\u003eResAttrName\u003c/code\u003e of type \u003ccode\u003e\u003ca\u003eATy\u003c/a\u003e\u003c/code\u003e with value\n \u003ccode\u003e\u003ca\u003eAVal\u003c/a\u003e\u003c/code\u003e in all rows to table \u003ccode\u003e\u003ca\u003eAlgNode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "attachM",
           "package": "TableAlgebra",
@@ -1597,6 +1734,7 @@
         "index": {
           "description": "Attach column ResAttrName of type ATy with value AVal in all rows to table AlgNode",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "attachM",
           "normalized": "ResAttrName-\u003eATy-\u003eAVal-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -1612,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an algebraic boolean value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "bool",
           "package": "TableAlgebra",
@@ -1622,6 +1761,7 @@
         "index": {
           "description": "Create an algebraic boolean value",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "bool",
           "normalized": "Bool-\u003eAVal",
@@ -1637,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of algebraic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "boolT",
           "package": "TableAlgebra",
@@ -1647,6 +1788,7 @@
         "index": {
           "description": "Types of algebraic values",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "boolT",
           "package": "TableAlgebra",
@@ -1660,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast column \u003ccode\u003eAttrName\u003c/code\u003e to type \u003ccode\u003e\u003ca\u003eATy\u003c/a\u003e\u003c/code\u003e and give it the name \n  \u003ccode\u003eResAttrName\u003c/code\u003e afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "cast",
           "package": "TableAlgebra",
@@ -1670,6 +1813,7 @@
         "index": {
           "description": "Cast column AttrName to type ATy and give it the name ResAttrName afterwards",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "cast",
           "normalized": "AttrName-\u003eResAttrName-\u003eATy-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -1685,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast column \u003ccode\u003eAttrName\u003c/code\u003e to type \u003ccode\u003e\u003ca\u003eATy\u003c/a\u003e\u003c/code\u003e and give it the name \n  \u003ccode\u003eResAttrName\u003c/code\u003e afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "castM",
           "package": "TableAlgebra",
@@ -1695,6 +1840,7 @@
         "index": {
           "description": "Cast column AttrName to type ATy and give it the name ResAttrName afterwards",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "castM",
           "normalized": "AttrName-\u003eResAttrName-\u003eATy-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -1710,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake cross product from two plans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "cross",
           "package": "TableAlgebra",
@@ -1720,6 +1867,7 @@
         "index": {
           "description": "Make cross product from two plans",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "cross",
           "normalized": "AlgNode-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -1735,6 +1883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake cross product from two plans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "crossM",
           "package": "TableAlgebra",
@@ -1745,6 +1894,7 @@
         "index": {
           "description": "Make cross product from two plans",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "crossM",
           "normalized": "GraphM a AlgNode-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -1760,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a database table node\n The first argument is the emph{qualified} name of the database\n table. The second describes the columns in alphabetical order.\n The third argument describes the database keys (one table key can\n span over multiple columns).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "dbTable",
           "package": "TableAlgebra",
@@ -1770,6 +1921,7 @@
         "index": {
           "description": "Construct database table node The first argument is the emph qualified name of the database table The second describes the columns in alphabetical order The third argument describes the database keys one table key can span over multiple columns",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "dbTable",
           "normalized": "String-\u003eColumns-\u003eKeyInfos-\u003eGraphM a AlgNode",
@@ -1786,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the difference between two plans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "difference",
           "package": "TableAlgebra",
@@ -1796,6 +1949,7 @@
         "index": {
           "description": "Compute the difference between two plans",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "difference",
           "normalized": "AlgNode-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -1811,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the difference between two plans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "differenceM",
           "package": "TableAlgebra",
@@ -1821,6 +1976,7 @@
         "index": {
           "description": "Compute the difference between two plans",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "differenceM",
           "normalized": "GraphM a AlgNode-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -1836,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove duplicate rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "distinct",
           "package": "TableAlgebra",
@@ -1846,6 +2003,7 @@
         "index": {
           "description": "Remove duplicate rows",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "distinct",
           "normalized": "AlgNode-\u003eGraphM a AlgNode",
@@ -1861,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove duplicate rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "distinctM",
           "package": "TableAlgebra",
@@ -1871,6 +2030,7 @@
         "index": {
           "description": "Remove duplicate rows",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "distinctM",
           "normalized": "GraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -1886,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an algebraic double value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "double",
           "package": "TableAlgebra",
@@ -1896,6 +2057,7 @@
         "index": {
           "description": "Create an algebraic double value",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "double",
           "normalized": "Double-\u003eAVal",
@@ -1911,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of algebraic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "doubleT",
           "package": "TableAlgebra",
@@ -1921,6 +2084,7 @@
         "index": {
           "description": "Types of algebraic values",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "doubleT",
           "package": "TableAlgebra",
@@ -1934,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an empty table node with \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "emptyTable",
           "package": "TableAlgebra",
@@ -1944,6 +2109,7 @@
         "index": {
           "description": "Construct an empty table node with",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "emptyTable",
           "normalized": "SchemaInfos-\u003eGraphM a AlgNode",
@@ -1960,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin two plans where the columns n1 of table 1 and columns n2 of table\n  2 are equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "eqJoin",
           "package": "TableAlgebra",
@@ -1970,6 +2137,7 @@
         "index": {
           "description": "Join two plans where the columns n1 of table and columns n2 of table are equal",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "eqJoin",
           "normalized": "String-\u003eString-\u003eAlgNode-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -1986,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin two plans where the columns n1 of table 1 and columns n2 of table\n  2 are equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "eqJoinM",
           "package": "TableAlgebra",
@@ -1996,6 +2165,7 @@
         "index": {
           "description": "Join two plans where the columns n1 of table and columns n2 of table are equal",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "eqJoinM",
           "normalized": "String-\u003eString-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2012,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as eqJoin but with multiple columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "eqTJoin",
           "package": "TableAlgebra",
@@ -2022,6 +2193,7 @@
         "index": {
           "description": "The same as eqJoin but with multiple columns",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "eqTJoin",
           "normalized": "[(String,String)]-\u003eProjInf-\u003eAlgNode-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2038,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as eqJoin but with multiple columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "eqTJoinM",
           "package": "TableAlgebra",
@@ -2048,6 +2221,7 @@
         "index": {
           "description": "The same as eqJoin but with multiple columns",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "eqTJoinM",
           "normalized": "[(String,String)]-\u003eProjInf-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2064,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a variable in the environment                     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "fromGam",
           "package": "TableAlgebra",
@@ -2074,6 +2249,7 @@
         "index": {
           "description": "Lookup variable in the environment",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "fromGam",
           "normalized": "String-\u003eGraphM a a",
@@ -2090,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current variable environment            \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "getGamma",
           "package": "TableAlgebra",
@@ -2100,6 +2277,7 @@
         "index": {
           "description": "Get the current variable environment",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "getGamma",
           "package": "TableAlgebra",
@@ -2114,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current loop table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "getLoop",
           "package": "TableAlgebra",
@@ -2124,6 +2303,7 @@
         "index": {
           "description": "Get the current loop table",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "getLoop",
           "package": "TableAlgebra",
@@ -2138,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for the initial loop condition used by Ferry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "initLoop",
           "package": "TableAlgebra",
@@ -2148,6 +2329,7 @@
         "index": {
           "description": "Shorthand for the initial loop condition used by Ferry",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "initLoop",
           "package": "TableAlgebra",
@@ -2162,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an algebraic int value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "int",
           "package": "TableAlgebra",
@@ -2172,6 +2355,7 @@
         "index": {
           "description": "Create an algebraic int value",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "int",
           "normalized": "Integer-\u003eAVal",
@@ -2187,6 +2371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of algebraic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "intT",
           "package": "TableAlgebra",
@@ -2197,6 +2382,7 @@
         "index": {
           "description": "Types of algebraic values",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "intT",
           "package": "TableAlgebra",
@@ -2210,6 +2396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a table with one value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "litTable",
           "package": "TableAlgebra",
@@ -2220,6 +2407,7 @@
         "index": {
           "description": "Construct table with one value",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "litTable",
           "normalized": "AVal-\u003eString-\u003eATy-\u003eGraphM a AlgNode",
@@ -2235,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "litTable'",
           "package": "TableAlgebra",
@@ -2244,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "litTable'",
           "normalized": "[[AVal]]-\u003e[(String,ATy)]-\u003eGraphM a AlgNode",
@@ -2260,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an algebraic nat value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "nat",
           "package": "TableAlgebra",
@@ -2270,6 +2461,7 @@
         "index": {
           "description": "Create an algebraic nat value",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "nat",
           "normalized": "Integer-\u003eAVal",
@@ -2285,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of algebraic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "natT",
           "package": "TableAlgebra",
@@ -2295,6 +2488,7 @@
         "index": {
           "description": "Types of algebraic values",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "natT",
           "package": "TableAlgebra",
@@ -2308,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate the boolen value in column n and store it in column r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "notC",
           "package": "TableAlgebra",
@@ -2318,6 +2513,7 @@
         "index": {
           "description": "Negate the boolen value in column and store it in column",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "notC",
           "normalized": "AttrName-\u003eAttrName-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2333,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate the boolen value in column n and store it in column r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "notM",
           "package": "TableAlgebra",
@@ -2343,6 +2540,7 @@
         "index": {
           "description": "Negate the boolen value in column and store it in column",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "notM",
           "normalized": "AttrName-\u003eAttrName-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2358,6 +2556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an operator to the element in \u003ccode\u003eLeftAttrName\u003c/code\u003e and \u003ccode\u003eRightAttrName\u003c/code\u003e,\n store the result in \u003ccode\u003eResAttrName\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "oper",
           "package": "TableAlgebra",
@@ -2368,6 +2567,7 @@
         "index": {
           "description": "Apply an operator to the element in LeftAttrName and RightAttrName store the result in ResAttrName",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "oper",
           "normalized": "String-\u003eResAttrName-\u003eLeftAttrName-\u003eRightAttrName-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2383,6 +2583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an operator to the element in \u003ccode\u003eLeftAttrName\u003c/code\u003e and \u003ccode\u003eRightAttrName\u003c/code\u003e,\n store the result in \u003ccode\u003eResAttrName\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "operM",
           "package": "TableAlgebra",
@@ -2393,6 +2594,7 @@
         "index": {
           "description": "Apply an operator to the element in LeftAttrName and RightAttrName store the result in ResAttrName",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "operM",
           "normalized": "String-\u003eResAttrName-\u003eLeftAttrName-\u003eRightAttrName-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2408,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet's the nth element(s) of a (partitioned) table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "posSelect",
           "package": "TableAlgebra",
@@ -2418,6 +2621,7 @@
         "index": {
           "description": "Get the nth element of partitioned table",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "posSelect",
           "normalized": "Int-\u003eSortInf-\u003eMaybe AttrName-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2434,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet's the nth element(s) of a (partitioned) table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "posSelectM",
           "package": "TableAlgebra",
@@ -2444,6 +2649,7 @@
         "index": {
           "description": "Get the nth element of partitioned table",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "posSelectM",
           "normalized": "Int-\u003eSortInf-\u003eMaybe AttrName-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2460,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject/rename certain column out of a plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "proj",
           "package": "TableAlgebra",
@@ -2470,6 +2677,7 @@
         "index": {
           "description": "Project rename certain column out of plan",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "proj",
           "normalized": "ProjInf-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2485,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject/rename certain column out of a plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "projM",
           "package": "TableAlgebra",
@@ -2495,6 +2704,7 @@
         "index": {
           "description": "Project rename certain column out of plan",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "projM",
           "normalized": "ProjInf-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2510,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a number to each row in column \u003ccode\u003eResAttrName\u003c/code\u003e incrementing\n sorted by \u003ccode\u003eSortInf\u003c/code\u003e. The numbering is not dense!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "rank",
           "package": "TableAlgebra",
@@ -2520,6 +2731,7 @@
         "index": {
           "description": "Assign number to each row in column ResAttrName incrementing sorted by SortInf The numbering is not dense",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "rank",
           "normalized": "ResAttrName-\u003eSortInf-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2535,6 +2747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a number to each row in column \u003ccode\u003eResAttrName\u003c/code\u003e incrementing\n sorted by \u003ccode\u003eSortInf\u003c/code\u003e. The numbering is not dense!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "rankM",
           "package": "TableAlgebra",
@@ -2545,6 +2758,7 @@
         "index": {
           "description": "Assign number to each row in column ResAttrName incrementing sorted by SortInf The numbering is not dense",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "rankM",
           "normalized": "ResAttrName-\u003eSortInf-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2560,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to rowrank but this will assign a emph{unique} number to every row\n (even if two rows are equal)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "rownum",
           "package": "TableAlgebra",
@@ -2570,6 +2785,7 @@
         "index": {
           "description": "Similar to rowrank but this will assign emph unique number to every row even if two rows are equal",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "rownum",
           "normalized": "AttrName-\u003e[AttrName]-\u003eMaybe AttrName-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2585,6 +2801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as rownum but columns can be assigned an ordering direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "rownum'",
           "package": "TableAlgebra",
@@ -2595,6 +2812,7 @@
         "index": {
           "description": "Same as rownum but columns can be assigned an ordering direction",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "rownum'",
           "normalized": "AttrName-\u003e[(AttrName,SortDir)]-\u003eMaybe AttrName-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2610,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as rownum but columns can be assigned an ordering direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "rownum'M",
           "package": "TableAlgebra",
@@ -2620,6 +2839,7 @@
         "index": {
           "description": "Same as rownum but columns can be assigned an ordering direction",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "rownum'M",
           "normalized": "AttrName-\u003e[(AttrName,SortDir)]-\u003eMaybe AttrName-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2635,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to rowrank but this will assign a emph{unique} number to every row\n (even if two rows are equal)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "rownumM",
           "package": "TableAlgebra",
@@ -2645,6 +2866,7 @@
         "index": {
           "description": "Similar to rowrank but this will assign emph unique number to every row even if two rows are equal",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "rownumM",
           "normalized": "AttrName-\u003e[AttrName]-\u003eMaybe AttrName-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2660,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as rank but provides a dense numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "rowrank",
           "package": "TableAlgebra",
@@ -2670,6 +2893,7 @@
         "index": {
           "description": "Same as rank but provides dense numbering",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "rowrank",
           "normalized": "ResAttrName-\u003eSortInf-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2685,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as rank but provides a dense numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "rowrankM",
           "package": "TableAlgebra",
@@ -2695,6 +2920,7 @@
         "index": {
           "description": "Same as rank but provides dense numbering",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "rowrankM",
           "normalized": "ResAttrName-\u003eSortInf-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2710,6 +2936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the monadic graph into an algebraic plan, given a loop relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "runGraph",
           "package": "TableAlgebra",
@@ -2720,6 +2947,7 @@
         "index": {
           "description": "Evaluate the monadic graph into an algebraic plan given loop relation",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "runGraph",
           "normalized": "Algebra-\u003eGraphM a a-\u003eAlgPlan a",
@@ -2736,6 +2964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect rows where the column \u003ccode\u003eSelAttrName\u003c/code\u003e contains True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "select",
           "package": "TableAlgebra",
@@ -2746,6 +2975,7 @@
         "index": {
           "description": "Select rows where the column SelAttrName contains True",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "select",
           "normalized": "SelAttrName-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2761,6 +2991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect rows where the column \u003ccode\u003eSelAttrName\u003c/code\u003e contains True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "selectM",
           "package": "TableAlgebra",
@@ -2771,6 +3002,7 @@
         "index": {
           "description": "Select rows where the column SelAttrName contains True",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "selectM",
           "normalized": "SelAttrName-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2786,6 +3018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an algebraic string value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "string",
           "package": "TableAlgebra",
@@ -2796,6 +3029,7 @@
         "index": {
           "description": "Create an algebraic string value",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "string",
           "normalized": "String-\u003eAVal",
@@ -2811,6 +3045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of algebraic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "stringT",
           "package": "TableAlgebra",
@@ -2821,6 +3056,7 @@
         "index": {
           "description": "Types of algebraic values",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "stringT",
           "package": "TableAlgebra",
@@ -2834,6 +3070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of algebraic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "surT",
           "package": "TableAlgebra",
@@ -2844,6 +3081,7 @@
         "index": {
           "description": "Types of algebraic values",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "surT",
           "package": "TableAlgebra",
@@ -2857,6 +3095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag a subtree with a comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "tag",
           "package": "TableAlgebra",
@@ -2867,6 +3106,7 @@
         "index": {
           "description": "Tag subtree with comment",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "tag",
           "normalized": "String-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2882,6 +3122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag a subtree with a comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "tagM",
           "package": "TableAlgebra",
@@ -2892,6 +3133,7 @@
         "index": {
           "description": "Tag subtree with comment",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "tagM",
           "normalized": "String-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2907,6 +3149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion between two plans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "union",
           "package": "TableAlgebra",
@@ -2917,6 +3160,7 @@
         "index": {
           "description": "Union between two plans",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "union",
           "normalized": "AlgNode-\u003eAlgNode-\u003eGraphM a AlgNode",
@@ -2932,6 +3176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion between two plans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "unionM",
           "package": "TableAlgebra",
@@ -2942,6 +3187,7 @@
         "index": {
           "description": "Union between two plans",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "unionM",
           "normalized": "GraphM a AlgNode-\u003eGraphM a AlgNode-\u003eGraphM a AlgNode",
@@ -2957,6 +3203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the graph construction computation with the current environment extended with a binding n to v.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "withBinding",
           "package": "TableAlgebra",
@@ -2967,6 +3214,7 @@
         "index": {
           "description": "Evaluate the graph construction computation with the current environment extended with binding to",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "withBinding",
           "normalized": "String-\u003ea-\u003eGraphM a b-\u003eGraphM a b",
@@ -2983,6 +3231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the graph construction computation with a differnt gamma, \n | and loop table. Return within he current computational context.                     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:00 UTC 2014",
           "module": "Database.Ferry.Algebra",
           "name": "withContext",
           "package": "TableAlgebra",
@@ -2993,6 +3242,7 @@
         "index": {
           "description": "Evaluate the graph construction computation with differnt gamma and loop table Return within he current computational context",
           "hierarchy": "Database Ferry Algebra",
+          "indexed": "2014-03-11T17:02:00",
           "module": "Database.Ferry.Algebra",
           "name": "withContext",
           "normalized": "Gam a-\u003eAlgNode-\u003eGraphM a b-\u003eGraphM a b",

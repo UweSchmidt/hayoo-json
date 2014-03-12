@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hasloGUI"
+        "phrase": "hasloGUI",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hosc-utils"
+        "phrase": "hosc-utils",
+        "type": "phrase"
       },
       "type": "context"
     }

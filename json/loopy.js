@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "loopy"
+        "phrase": "loopy",
+        "type": "phrase"
       },
       "type": "context"
     }

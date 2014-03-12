@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DebugTraceHelpers"
+        "phrase": "DebugTraceHelpers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:32 UTC 2014",
           "module": "Debug.Trace.Helpers",
           "name": "Helpers",
           "package": "DebugTraceHelpers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace Helpers",
+          "indexed": "2014-03-11T16:38:32",
           "module": "Debug.Trace.Helpers",
           "name": "Helpers",
           "package": "DebugTraceHelpers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:32 UTC 2014",
           "module": "Debug.Trace.Helpers",
           "name": "dbgFile",
           "package": "DebugTraceHelpers",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace Helpers",
+          "indexed": "2014-03-11T16:38:32",
           "module": "Debug.Trace.Helpers",
           "name": "dbgFile",
           "normalized": "FilePath-\u003eString-\u003ea()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:32 UTC 2014",
           "module": "Debug.Trace.Helpers",
           "name": "traceIt",
           "package": "DebugTraceHelpers",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace Helpers",
+          "indexed": "2014-03-11T16:38:32",
           "module": "Debug.Trace.Helpers",
           "name": "traceIt",
           "normalized": "a-\u003ea",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:32 UTC 2014",
           "module": "Debug.Trace.Helpers",
           "name": "traceM",
           "package": "DebugTraceHelpers",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace Helpers",
+          "indexed": "2014-03-11T16:38:32",
           "module": "Debug.Trace.Helpers",
           "name": "traceM",
           "normalized": "String-\u003ea()",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:32 UTC 2014",
           "module": "Debug.Trace.Helpers",
           "name": "traceMsg",
           "package": "DebugTraceHelpers",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace Helpers",
+          "indexed": "2014-03-11T16:38:32",
           "module": "Debug.Trace.Helpers",
           "name": "traceMsg",
           "normalized": "[Char]-\u003ea-\u003ea",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:32 UTC 2014",
           "module": "Debug.Trace.Helpers",
           "name": "traceReadableMsg",
           "package": "DebugTraceHelpers",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace Helpers",
+          "indexed": "2014-03-11T16:38:32",
           "module": "Debug.Trace.Helpers",
           "name": "traceReadableMsg",
           "normalized": "[Char]-\u003ea-\u003ea",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:32 UTC 2014",
           "module": "Debug.Trace.Helpers",
           "name": "traceTrue",
           "package": "DebugTraceHelpers",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace Helpers",
+          "indexed": "2014-03-11T16:38:32",
           "module": "Debug.Trace.Helpers",
           "name": "traceTrue",
           "normalized": "a-\u003eBool",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:32 UTC 2014",
           "module": "Debug.Trace.Helpers",
           "name": "traceWith",
           "package": "DebugTraceHelpers",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace Helpers",
+          "indexed": "2014-03-11T16:38:32",
           "module": "Debug.Trace.Helpers",
           "name": "traceWith",
           "normalized": "(a-\u003eString)-\u003ea-\u003ea",

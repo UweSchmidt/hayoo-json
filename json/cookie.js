@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cookie"
+        "phrase": "cookie",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "Cookie",
           "package": "cookie",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "Cookie",
           "package": "cookie",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "Cookies",
           "package": "cookie",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "Cookies",
           "package": "cookie",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTextual cookies. Functions assume UTF8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "CookiesText",
           "package": "cookie",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Textual cookies Functions assume UTF8 encoding",
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "CookiesText",
           "package": "cookie",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "SetCookie",
           "package": "cookie",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "SetCookie",
           "package": "cookie",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "def",
           "package": "cookie",
@@ -114,6 +123,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "def",
           "package": "cookie",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "expiresFormat",
           "package": "cookie",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "expiresFormat",
           "package": "cookie",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e for a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "formatCookieExpires",
           "package": "cookie",
@@ -159,6 +172,7 @@
         "index": {
           "description": "Format UTCTime for cookie",
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "formatCookieExpires",
           "normalized": "UTCTime-\u003eByteString",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "parseCookieExpires",
           "package": "cookie",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "parseCookieExpires",
           "normalized": "ByteString-\u003eMaybe UTCTime",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the value of a \"Cookie\" request header into key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "parseCookies",
           "package": "cookie",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Decode the value of Cookie request header into key value pairs",
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "parseCookies",
           "normalized": "ByteString-\u003eCookies",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "parseCookiesText",
           "package": "cookie",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "parseCookiesText",
           "normalized": "ByteString-\u003eCookiesText",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "parseSetCookie",
           "package": "cookie",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "parseSetCookie",
           "normalized": "ByteString-\u003eSetCookie",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "renderCookies",
           "package": "cookie",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "renderCookies",
           "normalized": "Cookies-\u003eBuilder",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "renderCookiesText",
           "package": "cookie",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "renderCookiesText",
           "normalized": "CookiesText-\u003eBuilder",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "renderSetCookie",
           "package": "cookie",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "renderSetCookie",
           "normalized": "SetCookie-\u003eBuilder",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "setCookieDomain",
           "package": "cookie",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "setCookieDomain",
           "normalized": "SetCookie-\u003eMaybe ByteString",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "setCookieExpires",
           "package": "cookie",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "setCookieExpires",
           "normalized": "SetCookie-\u003eMaybe UTCTime",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "setCookieHttpOnly",
           "package": "cookie",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "setCookieHttpOnly",
           "normalized": "SetCookie-\u003eBool",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "setCookieMaxAge",
           "package": "cookie",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "setCookieMaxAge",
           "normalized": "SetCookie-\u003eMaybe DiffTime",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "setCookieName",
           "package": "cookie",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "setCookieName",
           "normalized": "SetCookie-\u003eByteString",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "setCookiePath",
           "package": "cookie",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "setCookiePath",
           "normalized": "SetCookie-\u003eMaybe ByteString",
@@ -488,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "setCookieSecure",
           "package": "cookie",
@@ -497,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "setCookieSecure",
           "normalized": "SetCookie-\u003eBool",
@@ -512,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:56 UTC 2014",
           "module": "Web.Cookie",
           "name": "setCookieValue",
           "package": "cookie",
@@ -521,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Web Cookie",
+          "indexed": "2014-03-11T17:40:56",
           "module": "Web.Cookie",
           "name": "setCookieValue",
           "normalized": "SetCookie-\u003eByteString",

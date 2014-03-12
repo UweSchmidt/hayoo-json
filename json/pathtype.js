@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pathtype"
+        "phrase": "pathtype",
+        "type": "phrase"
       },
       "type": "context"
     }

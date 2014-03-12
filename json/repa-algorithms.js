@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repa-algorithms"
+        "phrase": "repa-algorithms",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHyprometric color ramps, for making pretty images from scalar data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.ColorRamp",
           "name": "ColorRamp",
           "package": "repa-algorithms",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Hyprometric color ramps for making pretty images from scalar data",
           "hierarchy": "Data Array Repa Algorithms ColorRamp",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.ColorRamp",
           "name": "ColorRamp",
           "package": "repa-algorithms",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard Hot to Cold hypsometric color ramp.\n\tColor sequence is red, yellow, green, cyan, blue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.ColorRamp",
           "name": "rampColorHotToCold",
           "package": "repa-algorithms",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Standard Hot to Cold hypsometric color ramp Color sequence is red yellow green cyan blue",
           "hierarchy": "Data Array Repa Algorithms ColorRamp",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.ColorRamp",
           "name": "rampColorHotToCold",
           "normalized": "a-\u003ea-\u003ea-\u003e(a,a,a)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict complex doubles.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Complex",
           "name": "Complex",
           "package": "repa-algorithms",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Strict complex doubles",
           "hierarchy": "Data Array Repa Algorithms Complex",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Complex",
           "name": "Complex",
           "package": "repa-algorithms",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex doubles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Complex",
           "name": "Complex",
           "package": "repa-algorithms",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Complex doubles",
           "hierarchy": "Data Array Repa Algorithms Complex",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Complex",
           "name": "Complex",
           "package": "repa-algorithms",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the argument (phase) of a complex number, in the range [-pi .. pi].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Complex",
           "name": "arg",
           "package": "repa-algorithms",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Take the argument phase of complex number in the range pi pi",
           "hierarchy": "Data Array Repa Algorithms Complex",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Complex",
           "name": "arg",
           "normalized": "Complex-\u003eDouble",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the magnitude of a complex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Complex",
           "name": "mag",
           "package": "repa-algorithms",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Take the magnitude of complex number",
           "hierarchy": "Data Array Repa Algorithms Complex",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Complex",
           "name": "mag",
           "normalized": "Complex-\u003eDouble",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric stencil based convolutions. \n\u003c/p\u003e\u003cp\u003eIf your stencil fits within a 7x7 tile and is known at compile-time then using\n   then using the built-in stencil support provided by the main Repa package will\n   be 5-10x faster. \n\u003c/p\u003e\u003cp\u003eIf you have a larger stencil, the coefficients are not statically known, \n   or need more complex boundary handling than provided by the built-in functions,\n   then use this version instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "Convolve",
           "package": "repa-algorithms",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Generic stencil based convolutions If your stencil fits within x7 tile and is known at compile-time then using then using the built-in stencil support provided by the main Repa package will be faster If you have larger stencil the coefficients are not statically known or need more complex boundary handling than provided by the built-in functions then use this version instead",
           "hierarchy": "Data Array Repa Algorithms Convolve",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "Convolve",
           "package": "repa-algorithms",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that gets out of range elements from an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "GetOut",
           "package": "repa-algorithms",
@@ -195,6 +210,7 @@
         "index": {
           "description": "function that gets out of range elements from an image",
           "hierarchy": "Data Array Repa Algorithms Convolve",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "GetOut",
           "package": "repa-algorithms",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage-kernel convolution, \n   which takes a function specifying what value to use for out-of-range elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "convolveOutP",
           "package": "repa-algorithms",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Image-kernel convolution which takes function specifying what value to use for out-of-range elements",
           "hierarchy": "Data Array Repa Algorithms Convolve",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "convolveOutP",
           "normalized": "GetOut a-\u003eArray U DIM a-\u003eArray U DIM a-\u003eb(Array U DIM a)",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage-kernel convolution,\n   which takes a function specifying what value to return when the\n   kernel doesn't apply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "convolveP",
           "package": "repa-algorithms",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Image-kernel convolution which takes function specifying what value to return when the kernel doesn apply",
           "hierarchy": "Data Array Repa Algorithms Convolve",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "convolveP",
           "normalized": "(DIM-\u003ea)-\u003eArray U DIM a-\u003eArray U DIM a-\u003eb(Array U DIM a)",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the provided value for every out-of-range element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "outAs",
           "package": "repa-algorithms",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Use the provided value for every out-of-range element",
           "hierarchy": "Data Array Repa Algorithms Convolve",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "outAs",
           "normalized": "a-\u003eGetOut a",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the requested element is out of range use\n   the closest one from the real image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "outClamp",
           "package": "repa-algorithms",
@@ -294,6 +317,7 @@
         "index": {
           "description": "If the requested element is out of range use the closest one from the real image",
           "hierarchy": "Data Array Repa Algorithms Convolve",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Convolve",
           "name": "outClamp",
           "package": "repa-algorithms",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eApplying these transforms to the input of a DFT causes the output \n   to be centered so that the zero frequency is in the middle. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT.Center",
           "name": "Center",
           "package": "repa-algorithms",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Applying these transforms to the input of DFT causes the output to be centered so that the zero frequency is in the middle",
           "hierarchy": "Data Array Repa Algorithms DFT Center",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT.Center",
           "name": "Center",
           "package": "repa-algorithms",
@@ -331,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the centering transform to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT.Center",
           "name": "center1d",
           "package": "repa-algorithms",
@@ -341,6 +368,7 @@
         "index": {
           "description": "Apply the centering transform to vector",
           "hierarchy": "Data Array Repa Algorithms DFT Center",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT.Center",
           "name": "center1d",
           "normalized": "Array a DIM Complex-\u003eArray D DIM Complex",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the centering transform to a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT.Center",
           "name": "center2d",
           "package": "repa-algorithms",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Apply the centering transform to matrix",
           "hierarchy": "Data Array Repa Algorithms DFT Center",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT.Center",
           "name": "center2d",
           "normalized": "Array a DIM Complex-\u003eArray D DIM Complex",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the centering transform to a 3d array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT.Center",
           "name": "center3d",
           "package": "repa-algorithms",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Apply the centering transform to array",
           "hierarchy": "Data Array Repa Algorithms DFT Center",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT.Center",
           "name": "center3d",
           "normalized": "Array a DIM Complex-\u003eArray D DIM Complex",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculation of roots of unity for the forward and inverse DFT/FFT.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT.Roots",
           "name": "Roots",
           "package": "repa-algorithms",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Calculation of roots of unity for the forward and inverse DFT FFT",
           "hierarchy": "Data Array Repa Algorithms DFT Roots",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT.Roots",
           "name": "Roots",
           "package": "repa-algorithms",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate roots of unity for the inverse transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT.Roots",
           "name": "calcInverseRootsOfUnityP",
           "package": "repa-algorithms",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Calculate roots of unity for the inverse transform",
           "hierarchy": "Data Array Repa Algorithms DFT Roots",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT.Roots",
           "name": "calcInverseRootsOfUnityP",
           "normalized": "(a Int)-\u003eb(Array U(a Int)Complex)",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate roots of unity for the forward transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT.Roots",
           "name": "calcRootsOfUnityP",
           "package": "repa-algorithms",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Calculate roots of unity for the forward transform",
           "hierarchy": "Data Array Repa Algorithms DFT Roots",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT.Roots",
           "name": "calcRootsOfUnityP",
           "normalized": "(a Int)-\u003eb(Array U(a Int)Complex)",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute the Discrete Fourier Transform (DFT) along the low order dimension\n   of an array. \n\u003c/p\u003e\u003cp\u003eThis uses the naive algorithm and takes O(n^2) time. \n   However, you can transform an array with an arbitray extent, unlike with FFT which requires\n   each dimension to be a power of two.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003edft\u003c/code\u003e and \u003ccode\u003eidft\u003c/code\u003e functions also compute the roots of unity needed.\n   If you need to transform several arrays with the same extent then it is faster to\n   compute the roots once using \u003ccode\u003ecalcRootsOfUnity\u003c/code\u003e or \u003ccode\u003ecalcInverseRootsOfUnity\u003c/code\u003e, \n   then call \u003ccode\u003edftWithRoots\u003c/code\u003e directly.\n\u003c/p\u003e\u003cp\u003eYou can also compute single values of the transform using \u003ccode\u003edftWithRootsSingle\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "DFT",
           "package": "repa-algorithms",
@@ -488,6 +527,7 @@
         "index": {
           "description": "Compute the Discrete Fourier Transform DFT along the low order dimension of an array This uses the naive algorithm and takes time However you can transform an array with an arbitray extent unlike with FFT which requires each dimension to be power of two The dft and idft functions also compute the roots of unity needed If you need to transform several arrays with the same extent then it is faster to compute the roots once using calcRootsOfUnity or calcInverseRootsOfUnity then call dftWithRoots directly You can also compute single values of the transform using dftWithRootsSingle",
           "hierarchy": "Data Array Repa Algorithms DFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "DFT",
           "package": "repa-algorithms",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the DFT along the low order dimension of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "dftP",
           "package": "repa-algorithms",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Compute the DFT along the low order dimension of an array",
           "hierarchy": "Data Array Repa Algorithms DFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "dftP",
           "normalized": "Array U(a Int)Complex-\u003eb(Array U(a Int)Complex)",
@@ -527,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric function for computation of forward or inverse DFT.\n\tThis function is also useful if you transform many arrays with the same extent, \n\tand don't want to recompute the roots for each one.\n\tThe extent of the given roots must match that of the input array, else \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "dftWithRootsP",
           "package": "repa-algorithms",
@@ -536,6 +579,7 @@
         "index": {
           "description": "Generic function for computation of forward or inverse DFT This function is also useful if you transform many arrays with the same extent and don want to recompute the roots for each one The extent of the given roots must match that of the input array else error",
           "hierarchy": "Data Array Repa Algorithms DFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "dftWithRootsP",
           "normalized": "Array U(a Int)Complex-\u003eArray U(a Int)Complex-\u003eb(Array U(a Int)Complex)",
@@ -552,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a single value of the DFT.\n\tThe extent of the given roots must match that of the input array, else \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "dftWithRootsSingleS",
           "package": "repa-algorithms",
@@ -561,6 +606,7 @@
         "index": {
           "description": "Compute single value of the DFT The extent of the given roots must match that of the input array else error",
           "hierarchy": "Data Array Repa Algorithms DFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "dftWithRootsSingleS",
           "normalized": "Array U(a Int)Complex-\u003eArray U(a Int)Complex-\u003e(a Int)-\u003eComplex",
@@ -577,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the inverse DFT along the low order dimension of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "idftP",
           "package": "repa-algorithms",
@@ -587,6 +634,7 @@
         "index": {
           "description": "Compute the inverse DFT along the low order dimension of an array",
           "hierarchy": "Data Array Repa Algorithms DFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.DFT",
           "name": "idftP",
           "normalized": "Array U(a Int)Complex-\u003eb(Array U(a Int)Complex)",
@@ -602,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast computation of Discrete Fourier Transforms using the Cooley-Tuckey algorithm. \n   Time complexity is O(n log n) in the size of the input. \n\u003c/p\u003e\u003cp\u003eThis uses a naive divide-and-conquer algorithm, the absolute performance is about\n   50x slower than FFTW in estimate mode.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "FFT",
           "package": "repa-algorithms",
@@ -611,6 +660,7 @@
         "index": {
           "description": "Fast computation of Discrete Fourier Transforms using the Cooley-Tuckey algorithm Time complexity is log in the size of the input This uses naive divide-and-conquer algorithm the absolute performance is about slower than FFTW in estimate mode",
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "FFT",
           "package": "repa-algorithms",
@@ -624,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "Mode",
           "package": "repa-algorithms",
@@ -632,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "Mode",
           "package": "repa-algorithms",
@@ -645,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "Forward",
           "package": "repa-algorithms",
@@ -654,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "Forward",
           "package": "repa-algorithms",
@@ -667,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "Inverse",
           "package": "repa-algorithms",
@@ -676,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "Inverse",
           "package": "repa-algorithms",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "Reverse",
           "package": "repa-algorithms",
@@ -698,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "Reverse",
           "package": "repa-algorithms",
@@ -712,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the DFT of a vector. Array dimensions must be powers of two else \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "fft1dP",
           "package": "repa-algorithms",
@@ -722,6 +781,7 @@
         "index": {
           "description": "Compute the DFT of vector Array dimensions must be powers of two else error",
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "fft1dP",
           "normalized": "Mode-\u003eArray a DIM Complex-\u003eb(Array U DIM Complex)",
@@ -737,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the DFT of a matrix. Array dimensions must be powers of two else \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "fft2dP",
           "package": "repa-algorithms",
@@ -747,6 +808,7 @@
         "index": {
           "description": "Compute the DFT of matrix Array dimensions must be powers of two else error",
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "fft2dP",
           "normalized": "Mode-\u003eArray a DIM Complex-\u003eb(Array U DIM Complex)",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the DFT of a 3d array. Array dimensions must be powers of two else \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "fft3dP",
           "package": "repa-algorithms",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Compute the DFT of array Array dimensions must be powers of two else error",
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "fft3dP",
           "normalized": "Mode-\u003eArray a DIM Complex-\u003eb(Array U DIM Complex)",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is a power of two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "isPowerOfTwo",
           "package": "repa-algorithms",
@@ -797,6 +862,7 @@
         "index": {
           "description": "Check if an Int is power of two",
           "hierarchy": "Data Array Repa Algorithms FFT",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.FFT",
           "name": "isPowerOfTwo",
           "normalized": "Int-\u003eBool",
@@ -813,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlgorithms operating on matrices.\n\u003c/p\u003e\u003cp\u003eThese functions should give performance comparable with nested loop C\n   implementations. \n\u003c/p\u003e\u003cp\u003eIf you care deeply about runtime performance then you\n   may be better off using a binding to LAPACK, such as hvector.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "Matrix",
           "package": "repa-algorithms",
@@ -822,6 +889,7 @@
         "index": {
           "description": "Algorithms operating on matrices These functions should give performance comparable with nested loop implementations If you care deeply about runtime performance then you may be better off using binding to LAPACK such as hvector",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "Matrix",
           "package": "repa-algorithms",
@@ -836,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the column number of a rank-2 index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "col",
           "package": "repa-algorithms",
@@ -846,6 +915,7 @@
         "index": {
           "description": "Take the column number of rank-2 index",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "col",
           "normalized": "DIM-\u003eInt",
@@ -861,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix matrix multiply, in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "mmultP",
           "package": "repa-algorithms",
@@ -871,6 +942,7 @@
         "index": {
           "description": "Matrix matrix multiply in parallel",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "mmultP",
           "normalized": "Array U DIM Double-\u003eArray U DIM Double-\u003ea(Array U DIM Double)",
@@ -886,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix matrix multiply, sequentially.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "mmultS",
           "package": "repa-algorithms",
@@ -896,6 +969,7 @@
         "index": {
           "description": "Matrix matrix multiply sequentially",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "mmultS",
           "normalized": "Array U DIM Double-\u003eArray U DIM Double-\u003eArray U DIM Double",
@@ -911,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the row number of a rank-2 index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "row",
           "package": "repa-algorithms",
@@ -921,6 +996,7 @@
         "index": {
           "description": "Take the row number of rank-2 index",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "row",
           "normalized": "DIM-\u003eInt",
@@ -936,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the trace of a (square) 2D matrix, in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "trace2P",
           "package": "repa-algorithms",
@@ -946,6 +1023,7 @@
         "index": {
           "description": "Get the trace of square matrix in parallel",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "trace2P",
           "normalized": "Array U DIM Double-\u003ea Double",
@@ -961,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the trace of a (square) 2D matrix, sequentially.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "trace2S",
           "package": "repa-algorithms",
@@ -971,6 +1050,7 @@
         "index": {
           "description": "Get the trace of square matrix sequentially",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "trace2S",
           "normalized": "Array U DIM Double-\u003eDouble",
@@ -986,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a 2D matrix, in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "transpose2P",
           "package": "repa-algorithms",
@@ -996,6 +1077,7 @@
         "index": {
           "description": "Transpose matrix in parallel",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "transpose2P",
           "normalized": "Array U DIM Double-\u003ea(Array U DIM Double)",
@@ -1011,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a 2D matrix, sequentially.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "transpose2S",
           "package": "repa-algorithms",
@@ -1021,6 +1104,7 @@
         "index": {
           "description": "Transpose matrix sequentially",
           "hierarchy": "Data Array Repa Algorithms Matrix",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Matrix",
           "name": "transpose2S",
           "normalized": "Array U DIM Double-\u003eArray U DIM Double",
@@ -1036,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for converting pixel color values.\n\u003c/p\u003e\u003cp\u003eNOTE: These functions are not polymorphic in the Float type because\n       without assisatance, GHC does a bad job of converting Word8s \n       to and from floats. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "Pixel",
           "package": "repa-algorithms",
@@ -1045,6 +1130,7 @@
         "index": {
           "description": "Utilities for converting pixel color values NOTE These functions are not polymorphic in the Float type because without assisatance GHC does bad job of converting Word8s to and from floats",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "Pixel",
           "package": "repa-algorithms",
@@ -1059,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an RGB color to its luminance value. Result in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "doubleLuminanceOfRGB8",
           "package": "repa-algorithms",
@@ -1069,6 +1156,7 @@
         "index": {
           "description": "Convert an RGB color to its luminance value Result in the range",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "doubleLuminanceOfRGB8",
           "normalized": "(Word,Word,Word)-\u003eDouble",
@@ -1085,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the root mean square of an RGB color. Result is in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "doubleRmsOfRGB8",
           "package": "repa-algorithms",
@@ -1095,6 +1184,7 @@
         "index": {
           "description": "Compute the root mean square of an RGB color Result is in the range",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "doubleRmsOfRGB8",
           "normalized": "(Word,Word,Word)-\u003eFloat",
@@ -1111,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an RGB color to its luminance value. Result in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "floatLuminanceOfRGB8",
           "package": "repa-algorithms",
@@ -1121,6 +1212,7 @@
         "index": {
           "description": "Convert an RGB color to its luminance value Result in the range",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "floatLuminanceOfRGB8",
           "normalized": "(Word,Word,Word)-\u003eFloat",
@@ -1137,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the root mean square of an RGB color. Result is in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "floatRmsOfRGB8",
           "package": "repa-algorithms",
@@ -1147,6 +1240,7 @@
         "index": {
           "description": "Compute the root mean square of an RGB color Result is in the range",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "floatRmsOfRGB8",
           "normalized": "(Word,Word,Word)-\u003eFloat",
@@ -1163,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a tuple of color components to a RGB8 color. \n   Each of the source components should be in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "rgb8OfDouble",
           "package": "repa-algorithms",
@@ -1173,6 +1268,7 @@
         "index": {
           "description": "Promote tuple of color components to RGB8 color Each of the source components should be in the range",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "rgb8OfDouble",
           "normalized": "(Double,Double,Double)-\u003e(Word,Word,Word)",
@@ -1189,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a tuple of color components to a RGB8 color. \n   Each of the source components should be in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "rgb8OfFloat",
           "package": "repa-algorithms",
@@ -1199,6 +1296,7 @@
         "index": {
           "description": "Promote tuple of color components to RGB8 color Each of the source components should be in the range",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "rgb8OfFloat",
           "normalized": "(Float,Float,Float)-\u003e(Word,Word,Word)",
@@ -1215,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a value in the range [0..1] to a grey RGB8 color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "rgb8OfGreyDouble",
           "package": "repa-algorithms",
@@ -1225,6 +1324,7 @@
         "index": {
           "description": "Promote value in the range to grey RGB8 color",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "rgb8OfGreyDouble",
           "normalized": "Double-\u003e(Word,Word,Word)",
@@ -1241,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a value in the range [0..1] to a grey RGB8 color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "rgb8OfGreyFloat",
           "package": "repa-algorithms",
@@ -1251,6 +1352,7 @@
         "index": {
           "description": "Promote value in the range to grey RGB8 color",
           "hierarchy": "Data Array Repa Algorithms Pixel",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Pixel",
           "name": "rgb8OfGreyFloat",
           "normalized": "Float-\u003e(Word,Word,Word)",
@@ -1266,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "Randomish",
           "package": "repa-algorithms",
@@ -1274,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Algorithms Randomish",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "Randomish",
           "package": "repa-algorithms",
@@ -1288,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate some randomish doubles with terrible statistical properties.\n   This just takes randomish ints then scales them, so there's not much randomness in low-order bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "randomishDoubleArray",
           "package": "repa-algorithms",
@@ -1297,6 +1402,7 @@
         "index": {
           "description": "Generate some randomish doubles with terrible statistical properties This just takes randomish ints then scales them so there not much randomness in low-order bits",
           "hierarchy": "Data Array Repa Algorithms Randomish",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "randomishDoubleArray",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eInt-\u003eArray U a Double",
@@ -1313,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate some randomish doubles with terrible statistical properties.\n   This just takes randmish ints then scales them, so there's not much randomness in low-order bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "randomishDoubleVector",
           "package": "repa-algorithms",
@@ -1322,6 +1429,7 @@
         "index": {
           "description": "Generate some randomish doubles with terrible statistical properties This just takes randmish ints then scales them so there not much randomness in low-order bits",
           "hierarchy": "Data Array Repa Algorithms Randomish",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "randomishDoubleVector",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eInt-\u003eVector Double",
@@ -1338,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the ''minimal standard'' Lehmer generator to quickly generate some random\n   numbers with reasonable statistical properties. By ''reasonable'' we mean good\n   enough for games and test data, but not cryptography or anything where the\n   quality of the randomness really matters. \n\u003c/p\u003e\u003cp\u003eBy nature of the algorithm, the maximum value in the output is clipped\n   to (valMin + 2^31 - 1)\n\u003c/p\u003e\u003cp\u003eFrom ''Random Number Generators: Good ones are hard to find''\n   Stephen K. Park and Keith W. Miller.\n   Communications of the ACM, Oct 1988, Volume 31, Number 10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "randomishIntArray",
           "package": "repa-algorithms",
@@ -1347,6 +1456,7 @@
         "index": {
           "description": "Use the minimal standard Lehmer generator to quickly generate some random numbers with reasonable statistical properties By reasonable we mean good enough for games and test data but not cryptography or anything where the quality of the randomness really matters By nature of the algorithm the maximum value in the output is clipped to valMin From Random Number Generators Good ones are hard to find Stephen Park and Keith Miller Communications of the ACM Oct Volume Number",
           "hierarchy": "Data Array Repa Algorithms Randomish",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "randomishIntArray",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eArray U a Int",
@@ -1362,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:55 UTC 2014",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "randomishIntVector",
           "package": "repa-algorithms",
@@ -1370,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Algorithms Randomish",
+          "indexed": "2014-03-11T19:52:55",
           "module": "Data.Array.Repa.Algorithms.Randomish",
           "name": "randomishIntVector",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eVector Int",

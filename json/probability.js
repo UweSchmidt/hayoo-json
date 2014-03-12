@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "probability"
+        "phrase": "probability",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeterministic and probabilistic values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "Distribution",
           "package": "probability",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Deterministic and probabilistic values",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "Distribution",
           "package": "probability",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "Event",
           "package": "probability",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "Event",
           "package": "probability",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efiltering distributions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "Select",
           "package": "probability",
@@ -72,6 +77,7 @@
         "index": {
           "description": "filtering distributions",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "Select",
           "package": "probability",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edistribution generators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "Spread",
           "package": "probability",
@@ -95,6 +102,7 @@
         "index": {
           "description": "distribution generators",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "Spread",
           "package": "probability",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability disribution\n\u003c/p\u003e\u003cp\u003eThe underlying data structure is a list.\nUnfortunately we cannot use a more efficient data structure\nbecause the key type must be of class \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e,\nbut the \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e class does not allow constraints for result types.\nThe Monad instance is particularly useful\nbecause many generic monad functions make sense here,\nmonad transformers can be used\nand the monadic design allows to simulate probabilistic games in an elegant manner.\n\u003c/p\u003e\u003cp\u003eWe have the same problem like making \u003ca\u003eData.Set\u003c/a\u003e an instance of \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e,\nsee \u003ca\u003ehttp://www.randomhacks.net/articles/2007/03/15/data-set-monad-haskell-macros\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIf you need efficiency, you should remove redundant elements by \u003ccode\u003e\u003ca\u003enorm\u003c/a\u003e\u003c/code\u003e.\n\u003ccode\u003e\u003ca\u003enorm\u003c/a\u003e\u003c/code\u003e converts to \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e and back internally\nand you can hope that the compiler fuses the lists with the intermediate Map structure.\n\u003c/p\u003e\u003cp\u003eThe defined monad is equivalent to\n\u003ccode\u003eWriterT (Product prob) [] a\u003c/code\u003e.\nSee \u003ca\u003ehttp://www.randomhacks.net/articles/2007/02/21/refactoring-probability-distributions\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "T",
           "package": "probability",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Probability disribution The underlying data structure is list Unfortunately we cannot use more efficient data structure because the key type must be of class Ord but the Monad class does not allow constraints for result types The Monad instance is particularly useful because many generic monad functions make sense here monad transformers can be used and the monadic design allows to simulate probabilistic games in an elegant manner We have the same problem like making Data.Set an instance of Monad see http www.randomhacks.net articles data-set-monad-haskell-macros If you need efficiency you should remove redundant elements by norm norm converts to Map and back internally and you can hope that the compiler fuses the lists with the intermediate Map structure The defined monad is equivalent to WriterT Product prob See http www.randomhacks.net articles refactoring-probability-distributions",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "T",
           "package": "probability",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "(//%)",
           "package": "probability",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "(//%) //%",
           "normalized": "T Rational a-\u003e()-\u003eIO()",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e in infix form.\nCan be considered an additional monadic combinator,\nwhich can be used where you would want \u003ccode\u003e\u003ca\u003eguard\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "(\u003e\u003e=?)",
           "package": "probability",
@@ -164,6 +177,7 @@
         "index": {
           "description": "filter in infix form Can be considered an additional monadic combinator which can be used where you would want guard otherwise",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "(\u003e\u003e=?) \u003e\u003e=?",
           "normalized": "T a b-\u003e(b-\u003eBool)-\u003eT a b",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econditional probability, identical to \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "(?=\u003c\u003c)",
           "package": "probability",
@@ -189,6 +204,7 @@
         "index": {
           "description": "conditional probability identical to filter",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "(?=\u003c\u003c) ?=\u003c\u003c",
           "normalized": "(a-\u003eBool)-\u003eT b a-\u003eT b a",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "(??)",
           "package": "probability",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "(??) ??",
           "normalized": "Event a-\u003eT b a-\u003eb",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "Case",
           "package": "probability",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "Case",
           "package": "probability",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "Cons",
           "package": "probability",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "Cons",
           "package": "probability",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "Other",
           "package": "probability",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "Other",
           "package": "probability",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "above",
           "package": "probability",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "above",
           "normalized": "a-\u003eT a b-\u003eT a(Select b)",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether two distributions are equal when neglecting rounding errors.\nWe do not want to put this into an \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance,\nsince it is not exact equivalence\nand it seems to be too easy to mix it up with \u003ccode\u003eliftM2 (==) x y\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "approx",
           "package": "probability",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Check whether two distributions are equal when neglecting rounding errors We do not want to put this into an Eq instance since it is not exact equivalence and it seems to be too easy to mix it up with liftM2",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "approx",
           "normalized": "T a b-\u003eT a b-\u003eBool",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "certainly",
           "package": "probability",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "certainly",
           "normalized": "a-\u003eT b a",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "check",
           "package": "probability",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "check",
           "normalized": "T a b-\u003eT a b",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "choose",
           "package": "probability",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "choose",
           "normalized": "a-\u003eb-\u003eb-\u003eT a b",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econditional distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "cond",
           "package": "probability",
@@ -419,6 +454,7 @@
         "index": {
           "description": "conditional distribution",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "cond",
           "normalized": "T a Bool-\u003eT a b-\u003eT a b-\u003eT a b",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecan fail because of rounding errors, better use \u003ccode\u003e\u003ca\u003efromFreqs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "cons",
           "package": "probability",
@@ -444,6 +481,7 @@
         "index": {
           "description": "can fail because of rounding errors better use fromFreqs",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "cons",
           "normalized": "[(a,b)]-\u003eT b a",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "decons",
           "package": "probability",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "decons",
           "normalized": "[(a,b)]",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "enum",
           "package": "probability",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "enum",
           "normalized": "[Int]-\u003eSpread a b",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "equal",
           "package": "probability",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "equal",
           "normalized": "T a b-\u003eT a b-\u003eBool",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "errorMargin",
           "package": "probability",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "errorMargin",
           "package": "probability",
@@ -550,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpectation value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "expected",
           "package": "probability",
@@ -560,6 +607,7 @@
         "index": {
           "description": "expectation value",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "expected",
           "normalized": "T a a-\u003ea",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracting and mapping the domain of a distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "extract",
           "package": "probability",
@@ -585,6 +634,7 @@
         "index": {
           "description": "extracting and mapping the domain of distribution",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "extract",
           "normalized": "T a b-\u003e[b]",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "filter",
           "package": "probability",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eT b a-\u003eT b a",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "fromFreqs",
           "package": "probability",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "fromFreqs",
           "normalized": "[(a,b)]-\u003eT b a",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "just",
           "package": "probability",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "just",
           "normalized": "a-\u003eEvent a",
@@ -669,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "lift",
           "package": "probability",
@@ -678,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "lift",
           "normalized": "([(a,b)]-\u003e[(a,b)])-\u003eT b a-\u003eT b a",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "linear",
           "package": "probability",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "linear",
           "package": "probability",
@@ -714,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e with normalization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "map",
           "package": "probability",
@@ -724,6 +785,7 @@
         "index": {
           "description": "fmap with normalization",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eT c a-\u003eT c b",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "mapMaybe",
           "package": "probability",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eT c a-\u003eT c b",
@@ -762,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "negExp",
           "package": "probability",
@@ -771,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "negExp",
           "package": "probability",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "norm",
           "package": "probability",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "norm",
           "normalized": "T a b-\u003eT a b",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "norm'",
           "package": "probability",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "norm'",
           "normalized": "[(a,b)]-\u003e[(a,b)]",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "norm''",
           "package": "probability",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "norm''",
           "normalized": "[(a,b)]-\u003e[(a,b)]",
@@ -853,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "normal",
           "package": "probability",
@@ -862,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "normal",
           "package": "probability",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "oneOf",
           "package": "probability",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "oneOf",
           "normalized": "[a]-\u003eEvent a",
@@ -899,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty printing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "pretty",
           "package": "probability",
@@ -909,6 +986,7 @@
         "index": {
           "description": "pretty printing",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "pretty",
           "normalized": "(a-\u003eString)-\u003eT a b-\u003eString",
@@ -924,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a list of frequencies, they do not need to sum up to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "relative",
           "package": "probability",
@@ -934,6 +1013,7 @@
         "index": {
           "description": "Give list of frequencies they do not need to sum up to",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "relative",
           "normalized": "[a]-\u003eSpread a b",
@@ -948,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "scanP",
           "package": "probability",
@@ -957,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "scanP",
           "normalized": "a-\u003e[(b,a)]-\u003eb",
@@ -972,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselecting from distributions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "selectP",
           "package": "probability",
@@ -982,6 +1065,7 @@
         "index": {
           "description": "selecting from distributions",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "selectP",
           "normalized": "T a b-\u003ea-\u003eb",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "shape",
           "package": "probability",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "shape",
           "normalized": "(a-\u003ea)-\u003eSpread a b",
@@ -1019,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "size",
           "package": "probability",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "size",
           "normalized": "T a b-\u003eInt",
@@ -1042,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "sortElem",
           "package": "probability",
@@ -1051,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "sortElem",
           "normalized": "[(a,b)]-\u003e[(a,b)]",
@@ -1066,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "sortP",
           "package": "probability",
@@ -1075,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "sortP",
           "normalized": "[(a,b)]-\u003e[(a,b)]",
@@ -1089,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "stdDev",
           "package": "probability",
@@ -1098,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "stdDev",
           "normalized": "T a a-\u003ea",
@@ -1113,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "sumP",
           "package": "probability",
@@ -1122,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "sumP",
           "normalized": "[(a,b)]-\u003eb",
@@ -1136,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "truth",
           "package": "probability",
@@ -1145,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "truth",
           "normalized": "T a Bool-\u003ea",
@@ -1160,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunfold a distribution of distributions into one distribution,\nthis is \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e with normalization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "unfold",
           "package": "probability",
@@ -1170,6 +1269,7 @@
         "index": {
           "description": "unfold distribution of distributions into one distribution this is join with normalization",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "unfold",
           "normalized": "T a(T a b)-\u003eT a b",
@@ -1184,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "uniform",
           "package": "probability",
@@ -1193,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "uniform",
           "package": "probability",
@@ -1206,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatistical analyses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Distribution",
           "name": "variance",
           "package": "probability",
@@ -1216,6 +1319,7 @@
         "index": {
           "description": "statistical analyses",
           "hierarchy": "Numeric Probability Distribution",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Distribution",
           "name": "variance",
           "normalized": "T a a-\u003ea",
@@ -1230,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "Alarm",
           "package": "probability",
@@ -1238,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "Alarm",
           "package": "probability",
@@ -1252,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculate the full joint distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "Burglary",
           "package": "probability",
@@ -1261,6 +1368,7 @@
         "index": {
           "description": "calculate the full joint distribution",
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "Burglary",
           "package": "probability",
@@ -1274,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "Dist",
           "package": "probability",
@@ -1282,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "Dist",
           "package": "probability",
@@ -1295,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "PBool",
           "package": "probability",
@@ -1303,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "PBool",
           "package": "probability",
@@ -1316,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "Probability",
           "package": "probability",
@@ -1324,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "Probability",
           "package": "probability",
@@ -1337,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "B",
           "package": "probability",
@@ -1346,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "B",
           "package": "probability",
@@ -1359,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econditional probability of alarm given burglary and earthquake\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "a",
           "package": "probability",
@@ -1369,6 +1486,7 @@
         "index": {
           "description": "conditional probability of alarm given burglary and earthquake",
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "a",
           "normalized": "Bool-\u003eBool-\u003ePBool",
@@ -1383,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "alarm",
           "package": "probability",
@@ -1392,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "alarm",
           "package": "probability",
@@ -1405,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprior burglary 1%\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "b",
           "package": "probability",
@@ -1415,6 +1536,7 @@
         "index": {
           "description": "prior burglary",
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "b",
           "package": "probability",
@@ -1427,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "bJoint",
           "package": "probability",
@@ -1436,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "bJoint",
           "package": "probability",
@@ -1449,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "burglary",
           "package": "probability",
@@ -1458,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "burglary",
           "package": "probability",
@@ -1471,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprior earthquake 0.1%\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "e",
           "package": "probability",
@@ -1481,6 +1608,7 @@
         "index": {
           "description": "prior earthquake",
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "e",
           "package": "probability",
@@ -1493,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "earthquake",
           "package": "probability",
@@ -1502,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "earthquake",
           "package": "probability",
@@ -1514,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "flp",
           "package": "probability",
@@ -1523,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "flp",
           "normalized": "Probability-\u003ePBool",
@@ -1538,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econditional probability of john calling given alarm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "j",
           "package": "probability",
@@ -1548,6 +1681,7 @@
         "index": {
           "description": "conditional probability of john calling given alarm",
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "j",
           "normalized": "Bool-\u003ePBool",
@@ -1562,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "john",
           "package": "probability",
@@ -1571,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "john",
           "package": "probability",
@@ -1584,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econditional probability of mary calling given alarm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "m",
           "package": "probability",
@@ -1594,6 +1731,7 @@
         "index": {
           "description": "conditional probability of mary calling given alarm",
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "m",
           "normalized": "Bool-\u003ePBool",
@@ -1608,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "mary",
           "package": "probability",
@@ -1617,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "mary",
           "package": "probability",
@@ -1630,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat is the probability that mary calls given that john calls?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "pmj",
           "package": "probability",
@@ -1640,6 +1781,7 @@
         "index": {
           "description": "what is the probability that mary calls given that john calls",
           "hierarchy": "Numeric Probability Example Alarm",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Alarm",
           "name": "pmj",
           "package": "probability",
@@ -1652,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "Barber",
           "package": "probability",
@@ -1660,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "Barber",
           "package": "probability",
@@ -1673,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "Category",
           "package": "probability",
@@ -1681,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "Category",
           "package": "probability",
@@ -1694,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "FourToTen",
           "package": "probability",
@@ -1703,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "FourToTen",
           "package": "probability",
@@ -1716,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "MoreThanTen",
           "package": "probability",
@@ -1725,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "MoreThanTen",
           "package": "probability",
@@ -1738,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "ThreeOrLess",
           "package": "probability",
@@ -1747,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "ThreeOrLess",
           "package": "probability",
@@ -1760,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barberEvent",
           "package": "probability",
@@ -1769,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barberEvent",
           "normalized": "((),(Dist Time,Time-\u003eDist Time))",
@@ -1784,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barberEvents",
           "package": "probability",
@@ -1793,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barberEvents",
           "normalized": "[((),(Dist Time,Time-\u003eDist Time))]",
@@ -1809,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eavg barber idle time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barberIdle",
           "package": "probability",
@@ -1819,6 +1976,7 @@
         "index": {
           "description": "avg barber idle time",
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barberIdle",
           "package": "probability",
@@ -1832,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barberSystem",
           "package": "probability",
@@ -1841,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barberSystem",
           "normalized": "(System()-\u003ea)-\u003eRDist a",
@@ -1856,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barbers",
           "package": "probability",
@@ -1865,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "barbers",
           "package": "probability",
@@ -1877,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "cat",
           "package": "probability",
@@ -1886,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "cat",
           "normalized": "Time-\u003eCategory",
@@ -1900,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "custServ",
           "package": "probability",
@@ -1909,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "custServ",
           "package": "probability",
@@ -1923,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eavg customer waiting time (unserved customers)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "customerWait",
           "package": "probability",
@@ -1933,6 +2100,7 @@
         "index": {
           "description": "avg customer waiting time unserved customers",
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "customerWait",
           "package": "probability",
@@ -1946,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "customers",
           "package": "probability",
@@ -1955,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "customers",
           "package": "probability",
@@ -1967,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "nextCust",
           "package": "probability",
@@ -1976,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "nextCust",
           "package": "probability",
@@ -1989,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "perc",
           "package": "probability",
@@ -1998,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "perc",
           "normalized": "Float-\u003eString",
@@ -2012,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Barber",
           "name": "runs",
           "package": "probability",
@@ -2021,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Barber",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Barber",
           "name": "runs",
           "package": "probability",
@@ -2034,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eApproach: model a node with k predecessors as a function with k\n          parameters\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "Bayesian",
           "package": "probability",
@@ -2043,6 +2220,7 @@
         "index": {
           "description": "Approach model node with predecessors as function with parameters",
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "Bayesian",
           "package": "probability",
@@ -2056,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "Dist",
           "package": "probability",
@@ -2064,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "Dist",
           "package": "probability",
@@ -2078,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo possible causes for one effect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "Nodes",
           "package": "probability",
@@ -2087,6 +2268,7 @@
         "index": {
           "description": "Two possible causes for one effect",
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "Nodes",
           "package": "probability",
@@ -2100,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "PState",
           "package": "probability",
@@ -2108,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "PState",
           "package": "probability",
@@ -2121,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "Probability",
           "package": "probability",
@@ -2129,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "Probability",
           "package": "probability",
@@ -2142,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "SPred",
           "package": "probability",
@@ -2150,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "SPred",
           "package": "probability",
@@ -2163,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "STrans",
           "package": "probability",
@@ -2171,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "STrans",
           "package": "probability",
@@ -2184,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "State",
           "package": "probability",
@@ -2192,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "State",
           "package": "probability",
@@ -2205,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "A",
           "package": "probability",
@@ -2214,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "A",
           "package": "probability",
@@ -2226,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "B",
           "package": "probability",
@@ -2235,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "B",
           "package": "probability",
@@ -2247,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "E",
           "package": "probability",
@@ -2256,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "E",
           "package": "probability",
@@ -2268,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "aE",
           "package": "probability",
@@ -2277,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "aE",
           "package": "probability",
@@ -2289,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "bE",
           "package": "probability",
@@ -2298,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "bE",
           "package": "probability",
@@ -2310,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "bin",
           "package": "probability",
@@ -2319,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "bin",
           "normalized": "a-\u003ea-\u003eProbability-\u003eProbability-\u003eProbability-\u003eProbability-\u003ea-\u003eSTrans a",
@@ -2333,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "e",
           "package": "probability",
@@ -2342,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "e",
           "package": "probability",
@@ -2354,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "event",
           "package": "probability",
@@ -2363,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "event",
           "normalized": "Probability-\u003ea-\u003eSTrans a",
@@ -2377,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "g",
           "package": "probability",
@@ -2386,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "g",
           "package": "probability",
@@ -2398,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "happens",
           "package": "probability",
@@ -2407,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "happens",
           "package": "probability",
@@ -2419,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "network",
           "package": "probability",
@@ -2428,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "network",
           "normalized": "[STrans a]-\u003ePState a",
@@ -2442,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "source",
           "package": "probability",
@@ -2451,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Bayesian",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Bayesian",
           "name": "source",
           "normalized": "Probability-\u003ea-\u003eSTrans a",
@@ -2466,6 +2682,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConsider a family of two children.  Given that there is a boy in the family,\nwhat is the probability that there are two boys in the family?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Boys",
           "package": "probability",
@@ -2475,6 +2692,7 @@
         "index": {
           "description": "Consider family of two children Given that there is boy in the family what is the probability that there are two boys in the family",
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Boys",
           "package": "probability",
@@ -2488,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Child",
           "package": "probability",
@@ -2496,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Child",
           "package": "probability",
@@ -2509,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Dist",
           "package": "probability",
@@ -2517,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Dist",
           "package": "probability",
@@ -2530,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Family",
           "package": "probability",
@@ -2538,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Family",
           "package": "probability",
@@ -2551,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Probability",
           "package": "probability",
@@ -2559,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Probability",
           "package": "probability",
@@ -2572,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Boy",
           "package": "probability",
@@ -2581,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Boy",
           "package": "probability",
@@ -2594,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Girl",
           "package": "probability",
@@ -2603,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "Girl",
           "package": "probability",
@@ -2616,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "allBoys",
           "package": "probability",
@@ -2625,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "allBoys",
           "package": "probability",
@@ -2638,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "birth",
           "package": "probability",
@@ -2647,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "birth",
           "package": "probability",
@@ -2659,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "countBoy",
           "package": "probability",
@@ -2668,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "countBoy",
           "normalized": "Child-\u003eInt",
@@ -2683,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "countBoys",
           "package": "probability",
@@ -2692,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "countBoys",
           "normalized": "Family-\u003eInt",
@@ -2707,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "existsBoy",
           "package": "probability",
@@ -2716,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "existsBoy",
           "package": "probability",
@@ -2729,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "family",
           "package": "probability",
@@ -2738,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "family",
           "package": "probability",
@@ -2750,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "familyWithBoy",
           "package": "probability",
@@ -2759,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "familyWithBoy",
           "package": "probability",
@@ -2772,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "numBoys",
           "package": "probability",
@@ -2781,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "numBoys",
           "package": "probability",
@@ -2794,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Boys",
           "name": "twoBoys",
           "package": "probability",
@@ -2803,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Boys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Boys",
           "name": "twoBoys",
           "package": "probability",
@@ -2816,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Collection",
           "package": "probability",
@@ -2824,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Collection",
           "package": "probability",
@@ -2837,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Card",
           "package": "probability",
@@ -2845,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Card",
           "package": "probability",
@@ -2858,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Collection",
           "package": "probability",
@@ -2866,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Collection",
           "package": "probability",
@@ -2879,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Marble",
           "package": "probability",
@@ -2887,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Marble",
           "package": "probability",
@@ -2900,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Probability",
           "package": "probability",
@@ -2908,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Probability",
           "package": "probability",
@@ -2921,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Rank",
           "package": "probability",
@@ -2929,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Rank",
           "package": "probability",
@@ -2942,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Suit",
           "package": "probability",
@@ -2950,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Suit",
           "package": "probability",
@@ -2963,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Ace",
           "package": "probability",
@@ -2972,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Ace",
           "package": "probability",
@@ -2985,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "B",
           "package": "probability",
@@ -2994,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "B",
           "package": "probability",
@@ -3006,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Club",
           "package": "probability",
@@ -3015,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Club",
           "package": "probability",
@@ -3028,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Diamond",
           "package": "probability",
@@ -3037,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Diamond",
           "package": "probability",
@@ -3050,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "G",
           "package": "probability",
@@ -3059,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "G",
           "package": "probability",
@@ -3071,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Heart",
           "package": "probability",
@@ -3080,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Heart",
           "package": "probability",
@@ -3093,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Jack",
           "package": "probability",
@@ -3102,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Jack",
           "package": "probability",
@@ -3115,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "King",
           "package": "probability",
@@ -3124,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "King",
           "package": "probability",
@@ -3137,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Plain",
           "package": "probability",
@@ -3146,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Plain",
           "package": "probability",
@@ -3159,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Queen",
           "package": "probability",
@@ -3168,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Queen",
           "package": "probability",
@@ -3181,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "R",
           "package": "probability",
@@ -3190,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "R",
           "package": "probability",
@@ -3202,6 +3486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Spade",
           "package": "probability",
@@ -3211,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "Spade",
           "package": "probability",
@@ -3224,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "bucket",
           "package": "probability",
@@ -3233,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "bucket",
           "package": "probability",
@@ -3245,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "chanceWin",
           "package": "probability",
@@ -3254,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "chanceWin",
           "package": "probability",
@@ -3267,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "deck",
           "package": "probability",
@@ -3276,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "deck",
           "package": "probability",
@@ -3288,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "draw",
           "package": "probability",
@@ -3297,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "draw",
           "normalized": "([Card],Collection Card)-\u003eT a([Card],Collection Card)",
@@ -3311,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "drawF",
           "package": "probability",
@@ -3320,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "drawF",
           "normalized": "([Card],Collection Card)-\u003eDist([Card],Collection Card)",
@@ -3334,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "drawTo16",
           "package": "probability",
@@ -3343,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "drawTo16",
           "normalized": "T([Card],Collection Card)",
@@ -3358,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "faces",
           "package": "probability",
@@ -3367,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "faces",
           "normalized": "[Rank]",
@@ -3381,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "isFace",
           "package": "probability",
@@ -3390,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "isFace",
           "normalized": "Card-\u003eBool",
@@ -3405,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "isPlain",
           "package": "probability",
@@ -3414,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "isPlain",
           "normalized": "Card-\u003eBool",
@@ -3429,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "jar",
           "package": "probability",
@@ -3438,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "jar",
           "package": "probability",
@@ -3450,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "pRG",
           "package": "probability",
@@ -3459,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "pRG",
           "package": "probability",
@@ -3472,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "pRGB",
           "package": "probability",
@@ -3481,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "pRGB",
           "package": "probability",
@@ -3494,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "plains",
           "package": "probability",
@@ -3503,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "plains",
           "normalized": "[Rank]",
@@ -3517,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "ranks",
           "package": "probability",
@@ -3526,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "ranks",
           "normalized": "[Rank]",
@@ -3540,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "select",
           "package": "probability",
@@ -3549,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "select",
           "normalized": "Int-\u003eCollection a-\u003eT b[a]",
@@ -3563,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "select1",
           "package": "probability",
@@ -3572,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "select1",
           "normalized": "Collection a-\u003eT b a",
@@ -3586,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "select2",
           "package": "probability",
@@ -3595,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "select2",
           "normalized": "Collection a-\u003eT b(a,a)",
@@ -3609,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "selectOne",
           "package": "probability",
@@ -3618,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "selectOne",
           "package": "probability",
@@ -3631,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "suits",
           "package": "probability",
@@ -3640,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "suits",
           "normalized": "[Suit]",
@@ -3654,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "totalValue",
           "package": "probability",
@@ -3663,6 +3988,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "totalValue",
           "normalized": "Collection Card-\u003eInt",
@@ -3679,6 +4005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emini-blackjack:\ndraw 2 cards, and if value is less than 14, continue drawing\nuntil value equals or exceeds 14.  if values exceeds 21,\nyou lose, otherwise you win.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "value",
           "package": "probability",
@@ -3689,6 +4016,7 @@
         "index": {
           "description": "mini-blackjack draw cards and if value is less than continue drawing until value equals or exceeds if values exceeds you lose otherwise you win",
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "value",
           "normalized": "Card-\u003eInt",
@@ -3703,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Collection",
           "name": "win",
           "package": "probability",
@@ -3712,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Collection",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Collection",
           "name": "win",
           "normalized": "([Card],a)-\u003eBool",
@@ -3727,6 +4057,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYou take part in a screening test for a disease\nthat you have with a probability \u003ccode\u003e\u003ca\u003epDisease\u003c/a\u003e\u003c/code\u003e.\nThe test can fail in two ways:\nIf you are ill,\nthe test says with probability \u003ccode\u003e\u003ca\u003epFalseNegative\u003c/a\u003e\u003c/code\u003e that you are healthy.\nIf you are healthy,\nit says with probability \u003ccode\u003e\u003ca\u003epFalsePositive\u003c/a\u003e\u003c/code\u003e that you are ill.\n\u003c/p\u003e\u003cp\u003eNow consider the test is positive -\nwhat is the probability that you are indeed ill?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Diagnosis",
           "package": "probability",
@@ -3736,6 +4067,7 @@
         "index": {
           "description": "You take part in screening test for disease that you have with probability pDisease The test can fail in two ways If you are ill the test says with probability pFalseNegative that you are healthy If you are healthy it says with probability pFalsePositive that you are ill Now consider the test is positive what is the probability that you are indeed ill",
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Diagnosis",
           "package": "probability",
@@ -3749,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Dist",
           "package": "probability",
@@ -3757,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Dist",
           "package": "probability",
@@ -3770,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Finding",
           "package": "probability",
@@ -3778,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Finding",
           "package": "probability",
@@ -3791,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Probability",
           "package": "probability",
@@ -3799,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Probability",
           "package": "probability",
@@ -3812,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "State",
           "package": "probability",
@@ -3820,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "State",
           "package": "probability",
@@ -3833,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Healthy",
           "package": "probability",
@@ -3842,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Healthy",
           "package": "probability",
@@ -3855,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Ill",
           "package": "probability",
@@ -3864,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Ill",
           "package": "probability",
@@ -3877,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Negative",
           "package": "probability",
@@ -3886,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Negative",
           "package": "probability",
@@ -3899,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Positive",
           "package": "probability",
@@ -3908,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "Positive",
           "package": "probability",
@@ -3921,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "dist",
           "package": "probability",
@@ -3930,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "dist",
           "normalized": "Dist(State,Finding)",
@@ -3945,6 +4295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative way for computing the distribution.\nIt is usually more efficient because we do not need to switch on the healthy state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "distAlt",
           "package": "probability",
@@ -3955,6 +4306,7 @@
         "index": {
           "description": "Alternative way for computing the distribution It is usually more efficient because we do not need to switch on the healthy state",
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "distAlt",
           "normalized": "Dist(State,Finding)",
@@ -3970,6 +4322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "p",
           "package": "probability",
@@ -3979,6 +4332,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "p",
           "package": "probability",
@@ -3991,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "pDisease",
           "package": "probability",
@@ -4000,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "pDisease",
           "package": "probability",
@@ -4013,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "pFalseNegative",
           "package": "probability",
@@ -4022,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "pFalseNegative",
           "package": "probability",
@@ -4035,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "pFalsePositive",
           "package": "probability",
@@ -4044,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Diagnosis",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Diagnosis",
           "name": "pFalsePositive",
           "package": "probability",
@@ -4057,6 +4417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "Dice",
           "package": "probability",
@@ -4065,6 +4426,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "Dice",
           "package": "probability",
@@ -4078,6 +4440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "Die",
           "package": "probability",
@@ -4086,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "Die",
           "package": "probability",
@@ -4099,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "Dist",
           "package": "probability",
@@ -4107,6 +4472,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "Dist",
           "package": "probability",
@@ -4120,6 +4486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "Probability",
           "package": "probability",
@@ -4128,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "Probability",
           "package": "probability",
@@ -4141,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "addTwo",
           "package": "probability",
@@ -4150,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "addTwo",
           "package": "probability",
@@ -4163,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "dice",
           "package": "probability",
@@ -4172,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "dice",
           "normalized": "Int-\u003eDist[Die]",
@@ -4186,6 +4558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "die",
           "package": "probability",
@@ -4195,6 +4568,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "die",
           "package": "probability",
@@ -4207,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "droll",
           "package": "probability",
@@ -4216,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "droll",
           "package": "probability",
@@ -4228,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "g3",
           "package": "probability",
@@ -4237,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "g3",
           "package": "probability",
@@ -4250,6 +4628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esixes p n\u003c/code\u003e computes the probability of getting\np sixes (\u003ccode\u003e\u003e1\u003c/code\u003e, \u003ccode\u003e==2\u003c/code\u003e, ...) when rolling n dice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "sixes",
           "package": "probability",
@@ -4260,6 +4639,7 @@
         "index": {
           "description": "sixes computes the probability of getting sixes when rolling dice",
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "sixes",
           "normalized": "(Int-\u003eBool)-\u003eInt-\u003eProbability",
@@ -4275,6 +4655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproduct of independent distributions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "twoDice",
           "package": "probability",
@@ -4285,6 +4666,7 @@
         "index": {
           "description": "product of independent distributions",
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "twoDice",
           "normalized": "Dist(Die,Die)",
@@ -4300,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Dice",
           "name": "twoSixes",
           "package": "probability",
@@ -4309,6 +4692,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Dice",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Dice",
           "name": "twoSixes",
           "package": "probability",
@@ -4323,6 +4707,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe play the following game:\nWe roll a die until we stop or we get three spots.\nIn the first case we own all spots obtained so far,\nin the latter case we own nothing.\n\u003c/p\u003e\u003cp\u003eWhat is the strategy for maximizing the expected score?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "DiceAccum",
           "package": "probability",
@@ -4332,6 +4717,7 @@
         "index": {
           "description": "We play the following game We roll die until we stop or we get three spots In the first case we own all spots obtained so far in the latter case we own nothing What is the strategy for maximizing the expected score",
           "hierarchy": "Numeric Probability Example DiceAccum",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "DiceAccum",
           "package": "probability",
@@ -4345,6 +4731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "Score",
           "package": "probability",
@@ -4353,6 +4740,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example DiceAccum",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "Score",
           "package": "probability",
@@ -4366,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "continue",
           "package": "probability",
@@ -4375,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example DiceAccum",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "continue",
           "normalized": "Score-\u003eBool",
@@ -4389,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "die",
           "package": "probability",
@@ -4398,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example DiceAccum",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "die",
           "package": "probability",
@@ -4411,6 +4803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edistribution of the scores that are achieved with the optimal strategy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "game",
           "package": "probability",
@@ -4421,6 +4814,7 @@
         "index": {
           "description": "distribution of the scores that are achieved with the optimal strategy",
           "hierarchy": "Numeric Probability Example DiceAccum",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "game",
           "package": "probability",
@@ -4433,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "roll",
           "package": "probability",
@@ -4442,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example DiceAccum",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "roll",
           "package": "probability",
@@ -4455,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptimal strategy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "strategy",
           "package": "probability",
@@ -4465,6 +4862,7 @@
         "index": {
           "description": "optimal strategy",
           "hierarchy": "Numeric Probability Example DiceAccum",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "strategy",
           "package": "probability",
@@ -4477,6 +4875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "walk",
           "package": "probability",
@@ -4486,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example DiceAccum",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.DiceAccum",
           "name": "walk",
           "normalized": "Int-\u003eIO(Trace(Maybe Score))",
@@ -4501,6 +4901,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGiven a row of n (~50) dice and\ntwo players starting with a random dice within the first m (~5) dice.\nEvery players moves along the row, according the pips on the dice.\nThey stop if a move would exceed the row.\nWhat is the probability that they stop at the same die?\n(It is close to one.)\n\u003c/p\u003e\u003cp\u003eWuerfelschlange (german)\nhttp:\u003cem/\u003efaculty.uml.edu\u003cem\u003ermontenegro\u003c/em\u003eresearch\u003cem\u003ekruskal_count\u003c/em\u003ekruskal.html\n\u003c/p\u003e\u003cp\u003eKruskal's trick\nhttp:\u003cem/\u003ewww.math.de\u003cem\u003eexponate\u003c/em\u003ewuerfelschlange.html/\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Kruskal",
           "package": "probability",
@@ -4510,6 +4911,7 @@
         "index": {
           "description": "Given row of dice and two players starting with random dice within the first dice Every players moves along the row according the pips on the dice They stop if move would exceed the row What is the probability that they stop at the same die It is close to one Wuerfelschlange german http faculty.uml.edu rmontenegro research kruskal count kruskal.html Kruskal trick http www.math.de exponate wuerfelschlange.html",
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Kruskal",
           "package": "probability",
@@ -4523,6 +4925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Die",
           "package": "probability",
@@ -4531,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Die",
           "package": "probability",
@@ -4544,6 +4948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Dist",
           "package": "probability",
@@ -4552,6 +4957,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Dist",
           "package": "probability",
@@ -4565,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Probability",
           "package": "probability",
@@ -4573,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Probability",
           "package": "probability",
@@ -4586,6 +4994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Score",
           "package": "probability",
@@ -4594,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "Score",
           "package": "probability",
@@ -4608,6 +5018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a bruteforce implementation of the original game:\nWe just roll the die \u003ccode\u003emaxScore\u003c/code\u003e times\nand then jump from die to die according to the number of pips.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "bruteforce",
           "package": "probability",
@@ -4618,6 +5029,7 @@
         "index": {
           "description": "This is bruteforce implementation of the original game We just roll the die maxScore times and then jump from die to die according to the number of pips",
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "bruteforce",
           "normalized": "Score-\u003eScore-\u003e(Score,Score)-\u003eT(Maybe Score)",
@@ -4632,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "chop",
           "package": "probability",
@@ -4641,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "chop",
           "normalized": "[Score]-\u003e[[Score]]",
@@ -4655,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "compareMaybe",
           "package": "probability",
@@ -4664,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "compareMaybe",
           "normalized": "Maybe a-\u003eMaybe a-\u003eOrdering",
@@ -4679,6 +5095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "cumulate",
           "package": "probability",
@@ -4688,6 +5105,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "cumulate",
           "normalized": "Dist(Maybe a)-\u003e[(Maybe a,Probability)]",
@@ -4702,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "die",
           "package": "probability",
@@ -4711,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "die",
           "normalized": "Score-\u003ea Die",
@@ -4726,6 +5146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egameLeastScore\u003c/a\u003e\u003c/code\u003e can be written in terms of a matrix power.\nFor n pips we need a n&#178; &#215; n&#178; matrix.\nUsing symmetries, we reduce it to a square matrix with size n&#183;(n+1)/2.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003e p[n+1,(n+1,n+1)] \\          \u003c/em\u003e p[n,(n+0,n+0)] \\\n| p[n+1,(n+1,n+2)] |          | p[n,(n+0,n+1)] |\n| p[n+1,(n+1,n+3)] |          | p[n,(n+0,n+2)] |\n|        ...       |          |       ...      |\n| p[n+1,(n+1,n+6)] |  = M/6 &#183; | p[n,(n+0,n+5)] |\n| p[n+1,(n+2,n+2)] |          | p[n,(n+1,n+1)] |\n|        ...       |          |       ...      |\n| p[n+1,(n+2,n+6)] |          | p[n,(n+1,n+5)] |\n|        ...       |          |       ...      |\n p[n+1,(n+6,n+6)] \u003cem\u003e          \\ p[n,(n+5,n+5)] \u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eM[(n+1,(x,y)),(n,(x,y))] = 6\n\u003c/p\u003e\u003cp\u003eM[(n+1,(min y (n+d), max y (n+d))), (n,(n,y))] = 1\n\u003c/p\u003e\u003cp\u003eM[(n+1,(x1,y1)),(n,(x0,y0))] = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "flattenedMatrix",
           "package": "probability",
@@ -4736,6 +5157,7 @@
         "index": {
           "description": "gameLeastScore can be written in terms of matrix power For pips we need matrix Using symmetries we reduce it to square matrix with size min max x1 y1 x0 y0",
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "flattenedMatrix",
           "normalized": "Score-\u003e[Int]",
@@ -4752,6 +5174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe reformulate the problem to the following game:\nThere are two players, both of them collect a number of points.\nIn every round the player with the smaller score throws a die\nand adds the pips to his score.\nIf the two players somewhen get the same score, then the game ends\nand the score is the result of the game (\u003ccode\u003eJust score\u003c/code\u003e).\nIf one of the players exceeds the maximum score n,\nthen the game stops and players lose (\u003ccode\u003eNothing\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "game",
           "package": "probability",
@@ -4762,6 +5185,7 @@
         "index": {
           "description": "We reformulate the problem to the following game There are two players both of them collect number of points In every round the player with the smaller score throws die and adds the pips to his score If the two players somewhen get the same score then the game ends and the score is the result of the game Just score If one of the players exceeds the maximum score then the game stops and players lose Nothing",
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "game",
           "normalized": "Score-\u003eScore-\u003e(Score,Score)-\u003ea(Maybe Score)",
@@ -4776,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameFast",
           "package": "probability",
@@ -4785,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameFast",
           "normalized": "Score-\u003eScore-\u003eDist(Score,Score)-\u003eDist(Maybe Score)",
@@ -4800,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameFastEither",
           "package": "probability",
@@ -4809,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameFastEither",
           "normalized": "Score-\u003eScore-\u003eDist(Score,Score)-\u003eDist(Maybe Score)",
@@ -4825,6 +5253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis version could be generalized\nto both Random and Distribution monad\nwhile remaining efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameFastFix",
           "package": "probability",
@@ -4835,6 +5264,7 @@
         "index": {
           "description": "This version could be generalized to both Random and Distribution monad while remaining efficient",
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameFastFix",
           "normalized": "Score-\u003eScore-\u003eDist(Score,Score)-\u003eDist(Maybe Score)",
@@ -4851,6 +5281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003e\u003ca\u003egameFastFix\u003c/a\u003e\u003c/code\u003e we group the scores by rounds.\nThis leads to a growing probability distribution,\nbut we do not need the round number.\nWe could process the game in a different way:\nWe only consider the game states\nwhere the lower score matches the round number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameLeastScore",
           "package": "probability",
@@ -4861,6 +5292,7 @@
         "index": {
           "description": "In gameFastFix we group the scores by rounds This leads to growing probability distribution but we do not need the round number We could process the game in different way We only consider the game states where the lower score matches the round number",
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameLeastScore",
           "normalized": "Score-\u003eScore-\u003eDist(Score,Score)-\u003eDist(Maybe Score)",
@@ -4876,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameRound",
           "package": "probability",
@@ -4885,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "gameRound",
           "normalized": "Score-\u003eScore-\u003eDist(Either(Maybe Score)(Score,Score))-\u003eDist(Either(Maybe Score)(Score,Score))",
@@ -4900,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "latexChoppedFromChain",
           "package": "probability",
@@ -4909,6 +5344,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "latexChoppedFromChain",
           "normalized": "[Score]-\u003eString",
@@ -4924,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "latexDie",
           "package": "probability",
@@ -4933,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "latexDie",
           "normalized": "Score-\u003eString",
@@ -4948,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "latexFromChain",
           "package": "probability",
@@ -4957,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "latexFromChain",
           "normalized": "[Score]-\u003eString",
@@ -4972,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "latexMarkedDie",
           "package": "probability",
@@ -4981,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "latexMarkedDie",
           "normalized": "Score-\u003eString",
@@ -4996,6 +5438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "makeChains",
           "package": "probability",
@@ -5005,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "makeChains",
           "normalized": "IO()",
@@ -5020,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "meeting",
           "package": "probability",
@@ -5029,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "meeting",
           "normalized": "[Score]-\u003e[Score]-\u003eMaybe Score",
@@ -5043,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "runExact",
           "package": "probability",
@@ -5052,6 +5499,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "runExact",
           "normalized": "Score-\u003eIO()",
@@ -5067,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "runSimulation",
           "package": "probability",
@@ -5076,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "runSimulation",
           "normalized": "Score-\u003eIO()",
@@ -5091,6 +5541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "startVector",
           "package": "probability",
@@ -5100,6 +5551,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "startVector",
           "normalized": "Score-\u003e[Int]",
@@ -5115,6 +5567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "trace",
           "package": "probability",
@@ -5124,6 +5577,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Kruskal",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Kruskal",
           "name": "trace",
           "normalized": "Score-\u003e[Score]-\u003e[Score]",
@@ -5138,6 +5592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "MontyHall",
           "package": "probability",
@@ -5146,6 +5601,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "MontyHall",
           "package": "probability",
@@ -5159,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Door",
           "package": "probability",
@@ -5167,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Door",
           "package": "probability",
@@ -5180,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Outcome",
           "package": "probability",
@@ -5188,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Outcome",
           "package": "probability",
@@ -5201,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "State",
           "package": "probability",
@@ -5209,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "State",
           "package": "probability",
@@ -5222,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Strategy",
           "package": "probability",
@@ -5230,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Strategy",
           "package": "probability",
@@ -5243,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "StrategyM",
           "package": "probability",
@@ -5251,6 +5716,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "StrategyM",
           "package": "probability",
@@ -5264,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "A",
           "package": "probability",
@@ -5273,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "A",
           "package": "probability",
@@ -5285,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "B",
           "package": "probability",
@@ -5294,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "B",
           "package": "probability",
@@ -5306,6 +5776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "C",
           "package": "probability",
@@ -5315,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "C",
           "package": "probability",
@@ -5327,6 +5799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Doors",
           "package": "probability",
@@ -5336,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Doors",
           "package": "probability",
@@ -5349,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Lose",
           "package": "probability",
@@ -5358,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Lose",
           "package": "probability",
@@ -5371,6 +5847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Win",
           "package": "probability",
@@ -5380,6 +5857,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "Win",
           "package": "probability",
@@ -5393,6 +5871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "choose",
           "package": "probability",
@@ -5402,6 +5881,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "choose",
           "package": "probability",
@@ -5414,6 +5894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "chosen",
           "package": "probability",
@@ -5423,6 +5904,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "chosen",
           "package": "probability",
@@ -5435,6 +5917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "doors",
           "package": "probability",
@@ -5444,6 +5927,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "doors",
           "normalized": "[Door]",
@@ -5458,6 +5942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "eval",
           "package": "probability",
@@ -5467,6 +5952,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "eval",
           "normalized": "Strategy-\u003eDist Outcome",
@@ -5481,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "evalM",
           "package": "probability",
@@ -5490,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "evalM",
           "normalized": "StrategyM-\u003eDist Outcome",
@@ -5504,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "firstChoice",
           "package": "probability",
@@ -5513,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "firstChoice",
           "package": "probability",
@@ -5526,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "game",
           "package": "probability",
@@ -5535,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "game",
           "normalized": "Strategy-\u003eTrans State",
@@ -5550,6 +6042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSteps of the game:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e hide the prize\n\u003c/li\u003e\u003cli\u003e choose a door\n\u003c/li\u003e\u003cli\u003e open a non-open door, not revealing the prize\n\u003c/li\u003e\u003cli\u003e apply strategy: switch or stay\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "hide",
           "package": "probability",
@@ -5560,6 +6053,7 @@
         "index": {
           "description": "Steps of the game hide the prize choose door open non-open door not revealing the prize apply strategy switch or stay",
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "hide",
           "package": "probability",
@@ -5572,6 +6066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "open",
           "package": "probability",
@@ -5581,6 +6076,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "open",
           "package": "probability",
@@ -5593,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "opened",
           "package": "probability",
@@ -5602,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "opened",
           "package": "probability",
@@ -5614,6 +6112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "prize",
           "package": "probability",
@@ -5623,6 +6122,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "prize",
           "package": "probability",
@@ -5635,6 +6135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "result",
           "package": "probability",
@@ -5644,6 +6145,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "result",
           "normalized": "State-\u003eOutcome",
@@ -5658,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "simEval",
           "package": "probability",
@@ -5667,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "simEval",
           "normalized": "Int-\u003eStrategy-\u003eRDist Outcome",
@@ -5683,6 +6187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitial configuration of the game status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "start",
           "package": "probability",
@@ -5693,6 +6198,7 @@
         "index": {
           "description": "initial configuration of the game status",
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "start",
           "package": "probability",
@@ -5705,6 +6211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "stay",
           "package": "probability",
@@ -5714,6 +6221,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "stay",
           "package": "probability",
@@ -5726,6 +6234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "stayM",
           "package": "probability",
@@ -5735,6 +6244,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "stayM",
           "package": "probability",
@@ -5747,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "switch",
           "package": "probability",
@@ -5756,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "switch",
           "package": "probability",
@@ -5768,6 +6280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "switch'",
           "package": "probability",
@@ -5777,6 +6290,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "switch'",
           "package": "probability",
@@ -5789,6 +6303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "switchM",
           "package": "probability",
@@ -5798,6 +6313,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example MontyHall",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.MontyHall",
           "name": "switchM",
           "package": "probability",
@@ -5811,6 +6327,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCeneralization of \u003ca\u003eNumeric.Probability.Example.Boys\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eConsider a family of n children.  Given that there are k boys in the family,\nwhat is the probability that there are m boys in the family?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "NBoys",
           "package": "probability",
@@ -5820,6 +6337,7 @@
         "index": {
           "description": "Ceneralization of Numeric.Probability.Example.Boys Consider family of children Given that there are boys in the family what is the probability that there are boys in the family",
           "hierarchy": "Numeric Probability Example NBoys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "NBoys",
           "package": "probability",
@@ -5833,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "Family",
           "package": "probability",
@@ -5841,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example NBoys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "Family",
           "package": "probability",
@@ -5854,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "boys",
           "package": "probability",
@@ -5863,6 +6384,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example NBoys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "boys",
           "normalized": "Int-\u003eEvent Family",
@@ -5877,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "countBoys",
           "package": "probability",
@@ -5886,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example NBoys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "countBoys",
           "normalized": "Family-\u003eInt",
@@ -5901,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "family",
           "package": "probability",
@@ -5910,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example NBoys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "family",
           "normalized": "Int-\u003eDist Family",
@@ -5924,6 +6450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "nBoys",
           "package": "probability",
@@ -5933,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example NBoys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "nBoys",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eProbability",
@@ -5948,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "numBoys",
           "package": "probability",
@@ -5957,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example NBoys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "numBoys",
           "normalized": "Int-\u003eInt-\u003eDist Int",
@@ -5973,6 +6503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly boys in a family that has one boy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "onlyBoys1",
           "package": "probability",
@@ -5983,6 +6514,7 @@
         "index": {
           "description": "only boys in family that has one boy",
           "hierarchy": "Numeric Probability Example NBoys",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.NBoys",
           "name": "onlyBoys1",
           "normalized": "Int-\u003eProbability",
@@ -5999,6 +6531,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLotka-Volterra predator-prey model\n\u003c/p\u003e\u003cp\u003eparameters\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eg\u003c/code\u003e : victims' growth factor\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ed\u003c/code\u003e : predators' death factor\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003es\u003c/code\u003e : search rate\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ee\u003c/code\u003e : energetic efficiency\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "Predator",
           "package": "probability",
@@ -6008,6 +6541,7 @@
         "index": {
           "description": "Lotka-Volterra predator-prey model parameters victims growth factor predators death factor search rate energetic efficiency",
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "Predator",
           "package": "probability",
@@ -6021,6 +6555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "d",
           "package": "probability",
@@ -6030,6 +6565,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "d",
           "package": "probability",
@@ -6042,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "dp",
           "package": "probability",
@@ -6051,6 +6588,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "dp",
           "normalized": "(Float,Float)-\u003eFloat",
@@ -6065,6 +6603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "dv",
           "package": "probability",
@@ -6074,6 +6613,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "dv",
           "normalized": "(Float,Float)-\u003eFloat",
@@ -6088,6 +6628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "dvp",
           "package": "probability",
@@ -6097,6 +6638,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "dvp",
           "normalized": "(Float,Float)-\u003e(Float,Float)",
@@ -6111,6 +6653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "e",
           "package": "probability",
@@ -6120,6 +6663,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "e",
           "package": "probability",
@@ -6132,6 +6676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "fig1",
           "package": "probability",
@@ -6141,6 +6686,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "fig1",
           "normalized": "Int-\u003eVis",
@@ -6155,6 +6701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "g",
           "package": "probability",
@@ -6164,6 +6711,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "g",
           "package": "probability",
@@ -6176,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "p0",
           "package": "probability",
@@ -6185,6 +6734,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "p0",
           "package": "probability",
@@ -6197,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "ps",
           "package": "probability",
@@ -6206,6 +6757,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "ps",
           "normalized": "[Float]",
@@ -6220,6 +6772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "s",
           "package": "probability",
@@ -6229,6 +6782,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "s",
           "package": "probability",
@@ -6241,6 +6795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "v0",
           "package": "probability",
@@ -6250,6 +6805,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "v0",
           "package": "probability",
@@ -6262,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "vp",
           "package": "probability",
@@ -6271,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "vp",
           "normalized": "[(Float,Float)]",
@@ -6285,6 +6843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Predator",
           "name": "vs",
           "package": "probability",
@@ -6294,6 +6853,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Predator",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Predator",
           "name": "vs",
           "normalized": "[Float]",
@@ -6309,6 +6869,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe newspaper \u003ca\u003eSueddeutsche\u003c/a\u003e asked their readers\nwhat professions 16 persons have,\nby only showing the photographies of them and three choices.\n\u003c/p\u003e\u003cp\u003eTheir statistics was:\n22% readers had  0 to  5 correct answers   (category 0)\n75% readers had  6 to 11 correct answers   (category 1)\n 3% readers had 12 to 16 correct answers   (category 2)\n\u003c/p\u003e\u003cp\u003eCan this statistics be explained with random guessing,\nor is there some information in the photographies\nthat the readers could utilize?\n\u003c/p\u003e\u003cp\u003eI got 6 correct answers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Profession",
           "name": "Profession",
           "package": "probability",
@@ -6318,6 +6879,7 @@
         "index": {
           "description": "The newspaper Sueddeutsche asked their readers what professions persons have by only showing the photographies of them and three choices Their statistics was readers had to correct answers category readers had to correct answers category readers had to correct answers category Can this statistics be explained with random guessing or is there some information in the photographies that the readers could utilize got correct answers",
           "hierarchy": "Numeric Probability Example Profession",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Profession",
           "name": "Profession",
           "package": "probability",
@@ -6331,6 +6893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Profession",
           "name": "Dist",
           "package": "probability",
@@ -6339,6 +6902,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Profession",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Profession",
           "name": "Dist",
           "package": "probability",
@@ -6352,6 +6916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Profession",
           "name": "Probability",
           "package": "probability",
@@ -6360,6 +6925,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Profession",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Profession",
           "name": "Probability",
           "package": "probability",
@@ -6373,6 +6939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Profession",
           "name": "categories",
           "package": "probability",
@@ -6382,6 +6949,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Profession",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Profession",
           "name": "categories",
           "package": "probability",
@@ -6394,6 +6962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Profession",
           "name": "correctAnswers",
           "package": "probability",
@@ -6403,6 +6972,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Profession",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Profession",
           "name": "correctAnswers",
           "package": "probability",
@@ -6417,6 +6987,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModel:\n\u003c/p\u003e\u003cp\u003eone server serving customers from one queue\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Queuing",
           "package": "probability",
@@ -6426,6 +6997,7 @@
         "index": {
           "description": "Model one server serving customers from one queue",
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Queuing",
           "package": "probability",
@@ -6439,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Event",
           "package": "probability",
@@ -6447,6 +7020,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Event",
           "package": "probability",
@@ -6460,6 +7034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Events",
           "package": "probability",
@@ -6468,6 +7043,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Events",
           "package": "probability",
@@ -6482,6 +7058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(servingTime, nextArrival)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Profile",
           "package": "probability",
@@ -6491,6 +7068,7 @@
         "index": {
           "description": "servingTime nextArrival",
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Profile",
           "package": "probability",
@@ -6505,6 +7083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecustomers and their individual serving times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Queue",
           "package": "probability",
@@ -6514,6 +7093,7 @@
         "index": {
           "description": "customers and their individual serving times",
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Queue",
           "package": "probability",
@@ -6527,6 +7107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "REvent",
           "package": "probability",
@@ -6535,6 +7116,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "REvent",
           "package": "probability",
@@ -6548,6 +7130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "REvents",
           "package": "probability",
@@ -6556,6 +7139,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "REvents",
           "package": "probability",
@@ -6569,6 +7153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "RProfile",
           "package": "probability",
@@ -6577,6 +7162,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "RProfile",
           "package": "probability",
@@ -6591,6 +7177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(customers waiting,validity period of that queue)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "State",
           "package": "probability",
@@ -6600,6 +7187,7 @@
         "index": {
           "description": "customers waiting validity period of that queue",
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "State",
           "package": "probability",
@@ -6613,6 +7201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "System",
           "package": "probability",
@@ -6621,6 +7210,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "System",
           "package": "probability",
@@ -6634,6 +7224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Time",
           "package": "probability",
@@ -6642,6 +7233,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "Time",
           "package": "probability",
@@ -6655,6 +7247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "allWaiting",
           "package": "probability",
@@ -6664,6 +7257,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "allWaiting",
           "normalized": "Int-\u003eSystem a-\u003e[a]",
@@ -6679,6 +7273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "countWaiting",
           "package": "probability",
@@ -6688,6 +7283,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "countWaiting",
           "normalized": "Int-\u003eSystem a-\u003eInt",
@@ -6703,6 +7299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "evalSystem",
           "package": "probability",
@@ -6712,6 +7309,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "evalSystem",
           "normalized": "Int-\u003eInt-\u003eREvents a-\u003e(System a-\u003eb)-\u003eRDist b",
@@ -6727,6 +7325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "event",
           "package": "probability",
@@ -6736,6 +7335,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "event",
           "normalized": "Time-\u003eEvents a-\u003eQueue a-\u003e[State a]",
@@ -6750,6 +7350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "idle",
           "package": "probability",
@@ -6759,6 +7360,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "idle",
           "normalized": "Int-\u003eSystem a-\u003eTime",
@@ -6773,6 +7375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "idleAvgP",
           "package": "probability",
@@ -6782,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "idleAvgP",
           "normalized": "Int-\u003eSystem a-\u003eFloat",
@@ -6797,6 +7401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "inSystem",
           "package": "probability",
@@ -6806,6 +7411,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "inSystem",
           "normalized": "System a-\u003eTime",
@@ -6822,6 +7428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emultiple servers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "mEvent",
           "package": "probability",
@@ -6832,6 +7439,7 @@
         "index": {
           "description": "multiple servers",
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "mEvent",
           "normalized": "Int-\u003eTime-\u003eEvents a-\u003eQueue a-\u003e[State a]",
@@ -6848,6 +7456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecrease served customers remaining time by specified amount\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "mServe",
           "package": "probability",
@@ -6858,6 +7467,7 @@
         "index": {
           "description": "decrease served customers remaining time by specified amount",
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "mServe",
           "normalized": "Int-\u003eInt-\u003eQueue a-\u003eQueue a",
@@ -6873,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "mSystem",
           "package": "probability",
@@ -6882,6 +7493,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "mSystem",
           "normalized": "Int-\u003eEvents a-\u003eSystem a",
@@ -6898,6 +7510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etime until next completion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "mTimeStep",
           "package": "probability",
@@ -6908,6 +7521,7 @@
         "index": {
           "description": "time until next completion",
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "mTimeStep",
           "normalized": "Int-\u003eQueue a-\u003eInt",
@@ -6923,6 +7537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "maxQueue",
           "package": "probability",
@@ -6932,6 +7547,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "maxQueue",
           "normalized": "System a-\u003eInt",
@@ -6947,6 +7563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "rBuildEvents",
           "package": "probability",
@@ -6956,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "rBuildEvents",
           "normalized": "REvents a-\u003eT(Events a)",
@@ -6971,6 +7589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "rSystem",
           "package": "probability",
@@ -6980,6 +7599,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "rSystem",
           "normalized": "Int-\u003eREvents a-\u003eT(System a)",
@@ -6995,6 +7615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "rmSystem",
           "package": "probability",
@@ -7004,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "rmSystem",
           "normalized": "Int-\u003eInt-\u003eREvents a-\u003eRDist(System a)",
@@ -7019,6 +7641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "server",
           "package": "probability",
@@ -7028,6 +7651,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "server",
           "normalized": "Int-\u003eSystem a-\u003eTime",
@@ -7042,6 +7666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "system",
           "package": "probability",
@@ -7051,6 +7676,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "system",
           "normalized": "Events a-\u003eSystem a",
@@ -7065,6 +7691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "total",
           "package": "probability",
@@ -7074,6 +7701,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "total",
           "normalized": "System a-\u003eTime",
@@ -7088,6 +7716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "unit",
           "package": "probability",
@@ -7097,6 +7726,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "unit",
           "normalized": "a-\u003e((),a)",
@@ -7111,6 +7741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "waiting",
           "package": "probability",
@@ -7120,6 +7751,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example Queuing",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.Queuing",
           "name": "waiting",
           "normalized": "Int-\u003eSystem a-\u003eTime",
@@ -7134,6 +7766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "TreeGrowth",
           "package": "probability",
@@ -7142,6 +7775,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "TreeGrowth",
           "package": "probability",
@@ -7155,6 +7789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Height",
           "package": "probability",
@@ -7163,6 +7798,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Height",
           "package": "probability",
@@ -7176,6 +7812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Tree",
           "package": "probability",
@@ -7184,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Tree",
           "package": "probability",
@@ -7197,6 +7835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Alive",
           "package": "probability",
@@ -7206,6 +7845,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Alive",
           "package": "probability",
@@ -7219,6 +7859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Fallen",
           "package": "probability",
@@ -7228,6 +7869,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Fallen",
           "package": "probability",
@@ -7241,6 +7883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Hit",
           "package": "probability",
@@ -7250,6 +7893,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "Hit",
           "package": "probability",
@@ -7263,6 +7907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "done",
           "package": "probability",
@@ -7272,6 +7917,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "done",
           "normalized": "Tree-\u003eBool",
@@ -7286,6 +7932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "ev5",
           "package": "probability",
@@ -7295,6 +7942,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "ev5",
           "normalized": "Tree-\u003eDist Tree",
@@ -7309,6 +7957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "evolve",
           "package": "probability",
@@ -7318,6 +7967,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "evolve",
           "package": "probability",
@@ -7330,6 +7980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "fall",
           "package": "probability",
@@ -7339,6 +7990,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "fall",
           "package": "probability",
@@ -7351,6 +8003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "grow",
           "package": "probability",
@@ -7360,6 +8013,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "grow",
           "package": "probability",
@@ -7372,6 +8026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "h2",
           "package": "probability",
@@ -7381,6 +8036,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "h2",
           "package": "probability",
@@ -7393,6 +8049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "height",
           "package": "probability",
@@ -7402,6 +8059,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "height",
           "normalized": "Tree-\u003eInt",
@@ -7416,6 +8074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "heightAtTime",
           "package": "probability",
@@ -7425,6 +8084,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "heightAtTime",
           "normalized": "Int-\u003ePlot",
@@ -7440,6 +8100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "heightCurve",
           "package": "probability",
@@ -7449,6 +8110,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "heightCurve",
           "normalized": "(Int,Color)-\u003ePlot",
@@ -7465,6 +8127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehist n\u003c/code\u003e : history of tree distributions for n generations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "hist",
           "package": "probability",
@@ -7475,6 +8138,7 @@
         "index": {
           "description": "hist history of tree distributions for generations",
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "hist",
           "normalized": "Int-\u003eExpand Tree",
@@ -7489,6 +8153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "hit",
           "package": "probability",
@@ -7498,6 +8163,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "hit",
           "package": "probability",
@@ -7510,6 +8176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p1",
           "package": "probability",
@@ -7519,6 +8186,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p1",
           "package": "probability",
@@ -7531,6 +8199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p2",
           "package": "probability",
@@ -7540,6 +8209,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p2",
           "package": "probability",
@@ -7552,6 +8222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p3",
           "package": "probability",
@@ -7561,6 +8232,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p3",
           "package": "probability",
@@ -7573,6 +8245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p4",
           "package": "probability",
@@ -7582,6 +8255,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p4",
           "package": "probability",
@@ -7594,6 +8268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p5",
           "package": "probability",
@@ -7603,6 +8278,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p5",
           "package": "probability",
@@ -7615,6 +8291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p6",
           "package": "probability",
@@ -7624,6 +8301,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "p6",
           "package": "probability",
@@ -7637,6 +8315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etree growth simulation:\n start with seed and run for n generations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "seed",
           "package": "probability",
@@ -7647,6 +8326,7 @@
         "index": {
           "description": "tree growth simulation start with seed and run for generations",
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "seed",
           "package": "probability",
@@ -7659,6 +8339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "sh2",
           "package": "probability",
@@ -7668,6 +8349,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "sh2",
           "normalized": "IO()",
@@ -7682,6 +8364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "simHist",
           "package": "probability",
@@ -7691,6 +8374,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "simHist",
           "normalized": "Int-\u003eInt-\u003eRExpand Tree",
@@ -7707,6 +8391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince '(*.)' is overloaded for Trans and RChange,\nwe can run the simulation ~. directly to \u003ccode\u003en *. live\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "simTree",
           "package": "probability",
@@ -7717,6 +8402,7 @@
         "index": {
           "description": "Since is overloaded for Trans and RChange we can run the simulation directly to live",
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "simTree",
           "normalized": "Int-\u003eInt-\u003eRTrans Tree",
@@ -7732,6 +8418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "st2",
           "package": "probability",
@@ -7741,6 +8428,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "st2",
           "normalized": "IO()",
@@ -7755,6 +8443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "t2",
           "package": "probability",
@@ -7764,6 +8453,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "t2",
           "package": "probability",
@@ -7777,6 +8467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etree n\u003c/code\u003e : tree distribution after n generations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "tree",
           "package": "probability",
@@ -7787,6 +8478,7 @@
         "index": {
           "description": "tree tree distribution after generations",
           "hierarchy": "Numeric Probability Example TreeGrowth",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Example.TreeGrowth",
           "name": "tree",
           "normalized": "Int-\u003eTree-\u003eDist Tree",
@@ -7801,6 +8493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "Expectation",
           "package": "probability",
@@ -7809,6 +8502,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "Expectation",
           "package": "probability",
@@ -7822,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "Expected",
           "package": "probability",
@@ -7830,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "Expected",
           "package": "probability",
@@ -7843,6 +8539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "FromFloat",
           "package": "probability",
@@ -7851,6 +8548,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "FromFloat",
           "package": "probability",
@@ -7864,6 +8562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "ToFloat",
           "package": "probability",
@@ -7872,6 +8571,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "ToFloat",
           "package": "probability",
@@ -7885,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "expected",
           "package": "probability",
@@ -7894,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "expected",
           "normalized": "a-\u003eFloat",
@@ -7908,6 +8610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "floatDist",
           "package": "probability",
@@ -7917,6 +8620,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "floatDist",
           "normalized": "T a b-\u003eT Float Float",
@@ -7932,6 +8636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "fromFloat",
           "package": "probability",
@@ -7941,6 +8646,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "fromFloat",
           "normalized": "Float-\u003ea",
@@ -7956,6 +8662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "stdDev",
           "package": "probability",
@@ -7965,6 +8672,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "stdDev",
           "normalized": "Dist a-\u003eFloat",
@@ -7980,6 +8688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "toFloat",
           "package": "probability",
@@ -7989,6 +8698,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "toFloat",
           "normalized": "a-\u003eFloat",
@@ -8005,6 +8715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatistical analyses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Expectation",
           "name": "variance",
           "package": "probability",
@@ -8015,6 +8726,7 @@
         "index": {
           "description": "statistical analyses",
           "hierarchy": "Numeric Probability Expectation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Expectation",
           "name": "variance",
           "normalized": "Dist a-\u003eFloat",
@@ -8030,6 +8742,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract interface to probabilistic objects\nlike random generators and probability distributions.\nIt allows to use the same code\nboth for computing complete distributions\nand for generating random values according to the distribution.\nThe latter one is of course more efficient\nand may be used for approximation of the distribution by simulation.\n\u003c/p\u003e\u003cp\u003eMaybe a better name is \u003ccode\u003eExperiment\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "Object",
           "package": "probability",
@@ -8039,6 +8752,7 @@
         "index": {
           "description": "Abstract interface to probabilistic objects like random generators and probability distributions It allows to use the same code both for computing complete distributions and for generating random values according to the distribution The latter one is of course more efficient and may be used for approximation of the distribution by simulation Maybe better name is Experiment",
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "Object",
           "package": "probability",
@@ -8052,6 +8766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "C",
           "package": "probability",
@@ -8060,6 +8775,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "C",
           "package": "probability",
@@ -8072,6 +8788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "Spread",
           "package": "probability",
@@ -8080,6 +8797,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "Spread",
           "package": "probability",
@@ -8093,6 +8811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "enum",
           "package": "probability",
@@ -8102,6 +8821,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "enum",
           "normalized": "[Int]-\u003eSpread a b",
@@ -8116,6 +8836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "fromFrequencies",
           "package": "probability",
@@ -8125,6 +8846,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "fromFrequencies",
           "normalized": "[(a,b)]-\u003ec a",
@@ -8140,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "linear",
           "package": "probability",
@@ -8149,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "linear",
           "package": "probability",
@@ -8161,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "negExp",
           "package": "probability",
@@ -8170,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "negExp",
           "package": "probability",
@@ -8183,6 +8909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "normal",
           "package": "probability",
@@ -8192,6 +8919,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "normal",
           "package": "probability",
@@ -8205,6 +8933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a list of frequencies, they do not need to sum up to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "relative",
           "package": "probability",
@@ -8215,6 +8944,7 @@
         "index": {
           "description": "Give list of frequencies they do not need to sum up to",
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "relative",
           "normalized": "[a]-\u003eSpread b c",
@@ -8229,6 +8959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "shape",
           "package": "probability",
@@ -8238,6 +8969,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "shape",
           "normalized": "(a-\u003ea)-\u003eSpread b c",
@@ -8252,6 +8984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Object",
           "name": "uniform",
           "package": "probability",
@@ -8261,6 +8994,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Object",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Object",
           "name": "uniform",
           "package": "probability",
@@ -8274,6 +9008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumber type based on Float with formatting in percents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "Percentage",
           "package": "probability",
@@ -8283,6 +9018,7 @@
         "index": {
           "description": "Number type based on Float with formatting in percents",
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "Percentage",
           "package": "probability",
@@ -8296,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "Dist",
           "package": "probability",
@@ -8304,6 +9041,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "Dist",
           "package": "probability",
@@ -8317,6 +9055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "Expand",
           "package": "probability",
@@ -8325,6 +9064,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "Expand",
           "package": "probability",
@@ -8338,6 +9078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "RDist",
           "package": "probability",
@@ -8346,6 +9087,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "RDist",
           "package": "probability",
@@ -8359,6 +9101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "RExpand",
           "package": "probability",
@@ -8367,6 +9110,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "RExpand",
           "package": "probability",
@@ -8380,6 +9124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "RSpace",
           "package": "probability",
@@ -8388,6 +9133,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "RSpace",
           "package": "probability",
@@ -8401,6 +9147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "RTrans",
           "package": "probability",
@@ -8409,6 +9156,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "RTrans",
           "package": "probability",
@@ -8422,6 +9170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "Space",
           "package": "probability",
@@ -8430,6 +9179,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "Space",
           "package": "probability",
@@ -8443,6 +9193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "Spread",
           "package": "probability",
@@ -8451,6 +9202,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "Spread",
           "package": "probability",
@@ -8464,6 +9216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "T",
           "package": "probability",
@@ -8472,6 +9225,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "T",
           "package": "probability",
@@ -8484,6 +9238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "Trans",
           "package": "probability",
@@ -8492,6 +9247,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "Trans",
           "package": "probability",
@@ -8506,6 +9262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint distribution as table with configurable precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "(//)",
           "package": "probability",
@@ -8516,6 +9273,7 @@
         "index": {
           "description": "Print distribution as table with configurable precision",
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "(//) //",
           "normalized": "Dist a-\u003eInt-\u003eIO()",
@@ -8530,6 +9288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "(//*)",
           "package": "probability",
@@ -8539,6 +9298,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "(//*) //*",
           "normalized": "Dist a-\u003e(Int,Int)-\u003eIO()",
@@ -8553,6 +9313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "Cons",
           "package": "probability",
@@ -8562,6 +9323,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "Cons",
           "package": "probability",
@@ -8575,6 +9337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "liftP",
           "package": "probability",
@@ -8584,6 +9347,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "liftP",
           "normalized": "(Float-\u003eFloat)-\u003eT-\u003eT",
@@ -8598,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "liftP2",
           "package": "probability",
@@ -8607,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "liftP2",
           "normalized": "(Float-\u003eFloat-\u003eFloat)-\u003eT-\u003eT-\u003eT",
@@ -8621,6 +9387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "percent",
           "package": "probability",
@@ -8630,6 +9397,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "percent",
           "normalized": "Float-\u003eT",
@@ -8644,6 +9412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "roundRel",
           "package": "probability",
@@ -8653,6 +9422,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "roundRel",
           "normalized": "Int-\u003ea-\u003ea",
@@ -8668,6 +9438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Percentage",
           "name": "showPfix",
           "package": "probability",
@@ -8677,6 +9448,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Percentage",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Percentage",
           "name": "showPfix",
           "normalized": "Int-\u003ea-\u003eString",
@@ -8693,6 +9465,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRandomized values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "Random",
           "package": "probability",
@@ -8702,6 +9475,7 @@
         "index": {
           "description": "Randomized values",
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "Random",
           "package": "probability",
@@ -8715,6 +9489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "ApproxDist",
           "package": "probability",
@@ -8723,6 +9498,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "ApproxDist",
           "package": "probability",
@@ -8737,6 +9513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erandom change\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "Change",
           "package": "probability",
@@ -8746,6 +9523,7 @@
         "index": {
           "description": "random change",
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "Change",
           "package": "probability",
@@ -8760,6 +9538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomized distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "Distribution",
           "package": "probability",
@@ -8769,6 +9548,7 @@
         "index": {
           "description": "Randomized distribution",
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "Distribution",
           "package": "probability",
@@ -8783,6 +9563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "T",
           "package": "probability",
@@ -8792,6 +9573,7 @@
         "index": {
           "description": "Random values",
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "T",
           "package": "probability",
@@ -8805,6 +9587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erandom transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "Transition",
           "package": "probability",
@@ -8814,6 +9597,7 @@
         "index": {
           "description": "random transition",
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "Transition",
           "package": "probability",
@@ -8827,6 +9611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "Cons",
           "package": "probability",
@@ -8836,6 +9621,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "Cons",
           "package": "probability",
@@ -8849,6 +9635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "above",
           "package": "probability",
@@ -8858,6 +9645,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "above",
           "normalized": "a-\u003eDistribution a b-\u003eDistribution a(Select b)",
@@ -8872,6 +9660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "change",
           "package": "probability",
@@ -8881,6 +9670,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "change",
           "normalized": "T a b-\u003eChange b",
@@ -8895,6 +9685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "decons",
           "package": "probability",
@@ -8904,6 +9695,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "decons",
           "package": "probability",
@@ -8917,6 +9709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edist\u003c/a\u003e\u003c/code\u003e converts a list of randomly generated values into\na distribution by taking equal weights for all values.\nThus \u003ccode\u003edist (replicate n rnd)\u003c/code\u003e simulates \u003ccode\u003ernd\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e times\nand returns an estimation of the distribution represented by \u003ccode\u003ernd\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "dist",
           "package": "probability",
@@ -8927,6 +9720,7 @@
         "index": {
           "description": "dist converts list of randomly generated values into distribution by taking equal weights for all values Thus dist replicate rnd simulates rnd times and returns an estimation of the distribution represented by rnd",
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "dist",
           "normalized": "[T a]-\u003eDistribution b a",
@@ -8941,6 +9735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "pick",
           "package": "probability",
@@ -8950,6 +9745,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "pick",
           "normalized": "T a b-\u003eT b",
@@ -8964,6 +9760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "print",
           "package": "probability",
@@ -8973,6 +9770,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "print",
           "normalized": "T a-\u003eIO()",
@@ -8987,6 +9785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "randomR",
           "package": "probability",
@@ -8996,6 +9795,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "randomR",
           "normalized": "(a,a)-\u003eT a",
@@ -9011,6 +9811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun random action in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "run",
           "package": "probability",
@@ -9021,6 +9822,7 @@
         "index": {
           "description": "Run random action in IO monad",
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "run",
           "normalized": "T a-\u003eIO a",
@@ -9036,6 +9838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun random action without \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e using a seed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Random",
           "name": "runSeed",
           "package": "probability",
@@ -9046,6 +9849,7 @@
         "index": {
           "description": "Run random action without IO using seed",
           "hierarchy": "Numeric Probability Random",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Random",
           "name": "runSeed",
           "normalized": "StdGen-\u003eT a-\u003ea",
@@ -9062,6 +9866,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of some shapes of distribution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Shape",
           "name": "Shape",
           "package": "probability",
@@ -9071,6 +9876,7 @@
         "index": {
           "description": "Collection of some shapes of distribution",
           "hierarchy": "Numeric Probability Shape",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Shape",
           "name": "Shape",
           "package": "probability",
@@ -9085,6 +9891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shape is a mapping from the interval \u003ccode\u003e[0,1]\u003c/code\u003e to non-negative numbers.\nThey need not to be normalized (sum up to 1)\nbecause this is done by subsequent steps.\n(It would also be impossible to normalize the function in a way\nthat each discretization is normalized as well.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Shape",
           "name": "T",
           "package": "probability",
@@ -9094,6 +9901,7 @@
         "index": {
           "description": "shape is mapping from the interval to non-negative numbers They need not to be normalized sum up to because this is done by subsequent steps It would also be impossible to normalize the function in way that each discretization is normalized as well",
           "hierarchy": "Numeric Probability Shape",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Shape",
           "name": "T",
           "package": "probability",
@@ -9106,6 +9914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Shape",
           "name": "linear",
           "package": "probability",
@@ -9115,6 +9924,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Shape",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Shape",
           "name": "linear",
           "package": "probability",
@@ -9127,6 +9937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Shape",
           "name": "negExp",
           "package": "probability",
@@ -9136,6 +9947,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Shape",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Shape",
           "name": "negExp",
           "package": "probability",
@@ -9149,6 +9961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Shape",
           "name": "normal",
           "package": "probability",
@@ -9158,6 +9971,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Shape",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Shape",
           "name": "normal",
           "package": "probability",
@@ -9170,6 +9984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Shape",
           "name": "normalCurve",
           "package": "probability",
@@ -9179,6 +9994,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Shape",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Shape",
           "name": "normalCurve",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -9194,6 +10010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Shape",
           "name": "uniform",
           "package": "probability",
@@ -9203,6 +10020,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Shape",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Shape",
           "name": "uniform",
           "package": "probability",
@@ -9216,6 +10034,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Simulation",
           "name": "Simulation",
           "package": "probability",
@@ -9225,6 +10044,7 @@
         "index": {
           "description": "Simulation",
           "hierarchy": "Numeric Probability Simulation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Simulation",
           "name": "Simulation",
           "package": "probability",
@@ -9239,6 +10059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimulation means to repeat a Rnd.change change many times and\nto accumulate all results into a distribution. Therefore,\nsimulation can be regarded as an approximation of distributions\nthrough randomization.\n\u003c/p\u003e\u003cp\u003eThe Sim class allows the overloading of simulation for different\nkinds of generators, namely transitions and Rnd.change changes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003eTrans   a = a -\u003e Dist a   ==\u003e   c = Dist\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eRChange a = a -\u003e Rnd.T a  ==\u003e   c = Rnd.T = IO\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Simulation",
           "name": "C",
           "package": "probability",
@@ -9248,6 +10069,7 @@
         "index": {
           "description": "Simulation means to repeat Rnd.change change many times and to accumulate all results into distribution Therefore simulation can be regarded as an approximation of distributions through randomization The Sim class allows the overloading of simulation for different kinds of generators namely transitions and Rnd.change changes Trans Dist Dist RChange Rnd.T Rnd.T IO",
           "hierarchy": "Numeric Probability Simulation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Simulation",
           "name": "C",
           "package": "probability",
@@ -9261,6 +10083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the whole trace for a single simulation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Simulation",
           "name": "(~*.)",
           "package": "probability",
@@ -9271,6 +10094,7 @@
         "index": {
           "description": "returns the whole trace for single simulation",
           "hierarchy": "Numeric Probability Simulation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Simulation",
           "name": "(~*.) ~*.",
           "normalized": "(Int,Int)-\u003e(a-\u003eb a)-\u003eTransition c a",
@@ -9286,6 +10110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the final randomized transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Simulation",
           "name": "(~.)",
           "package": "probability",
@@ -9296,6 +10121,7 @@
         "index": {
           "description": "returns the final randomized transition",
           "hierarchy": "Numeric Probability Simulation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Simulation",
           "name": "(~.) ~.",
           "normalized": "Int-\u003e(a-\u003eb a)-\u003eTransition c a",
@@ -9311,6 +10137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the whole trace for a k-fold simulation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Simulation",
           "name": "(~..)",
           "package": "probability",
@@ -9321,6 +10148,7 @@
         "index": {
           "description": "returns the whole trace for k-fold simulation",
           "hierarchy": "Numeric Probability Simulation",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Simulation",
           "name": "(~..) ~..",
           "normalized": "(Int,Int)-\u003e(a-\u003eb a)-\u003eRExpand c a",
@@ -9336,6 +10164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTracing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "Trace",
           "package": "probability",
@@ -9345,6 +10174,7 @@
         "index": {
           "description": "Tracing",
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "Trace",
           "package": "probability",
@@ -9358,6 +10188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "Expand",
           "package": "probability",
@@ -9366,6 +10197,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "Expand",
           "package": "probability",
@@ -9379,6 +10211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "RExpand",
           "package": "probability",
@@ -9387,6 +10220,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "RExpand",
           "package": "probability",
@@ -9400,6 +10234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "RSpace",
           "package": "probability",
@@ -9408,6 +10243,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "RSpace",
           "package": "probability",
@@ -9421,6 +10257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "RTrace",
           "package": "probability",
@@ -9429,6 +10266,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "RTrace",
           "package": "probability",
@@ -9442,6 +10280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "RWalk",
           "package": "probability",
@@ -9450,6 +10289,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "RWalk",
           "package": "probability",
@@ -9463,6 +10303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "Space",
           "package": "probability",
@@ -9471,6 +10312,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "Space",
           "package": "probability",
@@ -9484,6 +10326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "Trace",
           "package": "probability",
@@ -9492,6 +10335,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "Trace",
           "package": "probability",
@@ -9505,6 +10349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "Walk",
           "package": "probability",
@@ -9513,6 +10358,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "Walk",
           "package": "probability",
@@ -9527,6 +10373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/code\u003e converts a list of \u003ccode\u003e\u003ca\u003eRTrace\u003c/a\u003e\u003c/code\u003es\ninto a list of randomized distributions, i.e., an \u003ccode\u003e\u003ca\u003eRSpace\u003c/a\u003e\u003c/code\u003e,\nby creating a randomized distribution for each list position across all traces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "merge",
           "package": "probability",
@@ -9537,6 +10384,7 @@
         "index": {
           "description": "merge converts list of RTrace into list of randomized distributions i.e an RSpace by creating randomized distribution for each list position across all traces",
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "merge",
           "normalized": "[RTrace a]-\u003eRSpace b a",
@@ -9552,6 +10400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewalk is a bounded version of the predefined function iterate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "walk",
           "package": "probability",
@@ -9562,6 +10411,7 @@
         "index": {
           "description": "walk is bounded version of the predefined function iterate",
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "walk",
           "normalized": "Int-\u003eChange a-\u003eWalk a",
@@ -9576,6 +10426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Trace",
           "name": "zipListWith",
           "package": "probability",
@@ -9585,6 +10436,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Trace",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Trace",
           "name": "zipListWith",
           "normalized": "([a]-\u003eb)-\u003e[[a]]-\u003e[b]",
@@ -9601,6 +10453,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeterministic and probabilistic generators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "Transition",
           "package": "probability",
@@ -9610,6 +10463,7 @@
         "index": {
           "description": "Deterministic and probabilistic generators",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "Transition",
           "package": "probability",
@@ -9624,6 +10478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeterministic generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "Change",
           "package": "probability",
@@ -9633,6 +10488,7 @@
         "index": {
           "description": "deterministic generator",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "Change",
           "package": "probability",
@@ -9647,6 +10503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctions to convert a list of changes into a transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "SpreadC",
           "package": "probability",
@@ -9656,6 +10513,7 @@
         "index": {
           "description": "functions to convert list of changes into transition",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "SpreadC",
           "package": "probability",
@@ -9670,6 +10528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctions to convert a list of transitions into a transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "SpreadT",
           "package": "probability",
@@ -9679,6 +10538,7 @@
         "index": {
           "description": "functions to convert list of transitions into transition",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "SpreadT",
           "package": "probability",
@@ -9693,6 +10553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprobabilistic generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "T",
           "package": "probability",
@@ -9702,6 +10563,7 @@
         "index": {
           "description": "probabilistic generator",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "T",
           "package": "probability",
@@ -9714,6 +10576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "apply",
           "package": "probability",
@@ -9723,6 +10586,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "apply",
           "normalized": "Change a-\u003eT b a",
@@ -9738,6 +10602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of transitions similar to \u003ccode\u003e\u003ca\u003ecompose\u003c/a\u003e\u003c/code\u003e\nbut with intermediate duplicate elimination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "compose",
           "package": "probability",
@@ -9748,6 +10613,7 @@
         "index": {
           "description": "Composition of transitions similar to compose but with intermediate duplicate elimination",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "compose",
           "normalized": "[T a b]-\u003eT a b",
@@ -9762,6 +10628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "enum",
           "package": "probability",
@@ -9771,6 +10638,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "enum",
           "normalized": "[Int]-\u003eSpreadC a b",
@@ -9785,6 +10653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "enumT",
           "package": "probability",
@@ -9794,6 +10663,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "enumT",
           "normalized": "[Int]-\u003eSpreadT a b",
@@ -9809,6 +10679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003efix $ go a -\u003e do ...; go xy\u003c/code\u003e\nany action after a \u003ccode\u003ego\u003c/code\u003e is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "fix",
           "package": "probability",
@@ -9819,6 +10690,7 @@
         "index": {
           "description": "In fix go do go xy any action after go is ignored",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "fix",
           "normalized": "((a-\u003eEitherT a(T b)c)-\u003ea-\u003eEitherT a(T b)c)-\u003eT b a-\u003eT b c",
@@ -9833,6 +10705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "id",
           "package": "probability",
@@ -9842,6 +10715,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "id",
           "package": "probability",
@@ -9854,6 +10728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "lift",
           "package": "probability",
@@ -9863,6 +10738,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "lift",
           "normalized": "Spread a b-\u003eSpreadC a b",
@@ -9877,6 +10753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "liftT",
           "package": "probability",
@@ -9886,6 +10763,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "liftT",
           "normalized": "Spread a(T a b)-\u003eSpreadT a b",
@@ -9900,6 +10778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "linear",
           "package": "probability",
@@ -9909,6 +10788,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "linear",
           "package": "probability",
@@ -9921,6 +10801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "linearT",
           "package": "probability",
@@ -9930,6 +10811,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "linearT",
           "package": "probability",
@@ -9943,6 +10825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e maps a change function to the result of a transformation\n(\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e is somehow a lifted form of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e)\nThe restricted type of \u003ccode\u003ef\u003c/code\u003e results from the fact that the\nargument to \u003ccode\u003et\u003c/code\u003e cannot be changed to \u003ccode\u003eb\u003c/code\u003e in the result \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "map",
           "package": "probability",
@@ -9953,6 +10836,7 @@
         "index": {
           "description": "map maps change function to the result of transformation map is somehow lifted form of map The restricted type of results from the fact that the argument to cannot be changed to in the result type",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "map",
           "normalized": "Change a-\u003eT b a-\u003eT b a",
@@ -9967,6 +10851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "maybe",
           "package": "probability",
@@ -9976,6 +10861,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "maybe",
           "normalized": "a-\u003eChange b-\u003eT a b",
@@ -9990,6 +10876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "normal",
           "package": "probability",
@@ -9999,6 +10886,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "normal",
           "package": "probability",
@@ -10011,6 +10899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "normalT",
           "package": "probability",
@@ -10020,6 +10909,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "normalT",
           "package": "probability",
@@ -10032,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "relative",
           "package": "probability",
@@ -10041,6 +10932,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "relative",
           "normalized": "[a]-\u003eSpreadC a b",
@@ -10055,6 +10947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "relativeT",
           "package": "probability",
@@ -10064,6 +10957,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "relativeT",
           "normalized": "[a]-\u003eSpreadT a b",
@@ -10079,6 +10973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunfold a distribution of transitions into one transition\n\u003c/p\u003e\u003cp\u003eNOTE: The argument transitions must be independent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "unfold",
           "package": "probability",
@@ -10089,6 +10984,7 @@
         "index": {
           "description": "unfold distribution of transitions into one transition NOTE The argument transitions must be independent",
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "unfold",
           "normalized": "T a(T a b)-\u003eT a b",
@@ -10103,6 +10999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "uniform",
           "package": "probability",
@@ -10112,6 +11009,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "uniform",
           "package": "probability",
@@ -10124,6 +11022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "uniformT",
           "package": "probability",
@@ -10133,6 +11032,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "uniformT",
           "package": "probability",
@@ -10145,6 +11045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Transition",
           "name": "untilLeft",
           "package": "probability",
@@ -10154,6 +11055,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Transition",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Transition",
           "name": "untilLeft",
           "normalized": "(a-\u003eT b(Either c a))-\u003eT b a-\u003eT b c",
@@ -10169,6 +11071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Visualize",
           "package": "probability",
@@ -10177,6 +11080,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Visualize",
           "package": "probability",
@@ -10190,6 +11094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Color",
           "package": "probability",
@@ -10198,6 +11103,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Color",
           "package": "probability",
@@ -10212,6 +11118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eglobal settings for one figure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "FigureEnv",
           "package": "probability",
@@ -10221,6 +11128,7 @@
         "index": {
           "description": "global settings for one figure",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "FigureEnv",
           "package": "probability",
@@ -10234,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "LineStyle",
           "package": "probability",
@@ -10242,6 +11151,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "LineStyle",
           "package": "probability",
@@ -10256,6 +11166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esettings for individual plots\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Plot",
           "package": "probability",
@@ -10265,6 +11176,7 @@
         "index": {
           "description": "settings for individual plots",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Plot",
           "package": "probability",
@@ -10278,6 +11190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "PlotFun",
           "package": "probability",
@@ -10286,6 +11199,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "PlotFun",
           "package": "probability",
@@ -10300,6 +11214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisualization output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Vis",
           "package": "probability",
@@ -10309,6 +11224,7 @@
         "index": {
           "description": "Visualization output",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Vis",
           "package": "probability",
@@ -10322,6 +11238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Black",
           "package": "probability",
@@ -10331,6 +11248,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Black",
           "package": "probability",
@@ -10344,6 +11262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Blue",
           "package": "probability",
@@ -10353,6 +11272,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Blue",
           "package": "probability",
@@ -10366,6 +11286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Brown",
           "package": "probability",
@@ -10375,6 +11296,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Brown",
           "package": "probability",
@@ -10388,6 +11310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Custom",
           "package": "probability",
@@ -10397,6 +11320,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Custom",
           "package": "probability",
@@ -10410,6 +11334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Cyan",
           "package": "probability",
@@ -10419,6 +11344,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Cyan",
           "package": "probability",
@@ -10432,6 +11358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "DarkGray",
           "package": "probability",
@@ -10441,6 +11368,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "DarkGray",
           "package": "probability",
@@ -10454,6 +11382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Dashed",
           "package": "probability",
@@ -10463,6 +11392,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Dashed",
           "package": "probability",
@@ -10476,6 +11406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "DotDash",
           "package": "probability",
@@ -10485,6 +11416,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "DotDash",
           "package": "probability",
@@ -10498,6 +11430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Dotted",
           "package": "probability",
@@ -10507,6 +11440,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Dotted",
           "package": "probability",
@@ -10520,6 +11454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "FE",
           "package": "probability",
@@ -10529,6 +11464,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "FE",
           "package": "probability",
@@ -10542,6 +11478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Gray",
           "package": "probability",
@@ -10551,6 +11488,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Gray",
           "package": "probability",
@@ -10564,6 +11502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Green",
           "package": "probability",
@@ -10573,6 +11512,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Green",
           "package": "probability",
@@ -10586,6 +11526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "LightGreen",
           "package": "probability",
@@ -10595,6 +11536,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "LightGreen",
           "package": "probability",
@@ -10608,6 +11550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "LongDash",
           "package": "probability",
@@ -10617,6 +11560,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "LongDash",
           "package": "probability",
@@ -10630,6 +11574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Magenta",
           "package": "probability",
@@ -10639,6 +11584,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Magenta",
           "package": "probability",
@@ -10652,6 +11598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Orange",
           "package": "probability",
@@ -10661,6 +11608,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Orange",
           "package": "probability",
@@ -10674,6 +11622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Plot",
           "package": "probability",
@@ -10683,6 +11632,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Plot",
           "package": "probability",
@@ -10696,6 +11646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Purple",
           "package": "probability",
@@ -10705,6 +11656,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Purple",
           "package": "probability",
@@ -10718,6 +11670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Red",
           "package": "probability",
@@ -10727,6 +11680,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Red",
           "package": "probability",
@@ -10740,6 +11694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Solid",
           "package": "probability",
@@ -10749,6 +11704,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Solid",
           "package": "probability",
@@ -10762,6 +11718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "TwoDash",
           "package": "probability",
@@ -10771,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "TwoDash",
           "package": "probability",
@@ -10784,6 +11742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "White",
           "package": "probability",
@@ -10793,6 +11752,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "White",
           "package": "probability",
@@ -10806,6 +11766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "Yellow",
           "package": "probability",
@@ -10815,6 +11776,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "Yellow",
           "package": "probability",
@@ -10828,6 +11790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "autoColor",
           "package": "probability",
@@ -10837,6 +11800,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "autoColor",
           "normalized": "[Plot]-\u003e[Plot]",
@@ -10852,6 +11816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "color",
           "package": "probability",
@@ -10861,6 +11826,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "color",
           "package": "probability",
@@ -10873,6 +11839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "colors",
           "package": "probability",
@@ -10882,6 +11849,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "colors",
           "normalized": "[Color]",
@@ -10897,6 +11865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewe want to increase the bounds absolutely, account for negative numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "decr",
           "package": "probability",
@@ -10907,6 +11876,7 @@
         "index": {
           "description": "we want to increase the bounds absolutely account for negative numbers",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "decr",
           "normalized": "a-\u003ea",
@@ -10921,6 +11891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "drawy",
           "package": "probability",
@@ -10930,6 +11901,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "drawy",
           "normalized": "Int-\u003ePlot-\u003e[a]-\u003eString",
@@ -10944,6 +11916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "fig",
           "package": "probability",
@@ -10953,6 +11926,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "fig",
           "normalized": "[Plot]-\u003eVis",
@@ -10967,6 +11941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "figP",
           "package": "probability",
@@ -10976,6 +11951,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "figP",
           "normalized": "FigureEnv-\u003e[Plot]-\u003eVis",
@@ -10991,6 +11967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault settings for figure environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "figure",
           "package": "probability",
@@ -11001,6 +11978,7 @@
         "index": {
           "description": "default settings for figure environment",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "figure",
           "package": "probability",
@@ -11013,6 +11991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "fileName",
           "package": "probability",
@@ -11022,6 +12001,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "fileName",
           "package": "probability",
@@ -11036,6 +12016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewe want to increase the bounds absolutely, account for negative numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "incr",
           "package": "probability",
@@ -11046,6 +12027,7 @@
         "index": {
           "description": "we want to increase the bounds absolutely account for negative numbers",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "incr",
           "normalized": "a-\u003ea",
@@ -11060,6 +12042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "label",
           "package": "probability",
@@ -11069,6 +12052,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "label",
           "package": "probability",
@@ -11081,6 +12065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "legend",
           "package": "probability",
@@ -11090,6 +12075,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "legend",
           "normalized": "Float-\u003eFloat-\u003e[Plot]-\u003eString",
@@ -11104,6 +12090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "lineStyle",
           "package": "probability",
@@ -11113,6 +12100,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "lineStyle",
           "package": "probability",
@@ -11126,6 +12114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "lineWidth",
           "package": "probability",
@@ -11135,6 +12124,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "lineWidth",
           "package": "probability",
@@ -11148,6 +12138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "metaTuple",
           "package": "probability",
@@ -11157,6 +12148,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "metaTuple",
           "normalized": "[Float]-\u003e[(Float,Float)]-\u003e[(Float,Float)]",
@@ -11172,6 +12164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "out0",
           "package": "probability",
@@ -11181,6 +12174,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "out0",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -11195,6 +12189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "out1",
           "package": "probability",
@@ -11204,6 +12199,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "out1",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -11219,6 +12215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault plotting environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "plot",
           "package": "probability",
@@ -11229,6 +12226,7 @@
         "index": {
           "description": "default plotting environment",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "plot",
           "package": "probability",
@@ -11242,6 +12240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a plot from a distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "plotD",
           "package": "probability",
@@ -11252,6 +12251,7 @@
         "index": {
           "description": "create plot from distribution",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "plotD",
           "normalized": "Dist a-\u003ePlot",
@@ -11267,6 +12267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a plot from a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "plotF",
           "package": "probability",
@@ -11277,6 +12278,7 @@
         "index": {
           "description": "create plot from function",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "plotF",
           "normalized": "(Float,Float,Float)-\u003e(a-\u003eb)-\u003ePlot",
@@ -11292,6 +12294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a plot from a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "plotL",
           "package": "probability",
@@ -11302,6 +12305,7 @@
         "index": {
           "description": "create plot from list",
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "plotL",
           "normalized": "[a]-\u003ePlot",
@@ -11316,6 +12320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "plotRD",
           "package": "probability",
@@ -11325,6 +12330,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "plotRD",
           "normalized": "RDist a-\u003eIO Plot",
@@ -11340,6 +12346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "plotRL",
           "package": "probability",
@@ -11349,6 +12356,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "plotRL",
           "normalized": "T[a]-\u003eIO Plot",
@@ -11364,6 +12372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "setColor",
           "package": "probability",
@@ -11373,6 +12382,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "setColor",
           "normalized": "Plot-\u003eColor-\u003ePlot",
@@ -11388,6 +12398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "showParams",
           "package": "probability",
@@ -11397,6 +12408,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "showParams",
           "normalized": "[a]-\u003e[String]-\u003eString",
@@ -11412,6 +12424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "title",
           "package": "probability",
@@ -11421,6 +12434,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "title",
           "package": "probability",
@@ -11433,6 +12447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "vec",
           "package": "probability",
@@ -11442,6 +12457,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "vec",
           "normalized": "[a]-\u003eString",
@@ -11456,6 +12472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "xLabel",
           "package": "probability",
@@ -11465,6 +12482,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "xLabel",
           "package": "probability",
@@ -11478,6 +12496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "xs",
           "package": "probability",
@@ -11487,6 +12506,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "xs",
           "normalized": "[Float]",
@@ -11501,6 +12521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "yLabel",
           "package": "probability",
@@ -11510,6 +12531,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "yLabel",
           "package": "probability",
@@ -11523,6 +12545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "yls",
           "package": "probability",
@@ -11532,6 +12555,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "yls",
           "normalized": "[Float]-\u003ePlot-\u003ePlot",
@@ -11546,6 +12570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:12 UTC 2014",
           "module": "Numeric.Probability.Visualize",
           "name": "ys",
           "package": "probability",
@@ -11555,6 +12580,7 @@
         },
         "index": {
           "hierarchy": "Numeric Probability Visualize",
+          "indexed": "2014-03-11T19:44:12",
           "module": "Numeric.Probability.Visualize",
           "name": "ys",
           "normalized": "[Float]",

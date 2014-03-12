@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-encodings"
+        "phrase": "http-encodings",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDetection and of character encodings of HTTP message bodies\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Character",
           "name": "Character",
           "package": "http-encodings",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Detection and of character encodings of HTTP message bodies",
           "hierarchy": "Network HTTP Encoding Character",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Character",
           "name": "Character",
           "package": "http-encodings",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks for and parses the ContentType header. Returns the\n (optional) content-type and (optional) the character encoding name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Character",
           "name": "getContentTypeAndCharacterEncoding",
           "package": "http-encodings",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Looks for and parses the ContentType header Returns the optional content-type and optional the character encoding name",
           "hierarchy": "Network HTTP Encoding Character",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Character",
           "name": "getContentTypeAndCharacterEncoding",
           "normalized": "[Header]-\u003e(Maybe Type,Maybe EncodingName)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the given character encoding name in the given header. If\n there is no content type header in the header list, it defaults to\n the text/plain content type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Character",
           "name": "setCharacterEncoding",
           "package": "http-encodings",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Sets the given character encoding name in the given header If there is no content type header in the header list it defaults to the text plain content type",
           "hierarchy": "Network HTTP Encoding Character",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Character",
           "name": "setCharacterEncoding",
           "normalized": "EncodingName-\u003e[Header]-\u003e[Header]",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to decode a bytestring as UTF-8. Returns nothing if any\n illegal characters are encountered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Character",
           "name": "tryAsUTF8",
           "package": "http-encodings",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Tries to decode bytestring as UTF-8 Returns nothing if any illegal characters are encountered",
           "hierarchy": "Network HTTP Encoding Character",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Character",
           "name": "tryAsUTF8",
           "normalized": "ByteString-\u003eMaybe String",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeals with content encoding (compression) of message bodies:\n detection, update and compression/decompression\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "Content",
           "package": "http-encodings",
@@ -129,6 +138,7 @@
         "index": {
           "description": "Deals with content encoding compression of message bodies detection update and compression decompression",
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "Content",
           "package": "http-encodings",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the content encoding, per the HTTP/1.1 standard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "ContentEncoding",
           "package": "http-encodings",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Represents the content encoding per the HTTP standard",
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "ContentEncoding",
           "package": "http-encodings",
@@ -165,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "Compress",
           "package": "http-encodings",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "Compress",
           "package": "http-encodings",
@@ -187,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "Deflate",
           "package": "http-encodings",
@@ -196,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "Deflate",
           "package": "http-encodings",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "GZip",
           "package": "http-encodings",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "GZip",
           "package": "http-encodings",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "IdentityCompression",
           "package": "http-encodings",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "IdentityCompression",
           "package": "http-encodings",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompresses a \u003ccode\u003eBytestring\u003c/code\u003e assuming a given content encoding. The\n Compress encoding (LZW algorithm) is not supported at this time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "compress",
           "package": "http-encodings",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Compresses Bytestring assuming given content encoding The Compress encoding LZW algorithm is not supported at this time",
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "compress",
           "normalized": "ContentEncoding-\u003eByteString-\u003eEither EncodingError ByteString",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompresses a \u003ccode\u003eBytestring\u003c/code\u003e assuming a given content encoding. The\n Compress encoding (LZW algorithm) is not supported at this time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "decompress",
           "package": "http-encodings",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Decompresses Bytestring assuming given content encoding The Compress encoding LZW algorithm is not supported at this time",
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "decompress",
           "normalized": "ContentEncoding-\u003eByteString-\u003eEither EncodingError ByteString",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines the content encoding from a list of headers. Defaults\n to \u003ccode\u003e\u003ca\u003eIdentityCompression\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "getContentEncoding",
           "package": "http-encodings",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Determines the content encoding from list of headers Defaults to IdentityCompression",
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "getContentEncoding",
           "normalized": "[Header]-\u003eContentEncoding",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the list of headers, updates content encoding to the\n specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Content",
           "name": "updateContentEncoding",
           "package": "http-encodings",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Given the list of headers updates content encoding to the specified",
           "hierarchy": "Network HTTP Encoding Content",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Content",
           "name": "updateContentEncoding",
           "normalized": "ContentEncoding-\u003e[Header]-\u003e[Header]",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eErrors that may occur during decoding/encoding of HTTP message bodies\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Error",
           "name": "Error",
           "package": "http-encodings",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Errors that may occur during decoding encoding of HTTP message bodies",
           "hierarchy": "Network HTTP Encoding Error",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Error",
           "name": "Error",
           "package": "http-encodings",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Error",
           "name": "ConversionError",
           "package": "http-encodings",
@@ -385,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding Error",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Error",
           "name": "ConversionError",
           "package": "http-encodings",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding/Decoding error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Error",
           "name": "EncodingError",
           "package": "http-encodings",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Encoding Decoding error message",
           "hierarchy": "Network HTTP Encoding Error",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Error",
           "name": "EncodingError",
           "package": "http-encodings",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter decoding is not specified and\n cannot be guessed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Error",
           "name": "CannotDetermineCharacterEncoding",
           "package": "http-encodings",
@@ -432,6 +467,7 @@
         "index": {
           "description": "Character decoding is not specified and cannot be guessed",
           "hierarchy": "Network HTTP Encoding Error",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Error",
           "name": "CannotDetermineCharacterEncoding",
           "package": "http-encodings",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Error",
           "name": "GenericError",
           "package": "http-encodings",
@@ -456,6 +493,7 @@
         "index": {
           "description": "Other error",
           "hierarchy": "Network HTTP Encoding Error",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Error",
           "name": "GenericError",
           "package": "http-encodings",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIConv conversion error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Error",
           "name": "IConvError",
           "package": "http-encodings",
@@ -480,6 +519,7 @@
         "index": {
           "description": "IConv conversion error",
           "hierarchy": "Network HTTP Encoding Error",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Error",
           "name": "IConvError",
           "package": "http-encodings",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compression algorithm is not supported (LZW)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding.Error",
           "name": "UnsupportedCompressionAlgorithm",
           "package": "http-encodings",
@@ -504,6 +545,7 @@
         "index": {
           "description": "compression algorithm is not supported LZW",
           "hierarchy": "Network HTTP Encoding Error",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding.Error",
           "name": "UnsupportedCompressionAlgorithm",
           "package": "http-encodings",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncoding and decoding of bodies and complete HTTP messages. See\n package \u003ccode\u003ejespresso\u003c/code\u003e for an example of usage.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "Encoding",
           "package": "http-encodings",
@@ -527,6 +570,7 @@
         "index": {
           "description": "Encoding and decoding of bodies and complete HTTP messages See package jespresso for an example of usage",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "Encoding",
           "package": "http-encodings",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of decoding a message body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "DecodingResult",
           "package": "http-encodings",
@@ -550,6 +595,7 @@
         "index": {
           "description": "The result of decoding message body",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "DecodingResult",
           "package": "http-encodings",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding/Decoding error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "EncodingError",
           "package": "http-encodings",
@@ -573,6 +620,7 @@
         "index": {
           "description": "Encoding Decoding error message",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "EncodingError",
           "package": "http-encodings",
@@ -586,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "HasBody",
           "package": "http-encodings",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "HasBody",
           "package": "http-encodings",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "DecodingResult",
           "package": "http-encodings",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "DecodingResult",
           "package": "http-encodings",
@@ -630,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the body of an HTTP message and return the original\n encoding name and the same message with decoded body (as\n UTF8-encoded string) and updated character and content encoding\n headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "decode",
           "package": "http-encodings",
@@ -640,6 +693,7 @@
         "index": {
           "description": "Decode the body of an HTTP message and return the original encoding name and the same message with decoded body as UTF8-encoded string and updated character and content encoding headers",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "decode",
           "normalized": "a ByteString-\u003eEither EncodingError(String,a String)",
@@ -655,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecodes and decompresses the response or request body using the\n information in the headers and content and possibly returns the\n body in UTF8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "decodeBody",
           "package": "http-encodings",
@@ -665,6 +720,7 @@
         "index": {
           "description": "Decodes and decompresses the response or request body using the information in the headers and content and possibly returns the body in UTF8",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "decodeBody",
           "normalized": "a ByteString-\u003eEither EncodingError DecodingResult",
@@ -680,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "decodedBody",
           "package": "http-encodings",
@@ -689,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "decodedBody",
           "package": "http-encodings",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the UTF8-encoded body of an HTTP message with the provided\n encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "encode",
           "package": "http-encodings",
@@ -713,6 +772,7 @@
         "index": {
           "description": "Encode the UTF8-encoded body of an HTTP message with the provided encoding",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "encode",
           "normalized": "EncodingName-\u003ea String-\u003eEither EncodingError(a ByteString)",
@@ -728,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a haskell UTF8-encoded string and produces a stream, encoded\n and compressed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "encodeBody",
           "package": "http-encodings",
@@ -738,6 +799,7 @@
         "index": {
           "description": "Takes haskell UTF8-encoded string and produces stream encoded and compressed",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "encodeBody",
           "normalized": "EncodingName-\u003eContentEncoding-\u003eString-\u003eEither EncodingError ByteString",
@@ -753,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "getBody",
           "package": "http-encodings",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "getBody",
           "normalized": "a b-\u003eb",
@@ -777,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "originalEncoding",
           "package": "http-encodings",
@@ -786,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "originalEncoding",
           "package": "http-encodings",
@@ -799,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "setBody",
           "package": "http-encodings",
@@ -808,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "setBody",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -824,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows to lift a transformation function operating on decoded\n (UTF-8) bodies to bodies of requests with encoded (and compressed)\n bodies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "withDecodedBody",
           "package": "http-encodings",
@@ -834,6 +903,7 @@
         "index": {
           "description": "Allows to lift transformation function operating on decoded UTF-8 bodies to bodies of requests with encoded and compressed bodies",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "withDecodedBody",
           "normalized": "(String-\u003eString)-\u003ea ByteString-\u003eEither EncodingError(a ByteString)",
@@ -850,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic version of \u003ccode\u003ewithDecodeBody\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:39 UTC 2014",
           "module": "Network.HTTP.Encoding",
           "name": "withDecodedBodyM",
           "package": "http-encodings",
@@ -860,6 +931,7 @@
         "index": {
           "description": "monadic version of withDecodeBody",
           "hierarchy": "Network HTTP Encoding",
+          "indexed": "2014-03-11T18:52:39",
           "module": "Network.HTTP.Encoding",
           "name": "withDecodedBodyM",
           "normalized": "(String-\u003ea String)-\u003eb ByteString-\u003ea(Either EncodingError(b ByteString))",

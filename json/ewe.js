@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ewe"
+        "phrase": "ewe",
+        "type": "phrase"
       },
       "type": "context"
     }

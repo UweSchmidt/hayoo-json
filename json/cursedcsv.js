@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cursedcsv"
+        "phrase": "cursedcsv",
+        "type": "phrase"
       },
       "type": "context"
     }

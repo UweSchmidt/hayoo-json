@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AGI"
+        "phrase": "AGI",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "AGI",
           "package": "AGI",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "AGI",
           "package": "AGI",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "AGI",
           "package": "AGI",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "AGI",
           "package": "AGI",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDTMF digits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Digit",
           "package": "AGI",
@@ -70,6 +75,7 @@
         "index": {
           "description": "DTMF digits",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Digit",
           "package": "AGI",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "RecordResult",
           "package": "AGI",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "RecordResult",
           "package": "AGI",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "SoundType",
           "package": "AGI",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "SoundType",
           "package": "AGI",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Eight",
           "package": "AGI",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Eight",
           "package": "AGI",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "FailureOnWaitFor",
           "package": "AGI",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "FailureOnWaitFor",
           "package": "AGI",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "FailureToWrite",
           "package": "AGI",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "FailureToWrite",
           "package": "AGI",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Five",
           "package": "AGI",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Five",
           "package": "AGI",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Four",
           "package": "AGI",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Four",
           "package": "AGI",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "GSM",
           "package": "AGI",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "GSM",
           "package": "AGI",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "HangUp",
           "package": "AGI",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "HangUp",
           "package": "AGI",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Interrupted",
           "package": "AGI",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Interrupted",
           "package": "AGI",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Nine",
           "package": "AGI",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Nine",
           "package": "AGI",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "One",
           "package": "AGI",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "One",
           "package": "AGI",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Pound",
           "package": "AGI",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Pound",
           "package": "AGI",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "RandomError",
           "package": "AGI",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "RandomError",
           "package": "AGI",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Seven",
           "package": "AGI",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Seven",
           "package": "AGI",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Six",
           "package": "AGI",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Six",
           "package": "AGI",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Star",
           "package": "AGI",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Star",
           "package": "AGI",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Three",
           "package": "AGI",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Three",
           "package": "AGI",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Timeout",
           "package": "AGI",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Timeout",
           "package": "AGI",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Two",
           "package": "AGI",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Two",
           "package": "AGI",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "WAV",
           "package": "AGI",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "WAV",
           "package": "AGI",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "Zero",
           "package": "AGI",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "Zero",
           "package": "AGI",
@@ -566,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eanswer\u003c/a\u003e\u003c/code\u003e channel if not already in answer state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "answer",
           "package": "AGI",
@@ -575,6 +626,7 @@
         "index": {
           "description": "answer channel if not already in answer state",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "answer",
           "package": "AGI",
@@ -588,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a list of \u003ccode\u003e\u003ca\u003eDigit\u003c/a\u003e\u003c/code\u003es to an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n Will fail if the list is empty or contains * or #\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "digitsToInteger",
           "package": "AGI",
@@ -598,6 +651,7 @@
         "index": {
           "description": "convert list of Digit to an Integer Will fail if the list is empty or contains or",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "digitsToInteger",
           "normalized": "[Digit]-\u003eMaybe Integer",
@@ -614,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level for long running AGI scripts.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e main = fastAGI Nothing yourAGI\u003c/pre\u003e\u003cp\u003eYou should be sure to compile with -threaded. Note that \u003ccode\u003eyourAGI\u003c/code\u003e\n may be running simultaneously in multiple threads, so you will need\n some concurrency control for shared data.\n\u003c/p\u003e\u003cp\u003eTODO: support a hang-up handler\n TODO: ability to listen on a specific IP address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "fastAGI",
           "package": "AGI",
@@ -624,6 +679,7 @@
         "index": {
           "description": "Top-level for long running AGI scripts Example main fastAGI Nothing yourAGI You should be sure to compile with threaded Note that yourAGI may be running simultaneously in multiple threads so you will need some concurrency control for shared data TODO support hang-up handler TODO ability to listen on specific IP address",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "fastAGI",
           "normalized": "Maybe PortID-\u003e(HostName-\u003ePortNumber-\u003eAGI a)-\u003eIO()",
@@ -640,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplay a file and return and digits pressed\n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003estreamFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "getData",
           "package": "AGI",
@@ -649,6 +706,7 @@
         "index": {
           "description": "play file and return and digits pressed See also streamFile",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "getData",
           "normalized": "FilePath-\u003eMaybe Integer-\u003eMaybe Integer-\u003eAGIT a(Maybe([Digit],Bool))",
@@ -665,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehangUp the specified channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "hangUp",
           "package": "AGI",
@@ -674,6 +733,7 @@
         "index": {
           "description": "hangUp the specified channel",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "hangUp",
           "normalized": "Maybe String-\u003eAGIT a Bool",
@@ -690,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a \u003ccode\u003e\u003ca\u003eDigit\u003c/a\u003e\u003c/code\u003e to its ASCII representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "ppDigit",
           "package": "AGI",
@@ -700,6 +761,7 @@
         "index": {
           "description": "convert Digit to its ASCII representation",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "ppDigit",
           "normalized": "Digit-\u003eChar",
@@ -716,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a list of \u003ccode\u003e\u003ca\u003eDigit\u003c/a\u003e\u003c/code\u003es into a quoted string.\n The quoted string format is used by many AGI commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "ppEscapeDigits",
           "package": "AGI",
@@ -726,6 +789,7 @@
         "index": {
           "description": "convert list of Digit into quoted string The quoted string format is used by many AGI commands",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "ppEscapeDigits",
           "normalized": "[Digit]-\u003eString",
@@ -742,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord channel to a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "record",
           "package": "AGI",
@@ -751,6 +816,7 @@
         "index": {
           "description": "record channel to file",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "record",
           "normalized": "FilePath-\u003eSoundType-\u003e[Digit]-\u003eMaybe Integer-\u003eMaybe Integer-\u003eBool-\u003eMaybe Integer-\u003eAGIT a(RecordResult,Integer)",
@@ -766,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level wrapper for single-shot AGI scripts.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e main = run yourAGI Ignore\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "run",
           "package": "AGI",
@@ -776,6 +843,7 @@
         "index": {
           "description": "Top-level wrapper for single-shot AGI scripts Example main run yourAGI Ignore",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "run",
           "normalized": "AGIT a b-\u003eHandler-\u003ea b",
@@ -791,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erunInternal - run an AGI script using the supplied Handles for input and output\n\u003c/p\u003e\u003cp\u003eYou probably want \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003efastAGI\u003c/a\u003e\u003c/code\u003e. This function is exposed so\n that 3rd party libraries such as HAppS can easily add support for\n FastAGI support.\n\u003c/p\u003e\u003cp\u003eTODO: support general method of handling extra arguments (query_string vs command-line arguments)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "runInternal",
           "package": "AGI",
@@ -801,6 +870,7 @@
         "index": {
           "description": "runInternal run an AGI script using the supplied Handles for input and output You probably want run or fastAGI This function is exposed so that rd party libraries such as HAppS can easily add support for FastAGI support TODO support general method of handling extra arguments query string vs command-line arguments",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "runInternal",
           "normalized": "AGIT a b-\u003eHandle-\u003eHandle-\u003ea b",
@@ -817,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esay the given digit string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "sayDigits",
           "package": "AGI",
@@ -826,6 +897,7 @@
         "index": {
           "description": "say the given digit string",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "sayDigits",
           "normalized": "[Digit]-\u003e[Digit]-\u003eAGIT a(Maybe(Maybe Digit))",
@@ -842,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esayNumber\u003c/a\u003e\u003c/code\u003e says the specified number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "sayNumber",
           "package": "AGI",
@@ -851,6 +924,7 @@
         "index": {
           "description": "sayNumber says the specified number",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "sayNumber",
           "normalized": "Integer-\u003e[Digit]-\u003eAGIT a(Maybe(Maybe Digit))",
@@ -867,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend an AGI Command, and return the Response\n\u003c/p\u003e\u003cp\u003ethis function provides the low-level send/receive functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "sendRecv",
           "package": "AGI",
@@ -877,6 +952,7 @@
         "index": {
           "description": "send an AGI Command and return the Response this function provides the low-level send receive functionality",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "sendRecv",
           "normalized": "Command-\u003eAGIT a String",
@@ -893,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplayback the specified file, can be interupted by the given digits.\n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003egetData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "streamFile",
           "package": "AGI",
@@ -902,6 +979,7 @@
         "index": {
           "description": "playback the specified file can be interupted by the given digits See also getData",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "streamFile",
           "normalized": "FilePath-\u003e[Digit]-\u003eMaybe Integer-\u003eAGIT a(Either Integer(Maybe Digit,Integer))",
@@ -918,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewait for channel to receive a DTMF digit. \n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003egetData\u003c/a\u003e\u003c/code\u003e for multiple digits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:28 UTC 2014",
           "module": "Network.AGI",
           "name": "waitForDigit",
           "package": "AGI",
@@ -927,6 +1006,7 @@
         "index": {
           "description": "wait for channel to receive DTMF digit See also getData for multiple digits",
           "hierarchy": "Network AGI",
+          "indexed": "2014-03-11T16:32:28",
           "module": "Network.AGI",
           "name": "waitForDigit",
           "normalized": "Integer-\u003eAGIT a(Maybe(Maybe Digit))",

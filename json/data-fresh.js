@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-fresh"
+        "phrase": "data-fresh",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "Delta",
           "package": "data-fresh",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Fresh Delta",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "Delta",
           "package": "data-fresh",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "FreshT",
           "package": "data-fresh",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Fresh Delta",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "FreshT",
           "package": "data-fresh",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "FreshT",
           "package": "data-fresh",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Fresh Delta",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "FreshT",
           "package": "data-fresh",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA delta of integer pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "integerPairDelta",
           "package": "data-fresh",
@@ -93,6 +100,7 @@
         "index": {
           "description": "delta of integer pairs",
           "hierarchy": "Control Monad Trans Fresh Delta",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "integerPairDelta",
           "normalized": "(Integer,Integer)-\u003eCofree Triplet(Integer,Integer)",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "runFreshT",
           "package": "data-fresh",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Fresh Delta",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "runFreshT",
           "normalized": "Cofree Triplet a-\u003eb(c,Cofree Triplet a)",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003eCofree Triplet v\u003c/code\u003e, based on a seed, and functions to split\n   and succeed it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "seedDelta",
           "package": "data-fresh",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Creates Cofree Triplet based on seed and functions to split and succeed it",
           "hierarchy": "Control Monad Trans Fresh Delta",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Delta",
           "name": "seedDelta",
           "normalized": "a-\u003e(a-\u003ea)-\u003e(a-\u003e(a,a))-\u003eCofree Triplet a",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "Stream",
           "package": "data-fresh",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Fresh Stream",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "Stream",
           "package": "data-fresh",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "FreshT",
           "package": "data-fresh",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Fresh Stream",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "FreshT",
           "package": "data-fresh",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "FreshT",
           "package": "data-fresh",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Fresh Stream",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "FreshT",
           "package": "data-fresh",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "integerStream",
           "package": "data-fresh",
@@ -232,6 +251,7 @@
         "index": {
           "description": "stream of integers",
           "hierarchy": "Control Monad Trans Fresh Stream",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "integerStream",
           "normalized": "Integer-\u003eCofree Identity Integer",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003eCofree Identity v\u003c/code\u003e based on an infinite list.\n\u003c/p\u003e\u003cp\u003eThis function will cause an error when the list turns out to be finite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "listStream",
           "package": "data-fresh",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Creates Cofree Identity based on an infinite list This function will cause an error when the list turns out to be finite",
           "hierarchy": "Control Monad Trans Fresh Stream",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "listStream",
           "normalized": "[a]-\u003eCofree Identity a",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "runFreshT",
           "package": "data-fresh",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Fresh Stream",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "runFreshT",
           "normalized": "Cofree Identity a-\u003eb(c,Cofree Identity a)",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003eCofree Identity v\u003c/code\u003e, based on a seed, and a function to split it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "seedStream",
           "package": "data-fresh",
@@ -307,6 +332,7 @@
         "index": {
           "description": "Creates Cofree Identity based on seed and function to split it",
           "hierarchy": "Control Monad Trans Fresh Stream",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Control.Monad.Trans.Fresh.Stream",
           "name": "seedStream",
           "normalized": "a-\u003e(a-\u003ea)-\u003eCofree Identity a",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Data.Fresh",
           "name": "Fresh",
           "package": "data-fresh",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Fresh",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Data.Fresh",
           "name": "Fresh",
           "package": "data-fresh",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Data.Fresh",
           "name": "Fresh",
           "package": "data-fresh",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data Fresh",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Data.Fresh",
           "name": "Fresh",
           "package": "data-fresh",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Data.Fresh",
           "name": "fresh",
           "package": "data-fresh",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Fresh",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Data.Fresh",
           "name": "fresh",
           "package": "data-fresh",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Data.Triplet",
           "name": "Triplet",
           "package": "data-fresh",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Data Triplet",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Data.Triplet",
           "name": "Triplet",
           "package": "data-fresh",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Data.Triplet",
           "name": "Triplet",
           "package": "data-fresh",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Data Triplet",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Data.Triplet",
           "name": "Triplet",
           "package": "data-fresh",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:33 UTC 2014",
           "module": "Data.Triplet",
           "name": "Triplet",
           "package": "data-fresh",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Data Triplet",
+          "indexed": "2014-03-11T17:48:33",
           "module": "Data.Triplet",
           "name": "Triplet",
           "package": "data-fresh",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Catana"
+        "phrase": "Catana",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations that both consume and produce elements lazily with support for advanced control flow using continuations, recursion, and parallel and serial composition.\n\u003c/dd\u003e\u003cdt\u003eBinding Strategy:\u003c/dt\u003e\u003cdd\u003e Binding a function to a monadic value produces a continuation which is represented as a \u003ccode\u003eStep\u003c/code\u003e that either \u003ccode\u003eWait\u003c/code\u003es for input or \u003ccode\u003eYield\u003c/code\u003es a value, and returns the next \u003ccode\u003eStep\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Lazily processing a list with complex control structures.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e mzero consumes all input with producing any output, mplus combines output of two Catana's in parallel\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCatana\u003c/a\u003e\u003c/code\u003e i o b a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe Catana monad represents computations that are both catamorphisms and anamorphisms; they both consume and produce values.  In addition, the Catana monad represents the computation in continuation-passing style, and implements callCC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "Catana",
           "package": "Catana",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Computation type Computations that both consume and produce elements lazily with support for advanced control flow using continuations recursion and parallel and serial composition Binding Strategy Binding function to monadic value produces continuation which is represented as Step that either Wait for input or Yield value and returns the next Step Useful for Lazily processing list with complex control structures Zero and plus mzero consumes all input with producing any output mplus combines output of two Catana in parallel Example type Catana The Catana monad represents computations that are both catamorphisms and anamorphisms they both consume and produce values In addition the Catana monad represents the computation in continuation-passing style and implements callCC",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "Catana",
           "package": "Catana",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "Catana",
           "package": "Catana",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "Catana",
           "package": "Catana",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "Catana",
           "package": "Catana",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "Catana",
           "package": "Catana",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumes an element from the input list, returning it\n If there is no more input, the chain of continuations ends\n immediately; no more computations will be processed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "consume",
           "package": "Catana",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Consumes an element from the input list returning it If there is no more input the chain of continuations ends immediately no more computations will be processed",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "consume",
           "package": "Catana",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Catana monad into a function over lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "execCatana",
           "package": "Catana",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Converts Catana monad into function over lists",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "execCatana",
           "normalized": "Catana a b c c-\u003e[a]-\u003e[b]",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two monads to run in parallel, consuming the same input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "parallelB",
           "package": "Catana",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Combine two monads to run in parallel consuming the same input",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "parallelB",
           "normalized": "Catana a b c c-\u003eCatana a b d d-\u003eCatana a b e(c,d)",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two monads to run in parallel, consuming the same input, stopping when either of them finish.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "parallelE",
           "package": "Catana",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Combine two monads to run in parallel consuming the same input stopping when either of them finish",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "parallelE",
           "normalized": "Catana a b c c-\u003eCatana a b d d-\u003eCatana a b e(Either c d)",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces \u003ccode\u003ex\u003c/code\u003e in the output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "produce",
           "package": "Catana",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Produces in the output",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "produce",
           "normalized": "a-\u003eCatana b a c()",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes \u003ccode\u003ex\u003c/code\u003e into the input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "push",
           "package": "Catana",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Pushes into the input",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "push",
           "normalized": "a-\u003eCatana a b c()",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates a Catana monad over a list returning the result and output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "runCatana",
           "package": "Catana",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Evaluates Catana monad over list returning the result and output",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "runCatana",
           "normalized": "Catana a b c c-\u003e[a]-\u003e(Maybe c,[b])",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two monads to run in serial, the first consuming the output of the second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "serial",
           "package": "Catana",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Combine two monads to run in serial the first consuming the output of the second",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "serial",
           "normalized": "Catana a b c c-\u003eCatana d a e e-\u003eCatana d b f(Either c e)",
@@ -284,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "step",
           "package": "Catana",
@@ -293,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "step",
           "normalized": "(a-\u003eStep b c d)-\u003eStep b c d",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops computation, ending the continuation chain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "stop",
           "package": "Catana",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Stops computation ending the continuation chain",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "stop",
           "normalized": "a-\u003eCatana b c a d",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the next input without consuming it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:17 UTC 2014",
           "module": "Control.Monad.Catana",
           "name": "top",
           "package": "Catana",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Returns the next input without consuming it",
           "hierarchy": "Control Monad Catana",
+          "indexed": "2014-03-11T16:36:17",
           "module": "Control.Monad.Catana",
           "name": "top",
           "package": "Catana",

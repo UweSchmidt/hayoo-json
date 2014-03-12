@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixed-point-vector"
+        "phrase": "fixed-point-vector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:46 UTC 2014",
           "module": "Data.Fixed.Binary.Unboxed",
           "name": "Unboxed",
           "package": "fixed-point-vector",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary Unboxed",
+          "indexed": "2014-03-11T18:09:46",
           "module": "Data.Fixed.Binary.Unboxed",
           "name": "Unboxed",
           "package": "fixed-point-vector",

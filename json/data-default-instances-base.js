@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-default-instances-base"
+        "phrase": "data-default-instances-base",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:53 UTC 2014",
           "module": "Data.Default.Instances.Base",
           "name": "Base",
           "package": "data-default-instances-base",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Default Instances Base",
+          "indexed": "2014-03-11T17:47:53",
           "module": "Data.Default.Instances.Base",
           "name": "Base",
           "package": "data-default-instances-base",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml2x"
+        "phrase": "xml2x",
+        "type": "phrase"
       },
       "type": "context"
     }

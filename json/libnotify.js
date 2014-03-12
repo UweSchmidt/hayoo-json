@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libnotify"
+        "phrase": "libnotify",
+        "type": "phrase"
       },
       "type": "context"
     }

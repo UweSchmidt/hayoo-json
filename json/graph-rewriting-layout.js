@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graph-rewriting-layout"
+        "phrase": "graph-rewriting-layout",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Coulomb",
           "name": "Coulomb",
           "package": "graph-rewriting-layout",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Coulomb",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Coulomb",
           "name": "Coulomb",
           "package": "graph-rewriting-layout",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Coulomb",
           "name": "coulombForce",
           "package": "graph-rewriting-layout",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Coulomb",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Coulomb",
           "name": "coulombForce",
           "normalized": "Node-\u003eWithGraph a Force",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Gravitation",
           "name": "Gravitation",
           "package": "graph-rewriting-layout",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Gravitation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Gravitation",
           "name": "Gravitation",
           "package": "graph-rewriting-layout",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Gravitation",
           "name": "centralGravitation",
           "package": "graph-rewriting-layout",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Gravitation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Gravitation",
           "name": "centralGravitation",
           "normalized": "Node-\u003eWithGraph a Force",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Gravitation",
           "name": "gravitation",
           "package": "graph-rewriting-layout",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Gravitation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Gravitation",
           "name": "gravitation",
           "normalized": "Node-\u003eRewrite a Force",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "PortSpec",
           "package": "graph-rewriting-layout",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout PortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "PortSpec",
           "package": "graph-rewriting-layout",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort position relative to the node center, and the direction in which edges should stick out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "PortSpec",
           "package": "graph-rewriting-layout",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Port position relative to the node center and the direction in which edges should stick out",
           "hierarchy": "GraphRewriting Layout PortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "PortSpec",
           "package": "graph-rewriting-layout",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "absPortPos",
           "package": "graph-rewriting-layout",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout PortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "absPortPos",
           "normalized": "a-\u003e[Vector]",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "portDir",
           "package": "graph-rewriting-layout",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout PortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "portDir",
           "normalized": "a-\u003e[Vector]",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "portSpec",
           "package": "graph-rewriting-layout",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout PortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "portSpec",
           "normalized": "a-\u003e[(Vector,Vector)]",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "propOfPort",
           "package": "graph-rewriting-layout",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout PortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "propOfPort",
           "normalized": "(a-\u003e[b])-\u003eEdge-\u003ea-\u003e[b]",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "relPortPos",
           "package": "graph-rewriting-layout",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout PortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "relPortPos",
           "normalized": "a-\u003e[Vector]",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "sameDir",
           "package": "graph-rewriting-layout",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout PortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.PortSpec",
           "name": "sameDir",
           "normalized": "Vector-\u003e(Vector,Vector)",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Position",
           "name": "Position",
           "package": "graph-rewriting-layout",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Position",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Position",
           "name": "Position",
           "package": "graph-rewriting-layout",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Position",
           "name": "Position",
           "package": "graph-rewriting-layout",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Position",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Position",
           "name": "Position",
           "package": "graph-rewriting-layout",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Position",
           "name": "Position",
           "package": "graph-rewriting-layout",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Position",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Position",
           "name": "Position",
           "package": "graph-rewriting-layout",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Position",
           "name": "position",
           "package": "graph-rewriting-layout",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Position",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Position",
           "name": "position",
           "package": "graph-rewriting-layout",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "RotPortSpec",
           "package": "graph-rewriting-layout",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout RotPortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "RotPortSpec",
           "package": "graph-rewriting-layout",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "absRotPortPos",
           "package": "graph-rewriting-layout",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout RotPortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "absRotPortPos",
           "normalized": "a-\u003e[Vector]",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "absRotPortSpec",
           "package": "graph-rewriting-layout",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout RotPortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "absRotPortSpec",
           "normalized": "a-\u003e[(Vector,Vector)]",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "angularMomentum",
           "package": "graph-rewriting-layout",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout RotPortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "angularMomentum",
           "normalized": "Node-\u003eWithGraph a Momentum",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "average",
           "package": "graph-rewriting-layout",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout RotPortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "average",
           "normalized": "[a]-\u003ea",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "focalPoint",
           "package": "graph-rewriting-layout",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout RotPortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "focalPoint",
           "normalized": "[Vector]-\u003eVector",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "relRotPortPos",
           "package": "graph-rewriting-layout",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout RotPortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "relRotPortPos",
           "normalized": "a-\u003e[Vector]",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "rotPortSpec",
           "package": "graph-rewriting-layout",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout RotPortSpec",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.RotPortSpec",
           "name": "rotPortSpec",
           "normalized": "a-\u003e[(Vector,Vector)]",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Rotation",
           "package": "graph-rewriting-layout",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Rotation",
           "package": "graph-rewriting-layout",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Angle",
           "package": "graph-rewriting-layout",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Angle",
           "package": "graph-rewriting-layout",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Impulse",
           "package": "graph-rewriting-layout",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Impulse",
           "package": "graph-rewriting-layout",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Momentum",
           "package": "graph-rewriting-layout",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Momentum",
           "package": "graph-rewriting-layout",
@@ -676,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Rotation",
           "package": "graph-rewriting-layout",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Rotation",
           "package": "graph-rewriting-layout",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Rotation",
           "package": "graph-rewriting-layout",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "Rotation",
           "package": "graph-rewriting-layout",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "angle",
           "package": "graph-rewriting-layout",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "angle",
           "normalized": "Vector-\u003eVector-\u003eAngle",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "approach",
           "package": "graph-rewriting-layout",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "approach",
           "normalized": "Rotation-\u003eMomentum",
@@ -765,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "meanAngle",
           "package": "graph-rewriting-layout",
@@ -774,6 +841,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "meanAngle",
           "normalized": "[Angle]-\u003eAngle",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "momSum",
           "package": "graph-rewriting-layout",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "momSum",
           "normalized": "[Momentum]-\u003eMomentum",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "momentum",
           "package": "graph-rewriting-layout",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "momentum",
           "normalized": "Angle-\u003eMomentum",
@@ -836,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "rotate",
           "package": "graph-rewriting-layout",
@@ -845,6 +918,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "rotate",
           "normalized": "Angle-\u003eVector-\u003eVector",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "rotation",
           "package": "graph-rewriting-layout",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "rotation",
           "package": "graph-rewriting-layout",
@@ -880,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "v01",
           "package": "graph-rewriting-layout",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Rotation",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Rotation",
           "name": "v01",
           "package": "graph-rewriting-layout",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.SpringEmbedder",
           "name": "SpringEmbedder",
           "package": "graph-rewriting-layout",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout SpringEmbedder",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.SpringEmbedder",
           "name": "SpringEmbedder",
           "package": "graph-rewriting-layout",
@@ -922,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.SpringEmbedder",
           "name": "springForce",
           "package": "graph-rewriting-layout",
@@ -931,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout SpringEmbedder",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.SpringEmbedder",
           "name": "springForce",
           "normalized": "Double-\u003eNode-\u003eWithGraph a Force",
@@ -946,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "Wrapper",
           "package": "graph-rewriting-layout",
@@ -954,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Wrapper",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "Wrapper",
           "package": "graph-rewriting-layout",
@@ -968,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a value of type \u003ccode\u003ew\u003c/code\u003e, augmenting it with layout information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "Wrapper",
           "package": "graph-rewriting-layout",
@@ -977,6 +1062,7 @@
         "index": {
           "description": "Wraps value of type augmenting it with layout information",
           "hierarchy": "GraphRewriting Layout Wrapper",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "Wrapper",
           "package": "graph-rewriting-layout",
@@ -990,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "Wrapper",
           "package": "graph-rewriting-layout",
@@ -999,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Wrapper",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "Wrapper",
           "package": "graph-rewriting-layout",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "updateWrappee",
           "package": "graph-rewriting-layout",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Wrapper",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "updateWrappee",
           "normalized": "a-\u003eWrapper b-\u003eWrapper a",
@@ -1036,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "wPos",
           "package": "graph-rewriting-layout",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Wrapper",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "wPos",
           "package": "graph-rewriting-layout",
@@ -1058,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "wRot",
           "package": "graph-rewriting-layout",
@@ -1067,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Wrapper",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "wRot",
           "package": "graph-rewriting-layout",
@@ -1081,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps the nodes of a graph, augmenting them with layout information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "wrapGraph",
           "package": "graph-rewriting-layout",
@@ -1091,6 +1186,7 @@
         "index": {
           "description": "Wraps the nodes of graph augmenting them with layout information",
           "hierarchy": "GraphRewriting Layout Wrapper",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "wrapGraph",
           "normalized": "Graph a-\u003eGraph(Wrapper a)",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:12 UTC 2014",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "wrappee",
           "package": "graph-rewriting-layout",
@@ -1115,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "GraphRewriting Layout Wrapper",
+          "indexed": "2014-03-11T18:20:12",
           "module": "GraphRewriting.Layout.Wrapper",
           "name": "wrappee",
           "package": "graph-rewriting-layout",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atmos-dimensional-tf"
+        "phrase": "atmos-dimensional-tf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "TF",
           "package": "atmos-dimensional-tf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "TF",
           "package": "atmos-dimensional-tf",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "Atmos",
           "package": "atmos-dimensional-tf",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "Atmos",
           "package": "atmos-dimensional-tf",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "Atmos",
           "package": "atmos-dimensional-tf",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "Atmos",
           "package": "atmos-dimensional-tf",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosDensity",
           "package": "atmos-dimensional-tf",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosDensity",
           "package": "atmos-dimensional-tf",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosKinematicViscosity",
           "package": "atmos-dimensional-tf",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosKinematicViscosity",
           "package": "atmos-dimensional-tf",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosPressure",
           "package": "atmos-dimensional-tf",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosPressure",
           "package": "atmos-dimensional-tf",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosSpeedOfSound",
           "package": "atmos-dimensional-tf",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosSpeedOfSound",
           "package": "atmos-dimensional-tf",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosTemperature",
           "package": "atmos-dimensional-tf",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosTemperature",
           "package": "atmos-dimensional-tf",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosViscosity",
           "package": "atmos-dimensional-tf",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosViscosity",
           "package": "atmos-dimensional-tf",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosphere",
           "package": "atmos-dimensional-tf",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosphere",
           "normalized": "Length a-\u003e(ThermodynamicTemperature a,Pressure a,Density a,Velocity a,DynamicViscosity a,KinematicViscosity a)",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:07 UTC 2014",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosphere'",
           "package": "atmos-dimensional-tf",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional TF",
+          "indexed": "2014-03-11T17:14:07",
           "module": "Atmosphere.Dimensional.TF",
           "name": "atmosphere'",
           "normalized": "Length a-\u003eAtmos a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Hclip"
+        "phrase": "Hclip",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003esystem clipboard. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "Hclip",
           "package": "Hclip",
@@ -28,6 +29,7 @@
         "index": {
           "description": "system clipboard",
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "Hclip",
           "package": "Hclip",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError Types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "ClipboardError",
           "package": "Hclip",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Error Types",
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "ClipboardError",
           "package": "Hclip",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "MiscError",
           "package": "Hclip",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "MiscError",
           "package": "Hclip",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "MissingCommands",
           "package": "Hclip",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "MissingCommands",
           "normalized": "MissingCommands[String]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "NoTextualData",
           "package": "Hclip",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "NoTextualData",
           "package": "Hclip",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "UnsupportedOS",
           "package": "Hclip",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "UnsupportedOS",
           "package": "Hclip",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead clipboard contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "getClipboard",
           "package": "Hclip",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Read clipboard contents",
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "getClipboard",
           "package": "Hclip",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to clipboard and return its new contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "modifyClipboard",
           "package": "Hclip",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Apply function to clipboard and return its new contents",
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "modifyClipboard",
           "normalized": "(String-\u003eString)-\u003eIO(Either ClipboardError String)",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet clipboard contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:13 UTC 2014",
           "module": "System.Hclip",
           "name": "setClipboard",
           "package": "Hclip",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Set clipboard contents",
           "hierarchy": "System Hclip",
+          "indexed": "2014-03-11T16:48:13",
           "module": "System.Hclip",
           "name": "setClipboard",
           "normalized": "String-\u003eIO(Either ClipboardError String)",

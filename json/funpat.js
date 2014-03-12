@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "funpat"
+        "phrase": "funpat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides \u003ccode\u003e\u003ca\u003eMatchable\u003c/a\u003e\u003c/code\u003e instances for built-in Haskell types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Instances",
           "name": "Instances",
           "package": "funpat",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides Matchable instances for built-in Haskell types",
           "hierarchy": "Language FunPat Instances",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Instances",
           "name": "Instances",
           "package": "funpat",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Interface",
           "name": "Interface",
           "package": "funpat",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Interface",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Interface",
           "name": "Interface",
           "package": "funpat",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic sugar to compose \u003ccode\u003e(pattern,result)\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Interface",
           "name": "(~\u003e)",
           "package": "funpat",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Syntactic sugar to compose pattern result pairs",
           "hierarchy": "Language FunPat Interface",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Interface",
           "name": "(~\u003e) ~\u003e",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a value with cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Interface",
           "name": "match",
           "package": "funpat",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Matches value with cases",
           "hierarchy": "Language FunPat Interface",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Interface",
           "name": "match",
           "normalized": "a-\u003eState[SomeCase(a,b)]()-\u003eb",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates one \u003cem\u003ecase\u003c/em\u003e of the match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Interface",
           "name": "with",
           "package": "funpat",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Creates one case of the match",
           "hierarchy": "Language FunPat Interface",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Interface",
           "name": "with",
           "normalized": "a-\u003eState[SomeCase(PatternType a,ResultType a)]()",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "Match",
           "package": "funpat",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "Match",
           "package": "funpat",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCase\u003c/code\u003e instances are allowed to form cases of a pattern match. (Normally, there is no need to implement more instances of this class.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "Case",
           "package": "funpat",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Case instances are allowed to form cases of pattern match Normally there is no need to implement more instances of this class",
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "Case",
           "package": "funpat",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type to be used in \u003ccode\u003e\u003ca\u003eMatchable\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "Match",
           "package": "funpat",
@@ -191,6 +206,7 @@
         "index": {
           "description": "data type to be used in Matchable instances",
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "Match",
           "package": "funpat",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMatchable\u003c/a\u003e\u003c/code\u003e data types can be used in patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "Matchable",
           "package": "funpat",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Matchable data types can be used in patterns",
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "Matchable",
           "package": "funpat",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "Param",
           "package": "funpat",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "Param",
           "package": "funpat",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "SomeCase",
           "package": "funpat",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "SomeCase",
           "package": "funpat",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe conditions of a match. In most cases, this is the only function in this class to implement.\n\u003c/p\u003e\u003cp\u003eIf the result is \u003ccode\u003eNothing\u003c/code\u003e, there is no match.\n\u003c/p\u003e\u003cp\u003eIf the result is \u003ccode\u003eJust [x :=: x', y :=: y', ... ]\u003c/code\u003e, condition of the match is\n that \u003ccode\u003ex\u003c/code\u003e matches \u003ccode\u003ex'\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e matches \u003ccode\u003ey'\u003c/code\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "(.=.)",
           "package": "funpat",
@@ -280,6 +303,7 @@
         "index": {
           "description": "The conditions of match In most cases this is the only function in this class to implement If the result is Nothing there is no match If the result is Just condition of the match is that matches matches etc",
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "(.=.) .=.",
           "normalized": "a-\u003ea-\u003eMaybe[Match]",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": ":=:",
           "package": "funpat",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": ":=:",
           "normalized": "a-\u003ea-\u003eMatch",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "Param",
           "package": "funpat",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "Param",
           "package": "funpat",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "SomeCase",
           "package": "funpat",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "SomeCase",
           "normalized": "a-\u003eSomeCase(PatternType a,ResultType a)",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "continue",
           "package": "funpat",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "continue",
           "normalized": "PatternType a-\u003ea-\u003eb-\u003eMaybe[b]",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "fromParam",
           "package": "funpat",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "fromParam",
           "package": "funpat",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the argument is an extra value created by \u003ccode\u003e\u003ca\u003emakeParam\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default implementation evaluates the argument and catches the\n exception thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "isParam",
           "package": "funpat",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Checks if the argument is an extra value created by makeParam The default implementation evaluates the argument and catches the exception thrown",
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "isParam",
           "normalized": "a-\u003eMaybe Bool",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an extra value of type \u003ccode\u003ea\u003c/code\u003e with a \u003ccode\u003eBool\u003c/code\u003e inside.\n\u003c/p\u003e\u003cp\u003eThe default implementation throws an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "makeParam",
           "package": "funpat",
@@ -445,6 +482,7 @@
         "index": {
           "description": "Creates an extra value of type with Bool inside The default implementation throws an exception",
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "makeParam",
           "normalized": "Bool-\u003ea",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "matchCase",
           "package": "funpat",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "matchCase",
           "normalized": "PatternType a-\u003ea-\u003eMaybe(ResultType a)",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcesses multiple cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "matchCases",
           "package": "funpat",
@@ -495,6 +536,7 @@
         "index": {
           "description": "Processes multiple cases",
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "matchCases",
           "normalized": "a-\u003e[SomeCase(a,b)]-\u003eb",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "matchError",
           "package": "funpat",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "matchError",
           "normalized": "String-\u003ea",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "matchFold",
           "package": "funpat",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "matchFold",
           "normalized": "a-\u003e[Match]-\u003eMaybe[a]",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "matchHelp",
           "package": "funpat",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "matchHelp",
           "normalized": "Match-\u003ea-\u003eMaybe[a]",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcesses one case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "matchSomeCase",
           "package": "funpat",
@@ -593,6 +642,7 @@
         "index": {
           "description": "Processes one case",
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "matchSomeCase",
           "normalized": "a-\u003eSomeCase(a,b)-\u003eMaybe b",
@@ -608,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "nonlinear",
           "package": "funpat",
@@ -617,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "nonlinear",
           "package": "funpat",
@@ -629,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "nonparametric",
           "package": "funpat",
@@ -638,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "nonparametric",
           "package": "funpat",
@@ -650,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "package",
           "package": "funpat",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "package",
           "package": "funpat",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "start",
           "package": "funpat",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "start",
           "normalized": "PatternType a-\u003ea-\u003eMaybe(ParameterType a)",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat.Match",
           "name": "unbound",
           "package": "funpat",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat Match",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat.Match",
           "name": "unbound",
           "package": "funpat",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:42 UTC 2014",
           "module": "Language.FunPat",
           "name": "FunPat",
           "package": "funpat",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Language FunPat",
+          "indexed": "2014-03-11T18:13:42",
           "module": "Language.FunPat",
           "name": "FunPat",
           "package": "funpat",

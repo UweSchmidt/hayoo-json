@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "orchid-demo"
+        "phrase": "orchid-demo",
+        "type": "phrase"
       },
       "type": "context"
     }

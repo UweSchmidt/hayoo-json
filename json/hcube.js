@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hcube"
+        "phrase": "hcube",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions for re-constructing internal data representation\n of virtual cube from a physical cube.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Cons",
           "name": "Cons",
           "package": "hcube",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides functions for re-constructing internal data representation of virtual cube from physical cube",
           "hierarchy": "HCube Cons",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Cons",
           "name": "Cons",
           "package": "hcube",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs the orientaion of a cubie from the color of two of its faces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Cons",
           "name": "consOrient",
           "package": "hcube",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Constructs the orientaion of cubie from the color of two of its faces",
           "hierarchy": "HCube Cons",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Cons",
           "name": "consOrient",
           "normalized": "(Side,Color)-\u003e(Side,Color)-\u003eOrient",
@@ -67,6 +71,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Cons",
           "name": "fromPhysical",
           "package": "hcube",
@@ -76,6 +81,7 @@
         },
         "index": {
           "hierarchy": "HCube Cons",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Cons",
           "name": "fromPhysical",
           "normalized": "FilePath-\u003eIO Rubik",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a virtual cube from a physical cube using CubeSurf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Cons",
           "name": "realToVirtual",
           "package": "hcube",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Constructs virtual cube from physical cube using CubeSurf",
           "hierarchy": "HCube Cons",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Cons",
           "name": "realToVirtual",
           "normalized": "CubeSurf-\u003eRubik",
@@ -117,6 +125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Data",
           "package": "hcube",
@@ -125,6 +134,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Data",
           "package": "hcube",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "ActualCube",
           "package": "hcube",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "ActualCube",
           "package": "hcube",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the color of a cubie face.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Color",
           "package": "hcube",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Represents the color of cubie face",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Color",
           "package": "hcube",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString with each character representing a color of a physical cubie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "ColorTag",
           "package": "hcube",
@@ -192,6 +207,7 @@
         "index": {
           "description": "String with each character representing color of physical cubie",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "ColorTag",
           "package": "hcube",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for simplistic processing of console commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Command",
           "package": "hcube",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Used for simplistic processing of console commands",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Command",
           "package": "hcube",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType used to specify state of physical cube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "CubeSurf",
           "package": "hcube",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Type used to specify state of physical cube",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "CubeSurf",
           "package": "hcube",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines direction of slab movement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Direction",
           "package": "hcube",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Defines direction of slab movement",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Direction",
           "package": "hcube",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Format",
           "package": "hcube",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Format",
           "package": "hcube",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrices in hcube are constructed from column vectors.\n The third vector is often chosen as the cross product of the first two\n such that the determinate of the matrix is one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Matrix",
           "package": "hcube",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Matrices in hcube are constructed from column vectors The third vector is often chosen as the cross product of the first two such that the determinate of the matrix is one",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Matrix",
           "package": "hcube",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger type used in hcube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Numb",
           "package": "hcube",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Integer type used in hcube",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Numb",
           "package": "hcube",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint is used in transformations of cubies in a two dimensional plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Point",
           "package": "hcube",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Point is used in transformations of cubies in two dimensional plane",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Point",
           "package": "hcube",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Projection",
           "package": "hcube",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Projection",
           "package": "hcube",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a rotation of an arbitrary cube slice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Rotation",
           "package": "hcube",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Defines rotation of an arbitrary cube slice",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Rotation",
           "package": "hcube",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSides of a cube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Side",
           "package": "hcube",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Sides of cube",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Side",
           "package": "hcube",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhysical size of cube.  For example a value of 3 refers to original 3x3x3 Rubik's cube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Size",
           "package": "hcube",
@@ -441,6 +478,7 @@
         "index": {
           "description": "Physical size of cube For example value of refers to original x3x3 Rubik cube",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Size",
           "package": "hcube",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines an axis for slab movement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Slab",
           "package": "hcube",
@@ -464,6 +503,7 @@
         "index": {
           "description": "Defines an axis for slab movement",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Slab",
           "package": "hcube",
@@ -478,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector which orientation group matrices act on.\n Also used for calculating new cubie positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Vec",
           "package": "hcube",
@@ -487,6 +528,7 @@
         "index": {
           "description": "Vector which orientation group matrices act on Also used for calculating new cubie positions",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Vec",
           "package": "hcube",
@@ -501,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft and right 3D view of cube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "View",
           "package": "hcube",
@@ -510,6 +553,7 @@
         "index": {
           "description": "Left and right view of cube",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "View",
           "package": "hcube",
@@ -524,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by Template to map logical structure of cube to display views.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "ViewAssociation",
           "package": "hcube",
@@ -533,6 +578,7 @@
         "index": {
           "description": "Used by Template to map logical structure of cube to display views",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "ViewAssociation",
           "package": "hcube",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "ActualCube",
           "package": "hcube",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "ActualCube",
           "package": "hcube",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "BackS",
           "package": "hcube",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "BackS",
           "package": "hcube",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Blue",
           "package": "hcube",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Blue",
           "package": "hcube",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Clockwise",
           "package": "hcube",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Clockwise",
           "package": "hcube",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Counter",
           "package": "hcube",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Counter",
           "package": "hcube",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "DownS",
           "package": "hcube",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "DownS",
           "package": "hcube",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "FrontS",
           "package": "hcube",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "FrontS",
           "package": "hcube",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Green",
           "package": "hcube",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Green",
           "package": "hcube",
@@ -722,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "HSlice",
           "package": "hcube",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "HSlice",
           "package": "hcube",
@@ -744,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Help",
           "package": "hcube",
@@ -753,6 +818,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Help",
           "package": "hcube",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Ide",
           "package": "hcube",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Ide",
           "package": "hcube",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Layer",
           "package": "hcube",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Layer",
           "package": "hcube",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "LeftS",
           "package": "hcube",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "LeftS",
           "package": "hcube",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "LeftV",
           "package": "hcube",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "LeftV",
           "package": "hcube",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Matrix",
           "package": "hcube",
@@ -863,6 +938,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Matrix",
           "package": "hcube",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "NoColor",
           "package": "hcube",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "NoColor",
           "package": "hcube",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "NoCommand",
           "package": "hcube",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "NoCommand",
           "package": "hcube",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "NoDir",
           "package": "hcube",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "NoDir",
           "package": "hcube",
@@ -942,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "NoSide",
           "package": "hcube",
@@ -951,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "NoSide",
           "package": "hcube",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "NoSlab",
           "package": "hcube",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "NoSlab",
           "package": "hcube",
@@ -986,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Operation",
           "package": "hcube",
@@ -995,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Operation",
           "normalized": "Operation[Rotation]",
@@ -1010,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Orange",
           "package": "hcube",
@@ -1019,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Orange",
           "package": "hcube",
@@ -1032,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Ori",
           "package": "hcube",
@@ -1041,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Ori",
           "package": "hcube",
@@ -1054,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Projection",
           "package": "hcube",
@@ -1063,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Projection",
           "package": "hcube",
@@ -1076,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Quit",
           "package": "hcube",
@@ -1085,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Quit",
           "package": "hcube",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Red",
           "package": "hcube",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Red",
           "package": "hcube",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "RightS",
           "package": "hcube",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "RightS",
           "package": "hcube",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "RightV",
           "package": "hcube",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "RightV",
           "package": "hcube",
@@ -1164,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "RotateCube",
           "package": "hcube",
@@ -1173,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "RotateCube",
           "package": "hcube",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Rotation",
           "package": "hcube",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Rotation",
           "package": "hcube",
@@ -1208,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Sur",
           "package": "hcube",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Sur",
           "normalized": "Sur(Numb,Side)",
@@ -1232,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Twice",
           "package": "hcube",
@@ -1241,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Twice",
           "package": "hcube",
@@ -1254,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Undo",
           "package": "hcube",
@@ -1263,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Undo",
           "package": "hcube",
@@ -1276,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "UpS",
           "package": "hcube",
@@ -1285,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "UpS",
           "package": "hcube",
@@ -1298,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "VSlice",
           "package": "hcube",
@@ -1307,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "VSlice",
           "package": "hcube",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "White",
           "package": "hcube",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "White",
           "package": "hcube",
@@ -1342,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "Yellow",
           "package": "hcube",
@@ -1351,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "Yellow",
           "package": "hcube",
@@ -1364,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "back",
           "package": "hcube",
@@ -1373,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "back",
           "package": "hcube",
@@ -1385,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "blueC",
           "package": "hcube",
@@ -1394,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "blueC",
           "normalized": "[Char]",
@@ -1409,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of sideToColor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "colorToSide",
           "package": "hcube",
@@ -1419,6 +1544,7 @@
         "index": {
           "description": "Inverse of sideToColor",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "colorToSide",
           "normalized": "Color-\u003eSide",
@@ -1434,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "down",
           "package": "hcube",
@@ -1443,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "down",
           "package": "hcube",
@@ -1455,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "front",
           "package": "hcube",
@@ -1464,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "front",
           "package": "hcube",
@@ -1476,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "greenC",
           "package": "hcube",
@@ -1485,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "greenC",
           "normalized": "[Char]",
@@ -1500,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverses direction of rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "invDir",
           "package": "hcube",
@@ -1510,6 +1643,7 @@
         "index": {
           "description": "Reverses direction of rotation",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "invDir",
           "normalized": "Direction-\u003eDirection",
@@ -1526,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives inverse of a cube operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "invOpp",
           "package": "hcube",
@@ -1536,6 +1671,7 @@
         "index": {
           "description": "Gives inverse of cube operation",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "invOpp",
           "normalized": "Rotation-\u003eRotation",
@@ -1551,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "left",
           "package": "hcube",
@@ -1560,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "left",
           "package": "hcube",
@@ -1572,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "noC",
           "package": "hcube",
@@ -1581,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "noC",
           "normalized": "[Char]",
@@ -1595,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "orangeC",
           "package": "hcube",
@@ -1604,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "orangeC",
           "normalized": "[Char]",
@@ -1618,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "redC",
           "package": "hcube",
@@ -1627,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "redC",
           "normalized": "[Char]",
@@ -1641,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "right",
           "package": "hcube",
@@ -1650,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "right",
           "package": "hcube",
@@ -1663,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates a side of a solved cube to a color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "sideToColor",
           "package": "hcube",
@@ -1673,6 +1820,7 @@
         "index": {
           "description": "Associates side of solved cube to color",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "sideToColor",
           "normalized": "Side-\u003eColor",
@@ -1688,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "up",
           "package": "hcube",
@@ -1697,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "up",
           "package": "hcube",
@@ -1710,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the color white. Modify if the physical cube uses a different coloring scheme\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "whiteC",
           "package": "hcube",
@@ -1720,6 +1871,7 @@
         "index": {
           "description": "Represents the color white Modify if the physical cube uses different coloring scheme",
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "whiteC",
           "normalized": "[Char]",
@@ -1734,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Data",
           "name": "yellowC",
           "package": "hcube",
@@ -1743,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "HCube Data",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Data",
           "name": "yellowC",
           "normalized": "[Char]",
@@ -1758,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExposes virtual cube functionality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "Lib",
           "package": "hcube",
@@ -1767,6 +1922,7 @@
         "index": {
           "description": "Exposes virtual cube functionality",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "Lib",
           "package": "hcube",
@@ -1781,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndividual cube of Rubik's cube, known as a Cubie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "Cube",
           "package": "hcube",
@@ -1790,6 +1947,7 @@
         "index": {
           "description": "Individual cube of Rubik cube known as Cubie",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "Cube",
           "package": "hcube",
@@ -1804,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVitrual Rubik's cube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "Rubik",
           "package": "hcube",
@@ -1813,6 +1972,7 @@
         "index": {
           "description": "Vitrual Rubik cube",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "Rubik",
           "package": "hcube",
@@ -1826,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "Cube",
           "package": "hcube",
@@ -1835,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "Cube",
           "package": "hcube",
@@ -1848,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "Rubik",
           "package": "hcube",
@@ -1857,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "Rubik",
           "package": "hcube",
@@ -1870,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "cid",
           "package": "hcube",
@@ -1879,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "cid",
           "package": "hcube",
@@ -1891,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "cnt",
           "package": "hcube",
@@ -1900,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "cnt",
           "normalized": "[Cube]",
@@ -1915,6 +2083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts from a surface view of cube to a cubie view of cube. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "consCubeInfo",
           "package": "hcube",
@@ -1925,6 +2094,7 @@
         "index": {
           "description": "Converts from surface view of cube to cubie view of cube",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "consCubeInfo",
           "normalized": "Int-\u003eCubeSurf-\u003e[(Int,ActualCube,ColorTag)]",
@@ -1940,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "crn",
           "package": "hcube",
@@ -1949,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "crn",
           "normalized": "[Cube]",
@@ -1964,6 +2136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a face id defined with respect to a side, to the cube id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "cubeIdsOfFace",
           "package": "hcube",
@@ -1974,6 +2147,7 @@
         "index": {
           "description": "Maps face id defined with respect to side to the cube id",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "cubeIdsOfFace",
           "normalized": "Int-\u003eSide-\u003e[Int]",
@@ -1990,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a tuple of cube ids corresponding to (corners, edges, centers, hidden cubies).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "cubeTypes",
           "package": "hcube",
@@ -2000,6 +2175,7 @@
         "index": {
           "description": "Generates tuple of cube ids corresponding to corners edges centers hidden cubies",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "cubeTypes",
           "normalized": "Size-\u003e([Int],[Int],[Int],[Int])",
@@ -2016,6 +2192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a cube operation on virtual cube.\n Conceptually this corresponds to multiplying the cube state by an appropriate element of the permutation group.\n However a vector approach is used here. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "doCubeOps",
           "package": "hcube",
@@ -2026,6 +2203,7 @@
         "index": {
           "description": "Performs cube operation on virtual cube Conceptually this corresponds to multiplying the cube state by an appropriate element of the permutation group However vector approach is used here",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "doCubeOps",
           "normalized": "[Rotation]-\u003eRubik-\u003eRubik",
@@ -2041,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "edg",
           "package": "hcube",
@@ -2050,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "edg",
           "normalized": "[Cube]",
@@ -2065,6 +2245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the cubie at a given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "getCubeFromPos",
           "package": "hcube",
@@ -2075,6 +2256,7 @@
         "index": {
           "description": "Returns the cubie at given position",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "getCubeFromPos",
           "normalized": "Rubik-\u003eNumb-\u003eCube",
@@ -2091,6 +2273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor of cube id on a face is returned.\n This function is important for rendering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "getFaceColor",
           "package": "hcube",
@@ -2101,6 +2284,7 @@
         "index": {
           "description": "Color of cube id on face is returned This function is important for rendering",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "getFaceColor",
           "normalized": "Rubik-\u003e(Numb,Side)-\u003eString",
@@ -2117,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a cube id to a pseudo-vector representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "getPos",
           "package": "hcube",
@@ -2127,6 +2312,7 @@
         "index": {
           "description": "Converts cube id to pseudo-vector representation",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "getPos",
           "normalized": "Size-\u003eNumb-\u003eVec",
@@ -2142,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "hid",
           "package": "hcube",
@@ -2151,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "hid",
           "normalized": "[Cube]",
@@ -2165,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "his",
           "package": "hcube",
@@ -2174,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "his",
           "normalized": "[Rotation]",
@@ -2189,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a virtual cube in solved state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "initCube",
           "package": "hcube",
@@ -2199,6 +2390,7 @@
         "index": {
           "description": "Creates virtual cube in solved state",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "initCube",
           "normalized": "Size-\u003eRubik",
@@ -2215,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads cube from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "loadCube",
           "package": "hcube",
@@ -2225,6 +2418,7 @@
         "index": {
           "description": "Loads cube from file",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "loadCube",
           "normalized": "Size-\u003eFilePath-\u003eIO Rubik",
@@ -2240,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "loop",
           "package": "hcube",
@@ -2249,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "loop",
           "package": "hcube",
@@ -2261,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "n",
           "package": "hcube",
@@ -2270,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "n",
           "package": "hcube",
@@ -2282,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "ori",
           "package": "hcube",
@@ -2291,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "ori",
           "package": "hcube",
@@ -2303,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "pos",
           "package": "hcube",
@@ -2312,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "pos",
           "package": "hcube",
@@ -2325,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a pseudo-vector representation to a cube id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "posToId",
           "package": "hcube",
@@ -2335,6 +2538,7 @@
         "index": {
           "description": "Converts pseudo-vector representation to cube id",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "posToId",
           "normalized": "Size-\u003eVec-\u003eNumb",
@@ -2351,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves cube to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "saveCube",
           "package": "hcube",
@@ -2361,6 +2566,7 @@
         "index": {
           "description": "Saves cube to file",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "saveCube",
           "normalized": "FilePath-\u003eRubik-\u003eIO()",
@@ -2377,6 +2583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCubeSurf representing a solved cube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "solvedSurf",
           "package": "hcube",
@@ -2387,6 +2594,7 @@
         "index": {
           "description": "CubeSurf representing solved cube",
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "solvedSurf",
           "normalized": "Int-\u003eCubeSurf",
@@ -2402,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Lib",
           "name": "view",
           "package": "hcube",
@@ -2411,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "HCube Lib",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Lib",
           "name": "view",
           "package": "hcube",
@@ -2424,6 +2634,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOrientation group is used to represent orientation of cubies, and cube as a\n whole. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "OrientGroup",
           "package": "hcube",
@@ -2433,6 +2644,7 @@
         "index": {
           "description": "Orientation group is used to represent orientation of cubies and cube as whole",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "OrientGroup",
           "package": "hcube",
@@ -2447,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical extension of Monoid to a group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "Group",
           "package": "hcube",
@@ -2456,6 +2669,7 @@
         "index": {
           "description": "Logical extension of Monoid to group",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "Group",
           "package": "hcube",
@@ -2470,6 +2684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of Cubie orientation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "Orient",
           "package": "hcube",
@@ -2479,6 +2694,7 @@
         "index": {
           "description": "Representation of Cubie orientation",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "Orient",
           "package": "hcube",
@@ -2492,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "Orient",
           "package": "hcube",
@@ -2501,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "Orient",
           "normalized": "Orient[Vec]",
@@ -2517,6 +2735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives the color of the side identified by the vector, in a solved state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "colorToVec",
           "package": "hcube",
@@ -2527,6 +2746,7 @@
         "index": {
           "description": "Gives the color of the side identified by the vector in solved state",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "colorToVec",
           "normalized": "Color-\u003eVec",
@@ -2543,6 +2763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an element of the orientation group from the name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "cons",
           "package": "hcube",
@@ -2553,6 +2774,7 @@
         "index": {
           "description": "Constructs an element of the orientation group from the name",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "cons",
           "normalized": "Char-\u003eOrient",
@@ -2568,6 +2790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives the name of an element of the orientation group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "eid",
           "package": "hcube",
@@ -2578,6 +2801,7 @@
         "index": {
           "description": "Gives the name of an element of the orientation group",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "eid",
           "normalized": "Orient-\u003eChar",
@@ -2593,6 +2817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo vector representation of orientation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "getVec",
           "package": "hcube",
@@ -2603,6 +2828,7 @@
         "index": {
           "description": "Two vector representation of orientation",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "getVec",
           "normalized": "Orient-\u003e[Vec]",
@@ -2618,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "inv",
           "package": "hcube",
@@ -2627,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "inv",
           "normalized": "a-\u003ea",
@@ -2642,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of names for elements of the orientation group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "orientChrDomain",
           "package": "hcube",
@@ -2652,6 +2881,7 @@
         "index": {
           "description": "List of names for elements of the orientation group",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "orientChrDomain",
           "normalized": "[Char]",
@@ -2668,6 +2898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of rawToOrientNumber\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "orientNumberToRaw",
           "package": "hcube",
@@ -2678,6 +2909,7 @@
         "index": {
           "description": "Inverse of rawToOrientNumber",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "orientNumberToRaw",
           "normalized": "Numb-\u003eNumb",
@@ -2694,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the orientation to the raw orientation number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "rawOrientNum",
           "package": "hcube",
@@ -2704,6 +2937,7 @@
         "index": {
           "description": "Converts the orientation to the raw orientation number",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "rawOrientNum",
           "normalized": "Orient-\u003eNumb",
@@ -2720,6 +2954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw number is an intermediate step in associating two vectors\n to an orientation. The orientation number 1 corresponds to an orientation of ''a'' and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "rawToOrientNumber",
           "package": "hcube",
@@ -2730,6 +2965,7 @@
         "index": {
           "description": "Raw number is an intermediate step in associating two vectors to an orientation The orientation number corresponds to an orientation of and so on",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "rawToOrientNumber",
           "normalized": "Numb-\u003eNumb",
@@ -2746,6 +2982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates a side to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "sideToVec",
           "package": "hcube",
@@ -2756,6 +2993,7 @@
         "index": {
           "description": "Associates side to vector",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "sideToVec",
           "normalized": "Side-\u003eVec",
@@ -2772,6 +3010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a function of orientation over orient domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "spanDomain",
           "package": "hcube",
@@ -2782,6 +3021,7 @@
         "index": {
           "description": "Maps function of orientation over orient domain",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "spanDomain",
           "normalized": "(Orient-\u003ea)-\u003e[(b,a)]",
@@ -2798,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps an element of the orientation group to a matrix.\n Orient tranformation matrix is determined by specifing, (1,0,0) goes to v1 and (0,1,0) goes to v2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "to",
           "package": "hcube",
@@ -2808,6 +3049,7 @@
         "index": {
           "description": "Maps an element of the orientation group to matrix Orient tranformation matrix is determined by specifing goes to v1 and goes to v2",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "to",
           "normalized": "Orient-\u003eMatrix",
@@ -2823,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of colorToVec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "vecToColor",
           "package": "hcube",
@@ -2833,6 +3076,7 @@
         "index": {
           "description": "Inverse of colorToVec",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "vecToColor",
           "normalized": "Vec-\u003eColor",
@@ -2849,6 +3093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of sideToVec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.OrientGroup",
           "name": "vecToSide",
           "package": "hcube",
@@ -2859,6 +3104,7 @@
         "index": {
           "description": "Inverse of sideToVec",
           "hierarchy": "HCube OrientGroup",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.OrientGroup",
           "name": "vecToSide",
           "normalized": "Vec-\u003eSide",
@@ -2875,6 +3121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneration of permutation representation of cube.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Permutation",
           "name": "Permutation",
           "package": "hcube",
@@ -2884,6 +3131,7 @@
         "index": {
           "description": "Generation of permutation representation of cube",
           "hierarchy": "HCube Permutation",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Permutation",
           "name": "Permutation",
           "package": "hcube",
@@ -2898,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a cube operation to an element of the permutation group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Permutation",
           "name": "genPerm",
           "package": "hcube",
@@ -2908,6 +3157,7 @@
         "index": {
           "description": "Map cube operation to an element of the permutation group",
           "hierarchy": "HCube Permutation",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Permutation",
           "name": "genPerm",
           "normalized": "Size-\u003e(Rubik-\u003e[Cube])-\u003eRotation-\u003ePermutation Numb",
@@ -2924,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConsole visualization of virtual cube.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Template",
           "name": "Template",
           "package": "hcube",
@@ -2933,6 +3184,7 @@
         "index": {
           "description": "Console visualization of virtual cube",
           "hierarchy": "HCube Template",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Template",
           "name": "Template",
           "package": "hcube",
@@ -2946,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Template",
           "name": "render",
           "package": "hcube",
@@ -2955,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "HCube Template",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Template",
           "name": "render",
           "normalized": "Rubik-\u003eIO Rubik",
@@ -2970,6 +3224,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest invariants of hcube. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Test",
           "name": "Test",
           "package": "hcube",
@@ -2979,6 +3234,7 @@
         "index": {
           "description": "Test invariants of hcube",
           "hierarchy": "HCube Test",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Test",
           "name": "Test",
           "package": "hcube",
@@ -2992,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Test",
           "name": "runTests",
           "package": "hcube",
@@ -3001,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "HCube Test",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Test",
           "name": "runTests",
           "normalized": "IO()",
@@ -3017,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for generating tables exhibiting internals of hcube.\n See the design directory for output generated by these functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "Theory",
           "package": "hcube",
@@ -3026,6 +3285,7 @@
         "index": {
           "description": "Module for generating tables exhibiting internals of hcube See the design directory for output generated by these functions",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "Theory",
           "package": "hcube",
@@ -3040,6 +3300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays how coloring of cubie is used to determine cube id of cube.\n Cube id represents position of cubie in solved configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayColorTags",
           "package": "hcube",
@@ -3050,6 +3311,7 @@
         "index": {
           "description": "Displays how coloring of cubie is used to determine cube id of cube Cube id represents position of cubie in solved configuration",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayColorTags",
           "normalized": "Size-\u003eIO()",
@@ -3066,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows how colors on a cubie are mapped to orientation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayColorToOrient",
           "package": "hcube",
@@ -3076,6 +3339,7 @@
         "index": {
           "description": "Shows how colors on cubie are mapped to orientation",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayColorToOrient",
           "normalized": "IO()",
@@ -3092,6 +3356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow mapping of cube face to vector and color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayColors",
           "package": "hcube",
@@ -3102,6 +3367,7 @@
         "index": {
           "description": "Show mapping of cube face to vector and color",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayColors",
           "normalized": "IO()",
@@ -3118,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays mapping of face id to cube id.\n Face ids are useful when specifing the state of a physical cube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayFaceIds",
           "package": "hcube",
@@ -3128,6 +3395,7 @@
         "index": {
           "description": "Displays mapping of face id to cube id Face ids are useful when specifing the state of physical cube",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayFaceIds",
           "normalized": "Size-\u003eIO()",
@@ -3144,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays inverses for orientation group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayOrientI",
           "package": "hcube",
@@ -3154,6 +3423,7 @@
         "index": {
           "description": "Displays inverses for orientation group",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayOrientI",
           "normalized": "IO()",
@@ -3170,6 +3440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix representation of oriention group.\n Right handed coordinate system implies determinate must be one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayOrientMatrices",
           "package": "hcube",
@@ -3180,6 +3451,7 @@
         "index": {
           "description": "Matrix representation of oriention group Right handed coordinate system implies determinate must be one",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayOrientMatrices",
           "normalized": "IO()",
@@ -3196,6 +3468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays multiplication table for orientation group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayOrientP",
           "package": "hcube",
@@ -3206,6 +3479,7 @@
         "index": {
           "description": "Displays multiplication table for orientation group",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayOrientP",
           "normalized": "IO()",
@@ -3222,6 +3496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCube orientation can be viewed as a transformation of faces from identity position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayOrientTransforms",
           "package": "hcube",
@@ -3232,6 +3507,7 @@
         "index": {
           "description": "Cube orientation can be viewed as transformation of faces from identity position",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayOrientTransforms",
           "normalized": "IO()",
@@ -3248,6 +3524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo vectors are required to uniquely determine cube orientation.\n Orientation is defined as an operation from identity orientation.\n Right face goes to face represented by vector 1.\n Back gace goes to face represented by vector 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Theory",
           "name": "displayOrientVecMapping",
           "package": "hcube",
@@ -3258,6 +3535,7 @@
         "index": {
           "description": "Two vectors are required to uniquely determine cube orientation Orientation is defined as an operation from identity orientation Right face goes to face represented by vector Back gace goes to face represented by vector",
           "hierarchy": "HCube Theory",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Theory",
           "name": "displayOrientVecMapping",
           "normalized": "IO()",
@@ -3274,6 +3552,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon utility functions, simple linear algebra. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "Utility",
           "package": "hcube",
@@ -3283,6 +3562,7 @@
         "index": {
           "description": "Common utility functions simple linear algebra",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "Utility",
           "package": "hcube",
@@ -3297,6 +3577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple a matrix on the left side of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "(|*|)",
           "package": "hcube",
@@ -3307,6 +3588,7 @@
         "index": {
           "description": "Multiple matrix on the left side of vector",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "(|*|) |*|",
           "normalized": "Matrix-\u003eVec-\u003eVec",
@@ -3322,6 +3604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple two matrices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "(|**|)",
           "package": "hcube",
@@ -3332,6 +3615,7 @@
         "index": {
           "description": "Multiple two matrices",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "(|**|) |**|",
           "normalized": "Matrix-\u003eMatrix-\u003eMatrix",
@@ -3346,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "(~|)",
           "package": "hcube",
@@ -3355,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "(~|) ~|",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb a",
@@ -3369,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "(~\u003e)",
           "package": "hcube",
@@ -3378,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "(~\u003e) ~\u003e",
           "normalized": "a b-\u003e(b-\u003ec-\u003ea c)-\u003ec-\u003ea c",
@@ -3392,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "(\u003c*)",
           "package": "hcube",
@@ -3401,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -3416,6 +3706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cofactor of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "cofactors",
           "package": "hcube",
@@ -3426,6 +3717,7 @@
         "index": {
           "description": "The cofactor of matrix",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "cofactors",
           "normalized": "Matrix-\u003eMatrix",
@@ -3440,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "concatMapM",
           "package": "hcube",
@@ -3449,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -3465,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cross product of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "cross",
           "package": "hcube",
@@ -3475,6 +3770,7 @@
         "index": {
           "description": "The cross product of two vectors",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "cross",
           "normalized": "Vec-\u003eVec-\u003eVec",
@@ -3490,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe determinate of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "det",
           "package": "hcube",
@@ -3500,6 +3797,7 @@
         "index": {
           "description": "The determinate of matrix",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "det",
           "normalized": "Matrix-\u003eInt",
@@ -3514,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "doM",
           "package": "hcube",
@@ -3523,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "doM",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb a)-\u003ea-\u003eb a",
@@ -3538,6 +3838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dot product of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "dot",
           "package": "hcube",
@@ -3548,6 +3849,7 @@
         "index": {
           "description": "The dot product of two vectors",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "dot",
           "normalized": "Vec-\u003eVec-\u003eNumb",
@@ -3562,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "gateMinus",
           "package": "hcube",
@@ -3571,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "gateMinus",
           "normalized": "Numb-\u003eVec-\u003eVec",
@@ -3587,6 +3891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "inverse",
           "package": "hcube",
@@ -3597,6 +3902,7 @@
         "index": {
           "description": "Inverse of matrix",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "inverse",
           "normalized": "Matrix-\u003eMatrix",
@@ -3611,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "listToMaybe",
           "package": "hcube",
@@ -3620,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "listToMaybe",
           "normalized": "[a]-\u003eMaybe a",
@@ -3636,6 +3944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a function with two vector arguments to one accepting a list of vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "mapVec",
           "package": "hcube",
@@ -3646,6 +3955,7 @@
         "index": {
           "description": "Convert function with two vector arguments to one accepting list of vectors",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "mapVec",
           "normalized": "(Vec-\u003eVec-\u003ea)-\u003e[Vec]-\u003ea",
@@ -3662,6 +3972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple a matrix by a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "matrixMult",
           "package": "hcube",
@@ -3672,6 +3983,7 @@
         "index": {
           "description": "Multiple matrix by scalar",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "matrixMult",
           "normalized": "Matrix-\u003eInt-\u003eMatrix",
@@ -3688,6 +4000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA safe form of read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "maybeRead",
           "package": "hcube",
@@ -3698,6 +4011,7 @@
         "index": {
           "description": "safe form of read",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe Int",
@@ -3714,6 +4028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector multipled by scalar -1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "minus",
           "package": "hcube",
@@ -3724,6 +4039,7 @@
         "index": {
           "description": "Vector multipled by scalar",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "minus",
           "normalized": "Vec-\u003eVec",
@@ -3738,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "modMinus",
           "package": "hcube",
@@ -3747,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "modMinus",
           "normalized": "Numb-\u003eNumb-\u003eVec-\u003eVec",
@@ -3762,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "modNot",
           "package": "hcube",
@@ -3771,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "modNot",
           "normalized": "Numb-\u003eNumb-\u003eNumb",
@@ -3787,6 +4107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple a matrix by a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "multMatrix",
           "package": "hcube",
@@ -3797,6 +4118,7 @@
         "index": {
           "description": "Multiple matrix by scalar",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "multMatrix",
           "normalized": "Numb-\u003eMatrix-\u003eMatrix",
@@ -3813,6 +4135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple a vector by a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "multVec",
           "package": "hcube",
@@ -3823,6 +4146,7 @@
         "index": {
           "description": "Multiple vector by scalar",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "multVec",
           "normalized": "Numb-\u003eVec-\u003eVec",
@@ -3839,6 +4163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "showM",
           "package": "hcube",
@@ -3849,6 +4174,7 @@
         "index": {
           "description": "Display matrix",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "showM",
           "normalized": "Matrix-\u003eString",
@@ -3864,6 +4190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of the sides.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "sides",
           "package": "hcube",
@@ -3874,6 +4201,7 @@
         "index": {
           "description": "List of the sides",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "sides",
           "normalized": "[Side]",
@@ -3889,6 +4217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function on the domain of Side x Side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "spanFaces",
           "package": "hcube",
@@ -3899,6 +4228,7 @@
         "index": {
           "description": "Applies function on the domain of Side Side",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "spanFaces",
           "normalized": "(Side-\u003eSide-\u003ea)-\u003e[(b,a)]",
@@ -3915,6 +4245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns square root of argument if argument is a perfect square. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "squareRoot",
           "package": "hcube",
@@ -3925,6 +4256,7 @@
         "index": {
           "description": "Returns square root of argument if argument is perfect square",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "squareRoot",
           "normalized": "Int-\u003eMaybe Int",
@@ -3941,6 +4273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "transposeM",
           "package": "hcube",
@@ -3951,6 +4284,7 @@
         "index": {
           "description": "Transpose of matrix",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "transposeM",
           "normalized": "Matrix-\u003eMatrix",
@@ -3966,6 +4300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVectors we are interested in only have one non zero component. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "vcomp",
           "package": "hcube",
@@ -3976,6 +4311,7 @@
         "index": {
           "description": "Vectors we are interested in only have one non zero component",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "vcomp",
           "normalized": "Vec-\u003eInt",
@@ -3991,6 +4327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the determinate of a matrix constructed by three column vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "vecDet",
           "package": "hcube",
@@ -4001,6 +4338,7 @@
         "index": {
           "description": "Calculate the determinate of matrix constructed by three column vectors",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "vecDet",
           "normalized": "Vec-\u003eVec-\u003eVec-\u003eInt",
@@ -4017,6 +4355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of the vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "vecs",
           "package": "hcube",
@@ -4027,6 +4366,7 @@
         "index": {
           "description": "List of the vectors",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "vecs",
           "normalized": "[Vec]",
@@ -4042,6 +4382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition of non-zero vector component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:10 UTC 2014",
           "module": "HCube.Utility",
           "name": "vpos",
           "package": "hcube",
@@ -4052,6 +4393,7 @@
         "index": {
           "description": "Position of non-zero vector component",
           "hierarchy": "HCube Utility",
+          "indexed": "2014-03-11T18:35:10",
           "module": "HCube.Utility",
           "name": "vpos",
           "normalized": "Vec-\u003eInt",

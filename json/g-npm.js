@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "g-npm"
+        "phrase": "g-npm",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaTeX"
+        "phrase": "HaTeX",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition of the \u003ccode\u003e\u003ca\u003eLaTeXC\u003c/a\u003e\u003c/code\u003e class, used to combine the classic applicative and\n   the latter monadic interfaces of \u003cem\u003eHaTeX 3\u003c/em\u003e. The user can define new instances\n   as well, adding flexibility to the way \u003cem\u003eHaTeX\u003c/em\u003e is used.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "Class",
           "package": "HaTeX",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Definition of the LaTeXC class used to combine the classic applicative and the latter monadic interfaces of HaTeX The user can define new instances as well adding flexibility to the way HaTeX is used",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "Class",
           "package": "HaTeX",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the class of \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e code generators. It has \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e as\n   superclasses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "LaTeXC",
           "package": "HaTeX",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This is the class of LaTeX code generators It has Monoid and IsString as superclasses",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "LaTeXC",
           "package": "HaTeX",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monoids (types with an associative binary operation that\n has an identity).  Instances should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emappend mempty x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x mempty = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x (mappend y z) = mappend (mappend x y) z\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emconcat = \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e mappend mempty\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe method names refer to the monoid of lists under concatenation,\n but there are many other instances.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome types can be viewed as a monoid in more than one way,\n e.g. both addition and multiplication on numbers.\n In such cases we often define \u003ccode\u003enewtype\u003c/code\u003es and make those instances\n of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eProduct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "Monoid",
           "package": "HaTeX",
@@ -73,6 +78,7 @@
         "index": {
           "description": "The class of monoids types with an associative binary operation that has an identity Instances should satisfy the following laws mappend mempty mappend mempty mappend mappend mappend mappend mconcat foldr mappend mempty The method names refer to the monoid of lists under concatenation but there are many other instances Minimal complete definition mempty and mappend Some types can be viewed as monoid in more than one way e.g both addition and multiplication on numbers In such cases we often define newtype and make those instances of Monoid e.g Sum and Product",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "Monoid",
           "package": "HaTeX",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lifted version of the \u003ccode\u003e\u003ca\u003eTeXBraces\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e\u003cpre\u003e braces = liftL TeXBraces\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "braces",
           "package": "HaTeX",
@@ -97,6 +104,7 @@
         "index": {
           "description": "lifted version of the TeXBraces constructor braces liftL TeXBraces",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "braces",
           "normalized": "a-\u003ea",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple (without arguments) and handy command generator\n   using the name of the command.\n\u003c/p\u003e\u003cpre\u003e comm0 str = fromLaTeX $ TeXComm str []\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "comm0",
           "package": "HaTeX",
@@ -122,6 +131,7 @@
         "index": {
           "description": "simple without arguments and handy command generator using the name of the command comm0 str fromLaTeX TeXComm str",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "comm0",
           "normalized": "String-\u003ea",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA one parameter command generator using the name of the command.\n   The parameter will be rendered as a fixed argument.\n\u003c/p\u003e\u003cpre\u003e comm1 str = liftL $ \\l -\u003e TeXComm str [FixArg l]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "comm1",
           "package": "HaTeX",
@@ -147,6 +158,7 @@
         "index": {
           "description": "one parameter command generator using the name of the command The parameter will be rendered as fixed argument comm1 str liftL TeXComm str FixArg",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "comm1",
           "normalized": "String-\u003ea-\u003ea",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecomm0\u003c/a\u003e\u003c/code\u003e but using \u003ccode\u003e\u003ca\u003eTeXCommS\u003c/a\u003e\u003c/code\u003e, i.e. no \"{}\" will be inserted to protect\n the command's end.\n\u003c/p\u003e\u003cpre\u003e commS = fromLaTeX . TeXCommS\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "commS",
           "package": "HaTeX",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Like comm0 but using TeXCommS i.e no will be inserted to protect the command end commS fromLaTeX TeXCommS",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "commS",
           "normalized": "String-\u003ea",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value to its equivalent in any \u003ccode\u003e\u003ca\u003eLaTeXC\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "fromLaTeX",
           "package": "HaTeX",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Map LaTeX value to its equivalent in any LaTeXC instance",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "fromLaTeX",
           "normalized": "LaTeX-\u003ea",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a inner function of \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values into any \u003ccode\u003e\u003ca\u003eLaTeXC\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "liftL",
           "package": "HaTeX",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Lift inner function of LaTeX values into any LaTeXC instance",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "liftL",
           "normalized": "(LaTeX-\u003eLaTeX)-\u003ea-\u003ea",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eliftL\u003c/a\u003e\u003c/code\u003e with a two arguments function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "liftL2",
           "package": "HaTeX",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Variant of liftL with two arguments function",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "liftL2",
           "normalized": "(LaTeX-\u003eLaTeX-\u003eLaTeX)-\u003ea-\u003ea-\u003ea",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eliftL\u003c/a\u003e\u003c/code\u003e with a three arguments function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "liftL3",
           "package": "HaTeX",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Variant of liftL with three arguments function",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "liftL3",
           "normalized": "(LaTeX-\u003eLaTeX-\u003eLaTeX-\u003eLaTeX)-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method must take a function that combines a list of \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values into a new one,\n   and creates a function that combines \u003ccode\u003el\u003c/code\u003e-typed values. The combining function can be\n   seen as a function with 0 or more \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e arguments with a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value as output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "liftListL",
           "package": "HaTeX",
@@ -298,6 +321,7 @@
         "index": {
           "description": "This method must take function that combines list of LaTeX values into new one and creates function that combines typed values The combining function can be seen as function with or more LaTeX arguments with LaTeX value as output",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "liftListL",
           "normalized": "([LaTeX]-\u003eLaTeX)-\u003e[a]-\u003ea",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "mappend",
           "package": "HaTeX",
@@ -323,6 +348,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "mconcat",
           "package": "HaTeX",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Class",
           "name": "mempty",
           "package": "HaTeX",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Text LaTeX Base Class",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Class",
           "name": "mempty",
           "package": "HaTeX",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLaTeX standard commands and environments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Commands",
           "package": "HaTeX",
@@ -393,6 +424,7 @@
         "index": {
           "description": "LaTeX standard commands and environments",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Commands",
           "package": "HaTeX",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class option to be passed to the \u003ccode\u003e\u003ca\u003edocumentclass\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "ClassOption",
           "package": "HaTeX",
@@ -416,6 +449,7 @@
         "index": {
           "description": "class option to be passed to the documentclass function",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "ClassOption",
           "package": "HaTeX",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaTeX available paper types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "PaperType",
           "package": "HaTeX",
@@ -439,6 +474,7 @@
         "index": {
           "description": "LaTeX available paper types",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "PaperType",
           "package": "HaTeX",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operator appends a comment after a expression.\n   For example:\n\u003c/p\u003e\u003cpre\u003e textbf \"I'm just an example.\" %: \"Insert a few words here.\"\n\u003c/pre\u003e\u003cp\u003eThe implementation is\n\u003c/p\u003e\u003cpre\u003e (%:) l = (l \u003c\u003e) . comment\n\u003c/pre\u003e\u003cp\u003eSince you are writing in Haskell, you may not need to output comments\n as you can add them in the Haskell source. I added this feature\n for completeness. It may be useful for debugging the output as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "(%:)",
           "package": "HaTeX",
@@ -463,6 +500,7 @@
         "index": {
           "description": "This operator appends comment after expression For example textbf just an example Insert few words here The implementation is comment Since you are writing in Haskell you may not need to output comments as you can add them in the Haskell source added this feature for completeness It may be useful for debugging the output as well",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "(%:) %:",
           "normalized": "a-\u003eText-\u003ea",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColumn separator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "(&)",
           "package": "HaTeX",
@@ -488,6 +527,7 @@
         "index": {
           "description": "Column separator",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "(&) &",
           "normalized": "a-\u003ea-\u003ea",
@@ -502,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A0",
           "package": "HaTeX",
@@ -511,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A0",
           "package": "HaTeX",
@@ -523,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A1",
           "package": "HaTeX",
@@ -532,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A1",
           "package": "HaTeX",
@@ -544,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A2",
           "package": "HaTeX",
@@ -553,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A2",
           "package": "HaTeX",
@@ -565,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A3",
           "package": "HaTeX",
@@ -574,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A3",
           "package": "HaTeX",
@@ -586,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A4",
           "package": "HaTeX",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A4",
           "package": "HaTeX",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A5",
           "package": "HaTeX",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A5",
           "package": "HaTeX",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A6",
           "package": "HaTeX",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "A6",
           "package": "HaTeX",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B0",
           "package": "HaTeX",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B0",
           "package": "HaTeX",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B1",
           "package": "HaTeX",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B1",
           "package": "HaTeX",
@@ -691,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B2",
           "package": "HaTeX",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B2",
           "package": "HaTeX",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B3",
           "package": "HaTeX",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B3",
           "package": "HaTeX",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B4",
           "package": "HaTeX",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B4",
           "package": "HaTeX",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B5",
           "package": "HaTeX",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B5",
           "package": "HaTeX",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B6",
           "package": "HaTeX",
@@ -784,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "B6",
           "package": "HaTeX",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "CustomOption",
           "package": "HaTeX",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "CustomOption",
           "package": "HaTeX",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Draft",
           "package": "HaTeX",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Draft",
           "package": "HaTeX",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Executive",
           "package": "HaTeX",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Executive",
           "package": "HaTeX",
@@ -862,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Fleqn",
           "package": "HaTeX",
@@ -871,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Fleqn",
           "package": "HaTeX",
@@ -884,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "FontSize",
           "package": "HaTeX",
@@ -893,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "FontSize",
           "package": "HaTeX",
@@ -906,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Landscape",
           "package": "HaTeX",
@@ -915,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Landscape",
           "package": "HaTeX",
@@ -928,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Legal",
           "package": "HaTeX",
@@ -937,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Legal",
           "package": "HaTeX",
@@ -950,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Leqno",
           "package": "HaTeX",
@@ -959,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Leqno",
           "package": "HaTeX",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Letter",
           "package": "HaTeX",
@@ -981,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Letter",
           "package": "HaTeX",
@@ -994,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "NoTitlePage",
           "package": "HaTeX",
@@ -1003,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "NoTitlePage",
           "package": "HaTeX",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "OneColumn",
           "package": "HaTeX",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "OneColumn",
           "package": "HaTeX",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "OneSide",
           "package": "HaTeX",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "OneSide",
           "package": "HaTeX",
@@ -1060,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "OpenAny",
           "package": "HaTeX",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "OpenAny",
           "package": "HaTeX",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "OpenRight",
           "package": "HaTeX",
@@ -1091,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "OpenRight",
           "package": "HaTeX",
@@ -1104,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Paper",
           "package": "HaTeX",
@@ -1113,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "Paper",
           "package": "HaTeX",
@@ -1126,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "TitlePage",
           "package": "HaTeX",
@@ -1135,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "TitlePage",
           "package": "HaTeX",
@@ -1148,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "TwoColumn",
           "package": "HaTeX",
@@ -1157,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "TwoColumn",
           "package": "HaTeX",
@@ -1170,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "TwoSide",
           "package": "HaTeX",
@@ -1179,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "TwoSide",
           "package": "HaTeX",
@@ -1192,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a0paper",
           "package": "HaTeX",
@@ -1201,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a0paper",
           "package": "HaTeX",
@@ -1213,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a1paper",
           "package": "HaTeX",
@@ -1222,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a1paper",
           "package": "HaTeX",
@@ -1234,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a2paper",
           "package": "HaTeX",
@@ -1243,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a2paper",
           "package": "HaTeX",
@@ -1255,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a3paper",
           "package": "HaTeX",
@@ -1264,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a3paper",
           "package": "HaTeX",
@@ -1276,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a4paper",
           "package": "HaTeX",
@@ -1285,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a4paper",
           "package": "HaTeX",
@@ -1297,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a5paper",
           "package": "HaTeX",
@@ -1306,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a5paper",
           "package": "HaTeX",
@@ -1318,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a6paper",
           "package": "HaTeX",
@@ -1327,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "a6paper",
           "package": "HaTeX",
@@ -1340,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "abstract",
           "package": "HaTeX",
@@ -1350,6 +1469,7 @@
         "index": {
           "description": "Abstract section",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "abstract",
           "normalized": "a-\u003ea",
@@ -1365,6 +1485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowercase letters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "alph",
           "package": "HaTeX",
@@ -1375,6 +1496,7 @@
         "index": {
           "description": "Lowercase letters",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "alph",
           "package": "HaTeX",
@@ -1388,6 +1510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUppercase letters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "alph_",
           "package": "HaTeX",
@@ -1398,6 +1521,7 @@
         "index": {
           "description": "Uppercase letters",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "alph_",
           "package": "HaTeX",
@@ -1410,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "appendix",
           "package": "HaTeX",
@@ -1419,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "appendix",
           "package": "HaTeX",
@@ -1432,6 +1558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArabic numerals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "arabic",
           "package": "HaTeX",
@@ -1442,6 +1569,7 @@
         "index": {
           "description": "Arabic numerals",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "arabic",
           "package": "HaTeX",
@@ -1454,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "article",
           "package": "HaTeX",
@@ -1463,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "article",
           "package": "HaTeX",
@@ -1476,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the author(s) of the document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "author",
           "package": "HaTeX",
@@ -1486,6 +1617,7 @@
         "index": {
           "description": "Set the author of the document",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "author",
           "normalized": "a-\u003ea",
@@ -1500,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b0paper",
           "package": "HaTeX",
@@ -1509,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b0paper",
           "package": "HaTeX",
@@ -1521,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b1paper",
           "package": "HaTeX",
@@ -1530,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b1paper",
           "package": "HaTeX",
@@ -1542,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b2paper",
           "package": "HaTeX",
@@ -1551,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b2paper",
           "package": "HaTeX",
@@ -1563,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b3paper",
           "package": "HaTeX",
@@ -1572,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b3paper",
           "package": "HaTeX",
@@ -1584,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b4paper",
           "package": "HaTeX",
@@ -1593,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b4paper",
           "package": "HaTeX",
@@ -1605,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b5paper",
           "package": "HaTeX",
@@ -1614,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b5paper",
           "package": "HaTeX",
@@ -1626,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b6paper",
           "package": "HaTeX",
@@ -1635,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "b6paper",
           "package": "HaTeX",
@@ -1648,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalling \u003ccode\u003e\u003ca\u003ebetween\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec l1 l2\u003c/code\u003e puts \u003ccode\u003ec\u003c/code\u003e between \u003ccode\u003el1\u003c/code\u003e and \u003ccode\u003el2\u003c/code\u003e and\n   appends them.\n\u003c/p\u003e\u003cpre\u003e between c l1 l2 = l1 \u003c\u003e c \u003c\u003e l2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "between",
           "package": "HaTeX",
@@ -1658,6 +1805,7 @@
         "index": {
           "description": "Calling between l1 l2 puts between l1 and l2 and appends them between l1 l2 l1 l2",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "between",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -1672,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "bigskip",
           "package": "HaTeX",
@@ -1681,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "bigskip",
           "package": "HaTeX",
@@ -1693,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "book",
           "package": "HaTeX",
@@ -1702,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "book",
           "package": "HaTeX",
@@ -1714,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "caption",
           "package": "HaTeX",
@@ -1723,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "caption",
           "normalized": "a-\u003ea",
@@ -1738,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCenter-justify the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "center",
           "package": "HaTeX",
@@ -1748,6 +1903,7 @@
         "index": {
           "description": "Center-justify the argument",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "center",
           "normalized": "a-\u003ea",
@@ -1762,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "chapter",
           "package": "HaTeX",
@@ -1771,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "chapter",
           "normalized": "a-\u003ea",
@@ -1785,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "cite",
           "package": "HaTeX",
@@ -1794,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "cite",
           "normalized": "a-\u003ea",
@@ -1808,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "cleardoublepage",
           "package": "HaTeX",
@@ -1817,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "cleardoublepage",
           "package": "HaTeX",
@@ -1829,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "clearpage",
           "package": "HaTeX",
@@ -1838,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "clearpage",
           "package": "HaTeX",
@@ -1851,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecline i j\u003c/code\u003e writes a partial horizontal line beginning in column \u003ccode\u003ei\u003c/code\u003e and ending in column \u003ccode\u003ej\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "cline",
           "package": "HaTeX",
@@ -1861,6 +2026,7 @@
         "index": {
           "description": "cline writes partial horizontal line beginning in column and ending in column",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "cline",
           "normalized": "Int-\u003eInt-\u003ea",
@@ -1876,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "comment",
           "package": "HaTeX",
@@ -1886,6 +2053,7 @@
         "index": {
           "description": "Create comment",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "comment",
           "normalized": "Text-\u003ea",
@@ -1900,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "customopt",
           "package": "HaTeX",
@@ -1909,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "customopt",
           "normalized": "String-\u003eClassOption",
@@ -1924,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a date for your document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "date",
           "package": "HaTeX",
@@ -1934,6 +2105,7 @@
         "index": {
           "description": "Set date for your document",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "date",
           "normalized": "a-\u003ea",
@@ -1949,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiagonal dots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "ddots",
           "package": "HaTeX",
@@ -1959,6 +2132,7 @@
         "index": {
           "description": "Diagonal dots",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "ddots",
           "package": "HaTeX",
@@ -1971,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "description",
           "package": "HaTeX",
@@ -1980,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "description",
           "normalized": "a-\u003ea",
@@ -1995,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e environment contains the body of the document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "document",
           "package": "HaTeX",
@@ -2005,6 +2182,7 @@
         "index": {
           "description": "The document environment contains the body of the document",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "document",
           "normalized": "a-\u003ea",
@@ -2020,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the document class. Needed in all documents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "documentclass",
           "package": "HaTeX",
@@ -2029,6 +2208,7 @@
         "index": {
           "description": "Set the document class Needed in all documents",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "documentclass",
           "normalized": "[ClassOption]-\u003eClassName-\u003ea",
@@ -2043,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "draft",
           "package": "HaTeX",
@@ -2052,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "draft",
           "package": "HaTeX",
@@ -2064,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "emph",
           "package": "HaTeX",
@@ -2073,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "emph",
           "normalized": "a-\u003ea",
@@ -2087,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "empty",
           "package": "HaTeX",
@@ -2096,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "empty",
           "package": "HaTeX",
@@ -2109,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironment of ordered lists. Use \u003ccode\u003e\u003ca\u003eitem\u003c/a\u003e\u003c/code\u003e to start each list\n   item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "enumerate",
           "package": "HaTeX",
@@ -2119,6 +2306,7 @@
         "index": {
           "description": "Environment of ordered lists Use item to start each list item",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "enumerate",
           "normalized": "a-\u003ea",
@@ -2133,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "executivepaper",
           "package": "HaTeX",
@@ -2142,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "executivepaper",
           "package": "HaTeX",
@@ -2154,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "fbox",
           "package": "HaTeX",
@@ -2163,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "fbox",
           "normalized": "a-\u003ea",
@@ -2178,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFigure environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "figure",
           "package": "HaTeX",
@@ -2187,6 +2380,7 @@
         "index": {
           "description": "Figure environment",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "figure",
           "normalized": "Maybe Pos-\u003ea-\u003ea",
@@ -2202,6 +2396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypesets displayed formulae left-aligned instead of centred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "fleqn",
           "package": "HaTeX",
@@ -2212,6 +2407,7 @@
         "index": {
           "description": "Typesets displayed formulae left-aligned instead of centred",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "fleqn",
           "package": "HaTeX",
@@ -2225,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-justify the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "flushleft",
           "package": "HaTeX",
@@ -2235,6 +2432,7 @@
         "index": {
           "description": "Left-justify the argument",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "flushleft",
           "normalized": "a-\u003ea",
@@ -2250,6 +2448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-justify the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "flushright",
           "package": "HaTeX",
@@ -2260,6 +2459,7 @@
         "index": {
           "description": "Right-justify the argument",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "flushright",
           "normalized": "a-\u003ea",
@@ -2274,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "footnote",
           "package": "HaTeX",
@@ -2283,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "footnote",
           "normalized": "a-\u003ea",
@@ -2297,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "footnotesize",
           "package": "HaTeX",
@@ -2306,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "footnotesize",
           "normalized": "a-\u003ea",
@@ -2320,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "framebox",
           "package": "HaTeX",
@@ -2329,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "framebox",
           "normalized": "Maybe Measure-\u003eMaybe Pos-\u003ea-\u003ea",
@@ -2344,6 +2550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the HaTeX logo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hatex",
           "package": "HaTeX",
@@ -2354,6 +2561,7 @@
         "index": {
           "description": "Print the HaTeX logo",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hatex",
           "package": "HaTeX",
@@ -2367,6 +2575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the HaTeX 3 logo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hatex3",
           "package": "HaTeX",
@@ -2377,6 +2586,7 @@
         "index": {
           "description": "Print the HaTeX logo",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hatex3",
           "package": "HaTeX",
@@ -2390,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the HaTeX logo, beside the complete version number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hatex_version",
           "package": "HaTeX",
@@ -2400,6 +2611,7 @@
         "index": {
           "description": "Print the HaTeX logo beside the complete version number",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hatex_version",
           "package": "HaTeX",
@@ -2412,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "headings",
           "package": "HaTeX",
@@ -2421,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "headings",
           "package": "HaTeX",
@@ -2434,6 +2648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill out all available horizontal space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hfill",
           "package": "HaTeX",
@@ -2444,6 +2659,7 @@
         "index": {
           "description": "Fill out all available horizontal space",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hfill",
           "package": "HaTeX",
@@ -2457,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hline",
           "package": "HaTeX",
@@ -2467,6 +2684,7 @@
         "index": {
           "description": "Horizontal line",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hline",
           "package": "HaTeX",
@@ -2479,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hspace",
           "package": "HaTeX",
@@ -2488,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hspace",
           "normalized": "Measure-\u003ea",
@@ -2502,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hspace_",
           "package": "HaTeX",
@@ -2511,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hspace_",
           "normalized": "Measure-\u003ea",
@@ -2525,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "huge",
           "package": "HaTeX",
@@ -2534,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "huge",
           "normalized": "a-\u003ea",
@@ -2548,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "huge2",
           "package": "HaTeX",
@@ -2557,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "huge2",
           "normalized": "a-\u003ea",
@@ -2571,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hyp",
           "package": "HaTeX",
@@ -2580,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hyp",
           "package": "HaTeX",
@@ -2592,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hyphenation",
           "package": "HaTeX",
@@ -2601,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "hyphenation",
           "normalized": "a-\u003ea",
@@ -2616,6 +2846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e, but forces a page break.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote: the file you are including cannot include other files.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "include",
           "package": "HaTeX",
@@ -2626,6 +2857,7 @@
         "index": {
           "description": "Similar to input but forces page break Note the file you are including cannot include other files",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "include",
           "normalized": "FilePath-\u003ea",
@@ -2640,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "indent",
           "package": "HaTeX",
@@ -2649,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "indent",
           "package": "HaTeX",
@@ -2662,6 +2896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport an external file and insert its content \u003cem\u003eas it is\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "input",
           "package": "HaTeX",
@@ -2672,6 +2907,7 @@
         "index": {
           "description": "Import an external file and insert its content as it is",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "input",
           "normalized": "FilePath-\u003ea",
@@ -2687,6 +2923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet either an institute or an organization\n for the document. It does \u003cem\u003enot\u003c/em\u003e work for\n a document of the \u003ccode\u003e\u003ca\u003earticle\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "institute",
           "package": "HaTeX",
@@ -2697,6 +2934,7 @@
         "index": {
           "description": "Set either an institute or an organization for the document It does not work for document of the article class",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "institute",
           "normalized": "Maybe a-\u003ea-\u003ea",
@@ -2712,6 +2950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn item of a list (see \u003ccode\u003e\u003ca\u003eenumerate\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eitemize\u003c/a\u003e\u003c/code\u003e).\n   The optional argument sets the design of the item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "item",
           "package": "HaTeX",
@@ -2722,6 +2961,7 @@
         "index": {
           "description": "An item of list see enumerate or itemize The optional argument sets the design of the item",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "item",
           "normalized": "Maybe a-\u003ea",
@@ -2737,6 +2977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironment of unordered lists. Use \u003ccode\u003e\u003ca\u003eitem\u003c/a\u003e\u003c/code\u003e to start each list\n   item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "itemize",
           "package": "HaTeX",
@@ -2747,6 +2988,7 @@
         "index": {
           "description": "Environment of unordered lists Use item to start each list item",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "itemize",
           "normalized": "a-\u003ea",
@@ -2762,6 +3004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaTeX logo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "laTeX2",
           "package": "HaTeX",
@@ -2772,6 +3015,7 @@
         "index": {
           "description": "LaTeX logo",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "laTeX2",
           "package": "HaTeX",
@@ -2785,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "laTeXe",
           "package": "HaTeX",
@@ -2794,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "laTeXe",
           "package": "HaTeX",
@@ -2807,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "label",
           "package": "HaTeX",
@@ -2816,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "label",
           "normalized": "a-\u003ea",
@@ -2831,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the layout of the document to print in landscape mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "landscape",
           "package": "HaTeX",
@@ -2841,6 +3090,7 @@
         "index": {
           "description": "Changes the layout of the document to print in landscape mode",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "landscape",
           "package": "HaTeX",
@@ -2853,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "large",
           "package": "HaTeX",
@@ -2862,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "large",
           "normalized": "a-\u003ea",
@@ -2876,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "large2",
           "package": "HaTeX",
@@ -2885,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "large2",
           "normalized": "a-\u003ea",
@@ -2899,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "large3",
           "package": "HaTeX",
@@ -2908,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "large3",
           "normalized": "a-\u003ea",
@@ -2923,6 +3179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLaTeX\u003c/code\u003e logo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "latex",
           "package": "HaTeX",
@@ -2933,6 +3190,7 @@
         "index": {
           "description": "The LaTeX logo",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "latex",
           "package": "HaTeX",
@@ -2946,6 +3204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal dots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "ldots",
           "package": "HaTeX",
@@ -2956,6 +3215,7 @@
         "index": {
           "description": "Horizontal dots",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "ldots",
           "package": "HaTeX",
@@ -2968,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "legalpaper",
           "package": "HaTeX",
@@ -2977,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "legalpaper",
           "package": "HaTeX",
@@ -2990,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaces the numbering of formulae on the left hand side instead of the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "leqno",
           "package": "HaTeX",
@@ -3000,6 +3263,7 @@
         "index": {
           "description": "Places the numbering of formulae on the left hand side instead of the right",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "leqno",
           "package": "HaTeX",
@@ -3012,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "letterpaper",
           "package": "HaTeX",
@@ -3021,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "letterpaper",
           "package": "HaTeX",
@@ -3033,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "linebreak",
           "package": "HaTeX",
@@ -3042,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "linebreak",
           "normalized": "a-\u003ea",
@@ -3056,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "linespread",
           "package": "HaTeX",
@@ -3065,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "linespread",
           "normalized": "Float-\u003ea",
@@ -3079,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "linewidth",
           "package": "HaTeX",
@@ -3088,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "linewidth",
           "package": "HaTeX",
@@ -3101,6 +3373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a new line. In a \u003ccode\u003e\u003ca\u003etabular\u003c/a\u003e\u003c/code\u003e, it starts a new row, so use \u003ccode\u003e\u003ca\u003enewline\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "lnbk",
           "package": "HaTeX",
@@ -3111,6 +3384,7 @@
         "index": {
           "description": "Start new line In tabular it starts new row so use newline instead",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "lnbk",
           "package": "HaTeX",
@@ -3123,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "lnbk_",
           "package": "HaTeX",
@@ -3132,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "lnbk_",
           "package": "HaTeX",
@@ -3144,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "makebox",
           "package": "HaTeX",
@@ -3153,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "makebox",
           "normalized": "Maybe Measure-\u003eMaybe Pos-\u003ea-\u003ea",
@@ -3168,6 +3446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the title. It normally contains the \u003ccode\u003e\u003ca\u003etitle\u003c/a\u003e\u003c/code\u003e name\n of your document, the \u003ccode\u003e\u003ca\u003eauthor\u003c/a\u003e\u003c/code\u003e(s) and \u003ccode\u003e\u003ca\u003edate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "maketitle",
           "package": "HaTeX",
@@ -3178,6 +3457,7 @@
         "index": {
           "description": "Generate the title It normally contains the title name of your document the author and date",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "maketitle",
           "package": "HaTeX",
@@ -3191,6 +3471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in conjunction with \u003ccode\u003e\u003ca\u003emyheadings\u003c/a\u003e\u003c/code\u003e for setting both the left and the right heading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "markboth",
           "package": "HaTeX",
@@ -3201,6 +3482,7 @@
         "index": {
           "description": "Used in conjunction with myheadings for setting both the left and the right heading",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "markboth",
           "normalized": "a-\u003ea-\u003ea",
@@ -3216,6 +3498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in conjunction with \u003ccode\u003e\u003ca\u003emyheadings\u003c/a\u003e\u003c/code\u003e for setting the right heading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "markright",
           "package": "HaTeX",
@@ -3226,6 +3509,7 @@
         "index": {
           "description": "Used in conjunction with myheadings for setting the right heading",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "markright",
           "normalized": "a-\u003ea",
@@ -3240,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "mbox",
           "package": "HaTeX",
@@ -3249,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "mbox",
           "normalized": "a-\u003ea",
@@ -3263,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "minimal",
           "package": "HaTeX",
@@ -3272,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "minimal",
           "package": "HaTeX",
@@ -3285,6 +3573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinipage environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "minipage",
           "package": "HaTeX",
@@ -3294,6 +3583,7 @@
         "index": {
           "description": "Minipage environment",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "minipage",
           "normalized": "Maybe Pos-\u003ea-\u003ea-\u003ea",
@@ -3309,6 +3599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCell taking multiple columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "multicolumn",
           "package": "HaTeX",
@@ -3319,6 +3610,7 @@
         "index": {
           "description": "Cell taking multiple columns",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "multicolumn",
           "normalized": "Int-\u003e[TableSpec]-\u003ea-\u003ea",
@@ -3333,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "myheadings",
           "package": "HaTeX",
@@ -3342,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "myheadings",
           "package": "HaTeX",
@@ -3355,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a new line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "newline",
           "package": "HaTeX",
@@ -3365,6 +3660,7 @@
         "index": {
           "description": "Start new line",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "newline",
           "package": "HaTeX",
@@ -3377,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "newpage",
           "package": "HaTeX",
@@ -3386,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "newpage",
           "package": "HaTeX",
@@ -3398,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "noindent",
           "package": "HaTeX",
@@ -3407,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "noindent",
           "package": "HaTeX",
@@ -3419,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "nolinebreak",
           "package": "HaTeX",
@@ -3428,6 +3729,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "nolinebreak",
           "normalized": "a-\u003ea",
@@ -3442,6 +3744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "nopagebreak",
           "package": "HaTeX",
@@ -3451,6 +3754,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "nopagebreak",
           "normalized": "a-\u003ea",
@@ -3465,6 +3769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "normalsize",
           "package": "HaTeX",
@@ -3474,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "normalsize",
           "normalized": "a-\u003ea",
@@ -3488,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "notitlepage",
           "package": "HaTeX",
@@ -3497,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "notitlepage",
           "package": "HaTeX",
@@ -3509,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "onecolumn",
           "package": "HaTeX",
@@ -3518,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "onecolumn",
           "package": "HaTeX",
@@ -3530,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "oneside",
           "package": "HaTeX",
@@ -3539,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "oneside",
           "package": "HaTeX",
@@ -3552,6 +3864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes chapters begin on the next page available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "openany",
           "package": "HaTeX",
@@ -3562,6 +3875,7 @@
         "index": {
           "description": "Makes chapters begin on the next page available",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "openany",
           "package": "HaTeX",
@@ -3575,6 +3889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes chapters begin either only on right hand pages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "openright",
           "package": "HaTeX",
@@ -3585,6 +3900,7 @@
         "index": {
           "description": "Makes chapters begin either only on right hand pages",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "openright",
           "package": "HaTeX",
@@ -3597,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "pagebreak",
           "package": "HaTeX",
@@ -3606,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "pagebreak",
           "normalized": "a-\u003ea",
@@ -3620,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "pagenumbering",
           "package": "HaTeX",
@@ -3629,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "pagenumbering",
           "normalized": "a-\u003ea",
@@ -3643,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "pageref",
           "package": "HaTeX",
@@ -3652,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "pageref",
           "normalized": "a-\u003ea",
@@ -3666,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "pagestyle",
           "package": "HaTeX",
@@ -3675,6 +3998,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "pagestyle",
           "normalized": "PageStyle-\u003ea",
@@ -3690,6 +4014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a new paragraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "par",
           "package": "HaTeX",
@@ -3700,6 +4025,7 @@
         "index": {
           "description": "Start new paragraph",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "par",
           "package": "HaTeX",
@@ -3713,6 +4039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a paragraph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "paragraph",
           "package": "HaTeX",
@@ -3723,6 +4050,7 @@
         "index": {
           "description": "Start paragraph",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "paragraph",
           "normalized": "a-\u003ea",
@@ -3737,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "parbox",
           "package": "HaTeX",
@@ -3746,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "parbox",
           "normalized": "Maybe Pos-\u003eMeasure-\u003ea-\u003ea",
@@ -3760,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "part",
           "package": "HaTeX",
@@ -3769,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "part",
           "normalized": "a-\u003ea",
@@ -3783,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "plain",
           "package": "HaTeX",
@@ -3792,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "plain",
           "package": "HaTeX",
@@ -3804,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "proc",
           "package": "HaTeX",
@@ -3813,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "proc",
           "package": "HaTeX",
@@ -3825,6 +4161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "protect",
           "package": "HaTeX",
@@ -3834,6 +4171,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "protect",
           "normalized": "a-\u003ea",
@@ -3849,6 +4187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuotation marks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "qts",
           "package": "HaTeX",
@@ -3859,6 +4198,7 @@
         "index": {
           "description": "Quotation marks",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "qts",
           "normalized": "a-\u003ea",
@@ -3873,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "quote",
           "package": "HaTeX",
@@ -3882,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "quote",
           "normalized": "a-\u003ea",
@@ -3896,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "raisebox",
           "package": "HaTeX",
@@ -3905,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "raisebox",
           "normalized": "Measure-\u003eMaybe Measure-\u003eMaybe Measure-\u003ea-\u003ea",
@@ -3920,6 +4264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a raw piece of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n This functions doesn't care about \u003ccode\u003eLaTeX\u003c/code\u003e reserved characters,\n it insert the text just as it is received.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWarning:\u003c/em\u003e This function is \u003cem\u003eunsafe\u003c/em\u003e, in the sense that it does\n not check that the input text is a valid LaTeX \u003cem\u003eblock\u003c/em\u003e.\n Make sure any braces, commands or environments are properly closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "raw",
           "package": "HaTeX",
@@ -3930,6 +4275,7 @@
         "index": {
           "description": "Insert raw piece of Text This functions doesn care about LaTeX reserved characters it insert the text just as it is received Warning This function is unsafe in the sense that it does not check that the input text is valid LaTeX block Make sure any braces commands or environments are properly closed",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "raw",
           "normalized": "Text-\u003ea",
@@ -3944,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "ref",
           "package": "HaTeX",
@@ -3953,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "ref",
           "normalized": "a-\u003ea",
@@ -3967,6 +4315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "report",
           "package": "HaTeX",
@@ -3976,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "report",
           "package": "HaTeX",
@@ -3989,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowercase roman numerals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "roman",
           "package": "HaTeX",
@@ -3999,6 +4350,7 @@
         "index": {
           "description": "Lowercase roman numerals",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "roman",
           "package": "HaTeX",
@@ -4012,6 +4364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUppercase roman numerals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "roman_",
           "package": "HaTeX",
@@ -4022,6 +4375,7 @@
         "index": {
           "description": "Uppercase roman numerals",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "roman_",
           "package": "HaTeX",
@@ -4035,6 +4389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a simple black box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "rule",
           "package": "HaTeX",
@@ -4044,6 +4399,7 @@
         "index": {
           "description": "Produce simple black box",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "rule",
           "normalized": "Maybe Measure-\u003eMeasure-\u003eMeasure-\u003ea",
@@ -4058,6 +4414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "scriptsize",
           "package": "HaTeX",
@@ -4067,6 +4424,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "scriptsize",
           "normalized": "a-\u003ea",
@@ -4082,6 +4440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a new section with a given title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "section",
           "package": "HaTeX",
@@ -4092,6 +4451,7 @@
         "index": {
           "description": "Start new section with given title",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "section",
           "normalized": "a-\u003ea",
@@ -4106,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "slides",
           "package": "HaTeX",
@@ -4115,6 +4476,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "slides",
           "package": "HaTeX",
@@ -4127,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "small",
           "package": "HaTeX",
@@ -4136,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "small",
           "normalized": "a-\u003ea",
@@ -4150,6 +4514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "smallskip",
           "package": "HaTeX",
@@ -4159,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "smallskip",
           "package": "HaTeX",
@@ -4171,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "stretch",
           "package": "HaTeX",
@@ -4180,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "stretch",
           "normalized": "Int-\u003ea",
@@ -4195,6 +4563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a subparagraph (minimal level of sectioning).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "subparagraph",
           "package": "HaTeX",
@@ -4205,6 +4574,7 @@
         "index": {
           "description": "Start subparagraph minimal level of sectioning",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "subparagraph",
           "normalized": "a-\u003ea",
@@ -4220,6 +4590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a new subsection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "subsection",
           "package": "HaTeX",
@@ -4230,6 +4601,7 @@
         "index": {
           "description": "Start new subsection",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "subsection",
           "normalized": "a-\u003ea",
@@ -4245,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a new sub\u003cem\u003esub\u003c/em\u003esection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "subsubsection",
           "package": "HaTeX",
@@ -4255,6 +4628,7 @@
         "index": {
           "description": "Start new sub sub section",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "subsubsection",
           "normalized": "a-\u003ea",
@@ -4270,6 +4644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the table of contents, automatically generated\n from your \u003ccode\u003e\u003ca\u003esection\u003c/a\u003e\u003c/code\u003es, \u003ccode\u003e\u003ca\u003esubsection\u003c/a\u003e\u003c/code\u003es, and other related stuff.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "tableofcontents",
           "package": "HaTeX",
@@ -4280,6 +4655,7 @@
         "index": {
           "description": "Create the table of contents automatically generated from your section subsection and other related stuff",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "tableofcontents",
           "package": "HaTeX",
@@ -4293,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etabular\u003c/a\u003e\u003c/code\u003e environment can be used to typeset tables with optional horizontal and vertical lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "tabular",
           "package": "HaTeX",
@@ -4302,6 +4679,7 @@
         "index": {
           "description": "The tabular environment can be used to typeset tables with optional horizontal and vertical lines",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "tabular",
           "normalized": "Maybe Pos-\u003e[TableSpec]-\u003ea-\u003ea",
@@ -4317,6 +4695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTeX logo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "tex",
           "package": "HaTeX",
@@ -4327,6 +4706,7 @@
         "index": {
           "description": "TeX logo",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "tex",
           "package": "HaTeX",
@@ -4340,6 +4720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the given argument to bold font face.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textbf",
           "package": "HaTeX",
@@ -4350,6 +4731,7 @@
         "index": {
           "description": "Set the given argument to bold font face",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textbf",
           "normalized": "a-\u003ea",
@@ -4364,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textit",
           "package": "HaTeX",
@@ -4373,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textit",
           "normalized": "a-\u003ea",
@@ -4387,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textmd",
           "package": "HaTeX",
@@ -4396,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textmd",
           "normalized": "a-\u003ea",
@@ -4410,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textnormal",
           "package": "HaTeX",
@@ -4419,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textnormal",
           "normalized": "a-\u003ea",
@@ -4433,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textrm",
           "package": "HaTeX",
@@ -4442,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textrm",
           "normalized": "a-\u003ea",
@@ -4457,6 +4847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the given argument to small caps format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textsc",
           "package": "HaTeX",
@@ -4467,6 +4858,7 @@
         "index": {
           "description": "Set the given argument to small caps format",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textsc",
           "normalized": "a-\u003ea",
@@ -4481,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textsf",
           "package": "HaTeX",
@@ -4490,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textsf",
           "normalized": "a-\u003ea",
@@ -4504,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textsl",
           "package": "HaTeX",
@@ -4513,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textsl",
           "normalized": "a-\u003ea",
@@ -4528,6 +4924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the given argument to monospaced font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "texttt",
           "package": "HaTeX",
@@ -4538,6 +4935,7 @@
         "index": {
           "description": "Set the given argument to monospaced font",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "texttt",
           "normalized": "a-\u003ea",
@@ -4552,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textup",
           "package": "HaTeX",
@@ -4561,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textup",
           "normalized": "a-\u003ea",
@@ -4575,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textwidth",
           "package": "HaTeX",
@@ -4584,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "textwidth",
           "package": "HaTeX",
@@ -4596,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "thanks",
           "package": "HaTeX",
@@ -4605,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "thanks",
           "normalized": "a-\u003ea",
@@ -4620,6 +5024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "thePage",
           "package": "HaTeX",
@@ -4630,6 +5035,7 @@
         "index": {
           "description": "Render the current page",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "thePage",
           "package": "HaTeX",
@@ -4643,6 +5049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "thispagestyle",
           "package": "HaTeX",
@@ -4652,6 +5059,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "thispagestyle",
           "normalized": "PageStyle-\u003ea",
@@ -4666,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "tiny",
           "package": "HaTeX",
@@ -4675,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "tiny",
           "normalized": "a-\u003ea",
@@ -4690,6 +5100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the title of your document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "title",
           "package": "HaTeX",
@@ -4700,6 +5111,7 @@
         "index": {
           "description": "Set the title of your document",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "title",
           "normalized": "a-\u003ea",
@@ -4714,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "titlepage",
           "package": "HaTeX",
@@ -4723,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "titlepage",
           "package": "HaTeX",
@@ -4736,6 +5150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the date at compilation time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "today",
           "package": "HaTeX",
@@ -4746,6 +5161,7 @@
         "index": {
           "description": "Render the date at compilation time",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "today",
           "package": "HaTeX",
@@ -4758,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "twocolumn",
           "package": "HaTeX",
@@ -4767,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "twocolumn",
           "package": "HaTeX",
@@ -4779,6 +5197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "twoside",
           "package": "HaTeX",
@@ -4788,6 +5207,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "twoside",
           "package": "HaTeX",
@@ -4800,6 +5220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "underline",
           "package": "HaTeX",
@@ -4809,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "underline",
           "normalized": "a-\u003ea",
@@ -4824,6 +5246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport a package. First argument is a list of options for\n the package named in the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "usepackage",
           "package": "HaTeX",
@@ -4834,6 +5257,7 @@
         "index": {
           "description": "Import package First argument is list of options for the package named in the second argument",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "usepackage",
           "normalized": "[a]-\u003ePackageName-\u003ea",
@@ -4849,6 +5273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical dots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "vdots",
           "package": "HaTeX",
@@ -4859,6 +5284,7 @@
         "index": {
           "description": "Vertical dots",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "vdots",
           "package": "HaTeX",
@@ -4872,6 +5298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude text, as given and in typewriter, but in-line.\n Note that, for LaTeX-specific technical reasons, verbatim\n text can generally only be used \"at the top level\", not\n in e.g. section titles or other command-arguments.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003everbatim\u003c/a\u003e\u003c/code\u003e, which LaTeX implements as an ordinary environment,\n its command \u003ccode\u003e\u003ca\u003everb\u003c/a\u003e\u003c/code\u003e uses a syntax trick to avoid braking its parsing\n when the literal text contains a closing brace: rather than using braces\n at all, the first character after \u003ccode\u003e\\verb\u003c/code\u003e will be the right delimiter as well.\n Translating this method to HaTeX wouldn't really make sense since Haskell\n has string literals with their own escaping possibilities; instead, we make\n it secure by automatically choosing a delimiter that does not turn up \n in the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "verb",
           "package": "HaTeX",
@@ -4882,6 +5309,7 @@
         "index": {
           "description": "Include text as given and in typewriter but in-line Note that for LaTeX-specific technical reasons verbatim text can generally only be used at the top level not in e.g section titles or other command-arguments Unlike verbatim which LaTeX implements as an ordinary environment its command verb uses syntax trick to avoid braking its parsing when the literal text contains closing brace rather than using braces at all the first character after verb will be the right delimiter as well Translating this method to HaTeX wouldn really make sense since Haskell has string literals with their own escaping possibilities instead we make it secure by automatically choosing delimiter that does not turn up in the given string",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "verb",
           "normalized": "Text-\u003ea",
@@ -4897,6 +5325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe point of \u003ccode\u003e\u003ca\u003everbatim\u003c/a\u003e\u003c/code\u003e is to include text that will\n \u003cem\u003enot\u003c/em\u003e be parsed as LaTeX in any way at all, but should simply\n appear as given in the document, in a separate display\n in typewriter font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "verbatim",
           "package": "HaTeX",
@@ -4907,6 +5336,7 @@
         "index": {
           "description": "The point of verbatim is to include text that will not be parsed as LaTeX in any way at all but should simply appear as given in the document in separate display in typewriter font",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "verbatim",
           "normalized": "Text-\u003ea",
@@ -4921,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "verse",
           "package": "HaTeX",
@@ -4930,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "verse",
           "normalized": "a-\u003ea",
@@ -4944,6 +5376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "version",
           "package": "HaTeX",
@@ -4953,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "version",
           "package": "HaTeX",
@@ -4966,6 +5400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill out all available vertical space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "vfill",
           "package": "HaTeX",
@@ -4976,6 +5411,7 @@
         "index": {
           "description": "Fill out all available vertical space",
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "vfill",
           "package": "HaTeX",
@@ -4988,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Commands",
           "name": "vspace",
           "package": "HaTeX",
@@ -4997,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Commands",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Commands",
           "name": "vspace",
           "normalized": "Measure-\u003ea",
@@ -5012,6 +5450,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLaTeX Parser based on Attoparsec\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Parser",
           "name": "Parser",
           "package": "HaTeX",
@@ -5021,6 +5460,7 @@
         "index": {
           "description": "LaTeX Parser based on Attoparsec",
           "hierarchy": "Text LaTeX Base Parser",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Parser",
           "name": "Parser",
           "package": "HaTeX",
@@ -5035,6 +5475,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use parseLaTeX instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eparseLaTeX\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Parser",
           "name": "latexAtOnce",
           "package": "HaTeX",
@@ -5045,6 +5486,7 @@
         "index": {
           "description": "Deprecated Use parseLaTeX instead Same as parseLaTeX",
           "hierarchy": "Text LaTeX Base Parser",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Parser",
           "name": "latexAtOnce",
           "normalized": "Text-\u003eEither String LaTeX",
@@ -5061,6 +5503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser of a single \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e constructor, no appending blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Parser",
           "name": "latexBlockParser",
           "package": "HaTeX",
@@ -5071,6 +5514,7 @@
         "index": {
           "description": "Parser of single LaTeX constructor no appending blocks",
           "hierarchy": "Text LaTeX Base Parser",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Parser",
           "name": "latexBlockParser",
           "package": "HaTeX",
@@ -5085,6 +5529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncremental \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Parser",
           "name": "latexParser",
           "package": "HaTeX",
@@ -5095,6 +5540,7 @@
         "index": {
           "description": "Incremental LaTeX parser",
           "hierarchy": "Text LaTeX Base Parser",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Parser",
           "name": "latexParser",
           "package": "HaTeX",
@@ -5109,6 +5555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e sequence as a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e block. If it fails, it returns\n   an error string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Parser",
           "name": "parseLaTeX",
           "package": "HaTeX",
@@ -5119,6 +5566,7 @@
         "index": {
           "description": "Parse Text sequence as LaTeX block If it fails it returns an error string",
           "hierarchy": "Text LaTeX Base Parser",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Parser",
           "name": "parseLaTeX",
           "normalized": "Text-\u003eEither String LaTeX",
@@ -5135,6 +5583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe final purpose of this module is to render a Text value\n   from a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value. The interface is abstracted via a typeclass\n   so you can cast to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e other types as well. Also, some other\n   handy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e-related functions are defined.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "Render",
           "package": "HaTeX",
@@ -5144,6 +5593,7 @@
         "index": {
           "description": "The final purpose of this module is to render Text value from LaTeX value The interface is abstracted via typeclass so you can cast to Text other types as well Also some other handy Text related functions are defined",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "Render",
           "package": "HaTeX",
@@ -5158,6 +5608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of values that can be transformed to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n You mainly will use this to obtain the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e output\n of a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value. If you are going to write the result\n in a file, consider to use \u003ccode\u003e\u003ca\u003erenderFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConsider also to use \u003ccode\u003e\u003ca\u003erendertex\u003c/a\u003e\u003c/code\u003e to get \u003ccode\u003e\u003ca\u003eRender\u003c/a\u003e\u003c/code\u003eable values\n into \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e blocks.\n\u003c/p\u003e\u003cp\u003eIf you want to make a type instance of \u003ccode\u003e\u003ca\u003eRender\u003c/a\u003e\u003c/code\u003e and you already\n have a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance, you can use the default instance.\n\u003c/p\u003e\u003cpre\u003e render = fromString . show\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "Render",
           "package": "HaTeX",
@@ -5167,6 +5618,7 @@
         "index": {
           "description": "Class of values that can be transformed to Text You mainly will use this to obtain the Text output of LaTeX value If you are going to write the result in file consider to use renderFile Consider also to use rendertex to get Render able values into LaTeX blocks If you want to make type instance of Render and you already have Show instance you can use the default instance render fromString show",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "Render",
           "package": "HaTeX",
@@ -5181,6 +5633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space efficient, packed, unboxed Unicode text type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "Text",
           "package": "HaTeX",
@@ -5189,6 +5642,7 @@
         "index": {
           "description": "space efficient packed unboxed Unicode text type",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "Text",
           "package": "HaTeX",
@@ -5203,6 +5657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you are going to insert the content of a file\n in your \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e data, use this function to ensure\n your encoding is correct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "readFileTex",
           "package": "HaTeX",
@@ -5213,6 +5668,7 @@
         "index": {
           "description": "If you are going to insert the content of file in your LaTeX data use this function to ensure your encoding is correct",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "readFileTex",
           "normalized": "FilePath-\u003eIO Text",
@@ -5228,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "render",
           "package": "HaTeX",
@@ -5237,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "render",
           "normalized": "a-\u003eText",
@@ -5252,6 +5710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender every element of a list and append results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "renderAppend",
           "package": "HaTeX",
@@ -5262,6 +5721,7 @@
         "index": {
           "description": "Render every element of list and append results",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "renderAppend",
           "normalized": "[a]-\u003eText",
@@ -5278,6 +5738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender every element of a list and append results,\n   separated by the given \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "renderChars",
           "package": "HaTeX",
@@ -5288,6 +5749,7 @@
         "index": {
           "description": "Render every element of list and append results separated by the given Char",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "renderChars",
           "normalized": "Char-\u003e[a]-\u003eText",
@@ -5304,6 +5766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender every element of a list and append results,\n   separated by commas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "renderCommas",
           "package": "HaTeX",
@@ -5314,6 +5777,7 @@
         "index": {
           "description": "Render every element of list and append results separated by commas",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "renderCommas",
           "normalized": "[a]-\u003eText",
@@ -5330,6 +5794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this function to render a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e (or another\n   one in the \u003ccode\u003e\u003ca\u003eRender\u003c/a\u003e\u003c/code\u003e class) value directly\n   in a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "renderFile",
           "package": "HaTeX",
@@ -5340,6 +5805,7 @@
         "index": {
           "description": "Use this function to render LaTeX or another one in the Render class value directly in file",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "renderFile",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -5356,6 +5822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you can transform a value to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, you can\n   insert that \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e in your \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e code.\n   That is what this function does.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWarning: \u003c/em\u003e\u003ccode\u003e\u003ca\u003erendertex\u003c/a\u003e\u003c/code\u003e\u003cem\u003e does not escape LaTeX reserved characters.\u003c/em\u003e\n \u003cem\u003eUse \u003c/em\u003e\u003ccode\u003e\u003ca\u003eprotectText\u003c/a\u003e\u003c/code\u003e\u003cem\u003e to escape them.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "rendertex",
           "package": "HaTeX",
@@ -5366,6 +5833,7 @@
         "index": {
           "description": "If you can transform value to Text you can insert that Text in your LaTeX code That is what this function does Warning rendertex does not escape LaTeX reserved characters Use protectText to escape them",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "rendertex",
           "normalized": "a-\u003eb",
@@ -5381,6 +5849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed floating number using standard decimal notation using 5 decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Render",
           "name": "showFloat",
           "package": "HaTeX",
@@ -5391,6 +5860,7 @@
         "index": {
           "description": "Show signed floating number using standard decimal notation using decimals",
           "hierarchy": "Text LaTeX Base Render",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Render",
           "name": "showFloat",
           "normalized": "a-\u003eString",
@@ -5407,6 +5877,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLaTeX syntax description in the definition of the \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e datatype.\n   If you want to add new commands or environments not defined in\n   the library, import this module and use \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e data constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Syntax",
           "package": "HaTeX",
@@ -5416,6 +5887,7 @@
         "index": {
           "description": "LaTeX syntax description in the definition of the LaTeX datatype If you want to add new commands or environments not defined in the library import this module and use LaTeX data constructors",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Syntax",
           "package": "HaTeX",
@@ -5430,6 +5902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of \u003ccode\u003eLaTeX\u003c/code\u003e blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "LaTeX",
           "package": "HaTeX",
@@ -5439,6 +5912,7 @@
         "index": {
           "description": "Type of LaTeX blocks",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "LaTeX",
           "package": "HaTeX",
@@ -5453,6 +5927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent types of syntax for mathematical expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "MathType",
           "package": "HaTeX",
@@ -5462,6 +5937,7 @@
         "index": {
           "description": "Different types of syntax for mathematical expressions",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "MathType",
           "package": "HaTeX",
@@ -5476,6 +5952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasure units defined in LaTeX. Use \u003ccode\u003e\u003ca\u003eCustomMeasure\u003c/a\u003e\u003c/code\u003e to use commands like \u003ccode\u003etextwidth\u003c/code\u003e.\n   For instance:\n\u003c/p\u003e\u003cpre\u003e rule Nothing (CustomMeasure linewidth) (Pt 2)\n\u003c/pre\u003e\u003cp\u003eThis will create a black box (see \u003ccode\u003erule\u003c/code\u003e) as wide as the text and two points tall.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Measure",
           "package": "HaTeX",
@@ -5485,6 +5962,7 @@
         "index": {
           "description": "Measure units defined in LaTeX Use CustomMeasure to use commands like textwidth For instance rule Nothing CustomMeasure linewidth Pt This will create black box see rule as wide as the text and two points tall",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Measure",
           "package": "HaTeX",
@@ -5499,6 +5977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn argument for a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e command or environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXArg",
           "package": "HaTeX",
@@ -5508,6 +5987,7 @@
         "index": {
           "description": "An argument for LaTeX command or environment",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXArg",
           "package": "HaTeX",
@@ -5596,6 +6076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Dollar",
           "package": "HaTeX",
@@ -5605,6 +6086,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Dollar",
           "package": "HaTeX",
@@ -5669,6 +6151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixed argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "FixArg",
           "package": "HaTeX",
@@ -5679,6 +6162,7 @@
         "index": {
           "description": "Fixed argument",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "FixArg",
           "package": "HaTeX",
@@ -5718,6 +6202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple optional argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "MOptArg",
           "package": "HaTeX",
@@ -5728,6 +6213,7 @@
         "index": {
           "description": "Multiple optional argument",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "MOptArg",
           "normalized": "MOptArg[LaTeX]",
@@ -5744,6 +6230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003eSymArg\u003c/a\u003e\u003c/code\u003e with multiple options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "MSymArg",
           "package": "HaTeX",
@@ -5754,6 +6241,7 @@
         "index": {
           "description": "Version of SymArg with multiple options",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "MSymArg",
           "normalized": "MSymArg[LaTeX]",
@@ -5795,6 +6283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "OptArg",
           "package": "HaTeX",
@@ -5805,6 +6294,7 @@
         "index": {
           "description": "Optional argument",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "OptArg",
           "package": "HaTeX",
@@ -5818,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Parentheses",
           "package": "HaTeX",
@@ -5827,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Parentheses",
           "package": "HaTeX",
@@ -5865,6 +6357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Square",
           "package": "HaTeX",
@@ -5874,6 +6367,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "Square",
           "package": "HaTeX",
@@ -5888,6 +6382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn argument enclosed between \u003ccode\u003e\u003c\u003c/code\u003e and \u003ccode\u003e\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "SymArg",
           "package": "HaTeX",
@@ -5898,6 +6393,7 @@
         "index": {
           "description": "An argument enclosed between and",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "SymArg",
           "package": "HaTeX",
@@ -5912,6 +6408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA expression between braces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXBraces",
           "package": "HaTeX",
@@ -5922,6 +6419,7 @@
         "index": {
           "description": "expression between braces",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXBraces",
           "package": "HaTeX",
@@ -5936,6 +6434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor for commands.\n First argument is the name of the command.\n Second, its arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXComm",
           "package": "HaTeX",
@@ -5946,6 +6445,7 @@
         "index": {
           "description": "Constructor for commands First argument is the name of the command Second its arguments",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXComm",
           "normalized": "TeXComm String[TeXArg]",
@@ -5962,6 +6462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor for commands with no arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXCommS",
           "package": "HaTeX",
@@ -5972,6 +6473,7 @@
         "index": {
           "description": "Constructor for commands with no arguments",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXCommS",
           "package": "HaTeX",
@@ -5986,6 +6488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXComment",
           "package": "HaTeX",
@@ -5996,6 +6499,7 @@
         "index": {
           "description": "Comments",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXComment",
           "package": "HaTeX",
@@ -6010,6 +6514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty block.\n \u003cem\u003eNeutral element\u003c/em\u003e of \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXEmpty",
           "package": "HaTeX",
@@ -6020,6 +6525,7 @@
         "index": {
           "description": "An empty block Neutral element of",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXEmpty",
           "package": "HaTeX",
@@ -6034,6 +6540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor for environments.\n First argument is the name of the environment.\n Second, its arguments.\n Third, its content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXEnv",
           "package": "HaTeX",
@@ -6044,6 +6551,7 @@
         "index": {
           "description": "Constructor for environments First argument is the name of the environment Second its arguments Third its content",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXEnv",
           "normalized": "TeXEnv String[TeXArg]LaTeX",
@@ -6060,6 +6568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine break command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXLineBreak",
           "package": "HaTeX",
@@ -6070,6 +6579,7 @@
         "index": {
           "description": "Line break command",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXLineBreak",
           "package": "HaTeX",
@@ -6084,6 +6594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMathematical expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXMath",
           "package": "HaTeX",
@@ -6094,6 +6605,7 @@
         "index": {
           "description": "Mathematical expressions",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXMath",
           "package": "HaTeX",
@@ -6108,6 +6620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXOp",
           "package": "HaTeX",
@@ -6118,6 +6631,7 @@
         "index": {
           "description": "Operators",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXOp",
           "package": "HaTeX",
@@ -6132,6 +6646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXRaw",
           "package": "HaTeX",
@@ -6142,6 +6657,7 @@
         "index": {
           "description": "Raw text",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXRaw",
           "package": "HaTeX",
@@ -6156,6 +6672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequencing of \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e expressions.\n Use \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e preferably.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXSeq",
           "package": "HaTeX",
@@ -6166,6 +6683,7 @@
         "index": {
           "description": "Sequencing of LaTeX expressions Use preferably",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "TeXSeq",
           "package": "HaTeX",
@@ -6180,6 +6698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the content of the \u003ccode\u003edocument\u003c/code\u003e environment, if present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "getBody",
           "package": "HaTeX",
@@ -6190,6 +6709,7 @@
         "index": {
           "description": "Extract the content of the document environment if present",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "getBody",
           "normalized": "LaTeX-\u003eMaybe LaTeX",
@@ -6206,6 +6726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the preamble of a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e document (everything before the \u003ccode\u003edocument\u003c/code\u003e\n   environment). It could be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "getPreamble",
           "package": "HaTeX",
@@ -6216,6 +6737,7 @@
         "index": {
           "description": "Extract the preamble of LaTeX document everything before the document environment It could be empty",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "getPreamble",
           "normalized": "LaTeX-\u003eLaTeX",
@@ -6232,6 +6754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook into a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e syntax tree to find any call to the command with\n   the given name. It returns a list of arguments with which this command\n   is called.\n\u003c/p\u003e\u003cpre\u003e lookForCommand = (fmap snd .) . matchCommand . (==)\n\u003c/pre\u003e\u003cp\u003eIf the returned list is empty, the command was not found. However,\n   if the list contains empty lists, those are callings to the command\n   with no arguments.\n\u003c/p\u003e\u003cp\u003eFor example\n\u003c/p\u003e\u003cpre\u003e lookForCommand \"author\" l\n\u003c/pre\u003e\u003cp\u003ewould look for the argument passed to the \u003ccode\u003e\\author\u003c/code\u003e command in \u003ccode\u003el\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "lookForCommand",
           "package": "HaTeX",
@@ -6241,6 +6764,7 @@
         "index": {
           "description": "Look into LaTeX syntax tree to find any call to the command with the given name It returns list of arguments with which this command is called lookForCommand fmap snd matchCommand If the returned list is empty the command was not found However if the list contains empty lists those are callings to the command with no arguments For example lookForCommand author would look for the argument passed to the author command in",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "lookForCommand",
           "normalized": "String-\u003eLaTeX-\u003e[[TeXArg]]",
@@ -6257,6 +6781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003elookForCommand\u003c/a\u003e\u003c/code\u003e, but applied to environments.\n   It returns a list with arguments passed and content of the\n   environment in each call.\n\u003c/p\u003e\u003cpre\u003e lookForEnv = (fmap (\\(_,as,l) -\u003e (as,l)) .) . matchEnv . (==)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "lookForEnv",
           "package": "HaTeX",
@@ -6267,6 +6792,7 @@
         "index": {
           "description": "Similar to lookForCommand but applied to environments It returns list with arguments passed and content of the environment in each call lookForEnv fmap as as matchEnv",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "lookForEnv",
           "normalized": "String-\u003eLaTeX-\u003e[([TeXArg],LaTeX)]",
@@ -6283,6 +6809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e syntax tree and returns the commands (see \u003ccode\u003e\u003ca\u003eTeXComm\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003eTeXCommS\u003c/a\u003e\u003c/code\u003e) that matches the condition and their arguments in each call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "matchCommand",
           "package": "HaTeX",
@@ -6293,6 +6820,7 @@
         "index": {
           "description": "Traverse LaTeX syntax tree and returns the commands see TeXComm and TeXCommS that matches the condition and their arguments in each call",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "matchCommand",
           "normalized": "(String-\u003eBool)-\u003eLaTeX-\u003e[(String,[TeXArg])]",
@@ -6309,6 +6837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e syntax tree and returns the environments (see\n   \u003ccode\u003e\u003ca\u003eTeXEnv\u003c/a\u003e\u003c/code\u003e) that matches the condition, their arguments and their content\n   in each call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "matchEnv",
           "package": "HaTeX",
@@ -6319,6 +6848,7 @@
         "index": {
           "description": "Traverse LaTeX syntax tree and returns the environments see TeXEnv that matches the condition their arguments and their content in each call",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "matchEnv",
           "normalized": "(String-\u003eBool)-\u003eLaTeX-\u003e[(String,[TeXArg],LaTeX)]",
@@ -6389,6 +6919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003etexmap\u003c/a\u003e\u003c/code\u003e looks for subexpressions that match a given\n   condition and applies a function to them.\n\u003c/p\u003e\u003cpre\u003e texmap c f = runIdentity . texmapM c (pure . f)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "texmap",
           "package": "HaTeX",
@@ -6398,6 +6929,7 @@
         "index": {
           "description": "The function texmap looks for subexpressions that match given condition and applies function to them texmap runIdentity texmapM pure",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "texmap",
           "normalized": "(LaTeX-\u003eBool)-\u003e(LaTeX-\u003eLaTeX)-\u003eLaTeX-\u003eLaTeX",
@@ -6413,6 +6945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003etexmap\u003c/a\u003e\u003c/code\u003e where the function returns values in a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "texmapM",
           "package": "HaTeX",
@@ -6422,6 +6955,7 @@
         "index": {
           "description": "Version of texmap where the function returns values in Monad",
           "hierarchy": "Text LaTeX Base Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Syntax",
           "name": "texmapM",
           "normalized": "(LaTeX-\u003eBool)-\u003e(LaTeX-\u003ea LaTeX)-\u003eLaTeX-\u003ea LaTeX",
@@ -6437,6 +6971,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eTexy\u003c/a\u003e\u003c/code\u003e class, as proposed in \u003ca\u003ehttp://deltadiaz.blogspot.com.es/2013/04/hatex-36-proposal-texy-class.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Texy",
           "name": "Texy",
           "package": "HaTeX",
@@ -6446,6 +6981,7 @@
         "index": {
           "description": "Texy class as proposed in http deltadiaz.blogspot.com.es hatex-36-proposal-texy-class.html",
           "hierarchy": "Text LaTeX Base Texy",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Texy",
           "name": "Texy",
           "package": "HaTeX",
@@ -6460,6 +6996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that can be pretty-printed as \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Texy",
           "name": "Texy",
           "package": "HaTeX",
@@ -6469,6 +7006,7 @@
         "index": {
           "description": "Class of types that can be pretty-printed as LaTeX values",
           "hierarchy": "Text LaTeX Base Texy",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Texy",
           "name": "Texy",
           "package": "HaTeX",
@@ -6482,6 +7020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Texy",
           "name": "texy",
           "package": "HaTeX",
@@ -6491,6 +7030,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Texy",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Texy",
           "name": "texy",
           "normalized": "a-\u003eb",
@@ -6506,6 +7046,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome types shared along the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "Types",
           "package": "HaTeX",
@@ -6515,6 +7056,7 @@
         "index": {
           "description": "Some types shared along the library",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "Types",
           "package": "HaTeX",
@@ -6529,6 +7071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass names are represented by a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "ClassName",
           "package": "HaTeX",
@@ -6538,6 +7081,7 @@
         "index": {
           "description": "Class names are represented by String",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "ClassName",
           "package": "HaTeX",
@@ -6552,6 +7096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "HPos",
           "package": "HaTeX",
@@ -6561,6 +7106,7 @@
         "index": {
           "description": "Horizontal position",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "HPos",
           "package": "HaTeX",
@@ -6575,6 +7121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "Label",
           "package": "HaTeX",
@@ -6584,6 +7131,7 @@
         "index": {
           "description": "Type of labels",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "Label",
           "package": "HaTeX",
@@ -6598,6 +7146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasure units defined in LaTeX. Use \u003ccode\u003e\u003ca\u003eCustomMeasure\u003c/a\u003e\u003c/code\u003e to use commands like \u003ccode\u003etextwidth\u003c/code\u003e.\n   For instance:\n\u003c/p\u003e\u003cpre\u003e rule Nothing (CustomMeasure linewidth) (Pt 2)\n\u003c/pre\u003e\u003cp\u003eThis will create a black box (see \u003ccode\u003erule\u003c/code\u003e) as wide as the text and two points tall.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "Measure",
           "package": "HaTeX",
@@ -6607,6 +7156,7 @@
         "index": {
           "description": "Measure units defined in LaTeX Use CustomMeasure to use commands like textwidth For instance rule Nothing CustomMeasure linewidth Pt This will create black box see rule as wide as the text and two points tall",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "Measure",
           "package": "HaTeX",
@@ -6621,6 +7171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage names are represented by a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "PackageName",
           "package": "HaTeX",
@@ -6630,6 +7181,7 @@
         "index": {
           "description": "Package names are represented by String",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "PackageName",
           "package": "HaTeX",
@@ -6644,6 +7196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage styles are represented by a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "PageStyle",
           "package": "HaTeX",
@@ -6653,6 +7206,7 @@
         "index": {
           "description": "Page styles are represented by String",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "PageStyle",
           "package": "HaTeX",
@@ -6667,6 +7221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "Pos",
           "package": "HaTeX",
@@ -6676,6 +7231,7 @@
         "index": {
           "description": "Vertical position",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "Pos",
           "package": "HaTeX",
@@ -6690,6 +7246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of table specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "TableSpec",
           "package": "HaTeX",
@@ -6699,6 +7256,7 @@
         "index": {
           "description": "Type of table specifications",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "TableSpec",
           "package": "HaTeX",
@@ -6712,6 +7270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "Bottom",
           "package": "HaTeX",
@@ -6721,6 +7280,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "Bottom",
           "package": "HaTeX",
@@ -6734,6 +7294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "Center",
           "package": "HaTeX",
@@ -6743,6 +7304,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "Center",
           "package": "HaTeX",
@@ -6757,6 +7319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentered column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "CenterColumn",
           "package": "HaTeX",
@@ -6767,6 +7330,7 @@
         "index": {
           "description": "Centered column",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "CenterColumn",
           "package": "HaTeX",
@@ -6781,6 +7345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble vertical line between two columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "DVerticalLine",
           "package": "HaTeX",
@@ -6791,6 +7356,7 @@
         "index": {
           "description": "Double vertical line between two columns",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "DVerticalLine",
           "package": "HaTeX",
@@ -6804,6 +7370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "HCenter",
           "package": "HaTeX",
@@ -6813,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "HCenter",
           "package": "HaTeX",
@@ -6826,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "HLeft",
           "package": "HaTeX",
@@ -6835,6 +7404,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "HLeft",
           "package": "HaTeX",
@@ -6848,6 +7418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "HRight",
           "package": "HaTeX",
@@ -6857,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "HRight",
           "package": "HaTeX",
@@ -6871,6 +7443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-justified column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "LeftColumn",
           "package": "HaTeX",
@@ -6881,6 +7454,7 @@
         "index": {
           "description": "Left-justified column",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "LeftColumn",
           "package": "HaTeX",
@@ -6895,6 +7469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParagraph column with text vertically aligned at the bottom. Requires \u003ccode\u003earray\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "ParColumnBot",
           "package": "HaTeX",
@@ -6905,6 +7480,7 @@
         "index": {
           "description": "Paragraph column with text vertically aligned at the bottom Requires array package",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "ParColumnBot",
           "package": "HaTeX",
@@ -6919,6 +7495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParagraph column with text vertically aligned at the middle. Requires \u003ccode\u003earray\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "ParColumnMid",
           "package": "HaTeX",
@@ -6929,6 +7506,7 @@
         "index": {
           "description": "Paragraph column with text vertically aligned at the middle Requires array package",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "ParColumnMid",
           "package": "HaTeX",
@@ -6943,6 +7521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParagraph column with text vertically aligned at the top.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "ParColumnTop",
           "package": "HaTeX",
@@ -6953,6 +7532,7 @@
         "index": {
           "description": "Paragraph column with text vertically aligned at the top",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "ParColumnTop",
           "package": "HaTeX",
@@ -6967,6 +7547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-justified column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "RightColumn",
           "package": "HaTeX",
@@ -6977,6 +7558,7 @@
         "index": {
           "description": "Right-justified column",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "RightColumn",
           "package": "HaTeX",
@@ -6990,6 +7572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "Top",
           "package": "HaTeX",
@@ -6999,6 +7582,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "Top",
           "package": "HaTeX",
@@ -7013,6 +7597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical line between two columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "VerticalLine",
           "package": "HaTeX",
@@ -7023,6 +7608,7 @@
         "index": {
           "description": "Vertical line between two columns",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "VerticalLine",
           "package": "HaTeX",
@@ -7037,6 +7623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a label from its name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "createLabel",
           "package": "HaTeX",
@@ -7047,6 +7634,7 @@
         "index": {
           "description": "Create label from its name",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "createLabel",
           "normalized": "String-\u003eLabel",
@@ -7063,6 +7651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of a label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Types",
           "name": "labelName",
           "package": "HaTeX",
@@ -7073,6 +7662,7 @@
         "index": {
           "description": "Get the name of label",
           "hierarchy": "Text LaTeX Base Types",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Types",
           "name": "labelName",
           "normalized": "Label-\u003eString",
@@ -7089,6 +7679,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functionality for check a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value for\n   possibly undesired things (like the call to an undefined label),\n   returning \u003ccode\u003e\u003ca\u003eWarning\u003c/a\u003e\u003c/code\u003es. These are called \u003ccode\u003e\u003ca\u003eWarning\u003c/a\u003e\u003c/code\u003es because they\n   never terminate the program execution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "Warnings",
           "package": "HaTeX",
@@ -7098,6 +7689,7 @@
         "index": {
           "description": "This module provides functionality for check LaTeX value for possibly undesired things like the call to an undefined label returning Warning These are called Warning because they never terminate the program execution",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "Warnings",
           "package": "HaTeX",
@@ -7112,6 +7704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTeXCheck\u003c/a\u003e\u003c/code\u003e is a function that checks possible warnings from a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value.\n   Use the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance to combine check functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "TeXCheck",
           "package": "HaTeX",
@@ -7121,6 +7714,7 @@
         "index": {
           "description": "TeXCheck is function that checks possible warnings from LaTeX value Use the Monoid instance to combine check functions",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "TeXCheck",
           "package": "HaTeX",
@@ -7135,6 +7729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of possible warnings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "Warning",
           "package": "HaTeX",
@@ -7144,6 +7739,7 @@
         "index": {
           "description": "List of possible warnings",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "Warning",
           "package": "HaTeX",
@@ -7158,6 +7754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom warning for custom checkings. Use it as you want.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "CustomWarning",
           "package": "HaTeX",
@@ -7168,6 +7765,7 @@
         "index": {
           "description": "Custom warning for custom checkings Use it as you want",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "CustomWarning",
           "package": "HaTeX",
@@ -7182,6 +7780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo class selected with \u003ccode\u003edocumentclass\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "NoClassSelected",
           "package": "HaTeX",
@@ -7192,6 +7791,7 @@
         "index": {
           "description": "No class selected with documentclass",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "NoClassSelected",
           "package": "HaTeX",
@@ -7206,6 +7806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo \u003ccode\u003edocument\u003c/code\u003e inserted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "NoDocumentInserted",
           "package": "HaTeX",
@@ -7216,6 +7817,7 @@
         "index": {
           "description": "No document inserted",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "NoDocumentInserted",
           "package": "HaTeX",
@@ -7230,6 +7832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is a reference to an undefined label. Arguments is the name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "UndefinedLabel",
           "package": "HaTeX",
@@ -7240,6 +7843,7 @@
         "index": {
           "description": "There is reference to an undefined label Arguments is the name",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "UndefinedLabel",
           "package": "HaTeX",
@@ -7254,6 +7858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is an unused label. Argument is its name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "UnusedLabel",
           "package": "HaTeX",
@@ -7264,6 +7869,7 @@
         "index": {
           "description": "There is an unused label Argument is its name",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "UnusedLabel",
           "package": "HaTeX",
@@ -7278,6 +7884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a checking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "check",
           "package": "HaTeX",
@@ -7288,6 +7895,7 @@
         "index": {
           "description": "Apply checking",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "check",
           "normalized": "TeXCheck-\u003eLaTeX-\u003e[Warning]",
@@ -7303,6 +7911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck with \u003ccode\u003e\u003ca\u003echeckLabels\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003echeckClass\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003echeckDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkAll",
           "package": "HaTeX",
@@ -7313,6 +7922,7 @@
         "index": {
           "description": "Check with checkLabels checkClass and checkDoc",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkAll",
           "package": "HaTeX",
@@ -7327,6 +7937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a document class is specified for the document (using \u003ccode\u003edocumentclass\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkClass",
           "package": "HaTeX",
@@ -7337,6 +7948,7 @@
         "index": {
           "description": "Check if document class is specified for the document using documentclass",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkClass",
           "package": "HaTeX",
@@ -7351,6 +7963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the \u003ccode\u003edocument\u003c/code\u003e environment is called in a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkDoc",
           "package": "HaTeX",
@@ -7361,6 +7974,7 @@
         "index": {
           "description": "Check if the document environment is called in LaTeX",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkDoc",
           "package": "HaTeX",
@@ -7375,6 +7989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a \u003ccode\u003e\u003ca\u003eTeXCheck\u003c/a\u003e\u003c/code\u003e from a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkFromFunction",
           "package": "HaTeX",
@@ -7385,6 +8000,7 @@
         "index": {
           "description": "Build TeXCheck from function",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkFromFunction",
           "normalized": "(LaTeX-\u003e[Warning])-\u003eTeXCheck",
@@ -7401,6 +8017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking for unused labels or references tu undefined labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkLabels",
           "package": "HaTeX",
@@ -7411,6 +8028,7 @@
         "index": {
           "description": "Checking for unused labels or references tu undefined labels",
           "hierarchy": "Text LaTeX Base Warnings",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Warnings",
           "name": "checkLabels",
           "package": "HaTeX",
@@ -7425,6 +8043,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe writer monad applied to \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values. Useful to compose \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values\n   using the \u003ccode\u003edo\u003c/code\u003e notation:\n\u003c/p\u003e\u003cpre\u003e anExample :: Monad m =\u003e LaTeXT m ()\n anExample = do\n   documentclass [] article\n   author \"Daniel Monad\"\n   title \"LaTeX and do notation\"\n   document $ do\n     maketitle\n     section \"Some words\"\n     \"Using \" ; texttt \"do\" ; \" notation \"\n     \"you avoid many ocurrences of the \"\n     texttt \"(\u003c\u003e)\" ; \" operator and a lot of \"\n     \"parentheses. With the cost of a monad.\"\n\u003c/pre\u003e\u003cp\u003eSince \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e is a monad transformer, you can do also:\n\u003c/p\u003e\u003cpre\u003e anotherExample :: LaTeXT IO ()\n anotherExample = lift (readFileTex \"foo\") \u003e\u003e= verbatim\n\u003c/pre\u003e\u003cp\u003eThis way, it is easy (without carrying arguments) to include IO outputs\n in the LaTeX document, like files, times or random objects.\n\u003c/p\u003e\u003cp\u003eAnother approach could be to have custom counters, label management\n or any other user-defined feature.\n\u003c/p\u003e\u003cp\u003eOf course, you can always use the simpler interface provided by the plain \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cp\u003eAnother thing you should know about the LaTeX Writer Monad. Don't try to get values\n from computations with no results (like \u003ccode\u003eraw \u003ca\u003efoo\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "Writer",
           "package": "HaTeX",
@@ -7434,6 +8053,7 @@
         "index": {
           "description": "The writer monad applied to LaTeX values Useful to compose LaTeX values using the do notation anExample Monad LaTeXT anExample do documentclass article author Daniel Monad title LaTeX and do notation document do maketitle section Some words Using texttt do notation you avoid many ocurrences of the texttt operator and lot of parentheses With the cost of monad Since LaTeXT is monad transformer you can do also anotherExample LaTeXT IO anotherExample lift readFileTex foo verbatim This way it is easy without carrying arguments to include IO outputs in the LaTeX document like files times or random objects Another approach could be to have custom counters label management or any other user-defined feature Of course you can always use the simpler interface provided by the plain LaTeX type Another thing you should know about the LaTeX Writer Monad Don try to get values from computations with no results like raw foo",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "Writer",
           "package": "HaTeX",
@@ -7448,6 +8068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWriterT\u003c/a\u003e\u003c/code\u003e monad transformer applied to \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "LaTeXT",
           "package": "HaTeX",
@@ -7457,6 +8078,7 @@
         "index": {
           "description": "WriterT monad transformer applied to LaTeX values",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "LaTeXT",
           "package": "HaTeX",
@@ -7471,6 +8093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for empty \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "LaTeXT_",
           "package": "HaTeX",
@@ -7480,6 +8103,7 @@
         "index": {
           "description": "Type synonym for empty LaTeXT computations",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "LaTeXT_",
           "package": "HaTeX",
@@ -7494,6 +8118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the usual way to run the \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e monad\n   and obtain a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cpre\u003e execLaTeXT = liftM snd . runLaTeXT\n\u003c/pre\u003e\u003cp\u003eIf \u003ccode\u003eanExample\u003c/code\u003e is defined as above (at the top of this module\n documentation), use the following to get the LaTeX value\n generated out.\n\u003c/p\u003e\u003cpre\u003e myLaTeX :: Monad m =\u003e m LaTeX\n myLaTeX = execLaTeXT anExample\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "execLaTeXT",
           "package": "HaTeX",
@@ -7504,6 +8129,7 @@
         "index": {
           "description": "This is the usual way to run the LaTeXT monad and obtain LaTeX value execLaTeXT liftM snd runLaTeXT If anExample is defined as above at the top of this module documentation use the following to get the LaTeX value generated out myLaTeX Monad LaTeX myLaTeX execLaTeXT anExample",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "execLaTeXT",
           "normalized": "LaTeXT a b-\u003ea LaTeX",
@@ -7520,6 +8146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003eexecLaTeXT\u003c/a\u003e\u003c/code\u003e with possible warning messages.\n   This function applies \u003ccode\u003e\u003ca\u003echeckAll\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "execLaTeXTWarn",
           "package": "HaTeX",
@@ -7530,6 +8157,7 @@
         "index": {
           "description": "Version of execLaTeXT with possible warning messages This function applies checkAll to the LaTeX output",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "execLaTeXTWarn",
           "normalized": "LaTeXT a b-\u003ea(LaTeX,[Warning])",
@@ -7546,6 +8174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function run a \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e computation,\n   lifting the result again in the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "extractLaTeX",
           "package": "HaTeX",
@@ -7556,6 +8185,7 @@
         "index": {
           "description": "This function run LaTeXT computation lifting the result again in the monad",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "extractLaTeX",
           "normalized": "LaTeXT a b-\u003eLaTeXT a(b,LaTeX)",
@@ -7572,6 +8202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e computation, embedding it again in\n   the \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cpre\u003e extractLaTeX_ = liftM snd . extractLaTeX\n\u003c/pre\u003e\u003cp\u003eThis function was heavily used in the past by HaTeX-meta\n to generate those \u003ccode\u003e.Monad\u003c/code\u003e modules. The current purpose\n is to implement the \u003ccode\u003e\u003ca\u003eLaTeXC\u003c/a\u003e\u003c/code\u003e instance of \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e, which\n is closely related.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "extractLaTeX_",
           "package": "HaTeX",
@@ -7582,6 +8213,7 @@
         "index": {
           "description": "Executes LaTeXT computation embedding it again in the LaTeXT monad extractLaTeX liftM snd extractLaTeX This function was heavily used in the past by HaTeX-meta to generate those Monad modules The current purpose is to implement the LaTeXC instance of LaTeXT which is closely related",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "extractLaTeX_",
           "normalized": "LaTeXT a b-\u003eLaTeXT a LaTeX",
@@ -7598,6 +8230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the argument monad to the constructed monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "lift",
           "package": "HaTeX",
@@ -7607,6 +8240,7 @@
         "index": {
           "description": "Lift computation from the argument monad to the constructed monad",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -7622,6 +8256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function over \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values to a function\n   acting over the state of a \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "liftFun",
           "package": "HaTeX",
@@ -7632,6 +8267,7 @@
         "index": {
           "description": "Lift function over LaTeX values to function acting over the state of LaTeXT computation",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "liftFun",
           "normalized": "(LaTeX-\u003eLaTeX)-\u003eLaTeXT a b-\u003eLaTeXT a b",
@@ -7648,6 +8284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "liftIO",
           "package": "HaTeX",
@@ -7657,6 +8294,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -7673,6 +8311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an operator over \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values to an operator\n   acting over the state of two \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e computations.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote: The returned value is the one returned by the\u003c/em\u003e\n \u003cem\u003esecond argument of the lifted operator.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "liftOp",
           "package": "HaTeX",
@@ -7683,6 +8322,7 @@
         "index": {
           "description": "Lift an operator over LaTeX values to an operator acting over the state of two LaTeXT computations Note The returned value is the one returned by the second argument of the lifted operator",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "liftOp",
           "normalized": "(LaTeX-\u003eLaTeX-\u003eLaTeX)-\u003eLaTeXT a b-\u003eLaTeXT a c-\u003eLaTeXT a c",
@@ -7699,6 +8339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction \u003ccode\u003e\u003ca\u003emerror\u003c/a\u003e\u003c/code\u003e casts a value contained in a monad \u003ccode\u003em\u003c/code\u003e to the\n   bottom value of another type. If you try to evaluate this value, you will\n   get an error message with the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e passed as argument to \u003ccode\u003e\u003ca\u003emerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "merror",
           "package": "HaTeX",
@@ -7709,6 +8350,7 @@
         "index": {
           "description": "Function merror casts value contained in monad to the bottom value of another type If you try to evaluate this value you will get an error message with the String passed as argument to merror",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "merror",
           "normalized": "String-\u003eLaTeXT a b-\u003eLaTeXT a c",
@@ -7724,6 +8366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like \u003ccode\u003e\u003ca\u003erendertex\u003c/a\u003e\u003c/code\u003e, but with \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e output.\n\u003c/p\u003e\u003cpre\u003e rendertexM = textell . rendertex\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "rendertexM",
           "package": "HaTeX",
@@ -7734,6 +8377,7 @@
         "index": {
           "description": "Just like rendertex but with LaTeXT output rendertexM textell rendertex",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "rendertexM",
           "normalized": "a-\u003eLaTeXT b()",
@@ -7749,6 +8393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning a \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e computation returns the final \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value\n   and either a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e if the computation didn't contain any value\n   or the value itself otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "runLaTeXT",
           "package": "HaTeX",
@@ -7759,6 +8404,7 @@
         "index": {
           "description": "Running LaTeXT computation returns the final LaTeX value and either String if the computation didn contain any value or the value itself otherwise",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "runLaTeXT",
           "normalized": "LaTeXT a b-\u003ea(Either String b,LaTeX)",
@@ -7775,6 +8421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith \u003ccode\u003e\u003ca\u003etextell\u003c/a\u003e\u003c/code\u003e you can append \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values to the\n   state of the \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "textell",
           "package": "HaTeX",
@@ -7785,6 +8432,7 @@
         "index": {
           "description": "With textell you can append LaTeX values to the state of the LaTeXT monad",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "textell",
           "normalized": "LaTeX-\u003eLaTeXT a()",
@@ -7800,6 +8448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e method of the \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base.Writer",
           "name": "throwError",
           "package": "HaTeX",
@@ -7810,6 +8459,7 @@
         "index": {
           "description": "The fail method of the LaTeXT monad",
           "hierarchy": "Text LaTeX Base Writer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base.Writer",
           "name": "throwError",
           "normalized": "String-\u003eLaTeXT a b",
@@ -7826,6 +8476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports those minimal things you need\nto work with HaTeX. Those things are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e datatype.\n\u003c/li\u003e\u003cli\u003e The \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e operator, to append \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e values.\n\u003c/li\u003e\u003cli\u003e The \u003ca\u003eText.LaTeX.Base.Render\u003c/a\u003e module, to render a \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e value into \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e The \u003ca\u003eText.LaTeX.Base.Types\u003c/a\u003e module, which contains several types used by\n  other modules.\n\u003c/li\u003e\u003cli\u003e The \u003ca\u003eText.LaTeX.Base.Commands\u003c/a\u003e module, which exports the LaTeX standard commands\n  and environments.\n\u003c/li\u003e\u003cli\u003e The \u003ca\u003eText.LaTeX.Base.Writer\u003c/a\u003e module, to work with the monad interface of the library.\n\u003c/li\u003e\u003cli\u003e The \u003ca\u003eText.LaTeX.Base.Texy\u003c/a\u003e module, which exports the \u003ccode\u003e\u003ca\u003eTexy\u003c/a\u003e\u003c/code\u003e class. Useful to pretty-print\n  values in LaTeX form.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base",
           "name": "Base",
           "package": "HaTeX",
@@ -7835,6 +8486,7 @@
         "index": {
           "description": "This module exports those minimal things you need to work with HaTeX Those things are The LaTeX datatype The operator to append LaTeX values The Text.LaTeX.Base.Render module to render LaTeX value into Text The Text.LaTeX.Base.Types module which contains several types used by other modules The Text.LaTeX.Base.Commands module which exports the LaTeX standard commands and environments The Text.LaTeX.Base.Writer module to work with the monad interface of the library The Text.LaTeX.Base.Texy module which exports the Texy class Useful to pretty-print values in LaTeX form",
           "hierarchy": "Text LaTeX Base",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base",
           "name": "Base",
           "package": "HaTeX",
@@ -7849,6 +8501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of \u003ccode\u003eLaTeX\u003c/code\u003e blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base",
           "name": "LaTeX",
           "package": "HaTeX",
@@ -7858,6 +8511,7 @@
         "index": {
           "description": "Type of LaTeX blocks",
           "hierarchy": "Text LaTeX Base",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base",
           "name": "LaTeX",
           "package": "HaTeX",
@@ -7872,6 +8526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monoids (types with an associative binary operation that\n has an identity).  Instances should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emappend mempty x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x mempty = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x (mappend y z) = mappend (mappend x y) z\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emconcat = \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e mappend mempty\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe method names refer to the monoid of lists under concatenation,\n but there are many other instances.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome types can be viewed as a monoid in more than one way,\n e.g. both addition and multiplication on numbers.\n In such cases we often define \u003ccode\u003enewtype\u003c/code\u003es and make those instances\n of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eProduct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base",
           "name": "Monoid",
           "package": "HaTeX",
@@ -7880,6 +8535,7 @@
         "index": {
           "description": "The class of monoids types with an associative binary operation that has an identity Instances should satisfy the following laws mappend mempty mappend mempty mappend mappend mappend mappend mconcat foldr mappend mempty The method names refer to the monoid of lists under concatenation but there are many other instances Minimal complete definition mempty and mappend Some types can be viewed as monoid in more than one way e.g both addition and multiplication on numbers In such cases we often define newtype and make those instances of Monoid e.g Sum and Product",
           "hierarchy": "Text LaTeX Base",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base",
           "name": "Monoid",
           "package": "HaTeX",
@@ -7894,6 +8550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base",
           "name": "mappend",
           "package": "HaTeX",
@@ -7903,6 +8560,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Text LaTeX Base",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -7918,6 +8576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base",
           "name": "mconcat",
           "package": "HaTeX",
@@ -7927,6 +8586,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Text LaTeX Base",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -7942,6 +8602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Base",
           "name": "mempty",
           "package": "HaTeX",
@@ -7951,6 +8612,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Text LaTeX Base",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Base",
           "name": "mempty",
           "package": "HaTeX",
@@ -7964,6 +8626,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for the package \u003ccode\u003eamsfonts\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSFonts",
           "name": "AMSFonts",
           "package": "HaTeX",
@@ -7973,6 +8636,7 @@
         "index": {
           "description": "Module for the package amsfonts",
           "hierarchy": "Text LaTeX Packages AMSFonts",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSFonts",
           "name": "AMSFonts",
           "package": "HaTeX",
@@ -7987,6 +8651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAMSFonts package.\n Example:\n\u003c/p\u003e\u003cpre\u003e usepackage [] amsfonts\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSFonts",
           "name": "amsfonts",
           "package": "HaTeX",
@@ -7997,6 +8662,7 @@
         "index": {
           "description": "AMSFonts package Example usepackage amsfonts",
           "hierarchy": "Text LaTeX Packages AMSFonts",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSFonts",
           "name": "amsfonts",
           "package": "HaTeX",
@@ -8010,6 +8676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis font is useful for representing sets like\n   R (real numbers) or Z (integers). For instance:\n\u003c/p\u003e\u003cpre\u003e \"The set of real numbers are represented by \" \u003c\u003e mathbb \"R\" \u003c\u003e \".\"\n\u003c/pre\u003e\u003cp\u003eOr in monadic form:\n\u003c/p\u003e\u003cpre\u003e \"The set of real numbers are represented by \" \u003e\u003e mathbb \"R\" \u003e\u003e \".\"\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eNote the use of overloaded strings.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSFonts",
           "name": "mathbb",
           "package": "HaTeX",
@@ -8020,6 +8687,7 @@
         "index": {
           "description": "This font is useful for representing sets like real numbers or integers For instance The set of real numbers are represented by mathbb Or in monadic form The set of real numbers are represented by mathbb Note the use of overloaded strings",
           "hierarchy": "Text LaTeX Packages AMSFonts",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSFonts",
           "name": "mathbb",
           "normalized": "a-\u003ea",
@@ -8035,6 +8703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAMSMath support. Also numeric instances (\u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e) for \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLaTeXT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "AMSMath",
           "package": "HaTeX",
@@ -8044,6 +8713,7 @@
         "index": {
           "description": "AMSMath support Also numeric instances Num Fractional and Floating for LaTeX and LaTeXT",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "AMSMath",
           "package": "HaTeX",
@@ -8058,6 +8728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(!:)",
           "package": "HaTeX",
@@ -8068,6 +8739,7 @@
         "index": {
           "description": "Subscript",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(!:) !:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8083,6 +8755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsterisk operator (*).\n\u003c/p\u003e\u003cpre\u003e infixl 7 *:\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(*:)",
           "package": "HaTeX",
@@ -8093,6 +8766,7 @@
         "index": {
           "description": "Asterisk operator infixl",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(*:) *:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8108,6 +8782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot equal (&#8800;).\n\u003c/p\u003e\u003cpre\u003e infixr 4 /=:\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(/=:)",
           "package": "HaTeX",
@@ -8118,6 +8793,7 @@
         "index": {
           "description": "Not equal infixr",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(/=:) /=:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8133,6 +8809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLesser or equal (&#8804;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(\u003c=:)",
           "package": "HaTeX",
@@ -8143,6 +8820,7 @@
         "index": {
           "description": "Lesser or equal",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(\u003c=:) \u003c=:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8158,6 +8836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLesser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(\u003c:)",
           "package": "HaTeX",
@@ -8168,6 +8847,7 @@
         "index": {
           "description": "Lesser",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(\u003c:) \u003c:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8183,6 +8863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqual.\n\u003c/p\u003e\u003cpre\u003e infixr 4 =:\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(=:)",
           "package": "HaTeX",
@@ -8193,6 +8874,7 @@
         "index": {
           "description": "Equal infixr",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(=:) =:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8208,6 +8890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater or equal (&#8805;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(\u003e=:)",
           "package": "HaTeX",
@@ -8218,6 +8901,7 @@
         "index": {
           "description": "Greater or equal",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(\u003e=:) \u003e=:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8233,6 +8917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(\u003e:)",
           "package": "HaTeX",
@@ -8243,6 +8928,7 @@
         "index": {
           "description": "Greater",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(\u003e:) \u003e:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8258,6 +8944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuperscript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(^:)",
           "package": "HaTeX",
@@ -8268,6 +8955,7 @@
         "index": {
           "description": "Superscript",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "(^:) ^:",
           "normalized": "a-\u003ea-\u003ea",
@@ -8283,6 +8971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array of aligned equations. Use \u003ccode\u003e\u003ca\u003e&\u003c/a\u003e\u003c/code\u003e to specify the points that should\n horizontally match. Each equation is numbered, unless prevented by \u003ccode\u003e\u003ca\u003enonumber\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "align",
           "package": "HaTeX",
@@ -8293,6 +8982,7 @@
         "index": {
           "description": "An array of aligned equations Use to specify the points that should horizontally match Each equation is numbered unless prevented by nonumber",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "align",
           "normalized": "[a]-\u003ea",
@@ -8308,6 +8998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unnumbered variant of \u003ccode\u003e\u003ca\u003ealign\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "align_",
           "package": "HaTeX",
@@ -8318,6 +9009,7 @@
         "index": {
           "description": "The unnumbered variant of align",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "align_",
           "normalized": "[a]-\u003ea",
@@ -8333,6 +9025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "alpha",
           "package": "HaTeX",
@@ -8343,6 +9036,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "alpha",
           "package": "HaTeX",
@@ -8356,6 +9050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAMSMath package.\n Example:\n\u003c/p\u003e\u003cpre\u003e usepackage [] amsmath\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "amsmath",
           "package": "HaTeX",
@@ -8366,6 +9061,7 @@
         "index": {
           "description": "AMSMath package Example usepackage amsmath",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "amsmath",
           "package": "HaTeX",
@@ -8379,6 +9075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArccosine function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "arccos",
           "package": "HaTeX",
@@ -8389,6 +9086,7 @@
         "index": {
           "description": "Arccosine function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "arccos",
           "package": "HaTeX",
@@ -8402,6 +9100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArccotangent function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "arccot",
           "package": "HaTeX",
@@ -8412,6 +9111,7 @@
         "index": {
           "description": "Arccotangent function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "arccot",
           "package": "HaTeX",
@@ -8425,6 +9125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArcsine function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "arcsin",
           "package": "HaTeX",
@@ -8435,6 +9136,7 @@
         "index": {
           "description": "Arcsine function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "arcsin",
           "package": "HaTeX",
@@ -8448,6 +9150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArctangent function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "arctan",
           "package": "HaTeX",
@@ -8458,6 +9161,7 @@
         "index": {
           "description": "Arctangent function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "arctan",
           "package": "HaTeX",
@@ -8471,6 +9175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eautoParens\u003c/a\u003e\u003c/code\u003e, but with angle brackets &#9001; ... &#9002;. Equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eautoBrackets\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003elangle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003erangle\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoAngleBrackets",
           "package": "HaTeX",
@@ -8481,6 +9186,7 @@
         "index": {
           "description": "Like autoParens but with angle brackets Equivalent to autoBrackets langle rangle",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoAngleBrackets",
           "normalized": "a-\u003ea",
@@ -8497,6 +9203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eautoParens\u003c/a\u003e\u003c/code\u003e, but with curly brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoBraces",
           "package": "HaTeX",
@@ -8507,6 +9214,7 @@
         "index": {
           "description": "Like autoParens but with curly brackets",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoBraces",
           "normalized": "a-\u003ea",
@@ -8523,6 +9231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse custom LaTeX expressions as auto-scaled delimiters to surround math.\n Suitable delimiters include |...| (absolute value), &#8214;...&#8214; (norm,\n \u003ccode\u003e\u003ca\u003edblPipe\u003c/a\u003e\u003c/code\u003e), &#8970;...&#8971; (round-off Gauss brackets, \u003ccode\u003e\u003ca\u003elfloor\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003e\u003ca\u003erfloor\u003c/a\u003e\u003c/code\u003e) etc..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoBrackets",
           "package": "HaTeX",
@@ -8533,6 +9242,7 @@
         "index": {
           "description": "Use custom LaTeX expressions as auto-scaled delimiters to surround math Suitable delimiters include absolute value norm dblPipe round-off Gauss brackets lfloor rfloor etc",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoBrackets",
           "normalized": "LaTeX-\u003eLaTeX-\u003ea-\u003ea",
@@ -8549,6 +9259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurround a LaTeX math expression by parentheses whose height\n automatically matches the expression's. Translates to \u003ccode\u003e\\left(...\\right)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoParens",
           "package": "HaTeX",
@@ -8559,6 +9270,7 @@
         "index": {
           "description": "Surround LaTeX math expression by parentheses whose height automatically matches the expression Translates to left right",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoParens",
           "normalized": "a-\u003ea",
@@ -8575,6 +9287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eautoParens\u003c/a\u003e\u003c/code\u003e, but with square brackets. Equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eautoBrackets\u003c/a\u003e\u003c/code\u003e\"[\"\"]\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoSquareBrackets",
           "package": "HaTeX",
@@ -8585,6 +9298,7 @@
         "index": {
           "description": "Like autoParens but with square brackets Equivalent to autoBrackets",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "autoSquareBrackets",
           "normalized": "a-\u003ea",
@@ -8601,6 +9315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaTeX rendering of a matrix using \u003ccode\u003eBmatrix\u003c/code\u003e and a custom function to render cells.\n   Optional argument sets the alignment of the cells. Default (providing \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e) \n   is centered.\n\u003c/p\u003e\u003cpre\u003e { M }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "b2matrix",
           "package": "HaTeX",
@@ -8611,6 +9326,7 @@
         "index": {
           "description": "LaTeX rendering of matrix using Bmatrix and custom function to render cells Optional argument sets the alignment of the cells Default providing Nothing is centered",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "b2matrix",
           "normalized": "Maybe HPos-\u003eMatrix a-\u003eb",
@@ -8626,6 +9342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "beta",
           "package": "HaTeX",
@@ -8636,6 +9353,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "beta",
           "package": "HaTeX",
@@ -8649,6 +9367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaTeX rendering of a matrix using \u003ccode\u003ebmatrix\u003c/code\u003e and a custom function to render cells.\n   Optional argument sets the alignment of the cells. Default (providing \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e) \n   is centered.\n\u003c/p\u003e\u003cpre\u003e [ M ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "bmatrix",
           "package": "HaTeX",
@@ -8659,6 +9378,7 @@
         "index": {
           "description": "LaTeX rendering of matrix using bmatrix and custom function to render cells Optional argument sets the alignment of the cells Default providing Nothing is centered",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "bmatrix",
           "normalized": "Maybe HPos-\u003eMatrix a-\u003eb",
@@ -8674,6 +9394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBullet operator (&#8729;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "bullet",
           "package": "HaTeX",
@@ -8684,6 +9405,7 @@
         "index": {
           "description": "Bullet operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "bullet",
           "normalized": "a-\u003ea-\u003ea",
@@ -8699,6 +9421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet intersection (&#8745;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "cap",
           "package": "HaTeX",
@@ -8709,6 +9432,7 @@
         "index": {
           "description": "Set intersection",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "cap",
           "normalized": "a-\u003ea-\u003ea",
@@ -8724,6 +9448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentered-dot operator (&#8901;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "cdot",
           "package": "HaTeX",
@@ -8734,6 +9459,7 @@
         "index": {
           "description": "Centered-dot operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "cdot",
           "normalized": "a-\u003ea-\u003ea",
@@ -8749,6 +9475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#967;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "chi",
           "package": "HaTeX",
@@ -8759,6 +9486,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "chi",
           "package": "HaTeX",
@@ -8772,6 +9500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRing operator (&#8728;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "circ",
           "package": "HaTeX",
@@ -8782,6 +9511,7 @@
         "index": {
           "description": "Ring operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "circ",
           "normalized": "a-\u003ea-\u003ea",
@@ -8797,6 +9527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCotangent function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "cot",
           "package": "HaTeX",
@@ -8807,6 +9538,7 @@
         "index": {
           "description": "Cotangent function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "cot",
           "package": "HaTeX",
@@ -8820,6 +9552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyperbolic cotangent function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "coth",
           "package": "HaTeX",
@@ -8830,6 +9563,7 @@
         "index": {
           "description": "Hyperbolic cotangent function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "coth",
           "package": "HaTeX",
@@ -8843,6 +9577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCosecant function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "csc",
           "package": "HaTeX",
@@ -8853,6 +9588,7 @@
         "index": {
           "description": "Cosecant function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "csc",
           "package": "HaTeX",
@@ -8866,6 +9602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet union (&#8746;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "cup",
           "package": "HaTeX",
@@ -8876,6 +9613,7 @@
         "index": {
           "description": "Set union",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "cup",
           "normalized": "a-\u003ea-\u003ea",
@@ -8891,6 +9629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDagger symbol, &#8224;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "dagger",
           "package": "HaTeX",
@@ -8901,6 +9640,7 @@
         "index": {
           "description": "Dagger symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "dagger",
           "package": "HaTeX",
@@ -8914,6 +9654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble vertical line, used as delimiter for norms (&#8214; ... &#8214;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "dblPipe",
           "package": "HaTeX",
@@ -8924,6 +9665,7 @@
         "index": {
           "description": "Double vertical line used as delimiter for norms",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "dblPipe",
           "package": "HaTeX",
@@ -8938,6 +9680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble dagger symbol, &#8225;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ddagger",
           "package": "HaTeX",
@@ -8948,6 +9691,7 @@
         "index": {
           "description": "Double dagger symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ddagger",
           "package": "HaTeX",
@@ -8961,6 +9705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "delta",
           "package": "HaTeX",
@@ -8971,6 +9716,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "delta",
           "package": "HaTeX",
@@ -8984,6 +9730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#916; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "deltau",
           "package": "HaTeX",
@@ -8994,6 +9741,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "deltau",
           "package": "HaTeX",
@@ -9007,6 +9755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "div_",
           "package": "HaTeX",
@@ -9017,6 +9766,7 @@
         "index": {
           "description": "Division operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "div_",
           "normalized": "a-\u003ea-\u003ea",
@@ -9032,6 +9782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#1013;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "epsilon",
           "package": "HaTeX",
@@ -9042,6 +9793,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "epsilon",
           "package": "HaTeX",
@@ -9055,6 +9807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to a numbered equation. Use with a \u003ccode\u003e\u003ca\u003elabel\u003c/a\u003e\u003c/code\u003e defined in the\n scope of the equation refered to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "eqref",
           "package": "HaTeX",
@@ -9065,6 +9818,7 @@
         "index": {
           "description": "reference to numbered equation Use with label defined in the scope of the equation refered to",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "eqref",
           "normalized": "a-\u003ea",
@@ -9080,6 +9834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA numbered mathematical equation (or otherwise math expression).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "equation",
           "package": "HaTeX",
@@ -9090,6 +9845,7 @@
         "index": {
           "description": "numbered mathematical equation or otherwise math expression",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "equation",
           "normalized": "a-\u003ea",
@@ -9105,6 +9861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unnumbered variant of \u003ccode\u003e\u003ca\u003eequation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "equation_",
           "package": "HaTeX",
@@ -9115,6 +9872,7 @@
         "index": {
           "description": "The unnumbered variant of equation",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "equation_",
           "normalized": "a-\u003ea",
@@ -9130,6 +9888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentical / defined-as / equivalent (&#8801;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "equiv",
           "package": "HaTeX",
@@ -9140,6 +9899,7 @@
         "index": {
           "description": "Identical defined-as equivalent",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "equiv",
           "normalized": "a-\u003ea-\u003ea",
@@ -9155,6 +9915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "eta",
           "package": "HaTeX",
@@ -9165,6 +9926,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "eta",
           "package": "HaTeX",
@@ -9178,6 +9940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eExists\u003c/em\u003e symbol, &#8707;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "exists",
           "package": "HaTeX",
@@ -9188,6 +9951,7 @@
         "index": {
           "description": "Exists symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "exists",
           "package": "HaTeX",
@@ -9201,6 +9965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eFor all\u003c/em\u003e symbol, &#8704;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "forall",
           "package": "HaTeX",
@@ -9211,6 +9976,7 @@
         "index": {
           "description": "For all symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "forall",
           "package": "HaTeX",
@@ -9224,6 +9990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFraction operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "frac",
           "package": "HaTeX",
@@ -9234,6 +10001,7 @@
         "index": {
           "description": "Fraction operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "frac",
           "normalized": "a-\u003ea-\u003ea",
@@ -9249,6 +10017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "gamma",
           "package": "HaTeX",
@@ -9259,6 +10028,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "gamma",
           "package": "HaTeX",
@@ -9272,6 +10042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#915; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "gammau",
           "package": "HaTeX",
@@ -9282,6 +10053,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "gammau",
           "package": "HaTeX",
@@ -9295,6 +10067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMuch greater (&#8811;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "gg",
           "package": "HaTeX",
@@ -9305,6 +10078,7 @@
         "index": {
           "description": "Much greater",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "gg",
           "normalized": "a-\u003ea-\u003ea",
@@ -9320,6 +10094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement-of (&#8712;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "in_",
           "package": "HaTeX",
@@ -9330,6 +10105,7 @@
         "index": {
           "description": "Element-of",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "in_",
           "normalized": "a-\u003ea-\u003ea",
@@ -9345,6 +10121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinity symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "infty",
           "package": "HaTeX",
@@ -9355,6 +10132,7 @@
         "index": {
           "description": "Infinity symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "infty",
           "package": "HaTeX",
@@ -9368,6 +10146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral symbol. Use \u003ccode\u003e\u003ca\u003eintegralFromTo\u003c/a\u003e\u003c/code\u003e if you want to specify\n   the limits of the integral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "integral",
           "package": "HaTeX",
@@ -9378,6 +10157,7 @@
         "index": {
           "description": "Integral symbol Use integralFromTo if you want to specify the limits of the integral",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "integral",
           "package": "HaTeX",
@@ -9391,6 +10171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral symbol with limits of integration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "integralFromTo",
           "package": "HaTeX",
@@ -9400,6 +10181,7 @@
         "index": {
           "description": "Integral symbol with limits of integration",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "integralFromTo",
           "normalized": "a-\u003ea-\u003ea",
@@ -9416,6 +10198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "iota",
           "package": "HaTeX",
@@ -9426,6 +10209,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "iota",
           "package": "HaTeX",
@@ -9439,6 +10223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "kappa",
           "package": "HaTeX",
@@ -9449,6 +10234,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "kappa",
           "package": "HaTeX",
@@ -9462,6 +10248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "lambda",
           "package": "HaTeX",
@@ -9472,6 +10259,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "lambda",
           "package": "HaTeX",
@@ -9485,6 +10273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#923; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "lambdau",
           "package": "HaTeX",
@@ -9495,6 +10284,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "lambdau",
           "package": "HaTeX",
@@ -9508,6 +10298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft angle bracket, &#9001;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "langle",
           "package": "HaTeX",
@@ -9518,6 +10309,7 @@
         "index": {
           "description": "Left angle bracket",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "langle",
           "package": "HaTeX",
@@ -9531,6 +10323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft ceiling, &#8968;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "lceil",
           "package": "HaTeX",
@@ -9541,6 +10334,7 @@
         "index": {
           "description": "Left ceiling",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "lceil",
           "package": "HaTeX",
@@ -9554,6 +10348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft floor, &#8970;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "lfloor",
           "package": "HaTeX",
@@ -9564,6 +10359,7 @@
         "index": {
           "description": "Left floor",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "lfloor",
           "package": "HaTeX",
@@ -9577,6 +10373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMuch less (&#8810;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ll",
           "package": "HaTeX",
@@ -9587,6 +10384,7 @@
         "index": {
           "description": "Much less",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ll",
           "normalized": "a-\u003ea-\u003ea",
@@ -9602,6 +10400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural logarithm symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ln",
           "package": "HaTeX",
@@ -9612,6 +10411,7 @@
         "index": {
           "description": "Natural logarithm symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ln",
           "package": "HaTeX",
@@ -9625,6 +10425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA right-arrow for function definitions, &#8614;.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mapsto",
           "package": "HaTeX",
@@ -9635,6 +10436,7 @@
         "index": {
           "description": "right-arrow for function definitions",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mapsto",
           "package": "HaTeX",
@@ -9648,6 +10450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline mathematical expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "math",
           "package": "HaTeX",
@@ -9658,6 +10461,7 @@
         "index": {
           "description": "Inline mathematical expressions",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "math",
           "normalized": "a-\u003ea",
@@ -9673,6 +10477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplayed mathematical expressions, i.e. in a seperate line / block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathDisplay",
           "package": "HaTeX",
@@ -9683,6 +10488,7 @@
         "index": {
           "description": "Displayed mathematical expressions i.e in seperate line block",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathDisplay",
           "normalized": "a-\u003ea",
@@ -9699,6 +10505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBold face.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathbf",
           "package": "HaTeX",
@@ -9709,6 +10516,7 @@
         "index": {
           "description": "Bold face",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathbf",
           "normalized": "a-\u003ea",
@@ -9724,6 +10532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalligraphic math symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathcal",
           "package": "HaTeX",
@@ -9734,6 +10543,7 @@
         "index": {
           "description": "Calligraphic math symbols",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathcal",
           "normalized": "a-\u003ea",
@@ -9749,6 +10559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault math symbol font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathdefault",
           "package": "HaTeX",
@@ -9759,6 +10570,7 @@
         "index": {
           "description": "Default math symbol font",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathdefault",
           "normalized": "a-\u003ea",
@@ -9774,6 +10586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItalic math. Uses the same glyphs as \u003ccode\u003e\u003ca\u003emathdefault\u003c/a\u003e\u003c/code\u003e, but with spacings\n   intended for multi-character symbols rather than juxtaposition of single-character symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathit",
           "package": "HaTeX",
@@ -9784,6 +10597,7 @@
         "index": {
           "description": "Italic math Uses the same glyphs as mathdefault but with spacings intended for multi-character symbols rather than juxtaposition of single-character symbols",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathit",
           "normalized": "a-\u003ea",
@@ -9799,6 +10613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoman, i.e. not-italic math.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathrm",
           "package": "HaTeX",
@@ -9809,6 +10624,7 @@
         "index": {
           "description": "Roman i.e not-italic math",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathrm",
           "normalized": "a-\u003ea",
@@ -9824,6 +10640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSans-serif math.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathsf",
           "package": "HaTeX",
@@ -9834,6 +10651,7 @@
         "index": {
           "description": "Sans-serif math",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathsf",
           "normalized": "a-\u003ea",
@@ -9849,6 +10667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypewriter font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathtt",
           "package": "HaTeX",
@@ -9859,6 +10678,7 @@
         "index": {
           "description": "Typewriter font",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mathtt",
           "normalized": "a-\u003ea",
@@ -9874,6 +10694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinus-or-plus operator (&#8723;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mp",
           "package": "HaTeX",
@@ -9884,6 +10705,7 @@
         "index": {
           "description": "Minus-or-plus operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mp",
           "normalized": "a-\u003ea-\u003ea",
@@ -9899,6 +10721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mu",
           "package": "HaTeX",
@@ -9909,6 +10732,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "mu",
           "package": "HaTeX",
@@ -9922,6 +10746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMirrored element-of (&#8715;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ni",
           "package": "HaTeX",
@@ -9932,6 +10757,7 @@
         "index": {
           "description": "Mirrored element-of",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ni",
           "normalized": "a-\u003ea-\u003ea",
@@ -9947,6 +10773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrevent an equation from being numbered, where the environment would by default do that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "nonumber",
           "package": "HaTeX",
@@ -9957,6 +10784,7 @@
         "index": {
           "description": "Prevent an equation from being numbered where the environment would by default do that",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "nonumber",
           "package": "HaTeX",
@@ -9970,6 +10798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot element of (&#8713;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "notin",
           "package": "HaTeX",
@@ -9980,6 +10809,7 @@
         "index": {
           "description": "Not element of",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "notin",
           "normalized": "a-\u003ea-\u003ea",
@@ -9995,6 +10825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "nu",
           "package": "HaTeX",
@@ -10005,6 +10836,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "nu",
           "package": "HaTeX",
@@ -10018,6 +10850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCircled dot operator (&#8857;).\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "odot",
           "package": "HaTeX",
@@ -10028,6 +10861,7 @@
         "index": {
           "description": "Circled dot operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "odot",
           "normalized": "a-\u003ea-\u003ea",
@@ -10043,6 +10877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#969;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "omega",
           "package": "HaTeX",
@@ -10053,6 +10888,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "omega",
           "package": "HaTeX",
@@ -10066,6 +10902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#937; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "omegau",
           "package": "HaTeX",
@@ -10076,6 +10913,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "omegau",
           "package": "HaTeX",
@@ -10089,6 +10927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCircled minus operator (&#8854;).\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ominus",
           "package": "HaTeX",
@@ -10099,6 +10938,7 @@
         "index": {
           "description": "Circled minus operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ominus",
           "normalized": "a-\u003ea-\u003ea",
@@ -10114,6 +10954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCircled plus operator (&#8853;).\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "oplus",
           "package": "HaTeX",
@@ -10124,6 +10965,7 @@
         "index": {
           "description": "Circled plus operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "oplus",
           "normalized": "a-\u003ea-\u003ea",
@@ -10139,6 +10981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCircled slash (&#8856;).\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "oslash",
           "package": "HaTeX",
@@ -10149,6 +10992,7 @@
         "index": {
           "description": "Circled slash",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "oslash",
           "normalized": "a-\u003ea-\u003ea",
@@ -10164,6 +11008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCircled multiplication cross (&#8855;).\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "otimes",
           "package": "HaTeX",
@@ -10174,6 +11019,7 @@
         "index": {
           "description": "Circled multiplication cross",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "otimes",
           "normalized": "a-\u003ea-\u003ea",
@@ -10189,6 +11035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#981;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "phi",
           "package": "HaTeX",
@@ -10199,6 +11046,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "phi",
           "package": "HaTeX",
@@ -10212,6 +11060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#934; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "phiu",
           "package": "HaTeX",
@@ -10222,6 +11071,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "phiu",
           "package": "HaTeX",
@@ -10235,6 +11085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#960;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "pi_",
           "package": "HaTeX",
@@ -10245,6 +11096,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "pi_",
           "package": "HaTeX",
@@ -10258,6 +11110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#928; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "piu",
           "package": "HaTeX",
@@ -10268,6 +11121,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "piu",
           "package": "HaTeX",
@@ -10281,6 +11135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlus-or-minus operator (&#177;).\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "pm",
           "package": "HaTeX",
@@ -10291,6 +11146,7 @@
         "index": {
           "description": "Plus-or-minus operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "pm",
           "normalized": "a-\u003ea-\u003ea",
@@ -10306,6 +11162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaTeX rendering of a matrix using \u003ccode\u003epmatrix\u003c/code\u003e and a custom function to render cells.\n   Optional argument sets the alignment of the cells. Default (providing \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e) \n   is centered.\n\u003c/p\u003e\u003cpre\u003e ( M )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "pmatrix",
           "package": "HaTeX",
@@ -10316,6 +11173,7 @@
         "index": {
           "description": "LaTeX rendering of matrix using pmatrix and custom function to render cells Optional argument sets the alignment of the cells Default providing Nothing is centered",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "pmatrix",
           "normalized": "Maybe HPos-\u003eMatrix a-\u003eb",
@@ -10331,6 +11189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePi product symbol. Use \u003ccode\u003e\u003ca\u003eprodFromTo\u003c/a\u003e\u003c/code\u003e if you want to specify the\n   limits of the product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "prod",
           "package": "HaTeX",
@@ -10341,6 +11200,7 @@
         "index": {
           "description": "Pi product symbol Use prodFromTo if you want to specify the limits of the product",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "prod",
           "package": "HaTeX",
@@ -10354,6 +11214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePi product symbol with limits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "prodFromTo",
           "package": "HaTeX",
@@ -10363,6 +11224,7 @@
         "index": {
           "description": "Pi product symbol with limits",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "prodFromTo",
           "normalized": "a-\u003ea-\u003ea",
@@ -10379,6 +11241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProportional-to (&#8733;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "propto",
           "package": "HaTeX",
@@ -10389,6 +11252,7 @@
         "index": {
           "description": "Proportional-to",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "propto",
           "normalized": "a-\u003ea-\u003ea",
@@ -10404,6 +11268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#968;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "psi",
           "package": "HaTeX",
@@ -10414,6 +11279,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "psi",
           "package": "HaTeX",
@@ -10427,6 +11293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#936; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "psiu",
           "package": "HaTeX",
@@ -10437,6 +11304,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "psiu",
           "package": "HaTeX",
@@ -10450,6 +11318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight angle bracket, &#9002;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "rangle",
           "package": "HaTeX",
@@ -10460,6 +11329,7 @@
         "index": {
           "description": "Right angle bracket",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "rangle",
           "package": "HaTeX",
@@ -10473,6 +11343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight ceiling, &#8969;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "rceil",
           "package": "HaTeX",
@@ -10483,6 +11354,7 @@
         "index": {
           "description": "Right ceiling",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "rceil",
           "package": "HaTeX",
@@ -10496,6 +11368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight floor, &#8971;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "rfloor",
           "package": "HaTeX",
@@ -10506,6 +11379,7 @@
         "index": {
           "description": "Right floor",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "rfloor",
           "package": "HaTeX",
@@ -10519,6 +11393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#961;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "rho",
           "package": "HaTeX",
@@ -10529,6 +11404,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "rho",
           "package": "HaTeX",
@@ -10542,6 +11418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecant function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "sec",
           "package": "HaTeX",
@@ -10552,6 +11429,7 @@
         "index": {
           "description": "Secant function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "sec",
           "package": "HaTeX",
@@ -10565,6 +11443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet minus (&#8726;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "setminus",
           "package": "HaTeX",
@@ -10575,6 +11454,7 @@
         "index": {
           "description": "Set minus",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "setminus",
           "normalized": "a-\u003ea-\u003ea",
@@ -10590,6 +11470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#963;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "sigma",
           "package": "HaTeX",
@@ -10600,6 +11481,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "sigma",
           "package": "HaTeX",
@@ -10613,6 +11495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#931; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "sigmau",
           "package": "HaTeX",
@@ -10623,6 +11506,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "sigmau",
           "package": "HaTeX",
@@ -10636,6 +11520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStar operator (&#9733;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "star",
           "package": "HaTeX",
@@ -10646,6 +11531,7 @@
         "index": {
           "description": "Star operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "star",
           "normalized": "a-\u003ea-\u003ea",
@@ -10661,6 +11547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubset-of (&#8834;).\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "subset",
           "package": "HaTeX",
@@ -10671,6 +11558,7 @@
         "index": {
           "description": "Subset-of",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "subset",
           "normalized": "a-\u003ea-\u003ea",
@@ -10686,6 +11574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigma sumation symbol with limits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "sumFromTo",
           "package": "HaTeX",
@@ -10695,6 +11584,7 @@
         "index": {
           "description": "Sigma sumation symbol with limits",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "sumFromTo",
           "normalized": "a-\u003ea-\u003ea",
@@ -10711,6 +11601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuperset-of (&#8835;).\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "supset",
           "package": "HaTeX",
@@ -10721,6 +11612,7 @@
         "index": {
           "description": "Superset-of",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "supset",
           "normalized": "a-\u003ea-\u003ea",
@@ -10736,6 +11628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#964;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tau",
           "package": "HaTeX",
@@ -10746,6 +11639,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tau",
           "package": "HaTeX",
@@ -10759,6 +11653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCosine function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tcos",
           "package": "HaTeX",
@@ -10769,6 +11664,7 @@
         "index": {
           "description": "Cosine function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tcos",
           "package": "HaTeX",
@@ -10782,6 +11678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyperbolic cosine function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tcosh",
           "package": "HaTeX",
@@ -10792,6 +11689,7 @@
         "index": {
           "description": "Hyperbolic cosine function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tcosh",
           "package": "HaTeX",
@@ -10805,6 +11703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponential function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "texp",
           "package": "HaTeX",
@@ -10815,6 +11714,7 @@
         "index": {
           "description": "Exponential function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "texp",
           "package": "HaTeX",
@@ -10828,6 +11728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "theta",
           "package": "HaTeX",
@@ -10838,6 +11739,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "theta",
           "package": "HaTeX",
@@ -10851,6 +11753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#920; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "thetau",
           "package": "HaTeX",
@@ -10861,6 +11764,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "thetau",
           "package": "HaTeX",
@@ -10874,6 +11778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"x-cross\" multiplication operator (&#215;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "times",
           "package": "HaTeX",
@@ -10884,6 +11789,7 @@
         "index": {
           "description": "x-cross multiplication operator",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "times",
           "normalized": "a-\u003ea-\u003ea",
@@ -10899,6 +11805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogarithm function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tlog",
           "package": "HaTeX",
@@ -10909,6 +11816,7 @@
         "index": {
           "description": "Logarithm function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tlog",
           "package": "HaTeX",
@@ -10922,6 +11830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA right-arrow, &#8594;.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "to",
           "package": "HaTeX",
@@ -10932,6 +11841,7 @@
         "index": {
           "description": "right-arrow",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "to",
           "package": "HaTeX",
@@ -10945,6 +11855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSine function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tsin",
           "package": "HaTeX",
@@ -10955,6 +11866,7 @@
         "index": {
           "description": "Sine function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tsin",
           "package": "HaTeX",
@@ -10968,6 +11880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyperbolic sine function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tsinh",
           "package": "HaTeX",
@@ -10978,6 +11891,7 @@
         "index": {
           "description": "Hyperbolic sine function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tsinh",
           "package": "HaTeX",
@@ -10991,6 +11905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot notation. Use \u003ccode\u003etsqrt (Just n) x\u003c/code\u003e for the \u003ccode\u003en\u003c/code\u003eth root of \u003ccode\u003ex\u003c/code\u003e.\n   When \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is supplied, the function will output a square root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tsqrt",
           "package": "HaTeX",
@@ -11001,6 +11916,7 @@
         "index": {
           "description": "Root notation Use tsqrt Just for the th root of When Nothing is supplied the function will output square root",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tsqrt",
           "normalized": "Maybe a-\u003ea-\u003ea",
@@ -11016,6 +11932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigma sumation symbol. Use \u003ccode\u003e\u003ca\u003esumFromTo\u003c/a\u003e\u003c/code\u003e instead if you want to\n   specify the limits of the sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tsum",
           "package": "HaTeX",
@@ -11026,6 +11943,7 @@
         "index": {
           "description": "Sigma sumation symbol Use sumFromTo instead if you want to specify the limits of the sum",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "tsum",
           "package": "HaTeX",
@@ -11039,6 +11957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTangent function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ttan",
           "package": "HaTeX",
@@ -11049,6 +11968,7 @@
         "index": {
           "description": "Tangent function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ttan",
           "package": "HaTeX",
@@ -11062,6 +11982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyperbolic tangent function symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ttanh",
           "package": "HaTeX",
@@ -11072,6 +11993,7 @@
         "index": {
           "description": "Hyperbolic tangent function symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "ttanh",
           "package": "HaTeX",
@@ -11085,6 +12007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#965;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "upsilon",
           "package": "HaTeX",
@@ -11095,6 +12018,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "upsilon",
           "package": "HaTeX",
@@ -11108,6 +12032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#933; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "upsilonu",
           "package": "HaTeX",
@@ -11118,6 +12043,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "upsilonu",
           "package": "HaTeX",
@@ -11131,6 +12057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaTeX rendering of a matrix using \u003ccode\u003eVmatrix\u003c/code\u003e and a custom function to render cells.\n   Optional argument sets the alignment of the cells. Default (providing \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e) \n   is centered.\n\u003c/p\u003e\u003cpre\u003e || M ||\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "v2matrix",
           "package": "HaTeX",
@@ -11141,6 +12068,7 @@
         "index": {
           "description": "LaTeX rendering of matrix using Vmatrix and custom function to render cells Optional argument sets the alignment of the cells Default providing Nothing is centered",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "v2matrix",
           "normalized": "Maybe HPos-\u003eMatrix a-\u003eb",
@@ -11156,6 +12084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varepsilon",
           "package": "HaTeX",
@@ -11166,6 +12095,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varepsilon",
           "package": "HaTeX",
@@ -11179,6 +12109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#966;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varphi",
           "package": "HaTeX",
@@ -11189,6 +12120,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varphi",
           "package": "HaTeX",
@@ -11202,6 +12134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#982;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varpi",
           "package": "HaTeX",
@@ -11212,6 +12145,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varpi",
           "package": "HaTeX",
@@ -11225,6 +12159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#1009;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varrho",
           "package": "HaTeX",
@@ -11235,6 +12170,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varrho",
           "package": "HaTeX",
@@ -11248,6 +12184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#962;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varsigma",
           "package": "HaTeX",
@@ -11258,6 +12195,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "varsigma",
           "package": "HaTeX",
@@ -11271,6 +12209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e&#977;\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "vartheta",
           "package": "HaTeX",
@@ -11281,6 +12220,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "vartheta",
           "package": "HaTeX",
@@ -11294,6 +12234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle pointing downwards (&#8744;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "vee",
           "package": "HaTeX",
@@ -11304,6 +12245,7 @@
         "index": {
           "description": "Angle pointing downwards",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "vee",
           "normalized": "a-\u003ea-\u003ea",
@@ -11319,6 +12261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaTeX rendering of a matrix using \u003ccode\u003evmatrix\u003c/code\u003e and a custom function to render cells.\n   Optional argument sets the alignment of the cells. Default (providing \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e) \n   is centered.\n\u003c/p\u003e\u003cpre\u003e | M |\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "vmatrix",
           "package": "HaTeX",
@@ -11329,6 +12272,7 @@
         "index": {
           "description": "LaTeX rendering of matrix using vmatrix and custom function to render cells Optional argument sets the alignment of the cells Default providing Nothing is centered",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "vmatrix",
           "normalized": "Maybe HPos-\u003eMatrix a-\u003eb",
@@ -11344,6 +12288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle pointing upwards (&#8743;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "wedge",
           "package": "HaTeX",
@@ -11354,6 +12299,7 @@
         "index": {
           "description": "Angle pointing upwards",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "wedge",
           "normalized": "a-\u003ea-\u003ea",
@@ -11369,6 +12315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "xi",
           "package": "HaTeX",
@@ -11379,6 +12326,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "xi",
           "package": "HaTeX",
@@ -11392,6 +12340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#926; symbol.\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "xiu",
           "package": "HaTeX",
@@ -11402,6 +12351,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "xiu",
           "package": "HaTeX",
@@ -11415,6 +12365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem/\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "zeta",
           "package": "HaTeX",
@@ -11425,6 +12376,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Text LaTeX Packages AMSMath",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSMath",
           "name": "zeta",
           "package": "HaTeX",
@@ -11438,6 +12390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePackage for theorem environments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "AMSThm",
           "package": "HaTeX",
@@ -11447,6 +12400,7 @@
         "index": {
           "description": "Package for theorem environments",
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "AMSThm",
           "package": "HaTeX",
@@ -11461,6 +12415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent styles for \u003ccode\u003e\u003ca\u003etheorem\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "TheoremStyle",
           "package": "HaTeX",
@@ -11470,6 +12425,7 @@
         "index": {
           "description": "Different styles for theorem",
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "TheoremStyle",
           "package": "HaTeX",
@@ -11483,6 +12439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "CustomThmStyle",
           "package": "HaTeX",
@@ -11492,6 +12449,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "CustomThmStyle",
           "package": "HaTeX",
@@ -11505,6 +12463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "Definition",
           "package": "HaTeX",
@@ -11514,6 +12473,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "Definition",
           "package": "HaTeX",
@@ -11527,6 +12487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "Plain",
           "package": "HaTeX",
@@ -11536,6 +12497,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "Plain",
           "package": "HaTeX",
@@ -11549,6 +12511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "Remark",
           "package": "HaTeX",
@@ -11558,6 +12521,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "Remark",
           "package": "HaTeX",
@@ -11572,6 +12536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAMSThm package.\n Example:\n\u003c/p\u003e\u003cpre\u003e usepackage [] amsthm\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "amsthm",
           "package": "HaTeX",
@@ -11582,6 +12547,7 @@
         "index": {
           "description": "AMSThm package Example usepackage amsthm",
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "amsthm",
           "package": "HaTeX",
@@ -11595,6 +12561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003etheorem\u003c/a\u003e\u003c/code\u003e environment type.\n   Arguments are environment name (this will be the argument\n   when using the \u003ccode\u003e\u003ca\u003etheorem\u003c/a\u003e\u003c/code\u003e function) and the displayed title.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e newtheorem \"prop\" \"Proposition\"\n\u003c/pre\u003e\u003cpre\u003e theorem \"prop\" \"This is it.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "newtheorem",
           "package": "HaTeX",
@@ -11605,6 +12572,7 @@
         "index": {
           "description": "Create new theorem environment type Arguments are environment name this will be the argument when using the theorem function and the displayed title For example newtheorem prop Proposition theorem prop This is it",
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "newtheorem",
           "normalized": "String-\u003ea-\u003ea",
@@ -11620,6 +12588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eproof\u003c/a\u003e\u003c/code\u003e environment. The first optional argument\n   is used to put a custom title to the proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "proof",
           "package": "HaTeX",
@@ -11630,6 +12599,7 @@
         "index": {
           "description": "The proof environment The first optional argument is used to put custom title to the proof",
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "proof",
           "normalized": "Maybe a-\u003ea-\u003ea",
@@ -11645,6 +12615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert the \u003cem\u003eQED\u003c/em\u003e symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "qedhere",
           "package": "HaTeX",
@@ -11655,6 +12626,7 @@
         "index": {
           "description": "Insert the QED symbol",
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "qedhere",
           "package": "HaTeX",
@@ -11668,6 +12640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a environment created by \u003ccode\u003e\u003ca\u003enewtheorem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "theorem",
           "package": "HaTeX",
@@ -11678,6 +12651,7 @@
         "index": {
           "description": "Use environment created by newtheorem",
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "theorem",
           "normalized": "String-\u003ea-\u003ea",
@@ -11693,6 +12667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the theorem style. Call this function in the preamble.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "theoremstyle",
           "package": "HaTeX",
@@ -11703,6 +12678,7 @@
         "index": {
           "description": "Set the theorem style Call this function in the preamble",
           "hierarchy": "Text LaTeX Packages AMSThm",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.AMSThm",
           "name": "theoremstyle",
           "normalized": "TheoremStyle-\u003ea",
@@ -11718,6 +12694,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003ebabel\u003c/code\u003e package is used to write documents in languages\n   other than US English.\n\u003c/p\u003e\u003cp\u003eCTAN page for babel: \u003ca\u003ehttp://ctan.org/pkg/babel\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Babel",
           "package": "HaTeX",
@@ -11727,6 +12704,7 @@
         "index": {
           "description": "The babel package is used to write documents in languages other than US English CTAN page for babel http ctan.org pkg babel",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Babel",
           "package": "HaTeX",
@@ -11741,6 +12719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage configuration. You may use one with \u003ccode\u003e\u003ca\u003euselanguageconf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "LangConf",
           "package": "HaTeX",
@@ -11750,6 +12729,7 @@
         "index": {
           "description": "Language configuration You may use one with uselanguageconf",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "LangConf",
           "package": "HaTeX",
@@ -11764,6 +12744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Language",
           "package": "HaTeX",
@@ -11773,6 +12754,7 @@
         "index": {
           "description": "Languages",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Language",
           "package": "HaTeX",
@@ -11787,6 +12769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrazilian Portuguese.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Brazilian",
           "package": "HaTeX",
@@ -11797,6 +12780,7 @@
         "index": {
           "description": "Brazilian Portuguese",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Brazilian",
           "package": "HaTeX",
@@ -11811,6 +12795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBulgarian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Bulgarian",
           "package": "HaTeX",
@@ -11821,6 +12806,7 @@
         "index": {
           "description": "Bulgarian",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Bulgarian",
           "package": "HaTeX",
@@ -11835,6 +12821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanadian French.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Canadien",
           "package": "HaTeX",
@@ -11845,6 +12832,7 @@
         "index": {
           "description": "Canadian French",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Canadien",
           "package": "HaTeX",
@@ -11859,6 +12847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCzech.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Czech",
           "package": "HaTeX",
@@ -11869,6 +12858,7 @@
         "index": {
           "description": "Czech",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Czech",
           "package": "HaTeX",
@@ -11883,6 +12873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDutch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Dutch",
           "package": "HaTeX",
@@ -11893,6 +12884,7 @@
         "index": {
           "description": "Dutch",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Dutch",
           "package": "HaTeX",
@@ -11907,6 +12899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnglish.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "English",
           "package": "HaTeX",
@@ -11917,6 +12910,7 @@
         "index": {
           "description": "English",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "English",
           "package": "HaTeX",
@@ -11931,6 +12925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinnish.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Finnish",
           "package": "HaTeX",
@@ -11941,6 +12936,7 @@
         "index": {
           "description": "Finnish",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Finnish",
           "package": "HaTeX",
@@ -11955,6 +12951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParisian French.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Francais",
           "package": "HaTeX",
@@ -11965,6 +12962,7 @@
         "index": {
           "description": "Parisian French",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Francais",
           "package": "HaTeX",
@@ -11979,6 +12977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrench.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "French",
           "package": "HaTeX",
@@ -11989,6 +12988,7 @@
         "index": {
           "description": "French",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "French",
           "package": "HaTeX",
@@ -12003,6 +13003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrench.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "FrenchB",
           "package": "HaTeX",
@@ -12013,6 +13014,7 @@
         "index": {
           "description": "French",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "FrenchB",
           "package": "HaTeX",
@@ -12027,6 +13029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOld German.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "German",
           "package": "HaTeX",
@@ -12037,6 +13040,7 @@
         "index": {
           "description": "Old German",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "German",
           "package": "HaTeX",
@@ -12051,6 +13055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIcelandic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Icelandic",
           "package": "HaTeX",
@@ -12061,6 +13066,7 @@
         "index": {
           "description": "Icelandic",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Icelandic",
           "package": "HaTeX",
@@ -12075,6 +13081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItalian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Italian",
           "package": "HaTeX",
@@ -12085,6 +13092,7 @@
         "index": {
           "description": "Italian",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Italian",
           "package": "HaTeX",
@@ -12098,6 +13106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "LangConf",
           "package": "HaTeX",
@@ -12107,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "LangConf",
           "package": "HaTeX",
@@ -12121,6 +13131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHungarian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Magyar",
           "package": "HaTeX",
@@ -12131,6 +13142,7 @@
         "index": {
           "description": "Hungarian",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Magyar",
           "package": "HaTeX",
@@ -12145,6 +13157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew German.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "NGerman",
           "package": "HaTeX",
@@ -12155,6 +13168,7 @@
         "index": {
           "description": "New German",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "NGerman",
           "package": "HaTeX",
@@ -12169,6 +13183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePortuguese.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Portuguese",
           "package": "HaTeX",
@@ -12179,6 +13194,7 @@
         "index": {
           "description": "Portuguese",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Portuguese",
           "package": "HaTeX",
@@ -12193,6 +13209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRussian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Russian",
           "package": "HaTeX",
@@ -12203,6 +13220,7 @@
         "index": {
           "description": "Russian",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Russian",
           "package": "HaTeX",
@@ -12217,6 +13235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpanish.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Spanish",
           "package": "HaTeX",
@@ -12227,6 +13246,7 @@
         "index": {
           "description": "Spanish",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Spanish",
           "package": "HaTeX",
@@ -12241,6 +13261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUkranian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Ukranian",
           "package": "HaTeX",
@@ -12251,6 +13272,7 @@
         "index": {
           "description": "Ukranian",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "Ukranian",
           "package": "HaTeX",
@@ -12265,6 +13287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBabel package. When writing in a single language, the simplest\n   way of using it is with \u003ccode\u003e\u003ca\u003euselanguage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn the preamble, use the following (if your language of choice is Spanish):\n\u003c/p\u003e\u003cpre\u003e uselanguage Spanish\n\u003c/pre\u003e\u003cp\u003eTo see a list of available languages, check the \u003ccode\u003e\u003ca\u003eLanguage\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "babel",
           "package": "HaTeX",
@@ -12275,6 +13298,7 @@
         "index": {
           "description": "Babel package When writing in single language the simplest way of using it is with uselanguage In the preamble use the following if your language of choice is Spanish uselanguage Spanish To see list of available languages check the Language type",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "babel",
           "package": "HaTeX",
@@ -12288,6 +13312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003eforeignlanguage\u003c/a\u003e\u003c/code\u003e takes two arguments; the second argument is a\n   phrase to be typeset according to the rules of the language named in its first\n   argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "foreignlanguage",
           "package": "HaTeX",
@@ -12298,6 +13323,7 @@
         "index": {
           "description": "The function foreignlanguage takes two arguments the second argument is phrase to be typeset according to the rules of the language named in its first argument",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "foreignlanguage",
           "normalized": "Language-\u003ea-\u003ea",
@@ -12312,6 +13338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "mainLang",
           "package": "HaTeX",
@@ -12321,6 +13348,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "mainLang",
           "package": "HaTeX",
@@ -12334,6 +13362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "otherLangs",
           "package": "HaTeX",
@@ -12343,6 +13372,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "otherLangs",
           "normalized": "[Language]",
@@ -12359,6 +13389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a \u003ccode\u003e\u003ca\u003eLanguage\u003c/a\u003e\u003c/code\u003e locally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "otherlanguage",
           "package": "HaTeX",
@@ -12369,6 +13400,7 @@
         "index": {
           "description": "Use Language locally",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "otherlanguage",
           "normalized": "Language-\u003ea-\u003ea",
@@ -12384,6 +13416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch to a given \u003ccode\u003e\u003ca\u003eLanguage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "selectlanguage",
           "package": "HaTeX",
@@ -12394,6 +13427,7 @@
         "index": {
           "description": "Switch to given Language",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "selectlanguage",
           "normalized": "Language-\u003ea",
@@ -12409,6 +13443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport the \u003ccode\u003e\u003ca\u003ebabel\u003c/a\u003e\u003c/code\u003e package using a given \u003ccode\u003e\u003ca\u003eLanguage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e uselanguage l = usepackage [texy l] babel\n\u003c/pre\u003e\u003cp\u003eIf you are using more than one language, consider to use\n  \u003ccode\u003e\u003ca\u003euselanguageconf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "uselanguage",
           "package": "HaTeX",
@@ -12419,6 +13454,7 @@
         "index": {
           "description": "Import the babel package using given Language uselanguage usepackage texy babel If you are using more than one language consider to use uselanguageconf",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "uselanguage",
           "normalized": "Language-\u003ea",
@@ -12434,6 +13470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport the \u003ccode\u003e\u003ca\u003elabel\u003c/a\u003e\u003c/code\u003e package using a given language\n   configuration, featuring a main language and some\n   others. For example:\n\u003c/p\u003e\u003cpre\u003e uselanguageconf $ LangConf English [German]\n\u003c/pre\u003e\u003cp\u003eThis will use English as main language, and German\n   as secondary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "uselanguageconf",
           "package": "HaTeX",
@@ -12444,6 +13481,7 @@
         "index": {
           "description": "Import the label package using given language configuration featuring main language and some others For example uselanguageconf LangConf English German This will use English as main language and German as secondary",
           "hierarchy": "Text LaTeX Packages Babel",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Babel",
           "name": "uselanguageconf",
           "normalized": "LangConf-\u003ea",
@@ -12459,6 +13497,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBeamer is a LaTeX package for the creation of slides.\n\u003c/p\u003e\u003cp\u003eEach frame is contained within the \u003ccode\u003e\u003ca\u003eframe\u003c/a\u003e\u003c/code\u003e function. Here is an example:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Text.LaTeX\n import Text.LaTeX.Packages.Beamer\n\n mySlides :: Monad m =\u003e LaTeXT m ()\n mySlides = do\n   frame $ do\n     frametitle \"First frame\"\n     \"Content of the first frame.\"\n   frame $ do\n     frametitle \"Second frame\"\n     \"Content of the second frame.\" \n     pause\n     \" And actually a little more.\"\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epause\u003c/a\u003e\u003c/code\u003e command in the second frame makes the second part of the text\n   to appear one screen later.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Beamer",
           "package": "HaTeX",
@@ -12468,6 +13507,7 @@
         "index": {
           "description": "Beamer is LaTeX package for the creation of slides Each frame is contained within the frame function Here is an example LANGUAGE OverloadedStrings import Text.LaTeX import Text.LaTeX.Packages.Beamer mySlides Monad LaTeXT mySlides do frame do frametitle First frame Content of the first frame frame do frametitle Second frame Content of the second frame pause And actually little more The pause command in the second frame makes the second part of the text to appear one screen later",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Beamer",
           "package": "HaTeX",
@@ -12482,6 +13522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifications for beamer functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "OverlaySpec",
           "package": "HaTeX",
@@ -12491,6 +13532,7 @@
         "index": {
           "description": "Specifications for beamer functions",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "OverlaySpec",
           "package": "HaTeX",
@@ -12505,6 +13547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTheme\u003c/a\u003e\u003c/code\u003e of a presentation. See \u003ccode\u003e\u003ca\u003eusetheme\u003c/a\u003e\u003c/code\u003e.\n   A preview of each one is given below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Theme",
           "package": "HaTeX",
@@ -12514,6 +13557,7 @@
         "index": {
           "description": "Theme of presentation See usetheme preview of each one is given below",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Theme",
           "package": "HaTeX",
@@ -12528,6 +13572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewAnnArbor.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "AnnArbor",
           "package": "HaTeX",
@@ -12537,6 +13582,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "AnnArbor",
           "package": "HaTeX",
@@ -12551,6 +13597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewAntibes.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Antibes",
           "package": "HaTeX",
@@ -12560,6 +13607,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Antibes",
           "package": "HaTeX",
@@ -12574,6 +13622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewBergen.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Bergen",
           "package": "HaTeX",
@@ -12583,6 +13632,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Bergen",
           "package": "HaTeX",
@@ -12597,6 +13647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewBerkeley.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Berkeley",
           "package": "HaTeX",
@@ -12606,6 +13657,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Berkeley",
           "package": "HaTeX",
@@ -12620,6 +13672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewBerlin.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Berlin",
           "package": "HaTeX",
@@ -12629,6 +13682,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Berlin",
           "package": "HaTeX",
@@ -12643,6 +13697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewBoadilla.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Boadilla",
           "package": "HaTeX",
@@ -12652,6 +13707,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Boadilla",
           "package": "HaTeX",
@@ -12665,6 +13721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Boxes",
           "package": "HaTeX",
@@ -12674,6 +13731,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Boxes",
           "package": "HaTeX",
@@ -12688,6 +13746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewCambridgeUS.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "CambridgeUS",
           "package": "HaTeX",
@@ -12697,6 +13756,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "CambridgeUS",
           "package": "HaTeX",
@@ -12711,6 +13771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewCopenhagen.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Copenhagen",
           "package": "HaTeX",
@@ -12720,6 +13781,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Copenhagen",
           "package": "HaTeX",
@@ -12733,6 +13795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "CustomTheme",
           "package": "HaTeX",
@@ -12742,6 +13805,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "CustomTheme",
           "package": "HaTeX",
@@ -12756,6 +13820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewDarmstadt.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Darmstadt",
           "package": "HaTeX",
@@ -12765,6 +13830,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Darmstadt",
           "package": "HaTeX",
@@ -12778,6 +13844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Default",
           "package": "HaTeX",
@@ -12787,6 +13854,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Default",
           "package": "HaTeX",
@@ -12801,6 +13869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewDresden.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Dresden",
           "package": "HaTeX",
@@ -12810,6 +13879,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Dresden",
           "package": "HaTeX",
@@ -12824,6 +13894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewFrankfurt.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Frankfurt",
           "package": "HaTeX",
@@ -12833,6 +13904,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Frankfurt",
           "package": "HaTeX",
@@ -12846,6 +13918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "FromSlide",
           "package": "HaTeX",
@@ -12855,6 +13928,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "FromSlide",
           "package": "HaTeX",
@@ -12868,6 +13942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "FromToSlide",
           "package": "HaTeX",
@@ -12877,6 +13952,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "FromToSlide",
           "package": "HaTeX",
@@ -12891,6 +13967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewGoettingen.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Goettingen",
           "package": "HaTeX",
@@ -12900,6 +13977,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Goettingen",
           "package": "HaTeX",
@@ -12914,6 +13992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewHannover.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Hannover",
           "package": "HaTeX",
@@ -12923,6 +14002,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Hannover",
           "package": "HaTeX",
@@ -12937,6 +14017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewIlmenau.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Ilmenau",
           "package": "HaTeX",
@@ -12946,6 +14027,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Ilmenau",
           "package": "HaTeX",
@@ -12960,6 +14042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewJuanLesPins.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "JuanLesPins",
           "package": "HaTeX",
@@ -12969,6 +14052,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "JuanLesPins",
           "package": "HaTeX",
@@ -12983,6 +14067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewLuebeck.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Luebeck",
           "package": "HaTeX",
@@ -12992,6 +14077,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Luebeck",
           "package": "HaTeX",
@@ -13006,6 +14092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewMadrid.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Madrid",
           "package": "HaTeX",
@@ -13015,6 +14102,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Madrid",
           "package": "HaTeX",
@@ -13029,6 +14117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewMalmoe.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Malmoe",
           "package": "HaTeX",
@@ -13038,6 +14127,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Malmoe",
           "package": "HaTeX",
@@ -13052,6 +14142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewMarburg.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Marburg",
           "package": "HaTeX",
@@ -13061,6 +14152,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Marburg",
           "package": "HaTeX",
@@ -13075,6 +14167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewMontpellier.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Montpellier",
           "package": "HaTeX",
@@ -13084,6 +14177,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Montpellier",
           "package": "HaTeX",
@@ -13097,6 +14191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "OneSlide",
           "package": "HaTeX",
@@ -13106,6 +14201,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "OneSlide",
           "package": "HaTeX",
@@ -13120,6 +14216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewPaloAlto.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "PaloAlto",
           "package": "HaTeX",
@@ -13129,6 +14226,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "PaloAlto",
           "package": "HaTeX",
@@ -13143,6 +14241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewPittsburgh.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Pittsburgh",
           "package": "HaTeX",
@@ -13152,6 +14251,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Pittsburgh",
           "package": "HaTeX",
@@ -13166,6 +14266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewRochester.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Rochester",
           "package": "HaTeX",
@@ -13175,6 +14276,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Rochester",
           "package": "HaTeX",
@@ -13189,6 +14291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewSingapore.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Singapore",
           "package": "HaTeX",
@@ -13198,6 +14301,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Singapore",
           "package": "HaTeX",
@@ -13212,6 +14316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewSzeged.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Szeged",
           "package": "HaTeX",
@@ -13221,6 +14326,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Szeged",
           "package": "HaTeX",
@@ -13234,6 +14340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "ToSlide",
           "package": "HaTeX",
@@ -13243,6 +14350,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "ToSlide",
           "package": "HaTeX",
@@ -13257,6 +14365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"docfiles/beamers/previewWarsaw.png\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Warsaw",
           "package": "HaTeX",
@@ -13266,6 +14375,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "Warsaw",
           "package": "HaTeX",
@@ -13280,6 +14390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight in red a piece of text. With the \u003ccode\u003e\u003ca\u003eOverlaySpec\u003c/a\u003e\u003c/code\u003es, you can specify the slides where\n the text will be highlighted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "alert",
           "package": "HaTeX",
@@ -13290,6 +14401,7 @@
         "index": {
           "description": "Highlight in red piece of text With the OverlaySpec you can specify the slides where the text will be highlighted",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "alert",
           "normalized": "[OverlaySpec]-\u003ea-\u003ea",
@@ -13305,6 +14417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ebeamer\u003c/a\u003e\u003c/code\u003e document class. Importing a package is not required. Example:\n\u003c/p\u003e\u003cpre\u003e documentclass [] beamer\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "beamer",
           "package": "HaTeX",
@@ -13315,6 +14428,7 @@
         "index": {
           "description": "The beamer document class Importing package is not required Example documentclass beamer",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "beamer",
           "package": "HaTeX",
@@ -13328,6 +14442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebeameritem\u003c/a\u003e\u003c/code\u003e works like \u003ccode\u003eitem\u003c/code\u003e, but allows you to specify the slides where\n the item will be displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "beameritem",
           "package": "HaTeX",
@@ -13338,6 +14453,7 @@
         "index": {
           "description": "beameritem works like item but allows you to specify the slides where the item will be displayed",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "beameritem",
           "normalized": "[OverlaySpec]-\u003ea",
@@ -13353,6 +14469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eblock\u003c/a\u003e\u003c/code\u003e will be displayed surrounding a text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "block",
           "package": "HaTeX",
@@ -13362,6 +14479,7 @@
         "index": {
           "description": "block will be displayed surrounding text",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "block",
           "normalized": "a-\u003ea-\u003ea",
@@ -13377,6 +14495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA presentation is composed of a sequence of frames. Each frame is created with this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "frame",
           "package": "HaTeX",
@@ -13387,6 +14506,7 @@
         "index": {
           "description": "presentation is composed of sequence of frames Each frame is created with this function",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "frame",
           "normalized": "a-\u003ea",
@@ -13402,6 +14522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the subtitle of the current frame. Use it within a \u003ccode\u003e\u003ca\u003eframe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "framesubtitle",
           "package": "HaTeX",
@@ -13412,6 +14533,7 @@
         "index": {
           "description": "Set the subtitle of the current frame Use it within frame",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "framesubtitle",
           "normalized": "a-\u003ea",
@@ -13427,6 +14549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the title of the current frame. Use it within a \u003ccode\u003e\u003ca\u003eframe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "frametitle",
           "package": "HaTeX",
@@ -13437,6 +14560,7 @@
         "index": {
           "description": "Set the title of the current frame Use it within frame",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "frametitle",
           "normalized": "a-\u003ea",
@@ -13452,6 +14576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003euncover\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "only",
           "package": "HaTeX",
@@ -13462,6 +14587,7 @@
         "index": {
           "description": "Similar to uncover",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "only",
           "normalized": "[OverlaySpec]-\u003ea-\u003ea",
@@ -13477,6 +14603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduces a pause in a slide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "pause",
           "package": "HaTeX",
@@ -13487,6 +14614,7 @@
         "index": {
           "description": "Introduces pause in slide",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "pause",
           "package": "HaTeX",
@@ -13500,6 +14628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith \u003ccode\u003e\u003ca\u003euncover\u003c/a\u003e\u003c/code\u003e, show a piece of text only in the slides you want.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "uncover",
           "package": "HaTeX",
@@ -13510,6 +14639,7 @@
         "index": {
           "description": "With uncover show piece of text only in the slides you want",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "uncover",
           "normalized": "[OverlaySpec]-\u003ea-\u003ea",
@@ -13525,6 +14655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003e\u003ca\u003eTheme\u003c/a\u003e\u003c/code\u003e employed in your presentation (in the preamble).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "usetheme",
           "package": "HaTeX",
@@ -13535,6 +14666,7 @@
         "index": {
           "description": "Set the Theme employed in your presentation in the preamble",
           "hierarchy": "Text LaTeX Packages Beamer",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Beamer",
           "name": "usetheme",
           "normalized": "Theme-\u003ea",
@@ -13550,6 +14682,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMake your documents colorful using this module.\n\u003c/p\u003e\u003cp\u003eDifferent functionalities are provided, like changing the color of\n   the text and the paper, or creating colorful boxes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Color",
           "package": "HaTeX",
@@ -13559,6 +14692,7 @@
         "index": {
           "description": "Make your documents colorful using this module Different functionalities are provided like changing the color of the text and the paper or creating colorful boxes",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Color",
           "package": "HaTeX",
@@ -13573,6 +14707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ColSpec",
           "package": "HaTeX",
@@ -13582,6 +14717,7 @@
         "index": {
           "description": "Color specification",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ColSpec",
           "package": "HaTeX",
@@ -13596,6 +14732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Color",
           "package": "HaTeX",
@@ -13605,6 +14742,7 @@
         "index": {
           "description": "Basic colors",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Color",
           "package": "HaTeX",
@@ -13619,6 +14757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify your own color using one of the different color models.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ColorModel",
           "package": "HaTeX",
@@ -13628,6 +14767,7 @@
         "index": {
           "description": "Specify your own color using one of the different color models",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ColorModel",
           "package": "HaTeX",
@@ -13642,6 +14782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther predefined colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ColorName",
           "package": "HaTeX",
@@ -13651,6 +14792,7 @@
         "index": {
           "description": "Other predefined colors",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ColorName",
           "package": "HaTeX",
@@ -13665,6 +14807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Word8",
           "package": "HaTeX",
@@ -13673,6 +14816,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Word8",
           "package": "HaTeX",
@@ -13686,6 +14830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Apricot",
           "package": "HaTeX",
@@ -13695,6 +14840,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Apricot",
           "package": "HaTeX",
@@ -13708,6 +14854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Aquamarine",
           "package": "HaTeX",
@@ -13717,6 +14864,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Aquamarine",
           "package": "HaTeX",
@@ -13730,6 +14878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Bittersweet",
           "package": "HaTeX",
@@ -13739,6 +14888,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Bittersweet",
           "package": "HaTeX",
@@ -13798,6 +14948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "BlueGreen",
           "package": "HaTeX",
@@ -13807,6 +14958,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "BlueGreen",
           "package": "HaTeX",
@@ -13820,6 +14972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "BlueViolet",
           "package": "HaTeX",
@@ -13829,6 +14982,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "BlueViolet",
           "package": "HaTeX",
@@ -13842,6 +14996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "BrickRed",
           "package": "HaTeX",
@@ -13851,6 +15006,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "BrickRed",
           "package": "HaTeX",
@@ -13864,6 +15020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Brown",
           "package": "HaTeX",
@@ -13873,6 +15030,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Brown",
           "package": "HaTeX",
@@ -13886,6 +15044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "BurntOrange",
           "package": "HaTeX",
@@ -13895,6 +15054,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "BurntOrange",
           "package": "HaTeX",
@@ -13908,6 +15068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "CMYK",
           "package": "HaTeX",
@@ -13917,6 +15078,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "CMYK",
           "package": "HaTeX",
@@ -13930,6 +15092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "CadetBlue",
           "package": "HaTeX",
@@ -13939,6 +15102,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "CadetBlue",
           "package": "HaTeX",
@@ -13952,6 +15116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "CarnationPink",
           "package": "HaTeX",
@@ -13961,6 +15126,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "CarnationPink",
           "package": "HaTeX",
@@ -13974,6 +15140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Cerulean",
           "package": "HaTeX",
@@ -13983,6 +15150,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Cerulean",
           "package": "HaTeX",
@@ -13996,6 +15164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "CornflowerBlue",
           "package": "HaTeX",
@@ -14005,6 +15174,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "CornflowerBlue",
           "package": "HaTeX",
@@ -14041,6 +15211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Dandelion",
           "package": "HaTeX",
@@ -14050,6 +15221,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Dandelion",
           "package": "HaTeX",
@@ -14063,6 +15235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "DarkOrchid",
           "package": "HaTeX",
@@ -14072,6 +15245,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "DarkOrchid",
           "package": "HaTeX",
@@ -14085,6 +15259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "DefColor",
           "package": "HaTeX",
@@ -14094,6 +15269,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "DefColor",
           "package": "HaTeX",
@@ -14107,6 +15283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "DvipsColor",
           "package": "HaTeX",
@@ -14116,6 +15293,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "DvipsColor",
           "package": "HaTeX",
@@ -14129,6 +15307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Emerald",
           "package": "HaTeX",
@@ -14138,6 +15317,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Emerald",
           "package": "HaTeX",
@@ -14151,6 +15331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ForestGreen",
           "package": "HaTeX",
@@ -14160,6 +15341,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ForestGreen",
           "package": "HaTeX",
@@ -14173,6 +15355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Fuchsia",
           "package": "HaTeX",
@@ -14182,6 +15365,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Fuchsia",
           "package": "HaTeX",
@@ -14195,6 +15379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Goldenrod",
           "package": "HaTeX",
@@ -14204,6 +15389,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Goldenrod",
           "package": "HaTeX",
@@ -14217,6 +15403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Gray",
           "package": "HaTeX",
@@ -14226,6 +15413,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Gray",
           "package": "HaTeX",
@@ -14240,6 +15428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrayscale, from 0 (black) to 1 (white).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "GrayM",
           "package": "HaTeX",
@@ -14250,6 +15439,7 @@
         "index": {
           "description": "Grayscale from black to white",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "GrayM",
           "package": "HaTeX",
@@ -14286,6 +15476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "GreenYellow",
           "package": "HaTeX",
@@ -14295,6 +15486,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "GreenYellow",
           "package": "HaTeX",
@@ -14308,6 +15500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "HTML",
           "package": "HaTeX",
@@ -14317,6 +15510,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "HTML",
           "package": "HaTeX",
@@ -14330,6 +15524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "JungleGreen",
           "package": "HaTeX",
@@ -14339,6 +15534,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "JungleGreen",
           "package": "HaTeX",
@@ -14352,6 +15548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Lavender",
           "package": "HaTeX",
@@ -14361,6 +15558,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Lavender",
           "package": "HaTeX",
@@ -14374,6 +15572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "LimeGreen",
           "package": "HaTeX",
@@ -14383,6 +15582,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "LimeGreen",
           "package": "HaTeX",
@@ -14419,6 +15619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Mahogany",
           "package": "HaTeX",
@@ -14428,6 +15629,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Mahogany",
           "package": "HaTeX",
@@ -14441,6 +15643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Maroon",
           "package": "HaTeX",
@@ -14450,6 +15653,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Maroon",
           "package": "HaTeX",
@@ -14463,6 +15667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Melon",
           "package": "HaTeX",
@@ -14472,6 +15677,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Melon",
           "package": "HaTeX",
@@ -14485,6 +15691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "MidnightBlue",
           "package": "HaTeX",
@@ -14494,6 +15701,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "MidnightBlue",
           "package": "HaTeX",
@@ -14507,6 +15715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ModColor",
           "package": "HaTeX",
@@ -14516,6 +15725,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ModColor",
           "package": "HaTeX",
@@ -14529,6 +15739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Mulberry",
           "package": "HaTeX",
@@ -14538,6 +15749,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Mulberry",
           "package": "HaTeX",
@@ -14551,6 +15763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "NavyBlue",
           "package": "HaTeX",
@@ -14560,6 +15773,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "NavyBlue",
           "package": "HaTeX",
@@ -14573,6 +15787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "OliveGreen",
           "package": "HaTeX",
@@ -14582,6 +15797,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "OliveGreen",
           "package": "HaTeX",
@@ -14595,6 +15811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Orange",
           "package": "HaTeX",
@@ -14604,6 +15821,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Orange",
           "package": "HaTeX",
@@ -14617,6 +15835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "OrangeRed",
           "package": "HaTeX",
@@ -14626,6 +15845,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "OrangeRed",
           "package": "HaTeX",
@@ -14639,6 +15859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Orchid",
           "package": "HaTeX",
@@ -14648,6 +15869,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Orchid",
           "package": "HaTeX",
@@ -14661,6 +15883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Peach",
           "package": "HaTeX",
@@ -14670,6 +15893,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Peach",
           "package": "HaTeX",
@@ -14683,6 +15907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Periwinkle",
           "package": "HaTeX",
@@ -14692,6 +15917,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Periwinkle",
           "package": "HaTeX",
@@ -14705,6 +15931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "PineGreen",
           "package": "HaTeX",
@@ -14714,6 +15941,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "PineGreen",
           "package": "HaTeX",
@@ -14727,6 +15955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Plum",
           "package": "HaTeX",
@@ -14736,6 +15965,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Plum",
           "package": "HaTeX",
@@ -14749,6 +15979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ProcessBlue",
           "package": "HaTeX",
@@ -14758,6 +15989,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "ProcessBlue",
           "package": "HaTeX",
@@ -14771,6 +16003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Purple",
           "package": "HaTeX",
@@ -14780,6 +16013,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Purple",
           "package": "HaTeX",
@@ -14794,6 +16028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach parameter determines the proportion of red, green and\n   blue, with a value within the [0,1] interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RGB",
           "package": "HaTeX",
@@ -14804,6 +16039,7 @@
         "index": {
           "description": "Each parameter determines the proportion of red green and blue with value within the interval",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RGB",
           "package": "HaTeX",
@@ -14817,6 +16053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RGB255",
           "package": "HaTeX",
@@ -14826,6 +16063,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RGB255",
           "package": "HaTeX",
@@ -14839,6 +16077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RawSienna",
           "package": "HaTeX",
@@ -14848,6 +16087,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RawSienna",
           "package": "HaTeX",
@@ -14884,6 +16124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RedOrange",
           "package": "HaTeX",
@@ -14893,6 +16134,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RedOrange",
           "package": "HaTeX",
@@ -14906,6 +16148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RedViolet",
           "package": "HaTeX",
@@ -14915,6 +16158,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RedViolet",
           "package": "HaTeX",
@@ -14928,6 +16172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Rhodamine",
           "package": "HaTeX",
@@ -14937,6 +16182,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Rhodamine",
           "package": "HaTeX",
@@ -14950,6 +16196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RoyalBlue",
           "package": "HaTeX",
@@ -14959,6 +16206,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RoyalBlue",
           "package": "HaTeX",
@@ -14972,6 +16220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RubineRed",
           "package": "HaTeX",
@@ -14981,6 +16230,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "RubineRed",
           "package": "HaTeX",
@@ -14994,6 +16244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Salmon",
           "package": "HaTeX",
@@ -15003,6 +16254,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Salmon",
           "package": "HaTeX",
@@ -15016,6 +16268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "SeaGreen",
           "package": "HaTeX",
@@ -15025,6 +16278,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "SeaGreen",
           "package": "HaTeX",
@@ -15038,6 +16292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Sepia",
           "package": "HaTeX",
@@ -15047,6 +16302,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Sepia",
           "package": "HaTeX",
@@ -15060,6 +16316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "SkyBlue",
           "package": "HaTeX",
@@ -15069,6 +16326,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "SkyBlue",
           "package": "HaTeX",
@@ -15082,6 +16340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "SpringGreen",
           "package": "HaTeX",
@@ -15091,6 +16350,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "SpringGreen",
           "package": "HaTeX",
@@ -15104,6 +16364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Tan",
           "package": "HaTeX",
@@ -15113,6 +16374,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Tan",
           "package": "HaTeX",
@@ -15126,6 +16388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "TealBlue",
           "package": "HaTeX",
@@ -15135,6 +16398,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "TealBlue",
           "package": "HaTeX",
@@ -15148,6 +16412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Thistle",
           "package": "HaTeX",
@@ -15157,6 +16422,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Thistle",
           "package": "HaTeX",
@@ -15170,6 +16436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Turquoise",
           "package": "HaTeX",
@@ -15179,6 +16446,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Turquoise",
           "package": "HaTeX",
@@ -15192,6 +16460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Violet",
           "package": "HaTeX",
@@ -15201,6 +16470,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "Violet",
           "package": "HaTeX",
@@ -15214,6 +16484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "VioletRed",
           "package": "HaTeX",
@@ -15223,6 +16494,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "VioletRed",
           "package": "HaTeX",
@@ -15259,6 +16531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "WildStrawberry",
           "package": "HaTeX",
@@ -15268,6 +16541,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "WildStrawberry",
           "package": "HaTeX",
@@ -15304,6 +16578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "YellowGreen",
           "package": "HaTeX",
@@ -15313,6 +16588,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "YellowGreen",
           "package": "HaTeX",
@@ -15326,6 +16602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "YellowOrange",
           "package": "HaTeX",
@@ -15335,6 +16612,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "YellowOrange",
           "package": "HaTeX",
@@ -15349,6 +16627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch to a new text color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "color",
           "package": "HaTeX",
@@ -15359,6 +16638,7 @@
         "index": {
           "description": "Switch to new text color",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "color",
           "normalized": "ColSpec-\u003ea",
@@ -15374,6 +16654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut its argument in a box with the given colour as background.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "colorbox",
           "package": "HaTeX",
@@ -15384,6 +16665,7 @@
         "index": {
           "description": "Put its argument in box with the given colour as background",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "colorbox",
           "normalized": "ColSpec-\u003ea-\u003ea",
@@ -15398,6 +16680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "dvipsnames",
           "package": "HaTeX",
@@ -15407,6 +16690,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "dvipsnames",
           "package": "HaTeX",
@@ -15420,6 +16704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of \u003ccode\u003efcolorbox cs1 cs2 l\u003c/code\u003e put \u003ccode\u003el\u003c/code\u003e in a framed box with\n   \u003ccode\u003ecs1\u003c/code\u003e as frame color and \u003ccode\u003ecs2\u003c/code\u003e as background color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "fcolorbox",
           "package": "HaTeX",
@@ -15430,6 +16715,7 @@
         "index": {
           "description": "Application of fcolorbox cs1 cs2 put in framed box with cs1 as frame color and cs2 as background color",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "fcolorbox",
           "normalized": "ColSpec-\u003eColSpec-\u003ea-\u003ea",
@@ -15445,6 +16731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo convert all colour commands to black and white,\n   for previewers that cannot handle colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "monochrome",
           "package": "HaTeX",
@@ -15455,6 +16742,7 @@
         "index": {
           "description": "To convert all colour commands to black and white for previewers that cannot handle colour",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "monochrome",
           "package": "HaTeX",
@@ -15467,6 +16755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "nodvipsnames",
           "package": "HaTeX",
@@ -15476,6 +16765,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "nodvipsnames",
           "package": "HaTeX",
@@ -15489,6 +16779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch to the colour that was active at the end of the preamble.\n   Thus, placing a \u003ccode\u003e\u003ca\u003ecolor\u003c/a\u003e\u003c/code\u003e command in the preamble can change the\n   standard colour of the whole document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "normalcolor",
           "package": "HaTeX",
@@ -15499,6 +16790,7 @@
         "index": {
           "description": "Switch to the colour that was active at the end of the preamble Thus placing color command in the preamble can change the standard colour of the whole document",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "normalcolor",
           "package": "HaTeX",
@@ -15512,6 +16804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the background color for the current and following pages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "pagecolor",
           "package": "HaTeX",
@@ -15522,6 +16815,7 @@
         "index": {
           "description": "Set the background color for the current and following pages",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "pagecolor",
           "normalized": "ColSpec-\u003ea",
@@ -15537,6 +16831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epcolor\u003c/a\u003e\u003c/code\u003e package.\n\u003c/p\u003e\u003cpre\u003e usepackage [] pcolor\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "pcolor",
           "package": "HaTeX",
@@ -15547,6 +16842,7 @@
         "index": {
           "description": "The pcolor package usepackage pcolor",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "pcolor",
           "package": "HaTeX",
@@ -15560,6 +16856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text of its argument in the given colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "textcolor",
           "package": "HaTeX",
@@ -15570,6 +16867,7 @@
         "index": {
           "description": "Set the text of its argument in the given colour",
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "textcolor",
           "normalized": "ColSpec-\u003ea-\u003ea",
@@ -15584,6 +16882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Color",
           "name": "usenames",
           "package": "HaTeX",
@@ -15593,6 +16892,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Color",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Color",
           "name": "usenames",
           "package": "HaTeX",
@@ -15606,6 +16906,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides extensive control of page headers and footers.\n\u003c/p\u003e\u003cp\u003eCTAN page for fancyhdr: \u003ca\u003ehttp://www.ctan.org/pkg/fancyhdr\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "Fancyhdr",
           "package": "HaTeX",
@@ -15615,6 +16916,7 @@
         "index": {
           "description": "This package provides extensive control of page headers and footers CTAN page for fancyhdr http www.ctan.org pkg fancyhdr",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "Fancyhdr",
           "package": "HaTeX",
@@ -15629,6 +16931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader and footer settings of a LaTeX document.\n   Use \u003ccode\u003e\u003ca\u003eapplyHdrSettings\u003c/a\u003e\u003c/code\u003e to apply these settings\n   in your document. A default value is provided\n   by \u003ccode\u003e\u003ca\u003edefaultHdrSettings\u003c/a\u003e\u003c/code\u003e, which you can modify\n   using record syntax.\n\u003c/p\u003e\u003cpre\u003e mySettings :: HdrSettings\n mySettings = defaultHdrSettings\n     { centerHeader = \"Amazing header\"\n     , headRuleWidth = Pt 2\n       }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "HdrSettings",
           "package": "HaTeX",
@@ -15638,6 +16941,7 @@
         "index": {
           "description": "Header and footer settings of LaTeX document Use applyHdrSettings to apply these settings in your document default value is provided by defaultHdrSettings which you can modify using record syntax mySettings HdrSettings mySettings defaultHdrSettings centerHeader Amazing header headRuleWidth Pt",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "HdrSettings",
           "package": "HaTeX",
@@ -15651,6 +16955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "HdrSettings",
           "package": "HaTeX",
@@ -15660,6 +16965,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "HdrSettings",
           "package": "HaTeX",
@@ -15674,6 +16980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply custom header and footer settings to a\n   LaTeX document. It takes care of package importing\n   and page style settings, so using this function\n   is enough to get the settings applied.\n   Do \u003cem\u003enot\u003c/em\u003e import the \u003ccode\u003e\u003ca\u003efancyhdr\u003c/a\u003e\u003c/code\u003e package again.\n   To be used in the \u003cem\u003epreamble\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "applyHdrSettings",
           "package": "HaTeX",
@@ -15684,6 +16991,7 @@
         "index": {
           "description": "Apply custom header and footer settings to LaTeX document It takes care of package importing and page style settings so using this function is enough to get the settings applied Do not import the fancyhdr package again To be used in the preamble",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "applyHdrSettings",
           "normalized": "HdrSettings-\u003ea",
@@ -15699,6 +17007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "centerFooter",
           "package": "HaTeX",
@@ -15708,6 +17017,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "centerFooter",
           "package": "HaTeX",
@@ -15721,6 +17031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "centerHeader",
           "package": "HaTeX",
@@ -15730,6 +17041,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "centerHeader",
           "package": "HaTeX",
@@ -15744,6 +17056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the center footer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "cfoot",
           "package": "HaTeX",
@@ -15754,6 +17067,7 @@
         "index": {
           "description": "Set the center footer",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "cfoot",
           "normalized": "a-\u003ea",
@@ -15769,6 +17083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the center header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "chead",
           "package": "HaTeX",
@@ -15779,6 +17094,7 @@
         "index": {
           "description": "Set the center header",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "chead",
           "normalized": "a-\u003ea",
@@ -15794,6 +17110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault header and footer settings.\n\u003c/p\u003e\u003cp\u003eIt leaves everything empty but the\n   \u003ccode\u003e\u003ca\u003ecenterFooter\u003c/a\u003e\u003c/code\u003e field, which is filled\n   with \u003ccode\u003e\u003ca\u003ethePage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAlso, it sets to 0.4 points\n   the \u003ccode\u003e\u003ca\u003eheadRuleWidth\u003c/a\u003e\u003c/code\u003e field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "defaultHdrSettings",
           "package": "HaTeX",
@@ -15804,6 +17121,7 @@
         "index": {
           "description": "Default header and footer settings It leaves everything empty but the centerFooter field which is filled with thePage Also it sets to points the headRuleWidth field",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "defaultHdrSettings",
           "package": "HaTeX",
@@ -15818,6 +17136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage style of the \u003ccode\u003e\u003ca\u003efancyhdr\u003c/a\u003e\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "fancy",
           "package": "HaTeX",
@@ -15828,6 +17147,7 @@
         "index": {
           "description": "Page style of the fancyhdr package",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "fancy",
           "package": "HaTeX",
@@ -15841,6 +17161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fancyhdr package.\n   Please, consider to use \u003ccode\u003e\u003ca\u003eapplyHdrSettings\u003c/a\u003e\u003c/code\u003e\n   instead of importing the package manually.\n   If you really want to do it manually, use\n   the functions from the \u003cem\u003eraw interface\u003c/em\u003e\n   exposed below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "fancyhdr",
           "package": "HaTeX",
@@ -15851,6 +17172,7 @@
         "index": {
           "description": "The fancyhdr package Please consider to use applyHdrSettings instead of importing the package manually If you really want to do it manually use the functions from the raw interface exposed below",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "fancyhdr",
           "package": "HaTeX",
@@ -15863,6 +17185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "footRuleWidth",
           "package": "HaTeX",
@@ -15872,6 +17195,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "footRuleWidth",
           "package": "HaTeX",
@@ -15885,6 +17209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "headRuleWidth",
           "package": "HaTeX",
@@ -15894,6 +17219,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "headRuleWidth",
           "package": "HaTeX",
@@ -15907,6 +17233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "leftFooter",
           "package": "HaTeX",
@@ -15916,6 +17243,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "leftFooter",
           "package": "HaTeX",
@@ -15929,6 +17257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "leftHeader",
           "package": "HaTeX",
@@ -15938,6 +17267,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "leftHeader",
           "package": "HaTeX",
@@ -15952,6 +17282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the left footer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "lfoot",
           "package": "HaTeX",
@@ -15962,6 +17293,7 @@
         "index": {
           "description": "Set the left footer",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "lfoot",
           "normalized": "a-\u003ea",
@@ -15977,6 +17309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the left header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "lhead",
           "package": "HaTeX",
@@ -15987,6 +17320,7 @@
         "index": {
           "description": "Set the left header",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "lhead",
           "normalized": "a-\u003ea",
@@ -16002,6 +17336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003efootrulewidth\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "renewfootrulewidth",
           "package": "HaTeX",
@@ -16012,6 +17347,7 @@
         "index": {
           "description": "Set the footrulewidth attribute",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "renewfootrulewidth",
           "normalized": "Measure-\u003ea",
@@ -16027,6 +17363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eheadrulewidth\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "renewheadrulewidth",
           "package": "HaTeX",
@@ -16037,6 +17374,7 @@
         "index": {
           "description": "Set the headrulewidth attribute",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "renewheadrulewidth",
           "normalized": "Measure-\u003ea",
@@ -16052,6 +17390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the right footer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "rfoot",
           "package": "HaTeX",
@@ -16062,6 +17401,7 @@
         "index": {
           "description": "Set the right footer",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "rfoot",
           "normalized": "a-\u003ea",
@@ -16077,6 +17417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the right header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "rhead",
           "package": "HaTeX",
@@ -16087,6 +17428,7 @@
         "index": {
           "description": "Set the right header",
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "rhead",
           "normalized": "a-\u003ea",
@@ -16101,6 +17443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "rightFooter",
           "package": "HaTeX",
@@ -16110,6 +17453,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "rightFooter",
           "package": "HaTeX",
@@ -16123,6 +17467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "rightHeader",
           "package": "HaTeX",
@@ -16132,6 +17477,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fancyhdr",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fancyhdr",
           "name": "rightHeader",
           "package": "HaTeX",
@@ -16146,6 +17492,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSelect new font encodings using the \u003ccode\u003efontenc\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "Fontenc",
           "package": "HaTeX",
@@ -16155,6 +17502,7 @@
         "index": {
           "description": "Select new font encodings using the fontenc package",
           "hierarchy": "Text LaTeX Packages Fontenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "Fontenc",
           "package": "HaTeX",
@@ -16169,6 +17517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont encodings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "FontEnc",
           "package": "HaTeX",
@@ -16178,6 +17527,7 @@
         "index": {
           "description": "Font encodings",
           "hierarchy": "Text LaTeX Packages Fontenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "FontEnc",
           "package": "HaTeX",
@@ -16191,6 +17541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "OT1",
           "package": "HaTeX",
@@ -16200,6 +17551,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fontenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "OT1",
           "package": "HaTeX",
@@ -16213,6 +17565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "T1",
           "package": "HaTeX",
@@ -16222,6 +17575,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Fontenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "T1",
           "package": "HaTeX",
@@ -16235,6 +17589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003efontenc\u003c/code\u003e package.\n   It is recommended to use the \u003ccode\u003e\u003ca\u003euseencoding\u003c/a\u003e\u003c/code\u003e function\n   to import it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "fontenc",
           "package": "HaTeX",
@@ -16245,6 +17600,7 @@
         "index": {
           "description": "The fontenc package It is recommended to use the useencoding function to import it",
           "hierarchy": "Text LaTeX Packages Fontenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "fontenc",
           "package": "HaTeX",
@@ -16258,6 +17614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the preamble, select encodings to use in your document.\n   The last one will be the default encoding. Example:\n\u003c/p\u003e\u003cpre\u003e useencoding [T1]\n\u003c/pre\u003e\u003cp\u003eIt imports the \u003ccode\u003efontenc\u003c/code\u003e package. In fact:\n\u003c/p\u003e\u003cpre\u003e useencoding xs = usepackage (fmap texy xs) fontenc\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "useencoding",
           "package": "HaTeX",
@@ -16268,6 +17625,7 @@
         "index": {
           "description": "In the preamble select encodings to use in your document The last one will be the default encoding Example useencoding T1 It imports the fontenc package In fact useencoding xs usepackage fmap texy xs fontenc",
           "hierarchy": "Text LaTeX Packages Fontenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Fontenc",
           "name": "useencoding",
           "normalized": "[FontEnc]-\u003ea",
@@ -16283,6 +17641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe geometry package provides an easy interface to page dimensions.\n\u003c/p\u003e\u003cp\u003eCTAN page for geometry: \u003ca\u003ehttp://www.ctan.org/pkg/geometry\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "Geometry",
           "package": "HaTeX",
@@ -16292,6 +17651,7 @@
         "index": {
           "description": "The geometry package provides an easy interface to page dimensions CTAN page for geometry http www.ctan.org pkg geometry",
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "Geometry",
           "package": "HaTeX",
@@ -16306,6 +17666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions of the geometry package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GeometryOption",
           "package": "HaTeX",
@@ -16315,6 +17676,7 @@
         "index": {
           "description": "Options of the geometry package",
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GeometryOption",
           "package": "HaTeX",
@@ -16328,6 +17690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GCentered",
           "package": "HaTeX",
@@ -16337,6 +17700,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GCentered",
           "package": "HaTeX",
@@ -16350,6 +17714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GHeight",
           "package": "HaTeX",
@@ -16359,6 +17724,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GHeight",
           "package": "HaTeX",
@@ -16372,6 +17738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GLandscape",
           "package": "HaTeX",
@@ -16381,6 +17748,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GLandscape",
           "package": "HaTeX",
@@ -16394,6 +17762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GPaper",
           "package": "HaTeX",
@@ -16403,6 +17772,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GPaper",
           "package": "HaTeX",
@@ -16416,6 +17786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GPaperHeight",
           "package": "HaTeX",
@@ -16425,6 +17796,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GPaperHeight",
           "package": "HaTeX",
@@ -16438,6 +17810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GPaperWidth",
           "package": "HaTeX",
@@ -16447,6 +17820,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GPaperWidth",
           "package": "HaTeX",
@@ -16460,6 +17834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GWidth",
           "package": "HaTeX",
@@ -16469,6 +17844,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "GWidth",
           "package": "HaTeX",
@@ -16483,6 +17859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given geometry options to the document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "applyGeometry",
           "package": "HaTeX",
@@ -16493,6 +17870,7 @@
         "index": {
           "description": "Apply the given geometry options to the document",
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "applyGeometry",
           "normalized": "[GeometryOption]-\u003ea",
@@ -16509,6 +17887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeometry package. Use it to import it like this:\n\u003c/p\u003e\u003cpre\u003e usepackage [] geometry\n\u003c/pre\u003e\u003cp\u003eIn most cases, it is recommended to use \u003ccode\u003e\u003ca\u003eimportGeometry\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "geometry",
           "package": "HaTeX",
@@ -16519,6 +17898,7 @@
         "index": {
           "description": "Geometry package Use it to import it like this usepackage geometry In most cases it is recommended to use importGeometry instead",
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "geometry",
           "package": "HaTeX",
@@ -16532,6 +17912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport the geometry package with additional options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "importGeometry",
           "package": "HaTeX",
@@ -16542,6 +17923,7 @@
         "index": {
           "description": "Import the geometry package with additional options",
           "hierarchy": "Text LaTeX Packages Geometry",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Geometry",
           "name": "importGeometry",
           "normalized": "[GeometryOption]-\u003ea",
@@ -16558,6 +17940,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows you to use the LaTeX \u003cem\u003egraphicx\u003c/em\u003e library in order to\n   insert graphics in a document and perform some transformations.\n\u003c/p\u003e\u003cp\u003eCTAN page for graphicx: \u003ca\u003ehttp://ctan.org/pkg/graphicx\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "Graphicx",
           "package": "HaTeX",
@@ -16567,6 +17950,7 @@
         "index": {
           "description": "This module allows you to use the LaTeX graphicx library in order to insert graphics in document and perform some transformations CTAN page for graphicx http ctan.org pkg graphicx",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "Graphicx",
           "package": "HaTeX",
@@ -16581,6 +17965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude Graphics Option. These options can be passed as arguments to the \u003ccode\u003e\u003ca\u003eincludegraphics\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGOption",
           "package": "HaTeX",
@@ -16590,6 +17975,7 @@
         "index": {
           "description": "Include Graphics Option These options can be passed as arguments to the includegraphics function",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGOption",
           "package": "HaTeX",
@@ -16604,6 +17990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate the image by given degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGAngle",
           "package": "HaTeX",
@@ -16614,6 +18001,7 @@
         "index": {
           "description": "Rotate the image by given degrees",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGAngle",
           "package": "HaTeX",
@@ -16628,6 +18016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor the \u003ccode\u003e\u003ca\u003eIGTrim\u003c/a\u003e\u003c/code\u003e option to work, you must set \u003ccode\u003e\u003ca\u003eIGClip\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGClip",
           "package": "HaTeX",
@@ -16638,6 +18027,7 @@
         "index": {
           "description": "For the IGTrim option to work you must set IGClip to True",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGClip",
           "package": "HaTeX",
@@ -16652,6 +18042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the preferred height of the imported image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGHeight",
           "package": "HaTeX",
@@ -16662,6 +18053,7 @@
         "index": {
           "description": "Specify the preferred height of the imported image",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGHeight",
           "package": "HaTeX",
@@ -16676,6 +18068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the image file is a pdf file with multiple pages,\n   this parameter allows you to use a different page than the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGPage",
           "package": "HaTeX",
@@ -16686,6 +18079,7 @@
         "index": {
           "description": "If the image file is pdf file with multiple pages this parameter allows you to use different page than the first",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGPage",
           "package": "HaTeX",
@@ -16700,6 +18094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales the image by the desired scale factor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGScale",
           "package": "HaTeX",
@@ -16710,6 +18105,7 @@
         "index": {
           "description": "Scales the image by the desired scale factor",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGScale",
           "package": "HaTeX",
@@ -16724,6 +18120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option will crop the imported image. Arguments are from-left\n , from-bottom, from-right and from-top respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGTrim",
           "package": "HaTeX",
@@ -16734,6 +18131,7 @@
         "index": {
           "description": "This option will crop the imported image Arguments are from-left from-bottom from-right and from-top respectively",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGTrim",
           "package": "HaTeX",
@@ -16748,6 +18146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the preferred width of the imported image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGWidth",
           "package": "HaTeX",
@@ -16758,6 +18157,7 @@
         "index": {
           "description": "Specify the preferred width of the imported image",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "IGWidth",
           "package": "HaTeX",
@@ -16772,6 +18172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, it will scale the image according to both \u003ccode\u003e\u003ca\u003eIGWidth\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIGHeight\u003c/a\u003e\u003c/code\u003e\n , but will not distort the image, so that neither \u003ccode\u003e\u003ca\u003eIGWidth\u003c/a\u003e\u003c/code\u003e nor \u003ccode\u003e\u003ca\u003eIGHeight\u003c/a\u003e\u003c/code\u003e are exceeded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "KeepAspectRatio",
           "package": "HaTeX",
@@ -16782,6 +18183,7 @@
         "index": {
           "description": "When True it will scale the image according to both IGWidth and IGHeight but will not distort the image so that neither IGWidth nor IGHeight are exceeded",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "KeepAspectRatio",
           "package": "HaTeX",
@@ -16796,6 +18198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage option of the \u003ccode\u003e\u003ca\u003egraphicx\u003c/a\u003e\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "dvipdfm",
           "package": "HaTeX",
@@ -16806,6 +18209,7 @@
         "index": {
           "description": "Package option of the graphicx package",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "dvipdfm",
           "package": "HaTeX",
@@ -16819,6 +18223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage option of the \u003ccode\u003e\u003ca\u003egraphicx\u003c/a\u003e\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "dvips",
           "package": "HaTeX",
@@ -16829,6 +18234,7 @@
         "index": {
           "description": "Package option of the graphicx package",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "dvips",
           "package": "HaTeX",
@@ -16842,6 +18248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egraphicx\u003c/a\u003e\u003c/code\u003e package.\n\u003c/p\u003e\u003cpre\u003e usepackage [] graphicx\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "graphicx",
           "package": "HaTeX",
@@ -16852,6 +18259,7 @@
         "index": {
           "description": "The graphicx package usepackage graphicx",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "graphicx",
           "package": "HaTeX",
@@ -16865,6 +18273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude an image in the document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "includegraphics",
           "package": "HaTeX",
@@ -16874,6 +18283,7 @@
         "index": {
           "description": "Include an image in the document",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "includegraphics",
           "normalized": "[IGOption]-\u003eFilePath-\u003ea",
@@ -16889,6 +18299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage option of the \u003ccode\u003e\u003ca\u003egraphicx\u003c/a\u003e\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "pdftex",
           "package": "HaTeX",
@@ -16899,6 +18310,7 @@
         "index": {
           "description": "Package option of the graphicx package",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "pdftex",
           "package": "HaTeX",
@@ -16912,6 +18324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflect horizontally the content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "reflectbox",
           "package": "HaTeX",
@@ -16922,6 +18335,7 @@
         "index": {
           "description": "Reflect horizontally the content",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "reflectbox",
           "normalized": "a-\u003ea",
@@ -16937,6 +18351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize the content to match the given dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "resizebox",
           "package": "HaTeX",
@@ -16946,6 +18361,7 @@
         "index": {
           "description": "Resize the content to match the given dimensions",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "resizebox",
           "normalized": "Measure-\u003eMeasure-\u003ea-\u003ea",
@@ -16961,6 +18377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate the content by the given angle in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "rotatebox",
           "package": "HaTeX",
@@ -16971,6 +18388,7 @@
         "index": {
           "description": "Rotate the content by the given angle in degrees",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "rotatebox",
           "normalized": "Float-\u003ea-\u003ea",
@@ -16986,6 +18404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale the content by the given factor. If only the horizontal scale is supplied,\n   the vertical scaling will be the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "scalebox",
           "package": "HaTeX",
@@ -16995,6 +18414,7 @@
         "index": {
           "description": "Scale the content by the given factor If only the horizontal scale is supplied the vertical scaling will be the same",
           "hierarchy": "Text LaTeX Packages Graphicx",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Graphicx",
           "name": "scalebox",
           "normalized": "Float-\u003eMaybe Float-\u003ea-\u003ea",
@@ -17009,6 +18429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "Hyperref",
           "package": "HaTeX",
@@ -17017,6 +18438,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "Hyperref",
           "package": "HaTeX",
@@ -17030,6 +18452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "HRefOption",
           "package": "HaTeX",
@@ -17038,6 +18461,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "HRefOption",
           "package": "HaTeX",
@@ -17051,6 +18475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "URL",
           "package": "HaTeX",
@@ -17059,6 +18484,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "URL",
           "package": "HaTeX",
@@ -17072,6 +18498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "HRefPage",
           "package": "HaTeX",
@@ -17081,6 +18508,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "HRefPage",
           "package": "HaTeX",
@@ -17094,6 +18522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "PDFNewWindow",
           "package": "HaTeX",
@@ -17103,6 +18532,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "PDFNewWindow",
           "package": "HaTeX",
@@ -17116,6 +18546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "PDFRemoteStartView",
           "package": "HaTeX",
@@ -17125,6 +18556,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "PDFRemoteStartView",
           "package": "HaTeX",
@@ -17139,6 +18571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a replacement for the usual \u003ccode\u003eref\u003c/code\u003e command that places a contextual label in front of the reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "autoref",
           "package": "HaTeX",
@@ -17149,6 +18582,7 @@
         "index": {
           "description": "This is replacement for the usual ref command that places contextual label in front of the reference",
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "autoref",
           "normalized": "Label-\u003ea",
@@ -17163,6 +18597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "createURL",
           "package": "HaTeX",
@@ -17172,6 +18607,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "createURL",
           "normalized": "String-\u003eURL",
@@ -17188,6 +18624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to an \u003ccode\u003e\u003ca\u003eURL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "href",
           "package": "HaTeX",
@@ -17198,6 +18635,7 @@
         "index": {
           "description": "Reference to an URL",
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "href",
           "normalized": "[HRefOption]-\u003eURL-\u003ea-\u003ea",
@@ -17213,6 +18651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablish a base \u003ccode\u003e\u003ca\u003eURL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "hyperbaseurl",
           "package": "HaTeX",
@@ -17223,6 +18662,7 @@
         "index": {
           "description": "Establish base URL",
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "hyperbaseurl",
           "normalized": "URL-\u003ea",
@@ -17238,6 +18678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehyperimage imgURL t\u003c/code\u003e:\n  The link to the image referenced by the \u003ccode\u003eimgURL\u003c/code\u003e is inserted, using \u003ccode\u003et\u003c/code\u003e as the anchor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "hyperimage",
           "package": "HaTeX",
@@ -17248,6 +18689,7 @@
         "index": {
           "description": "hyperimage imgURL The link to the image referenced by the imgURL is inserted using as the anchor",
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "hyperimage",
           "normalized": "URL-\u003ea-\u003ea",
@@ -17263,6 +18705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ehyperref\u003c/a\u003e\u003c/code\u003e package.\n\u003c/p\u003e\u003cpre\u003e usepackage [] hyperref\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "hyperref",
           "package": "HaTeX",
@@ -17273,6 +18716,7 @@
         "index": {
           "description": "The hyperref package usepackage hyperref",
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "hyperref",
           "package": "HaTeX",
@@ -17286,6 +18730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eURL\u003c/a\u003e\u003c/code\u003e without creating a hyperlink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "nolinkurl",
           "package": "HaTeX",
@@ -17296,6 +18741,7 @@
         "index": {
           "description": "Write an URL without creating hyperlink",
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "nolinkurl",
           "normalized": "URL-\u003ea",
@@ -17311,6 +18757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eURL\u003c/a\u003e\u003c/code\u003e hyperlinked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "url",
           "package": "HaTeX",
@@ -17321,6 +18768,7 @@
         "index": {
           "description": "Write an URL hyperlinked",
           "hierarchy": "Text LaTeX Packages Hyperref",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Hyperref",
           "name": "url",
           "normalized": "URL-\u003ea",
@@ -17336,6 +18784,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package is of vital importance if you use non-ASCII characters in your document.\n   For example, if you type the word \u003cem\u003e&#193;ngela\u003c/em\u003e, the \u003cem\u003e&#193;\u003c/em\u003e character will not appear correctly in the\n   output. To solve this problem, use:\n\u003c/p\u003e\u003cpre\u003e usepackage [utf8] inputenc\n\u003c/pre\u003e\u003cp\u003eAnd make sure that your Haskell source is encoded in UTF-8.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Inputenc",
           "name": "Inputenc",
           "package": "HaTeX",
@@ -17345,6 +18794,7 @@
         "index": {
           "description": "This package is of vital importance if you use non-ASCII characters in your document For example if you type the word ngela the character will not appear correctly in the output To solve this problem use usepackage utf8 inputenc And make sure that your Haskell source is encoded in UTF-8",
           "hierarchy": "Text LaTeX Packages Inputenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Inputenc",
           "name": "Inputenc",
           "package": "HaTeX",
@@ -17359,6 +18809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInputenc package.\n Example:\n\u003c/p\u003e\u003cpre\u003e usepackage [utf8] inputenc\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Inputenc",
           "name": "inputenc",
           "package": "HaTeX",
@@ -17369,6 +18820,7 @@
         "index": {
           "description": "Inputenc package Example usepackage utf8 inputenc",
           "hierarchy": "Text LaTeX Packages Inputenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Inputenc",
           "name": "inputenc",
           "package": "HaTeX",
@@ -17382,6 +18834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLatin-1 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Inputenc",
           "name": "latin1",
           "package": "HaTeX",
@@ -17392,6 +18845,7 @@
         "index": {
           "description": "Latin-1 encoding",
           "hierarchy": "Text LaTeX Packages Inputenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Inputenc",
           "name": "latin1",
           "package": "HaTeX",
@@ -17405,6 +18859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Inputenc",
           "name": "utf8",
           "package": "HaTeX",
@@ -17415,6 +18870,7 @@
         "index": {
           "description": "UTF-8 encoding",
           "hierarchy": "Text LaTeX Packages Inputenc",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Inputenc",
           "name": "utf8",
           "package": "HaTeX",
@@ -17428,6 +18884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a monadic interface to build \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e values.\n   It does so using \u003ccode\u003e\u003ca\u003ePathBuilder\u003c/a\u003e\u003c/code\u003es. The construction of a \u003ccode\u003e\u003ca\u003ePathBuilder\u003c/a\u003e\u003c/code\u003e\n   is equivalent to the construction of a \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e by hand, but with\n   a sometimes more convenient syntax.\n\u003c/p\u003e\u003cp\u003eFor example, this path corresponds to a triangle:\n\u003c/p\u003e\u003cpre\u003e trianglePath :: TPath\n trianglePath = bpath (pointAtXY (-1) 0) $ do\n    line $ pointAtXY 1 0\n    line $ pointAtXY 0 1\n    pcycle\n\u003c/pre\u003e\u003cp\u003eThe equivalent syntax created by hand would be:\n\u003c/p\u003e\u003cpre\u003e trianglePath :: TPath\n trianglePath = Cycle $ Start (pointAtXY (-1) 0) -\u003e- pointAtXY 1 0 -\u003e- pointAtXY 0 1\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eCycle\u003c/a\u003e\u003c/code\u003e constructor at the beginning may seem unintuitive, since we are building\n   the path from left to right. In the \u003ccode\u003e\u003ca\u003ePathBuilder\u003c/a\u003e\u003c/code\u003e monad, the instructions are always\n   written in order.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "PathBuilder",
           "package": "HaTeX",
@@ -17437,6 +18894,7 @@
         "index": {
           "description": "This module provides monadic interface to build TPath values It does so using PathBuilder The construction of PathBuilder is equivalent to the construction of TPath by hand but with sometimes more convenient syntax For example this path corresponds to triangle trianglePath TPath trianglePath bpath pointAtXY do line pointAtXY line pointAtXY pcycle The equivalent syntax created by hand would be trianglePath TPath trianglePath Cycle Start pointAtXY pointAtXY pointAtXY The Cycle constructor at the beginning may seem unintuitive since we are building the path from left to right In the PathBuilder monad the instructions are always written in order",
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "PathBuilder",
           "package": "HaTeX",
@@ -17451,6 +18909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a \u003cem\u003epath builder\u003c/em\u003e to construct a value of type \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e.\n   Use \u003ccode\u003e\u003ca\u003ebpath\u003c/a\u003e\u003c/code\u003e for this purpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "PathBuilder",
           "package": "HaTeX",
@@ -17460,6 +18919,7 @@
         "index": {
           "description": "Use path builder to construct value of type TPath Use bpath for this purpose",
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "PathBuilder",
           "package": "HaTeX",
@@ -17474,6 +18934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a path using a \u003cem\u003estarting point\u003c/em\u003e and a \u003ccode\u003e\u003ca\u003ePathBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "bpath",
           "package": "HaTeX",
@@ -17484,6 +18945,7 @@
         "index": {
           "description": "Build path using starting point and PathBuilder",
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "bpath",
           "normalized": "TPoint-\u003ePathBuilder a-\u003eTPath",
@@ -17499,6 +18961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCircle with the given radius centered at the current point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "circle",
           "package": "HaTeX",
@@ -17509,6 +18972,7 @@
         "index": {
           "description": "Circle with the given radius centered at the current point",
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "circle",
           "normalized": "Double-\u003ePathBuilder()",
@@ -17524,6 +18988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEllipse with width and height described by the arguments and centered\n   at the current point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "ellipse",
           "package": "HaTeX",
@@ -17533,6 +18998,7 @@
         "index": {
           "description": "Ellipse with width and height described by the arguments and centered at the current point",
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "ellipse",
           "normalized": "Double-\u003eDouble-\u003ePathBuilder()",
@@ -17547,6 +19013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "grid",
           "package": "HaTeX",
@@ -17556,6 +19023,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "grid",
           "normalized": "[GridOption]-\u003eTPoint-\u003ePathBuilder()",
@@ -17571,6 +19039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine from the current point to the given one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "line",
           "package": "HaTeX",
@@ -17581,6 +19050,7 @@
         "index": {
           "description": "Line from the current point to the given one",
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "line",
           "normalized": "TPoint-\u003ePathBuilder()",
@@ -17596,6 +19066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText centered at the current point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "node",
           "package": "HaTeX",
@@ -17606,6 +19077,7 @@
         "index": {
           "description": "Text centered at the current point",
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "node",
           "normalized": "LaTeX-\u003ePathBuilder()",
@@ -17620,6 +19092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "pcycle",
           "package": "HaTeX",
@@ -17629,6 +19102,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "pcycle",
           "normalized": "PathBuilder()",
@@ -17644,6 +19118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangle with the current point as one cornder and the given point\n   as the opposite corner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "rectangle",
           "package": "HaTeX",
@@ -17654,6 +19129,7 @@
         "index": {
           "description": "Rectangle with the current point as one cornder and the given point as the opposite corner",
           "hierarchy": "Text LaTeX Packages TikZ PathBuilder",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.PathBuilder",
           "name": "rectangle",
           "normalized": "TPoint-\u003ePathBuilder()",
@@ -17669,6 +19145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple interface to create Ti\u003cem\u003ek\u003c/em\u003eZ graphics. Just build pictures using\n   the \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e data constructors, and get the Ti\u003cem\u003ek\u003c/em\u003eZ script using the function\n   \u003ccode\u003e\u003ca\u003efiguretikz\u003c/a\u003e\u003c/code\u003e. Use the function \u003ccode\u003e\u003ca\u003etikzpicture\u003c/a\u003e\u003c/code\u003e to insert the Ti\u003cem\u003ek\u003c/em\u003eZ script in\n   the LaTeX document. And do not forget to import the \u003ccode\u003e\u003ca\u003etikz\u003c/a\u003e\u003c/code\u003e package in the\n   preamble.\n\u003c/p\u003e\u003cp\u003ePlease, note that this module is not intended to be imported in the same module\n   than Text.LaTeX.Packages.TikZ. This module is itself a self-contained \u003cem\u003ealternative\u003c/em\u003e\n   of that module. If you still want to use both modules, please, use qualified imports\n   to avoid name clashes.\n\u003c/p\u003e\u003cp\u003eIn the \u003cem\u003eExamples\u003c/em\u003e directory of the source distribution, the file \u003ccode\u003etikzsimple.hs\u003c/code\u003e\n   contains a complete example of usage of this module with several pictures.\n   Below you can see a picture along with the code it came from.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"docfiles/tikz/tikzsimple.png\"/\u003e\n\u003c/p\u003e\u003cpre\u003e myFigure :: Figure\n myFigure = Scale 2 $ Figures\n   [ RectangleFilled (0,0) 1 1\n   , Colored (BasicColor Green) $ RectangleFilled (-1,1) 1 1\n   , Colored (BasicColor Red)   $ RectangleFilled ( 0,2) 1 1\n   , Colored (BasicColor Blue)  $ RectangleFilled ( 1,1) 1 1\n     ]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Simple",
           "package": "HaTeX",
@@ -17678,6 +19155,7 @@
         "index": {
           "description": "simple interface to create Ti graphics Just build pictures using the Figure data constructors and get the Ti script using the function figuretikz Use the function tikzpicture to insert the Ti script in the LaTeX document And do not forget to import the tikz package in the preamble Please note that this module is not intended to be imported in the same module than Text.LaTeX.Packages.TikZ This module is itself self-contained alternative of that module If you still want to use both modules please use qualified imports to avoid name clashes In the Examples directory of the source distribution the file tikzsimple.hs contains complete example of usage of this module with several pictures Below you can see picture along with the code it came from myFigure Figure myFigure Scale Figures RectangleFilled Colored BasicColor Green RectangleFilled Colored BasicColor Red RectangleFilled Colored BasicColor Blue RectangleFilled",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Simple",
           "package": "HaTeX",
@@ -17692,6 +19170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Color",
           "package": "HaTeX",
@@ -17701,6 +19180,7 @@
         "index": {
           "description": "Basic colors",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Color",
           "package": "HaTeX",
@@ -17715,6 +19195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA figure in the plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Figure",
           "package": "HaTeX",
@@ -17724,6 +19205,7 @@
         "index": {
           "description": "figure in the plane",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Figure",
           "package": "HaTeX",
@@ -17738,6 +19220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point in the plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Point",
           "package": "HaTeX",
@@ -17747,6 +19230,7 @@
         "index": {
           "description": "point in the plane",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Point",
           "package": "HaTeX",
@@ -17761,6 +19245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor models accepted by Ti\u003cem\u003ek\u003c/em\u003eZ.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "TikZColor",
           "package": "HaTeX",
@@ -17770,6 +19255,7 @@
         "index": {
           "description": "Color models accepted by Ti",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "TikZColor",
           "package": "HaTeX",
@@ -17784,6 +19270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Word8",
           "package": "HaTeX",
@@ -17792,6 +19279,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Word8",
           "package": "HaTeX",
@@ -17855,6 +19343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCircle centered at the given point with the given radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Circle",
           "package": "HaTeX",
@@ -17865,6 +19354,7 @@
         "index": {
           "description": "Circle centered at the given point with the given radius",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Circle",
           "package": "HaTeX",
@@ -17879,6 +19369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs in \u003ccode\u003e\u003ca\u003eCircle\u003c/a\u003e\u003c/code\u003e, but it will be filled with some color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "CircleFilled",
           "package": "HaTeX",
@@ -17889,6 +19380,7 @@
         "index": {
           "description": "As in Circle but it will be filled with some color",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "CircleFilled",
           "package": "HaTeX",
@@ -17903,6 +19395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor for the given \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Colored",
           "package": "HaTeX",
@@ -17913,6 +19406,7 @@
         "index": {
           "description": "Color for the given Figure",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Colored",
           "package": "HaTeX",
@@ -17927,6 +19421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEllipse centered at the given point with width and\n   height given by the other parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Ellipse",
           "package": "HaTeX",
@@ -17937,6 +19432,7 @@
         "index": {
           "description": "Ellipse centered at the given point with width and height given by the other parameters",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Ellipse",
           "package": "HaTeX",
@@ -17951,6 +19447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eEllipse\u003c/a\u003e\u003c/code\u003e, but filled with some color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "EllipseFilled",
           "package": "HaTeX",
@@ -17961,6 +19458,7 @@
         "index": {
           "description": "Same as Ellipse but filled with some color",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "EllipseFilled",
           "package": "HaTeX",
@@ -17975,6 +19473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA figure composed by a list of figures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Figures",
           "package": "HaTeX",
@@ -17985,6 +19484,7 @@
         "index": {
           "description": "figure composed by list of figures",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Figures",
           "normalized": "Figures[Figure]",
@@ -18001,6 +19501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine along a list of points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Line",
           "package": "HaTeX",
@@ -18011,6 +19512,7 @@
         "index": {
           "description": "Line along list of points",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Line",
           "normalized": "Line[Point]",
@@ -18027,6 +19529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine width for the given \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "LineWidth",
           "package": "HaTeX",
@@ -18037,6 +19540,7 @@
         "index": {
           "description": "Line width for the given Figure",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "LineWidth",
           "package": "HaTeX",
@@ -18051,6 +19555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine along a list of points, but the last point will be joined\n   with the first one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Polygon",
           "package": "HaTeX",
@@ -18061,6 +19566,7 @@
         "index": {
           "description": "Line along list of points but the last point will be joined with the first one",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Polygon",
           "normalized": "Polygon[Point]",
@@ -18077,6 +19583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e, but the inner side will be filled with color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "PolygonFilled",
           "package": "HaTeX",
@@ -18087,6 +19594,7 @@
         "index": {
           "description": "Same as Polygon but the inner side will be filled with color",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "PolygonFilled",
           "normalized": "PolygonFilled[Point]",
@@ -18126,6 +19634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangle with top-right corner at the given point and\n   width and height given by the other parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Rectangle",
           "package": "HaTeX",
@@ -18136,6 +19645,7 @@
         "index": {
           "description": "Rectangle with top-right corner at the given point and width and height given by the other parameters",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Rectangle",
           "package": "HaTeX",
@@ -18150,6 +19660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eRectangle\u003c/a\u003e\u003c/code\u003e, but filled with color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "RectangleFilled",
           "package": "HaTeX",
@@ -18160,6 +19671,7 @@
         "index": {
           "description": "Same as Rectangle but filled with color",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "RectangleFilled",
           "package": "HaTeX",
@@ -18174,6 +19686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e by a given angle (in radians).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Rotate",
           "package": "HaTeX",
@@ -18184,6 +19697,7 @@
         "index": {
           "description": "Rotate Figure by given angle in radians",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Rotate",
           "package": "HaTeX",
@@ -18198,6 +19712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScaling of the given \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e by a factor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Scale",
           "package": "HaTeX",
@@ -18208,6 +19723,7 @@
         "index": {
           "description": "Scaling of the given Figure by factor",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Scale",
           "package": "HaTeX",
@@ -18222,6 +19738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert some \u003ccode\u003e\u003ca\u003eLaTeX\u003c/a\u003e\u003c/code\u003e code, centered at the given \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e.\n   The text should not be very complex to fit nicely in the picture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Text",
           "package": "HaTeX",
@@ -18232,6 +19749,7 @@
         "index": {
           "description": "Insert some LaTeX code centered at the given Point The text should not be very complex to fit nicely in the picture",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "Text",
           "package": "HaTeX",
@@ -18246,6 +19764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eTikZ\u003c/a\u003e\u003c/code\u003e script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "figuretikz",
           "package": "HaTeX",
@@ -18256,6 +19775,7 @@
         "index": {
           "description": "Translate Figure to TikZ script",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "figuretikz",
           "normalized": "Figure-\u003eTikZ",
@@ -18271,6 +19791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe figure of a \u003cem\u003epath\u003c/em\u003e. A \u003cem\u003epath\u003c/em\u003e (in this context) means a function from an interval to\n   the plane. The image of such a function is what this function returns as a \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e.\n   An additional argument is needed to set the precision of the curve.\n\u003c/p\u003e\u003cp\u003eThe actual implementation builds a spline of degree one joining different points of the\n   image. Given that the interval is \u003cem\u003e(a,b)\u003c/em\u003e and the precision argument is &#949;, the points\n   in the spline will be \u003cem\u003ef(a)\u003c/em\u003e, \u003cem\u003ef(a+\u003c/em\u003e&#949;\u003cem\u003e)\u003c/em\u003e, \u003cem\u003ef(a+2\u003c/em\u003e&#949;\u003cem\u003e)\u003c/em\u003e, and so on, until reaching \u003cem\u003ef(b)\u003c/em\u003e.\n   The smaller is &#949;, the closer is the figure to the original image.\n\u003c/p\u003e\u003cp\u003eHere is an example with a logarithmic spiral.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"docfiles/tikz/spiral.png\"/\u003e\n\u003c/p\u003e\u003cpre\u003e spiral :: Figure\n spiral = LineWidth (Pt 2) $\n     pathImage 0.01 (0,4) $\n       \\t -\u003e ( a * exp t * cos (b*t)\n             , a * exp t * sin (b*t)\n               )\n   where\n     a = 0.1 ; b = 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "pathImage",
           "package": "HaTeX",
@@ -18280,6 +19801,7 @@
         "index": {
           "description": "The figure of path path in this context means function from an interval to the plane The image of such function is what this function returns as Figure An additional argument is needed to set the precision of the curve The actual implementation builds spline of degree one joining different points of the image Given that the interval is and the precision argument is the points in the spline will be and so on until reaching The smaller is the closer is the figure to the original image Here is an example with logarithmic spiral spiral Figure spiral LineWidth Pt pathImage exp cos exp sin where",
           "hierarchy": "Text LaTeX Packages TikZ Simple",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Simple",
           "name": "pathImage",
           "normalized": "Double-\u003e(Double,Double)-\u003e(Double-\u003ePoint)-\u003eFigure",
@@ -18346,6 +19868,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the syntax of a Ti\u003cem\u003ek\u003c/em\u003eZ script.\n\u003c/p\u003e\u003cp\u003eTo generate a Ti\u003cem\u003ek\u003c/em\u003eZ script, first create a \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e using\n data constructors, or alternatively, use a \u003ccode\u003ePathBuilder\u003c/code\u003e\n from the \u003ca\u003eText.LaTeX.Packages.TikZ.PathBuilder\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eOnce a \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e is created, use \u003ccode\u003e\u003ca\u003epath\u003c/a\u003e\u003c/code\u003e to render a picture\n from it. Use \u003ccode\u003e\u003ca\u003escope\u003c/a\u003e\u003c/code\u003e to apply some parameters to your picture,\n such line width or color.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Syntax",
           "package": "HaTeX",
@@ -18355,6 +19878,7 @@
         "index": {
           "description": "This module defines the syntax of Ti script To generate Ti script first create TPath using data constructors or alternatively use PathBuilder from the Text.LaTeX.Packages.TikZ.PathBuilder module Once TPath is created use path to render picture from it Use scope to apply some parameters to your picture such line width or color",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Syntax",
           "package": "HaTeX",
@@ -18369,6 +19893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent types of actions that can be performed\n   with a \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003epath\u003c/a\u003e\u003c/code\u003e for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "ActionType",
           "package": "HaTeX",
@@ -18378,6 +19903,7 @@
         "index": {
           "description": "Different types of actions that can be performed with TPath See path for more information",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "ActionType",
           "package": "HaTeX",
@@ -18392,6 +19918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Color",
           "package": "HaTeX",
@@ -18401,6 +19928,7 @@
         "index": {
           "description": "Basic colors",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Color",
           "package": "HaTeX",
@@ -18414,6 +19942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "GridOption",
           "package": "HaTeX",
@@ -18422,6 +19951,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "GridOption",
           "package": "HaTeX",
@@ -18436,6 +19966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters to use in a \u003ccode\u003e\u003ca\u003escope\u003c/a\u003e\u003c/code\u003e to change how things\n   are rendered within that scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Parameter",
           "package": "HaTeX",
@@ -18445,6 +19976,7 @@
         "index": {
           "description": "Parameters to use in scope to change how things are rendered within that scope",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Parameter",
           "package": "HaTeX",
@@ -18458,6 +19990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Step",
           "package": "HaTeX",
@@ -18466,6 +19999,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Step",
           "package": "HaTeX",
@@ -18480,6 +20014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for TikZ paths. Every \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e has two fundamental points: the \u003cem\u003estarting point\u003c/em\u003e\n   and the \u003cem\u003elast point\u003c/em\u003e.\n   The starting point is set using the \u003ccode\u003e\u003ca\u003eStart\u003c/a\u003e\u003c/code\u003e constructor.\n   The last point then is modified by the other constructors.\n   Below a explanation of each one of them.\n   Note that both starting point and last point may coincide.\n   You can use the functions \u003ccode\u003e\u003ca\u003estartingPoint\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elastPoint\u003c/a\u003e\u003c/code\u003e to calculate them.\n   After creating a \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003epath\u003c/a\u003e\u003c/code\u003e to do something useful with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TPath",
           "package": "HaTeX",
@@ -18489,6 +20024,7 @@
         "index": {
           "description": "Type for TikZ paths Every TPath has two fundamental points the starting point and the last point The starting point is set using the Start constructor The last point then is modified by the other constructors Below explanation of each one of them Note that both starting point and last point may coincide You can use the functions startingPoint and lastPoint to calculate them After creating TPath use path to do something useful with it",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TPath",
           "package": "HaTeX",
@@ -18503,6 +20039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point in Ti\u003cem\u003ek\u003c/em\u003eZ.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TPoint",
           "package": "HaTeX",
@@ -18512,6 +20049,7 @@
         "index": {
           "description": "point in Ti",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TPoint",
           "package": "HaTeX",
@@ -18526,6 +20064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Ti\u003cem\u003ek\u003c/em\u003eZ script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TikZ",
           "package": "HaTeX",
@@ -18535,6 +20074,7 @@
         "index": {
           "description": "Ti script",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TikZ",
           "package": "HaTeX",
@@ -18549,6 +20089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor models accepted by Ti\u003cem\u003ek\u003c/em\u003eZ.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TikZColor",
           "package": "HaTeX",
@@ -18558,6 +20099,7 @@
         "index": {
           "description": "Color models accepted by Ti",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TikZColor",
           "package": "HaTeX",
@@ -18572,6 +20114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Word8",
           "package": "HaTeX",
@@ -18580,6 +20123,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Word8",
           "package": "HaTeX",
@@ -18594,6 +20138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias of \u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "(-\u003e-)",
           "package": "HaTeX",
@@ -18604,6 +20149,7 @@
         "index": {
           "description": "Alias of Line",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "(-\u003e-) -\u003e-",
           "normalized": "TPath-\u003eTPoint-\u003eTPath",
@@ -18619,6 +20165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet \u003ccode\u003ey = Circle x r\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eOperation:\u003c/em\u003e Define a circle with center at the last point\n of x and radius \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eLast point:\u003c/em\u003e The last point of \u003ccode\u003ey\u003c/code\u003e is the same as the last\n point of \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Circle",
           "package": "HaTeX",
@@ -18629,6 +20176,7 @@
         "index": {
           "description": "Let Circle Operation Define circle with center at the last point of and radius Last point The last point of is the same as the last point of",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Circle",
           "package": "HaTeX",
@@ -18642,6 +20190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Clip",
           "package": "HaTeX",
@@ -18651,6 +20200,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Clip",
           "package": "HaTeX",
@@ -18665,6 +20215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet \u003ccode\u003ey = Cycle x\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eOperation:\u003c/em\u003e Close a path with a line from the last point of \u003ccode\u003ex\u003c/code\u003e to\n the starting point of \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eLast point:\u003c/em\u003e The last point of \u003ccode\u003ey\u003c/code\u003e is the starting point of \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Cycle",
           "package": "HaTeX",
@@ -18675,6 +20226,7 @@
         "index": {
           "description": "Let Cycle Operation Close path with line from the last point of to the starting point of Last point The last point of is the starting point of",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Cycle",
           "package": "HaTeX",
@@ -18688,6 +20240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "DimStep",
           "package": "HaTeX",
@@ -18697,6 +20250,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "DimStep",
           "package": "HaTeX",
@@ -18710,6 +20264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Draw",
           "package": "HaTeX",
@@ -18719,6 +20274,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Draw",
           "package": "HaTeX",
@@ -18733,6 +20289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet \u003ccode\u003ey = Ellipse x r1 r2\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eOperation:\u003c/em\u003e Define a ellipse with center at the last\n point of \u003ccode\u003ex\u003c/code\u003e, width the double of \u003ccode\u003er1\u003c/code\u003e and height\n the double of \u003ccode\u003er2\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eLast point:\u003c/em\u003e The last point of \u003ccode\u003ey\u003c/code\u003e is the same as the\n last point of \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Ellipse",
           "package": "HaTeX",
@@ -18743,6 +20300,7 @@
         "index": {
           "description": "Let Ellipse r1 r2 Operation Define ellipse with center at the last point of width the double of r1 and height the double of r2 Last point The last point of is the same as the last point of",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Ellipse",
           "package": "HaTeX",
@@ -18756,6 +20314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Fill",
           "package": "HaTeX",
@@ -18765,6 +20324,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Fill",
           "package": "HaTeX",
@@ -18778,6 +20338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Grid",
           "package": "HaTeX",
@@ -18787,6 +20348,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Grid",
           "normalized": "Grid TPath[GridOption]TPoint",
@@ -18802,6 +20364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "GridStep",
           "package": "HaTeX",
@@ -18811,6 +20374,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "GridStep",
           "package": "HaTeX",
@@ -18825,6 +20389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet \u003ccode\u003ey = Line x p\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eOperation:\u003c/em\u003e Extend the current path from the last point of \u003ccode\u003ex\u003c/code\u003e\n in a straight line to \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eLast point:\u003c/em\u003e The last point of \u003ccode\u003ey\u003c/code\u003e is \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Line",
           "package": "HaTeX",
@@ -18835,6 +20400,7 @@
         "index": {
           "description": "Let Line Operation Extend the current path from the last point of in straight line to Last point The last point of is",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Line",
           "package": "HaTeX",
@@ -18849,6 +20415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet \u003ccode\u003ey = Node x l\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eOperation:\u003c/em\u003e Set a text centered at the last point of \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eLast point:\u003c/em\u003e The last point of \u003ccode\u003ey\u003c/code\u003e is the same as the last\n point of \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Node",
           "package": "HaTeX",
@@ -18859,6 +20426,7 @@
         "index": {
           "description": "Let Node Operation Set text centered at the last point of Last point The last point of is the same as the last point of",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Node",
           "package": "HaTeX",
@@ -18872,6 +20440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "PointStep",
           "package": "HaTeX",
@@ -18881,6 +20450,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "PointStep",
           "package": "HaTeX",
@@ -18895,6 +20465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet \u003ccode\u003ey = Rectangle x p\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eOperation:\u003c/em\u003e Define a rectangle using the last point of\n \u003ccode\u003ex\u003c/code\u003e as one corner and \u003ccode\u003ep\u003c/code\u003e as the another corner.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eLast point:\u003c/em\u003e The last point of \u003ccode\u003ey\u003c/code\u003e is \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Rectangle",
           "package": "HaTeX",
@@ -18905,6 +20476,7 @@
         "index": {
           "description": "Let Rectangle Operation Define rectangle using the last point of as one corner and as the another corner Last point The last point of is",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Rectangle",
           "package": "HaTeX",
@@ -18918,6 +20490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Shade",
           "package": "HaTeX",
@@ -18927,6 +20500,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Shade",
           "package": "HaTeX",
@@ -18941,6 +20515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet \u003ccode\u003ey = Start p\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eOperation:\u003c/em\u003e Set the starting point of a path.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eLast point:\u003c/em\u003e The last point of \u003ccode\u003ey\u003c/code\u003e is \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Start",
           "package": "HaTeX",
@@ -18951,6 +20526,7 @@
         "index": {
           "description": "Let Start Operation Set the starting point of path Last point The last point of is",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "Start",
           "package": "HaTeX",
@@ -18964,6 +20540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TColor",
           "package": "HaTeX",
@@ -18973,6 +20550,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TColor",
           "package": "HaTeX",
@@ -18987,6 +20565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle is in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TRotate",
           "package": "HaTeX",
@@ -18997,6 +20576,7 @@
         "index": {
           "description": "Angle is in degrees",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TRotate",
           "package": "HaTeX",
@@ -19010,6 +20590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TScale",
           "package": "HaTeX",
@@ -19019,6 +20600,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TScale",
           "package": "HaTeX",
@@ -19032,6 +20614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TWidth",
           "package": "HaTeX",
@@ -19041,6 +20624,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "TWidth",
           "package": "HaTeX",
@@ -19054,6 +20638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "XYStep",
           "package": "HaTeX",
@@ -19063,6 +20648,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "XYStep",
           "package": "HaTeX",
@@ -19077,6 +20663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003epath [Clip]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "clip",
           "package": "HaTeX",
@@ -19087,6 +20674,7 @@
         "index": {
           "description": "Equivalent to path Clip",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "clip",
           "normalized": "TPath-\u003eTikZ",
@@ -19102,6 +20690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003epath [Draw]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "draw",
           "package": "HaTeX",
@@ -19112,6 +20701,7 @@
         "index": {
           "description": "Equivalent to path Draw",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "draw",
           "normalized": "TPath-\u003eTikZ",
@@ -19127,6 +20717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust an empty script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "emptytikz",
           "package": "HaTeX",
@@ -19137,6 +20728,7 @@
         "index": {
           "description": "Just an empty script",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "emptytikz",
           "package": "HaTeX",
@@ -19150,6 +20742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003epath [Fill]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "fill",
           "package": "HaTeX",
@@ -19160,6 +20753,7 @@
         "index": {
           "description": "Equivalent to path Fill",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "fill",
           "normalized": "TPath-\u003eTikZ",
@@ -19175,6 +20769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003epath [Fill,Draw]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "filldraw",
           "package": "HaTeX",
@@ -19185,6 +20780,7 @@
         "index": {
           "description": "Equivalent to path Fill Draw",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "filldraw",
           "normalized": "TPath-\u003eTikZ",
@@ -19200,6 +20796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the last point of a \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "lastPoint",
           "package": "HaTeX",
@@ -19210,6 +20807,7 @@
         "index": {
           "description": "Calculate the last point of TPath",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "lastPoint",
           "normalized": "TPath-\u003eTPoint",
@@ -19226,6 +20824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path can be used in different ways.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eDraw\u003c/a\u003e\u003c/code\u003e: Just draw the path.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFill\u003c/a\u003e\u003c/code\u003e: Fill the area inside the path.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eClip\u003c/a\u003e\u003c/code\u003e: Clean everything outside the path.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eShade\u003c/a\u003e\u003c/code\u003e: Shade the area inside the path.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIt is possible to stack different effects in the list.\n\u003c/p\u003e\u003cp\u003eExample of usage:\n\u003c/p\u003e\u003cpre\u003e path [Draw] $ Start (pointAtXY 0 0) -\u003e- pointAtXY 1 1\n\u003c/pre\u003e\u003cp\u003eMost common usages are exported as functions. See\n   \u003ccode\u003e\u003ca\u003edraw\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efill\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eclip\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eshade\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efilldraw\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003eshadedraw\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "path",
           "package": "HaTeX",
@@ -19236,6 +20835,7 @@
         "index": {
           "description": "path can be used in different ways Draw Just draw the path Fill Fill the area inside the path Clip Clean everything outside the path Shade Shade the area inside the path It is possible to stack different effects in the list Example of usage path Draw Start pointAtXY pointAtXY Most common usages are exported as functions See draw fill clip shade filldraw and shadedraw",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "path",
           "normalized": "[ActionType]-\u003eTPath-\u003eTikZ",
@@ -19251,6 +20851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint using \u003ccode\u003e\u003ca\u003eMeasure\u003c/a\u003e\u003c/code\u003es for coordinantes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "pointAt",
           "package": "HaTeX",
@@ -19261,6 +20862,7 @@
         "index": {
           "description": "Point using Measure for coordinantes",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "pointAt",
           "normalized": "Measure-\u003eMeasure-\u003eTPoint",
@@ -19277,6 +20879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint using numbers as coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "pointAtXY",
           "package": "HaTeX",
@@ -19287,6 +20890,7 @@
         "index": {
           "description": "Point using numbers as coordinates",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "pointAtXY",
           "normalized": "Double-\u003eDouble-\u003eTPoint",
@@ -19303,6 +20907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree-dimensional point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "pointAtXYZ",
           "package": "HaTeX",
@@ -19313,6 +20918,7 @@
         "index": {
           "description": "Three-dimensional point",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "pointAtXYZ",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eTPoint",
@@ -19329,6 +20935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a point relative to the previous.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "relPoint",
           "package": "HaTeX",
@@ -19339,6 +20946,7 @@
         "index": {
           "description": "Makes point relative to the previous",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "relPoint",
           "normalized": "TPoint-\u003eTPoint",
@@ -19354,6 +20962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "relPoint_",
           "package": "HaTeX",
@@ -19363,6 +20972,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "relPoint_",
           "normalized": "TPoint-\u003eTPoint",
@@ -19379,6 +20989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a scope to a Ti\u003cem\u003ek\u003c/em\u003eZ script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "scope",
           "package": "HaTeX",
@@ -19389,6 +21000,7 @@
         "index": {
           "description": "Applies scope to Ti script",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "scope",
           "normalized": "[Parameter]-\u003eTikZ-\u003eTikZ",
@@ -19404,6 +21016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003epath [Shade]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "shade",
           "package": "HaTeX",
@@ -19414,6 +21027,7 @@
         "index": {
           "description": "Equivalent to path Shade",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "shade",
           "normalized": "TPath-\u003eTikZ",
@@ -19429,6 +21043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003epath [Shade,Draw]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "shadedraw",
           "package": "HaTeX",
@@ -19439,6 +21054,7 @@
         "index": {
           "description": "Equivalent to path Shade Draw",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "shadedraw",
           "normalized": "TPath-\u003eTikZ",
@@ -19454,6 +21070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the starting point of a \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "startingPoint",
           "package": "HaTeX",
@@ -19464,6 +21081,7 @@
         "index": {
           "description": "Calculate the starting point of TPath",
           "hierarchy": "Text LaTeX Packages TikZ Syntax",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ.Syntax",
           "name": "startingPoint",
           "normalized": "TPath-\u003eTPoint",
@@ -19480,6 +21098,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTi\u003cem\u003ek\u003c/em\u003eZ ist \u003cem\u003ekein\u003c/em\u003e Zeichenprogramm.\n\u003c/p\u003e\u003cp\u003eTi\u003cem\u003ek\u003c/em\u003eZ is a frontend for PGF (Portable Graphics Format), a package for creating graphics\n using scripts embedded in a LaTeX document.\n\u003c/p\u003e\u003cp\u003eUsing this library you will be able to generate Ti\u003cem\u003ek\u003c/em\u003eZ scripts using Haskell functions.\n\u003c/p\u003e\u003cp\u003eThe interface given here is pretty close to the original Ti\u003cem\u003ek\u003c/em\u003eZ interface. Another\n layer of abstraction is given in \u003ca\u003eText.LaTeX.Packages.TikZ.Simple\u003c/a\u003e, module built\n from the entities exported here. Usually, one chooses one of the interfaces and\n work with it. However, if you want to use both of them, you will have to use\n qualified imports or you will get name clashes.\n\u003c/p\u003e\u003cp\u003eAlso, the module exported here, \u003ca\u003eText.LaTeX.Packages.TikZ.PathBuilder\u003c/a\u003e, provides\n an interface to create paths (see \u003ccode\u003e\u003ca\u003eTPath\u003c/a\u003e\u003c/code\u003e) using monads.\n\u003c/p\u003e\u003cp\u003eOnce you have generated a Ti\u003cem\u003ek\u003c/em\u003eZ script, use \u003ccode\u003e\u003ca\u003etikzpicture\u003c/a\u003e\u003c/code\u003e to include it in a LaTeX\n document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.TikZ",
           "name": "TikZ",
           "package": "HaTeX",
@@ -19489,6 +21108,7 @@
         "index": {
           "description": "Ti ist kein Zeichenprogramm Ti is frontend for PGF Portable Graphics Format package for creating graphics using scripts embedded in LaTeX document Using this library you will be able to generate Ti scripts using Haskell functions The interface given here is pretty close to the original Ti interface Another layer of abstraction is given in Text.LaTeX.Packages.TikZ.Simple module built from the entities exported here Usually one chooses one of the interfaces and work with it However if you want to use both of them you will have to use qualified imports or you will get name clashes Also the module exported here Text.LaTeX.Packages.TikZ.PathBuilder provides an interface to create paths see TPath using monads Once you have generated Ti script use tikzpicture to include it in LaTeX document",
           "hierarchy": "Text LaTeX Packages TikZ",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.TikZ",
           "name": "TikZ",
           "package": "HaTeX",
@@ -19503,6 +21123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTree interface using the \u003ccode\u003eqtree\u003c/code\u003e package.\n   An example of usage is provided in the \u003cem\u003eexamples\u003c/em\u003e directory of\n   the source distribution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Trees.Qtree",
           "name": "Qtree",
           "package": "HaTeX",
@@ -19512,6 +21133,7 @@
         "index": {
           "description": "Tree interface using the qtree package An example of usage is provided in the examples directory of the source distribution",
           "hierarchy": "Text LaTeX Packages Trees Qtree",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Trees.Qtree",
           "name": "Qtree",
           "package": "HaTeX",
@@ -19526,6 +21148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eqtree\u003c/a\u003e\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Trees.Qtree",
           "name": "qtree",
           "package": "HaTeX",
@@ -19536,6 +21159,7 @@
         "index": {
           "description": "The qtree package",
           "hierarchy": "Text LaTeX Packages Trees Qtree",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Trees.Qtree",
           "name": "qtree",
           "package": "HaTeX",
@@ -19549,6 +21173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function works as \u003ccode\u003e\u003ca\u003etree\u003c/a\u003e\u003c/code\u003e, but use \u003ccode\u003e\u003ca\u003erender\u003c/a\u003e\u003c/code\u003e as rendering function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Trees.Qtree",
           "name": "rendertree",
           "package": "HaTeX",
@@ -19559,6 +21184,7 @@
         "index": {
           "description": "This function works as tree but use render as rendering function",
           "hierarchy": "Text LaTeX Packages Trees Qtree",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Trees.Qtree",
           "name": "rendertree",
           "normalized": "Tree a-\u003eb",
@@ -19574,6 +21200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a function to \u003ccode\u003eLaTeX\u003c/code\u003e values, you can create a \u003ccode\u003eLaTeX\u003c/code\u003e tree from a\n   Haskell tree. The function specifies how to render the node values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Trees.Qtree",
           "name": "tree",
           "package": "HaTeX",
@@ -19584,6 +21211,7 @@
         "index": {
           "description": "Given function to LaTeX values you can create LaTeX tree from Haskell tree The function specifies how to render the node values",
           "hierarchy": "Text LaTeX Packages Trees Qtree",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Trees.Qtree",
           "name": "tree",
           "normalized": "(a-\u003eb)-\u003eTree a-\u003eb",
@@ -19599,6 +21227,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTree definition with some class instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Trees",
           "name": "Trees",
           "package": "HaTeX",
@@ -19608,6 +21237,7 @@
         "index": {
           "description": "Tree definition with some class instances",
           "hierarchy": "Text LaTeX Packages Trees",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Trees",
           "name": "Trees",
           "package": "HaTeX",
@@ -19622,6 +21252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTree datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Trees",
           "name": "Tree",
           "package": "HaTeX",
@@ -19631,6 +21262,7 @@
         "index": {
           "description": "Tree datatype",
           "hierarchy": "Text LaTeX Packages Trees",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Trees",
           "name": "Tree",
           "package": "HaTeX",
@@ -19645,6 +21277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeafs are non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Trees",
           "name": "Leaf",
           "package": "HaTeX",
@@ -19655,6 +21288,7 @@
         "index": {
           "description": "Leafs are non-empty",
           "hierarchy": "Text LaTeX Packages Trees",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Trees",
           "name": "Leaf",
           "package": "HaTeX",
@@ -19669,6 +21303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode values are optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX.Packages.Trees",
           "name": "Node",
           "package": "HaTeX",
@@ -19679,6 +21314,7 @@
         "index": {
           "description": "Node values are optional",
           "hierarchy": "Text LaTeX Packages Trees",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX.Packages.Trees",
           "name": "Node",
           "normalized": "Node(Maybe a)[Tree a]",
@@ -19695,6 +21331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a re-export of the Base module.\n   You may find it shorter to import. Below you can\n   also find a short overview of HaTeX.\n\u003c/p\u003e\u003cp\u003eHistorically, this module also exported the Packages\n   module. But, since it's more common to import the Base\n   module and, then, only the packages you need (instead\n   of all of them), this module has been upgraded supporting\n   it.\n\u003c/p\u003e\u003cp\u003eFor this reason, the module \u003ccode\u003eText.LaTeX.Packages\u003c/code\u003e no longer\n   exists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:13 UTC 2014",
           "module": "Text.LaTeX",
           "name": "LaTeX",
           "package": "HaTeX",
@@ -19704,6 +21341,7 @@
         "index": {
           "description": "This module is re-export of the Base module You may find it shorter to import Below you can also find short overview of HaTeX Historically this module also exported the Packages module But since it more common to import the Base module and then only the packages you need instead of all of them this module has been upgraded supporting it For this reason the module Text.LaTeX.Packages no longer exists",
           "hierarchy": "Text LaTeX",
+          "indexed": "2014-03-11T16:47:13",
           "module": "Text.LaTeX",
           "name": "LaTeX",
           "package": "HaTeX",

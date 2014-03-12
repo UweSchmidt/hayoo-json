@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "random-stream"
+        "phrase": "random-stream",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePure interface to the system pseudo random number generator.\n The generator is assumed to provide an infinite stream of random\n data, and to be implicitly defined.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:17 UTC 2014",
           "module": "System.Random.Stream",
           "name": "Stream",
           "package": "random-stream",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pure interface to the system pseudo random number generator The generator is assumed to provide an infinite stream of random data and to be implicitly defined",
           "hierarchy": "System Random Stream",
+          "indexed": "2014-03-11T19:48:17",
           "module": "System.Random.Stream",
           "name": "Stream",
           "package": "random-stream",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:17 UTC 2014",
           "module": "System.Random.Stream",
           "name": "Stream",
           "package": "random-stream",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Random Stream",
+          "indexed": "2014-03-11T19:48:17",
           "module": "System.Random.Stream",
           "name": "Stream",
           "package": "random-stream",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:17 UTC 2014",
           "module": "System.Random.Stream",
           "name": "Stream",
           "package": "random-stream",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Random Stream",
+          "indexed": "2014-03-11T19:48:17",
           "module": "System.Random.Stream",
           "name": "Stream",
           "package": "random-stream",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:17 UTC 2014",
           "module": "System.Random.Stream",
           "name": "mkStream",
           "package": "random-stream",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Random Stream",
+          "indexed": "2014-03-11T19:48:17",
           "module": "System.Random.Stream",
           "name": "mkStream",
           "package": "random-stream",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:17 UTC 2014",
           "module": "System.Random.URandom",
           "name": "URandom",
           "package": "random-stream",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "System Random URandom",
+          "indexed": "2014-03-11T19:48:17",
           "module": "System.Random.URandom",
           "name": "URandom",
           "package": "random-stream",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:17 UTC 2014",
           "module": "System.Random.URandom",
           "name": "urandom",
           "package": "random-stream",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "System Random URandom",
+          "indexed": "2014-03-11T19:48:17",
           "module": "System.Random.URandom",
           "name": "urandom",
           "normalized": "Int-\u003eIO ByteString",

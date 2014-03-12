@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multifocal"
+        "phrase": "multifocal",
+        "type": "phrase"
       },
       "type": "context"
     }

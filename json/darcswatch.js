@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcswatch"
+        "phrase": "darcswatch",
+        "type": "phrase"
       },
       "type": "context"
     }

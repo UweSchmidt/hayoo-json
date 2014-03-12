@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gladexml-accessor"
+        "phrase": "gladexml-accessor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:53 UTC 2014",
           "module": "Graphics.UI.Gtk.Glade.Accessor",
           "name": "Accessor",
           "package": "gladexml-accessor",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Glade Accessor",
+          "indexed": "2014-03-11T18:17:53",
           "module": "Graphics.UI.Gtk.Glade.Accessor",
           "name": "Accessor",
           "package": "gladexml-accessor",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:53 UTC 2014",
           "module": "Graphics.UI.Gtk.Glade.Accessor",
           "name": "importGladeXml",
           "package": "gladexml-accessor",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Glade Accessor",
+          "indexed": "2014-03-11T18:17:53",
           "module": "Graphics.UI.Gtk.Glade.Accessor",
           "name": "importGladeXml",
           "normalized": "FilePath-\u003eQ[Dec]",

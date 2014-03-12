@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-typescript"
+        "phrase": "haskell-typescript",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple TypeScript library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:43 UTC 2014",
           "module": "TypeScript.Bindings",
           "name": "Bindings",
           "package": "haskell-typescript",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple TypeScript library",
           "hierarchy": "TypeScript Bindings",
+          "indexed": "2014-03-11T18:31:43",
           "module": "TypeScript.Bindings",
           "name": "Bindings",
           "package": "haskell-typescript",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TypeScript data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:43 UTC 2014",
           "module": "TypeScript.Bindings",
           "name": "TypeScript",
           "package": "haskell-typescript",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The TypeScript data structure",
           "hierarchy": "TypeScript Bindings",
+          "indexed": "2014-03-11T18:31:43",
           "module": "TypeScript.Bindings",
           "name": "TypeScript",
           "package": "haskell-typescript",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:43 UTC 2014",
           "module": "TypeScript.Bindings",
           "name": "TypeScript",
           "package": "haskell-typescript",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "TypeScript Bindings",
+          "indexed": "2014-03-11T18:31:43",
           "module": "TypeScript.Bindings",
           "name": "TypeScript",
           "package": "haskell-typescript",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom compiler path, set to Nothing for default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:43 UTC 2014",
           "module": "TypeScript.Bindings",
           "name": "customCompiler",
           "package": "haskell-typescript",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Custom compiler path set to Nothing for default",
           "hierarchy": "TypeScript Bindings",
+          "indexed": "2014-03-11T18:31:43",
           "module": "TypeScript.Bindings",
           "name": "customCompiler",
           "package": "haskell-typescript",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile .ts file(s)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:43 UTC 2014",
           "module": "TypeScript.Bindings",
           "name": "typeScriptCompile",
           "package": "haskell-typescript",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Compile ts file",
           "hierarchy": "TypeScript Bindings",
+          "indexed": "2014-03-11T18:31:43",
           "module": "TypeScript.Bindings",
           "name": "typeScriptCompile",
           "normalized": "[FilePath]-\u003eMaybe FilePath-\u003eTypeScript-\u003eIO ExitCode",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the TypeScript output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:43 UTC 2014",
           "module": "TypeScript.Bindings",
           "name": "typeScriptPrint",
           "package": "haskell-typescript",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Print the TypeScript output",
           "hierarchy": "TypeScript Bindings",
+          "indexed": "2014-03-11T18:31:43",
           "module": "TypeScript.Bindings",
           "name": "typeScriptPrint",
           "normalized": "FilePath-\u003eTypeScript-\u003eIO String",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the version of the typescript binary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:43 UTC 2014",
           "module": "TypeScript.Bindings",
           "name": "typeScriptVersion",
           "package": "haskell-typescript",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Get the version of the typescript binary",
           "hierarchy": "TypeScript Bindings",
+          "indexed": "2014-03-11T18:31:43",
           "module": "TypeScript.Bindings",
           "name": "typeScriptVersion",
           "normalized": "TypeScript-\u003eIO String",

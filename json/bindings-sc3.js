@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-sc3"
+        "phrase": "bindings-sc3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "SC3",
           "package": "bindings-sc3",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "SC3",
           "package": "bindings-sc3",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "C'HaskellPrintFunc",
           "package": "bindings-sc3",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "C'HaskellPrintFunc",
           "package": "bindings-sc3",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReply address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "C'ReplyAddress",
           "package": "bindings-sc3",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Reply address",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "C'ReplyAddress",
           "package": "bindings-sc3",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReply function callback.\n\u003c/p\u003e\u003cp\u003eArguments:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eC'ReplyAddress\u003c/a\u003e\u003c/code\u003e - Reply address handle\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCChar\u003c/a\u003e\u003c/code\u003e - OSC packet data\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eCInt\u003c/a\u003e\u003c/code\u003e - OSC packet size in bytes\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "C'ReplyFunc",
           "package": "bindings-sc3",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Reply function callback Arguments Ptr ReplyAddress Reply address handle Ptr CChar OSC packet data CInt OSC packet size in bytes",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "C'ReplyFunc",
           "package": "bindings-sc3",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynthesis engine handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "C'World",
           "package": "bindings-sc3",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Synthesis engine handle",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "C'World",
           "package": "bindings-sc3",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynthesis engine options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "C'WorldOptions",
           "package": "bindings-sc3",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Synthesis engine options",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "C'WorldOptions",
           "package": "bindings-sc3",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "C'ReplyAddress",
           "package": "bindings-sc3",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "C'ReplyAddress",
           "package": "bindings-sc3",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "C'World",
           "package": "bindings-sc3",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "C'World",
           "package": "bindings-sc3",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "C'WorldOptions",
           "package": "bindings-sc3",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "C'WorldOptions",
           "package": "bindings-sc3",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the callback data pointer in a reply address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'ReplyAddress_ReplyData",
           "package": "bindings-sc3",
@@ -229,6 +248,7 @@
         "index": {
           "description": "Access the callback data pointer in reply address",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'ReplyAddress_ReplyData",
           "normalized": "Ptr C'ReplyAddress-\u003eIO(Ptr())",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'SetHaskellPrintFunc",
           "package": "bindings-sc3",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'SetHaskellPrintFunc",
           "normalized": "C'HaskellPrintFunc-\u003eIO()",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mBufLength",
           "package": "bindings-sc3",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mBufLength",
           "package": "bindings-sc3",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mInDeviceName",
           "package": "bindings-sc3",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mInDeviceName",
           "package": "bindings-sc3",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mInputStreamsEnabled",
           "package": "bindings-sc3",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mInputStreamsEnabled",
           "package": "bindings-sc3",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mLoadGraphDefs",
           "package": "bindings-sc3",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mLoadGraphDefs",
           "package": "bindings-sc3",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMaxGraphDefs",
           "package": "bindings-sc3",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMaxGraphDefs",
           "package": "bindings-sc3",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMaxLogins",
           "package": "bindings-sc3",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMaxLogins",
           "package": "bindings-sc3",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMaxNodes",
           "package": "bindings-sc3",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMaxNodes",
           "package": "bindings-sc3",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMaxWireBufs",
           "package": "bindings-sc3",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMaxWireBufs",
           "package": "bindings-sc3",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMemoryLocking",
           "package": "bindings-sc3",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mMemoryLocking",
           "package": "bindings-sc3",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeCmdFilename",
           "package": "bindings-sc3",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeCmdFilename",
           "package": "bindings-sc3",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeInputFilename",
           "package": "bindings-sc3",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeInputFilename",
           "package": "bindings-sc3",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeOutputFilename",
           "package": "bindings-sc3",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeOutputFilename",
           "package": "bindings-sc3",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeOutputHeaderFormat",
           "package": "bindings-sc3",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeOutputHeaderFormat",
           "package": "bindings-sc3",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeOutputSampleFormat",
           "package": "bindings-sc3",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNonRealTimeOutputSampleFormat",
           "package": "bindings-sc3",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumAudioBusChannels",
           "package": "bindings-sc3",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumAudioBusChannels",
           "package": "bindings-sc3",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumBuffers",
           "package": "bindings-sc3",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumBuffers",
           "package": "bindings-sc3",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumControlBusChannels",
           "package": "bindings-sc3",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumControlBusChannels",
           "package": "bindings-sc3",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumInputBusChannels",
           "package": "bindings-sc3",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumInputBusChannels",
           "package": "bindings-sc3",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumOutputBusChannels",
           "package": "bindings-sc3",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumOutputBusChannels",
           "package": "bindings-sc3",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumRGens",
           "package": "bindings-sc3",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumRGens",
           "package": "bindings-sc3",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumSharedControls",
           "package": "bindings-sc3",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mNumSharedControls",
           "package": "bindings-sc3",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mOutDeviceName",
           "package": "bindings-sc3",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mOutDeviceName",
           "package": "bindings-sc3",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mOutputStreamsEnabled",
           "package": "bindings-sc3",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mOutputStreamsEnabled",
           "package": "bindings-sc3",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mPassword",
           "package": "bindings-sc3",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mPassword",
           "package": "bindings-sc3",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mPreferredHardwareBufferFrameSize",
           "package": "bindings-sc3",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mPreferredHardwareBufferFrameSize",
           "package": "bindings-sc3",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mPreferredSampleRate",
           "package": "bindings-sc3",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mPreferredSampleRate",
           "package": "bindings-sc3",
@@ -840,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mRealTime",
           "package": "bindings-sc3",
@@ -849,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mRealTime",
           "package": "bindings-sc3",
@@ -862,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mRealTimeMemorySize",
           "package": "bindings-sc3",
@@ -871,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mRealTimeMemorySize",
           "package": "bindings-sc3",
@@ -884,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mRendezvous",
           "package": "bindings-sc3",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mRendezvous",
           "package": "bindings-sc3",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mRestrictedPath",
           "package": "bindings-sc3",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mRestrictedPath",
           "package": "bindings-sc3",
@@ -928,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mSharedControls",
           "package": "bindings-sc3",
@@ -937,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mSharedControls",
           "package": "bindings-sc3",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mSharedMemoryID",
           "package": "bindings-sc3",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mSharedMemoryID",
           "package": "bindings-sc3",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mUGensPluginPath",
           "package": "bindings-sc3",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mUGensPluginPath",
           "package": "bindings-sc3",
@@ -994,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mVerbosity",
           "package": "bindings-sc3",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'WorldOptions'mVerbosity",
           "package": "bindings-sc3",
@@ -1017,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree the synthesis engine.\n\u003c/p\u003e\u003cp\u003eThis function should only be called after \u003ccode\u003e\u003ca\u003ec'World_WaitForQuit\u003c/a\u003e\u003c/code\u003e has returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_Cleanup",
           "package": "bindings-sc3",
@@ -1027,6 +1118,7 @@
         "index": {
           "description": "Free the synthesis engine This function should only be called after World WaitForQuit has returned",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_Cleanup",
           "normalized": "Ptr C'World-\u003eIO()",
@@ -1043,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new synthesis engine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_New",
           "package": "bindings-sc3",
@@ -1053,6 +1146,7 @@
         "index": {
           "description": "Create new synthesis engine",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_New",
           "normalized": "Ptr C'WorldOptions-\u003eIO(Ptr C'World)",
@@ -1068,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_NonRealTimeSynthesis",
           "package": "bindings-sc3",
@@ -1077,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_NonRealTimeSynthesis",
           "normalized": "Ptr C'World-\u003ePtr C'WorldOptions-\u003eIO()",
@@ -1092,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_OpenTCP",
           "package": "bindings-sc3",
@@ -1101,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_OpenTCP",
           "normalized": "Ptr C'World-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -1116,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_OpenUDP",
           "package": "bindings-sc3",
@@ -1125,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_OpenUDP",
           "normalized": "Ptr C'World-\u003eCInt-\u003eIO CInt",
@@ -1140,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_SendPacket",
           "package": "bindings-sc3",
@@ -1149,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_SendPacket",
           "normalized": "Ptr C'World-\u003eCInt-\u003ePtr CChar-\u003eC'ReplyFunc-\u003eIO Bool",
@@ -1164,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_SendPacketWithContext",
           "package": "bindings-sc3",
@@ -1173,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_SendPacketWithContext",
           "normalized": "Ptr C'World-\u003eCInt-\u003ePtr CChar-\u003eC'ReplyFunc-\u003ePtr()-\u003eIO Bool",
@@ -1188,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_WaitForQuit",
           "package": "bindings-sc3",
@@ -1197,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'World_WaitForQuit",
           "normalized": "Ptr C'World-\u003eIO()",
@@ -1213,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault synthesis engine options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "c'kDefaultWorldOptions",
           "package": "bindings-sc3",
@@ -1223,6 +1330,7 @@
         "index": {
           "description": "Default synthesis engine options",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "c'kDefaultWorldOptions",
           "package": "bindings-sc3",
@@ -1236,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "mK'HaskellPrintFunc",
           "package": "bindings-sc3",
@@ -1245,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "mK'HaskellPrintFunc",
           "normalized": "C'HaskellPrintFunc-\u003ePtr CChar-\u003eIO()",
@@ -1260,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "mK'ReplyFunc",
           "package": "bindings-sc3",
@@ -1269,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "mK'ReplyFunc",
           "normalized": "C'ReplyFunc-\u003ePtr C'ReplyAddress-\u003ePtr CChar-\u003eCInt-\u003eIO()",
@@ -1284,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "mk'HaskellPrintFunc",
           "package": "bindings-sc3",
@@ -1293,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "mk'HaskellPrintFunc",
           "normalized": "(Ptr CChar-\u003eIO())-\u003eIO C'HaskellPrintFunc",
@@ -1308,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "mk'ReplyFunc",
           "package": "bindings-sc3",
@@ -1317,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "mk'ReplyFunc",
           "normalized": "(Ptr C'ReplyAddress-\u003ePtr CChar-\u003eCInt-\u003eIO())-\u003eIO C'ReplyFunc",
@@ -1332,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'ReplyAddress_ReplyData",
           "package": "bindings-sc3",
@@ -1341,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'ReplyAddress_ReplyData",
           "normalized": "FunPtr(Ptr C'ReplyAddress-\u003eIO(Ptr()))",
@@ -1356,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'SetHaskellPrintFunc",
           "package": "bindings-sc3",
@@ -1365,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'SetHaskellPrintFunc",
           "normalized": "FunPtr(C'HaskellPrintFunc-\u003eIO())",
@@ -1380,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mBufLength",
           "package": "bindings-sc3",
@@ -1389,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mBufLength",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1404,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mInDeviceName",
           "package": "bindings-sc3",
@@ -1413,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mInDeviceName",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1428,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mInputStreamsEnabled",
           "package": "bindings-sc3",
@@ -1437,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mInputStreamsEnabled",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1452,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mLoadGraphDefs",
           "package": "bindings-sc3",
@@ -1461,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mLoadGraphDefs",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1477,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for the synthesis engine to quit.\n\u003c/p\u003e\u003cp\u003eIn order to stop the synthesis engine, send a \"/quit\" OSC message with\n \u003ccode\u003e\u003ca\u003ec'World_SendPacket\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ec'World_SendPacketWithContext\u003c/a\u003e\u003c/code\u003e or through an open\n network port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMaxGraphDefs",
           "package": "bindings-sc3",
@@ -1487,6 +1616,7 @@
         "index": {
           "description": "Wait for the synthesis engine to quit In order to stop the synthesis engine send quit OSC message with World SendPacket World SendPacketWithContext or through an open network port",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMaxGraphDefs",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1502,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMaxLogins",
           "package": "bindings-sc3",
@@ -1511,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMaxLogins",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1526,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMaxNodes",
           "package": "bindings-sc3",
@@ -1535,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMaxNodes",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1550,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMaxWireBufs",
           "package": "bindings-sc3",
@@ -1559,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMaxWireBufs",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1574,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMemoryLocking",
           "package": "bindings-sc3",
@@ -1583,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mMemoryLocking",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CInt",
@@ -1598,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeCmdFilename",
           "package": "bindings-sc3",
@@ -1607,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeCmdFilename",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1622,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeInputFilename",
           "package": "bindings-sc3",
@@ -1631,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeInputFilename",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1646,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeOutputFilename",
           "package": "bindings-sc3",
@@ -1655,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeOutputFilename",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1670,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeOutputHeaderFormat",
           "package": "bindings-sc3",
@@ -1679,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeOutputHeaderFormat",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1694,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeOutputSampleFormat",
           "package": "bindings-sc3",
@@ -1703,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNonRealTimeOutputSampleFormat",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1718,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumAudioBusChannels",
           "package": "bindings-sc3",
@@ -1727,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumAudioBusChannels",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1743,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a TCP input port for receiving OSC commands.\n\u003c/p\u003e\u003cp\u003eReturns non-zero if the call was successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumBuffers",
           "package": "bindings-sc3",
@@ -1753,6 +1904,7 @@
         "index": {
           "description": "Open TCP input port for receiving OSC commands Returns non-zero if the call was successful",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumBuffers",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1768,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumControlBusChannels",
           "package": "bindings-sc3",
@@ -1777,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumControlBusChannels",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1793,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an OSC packet to the synthesis engine.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the packet was sent successfully.\n\u003c/p\u003e\u003cp\u003eArguments:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eCInt\u003c/a\u003e\u003c/code\u003e - OSC packet size in bytes\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCChar\u003c/a\u003e\u003c/code\u003e - OSC packet data\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eC'ReplyFunc\u003c/a\u003e\u003c/code\u003e - Reply function callback.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumInputBusChannels",
           "package": "bindings-sc3",
@@ -1803,6 +1958,7 @@
         "index": {
           "description": "Send an OSC packet to the synthesis engine Returns True if the packet was sent successfully Arguments CInt OSC packet size in bytes Ptr CChar OSC packet data ReplyFunc Reply function callback",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumInputBusChannels",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1818,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumOutputBusChannels",
           "package": "bindings-sc3",
@@ -1827,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumOutputBusChannels",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1842,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumRGens",
           "package": "bindings-sc3",
@@ -1851,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumRGens",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1866,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumSharedControls",
           "package": "bindings-sc3",
@@ -1875,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mNumSharedControls",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CInt",
@@ -1890,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mOutDeviceName",
           "package": "bindings-sc3",
@@ -1899,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mOutDeviceName",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1914,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mOutputStreamsEnabled",
           "package": "bindings-sc3",
@@ -1923,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mOutputStreamsEnabled",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1939,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a UDP input port for receiving OSC commands.\n\u003c/p\u003e\u003cp\u003eReturns non-zero if the call was successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mPassword",
           "package": "bindings-sc3",
@@ -1949,6 +2116,7 @@
         "index": {
           "description": "Open UDP input port for receiving OSC commands Returns non-zero if the call was successful",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mPassword",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -1965,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the global Haskell print function.\n\u003c/p\u003e\u003cp\u003eThis function, when set, is called by the synthesis engine to print\n character strings to an appropriate output channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mPreferredHardwareBufferFrameSize",
           "package": "bindings-sc3",
@@ -1975,6 +2144,7 @@
         "index": {
           "description": "Set the global Haskell print function This function when set is called by the synthesis engine to print character strings to an appropriate output channel",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mPreferredHardwareBufferFrameSize",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -1991,6 +2161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell print function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mPreferredSampleRate",
           "package": "bindings-sc3",
@@ -2001,6 +2172,7 @@
         "index": {
           "description": "Haskell print function",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mPreferredSampleRate",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -2017,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an OSC packet to the synthesis engine with callback data.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the packet was sent successfully.\n\u003c/p\u003e\u003cp\u003eArguments:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eCInt\u003c/a\u003e\u003c/code\u003e - OSC packet size in bytes\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCChar\u003c/a\u003e\u003c/code\u003e - OSC packet data\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eC'ReplyFunc\u003c/a\u003e\u003c/code\u003e - Reply function callback.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e () - Reply function callback data.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mRealTime",
           "package": "bindings-sc3",
@@ -2027,6 +2200,7 @@
         "index": {
           "description": "Send an OSC packet to the synthesis engine with callback data Returns True if the packet was sent successfully Arguments CInt OSC packet size in bytes Ptr CChar OSC packet data ReplyFunc Reply function callback Ptr Reply function callback data",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mRealTime",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CInt",
@@ -2042,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mRealTimeMemorySize",
           "package": "bindings-sc3",
@@ -2051,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mRealTimeMemorySize",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CUInt",
@@ -2066,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mRendezvous",
           "package": "bindings-sc3",
@@ -2075,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mRendezvous",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CInt",
@@ -2090,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mRestrictedPath",
           "package": "bindings-sc3",
@@ -2099,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mRestrictedPath",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -2114,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mSharedControls",
           "package": "bindings-sc3",
@@ -2123,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mSharedControls",
           "normalized": "Ptr C'WorldOptions-\u003ePtr(Ptr CFloat)",
@@ -2138,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mSharedMemoryID",
           "package": "bindings-sc3",
@@ -2147,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mSharedMemoryID",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CInt",
@@ -2162,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mUGensPluginPath",
           "package": "bindings-sc3",
@@ -2171,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mUGensPluginPath",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CString",
@@ -2186,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mVerbosity",
           "package": "bindings-sc3",
@@ -2195,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'WorldOptions'mVerbosity",
           "normalized": "Ptr C'WorldOptions-\u003ePtr CInt",
@@ -2211,6 +2399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform non-realtime synthesis with the given \u003ccode\u003e\u003ca\u003eC'WorldOptions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_Cleanup",
           "package": "bindings-sc3",
@@ -2221,6 +2410,7 @@
         "index": {
           "description": "Perform non-realtime synthesis with the given WorldOptions",
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_Cleanup",
           "normalized": "FunPtr(Ptr C'World-\u003eIO())",
@@ -2236,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_New",
           "package": "bindings-sc3",
@@ -2245,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_New",
           "normalized": "FunPtr(Ptr C'WorldOptions-\u003eIO(Ptr C'World))",
@@ -2260,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_NonRealTimeSynthesis",
           "package": "bindings-sc3",
@@ -2269,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_NonRealTimeSynthesis",
           "normalized": "FunPtr(Ptr C'World-\u003ePtr C'WorldOptions-\u003eIO())",
@@ -2284,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_OpenTCP",
           "package": "bindings-sc3",
@@ -2293,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_OpenTCP",
           "normalized": "FunPtr(Ptr C'World-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -2308,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_OpenUDP",
           "package": "bindings-sc3",
@@ -2317,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_OpenUDP",
           "normalized": "FunPtr(Ptr C'World-\u003eCInt-\u003eIO CInt)",
@@ -2332,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_SendPacket",
           "package": "bindings-sc3",
@@ -2341,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_SendPacket",
           "normalized": "FunPtr(Ptr C'World-\u003eCInt-\u003ePtr CChar-\u003eC'ReplyFunc-\u003eIO Bool)",
@@ -2356,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_SendPacketWithContext",
           "package": "bindings-sc3",
@@ -2365,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_SendPacketWithContext",
           "normalized": "FunPtr(Ptr C'World-\u003eCInt-\u003ePtr CChar-\u003eC'ReplyFunc-\u003ePtr()-\u003eIO Bool)",
@@ -2380,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:41 UTC 2014",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_WaitForQuit",
           "package": "bindings-sc3",
@@ -2389,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sound SC3",
+          "indexed": "2014-03-11T17:21:41",
           "module": "Bindings.Sound.SC3",
           "name": "p'World_WaitForQuit",
           "normalized": "FunPtr(Ptr C'World-\u003eIO())",

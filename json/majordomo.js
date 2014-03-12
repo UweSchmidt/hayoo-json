@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "majordomo"
+        "phrase": "majordomo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "Client",
           "package": "majordomo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "Client",
           "package": "majordomo",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "ClientError",
           "package": "majordomo",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "ClientError",
           "package": "majordomo",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "ClientSocket",
           "package": "majordomo",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "ClientSocket",
           "package": "majordomo",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "Response",
           "package": "majordomo",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "Response",
           "package": "majordomo",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "ClientBadProtocol",
           "package": "majordomo",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "ClientBadProtocol",
           "package": "majordomo",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "ClientTimedOut",
           "package": "majordomo",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "ClientTimedOut",
           "package": "majordomo",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "Response",
           "package": "majordomo",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "Response",
           "package": "majordomo",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "protocol",
           "package": "majordomo",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "protocol",
           "package": "majordomo",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "response",
           "package": "majordomo",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "response",
           "normalized": "[ByteString]",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "sendAndReceive",
           "package": "majordomo",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "sendAndReceive",
           "normalized": "ClientSocket-\u003eByteString-\u003e[ByteString]-\u003eIO(Either ClientError Response)",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "service",
           "package": "majordomo",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "service",
           "package": "majordomo",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "withClientSocket",
           "package": "majordomo",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Client",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Client",
           "name": "withClientSocket",
           "normalized": "String-\u003e(ClientSocket-\u003eIO a)-\u003eIO a",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Worker",
           "package": "majordomo",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Worker",
           "package": "majordomo",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Address",
           "package": "majordomo",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Address",
           "package": "majordomo",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "CommandCode",
           "package": "majordomo",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "CommandCode",
           "package": "majordomo",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "MDError",
           "package": "majordomo",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "MDError",
           "package": "majordomo",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Protocol",
           "package": "majordomo",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Protocol",
           "package": "majordomo",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Response",
           "package": "majordomo",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Response",
           "package": "majordomo",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "ResponseCode",
           "package": "majordomo",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "ResponseCode",
           "package": "majordomo",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "WorkerState",
           "package": "majordomo",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "WorkerState",
           "package": "majordomo",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "DISCONNECT",
           "package": "majordomo",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "DISCONNECT",
           "package": "majordomo",
@@ -471,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "HEARTBEAT",
           "package": "majordomo",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "HEARTBEAT",
           "package": "majordomo",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "READY",
           "package": "majordomo",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "READY",
           "package": "majordomo",
@@ -515,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "REPLY",
           "package": "majordomo",
@@ -524,6 +571,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "REPLY",
           "package": "majordomo",
@@ -537,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "REQUEST",
           "package": "majordomo",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "REQUEST",
           "package": "majordomo",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Response",
           "package": "majordomo",
@@ -568,6 +619,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "Response",
           "package": "majordomo",
@@ -581,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "WORKER_HEARTBEAT",
           "package": "majordomo",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "WORKER_HEARTBEAT",
           "package": "majordomo",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "WORKER_PROTOCOL",
           "package": "majordomo",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "WORKER_PROTOCOL",
           "package": "majordomo",
@@ -625,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "WorkerState",
           "package": "majordomo",
@@ -634,6 +691,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "WorkerState",
           "package": "majordomo",
@@ -647,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "body",
           "package": "majordomo",
@@ -656,6 +715,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "body",
           "normalized": "[ByteString]",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "broker",
           "package": "majordomo",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "broker",
           "package": "majordomo",
@@ -691,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "context",
           "package": "majordomo",
@@ -700,6 +763,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "context",
           "package": "majordomo",
@@ -712,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "envelope",
           "package": "majordomo",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "envelope",
           "normalized": "[Address]",
@@ -735,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "epoch",
           "package": "majordomo",
@@ -744,6 +811,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "epoch",
           "package": "majordomo",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "handler",
           "package": "majordomo",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "handler",
           "normalized": "[ByteString]-\u003eIO[ByteString]",
@@ -779,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "heartbeat",
           "package": "majordomo",
@@ -788,6 +859,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "heartbeat",
           "package": "majordomo",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "heartbeat_at",
           "package": "majordomo",
@@ -809,6 +882,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "heartbeat_at",
           "package": "majordomo",
@@ -821,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "lIVENESS",
           "package": "majordomo",
@@ -830,6 +905,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "lIVENESS",
           "package": "majordomo",
@@ -843,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "liveness",
           "package": "majordomo",
@@ -852,6 +929,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "liveness",
           "package": "majordomo",
@@ -864,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "loggedPut",
           "package": "majordomo",
@@ -873,6 +952,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "loggedPut",
           "normalized": "String-\u003eIO()",
@@ -888,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "parseCommand",
           "package": "majordomo",
@@ -897,6 +978,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "parseCommand",
           "normalized": "ByteString-\u003eMaybe CommandCode",
@@ -912,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "readTillDrop",
           "package": "majordomo",
@@ -921,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "readTillDrop",
           "normalized": "Socket a-\u003eWorkerState a-\u003eIO(WorkerState a)",
@@ -936,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "receive",
           "package": "majordomo",
@@ -945,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "receive",
           "normalized": "Socket a-\u003eWorkerState a-\u003eIO(Maybe(WorkerState a))",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "reconnect",
           "package": "majordomo",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "reconnect",
           "package": "majordomo",
@@ -980,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "sendResponse",
           "package": "majordomo",
@@ -989,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "sendResponse",
           "normalized": "Socket a-\u003eResponse-\u003eIO()",
@@ -1004,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "sendToBroker",
           "package": "majordomo",
@@ -1013,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "sendToBroker",
           "normalized": "Socket a-\u003eResponseCode-\u003e[ByteString]-\u003e[ByteString]-\u003eIO()",
@@ -1028,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "start",
           "package": "majordomo",
@@ -1037,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "start",
           "normalized": "WorkerState a-\u003eIO()",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "svc",
           "package": "majordomo",
@@ -1060,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "svc",
           "package": "majordomo",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "whileJust",
           "package": "majordomo",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "whileJust",
           "normalized": "(a-\u003eb(Maybe a))-\u003ea-\u003eb a",
@@ -1096,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "withBroker",
           "package": "majordomo",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "withBroker",
           "normalized": "(Socket XReq-\u003eWorkerState a-\u003eIO b)-\u003eWorkerState c-\u003eIO b",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:45 UTC 2014",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "withWorker",
           "package": "majordomo",
@@ -1129,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "System Network ZMQ MDP Worker",
+          "indexed": "2014-03-11T19:13:45",
           "module": "System.Network.ZMQ.MDP.Worker",
           "name": "withWorker",
           "normalized": "String-\u003eByteString-\u003e([ByteString]-\u003eIO[ByteString])-\u003eIO()",

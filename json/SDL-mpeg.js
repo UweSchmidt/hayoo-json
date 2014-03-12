@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SDL-mpeg"
+        "phrase": "SDL-mpeg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_actualSpec",
           "package": "SDL-mpeg",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_actualSpec",
           "normalized": "Ptr MPEGStruct-\u003ePtr AudioSpecStruct-\u003eIO()",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_delete",
           "package": "SDL-mpeg",
@@ -51,6 +54,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_delete",
           "normalized": "FunPtr(Ptr MPEGStruct-\u003eIO())",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_enableaudio",
           "package": "SDL-mpeg",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_enableaudio",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eIO()",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_enablevideo",
           "package": "SDL-mpeg",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_enablevideo",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eIO()",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_error",
           "package": "SDL-mpeg",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_error",
           "normalized": "Ptr MPEGStruct-\u003eIO CString",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_filter",
           "package": "SDL-mpeg",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_filter",
           "normalized": "Ptr MPEGStruct-\u003ePtr FilterStruct-\u003eIO(Ptr FilterStruct)",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_getinfo",
           "package": "SDL-mpeg",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_getinfo",
           "normalized": "Ptr MPEGStruct-\u003ePtr InfoStruct-\u003eIO()",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_loop",
           "package": "SDL-mpeg",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_loop",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eIO()",
@@ -210,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_move",
           "package": "SDL-mpeg",
@@ -219,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_move",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eInt-\u003eIO()",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_new",
           "package": "SDL-mpeg",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_new",
           "normalized": "CString-\u003ePtr InfoStruct-\u003eInt-\u003eIO(Ptr MPEGStruct)",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_new_data",
           "package": "SDL-mpeg",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_new_data",
           "normalized": "Ptr()-\u003eInt-\u003ePtr InfoStruct-\u003eInt-\u003eIO(Ptr MPEGStruct)",
@@ -282,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_new_descr",
           "package": "SDL-mpeg",
@@ -291,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_new_descr",
           "normalized": "Int-\u003ePtr InfoStruct-\u003eInt-\u003eIO(Ptr MPEGStruct)",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_new_rwops",
           "package": "SDL-mpeg",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_new_rwops",
           "normalized": "Ptr RWopsStruct-\u003ePtr InfoStruct-\u003eInt-\u003eIO(Ptr MPEGStruct)",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_pause",
           "package": "SDL-mpeg",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_pause",
           "normalized": "Ptr MPEGStruct-\u003eIO()",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_play",
           "package": "SDL-mpeg",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_play",
           "normalized": "Ptr MPEGStruct-\u003eIO()",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_playAudio",
           "package": "SDL-mpeg",
@@ -387,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_playAudio",
           "normalized": "Ptr MPEGStruct-\u003eCString-\u003eInt-\u003eIO Int",
@@ -402,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_playAudioSDL",
           "package": "SDL-mpeg",
@@ -411,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_playAudioSDL",
           "normalized": "Ptr MPEGStruct-\u003eCString-\u003eInt-\u003eIO()",
@@ -426,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_renderFinal",
           "package": "SDL-mpeg",
@@ -435,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_renderFinal",
           "normalized": "Ptr MPEGStruct-\u003ePtr SurfaceStruct-\u003eInt-\u003eInt-\u003eIO()",
@@ -450,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_renderFrame",
           "package": "SDL-mpeg",
@@ -459,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_renderFrame",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eIO()",
@@ -474,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_rewind",
           "package": "SDL-mpeg",
@@ -483,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_rewind",
           "normalized": "Ptr MPEGStruct-\u003eIO()",
@@ -498,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_scale",
           "package": "SDL-mpeg",
@@ -507,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_scale",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eIO()",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_scaleXY",
           "package": "SDL-mpeg",
@@ -531,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_scaleXY",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eInt-\u003eIO()",
@@ -546,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_seek",
           "package": "SDL-mpeg",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_seek",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eIO()",
@@ -570,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_setdisplay",
           "package": "SDL-mpeg",
@@ -579,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_setdisplay",
           "normalized": "Ptr MPEGStruct-\u003ePtr SurfaceStruct-\u003ePtr MutexStruct-\u003eFunPtr DisplayCallback-\u003eIO()",
@@ -594,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_setdisplayregion",
           "package": "SDL-mpeg",
@@ -603,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_setdisplayregion",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -618,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_setvolume",
           "package": "SDL-mpeg",
@@ -627,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_setvolume",
           "normalized": "Ptr MPEGStruct-\u003eInt-\u003eIO()",
@@ -642,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_skip",
           "package": "SDL-mpeg",
@@ -651,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_skip",
           "normalized": "Ptr MPEGStruct-\u003eFloat-\u003eIO()",
@@ -666,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_status",
           "package": "SDL-mpeg",
@@ -675,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_status",
           "normalized": "Ptr MPEGStruct-\u003eIO Int",
@@ -690,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_stop",
           "package": "SDL-mpeg",
@@ -699,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_stop",
           "normalized": "Ptr MPEGStruct-\u003eIO()",
@@ -714,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_wantedSpec",
           "package": "SDL-mpeg",
@@ -723,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "_SMPEG_wantedSpec",
           "normalized": "Ptr MPEGStruct-\u003ePtr AudioSpecStruct-\u003eIO Int",
@@ -738,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "mkDisplayCallback",
           "package": "SDL-mpeg",
@@ -747,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "mkDisplayCallback",
           "normalized": "DisplayCallback-\u003eIO(FunPtr DisplayCallback)",
@@ -762,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "mkFinalizedMPEG",
           "package": "SDL-mpeg",
@@ -771,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG General",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.General",
           "name": "mkFinalizedMPEG",
           "normalized": "Ptr MPEGStruct-\u003eIO MPEG",
@@ -786,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "AudioSpec",
           "package": "SDL-mpeg",
@@ -794,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "AudioSpec",
           "package": "SDL-mpeg",
@@ -807,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "AudioSpecStruct",
           "package": "SDL-mpeg",
@@ -815,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "AudioSpecStruct",
           "package": "SDL-mpeg",
@@ -828,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "DisplayCallback",
           "package": "SDL-mpeg",
@@ -836,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "DisplayCallback",
           "package": "SDL-mpeg",
@@ -849,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "Filter",
           "package": "SDL-mpeg",
@@ -857,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "Filter",
           "package": "SDL-mpeg",
@@ -870,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "FilterStruct",
           "package": "SDL-mpeg",
@@ -878,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "FilterStruct",
           "package": "SDL-mpeg",
@@ -891,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "Info",
           "package": "SDL-mpeg",
@@ -899,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "Info",
           "package": "SDL-mpeg",
@@ -912,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "InfoStruct",
           "package": "SDL-mpeg",
@@ -920,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "InfoStruct",
           "package": "SDL-mpeg",
@@ -933,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "MPEG",
           "package": "SDL-mpeg",
@@ -941,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "MPEG",
           "package": "SDL-mpeg",
@@ -954,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "MPEGStruct",
           "package": "SDL-mpeg",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "MPEGStruct",
           "package": "SDL-mpeg",
@@ -975,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "Mutex",
           "package": "SDL-mpeg",
@@ -983,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "Mutex",
           "package": "SDL-mpeg",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "MutexStruct",
           "package": "SDL-mpeg",
@@ -1004,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "MutexStruct",
           "package": "SDL-mpeg",
@@ -1017,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "Status",
           "package": "SDL-mpeg",
@@ -1025,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG Types",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG.Types",
           "name": "Status",
           "package": "SDL-mpeg",
@@ -1038,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "enableAudio",
           "package": "SDL-mpeg",
@@ -1047,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "enableAudio",
           "normalized": "MPEG-\u003eBool-\u003eIO()",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "enableLoop",
           "package": "SDL-mpeg",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "enableLoop",
           "normalized": "MPEG-\u003eBool-\u003eIO()",
@@ -1086,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "enableVideo",
           "package": "SDL-mpeg",
@@ -1095,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "enableVideo",
           "normalized": "MPEG-\u003eBool-\u003eIO()",
@@ -1111,6 +1205,7 @@
       "document": {
         "description": {
           "description": "Create a new MPEG object from an MPEG file.\n",
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "load",
           "package": "SDL-mpeg",
@@ -1121,6 +1216,7 @@
         "index": {
           "description": "Create new MPEG object from an MPEG file",
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "load",
           "normalized": "FilePath-\u003eIO MPEG",
@@ -1136,6 +1232,7 @@
       "document": {
         "description": {
           "description": "Create a new MPEG object from a byte string.\n",
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "loadData",
           "package": "SDL-mpeg",
@@ -1146,6 +1243,7 @@
         "index": {
           "description": "Create new MPEG object from byte string",
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "loadData",
           "normalized": "CStringLen-\u003eIO MPEG",
@@ -1162,6 +1260,7 @@
       "document": {
         "description": {
           "description": "Create a new MPEG object from a file descriptor.\n",
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "loadFd",
           "package": "SDL-mpeg",
@@ -1172,6 +1271,7 @@
         "index": {
           "description": "Create new MPEG object from file descriptor",
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "loadFd",
           "normalized": "Int-\u003eIO MPEG",
@@ -1188,6 +1288,7 @@
       "document": {
         "description": {
           "description": "Create a new MPEG object from a RWops structure.\n",
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "loadRWops",
           "package": "SDL-mpeg",
@@ -1198,6 +1299,7 @@
         "index": {
           "description": "Create new MPEG object from RWops structure",
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "loadRWops",
           "normalized": "RWops-\u003eIO MPEG",
@@ -1213,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "pause",
           "package": "SDL-mpeg",
@@ -1222,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "pause",
           "normalized": "MPEG-\u003eIO()",
@@ -1236,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "play",
           "package": "SDL-mpeg",
@@ -1245,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "play",
           "normalized": "MPEG-\u003eIO()",
@@ -1260,6 +1366,7 @@
       "document": {
         "description": {
           "description": "Render a particular frame in the MPEG video\n",
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "renderFrame",
           "package": "SDL-mpeg",
@@ -1270,6 +1377,7 @@
         "index": {
           "description": "Render particular frame in the MPEG video",
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "renderFrame",
           "normalized": "MPEG-\u003eInt-\u003eIO()",
@@ -1285,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "rewind",
           "package": "SDL-mpeg",
@@ -1294,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "rewind",
           "normalized": "MPEG-\u003eIO()",
@@ -1309,6 +1419,7 @@
       "document": {
         "description": {
           "description": "Set the region of the video to be shown.\n",
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "setDisplayRegion",
           "package": "SDL-mpeg",
@@ -1319,6 +1430,7 @@
         "index": {
           "description": "Set the region of the video to be shown",
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "setDisplayRegion",
           "normalized": "MPEG-\u003eRect-\u003eIO()",
@@ -1334,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "setScale",
           "package": "SDL-mpeg",
@@ -1343,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "setScale",
           "normalized": "MPEG-\u003eInt-\u003eIO()",
@@ -1358,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "setScaleXY",
           "package": "SDL-mpeg",
@@ -1367,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "setScaleXY",
           "normalized": "MPEG-\u003eInt-\u003eInt-\u003eIO()",
@@ -1383,6 +1499,7 @@
       "document": {
         "description": {
           "description": "Set the SDL surface and the position the MPEG object is to be painted on.\n",
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "setSurface",
           "package": "SDL-mpeg",
@@ -1393,6 +1510,7 @@
         "index": {
           "description": "Set the SDL surface and the position the MPEG object is to be painted on",
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "setSurface",
           "normalized": "MPEG-\u003eSurface-\u003eInt-\u003eInt-\u003eIO()",
@@ -1408,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:16 UTC 2014",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "stop",
           "package": "SDL-mpeg",
@@ -1417,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL MPEG",
+          "indexed": "2014-03-11T16:59:16",
           "module": "Graphics.UI.SDL.MPEG",
           "name": "stop",
           "normalized": "MPEG-\u003eIO()",

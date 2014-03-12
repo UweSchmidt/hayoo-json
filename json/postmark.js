@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "postmark"
+        "phrase": "postmark",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Core",
           "name": "Core",
           "package": "postmark",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Core",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Core",
           "name": "Core",
           "package": "postmark",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a single email: http:\u003cem/\u003edeveloper.postmarkapp.com/developer-build.html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Core",
           "name": "email",
           "package": "postmark",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Send single email http developer.postmarkapp.com developer-build.html",
           "hierarchy": "Network Api Postmark Core",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Core",
           "name": "email",
           "normalized": "Email-\u003ePostmarkRequest' Sent",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBulk send emails: http:\u003cem/\u003edeveloper.postmarkapp.com/developer-build.html#batching-messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Core",
           "name": "emails",
           "package": "postmark",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Bulk send emails http developer.postmarkapp.com developer-build.html batching-messages",
           "hierarchy": "Network Api Postmark Core",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Core",
           "name": "emails",
           "normalized": "[Email]-\u003ePostmarkRequest'[Sent]",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the specified request with the specified settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Core",
           "name": "request",
           "package": "postmark",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Run the specified request with the specified settings",
           "hierarchy": "Network Api Postmark Core",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Core",
           "name": "request",
           "normalized": "PostmarkSettings-\u003ePostmarkRequest a b-\u003eIO(PostmarkResponse a b)",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "Data",
           "package": "postmark",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "Data",
           "package": "postmark",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "Attachment",
           "package": "postmark",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "Attachment",
           "package": "postmark",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmail data type. It is recommended that you use the defaultEmail\n   function and selector syntax to build an email, e.g.:\n\u003c/p\u003e\u003cpre\u003e defaultEmail {\n     emailFrom = \"you@yourdomain.com\"\n   , emailTo = \"person@example.com\"\n   , emailSubject = \"This is an example email!\"\n   }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "Email",
           "package": "postmark",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Email data type It is recommended that you use the defaultEmail function and selector syntax to build an email e.g defaultEmail emailFrom you@yourdomain.com emailTo person@example.com emailSubject This is an example email",
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "Email",
           "package": "postmark",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "Sent",
           "package": "postmark",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "Sent",
           "package": "postmark",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "Attachment",
           "package": "postmark",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "Attachment",
           "package": "postmark",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "Email",
           "package": "postmark",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "Email",
           "package": "postmark",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "Sent",
           "package": "postmark",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "Sent",
           "package": "postmark",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "attachmentContent",
           "package": "postmark",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "attachmentContent",
           "package": "postmark",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "attachmentContentType",
           "package": "postmark",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "attachmentContentType",
           "package": "postmark",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "attachmentName",
           "package": "postmark",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "attachmentName",
           "package": "postmark",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "defaultEmail",
           "package": "postmark",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "defaultEmail",
           "package": "postmark",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailAttachments",
           "package": "postmark",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailAttachments",
           "normalized": "[Attachment]",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailBcc",
           "package": "postmark",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailBcc",
           "normalized": "[Text]",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailCc",
           "package": "postmark",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailCc",
           "normalized": "[Text]",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailFrom",
           "package": "postmark",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailFrom",
           "package": "postmark",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailHeaders",
           "package": "postmark",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailHeaders",
           "package": "postmark",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailHtml",
           "package": "postmark",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailHtml",
           "package": "postmark",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailReplyTo",
           "package": "postmark",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailReplyTo",
           "package": "postmark",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailSubject",
           "package": "postmark",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailSubject",
           "package": "postmark",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailTag",
           "package": "postmark",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailTag",
           "package": "postmark",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailText",
           "package": "postmark",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailText",
           "package": "postmark",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "emailTo",
           "package": "postmark",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "emailTo",
           "normalized": "[Text]",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "ojson",
           "package": "postmark",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "ojson",
           "normalized": "Text-\u003eMaybe a-\u003eMaybe(Text,Value)",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "oljson",
           "package": "postmark",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "oljson",
           "normalized": "Text-\u003e[a]-\u003e([a]-\u003eb)-\u003eMaybe(Text,Value)",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "omjson",
           "package": "postmark",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "omjson",
           "normalized": "Text-\u003eMap Text a-\u003eMaybe(Text,Value)",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "postmarkMessageId",
           "package": "postmark",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "postmarkMessageId",
           "package": "postmark",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "postmarkSubmittedAt",
           "package": "postmark",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "postmarkSubmittedAt",
           "package": "postmark",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "postmarkTo",
           "package": "postmark",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "postmarkTo",
           "package": "postmark",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Data",
           "name": "toText",
           "package": "postmark",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Data",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Data",
           "name": "toText",
           "normalized": "ByteString-\u003eText",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "Error",
           "package": "postmark",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "Error",
           "package": "postmark",
@@ -784,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkError",
           "package": "postmark",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkError",
           "package": "postmark",
@@ -805,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkErrorType",
           "package": "postmark",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkErrorType",
           "package": "postmark",
@@ -826,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkBadApiToken",
           "package": "postmark",
@@ -835,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkBadApiToken",
           "package": "postmark",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkBounceNotFound",
           "package": "postmark",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkBounceNotFound",
           "package": "postmark",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkBounceQueryException",
           "package": "postmark",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkBounceQueryException",
           "package": "postmark",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkError",
           "package": "postmark",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkError",
           "package": "postmark",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkInactive",
           "package": "postmark",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkInactive",
           "package": "postmark",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkIncompatibleJson",
           "package": "postmark",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkIncompatibleJson",
           "package": "postmark",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkInvalidEmail",
           "package": "postmark",
@@ -967,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkInvalidEmail",
           "package": "postmark",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkInvalidJson",
           "package": "postmark",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkInvalidJson",
           "package": "postmark",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkJsonRequired",
           "package": "postmark",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkJsonRequired",
           "package": "postmark",
@@ -1024,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkNotAllowed",
           "package": "postmark",
@@ -1033,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkNotAllowed",
           "package": "postmark",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkSenderNotConfirmed",
           "package": "postmark",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkSenderNotConfirmed",
           "package": "postmark",
@@ -1068,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkSenderNotFound",
           "package": "postmark",
@@ -1077,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkSenderNotFound",
           "package": "postmark",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkTooManyMessages",
           "package": "postmark",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkTooManyMessages",
           "package": "postmark",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkUnkownError",
           "package": "postmark",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "PostmarkUnkownError",
           "package": "postmark",
@@ -1134,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "errorMessage",
           "package": "postmark",
@@ -1143,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "errorMessage",
           "package": "postmark",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Error",
           "name": "errorType",
           "package": "postmark",
@@ -1165,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Error",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Error",
           "name": "errorType",
           "package": "postmark",
@@ -1178,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Request",
           "name": "Request",
           "package": "postmark",
@@ -1186,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Request",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Request",
           "name": "Request",
           "package": "postmark",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Request",
           "name": "PostmarkRequest",
           "package": "postmark",
@@ -1207,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Request",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Request",
           "name": "PostmarkRequest",
           "package": "postmark",
@@ -1220,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Request",
           "name": "PostmarkRequest'",
           "package": "postmark",
@@ -1228,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Request",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Request",
           "name": "PostmarkRequest'",
           "package": "postmark",
@@ -1241,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Request",
           "name": "PostmarkRequest",
           "package": "postmark",
@@ -1250,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Request",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Request",
           "name": "PostmarkRequest",
           "normalized": "StdMethod-\u003eText-\u003eRequestTransformer IO-\u003ePostmarkRequest a b",
@@ -1265,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "Response",
           "package": "postmark",
@@ -1273,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "Response",
           "package": "postmark",
@@ -1286,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkResponse",
           "package": "postmark",
@@ -1294,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkResponse",
           "package": "postmark",
@@ -1307,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkResponse'",
           "package": "postmark",
@@ -1315,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkResponse'",
           "package": "postmark",
@@ -1328,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkUnexpectedType",
           "package": "postmark",
@@ -1336,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkUnexpectedType",
           "package": "postmark",
@@ -1349,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "JsonFormatError",
           "package": "postmark",
@@ -1358,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "JsonFormatError",
           "package": "postmark",
@@ -1371,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "JsonSyntaxError",
           "package": "postmark",
@@ -1380,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "JsonSyntaxError",
           "package": "postmark",
@@ -1393,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkFailure",
           "package": "postmark",
@@ -1402,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkFailure",
           "package": "postmark",
@@ -1415,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkSuccess",
           "package": "postmark",
@@ -1424,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkSuccess",
           "package": "postmark",
@@ -1437,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkUnauthorized",
           "package": "postmark",
@@ -1446,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkUnauthorized",
           "package": "postmark",
@@ -1459,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkUnexpected",
           "package": "postmark",
@@ -1468,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "PostmarkUnexpected",
           "package": "postmark",
@@ -1481,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "ServerError",
           "package": "postmark",
@@ -1490,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "ServerError",
           "package": "postmark",
@@ -1503,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "UnexpectedResponseCode",
           "package": "postmark",
@@ -1512,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "UnexpectedResponseCode",
           "package": "postmark",
@@ -1525,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "formatErr",
           "package": "postmark",
@@ -1534,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "formatErr",
           "normalized": "Int-\u003eByteString-\u003eText-\u003ePostmarkResponse a b",
@@ -1549,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Response",
           "name": "syntaxErr",
           "package": "postmark",
@@ -1558,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Response",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Response",
           "name": "syntaxErr",
           "normalized": "Int-\u003eByteString-\u003eText-\u003ePostmarkResponse a b",
@@ -1573,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "Settings",
           "package": "postmark",
@@ -1581,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "Settings",
           "package": "postmark",
@@ -1594,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "PostmarkSettings",
           "package": "postmark",
@@ -1602,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "PostmarkSettings",
           "package": "postmark",
@@ -1615,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "PostmarkSettings",
           "package": "postmark",
@@ -1624,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "PostmarkSettings",
           "package": "postmark",
@@ -1637,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "apiToken",
           "package": "postmark",
@@ -1646,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "apiToken",
           "package": "postmark",
@@ -1659,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "apiUrl",
           "package": "postmark",
@@ -1668,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "apiUrl",
           "package": "postmark",
@@ -1681,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkHttp",
           "package": "postmark",
@@ -1690,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkHttp",
           "normalized": "Text-\u003ePostmarkSettings",
@@ -1705,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkHttpTest",
           "package": "postmark",
@@ -1714,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkHttpTest",
           "package": "postmark",
@@ -1727,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkHttps",
           "package": "postmark",
@@ -1736,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkHttps",
           "normalized": "Text-\u003ePostmarkSettings",
@@ -1751,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkHttpsTest",
           "package": "postmark",
@@ -1760,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkHttpsTest",
           "package": "postmark",
@@ -1773,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkTestToken",
           "package": "postmark",
@@ -1782,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark Settings",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Settings",
           "name": "postmarkTestToken",
           "package": "postmark",
@@ -1796,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003epostmark\u003c/code\u003e is a haskell toolkit for dealing with the postmarkapp.com api\n    for sending and receiving email.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark.Tutorial",
           "name": "Tutorial",
           "package": "postmark",
@@ -1805,6 +1966,7 @@
         "index": {
           "description": "postmark is haskell toolkit for dealing with the postmarkapp.com api for sending and receiving email",
           "hierarchy": "Network Api Postmark Tutorial",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark.Tutorial",
           "name": "Tutorial",
           "package": "postmark",
@@ -1818,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:35 UTC 2014",
           "module": "Network.Api.Postmark",
           "name": "Postmark",
           "package": "postmark",
@@ -1826,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Network Api Postmark",
+          "indexed": "2014-03-11T19:42:35",
           "module": "Network.Api.Postmark",
           "name": "Postmark",
           "package": "postmark",

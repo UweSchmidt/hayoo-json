@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "filesystem-conduit"
+        "phrase": "filesystem-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:08 UTC 2014",
           "module": "Data.Conduit.Filesystem",
           "name": "Filesystem",
           "package": "filesystem-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Filesystem",
+          "indexed": "2014-03-11T18:09:08",
           "module": "Data.Conduit.Filesystem",
           "name": "Filesystem",
           "package": "filesystem-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esinkFile\u003c/a\u003e\u003c/code\u003e, but uses system-filepath's \u003ccode\u003eFilePath\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:08 UTC 2014",
           "module": "Data.Conduit.Filesystem",
           "name": "sinkFile",
           "package": "filesystem-conduit",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Same as sinkFile but uses system-filepath FilePath type",
           "hierarchy": "Data Conduit Filesystem",
+          "indexed": "2014-03-11T18:09:08",
           "module": "Data.Conduit.Filesystem",
           "name": "sinkFile",
           "normalized": "FilePath-\u003eConsumer ByteString a()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esourceFile\u003c/a\u003e\u003c/code\u003e, but uses system-filepath's \u003ccode\u003eFilePath\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:08 UTC 2014",
           "module": "Data.Conduit.Filesystem",
           "name": "sourceFile",
           "package": "filesystem-conduit",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Same as sourceFile but uses system-filepath FilePath type",
           "hierarchy": "Data Conduit Filesystem",
+          "indexed": "2014-03-11T18:09:08",
           "module": "Data.Conduit.Filesystem",
           "name": "sourceFile",
           "normalized": "FilePath-\u003eProducer a ByteString",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarting at some root directory, traverse the filesystem and enumerate\n every file (or symlink to a file) found.\n\u003c/p\u003e\u003cp\u003eNote: the option of whether to follow symlinks is currently only checked\n on POSIX platforms, as the \u003ccode\u003eWin32\u003c/code\u003e package does not support querying\n symlink status. On Windows, symlinks will always be followed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:08 UTC 2014",
           "module": "Data.Conduit.Filesystem",
           "name": "traverse",
           "package": "filesystem-conduit",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Starting at some root directory traverse the filesystem and enumerate every file or symlink to file found Note the option of whether to follow symlinks is currently only checked on POSIX platforms as the Win32 package does not support querying symlink status On Windows symlinks will always be followed",
           "hierarchy": "Data Conduit Filesystem",
+          "indexed": "2014-03-11T18:09:08",
           "module": "Data.Conduit.Filesystem",
           "name": "traverse",
           "normalized": "Bool-\u003eFilePath-\u003eProducer a FilePath",

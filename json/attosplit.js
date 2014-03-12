@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "attosplit"
+        "phrase": "attosplit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSplit a lazy bytestring into a lazy list of lazy bytestrings at\n boundaries defined by an attoparsec parser. The result of\n a matching parse is included at the beginning of the\n lazy bytestring which begins at that point.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:54 UTC 2014",
           "module": "Data.Attoparsec.Split",
           "name": "Split",
           "package": "attosplit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Split lazy bytestring into lazy list of lazy bytestrings at boundaries defined by an attoparsec parser The result of matching parse is included at the beginning of the lazy bytestring which begins at that point",
           "hierarchy": "Data Attoparsec Split",
+          "indexed": "2014-03-11T17:14:54",
           "module": "Data.Attoparsec.Split",
           "name": "Split",
           "package": "attosplit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a lazy bytestring at boundaries defined by an attoparsec parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:54 UTC 2014",
           "module": "Data.Attoparsec.Split",
           "name": "split",
           "package": "attosplit",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Split lazy bytestring at boundaries defined by an attoparsec parser",
           "hierarchy": "Data Attoparsec Split",
+          "indexed": "2014-03-11T17:14:54",
           "module": "Data.Attoparsec.Split",
           "name": "split",
           "normalized": "Parser ByteString-\u003eByteString-\u003e[ByteString]",

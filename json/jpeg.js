@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jpeg"
+        "phrase": "jpeg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "JPEG",
           "package": "jpeg",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "JPEG",
           "package": "jpeg",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Bits",
           "package": "jpeg",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Bits",
           "package": "jpeg",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "DHT",
           "package": "jpeg",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "DHT",
           "package": "jpeg",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "DQT",
           "package": "jpeg",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "DQT",
           "package": "jpeg",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "DataSpec",
           "package": "jpeg",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "DataSpec",
           "package": "jpeg",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "DataUnit",
           "package": "jpeg",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "DataUnit",
           "package": "jpeg",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Dim",
           "package": "jpeg",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Dim",
           "package": "jpeg",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "FrameCompo",
           "package": "jpeg",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "FrameCompo",
           "package": "jpeg",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Huf",
           "package": "jpeg",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Huf",
           "package": "jpeg",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "MCUSpec",
           "package": "jpeg",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "MCUSpec",
           "package": "jpeg",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Mat",
           "package": "jpeg",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Mat",
           "package": "jpeg",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Picture",
           "package": "jpeg",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Picture",
           "package": "jpeg",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "PixelRGB",
           "package": "jpeg",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "PixelRGB",
           "package": "jpeg",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "QtabCompo",
           "package": "jpeg",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "QtabCompo",
           "package": "jpeg",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Qua",
           "package": "jpeg",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Qua",
           "package": "jpeg",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "QuaTab",
           "package": "jpeg",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "QuaTab",
           "package": "jpeg",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "SOF",
           "package": "jpeg",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "SOF",
           "package": "jpeg",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "SOS",
           "package": "jpeg",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "SOS",
           "package": "jpeg",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "ScanCompo",
           "package": "jpeg",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "ScanCompo",
           "package": "jpeg",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Sof",
           "package": "jpeg",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Sof",
           "package": "jpeg",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "State2",
           "package": "jpeg",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "State2",
           "package": "jpeg",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Table",
           "package": "jpeg",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Table",
           "package": "jpeg",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Tree",
           "package": "jpeg",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Tree",
           "package": "jpeg",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "XXX",
           "package": "jpeg",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "XXX",
           "package": "jpeg",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Bin",
           "package": "jpeg",
@@ -531,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Bin",
           "package": "jpeg",
@@ -544,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Nil",
           "package": "jpeg",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Nil",
           "package": "jpeg",
@@ -566,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "PixelRGB",
           "package": "jpeg",
@@ -575,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "PixelRGB",
           "package": "jpeg",
@@ -588,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "Tip",
           "package": "jpeg",
@@ -597,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "Tip",
           "package": "jpeg",
@@ -610,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "acdecode",
           "package": "jpeg",
@@ -619,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "acdecode",
           "normalized": "Tree(Int,Int)-\u003eInt-\u003eState Bits[Int]",
@@ -633,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "blue",
           "package": "jpeg",
@@ -642,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "blue",
           "package": "jpeg",
@@ -654,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "bmpEncode",
           "package": "jpeg",
@@ -663,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "bmpEncode",
           "normalized": "Mat PixelRGB-\u003eString",
@@ -678,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "bmpPad",
           "package": "jpeg",
@@ -687,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "bmpPad",
           "normalized": "Int-\u003eInt",
@@ -702,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "bmphead",
           "package": "jpeg",
@@ -711,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "bmphead",
           "normalized": "[[a]]-\u003eString",
@@ -725,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "bmpline",
           "package": "jpeg",
@@ -734,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "bmpline",
           "normalized": "[PixelRGB]-\u003eString",
@@ -748,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "build",
           "package": "jpeg",
@@ -757,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "build",
           "normalized": "Int-\u003eState[(a,Int)](Tree a)",
@@ -771,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "byte",
           "package": "jpeg",
@@ -780,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "byte",
           "package": "jpeg",
@@ -792,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "byte2bits",
           "package": "jpeg",
@@ -801,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "byte2bits",
           "normalized": "Int-\u003eBits",
@@ -815,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "byte2nibs",
           "package": "jpeg",
@@ -824,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "byte2nibs",
           "normalized": "Int-\u003e(Int,Int)",
@@ -838,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "ceilDiv",
           "package": "jpeg",
@@ -847,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "ceilDiv",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -862,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "cosinuses",
           "package": "jpeg",
@@ -871,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "cosinuses",
           "package": "jpeg",
@@ -883,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "dataunit",
           "package": "jpeg",
@@ -892,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "dataunit",
           "normalized": "DataSpec-\u003eInt-\u003eState Bits(Int,DataUnit)",
@@ -906,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "dcdecode",
           "package": "jpeg",
@@ -915,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "dcdecode",
           "normalized": "Tree Int-\u003eState Bits Int",
@@ -929,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "dequant",
           "package": "jpeg",
@@ -938,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "dequant",
           "normalized": "QuaTab-\u003e[Int]-\u003eMat Int",
@@ -952,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "dhtSeg",
           "package": "jpeg",
@@ -961,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "dhtSeg",
           "normalized": "State String(Int,Int,Tree Int)",
@@ -976,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "dqtSeg",
           "package": "jpeg",
@@ -985,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "dqtSeg",
           "normalized": "State String[(Int,[Int])]",
@@ -1000,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "empty",
           "package": "jpeg",
@@ -1009,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "empty",
           "normalized": "State[a]Bool",
@@ -1023,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "entropy",
           "package": "jpeg",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "entropy",
           "package": "jpeg",
@@ -1044,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "errRes",
           "package": "jpeg",
@@ -1053,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "errRes",
           "package": "jpeg",
@@ -1066,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "evalDHT",
           "package": "jpeg",
@@ -1075,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "evalDHT",
           "normalized": "DHT-\u003eState-\u003eHuf",
@@ -1090,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "evalDQT",
           "package": "jpeg",
@@ -1099,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "evalDQT",
           "normalized": "DQT-\u003eState-\u003eQua",
@@ -1114,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "evalSOF",
           "package": "jpeg",
@@ -1123,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "evalSOF",
           "normalized": "SOF-\u003eState-\u003eSof",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "evalSOS",
           "package": "jpeg",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "evalSOS",
           "normalized": "SOS-\u003eState-\u003ePicture",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "extend",
           "package": "jpeg",
@@ -1171,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "extend",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -1185,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "frameCompo",
           "package": "jpeg",
@@ -1194,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "frameCompo",
           "normalized": "State String(Int,(Int,Int),Int)",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "green",
           "package": "jpeg",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "green",
           "package": "jpeg",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "huffmanTree",
           "package": "jpeg",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "huffmanTree",
           "normalized": "[[a]]-\u003eTree a",
@@ -1254,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "idct1",
           "package": "jpeg",
@@ -1263,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "idct1",
           "normalized": "[Float]-\u003e[Float]",
@@ -1277,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "idct2",
           "package": "jpeg",
@@ -1286,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "idct2",
           "normalized": "Mat Float-\u003eMat Float",
@@ -1300,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "inprod",
           "package": "jpeg",
@@ -1309,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "inprod",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -1323,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "item",
           "package": "jpeg",
@@ -1332,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "item",
           "normalized": "State[a]a",
@@ -1346,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "jpegDecode",
           "package": "jpeg",
@@ -1355,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "jpegDecode",
           "normalized": "String-\u003ePicture",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "jpgFile2bmpFile",
           "package": "jpeg",
@@ -1379,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "jpgFile2bmpFile",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -1394,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "jpgFile2ppmFile",
           "package": "jpeg",
@@ -1403,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "jpgFile2ppmFile",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -1418,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "many",
           "package": "jpeg",
@@ -1427,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "many",
           "normalized": "State[a]b-\u003eState[a][b]",
@@ -1441,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "matapply",
           "package": "jpeg",
@@ -1450,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "matapply",
           "normalized": "Mat a-\u003e[a]-\u003e[a]",
@@ -1464,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "matconcat",
           "package": "jpeg",
@@ -1473,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "matconcat",
           "normalized": "Mat(Mat a)-\u003eMat a",
@@ -1487,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "matmap",
           "package": "jpeg",
@@ -1496,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "matmap",
           "normalized": "(a-\u003eb)-\u003eMat a-\u003eMat b",
@@ -1510,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "matrix",
           "package": "jpeg",
@@ -1519,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "matrix",
           "normalized": "Dim-\u003ea b-\u003ea(Mat b)",
@@ -1533,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "matzip",
           "package": "jpeg",
@@ -1542,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "matzip",
           "normalized": "[Mat a]-\u003eMat[a]",
@@ -1556,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "mcu",
           "package": "jpeg",
@@ -1565,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "mcu",
           "normalized": "MCUSpec-\u003e[Int-\u003eState Bits(Int,DataUnit)]",
@@ -1579,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "mcu2",
           "package": "jpeg",
@@ -1588,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "mcu2",
           "normalized": "MCUSpec-\u003e[Int]-\u003e[State Bits(Int,DataUnit)]",
@@ -1602,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "mcu3",
           "package": "jpeg",
@@ -1611,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "mcu3",
           "normalized": "MCUSpec-\u003e[Int]-\u003eState Bits([Int],[DataUnit])",
@@ -1625,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "mcu4",
           "package": "jpeg",
@@ -1634,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "mcu4",
           "normalized": "MCUSpec-\u003eState(Bits,[Int])Picture",
@@ -1648,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "multi",
           "package": "jpeg",
@@ -1657,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "multi",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -1671,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "nibbles",
           "package": "jpeg",
@@ -1680,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "nibbles",
           "normalized": "State String(Int,Int)",
@@ -1694,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "o",
           "package": "jpeg",
@@ -1703,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "o",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed-\u003ea)-\u003ec-\u003ed-\u003eb",
@@ -1717,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "peekitem",
           "package": "jpeg",
@@ -1726,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "peekitem",
           "normalized": "State[a]a",
@@ -1740,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "picture",
           "package": "jpeg",
@@ -1749,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "picture",
           "normalized": "Dim-\u003eMCUSpec-\u003eState(Bits,[Int])Picture",
@@ -1763,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "ppmEncode",
           "package": "jpeg",
@@ -1772,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "ppmEncode",
           "normalized": "Mat PixelRGB-\u003eString",
@@ -1787,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "qtabCompo",
           "package": "jpeg",
@@ -1796,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "qtabCompo",
           "normalized": "State String(Int,[Int])",
@@ -1811,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "readBinFile",
           "package": "jpeg",
@@ -1820,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "readBinFile",
           "normalized": "String-\u003eIO String",
@@ -1835,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "receive",
           "package": "jpeg",
@@ -1844,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "receive",
           "normalized": "Int-\u003eState Bits Int",
@@ -1858,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "red",
           "package": "jpeg",
@@ -1867,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "red",
           "package": "jpeg",
@@ -1879,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "rgbPixel2bmpChars",
           "package": "jpeg",
@@ -1888,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "rgbPixel2bmpChars",
           "normalized": "PixelRGB-\u003eString",
@@ -1903,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "rgbPixel2ppmChars",
           "package": "jpeg",
@@ -1912,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "rgbPixel2ppmChars",
           "normalized": "PixelRGB-\u003eString",
@@ -1927,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "sane",
           "package": "jpeg",
@@ -1936,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "sane",
           "normalized": "Int-\u003eInt",
@@ -1950,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "scanCompo",
           "package": "jpeg",
@@ -1959,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "scanCompo",
           "normalized": "State String(Int,Int,Int)",
@@ -1974,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "segment",
           "package": "jpeg",
@@ -1983,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "segment",
           "normalized": "(SOF-\u003ea,DHT-\u003ea,DQT-\u003ea,SOS-\u003ea,XXX-\u003ea)-\u003eState String a",
@@ -1997,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "segments",
           "package": "jpeg",
@@ -2006,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "segments",
           "normalized": "State String[State-\u003eState]",
@@ -2020,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "sf_curry",
           "package": "jpeg",
@@ -2029,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "sf_curry",
           "normalized": "State(a,b)c-\u003eb-\u003eState a(b,c)",
@@ -2043,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "sf_uncur",
           "package": "jpeg",
@@ -2052,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "sf_uncur",
           "normalized": "(a-\u003eState b(a,c))-\u003eState(b,a)c",
@@ -2066,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "sofSeg",
           "package": "jpeg",
@@ -2075,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "sofSeg",
           "normalized": "State String((Int,Int),[(Int,(Int,Int),Int)])",
@@ -2090,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "sosSeg",
           "package": "jpeg",
@@ -2099,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "sosSeg",
           "normalized": "State String([(Int,Int,Int)],Bits)",
@@ -2114,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "string2bits",
           "package": "jpeg",
@@ -2123,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "string2bits",
           "normalized": "String-\u003eBits",
@@ -2137,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "subst",
           "package": "jpeg",
@@ -2146,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "subst",
           "normalized": "a-\u003eb-\u003e(a-\u003eb)-\u003ea-\u003eb",
@@ -2160,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "treeLookup",
           "package": "jpeg",
@@ -2169,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "treeLookup",
           "normalized": "Tree a-\u003eState Bits a",
@@ -2184,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "units",
           "package": "jpeg",
@@ -2193,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "units",
           "normalized": "Dim-\u003eDataSpec-\u003eState(Bits,Int)DataUnit",
@@ -2207,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "units2",
           "package": "jpeg",
@@ -2216,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "units2",
           "normalized": "(Dim,DataSpec)-\u003eInt-\u003eState Bits(Int,DataUnit)",
@@ -2230,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "upsamp",
           "package": "jpeg",
@@ -2239,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "upsamp",
           "normalized": "Dim-\u003eMat a-\u003eMat a",
@@ -2253,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "wor",
           "package": "jpeg",
@@ -2262,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "wor",
           "normalized": "Int-\u003eString",
@@ -2276,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "word",
           "package": "jpeg",
@@ -2285,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "word",
           "package": "jpeg",
@@ -2297,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "writeBinFile",
           "package": "jpeg",
@@ -2306,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "writeBinFile",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -2321,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "yCbCr2RGB",
           "package": "jpeg",
@@ -2330,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "yCbCr2RGB",
           "normalized": "[Int]-\u003ePixelRGB",
@@ -2345,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "zigzag",
           "package": "jpeg",
@@ -2354,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "zigzag",
           "normalized": "[a]-\u003eMat a",
@@ -2368,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:41 UTC 2014",
           "module": "Graphics.JPEG",
           "name": "zigzag2",
           "package": "jpeg",
@@ -2377,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Graphics JPEG",
+          "indexed": "2014-03-11T19:01:41",
           "module": "Graphics.JPEG",
           "name": "zigzag2",
           "normalized": "[a]-\u003eMat a",

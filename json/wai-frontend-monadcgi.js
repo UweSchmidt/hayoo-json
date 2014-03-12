@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-frontend-monadcgi"
+        "phrase": "wai-frontend-monadcgi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:02 UTC 2014",
           "module": "Network.Wai.Frontend.MonadCGI",
           "name": "MonadCGI",
           "package": "wai-frontend-monadcgi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Frontend MonadCGI",
+          "indexed": "2014-03-11T20:36:02",
           "module": "Network.Wai.Frontend.MonadCGI",
           "name": "MonadCGI",
           "package": "wai-frontend-monadcgi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:02 UTC 2014",
           "module": "Network.Wai.Frontend.MonadCGI",
           "name": "cgiToApp",
           "package": "wai-frontend-monadcgi",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Frontend MonadCGI",
+          "indexed": "2014-03-11T20:36:02",
           "module": "Network.Wai.Frontend.MonadCGI",
           "name": "cgiToApp",
           "normalized": "CGI CGIResult-\u003eApplication",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:02 UTC 2014",
           "module": "Network.Wai.Frontend.MonadCGI",
           "name": "cgiToAppGeneric",
           "package": "wai-frontend-monadcgi",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Frontend MonadCGI",
+          "indexed": "2014-03-11T20:36:02",
           "module": "Network.Wai.Frontend.MonadCGI",
           "name": "cgiToAppGeneric",
           "normalized": "(a(Headers,CGIResult)-\u003eIO(Headers,CGIResult))-\u003eCGIT a CGIResult-\u003eApplication",

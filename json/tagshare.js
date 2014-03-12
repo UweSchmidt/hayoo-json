@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagshare"
+        "phrase": "tagshare",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad for binding values to tags to ensure sharing, \n with the added twist that the value can be polymorphic\n and each monomorphic instance is bound separately.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:46 UTC 2014",
           "module": "Control.Monad.TagShare",
           "name": "TagShare",
           "package": "tagshare",
@@ -28,6 +29,7 @@
         "index": {
           "description": "monad for binding values to tags to ensure sharing with the added twist that the value can be polymorphic and each monomorphic instance is bound separately",
           "hierarchy": "Control Monad TagShare",
+          "indexed": "2014-03-11T20:16:46",
           "module": "Control.Monad.TagShare",
           "name": "TagShare",
           "package": "tagshare",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dynamic map with type safe\n insertion and lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:46 UTC 2014",
           "module": "Control.Monad.TagShare",
           "name": "DynMap",
           "package": "tagshare",
@@ -51,6 +54,7 @@
         "index": {
           "description": "dynamic map with type safe insertion and lookup",
           "hierarchy": "Control Monad TagShare",
+          "indexed": "2014-03-11T20:16:46",
           "module": "Control.Monad.TagShare",
           "name": "DynMap",
           "package": "tagshare",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sharing monad\n with a function that binds a tag to a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:46 UTC 2014",
           "module": "Control.Monad.TagShare",
           "name": "Sharing",
           "package": "tagshare",
@@ -74,6 +79,7 @@
         "index": {
           "description": "sharing monad with function that binds tag to value",
           "hierarchy": "Control Monad TagShare",
+          "indexed": "2014-03-11T20:16:46",
           "module": "Control.Monad.TagShare",
           "name": "Sharing",
           "package": "tagshare",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:46 UTC 2014",
           "module": "Control.Monad.TagShare",
           "name": "dynEmpty",
           "package": "tagshare",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad TagShare",
+          "indexed": "2014-03-11T20:16:46",
           "module": "Control.Monad.TagShare",
           "name": "dynEmpty",
           "package": "tagshare",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:46 UTC 2014",
           "module": "Control.Monad.TagShare",
           "name": "dynInsert",
           "package": "tagshare",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Control Monad TagShare",
+          "indexed": "2014-03-11T20:16:46",
           "module": "Control.Monad.TagShare",
           "name": "dynInsert",
           "normalized": "a-\u003eb-\u003eDynMap a-\u003eDynMap a",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:46 UTC 2014",
           "module": "Control.Monad.TagShare",
           "name": "dynLookup",
           "package": "tagshare",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Control Monad TagShare",
+          "indexed": "2014-03-11T20:16:46",
           "module": "Control.Monad.TagShare",
           "name": "dynLookup",
           "normalized": "a-\u003eDynMap a-\u003eMaybe b",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:46 UTC 2014",
           "module": "Control.Monad.TagShare",
           "name": "runSharing",
           "package": "tagshare",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Control Monad TagShare",
+          "indexed": "2014-03-11T20:16:46",
           "module": "Control.Monad.TagShare",
           "name": "runSharing",
           "normalized": "Sharing a b-\u003eb",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:46 UTC 2014",
           "module": "Control.Monad.TagShare",
           "name": "share",
           "package": "tagshare",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Control Monad TagShare",
+          "indexed": "2014-03-11T20:16:46",
           "module": "Control.Monad.TagShare",
           "name": "share",
           "normalized": "a-\u003eSharing a b-\u003eSharing a b",

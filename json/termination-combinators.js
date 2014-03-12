@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "termination-combinators"
+        "phrase": "termination-combinators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "Termination",
           "package": "termination-combinators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "Termination",
           "package": "termination-combinators",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "Finite",
           "package": "termination-combinators",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "Finite",
           "package": "termination-combinators",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "Fix",
           "package": "termination-combinators",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "Fix",
           "package": "termination-combinators",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "TTest",
           "package": "termination-combinators",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "TTest",
           "package": "termination-combinators",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "TestResult",
           "package": "termination-combinators",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "TestResult",
           "package": "termination-combinators",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "WellOrdered",
           "package": "termination-combinators",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "WellOrdered",
           "package": "termination-combinators",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "Continue",
           "package": "termination-combinators",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "Continue",
           "package": "termination-combinators",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "Roll",
           "package": "termination-combinators",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "Roll",
           "package": "termination-combinators",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "Stop",
           "package": "termination-combinators",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "Stop",
           "package": "termination-combinators",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "alwaysT",
           "package": "termination-combinators",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "alwaysT",
           "package": "termination-combinators",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "boolT",
           "package": "termination-combinators",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "boolT",
           "package": "termination-combinators",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "eitherT",
           "package": "termination-combinators",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "eitherT",
           "normalized": "TTest a-\u003eTTest b-\u003eTTest(Either a b)",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "finiteMapT",
           "package": "termination-combinators",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "finiteMapT",
           "normalized": "TTest a-\u003eTTest(Map b a)",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "finiteT",
           "package": "termination-combinators",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "finiteT",
           "package": "termination-combinators",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "fixT",
           "package": "termination-combinators",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "fixT",
           "normalized": "(a b c d-\u003e[d])-\u003e(a b c d-\u003ec d)-\u003e(a b TTest d-\u003eTTest(c d))-\u003eTTest(Fix c)",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "gfixT",
           "package": "termination-combinators",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "gfixT",
           "normalized": "(a b TTest c-\u003eTTest(d c))-\u003eTTest(Fix d)",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "initHistory",
           "package": "termination-combinators",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "initHistory",
           "normalized": "TTest a-\u003eHistory a",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "intT",
           "package": "termination-combinators",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "intT",
           "package": "termination-combinators",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "pairT",
           "package": "termination-combinators",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "pairT",
           "normalized": "TTest a-\u003eTTest b-\u003eTTest(a,b)",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "test",
           "package": "termination-combinators",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "test",
           "normalized": "History a-\u003ea-\u003eTestResult a",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "unitT",
           "package": "termination-combinators",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "unitT",
           "normalized": "TTest()",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:53 UTC 2014",
           "module": "Control.Termination",
           "name": "unroll",
           "package": "termination-combinators",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Control Termination",
+          "indexed": "2014-03-11T20:18:53",
           "module": "Control.Termination",
           "name": "unroll",
           "package": "termination-combinators",

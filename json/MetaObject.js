@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MetaObject"
+        "phrase": "MetaObject",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "Base",
           "package": "MetaObject",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "Base",
           "package": "MetaObject",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "Arguments",
           "package": "MetaObject",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "Arguments",
           "package": "MetaObject",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen type to represent Code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "Codeable",
           "package": "MetaObject",
@@ -70,6 +75,7 @@
         "index": {
           "description": "open type to represent Code",
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "Codeable",
           "package": "MetaObject",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal monadic primitive code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "HsCode",
           "package": "MetaObject",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Real monadic primitive code",
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "HsCode",
           "package": "MetaObject",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "Invocant",
           "package": "MetaObject",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "Invocant",
           "package": "MetaObject",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estub code which always return the same\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "NoCode",
           "package": "MetaObject",
@@ -137,6 +148,7 @@
         "index": {
           "description": "stub code which always return the same",
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "NoCode",
           "package": "MetaObject",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure code that works with any monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "PureCode",
           "package": "MetaObject",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Pure code that works with any monad",
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "PureCode",
           "package": "MetaObject",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "HsCode",
           "package": "MetaObject",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "HsCode",
           "normalized": "HsCode(Arguments a-\u003ea(Invocant a))",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "MkInvocant",
           "package": "MetaObject",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "MkInvocant",
           "package": "MetaObject",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "NoCode",
           "package": "MetaObject",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "NoCode",
           "package": "MetaObject",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "PureCode",
           "package": "MetaObject",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "PureCode",
           "normalized": "Arguments a-\u003eInvocant a)",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "getInvocant",
           "package": "MetaObject",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "getInvocant",
           "normalized": "Arguments a-\u003eMaybe(Invocant a)",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "namedArg",
           "package": "MetaObject",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "namedArg",
           "normalized": "Arguments a-\u003eAtom-\u003eMaybe(Invocant a)",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "run",
           "package": "MetaObject",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "run",
           "normalized": "a-\u003eArguments b-\u003eb(Invocant b)",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "stubInvocant",
           "package": "MetaObject",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "stubInvocant",
           "package": "MetaObject",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Base",
           "name": "withInvocant",
           "package": "MetaObject",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "MO Base",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Base",
           "name": "withInvocant",
           "normalized": "Arguments a-\u003eInvocant a-\u003eArguments a",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "Capture",
           "package": "MetaObject",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "Capture",
           "package": "MetaObject",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea Capture is a frozen version of the arguments to an application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "Capt",
           "package": "MetaObject",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Capture is frozen version of the arguments to an application",
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "Capt",
           "package": "MetaObject",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-invocant arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "Feed",
           "package": "MetaObject",
@@ -436,6 +473,7 @@
         "index": {
           "description": "non-invocant arguments",
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "Feed",
           "package": "MetaObject",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "CaptMeth",
           "package": "MetaObject",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "CaptMeth",
           "package": "MetaObject",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "CaptSub",
           "package": "MetaObject",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "CaptSub",
           "package": "MetaObject",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "MkFeed",
           "package": "MetaObject",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "MkFeed",
           "package": "MetaObject",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "c_feeds",
           "package": "MetaObject",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "c_feeds",
           "package": "MetaObject",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "c_invocant",
           "package": "MetaObject",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "c_invocant",
           "package": "MetaObject",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "concatFeeds",
           "package": "MetaObject",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "concatFeeds",
           "normalized": "Seq(Feed a)-\u003eFeed a",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "emptyFeed",
           "package": "MetaObject",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "emptyFeed",
           "package": "MetaObject",
@@ -604,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps to [:a:] and not a since if the Sig stipulates\n   \u003ccode\u003ex, \u003ca\u003ex =\u003e 1, x =\u003e 2\u003c/a\u003e constructs \u003c/code\u003ex = (1, 2).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "f_nameds",
           "package": "MetaObject",
@@ -614,6 +667,7 @@
         "index": {
           "description": "maps to and not since if the Sig stipulates constructs",
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "f_nameds",
           "package": "MetaObject",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Capture",
           "name": "f_positionals",
           "package": "MetaObject",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "MO Capture",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Capture",
           "name": "f_positionals",
           "package": "MetaObject",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "Attribute",
           "package": "MetaObject",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "Attribute",
           "package": "MetaObject",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "Attribute",
           "package": "MetaObject",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "Attribute",
           "package": "MetaObject",
@@ -689,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "AttributeName",
           "package": "MetaObject",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "AttributeName",
           "package": "MetaObject",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "MkAttribute",
           "package": "MetaObject",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "MkAttribute",
           "package": "MetaObject",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "a_accessor_name",
           "package": "MetaObject",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "a_accessor_name",
           "package": "MetaObject",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "a_default",
           "package": "MetaObject",
@@ -762,6 +829,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "a_default",
           "package": "MetaObject",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "a_is_private",
           "package": "MetaObject",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "a_is_private",
           "package": "MetaObject",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "a_name",
           "package": "MetaObject",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "a_name",
           "package": "MetaObject",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "mkAttribute",
           "package": "MetaObject",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "mkAttribute",
           "normalized": "AttributeName-\u003eInvocant a-\u003eAttribute a",
@@ -840,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "mkAttributeMandatory",
           "package": "MetaObject",
@@ -849,6 +924,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "mkAttributeMandatory",
           "normalized": "AttributeName-\u003eAttribute a",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "mkAttributeStub",
           "package": "MetaObject",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "mkAttributeStub",
           "normalized": "AttributeName-\u003eAttribute a",
@@ -888,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "mkPrivateAttribute",
           "package": "MetaObject",
@@ -897,6 +976,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "mkPrivateAttribute",
           "normalized": "AttributeName-\u003eInvocant a-\u003eAttribute a",
@@ -912,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "mkPrivateAttributeMandatory",
           "package": "MetaObject",
@@ -921,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "mkPrivateAttributeMandatory",
           "normalized": "AttributeName-\u003eAttribute a",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Attribute",
           "name": "mkPrivateAttributeStub",
           "package": "MetaObject",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Attribute",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Attribute",
           "name": "mkPrivateAttributeStub",
           "normalized": "AttributeName-\u003eAttribute a",
@@ -960,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "Class",
           "package": "MetaObject",
@@ -968,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "Class",
           "package": "MetaObject",
@@ -981,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "AnyClass",
           "package": "MetaObject",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "AnyClass",
           "package": "MetaObject",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "Class",
           "package": "MetaObject",
@@ -1010,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "Class",
           "package": "MetaObject",
@@ -1023,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "ClassName",
           "package": "MetaObject",
@@ -1031,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "ClassName",
           "package": "MetaObject",
@@ -1044,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "MOClass",
           "package": "MetaObject",
@@ -1052,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "MOClass",
           "package": "MetaObject",
@@ -1065,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "MethodAttached",
           "package": "MetaObject",
@@ -1073,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "MethodAttached",
           "package": "MetaObject",
@@ -1086,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "MkClass",
           "package": "MetaObject",
@@ -1095,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "MkClass",
           "package": "MetaObject",
@@ -1108,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "MkMOClass",
           "package": "MetaObject",
@@ -1117,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "MkMOClass",
           "package": "MetaObject",
@@ -1130,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "MkMethodAttached",
           "package": "MetaObject",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "MkMethodAttached",
           "package": "MetaObject",
@@ -1152,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "_bless",
           "package": "MetaObject",
@@ -1161,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "_bless",
           "package": "MetaObject",
@@ -1173,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "all_attribute_methods",
           "package": "MetaObject",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "all_attribute_methods",
           "normalized": "a-\u003e[AnyMethod b]",
@@ -1196,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "all_attributes",
           "package": "MetaObject",
@@ -1205,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "all_attributes",
           "normalized": "a-\u003e[Attribute b]",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "all_methods",
           "package": "MetaObject",
@@ -1228,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "all_methods",
           "normalized": "a-\u003e[AnyMethod b]",
@@ -1242,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "all_regular_methods",
           "package": "MetaObject",
@@ -1251,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "all_regular_methods",
           "normalized": "a-\u003e[AnyMethod b]",
@@ -1265,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "attributes",
           "package": "MetaObject",
@@ -1274,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "attributes",
           "normalized": "a-\u003e[Attribute b]",
@@ -1288,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "blessMOClass",
           "package": "MetaObject",
@@ -1297,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "blessMOClass",
           "normalized": "a-\u003eAnyMethod b",
@@ -1312,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "class_interface",
           "package": "MetaObject",
@@ -1321,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "class_interface",
           "normalized": "a-\u003eAnyResponder b",
@@ -1335,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "class_name",
           "package": "MetaObject",
@@ -1344,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "class_name",
           "normalized": "a-\u003eClassName",
@@ -1358,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "class_precedence_list",
           "package": "MetaObject",
@@ -1367,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "class_precedence_list",
           "normalized": "a-\u003e[AnyClass b]",
@@ -1381,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "emptyMOClass",
           "package": "MetaObject",
@@ -1390,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "emptyMOClass",
           "package": "MetaObject",
@@ -1403,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "merged_roles",
           "package": "MetaObject",
@@ -1412,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "merged_roles",
           "normalized": "a-\u003eRole b",
@@ -1426,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "moc_attributes",
           "package": "MetaObject",
@@ -1435,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "moc_attributes",
           "normalized": "[Attribute a]",
@@ -1449,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "moc_name",
           "package": "MetaObject",
@@ -1458,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "moc_name",
           "package": "MetaObject",
@@ -1470,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "moc_parents",
           "package": "MetaObject",
@@ -1479,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "moc_parents",
           "normalized": "[AnyClass a]",
@@ -1493,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "moc_private_methods",
           "package": "MetaObject",
@@ -1502,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "moc_private_methods",
           "package": "MetaObject",
@@ -1514,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "moc_public_methods",
           "package": "MetaObject",
@@ -1523,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "moc_public_methods",
           "package": "MetaObject",
@@ -1535,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "moc_roles",
           "package": "MetaObject",
@@ -1544,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "moc_roles",
           "normalized": "[Role a]",
@@ -1558,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "newMOClass",
           "package": "MetaObject",
@@ -1567,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "newMOClass",
           "normalized": "MOClass a-\u003eMOClass a",
@@ -1582,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "private_methods",
           "package": "MetaObject",
@@ -1591,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "private_methods",
           "normalized": "a-\u003eCollection(AnyMethod b)",
@@ -1605,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "public_methods",
           "package": "MetaObject",
@@ -1614,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "public_methods",
           "normalized": "a-\u003eCollection(AnyMethod b)",
@@ -1628,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "roles",
           "package": "MetaObject",
@@ -1637,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "roles",
           "normalized": "a-\u003e[Role b]",
@@ -1651,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Class",
           "name": "superclasses",
           "package": "MetaObject",
@@ -1660,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Class",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Class",
           "name": "superclasses",
           "normalized": "a-\u003e[AnyClass b]",
@@ -1674,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "Role",
           "package": "MetaObject",
@@ -1682,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "Role",
           "package": "MetaObject",
@@ -1695,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "Role",
           "package": "MetaObject",
@@ -1703,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "Role",
           "package": "MetaObject",
@@ -1716,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "MkRole",
           "package": "MetaObject",
@@ -1725,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "MkRole",
           "package": "MetaObject",
@@ -1738,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "all_using_role_inheritance",
           "package": "MetaObject",
@@ -1747,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "all_using_role_inheritance",
           "normalized": "Role a-\u003e(Role a-\u003eCollection b)-\u003eCollection b",
@@ -1761,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "all_using_role_shadowing",
           "package": "MetaObject",
@@ -1770,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "all_using_role_shadowing",
           "normalized": "Role a-\u003e(Role a-\u003eCollection b)-\u003eCollection b",
@@ -1784,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "emptyRole",
           "package": "MetaObject",
@@ -1793,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "emptyRole",
           "package": "MetaObject",
@@ -1806,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "parent_roles",
           "package": "MetaObject",
@@ -1815,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "parent_roles",
           "normalized": "Role a-\u003e[Role a]",
@@ -1829,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "r_attributes",
           "package": "MetaObject",
@@ -1838,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "r_attributes",
           "normalized": "[Attribute a]",
@@ -1852,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "r_private_methods",
           "package": "MetaObject",
@@ -1861,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "r_private_methods",
           "package": "MetaObject",
@@ -1873,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "r_public_methods",
           "package": "MetaObject",
@@ -1882,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "r_public_methods",
           "package": "MetaObject",
@@ -1894,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "r_roles",
           "package": "MetaObject",
@@ -1903,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "r_roles",
           "normalized": "[Role a]",
@@ -1917,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "role_attributes",
           "package": "MetaObject",
@@ -1926,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "role_attributes",
           "normalized": "Role a-\u003e[Attribute a]",
@@ -1940,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "role_private_methods",
           "package": "MetaObject",
@@ -1949,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "role_private_methods",
           "normalized": "Role a-\u003eCollection(AnyMethod a)",
@@ -1963,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile.Role",
           "name": "role_public_methods",
           "package": "MetaObject",
@@ -1972,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "MO Compile Role",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile.Role",
           "name": "role_public_methods",
           "normalized": "Role a-\u003eCollection(AnyMethod a)",
@@ -1986,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "Compile",
           "package": "MetaObject",
@@ -1994,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "Compile",
           "package": "MetaObject",
@@ -2007,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "AnyMethod",
           "package": "MetaObject",
@@ -2015,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "AnyMethod",
           "package": "MetaObject",
@@ -2028,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "Method",
           "package": "MetaObject",
@@ -2036,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "Method",
           "package": "MetaObject",
@@ -2049,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "MethodCompiled",
           "package": "MetaObject",
@@ -2057,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "MethodCompiled",
           "package": "MetaObject",
@@ -2070,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "MethodName",
           "package": "MetaObject",
@@ -2078,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "MethodName",
           "package": "MetaObject",
@@ -2091,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "SimpleMethod",
           "package": "MetaObject",
@@ -2099,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "SimpleMethod",
           "package": "MetaObject",
@@ -2112,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "MkMethod",
           "package": "MetaObject",
@@ -2121,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "MkMethod",
           "package": "MetaObject",
@@ -2134,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "MkMethodCompiled",
           "package": "MetaObject",
@@ -2143,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "MkMethodCompiled",
           "package": "MetaObject",
@@ -2156,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "MkSimpleMethod",
           "package": "MetaObject",
@@ -2165,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "MkSimpleMethod",
           "package": "MetaObject",
@@ -2178,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "methodCompile",
           "package": "MetaObject",
@@ -2187,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "methodCompile",
           "normalized": "a-\u003eMethodCompiled b",
@@ -2202,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "methodName",
           "package": "MetaObject",
@@ -2211,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "methodName",
           "normalized": "a-\u003eMethodName",
@@ -2226,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "runMC",
           "package": "MetaObject",
@@ -2235,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "runMC",
           "normalized": "Arguments a-\u003ea(Invocant a)",
@@ -2250,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "sm_definition",
           "package": "MetaObject",
@@ -2259,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "sm_definition",
           "package": "MetaObject",
@@ -2271,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Compile",
           "name": "sm_name",
           "package": "MetaObject",
@@ -2280,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "MO Compile",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Compile",
           "name": "sm_name",
           "package": "MetaObject",
@@ -2292,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "Run",
           "package": "MetaObject",
@@ -2300,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "Run",
           "package": "MetaObject",
@@ -2313,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "AnyResponder",
           "package": "MetaObject",
@@ -2321,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "AnyResponder",
           "package": "MetaObject",
@@ -2334,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "MethodInvocation",
           "package": "MetaObject",
@@ -2342,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "MethodInvocation",
           "package": "MetaObject",
@@ -2356,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a static method table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "MethodTable",
           "package": "MetaObject",
@@ -2365,6 +2576,7 @@
         "index": {
           "description": "This is static method table",
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "MethodTable",
           "package": "MetaObject",
@@ -2378,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "NoResponse",
           "package": "MetaObject",
@@ -2386,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "NoResponse",
           "package": "MetaObject",
@@ -2399,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "ResponderInterface",
           "package": "MetaObject",
@@ -2407,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "ResponderInterface",
           "package": "MetaObject",
@@ -2420,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "MkMethodInvocation",
           "package": "MetaObject",
@@ -2429,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "MkMethodInvocation",
           "package": "MetaObject",
@@ -2442,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "MkMethodTable",
           "package": "MetaObject",
@@ -2451,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "MkMethodTable",
           "package": "MetaObject",
@@ -2464,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "MkResponder",
           "package": "MetaObject",
@@ -2473,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "MkResponder",
           "package": "MetaObject",
@@ -2486,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "NoResponse",
           "package": "MetaObject",
@@ -2495,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "NoResponse",
           "package": "MetaObject",
@@ -2508,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "__",
           "package": "MetaObject",
@@ -2517,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "__",
           "normalized": "a-\u003eInvocant b",
@@ -2531,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "dispatch",
           "package": "MetaObject",
@@ -2540,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "dispatch",
           "normalized": "a-\u003eInvocant b-\u003eMethodInvocation b-\u003eb(Invocant b)",
@@ -2554,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "emptyResponder",
           "package": "MetaObject",
@@ -2563,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "emptyResponder",
           "package": "MetaObject",
@@ -2576,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "fromInvocant",
           "package": "MetaObject",
@@ -2585,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "fromInvocant",
           "normalized": "Arguments a-\u003ea b",
@@ -2600,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "fromMethodList",
           "package": "MetaObject",
@@ -2609,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "fromMethodList",
           "normalized": "[(MethodName,MethodCompiled a)]-\u003ea b",
@@ -2624,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "ivDispatch",
           "package": "MetaObject",
@@ -2633,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "ivDispatch",
           "normalized": "Invocant a-\u003eMethodInvocation a-\u003ea(Invocant a)",
@@ -2648,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "mi_arguments",
           "package": "MetaObject",
@@ -2657,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "mi_arguments",
           "package": "MetaObject",
@@ -2669,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "mi_name",
           "package": "MetaObject",
@@ -2678,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "mi_name",
           "package": "MetaObject",
@@ -2690,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "mkArgs",
           "package": "MetaObject",
@@ -2699,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "mkArgs",
           "normalized": "[Invocant a]-\u003eArguments a",
@@ -2714,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Run",
           "name": "mt_methods",
           "package": "MetaObject",
@@ -2723,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "MO Run",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Run",
           "name": "mt_methods",
           "package": "MetaObject",
@@ -2736,6 +2980,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eC3 method resolution order implementation based on algorithm described\n in \u003cem\u003eThe Python 2.3 Method Resolution Order, v1.4\u003c/em\u003e, by Michele Simionato\n available at \u003ca\u003ehttp://www.python.org/download/releases/2.3/mro/\u003c/a\u003e. Some\n tests also copied from Perl module Algorithm::C3.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003emain\u003c/code\u003e function contains the test cases.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util.C3",
           "name": "C3",
           "package": "MetaObject",
@@ -2745,6 +2990,7 @@
         "index": {
           "description": "C3 method resolution order implementation based on algorithm described in The Python Method Resolution Order v1.4 by Michele Simionato available at http www.python.org download releases mro Some tests also copied from Perl module Algorithm C3 The main function contains the test cases",
           "hierarchy": "MO Util C3",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util.C3",
           "name": "C3",
           "package": "MetaObject",
@@ -2758,6 +3004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the a linearization using C3 algorithm. Takes a function\n and an element. We can apply the function in this element to obtain\n its parents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util.C3",
           "name": "linearize",
           "package": "MetaObject",
@@ -2768,6 +3015,7 @@
         "index": {
           "description": "Returns the linearization using C3 algorithm Takes function and an element We can apply the function in this element to obtain its parents",
           "hierarchy": "MO Util C3",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util.C3",
           "name": "linearize",
           "normalized": "(a-\u003eb[a])-\u003ea-\u003eb[a]",
@@ -2782,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "Util",
           "package": "MetaObject",
@@ -2790,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "Util",
           "package": "MetaObject",
@@ -2803,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "Collection",
           "package": "MetaObject",
@@ -2811,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "Collection",
           "package": "MetaObject",
@@ -2824,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "(?\u003c=\u003e?)",
           "package": "MetaObject",
@@ -2833,6 +3086,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "(?\u003c=\u003e?) ?\u003c=\u003e?",
           "normalized": "a-\u003eb-\u003eOrdering",
@@ -2847,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "(?==?)",
           "package": "MetaObject",
@@ -2856,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "(?==?) ?==?",
           "normalized": "a-\u003eb-\u003eBool",
@@ -2870,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "MkCollection",
           "package": "MetaObject",
@@ -2879,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "MkCollection",
           "package": "MetaObject",
@@ -2892,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "add",
           "package": "MetaObject",
@@ -2901,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "add",
           "normalized": "Atom-\u003ea-\u003eCollection a-\u003eb(Collection a)",
@@ -2915,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "addressOf",
           "package": "MetaObject",
@@ -2924,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "addressOf",
           "normalized": "a-\u003eWord",
@@ -2939,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "c_names",
           "package": "MetaObject",
@@ -2948,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "c_names",
           "package": "MetaObject",
@@ -2960,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "c_objects",
           "package": "MetaObject",
@@ -2969,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "c_objects",
           "package": "MetaObject",
@@ -2981,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "cmap",
           "package": "MetaObject",
@@ -2990,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "cmap",
           "normalized": "(a-\u003eb)-\u003eCollection a-\u003eCollection b",
@@ -3004,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "emptyCollection",
           "package": "MetaObject",
@@ -3013,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "emptyCollection",
           "package": "MetaObject",
@@ -3026,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "includes",
           "package": "MetaObject",
@@ -3035,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "includes",
           "normalized": "Collection a-\u003ea-\u003eBool",
@@ -3049,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "includes_all",
           "package": "MetaObject",
@@ -3058,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "includes_all",
           "normalized": "Collection a-\u003e[a]-\u003eBool",
@@ -3072,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "includes_any",
           "package": "MetaObject",
@@ -3081,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "includes_any",
           "normalized": "Collection a-\u003e[a]-\u003eBool",
@@ -3095,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "includes_any_name",
           "package": "MetaObject",
@@ -3104,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "includes_any_name",
           "normalized": "Collection a-\u003e[Atom]-\u003eBool",
@@ -3118,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "includes_name",
           "package": "MetaObject",
@@ -3127,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "includes_name",
           "normalized": "Collection a-\u003eAtom-\u003eBool",
@@ -3141,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "insert",
           "package": "MetaObject",
@@ -3150,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "insert",
           "normalized": "Atom-\u003ea-\u003eCollection a-\u003eCollection a",
@@ -3164,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "items",
           "package": "MetaObject",
@@ -3173,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "items",
           "normalized": "Collection a-\u003e[a]",
@@ -3187,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "items_named",
           "package": "MetaObject",
@@ -3196,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "items_named",
           "normalized": "Collection a-\u003e[(Atom,a)]",
@@ -3210,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "merge",
           "package": "MetaObject",
@@ -3219,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "merge",
           "normalized": "[Collection a]-\u003e[a]",
@@ -3233,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "merge'",
           "package": "MetaObject",
@@ -3242,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "merge'",
           "normalized": "[Collection a]-\u003eAtomMap a",
@@ -3256,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "merge_collection",
           "package": "MetaObject",
@@ -3265,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "merge_collection",
           "normalized": "[Collection a]-\u003eCollection a",
@@ -3279,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "newCollection",
           "package": "MetaObject",
@@ -3288,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "newCollection",
           "normalized": "[(Atom,a)]-\u003eCollection a",
@@ -3303,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "newCollection'",
           "package": "MetaObject",
@@ -3312,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "newCollection'",
           "normalized": "(a-\u003eAtom)-\u003e[a]-\u003eCollection a",
@@ -3327,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "newCollectionMap",
           "package": "MetaObject",
@@ -3336,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "newCollectionMap",
           "normalized": "AtomMap a-\u003eCollection a",
@@ -3351,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "on",
           "package": "MetaObject",
@@ -3360,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "on",
           "normalized": "(a-\u003ea-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003ec-\u003eb",
@@ -3374,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "remove",
           "package": "MetaObject",
@@ -3383,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "remove",
           "normalized": "Atom-\u003ea-\u003eCollection a-\u003eb(Collection a)",
@@ -3397,6 +3699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "shadow",
           "package": "MetaObject",
@@ -3406,6 +3709,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "shadow",
           "normalized": "[Collection a]-\u003e[a]",
@@ -3420,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "shadow'",
           "package": "MetaObject",
@@ -3429,6 +3734,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "shadow'",
           "normalized": "[Collection a]-\u003eAtomMap a",
@@ -3443,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "shadow_collection",
           "package": "MetaObject",
@@ -3452,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "shadow_collection",
           "normalized": "[Collection a]-\u003eCollection a",
@@ -3466,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "sym_inheritance",
           "package": "MetaObject",
@@ -3475,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "sym_inheritance",
           "normalized": "a-\u003e(a-\u003e[a])-\u003e(a-\u003eCollection b)-\u003eCollection b",
@@ -3489,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "sym_merged_parents",
           "package": "MetaObject",
@@ -3498,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "sym_merged_parents",
           "normalized": "a-\u003e(a-\u003e[a])-\u003e(a-\u003eCollection b)-\u003eCollection b",
@@ -3512,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "sym_shadowing",
           "package": "MetaObject",
@@ -3521,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "sym_shadowing",
           "normalized": "a-\u003e(a-\u003e[a])-\u003e(a-\u003eCollection b)-\u003eCollection b",
@@ -3536,6 +3850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen called, \u003ccode\u003e\u003ca\u003etrace\u003c/a\u003e\u003c/code\u003e outputs the string in its first argument, before \nreturning the second argument as its result. The \u003ccode\u003e\u003ca\u003etrace\u003c/a\u003e\u003c/code\u003e function is not \nreferentially transparent, and should only be used for debugging, or for \nmonitoring execution. Some implementations of \u003ccode\u003e\u003ca\u003etrace\u003c/a\u003e\u003c/code\u003e may decorate the string \nthat's output to indicate that you're tracing. The function is implemented on\ntop of \u003ccode\u003e\u003ca\u003eputTraceMsg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "trace",
           "package": "MetaObject",
@@ -3545,6 +3860,7 @@
         "index": {
           "description": "When called trace outputs the string in its first argument before returning the second argument as its result The trace function is not referentially transparent and should only be used for debugging or for monitoring execution Some implementations of trace may decorate the string that output to indicate that you re tracing The function is implemented on top of putTraceMsg",
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "trace",
           "normalized": "String-\u003ea-\u003ea",
@@ -3559,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "traceM",
           "package": "MetaObject",
@@ -3568,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "traceM",
           "normalized": "String-\u003ea()",
@@ -3582,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:43 UTC 2014",
           "module": "MO.Util",
           "name": "traceShow",
           "package": "MetaObject",
@@ -3591,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "MO Util",
+          "indexed": "2014-03-11T16:52:43",
           "module": "MO.Util",
           "name": "traceShow",
           "normalized": "a-\u003eb-\u003eb",

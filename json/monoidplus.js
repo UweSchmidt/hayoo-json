@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monoidplus"
+        "phrase": "monoidplus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Plus",
           "package": "monoidplus",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Plus",
           "package": "monoidplus",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "BoundFrac",
           "package": "monoidplus",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "BoundFrac",
           "package": "monoidplus",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "CatEndo",
           "package": "monoidplus",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "CatEndo",
           "package": "monoidplus",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Group",
           "package": "monoidplus",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Group",
           "package": "monoidplus",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Lukasiewicz",
           "package": "monoidplus",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Lukasiewicz",
           "package": "monoidplus",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "MonoidMinus",
           "package": "monoidplus",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "MonoidMinus",
           "package": "monoidplus",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "MonoidNorm",
           "package": "monoidplus",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "MonoidNorm",
           "package": "monoidplus",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "MonoidPlus",
           "package": "monoidplus",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "MonoidPlus",
           "package": "monoidplus",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "MonoidPlusNorm",
           "package": "monoidplus",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "MonoidPlusNorm",
           "package": "monoidplus",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Possibilistic",
           "package": "monoidplus",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Possibilistic",
           "package": "monoidplus",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Prob",
           "package": "monoidplus",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Prob",
           "package": "monoidplus",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Ring",
           "package": "monoidplus",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Ring",
           "package": "monoidplus",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Semiring",
           "package": "monoidplus",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Semiring",
           "package": "monoidplus",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "WrapMonoidPlus",
           "package": "monoidplus",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "WrapMonoidPlus",
           "package": "monoidplus",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "(|*|)",
           "package": "monoidplus",
@@ -321,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "(|*|) |*|",
           "normalized": "a-\u003ea-\u003ea",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "(|+|)",
           "package": "monoidplus",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "(|+|) |+|",
           "normalized": "a-\u003ea-\u003ea",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "(|-|)",
           "package": "monoidplus",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "(|-|) |-|",
           "normalized": "a-\u003ea-\u003ea",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "(|/|)",
           "package": "monoidplus",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "(|/|) |/|",
           "normalized": "a-\u003ea-\u003ea",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "CatEndo",
           "package": "monoidplus",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "CatEndo",
           "package": "monoidplus",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Lukasiewicz",
           "package": "monoidplus",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Lukasiewicz",
           "package": "monoidplus",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "Possibilistic",
           "package": "monoidplus",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "Possibilistic",
           "package": "monoidplus",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "WrapMonoidPlus",
           "package": "monoidplus",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "WrapMonoidPlus",
           "package": "monoidplus",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "fromBoundFrac",
           "package": "monoidplus",
@@ -501,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "fromBoundFrac",
           "normalized": "BoundFrac a-\u003ea",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "getLukasiewicz",
           "package": "monoidplus",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "getLukasiewicz",
           "package": "monoidplus",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "getPossibilistic",
           "package": "monoidplus",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "getPossibilistic",
           "package": "monoidplus",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "minverse",
           "package": "monoidplus",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "minverse",
           "normalized": "a-\u003ea",
@@ -583,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mnormalize",
           "package": "monoidplus",
@@ -592,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mnormalize",
           "normalized": "[a]-\u003e[a]",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mnormfunc",
           "package": "monoidplus",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mnormfunc",
           "normalized": "[a]-\u003ea-\u003ea",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "monoidicMap",
           "package": "monoidplus",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "monoidicMap",
           "normalized": "(a-\u003eb)-\u003eWriterT a c d-\u003eWriterT b c d",
@@ -653,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mpappend",
           "package": "monoidplus",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mpappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mpconcat",
           "package": "monoidplus",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mpconcat",
           "normalized": "[a]-\u003ea",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mpempty",
           "package": "monoidplus",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mpempty",
           "package": "monoidplus",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mpinverse",
           "package": "monoidplus",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mpinverse",
           "normalized": "a-\u003ea",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mpnormalize",
           "package": "monoidplus",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mpnormalize",
           "normalized": "[a]-\u003e[a]",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mpnormfunc",
           "package": "monoidplus",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mpnormfunc",
           "normalized": "[a]-\u003ea-\u003ea",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "mpure",
           "package": "monoidplus",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "mpure",
           "normalized": "a-\u003eb-\u003eWriterT a c b",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "pChoice",
           "package": "monoidplus",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "pChoice",
           "normalized": "a-\u003eProb a b-\u003eProb a b-\u003eProb a b",
@@ -836,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "pChoose",
           "package": "monoidplus",
@@ -845,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "pChoose",
           "normalized": "a-\u003eb-\u003eb-\u003eProb a b",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "probNorm",
           "package": "monoidplus",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "probNorm",
           "normalized": "Prob a b-\u003eProb a b",
@@ -884,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "probOf",
           "package": "monoidplus",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "probOf",
           "normalized": "(a-\u003eBool)-\u003eProb b a-\u003eb",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "runCatEndo",
           "package": "monoidplus",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "runCatEndo",
           "package": "monoidplus",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "toBoundFrac",
           "package": "monoidplus",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "toBoundFrac",
           "normalized": "a-\u003eBoundFrac a",
@@ -954,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:24 UTC 2014",
           "module": "Data.Monoid.Plus",
           "name": "uniform",
           "package": "monoidplus",
@@ -963,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Plus",
+          "indexed": "2014-03-11T19:22:24",
           "module": "Data.Monoid.Plus",
           "name": "uniform",
           "normalized": "[a]-\u003eProb b a",

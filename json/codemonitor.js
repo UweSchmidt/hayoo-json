@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "codemonitor"
+        "phrase": "codemonitor",
+        "type": "phrase"
       },
       "type": "context"
     }

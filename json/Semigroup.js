@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Semigroup"
+        "phrase": "Semigroup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA semigroup is a binary associative operation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Semigroup",
           "package": "Semigroup",
@@ -28,6 +29,7 @@
         "index": {
           "description": "semigroup is binary associative operation",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "Semigroup",
           "package": "Semigroup",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "BoundedMax",
           "package": "Semigroup",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "BoundedMax",
           "package": "Semigroup",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "BoundedMin",
           "package": "Semigroup",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "BoundedMin",
           "package": "Semigroup",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Max",
           "package": "Semigroup",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "Max",
           "package": "Semigroup",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Min",
           "package": "Semigroup",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "Min",
           "package": "Semigroup",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary operation that must satisfy associativity. Unlike a \u003ccode\u003eMonoid\u003c/code\u003e, an identity in not essential.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Semigroup",
           "package": "Semigroup",
@@ -135,6 +146,7 @@
         "index": {
           "description": "binary operation that must satisfy associativity Unlike Monoid an identity in not essential",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "Semigroup",
           "package": "Semigroup",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary associative operation lifted into an applicative functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "(\u003c++\u003e)",
           "package": "Semigroup",
@@ -159,6 +172,7 @@
         "index": {
           "description": "binary associative operation lifted into an applicative functor",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "(.++.)",
           "package": "Semigroup",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "(.++.) .++.",
           "normalized": "a-\u003ea-\u003ea",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "BoundedMax",
           "package": "Semigroup",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "BoundedMax",
           "package": "Semigroup",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "BoundedMin",
           "package": "Semigroup",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "BoundedMin",
           "package": "Semigroup",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Max",
           "package": "Semigroup",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "Max",
           "package": "Semigroup",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Min",
           "package": "Semigroup",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "Min",
           "package": "Semigroup",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "runBoundedMax",
           "package": "Semigroup",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "runBoundedMax",
           "package": "Semigroup",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "runBoundedMin",
           "package": "Semigroup",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "runBoundedMin",
           "package": "Semigroup",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "runMax",
           "package": "Semigroup",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "runMax",
           "package": "Semigroup",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:15 UTC 2014",
           "module": "Data.Semigroup",
           "name": "runMin",
           "package": "Semigroup",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T17:00:15",
           "module": "Data.Semigroup",
           "name": "runMin",
           "package": "Semigroup",

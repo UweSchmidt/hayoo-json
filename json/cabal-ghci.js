@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-ghci"
+        "phrase": "cabal-ghci",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRetrieve ghci options for your cabal project\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "Interactive",
           "package": "cabal-ghci",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Retrieve ghci options for your cabal project",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "Interactive",
           "package": "cabal-ghci",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn value for \u003ccode\u003e\u003ca\u003eloadCabal\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "LoadCabalRet",
           "package": "cabal-ghci",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Return value for loadCabal",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "LoadCabalRet",
           "package": "cabal-ghci",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMissing dependencies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "MissingDeps",
           "package": "cabal-ghci",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Missing dependencies",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "MissingDeps",
           "normalized": "MissingDeps[Dependency]",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo cabal file found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "NoCabalFile",
           "package": "cabal-ghci",
@@ -101,6 +108,7 @@
         "index": {
           "description": "No cabal file found",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "NoCabalFile",
           "package": "cabal-ghci",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessful loading and parsing of cabal file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "Pkg",
           "package": "cabal-ghci",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Successful loading and parsing of cabal file",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "Pkg",
           "package": "cabal-ghci",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecabalSet\u003c/a\u003e\u003c/code\u003e returns a list of ghci commands (seperated by newlines) that :set the \u003ccode\u003e\u003ca\u003epackageOpts\u003c/a\u003e\u003c/code\u003e of the current cabal project\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "cabalSet",
           "package": "cabal-ghci",
@@ -148,6 +159,7 @@
         "index": {
           "description": "cabalSet returns list of ghci commands seperated by newlines that set the packageOpts of the current cabal project",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "cabalSet",
           "normalized": "String-\u003eIO String",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad the current cabal project file and parse it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "loadCabal",
           "package": "cabal-ghci",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Load the current cabal project file and parse it",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "loadCabal",
           "normalized": "FilePath-\u003eFlagAssignment-\u003eIO LoadCabalRet",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a .cabal file in the path or any of it's parent directories\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "lookForCabalFile",
           "package": "cabal-ghci",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Find cabal file in the path or any of it parent directories",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "lookForCabalFile",
           "normalized": "FilePath-\u003eIO(Maybe FilePath)",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a list of ghci options needed to load files from a cabal project\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "packageOpts",
           "package": "cabal-ghci",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Build list of ghci options needed to load files from cabal project",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "packageOpts",
           "normalized": "FilePath-\u003ePackageDescription-\u003eMaybe LocalBuildInfo-\u003eString-\u003eMaybe[String]",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralised version of \u003ccode\u003e\u003ca\u003ecabalSet\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:58 UTC 2014",
           "module": "Distribution.Dev.Interactive",
           "name": "withOpts",
           "package": "cabal-ghci",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Generalised version of cabalSet",
           "hierarchy": "Distribution Dev Interactive",
+          "indexed": "2014-03-11T17:27:58",
           "module": "Distribution.Dev.Interactive",
           "name": "withOpts",
           "normalized": "[String]-\u003e(String-\u003eIO a)-\u003e([String]-\u003eIO a)-\u003eIO a",

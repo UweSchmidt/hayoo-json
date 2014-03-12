@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixed-point"
+        "phrase": "fixed-point",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a type for binary fixed-point arithmetic. The main\nadvantage this provides over decimal fixed-point arithmetic is that\nthe point is maintained using fast bit shifts instead of slow \u003ccode\u003e\u003ca\u003ediv\u003c/a\u003e\u003c/code\u003e\noperations. This type is also polymorphic on the underlying\nrepresentation, so you can use whatever size and signedness you\nwant.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "Binary",
           "package": "fixed-point",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines type for binary fixed-point arithmetic The main advantage this provides over decimal fixed-point arithmetic is that the point is maintained using fast bit shifts instead of slow div operations This type is also polymorphic on the underlying representation so you can use whatever size and signedness you want",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "Binary",
           "package": "fixed-point",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd resolutions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": ":+",
           "package": "fixed-point",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Add resolutions",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": ":+",
           "package": "fixed-point",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract resolutions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": ":-",
           "package": "fixed-point",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Subtract resolutions",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": ":-",
           "package": "fixed-point",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E0",
           "package": "fixed-point",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E0",
           "package": "fixed-point",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E1",
           "package": "fixed-point",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E1",
           "package": "fixed-point",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E10",
           "package": "fixed-point",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E10",
           "package": "fixed-point",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E16",
           "package": "fixed-point",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E16",
           "package": "fixed-point",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E2",
           "package": "fixed-point",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E2",
           "package": "fixed-point",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E20",
           "package": "fixed-point",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E20",
           "package": "fixed-point",
@@ -205,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E30",
           "package": "fixed-point",
@@ -213,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E30",
           "package": "fixed-point",
@@ -225,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E32",
           "package": "fixed-point",
@@ -233,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E32",
           "package": "fixed-point",
@@ -245,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E4",
           "package": "fixed-point",
@@ -253,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E4",
           "package": "fixed-point",
@@ -265,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E64",
           "package": "fixed-point",
@@ -273,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E64",
           "package": "fixed-point",
@@ -285,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "E8",
           "package": "fixed-point",
@@ -293,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "E8",
           "package": "fixed-point",
@@ -306,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first type parameter represents the number of bits to devote\n to the fractional part of the number. The second type parameter is\n the underlying representation. For example, \u003ccode\u003eFixed E8 Int16\u003c/code\u003e uses\n eight bits for the integer component (of which one bit is used for\n the sign) and eight bits for the fractional component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "Fixed",
           "package": "fixed-point",
@@ -315,6 +344,7 @@
         "index": {
           "description": "The first type parameter represents the number of bits to devote to the fractional part of the number The second type parameter is the underlying representation For example Fixed E8 Int16 uses eight bits for the integer component of which one bit is used for the sign and eight bits for the fractional component",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "Fixed",
           "package": "fixed-point",
@@ -329,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of this class are useful as the first parameter of\n \u003ccode\u003e\u003ca\u003eFixed\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "HasResolution",
           "package": "fixed-point",
@@ -338,6 +369,7 @@
         "index": {
           "description": "Instances of this class are useful as the first parameter of Fixed",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "HasResolution",
           "package": "fixed-point",
@@ -352,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrement a resolution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "P",
           "package": "fixed-point",
@@ -361,6 +394,7 @@
         "index": {
           "description": "Decrement resolution",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "P",
           "package": "fixed-point",
@@ -374,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement a resolution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "S",
           "package": "fixed-point",
@@ -383,6 +418,7 @@
         "index": {
           "description": "Increment resolution",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "S",
           "package": "fixed-point",
@@ -396,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eSuperTypeable\u003c/a\u003e\u003c/code\u003e can be cast up to and down from a\n supertype. If the type is bounded, the supertype must be able to\n hold at least twice as much information to be a valid instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "SuperTypeable",
           "package": "fixed-point",
@@ -405,6 +442,7 @@
         "index": {
           "description": "Instances of SuperTypeable can be cast up to and down from supertype If the type is bounded the supertype must be able to hold at least twice as much information to be valid instance",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "SuperTypeable",
           "package": "fixed-point",
@@ -419,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a multiplication without adding any extra bits for the\n intermediate steps. This may be faster (especially when you are\n already working with native-sized integer data), but it's only safe\n to use if you are sure that the multiplication won't\n overflow. Normal multiplication is equivalent to \u003ccode\u003ex y -\u003e subCast\n (superCast x *!  superCast y)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "(*!)",
           "package": "fixed-point",
@@ -429,6 +468,7 @@
         "index": {
           "description": "Perform multiplication without adding any extra bits for the intermediate steps This may be faster especially when you are already working with native-sized integer data but it only safe to use if you are sure that the multiplication won overflow Normal multiplication is equivalent to subCast superCast superCast",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "(*!) *!",
           "normalized": "Fixed a b-\u003eFixed a b-\u003eFixed a b",
@@ -444,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication without throwing away fractional information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "(*.)",
           "package": "fixed-point",
@@ -454,6 +495,7 @@
         "index": {
           "description": "Multiplication without throwing away fractional information",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "(*.) *.",
           "normalized": "Fixed a b-\u003eFixed c b-\u003eFixed(a c)b",
@@ -469,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a division without adding any extra bits for the\n intermediate steps. This may be faster if supercasting brings it up\n to a non-native size, but you need to be sure that the shifting\n before the division won't cause an overflow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "(/!)",
           "package": "fixed-point",
@@ -479,6 +522,7 @@
         "index": {
           "description": "Perform division without adding any extra bits for the intermediate steps This may be faster if supercasting brings it up to non-native size but you need to be sure that the shifting before the division won cause an overflow",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "(/!) /!",
           "normalized": "Fixed a b-\u003eFixed a b-\u003eFixed a b",
@@ -494,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision while removing unnecessary bits in the result's\n fractional part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "(/.)",
           "package": "fixed-point",
@@ -504,6 +549,7 @@
         "index": {
           "description": "Division while removing unnecessary bits in the result fractional part",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "(/.) /.",
           "normalized": "Fixed a b-\u003eFixed c b-\u003eFixed(a c)b",
@@ -519,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneralisation of \u003ccode\u003e\u003ca\u003ediv\u003c/a\u003e\u003c/code\u003e to any instance of Real\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "div'",
           "package": "fixed-point",
@@ -528,6 +575,7 @@
         "index": {
           "description": "generalisation of div to any instance of Real",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "div'",
           "normalized": "a-\u003ea-\u003eb",
@@ -543,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneralisation of \u003ccode\u003e\u003ca\u003edivMod\u003c/a\u003e\u003c/code\u003e to any instance of Real\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "divMod'",
           "package": "fixed-point",
@@ -552,6 +601,7 @@
         "index": {
           "description": "generalisation of divMod to any instance of Real",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "divMod'",
           "normalized": "a-\u003ea-\u003e(b,a)",
@@ -568,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast conversion between fixed-point numbers with the same\n fractional size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "fixedRadix",
           "package": "fixed-point",
@@ -578,6 +629,7 @@
         "index": {
           "description": "Fast conversion between fixed-point numbers with the same fractional size",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "fixedRadix",
           "normalized": "Fixed a b-\u003eFixed a c",
@@ -594,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast conversion between fixed-point numbers with the same\n representation size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "fixedSize",
           "package": "fixed-point",
@@ -604,6 +657,7 @@
         "index": {
           "description": "Fast conversion between fixed-point numbers with the same representation size",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "fixedSize",
           "normalized": "Fixed a b-\u003eFixed c b",
@@ -620,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast conversion from floating-point to fixed-point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "fromRealFloat",
           "package": "fixed-point",
@@ -630,6 +685,7 @@
         "index": {
           "description": "Fast conversion from floating-point to fixed-point",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "fromRealFloat",
           "normalized": "a-\u003eFixed b c",
@@ -646,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneralisation of \u003ccode\u003e\u003ca\u003emod\u003c/a\u003e\u003c/code\u003e to any instance of Real\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "mod'",
           "package": "fixed-point",
@@ -655,6 +712,7 @@
         "index": {
           "description": "generalisation of mod to any instance of Real",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "mod'",
           "normalized": "a-\u003ea-\u003ea",
@@ -670,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a fixed-point number, give the number of bits used to\n represent its fractional part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "resolution",
           "package": "fixed-point",
@@ -680,6 +739,7 @@
         "index": {
           "description": "Given fixed-point number give the number of bits used to represent its fractional part",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "resolution",
           "normalized": "Fixed a b-\u003eInt",
@@ -695,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast to a subtype. Information may be lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "subCast",
           "package": "fixed-point",
@@ -705,6 +766,7 @@
         "index": {
           "description": "Cast to subtype Information may be lost",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "subCast",
           "normalized": "Super a-\u003ea",
@@ -721,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLosslessly cast to a supertype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:43 UTC 2014",
           "module": "Data.Fixed.Binary",
           "name": "superCast",
           "package": "fixed-point",
@@ -731,6 +794,7 @@
         "index": {
           "description": "Losslessly cast to supertype",
           "hierarchy": "Data Fixed Binary",
+          "indexed": "2014-03-11T18:09:43",
           "module": "Data.Fixed.Binary",
           "name": "superCast",
           "normalized": "a-\u003eSuper a",

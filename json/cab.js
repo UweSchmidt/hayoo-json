@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cab"
+        "phrase": "cab",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "PkgDB",
           "package": "cab",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "PkgDB",
           "package": "cab",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "PkgDB",
           "package": "cab",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "PkgDB",
           "package": "cab",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "PkgInfo",
           "package": "cab",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "PkgInfo",
           "package": "cab",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "fullNameOfPkgInfo",
           "package": "cab",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "fullNameOfPkgInfo",
           "normalized": "PkgInfo-\u003eString",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining \u003ccode\u003e\u003ca\u003ePkgDB\u003c/a\u003e\u003c/code\u003e for global\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "getGlobalPkgDB",
           "package": "cab",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Obtaining PkgDB for global",
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "getGlobalPkgDB",
           "package": "cab",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining \u003ccode\u003e\u003ca\u003ePkgDB\u003c/a\u003e\u003c/code\u003e for global and user\n\u003c/p\u003e\u003cpre\u003e getSandbox \u003e\u003e= getPkgDB\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "getPkgDB",
           "package": "cab",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Obtaining PkgDB for global and user getSandbox getPkgDB",
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "getPkgDB",
           "normalized": "Maybe FilePath-\u003eIO PkgDB",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining \u003ccode\u003e\u003ca\u003ePkgDB\u003c/a\u003e\u003c/code\u003e for user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "getUserPkgDB",
           "package": "cab",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Obtaining PkgDB for user",
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "getUserPkgDB",
           "normalized": "Maybe FilePath-\u003eIO PkgDB",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e pkgdb \u003c- getGlobalPkgDB\n lookupByName \"base\" pkgdb\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "lookupByName",
           "package": "cab",
@@ -192,6 +207,7 @@
         "index": {
           "description": "pkgdb getGlobalPkgDB lookupByName base pkgdb",
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "lookupByName",
           "normalized": "PkgName-\u003ePkgDB-\u003e[PkgInfo]",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e pkgdb \u003c- getGlobalPkgDB\n lookupByVersion \"base\" \"4.6.0.1\" pkgdb\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "lookupByVersion",
           "package": "cab",
@@ -218,6 +235,7 @@
         "index": {
           "description": "pkgdb getGlobalPkgDB lookupByVersion base pkgdb",
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "lookupByVersion",
           "normalized": "PkgName-\u003eString-\u003ePkgDB-\u003e[PkgInfo]",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "nameOfPkgInfo",
           "package": "cab",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "nameOfPkgInfo",
           "normalized": "PkgInfo-\u003ePkgName",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "pairNameOfPkgInfo",
           "package": "cab",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "pairNameOfPkgInfo",
           "normalized": "PkgInfo-\u003e(PkgName,String)",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "toPkgInfos",
           "package": "cab",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "toPkgInfos",
           "normalized": "PkgDB-\u003e[PkgInfo]",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "topSortedPkgs",
           "package": "cab",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "topSortedPkgs",
           "normalized": "PkgInfo-\u003ePkgDB-\u003e[PkgInfo]",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.PkgDB",
           "name": "verOfPkgInfo",
           "package": "cab",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab PkgDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.PkgDB",
           "name": "verOfPkgInfo",
           "normalized": "PkgInfo-\u003eVer",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Printer",
           "name": "Printer",
           "package": "cab",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab Printer",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Printer",
           "name": "Printer",
           "package": "cab",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Printer",
           "name": "extraInfo",
           "package": "cab",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab Printer",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Printer",
           "name": "extraInfo",
           "normalized": "Bool-\u003ePkgInfo-\u003eIO()",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Printer",
           "name": "printDeps",
           "package": "cab",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab Printer",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Printer",
           "name": "printDeps",
           "normalized": "Bool-\u003eBool-\u003ePkgDB-\u003eInt-\u003ePkgInfo-\u003eIO()",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Printer",
           "name": "printRevDeps",
           "package": "cab",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab Printer",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Printer",
           "name": "printRevDeps",
           "normalized": "Bool-\u003eBool-\u003ePkgDB-\u003eInt-\u003ePkgInfo-\u003eIO()",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Sandbox",
           "name": "Sandbox",
           "package": "cab",
@@ -454,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab Sandbox",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Sandbox",
           "name": "Sandbox",
           "package": "cab",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a sandbox config file by tracing ancestor directories,\n   parse it and return the package db path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Sandbox",
           "name": "getSandbox",
           "package": "cab",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Find sandbox config file by tracing ancestor directories parse it and return the package db path",
           "hierarchy": "Distribution Cab Sandbox",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Sandbox",
           "name": "getSandbox",
           "package": "cab",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate GHC options for package db according to GHC version.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egetSandboxOpts Nothing\n\u003c/code\u003e\u003c/strong\u003e\"\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egetSandboxOpts (Just \"/path/.cabal-sandbox/i386-osx-ghc-7.6.3-packages.conf.d\")\n\u003c/code\u003e\u003c/strong\u003e\"-package-db /path/.cabal-sandbox/i386-osx-ghc-7.6.3-packages.conf.d\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egetSandboxOpts (Just \"/path/.cabal-sandbox/i386-osx-ghc-7.4.1-packages.conf.d\")\n\u003c/code\u003e\u003c/strong\u003e\"-package-conf /path/.cabal-sandbox/i386-osx-ghc-7.4.1-packages.conf.d\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Sandbox",
           "name": "getSandboxOpts",
           "package": "cab",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Generate GHC options for package db according to GHC version getSandboxOpts Nothing getSandboxOpts Just path cabal-sandbox i386-osx-ghc-7.6.3-packages.conf.d package-db path cabal-sandbox i386-osx-ghc-7.6.3-packages.conf.d getSandboxOpts Just path cabal-sandbox i386-osx-ghc-7.4.1-packages.conf.d package-conf path cabal-sandbox i386-osx-ghc-7.4.1-packages.conf.d",
           "hierarchy": "Distribution Cab Sandbox",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Sandbox",
           "name": "getSandboxOpts",
           "normalized": "Maybe FilePath-\u003eString",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Sandbox",
           "name": "getSandboxOpts2",
           "package": "cab",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab Sandbox",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Sandbox",
           "name": "getSandboxOpts2",
           "normalized": "Maybe FilePath-\u003eString",
@@ -541,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "VerDB",
           "package": "cab",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "VerDB",
           "package": "cab",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "HowToObtain",
           "package": "cab",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "HowToObtain",
           "package": "cab",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "PkgName",
           "package": "cab",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "PkgName",
           "package": "cab",
@@ -604,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "VerDB",
           "package": "cab",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "VerDB",
           "package": "cab",
@@ -625,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "AllRegistered",
           "package": "cab",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "AllRegistered",
           "package": "cab",
@@ -647,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "InstalledOnly",
           "package": "cab",
@@ -656,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "InstalledOnly",
           "package": "cab",
@@ -669,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "getVerDB",
           "package": "cab",
@@ -678,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "getVerDB",
           "normalized": "HowToObtain-\u003eIO VerDB",
@@ -694,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting \u003ccode\u003e\u003ca\u003eVerDB\u003c/a\u003e\u003c/code\u003e to alist.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edb \u003c- getVerDB InstalledOnly\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eelem \"base\" . map fst . toList $ db\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "toList",
           "package": "cab",
@@ -704,6 +763,7 @@
         "index": {
           "description": "Converting VerDB to alist db getVerDB InstalledOnly elem base map fst toList db True",
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "toList",
           "normalized": "VerDB-\u003e[(PkgName,Ver)]",
@@ -720,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting \u003ccode\u003e\u003ca\u003eVerDB\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.VerDB",
           "name": "toMap",
           "package": "cab",
@@ -730,6 +791,7 @@
         "index": {
           "description": "Converting VerDB to Map",
           "hierarchy": "Distribution Cab VerDB",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.VerDB",
           "name": "toMap",
           "normalized": "VerDB-\u003eMap PkgName Ver",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Version",
           "name": "Version",
           "package": "cab",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab Version",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Version",
           "name": "Version",
           "package": "cab",
@@ -767,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Version",
           "name": "Ver",
           "package": "cab",
@@ -776,6 +841,7 @@
         "index": {
           "description": "Package version",
           "hierarchy": "Distribution Cab Version",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Version",
           "name": "Ver",
           "package": "cab",
@@ -790,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating \u003ccode\u003e\u003ca\u003eVer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoVer [1,2,3]\n\u003c/code\u003e\u003c/strong\u003eVer [1,2,3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Version",
           "name": "toVer",
           "package": "cab",
@@ -800,6 +867,7 @@
         "index": {
           "description": "Creating Ver toVer Ver",
           "hierarchy": "Distribution Cab Version",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Version",
           "name": "toVer",
           "normalized": "[Int]-\u003eVer",
@@ -816,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003everToString $ toVer [1,2,3]\n\u003c/code\u003e\u003c/strong\u003e\"1.2.3\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Version",
           "name": "verToString",
           "package": "cab",
@@ -826,6 +895,7 @@
         "index": {
           "description": "From Version to String verToString toVer",
           "hierarchy": "Distribution Cab Version",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Version",
           "name": "verToString",
           "normalized": "Ver-\u003eString",
@@ -842,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e in Cabal to \u003ccode\u003e\u003ca\u003eVer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eversion $ Version [1,2,3] []\n\u003c/code\u003e\u003c/strong\u003eVer [1,2,3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Version",
           "name": "version",
           "package": "cab",
@@ -852,6 +923,7 @@
         "index": {
           "description": "From Version in Cabal to Ver version Version Ver",
           "hierarchy": "Distribution Cab Version",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Version",
           "name": "version",
           "normalized": "Version-\u003eVer",
@@ -867,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e in Cabal to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eversionToString $ Version [1,2,3] []\n\u003c/code\u003e\u003c/strong\u003e\"1.2.3\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab.Version",
           "name": "versionToString",
           "package": "cab",
@@ -877,6 +950,7 @@
         "index": {
           "description": "From Version in Cabal to String versionToString Version",
           "hierarchy": "Distribution Cab Version",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab.Version",
           "name": "versionToString",
           "normalized": "Version-\u003eString",
@@ -892,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "Cab",
           "package": "cab",
@@ -900,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "Cab",
           "package": "cab",
@@ -913,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "FunctionCommand",
           "package": "cab",
@@ -921,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "FunctionCommand",
           "package": "cab",
@@ -934,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "Option",
           "package": "cab",
@@ -942,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "Option",
           "package": "cab",
@@ -955,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptAll",
           "package": "cab",
@@ -964,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptAll",
           "package": "cab",
@@ -977,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptBench",
           "package": "cab",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptBench",
           "package": "cab",
@@ -999,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptDepsOnly",
           "package": "cab",
@@ -1008,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptDepsOnly",
           "package": "cab",
@@ -1021,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptExecProfile",
           "package": "cab",
@@ -1030,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptExecProfile",
           "package": "cab",
@@ -1043,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptFlag",
           "package": "cab",
@@ -1052,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptFlag",
           "package": "cab",
@@ -1065,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptHelp",
           "package": "cab",
@@ -1074,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptHelp",
           "package": "cab",
@@ -1087,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptImport",
           "package": "cab",
@@ -1096,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptImport",
           "package": "cab",
@@ -1109,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptInfo",
           "package": "cab",
@@ -1118,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptInfo",
           "package": "cab",
@@ -1131,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptJobs",
           "package": "cab",
@@ -1140,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptJobs",
           "package": "cab",
@@ -1153,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptLibProfile",
           "package": "cab",
@@ -1162,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptLibProfile",
           "package": "cab",
@@ -1175,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptNoharm",
           "package": "cab",
@@ -1184,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptNoharm",
           "package": "cab",
@@ -1197,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptRecursive",
           "package": "cab",
@@ -1206,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptRecursive",
           "package": "cab",
@@ -1219,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptStatic",
           "package": "cab",
@@ -1228,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptStatic",
           "package": "cab",
@@ -1241,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "OptTest",
           "package": "cab",
@@ -1250,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "OptTest",
           "package": "cab",
@@ -1263,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "add",
           "package": "cab",
@@ -1272,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "add",
           "package": "cab",
@@ -1284,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "check",
           "package": "cab",
@@ -1293,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "check",
           "package": "cab",
@@ -1305,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "deps",
           "package": "cab",
@@ -1314,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "deps",
           "package": "cab",
@@ -1326,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "genpaths",
           "package": "cab",
@@ -1335,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "genpaths",
           "package": "cab",
@@ -1347,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "ghci",
           "package": "cab",
@@ -1356,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "ghci",
           "package": "cab",
@@ -1368,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "initSandbox",
           "package": "cab",
@@ -1377,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "initSandbox",
           "package": "cab",
@@ -1390,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "installed",
           "package": "cab",
@@ -1399,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "installed",
           "package": "cab",
@@ -1411,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "outdated",
           "package": "cab",
@@ -1420,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "outdated",
           "package": "cab",
@@ -1432,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "revdeps",
           "package": "cab",
@@ -1441,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "revdeps",
           "package": "cab",
@@ -1453,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "search",
           "package": "cab",
@@ -1462,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "search",
           "package": "cab",
@@ -1474,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:38 UTC 2014",
           "module": "Distribution.Cab",
           "name": "uninstall",
           "package": "cab",
@@ -1483,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Distribution Cab",
+          "indexed": "2014-03-11T17:27:38",
           "module": "Distribution.Cab",
           "name": "uninstall",
           "package": "cab",

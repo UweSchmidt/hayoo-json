@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fgl-extras-decompositions"
+        "phrase": "fgl-extras-decompositions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEar decomposition of a graph.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:33 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "Ear",
           "package": "fgl-extras-decompositions",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Ear decomposition of graph",
           "hierarchy": "Data Graph Inductive Query Ear",
+          "indexed": "2014-03-11T18:08:33",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "Ear",
           "package": "fgl-extras-decompositions",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eears\u003c/a\u003e\u003c/code\u003e function takes a graph with no node or edge annotation and\n produces an ear decomposition. Each edge is annotated with a weight. Edges\n with the same weight are in the same ear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:33 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "ears",
           "package": "fgl-extras-decompositions",
@@ -52,6 +55,7 @@
         "index": {
           "description": "The ears function takes graph with no node or edge annotation and produces an ear decomposition Each edge is annotated with weight Edges with the same weight are in the same ear",
           "hierarchy": "Data Graph Inductive Query Ear",
+          "indexed": "2014-03-11T18:08:33",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "ears",
           "normalized": "a()()-\u003ea()Int",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:33 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "lca",
           "package": "fgl-extras-decompositions",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Ear",
+          "indexed": "2014-03-11T18:08:33",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "lca",
           "normalized": "[[Node]]-\u003eLEdge()-\u003eLEdge Int",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:33 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "sel3",
           "package": "fgl-extras-decompositions",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Ear",
+          "indexed": "2014-03-11T18:08:33",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "sel3",
           "normalized": "(a,a,a)-\u003ea",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:33 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "shortestPaths",
           "package": "fgl-extras-decompositions",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Ear",
+          "indexed": "2014-03-11T18:08:33",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "shortestPaths",
           "normalized": "Gr()Int-\u003eEdge-\u003eLEdge Int",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:33 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "swap12",
           "package": "fgl-extras-decompositions",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Ear",
+          "indexed": "2014-03-11T18:08:33",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "swap12",
           "normalized": "(a,a,a)-\u003e(a,a,a)",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:33 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "treeToEdges",
           "package": "fgl-extras-decompositions",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Ear",
+          "indexed": "2014-03-11T18:08:33",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "treeToEdges",
           "normalized": "Tree Node-\u003e[Edge]",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:33 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "treeToPaths",
           "package": "fgl-extras-decompositions",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Ear",
+          "indexed": "2014-03-11T18:08:33",
           "module": "Data.Graph.Inductive.Query.Ear",
           "name": "treeToPaths",
           "normalized": "Tree Node-\u003e[[Node]]",

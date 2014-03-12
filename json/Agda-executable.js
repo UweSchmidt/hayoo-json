@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Agda-executable"
+        "phrase": "Agda-executable",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "l-bfgs-b"
+        "phrase": "l-bfgs-b",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pure-cdb"
+        "phrase": "pure-cdb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "Internal",
           "package": "pure-cdb",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "Internal",
           "package": "pure-cdb",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead handle for the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "ReadCDB",
           "package": "pure-cdb",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Read handle for the database",
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "ReadCDB",
           "package": "pure-cdb",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "TOCHash",
           "package": "pure-cdb",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "TOCHash",
           "package": "pure-cdb",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "ReadCDB",
           "package": "pure-cdb",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "ReadCDB",
           "package": "pure-cdb",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "TOCHash",
           "package": "pure-cdb",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "TOCHash",
           "package": "pure-cdb",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "cdbHash",
           "package": "pure-cdb",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "cdbHash",
           "normalized": "ByteString-\u003eWord",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "coalesceHash",
           "package": "pure-cdb",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "coalesceHash",
           "normalized": "a-\u003e[(a,b)]-\u003eIntMap[(a,b)]",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "createHashVector",
           "package": "pure-cdb",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "createHashVector",
           "normalized": "a-\u003e(a,b)-\u003e[(a,b)]-\u003eVector(a,b)",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "hLength",
           "package": "pure-cdb",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "hLength",
           "package": "pure-cdb",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "hPosition",
           "package": "pure-cdb",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "hPosition",
           "package": "pure-cdb",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "hashSlot",
           "package": "pure-cdb",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "hashSlot",
           "normalized": "a-\u003ea-\u003ea",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "layoutHash",
           "package": "pure-cdb",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "layoutHash",
           "normalized": "Int-\u003eIntMap[a]-\u003eMaybe[(Int,a)]",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "rHandle",
           "package": "pure-cdb",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "rHandle",
           "package": "pure-cdb",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "rTOC",
           "package": "pure-cdb",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "rTOC",
           "package": "pure-cdb",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "tocFind",
           "package": "pure-cdb",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "tocFind",
           "normalized": "ReadCDB-\u003eByteString-\u003e(TOCHash,Word)",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB.Internal",
           "name": "tocIndex",
           "package": "pure-cdb",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Database PureCDB Internal",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB.Internal",
           "name": "tocIndex",
           "normalized": "a-\u003eInt",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for reading and writing CDB (Constant Database) files.\n\u003c/p\u003e\u003cp\u003eCDB files are immutable key-value stores, designed for extremely fast and\n memory-efficient construction and lookup. They can be as large as 4GB, and\n at no point in their construction or use must all data be loaded into\n memory. CDB files can contain multiple values for a given key.\n\u003c/p\u003e\u003cp\u003eFor more information on the CDB file format, please see:\n     \u003ca\u003ehttp://cr.yp.to/cdb.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eHere's how you make new CDB file:\n\u003c/p\u003e\u003cpre\u003e import qualified Data.ByteString.Char8 as B\n import Database.PureCDB\n\n makeIt :: IO ()\n makeIt = makeCDB (do\n       addBS (B.pack \"foo\") (B.pack \"bar\")\n       addBS (B.pack \"foo\") (B.pack \"baz\")) \"foo.cdb\"\n\u003c/pre\u003e\u003cp\u003eYou can later use it as in:\n\u003c/p\u003e\u003cpre\u003e getIt :: IO [ByteString]\n getIt = do\n       f \u003c- openCDB \"foo.cdb\"\n       getBS f (B.pack \"foo\")\n       closeCDB \"foo.cdb\"\n\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003egetIt\u003c/code\u003e returns [ \"bar\", \"baz\" ] in unspecified order.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003epure-cdb\u003c/code\u003e works on strict \u003ccode\u003eByteString'\u003c/code\u003es only for now.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB",
           "name": "PureCDB",
           "package": "pure-cdb",
@@ -393,6 +426,7 @@
         "index": {
           "description": "library for reading and writing CDB Constant Database files CDB files are immutable key-value stores designed for extremely fast and memory-efficient construction and lookup They can be as large as GB and at no point in their construction or use must all data be loaded into memory CDB files can contain multiple values for given key For more information on the CDB file format please see http cr.yp.to cdb.html Here how you make new CDB file import qualified Data.ByteString.Char8 as import Database.PureCDB makeIt IO makeIt makeCDB do addBS B.pack foo B.pack bar addBS B.pack foo B.pack baz foo.cdb You can later use it as in getIt IO ByteString getIt do openCDB foo.cdb getBS B.pack foo closeCDB foo.cdb getIt returns bar baz in unspecified order Note that pure-cdb works on strict ByteString only for now",
           "hierarchy": "Database PureCDB",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB",
           "name": "PureCDB",
           "package": "pure-cdb",
@@ -407,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead handle for the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB",
           "name": "ReadCDB",
           "package": "pure-cdb",
@@ -416,6 +451,7 @@
         "index": {
           "description": "Read handle for the database",
           "hierarchy": "Database PureCDB",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB",
           "name": "ReadCDB",
           "package": "pure-cdb",
@@ -430,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite context monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB",
           "name": "WriteCDB",
           "package": "pure-cdb",
@@ -439,6 +476,7 @@
         "index": {
           "description": "Write context monad transformer",
           "hierarchy": "Database PureCDB",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB",
           "name": "WriteCDB",
           "package": "pure-cdb",
@@ -453,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds key and value to the CDB database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB",
           "name": "addBS",
           "package": "pure-cdb",
@@ -463,6 +502,7 @@
         "index": {
           "description": "Adds key and value to the CDB database",
           "hierarchy": "Database PureCDB",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB",
           "name": "addBS",
           "normalized": "ByteString-\u003eByteString-\u003eWriteCDB a()",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB",
           "name": "closeCDB",
           "package": "pure-cdb",
@@ -489,6 +530,7 @@
         "index": {
           "description": "Closes the database",
           "hierarchy": "Database PureCDB",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB",
           "name": "closeCDB",
           "normalized": "ReadCDB-\u003eIO()",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetches key from the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB",
           "name": "getBS",
           "package": "pure-cdb",
@@ -515,6 +558,7 @@
         "index": {
           "description": "Fetches key from the database",
           "hierarchy": "Database PureCDB",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB",
           "name": "getBS",
           "normalized": "ReadCDB-\u003eByteString-\u003eIO[ByteString]",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns WriteCDB monad transformer to make the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB",
           "name": "makeCDB",
           "package": "pure-cdb",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Runs WriteCDB monad transformer to make the database",
           "hierarchy": "Database PureCDB",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB",
           "name": "makeCDB",
           "normalized": "WriteCDB a b-\u003eFilePath-\u003ea b",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens CDB database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:10 UTC 2014",
           "module": "Database.PureCDB",
           "name": "openCDB",
           "package": "pure-cdb",
@@ -567,6 +614,7 @@
         "index": {
           "description": "Opens CDB database",
           "hierarchy": "Database PureCDB",
+          "indexed": "2014-03-11T19:46:10",
           "module": "Database.PureCDB",
           "name": "openCDB",
           "normalized": "FilePath-\u003eIO ReadCDB",

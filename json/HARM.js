@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HARM"
+        "phrase": "HARM",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Arm",
           "name": "Arm",
           "package": "HARM",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Arm Arm",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Arm",
           "name": "Arm",
           "package": "HARM",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Arm",
           "name": "dbg",
           "package": "HARM",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Arm Arm",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Arm",
           "name": "dbg",
           "normalized": "String-\u003eIO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Arm",
           "name": "run",
           "package": "HARM",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Arm Arm",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Arm",
           "name": "run",
           "normalized": "String-\u003eIO()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "Assembler",
           "package": "HARM",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "Assembler",
           "package": "HARM",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "AsmResult",
           "package": "HARM",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "AsmResult",
           "package": "HARM",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "Err",
           "package": "HARM",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "Err",
           "package": "HARM",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "Res",
           "package": "HARM",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "Res",
           "package": "HARM",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "asmFile",
           "package": "HARM",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "asmFile",
           "normalized": "String-\u003eIO(Either Program String)",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "asmString",
           "package": "HARM",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "asmString",
           "normalized": "String-\u003eEither Program String",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "lines'",
           "package": "HARM",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "lines'",
           "normalized": "String-\u003e[String]",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "replaceSymbols",
           "package": "HARM",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "replaceSymbols",
           "normalized": "[ParseElement]-\u003eInt-\u003eWord-\u003e[(String,Word)]-\u003eWord-\u003e[(RegisterName,Word)]-\u003e[Instruction]-\u003e[(Word,Constant)]-\u003eProgram",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Assembler",
           "name": "resolveSymbols",
           "package": "HARM",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Arm Assembler",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Assembler",
           "name": "resolveSymbols",
           "normalized": "Word-\u003e[ParseElement]-\u003e[(String,Word)]",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.BinaryNumber",
           "name": "BinaryNumber",
           "package": "HARM",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Arm BinaryNumber",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.BinaryNumber",
           "name": "BinaryNumber",
           "package": "HARM",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.BinaryNumber",
           "name": "Binary32",
           "package": "HARM",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Arm BinaryNumber",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.BinaryNumber",
           "name": "Binary32",
           "package": "HARM",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.BinaryNumber",
           "name": "binary32ToInt",
           "package": "HARM",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Arm BinaryNumber",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.BinaryNumber",
           "name": "binary32ToInt",
           "normalized": "Binary-\u003eInt",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.BinaryNumber",
           "name": "binary32ToWord32",
           "package": "HARM",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Arm BinaryNumber",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.BinaryNumber",
           "name": "binary32ToWord32",
           "normalized": "Binary-\u003eWord",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.BinaryNumber",
           "name": "intToBinary32",
           "package": "HARM",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Arm BinaryNumber",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.BinaryNumber",
           "name": "intToBinary32",
           "normalized": "Int-\u003eBinary",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.BinaryNumber",
           "name": "word32ToBinary32",
           "package": "HARM",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Arm BinaryNumber",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.BinaryNumber",
           "name": "word32ToBinary32",
           "normalized": "Word-\u003eBinary",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.CPU",
           "name": "CPU",
           "package": "HARM",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Arm CPU",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.CPU",
           "name": "CPU",
           "package": "HARM",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.CPU",
           "name": "CPU",
           "package": "HARM",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Arm CPU",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.CPU",
           "name": "CPU",
           "package": "HARM",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.CPU",
           "name": "CPU",
           "package": "HARM",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Arm CPU",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.CPU",
           "name": "CPU",
           "package": "HARM",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.CPU",
           "name": "debug",
           "package": "HARM",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Arm CPU",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.CPU",
           "name": "debug",
           "package": "HARM",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.CPU",
           "name": "emptyCPU",
           "package": "HARM",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Arm CPU",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.CPU",
           "name": "emptyCPU",
           "normalized": "Address-\u003eIO CPU",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.CPU",
           "name": "memory",
           "package": "HARM",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Arm CPU",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.CPU",
           "name": "memory",
           "package": "HARM",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.CPU",
           "name": "registers",
           "package": "HARM",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Arm CPU",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.CPU",
           "name": "registers",
           "package": "HARM",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.CPU",
           "name": "running",
           "package": "HARM",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Arm CPU",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.CPU",
           "name": "running",
           "package": "HARM",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "Debugger",
           "package": "HARM",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "Debugger",
           "package": "HARM",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "DebugState",
           "package": "HARM",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "DebugState",
           "package": "HARM",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "Debug",
           "package": "HARM",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "Debug",
           "package": "HARM",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "addBreakpoint",
           "package": "HARM",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "addBreakpoint",
           "normalized": "DebugState-\u003eIO DebugState",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "bkpts",
           "package": "HARM",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "bkpts",
           "normalized": "[Address]",
@@ -711,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "dbg",
           "package": "HARM",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "dbg",
           "normalized": "Program-\u003eIO()",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "radix",
           "package": "HARM",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "radix",
           "package": "HARM",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "showHelp",
           "package": "HARM",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "showHelp",
           "normalized": "IO()",
@@ -779,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "showInstruction",
           "package": "HARM",
@@ -788,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "showInstruction",
           "normalized": "Radix-\u003eMemory-\u003eBool-\u003eAddress-\u003eIO()",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "showMem",
           "package": "HARM",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "showMem",
           "normalized": "Radix-\u003eCPU-\u003eIO()",
@@ -827,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Debugger",
           "name": "showRegs",
           "package": "HARM",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Arm Debugger",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Debugger",
           "name": "showRegs",
           "normalized": "Radix-\u003eCPU-\u003eIO()",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Decoder",
           "name": "Decoder",
           "package": "HARM",
@@ -859,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Arm Decoder",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Decoder",
           "name": "Decoder",
           "package": "HARM",
@@ -872,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Decoder",
           "name": "decode",
           "package": "HARM",
@@ -881,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Arm Decoder",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Decoder",
           "name": "decode",
           "normalized": "Word-\u003eMaybe Instruction",
@@ -895,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Encoder",
           "name": "Encoder",
           "package": "HARM",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Arm Encoder",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Encoder",
           "name": "Encoder",
           "package": "HARM",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Encoder",
           "name": "encode",
           "package": "HARM",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Arm Encoder",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Encoder",
           "name": "encode",
           "normalized": "Instruction-\u003eWord",
@@ -939,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ExecutionUnit",
           "name": "ExecutionUnit",
           "package": "HARM",
@@ -947,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Arm ExecutionUnit",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ExecutionUnit",
           "name": "ExecutionUnit",
           "package": "HARM",
@@ -960,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ExecutionUnit",
           "name": "eval",
           "package": "HARM",
@@ -969,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Arm ExecutionUnit",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ExecutionUnit",
           "name": "eval",
           "normalized": "CPU-\u003eInstruction-\u003eIO()",
@@ -983,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ExecutionUnit",
           "name": "run",
           "package": "HARM",
@@ -992,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Arm ExecutionUnit",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ExecutionUnit",
           "name": "run",
           "normalized": "Program-\u003eIO()",
@@ -1006,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ExecutionUnit",
           "name": "run'",
           "package": "HARM",
@@ -1015,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Arm ExecutionUnit",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ExecutionUnit",
           "name": "run'",
           "normalized": "CPU-\u003eIO()",
@@ -1029,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ExecutionUnit",
           "name": "singleStep",
           "package": "HARM",
@@ -1038,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Arm ExecutionUnit",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ExecutionUnit",
           "name": "singleStep",
           "normalized": "CPU-\u003eIO()",
@@ -1053,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Format",
           "name": "Format",
           "package": "HARM",
@@ -1061,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Arm Format",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Format",
           "name": "Format",
           "package": "HARM",
@@ -1074,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Format",
           "name": "Radix",
           "package": "HARM",
@@ -1082,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Arm Format",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Format",
           "name": "Radix",
           "package": "HARM",
@@ -1095,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Format",
           "name": "Dec",
           "package": "HARM",
@@ -1104,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Arm Format",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Format",
           "name": "Dec",
           "package": "HARM",
@@ -1117,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Format",
           "name": "Hex",
           "package": "HARM",
@@ -1126,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Arm Format",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Format",
           "name": "Hex",
           "package": "HARM",
@@ -1139,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Format",
           "name": "formatDec",
           "package": "HARM",
@@ -1148,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Arm Format",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Format",
           "name": "formatDec",
           "normalized": "Int-\u003eChar-\u003eWord-\u003eString",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Format",
           "name": "formatHex",
           "package": "HARM",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Arm Format",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Format",
           "name": "formatHex",
           "normalized": "Int-\u003eChar-\u003eString-\u003eWord-\u003eString",
@@ -1187,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Format",
           "name": "hexChars",
           "package": "HARM",
@@ -1196,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Arm Format",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Format",
           "name": "hexChars",
           "package": "HARM",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Instruction",
           "package": "HARM",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Instruction",
           "package": "HARM",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Instruction",
           "package": "HARM",
@@ -1238,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Instruction",
           "package": "HARM",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Add",
           "package": "HARM",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Add",
           "package": "HARM",
@@ -1273,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "And",
           "package": "HARM",
@@ -1282,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "And",
           "package": "HARM",
@@ -1295,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "B",
           "package": "HARM",
@@ -1304,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "B",
           "package": "HARM",
@@ -1316,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Beq",
           "package": "HARM",
@@ -1325,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Beq",
           "package": "HARM",
@@ -1338,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Bgt",
           "package": "HARM",
@@ -1347,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Bgt",
           "package": "HARM",
@@ -1360,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Bic",
           "package": "HARM",
@@ -1369,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Bic",
           "package": "HARM",
@@ -1382,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Bl",
           "package": "HARM",
@@ -1391,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Bl",
           "package": "HARM",
@@ -1404,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Blt",
           "package": "HARM",
@@ -1413,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Blt",
           "package": "HARM",
@@ -1426,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Bne",
           "package": "HARM",
@@ -1435,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Bne",
           "package": "HARM",
@@ -1448,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Cmp",
           "package": "HARM",
@@ -1457,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Cmp",
           "package": "HARM",
@@ -1470,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Eor",
           "package": "HARM",
@@ -1479,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Eor",
           "package": "HARM",
@@ -1492,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Ldmea",
           "package": "HARM",
@@ -1501,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Ldmea",
           "package": "HARM",
@@ -1514,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Ldr",
           "package": "HARM",
@@ -1523,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Ldr",
           "package": "HARM",
@@ -1536,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Ldrb",
           "package": "HARM",
@@ -1545,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Ldrb",
           "package": "HARM",
@@ -1558,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Mov",
           "package": "HARM",
@@ -1567,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Mov",
           "package": "HARM",
@@ -1580,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Mul",
           "package": "HARM",
@@ -1589,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Mul",
           "package": "HARM",
@@ -1602,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Orr",
           "package": "HARM",
@@ -1611,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Orr",
           "package": "HARM",
@@ -1624,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Stmea",
           "package": "HARM",
@@ -1633,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Stmea",
           "package": "HARM",
@@ -1646,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Str",
           "package": "HARM",
@@ -1655,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Str",
           "package": "HARM",
@@ -1668,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Strb",
           "package": "HARM",
@@ -1677,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Strb",
           "package": "HARM",
@@ -1690,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Sub",
           "package": "HARM",
@@ -1699,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Sub",
           "package": "HARM",
@@ -1712,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Instruction",
           "name": "Swi",
           "package": "HARM",
@@ -1721,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Arm Instruction",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Instruction",
           "name": "Swi",
           "package": "HARM",
@@ -1734,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "Loader",
           "package": "HARM",
@@ -1742,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "Loader",
           "package": "HARM",
@@ -1755,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "loadArray",
           "package": "HARM",
@@ -1764,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "loadArray",
           "normalized": "Memory-\u003eAddress-\u003eWord-\u003eConstant-\u003eIO()",
@@ -1779,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "loadConstant",
           "package": "HARM",
@@ -1788,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "loadConstant",
           "normalized": "Memory-\u003eAddress-\u003eConstant-\u003eIO()",
@@ -1803,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "loadConstants",
           "package": "HARM",
@@ -1812,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "loadConstants",
           "normalized": "Memory-\u003e[(Address,Constant)]-\u003eIO()",
@@ -1827,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "loadInstructions",
           "package": "HARM",
@@ -1836,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "loadInstructions",
           "normalized": "Memory-\u003eAddress-\u003e[Instruction]-\u003eIO()",
@@ -1851,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "loadList",
           "package": "HARM",
@@ -1860,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "loadList",
           "normalized": "Memory-\u003eAddress-\u003e[Constant]-\u003eIO()",
@@ -1875,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "loadProgram",
           "package": "HARM",
@@ -1884,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "loadProgram",
           "normalized": "CPU-\u003eProgram-\u003eIO()",
@@ -1899,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "loadRegisters",
           "package": "HARM",
@@ -1908,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "loadRegisters",
           "normalized": "Registers-\u003e[(RegisterName,Word)]-\u003eIO()",
@@ -1923,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Loader",
           "name": "loadString",
           "package": "HARM",
@@ -1932,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Arm Loader",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Loader",
           "name": "loadString",
           "normalized": "Memory-\u003eAddress-\u003eString-\u003eIO()",
@@ -1947,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "Memory",
           "package": "HARM",
@@ -1955,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "Memory",
           "package": "HARM",
@@ -1968,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "Address",
           "package": "HARM",
@@ -1976,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "Address",
           "package": "HARM",
@@ -1989,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "ByteAddress",
           "package": "HARM",
@@ -1997,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "ByteAddress",
           "package": "HARM",
@@ -2010,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "Memory",
           "package": "HARM",
@@ -2018,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "Memory",
           "package": "HARM",
@@ -2031,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "WordAddress",
           "package": "HARM",
@@ -2039,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "WordAddress",
           "package": "HARM",
@@ -2052,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "emptyMem",
           "package": "HARM",
@@ -2061,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "emptyMem",
           "normalized": "Address-\u003eIO Memory",
@@ -2076,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "getMemWord",
           "package": "HARM",
@@ -2085,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "getMemWord",
           "normalized": "Memory-\u003eWordAddress-\u003eIO Word",
@@ -2100,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "readMem",
           "package": "HARM",
@@ -2109,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "readMem",
           "normalized": "Memory-\u003eAddress-\u003eIO Word",
@@ -2124,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "setMemWord",
           "package": "HARM",
@@ -2133,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "setMemWord",
           "normalized": "Memory-\u003eWordAddress-\u003eWord-\u003eIO()",
@@ -2148,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "wordAddress",
           "package": "HARM",
@@ -2157,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "wordAddress",
           "normalized": "ByteAddress-\u003eWordAddress",
@@ -2172,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Memory",
           "name": "writeMem",
           "package": "HARM",
@@ -2181,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Arm Memory",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Memory",
           "name": "writeMem",
           "normalized": "Memory-\u003eAddress-\u003eWord-\u003eIO()",
@@ -2196,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Operand",
           "package": "HARM",
@@ -2204,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Operand",
           "package": "HARM",
@@ -2217,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Operand",
           "package": "HARM",
@@ -2225,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Operand",
           "package": "HARM",
@@ -2238,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Aut",
           "package": "HARM",
@@ -2247,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Aut",
           "package": "HARM",
@@ -2260,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Bas",
           "package": "HARM",
@@ -2269,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Bas",
           "package": "HARM",
@@ -2282,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Con",
           "package": "HARM",
@@ -2291,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Con",
           "package": "HARM",
@@ -2304,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Ind",
           "package": "HARM",
@@ -2313,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Ind",
           "package": "HARM",
@@ -2326,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Lab",
           "package": "HARM",
@@ -2335,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Lab",
           "package": "HARM",
@@ -2348,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Mrg",
           "package": "HARM",
@@ -2357,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Mrg",
           "normalized": "Mrg[RegisterName]",
@@ -2372,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Pos",
           "package": "HARM",
@@ -2381,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Pos",
           "package": "HARM",
@@ -2394,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Reg",
           "package": "HARM",
@@ -2403,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Reg",
           "package": "HARM",
@@ -2416,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Operand",
           "name": "Rel",
           "package": "HARM",
@@ -2425,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Arm Operand",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Operand",
           "name": "Rel",
           "package": "HARM",
@@ -2438,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "ParseLib",
           "package": "HARM",
@@ -2446,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "ParseLib",
           "package": "HARM",
@@ -2459,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "Parser",
           "package": "HARM",
@@ -2467,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "Parser",
           "package": "HARM",
@@ -2480,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "(+++)",
           "package": "HARM",
@@ -2489,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "(+++) +++",
           "normalized": "Parser a-\u003eParser a-\u003eParser a",
@@ -2503,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "alphanum",
           "package": "HARM",
@@ -2512,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "alphanum",
           "package": "HARM",
@@ -2524,6 +2748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "bracket",
           "package": "HARM",
@@ -2533,6 +2758,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "bracket",
           "normalized": "Parser a-\u003eParser b-\u003eParser c-\u003eParser b",
@@ -2547,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "chainl",
           "package": "HARM",
@@ -2556,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "chainl",
           "normalized": "Parser a-\u003eParser(a-\u003ea-\u003ea)-\u003ea-\u003eParser a",
@@ -2570,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "chainl1",
           "package": "HARM",
@@ -2579,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "chainl1",
           "normalized": "Parser a-\u003eParser(a-\u003ea-\u003ea)-\u003eParser a",
@@ -2593,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "chainr",
           "package": "HARM",
@@ -2602,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "chainr",
           "normalized": "Parser a-\u003eParser(a-\u003ea-\u003ea)-\u003ea-\u003eParser a",
@@ -2616,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "chainr1",
           "package": "HARM",
@@ -2625,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "chainr1",
           "normalized": "Parser a-\u003eParser(a-\u003ea-\u003ea)-\u003eParser a",
@@ -2639,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "char",
           "package": "HARM",
@@ -2648,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "char",
           "normalized": "Char-\u003eParser Char",
@@ -2662,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "comment",
           "package": "HARM",
@@ -2671,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "comment",
           "normalized": "Parser()",
@@ -2685,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "digit",
           "package": "HARM",
@@ -2694,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "digit",
           "package": "HARM",
@@ -2706,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "ident",
           "package": "HARM",
@@ -2715,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "ident",
           "package": "HARM",
@@ -2727,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "identifier",
           "package": "HARM",
@@ -2736,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "identifier",
           "normalized": "[String]-\u003eParser String",
@@ -2750,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "int",
           "package": "HARM",
@@ -2759,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "int",
           "package": "HARM",
@@ -2771,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "integer",
           "package": "HARM",
@@ -2780,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "integer",
           "package": "HARM",
@@ -2792,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "item",
           "package": "HARM",
@@ -2801,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "item",
           "package": "HARM",
@@ -2813,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "junk",
           "package": "HARM",
@@ -2822,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "junk",
           "normalized": "Parser()",
@@ -2836,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "letter",
           "package": "HARM",
@@ -2845,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "letter",
           "package": "HARM",
@@ -2857,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "lower",
           "package": "HARM",
@@ -2866,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "lower",
           "package": "HARM",
@@ -2878,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "many",
           "package": "HARM",
@@ -2887,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "many",
           "normalized": "Parser a-\u003eParser[a]",
@@ -2901,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "many1",
           "package": "HARM",
@@ -2910,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "many1",
           "normalized": "Parser a-\u003eParser[a]",
@@ -2924,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "nat",
           "package": "HARM",
@@ -2933,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "nat",
           "package": "HARM",
@@ -2945,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "natural",
           "package": "HARM",
@@ -2954,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "natural",
           "package": "HARM",
@@ -2966,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "ops",
           "package": "HARM",
@@ -2975,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "ops",
           "normalized": "[(Parser a,b)]-\u003eParser b",
@@ -2989,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "papply",
           "package": "HARM",
@@ -2998,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "papply",
           "normalized": "Parser a-\u003eString-\u003e[(a,String)]",
@@ -3012,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "parse",
           "package": "HARM",
@@ -3021,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "parse",
           "normalized": "Parser a-\u003eParser a",
@@ -3035,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "sat",
           "package": "HARM",
@@ -3044,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "sat",
           "normalized": "(Char-\u003eBool)-\u003eParser Char",
@@ -3058,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "sepby",
           "package": "HARM",
@@ -3067,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "sepby",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -3081,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "sepby1",
           "package": "HARM",
@@ -3090,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "sepby1",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -3104,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "spaces",
           "package": "HARM",
@@ -3113,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "spaces",
           "normalized": "Parser()",
@@ -3127,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "string",
           "package": "HARM",
@@ -3136,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "string",
           "normalized": "String-\u003eParser String",
@@ -3150,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "symbol",
           "package": "HARM",
@@ -3159,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "symbol",
           "normalized": "String-\u003eParser String",
@@ -3173,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "token",
           "package": "HARM",
@@ -3182,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "token",
           "normalized": "Parser a-\u003eParser a",
@@ -3196,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.ParseLib",
           "name": "upper",
           "package": "HARM",
@@ -3205,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Arm ParseLib",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.ParseLib",
           "name": "upper",
           "package": "HARM",
@@ -3217,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Parser",
           "package": "HARM",
@@ -3225,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Parser",
           "package": "HARM",
@@ -3238,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "ParseElement",
           "package": "HARM",
@@ -3246,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "ParseElement",
           "package": "HARM",
@@ -3259,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Symbol",
           "package": "HARM",
@@ -3267,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Symbol",
           "package": "HARM",
@@ -3280,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Address",
           "package": "HARM",
@@ -3289,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Address",
           "package": "HARM",
@@ -3302,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Comment",
           "package": "HARM",
@@ -3311,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Comment",
           "package": "HARM",
@@ -3324,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Data",
           "package": "HARM",
@@ -3333,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Data",
           "normalized": "Data[Operand][Constant]",
@@ -3348,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Instruction",
           "package": "HARM",
@@ -3357,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Instruction",
           "package": "HARM",
@@ -3370,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Newline",
           "package": "HARM",
@@ -3379,6 +3680,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Newline",
           "package": "HARM",
@@ -3392,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Origin",
           "package": "HARM",
@@ -3401,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Origin",
           "package": "HARM",
@@ -3414,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "RegInit",
           "package": "HARM",
@@ -3423,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "RegInit",
           "package": "HARM",
@@ -3436,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "Symbol",
           "package": "HARM",
@@ -3445,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "Symbol",
           "package": "HARM",
@@ -3458,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pAut",
           "package": "HARM",
@@ -3467,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pAut",
           "package": "HARM",
@@ -3480,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pBas",
           "package": "HARM",
@@ -3489,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pBas",
           "package": "HARM",
@@ -3502,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pBinary",
           "package": "HARM",
@@ -3511,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pBinary",
           "package": "HARM",
@@ -3524,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pCon",
           "package": "HARM",
@@ -3533,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pCon",
           "package": "HARM",
@@ -3546,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pInd",
           "package": "HARM",
@@ -3555,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pInd",
           "package": "HARM",
@@ -3568,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pOperand",
           "package": "HARM",
@@ -3577,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pOperand",
           "package": "HARM",
@@ -3590,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pPos",
           "package": "HARM",
@@ -3599,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pPos",
           "package": "HARM",
@@ -3612,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pReg",
           "package": "HARM",
@@ -3621,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pReg",
           "package": "HARM",
@@ -3634,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Parser",
           "name": "pWord",
           "package": "HARM",
@@ -3643,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Arm Parser",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Parser",
           "name": "pWord",
           "package": "HARM",
@@ -3656,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "Program",
           "package": "HARM",
@@ -3664,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "Program",
           "package": "HARM",
@@ -3677,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "Constant",
           "package": "HARM",
@@ -3685,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "Constant",
           "package": "HARM",
@@ -3698,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "Program",
           "package": "HARM",
@@ -3706,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "Program",
           "package": "HARM",
@@ -3719,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "Array",
           "package": "HARM",
@@ -3728,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "Array",
           "package": "HARM",
@@ -3741,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "Int",
           "package": "HARM",
@@ -3750,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "Int",
           "package": "HARM",
@@ -3763,6 +4099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "List",
           "package": "HARM",
@@ -3772,6 +4109,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "List",
           "normalized": "List[Constant]",
@@ -3787,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "Program",
           "package": "HARM",
@@ -3796,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "Program",
           "package": "HARM",
@@ -3809,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "String",
           "package": "HARM",
@@ -3818,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "String",
           "package": "HARM",
@@ -3831,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "Word",
           "package": "HARM",
@@ -3840,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "Word",
           "package": "HARM",
@@ -3853,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "constSize",
           "package": "HARM",
@@ -3862,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "constSize",
           "normalized": "Constant-\u003eWord",
@@ -3877,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "constants",
           "package": "HARM",
@@ -3886,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "constants",
           "normalized": "[(Address,Constant)]",
@@ -3900,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "instructions",
           "package": "HARM",
@@ -3909,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "instructions",
           "normalized": "[Instruction]",
@@ -3923,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "memorySize",
           "package": "HARM",
@@ -3932,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "memorySize",
           "package": "HARM",
@@ -3945,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "origin",
           "package": "HARM",
@@ -3954,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "origin",
           "package": "HARM",
@@ -3966,6 +4320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Program",
           "name": "regInit",
           "package": "HARM",
@@ -3975,6 +4330,7 @@
         },
         "index": {
           "hierarchy": "Arm Program",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Program",
           "name": "regInit",
           "normalized": "[(RegisterName,Word)]",
@@ -3990,6 +4346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Register",
           "name": "Register",
           "package": "HARM",
@@ -3998,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "Arm Register",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Register",
           "name": "Register",
           "package": "HARM",
@@ -4011,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Register",
           "name": "Registers",
           "package": "HARM",
@@ -4019,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Arm Register",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Register",
           "name": "Registers",
           "package": "HARM",
@@ -4032,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Register",
           "name": "cpsrGet",
           "package": "HARM",
@@ -4041,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Arm Register",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Register",
           "name": "cpsrGet",
           "normalized": "Int-\u003eRegisters-\u003eIO Word",
@@ -4056,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Register",
           "name": "cpsrSet",
           "package": "HARM",
@@ -4065,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Arm Register",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Register",
           "name": "cpsrSet",
           "normalized": "Int-\u003eRegisters-\u003eIO()",
@@ -4080,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Register",
           "name": "emptyRegs",
           "package": "HARM",
@@ -4089,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Arm Register",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Register",
           "name": "emptyRegs",
           "package": "HARM",
@@ -4102,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Register",
           "name": "getReg",
           "package": "HARM",
@@ -4111,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Arm Register",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Register",
           "name": "getReg",
           "normalized": "Registers-\u003eRegisterName-\u003eIO Word",
@@ -4126,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Register",
           "name": "setReg",
           "package": "HARM",
@@ -4135,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Arm Register",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Register",
           "name": "setReg",
           "normalized": "Registers-\u003eRegisterName-\u003eWord-\u003eIO()",
@@ -4150,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "RegisterName",
           "package": "HARM",
@@ -4158,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "RegisterName",
           "package": "HARM",
@@ -4171,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "RegisterName",
           "package": "HARM",
@@ -4179,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "RegisterName",
           "package": "HARM",
@@ -4192,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "CPSR",
           "package": "HARM",
@@ -4201,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "CPSR",
           "package": "HARM",
@@ -4214,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R0",
           "package": "HARM",
@@ -4223,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R0",
           "package": "HARM",
@@ -4235,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R1",
           "package": "HARM",
@@ -4244,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R1",
           "package": "HARM",
@@ -4256,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R10",
           "package": "HARM",
@@ -4265,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R10",
           "package": "HARM",
@@ -4277,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R11",
           "package": "HARM",
@@ -4286,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R11",
           "package": "HARM",
@@ -4298,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R12",
           "package": "HARM",
@@ -4307,6 +4692,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R12",
           "package": "HARM",
@@ -4319,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R13",
           "package": "HARM",
@@ -4328,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R13",
           "package": "HARM",
@@ -4340,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R14",
           "package": "HARM",
@@ -4349,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R14",
           "package": "HARM",
@@ -4361,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R15",
           "package": "HARM",
@@ -4370,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R15",
           "package": "HARM",
@@ -4382,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R2",
           "package": "HARM",
@@ -4391,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R2",
           "package": "HARM",
@@ -4403,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R3",
           "package": "HARM",
@@ -4412,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R3",
           "package": "HARM",
@@ -4424,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R4",
           "package": "HARM",
@@ -4433,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R4",
           "package": "HARM",
@@ -4445,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R5",
           "package": "HARM",
@@ -4454,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R5",
           "package": "HARM",
@@ -4466,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R6",
           "package": "HARM",
@@ -4475,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R6",
           "package": "HARM",
@@ -4487,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R7",
           "package": "HARM",
@@ -4496,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R7",
           "package": "HARM",
@@ -4508,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R8",
           "package": "HARM",
@@ -4517,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R8",
           "package": "HARM",
@@ -4529,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "R9",
           "package": "HARM",
@@ -4538,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "R9",
           "package": "HARM",
@@ -4550,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.RegisterName",
           "name": "nthReg",
           "package": "HARM",
@@ -4559,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Arm RegisterName",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.RegisterName",
           "name": "nthReg",
           "normalized": "Word-\u003eRegisterName",
@@ -4574,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Swi",
           "name": "Swi",
           "package": "HARM",
@@ -4582,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Arm Swi",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Swi",
           "name": "Swi",
           "package": "HARM",
@@ -4595,6 +5007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Swi",
           "name": "fetchString",
           "package": "HARM",
@@ -4604,6 +5017,7 @@
         },
         "index": {
           "hierarchy": "Arm Swi",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Swi",
           "name": "fetchString",
           "normalized": "Memory-\u003eAddress-\u003eIO String",
@@ -4619,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:09 UTC 2014",
           "module": "Arm.Swi",
           "name": "swi",
           "package": "HARM",
@@ -4628,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Arm Swi",
+          "indexed": "2014-03-11T16:44:09",
           "module": "Arm.Swi",
           "name": "swi",
           "normalized": "CPU-\u003eWord-\u003eBool-\u003eIO()",

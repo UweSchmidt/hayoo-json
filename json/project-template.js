@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "project-template"
+        "phrase": "project-template",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "ProjectTemplate",
           "package": "project-template",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "ProjectTemplate",
           "package": "project-template",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument to \u003ccode\u003e\u003ca\u003eunpackTemplate\u003c/a\u003e\u003c/code\u003e, specifying how to receive a file.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "FileReceiver",
           "package": "project-template",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The first argument to unpackTemplate specifying how to receive file Since",
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "FileReceiver",
           "package": "project-template",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions that can be thrown.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "ProjectTemplateException",
           "package": "project-template",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Exceptions that can be thrown Since",
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "ProjectTemplateException",
           "package": "project-template",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "BinaryLoopNeedsOneLine",
           "package": "project-template",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "BinaryLoopNeedsOneLine",
           "package": "project-template",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "InvalidInput",
           "package": "project-template",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "InvalidInput",
           "package": "project-template",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a template file from a stream of file/contents combinations.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "createTemplate",
           "package": "project-template",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Create template file from stream of file contents combinations Since",
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "createTemplate",
           "normalized": "Conduit(FilePath,a ByteString)a ByteString",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive files to the given folder on the filesystem.\n\u003c/p\u003e\u003cpre\u003e unpackTemplate (receiveFS \"some-destination\") (T.replace \"PROJECTNAME\" \"foo\")\n\u003c/pre\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "receiveFS",
           "package": "project-template",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Receive files to the given folder on the filesystem unpackTemplate receiveFS some-destination T.replace PROJECTNAME foo Since",
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "receiveFS",
           "normalized": "FilePath-\u003eFileReceiver a",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive files to a \u003ccode\u003eWriter\u003c/code\u003e monad in memory.\n\u003c/p\u003e\u003cpre\u003e execWriter $ runExceptionT_ $ src $$ unpackTemplate receiveMem id\n\u003c/pre\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "receiveMem",
           "package": "project-template",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Receive files to Writer monad in memory execWriter runExceptionT src unpackTemplate receiveMem id Since",
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "receiveMem",
           "package": "project-template",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a template to some destination. Destination is provided by the\n first argument.\n\u003c/p\u003e\u003cp\u003eThe second argument allows you to modify the incoming stream, usually to\n replace variables. For example, to replace PROJECTNAME with myproject, you\n could use:\n\u003c/p\u003e\u003cpre\u003e Data.Text.replace \"PROJECTNAME\" \"myproject\"\n\u003c/pre\u003e\u003cp\u003eNote that this will affect both file contents and file names.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:11 UTC 2014",
           "module": "Text.ProjectTemplate",
           "name": "unpackTemplate",
           "package": "project-template",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Unpack template to some destination Destination is provided by the first argument The second argument allows you to modify the incoming stream usually to replace variables For example to replace PROJECTNAME with myproject you could use Data.Text.replace PROJECTNAME myproject Note that this will affect both file contents and file names Since",
           "hierarchy": "Text ProjectTemplate",
+          "indexed": "2014-03-11T19:45:11",
           "module": "Text.ProjectTemplate",
           "name": "unpackTemplate",
           "normalized": "(FilePath-\u003eSink ByteString a())-\u003e(Text-\u003eText)-\u003eSink ByteString a()",

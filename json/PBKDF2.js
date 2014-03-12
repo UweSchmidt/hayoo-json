@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PBKDF2"
+        "phrase": "PBKDF2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of Password Based Key Derivation Function, from RSA labs. \n\u003c/p\u003e\u003cp\u003eSee PKCS # 5 / RFC 2898 from rsa labs: and haskell cafe discussion on why password hashing is a good idea for web apps and a suggestion that this be implemented: \n\u003c/p\u003e\u003cpre\u003e http://www.ietf.org/rfc/rfc2898.txt \n http://groups.google.com/group/fa.haskell/browse_thread/thread/66c7aeeb6e47764a/b15d9d74d68c002c\n\u003c/pre\u003e\u003cpre\u003e hashedpass = pbkdf2 ( Password . toOctets $ \"password\" ) ( Salt . toOctets $ \"salt\" )\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "PBKDF2",
           "package": "PBKDF2",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of Password Based Key Derivation Function from RSA labs See PKCS RFC from rsa labs and haskell cafe discussion on why password hashing is good idea for web apps and suggestion that this be implemented http www.ietf.org rfc rfc2898.txt http groups.google.com group fa.haskell browse thread thread c7aeeb6e47764a b15d9d74d68c002c hashedpass pbkdf2 Password toOctets password Salt toOctets salt",
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "PBKDF2",
           "package": "PBKDF2",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "HashedPass",
           "package": "PBKDF2",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "HashedPass",
           "package": "PBKDF2",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "Password",
           "package": "PBKDF2",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "Password",
           "package": "PBKDF2",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "Salt",
           "package": "PBKDF2",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "Salt",
           "package": "PBKDF2",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "HashedPass",
           "package": "PBKDF2",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "HashedPass",
           "normalized": "HashedPass[Word]",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "Password",
           "package": "PBKDF2",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "Password",
           "normalized": "Password[Word]",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "Salt",
           "package": "PBKDF2",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "Salt",
           "normalized": "Salt[Word]",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "fromOctets",
           "package": "PBKDF2",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "fromOctets",
           "normalized": "[Word]-\u003ea",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reasonable default for rsa pbkdf2. \n\u003c/p\u003e\u003cpre\u003e pbkdf2 = pbkdf2' (prfSHA512,64) 5000 64\n\u003c/pre\u003e\u003cp\u003eSHA512 outputs 64 bytes. At least 1000 iters is suggested by PKCS#5 (rsa link above). I chose 5000 because this takes my computer a little over a second to compute a simple key derivation (see t test function in source)\n\u003c/p\u003e\u003cp\u003eDklen of 64 seemed reasonable to me: if this is being stored in a database, doesn't take too much space.\n\u003c/p\u003e\u003cp\u003eComputational barriers can be raised by increasing number of iters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "pbkdf2",
           "package": "PBKDF2",
@@ -211,6 +228,7 @@
         "index": {
           "description": "reasonable default for rsa pbkdf2 pbkdf2 pbkdf2 prfSHA512 SHA512 outputs bytes At least iters is suggested by PKCS rsa link above chose because this takes my computer little over second to compute simple key derivation see test function in source Dklen of seemed reasonable to me if this is being stored in database doesn take too much space Computational barriers can be raised by increasing number of iters",
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "pbkdf2",
           "normalized": "Password-\u003eSalt-\u003eHashedPass",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePassword Based Key Derivation Function, from RSA labs.\n\u003c/p\u003e\u003cpre\u003e pbkdf2' (prf,hlen) cIters dklen (Password pass) (Salt salt) \n\u003c/pre\u003e\u003cp\u003eprf: pseudo random function\n\u003c/p\u003e\u003cp\u003ehlen: length of prf output\n\u003c/p\u003e\u003cp\u003ecIters: Number of iterations of prf\n\u003c/p\u003e\u003cp\u003edklen: Length of the derived key (hashed password)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "pbkdf2'",
           "package": "PBKDF2",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Password Based Key Derivation Function from RSA labs pbkdf2 prf hlen cIters dklen Password pass Salt salt prf pseudo random function hlen length of prf output cIters Number of iterations of prf dklen Length of the derived key hashed password",
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "pbkdf2'",
           "normalized": "([Word]-\u003e[Word]-\u003e[Word],Integer)-\u003eInteger-\u003eInteger-\u003ePassword-\u003eSalt-\u003eHashedPass",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:15 UTC 2014",
           "module": "Crypto.PBKDF2",
           "name": "toOctets",
           "package": "PBKDF2",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF2",
+          "indexed": "2014-03-11T16:56:15",
           "module": "Crypto.PBKDF2",
           "name": "toOctets",
           "normalized": "a-\u003e[Word]",

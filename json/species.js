@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "species"
+        "phrase": "species",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType class instances for \u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eESpeciesAST\u003c/a\u003e\u003c/code\u003e, and\n \u003ccode\u003e\u003ca\u003eSpeciesAST\u003c/a\u003e\u003c/code\u003e, in a separate module to avoid a dependency cycle\n between \u003ca\u003eMath.Combinatorics.Species.AST\u003c/a\u003e and\n \u003ca\u003eMath.Combinatorics.Species.Class\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis module also contains functions for reifying species\n expressions to ASTs and reflecting ASTs back into other species\n instances, which are in this module since they depend on the AST\n type class instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST.Instances",
           "name": "Instances",
           "package": "species",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type class instances for TSpeciesAST ESpeciesAST and SpeciesAST in separate module to avoid dependency cycle between Math.Combinatorics.Species.AST and Math.Combinatorics.Species.Class This module also contains functions for reifying species expressions to ASTs and reflecting ASTs back into other species instances which are in this module since they depend on the AST type class instances",
           "hierarchy": "Math Combinatorics Species AST Instances",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST.Instances",
           "name": "Instances",
           "package": "species",
@@ -68,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflect an existentially wrapped typed AST back into any\n instance of the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST.Instances",
           "name": "reflectE",
           "package": "species",
@@ -78,6 +81,7 @@
         "index": {
           "description": "Reflect an existentially wrapped typed AST back into any instance of the Species class",
           "hierarchy": "Math Combinatorics Species AST Instances",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST.Instances",
           "name": "reflectE",
           "normalized": "ESpeciesAST-\u003ea",
@@ -93,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflect a typed AST back into any instance of the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e\n class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST.Instances",
           "name": "reflectT",
           "package": "species",
@@ -103,6 +108,7 @@
         "index": {
           "description": "Reflect typed AST back into any instance of the Species class",
           "hierarchy": "Math Combinatorics Species AST Instances",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST.Instances",
           "name": "reflectT",
           "normalized": "TSpeciesAST a-\u003eb",
@@ -144,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as reify, but produce a typed, size-annotated AST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST.Instances",
           "name": "reifyE",
           "package": "species",
@@ -154,6 +161,7 @@
         "index": {
           "description": "The same as reify but produce typed size-annotated AST",
           "hierarchy": "Math Combinatorics Species AST Instances",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST.Instances",
           "name": "reifyE",
           "normalized": "ESpeciesAST-\u003eESpeciesAST",
@@ -169,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious data structures representing reified combinatorial species\n expressions.  See also \u003ca\u003eMath.Combinatorics.Species.AST.Instances\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "AST",
           "package": "species",
@@ -178,6 +187,7 @@
         "index": {
           "description": "Various data structures representing reified combinatorial species expressions See also Math.Combinatorics.Species.AST.Instances",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "AST",
           "package": "species",
@@ -192,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eASTFunctor\u003c/a\u003e\u003c/code\u003e is a type class for codes which can be interpreted\n   (via the \u003ccode\u003e\u003ca\u003eInterp\u003c/a\u003e\u003c/code\u003e type family) as higher-order functors over\n   species expressions.  The \u003ccode\u003e\u003ca\u003eapply\u003c/a\u003e\u003c/code\u003e method allows such codes to be\n   applied to a species AST.  The indirection is needed to implement\n   recursive species.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "ASTFunctor",
           "package": "species",
@@ -201,6 +212,7 @@
         "index": {
           "description": "ASTFunctor is type class for codes which can be interpreted via the Interp type family as higher-order functors over species expressions The apply method allows such codes to be applied to species AST The indirection is needed to implement recursive species",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "ASTFunctor",
           "package": "species",
@@ -215,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper to hide the phantom type parameter to\n   \u003ccode\u003e\u003ca\u003eSizedSpeciesAST\u003c/a\u003e\u003c/code\u003e, so we can make it an instance of \u003ccode\u003eSpecies\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "ESpeciesAST",
           "package": "species",
@@ -224,6 +237,7 @@
         "index": {
           "description": "An existential wrapper to hide the phantom type parameter to SizedSpeciesAST so we can make it an instance of Species",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "ESpeciesAST",
           "package": "species",
@@ -237,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "SizedSpeciesAST",
           "package": "species",
@@ -245,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "SizedSpeciesAST",
           "package": "species",
@@ -259,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic, untyped AST type for species expressions, for easily\n doing things like analysis, simplification, deriving isomorphisms,\n and so on.  Converting between \u003ccode\u003e\u003ca\u003eSpeciesAST\u003c/a\u003e\u003c/code\u003e and the typed variant\n \u003ccode\u003e\u003ca\u003eESpeciesAST\u003c/a\u003e\u003c/code\u003e can be done with \u003ccode\u003e\u003ca\u003eannotate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eerase\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "SpeciesAST",
           "package": "species",
@@ -268,6 +285,7 @@
         "index": {
           "description": "basic untyped AST type for species expressions for easily doing things like analysis simplification deriving isomorphisms and so on Converting between SpeciesAST and the typed variant ESpeciesAST can be done with annotate and erase",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "SpeciesAST",
           "package": "species",
@@ -282,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eSpeciesAST\u003c/a\u003e\u003c/code\u003e with a phantom type parameter which\n   also reflects the structure, so we can write\n   quasi-dependently-typed functions over species, in particular for\n   species enumeration.\n\u003c/p\u003e\u003cp\u003eOf course, the non-uniform type parameter means that\n   \u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e cannot be an instance of the \u003ccode\u003eSpecies\u003c/code\u003e class; for\n   that purpose the existential wrapper \u003ccode\u003e\u003ca\u003eESpeciesAST\u003c/a\u003e\u003c/code\u003e is provided.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e is defined via mutual recursion with\n   \u003ccode\u003e\u003ca\u003eSizedSpeciesAST\u003c/a\u003e\u003c/code\u003e, which pairs a \u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e with an interval\n   annotation indicating (a conservative approximation of) the label\n   set sizes for which the species actually yields any structures;\n   this information makes enumeration faster and also prevents it\n   from getting stuck in infinite recursion in some cases.  A value\n   of \u003ccode\u003e\u003ca\u003eSizedSpeciesAST\u003c/a\u003e\u003c/code\u003e is thus an annotated species expression tree\n   with interval annotations at every node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TSpeciesAST",
           "package": "species",
@@ -291,6 +310,7 @@
         "index": {
           "description": "variant of SpeciesAST with phantom type parameter which also reflects the structure so we can write quasi-dependently-typed functions over species in particular for species enumeration Of course the non-uniform type parameter means that TSpeciesAST cannot be an instance of the Species class for that purpose the existential wrapper ESpeciesAST is provided TSpeciesAST is defined via mutual recursion with SizedSpeciesAST which pairs TSpeciesAST with an interval annotation indicating conservative approximation of the label set sizes for which the species actually yields any structures this information makes enumeration faster and also prevents it from getting stuck in infinite recursion in some cases value of SizedSpeciesAST is thus an annotated species expression tree with interval annotations at every node",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TSpeciesAST",
           "package": "species",
@@ -304,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":*",
           "package": "species",
@@ -313,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":*",
           "normalized": "SpeciesAST-\u003eSpeciesAST-\u003eSpeciesAST",
@@ -327,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":*::",
           "package": "species",
@@ -336,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":*::",
           "normalized": "SizedSpeciesAST a-\u003eSizedSpeciesAST b-\u003eTSpeciesAST(a*b)",
@@ -350,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":+",
           "package": "species",
@@ -359,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":+",
           "normalized": "SpeciesAST-\u003eSpeciesAST-\u003eSpeciesAST",
@@ -373,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":+::",
           "package": "species",
@@ -382,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":+::",
           "normalized": "SizedSpeciesAST a-\u003eSizedSpeciesAST b-\u003eTSpeciesAST(a b)",
@@ -396,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":\u003e\u003c",
           "package": "species",
@@ -405,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":\u003e\u003c",
           "normalized": "SpeciesAST-\u003eSpeciesAST-\u003eSpeciesAST",
@@ -419,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":\u003e\u003c::",
           "package": "species",
@@ -428,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":\u003e\u003c::",
           "normalized": "SizedSpeciesAST a-\u003eSizedSpeciesAST b-\u003eTSpeciesAST(a*b)",
@@ -442,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":@",
           "package": "species",
@@ -451,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":@",
           "normalized": "SpeciesAST-\u003eSpeciesAST-\u003eSpeciesAST",
@@ -465,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":@::",
           "package": "species",
@@ -474,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":@::",
           "normalized": "SizedSpeciesAST a-\u003eSizedSpeciesAST b-\u003eTSpeciesAST(a b)",
@@ -488,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":.",
           "package": "species",
@@ -497,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":.",
           "normalized": "SpeciesAST-\u003eSpeciesAST-\u003eSpeciesAST",
@@ -511,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":.::",
           "package": "species",
@@ -520,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": ":.::",
           "normalized": "SizedSpeciesAST a-\u003eSizedSpeciesAST b-\u003eTSpeciesAST(a b)",
@@ -534,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "C",
           "package": "species",
@@ -543,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "C",
           "package": "species",
@@ -555,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Der",
           "package": "species",
@@ -564,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Der",
           "normalized": "SpeciesAST-\u003eSpeciesAST",
@@ -579,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "E",
           "package": "species",
@@ -588,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "E",
           "package": "species",
@@ -600,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Elt",
           "package": "species",
@@ -609,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Elt",
           "package": "species",
@@ -622,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "KSubset",
           "package": "species",
@@ -631,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "KSubset",
           "normalized": "Integer-\u003eSpeciesAST",
@@ -646,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "L",
           "package": "species",
@@ -655,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "L",
           "package": "species",
@@ -667,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "N",
           "package": "species",
@@ -676,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "N",
           "normalized": "Integer-\u003eSpeciesAST",
@@ -690,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "NonEmpty",
           "package": "species",
@@ -699,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "NonEmpty",
           "normalized": "SpeciesAST-\u003eSpeciesAST",
@@ -714,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "OfSize",
           "package": "species",
@@ -723,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "OfSize",
           "normalized": "SpeciesAST-\u003e(Integer-\u003eBool)-\u003eSpeciesAST",
@@ -738,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "OfSizeExactly",
           "package": "species",
@@ -747,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "OfSizeExactly",
           "normalized": "SpeciesAST-\u003eInteger-\u003eSpeciesAST",
@@ -762,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Omega",
           "package": "species",
@@ -771,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Omega",
           "package": "species",
@@ -784,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "One",
           "package": "species",
@@ -793,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "One",
           "package": "species",
@@ -806,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Rec",
           "package": "species",
@@ -815,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Rec",
           "normalized": "a-\u003eSpeciesAST",
@@ -830,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Sized",
           "package": "species",
@@ -839,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Sized",
           "normalized": "Interval-\u003eTSpeciesAST a-\u003eSizedSpeciesAST a",
@@ -854,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Subset",
           "package": "species",
@@ -863,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Subset",
           "package": "species",
@@ -876,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TC",
           "package": "species",
@@ -885,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TC",
           "package": "species",
@@ -898,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TDer",
           "package": "species",
@@ -907,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TDer",
           "normalized": "SizedSpeciesAST a-\u003eTSpeciesAST(a Star)",
@@ -922,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TE",
           "package": "species",
@@ -931,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TE",
           "package": "species",
@@ -944,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TElt",
           "package": "species",
@@ -953,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TElt",
           "package": "species",
@@ -966,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TKSubset",
           "package": "species",
@@ -975,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TKSubset",
           "normalized": "Integer-\u003eTSpeciesAST Set",
@@ -990,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TL",
           "package": "species",
@@ -999,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TL",
           "normalized": "TSpeciesAST[]",
@@ -1014,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TN",
           "package": "species",
@@ -1023,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TN",
           "normalized": "Integer-\u003eTSpeciesAST(Const Integer)",
@@ -1038,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TNonEmpty",
           "package": "species",
@@ -1047,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TNonEmpty",
           "normalized": "SizedSpeciesAST a-\u003eTSpeciesAST a",
@@ -1062,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TOfSize",
           "package": "species",
@@ -1071,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TOfSize",
           "normalized": "SizedSpeciesAST a-\u003e(Integer-\u003eBool)-\u003eTSpeciesAST a",
@@ -1086,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TOfSizeExactly",
           "package": "species",
@@ -1095,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TOfSizeExactly",
           "normalized": "SizedSpeciesAST a-\u003eInteger-\u003eTSpeciesAST a",
@@ -1110,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TOmega",
           "package": "species",
@@ -1119,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TOmega",
           "package": "species",
@@ -1132,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TOne",
           "package": "species",
@@ -1141,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TOne",
           "package": "species",
@@ -1154,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TRec",
           "package": "species",
@@ -1163,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TRec",
           "normalized": "a-\u003eTSpeciesAST(Mu a)",
@@ -1178,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TSubset",
           "package": "species",
@@ -1187,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TSubset",
           "package": "species",
@@ -1200,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TX",
           "package": "species",
@@ -1209,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TX",
           "package": "species",
@@ -1222,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TZero",
           "package": "species",
@@ -1231,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "TZero",
           "package": "species",
@@ -1244,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Wrap",
           "package": "species",
@@ -1253,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Wrap",
           "normalized": "SizedSpeciesAST a-\u003eESpeciesAST",
@@ -1268,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "X",
           "package": "species",
@@ -1277,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "X",
           "package": "species",
@@ -1289,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Zero",
           "package": "species",
@@ -1298,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "Zero",
           "package": "species",
@@ -1312,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate a \u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e with the interval of label set sizes for\n   which it yields structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "annI",
           "package": "species",
@@ -1322,6 +1431,7 @@
         "index": {
           "description": "Annotate TSpeciesAST with the interval of label set sizes for which it yields structures",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "annI",
           "normalized": "TSpeciesAST a-\u003eSizedSpeciesAST a",
@@ -1362,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "apply",
           "package": "species",
@@ -1371,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "apply",
           "normalized": "a-\u003eTSpeciesAST b-\u003eTSpeciesAST(Interp a b)",
@@ -1438,6 +1550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the interval annotation from a \u003ccode\u003e\u003ca\u003eSizedSpeciesAST\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "getI",
           "package": "species",
@@ -1448,6 +1561,7 @@
         "index": {
           "description": "Retrieve the interval annotation from SizedSpeciesAST",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "getI",
           "normalized": "SizedSpeciesAST a-\u003eInterval",
@@ -1463,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e, compute (a conservative approximation of)\n   the interval of label set sizes on which the species yields any\n   structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "interval",
           "package": "species",
@@ -1473,6 +1588,7 @@
         "index": {
           "description": "Given TSpeciesAST compute conservative approximation of the interval of label set sizes on which the species yields any structures",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "interval",
           "normalized": "TSpeciesAST a-\u003eInterval",
@@ -1488,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eneedsCI\u003c/a\u003e\u003c/code\u003e is a predicate which checks whether a species expression\n   uses any of the operations which are not supported directly by\n   ordinary generating functions (composition, differentiation,\n   cartesian product, and functor composition), and hence need cycle\n   index series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "needsCI",
           "package": "species",
@@ -1498,6 +1615,7 @@
         "index": {
           "description": "needsCI is predicate which checks whether species expression uses any of the operations which are not supported directly by ordinary generating functions composition differentiation cartesian product and functor composition and hence need cycle index series",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "needsCI",
           "normalized": "SpeciesAST-\u003eBool",
@@ -1514,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the interval annotation from a \u003ccode\u003e\u003ca\u003eSizedSpeciesAST\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "stripI",
           "package": "species",
@@ -1524,6 +1643,7 @@
         "index": {
           "description": "Strip the interval annotation from SizedSpeciesAST",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "stripI",
           "normalized": "SizedSpeciesAST a-\u003eTSpeciesAST a",
@@ -1539,6 +1659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute an expression for recursive occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.AST",
           "name": "substRec",
           "package": "species",
@@ -1549,6 +1670,7 @@
         "index": {
           "description": "Substitute an expression for recursive occurrences",
           "hierarchy": "Math Combinatorics Species AST",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.AST",
           "name": "substRec",
           "normalized": "a-\u003eSpeciesAST-\u003eSpeciesAST-\u003eSpeciesAST",
@@ -1617,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Species type class, which defines a small DSL for describing\n combinatorial species.  Other modules in this library provide\n specific instances which allow computing various properties of\n combinatorial species.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "Class",
           "package": "species",
@@ -1626,6 +1749,7 @@
         "index": {
           "description": "The Species type class which defines small DSL for describing combinatorial species Other modules in this library provide specific instances which allow computing various properties of combinatorial species",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "Class",
           "package": "species",
@@ -1640,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Species type class.  Note that the \u003ccode\u003eDifferential\u003c/code\u003e constraint\n   requires s to be a differentiable ring, which means that every\n   instance must also implement instances for \u003ca\u003eAlgebra.Additive\u003c/a\u003e\n   (the species 0 and species addition, i.e. disjoint sum),\n   \u003ca\u003eAlgebra.Ring\u003c/a\u003e (the species 1 and species multiplication,\n   i.e. partitional product), and \u003ca\u003eAlgebra.Differential\u003c/a\u003e (species\n   differentiation, i.e. adjoining a distinguished element).\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003e\u003e\u003c\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e@@\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eofSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e operation can be used infix to suggest common\n   notation for composition, and also to be read as an abbreviation\n   for \"of\", as in \"top o' the mornin'\": \u003ccode\u003eset `o` nonEmpty\n   sets\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "Species",
           "package": "species",
@@ -1649,6 +1774,7 @@
         "index": {
           "description": "The Species type class Note that the Differential constraint requires to be differentiable ring which means that every instance must also implement instances for Algebra.Additive the species and species addition i.e disjoint sum Algebra.Ring the species and species multiplication i.e partitional product and Algebra.Differential species differentiation i.e adjoining distinguished element Minimal complete definition singleton set cycle ofSize Note that the operation can be used infix to suggest common notation for composition and also to be read as an abbreviation for of as in top the mornin set nonEmpty sets",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "Species",
           "package": "species",
@@ -1663,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCartisian product of two species.  An \u003ccode\u003e(f \u003ccode\u003e\u003ca\u003e\u003e\u003c\u003c/a\u003e\u003c/code\u003e g)\u003c/code\u003e-structure\n consists of an \u003ccode\u003ef\u003c/code\u003e-structure superimposed on a \u003ccode\u003eg\u003c/code\u003e-structure over\n the same underlying set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "(\u003e\u003c)",
           "package": "species",
@@ -1673,6 +1800,7 @@
         "index": {
           "description": "Cartisian product of two species An structure consists of an structure superimposed on structure over the same underlying set",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a-\u003ea-\u003ea",
@@ -1688,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor composition of two species.  An \u003ccode\u003e(f \u003ccode\u003e\u003ca\u003e@@\u003c/a\u003e\u003c/code\u003e g)\u003c/code\u003e-structure\n   consists of an \u003ccode\u003ef\u003c/code\u003e-structure on the set of all \u003ccode\u003eg\u003c/code\u003e-structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "(@@)",
           "package": "species",
@@ -1698,6 +1827,7 @@
         "index": {
           "description": "Functor composition of two species An structure consists of an structure on the set of all structures",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "(@@) @@",
           "normalized": "a-\u003ea-\u003ea",
@@ -1712,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "bag",
           "package": "species",
@@ -1721,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "bag",
           "package": "species",
@@ -1733,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "bags",
           "package": "species",
@@ -1742,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "bags",
           "package": "species",
@@ -1803,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003eC\u003c/code\u003e of cyclical orderings (cycles/rings).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "cycle",
           "package": "species",
@@ -1813,6 +1948,7 @@
         "index": {
           "description": "The species of cyclical orderings cycles rings",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "cycle",
           "package": "species",
@@ -1898,6 +2034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructures of the species \u003ccode\u003ee\u003c/code\u003e of elements are just elements of\n   the underlying set, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eelement\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e * \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  Included\n   with a default definition in \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class for the same\n   reason as \u003ccode\u003e\u003ca\u003esubset\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eksubset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "element",
           "package": "species",
@@ -1908,6 +2045,7 @@
         "index": {
           "description": "Structures of the species of elements are just elements of the underlying set element singleton set Included with default definition in Species class for the same reason as subset and ksubset",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "element",
           "package": "species",
@@ -1943,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubsets of size exactly k, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eksubset\u003c/a\u003e\u003c/code\u003e k = (\u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\n `\u003ccode\u003e\u003ca\u003eofSizeExactly\u003c/a\u003e\u003c/code\u003e` k) * \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  Included with a default definition\n in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class for the same reason as \u003ccode\u003e\u003ca\u003esubset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "ksubset",
           "package": "species",
@@ -1953,6 +2092,7 @@
         "index": {
           "description": "Subsets of size exactly ksubset set ofSizeExactly set Included with default definition in the Species class for the same reason as subset",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "ksubset",
           "normalized": "Integer-\u003ea",
@@ -1992,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003eL\u003c/code\u003e of linear orderings (lists). Since linear\n   orderings are isomorphic to cyclic orderings with a hole, we\n   may take \u003ccode\u003e\u003ccode\u003e\u003ca\u003elinOrd\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eoneHole\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e as the default\n   implementation; \u003ccode\u003e\u003ca\u003elinOrd\u003c/a\u003e\u003c/code\u003e is included in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class so it\n   can be special-cased for enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "linOrd",
           "package": "species",
@@ -2002,6 +2143,7 @@
         "index": {
           "description": "The species of linear orderings lists Since linear orderings are isomorphic to cyclic orderings with hole we may take linOrd oneHole cycle as the default implementation linOrd is included in the Species class so it can be special-cased for enumeration",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "linOrd",
           "package": "species",
@@ -2039,6 +2181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't put a structure on the empty set.  The default definition\n   uses \u003ccode\u003e\u003ca\u003eofSize\u003c/a\u003e\u003c/code\u003e; included in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class so it can be\n   overriden in special cases (such as when reifying species\n   expressions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "nonEmpty",
           "package": "species",
@@ -2049,6 +2192,7 @@
         "index": {
           "description": "Don put structure on the empty set The default definition uses ofSize included in the Species class so it can be overriden in special cases such as when reifying species expressions",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "nonEmpty",
           "normalized": "a-\u003ea",
@@ -2065,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartitional composition.  To form all \u003ccode\u003e(f `\u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e` g)\u003c/code\u003e-structures on\n   the underlying label set U, first form all set partitions of U;\n   for each partition \u003ccode\u003ep\u003c/code\u003e, put an \u003ccode\u003ef\u003c/code\u003e-structure on the classes of\n   \u003ccode\u003ep\u003c/code\u003e, and a separate \u003ccode\u003eg\u003c/code\u003e-structure on the elements in each\n   class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "o",
           "package": "species",
@@ -2075,6 +2220,7 @@
         "index": {
           "description": "Partitional composition To form all structures on the underlying label set first form all set partitions of for each partition put an structure on the classes of and separate structure on the elements in each class",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "o",
           "normalized": "a-\u003ea-\u003ea",
@@ -2138,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly put a structure on underlying sets whose size satisfies\n   the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "ofSize",
           "package": "species",
@@ -2148,6 +2295,7 @@
         "index": {
           "description": "Only put structure on underlying sets whose size satisfies the predicate",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "ofSize",
           "normalized": "a-\u003e(Integer-\u003eBool)-\u003ea",
@@ -2164,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly put a structure on underlying sets of the given size.  A\n   default implementation of \u003ccode\u003eofSize (==k)\u003c/code\u003e is provided, but this\n   method is included in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class as a special case\n   since it can be more efficient: we get to turn infinite lists\n   of coefficients into finite ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "ofSizeExactly",
           "package": "species",
@@ -2174,6 +2323,7 @@
         "index": {
           "description": "Only put structure on underlying sets of the given size default implementation of ofSize is provided but this method is included in the Species class as special case since it can be more efficient we get to turn infinite lists of coefficients into finite ones",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "ofSizeExactly",
           "normalized": "a-\u003eInteger-\u003ea",
@@ -2190,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOmega is the pseudo-species which only puts a structure on\n   infinite label sets.  Of course this is not really a species,\n   but it is sometimes a convenient fiction to use Omega to stand\n   in for recursive occurrences of a species.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "omega",
           "package": "species",
@@ -2200,6 +2351,7 @@
         "index": {
           "description": "Omega is the pseudo-species which only puts structure on infinite label sets Of course this is not really species but it is sometimes convenient fiction to use Omega to stand in for recursive occurrences of species",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "omega",
           "package": "species",
@@ -2362,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'rec f' is the least fixpoint of (the interpretation of) the\n   higher-order species constructor \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "rec",
           "package": "species",
@@ -2372,6 +2525,7 @@
         "index": {
           "description": "rec is the least fixpoint of the interpretation of the higher-order species constructor",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "rec",
           "normalized": "a-\u003eb",
@@ -2387,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003eE\u003c/code\u003e of sets.  Puts a singleton structure on \u003cem\u003eany\u003c/em\u003e\n   underlying label set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "set",
           "package": "species",
@@ -2397,6 +2552,7 @@
         "index": {
           "description": "The species of sets Puts singleton structure on any underlying label set",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "set",
           "package": "species",
@@ -2482,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003eX\u003c/code\u003e of singletons. Puts a singleton structure on an\n   underlying label set of size 1, and no structures on any other\n   underlying label sets.  \u003ccode\u003e\u003ca\u003ex\u003c/a\u003e\u003c/code\u003e is also provided as a synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "singleton",
           "package": "species",
@@ -2492,6 +2649,7 @@
         "index": {
           "description": "The species of singletons Puts singleton structure on an underlying label set of size and no structures on any other underlying label sets is also provided as synonym",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "singleton",
           "package": "species",
@@ -2505,6 +2663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003ep\u003c/code\u003e of subsets is given by \u003ccode\u003e\u003ccode\u003e\u003ca\u003esubset\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e *\n   \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003esubset\u003c/a\u003e\u003c/code\u003e is included in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class so it can\n   be overridden when enumerating structures: by default the\n   enumeration code would generate a pair of the subset and its\n   complement, but normally when thinking about subsets we only\n   want to see the elements in the subset.  To explicitly\n   enumerate subset/complement pairs, you can use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e * \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n   directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Class",
           "name": "subset",
           "package": "species",
@@ -2515,6 +2674,7 @@
         "index": {
           "description": "The species of subsets is given by subset set set subset is included in the Species class so it can be overridden when enumerating structures by default the enumeration code would generate pair of the subset and its complement but normally when thinking about subsets we only want to see the elements in the subset To explicitly enumerate subset complement pairs you can use set set directly",
           "hierarchy": "Math Combinatorics Species Class",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Class",
           "name": "subset",
           "package": "species",
@@ -2574,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interpretation of species expressions as cycle index series.\n For details on cycle index series, see \"Combinatorial Species and\n Tree-Like Structures\", chapter 1.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "CycleIndex",
           "package": "species",
@@ -2583,6 +2744,7 @@
         "index": {
           "description": "An interpretation of species expressions as cycle index series For details on cycle index series see Combinatorial Species and Tree-Like Structures chapter",
           "hierarchy": "Math Combinatorics Species CycleIndex",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "CycleIndex",
           "package": "species",
@@ -2597,6 +2759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaut js\u003c/code\u003e is is the number of automorphisms of a permutation with\n   cycle type \u003ccode\u003ejs\u003c/code\u003e (i.e. a permutation which has \u003ccode\u003en\u003c/code\u003e cycles of size\n   \u003ccode\u003ei\u003c/code\u003e for each \u003ccode\u003e(i,n)\u003c/code\u003e in \u003ccode\u003ejs\u003c/code\u003e).  Another way to look at it is that\n   there are \u003ccode\u003en!/aut js\u003c/code\u003e permutations on n elements with cycle type\n   \u003ccode\u003ejs\u003c/code\u003e.  The result type is a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "aut",
           "package": "species",
@@ -2607,6 +2770,7 @@
         "index": {
           "description": "aut js is is the number of automorphisms of permutation with cycle type js i.e permutation which has cycles of size for each in js Another way to look at it is that there are aut js permutations on elements with cycle type js The result type is",
           "hierarchy": "Math Combinatorics Species CycleIndex",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "aut",
           "normalized": "CycleType-\u003eT",
@@ -2622,6 +2786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecyclePower s n\u003c/code\u003e computes the cycle type of sigma^n, where sigma\n   is any permutation of cycle type s.\n\u003c/p\u003e\u003cp\u003eIn particular, if s = (s_1, s_2, s_3, ...)  (i.e. sigma has s_1\n   fixed points, s_2 2-cycles, ... s_k k-cycles), then\n\u003c/p\u003e\u003cp\u003esigma^n_j = sum_{j*gcd(n,k) = k} gcd(n,k)*s_k\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "cyclePower",
           "package": "species",
@@ -2632,6 +2797,7 @@
         "index": {
           "description": "cyclePower computes the cycle type of sigma where sigma is any permutation of cycle type In particular if i.e sigma has fixed points cycles k-cycles then sigma sum gcd gcd",
           "hierarchy": "Math Combinatorics Species CycleIndex",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "cyclePower",
           "normalized": "CycleType-\u003eInteger-\u003eCycleType",
@@ -2648,6 +2814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all partitions of an integer.  In particular, if \u003ccode\u003ep\u003c/code\u003e is\n   an element of the list output by \u003ccode\u003eintPartitions n\u003c/code\u003e, then \u003ccode\u003esum\n   . map (uncurry (*)) $ p == n\u003c/code\u003e.  The result type is \u003ccode\u003e[CycleType]\u003c/code\u003e\n   since each integer partition of \u003ccode\u003en\u003c/code\u003e corresponds to the cycle type\n   of a permutation on \u003ccode\u003en\u003c/code\u003e elements.\n\u003c/p\u003e\u003cp\u003eThe partitions are generated in an order corresponding to\n   the Ord instance for \u003ccode\u003eMonomial\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "intPartitions",
           "package": "species",
@@ -2658,6 +2825,7 @@
         "index": {
           "description": "Enumerate all partitions of an integer In particular if is an element of the list output by intPartitions then sum map uncurry The result type is CycleType since each integer partition of corresponds to the cycle type of permutation on elements The partitions are generated in an order corresponding to the Ord instance for Monomial",
           "hierarchy": "Math Combinatorics Species CycleIndex",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "intPartitions",
           "normalized": "Integer-\u003e[CycleType]",
@@ -2674,6 +2842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a particular coefficient from a cycle index series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "zCoeff",
           "package": "species",
@@ -2684,6 +2853,7 @@
         "index": {
           "description": "Extract particular coefficient from cycle index series",
           "hierarchy": "Math Combinatorics Species CycleIndex",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "zCoeff",
           "normalized": "CycleIndex-\u003eCycleType-\u003eRational",
@@ -2700,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute \u003ccode\u003efix F[n]\u003c/code\u003e, i.e. the number of F-structures fixed by a\n   permutation with cycle type n, given the cycle index series Z_F.\n\u003c/p\u003e\u003cp\u003eIn particular, \u003ccode\u003efix F[n] = aut(n) * zCoeff Z_F n\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "zFix",
           "package": "species",
@@ -2710,6 +2881,7 @@
         "index": {
           "description": "Compute fix i.e the number of F-structures fixed by permutation with cycle type given the cycle index series In particular fix aut zCoeff",
           "hierarchy": "Math Combinatorics Species CycleIndex",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "zFix",
           "normalized": "CycleIndex-\u003eCycleType-\u003eInteger",
@@ -2726,6 +2898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a cycle index series to an exponential generating\n   function:  F(x) = Z_F(x,0,0,0,...).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "zToEGF",
           "package": "species",
@@ -2736,6 +2909,7 @@
         "index": {
           "description": "Convert cycle index series to an exponential generating function",
           "hierarchy": "Math Combinatorics Species CycleIndex",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "zToEGF",
           "normalized": "CycleIndex-\u003eEGF",
@@ -2752,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a cycle index series to an ordinary generating function:\n   F~(x) = Z_F(x,x^2,x^3,...).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "zToGF",
           "package": "species",
@@ -2762,6 +2937,7 @@
         "index": {
           "description": "Convert cycle index series to an ordinary generating function",
           "hierarchy": "Math Combinatorics Species CycleIndex",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.CycleIndex",
           "name": "zToGF",
           "normalized": "CycleIndex-\u003eGF",
@@ -2778,6 +2954,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnumeration (i.e. exhaustive generation of structures) of both\n labeled and unlabeled species.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "Enumerate",
           "package": "species",
@@ -2787,6 +2964,7 @@
         "index": {
           "description": "Enumeration i.e exhaustive generation of structures of both labeled and unlabeled species",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "Enumerate",
           "package": "species",
@@ -2801,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e class allows you to enumerate structures of any\n   type, by declaring an instance of \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e.  The \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e\n   instance requires you to declare a standard structure type (see\n   \u003ca\u003eMath.Combinatorics.Species.Structures\u003c/a\u003e) associated with your\n   type, and a mapping \u003ccode\u003e\u003ca\u003eiso\u003c/a\u003e\u003c/code\u003e from the standard type to your custom\n   one.  Instances are provided for all the standard structure types\n   so you can enumerate species without having to provide your own\n   custom data type as the target of the enumeration if you don't\n   want to.\n\u003c/p\u003e\u003cp\u003eYou should only rarely have to explicitly make an instance of\n   \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e yourself; Template Haskell code to derive instances\n   for you is provided in \u003ca\u003eMath.Combinatorics.Species.TH\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "Enumerable",
           "package": "species",
@@ -2810,6 +2989,7 @@
         "index": {
           "description": "The Enumerable class allows you to enumerate structures of any type by declaring an instance of Enumerable The Enumerable instance requires you to declare standard structure type see Math.Combinatorics.Species.Structures associated with your type and mapping iso from the standard type to your custom one Instances are provided for all the standard structure types so you can enumerate species without having to provide your own custom data type as the target of the enumeration if you don want to You should only rarely have to explicitly make an instance of Enumerable yourself Template Haskell code to derive instances for you is provided in Math.Combinatorics.Species.TH",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "Enumerable",
           "package": "species",
@@ -2824,6 +3004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper for structures, hiding the structure\n   functor and ensuring that it is \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "Structure",
           "package": "species",
@@ -2833,6 +3014,7 @@
         "index": {
           "description": "An existential wrapper for structures hiding the structure functor and ensuring that it is Typeable",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "Structure",
           "package": "species",
@@ -2846,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "Structure",
           "package": "species",
@@ -2855,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "Structure",
           "normalized": "a b-\u003eStructure b",
@@ -2897,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an AST describing a species, with a phantom type parameter\n   representing the structure of the species, and an underlying\n   multiset of elements, compute a list of all possible structures\n   built over the underlying multiset.  (Of course, it would be\n   really nice to have a real dependently-typed language for this!)\n\u003c/p\u003e\u003cp\u003eUnfortunately, \u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e cannot be made an instance of\n   \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e, so if we want to be able to enumerate structures given\n   an expression of the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e DSL as input, the output must be\n   existentially quantified; see \u003ccode\u003e\u003ca\u003eenumerateE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eGenerating structures over base elements from a \u003cem\u003emultiset\u003c/em\u003e\n   unifies labeled and unlabeled generation into one framework.\n   To enumerate labeled structures, use a multiset where each\n   element occurs exactly once; to enumerate unlabeled structures,\n   use a multiset with the desired number of copies of a single\n   element.  To do labeled generation we could get away without the\n   generality of multisets, but to do unlabeled generation we need\n   the full generality anyway.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eenumerate'\u003c/a\u003e\u003c/code\u003e does all the actual work, but is not meant to be used\n   directly; use one of the specialized \u003ccode\u003eenumerateXX\u003c/code\u003e methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "enumerate'",
           "package": "species",
@@ -2907,6 +3092,7 @@
         "index": {
           "description": "Given an AST describing species with phantom type parameter representing the structure of the species and an underlying multiset of elements compute list of all possible structures built over the underlying multiset Of course it would be really nice to have real dependently-typed language for this Unfortunately TSpeciesAST cannot be made an instance of Species so if we want to be able to enumerate structures given an expression of the Species DSL as input the output must be existentially quantified see enumerateE Generating structures over base elements from multiset unifies labeled and unlabeled generation into one framework To enumerate labeled structures use multiset where each element occurs exactly once to enumerate unlabeled structures use multiset with the desired number of copies of single element To do labeled generation we could get away without the generality of multisets but to do unlabeled generation we need the full generality anyway enumerate does all the actual work but is not meant to be used directly use one of the specialized enumerateXX methods",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "enumerate'",
           "normalized": "TSpeciesAST a-\u003eMultiset b-\u003e[a b]",
@@ -2976,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eenumerateE\u003c/a\u003e\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003eenumerate'\u003c/a\u003e\u003c/code\u003e which takes an\n   (existentially quantified) typed AST and returns a list of\n   existentially quantified structures.  This is also not meant to\n   be used directly.  Instead, you should use one of the other\n   \u003ccode\u003eenumerateX\u003c/code\u003e methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "enumerateE",
           "package": "species",
@@ -2986,6 +3173,7 @@
         "index": {
           "description": "enumerateE is variant of enumerate which takes an existentially quantified typed AST and returns list of existentially quantified structures This is also not meant to be used directly Instead you should use one of the other enumerateX methods",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "enumerateE",
           "normalized": "ESpeciesAST-\u003eMultiset a-\u003e[Structure a]",
@@ -3079,6 +3267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the contents from a \u003ccode\u003e\u003ca\u003eStructure\u003c/a\u003e\u003c/code\u003e wrapper, if we know the\n   type, and map it into an isomorphic type.  If the type doesn't\n   match, return a helpful error message instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "extractStructure",
           "package": "species",
@@ -3089,6 +3278,7 @@
         "index": {
           "description": "Extract the contents from Structure wrapper if we know the type and map it into an isomorphic type If the type doesn match return helpful error message instead",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "extractStructure",
           "normalized": "Structure a-\u003eEither String(b a)",
@@ -3105,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mapping from \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStructTy\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e to \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "iso",
           "package": "species",
@@ -3115,6 +3306,7 @@
         "index": {
           "description": "The mapping from StructTy to",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "iso",
           "normalized": "StructTy a b-\u003ea b",
@@ -3130,6 +3322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a \u003ccode\u003e\u003ca\u003eTypeRep\u003c/a\u003e\u003c/code\u003e while stripping off qualifier portions of \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e\n   names.  This is essentially copied and pasted from the\n   \u003ca\u003eData.Typeable\u003c/a\u003e source, with a number of cases taken out that we\n   don't care about (special cases for \u003ccode\u003e(-\u003e)\u003c/code\u003e, tuples, etc.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "showStructureType",
           "package": "species",
@@ -3140,6 +3333,7 @@
         "index": {
           "description": "Show TypeRep while stripping off qualifier portions of TyCon names This is essentially copied and pasted from the Data.Typeable source with number of cases taken out that we don care about special cases for tuples etc",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "showStructureType",
           "normalized": "TypeRep-\u003eString",
@@ -3183,6 +3377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eextractStructure\u003c/a\u003e\u003c/code\u003e which calls \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e with the\n   message in the case of a type mismatch, instead of returning an\n   \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "unsafeExtractStructure",
           "package": "species",
@@ -3193,6 +3388,7 @@
         "index": {
           "description": "version of extractStructure which calls error with the message in the case of type mismatch instead of returning an Either",
           "hierarchy": "Math Combinatorics Species Enumerate",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Enumerate",
           "name": "unsafeExtractStructure",
           "normalized": "Structure a-\u003eb a",
@@ -3209,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interpretation of species as exponential generating functions,\n which count labeled structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Labeled",
           "name": "Labeled",
           "package": "species",
@@ -3218,6 +3415,7 @@
         "index": {
           "description": "An interpretation of species as exponential generating functions which count labeled structures",
           "hierarchy": "Math Combinatorics Species Labeled",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Labeled",
           "name": "Labeled",
           "package": "species",
@@ -3283,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.NewtonRaphson",
           "name": "NewtonRaphson",
           "package": "species",
@@ -3291,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species NewtonRaphson",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.NewtonRaphson",
           "name": "NewtonRaphson",
           "package": "species",
@@ -3332,6 +3532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single iteration of the Newton-Raphson method.\n   \u003ccode\u003enewtonRaphsonIter r k a\u003c/code\u003e assumes that \u003ccode\u003ea\u003c/code\u003e is a species having\n   contact of order \u003ccode\u003ek\u003c/code\u003e with species \u003ccode\u003et = x \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e (r `\u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e` t)\u003c/code\u003e (that\n   is, \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003et\u003c/code\u003e agree on all label sets of size up to and\n   including \u003ccode\u003ek\u003c/code\u003e), and returns a new species with contact of order\n   \u003ccode\u003e2k+2\u003c/code\u003e with \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee BLL section 3.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.NewtonRaphson",
           "name": "newtonRaphsonIter",
           "package": "species",
@@ -3342,6 +3543,7 @@
         "index": {
           "description": "single iteration of the Newton-Raphson method newtonRaphsonIter assumes that is species having contact of order with species that is and agree on all label sets of size up to and including and returns new species with contact of order with See BLL section",
           "hierarchy": "Math Combinatorics Species NewtonRaphson",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.NewtonRaphson",
           "name": "newtonRaphsonIter",
           "normalized": "a-\u003eInteger-\u003ea-\u003ea",
@@ -3385,6 +3587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a code \u003ccode\u003ef\u003c/code\u003e representing a recursive species, try to find an\n   integer species N and species R such that \u003ccode\u003ef = N + X*R(f)\u003c/code\u003e.  If\n   such species can be found, return \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e (N,R)\u003c/code\u003e; otherwise\n   return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.NewtonRaphson",
           "name": "solveForR",
           "package": "species",
@@ -3395,6 +3598,7 @@
         "index": {
           "description": "Given code representing recursive species try to find an integer species and species such that If such species can be found return Just otherwise return Nothing",
           "hierarchy": "Math Combinatorics Species NewtonRaphson",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.NewtonRaphson",
           "name": "solveForR",
           "normalized": "a-\u003eMaybe(b,b)",
@@ -3411,6 +3615,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to manipulate and simplify species expressions according\n to algebraic species isomorphisms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Simplify",
           "name": "Simplify",
           "package": "species",
@@ -3420,6 +3625,7 @@
         "index": {
           "description": "Functions to manipulate and simplify species expressions according to algebraic species isomorphisms",
           "hierarchy": "Math Combinatorics Species Simplify",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Simplify",
           "name": "Simplify",
           "package": "species",
@@ -3487,6 +3693,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes used for expressing generic structures when enumerating\n species.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Structures",
           "package": "species",
@@ -3496,6 +3703,7 @@
         "index": {
           "description": "Types used for expressing generic structures when enumerating species",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Structures",
           "package": "species",
@@ -3510,6 +3718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": ":*:",
           "package": "species",
@@ -3519,6 +3728,7 @@
         "index": {
           "description": "Functor product",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": ":*:",
           "package": "species",
@@ -3532,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor coproduct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": ":+:",
           "package": "species",
@@ -3541,6 +3752,7 @@
         "index": {
           "description": "Functor coproduct",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": ":+:",
           "package": "species",
@@ -3554,6 +3766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": ":.:",
           "package": "species",
@@ -3563,6 +3776,7 @@
         "index": {
           "description": "Functor composition",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": ":.:",
           "package": "species",
@@ -3576,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constant functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Const",
           "package": "species",
@@ -3585,6 +3800,7 @@
         "index": {
           "description": "The constant functor",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Const",
           "package": "species",
@@ -3599,6 +3815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCycle structure.  A value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCycle\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is implemented as\n   \u003ccode\u003e[a]\u003c/code\u003e, but thought of as a directed cycle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Cycle",
           "package": "species",
@@ -3608,6 +3825,7 @@
         "index": {
           "description": "Cycle structure value of type Cycle is implemented as but thought of as directed cycle",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Cycle",
           "package": "species",
@@ -3622,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Id",
           "package": "species",
@@ -3631,6 +3850,7 @@
         "index": {
           "description": "The identity functor",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Id",
           "package": "species",
@@ -3669,6 +3889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher-order fixpoint. \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMu\u003c/a\u003e\u003c/code\u003e f a\u003c/code\u003e is morally isomorphic to \u003ccode\u003ef\n   (\u003ccode\u003e\u003ca\u003eMu\u003c/a\u003e\u003c/code\u003e f) a\u003c/code\u003e, except that we actually need a level of indirection.\n   In fact \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMu\u003c/a\u003e\u003c/code\u003e f a\u003c/code\u003e is isomorphic to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eInterp\u003c/a\u003e\u003c/code\u003e f (\u003ccode\u003e\u003ca\u003eMu\u003c/a\u003e\u003c/code\u003e f) a\u003c/code\u003e; \u003ccode\u003ef\u003c/code\u003e\n   is a code which is interpreted by the \u003ccode\u003e\u003ca\u003eInterp\u003c/a\u003e\u003c/code\u003e type function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Mu",
           "package": "species",
@@ -3678,6 +3899,7 @@
         "index": {
           "description": "Higher-order fixpoint Mu is morally isomorphic to Mu except that we actually need level of indirection In fact Mu is isomorphic to Interp Mu is code which is interpreted by the Interp type function",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Mu",
           "package": "species",
@@ -3692,6 +3914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet structure.  A value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is implemented as \u003ccode\u003e[a]\u003c/code\u003e,\n   but thought of as an unordered set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Set",
           "package": "species",
@@ -3701,6 +3924,7 @@
         "index": {
           "description": "Set structure value of type Set is implemented as but thought of as an unordered set",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Set",
           "package": "species",
@@ -3715,6 +3939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eStar\u003c/a\u003e\u003c/code\u003e is isomorphic to \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e, but with a more useful \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\n   instance for our purposes.  Used to implement species\n   differentiation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Star",
           "package": "species",
@@ -3724,6 +3949,7 @@
         "index": {
           "description": "Star is isomorphic to Maybe but with more useful Show instance for our purposes Used to implement species differentiation",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Star",
           "package": "species",
@@ -3738,6 +3964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (constantly) unit functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Unit",
           "package": "species",
@@ -3747,6 +3974,7 @@
         "index": {
           "description": "The constantly unit functor",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Unit",
           "package": "species",
@@ -3761,6 +3989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (constantly) void functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Void",
           "package": "species",
@@ -3770,6 +3999,7 @@
         "index": {
           "description": "The constantly void functor",
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Void",
           "package": "species",
@@ -3943,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Mu",
           "package": "species",
@@ -3952,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "Mu",
           "package": "species",
@@ -4130,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "unMu",
           "package": "species",
@@ -4139,6 +4372,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Structures",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Structures",
           "name": "unMu",
           "package": "species",
@@ -4153,6 +4387,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUse Template Haskell to automatically derive species instances for\n user-defined data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.TH",
           "name": "TH",
           "package": "species",
@@ -4162,6 +4397,7 @@
         "index": {
           "description": "Use Template Haskell to automatically derive species instances for user-defined data types",
           "hierarchy": "Math Combinatorics Species TH",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.TH",
           "name": "TH",
           "package": "species",
@@ -4230,6 +4466,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome common types used by the species library, along with some\n utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "Types",
           "package": "species",
@@ -4239,6 +4476,7 @@
         "index": {
           "description": "Some common types used by the species library along with some utility functions",
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "Types",
           "package": "species",
@@ -4253,6 +4491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCycle index series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "CycleIndex",
           "package": "species",
@@ -4262,6 +4501,7 @@
         "index": {
           "description": "Cycle index series",
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "CycleIndex",
           "package": "species",
@@ -4276,6 +4516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of the cycle type of a permutation.  If \u003ccode\u003ec ::\n   CycleType\u003c/code\u003e and \u003ccode\u003e(k,n) `\u003ccode\u003e\u003ca\u003eelem\u003c/a\u003e\u003c/code\u003e` c\u003c/code\u003e, then the permutation has \u003ccode\u003en\u003c/code\u003e\n   cycles of size \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "CycleType",
           "package": "species",
@@ -4285,6 +4526,7 @@
         "index": {
           "description": "representation of the cycle type of permutation If CycleType and elem then the permutation has cycles of size",
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "CycleType",
           "package": "species",
@@ -4299,6 +4541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponential generating functions, for counting labeled species.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "EGF",
           "package": "species",
@@ -4308,6 +4551,7 @@
         "index": {
           "description": "Exponential generating functions for counting labeled species",
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "EGF",
           "package": "species",
@@ -4322,6 +4566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinary generating functions, for counting unlabeled species.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "GF",
           "package": "species",
@@ -4331,6 +4576,7 @@
         "index": {
           "description": "Ordinary generating functions for counting unlabeled species",
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "GF",
           "package": "species",
@@ -4344,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "CI",
           "package": "species",
@@ -4353,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "CI",
           "package": "species",
@@ -4366,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "EGF",
           "package": "species",
@@ -4375,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "EGF",
           "package": "species",
@@ -4388,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "GF",
           "package": "species",
@@ -4397,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "GF",
           "package": "species",
@@ -4410,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "ciFromMonomials",
           "package": "species",
@@ -4419,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "ciFromMonomials",
           "normalized": "[T Rational]-\u003eCycleIndex",
@@ -4434,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "egfFromCoeffs",
           "package": "species",
@@ -4443,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "egfFromCoeffs",
           "normalized": "[Rational]-\u003eEGF",
@@ -4459,6 +4715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter the coefficients of a series according to a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "filterCoeffs",
           "package": "species",
@@ -4469,6 +4726,7 @@
         "index": {
           "description": "Filter the coefficients of series according to predicate",
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "filterCoeffs",
           "normalized": "(Integer-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -4484,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "gfFromCoeffs",
           "package": "species",
@@ -4493,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "gfFromCoeffs",
           "normalized": "[Integer]-\u003eGF",
@@ -4508,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftCI",
           "package": "species",
@@ -4517,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftCI",
           "normalized": "(T Rational-\u003eT Rational)-\u003eCycleIndex-\u003eCycleIndex",
@@ -4532,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftCI2",
           "package": "species",
@@ -4541,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftCI2",
           "normalized": "(T Rational-\u003eT Rational-\u003eT Rational)-\u003eCycleIndex-\u003eCycleIndex-\u003eCycleIndex",
@@ -4556,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftEGF",
           "package": "species",
@@ -4565,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftEGF",
           "normalized": "(T Rational-\u003eT Rational)-\u003eEGF-\u003eEGF",
@@ -4580,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftEGF2",
           "package": "species",
@@ -4589,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftEGF2",
           "normalized": "(T Rational-\u003eT Rational-\u003eT Rational)-\u003eEGF-\u003eEGF-\u003eEGF",
@@ -4604,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftGF",
           "package": "species",
@@ -4613,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftGF",
           "normalized": "(T Integer-\u003eT Integer)-\u003eGF-\u003eGF",
@@ -4628,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftGF2",
           "package": "species",
@@ -4637,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "liftGF2",
           "normalized": "(T Integer-\u003eT Integer-\u003eT Integer)-\u003eGF-\u003eGF-\u003eGF",
@@ -4653,6 +4925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet every coefficient of a series to 0 except the selected\n   index. Truncate any trailing zeroes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "selectIndex",
           "package": "species",
@@ -4663,6 +4936,7 @@
         "index": {
           "description": "Set every coefficient of series to except the selected index Truncate any trailing zeroes",
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "selectIndex",
           "normalized": "Integer-\u003e[a]-\u003e[a]",
@@ -4678,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Types",
           "name": "unEGF",
           "package": "species",
@@ -4687,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species Types",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Types",
           "name": "unEGF",
           "package": "species",
@@ -4701,6 +4977,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interpretation of species as ordinary generating functions,\n which count unlabeled structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Unlabeled",
           "name": "Unlabeled",
           "package": "species",
@@ -4710,6 +4987,7 @@
         "index": {
           "description": "An interpretation of species as ordinary generating functions which count unlabeled structures",
           "hierarchy": "Math Combinatorics Species Unlabeled",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Unlabeled",
           "name": "Unlabeled",
           "package": "species",
@@ -4776,6 +5054,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple implementation of intervals of natural numbers, for use in\n tracking the possible sizes of structures of a species.  For\n example, the species \u003ccode\u003ex + x^2 + x^3\u003c/code\u003e will correspond to the\n interval [1,3].\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "Interval",
           "package": "species",
@@ -4785,6 +5064,7 @@
         "index": {
           "description": "simple implementation of intervals of natural numbers for use in tracking the possible sizes of structures of species For example the species will correspond to the interval",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "Interval",
           "package": "species",
@@ -4799,6 +5079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e is a closed range of consecutive integers.  Both\n   endpoints are represented as \u003ccode\u003e\u003ca\u003eNatO\u003c/a\u003e\u003c/code\u003e values.  For example, [2,5]\n   represents the values 2,3,4,5; [2,omega] represents all integers\n   greater than 1; intervals where the first endpoint is greater than the\n   second also represent the empty interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "Interval",
           "package": "species",
@@ -4808,6 +5089,7 @@
         "index": {
           "description": "An Interval is closed range of consecutive integers Both endpoints are represented as NatO values For example represents the values omega represents all integers greater than intervals where the first endpoint is greater than the second also represent the empty interval",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "Interval",
           "package": "species",
@@ -4822,6 +5104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNatO\u003c/a\u003e\u003c/code\u003e is an explicit representation of the co-inductive Nat type\n   which admits an infinite value, omega.  Our intuition for the\n   semantics of \u003ccode\u003e\u003ca\u003eNatO\u003c/a\u003e\u003c/code\u003e comes from thinking of it as an efficient\n   representation of lazy unary natural numbers, except that we can\n   actually test for omega in finite time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "NatO",
           "package": "species",
@@ -4831,6 +5114,7 @@
         "index": {
           "description": "NatO is an explicit representation of the co-inductive Nat type which admits an infinite value omega Our intuition for the semantics of NatO comes from thinking of it as an efficient representation of lazy unary natural numbers except that we can actually test for omega in finite time",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "NatO",
           "package": "species",
@@ -4845,6 +5129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrement both endpoints of an interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "decrI",
           "package": "species",
@@ -4855,6 +5140,7 @@
         "index": {
           "description": "Decrement both endpoints of an interval",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "decrI",
           "normalized": "Interval-\u003eInterval",
@@ -4870,6 +5156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a given integer for interval membership.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "elem",
           "package": "species",
@@ -4880,6 +5167,7 @@
         "index": {
           "description": "Test given integer for interval membership",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "elem",
           "normalized": "Integer-\u003eInterval-\u003eBool",
@@ -4895,6 +5183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "emptyI",
           "package": "species",
@@ -4905,6 +5194,7 @@
         "index": {
           "description": "The empty interval",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "emptyI",
           "package": "species",
@@ -4918,6 +5208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an open range [n,omega].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "fromI",
           "package": "species",
@@ -4928,6 +5219,7 @@
         "index": {
           "description": "Construct an open range omega",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "fromI",
           "normalized": "NatO-\u003eInterval",
@@ -4943,6 +5235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the upper endpoint of an \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "iHigh",
           "package": "species",
@@ -4953,6 +5246,7 @@
         "index": {
           "description": "Get the upper endpoint of an Interval",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "iHigh",
           "normalized": "Interval-\u003eNatO",
@@ -4969,6 +5263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the lower endpoint of an \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "iLow",
           "package": "species",
@@ -4979,6 +5274,7 @@
         "index": {
           "description": "Get the lower endpoint of an Interval",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "iLow",
           "normalized": "Interval-\u003eNatO",
@@ -4995,6 +5291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intersection of two intervals is the largest interval\n   contained in both.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "intersect",
           "package": "species",
@@ -5005,6 +5302,7 @@
         "index": {
           "description": "The intersection of two intervals is the largest interval contained in both",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "intersect",
           "normalized": "Interval-\u003eInterval-\u003eInterval",
@@ -5020,6 +5318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliminator for \u003ccode\u003e\u003ca\u003eNatO\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "natO",
           "package": "species",
@@ -5030,6 +5329,7 @@
         "index": {
           "description": "Eliminator for NatO values",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "natO",
           "normalized": "(Integer-\u003ea)-\u003ea-\u003eNatO-\u003ea",
@@ -5045,6 +5345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range [0,omega] containing all natural numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "natsI",
           "package": "species",
@@ -5055,6 +5356,7 @@
         "index": {
           "description": "The range omega containing all natural numbers",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "natsI",
           "package": "species",
@@ -5068,6 +5370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe infinite \u003ccode\u003e\u003ca\u003eNatO\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "omega",
           "package": "species",
@@ -5078,6 +5381,7 @@
         "index": {
           "description": "The infinite NatO value",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "omega",
           "package": "species",
@@ -5091,6 +5395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interval which contains only omega.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "omegaI",
           "package": "species",
@@ -5101,6 +5406,7 @@
         "index": {
           "description": "The interval which contains only omega",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "omegaI",
           "package": "species",
@@ -5114,6 +5420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an interval to a list of Integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "toList",
           "package": "species",
@@ -5124,6 +5431,7 @@
         "index": {
           "description": "Convert an interval to list of Integers",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "toList",
           "normalized": "Interval-\u003e[Integer]",
@@ -5140,6 +5448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of two intervals is the smallest interval containing\n   both.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "union",
           "package": "species",
@@ -5150,6 +5459,7 @@
         "index": {
           "description": "The union of two intervals is the smallest interval containing both",
           "hierarchy": "Math Combinatorics Species Util Interval",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species.Util.Interval",
           "name": "union",
           "normalized": "Interval-\u003eInterval-\u003eInterval",
@@ -5165,6 +5475,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA DSL for describing and computing with combinatorial species.\n   This module re-exports the most generally useful functionality;\n   for more specialized functionality (for example, computing\n   directly with cycle index series), see the various sub-modules.\n\u003c/p\u003e\u003cp\u003eNote that this library makes extensive use of the numeric-prelude\n   library; to use it you will want to use -XNoImplicitPrelude, and\n   import NumericPrelude and PreludeBase.\n\u003c/p\u003e\u003cp\u003eFor a friendly introduction to combinatorial species in general\n   and this library in particular, see my series of blog posts:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://byorgey.wordpress.com/2009/07/24/introducing-math-combinatorics-species/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://byorgey.wordpress.com/2009/07/30/primitive-species-and-species-operations/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://byorgey.wordpress.com/2009/07/31/primitive-species-and-species-operations-part-ii/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor a good reference (really, the\n   only English-language reference!) on combinatorial species, see\n   Bergeron, Labelle, and Leroux, \"Combinatorial Species and\n   Tree-Like Structures\", Vol. 67 of the Encyclopedia of\n   Mathematics and its Applications, Gian-Carlo Rota, ed., Cambridge\n   University Press, 1998.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Species",
           "package": "species",
@@ -5174,6 +5485,7 @@
         "index": {
           "description": "DSL for describing and computing with combinatorial species This module re-exports the most generally useful functionality for more specialized functionality for example computing directly with cycle index series see the various sub-modules Note that this library makes extensive use of the numeric-prelude library to use it you will want to use XNoImplicitPrelude and import NumericPrelude and PreludeBase For friendly introduction to combinatorial species in general and this library in particular see my series of blog posts http byorgey.wordpress.com introducing-math-combinatorics-species http byorgey.wordpress.com primitive-species-and-species-operations http byorgey.wordpress.com primitive-species-and-species-operations-part-ii For good reference really the only English-language reference on combinatorial species see Bergeron Labelle and Leroux Combinatorial Species and Tree-Like Structures Vol of the Encyclopedia of Mathematics and its Applications Gian-Carlo Rota ed Cambridge University Press",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Species",
           "package": "species",
@@ -5188,6 +5500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": ":*:",
           "package": "species",
@@ -5197,6 +5510,7 @@
         "index": {
           "description": "Functor product",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": ":*:",
           "package": "species",
@@ -5210,6 +5524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor coproduct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": ":+:",
           "package": "species",
@@ -5219,6 +5534,7 @@
         "index": {
           "description": "Functor coproduct",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": ":+:",
           "package": "species",
@@ -5232,6 +5548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": ":.:",
           "package": "species",
@@ -5241,6 +5558,7 @@
         "index": {
           "description": "Functor composition",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": ":.:",
           "package": "species",
@@ -5254,6 +5572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eASTFunctor\u003c/a\u003e\u003c/code\u003e is a type class for codes which can be interpreted\n   (via the \u003ccode\u003e\u003ca\u003eInterp\u003c/a\u003e\u003c/code\u003e type family) as higher-order functors over\n   species expressions.  The \u003ccode\u003e\u003ca\u003eapply\u003c/a\u003e\u003c/code\u003e method allows such codes to be\n   applied to a species AST.  The indirection is needed to implement\n   recursive species.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "ASTFunctor",
           "package": "species",
@@ -5263,6 +5582,7 @@
         "index": {
           "description": "ASTFunctor is type class for codes which can be interpreted via the Interp type family as higher-order functors over species expressions The apply method allows such codes to be applied to species AST The indirection is needed to implement recursive species",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "ASTFunctor",
           "package": "species",
@@ -5277,6 +5597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constant functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Const",
           "package": "species",
@@ -5286,6 +5607,7 @@
         "index": {
           "description": "The constant functor",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Const",
           "package": "species",
@@ -5300,6 +5622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCycle structure.  A value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCycle\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is implemented as\n   \u003ccode\u003e[a]\u003c/code\u003e, but thought of as a directed cycle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Cycle",
           "package": "species",
@@ -5309,6 +5632,7 @@
         "index": {
           "description": "Cycle structure value of type Cycle is implemented as but thought of as directed cycle",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Cycle",
           "package": "species",
@@ -5323,6 +5647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper to hide the phantom type parameter to\n   \u003ccode\u003e\u003ca\u003eSizedSpeciesAST\u003c/a\u003e\u003c/code\u003e, so we can make it an instance of \u003ccode\u003eSpecies\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "ESpeciesAST",
           "package": "species",
@@ -5332,6 +5657,7 @@
         "index": {
           "description": "An existential wrapper to hide the phantom type parameter to SizedSpeciesAST so we can make it an instance of Species",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "ESpeciesAST",
           "package": "species",
@@ -5346,6 +5672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e class allows you to enumerate structures of any\n   type, by declaring an instance of \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e.  The \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e\n   instance requires you to declare a standard structure type (see\n   \u003ca\u003eMath.Combinatorics.Species.Structures\u003c/a\u003e) associated with your\n   type, and a mapping \u003ccode\u003e\u003ca\u003eiso\u003c/a\u003e\u003c/code\u003e from the standard type to your custom\n   one.  Instances are provided for all the standard structure types\n   so you can enumerate species without having to provide your own\n   custom data type as the target of the enumeration if you don't\n   want to.\n\u003c/p\u003e\u003cp\u003eYou should only rarely have to explicitly make an instance of\n   \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e yourself; Template Haskell code to derive instances\n   for you is provided in \u003ca\u003eMath.Combinatorics.Species.TH\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Enumerable",
           "package": "species",
@@ -5355,6 +5682,7 @@
         "index": {
           "description": "The Enumerable class allows you to enumerate structures of any type by declaring an instance of Enumerable The Enumerable instance requires you to declare standard structure type see Math.Combinatorics.Species.Structures associated with your type and mapping iso from the standard type to your custom one Instances are provided for all the standard structure types so you can enumerate species without having to provide your own custom data type as the target of the enumeration if you don want to You should only rarely have to explicitly make an instance of Enumerable yourself Template Haskell code to derive instances for you is provided in Math.Combinatorics.Species.TH",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Enumerable",
           "package": "species",
@@ -5369,6 +5697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Id",
           "package": "species",
@@ -5378,6 +5707,7 @@
         "index": {
           "description": "The identity functor",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Id",
           "package": "species",
@@ -5392,6 +5722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet structure.  A value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is implemented as \u003ccode\u003e[a]\u003c/code\u003e,\n   but thought of as an unordered set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Set",
           "package": "species",
@@ -5401,6 +5732,7 @@
         "index": {
           "description": "Set structure value of type Set is implemented as but thought of as an unordered set",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Set",
           "package": "species",
@@ -5415,6 +5747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Species type class.  Note that the \u003ccode\u003eDifferential\u003c/code\u003e constraint\n   requires s to be a differentiable ring, which means that every\n   instance must also implement instances for \u003ca\u003eAlgebra.Additive\u003c/a\u003e\n   (the species 0 and species addition, i.e. disjoint sum),\n   \u003ca\u003eAlgebra.Ring\u003c/a\u003e (the species 1 and species multiplication,\n   i.e. partitional product), and \u003ca\u003eAlgebra.Differential\u003c/a\u003e (species\n   differentiation, i.e. adjoining a distinguished element).\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003e\u003e\u003c\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e@@\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eofSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e operation can be used infix to suggest common\n   notation for composition, and also to be read as an abbreviation\n   for \"of\", as in \"top o' the mornin'\": \u003ccode\u003eset `o` nonEmpty\n   sets\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Species",
           "package": "species",
@@ -5424,6 +5757,7 @@
         "index": {
           "description": "The Species type class Note that the Differential constraint requires to be differentiable ring which means that every instance must also implement instances for Algebra.Additive the species and species addition i.e disjoint sum Algebra.Ring the species and species multiplication i.e partitional product and Algebra.Differential species differentiation i.e adjoining distinguished element Minimal complete definition singleton set cycle ofSize Note that the operation can be used infix to suggest common notation for composition and also to be read as an abbreviation for of as in top the mornin set nonEmpty sets",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Species",
           "package": "species",
@@ -5438,6 +5772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic, untyped AST type for species expressions, for easily\n doing things like analysis, simplification, deriving isomorphisms,\n and so on.  Converting between \u003ccode\u003e\u003ca\u003eSpeciesAST\u003c/a\u003e\u003c/code\u003e and the typed variant\n \u003ccode\u003e\u003ca\u003eESpeciesAST\u003c/a\u003e\u003c/code\u003e can be done with \u003ccode\u003e\u003ca\u003eannotate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eerase\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "SpeciesAST",
           "package": "species",
@@ -5447,6 +5782,7 @@
         "index": {
           "description": "basic untyped AST type for species expressions for easily doing things like analysis simplification deriving isomorphisms and so on Converting between SpeciesAST and the typed variant ESpeciesAST can be done with annotate and erase",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "SpeciesAST",
           "package": "species",
@@ -5461,6 +5797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eStar\u003c/a\u003e\u003c/code\u003e is isomorphic to \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e, but with a more useful \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\n   instance for our purposes.  Used to implement species\n   differentiation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Star",
           "package": "species",
@@ -5470,6 +5807,7 @@
         "index": {
           "description": "Star is isomorphic to Maybe but with more useful Show instance for our purposes Used to implement species differentiation",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Star",
           "package": "species",
@@ -5484,6 +5822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eSpeciesAST\u003c/a\u003e\u003c/code\u003e with a phantom type parameter which\n   also reflects the structure, so we can write\n   quasi-dependently-typed functions over species, in particular for\n   species enumeration.\n\u003c/p\u003e\u003cp\u003eOf course, the non-uniform type parameter means that\n   \u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e cannot be an instance of the \u003ccode\u003eSpecies\u003c/code\u003e class; for\n   that purpose the existential wrapper \u003ccode\u003e\u003ca\u003eESpeciesAST\u003c/a\u003e\u003c/code\u003e is provided.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e is defined via mutual recursion with\n   \u003ccode\u003e\u003ca\u003eSizedSpeciesAST\u003c/a\u003e\u003c/code\u003e, which pairs a \u003ccode\u003e\u003ca\u003eTSpeciesAST\u003c/a\u003e\u003c/code\u003e with an interval\n   annotation indicating (a conservative approximation of) the label\n   set sizes for which the species actually yields any structures;\n   this information makes enumeration faster and also prevents it\n   from getting stuck in infinite recursion in some cases.  A value\n   of \u003ccode\u003e\u003ca\u003eSizedSpeciesAST\u003c/a\u003e\u003c/code\u003e is thus an annotated species expression tree\n   with interval annotations at every node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "TSpeciesAST",
           "package": "species",
@@ -5493,6 +5832,7 @@
         "index": {
           "description": "variant of SpeciesAST with phantom type parameter which also reflects the structure so we can write quasi-dependently-typed functions over species in particular for species enumeration Of course the non-uniform type parameter means that TSpeciesAST cannot be an instance of the Species class for that purpose the existential wrapper ESpeciesAST is provided TSpeciesAST is defined via mutual recursion with SizedSpeciesAST which pairs TSpeciesAST with an interval annotation indicating conservative approximation of the label set sizes for which the species actually yields any structures this information makes enumeration faster and also prevents it from getting stuck in infinite recursion in some cases value of SizedSpeciesAST is thus an annotated species expression tree with interval annotations at every node",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "TSpeciesAST",
           "package": "species",
@@ -5507,6 +5847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (constantly) unit functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Unit",
           "package": "species",
@@ -5516,6 +5857,7 @@
         "index": {
           "description": "The constantly unit functor",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Unit",
           "package": "species",
@@ -5530,6 +5872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (constantly) void functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "Void",
           "package": "species",
@@ -5539,6 +5882,7 @@
         "index": {
           "description": "The constantly void functor",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "Void",
           "package": "species",
@@ -5553,6 +5897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCartisian product of two species.  An \u003ccode\u003e(f \u003ccode\u003e\u003ca\u003e\u003e\u003c\u003c/a\u003e\u003c/code\u003e g)\u003c/code\u003e-structure\n consists of an \u003ccode\u003ef\u003c/code\u003e-structure superimposed on a \u003ccode\u003eg\u003c/code\u003e-structure over\n the same underlying set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "(\u003e\u003c)",
           "package": "species",
@@ -5563,6 +5908,7 @@
         "index": {
           "description": "Cartisian product of two species An structure consists of an structure superimposed on structure over the same underlying set",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a-\u003ea-\u003ea",
@@ -5578,6 +5924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor composition of two species.  An \u003ccode\u003e(f \u003ccode\u003e\u003ca\u003e@@\u003c/a\u003e\u003c/code\u003e g)\u003c/code\u003e-structure\n   consists of an \u003ccode\u003ef\u003c/code\u003e-structure on the set of all \u003ccode\u003eg\u003c/code\u003e-structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "(@@)",
           "package": "species",
@@ -5588,6 +5935,7 @@
         "index": {
           "description": "Functor composition of two species An structure consists of an structure on the set of all structures",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "(@@) @@",
           "normalized": "a-\u003ea-\u003ea",
@@ -5602,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "apply",
           "package": "species",
@@ -5611,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "apply",
           "normalized": "a-\u003eTSpeciesAST b-\u003eTSpeciesAST(Interp a b)",
@@ -5626,6 +5976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003eC\u003c/code\u003e of cyclical orderings (cycles/rings).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "cycle",
           "package": "species",
@@ -5636,6 +5987,7 @@
         "index": {
           "description": "The species of cyclical orderings cycles rings",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "cycle",
           "package": "species",
@@ -5649,6 +6001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructures of the species \u003ccode\u003ee\u003c/code\u003e of elements are just elements of\n   the underlying set, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eelement\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e * \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  Included\n   with a default definition in \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class for the same\n   reason as \u003ccode\u003e\u003ca\u003esubset\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eksubset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "element",
           "package": "species",
@@ -5659,6 +6012,7 @@
         "index": {
           "description": "Structures of the species of elements are just elements of the underlying set element singleton set Included with default definition in Species class for the same reason as subset and ksubset",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "element",
           "package": "species",
@@ -5672,6 +6026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mapping from \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStructTy\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e to \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "iso",
           "package": "species",
@@ -5682,6 +6037,7 @@
         "index": {
           "description": "The mapping from StructTy to",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "iso",
           "normalized": "StructTy a b-\u003ea b",
@@ -5697,6 +6053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubsets of size exactly k, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eksubset\u003c/a\u003e\u003c/code\u003e k = (\u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\n `\u003ccode\u003e\u003ca\u003eofSizeExactly\u003c/a\u003e\u003c/code\u003e` k) * \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  Included with a default definition\n in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class for the same reason as \u003ccode\u003e\u003ca\u003esubset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "ksubset",
           "package": "species",
@@ -5707,6 +6064,7 @@
         "index": {
           "description": "Subsets of size exactly ksubset set ofSizeExactly set Included with default definition in the Species class for the same reason as subset",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "ksubset",
           "normalized": "Integer-\u003ea",
@@ -5722,6 +6080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003eL\u003c/code\u003e of linear orderings (lists). Since linear\n   orderings are isomorphic to cyclic orderings with a hole, we\n   may take \u003ccode\u003e\u003ccode\u003e\u003ca\u003elinOrd\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eoneHole\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e as the default\n   implementation; \u003ccode\u003e\u003ca\u003elinOrd\u003c/a\u003e\u003c/code\u003e is included in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class so it\n   can be special-cased for enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "linOrd",
           "package": "species",
@@ -5732,6 +6091,7 @@
         "index": {
           "description": "The species of linear orderings lists Since linear orderings are isomorphic to cyclic orderings with hole we may take linOrd oneHole cycle as the default implementation linOrd is included in the Species class so it can be special-cased for enumeration",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "linOrd",
           "package": "species",
@@ -5746,6 +6106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't put a structure on the empty set.  The default definition\n   uses \u003ccode\u003e\u003ca\u003eofSize\u003c/a\u003e\u003c/code\u003e; included in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class so it can be\n   overriden in special cases (such as when reifying species\n   expressions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "nonEmpty",
           "package": "species",
@@ -5756,6 +6117,7 @@
         "index": {
           "description": "Don put structure on the empty set The default definition uses ofSize included in the Species class so it can be overriden in special cases such as when reifying species expressions",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "nonEmpty",
           "normalized": "a-\u003ea",
@@ -5772,6 +6134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartitional composition.  To form all \u003ccode\u003e(f `\u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e` g)\u003c/code\u003e-structures on\n   the underlying label set U, first form all set partitions of U;\n   for each partition \u003ccode\u003ep\u003c/code\u003e, put an \u003ccode\u003ef\u003c/code\u003e-structure on the classes of\n   \u003ccode\u003ep\u003c/code\u003e, and a separate \u003ccode\u003eg\u003c/code\u003e-structure on the elements in each\n   class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "o",
           "package": "species",
@@ -5782,6 +6145,7 @@
         "index": {
           "description": "Partitional composition To form all structures on the underlying label set first form all set partitions of for each partition put an structure on the classes of and separate structure on the elements in each class",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "o",
           "normalized": "a-\u003ea-\u003ea",
@@ -5797,6 +6161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly put a structure on underlying sets whose size satisfies\n   the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "ofSize",
           "package": "species",
@@ -5807,6 +6172,7 @@
         "index": {
           "description": "Only put structure on underlying sets whose size satisfies the predicate",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "ofSize",
           "normalized": "a-\u003e(Integer-\u003eBool)-\u003ea",
@@ -5823,6 +6189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly put a structure on underlying sets of the given size.  A\n   default implementation of \u003ccode\u003eofSize (==k)\u003c/code\u003e is provided, but this\n   method is included in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class as a special case\n   since it can be more efficient: we get to turn infinite lists\n   of coefficients into finite ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "ofSizeExactly",
           "package": "species",
@@ -5833,6 +6200,7 @@
         "index": {
           "description": "Only put structure on underlying sets of the given size default implementation of ofSize is provided but this method is included in the Species class as special case since it can be more efficient we get to turn infinite lists of coefficients into finite ones",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "ofSizeExactly",
           "normalized": "a-\u003eInteger-\u003ea",
@@ -5849,6 +6217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'rec f' is the least fixpoint of (the interpretation of) the\n   higher-order species constructor \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "rec",
           "package": "species",
@@ -5859,6 +6228,7 @@
         "index": {
           "description": "rec is the least fixpoint of the interpretation of the higher-order species constructor",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "rec",
           "normalized": "a-\u003eb",
@@ -5874,6 +6244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003eE\u003c/code\u003e of sets.  Puts a singleton structure on \u003cem\u003eany\u003c/em\u003e\n   underlying label set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "set",
           "package": "species",
@@ -5884,6 +6255,7 @@
         "index": {
           "description": "The species of sets Puts singleton structure on any underlying label set",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "set",
           "package": "species",
@@ -5897,6 +6269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003eX\u003c/code\u003e of singletons. Puts a singleton structure on an\n   underlying label set of size 1, and no structures on any other\n   underlying label sets.  \u003ccode\u003e\u003ca\u003ex\u003c/a\u003e\u003c/code\u003e is also provided as a synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "singleton",
           "package": "species",
@@ -5907,6 +6280,7 @@
         "index": {
           "description": "The species of singletons Puts singleton structure on an underlying label set of size and no structures on any other underlying label sets is also provided as synonym",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "singleton",
           "package": "species",
@@ -5920,6 +6294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe species \u003ccode\u003ep\u003c/code\u003e of subsets is given by \u003ccode\u003e\u003ccode\u003e\u003ca\u003esubset\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e *\n   \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003esubset\u003c/a\u003e\u003c/code\u003e is included in the \u003ccode\u003e\u003ca\u003eSpecies\u003c/a\u003e\u003c/code\u003e class so it can\n   be overridden when enumerating structures: by default the\n   enumeration code would generate a pair of the subset and its\n   complement, but normally when thinking about subsets we only\n   want to see the elements in the subset.  To explicitly\n   enumerate subset/complement pairs, you can use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e * \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n   directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:05 UTC 2014",
           "module": "Math.Combinatorics.Species",
           "name": "subset",
           "package": "species",
@@ -5930,6 +6305,7 @@
         "index": {
           "description": "The species of subsets is given by subset set set subset is included in the Species class so it can be overridden when enumerating structures by default the enumeration code would generate pair of the subset and its complement but normally when thinking about subsets we only want to see the elements in the subset To explicitly enumerate subset complement pairs you can use set set directly",
           "hierarchy": "Math Combinatorics Species",
+          "indexed": "2014-03-11T20:08:05",
           "module": "Math.Combinatorics.Species",
           "name": "subset",
           "package": "species",

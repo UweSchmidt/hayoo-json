@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mathblog"
+        "phrase": "mathblog",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "openexchangerates"
+        "phrase": "openexchangerates",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:59 UTC 2014",
           "module": "Currency.OpenExchangeRates",
           "name": "OpenExchangeRates",
           "package": "openexchangerates",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Currency OpenExchangeRates",
+          "indexed": "2014-03-11T19:31:59",
           "module": "Currency.OpenExchangeRates",
           "name": "OpenExchangeRates",
           "package": "openexchangerates",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch exchange rates from OpenExchangeRates.org\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:59 UTC 2014",
           "module": "Currency.OpenExchangeRates",
           "name": "fetchRates",
           "package": "openexchangerates",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Fetch exchange rates from OpenExchangeRates.org",
           "hierarchy": "Currency OpenExchangeRates",
+          "indexed": "2014-03-11T19:31:59",
           "module": "Currency.OpenExchangeRates",
           "name": "fetchRates",
           "normalized": "String-\u003eEitherT ConnError IO(Rates Currency Double)",

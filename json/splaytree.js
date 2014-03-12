@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "splaytree"
+        "phrase": "splaytree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "Map",
           "package": "splaytree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "Map",
           "package": "splaytree",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "Map",
           "package": "splaytree",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "Map",
           "package": "splaytree",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "delete",
           "package": "splaytree",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "delete",
           "normalized": "a-\u003eMap a b-\u003eMap a b",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "empty",
           "package": "splaytree",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "empty",
           "package": "splaytree",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "findWithDefault",
           "package": "splaytree",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "findWithDefault",
           "normalized": "a-\u003eb-\u003eMap b a-\u003e(a,Map b a)",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "fromList",
           "package": "splaytree",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eMap a b",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "init",
           "package": "splaytree",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "init",
           "normalized": "Map a b-\u003eMap a b",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "insert",
           "package": "splaytree",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eMap a b-\u003eMap a b",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "insertWith",
           "package": "splaytree",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eMap b a-\u003eMap b a",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ekey assocs\u003c/code\u003e looks up a key in an association list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "lookup",
           "package": "splaytree",
@@ -232,6 +251,7 @@
         "index": {
           "description": "lookup key assocs looks up key in an association list",
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "lookup",
           "normalized": "a-\u003e[(a,b)]-\u003eMaybe b",
@@ -270,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Map",
           "name": "toList",
           "package": "splaytree",
@@ -279,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Map",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Map",
           "name": "toList",
           "normalized": "Map a b-\u003e[(a,b)]",
@@ -294,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "RangeSet",
           "package": "splaytree",
@@ -302,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "RangeSet",
           "package": "splaytree",
@@ -316,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea RangeSet element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "Range",
           "package": "splaytree",
@@ -325,6 +350,7 @@
         "index": {
           "description": "RangeSet element",
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "Range",
           "package": "splaytree",
@@ -338,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "RangeSet",
           "package": "splaytree",
@@ -346,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "RangeSet",
           "package": "splaytree",
@@ -359,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "Range",
           "package": "splaytree",
@@ -368,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "Range",
           "package": "splaytree",
@@ -381,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "append",
           "package": "splaytree",
@@ -390,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "append",
           "normalized": "RangeSet a-\u003eRangeSet a-\u003eRangeSet a",
@@ -404,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "delete",
           "package": "splaytree",
@@ -413,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "delete",
           "normalized": "RangeSet a-\u003eRange a-\u003eRangeSet a",
@@ -427,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "empty",
           "package": "splaytree",
@@ -436,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "empty",
           "package": "splaytree",
@@ -448,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "fromList",
           "package": "splaytree",
@@ -457,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "fromList",
           "normalized": "[Range a]-\u003eRangeSet a",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck if a value is within the range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "inRange",
           "package": "splaytree",
@@ -483,6 +522,7 @@
         "index": {
           "description": "check if value is within the range",
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "inRange",
           "normalized": "a-\u003eRange a-\u003eBool",
@@ -498,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "insert",
           "package": "splaytree",
@@ -507,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "insert",
           "normalized": "RangeSet a-\u003eRange a-\u003eRangeSet a",
@@ -521,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "null",
           "package": "splaytree",
@@ -530,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "null",
           "normalized": "RangeSet a-\u003eBool",
@@ -545,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA range of a single point (range =0)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "point",
           "package": "splaytree",
@@ -555,6 +600,7 @@
         "index": {
           "description": "range of single point range",
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "point",
           "normalized": "a-\u003eRange a",
@@ -569,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "rMin",
           "package": "splaytree",
@@ -578,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "rMin",
           "package": "splaytree",
@@ -591,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "rang",
           "package": "splaytree",
@@ -600,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "rang",
           "package": "splaytree",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003eRange\u003c/code\u003e from a minimum value and range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "range",
           "package": "splaytree",
@@ -623,6 +674,7 @@
         "index": {
           "description": "Create Range from minimum value and range",
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "range",
           "normalized": "a-\u003ea-\u003eRange a",
@@ -637,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "rangeMax",
           "package": "splaytree",
@@ -646,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "rangeMax",
           "normalized": "Range a-\u003ea",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003eRange\u003c/code\u003e from the two endpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "rangePs",
           "package": "splaytree",
@@ -672,6 +727,7 @@
         "index": {
           "description": "Create Range from the two endpoints",
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "rangePs",
           "normalized": "a-\u003ea-\u003eRange a",
@@ -687,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.RangeSet",
           "name": "singleton",
           "package": "splaytree",
@@ -696,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree RangeSet",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.RangeSet",
           "name": "singleton",
           "normalized": "Range a-\u003eRangeSet a",
@@ -710,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "Seq",
           "package": "splaytree",
@@ -718,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "Seq",
           "package": "splaytree",
@@ -731,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "Seq",
           "package": "splaytree",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "Seq",
           "package": "splaytree",
@@ -752,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "cons",
           "package": "splaytree",
@@ -761,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "cons",
           "normalized": "a-\u003eSeq a-\u003eSeq a",
@@ -775,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "empty",
           "package": "splaytree",
@@ -784,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "empty",
           "package": "splaytree",
@@ -796,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "fromList",
           "package": "splaytree",
@@ -805,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "fromList",
           "normalized": "[a]-\u003eSeq a",
@@ -820,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "init",
           "package": "splaytree",
@@ -829,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "init",
           "normalized": "Seq a-\u003eSeq a",
@@ -843,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "length",
           "package": "splaytree",
@@ -852,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "length",
           "normalized": "Seq a-\u003eInt",
@@ -867,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a value at the given index.  Returns that value\n if it exists, and the appropriately splayed Seq.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "lookupAt",
           "package": "splaytree",
@@ -877,6 +950,7 @@
         "index": {
           "description": "Look up value at the given index Returns that value if it exists and the appropriately splayed Seq",
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "lookupAt",
           "normalized": "Seq a-\u003eInt-\u003e(Maybe a,Seq a)",
@@ -892,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Seq",
           "name": "toList",
           "package": "splaytree",
@@ -901,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Seq",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Seq",
           "name": "toList",
           "normalized": "Seq a-\u003e[a]",
@@ -916,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "Set",
           "package": "splaytree",
@@ -924,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "Set",
           "package": "splaytree",
@@ -937,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "Set",
           "package": "splaytree",
@@ -945,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "Set",
           "package": "splaytree",
@@ -959,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the specified value from this set if present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "delete",
           "package": "splaytree",
@@ -969,6 +1050,7 @@
         "index": {
           "description": "Remove the specified value from this set if present",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "delete",
           "normalized": "a-\u003eSet a-\u003eSet a",
@@ -984,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference of two sets.  Contains elements of the first set that are\n not present in the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "difference",
           "package": "splaytree",
@@ -994,6 +1077,7 @@
         "index": {
           "description": "Difference of two sets Contains elements of the first set that are not present in the second",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "difference",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -1009,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an empty set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "empty",
           "package": "splaytree",
@@ -1019,6 +1104,7 @@
         "index": {
           "description": "Construct an empty set",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "empty",
           "package": "splaytree",
@@ -1032,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eSet\u003c/code\u003e from a list of elements.\n\u003c/p\u003e\u003cp\u003eThe Set is created by calling \u003ccode\u003e\u003ca\u003efromListBalance\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "fromList",
           "package": "splaytree",
@@ -1042,6 +1129,7 @@
         "index": {
           "description": "Construct Set from list of elements The Set is created by calling fromListBalance",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "fromList",
           "normalized": "[a]-\u003eSet a",
@@ -1058,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the specified value to this set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "insert",
           "package": "splaytree",
@@ -1068,6 +1157,7 @@
         "index": {
           "description": "Add the specified value to this set",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "insert",
           "normalized": "a-\u003eSet a-\u003eSet a",
@@ -1083,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of two sets.  Contains all elements which are in both\n sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "intersection",
           "package": "splaytree",
@@ -1093,6 +1184,7 @@
         "index": {
           "description": "Intersection of two sets Contains all elements which are in both sets",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "intersection",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -1108,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform this set by applying a function to every value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "map",
           "package": "splaytree",
@@ -1118,6 +1211,7 @@
         "index": {
           "description": "Transform this set by applying function to every value",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eSet a-\u003eSet b",
@@ -1133,6 +1227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the given value is present in this set, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "member",
           "package": "splaytree",
@@ -1143,6 +1238,7 @@
         "index": {
           "description": "Return True if the given value is present in this set False otherwise",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "member",
           "normalized": "a-\u003eSet a-\u003eBool",
@@ -1158,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if \u003ccode\u003ea\u003c/code\u003e is a member, and return a set splayed to \u003ccode\u003ea\u003c/code\u003e.\n The return set is splayed to an element near \u003ccode\u003ea\u003c/code\u003e if \u003ccode\u003ea\u003c/code\u003e isn't in the\n set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "memberSplay",
           "package": "splaytree",
@@ -1168,6 +1265,7 @@
         "index": {
           "description": "Check if is member and return set splayed to The return set is splayed to an element near if isn in the set",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "memberSplay",
           "normalized": "a-\u003eSet a-\u003e(Bool,Set a)",
@@ -1184,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if this set is empty, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "null",
           "package": "splaytree",
@@ -1194,6 +1293,7 @@
         "index": {
           "description": "True if this set is empty False otherwise",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "null",
           "normalized": "Set a-\u003eBool",
@@ -1209,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of elements in this set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "size",
           "package": "splaytree",
@@ -1219,6 +1320,7 @@
         "index": {
           "description": "Return the number of elements in this set",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "size",
           "normalized": "Set a-\u003eInt",
@@ -1234,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a set containing all elements from both sets.\n\u003c/p\u003e\u003cp\u003eThe smaller set should be presented as the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree.Set",
           "name": "union",
           "package": "splaytree",
@@ -1244,6 +1347,7 @@
         "index": {
           "description": "Construct set containing all elements from both sets The smaller set should be presented as the second argument",
           "hierarchy": "Data SplayTree Set",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree.Set",
           "name": "union",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -1258,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "SplayTree",
           "package": "splaytree",
@@ -1266,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "SplayTree",
           "package": "splaytree",
@@ -1279,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "Measured",
           "package": "splaytree",
@@ -1287,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "Measured",
           "package": "splaytree",
@@ -1300,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "SplayTree",
           "package": "splaytree",
@@ -1308,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "SplayTree",
           "package": "splaytree",
@@ -1321,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "(|\u003e)",
           "package": "splaytree",
@@ -1330,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "(|\u003e) |\u003e",
           "normalized": "SplayTree a-\u003ea-\u003eSplayTree a",
@@ -1344,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "(\u003c|)",
           "package": "splaytree",
@@ -1353,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "(\u003c|) \u003c|",
           "normalized": "a-\u003eSplayTree a-\u003eSplayTree a",
@@ -1368,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend two trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "(\u003e\u003c)",
           "package": "splaytree",
@@ -1378,6 +1493,7 @@
         "index": {
           "description": "Append two trees",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "SplayTree a-\u003eSplayTree a-\u003eSplayTree a",
@@ -1392,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "Branch",
           "package": "splaytree",
@@ -1401,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "Branch",
           "normalized": "Measure a-\u003eSplayTree a-\u003ea-\u003eSplayTree a-\u003eSplayTree a",
@@ -1416,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "Tip",
           "package": "splaytree",
@@ -1425,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "Tip",
           "package": "splaytree",
@@ -1439,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erebalance a splay tree.  The order of elements does not change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "balance",
           "package": "splaytree",
@@ -1449,6 +1570,7 @@
         "index": {
           "description": "rebalance splay tree The order of elements does not change",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "balance",
           "normalized": "SplayTree a-\u003eSplayTree a",
@@ -1464,6 +1586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edescend to the deepest left-hand branch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "deepL",
           "package": "splaytree",
@@ -1474,6 +1597,7 @@
         "index": {
           "description": "descend to the deepest left-hand branch",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "deepL",
           "normalized": "SplayTree a-\u003eSplayTree a",
@@ -1489,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edescend to the deepest right-hand branch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "deepR",
           "package": "splaytree",
@@ -1499,6 +1624,7 @@
         "index": {
           "description": "descend to the deepest right-hand branch",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "deepR",
           "normalized": "SplayTree a-\u003eSplayTree a",
@@ -1513,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "delete",
           "package": "splaytree",
@@ -1522,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "delete",
           "normalized": "a-\u003eSplayTree a-\u003eSplayTree a",
@@ -1536,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "difference",
           "package": "splaytree",
@@ -1545,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "difference",
           "normalized": "SplayTree a-\u003eSplayTree a-\u003eSplayTree a",
@@ -1559,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "empty",
           "package": "splaytree",
@@ -1568,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "empty",
           "package": "splaytree",
@@ -1581,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike fmap, but with a more restrictive type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "fmap'",
           "package": "splaytree",
@@ -1591,6 +1724,7 @@
         "index": {
           "description": "Like fmap but with more restrictive type",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "fmap'",
           "normalized": "(a-\u003eb)-\u003eSplayTree a-\u003eSplayTree b",
@@ -1606,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e.  Create a Tree from a finite list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "fromList",
           "package": "splaytree",
@@ -1616,6 +1751,7 @@
         "index": {
           "description": "Create Tree from finite list of elements",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "fromList",
           "normalized": "[a]-\u003eSplayTree a",
@@ -1632,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e.  Create a Tree from a finite list of elements.\n\u003c/p\u003e\u003cp\u003eAfter the tree is created, it is balanced.  This is useful with sorted data,\n which would otherwise create a completely unbalanced tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "fromListBalance",
           "package": "splaytree",
@@ -1642,6 +1779,7 @@
         "index": {
           "description": "Create Tree from finite list of elements After the tree is created it is balanced This is useful with sorted data which would otherwise create completely unbalanced tree",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "fromListBalance",
           "normalized": "[a]-\u003eSplayTree a",
@@ -1657,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "insert",
           "package": "splaytree",
@@ -1666,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "insert",
           "normalized": "a-\u003eSplayTree a-\u003eSplayTree a",
@@ -1680,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "intersection",
           "package": "splaytree",
@@ -1689,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "intersection",
           "normalized": "SplayTree a-\u003eSplayTree a-\u003eSplayTree a",
@@ -1703,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "measure",
           "package": "splaytree",
@@ -1712,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "measure",
           "normalized": "a-\u003eMeasure a",
@@ -1726,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "memberSplay",
           "package": "splaytree",
@@ -1735,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "memberSplay",
           "normalized": "a-\u003eSplayTree a-\u003e(Bool,SplayTree a)",
@@ -1751,6 +1897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the tree empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "null",
           "package": "splaytree",
@@ -1761,6 +1908,7 @@
         "index": {
           "description": "Is the tree empty",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "null",
           "normalized": "SplayTree a-\u003eBool",
@@ -1776,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efind the first point where the predicate returns True.  Returns a tree\n splayed with that node at the top.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "query",
           "package": "splaytree",
@@ -1786,6 +1935,7 @@
         "index": {
           "description": "find the first point where the predicate returns True Returns tree splayed with that node at the top",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "query",
           "normalized": "(Measure a-\u003eBool)-\u003eSplayTree a-\u003eMaybe(a,SplayTree a)",
@@ -1801,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the root element, if the tree is not empty.\n\u003c/p\u003e\u003cp\u003eThis, combined with \u003ccode\u003ememberSplay\u003c/code\u003e, can be used to create many lookup\n functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "rootElem",
           "package": "splaytree",
@@ -1811,6 +1962,7 @@
         "index": {
           "description": "Return the root element if the tree is not empty This combined with memberSplay can be used to create many lookup functions",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "rootElem",
           "normalized": "SplayTree a-\u003eMaybe a",
@@ -1826,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "singleton",
           "package": "splaytree",
@@ -1835,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "singleton",
           "normalized": "a-\u003eSplayTree a",
@@ -1850,6 +2004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a tree at the point where the predicate on the measure changes from\n False to True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "split",
           "package": "splaytree",
@@ -1860,6 +2015,7 @@
         "index": {
           "description": "Split tree at the point where the predicate on the measure changes from False to True",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "split",
           "normalized": "(Measure a-\u003eBool)-\u003eSplayTree a-\u003e(SplayTree a,SplayTree a)",
@@ -1875,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike traverse, but with a more restrictive type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:26 UTC 2014",
           "module": "Data.SplayTree",
           "name": "traverse'",
           "package": "splaytree",
@@ -1885,6 +2042,7 @@
         "index": {
           "description": "Like traverse but with more restrictive type",
           "hierarchy": "Data SplayTree",
+          "indexed": "2014-03-11T20:08:26",
           "module": "Data.SplayTree",
           "name": "traverse'",
           "normalized": "(a-\u003eb c)-\u003eSplayTree a-\u003eb(SplayTree c)",

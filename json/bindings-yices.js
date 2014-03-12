@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-yices"
+        "phrase": "bindings-yices",
+        "type": "phrase"
       },
       "type": "context"
     }

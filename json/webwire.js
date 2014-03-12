@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "webwire"
+        "phrase": "webwire",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore functionality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Core",
           "name": "Core",
           "package": "webwire",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Core functionality",
           "hierarchy": "WebWire Core",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Core",
           "name": "Core",
           "package": "webwire",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePresent a very simple plaintext error page for the given status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Core",
           "name": "simpleError",
           "package": "webwire",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Present very simple plaintext error page for the given status",
           "hierarchy": "WebWire Core",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Core",
           "name": "simpleError",
           "package": "webwire",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a simple webwire.  This wire type is for simple sites (usually\n just test sites or temporary sites), which don't need a custom\n \u003ccode\u003eWebSite\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Core",
           "name": "simpleWire",
           "package": "webwire",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Run simple webwire This wire type is for simple sites usually just test sites or temporary sites which don need custom WebSite instance",
           "hierarchy": "WebWire Core",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Core",
           "name": "simpleWire",
           "normalized": "(Application-\u003eIO a)-\u003eSimpleWire()Response-\u003eIO a",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a webwire application using the given WAI handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Core",
           "name": "webWire",
           "package": "webwire",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Run webwire application using the given WAI handler",
           "hierarchy": "WebWire Core",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Core",
           "name": "webWire",
           "normalized": "(Application-\u003eIO a)-\u003eb-\u003eWebWire b()Response-\u003eIO a",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "Render",
           "package": "webwire",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Rendering module",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "Render",
           "package": "webwire",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents renderable types.  Each renderable type can\n support rendering to several target representations like HTML, JSON,\n XML, etc.\n\u003c/p\u003e\u003cp\u003eFor simple applications the predefined instances should suffice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "Renderable",
           "package": "webwire",
@@ -149,6 +160,7 @@
         "index": {
           "description": "This class represents renderable types Each renderable type can support rendering to several target representations like HTML JSON XML etc For simple applications the predefined instances should suffice",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "Renderable",
           "package": "webwire",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the input widget to the current default widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "addWidget",
           "package": "webwire",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Add the input widget to the current default widget",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "addWidget",
           "normalized": "WebWire a Widget()",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given renderable value as a response to the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "render",
           "package": "webwire",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Render the given renderable value as response to the user",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "render",
           "package": "webwire",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the default widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "renderDef",
           "package": "webwire",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Render the default widget",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "renderDef",
           "package": "webwire",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given output as a response to the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "respondOutput",
           "package": "webwire",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Render the given output as response to the user",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "respondOutput",
           "package": "webwire",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the input value as the most appropriate output type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "toWebOutput",
           "package": "webwire",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Render the input value as the most appropriate output type",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "toWebOutput",
           "package": "webwire",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the input value as some appropriate output type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "toWebOutputGen",
           "package": "webwire",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Render the input value as some appropriate output type",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "toWebOutputGen",
           "package": "webwire",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the input value as HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "toWebOutputHtml",
           "package": "webwire",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Render the input value as HTML",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "toWebOutputHtml",
           "package": "webwire",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the input value as plain text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Render",
           "name": "toWebOutputPlain",
           "package": "webwire",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Render the input value as plain text",
           "hierarchy": "WebWire Render",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Render",
           "name": "toWebOutputPlain",
           "package": "webwire",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRouting functionality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "Routing",
           "package": "webwire",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Routing functionality",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "Routing",
           "package": "webwire",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the root request segment and add it to the current path.\n Inhibits with a 404 error, if the request path is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "cdIn",
           "package": "webwire",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Remove the root request segment and add it to the current path Inhibits with error if the request path is empty",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "cdIn",
           "normalized": "WebWire a b()",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the current tail segment and add it to the request path.\n Inhibits with a 404 error, if the current path is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "cdOut",
           "package": "webwire",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Remove the current tail segment and add it to the request path Inhibits with error if the current path is empty",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "cdOut",
           "normalized": "WebWire a b()",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the current path segment, if there is one.  Outputs\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, if there are no further path segments.  In particular, if\n the root path is requested, this wire always returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "currentDir",
           "package": "webwire",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Output the current path segment if there is one Outputs Nothing if there are no further path segments In particular if the root path is requested this wire always returns Nothing",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "currentDir",
           "package": "webwire",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the current rest of the path segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "currentPath",
           "package": "webwire",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Output the current rest of the path segment",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "currentPath",
           "normalized": "WebWire a b[Text]",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the request root segment is the given directory, then removes\n the root segment and adds it to the current path for the given wire.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "directory",
           "package": "webwire",
@@ -491,6 +530,7 @@
         "index": {
           "description": "If the request root segment is the given directory then removes the root segment and adds it to the current path for the given wire",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "directory",
           "normalized": "Text-\u003eWebWire a b c-\u003eWebWire a b c",
@@ -506,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the request root segment is the given file and there are no more\n segments, then removes the last segment and adds it to the current\n path for the given wire.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "file",
           "package": "webwire",
@@ -516,6 +557,7 @@
         "index": {
           "description": "If the request root segment is the given file and there are no more segments then removes the last segment and adds it to the current path for the given wire",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "file",
           "normalized": "Text-\u003eWebWire a b c-\u003eWebWire a b c",
@@ -531,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the full URI to the given path from the root path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "pathAbs",
           "package": "webwire",
@@ -541,6 +584,7 @@
         "index": {
           "description": "Construct the full URI to the given path from the root path",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "pathAbs",
           "normalized": "WebWire a[Text]Text",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the full URI to the given path from the current path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "pathRel",
           "package": "webwire",
@@ -567,6 +612,7 @@
         "index": {
           "description": "Construct the full URI to the given path from the current path",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "pathRel",
           "normalized": "WebWire a[Text]Text",
@@ -583,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to the input URI.  Inhibits with the appropriate\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "redirect",
           "package": "webwire",
@@ -593,6 +640,7 @@
         "index": {
           "description": "Redirect to the input URI Inhibits with the appropriate exception",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "redirect",
           "normalized": "RedirectType-\u003eWebWire a Text b",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to the input URI.  Inhibits with the appropriate\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "redirectRaw",
           "package": "webwire",
@@ -618,6 +667,7 @@
         "index": {
           "description": "Redirect to the input URI Inhibits with the appropriate exception",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "redirectRaw",
           "normalized": "RedirectType-\u003eWebWire a Text b",
@@ -634,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the root request path segment, if there is one.  Outputs\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, if there are no further path segments.  In particular, if\n the root path is requested, this wire always returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "requestDir",
           "package": "webwire",
@@ -644,6 +695,7 @@
         "index": {
           "description": "Output the root request path segment if there is one Outputs Nothing if there are no further path segments In particular if the root path is requested this wire always returns Nothing",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "requestDir",
           "package": "webwire",
@@ -658,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the rest of the request path segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "requestPath",
           "package": "webwire",
@@ -668,6 +721,7 @@
         "index": {
           "description": "Output the rest of the request path segment",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "requestPath",
           "normalized": "WebWire a b[Text]",
@@ -684,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given wire, if the current request path is empty.\n Otherwise inhibit with 404.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "rootDir",
           "package": "webwire",
@@ -694,6 +749,7 @@
         "index": {
           "description": "Run the given wire if the current request path is empty Otherwise inhibit with",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "rootDir",
           "normalized": "WebWire a b c-\u003eWebWire a b c",
@@ -710,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the current root path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "rootPath",
           "package": "webwire",
@@ -720,6 +777,7 @@
         "index": {
           "description": "Output the current root path",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "rootPath",
           "normalized": "WebWire a b[Text]",
@@ -736,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience interface to \u003ccode\u003e\u003ca\u003eredirect\u003c/a\u003e\u003c/code\u003e for the very common 303\n redirection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "seeOther",
           "package": "webwire",
@@ -746,6 +805,7 @@
         "index": {
           "description": "Convenience interface to redirect for the very common redirection",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "seeOther",
           "package": "webwire",
@@ -760,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience interface to \u003ccode\u003e\u003ca\u003eredirect\u003c/a\u003e\u003c/code\u003e for the very common 303\n redirection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "seeOtherRaw",
           "package": "webwire",
@@ -770,6 +831,7 @@
         "index": {
           "description": "Convenience interface to redirect for the very common redirection",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "seeOtherRaw",
           "package": "webwire",
@@ -784,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current root path.  This wire also resets the current path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Routing",
           "name": "setRoot",
           "package": "webwire",
@@ -794,6 +857,7 @@
         "index": {
           "description": "Set the current root path This wire also resets the current path",
           "hierarchy": "WebWire Routing",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Routing",
           "name": "setRoot",
           "normalized": "WebWire a[Text]()",
@@ -810,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReactive web session handling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "Session",
           "package": "webwire",
@@ -819,6 +884,7 @@
         "index": {
           "description": "Reactive web session handling",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "Session",
           "package": "webwire",
@@ -833,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "SessionCfg",
           "package": "webwire",
@@ -842,6 +909,7 @@
         "index": {
           "description": "Session configuration",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "SessionCfg",
           "package": "webwire",
@@ -856,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "WebSession",
           "package": "webwire",
@@ -865,6 +934,7 @@
         "index": {
           "description": "Session identifiers",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "WebSession",
           "package": "webwire",
@@ -878,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "SessionCfg",
           "package": "webwire",
@@ -887,6 +958,7 @@
         },
         "index": {
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "SessionCfg",
           "package": "webwire",
@@ -901,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault session configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "defSessionCfg",
           "package": "webwire",
@@ -911,6 +984,7 @@
         "index": {
           "description": "Default session configuration",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "defSessionCfg",
           "package": "webwire",
@@ -925,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current session id.  Inhibits, if the client didn't have\n one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "getSessId",
           "package": "webwire",
@@ -935,6 +1010,7 @@
         "index": {
           "description": "Get the current session id Inhibits if the client didn have one",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "getSessId",
           "package": "webwire",
@@ -949,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidity duration of the session cookies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "sessDuration",
           "package": "webwire",
@@ -959,6 +1036,7 @@
         "index": {
           "description": "Validity duration of the session cookies",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "sessDuration",
           "package": "webwire",
@@ -973,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThreshold of saved sessions, after which sessions can be\n deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "sessThreshold",
           "package": "webwire",
@@ -983,6 +1062,7 @@
         "index": {
           "description": "Threshold of saved sessions after which sessions can be deleted",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "sessThreshold",
           "package": "webwire",
@@ -997,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum validitity time.  Younger sessions won't be killed on\n the server side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "sessTimeLimit",
           "package": "webwire",
@@ -1007,6 +1088,7 @@
         "index": {
           "description": "Minimum validitity time Younger sessions won be killed on the server side",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "sessTimeLimit",
           "package": "webwire",
@@ -1021,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive session handling.  The given wire is evolved for each user\n session individually.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "session",
           "package": "webwire",
@@ -1031,6 +1114,7 @@
         "index": {
           "description": "Reactive session handling The given wire is evolved for each user session individually",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "session",
           "normalized": "SessionCfg-\u003eWebWire a(WebSession,b)c-\u003eWebWire a b c",
@@ -1046,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new session id and sends a cookie to the client.  The\n input signal specifies the validity duration.  If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, then the\n session is valid for the duration of the browser session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Session",
           "name": "setNewSessId",
           "package": "webwire",
@@ -1056,6 +1141,7 @@
         "index": {
           "description": "Generate new session id and sends cookie to the client The input signal specifies the validity duration If Nothing then the session is valid for the duration of the browser session",
           "hierarchy": "WebWire Session",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Session",
           "name": "setNewSessId",
           "package": "webwire",
@@ -1070,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious webwire tools.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Tools",
           "name": "Tools",
           "package": "webwire",
@@ -1079,6 +1166,7 @@
         "index": {
           "description": "Various webwire tools",
           "hierarchy": "WebWire Tools",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Tools",
           "name": "Tools",
           "package": "webwire",
@@ -1093,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an additional header to the response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Tools",
           "name": "addHeader",
           "package": "webwire",
@@ -1103,6 +1192,7 @@
         "index": {
           "description": "Add an additional header to the response",
           "hierarchy": "WebWire Tools",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Tools",
           "name": "addHeader",
           "normalized": "WebWire a(CI Ascii,Ascii)()",
@@ -1119,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the given cookie from the request.  Inhibits, if the\n cookie doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Tools",
           "name": "getCookie",
           "package": "webwire",
@@ -1129,6 +1220,7 @@
         "index": {
           "description": "Retrieves the given cookie from the request Inhibits if the cookie doesn exist",
           "hierarchy": "WebWire Tools",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Tools",
           "name": "getCookie",
           "package": "webwire",
@@ -1143,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the given query parameter.  Inhibits with 404, if the\n parameter does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Tools",
           "name": "getQueryParam",
           "package": "webwire",
@@ -1153,6 +1246,7 @@
         "index": {
           "description": "Retrieve the given query parameter Inhibits with if the parameter does not exist",
           "hierarchy": "WebWire Tools",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Tools",
           "name": "getQueryParam",
           "package": "webwire",
@@ -1167,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInhibits with a 404 error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Tools",
           "name": "notFound",
           "package": "webwire",
@@ -1177,6 +1272,7 @@
         "index": {
           "description": "Inhibits with error",
           "hierarchy": "WebWire Tools",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Tools",
           "name": "notFound",
           "package": "webwire",
@@ -1191,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the given cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Tools",
           "name": "setCookie",
           "package": "webwire",
@@ -1201,6 +1298,7 @@
         "index": {
           "description": "Sets the given cookie",
           "hierarchy": "WebWire Tools",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Tools",
           "name": "setCookie",
           "normalized": "WebWire a SetCookie()",
@@ -1217,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the given cookie for the root path of the current domain with\n the given validity duration.  If no duration is given, it becomes a\n session cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Tools",
           "name": "setCookieSimple",
           "package": "webwire",
@@ -1227,6 +1326,7 @@
         "index": {
           "description": "Sets the given cookie for the root path of the current domain with the given validity duration If no duration is given it becomes session cookie",
           "hierarchy": "WebWire Tools",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Tools",
           "name": "setCookieSimple",
           "normalized": "WebWire a(ByteString,ByteString,Maybe NominalDiffTime)()",
@@ -1243,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes used in webwire.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "Types",
           "package": "webwire",
@@ -1252,6 +1353,7 @@
         "index": {
           "description": "Types used in webwire",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "Types",
           "package": "webwire",
@@ -1266,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of redirection.  For temporary redirections, especially in\n response to handling a form, you will want to use \u003ccode\u003e\u003ca\u003eRedirectSeeOther\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "RedirectType",
           "package": "webwire",
@@ -1275,6 +1378,7 @@
         "index": {
           "description": "Types of redirection For temporary redirections especially in response to handling form you will want to use RedirectSeeOther",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "RedirectType",
           "package": "webwire",
@@ -1289,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWire type for simple sites.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "SimpleWire",
           "package": "webwire",
@@ -1298,6 +1403,7 @@
         "index": {
           "description": "Wire type for simple sites",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "SimpleWire",
           "package": "webwire",
@@ -1312,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime configuration of a wire.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "WebConfig",
           "package": "webwire",
@@ -1321,6 +1428,7 @@
         "index": {
           "description": "Runtime configuration of wire",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "WebConfig",
           "package": "webwire",
@@ -1335,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA web exception is an HTTP status code possibly with additional\n data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "WebException",
           "package": "webwire",
@@ -1344,6 +1453,7 @@
         "index": {
           "description": "web exception is an HTTP status code possibly with additional data",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "WebException",
           "package": "webwire",
@@ -1358,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarious output types.  The boolean argument taken by the\n constructors specifies whether a Content-length header should be\n sent.  If true, the string will be fully built, before being sent to\n the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "WebOutput",
           "package": "webwire",
@@ -1367,6 +1478,7 @@
         "index": {
           "description": "Various output types The boolean argument taken by the constructors specifies whether Content-length header should be sent If true the string will be fully built before being sent to the client",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "WebOutput",
           "package": "webwire",
@@ -1381,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeb request handling wires.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "WebWire",
           "package": "webwire",
@@ -1390,6 +1503,7 @@
         "index": {
           "description": "Web request handling wires",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "WebWire",
           "package": "webwire",
@@ -1404,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric data output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "GenOutput",
           "package": "webwire",
@@ -1414,6 +1529,7 @@
         "index": {
           "description": "Generic data output",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "GenOutput",
           "package": "webwire",
@@ -1428,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8-encoded HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "HtmlOutput",
           "package": "webwire",
@@ -1438,6 +1555,7 @@
         "index": {
           "description": "UTF-8-encoded HTML",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "HtmlOutput",
           "package": "webwire",
@@ -1452,6 +1570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermanently moved (301).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "RedirectPermanent",
           "package": "webwire",
@@ -1462,6 +1581,7 @@
         "index": {
           "description": "Permanently moved",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "RedirectPermanent",
           "package": "webwire",
@@ -1476,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee other (303).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "RedirectSeeOther",
           "package": "webwire",
@@ -1486,6 +1607,7 @@
         "index": {
           "description": "See other",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "RedirectSeeOther",
           "package": "webwire",
@@ -1500,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporary redirection (307).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "RedirectTemporary",
           "package": "webwire",
@@ -1510,6 +1633,7 @@
         "index": {
           "description": "Temporary redirection",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "RedirectTemporary",
           "package": "webwire",
@@ -1524,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8-encoded string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "TextOutput",
           "package": "webwire",
@@ -1534,6 +1659,7 @@
         "index": {
           "description": "UTF-8-encoded string",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "TextOutput",
           "package": "webwire",
@@ -1547,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "WebConfig",
           "package": "webwire",
@@ -1556,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "WebConfig",
           "package": "webwire",
@@ -1570,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric web exception.  This can be an internal server error\n (5xx) or document error (4xx), which don't need additional data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "WebException",
           "package": "webwire",
@@ -1580,6 +1709,7 @@
         "index": {
           "description": "Generic web exception This can be an internal server error xx or document error xx which don need additional data",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "WebException",
           "package": "webwire",
@@ -1594,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirection exception.  The second argument specifies the URI\n to redirect to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "WebRedirect",
           "package": "webwire",
@@ -1604,6 +1735,7 @@
         "index": {
           "description": "Redirection exception The second argument specifies the URI to redirect to",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "WebRedirect",
           "package": "webwire",
@@ -1618,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceived cookies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcCookies",
           "package": "webwire",
@@ -1628,6 +1761,7 @@
         "index": {
           "description": "Received cookies",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcCookies",
           "package": "webwire",
@@ -1642,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcCurrentPath",
           "package": "webwire",
@@ -1652,6 +1787,7 @@
         "index": {
           "description": "Current path",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcCurrentPath",
           "normalized": "[Text]",
@@ -1668,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePOST files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcPostFiles",
           "package": "webwire",
@@ -1678,6 +1815,7 @@
         "index": {
           "description": "POST files",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcPostFiles",
           "package": "webwire",
@@ -1692,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePOST parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcPostParams",
           "package": "webwire",
@@ -1702,6 +1841,7 @@
         "index": {
           "description": "POST parameters",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcPostParams",
           "package": "webwire",
@@ -1716,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcQueryParams",
           "package": "webwire",
@@ -1726,6 +1867,7 @@
         "index": {
           "description": "Query parameters",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcQueryParams",
           "package": "webwire",
@@ -1740,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcRequest",
           "package": "webwire",
@@ -1750,6 +1893,7 @@
         "index": {
           "description": "Current request",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcRequest",
           "package": "webwire",
@@ -1764,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcRequestPath",
           "package": "webwire",
@@ -1774,6 +1919,7 @@
         "index": {
           "description": "Request path",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcRequestPath",
           "normalized": "[Text]",
@@ -1790,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSite's root path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcRootPath",
           "package": "webwire",
@@ -1800,6 +1947,7 @@
         "index": {
           "description": "Site root path",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcRootPath",
           "normalized": "[Text]",
@@ -1816,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookies to add to the response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcSetCookies",
           "package": "webwire",
@@ -1826,6 +1975,7 @@
         "index": {
           "description": "Cookies to add to the response",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcSetCookies",
           "package": "webwire",
@@ -1840,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeaders to add to the response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcSetHeaders",
           "package": "webwire",
@@ -1850,6 +2001,7 @@
         "index": {
           "description": "Headers to add to the response",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcSetHeaders",
           "normalized": "[(CI Ascii,Ascii)]",
@@ -1866,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser site argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcSite",
           "package": "webwire",
@@ -1876,6 +2029,7 @@
         "index": {
           "description": "User site argument",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcSite",
           "package": "webwire",
@@ -1890,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault rendering widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Types",
           "name": "wcWidget",
           "package": "webwire",
@@ -1900,6 +2055,7 @@
         "index": {
           "description": "Default rendering widget",
           "hierarchy": "WebWire Types",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Types",
           "name": "wcWidget",
           "package": "webwire",
@@ -1914,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTML widgets, inspired by Yesod.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "Widget",
           "package": "webwire",
@@ -1923,6 +2080,7 @@
         "index": {
           "description": "HTML widgets inspired by Yesod",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "Widget",
           "package": "webwire",
@@ -1937,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget is essentially a full HTML page splitted into the actual\n HTML markup and its dependencies like CSS and JavaScript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "Widget",
           "package": "webwire",
@@ -1946,6 +2105,7 @@
         "index": {
           "description": "widget is essentially full HTML page splitted into the actual HTML markup and its dependencies like CSS and JavaScript",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "Widget",
           "package": "webwire",
@@ -1959,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "Widget",
           "package": "webwire",
@@ -1968,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "Widget",
           "package": "webwire",
@@ -1982,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with an HTML body fragment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "bodyW",
           "package": "webwire",
@@ -1992,6 +2155,7 @@
         "index": {
           "description": "Widget with an HTML body fragment",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "bodyW",
           "normalized": "Html-\u003eWidget",
@@ -2007,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with an inline CSS stylesheet rendered by Cassius or Lucius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "cassiusW",
           "package": "webwire",
@@ -2017,6 +2182,7 @@
         "index": {
           "description": "Widget with an inline CSS stylesheet rendered by Cassius or Lucius",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "cassiusW",
           "normalized": "CssUrl a-\u003eWidget",
@@ -2032,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with an external CSS link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "cssLinkW",
           "package": "webwire",
@@ -2042,6 +2209,7 @@
         "index": {
           "description": "Widget with an external CSS link",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "cssLinkW",
           "normalized": "Text-\u003eWidget",
@@ -2058,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with an inline CSS stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "cssW",
           "package": "webwire",
@@ -2068,6 +2237,7 @@
         "index": {
           "description": "Widget with an inline CSS stylesheet",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "cssW",
           "normalized": "Text-\u003eWidget",
@@ -2083,6 +2253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with an HTML body fragment from Hamlet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "hamletW",
           "package": "webwire",
@@ -2093,6 +2264,7 @@
         "index": {
           "description": "Widget with an HTML body fragment from Hamlet",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "hamletW",
           "normalized": "HtmlUrl a-\u003eWidget",
@@ -2108,6 +2280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with an external JavaScript link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "jsLinkW",
           "package": "webwire",
@@ -2118,6 +2291,7 @@
         "index": {
           "description": "Widget with an external JavaScript link",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "jsLinkW",
           "normalized": "Text-\u003eWidget",
@@ -2134,6 +2308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with inline JavaScript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "jsW",
           "package": "webwire",
@@ -2144,6 +2319,7 @@
         "index": {
           "description": "Widget with inline JavaScript",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "jsW",
           "normalized": "Text-\u003eWidget",
@@ -2159,6 +2335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with inline JavaScript rendered by Julius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "juliusW",
           "package": "webwire",
@@ -2169,6 +2346,7 @@
         "index": {
           "description": "Widget with inline JavaScript rendered by Julius",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "juliusW",
           "normalized": "JavascriptUrl a-\u003eWidget",
@@ -2184,6 +2362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidget with a title segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "titleW",
           "package": "webwire",
@@ -2194,6 +2373,7 @@
         "index": {
           "description": "Widget with title segment",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "titleW",
           "normalized": "Text-\u003eWidget",
@@ -2209,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "wgtBody",
           "package": "webwire",
@@ -2219,6 +2400,7 @@
         "index": {
           "description": "HTML body",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "wgtBody",
           "package": "webwire",
@@ -2233,6 +2415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS source code to add.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "wgtHeadCSS",
           "package": "webwire",
@@ -2243,6 +2426,7 @@
         "index": {
           "description": "CSS source code to add",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "wgtHeadCSS",
           "normalized": "[Text]",
@@ -2259,6 +2443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJavaScript source code to add.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "wgtHeadJS",
           "package": "webwire",
@@ -2269,6 +2454,7 @@
         "index": {
           "description": "JavaScript source code to add",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "wgtHeadJS",
           "normalized": "[Text]",
@@ -2285,6 +2471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS links to add.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "wgtLinkCSS",
           "package": "webwire",
@@ -2295,6 +2482,7 @@
         "index": {
           "description": "CSS links to add",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "wgtLinkCSS",
           "normalized": "[Text]",
@@ -2311,6 +2499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJavaScript links to add.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "wgtLinkJS",
           "package": "webwire",
@@ -2321,6 +2510,7 @@
         "index": {
           "description": "JavaScript links to add",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "wgtLinkJS",
           "normalized": "[Text]",
@@ -2337,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage title parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire.Widget",
           "name": "wgtTitle",
           "package": "webwire",
@@ -2347,6 +2538,7 @@
         "index": {
           "description": "Page title parts",
           "hierarchy": "WebWire Widget",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire.Widget",
           "name": "wgtTitle",
           "normalized": "[Text]",
@@ -2363,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:43 UTC 2014",
           "module": "WebWire",
           "name": "WebWire",
           "package": "webwire",
@@ -2372,6 +2565,7 @@
         "index": {
           "description": "Convenience module",
           "hierarchy": "WebWire",
+          "indexed": "2014-03-11T20:38:43",
           "module": "WebWire",
           "name": "WebWire",
           "package": "webwire",

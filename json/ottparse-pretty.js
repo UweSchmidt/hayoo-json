@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ottparse-pretty"
+        "phrase": "ottparse-pretty",
+        "type": "phrase"
       },
       "type": "context"
     }

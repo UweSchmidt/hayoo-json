@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sirkel"
+        "phrase": "sirkel",
+        "type": "phrase"
       },
       "type": "context"
     }

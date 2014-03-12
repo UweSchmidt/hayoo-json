@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Rasenschach"
+        "phrase": "Rasenschach",
+        "type": "phrase"
       },
       "type": "context"
     }

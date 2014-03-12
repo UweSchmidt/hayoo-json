@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack2"
+        "phrase": "hack2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "Hack2",
           "package": "hack2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "Hack2",
           "package": "hack2",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "Application",
           "package": "hack2",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "Application",
           "package": "hack2",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "Env",
           "package": "hack2",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "Env",
           "package": "hack2",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "HackErrors",
           "package": "hack2",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "HackErrors",
           "package": "hack2",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "HackUrlScheme",
           "package": "hack2",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "HackUrlScheme",
           "package": "hack2",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "Middleware",
           "package": "hack2",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "Middleware",
           "package": "hack2",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "RequestMethod",
           "package": "hack2",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "RequestMethod",
           "package": "hack2",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "Response",
           "package": "hack2",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "Response",
           "package": "hack2",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "CONNECT",
           "package": "hack2",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "CONNECT",
           "package": "hack2",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "DELETE",
           "package": "hack2",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "DELETE",
           "package": "hack2",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "Env",
           "package": "hack2",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "Env",
           "package": "hack2",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "GET",
           "package": "hack2",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "GET",
           "package": "hack2",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "HEAD",
           "package": "hack2",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "HEAD",
           "package": "hack2",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "HTTP",
           "package": "hack2",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "HTTP",
           "package": "hack2",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "HTTPS",
           "package": "hack2",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "HTTPS",
           "package": "hack2",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "HackErrors",
           "package": "hack2",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "HackErrors",
           "package": "hack2",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "OPTIONS",
           "package": "hack2",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "OPTIONS",
           "package": "hack2",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "POST",
           "package": "hack2",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "POST",
           "package": "hack2",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "PUT",
           "package": "hack2",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "PUT",
           "package": "hack2",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "Response",
           "package": "hack2",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "Response",
           "package": "hack2",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "TRACE",
           "package": "hack2",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "TRACE",
           "package": "hack2",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "body",
           "package": "hack2",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "body",
           "package": "hack2",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "hackErrors",
           "package": "hack2",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "hackErrors",
           "package": "hack2",
@@ -515,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "hackHeaders",
           "package": "hack2",
@@ -524,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "hackHeaders",
           "normalized": "[(ByteString,ByteString)]",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "hackInput",
           "package": "hack2",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "hackInput",
           "package": "hack2",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "hackUrlScheme",
           "package": "hack2",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "hackUrlScheme",
           "package": "hack2",
@@ -583,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "hackVersion",
           "package": "hack2",
@@ -592,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "hackVersion",
           "normalized": "(Int,Int,Int)",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "headers",
           "package": "hack2",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "headers",
           "normalized": "[(ByteString,ByteString)]",
@@ -630,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "httpHeaders",
           "package": "hack2",
@@ -639,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "httpHeaders",
           "normalized": "[(ByteString,ByteString)]",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "pathInfo",
           "package": "hack2",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "pathInfo",
           "package": "hack2",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "queryString",
           "package": "hack2",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "queryString",
           "package": "hack2",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "requestMethod",
           "package": "hack2",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "requestMethod",
           "package": "hack2",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "scriptName",
           "package": "hack2",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "scriptName",
           "package": "hack2",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "serverName",
           "package": "hack2",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "serverName",
           "package": "hack2",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "serverPort",
           "package": "hack2",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "serverPort",
           "package": "hack2",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "status",
           "package": "hack2",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "status",
           "package": "hack2",
@@ -807,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:50 UTC 2014",
           "module": "Hack2",
           "name": "unHackErrors",
           "package": "hack2",
@@ -816,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Hack2",
+          "indexed": "2014-03-11T18:25:50",
           "module": "Hack2",
           "name": "unHackErrors",
           "normalized": "ByteString-\u003eIO()",

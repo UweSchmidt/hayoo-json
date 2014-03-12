@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive-fieldtrip"
+        "phrase": "reactive-fieldtrip",
+        "type": "phrase"
       },
       "type": "context"
     }

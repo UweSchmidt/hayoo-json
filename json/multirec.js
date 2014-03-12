@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multirec"
+        "phrase": "multirec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is the base of the multirec library. It defines the view of a\n family of datatypes: All the datatypes of the family are represented as\n indexed functors that are built up from the structure types defined in this\n module. Furthermore, in order to use the library for a family, conversion\n functions have to be defined between the original datatypes and their\n representation. The type class that holds these conversion functions are\n also defined here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "Base",
           "package": "multirec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is the base of the multirec library It defines the view of family of datatypes All the datatypes of the family are represented as indexed functors that are built up from the structure types defined in this module Furthermore in order to use the library for family conversion functions have to be defined between the original datatypes and their representation The type class that holds these conversion functions are also defined here",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "Base",
           "package": "multirec",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents products (sequences of fields of a constructor).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": ":*:",
           "package": "multirec",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Represents products sequences of fields of constructor",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": ":*:",
           "package": "multirec",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents sums (choices between constructors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": ":+:",
           "package": "multirec",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Represents sums choices between constructors",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": ":+:",
           "package": "multirec",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs used to indicate the type that a\n particular constructor injects to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": ":\u003e:",
           "package": "multirec",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Is used to indicate the type that particular constructor injects to",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": ":\u003e:",
           "package": "multirec",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents composition with functors\n of kind * -\u003e *.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": ":.:",
           "package": "multirec",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Represents composition with functors of kind",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": ":.:",
           "package": "multirec",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "C",
           "package": "multirec",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Represents constructors",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "C",
           "package": "multirec",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for the members of a family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "El",
           "package": "multirec",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Class for the members of family",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "El",
           "package": "multirec",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemi-decidable equality for types of a family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "EqS",
           "package": "multirec",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Semi-decidable equality for types of family",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "EqS",
           "package": "multirec",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass that contains the shallow conversion functions for a family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "Fam",
           "package": "multirec",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Class that contains the shallow conversion functions for family",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "Fam",
           "package": "multirec",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents recursive positions. The first argument indicates\n which type to recurse on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "I",
           "package": "multirec",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Represents recursive positions The first argument indicates which type to recurse on",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "I",
           "package": "multirec",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlifted version of \u003ccode\u003e\u003ca\u003eI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "I0",
           "package": "multirec",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Unlifted version of",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "I0",
           "package": "multirec",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents constant types that do not belong to the family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "K",
           "package": "multirec",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Represents constant types that do not belong to the family",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "K",
           "package": "multirec",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlifted version of \u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "K0",
           "package": "multirec",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Unlifted version of",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "K0",
           "package": "multirec",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType family describing the pattern functor of a family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "PF",
           "package": "multirec",
@@ -318,6 +345,7 @@
         "index": {
           "description": "Type family describing the pattern functor of family",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "PF",
           "package": "multirec",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents constructors without fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "U",
           "package": "multirec",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Represents constructors without fields",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "U",
           "package": "multirec",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": ":*:",
           "package": "multirec",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": ":*:",
           "package": "multirec",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "C",
           "package": "multirec",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "C",
           "normalized": "a b c-\u003eC d a b c",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "D",
           "package": "multirec",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "D",
           "package": "multirec",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "I",
           "package": "multirec",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "I",
           "package": "multirec",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "I0",
           "package": "multirec",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "I0",
           "package": "multirec",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "K",
           "package": "multirec",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "K",
           "package": "multirec",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "K0",
           "package": "multirec",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "K0",
           "package": "multirec",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "L",
           "package": "multirec",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "L",
           "package": "multirec",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "R",
           "package": "multirec",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "R",
           "package": "multirec",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "Tag",
           "package": "multirec",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "Tag",
           "normalized": "a b c-\u003e(a c)b c",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "U",
           "package": "multirec",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "U",
           "package": "multirec",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "eqS",
           "package": "multirec",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "eqS",
           "normalized": "a b-\u003ea c-\u003eMaybe(b c)",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "from",
           "package": "multirec",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "from",
           "normalized": "a b-\u003eb-\u003ePF a I b",
@@ -636,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor backwards-compatibility: a synonym for \u003ccode\u003e\u003ca\u003eproof\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "index",
           "package": "multirec",
@@ -646,6 +703,7 @@
         "index": {
           "description": "For backwards-compatibility synonym for proof",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "index",
           "package": "multirec",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "proof",
           "package": "multirec",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "proof",
           "package": "multirec",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "to",
           "package": "multirec",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "to",
           "normalized": "a b-\u003ePF a I b-\u003eb",
@@ -703,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestructor for \u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "unC",
           "package": "multirec",
@@ -713,6 +776,7 @@
         "index": {
           "description": "Destructor for",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "unC",
           "normalized": "C a b c d-\u003eb c d",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "unD",
           "package": "multirec",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "unD",
           "package": "multirec",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "unI",
           "package": "multirec",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "unI",
           "package": "multirec",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "unI0",
           "package": "multirec",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "unI0",
           "package": "multirec",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "unK",
           "package": "multirec",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "unK",
           "package": "multirec",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "unK0",
           "package": "multirec",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "unK0",
           "package": "multirec",
@@ -833,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestructor for '(:\u003e:)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Base",
           "name": "unTag",
           "package": "multirec",
@@ -843,6 +918,7 @@
         "index": {
           "description": "Destructor for",
           "hierarchy": "Generics MultiRec Base",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Base",
           "name": "unTag",
           "normalized": "(a b)c b-\u003ea c b",
@@ -859,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe compos operator, inspired by\n\u003c/p\u003e\u003cp\u003eB. Bringert and A. Ranta\n   A pattern for almost compositional functions\n   ICFP 2006\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Compos",
           "name": "Compos",
           "package": "multirec",
@@ -868,6 +945,7 @@
         "index": {
           "description": "The compos operator inspired by Bringert and Ranta pattern for almost compositional functions ICFP",
           "hierarchy": "Generics MultiRec Compos",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Compos",
           "name": "Compos",
           "package": "multirec",
@@ -882,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Compos",
           "name": "compos",
           "package": "multirec",
@@ -892,6 +971,7 @@
         "index": {
           "description": "Normal version",
           "hierarchy": "Generics MultiRec Compos",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Compos",
           "name": "compos",
           "normalized": "(a b c d-\u003ed-\u003ed)-\u003ec d-\u003ed-\u003ed",
@@ -907,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplicative version of \u003ccode\u003e\u003ca\u003ecompos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Compos",
           "name": "composA",
           "package": "multirec",
@@ -917,6 +998,7 @@
         "index": {
           "description": "Applicative version of compos",
           "hierarchy": "Generics MultiRec Compos",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Compos",
           "name": "composA",
           "normalized": "(a b c d-\u003ed-\u003ee d)-\u003ec d-\u003ed-\u003ee d",
@@ -932,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003ecompos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Compos",
           "name": "composM",
           "package": "multirec",
@@ -942,6 +1025,7 @@
         "index": {
           "description": "Monadic version of compos",
           "hierarchy": "Generics MultiRec Compos",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Compos",
           "name": "composM",
           "normalized": "(a b c d-\u003ed-\u003ee d)-\u003ec d-\u003ed-\u003ee d",
@@ -957,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric function that returns the constructor names available in a family\n of datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.ConNames",
           "name": "ConNames",
           "package": "multirec",
@@ -966,6 +1051,7 @@
         "index": {
           "description": "Generic function that returns the constructor names available in family of datatypes",
           "hierarchy": "Generics MultiRec ConNames",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.ConNames",
           "name": "ConNames",
           "package": "multirec",
@@ -979,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.ConNames",
           "name": "ConNames",
           "package": "multirec",
@@ -987,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec ConNames",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.ConNames",
           "name": "ConNames",
           "package": "multirec",
@@ -1000,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.ConNames",
           "name": "conNames",
           "package": "multirec",
@@ -1009,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec ConNames",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.ConNames",
           "name": "conNames",
           "normalized": "a b-\u003e[String]",
@@ -1024,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.ConNames",
           "name": "hconNames",
           "package": "multirec",
@@ -1033,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec ConNames",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.ConNames",
           "name": "hconNames",
           "normalized": "a b c-\u003e[String]",
@@ -1049,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a class for datatypes that represent data\n constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "Constructor",
           "package": "multirec",
@@ -1058,6 +1151,7 @@
         "index": {
           "description": "This module contains class for datatypes that represent data constructors",
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "Constructor",
           "package": "multirec",
@@ -1071,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "Associativity",
           "package": "multirec",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "Associativity",
           "package": "multirec",
@@ -1093,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for datatypes that represent data constructors.\n For non-symbolic constructors, only \u003ccode\u003e\u003ca\u003econName\u003c/a\u003e\u003c/code\u003e has to be defined.\n The weird argument is supposed to be instantiated with \u003ccode\u003eC\u003c/code\u003e from\n base, hence the complex kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "Constructor",
           "package": "multirec",
@@ -1102,6 +1199,7 @@
         "index": {
           "description": "Class for datatypes that represent data constructors For non-symbolic constructors only conName has to be defined The weird argument is supposed to be instantiated with from base hence the complex kind",
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "Constructor",
           "package": "multirec",
@@ -1116,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype to represent the fixity of a constructor. An infix declaration\n directly corresponds to an application of \u003ccode\u003e\u003ca\u003eInfix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "Fixity",
           "package": "multirec",
@@ -1125,6 +1224,7 @@
         "index": {
           "description": "Datatype to represent the fixity of constructor An infix declaration directly corresponds to an application of Infix",
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "Fixity",
           "package": "multirec",
@@ -1138,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "Infix",
           "package": "multirec",
@@ -1147,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "Infix",
           "package": "multirec",
@@ -1160,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "LeftAssociative",
           "package": "multirec",
@@ -1169,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "LeftAssociative",
           "package": "multirec",
@@ -1182,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "NotAssociative",
           "package": "multirec",
@@ -1191,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "NotAssociative",
           "package": "multirec",
@@ -1204,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "Prefix",
           "package": "multirec",
@@ -1213,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "Prefix",
           "package": "multirec",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "RightAssociative",
           "package": "multirec",
@@ -1235,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "RightAssociative",
           "package": "multirec",
@@ -1248,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "conFixity",
           "package": "multirec",
@@ -1257,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "conFixity",
           "normalized": "*-\u003e*)a-\u003eFixity",
@@ -1272,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Constructor",
           "name": "conName",
           "package": "multirec",
@@ -1281,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Constructor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Constructor",
           "name": "conName",
           "normalized": "*-\u003e*)a-\u003eString",
@@ -1297,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric equality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Eq",
           "name": "Eq",
           "package": "multirec",
@@ -1306,6 +1421,7 @@
         "index": {
           "description": "Generic equality",
           "hierarchy": "Generics MultiRec Eq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Eq",
           "name": "Eq",
           "package": "multirec",
@@ -1319,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Eq",
           "name": "Eq1",
           "package": "multirec",
@@ -1327,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Eq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Eq",
           "name": "Eq1",
           "package": "multirec",
@@ -1340,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Eq",
           "name": "HEq",
           "package": "multirec",
@@ -1348,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Eq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Eq",
           "name": "HEq",
           "package": "multirec",
@@ -1361,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Eq",
           "name": "eq",
           "package": "multirec",
@@ -1370,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Eq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Eq",
           "name": "eq",
           "normalized": "a b-\u003eb-\u003eb-\u003eBool",
@@ -1384,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Eq",
           "name": "eq1",
           "package": "multirec",
@@ -1393,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Eq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Eq",
           "name": "eq1",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eb a-\u003eb a-\u003eBool",
@@ -1407,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Eq",
           "name": "heq",
           "package": "multirec",
@@ -1416,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Eq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Eq",
           "name": "heq",
           "normalized": "(a b c d-\u003ee d-\u003ee d-\u003eBool)-\u003ec d-\u003ef e d-\u003ef e d-\u003eBool",
@@ -1431,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe definition of generic fold, unfold, paramorphisms. In addition,\n some combinators that facilitate the construction of algebras.\n\u003c/p\u003e\u003cp\u003eThere are several variants of fold in other modules that are probably\n easier to use:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e for folds with constant return type, look at\n     \u003ca\u003eGenerics.MultiRec.FoldAlgK\u003c/a\u003e (or \u003ca\u003eGenerics.MultiRec.FoldK\u003c/a\u003e),\n\u003c/li\u003e\u003cli\u003e for folds with convenient algebras, look at\n     \u003ca\u003eGenerics.MultiRec.FoldAlg\u003c/a\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "Fold",
           "package": "multirec",
@@ -1440,6 +1567,7 @@
         "index": {
           "description": "The definition of generic fold unfold paramorphisms In addition some combinators that facilitate the construction of algebras There are several variants of fold in other modules that are probably easier to use for folds with constant return type look at Generics.MultiRec.FoldAlgK or Generics.MultiRec.FoldK for folds with convenient algebras look at Generics.MultiRec.FoldAlg",
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "Fold",
           "package": "multirec",
@@ -1453,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": ":-\u003e",
           "package": "multirec",
@@ -1461,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": ":-\u003e",
           "package": "multirec",
@@ -1473,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "AlgPart",
           "package": "multirec",
@@ -1481,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "AlgPart",
           "package": "multirec",
@@ -1494,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "Algebra",
           "package": "multirec",
@@ -1502,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "Algebra",
           "package": "multirec",
@@ -1515,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "Algebra'",
           "package": "multirec",
@@ -1523,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "Algebra'",
           "package": "multirec",
@@ -1536,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "AlgebraF",
           "package": "multirec",
@@ -1544,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "AlgebraF",
           "package": "multirec",
@@ -1557,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "AlgebraF'",
           "package": "multirec",
@@ -1565,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "AlgebraF'",
           "package": "multirec",
@@ -1578,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "CoAlgebra",
           "package": "multirec",
@@ -1586,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "CoAlgebra",
           "package": "multirec",
@@ -1599,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "CoAlgebra'",
           "package": "multirec",
@@ -1607,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "CoAlgebra'",
           "package": "multirec",
@@ -1620,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "CoAlgebraF",
           "package": "multirec",
@@ -1628,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "CoAlgebraF",
           "package": "multirec",
@@ -1641,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "CoAlgebraF'",
           "package": "multirec",
@@ -1649,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "CoAlgebraF'",
           "package": "multirec",
@@ -1662,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "ParaAlgebra",
           "package": "multirec",
@@ -1670,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "ParaAlgebra",
           "package": "multirec",
@@ -1683,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "ParaAlgebra'",
           "package": "multirec",
@@ -1691,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "ParaAlgebra'",
           "package": "multirec",
@@ -1704,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "ParaAlgebraF",
           "package": "multirec",
@@ -1712,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "ParaAlgebraF",
           "package": "multirec",
@@ -1725,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "ParaAlgebraF'",
           "package": "multirec",
@@ -1733,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "ParaAlgebraF'",
           "package": "multirec",
@@ -1746,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "(&)",
           "package": "multirec",
@@ -1755,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "(&) &",
           "normalized": "(AlgPart a-\u003e(AlgPart b-\u003eAlgPart(a b)))c d",
@@ -1769,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "con",
           "package": "multirec",
@@ -1778,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "con",
           "normalized": "AlgPart a b c-\u003eAlgPart(C d a)b c",
@@ -1792,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "fold",
           "package": "multirec",
@@ -1801,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "fold",
           "normalized": "Algebra a b-\u003ea c-\u003ec-\u003eb c",
@@ -1815,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "foldM",
           "package": "multirec",
@@ -1824,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "foldM",
           "normalized": "AlgebraF a b c-\u003ea d-\u003ed-\u003eb(c d)",
@@ -1838,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "para",
           "package": "multirec",
@@ -1847,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "para",
           "normalized": "ParaAlgebra a b-\u003ea c-\u003ec-\u003eb c",
@@ -1861,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "paraM",
           "package": "multirec",
@@ -1870,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "paraM",
           "normalized": "ParaAlgebraF a b c-\u003ea d-\u003ed-\u003eb(c d)",
@@ -1884,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "tag",
           "package": "multirec",
@@ -1893,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "tag",
           "normalized": "AlgPart a b c-\u003eAlgPart(a c)b d",
@@ -1907,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "unfold",
           "package": "multirec",
@@ -1916,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "unfold",
           "normalized": "CoAlgebra a b-\u003ea c-\u003eb c-\u003ec",
@@ -1930,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Fold",
           "name": "unfoldM",
           "package": "multirec",
@@ -1939,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Fold",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Fold",
           "name": "unfoldM",
           "normalized": "CoAlgebraF a b c-\u003ea d-\u003ec d-\u003eb d",
@@ -1954,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA variant of fold that allows the specification of the algebra in a\n convenient way.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "FoldAlg",
           "package": "multirec",
@@ -1963,6 +2138,7 @@
         "index": {
           "description": "variant of fold that allows the specification of the algebra in convenient way",
           "hierarchy": "Generics MultiRec FoldAlg",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "FoldAlg",
           "package": "multirec",
@@ -2001,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe algebras passed to the fold have to work for all index types\n   in the family. The additional witness argument is required only\n   to make GHC's typechecker happy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "Algebra",
           "package": "multirec",
@@ -2010,6 +2187,7 @@
         "index": {
           "description": "The algebras passed to the fold have to work for all index types in the family The additional witness argument is required only to make GHC typechecker happy",
           "hierarchy": "Generics MultiRec FoldAlg",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "Algebra",
           "package": "multirec",
@@ -2023,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "Comp",
           "package": "multirec",
@@ -2031,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldAlg",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "Comp",
           "package": "multirec",
@@ -2045,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class fold explains how to convert a convenient algebra\n   \u003ccode\u003e\u003ca\u003eAlg\u003c/a\u003e\u003c/code\u003e back into a function from functor to result, as required\n   by the standard fold function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "Fold",
           "package": "multirec",
@@ -2054,6 +2235,7 @@
         "index": {
           "description": "The class fold explains how to convert convenient algebra Alg back into function from functor to result as required by the standard fold function",
           "hierarchy": "Generics MultiRec FoldAlg",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "Fold",
           "package": "multirec",
@@ -2068,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor constructing algebras that are made of nested pairs rather\n   than n-ary tuples, it is helpful to use this pairing combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "(&)",
           "package": "multirec",
@@ -2078,6 +2261,7 @@
         "index": {
           "description": "For constructing algebras that are made of nested pairs rather than n-ary tuples it is helpful to use this pairing combinator",
           "hierarchy": "Generics MultiRec FoldAlg",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "(&) &",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -2092,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "alg",
           "package": "multirec",
@@ -2101,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldAlg",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "alg",
           "normalized": "Alg a b c-\u003ea b c-\u003eb c",
@@ -2116,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold with convenient algebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "fold",
           "package": "multirec",
@@ -2126,6 +2313,7 @@
         "index": {
           "description": "Fold with convenient algebras",
           "hierarchy": "Generics MultiRec FoldAlg",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlg",
           "name": "fold",
           "normalized": "Algebra a b-\u003ea c-\u003ec-\u003eb c",
@@ -2141,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA variant of fold that allows the specification of the algebra in a\n convenient way, and that fixes the result type to a constant.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "FoldAlgK",
           "package": "multirec",
@@ -2150,6 +2339,7 @@
         "index": {
           "description": "variant of fold that allows the specification of the algebra in convenient way and that fixes the result type to constant",
           "hierarchy": "Generics MultiRec FoldAlgK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "FoldAlgK",
           "package": "multirec",
@@ -2164,6 +2354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe algebras passed to the fold have to work for all index types\n   in the family. The additional witness argument is required only\n   to make GHC's typechecker happy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "Algebra",
           "package": "multirec",
@@ -2173,6 +2364,7 @@
         "index": {
           "description": "The algebras passed to the fold have to work for all index types in the family The additional witness argument is required only to make GHC typechecker happy",
           "hierarchy": "Generics MultiRec FoldAlgK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "Algebra",
           "package": "multirec",
@@ -2187,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class fold explains how to convert a convenient algebra\n   \u003ccode\u003e\u003ca\u003eAlg\u003c/a\u003e\u003c/code\u003e back into a function from functor to result, as required\n   by the standard fold function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "Fold",
           "package": "multirec",
@@ -2196,6 +2389,7 @@
         "index": {
           "description": "The class fold explains how to convert convenient algebra Alg back into function from functor to result as required by the standard fold function",
           "hierarchy": "Generics MultiRec FoldAlgK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "Fold",
           "package": "multirec",
@@ -2210,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor constructing algebras that are made of nested pairs rather\n   than n-ary tuples, it is helpful to use this pairing combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "(&)",
           "package": "multirec",
@@ -2220,6 +2415,7 @@
         "index": {
           "description": "For constructing algebras that are made of nested pairs rather than n-ary tuples it is helpful to use this pairing combinator",
           "hierarchy": "Generics MultiRec FoldAlgK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "(&) &",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -2234,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "alg",
           "package": "multirec",
@@ -2243,6 +2440,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldAlgK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "alg",
           "normalized": "Alg a b-\u003ea(K b)c-\u003eb",
@@ -2258,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold with convenient algebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "fold",
           "package": "multirec",
@@ -2268,6 +2467,7 @@
         "index": {
           "description": "Fold with convenient algebras",
           "hierarchy": "Generics MultiRec FoldAlgK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldAlgK",
           "name": "fold",
           "normalized": "Algebra a b-\u003ea c-\u003ec-\u003eb",
@@ -2283,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVariant of \u003ca\u003eGenerics.MultiRec.Fold\u003c/a\u003e where the result type is independent of\n the index.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "FoldK",
           "package": "multirec",
@@ -2292,6 +2493,7 @@
         "index": {
           "description": "Variant of Generics.MultiRec.Fold where the result type is independent of the index",
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "FoldK",
           "package": "multirec",
@@ -2305,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": ":-\u003e",
           "package": "multirec",
@@ -2313,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": ":-\u003e",
           "package": "multirec",
@@ -2325,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "AlgPart",
           "package": "multirec",
@@ -2333,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "AlgPart",
           "package": "multirec",
@@ -2346,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "Algebra",
           "package": "multirec",
@@ -2354,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "Algebra",
           "package": "multirec",
@@ -2367,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "Algebra'",
           "package": "multirec",
@@ -2375,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "Algebra'",
           "package": "multirec",
@@ -2388,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "AlgebraF",
           "package": "multirec",
@@ -2396,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "AlgebraF",
           "package": "multirec",
@@ -2409,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "AlgebraF'",
           "package": "multirec",
@@ -2417,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "AlgebraF'",
           "package": "multirec",
@@ -2430,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "CoAlgebra",
           "package": "multirec",
@@ -2438,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "CoAlgebra",
           "package": "multirec",
@@ -2451,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "CoAlgebra'",
           "package": "multirec",
@@ -2459,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "CoAlgebra'",
           "package": "multirec",
@@ -2472,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "CoAlgebraF",
           "package": "multirec",
@@ -2480,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "CoAlgebraF",
           "package": "multirec",
@@ -2493,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "CoAlgebraF'",
           "package": "multirec",
@@ -2501,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "CoAlgebraF'",
           "package": "multirec",
@@ -2514,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "ParaAlgebra",
           "package": "multirec",
@@ -2522,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "ParaAlgebra",
           "package": "multirec",
@@ -2535,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "ParaAlgebra'",
           "package": "multirec",
@@ -2543,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "ParaAlgebra'",
           "package": "multirec",
@@ -2556,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "ParaAlgebraF",
           "package": "multirec",
@@ -2564,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "ParaAlgebraF",
           "package": "multirec",
@@ -2577,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "ParaAlgebraF'",
           "package": "multirec",
@@ -2585,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "ParaAlgebraF'",
           "package": "multirec",
@@ -2598,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "(&)",
           "package": "multirec",
@@ -2607,6 +2838,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "(&) &",
           "normalized": "(AlgPart a-\u003e(AlgPart b-\u003eAlgPart(a b)))c d",
@@ -2621,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "con",
           "package": "multirec",
@@ -2630,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "con",
           "normalized": "AlgPart a b c-\u003eAlgPart(C d a)b c",
@@ -2644,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "fold",
           "package": "multirec",
@@ -2653,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "fold",
           "normalized": "Algebra a b-\u003ea c-\u003ec-\u003eb",
@@ -2667,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "foldM",
           "package": "multirec",
@@ -2676,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "foldM",
           "normalized": "AlgebraF a b c-\u003ea d-\u003ed-\u003eb c",
@@ -2690,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "para",
           "package": "multirec",
@@ -2699,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "para",
           "normalized": "ParaAlgebra a b-\u003ea c-\u003ec-\u003eb",
@@ -2713,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "paraM",
           "package": "multirec",
@@ -2722,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "paraM",
           "normalized": "ParaAlgebraF a b c-\u003ea d-\u003ed-\u003eb c",
@@ -2736,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "tag",
           "package": "multirec",
@@ -2745,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "tag",
           "normalized": "AlgPart a b c-\u003eAlgPart(a c)b d",
@@ -2759,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "unfold",
           "package": "multirec",
@@ -2768,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "unfold",
           "normalized": "CoAlgebra a b-\u003ea c-\u003eb-\u003ec",
@@ -2782,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.FoldK",
           "name": "unfoldM",
           "package": "multirec",
@@ -2791,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec FoldK",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.FoldK",
           "name": "unfoldM",
           "normalized": "CoAlgebraF a b c-\u003ea d-\u003ec-\u003eb d",
@@ -2806,6 +3054,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigher-order fixed point operator as well as conversion functions.\n It is rarely necessary to use \u003ccode\u003e\u003ca\u003eHFix\u003c/a\u003e\u003c/code\u003e. Generic functions\n usually convert between the original datatype and the functor directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFix",
           "name": "HFix",
           "package": "multirec",
@@ -2815,6 +3064,7 @@
         "index": {
           "description": "Higher-order fixed point operator as well as conversion functions It is rarely necessary to use HFix Generic functions usually convert between the original datatype and the functor directly",
           "hierarchy": "Generics MultiRec HFix",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFix",
           "name": "HFix",
           "package": "multirec",
@@ -2828,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFix",
           "name": "HFix",
           "package": "multirec",
@@ -2836,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HFix",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFix",
           "name": "HFix",
           "package": "multirec",
@@ -2849,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFix",
           "name": "HIn",
           "package": "multirec",
@@ -2858,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HFix",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFix",
           "name": "HIn",
           "package": "multirec",
@@ -2871,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFix",
           "name": "hfrom",
           "package": "multirec",
@@ -2880,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HFix",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFix",
           "name": "hfrom",
           "normalized": "a b-\u003eb-\u003eHFix(PF a)b",
@@ -2894,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFix",
           "name": "hout",
           "package": "multirec",
@@ -2903,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HFix",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFix",
           "name": "hout",
           "package": "multirec",
@@ -2915,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFix",
           "name": "hto",
           "package": "multirec",
@@ -2924,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HFix",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFix",
           "name": "hto",
           "normalized": "a b-\u003eHFix(PF a)b-\u003eb",
@@ -2939,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe definition of functorial map.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFunctor",
           "name": "HFunctor",
           "package": "multirec",
@@ -2948,6 +3209,7 @@
         "index": {
           "description": "The definition of functorial map",
           "hierarchy": "Generics MultiRec HFunctor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFunctor",
           "name": "HFunctor",
           "package": "multirec",
@@ -2961,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFunctor",
           "name": "HFunctor",
           "package": "multirec",
@@ -2969,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HFunctor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFunctor",
           "name": "HFunctor",
           "package": "multirec",
@@ -2983,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003ehmap\u003c/a\u003e\u003c/code\u003e takes a functor \u003ccode\u003ef\u003c/code\u003e. All the recursive instances\n in that functor are wrapped by an application of \u003ccode\u003er\u003c/code\u003e. The argument to\n \u003ccode\u003e\u003ca\u003ehmap\u003c/a\u003e\u003c/code\u003e takes a function that transformes \u003ccode\u003er\u003c/code\u003e occurrences into \u003ccode\u003er'\u003c/code\u003e\n occurrences, for every \u003ccode\u003eix\u003c/code\u003e. In order to associate the index \u003ccode\u003eix\u003c/code\u003e\n with the correct family \u003ccode\u003ephi\u003c/code\u003e, the argument to \u003ccode\u003ehmap\u003c/code\u003e is additionally\n parameterized by a witness of type \u003ccode\u003ephi ix\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFunctor",
           "name": "hmap",
           "package": "multirec",
@@ -2993,6 +3258,7 @@
         "index": {
           "description": "The function hmap takes functor All the recursive instances in that functor are wrapped by an application of The argument to hmap takes function that transformes occurrences into occurrences for every ix In order to associate the index ix with the correct family phi the argument to hmap is additionally parameterized by witness of type phi ix",
           "hierarchy": "Generics MultiRec HFunctor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFunctor",
           "name": "hmap",
           "normalized": "(a b c d-\u003ee d-\u003ef d)-\u003ec d-\u003eg e d-\u003eg f d",
@@ -3007,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFunctor",
           "name": "hmapA",
           "package": "multirec",
@@ -3016,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HFunctor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFunctor",
           "name": "hmapA",
           "normalized": "(a b c d-\u003ee d-\u003ef(g d))-\u003ec d-\u003eh e d-\u003ef(h g d)",
@@ -3031,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003ehmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.HFunctor",
           "name": "hmapM",
           "package": "multirec",
@@ -3041,6 +3310,7 @@
         "index": {
           "description": "Monadic version of hmap",
           "hierarchy": "Generics MultiRec HFunctor",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.HFunctor",
           "name": "hmapM",
           "normalized": "(a b c d-\u003ee d-\u003ef(g d))-\u003ec d-\u003eh e d-\u003ef(h g d)",
@@ -3056,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric read.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "Read",
           "package": "multirec",
@@ -3065,6 +3336,7 @@
         "index": {
           "description": "Generic read",
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "Read",
           "package": "multirec",
@@ -3078,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "CountAtoms",
           "package": "multirec",
@@ -3086,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "CountAtoms",
           "package": "multirec",
@@ -3099,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "HReadPrec",
           "package": "multirec",
@@ -3107,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "HReadPrec",
           "package": "multirec",
@@ -3120,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "Read1",
           "package": "multirec",
@@ -3128,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "Read1",
           "package": "multirec",
@@ -3141,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "appPrec",
           "package": "multirec",
@@ -3150,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "appPrec",
           "package": "multirec",
@@ -3163,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "countatoms",
           "package": "multirec",
@@ -3172,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "countatoms",
           "normalized": "a b c-\u003eInt",
@@ -3186,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "hreader",
           "package": "multirec",
@@ -3195,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "hreader",
           "normalized": "a b c d-\u003e(a d c d-\u003eReadPrec(I d))-\u003eReadPrec(e I d)",
@@ -3209,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "read",
           "package": "multirec",
@@ -3218,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "read",
           "normalized": "a b-\u003eString-\u003eb",
@@ -3232,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "read1",
           "package": "multirec",
@@ -3241,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "read1",
           "normalized": "ReadPrec(a I b)-\u003eReadPrec(c(a I b))",
@@ -3255,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "readCons",
           "package": "multirec",
@@ -3264,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "readCons",
           "normalized": "ReadPrec(a I b)-\u003eReadPrec(C c a I b)",
@@ -3279,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "readInfixCons",
           "package": "multirec",
@@ -3288,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "readInfixCons",
           "normalized": "a b-\u003e(c b a b-\u003eReadPrec(I b))-\u003e(Associativity,Int,Bool)-\u003eString-\u003eReadPrec((d*e)I b)",
@@ -3303,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "readNoArgsCons",
           "package": "multirec",
@@ -3312,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "readNoArgsCons",
           "normalized": "String-\u003eReadPrec(U I a)",
@@ -3327,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "readPrec",
           "package": "multirec",
@@ -3336,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "readPrec",
           "normalized": "a b-\u003eReadPrec b",
@@ -3351,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "readPrefixCons",
           "package": "multirec",
@@ -3360,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "readPrefixCons",
           "normalized": "ReadPrec(a I b)-\u003eBool-\u003eString-\u003eReadPrec(a I b)",
@@ -3375,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Read",
           "name": "readsPrec",
           "package": "multirec",
@@ -3384,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Read",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Read",
           "name": "readsPrec",
           "normalized": "a b-\u003eInt-\u003eReadS b",
@@ -3400,6 +3700,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric show.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "Show",
           "package": "multirec",
@@ -3409,6 +3710,7 @@
         "index": {
           "description": "Generic show",
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "Show",
           "package": "multirec",
@@ -3423,6 +3725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list in the result type allows us to get at\n the fields of a constructor individually, which in\n turn allows us to insert additional stuff in between\n if record notation is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "HShow",
           "package": "multirec",
@@ -3432,6 +3735,7 @@
         "index": {
           "description": "The list in the result type allows us to get at the fields of constructor individually which in turn allows us to insert additional stuff in between if record notation is used",
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "HShow",
           "package": "multirec",
@@ -3445,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "Show1",
           "package": "multirec",
@@ -3453,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "Show1",
           "package": "multirec",
@@ -3466,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "commas",
           "package": "multirec",
@@ -3475,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "commas",
           "normalized": "[ShowS]-\u003eShowS",
@@ -3489,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "hShowsPrecAlg",
           "package": "multirec",
@@ -3498,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "hShowsPrecAlg",
           "normalized": "Algebra' a b[Int-\u003eShowS]",
@@ -3513,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "intersperse",
           "package": "multirec",
@@ -3522,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "intersperse",
           "normalized": "String-\u003e[ShowS]-\u003eShowS",
@@ -3536,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "show",
           "package": "multirec",
@@ -3545,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "show",
           "normalized": "a b-\u003eb-\u003eString",
@@ -3559,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "show1",
           "package": "multirec",
@@ -3568,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "show1",
           "normalized": "a[Int-\u003eShowS]-\u003eInt-\u003eShowS",
@@ -3582,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "showsPrec",
           "package": "multirec",
@@ -3591,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "showsPrec",
           "normalized": "a b-\u003eInt-\u003eb-\u003eShowS",
@@ -3606,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.Show",
           "name": "spaces",
           "package": "multirec",
@@ -3615,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Show",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.Show",
           "name": "spaces",
           "normalized": "[ShowS]-\u003eShowS",
@@ -3630,6 +3950,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level equality. This module is currently provided by the multirec\n library, even though it is more general and does not really belong here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TEq",
           "name": "TEq",
           "package": "multirec",
@@ -3639,6 +3960,7 @@
         "index": {
           "description": "Type-level equality This module is currently provided by the multirec library even though it is more general and does not really belong here",
           "hierarchy": "Generics MultiRec TEq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TEq",
           "name": "TEq",
           "package": "multirec",
@@ -3652,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TEq",
           "name": ":=:",
           "package": "multirec",
@@ -3660,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec TEq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TEq",
           "name": ":=:",
           "package": "multirec",
@@ -3672,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TEq",
           "name": "Refl",
           "package": "multirec",
@@ -3681,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec TEq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TEq",
           "name": "Refl",
           "package": "multirec",
@@ -3694,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TEq",
           "name": "cast",
           "package": "multirec",
@@ -3703,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec TEq",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TEq",
           "name": "cast",
           "normalized": "(a b)-\u003ea-\u003eb",
@@ -3718,6 +4046,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains Template Haskell code that can be used to\n automatically generate the boilerplate code for the multirec\n library. The constructor information can be generated per datatype,\n the rest per family of datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "TH",
           "package": "multirec",
@@ -3727,6 +4056,7 @@
         "index": {
           "description": "This module contains Template Haskell code that can be used to automatically generate the boilerplate code for the multirec library The constructor information can be generated per datatype the rest per family of datatypes",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "TH",
           "package": "multirec",
@@ -3741,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the name of the family index GADT, derive everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "deriveAll",
           "package": "multirec",
@@ -3751,6 +4082,7 @@
         "index": {
           "description": "Given the name of the family index GADT derive everything",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "deriveAll",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3767,6 +4099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of datatype names, derive datatypes and\n instances of class \u003ccode\u003e\u003ca\u003eConstructor\u003c/a\u003e\u003c/code\u003e. Not needed if \u003ccode\u003e\u003ca\u003ederiveAll\u003c/a\u003e\u003c/code\u003e\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "deriveConstructors",
           "package": "multirec",
@@ -3777,6 +4110,7 @@
         "index": {
           "description": "Given list of datatype names derive datatypes and instances of class Constructor Not needed if deriveAll is used",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "deriveConstructors",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -3793,6 +4127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive only the \u003ccode\u003e\u003ca\u003eEl\u003c/a\u003e\u003c/code\u003e instances. Not needed if \u003ccode\u003e\u003ca\u003ederiveAll\u003c/a\u003e\u003c/code\u003e\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "deriveEl",
           "package": "multirec",
@@ -3803,6 +4138,7 @@
         "index": {
           "description": "Derive only the El instances Not needed if deriveAll is used",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "deriveEl",
           "normalized": "Name-\u003e[Name]-\u003e[(Name,[Name])]-\u003eQ[Dec]",
@@ -3819,6 +4155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive only the \u003ccode\u003e\u003ca\u003eEqS\u003c/a\u003e\u003c/code\u003e instance. Not needed if \u003ccode\u003e\u003ca\u003ederiveAll\u003c/a\u003e\u003c/code\u003e\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "deriveEqS",
           "package": "multirec",
@@ -3829,6 +4166,7 @@
         "index": {
           "description": "Derive only the EqS instance Not needed if deriveAll is used",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "deriveEqS",
           "normalized": "Name-\u003e[Name]-\u003e[Name]-\u003eQ[Dec]",
@@ -3845,6 +4183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive only the \u003ccode\u003e\u003ca\u003eFam\u003c/a\u003e\u003c/code\u003e instance. Not needed if \u003ccode\u003e\u003ca\u003ederiveAll\u003c/a\u003e\u003c/code\u003e\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "deriveFam",
           "package": "multirec",
@@ -3855,6 +4194,7 @@
         "index": {
           "description": "Derive only the Fam instance Not needed if deriveAll is used",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "deriveFam",
           "normalized": "Name-\u003e[Name]-\u003e[Name]-\u003eQ[Dec]",
@@ -3871,6 +4211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use deriveAll instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eCompatibility. Use \u003ccode\u003e\u003ca\u003ederiveAll\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eGiven the name of the index GADT, the names of the\n types in the family, and the name (as string) for the\n pattern functor to derive, generate the \u003ccode\u003eIx\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePF\u003c/a\u003e\u003c/code\u003e\n instances. \u003cem\u003eIMPORTANT\u003c/em\u003e: It is assumed that the constructors\n of the GADT have the same names as the datatypes in the\n family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "deriveFamily",
           "package": "multirec",
@@ -3881,6 +4222,7 @@
         "index": {
           "description": "Deprecated Use deriveAll instead Compatibility Use deriveAll instead Given the name of the index GADT the names of the types in the family and the name as string for the pattern functor to derive generate the Ix and PF instances IMPORTANT It is assumed that the constructors of the GADT have the same names as the datatypes in the family",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "deriveFamily",
           "normalized": "Name-\u003e[Name]-\u003eString-\u003eQ[Dec]",
@@ -3897,6 +4239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive only the \u003ccode\u003e\u003ca\u003ePF\u003c/a\u003e\u003c/code\u003e instance. Not needed if \u003ccode\u003e\u003ca\u003ederiveAll\u003c/a\u003e\u003c/code\u003e\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "derivePF",
           "package": "multirec",
@@ -3907,6 +4250,7 @@
         "index": {
           "description": "Derive only the PF instance Not needed if deriveAll is used",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "derivePF",
           "normalized": "String-\u003e[Name]-\u003eQ[Dec]",
@@ -3923,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use deriveFamily instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eCompatibility. Use \u003ccode\u003e\u003ca\u003ederiveAll\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec.TH",
           "name": "deriveSystem",
           "package": "multirec",
@@ -3933,6 +4278,7 @@
         "index": {
           "description": "Deprecated Use deriveFamily instead Compatibility Use deriveAll instead",
           "hierarchy": "Generics MultiRec TH",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec.TH",
           "name": "deriveSystem",
           "normalized": "Name-\u003e[Name]-\u003eString-\u003eQ[Dec]",
@@ -3949,6 +4295,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003emultirec --\n generic programming for families of recursive datatypes\n\u003c/p\u003e\u003cp\u003eThis top-level module re-exports most modules of the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:00 UTC 2014",
           "module": "Generics.MultiRec",
           "name": "MultiRec",
           "package": "multirec",
@@ -3958,6 +4305,7 @@
         "index": {
           "description": "multirec generic programming for families of recursive datatypes This top-level module re-exports most modules of the library",
           "hierarchy": "Generics MultiRec",
+          "indexed": "2014-03-11T19:24:00",
           "module": "Generics.MultiRec",
           "name": "MultiRec",
           "package": "multirec",

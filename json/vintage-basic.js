@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vintage-basic"
+        "phrase": "vintage-basic",
+        "type": "phrase"
       },
       "type": "context"
     }

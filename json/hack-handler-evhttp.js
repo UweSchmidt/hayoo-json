@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-handler-evhttp"
+        "phrase": "hack-handler-evhttp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "EvHTTP",
           "package": "hack-handler-evhttp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "EvHTTP",
           "package": "hack-handler-evhttp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "Config",
           "package": "hack-handler-evhttp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "Config",
           "package": "hack-handler-evhttp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "Config",
           "package": "hack-handler-evhttp",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "Config",
           "package": "hack-handler-evhttp",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "cfgAddr",
           "package": "hack-handler-evhttp",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "cfgAddr",
           "package": "hack-handler-evhttp",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "cfgPort",
           "package": "hack-handler-evhttp",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "cfgPort",
           "package": "hack-handler-evhttp",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "cfgWorkers",
           "package": "hack-handler-evhttp",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "cfgWorkers",
           "package": "hack-handler-evhttp",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "eventMethod",
           "package": "hack-handler-evhttp",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "eventMethod",
           "package": "hack-handler-evhttp",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "eventVersion",
           "package": "hack-handler-evhttp",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "eventVersion",
           "package": "hack-handler-evhttp",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "run",
           "package": "hack-handler-evhttp",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:18 UTC 2014",
           "module": "Hack.Handler.EvHTTP",
           "name": "runWithConfig",
           "package": "hack-handler-evhttp",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler EvHTTP",
+          "indexed": "2014-03-11T18:25:18",
           "module": "Hack.Handler.EvHTTP",
           "name": "runWithConfig",
           "normalized": "Config-\u003eApplication-\u003eIO()",

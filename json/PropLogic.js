@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PropLogic"
+        "phrase": "PropLogic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "Costack",
           "package": "PropLogic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "Costack",
           "package": "PropLogic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "Costack",
           "package": "PropLogic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "Costack",
           "package": "PropLogic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "append",
           "package": "PropLogic",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "append",
           "normalized": "Costack a-\u003eCostack a-\u003eCostack a",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "cocons",
           "package": "PropLogic",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "cocons",
           "normalized": "Costack a-\u003ea-\u003eCostack a",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "concat",
           "package": "PropLogic",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "concat",
           "normalized": "[Costack a]-\u003eCostack a",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "cons",
           "package": "PropLogic",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "cons",
           "normalized": "a-\u003eCostack a-\u003eCostack a",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "empty",
           "package": "PropLogic",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "empty",
           "package": "PropLogic",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "filter",
           "package": "PropLogic",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eCostack a-\u003eCostack a",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "foldr",
           "package": "PropLogic",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eCostack a-\u003eb",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "fromList",
           "package": "PropLogic",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "fromList",
           "normalized": "[a]-\u003eCostack a",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "head",
           "package": "PropLogic",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "head",
           "normalized": "Costack a-\u003ea",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "isEmpty",
           "package": "PropLogic",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "isEmpty",
           "normalized": "Costack a-\u003eBool",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "length",
           "package": "PropLogic",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "length",
           "normalized": "Costack a-\u003eInt",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "map",
           "package": "PropLogic",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eCostack a-\u003eCostack b",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "merge",
           "package": "PropLogic",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "merge",
           "normalized": "Costack(Costack a)-\u003eCostack a",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "singleton",
           "package": "PropLogic",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "singleton",
           "normalized": "a-\u003eCostack a",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "sort",
           "package": "PropLogic",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "sort",
           "normalized": "Costack a-\u003eCostack a",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "sorted",
           "package": "PropLogic",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "sorted",
           "normalized": "Costack a-\u003eBool",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "strictSort",
           "package": "PropLogic",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "strictSort",
           "normalized": "Costack a-\u003eCostack a",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "strictSorted",
           "package": "PropLogic",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "strictSorted",
           "normalized": "Costack a-\u003eBool",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "tail",
           "package": "PropLogic",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "tail",
           "normalized": "Costack a-\u003eCostack a",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "take",
           "package": "PropLogic",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "take",
           "normalized": "Int-\u003eCostack a-\u003eCostack a",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Costack",
           "name": "toList",
           "package": "PropLogic",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Costack",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Costack",
           "name": "toList",
           "normalized": "Costack a-\u003e[a]",
@@ -547,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the basic operations of propositional logic in a very \u003cem\u003edefault\u003c/em\u003e way, i.e. the definitions and implementations\n  are very intuitive and the whole module can be seen as a reconstruction and tutorial of propositional logic itself.\n  However, some of these implementations are not feasible for other than very small input, because the intuitive algorithms are\n  sometimes too ineffective.\n\u003c/p\u003e\u003cp\u003eNext to some syntactical tools, we provide a common reconstruction of the semantics with an emphasis on \u003cem\u003etruth tables\u003c/em\u003e.\n  As a result, we obtain two default models of a propositional algebra, namely\n  \u003ccode\u003ePropAlg a (PropForm a)\u003c/code\u003e the propositional algebra on propositional formulas \u003ccode\u003e\u003ca\u003ePropForm\u003c/a\u003e\u003c/code\u003e and\n  \u003ccode\u003ePropAlg a (TruthTable a)\u003c/code\u003e the algebra on the so-called \u003cem\u003etruth tables\u003c/em\u003e \u003ccode\u003e\u003ca\u003eTruthTable\u003c/a\u003e\u003c/code\u003e (each one on a linearly ordered atom type \u003ccode\u003ea\u003c/code\u003e).\n  Additionally, we also instantiate the predefined boolean value algebra on \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e as a trivial, because atomless propositional algebra.\n\u003c/p\u003e\u003cp\u003eAnother important concept is the \u003cem\u003enormalization\u003c/em\u003e. We introduce a whole range of \u003cem\u003enormalizers\u003c/em\u003e and \u003cem\u003ecanonizers\u003c/em\u003e of\n  propositional formulas.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "DefaultPropLogic",
           "package": "PropLogic",
@@ -556,6 +603,7 @@
         "index": {
           "description": "This module implements the basic operations of propositional logic in very default way i.e the definitions and implementations are very intuitive and the whole module can be seen as reconstruction and tutorial of propositional logic itself However some of these implementations are not feasible for other than very small input because the intuitive algorithms are sometimes too ineffective Next to some syntactical tools we provide common reconstruction of the semantics with an emphasis on truth tables As result we obtain two default models of propositional algebra namely PropAlg PropForm the propositional algebra on propositional formulas PropForm and PropAlg TruthTable the algebra on the so-called truth tables TruthTable each one on linearly ordered atom type Additionally we also instantiate the predefined boolean value algebra on Bool as trivial because atomless propositional algebra Another important concept is the normalization We introduce whole range of normalizers and canonizers of propositional formulas",
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "DefaultPropLogic",
           "package": "PropLogic",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "CNF",
           "package": "PropLogic",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "CNF",
           "package": "PropLogic",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "DNF",
           "package": "PropLogic",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "DNF",
           "package": "PropLogic",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "EvalNF",
           "package": "PropLogic",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "EvalNF",
           "package": "PropLogic",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "LitForm",
           "package": "PropLogic",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "LitForm",
           "package": "PropLogic",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "LiteralPair",
           "package": "PropLogic",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "LiteralPair",
           "package": "PropLogic",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "MCNF",
           "package": "PropLogic",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "MCNF",
           "package": "PropLogic",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "MDNF",
           "package": "PropLogic",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "MDNF",
           "package": "PropLogic",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "MultiTruthTable",
           "package": "PropLogic",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "MultiTruthTable",
           "package": "PropLogic",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "NLC",
           "package": "PropLogic",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "NLC",
           "package": "PropLogic",
@@ -758,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "NLD",
           "package": "PropLogic",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "NLD",
           "package": "PropLogic",
@@ -779,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "NaturalCNF",
           "package": "PropLogic",
@@ -787,6 +856,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "NaturalCNF",
           "package": "PropLogic",
@@ -800,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "NaturalDNF",
           "package": "PropLogic",
@@ -808,6 +879,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "NaturalDNF",
           "package": "PropLogic",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "NegNormForm",
           "package": "PropLogic",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "NegNormForm",
           "package": "PropLogic",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "OrdPropForm",
           "package": "PropLogic",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "OrdPropForm",
           "package": "PropLogic",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "PCNF",
           "package": "PropLogic",
@@ -871,6 +948,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "PCNF",
           "package": "PropLogic",
@@ -884,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "PDNF",
           "package": "PropLogic",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "PDNF",
           "package": "PropLogic",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "SimpleCNF",
           "package": "PropLogic",
@@ -913,6 +994,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "SimpleCNF",
           "package": "PropLogic",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "SimpleDNF",
           "package": "PropLogic",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "SimpleDNF",
           "package": "PropLogic",
@@ -947,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "TruthTable",
           "package": "PropLogic",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "TruthTable",
           "package": "PropLogic",
@@ -968,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "Valuator",
           "package": "PropLogic",
@@ -976,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "Valuator",
           "package": "PropLogic",
@@ -989,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "allDirectSubfalsifiers",
           "package": "PropLogic",
@@ -998,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "allDirectSubfalsifiers",
           "normalized": "Valuator a-\u003ePropForm a-\u003e[Valuator a]",
@@ -1013,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "allDirectSubvalidators",
           "package": "PropLogic",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "allDirectSubvalidators",
           "normalized": "Valuator a-\u003ePropForm a-\u003e[Valuator a]",
@@ -1037,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "allValuators",
           "package": "PropLogic",
@@ -1046,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "allValuators",
           "normalized": "[a]-\u003eOlist(Valuator a)",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "apply",
           "package": "PropLogic",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "apply",
           "normalized": "PropForm a-\u003eValuator a-\u003eEvalNF a",
@@ -1084,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "atomSize",
           "package": "PropLogic",
@@ -1093,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "atomSize",
           "normalized": "PropForm a-\u003eInt",
@@ -1108,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "boolApply",
           "package": "PropLogic",
@@ -1117,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "boolApply",
           "normalized": "PropForm a-\u003eValuator a-\u003eBool",
@@ -1132,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "boolEval",
           "package": "PropLogic",
@@ -1141,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "boolEval",
           "normalized": "PropForm a-\u003eBool",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "cnfToValuatorList",
           "package": "PropLogic",
@@ -1165,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "cnfToValuatorList",
           "normalized": "CNF a-\u003e[Valuator a]",
@@ -1180,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "coprimeValuators",
           "package": "PropLogic",
@@ -1189,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "coprimeValuators",
           "normalized": "PropForm a-\u003e[Valuator a]",
@@ -1204,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "correctMultiTruthTable",
           "package": "PropLogic",
@@ -1213,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "correctMultiTruthTable",
           "normalized": "([a],[PropForm a],[([Bool],[Bool])])-\u003eMultiTruthTable a",
@@ -1228,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "correctTruthTable",
           "package": "PropLogic",
@@ -1237,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "correctTruthTable",
           "normalized": "([a],Maybe(PropForm a),[([Bool],Bool)])-\u003eTruthTable a",
@@ -1252,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "correctValuator",
           "package": "PropLogic",
@@ -1261,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "correctValuator",
           "normalized": "[LiteralPair a]-\u003eValuator a",
@@ -1276,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "directSubvaluators",
           "package": "PropLogic",
@@ -1285,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "directSubvaluators",
           "normalized": "Valuator a-\u003e[Valuator a]",
@@ -1300,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "dnfToValuatorList",
           "package": "PropLogic",
@@ -1309,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "dnfToValuatorList",
           "normalized": "DNF a-\u003e[Valuator a]",
@@ -1324,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "eval",
           "package": "PropLogic",
@@ -1333,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "eval",
           "normalized": "PropForm a-\u003eEvalNF a",
@@ -1347,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "ext'",
           "package": "PropLogic",
@@ -1356,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "ext'",
           "normalized": "PropForm a-\u003eOlist a-\u003ePropForm a",
@@ -1370,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "falsifies",
           "package": "PropLogic",
@@ -1379,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "falsifies",
           "normalized": "Valuator a-\u003ePropForm a-\u003eBool",
@@ -1393,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isCNF",
           "package": "PropLogic",
@@ -1402,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isCNF",
           "normalized": "PropForm a-\u003eBool",
@@ -1417,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isDNF",
           "package": "PropLogic",
@@ -1426,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isDNF",
           "normalized": "PropForm a-\u003eBool",
@@ -1441,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isEvalNF",
           "package": "PropLogic",
@@ -1450,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isEvalNF",
           "normalized": "PropForm a-\u003eBool",
@@ -1465,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isLitForm",
           "package": "PropLogic",
@@ -1474,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isLitForm",
           "normalized": "PropForm a-\u003eBool",
@@ -1489,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isNLC",
           "package": "PropLogic",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isNLC",
           "normalized": "PropForm a-\u003eBool",
@@ -1513,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isNLD",
           "package": "PropLogic",
@@ -1522,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isNLD",
           "normalized": "PropForm a-\u003eBool",
@@ -1537,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isNaturalCNF",
           "package": "PropLogic",
@@ -1546,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isNaturalCNF",
           "normalized": "PropForm a-\u003eBool",
@@ -1561,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isNaturalDNF",
           "package": "PropLogic",
@@ -1570,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isNaturalDNF",
           "normalized": "PropForm a-\u003eBool",
@@ -1585,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isNegNormForm",
           "package": "PropLogic",
@@ -1594,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isNegNormForm",
           "normalized": "PropForm a-\u003eBool",
@@ -1609,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "isOrdPropForm",
           "package": "PropLogic",
@@ -1618,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "isOrdPropForm",
           "normalized": "PropForm a-\u003eBool",
@@ -1633,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "juncArgs",
           "package": "PropLogic",
@@ -1642,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "juncArgs",
           "normalized": "PropForm a-\u003e[PropForm a]",
@@ -1657,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "juncCons",
           "package": "PropLogic",
@@ -1666,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "juncCons",
           "normalized": "Int-\u003e[PropForm a]-\u003ePropForm a",
@@ -1681,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "juncDeg",
           "package": "PropLogic",
@@ -1690,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "juncDeg",
           "normalized": "PropForm a-\u003eInt",
@@ -1705,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "juncSize",
           "package": "PropLogic",
@@ -1714,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "juncSize",
           "normalized": "PropForm a-\u003eInt",
@@ -1729,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "litFormAtom",
           "package": "PropLogic",
@@ -1738,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "litFormAtom",
           "normalized": "LitForm a-\u003ea",
@@ -1753,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "litFormValue",
           "package": "PropLogic",
@@ -1762,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "litFormValue",
           "normalized": "LitForm a-\u003eBool",
@@ -1777,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "minimalCNFs",
           "package": "PropLogic",
@@ -1786,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "minimalCNFs",
           "normalized": "PropForm a-\u003e[MCNF a]",
@@ -1801,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "minimalDNFs",
           "package": "PropLogic",
@@ -1810,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "minimalDNFs",
           "normalized": "PropForm a-\u003e[MDNF a]",
@@ -1825,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "multiTruthTable",
           "package": "PropLogic",
@@ -1834,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "multiTruthTable",
           "normalized": "[PropForm a]-\u003eMultiTruthTable a",
@@ -1849,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "naturalCNF",
           "package": "PropLogic",
@@ -1858,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "naturalCNF",
           "normalized": "PropForm a-\u003eNaturalCNF a",
@@ -1873,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "naturalDNF",
           "package": "PropLogic",
@@ -1882,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "naturalDNF",
           "normalized": "PropForm a-\u003eNaturalDNF a",
@@ -1897,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "negNormForm",
           "package": "PropLogic",
@@ -1906,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "negNormForm",
           "normalized": "PropForm a-\u003eNegNormForm a",
@@ -1921,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "nlcToValuator",
           "package": "PropLogic",
@@ -1930,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "nlcToValuator",
           "normalized": "NLC a-\u003eValuator a",
@@ -1945,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "nldToValuator",
           "package": "PropLogic",
@@ -1954,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "nldToValuator",
           "normalized": "NLD a-\u003eValuator a",
@@ -1969,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "ordPropForm",
           "package": "PropLogic",
@@ -1978,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "ordPropForm",
           "normalized": "PropForm a-\u003eOrdPropForm a",
@@ -1993,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "plainTruthTable",
           "package": "PropLogic",
@@ -2002,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "plainTruthTable",
           "normalized": "PropForm a-\u003eTruthTable a",
@@ -2017,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "primeCNF",
           "package": "PropLogic",
@@ -2026,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "primeCNF",
           "normalized": "PropForm a-\u003ePCNF a",
@@ -2041,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "primeDNF",
           "package": "PropLogic",
@@ -2050,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "primeDNF",
           "normalized": "PropForm a-\u003ePDNF a",
@@ -2065,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "primeValuators",
           "package": "PropLogic",
@@ -2074,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "primeValuators",
           "normalized": "PropForm a-\u003e[Valuator a]",
@@ -2089,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "simpleCNF",
           "package": "PropLogic",
@@ -2098,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "simpleCNF",
           "normalized": "CNF a-\u003eSimpleCNF a",
@@ -2113,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "simpleDNF",
           "package": "PropLogic",
@@ -2122,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "simpleDNF",
           "normalized": "DNF a-\u003eSimpleDNF a",
@@ -2137,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "size",
           "package": "PropLogic",
@@ -2146,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "size",
           "normalized": "PropForm a-\u003eInt",
@@ -2160,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "truthTable",
           "package": "PropLogic",
@@ -2169,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "truthTable",
           "normalized": "PropForm a-\u003eTruthTable a",
@@ -2184,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "truthTableBy",
           "package": "PropLogic",
@@ -2193,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "truthTableBy",
           "normalized": "PropForm a-\u003e[a]-\u003e(Valuator a-\u003eBool)-\u003eTruthTable a",
@@ -2208,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "truthTableToCNF",
           "package": "PropLogic",
@@ -2217,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "truthTableToCNF",
           "normalized": "TruthTable a-\u003eNaturalCNF a",
@@ -2232,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "truthTableToDNF",
           "package": "PropLogic",
@@ -2241,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "truthTableToDNF",
           "normalized": "TruthTable a-\u003eNaturalDNF a",
@@ -2256,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "truthTableUnitValuators",
           "package": "PropLogic",
@@ -2265,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "truthTableUnitValuators",
           "normalized": "TruthTable a-\u003e[Valuator a]",
@@ -2280,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "truthTableZeroValuators",
           "package": "PropLogic",
@@ -2289,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "truthTableZeroValuators",
           "normalized": "TruthTable a-\u003e[Valuator a]",
@@ -2304,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "unitValuators",
           "package": "PropLogic",
@@ -2313,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "unitValuators",
           "normalized": "PropForm a-\u003eOlist(Valuator a)",
@@ -2328,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "validates",
           "package": "PropLogic",
@@ -2337,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "validates",
           "normalized": "Valuator a-\u003ePropForm a-\u003eBool",
@@ -2351,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "valuate",
           "package": "PropLogic",
@@ -2360,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "valuate",
           "normalized": "Valuator a-\u003ePropForm a-\u003ePropForm a",
@@ -2374,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "valuatorListToCNF",
           "package": "PropLogic",
@@ -2383,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "valuatorListToCNF",
           "normalized": "[Valuator a]-\u003eCNF a",
@@ -2398,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "valuatorListToDNF",
           "package": "PropLogic",
@@ -2407,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "valuatorListToDNF",
           "normalized": "[Valuator a]-\u003eDNF a",
@@ -2422,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "valuatorToNLC",
           "package": "PropLogic",
@@ -2431,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "valuatorToNLC",
           "normalized": "Valuator a-\u003eNLC a",
@@ -2446,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "valuatorToNLD",
           "package": "PropLogic",
@@ -2455,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "valuatorToNLD",
           "normalized": "Valuator a-\u003eNLD a",
@@ -2470,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "DefaultPropLogic",
           "name": "zeroValuators",
           "package": "PropLogic",
@@ -2479,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "DefaultPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "DefaultPropLogic",
           "name": "zeroValuators",
           "normalized": "PropForm a-\u003eOlist(Valuator a)",
@@ -2495,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines three altenative representations for certain propositional normal forms, namely\n\u003c/p\u003e\u003cpre\u003e data XPDNF a          -- a representation for Prime Disjunctive Normal Forms or PDNF's on a given atom type a\n data XPCNF a          -- a representation for Prime Disjunctive Normal Forms or PDNF's on a given atom type a\n data MixForm a        -- a type made of pairwise minimal DNF's and CNF's on a given atom type a\n\u003c/pre\u003e\u003cp\u003eFor each of these types there is a converter from and a converter to propositional formulas\n\u003c/p\u003e\u003cpre\u003e    fromXPDNF :: Ord a =\u003e XPDNF a -\u003e PropForm a             toXPDNF :: Ord a =\u003e PropForm a -\u003e XPDNF a\n    fromXPCNF :: Ord a =\u003e XPCNF a -\u003e PropForm a             toXPCNF :: Ord a =\u003e PropForm a -\u003e XPCNF a\n  fromMixForm :: Ord a =\u003e MixForm a -\u003e PropForm a         toMixForm :: Ord a =\u003e PropForm a -\u003e MixForm a\n\u003c/pre\u003e\u003cp\u003eEach of these three types is turned into a propositional algebra \u003ccode\u003e\u003ca\u003ePropAlg\u003c/a\u003e\u003c/code\u003e, i.e. for every ordered type \u003ccode\u003ea\u003c/code\u003e of \u003cem\u003eatoms\u003c/em\u003e\n  we have three instances\n\u003c/p\u003e\u003cpre\u003e PropAlg a (XPDNF a)\n PropAlg a (XPCNF a)\n PropAlg a (MixForm a)\n\u003c/pre\u003e\u003cp\u003eDifferent to the two default propositional algebras on propositional formulas and truth tables, these three algebras comprise fast\n  function implementations and thus provide practical versions for propositional algebras, where propositions of arbitrary size\n  are processed in reasonable time.\n  In more detail the involved complexities are given in the table below (see ......).\n  It also explains, which of the three algebras should be chosen in an actual application.\n\u003c/p\u003e\u003cp\u003eActually, this module is essentially a re-implementation of already explained concepts from \u003ca\u003ePropLogicCore\u003c/a\u003e and \u003ca\u003eDefaultPropLogic\u003c/a\u003e\n  and for the user it shouldn't be necessary to further explain how the algorithms work.\n  The remainder of this document is an attempt to do just that.\n  However, if you at least want an idea of what is going on here, it may suffice to read the first section with the introductory\n  example below.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "FastPropLogic",
           "package": "PropLogic",
@@ -2504,6 +2719,7 @@
         "index": {
           "description": "This module defines three altenative representations for certain propositional normal forms namely data XPDNF representation for Prime Disjunctive Normal Forms or PDNF on given atom type data XPCNF representation for Prime Disjunctive Normal Forms or PDNF on given atom type data MixForm type made of pairwise minimal DNF and CNF on given atom type For each of these types there is converter from and converter to propositional formulas fromXPDNF Ord XPDNF PropForm toXPDNF Ord PropForm XPDNF fromXPCNF Ord XPCNF PropForm toXPCNF Ord PropForm XPCNF fromMixForm Ord MixForm PropForm toMixForm Ord PropForm MixForm Each of these three types is turned into propositional algebra PropAlg i.e for every ordered type of atoms we have three instances PropAlg XPDNF PropAlg XPCNF PropAlg MixForm Different to the two default propositional algebras on propositional formulas and truth tables these three algebras comprise fast function implementations and thus provide practical versions for propositional algebras where propositions of arbitrary size are processed in reasonable time In more detail the involved complexities are given in the table below see It also explains which of the three algebras should be chosen in an actual application Actually this module is essentially re-implementation of already explained concepts from PropLogicCore and DefaultPropLogic and for the user it shouldn be necessary to further explain how the algorithms work The remainder of this document is an attempt to do just that However if you at least want an idea of what is going on here it may suffice to read the first section with the introductory example below",
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "FastPropLogic",
           "package": "PropLogic",
@@ -2517,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "CaseSymbol",
           "package": "PropLogic",
@@ -2525,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "CaseSymbol",
           "package": "PropLogic",
@@ -2538,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "IAtom",
           "package": "PropLogic",
@@ -2546,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "IAtom",
           "package": "PropLogic",
@@ -2559,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "IForm",
           "package": "PropLogic",
@@ -2567,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "IForm",
           "package": "PropLogic",
@@ -2580,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "ILine",
           "package": "PropLogic",
@@ -2588,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "ILine",
           "package": "PropLogic",
@@ -2601,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "ILit",
           "package": "PropLogic",
@@ -2609,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "ILit",
           "package": "PropLogic",
@@ -2622,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "IdxPropForm",
           "package": "PropLogic",
@@ -2630,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "IdxPropForm",
           "package": "PropLogic",
@@ -2643,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "MixForm",
           "package": "PropLogic",
@@ -2651,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "MixForm",
           "package": "PropLogic",
@@ -2664,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "XForm",
           "package": "PropLogic",
@@ -2672,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "XForm",
           "package": "PropLogic",
@@ -2685,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "XLine",
           "package": "PropLogic",
@@ -2693,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "XLine",
           "package": "PropLogic",
@@ -2706,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "XLit",
           "package": "PropLogic",
@@ -2714,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "XLit",
           "package": "PropLogic",
@@ -2727,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "XPCNF",
           "package": "PropLogic",
@@ -2735,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "XPCNF",
           "package": "PropLogic",
@@ -2748,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "XPDNF",
           "package": "PropLogic",
@@ -2756,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "XPDNF",
           "package": "PropLogic",
@@ -2769,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "M2CNF",
           "package": "PropLogic",
@@ -2778,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "M2CNF",
           "package": "PropLogic",
@@ -2791,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "M2DNF",
           "package": "PropLogic",
@@ -2800,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "M2DNF",
           "package": "PropLogic",
@@ -2813,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NIOO",
           "package": "PropLogic",
@@ -2822,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NIOO",
           "package": "PropLogic",
@@ -2835,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NIOP",
           "package": "PropLogic",
@@ -2844,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NIOP",
           "package": "PropLogic",
@@ -2857,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NIPO",
           "package": "PropLogic",
@@ -2866,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NIPO",
           "package": "PropLogic",
@@ -2879,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NIPP",
           "package": "PropLogic",
@@ -2888,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NIPP",
           "package": "PropLogic",
@@ -2901,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NMNN",
           "package": "PropLogic",
@@ -2910,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NMNN",
           "package": "PropLogic",
@@ -2923,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NOOO",
           "package": "PropLogic",
@@ -2932,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NOOO",
           "package": "PropLogic",
@@ -2945,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NOOP",
           "package": "PropLogic",
@@ -2954,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NOOP",
           "package": "PropLogic",
@@ -2967,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NOPO",
           "package": "PropLogic",
@@ -2976,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NOPO",
           "package": "PropLogic",
@@ -2989,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "NOPP",
           "package": "PropLogic",
@@ -2998,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "NOPP",
           "package": "PropLogic",
@@ -3011,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "PCNF",
           "package": "PropLogic",
@@ -3020,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "PCNF",
           "package": "PropLogic",
@@ -3033,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "PDNF",
           "package": "PropLogic",
@@ -3042,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "PDNF",
           "package": "PropLogic",
@@ -3055,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "XPCNF",
           "package": "PropLogic",
@@ -3064,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "XPCNF",
           "package": "PropLogic",
@@ -3077,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "XPDNF",
           "package": "PropLogic",
@@ -3086,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "XPDNF",
           "package": "PropLogic",
@@ -3099,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "allPairs",
           "package": "PropLogic",
@@ -3108,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "allPairs",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -3123,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "atomForm",
           "package": "PropLogic",
@@ -3132,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "atomForm",
           "normalized": "IAtom-\u003eIForm",
@@ -3147,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "botForm",
           "package": "PropLogic",
@@ -3156,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "botForm",
           "package": "PropLogic",
@@ -3169,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "cPrime",
           "package": "PropLogic",
@@ -3178,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "cPrime",
           "normalized": "ILine-\u003eILine-\u003eMaybe ILine",
@@ -3193,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "cPrimes",
           "package": "PropLogic",
@@ -3202,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "cPrimes",
           "normalized": "IForm-\u003eIForm",
@@ -3217,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "caseSymbol",
           "package": "PropLogic",
@@ -3226,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "caseSymbol",
           "normalized": "ILine-\u003eILine-\u003eCaseSymbol",
@@ -3241,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "dualForm",
           "package": "PropLogic",
@@ -3250,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "dualForm",
           "normalized": "IForm-\u003eIForm",
@@ -3265,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "dualLine",
           "package": "PropLogic",
@@ -3274,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "dualLine",
           "normalized": "ILine-\u003eIForm",
@@ -3289,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "elimForm",
           "package": "PropLogic",
@@ -3298,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "elimForm",
           "normalized": "IForm-\u003eOlist IAtom-\u003eIForm",
@@ -3313,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "elimLine",
           "package": "PropLogic",
@@ -3322,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "elimLine",
           "normalized": "ILine-\u003eOlist IAtom-\u003eILine",
@@ -3337,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formAntijoinForm",
           "package": "PropLogic",
@@ -3346,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formAntijoinForm",
           "normalized": "IForm-\u003eIForm-\u003eIForm",
@@ -3361,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formAntijoinLine",
           "package": "PropLogic",
@@ -3370,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formAntijoinLine",
           "normalized": "IForm-\u003eILine-\u003eIForm",
@@ -3385,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formCojoinForm",
           "package": "PropLogic",
@@ -3394,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formCojoinForm",
           "normalized": "IForm-\u003eIForm-\u003eIForm",
@@ -3409,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formCojoinLine",
           "package": "PropLogic",
@@ -3418,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formCojoinLine",
           "normalized": "IForm-\u003eILine-\u003eIForm",
@@ -3433,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formCovForm",
           "package": "PropLogic",
@@ -3442,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formCovForm",
           "normalized": "IForm-\u003eIForm-\u003eBool",
@@ -3457,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formIndices",
           "package": "PropLogic",
@@ -3466,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formIndices",
           "normalized": "IForm-\u003eOlist IAtom",
@@ -3481,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formJoinForm",
           "package": "PropLogic",
@@ -3490,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formJoinForm",
           "normalized": "IForm-\u003eIForm-\u003eIForm",
@@ -3505,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formLength",
           "package": "PropLogic",
@@ -3514,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formLength",
           "normalized": "IForm-\u003eInt",
@@ -3529,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formListJoin",
           "package": "PropLogic",
@@ -3538,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formListJoin",
           "normalized": "[IForm]-\u003eIForm",
@@ -3553,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formListMeet",
           "package": "PropLogic",
@@ -3562,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formListMeet",
           "normalized": "[IForm]-\u003eIForm",
@@ -3577,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "formMeetForm",
           "package": "PropLogic",
@@ -3586,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "formMeetForm",
           "normalized": "IForm-\u003eIForm-\u003eIForm",
@@ -3601,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "fromIdxPropForm",
           "package": "PropLogic",
@@ -3610,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "fromIdxPropForm",
           "normalized": "IdxPropForm a-\u003ePropForm a",
@@ -3625,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "fromMixForm",
           "package": "PropLogic",
@@ -3634,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "fromMixForm",
           "normalized": "MixForm a-\u003ePropForm a",
@@ -3649,6 +3965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "fromXPCNF",
           "package": "PropLogic",
@@ -3658,6 +3975,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "fromXPCNF",
           "normalized": "XPCNF a-\u003ePropForm a",
@@ -3673,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "fromXPDNF",
           "package": "PropLogic",
@@ -3682,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "fromXPDNF",
           "normalized": "XPDNF a-\u003ePropForm a",
@@ -3697,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iAtom",
           "package": "PropLogic",
@@ -3706,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iAtom",
           "normalized": "ILit-\u003eIAtom",
@@ -3721,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iBool",
           "package": "PropLogic",
@@ -3730,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iBool",
           "normalized": "ILit-\u003eBool",
@@ -3745,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iCNF",
           "package": "PropLogic",
@@ -3754,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iCNF",
           "normalized": "IForm-\u003ePropForm IAtom",
@@ -3769,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iDNF",
           "package": "PropLogic",
@@ -3778,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iDNF",
           "normalized": "IForm-\u003ePropForm IAtom",
@@ -3793,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iForm",
           "package": "PropLogic",
@@ -3802,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iForm",
           "normalized": "[[Int]]-\u003eIForm",
@@ -3817,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iLIT",
           "package": "PropLogic",
@@ -3826,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iLIT",
           "normalized": "ILit-\u003ePropForm IAtom",
@@ -3841,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iLine",
           "package": "PropLogic",
@@ -3850,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iLine",
           "normalized": "[Int]-\u003eILine",
@@ -3865,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iNLC",
           "package": "PropLogic",
@@ -3874,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iNLC",
           "normalized": "ILine-\u003ePropForm IAtom",
@@ -3889,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iNLD",
           "package": "PropLogic",
@@ -3898,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iNLD",
           "normalized": "ILine-\u003ePropForm IAtom",
@@ -3913,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iTr",
           "package": "PropLogic",
@@ -3922,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iTr",
           "normalized": "Olist IAtom-\u003eIForm-\u003eIForm",
@@ -3937,6 +4277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iUni",
           "package": "PropLogic",
@@ -3946,6 +4287,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iUni",
           "normalized": "[Olist a]-\u003e(Olist a,[Maybe(Olist IAtom)])",
@@ -3961,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "idx",
           "package": "PropLogic",
@@ -3970,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "idx",
           "normalized": "Olist a-\u003ea-\u003eIAtom",
@@ -3984,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iformJoinM2form",
           "package": "PropLogic",
@@ -3993,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iformJoinM2form",
           "normalized": "IForm-\u003eIForm-\u003eIForm",
@@ -4008,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "iformJoinPrimForm",
           "package": "PropLogic",
@@ -4017,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "iformJoinPrimForm",
           "normalized": "IForm-\u003eIForm-\u003eIForm",
@@ -4032,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "invertForm",
           "package": "PropLogic",
@@ -4041,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "invertForm",
           "normalized": "IForm-\u003eIForm",
@@ -4056,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "invertLine",
           "package": "PropLogic",
@@ -4065,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "invertLine",
           "normalized": "ILine-\u003eILine",
@@ -4080,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "isIAtom",
           "package": "PropLogic",
@@ -4089,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "isIAtom",
           "normalized": "Int-\u003eBool",
@@ -4104,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "isIForm",
           "package": "PropLogic",
@@ -4113,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "isIForm",
           "normalized": "Costack(Costack Int)-\u003eBool",
@@ -4128,6 +4484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "isILine",
           "package": "PropLogic",
@@ -4137,6 +4494,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "isILine",
           "normalized": "Costack Int-\u003eBool",
@@ -4152,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "isILit",
           "package": "PropLogic",
@@ -4161,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "isILit",
           "normalized": "Int-\u003eBool",
@@ -4176,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "isMinimalPair",
           "package": "PropLogic",
@@ -4185,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "isMinimalPair",
           "normalized": "ILine-\u003eILine-\u003eBool",
@@ -4200,6 +4562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "isOrderedForm",
           "package": "PropLogic",
@@ -4209,6 +4572,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "isOrderedForm",
           "normalized": "IForm-\u003eBool",
@@ -4224,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "isPairwiseMinimal",
           "package": "PropLogic",
@@ -4233,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "isPairwiseMinimal",
           "normalized": "IForm-\u003eBool",
@@ -4248,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "itr",
           "package": "PropLogic",
@@ -4257,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "itr",
           "normalized": "Olist a-\u003eOlist a-\u003eMaybe(Olist IAtom)",
@@ -4271,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "lineCovForm",
           "package": "PropLogic",
@@ -4280,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "lineCovForm",
           "normalized": "ILine-\u003eIForm-\u003eBool",
@@ -4295,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "lineCovLine",
           "package": "PropLogic",
@@ -4304,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "lineCovLine",
           "normalized": "ILine-\u003eILine-\u003eBool",
@@ -4319,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "lineIndices",
           "package": "PropLogic",
@@ -4328,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "lineIndices",
           "normalized": "ILine-\u003eOlist IAtom",
@@ -4343,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "lineLength",
           "package": "PropLogic",
@@ -4352,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "lineLength",
           "normalized": "ILine-\u003eInt",
@@ -4367,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "lineMeetForm",
           "package": "PropLogic",
@@ -4376,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "lineMeetForm",
           "normalized": "ILine-\u003eIForm-\u003eIForm",
@@ -4391,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "lineMeetLine",
           "package": "PropLogic",
@@ -4400,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "lineMeetLine",
           "normalized": "ILine-\u003eILine-\u003eIForm",
@@ -4415,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "m2form",
           "package": "PropLogic",
@@ -4424,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "m2form",
           "normalized": "IForm-\u003eIForm",
@@ -4438,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "mixToPCNF",
           "package": "PropLogic",
@@ -4447,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "mixToPCNF",
           "normalized": "MixForm a-\u003eMixForm a",
@@ -4462,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "mixToPDNF",
           "package": "PropLogic",
@@ -4471,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "mixToPDNF",
           "normalized": "MixForm a-\u003eMixForm a",
@@ -4486,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "mrec",
           "package": "PropLogic",
@@ -4495,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "mrec",
           "normalized": "(IForm,IForm,IForm)-\u003eIForm",
@@ -4509,6 +4897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "negForm",
           "package": "PropLogic",
@@ -4518,6 +4907,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "negForm",
           "normalized": "IForm-\u003eIForm",
@@ -4533,6 +4923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "negLine",
           "package": "PropLogic",
@@ -4542,6 +4933,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "negLine",
           "normalized": "ILine-\u003eIForm",
@@ -4557,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "negLit",
           "package": "PropLogic",
@@ -4566,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "negLit",
           "normalized": "ILit-\u003eILit",
@@ -4581,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "newAtomsXForm",
           "package": "PropLogic",
@@ -4590,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "newAtomsXForm",
           "normalized": "XForm a-\u003eOlist a-\u003eXForm a",
@@ -4605,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "nth",
           "package": "PropLogic",
@@ -4614,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "nth",
           "normalized": "Olist a-\u003eIAtom-\u003ea",
@@ -4628,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "orderForm",
           "package": "PropLogic",
@@ -4637,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "orderForm",
           "normalized": "IForm-\u003eIForm",
@@ -4652,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "pairMin",
           "package": "PropLogic",
@@ -4661,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "pairMin",
           "normalized": "ILine-\u003eILine-\u003eIForm",
@@ -4676,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "pairMin'",
           "package": "PropLogic",
@@ -4685,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "pairMin'",
           "normalized": "ILine-\u003eILine-\u003eIForm",
@@ -4700,6 +5104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "pairPartition",
           "package": "PropLogic",
@@ -4709,6 +5114,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "pairPartition",
           "normalized": "ILine-\u003eILine-\u003e(ILine,ILine,ILine,ILine)",
@@ -4724,6 +5130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "pairPrim",
           "package": "PropLogic",
@@ -4733,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "pairPrim",
           "normalized": "ILine-\u003eILine-\u003eIForm",
@@ -4748,6 +5156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "pairPrim'",
           "package": "PropLogic",
@@ -4757,6 +5166,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "pairPrim'",
           "normalized": "ILine-\u003eILine-\u003eIForm",
@@ -4772,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "primForm",
           "package": "PropLogic",
@@ -4781,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "primForm",
           "normalized": "IForm-\u003eIForm",
@@ -4796,6 +5208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "toIdxPropForm",
           "package": "PropLogic",
@@ -4805,6 +5218,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "toIdxPropForm",
           "normalized": "PropForm a-\u003eIdxPropForm a",
@@ -4820,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "toM2CNF",
           "package": "PropLogic",
@@ -4829,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "toM2CNF",
           "normalized": "PropForm a-\u003eMixForm a",
@@ -4844,6 +5260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "toM2DNF",
           "package": "PropLogic",
@@ -4853,6 +5270,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "toM2DNF",
           "normalized": "PropForm a-\u003eMixForm a",
@@ -4868,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "toXPCNF",
           "package": "PropLogic",
@@ -4877,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "toXPCNF",
           "normalized": "PropForm a-\u003eXPCNF a",
@@ -4892,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "toXPDNF",
           "package": "PropLogic",
@@ -4901,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "toXPDNF",
           "normalized": "PropForm a-\u003eXPDNF a",
@@ -4916,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "topForm",
           "package": "PropLogic",
@@ -4925,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "topForm",
           "package": "PropLogic",
@@ -4938,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "tr",
           "package": "PropLogic",
@@ -4947,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "tr",
           "normalized": "(a-\u003eb)-\u003ePropForm a-\u003ePropForm b",
@@ -4961,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "unifyIdxPropForms",
           "package": "PropLogic",
@@ -4970,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "unifyIdxPropForms",
           "normalized": "[IdxPropForm a]-\u003e(Olist a,[PropForm IAtom])",
@@ -4985,6 +5413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "unifyXForms",
           "package": "PropLogic",
@@ -4994,6 +5423,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "unifyXForms",
           "normalized": "[XForm a]-\u003e(Olist a,[IForm])",
@@ -5009,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "volume",
           "package": "PropLogic",
@@ -5018,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "volume",
           "normalized": "IForm-\u003eInt",
@@ -5032,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xCNF",
           "package": "PropLogic",
@@ -5041,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xCNF",
           "normalized": "XForm a-\u003ePropForm a",
@@ -5056,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xDNF",
           "package": "PropLogic",
@@ -5065,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xDNF",
           "normalized": "XForm a-\u003ePropForm a",
@@ -5080,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xLIT",
           "package": "PropLogic",
@@ -5089,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xLIT",
           "normalized": "XLit a-\u003ePropForm a",
@@ -5104,6 +5542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xNLC",
           "package": "PropLogic",
@@ -5113,6 +5552,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xNLC",
           "normalized": "XLine a-\u003ePropForm a",
@@ -5128,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xNLD",
           "package": "PropLogic",
@@ -5137,6 +5578,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xNLD",
           "normalized": "XLine a-\u003ePropForm a",
@@ -5152,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xformAtoms",
           "package": "PropLogic",
@@ -5161,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xformAtoms",
           "normalized": "XForm a-\u003eOlist a",
@@ -5176,6 +5620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xformIrrAtoms",
           "package": "PropLogic",
@@ -5185,6 +5630,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xformIrrAtoms",
           "normalized": "XForm a-\u003eOlist a",
@@ -5200,6 +5646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xformRedAtoms",
           "package": "PropLogic",
@@ -5209,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xformRedAtoms",
           "normalized": "XForm a-\u003eOlist a",
@@ -5224,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xmin",
           "package": "PropLogic",
@@ -5233,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xmin",
           "normalized": "ILine-\u003eILine-\u003e(CaseSymbol,IForm)",
@@ -5247,6 +5697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xmin'",
           "package": "PropLogic",
@@ -5256,6 +5707,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xmin'",
           "normalized": "ILine-\u003eILine-\u003e(CaseSymbol,IForm)",
@@ -5270,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xprim",
           "package": "PropLogic",
@@ -5279,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xprim",
           "normalized": "ILine-\u003eILine-\u003e(CaseSymbol,IForm)",
@@ -5293,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "FastPropLogic",
           "name": "xprim'",
           "package": "PropLogic",
@@ -5302,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "FastPropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "FastPropLogic",
           "name": "xprim'",
           "normalized": "ILine-\u003eILine-\u003e(CaseSymbol,IForm)",
@@ -5317,6 +5773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eOlist\u003c/a\u003e\u003c/code\u003e is an \u003cem\u003eordered list\u003c/em\u003e. The main function of this module is the implementation of the finite subset structure of a given type \u003ccode\u003ea\u003c/code\u003e. Finite sets are represented as ordered lists and the basic set functions and relations like \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eincluded\u003c/a\u003e\u003c/code\u003e etc. are provided.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "Olist",
           "package": "PropLogic",
@@ -5326,6 +5783,7 @@
         "index": {
           "description": "An Olist is an ordered list The main function of this module is the implementation of the finite subset structure of given type Finite sets are represented as ordered lists and the basic set functions and relations like union intersection included etc are provided",
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "Olist",
           "package": "PropLogic",
@@ -5339,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "Olist",
           "package": "PropLogic",
@@ -5347,6 +5806,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "Olist",
           "package": "PropLogic",
@@ -5360,6 +5820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "delete",
           "package": "PropLogic",
@@ -5369,6 +5830,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "delete",
           "normalized": "a-\u003eOlist a-\u003eOlist a",
@@ -5383,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "difference",
           "package": "PropLogic",
@@ -5392,6 +5855,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "difference",
           "normalized": "Olist a-\u003eOlist a-\u003eOlist a",
@@ -5406,6 +5870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "disjunct",
           "package": "PropLogic",
@@ -5415,6 +5880,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "disjunct",
           "normalized": "Olist a-\u003eOlist a-\u003eBool",
@@ -5429,6 +5895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "empty",
           "package": "PropLogic",
@@ -5438,6 +5905,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "empty",
           "package": "PropLogic",
@@ -5450,6 +5918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "equal",
           "package": "PropLogic",
@@ -5459,6 +5928,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "equal",
           "normalized": "Olist a-\u003eOlist a-\u003eBool",
@@ -5473,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "included",
           "package": "PropLogic",
@@ -5482,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "included",
           "normalized": "Olist a-\u003eOlist a-\u003eBool",
@@ -5496,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "insert",
           "package": "PropLogic",
@@ -5505,6 +5978,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "insert",
           "normalized": "a-\u003eOlist a-\u003eOlist a",
@@ -5519,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "intersection",
           "package": "PropLogic",
@@ -5528,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "intersection",
           "normalized": "Olist a-\u003eOlist a-\u003eOlist a",
@@ -5542,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "intersectionList",
           "package": "PropLogic",
@@ -5551,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "intersectionList",
           "normalized": "[Olist a]-\u003eOlist a",
@@ -5566,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "isEmpty",
           "package": "PropLogic",
@@ -5575,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "isEmpty",
           "normalized": "Olist a-\u003eBool",
@@ -5590,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "isOlist",
           "package": "PropLogic",
@@ -5599,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "isOlist",
           "normalized": "[a]-\u003eBool",
@@ -5614,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "member",
           "package": "PropLogic",
@@ -5623,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "member",
           "normalized": "a-\u003eOlist a-\u003eBool",
@@ -5637,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "olist",
           "package": "PropLogic",
@@ -5646,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "olist",
           "normalized": "[a]-\u003eOlist a",
@@ -5660,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "opposition",
           "package": "PropLogic",
@@ -5669,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "opposition",
           "normalized": "Olist a-\u003eOlist a-\u003eOlist a",
@@ -5683,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "properlyDisjunct",
           "package": "PropLogic",
@@ -5692,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "properlyDisjunct",
           "normalized": "Olist a-\u003eOlist a-\u003eBool",
@@ -5707,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "properlyIncluded",
           "package": "PropLogic",
@@ -5716,6 +6207,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "properlyIncluded",
           "normalized": "Olist a-\u003eOlist a-\u003eBool",
@@ -5731,6 +6223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "union",
           "package": "PropLogic",
@@ -5740,6 +6233,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "union",
           "normalized": "Olist a-\u003eOlist a-\u003eOlist a",
@@ -5754,6 +6248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "Olist",
           "name": "unionList",
           "package": "PropLogic",
@@ -5763,6 +6258,7 @@
         },
         "index": {
           "hierarchy": "Olist",
+          "indexed": "2014-03-11T16:57:30",
           "module": "Olist",
           "name": "unionList",
           "normalized": "[Olist a]-\u003eOlist a",
@@ -5779,6 +6275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA powerful system for \u003cem\u003epropositional logic\u003c/em\u003e.\n  Defines an abstract concept of a \u003cem\u003epropositional algebra\u003c/em\u003e and provides both default and fast instances.\n  Emphasizes the use of \u003cem\u003e(canonic) normalizations\u003c/em\u003e in general and so-called \u003cem\u003ePrime Normal Forms\u003c/em\u003e in particular.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.bucephalus.org/PropLogic/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eis the homepage with additional information for a variety of users, including short and thorough introductions to the\n  use of \u003ca\u003ePropLogic\u003c/a\u003e and the mathematical background of the whole design.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogic",
           "name": "PropLogic",
           "package": "PropLogic",
@@ -5788,6 +6285,7 @@
         "index": {
           "description": "powerful system for propositional logic Defines an abstract concept of propositional algebra and provides both default and fast instances Emphasizes the use of canonic normalizations in general and so-called Prime Normal Forms in particular http www.bucephalus.org PropLogic is the homepage with additional information for variety of users including short and thorough introductions to the use of PropLogic and the mathematical background of the whole design",
           "hierarchy": "PropLogic",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogic",
           "name": "PropLogic",
           "package": "PropLogic",
@@ -5802,6 +6300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module comprises the abstract definition of two core concepts of propositional logic:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The data type \u003ccode\u003e(\u003ccode\u003e\u003ca\u003ePropForm\u003c/a\u003e\u003c/code\u003e a)\u003c/code\u003e of \u003cem\u003epropositional formulas\u003c/em\u003e, based on a given \u003cem\u003eatom\u003c/em\u003e type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e The two-parameter type class \u003ccode\u003e(\u003ccode\u003e\u003ca\u003ePropAlg\u003c/a\u003e\u003c/code\u003e a p)\u003c/code\u003e of a \u003cem\u003epropositional algebra\u003c/em\u003e, where \u003ccode\u003ea\u003c/code\u003e is the \u003cem\u003eatom\u003c/em\u003e type and \u003ccode\u003ep\u003c/code\u003e the type of\n    \u003cem\u003epropositions\u003c/em\u003e. Operations of such a structure include a decision if two propositions are \u003ccode\u003e\u003ca\u003eequivalent\u003c/a\u003e\u003c/code\u003e, if a given proposition is\n    \u003ccode\u003e\u003ca\u003esatisfiable\u003c/a\u003e\u003c/code\u003e, a converter \u003ccode\u003e\u003ca\u003etoPropForm\u003c/a\u003e\u003c/code\u003e and the inverse \u003ccode\u003e\u003ca\u003efromPropForm\u003c/a\u003e\u003c/code\u003e, which turns a propositional formula into a proposition.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "PropLogicCore",
           "package": "PropLogic",
@@ -5811,6 +6310,7 @@
         "index": {
           "description": "This module comprises the abstract definition of two core concepts of propositional logic The data type PropForm of propositional formulas based on given atom type The two-parameter type class PropAlg of propositional algebra where is the atom type and the type of propositions Operations of such structure include decision if two propositions are equivalent if given proposition is satisfiable converter toPropForm and the inverse fromPropForm which turns propositional formula into proposition",
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "PropLogicCore",
           "package": "PropLogic",
@@ -5824,6 +6324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "PropAlg",
           "package": "PropLogic",
@@ -5832,6 +6333,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "PropAlg",
           "package": "PropLogic",
@@ -5845,6 +6347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "PropForm",
           "package": "PropLogic",
@@ -5853,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "PropForm",
           "package": "PropLogic",
@@ -5866,6 +6370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "A",
           "package": "PropLogic",
@@ -5875,6 +6380,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "A",
           "package": "PropLogic",
@@ -5887,6 +6393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "CJ",
           "package": "PropLogic",
@@ -5896,6 +6403,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "CJ",
           "normalized": "CJ[PropForm a]",
@@ -5911,6 +6419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "DJ",
           "package": "PropLogic",
@@ -5920,6 +6429,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "DJ",
           "normalized": "DJ[PropForm a]",
@@ -5935,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "EJ",
           "package": "PropLogic",
@@ -5944,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "EJ",
           "normalized": "EJ[PropForm a]",
@@ -5959,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "F",
           "package": "PropLogic",
@@ -5968,6 +6481,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "F",
           "package": "PropLogic",
@@ -5980,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "N",
           "package": "PropLogic",
@@ -5989,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "N",
           "package": "PropLogic",
@@ -6001,6 +6517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "SJ",
           "package": "PropLogic",
@@ -6010,6 +6527,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "SJ",
           "normalized": "SJ[PropForm a]",
@@ -6025,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "T",
           "package": "PropLogic",
@@ -6034,6 +6553,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "T",
           "package": "PropLogic",
@@ -6046,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "at",
           "package": "PropLogic",
@@ -6055,6 +6576,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "at",
           "normalized": "a-\u003eb",
@@ -6069,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "atoms",
           "package": "PropLogic",
@@ -6078,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "atoms",
           "normalized": "a-\u003eOlist b",
@@ -6092,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "biequivalent",
           "package": "PropLogic",
@@ -6101,6 +6626,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "biequivalent",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6115,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "coatomic",
           "package": "PropLogic",
@@ -6124,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "coatomic",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6138,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "conj",
           "package": "PropLogic",
@@ -6147,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "conj",
           "normalized": "[a]-\u003ea",
@@ -6161,6 +6691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "contradictory",
           "package": "PropLogic",
@@ -6170,6 +6701,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "contradictory",
           "normalized": "a-\u003eBool",
@@ -6184,6 +6716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "covalent",
           "package": "PropLogic",
@@ -6193,6 +6726,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "covalent",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6207,6 +6741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "disatomic",
           "package": "PropLogic",
@@ -6216,6 +6751,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "disatomic",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6230,6 +6766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "disj",
           "package": "PropLogic",
@@ -6239,6 +6776,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "disj",
           "normalized": "[a]-\u003ea",
@@ -6253,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "disvalent",
           "package": "PropLogic",
@@ -6262,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "disvalent",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6276,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "equiatomic",
           "package": "PropLogic",
@@ -6285,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "equiatomic",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6299,6 +6841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "equij",
           "package": "PropLogic",
@@ -6308,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "equij",
           "normalized": "[a]-\u003ea",
@@ -6322,6 +6866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "equivalent",
           "package": "PropLogic",
@@ -6331,6 +6876,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "equivalent",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6345,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "ext",
           "package": "PropLogic",
@@ -6354,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "ext",
           "normalized": "a-\u003e[b]-\u003ea",
@@ -6368,6 +6916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "false",
           "package": "PropLogic",
@@ -6377,6 +6926,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "false",
           "package": "PropLogic",
@@ -6389,6 +6939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "fromPropForm",
           "package": "PropLogic",
@@ -6398,6 +6949,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "fromPropForm",
           "normalized": "PropForm a-\u003eb",
@@ -6413,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "infElim",
           "package": "PropLogic",
@@ -6422,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "infElim",
           "normalized": "a-\u003e[b]-\u003ea",
@@ -6437,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "infRed",
           "package": "PropLogic",
@@ -6446,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "infRed",
           "normalized": "a-\u003e[b]-\u003ea",
@@ -6461,6 +7017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "irrAtoms",
           "package": "PropLogic",
@@ -6470,6 +7027,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "irrAtoms",
           "normalized": "a-\u003eOlist b",
@@ -6485,6 +7043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "neg",
           "package": "PropLogic",
@@ -6494,6 +7053,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -6508,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "nullatomic",
           "package": "PropLogic",
@@ -6517,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "nullatomic",
           "normalized": "a-\u003eBool",
@@ -6531,6 +7093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "pairwise",
           "package": "PropLogic",
@@ -6540,6 +7103,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "pairwise",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003eBool",
@@ -6554,6 +7118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "pointwise",
           "package": "PropLogic",
@@ -6563,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "pointwise",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eBool",
@@ -6577,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "properDisatomic",
           "package": "PropLogic",
@@ -6586,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "properDisatomic",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6601,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "properDisvalent",
           "package": "PropLogic",
@@ -6610,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "properDisvalent",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6625,6 +7195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "properSubatomic",
           "package": "PropLogic",
@@ -6634,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "properSubatomic",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6649,6 +7221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "properSubvalent",
           "package": "PropLogic",
@@ -6658,6 +7231,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "properSubvalent",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6673,6 +7247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "redAtoms",
           "package": "PropLogic",
@@ -6682,6 +7257,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "redAtoms",
           "normalized": "a-\u003eOlist b",
@@ -6697,6 +7273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "satisfiable",
           "package": "PropLogic",
@@ -6706,6 +7283,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "satisfiable",
           "normalized": "a-\u003eBool",
@@ -6720,6 +7298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "stringToProp",
           "package": "PropLogic",
@@ -6729,6 +7308,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "stringToProp",
           "normalized": "String-\u003ePropForm String",
@@ -6744,6 +7324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "subatomic",
           "package": "PropLogic",
@@ -6753,6 +7334,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "subatomic",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6767,6 +7349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "subj",
           "package": "PropLogic",
@@ -6776,6 +7359,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "subj",
           "normalized": "[a]-\u003ea",
@@ -6790,6 +7374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "subvalent",
           "package": "PropLogic",
@@ -6799,6 +7384,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "subvalent",
           "normalized": "a-\u003ea-\u003eBool",
@@ -6813,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "supElim",
           "package": "PropLogic",
@@ -6822,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "supElim",
           "normalized": "a-\u003e[b]-\u003ea",
@@ -6837,6 +7425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "supRed",
           "package": "PropLogic",
@@ -6846,6 +7435,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "supRed",
           "normalized": "a-\u003e[b]-\u003ea",
@@ -6861,6 +7451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "toPropForm",
           "package": "PropLogic",
@@ -6870,6 +7461,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "toPropForm",
           "normalized": "a-\u003ePropForm b",
@@ -6885,6 +7477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "true",
           "package": "PropLogic",
@@ -6894,6 +7487,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "true",
           "package": "PropLogic",
@@ -6906,6 +7500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicCore",
           "name": "valid",
           "package": "PropLogic",
@@ -6915,6 +7510,7 @@
         },
         "index": {
           "hierarchy": "PropLogicCore",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicCore",
           "name": "valid",
           "normalized": "a-\u003eBool",
@@ -6929,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "PropLogicTest",
           "package": "PropLogic",
@@ -6937,6 +7534,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "PropLogicTest",
           "package": "PropLogic",
@@ -6950,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "CanonPerformance",
           "package": "PropLogic",
@@ -6958,6 +7557,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "CanonPerformance",
           "package": "PropLogic",
@@ -6971,6 +7571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "JunctorSymbol",
           "package": "PropLogic",
@@ -6979,6 +7580,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "JunctorSymbol",
           "package": "PropLogic",
@@ -6992,6 +7594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "JunctorWeighting",
           "package": "PropLogic",
@@ -7000,6 +7603,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "JunctorWeighting",
           "package": "PropLogic",
@@ -7013,6 +7617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "Msec",
           "package": "PropLogic",
@@ -7021,6 +7626,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "Msec",
           "package": "PropLogic",
@@ -7034,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "Seconds",
           "package": "PropLogic",
@@ -7042,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "Seconds",
           "package": "PropLogic",
@@ -7055,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "SizeTriple",
           "package": "PropLogic",
@@ -7063,6 +7672,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "SizeTriple",
           "package": "PropLogic",
@@ -7076,6 +7686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "Verbose",
           "package": "PropLogic",
@@ -7084,6 +7695,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "Verbose",
           "package": "PropLogic",
@@ -7097,6 +7709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "CJ_",
           "package": "PropLogic",
@@ -7106,6 +7719,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "CJ_",
           "package": "PropLogic",
@@ -7119,6 +7733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "DJ_",
           "package": "PropLogic",
@@ -7128,6 +7743,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "DJ_",
           "package": "PropLogic",
@@ -7141,6 +7757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "EJ_",
           "package": "PropLogic",
@@ -7150,6 +7767,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "EJ_",
           "package": "PropLogic",
@@ -7163,6 +7781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "F_",
           "package": "PropLogic",
@@ -7172,6 +7791,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "F_",
           "package": "PropLogic",
@@ -7184,6 +7804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "N_",
           "package": "PropLogic",
@@ -7193,6 +7814,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "N_",
           "package": "PropLogic",
@@ -7205,6 +7827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "SJ_",
           "package": "PropLogic",
@@ -7214,6 +7837,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "SJ_",
           "package": "PropLogic",
@@ -7227,6 +7851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "T_",
           "package": "PropLogic",
@@ -7236,6 +7861,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "T_",
           "package": "PropLogic",
@@ -7248,6 +7874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "appleBasketDistribution",
           "package": "PropLogic",
@@ -7257,6 +7884,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "appleBasketDistribution",
           "normalized": "Int-\u003eInt-\u003eIO[Int]",
@@ -7272,6 +7900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "averageLineLength",
           "package": "PropLogic",
@@ -7281,6 +7910,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "averageLineLength",
           "normalized": "IForm-\u003eFloat",
@@ -7296,6 +7926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "axiom_criterion_for_equivalence",
           "package": "PropLogic",
@@ -7305,6 +7936,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "axiom_criterion_for_equivalence",
           "normalized": "(a,a)-\u003eBool",
@@ -7319,6 +7951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "axiom_reflexivity_of_subvalence",
           "package": "PropLogic",
@@ -7328,6 +7961,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "axiom_reflexivity_of_subvalence",
           "normalized": "a-\u003eBool",
@@ -7342,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "axiom_transitivity_of_subvalence",
           "package": "PropLogic",
@@ -7351,6 +7986,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "axiom_transitivity_of_subvalence",
           "normalized": "(a,a,a)-\u003eBool",
@@ -7365,6 +8001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "defaultJunctorWeighting",
           "package": "PropLogic",
@@ -7374,6 +8011,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "defaultJunctorWeighting",
           "package": "PropLogic",
@@ -7387,6 +8025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "meanValue",
           "package": "PropLogic",
@@ -7396,6 +8035,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "meanValue",
           "normalized": "[Seconds]-\u003eSeconds",
@@ -7411,6 +8051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "nRandomRIO",
           "package": "PropLogic",
@@ -7420,6 +8061,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "nRandomRIO",
           "normalized": "Int-\u003e(Int,Int)-\u003eIO[Int]",
@@ -7435,6 +8077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "normSeconds",
           "package": "PropLogic",
@@ -7444,6 +8087,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "normSeconds",
           "normalized": "Seconds-\u003eSeconds",
@@ -7459,6 +8103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pcnf",
           "package": "PropLogic",
@@ -7468,6 +8113,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pcnf",
           "normalized": "String-\u003eIO()",
@@ -7482,6 +8128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pcnf'",
           "package": "PropLogic",
@@ -7491,6 +8138,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pcnf'",
           "normalized": "PropForm a-\u003ePCNF a",
@@ -7505,6 +8153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pdnf",
           "package": "PropLogic",
@@ -7514,6 +8163,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pdnf",
           "normalized": "String-\u003eIO()",
@@ -7528,6 +8178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pdnf'",
           "package": "PropLogic",
@@ -7537,6 +8188,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pdnf'",
           "normalized": "PropForm a-\u003ePDNF a",
@@ -7551,6 +8203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pnfCorrect",
           "package": "PropLogic",
@@ -7560,6 +8213,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pnfCorrect",
           "normalized": "Verbose-\u003ePropForm a-\u003eIO(Either(PropForm a)CanonPerformance)",
@@ -7575,6 +8229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pnfCorrectRepeat",
           "package": "PropLogic",
@@ -7584,6 +8239,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pnfCorrectRepeat",
           "normalized": "Verbose-\u003e(Int,Int,Int)-\u003eIO(PropForm Char)",
@@ -7599,6 +8255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pnfPerform",
           "package": "PropLogic",
@@ -7608,6 +8265,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pnfPerform",
           "normalized": "PropForm a-\u003eIO CanonPerformance",
@@ -7623,6 +8281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pnfPerformRandom",
           "package": "PropLogic",
@@ -7632,6 +8291,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pnfPerformRandom",
           "normalized": "SizeTriple-\u003eIO CanonPerformance",
@@ -7647,6 +8307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "pnfPerformRepeat",
           "package": "PropLogic",
@@ -7656,6 +8317,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "pnfPerformRepeat",
           "normalized": "SizeTriple-\u003eIO()",
@@ -7671,6 +8333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomCNF",
           "package": "PropLogic",
@@ -7680,6 +8343,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomCNF",
           "normalized": "[a]-\u003eInt-\u003eInt-\u003eIO(CNF a)",
@@ -7695,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomCharCNF",
           "package": "PropLogic",
@@ -7704,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomCharCNF",
           "normalized": "Int-\u003eIO(CNF Char)",
@@ -7719,6 +8385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomCharDNF",
           "package": "PropLogic",
@@ -7728,6 +8395,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomCharDNF",
           "normalized": "Int-\u003eIO(DNF Char)",
@@ -7743,6 +8411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomCharProp",
           "package": "PropLogic",
@@ -7752,6 +8421,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomCharProp",
           "normalized": "SizeTriple-\u003eIO(PropForm Char)",
@@ -7767,6 +8437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomChoice",
           "package": "PropLogic",
@@ -7776,6 +8447,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomChoice",
           "normalized": "[a]-\u003eIO(a,[a])",
@@ -7791,6 +8463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomDNF",
           "package": "PropLogic",
@@ -7800,6 +8473,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomDNF",
           "normalized": "[a]-\u003eInt-\u003eInt-\u003eIO(DNF a)",
@@ -7815,6 +8489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomIForm",
           "package": "PropLogic",
@@ -7824,6 +8499,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomIForm",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eIO IForm",
@@ -7839,6 +8515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomILine",
           "package": "PropLogic",
@@ -7848,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomILine",
           "normalized": "Int-\u003eInt-\u003eIO ILine",
@@ -7863,6 +8541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomIntCNF",
           "package": "PropLogic",
@@ -7872,6 +8551,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomIntCNF",
           "normalized": "Int-\u003eIO(CNF Int)",
@@ -7887,6 +8567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomIntDNF",
           "package": "PropLogic",
@@ -7896,6 +8577,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomIntDNF",
           "normalized": "Int-\u003eIO(DNF Int)",
@@ -7911,6 +8593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomIntProp",
           "package": "PropLogic",
@@ -7920,6 +8603,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomIntProp",
           "normalized": "SizeTriple-\u003eIO(PropForm Int)",
@@ -7935,6 +8619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomListMember",
           "package": "PropLogic",
@@ -7944,6 +8629,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomListMember",
           "normalized": "[a]-\u003eIO a",
@@ -7959,6 +8645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomPropForm",
           "package": "PropLogic",
@@ -7968,6 +8655,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomPropForm",
           "normalized": "Olist a-\u003e(Int,Int)-\u003eIO(PropForm a)",
@@ -7983,6 +8671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomSublist",
           "package": "PropLogic",
@@ -7992,6 +8681,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomSublist",
           "normalized": "[a]-\u003eIO[a]",
@@ -8007,6 +8697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "randomXForm",
           "package": "PropLogic",
@@ -8016,6 +8707,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "randomXForm",
           "normalized": "[a]-\u003eInt-\u003eInt-\u003eIO(XForm a)",
@@ -8031,6 +8723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "shuffle",
           "package": "PropLogic",
@@ -8040,6 +8733,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "shuffle",
           "normalized": "[a]-\u003eIO[a]",
@@ -8054,6 +8748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "sizeTriple",
           "package": "PropLogic",
@@ -8063,6 +8758,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "sizeTriple",
           "normalized": "PropForm a-\u003eSizeTriple",
@@ -8078,6 +8774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "spcnf",
           "package": "PropLogic",
@@ -8087,6 +8784,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "spcnf",
           "normalized": "String-\u003eIO()",
@@ -8101,6 +8799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "spcnf'",
           "package": "PropLogic",
@@ -8110,6 +8809,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "spcnf'",
           "normalized": "PropForm a-\u003eSimpleCNF a",
@@ -8124,6 +8824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "spdnf",
           "package": "PropLogic",
@@ -8133,6 +8834,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "spdnf",
           "normalized": "String-\u003eIO()",
@@ -8147,6 +8849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "spdnf'",
           "package": "PropLogic",
@@ -8156,6 +8859,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "spdnf'",
           "normalized": "PropForm a-\u003eSimpleDNF a",
@@ -8170,6 +8874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "standDeviation",
           "package": "PropLogic",
@@ -8179,6 +8884,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "standDeviation",
           "normalized": "[Seconds]-\u003eSeconds",
@@ -8194,6 +8900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "test_prop_alg",
           "package": "PropLogic",
@@ -8203,6 +8910,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "test_prop_alg",
           "normalized": "IO a-\u003eIO b-\u003eInt-\u003eIO()",
@@ -8217,6 +8925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "total_test",
           "package": "PropLogic",
@@ -8226,6 +8935,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "total_test",
           "normalized": "Int-\u003eIO()",
@@ -8241,6 +8951,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003erandomPrimeTest (atomNum, formLen, averLineLen) = (atomNum', formLen', vol', secs')\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "verboseRandomPrimeTest",
           "package": "PropLogic",
@@ -8251,6 +8962,7 @@
         "index": {
           "description": "randomPrimeTest atomNum formLen averLineLen atomNum formLen vol secs",
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "verboseRandomPrimeTest",
           "normalized": "(Int,Int,Int)-\u003eIO(Int,Int,Int,Seconds)",
@@ -8267,6 +8979,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003everboseRandomPrimeTesting (atomNum, formLen, averLineLen) numberOfTests = (maxFormLen, averFormLen, maxTime, averTime, standDev)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "verboseRandomPrimeTesting",
           "package": "PropLogic",
@@ -8277,6 +8990,7 @@
         "index": {
           "description": "verboseRandomPrimeTesting atomNum formLen averLineLen numberOfTests maxFormLen averFormLen maxTime averTime standDev",
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "verboseRandomPrimeTesting",
           "normalized": "(Int,Int,Int)-\u003eInt-\u003eIO(Int,Int,Seconds,Seconds,Seconds)",
@@ -8292,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "weightedRandomMember",
           "package": "PropLogic",
@@ -8301,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "weightedRandomMember",
           "normalized": "[(a,Int)]-\u003eIO a",
@@ -8316,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "weightedRandomPropForm",
           "package": "PropLogic",
@@ -8325,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "weightedRandomPropForm",
           "normalized": "JunctorWeighting-\u003eOlist a-\u003e(Int,Int)-\u003eIO(PropForm a)",
@@ -8340,6 +9058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "xpcnf",
           "package": "PropLogic",
@@ -8349,6 +9068,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "xpcnf",
           "normalized": "String-\u003eIO()",
@@ -8363,6 +9083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "xpcnf'",
           "package": "PropLogic",
@@ -8372,6 +9093,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "xpcnf'",
           "normalized": "PropForm a-\u003eXPCNF a",
@@ -8386,6 +9108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "xpdnf",
           "package": "PropLogic",
@@ -8395,6 +9118,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "xpdnf",
           "normalized": "String-\u003eIO()",
@@ -8409,6 +9133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "PropLogicTest",
           "name": "xpdnf'",
           "package": "PropLogic",
@@ -8418,6 +9143,7 @@
         },
         "index": {
           "hierarchy": "PropLogicTest",
+          "indexed": "2014-03-11T16:57:30",
           "module": "PropLogicTest",
           "name": "xpdnf'",
           "normalized": "PropForm a-\u003eXPDNF a",
@@ -8433,6 +9159,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe default representation of any type is the string and the \u003ccode\u003eshow\u003c/code\u003e function, which returns a string for each element\n  of an instance of the \u003ccode\u003eShow\u003c/code\u003e class. But sometimes, it is more intuitive, if a type is represented by a more\n  three-dimensional layout. For that matter, we not only have a \u003ccode\u003eshow\u003c/code\u003e function for many types to come, but also a\n  \u003ccode\u003etextFrame\u003c/code\u003e converter, where a \u003ccode\u003eTextFrame\u003c/code\u003e is basically defined as a list of strings of equal length.\n  Similar to the \u003ccode\u003eShow\u003c/code\u003e type class, we also define a \u003ccode\u003eDisplay\u003c/code\u003e type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "TextDisplay",
           "package": "PropLogic",
@@ -8442,6 +9169,7 @@
         "index": {
           "description": "The default representation of any type is the string and the show function which returns string for each element of an instance of the Show class But sometimes it is more intuitive if type is represented by more three-dimensional layout For that matter we not only have show function for many types to come but also textFrame converter where TextFrame is basically defined as list of strings of equal length Similar to the Show type class we also define Display type class",
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "TextDisplay",
           "package": "PropLogic",
@@ -8455,6 +9183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "Display",
           "package": "PropLogic",
@@ -8463,6 +9192,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "Display",
           "package": "PropLogic",
@@ -8476,6 +9206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "TextFrame",
           "package": "PropLogic",
@@ -8484,6 +9215,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "TextFrame",
           "package": "PropLogic",
@@ -8497,6 +9229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "TextFrameTable",
           "package": "PropLogic",
@@ -8505,6 +9238,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "TextFrameTable",
           "package": "PropLogic",
@@ -8518,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "bottomAlign",
           "package": "PropLogic",
@@ -8527,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "bottomAlign",
           "normalized": "TextFrameTable-\u003eTextFrameTable",
@@ -8542,6 +9278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "centerAlign",
           "package": "PropLogic",
@@ -8551,6 +9288,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "centerAlign",
           "normalized": "TextFrameTable-\u003eTextFrameTable",
@@ -8566,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "columnWidthList",
           "package": "PropLogic",
@@ -8575,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "columnWidthList",
           "normalized": "TextFrameTable-\u003e[Int]",
@@ -8590,6 +9330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "correctTextFrame",
           "package": "PropLogic",
@@ -8599,6 +9340,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "correctTextFrame",
           "normalized": "[String]-\u003eTextFrame",
@@ -8614,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "correctTextFrameTable",
           "package": "PropLogic",
@@ -8623,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "correctTextFrameTable",
           "normalized": "TextFrameTable-\u003eTextFrameTable",
@@ -8638,6 +9382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "defaultTextFrame",
           "package": "PropLogic",
@@ -8647,6 +9392,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "defaultTextFrame",
           "normalized": "a-\u003eTextFrame",
@@ -8662,6 +9408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "display",
           "package": "PropLogic",
@@ -8671,6 +9418,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "display",
           "normalized": "a-\u003eIO()",
@@ -8685,6 +9433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "findTextFrameError",
           "package": "PropLogic",
@@ -8694,6 +9443,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "findTextFrameError",
           "normalized": "[String]-\u003eMaybe String",
@@ -8709,6 +9459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "gridMerge",
           "package": "PropLogic",
@@ -8718,6 +9469,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "gridMerge",
           "normalized": "TextFrameTable-\u003eTextFrame",
@@ -8733,6 +9485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "height",
           "package": "PropLogic",
@@ -8742,6 +9495,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "height",
           "normalized": "TextFrame-\u003eInt",
@@ -8756,6 +9510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "isNonSpaceWhite",
           "package": "PropLogic",
@@ -8765,6 +9520,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "isNonSpaceWhite",
           "normalized": "Char-\u003eBool",
@@ -8780,6 +9536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "leftAlign",
           "package": "PropLogic",
@@ -8789,6 +9546,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "leftAlign",
           "normalized": "TextFrameTable-\u003eTextFrameTable",
@@ -8804,6 +9562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "middleAlign",
           "package": "PropLogic",
@@ -8813,6 +9572,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "middleAlign",
           "normalized": "TextFrameTable-\u003eTextFrameTable",
@@ -8828,6 +9588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "normalTextFrameTable",
           "package": "PropLogic",
@@ -8837,6 +9598,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "normalTextFrameTable",
           "normalized": "TextFrameTable-\u003eTextFrameTable",
@@ -8852,6 +9614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "plainMerge",
           "package": "PropLogic",
@@ -8861,6 +9624,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "plainMerge",
           "normalized": "TextFrameTable-\u003eTextFrame",
@@ -8876,6 +9640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "printTextFrame",
           "package": "PropLogic",
@@ -8885,6 +9650,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "printTextFrame",
           "normalized": "TextFrame-\u003eIO()",
@@ -8900,6 +9666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "rightAlign",
           "package": "PropLogic",
@@ -8909,6 +9676,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "rightAlign",
           "normalized": "TextFrameTable-\u003eTextFrameTable",
@@ -8924,6 +9692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "rowHeightList",
           "package": "PropLogic",
@@ -8933,6 +9702,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "rowHeightList",
           "normalized": "TextFrameTable-\u003e[Int]",
@@ -8948,6 +9718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "textFrame",
           "package": "PropLogic",
@@ -8957,6 +9728,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "textFrame",
           "normalized": "a-\u003eTextFrame",
@@ -8972,6 +9744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "textFrameBox",
           "package": "PropLogic",
@@ -8981,6 +9754,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "textFrameBox",
           "normalized": "TextFrame-\u003eTextFrame",
@@ -8996,6 +9770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "textFrameBracket",
           "package": "PropLogic",
@@ -9005,6 +9780,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "textFrameBracket",
           "normalized": "TextFrame-\u003eTextFrame",
@@ -9020,6 +9796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "topAlign",
           "package": "PropLogic",
@@ -9029,6 +9806,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "topAlign",
           "normalized": "TextFrameTable-\u003eTextFrameTable",
@@ -9044,6 +9822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:30 UTC 2014",
           "module": "TextDisplay",
           "name": "width",
           "package": "PropLogic",
@@ -9053,6 +9832,7 @@
         },
         "index": {
           "hierarchy": "TextDisplay",
+          "indexed": "2014-03-11T16:57:30",
           "module": "TextDisplay",
           "name": "width",
           "normalized": "TextFrame-\u003eInt",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "urlencoded"
+        "phrase": "urlencoded",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements a data type for constructing and destructing\n x-www-urlencoded strings. See\n \u003ca\u003ehttp://www.w3.org/TR/html401/interact/forms.html#h-17.13.4.1\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "URLEncoded",
           "package": "urlencoded",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implements data type for constructing and destructing x-www-urlencoded strings See http www.w3.org TR html401 interact forms.html h-17.13.4.1",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "URLEncoded",
           "package": "urlencoded",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "AddURLEncoded",
           "package": "urlencoded",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "AddURLEncoded",
           "package": "urlencoded",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value as x-www-urlencoded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "URLEncode",
           "package": "urlencoded",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Encode value as x-www-urlencoded",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "URLEncode",
           "package": "urlencoded",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container for URLEncoded data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "URLEncoded",
           "package": "urlencoded",
@@ -95,6 +102,7 @@
         "index": {
           "description": "container for URLEncoded data",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "URLEncoded",
           "package": "urlencoded",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a value into a String for encoding as part of an\n x-www-urlencoded value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "URLShow",
           "package": "urlencoded",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Serialize value into String for encoding as part of an x-www-urlencoded value",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "URLShow",
           "package": "urlencoded",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a key in a URLEncoded value and return the first matching\n value, or Nothing if there is no value that matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "(%!)",
           "package": "urlencoded",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Look up key in URLEncoded value and return the first matching value or Nothing if there is no value that matches",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "(%!) %!",
           "normalized": "URLEncoded-\u003ea-\u003eMaybe String",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "(%&)",
           "package": "urlencoded",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "(%&) %&",
           "normalized": "a-\u003ea-\u003eURLEncoded",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate singleton URLEncoded data containing the supplied key and value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "(%=)",
           "package": "urlencoded",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Create singleton URLEncoded data containing the supplied key and value",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "(%=) %=",
           "normalized": "a-\u003eb-\u003eURLEncoded",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the second value is Nothing, return empty URLEncoded\n data. Otherwise return singleton URLEncoded data that contains the\n given key and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "(%=?)",
           "package": "urlencoded",
@@ -214,6 +231,7 @@
         "index": {
           "description": "If the second value is Nothing return empty URLEncoded data Otherwise return singleton URLEncoded data that contains the given key and value",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "(%=?) %=?",
           "normalized": "a-\u003eMaybe b-\u003eURLEncoded",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "(%?)",
           "package": "urlencoded",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "(%?) %?",
           "normalized": "a-\u003eb-\u003ea",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd this URL-encoded data to the query part of a URI, after any\n existing query arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "addToURI",
           "package": "urlencoded",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Add this URL-encoded data to the query part of URI after any existing query arguments",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "addToURI",
           "normalized": "URLEncoded-\u003eURI-\u003eURI",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURLEncoded data with no pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "empty",
           "package": "urlencoded",
@@ -288,6 +311,7 @@
         "index": {
           "description": "URLEncoded data with no pairs",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "empty",
           "package": "urlencoded",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert this URLEncoded object into an x-www-urlencoded String\n (The resulting string is 7-bit clean ASCII, containing only\n unreserved URI characters and %-encoded values)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "export",
           "package": "urlencoded",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Convert this URLEncoded object into an x-www-urlencoded String The resulting string is bit clean ASCII containing only unreserved URI characters and encoded values",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "export",
           "normalized": "URLEncoded-\u003eString",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a URLEncoded object that represents all pairs from the\n input that match the supplied predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "filter",
           "package": "urlencoded",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Create URLEncoded object that represents all pairs from the input that match the supplied predicate",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "filter",
           "normalized": "((String,String)-\u003eBool)-\u003eURLEncoded-\u003eURLEncoded",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport this list of pairs as URLEncoded data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "importList",
           "package": "urlencoded",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Import this list of pairs as URLEncoded data",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "importList",
           "normalized": "[(String,String)]-\u003eURLEncoded",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse this string as x-www-urlencoded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "importString",
           "package": "urlencoded",
@@ -387,6 +418,7 @@
         "index": {
           "description": "Parse this string as x-www-urlencoded",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "importString",
           "normalized": "String-\u003ea URLEncoded",
@@ -402,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "importURI",
           "package": "urlencoded",
@@ -411,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "importURI",
           "normalized": "URI-\u003ea URLEncoded",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the keys from the URLEncoded value, in order, preserving duplicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "keys",
           "package": "urlencoded",
@@ -437,6 +472,7 @@
         "index": {
           "description": "All of the keys from the URLEncoded value in order preserving duplicates",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "keys",
           "normalized": "URLEncoded-\u003e[String]",
@@ -451,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "lookup",
           "package": "urlencoded",
@@ -460,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "lookup",
           "normalized": "a-\u003eURLEncoded-\u003eMaybe String",
@@ -475,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003cem\u003efirst\u003c/em\u003e value for the given key, or throw an error if the\n key is not present in the URLEncoded data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "lookup1",
           "package": "urlencoded",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Return the first value for the given key or throw an error if the key is not present in the URLEncoded data",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "lookup1",
           "normalized": "a-\u003eURLEncoded-\u003eb String",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all values whose keys match the supplied key, in the order\n they appear in the query. Will return an empty list if no keys\n match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "lookupAll",
           "package": "urlencoded",
@@ -510,6 +551,7 @@
         "index": {
           "description": "Return all values whose keys match the supplied key in the order they appear in the query Will return an empty list if no keys match",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "lookupAll",
           "normalized": "a-\u003eURLEncoded-\u003e[String]",
@@ -525,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "lookupDefault",
           "package": "urlencoded",
@@ -534,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "lookupDefault",
           "normalized": "String-\u003ea-\u003eURLEncoded-\u003eString",
@@ -550,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this URLEncoded data empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "null",
           "package": "urlencoded",
@@ -560,6 +605,7 @@
         "index": {
           "description": "Is this URLEncoded data empty",
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "null",
           "normalized": "URLEncoded-\u003eBool",
@@ -574,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "pairs",
           "package": "urlencoded",
@@ -583,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "pairs",
           "normalized": "URLEncoded-\u003e[(String,String)]",
@@ -597,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "urlEncode",
           "package": "urlencoded",
@@ -606,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "urlEncode",
           "normalized": "a-\u003eURLEncoded",
@@ -621,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:51 UTC 2014",
           "module": "Data.URLEncoded",
           "name": "urlShow",
           "package": "urlencoded",
@@ -630,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Data URLEncoded",
+          "indexed": "2014-03-11T20:31:51",
           "module": "Data.URLEncoded",
           "name": "urlShow",
           "normalized": "a-\u003eString",

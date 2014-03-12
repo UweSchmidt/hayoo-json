@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Xec"
+        "phrase": "Xec",
+        "type": "phrase"
       },
       "type": "context"
     }

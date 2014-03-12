@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mahoro"
+        "phrase": "mahoro",
+        "type": "phrase"
       },
       "type": "context"
     }

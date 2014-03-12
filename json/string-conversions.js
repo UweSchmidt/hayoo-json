@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "string-conversions"
+        "phrase": "string-conversions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type class for converting strings.\n Supported types are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAssumes UTF-8 encoding for both types of ByteStrings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "Conversions",
           "package": "string-conversions",
@@ -28,6 +29,7 @@
         "index": {
           "description": "type class for converting strings Supported types are String strict ByteString lazy ByteString strict Text lazy Text Assumes UTF-8 encoding for both types of ByteStrings",
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "Conversions",
           "package": "string-conversions",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "ConvertibleStrings",
           "package": "string-conversions",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "ConvertibleStrings",
           "package": "string-conversions",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "LBS",
           "package": "string-conversions",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "LBS",
           "package": "string-conversions",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "LT",
           "package": "string-conversions",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "LT",
           "package": "string-conversions",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "LazyByteString",
           "package": "string-conversions",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "LazyByteString",
           "package": "string-conversions",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "LazyText",
           "package": "string-conversions",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "LazyText",
           "package": "string-conversions",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "SBS",
           "package": "string-conversions",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "SBS",
           "package": "string-conversions",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "ST",
           "package": "string-conversions",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "ST",
           "package": "string-conversions",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "StrictByteString",
           "package": "string-conversions",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "StrictByteString",
           "package": "string-conversions",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "StrictText",
           "package": "string-conversions",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "StrictText",
           "package": "string-conversions",
@@ -231,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "(\u003c\u003e)",
           "package": "string-conversions",
@@ -240,6 +261,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "convertString",
           "package": "string-conversions",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "convertString",
           "normalized": "a-\u003eb",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:38 UTC 2014",
           "module": "Data.String.Conversions",
           "name": "cs",
           "package": "string-conversions",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Data String Conversions",
+          "indexed": "2014-03-11T20:12:38",
           "module": "Data.String.Conversions",
           "name": "cs",
           "normalized": "a-\u003eb",

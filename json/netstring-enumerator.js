@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "netstring-enumerator"
+        "phrase": "netstring-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:04 UTC 2014",
           "module": "Codec.Netstring.Enumerator",
           "name": "Enumerator",
           "package": "netstring-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Netstring Enumerator",
+          "indexed": "2014-03-11T19:27:04",
           "module": "Codec.Netstring.Enumerator",
           "name": "Enumerator",
           "package": "netstring-enumerator",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:04 UTC 2014",
           "module": "Codec.Netstring.Enumerator",
           "name": "decode",
           "package": "netstring-enumerator",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Codec Netstring Enumerator",
+          "indexed": "2014-03-11T19:27:04",
           "module": "Codec.Netstring.Enumerator",
           "name": "decode",
           "package": "netstring-enumerator",

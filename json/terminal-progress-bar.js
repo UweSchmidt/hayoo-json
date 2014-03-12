@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "terminal-progress-bar"
+        "phrase": "terminal-progress-bar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:48 UTC 2014",
           "module": "System.ProgressBar",
           "name": "ProgressBar",
           "package": "terminal-progress-bar",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System ProgressBar",
+          "indexed": "2014-03-11T20:18:48",
           "module": "System.ProgressBar",
           "name": "ProgressBar",
           "package": "terminal-progress-bar",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label that can be pre- or postfixed to a progress bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:48 UTC 2014",
           "module": "System.ProgressBar",
           "name": "Label",
           "package": "terminal-progress-bar",
@@ -49,6 +52,7 @@
         "index": {
           "description": "label that can be pre or postfixed to progress bar",
           "hierarchy": "System ProgressBar",
+          "indexed": "2014-03-11T20:18:48",
           "module": "System.ProgressBar",
           "name": "Label",
           "package": "terminal-progress-bar",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label which displays the progress as a fraction of the total\n amount of work.\n\u003c/p\u003e\u003cp\u003eEqual width property:\n &#8704; d&#8321; d&#8322; t : &#8469;. d&#8321; &#8804; d&#8322; &#8804; t &#8594; length (exact d&#8321; t) &#8801; length (exact d&#8322; t)\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eexact 30 100\n\u003c/code\u003e\u003c/strong\u003e\" 30/100\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:48 UTC 2014",
           "module": "System.ProgressBar",
           "name": "exact",
           "package": "terminal-progress-bar",
@@ -73,6 +78,7 @@
         "index": {
           "description": "label which displays the progress as fraction of the total amount of work Equal width property length exact length exact exact",
           "hierarchy": "System ProgressBar",
+          "indexed": "2014-03-11T20:18:48",
           "module": "System.ProgressBar",
           "name": "exact",
           "package": "terminal-progress-bar",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a progress bar\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emkProgressBar (msg \"Working\") percentage 40 30 100\n\u003c/code\u003e\u003c/strong\u003e\"Working [=======\u003e.................]  30%\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:48 UTC 2014",
           "module": "System.ProgressBar",
           "name": "mkProgressBar",
           "package": "terminal-progress-bar",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Renders progress bar mkProgressBar msg Working percentage Working",
           "hierarchy": "System ProgressBar",
+          "indexed": "2014-03-11T20:18:48",
           "module": "System.ProgressBar",
           "name": "mkProgressBar",
           "normalized": "Label-\u003eLabel-\u003eℤ-\u003eℤ-\u003eℤ-\u003eString",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label consisting of a static string.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emsg \"foo\" 30 100\n\u003c/code\u003e\u003c/strong\u003e\"foo\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:48 UTC 2014",
           "module": "System.ProgressBar",
           "name": "msg",
           "package": "terminal-progress-bar",
@@ -121,6 +130,7 @@
         "index": {
           "description": "label consisting of static string msg foo foo",
           "hierarchy": "System ProgressBar",
+          "indexed": "2014-03-11T20:18:48",
           "module": "System.ProgressBar",
           "name": "msg",
           "normalized": "String-\u003eLabel",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty label.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enoLabel 30 100\n\u003c/code\u003e\u003c/strong\u003e\"\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:48 UTC 2014",
           "module": "System.ProgressBar",
           "name": "noLabel",
           "package": "terminal-progress-bar",
@@ -146,6 +157,7 @@
         "index": {
           "description": "The empty label noLabel",
           "hierarchy": "System ProgressBar",
+          "indexed": "2014-03-11T20:18:48",
           "module": "System.ProgressBar",
           "name": "noLabel",
           "package": "terminal-progress-bar",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label which displays the progress as a percentage.\n\u003c/p\u003e\u003cp\u003eConstant width property:\n &#8704; d t : &#8469;. d &#8804; t &#8594; length (percentage d t) &#8801; 4\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003epercentage 30 100\n\u003c/code\u003e\u003c/strong\u003e\" 30%\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:48 UTC 2014",
           "module": "System.ProgressBar",
           "name": "percentage",
           "package": "terminal-progress-bar",
@@ -170,6 +183,7 @@
         "index": {
           "description": "label which displays the progress as percentage Constant width property length percentage percentage",
           "hierarchy": "System ProgressBar",
+          "indexed": "2014-03-11T20:18:48",
           "module": "System.ProgressBar",
           "name": "percentage",
           "package": "terminal-progress-bar",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a progress bar\n\u003c/p\u003e\u003cp\u003eErases the current line! (by outputting '\\r') Does not print a\n newline '\\n'. Subsequent invocations will overwrite the previous\n output.\n\u003c/p\u003e\u003cp\u003eRemember to set the correct buffering mode for stdout:\n\u003c/p\u003e\u003cpre\u003e import System.IO ( hSetBuffering, BufferMode(NoBuffering), stdout )\n hSetBuffering stdout NoBuffering\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:48 UTC 2014",
           "module": "System.ProgressBar",
           "name": "progressBar",
           "package": "terminal-progress-bar",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Print progress bar Erases the current line by outputting Does not print newline Subsequent invocations will overwrite the previous output Remember to set the correct buffering mode for stdout import System.IO hSetBuffering BufferMode NoBuffering stdout hSetBuffering stdout NoBuffering",
           "hierarchy": "System ProgressBar",
+          "indexed": "2014-03-11T20:18:48",
           "module": "System.ProgressBar",
           "name": "progressBar",
           "normalized": "Label-\u003eLabel-\u003eℤ-\u003eℤ-\u003eℤ-\u003eIO()",

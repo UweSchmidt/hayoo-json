@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yjftp"
+        "phrase": "yjftp",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ip6addr"
+        "phrase": "ip6addr",
+        "type": "phrase"
       },
       "type": "context"
     }

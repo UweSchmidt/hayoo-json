@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskoin-util"
+        "phrase": "haskoin-util",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuickCheck Arbitrary instances for various utility data types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Arbitrary",
           "name": "Arbitrary",
           "package": "haskoin-util",
@@ -28,6 +29,7 @@
         "index": {
           "description": "QuickCheck Arbitrary instances for various utility data types",
           "hierarchy": "Network Haskoin Util Arbitrary",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Arbitrary",
           "name": "Arbitrary",
           "package": "haskoin-util",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate non-empty strict ByteStrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Arbitrary",
           "name": "nonEmptyBS",
           "package": "haskoin-util",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Generate non-empty strict ByteStrings",
           "hierarchy": "Network Haskoin Util Arbitrary",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Arbitrary",
           "name": "nonEmptyBS",
           "package": "haskoin-util",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Build type, and associated operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "BuildMonad",
           "package": "haskoin-util",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The Build type and associated operations",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "BuildMonad",
           "package": "haskoin-util",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Build monad represents computations that can be in one of three states:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complete\n\u003c/li\u003e\u003cli\u003e Partial\n\u003c/li\u003e\u003cli\u003e Broken\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIt extends the Either monad with an additional Partial value to describe a\n  valid computation flagged with a Partial context. The Build monad is useful\n  when you describe computations where parts of the computation are either\n  complete, partially complete or broken. Combining only Complete computations\n  will produce a Complete result. However, if one of the computations is\n  Partial, the whole computation will be Partial as well. And if some\n  computation is Broken, the whole computation will be broken as well.\n\u003c/p\u003e\u003cp\u003eThe Build monad is used by Haskoin to describe the state of the transaction\n  signing computation. To sign a transaction, all input scripts need to be \n  signed. The whole transaction will be completely signed only if all the\n  input scripts are completely signed. If any of the inputs is partially signed,\n  then the whole transaction will be partially signed as well. And the whole\n  transaction is broken if one of the inputs failed to parse or is broken.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "Build",
           "package": "haskoin-util",
@@ -98,6 +105,7 @@
         "index": {
           "description": "The Build monad represents computations that can be in one of three states Complete Partial Broken It extends the Either monad with an additional Partial value to describe valid computation flagged with Partial context The Build monad is useful when you describe computations where parts of the computation are either complete partially complete or broken Combining only Complete computations will produce Complete result However if one of the computations is Partial the whole computation will be Partial as well And if some computation is Broken the whole computation will be broken as well The Build monad is used by Haskoin to describe the state of the transaction signing computation To sign transaction all input scripts need to be signed The whole transaction will be completely signed only if all the input scripts are completely signed If any of the inputs is partially signed then the whole transaction will be partially signed as well And the whole transaction is broken if one of the inputs failed to parse or is broken",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "Build",
           "package": "haskoin-util",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuildT transformer monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "BuildT",
           "package": "haskoin-util",
@@ -121,6 +130,7 @@
         "index": {
           "description": "BuildT transformer monad",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "BuildT",
           "package": "haskoin-util",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a broken computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "Broken",
           "package": "haskoin-util",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Describes broken computation",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "Broken",
           "package": "haskoin-util",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "BuildT",
           "package": "haskoin-util",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "BuildT",
           "package": "haskoin-util",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a successful complete computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "Complete",
           "package": "haskoin-util",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Describes successful complete computation",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "Complete",
           "package": "haskoin-util",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a successful but partial computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "Partial",
           "package": "haskoin-util",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Describes successful but partial computation",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "Partial",
           "package": "haskoin-util",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a Build value into an Either String value. Complete and Partial\n are mapped to Right and Broken is mapped to Left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "buildToEither",
           "package": "haskoin-util",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Transforms Build value into an Either String value Complete and Partial are mapped to Right and Broken is mapped to Left",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "buildToEither",
           "normalized": "Build a-\u003eEither String a",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms an Either String value into a Build value. Right is mapped to\n Complete and Left is mapped to Broken\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "eitherToBuild",
           "package": "haskoin-util",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Transforms an Either String value into Build value Right is mapped to Complete and Left is mapped to Broken",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "eitherToBuild",
           "normalized": "Either String a-\u003eBuild a",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds a Partial value to the computation when the predicate is False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "guardPartial",
           "package": "haskoin-util",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Binds Partial value to the computation when the predicate is False",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "guardPartial",
           "normalized": "Bool-\u003eBuild()",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the Build value is Broken\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "isBroken",
           "package": "haskoin-util",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Return True if the Build value is Broken",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "isBroken",
           "normalized": "Build a-\u003eBool",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the Build value is Complete\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "isComplete",
           "package": "haskoin-util",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Returns True if the Build value is Complete",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "isComplete",
           "normalized": "Build a-\u003eBool",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the Build value is Partial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "isPartial",
           "package": "haskoin-util",
@@ -369,6 +398,7 @@
         "index": {
           "description": "Returns True if the Build value is Partial",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "isPartial",
           "normalized": "Build a-\u003eBool",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a Build computation into the BuildT monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "liftBuild",
           "package": "haskoin-util",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Lift Build computation into the BuildT monad",
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "liftBuild",
           "normalized": "Build a-\u003eBuildT b a",
@@ -410,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "runBroken",
           "package": "haskoin-util",
@@ -419,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "runBroken",
           "package": "haskoin-util",
@@ -432,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "runBuild",
           "package": "haskoin-util",
@@ -441,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "runBuild",
           "package": "haskoin-util",
@@ -454,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "runBuildT",
           "package": "haskoin-util",
@@ -463,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Util BuildMonad",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.BuildMonad",
           "name": "runBuildT",
           "package": "haskoin-util",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclaration of constant values that depend on the network type\n  (for example: prodnet or testnet). The values exported from this modules\n  are imported from a network-specific sub-module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Network",
           "name": "Network",
           "package": "haskoin-util",
@@ -486,6 +525,7 @@
         "index": {
           "description": "Declaration of constant values that depend on the network type for example prodnet or testnet The values exported from this modules are imported from network-specific sub-module",
           "hierarchy": "Network Haskoin Util Network",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Network",
           "name": "Network",
           "package": "haskoin-util",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix for base58 PubKey hash address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Network",
           "name": "addrPrefix",
           "package": "haskoin-util",
@@ -510,6 +551,7 @@
         "index": {
           "description": "Prefix for base58 PubKey hash address",
           "hierarchy": "Network Haskoin Util Network",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Network",
           "name": "addrPrefix",
           "package": "haskoin-util",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix for extended public keys (BIP32)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Network",
           "name": "extPubKeyPrefix",
           "package": "haskoin-util",
@@ -534,6 +577,7 @@
         "index": {
           "description": "Prefix for extended public keys BIP32",
           "hierarchy": "Network Haskoin Util Network",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Network",
           "name": "extPubKeyPrefix",
           "package": "haskoin-util",
@@ -548,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix for extended private keys (BIP32)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Network",
           "name": "extSecretPrefix",
           "package": "haskoin-util",
@@ -558,6 +603,7 @@
         "index": {
           "description": "Prefix for extended private keys BIP32",
           "hierarchy": "Network Haskoin Util Network",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Network",
           "name": "extSecretPrefix",
           "package": "haskoin-util",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix for base58 script hash address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Network",
           "name": "scriptPrefix",
           "package": "haskoin-util",
@@ -582,6 +629,7 @@
         "index": {
           "description": "Prefix for base58 script hash address",
           "hierarchy": "Network Haskoin Util Network",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Network",
           "name": "scriptPrefix",
           "package": "haskoin-util",
@@ -596,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix for private key WIF format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Network",
           "name": "secretPrefix",
           "package": "haskoin-util",
@@ -606,6 +655,7 @@
         "index": {
           "description": "Prefix for private key WIF format",
           "hierarchy": "Network Haskoin Util Network",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Network",
           "name": "secretPrefix",
           "package": "haskoin-util",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWallet database file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util.Network",
           "name": "walletFile",
           "package": "haskoin-util",
@@ -630,6 +681,7 @@
         "index": {
           "description": "Wallet database file name",
           "hierarchy": "Network Haskoin Util Network",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util.Network",
           "name": "walletFile",
           "package": "haskoin-util",
@@ -644,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines various utility functions used across the \n  Network.Haskoin modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "Util",
           "package": "haskoin-util",
@@ -653,6 +706,7 @@
         "index": {
           "description": "This module defines various utility functions used across the Network.Haskoin modules",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "Util",
           "package": "haskoin-util",
@@ -667,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a bytestring to a base16 (HEX) representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "bsToHex",
           "package": "haskoin-util",
@@ -677,6 +732,7 @@
         "index": {
           "description": "Encode bytestring to base16 HEX representation",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "bsToHex",
           "normalized": "ByteString-\u003eString",
@@ -693,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a big endian Integer from a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "bsToInteger",
           "package": "haskoin-util",
@@ -703,6 +760,7 @@
         "index": {
           "description": "Decode big endian Integer from bytestring",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "bsToInteger",
           "normalized": "ByteString-\u003eInteger",
@@ -719,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a strict bytestring to a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "bsToString",
           "package": "haskoin-util",
@@ -729,6 +788,7 @@
         "index": {
           "description": "Transform strict bytestring to string",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "bsToString",
           "normalized": "ByteString-\u003eString",
@@ -745,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003eData.Binary.decode\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "decode'",
           "package": "haskoin-util",
@@ -755,6 +816,7 @@
         "index": {
           "description": "Strict version of Data.Binary.decode",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "decode'",
           "normalized": "ByteString-\u003ea",
@@ -770,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003eData.Binary.decodeOrFail\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "decodeOrFail'",
           "package": "haskoin-util",
@@ -780,6 +843,7 @@
         "index": {
           "description": "Strict version of Data.Binary.decodeOrFail",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "decodeOrFail'",
           "normalized": "ByteString-\u003eEither(ByteString,ByteOffset,String)(ByteString,ByteOffset,a)",
@@ -796,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a Data.Binary value into the Either monad. A Right value is returned\n with the result upon success. Otherwise a Left value with the error message\n is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "decodeToEither",
           "package": "haskoin-util",
@@ -806,6 +871,7 @@
         "index": {
           "description": "Decode Data.Binary value into the Either monad Right value is returned with the result upon success Otherwise Left value with the error message is returned",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "decodeToEither",
           "normalized": "ByteString-\u003eEither String a",
@@ -822,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a Data.Binary value into the Maybe monad. A Just value is returned\n with the result upon success. Otherwise, Nothing is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "decodeToMaybe",
           "package": "haskoin-util",
@@ -832,6 +899,7 @@
         "index": {
           "description": "Decode Data.Binary value into the Maybe monad Just value is returned with the result upon success Otherwise Nothing is returned",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "decodeToMaybe",
           "normalized": "ByteString-\u003eMaybe a",
@@ -848,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms an Either value into a Maybe value. Right is mapped to Just\n and Left is mapped to Nothing. The value inside Left is lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "eitherToMaybe",
           "package": "haskoin-util",
@@ -858,6 +927,7 @@
         "index": {
           "description": "Transforms an Either value into Maybe value Right is mapped to Just and Left is mapped to Nothing The value inside Left is lost",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "eitherToMaybe",
           "normalized": "Either a b-\u003eMaybe b",
@@ -874,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003eData.Binary.encode\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "encode'",
           "package": "haskoin-util",
@@ -884,6 +955,7 @@
         "index": {
           "description": "Strict version of Data.Binary.encode",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "encode'",
           "normalized": "a-\u003eByteString",
@@ -899,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to decode a Data.Binary value. If decoding succeeds, apply the function\n to the result. Otherwise, return the default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "fromDecode",
           "package": "haskoin-util",
@@ -908,6 +981,7 @@
         "index": {
           "description": "Try to decode Data.Binary value If decoding succeeds apply the function to the result Otherwise return the default value",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "fromDecode",
           "normalized": "ByteString-\u003ea-\u003e(b-\u003ea)-\u003ea",
@@ -924,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the Left value from an Either value. Fails if the value is Right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "fromLeft",
           "package": "haskoin-util",
@@ -934,6 +1009,7 @@
         "index": {
           "description": "Extract the Left value from an Either value Fails if the value is Right",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "fromLeft",
           "normalized": "Either a b-\u003ea",
@@ -950,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the Right value from an Either value. Fails if the value is Left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "fromRight",
           "package": "haskoin-util",
@@ -960,6 +1037,7 @@
         "index": {
           "description": "Extract the Right value from an Either value Fails if the value is Left",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "fromRight",
           "normalized": "Either a b-\u003eb",
@@ -976,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to run a Data.Binary.Get monad. If decoding succeeds, apply a function\n to the result. Otherwise, return the default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "fromRunGet",
           "package": "haskoin-util",
@@ -985,6 +1064,7 @@
         "index": {
           "description": "Try to run Data.Binary.Get monad If decoding succeeds apply function to the result Otherwise return the default value",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "fromRunGet",
           "normalized": "Get a-\u003eByteString-\u003eb-\u003e(a-\u003eb)-\u003eb",
@@ -1001,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base16 (HEX) string from a bytestring. This function can fail\n if the string contains invalid HEX characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "hexToBS",
           "package": "haskoin-util",
@@ -1011,6 +1092,7 @@
         "index": {
           "description": "Decode base16 HEX string from bytestring This function can fail if the string contains invalid HEX characters",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "hexToBS",
           "normalized": "String-\u003eMaybe ByteString",
@@ -1027,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an Integer to a bytestring as big endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "integerToBS",
           "package": "haskoin-util",
@@ -1037,6 +1120,7 @@
         "index": {
           "description": "Encode an Integer to bytestring as big endian",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "integerToBS",
           "normalized": "Integer-\u003eByteString",
@@ -1053,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the Either value is Left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "isLeft",
           "package": "haskoin-util",
@@ -1063,6 +1148,7 @@
         "index": {
           "description": "Returns True if the Either value is Left",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "isLeft",
           "normalized": "Either a b-\u003eBool",
@@ -1079,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the Either value is Right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "isRight",
           "package": "haskoin-util",
@@ -1089,6 +1176,7 @@
         "index": {
           "description": "Returns True if the Either value is Right",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "isRight",
           "normalized": "Either a b-\u003eBool",
@@ -1105,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsolate a Data.Binary.Get monad for the next \u003ccode\u003eInt\u003c/code\u003e bytes. Only the next\n \u003ccode\u003eInt\u003c/code\u003e bytes of the input bytestring will be available for the Get monad to\n consume. This function will fail if the Get monad fails or some of the input\n is not consumed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "isolate",
           "package": "haskoin-util",
@@ -1115,6 +1204,7 @@
         "index": {
           "description": "Isolate Data.Binary.Get monad for the next Int bytes Only the next Int bytes of the input bytestring will be available for the Get monad to consume This function will fail if the Get monad fails or some of the input is not consumed",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "isolate",
           "normalized": "Int-\u003eGet a-\u003eGet a",
@@ -1130,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the list [b] as a template and try to match the elements of [a]\n against it. For each element of [b] return the (first) matching element of\n [a], or Nothing. Output list has same size as [b] and contains results in\n same order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "matchTemplate",
           "package": "haskoin-util",
@@ -1139,6 +1230,7 @@
         "index": {
           "description": "Use the list as template and try to match the elements of against it For each element of return the first matching element of or Nothing Output list has same size as and contains results in same order",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "matchTemplate",
           "normalized": "[a]-\u003e[b]-\u003e(a-\u003eb-\u003eBool)-\u003e[Maybe a]",
@@ -1155,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a Maybe value into an Either value. Just is mapped to Right and\n Nothing is mapped to Left. You also pass in an error value in case Left is\n returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "maybeToEither",
           "package": "haskoin-util",
@@ -1165,6 +1258,7 @@
         "index": {
           "description": "Transforms Maybe value into an Either value Just is mapped to Right and Nothing is mapped to Left You also pass in an error value in case Left is returned",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "maybeToEither",
           "normalized": "a-\u003eMaybe b-\u003eEither a b",
@@ -1181,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003eData.Binary.runGet\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "runGet'",
           "package": "haskoin-util",
@@ -1191,6 +1286,7 @@
         "index": {
           "description": "Strict version of Data.Binary.runGet",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "runGet'",
           "normalized": "Get a-\u003eByteString-\u003ea",
@@ -1207,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003eData.Binary.runGetOrFail\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "runGetOrFail'",
           "package": "haskoin-util",
@@ -1217,6 +1314,7 @@
         "index": {
           "description": "Strict version of Data.Binary.runGetOrFail",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "runGetOrFail'",
           "normalized": "Get a-\u003eByteString-\u003eEither(ByteString,ByteOffset,String)(ByteString,ByteOffset,a)",
@@ -1233,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003eData.Binary.runPut\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "runPut'",
           "package": "haskoin-util",
@@ -1243,6 +1342,7 @@
         "index": {
           "description": "Strict version of Data.Binary.runPut",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "runPut'",
           "normalized": "Put-\u003eByteString",
@@ -1259,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a string into a strict bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "stringToBS",
           "package": "haskoin-util",
@@ -1269,6 +1370,7 @@
         "index": {
           "description": "Transforms string into strict bytestring",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "stringToBS",
           "normalized": "String-\u003eByteString",
@@ -1285,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a strict bytestring into a lazy bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "toLazyBS",
           "package": "haskoin-util",
@@ -1295,6 +1398,7 @@
         "index": {
           "description": "Transforms strict bytestring into lazy bytestring",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "toLazyBS",
           "normalized": "ByteString-\u003eByteString",
@@ -1311,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a lazy bytestring into a strict bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "toStrictBS",
           "package": "haskoin-util",
@@ -1321,6 +1426,7 @@
         "index": {
           "description": "Transforms lazy bytestring into strict bytestring",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "toStrictBS",
           "normalized": "ByteString-\u003eByteString",
@@ -1337,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to only one element of a list defined by it's index.\n If the index is out of the bounds of the list, the original list is returned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:27 UTC 2014",
           "module": "Network.Haskoin.Util",
           "name": "updateIndex",
           "package": "haskoin-util",
@@ -1346,6 +1453,7 @@
         "index": {
           "description": "Applies function to only one element of list defined by it index If the index is out of the bounds of the list the original list is returned",
           "hierarchy": "Network Haskoin Util",
+          "indexed": "2014-03-11T18:33:27",
           "module": "Network.Haskoin.Util",
           "name": "updateIndex",
           "normalized": "Int-\u003e[a]-\u003e(a-\u003ea)-\u003e[a]",

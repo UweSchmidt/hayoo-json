@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "process-extras"
+        "phrase": "process-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:21 UTC 2014",
           "module": "System.Process.ByteString.Lazy",
           "name": "Lazy",
           "package": "process-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString Lazy",
+          "indexed": "2014-03-11T19:44:21",
           "module": "System.Process.ByteString.Lazy",
           "name": "Lazy",
           "package": "process-extras",
@@ -65,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:21 UTC 2014",
           "module": "System.Process.ByteString",
           "name": "ByteString",
           "package": "process-extras",
@@ -73,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString",
+          "indexed": "2014-03-11T19:44:21",
           "module": "System.Process.ByteString",
           "name": "ByteString",
           "package": "process-extras",
@@ -86,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:21 UTC 2014",
           "module": "System.Process.Text.Lazy",
           "name": "Lazy",
           "package": "process-extras",
@@ -94,6 +99,7 @@
         },
         "index": {
           "hierarchy": "System Process Text Lazy",
+          "indexed": "2014-03-11T19:44:21",
           "module": "System.Process.Text.Lazy",
           "name": "Lazy",
           "package": "process-extras",
@@ -133,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:21 UTC 2014",
           "module": "System.Process.Text",
           "name": "Text",
           "package": "process-extras",
@@ -141,6 +148,7 @@
         },
         "index": {
           "hierarchy": "System Process Text",
+          "indexed": "2014-03-11T19:44:21",
           "module": "System.Process.Text",
           "name": "Text",
           "package": "process-extras",

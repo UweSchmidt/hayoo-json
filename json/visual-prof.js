@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "visual-prof"
+        "phrase": "visual-prof",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-browser"
+        "phrase": "manatee-browser",
+        "type": "phrase"
       },
       "type": "context"
     }

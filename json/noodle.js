@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "noodle"
+        "phrase": "noodle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Banner",
           "name": "Banner",
           "package": "noodle",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Banner",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Banner",
           "name": "Banner",
           "package": "noodle",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Banner",
           "name": "text",
           "package": "noodle",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Banner",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Banner",
           "name": "text",
           "normalized": "[Char]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.DepTree",
           "name": "DepTree",
           "package": "noodle",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle DepTree",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.DepTree",
           "name": "DepTree",
           "package": "noodle",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.DepTree",
           "name": "SourceFile",
           "package": "noodle",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle DepTree",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.DepTree",
           "name": "SourceFile",
           "package": "noodle",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.DepTree",
           "name": "SF",
           "package": "noodle",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle DepTree",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.DepTree",
           "name": "SF",
           "package": "noodle",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.DepTree",
           "name": "parseDeps",
           "package": "noodle",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle DepTree",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.DepTree",
           "name": "parseDeps",
           "normalized": "[FilePath]-\u003eFilePath-\u003eIO(Either String SourceFile)",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.DepTree",
           "name": "srcBody",
           "package": "noodle",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle DepTree",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.DepTree",
           "name": "srcBody",
           "package": "noodle",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.DepTree",
           "name": "srcDeps",
           "package": "noodle",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle DepTree",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.DepTree",
           "name": "srcDeps",
           "normalized": "[SourceFile]",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.DepTree",
           "name": "srcDir",
           "package": "noodle",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle DepTree",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.DepTree",
           "name": "srcDir",
           "package": "noodle",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.DepTree",
           "name": "srcName",
           "package": "noodle",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle DepTree",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.DepTree",
           "name": "srcName",
           "package": "noodle",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Evaluation",
           "package": "noodle",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Evaluation",
           "package": "noodle",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Env",
           "package": "noodle",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Env",
           "package": "noodle",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Error",
           "package": "noodle",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Error",
           "package": "noodle",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Name",
           "package": "noodle",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Name",
           "package": "noodle",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Val",
           "package": "noodle",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Val",
           "package": "noodle",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Abst",
           "package": "noodle",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Abst",
           "package": "noodle",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "BadParse",
           "package": "noodle",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "BadParse",
           "package": "noodle",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Bar",
           "package": "noodle",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Bar",
           "package": "noodle",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Env",
           "package": "noodle",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Env",
           "normalized": "Env Unique Env[(Name,Val)]",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Error",
           "package": "noodle",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Error",
           "package": "noodle",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Extern",
           "package": "noodle",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Extern",
           "package": "noodle",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Function",
           "package": "noodle",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Function",
           "normalized": "Function(Val-\u003eIO Val)",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Module",
           "package": "noodle",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Module",
           "package": "noodle",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Nil",
           "package": "noodle",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Nil",
           "package": "noodle",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Number",
           "package": "noodle",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Number",
           "package": "noodle",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Prod",
           "package": "noodle",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Prod",
           "package": "noodle",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Str",
           "package": "noodle",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Str",
           "package": "noodle",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Symbol",
           "package": "noodle",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Symbol",
           "package": "noodle",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Thunk",
           "package": "noodle",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Thunk",
           "package": "noodle",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "Top",
           "package": "noodle",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "Top",
           "package": "noodle",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "compile",
           "package": "noodle",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "compile",
           "normalized": "Env-\u003eString-\u003eVal",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "compileFile",
           "package": "noodle",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "compileFile",
           "normalized": "Env-\u003eFilePath-\u003eIO Val",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "compute",
           "package": "noodle",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "compute",
           "normalized": "Env-\u003eComp-\u003eIO Val",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "declare",
           "package": "noodle",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "declare",
           "normalized": "Env-\u003eDecls-\u003eIO(Either String Env)",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "extenv",
           "package": "noodle",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "extenv",
           "normalized": "[(String,Val)]-\u003eEnv",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "extfun",
           "package": "noodle",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "extfun",
           "normalized": "(Val-\u003eIO Val)-\u003eVal",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "extmod",
           "package": "noodle",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "extmod",
           "normalized": "Env-\u003eVal",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "extop",
           "package": "noodle",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "extop",
           "normalized": "(Val-\u003eVal-\u003eIO Val)-\u003eVal",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "rtError",
           "package": "noodle",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "rtError",
           "normalized": "Val-\u003eVal",
@@ -888,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "showAst",
           "package": "noodle",
@@ -897,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "showAst",
           "normalized": "String-\u003eString",
@@ -912,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Evaluation",
           "name": "srtError",
           "package": "noodle",
@@ -921,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Evaluation",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Evaluation",
           "name": "srtError",
           "normalized": "String-\u003eVal",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Basic",
           "name": "Basic",
           "package": "noodle",
@@ -944,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Basic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Basic",
           "name": "Basic",
           "package": "noodle",
@@ -957,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Basic",
           "name": "decls",
           "package": "noodle",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Basic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Basic",
           "name": "decls",
           "normalized": "[(String,Val)]",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Basic",
           "name": "env",
           "package": "noodle",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Basic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Basic",
           "name": "env",
           "package": "noodle",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Boolean",
           "name": "Boolean",
           "package": "noodle",
@@ -1009,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Boolean",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Boolean",
           "name": "Boolean",
           "package": "noodle",
@@ -1022,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Boolean",
           "name": "decls",
           "package": "noodle",
@@ -1031,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Boolean",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Boolean",
           "name": "decls",
           "normalized": "[([Char],Val)]",
@@ -1045,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Boolean",
           "name": "env",
           "package": "noodle",
@@ -1054,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Boolean",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Boolean",
           "name": "env",
           "package": "noodle",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Function",
           "name": "Function",
           "package": "noodle",
@@ -1074,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Function",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Function",
           "name": "Function",
           "package": "noodle",
@@ -1087,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Function",
           "name": "decls",
           "package": "noodle",
@@ -1096,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Function",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Function",
           "name": "decls",
           "normalized": "[([Char],Val)]",
@@ -1110,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Function",
           "name": "env",
           "package": "noodle",
@@ -1119,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Function",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Function",
           "name": "env",
           "package": "noodle",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.IO",
           "name": "IO",
           "package": "noodle",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib IO",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.IO",
           "name": "IO",
           "package": "noodle",
@@ -1152,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.IO",
           "name": "decls",
           "package": "noodle",
@@ -1161,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib IO",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.IO",
           "name": "decls",
           "normalized": "[([Char],Val)]",
@@ -1175,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.IO",
           "name": "env",
           "package": "noodle",
@@ -1184,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib IO",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.IO",
           "name": "env",
           "package": "noodle",
@@ -1196,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Math",
           "name": "Math",
           "package": "noodle",
@@ -1204,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Math",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Math",
           "name": "Math",
           "package": "noodle",
@@ -1217,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Math",
           "name": "decls",
           "package": "noodle",
@@ -1226,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Math",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Math",
           "name": "decls",
           "normalized": "[([Char],Val)]",
@@ -1240,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Math",
           "name": "env",
           "package": "noodle",
@@ -1249,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Math",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Math",
           "name": "env",
           "package": "noodle",
@@ -1261,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Prod",
           "name": "Prod",
           "package": "noodle",
@@ -1269,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Prod",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Prod",
           "name": "Prod",
           "package": "noodle",
@@ -1282,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Prod",
           "name": "decls",
           "package": "noodle",
@@ -1291,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Prod",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Prod",
           "name": "decls",
           "normalized": "[([Char],Val)]",
@@ -1305,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.Prod",
           "name": "env",
           "package": "noodle",
@@ -1314,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib Prod",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.Prod",
           "name": "env",
           "package": "noodle",
@@ -1326,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.String",
           "name": "String",
           "package": "noodle",
@@ -1334,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.String",
           "name": "String",
           "package": "noodle",
@@ -1347,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.String",
           "name": "decls",
           "package": "noodle",
@@ -1356,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.String",
           "name": "decls",
           "normalized": "[([Char],Val)]",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Lib.String",
           "name": "env",
           "package": "noodle",
@@ -1379,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Lib String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Lib.String",
           "name": "env",
           "package": "noodle",
@@ -1392,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGParser is a generalized backtracking parser combinator with state, error propogation and easy to use associativity primitves.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "Generic",
           "package": "noodle",
@@ -1401,6 +1526,7 @@
         "index": {
           "description": "GParser is generalized backtracking parser combinator with state error propogation and easy to use associativity primitves",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "Generic",
           "package": "noodle",
@@ -1415,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eGParser\u003c/a\u003e\u003c/code\u003e computes some result \u003ccode\u003eres\u003c/code\u003e, based on a stream of tokens \u003ccode\u003etok\u003c/code\u003e having a state of type \u003ccode\u003est\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "GParser",
           "package": "noodle",
@@ -1424,6 +1551,7 @@
         "index": {
           "description": "GParser computes some result res based on stream of tokens tok having state of type st",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "GParser",
           "package": "noodle",
@@ -1438,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e encompases error propogation, parameterized over \u003ccode\u003est\u003c/code\u003e state type, \u003ccode\u003etok\u003c/code\u003e token type, and \u003ccode\u003eres\u003c/code\u003e the monadic return value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "Result",
           "package": "noodle",
@@ -1447,6 +1576,7 @@
         "index": {
           "description": "Result encompases error propogation parameterized over st state type tok token type and res the monadic return value",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "Result",
           "package": "noodle",
@@ -1461,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif the left operand \u003ca\u003e|\u003c/a\u003e results in failure, apply the right operand. state and token stream changes are not carried over to right operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "(\u003c|\u003e)",
           "package": "noodle",
@@ -1471,6 +1602,7 @@
         "index": {
           "description": "if the left operand results in failure apply the right operand state and token stream changes are not carried over to right operand",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "GParser a b c-\u003eGParser a b c-\u003eGParser a b c",
@@ -1486,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'Failure error_message state'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "Failure",
           "package": "noodle",
@@ -1496,6 +1629,7 @@
         "index": {
           "description": "Failure error message state",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "Failure",
           "package": "noodle",
@@ -1509,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "P",
           "package": "noodle",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "P",
           "normalized": "P((a,[b])-\u003eResult a b c)",
@@ -1533,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'Success result state token_stream'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "Success",
           "package": "noodle",
@@ -1543,6 +1680,7 @@
         "index": {
           "description": "Success result state token stream",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "Success",
           "normalized": "Success a b[c]",
@@ -1559,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe first successful parser to succeed is parsed, if none, fail\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "choice",
           "package": "noodle",
@@ -1569,6 +1708,7 @@
         "index": {
           "description": "the first successful parser to succeed is parsed if none fail",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "choice",
           "normalized": "[GParser a b c]-\u003eGParser a b c",
@@ -1584,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the current state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "getSt",
           "package": "noodle",
@@ -1594,6 +1735,7 @@
         "index": {
           "description": "return the current state",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "getSt",
           "package": "noodle",
@@ -1608,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econsume one token and return it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "getTok",
           "package": "noodle",
@@ -1618,6 +1761,7 @@
         "index": {
           "description": "consume one token and return it",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "getTok",
           "package": "noodle",
@@ -1632,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econsume one token and return it if the result of applying the predicate to it is true, otherwise fail with 'unexpected token'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "getTokIf",
           "package": "noodle",
@@ -1642,6 +1787,7 @@
         "index": {
           "description": "consume one token and return it if the result of applying the predicate to it is true otherwise fail with unexpected token",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "getTokIf",
           "normalized": "(a-\u003eBool)-\u003eGParser b a a",
@@ -1658,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esucceed if all of the input has been consumed, otherwise complain about expecting the end of the input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "inputEnd",
           "package": "noodle",
@@ -1668,6 +1815,7 @@
         "index": {
           "description": "succeed if all of the input has been consumed otherwise complain about expecting the end of the input",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "inputEnd",
           "normalized": "GParser a b()",
@@ -1684,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elookahead at the rest of the tokens left in the input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "lookToks",
           "package": "noodle",
@@ -1694,6 +1843,7 @@
         "index": {
           "description": "lookahead at the rest of the tokens left in the input",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "lookToks",
           "normalized": "GParser a b[b]",
@@ -1710,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply the parser as many times as is possible, and return a list of the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "many",
           "package": "noodle",
@@ -1720,6 +1871,7 @@
         "index": {
           "description": "apply the parser as many times as is possible and return list of the results",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "many",
           "normalized": "GParser a b c-\u003eGParser a b[c]",
@@ -1735,6 +1887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply the parser one or more times, and return a list of the results. Fails the first application fails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "many1",
           "package": "noodle",
@@ -1745,6 +1898,7 @@
         "index": {
           "description": "apply the parser one or more times and return list of the results Fails the first application fails",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "many1",
           "normalized": "GParser a b c-\u003eGParser a b[c]",
@@ -1760,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply some update function to the current state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "modSt",
           "package": "noodle",
@@ -1770,6 +1925,7 @@
         "index": {
           "description": "apply some update function to the current state",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "modSt",
           "normalized": "(a-\u003ea)-\u003eGParser a b()",
@@ -1786,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to parse either p1 or p2, returning Left a for p1, or Right b for p2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "pEither",
           "package": "noodle",
@@ -1796,6 +1953,7 @@
         "index": {
           "description": "try to parse either p1 or p2 returning Left for p1 or Right for p2",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "pEither",
           "normalized": "GParser a b c-\u003eGParser a b d-\u003eGParser a b(Either c d)",
@@ -1812,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to apply parser p, return Just res on success, or Nothing on fail\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "pMaybe",
           "package": "noodle",
@@ -1822,6 +1981,7 @@
         "index": {
           "description": "try to apply parser return Just res on success or Nothing on fail",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "pMaybe",
           "normalized": "GParser a b c-\u003eGParser a b(Maybe c)",
@@ -1838,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the value of the current state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "putSt",
           "package": "noodle",
@@ -1848,6 +2009,7 @@
         "index": {
           "description": "change the value of the current state",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "putSt",
           "normalized": "a-\u003eGParser a b()",
@@ -1864,6 +2026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply a \u003ccode\u003e\u003ca\u003eGParser\u003c/a\u003e\u003c/code\u003e computation to state and a token stream, returning a value of type \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "runp",
           "package": "noodle",
@@ -1874,6 +2037,7 @@
         "index": {
           "description": "apply GParser computation to state and token stream returning value of type Result",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "runp",
           "normalized": "GParser a b c-\u003ea-\u003e[b]-\u003eResult a b c",
@@ -1889,6 +2053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse many p's seperated by sep\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "sepBy",
           "package": "noodle",
@@ -1899,6 +2064,7 @@
         "index": {
           "description": "parse many seperated by sep",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "sepBy",
           "normalized": "GParser a b c-\u003eGParser a b d-\u003eGParser a b[c]",
@@ -1915,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse many1 p's seperated by sep\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "sepBy1",
           "package": "noodle",
@@ -1925,6 +2092,7 @@
         "index": {
           "description": "parse many1 seperated by sep",
           "hierarchy": "Language Noodle Parsing Generic",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Generic",
           "name": "sepBy1",
           "normalized": "GParser a b c-\u003eGParser a b d-\u003eGParser a b[c]",
@@ -1940,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "Noodle",
           "package": "noodle",
@@ -1948,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "Noodle",
           "package": "noodle",
@@ -1961,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "NParser",
           "package": "noodle",
@@ -1969,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "NParser",
           "package": "noodle",
@@ -1982,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "absLit",
           "package": "noodle",
@@ -1991,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "absLit",
           "normalized": "GParser(PosSt())Char a-\u003eGParser(PosSt())Char(Literal a)",
@@ -2006,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "block",
           "package": "noodle",
@@ -2015,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "block",
           "normalized": "NParser a-\u003eNParser a",
@@ -2029,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "clause",
           "package": "noodle",
@@ -2038,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "clause",
           "normalized": "NParser a-\u003eNParser b-\u003eNParser(a,b)",
@@ -2052,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "comment",
           "package": "noodle",
@@ -2061,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "comment",
           "package": "noodle",
@@ -2073,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "comp",
           "package": "noodle",
@@ -2082,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "comp",
           "package": "noodle",
@@ -2094,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "decl",
           "package": "noodle",
@@ -2103,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "decl",
           "package": "noodle",
@@ -2115,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "decls",
           "package": "noodle",
@@ -2124,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "decls",
           "package": "noodle",
@@ -2136,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "expr",
           "package": "noodle",
@@ -2145,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "expr",
           "normalized": "GParser(PosSt())Char Expr",
@@ -2159,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "exprApp",
           "package": "noodle",
@@ -2168,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "exprApp",
           "normalized": "GParser(PosSt())Char Expr",
@@ -2183,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "exprLit",
           "package": "noodle",
@@ -2192,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "exprLit",
           "normalized": "GParser(PosSt())Char Expr",
@@ -2207,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "exprOp",
           "package": "noodle",
@@ -2216,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "exprOp",
           "normalized": "GParser(PosSt())Char Expr",
@@ -2231,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "ident",
           "package": "noodle",
@@ -2240,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "ident",
           "package": "noodle",
@@ -2252,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "identifier",
           "package": "noodle",
@@ -2261,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "identifier",
           "normalized": "GParser(PosSt())Char(Literal a)",
@@ -2275,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "isReserved",
           "package": "noodle",
@@ -2284,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "isReserved",
           "normalized": "String-\u003eBool",
@@ -2299,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "lBrace",
           "package": "noodle",
@@ -2308,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "lBrace",
           "normalized": "NParser()",
@@ -2323,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "lParen",
           "package": "noodle",
@@ -2332,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "lParen",
           "normalized": "NParser()",
@@ -2347,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "literal",
           "package": "noodle",
@@ -2356,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "literal",
           "normalized": "NParser a-\u003eNParser(Literal a)",
@@ -2370,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "modRef",
           "package": "noodle",
@@ -2379,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "modRef",
           "normalized": "GParser(PosSt())Char Expr",
@@ -2394,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "notcode",
           "package": "noodle",
@@ -2403,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "notcode",
           "normalized": "NParser()",
@@ -2417,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "number",
           "package": "noodle",
@@ -2426,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "number",
           "normalized": "GParser(PosSt())Char(Literal a)",
@@ -2440,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "numeric",
           "package": "noodle",
@@ -2449,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "numeric",
           "package": "noodle",
@@ -2461,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "opChar",
           "package": "noodle",
@@ -2470,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "opChar",
           "package": "noodle",
@@ -2483,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "opChars",
           "package": "noodle",
@@ -2492,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "opChars",
           "normalized": "GParser(PosSt())Char[Char]",
@@ -2507,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "oper",
           "package": "noodle",
@@ -2516,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "oper",
           "package": "noodle",
@@ -2528,6 +2748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "paren",
           "package": "noodle",
@@ -2537,6 +2758,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "paren",
           "normalized": "GParser(PosSt())Char a-\u003eGParser(PosSt())Char(Literal a)",
@@ -2551,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "pattern",
           "package": "noodle",
@@ -2560,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "pattern",
           "package": "noodle",
@@ -2572,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "prodLit",
           "package": "noodle",
@@ -2581,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "prodLit",
           "normalized": "NParser a-\u003eNParser(Literal a)",
@@ -2596,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "rBrace",
           "package": "noodle",
@@ -2605,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "rBrace",
           "normalized": "NParser()",
@@ -2620,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "rParen",
           "package": "noodle",
@@ -2629,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "rParen",
           "normalized": "NParser()",
@@ -2644,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "reserved",
           "package": "noodle",
@@ -2653,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "reserved",
           "normalized": "String-\u003eNParser()",
@@ -2667,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "stringLit",
           "package": "noodle",
@@ -2676,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "stringLit",
           "package": "noodle",
@@ -2689,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "symbLit",
           "package": "noodle",
@@ -2698,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "symbLit",
           "package": "noodle",
@@ -2711,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "topDecls",
           "package": "noodle",
@@ -2720,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Noodle",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Noodle",
           "name": "topDecls",
           "package": "noodle",
@@ -2733,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "Positional",
           "package": "noodle",
@@ -2741,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "Positional",
           "package": "noodle",
@@ -2754,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "PosParser",
           "package": "noodle",
@@ -2762,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "PosParser",
           "package": "noodle",
@@ -2775,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "Position",
           "package": "noodle",
@@ -2783,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "Position",
           "package": "noodle",
@@ -2796,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "getPos",
           "package": "noodle",
@@ -2805,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "getPos",
           "package": "noodle",
@@ -2818,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "getSt",
           "package": "noodle",
@@ -2827,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "getSt",
           "package": "noodle",
@@ -2840,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "incLine",
           "package": "noodle",
@@ -2849,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "incLine",
           "normalized": "PosParser a b()",
@@ -2864,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "incPos",
           "package": "noodle",
@@ -2873,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "incPos",
           "normalized": "PosParser a b()",
@@ -2888,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "modSt",
           "package": "noodle",
@@ -2897,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "modSt",
           "normalized": "(a-\u003ea)-\u003ePosParser a b()",
@@ -2912,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "putSt",
           "package": "noodle",
@@ -2921,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "putSt",
           "normalized": "a-\u003ePosParser a b()",
@@ -2936,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "startPos",
           "package": "noodle",
@@ -2945,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing Positional",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.Positional",
           "name": "startPos",
           "package": "noodle",
@@ -2958,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "String",
           "package": "noodle",
@@ -2966,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "String",
           "package": "noodle",
@@ -2979,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "Parser",
           "package": "noodle",
@@ -2987,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "Parser",
           "package": "noodle",
@@ -3000,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "alphaLower",
           "package": "noodle",
@@ -3009,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "alphaLower",
           "package": "noodle",
@@ -3022,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "alphaUpper",
           "package": "noodle",
@@ -3031,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "alphaUpper",
           "package": "noodle",
@@ -3044,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "char",
           "package": "noodle",
@@ -3053,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "char",
           "normalized": "Char-\u003eParser a Char",
@@ -3067,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "digit",
           "package": "noodle",
@@ -3076,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "digit",
           "package": "noodle",
@@ -3088,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "oneOf",
           "package": "noodle",
@@ -3097,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "oneOf",
           "normalized": "[Char]-\u003eParser a Char",
@@ -3112,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "satisfy",
           "package": "noodle",
@@ -3121,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "satisfy",
           "normalized": "(Char-\u003eBool)-\u003eParser a Char",
@@ -3135,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "string",
           "package": "noodle",
@@ -3144,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "string",
           "normalized": "String-\u003eParser a String",
@@ -3158,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "whiteChar",
           "package": "noodle",
@@ -3167,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "whiteChar",
           "package": "noodle",
@@ -3180,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Parsing.String",
           "name": "whiteSpace",
           "package": "noodle",
@@ -3189,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Parsing String",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Parsing.String",
           "name": "whiteSpace",
           "package": "noodle",
@@ -3202,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Syntax",
           "package": "noodle",
@@ -3210,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Syntax",
           "package": "noodle",
@@ -3223,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Comp",
           "package": "noodle",
@@ -3231,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Comp",
           "package": "noodle",
@@ -3244,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Decl",
           "package": "noodle",
@@ -3252,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Decl",
           "package": "noodle",
@@ -3265,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Decls",
           "package": "noodle",
@@ -3273,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Decls",
           "package": "noodle",
@@ -3286,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Expr",
           "package": "noodle",
@@ -3294,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Expr",
           "package": "noodle",
@@ -3307,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Literal",
           "package": "noodle",
@@ -3315,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Literal",
           "package": "noodle",
@@ -3328,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Pattern",
           "package": "noodle",
@@ -3336,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Pattern",
           "package": "noodle",
@@ -3349,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Abs",
           "package": "noodle",
@@ -3358,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Abs",
           "package": "noodle",
@@ -3371,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Decls",
           "package": "noodle",
@@ -3380,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Decls",
           "package": "noodle",
@@ -3393,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "ExprApp",
           "package": "noodle",
@@ -3402,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "ExprApp",
           "package": "noodle",
@@ -3415,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "ExprComp",
           "package": "noodle",
@@ -3424,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "ExprComp",
           "package": "noodle",
@@ -3437,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "ExprOp",
           "package": "noodle",
@@ -3446,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "ExprOp",
           "package": "noodle",
@@ -3459,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Handler",
           "package": "noodle",
@@ -3468,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Handler",
           "package": "noodle",
@@ -3481,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Ident",
           "package": "noodle",
@@ -3490,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Ident",
           "package": "noodle",
@@ -3503,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "In",
           "package": "noodle",
@@ -3512,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "In",
           "package": "noodle",
@@ -3525,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "IntFun",
           "package": "noodle",
@@ -3534,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "IntFun",
           "package": "noodle",
@@ -3547,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "IntMod",
           "package": "noodle",
@@ -3556,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "IntMod",
           "package": "noodle",
@@ -3569,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "IntOp",
           "package": "noodle",
@@ -3578,6 +3893,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "IntOp",
           "package": "noodle",
@@ -3591,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "IntThunk",
           "package": "noodle",
@@ -3600,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "IntThunk",
           "package": "noodle",
@@ -3613,6 +3931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Lit",
           "package": "noodle",
@@ -3622,6 +3941,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Lit",
           "package": "noodle",
@@ -3635,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "ModRef",
           "package": "noodle",
@@ -3644,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "ModRef",
           "package": "noodle",
@@ -3657,6 +3979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Numb",
           "package": "noodle",
@@ -3666,6 +3989,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Numb",
           "package": "noodle",
@@ -3679,6 +4003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Paren",
           "package": "noodle",
@@ -3688,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Paren",
           "package": "noodle",
@@ -3701,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Pat",
           "package": "noodle",
@@ -3710,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Pat",
           "package": "noodle",
@@ -3723,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "PatMatch",
           "package": "noodle",
@@ -3732,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "PatMatch",
           "package": "noodle",
@@ -3745,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "ProdLit",
           "package": "noodle",
@@ -3754,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "ProdLit",
           "normalized": "ProdLit a a[a]",
@@ -3769,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "StrLit",
           "package": "noodle",
@@ -3778,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "StrLit",
           "package": "noodle",
@@ -3791,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "Symb",
           "package": "noodle",
@@ -3800,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "Symb",
           "package": "noodle",
@@ -3813,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "With",
           "package": "noodle",
@@ -3822,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "With",
           "package": "noodle",
@@ -3835,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "showClause",
           "package": "noodle",
@@ -3844,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "showClause",
           "normalized": "(String,String)-\u003eString",
@@ -3859,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:48 UTC 2014",
           "module": "Language.Noodle.Syntax",
           "name": "toDecList",
           "package": "noodle",
@@ -3868,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "Language Noodle Syntax",
+          "indexed": "2014-03-11T19:29:48",
           "module": "Language.Noodle.Syntax",
           "name": "toDecList",
           "normalized": "[Decl]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambdabot"
+        "phrase": "lambdabot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.ChanName",
           "name": "ChanName",
           "package": "lambdabot",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot ChanName",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.ChanName",
           "name": "ChanName",
           "package": "lambdabot",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.ChanName",
           "name": "ChanName",
           "package": "lambdabot",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot ChanName",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.ChanName",
           "name": "ChanName",
           "package": "lambdabot",
@@ -110,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "Command",
           "package": "lambdabot",
@@ -118,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "Command",
           "package": "lambdabot",
@@ -131,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "Cmd",
           "package": "lambdabot",
@@ -139,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "Cmd",
           "package": "lambdabot",
@@ -152,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "Command",
           "package": "lambdabot",
@@ -160,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "Command",
           "package": "lambdabot",
@@ -173,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "Command",
           "package": "lambdabot",
@@ -182,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "Command",
           "package": "lambdabot",
@@ -195,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "aliases",
           "package": "lambdabot",
@@ -204,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "aliases",
           "normalized": "[String]",
@@ -218,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "cmdName",
           "package": "lambdabot",
@@ -227,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "cmdName",
           "package": "lambdabot",
@@ -240,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "cmdNames",
           "package": "lambdabot",
@@ -249,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "cmdNames",
           "normalized": "Command a-\u003e[String]",
@@ -264,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "command",
           "package": "lambdabot",
@@ -273,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "command",
           "normalized": "String-\u003eCommand Identity",
@@ -287,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "execCmd",
           "package": "lambdabot",
@@ -296,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "execCmd",
           "normalized": "Cmd a b-\u003ec-\u003eNick-\u003eString-\u003ea[String]",
@@ -311,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "getCmdName",
           "package": "lambdabot",
@@ -320,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "getCmdName",
           "package": "lambdabot",
@@ -333,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "getLambdabotName",
           "package": "lambdabot",
@@ -342,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "getLambdabotName",
           "package": "lambdabot",
@@ -355,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "getSender",
           "package": "lambdabot",
@@ -364,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "getSender",
           "package": "lambdabot",
@@ -377,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "getServer",
           "package": "lambdabot",
@@ -386,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "getServer",
           "package": "lambdabot",
@@ -399,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "getTarget",
           "package": "lambdabot",
@@ -408,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "getTarget",
           "package": "lambdabot",
@@ -421,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "help",
           "package": "lambdabot",
@@ -430,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "help",
           "normalized": "Cmd a()",
@@ -444,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "privileged",
           "package": "lambdabot",
@@ -453,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "privileged",
           "package": "lambdabot",
@@ -465,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "process",
           "package": "lambdabot",
@@ -474,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "process",
           "normalized": "String-\u003eCmd a()",
@@ -488,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "readNick",
           "package": "lambdabot",
@@ -497,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "readNick",
           "normalized": "String-\u003eCmd a Nick",
@@ -512,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "runCommand",
           "package": "lambdabot",
@@ -521,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "runCommand",
           "normalized": "Command a-\u003eb-\u003eNick-\u003eString-\u003eString-\u003ea[String]",
@@ -536,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "say",
           "package": "lambdabot",
@@ -545,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "say",
           "normalized": "String-\u003eCmd a()",
@@ -559,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "showNick",
           "package": "lambdabot",
@@ -568,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "showNick",
           "normalized": "Nick-\u003eCmd a String",
@@ -583,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Command",
           "name": "withMsg",
           "package": "lambdabot",
@@ -592,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Command",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Command",
           "name": "withMsg",
           "normalized": "a-\u003eCmd b c)-\u003eCmd b c",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTime compatibility layer\n (stuff to support old lambdabot state serialization formats)\n\u003c/p\u003e\u003cp\u003eTODO: trim this down to just the explicitly serialization-related stuff\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "AltTime",
           "package": "lambdabot",
@@ -617,6 +666,7 @@
         "index": {
           "description": "Time compatibility layer stuff to support old lambdabot state serialization formats TODO trim this down to just the explicitly serialization-related stuff",
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "AltTime",
           "package": "lambdabot",
@@ -631,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapping ClockTime (which doesn't provide a Read instance!) seems\n easier than talking care of the serialization of UserStatus\n ourselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "ClockTime",
           "package": "lambdabot",
@@ -640,6 +691,7 @@
         "index": {
           "description": "Wrapping ClockTime which doesn provide Read instance seems easier than talking care of the serialization of UserStatus ourselves",
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "ClockTime",
           "package": "lambdabot",
@@ -653,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "TimeDiff",
           "package": "lambdabot",
@@ -661,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "TimeDiff",
           "package": "lambdabot",
@@ -674,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "TimeDiff",
           "package": "lambdabot",
@@ -683,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "TimeDiff",
           "package": "lambdabot",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eaddToClockTime\u003c/a\u003e\u003c/code\u003e d t\u003c/code\u003e adds a time difference \u003ccode\u003ed\u003c/code\u003e and a -- clock\n time \u003ccode\u003et\u003c/code\u003e to yield a new clock time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "addToClockTime",
           "package": "lambdabot",
@@ -707,6 +764,7 @@
         "index": {
           "description": "addToClockTime adds time difference and clock time to yield new clock time",
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "addToClockTime",
           "normalized": "TimeDiff-\u003eClockTime-\u003eClockTime",
@@ -723,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference of two clock times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "diffClockTimes",
           "package": "lambdabot",
@@ -733,6 +792,7 @@
         "index": {
           "description": "Difference of two clock times",
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "diffClockTimes",
           "normalized": "ClockTime-\u003eClockTime-\u003eTimeDiff",
@@ -749,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current clocktime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "getClockTime",
           "package": "lambdabot",
@@ -759,6 +820,7 @@
         "index": {
           "description": "Retrieve the current clocktime",
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "getClockTime",
           "package": "lambdabot",
@@ -772,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "noTimeDiff",
           "package": "lambdabot",
@@ -781,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "noTimeDiff",
           "package": "lambdabot",
@@ -795,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a TimeDiff. Both positive and negative Timediffs produce\n   the same output.\n\u003c/p\u003e\u003cp\u003e14d 17h 8m 53s\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.AltTime",
           "name": "timeDiffPretty",
           "package": "lambdabot",
@@ -805,6 +870,7 @@
         "index": {
           "description": "Pretty-print TimeDiff Both positive and negative Timediffs produce the same output",
           "hierarchy": "Lambdabot Compat AltTime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.AltTime",
           "name": "timeDiffPretty",
           "normalized": "TimeDiff-\u003eString",
@@ -821,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBackward-compatibility shim for (de-)serializing \u003ccode\u003e\u003ca\u003eNick\u003c/a\u003e\u003c/code\u003es\n using the old 'Read'/'Show' instances which gave freenode\n special treatment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "FreenodeNick",
           "package": "lambdabot",
@@ -830,6 +897,7 @@
         "index": {
           "description": "Backward-compatibility shim for de serializing Nick using the old Read Show instances which gave freenode special treatment",
           "hierarchy": "Lambdabot Compat FreenodeNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "FreenodeNick",
           "package": "lambdabot",
@@ -843,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "FreenodeNick",
           "package": "lambdabot",
@@ -851,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Compat FreenodeNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "FreenodeNick",
           "package": "lambdabot",
@@ -864,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "FreenodeNick",
           "package": "lambdabot",
@@ -873,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Compat FreenodeNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "FreenodeNick",
           "package": "lambdabot",
@@ -886,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "freenodeNickMapSerial",
           "package": "lambdabot",
@@ -895,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Compat FreenodeNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "freenodeNickMapSerial",
           "package": "lambdabot",
@@ -908,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "getFreenodeNick",
           "package": "lambdabot",
@@ -917,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Compat FreenodeNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.FreenodeNick",
           "name": "getFreenodeNick",
           "package": "lambdabot",
@@ -930,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.PackedNick",
           "name": "PackedNick",
           "package": "lambdabot",
@@ -938,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Compat PackedNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.PackedNick",
           "name": "PackedNick",
           "package": "lambdabot",
@@ -952,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of nicknames\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.PackedNick",
           "name": "PackedNick",
           "package": "lambdabot",
@@ -961,6 +1040,7 @@
         "index": {
           "description": "The type of nicknames",
           "hierarchy": "Lambdabot Compat PackedNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.PackedNick",
           "name": "PackedNick",
           "package": "lambdabot",
@@ -975,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a nickname into a ByteString.  Note that the resulting strings are\n not optimally formatted for human consumtion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.PackedNick",
           "name": "packNick",
           "package": "lambdabot",
@@ -985,6 +1066,7 @@
         "index": {
           "description": "Pack nickname into ByteString Note that the resulting strings are not optimally formatted for human consumtion",
           "hierarchy": "Lambdabot Compat PackedNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.PackedNick",
           "name": "packNick",
           "normalized": "Nick-\u003eByteString",
@@ -1001,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a nickname packed by \u003ccode\u003e\u003ca\u003epackNick\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Compat.PackedNick",
           "name": "unpackNick",
           "package": "lambdabot",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "Unpack nickname packed by packNick",
           "hierarchy": "Lambdabot Compat PackedNick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Compat.PackedNick",
           "name": "unpackNick",
           "normalized": "ByteString-\u003eNick",
@@ -1026,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "Core",
           "package": "lambdabot",
@@ -1034,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "Core",
           "package": "lambdabot",
@@ -1047,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "aspellBinary",
           "package": "lambdabot",
@@ -1056,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "aspellBinary",
           "package": "lambdabot",
@@ -1069,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "bfBinary",
           "package": "lambdabot",
@@ -1078,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "bfBinary",
           "package": "lambdabot",
@@ -1091,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "commandPrefixes",
           "package": "lambdabot",
@@ -1100,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "commandPrefixes",
           "normalized": "Config[String]",
@@ -1115,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "consoleLogFormat",
           "package": "lambdabot",
@@ -1124,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "consoleLogFormat",
           "package": "lambdabot",
@@ -1137,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "consoleLogHandle",
           "package": "lambdabot",
@@ -1146,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "consoleLogHandle",
           "package": "lambdabot",
@@ -1159,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "consoleLogLevel",
           "package": "lambdabot",
@@ -1168,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "consoleLogLevel",
           "package": "lambdabot",
@@ -1181,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "disabledCommands",
           "package": "lambdabot",
@@ -1190,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "disabledCommands",
           "normalized": "Config[String]",
@@ -1205,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "djinnBinary",
           "package": "lambdabot",
@@ -1214,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "djinnBinary",
           "package": "lambdabot",
@@ -1227,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "evalPrefixes",
           "package": "lambdabot",
@@ -1236,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "evalPrefixes",
           "normalized": "Config[String]",
@@ -1251,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "ghcBinary",
           "package": "lambdabot",
@@ -1260,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "ghcBinary",
           "package": "lambdabot",
@@ -1273,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "ghciBinary",
           "package": "lambdabot",
@@ -1282,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "ghciBinary",
           "package": "lambdabot",
@@ -1295,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "hoogleBinary",
           "package": "lambdabot",
@@ -1304,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "hoogleBinary",
           "package": "lambdabot",
@@ -1317,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "lbRootLoggerPath",
           "package": "lambdabot",
@@ -1326,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "lbRootLoggerPath",
           "normalized": "Config[String]",
@@ -1341,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "muevalBinary",
           "package": "lambdabot",
@@ -1350,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "muevalBinary",
           "package": "lambdabot",
@@ -1363,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "onStartupCmds",
           "package": "lambdabot",
@@ -1372,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "onStartupCmds",
           "normalized": "Config[String]",
@@ -1410,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "proxy",
           "package": "lambdabot",
@@ -1419,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "proxy",
           "package": "lambdabot",
@@ -1431,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "replaceRootLogger",
           "package": "lambdabot",
@@ -1440,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "replaceRootLogger",
           "package": "lambdabot",
@@ -1453,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "trustedPackages",
           "package": "lambdabot",
@@ -1462,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "trustedPackages",
           "normalized": "Config[String]",
@@ -1477,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "uncaughtExceptionHandler",
           "package": "lambdabot",
@@ -1486,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "uncaughtExceptionHandler",
           "normalized": "Config(SomeException-\u003eIO())",
@@ -1501,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config.Core",
           "name": "unlambdaBinary",
           "package": "lambdabot",
@@ -1510,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config Core",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config.Core",
           "name": "unlambdaBinary",
           "package": "lambdabot",
@@ -1524,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtensible configuration system for lambdabot\n\u003c/p\u003e\u003cp\u003eTODO: there's notthing lambdabot-specific about this, it could be a useful standalone library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config",
           "name": "Config",
           "package": "lambdabot",
@@ -1533,6 +1660,7 @@
         "index": {
           "description": "Extensible configuration system for lambdabot TODO there notthing lambdabot-specific about this it could be useful standalone library",
           "hierarchy": "Lambdabot Config",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config",
           "name": "Config",
           "package": "lambdabot",
@@ -1546,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config",
           "name": "Config",
           "package": "lambdabot",
@@ -1554,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config",
           "name": "Config",
           "package": "lambdabot",
@@ -1567,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config",
           "name": "MonadConfig",
           "package": "lambdabot",
@@ -1575,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config",
           "name": "MonadConfig",
           "package": "lambdabot",
@@ -1589,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a new configuration key with the specified name, type and \n default value\n\u003c/p\u003e\u003cp\u003eYou should probably also provide an explicit export list for any\n module that defines config keys, because the definition introduces\n a few extra types that will clutter up the export list otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config",
           "name": "config",
           "package": "lambdabot",
@@ -1599,6 +1732,7 @@
         "index": {
           "description": "Define new configuration key with the specified name type and default value You should probably also provide an explicit export list for any module that defines config keys because the definition introduces few extra types that will clutter up the export list otherwise",
           "hierarchy": "Lambdabot Config",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config",
           "name": "config",
           "normalized": "String-\u003eTypeQ-\u003eExpQ-\u003eQ[Dec]",
@@ -1614,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003econfig\u003c/a\u003e\u003c/code\u003e, but also allowing you to specify a \"merge rule\"\n that will be used to combine multiple bindings of the same key.\n\u003c/p\u003e\u003cp\u003eFor example, in \u003ca\u003eLambdabot.Config.Core\u003c/a\u003e, \u003ccode\u003eonStartupCmds\u003c/code\u003e is\n defined as a list of commands to execute on startup.  Its default\n value is [\u003ca\u003eofflinerc\u003c/a\u003e], so if a user invokes the default lambdabot\n executable without arguments, they will get a REPL.  Each instance\n of \u003ca\u003e-e\u003c/a\u003e on the command-line adds a binding of the form:\n\u003c/p\u003e\u003cpre\u003e onStartupCmds :=\u003e [command]\n\u003c/pre\u003e\u003cp\u003eSo if they give one \u003ca\u003e-e\u003c/a\u003e, it replaces the default (note that it\n is _not_ merged with the default - the default is discarded), and\n if they give more than one they are merged using the specified\n operation (in this case, `(++)`).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config",
           "name": "configWithMerge",
           "package": "lambdabot",
@@ -1624,6 +1759,7 @@
         "index": {
           "description": "Like config but also allowing you to specify merge rule that will be used to combine multiple bindings of the same key For example in Lambdabot.Config.Core onStartupCmds is defined as list of commands to execute on startup Its default value is offlinerc so if user invokes the default lambdabot executable without arguments they will get REPL Each instance of on the command-line adds binding of the form onStartupCmds command So if they give one it replaces the default note that it is not merged with the default the default is discarded and if they give more than one they are merged using the specified operation in this case",
           "hierarchy": "Lambdabot Config",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config",
           "name": "configWithMerge",
           "normalized": "ExpQ-\u003eString-\u003eTypeQ-\u003eExpQ-\u003eQ[Dec]",
@@ -1639,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config",
           "name": "getConfig",
           "package": "lambdabot",
@@ -1648,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config",
           "name": "getConfig",
           "normalized": "Config a-\u003eb a",
@@ -1663,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config",
           "name": "getConfigDefault",
           "package": "lambdabot",
@@ -1672,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config",
           "name": "getConfigDefault",
           "normalized": "Config a-\u003ea",
@@ -1687,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Config",
           "name": "mergeConfig",
           "package": "lambdabot",
@@ -1696,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Config",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Config",
           "name": "mergeConfig",
           "normalized": "Config a-\u003ea-\u003ea-\u003ea",
@@ -1711,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.File",
           "name": "File",
           "package": "lambdabot",
@@ -1719,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot File",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.File",
           "name": "File",
           "package": "lambdabot",
@@ -1733,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to find a pre-existing file, searching first in ./State and then in \n ~\u003cem\u003e.lambdabot\u003c/em\u003eState\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.File",
           "name": "findLBFile",
           "package": "lambdabot",
@@ -1743,6 +1888,7 @@
         "index": {
           "description": "Try to find pre-existing file searching first in State and then in lambdabot State",
           "hierarchy": "Lambdabot File",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.File",
           "name": "findLBFile",
           "normalized": "FilePath-\u003eLB(Maybe String)",
@@ -1759,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplicated. If a file exists locally, we return that. If a file exists in\n ~\u003cem\u003elambdabot\u003c/em\u003eState, we return that. If neither the file nor ~\u003cem\u003elambdabot\u003c/em\u003eState\n exist, we create the directories and then copy the file into it if a template\n exists, or create an empty file if it does not.\n Note that the return type is simple so we can just do a binding and stuff it\n into the conventional functions easily; unfortunately, this removes\n error-checking, as an error is now just \"\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.File",
           "name": "findOrCreateLBFile",
           "package": "lambdabot",
@@ -1769,6 +1916,7 @@
         "index": {
           "description": "Complicated If file exists locally we return that If file exists in lambdabot State we return that If neither the file nor lambdabot State exist we create the directories and then copy the file into it if template exists or create an empty file if it does not Note that the return type is simple so we can just do binding and stuff it into the conventional functions easily unfortunately this removes error-checking as an error is now just",
           "hierarchy": "Lambdabot File",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.File",
           "name": "findOrCreateLBFile",
           "normalized": "FilePath-\u003eLB String",
@@ -1785,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe IRC module processes the IRC protocol and provides a nice API for sending\n   and recieving IRC messages with an IRC server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "IRC",
           "package": "lambdabot",
@@ -1794,6 +1943,7 @@
         "index": {
           "description": "The IRC module processes the IRC protocol and provides nice API for sending and recieving IRC messages with an IRC server",
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "IRC",
           "package": "lambdabot",
@@ -1808,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn IRC message is a server, a prefix, a command and a list of parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "IrcMessage",
           "package": "lambdabot",
@@ -1817,6 +1968,7 @@
         "index": {
           "description": "An IRC message is server prefix command and list of parameters",
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "IrcMessage",
           "package": "lambdabot",
@@ -1830,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "IrcMessage",
           "package": "lambdabot",
@@ -1839,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "IrcMessage",
           "package": "lambdabot",
@@ -1852,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "errShowMsg",
           "package": "lambdabot",
@@ -1861,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "errShowMsg",
           "normalized": "IrcMessage-\u003eString",
@@ -1876,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "getTopic",
           "package": "lambdabot",
@@ -1885,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "getTopic",
           "normalized": "Nick-\u003eIrcMessage",
@@ -1900,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "ircMsgCommand",
           "package": "lambdabot",
@@ -1909,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "ircMsgCommand",
           "package": "lambdabot",
@@ -1922,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "ircMsgLBName",
           "package": "lambdabot",
@@ -1931,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "ircMsgLBName",
           "package": "lambdabot",
@@ -1944,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "ircMsgParams",
           "package": "lambdabot",
@@ -1953,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "ircMsgParams",
           "normalized": "[String]",
@@ -1968,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "ircMsgPrefix",
           "package": "lambdabot",
@@ -1977,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "ircMsgPrefix",
           "package": "lambdabot",
@@ -1990,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "ircMsgServer",
           "package": "lambdabot",
@@ -1999,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "ircMsgServer",
           "package": "lambdabot",
@@ -2012,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "joinChannel",
           "package": "lambdabot",
@@ -2021,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "joinChannel",
           "normalized": "Nick-\u003eIrcMessage",
@@ -2036,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "partChannel",
           "package": "lambdabot",
@@ -2045,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "partChannel",
           "normalized": "Nick-\u003eIrcMessage",
@@ -2061,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eprivmsg\u003c/a\u003e\u003c/code\u003e creates a private message to the person designated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "privmsg",
           "package": "lambdabot",
@@ -2070,6 +2243,7 @@
         "index": {
           "description": "privmsg creates private message to the person designated",
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "privmsg",
           "normalized": "Nick-\u003eString-\u003eIrcMessage",
@@ -2085,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003equit\u003c/a\u003e\u003c/code\u003e creates a server QUIT message. The input string given is the\n   quit message, given to other parties when leaving the network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "quit",
           "package": "lambdabot",
@@ -2095,6 +2270,7 @@
         "index": {
           "description": "quit creates server QUIT message The input string given is the quit message given to other parties when leaving the network",
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "quit",
           "normalized": "String-\u003eString-\u003eIrcMessage",
@@ -2109,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "setNick",
           "package": "lambdabot",
@@ -2118,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "setNick",
           "normalized": "Nick-\u003eIrcMessage",
@@ -2133,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "setTopic",
           "package": "lambdabot",
@@ -2142,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "setTopic",
           "normalized": "Nick-\u003eString-\u003eIrcMessage",
@@ -2157,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "timeReply",
           "package": "lambdabot",
@@ -2166,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "timeReply",
           "normalized": "IrcMessage-\u003eIrcMessage",
@@ -2181,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.IRC",
           "name": "user",
           "package": "lambdabot",
@@ -2190,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.IRC",
           "name": "user",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eIrcMessage",
@@ -2204,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "Logging",
           "package": "lambdabot",
@@ -2212,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "Logging",
           "package": "lambdabot",
@@ -2225,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "MonadLogging",
           "package": "lambdabot",
@@ -2233,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "MonadLogging",
           "package": "lambdabot",
@@ -2247,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePriorities are used to define how important a log message is.\nUsers can filter log messages based on priorities.\n\u003c/p\u003e\u003cp\u003eThese have their roots on the traditional syslog system.  The standard\ndefinitions are given below, but you are free to interpret them however you\nlike.  They are listed here in ascending importance order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "Priority",
           "package": "lambdabot",
@@ -2255,6 +2444,7 @@
         "index": {
           "description": "Priorities are used to define how important log message is Users can filter log messages based on priorities These have their roots on the traditional syslog system The standard definitions are given below but you are free to interpret them however you like They are listed here in ascending importance order",
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "Priority",
           "package": "lambdabot",
@@ -2460,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "alertM",
           "package": "lambdabot",
@@ -2469,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "alertM",
           "normalized": "String-\u003ea()",
@@ -2483,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "criticalM",
           "package": "lambdabot",
@@ -2492,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "criticalM",
           "normalized": "String-\u003ea()",
@@ -2506,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "debugM",
           "package": "lambdabot",
@@ -2515,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "debugM",
           "normalized": "String-\u003ea()",
@@ -2529,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "emergencyM",
           "package": "lambdabot",
@@ -2538,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "emergencyM",
           "normalized": "String-\u003ea()",
@@ -2552,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "errorM",
           "package": "lambdabot",
@@ -2561,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "errorM",
           "normalized": "String-\u003ea()",
@@ -2575,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "getCurrentLogger",
           "package": "lambdabot",
@@ -2584,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "getCurrentLogger",
           "normalized": "a[String]",
@@ -2599,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "infoM",
           "package": "lambdabot",
@@ -2608,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "infoM",
           "normalized": "String-\u003ea()",
@@ -2622,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "logM",
           "package": "lambdabot",
@@ -2631,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "logM",
           "normalized": "String-\u003ePriority-\u003eString-\u003ea()",
@@ -2645,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "noticeM",
           "package": "lambdabot",
@@ -2654,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "noticeM",
           "normalized": "String-\u003ea()",
@@ -2668,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Logging",
           "name": "warningM",
           "package": "lambdabot",
@@ -2677,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Logging",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Logging",
           "name": "warningM",
           "normalized": "String-\u003ea()",
@@ -2691,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": "Main",
           "package": "lambdabot",
@@ -2699,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": "Main",
           "package": "lambdabot",
@@ -2712,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": "Config",
           "package": "lambdabot",
@@ -2720,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": "Config",
           "package": "lambdabot",
@@ -2734,6 +2948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic dependent sum type; the first component is a tag that specifies \n the type of the second;  for example, think of a GADT such as:\n\u003c/p\u003e\u003cpre\u003e data Tag a where\n    AString :: Tag String\n    AnInt   :: Tag Int\n\u003c/pre\u003e\u003cp\u003eThen, we have the following valid expressions of type \u003ccode\u003eDSum Tag\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e AString :=\u003e \"hello!\"\n AnInt   :=\u003e 42\n\u003c/pre\u003e\u003cp\u003eAnd we can write functions that consume \u003ccode\u003eDSum Tag\u003c/code\u003e values by matching, \n such as:\n\u003c/p\u003e\u003cpre\u003e toString :: DSum Tag -\u003e String\n toString (AString :=\u003e str) = str\n toString (AnInt   :=\u003e int) = show int\n\u003c/pre\u003e\u003cp\u003eBy analogy to the (key =\u003e value) construction for dictionary entries in \n many dynamic languages, we use (key :=\u003e value) as the constructor for \n dependent sums.  The :=\u003e operator has very low precedence and binds to \n the right, so if the \u003ccode\u003eTag\u003c/code\u003e GADT is extended with an additional constructor\n \u003ccode\u003eRec :: Tag (DSum Tag)\u003c/code\u003e, then \u003ccode\u003eRec :=\u003e AnInt :=\u003e 3 + 4\u003c/code\u003e is parsed as\n would be expected (\u003ccode\u003eRec :=\u003e (AnInt :=\u003e (3 + 4))\u003c/code\u003e) and has type \u003ccode\u003eDSum Tag\u003c/code\u003e.\n Its precedence is just above that of \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e, so \u003ccode\u003efoo bar $ AString :=\u003e \u003ca\u003eeep\u003c/a\u003e\u003c/code\u003e\n is equivalent to \u003ccode\u003efoo bar (AString :=\u003e \u003ca\u003eeep\u003c/a\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": "DSum",
           "package": "lambdabot",
@@ -2742,6 +2957,7 @@
         "index": {
           "description": "basic dependent sum type the first component is tag that specifies the type of the second for example think of GADT such as data Tag where AString Tag String AnInt Tag Int Then we have the following valid expressions of type DSum Tag AString hello AnInt And we can write functions that consume DSum Tag values by matching such as toString DSum Tag String toString AString str str toString AnInt int show int By analogy to the key value construction for dictionary entries in many dynamic languages we use key value as the constructor for dependent sums The operator has very low precedence and binds to the right so if the Tag GADT is extended with an additional constructor Rec Tag DSum Tag then Rec AnInt is parsed as would be expected Rec AnInt and has type DSum Tag Its precedence is just above that of so foo bar AString eep is equivalent to foo bar AString eep",
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": "DSum",
           "package": "lambdabot",
@@ -2755,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": "Modules",
           "package": "lambdabot",
@@ -2763,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": "Modules",
           "package": "lambdabot",
@@ -2777,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePriorities are used to define how important a log message is.\nUsers can filter log messages based on priorities.\n\u003c/p\u003e\u003cp\u003eThese have their roots on the traditional syslog system.  The standard\ndefinitions are given below, but you are free to interpret them however you\nlike.  They are listed here in ascending importance order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": "Priority",
           "package": "lambdabot",
@@ -2785,6 +3004,7 @@
         "index": {
           "description": "Priorities are used to define how important log message is Users can filter log messages based on priorities These have their roots on the traditional syslog system The standard definitions are given below but you are free to interpret them however you like They are listed here in ascending importance order",
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": "Priority",
           "package": "lambdabot",
@@ -2798,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": ":=\u003e",
           "package": "lambdabot",
@@ -2806,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": ":=\u003e",
           "normalized": "(a b)-\u003eb-\u003eDSum a",
@@ -2821,6 +3043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Lambdabot entry point.\n Initialise plugins, connect, and run the bot in the LB monad\n\u003c/p\u003e\u003cp\u003eAlso, handle any fatal exceptions (such as non-recoverable signals),\n (i.e. print a message and exit). Non-fatal exceptions should be dealt\n with in the mainLoop or further down.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": "lambdabotMain",
           "package": "lambdabot",
@@ -2831,6 +3054,7 @@
         "index": {
           "description": "The Lambdabot entry point Initialise plugins connect and run the bot in the LB monad Also handle any fatal exceptions such as non-recoverable signals i.e print message and exit Non-fatal exceptions should be dealt with in the mainLoop or further down",
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": "lambdabotMain",
           "normalized": "LB()-\u003e[DSum Config]-\u003eIO ExitCode",
@@ -2846,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": "lambdabotVersion",
           "package": "lambdabot",
@@ -2855,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": "lambdabotVersion",
           "package": "lambdabot",
@@ -2868,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Main",
           "name": "modules",
           "package": "lambdabot",
@@ -2877,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Main",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Main",
           "name": "modules",
           "normalized": "[String]-\u003eQ Exp",
@@ -2891,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Message",
           "name": "Message",
           "package": "lambdabot",
@@ -2899,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Message",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Message",
           "name": "Message",
           "package": "lambdabot",
@@ -2912,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Message",
           "name": "Message",
           "package": "lambdabot",
@@ -2920,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Message",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Message",
           "name": "Message",
           "package": "lambdabot",
@@ -2934,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003echannels\u003c/a\u003e\u003c/code\u003e extracts the channels a Message operate on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Message",
           "name": "channels",
           "package": "lambdabot",
@@ -2944,6 +3177,7 @@
         "index": {
           "description": "channels extracts the channels Message operate on",
           "hierarchy": "Lambdabot Message",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Message",
           "name": "channels",
           "normalized": "a-\u003e[Nick]",
@@ -2959,6 +3193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efullName\u003c/a\u003e\u003c/code\u003e extracts the full user name involved in a given message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Message",
           "name": "fullName",
           "package": "lambdabot",
@@ -2969,6 +3204,7 @@
         "index": {
           "description": "fullName extracts the full user name involved in given message",
           "hierarchy": "Lambdabot Message",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Message",
           "name": "fullName",
           "normalized": "a-\u003eString",
@@ -2984,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Message",
           "name": "lambdabotName",
           "package": "lambdabot",
@@ -2993,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Message",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Message",
           "name": "lambdabotName",
           "normalized": "a-\u003eNick",
@@ -3009,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracts the nickname involved in a given message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Message",
           "name": "nick",
           "package": "lambdabot",
@@ -3019,6 +3258,7 @@
         "index": {
           "description": "extracts the nickname involved in given message",
           "hierarchy": "Lambdabot Message",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Message",
           "name": "nick",
           "normalized": "a-\u003eNick",
@@ -3034,6 +3274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracts the tag of the server involved in a given message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Message",
           "name": "server",
           "package": "lambdabot",
@@ -3044,6 +3285,7 @@
         "index": {
           "description": "extracts the tag of the server involved in given message",
           "hierarchy": "Lambdabot Message",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Message",
           "name": "server",
           "normalized": "a-\u003eString",
@@ -3058,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Module",
           "name": "Module",
           "package": "lambdabot",
@@ -3066,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Module",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Module",
           "name": "Module",
           "package": "lambdabot",
@@ -3080,6 +3324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Module type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Module",
           "name": "Module",
           "package": "lambdabot",
@@ -3089,6 +3334,7 @@
         "index": {
           "description": "The Module type class",
           "hierarchy": "Lambdabot Module",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Module",
           "name": "Module",
           "package": "lambdabot",
@@ -3103,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis transformer encodes the additional information a module might\n   need to access its name or its state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Module",
           "name": "ModuleT",
           "package": "lambdabot",
@@ -3112,6 +3359,7 @@
         "index": {
           "description": "This transformer encodes the additional information module might need to access its name or its state",
           "hierarchy": "Lambdabot Module",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Module",
           "name": "ModuleT",
           "package": "lambdabot",
@@ -3148,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Module",
           "name": "ModuleT",
           "package": "lambdabot",
@@ -3157,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Module",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Module",
           "name": "ModuleT",
           "package": "lambdabot",
@@ -3300,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Module",
           "name": "getRef",
           "package": "lambdabot",
@@ -3309,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Module",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Module",
           "name": "getRef",
           "package": "lambdabot",
@@ -3501,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Module",
           "name": "runModuleT",
           "package": "lambdabot",
@@ -3510,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Module",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Module",
           "name": "runModuleT",
           "normalized": "ReaderT(MVar a,String)b c",
@@ -3525,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "Monad",
           "package": "lambdabot",
@@ -3533,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "Monad",
           "package": "lambdabot",
@@ -3546,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "Callback",
           "package": "lambdabot",
@@ -3554,6 +3811,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "Callback",
           "package": "lambdabot",
@@ -3567,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "CommandRef",
           "package": "lambdabot",
@@ -3575,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "CommandRef",
           "package": "lambdabot",
@@ -3589,6 +3849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal read-only state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "IRCRState",
           "package": "lambdabot",
@@ -3598,6 +3859,7 @@
         "index": {
           "description": "Global read-only state",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "IRCRState",
           "package": "lambdabot",
@@ -3612,6 +3874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal read/write state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "IRCRWState",
           "package": "lambdabot",
@@ -3621,6 +3884,7 @@
         "index": {
           "description": "Global read write state",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "IRCRWState",
           "package": "lambdabot",
@@ -3635,6 +3899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe IRC Monad. The reader transformer holds information about the\n   connection to the IRC server.\n\u003c/p\u003e\u003cp\u003einstances Monad, Functor, MonadIO, MonadState, MonadError\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "LB",
           "package": "lambdabot",
@@ -3644,6 +3909,7 @@
         "index": {
           "description": "The IRC Monad The reader transformer holds information about the connection to the IRC server instances Monad Functor MonadIO MonadState MonadError",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "LB",
           "package": "lambdabot",
@@ -3657,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ModuleRef",
           "package": "lambdabot",
@@ -3665,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ModuleRef",
           "package": "lambdabot",
@@ -3678,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "MonadLB",
           "package": "lambdabot",
@@ -3686,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "MonadLB",
           "package": "lambdabot",
@@ -3699,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "CommandRef",
           "package": "lambdabot",
@@ -3708,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "CommandRef",
           "package": "lambdabot",
@@ -3721,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "IRCRWState",
           "package": "lambdabot",
@@ -3730,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "IRCRWState",
           "package": "lambdabot",
@@ -3743,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "LB",
           "package": "lambdabot",
@@ -3752,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "LB",
           "package": "lambdabot",
@@ -3765,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ModuleRef",
           "package": "lambdabot",
@@ -3774,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ModuleRef",
           "package": "lambdabot",
@@ -3787,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "addServer",
           "package": "lambdabot",
@@ -3796,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "addServer",
           "normalized": "String-\u003e(IrcMessage-\u003eLB())-\u003eModuleT a LB()",
@@ -3812,6 +4092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a computation in the LB monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "evalLB",
           "package": "lambdabot",
@@ -3822,6 +4103,7 @@
         "index": {
           "description": "run computation in the LB monad",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "evalLB",
           "normalized": "LB a-\u003eIRCRState-\u003eIRCRWState-\u003eIO a",
@@ -3837,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "getConfig",
           "package": "lambdabot",
@@ -3846,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "getConfig",
           "normalized": "Config a-\u003eb a",
@@ -3862,6 +4146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault ro state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "initRoState",
           "package": "lambdabot",
@@ -3872,6 +4157,7 @@
         "index": {
           "description": "Default ro state",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "initRoState",
           "normalized": "[DSum Config]-\u003eIO IRCRState",
@@ -3888,6 +4174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault rw state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "initRwState",
           "package": "lambdabot",
@@ -3898,6 +4185,7 @@
         "index": {
           "description": "Default rw state",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "initRwState",
           "package": "lambdabot",
@@ -3911,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircCallbacks",
           "package": "lambdabot",
@@ -3920,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircCallbacks",
           "normalized": "Map String[(String,Callback)]",
@@ -3936,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps channel names to topics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircChannels",
           "package": "lambdabot",
@@ -3946,6 +4237,7 @@
         "index": {
           "description": "maps channel names to topics",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircChannels",
           "package": "lambdabot",
@@ -3959,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircCommands",
           "package": "lambdabot",
@@ -3968,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircCommands",
           "package": "lambdabot",
@@ -3981,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircIgnoredUsers",
           "package": "lambdabot",
@@ -3990,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircIgnoredUsers",
           "package": "lambdabot",
@@ -4003,6 +4299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircModules",
           "package": "lambdabot",
@@ -4012,6 +4309,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircModules",
           "package": "lambdabot",
@@ -4026,6 +4324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput filters, invoked from right to left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircOutputFilters",
           "package": "lambdabot",
@@ -4036,6 +4335,7 @@
         "index": {
           "description": "Output filters invoked from right to left",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircOutputFilters",
           "normalized": "[(String,OutputFilter LB)]",
@@ -4051,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircPrivilegedUsers",
           "package": "lambdabot",
@@ -4060,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircPrivilegedUsers",
           "package": "lambdabot",
@@ -4073,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircServerMap",
           "package": "lambdabot",
@@ -4082,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircServerMap",
           "normalized": "Map String(String,IrcMessage-\u003eLB())",
@@ -4097,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "ircStayConnected",
           "package": "lambdabot",
@@ -4106,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "ircStayConnected",
           "package": "lambdabot",
@@ -4119,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "lb",
           "package": "lambdabot",
@@ -4128,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "lb",
           "normalized": "LB a-\u003eb a",
@@ -4142,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "received",
           "package": "lambdabot",
@@ -4151,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "received",
           "normalized": "IrcMessage-\u003eLB()",
@@ -4165,6 +4475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "remServer",
           "package": "lambdabot",
@@ -4174,6 +4485,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "remServer",
           "normalized": "String-\u003eLB()",
@@ -4189,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "reportInitDone",
           "package": "lambdabot",
@@ -4198,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "reportInitDone",
           "normalized": "IRCRState-\u003ea()",
@@ -4213,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "runLB",
           "package": "lambdabot",
@@ -4222,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "runLB",
           "normalized": "ReaderT(IRCRState,IORef IRCRWState)IO a",
@@ -4237,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "send",
           "package": "lambdabot",
@@ -4246,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "send",
           "normalized": "IrcMessage-\u003eLB()",
@@ -4260,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "waitForInit",
           "package": "lambdabot",
@@ -4269,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "waitForInit",
           "normalized": "a()",
@@ -4284,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "waitForQuit",
           "package": "lambdabot",
@@ -4293,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "waitForQuit",
           "normalized": "a()",
@@ -4309,6 +4631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a function in the context of all modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "withAllModules",
           "package": "lambdabot",
@@ -4319,6 +4642,7 @@
         "index": {
           "description": "Interpret function in the context of all modules",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "withAllModules",
           "normalized": "(a b Module c-\u003eModuleT c LB d)-\u003eLB()",
@@ -4334,6 +4658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "withCommand",
           "package": "lambdabot",
@@ -4343,6 +4668,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "withCommand",
           "normalized": "String-\u003eLB a-\u003e(b c Module d-\u003eCommand(ModuleT d LB)-\u003eModuleT d LB a)-\u003eLB a",
@@ -4359,6 +4685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret an expression in the context of a module.\n Arguments are which map to use (\u003ccode\u003eircModules\u003c/code\u003e and \u003ccode\u003eircCommands\u003c/code\u003e are\n the only sensible arguments here), the name of the module/command,\n action for the case that the lookup fails, action if the lookup\n succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Monad",
           "name": "withModule",
           "package": "lambdabot",
@@ -4369,6 +4696,7 @@
         "index": {
           "description": "Interpret an expression in the context of module Arguments are which map to use ircModules and ircCommands are the only sensible arguments here the name of the module command action for the case that the lookup fails action if the lookup succeeds",
           "hierarchy": "Lambdabot Monad",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Monad",
           "name": "withModule",
           "normalized": "String-\u003eLB a-\u003e(b c Module d-\u003eModuleT d LB a)-\u003eLB a",
@@ -4384,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Nick",
           "name": "Nick",
           "package": "lambdabot",
@@ -4392,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Nick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Nick",
           "name": "Nick",
           "package": "lambdabot",
@@ -4406,6 +4736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of nicknames isolated from a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Nick",
           "name": "Nick",
           "package": "lambdabot",
@@ -4415,6 +4746,7 @@
         "index": {
           "description": "The type of nicknames isolated from message",
           "hierarchy": "Lambdabot Nick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Nick",
           "name": "Nick",
           "package": "lambdabot",
@@ -4452,6 +4784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a nickname for display.  This will automatically omit the server\n field if it is the same as the server of the provided message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Nick",
           "name": "fmtNick",
           "package": "lambdabot",
@@ -4462,6 +4795,7 @@
         "index": {
           "description": "Format nickname for display This will automatically omit the server field if it is the same as the server of the provided message",
           "hierarchy": "Lambdabot Nick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Nick",
           "name": "fmtNick",
           "normalized": "String-\u003eNick-\u003eString",
@@ -4528,6 +4862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a nickname received in a message.  If the server field is not\n provided, it defaults to the same as that of the message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Nick",
           "name": "parseNick",
           "package": "lambdabot",
@@ -4538,6 +4873,7 @@
         "index": {
           "description": "Parse nickname received in message If the server field is not provided it defaults to the same as that of the message",
           "hierarchy": "Lambdabot Nick",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Nick",
           "name": "parseNick",
           "normalized": "String-\u003eString-\u003eNick",
@@ -4554,6 +4890,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNickname equality subsystem.\n\u003c/p\u003e\u003cp\u003eThis component is responsible for deciding whether two nicknames\n refer to the same person, for the purposes of \u003ccode\u003etell et al.  Nickname\n equality must be monadic because it uses mutable state maintained\n by the \u003c/code\u003elink and \u003ccode\u003eunlink commands.\n\nAlso provided is a concept of polynicks (by analogy to polytypes);\n polynicks can refer to an (open) set of nicknames.  For instance '\u003c/code\u003etell\n *lambdabot Why does X do Y' could tell a message to anyone who has\n identified as a lambdabot maintainer.  A polynick consists of a\n bar-separated list of (nicks or open terms); an open term is like a\n nick but preceded with a star.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.NickEq",
           "name": "NickEq",
           "package": "lambdabot",
@@ -4563,6 +4900,7 @@
         "index": {
           "description": "Nickname equality subsystem This component is responsible for deciding whether two nicknames refer to the same person for the purposes of tell et al Nickname equality must be monadic because it uses mutable state maintained by the link and unlink commands Also provided is concept of polynicks by analogy to polytypes polynicks can refer to an open set of nicknames For instance tell lambdabot Why does do could tell message to anyone who has identified as lambdabot maintainer polynick consists of bar-separated list of nicks or open terms an open term is like nick but preceded with star",
           "hierarchy": "Lambdabot NickEq",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.NickEq",
           "name": "NickEq",
           "package": "lambdabot",
@@ -4576,6 +4914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.NickEq",
           "name": "Polynick",
           "package": "lambdabot",
@@ -4584,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot NickEq",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.NickEq",
           "name": "Polynick",
           "package": "lambdabot",
@@ -4598,6 +4938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup (using a polynick) in a map keyed on mononicks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.NickEq",
           "name": "lookupMononickMap",
           "package": "lambdabot",
@@ -4608,6 +4949,7 @@
         "index": {
           "description": "Lookup using polynick in map keyed on mononicks",
           "hierarchy": "Lambdabot NickEq",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.NickEq",
           "name": "lookupMononickMap",
           "normalized": "LB(Polynick-\u003eMap Nick a-\u003e[(Nick,a)])",
@@ -4624,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a regular mononick into a polynick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.NickEq",
           "name": "mononickToPolynick",
           "package": "lambdabot",
@@ -4634,6 +4977,7 @@
         "index": {
           "description": "Convert regular mononick into polynick",
           "hierarchy": "Lambdabot NickEq",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.NickEq",
           "name": "mononickToPolynick",
           "normalized": "Nick-\u003ePolynick",
@@ -4650,6 +4994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a nick matches a polynick.  The state is read at the\n point of binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.NickEq",
           "name": "nickMatches",
           "package": "lambdabot",
@@ -4660,6 +5005,7 @@
         "index": {
           "description": "Determine if nick matches polynick The state is read at the point of binding",
           "hierarchy": "Lambdabot NickEq",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.NickEq",
           "name": "nickMatches",
           "normalized": "LB(Nick-\u003ePolynick-\u003eBool)",
@@ -4676,6 +5022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a read polynick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.NickEq",
           "name": "readPolynick",
           "package": "lambdabot",
@@ -4686,6 +5033,7 @@
         "index": {
           "description": "Parse read polynick",
           "hierarchy": "Lambdabot NickEq",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.NickEq",
           "name": "readPolynick",
           "normalized": "a-\u003eString-\u003ePolynick",
@@ -4702,6 +5050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a polynick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.NickEq",
           "name": "showPolynick",
           "package": "lambdabot",
@@ -4712,6 +5061,7 @@
         "index": {
           "description": "Format polynick",
           "hierarchy": "Lambdabot NickEq",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.NickEq",
           "name": "showPolynick",
           "normalized": "a-\u003ePolynick-\u003eString",
@@ -4727,6 +5077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.OutputFilter",
           "name": "OutputFilter",
           "package": "lambdabot",
@@ -4735,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot OutputFilter",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.OutputFilter",
           "name": "OutputFilter",
           "package": "lambdabot",
@@ -4748,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.OutputFilter",
           "name": "OutputFilter",
           "package": "lambdabot",
@@ -4756,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot OutputFilter",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.OutputFilter",
           "name": "OutputFilter",
           "package": "lambdabot",
@@ -4770,6 +5124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't send any output to alleged bots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.OutputFilter",
           "name": "checkRecip",
           "package": "lambdabot",
@@ -4780,6 +5135,7 @@
         "index": {
           "description": "Don send any output to alleged bots",
           "hierarchy": "Lambdabot OutputFilter",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.OutputFilter",
           "name": "checkRecip",
           "package": "lambdabot",
@@ -4794,6 +5150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor now, this just checks for duplicate empty lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.OutputFilter",
           "name": "cleanOutput",
           "package": "lambdabot",
@@ -4804,6 +5161,7 @@
         "index": {
           "description": "For now this just checks for duplicate empty lines",
           "hierarchy": "Lambdabot OutputFilter",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.OutputFilter",
           "name": "cleanOutput",
           "package": "lambdabot",
@@ -4818,6 +5176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap long lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.OutputFilter",
           "name": "lineify",
           "package": "lambdabot",
@@ -4828,6 +5187,7 @@
         "index": {
           "description": "wrap long lines",
           "hierarchy": "Lambdabot OutputFilter",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.OutputFilter",
           "name": "lineify",
           "package": "lambdabot",
@@ -4840,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.OutputFilter",
           "name": "textwidth",
           "package": "lambdabot",
@@ -4849,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot OutputFilter",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.OutputFilter",
           "name": "textwidth",
           "package": "lambdabot",
@@ -4862,6 +5224,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLogging an IRC channel..\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Activity",
           "name": "Activity",
           "package": "lambdabot",
@@ -4871,6 +5234,7 @@
         "index": {
           "description": "Logging an IRC channel",
           "hierarchy": "Lambdabot Plugin Activity",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Activity",
           "name": "Activity",
           "package": "lambdabot",
@@ -4884,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Activity",
           "name": "activityPlugin",
           "package": "lambdabot",
@@ -4893,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Activity",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Activity",
           "name": "activityPlugin",
           "normalized": "Module[(UTCTime,Nick)]",
@@ -4909,6 +5275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA plugin for the Haskell interpreter for the brainf*ck language\n http:\u003cem/\u003ewww.muppetlabs.com\u003cem\u003e~breadbox\u003c/em\u003ebf/\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.BF",
           "name": "BF",
           "package": "lambdabot",
@@ -4918,6 +5285,7 @@
         "index": {
           "description": "plugin for the Haskell interpreter for the brainf ck language http www.muppetlabs.com breadbox bf",
           "hierarchy": "Lambdabot Plugin BF",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.BF",
           "name": "BF",
           "package": "lambdabot",
@@ -4931,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.BF",
           "name": "bfPlugin",
           "package": "lambdabot",
@@ -4940,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin BF",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.BF",
           "name": "bfPlugin",
           "normalized": "Module()",
@@ -4956,6 +5326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLambdabot base module. Controls message send and receive\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Base",
           "name": "Base",
           "package": "lambdabot",
@@ -4965,6 +5336,7 @@
         "index": {
           "description": "Lambdabot base module Controls message send and receive",
           "hierarchy": "Lambdabot Plugin Base",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Base",
           "name": "Base",
           "package": "lambdabot",
@@ -4978,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Base",
           "name": "base",
           "package": "lambdabot",
@@ -4987,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Base",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Base",
           "name": "base",
           "normalized": "Module(GlobalPrivate()())",
@@ -5001,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Check.ShowQ",
           "name": "ShowQ",
           "package": "lambdabot",
@@ -5009,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Check ShowQ",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Check.ShowQ",
           "name": "ShowQ",
           "package": "lambdabot",
@@ -5022,6 +5398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Check.ShowQ",
           "name": "myquickcheck",
           "package": "lambdabot",
@@ -5031,6 +5408,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Check ShowQ",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Check.ShowQ",
           "name": "myquickcheck",
           "normalized": "a-\u003eString",
@@ -5046,6 +5424,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest a property with QuickCheck\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Check",
           "name": "Check",
           "package": "lambdabot",
@@ -5055,6 +5434,7 @@
         "index": {
           "description": "Test property with QuickCheck",
           "hierarchy": "Lambdabot Plugin Check",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Check",
           "name": "Check",
           "package": "lambdabot",
@@ -5068,6 +5448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Check",
           "name": "checkPlugin",
           "package": "lambdabot",
@@ -5077,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Check",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Check",
           "name": "checkPlugin",
           "normalized": "Module()",
@@ -5092,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Compose",
           "name": "Compose",
           "package": "lambdabot",
@@ -5100,6 +5483,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Compose",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Compose",
           "name": "Compose",
           "package": "lambdabot",
@@ -5113,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Compose",
           "name": "composePlugin",
           "package": "lambdabot",
@@ -5122,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Compose",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Compose",
           "name": "composePlugin",
           "normalized": "Module()",
@@ -5138,6 +5524,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is for throwing dice for e.g. RPGs. (@dice 3d6+2)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Dice",
           "name": "Dice",
           "package": "lambdabot",
@@ -5147,6 +5534,7 @@
         "index": {
           "description": "This module is for throwing dice for e.g RPGs dice d6",
           "hierarchy": "Lambdabot Plugin Dice",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Dice",
           "name": "Dice",
           "package": "lambdabot",
@@ -5160,6 +5548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Dice",
           "name": "dicePlugin",
           "package": "lambdabot",
@@ -5169,6 +5558,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Dice",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Dice",
           "name": "dicePlugin",
           "normalized": "Module()",
@@ -5185,6 +5575,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDICT (RFC 2229) Lookup Module for lambdabot IRC robot.\n Tom Moertel \u003ca\u003etom@moertel.com\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Dict",
           "name": "Dict",
           "package": "lambdabot",
@@ -5194,6 +5585,7 @@
         "index": {
           "description": "DICT RFC Lookup Module for lambdabot IRC robot Tom Moertel tom@moertel.com",
           "hierarchy": "Lambdabot Plugin Dict",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Dict",
           "name": "Dict",
           "package": "lambdabot",
@@ -5207,6 +5599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Dict",
           "name": "dictPlugin",
           "package": "lambdabot",
@@ -5216,6 +5609,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Dict",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Dict",
           "name": "dictPlugin",
           "normalized": "Module()",
@@ -5232,6 +5626,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA binding to Djinn.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Djinn",
           "name": "Djinn",
           "package": "lambdabot",
@@ -5241,6 +5636,7 @@
         "index": {
           "description": "binding to Djinn",
           "hierarchy": "Lambdabot Plugin Djinn",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Djinn",
           "name": "Djinn",
           "package": "lambdabot",
@@ -5254,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Djinn",
           "name": "djinnPlugin",
           "package": "lambdabot",
@@ -5263,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Djinn",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Djinn",
           "name": "djinnPlugin",
           "package": "lambdabot",
@@ -5277,6 +5675,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple template module\n Contains many constant bot commands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Dummy",
           "name": "Dummy",
           "package": "lambdabot",
@@ -5286,6 +5685,7 @@
         "index": {
           "description": "Simple template module Contains many constant bot commands",
           "hierarchy": "Lambdabot Plugin Dummy",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Dummy",
           "name": "Dummy",
           "package": "lambdabot",
@@ -5299,6 +5699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Dummy",
           "name": "dummyPlugin",
           "package": "lambdabot",
@@ -5308,6 +5709,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Dummy",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Dummy",
           "name": "dummyPlugin",
           "normalized": "Module()",
@@ -5323,6 +5725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Elite",
           "name": "Elite",
           "package": "lambdabot",
@@ -5331,6 +5734,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Elite",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Elite",
           "name": "Elite",
           "package": "lambdabot",
@@ -5344,6 +5748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Elite",
           "name": "elitePlugin",
           "package": "lambdabot",
@@ -5353,6 +5758,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Elite",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Elite",
           "name": "elitePlugin",
           "normalized": "Module()",
@@ -5368,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Error",
           "name": "Error",
           "package": "lambdabot",
@@ -5376,6 +5783,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Error",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Error",
           "name": "Error",
           "package": "lambdabot",
@@ -5389,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Error",
           "name": "errorOnLoad",
           "package": "lambdabot",
@@ -5398,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Error",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Error",
           "name": "errorOnLoad",
           "package": "lambdabot",
@@ -5411,6 +5821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Error",
           "name": "errorPlugin",
           "package": "lambdabot",
@@ -5420,6 +5831,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Error",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Error",
           "name": "errorPlugin",
           "normalized": "Module()",
@@ -5435,6 +5847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Error",
           "name": "failOnLoad",
           "package": "lambdabot",
@@ -5444,6 +5857,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Error",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Error",
           "name": "failOnLoad",
           "package": "lambdabot",
@@ -5457,6 +5871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "Trusted",
           "package": "lambdabot",
@@ -5465,6 +5880,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval Trusted",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "Trusted",
           "package": "lambdabot",
@@ -5478,6 +5894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "Mu",
           "package": "lambdabot",
@@ -5486,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval Trusted",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "Mu",
           "package": "lambdabot",
@@ -5499,6 +5917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "Rec",
           "package": "lambdabot",
@@ -5507,6 +5926,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval Trusted",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "Rec",
           "package": "lambdabot",
@@ -5520,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "In",
           "package": "lambdabot",
@@ -5529,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval Trusted",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "In",
           "package": "lambdabot",
@@ -5542,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "InR",
           "package": "lambdabot",
@@ -5551,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval Trusted",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "InR",
           "package": "lambdabot",
@@ -5564,6 +5988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "describeSequence",
           "package": "lambdabot",
@@ -5573,6 +5998,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval Trusted",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "describeSequence",
           "normalized": "SequenceData-\u003eMaybe String",
@@ -5588,6 +6014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "out",
           "package": "lambdabot",
@@ -5597,6 +6024,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval Trusted",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "out",
           "package": "lambdabot",
@@ -5609,6 +6037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "outR",
           "package": "lambdabot",
@@ -5618,6 +6047,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval Trusted",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval.Trusted",
           "name": "outR",
           "normalized": "Rec a-\u003ea",
@@ -5633,6 +6063,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell evaluator for the pure part, using mueval\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval",
           "name": "Eval",
           "package": "lambdabot",
@@ -5642,6 +6073,7 @@
         "index": {
           "description": "Haskell evaluator for the pure part using mueval",
           "hierarchy": "Lambdabot Plugin Eval",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval",
           "name": "Eval",
           "package": "lambdabot",
@@ -5655,6 +6087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval",
           "name": "evalPlugin",
           "package": "lambdabot",
@@ -5664,6 +6097,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval",
           "name": "evalPlugin",
           "normalized": "Module()",
@@ -5679,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval",
           "name": "exts",
           "package": "lambdabot",
@@ -5688,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval",
           "name": "exts",
           "normalized": "[String]",
@@ -5702,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Eval",
           "name": "runGHC",
           "package": "lambdabot",
@@ -5711,6 +6148,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Eval",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Eval",
           "name": "runGHC",
           "normalized": "String-\u003ea String",
@@ -5727,6 +6165,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGNU Talk Filters\n needs: http:\u003cem/\u003ewww.hyperrealm.com/main.php?s=talkfilters\n Edward Kmett 2006\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Filter",
           "name": "Filter",
           "package": "lambdabot",
@@ -5736,6 +6175,7 @@
         "index": {
           "description": "GNU Talk Filters needs http www.hyperrealm.com main.php talkfilters Edward Kmett",
           "hierarchy": "Lambdabot Plugin Filter",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Filter",
           "name": "Filter",
           "package": "lambdabot",
@@ -5749,6 +6189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Filter",
           "name": "filterPlugin",
           "package": "lambdabot",
@@ -5758,6 +6199,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Filter",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Filter",
           "name": "filterPlugin",
           "normalized": "Module[(String,FilePath,String)]",
@@ -5774,6 +6216,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFree theorems plugin\n Andrew Bromage, 2006\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Free",
           "name": "Free",
           "package": "lambdabot",
@@ -5783,6 +6226,7 @@
         "index": {
           "description": "Free theorems plugin Andrew Bromage",
           "hierarchy": "Lambdabot Plugin Free",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Free",
           "name": "Free",
           "package": "lambdabot",
@@ -5796,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Free",
           "name": "freePlugin",
           "package": "lambdabot",
@@ -5805,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Free",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Free",
           "name": "freePlugin",
           "normalized": "Module()",
@@ -5821,6 +6267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell project name generation\n semi-joke\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Fresh",
           "name": "Fresh",
           "package": "lambdabot",
@@ -5830,6 +6277,7 @@
         "index": {
           "description": "Haskell project name generation semi-joke",
           "hierarchy": "Lambdabot Plugin Fresh",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Fresh",
           "name": "Fresh",
           "package": "lambdabot",
@@ -5843,6 +6291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Fresh",
           "name": "freshPlugin",
           "package": "lambdabot",
@@ -5852,6 +6301,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Fresh",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Fresh",
           "name": "freshPlugin",
           "package": "lambdabot",
@@ -5866,6 +6316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHackish Haddock module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Haddock",
           "name": "Haddock",
           "package": "lambdabot",
@@ -5875,6 +6326,7 @@
         "index": {
           "description": "Hackish Haddock module",
           "hierarchy": "Lambdabot Plugin Haddock",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Haddock",
           "name": "Haddock",
           "package": "lambdabot",
@@ -5888,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Haddock",
           "name": "haddockPlugin",
           "package": "lambdabot",
@@ -5897,6 +6350,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Haddock",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Haddock",
           "name": "haddockPlugin",
           "package": "lambdabot",
@@ -5911,6 +6365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHello world plugin\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Hello",
           "name": "Hello",
           "package": "lambdabot",
@@ -5920,6 +6375,7 @@
         "index": {
           "description": "Hello world plugin",
           "hierarchy": "Lambdabot Plugin Hello",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Hello",
           "name": "Hello",
           "package": "lambdabot",
@@ -5933,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Hello",
           "name": "helloPlugin",
           "package": "lambdabot",
@@ -5942,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Hello",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Hello",
           "name": "helloPlugin",
           "normalized": "Module()",
@@ -5958,6 +6416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide help for plugins\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Help",
           "name": "Help",
           "package": "lambdabot",
@@ -5967,6 +6426,7 @@
         "index": {
           "description": "Provide help for plugins",
           "hierarchy": "Lambdabot Plugin Help",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Help",
           "name": "Help",
           "package": "lambdabot",
@@ -5980,6 +6440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Help",
           "name": "helpPlugin",
           "package": "lambdabot",
@@ -5989,6 +6450,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Help",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Help",
           "name": "helpPlugin",
           "normalized": "Module()",
@@ -6005,6 +6467,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTalk to Neil Mitchell's \u003ccode\u003eHoogle\u003c/code\u003e program\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Hoogle",
           "name": "Hoogle",
           "package": "lambdabot",
@@ -6014,6 +6477,7 @@
         "index": {
           "description": "Talk to Neil Mitchell Hoogle program",
           "hierarchy": "Lambdabot Plugin Hoogle",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Hoogle",
           "name": "Hoogle",
           "package": "lambdabot",
@@ -6027,6 +6491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Hoogle",
           "name": "hooglePlugin",
           "package": "lambdabot",
@@ -6036,6 +6501,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Hoogle",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Hoogle",
           "name": "hooglePlugin",
           "normalized": "Module[String]",
@@ -6052,6 +6518,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe plugin-level IRC interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.IRC",
           "name": "IRC",
           "package": "lambdabot",
@@ -6061,6 +6528,7 @@
         "index": {
           "description": "The plugin-level IRC interface",
           "hierarchy": "Lambdabot Plugin IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.IRC",
           "name": "IRC",
           "package": "lambdabot",
@@ -6074,6 +6542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.IRC",
           "name": "ircPlugin",
           "package": "lambdabot",
@@ -6083,6 +6552,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin IRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.IRC",
           "name": "ircPlugin",
           "normalized": "Module()",
@@ -6099,6 +6569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module to output the instances of a typeclass.\n     Some sample input/output:\n\u003c/p\u003e\u003cpre\u003e lambdabot\u003e @instances Monad\n [], ArrowMonad a, WriterT w m, Writer w, ReaderT r m, Reader r,\n StateT s m, State s, RWST r w s m, RWS r w s, ErrorT e m, Either e,\n ContT r m, Cont r, Maybe, ST s, IO\n\n lambdabot\u003e @instances Show\n Float, Double, Integer, ST s a, [a], (a, b, c, d), (a, b, c), (a, b),\n (), Ordering, Maybe a, Int, Either a b, Char, Bool\n\n lambdabot\u003e @instances-importing Text.Html Data.Tree Show\n Float, Double, Tree a, HtmlTable, HtmlAttr, Html, HotLink, Integer,\n ST s a, [a], (a, b, c, d), (a, b, c), (a, b), (), Ordering, Maybe a,\n Int\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Instances",
           "name": "Instances",
           "package": "lambdabot",
@@ -6108,6 +6579,7 @@
         "index": {
           "description": "module to output the instances of typeclass Some sample input output lambdabot instances Monad ArrowMonad WriterT Writer ReaderT Reader StateT State RWST RWS ErrorT Either ContT Cont Maybe ST IO lambdabot instances Show Float Double Integer ST Ordering Maybe Int Either Char Bool lambdabot instances-importing Text.Html Data.Tree Show Float Double Tree HtmlTable HtmlAttr Html HotLink Integer ST Ordering Maybe Int",
           "hierarchy": "Lambdabot Plugin Instances",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Instances",
           "name": "Instances",
           "package": "lambdabot",
@@ -6121,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Instances",
           "name": "instancesPlugin",
           "package": "lambdabot",
@@ -6130,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Instances",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Instances",
           "name": "instancesPlugin",
           "normalized": "Module()",
@@ -6146,6 +6620,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKarma\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Karma",
           "name": "Karma",
           "package": "lambdabot",
@@ -6155,6 +6630,7 @@
         "index": {
           "description": "Karma",
           "hierarchy": "Lambdabot Plugin Karma",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Karma",
           "name": "Karma",
           "package": "lambdabot",
@@ -6168,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Karma",
           "name": "karmaPlugin",
           "package": "lambdabot",
@@ -6177,6 +6654,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Karma",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Karma",
           "name": "karmaPlugin",
           "package": "lambdabot",
@@ -6191,6 +6669,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple wrapper over privmsg to get time information via the CTCP\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Localtime",
           "name": "Localtime",
           "package": "lambdabot",
@@ -6200,6 +6679,7 @@
         "index": {
           "description": "Simple wrapper over privmsg to get time information via the CTCP",
           "hierarchy": "Lambdabot Plugin Localtime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Localtime",
           "name": "Localtime",
           "package": "lambdabot",
@@ -6213,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Localtime",
           "name": "localtimePlugin",
           "package": "lambdabot",
@@ -6222,6 +6703,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Localtime",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Localtime",
           "name": "localtimePlugin",
           "package": "lambdabot",
@@ -6236,6 +6718,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLogging an IRC channel..\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Log",
           "name": "Log",
           "package": "lambdabot",
@@ -6245,6 +6728,7 @@
         "index": {
           "description": "Logging an IRC channel",
           "hierarchy": "Lambdabot Plugin Log",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Log",
           "name": "Log",
           "package": "lambdabot",
@@ -6258,6 +6742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Log",
           "name": "logPlugin",
           "package": "lambdabot",
@@ -6267,6 +6752,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Log",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Log",
           "name": "logPlugin",
           "package": "lambdabot",
@@ -6281,6 +6767,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for more(1) buffering\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.More",
           "name": "More",
           "package": "lambdabot",
@@ -6290,6 +6777,7 @@
         "index": {
           "description": "Support for more buffering",
           "hierarchy": "Lambdabot Plugin More",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.More",
           "name": "More",
           "package": "lambdabot",
@@ -6303,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.More",
           "name": "morePlugin",
           "package": "lambdabot",
@@ -6312,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin More",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.More",
           "name": "morePlugin",
           "normalized": "Module(GlobalPrivate()[String])",
@@ -6327,6 +6817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Numberwang",
           "name": "Numberwang",
           "package": "lambdabot",
@@ -6335,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Numberwang",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Numberwang",
           "name": "Numberwang",
           "package": "lambdabot",
@@ -6348,6 +6840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Numberwang",
           "name": "numberwangPlugin",
           "package": "lambdabot",
@@ -6357,6 +6850,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Numberwang",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Numberwang",
           "name": "numberwangPlugin",
           "package": "lambdabot",
@@ -6371,6 +6865,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLook up sequences in the Online Encyclopedia of Integer Sequences\n   Based on the Math.OEIS library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.OEIS",
           "name": "OEIS",
           "package": "lambdabot",
@@ -6380,6 +6875,7 @@
         "index": {
           "description": "Look up sequences in the Online Encyclopedia of Integer Sequences Based on the Math.OEIS library",
           "hierarchy": "Lambdabot Plugin OEIS",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.OEIS",
           "name": "OEIS",
           "package": "lambdabot",
@@ -6393,6 +6889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.OEIS",
           "name": "oeisPlugin",
           "package": "lambdabot",
@@ -6402,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin OEIS",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.OEIS",
           "name": "oeisPlugin",
           "normalized": "Module()",
@@ -6418,6 +6916,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOffline mode \u003cem\u003e RC file \u003c/em\u003e -e support module.  Handles spooling lists\n of commands (from haskeline, files, or the command line) into the vchat\n layer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.OfflineRC",
           "name": "OfflineRC",
           "package": "lambdabot",
@@ -6427,6 +6926,7 @@
         "index": {
           "description": "Offline mode RC file support module Handles spooling lists of commands from haskeline files or the command line into the vchat layer",
           "hierarchy": "Lambdabot Plugin OfflineRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.OfflineRC",
           "name": "OfflineRC",
           "package": "lambdabot",
@@ -6440,6 +6940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.OfflineRC",
           "name": "offlineRC",
           "package": "lambdabot",
@@ -6449,6 +6950,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin OfflineRC",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.OfflineRC",
           "name": "offlineRC",
           "package": "lambdabot",
@@ -6463,6 +6965,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointfree programming fun\n\u003c/p\u003e\u003cp\u003eA catalogue of refactorings is at:\n      http:\u003cem/\u003ewww.cs.kent.ac.uk\u003cem\u003eprojects\u003c/em\u003erefactor-fp\u003cem\u003ecatalogue\u003c/em\u003e\n      http:\u003cem/\u003ewww.cs.kent.ac.uk\u003cem\u003eprojects\u003c/em\u003erefactor-fp\u003cem\u003ecatalogue\u003c/em\u003eRefacIdeasAug03.html\n\u003c/p\u003e\u003cp\u003eUse more Arrow stuff\n\u003c/p\u003e\u003cp\u003eTODO would be to plug into HaRe and use some of their refactorings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Pl",
           "name": "Pl",
           "package": "lambdabot",
@@ -6472,6 +6975,7 @@
         "index": {
           "description": "Pointfree programming fun catalogue of refactorings is at http www.cs.kent.ac.uk projects refactor-fp catalogue http www.cs.kent.ac.uk projects refactor-fp catalogue RefacIdeasAug03.html Use more Arrow stuff TODO would be to plug into HaRe and use some of their refactorings",
           "hierarchy": "Lambdabot Plugin Pl",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Pl",
           "name": "Pl",
           "package": "lambdabot",
@@ -6485,6 +6989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Pl",
           "name": "plPlugin",
           "package": "lambdabot",
@@ -6494,6 +6999,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Pl",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Pl",
           "name": "plPlugin",
           "normalized": "Module(GlobalPrivate()(Int,TopLevel))",
@@ -6509,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Pointful",
           "name": "Pointful",
           "package": "lambdabot",
@@ -6517,6 +7024,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Pointful",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Pointful",
           "name": "Pointful",
           "package": "lambdabot",
@@ -6530,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Pointful",
           "name": "pointfulPlugin",
           "package": "lambdabot",
@@ -6539,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Pointful",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Pointful",
           "name": "pointfulPlugin",
           "normalized": "Module()",
@@ -6555,6 +7065,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e| Support for voting\n |\n | License: lGPL\n |\n | added by Kenneth Hoste (boegel), 22\u003cem\u003e11\u003c/em\u003e2005\n |  inspiration: Where plugin (thanks shapr,dons)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Poll",
           "name": "Poll",
           "package": "lambdabot",
@@ -6564,6 +7075,7 @@
         "index": {
           "description": "Support for voting License lGPL added by Kenneth Hoste boegel inspiration Where plugin thanks shapr dons",
           "hierarchy": "Lambdabot Plugin Poll",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Poll",
           "name": "Poll",
           "package": "lambdabot",
@@ -6577,6 +7089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Poll",
           "name": "pollPlugin",
           "package": "lambdabot",
@@ -6586,6 +7099,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Poll",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Poll",
           "name": "pollPlugin",
           "package": "lambdabot",
@@ -6600,6 +7114,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-Printing echo\n\u003c/p\u003e\u003cp\u003eexample:\n\u003c/p\u003e\u003cpre\u003e @pretty fun x = case x of {3 -\u003e \"hello\" ; 5 -\u003e \"world\" ; _ -\u003e \"else\"}\n\u003c/pre\u003e\u003cpre\u003e fun x\n  = case x of\n   3 -\u003e \"hello\"\n   5 -\u003e \"world\"\n   _ -\u003e \"else\"\n\u003c/pre\u003e\u003cp\u003e(c) Johannes Ahlmann, 2005-12-13, released under GPL 2 \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Pretty",
           "name": "Pretty",
           "package": "lambdabot",
@@ -6609,6 +7124,7 @@
         "index": {
           "description": "Pretty-Printing echo example pretty fun case of hello world else fun case of hello world else Johannes Ahlmann released under GPL",
           "hierarchy": "Lambdabot Plugin Pretty",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Pretty",
           "name": "Pretty",
           "package": "lambdabot",
@@ -6622,6 +7138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Pretty",
           "name": "prettyPlugin",
           "package": "lambdabot",
@@ -6631,6 +7148,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Pretty",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Pretty",
           "name": "prettyPlugin",
           "normalized": "Module()",
@@ -6647,6 +7165,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for quotes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Quote",
           "name": "Quote",
           "package": "lambdabot",
@@ -6656,6 +7175,7 @@
         "index": {
           "description": "Support for quotes",
           "hierarchy": "Lambdabot Plugin Quote",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Quote",
           "name": "Quote",
           "package": "lambdabot",
@@ -6669,6 +7189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Quote",
           "name": "quotePlugin",
           "package": "lambdabot",
@@ -6678,6 +7199,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Quote",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Quote",
           "name": "quotePlugin",
           "normalized": "Module(Map ByteString[ByteString])",
@@ -6694,6 +7216,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSearch various things, Wikipedia and google for now.\n\u003c/p\u003e\u003cp\u003e(c) 2005 Samuel Bronson\n (c) 2006 Don Stewart\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Search",
           "name": "Search",
           "package": "lambdabot",
@@ -6703,6 +7226,7 @@
         "index": {
           "description": "Search various things Wikipedia and google for now Samuel Bronson Don Stewart",
           "hierarchy": "Lambdabot Plugin Search",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Search",
           "name": "Search",
           "package": "lambdabot",
@@ -6716,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Search",
           "name": "searchPlugin",
           "package": "lambdabot",
@@ -6725,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Search",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Search",
           "name": "searchPlugin",
           "normalized": "Module()",
@@ -6741,6 +7267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKeep track of IRC users.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Seen",
           "name": "Seen",
           "package": "lambdabot",
@@ -6750,6 +7277,7 @@
         "index": {
           "description": "Keep track of IRC users",
           "hierarchy": "Lambdabot Plugin Seen",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Seen",
           "name": "Seen",
           "package": "lambdabot",
@@ -6763,6 +7291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Seen",
           "name": "seenPlugin",
           "package": "lambdabot",
@@ -6772,6 +7301,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Seen",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Seen",
           "name": "seenPlugin",
           "normalized": "Module(Map Channel Int,Map PackedNick UserStatus)",
@@ -6788,6 +7318,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for quotes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Slap",
           "name": "Slap",
           "package": "lambdabot",
@@ -6797,6 +7328,7 @@
         "index": {
           "description": "Support for quotes",
           "hierarchy": "Lambdabot Plugin Slap",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Slap",
           "name": "Slap",
           "package": "lambdabot",
@@ -6810,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Slap",
           "name": "slapPlugin",
           "package": "lambdabot",
@@ -6819,6 +7352,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Slap",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Slap",
           "name": "slapPlugin",
           "normalized": "Module()",
@@ -6834,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Source",
           "name": "Source",
           "package": "lambdabot",
@@ -6842,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Source",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Source",
           "name": "Source",
           "package": "lambdabot",
@@ -6855,6 +7391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Source",
           "name": "sourcePlugin",
           "package": "lambdabot",
@@ -6864,6 +7401,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Source",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Source",
           "name": "sourcePlugin",
           "package": "lambdabot",
@@ -6878,6 +7416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to \u003cem\u003easpell\u003c/em\u003e, an open source spelling checker, from a\n suggestion by Kai Engelhardt. Requires you to install aspell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Spell",
           "name": "Spell",
           "package": "lambdabot",
@@ -6887,6 +7426,7 @@
         "index": {
           "description": "Interface to aspell an open source spelling checker from suggestion by Kai Engelhardt Requires you to install aspell",
           "hierarchy": "Lambdabot Plugin Spell",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Spell",
           "name": "Spell",
           "package": "lambdabot",
@@ -6900,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Spell",
           "name": "spellPlugin",
           "package": "lambdabot",
@@ -6909,6 +7450,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Spell",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Spell",
           "name": "spellPlugin",
           "package": "lambdabot",
@@ -6922,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Stats",
           "name": "Stats",
           "package": "lambdabot",
@@ -6930,6 +7473,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Stats",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Stats",
           "name": "Stats",
           "package": "lambdabot",
@@ -6943,6 +7487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Stats",
           "name": "statsPlugin",
           "package": "lambdabot",
@@ -6952,6 +7497,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Stats",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Stats",
           "name": "statsPlugin",
           "package": "lambdabot",
@@ -6966,6 +7512,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSystem module : IRC control functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.System",
           "name": "System",
           "package": "lambdabot",
@@ -6975,6 +7522,7 @@
         "index": {
           "description": "System module IRC control functions",
           "hierarchy": "Lambdabot Plugin System",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.System",
           "name": "System",
           "package": "lambdabot",
@@ -6988,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.System",
           "name": "system",
           "package": "lambdabot",
@@ -6997,6 +7546,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin System",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.System",
           "name": "system",
           "package": "lambdabot",
@@ -7009,6 +7559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Tell",
           "name": "Tell",
           "package": "lambdabot",
@@ -7017,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Tell",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Tell",
           "name": "Tell",
           "package": "lambdabot",
@@ -7030,6 +7582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Tell",
           "name": "tellPlugin",
           "package": "lambdabot",
@@ -7039,6 +7592,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Tell",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Tell",
           "name": "tellPlugin",
           "package": "lambdabot",
@@ -7053,6 +7607,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePull quotes down from yahoo.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Ticker",
           "name": "Ticker",
           "package": "lambdabot",
@@ -7062,6 +7617,7 @@
         "index": {
           "description": "Pull quotes down from yahoo",
           "hierarchy": "Lambdabot Plugin Ticker",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Ticker",
           "name": "Ticker",
           "package": "lambdabot",
@@ -7075,6 +7631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Ticker",
           "name": "tickerPlugin",
           "package": "lambdabot",
@@ -7084,6 +7641,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Ticker",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Ticker",
           "name": "tickerPlugin",
           "normalized": "Module()",
@@ -7100,6 +7658,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA todo list\n\u003c/p\u003e\u003cp\u003e(c) 2005 Samuel Bronson\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Todo",
           "name": "Todo",
           "package": "lambdabot",
@@ -7109,6 +7668,7 @@
         "index": {
           "description": "todo list Samuel Bronson",
           "hierarchy": "Lambdabot Plugin Todo",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Todo",
           "name": "Todo",
           "package": "lambdabot",
@@ -7122,6 +7682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Todo",
           "name": "todoPlugin",
           "package": "lambdabot",
@@ -7131,6 +7692,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Todo",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Todo",
           "name": "todoPlugin",
           "package": "lambdabot",
@@ -7145,6 +7707,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Topic plugin is an interface for messing with the channel topic.\n   It can alter the topic in various ways and keep track of the changes.\n   The advantage of having the bot maintain the topic is that we get an\n   authoritative source for the current topic, when the IRC server decides\n   to delete it due to Network Splits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Topic",
           "name": "Topic",
           "package": "lambdabot",
@@ -7154,6 +7717,7 @@
         "index": {
           "description": "The Topic plugin is an interface for messing with the channel topic It can alter the topic in various ways and keep track of the changes The advantage of having the bot maintain the topic is that we get an authoritative source for the current topic when the IRC server decides to delete it due to Network Splits",
           "hierarchy": "Lambdabot Plugin Topic",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Topic",
           "name": "Topic",
           "package": "lambdabot",
@@ -7167,6 +7731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Topic",
           "name": "topicPlugin",
           "package": "lambdabot",
@@ -7176,6 +7741,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Topic",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Topic",
           "name": "topicPlugin",
           "normalized": "Module()",
@@ -7192,6 +7758,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Type Module - another progressive plugin for lambdabot\n\u003c/p\u003e\u003cp\u003epesco hamburg 2003-04-05\n\u003c/p\u003e\u003cp\u003eGreetings reader,\n\u003c/p\u003e\u003cp\u003ewhether you're a regular follower of the series or dropping in for\n     the first time, let me present for your pleasure the Type Module:\n\u003c/p\u003e\u003cp\u003eOne thing we enjoy on #haskell is throwing function types at each\n     other instead of spelling out tiresome monologue about arguments\n     or return values. Unfortunately such a toss often involves a local\n     lookup of the type signature in question because one is seldom\n     sure about the actual argument order.\n\u003c/p\u003e\u003cp\u003eWell, what do you know, this plugin enables lambdabot to automate\n     that lookup for you and your fellow lambda hackers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Type",
           "name": "Type",
           "package": "lambdabot",
@@ -7201,6 +7768,7 @@
         "index": {
           "description": "The Type Module another progressive plugin for lambdabot pesco hamburg Greetings reader whether you re regular follower of the series or dropping in for the first time let me present for your pleasure the Type Module One thing we enjoy on haskell is throwing function types at each other instead of spelling out tiresome monologue about arguments or return values Unfortunately such toss often involves local lookup of the type signature in question because one is seldom sure about the actual argument order Well what do you know this plugin enables lambdabot to automate that lookup for you and your fellow lambda hackers",
           "hierarchy": "Lambdabot Plugin Type",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Type",
           "name": "Type",
           "package": "lambdabot",
@@ -7214,6 +7782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Type",
           "name": "query_ghci",
           "package": "lambdabot",
@@ -7223,6 +7792,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Type",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Type",
           "name": "query_ghci",
           "normalized": "String-\u003eString-\u003ea String",
@@ -7237,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Type",
           "name": "typePlugin",
           "package": "lambdabot",
@@ -7246,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Type",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Type",
           "name": "typePlugin",
           "normalized": "Module()",
@@ -7262,6 +7834,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnroll the MTL monads with your favorite bot!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.UnMtl",
           "name": "UnMtl",
           "package": "lambdabot",
@@ -7271,6 +7844,7 @@
         "index": {
           "description": "Unroll the MTL monads with your favorite bot",
           "hierarchy": "Lambdabot Plugin UnMtl",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.UnMtl",
           "name": "UnMtl",
           "package": "lambdabot",
@@ -7284,6 +7858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.UnMtl",
           "name": "unmtlPlugin",
           "package": "lambdabot",
@@ -7293,6 +7868,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin UnMtl",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.UnMtl",
           "name": "unmtlPlugin",
           "normalized": "Module()",
@@ -7308,6 +7884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Undo",
           "name": "Undo",
           "package": "lambdabot",
@@ -7316,6 +7893,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Undo",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Undo",
           "name": "Undo",
           "package": "lambdabot",
@@ -7329,6 +7907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Undo",
           "name": "undoPlugin",
           "package": "lambdabot",
@@ -7338,6 +7917,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Undo",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Undo",
           "name": "undoPlugin",
           "normalized": "Module()",
@@ -7354,6 +7934,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA plugin for the Haskell interpreter for the unlambda language\n\u003c/p\u003e\u003cp\u003ehttp:\u003cem/\u003ewww.madore.org\u003cem\u003e~david\u003c/em\u003eprograms\u003cem\u003eunlambda\u003c/em\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Unlambda",
           "name": "Unlambda",
           "package": "lambdabot",
@@ -7363,6 +7944,7 @@
         "index": {
           "description": "plugin for the Haskell interpreter for the unlambda language http www.madore.org david programs unlambda",
           "hierarchy": "Lambdabot Plugin Unlambda",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Unlambda",
           "name": "Unlambda",
           "package": "lambdabot",
@@ -7376,6 +7958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Unlambda",
           "name": "unlambdaPlugin",
           "package": "lambdabot",
@@ -7385,6 +7968,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Unlambda",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Unlambda",
           "name": "unlambdaPlugin",
           "normalized": "Module()",
@@ -7401,6 +7985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFetch URL page titles of HTML links.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Url",
           "name": "Url",
           "package": "lambdabot",
@@ -7410,6 +7995,7 @@
         "index": {
           "description": "Fetch URL page titles of HTML links",
           "hierarchy": "Lambdabot Plugin Url",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Url",
           "name": "Url",
           "package": "lambdabot",
@@ -7423,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Url",
           "name": "urlPlugin",
           "package": "lambdabot",
@@ -7432,6 +8019,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Url",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Url",
           "name": "urlPlugin",
           "package": "lambdabot",
@@ -7446,6 +8034,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLambdabot version information\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Version",
           "name": "Version",
           "package": "lambdabot",
@@ -7455,6 +8044,7 @@
         "index": {
           "description": "Lambdabot version information",
           "hierarchy": "Lambdabot Plugin Version",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Version",
           "name": "Version",
           "package": "lambdabot",
@@ -7468,6 +8058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Version",
           "name": "versionPlugin",
           "package": "lambdabot",
@@ -7477,6 +8068,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Version",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Version",
           "name": "versionPlugin",
           "normalized": "Module()",
@@ -7493,6 +8085,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTalk to hot chixxors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Vixen",
           "name": "Vixen",
           "package": "lambdabot",
@@ -7502,6 +8095,7 @@
         "index": {
           "description": "Talk to hot chixxors",
           "hierarchy": "Lambdabot Plugin Vixen",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Vixen",
           "name": "Vixen",
           "package": "lambdabot",
@@ -7515,6 +8109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Vixen",
           "name": "vixenPlugin",
           "package": "lambdabot",
@@ -7524,6 +8119,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Vixen",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Vixen",
           "name": "vixenPlugin",
           "normalized": "Module(Bool,String-\u003eIO[Char])",
@@ -7540,6 +8136,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSlightly specialised version of Where for associating projects with their urls.\n Code almost all copied.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Where",
           "name": "Where",
           "package": "lambdabot",
@@ -7549,6 +8146,7 @@
         "index": {
           "description": "Slightly specialised version of Where for associating projects with their urls Code almost all copied",
           "hierarchy": "Lambdabot Plugin Where",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Where",
           "name": "Where",
           "package": "lambdabot",
@@ -7562,6 +8160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin.Where",
           "name": "wherePlugin",
           "package": "lambdabot",
@@ -7571,6 +8170,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin Where",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin.Where",
           "name": "wherePlugin",
           "package": "lambdabot",
@@ -7584,6 +8184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "Plugin",
           "package": "lambdabot",
@@ -7592,6 +8193,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "Plugin",
           "package": "lambdabot",
@@ -7605,6 +8207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "ChanName",
           "package": "lambdabot",
@@ -7613,6 +8216,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "ChanName",
           "package": "lambdabot",
@@ -7627,6 +8231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe IRC Monad. The reader transformer holds information about the\n   connection to the IRC server.\n\u003c/p\u003e\u003cp\u003einstances Monad, Functor, MonadIO, MonadState, MonadError\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "LB",
           "package": "lambdabot",
@@ -7636,6 +8241,7 @@
         "index": {
           "description": "The IRC Monad The reader transformer holds information about the connection to the IRC server instances Monad Functor MonadIO MonadState MonadError",
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "LB",
           "package": "lambdabot",
@@ -7650,6 +8256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Module type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "Module",
           "package": "lambdabot",
@@ -7659,6 +8266,7 @@
         "index": {
           "description": "The Module type class",
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "Module",
           "package": "lambdabot",
@@ -7673,6 +8281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis transformer encodes the additional information a module might\n   need to access its name or its state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "ModuleT",
           "package": "lambdabot",
@@ -7682,6 +8291,7 @@
         "index": {
           "description": "This transformer encodes the additional information module might need to access its name or its state",
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "ModuleT",
           "package": "lambdabot",
@@ -7695,6 +8305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "MonadLB",
           "package": "lambdabot",
@@ -7703,6 +8314,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "MonadLB",
           "package": "lambdabot",
@@ -7717,6 +8329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of nicknames isolated from a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "Nick",
           "package": "lambdabot",
@@ -7726,6 +8339,7 @@
         "index": {
           "description": "The type of nicknames isolated from message",
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "Nick",
           "package": "lambdabot",
@@ -7740,6 +8354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenience, similar to ios but also cut output to channel to 80 characters\n usage:  \u003ccode\u003eprocess _ _ to _ s = ios80 to (plugs s)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "ios80",
           "package": "lambdabot",
@@ -7750,6 +8365,7 @@
         "index": {
           "description": "convenience similar to ios but also cut output to channel to characters usage process to ios80 to plugs",
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "ios80",
           "normalized": "IO String-\u003eCmd a()",
@@ -7790,6 +8406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "lb",
           "package": "lambdabot",
@@ -7799,6 +8416,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "lb",
           "normalized": "LB a-\u003eb a",
@@ -7813,6 +8431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Plugin",
           "name": "lim80",
           "package": "lambdabot",
@@ -7822,6 +8441,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Plugin",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Plugin",
           "name": "lim80",
           "normalized": "a String-\u003eCmd a()",
@@ -7837,6 +8457,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for the LB (LambdaBot) monad\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "State",
           "package": "lambdabot",
@@ -7846,6 +8467,7 @@
         "index": {
           "description": "Support for the LB LambdaBot monad",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "State",
           "package": "lambdabot",
@@ -7860,6 +8482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis datatype allows modules to conviently maintain both global\n   (i.e. for all clients they're interacting with) and private state.\n   It is implemented on top of readMS/withMS.\n\u003c/p\u003e\u003cp\u003eThis simple implementation is linear in the number of private states used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "GlobalPrivate",
           "package": "lambdabot",
@@ -7869,6 +8492,7 @@
         "index": {
           "description": "This datatype allows modules to conviently maintain both global i.e for all clients they re interacting with and private state It is implemented on top of readMS withMS This simple implementation is linear in the number of private states used",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "GlobalPrivate",
           "package": "lambdabot",
@@ -7882,6 +8506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "MonadLBState",
           "package": "lambdabot",
@@ -7890,6 +8515,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "MonadLBState",
           "package": "lambdabot",
@@ -7904,6 +8530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflush state of modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "flushModuleState",
           "package": "lambdabot",
@@ -7914,6 +8541,7 @@
         "index": {
           "description": "flush state of modules",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "flushModuleState",
           "normalized": "LB()",
@@ -7930,6 +8558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003eGlobalPrivate\u003c/code\u003e given the value of the global state. No private\n   state for clients will be created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "mkGlobalPrivate",
           "package": "lambdabot",
@@ -7940,6 +8569,7 @@
         "index": {
           "description": "Creates GlobalPrivate given the value of the global state No private state for clients will be created",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "mkGlobalPrivate",
           "normalized": "Int-\u003ea-\u003eGlobalPrivate a b",
@@ -7956,6 +8586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the module's private state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "modifyMS",
           "package": "lambdabot",
@@ -7966,6 +8597,7 @@
         "index": {
           "description": "Modify the module private state",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "modifyMS",
           "normalized": "(LBState a-\u003eLBState a)-\u003ea()",
@@ -7982,6 +8614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads global state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "readGS",
           "package": "lambdabot",
@@ -7992,6 +8625,7 @@
         "index": {
           "description": "Reads global state",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "readGS",
           "package": "lambdabot",
@@ -8006,6 +8640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead it in\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "readGlobalState",
           "package": "lambdabot",
@@ -8016,6 +8651,7 @@
         "index": {
           "description": "Read it in",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "readGlobalState",
           "normalized": "Module a-\u003eString-\u003eLB(Maybe a)",
@@ -8032,6 +8668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the module's private state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "readMS",
           "package": "lambdabot",
@@ -8042,6 +8679,7 @@
         "index": {
           "description": "Read the module private state",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "readMS",
           "package": "lambdabot",
@@ -8056,6 +8694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads private state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "readPS",
           "package": "lambdabot",
@@ -8066,6 +8705,7 @@
         "index": {
           "description": "Reads private state",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "readPS",
           "normalized": "Nick-\u003ea(Maybe b)",
@@ -8082,6 +8722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites global state. Locks everything\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "withGS",
           "package": "lambdabot",
@@ -8092,6 +8733,7 @@
         "index": {
           "description": "Writes global state Locks everything",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "withGS",
           "normalized": "(a-\u003e(a-\u003eb())-\u003eb())-\u003eb()",
@@ -8108,6 +8750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the module's private state.\n This is the preferred way of changing the state. The state will be locked\n until the body returns. The function is exception-safe, i.e. even if\n an error occurs or the thread is killed (e.g. because it deadlocked and\n therefore exceeded its time limit), the state from the last write operation\n will be restored. If the writer escapes, calling it will have no observable\n effect.\n \u003ccode\u003ewithMS\u003c/code\u003e is not composable, in the sense that a readMS from within the body\n will cause a dead-lock. However, all other possibilies to access the state\n that came to my mind had even more serious deficiencies such as being prone\n to race conditions or semantic obscurities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "withMS",
           "package": "lambdabot",
@@ -8118,6 +8761,7 @@
         "index": {
           "description": "Update the module private state This is the preferred way of changing the state The state will be locked until the body returns The function is exception-safe i.e even if an error occurs or the thread is killed e.g because it deadlocked and therefore exceeded its time limit the state from the last write operation will be restored If the writer escapes calling it will have no observable effect withMS is not composable in the sense that readMS from within the body will cause dead-lock However all other possibilies to access the state that came to my mind had even more serious deficiencies such as being prone to race conditions or semantic obscurities",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "withMS",
           "normalized": "(LBState a-\u003e(LBState a-\u003ea())-\u003ea b)-\u003ea b",
@@ -8134,6 +8778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites private state. For now, it locks everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "withPS",
           "package": "lambdabot",
@@ -8143,6 +8788,7 @@
         "index": {
           "description": "Writes private state For now it locks everything",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "withPS",
           "normalized": "Nick-\u003e(Maybe a-\u003e(Maybe a-\u003eLB())-\u003eLB b)-\u003ec b",
@@ -8158,6 +8804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "writeGS",
           "package": "lambdabot",
@@ -8167,6 +8814,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "writeGS",
           "normalized": "a-\u003eb()",
@@ -8183,6 +8831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeristence: write the global state out\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "writeGlobalState",
           "package": "lambdabot",
@@ -8193,6 +8842,7 @@
         "index": {
           "description": "Peristence write the global state out",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "writeGlobalState",
           "normalized": "Module a-\u003eString-\u003eModuleT a LB()",
@@ -8209,6 +8859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the module's private state. Try to use withMS instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "writeMS",
           "package": "lambdabot",
@@ -8219,6 +8870,7 @@
         "index": {
           "description": "Write the module private state Try to use withMS instead",
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "writeMS",
           "normalized": "LBState a-\u003ea()",
@@ -8234,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.State",
           "name": "writePS",
           "package": "lambdabot",
@@ -8243,6 +8896,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot State",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.State",
           "name": "writePS",
           "normalized": "Nick-\u003eMaybe a-\u003eb()",
@@ -8259,6 +8913,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eURL Utility Functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Browser",
           "name": "Browser",
           "package": "lambdabot",
@@ -8268,6 +8923,7 @@
         "index": {
           "description": "URL Utility Functions",
           "hierarchy": "Lambdabot Util Browser",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Browser",
           "name": "Browser",
           "package": "lambdabot",
@@ -8282,6 +8938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a browser action with some standardized settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Browser",
           "name": "browseLB",
           "package": "lambdabot",
@@ -8292,6 +8949,7 @@
         "index": {
           "description": "Run browser action with some standardized settings",
           "hierarchy": "Lambdabot Util Browser",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Browser",
           "name": "browseLB",
           "normalized": "BrowserAction a b-\u003ec b",
@@ -8308,6 +8966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetches a page title suitable for display.  Ideally, other\n plugins should make use of this function if the result is to be\n displayed in an IRC channel because it ensures that a consistent\n look is used (and also lets the URL plugin effectively ignore\n contextual URLs that might be generated by another instance of\n lambdabot; the URL plugin matches on \u003ccode\u003eurlTitlePrompt\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Browser",
           "name": "urlPageTitle",
           "package": "lambdabot",
@@ -8318,6 +8977,7 @@
         "index": {
           "description": "Fetches page title suitable for display Ideally other plugins should make use of this function if the result is to be displayed in an IRC channel because it ensures that consistent look is used and also lets the URL plugin effectively ignore contextual URLs that might be generated by another instance of lambdabot the URL plugin matches on urlTitlePrompt",
           "hierarchy": "Lambdabot Util Browser",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Browser",
           "name": "urlPageTitle",
           "normalized": "String-\u003eBrowserAction(HandleStream String)(Maybe String)",
@@ -8333,6 +8993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Parser",
           "name": "Parser",
           "package": "lambdabot",
@@ -8341,6 +9002,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Parser",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Parser",
           "name": "Parser",
           "package": "lambdabot",
@@ -8355,6 +9017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender haskell code in a compact format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Parser",
           "name": "prettyPrintInLine",
           "package": "lambdabot",
@@ -8365,6 +9028,7 @@
         "index": {
           "description": "Render haskell code in compact format",
           "hierarchy": "Lambdabot Util Parser",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Parser",
           "name": "prettyPrintInLine",
           "normalized": "a-\u003eString",
@@ -8381,6 +9045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string as an \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003eDecl\u003c/a\u003e\u003c/code\u003e, apply the given generic transformation to it,\n and re-render it back to text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Parser",
           "name": "withParsed",
           "package": "lambdabot",
@@ -8391,6 +9056,7 @@
         "index": {
           "description": "Parse string as an Exp or Decl apply the given generic transformation to it and re-render it back to text",
           "hierarchy": "Lambdabot Util Parser",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Parser",
           "name": "withParsed",
           "normalized": "a-\u003ea)-\u003eString-\u003eString",
@@ -8406,6 +9072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Process",
           "name": "Process",
           "package": "lambdabot",
@@ -8414,6 +9081,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Process",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Process",
           "name": "Process",
           "package": "lambdabot",
@@ -8427,6 +9095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Process",
           "name": "run",
           "package": "lambdabot",
@@ -8436,6 +9105,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Process",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Process",
           "name": "run",
           "normalized": "FilePath-\u003eString-\u003e(String-\u003eString)-\u003eIO String",
@@ -8451,6 +9121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSerialisation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "Serial",
           "package": "lambdabot",
@@ -8460,6 +9131,7 @@
         "index": {
           "description": "Serialisation",
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "Serial",
           "package": "lambdabot",
@@ -8473,6 +9145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "Packable",
           "package": "lambdabot",
@@ -8481,6 +9154,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "Packable",
           "package": "lambdabot",
@@ -8494,6 +9168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "Serial",
           "package": "lambdabot",
@@ -8502,6 +9177,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "Serial",
           "package": "lambdabot",
@@ -8515,6 +9191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "Serial",
           "package": "lambdabot",
@@ -8524,6 +9201,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "Serial",
           "package": "lambdabot",
@@ -8537,6 +9215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "assocListPackedSerial",
           "package": "lambdabot",
@@ -8546,6 +9225,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "assocListPackedSerial",
           "normalized": "Serial[(ByteString,ByteString)]",
@@ -8561,6 +9241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "deserialize",
           "package": "lambdabot",
@@ -8570,6 +9251,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "deserialize",
           "normalized": "ByteString-\u003eMaybe a",
@@ -8584,6 +9266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "mapListPackedSerial",
           "package": "lambdabot",
@@ -8593,6 +9276,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "mapListPackedSerial",
           "normalized": "Serial(Map ByteString[ByteString])",
@@ -8608,6 +9292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "mapPackedSerial",
           "package": "lambdabot",
@@ -8617,6 +9302,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "mapPackedSerial",
           "package": "lambdabot",
@@ -8631,6 +9317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerializes a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e type if both the key and the value are instances\n of Read and Show. The serialization is done by converting the map to\n and from lists. Results are saved line-wise, for better editing and\n revison control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "mapSerial",
           "package": "lambdabot",
@@ -8641,6 +9328,7 @@
         "index": {
           "description": "Serializes Map type if both the key and the value are instances of Read and Show The serialization is done by converting the map to and from lists Results are saved line-wise for better editing and revison control",
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "mapSerial",
           "package": "lambdabot",
@@ -8655,6 +9343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereadM\u003c/a\u003e\u003c/code\u003e behaves like read, but catches failure in a monad.\n this allocates a 20-30 M on startup...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "readM",
           "package": "lambdabot",
@@ -8665,6 +9354,7 @@
         "index": {
           "description": "readM behaves like read but catches failure in monad this allocates on startup",
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "readM",
           "normalized": "String-\u003ea b",
@@ -8679,6 +9369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "readOnly",
           "package": "lambdabot",
@@ -8688,6 +9379,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "readOnly",
           "normalized": "(ByteString-\u003ea)-\u003eSerial a",
@@ -8703,6 +9395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "readPacked",
           "package": "lambdabot",
@@ -8712,6 +9405,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "readPacked",
           "normalized": "ByteString-\u003ea",
@@ -8727,6 +9421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "serialize",
           "package": "lambdabot",
@@ -8736,6 +9431,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "serialize",
           "normalized": "a-\u003eMaybe ByteString",
@@ -8750,6 +9446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "showPacked",
           "package": "lambdabot",
@@ -8759,6 +9456,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "showPacked",
           "normalized": "a-\u003eByteString",
@@ -8775,6 +9473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault `instance' for a Serial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Serial",
           "name": "stdSerial",
           "package": "lambdabot",
@@ -8785,6 +9484,7 @@
         "index": {
           "description": "Default instance for Serial",
           "hierarchy": "Lambdabot Util Serial",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Serial",
           "name": "stdSerial",
           "package": "lambdabot",
@@ -8799,6 +9499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe signal story.\n Posix signals are external events that invoke signal handlers in\n Haskell. The signal handlers in turn throw dynamic exceptions.  Our\n instance of MonadError for LB maps the dynamic exceptions to\n SignalCaughts, which can then be caught by a normal catchError\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Signals",
           "name": "Signals",
           "package": "lambdabot",
@@ -8808,6 +9509,7 @@
         "index": {
           "description": "The signal story Posix signals are external events that invoke signal handlers in Haskell The signal handlers in turn throw dynamic exceptions Our instance of MonadError for LB maps the dynamic exceptions to SignalCaughts which can then be caught by normal catchError",
           "hierarchy": "Lambdabot Util Signals",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Signals",
           "name": "Signals",
           "package": "lambdabot",
@@ -8821,6 +9523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Signals",
           "name": "Signal",
           "package": "lambdabot",
@@ -8828,6 +9531,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Signals",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Signals",
           "name": "Signal",
           "package": "lambdabot",
@@ -8841,6 +9545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Signals",
           "name": "SignalException",
           "package": "lambdabot",
@@ -8849,6 +9554,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Signals",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Signals",
           "name": "SignalException",
           "package": "lambdabot",
@@ -8862,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Signals",
           "name": "SignalException",
           "package": "lambdabot",
@@ -8871,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Signals",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Signals",
           "name": "SignalException",
           "package": "lambdabot",
@@ -8884,6 +9592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Signals",
           "name": "ircSignalMessage",
           "package": "lambdabot",
@@ -8893,6 +9602,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util Signals",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Signals",
           "name": "ircSignalMessage",
           "normalized": "Signal-\u003eString",
@@ -8909,6 +9619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister signal handlers to catch external signals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util.Signals",
           "name": "withIrcSignalCatch",
           "package": "lambdabot",
@@ -8919,6 +9630,7 @@
         "index": {
           "description": "Register signal handlers to catch external signals",
           "hierarchy": "Lambdabot Util Signals",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util.Signals",
           "name": "withIrcSignalCatch",
           "normalized": "a b-\u003ea b",
@@ -8935,6 +9647,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eString and other utilities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "Util",
           "package": "lambdabot",
@@ -8944,6 +9657,7 @@
         "index": {
           "description": "String and other utilities",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "Util",
           "package": "lambdabot",
@@ -8957,6 +9671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "arePrefixesOf",
           "package": "lambdabot",
@@ -8966,6 +9681,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "arePrefixesOf",
           "normalized": "[String]-\u003eString-\u003eBool",
@@ -8981,6 +9697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "arePrefixesWithSpaceOf",
           "package": "lambdabot",
@@ -8990,6 +9707,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "arePrefixesWithSpaceOf",
           "normalized": "[String]-\u003eString-\u003eBool",
@@ -9005,6 +9723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "confirmation",
           "package": "lambdabot",
@@ -9014,6 +9733,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "confirmation",
           "normalized": "[String]",
@@ -9028,6 +9748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "dropNL",
           "package": "lambdabot",
@@ -9037,6 +9758,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "dropNL",
           "normalized": "[Char]-\u003e[Char]",
@@ -9053,6 +9775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edropSpace\u003c/a\u003e\u003c/code\u003e takes as input a String and strips spaces from the\n   prefix as well as the suffix of the String. Example:\n\u003c/p\u003e\u003cpre\u003e dropSpace \"   abc  \" ===\u003e \"abc\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "dropSpace",
           "package": "lambdabot",
@@ -9063,6 +9786,7 @@
         "index": {
           "description": "dropSpace takes as input String and strips spaces from the prefix as well as the suffix of the String Example dropSpace abc abc",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "dropSpace",
           "normalized": "[Char]-\u003e[Char]",
@@ -9079,6 +9803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop space from the end of the string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "dropSpaceEnd",
           "package": "lambdabot",
@@ -9089,6 +9814,7 @@
         "index": {
           "description": "Drop space from the end of the string",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "dropSpaceEnd",
           "normalized": "[Char]-\u003e[Char]",
@@ -9105,6 +9831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euntab an string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "expandTab",
           "package": "lambdabot",
@@ -9115,6 +9842,7 @@
         "index": {
           "description": "untab an string",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "expandTab",
           "normalized": "Int-\u003eString-\u003eString",
@@ -9130,6 +9858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "insult",
           "package": "lambdabot",
@@ -9139,6 +9868,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "insult",
           "normalized": "[String]",
@@ -9153,6 +9883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "io",
           "package": "lambdabot",
@@ -9162,6 +9893,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -9177,6 +9909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncate a string to the specified length, putting ellipses at the\n end if necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "limitStr",
           "package": "lambdabot",
@@ -9187,6 +9920,7 @@
         "index": {
           "description": "Truncate string to the specified length putting ellipses at the end if necessary",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "limitStr",
           "normalized": "Int-\u003eString-\u003eString",
@@ -9203,6 +9937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a list of terms using a single conjunction. Example:\n\u003c/p\u003e\u003cpre\u003e listToStr \"and\" [\"a\", \"b\", \"c\"] ===\u003e \"a, b and c\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "listToStr",
           "package": "lambdabot",
@@ -9213,6 +9948,7 @@
         "index": {
           "description": "Form list of terms using single conjunction Example listToStr and and",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "listToStr",
           "normalized": "String-\u003e[String]-\u003eString",
@@ -9229,6 +9965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePick a random element of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "random",
           "package": "lambdabot",
@@ -9239,6 +9976,7 @@
         "index": {
           "description": "Pick random element of the list",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "random",
           "normalized": "[a]-\u003eb a",
@@ -9254,6 +9992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshow a list without heavyweight formatting\n NB: assumes show instance outputs a quoted \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n under that assumption, strips the outer quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "showClean",
           "package": "lambdabot",
@@ -9264,6 +10003,7 @@
         "index": {
           "description": "show list without heavyweight formatting NB assumes show instance outputs quoted String under that assumption strips the outer quotes",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "showClean",
           "normalized": "[a]-\u003eString",
@@ -9280,6 +10020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a String into it's first word, and the rest of the string. Example:\n\u003c/p\u003e\u003cpre\u003e split_first_word \"A fine day\" ===\u003e (\"A\", \"fine day)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot.Util",
           "name": "splitFirstWord",
           "package": "lambdabot",
@@ -9289,6 +10030,7 @@
         "index": {
           "description": "Break String into it first word and the rest of the string Example split first word fine day fine day",
           "hierarchy": "Lambdabot Util",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot.Util",
           "name": "splitFirstWord",
           "normalized": "String-\u003e(String,String)",
@@ -9305,6 +10047,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe guts of lambdabot.\n\u003c/p\u003e\u003cp\u003eThe LB/Lambdabot monad\n Generic server connection,disconnection\n The module typeclass, type and operations on modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "Lambdabot",
           "package": "lambdabot",
@@ -9314,6 +10057,7 @@
         "index": {
           "description": "The guts of lambdabot The LB Lambdabot monad Generic server connection disconnection The module typeclass type and operations on modules",
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "Lambdabot",
           "package": "lambdabot",
@@ -9328,6 +10072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the given user is being ignored.\n   Privileged users can't be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "checkIgnore",
           "package": "lambdabot",
@@ -9338,6 +10083,7 @@
         "index": {
           "description": "Checks if the given user is being ignored Privileged users can be ignored",
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "checkIgnore",
           "normalized": "IrcMessage-\u003eLB Bool",
@@ -9354,6 +10100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the given user has admin permissions and excecute the action\n   only in this case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "checkPrivs",
           "package": "lambdabot",
@@ -9364,6 +10111,7 @@
         "index": {
           "description": "Checks if the given user has admin permissions and excecute the action only in this case",
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "checkPrivs",
           "normalized": "IrcMessage-\u003eLB Bool",
@@ -9379,6 +10127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "ircGetChannels",
           "package": "lambdabot",
@@ -9388,6 +10137,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "ircGetChannels",
           "normalized": "LB[Nick]",
@@ -9403,6 +10153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "ircInstallOutputFilter",
           "package": "lambdabot",
@@ -9412,6 +10163,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "ircInstallOutputFilter",
           "normalized": "OutputFilter LB-\u003eModuleT a LB()",
@@ -9428,6 +10180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister a module in the irc state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "ircLoadModule",
           "package": "lambdabot",
@@ -9438,6 +10191,7 @@
         "index": {
           "description": "Register module in the irc state",
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "ircLoadModule",
           "normalized": "Module a-\u003eString-\u003eLB()",
@@ -9453,6 +10207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "ircPrivmsg'",
           "package": "lambdabot",
@@ -9462,6 +10217,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "ircPrivmsg'",
           "normalized": "Nick-\u003eString-\u003eLB()",
@@ -9477,6 +10233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "ircQuit",
           "package": "lambdabot",
@@ -9486,6 +10243,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "ircQuit",
           "normalized": "String-\u003eString-\u003eLB()",
@@ -9501,6 +10259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "ircReconnect",
           "package": "lambdabot",
@@ -9510,6 +10269,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "ircReconnect",
           "normalized": "String-\u003eString-\u003eLB()",
@@ -9525,6 +10285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "ircSignalConnect",
           "package": "lambdabot",
@@ -9534,6 +10295,7 @@
         },
         "index": {
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "ircSignalConnect",
           "normalized": "String-\u003eCallback-\u003eModuleT a LB()",
@@ -9550,6 +10312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnregister a module's entry in the irc state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:14 UTC 2014",
           "module": "Lambdabot",
           "name": "ircUnloadModule",
           "package": "lambdabot",
@@ -9560,6 +10323,7 @@
         "index": {
           "description": "Unregister module entry in the irc state",
           "hierarchy": "Lambdabot",
+          "indexed": "2014-03-11T19:04:14",
           "module": "Lambdabot",
           "name": "ircUnloadModule",
           "normalized": "String-\u003eLB()",

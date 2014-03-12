@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-progress"
+        "phrase": "bytestring-progress",
+        "type": "phrase"
       },
       "type": "context"
     }

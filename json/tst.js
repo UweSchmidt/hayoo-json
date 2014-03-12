@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tst"
+        "phrase": "tst",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of a Ternary Search Tree:\n   \u003ca\u003ehttps://en.wikipedia.org/wiki/Ternary_search_tree\u003c/a\u003e, which is a structure\n   useful to store any list-like thing.  It is quite resistant to non-random\n   data without needing rebalancing and can be as fast or faster than hash\n   tables.\n\u003c/p\u003e\u003cp\u003eThe usual finite map operations are provided, plus utilities to match\n   wildcarded words efficiently.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "TST",
           "package": "tst",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of Ternary Search Tree https en.wikipedia.org wiki Ternary search tree which is structure useful to store any list-like thing It is quite resistant to non-random data without needing rebalancing and can be as fast or faster than hash tables The usual finite map operations are provided plus utilities to match wildcarded words efficiently",
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "TST",
           "package": "tst",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "TST",
           "package": "tst",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "TST",
           "package": "tst",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "WildCard",
           "package": "tst",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "WildCard",
           "package": "tst",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "WildList",
           "package": "tst",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "WildList",
           "package": "tst",
@@ -151,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe don't need this and it's slow.  But you've got to have a \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "delete",
           "package": "tst",
@@ -161,6 +170,7 @@
         "index": {
           "description": "We don need this and it slow But you ve got to have delete",
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "delete",
           "normalized": "[a]-\u003eTST a b-\u003eTST a b",
@@ -175,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "empty",
           "package": "tst",
@@ -184,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "empty",
           "package": "tst",
@@ -196,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "fromList",
           "package": "tst",
@@ -205,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "fromList",
           "normalized": "[([a],b)]-\u003eTST a b",
@@ -220,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "insert",
           "package": "tst",
@@ -229,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "insert",
           "normalized": "[a]-\u003eb-\u003eTST a b-\u003eTST a b",
@@ -243,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "insertWith",
           "package": "tst",
@@ -252,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[b]-\u003ea-\u003eTST b a-\u003eTST b a",
@@ -267,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "lookup",
           "package": "tst",
@@ -276,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "lookup",
           "normalized": "[a]-\u003eTST a b-\u003eMaybe b",
@@ -290,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "matchWL",
           "package": "tst",
@@ -299,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "matchWL",
           "normalized": "WildList a-\u003eTST a b-\u003e[([a],b)]",
@@ -314,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "singleton",
           "package": "tst",
@@ -323,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "singleton",
           "normalized": "[a]-\u003eb-\u003eTST a b",
@@ -337,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TST",
           "name": "toList",
           "package": "tst",
@@ -346,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data TST",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TST",
           "name": "toList",
           "normalized": "TST a b-\u003e[([a],b)]",
@@ -362,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTST\u003c/a\u003e\u003c/code\u003e sym ()\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "TSTSet",
           "package": "tst",
@@ -371,6 +398,7 @@
         "index": {
           "description": "wrapper for TST sym",
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "TSTSet",
           "package": "tst",
@@ -384,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "TSTSet",
           "package": "tst",
@@ -392,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "TSTSet",
           "package": "tst",
@@ -405,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "WildCard",
           "package": "tst",
@@ -413,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "WildCard",
           "package": "tst",
@@ -426,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "WildList",
           "package": "tst",
@@ -434,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "WildList",
           "package": "tst",
@@ -447,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "delete",
           "package": "tst",
@@ -456,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "delete",
           "normalized": "[a]-\u003eTSTSet a-\u003eTSTSet a",
@@ -470,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "empty",
           "package": "tst",
@@ -479,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "empty",
           "package": "tst",
@@ -491,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "fromList",
           "package": "tst",
@@ -500,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "fromList",
           "normalized": "[[a]]-\u003eTSTSet a",
@@ -515,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "insert",
           "package": "tst",
@@ -524,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "insert",
           "normalized": "[a]-\u003eTSTSet a-\u003eTSTSet a",
@@ -538,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "matchWL",
           "package": "tst",
@@ -547,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "matchWL",
           "normalized": "WildList a-\u003eTSTSet a-\u003e[[a]]",
@@ -562,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "member",
           "package": "tst",
@@ -571,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "member",
           "normalized": "[a]-\u003eTSTSet a-\u003eBool",
@@ -585,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "singleton",
           "package": "tst",
@@ -594,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "singleton",
           "normalized": "[a]-\u003eTSTSet a",
@@ -608,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:51 UTC 2014",
           "module": "Data.TSTSet",
           "name": "toList",
           "package": "tst",
@@ -617,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Data TSTSet",
+          "indexed": "2014-03-11T20:25:51",
           "module": "Data.TSTSet",
           "name": "toList",
           "normalized": "TSTSet a-\u003e[[a]]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "demarcate"
+        "phrase": "demarcate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternals of the \u003ccode\u003e\u003ca\u003eDemarcate\u003c/a\u003e\u003c/code\u003e monad transformer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "Internal",
           "package": "demarcate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internals of the Demarcate monad transformer",
           "hierarchy": "Control Monad Trans Demarcate Internal",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "Internal",
           "package": "demarcate",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemarcate monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "Demarcate",
           "package": "demarcate",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Demarcate monad transformer",
           "hierarchy": "Control Monad Trans Demarcate Internal",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "Demarcate",
           "package": "demarcate",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemarcate functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "DemarcateF",
           "package": "demarcate",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Demarcate functor",
           "hierarchy": "Control Monad Trans Demarcate Internal",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "DemarcateF",
           "package": "demarcate",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "Demarcate",
           "package": "demarcate",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Demarcate Internal",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "Demarcate",
           "package": "demarcate",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlifted monadic computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "DemarcateMonad",
           "package": "demarcate",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Unlifted monadic computation",
           "hierarchy": "Control Monad Trans Demarcate Internal",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "DemarcateMonad",
           "normalized": "a b DemarcateMonad(c b)(b-\u003ed)",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformed monadic computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "DemarcateTrans",
           "package": "demarcate",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Transformed monadic computation",
           "hierarchy": "Control Monad Trans Demarcate Internal",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "DemarcateTrans",
           "normalized": "a b DemarcateTrans(c d b)(b-\u003ee)",
@@ -321,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "unDemarcate",
           "package": "demarcate",
@@ -330,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Demarcate Internal",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate.Internal",
           "name": "unDemarcate",
           "package": "demarcate",
@@ -370,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface for \u003ccode\u003e\u003ca\u003eDemarcate\u003c/a\u003e\u003c/code\u003e monad transformer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate",
           "name": "Demarcate",
           "package": "demarcate",
@@ -379,6 +394,7 @@
         "index": {
           "description": "Interface for Demarcate monad transformer",
           "hierarchy": "Control Monad Trans Demarcate",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate",
           "name": "Demarcate",
           "package": "demarcate",
@@ -393,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemarcate monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:52 UTC 2014",
           "module": "Control.Monad.Trans.Demarcate",
           "name": "Demarcate",
           "package": "demarcate",
@@ -402,6 +419,7 @@
         "index": {
           "description": "Demarcate monad transformer",
           "hierarchy": "Control Monad Trans Demarcate",
+          "indexed": "2014-03-11T17:52:52",
           "module": "Control.Monad.Trans.Demarcate",
           "name": "Demarcate",
           "package": "demarcate",

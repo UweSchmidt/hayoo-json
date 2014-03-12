@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nme"
+        "phrase": "nme",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "NME",
           "package": "nme",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "NME",
           "package": "nme",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "Err",
           "package": "nme",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "Err",
           "package": "nme",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "OutputFormat",
           "package": "nme",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "OutputFormat",
           "package": "nme",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "ProcessOpt",
           "package": "nme",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "ProcessOpt",
           "package": "nme",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "Err",
           "package": "nme",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "Err",
           "package": "nme",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "OutputFormat",
           "package": "nme",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "OutputFormat",
           "package": "nme",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "ProcessOpt",
           "package": "nme",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "ProcessOpt",
           "package": "nme",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "c_nmeProcess",
           "package": "nme",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "c_nmeProcess",
           "normalized": "CString-\u003eCInt-\u003eCString-\u003eCInt-\u003eCInt-\u003eCString-\u003ePtr OutputFormat-\u003eCInt-\u003ePtr CString-\u003ePtr CInt-\u003ePtr CInt-\u003eIO Err",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "io_process",
           "package": "nme",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "io_process",
           "normalized": "String-\u003e[ProcessOpt]-\u003eString-\u003ePtr OutputFormat-\u003eInt-\u003eIO(Either Err String)",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEErr1stNMEOpt",
           "package": "nme",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEErr1stNMEOpt",
           "package": "nme",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEErr1stUser",
           "package": "nme",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEErr1stUser",
           "package": "nme",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEErrBadMarkup",
           "package": "nme",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEErrBadMarkup",
           "package": "nme",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEErrInternal",
           "package": "nme",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEErrInternal",
           "package": "nme",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEErrNotEnoughMemory",
           "package": "nme",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEErrNotEnoughMemory",
           "package": "nme",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEErrOk",
           "package": "nme",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEErrOk",
           "package": "nme",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptDefault",
           "package": "nme",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptDefault",
           "package": "nme",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptH1Num",
           "package": "nme",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptH1Num",
           "package": "nme",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptH2Num",
           "package": "nme",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptH2Num",
           "package": "nme",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoBold",
           "package": "nme",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoBold",
           "package": "nme",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoDL",
           "package": "nme",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoDL",
           "package": "nme",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoEscape",
           "package": "nme",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoEscape",
           "package": "nme",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoH1",
           "package": "nme",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoH1",
           "package": "nme",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoHRule",
           "package": "nme",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoHRule",
           "package": "nme",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoImage",
           "package": "nme",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoImage",
           "package": "nme",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoIndentedPar",
           "package": "nme",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoIndentedPar",
           "package": "nme",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoItalic",
           "package": "nme",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoItalic",
           "package": "nme",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoLink",
           "package": "nme",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoLink",
           "package": "nme",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoMonospace",
           "package": "nme",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoMonospace",
           "package": "nme",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoMultilinePar",
           "package": "nme",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoMultilinePar",
           "package": "nme",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoPlugin",
           "package": "nme",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoPlugin",
           "package": "nme",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoPreAndPost",
           "package": "nme",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoPreAndPost",
           "package": "nme",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoSubSuperscript",
           "package": "nme",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoSubSuperscript",
           "package": "nme",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoTable",
           "package": "nme",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoTable",
           "package": "nme",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoUnderline",
           "package": "nme",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptNoUnderline",
           "package": "nme",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptVerbatimMono",
           "package": "nme",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptVerbatimMono",
           "package": "nme",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "kNMEProcessOptXRef",
           "package": "nme",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "kNMEProcessOptXRef",
           "package": "nme",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatDebug",
           "package": "nme",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatDebug",
           "package": "nme",
@@ -831,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatHTML",
           "package": "nme",
@@ -840,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatHTML",
           "package": "nme",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatLaTeX",
           "package": "nme",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatLaTeX",
           "package": "nme",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatMan",
           "package": "nme",
@@ -884,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatMan",
           "package": "nme",
@@ -897,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatNME",
           "package": "nme",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatNME",
           "package": "nme",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatNull",
           "package": "nme",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatNull",
           "package": "nme",
@@ -941,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatRTF",
           "package": "nme",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatRTF",
           "package": "nme",
@@ -963,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatText",
           "package": "nme",
@@ -972,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatText",
           "package": "nme",
@@ -985,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "outputFormatTextCompact",
           "package": "nme",
@@ -994,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "outputFormatTextCompact",
           "package": "nme",
@@ -1008,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a string and options, returns Either an error code or a string\n   in the specified format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:29 UTC 2014",
           "module": "Text.NME",
           "name": "process",
           "package": "nme",
@@ -1018,6 +1109,7 @@
         "index": {
           "description": "Takes string and options returns Either an error code or string in the specified format",
           "hierarchy": "Text NME",
+          "indexed": "2014-03-11T19:29:29",
           "module": "Text.NME",
           "name": "process",
           "normalized": "String-\u003e[ProcessOpt]-\u003eString-\u003ePtr OutputFormat-\u003eInt-\u003eEither Err String",

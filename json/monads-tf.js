@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monads-tf"
+        "phrase": "monads-tf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations which can be interrupted and resumed.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Binding a function to a monadic value creates\na new continuation which uses the function as the continuation of the monadic\ncomputation.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Complex control structures, error handling,\nand creating co-routines.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e None.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003eCont\u003c/code\u003e r a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe Continuation monad represents computations in continuation-passing style\n(CPS).\nIn continuation-passing style function result is not returned,\nbut instead is passed to another function,\nreceived as a parameter (continuation).\nComputations are built up from sequences\nof nested continuations, terminated by a final continuation (often \u003ccode\u003eid\u003c/code\u003e)\nwhich produces the final result.\nSince continuations are functions which represent the future of a computation,\nmanipulation of the continuation functions can achieve complex manipulations\nof the future of the computation,\nsuch as interrupting a computation in the middle, aborting a portion\nof a computation, restarting a computation, and interleaving execution of\ncomputations.\nThe Continuation monad adapts CPS to the structure of a monad.\n\u003c/p\u003e\u003cp\u003eBefore using the Continuation monad, be sure that you have\na firm understanding of continuation-passing style\nand that continuations represent the best solution to your particular\ndesign problem.\nMany algorithms which require continuations in other languages do not require\nthem in Haskell, due to Haskell's lazy semantics.\nAbuse of the Continuation monad can produce code that is impossible\nto understand and maintain.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Computation type Computations which can be interrupted and resumed Binding strategy Binding function to monadic value creates new continuation which uses the function as the continuation of the monadic computation Useful for Complex control structures error handling and creating co-routines Zero and plus None Example type Cont The Continuation monad represents computations in continuation-passing style CPS In continuation-passing style function result is not returned but instead is passed to another function received as parameter continuation Computations are built up from sequences of nested continuations terminated by final continuation often id which produces the final result Since continuations are functions which represent the future of computation manipulation of the continuation functions can achieve complex manipulations of the future of the computation such as interrupting computation in the middle aborting portion of computation restarting computation and interleaving execution of computations The Continuation monad adapts CPS to the structure of monad Before using the Continuation monad be sure that you have firm understanding of continuation-passing style and that continuations represent the best solution to your particular design problem Many algorithms which require continuations in other languages do not require them in Haskell due to Haskell lazy semantics Abuse of the Continuation monad can produce code that is impossible to understand and maintain",
           "hierarchy": "Control Monad Cont Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont.Class",
           "name": "MonadCont",
           "package": "monads-tf",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Cont Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont.Class",
           "name": "MonadCont",
           "package": "monads-tf",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecallCC\u003c/code\u003e (call-with-current-continuation)\n    calls a function with the current continuation as its argument.\n    Provides an escape continuation mechanism for use with Continuation monads.\n    Escape continuations allow to abort the current computation and return\n    a value immediately.\n    They achieve a similar effect to \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e\n    and \u003ccode\u003e\u003ca\u003ecatchError\u003c/a\u003e\u003c/code\u003e\n    within an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e monad.\n    Advantage of this function over calling \u003ccode\u003ereturn\u003c/code\u003e is that it makes\n    the continuation explicit,\n    allowing more flexibility and better control\n    (see examples in \u003ca\u003eControl.Monad.Cont\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThe standard idiom used with \u003ccode\u003ecallCC\u003c/code\u003e is to provide a lambda-expression\n    to name the continuation. Then calling the named continuation anywhere\n    within its scope will escape from the computation,\n    even if it is many layers deep within nested computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont.Class",
           "name": "callCC",
           "package": "monads-tf",
@@ -73,6 +78,7 @@
         "index": {
           "description": "callCC call-with-current-continuation calls function with the current continuation as its argument Provides an escape continuation mechanism for use with Continuation monads Escape continuations allow to abort the current computation and return value immediately They achieve similar effect to throwError and catchError within an Error monad Advantage of this function over calling return is that it makes the continuation explicit allowing more flexibility and better control see examples in Control.Monad.Cont The standard idiom used with callCC is to provide lambda-expression to name the continuation Then calling the named continuation anywhere within its scope will escape from the computation even if it is many layers deep within nested computations",
           "hierarchy": "Control Monad Cont Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont.Class",
           "name": "callCC",
           "normalized": "((a-\u003eb c)-\u003eb a)-\u003eb a",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations which can be interrupted and resumed.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Binding a function to a monadic value creates\na new continuation which uses the function as the continuation of the monadic\ncomputation.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Complex control structures, error handling,\nand creating co-routines.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e None.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCont\u003c/a\u003e\u003c/code\u003e r a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe Continuation monad represents computations in continuation-passing style\n(CPS).\nIn continuation-passing style function result is not returned,\nbut instead is passed to another function,\nreceived as a parameter (continuation).\nComputations are built up from sequences\nof nested continuations, terminated by a final continuation (often \u003ccode\u003eid\u003c/code\u003e)\nwhich produces the final result.\nSince continuations are functions which represent the future of a computation,\nmanipulation of the continuation functions can achieve complex manipulations\nof the future of the computation,\nsuch as interrupting a computation in the middle, aborting a portion\nof a computation, restarting a computation, and interleaving execution of\ncomputations.\nThe Continuation monad adapts CPS to the structure of a monad.\n\u003c/p\u003e\u003cp\u003eBefore using the Continuation monad, be sure that you have\na firm understanding of continuation-passing style\nand that continuations represent the best solution to your particular\ndesign problem.\nMany algorithms which require continuations in other languages do not require\nthem in Haskell, due to Haskell's lazy semantics.\nAbuse of the Continuation monad can produce code that is impossible\nto understand and maintain.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "Cont",
           "package": "monads-tf",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Computation type Computations which can be interrupted and resumed Binding strategy Binding function to monadic value creates new continuation which uses the function as the continuation of the monadic computation Useful for Complex control structures error handling and creating co-routines Zero and plus None Example type Cont The Continuation monad represents computations in continuation-passing style CPS In continuation-passing style function result is not returned but instead is passed to another function received as parameter continuation Computations are built up from sequences of nested continuations terminated by final continuation often id which produces the final result Since continuations are functions which represent the future of computation manipulation of the continuation functions can achieve complex manipulations of the future of the computation such as interrupting computation in the middle aborting portion of computation restarting computation and interleaving execution of computations The Continuation monad adapts CPS to the structure of monad Before using the Continuation monad be sure that you have firm understanding of continuation-passing style and that continuations represent the best solution to your particular design problem Many algorithms which require continuations in other languages do not require them in Haskell due to Haskell lazy semantics Abuse of the Continuation monad can produce code that is impossible to understand and maintain",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "Cont",
           "package": "monads-tf",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContinuation monad.\n\u003ccode\u003eCont r a\u003c/code\u003e is a CPS computation that produces an intermediate result\nof type \u003ccode\u003ea\u003c/code\u003e within a CPS computation whose final result type is \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003ereturn\u003c/code\u003e function simply creates a continuation which passes the value on.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003e\u003e=\u003c/code\u003e operator adds the bound function into the continuation chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "Cont",
           "package": "monads-tf",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Continuation monad Cont is CPS computation that produces an intermediate result of type within CPS computation whose final result type is The return function simply creates continuation which passes the value on The operator adds the bound function into the continuation chain",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "Cont",
           "package": "monads-tf",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe continuation monad transformer.\nCan be used to add continuation handling to other monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "ContT",
           "package": "monads-tf",
@@ -142,6 +153,7 @@
         "index": {
           "description": "The continuation monad transformer Can be used to add continuation handling to other monads",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "ContT",
           "package": "monads-tf",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "MonadCont",
           "package": "monads-tf",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "MonadCont",
           "package": "monads-tf",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "ContT",
           "package": "monads-tf",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "ContT",
           "package": "monads-tf",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecallCC\u003c/code\u003e (call-with-current-continuation)\n    calls a function with the current continuation as its argument.\n    Provides an escape continuation mechanism for use with Continuation monads.\n    Escape continuations allow to abort the current computation and return\n    a value immediately.\n    They achieve a similar effect to \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e\n    and \u003ccode\u003e\u003ca\u003ecatchError\u003c/a\u003e\u003c/code\u003e\n    within an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e monad.\n    Advantage of this function over calling \u003ccode\u003ereturn\u003c/code\u003e is that it makes\n    the continuation explicit,\n    allowing more flexibility and better control\n    (see examples in \u003ca\u003eControl.Monad.Cont\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThe standard idiom used with \u003ccode\u003ecallCC\u003c/code\u003e is to provide a lambda-expression\n    to name the continuation. Then calling the named continuation anywhere\n    within its scope will escape from the computation,\n    even if it is many layers deep within nested computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "callCC",
           "package": "monads-tf",
@@ -208,6 +225,7 @@
         "index": {
           "description": "callCC call-with-current-continuation calls function with the current continuation as its argument Provides an escape continuation mechanism for use with Continuation monads Escape continuations allow to abort the current computation and return value immediately They achieve similar effect to throwError and catchError within an Error monad Advantage of this function over calling return is that it makes the continuation explicit allowing more flexibility and better control see examples in Control.Monad.Cont The standard idiom used with callCC is to provide lambda-expression to name the continuation Then calling the named continuation anywhere within its scope will escape from the computation even if it is many layers deep within nested computations",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "callCC",
           "normalized": "((a-\u003eb c)-\u003eb a)-\u003eb a",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to transform the result of a continuation-passing\n computation.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunCont\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapCont\u003c/a\u003e\u003c/code\u003e f m) = f . \u003ccode\u003e\u003ca\u003erunCont\u003c/a\u003e\u003c/code\u003e m\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "mapCont",
           "package": "monads-tf",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Apply function to transform the result of continuation-passing computation runCont mapCont runCont",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "mapCont",
           "normalized": "(a-\u003ea)-\u003eCont a b-\u003eCont a b",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to transform the result of a continuation-passing\n computation.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunContT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapContT\u003c/a\u003e\u003c/code\u003e f m) = f . \u003ccode\u003e\u003ca\u003erunContT\u003c/a\u003e\u003c/code\u003e m\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "mapContT",
           "package": "monads-tf",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Apply function to transform the result of continuation-passing computation runContT mapContT runContT",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "mapContT",
           "normalized": "(a b-\u003ea b)-\u003eContT b a c-\u003eContT b a c",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a CPS computation, returns its result after applying the final\n continuation to it.\n (The inverse of \u003ccode\u003e\u003ca\u003econt\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "runCont",
           "package": "monads-tf",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Runs CPS computation returns its result after applying the final continuation to it The inverse of cont",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "runCont",
           "normalized": "Cont a b-\u003e(b-\u003ea)-\u003ea",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "runContT",
           "package": "monads-tf",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "runContT",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to transform the continuation passed to a CPS\n computation.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunCont\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ewithCont\u003c/a\u003e\u003c/code\u003e f m) = \u003ccode\u003e\u003ca\u003erunCont\u003c/a\u003e\u003c/code\u003e m . f\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "withCont",
           "package": "monads-tf",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Apply function to transform the continuation passed to CPS computation runCont withCont runCont",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "withCont",
           "normalized": "((a-\u003eb)-\u003ec-\u003eb)-\u003eCont b c-\u003eCont b a",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to transform the continuation passed to a CPS\n computation.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunContT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ewithContT\u003c/a\u003e\u003c/code\u003e f m) = \u003ccode\u003e\u003ca\u003erunContT\u003c/a\u003e\u003c/code\u003e m . f\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Cont",
           "name": "withContT",
           "package": "monads-tf",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Apply function to transform the continuation passed to CPS computation runContT withContT runContT",
           "hierarchy": "Control Monad Cont",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Cont",
           "name": "withContT",
           "normalized": "((a-\u003eb c)-\u003ed-\u003eb c)-\u003eContT c b d-\u003eContT c b a",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations which may fail or throw exceptions.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Failure records information about the cause/location\nof the failure. Failure values bypass the bound function,\nother values are used as inputs to the bound function.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Building computations from sequences of functions that may fail\nor using exception handling to structure error handling.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e Zero is represented by an empty error and the plus operation\nexecutes its second argument if the first fails.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe Error monad (also called the Exception monad).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Computation type Computations which may fail or throw exceptions Binding strategy Failure records information about the cause location of the failure Failure values bypass the bound function other values are used as inputs to the bound function Useful for Building computations from sequences of functions that may fail or using exception handling to structure error handling Zero and plus Zero is represented by an empty error and the plus operation executes its second argument if the first fails Example type Either String The Error monad also called the Exception monad",
           "hierarchy": "Control Monad Error Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception to be thrown.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003enoMsg\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003estrMsg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error.Class",
           "name": "Error",
           "package": "monads-tf",
@@ -403,6 +436,7 @@
         "index": {
           "description": "An exception to be thrown Minimal complete definition noMsg or strMsg",
           "hierarchy": "Control Monad Error Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error.Class",
           "name": "Error",
           "package": "monads-tf",
@@ -417,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy of combining computations that can throw exceptions\nby bypassing bound functions\nfrom the point an exception is thrown to the point that it is handled.\n\u003c/p\u003e\u003cp\u003eIs parameterized over the type of error information and\nthe monad type constructor.\nIt is common to use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e String\u003c/code\u003e as the monad type constructor\nfor an error monad in which error descriptions take the form of strings.\nIn that case and many other common cases the resulting monad is already defined\nas an instance of the \u003ccode\u003e\u003ca\u003eMonadError\u003c/a\u003e\u003c/code\u003e class.\nYou can also define your own error type and/or use a monad type constructor\nother than \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e String\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e IOError\u003c/code\u003e.\nIn these cases you will have to explicitly define instances of the \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\nand/or \u003ccode\u003e\u003ca\u003eMonadError\u003c/a\u003e\u003c/code\u003e classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error.Class",
           "name": "MonadError",
           "package": "monads-tf",
@@ -426,6 +461,7 @@
         "index": {
           "description": "The strategy of combining computations that can throw exceptions by bypassing bound functions from the point an exception is thrown to the point that it is handled Is parameterized over the type of error information and the monad type constructor It is common to use Either String as the monad type constructor for an error monad in which error descriptions take the form of strings In that case and many other common cases the resulting monad is already defined as an instance of the MonadError class You can also define your own error type and or use monad type constructor other than Either String or Either IOError In these cases you will have to explicitly define instances of the Error and or MonadError classes",
           "hierarchy": "Control Monad Error Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error.Class",
           "name": "MonadError",
           "package": "monads-tf",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handler function to handle previous errors and return to normal execution.\n    A common idiom is:\n\u003c/p\u003e\u003cpre\u003e do { action1; action2; action3 } `catchError` handler\n\u003c/pre\u003e\u003cp\u003ewhere the \u003ccode\u003eaction\u003c/code\u003e functions can call \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e.\n    Note that \u003ccode\u003ehandler\u003c/code\u003e and the do-block must have the same return type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error.Class",
           "name": "catchError",
           "package": "monads-tf",
@@ -450,6 +487,7 @@
         "index": {
           "description": "handler function to handle previous errors and return to normal execution common idiom is do action1 action2 action3 catchError handler where the action functions can call throwError Note that handler and the do-block must have the same return type",
           "hierarchy": "Control Monad Error Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error.Class",
           "name": "catchError",
           "normalized": "a b-\u003e(ErrorType a-\u003ea b)-\u003ea b",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an exception without a message.\n The default implementation is \u003ccode\u003e\u003ccode\u003e\u003ca\u003estrMsg\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error.Class",
           "name": "noMsg",
           "package": "monads-tf",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Creates an exception without message The default implementation is strMsg",
           "hierarchy": "Control Monad Error Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error.Class",
           "name": "noMsg",
           "package": "monads-tf",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an exception with a message.\n The default implementation of \u003ccode\u003e\u003ccode\u003e\u003ca\u003estrMsg\u003c/a\u003e\u003c/code\u003e s\u003c/code\u003e is \u003ccode\u003e\u003ca\u003enoMsg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error.Class",
           "name": "strMsg",
           "package": "monads-tf",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Creates an exception with message The default implementation of strMsg is noMsg",
           "hierarchy": "Control Monad Error Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error.Class",
           "name": "strMsg",
           "normalized": "String-\u003ea",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs used within a monadic computation to begin exception processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error.Class",
           "name": "throwError",
           "package": "monads-tf",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Is used within monadic computation to begin exception processing",
           "hierarchy": "Control Monad Error Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error.Class",
           "name": "throwError",
           "normalized": "ErrorType a-\u003ea b",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations which may fail or throw exceptions.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Failure records information about the cause/location\nof the failure. Failure values bypass the bound function,\nother values are used as inputs to the bound function.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Building computations from sequences of functions that may fail\nor using exception handling to structure error handling.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e Zero is represented by an empty error and the plus operation\nexecutes its second argument if the first fails.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e String a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe Error monad (also called the Exception monad).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "Error",
           "package": "monads-tf",
@@ -549,6 +594,7 @@
         "index": {
           "description": "Computation type Computations which may fail or throw exceptions Binding strategy Failure records information about the cause location of the failure Failure values bypass the bound function other values are used as inputs to the bound function Useful for Building computations from sequences of functions that may fail or using exception handling to structure error handling Zero and plus Zero is represented by an empty error and the plus operation executes its second argument if the first fails Example type Either String The Error monad also called the Exception monad",
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "Error",
           "package": "monads-tf",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception to be thrown.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003enoMsg\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003estrMsg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "Error",
           "package": "monads-tf",
@@ -571,6 +618,7 @@
         "index": {
           "description": "An exception to be thrown Minimal complete definition noMsg or strMsg",
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "Error",
           "package": "monads-tf",
@@ -585,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe error monad transformer. It can be used to add error handling\n to other monads.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eErrorT\u003c/code\u003e Monad structure is parameterized over two things:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e e - The error type.\n\u003c/li\u003e\u003cli\u003e m - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function yields a successful computation, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e\n sequences two subcomputations, failing on the first error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "ErrorT",
           "package": "monads-tf",
@@ -593,6 +642,7 @@
         "index": {
           "description": "The error monad transformer It can be used to add error handling to other monads The ErrorT Monad structure is parameterized over two things The error type The inner monad The return function yields successful computation while sequences two subcomputations failing on the first error",
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "ErrorT",
           "package": "monads-tf",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy of combining computations that can throw exceptions\nby bypassing bound functions\nfrom the point an exception is thrown to the point that it is handled.\n\u003c/p\u003e\u003cp\u003eIs parameterized over the type of error information and\nthe monad type constructor.\nIt is common to use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e String\u003c/code\u003e as the monad type constructor\nfor an error monad in which error descriptions take the form of strings.\nIn that case and many other common cases the resulting monad is already defined\nas an instance of the \u003ccode\u003e\u003ca\u003eMonadError\u003c/a\u003e\u003c/code\u003e class.\nYou can also define your own error type and/or use a monad type constructor\nother than \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e String\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e IOError\u003c/code\u003e.\nIn these cases you will have to explicitly define instances of the \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\nand/or \u003ccode\u003e\u003ca\u003eMonadError\u003c/a\u003e\u003c/code\u003e classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "MonadError",
           "package": "monads-tf",
@@ -616,6 +667,7 @@
         "index": {
           "description": "The strategy of combining computations that can throw exceptions by bypassing bound functions from the point an exception is thrown to the point that it is handled Is parameterized over the type of error information and the monad type constructor It is common to use Either String as the monad type constructor for an error monad in which error descriptions take the form of strings In that case and many other common cases the resulting monad is already defined as an instance of the MonadError class You can also define your own error type and or use monad type constructor other than Either String or Either IOError In these cases you will have to explicitly define instances of the Error and or MonadError classes",
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "MonadError",
           "package": "monads-tf",
@@ -629,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "ErrorT",
           "package": "monads-tf",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "ErrorT",
           "package": "monads-tf",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handler function to handle previous errors and return to normal execution.\n    A common idiom is:\n\u003c/p\u003e\u003cpre\u003e do { action1; action2; action3 } `catchError` handler\n\u003c/pre\u003e\u003cp\u003ewhere the \u003ccode\u003eaction\u003c/code\u003e functions can call \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e.\n    Note that \u003ccode\u003ehandler\u003c/code\u003e and the do-block must have the same return type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "catchError",
           "package": "monads-tf",
@@ -661,6 +716,7 @@
         "index": {
           "description": "handler function to handle previous errors and return to normal execution common idiom is do action1 action2 action3 catchError handler where the action functions can call throwError Note that handler and the do-block must have the same return type",
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "catchError",
           "normalized": "a b-\u003e(ErrorType a-\u003ea b)-\u003ea b",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the unwrapped computation using the given function.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunErrorT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapErrorT\u003c/a\u003e\u003c/code\u003e f m) = f (\u003ccode\u003e\u003ca\u003erunErrorT\u003c/a\u003e\u003c/code\u003e m)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "mapErrorT",
           "package": "monads-tf",
@@ -686,6 +743,7 @@
         "index": {
           "description": "Map the unwrapped computation using the given function runErrorT mapErrorT runErrorT",
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "mapErrorT",
           "normalized": "(a(Either b c)-\u003ed(Either e f))-\u003eErrorT b a c-\u003eErrorT e d f",
@@ -701,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "runErrorT",
           "package": "monads-tf",
@@ -709,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "runErrorT",
           "package": "monads-tf",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs used within a monadic computation to begin exception processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Error",
           "name": "throwError",
           "package": "monads-tf",
@@ -733,6 +794,7 @@
         "index": {
           "description": "Is used within monadic computation to begin exception processing",
           "hierarchy": "Control Monad Error",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Error",
           "name": "throwError",
           "normalized": "ErrorType a-\u003ea b",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Simple function application.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e The bound function is applied to the input value.\n\u003ccode\u003e\u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e x \u003e\u003e= f == \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e (f x)\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Monads can be derived from monad transformers applied to the\n\u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e None.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe \u003ccode\u003eIdentity\u003c/code\u003e monad is a monad that does not embody any computational strategy.\nIt simply applies the bound function to its input without any modification.\nComputationally, there is no reason to use the \u003ccode\u003eIdentity\u003c/code\u003e monad\ninstead of the much simpler act of simply applying functions to their arguments.\nThe purpose of the \u003ccode\u003eIdentity\u003c/code\u003e monad is its fundamental role in the theory\nof monad transformers.\nAny monad transformer applied to the \u003ccode\u003eIdentity\u003c/code\u003e monad yields a non-transformer\nversion of that monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Identity",
           "name": "Identity",
           "package": "monads-tf",
@@ -758,6 +821,7 @@
         "index": {
           "description": "Computation type Simple function application Binding strategy The bound function is applied to the input value Identity Identity Useful for Monads can be derived from monad transformers applied to the Identity monad Zero and plus None Example type Identity The Identity monad is monad that does not embody any computational strategy It simply applies the bound function to its input without any modification Computationally there is no reason to use the Identity monad instead of the much simpler act of simply applying functions to their arguments The purpose of the Identity monad is its fundamental role in the theory of monad transformers Any monad transformer applied to the Identity monad yields non-transformer version of that monad",
           "hierarchy": "Control Monad Identity",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Identity",
           "name": "Identity",
           "package": "monads-tf",
@@ -772,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe List monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.List",
           "name": "List",
           "package": "monads-tf",
@@ -781,6 +846,7 @@
         "index": {
           "description": "The List monad",
           "hierarchy": "Control Monad List",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.List",
           "name": "List",
           "package": "monads-tf",
@@ -795,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameterizable list monad, with an inner monad.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e this does not yield a monad unless the argument monad is commutative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.List",
           "name": "ListT",
           "package": "monads-tf",
@@ -803,6 +870,7 @@
         "index": {
           "description": "Parameterizable list monad with an inner monad Note this does not yield monad unless the argument monad is commutative",
           "hierarchy": "Control Monad List",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.List",
           "name": "ListT",
           "package": "monads-tf",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.List",
           "name": "ListT",
           "package": "monads-tf",
@@ -824,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Control Monad List",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.List",
           "name": "ListT",
           "package": "monads-tf",
@@ -838,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap between \u003ccode\u003e\u003ca\u003eListT\u003c/a\u003e\u003c/code\u003e computations.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunListT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapListT\u003c/a\u003e\u003c/code\u003e f m) = f (\u003ccode\u003e\u003ca\u003erunListT\u003c/a\u003e\u003c/code\u003e m)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.List",
           "name": "mapListT",
           "package": "monads-tf",
@@ -847,6 +918,7 @@
         "index": {
           "description": "Map between ListT computations runListT mapListT runListT",
           "hierarchy": "Control Monad List",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.List",
           "name": "mapListT",
           "normalized": "(a[b]-\u003ec[d])-\u003eListT a b-\u003eListT c d",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.List",
           "name": "runListT",
           "package": "monads-tf",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Control Monad List",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.List",
           "name": "runListT",
           "normalized": "a[b]",
@@ -886,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclaration of the MonadRWS class.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -895,6 +970,7 @@
         "index": {
           "description": "Declaration of the MonadRWS class Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad RWS Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS.Class",
           "name": "MonadRWS",
           "package": "monads-tf",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RWS Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS.Class",
           "name": "MonadRWS",
           "package": "monads-tf",
@@ -930,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLazy RWS monad.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS.Lazy",
           "name": "Lazy",
           "package": "monads-tf",
@@ -939,6 +1018,7 @@
         "index": {
           "description": "Lazy RWS monad Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad RWS Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS.Lazy",
           "name": "Lazy",
           "package": "monads-tf",
@@ -953,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad containing an environment of type \u003ccode\u003er\u003c/code\u003e, output of type \u003ccode\u003ew\u003c/code\u003e\n and an updatable state of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS.Lazy",
           "name": "RWS",
           "package": "monads-tf",
@@ -961,6 +1042,7 @@
         "index": {
           "description": "monad containing an environment of type output of type and an updatable state of type",
           "hierarchy": "Control Monad RWS Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS.Lazy",
           "name": "RWS",
           "package": "monads-tf",
@@ -975,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer adding reading an environment of type \u003ccode\u003er\u003c/code\u003e,\n collecting an output of type \u003ccode\u003ew\u003c/code\u003e and updating a state of type \u003ccode\u003es\u003c/code\u003e\n to an inner monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS.Lazy",
           "name": "RWST",
           "package": "monads-tf",
@@ -983,6 +1066,7 @@
         "index": {
           "description": "monad transformer adding reading an environment of type collecting an output of type and updating state of type to an inner monad",
           "hierarchy": "Control Monad RWS Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS.Lazy",
           "name": "RWST",
           "package": "monads-tf",
@@ -1277,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict RWS monad.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS.Strict",
           "name": "Strict",
           "package": "monads-tf",
@@ -1286,6 +1371,7 @@
         "index": {
           "description": "Strict RWS monad Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad RWS Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS.Strict",
           "name": "Strict",
           "package": "monads-tf",
@@ -1300,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad containing an environment of type \u003ccode\u003er\u003c/code\u003e, output of type \u003ccode\u003ew\u003c/code\u003e\n and an updatable state of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS.Strict",
           "name": "RWS",
           "package": "monads-tf",
@@ -1308,6 +1395,7 @@
         "index": {
           "description": "monad containing an environment of type output of type and an updatable state of type",
           "hierarchy": "Control Monad RWS Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS.Strict",
           "name": "RWS",
           "package": "monads-tf",
@@ -1322,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer adding reading an environment of type \u003ccode\u003er\u003c/code\u003e,\n collecting an output of type \u003ccode\u003ew\u003c/code\u003e and updating a state of type \u003ccode\u003es\u003c/code\u003e\n to an inner monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS.Strict",
           "name": "RWST",
           "package": "monads-tf",
@@ -1330,6 +1419,7 @@
         "index": {
           "description": "monad transformer adding reading an environment of type collecting an output of type and updating state of type to an inner monad",
           "hierarchy": "Control Monad RWS Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS.Strict",
           "name": "RWST",
           "package": "monads-tf",
@@ -1344,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclaration of the MonadRWS class.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.RWS",
           "name": "RWS",
           "package": "monads-tf",
@@ -1353,6 +1444,7 @@
         "index": {
           "description": "Declaration of the MonadRWS class Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad RWS",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.RWS",
           "name": "RWS",
           "package": "monads-tf",
@@ -1367,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations which read values from a shared environment.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Monad values are functions from the environment to a value.\nThe bound function is applied to the bound value, and both have access\nto the shared environment.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Maintaining variable bindings, or other shared environment.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e None.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003eReader\u003c/code\u003e [(String,Value)] a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe \u003ccode\u003eReader\u003c/code\u003e monad (also called the Environment monad).\nRepresents a computation, which can read values from\na shared environment, pass values from function to function,\nand execute sub-computations in a modified environment.\nUsing \u003ccode\u003eReader\u003c/code\u003e monad for such computations is often clearer and easier\nthan using the \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n  /Functional Programming with Overloading and\n      Higher-Order Polymorphism/, \n    Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n    Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -1376,6 +1469,7 @@
         "index": {
           "description": "Computation type Computations which read values from shared environment Binding strategy Monad values are functions from the environment to value The bound function is applied to the bound value and both have access to the shared environment Useful for Maintaining variable bindings or other shared environment Zero and plus None Example type Reader String Value The Reader monad also called the Environment monad Represents computation which can read values from shared environment pass values from function to function and execute sub-computations in modified environment Using Reader monad for such computations is often clearer and easier than using the State monad Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad Reader Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -1390,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee examples in \u003ca\u003eControl.Monad.Reader\u003c/a\u003e.\n Note, the partially applied function type \u003ccode\u003e(-\u003e) r\u003c/code\u003e is a simple reader monad.\n See the \u003ccode\u003einstance\u003c/code\u003e declaration below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader.Class",
           "name": "MonadReader",
           "package": "monads-tf",
@@ -1399,6 +1494,7 @@
         "index": {
           "description": "See examples in Control.Monad.Reader Note the partially applied function type is simple reader monad See the instance declaration below",
           "hierarchy": "Control Monad Reader Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader.Class",
           "name": "MonadReader",
           "package": "monads-tf",
@@ -1413,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the monad environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader.Class",
           "name": "ask",
           "package": "monads-tf",
@@ -1423,6 +1520,7 @@
         "index": {
           "description": "Retrieves the monad environment",
           "hierarchy": "Control Monad Reader Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader.Class",
           "name": "ask",
           "package": "monads-tf",
@@ -1461,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a computation in a modified environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader.Class",
           "name": "local",
           "package": "monads-tf",
@@ -1471,6 +1570,7 @@
         "index": {
           "description": "Executes computation in modified environment",
           "hierarchy": "Control Monad Reader Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader.Class",
           "name": "local",
           "package": "monads-tf",
@@ -1484,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations which read values from a shared environment.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Monad values are functions from the environment to a value.\nThe bound function is applied to the bound value, and both have access\nto the shared environment.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Maintaining variable bindings, or other shared environment.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e None.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eReader\u003c/a\u003e\u003c/code\u003e [(String,Value)] a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eReader\u003c/a\u003e\u003c/code\u003e monad (also called the Environment monad).\nRepresents a computation, which can read values from\na shared environment, pass values from function to function,\nand execute sub-computations in a modified environment.\nUsing \u003ccode\u003e\u003ca\u003eReader\u003c/a\u003e\u003c/code\u003e monad for such computations is often clearer and easier\nthan using the \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n  /Functional Programming with Overloading and\n      Higher-Order Polymorphism/, \n    Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n    Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "Reader",
           "package": "monads-tf",
@@ -1493,6 +1594,7 @@
         "index": {
           "description": "Computation type Computations which read values from shared environment Binding strategy Monad values are functions from the environment to value The bound function is applied to the bound value and both have access to the shared environment Useful for Maintaining variable bindings or other shared environment Zero and plus None Example type Reader String Value The Reader monad also called the Environment monad Represents computation which can read values from shared environment pass values from function to function and execute sub-computations in modified environment Using Reader monad for such computations is often clearer and easier than using the State monad Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "Reader",
           "package": "monads-tf",
@@ -1507,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee examples in \u003ca\u003eControl.Monad.Reader\u003c/a\u003e.\n Note, the partially applied function type \u003ccode\u003e(-\u003e) r\u003c/code\u003e is a simple reader monad.\n See the \u003ccode\u003einstance\u003c/code\u003e declaration below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "MonadReader",
           "package": "monads-tf",
@@ -1516,6 +1619,7 @@
         "index": {
           "description": "See examples in Control.Monad.Reader Note the partially applied function type is simple reader monad See the instance declaration below",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "MonadReader",
           "package": "monads-tf",
@@ -1530,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parameterizable reader monad.\n\u003c/p\u003e\u003cp\u003eComputations are functions of a shared environment.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function ignores the environment, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e passes\n the inherited environment to both subcomputations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "Reader",
           "package": "monads-tf",
@@ -1538,6 +1643,7 @@
         "index": {
           "description": "The parameterizable reader monad Computations are functions of shared environment The return function ignores the environment while passes the inherited environment to both subcomputations",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "Reader",
           "package": "monads-tf",
@@ -1552,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reader monad transformer,\n which adds a read-only environment to the given monad.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function ignores the environment, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e passes\n the inherited environment to both subcomputations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "ReaderT",
           "package": "monads-tf",
@@ -1560,6 +1667,7 @@
         "index": {
           "description": "The reader monad transformer which adds read-only environment to the given monad The return function ignores the environment while passes the inherited environment to both subcomputations",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "ReaderT",
           "package": "monads-tf",
@@ -1573,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "ReaderT",
           "package": "monads-tf",
@@ -1581,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "ReaderT",
           "package": "monads-tf",
@@ -1595,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the monad environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "ask",
           "package": "monads-tf",
@@ -1605,6 +1716,7 @@
         "index": {
           "description": "Retrieves the monad environment",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "ask",
           "package": "monads-tf",
@@ -1618,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a computation in a modified environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "local",
           "package": "monads-tf",
@@ -1628,6 +1741,7 @@
         "index": {
           "description": "Executes computation in modified environment",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "local",
           "package": "monads-tf",
@@ -1641,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the value returned by a \u003ccode\u003eReader\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunReader\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapReader\u003c/a\u003e\u003c/code\u003e f m) = f . \u003ccode\u003e\u003ca\u003erunReader\u003c/a\u003e\u003c/code\u003e m\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "mapReader",
           "package": "monads-tf",
@@ -1650,6 +1765,7 @@
         "index": {
           "description": "Transform the value returned by Reader runReader mapReader runReader",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "mapReader",
           "normalized": "(a-\u003eb)-\u003eReader c a-\u003eReader c b",
@@ -1666,6 +1782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the computation inside a \u003ccode\u003eReaderT\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunReaderT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapReaderT\u003c/a\u003e\u003c/code\u003e f m) = f . \u003ccode\u003e\u003ca\u003erunReaderT\u003c/a\u003e\u003c/code\u003e m\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "mapReaderT",
           "package": "monads-tf",
@@ -1675,6 +1792,7 @@
         "index": {
           "description": "Transform the computation inside ReaderT runReaderT mapReaderT runReaderT",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "mapReaderT",
           "normalized": "(a b-\u003ec d)-\u003eReaderT e a b-\u003eReaderT e c d",
@@ -1691,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a \u003ccode\u003eReader\u003c/code\u003e and extracts the final value from it.\n (The inverse of \u003ccode\u003e\u003ca\u003ereader\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "runReader",
           "package": "monads-tf",
@@ -1700,6 +1819,7 @@
         "index": {
           "description": "Runs Reader and extracts the final value from it The inverse of reader",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "runReader",
           "normalized": "Reader a b-\u003ea-\u003eb",
@@ -1716,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe underlying computation, as a function of the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "runReaderT",
           "package": "monads-tf",
@@ -1725,6 +1846,7 @@
         "index": {
           "description": "The underlying computation as function of the environment",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "runReaderT",
           "normalized": "a-\u003eb c",
@@ -1741,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation in a modified environment\n (a specialization of \u003ccode\u003e\u003ca\u003ewithReaderT\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunReader\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ewithReader\u003c/a\u003e\u003c/code\u003e f m) = \u003ccode\u003e\u003ca\u003erunReader\u003c/a\u003e\u003c/code\u003e m . f\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "withReader",
           "package": "monads-tf",
@@ -1750,6 +1873,7 @@
         "index": {
           "description": "Execute computation in modified environment specialization of withReaderT runReader withReader runReader",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "withReader",
           "normalized": "(a-\u003eb)-\u003eReader b c-\u003eReader a c",
@@ -1766,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation in a modified environment\n (a more general version of \u003ccode\u003e\u003ca\u003elocal\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunReaderT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ewithReaderT\u003c/a\u003e\u003c/code\u003e f m) = \u003ccode\u003e\u003ca\u003erunReaderT\u003c/a\u003e\u003c/code\u003e m . f\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Reader",
           "name": "withReaderT",
           "package": "monads-tf",
@@ -1775,6 +1900,7 @@
         "index": {
           "description": "Execute computation in modified environment more general version of local runReaderT withReaderT runReaderT",
           "hierarchy": "Control Monad Reader",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Reader",
           "name": "withReaderT",
           "normalized": "(a-\u003eb)-\u003eReaderT b c d-\u003eReaderT a c d",
@@ -1791,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadState class.\n\u003c/p\u003e\u003cp\u003eThis module is inspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -1800,6 +1927,7 @@
         "index": {
           "description": "MonadState class This module is inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad State Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -1814,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eget\u003c/em\u003e returns the state from the internals of the monad.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eput\u003c/em\u003e replaces the state inside the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Class",
           "name": "MonadState",
           "package": "monads-tf",
@@ -1823,6 +1952,7 @@
         "index": {
           "description": "get returns the state from the internals of the monad put replaces the state inside the monad",
           "hierarchy": "Control Monad State Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Class",
           "name": "MonadState",
           "package": "monads-tf",
@@ -1836,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Class",
           "name": "get",
           "package": "monads-tf",
@@ -1845,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Class",
           "name": "get",
           "package": "monads-tf",
@@ -1909,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Class",
           "name": "put",
           "package": "monads-tf",
@@ -1918,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Class",
           "name": "put",
           "normalized": "StateType a-\u003ea()",
@@ -1933,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLazy state monads.\n\u003c/p\u003e\u003cp\u003eThis module is inspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Lazy",
           "name": "Lazy",
           "package": "monads-tf",
@@ -1942,6 +2077,7 @@
         "index": {
           "description": "Lazy state monads This module is inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad State Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Lazy",
           "name": "Lazy",
           "package": "monads-tf",
@@ -1956,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eget\u003c/em\u003e returns the state from the internals of the monad.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eput\u003c/em\u003e replaces the state inside the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Lazy",
           "name": "MonadState",
           "package": "monads-tf",
@@ -1965,6 +2102,7 @@
         "index": {
           "description": "get returns the state from the internals of the monad put replaces the state inside the monad",
           "hierarchy": "Control Monad State Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Lazy",
           "name": "MonadState",
           "package": "monads-tf",
@@ -1979,6 +2117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA state monad parameterized by the type \u003ccode\u003es\u003c/code\u003e of the state to carry.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Lazy",
           "name": "State",
           "package": "monads-tf",
@@ -1987,6 +2126,7 @@
         "index": {
           "description": "state monad parameterized by the type of the state to carry The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Control Monad State Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Lazy",
           "name": "State",
           "package": "monads-tf",
@@ -2001,6 +2141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA state transformer monad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003es\u003c/code\u003e - The state.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Lazy",
           "name": "StateT",
           "package": "monads-tf",
@@ -2009,6 +2150,7 @@
         "index": {
           "description": "state transformer monad parameterized by The state The inner monad The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Control Monad State Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Lazy",
           "name": "StateT",
           "package": "monads-tf",
@@ -2148,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Lazy",
           "name": "get",
           "package": "monads-tf",
@@ -2157,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Lazy",
           "name": "get",
           "package": "monads-tf",
@@ -2221,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Lazy",
           "name": "put",
           "package": "monads-tf",
@@ -2230,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Lazy",
           "name": "put",
           "normalized": "StateType a-\u003ea()",
@@ -2347,6 +2493,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict state monads.\n\u003c/p\u003e\u003cp\u003eThis module is inspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Strict",
           "name": "Strict",
           "package": "monads-tf",
@@ -2356,6 +2503,7 @@
         "index": {
           "description": "Strict state monads This module is inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad State Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Strict",
           "name": "Strict",
           "package": "monads-tf",
@@ -2370,6 +2518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eget\u003c/em\u003e returns the state from the internals of the monad.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eput\u003c/em\u003e replaces the state inside the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Strict",
           "name": "MonadState",
           "package": "monads-tf",
@@ -2379,6 +2528,7 @@
         "index": {
           "description": "get returns the state from the internals of the monad put replaces the state inside the monad",
           "hierarchy": "Control Monad State Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Strict",
           "name": "MonadState",
           "package": "monads-tf",
@@ -2393,6 +2543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA state monad parameterized by the type \u003ccode\u003es\u003c/code\u003e of the state to carry.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Strict",
           "name": "State",
           "package": "monads-tf",
@@ -2401,6 +2552,7 @@
         "index": {
           "description": "state monad parameterized by the type of the state to carry The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Control Monad State Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Strict",
           "name": "State",
           "package": "monads-tf",
@@ -2415,6 +2567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA state transformer monad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003es\u003c/code\u003e - The state.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Strict",
           "name": "StateT",
           "package": "monads-tf",
@@ -2423,6 +2576,7 @@
         "index": {
           "description": "state transformer monad parameterized by The state The inner monad The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Control Monad State Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Strict",
           "name": "StateT",
           "package": "monads-tf",
@@ -2436,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Strict",
           "name": "get",
           "package": "monads-tf",
@@ -2445,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Strict",
           "name": "get",
           "package": "monads-tf",
@@ -2457,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State.Strict",
           "name": "put",
           "package": "monads-tf",
@@ -2466,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State.Strict",
           "name": "put",
           "normalized": "StateType a-\u003ea()",
@@ -2481,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eState monads.\n\u003c/p\u003e\u003cp\u003eThis module is inspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.State",
           "name": "State",
           "package": "monads-tf",
@@ -2490,6 +2649,7 @@
         "index": {
           "description": "State monads This module is inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj Advanced School of Functional Programming",
           "hierarchy": "Control Monad State",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.State",
           "name": "State",
           "package": "monads-tf",
@@ -2504,6 +2664,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClasses for monad transformers.\n\u003c/p\u003e\u003cp\u003eA monad transformer makes new monad out of an existing monad, such\n that computations of the old monad may be embedded in the new one.\n To construct a monad with a desired set of features, one typically\n starts with a base monad, such as \u003ccode\u003eIdentity\u003c/code\u003e, \u003ccode\u003e[]\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e, and\n applies a sequence of monad transformers.\n\u003c/p\u003e\u003cp\u003eMost monad transformer modules include the special case of applying the\n transformer to \u003ccode\u003eIdentity\u003c/code\u003e.  For example, \u003ccode\u003eState s\u003c/code\u003e is an abbreviation\n for \u003ccode\u003eStateT s Identity\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEach monad transformer also comes with an operation \u003ccode\u003erun\u003c/code\u003e\u003cem\u003eXXX\u003c/em\u003e to\n unwrap the transformer, exposing a computation of the inner monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Trans",
           "name": "Trans",
           "package": "monads-tf",
@@ -2513,6 +2674,7 @@
         "index": {
           "description": "Classes for monad transformers monad transformer makes new monad out of an existing monad such that computations of the old monad may be embedded in the new one To construct monad with desired set of features one typically starts with base monad such as Identity or IO and applies sequence of monad transformers Most monad transformer modules include the special case of applying the transformer to Identity For example State is an abbreviation for StateT Identity Each monad transformer also comes with an operation run XXX to unwrap the transformer exposing computation of the inner monad",
           "hierarchy": "Control Monad Trans",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Trans",
           "name": "Trans",
           "package": "monads-tf",
@@ -2527,6 +2689,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe MonadWriter class.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/pubs/springschool.html\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -2536,6 +2699,7 @@
         "index": {
           "description": "The MonadWriter class Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj pubs springschool.html Advanced School of Functional Programming",
           "hierarchy": "Control Monad Writer Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Class",
           "name": "Class",
           "package": "monads-tf",
@@ -2549,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Class",
           "name": "MonadWriter",
           "package": "monads-tf",
@@ -2557,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Class",
           "name": "MonadWriter",
           "package": "monads-tf",
@@ -2594,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Class",
           "name": "listen",
           "package": "monads-tf",
@@ -2603,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Class",
           "name": "listen",
           "normalized": "a b-\u003ea(b,WriterType a)",
@@ -2641,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Class",
           "name": "pass",
           "package": "monads-tf",
@@ -2650,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Class",
           "name": "pass",
           "normalized": "a(b,WriterType a-\u003eWriterType a)-\u003ea b",
@@ -2664,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Class",
           "name": "tell",
           "package": "monads-tf",
@@ -2673,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Class",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Class",
           "name": "tell",
           "normalized": "WriterType a-\u003ea()",
@@ -2688,6 +2860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLazy writer monads.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/pubs/springschool.html\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Lazy",
           "name": "Lazy",
           "package": "monads-tf",
@@ -2697,6 +2870,7 @@
         "index": {
           "description": "Lazy writer monads Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj pubs springschool.html Advanced School of Functional Programming",
           "hierarchy": "Control Monad Writer Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Lazy",
           "name": "Lazy",
           "package": "monads-tf",
@@ -2710,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Lazy",
           "name": "MonadWriter",
           "package": "monads-tf",
@@ -2718,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Lazy",
           "name": "MonadWriter",
           "package": "monads-tf",
@@ -2732,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA writer monad parameterized by the type \u003ccode\u003ew\u003c/code\u003e of output to accumulate.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces the output \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e\n combines the outputs of the subcomputations using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Lazy",
           "name": "Writer",
           "package": "monads-tf",
@@ -2740,6 +2917,7 @@
         "index": {
           "description": "writer monad parameterized by the type of output to accumulate The return function produces the output mempty while combines the outputs of the subcomputations using mappend",
           "hierarchy": "Control Monad Writer Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Lazy",
           "name": "Writer",
           "package": "monads-tf",
@@ -2754,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA writer monad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ew\u003c/code\u003e - the output to accumulate.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces the output \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e\n combines the outputs of the subcomputations using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Lazy",
           "name": "WriterT",
           "package": "monads-tf",
@@ -2762,6 +2941,7 @@
         "index": {
           "description": "writer monad parameterized by the output to accumulate The inner monad The return function produces the output mempty while combines the outputs of the subcomputations using mappend",
           "hierarchy": "Control Monad Writer Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Lazy",
           "name": "WriterT",
           "package": "monads-tf",
@@ -2849,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Lazy",
           "name": "listen",
           "package": "monads-tf",
@@ -2858,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Lazy",
           "name": "listen",
           "normalized": "a b-\u003ea(b,WriterType a)",
@@ -2924,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Lazy",
           "name": "pass",
           "package": "monads-tf",
@@ -2933,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Lazy",
           "name": "pass",
           "normalized": "a(b,WriterType a-\u003eWriterType a)-\u003ea b",
@@ -2997,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Lazy",
           "name": "tell",
           "package": "monads-tf",
@@ -3006,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Lazy",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Lazy",
           "name": "tell",
           "normalized": "WriterType a-\u003ea()",
@@ -3021,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict writer monads.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/pubs/springschool.html\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Strict",
           "name": "Strict",
           "package": "monads-tf",
@@ -3030,6 +3217,7 @@
         "index": {
           "description": "Strict writer monads Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj pubs springschool.html Advanced School of Functional Programming",
           "hierarchy": "Control Monad Writer Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Strict",
           "name": "Strict",
           "package": "monads-tf",
@@ -3043,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Strict",
           "name": "MonadWriter",
           "package": "monads-tf",
@@ -3051,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Strict",
           "name": "MonadWriter",
           "package": "monads-tf",
@@ -3065,6 +3255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA writer monad parameterized by the type \u003ccode\u003ew\u003c/code\u003e of output to accumulate.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces the output \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e\n combines the outputs of the subcomputations using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Strict",
           "name": "Writer",
           "package": "monads-tf",
@@ -3073,6 +3264,7 @@
         "index": {
           "description": "writer monad parameterized by the type of output to accumulate The return function produces the output mempty while combines the outputs of the subcomputations using mappend",
           "hierarchy": "Control Monad Writer Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Strict",
           "name": "Writer",
           "package": "monads-tf",
@@ -3087,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA writer monad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ew\u003c/code\u003e - the output to accumulate.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces the output \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e\n combines the outputs of the subcomputations using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Strict",
           "name": "WriterT",
           "package": "monads-tf",
@@ -3095,6 +3288,7 @@
         "index": {
           "description": "writer monad parameterized by the output to accumulate The inner monad The return function produces the output mempty while combines the outputs of the subcomputations using mappend",
           "hierarchy": "Control Monad Writer Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Strict",
           "name": "WriterT",
           "package": "monads-tf",
@@ -3108,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Strict",
           "name": "listen",
           "package": "monads-tf",
@@ -3117,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Strict",
           "name": "listen",
           "normalized": "a b-\u003ea(b,WriterType a)",
@@ -3131,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Strict",
           "name": "pass",
           "package": "monads-tf",
@@ -3140,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Strict",
           "name": "pass",
           "normalized": "a(b,WriterType a-\u003eWriterType a)-\u003ea b",
@@ -3154,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer.Strict",
           "name": "tell",
           "package": "monads-tf",
@@ -3163,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Writer Strict",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer.Strict",
           "name": "tell",
           "normalized": "WriterType a-\u003ea()",
@@ -3178,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe MonadWriter class.\n\u003c/p\u003e\u003cp\u003eInspired by the paper\n      /Functional Programming with Overloading and\n          Higher-Order Polymorphism/,\n        Mark P Jones (\u003ca\u003ehttp://web.cecs.pdx.edu/~mpj/pubs/springschool.html\u003c/a\u003e)\n          Advanced School of Functional Programming, 1995.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:46 UTC 2014",
           "module": "Control.Monad.Writer",
           "name": "Writer",
           "package": "monads-tf",
@@ -3187,6 +3388,7 @@
         "index": {
           "description": "The MonadWriter class Inspired by the paper Functional Programming with Overloading and Higher-Order Polymorphism Mark Jones http web.cecs.pdx.edu mpj pubs springschool.html Advanced School of Functional Programming",
           "hierarchy": "Control Monad Writer",
+          "indexed": "2014-03-11T19:21:46",
           "module": "Control.Monad.Writer",
           "name": "Writer",
           "package": "monads-tf",

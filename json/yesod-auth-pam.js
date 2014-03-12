@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-auth-pam"
+        "phrase": "yesod-auth-pam",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:19 UTC 2014",
           "module": "Yesod.Auth.Pam",
           "name": "Pam",
           "package": "yesod-auth-pam",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Pam",
+          "indexed": "2014-03-11T20:45:19",
           "module": "Yesod.Auth.Pam",
           "name": "Pam",
           "package": "yesod-auth-pam",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:19 UTC 2014",
           "module": "Yesod.Auth.Pam",
           "name": "authPam",
           "package": "yesod-auth-pam",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Pam",
+          "indexed": "2014-03-11T20:45:19",
           "module": "Yesod.Auth.Pam",
           "name": "authPam",
           "package": "yesod-auth-pam",

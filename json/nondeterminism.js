@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nondeterminism"
+        "phrase": "nondeterminism",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "Amb",
           "package": "nondeterminism",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "Amb",
           "package": "nondeterminism",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "Amb",
           "package": "nondeterminism",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "Amb",
           "package": "nondeterminism",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "Amb'",
           "package": "nondeterminism",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "Amb'",
           "package": "nondeterminism",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eAmbT r m a\u003c/code\u003e is a computation whose current value is of type \u003ccode\u003ea\u003c/code\u003e\n and which will ultimately return a value of type \u003ccode\u003er\u003c/code\u003e. The same as\n \u003ccode\u003eContT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "AmbT",
           "package": "nondeterminism",
@@ -91,6 +98,7 @@
         "index": {
           "description": "AmbT is computation whose current value is of type and which will ultimately return value of type The same as ContT",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "AmbT",
           "package": "nondeterminism",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "AmbT'",
           "package": "nondeterminism",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "AmbT'",
           "package": "nondeterminism",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "AmbT",
           "package": "nondeterminism",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "AmbT",
           "package": "nondeterminism",
@@ -148,6 +160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most basic primitive that everything else is built out\n of. Generates \u003ccode\u003eTrue\u003c/code\u003e and \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "aBoolean",
           "package": "nondeterminism",
@@ -158,6 +171,7 @@
         "index": {
           "description": "The most basic primitive that everything else is built out of Generates True and False",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "aBoolean",
           "package": "nondeterminism",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate each element of the given list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "aMemberOf",
           "package": "nondeterminism",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Generate each element of the given list",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "aMemberOf",
           "normalized": "[a]-\u003eAmbT b c a",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all partitions of this list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "aPartitionOf",
           "package": "nondeterminism",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Generate all partitions of this list",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "aPartitionOf",
           "normalized": "[a]-\u003eAmbT b c[[a]]",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all partitions of a given size of this list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "aPartitionOfSize",
           "package": "nondeterminism",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Generate all partitions of given size of this list",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "aPartitionOfSize",
           "normalized": "Int-\u003e[a]-\u003eAmbT b c[[a]]",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all permutations of a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "aPermutationOf",
           "package": "nondeterminism",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Generate all permutations of list",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "aPermutationOf",
           "normalized": "[a]-\u003eAmbT b c[a]",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all splits of a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "aSplitOf",
           "package": "nondeterminism",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Generate all splits of list",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "aSplitOf",
           "normalized": "[a]-\u003eAmbT b c([a],[a])",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate each subset of any size from the given list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "aSubsetOf",
           "package": "nondeterminism",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Generate each subset of any size from the given list",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "aSubsetOf",
           "normalized": "[AmbT a b c]-\u003eAmbT a b[c]",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a nondeterministic computation and return a list of all\n results that the computation can produce. Note that this function\n is not lazy its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "allValues",
           "package": "nondeterminism",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Run nondeterministic computation and return list of all results that the computation can produce Note that this function is not lazy its result",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "allValues",
           "normalized": "Amb a a-\u003e[a]",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a nondeterministic computation and return a list of all\n results that the computation can produce. Note that this function\n is not lazy its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "allValuesT",
           "package": "nondeterminism",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Run nondeterministic computation and return list of all results that the computation can produce Note that this function is not lazy its result",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "allValuesT",
           "normalized": "AmbT a b a-\u003eb[a]",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust for fun. This is McCarthy's \u003ccode\u003eamb\u003c/code\u003e operator and is a synonym\n for \u003ccode\u003eaMemberOf\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "amb",
           "package": "nondeterminism",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Just for fun This is McCarthy amb operator and is synonym for aMemberOf",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "amb",
           "normalized": "[a]-\u003eAmbT b c a",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecall/cc lifted into the nondeterministic monad. This implements\n the backtracking behaviour which allows Amb to try different code\n paths and return multiple results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "ambCC",
           "package": "nondeterminism",
@@ -415,6 +448,7 @@
         "index": {
           "description": "call cc lifted into the nondeterministic monad This implements the backtracking behaviour which allows Amb to try different code paths and return multiple results",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "ambCC",
           "normalized": "((a-\u003eAmbT b c a)-\u003eAmbT b c a)-\u003eAmbT b c a",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all numbers between the given bounds, inclusive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "anIntegerBetween",
           "package": "nondeterminism",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Generate all numbers between the given bounds inclusive",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "anIntegerBetween",
           "normalized": "a-\u003ea-\u003eAmbT b c a",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNondeterministically choose either of the two computations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "either'",
           "package": "nondeterminism",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Nondeterministically choose either of the two computations",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "either'",
           "normalized": "AmbT a b c-\u003eAmbT a b c-\u003eAmbT a b c",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminate this branch of the computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "fail'",
           "package": "nondeterminism",
@@ -492,6 +531,7 @@
         "index": {
           "description": "Terminate this branch of the computation",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "fail'",
           "package": "nondeterminism",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA low-level internal function which executes a nondeterministic\n computation for its nondeterministic side-effects, such as its\n ability to produce different results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "forEffects",
           "package": "nondeterminism",
@@ -515,6 +556,7 @@
         "index": {
           "description": "low-level internal function which executes nondeterministic computation for its nondeterministic side-effects such as its ability to produce different results",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "forEffects",
           "normalized": "((a,[a])-\u003eb)-\u003e(a-\u003eAmbT a c a)-\u003eAmbT a c a-\u003ec b",
@@ -531,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a nondeterministic computation and return \u003ccode\u003eTrue\u003c/code\u003e\n if all possible results are \u003ccode\u003eTrue\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "isNecessary",
           "package": "nondeterminism",
@@ -541,6 +584,7 @@
         "index": {
           "description": "Run nondeterministic computation and return True if all possible results are True False otherwise",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "isNecessary",
           "normalized": "Amb Bool Bool-\u003eBool",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a nondeterministic computation and return \u003ccode\u003eTrue\u003c/code\u003e\n if all possible results are \u003ccode\u003eTrue\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "isNecessaryT",
           "package": "nondeterminism",
@@ -567,6 +612,7 @@
         "index": {
           "description": "Run nondeterministic computation and return True if all possible results are True False otherwise",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "isNecessaryT",
           "normalized": "AmbT Bool a Bool-\u003ea Bool",
@@ -583,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a nondeterministic computation and return \u003ccode\u003eTrue\u003c/code\u003e\n if any result is \u003ccode\u003eTrue\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "isPossible",
           "package": "nondeterminism",
@@ -593,6 +640,7 @@
         "index": {
           "description": "Run nondeterministic computation and return True if any result is True False otherwise",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "isPossible",
           "normalized": "Amb Bool Bool-\u003eBool",
@@ -609,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a nondeterministic computation and return \u003ccode\u003eTrue\u003c/code\u003e\n if any result is \u003ccode\u003eTrue\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "isPossibleT",
           "package": "nondeterminism",
@@ -619,6 +668,7 @@
         "index": {
           "description": "Run nondeterministic computation and return True if any result is True False otherwise",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "isPossibleT",
           "normalized": "AmbT Bool a Bool-\u003ea Bool",
@@ -635,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a nondeterministic computation and return a result of that\n computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "oneValue",
           "package": "nondeterminism",
@@ -645,6 +696,7 @@
         "index": {
           "description": "Run nondeterministic computation and return result of that computation",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "oneValue",
           "normalized": "Amb a a-\u003ea",
@@ -661,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a nondeterministic computation and return a result of that\n computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "oneValueT",
           "package": "nondeterminism",
@@ -671,6 +724,7 @@
         "index": {
           "description": "Run nondeterministic computation and return result of that computation",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "oneValueT",
           "normalized": "AmbT a b a-\u003eb a",
@@ -687,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the nondeterministic computation. This is internal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "runAmbT",
           "package": "nondeterminism",
@@ -697,6 +752,7 @@
         "index": {
           "description": "Run the nondeterministic computation This is internal",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "runAmbT",
           "normalized": "AmbT a b a-\u003eb(a,[a])",
@@ -713,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the nondeterministic computation. This is internal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "runAmbTI",
           "package": "nondeterminism",
@@ -723,6 +780,7 @@
         "index": {
           "description": "Run the nondeterministic computation This is internal",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "runAmbTI",
           "normalized": "AmbT a b a-\u003eAmbT a b a-\u003eb(a,[a])",
@@ -739,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper to inject state into the backtracking stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "tell'",
           "package": "nondeterminism",
@@ -749,6 +808,7 @@
         "index": {
           "description": "helper to inject state into the backtracking stack",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "tell'",
           "normalized": "[a]-\u003eAmbT a b()",
@@ -764,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper to inject state into the backtracking stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "tellState",
           "package": "nondeterminism",
@@ -774,6 +835,7 @@
         "index": {
           "description": "helper to inject state into the backtracking stack",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "tellState",
           "normalized": "a-\u003eb()",
@@ -790,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom left to right:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the computation to run on failure\n\u003c/li\u003e\u003cli\u003e the continuation captured when making nondeterministic choices\n\u003c/li\u003e\u003cli\u003e record keeping of solutions found so far\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "unAmbT",
           "package": "nondeterminism",
@@ -800,6 +863,7 @@
         "index": {
           "description": "From left to right the computation to run on failure the continuation captured when making nondeterministic choices record keeping of solutions found so far",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "unAmbT",
           "normalized": "StateT(AmbT a b a)(ContT a(StateT[a]b))c",
@@ -816,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the nondeterministic computation backtracks past this state,\n execute this nondeterministic computation. Generally used to undo\n side effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:40 UTC 2014",
           "module": "Control.Monad.Amb",
           "name": "uponFailure",
           "package": "nondeterminism",
@@ -826,6 +891,7 @@
         "index": {
           "description": "When the nondeterministic computation backtracks past this state execute this nondeterministic computation Generally used to undo side effects",
           "hierarchy": "Control Monad Amb",
+          "indexed": "2014-03-11T19:29:40",
           "module": "Control.Monad.Amb",
           "name": "uponFailure",
           "normalized": "AmbT a b c-\u003eAmbT a b()",

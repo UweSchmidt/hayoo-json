@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pure-priority-queue-tests"
+        "phrase": "pure-priority-queue-tests",
+        "type": "phrase"
       },
       "type": "context"
     }

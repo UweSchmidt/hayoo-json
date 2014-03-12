@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-bcrypt"
+        "phrase": "haskell-bcrypt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:37 UTC 2014",
           "module": "Data.Digest.BCrypt",
           "name": "BCrypt",
           "package": "haskell-bcrypt",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Digest BCrypt",
+          "indexed": "2014-03-11T18:30:37",
           "module": "Data.Digest.BCrypt",
           "name": "BCrypt",
           "package": "haskell-bcrypt",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBCrypt salt for passing to bcrypt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:37 UTC 2014",
           "module": "Data.Digest.BCrypt",
           "name": "BSalt",
           "package": "haskell-bcrypt",
@@ -49,6 +52,7 @@
         "index": {
           "description": "BCrypt salt for passing to bcrypt",
           "hierarchy": "Data Digest BCrypt",
+          "indexed": "2014-03-11T18:30:37",
           "module": "Data.Digest.BCrypt",
           "name": "BSalt",
           "package": "haskell-bcrypt",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a password based on a BSalt with a given cost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:37 UTC 2014",
           "module": "Data.Digest.BCrypt",
           "name": "bcrypt",
           "package": "haskell-bcrypt",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Hash password based on BSalt with given cost",
           "hierarchy": "Data Digest BCrypt",
+          "indexed": "2014-03-11T18:30:37",
           "module": "Data.Digest.BCrypt",
           "name": "bcrypt",
           "normalized": "ByteString-\u003eBSalt-\u003eByteString",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a cost from 4-32 and a random seed of 16 bytes generate a salt.\n Seed should be 16 bytes from a secure random generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:37 UTC 2014",
           "module": "Data.Digest.BCrypt",
           "name": "genSalt",
           "package": "haskell-bcrypt",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Given cost from and random seed of bytes generate salt Seed should be bytes from secure random generator",
           "hierarchy": "Data Digest BCrypt",
+          "indexed": "2014-03-11T18:30:37",
           "module": "Data.Digest.BCrypt",
           "name": "genSalt",
           "normalized": "Integer-\u003eByteString-\u003eMaybe BSalt",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a bytestring, construct a BSalt type, with some minimal checking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:37 UTC 2014",
           "module": "Data.Digest.BCrypt",
           "name": "packBSalt",
           "package": "haskell-bcrypt",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Given bytestring construct BSalt type with some minimal checking",
           "hierarchy": "Data Digest BCrypt",
+          "indexed": "2014-03-11T18:30:37",
           "module": "Data.Digest.BCrypt",
           "name": "packBSalt",
           "normalized": "ByteString-\u003eMaybe BSalt",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "3d-graphics-examples"
+        "phrase": "3d-graphics-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

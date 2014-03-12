@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-GLFW"
+        "phrase": "bindings-GLFW",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "GLFW",
           "package": "bindings-GLFW",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "GLFW",
           "package": "bindings-GLFW",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWcharfun",
           "package": "bindings-GLFW",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWcharfun",
           "package": "bindings-GLFW",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWcursorenterfun",
           "package": "bindings-GLFW",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWcursorenterfun",
           "package": "bindings-GLFW",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWcursorposfun",
           "package": "bindings-GLFW",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWcursorposfun",
           "package": "bindings-GLFW",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWerrorfun",
           "package": "bindings-GLFW",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWerrorfun",
           "package": "bindings-GLFW",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWframebuffersizefun",
           "package": "bindings-GLFW",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWframebuffersizefun",
           "package": "bindings-GLFW",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWgammaramp",
           "package": "bindings-GLFW",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWgammaramp",
           "package": "bindings-GLFW",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWglproc",
           "package": "bindings-GLFW",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWglproc",
           "package": "bindings-GLFW",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWkeyfun",
           "package": "bindings-GLFW",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWkeyfun",
           "package": "bindings-GLFW",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWmonitor",
           "package": "bindings-GLFW",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWmonitor",
           "package": "bindings-GLFW",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWmonitorfun",
           "package": "bindings-GLFW",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWmonitorfun",
           "package": "bindings-GLFW",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWmousebuttonfun",
           "package": "bindings-GLFW",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWmousebuttonfun",
           "package": "bindings-GLFW",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWscrollfun",
           "package": "bindings-GLFW",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWscrollfun",
           "package": "bindings-GLFW",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWvidmode",
           "package": "bindings-GLFW",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWvidmode",
           "package": "bindings-GLFW",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindow",
           "package": "bindings-GLFW",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindow",
           "package": "bindings-GLFW",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowclosefun",
           "package": "bindings-GLFW",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowclosefun",
           "package": "bindings-GLFW",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowfocusfun",
           "package": "bindings-GLFW",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowfocusfun",
           "package": "bindings-GLFW",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowiconifyfun",
           "package": "bindings-GLFW",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowiconifyfun",
           "package": "bindings-GLFW",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowposfun",
           "package": "bindings-GLFW",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowposfun",
           "package": "bindings-GLFW",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowrefreshfun",
           "package": "bindings-GLFW",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowrefreshfun",
           "package": "bindings-GLFW",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowsizefun",
           "package": "bindings-GLFW",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindowsizefun",
           "package": "bindings-GLFW",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWgammaramp",
           "package": "bindings-GLFW",
@@ -468,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWgammaramp",
           "package": "bindings-GLFW",
@@ -481,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWmonitor",
           "package": "bindings-GLFW",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWmonitor",
           "package": "bindings-GLFW",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWvidmode",
           "package": "bindings-GLFW",
@@ -512,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWvidmode",
           "package": "bindings-GLFW",
@@ -525,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindow",
           "package": "bindings-GLFW",
@@ -534,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "C'GLFWwindow",
           "package": "bindings-GLFW",
@@ -547,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ACCUM_ALPHA_BITS",
           "package": "bindings-GLFW",
@@ -556,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ACCUM_ALPHA_BITS",
           "package": "bindings-GLFW",
@@ -569,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ACCUM_BLUE_BITS",
           "package": "bindings-GLFW",
@@ -578,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ACCUM_BLUE_BITS",
           "package": "bindings-GLFW",
@@ -591,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ACCUM_GREEN_BITS",
           "package": "bindings-GLFW",
@@ -600,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ACCUM_GREEN_BITS",
           "package": "bindings-GLFW",
@@ -613,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ACCUM_RED_BITS",
           "package": "bindings-GLFW",
@@ -622,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ACCUM_RED_BITS",
           "package": "bindings-GLFW",
@@ -635,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ALPHA_BITS",
           "package": "bindings-GLFW",
@@ -644,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ALPHA_BITS",
           "package": "bindings-GLFW",
@@ -657,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_API_UNAVAILABLE",
           "package": "bindings-GLFW",
@@ -666,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_API_UNAVAILABLE",
           "package": "bindings-GLFW",
@@ -679,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_AUX_BUFFERS",
           "package": "bindings-GLFW",
@@ -688,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_AUX_BUFFERS",
           "package": "bindings-GLFW",
@@ -701,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_BLUE_BITS",
           "package": "bindings-GLFW",
@@ -710,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_BLUE_BITS",
           "package": "bindings-GLFW",
@@ -723,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CLIENT_API",
           "package": "bindings-GLFW",
@@ -732,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CLIENT_API",
           "package": "bindings-GLFW",
@@ -745,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONNECTED",
           "package": "bindings-GLFW",
@@ -754,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONNECTED",
           "package": "bindings-GLFW",
@@ -767,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONTEXT_REVISION",
           "package": "bindings-GLFW",
@@ -776,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONTEXT_REVISION",
           "package": "bindings-GLFW",
@@ -789,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONTEXT_ROBUSTNESS",
           "package": "bindings-GLFW",
@@ -798,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONTEXT_ROBUSTNESS",
           "package": "bindings-GLFW",
@@ -811,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONTEXT_VERSION_MAJOR",
           "package": "bindings-GLFW",
@@ -820,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONTEXT_VERSION_MAJOR",
           "package": "bindings-GLFW",
@@ -833,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONTEXT_VERSION_MINOR",
           "package": "bindings-GLFW",
@@ -842,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CONTEXT_VERSION_MINOR",
           "package": "bindings-GLFW",
@@ -855,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CURSOR",
           "package": "bindings-GLFW",
@@ -864,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CURSOR",
           "package": "bindings-GLFW",
@@ -877,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CURSOR_DISABLED",
           "package": "bindings-GLFW",
@@ -886,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CURSOR_DISABLED",
           "package": "bindings-GLFW",
@@ -899,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CURSOR_HIDDEN",
           "package": "bindings-GLFW",
@@ -908,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CURSOR_HIDDEN",
           "package": "bindings-GLFW",
@@ -921,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CURSOR_NORMAL",
           "package": "bindings-GLFW",
@@ -930,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_CURSOR_NORMAL",
           "package": "bindings-GLFW",
@@ -943,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_DECORATED",
           "package": "bindings-GLFW",
@@ -952,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_DECORATED",
           "package": "bindings-GLFW",
@@ -965,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_DEPTH_BITS",
           "package": "bindings-GLFW",
@@ -974,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_DEPTH_BITS",
           "package": "bindings-GLFW",
@@ -987,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_DISCONNECTED",
           "package": "bindings-GLFW",
@@ -996,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_DISCONNECTED",
           "package": "bindings-GLFW",
@@ -1009,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_FOCUSED",
           "package": "bindings-GLFW",
@@ -1018,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_FOCUSED",
           "package": "bindings-GLFW",
@@ -1031,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_FORMAT_UNAVAILABLE",
           "package": "bindings-GLFW",
@@ -1040,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_FORMAT_UNAVAILABLE",
           "package": "bindings-GLFW",
@@ -1053,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_GREEN_BITS",
           "package": "bindings-GLFW",
@@ -1062,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_GREEN_BITS",
           "package": "bindings-GLFW",
@@ -1075,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ICONIFIED",
           "package": "bindings-GLFW",
@@ -1084,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_ICONIFIED",
           "package": "bindings-GLFW",
@@ -1097,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_INVALID_ENUM",
           "package": "bindings-GLFW",
@@ -1106,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_INVALID_ENUM",
           "package": "bindings-GLFW",
@@ -1119,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_INVALID_VALUE",
           "package": "bindings-GLFW",
@@ -1128,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_INVALID_VALUE",
           "package": "bindings-GLFW",
@@ -1141,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_1",
           "package": "bindings-GLFW",
@@ -1150,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_1",
           "package": "bindings-GLFW",
@@ -1163,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_10",
           "package": "bindings-GLFW",
@@ -1172,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_10",
           "package": "bindings-GLFW",
@@ -1185,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_11",
           "package": "bindings-GLFW",
@@ -1194,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_11",
           "package": "bindings-GLFW",
@@ -1207,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_12",
           "package": "bindings-GLFW",
@@ -1216,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_12",
           "package": "bindings-GLFW",
@@ -1229,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_13",
           "package": "bindings-GLFW",
@@ -1238,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_13",
           "package": "bindings-GLFW",
@@ -1251,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_14",
           "package": "bindings-GLFW",
@@ -1260,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_14",
           "package": "bindings-GLFW",
@@ -1273,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_15",
           "package": "bindings-GLFW",
@@ -1282,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_15",
           "package": "bindings-GLFW",
@@ -1295,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_16",
           "package": "bindings-GLFW",
@@ -1304,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_16",
           "package": "bindings-GLFW",
@@ -1317,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_2",
           "package": "bindings-GLFW",
@@ -1326,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_2",
           "package": "bindings-GLFW",
@@ -1339,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_3",
           "package": "bindings-GLFW",
@@ -1348,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_3",
           "package": "bindings-GLFW",
@@ -1361,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_4",
           "package": "bindings-GLFW",
@@ -1370,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_4",
           "package": "bindings-GLFW",
@@ -1383,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_5",
           "package": "bindings-GLFW",
@@ -1392,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_5",
           "package": "bindings-GLFW",
@@ -1405,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_6",
           "package": "bindings-GLFW",
@@ -1414,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_6",
           "package": "bindings-GLFW",
@@ -1427,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_7",
           "package": "bindings-GLFW",
@@ -1436,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_7",
           "package": "bindings-GLFW",
@@ -1449,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_8",
           "package": "bindings-GLFW",
@@ -1458,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_8",
           "package": "bindings-GLFW",
@@ -1471,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_9",
           "package": "bindings-GLFW",
@@ -1480,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_9",
           "package": "bindings-GLFW",
@@ -1493,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_LAST",
           "package": "bindings-GLFW",
@@ -1502,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_JOYSTICK_LAST",
           "package": "bindings-GLFW",
@@ -1515,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_0",
           "package": "bindings-GLFW",
@@ -1524,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_0",
           "package": "bindings-GLFW",
@@ -1537,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_1",
           "package": "bindings-GLFW",
@@ -1546,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_1",
           "package": "bindings-GLFW",
@@ -1559,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_2",
           "package": "bindings-GLFW",
@@ -1568,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_2",
           "package": "bindings-GLFW",
@@ -1581,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_3",
           "package": "bindings-GLFW",
@@ -1590,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_3",
           "package": "bindings-GLFW",
@@ -1603,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_4",
           "package": "bindings-GLFW",
@@ -1612,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_4",
           "package": "bindings-GLFW",
@@ -1625,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_5",
           "package": "bindings-GLFW",
@@ -1634,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_5",
           "package": "bindings-GLFW",
@@ -1647,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_6",
           "package": "bindings-GLFW",
@@ -1656,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_6",
           "package": "bindings-GLFW",
@@ -1669,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_7",
           "package": "bindings-GLFW",
@@ -1678,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_7",
           "package": "bindings-GLFW",
@@ -1691,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_8",
           "package": "bindings-GLFW",
@@ -1700,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_8",
           "package": "bindings-GLFW",
@@ -1713,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_9",
           "package": "bindings-GLFW",
@@ -1722,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_9",
           "package": "bindings-GLFW",
@@ -1735,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_A",
           "package": "bindings-GLFW",
@@ -1744,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_A",
           "package": "bindings-GLFW",
@@ -1757,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_APOSTROPHE",
           "package": "bindings-GLFW",
@@ -1766,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_APOSTROPHE",
           "package": "bindings-GLFW",
@@ -1779,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_B",
           "package": "bindings-GLFW",
@@ -1788,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_B",
           "package": "bindings-GLFW",
@@ -1801,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_BACKSLASH",
           "package": "bindings-GLFW",
@@ -1810,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_BACKSLASH",
           "package": "bindings-GLFW",
@@ -1823,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_BACKSPACE",
           "package": "bindings-GLFW",
@@ -1832,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_BACKSPACE",
           "package": "bindings-GLFW",
@@ -1845,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_C",
           "package": "bindings-GLFW",
@@ -1854,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_C",
           "package": "bindings-GLFW",
@@ -1867,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_CAPS_LOCK",
           "package": "bindings-GLFW",
@@ -1876,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_CAPS_LOCK",
           "package": "bindings-GLFW",
@@ -1889,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_COMMA",
           "package": "bindings-GLFW",
@@ -1898,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_COMMA",
           "package": "bindings-GLFW",
@@ -1911,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_D",
           "package": "bindings-GLFW",
@@ -1920,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_D",
           "package": "bindings-GLFW",
@@ -1933,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_DELETE",
           "package": "bindings-GLFW",
@@ -1942,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_DELETE",
           "package": "bindings-GLFW",
@@ -1955,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_DOWN",
           "package": "bindings-GLFW",
@@ -1964,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_DOWN",
           "package": "bindings-GLFW",
@@ -1977,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_E",
           "package": "bindings-GLFW",
@@ -1986,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_E",
           "package": "bindings-GLFW",
@@ -1999,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_END",
           "package": "bindings-GLFW",
@@ -2008,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_END",
           "package": "bindings-GLFW",
@@ -2021,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_ENTER",
           "package": "bindings-GLFW",
@@ -2030,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_ENTER",
           "package": "bindings-GLFW",
@@ -2043,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_EQUAL",
           "package": "bindings-GLFW",
@@ -2052,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_EQUAL",
           "package": "bindings-GLFW",
@@ -2065,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_ESCAPE",
           "package": "bindings-GLFW",
@@ -2074,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_ESCAPE",
           "package": "bindings-GLFW",
@@ -2087,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F",
           "package": "bindings-GLFW",
@@ -2096,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F",
           "package": "bindings-GLFW",
@@ -2109,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F1",
           "package": "bindings-GLFW",
@@ -2118,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F1",
           "package": "bindings-GLFW",
@@ -2131,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F10",
           "package": "bindings-GLFW",
@@ -2140,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F10",
           "package": "bindings-GLFW",
@@ -2153,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F11",
           "package": "bindings-GLFW",
@@ -2162,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F11",
           "package": "bindings-GLFW",
@@ -2175,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F12",
           "package": "bindings-GLFW",
@@ -2184,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F12",
           "package": "bindings-GLFW",
@@ -2197,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F13",
           "package": "bindings-GLFW",
@@ -2206,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F13",
           "package": "bindings-GLFW",
@@ -2219,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F14",
           "package": "bindings-GLFW",
@@ -2228,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F14",
           "package": "bindings-GLFW",
@@ -2241,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F15",
           "package": "bindings-GLFW",
@@ -2250,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F15",
           "package": "bindings-GLFW",
@@ -2263,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F16",
           "package": "bindings-GLFW",
@@ -2272,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F16",
           "package": "bindings-GLFW",
@@ -2285,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F17",
           "package": "bindings-GLFW",
@@ -2294,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F17",
           "package": "bindings-GLFW",
@@ -2307,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F18",
           "package": "bindings-GLFW",
@@ -2316,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F18",
           "package": "bindings-GLFW",
@@ -2329,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F19",
           "package": "bindings-GLFW",
@@ -2338,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F19",
           "package": "bindings-GLFW",
@@ -2351,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F2",
           "package": "bindings-GLFW",
@@ -2360,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F2",
           "package": "bindings-GLFW",
@@ -2373,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F20",
           "package": "bindings-GLFW",
@@ -2382,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F20",
           "package": "bindings-GLFW",
@@ -2395,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F21",
           "package": "bindings-GLFW",
@@ -2404,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F21",
           "package": "bindings-GLFW",
@@ -2417,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F22",
           "package": "bindings-GLFW",
@@ -2426,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F22",
           "package": "bindings-GLFW",
@@ -2439,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F23",
           "package": "bindings-GLFW",
@@ -2448,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F23",
           "package": "bindings-GLFW",
@@ -2461,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F24",
           "package": "bindings-GLFW",
@@ -2470,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F24",
           "package": "bindings-GLFW",
@@ -2483,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F25",
           "package": "bindings-GLFW",
@@ -2492,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F25",
           "package": "bindings-GLFW",
@@ -2505,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F3",
           "package": "bindings-GLFW",
@@ -2514,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F3",
           "package": "bindings-GLFW",
@@ -2527,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F4",
           "package": "bindings-GLFW",
@@ -2536,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F4",
           "package": "bindings-GLFW",
@@ -2549,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F5",
           "package": "bindings-GLFW",
@@ -2558,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F5",
           "package": "bindings-GLFW",
@@ -2571,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F6",
           "package": "bindings-GLFW",
@@ -2580,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F6",
           "package": "bindings-GLFW",
@@ -2593,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F7",
           "package": "bindings-GLFW",
@@ -2602,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F7",
           "package": "bindings-GLFW",
@@ -2615,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F8",
           "package": "bindings-GLFW",
@@ -2624,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F8",
           "package": "bindings-GLFW",
@@ -2637,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F9",
           "package": "bindings-GLFW",
@@ -2646,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_F9",
           "package": "bindings-GLFW",
@@ -2659,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_G",
           "package": "bindings-GLFW",
@@ -2668,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_G",
           "package": "bindings-GLFW",
@@ -2681,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_GRAVE_ACCENT",
           "package": "bindings-GLFW",
@@ -2690,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_GRAVE_ACCENT",
           "package": "bindings-GLFW",
@@ -2703,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_H",
           "package": "bindings-GLFW",
@@ -2712,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_H",
           "package": "bindings-GLFW",
@@ -2725,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_HOME",
           "package": "bindings-GLFW",
@@ -2734,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_HOME",
           "package": "bindings-GLFW",
@@ -2747,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_I",
           "package": "bindings-GLFW",
@@ -2756,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_I",
           "package": "bindings-GLFW",
@@ -2769,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_INSERT",
           "package": "bindings-GLFW",
@@ -2778,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_INSERT",
           "package": "bindings-GLFW",
@@ -2791,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_J",
           "package": "bindings-GLFW",
@@ -2800,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_J",
           "package": "bindings-GLFW",
@@ -2813,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_K",
           "package": "bindings-GLFW",
@@ -2822,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_K",
           "package": "bindings-GLFW",
@@ -2835,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_0",
           "package": "bindings-GLFW",
@@ -2844,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_0",
           "package": "bindings-GLFW",
@@ -2857,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_1",
           "package": "bindings-GLFW",
@@ -2866,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_1",
           "package": "bindings-GLFW",
@@ -2879,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_2",
           "package": "bindings-GLFW",
@@ -2888,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_2",
           "package": "bindings-GLFW",
@@ -2901,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_3",
           "package": "bindings-GLFW",
@@ -2910,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_3",
           "package": "bindings-GLFW",
@@ -2923,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_4",
           "package": "bindings-GLFW",
@@ -2932,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_4",
           "package": "bindings-GLFW",
@@ -2945,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_5",
           "package": "bindings-GLFW",
@@ -2954,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_5",
           "package": "bindings-GLFW",
@@ -2967,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_6",
           "package": "bindings-GLFW",
@@ -2976,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_6",
           "package": "bindings-GLFW",
@@ -2989,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_7",
           "package": "bindings-GLFW",
@@ -2998,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_7",
           "package": "bindings-GLFW",
@@ -3011,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_8",
           "package": "bindings-GLFW",
@@ -3020,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_8",
           "package": "bindings-GLFW",
@@ -3033,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_9",
           "package": "bindings-GLFW",
@@ -3042,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_9",
           "package": "bindings-GLFW",
@@ -3055,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_ADD",
           "package": "bindings-GLFW",
@@ -3064,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_ADD",
           "package": "bindings-GLFW",
@@ -3077,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_DECIMAL",
           "package": "bindings-GLFW",
@@ -3086,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_DECIMAL",
           "package": "bindings-GLFW",
@@ -3099,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_DIVIDE",
           "package": "bindings-GLFW",
@@ -3108,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_DIVIDE",
           "package": "bindings-GLFW",
@@ -3121,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_ENTER",
           "package": "bindings-GLFW",
@@ -3130,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_ENTER",
           "package": "bindings-GLFW",
@@ -3143,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_EQUAL",
           "package": "bindings-GLFW",
@@ -3152,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_EQUAL",
           "package": "bindings-GLFW",
@@ -3165,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_MULTIPLY",
           "package": "bindings-GLFW",
@@ -3174,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_MULTIPLY",
           "package": "bindings-GLFW",
@@ -3187,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_SUBTRACT",
           "package": "bindings-GLFW",
@@ -3196,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_KP_SUBTRACT",
           "package": "bindings-GLFW",
@@ -3209,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_L",
           "package": "bindings-GLFW",
@@ -3218,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_L",
           "package": "bindings-GLFW",
@@ -3231,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LAST",
           "package": "bindings-GLFW",
@@ -3240,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LAST",
           "package": "bindings-GLFW",
@@ -3253,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT",
           "package": "bindings-GLFW",
@@ -3262,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT",
           "package": "bindings-GLFW",
@@ -3275,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_ALT",
           "package": "bindings-GLFW",
@@ -3284,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_ALT",
           "package": "bindings-GLFW",
@@ -3297,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_BRACKET",
           "package": "bindings-GLFW",
@@ -3306,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_BRACKET",
           "package": "bindings-GLFW",
@@ -3319,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_CONTROL",
           "package": "bindings-GLFW",
@@ -3328,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_CONTROL",
           "package": "bindings-GLFW",
@@ -3341,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_SHIFT",
           "package": "bindings-GLFW",
@@ -3350,6 +3655,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_SHIFT",
           "package": "bindings-GLFW",
@@ -3363,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_SUPER",
           "package": "bindings-GLFW",
@@ -3372,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_LEFT_SUPER",
           "package": "bindings-GLFW",
@@ -3385,6 +3693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_M",
           "package": "bindings-GLFW",
@@ -3394,6 +3703,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_M",
           "package": "bindings-GLFW",
@@ -3407,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_MENU",
           "package": "bindings-GLFW",
@@ -3416,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_MENU",
           "package": "bindings-GLFW",
@@ -3429,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_MINUS",
           "package": "bindings-GLFW",
@@ -3438,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_MINUS",
           "package": "bindings-GLFW",
@@ -3451,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_N",
           "package": "bindings-GLFW",
@@ -3460,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_N",
           "package": "bindings-GLFW",
@@ -3473,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_NUM_LOCK",
           "package": "bindings-GLFW",
@@ -3482,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_NUM_LOCK",
           "package": "bindings-GLFW",
@@ -3495,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_O",
           "package": "bindings-GLFW",
@@ -3504,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_O",
           "package": "bindings-GLFW",
@@ -3517,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_P",
           "package": "bindings-GLFW",
@@ -3526,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_P",
           "package": "bindings-GLFW",
@@ -3539,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PAGE_DOWN",
           "package": "bindings-GLFW",
@@ -3548,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PAGE_DOWN",
           "package": "bindings-GLFW",
@@ -3561,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PAGE_UP",
           "package": "bindings-GLFW",
@@ -3570,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PAGE_UP",
           "package": "bindings-GLFW",
@@ -3583,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PAUSE",
           "package": "bindings-GLFW",
@@ -3592,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PAUSE",
           "package": "bindings-GLFW",
@@ -3605,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PERIOD",
           "package": "bindings-GLFW",
@@ -3614,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PERIOD",
           "package": "bindings-GLFW",
@@ -3627,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PRINT_SCREEN",
           "package": "bindings-GLFW",
@@ -3636,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_PRINT_SCREEN",
           "package": "bindings-GLFW",
@@ -3649,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_Q",
           "package": "bindings-GLFW",
@@ -3658,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_Q",
           "package": "bindings-GLFW",
@@ -3671,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_R",
           "package": "bindings-GLFW",
@@ -3680,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_R",
           "package": "bindings-GLFW",
@@ -3693,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT",
           "package": "bindings-GLFW",
@@ -3702,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT",
           "package": "bindings-GLFW",
@@ -3715,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_ALT",
           "package": "bindings-GLFW",
@@ -3724,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_ALT",
           "package": "bindings-GLFW",
@@ -3737,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_BRACKET",
           "package": "bindings-GLFW",
@@ -3746,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_BRACKET",
           "package": "bindings-GLFW",
@@ -3759,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_CONTROL",
           "package": "bindings-GLFW",
@@ -3768,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_CONTROL",
           "package": "bindings-GLFW",
@@ -3781,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_SHIFT",
           "package": "bindings-GLFW",
@@ -3790,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_SHIFT",
           "package": "bindings-GLFW",
@@ -3803,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_SUPER",
           "package": "bindings-GLFW",
@@ -3812,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_RIGHT_SUPER",
           "package": "bindings-GLFW",
@@ -3825,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_S",
           "package": "bindings-GLFW",
@@ -3834,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_S",
           "package": "bindings-GLFW",
@@ -3847,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_SCROLL_LOCK",
           "package": "bindings-GLFW",
@@ -3856,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_SCROLL_LOCK",
           "package": "bindings-GLFW",
@@ -3869,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_SEMICOLON",
           "package": "bindings-GLFW",
@@ -3878,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_SEMICOLON",
           "package": "bindings-GLFW",
@@ -3891,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_SLASH",
           "package": "bindings-GLFW",
@@ -3900,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_SLASH",
           "package": "bindings-GLFW",
@@ -3913,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_SPACE",
           "package": "bindings-GLFW",
@@ -3922,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_SPACE",
           "package": "bindings-GLFW",
@@ -3935,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_T",
           "package": "bindings-GLFW",
@@ -3944,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_T",
           "package": "bindings-GLFW",
@@ -3957,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_TAB",
           "package": "bindings-GLFW",
@@ -3966,6 +4327,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_TAB",
           "package": "bindings-GLFW",
@@ -3979,6 +4341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_U",
           "package": "bindings-GLFW",
@@ -3988,6 +4351,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_U",
           "package": "bindings-GLFW",
@@ -4001,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_UNKNOWN",
           "package": "bindings-GLFW",
@@ -4010,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_UNKNOWN",
           "package": "bindings-GLFW",
@@ -4023,6 +4389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_UP",
           "package": "bindings-GLFW",
@@ -4032,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_UP",
           "package": "bindings-GLFW",
@@ -4045,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_V",
           "package": "bindings-GLFW",
@@ -4054,6 +4423,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_V",
           "package": "bindings-GLFW",
@@ -4067,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_W",
           "package": "bindings-GLFW",
@@ -4076,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_W",
           "package": "bindings-GLFW",
@@ -4089,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_WORLD_1",
           "package": "bindings-GLFW",
@@ -4098,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_WORLD_1",
           "package": "bindings-GLFW",
@@ -4111,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_WORLD_2",
           "package": "bindings-GLFW",
@@ -4120,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_WORLD_2",
           "package": "bindings-GLFW",
@@ -4133,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_X",
           "package": "bindings-GLFW",
@@ -4142,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_X",
           "package": "bindings-GLFW",
@@ -4155,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_Y",
           "package": "bindings-GLFW",
@@ -4164,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_Y",
           "package": "bindings-GLFW",
@@ -4177,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_Z",
           "package": "bindings-GLFW",
@@ -4186,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_KEY_Z",
           "package": "bindings-GLFW",
@@ -4199,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_LOSE_CONTEXT_ON_RESET",
           "package": "bindings-GLFW",
@@ -4208,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_LOSE_CONTEXT_ON_RESET",
           "package": "bindings-GLFW",
@@ -4221,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOD_ALT",
           "package": "bindings-GLFW",
@@ -4230,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOD_ALT",
           "package": "bindings-GLFW",
@@ -4243,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOD_CONTROL",
           "package": "bindings-GLFW",
@@ -4252,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOD_CONTROL",
           "package": "bindings-GLFW",
@@ -4265,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOD_SHIFT",
           "package": "bindings-GLFW",
@@ -4274,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOD_SHIFT",
           "package": "bindings-GLFW",
@@ -4287,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOD_SUPER",
           "package": "bindings-GLFW",
@@ -4296,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOD_SUPER",
           "package": "bindings-GLFW",
@@ -4309,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_1",
           "package": "bindings-GLFW",
@@ -4318,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_1",
           "package": "bindings-GLFW",
@@ -4331,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_2",
           "package": "bindings-GLFW",
@@ -4340,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_2",
           "package": "bindings-GLFW",
@@ -4353,6 +4749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_3",
           "package": "bindings-GLFW",
@@ -4362,6 +4759,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_3",
           "package": "bindings-GLFW",
@@ -4375,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_4",
           "package": "bindings-GLFW",
@@ -4384,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_4",
           "package": "bindings-GLFW",
@@ -4397,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_5",
           "package": "bindings-GLFW",
@@ -4406,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_5",
           "package": "bindings-GLFW",
@@ -4419,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_6",
           "package": "bindings-GLFW",
@@ -4428,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_6",
           "package": "bindings-GLFW",
@@ -4441,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_7",
           "package": "bindings-GLFW",
@@ -4450,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_7",
           "package": "bindings-GLFW",
@@ -4463,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_8",
           "package": "bindings-GLFW",
@@ -4472,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_8",
           "package": "bindings-GLFW",
@@ -4485,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_LAST",
           "package": "bindings-GLFW",
@@ -4494,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_LAST",
           "package": "bindings-GLFW",
@@ -4507,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_LEFT",
           "package": "bindings-GLFW",
@@ -4516,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_LEFT",
           "package": "bindings-GLFW",
@@ -4529,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_MIDDLE",
           "package": "bindings-GLFW",
@@ -4538,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_MIDDLE",
           "package": "bindings-GLFW",
@@ -4551,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_RIGHT",
           "package": "bindings-GLFW",
@@ -4560,6 +4975,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_MOUSE_BUTTON_RIGHT",
           "package": "bindings-GLFW",
@@ -4573,6 +4989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_NOT_INITIALIZED",
           "package": "bindings-GLFW",
@@ -4582,6 +4999,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_NOT_INITIALIZED",
           "package": "bindings-GLFW",
@@ -4595,6 +5013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_NO_CURRENT_CONTEXT",
           "package": "bindings-GLFW",
@@ -4604,6 +5023,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_NO_CURRENT_CONTEXT",
           "package": "bindings-GLFW",
@@ -4617,6 +5037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_NO_RESET_NOTIFICATION",
           "package": "bindings-GLFW",
@@ -4626,6 +5047,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_NO_RESET_NOTIFICATION",
           "package": "bindings-GLFW",
@@ -4639,6 +5061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_NO_ROBUSTNESS",
           "package": "bindings-GLFW",
@@ -4648,6 +5071,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_NO_ROBUSTNESS",
           "package": "bindings-GLFW",
@@ -4661,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_ANY_PROFILE",
           "package": "bindings-GLFW",
@@ -4670,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_ANY_PROFILE",
           "package": "bindings-GLFW",
@@ -4683,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_API",
           "package": "bindings-GLFW",
@@ -4692,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_API",
           "package": "bindings-GLFW",
@@ -4705,6 +5133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_COMPAT_PROFILE",
           "package": "bindings-GLFW",
@@ -4714,6 +5143,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_COMPAT_PROFILE",
           "package": "bindings-GLFW",
@@ -4727,6 +5157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_CORE_PROFILE",
           "package": "bindings-GLFW",
@@ -4736,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_CORE_PROFILE",
           "package": "bindings-GLFW",
@@ -4749,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_DEBUG_CONTEXT",
           "package": "bindings-GLFW",
@@ -4758,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_DEBUG_CONTEXT",
           "package": "bindings-GLFW",
@@ -4771,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_ES_API",
           "package": "bindings-GLFW",
@@ -4780,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_ES_API",
           "package": "bindings-GLFW",
@@ -4793,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_FORWARD_COMPAT",
           "package": "bindings-GLFW",
@@ -4802,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_FORWARD_COMPAT",
           "package": "bindings-GLFW",
@@ -4815,6 +5253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_PROFILE",
           "package": "bindings-GLFW",
@@ -4824,6 +5263,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OPENGL_PROFILE",
           "package": "bindings-GLFW",
@@ -4837,6 +5277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OUT_OF_MEMORY",
           "package": "bindings-GLFW",
@@ -4846,6 +5287,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_OUT_OF_MEMORY",
           "package": "bindings-GLFW",
@@ -4859,6 +5301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_PLATFORM_ERROR",
           "package": "bindings-GLFW",
@@ -4868,6 +5311,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_PLATFORM_ERROR",
           "package": "bindings-GLFW",
@@ -4881,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_PRESS",
           "package": "bindings-GLFW",
@@ -4890,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_PRESS",
           "package": "bindings-GLFW",
@@ -4903,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_RED_BITS",
           "package": "bindings-GLFW",
@@ -4912,6 +5359,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_RED_BITS",
           "package": "bindings-GLFW",
@@ -4925,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_REFRESH_RATE",
           "package": "bindings-GLFW",
@@ -4934,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_REFRESH_RATE",
           "package": "bindings-GLFW",
@@ -4947,6 +5397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_RELEASE",
           "package": "bindings-GLFW",
@@ -4956,6 +5407,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_RELEASE",
           "package": "bindings-GLFW",
@@ -4969,6 +5421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_REPEAT",
           "package": "bindings-GLFW",
@@ -4978,6 +5431,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_REPEAT",
           "package": "bindings-GLFW",
@@ -4991,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_RESIZABLE",
           "package": "bindings-GLFW",
@@ -5000,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_RESIZABLE",
           "package": "bindings-GLFW",
@@ -5013,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_SAMPLES",
           "package": "bindings-GLFW",
@@ -5022,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_SAMPLES",
           "package": "bindings-GLFW",
@@ -5035,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_SRGB_CAPABLE",
           "package": "bindings-GLFW",
@@ -5044,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_SRGB_CAPABLE",
           "package": "bindings-GLFW",
@@ -5057,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_STENCIL_BITS",
           "package": "bindings-GLFW",
@@ -5066,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_STENCIL_BITS",
           "package": "bindings-GLFW",
@@ -5079,6 +5541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_STEREO",
           "package": "bindings-GLFW",
@@ -5088,6 +5551,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_STEREO",
           "package": "bindings-GLFW",
@@ -5101,6 +5565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_STICKY_KEYS",
           "package": "bindings-GLFW",
@@ -5110,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_STICKY_KEYS",
           "package": "bindings-GLFW",
@@ -5123,6 +5589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_STICKY_MOUSE_BUTTONS",
           "package": "bindings-GLFW",
@@ -5132,6 +5599,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_STICKY_MOUSE_BUTTONS",
           "package": "bindings-GLFW",
@@ -5145,6 +5613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VERSION_MAJOR",
           "package": "bindings-GLFW",
@@ -5154,6 +5623,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VERSION_MAJOR",
           "package": "bindings-GLFW",
@@ -5167,6 +5637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VERSION_MINOR",
           "package": "bindings-GLFW",
@@ -5176,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VERSION_MINOR",
           "package": "bindings-GLFW",
@@ -5189,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VERSION_REVISION",
           "package": "bindings-GLFW",
@@ -5198,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VERSION_REVISION",
           "package": "bindings-GLFW",
@@ -5211,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VERSION_UNAVAILABLE",
           "package": "bindings-GLFW",
@@ -5220,6 +5695,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VERSION_UNAVAILABLE",
           "package": "bindings-GLFW",
@@ -5233,6 +5709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VISIBLE",
           "package": "bindings-GLFW",
@@ -5242,6 +5719,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFW_VISIBLE",
           "package": "bindings-GLFW",
@@ -5255,6 +5733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWgammaramp'blue",
           "package": "bindings-GLFW",
@@ -5264,6 +5743,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWgammaramp'blue",
           "package": "bindings-GLFW",
@@ -5277,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWgammaramp'green",
           "package": "bindings-GLFW",
@@ -5286,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWgammaramp'green",
           "package": "bindings-GLFW",
@@ -5299,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWgammaramp'red",
           "package": "bindings-GLFW",
@@ -5308,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWgammaramp'red",
           "package": "bindings-GLFW",
@@ -5321,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWgammaramp'size",
           "package": "bindings-GLFW",
@@ -5330,6 +5815,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWgammaramp'size",
           "package": "bindings-GLFW",
@@ -5343,6 +5829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'blueBits",
           "package": "bindings-GLFW",
@@ -5352,6 +5839,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'blueBits",
           "package": "bindings-GLFW",
@@ -5365,6 +5853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'greenBits",
           "package": "bindings-GLFW",
@@ -5374,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'greenBits",
           "package": "bindings-GLFW",
@@ -5387,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'height",
           "package": "bindings-GLFW",
@@ -5396,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'height",
           "package": "bindings-GLFW",
@@ -5409,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'redBits",
           "package": "bindings-GLFW",
@@ -5418,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'redBits",
           "package": "bindings-GLFW",
@@ -5431,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'refreshRate",
           "package": "bindings-GLFW",
@@ -5440,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'refreshRate",
           "package": "bindings-GLFW",
@@ -5453,6 +5949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'width",
           "package": "bindings-GLFW",
@@ -5462,6 +5959,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GLFWvidmode'width",
           "package": "bindings-GLFW",
@@ -5475,6 +5973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GL_FALSE",
           "package": "bindings-GLFW",
@@ -5484,6 +5983,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GL_FALSE",
           "package": "bindings-GLFW",
@@ -5497,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'GL_TRUE",
           "package": "bindings-GLFW",
@@ -5506,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'GL_TRUE",
           "package": "bindings-GLFW",
@@ -5519,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwCreateWindow",
           "package": "bindings-GLFW",
@@ -5528,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwCreateWindow",
           "normalized": "CInt-\u003eCInt-\u003ePtr CChar-\u003ePtr C'GLFWmonitor-\u003ePtr C'GLFWwindow-\u003eIO(Ptr C'GLFWwindow)",
@@ -5543,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwDefaultWindowHints",
           "package": "bindings-GLFW",
@@ -5552,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwDefaultWindowHints",
           "normalized": "IO()",
@@ -5567,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwDestroyWindow",
           "package": "bindings-GLFW",
@@ -5576,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwDestroyWindow",
           "normalized": "Ptr C'GLFWwindow-\u003eIO()",
@@ -5591,6 +6099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwExtensionSupported",
           "package": "bindings-GLFW",
@@ -5600,6 +6109,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwExtensionSupported",
           "normalized": "Ptr CChar-\u003eIO CInt",
@@ -5615,6 +6125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetClipboardString",
           "package": "bindings-GLFW",
@@ -5624,6 +6135,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetClipboardString",
           "normalized": "Ptr C'GLFWwindow-\u003eIO(Ptr CChar)",
@@ -5639,6 +6151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetCurrentContext",
           "package": "bindings-GLFW",
@@ -5648,6 +6161,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetCurrentContext",
           "package": "bindings-GLFW",
@@ -5661,6 +6175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetCursorPos",
           "package": "bindings-GLFW",
@@ -5670,6 +6185,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetCursorPos",
           "normalized": "Ptr C'GLFWwindow-\u003ePtr CDouble-\u003ePtr CDouble-\u003eIO()",
@@ -5685,6 +6201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetFramebufferSize",
           "package": "bindings-GLFW",
@@ -5694,6 +6211,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetFramebufferSize",
           "normalized": "Ptr C'GLFWwindow-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -5709,6 +6227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetGammaRamp",
           "package": "bindings-GLFW",
@@ -5718,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetGammaRamp",
           "normalized": "Ptr C'GLFWmonitor-\u003eIO(Ptr C'GLFWgammaramp)",
@@ -5733,6 +6253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetInputMode",
           "package": "bindings-GLFW",
@@ -5742,6 +6263,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetInputMode",
           "normalized": "Ptr C'GLFWwindow-\u003eCInt-\u003eIO CInt",
@@ -5757,6 +6279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetJoystickAxes",
           "package": "bindings-GLFW",
@@ -5766,6 +6289,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetJoystickAxes",
           "normalized": "CInt-\u003ePtr CInt-\u003eIO(Ptr CFloat)",
@@ -5781,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetJoystickButtons",
           "package": "bindings-GLFW",
@@ -5790,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetJoystickButtons",
           "normalized": "CInt-\u003ePtr CInt-\u003eIO(Ptr CUChar)",
@@ -5805,6 +6331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetJoystickName",
           "package": "bindings-GLFW",
@@ -5814,6 +6341,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetJoystickName",
           "normalized": "CInt-\u003eIO(Ptr CChar)",
@@ -5829,6 +6357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetKey",
           "package": "bindings-GLFW",
@@ -5838,6 +6367,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetKey",
           "normalized": "Ptr C'GLFWwindow-\u003eCInt-\u003eIO CInt",
@@ -5853,6 +6383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMonitorName",
           "package": "bindings-GLFW",
@@ -5862,6 +6393,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMonitorName",
           "normalized": "Ptr C'GLFWmonitor-\u003eIO(Ptr CChar)",
@@ -5877,6 +6409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMonitorPhysicalSize",
           "package": "bindings-GLFW",
@@ -5886,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMonitorPhysicalSize",
           "normalized": "Ptr C'GLFWmonitor-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -5901,6 +6435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMonitorPos",
           "package": "bindings-GLFW",
@@ -5910,6 +6445,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMonitorPos",
           "normalized": "Ptr C'GLFWmonitor-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -5925,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMonitors",
           "package": "bindings-GLFW",
@@ -5934,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMonitors",
           "normalized": "Ptr CInt-\u003eIO(Ptr(Ptr C'GLFWmonitor))",
@@ -5949,6 +6487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMouseButton",
           "package": "bindings-GLFW",
@@ -5958,6 +6497,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetMouseButton",
           "normalized": "Ptr C'GLFWwindow-\u003eCInt-\u003eIO CInt",
@@ -5973,6 +6513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetPrimaryMonitor",
           "package": "bindings-GLFW",
@@ -5982,6 +6523,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetPrimaryMonitor",
           "package": "bindings-GLFW",
@@ -5995,6 +6537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetProcAddress",
           "package": "bindings-GLFW",
@@ -6004,6 +6547,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetProcAddress",
           "normalized": "Ptr CChar-\u003eIO C'GLFWglproc",
@@ -6019,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetTime",
           "package": "bindings-GLFW",
@@ -6028,6 +6573,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetTime",
           "package": "bindings-GLFW",
@@ -6041,6 +6587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetVersion",
           "package": "bindings-GLFW",
@@ -6050,6 +6597,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetVersion",
           "normalized": "Ptr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -6065,6 +6613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetVersionString",
           "package": "bindings-GLFW",
@@ -6074,6 +6623,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetVersionString",
           "package": "bindings-GLFW",
@@ -6087,6 +6637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetVideoMode",
           "package": "bindings-GLFW",
@@ -6096,6 +6647,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetVideoMode",
           "normalized": "Ptr C'GLFWmonitor-\u003eIO(Ptr C'GLFWvidmode)",
@@ -6111,6 +6663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetVideoModes",
           "package": "bindings-GLFW",
@@ -6120,6 +6673,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetVideoModes",
           "normalized": "Ptr C'GLFWmonitor-\u003ePtr CInt-\u003eIO(Ptr C'GLFWvidmode)",
@@ -6135,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowAttrib",
           "package": "bindings-GLFW",
@@ -6144,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowAttrib",
           "normalized": "Ptr C'GLFWwindow-\u003eCInt-\u003eIO CInt",
@@ -6159,6 +6715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowMonitor",
           "package": "bindings-GLFW",
@@ -6168,6 +6725,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowMonitor",
           "normalized": "Ptr C'GLFWwindow-\u003eIO(Ptr C'GLFWmonitor)",
@@ -6183,6 +6741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowPos",
           "package": "bindings-GLFW",
@@ -6192,6 +6751,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowPos",
           "normalized": "Ptr C'GLFWwindow-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -6207,6 +6767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowSize",
           "package": "bindings-GLFW",
@@ -6216,6 +6777,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowSize",
           "normalized": "Ptr C'GLFWwindow-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -6231,6 +6793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowUserPointer",
           "package": "bindings-GLFW",
@@ -6240,6 +6803,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwGetWindowUserPointer",
           "normalized": "Ptr C'GLFWwindow-\u003eIO(Ptr())",
@@ -6255,6 +6819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwHideWindow",
           "package": "bindings-GLFW",
@@ -6264,6 +6829,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwHideWindow",
           "normalized": "Ptr C'GLFWwindow-\u003eIO()",
@@ -6279,6 +6845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwIconifyWindow",
           "package": "bindings-GLFW",
@@ -6288,6 +6855,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwIconifyWindow",
           "normalized": "Ptr C'GLFWwindow-\u003eIO()",
@@ -6303,6 +6871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwInit",
           "package": "bindings-GLFW",
@@ -6312,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwInit",
           "package": "bindings-GLFW",
@@ -6325,6 +6895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwJoystickPresent",
           "package": "bindings-GLFW",
@@ -6334,6 +6905,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwJoystickPresent",
           "normalized": "CInt-\u003eIO CInt",
@@ -6349,6 +6921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwMakeContextCurrent",
           "package": "bindings-GLFW",
@@ -6358,6 +6931,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwMakeContextCurrent",
           "normalized": "Ptr C'GLFWwindow-\u003eIO()",
@@ -6373,6 +6947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwPollEvents",
           "package": "bindings-GLFW",
@@ -6382,6 +6957,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwPollEvents",
           "normalized": "IO()",
@@ -6397,6 +6973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwRestoreWindow",
           "package": "bindings-GLFW",
@@ -6406,6 +6983,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwRestoreWindow",
           "normalized": "Ptr C'GLFWwindow-\u003eIO()",
@@ -6421,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetCharCallback",
           "package": "bindings-GLFW",
@@ -6430,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetCharCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWcharfun-\u003eIO C'GLFWcharfun",
@@ -6445,6 +7025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetClipboardString",
           "package": "bindings-GLFW",
@@ -6454,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetClipboardString",
           "normalized": "Ptr C'GLFWwindow-\u003ePtr CChar-\u003eIO()",
@@ -6469,6 +7051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetCursorEnterCallback",
           "package": "bindings-GLFW",
@@ -6478,6 +7061,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetCursorEnterCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWcursorenterfun-\u003eIO C'GLFWcursorenterfun",
@@ -6493,6 +7077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetCursorPos",
           "package": "bindings-GLFW",
@@ -6502,6 +7087,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetCursorPos",
           "normalized": "Ptr C'GLFWwindow-\u003eCDouble-\u003eCDouble-\u003eIO()",
@@ -6517,6 +7103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetCursorPosCallback",
           "package": "bindings-GLFW",
@@ -6526,6 +7113,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetCursorPosCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWcursorposfun-\u003eIO C'GLFWcursorposfun",
@@ -6541,6 +7129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetErrorCallback",
           "package": "bindings-GLFW",
@@ -6550,6 +7139,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetErrorCallback",
           "normalized": "C'GLFWerrorfun-\u003eIO C'GLFWerrorfun",
@@ -6565,6 +7155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetFramebufferSizeCallback",
           "package": "bindings-GLFW",
@@ -6574,6 +7165,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetFramebufferSizeCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWframebuffersizefun-\u003eIO C'GLFWframebuffersizefun",
@@ -6589,6 +7181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetGamma",
           "package": "bindings-GLFW",
@@ -6598,6 +7191,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetGamma",
           "normalized": "Ptr C'GLFWmonitor-\u003eCFloat-\u003eIO()",
@@ -6613,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetGammaRamp",
           "package": "bindings-GLFW",
@@ -6622,6 +7217,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetGammaRamp",
           "normalized": "Ptr C'GLFWmonitor-\u003ePtr C'GLFWgammaramp-\u003eIO()",
@@ -6637,6 +7233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetInputMode",
           "package": "bindings-GLFW",
@@ -6646,6 +7243,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetInputMode",
           "normalized": "Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -6661,6 +7259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetKeyCallback",
           "package": "bindings-GLFW",
@@ -6670,6 +7269,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetKeyCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWkeyfun-\u003eIO C'GLFWkeyfun",
@@ -6685,6 +7285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetMonitorCallback",
           "package": "bindings-GLFW",
@@ -6694,6 +7295,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetMonitorCallback",
           "normalized": "C'GLFWmonitorfun-\u003eIO C'GLFWmonitorfun",
@@ -6709,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetMouseButtonCallback",
           "package": "bindings-GLFW",
@@ -6718,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetMouseButtonCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWmousebuttonfun-\u003eIO C'GLFWmousebuttonfun",
@@ -6733,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetScrollCallback",
           "package": "bindings-GLFW",
@@ -6742,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetScrollCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWscrollfun-\u003eIO C'GLFWscrollfun",
@@ -6757,6 +7363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetTime",
           "package": "bindings-GLFW",
@@ -6766,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetTime",
           "normalized": "CDouble-\u003eIO()",
@@ -6781,6 +7389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowCloseCallback",
           "package": "bindings-GLFW",
@@ -6790,6 +7399,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowCloseCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWwindowclosefun-\u003eIO C'GLFWwindowclosefun",
@@ -6805,6 +7415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowFocusCallback",
           "package": "bindings-GLFW",
@@ -6814,6 +7425,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowFocusCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWwindowfocusfun-\u003eIO C'GLFWwindowfocusfun",
@@ -6829,6 +7441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowIconifyCallback",
           "package": "bindings-GLFW",
@@ -6838,6 +7451,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowIconifyCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWwindowiconifyfun-\u003eIO C'GLFWwindowiconifyfun",
@@ -6853,6 +7467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowPos",
           "package": "bindings-GLFW",
@@ -6862,6 +7477,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowPos",
           "normalized": "Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -6877,6 +7493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowPosCallback",
           "package": "bindings-GLFW",
@@ -6886,6 +7503,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowPosCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWwindowposfun-\u003eIO C'GLFWwindowposfun",
@@ -6901,6 +7519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowRefreshCallback",
           "package": "bindings-GLFW",
@@ -6910,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowRefreshCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWwindowrefreshfun-\u003eIO C'GLFWwindowrefreshfun",
@@ -6925,6 +7545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowShouldClose",
           "package": "bindings-GLFW",
@@ -6934,6 +7555,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowShouldClose",
           "normalized": "Ptr C'GLFWwindow-\u003eCInt-\u003eIO()",
@@ -6949,6 +7571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowSize",
           "package": "bindings-GLFW",
@@ -6958,6 +7581,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowSize",
           "normalized": "Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -6973,6 +7597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowSizeCallback",
           "package": "bindings-GLFW",
@@ -6982,6 +7607,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowSizeCallback",
           "normalized": "Ptr C'GLFWwindow-\u003eC'GLFWwindowsizefun-\u003eIO C'GLFWwindowsizefun",
@@ -6997,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowTitle",
           "package": "bindings-GLFW",
@@ -7006,6 +7633,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowTitle",
           "normalized": "Ptr C'GLFWwindow-\u003ePtr CChar-\u003eIO()",
@@ -7021,6 +7649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowUserPointer",
           "package": "bindings-GLFW",
@@ -7030,6 +7659,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSetWindowUserPointer",
           "normalized": "Ptr C'GLFWwindow-\u003ePtr()-\u003eIO()",
@@ -7045,6 +7675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwShowWindow",
           "package": "bindings-GLFW",
@@ -7054,6 +7685,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwShowWindow",
           "normalized": "Ptr C'GLFWwindow-\u003eIO()",
@@ -7069,6 +7701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSwapBuffers",
           "package": "bindings-GLFW",
@@ -7078,6 +7711,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSwapBuffers",
           "normalized": "Ptr C'GLFWwindow-\u003eIO()",
@@ -7093,6 +7727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwSwapInterval",
           "package": "bindings-GLFW",
@@ -7102,6 +7737,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwSwapInterval",
           "normalized": "CInt-\u003eIO()",
@@ -7117,6 +7753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwTerminate",
           "package": "bindings-GLFW",
@@ -7126,6 +7763,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwTerminate",
           "normalized": "IO()",
@@ -7141,6 +7779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwWaitEvents",
           "package": "bindings-GLFW",
@@ -7150,6 +7789,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwWaitEvents",
           "normalized": "IO()",
@@ -7165,6 +7805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwWindowHint",
           "package": "bindings-GLFW",
@@ -7174,6 +7815,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwWindowHint",
           "normalized": "CInt-\u003eCInt-\u003eIO()",
@@ -7189,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "c'glfwWindowShouldClose",
           "package": "bindings-GLFW",
@@ -7198,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "c'glfwWindowShouldClose",
           "normalized": "Ptr C'GLFWwindow-\u003eIO CInt",
@@ -7213,6 +7857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWcharfun",
           "package": "bindings-GLFW",
@@ -7222,6 +7867,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWcharfun",
           "normalized": "C'GLFWcharfun-\u003ePtr C'GLFWwindow-\u003eCUInt-\u003eIO()",
@@ -7237,6 +7883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWcursorenterfun",
           "package": "bindings-GLFW",
@@ -7246,6 +7893,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWcursorenterfun",
           "normalized": "C'GLFWcursorenterfun-\u003ePtr C'GLFWwindow-\u003eCInt-\u003eIO()",
@@ -7261,6 +7909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWcursorposfun",
           "package": "bindings-GLFW",
@@ -7270,6 +7919,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWcursorposfun",
           "normalized": "C'GLFWcursorposfun-\u003ePtr C'GLFWwindow-\u003eCDouble-\u003eCDouble-\u003eIO()",
@@ -7285,6 +7935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWerrorfun",
           "package": "bindings-GLFW",
@@ -7294,6 +7945,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWerrorfun",
           "normalized": "C'GLFWerrorfun-\u003eCInt-\u003ePtr CChar-\u003eIO()",
@@ -7309,6 +7961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWframebuffersizefun",
           "package": "bindings-GLFW",
@@ -7318,6 +7971,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWframebuffersizefun",
           "normalized": "C'GLFWframebuffersizefun-\u003ePtr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -7333,6 +7987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWglproc",
           "package": "bindings-GLFW",
@@ -7342,6 +7997,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWglproc",
           "normalized": "C'GLFWglproc-\u003eIO()",
@@ -7357,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWkeyfun",
           "package": "bindings-GLFW",
@@ -7366,6 +8023,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWkeyfun",
           "normalized": "C'GLFWkeyfun-\u003ePtr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -7381,6 +8039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWmonitorfun",
           "package": "bindings-GLFW",
@@ -7390,6 +8049,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWmonitorfun",
           "normalized": "C'GLFWmonitorfun-\u003ePtr C'GLFWmonitor-\u003eCInt-\u003eIO()",
@@ -7405,6 +8065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWmousebuttonfun",
           "package": "bindings-GLFW",
@@ -7414,6 +8075,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWmousebuttonfun",
           "normalized": "C'GLFWmousebuttonfun-\u003ePtr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -7429,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWscrollfun",
           "package": "bindings-GLFW",
@@ -7438,6 +8101,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWscrollfun",
           "normalized": "C'GLFWscrollfun-\u003ePtr C'GLFWwindow-\u003eCDouble-\u003eCDouble-\u003eIO()",
@@ -7453,6 +8117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowclosefun",
           "package": "bindings-GLFW",
@@ -7462,6 +8127,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowclosefun",
           "normalized": "C'GLFWwindowclosefun-\u003ePtr C'GLFWwindow-\u003eIO()",
@@ -7477,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowfocusfun",
           "package": "bindings-GLFW",
@@ -7486,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowfocusfun",
           "normalized": "C'GLFWwindowfocusfun-\u003ePtr C'GLFWwindow-\u003eCInt-\u003eIO()",
@@ -7501,6 +8169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowiconifyfun",
           "package": "bindings-GLFW",
@@ -7510,6 +8179,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowiconifyfun",
           "normalized": "C'GLFWwindowiconifyfun-\u003ePtr C'GLFWwindow-\u003eCInt-\u003eIO()",
@@ -7525,6 +8195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowposfun",
           "package": "bindings-GLFW",
@@ -7534,6 +8205,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowposfun",
           "normalized": "C'GLFWwindowposfun-\u003ePtr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -7549,6 +8221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowrefreshfun",
           "package": "bindings-GLFW",
@@ -7558,6 +8231,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowrefreshfun",
           "normalized": "C'GLFWwindowrefreshfun-\u003ePtr C'GLFWwindow-\u003eIO()",
@@ -7573,6 +8247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowsizefun",
           "package": "bindings-GLFW",
@@ -7582,6 +8257,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mK'GLFWwindowsizefun",
           "normalized": "C'GLFWwindowsizefun-\u003ePtr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -7597,6 +8273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWcharfun",
           "package": "bindings-GLFW",
@@ -7606,6 +8283,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWcharfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCUInt-\u003eIO())-\u003eIO C'GLFWcharfun",
@@ -7621,6 +8299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWcursorenterfun",
           "package": "bindings-GLFW",
@@ -7630,6 +8309,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWcursorenterfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCInt-\u003eIO())-\u003eIO C'GLFWcursorenterfun",
@@ -7645,6 +8325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWcursorposfun",
           "package": "bindings-GLFW",
@@ -7654,6 +8335,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWcursorposfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCDouble-\u003eCDouble-\u003eIO())-\u003eIO C'GLFWcursorposfun",
@@ -7669,6 +8351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWerrorfun",
           "package": "bindings-GLFW",
@@ -7678,6 +8361,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWerrorfun",
           "normalized": "(CInt-\u003ePtr CChar-\u003eIO())-\u003eIO C'GLFWerrorfun",
@@ -7693,6 +8377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWframebuffersizefun",
           "package": "bindings-GLFW",
@@ -7702,6 +8387,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWframebuffersizefun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO())-\u003eIO C'GLFWframebuffersizefun",
@@ -7717,6 +8403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWglproc",
           "package": "bindings-GLFW",
@@ -7726,6 +8413,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWglproc",
           "normalized": "IO()-\u003eIO C'GLFWglproc",
@@ -7741,6 +8429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWkeyfun",
           "package": "bindings-GLFW",
@@ -7750,6 +8439,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWkeyfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO())-\u003eIO C'GLFWkeyfun",
@@ -7765,6 +8455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWmonitorfun",
           "package": "bindings-GLFW",
@@ -7774,6 +8465,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWmonitorfun",
           "normalized": "(Ptr C'GLFWmonitor-\u003eCInt-\u003eIO())-\u003eIO C'GLFWmonitorfun",
@@ -7789,6 +8481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWmousebuttonfun",
           "package": "bindings-GLFW",
@@ -7798,6 +8491,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWmousebuttonfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO())-\u003eIO C'GLFWmousebuttonfun",
@@ -7813,6 +8507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWscrollfun",
           "package": "bindings-GLFW",
@@ -7822,6 +8517,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWscrollfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCDouble-\u003eCDouble-\u003eIO())-\u003eIO C'GLFWscrollfun",
@@ -7837,6 +8533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowclosefun",
           "package": "bindings-GLFW",
@@ -7846,6 +8543,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowclosefun",
           "normalized": "(Ptr C'GLFWwindow-\u003eIO())-\u003eIO C'GLFWwindowclosefun",
@@ -7861,6 +8559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowfocusfun",
           "package": "bindings-GLFW",
@@ -7870,6 +8569,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowfocusfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCInt-\u003eIO())-\u003eIO C'GLFWwindowfocusfun",
@@ -7885,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowiconifyfun",
           "package": "bindings-GLFW",
@@ -7894,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowiconifyfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCInt-\u003eIO())-\u003eIO C'GLFWwindowiconifyfun",
@@ -7909,6 +8611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowposfun",
           "package": "bindings-GLFW",
@@ -7918,6 +8621,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowposfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO())-\u003eIO C'GLFWwindowposfun",
@@ -7933,6 +8637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowrefreshfun",
           "package": "bindings-GLFW",
@@ -7942,6 +8647,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowrefreshfun",
           "normalized": "(Ptr C'GLFWwindow-\u003eIO())-\u003eIO C'GLFWwindowrefreshfun",
@@ -7957,6 +8663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowsizefun",
           "package": "bindings-GLFW",
@@ -7966,6 +8673,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "mk'GLFWwindowsizefun",
           "normalized": "(Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO())-\u003eIO C'GLFWwindowsizefun",
@@ -7981,6 +8689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWgammaramp'blue",
           "package": "bindings-GLFW",
@@ -7990,6 +8699,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWgammaramp'blue",
           "normalized": "Ptr C'GLFWgammaramp-\u003ePtr(Ptr CUShort)",
@@ -8005,6 +8715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWgammaramp'green",
           "package": "bindings-GLFW",
@@ -8014,6 +8725,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWgammaramp'green",
           "normalized": "Ptr C'GLFWgammaramp-\u003ePtr(Ptr CUShort)",
@@ -8029,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWgammaramp'red",
           "package": "bindings-GLFW",
@@ -8038,6 +8751,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWgammaramp'red",
           "normalized": "Ptr C'GLFWgammaramp-\u003ePtr(Ptr CUShort)",
@@ -8053,6 +8767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWgammaramp'size",
           "package": "bindings-GLFW",
@@ -8062,6 +8777,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWgammaramp'size",
           "normalized": "Ptr C'GLFWgammaramp-\u003ePtr CUInt",
@@ -8077,6 +8793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'blueBits",
           "package": "bindings-GLFW",
@@ -8086,6 +8803,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'blueBits",
           "normalized": "Ptr C'GLFWvidmode-\u003ePtr CInt",
@@ -8101,6 +8819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'greenBits",
           "package": "bindings-GLFW",
@@ -8110,6 +8829,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'greenBits",
           "normalized": "Ptr C'GLFWvidmode-\u003ePtr CInt",
@@ -8125,6 +8845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'height",
           "package": "bindings-GLFW",
@@ -8134,6 +8855,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'height",
           "normalized": "Ptr C'GLFWvidmode-\u003ePtr CInt",
@@ -8149,6 +8871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'redBits",
           "package": "bindings-GLFW",
@@ -8158,6 +8881,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'redBits",
           "normalized": "Ptr C'GLFWvidmode-\u003ePtr CInt",
@@ -8173,6 +8897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'refreshRate",
           "package": "bindings-GLFW",
@@ -8182,6 +8907,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'refreshRate",
           "normalized": "Ptr C'GLFWvidmode-\u003ePtr CInt",
@@ -8197,6 +8923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'width",
           "package": "bindings-GLFW",
@@ -8206,6 +8933,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'GLFWvidmode'width",
           "normalized": "Ptr C'GLFWvidmode-\u003ePtr CInt",
@@ -8221,6 +8949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwCreateWindow",
           "package": "bindings-GLFW",
@@ -8230,6 +8959,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwCreateWindow",
           "normalized": "FunPtr(CInt-\u003eCInt-\u003ePtr CChar-\u003ePtr C'GLFWmonitor-\u003ePtr C'GLFWwindow-\u003eIO(Ptr C'GLFWwindow))",
@@ -8245,6 +8975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwDefaultWindowHints",
           "package": "bindings-GLFW",
@@ -8254,6 +8985,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwDefaultWindowHints",
           "normalized": "FunPtr(IO())",
@@ -8269,6 +9001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwDestroyWindow",
           "package": "bindings-GLFW",
@@ -8278,6 +9011,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwDestroyWindow",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO())",
@@ -8293,6 +9027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwExtensionSupported",
           "package": "bindings-GLFW",
@@ -8302,6 +9037,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwExtensionSupported",
           "normalized": "FunPtr(Ptr CChar-\u003eIO CInt)",
@@ -8317,6 +9053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetClipboardString",
           "package": "bindings-GLFW",
@@ -8326,6 +9063,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetClipboardString",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO(Ptr CChar))",
@@ -8341,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetCurrentContext",
           "package": "bindings-GLFW",
@@ -8350,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetCurrentContext",
           "package": "bindings-GLFW",
@@ -8363,6 +9103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetCursorPos",
           "package": "bindings-GLFW",
@@ -8372,6 +9113,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetCursorPos",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003ePtr CDouble-\u003ePtr CDouble-\u003eIO())",
@@ -8387,6 +9129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetFramebufferSize",
           "package": "bindings-GLFW",
@@ -8396,6 +9139,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetFramebufferSize",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003ePtr CInt-\u003ePtr CInt-\u003eIO())",
@@ -8411,6 +9155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetGammaRamp",
           "package": "bindings-GLFW",
@@ -8420,6 +9165,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetGammaRamp",
           "normalized": "FunPtr(Ptr C'GLFWmonitor-\u003eIO(Ptr C'GLFWgammaramp))",
@@ -8435,6 +9181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetInputMode",
           "package": "bindings-GLFW",
@@ -8444,6 +9191,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetInputMode",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCInt-\u003eIO CInt)",
@@ -8459,6 +9207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetJoystickAxes",
           "package": "bindings-GLFW",
@@ -8468,6 +9217,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetJoystickAxes",
           "normalized": "FunPtr(CInt-\u003ePtr CInt-\u003eIO(Ptr CFloat))",
@@ -8483,6 +9233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetJoystickButtons",
           "package": "bindings-GLFW",
@@ -8492,6 +9243,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetJoystickButtons",
           "normalized": "FunPtr(CInt-\u003ePtr CInt-\u003eIO(Ptr CUChar))",
@@ -8507,6 +9259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetJoystickName",
           "package": "bindings-GLFW",
@@ -8516,6 +9269,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetJoystickName",
           "normalized": "FunPtr(CInt-\u003eIO(Ptr CChar))",
@@ -8531,6 +9285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetKey",
           "package": "bindings-GLFW",
@@ -8540,6 +9295,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetKey",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCInt-\u003eIO CInt)",
@@ -8555,6 +9311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMonitorName",
           "package": "bindings-GLFW",
@@ -8564,6 +9321,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMonitorName",
           "normalized": "FunPtr(Ptr C'GLFWmonitor-\u003eIO(Ptr CChar))",
@@ -8579,6 +9337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMonitorPhysicalSize",
           "package": "bindings-GLFW",
@@ -8588,6 +9347,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMonitorPhysicalSize",
           "normalized": "FunPtr(Ptr C'GLFWmonitor-\u003ePtr CInt-\u003ePtr CInt-\u003eIO())",
@@ -8603,6 +9363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMonitorPos",
           "package": "bindings-GLFW",
@@ -8612,6 +9373,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMonitorPos",
           "normalized": "FunPtr(Ptr C'GLFWmonitor-\u003ePtr CInt-\u003ePtr CInt-\u003eIO())",
@@ -8627,6 +9389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMonitors",
           "package": "bindings-GLFW",
@@ -8636,6 +9399,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMonitors",
           "normalized": "FunPtr(Ptr CInt-\u003eIO(Ptr(Ptr C'GLFWmonitor)))",
@@ -8651,6 +9415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMouseButton",
           "package": "bindings-GLFW",
@@ -8660,6 +9425,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetMouseButton",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCInt-\u003eIO CInt)",
@@ -8675,6 +9441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetPrimaryMonitor",
           "package": "bindings-GLFW",
@@ -8684,6 +9451,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetPrimaryMonitor",
           "package": "bindings-GLFW",
@@ -8697,6 +9465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetProcAddress",
           "package": "bindings-GLFW",
@@ -8706,6 +9475,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetProcAddress",
           "normalized": "FunPtr(Ptr CChar-\u003eIO C'GLFWglproc)",
@@ -8721,6 +9491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetTime",
           "package": "bindings-GLFW",
@@ -8730,6 +9501,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetTime",
           "package": "bindings-GLFW",
@@ -8743,6 +9515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetVersion",
           "package": "bindings-GLFW",
@@ -8752,6 +9525,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetVersion",
           "normalized": "FunPtr(Ptr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO())",
@@ -8767,6 +9541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetVersionString",
           "package": "bindings-GLFW",
@@ -8776,6 +9551,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetVersionString",
           "package": "bindings-GLFW",
@@ -8789,6 +9565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetVideoMode",
           "package": "bindings-GLFW",
@@ -8798,6 +9575,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetVideoMode",
           "normalized": "FunPtr(Ptr C'GLFWmonitor-\u003eIO(Ptr C'GLFWvidmode))",
@@ -8813,6 +9591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetVideoModes",
           "package": "bindings-GLFW",
@@ -8822,6 +9601,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetVideoModes",
           "normalized": "FunPtr(Ptr C'GLFWmonitor-\u003ePtr CInt-\u003eIO(Ptr C'GLFWvidmode))",
@@ -8837,6 +9617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowAttrib",
           "package": "bindings-GLFW",
@@ -8846,6 +9627,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowAttrib",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCInt-\u003eIO CInt)",
@@ -8861,6 +9643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowMonitor",
           "package": "bindings-GLFW",
@@ -8870,6 +9653,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowMonitor",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO(Ptr C'GLFWmonitor))",
@@ -8885,6 +9669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowPos",
           "package": "bindings-GLFW",
@@ -8894,6 +9679,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowPos",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003ePtr CInt-\u003ePtr CInt-\u003eIO())",
@@ -8909,6 +9695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowSize",
           "package": "bindings-GLFW",
@@ -8918,6 +9705,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowSize",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003ePtr CInt-\u003ePtr CInt-\u003eIO())",
@@ -8933,6 +9721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowUserPointer",
           "package": "bindings-GLFW",
@@ -8942,6 +9731,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwGetWindowUserPointer",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO(Ptr()))",
@@ -8957,6 +9747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwHideWindow",
           "package": "bindings-GLFW",
@@ -8966,6 +9757,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwHideWindow",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO())",
@@ -8981,6 +9773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwIconifyWindow",
           "package": "bindings-GLFW",
@@ -8990,6 +9783,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwIconifyWindow",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO())",
@@ -9005,6 +9799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwInit",
           "package": "bindings-GLFW",
@@ -9014,6 +9809,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwInit",
           "package": "bindings-GLFW",
@@ -9027,6 +9823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwJoystickPresent",
           "package": "bindings-GLFW",
@@ -9036,6 +9833,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwJoystickPresent",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -9051,6 +9849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwMakeContextCurrent",
           "package": "bindings-GLFW",
@@ -9060,6 +9859,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwMakeContextCurrent",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO())",
@@ -9075,6 +9875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwPollEvents",
           "package": "bindings-GLFW",
@@ -9084,6 +9885,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwPollEvents",
           "normalized": "FunPtr(IO())",
@@ -9099,6 +9901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwRestoreWindow",
           "package": "bindings-GLFW",
@@ -9108,6 +9911,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwRestoreWindow",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO())",
@@ -9123,6 +9927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetCharCallback",
           "package": "bindings-GLFW",
@@ -9132,6 +9937,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetCharCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWcharfun-\u003eIO C'GLFWcharfun)",
@@ -9147,6 +9953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetClipboardString",
           "package": "bindings-GLFW",
@@ -9156,6 +9963,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetClipboardString",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003ePtr CChar-\u003eIO())",
@@ -9171,6 +9979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetCursorEnterCallback",
           "package": "bindings-GLFW",
@@ -9180,6 +9989,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetCursorEnterCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWcursorenterfun-\u003eIO C'GLFWcursorenterfun)",
@@ -9195,6 +10005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetCursorPos",
           "package": "bindings-GLFW",
@@ -9204,6 +10015,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetCursorPos",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCDouble-\u003eCDouble-\u003eIO())",
@@ -9219,6 +10031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetCursorPosCallback",
           "package": "bindings-GLFW",
@@ -9228,6 +10041,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetCursorPosCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWcursorposfun-\u003eIO C'GLFWcursorposfun)",
@@ -9243,6 +10057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetErrorCallback",
           "package": "bindings-GLFW",
@@ -9252,6 +10067,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetErrorCallback",
           "normalized": "FunPtr(C'GLFWerrorfun-\u003eIO C'GLFWerrorfun)",
@@ -9267,6 +10083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetFramebufferSizeCallback",
           "package": "bindings-GLFW",
@@ -9276,6 +10093,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetFramebufferSizeCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWframebuffersizefun-\u003eIO C'GLFWframebuffersizefun)",
@@ -9291,6 +10109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetGamma",
           "package": "bindings-GLFW",
@@ -9300,6 +10119,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetGamma",
           "normalized": "FunPtr(Ptr C'GLFWmonitor-\u003eCFloat-\u003eIO())",
@@ -9315,6 +10135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetGammaRamp",
           "package": "bindings-GLFW",
@@ -9324,6 +10145,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetGammaRamp",
           "normalized": "FunPtr(Ptr C'GLFWmonitor-\u003ePtr C'GLFWgammaramp-\u003eIO())",
@@ -9339,6 +10161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetInputMode",
           "package": "bindings-GLFW",
@@ -9348,6 +10171,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetInputMode",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO())",
@@ -9363,6 +10187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetKeyCallback",
           "package": "bindings-GLFW",
@@ -9372,6 +10197,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetKeyCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWkeyfun-\u003eIO C'GLFWkeyfun)",
@@ -9387,6 +10213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetMonitorCallback",
           "package": "bindings-GLFW",
@@ -9396,6 +10223,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetMonitorCallback",
           "normalized": "FunPtr(C'GLFWmonitorfun-\u003eIO C'GLFWmonitorfun)",
@@ -9411,6 +10239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetMouseButtonCallback",
           "package": "bindings-GLFW",
@@ -9420,6 +10249,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetMouseButtonCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWmousebuttonfun-\u003eIO C'GLFWmousebuttonfun)",
@@ -9435,6 +10265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetScrollCallback",
           "package": "bindings-GLFW",
@@ -9444,6 +10275,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetScrollCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWscrollfun-\u003eIO C'GLFWscrollfun)",
@@ -9459,6 +10291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetTime",
           "package": "bindings-GLFW",
@@ -9468,6 +10301,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetTime",
           "normalized": "FunPtr(CDouble-\u003eIO())",
@@ -9483,6 +10317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowCloseCallback",
           "package": "bindings-GLFW",
@@ -9492,6 +10327,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowCloseCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWwindowclosefun-\u003eIO C'GLFWwindowclosefun)",
@@ -9507,6 +10343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowFocusCallback",
           "package": "bindings-GLFW",
@@ -9516,6 +10353,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowFocusCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWwindowfocusfun-\u003eIO C'GLFWwindowfocusfun)",
@@ -9531,6 +10369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowIconifyCallback",
           "package": "bindings-GLFW",
@@ -9540,6 +10379,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowIconifyCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWwindowiconifyfun-\u003eIO C'GLFWwindowiconifyfun)",
@@ -9555,6 +10395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowPos",
           "package": "bindings-GLFW",
@@ -9564,6 +10405,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowPos",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO())",
@@ -9579,6 +10421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowPosCallback",
           "package": "bindings-GLFW",
@@ -9588,6 +10431,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowPosCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWwindowposfun-\u003eIO C'GLFWwindowposfun)",
@@ -9603,6 +10447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowRefreshCallback",
           "package": "bindings-GLFW",
@@ -9612,6 +10457,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowRefreshCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWwindowrefreshfun-\u003eIO C'GLFWwindowrefreshfun)",
@@ -9627,6 +10473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowShouldClose",
           "package": "bindings-GLFW",
@@ -9636,6 +10483,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowShouldClose",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCInt-\u003eIO())",
@@ -9651,6 +10499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowSize",
           "package": "bindings-GLFW",
@@ -9660,6 +10509,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowSize",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eCInt-\u003eCInt-\u003eIO())",
@@ -9675,6 +10525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowSizeCallback",
           "package": "bindings-GLFW",
@@ -9684,6 +10535,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowSizeCallback",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eC'GLFWwindowsizefun-\u003eIO C'GLFWwindowsizefun)",
@@ -9699,6 +10551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowTitle",
           "package": "bindings-GLFW",
@@ -9708,6 +10561,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowTitle",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003ePtr CChar-\u003eIO())",
@@ -9723,6 +10577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowUserPointer",
           "package": "bindings-GLFW",
@@ -9732,6 +10587,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSetWindowUserPointer",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003ePtr()-\u003eIO())",
@@ -9747,6 +10603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwShowWindow",
           "package": "bindings-GLFW",
@@ -9756,6 +10613,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwShowWindow",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO())",
@@ -9771,6 +10629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSwapBuffers",
           "package": "bindings-GLFW",
@@ -9780,6 +10639,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSwapBuffers",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO())",
@@ -9795,6 +10655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwSwapInterval",
           "package": "bindings-GLFW",
@@ -9804,6 +10665,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwSwapInterval",
           "normalized": "FunPtr(CInt-\u003eIO())",
@@ -9819,6 +10681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwTerminate",
           "package": "bindings-GLFW",
@@ -9828,6 +10691,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwTerminate",
           "normalized": "FunPtr(IO())",
@@ -9843,6 +10707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwWaitEvents",
           "package": "bindings-GLFW",
@@ -9852,6 +10717,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwWaitEvents",
           "normalized": "FunPtr(IO())",
@@ -9867,6 +10733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwWindowHint",
           "package": "bindings-GLFW",
@@ -9876,6 +10743,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwWindowHint",
           "normalized": "FunPtr(CInt-\u003eCInt-\u003eIO())",
@@ -9891,6 +10759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:34 UTC 2014",
           "module": "Bindings.GLFW",
           "name": "p'glfwWindowShouldClose",
           "package": "bindings-GLFW",
@@ -9900,6 +10769,7 @@
         },
         "index": {
           "hierarchy": "Bindings GLFW",
+          "indexed": "2014-03-11T17:19:34",
           "module": "Bindings.GLFW",
           "name": "p'glfwWindowShouldClose",
           "normalized": "FunPtr(Ptr C'GLFWwindow-\u003eIO CInt)",

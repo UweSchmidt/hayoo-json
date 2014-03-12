@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blaze-html"
+        "phrase": "blaze-html",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Pretty",
           "name": "Pretty",
           "package": "blaze-html",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Pretty",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Pretty",
           "name": "Pretty",
           "package": "blaze-html",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Pretty",
           "name": "renderHtml",
           "package": "blaze-html",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Pretty",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Pretty",
           "name": "renderHtml",
           "normalized": "Html-\u003eString",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.String",
           "name": "String",
           "package": "blaze-html",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer String",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.String",
           "name": "String",
           "package": "blaze-html",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.String",
           "name": "renderHtml",
           "package": "blaze-html",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer String",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.String",
           "name": "renderHtml",
           "normalized": "Html-\u003eString",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "Text",
           "package": "blaze-html",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Text",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "Text",
           "package": "blaze-html",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "renderHtml",
           "package": "blaze-html",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Text",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "renderHtml",
           "normalized": "Html-\u003eText",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "renderHtmlBuilder",
           "package": "blaze-html",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Text",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "renderHtmlBuilder",
           "normalized": "Html-\u003eBuilder",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "renderHtmlBuilderWith",
           "package": "blaze-html",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Text",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "renderHtmlBuilderWith",
           "normalized": "(ByteString-\u003eText)-\u003eHtml-\u003eBuilder",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "renderHtmlWith",
           "package": "blaze-html",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Text",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Text",
           "name": "renderHtmlWith",
           "normalized": "(ByteString-\u003eText)-\u003eHtml-\u003eText",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Utf8",
           "name": "Utf8",
           "package": "blaze-html",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Utf8",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Utf8",
           "name": "Utf8",
           "package": "blaze-html",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Utf8",
           "name": "renderHtml",
           "package": "blaze-html",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Utf8",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Utf8",
           "name": "renderHtml",
           "normalized": "Html-\u003eByteString",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Utf8",
           "name": "renderHtmlBuilder",
           "package": "blaze-html",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Utf8",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Utf8",
           "name": "renderHtmlBuilder",
           "normalized": "Html-\u003eBuilder",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html.Renderer.Utf8",
           "name": "renderHtmlToByteStringIO",
           "package": "blaze-html",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html Renderer Utf8",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html.Renderer.Utf8",
           "name": "renderHtmlToByteStringIO",
           "normalized": "(ByteString-\u003eIO())-\u003eHtml-\u003eIO()",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html",
           "name": "Html",
           "package": "blaze-html",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html",
           "name": "Html",
           "package": "blaze-html",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html",
           "name": "Html",
           "package": "blaze-html",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html",
           "name": "Html",
           "package": "blaze-html",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html",
           "name": "preEscapedToHtml",
           "package": "blaze-html",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html",
           "name": "preEscapedToHtml",
           "normalized": "a-\u003eHtml",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html",
           "name": "toHtml",
           "package": "blaze-html",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html",
           "name": "toHtml",
           "normalized": "a-\u003eHtml",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators that provide you with the\n ability to set attributes on HTML elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.FrameSet.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -418,6 +453,7 @@
         "index": {
           "description": "This module exports combinators that provide you with the ability to set attributes on HTML elements",
           "hierarchy": "Text Blaze Html4 FrameSet Attributes",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.FrameSet.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -3033,6 +3069,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports HTML combinators used to create documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.FrameSet",
           "name": "FrameSet",
           "package": "blaze-html",
@@ -3042,6 +3079,7 @@
         "index": {
           "description": "This module exports HTML combinators used to create documents",
           "hierarchy": "Text Blaze Html4 FrameSet",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.FrameSet",
           "name": "FrameSet",
           "package": "blaze-html",
@@ -3698,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the document type. This should be placed at the top\n of every HTML page.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docType\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 FrameSet//EN\"\n     \"http://www.w3.org/TR/html4/frameset.dtd\"\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.FrameSet",
           "name": "docType",
           "package": "blaze-html",
@@ -3707,6 +3746,7 @@
         "index": {
           "description": "Combinator for the document type This should be placed at the top of every HTML page Example docType Result DOCTYPE HTML PUBLIC W3C DTD HTML FrameSet EN http www.w3.org TR html4 frameset.dtd",
           "hierarchy": "Text Blaze Html4 FrameSet",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.FrameSet",
           "name": "docType",
           "package": "blaze-html",
@@ -3721,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the \u003ccode\u003e\u003chtml\u003e\u003c/code\u003e element. This combinator will also\n insert the correct doctype.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docTypeHtml $ span $ toHtml \"foo\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 FrameSet//EN\"\n     \"http://www.w3.org/TR/html4/frameset.dtd\"\u003e\n \u003chtml\u003e\u003cspan\u003efoo\u003c/span\u003e\u003c/html\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.FrameSet",
           "name": "docTypeHtml",
           "package": "blaze-html",
@@ -3730,6 +3771,7 @@
         "index": {
           "description": "Combinator for the html element This combinator will also insert the correct doctype Example docTypeHtml span toHtml foo Result DOCTYPE HTML PUBLIC W3C DTD HTML FrameSet EN http www.w3.org TR html4 frameset.dtd html span foo span html",
           "hierarchy": "Text Blaze Html4 FrameSet",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.FrameSet",
           "name": "docTypeHtml",
           "normalized": "Html-\u003eHtml",
@@ -5307,6 +5349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators that provide you with the\n ability to set attributes on HTML elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.Strict.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -5316,6 +5359,7 @@
         "index": {
           "description": "This module exports combinators that provide you with the ability to set attributes on HTML elements",
           "hierarchy": "Text Blaze Html4 Strict Attributes",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.Strict.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -5330,6 +5374,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports HTML combinators used to create documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.Strict",
           "name": "Strict",
           "package": "blaze-html",
@@ -5339,6 +5384,7 @@
         "index": {
           "description": "This module exports HTML combinators used to create documents",
           "hierarchy": "Text Blaze Html4 Strict",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.Strict",
           "name": "Strict",
           "package": "blaze-html",
@@ -5353,6 +5399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the document type. This should be placed at the top\n of every HTML page.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docType\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\n     \"http://www.w3.org/TR/html4/strict.dtd\"\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.Strict",
           "name": "docType",
           "package": "blaze-html",
@@ -5362,6 +5409,7 @@
         "index": {
           "description": "Combinator for the document type This should be placed at the top of every HTML page Example docType Result DOCTYPE HTML PUBLIC W3C DTD HTML EN http www.w3.org TR html4 strict.dtd",
           "hierarchy": "Text Blaze Html4 Strict",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.Strict",
           "name": "docType",
           "package": "blaze-html",
@@ -5376,6 +5424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the \u003ccode\u003e\u003chtml\u003e\u003c/code\u003e element. This combinator will also\n insert the correct doctype.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docTypeHtml $ span $ toHtml \"foo\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\n     \"http://www.w3.org/TR/html4/strict.dtd\"\u003e\n \u003chtml\u003e\u003cspan\u003efoo\u003c/span\u003e\u003c/html\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.Strict",
           "name": "docTypeHtml",
           "package": "blaze-html",
@@ -5385,6 +5434,7 @@
         "index": {
           "description": "Combinator for the html element This combinator will also insert the correct doctype Example docTypeHtml span toHtml foo Result DOCTYPE HTML PUBLIC W3C DTD HTML EN http www.w3.org TR html4 strict.dtd html span foo span html",
           "hierarchy": "Text Blaze Html4 Strict",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.Strict",
           "name": "docTypeHtml",
           "normalized": "Html-\u003eHtml",
@@ -5401,6 +5451,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators that provide you with the\n ability to set attributes on HTML elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.Transitional.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -5410,6 +5461,7 @@
         "index": {
           "description": "This module exports combinators that provide you with the ability to set attributes on HTML elements",
           "hierarchy": "Text Blaze Html4 Transitional Attributes",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.Transitional.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -5424,6 +5476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports HTML combinators used to create documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.Transitional",
           "name": "Transitional",
           "package": "blaze-html",
@@ -5433,6 +5486,7 @@
         "index": {
           "description": "This module exports HTML combinators used to create documents",
           "hierarchy": "Text Blaze Html4 Transitional",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.Transitional",
           "name": "Transitional",
           "package": "blaze-html",
@@ -5447,6 +5501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the document type. This should be placed at the top\n of every HTML page.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docType\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n     \"http://www.w3.org/TR/html4/loose.dtd\"\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.Transitional",
           "name": "docType",
           "package": "blaze-html",
@@ -5456,6 +5511,7 @@
         "index": {
           "description": "Combinator for the document type This should be placed at the top of every HTML page Example docType Result DOCTYPE HTML PUBLIC W3C DTD HTML Transitional EN http www.w3.org TR html4 loose.dtd",
           "hierarchy": "Text Blaze Html4 Transitional",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.Transitional",
           "name": "docType",
           "package": "blaze-html",
@@ -5470,6 +5526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the \u003ccode\u003e\u003chtml\u003e\u003c/code\u003e element. This combinator will also\n insert the correct doctype.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docTypeHtml $ span $ toHtml \"foo\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n     \"http://www.w3.org/TR/html4/loose.dtd\"\u003e\n \u003chtml\u003e\u003cspan\u003efoo\u003c/span\u003e\u003c/html\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html4.Transitional",
           "name": "docTypeHtml",
           "package": "blaze-html",
@@ -5479,6 +5536,7 @@
         "index": {
           "description": "Combinator for the html element This combinator will also insert the correct doctype Example docTypeHtml span toHtml foo Result DOCTYPE HTML PUBLIC W3C DTD HTML Transitional EN http www.w3.org TR html4 loose.dtd html span foo span html",
           "hierarchy": "Text Blaze Html4 Transitional",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html4.Transitional",
           "name": "docTypeHtml",
           "normalized": "Html-\u003eHtml",
@@ -5495,6 +5553,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators that provide you with the\n ability to set attributes on HTML elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html5.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -5504,6 +5563,7 @@
         "index": {
           "description": "This module exports combinators that provide you with the ability to set attributes on HTML elements",
           "hierarchy": "Text Blaze Html5 Attributes",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html5.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -7969,6 +8029,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports HTML combinators used to create documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.Html5",
           "name": "Html5",
           "package": "blaze-html",
@@ -7978,6 +8039,7 @@
         "index": {
           "description": "This module exports HTML combinators used to create documents",
           "hierarchy": "Text Blaze Html5",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.Html5",
           "name": "Html5",
           "package": "blaze-html",
@@ -8803,6 +8865,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators that provide you with the\n ability to set attributes on HTML elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.FrameSet.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -8812,6 +8875,7 @@
         "index": {
           "description": "This module exports combinators that provide you with the ability to set attributes on HTML elements",
           "hierarchy": "Text Blaze XHtml1 FrameSet Attributes",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.FrameSet.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -8826,6 +8890,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports HTML combinators used to create documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.FrameSet",
           "name": "FrameSet",
           "package": "blaze-html",
@@ -8835,6 +8900,7 @@
         "index": {
           "description": "This module exports HTML combinators used to create documents",
           "hierarchy": "Text Blaze XHtml1 FrameSet",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.FrameSet",
           "name": "FrameSet",
           "package": "blaze-html",
@@ -8849,6 +8915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the document type. This should be placed at the top\n of every HTML page.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docType\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 FrameSet//EN\"\n     \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd\"\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.FrameSet",
           "name": "docType",
           "package": "blaze-html",
@@ -8858,6 +8925,7 @@
         "index": {
           "description": "Combinator for the document type This should be placed at the top of every HTML page Example docType Result DOCTYPE html PUBLIC W3C DTD XHTML FrameSet EN http www.w3.org TR xhtml1 DTD xhtml1-frameset.dtd",
           "hierarchy": "Text Blaze XHtml1 FrameSet",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.FrameSet",
           "name": "docType",
           "package": "blaze-html",
@@ -8872,6 +8940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the \u003ccode\u003e\u003chtml\u003e\u003c/code\u003e element. This combinator will also\n insert the correct doctype.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docTypeHtml $ span $ toHtml \"foo\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 FrameSet//EN\"\n     \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd\"\u003e\n \u003chtml\u003e\u003cspan\u003efoo\u003c/span\u003e\u003c/html\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.FrameSet",
           "name": "docTypeHtml",
           "package": "blaze-html",
@@ -8881,6 +8950,7 @@
         "index": {
           "description": "Combinator for the html element This combinator will also insert the correct doctype Example docTypeHtml span toHtml foo Result DOCTYPE html PUBLIC W3C DTD XHTML FrameSet EN http www.w3.org TR xhtml1 DTD xhtml1-frameset.dtd html span foo span html",
           "hierarchy": "Text Blaze XHtml1 FrameSet",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.FrameSet",
           "name": "docTypeHtml",
           "normalized": "Html-\u003eHtml",
@@ -8897,6 +8967,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators that provide you with the\n ability to set attributes on HTML elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.Strict.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -8906,6 +8977,7 @@
         "index": {
           "description": "This module exports combinators that provide you with the ability to set attributes on HTML elements",
           "hierarchy": "Text Blaze XHtml1 Strict Attributes",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.Strict.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -8920,6 +8992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports HTML combinators used to create documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.Strict",
           "name": "Strict",
           "package": "blaze-html",
@@ -8929,6 +9002,7 @@
         "index": {
           "description": "This module exports HTML combinators used to create documents",
           "hierarchy": "Text Blaze XHtml1 Strict",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.Strict",
           "name": "Strict",
           "package": "blaze-html",
@@ -8943,6 +9017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the document type. This should be placed at the top\n of every HTML page.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docType\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n     \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.Strict",
           "name": "docType",
           "package": "blaze-html",
@@ -8952,6 +9027,7 @@
         "index": {
           "description": "Combinator for the document type This should be placed at the top of every HTML page Example docType Result DOCTYPE html PUBLIC W3C DTD XHTML Strict EN http www.w3.org TR xhtml1 DTD xhtml1-strict.dtd",
           "hierarchy": "Text Blaze XHtml1 Strict",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.Strict",
           "name": "docType",
           "package": "blaze-html",
@@ -8966,6 +9042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the \u003ccode\u003e\u003chtml\u003e\u003c/code\u003e element. This combinator will also\n insert the correct doctype.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docTypeHtml $ span $ toHtml \"foo\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n     \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"\u003e\n \u003chtml\u003e\u003cspan\u003efoo\u003c/span\u003e\u003c/html\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.Strict",
           "name": "docTypeHtml",
           "package": "blaze-html",
@@ -8975,6 +9052,7 @@
         "index": {
           "description": "Combinator for the html element This combinator will also insert the correct doctype Example docTypeHtml span toHtml foo Result DOCTYPE html PUBLIC W3C DTD XHTML Strict EN http www.w3.org TR xhtml1 DTD xhtml1-strict.dtd html span foo span html",
           "hierarchy": "Text Blaze XHtml1 Strict",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.Strict",
           "name": "docTypeHtml",
           "normalized": "Html-\u003eHtml",
@@ -8991,6 +9069,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators that provide you with the\n ability to set attributes on HTML elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.Transitional.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -9000,6 +9079,7 @@
         "index": {
           "description": "This module exports combinators that provide you with the ability to set attributes on HTML elements",
           "hierarchy": "Text Blaze XHtml1 Transitional Attributes",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.Transitional.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -9014,6 +9094,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports HTML combinators used to create documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.Transitional",
           "name": "Transitional",
           "package": "blaze-html",
@@ -9023,6 +9104,7 @@
         "index": {
           "description": "This module exports HTML combinators used to create documents",
           "hierarchy": "Text Blaze XHtml1 Transitional",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.Transitional",
           "name": "Transitional",
           "package": "blaze-html",
@@ -9037,6 +9119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the document type. This should be placed at the top\n of every HTML page.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docType\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n     \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.Transitional",
           "name": "docType",
           "package": "blaze-html",
@@ -9046,6 +9129,7 @@
         "index": {
           "description": "Combinator for the document type This should be placed at the top of every HTML page Example docType Result DOCTYPE html PUBLIC W3C DTD XHTML Transitional EN http www.w3.org TR xhtml1 DTD xhtml1-transitional.dtd",
           "hierarchy": "Text Blaze XHtml1 Transitional",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.Transitional",
           "name": "docType",
           "package": "blaze-html",
@@ -9060,6 +9144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for the \u003ccode\u003e\u003chtml\u003e\u003c/code\u003e element. This combinator will also\n insert the correct doctype.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e docTypeHtml $ span $ toHtml \"foo\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003c!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n     \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"\u003e\n \u003chtml\u003e\u003cspan\u003efoo\u003c/span\u003e\u003c/html\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml1.Transitional",
           "name": "docTypeHtml",
           "package": "blaze-html",
@@ -9069,6 +9154,7 @@
         "index": {
           "description": "Combinator for the html element This combinator will also insert the correct doctype Example docTypeHtml span toHtml foo Result DOCTYPE html PUBLIC W3C DTD XHTML Transitional EN http www.w3.org TR xhtml1 DTD xhtml1-transitional.dtd html span foo span html",
           "hierarchy": "Text Blaze XHtml1 Transitional",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml1.Transitional",
           "name": "docTypeHtml",
           "normalized": "Html-\u003eHtml",
@@ -9085,6 +9171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators that provide you with the\n ability to set attributes on HTML elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml5.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -9094,6 +9181,7 @@
         "index": {
           "description": "This module exports combinators that provide you with the ability to set attributes on HTML elements",
           "hierarchy": "Text Blaze XHtml5 Attributes",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml5.Attributes",
           "name": "Attributes",
           "package": "blaze-html",
@@ -9108,6 +9196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports HTML combinators used to create documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:59 UTC 2014",
           "module": "Text.Blaze.XHtml5",
           "name": "XHtml5",
           "package": "blaze-html",
@@ -9117,6 +9206,7 @@
         "index": {
           "description": "This module exports HTML combinators used to create documents",
           "hierarchy": "Text Blaze XHtml5",
+          "indexed": "2014-03-11T17:23:59",
           "module": "Text.Blaze.XHtml5",
           "name": "XHtml5",
           "package": "blaze-html",

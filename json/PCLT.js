@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PCLT"
+        "phrase": "PCLT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module unifies some parts of \u003ccode\u003ebytestring\u003c/code\u003e (as is in \u003ccode\u003e0.9.1.5\u003c/code\u003e\n version) and \u003ccode\u003eutf8-string\u003c/code\u003e (as is in \u003ccode\u003e0.3.6\u003c/code\u003e version) packages - it\n exports \u003ca\u003eData.ByteString.Lazy.Char8\u003c/a\u003e, \u003ca\u003eData.ByteString.Lazy.UTF8\u003c/a\u003e and\n \u003ca\u003eSystem.IO.UTF8\u003c/a\u003e, while hiding from the first everything that is\n to be found in latter two. Ofcourse \u003ca\u003eSystem.IO.UTF8\u003c/a\u003e routines\n are wrapped to work with lazy \u003ccode\u003eByteStrings\u003c/code\u003e instead of \u003ccode\u003eStrings\u003c/code\u003e.\n This way we get a module an \u003ca\u003eData.ByteString.Lazy.Char8\u003c/a\u003e alternative\n that won't corrupt Unicode symbols, an that will make\n a proper IO with them.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported qualified, to avoid name\n clashes with Prelude functions. eg.\n\u003c/p\u003e\u003cpre\u003eimport qualified Data.ByteString.Lazy.UTF8.Unified as B\u003c/pre\u003e\u003cp\u003eor even\n\u003c/p\u003e\u003cpre\u003e import qualified Data.ByteString.Lazy.UTF8.Unified as Lazy     (ByteString)\n import qualified Data.ByteString.Lazy.UTF8.Unified as B hiding (ByteString)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Data.ByteString.Lazy.UTF8.Unified",
           "name": "Unified",
           "package": "PCLT",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module unifies some parts of bytestring as is in version and utf8-string as is in version packages it exports Data.ByteString.Lazy.Char8 Data.ByteString.Lazy.UTF8 and System.IO.UTF8 while hiding from the first everything that is to be found in latter two Ofcourse System.IO.UTF8 routines are wrapped to work with lazy ByteStrings instead of Strings This way we get module an Data.ByteString.Lazy.Char8 alternative that won corrupt Unicode symbols an that will make proper IO with them This module is intended to be imported qualified to avoid name clashes with Prelude functions eg import qualified Data.ByteString.Lazy.UTF8.Unified as or even import qualified Data.ByteString.Lazy.UTF8.Unified as Lazy ByteString import qualified Data.ByteString.Lazy.UTF8.Unified as hiding ByteString",
           "hierarchy": "Data ByteString Lazy UTF8 Unified",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Data.ByteString.Lazy.UTF8.Unified",
           "name": "Unified",
           "package": "PCLT",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe analogue to ordinary lazy \u003ccode\u003eByteString\u003c/code\u003e, but with a constraint on size,\n and some routines, thet respects the constraint.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "ConstraintedLBS",
           "package": "PCLT",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The analogue to ordinary lazy ByteString but with constraint on size and some routines thet respects the constraint",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "ConstraintedLBS",
           "package": "PCLT",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe analogue to ordinary lazy \u003ccode\u003eByteString\u003c/code\u003e, but with a constraint on size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "CLBS",
           "package": "PCLT",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The analogue to ordinary lazy ByteString but with constraint on size",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "CLBS",
           "package": "PCLT",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "StdErr_CLBS",
           "package": "PCLT",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "StdErr_CLBS",
           "package": "PCLT",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "StdOutAndErr_CLBS",
           "package": "PCLT",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "StdOutAndErr_CLBS",
           "package": "PCLT",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "StdOut_CLBS",
           "package": "PCLT",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "StdOut_CLBS",
           "package": "PCLT",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "CLBS",
           "package": "PCLT",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "CLBS",
           "package": "PCLT",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend first lazy \u003ccode\u003eByteString\u003c/code\u003e (given in tuple with\n it's (trusted) length) to a \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e. If the result of appending\n violates clbsMaxLen constraint, then the content gets truncated,\n tailed with \"...\" and CLBS is finalized (nothing more can be added to it)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "addToCLBS_1",
           "package": "PCLT",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Append first lazy ByteString given in tuple with it trusted length to CLBS If the result of appending violates clbsMaxLen constraint then the content gets truncated tailed with and CLBS is finalized nothing more can be added to it",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "addToCLBS_1",
           "normalized": "(ByteString,Int)-\u003eCLBS-\u003eCLBS",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend first to second. If the result of appending\n violates clbsMaxLen constraint, then the content gets truncated,\n tailed with \"...\" and CLBS is finalized (nothing more can be added to it)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "addToCLBS_2",
           "package": "PCLT",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Append first to second If the result of appending violates clbsMaxLen constraint then the content gets truncated tailed with and CLBS is finalized nothing more can be added to it",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "addToCLBS_2",
           "normalized": "CLBS-\u003eCLBS-\u003eCLBS",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e contain specified \u003ccode\u003eByteString\u003c/code\u003e, keeping the length constraint.\n If the specified bytestring violates clbsMaxLen constraint, then\n the content gets truncated, tailed with \"...\"\n and CLBS is finalized (nothing more can be added to it)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "adjustCLBS_to",
           "package": "PCLT",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Make CLBS contain specified ByteString keeping the length constraint If the specified bytestring violates clbsMaxLen constraint then the content gets truncated tailed with and CLBS is finalized nothing more can be added to it",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "adjustCLBS_to",
           "normalized": "CLBS-\u003eByteString-\u003eCLBS",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBytestring is finalized, when something is appended to it,\n that makes \u003ccode\u003eclbsMaxLen\u003c/code\u003e to be reached. The last 3 bytes\n of a finalized bytestring are always made \"...\"\n (by routines of this module, that manage finalization).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "clbsFinalized_isit",
           "package": "PCLT",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Bytestring is finalized when something is appended to it that makes clbsMaxLen to be reached The last bytes of finalized bytestring are always made by routines of this module that manage finalization",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "clbsFinalized_isit",
           "package": "PCLT",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "clbsFreeSpaceLeft",
           "package": "PCLT",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "clbsFreeSpaceLeft",
           "normalized": "CLBS-\u003eInt",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "clbsLBS",
           "package": "PCLT",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "clbsLBS",
           "package": "PCLT",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "clbsLen",
           "package": "PCLT",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "clbsLen",
           "package": "PCLT",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "clbsMaxLen",
           "package": "PCLT",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "clbsMaxLen",
           "package": "PCLT",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend to first lazy bytestring the second one. The available space\n for append is constrainted by the 3rd argument. Every bytestring must\n be specified in tuple together with it's length (this is done to\n speed up by reducing repeating \u003ccode\u003elength\u003c/code\u003e calls), which is trusted.\n If length of added string is bigger then available for append,\n the result will be truncated and will have a \"...\" tail.\n\u003c/p\u003e\u003cp\u003eFunction returns resulting ByteString, it's length and boolean indicating\n if length of added string was bigger than available for append space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "concatTruncedLiteraryLBS",
           "package": "PCLT",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Append to first lazy bytestring the second one The available space for append is constrainted by the rd argument Every bytestring must be specified in tuple together with it length this is done to speed up by reducing repeating length calls which is trusted If length of added string is bigger then available for append the result will be truncated and will have tail Function returns resulting ByteString it length and boolean indicating if length of added string was bigger than available for append space",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "concatTruncedLiteraryLBS",
           "normalized": "(ByteString,Int)-\u003e(ByteString,Int)-\u003eInt-\u003e(ByteString,Int,Bool)",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce an empty \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e, that would have the maximum of length equal\n to free space left available in specified \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "freeSpaceCLBS",
           "package": "PCLT",
@@ -401,6 +434,7 @@
         "index": {
           "description": "Produce an empty CLBS that would have the maximum of length equal to free space left available in specified CLBS",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "freeSpaceCLBS",
           "normalized": "CLBS-\u003eCLBS",
@@ -417,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003einsertInsteadOf_inCLBS (old_separator, new_separator) clbs\u003c/code\u003e,\n function replaces every occurence of \u003ccode\u003eold_separator\u003c/code\u003e on \u003ccode\u003enew_separator\u003c/code\u003e\n respecting length constraint (and possibly finalizing \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "insertInsteadOf_inCLBS",
           "package": "PCLT",
@@ -427,6 +462,7 @@
         "index": {
           "description": "Given insertInsteadOf inCLBS old separator new separator clbs function replaces every occurence of old separator on new separator respecting length constraint and possibly finalizing CLBS",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "insertInsteadOf_inCLBS",
           "normalized": "(ByteString,ByteString)-\u003eCLBS-\u003eCLBS",
@@ -443,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e with a specified maximum on length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "newCLBS",
           "package": "PCLT",
@@ -453,6 +490,7 @@
         "index": {
           "description": "Make CLBS with specified maximum on length",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "newCLBS",
           "normalized": "Int-\u003eCLBS",
@@ -469,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpify, and if finalized, make not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.ConstraintedLBS",
           "name": "resetCLBS",
           "package": "PCLT",
@@ -479,6 +518,7 @@
         "index": {
           "description": "Empify and if finalized make not",
           "hierarchy": "Text ConstraintedLBS",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.ConstraintedLBS",
           "name": "resetCLBS",
           "normalized": "CLBS-\u003eCLBS",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "Catalog",
           "package": "PCLT",
@@ -502,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "Catalog",
           "package": "PCLT",
@@ -515,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "AddedUnit_SDL",
           "package": "PCLT",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "AddedUnit_SDL",
           "package": "PCLT",
@@ -536,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "CompositionCycle_PCLTE",
           "package": "PCLT",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "CompositionCycle_PCLTE",
           "package": "PCLT",
@@ -557,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_PCLTE",
           "package": "PCLT",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_PCLTE",
           "package": "PCLT",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "DifferentSDLs_PCLTE",
           "package": "PCLT",
@@ -586,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "DifferentSDLs_PCLTE",
           "package": "PCLT",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "ErrorWithPCSCatalog",
           "package": "PCLT",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "ErrorWithPCSCatalog",
           "package": "PCLT",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "MainUnit_SDL",
           "package": "PCLT",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "MainUnit_SDL",
           "package": "PCLT",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "PCLT_Catalog",
           "package": "PCLT",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "PCLT_Catalog",
           "package": "PCLT",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "PCLT_CatalogID",
           "package": "PCLT",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "PCLT_CatalogID",
           "package": "PCLT",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "RequiredByRequirerCompositeIsMissing_PCLTE",
           "package": "PCLT",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "RequiredByRequirerCompositeIsMissing_PCLTE",
           "package": "PCLT",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "RequiredCompositeIsMissing_PCLTE",
           "package": "PCLT",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "RequiredCompositeIsMissing_PCLTE",
           "package": "PCLT",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "TplDefaultLngIsMissing_PCLTE",
           "package": "PCLT",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "TplDefaultLngIsMissing_PCLTE",
           "package": "PCLT",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "TplUniquenessViol_PCLTE",
           "package": "PCLT",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "TplUniquenessViol_PCLTE",
           "package": "PCLT",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "CompositionCycle_PCLTE",
           "package": "PCLT",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "CompositionCycle_PCLTE",
           "normalized": "CompositionCycle_PCLTE PCLT_CompositeKey[PCLT_CompositeKey]",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_PCLTE",
           "package": "PCLT",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_PCLTE",
           "package": "PCLT",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "DifferentSDLs_PCLTE",
           "package": "PCLT",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "DifferentSDLs_PCLTE",
           "normalized": "DifferentSDLs_PCLTE PCLT_ID(MainUnit_SDL,AddedUnit_SDL)",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "ErrorWithPCSCatalog",
           "package": "PCLT",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "ErrorWithPCSCatalog",
           "package": "PCLT",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "PCLT_Catalog",
           "package": "PCLT",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "PCLT_Catalog",
           "package": "PCLT",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "RequiredByRequirerCompositeIsMissing_PCLTE",
           "package": "PCLT",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "RequiredByRequirerCompositeIsMissing_PCLTE",
           "package": "PCLT",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "RequiredCompositeIsMissing_PCLTE",
           "package": "PCLT",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "RequiredCompositeIsMissing_PCLTE",
           "package": "PCLT",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "TplDefaultLngIsMissing_PCLTE",
           "package": "PCLT",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "TplDefaultLngIsMissing_PCLTE",
           "package": "PCLT",
@@ -947,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "TplUniquenessViol_PCLTE",
           "package": "PCLT",
@@ -956,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "TplUniquenessViol_PCLTE",
           "normalized": "TplUniquenessViol_PCLTE PCLT_ID[LanguageName]",
@@ -971,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "catDfltLng",
           "package": "PCLT",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "catDfltLng",
           "normalized": "PCLT_Catalog-\u003eLanguageName",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "catInstMaxLen",
           "package": "PCLT",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "catInstMaxLen",
           "normalized": "PCLT_Catalog-\u003eInt",
@@ -1019,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "catSize",
           "package": "PCLT",
@@ -1028,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "catSize",
           "normalized": "PCLT_Catalog-\u003eInt",
@@ -1043,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "catStrictOrient",
           "package": "PCLT",
@@ -1052,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "catStrictOrient",
           "normalized": "PCLT_Catalog-\u003eStrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets",
@@ -1067,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "pcltcCatalogID",
           "package": "PCLT",
@@ -1076,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "pcltcCatalogID",
           "package": "PCLT",
@@ -1089,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "pcltcCatalogMap",
           "package": "PCLT",
@@ -1098,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "pcltcCatalogMap",
           "package": "PCLT",
@@ -1112,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is highly recommended not to change this param\n values after catalog is formed, since it's easy to\n spoil catalog content that way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Catalog",
           "name": "pcltcInnerConfig",
           "package": "PCLT",
@@ -1122,6 +1219,7 @@
         "index": {
           "description": "It is highly recommended not to change this param values after catalog is formed since it easy to spoil catalog content that way",
           "hierarchy": "Text PCLT Catalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Catalog",
           "name": "pcltcInnerConfig",
           "package": "PCLT",
@@ -1136,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools to use \u003ccode\u003e\u003ca\u003eHasStaticRawPCLTs\u003c/a\u003e\u003c/code\u003e class instances in order to build up\n a catalog. (\"FromHSRT\" in module name means \u003ca\u003efrom a given instance of\n HasStaticRawPCLTs class\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "CatalogFromHSRT",
           "package": "PCLT",
@@ -1145,6 +1244,7 @@
         "index": {
           "description": "Tools to use HasStaticRawPCLTs class instances in order to build up catalog FromHSRT in module name means from given instance of HasStaticRawPCLTs class",
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "CatalogFromHSRT",
           "package": "PCLT",
@@ -1158,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "CatalogFromHSRTInitErrors",
           "package": "PCLT",
@@ -1166,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "CatalogFromHSRTInitErrors",
           "package": "PCLT",
@@ -1179,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "CatalogFromHSRTInitErrors",
           "package": "PCLT",
@@ -1188,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "CatalogFromHSRTInitErrors",
           "package": "PCLT",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "addFromHSRTToCatalog",
           "package": "PCLT",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "addFromHSRTToCatalog",
           "normalized": "a-\u003ePCLT_Catalog-\u003e(PCLT_Catalog,CatalogFromHSRTInitErrors)",
@@ -1226,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around \u003ccode\u003e\u003ca\u003eaddFromHSRTToCatalog\u003c/a\u003e\u003c/code\u003e function.\n For case, when all errors are to be represented at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "addFromHSRTToCatalog_2",
           "package": "PCLT",
@@ -1236,6 +1343,7 @@
         "index": {
           "description": "wrapper around addFromHSRTToCatalog function For case when all errors are to be represented at once",
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "addFromHSRTToCatalog_2",
           "normalized": "a-\u003ePCLT_Catalog-\u003e(StdErr_CLBS,ShowDetalizationLevel,LanguageName)-\u003e(PCLT_Catalog,StdErr_CLBS)",
@@ -1251,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "cfhieCatReadErrs",
           "package": "PCLT",
@@ -1260,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "cfhieCatReadErrs",
           "normalized": "[ErrorWithPCSCatalog ReadPCSCatalogError]",
@@ -1275,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "cfhieCatalogID",
           "package": "PCLT",
@@ -1284,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "cfhieCatalogID",
           "package": "PCLT",
@@ -1297,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "cfhieCollectionErrs",
           "package": "PCLT",
@@ -1306,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "cfhieCollectionErrs",
           "normalized": "[AddPCLT_toPCLT_Error]",
@@ -1321,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "defaultCatalogFromHSRTInitErrors",
           "package": "PCLT",
@@ -1330,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "defaultCatalogFromHSRTInitErrors",
           "normalized": "PCLT_CatalogID-\u003eCatalogFromHSRTInitErrors",
@@ -1345,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "initCatalogFromHSRT",
           "package": "PCLT",
@@ -1354,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "initCatalogFromHSRT",
           "normalized": "a-\u003ePCLT_InnerConfig-\u003ePCLT_CatalogID-\u003e(PCLT_Catalog,CatalogFromHSRTInitErrors)",
@@ -1370,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around \u003ccode\u003e\u003ca\u003einitCatalogFromHSRT\u003c/a\u003e\u003c/code\u003e function.\n For case, when all errors are to be represented at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "initCatalogFromHSRT_2",
           "package": "PCLT",
@@ -1380,6 +1499,7 @@
         "index": {
           "description": "wrapper around initCatalogFromHSRT function For case when all errors are to be represented at once",
           "hierarchy": "Text PCLT CatalogFromHSRT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogFromHSRT",
           "name": "initCatalogFromHSRT_2",
           "normalized": "a-\u003ePCLT_InnerConfig-\u003ePCLT_CatalogID-\u003e(StdErr_CLBS,ShowDetalizationLevel,LanguageName)-\u003e(PCLT_Catalog,StdErr_CLBS)",
@@ -1396,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions from this module isn't used for catalog formation.\n It's not very wise to have two similar codes of catalog maths here and\n in module \u003ca\u003eText.PCLT.MakeCatalog\u003c/a\u003e, since it raises double maintenence\n problem. Perhaps the problem will be solved in future versions.\n\u003c/p\u003e\u003cp\u003eThe math's errors, however, seems to be of use in other modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "CatalogMaths",
           "package": "PCLT",
@@ -1405,6 +1526,7 @@
         "index": {
           "description": "Functions from this module isn used for catalog formation It not very wise to have two similar codes of catalog maths here and in module Text.PCLT.MakeCatalog since it raises double maintenence problem Perhaps the problem will be solved in future versions The math errors however seems to be of use in other modules",
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "CatalogMaths",
           "package": "PCLT",
@@ -1419,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type for \u003ccode\u003e\u003ca\u003eaddLngTpl_toPCLT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "AddLngTpl_toPCLT_Error",
           "package": "PCLT",
@@ -1428,6 +1551,7 @@
         "index": {
           "description": "Error type for addLngTpl toPCLT",
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "AddLngTpl_toPCLT_Error",
           "package": "PCLT",
@@ -1442,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type for \u003ccode\u003e\u003ca\u003eaddPCLT_toPCLT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "AddPCLT_toPCLT_Error",
           "package": "PCLT",
@@ -1451,6 +1576,7 @@
         "index": {
           "description": "Error type for addPCLT toPCLT",
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "AddPCLT_toPCLT_Error",
           "package": "PCLT",
@@ -1464,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "AddLngTpl_toPCLT_Error_APTTPTE",
           "package": "PCLT",
@@ -1473,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "AddLngTpl_toPCLT_Error_APTTPTE",
           "package": "PCLT",
@@ -1486,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_APSTPTE",
           "package": "PCLT",
@@ -1495,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_APSTPTE",
           "package": "PCLT",
@@ -1508,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "DifferentSDLs_APTTPTE",
           "package": "PCLT",
@@ -1517,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "DifferentSDLs_APTTPTE",
           "package": "PCLT",
@@ -1530,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "TplUniquenessViol_APSTPTE",
           "package": "PCLT",
@@ -1539,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "TplUniquenessViol_APSTPTE",
           "package": "PCLT",
@@ -1553,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds localized template as a special case of localizable template.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "addLngTpl_toPCLT",
           "package": "PCLT",
@@ -1563,6 +1698,7 @@
         "index": {
           "description": "Adds localized template as special case of localizable template",
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "addLngTpl_toPCLT",
           "normalized": "PCLT_ID-\u003e(LanguageName,LocalizedTemplate)-\u003eLocalizableTemplate-\u003ePCLT_InnerConfig-\u003e(LocalizableTemplate,[AddLngTpl_toPCLT_Error])",
@@ -1579,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds up localizable templates, their localized cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CatalogMaths",
           "name": "addPCLT_toPCLT",
           "package": "PCLT",
@@ -1589,6 +1726,7 @@
         "index": {
           "description": "Adds up localizable templates their localized cases",
           "hierarchy": "Text PCLT CatalogMaths",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CatalogMaths",
           "name": "addPCLT_toPCLT",
           "normalized": "PCLT_ID-\u003eLocalizableTemplate-\u003eLocalizableTemplate-\u003ePCLT_InnerConfig-\u003e(LocalizableTemplate,[AddPCLT_toPCLT_Error])",
@@ -1604,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "CommonTypes",
           "package": "PCLT",
@@ -1612,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "CommonTypes",
           "package": "PCLT",
@@ -1626,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is highly recommended to use \u003cem\u003eISO 639-3\u003c/em\u003e here - I mean\n it was originally intended to do so, and now a related package PCLT-DB\n works only with 3-letters (not bigger) languages names -\n there is a constraint in DB for that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "LanguageName",
           "package": "PCLT",
@@ -1635,6 +1776,7 @@
         "index": {
           "description": "It is highly recommended to use ISO here mean it was originally intended to do so and now related package PCLT-DB works only with letters not bigger languages names there is constraint in DB for that",
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "LanguageName",
           "package": "PCLT",
@@ -1649,6 +1791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHere and in many places of package by\n \"composite\" is meant \"template which is included in\n composed template\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_CompositeKey",
           "package": "PCLT",
@@ -1658,6 +1801,7 @@
         "index": {
           "description": "Here and in many places of package by composite is meant template which is included in composed template",
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_CompositeKey",
           "package": "PCLT",
@@ -1671,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_ID",
           "package": "PCLT",
@@ -1679,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_ID",
           "package": "PCLT",
@@ -1693,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocalizable template ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_ParamKey",
           "package": "PCLT",
@@ -1702,6 +1849,7 @@
         "index": {
           "description": "Localizable template ID",
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_ParamKey",
           "package": "PCLT",
@@ -1715,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_SubCompositeKey",
           "package": "PCLT",
@@ -1723,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_SubCompositeKey",
           "package": "PCLT",
@@ -1736,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_SuperCompositeKey",
           "package": "PCLT",
@@ -1744,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "PCLT_SuperCompositeKey",
           "package": "PCLT",
@@ -1757,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "ParamName_LBS",
           "package": "PCLT",
@@ -1765,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "ParamName_LBS",
           "package": "PCLT",
@@ -1778,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "RequiredCompositeKey",
           "package": "PCLT",
@@ -1786,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "RequiredCompositeKey",
           "package": "PCLT",
@@ -1799,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.CommonTypes",
           "name": "RequirerCompositeKey",
           "package": "PCLT",
@@ -1807,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT CommonTypes",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.CommonTypes",
           "name": "RequirerCompositeKey",
           "package": "PCLT",
@@ -1820,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "Config",
           "package": "PCLT",
@@ -1828,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "Config",
           "package": "PCLT",
@@ -1841,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "PCLT_InnerConfig",
           "package": "PCLT",
@@ -1849,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "PCLT_InnerConfig",
           "package": "PCLT",
@@ -1862,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "PCLT_InnerConfigID",
           "package": "PCLT",
@@ -1870,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "PCLT_InnerConfigID",
           "package": "PCLT",
@@ -1884,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOT USED, RESERVED FOR FUTURE VERSIONS OF PCLT!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "ReparsingDepth",
           "package": "PCLT",
@@ -1893,6 +2058,7 @@
         "index": {
           "description": "NOT USED RESERVED FOR FUTURE VERSIONS OF PCLT",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "ReparsingDepth",
           "package": "PCLT",
@@ -1906,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "StrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets",
           "package": "PCLT",
@@ -1914,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "StrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets",
           "package": "PCLT",
@@ -1927,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "PCLT_InnerConfig",
           "package": "PCLT",
@@ -1936,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "PCLT_InnerConfig",
           "package": "PCLT",
@@ -1949,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "StrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets",
           "package": "PCLT",
@@ -1958,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "StrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets",
           "package": "PCLT",
@@ -1972,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e  PCLT_InnerConfig {\n            pcsInnerConfigID = 0\n          , pcsCompositePlaceholderWrapper = B.pack \"##|\"\n          , pcsParameterPlaceholderWrapper = B.pack \"@@|\"\n          , pcsInsuficientDetLevelPlaceholder = B.pack \"#x#\"\n          , pcsMarkingErrorPlaceholderWrapper = B.pack \"/!E!\\\"\n          , pcsDefaultLanguage                = \"eng\"\n          , pcsStrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets =\n                    StrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets {\n                              soStrict_IsIt = True\n                            , soExcludingInComposites   = []\n                            , soExcludingComposites     = []\n                            , soExcludingParameters     = []\n                            , soExcludingCompComposites = []\n                            , soExcludingCompParameters = []\n                    }\n          , pcsAllowUntemplatedMessages                = True\n          , pcsAllowUntemplatedLocalizationsOfMessages = True\n          , pcsShowAdhocParamsInResultOfUntemplated    = True\n          , pcsInstaniationResultMaxSize               = 10000000\n          , pcsAllowEmptySDL_parseItByModusMargin      = False\n          , pcsAllowUnreadableSDL_parseIdByModusMargin = False\n          , pcsAllowFailureToDetermineSDL_parseIdByModusMargin = False\n          , pcsNewlineLBS                              = B.pack \"\\n\"\n    }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "defaultPCLTInnerConfig",
           "package": "PCLT",
@@ -1982,6 +2155,7 @@
         "index": {
           "description": "PCLT InnerConfig pcsInnerConfigID pcsCompositePlaceholderWrapper B.pack pcsParameterPlaceholderWrapper B.pack pcsInsuficientDetLevelPlaceholder B.pack pcsMarkingErrorPlaceholderWrapper B.pack pcsDefaultLanguage eng pcsStrictOrient ofParamsAndCmpsts onDfltLngTplsSets StrictOrient ofParamsAndCmpsts onDfltLngTplsSets soStrict IsIt True soExcludingInComposites soExcludingComposites soExcludingParameters soExcludingCompComposites soExcludingCompParameters pcsAllowUntemplatedMessages True pcsAllowUntemplatedLocalizationsOfMessages True pcsShowAdhocParamsInResultOfUntemplated True pcsInstaniationResultMaxSize pcsAllowEmptySDL parseItByModusMargin False pcsAllowUnreadableSDL parseIdByModusMargin False pcsAllowFailureToDetermineSDL parseIdByModusMargin False pcsNewlineLBS B.pack",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "defaultPCLTInnerConfig",
           "package": "PCLT",
@@ -1996,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it allowed to give an empty value to the field\n \"representation detailization level\" (\u003ca\u003eText.PCLT.SDL\u003c/a\u003e)?\n If allowed, then it's value will be chosen automatically\n by the margin\n depending on modus: maximal (\"+inf\") in case, when it's a\n requirement by a template, or minimal (\"zero\"), when it's\n an assigment to a reciever of representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowEmptySDL_parseItByModusMargin",
           "package": "PCLT",
@@ -2006,6 +2181,7 @@
         "index": {
           "description": "Is it allowed to give an empty value to the field representation detailization level Text.PCLT.SDL If allowed then it value will be chosen automatically by the margin depending on modus maximal inf in case when it requirement by template or minimal zero when it an assigment to reciever of representation",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowEmptySDL_parseItByModusMargin",
           "package": "PCLT",
@@ -2020,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003epcsi2text\u003c/code\u003e (\u003ca\u003eText.PCLT.MakeMessage\u003c/a\u003e) function fails to\n determine an SDL requiered by used template (due to\n referential cycle, missing referenced template,\n \u003ccode\u003ePCLT_SDL_Errornous\u003c/code\u003e or other reason) - should this failure\n lead to absolute denial to represent problem template, or\n should the \u003ccode\u003epcsi2text\u003c/code\u003e treat it like \"+inf\"\n (\u003ccode\u003ePCLT_SDL InfinitelyBig_SDL\u003c/code\u003e)? The error will be returned\n anyway, but question is purely about output representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowFailureToDetermineSDL_parseIdByModusMargin",
           "package": "PCLT",
@@ -2030,6 +2207,7 @@
         "index": {
           "description": "If pcsi2text Text.PCLT.MakeMessage function fails to determine an SDL requiered by used template due to referential cycle missing referenced template PCLT SDL Errornous or other reason should this failure lead to absolute denial to represent problem template or should the pcsi2text treat it like inf PCLT SDL InfinitelyBig SDL The error will be returned anyway but question is purely about output representation",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowFailureToDetermineSDL_parseIdByModusMargin",
           "package": "PCLT",
@@ -2044,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it allowed to give an unreadable value to the field\n \"representation detailization level\" (\u003ca\u003eText.PCLT.SDL\u003c/a\u003e)?\n If allowed,\n then it's value will be chosen automatically by the margin\n depending on modus: maximal (\"+inf\") in case, when it's a\n requirement by a template, or minimal (\"zero\"), when it's\n an assigment to a reciever of representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowUnreadableSDL_parseIdByModusMargin",
           "package": "PCLT",
@@ -2054,6 +2233,7 @@
         "index": {
           "description": "Is it allowed to give an unreadable value to the field representation detailization level Text.PCLT.SDL If allowed then it value will be chosen automatically by the margin depending on modus maximal inf in case when it requirement by template or minimal zero when it an assigment to reciever of representation",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowUnreadableSDL_parseIdByModusMargin",
           "package": "PCLT",
@@ -2068,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it allowed to demand representations from catalog, when\n referenced template/composite ID is persistent in catalog,\n but not in representation language?\n In case, if allowed, on place of unknown composite\n the engine (when making representation) will simply put\n it's (unknown) ID (given that recievers detailization level\n statisfies a requirement: it must be maximal (infinitely\n big)), followed by (if enabled by other config parameter)\n all the parameters used by current instaniation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowUntemplatedLocalizationsOfMessages",
           "package": "PCLT",
@@ -2078,6 +2259,7 @@
         "index": {
           "description": "Is it allowed to demand representations from catalog when referenced template composite ID is persistent in catalog but not in representation language In case if allowed on place of unknown composite the engine when making representation will simply put it unknown ID given that recievers detailization level statisfies requirement it must be maximal infinitely big followed by if enabled by other config parameter all the parameters used by current instaniation",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowUntemplatedLocalizationsOfMessages",
           "package": "PCLT",
@@ -2092,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it allowed to demand representations from catalog, when\n referenced template/composite ID isn't known in given\n catalog?\n In case, if allowed, on place of unknown composite\n the engine (when making representation) will simply put\n it's (unknown) ID (given that recievers detailization level\n statisfies a requirement: it must be maximal (infinitely\n big)), followed by (if enabled by other config parameter)\n all the parameters used by current instaniation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowUntemplatedMessages",
           "package": "PCLT",
@@ -2102,6 +2285,7 @@
         "index": {
           "description": "Is it allowed to demand representations from catalog when referenced template composite ID isn known in given catalog In case if allowed on place of unknown composite the engine when making representation will simply put it unknown ID given that recievers detailization level statisfies requirement it must be maximal infinitely big followed by if enabled by other config parameter all the parameters used by current instaniation",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsAllowUntemplatedMessages",
           "package": "PCLT",
@@ -2116,6 +2300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbols sequence denoting wrapping parentheses (identical\n for both - openning ang closing), that are to be put\n around *composite* name in a template text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsCompositePlaceholderWrapper",
           "package": "PCLT",
@@ -2126,6 +2311,7 @@
         "index": {
           "description": "Symbols sequence denoting wrapping parentheses identical for both openning ang closing that are to be put around composite name in template text",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsCompositePlaceholderWrapper",
           "package": "PCLT",
@@ -2140,6 +2326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatalog default (primary) language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsDefaultLanguage",
           "package": "PCLT",
@@ -2150,6 +2337,7 @@
         "index": {
           "description": "Catalog default primary language",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsDefaultLanguage",
           "package": "PCLT",
@@ -2163,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsInnerConfigID",
           "package": "PCLT",
@@ -2172,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsInnerConfigID",
           "package": "PCLT",
@@ -2186,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDEFAULT maximal allowed size of representation resulting from\n instaniation of a single PCSI. If user gives on the input\n his ConstraintedLBS with different constraint on size, then his\n constraint is used instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsInstaniationResultMaxSize",
           "package": "PCLT",
@@ -2196,6 +2387,7 @@
         "index": {
           "description": "DEFAULT maximal allowed size of representation resulting from instaniation of single PCSI If user gives on the input his ConstraintedLBS with different constraint on size then his constraint is used instead",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsInstaniationResultMaxSize",
           "package": "PCLT",
@@ -2210,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor case, when representation reciever uses detalization\n level, that isn't enough to meet requirement specified by\n the template (from which representation was to be made):\n symbols sequence, that PCLT engine must place\n instead of content from template/composite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsInsuficientDetLevelPlaceholder",
           "package": "PCLT",
@@ -2220,6 +2413,7 @@
         "index": {
           "description": "For case when representation reciever uses detalization level that isn enough to meet requirement specified by the template from which representation was to be made symbols sequence that PCLT engine must place instead of content from template composite",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsInsuficientDetLevelPlaceholder",
           "package": "PCLT",
@@ -2234,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbols sequence denoting wrapping parentheses (identical\n for both - openning ang closing), that are to be put\n (by PCLT engine) in representation, where it failed to\n make a proper representation from a template piece\n (composite or parameter).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsMarkingErrorPlaceholderWrapper",
           "package": "PCLT",
@@ -2244,6 +2439,7 @@
         "index": {
           "description": "Symbols sequence denoting wrapping parentheses identical for both openning ang closing that are to be put by PCLT engine in representation where it failed to make proper representation from template piece composite or parameter",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsMarkingErrorPlaceholderWrapper",
           "package": "PCLT",
@@ -2258,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence of symbols used, when representing a specialcase\n of parameter value - \u003ccode\u003eNewline_PV\u003c/code\u003e (\u003ca\u003eText.PCLT.PCSI\u003c/a\u003e).\n (Different OSes use different newline strings: in Linux it's\n #10, in M$ - #13#10, MacOS - #13)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsNewlineLBS",
           "package": "PCLT",
@@ -2268,6 +2465,7 @@
         "index": {
           "description": "Sequence of symbols used when representing specialcase of parameter value Newline PV Text.PCLT.PCSI Different OSes use different newline strings in Linux it in MacOS",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsNewlineLBS",
           "package": "PCLT",
@@ -2282,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbols sequence denoting wrapping parentheses (identical\n for both - openning ang closing), that are to be put\n around *parameter* name in a template text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsParameterPlaceholderWrapper",
           "package": "PCLT",
@@ -2292,6 +2491,7 @@
         "index": {
           "description": "Symbols sequence denoting wrapping parentheses identical for both openning ang closing that are to be put around parameter name in template text",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsParameterPlaceholderWrapper",
           "package": "PCLT",
@@ -2306,6 +2506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOT USED, RESERVED FOR FUTURE VERSIONS OF PCLT!\n Maximal allowed size of representation resuling from\n instaniating a reparsing result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsReparseParameterContentMaxSize",
           "package": "PCLT",
@@ -2316,6 +2517,7 @@
         "index": {
           "description": "NOT USED RESERVED FOR FUTURE VERSIONS OF PCLT Maximal allowed size of representation resuling from instaniating reparsing result",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsReparseParameterContentMaxSize",
           "package": "PCLT",
@@ -2330,6 +2532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOT USED, RESERVED FOR FUTURE VERSIONS OF PCLT!\n Maximal allowed depth of reparsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsReparsingDepthMax",
           "package": "PCLT",
@@ -2340,6 +2543,7 @@
         "index": {
           "description": "NOT USED RESERVED FOR FUTURE VERSIONS OF PCLT Maximal allowed depth of reparsing",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsReparsingDepthMax",
           "package": "PCLT",
@@ -2354,6 +2558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf it's allowed to require representation of\n a template/composite (or it's localisation), that is absent\n in catalog then (given that reciever's detailization level\n statisfies a requirement: it must be maximal (infinitely\n big)) together with it's (unknown composite) ID:\n should there also be put all the parameters (array of\n name:value pairs), used by current instaniation?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsShowAdhocParamsInResultOfUntemplated",
           "package": "PCLT",
@@ -2364,6 +2569,7 @@
         "index": {
           "description": "If it allowed to require representation of template composite or it localisation that is absent in catalog then given that reciever detailization level statisfies requirement it must be maximal infinitely big together with it unknown composite ID should there also be put all the parameters array of name value pairs used by current instaniation",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsShowAdhocParamsInResultOfUntemplated",
           "package": "PCLT",
@@ -2378,6 +2584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Should all localizations of template be strictly oriented\n on localization in default (primary) language? (in case of\n such orientation, NO template localized in a nondefault\n language is allowed to have sets of composites and\n parameters different from ones specified for template\n localization in the default language)\n\u003c/li\u003e\u003cli\u003e Exclusions - when not to be strict with templates\n structures, - if strictness is on;\n or when to be strict, - if strictness is off.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "pcsStrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets",
           "package": "PCLT",
@@ -2388,6 +2595,7 @@
         "index": {
           "description": "Object Should all localizations of template be strictly oriented on localization in default primary language in case of such orientation NO template localized in nondefault language is allowed to have sets of composites and parameters different from ones specified for template localization in the default language Exclusions when not to be strict with templates structures if strictness is on or when to be strict if strictness is off",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "pcsStrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets",
           "package": "PCLT",
@@ -2402,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e if SO is True , don't be strict with      these\n referenced parameters in referenced templates;\n\u003c/li\u003e\u003cli\u003e if SO is False,       be strict with ONLY these\n referenced parameters in referenced templates\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "soExcludingCompComposites",
           "package": "PCLT",
@@ -2412,6 +2621,7 @@
         "index": {
           "description": "if SO is True don be strict with these referenced parameters in referenced templates if SO is False be strict with ONLY these referenced parameters in referenced templates",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "soExcludingCompComposites",
           "normalized": "[(PCLT_ID,PCLT_ID)]",
@@ -2428,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e if SO is True , don't be strict with      these\n referenced composites in referenced templates;\n\u003c/li\u003e\u003cli\u003e if SO is False,       be strict with ONLY these\n referenced composites in referenced templates\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "soExcludingCompParameters",
           "package": "PCLT",
@@ -2438,6 +2649,7 @@
         "index": {
           "description": "if SO is True don be strict with these referenced composites in referenced templates if SO is False be strict with ONLY these referenced composites in referenced templates",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "soExcludingCompParameters",
           "normalized": "[(PCLT_ID,PCLT_ParamKey)]",
@@ -2454,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e if SO is True , don't be strict with occurences of\n      these templates as composites;\n\u003c/li\u003e\u003cli\u003e if SO is False,       be strict with occurences of\n ONLY these templates as composites\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "soExcludingComposites",
           "package": "PCLT",
@@ -2464,6 +2677,7 @@
         "index": {
           "description": "if SO is True don be strict with occurences of these templates as composites if SO is False be strict with occurences of ONLY these templates as composites",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "soExcludingComposites",
           "normalized": "[PCLT_ID]",
@@ -2480,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e if SO is True , don't be strict with contents of\n      these templates;\n\u003c/li\u003e\u003cli\u003e if SO is False,       be strict with contents of\n ONLY these templates\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "soExcludingInComposites",
           "package": "PCLT",
@@ -2490,6 +2705,7 @@
         "index": {
           "description": "if SO is True don be strict with contents of these templates if SO is False be strict with contents of ONLY these templates",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "soExcludingInComposites",
           "normalized": "[PCLT_ID]",
@@ -2506,6 +2722,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e if SO is True , don't be strict with\n      these parameters;\n\u003c/li\u003e\u003cli\u003e if SO is False,       be strict with\n ONLY these parameters\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "soExcludingParameters",
           "package": "PCLT",
@@ -2516,6 +2733,7 @@
         "index": {
           "description": "if SO is True don be strict with these parameters if SO is False be strict with ONLY these parameters",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "soExcludingParameters",
           "normalized": "[PCLT_ParamKey]",
@@ -2532,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbbreviation = \"SO\". The exclusions has opposite\n roles for different values of this parameter.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e if SO is True ,       be strict with templates\n (when adding them and to a catalog) in such manner,\n that set of composite and set of parameters MUST be\n the same for ALL language localizations under\n one template ID; if for a template any set (of\n parameters or of composites) is different from one\n determined for template in default language, then this\n template will be discarded (not included in catalog)\n\u003c/li\u003e\u003cli\u003e if SO is False, don't be strict with templates -\n different language versions of one same template are\n allowed to have different sets of composites and\n parameters\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Config",
           "name": "soStrict_IsIt",
           "package": "PCLT",
@@ -2542,6 +2761,7 @@
         "index": {
           "description": "Abbreviation SO The exclusions has opposite roles for different values of this parameter if SO is True be strict with templates when adding them and to catalog in such manner that set of composite and set of parameters MUST be the same for ALL language localizations under one template ID if for template any set of parameters or of composites is different from one determined for template in default language then this template will be discarded not included in catalog if SO is False don be strict with templates different language versions of one same template are allowed to have different sets of composites and parameters",
           "hierarchy": "Text PCLT Config",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Config",
           "name": "soStrict_IsIt",
           "package": "PCLT",
@@ -2556,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA way to store templates is by assigning them to types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "HasStaticRawPCLTs",
           "package": "PCLT",
@@ -2565,6 +2786,7 @@
         "index": {
           "description": "way to store templates is by assigning them to types",
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "HasStaticRawPCLTs",
           "package": "PCLT",
@@ -2578,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "HasStaticRawPCLTs",
           "package": "PCLT",
@@ -2586,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "HasStaticRawPCLTs",
           "package": "PCLT",
@@ -2599,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "RawPCLTsSetWideness",
           "package": "PCLT",
@@ -2607,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "RawPCLTsSetWideness",
           "package": "PCLT",
@@ -2620,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "AlgebraicDataType_RPSW",
           "package": "PCLT",
@@ -2629,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "AlgebraicDataType_RPSW",
           "package": "PCLT",
@@ -2642,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "Module_RPSW",
           "package": "PCLT",
@@ -2651,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "Module_RPSW",
           "package": "PCLT",
@@ -2664,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "Package_RPSW",
           "package": "PCLT",
@@ -2673,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "Package_RPSW",
           "package": "PCLT",
@@ -2686,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "System_RPSW",
           "package": "PCLT",
@@ -2695,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "System_RPSW",
           "package": "PCLT",
@@ -2708,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "getStaticRawPCLTs",
           "package": "PCLT",
@@ -2717,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "getStaticRawPCLTs",
           "normalized": "PCLT_InnerConfig-\u003ea-\u003e(PCLT_RawCatalogData,[AddPCLT_toPCLT_Error])",
@@ -2732,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "mergeRawCatalogDataSets",
           "package": "PCLT",
@@ -2741,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "mergeRawCatalogDataSets",
           "normalized": "Bool-\u003e[PCLT_RawCatalogData]-\u003e(PCLT_RawCatalogData,[AddPCLT_toPCLT_Error])",
@@ -2756,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "mergeRawCatalogDataSets2",
           "package": "PCLT",
@@ -2765,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "mergeRawCatalogDataSets2",
           "normalized": "Bool-\u003e[(PCLT_RawCatalogData,[AddPCLT_toPCLT_Error])]-\u003e(PCLT_RawCatalogData,[AddPCLT_toPCLT_Error])",
@@ -2780,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "widenessOfStaticRawPCLTsSet",
           "package": "PCLT",
@@ -2789,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT HasStaticRawPCLTs",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.HasStaticRawPCLTs",
           "name": "widenessOfStaticRawPCLTsSet",
           "normalized": "a-\u003eRawPCLTsSetWideness",
@@ -2804,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "InitialDefaultCatalog",
           "package": "PCLT",
@@ -2812,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT InitialDefaultCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "InitialDefaultCatalog",
           "package": "PCLT",
@@ -2826,6 +3070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is a special instance of \u003ccode\u003e\u003ca\u003eHasStaticRawPCLTs\u003c/a\u003e\u003c/code\u003e - it accumulates\n all other instances of \u003ccode\u003e\u003ca\u003eHasStaticRawPCLTs\u003c/a\u003e\u003c/code\u003e from the whole PCLT package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "PCLTRawCatalog__Text_PCLT_InitialDefaultCatalog",
           "package": "PCLT",
@@ -2835,6 +3080,7 @@
         "index": {
           "description": "This type is special instance of HasStaticRawPCLTs it accumulates all other instances of HasStaticRawPCLTs from the whole PCLT package",
           "hierarchy": "Text PCLT InitialDefaultCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "PCLTRawCatalog__Text_PCLT_InitialDefaultCatalog",
           "package": "PCLT",
@@ -2848,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "PCLTRawCatalog__Text_PCLT_InitialDefaultCatalog",
           "package": "PCLT",
@@ -2857,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT InitialDefaultCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "PCLTRawCatalog__Text_PCLT_InitialDefaultCatalog",
           "package": "PCLT",
@@ -2870,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "initDefaultCatalog",
           "package": "PCLT",
@@ -2879,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT InitialDefaultCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "initDefaultCatalog",
           "normalized": "PCLT_InnerConfig-\u003ePCLT_CatalogID-\u003e(PCLT_Catalog,CatalogFromHSRTInitErrors)",
@@ -2894,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "initDefaultCatalog_2",
           "package": "PCLT",
@@ -2903,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT InitialDefaultCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "initDefaultCatalog_2",
           "normalized": "PCLT_InnerConfig-\u003ePCLT_CatalogID-\u003e(StdErr_CLBS,ShowDetalizationLevel,LanguageName)-\u003e(PCLT_Catalog,StdErr_CLBS)",
@@ -2918,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "initDefaultCatalog_3",
           "package": "PCLT",
@@ -2927,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT InitialDefaultCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.InitialDefaultCatalog",
           "name": "initDefaultCatalog_3",
           "normalized": "PCLT_CatalogID-\u003e(StdErr_CLBS,ShowDetalizationLevel,LanguageName)-\u003e(PCLT_Catalog,StdErr_CLBS)",
@@ -2943,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module around comlex function \u003ccode\u003e\u003ca\u003e_readPCLTCatalog\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "MakeCatalog",
           "package": "PCLT",
@@ -2952,6 +3207,7 @@
         "index": {
           "description": "module around comlex function readPCLTCatalog",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "MakeCatalog",
           "package": "PCLT",
@@ -2966,6 +3222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type for \u003ccode\u003e\u003ca\u003eadhoc_str2ldt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "AHSTR2LngTpl_Error",
           "package": "PCLT",
@@ -2975,6 +3232,7 @@
         "index": {
           "description": "Error type for adhoc str2ldt",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "AHSTR2LngTpl_Error",
           "package": "PCLT",
@@ -2989,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type for \u003ccode\u003e\u003ca\u003enormalizeReferentialSDLs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "DRL_NormalizationError",
           "package": "PCLT",
@@ -2998,6 +3257,7 @@
         "index": {
           "description": "Error type for normalizeReferentialSDLs",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "DRL_NormalizationError",
           "package": "PCLT",
@@ -3011,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "Parsed_DidWe",
           "package": "PCLT",
@@ -3019,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "Parsed_DidWe",
           "package": "PCLT",
@@ -3033,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type for \u003ccode\u003e\u003ca\u003e_readPCLTCatalog\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDescriptios for some value constructors:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eDefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_RPCSCE\u003c/a\u003e\u003c/code\u003e:\n For more information about this error see\n \u003ccode\u003e\u003ca\u003eStrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eDifferentSDLs_RPCSCE\u003c/a\u003e\u003c/code\u003e:\n This may occur in case when some \u003ccode\u003e\u003ca\u003ePCLT_RawCatalogData\u003c/a\u003e\u003c/code\u003e is\n added to a nonempty \u003ccode\u003e\u003ca\u003ePCLT_Catalog\u003c/a\u003e\u003c/code\u003e, and same templates in both\n places has different SDL requirements.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTplUniquenessViol_RPCSCE\u003c/a\u003e\u003c/code\u003e:\n This may occur in case when some \u003ccode\u003e\u003ca\u003ePCLT_RawCatalogData\u003c/a\u003e\u003c/code\u003e is\n added to a nonempty \u003ccode\u003e\u003ca\u003ePCLT_Catalog\u003c/a\u003e\u003c/code\u003e, and there isan intersection\n between their {(Template ID, Language)} sets.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSDL_ToCompositeLinkRefsToNonexistent_RPCSCE\u003c/a\u003e\u003c/code\u003e:\n SDL requirement specification\n (\u003ccode\u003e\u003ca\u003epcltRequiredSDL\u003c/a\u003e\u003c/code\u003e) for a template is of type\n \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToTemplateLink\u003c/a\u003e\u003c/code\u003e and references to\n a template which is not persistant in catalog or raw input data.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "ReadPCSCatalogError",
           "package": "PCLT",
@@ -3042,6 +3305,7 @@
         "index": {
           "description": "Error type for readPCLTCatalog Descriptios for some value constructors DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault RPCSCE For more information about this error see StrictOrient ofParamsAndCmpsts onDfltLngTplsSets DifferentSDLs RPCSCE This may occur in case when some PCLT RawCatalogData is added to nonempty PCLT Catalog and same templates in both places has different SDL requirements TplUniquenessViol RPCSCE This may occur in case when some PCLT RawCatalogData is added to nonempty PCLT Catalog and there isan intersection between their Template ID Language sets SDL ToCompositeLinkRefsToNonexistent RPCSCE SDL requirement specification pcltRequiredSDL for template is of type PCLT SDL ToTemplateLink and references to template which is not persistant in catalog or raw input data",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "ReadPCSCatalogError",
           "package": "PCLT",
@@ -3055,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "CompositionCycle_RPCSCE",
           "package": "PCLT",
@@ -3064,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "CompositionCycle_RPCSCE",
           "package": "PCLT",
@@ -3077,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "DRL_NormalizationError_RPCSCE",
           "package": "PCLT",
@@ -3086,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "DRL_NormalizationError_RPCSCE",
           "package": "PCLT",
@@ -3099,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_RPCSCE",
           "package": "PCLT",
@@ -3108,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "DefaultLngTplComponentsParamsSetsDiffersFromOnesOfNondefault_RPCSCE",
           "package": "PCLT",
@@ -3121,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "DifferentSDLs_RPCSCE",
           "package": "PCLT",
@@ -3130,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "DifferentSDLs_RPCSCE",
           "package": "PCLT",
@@ -3143,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "ParseFailedForDefaultLng_RPCSCE",
           "package": "PCLT",
@@ -3152,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "ParseFailedForDefaultLng_RPCSCE",
           "normalized": "ParseFailedForDefaultLng_RPCSCE PCLT_CompositeKey Parsed_DidWe[PCLT_ParserLowLevelFailure]",
@@ -3167,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "ParseFailedForNondefaultLng_RPCSCE",
           "package": "PCLT",
@@ -3176,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "ParseFailedForNondefaultLng_RPCSCE",
           "normalized": "ParseFailedForNondefaultLng_RPCSCE PCLT_CompositeKey Parsed_DidWe LanguageName[PCLT_ParserLowLevelFailure]",
@@ -3191,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "ParseFailure_AHS2PE",
           "package": "PCLT",
@@ -3200,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "ParseFailure_AHS2PE",
           "normalized": "ParseFailure_AHS PE[PCLT_ParserLowLevelFailure]",
@@ -3215,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "RequiredCompositeIsMissing_AHS2PE",
           "package": "PCLT",
@@ -3224,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "RequiredCompositeIsMissing_AHS2PE",
           "package": "PCLT",
@@ -3237,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "RequiredCompositeIsMissing_RPCSCE",
           "package": "PCLT",
@@ -3246,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "RequiredCompositeIsMissing_RPCSCE",
           "package": "PCLT",
@@ -3259,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "RequiredCompositeIsUnparsable_RPCSCE",
           "package": "PCLT",
@@ -3268,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "RequiredCompositeIsUnparsable_RPCSCE",
           "package": "PCLT",
@@ -3281,6 +3565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "SDL_DetFail_ToCompositeLinkRefsToNonexistent_DRLNE",
           "package": "PCLT",
@@ -3290,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "SDL_DetFail_ToCompositeLinkRefsToNonexistent_DRLNE",
           "package": "PCLT",
@@ -3303,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "SDL_ToCompositeLinkRefsToNonexistent_RPCSCE",
           "package": "PCLT",
@@ -3312,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "SDL_ToCompositeLinkRefsToNonexistent_RPCSCE",
           "package": "PCLT",
@@ -3325,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "SDL_ToCompositeLinksCycle_DRLNE",
           "package": "PCLT",
@@ -3334,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "SDL_ToCompositeLinksCycle_DRLNE",
           "normalized": "SDL_ToCompositeLinksCycle_DRLNE[PCLT_CompositeKey]",
@@ -3349,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "TplDefaultLngIsMissing_RPCSCE",
           "package": "PCLT",
@@ -3358,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "TplDefaultLngIsMissing_RPCSCE",
           "package": "PCLT",
@@ -3371,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "TplUniquenessViol_RPCSCE",
           "package": "PCLT",
@@ -3380,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "TplUniquenessViol_RPCSCE",
           "package": "PCLT",
@@ -3394,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a bunch of raw templates, parse them into normal templates and add\n them to a catalog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "_readPCLTCatalog",
           "package": "PCLT",
@@ -3404,6 +3699,7 @@
         "index": {
           "description": "Take bunch of raw templates parse them into normal templates and add them to catalog",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "_readPCLTCatalog",
           "normalized": "(PCLT_Catalog,[ReadPCSCatalogError])-\u003ePCLT_RawCatalogData-\u003e(PCLT_Catalog,[ErrorWithPCSCatalog ReadPCSCatalogError])",
@@ -3420,6 +3716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eLocalizedTemplate\u003c/a\u003e\u003c/code\u003e\n out of a single \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "adhoc_str2ldt",
           "package": "PCLT",
@@ -3430,6 +3727,7 @@
         "index": {
           "description": "Make LocalizedTemplate out of single ByteString",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "adhoc_str2ldt",
           "normalized": "(ByteString,LanguageName)-\u003ePCLT_Catalog-\u003eEither AHSTR LngTpl_Error LocalizedTemplate",
@@ -3445,6 +3743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnder \"Referential SDLs normalization\" here is understood the following.\n Now consider paths like:\n\u003c/p\u003e\u003cpre\u003e Tpl_1.\u003ccode\u003e\u003ca\u003epcltRequiredSDL\u003c/a\u003e\u003c/code\u003e -\u003e Tpl_2.\u003ccode\u003e\u003ca\u003epcltRequiredSDL\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003ewhich means \u003ccode\u003e\u003ca\u003epcltRequiredSDL\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003eTpl_1\u003c/code\u003e is specified (using\n \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToTemplateLink\u003c/a\u003e\u003c/code\u003e) to be the same as for \u003ccode\u003eTpl_2\u003c/code\u003e. Here we can\n reduce the \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToTemplateLink\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003eTpl_1\u003c/code\u003e by assinging instead of it\n \u003ccode\u003eTpl_2.\u003c/code\u003e\u003ccode\u003e\u003ca\u003epcltRequiredSDL\u003c/a\u003e\u003c/code\u003e value. Data consistency is respected. We win in\n speed of \u003ccode\u003eTpl_1.\u003c/code\u003e\u003ccode\u003e\u003ca\u003epcltRequiredSDL\u003c/a\u003e\u003c/code\u003e determination. The negative side of this,\n is that we can't change \u003ccode\u003eTpl_2.\u003c/code\u003e\u003ccode\u003e\u003ca\u003epcltRequiredSDL\u003c/a\u003e\u003c/code\u003e anymore without spoiling\n data consistency. That's another reason why a PCLT catalog is so hard to\n modify. Perhaps the problem will be solved in future versions of PCLT.\n\u003c/p\u003e\u003cp\u003eSo this function reduces all \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToTemplateLink\u003c/a\u003e\u003c/code\u003es in a given\n \u003ccode\u003e\u003ca\u003ePCLT_CatalogMap\u003c/a\u003e\u003c/code\u003e, BUT, only where they lead to \u003ccode\u003e\u003ca\u003ePCLT_SDL\u003c/a\u003e\u003c/code\u003es or\n to other \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToTemplateLink\u003c/a\u003e\u003c/code\u003es (which recursively gets considered\n to be reduced), not when it leads to \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToParamCompositeLink\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003ePCLT_SDL_Errornous\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "normalizeReferentialSDLs",
           "package": "PCLT",
@@ -3455,6 +3754,7 @@
         "index": {
           "description": "Under Referential SDLs normalization here is understood the following Now consider paths like Tpl pcltRequiredSDL Tpl pcltRequiredSDL which means pcltRequiredSDL of Tpl is specified using PCLT SDL ToTemplateLink to be the same as for Tpl Here we can reduce the PCLT SDL ToTemplateLink of Tpl by assinging instead of it Tpl pcltRequiredSDL value Data consistency is respected We win in speed of Tpl pcltRequiredSDL determination The negative side of this is that we can change Tpl pcltRequiredSDL anymore without spoiling data consistency That another reason why PCLT catalog is so hard to modify Perhaps the problem will be solved in future versions of PCLT So this function reduces all PCLT SDL ToTemplateLink in given PCLT CatalogMap BUT only where they lead to PCLT SDL or to other PCLT SDL ToTemplateLink which recursively gets considered to be reduced not when it leads to PCLT SDL ToParamCompositeLink or PCLT SDL Errornous",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "normalizeReferentialSDLs",
           "normalized": "PCLT_CatalogMap-\u003e(PCLT_CatalogMap,[DRL_NormalizationError])",
@@ -3471,6 +3771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003e_readPCLTCatalog\u003c/a\u003e\u003c/code\u003e. To be used when starting with an empty catalog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "readPCLTCatalog",
           "package": "PCLT",
@@ -3481,6 +3782,7 @@
         "index": {
           "description": "Wrapper around readPCLTCatalog To be used when starting with an empty catalog",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "readPCLTCatalog",
           "normalized": "PCLT_InnerConfig-\u003ePCLT_CatalogID-\u003ePCLT_RawCatalogData-\u003e(PCLT_Catalog,[ErrorWithPCSCatalog ReadPCSCatalogError])",
@@ -3497,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eLocalizableTemplate\u003c/a\u003e\u003c/code\u003e\n out of a single \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "str2pclt",
           "package": "PCLT",
@@ -3507,6 +3810,7 @@
         "index": {
           "description": "Make LocalizableTemplate out of single ByteString",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "str2pclt",
           "normalized": "(PCLT_ID,PCLT_AllocatedShowDetalizationLevel)-\u003e(LanguageName,ByteString)-\u003ePCLT_Catalog-\u003eEither(ErrorWithPCSCatalog ReadPCSCatalogError)LocalizableTemplate",
@@ -3522,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eLocalizableTemplate\u003c/a\u003e\u003c/code\u003e out of list\n of \u003ccode\u003eByteString\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeCatalog",
           "name": "str_list2pclt",
           "package": "PCLT",
@@ -3532,6 +3837,7 @@
         "index": {
           "description": "Make LocalizableTemplate out of list of ByteString",
           "hierarchy": "Text PCLT MakeCatalog",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeCatalog",
           "name": "str_list2pclt",
           "normalized": "(PCLT_ID,PCLT_AllocatedShowDetalizationLevel)-\u003eMap LanguageName ByteString-\u003ePCLT_Catalog-\u003e(LocalizableTemplate,[ErrorWithPCSCatalog ReadPCSCatalogError])",
@@ -3547,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule around \u003ccode\u003e\u003ca\u003epcsi2text\u003c/a\u003e\u003c/code\u003e function, which generates a message out of \u003ccode\u003e\u003ca\u003ePCSI\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePCLT_Catalog\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "MakeMessage",
           "package": "PCLT",
@@ -3556,6 +3863,7 @@
         "index": {
           "description": "Module around pcsi2text function which generates message out of PCSI and PCLT Catalog",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "MakeMessage",
           "package": "PCLT",
@@ -3569,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "ForInstaniationUsedChunkLength",
           "package": "PCLT",
@@ -3577,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "ForInstaniationUsedChunkLength",
           "package": "PCLT",
@@ -3591,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type for \u003ccode\u003e\u003ca\u003epcsi2text\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "PCSI2Text_Error",
           "package": "PCLT",
@@ -3600,6 +3911,7 @@
         "index": {
           "description": "Error type for pcsi2text",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "PCSI2Text_Error",
           "package": "PCLT",
@@ -3614,6 +3926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of \u003ccode\u003e\u003ca\u003ePCSI2Text_Error\u003c/a\u003e\u003c/code\u003e. Stripping arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "PCSI2Text_Error_Type",
           "package": "PCLT",
@@ -3623,6 +3936,7 @@
         "index": {
           "description": "Type of PCSI2Text Error Stripping arguments",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "PCSI2Text_Error_Type",
           "package": "PCLT",
@@ -3637,6 +3951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type for \u003ccode\u003e\u003ca\u003egivenSDL_statisfies\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDL_DeterminationFailure",
           "package": "PCLT",
@@ -3646,6 +3961,7 @@
         "index": {
           "description": "Error type for givenSDL statisfies",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDL_DeterminationFailure",
           "package": "PCLT",
@@ -3660,6 +3976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of \u003ccode\u003e\u003ca\u003eSDL_DeterminationFailure\u003c/a\u003e\u003c/code\u003e. Stripping arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDL_DeterminationFailure_Type",
           "package": "PCLT",
@@ -3669,6 +3986,7 @@
         "index": {
           "description": "Type of SDL DeterminationFailure Stripping arguments",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDL_DeterminationFailure_Type",
           "package": "PCLT",
@@ -3682,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "SpaceAvailableForPCSIInstaniation",
           "package": "PCLT",
@@ -3690,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "SpaceAvailableForPCSIInstaniation",
           "package": "PCLT",
@@ -3703,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "CompositionCycle_P2TE",
           "package": "PCLT",
@@ -3712,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "CompositionCycle_P2TE",
           "package": "PCLT",
@@ -3725,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "CompositionCycle_P2TET",
           "package": "PCLT",
@@ -3734,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "CompositionCycle_P2TET",
           "package": "PCLT",
@@ -3747,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "ErrornousSDL_SDLDF",
           "package": "PCLT",
@@ -3756,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "ErrornousSDL_SDLDF",
           "package": "PCLT",
@@ -3769,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "ErrornousSDL_SDLDFT",
           "package": "PCLT",
@@ -3778,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "ErrornousSDL_SDLDFT",
           "package": "PCLT",
@@ -3792,6 +4120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo more free space in resulting \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "InstaniationLengthMaxReached_P2TE",
           "package": "PCLT",
@@ -3802,6 +4131,7 @@
         "index": {
           "description": "No more free space in resulting CLBS",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "InstaniationLengthMaxReached_P2TE",
           "package": "PCLT",
@@ -3815,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "InstaniationLengthMaxReached_P2TET",
           "package": "PCLT",
@@ -3824,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "InstaniationLengthMaxReached_P2TET",
           "package": "PCLT",
@@ -3838,6 +4170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SDL of template is specified\n (using \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToParamCompositeLink\u003c/a\u003e\u003c/code\u003e) to be the same as is\n one of a template, that must have been put\n under a parameter (using \u003ccode\u003e\u003ca\u003ePCSI_PV\u003c/a\u003e\u003c/code\u003e), but referenced parameter\n is missing in given \u003ccode\u003e\u003ca\u003ePCSI\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "MissingParam_SDLByParamCompositeLink_SDLDF",
           "package": "PCLT",
@@ -3848,6 +4181,7 @@
         "index": {
           "description": "The SDL of template is specified using PCLT SDL ToParamCompositeLink to be the same as is one of template that must have been put under parameter using PCSI PV but referenced parameter is missing in given PCSI",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "MissingParam_SDLByParamCompositeLink_SDLDF",
           "package": "PCLT",
@@ -3861,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "MissingParam_SDLByParamCompositeLink_SDLDFT",
           "package": "PCLT",
@@ -3870,6 +4205,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "MissingParam_SDLByParamCompositeLink_SDLDFT",
           "package": "PCLT",
@@ -3883,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "NoValueForParameter_P2TE",
           "package": "PCLT",
@@ -3892,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "NoValueForParameter_P2TE",
           "package": "PCLT",
@@ -3905,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "NoValueForParameter_P2TET",
           "package": "PCLT",
@@ -3914,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "NoValueForParameter_P2TET",
           "package": "PCLT",
@@ -3928,6 +4268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot used, reserved for future versions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "ReparsingDepthMaxReached_P2TE",
           "package": "PCLT",
@@ -3938,6 +4279,7 @@
         "index": {
           "description": "Not used reserved for future versions",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "ReparsingDepthMaxReached_P2TE",
           "package": "PCLT",
@@ -3951,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "ReparsingDepthMaxReached_P2TET",
           "package": "PCLT",
@@ -3960,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "ReparsingDepthMaxReached_P2TET",
           "package": "PCLT",
@@ -3974,6 +4318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot used, reserved for future versions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "ReparsingLengthMaxReached_P2TE",
           "package": "PCLT",
@@ -3984,6 +4329,7 @@
         "index": {
           "description": "Not used reserved for future versions",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "ReparsingLengthMaxReached_P2TE",
           "package": "PCLT",
@@ -3997,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "ReparsingLengthMaxReached_P2TET",
           "package": "PCLT",
@@ -4006,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "ReparsingLengthMaxReached_P2TET",
           "package": "PCLT",
@@ -4019,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeIsMissing_P2TE",
           "package": "PCLT",
@@ -4028,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeIsMissing_P2TE",
           "package": "PCLT",
@@ -4041,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeIsMissing_P2TET",
           "package": "PCLT",
@@ -4050,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeIsMissing_P2TET",
           "package": "PCLT",
@@ -4063,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeIsMissing_SDLDF",
           "package": "PCLT",
@@ -4072,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeIsMissing_SDLDF",
           "package": "PCLT",
@@ -4085,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeIsMissing_SDLDFT",
           "package": "PCLT",
@@ -4094,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeIsMissing_SDLDFT",
           "package": "PCLT",
@@ -4107,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeLoclizationIsMissing_P2TE",
           "package": "PCLT",
@@ -4116,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeLoclizationIsMissing_P2TE",
           "package": "PCLT",
@@ -4129,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeLoclizationIsMissing_P2TET",
           "package": "PCLT",
@@ -4138,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "RequiredCompositeLoclizationIsMissing_P2TET",
           "package": "PCLT",
@@ -4151,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDLReferentialCycle_SDLDF",
           "package": "PCLT",
@@ -4160,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDLReferentialCycle_SDLDF",
           "normalized": "SDLReferentialCycle_SDLDF PCLT_CompositeKey[PCLT_ID]",
@@ -4175,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDLReferentialCycle_SDLDFT",
           "package": "PCLT",
@@ -4184,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDLReferentialCycle_SDLDFT",
           "package": "PCLT",
@@ -4197,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDL_DeterminationFailure_P2TE",
           "package": "PCLT",
@@ -4206,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDL_DeterminationFailure_P2TE",
           "package": "PCLT",
@@ -4219,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDL_DeterminationFailure_P2TET",
           "package": "PCLT",
@@ -4228,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "SDL_DeterminationFailure_P2TET",
           "package": "PCLT",
@@ -4242,6 +4610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot used, reserved for future versions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnderAccordingParamReparsingFailure_P2TE",
           "package": "PCLT",
@@ -4252,6 +4621,7 @@
         "index": {
           "description": "Not used reserved for future versions",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnderAccordingParamReparsingFailure_P2TE",
           "package": "PCLT",
@@ -4265,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnderAccordingParamReparsingFailure_P2TET",
           "package": "PCLT",
@@ -4274,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnderAccordingParamReparsingFailure_P2TET",
           "package": "PCLT",
@@ -4288,6 +4660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SDL of template is specified\n (using \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToParamCompositeLink\u003c/a\u003e\u003c/code\u003e) to be the same as is\n one of a template, that must have been put\n under a parameter (using \u003ccode\u003e\u003ca\u003ePCSI_PV\u003c/a\u003e\u003c/code\u003e), but the \u003ccode\u003e\u003ca\u003ePCSI\u003c/a\u003e\u003c/code\u003e under this\n parameter references some unknown (to catalog) template.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnknownComposite_SDLByParamCompositeLink_SDLDF",
           "package": "PCLT",
@@ -4298,6 +4671,7 @@
         "index": {
           "description": "The SDL of template is specified using PCLT SDL ToParamCompositeLink to be the same as is one of template that must have been put under parameter using PCSI PV but the PCSI under this parameter references some unknown to catalog template",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnknownComposite_SDLByParamCompositeLink_SDLDF",
           "package": "PCLT",
@@ -4311,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnknownComposite_SDLByParamCompositeLink_SDLDFT",
           "package": "PCLT",
@@ -4320,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnknownComposite_SDLByParamCompositeLink_SDLDFT",
           "package": "PCLT",
@@ -4334,6 +4710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis error is possible only if program is wrong.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnsupportedMarker_P2TE",
           "package": "PCLT",
@@ -4344,6 +4721,7 @@
         "index": {
           "description": "This error is possible only if program is wrong",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnsupportedMarker_P2TE",
           "package": "PCLT",
@@ -4357,6 +4735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnsupportedMarker_P2TET",
           "package": "PCLT",
@@ -4366,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "UnsupportedMarker_P2TET",
           "package": "PCLT",
@@ -4380,6 +4760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SDL of template is specified\n (using \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToParamCompositeLink\u003c/a\u003e\u003c/code\u003e) to be the same as is\n one of a template, that must have been put\n under a parameter (using \u003ccode\u003e\u003ca\u003ePCSI_PV\u003c/a\u003e\u003c/code\u003e), but referenced parameter\n value is constructed using not \u003ccode\u003e\u003ca\u003ePCSI_PV\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "WrongParamType_SDLByParamCompositeLink_SDLDF",
           "package": "PCLT",
@@ -4390,6 +4771,7 @@
         "index": {
           "description": "The SDL of template is specified using PCLT SDL ToParamCompositeLink to be the same as is one of template that must have been put under parameter using PCSI PV but referenced parameter value is constructed using not PCSI PV",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "WrongParamType_SDLByParamCompositeLink_SDLDF",
           "package": "PCLT",
@@ -4403,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "WrongParamType_SDLByParamCompositeLink_SDLDFT",
           "package": "PCLT",
@@ -4412,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "WrongParamType_SDLByParamCompositeLink_SDLDFT",
           "package": "PCLT",
@@ -4426,6 +4810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA test, if a given reciever's detalization level is enough\n to represent a given \u003ccode\u003e\u003ca\u003ePCSI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "givenSDL_statisfies",
           "package": "PCLT",
@@ -4436,6 +4821,7 @@
         "index": {
           "description": "test if given reciever detalization level is enough to represent given PCSI",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "givenSDL_statisfies",
           "normalized": "ShowDetalizationLevel-\u003ePCSI-\u003ePCLT_ShowDetalizationLevel-\u003ePCLT_CatalogMap-\u003eEither SDL_DeterminationFailure Bool",
@@ -4452,6 +4838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhenever representation generator can't make representation\n for a template due to some error, it puts there (instead of representation)\n an error marking (\u003ccode\u003e\u003ca\u003epcsMarkingErrorPlaceholderWrapper\u003c/a\u003e\u003c/code\u003e) with an abbreviation (see \u003ccode\u003e\u003ca\u003eshortOf_PCSI2Text_Error\u003c/a\u003e\u003c/code\u003e)\n of error type and template ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "includeAsAnError",
           "package": "PCLT",
@@ -4462,6 +4849,7 @@
         "index": {
           "description": "Whenever representation generator can make representation for template due to some error it puts there instead of representation an error marking pcsMarkingErrorPlaceholderWrapper with an abbreviation see shortOf PCSI2Text Error of error type and template ID",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "includeAsAnError",
           "normalized": "PCLT_InnerConfig-\u003ePCSI Text_Error-\u003eString-\u003e(ByteString,ForInstaniationUsedChunkLength)",
@@ -4477,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "p2teType",
           "package": "PCLT",
@@ -4486,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "p2teType",
           "normalized": "PCSI Text_Error-\u003ePCSI Text_Error_Type",
@@ -4502,6 +4892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003epcsi2text\u003c/a\u003e\u003c/code\u003e for cases, when new \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e for output\n is to be created. It's maximal length is set to be same\n as configured in parameter \u003ccode\u003e\u003ca\u003epcsInstaniationResultMaxSize\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "pcsi2new_text",
           "package": "PCLT",
@@ -4512,6 +4903,7 @@
         "index": {
           "description": "Wrapper around pcsi2text for cases when new CLBS for output is to be created It maximal length is set to be same as configured in parameter pcsInstaniationResultMaxSize",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "pcsi2new_text",
           "normalized": "PCSI-\u003e(ShowDetalizationLevel,LanguageName)-\u003ePCLT_Catalog-\u003e(StdOut_CLBS,[ErrorWithPCSCatalog PCSI Text_Error])",
@@ -4527,6 +4919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a representation out of \u003ccode\u003e\u003ca\u003ePCSI\u003c/a\u003e\u003c/code\u003e in specified detailization level,\n in specified language, using specified catalog. And append result\n to a specified \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "pcsi2text",
           "package": "PCLT",
@@ -4537,6 +4930,7 @@
         "index": {
           "description": "Make representation out of PCSI in specified detailization level in specified language using specified catalog And append result to specified CLBS",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "pcsi2text",
           "normalized": "StdOut_CLBS-\u003ePCSI-\u003e(ShowDetalizationLevel,LanguageName)-\u003ePCLT_Catalog-\u003e(StdOut_CLBS,[ErrorWithPCSCatalog PCSI Text_Error])",
@@ -4551,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "sdldfType",
           "package": "PCLT",
@@ -4560,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "sdldfType",
           "normalized": "SDL_DeterminationFailure-\u003eSDL_DeterminationFailure_Type",
@@ -4576,6 +4972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate representation generation errors types abbreviations:\n\u003c/p\u003e\u003cpre\u003e       RequiredCompositeIsMissing_P2TET            -\u003e \"CM\"\n       RequiredCompositeLoclizationIsMissing_P2TET -\u003e \"CLM\"\n       CompositionCycle_P2TET                      -\u003e \"CC\"\n       SDL_DeterminationFailure_P2TET       sdldft -\u003e \"SF\" ++\n           case sdldft of\n               RequiredCompositeIsMissing_SDLDFT               -\u003e \"(CM)\"\n               MissingParam_SDLByParamCompositeLink_SDLDFT     -\u003e \"(LMP)\"\n               WrongParamType_SDLByParamCompositeLink_SDLDFT   -\u003e \"(LWPT)\"\n               UnknownComposite_SDLByParamCompositeLink_SDLDFT -\u003e \"(LUC)\"\n               SDLReferentialCycle_SDLDFT                      -\u003e \"(CC)\"\n               ErrornousSDL_SDLDFT                             -\u003e \"(ES)\"\n       UnsupportedMarker_P2TET                     -\u003e \"UM\"\n       NoValueForParameter_P2TET                   -\u003e \"NV\"\n       UnderAccordingParamReparsingFailure_P2TET   -\u003e \"RF\"\n       ReparsingDepthMaxReached_P2TET              -\u003e \"RDM\"\n       ReparsingLengthMaxReached_P2TET             -\u003e \"RLM\"\n       InstaniationLengthMaxReached_P2TET          -\u003e \"ILM\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage",
           "name": "shortOf_PCSI2Text_Error",
           "package": "PCLT",
@@ -4586,6 +4983,7 @@
         "index": {
           "description": "Template representation generation errors types abbreviations RequiredCompositeIsMissing P2TET CM RequiredCompositeLoclizationIsMissing P2TET CLM CompositionCycle P2TET CC SDL DeterminationFailure P2TET sdldft SF case sdldft of RequiredCompositeIsMissing SDLDFT CM MissingParam SDLByParamCompositeLink SDLDFT LMP WrongParamType SDLByParamCompositeLink SDLDFT LWPT UnknownComposite SDLByParamCompositeLink SDLDFT LUC SDLReferentialCycle SDLDFT CC ErrornousSDL SDLDFT ES UnsupportedMarker P2TET UM NoValueForParameter P2TET NV UnderAccordingParamReparsingFailure P2TET RF ReparsingDepthMaxReached P2TET RDM ReparsingLengthMaxReached P2TET RLM InstaniationLengthMaxReached P2TET ILM",
           "hierarchy": "Text PCLT MakeMessage",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage",
           "name": "shortOf_PCSI2Text_Error",
           "normalized": "PCSI Text_Error-\u003eByteString",
@@ -4602,6 +5000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAddition to \u003ca\u003eText.PCLT.MakeMessage\u003c/a\u003e module. Some wrappers around \u003ccode\u003e\u003ca\u003epcsi2text\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage2",
           "name": "MakeMessage2",
           "package": "PCLT",
@@ -4611,6 +5010,7 @@
         "index": {
           "description": "Addition to Text.PCLT.MakeMessage module Some wrappers around pcsi2text function",
           "hierarchy": "Text PCLT MakeMessage2",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage2",
           "name": "MakeMessage2",
           "package": "PCLT",
@@ -4625,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003epcsi2text_plus_errs_1\u003c/a\u003e\u003c/code\u003e for cases, when new \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003e\n is to be created. It's maximal length is set to be same\n as configured in parameter \u003ccode\u003e\u003ca\u003epcsInstaniationResultMaxSize\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage2",
           "name": "pcsi2new_text_plus_errs_1",
           "package": "PCLT",
@@ -4635,6 +5036,7 @@
         "index": {
           "description": "Wrapper around pcsi2text plus errs for cases when new CLBS is to be created It maximal length is set to be same as configured in parameter pcsInstaniationResultMaxSize",
           "hierarchy": "Text PCLT MakeMessage2",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage2",
           "name": "pcsi2new_text_plus_errs_1",
           "normalized": "PCSI-\u003e(ShowDetalizationLevel,LanguageName)-\u003ePCLT_Catalog-\u003eStdOutAndErr_CLBS",
@@ -4650,6 +5052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003epcsi2text_plus_errs_2\u003c/a\u003e\u003c/code\u003e for cases, when new \u003ccode\u003e\u003ca\u003eCLBS\u003c/a\u003e\u003c/code\u003es\n are to be created:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e One - for representation of normal output. It's maximal length is set\n to be same as configured in parameter \u003ccode\u003e\u003ca\u003epcsInstaniationResultMaxSize\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Another - for representation of errors. It's maximal size is specified\n in the first argument of function.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage2",
           "name": "pcsi2new_text_plus_errs_2",
           "package": "PCLT",
@@ -4660,6 +5063,7 @@
         "index": {
           "description": "Wrapper around pcsi2text plus errs for cases when new CLBS are to be created One for representation of normal output It maximal length is set to be same as configured in parameter pcsInstaniationResultMaxSize Another for representation of errors It maximal size is specified in the first argument of function",
           "hierarchy": "Text PCLT MakeMessage2",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage2",
           "name": "pcsi2new_text_plus_errs_2",
           "normalized": "Int-\u003ePCSI-\u003e(ShowDetalizationLevel,LanguageName)-\u003ePCLT_Catalog-\u003e(StdOut_CLBS,StdErr_CLBS)",
@@ -4675,6 +5079,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e generates message from given PCSI\n\u003c/li\u003e\u003cli\u003e generates representation of errors list (that occurred, when doing step (1))\n\u003c/li\u003e\u003cli\u003e generates representation of errors list (that occurred, when doing step (2))\n\u003c/li\u003e\u003cli\u003e appends text result of step (3) to given CLBS\n\u003c/li\u003e\u003cli\u003e appends text result of step (2) to given CLBS\n\u003c/li\u003e\u003cli\u003e appends text result of step (1) to given CLBS\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage2",
           "name": "pcsi2text_plus_errs_1",
           "package": "PCLT",
@@ -4685,6 +5090,7 @@
         "index": {
           "description": "generates message from given PCSI generates representation of errors list that occurred when doing step generates representation of errors list that occurred when doing step appends text result of step to given CLBS appends text result of step to given CLBS appends text result of step to given CLBS",
           "hierarchy": "Text PCLT MakeMessage2",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage2",
           "name": "pcsi2text_plus_errs_1",
           "normalized": "StdOutAndErr_CLBS-\u003ePCSI-\u003e(ShowDetalizationLevel,LanguageName)-\u003ePCLT_Catalog-\u003eStdOutAndErr_CLBS",
@@ -4700,6 +5106,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e generates message from given PCSI\n\u003c/li\u003e\u003cli\u003e appends text result of step (1) to given CLBS_1\n\u003c/li\u003e\u003cli\u003e generates representation of errors list (that occurred, when doing step (1))\n\u003c/li\u003e\u003cli\u003e generates representation of errors list (that occurred, when doing step (3))\n\u003c/li\u003e\u003cli\u003e appends text result of step (4) to given CLBS_2\n\u003c/li\u003e\u003cli\u003e appends text result of step (3) to given CLBS_2\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.MakeMessage2",
           "name": "pcsi2text_plus_errs_2",
           "package": "PCLT",
@@ -4710,6 +5117,7 @@
         "index": {
           "description": "generates message from given PCSI appends text result of step to given CLBS generates representation of errors list that occurred when doing step generates representation of errors list that occurred when doing step appends text result of step to given CLBS appends text result of step to given CLBS",
           "hierarchy": "Text PCLT MakeMessage2",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.MakeMessage2",
           "name": "pcsi2text_plus_errs_2",
           "normalized": "(StdOut_CLBS,StdErr_CLBS)-\u003ePCSI-\u003e(ShowDetalizationLevel,LanguageName)-\u003ePCLT_Catalog-\u003e(StdOut_CLBS,StdErr_CLBS)",
@@ -4725,6 +5133,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe abbreviation \"PCSI\" means \"Parametric Composable String\n Instaniation\". Agree, not a very clear name, a more apropriate would be\n something like that: \"Input Data for Template Representation\", but\n clear name came to my head when millions (dozens) of ants (variables) were\n already bearing this name. And I'm a bit lazy to rename everything to sound\n apropriate, sorry.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI",
           "package": "PCLT",
@@ -4734,6 +5143,7 @@
         "index": {
           "description": "The abbreviation PCSI means Parametric Composable String Instaniation Agree not very clear name more apropriate would be something like that Input Data for Template Representation but clear name came to my head when millions dozens of ants variables were already bearing this name And bit lazy to rename everything to sound apropriate sorry",
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI",
           "package": "PCLT",
@@ -4748,6 +5158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy these user fills parameters of templates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PCLT_ParamVal",
           "package": "PCLT",
@@ -4757,6 +5168,7 @@
         "index": {
           "description": "By these user fills parameters of templates",
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PCLT_ParamVal",
           "package": "PCLT",
@@ -4771,6 +5183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePCSI is an output of our extended Show (to which this package\n is dedicated). And an input to generate a message using catalog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI",
           "package": "PCLT",
@@ -4780,6 +5193,7 @@
         "index": {
           "description": "PCSI is an output of our extended Show to which this package is dedicated And an input to generate message using catalog",
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI",
           "package": "PCLT",
@@ -4793,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI_ParamsValuesMap",
           "package": "PCLT",
@@ -4801,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI_ParamsValuesMap",
           "package": "PCLT",
@@ -4815,6 +5231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn message generation procedure this stands for a value of\n 2nd argument in which every occurence of newline (as is configured in\n \u003ca\u003eText.PCLT.Config\u003c/a\u003e in config's parameter \u003ccode\u003epcsNewlineLBS\u003c/code\u003e)\n is substituded by \u003ccode\u003enewline ++ (replicate n ' ')\u003c/code\u003e,\n where n is the 1st argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "Indented_PV",
           "package": "PCLT",
@@ -4825,6 +5242,7 @@
         "index": {
           "description": "In message generation procedure this stands for value of nd argument in which every occurence of newline as is configured in Text.PCLT.Config in config parameter pcsNewlineLBS is substituded by newline replicate where is the st argument",
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "Indented_PV",
           "package": "PCLT",
@@ -4839,6 +5257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn message generation procedure this stands for a value of\n \u003ccode\u003epcsNewlineLBS\u003c/code\u003e parameter declared in \u003ca\u003eText.PCLT.Config\u003c/a\u003e.\n Different systems means different symbol sequences\n under \"newline\"...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "NewLine_PV",
           "package": "PCLT",
@@ -4849,6 +5268,7 @@
         "index": {
           "description": "In message generation procedure this stands for value of pcsNewlineLBS parameter declared in Text.PCLT.Config Different systems means different symbol sequences under newline",
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "NewLine_PV",
           "package": "PCLT",
@@ -4862,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "Nothing_PV",
           "package": "PCLT",
@@ -4871,6 +5292,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "Nothing_PV",
           "package": "PCLT",
@@ -4884,6 +5306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI",
           "package": "PCLT",
@@ -4893,6 +5316,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI",
           "package": "PCLT",
@@ -4907,6 +5331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond argument is a separator between \u003ccode\u003e\u003ca\u003ePCSI\u003c/a\u003e\u003c/code\u003es in first argument\n Here representation generator automatically adds to each PCSI in\n list an implicit parameter \u003ccode\u003e__row_idx\u003c/code\u003e, which holds a value\n of current PCSI index in list, starting from 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PCSIList_PV",
           "package": "PCLT",
@@ -4917,6 +5342,7 @@
         "index": {
           "description": "Second argument is separator between PCSI in first argument Here representation generator automatically adds to each PCSI in list an implicit parameter row idx which holds value of current PCSI index in list starting from",
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PCSIList_PV",
           "normalized": "PCSIList_PV[PCSI]PCLT_ParamVal",
@@ -4932,6 +5358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI_PV",
           "package": "PCLT",
@@ -4941,6 +5368,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PCSI_PV",
           "package": "PCLT",
@@ -4954,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PVList_PV",
           "package": "PCLT",
@@ -4963,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PVList_PV",
           "normalized": "PVList_PV[PCLT_ParamVal]",
@@ -4978,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PlainTextLBS_PV",
           "package": "PCLT",
@@ -4987,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PlainTextLBS_PV",
           "package": "PCLT",
@@ -5000,6 +5432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "PlainText_PV",
           "package": "PCLT",
@@ -5009,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "PlainText_PV",
           "package": "PCLT",
@@ -5022,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "addPVs2PCSI",
           "package": "PCLT",
@@ -5031,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "addPVs2PCSI",
           "normalized": "[(PCLT_ParamKey,PCLT_ParamVal)]-\u003ePCSI-\u003ePCSI",
@@ -5046,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "addToPCSI",
           "package": "PCLT",
@@ -5055,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "addToPCSI",
           "normalized": "[PCSI]-\u003ePCSI-\u003ePCSI",
@@ -5071,6 +5509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePCSI with an empty set of parameters values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "empPCSI",
           "package": "PCLT",
@@ -5081,6 +5520,7 @@
         "index": {
           "description": "PCSI with an empty set of parameters values",
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "empPCSI",
           "normalized": "PCLT_ID-\u003ePCSI",
@@ -5096,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "pcsiParamsValsMap",
           "package": "PCLT",
@@ -5105,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "pcsiParamsValsMap",
           "package": "PCLT",
@@ -5118,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "pcsiTplID",
           "package": "PCLT",
@@ -5127,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "pcsiTplID",
           "package": "PCLT",
@@ -5140,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "sumPCSI_PVMs",
           "package": "PCLT",
@@ -5149,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "sumPCSI_PVMs",
           "normalized": "PCSI_ParamsValuesMap-\u003ePCSI_ParamsValuesMap-\u003ePCSI_ParamsValuesMap",
@@ -5164,6 +5610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "thePCSI",
           "package": "PCLT",
@@ -5173,6 +5620,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "thePCSI",
           "normalized": "PCLT_ID-\u003e[(PCLT_ParamKey,PCLT_ParamVal)]-\u003ePCSI",
@@ -5189,6 +5637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt's used in some places of package in errors' representations\n (in instances of \u003ccode\u003eShowAsPCSI\u003c/code\u003e - class declared in \u003ca\u003eText.PCLT.ShowAsPCSI\u003c/a\u003e).\n \u003ccode\u003eusualSeparatorInPCSIList = PVList_PV [NewLine_PV, PlainText_PV \u003ca\u003e|----\u003c/a\u003e, NewLine_PV]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.PCSI",
           "name": "usualSeparatorInPCSIList",
           "package": "PCLT",
@@ -5199,6 +5648,7 @@
         "index": {
           "description": "It used in some places of package in errors representations in instances of ShowAsPCSI class declared in Text.PCLT.ShowAsPCSI usualSeparatorInPCSIList PVList PV NewLine PV PlainText PV NewLine PV",
           "hierarchy": "Text PCLT PCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.PCSI",
           "name": "usualSeparatorInPCSIList",
           "package": "PCLT",
@@ -5212,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "AdvancedSepBy",
           "package": "PCLT",
@@ -5220,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "AdvancedSepBy",
           "package": "PCLT",
@@ -5233,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "ChunkIndexInList_",
           "package": "PCLT",
@@ -5241,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "ChunkIndexInList_",
           "package": "PCLT",
@@ -5254,6 +5708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Current_Chunk_SSM",
           "package": "PCLT",
@@ -5262,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Current_Chunk_SSM",
           "package": "PCLT",
@@ -5275,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Current_Sep_SSM",
           "package": "PCLT",
@@ -5283,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Current_Sep_SSM",
           "package": "PCLT",
@@ -5296,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "MarkedChunkLength",
           "package": "PCLT",
@@ -5304,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "MarkedChunkLength",
           "package": "PCLT",
@@ -5317,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "New_Active_Sep_SSM",
           "package": "PCLT",
@@ -5325,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "New_Active_Sep_SSM",
           "package": "PCLT",
@@ -5338,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Previous_Active_Sep_SSM",
           "package": "PCLT",
@@ -5346,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Previous_Active_Sep_SSM",
           "package": "PCLT",
@@ -5359,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "SectorMarkingStrategy",
           "package": "PCLT",
@@ -5367,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "SectorMarkingStrategy",
           "package": "PCLT",
@@ -5380,6 +5846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "SeparatedSectorMarker",
           "package": "PCLT",
@@ -5388,6 +5855,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "SeparatedSectorMarker",
           "package": "PCLT",
@@ -5401,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "SeparationMarkerIdx",
           "package": "PCLT",
@@ -5409,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "SeparationMarkerIdx",
           "package": "PCLT",
@@ -5422,6 +5892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "StandartMarkingStrategyError",
           "package": "PCLT",
@@ -5430,6 +5901,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "StandartMarkingStrategyError",
           "package": "PCLT",
@@ -5443,6 +5915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "BeginningMNotInTheBeginning_SMSE",
           "package": "PCLT",
@@ -5452,6 +5925,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "BeginningMNotInTheBeginning_SMSE",
           "package": "PCLT",
@@ -5465,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Beginning_SSM",
           "package": "PCLT",
@@ -5474,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Beginning_SSM",
           "package": "PCLT",
@@ -5487,6 +5963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "EOF_SSM",
           "package": "PCLT",
@@ -5496,6 +5973,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "EOF_SSM",
           "package": "PCLT",
@@ -5509,6 +5987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Error_SSM",
           "package": "PCLT",
@@ -5518,6 +5997,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "Error_SSM",
           "package": "PCLT",
@@ -5531,6 +6011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "InnerMarker_SSM",
           "package": "PCLT",
@@ -5540,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "InnerMarker_SSM",
           "package": "PCLT",
@@ -5553,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "InputAfterEOF_SMSE",
           "package": "PCLT",
@@ -5562,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "InputAfterEOF_SMSE",
           "package": "PCLT",
@@ -5575,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "OpenMarkerAtEOF_SMSE",
           "package": "PCLT",
@@ -5584,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "OpenMarkerAtEOF_SMSE",
           "package": "PCLT",
@@ -5597,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "OverlappingMarkedChunks_SMSE",
           "package": "PCLT",
@@ -5606,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "OverlappingMarkedChunks_SMSE",
           "package": "PCLT",
@@ -5619,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "UnallowedCharacter_SMSE",
           "package": "PCLT",
@@ -5628,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "UnallowedCharacter_SMSE",
           "package": "PCLT",
@@ -5641,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "UnsupportedMarkersSequence_SMSE",
           "package": "PCLT",
@@ -5650,6 +6141,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "UnsupportedMarkersSequence_SMSE",
           "package": "PCLT",
@@ -5663,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "getListOfMarkings",
           "package": "PCLT",
@@ -5672,6 +6165,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "getListOfMarkings",
           "normalized": "Map SeparatedSectorMarker[(ByteString,ChunkIndexInList_)]-\u003eInt-\u003e[(ByteString,ChunkIndexInList_)]",
@@ -5687,6 +6181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "insertInsteadOf_inLBS",
           "package": "PCLT",
@@ -5696,6 +6191,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "insertInsteadOf_inLBS",
           "normalized": "(ByteString,ByteString)-\u003eByteString-\u003eByteString",
@@ -5711,6 +6207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "manyTill_EOForEitherOf",
           "package": "PCLT",
@@ -5720,6 +6217,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "manyTill_EOForEitherOf",
           "normalized": "Parser Char-\u003e[Parser ByteString]-\u003eParser(SeparatedSectorMarker,ByteString,MarkedChunkLength)",
@@ -5735,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "retrieveErrorsMarkingsList",
           "package": "PCLT",
@@ -5744,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "retrieveErrorsMarkingsList",
           "normalized": "[(SeparatedSectorMarker,ByteString,MarkedChunkLength)]-\u003e[(SeparatedSectorMarker,ByteString,ChunkIndexInList_)]",
@@ -5759,6 +6259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "retrieveNonPlainMarkingsMap",
           "package": "PCLT",
@@ -5768,6 +6269,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "retrieveNonPlainMarkingsMap",
           "normalized": "[(SeparatedSectorMarker,ByteString,MarkedChunkLength)]-\u003eMap SeparatedSectorMarker[(ByteString,ChunkIndexInList_)]",
@@ -5783,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "sepBySome",
           "package": "PCLT",
@@ -5792,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "sepBySome",
           "normalized": "Parser Char-\u003eSectorMarkingStrategy-\u003e[Parser ByteString]-\u003eParser[(SeparatedSectorMarker,ByteString,MarkedChunkLength)]",
@@ -5807,6 +6311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "standardMarkingStrategy",
           "package": "PCLT",
@@ -5816,6 +6321,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "standardMarkingStrategy",
           "package": "PCLT",
@@ -5829,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "standardMarkingStrategyFix_StripEmptyChunks",
           "package": "PCLT",
@@ -5838,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Parser AdvancedSepBy",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Parser.AdvancedSepBy",
           "name": "standardMarkingStrategyFix_StripEmptyChunks",
           "normalized": "[(SeparatedSectorMarker,ByteString,MarkedChunkLength)]-\u003e[(SeparatedSectorMarker,ByteString,MarkedChunkLength)]",
@@ -5854,6 +6362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimply saying: with SDL we regulate, how much some Reader (of our\n generated messages) wishes (is allowed) to see.\n\u003c/p\u003e\u003cp\u003e\"SDL\" is an abbreviation for \"Show Detalization Level\".\n Perhaps it better sound \"Representation Detalization Level\", but it\n was too late to change term - too many variables has names \u003ccode\u003esdl\u003c/code\u003e,\n and author is too lazy to change them on \u003ccode\u003erdl\u003c/code\u003es.\n However, \"Representation Detalization Level\" version is sometimes used -\n it is to be understood as synonym to SDL.\n Term \"Detailizable content (message)\" in this package has a following\n meaning: some content, representing which it is possible to regulate,\n in how much of details it is to be represented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "SDL",
           "package": "PCLT",
@@ -5863,6 +6372,7 @@
         "index": {
           "description": "Simply saying with SDL we regulate how much some Reader of our generated messages wishes is allowed to see SDL is an abbreviation for Show Detalization Level Perhaps it better sound Representation Detalization Level but it was too late to change term too many variables has names sdl and author is too lazy to change them on rdl However Representation Detalization Level version is sometimes used it is to be understood as synonym to SDL Term Detailizable content message in this package has following meaning some content representing which it is possible to regulate in how much of details it is to be represented",
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "SDL",
           "package": "PCLT",
@@ -5877,6 +6387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSDL may be seen in two different moduses:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e as a requirement for representation by a localizable template:\n \"SDL of repesentation reciever must be equal or bigger then that,\n orelse message from this template won't be generated\"\n\u003c/li\u003e\u003cli\u003e as an allocateion to a repesentation reciever.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "SDLModus",
           "package": "PCLT",
@@ -5886,6 +6397,7 @@
         "index": {
           "description": "SDL may be seen in two different moduses as requirement for representation by localizable template SDL of repesentation reciever must be equal or bigger then that orelse message from this template won be generated as an allocateion to repesentation reciever",
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "SDLModus",
           "package": "PCLT",
@@ -5900,6 +6412,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eZero_SDL \u003c One_SDL \u003c SDL Int \u003c InfinitelyBig_SDL\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "ShowDetalizationLevel",
           "package": "PCLT",
@@ -5909,6 +6422,7 @@
         "index": {
           "description": "Zero SDL One SDL SDL Int InfinitelyBig SDL",
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "ShowDetalizationLevel",
           "package": "PCLT",
@@ -5922,6 +6436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "Allocated_SDLM",
           "package": "PCLT",
@@ -5931,6 +6446,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "Allocated_SDLM",
           "package": "PCLT",
@@ -5944,6 +6460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "InfinitelyBig_SDL",
           "package": "PCLT",
@@ -5953,6 +6470,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "InfinitelyBig_SDL",
           "package": "PCLT",
@@ -5966,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "One_SDL",
           "package": "PCLT",
@@ -5975,6 +6494,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "One_SDL",
           "package": "PCLT",
@@ -5988,6 +6508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "Required_SDLM",
           "package": "PCLT",
@@ -5997,6 +6518,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "Required_SDLM",
           "package": "PCLT",
@@ -6010,6 +6532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "SDL",
           "package": "PCLT",
@@ -6019,6 +6542,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "SDL",
           "package": "PCLT",
@@ -6032,6 +6556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "Zero_SDL",
           "package": "PCLT",
@@ -6041,6 +6566,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "Zero_SDL",
           "package": "PCLT",
@@ -6055,6 +6581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn case, if SDL (of reciever of template requirement) is unclear,\n and if it is allowed by config - then SDL gets assigned according to margin:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e if modus is allocation to reciever - the we give him \u003ccode\u003eZero_SDL\u003c/code\u003e (minimum)\n\u003c/li\u003e\u003cli\u003e if modus is requirement by template - the we give\n him \u003ccode\u003eInfinitelyBig_SDL\u003c/code\u003e (maximum)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "marginOfSDLModus",
           "package": "PCLT",
@@ -6065,6 +6592,7 @@
         "index": {
           "description": "In case if SDL of reciever of template requirement is unclear and if it is allowed by config then SDL gets assigned according to margin if modus is allocation to reciever the we give him Zero SDL minimum if modus is requirement by template the we give him InfinitelyBig SDL maximum",
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "marginOfSDLModus",
           "normalized": "SDLModus-\u003eShowDetalizationLevel",
@@ -6080,6 +6608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SDL",
           "name": "strict_str2sdl",
           "package": "PCLT",
@@ -6089,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT SDL",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SDL",
           "name": "strict_str2sdl",
           "normalized": "String-\u003eMaybe ShowDetalizationLevel",
@@ -6104,6 +6634,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a usual set for modules, that are to be imported by modules\n dedicated to declaring \u003ccode\u003e\u003ca\u003eShowAsPCSI\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHasStaticRawPCLTs\u003c/a\u003e\u003c/code\u003e instances\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.SH__",
           "name": "SH__",
           "package": "PCLT",
@@ -6113,6 +6644,7 @@
         "index": {
           "description": "This is usual set for modules that are to be imported by modules dedicated to declaring ShowAsPCSI and HasStaticRawPCLTs instances",
           "hierarchy": "Text PCLT SH__",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.SH__",
           "name": "SH__",
           "package": "PCLT",
@@ -6127,6 +6659,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWARNING: Creating an instance of \u003ccode\u003e\u003ca\u003eShowAsPCSI\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eByteString\u003c/code\u003es\n and/or other text types is not recommended. Use of such instaniations\n would dread strictness of templates catalog structure - make it's\n use workaroundish, less systematic and less strict, which is a way\n to badmade applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.ShowAsPCSI",
           "name": "ShowAsPCSI",
           "package": "PCLT",
@@ -6136,6 +6669,7 @@
         "index": {
           "description": "WARNING Creating an instance of ShowAsPCSI for String ByteString and or other text types is not recommended Use of such instaniations would dread strictness of templates catalog structure make it use workaroundish less systematic and less strict which is way to badmade applications",
           "hierarchy": "Text PCLT ShowAsPCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.ShowAsPCSI",
           "name": "ShowAsPCSI",
           "package": "PCLT",
@@ -6150,6 +6684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOur extended version of \u003ccode\u003eShow\u003c/code\u003e class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.ShowAsPCSI",
           "name": "ShowAsPCSI",
           "package": "PCLT",
@@ -6159,6 +6694,7 @@
         "index": {
           "description": "Our extended version of Show class",
           "hierarchy": "Text PCLT ShowAsPCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.ShowAsPCSI",
           "name": "ShowAsPCSI",
           "package": "PCLT",
@@ -6172,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.ShowAsPCSI",
           "name": "showAsPCSI",
           "package": "PCLT",
@@ -6181,6 +6718,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT ShowAsPCSI",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.ShowAsPCSI",
           "name": "showAsPCSI",
           "normalized": "a-\u003ePCSI",
@@ -6197,6 +6735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHere are declared \u003ccode\u003e\u003ca\u003eLocalizableTemplate\u003c/a\u003e\u003c/code\u003e (also called PCLT)\n and \u003ccode\u003e\u003ca\u003eLocalizedTemplate\u003c/a\u003e\u003c/code\u003e.\n Here by localization is meant localization in languages.\n First (localizable template) is above languages,\n while second (localized template) is a template version\n in a concrete language.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "Template",
           "package": "PCLT",
@@ -6206,6 +6745,7 @@
         "index": {
           "description": "Here are declared LocalizableTemplate also called PCLT and LocalizedTemplate Here by localization is meant localization in languages First localizable template is above languages while second localized template is template version in concrete language",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "Template",
           "package": "PCLT",
@@ -6219,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "DefaultLngTpl",
           "package": "PCLT",
@@ -6227,6 +6768,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "DefaultLngTpl",
           "package": "PCLT",
@@ -6241,6 +6783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "LngTpl_AbstractedString",
           "package": "PCLT",
@@ -6250,6 +6793,7 @@
         "index": {
           "description": "Template content",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "LngTpl_AbstractedString",
           "package": "PCLT",
@@ -6263,6 +6807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "LngTpl_SubCompositesMap",
           "package": "PCLT",
@@ -6271,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "LngTpl_SubCompositesMap",
           "package": "PCLT",
@@ -6284,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "LocalizableTemplate",
           "package": "PCLT",
@@ -6292,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "LocalizableTemplate",
           "package": "PCLT",
@@ -6305,6 +6853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "LocalizedTemplate",
           "package": "PCLT",
@@ -6313,6 +6862,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "LocalizedTemplate",
           "package": "PCLT",
@@ -6326,6 +6876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "NondefaultLngTpl",
           "package": "PCLT",
@@ -6334,6 +6885,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "NondefaultLngTpl",
           "package": "PCLT",
@@ -6347,6 +6899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_AllocatedShowDetalizationLevel",
           "package": "PCLT",
@@ -6355,6 +6908,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_AllocatedShowDetalizationLevel",
           "package": "PCLT",
@@ -6368,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_CatalogMap",
           "package": "PCLT",
@@ -6376,6 +6931,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_CatalogMap",
           "package": "PCLT",
@@ -6390,6 +6946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a bad result of parsing some \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n into \u003ccode\u003e\u003ca\u003ePCLT_ShowDetalizationLevel\u003c/a\u003e\u003c/code\u003e. The second argument is this bad input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_ErrornousSDL",
           "package": "PCLT",
@@ -6399,6 +6956,7 @@
         "index": {
           "description": "This is bad result of parsing some String into PCLT ShowDetalizationLevel The second argument is this bad input",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_ErrornousSDL",
           "package": "PCLT",
@@ -6413,6 +6971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese errors are possible only if program is wrong.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_ParserLowLevelFailure",
           "package": "PCLT",
@@ -6422,6 +6981,7 @@
         "index": {
           "description": "These errors are possible only if program is wrong",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_ParserLowLevelFailure",
           "package": "PCLT",
@@ -6436,6 +6996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw templates (both localizeds, and localizables).\n Input data for catalog formation. Used by \u003ccode\u003eHasStaticRawPCLTs\u003c/code\u003e class\n (declared in \u003ca\u003eText.PCLT.HasStaticRawPCLTs\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_RawCatalogData",
           "package": "PCLT",
@@ -6445,6 +7006,7 @@
         "index": {
           "description": "Raw templates both localizeds and localizables Input data for catalog formation Used by HasStaticRawPCLTs class declared in Text.PCLT.HasStaticRawPCLTs",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_RawCatalogData",
           "package": "PCLT",
@@ -6458,6 +7020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_RequiredShowDetalizationLevel",
           "package": "PCLT",
@@ -6466,6 +7029,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_RequiredShowDetalizationLevel",
           "package": "PCLT",
@@ -6480,6 +7044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an extending wrapper around SDL. It is used for specification\n of requirement for making representation from template. This specification\n is attached to every localizable template in PCLT catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_ShowDetalizationLevel",
           "package": "PCLT",
@@ -6489,6 +7054,7 @@
         "index": {
           "description": "This is an extending wrapper around SDL It is used for specification of requirement for making representation from template This specification is attached to every localizable template in PCLT catalog",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_ShowDetalizationLevel",
           "package": "PCLT",
@@ -6503,6 +7069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are types of template pieces. They are made by \u003ccode\u003e\u003ca\u003essm2ldtm\u003c/a\u003e\u003c/code\u003e\n from \u003ccode\u003e\u003ca\u003eSeparatedSectorMarker\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCS_SpecificMarkings",
           "package": "PCLT",
@@ -6512,6 +7079,7 @@
         "index": {
           "description": "These are types of template pieces They are made by ssm2ldtm from SeparatedSectorMarker",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCS_SpecificMarkings",
           "package": "PCLT",
@@ -6525,6 +7093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "ParserBadResult",
           "package": "PCLT",
@@ -6533,6 +7102,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "ParserBadResult",
           "package": "PCLT",
@@ -6546,6 +7116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "BadMarker_PLLF_PCLT",
           "package": "PCLT",
@@ -6555,6 +7126,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "BadMarker_PLLF_PCLT",
           "package": "PCLT",
@@ -6568,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "Composite_LngTplM",
           "package": "PCLT",
@@ -6577,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "Composite_LngTplM",
           "package": "PCLT",
@@ -6590,6 +7164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "LocalizableTemplate",
           "package": "PCLT",
@@ -6599,6 +7174,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "LocalizableTemplate",
           "package": "PCLT",
@@ -6612,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "LocalizedTemplate",
           "package": "PCLT",
@@ -6621,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "LocalizedTemplate",
           "package": "PCLT",
@@ -6634,6 +7212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_RawCatalogData",
           "package": "PCLT",
@@ -6643,6 +7222,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_RawCatalogData",
           "normalized": "PCLT_RawCatalogData(Map PCLT_ID(Map LanguageName ByteString,PCLT_RequiredShowDetalizationLevel))",
@@ -6659,6 +7239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain SDL, nominal. If SDL of representation reciever\n is less then that, then template cann't be used in representation\n generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_SDL",
           "package": "PCLT",
@@ -6669,6 +7250,7 @@
         "index": {
           "description": "Plain SDL nominal If SDL of representation reciever is less then that then template cann be used in representation generation",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_SDL",
           "package": "PCLT",
@@ -6683,6 +7265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn input data for catalog formation the given specification\n is errornous.\n If config's (\u003ca\u003eText.PCLT.Config\u003c/a\u003e) parameters\n \u003ccode\u003e\u003ca\u003epcsAllowEmptySDL_parseItByModusMargin\u003c/a\u003e\u003c/code\u003e and/or\n \u003ccode\u003e\u003ca\u003epcsAllowUnreadableSDL_parseIdByModusMargin\u003c/a\u003e\u003c/code\u003e are\n positive, then instead of \u003ccode\u003ePCLT_SDL_Errornous\u003c/code\u003e the parser\n (\u003ccode\u003e\u003ca\u003estr2PCLT_SDL\u003c/a\u003e\u003c/code\u003e) will use \u003ccode\u003e\u003ca\u003emarginOfSDLModus\u003c/a\u003e\u003c/code\u003e to set\n valid specification. When representation generator meets\n \u003ccode\u003ePCLT_SDL_Errornous\u003c/code\u003e it won't use template, and return an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_SDL_Errornous",
           "package": "PCLT",
@@ -6693,6 +7276,7 @@
         "index": {
           "description": "In input data for catalog formation the given specification is errornous If config Text.PCLT.Config parameters pcsAllowEmptySDL parseItByModusMargin and or pcsAllowUnreadableSDL parseIdByModusMargin are positive then instead of PCLT SDL Errornous the parser str2PCLT SDL will use marginOfSDLModus to set valid specification When representation generator meets PCLT SDL Errornous it won use template and return an error",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_SDL_Errornous",
           "package": "PCLT",
@@ -6707,6 +7291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"The requirement is the same as is specified a for referenced\n template, which is referenced by a \u003ccode\u003ePCSI_PV\u003c/code\u003e value of referenced\n parameter (of current template)\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_SDL_ToParamCompositeLink",
           "package": "PCLT",
@@ -6717,6 +7302,7 @@
         "index": {
           "description": "The requirement is the same as is specified for referenced template which is referenced by PCSI PV value of referenced parameter of current template",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_SDL_ToParamCompositeLink",
           "package": "PCLT",
@@ -6731,6 +7317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"The requirement is the same as is specified\n for referenced template\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PCLT_SDL_ToTemplateLink",
           "package": "PCLT",
@@ -6741,6 +7328,7 @@
         "index": {
           "description": "The requirement is the same as is specified for referenced template",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PCLT_SDL_ToTemplateLink",
           "package": "PCLT",
@@ -6754,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "Parameter_LngTplM",
           "package": "PCLT",
@@ -6763,6 +7352,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "Parameter_LngTplM",
           "package": "PCLT",
@@ -6776,6 +7366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "PlainText_LngTplM",
           "package": "PCLT",
@@ -6785,6 +7376,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "PlainText_LngTplM",
           "package": "PCLT",
@@ -6798,6 +7390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "UnexpectedParserResult_PLLF_PCLT",
           "package": "PCLT",
@@ -6807,6 +7400,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "UnexpectedParserResult_PLLF_PCLT",
           "package": "PCLT",
@@ -6820,6 +7414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "UnreadableSDL_ESDL",
           "package": "PCLT",
@@ -6829,6 +7424,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "UnreadableSDL_ESDL",
           "package": "PCLT",
@@ -6842,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "Unsupported_LngTplM",
           "package": "PCLT",
@@ -6851,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "Unsupported_LngTplM",
           "package": "PCLT",
@@ -6865,6 +7463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constant currently set to 25. It is used in a parser \u003ccode\u003e\u003ca\u003estr2PCLT_SDL\u003c/a\u003e\u003c/code\u003e:\n if the input is errornous, this much symbols of input are saved\n in \u003ccode\u003e\u003ca\u003eUnreadableSDL_ESDL\u003c/a\u003e\u003c/code\u003e. If input is bigger, then the saved trunc is\n tailed with \"...\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "__const_esdl_rawinputshowsize_inShowAsPCSI",
           "package": "PCLT",
@@ -6875,6 +7474,7 @@
         "index": {
           "description": "constant currently set to It is used in parser str2PCLT SDL if the input is errornous this much symbols of input are saved in UnreadableSDL ESDL If input is bigger then the saved trunc is tailed with",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "__const_esdl_rawinputshowsize_inShowAsPCSI",
           "package": "PCLT",
@@ -6888,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "_compareStrictOrientationOnDefault",
           "package": "PCLT",
@@ -6897,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "_compareStrictOrientationOnDefault",
           "normalized": "PCLT_ID-\u003eStrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets-\u003e([PCLT_ID],[ParamName_LBS])-\u003e([PCLT_ID],[ParamName_LBS])-\u003eBool",
@@ -6913,6 +7515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCarrying strict orientation routines. See description of\n \u003ccode\u003e\u003ca\u003eStrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "compareStrictOrientationOnDefault",
           "package": "PCLT",
@@ -6923,6 +7526,7 @@
         "index": {
           "description": "Carrying strict orientation routines See description of StrictOrient ofParamsAndCmpsts onDfltLngTplsSets",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "compareStrictOrientationOnDefault",
           "normalized": "PCLT_ID-\u003eStrictOrient_ofParamsAndCmpsts_onDfltLngTplsSets-\u003eNondefaultLngTpl-\u003eDefaultLngTpl-\u003eBool",
@@ -6939,6 +7543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parsing uses parameters\n \u003ccode\u003eTest.PCLT.Config.pcsParameterPlaceholderWrapper\u003c/code\u003e and\n \u003ccode\u003eTest.PCLT.Config.pcsCompositePlaceholderWrapper\u003c/code\u003e of\n \u003ccode\u003eTest.PCLT.Config.PCLT_InnerConfig\u003c/code\u003e.\n The list \u003ccode\u003e[PCLT_CompositeKey]\u003c/code\u003e in the result is a list of composite keys\n (template IDs, used by template as inclusions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "doTheParse",
           "package": "PCLT",
@@ -6949,6 +7554,7 @@
         "index": {
           "description": "The parsing uses parameters Test.PCLT.Config.pcsParameterPlaceholderWrapper and Test.PCLT.Config.pcsCompositePlaceholderWrapper of Test.PCLT.Config.PCLT InnerConfig The list PCLT CompositeKey in the result is list of composite keys template IDs used by template as inclusions",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "doTheParse",
           "normalized": "PCLT_InnerConfig-\u003eByteString-\u003e([PCLT_ParserLowLevelFailure],Maybe(LngTpl_AbstractedString,[PCLT_CompositeKey]))",
@@ -6964,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "ldtAbstractedString",
           "package": "PCLT",
@@ -6973,6 +7580,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "ldtAbstractedString",
           "package": "PCLT",
@@ -6987,6 +7595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach composition tree is kept together with each\n localization. This is done for speedup and is a source\n of complexities, when forming a catalog and sustaining it's\n data consistency. So it comes to this:\n templates are purely-referenced by\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e catalog (\u003ccode\u003e\u003ca\u003ePCLT_CatalogMap\u003c/a\u003e\u003c/code\u003e) and\n\u003c/li\u003e\u003cli\u003e templates, that uses them as composites\n (\u003ccode\u003e\u003ca\u003eLngTpl_SubCompositesMap\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eBy \"purely-reference\" here is meant, that templates are\n formed only once, they have one instace in memory, but\n are referenced twice - from composeds and from catalog map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "ldtSubcompositesMap",
           "package": "PCLT",
@@ -6997,6 +7606,7 @@
         "index": {
           "description": "Each composition tree is kept together with each localization This is done for speedup and is source of complexities when forming catalog and sustaining it data consistency So it comes to this templates are purely-referenced by catalog PCLT CatalogMap and templates that uses them as composites LngTpl SubCompositesMap By purely-reference here is meant that templates are formed only once they have one instace in memory but are referenced twice from composeds and from catalog map",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "ldtSubcompositesMap",
           "package": "PCLT",
@@ -7011,6 +7621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a list of parameter names from a template content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "listOfParams",
           "package": "PCLT",
@@ -7021,6 +7632,7 @@
         "index": {
           "description": "Extract list of parameter names from template content",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "listOfParams",
           "normalized": "LngTpl_AbstractedString-\u003e[ParamName_LBS]",
@@ -7036,6 +7648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "pcltLocalizationsMap",
           "package": "PCLT",
@@ -7045,6 +7658,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "pcltLocalizationsMap",
           "package": "PCLT",
@@ -7059,6 +7673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf SDL of representation reciever\n is less then that, then template cann't be used in representation\n generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "pcltRequiredSDL",
           "package": "PCLT",
@@ -7069,6 +7684,7 @@
         "index": {
           "description": "If SDL of representation reciever is less then that then template cann be used in representation generation",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "pcltRequiredSDL",
           "package": "PCLT",
@@ -7082,6 +7698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "ssm2ldtm",
           "package": "PCLT",
@@ -7091,6 +7708,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "ssm2ldtm",
           "normalized": "SeparatedSectorMarker-\u003ePCS_SpecificMarkings",
@@ -7106,6 +7724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e into \u003ccode\u003e\u003ca\u003ePCLT_ShowDetalizationLevel\u003c/a\u003e\u003c/code\u003e. First of all parser\n tries \u003ccode\u003e\u003ca\u003estrict_str2sdl\u003c/a\u003e\u003c/code\u003e. Then, if failed, parser uses following\n config entries:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003epcsParameterPlaceholderWrapper\u003c/a\u003e\u003c/code\u003e -\n if prefix and postfix of input is this (by default it is \"@@|\"),\n then it is parsed into \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToParamCompositeLink\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003epcsCompositePlaceholderWrapper\u003c/a\u003e\u003c/code\u003e -\n if prefix and postfix of input is this (by default it is \"##|\"),\n then it is parsed into \u003ccode\u003e\u003ca\u003ePCLT_SDL_ToTemplateLink\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003epcsAllowEmptySDL_parseItByModusMargin\u003c/a\u003e\u003c/code\u003e -\n if it is positive and input is empty, then it gets parsed into\n (\u003ccode\u003ePCLT_SDL $ \u003ccode\u003e\u003ca\u003emarginOfSDLModus\u003c/a\u003e\u003c/code\u003e modus\u003c/code\u003e), where modus\n is first argument; esle, if parameter is negative and input is empty,\n it is parsed to \u003ccode\u003e\u003ca\u003ePCLT_SDL_Errornous\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003epcsAllowUnreadableSDL_parseIdByModusMargin\u003c/a\u003e\u003c/code\u003e -\n if it is positive and input is unparsable, then it gets parsed into\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePCLT_SDL\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003emarginOfSDLModus\u003c/a\u003e\u003c/code\u003e modus\u003c/code\u003e, where modus\n is first argument; esle, if parameter is negative and input is unparsable,\n it is parsed to \u003ccode\u003e\u003ca\u003ePCLT_SDL_Errornous\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT.Template",
           "name": "str2PCLT_SDL",
           "package": "PCLT",
@@ -7116,6 +7735,7 @@
         "index": {
           "description": "Parse String into PCLT ShowDetalizationLevel First of all parser tries strict str2sdl Then if failed parser uses following config entries pcsParameterPlaceholderWrapper if prefix and postfix of input is this by default it is then it is parsed into PCLT SDL ToParamCompositeLink pcsCompositePlaceholderWrapper if prefix and postfix of input is this by default it is then it is parsed into PCLT SDL ToTemplateLink pcsAllowEmptySDL parseItByModusMargin if it is positive and input is empty then it gets parsed into PCLT SDL marginOfSDLModus modus where modus is first argument esle if parameter is negative and input is empty it is parsed to PCLT SDL Errornous pcsAllowUnreadableSDL parseIdByModusMargin if it is positive and input is unparsable then it gets parsed into PCLT SDL marginOfSDLModus modus where modus is first argument esle if parameter is negative and input is unparsable it is parsed to PCLT SDL Errornous",
           "hierarchy": "Text PCLT Template",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT.Template",
           "name": "str2PCLT_SDL",
           "normalized": "SDLModus-\u003eString-\u003ePCLT_InnerConfig-\u003ePCLT_ShowDetalizationLevel",
@@ -7132,6 +7752,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is thought to be imported outside of PCLT package by modules,\n that use PCLT logics (catalog formation routines and\n messages generation routines)\n\u003c/p\u003e\u003cp\u003eAnd another briefing on what is PCLT. First is in the top level of\n Haddock documentation provided for the package.\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.SH__\"\n\u003c/pre\u003e\u003cp\u003eThis module provides interfaces to the classes \u003ccode\u003e\u003ca\u003eShowAsPCSI\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eHasStaticRawPCLTs\u003c/a\u003e\u003c/code\u003e an all the routines, that usually are used for\n declaration of their instanitations.\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.ConstraintedLBS\"\n\u003c/pre\u003e\u003cp\u003eA constrainting (the constraint here is on it's size) wrapper for a\n lazy \u003ccode\u003eByteString\u003c/code\u003e (LBS) - this container is used for messages\n generated from PCLT templates\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.InitialDefaultCatalog\"\n\u003c/pre\u003e\u003cpre\u003e initDefaultCatalog_3 :: Text.PCLT.Catalog.PCLT_CatalogID -\u003e (StdErr_CLBS, ShowDetalizationLevel, LanguageName) -\u003e (PCLT_Catalog, StdErr_CLBS)\n\u003c/pre\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.Catalog\"\n\u003c/pre\u003e\u003cp\u003eCatalog is a unit with 3 fields: catalog ID, config, and a map by\n template_IDs of templates, where each template is: minimal SDL required\n to represent message from this template, and a maps by languages of\n localized templates.\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.CatalogFromHSRT\"\n\u003c/pre\u003e\u003cp\u003eWe want to add to the default catalog some our application specific\n entries (templates)\n\u003c/p\u003e\u003cpre\u003e addFromHSRTToCatalog_2 :: HasStaticRawPCLTs a =\u003e a -\u003e PCLT_Catalog -\u003e (StdErr_CLBS, ShowDetalizationLevel, LanguageName) -\u003e (PCLT_Catalog, StdErr_CLBS)\n\u003c/pre\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.CommonTypes\"\n\u003c/pre\u003e\u003cp\u003eSome type aliases, like \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLanguageName\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.Config\"\n\u003c/pre\u003e\u003cp\u003eConfiguration that influences the behaviour of catalog formation routines\n and messages generation routines.\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.MakeMessage\"\n\u003c/pre\u003e\u003cp\u003ePCSI(template_id + params) + language_name + recepient_SDL + catalog \u003e---(Text.PCLT.MakeMessage)---\u003e message\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.MakeMessage2\"\n\u003c/pre\u003e\u003cp\u003eSome comfort wrappers for \u003ca\u003eText.PCLT.MakeMessage\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.SDL\"\n\u003c/pre\u003e\u003cp\u003eSDL (Show Detalization Level) is a 1-dimensional variable type, built\n on Int, but extended with additional values:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eZero_SDL\u003c/code\u003e (absolute minimal level) \u003ccode\u003e\u003c One_SDL\u003c/code\u003e (minimal something) \u003ccode\u003e\u003c SDL Int \u003c InfinitelyBig_SDL\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eWith SDL we regulate, how much some Reader (of our generated messages)\n wishes (is allowed) to see.\n\u003c/p\u003e\u003cp\u003e_______________\n\u003c/p\u003e\u003cpre\u003e export \"Text.PCLT.ShowAsPCSI__\"\n\u003c/pre\u003e\u003cp\u003eSome general instances of \u003ccode\u003e\u003ca\u003eShowAsPCSI\u003c/a\u003e\u003c/code\u003e class are to be found here\n (Bool, ShowAsPCSI a =\u003e Maybe a, SomeException)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "PCLT",
           "package": "PCLT",
@@ -7141,6 +7762,7 @@
         "index": {
           "description": "This is thought to be imported outside of PCLT package by modules that use PCLT logics catalog formation routines and messages generation routines And another briefing on what is PCLT First is in the top level of Haddock documentation provided for the package export Text.PCLT.SH This module provides interfaces to the classes ShowAsPCSI and HasStaticRawPCLTs an all the routines that usually are used for declaration of their instanitations export Text.ConstraintedLBS constrainting the constraint here is on it size wrapper for lazy ByteString LBS this container is used for messages generated from PCLT templates export Text.PCLT.InitialDefaultCatalog initDefaultCatalog Text.PCLT.Catalog.PCLT CatalogID StdErr CLBS ShowDetalizationLevel LanguageName PCLT Catalog StdErr CLBS export Text.PCLT.Catalog Catalog is unit with fields catalog ID config and map by template IDs of templates where each template is minimal SDL required to represent message from this template and maps by languages of localized templates export Text.PCLT.CatalogFromHSRT We want to add to the default catalog some our application specific entries templates addFromHSRTToCatalog HasStaticRawPCLTs PCLT Catalog StdErr CLBS ShowDetalizationLevel LanguageName PCLT Catalog StdErr CLBS export Text.PCLT.CommonTypes Some type aliases like LanguageName String export Text.PCLT.Config Configuration that influences the behaviour of catalog formation routines and messages generation routines export Text.PCLT.MakeMessage PCSI template id params language name recepient SDL catalog Text.PCLT.MakeMessage message export Text.PCLT.MakeMessage2 Some comfort wrappers for Text.PCLT.MakeMessage export Text.PCLT.SDL SDL Show Detalization Level is dimensional variable type built on Int but extended with additional values Zero SDL absolute minimal level One SDL minimal something SDL Int InfinitelyBig SDL With SDL we regulate how much some Reader of our generated messages wishes is allowed to see export Text.PCLT.ShowAsPCSI Some general instances of ShowAsPCSI class are to be found here Bool ShowAsPCSI Maybe SomeException",
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "PCLT",
           "package": "PCLT",
@@ -7154,6 +7776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "PCLTRawCatalog__Text_PCLT_ShowAsPCSI",
           "package": "PCLT",
@@ -7162,6 +7785,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "PCLTRawCatalog__Text_PCLT_ShowAsPCSI",
           "package": "PCLT",
@@ -7175,6 +7799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "PCLTRawCatalog__Text_PCLT_ShowAsPCSI_GeneralCommons",
           "package": "PCLT",
@@ -7183,6 +7808,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "PCLTRawCatalog__Text_PCLT_ShowAsPCSI_GeneralCommons",
           "package": "PCLT",
@@ -7196,6 +7822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "SeparatedSectorMarker_PCSIWrapped",
           "package": "PCLT",
@@ -7204,6 +7831,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "SeparatedSectorMarker_PCSIWrapped",
           "package": "PCLT",
@@ -7217,6 +7845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "StandartMarkingStrategyError_PCSIWrapped",
           "package": "PCLT",
@@ -7225,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "StandartMarkingStrategyError_PCSIWrapped",
           "package": "PCLT",
@@ -7238,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "PCLTRawCatalog__Text_PCLT_ShowAsPCSI",
           "package": "PCLT",
@@ -7247,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "PCLTRawCatalog__Text_PCLT_ShowAsPCSI",
           "package": "PCLT",
@@ -7260,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "PCLTRawCatalog__Text_PCLT_ShowAsPCSI_GeneralCommons",
           "package": "PCLT",
@@ -7269,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "PCLTRawCatalog__Text_PCLT_ShowAsPCSI_GeneralCommons",
           "package": "PCLT",
@@ -7282,6 +7916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "SeparatedSectorMarker_PCSIWrapped",
           "package": "PCLT",
@@ -7291,6 +7926,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "SeparatedSectorMarker_PCSIWrapped",
           "package": "PCLT",
@@ -7304,6 +7940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:18 UTC 2014",
           "module": "Text.PCLT",
           "name": "StandartMarkingStrategyError_PCSIWrapped",
           "package": "PCLT",
@@ -7313,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "Text PCLT",
+          "indexed": "2014-03-11T16:56:18",
           "module": "Text.PCLT",
           "name": "StandartMarkingStrategyError_PCSIWrapped",
           "package": "PCLT",

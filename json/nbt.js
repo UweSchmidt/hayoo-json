@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nbt"
+        "phrase": "nbt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines a Haskell representation of Minecraft's NBT binary data\nformat, along with instances of \u003ccode\u003e\u003ca\u003eSerialize\u003c/a\u003e\u003c/code\u003e. See the\nNBT specification for details:\n\u003ca\u003ehttps://raw.github.com/acfoltzer/nbt/master/NBT-spec.txt\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "NBT",
           "package": "nbt",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Defines Haskell representation of Minecraft NBT binary data format along with instances of Serialize See the NBT specification for details https raw.github.com acfoltzer nbt master NBT-spec.txt",
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "NBT",
           "package": "nbt",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive representation of NBT data. This type contains only the data\n part, since named nodes can only exist inside compound nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "NBT",
           "package": "nbt",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Primitive representation of NBT data This type contains only the data part since named nodes can only exist inside compound nodes",
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "NBT",
           "package": "nbt",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "NbtContents",
           "package": "nbt",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "NbtContents",
           "package": "nbt",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag types listed in order so that deriving \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e will assign\n them the correct number for the binary type field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "TagType",
           "package": "nbt",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Tag types listed in order so that deriving Enum will assign them the correct number for the binary type field",
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "TagType",
           "package": "nbt",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "ByteArrayTag",
           "package": "nbt",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "ByteArrayTag",
           "package": "nbt",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "ByteArrayType",
           "package": "nbt",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "ByteArrayType",
           "package": "nbt",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "ByteTag",
           "package": "nbt",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "ByteTag",
           "package": "nbt",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "ByteType",
           "package": "nbt",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "ByteType",
           "package": "nbt",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "CompoundTag",
           "package": "nbt",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "CompoundTag",
           "normalized": "CompoundTag[NBT]",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "CompoundType",
           "package": "nbt",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "CompoundType",
           "package": "nbt",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "DoubleTag",
           "package": "nbt",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "DoubleTag",
           "package": "nbt",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "DoubleType",
           "package": "nbt",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "DoubleType",
           "package": "nbt",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "EndType",
           "package": "nbt",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "EndType",
           "package": "nbt",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "FloatTag",
           "package": "nbt",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "FloatTag",
           "package": "nbt",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "FloatType",
           "package": "nbt",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "FloatType",
           "package": "nbt",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "IntArrayTag",
           "package": "nbt",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "IntArrayTag",
           "package": "nbt",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "IntArrayType",
           "package": "nbt",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "IntArrayType",
           "package": "nbt",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "IntTag",
           "package": "nbt",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "IntTag",
           "package": "nbt",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "IntType",
           "package": "nbt",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "IntType",
           "package": "nbt",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "ListTag",
           "package": "nbt",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "ListTag",
           "package": "nbt",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "ListType",
           "package": "nbt",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "ListType",
           "package": "nbt",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "LongTag",
           "package": "nbt",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "LongTag",
           "package": "nbt",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "LongType",
           "package": "nbt",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "LongType",
           "package": "nbt",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "NBT",
           "package": "nbt",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "NBT",
           "package": "nbt",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "ShortTag",
           "package": "nbt",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "ShortTag",
           "package": "nbt",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "ShortType",
           "package": "nbt",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "ShortType",
           "package": "nbt",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "StringTag",
           "package": "nbt",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "StringTag",
           "package": "nbt",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "StringType",
           "package": "nbt",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "StringType",
           "package": "nbt",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "getArrayElements",
           "package": "nbt",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "getArrayElements",
           "normalized": "a-\u003eGet b-\u003eGet(c a b)",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "getByType",
           "package": "nbt",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "getByType",
           "normalized": "TagType-\u003eGet NbtContents",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "putContents",
           "package": "nbt",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "putContents",
           "normalized": "NbtContents-\u003ePut",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:23 UTC 2014",
           "module": "Data.NBT",
           "name": "typeOf",
           "package": "nbt",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data NBT",
+          "indexed": "2014-03-11T19:26:23",
           "module": "Data.NBT",
           "name": "typeOf",
           "normalized": "NbtContents-\u003eTagType",

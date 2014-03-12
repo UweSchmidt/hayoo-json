@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-middleware-headers"
+        "phrase": "wai-middleware-headers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:39 UTC 2014",
           "module": "Network.Wai.Middleware.Headers",
           "name": "Headers",
           "package": "wai-middleware-headers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Headers",
+          "indexed": "2014-03-11T20:36:39",
           "module": "Network.Wai.Middleware.Headers",
           "name": "Headers",
           "package": "wai-middleware-headers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:39 UTC 2014",
           "module": "Network.Wai.Middleware.Headers",
           "name": "addHeaders",
           "package": "wai-middleware-headers",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Headers",
+          "indexed": "2014-03-11T20:36:39",
           "module": "Network.Wai.Middleware.Headers",
           "name": "addHeaders",
           "normalized": "[Header]-\u003eMiddleware",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:39 UTC 2014",
           "module": "Network.Wai.Middleware.Headers",
           "name": "cors",
           "package": "wai-middleware-headers",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Headers",
+          "indexed": "2014-03-11T20:36:39",
           "module": "Network.Wai.Middleware.Headers",
           "name": "cors",
           "package": "wai-middleware-headers",

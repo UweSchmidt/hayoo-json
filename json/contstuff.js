@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "contstuff"
+        "phrase": "contstuff",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the various effect classes supported by\n contstuff.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "Classes",
           "package": "contstuff",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements the various effect classes supported by contstuff",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "Classes",
           "package": "contstuff",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads supporting abortion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "Abortable",
           "package": "contstuff",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Monads supporting abortion",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "Abortable",
           "package": "contstuff",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads supporting *call-with-current-continuation* (aka callCC).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "CallCC",
           "package": "contstuff",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Monads supporting call-with-current-continuation aka callCC",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "CallCC",
           "package": "contstuff",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads with support for forking threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "Forkable",
           "package": "contstuff",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Monads with support for forking threads",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "Forkable",
           "package": "contstuff",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads with exception support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "HasExceptions",
           "package": "contstuff",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Monads with exception support",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "HasExceptions",
           "package": "contstuff",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA jump label for \u003ccode\u003e\u003ca\u003elabelCC\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egoto\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "Label",
           "package": "contstuff",
@@ -143,6 +154,7 @@
         "index": {
           "description": "jump label for labelCC and goto",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "Label",
           "package": "contstuff",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for lifting functor computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "LiftFunctor",
           "package": "contstuff",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Type class for lifting functor computations",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "LiftFunctor",
           "package": "contstuff",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads with environment (reader monads).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "Readable",
           "package": "contstuff",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Monads with environment reader monads",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "Readable",
           "package": "contstuff",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStateful monads, i.e. having a modifyable environment (stateful monads).\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003eputLazy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "Stateful",
           "package": "contstuff",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Stateful monads i.e having modifyable environment stateful monads Minimal complete definition putLazy",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "Stateful",
           "package": "contstuff",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads with support for logging.  Traditionally these are called\n *writer monads*.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "Writable",
           "package": "contstuff",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Monads with support for logging Traditionally these are called writer monads",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "Writable",
           "package": "contstuff",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore current continuation and abort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "abort",
           "package": "contstuff",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Ignore current continuation and abort",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "abort",
           "normalized": "Result a-\u003ea b",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a resource, run a computation, then release the resource, even\n if an exception is raised:\n\u003c/p\u003e\u003cpre\u003e bracket acquire release use\n\u003c/pre\u003e\u003cp\u003ePlease note that this function behaves slightly different from the\n usual \u003ccode\u003eE.bracket\u003c/code\u003e.  If both the user and the releaser throw an\n exception, the user exception is significant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "bracket",
           "package": "contstuff",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Get resource run computation then release the resource even if an exception is raised bracket acquire release use Please note that this function behaves slightly different from the usual E.bracket If both the user and the releaser throw an exception the user exception is significant",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "bracket",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize, then run, then clean up safely, even if an exception is\n raised:\n\u003c/p\u003e\u003cpre\u003e bracket_ init cleanup run\n\u003c/pre\u003e\u003cp\u003ePlease note that this function behaves slightly different from the\n usual \u003ccode\u003eE.bracket_\u003c/code\u003e.  If both the user and the releaser throw an\n exception, the user exception is significant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "bracket_",
           "package": "contstuff",
@@ -309,6 +334,7 @@
         "index": {
           "description": "Initialize then run then clean up safely even if an exception is raised bracket init cleanup run Please note that this function behaves slightly different from the usual E.bracket If both the user and the releaser throw an exception the user exception is significant",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "bracket_",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea d",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall with current continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "callCC",
           "package": "contstuff",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Call with current continuation",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "callCC",
           "normalized": "((a-\u003eb c)-\u003eb a)-\u003eb a",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch exceptions using an exception handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "catch",
           "package": "contstuff",
@@ -360,6 +389,7 @@
         "index": {
           "description": "Catch exceptions using an exception handler",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "catch",
           "normalized": "a b-\u003e(Exception a-\u003ea b)-\u003ea b",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a final computation regardless of whether an exception was\n raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "finally",
           "package": "contstuff",
@@ -385,6 +416,7 @@
         "index": {
           "description": "Run final computation regardless of whether an exception was raised",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "finally",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail (in the sense of the given transformer), if the given\n underlying computation returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "forbid",
           "package": "contstuff",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Fail in the sense of the given transformer if the given underlying computation returns True",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "forbid",
           "normalized": "a Bool-\u003eb a()",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "forkIO",
           "package": "contstuff",
@@ -435,6 +470,7 @@
         "index": {
           "description": "Generalization of forkIO",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "forkIO",
           "normalized": "a()-\u003ea ThreadId",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003eforkOS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "forkOS",
           "package": "contstuff",
@@ -461,6 +498,7 @@
         "index": {
           "description": "Generalization of forkOS",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "forkOS",
           "normalized": "a()-\u003ea ThreadId",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "get",
           "package": "contstuff",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Get the current state",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "get",
           "package": "contstuff",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a certain field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "getField",
           "package": "contstuff",
@@ -510,6 +551,7 @@
         "index": {
           "description": "Get certain field",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "getField",
           "normalized": "(StateOf a-\u003eb)-\u003ea b",
@@ -526,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJump to a label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "goto",
           "package": "contstuff",
@@ -536,6 +579,7 @@
         "index": {
           "description": "Jump to label",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "goto",
           "normalized": "Label a b-\u003eb-\u003ea()",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch exceptions using an exception handler (flip \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "handle",
           "package": "contstuff",
@@ -561,6 +606,7 @@
         "index": {
           "description": "Catch exceptions using an exception handler flip catch",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "handle",
           "normalized": "(Exception a-\u003ea b)-\u003ea b-\u003ea b",
@@ -576,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture the current continuation for later use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "labelCC",
           "package": "contstuff",
@@ -586,6 +633,7 @@
         "index": {
           "description": "Capture the current continuation for later use",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "labelCC",
           "normalized": "a-\u003eb(a,Label b a)",
@@ -602,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap inner functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "liftF",
           "package": "contstuff",
@@ -612,6 +661,7 @@
         "index": {
           "description": "Unwrap inner functor",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "liftF",
           "normalized": "a(InnerFunctor b c)-\u003eb a c",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the current state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "modify",
           "package": "contstuff",
@@ -637,6 +688,7 @@
         "index": {
           "description": "Apply function to the current state",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "modify",
           "normalized": "(StateOf a-\u003eStateOf a)-\u003ea()",
@@ -652,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a field and modify the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "modifyField",
           "package": "contstuff",
@@ -662,6 +715,7 @@
         "index": {
           "description": "Get field and modify the state",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "modifyField",
           "normalized": "(StateOf a-\u003eb)-\u003e(b-\u003eStateOf a)-\u003ea()",
@@ -678,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a field and modify the state.  Lazy version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "modifyFieldLazy",
           "package": "contstuff",
@@ -688,6 +743,7 @@
         "index": {
           "description": "Get field and modify the state Lazy version",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "modifyFieldLazy",
           "normalized": "(StateOf a-\u003eb)-\u003e(b-\u003eStateOf a)-\u003ea()",
@@ -704,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the current state.  Lazy version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "modifyLazy",
           "package": "contstuff",
@@ -714,6 +771,7 @@
         "index": {
           "description": "Apply function to the current state Lazy version",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "modifyLazy",
           "normalized": "(StateOf a-\u003eStateOf a)-\u003ea()",
@@ -730,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current state and force it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "put",
           "package": "contstuff",
@@ -740,6 +799,7 @@
         "index": {
           "description": "Set the current state and force it",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "put",
           "normalized": "StateOf a-\u003ea()",
@@ -755,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current state, but don't force it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "putLazy",
           "package": "contstuff",
@@ -765,6 +826,7 @@
         "index": {
           "description": "Set the current state but don force it",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "putLazy",
           "normalized": "StateOf a-\u003ea()",
@@ -781,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "raise",
           "package": "contstuff",
@@ -791,6 +854,7 @@
         "index": {
           "description": "Raise an exception",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "raise",
           "normalized": "Exception a-\u003ea b",
@@ -806,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow given exception, if the given computation returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "raiseUnless",
           "package": "contstuff",
@@ -816,6 +881,7 @@
         "index": {
           "description": "Throw given exception if the given computation returns False",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "raiseUnless",
           "normalized": "Exception a-\u003ea Bool-\u003ea()",
@@ -832,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow given exception, if the given computation returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "raiseWhen",
           "package": "contstuff",
@@ -842,6 +909,7 @@
         "index": {
           "description": "Throw given exception if the given computation returns True",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "raiseWhen",
           "normalized": "Exception a-\u003ea Bool-\u003ea()",
@@ -858,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail (in the sense of the given transformer), if the given\n underlying computation returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "require",
           "package": "contstuff",
@@ -868,6 +937,7 @@
         "index": {
           "description": "Fail in the sense of the given transformer if the given underlying computation returns False",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "require",
           "normalized": "a Bool-\u003eb a()",
@@ -883,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "tell",
           "package": "contstuff",
@@ -893,6 +964,7 @@
         "index": {
           "description": "Log value",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "tell",
           "normalized": "a-\u003eb()",
@@ -908,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun computation catching exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Classes",
           "name": "try",
           "package": "contstuff",
@@ -918,6 +991,7 @@
         "index": {
           "description": "Run computation catching exceptions",
           "hierarchy": "Control ContStuff Classes",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Classes",
           "name": "try",
           "normalized": "a b-\u003ea(Either(Exception a)b)",
@@ -933,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements some miscellaneous type class instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Instances",
           "name": "Instances",
           "package": "contstuff",
@@ -942,6 +1017,7 @@
         "index": {
           "description": "This module implements some miscellaneous type class instances",
           "hierarchy": "Control ContStuff Instances",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Instances",
           "name": "Instances",
           "package": "contstuff",
@@ -956,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the non-transformer variants of the monad\n transformers found in \u003ca\u003eControl.ContStuff.Trans\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "Monads",
           "package": "contstuff",
@@ -965,6 +1042,7 @@
         "index": {
           "description": "This module implements the non-transformer variants of the monad transformers found in Control.ContStuff.Trans",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "Monads",
           "package": "contstuff",
@@ -979,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe choice monad.  Derived from \u003ccode\u003e\u003ca\u003eChoiceT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "Choice",
           "package": "contstuff",
@@ -988,6 +1067,7 @@
         "index": {
           "description": "The choice monad Derived from ChoiceT",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "Choice",
           "package": "contstuff",
@@ -1002,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure CPS monad derived from ContT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "Cont",
           "package": "contstuff",
@@ -1011,6 +1092,7 @@
         "index": {
           "description": "Pure CPS monad derived from ContT",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "Cont",
           "package": "contstuff",
@@ -1025,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe traditional writer monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "OldWriter",
           "package": "contstuff",
@@ -1034,6 +1117,7 @@
         "index": {
           "description": "The traditional writer monad",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "OldWriter",
           "package": "contstuff",
@@ -1048,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure computation with environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "Reader",
           "package": "contstuff",
@@ -1057,6 +1142,7 @@
         "index": {
           "description": "Pure computation with environment",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "Reader",
           "package": "contstuff",
@@ -1071,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure state monad derived from StateT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "State",
           "package": "contstuff",
@@ -1080,6 +1167,7 @@
         "index": {
           "description": "Pure state monad derived from StateT",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "State",
           "package": "contstuff",
@@ -1094,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a pure CPS computation to its final result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "evalCont",
           "package": "contstuff",
@@ -1104,6 +1193,7 @@
         "index": {
           "description": "Evaluate pure CPS computation to its final result",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "evalCont",
           "normalized": "Cont a a-\u003ea",
@@ -1120,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a traditional writer computation and return its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "evalOldWriter",
           "package": "contstuff",
@@ -1130,6 +1221,7 @@
         "index": {
           "description": "Run traditional writer computation and return its result",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "evalOldWriter",
           "normalized": "OldWriter a b a-\u003ea",
@@ -1146,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a stateful computation returning its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "evalState",
           "package": "contstuff",
@@ -1156,6 +1249,7 @@
         "index": {
           "description": "Run stateful computation returning its result",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "evalState",
           "normalized": "a-\u003eState b a b-\u003eb",
@@ -1172,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a traditional writer computation and return its log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "execOldWriter",
           "package": "contstuff",
@@ -1182,6 +1277,7 @@
         "index": {
           "description": "Run traditional writer computation and return its log",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "execOldWriter",
           "normalized": "OldWriter a b a-\u003eb",
@@ -1198,6 +1294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a stateful computation returning its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "execState",
           "package": "contstuff",
@@ -1208,6 +1305,7 @@
         "index": {
           "description": "Run stateful computation returning its result",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "execState",
           "normalized": "a-\u003eState a a b-\u003ea",
@@ -1224,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet list of solutions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "listChoice",
           "package": "contstuff",
@@ -1234,6 +1333,7 @@
         "index": {
           "description": "Get list of solutions",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "listChoice",
           "normalized": "Choice[a][a]a-\u003e[a]",
@@ -1250,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet one solution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "maybeChoice",
           "package": "contstuff",
@@ -1260,6 +1361,7 @@
         "index": {
           "description": "Get one solution",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "maybeChoice",
           "normalized": "Choice(Maybe a)(Maybe a)a-\u003eMaybe a",
@@ -1276,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the result of a CPS computation along the way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "modifyCont",
           "package": "contstuff",
@@ -1286,6 +1389,7 @@
         "index": {
           "description": "Modify the result of CPS computation along the way",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "modifyCont",
           "normalized": "(a-\u003ea)-\u003eCont a()",
@@ -1302,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a pure CPS computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "runCont",
           "package": "contstuff",
@@ -1312,6 +1417,7 @@
         "index": {
           "description": "Run pure CPS computation",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "runCont",
           "normalized": "(a-\u003eb)-\u003eCont b a-\u003eb",
@@ -1328,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a traditional writer computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "runOldWriter",
           "package": "contstuff",
@@ -1338,6 +1445,7 @@
         "index": {
           "description": "Run traditional writer computation",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "runOldWriter",
           "normalized": "OldWriter a b a-\u003e(a,b)",
@@ -1354,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a pure computation with environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "runReader",
           "package": "contstuff",
@@ -1364,6 +1473,7 @@
         "index": {
           "description": "Run pure computation with environment",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "runReader",
           "normalized": "a-\u003eReader a b-\u003eb",
@@ -1380,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a stateful computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Monads",
           "name": "runState",
           "package": "contstuff",
@@ -1390,6 +1501,7 @@
         "index": {
           "description": "Run stateful computation",
           "hierarchy": "Control ContStuff Monads",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Monads",
           "name": "runState",
           "normalized": "a-\u003e(b-\u003ea-\u003ec)-\u003eState c a b-\u003ec",
@@ -1406,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides all the transformers from\n \u003ca\u003eControl.ContStuff.Trans\u003c/a\u003e, but with a simplified interface, hiding\n the underlying CPS machinery.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "Simple",
           "package": "contstuff",
@@ -1415,6 +1528,7 @@
         "index": {
           "description": "This module provides all the transformers from Control.ContStuff.Trans but with simplified interface hiding the underlying CPS machinery",
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "Simple",
           "package": "contstuff",
@@ -1428,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "ChoiceT",
           "package": "contstuff",
@@ -1436,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "ChoiceT",
           "package": "contstuff",
@@ -1449,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "EitherT",
           "package": "contstuff",
@@ -1457,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "EitherT",
           "package": "contstuff",
@@ -1470,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "MaybeT",
           "package": "contstuff",
@@ -1478,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "MaybeT",
           "package": "contstuff",
@@ -1492,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad transformer for computations with readable environment.\n Unlike the other monad transformers this one allows no CPS effects\n and also hides its constructors, which makes it commutative.\n\u003c/p\u003e\u003cp\u003eIf you need CPS effects, consider using \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "ReaderT",
           "package": "contstuff",
@@ -1501,6 +1622,7 @@
         "index": {
           "description": "Monad transformer for computations with readable environment Unlike the other monad transformers this one allows no CPS effects and also hides its constructors which makes it commutative If you need CPS effects consider using StateT",
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "ReaderT",
           "package": "contstuff",
@@ -1514,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "StateT",
           "package": "contstuff",
@@ -1522,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "StateT",
           "package": "contstuff",
@@ -1535,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "WriterT",
           "package": "contstuff",
@@ -1543,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "WriterT",
           "package": "contstuff",
@@ -1556,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "choice",
           "package": "contstuff",
@@ -1565,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "choice",
           "normalized": "[a]-\u003eChoiceT b a",
@@ -1579,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "evalEitherT",
           "package": "contstuff",
@@ -1588,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "evalEitherT",
           "normalized": "EitherT a b c-\u003eb(Either a c)",
@@ -1603,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "evalMaybeT",
           "package": "contstuff",
@@ -1612,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "evalMaybeT",
           "normalized": "MaybeT a b-\u003ea(Maybe b)",
@@ -1627,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "evalStateT",
           "package": "contstuff",
@@ -1636,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "evalStateT",
           "normalized": "a-\u003eStateT a b c-\u003eb c",
@@ -1651,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "evalWriterT",
           "package": "contstuff",
@@ -1660,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "evalWriterT",
           "normalized": "WriterT a b c-\u003eb c",
@@ -1675,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "execStateT",
           "package": "contstuff",
@@ -1684,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "execStateT",
           "normalized": "a-\u003eStateT a b c-\u003eb a",
@@ -1699,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "execWriterT",
           "package": "contstuff",
@@ -1708,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "execWriterT",
           "normalized": "WriterT a b c-\u003eb a",
@@ -1723,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "findAll",
           "package": "contstuff",
@@ -1732,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "findAll",
           "normalized": "ChoiceT a b-\u003ea(c b)",
@@ -1747,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "findAll_",
           "package": "contstuff",
@@ -1756,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "findAll_",
           "normalized": "ChoiceT a b-\u003ea()",
@@ -1771,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "findFirst",
           "package": "contstuff",
@@ -1780,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "findFirst",
           "normalized": "ChoiceT a b-\u003ea(c b)",
@@ -1795,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "findFirst_",
           "package": "contstuff",
@@ -1804,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "findFirst_",
           "normalized": "ChoiceT a b-\u003ea()",
@@ -1845,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "listChoiceT",
           "package": "contstuff",
@@ -1854,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "listChoiceT",
           "normalized": "ChoiceT a b-\u003ea[b]",
@@ -1869,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "maybeChoiceT",
           "package": "contstuff",
@@ -1878,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "maybeChoiceT",
           "normalized": "ChoiceT a b-\u003ea(Maybe b)",
@@ -1920,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "runWriterT",
           "package": "contstuff",
@@ -1929,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "runWriterT",
           "normalized": "WriterT a b c-\u003eb(c,a)",
@@ -1944,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "testEitherT",
           "package": "contstuff",
@@ -1953,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "testEitherT",
           "normalized": "EitherT a b c-\u003eb Bool",
@@ -1968,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Simple",
           "name": "testMaybeT",
           "package": "contstuff",
@@ -1977,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Simple",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Simple",
           "name": "testMaybeT",
           "normalized": "MaybeT a b-\u003ea Bool",
@@ -1993,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a number of monad transformers using a CPS\n approach internally.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "Trans",
           "package": "contstuff",
@@ -2002,6 +2161,7 @@
         "index": {
           "description": "This module implements number of monad transformers using CPS approach internally",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "Trans",
           "package": "contstuff",
@@ -2016,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe choice monad transformer, which models, as the most common\n interpretation, nondeterminism.  Internally a list of choices is\n represented as a CPS-based left-fold function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "ChoiceT",
           "package": "contstuff",
@@ -2025,6 +2186,7 @@
         "index": {
           "description": "The choice monad transformer which models as the most common interpretation nondeterminism Internally list of choices is represented as CPS-based left-fold function",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "ChoiceT",
           "package": "contstuff",
@@ -2039,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe continuation passing style monad transformer.  This monad\n transformer models the most basic form of CPS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "ContT",
           "package": "contstuff",
@@ -2048,6 +2211,7 @@
         "index": {
           "description": "The continuation passing style monad transformer This monad transformer models the most basic form of CPS",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "ContT",
           "package": "contstuff",
@@ -2062,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad transformer for CPS computations with an additional exception\n continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "EitherT",
           "package": "contstuff",
@@ -2071,6 +2236,7 @@
         "index": {
           "description": "Monad transformer for CPS computations with an additional exception continuation",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "EitherT",
           "package": "contstuff",
@@ -2085,6 +2251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe trivial monad transformer, which maps a monad to an equivalent monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "IdentityT",
           "package": "contstuff",
@@ -2093,6 +2260,7 @@
         "index": {
           "description": "The trivial monad transformer which maps monad to an equivalent monad",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "IdentityT",
           "package": "contstuff",
@@ -2107,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad transformer for CPS computations with an additional exception\n continuation with no argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "MaybeT",
           "package": "contstuff",
@@ -2116,6 +2285,7 @@
         "index": {
           "description": "Monad transformer for CPS computations with an additional exception continuation with no argument",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "MaybeT",
           "package": "contstuff",
@@ -2130,6 +2300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe traditional writer monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "OldWriterT",
           "package": "contstuff",
@@ -2139,6 +2310,7 @@
         "index": {
           "description": "The traditional writer monad transformer",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "OldWriterT",
           "package": "contstuff",
@@ -2153,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad transformer for computations with readable environment.\n Unlike the other monad transformers this one allows no CPS effects\n and also hides its constructors, which makes it commutative.\n\u003c/p\u003e\u003cp\u003eIf you need CPS effects, consider using \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "ReaderT",
           "package": "contstuff",
@@ -2162,6 +2335,7 @@
         "index": {
           "description": "Monad transformer for computations with readable environment Unlike the other monad transformers this one allows no CPS effects and also hides its constructors which makes it commutative If you need CPS effects consider using StateT",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "ReaderT",
           "package": "contstuff",
@@ -2176,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad transformer for stateful computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "StateT",
           "package": "contstuff",
@@ -2185,6 +2360,7 @@
         "index": {
           "description": "Monad transformer for stateful computations",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "StateT",
           "package": "contstuff",
@@ -2199,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe writer monad transformer.  Supports logging effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "WriterT",
           "package": "contstuff",
@@ -2208,6 +2385,7 @@
         "index": {
           "description": "The writer monad transformer Supports logging effects",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "WriterT",
           "package": "contstuff",
@@ -2221,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "ChoiceT",
           "package": "contstuff",
@@ -2230,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "ChoiceT",
           "package": "contstuff",
@@ -2243,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "ContT",
           "package": "contstuff",
@@ -2252,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "ContT",
           "package": "contstuff",
@@ -2265,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "EitherT",
           "package": "contstuff",
@@ -2274,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "EitherT",
           "package": "contstuff",
@@ -2287,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "IdentityT",
           "package": "contstuff",
@@ -2295,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "IdentityT",
           "package": "contstuff",
@@ -2308,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "MaybeT",
           "package": "contstuff",
@@ -2317,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "MaybeT",
           "package": "contstuff",
@@ -2330,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "StateT",
           "package": "contstuff",
@@ -2339,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "StateT",
           "package": "contstuff",
@@ -2353,6 +2543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a list into a \u003ccode\u003e\u003ca\u003eChoiceT\u003c/a\u003e\u003c/code\u003e computation efficiently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "choice",
           "package": "contstuff",
@@ -2363,6 +2554,7 @@
         "index": {
           "description": "Turn list into ChoiceT computation efficiently",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "choice",
           "normalized": "[a]-\u003eChoiceT b c d a",
@@ -2378,6 +2570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a CPS-style computation to its final result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "evalContT",
           "package": "contstuff",
@@ -2388,6 +2581,7 @@
         "index": {
           "description": "Evaluate CPS-style computation to its final result",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "evalContT",
           "normalized": "ContT a b a-\u003eb a",
@@ -2404,6 +2598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e transformer returning an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "evalEitherT",
           "package": "contstuff",
@@ -2414,6 +2609,7 @@
         "index": {
           "description": "Run an EitherT transformer returning an Either result",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "evalEitherT",
           "normalized": "EitherT(Either a b)a c b-\u003ec(Either a b)",
@@ -2430,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e transformer returning a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "evalMaybeT",
           "package": "contstuff",
@@ -2440,6 +2637,7 @@
         "index": {
           "description": "Run MaybeT transformer returning Maybe result",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "evalMaybeT",
           "normalized": "MaybeT(Maybe a)b a-\u003eb(Maybe a)",
@@ -2456,6 +2654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a traditional writer transformer and return its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "evalOldWriterT",
           "package": "contstuff",
@@ -2466,6 +2665,7 @@
         "index": {
           "description": "Run traditional writer transformer and return its result",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "evalOldWriterT",
           "normalized": "OldWriterT a b c a-\u003ec a",
@@ -2482,6 +2682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a state transformer returning its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "evalStateT",
           "package": "contstuff",
@@ -2492,6 +2693,7 @@
         "index": {
           "description": "Run state transformer returning its result",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "evalStateT",
           "normalized": "a-\u003eStateT b a c b-\u003ec b",
@@ -2508,6 +2710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a traditional writer transformer and return its log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "execOldWriterT",
           "package": "contstuff",
@@ -2518,6 +2721,7 @@
         "index": {
           "description": "Run traditional writer transformer and return its log",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "execOldWriterT",
           "normalized": "OldWriterT a b c a-\u003ec b",
@@ -2534,6 +2738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a state transformer returning its final state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "execStateT",
           "package": "contstuff",
@@ -2544,6 +2749,7 @@
         "index": {
           "description": "Run state transformer returning its final state",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "execStateT",
           "normalized": "a-\u003eStateT a a b c-\u003eb a",
@@ -2560,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all solutions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "findAll",
           "package": "contstuff",
@@ -2570,6 +2777,7 @@
         "index": {
           "description": "Find all solutions",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "findAll",
           "normalized": "ChoiceT(a b)(a b)c b-\u003ec(a b)",
@@ -2586,6 +2794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all solutions and ignore them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "findAll_",
           "package": "contstuff",
@@ -2596,6 +2805,7 @@
         "index": {
           "description": "Find all solutions and ignore them",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "findAll_",
           "normalized": "ChoiceT a b c d-\u003ec()",
@@ -2612,6 +2822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the first solution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "findFirst",
           "package": "contstuff",
@@ -2622,6 +2833,7 @@
         "index": {
           "description": "Find the first solution",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "findFirst",
           "normalized": "ChoiceT(a b)(a b)c b-\u003ec(a b)",
@@ -2638,6 +2850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the first solution and ignore it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "findFirst_",
           "package": "contstuff",
@@ -2648,6 +2861,7 @@
         "index": {
           "description": "Find the first solution and ignore it",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "findFirst_",
           "normalized": "ChoiceT a b c d-\u003ec()",
@@ -2664,6 +2878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a concurrent thread for a computation with environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "forkReaderT",
           "package": "contstuff",
@@ -2674,6 +2889,7 @@
         "index": {
           "description": "Fork concurrent thread for computation with environment",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "forkReaderT",
           "normalized": "ReaderT a b()-\u003eReaderT a b ThreadId",
@@ -2689,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "getChoiceT",
           "package": "contstuff",
@@ -2698,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "getChoiceT",
           "normalized": "(a-\u003eb-\u003e(a-\u003ec d)-\u003ec d)-\u003ea-\u003e(a-\u003ec d)-\u003ec d",
@@ -2713,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "getContT",
           "package": "contstuff",
@@ -2722,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "getContT",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -2737,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "getEitherT",
           "package": "contstuff",
@@ -2746,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "getEitherT",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb c)-\u003eb c",
@@ -2761,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "getMaybeT",
           "package": "contstuff",
@@ -2770,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "getMaybeT",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -2785,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "getStateT",
           "package": "contstuff",
@@ -2794,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "getStateT",
           "normalized": "(a-\u003eb-\u003ec d)-\u003eb-\u003ec d",
@@ -2810,6 +3036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet list of solutions (faster than \u003ccode\u003e\u003ca\u003efindAll\u003c/a\u003e\u003c/code\u003e, but returns solutions\n in reversed order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "listChoiceT",
           "package": "contstuff",
@@ -2820,6 +3047,7 @@
         "index": {
           "description": "Get list of solutions faster than findAll but returns solutions in reversed order",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "listChoiceT",
           "normalized": "ChoiceT[a][a]b a-\u003eb[a]",
@@ -2836,6 +3064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet one solution (faster than \u003ccode\u003e\u003ca\u003efindFirst\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "maybeChoiceT",
           "package": "contstuff",
@@ -2846,6 +3075,7 @@
         "index": {
           "description": "Get one solution faster than findFirst",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "maybeChoiceT",
           "normalized": "ChoiceT(Maybe a)(Maybe a)b a-\u003eb(Maybe a)",
@@ -2862,6 +3092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the final result along the way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "modifyContT",
           "package": "contstuff",
@@ -2872,6 +3103,7 @@
         "index": {
           "description": "Transform the final result along the way",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "modifyContT",
           "normalized": "(a-\u003ea)-\u003eContT a b()",
@@ -2888,6 +3120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the result of an \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e computation along the way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "modifyEitherT",
           "package": "contstuff",
@@ -2898,6 +3131,7 @@
         "index": {
           "description": "Modify the result of an EitherT computation along the way",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "modifyEitherT",
           "normalized": "(a-\u003ea)-\u003eEitherT a b c()",
@@ -2914,6 +3148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the result of a \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e computation along the way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "modifyMaybeT",
           "package": "contstuff",
@@ -2924,6 +3159,7 @@
         "index": {
           "description": "Modify the result of MaybeT computation along the way",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "modifyMaybeT",
           "normalized": "(a-\u003ea)-\u003eMaybeT a b()",
@@ -2940,6 +3176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a choice computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "runChoiceT",
           "package": "contstuff",
@@ -2950,6 +3187,7 @@
         "index": {
           "description": "Run choice computation",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "runChoiceT",
           "normalized": "(a-\u003eb-\u003e(a-\u003ec d)-\u003ec d)-\u003ea-\u003e(a-\u003ec d)-\u003eChoiceT d a c b-\u003ec d",
@@ -2966,6 +3204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a CPS-style computation given the supplied final continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "runContT",
           "package": "contstuff",
@@ -2976,6 +3215,7 @@
         "index": {
           "description": "Run CPS-style computation given the supplied final continuation",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "runContT",
           "normalized": "(a-\u003eb c)-\u003eContT c b a-\u003eb c",
@@ -2992,6 +3232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "runEitherT",
           "package": "contstuff",
@@ -3002,6 +3243,7 @@
         "index": {
           "description": "Run an EitherT transformer",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "runEitherT",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb c)-\u003eEitherT c d b a-\u003eb c",
@@ -3017,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "runIdentityT",
           "package": "contstuff",
@@ -3025,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "runIdentityT",
           "package": "contstuff",
@@ -3039,6 +3283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "runMaybeT",
           "package": "contstuff",
@@ -3049,6 +3294,7 @@
         "index": {
           "description": "Run MaybeT transformer",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "runMaybeT",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eMaybeT c b a-\u003eb c",
@@ -3065,6 +3311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a traditional writer transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "runOldWriterT",
           "package": "contstuff",
@@ -3075,6 +3322,7 @@
         "index": {
           "description": "Run traditional writer transformer",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "runOldWriterT",
           "normalized": "OldWriterT a b c a-\u003ec(a,b)",
@@ -3091,6 +3339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a state transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "runStateT",
           "package": "contstuff",
@@ -3101,6 +3350,7 @@
         "index": {
           "description": "Run state transformer",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "runStateT",
           "normalized": "a-\u003e(b-\u003ea-\u003ec d)-\u003eStateT d a c b-\u003ec d",
@@ -3117,6 +3367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a writer transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "runWriterT",
           "package": "contstuff",
@@ -3127,6 +3378,7 @@
         "index": {
           "description": "Run writer transformer",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "runWriterT",
           "normalized": "WriterT a b c-\u003eb a",
@@ -3143,6 +3395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e computation and return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, if it results in a\n right value, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "testEitherT",
           "package": "contstuff",
@@ -3153,6 +3406,7 @@
         "index": {
           "description": "Run the EitherT computation and return True if it results in right value False otherwise",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "testEitherT",
           "normalized": "EitherT Bool a b c-\u003eb Bool",
@@ -3169,6 +3423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e computation and return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, if it results in a\n Just value, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff.Trans",
           "name": "testMaybeT",
           "package": "contstuff",
@@ -3179,6 +3434,7 @@
         "index": {
           "description": "Run the MaybeT computation and return True if it results in Just value False otherwise",
           "hierarchy": "Control ContStuff Trans",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff.Trans",
           "name": "testMaybeT",
           "normalized": "MaybeT Bool a b-\u003ea Bool",
@@ -3195,6 +3451,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:36 UTC 2014",
           "module": "Control.ContStuff",
           "name": "ContStuff",
           "package": "contstuff",
@@ -3204,6 +3461,7 @@
         "index": {
           "description": "Convenience module",
           "hierarchy": "Control ContStuff",
+          "indexed": "2014-03-11T17:40:36",
           "module": "Control.ContStuff",
           "name": "ContStuff",
           "package": "contstuff",

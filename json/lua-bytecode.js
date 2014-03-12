@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lua-bytecode"
+        "phrase": "lua-bytecode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Chunk",
           "package": "lua-bytecode",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Chunk",
           "package": "lua-bytecode",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Chunk",
           "package": "lua-bytecode",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Chunk",
           "package": "lua-bytecode",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Function",
           "package": "lua-bytecode",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Function",
           "package": "lua-bytecode",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Chunk",
           "package": "lua-bytecode",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Chunk",
           "package": "lua-bytecode",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Function",
           "package": "lua-bytecode",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "Function",
           "package": "lua-bytecode",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "chunk",
           "package": "lua-bytecode",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "chunk",
           "package": "lua-bytecode",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "constants",
           "package": "lua-bytecode",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "constants",
           "package": "lua-bytecode",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "getChunk",
           "package": "lua-bytecode",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "getChunk",
           "package": "lua-bytecode",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "hasArg",
           "package": "lua-bytecode",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "hasArg",
           "normalized": "Chunk-\u003eBool",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "header",
           "package": "lua-bytecode",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "header",
           "package": "lua-bytecode",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "instructions",
           "package": "lua-bytecode",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "instructions",
           "package": "lua-bytecode",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "isVarArg",
           "package": "lua-bytecode",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "isVarArg",
           "normalized": "Chunk-\u003eBool",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "lastLine",
           "package": "lua-bytecode",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "lastLine",
           "package": "lua-bytecode",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "line",
           "package": "lua-bytecode",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "line",
           "package": "lua-bytecode",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "locals",
           "package": "lua-bytecode",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "locals",
           "package": "lua-bytecode",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "maxStackSize",
           "package": "lua-bytecode",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "maxStackSize",
           "package": "lua-bytecode",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "needsArg",
           "package": "lua-bytecode",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "needsArg",
           "normalized": "Chunk-\u003eBool",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "parameters",
           "package": "lua-bytecode",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "parameters",
           "package": "lua-bytecode",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "prototypes",
           "package": "lua-bytecode",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "prototypes",
           "package": "lua-bytecode",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "source",
           "package": "lua-bytecode",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "source",
           "package": "lua-bytecode",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "sourcePositions",
           "package": "lua-bytecode",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "sourcePositions",
           "package": "lua-bytecode",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "upValueCount",
           "package": "lua-bytecode",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "upValueCount",
           "package": "lua-bytecode",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "upValues",
           "package": "lua-bytecode",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "upValues",
           "package": "lua-bytecode",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "varArg",
           "package": "lua-bytecode",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Chunk",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Chunk",
           "name": "varArg",
           "package": "lua-bytecode",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "Header",
           "package": "lua-bytecode",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "Header",
           "package": "lua-bytecode",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "Header",
           "package": "lua-bytecode",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "Header",
           "package": "lua-bytecode",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "Header",
           "package": "lua-bytecode",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "Header",
           "package": "lua-bytecode",
@@ -604,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "bigEndian",
           "package": "lua-bytecode",
@@ -613,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "bigEndian",
           "package": "lua-bytecode",
@@ -626,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "floatNums",
           "package": "lua-bytecode",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "floatNums",
           "package": "lua-bytecode",
@@ -648,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "formatVersion",
           "package": "lua-bytecode",
@@ -657,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "formatVersion",
           "package": "lua-bytecode",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "getHeader",
           "package": "lua-bytecode",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "getHeader",
           "package": "lua-bytecode",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "headerAssert",
           "package": "lua-bytecode",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "headerAssert",
           "normalized": "Get()",
@@ -716,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "instructionBytes",
           "package": "lua-bytecode",
@@ -725,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "instructionBytes",
           "package": "lua-bytecode",
@@ -738,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "intBytes",
           "package": "lua-bytecode",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "intBytes",
           "package": "lua-bytecode",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "lua_NumberBytes",
           "package": "lua-bytecode",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "lua_NumberBytes",
           "package": "lua-bytecode",
@@ -782,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "size_tBytes",
           "package": "lua-bytecode",
@@ -791,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "size_tBytes",
           "package": "lua-bytecode",
@@ -804,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "versionMajor",
           "package": "lua-bytecode",
@@ -813,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "versionMajor",
           "package": "lua-bytecode",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Header",
           "name": "versionMinor",
           "package": "lua-bytecode",
@@ -835,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Header",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Header",
           "name": "versionMinor",
           "package": "lua-bytecode",
@@ -848,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Types",
           "package": "lua-bytecode",
@@ -856,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Types",
           "package": "lua-bytecode",
@@ -869,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "CallInfo",
           "package": "lua-bytecode",
@@ -877,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "CallInfo",
           "package": "lua-bytecode",
@@ -890,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Closure",
           "package": "lua-bytecode",
@@ -898,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Closure",
           "package": "lua-bytecode",
@@ -911,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Constant",
           "package": "lua-bytecode",
@@ -919,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Constant",
           "package": "lua-bytecode",
@@ -932,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "GlobalState",
           "package": "lua-bytecode",
@@ -940,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "GlobalState",
           "package": "lua-bytecode",
@@ -953,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Local",
           "package": "lua-bytecode",
@@ -961,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Local",
           "package": "lua-bytecode",
@@ -974,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LuaGet",
           "package": "lua-bytecode",
@@ -982,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LuaGet",
           "package": "lua-bytecode",
@@ -995,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LuaTypes",
           "package": "lua-bytecode",
@@ -1003,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LuaTypes",
           "package": "lua-bytecode",
@@ -1016,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OpArgMask",
           "package": "lua-bytecode",
@@ -1024,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OpArgMask",
           "package": "lua-bytecode",
@@ -1037,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OpMode",
           "package": "lua-bytecode",
@@ -1045,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OpMode",
           "package": "lua-bytecode",
@@ -1058,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Opcode",
           "package": "lua-bytecode",
@@ -1066,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Opcode",
           "package": "lua-bytecode",
@@ -1079,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OpcodeFields",
           "package": "lua-bytecode",
@@ -1087,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OpcodeFields",
           "package": "lua-bytecode",
@@ -1100,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Operation",
           "package": "lua-bytecode",
@@ -1108,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Operation",
           "package": "lua-bytecode",
@@ -1121,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Operations",
           "package": "lua-bytecode",
@@ -1129,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Operations",
           "package": "lua-bytecode",
@@ -1142,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Prototype",
           "package": "lua-bytecode",
@@ -1150,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Prototype",
           "package": "lua-bytecode",
@@ -1163,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Prototypes",
           "package": "lua-bytecode",
@@ -1171,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Prototypes",
           "package": "lua-bytecode",
@@ -1184,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Stack",
           "package": "lua-bytecode",
@@ -1192,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Stack",
           "package": "lua-bytecode",
@@ -1205,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "StackId",
           "package": "lua-bytecode",
@@ -1213,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "StackId",
           "package": "lua-bytecode",
@@ -1226,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "State",
           "package": "lua-bytecode",
@@ -1234,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "State",
           "package": "lua-bytecode",
@@ -1247,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Table",
           "package": "lua-bytecode",
@@ -1255,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Table",
           "package": "lua-bytecode",
@@ -1268,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "ABC",
           "package": "lua-bytecode",
@@ -1277,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "ABC",
           "package": "lua-bytecode",
@@ -1290,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "ABx",
           "package": "lua-bytecode",
@@ -1299,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "ABx",
           "package": "lua-bytecode",
@@ -1312,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "AsBx",
           "package": "lua-bytecode",
@@ -1321,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "AsBx",
           "package": "lua-bytecode",
@@ -1334,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "BOOLEAN",
           "package": "lua-bytecode",
@@ -1343,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "BOOLEAN",
           "package": "lua-bytecode",
@@ -1356,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "CLOSURE",
           "package": "lua-bytecode",
@@ -1365,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "CLOSURE",
           "package": "lua-bytecode",
@@ -1378,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "CallInfo",
           "package": "lua-bytecode",
@@ -1387,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "CallInfo",
           "package": "lua-bytecode",
@@ -1400,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Closure",
           "package": "lua-bytecode",
@@ -1409,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Closure",
           "package": "lua-bytecode",
@@ -1422,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Function",
           "package": "lua-bytecode",
@@ -1431,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Function",
           "package": "lua-bytecode",
@@ -1444,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "GlobalState",
           "package": "lua-bytecode",
@@ -1453,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "GlobalState",
           "package": "lua-bytecode",
@@ -1466,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "K",
           "package": "lua-bytecode",
@@ -1475,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "K",
           "package": "lua-bytecode",
@@ -1487,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LBool",
           "package": "lua-bytecode",
@@ -1496,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LBool",
           "package": "lua-bytecode",
@@ -1509,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LString",
           "package": "lua-bytecode",
@@ -1518,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LString",
           "package": "lua-bytecode",
@@ -1531,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LightUser",
           "package": "lua-bytecode",
@@ -1540,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "LightUser",
           "package": "lua-bytecode",
@@ -1553,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Local",
           "package": "lua-bytecode",
@@ -1562,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Local",
           "package": "lua-bytecode",
@@ -1575,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "N",
           "package": "lua-bytecode",
@@ -1584,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "N",
           "package": "lua-bytecode",
@@ -1596,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "NIL",
           "package": "lua-bytecode",
@@ -1605,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "NIL",
           "package": "lua-bytecode",
@@ -1618,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "NUMBER",
           "package": "lua-bytecode",
@@ -1627,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "NUMBER",
           "package": "lua-bytecode",
@@ -1640,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Nil",
           "package": "lua-bytecode",
@@ -1649,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Nil",
           "package": "lua-bytecode",
@@ -1662,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "None",
           "package": "lua-bytecode",
@@ -1671,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "None",
           "package": "lua-bytecode",
@@ -1684,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "NumTags",
           "package": "lua-bytecode",
@@ -1693,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "NumTags",
           "package": "lua-bytecode",
@@ -1706,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Number",
           "package": "lua-bytecode",
@@ -1715,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Number",
           "package": "lua-bytecode",
@@ -1728,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_ADD",
           "package": "lua-bytecode",
@@ -1737,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_ADD",
           "package": "lua-bytecode",
@@ -1750,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_CALL",
           "package": "lua-bytecode",
@@ -1759,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_CALL",
           "package": "lua-bytecode",
@@ -1772,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_CLOSE",
           "package": "lua-bytecode",
@@ -1781,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_CLOSE",
           "package": "lua-bytecode",
@@ -1794,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_CLOSURE",
           "package": "lua-bytecode",
@@ -1803,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_CLOSURE",
           "package": "lua-bytecode",
@@ -1816,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_CONCAT",
           "package": "lua-bytecode",
@@ -1825,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_CONCAT",
           "package": "lua-bytecode",
@@ -1838,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_DIV",
           "package": "lua-bytecode",
@@ -1847,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_DIV",
           "package": "lua-bytecode",
@@ -1860,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_EQ",
           "package": "lua-bytecode",
@@ -1869,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_EQ",
           "package": "lua-bytecode",
@@ -1882,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_FORLOOP",
           "package": "lua-bytecode",
@@ -1891,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_FORLOOP",
           "package": "lua-bytecode",
@@ -1904,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_FORPREP",
           "package": "lua-bytecode",
@@ -1913,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_FORPREP",
           "package": "lua-bytecode",
@@ -1926,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_GETGLOBAL",
           "package": "lua-bytecode",
@@ -1935,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_GETGLOBAL",
           "package": "lua-bytecode",
@@ -1948,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_GETTABLE",
           "package": "lua-bytecode",
@@ -1957,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_GETTABLE",
           "package": "lua-bytecode",
@@ -1970,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_GETUPVAL",
           "package": "lua-bytecode",
@@ -1979,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_GETUPVAL",
           "package": "lua-bytecode",
@@ -1992,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_JMP",
           "package": "lua-bytecode",
@@ -2001,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_JMP",
           "package": "lua-bytecode",
@@ -2014,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LE",
           "package": "lua-bytecode",
@@ -2023,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LE",
           "package": "lua-bytecode",
@@ -2036,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LEN",
           "package": "lua-bytecode",
@@ -2045,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LEN",
           "package": "lua-bytecode",
@@ -2058,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LOADBOOL",
           "package": "lua-bytecode",
@@ -2067,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LOADBOOL",
           "package": "lua-bytecode",
@@ -2080,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LOADK",
           "package": "lua-bytecode",
@@ -2089,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LOADK",
           "package": "lua-bytecode",
@@ -2102,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LOADNIL",
           "package": "lua-bytecode",
@@ -2111,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LOADNIL",
           "package": "lua-bytecode",
@@ -2124,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LT",
           "package": "lua-bytecode",
@@ -2133,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_LT",
           "package": "lua-bytecode",
@@ -2146,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_MOD",
           "package": "lua-bytecode",
@@ -2155,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_MOD",
           "package": "lua-bytecode",
@@ -2168,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_MOVE",
           "package": "lua-bytecode",
@@ -2177,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_MOVE",
           "package": "lua-bytecode",
@@ -2190,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_MUL",
           "package": "lua-bytecode",
@@ -2199,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_MUL",
           "package": "lua-bytecode",
@@ -2212,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_NEWTABLE",
           "package": "lua-bytecode",
@@ -2221,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_NEWTABLE",
           "package": "lua-bytecode",
@@ -2234,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_NOT",
           "package": "lua-bytecode",
@@ -2243,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_NOT",
           "package": "lua-bytecode",
@@ -2256,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_POW",
           "package": "lua-bytecode",
@@ -2265,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_POW",
           "package": "lua-bytecode",
@@ -2278,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_RETURN",
           "package": "lua-bytecode",
@@ -2287,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_RETURN",
           "package": "lua-bytecode",
@@ -2300,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SELF",
           "package": "lua-bytecode",
@@ -2309,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SELF",
           "package": "lua-bytecode",
@@ -2322,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SETGLOBAL",
           "package": "lua-bytecode",
@@ -2331,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SETGLOBAL",
           "package": "lua-bytecode",
@@ -2344,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SETLIST",
           "package": "lua-bytecode",
@@ -2353,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SETLIST",
           "package": "lua-bytecode",
@@ -2366,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SETTABLE",
           "package": "lua-bytecode",
@@ -2375,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SETTABLE",
           "package": "lua-bytecode",
@@ -2388,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SETUPVAL",
           "package": "lua-bytecode",
@@ -2397,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SETUPVAL",
           "package": "lua-bytecode",
@@ -2410,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SUB",
           "package": "lua-bytecode",
@@ -2419,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_SUB",
           "package": "lua-bytecode",
@@ -2432,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_TAILCALL",
           "package": "lua-bytecode",
@@ -2441,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_TAILCALL",
           "package": "lua-bytecode",
@@ -2454,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_TEST",
           "package": "lua-bytecode",
@@ -2463,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_TEST",
           "package": "lua-bytecode",
@@ -2476,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_TESTSET",
           "package": "lua-bytecode",
@@ -2485,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_TESTSET",
           "package": "lua-bytecode",
@@ -2498,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_TFORLOOP",
           "package": "lua-bytecode",
@@ -2507,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_TFORLOOP",
           "package": "lua-bytecode",
@@ -2520,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_UNM",
           "package": "lua-bytecode",
@@ -2529,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_UNM",
           "package": "lua-bytecode",
@@ -2542,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_VARARG",
           "package": "lua-bytecode",
@@ -2551,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OP_VARARG",
           "package": "lua-bytecode",
@@ -2564,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OpcodeFields",
           "package": "lua-bytecode",
@@ -2573,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "OpcodeFields",
           "package": "lua-bytecode",
@@ -2586,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Operation",
           "package": "lua-bytecode",
@@ -2595,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Operation",
           "package": "lua-bytecode",
@@ -2608,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Prototype",
           "package": "lua-bytecode",
@@ -2617,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Prototype",
           "package": "lua-bytecode",
@@ -2630,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "R",
           "package": "lua-bytecode",
@@ -2639,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "R",
           "package": "lua-bytecode",
@@ -2651,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "STRING",
           "package": "lua-bytecode",
@@ -2660,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "STRING",
           "package": "lua-bytecode",
@@ -2673,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "State",
           "package": "lua-bytecode",
@@ -2682,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "State",
           "package": "lua-bytecode",
@@ -2695,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "TABLE",
           "package": "lua-bytecode",
@@ -2704,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "TABLE",
           "package": "lua-bytecode",
@@ -2717,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Table",
           "package": "lua-bytecode",
@@ -2726,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Table",
           "package": "lua-bytecode",
@@ -2739,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Thread",
           "package": "lua-bytecode",
@@ -2748,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "Thread",
           "package": "lua-bytecode",
@@ -2761,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "U",
           "package": "lua-bytecode",
@@ -2770,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "U",
           "package": "lua-bytecode",
@@ -2782,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "UserData",
           "package": "lua-bytecode",
@@ -2791,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "UserData",
           "package": "lua-bytecode",
@@ -2804,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "a",
           "package": "lua-bytecode",
@@ -2813,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "a",
           "package": "lua-bytecode",
@@ -2825,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "b",
           "package": "lua-bytecode",
@@ -2834,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "b",
           "package": "lua-bytecode",
@@ -2846,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "bMode",
           "package": "lua-bytecode",
@@ -2855,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "bMode",
           "package": "lua-bytecode",
@@ -2868,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "baseCI",
           "package": "lua-bytecode",
@@ -2877,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "baseCI",
           "package": "lua-bytecode",
@@ -2890,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "baseS",
           "package": "lua-bytecode",
@@ -2899,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "baseS",
           "package": "lua-bytecode",
@@ -2911,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "bitRK",
           "package": "lua-bytecode",
@@ -2920,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "bitRK",
           "package": "lua-bytecode",
@@ -2933,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "bx",
           "package": "lua-bytecode",
@@ -2942,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "bx",
           "package": "lua-bytecode",
@@ -2954,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "c",
           "package": "lua-bytecode",
@@ -2963,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "c",
           "package": "lua-bytecode",
@@ -2975,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "cMode",
           "package": "lua-bytecode",
@@ -2984,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "cMode",
           "package": "lua-bytecode",
@@ -2997,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "ci",
           "package": "lua-bytecode",
@@ -3006,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "ci",
           "package": "lua-bytecode",
@@ -3018,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "code",
           "package": "lua-bytecode",
@@ -3027,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "code",
           "package": "lua-bytecode",
@@ -3039,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "constants",
           "package": "lua-bytecode",
@@ -3048,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "constants",
           "package": "lua-bytecode",
@@ -3060,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "createABC",
           "package": "lua-bytecode",
@@ -3069,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "createABC",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -3084,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "createABx",
           "package": "lua-bytecode",
@@ -3093,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "createABx",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -3108,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "endPc",
           "package": "lua-bytecode",
@@ -3117,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "endPc",
           "package": "lua-bytecode",
@@ -3130,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "fields",
           "package": "lua-bytecode",
@@ -3139,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "fields",
           "package": "lua-bytecode",
@@ -3151,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "function",
           "package": "lua-bytecode",
@@ -3160,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "function",
           "package": "lua-bytecode",
@@ -3172,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "g",
           "package": "lua-bytecode",
@@ -3181,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "g",
           "normalized": "State-\u003eTable",
@@ -3195,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArg",
           "package": "lua-bytecode",
@@ -3204,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArg",
           "normalized": "a-\u003eInt-\u003eInt-\u003ea",
@@ -3219,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgA",
           "package": "lua-bytecode",
@@ -3228,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgA",
           "normalized": "a-\u003ea",
@@ -3243,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgB",
           "package": "lua-bytecode",
@@ -3252,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgB",
           "normalized": "a-\u003ea",
@@ -3267,6 +3565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgBx",
           "package": "lua-bytecode",
@@ -3276,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgBx",
           "normalized": "Word-\u003eWord",
@@ -3291,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgC",
           "package": "lua-bytecode",
@@ -3300,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgC",
           "normalized": "a-\u003ea",
@@ -3315,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgSBx",
           "package": "lua-bytecode",
@@ -3324,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getArgSBx",
           "normalized": "Word-\u003eWord",
@@ -3339,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getByteString32",
           "package": "lua-bytecode",
@@ -3348,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getByteString32",
           "package": "lua-bytecode",
@@ -3361,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getConstant",
           "package": "lua-bytecode",
@@ -3370,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getConstant",
           "package": "lua-bytecode",
@@ -3383,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getList32",
           "package": "lua-bytecode",
@@ -3392,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getList32",
           "normalized": "Get[a]",
@@ -3407,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getLocal",
           "package": "lua-bytecode",
@@ -3416,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getLocal",
           "package": "lua-bytecode",
@@ -3429,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getOpcode",
           "package": "lua-bytecode",
@@ -3438,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "getOpcode",
           "normalized": "Word-\u003eWord",
@@ -3453,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "global",
           "package": "lua-bytecode",
@@ -3462,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "global",
           "package": "lua-bytecode",
@@ -3474,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "globalTable",
           "package": "lua-bytecode",
@@ -3483,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "globalTable",
           "package": "lua-bytecode",
@@ -3496,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "instructions",
           "package": "lua-bytecode",
@@ -3505,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "instructions",
           "package": "lua-bytecode",
@@ -3517,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "isC",
           "package": "lua-bytecode",
@@ -3526,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "isC",
           "package": "lua-bytecode",
@@ -3538,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "isK",
           "package": "lua-bytecode",
@@ -3547,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "isK",
           "normalized": "Word-\u003eBool",
@@ -3561,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "isVarArg",
           "package": "lua-bytecode",
@@ -3570,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "isVarArg",
           "package": "lua-bytecode",
@@ -3583,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "k",
           "package": "lua-bytecode",
@@ -3592,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "k",
           "normalized": "Word-\u003eEither Word Word",
@@ -3606,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "localVariables",
           "package": "lua-bytecode",
@@ -3615,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "localVariables",
           "package": "lua-bytecode",
@@ -3628,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "luaGet",
           "package": "lua-bytecode",
@@ -3637,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "luaGet",
           "package": "lua-bytecode",
@@ -3650,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "luaIBitsInt",
           "package": "lua-bytecode",
@@ -3659,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "luaIBitsInt",
           "package": "lua-bytecode",
@@ -3672,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "mask0",
           "package": "lua-bytecode",
@@ -3681,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "mask0",
           "normalized": "Int-\u003eInt-\u003ea",
@@ -3695,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "mask1",
           "package": "lua-bytecode",
@@ -3704,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "mask1",
           "normalized": "Int-\u003eInt-\u003ea",
@@ -3718,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgA",
           "package": "lua-bytecode",
@@ -3727,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgA",
           "package": "lua-bytecode",
@@ -3740,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgB",
           "package": "lua-bytecode",
@@ -3749,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgB",
           "package": "lua-bytecode",
@@ -3762,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgBx",
           "package": "lua-bytecode",
@@ -3771,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgBx",
           "package": "lua-bytecode",
@@ -3784,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgC",
           "package": "lua-bytecode",
@@ -3793,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgC",
           "package": "lua-bytecode",
@@ -3806,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgSBx",
           "package": "lua-bytecode",
@@ -3815,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxArgSBx",
           "package": "lua-bytecode",
@@ -3828,6 +4176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxStackSize",
           "package": "lua-bytecode",
@@ -3837,6 +4186,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "maxStackSize",
           "package": "lua-bytecode",
@@ -3850,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "nResults",
           "package": "lua-bytecode",
@@ -3859,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "nResults",
           "package": "lua-bytecode",
@@ -3872,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "name",
           "package": "lua-bytecode",
@@ -3881,6 +4234,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "name",
           "package": "lua-bytecode",
@@ -3893,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "numOpcodes",
           "package": "lua-bytecode",
@@ -3902,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "numOpcodes",
           "package": "lua-bytecode",
@@ -3915,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "numParams",
           "package": "lua-bytecode",
@@ -3924,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "numParams",
           "package": "lua-bytecode",
@@ -3937,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "opMode",
           "package": "lua-bytecode",
@@ -3946,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "opMode",
           "package": "lua-bytecode",
@@ -3959,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "opModes",
           "package": "lua-bytecode",
@@ -3968,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "opModes",
           "package": "lua-bytecode",
@@ -3981,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "operator",
           "package": "lua-bytecode",
@@ -3990,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "operator",
           "package": "lua-bytecode",
@@ -4002,6 +4366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posA",
           "package": "lua-bytecode",
@@ -4011,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posA",
           "package": "lua-bytecode",
@@ -4023,6 +4389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posB",
           "package": "lua-bytecode",
@@ -4032,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posB",
           "package": "lua-bytecode",
@@ -4044,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posBx",
           "package": "lua-bytecode",
@@ -4053,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posBx",
           "package": "lua-bytecode",
@@ -4066,6 +4436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posC",
           "package": "lua-bytecode",
@@ -4075,6 +4446,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posC",
           "package": "lua-bytecode",
@@ -4087,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posOp",
           "package": "lua-bytecode",
@@ -4096,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "posOp",
           "package": "lua-bytecode",
@@ -4109,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "proto",
           "package": "lua-bytecode",
@@ -4118,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "proto",
           "package": "lua-bytecode",
@@ -4130,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "prototypes",
           "package": "lua-bytecode",
@@ -4139,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "prototypes",
           "package": "lua-bytecode",
@@ -4151,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "runLuaGet",
           "package": "lua-bytecode",
@@ -4160,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "runLuaGet",
           "normalized": "ByteString-\u003eEither String a",
@@ -4175,6 +4555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sBx",
           "package": "lua-bytecode",
@@ -4184,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sBx",
           "package": "lua-bytecode",
@@ -4197,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "savedPc",
           "package": "lua-bytecode",
@@ -4206,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "savedPc",
           "package": "lua-bytecode",
@@ -4219,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArg",
           "package": "lua-bytecode",
@@ -4228,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArg",
           "normalized": "a-\u003ea-\u003eInt-\u003eInt-\u003ea",
@@ -4243,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgA",
           "package": "lua-bytecode",
@@ -4252,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgA",
           "normalized": "a-\u003ea-\u003ea",
@@ -4267,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgB",
           "package": "lua-bytecode",
@@ -4276,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgB",
           "normalized": "a-\u003ea-\u003ea",
@@ -4291,6 +4681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgBx",
           "package": "lua-bytecode",
@@ -4300,6 +4691,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgBx",
           "normalized": "a-\u003ea-\u003ea",
@@ -4315,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgC",
           "package": "lua-bytecode",
@@ -4324,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgC",
           "normalized": "a-\u003ea-\u003ea",
@@ -4339,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgSBx",
           "package": "lua-bytecode",
@@ -4348,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setArgSBx",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -4363,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setOpcode",
           "package": "lua-bytecode",
@@ -4372,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "setOpcode",
           "normalized": "a-\u003ea-\u003ea",
@@ -4387,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeA",
           "package": "lua-bytecode",
@@ -4396,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeA",
           "package": "lua-bytecode",
@@ -4408,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeB",
           "package": "lua-bytecode",
@@ -4417,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeB",
           "package": "lua-bytecode",
@@ -4429,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeBx",
           "package": "lua-bytecode",
@@ -4438,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeBx",
           "package": "lua-bytecode",
@@ -4451,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeC",
           "package": "lua-bytecode",
@@ -4460,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeC",
           "package": "lua-bytecode",
@@ -4472,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeOp",
           "package": "lua-bytecode",
@@ -4481,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "sizeOp",
           "package": "lua-bytecode",
@@ -4494,6 +4902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "stack",
           "package": "lua-bytecode",
@@ -4503,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "stack",
           "package": "lua-bytecode",
@@ -4515,6 +4925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "stackLast",
           "package": "lua-bytecode",
@@ -4524,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "stackLast",
           "package": "lua-bytecode",
@@ -4537,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "stackSize",
           "package": "lua-bytecode",
@@ -4546,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "stackSize",
           "package": "lua-bytecode",
@@ -4559,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "startPc",
           "package": "lua-bytecode",
@@ -4568,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "startPc",
           "package": "lua-bytecode",
@@ -4581,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "testAMode",
           "package": "lua-bytecode",
@@ -4590,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "testAMode",
           "package": "lua-bytecode",
@@ -4603,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "testTMode",
           "package": "lua-bytecode",
@@ -4612,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "testTMode",
           "package": "lua-bytecode",
@@ -4625,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "toOpcodeFields",
           "package": "lua-bytecode",
@@ -4634,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "toOpcodeFields",
           "normalized": "Word-\u003eOpcodeFields",
@@ -4649,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "top",
           "package": "lua-bytecode",
@@ -4658,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "top",
           "package": "lua-bytecode",
@@ -4670,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "upVals",
           "package": "lua-bytecode",
@@ -4679,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "upVals",
           "package": "lua-bytecode",
@@ -4692,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:48 UTC 2014",
           "module": "Lua.Bytecode5_1.Types",
           "name": "upValues",
           "package": "lua-bytecode",
@@ -4701,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Lua Bytecode5_1 Types",
+          "indexed": "2014-03-11T19:12:48",
           "module": "Lua.Bytecode5_1.Types",
           "name": "upValues",
           "package": "lua-bytecode",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PostgreSQL"
+        "phrase": "PostgreSQL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AConnStatusType",
           "package": "PostgreSQL",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AConnStatusType",
           "package": "PostgreSQL",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AConnectionInfo",
           "package": "PostgreSQL",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AConnectionInfo",
           "package": "PostgreSQL",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ADatabaseHandle",
           "package": "PostgreSQL",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ADatabaseHandle",
           "package": "PostgreSQL",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ADatabaseT",
           "package": "PostgreSQL",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ADatabaseT",
           "package": "PostgreSQL",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AExecStatusType",
           "package": "PostgreSQL",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AExecStatusType",
           "package": "PostgreSQL",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AOid",
           "package": "PostgreSQL",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AOid",
           "package": "PostgreSQL",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3APGconn",
           "package": "PostgreSQL",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3APGconn",
           "package": "PostgreSQL",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3APGresult",
           "package": "PostgreSQL",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3APGresult",
           "package": "PostgreSQL",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AMonadDatabase",
           "package": "PostgreSQL",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AMonadDatabase",
           "package": "PostgreSQL",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AcheckResultStatus",
           "package": "PostgreSQL",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AcheckResultStatus",
           "normalized": "String-\u003eIO(Ptr PGresult)-\u003ea(Ptr PGresult)",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3Aclear",
           "package": "PostgreSQL",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3Aclear",
           "normalized": "Ptr PGresult-\u003ea()",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3Aconnection_OK",
           "package": "PostgreSQL",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3Aconnection_OK",
           "package": "PostgreSQL",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3Aconnection_bad",
           "package": "PostgreSQL",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3Aconnection_bad",
           "package": "PostgreSQL",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AdefaultConnectionInfo",
           "package": "PostgreSQL",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AdefaultConnectionInfo",
           "package": "PostgreSQL",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3Aexec",
           "package": "PostgreSQL",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3Aexec",
           "normalized": "String-\u003ea(Ptr PGresult)",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AexecParams",
           "package": "PostgreSQL",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AexecParams",
           "normalized": "String-\u003e[String]-\u003ea(Ptr PGresult)",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AgetConnection",
           "package": "PostgreSQL",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AgetConnection",
           "package": "PostgreSQL",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AgetValue",
           "package": "PostgreSQL",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AgetValue",
           "normalized": "Ptr PGresult-\u003eCInt-\u003eCInt-\u003ea String",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AnFields",
           "package": "PostgreSQL",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AnFields",
           "normalized": "Ptr PGresult-\u003ea CInt",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AnTuples",
           "package": "PostgreSQL",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AnTuples",
           "normalized": "Ptr PGresult-\u003ea CInt",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3Apgres_command_OK",
           "package": "PostgreSQL",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3Apgres_command_OK",
           "package": "PostgreSQL",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3Apgres_empty_query",
           "package": "PostgreSQL",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3Apgres_empty_query",
           "package": "PostgreSQL",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3Apgres_tuples_OK",
           "package": "PostgreSQL",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3Apgres_tuples_OK",
           "package": "PostgreSQL",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqClear",
           "package": "PostgreSQL",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqClear",
           "normalized": "Ptr PGresult-\u003eIO()",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqConnectDB",
           "package": "PostgreSQL",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqConnectDB",
           "normalized": "CString-\u003eIO(Ptr PGconn)",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqErrorMessage",
           "package": "PostgreSQL",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqErrorMessage",
           "normalized": "Ptr PGconn-\u003eIO CString",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqExec",
           "package": "PostgreSQL",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqExec",
           "normalized": "Ptr PGconn-\u003eCString-\u003eIO(Ptr PGresult)",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqExecParams",
           "package": "PostgreSQL",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqExecParams",
           "normalized": "Ptr PGconn-\u003eCString-\u003eCInt-\u003ePtr Oid-\u003ePtr CString-\u003ePtr CInt-\u003ePtr CInt-\u003eCInt-\u003eIO(Ptr PGresult)",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqFinish",
           "package": "PostgreSQL",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqFinish",
           "normalized": "Ptr PGconn-\u003eIO()",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqGetValue",
           "package": "PostgreSQL",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqGetValue",
           "normalized": "Ptr PGresult-\u003eCInt-\u003eCInt-\u003eIO CString",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqNFields",
           "package": "PostgreSQL",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqNFields",
           "normalized": "Ptr PGresult-\u003eIO CInt",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqNTuples",
           "package": "PostgreSQL",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqNTuples",
           "normalized": "Ptr PGresult-\u003eIO CInt",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqResStatus",
           "package": "PostgreSQL",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqResStatus",
           "normalized": "ExecStatusType-\u003eIO CString",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqResultErrorMessage",
           "package": "PostgreSQL",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqResultErrorMessage",
           "normalized": "Ptr PGresult-\u003eIO CString",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqResultStatus",
           "package": "PostgreSQL",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqResultStatus",
           "normalized": "Ptr PGresult-\u003eIO ExecStatusType",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3ApqStatus",
           "package": "PostgreSQL",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3ApqStatus",
           "normalized": "Ptr PGconn-\u003eIO ConnStatusType",
@@ -841,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithCStrings",
           "package": "PostgreSQL",
@@ -850,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithCStrings",
           "normalized": "[String]-\u003e(Ptr CString-\u003eIO a)-\u003eIO a",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithDatabase",
           "package": "PostgreSQL",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithDatabase",
           "normalized": "ConnectionInfo-\u003eDatabaseT a b-\u003ea b",
@@ -889,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithDatabaseRaw",
           "package": "PostgreSQL",
@@ -898,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithDatabaseRaw",
           "normalized": "String-\u003eDatabaseT a b-\u003ea b",
@@ -913,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithExec",
           "package": "PostgreSQL",
@@ -922,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithExec",
           "normalized": "String-\u003e(Ptr PGresult-\u003ea b)-\u003ea b",
@@ -937,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithExecParams",
           "package": "PostgreSQL",
@@ -946,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithExecParams",
           "normalized": "String-\u003e[String]-\u003e(Ptr PGresult-\u003ea b)-\u003ea b",
@@ -961,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithPGResults",
           "package": "PostgreSQL",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithPGResults",
           "normalized": "a(Ptr PGresult)-\u003e(Ptr PGresult-\u003ea b)-\u003ea b",
@@ -985,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithoutExec",
           "package": "PostgreSQL",
@@ -994,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithoutExec",
           "normalized": "String-\u003ea()",
@@ -1009,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithoutExecParams",
           "package": "PostgreSQL",
@@ -1018,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithoutExecParams",
           "normalized": "String-\u003e[String]-\u003ea()",
@@ -1033,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:16 UTC 2014",
           "module": "Database.PostgreSQL",
           "name": "3AwithoutPGResults",
           "package": "PostgreSQL",
@@ -1042,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL",
+          "indexed": "2014-03-11T16:57:16",
           "module": "Database.PostgreSQL",
           "name": "3AwithoutPGResults",
           "normalized": "a(Ptr PGresult)-\u003ea()",

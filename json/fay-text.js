@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fay-text"
+        "phrase": "fay-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule to be shared between server and client.\n\u003c/p\u003e\u003cp\u003eThis module must be valid for both GHC and Fay.\n\u003c/p\u003e\u003cp\u003eFor GHC this is an alias for Data.Text, for Fay it's an opaque data type represented by JavaScript strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text.Type",
           "name": "Type",
           "package": "fay-text",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module to be shared between server and client This module must be valid for both GHC and Fay For GHC this is an alias for Data.Text for Fay it an opaque data type represented by JavaScript strings",
           "hierarchy": "Fay Text Type",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text.Type",
           "name": "Type",
           "package": "fay-text",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text.Type",
           "name": "Text",
           "package": "fay-text",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Fay Text Type",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text.Type",
           "name": "Text",
           "package": "fay-text",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHave this in scope with the OverloadedStrings and BindableSyntax extensions\n and Fay will replace all string literals with Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text.Type",
           "name": "fromString",
           "package": "fay-text",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Have this in scope with the OverloadedStrings and BindableSyntax extensions and Fay will replace all string literals with Text",
           "hierarchy": "Fay Text Type",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text.Type",
           "name": "fromString",
           "normalized": "String-\u003eText",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text.Type",
           "name": "pack",
           "package": "fay-text",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Fay Text Type",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text.Type",
           "name": "pack",
           "normalized": "String-\u003eText",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text.Type",
           "name": "unpack",
           "package": "fay-text",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Fay Text Type",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text.Type",
           "name": "unpack",
           "normalized": "Text-\u003eString",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule to be shared between server and client.\n\u003c/p\u003e\u003cp\u003eThis module must be valid for both GHC and Fay.\n\u003c/p\u003e\u003cp\u003eFor GHC this is an alias for Data.Text, for Fay it's an opaque data type represented by JavaScript strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "Text",
           "package": "fay-text",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Module to be shared between server and client This module must be valid for both GHC and Fay For GHC this is an alias for Data.Text for Fay it an opaque data type represented by JavaScript strings",
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "Text",
           "package": "fay-text",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "all",
           "package": "fay-text",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "all",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eBool",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "any",
           "package": "fay-text",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "any",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eBool",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "append",
           "package": "fay-text",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "append",
           "normalized": "Text-\u003eText-\u003eText",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "concat",
           "package": "fay-text",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "concat",
           "normalized": "[Text]-\u003eText",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "concatMap",
           "package": "fay-text",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "concatMap",
           "normalized": "(Char-\u003eText)-\u003eText-\u003eText",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "cons",
           "package": "fay-text",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "cons",
           "normalized": "Char-\u003eText-\u003eText",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "empty",
           "package": "fay-text",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "empty",
           "package": "fay-text",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "head",
           "package": "fay-text",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "head",
           "normalized": "Text-\u003eChar",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "init",
           "package": "fay-text",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "init",
           "normalized": "Text-\u003eText",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "intercalate",
           "package": "fay-text",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "intercalate",
           "normalized": "Text-\u003e[Text]-\u003eText",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "intersperse",
           "package": "fay-text",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "intersperse",
           "normalized": "Char-\u003eText-\u003eText",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "last",
           "package": "fay-text",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "last",
           "normalized": "Text-\u003eChar",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "length",
           "package": "fay-text",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "length",
           "normalized": "Text-\u003eInt",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "map",
           "package": "fay-text",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "map",
           "normalized": "(Char-\u003eChar)-\u003eText-\u003eText",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "maximum",
           "package": "fay-text",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "maximum",
           "normalized": "Text-\u003eChar",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "minimum",
           "package": "fay-text",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "minimum",
           "normalized": "Text-\u003eChar",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "null",
           "package": "fay-text",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "null",
           "normalized": "Text-\u003eBool",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "reverse",
           "package": "fay-text",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "reverse",
           "normalized": "Text-\u003eText",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "snoc",
           "package": "fay-text",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "snoc",
           "normalized": "Text-\u003eChar-\u003eText",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "tail",
           "package": "fay-text",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "tail",
           "normalized": "Text-\u003eText",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "toLower",
           "package": "fay-text",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "toLower",
           "normalized": "Text-\u003eText",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "toUpper",
           "package": "fay-text",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "toUpper",
           "normalized": "Text-\u003eText",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:56 UTC 2014",
           "module": "Fay.Text",
           "name": "uncons",
           "package": "fay-text",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Fay Text",
+          "indexed": "2014-03-11T18:06:56",
           "module": "Fay.Text",
           "name": "uncons",
           "normalized": "Text-\u003eMaybe(Char,Text)",

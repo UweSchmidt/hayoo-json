@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mysql"
+        "phrase": "mysql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDirect bindings to the C \u003ccode\u003emysqlclient\u003c/code\u003e API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "C",
           "package": "mysql",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Direct bindings to the mysqlclient API",
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "C",
           "package": "mysql",
@@ -40,6 +42,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_affected_rows",
           "package": "mysql",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_affected_rows",
           "normalized": "Ptr MYSQL-\u003eIO CULLong",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_autocommit",
           "package": "mysql",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_autocommit",
           "normalized": "Ptr MYSQL-\u003eMyBool-\u003eIO MyBool",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_change_user",
           "package": "mysql",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_change_user",
           "normalized": "Ptr MYSQL-\u003eCString-\u003eCString-\u003eCString-\u003eIO MyBool",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_character_set_name",
           "package": "mysql",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_character_set_name",
           "normalized": "Ptr MYSQL-\u003eIO CString",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_close",
           "package": "mysql",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_close",
           "normalized": "Ptr MYSQL-\u003eIO()",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_commit",
           "package": "mysql",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_commit",
           "normalized": "Ptr MYSQL-\u003eIO MyBool",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_data_seek",
           "package": "mysql",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_data_seek",
           "normalized": "Ptr MYSQL_RES-\u003eCULLong-\u003eIO()",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_errno",
           "package": "mysql",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_errno",
           "normalized": "Ptr MYSQL-\u003eIO CInt",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_error",
           "package": "mysql",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_error",
           "normalized": "Ptr MYSQL-\u003eIO CString",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_fields",
           "package": "mysql",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_fields",
           "normalized": "Ptr MYSQL_RES-\u003eIO(Ptr Field)",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_fields_nonblock",
           "package": "mysql",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_fields_nonblock",
           "normalized": "Ptr MYSQL_RES-\u003eIO(Ptr Field)",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_lengths",
           "package": "mysql",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_lengths",
           "normalized": "Ptr MYSQL_RES-\u003eIO(Ptr CULong)",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_lengths_nonblock",
           "package": "mysql",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_lengths_nonblock",
           "normalized": "Ptr MYSQL_RES-\u003eIO(Ptr CULong)",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_row",
           "package": "mysql",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_row",
           "normalized": "Ptr MYSQL_RES-\u003eIO MYSQL_ROW",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_row_nonblock",
           "package": "mysql",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_fetch_row_nonblock",
           "normalized": "Ptr MYSQL_RES-\u003eIO MYSQL_ROW",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_field_count",
           "package": "mysql",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_field_count",
           "normalized": "Ptr MYSQL-\u003eIO CUInt",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_free_result",
           "package": "mysql",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_free_result",
           "normalized": "Ptr MYSQL_RES-\u003eIO()",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_free_result_nonblock",
           "package": "mysql",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_free_result_nonblock",
           "normalized": "Ptr MYSQL_RES-\u003eIO()",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_client_info",
           "package": "mysql",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_client_info",
           "package": "mysql",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_client_version",
           "package": "mysql",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_client_version",
           "package": "mysql",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_host_info",
           "package": "mysql",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_host_info",
           "normalized": "Ptr MYSQL-\u003eIO CString",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_proto_info",
           "package": "mysql",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_proto_info",
           "normalized": "Ptr MYSQL-\u003eIO CUInt",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_server_info",
           "package": "mysql",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_server_info",
           "normalized": "Ptr MYSQL-\u003eIO CString",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_ssl_cipher",
           "package": "mysql",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_get_ssl_cipher",
           "normalized": "Ptr MYSQL-\u003eIO CString",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_init",
           "package": "mysql",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_init",
           "normalized": "Ptr MYSQL-\u003eIO(Ptr MYSQL)",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_insert_id",
           "package": "mysql",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_insert_id",
           "normalized": "Ptr MYSQL-\u003eIO CULLong",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_next_result",
           "package": "mysql",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_next_result",
           "normalized": "Ptr MYSQL-\u003eIO CInt",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_options",
           "package": "mysql",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_options",
           "normalized": "Ptr MYSQL-\u003eOption-\u003eIO CInt",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_ping",
           "package": "mysql",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_ping",
           "normalized": "Ptr MYSQL-\u003eIO CInt",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_real_connect",
           "package": "mysql",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_real_connect",
           "normalized": "Ptr MYSQL-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eCInt-\u003eCString-\u003eCULong-\u003eIO(Ptr MYSQL)",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_real_escape_string",
           "package": "mysql",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_real_escape_string",
           "normalized": "Ptr MYSQL-\u003eCString-\u003eCString-\u003eCULong-\u003eIO CULong",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_real_query",
           "package": "mysql",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_real_query",
           "normalized": "Ptr MYSQL-\u003eCString-\u003eCULong-\u003eIO CInt",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_rollback",
           "package": "mysql",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_rollback",
           "normalized": "Ptr MYSQL-\u003eIO MyBool",
@@ -792,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_row_seek",
           "package": "mysql",
@@ -801,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_row_seek",
           "normalized": "Ptr MYSQL_RES-\u003eMYSQL_ROW_OFFSET-\u003eIO MYSQL_ROW_OFFSET",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_row_tell",
           "package": "mysql",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_row_tell",
           "normalized": "Ptr MYSQL_RES-\u003eIO MYSQL_ROW_OFFSET",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_select_db",
           "package": "mysql",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_select_db",
           "normalized": "Ptr MYSQL-\u003eCString-\u003eIO CInt",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_set_character_set",
           "package": "mysql",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_set_character_set",
           "normalized": "Ptr MYSQL-\u003eCString-\u003eIO CInt",
@@ -884,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_ssl_set",
           "package": "mysql",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_ssl_set",
           "normalized": "Ptr MYSQL-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eIO MyBool",
@@ -906,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_stat",
           "package": "mysql",
@@ -915,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_stat",
           "normalized": "Ptr MYSQL-\u003eIO CString",
@@ -929,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_store_result",
           "package": "mysql",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_store_result",
           "normalized": "Ptr MYSQL-\u003eIO(Ptr MYSQL_RES)",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_thread_id",
           "package": "mysql",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_thread_id",
           "normalized": "Ptr MYSQL-\u003eIO CULong",
@@ -975,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_use_result",
           "package": "mysql",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base C",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.C",
           "name": "mysql_use_result",
           "normalized": "Ptr MYSQL-\u003eIO(Ptr MYSQL_RES)",
@@ -999,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for working with the direct bindings to the C \u003ccode\u003emysqlclient\u003c/code\u003e\n API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "Types",
           "package": "mysql",
@@ -1008,6 +1095,7 @@
         "index": {
           "description": "Types for working with the direct bindings to the mysqlclient API",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "Types",
           "package": "mysql",
@@ -1022,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of a field (column) of a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "Field",
           "package": "mysql",
@@ -1031,6 +1120,7 @@
         "index": {
           "description": "description of field column of table",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "Field",
           "package": "mysql",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "FieldFlag",
           "package": "mysql",
@@ -1052,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "FieldFlag",
           "package": "mysql",
@@ -1065,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "FieldFlags",
           "package": "mysql",
@@ -1073,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "FieldFlags",
           "package": "mysql",
@@ -1086,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL",
           "package": "mysql",
@@ -1094,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL",
           "package": "mysql",
@@ -1107,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL_RES",
           "package": "mysql",
@@ -1115,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL_RES",
           "package": "mysql",
@@ -1128,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL_ROW",
           "package": "mysql",
@@ -1136,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL_ROW",
           "package": "mysql",
@@ -1149,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL_ROWS",
           "package": "mysql",
@@ -1157,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL_ROWS",
           "package": "mysql",
@@ -1170,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL_ROW_OFFSET",
           "package": "mysql",
@@ -1178,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "MYSQL_ROW_OFFSET",
           "package": "mysql",
@@ -1191,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "MyBool",
           "package": "mysql",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "MyBool",
           "package": "mysql",
@@ -1212,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "Option",
           "package": "mysql",
@@ -1220,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "Option",
           "package": "mysql",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "Protocol",
           "package": "mysql",
@@ -1241,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "Protocol",
           "package": "mysql",
@@ -1254,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "Seconds",
           "package": "mysql",
@@ -1262,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "Seconds",
           "package": "mysql",
@@ -1276,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColumn types supported by MySQL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "Type",
           "package": "mysql",
@@ -1285,6 +1398,7 @@
         "index": {
           "description": "Column types supported by MySQL",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "Type",
           "package": "mysql",
@@ -1574,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "Field",
           "package": "mysql",
@@ -1583,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "Field",
           "package": "mysql",
@@ -2701,6 +2817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatalog for table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldCatalog",
           "package": "mysql",
@@ -2711,6 +2828,7 @@
         "index": {
           "description": "Catalog for table",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldCatalog",
           "package": "mysql",
@@ -2725,6 +2843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter set number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldCharSet",
           "package": "mysql",
@@ -2735,6 +2854,7 @@
         "index": {
           "description": "Character set number",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldCharSet",
           "package": "mysql",
@@ -2749,6 +2869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase for table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldDB",
           "package": "mysql",
@@ -2759,6 +2880,7 @@
         "index": {
           "description": "Database for table",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldDB",
           "package": "mysql",
@@ -2773,6 +2895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of decimals in field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldDecimals",
           "package": "mysql",
@@ -2783,6 +2906,7 @@
         "index": {
           "description": "Number of decimals in field",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldDecimals",
           "package": "mysql",
@@ -2797,6 +2921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldDefault",
           "package": "mysql",
@@ -2807,6 +2932,7 @@
         "index": {
           "description": "Default value",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldDefault",
           "package": "mysql",
@@ -2821,6 +2947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiv flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldFlags",
           "package": "mysql",
@@ -2831,6 +2958,7 @@
         "index": {
           "description": "Div flags",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldFlags",
           "package": "mysql",
@@ -2845,6 +2973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth of column (create length).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldLength",
           "package": "mysql",
@@ -2855,6 +2984,7 @@
         "index": {
           "description": "Width of column create length",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldLength",
           "package": "mysql",
@@ -2869,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum width for selected set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldMaxLength",
           "package": "mysql",
@@ -2879,6 +3010,7 @@
         "index": {
           "description": "Maximum width for selected set",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldMaxLength",
           "package": "mysql",
@@ -2893,6 +3025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldName",
           "package": "mysql",
@@ -2903,6 +3036,7 @@
         "index": {
           "description": "Name of column",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldName",
           "package": "mysql",
@@ -2917,6 +3051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal column name, if an alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldOrigName",
           "package": "mysql",
@@ -2927,6 +3062,7 @@
         "index": {
           "description": "Original column name if an alias",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldOrigName",
           "package": "mysql",
@@ -2941,6 +3077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal table name, if table was an alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldOrigTable",
           "package": "mysql",
@@ -2951,6 +3088,7 @@
         "index": {
           "description": "Original table name if table was an alias",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldOrigTable",
           "package": "mysql",
@@ -2965,6 +3103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable of column, if column was a field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldTable",
           "package": "mysql",
@@ -2975,6 +3114,7 @@
         "index": {
           "description": "Table of column if column was field",
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldTable",
           "package": "mysql",
@@ -2988,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldType",
           "package": "mysql",
@@ -2997,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "fieldType",
           "package": "mysql",
@@ -3010,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagAutoIncrement",
           "package": "mysql",
@@ -3019,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagAutoIncrement",
           "package": "mysql",
@@ -3032,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagBinary",
           "package": "mysql",
@@ -3041,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagBinary",
           "package": "mysql",
@@ -3054,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagMultipleKey",
           "package": "mysql",
@@ -3063,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagMultipleKey",
           "package": "mysql",
@@ -3076,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagNoDefaultValue",
           "package": "mysql",
@@ -3085,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagNoDefaultValue",
           "package": "mysql",
@@ -3098,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagNotNull",
           "package": "mysql",
@@ -3107,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagNotNull",
           "package": "mysql",
@@ -3120,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagNumeric",
           "package": "mysql",
@@ -3129,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagNumeric",
           "package": "mysql",
@@ -3142,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagPrimaryKey",
           "package": "mysql",
@@ -3151,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagPrimaryKey",
           "package": "mysql",
@@ -3164,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagUniqueKey",
           "package": "mysql",
@@ -3173,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagUniqueKey",
           "package": "mysql",
@@ -3186,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagUnsigned",
           "package": "mysql",
@@ -3195,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagUnsigned",
           "package": "mysql",
@@ -3208,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "flagZeroFill",
           "package": "mysql",
@@ -3217,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "flagZeroFill",
           "package": "mysql",
@@ -3230,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "hasAllFlags",
           "package": "mysql",
@@ -3239,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "hasAllFlags",
           "normalized": "FieldFlags-\u003eFieldFlags-\u003eBool",
@@ -3254,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base.Types",
           "name": "toConnectFlag",
           "package": "mysql",
@@ -3263,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base Types",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base.Types",
           "name": "toConnectFlag",
           "normalized": "Option-\u003eCULong",
@@ -3279,6 +3445,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA low-level client library for the MySQL database, implemented as\n bindings to the C \u003ccode\u003emysqlclient\u003c/code\u003e API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "Base",
           "package": "mysql",
@@ -3288,6 +3455,7 @@
         "index": {
           "description": "low-level client library for the MySQL database implemented as bindings to the mysqlclient API",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "Base",
           "package": "mysql",
@@ -3301,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "ConnectInfo",
           "package": "mysql",
@@ -3309,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "ConnectInfo",
           "package": "mysql",
@@ -3323,6 +3493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection to a MySQL database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "Connection",
           "package": "mysql",
@@ -3332,6 +3503,7 @@
         "index": {
           "description": "Connection to MySQL database",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "Connection",
           "package": "mysql",
@@ -3345,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "MySQLError",
           "package": "mysql",
@@ -3353,6 +3526,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "MySQLError",
           "package": "mysql",
@@ -3366,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "Option",
           "package": "mysql",
@@ -3374,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "Option",
           "package": "mysql",
@@ -3387,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "Protocol",
           "package": "mysql",
@@ -3395,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "Protocol",
           "package": "mysql",
@@ -3409,6 +3587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a database query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "Result",
           "package": "mysql",
@@ -3418,6 +3597,7 @@
         "index": {
           "description": "Result of database query",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "Result",
           "package": "mysql",
@@ -3432,6 +3612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA row cursor, used by \u003ccode\u003e\u003ca\u003erowSeek\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erowTell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "Row",
           "package": "mysql",
@@ -3441,6 +3622,7 @@
         "index": {
           "description": "row cursor used by rowSeek and rowTell",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "Row",
           "package": "mysql",
@@ -3454,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "SSLInfo",
           "package": "mysql",
@@ -3462,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "SSLInfo",
           "package": "mysql",
@@ -3475,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "Seconds",
           "package": "mysql",
@@ -3483,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "Seconds",
           "package": "mysql",
@@ -3497,6 +3683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColumn types supported by MySQL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "Type",
           "package": "mysql",
@@ -3506,6 +3693,7 @@
         "index": {
           "description": "Column types supported by MySQL",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "Type",
           "package": "mysql",
@@ -3519,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "ConnectInfo",
           "package": "mysql",
@@ -3528,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "ConnectInfo",
           "package": "mysql",
@@ -3541,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "SSLInfo",
           "package": "mysql",
@@ -3550,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "SSLInfo",
           "package": "mysql",
@@ -3563,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "affectedRows",
           "package": "mysql",
@@ -3572,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "affectedRows",
           "normalized": "Connection-\u003eIO Int",
@@ -3588,6 +3782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn autocommit on or off.\n\u003c/p\u003e\u003cp\u003eBy default, MySQL runs with autocommit mode enabled. In this mode,\n as soon as you modify a table, MySQL stores your modification\n permanently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "autocommit",
           "package": "mysql",
@@ -3598,6 +3793,7 @@
         "index": {
           "description": "Turn autocommit on or off By default MySQL runs with autocommit mode enabled In this mode as soon as you modify table MySQL stores your modification permanently",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "autocommit",
           "normalized": "Connection-\u003eBool-\u003eIO()",
@@ -3612,6 +3808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "changeUser",
           "package": "mysql",
@@ -3621,6 +3818,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "changeUser",
           "normalized": "Connection-\u003eString-\u003eString-\u003eMaybe String-\u003eIO()",
@@ -3636,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "characterSet",
           "package": "mysql",
@@ -3645,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "characterSet",
           "normalized": "Connection-\u003eIO String",
@@ -3660,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "clientInfo",
           "package": "mysql",
@@ -3669,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "clientInfo",
           "package": "mysql",
@@ -3682,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "clientVersion",
           "package": "mysql",
@@ -3691,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "clientVersion",
           "package": "mysql",
@@ -3705,6 +3909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a connection, and mark any outstanding \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e as\n invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "close",
           "package": "mysql",
@@ -3715,6 +3920,7 @@
         "index": {
           "description": "Close connection and mark any outstanding Result as invalid",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "close",
           "normalized": "Connection-\u003eIO()",
@@ -3730,6 +3936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit the current transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "commit",
           "package": "mysql",
@@ -3740,6 +3947,7 @@
         "index": {
           "description": "Commit the current transaction",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "commit",
           "normalized": "Connection-\u003eIO()",
@@ -3755,6 +3963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to a database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connect",
           "package": "mysql",
@@ -3765,6 +3974,7 @@
         "index": {
           "description": "Connect to database",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connect",
           "normalized": "ConnectInfo-\u003eIO Connection",
@@ -3779,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connectDatabase",
           "package": "mysql",
@@ -3788,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connectDatabase",
           "package": "mysql",
@@ -3801,6 +4013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connectHost",
           "package": "mysql",
@@ -3810,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connectHost",
           "package": "mysql",
@@ -3823,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connectOptions",
           "package": "mysql",
@@ -3832,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connectOptions",
           "normalized": "[Option]",
@@ -3847,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connectPassword",
           "package": "mysql",
@@ -3856,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connectPassword",
           "package": "mysql",
@@ -3869,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connectPath",
           "package": "mysql",
@@ -3878,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connectPath",
           "package": "mysql",
@@ -3891,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connectPort",
           "package": "mysql",
@@ -3900,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connectPort",
           "package": "mysql",
@@ -3913,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connectSSL",
           "package": "mysql",
@@ -3922,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connectSSL",
           "package": "mysql",
@@ -3935,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "connectUser",
           "package": "mysql",
@@ -3944,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "connectUser",
           "package": "mysql",
@@ -3957,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "dataSeek",
           "package": "mysql",
@@ -3966,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "dataSeek",
           "normalized": "Result-\u003eInt-\u003eIO()",
@@ -3982,6 +4210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault information for setting up a connection.\n\u003c/p\u003e\u003cp\u003eDefaults are as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Server on \u003ccode\u003elocalhost\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e User \u003ccode\u003eroot\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e No password\n\u003c/li\u003e\u003cli\u003e Database \u003ccode\u003etest\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Character set \u003ccode\u003eutf8\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eUse as in the following example:\n\u003c/p\u003e\u003cpre\u003e connect defaultConnectInfo { connectHost = \"db.example.com\" }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "defaultConnectInfo",
           "package": "mysql",
@@ -3992,6 +4221,7 @@
         "index": {
           "description": "Default information for setting up connection Defaults are as follows Server on localhost User root No password Database test Character set utf8 Use as in the following example connect defaultConnectInfo connectHost db.example.com",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "defaultConnectInfo",
           "package": "mysql",
@@ -4006,6 +4236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault (empty) information for setting up an SSL connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "defaultSSLInfo",
           "package": "mysql",
@@ -4016,6 +4247,7 @@
         "index": {
           "description": "Default empty information for setting up an SSL connection",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "defaultSSLInfo",
           "package": "mysql",
@@ -4029,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "escape",
           "package": "mysql",
@@ -4038,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "escape",
           "normalized": "Connection-\u003eByteString-\u003eIO ByteString",
@@ -4052,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "fetchFields",
           "package": "mysql",
@@ -4061,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "fetchFields",
           "normalized": "Result-\u003eIO[Field]",
@@ -4076,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "fetchRow",
           "package": "mysql",
@@ -4085,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "fetchRow",
           "normalized": "Result-\u003eIO[Maybe ByteString]",
@@ -4101,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of fields (columns) in a result.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e, returns the number of columns for the most\n   recent query on the connection.\n\u003c/li\u003e\u003cli\u003e For \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e, returns the number of columns in each row\n   of this result.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe number of columns may legitimately be zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "fieldCount",
           "package": "mysql",
@@ -4111,6 +4350,7 @@
         "index": {
           "description": "Return the number of fields columns in result If Left Connection returns the number of columns for the most recent query on the connection For Right Result returns the number of columns in each row of this result The number of columns may legitimately be zero",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "fieldCount",
           "normalized": "Either Connection Result-\u003eIO Int",
@@ -4127,6 +4367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediately free the \u003ccode\u003eMYSQL_RES\u003c/code\u003e value associated with this\n \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e, and mark the \u003ccode\u003eResult\u003c/code\u003e as invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "freeResult",
           "package": "mysql",
@@ -4137,6 +4378,7 @@
         "index": {
           "description": "Immediately free the MYSQL RES value associated with this Result and mark the Result as invalid",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "freeResult",
           "normalized": "Result-\u003eIO()",
@@ -4152,6 +4394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "hostInfo",
           "package": "mysql",
@@ -4161,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "hostInfo",
           "normalized": "Connection-\u003eIO String",
@@ -4177,6 +4421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value generated for an \u003ccode\u003eAUTO_INCREMENT\u003c/code\u003e column by the\n previous \u003ccode\u003eINSERT\u003c/code\u003e or \u003ccode\u003eUPDATE\u003c/code\u003e statement.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://dev.mysql.com/doc/refman/5.5/en/mysql-insert-id.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "insertID",
           "package": "mysql",
@@ -4187,6 +4432,7 @@
         "index": {
           "description": "Return the value generated for an AUTO INCREMENT column by the previous INSERT or UPDATE statement See http dev.mysql.com doc refman en mysql-insert-id.html",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "insertID",
           "normalized": "Connection-\u003eIO Word",
@@ -4203,6 +4449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e is still valid, i.e. backed by a live\n \u003ccode\u003eMYSQL_RES\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "isResultValid",
           "package": "mysql",
@@ -4213,6 +4460,7 @@
         "index": {
           "description": "Check whether Result is still valid i.e backed by live MYSQL RES value",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "isResultValid",
           "normalized": "Result-\u003eIO Bool",
@@ -4229,6 +4477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the next statement result. Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if another result\n is available, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e\u003cp\u003eThis function marks the current \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e as invalid, if one exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "nextResult",
           "package": "mysql",
@@ -4239,6 +4488,7 @@
         "index": {
           "description": "Read the next statement result Returns True if another result is available False otherwise This function marks the current Result as invalid if one exists",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "nextResult",
           "normalized": "Connection-\u003eIO Bool",
@@ -4254,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "ping",
           "package": "mysql",
@@ -4263,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "ping",
           "normalized": "Connection-\u003eIO()",
@@ -4277,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "protocolInfo",
           "package": "mysql",
@@ -4286,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "protocolInfo",
           "normalized": "Connection-\u003eIO Word",
@@ -4301,6 +4555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "query",
           "package": "mysql",
@@ -4310,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "query",
           "normalized": "Connection-\u003eByteString-\u003eIO()",
@@ -4325,6 +4581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll back the current transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "rollback",
           "package": "mysql",
@@ -4335,6 +4592,7 @@
         "index": {
           "description": "Roll back the current transaction",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "rollback",
           "normalized": "Connection-\u003eIO()",
@@ -4349,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "rowSeek",
           "package": "mysql",
@@ -4358,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "rowSeek",
           "normalized": "Result-\u003eRow-\u003eIO Row",
@@ -4373,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "rowTell",
           "package": "mysql",
@@ -4382,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "rowTell",
           "normalized": "Result-\u003eIO Row",
@@ -4397,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "selectDB",
           "package": "mysql",
@@ -4406,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "selectDB",
           "normalized": "Connection-\u003eString-\u003eIO()",
@@ -4421,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "serverInfo",
           "package": "mysql",
@@ -4430,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "serverInfo",
           "normalized": "Connection-\u003eIO String",
@@ -4445,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "serverStatus",
           "package": "mysql",
@@ -4454,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "serverStatus",
           "normalized": "Connection-\u003eIO String",
@@ -4469,6 +4737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "setCharacterSet",
           "package": "mysql",
@@ -4478,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "setCharacterSet",
           "normalized": "Connection-\u003eString-\u003eIO()",
@@ -4493,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "sslCA",
           "package": "mysql",
@@ -4502,6 +4773,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "sslCA",
           "package": "mysql",
@@ -4515,6 +4787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "sslCAPath",
           "package": "mysql",
@@ -4524,6 +4797,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "sslCAPath",
           "package": "mysql",
@@ -4537,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "sslCert",
           "package": "mysql",
@@ -4546,6 +4821,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "sslCert",
           "package": "mysql",
@@ -4559,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "sslCipher",
           "package": "mysql",
@@ -4568,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "sslCipher",
           "normalized": "Connection-\u003eIO(Maybe String)",
@@ -4584,6 +4862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComma-separated list of cipher names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "sslCiphers",
           "package": "mysql",
@@ -4594,6 +4873,7 @@
         "index": {
           "description": "Comma-separated list of cipher names",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "sslCiphers",
           "package": "mysql",
@@ -4607,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "sslKey",
           "package": "mysql",
@@ -4616,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "sslKey",
           "package": "mysql",
@@ -4630,6 +4912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a complete result.\n\u003c/p\u003e\u003cp\u003eAny previous outstanding \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e is first marked as invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "storeResult",
           "package": "mysql",
@@ -4640,6 +4923,7 @@
         "index": {
           "description": "Retrieve complete result Any previous outstanding Result is first marked as invalid",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "storeResult",
           "normalized": "Connection-\u003eIO Result",
@@ -4655,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "threadId",
           "package": "mysql",
@@ -4664,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "threadId",
           "normalized": "Connection-\u003eIO Word",
@@ -4680,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitiate a row-by-row retrieval of a result.\n\u003c/p\u003e\u003cp\u003eAny previous outstanding \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e is first marked as invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:23 UTC 2014",
           "module": "Database.MySQL.Base",
           "name": "useResult",
           "package": "mysql",
@@ -4690,6 +4977,7 @@
         "index": {
           "description": "Initiate row-by-row retrieval of result Any previous outstanding Result is first marked as invalid",
           "hierarchy": "Database MySQL Base",
+          "indexed": "2014-03-11T19:25:23",
           "module": "Database.MySQL.Base",
           "name": "useResult",
           "normalized": "Connection-\u003eIO Result",

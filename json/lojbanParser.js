@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lojbanParser"
+        "phrase": "lojbanParser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Parser",
           "package": "lojbanParser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Parser",
           "package": "lojbanParser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Clause",
           "package": "lojbanParser",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Clause",
           "package": "lojbanParser",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Ek",
           "package": "lojbanParser",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Ek",
           "package": "lojbanParser",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Free",
           "package": "lojbanParser",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Free",
           "package": "lojbanParser",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Gek",
           "package": "lojbanParser",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Gek",
           "package": "lojbanParser",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Gihek",
           "package": "lojbanParser",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Gihek",
           "package": "lojbanParser",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Gik",
           "package": "lojbanParser",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Gik",
           "package": "lojbanParser",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Guhek",
           "package": "lojbanParser",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Guhek",
           "package": "lojbanParser",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Indicators",
           "package": "lojbanParser",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Indicators",
           "package": "lojbanParser",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "IntervalProperty",
           "package": "lojbanParser",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "IntervalProperty",
           "package": "lojbanParser",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Joik",
           "package": "lojbanParser",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Joik",
           "package": "lojbanParser",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikEk",
           "package": "lojbanParser",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikEk",
           "package": "lojbanParser",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikJek",
           "package": "lojbanParser",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikJek",
           "package": "lojbanParser",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikJekSelbri5",
           "package": "lojbanParser",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikJekSelbri5",
           "package": "lojbanParser",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LerfuString",
           "package": "lojbanParser",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LerfuString",
           "package": "lojbanParser",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Linkargs",
           "package": "lojbanParser",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Linkargs",
           "package": "lojbanParser",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Links",
           "package": "lojbanParser",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Links",
           "package": "lojbanParser",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Mex",
           "package": "lojbanParser",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Mex",
           "package": "lojbanParser",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "MexOperator",
           "package": "lojbanParser",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "MexOperator",
           "package": "lojbanParser",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Number",
           "package": "lojbanParser",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Number",
           "package": "lojbanParser",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NumberLerfuString",
           "package": "lojbanParser",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NumberLerfuString",
           "package": "lojbanParser",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Operand",
           "package": "lojbanParser",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Operand",
           "package": "lojbanParser",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Paragraph",
           "package": "lojbanParser",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Paragraph",
           "package": "lojbanParser",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Paragraphs",
           "package": "lojbanParser",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Paragraphs",
           "package": "lojbanParser",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "ParseError",
           "package": "lojbanParser",
@@ -530,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "ParseError",
           "package": "lojbanParser",
@@ -543,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Pre",
           "package": "lojbanParser",
@@ -551,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Pre",
           "package": "lojbanParser",
@@ -564,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Quantifier",
           "package": "lojbanParser",
@@ -572,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Quantifier",
           "package": "lojbanParser",
@@ -585,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "RPExpression",
           "package": "lojbanParser",
@@ -593,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "RPExpression",
           "package": "lojbanParser",
@@ -606,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "RPExpressionTail",
           "package": "lojbanParser",
@@ -614,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "RPExpressionTail",
           "package": "lojbanParser",
@@ -627,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "RelativeClause",
           "package": "lojbanParser",
@@ -635,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "RelativeClause",
           "package": "lojbanParser",
@@ -648,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "RelativeClauses",
           "package": "lojbanParser",
@@ -656,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "RelativeClauses",
           "package": "lojbanParser",
@@ -669,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Selbri",
           "package": "lojbanParser",
@@ -677,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Selbri",
           "package": "lojbanParser",
@@ -690,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Sentence",
           "package": "lojbanParser",
@@ -698,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Sentence",
           "package": "lojbanParser",
@@ -711,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SpaceInterval",
           "package": "lojbanParser",
@@ -719,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SpaceInterval",
           "package": "lojbanParser",
@@ -732,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SpaceOffset",
           "package": "lojbanParser",
@@ -740,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SpaceOffset",
           "package": "lojbanParser",
@@ -753,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Statement",
           "package": "lojbanParser",
@@ -761,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Statement",
           "package": "lojbanParser",
@@ -774,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Sumti",
           "package": "lojbanParser",
@@ -782,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Sumti",
           "package": "lojbanParser",
@@ -795,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SumtiTail",
           "package": "lojbanParser",
@@ -803,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SumtiTail",
           "package": "lojbanParser",
@@ -816,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Tag",
           "package": "lojbanParser",
@@ -824,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Tag",
           "package": "lojbanParser",
@@ -837,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Tense",
           "package": "lojbanParser",
@@ -845,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Tense",
           "package": "lojbanParser",
@@ -858,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Term",
           "package": "lojbanParser",
@@ -866,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Term",
           "package": "lojbanParser",
@@ -879,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TermsGikTerms",
           "package": "lojbanParser",
@@ -887,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TermsGikTerms",
           "package": "lojbanParser",
@@ -900,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Text",
           "package": "lojbanParser",
@@ -908,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Text",
           "package": "lojbanParser",
@@ -921,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "BAI",
           "package": "lojbanParser",
@@ -930,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "BAI",
           "package": "lojbanParser",
@@ -943,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "BE",
           "package": "lojbanParser",
@@ -952,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "BE",
           "normalized": "BE Clause[Free]Term(Maybe Links)(Maybe Clause)[Free]",
@@ -967,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "BEI",
           "package": "lojbanParser",
@@ -976,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "BEI",
           "normalized": "BEI Clause[Free]Term(Maybe Links)",
@@ -991,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "BIhE",
           "package": "lojbanParser",
@@ -1000,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "BIhE",
           "normalized": "BIhE Mex Clause[Free]MexOperator Mex",
@@ -1015,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "BIhI",
           "package": "lojbanParser",
@@ -1024,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "BIhI",
           "package": "lojbanParser",
@@ -1037,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "BO",
           "package": "lojbanParser",
@@ -1046,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "BO",
           "normalized": "BO Selbri Clause[Free]Selbri",
@@ -1061,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Brivla",
           "package": "lojbanParser",
@@ -1070,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Brivla",
           "normalized": "Brivla Clause[Free]",
@@ -1085,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "CAhA",
           "package": "lojbanParser",
@@ -1094,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "CAhA",
           "package": "lojbanParser",
@@ -1107,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "CEI",
           "package": "lojbanParser",
@@ -1116,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "CEI",
           "normalized": "CEI Selbri[(Clause,[Free],Selbri)]",
@@ -1131,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "CO",
           "package": "lojbanParser",
@@ -1140,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "CO",
           "normalized": "CO Selbri Clause[Free]Selbri",
@@ -1155,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "CUhE",
           "package": "lojbanParser",
@@ -1164,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "CUhE",
           "package": "lojbanParser",
@@ -1177,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Ek",
           "package": "lojbanParser",
@@ -1186,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Ek",
           "package": "lojbanParser",
@@ -1199,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FA",
           "package": "lojbanParser",
@@ -1208,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FA",
           "normalized": "FA Clause[Free]",
@@ -1223,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FAhA",
           "package": "lojbanParser",
@@ -1232,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FAhA",
           "package": "lojbanParser",
@@ -1245,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FEhE",
           "package": "lojbanParser",
@@ -1254,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FEhE",
           "normalized": "FEhE[(Clause,IntervalProperty)]",
@@ -1269,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FEk",
           "package": "lojbanParser",
@@ -1278,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FEk",
           "normalized": "FEk Ek[Free]",
@@ -1293,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FGihek",
           "package": "lojbanParser",
@@ -1302,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FGihek",
           "normalized": "FGihek Gihek[Free]",
@@ -1317,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FIhO",
           "package": "lojbanParser",
@@ -1326,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FIhO",
           "normalized": "FIhO Clause[Free]Selbri(Maybe Clause)[Free]",
@@ -1341,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FLinkargs",
           "package": "lojbanParser",
@@ -1350,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FLinkargs",
           "package": "lojbanParser",
@@ -1363,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FLinks",
           "package": "lojbanParser",
@@ -1372,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FLinks",
           "package": "lojbanParser",
@@ -1385,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FNA",
           "package": "lojbanParser",
@@ -1394,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FNA",
           "normalized": "FNA Clause[Free]",
@@ -1409,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FPrenex",
           "package": "lojbanParser",
@@ -1418,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FPrenex",
           "normalized": "FPrenex[Term]Clause[Free]",
@@ -1433,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FQuantifier",
           "package": "lojbanParser",
@@ -1442,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FQuantifier",
           "package": "lojbanParser",
@@ -1455,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FRelativeClause",
           "package": "lojbanParser",
@@ -1464,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FRelativeClause",
           "package": "lojbanParser",
@@ -1477,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FTermsVAU",
           "package": "lojbanParser",
@@ -1486,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FTermsVAU",
           "normalized": "FTermsVAU[Term](Maybe Clause)[Free]",
@@ -1501,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "FUhA",
           "package": "lojbanParser",
@@ -1510,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "FUhA",
           "normalized": "FUhA Clause[Free]RPExpression",
@@ -1525,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GA",
           "package": "lojbanParser",
@@ -1534,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GA",
           "normalized": "GA(Maybe Clause)Clause(Maybe Clause)[Free]",
@@ -1549,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GAhO",
           "package": "lojbanParser",
@@ -1558,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GAhO",
           "package": "lojbanParser",
@@ -1571,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GOI",
           "package": "lojbanParser",
@@ -1580,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GOI",
           "normalized": "GOI Clause[Free]Term(Maybe Clause)[Free]",
@@ -1595,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GOhA",
           "package": "lojbanParser",
@@ -1604,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GOhA",
           "normalized": "GOhA Clause(Maybe Clause)[Free]",
@@ -1619,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Gek",
           "package": "lojbanParser",
@@ -1628,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Gek",
           "package": "lojbanParser",
@@ -1641,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GekOperand",
           "package": "lojbanParser",
@@ -1650,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GekOperand",
           "package": "lojbanParser",
@@ -1663,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GekSentence",
           "package": "lojbanParser",
@@ -1672,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GekSentence",
           "normalized": "GekSentence Gek Sentence Gik Sentence[Term](Maybe Clause)[Free]",
@@ -1687,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GekSumti",
           "package": "lojbanParser",
@@ -1696,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GekSumti",
           "package": "lojbanParser",
@@ -1709,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Gihek",
           "package": "lojbanParser",
@@ -1718,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Gihek",
           "package": "lojbanParser",
@@ -1731,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GihekBO",
           "package": "lojbanParser",
@@ -1740,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GihekBO",
           "normalized": "GihekBO Sentence Gihek(Maybe Tag)Clause[Free]Sentence[Term](Maybe Clause)[Free]",
@@ -1755,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GihekKE",
           "package": "lojbanParser",
@@ -1764,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GihekKE",
           "normalized": "GihekKE Sentence Gihek(Maybe Tag)Clause[Free]Sentence(Maybe Clause)[Free][Term](Maybe Clause)[Free]",
@@ -1779,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GihekSentence",
           "package": "lojbanParser",
@@ -1788,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GihekSentence",
           "normalized": "GihekSentence Sentence[(Gihek,[Free],Sentence,[Term],Maybe Clause,[Free])]",
@@ -1803,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Gik",
           "package": "lojbanParser",
@@ -1812,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Gik",
           "package": "lojbanParser",
@@ -1825,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GuhekGik",
           "package": "lojbanParser",
@@ -1834,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GuhekGik",
           "normalized": "GuhekGik(Maybe Clause)[Free]Guhek Selbri Gik Selbri",
@@ -1849,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "GuhekOperator",
           "package": "lojbanParser",
@@ -1858,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "GuhekOperator",
           "package": "lojbanParser",
@@ -1871,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "HeadNIhO",
           "package": "lojbanParser",
@@ -1880,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "HeadNIhO",
           "normalized": "HeadNIhO[Clause][Free](Maybe Paragraphs)",
@@ -1895,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "IBO",
           "package": "lojbanParser",
@@ -1904,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "IBO",
           "normalized": "IBO Statement Clause(Maybe JoikJek)(Maybe Tag)Clause[Free]",
@@ -1919,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "IBOStatement",
           "package": "lojbanParser",
@@ -1928,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "IBOStatement",
           "normalized": "IBOStatement Statement Clause(Maybe JoikJek)(Maybe Tag)Clause[Free]Statement",
@@ -1943,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "IJoikJek",
           "package": "lojbanParser",
@@ -1952,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "IJoikJek",
           "normalized": "IJoikJek Statement[(Clause,JoikJek,[Free],Maybe Statement)]",
@@ -1967,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "IText_1",
           "package": "lojbanParser",
@@ -1976,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "IText_1",
           "normalized": "IText_ Clause(Maybe JoikJek)(Maybe(Maybe Tag,Clause))[Free](Maybe Text)",
@@ -1991,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JAI",
           "package": "lojbanParser",
@@ -2000,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JAI",
           "normalized": "JAI Clause[Free](Maybe Tag)Selbri",
@@ -2015,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JOI",
           "package": "lojbanParser",
@@ -2024,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JOI",
           "package": "lojbanParser",
@@ -2037,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JOhI",
           "package": "lojbanParser",
@@ -2046,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JOhI",
           "normalized": "JOhI Clause[Free][Mex](Maybe Clause)[Free]",
@@ -2061,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Jek",
           "package": "lojbanParser",
@@ -2070,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Jek",
           "package": "lojbanParser",
@@ -2083,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JekJoikBO",
           "package": "lojbanParser",
@@ -2092,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JekJoikBO",
           "normalized": "JekJoikBO Selbri JoikJek(Maybe Tag)Clause[Free]Selbri",
@@ -2107,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JekJoikBOOperator",
           "package": "lojbanParser",
@@ -2116,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JekJoikBOOperator",
           "normalized": "JekJoikBOOperator MexOperator JoikJek(Maybe Tag)Clause[Free]MexOperator",
@@ -2131,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JekJoikSTag",
           "package": "lojbanParser",
@@ -2140,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JekJoikSTag",
           "normalized": "JekJoikSTag Tag[(JoikJek,Tag)]",
@@ -2155,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikEkBOSumti",
           "package": "lojbanParser",
@@ -2164,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikEkBOSumti",
           "normalized": "JoikEkBOSumti Sumti JoikEk[Free](Maybe Tag)Clause[Free]Sumti",
@@ -2179,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikEkKESumti",
           "package": "lojbanParser",
@@ -2188,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikEkKESumti",
           "normalized": "JoikEkKESumti Sumti JoikEk[Free](Maybe Tag)Clause[Free]Sumti(Maybe Clause)[Free]",
@@ -2203,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikEkSumti",
           "package": "lojbanParser",
@@ -2212,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikEkSumti",
           "normalized": "JoikEkSumti Sumti[(JoikEk,[Free],Sumti)]",
@@ -2227,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikGI",
           "package": "lojbanParser",
@@ -2236,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikGI",
           "normalized": "JoikGI Joik Clause[Free]",
@@ -2251,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikJek",
           "package": "lojbanParser",
@@ -2260,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikJek",
           "normalized": "JoikJek Selbri[JoikJekSelbri]",
@@ -2275,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikJekJoikKEOperator",
           "package": "lojbanParser",
@@ -2284,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikJekJoikKEOperator",
           "normalized": "JoikJekJoikKEOperator MexOperator[Either(JoikJek,[Free],MexOperator)(Joik,Maybe Tag,Clause,[Free],MexOperator,Maybe Clause,[Free])]",
@@ -2299,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "JoikJekTag",
           "package": "lojbanParser",
@@ -2308,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "JoikJekTag",
           "normalized": "JoikJekTag Tag[(JoikJek,[Free],Tag)]",
@@ -2323,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "KE",
           "package": "lojbanParser",
@@ -2332,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "KE",
           "normalized": "KE Clause[Free]Selbri(Maybe Clause)[Free]",
@@ -2347,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "KEGekSentence",
           "package": "lojbanParser",
@@ -2356,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "KEGekSentence",
           "normalized": "KEGekSentence(Maybe Tag)Clause[Free]Sentence(Maybe Clause)[Free]",
@@ -2371,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "KEOperator",
           "package": "lojbanParser",
@@ -2380,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "KEOperator",
           "normalized": "KEOperator Clause[Free]MexOperator(Maybe Clause)[Free]",
@@ -2395,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "KI",
           "package": "lojbanParser",
@@ -2404,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "KI",
           "package": "lojbanParser",
@@ -2417,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "KOhA",
           "package": "lojbanParser",
@@ -2426,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "KOhA",
           "normalized": "KOhA Clause[Free]",
@@ -2441,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "KU",
           "package": "lojbanParser",
@@ -2450,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "KU",
           "normalized": "KU(Maybe Clause)[Free]",
@@ -2465,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LA",
           "package": "lojbanParser",
@@ -2474,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LA",
           "normalized": "LA Clause[Free](Maybe RelativeClauses)[Clause][Free]",
@@ -2489,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LALE",
           "package": "lojbanParser",
@@ -2498,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LALE",
           "normalized": "LALE Clause[Free]SumtiTail(Maybe Clause)[Free]",
@@ -2513,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LAhE_NAhE",
           "package": "lojbanParser",
@@ -2522,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LAhE_NAhE",
           "normalized": "LAhE_NAhE Clause(Maybe Clause)[Free](Maybe RelativeClauses)Sumti(Maybe Clause)[Free]",
@@ -2537,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LAhE_NAhEOperand",
           "package": "lojbanParser",
@@ -2546,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LAhE_NAhEOperand",
           "normalized": "LAhE_NAhEOperand Clause(Maybe Clause)[Free]Operand(Maybe Clause)[Free]",
@@ -2561,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LI",
           "package": "lojbanParser",
@@ -2570,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LI",
           "normalized": "LI Clause[Free]Mex(Maybe Clause)[Free]",
@@ -2585,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LOhU",
           "package": "lojbanParser",
@@ -2594,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LOhU",
           "normalized": "LOhU[String]String[String]Pre Indicators[Free]",
@@ -2609,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LU",
           "package": "lojbanParser",
@@ -2618,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LU",
           "normalized": "LU Clause Text(Maybe Clause)[Free]",
@@ -2633,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "LerfuString",
           "package": "lojbanParser",
@@ -2642,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "LerfuString",
           "normalized": "LerfuString LerfuString(Maybe Clause)[Free]",
@@ -2657,6 +2891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Linkargs",
           "package": "lojbanParser",
@@ -2666,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Linkargs",
           "package": "lojbanParser",
@@ -2679,6 +2915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "MAI",
           "package": "lojbanParser",
@@ -2688,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "MAI",
           "package": "lojbanParser",
@@ -2701,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "MAhO",
           "package": "lojbanParser",
@@ -2710,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "MAhO",
           "normalized": "MAhO Clause[Free]Mex(Maybe Clause)[Free]",
@@ -2725,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "ME",
           "package": "lojbanParser",
@@ -2734,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "ME",
           "normalized": "ME Clause[Free]Sumti(Maybe Clause)[Free](Maybe Clause)[Free]",
@@ -2749,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "MOI",
           "package": "lojbanParser",
@@ -2758,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "MOI",
           "normalized": "MOI NumberLerfuString Clause[Free]",
@@ -2773,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "MOhE",
           "package": "lojbanParser",
@@ -2782,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "MOhE",
           "normalized": "MOhE Clause[Free]Sumti(Maybe Clause)[Free]",
@@ -2797,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "MexOperatorMex",
           "package": "lojbanParser",
@@ -2806,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "MexOperatorMex",
           "normalized": "MexOperatorMex Mex[(MexOperator,Mex)]",
@@ -2821,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NA",
           "package": "lojbanParser",
@@ -2830,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NA",
           "normalized": "NA Clause[Free]Selbri",
@@ -2845,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NAGekSentence",
           "package": "lojbanParser",
@@ -2854,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NAGekSentence",
           "normalized": "NAGekSentence Clause[Free]Sentence",
@@ -2869,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NAKU",
           "package": "lojbanParser",
@@ -2878,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NAKU",
           "normalized": "NAKU Clause Clause[Free]",
@@ -2893,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NAhE",
           "package": "lojbanParser",
@@ -2902,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NAhE",
           "normalized": "NAhE Clause[Free]Selbri",
@@ -2917,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NAhEOperator",
           "package": "lojbanParser",
@@ -2926,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NAhEOperator",
           "normalized": "NAhEOperator Clause[Free]MexOperator",
@@ -2941,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NAhETenseKI",
           "package": "lojbanParser",
@@ -2950,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NAhETenseKI",
           "package": "lojbanParser",
@@ -2963,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NAhU",
           "package": "lojbanParser",
@@ -2972,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NAhU",
           "normalized": "NAhU Clause[Free]Selbri(Maybe Clause)[Free]",
@@ -2987,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NIhE",
           "package": "lojbanParser",
@@ -2996,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NIhE",
           "normalized": "NIhE Clause[Free]Selbri(Maybe Clause)[Free]",
@@ -3011,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NIhO",
           "package": "lojbanParser",
@@ -3020,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NIhO",
           "normalized": "NIhO Paragraph[Clause][Free]Paragraphs",
@@ -3035,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NOI",
           "package": "lojbanParser",
@@ -3044,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NOI",
           "normalized": "NOI Clause[Free]Sentence(Maybe Clause)[Free]",
@@ -3059,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NU",
           "package": "lojbanParser",
@@ -3068,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NU",
           "normalized": "NU Clause(Maybe Clause)[Free][(JoikJek,[Free],Clause,Maybe Clause,[Free])]Sentence(Maybe Clause)[Free]",
@@ -3083,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NUhA",
           "package": "lojbanParser",
@@ -3092,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NUhA",
           "normalized": "NUhA Clause[Free]MexOperator",
@@ -3107,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NUhI",
           "package": "lojbanParser",
@@ -3116,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NUhI",
           "normalized": "NUhI Clause[Free][Term](Maybe Clause)[Free]",
@@ -3131,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "NUhIGek",
           "package": "lojbanParser",
@@ -3140,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "NUhIGek",
           "normalized": "NUhIGek Clause[Free]Gek[Term](Maybe Clause)[Free]Gik[Term](Maybe Clause)[Free]",
@@ -3155,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Number",
           "package": "lojbanParser",
@@ -3164,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Number",
           "normalized": "Number Number(Maybe Clause)[Free]",
@@ -3179,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "OLerfuString",
           "package": "lojbanParser",
@@ -3188,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "OLerfuString",
           "normalized": "OLerfuString LerfuString(Maybe Clause)[Free]",
@@ -3203,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "OperandJoikEk",
           "package": "lojbanParser",
@@ -3212,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "OperandJoikEk",
           "normalized": "OperandJoikEk Operand[(JoikEk,[Free],Operand)]",
@@ -3227,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "OperandJoikEkBO",
           "package": "lojbanParser",
@@ -3236,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "OperandJoikEkBO",
           "normalized": "OperandJoikEkBO Operand JoikEk[Free](Maybe Tag)Clause[Free]Operand",
@@ -3251,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "OperandJoikEkKE",
           "package": "lojbanParser",
@@ -3260,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "OperandJoikEkKE",
           "normalized": "OperandJoikEkKE Operand JoikEk[Free](Maybe Tag)Clause[Free]Operand(Maybe Clause)[Free]",
@@ -3275,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "OuterQuantifier",
           "package": "lojbanParser",
@@ -3284,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "OuterQuantifier",
           "package": "lojbanParser",
@@ -3297,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "PEhO",
           "package": "lojbanParser",
@@ -3306,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "PEhO",
           "normalized": "PEhO(Maybe Clause)[Free]MexOperator[Mex](Maybe Clause)[Free]",
@@ -3321,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Prenex",
           "package": "lojbanParser",
@@ -3330,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Prenex",
           "normalized": "Prenex[Term]Clause[Free]Statement",
@@ -3345,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "PrenexSentence",
           "package": "lojbanParser",
@@ -3354,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "PrenexSentence",
           "normalized": "PrenexSentence[Term]Clause[Free]Sentence",
@@ -3369,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "QuantifierSumti",
           "package": "lojbanParser",
@@ -3378,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "QuantifierSumti",
           "package": "lojbanParser",
@@ -3391,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "ROI",
           "package": "lojbanParser",
@@ -3400,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "ROI",
           "package": "lojbanParser",
@@ -3413,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "RPExpression",
           "package": "lojbanParser",
@@ -3422,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "RPExpression",
           "package": "lojbanParser",
@@ -3435,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "RPExpressionTail",
           "package": "lojbanParser",
@@ -3444,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "RPExpressionTail",
           "package": "lojbanParser",
@@ -3457,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "RelativeClauseZIhE",
           "package": "lojbanParser",
@@ -3466,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "RelativeClauseZIhE",
           "normalized": "RelativeClauseZIhE RelativeClause[(Clause,[Free],RelativeClause)]",
@@ -3481,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "RelativeClausesSumtiTail",
           "package": "lojbanParser",
@@ -3490,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "RelativeClausesSumtiTail",
           "package": "lojbanParser",
@@ -3503,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SE",
           "package": "lojbanParser",
@@ -3512,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SE",
           "normalized": "SE Clause[Free]Selbri",
@@ -3527,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SEI",
           "package": "lojbanParser",
@@ -3536,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SEI",
           "normalized": "SEI Clause[Free](Maybe([Term],Maybe Clause,[Free]))Selbri(Maybe Clause)",
@@ -3551,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SEOperator",
           "package": "lojbanParser",
@@ -3560,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SEOperator",
           "normalized": "SEOperator Clause[Free]MexOperator",
@@ -3575,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SOI",
           "package": "lojbanParser",
@@ -3584,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SOI",
           "normalized": "SOI Clause[Free]Sumti(Maybe Sumti)(Maybe Clause)",
@@ -3599,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SQuantifierSelbri",
           "package": "lojbanParser",
@@ -3608,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SQuantifierSelbri",
           "normalized": "SQuantifierSelbri Quantifier Selbri(Maybe Clause)[Free](Maybe RelativeClauses)",
@@ -3623,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "STQuantifierSelbri",
           "package": "lojbanParser",
@@ -3632,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "STQuantifierSelbri",
           "package": "lojbanParser",
@@ -3645,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "STagGik",
           "package": "lojbanParser",
@@ -3654,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "STagGik",
           "package": "lojbanParser",
@@ -3667,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Selbri",
           "package": "lojbanParser",
@@ -3676,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Selbri",
           "package": "lojbanParser",
@@ -3689,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SelbriRelativeClauses",
           "package": "lojbanParser",
@@ -3698,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SelbriRelativeClauses",
           "package": "lojbanParser",
@@ -3711,6 +4035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SelbriTailTerms",
           "package": "lojbanParser",
@@ -3720,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SelbriTailTerms",
           "normalized": "SelbriTailTerms Selbri[Term](Maybe Clause)[Free]",
@@ -3735,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SimpleTenseModalFree",
           "package": "lojbanParser",
@@ -3744,6 +4071,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SimpleTenseModalFree",
           "normalized": "SimpleTenseModalFree Tag[Free]",
@@ -3759,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Space",
           "package": "lojbanParser",
@@ -3768,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Space",
           "normalized": "Space(Maybe Clause)[SpaceOffset](Maybe SpaceInterval)(Maybe(Clause,SpaceOffset))",
@@ -3783,6 +4113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SpaceTime",
           "package": "lojbanParser",
@@ -3792,6 +4123,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SpaceTime",
           "package": "lojbanParser",
@@ -3805,6 +4137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "StatementI",
           "package": "lojbanParser",
@@ -3814,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "StatementI",
           "normalized": "StatementI Statement[(Clause,[Free],Maybe Statement)]",
@@ -3829,6 +4163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "SumtiSumtiTail",
           "package": "lojbanParser",
@@ -3838,6 +4173,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "SumtiSumtiTail",
           "package": "lojbanParser",
@@ -3851,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TAhE",
           "package": "lojbanParser",
@@ -3860,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TAhE",
           "package": "lojbanParser",
@@ -3873,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TGT",
           "package": "lojbanParser",
@@ -3882,6 +4221,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TGT",
           "package": "lojbanParser",
@@ -3895,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TO",
           "package": "lojbanParser",
@@ -3904,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TO",
           "package": "lojbanParser",
@@ -3917,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TUhE",
           "package": "lojbanParser",
@@ -3926,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TUhE",
           "normalized": "TUhE(Maybe Tag)Clause[Free]Text(Maybe Clause)[Free]",
@@ -3941,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Tag",
           "package": "lojbanParser",
@@ -3950,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Tag",
           "package": "lojbanParser",
@@ -3963,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TagSumti",
           "package": "lojbanParser",
@@ -3972,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TagSumti",
           "package": "lojbanParser",
@@ -3985,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Tanru",
           "package": "lojbanParser",
@@ -3994,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Tanru",
           "normalized": "Tanru[Selbri]",
@@ -4009,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TenseCAhA",
           "package": "lojbanParser",
@@ -4018,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TenseCAhA",
           "package": "lojbanParser",
@@ -4031,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TermCEhETerm",
           "package": "lojbanParser",
@@ -4040,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TermCEhETerm",
           "normalized": "TermCEhETerm Term[(Clause,[Free],Term)]",
@@ -4055,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TermsBridiTail",
           "package": "lojbanParser",
@@ -4064,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TermsBridiTail",
           "normalized": "TermsBridiTail[Term](Maybe Clause)[Free]Sentence",
@@ -4079,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TermsPEhETerms",
           "package": "lojbanParser",
@@ -4088,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TermsPEhETerms",
           "normalized": "TermsPEhETerms Term[(Clause,[Free],JoikJek,[Free],Term)]",
@@ -4103,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "Time",
           "package": "lojbanParser",
@@ -4112,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "Time",
           "normalized": "Time(Maybe Clause)[(Clause,Maybe Clause,Maybe Clause)](Maybe(Clause,Maybe(Clause,Maybe Clause)))[IntervalProperty]",
@@ -4127,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TimeSpace",
           "package": "lojbanParser",
@@ -4136,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TimeSpace",
           "package": "lojbanParser",
@@ -4149,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "TopText",
           "package": "lojbanParser",
@@ -4158,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "TopText",
           "normalized": "TopText[Clause](Either[Clause](Maybe[([String],String)]))[Free](Maybe(JoikJek,[Free]))(Maybe Text)(Maybe Pre)",
@@ -4173,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VEI",
           "package": "lojbanParser",
@@ -4182,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VEI",
           "normalized": "VEI Clause[Free]Mex(Maybe Clause)[Free]",
@@ -4197,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VEhAVIhA",
           "package": "lojbanParser",
@@ -4206,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VEhAVIhA",
           "package": "lojbanParser",
@@ -4219,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VEhAVIhAFAhA",
           "package": "lojbanParser",
@@ -4228,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VEhAVIhAFAhA",
           "package": "lojbanParser",
@@ -4241,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VEhAVIhAFAhAFEhE",
           "package": "lojbanParser",
@@ -4250,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VEhAVIhAFAhAFEhE",
           "package": "lojbanParser",
@@ -4263,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VEhAVIhAFEhE",
           "package": "lojbanParser",
@@ -4272,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VEhAVIhAFEhE",
           "package": "lojbanParser",
@@ -4285,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VUhO",
           "package": "lojbanParser",
@@ -4294,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VUhO",
           "normalized": "VUhO Sumti Clause[Free]RelativeClauses",
@@ -4309,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VUhU",
           "package": "lojbanParser",
@@ -4318,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VUhU",
           "normalized": "VUhU Clause[Free]",
@@ -4333,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VocativeCmene",
           "package": "lojbanParser",
@@ -4342,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VocativeCmene",
           "normalized": "VocativeCmene[Clause](Maybe RelativeClauses)[Clause][Free](Maybe RelativeClauses)(Maybe Clause)",
@@ -4357,6 +4737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VocativeSelbri",
           "package": "lojbanParser",
@@ -4366,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VocativeSelbri",
           "normalized": "VocativeSelbri[Clause](Maybe RelativeClauses)Selbri(Maybe RelativeClauses)(Maybe Clause)",
@@ -4381,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "VocativeSumti",
           "package": "lojbanParser",
@@ -4390,6 +4773,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "VocativeSumti",
           "normalized": "VocativeSumti[Clause](Maybe Sumti)(Maybe Clause)",
@@ -4405,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "XIMex",
           "package": "lojbanParser",
@@ -4414,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "XIMex",
           "normalized": "XIMex Clause[Free]Clause[Free]Mex(Maybe Clause)",
@@ -4429,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "XINumber",
           "package": "lojbanParser",
@@ -4438,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "XINumber",
           "normalized": "XINumber Clause[Free]NumberLerfuString(Maybe Clause)",
@@ -4453,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "ZAhO",
           "package": "lojbanParser",
@@ -4462,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "ZAhO",
           "package": "lojbanParser",
@@ -4475,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "ZO",
           "package": "lojbanParser",
@@ -4484,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "ZO",
           "normalized": "ZO[String]String String Indicators[Free]",
@@ -4499,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "ZOI",
           "package": "lojbanParser",
@@ -4508,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "ZOI",
           "normalized": "ZOI[String]String[String]Indicators[Free]",
@@ -4523,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:15 UTC 2014",
           "module": "Language.Lojban.Parser",
           "name": "parse",
           "package": "lojbanParser",
@@ -4532,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser",
+          "indexed": "2014-03-11T19:12:15",
           "module": "Language.Lojban.Parser",
           "name": "parse",
           "normalized": "String-\u003eEither ParseError Text",

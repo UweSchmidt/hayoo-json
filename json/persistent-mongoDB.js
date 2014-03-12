@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-mongoDB"
+        "phrase": "persistent-mongoDB",
+        "type": "phrase"
       },
       "type": "context"
     }

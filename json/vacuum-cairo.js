@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vacuum-cairo"
+        "phrase": "vacuum-cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInteractively visualize Haskell heap values as SVG graphs in a Cairo canvas\n using graphviz.\n\u003c/p\u003e\u003cpre\u003e view [1..10]\n\u003c/pre\u003e\u003cp\u003eWill display a pop-up window of the data structure produced\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:05 UTC 2014",
           "module": "System.Vacuum.Cairo",
           "name": "Cairo",
           "package": "vacuum-cairo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interactively visualize Haskell heap values as SVG graphs in Cairo canvas using graphviz view Will display pop-up window of the data structure produced",
           "hierarchy": "System Vacuum Cairo",
+          "indexed": "2014-03-11T20:33:05",
           "module": "System.Vacuum.Cairo",
           "name": "Cairo",
           "package": "vacuum-cairo",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a value using the current session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:05 UTC 2014",
           "module": "System.Vacuum.Cairo",
           "name": "view",
           "package": "vacuum-cairo",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Render value using the current session",
           "hierarchy": "System Vacuum Cairo",
+          "indexed": "2014-03-11T20:33:05",
           "module": "System.Vacuum.Cairo",
           "name": "view",
           "normalized": "a-\u003eIO()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a value to a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:05 UTC 2014",
           "module": "System.Vacuum.Cairo",
           "name": "viewFile",
           "package": "vacuum-cairo",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Render value to file",
           "hierarchy": "System Vacuum Cairo",
+          "indexed": "2014-03-11T20:33:05",
           "module": "System.Vacuum.Cairo",
           "name": "viewFile",
           "normalized": "String-\u003ea-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hcheat"
+        "phrase": "hcheat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:03 UTC 2014",
           "module": "Web.HCheat",
           "name": "HCheat",
           "package": "hcheat",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web HCheat",
+          "indexed": "2014-03-11T18:35:03",
           "module": "Web.HCheat",
           "name": "HCheat",
           "package": "hcheat",

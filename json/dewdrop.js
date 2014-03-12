@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dewdrop"
+        "phrase": "dewdrop",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnalyze the ROP gadgets in an ELF binary.\n\u003c/p\u003e\u003cp\u003eUse this module if you need more control, or integration with a larger\n program. The module \u003ca\u003eDewdrop\u003c/a\u003e provides a simpler way to put together a\n standalone gadget finder.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "Analyze",
           "package": "dewdrop",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Analyze the ROP gadgets in an ELF binary Use this module if you need more control or integration with larger program The module Dewdrop provides simpler way to put together standalone gadget finder",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "Analyze",
           "package": "dewdrop",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the gadget finder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "Config",
           "package": "dewdrop",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Configuration of the gadget finder",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "Config",
           "package": "dewdrop",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence of instructions, each with metadata.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance produces assembly code with labeled offsets,\n so you can \u003ccode\u003e\u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e these directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "Gadget",
           "package": "dewdrop",
@@ -74,6 +79,7 @@
         "index": {
           "description": "sequence of instructions each with metadata The Show instance produces assembly code with labeled offsets so you can print these directly",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "Gadget",
           "package": "dewdrop",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "Config",
           "package": "dewdrop",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "Config",
           "package": "dewdrop",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "Gadget",
           "package": "dewdrop",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "Gadget",
           "normalized": "Gadget[Metadata]",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum size of a gadget, in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "cfgMaxSize",
           "package": "dewdrop",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Maximum size of gadget in bytes",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "cfgMaxSize",
           "package": "dewdrop",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssembly syntax for display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "cfgSyntax",
           "package": "dewdrop",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Assembly syntax for display",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "cfgSyntax",
           "package": "dewdrop",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCPU vendor; affects decoding of a\n   few instructions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "cfgVendor",
           "package": "dewdrop",
@@ -192,6 +207,7 @@
         "index": {
           "description": "CPU vendor affects decoding of few instructions",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "cfgVendor",
           "package": "dewdrop",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault configuration of the gadget finder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "defaultConfig",
           "package": "dewdrop",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Default configuration of the gadget finder",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "defaultConfig",
           "package": "dewdrop",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind possible gadgets.\n\u003c/p\u003e\u003cp\u003eYou can filter these further using \u003ccode\u003e\u003ccode\u003e\u003ca\u003evalid\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or other tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "gadgets",
           "package": "dewdrop",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Find possible gadgets You can filter these further using valid or other tests",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "gadgets",
           "normalized": "Elf-\u003e[Gadget]",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind possible gadgets, using a custom configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "gadgetsWith",
           "package": "dewdrop",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Find possible gadgets using custom configuration",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "gadgetsWith",
           "normalized": "Config-\u003eElf-\u003e[Gadget]",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRejects gadgets which are probably not useful for return-oriented\n programming.  This includes gadgets containing invalid or privileged\n instructions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop.Analyze",
           "name": "valid",
           "package": "dewdrop",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Rejects gadgets which are probably not useful for return-oriented programming This includes gadgets containing invalid or privileged instructions",
           "hierarchy": "Dewdrop Analyze",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop.Analyze",
           "name": "valid",
           "normalized": "Gadget-\u003eBool",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrint ROP gadgets having some desired property.\n\u003c/p\u003e\u003cp\u003eThis module provides the quickest way to get started:\n\u003c/p\u003e\u003cpre\u003e $ cat find.hs\n\n import Dewdrop\n main = dewdrop (any (usesRegister RBP))\n\n $ runhaskell find.hs /bin/ls\n 00402e56:\n   pop %rbp\n   ret\n\n 0040afe7:\n   shl %cl, -0x15(%rbp)\n   rep ret\n\n ...\n\u003c/pre\u003e\u003cp\u003eIf you need more control, see \u003ca\u003eDewdrop.Analyze\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop",
           "name": "Dewdrop",
           "package": "dewdrop",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Print ROP gadgets having some desired property This module provides the quickest way to get started cat find.hs import Dewdrop main dewdrop any usesRegister RBP runhaskell find.hs bin ls e56 pop rbp ret afe7 shl cl x15 rbp rep ret If you need more control see Dewdrop.Analyze",
           "hierarchy": "Dewdrop",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop",
           "name": "Dewdrop",
           "package": "dewdrop",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens the ELF binary file passed as the first command-line\n argument, and prints all ROP gadgets satisfying the specified\n property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop",
           "name": "dewdrop",
           "package": "dewdrop",
@@ -339,6 +366,7 @@
         "index": {
           "description": "Opens the ELF binary file passed as the first command-line argument and prints all ROP gadgets satisfying the specified property",
           "hierarchy": "Dewdrop",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop",
           "name": "dewdrop",
           "normalized": "([Metadata]-\u003eBool)-\u003eIO()",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eOpcode\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e directly from an instruction-with-metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop",
           "name": "opcode",
           "package": "dewdrop",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Get the Opcode directly from an instruction-with-metadata",
           "hierarchy": "Dewdrop",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop",
           "name": "opcode",
           "normalized": "Metadata-\u003eOpcode",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes this instruction use a given register?\n\u003c/p\u003e\u003cp\u003eThis only includes registers explicitly mentioned in disassembly,\n and not e.g. the \u003ccode\u003ersi\u003c/code\u003e / \u003ccode\u003erdi\u003c/code\u003e operands of \u003ccode\u003emovsd\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop",
           "name": "usesRegister",
           "package": "dewdrop",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Does this instruction use given register This only includes registers explicitly mentioned in disassembly and not e.g the rsi rdi operands of movsd",
           "hierarchy": "Dewdrop",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop",
           "name": "usesRegister",
           "normalized": "GPR-\u003eMetadata-\u003eBool",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes this instruction mention a given segment register?\n\u003c/p\u003e\u003cp\u003eThis only includes explicit overrides, and loads/stores of\n segment registers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:45 UTC 2014",
           "module": "Dewdrop",
           "name": "usesSegment",
           "package": "dewdrop",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Does this instruction mention given segment register This only includes explicit overrides and loads stores of segment registers",
           "hierarchy": "Dewdrop",
+          "indexed": "2014-03-11T17:53:45",
           "module": "Dewdrop",
           "name": "usesSegment",
           "normalized": "Segment-\u003eMetadata-\u003eBool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoodle"
+        "phrase": "hoodle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.Command",
           "name": "Command",
           "package": "hoodle",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Command",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.Command",
           "name": "Command",
           "package": "hoodle",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.Command",
           "name": "commandLineProcess",
           "package": "hoodle",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Command",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.Command",
           "name": "commandLineProcess",
           "normalized": "Hoodle-\u003eMaybe Hook-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.Job",
           "name": "Job",
           "package": "hoodle",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Job",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.Job",
           "name": "Job",
           "package": "hoodle",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.Job",
           "name": "startJob",
           "package": "hoodle",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Job",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.Job",
           "name": "startJob",
           "normalized": "Maybe FilePath-\u003eMaybe Hook-\u003eIO()",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "ProgType",
           "package": "hoodle",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "ProgType",
           "package": "hoodle",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "Hoodle",
           "package": "hoodle",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "Hoodle",
           "package": "hoodle",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "Test",
           "package": "hoodle",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "Test",
           "package": "hoodle",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "mode",
           "package": "hoodle",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "mode",
           "package": "hoodle",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "programAbout",
           "package": "hoodle",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "programAbout",
           "package": "hoodle",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "programCopyright",
           "package": "hoodle",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "programCopyright",
           "package": "hoodle",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "programInfo",
           "package": "hoodle",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "programInfo",
           "package": "hoodle",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "programName",
           "package": "hoodle",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "programName",
           "package": "hoodle",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "programVersion",
           "package": "hoodle",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "programVersion",
           "package": "hoodle",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "test",
           "package": "hoodle",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "test",
           "package": "hoodle",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.ProgType",
           "name": "xojfile",
           "package": "hoodle",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ProgType",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.ProgType",
           "name": "xojfile",
           "package": "hoodle",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.StartUp",
           "name": "StartUp",
           "package": "hoodle",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Hoodle StartUp",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.StartUp",
           "name": "StartUp",
           "package": "hoodle",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.StartUp",
           "name": "dirHoodled",
           "package": "hoodle",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Hoodle StartUp",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.StartUp",
           "name": "dirHoodled",
           "package": "hoodle",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.StartUp",
           "name": "hoodleMain",
           "package": "hoodle",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Hoodle StartUp",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.StartUp",
           "name": "hoodleMain",
           "normalized": "ScriptConfig-\u003eIO()",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:32 UTC 2014",
           "module": "Hoodle.StartUp",
           "name": "hoodleStartMain",
           "package": "hoodle",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Hoodle StartUp",
+          "indexed": "2014-03-11T18:43:32",
           "module": "Hoodle.StartUp",
           "name": "hoodleStartMain",
           "normalized": "ScriptConfig-\u003eIO()",

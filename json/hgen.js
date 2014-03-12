@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgen"
+        "phrase": "hgen",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spelling-suggest"
+        "phrase": "spelling-suggest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead a spelling dictionary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.Dictionary",
           "name": "Dictionary",
           "package": "spelling-suggest",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read spelling dictionary",
           "hierarchy": "Text SpellingSuggest Dictionary",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.Dictionary",
           "name": "Dictionary",
           "package": "spelling-suggest",
@@ -67,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the words out of the dictionary at the given\n path. XXX Will leak a file handle until/unless it is\n finalized, since there's no non-trivial way to arrange\n for the dictionary file to be closed explicitly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.Dictionary",
           "name": "readDictionary",
           "package": "spelling-suggest",
@@ -77,6 +80,7 @@
         "index": {
           "description": "Read the words out of the dictionary at the given path XXX Will leak file handle until unless it is finalized since there no non-trivial way to arrange for the dictionary file to be closed explicitly",
           "hierarchy": "Text SpellingSuggest Dictionary",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.Dictionary",
           "name": "readDictionary",
           "normalized": "Maybe String-\u003eIO[String]",
@@ -93,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation-level interface for spelling suggestion.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "LowLevel",
           "package": "spelling-suggest",
@@ -102,6 +107,7 @@
         "index": {
           "description": "Implementation-level interface for spelling suggestion",
           "hierarchy": "Text SpellingSuggest LowLevel",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "LowLevel",
           "package": "spelling-suggest",
@@ -115,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "SpellingWordCoder",
           "package": "spelling-suggest",
@@ -123,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Text SpellingSuggest LowLevel",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "SpellingWordCoder",
           "package": "spelling-suggest",
@@ -136,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "SpellingWordFilter",
           "package": "spelling-suggest",
@@ -144,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text SpellingSuggest LowLevel",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "SpellingWordFilter",
           "package": "spelling-suggest",
@@ -185,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe weighted edit distance between a pair of strings,\n   with weights for insertion, deletion, transposition and\n   substitution chose to try to mimic spelling errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "editDistance",
           "package": "spelling-suggest",
@@ -195,6 +206,7 @@
         "index": {
           "description": "The weighted edit distance between pair of strings with weights for insertion deletion transposition and substitution chose to try to mimic spelling errors",
           "hierarchy": "Text SpellingSuggest LowLevel",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "editDistance",
           "normalized": "String-\u003eString-\u003eInt",
@@ -238,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a \u003ca\u003efull\u003c/a\u003e phonix code; i.e., do not drop any\n encodable characters from the result.  The leading\n character of the code will be folded to uppercase.\n Non-alphabetics are not encoded. If no alphabetics are\n present, the phonix code will be \u003ca\u003e0\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThere appear to be many, many variants of phonix\n implemented on the web, and I'm too cheap and lazy to go\n find the original paper by Gadd (1990) that actually\n describes the original algorithm.  Thus, I am taking some\n big guesses on intent here as I implement.\n Corrections, especially those involving getting me a copy\n of the article, are welcome.\n\u003c/p\u003e\u003cp\u003eDropping the \u003ca\u003etrailing sound\u003c/a\u003e seems to be\n an integral part of Gadd's technique, but I'm not sure how\n it is supposed to be done.  I am currently compressing runs\n of vowels, and then dropping the trailing digit or vowel\n from the code.\n\u003c/p\u003e\u003cp\u003eAnother area of confusion is whether to compress strings of\n the same code, as in Soundex, or merely strings of the same\n consonant.  I have chosen the former.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "phonix",
           "package": "spelling-suggest",
@@ -247,6 +260,7 @@
         "index": {
           "description": "Compute full phonix code i.e do not drop any encodable characters from the result The leading character of the code will be folded to uppercase Non-alphabetics are not encoded If no alphabetics are present the phonix code will be There appear to be many many variants of phonix implemented on the web and too cheap and lazy to go find the original paper by Gadd that actually describes the original algorithm Thus am taking some big guesses on intent here as implement Corrections especially those involving getting me copy of the article are welcome Dropping the trailing sound seems to be an integral part of Gadd technique but not sure how it is supposed to be done am currently compressing runs of vowels and then dropping the trailing digit or vowel from the code Another area of confusion is whether to compress strings of the same code as in Soundex or merely strings of the same consonant have chosen the former",
           "hierarchy": "Text SpellingSuggest LowLevel",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "phonix",
           "normalized": "String-\u003eString",
@@ -262,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a \u003ca\u003efull\u003c/a\u003e soundex code; i.e., do not drop any\n encodable characters from the result.  The leading\n character of the code will be folded to uppercase.\n Non-alphabetics are not encoded. If no alphabetics are\n present, the soundex code will be \u003ca\u003e0\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe two commonly encountered forms of soundex are Simplified\n and another known as American, Miracode, NARA or Knuth.  This\n code will calculate either---passing True gets NARA, and False\n gets Simplified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "soundex",
           "package": "spelling-suggest",
@@ -271,6 +286,7 @@
         "index": {
           "description": "Compute full soundex code i.e do not drop any encodable characters from the result The leading character of the code will be folded to uppercase Non-alphabetics are not encoded If no alphabetics are present the soundex code will be The two commonly encountered forms of soundex are Simplified and another known as American Miracode NARA or Knuth This code will calculate either---passing True gets NARA and False gets Simplified",
           "hierarchy": "Text SpellingSuggest LowLevel",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "soundex",
           "normalized": "Bool-\u003eString-\u003eString",
@@ -286,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap any given word to a constant \u003ca\u003ephonetic code\u003c/a\u003e.\n   In other words, suppress phonetic coding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "trivialPhoneticCode",
           "package": "spelling-suggest",
@@ -296,6 +313,7 @@
         "index": {
           "description": "Map any given word to constant phonetic code In other words suppress phonetic coding",
           "hierarchy": "Text SpellingSuggest LowLevel",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "trivialPhoneticCode",
           "normalized": "String-\u003eString",
@@ -312,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCore algorithm for spelling suggestion. Takes a\n prefiltering function, a phonetic coding function, a\n limit on the number of choices returned, a target word,\n and a list of candidate words. Returns an ordered list of\n suggested candidates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "tryWord",
           "package": "spelling-suggest",
@@ -322,6 +341,7 @@
         "index": {
           "description": "Core algorithm for spelling suggestion Takes prefiltering function phonetic coding function limit on the number of choices returned target word and list of candidate words Returns an ordered list of suggested candidates",
           "hierarchy": "Text SpellingSuggest LowLevel",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.LowLevel",
           "name": "tryWord",
           "normalized": "SpellingWordFilter-\u003eSpellingWordCoder-\u003eString-\u003e[String]-\u003e[String]",
@@ -338,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreate and maintain a nonvolatile database of\n   phonetic codes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "PCDB",
           "package": "spelling-suggest",
@@ -347,6 +368,7 @@
         "index": {
           "description": "Create and maintain nonvolatile database of phonetic codes",
           "hierarchy": "Text SpellingSuggest PCDB",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "PCDB",
           "package": "spelling-suggest",
@@ -361,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "DBConnection",
           "package": "spelling-suggest",
@@ -370,6 +393,7 @@
         "index": {
           "description": "Database connection",
           "hierarchy": "Text SpellingSuggest PCDB",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "DBConnection",
           "package": "spelling-suggest",
@@ -383,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "closeDB",
           "package": "spelling-suggest",
@@ -392,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text SpellingSuggest PCDB",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "closeDB",
           "normalized": "DBConnection-\u003eIO()",
@@ -408,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and populate the phonetic codes database, given\n a list of words and a database path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "createDB",
           "package": "spelling-suggest",
@@ -418,6 +445,7 @@
         "index": {
           "description": "Create and populate the phonetic codes database given list of words and database path",
           "hierarchy": "Text SpellingSuggest PCDB",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "createDB",
           "normalized": "[String]-\u003eMaybe String-\u003eIO DBConnection",
@@ -459,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all the words in the given coding system matching the given code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "matchDB",
           "package": "spelling-suggest",
@@ -469,6 +498,7 @@
         "index": {
           "description": "Return all the words in the given coding system matching the given code",
           "hierarchy": "Text SpellingSuggest PCDB",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "matchDB",
           "normalized": "DBConnection-\u003eString-\u003eString-\u003eIO[String]",
@@ -485,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the phonetic codes database, given a database path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "openDB",
           "package": "spelling-suggest",
@@ -495,6 +526,7 @@
         "index": {
           "description": "Open the phonetic codes database given database path",
           "hierarchy": "Text SpellingSuggest PCDB",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest.PCDB",
           "name": "openDB",
           "normalized": "Maybe String-\u003eIO(Maybe DBConnection)",
@@ -511,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimplified interface for spelling suggestion.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "SpellingSuggest",
           "package": "spelling-suggest",
@@ -520,6 +553,7 @@
         "index": {
           "description": "Simplified interface for spelling suggestion",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "SpellingSuggest",
           "package": "spelling-suggest",
@@ -534,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need to know the name and coding function\n of each phonetic coder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "PhoneticCoder",
           "package": "spelling-suggest",
@@ -543,6 +578,7 @@
         "index": {
           "description": "We need to know the name and coding function of each phonetic coder",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "PhoneticCoder",
           "package": "spelling-suggest",
@@ -557,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters controlling the suggestion search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "SearchParams",
           "package": "spelling-suggest",
@@ -566,6 +603,7 @@
         "index": {
           "description": "Parameters controlling the suggestion search",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "SearchParams",
           "package": "spelling-suggest",
@@ -580,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe spelling dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "SpellingDictionary",
           "package": "spelling-suggest",
@@ -589,6 +628,7 @@
         "index": {
           "description": "The spelling dictionary",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "SpellingDictionary",
           "package": "spelling-suggest",
@@ -602,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "FlatFile",
           "package": "spelling-suggest",
@@ -611,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "FlatFile",
           "package": "spelling-suggest",
@@ -624,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "SearchParams",
           "package": "spelling-suggest",
@@ -633,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "SearchParams",
           "package": "spelling-suggest",
@@ -646,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "WordList",
           "package": "spelling-suggest",
@@ -655,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "WordList",
           "normalized": "WordList[String]",
@@ -670,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "closeDictionary",
           "package": "spelling-suggest",
@@ -679,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "closeDictionary",
           "normalized": "SpellingDictionary-\u003eIO()",
@@ -695,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default phonetic coder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "defaultPhoneticCoder",
           "package": "spelling-suggest",
@@ -705,6 +754,7 @@
         "index": {
           "description": "default phonetic coder",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "defaultPhoneticCoder",
           "package": "spelling-suggest",
@@ -719,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese params work OK in practice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "defaultSearchParams",
           "package": "spelling-suggest",
@@ -729,6 +780,7 @@
         "index": {
           "description": "These params work OK in practice",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "defaultSearchParams",
           "package": "spelling-suggest",
@@ -743,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default word filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "defaultWordFilter",
           "package": "spelling-suggest",
@@ -753,6 +806,7 @@
         "index": {
           "description": "default word filter",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "defaultWordFilter",
           "package": "spelling-suggest",
@@ -767,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor performance reasons, it may sometimes be desirable\n to know what's sitting under the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "dictionaryIsDB",
           "package": "spelling-suggest",
@@ -777,6 +832,7 @@
         "index": {
           "description": "For performance reasons it may sometimes be desirable to know what sitting under the dictionary",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "dictionaryIsDB",
           "normalized": "SpellingDictionary-\u003eBool",
@@ -793,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the coding system with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "findPhoneticCoder",
           "package": "spelling-suggest",
@@ -803,6 +860,7 @@
         "index": {
           "description": "Return the coding system with the given name",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "findPhoneticCoder",
           "normalized": "String-\u003eMaybe PhoneticCoder",
@@ -819,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a connection to the given or default database. If this fails,\n open the given or default dictionary and cache the words. XXX Will\n leak a file handle if \u003ccode\u003e\u003ca\u003ereadDictionary\u003c/a\u003e\u003c/code\u003e does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "openDictionary",
           "package": "spelling-suggest",
@@ -829,6 +888,7 @@
         "index": {
           "description": "Make connection to the given or default database If this fails open the given or default dictionary and cache the words XXX Will leak file handle if readDictionary does",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "openDictionary",
           "normalized": "Maybe String-\u003eMaybe String-\u003eIO SpellingDictionary",
@@ -845,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of choices returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "searchParamsChoices",
           "package": "spelling-suggest",
@@ -855,6 +916,7 @@
         "index": {
           "description": "Maximum number of choices returned",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "searchParamsChoices",
           "package": "spelling-suggest",
@@ -869,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhonetic coder to use for matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "searchParamsCoder",
           "package": "spelling-suggest",
@@ -879,6 +942,7 @@
         "index": {
           "description": "Phonetic coder to use for matches",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "searchParamsCoder",
           "package": "spelling-suggest",
@@ -893,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefilter to use to limit search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "searchParamsFilter",
           "package": "spelling-suggest",
@@ -903,6 +968,7 @@
         "index": {
           "description": "Prefilter to use to limit search",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "searchParamsFilter",
           "package": "spelling-suggest",
@@ -917,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuggest candidates in order using the given information. Requires\n a valid spelling dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "suggest",
           "package": "spelling-suggest",
@@ -927,6 +994,7 @@
         "index": {
           "description": "Suggest candidates in order using the given information Requires valid spelling dictionary",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "suggest",
           "normalized": "SearchParams-\u003eSpellingDictionary-\u003eString-\u003eIO[String]",
@@ -942,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuggest candidates from the given list in order using\n the given information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:13 UTC 2014",
           "module": "Text.SpellingSuggest",
           "name": "suggestFromList",
           "package": "spelling-suggest",
@@ -952,6 +1021,7 @@
         "index": {
           "description": "Suggest candidates from the given list in order using the given information",
           "hierarchy": "Text SpellingSuggest",
+          "indexed": "2014-03-11T20:08:13",
           "module": "Text.SpellingSuggest",
           "name": "suggestFromList",
           "normalized": "SearchParams-\u003e[String]-\u003eString-\u003e[String]",

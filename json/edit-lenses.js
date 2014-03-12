@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "edit-lenses"
+        "phrase": "edit-lenses",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Container",
           "name": "ContainerType",
           "package": "edit-lenses",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Container",
           "name": "ContainerType",
           "package": "edit-lenses",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Container",
           "name": "ShapeModule",
           "package": "edit-lenses",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Container",
           "name": "ShapeModule",
           "package": "edit-lenses",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Container",
           "name": "containedValues",
           "package": "edit-lenses",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Container",
           "name": "containedValues",
           "normalized": "P a-\u003eb",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Container",
           "name": "currentShape",
           "package": "edit-lenses",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Container",
           "name": "currentShape",
           "package": "edit-lenses",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Container",
           "name": "live",
           "package": "edit-lenses",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Container",
           "name": "live",
           "normalized": "a-\u003eSet(P a)",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Iso",
           "name": "Iso",
           "package": "edit-lenses",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Iso",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Iso",
           "name": "Iso",
           "package": "edit-lenses",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Iso",
           "name": "Iso",
           "package": "edit-lenses",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Iso",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Iso",
           "name": "Iso",
           "package": "edit-lenses",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Iso",
           "name": "Iso",
           "package": "edit-lenses",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Iso",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Iso",
           "name": "Iso",
           "normalized": "Iso(a-\u003eb)(b-\u003ea)",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Bidirectional",
           "name": "Bidirectional",
           "package": "edit-lenses",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Bidirectional",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Bidirectional",
           "name": "Bidirectional",
           "package": "edit-lenses",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Bidirectional",
           "name": "Bidirectional",
           "package": "edit-lenses",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Bidirectional",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Bidirectional",
           "name": "Bidirectional",
           "package": "edit-lenses",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Container",
           "name": "Map",
           "package": "edit-lenses",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Container",
           "name": "Map",
           "package": "edit-lenses",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Container",
           "name": "Map",
           "package": "edit-lenses",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Container",
           "name": "Map",
           "package": "edit-lenses",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.List",
           "name": "List",
           "package": "edit-lenses",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.List",
           "name": "List",
           "package": "edit-lenses",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.List",
           "name": "Map",
           "package": "edit-lenses",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.List",
           "name": "Map",
           "package": "edit-lenses",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.List",
           "name": "Partition",
           "package": "edit-lenses",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.List",
           "name": "Partition",
           "package": "edit-lenses",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.List",
           "name": "Map",
           "package": "edit-lenses",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.List",
           "name": "Map",
           "package": "edit-lenses",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.List",
           "name": "Partition",
           "package": "edit-lenses",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.List",
           "name": "Partition",
           "package": "edit-lenses",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Primitive",
           "package": "edit-lenses",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Primitive",
           "package": "edit-lenses",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Compose",
           "package": "edit-lenses",
@@ -501,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Compose",
           "package": "edit-lenses",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "ComposeFL",
           "package": "edit-lenses",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "ComposeFL",
           "package": "edit-lenses",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "ComposeLF",
           "package": "edit-lenses",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "ComposeLF",
           "package": "edit-lenses",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Disconnect",
           "package": "edit-lenses",
@@ -564,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Disconnect",
           "package": "edit-lenses",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Id",
           "package": "edit-lenses",
@@ -585,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Id",
           "package": "edit-lenses",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Op",
           "package": "edit-lenses",
@@ -606,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Op",
           "package": "edit-lenses",
@@ -619,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Compose",
           "package": "edit-lenses",
@@ -628,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Compose",
           "package": "edit-lenses",
@@ -641,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "ComposeFL",
           "package": "edit-lenses",
@@ -650,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "ComposeFL",
           "package": "edit-lenses",
@@ -663,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "ComposeLF",
           "package": "edit-lenses",
@@ -672,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "ComposeLF",
           "package": "edit-lenses",
@@ -685,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Disconnect",
           "package": "edit-lenses",
@@ -694,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Disconnect",
           "package": "edit-lenses",
@@ -707,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Id",
           "package": "edit-lenses",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Id",
           "package": "edit-lenses",
@@ -729,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Op",
           "package": "edit-lenses",
@@ -738,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Primitive",
           "name": "Op",
           "package": "edit-lenses",
@@ -751,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "Product",
           "package": "edit-lenses",
@@ -759,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "Product",
           "package": "edit-lenses",
@@ -772,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProduct",
           "package": "edit-lenses",
@@ -780,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProduct",
           "package": "edit-lenses",
@@ -793,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProductFL",
           "package": "edit-lenses",
@@ -801,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProductFL",
           "package": "edit-lenses",
@@ -814,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProductLF",
           "package": "edit-lenses",
@@ -822,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProductLF",
           "package": "edit-lenses",
@@ -835,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "Product",
           "package": "edit-lenses",
@@ -843,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "Product",
           "package": "edit-lenses",
@@ -856,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "ProductFL",
           "package": "edit-lenses",
@@ -864,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "ProductFL",
           "package": "edit-lenses",
@@ -877,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "ProductLF",
           "package": "edit-lenses",
@@ -885,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "ProductLF",
           "package": "edit-lenses",
@@ -898,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProduct",
           "package": "edit-lenses",
@@ -907,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProduct",
           "package": "edit-lenses",
@@ -920,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProductFL",
           "package": "edit-lenses",
@@ -929,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProductFL",
           "package": "edit-lenses",
@@ -942,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProductLF",
           "package": "edit-lenses",
@@ -951,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "CompactProductLF",
           "package": "edit-lenses",
@@ -964,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "Product",
           "package": "edit-lenses",
@@ -973,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "Product",
           "package": "edit-lenses",
@@ -986,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "ProductFL",
           "package": "edit-lenses",
@@ -995,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "ProductFL",
           "package": "edit-lenses",
@@ -1008,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Product",
           "name": "ProductLF",
           "package": "edit-lenses",
@@ -1017,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Product",
           "name": "ProductLF",
           "package": "edit-lenses",
@@ -1030,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateful",
           "name": "Stateful",
           "package": "edit-lenses",
@@ -1038,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateful",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateful",
           "name": "Stateful",
           "package": "edit-lenses",
@@ -1051,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateful",
           "name": "Lens",
           "package": "edit-lenses",
@@ -1059,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateful",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateful",
           "name": "Lens",
           "package": "edit-lenses",
@@ -1072,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateful",
           "name": "dputl",
           "package": "edit-lenses",
@@ -1081,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateful",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateful",
           "name": "dputl",
           "normalized": "a-\u003e(R a,C a)-\u003e(L a,C a)",
@@ -1095,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateful",
           "name": "dputr",
           "package": "edit-lenses",
@@ -1104,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateful",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateful",
           "name": "dputr",
           "normalized": "a-\u003e(L a,C a)-\u003e(R a,C a)",
@@ -1118,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateful",
           "name": "foldState",
           "package": "edit-lenses",
@@ -1127,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateful",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateful",
           "name": "foldState",
           "normalized": "(a-\u003eb-\u003e(c,b))-\u003e([a],b)-\u003e(c,b)",
@@ -1142,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateful",
           "name": "missing",
           "package": "edit-lenses",
@@ -1151,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateful",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateful",
           "name": "missing",
           "normalized": "a-\u003eC a",
@@ -1165,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateless",
           "name": "Stateless",
           "package": "edit-lenses",
@@ -1173,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateless",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateless",
           "name": "Stateless",
           "package": "edit-lenses",
@@ -1186,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateless",
           "name": "Lens",
           "package": "edit-lenses",
@@ -1194,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateless",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateless",
           "name": "Lens",
           "package": "edit-lenses",
@@ -1207,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateless",
           "name": "dputl",
           "package": "edit-lenses",
@@ -1216,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateless",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateless",
           "name": "dputl",
           "normalized": "a-\u003eR a-\u003eL a",
@@ -1230,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Stateless",
           "name": "dputr",
           "package": "edit-lenses",
@@ -1239,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Stateless",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Stateless",
           "name": "dputr",
           "normalized": "a-\u003eL a-\u003eR a",
@@ -1253,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -1261,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -1274,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "CompactSum",
           "package": "edit-lenses",
@@ -1282,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "CompactSum",
           "package": "edit-lenses",
@@ -1295,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "CompactSumLF",
           "package": "edit-lenses",
@@ -1303,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "CompactSumLF",
           "package": "edit-lenses",
@@ -1316,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -1324,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -1337,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "SumFL",
           "package": "edit-lenses",
@@ -1345,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "SumFL",
           "package": "edit-lenses",
@@ -1358,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "CompactSum",
           "package": "edit-lenses",
@@ -1367,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "CompactSum",
           "package": "edit-lenses",
@@ -1380,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "CompactSumLF",
           "package": "edit-lenses",
@@ -1389,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "CompactSumLF",
           "package": "edit-lenses",
@@ -1402,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -1411,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -1424,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit.Sum",
           "name": "SumFL",
           "package": "edit-lenses",
@@ -1433,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit.Sum",
           "name": "SumFL",
           "package": "edit-lenses",
@@ -1446,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Lens.Edit",
           "name": "Edit",
           "package": "edit-lenses",
@@ -1454,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Edit",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Lens.Edit",
           "name": "Edit",
           "package": "edit-lenses",
@@ -1467,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Class",
           "name": "Class",
           "package": "edit-lenses",
@@ -1475,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Data Module Class",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Class",
           "name": "Class",
           "package": "edit-lenses",
@@ -1488,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Class",
           "name": "Module",
           "package": "edit-lenses",
@@ -1496,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Data Module Class",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Class",
           "name": "Module",
           "package": "edit-lenses",
@@ -1509,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Class",
           "name": "PartialEdit",
           "package": "edit-lenses",
@@ -1517,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Data Module Class",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Class",
           "name": "PartialEdit",
           "package": "edit-lenses",
@@ -1530,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Class",
           "name": "apply",
           "package": "edit-lenses",
@@ -1539,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Data Module Class",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Class",
           "name": "apply",
           "normalized": "a-\u003eV a-\u003eMaybe(V a)",
@@ -1553,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Class",
           "name": "applyDef",
           "package": "edit-lenses",
@@ -1562,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Data Module Class",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Class",
           "name": "applyDef",
           "normalized": "a-\u003eMaybe(V a)",
@@ -1577,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Class",
           "name": "applyDefTotal",
           "package": "edit-lenses",
@@ -1586,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Data Module Class",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Class",
           "name": "applyDefTotal",
           "normalized": "a-\u003eV a",
@@ -1601,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Class",
           "name": "applyTotal",
           "package": "edit-lenses",
@@ -1610,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Data Module Class",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Class",
           "name": "applyTotal",
           "normalized": "a-\u003eV a-\u003eV a",
@@ -1625,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Class",
           "name": "apply_0",
           "package": "edit-lenses",
@@ -1634,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Data Module Class",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Class",
           "name": "apply_0",
           "normalized": "a-\u003eV_ a-\u003eMaybe(V_ a)",
@@ -1648,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -1656,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Data Module Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Container",
           "name": "Container",
           "package": "edit-lenses",
@@ -1669,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Container",
           "name": "ContainerAtom",
           "package": "edit-lenses",
@@ -1677,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data Module Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Container",
           "name": "ContainerAtom",
           "package": "edit-lenses",
@@ -1690,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Container",
           "name": "Delete",
           "package": "edit-lenses",
@@ -1699,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Data Module Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Container",
           "name": "Delete",
           "package": "edit-lenses",
@@ -1712,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Container",
           "name": "FailContainer",
           "package": "edit-lenses",
@@ -1721,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Data Module Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Container",
           "name": "FailContainer",
           "package": "edit-lenses",
@@ -1734,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Container",
           "name": "Insert",
           "package": "edit-lenses",
@@ -1743,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Data Module Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Container",
           "name": "Insert",
           "package": "edit-lenses",
@@ -1756,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Container",
           "name": "Modify",
           "package": "edit-lenses",
@@ -1765,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Data Module Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Container",
           "name": "Modify",
           "package": "edit-lenses",
@@ -1778,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Container",
           "name": "Rearrange",
           "package": "edit-lenses",
@@ -1787,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Data Module Container",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Container",
           "name": "Rearrange",
           "normalized": "Rearrange(ShapeModule a)(a-\u003eP a-\u003eP a)",
@@ -1802,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "List",
           "package": "edit-lenses",
@@ -1810,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "List",
           "package": "edit-lenses",
@@ -1823,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "ListAtom",
           "package": "edit-lenses",
@@ -1831,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "ListAtom",
           "package": "edit-lenses",
@@ -1844,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "Permutation",
           "package": "edit-lenses",
@@ -1852,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "Permutation",
           "package": "edit-lenses",
@@ -1865,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "Complex",
           "package": "edit-lenses",
@@ -1874,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "Complex",
           "normalized": "Complex(Integer-\u003eInteger-\u003eInteger)",
@@ -1889,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "Delete",
           "package": "edit-lenses",
@@ -1898,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "Delete",
           "package": "edit-lenses",
@@ -1911,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "FailList",
           "package": "edit-lenses",
@@ -1920,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "FailList",
           "package": "edit-lenses",
@@ -1933,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "Insert",
           "package": "edit-lenses",
@@ -1942,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "Insert",
           "package": "edit-lenses",
@@ -1955,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "Modify",
           "package": "edit-lenses",
@@ -1964,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "Modify",
           "package": "edit-lenses",
@@ -1977,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "Rearrange",
           "package": "edit-lenses",
@@ -1986,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "Rearrange",
           "package": "edit-lenses",
@@ -1999,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "Simple",
           "package": "edit-lenses",
@@ -2008,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "Simple",
           "normalized": "Simple[Integer]",
@@ -2023,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "applyPermutation",
           "package": "edit-lenses",
@@ -2032,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "applyPermutation",
           "normalized": "Permutation-\u003e[a]-\u003e[a]",
@@ -2047,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "complexPermutation",
           "package": "edit-lenses",
@@ -2056,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "complexPermutation",
           "normalized": "Permutation-\u003eInteger-\u003eInteger-\u003eInteger",
@@ -2071,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "simplePermutation",
           "package": "edit-lenses",
@@ -2080,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "simplePermutation",
           "normalized": "Permutation-\u003eInteger-\u003e[Integer]",
@@ -2095,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.List",
           "name": "split3",
           "package": "edit-lenses",
@@ -2104,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Data Module List",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.List",
           "name": "split3",
           "normalized": "Integer-\u003e[a]-\u003eMaybe([a],a,[a])",
@@ -2118,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Primitive",
           "name": "Primitive",
           "package": "edit-lenses",
@@ -2126,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Data Module Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Primitive",
           "name": "Primitive",
           "package": "edit-lenses",
@@ -2139,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Primitive",
           "name": "Unit",
           "package": "edit-lenses",
@@ -2147,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Data Module Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Primitive",
           "name": "Unit",
           "package": "edit-lenses",
@@ -2160,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Primitive",
           "name": "Unit",
           "package": "edit-lenses",
@@ -2169,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Data Module Primitive",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Primitive",
           "name": "Unit",
           "normalized": "Unit()",
@@ -2184,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Product",
           "name": "Product",
           "package": "edit-lenses",
@@ -2192,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Data Module Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Product",
           "name": "Product",
           "package": "edit-lenses",
@@ -2205,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Product",
           "name": "ProductAtom",
           "package": "edit-lenses",
@@ -2213,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Data Module Product",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Product",
           "name": "ProductAtom",
           "package": "edit-lenses",
@@ -2226,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Shape",
           "name": "Shape",
           "package": "edit-lenses",
@@ -2234,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Data Module Shape",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Shape",
           "name": "Shape",
           "package": "edit-lenses",
@@ -2247,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Shape",
           "name": "containerToList",
           "package": "edit-lenses",
@@ -2256,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Data Module Shape",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Shape",
           "name": "containerToList",
           "normalized": "Container Int a-\u003e[a]",
@@ -2271,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Shape",
           "name": "listToContainer",
           "package": "edit-lenses",
@@ -2280,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Data Module Shape",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Shape",
           "name": "listToContainer",
           "normalized": "[a]-\u003eContainer Int a",
@@ -2295,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -2303,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -2316,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "Retag",
           "package": "edit-lenses",
@@ -2324,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "Retag",
           "package": "edit-lenses",
@@ -2337,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -2345,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -2358,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "SumAtom",
           "package": "edit-lenses",
@@ -2366,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "SumAtom",
           "package": "edit-lenses",
@@ -2379,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "Tag",
           "package": "edit-lenses",
@@ -2387,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "Tag",
           "package": "edit-lenses",
@@ -2400,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "FailSum",
           "package": "edit-lenses",
@@ -2409,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "FailSum",
           "package": "edit-lenses",
@@ -2422,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "L",
           "package": "edit-lenses",
@@ -2431,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "L",
           "package": "edit-lenses",
@@ -2443,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "R",
           "package": "edit-lenses",
@@ -2452,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "R",
           "package": "edit-lenses",
@@ -2464,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "Retag",
           "package": "edit-lenses",
@@ -2473,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "Retag",
           "package": "edit-lenses",
@@ -2486,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "StayL",
           "package": "edit-lenses",
@@ -2495,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "StayL",
           "package": "edit-lenses",
@@ -2508,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "StayR",
           "package": "edit-lenses",
@@ -2517,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "StayR",
           "package": "edit-lenses",
@@ -2530,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -2539,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "Sum",
           "package": "edit-lenses",
@@ -2552,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "SwitchLL",
           "package": "edit-lenses",
@@ -2561,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "SwitchLL",
           "package": "edit-lenses",
@@ -2574,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "SwitchLR",
           "package": "edit-lenses",
@@ -2583,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "SwitchLR",
           "package": "edit-lenses",
@@ -2596,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "SwitchRL",
           "package": "edit-lenses",
@@ -2605,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "SwitchRL",
           "package": "edit-lenses",
@@ -2618,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module.Sum",
           "name": "SwitchRR",
           "package": "edit-lenses",
@@ -2627,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Data Module Sum",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module.Sum",
           "name": "SwitchRR",
           "package": "edit-lenses",
@@ -2640,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:56 UTC 2014",
           "module": "Data.Module",
           "name": "Module",
           "package": "edit-lenses",
@@ -2648,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Data Module",
+          "indexed": "2014-03-11T18:00:56",
           "module": "Data.Module",
           "name": "Module",
           "package": "edit-lenses",

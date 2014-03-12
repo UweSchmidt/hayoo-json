@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fields-json"
+        "phrase": "fields-json",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface for extracting data from JSValue.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "FromJSValue",
           "package": "fields-json",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interface for extracting data from JSValue",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "FromJSValue",
           "package": "fields-json",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructures that can be \u003ccode\u003eparsed\u003c/code\u003e from JSON. Instances must declare\n either \u003ccode\u003e\u003ca\u003efromJSValue\u003c/a\u003e\u003c/code\u003e (parse directly from \u003ccode\u003e\u003ca\u003eJSValue\u003c/a\u003e\u003c/code\u003e) or\n \u003ccode\u003e\u003ca\u003efromJSValueM\u003c/a\u003e\u003c/code\u003e (uses \u003ccode\u003e\u003ca\u003eMonadReader\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "FromJSValue",
           "package": "fields-json",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Structures that can be parsed from JSON Instances must declare either fromJSValue parse directly from JSValue or fromJSValueM uses MonadReader",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "FromJSValue",
           "package": "fields-json",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructures that can be \u003ccode\u003eparsed\u003c/code\u003e from JSON if some structure for\n update is provided\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "FromJSValueWithUpdate",
           "package": "fields-json",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Structures that can be parsed from JSON if some structure for update is provided",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "FromJSValueWithUpdate",
           "package": "fields-json",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructures that can be matched with JSValue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "MatchWithJSValue",
           "package": "fields-json",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Structures that can be matched with JSValue",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "MatchWithJSValue",
           "package": "fields-json",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValue",
           "package": "fields-json",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValue",
           "normalized": "JSValue-\u003eMaybe a",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003efromJSValueCustomMany\u003c/a\u003e\u003c/code\u003e, where each element of\n array can have different parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueCustomList",
           "package": "fields-json",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Generalization of fromJSValueCustomMany where each element of array can have different parser",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueCustomList",
           "normalized": "[a(Maybe b)]-\u003ea(Maybe[b])",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns parser on each element of underlaying json. Returns Just iff\n JSON is array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueCustomMany",
           "package": "fields-json",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Runs parser on each element of underlaying json Returns Just iff JSON is array",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueCustomMany",
           "normalized": "a(Maybe b)-\u003ea(Maybe[b])",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReading the value that is on a field. Semantics are a bit\n involved, example GHCi session should clarify:\n\u003c/p\u003e\u003cpre\u003e\n Prelude\u003e :set -XNoMonomorphismRestriction\n Prelude\u003e let x = withJSValue (JSObject (toJSObject [(\u003ca\u003ekey\u003c/a\u003e,JSString $ toJSString \u003ca\u003evalue\u003c/a\u003e)]))\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe Int)\n Nothing\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe (Maybe Int))\n Just Nothing\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe (Maybe (Maybe Int)))\n Just (Just Nothing)\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe String)\n Just \u003ca\u003evalue\u003c/a\u003e\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe (Maybe String))\n Just (Just \u003ca\u003evalue\u003c/a\u003e)\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe (Maybe (Maybe String)))\n Just (Just (Just \u003ca\u003evalue\u003c/a\u003e))\n Prelude\u003e let x = withJSValue (JSArray [])\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe String)\n Nothing\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe (Maybe String))\n Nothing\n Prelude\u003e x (fromJSValueField \u003ca\u003ekey\u003c/a\u003e) :: IO (Maybe (Maybe (Maybe String)))\n Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueField",
           "package": "fields-json",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Reading the value that is on field Semantics are bit involved example GHCi session should clarify Prelude set XNoMonomorphismRestriction Prelude let withJSValue JSObject toJSObject key JSString toJSString value Prelude fromJSValueField key IO Maybe Int Nothing Prelude fromJSValueField key IO Maybe Maybe Int Just Nothing Prelude fromJSValueField key IO Maybe Maybe Maybe Int Just Just Nothing Prelude fromJSValueField key IO Maybe String Just value Prelude fromJSValueField key IO Maybe Maybe String Just Just value Prelude fromJSValueField key IO Maybe Maybe Maybe String Just Just Just value Prelude let withJSValue JSArray Prelude fromJSValueField key IO Maybe String Nothing Prelude fromJSValueField key IO Maybe Maybe String Nothing Prelude fromJSValueField key IO Maybe Maybe Maybe String Nothing",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueField",
           "normalized": "String-\u003ea(Maybe b)",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003efromJSValueField\u003c/a\u003e\u003c/code\u003e for Base64 encoded data to avoid\n memory leak.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueFieldBase64",
           "package": "fields-json",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Version of fromJSValueField for Base64 encoded data to avoid memory leak",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueFieldBase64",
           "normalized": "String-\u003ea(Maybe ByteString)",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003efromJSValueField\u003c/a\u003e\u003c/code\u003e. Does not use \u003ccode\u003e\u003ca\u003eFromJSValue\u003c/a\u003e\u003c/code\u003e\n instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueFieldCustom",
           "package": "fields-json",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Generalization of fromJSValueField Does not use FromJSValue instances",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueFieldCustom",
           "normalized": "String-\u003ea(Maybe b)-\u003ea(Maybe b)",
@@ -264,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueM",
           "package": "fields-json",
@@ -273,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueM",
           "package": "fields-json",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns parser on each element of underlying json. Returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e iff\n JSON is an array.\n\u003c/p\u003e\u003cp\u003eNote: This method has quadratic complexity. It is better to write\n less general matching algorithms that use Maps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueManyWithUpdate",
           "package": "fields-json",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Runs parser on each element of underlying json Returns Just iff JSON is an array Note This method has quadratic complexity It is better to write less general matching algorithms that use Maps",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueManyWithUpdate",
           "normalized": "[a]-\u003eb(Maybe[a])",
@@ -312,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueWithUpdate",
           "package": "fields-json",
@@ -321,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueWithUpdate",
           "normalized": "Maybe a-\u003eJSValue-\u003eMaybe a",
@@ -336,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueWithUpdateM",
           "package": "fields-json",
@@ -345,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "fromJSValueWithUpdateM",
           "normalized": "Maybe a-\u003eb(Maybe a)",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReading the value that is on some field. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\n JSON is not an object or field is present but cannot be parsed,\n 'Just Nothing' if absent, and 'Just (Just a)' otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "jsValueField",
           "package": "fields-json",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Reading the value that is on some field Returns Nothing if JSON is not an object or field is present but cannot be parsed Just Nothing if absent and Just Just otherwise",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "jsValueField",
           "normalized": "String-\u003ea(Maybe(Maybe b))",
@@ -386,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "matchesWithJSValue",
           "package": "fields-json",
@@ -395,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "matchesWithJSValue",
           "normalized": "a-\u003eJSValue-\u003eBool",
@@ -410,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "matchesWithJSValueM",
           "package": "fields-json",
@@ -419,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "matchesWithJSValueM",
           "normalized": "a-\u003eb Bool",
@@ -435,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple runner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.FromJSValue",
           "name": "withJSValue",
           "package": "fields-json",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Simple runner",
           "hierarchy": "Text JSON FromJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.FromJSValue",
           "name": "withJSValue",
           "normalized": "JSValue-\u003eReaderT JSValue a b-\u003ea b",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbusing monadic 'do' notation library for generating JSON object. \n Hard-binded to json package from hackage.\n Main ideas\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Overloaded function \u003ccode\u003e\u003ca\u003evalue\u003c/a\u003e\u003c/code\u003e to set values in underlying JSON - \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, lists  etc.\n\u003c/li\u003e\u003cli\u003e JSON generation may not be pure  with \u003ccode\u003e\u003ca\u003evalueM\u003c/a\u003e\u003c/code\u003e. You can perform some IO while generating JSON. This is usefull skip useless inner binding.\n\u003c/li\u003e\u003cli\u003e Compositionality - use \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e to easy create JSON objects\n\u003c/li\u003e\u003cli\u003e Monadic notation - it really looks nicer then composition with \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e or some magic combinator\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n runJSONGen $ do\n     value \"a\" \"a\"\n     value \"b\" [1,2,3]\n     object \"c\" $ do\n         value \"x\" True\n         value \"y\" False\n\n\u003c/pre\u003e\u003cp\u003eWill generate json object \n  {a : \u003ca\u003ea\u003c/a\u003e, b: [1,2,3], c: {x: true, y : false}} \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "Gen",
           "package": "fields-json",
@@ -470,6 +507,7 @@
         "index": {
           "description": "Abusing monadic do notation library for generating JSON object Hard-binded to json package from hackage Main ideas Overloaded function value to set values in underlying JSON Bool Int String lists etc JSON generation may not be pure with valueM You can perform some IO while generating JSON This is usefull skip useless inner binding Compositionality use object to easy create JSON objects Monadic notation it really looks nicer then composition with or some magic combinator runJSONGen do value value object do value True value False Will generate json object true false",
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "Gen",
           "package": "fields-json",
@@ -484,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "JSONGen",
           "package": "fields-json",
@@ -493,6 +532,7 @@
         "index": {
           "description": "Basic types",
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "JSONGen",
           "package": "fields-json",
@@ -506,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "JSONGenT",
           "package": "fields-json",
@@ -514,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "JSONGenT",
           "package": "fields-json",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed other JSON object as field in resulting JSON object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "object",
           "package": "fields-json",
@@ -538,6 +581,7 @@
         "index": {
           "description": "Embed other JSON object as field in resulting JSON object",
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "object",
           "normalized": "String-\u003eJSONGenT a()-\u003eJSONGenT a()",
@@ -553,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion for lists of objects.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "objects",
           "package": "fields-json",
@@ -563,6 +608,7 @@
         "index": {
           "description": "Version for lists of objects",
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "objects",
           "normalized": "String-\u003e[JSONGenT a()]-\u003eJSONGenT a()",
@@ -578,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple runner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "runJSONGen",
           "package": "fields-json",
@@ -588,6 +635,7 @@
         "index": {
           "description": "Simple runner",
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "runJSONGen",
           "normalized": "JSONGen()-\u003eJSValue",
@@ -603,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "runJSONGenT",
           "package": "fields-json",
@@ -612,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "runJSONGenT",
           "normalized": "JSONGenT a()-\u003ea JSValue",
@@ -628,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet pure value under given name in final JSON object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "value",
           "package": "fields-json",
@@ -638,6 +689,7 @@
         "index": {
           "description": "Set pure value under given name in final JSON object",
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "value",
           "normalized": "String-\u003ea-\u003eJSONGenT b()",
@@ -653,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic verion of \u003ccode\u003e\u003ca\u003evalue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.Gen",
           "name": "valueM",
           "package": "fields-json",
@@ -663,6 +716,7 @@
         "index": {
           "description": "Monadic verion of value",
           "hierarchy": "Text JSON Gen",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.Gen",
           "name": "valueM",
           "normalized": "String-\u003ea b-\u003eJSONGenT a()",
@@ -678,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures that hold JSValue inside.\n Value can be extracted or replaced, but is always inside.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.JSValueContainer",
           "name": "JSValueContainer",
           "package": "fields-json",
@@ -687,6 +742,7 @@
         "index": {
           "description": "Data structures that hold JSValue inside Value can be extracted or replaced but is always inside",
           "hierarchy": "Text JSON JSValueContainer",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.JSValueContainer",
           "name": "JSValueContainer",
           "package": "fields-json",
@@ -700,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.JSValueContainer",
           "name": "JSValueContainer",
           "package": "fields-json",
@@ -708,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Text JSON JSValueContainer",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.JSValueContainer",
           "name": "JSValueContainer",
           "package": "fields-json",
@@ -721,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.JSValueContainer",
           "name": "getJSValue",
           "package": "fields-json",
@@ -730,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Text JSON JSValueContainer",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.JSValueContainer",
           "name": "getJSValue",
           "normalized": "a-\u003eJSValue",
@@ -745,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.JSValueContainer",
           "name": "setJSValue",
           "package": "fields-json",
@@ -754,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Text JSON JSValueContainer",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.JSValueContainer",
           "name": "setJSValue",
           "normalized": "JSValue-\u003ea-\u003ea",
@@ -770,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnifing some structures so they can be serialized to JSValue\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.ToJSValue",
           "name": "ToJSValue",
           "package": "fields-json",
@@ -779,6 +842,7 @@
         "index": {
           "description": "Unifing some structures so they can be serialized to JSValue",
           "hierarchy": "Text JSON ToJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.ToJSValue",
           "name": "ToJSValue",
           "package": "fields-json",
@@ -792,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.ToJSValue",
           "name": "ToJSValue",
           "package": "fields-json",
@@ -800,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ToJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.ToJSValue",
           "name": "ToJSValue",
           "package": "fields-json",
@@ -813,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:44 UTC 2014",
           "module": "Text.JSON.ToJSValue",
           "name": "toJSValue",
           "package": "fields-json",
@@ -822,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ToJSValue",
+          "indexed": "2014-03-11T18:08:44",
           "module": "Text.JSON.ToJSValue",
           "name": "toJSValue",
           "normalized": "a-\u003eJSValue",

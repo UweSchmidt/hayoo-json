@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitlib-cmdline"
+        "phrase": "gitlib-cmdline",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "CmdLine",
           "package": "gitlib-cmdline",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "CmdLine",
           "package": "gitlib-cmdline",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "CliObjectRef",
           "package": "gitlib-cmdline",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "CliObjectRef",
           "package": "gitlib-cmdline",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "CliReference",
           "package": "gitlib-cmdline",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "CliReference",
           "package": "gitlib-cmdline",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "CliRepo",
           "package": "gitlib-cmdline",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "CliRepo",
           "package": "gitlib-cmdline",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "MonadCli",
           "package": "gitlib-cmdline",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "MonadCli",
           "package": "gitlib-cmdline",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "CliObjectRef",
           "package": "gitlib-cmdline",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "CliObjectRef",
           "package": "gitlib-cmdline",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "CliReference",
           "package": "gitlib-cmdline",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "CliReference",
           "package": "gitlib-cmdline",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "CliRepo",
           "package": "gitlib-cmdline",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "CliRepo",
           "package": "gitlib-cmdline",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliCreateBlob",
           "package": "gitlib-cmdline",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliCreateBlob",
           "normalized": "BlobContents(ReaderT CliRepo a)-\u003eReaderT CliRepo a(BlobOid CliRepo)",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliCreateCommit",
           "package": "gitlib-cmdline",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliCreateCommit",
           "normalized": "[CommitOid CliRepo]-\u003eTreeOid CliRepo-\u003eSignature-\u003eSignature-\u003eText-\u003eMaybe Text-\u003eReaderT CliRepo a(Commit CliRepo)",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliCreateTag",
           "package": "gitlib-cmdline",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliCreateTag",
           "normalized": "CommitOid CliRepo-\u003eSignature-\u003eText-\u003eText-\u003eReaderT CliRepo a(Tag CliRepo)",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliDeleteRef",
           "package": "gitlib-cmdline",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliDeleteRef",
           "normalized": "Text-\u003eReaderT CliRepo a()",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliDoCreateBlob",
           "package": "gitlib-cmdline",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliDoCreateBlob",
           "normalized": "BlobContents(ReaderT CliRepo a)-\u003eBool-\u003eReaderT CliRepo a(BlobOid CliRepo)",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliExistsObject",
           "package": "gitlib-cmdline",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliExistsObject",
           "normalized": "SHA-\u003eReaderT CliRepo a Bool",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliFactory",
           "package": "gitlib-cmdline",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliFactory",
           "package": "gitlib-cmdline",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliFilePathToURI",
           "package": "gitlib-cmdline",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliFilePathToURI",
           "normalized": "FilePath-\u003ea FilePath",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliHashContents",
           "package": "gitlib-cmdline",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliHashContents",
           "normalized": "BlobContents(ReaderT CliRepo a)-\u003eReaderT CliRepo a(BlobOid CliRepo)",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliLookupBlob",
           "package": "gitlib-cmdline",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliLookupBlob",
           "normalized": "BlobOid CliRepo-\u003eReaderT CliRepo a(Blob CliRepo(ReaderT CliRepo a))",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliLookupCommit",
           "package": "gitlib-cmdline",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliLookupCommit",
           "normalized": "CommitOid CliRepo-\u003eReaderT CliRepo a(Commit CliRepo)",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliLookupRef",
           "package": "gitlib-cmdline",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliLookupRef",
           "normalized": "Text-\u003eReaderT CliRepo a(Maybe(RefTarget CliRepo))",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliLookupTree",
           "package": "gitlib-cmdline",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliLookupTree",
           "normalized": "TreeOid CliRepo-\u003eReaderT CliRepo a(Tree CliRepo)",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliParseLsTree",
           "package": "gitlib-cmdline",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliParseLsTree",
           "normalized": "Text-\u003eReaderT CliRepo a(TreeFilePath,TreeEntry CliRepo)",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliPullCommit",
           "package": "gitlib-cmdline",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliPullCommit",
           "normalized": "Text-\u003eText-\u003eText-\u003eText-\u003eMaybe FilePath-\u003eReaderT CliRepo a(MergeResult CliRepo)",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliPushCommit",
           "package": "gitlib-cmdline",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliPushCommit",
           "normalized": "CommitOid CliRepo-\u003eText-\u003eText-\u003eMaybe FilePath-\u003eReaderT CliRepo a(CommitOid CliRepo)",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliReadTree",
           "package": "gitlib-cmdline",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliReadTree",
           "normalized": "Tree CliRepo-\u003eReaderT CliRepo a(EntryHashMap CliRepo)",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliRepoDoesExist",
           "package": "gitlib-cmdline",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliRepoDoesExist",
           "normalized": "Text-\u003eSh(Either GitException())",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliRepoPath",
           "package": "gitlib-cmdline",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliRepoPath",
           "normalized": "CliRepo-\u003eText",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliResetHard",
           "package": "gitlib-cmdline",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliResetHard",
           "normalized": "Text-\u003eReaderT CliRepo a()",
@@ -667,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliResolveRef",
           "package": "gitlib-cmdline",
@@ -676,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliResolveRef",
           "normalized": "Text-\u003eReaderT CliRepo a(Maybe(Oid CliRepo))",
@@ -691,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliShowRef",
           "package": "gitlib-cmdline",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliShowRef",
           "normalized": "Maybe Text-\u003eReaderT CliRepo a(Maybe[(Text,Text)])",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliSourceObjects",
           "package": "gitlib-cmdline",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliSourceObjects",
           "normalized": "Maybe(CommitOid CliRepo)-\u003eCommitOid CliRepo-\u003eBool-\u003eProducer(ReaderT CliRepo a)(ObjectOid CliRepo)",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliSourceRefs",
           "package": "gitlib-cmdline",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliSourceRefs",
           "package": "gitlib-cmdline",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliSourceTreeEntries",
           "package": "gitlib-cmdline",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliSourceTreeEntries",
           "normalized": "Tree CliRepo-\u003eProducer(ReaderT CliRepo a)(TreeFilePath,TreeEntry CliRepo)",
@@ -785,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliTreeEntry",
           "package": "gitlib-cmdline",
@@ -794,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliTreeEntry",
           "normalized": "Tree CliRepo-\u003eTreeFilePath-\u003eReaderT CliRepo a(Maybe(TreeEntry CliRepo))",
@@ -809,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliUpdateRef",
           "package": "gitlib-cmdline",
@@ -818,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliUpdateRef",
           "normalized": "Text-\u003eRefTarget CliRepo-\u003eReaderT CliRepo a()",
@@ -833,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "cliWriteTree",
           "package": "gitlib-cmdline",
@@ -842,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "cliWriteTree",
           "normalized": "EntryHashMap CliRepo-\u003eReaderT CliRepo a(TreeOid CliRepo)",
@@ -857,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "doRunGit",
           "package": "gitlib-cmdline",
@@ -866,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "doRunGit",
           "normalized": "(FilePath-\u003e[Text]-\u003eSh a)-\u003e[Text]-\u003eSh()-\u003eReaderT CliRepo b a",
@@ -881,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "formatCliTime",
           "package": "gitlib-cmdline",
@@ -890,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "formatCliTime",
           "normalized": "ZonedTime-\u003eText",
@@ -905,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "fromStrict",
           "package": "gitlib-cmdline",
@@ -914,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "fromStrict",
           "normalized": "Text-\u003eText",
@@ -929,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "git",
           "package": "gitlib-cmdline",
@@ -938,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "git",
           "normalized": "[Text]-\u003eSh Text",
@@ -952,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "git_",
           "package": "gitlib-cmdline",
@@ -961,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "git_",
           "normalized": "[Text]-\u003eSh()",
@@ -975,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "lexer",
           "package": "gitlib-cmdline",
@@ -984,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "lexer",
           "package": "gitlib-cmdline",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "mkOid",
           "package": "gitlib-cmdline",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "mkOid",
           "normalized": "a b Text-\u003eReaderT CliRepo c(Tagged d SHA)",
@@ -1020,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "objectRefSha",
           "package": "gitlib-cmdline",
@@ -1029,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "objectRefSha",
           "package": "gitlib-cmdline",
@@ -1042,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "objectRefType",
           "package": "gitlib-cmdline",
@@ -1051,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "objectRefType",
           "package": "gitlib-cmdline",
@@ -1064,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "openCliRepository",
           "package": "gitlib-cmdline",
@@ -1073,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "openCliRepository",
           "normalized": "RepositoryOptions-\u003ea CliRepo",
@@ -1088,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "parseCliTime",
           "package": "gitlib-cmdline",
@@ -1097,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "parseCliTime",
           "normalized": "String-\u003eZonedTime",
@@ -1112,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "referenceObject",
           "package": "gitlib-cmdline",
@@ -1121,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "referenceObject",
           "package": "gitlib-cmdline",
@@ -1134,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "referenceRef",
           "package": "gitlib-cmdline",
@@ -1143,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "referenceRef",
           "package": "gitlib-cmdline",
@@ -1156,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "runGit",
           "package": "gitlib-cmdline",
@@ -1165,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "runGit",
           "normalized": "[Text]-\u003eReaderT CliRepo a Text",
@@ -1180,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "runGit_",
           "package": "gitlib-cmdline",
@@ -1189,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "runGit_",
           "normalized": "[Text]-\u003eReaderT CliRepo a()",
@@ -1204,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "shaToRef",
           "package": "gitlib-cmdline",
@@ -1213,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "shaToRef",
           "normalized": "Text-\u003eReaderT CliRepo a(RefTarget CliRepo)",
@@ -1228,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:32 UTC 2014",
           "module": "Git.CmdLine",
           "name": "toStrict",
           "package": "gitlib-cmdline",
@@ -1237,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Git CmdLine",
+          "indexed": "2014-03-11T18:17:32",
           "module": "Git.CmdLine",
           "name": "toStrict",
           "normalized": "Text-\u003eText",

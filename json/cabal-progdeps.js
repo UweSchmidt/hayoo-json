@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-progdeps"
+        "phrase": "cabal-progdeps",
+        "type": "phrase"
       },
       "type": "context"
     }

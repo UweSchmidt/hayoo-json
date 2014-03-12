@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskintex"
+        "phrase": "haskintex",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:17 UTC 2014",
           "module": "Haskintex",
           "name": "Haskintex",
           "package": "haskintex",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Haskintex",
+          "indexed": "2014-03-11T18:33:17",
           "module": "Haskintex",
           "name": "Haskintex",
           "package": "haskintex",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:17 UTC 2014",
           "module": "Haskintex",
           "name": "haskintex",
           "package": "haskintex",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Haskintex",
+          "indexed": "2014-03-11T18:33:17",
           "module": "Haskintex",
           "name": "haskintex",
           "normalized": "[String]-\u003eIO()",

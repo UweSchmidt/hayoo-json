@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hscurses"
+        "phrase": "hscurses",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinding to the [wn]curses library. From the ncurses man page:\n\u003c/p\u003e\u003cpre\u003e      The curses library routines give the user a terminal-inde-\n      pendent method of updating character screens with  reason-\n      able  optimization.\n\u003c/pre\u003e\u003cp\u003eSections of the quoted documentation are from the OpenBSD man pages, which\n are distributed under a BSD license.\n\u003c/p\u003e\u003cp\u003eA useful reference is:\n        \u003cem\u003eWriting Programs with NCURSES\u003c/em\u003e, by Eric S. Raymond and Zeyd\n        M. Ben-Halim, \u003ca\u003ehttp://dickey.his.com/ncurses/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eN.B attrs don't work with Irix curses.h. This should be fixed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Curses",
           "package": "hscurses",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Binding to the wn curses library From the ncurses man page The curses library routines give the user terminal-inde pendent method of updating character screens with reason able optimization Sections of the quoted documentation are from the OpenBSD man pages which are distributed under BSD license useful reference is Writing Programs with NCURSES by Eric Raymond and Zeyd Ben-Halim http dickey.his.com ncurses N.B attrs don work with Irix curses.h This should be fixed",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Curses",
           "package": "hscurses",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Attr",
           "package": "hscurses",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Attr",
           "package": "hscurses",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Border",
           "package": "hscurses",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Border",
           "package": "hscurses",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonEvent",
           "package": "hscurses",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonEvent",
           "package": "hscurses",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ChType",
           "package": "hscurses",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ChType",
           "package": "hscurses",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Color",
           "package": "hscurses",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Color",
           "package": "hscurses",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "CursorVisibility",
           "package": "hscurses",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "CursorVisibility",
           "package": "hscurses",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap curses keys to key abstraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Key",
           "package": "hscurses",
@@ -177,6 +192,7 @@
         "index": {
           "description": "Map curses keys to key abstraction",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Key",
           "package": "hscurses",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "MouseEvent",
           "package": "hscurses",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "MouseEvent",
           "package": "hscurses",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "NBool",
           "package": "hscurses",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "NBool",
           "package": "hscurses",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Pair",
           "package": "hscurses",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Pair",
           "package": "hscurses",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Window",
           "package": "hscurses",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Window",
           "package": "hscurses",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Border",
           "package": "hscurses",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Border",
           "package": "hscurses",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonAlt",
           "package": "hscurses",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonAlt",
           "package": "hscurses",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonClicked",
           "package": "hscurses",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonClicked",
           "package": "hscurses",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonControl",
           "package": "hscurses",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonControl",
           "package": "hscurses",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonDoubleClicked",
           "package": "hscurses",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonDoubleClicked",
           "package": "hscurses",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonPressed",
           "package": "hscurses",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonPressed",
           "package": "hscurses",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonReleased",
           "package": "hscurses",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonReleased",
           "package": "hscurses",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonShift",
           "package": "hscurses",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonShift",
           "package": "hscurses",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonTripleClicked",
           "package": "hscurses",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ButtonTripleClicked",
           "package": "hscurses",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Color",
           "package": "hscurses",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Color",
           "package": "hscurses",
@@ -494,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "CursorInvisible",
           "package": "hscurses",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "CursorInvisible",
           "package": "hscurses",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "CursorVeryVisible",
           "package": "hscurses",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "CursorVeryVisible",
           "package": "hscurses",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "CursorVisible",
           "package": "hscurses",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "CursorVisible",
           "package": "hscurses",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyA1",
           "package": "hscurses",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyA1",
           "package": "hscurses",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyA3",
           "package": "hscurses",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyA3",
           "package": "hscurses",
@@ -604,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyB2",
           "package": "hscurses",
@@ -613,6 +668,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyB2",
           "package": "hscurses",
@@ -626,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyBTab",
           "package": "hscurses",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyBTab",
           "package": "hscurses",
@@ -648,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyBackspace",
           "package": "hscurses",
@@ -657,6 +716,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyBackspace",
           "package": "hscurses",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyBeg",
           "package": "hscurses",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyBeg",
           "package": "hscurses",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyBreak",
           "package": "hscurses",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyBreak",
           "package": "hscurses",
@@ -714,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyC1",
           "package": "hscurses",
@@ -723,6 +788,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyC1",
           "package": "hscurses",
@@ -736,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyC3",
           "package": "hscurses",
@@ -745,6 +812,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyC3",
           "package": "hscurses",
@@ -758,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCATab",
           "package": "hscurses",
@@ -767,6 +836,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCATab",
           "package": "hscurses",
@@ -780,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCTab",
           "package": "hscurses",
@@ -789,6 +860,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCTab",
           "package": "hscurses",
@@ -802,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCancel",
           "package": "hscurses",
@@ -811,6 +884,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCancel",
           "package": "hscurses",
@@ -824,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyChar",
           "package": "hscurses",
@@ -833,6 +908,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyChar",
           "package": "hscurses",
@@ -846,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyClear",
           "package": "hscurses",
@@ -855,6 +932,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyClear",
           "package": "hscurses",
@@ -868,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyClose",
           "package": "hscurses",
@@ -877,6 +956,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyClose",
           "package": "hscurses",
@@ -890,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCommand",
           "package": "hscurses",
@@ -899,6 +980,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCommand",
           "package": "hscurses",
@@ -912,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCopy",
           "package": "hscurses",
@@ -921,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCopy",
           "package": "hscurses",
@@ -934,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCreate",
           "package": "hscurses",
@@ -943,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyCreate",
           "package": "hscurses",
@@ -956,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyDC",
           "package": "hscurses",
@@ -965,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyDC",
           "package": "hscurses",
@@ -978,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyDL",
           "package": "hscurses",
@@ -987,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyDL",
           "package": "hscurses",
@@ -1000,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyDown",
           "package": "hscurses",
@@ -1009,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyDown",
           "package": "hscurses",
@@ -1022,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEIC",
           "package": "hscurses",
@@ -1031,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEIC",
           "package": "hscurses",
@@ -1044,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEOL",
           "package": "hscurses",
@@ -1053,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEOL",
           "package": "hscurses",
@@ -1066,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEOS",
           "package": "hscurses",
@@ -1075,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEOS",
           "package": "hscurses",
@@ -1088,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEnd",
           "package": "hscurses",
@@ -1097,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEnd",
           "package": "hscurses",
@@ -1110,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEnter",
           "package": "hscurses",
@@ -1119,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyEnter",
           "package": "hscurses",
@@ -1132,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyExit",
           "package": "hscurses",
@@ -1141,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyExit",
           "package": "hscurses",
@@ -1154,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyF",
           "package": "hscurses",
@@ -1163,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyF",
           "package": "hscurses",
@@ -1176,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyFind",
           "package": "hscurses",
@@ -1185,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyFind",
           "package": "hscurses",
@@ -1198,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyHelp",
           "package": "hscurses",
@@ -1207,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyHelp",
           "package": "hscurses",
@@ -1220,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyHome",
           "package": "hscurses",
@@ -1229,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyHome",
           "package": "hscurses",
@@ -1242,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyIC",
           "package": "hscurses",
@@ -1251,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyIC",
           "package": "hscurses",
@@ -1264,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyIL",
           "package": "hscurses",
@@ -1273,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyIL",
           "package": "hscurses",
@@ -1286,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyLL",
           "package": "hscurses",
@@ -1295,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyLL",
           "package": "hscurses",
@@ -1308,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyLeft",
           "package": "hscurses",
@@ -1317,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyLeft",
           "package": "hscurses",
@@ -1330,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyMark",
           "package": "hscurses",
@@ -1339,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyMark",
           "package": "hscurses",
@@ -1352,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyMessage",
           "package": "hscurses",
@@ -1361,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyMessage",
           "package": "hscurses",
@@ -1374,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyMouse",
           "package": "hscurses",
@@ -1383,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyMouse",
           "package": "hscurses",
@@ -1396,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyMove",
           "package": "hscurses",
@@ -1405,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyMove",
           "package": "hscurses",
@@ -1418,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyNPage",
           "package": "hscurses",
@@ -1427,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyNPage",
           "package": "hscurses",
@@ -1440,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyNext",
           "package": "hscurses",
@@ -1449,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyNext",
           "package": "hscurses",
@@ -1462,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyOpen",
           "package": "hscurses",
@@ -1471,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyOpen",
           "package": "hscurses",
@@ -1484,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyOptions",
           "package": "hscurses",
@@ -1493,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyOptions",
           "package": "hscurses",
@@ -1506,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyPPage",
           "package": "hscurses",
@@ -1515,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyPPage",
           "package": "hscurses",
@@ -1528,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyPrevious",
           "package": "hscurses",
@@ -1537,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyPrevious",
           "package": "hscurses",
@@ -1550,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyPrint",
           "package": "hscurses",
@@ -1559,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyPrint",
           "package": "hscurses",
@@ -1572,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyRedo",
           "package": "hscurses",
@@ -1581,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyRedo",
           "package": "hscurses",
@@ -1594,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyReference",
           "package": "hscurses",
@@ -1603,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyReference",
           "package": "hscurses",
@@ -1616,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyRefresh",
           "package": "hscurses",
@@ -1625,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyRefresh",
           "package": "hscurses",
@@ -1638,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyReplace",
           "package": "hscurses",
@@ -1647,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyReplace",
           "package": "hscurses",
@@ -1660,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyReset",
           "package": "hscurses",
@@ -1669,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyReset",
           "package": "hscurses",
@@ -1682,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyResize",
           "package": "hscurses",
@@ -1691,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyResize",
           "package": "hscurses",
@@ -1704,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyRestart",
           "package": "hscurses",
@@ -1713,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyRestart",
           "package": "hscurses",
@@ -1726,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyResume",
           "package": "hscurses",
@@ -1735,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyResume",
           "package": "hscurses",
@@ -1748,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyRight",
           "package": "hscurses",
@@ -1757,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyRight",
           "package": "hscurses",
@@ -1770,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySBeg",
           "package": "hscurses",
@@ -1779,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySBeg",
           "package": "hscurses",
@@ -1792,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySCancel",
           "package": "hscurses",
@@ -1801,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySCancel",
           "package": "hscurses",
@@ -1814,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySCommand",
           "package": "hscurses",
@@ -1823,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySCommand",
           "package": "hscurses",
@@ -1836,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySCopy",
           "package": "hscurses",
@@ -1845,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySCopy",
           "package": "hscurses",
@@ -1858,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySCreate",
           "package": "hscurses",
@@ -1867,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySCreate",
           "package": "hscurses",
@@ -1880,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySDC",
           "package": "hscurses",
@@ -1889,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySDC",
           "package": "hscurses",
@@ -1902,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySDL",
           "package": "hscurses",
@@ -1911,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySDL",
           "package": "hscurses",
@@ -1924,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySEOL",
           "package": "hscurses",
@@ -1933,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySEOL",
           "package": "hscurses",
@@ -1946,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySEnd",
           "package": "hscurses",
@@ -1955,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySEnd",
           "package": "hscurses",
@@ -1968,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySExit",
           "package": "hscurses",
@@ -1977,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySExit",
           "package": "hscurses",
@@ -1990,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySF",
           "package": "hscurses",
@@ -1999,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySF",
           "package": "hscurses",
@@ -2012,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySFind",
           "package": "hscurses",
@@ -2021,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySFind",
           "package": "hscurses",
@@ -2034,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySHelp",
           "package": "hscurses",
@@ -2043,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySHelp",
           "package": "hscurses",
@@ -2056,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySHome",
           "package": "hscurses",
@@ -2065,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySHome",
           "package": "hscurses",
@@ -2078,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySIC",
           "package": "hscurses",
@@ -2087,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySIC",
           "package": "hscurses",
@@ -2100,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySLeft",
           "package": "hscurses",
@@ -2109,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySLeft",
           "package": "hscurses",
@@ -2122,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySMessage",
           "package": "hscurses",
@@ -2131,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySMessage",
           "package": "hscurses",
@@ -2144,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySMove",
           "package": "hscurses",
@@ -2153,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySMove",
           "package": "hscurses",
@@ -2166,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySNext",
           "package": "hscurses",
@@ -2175,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySNext",
           "package": "hscurses",
@@ -2188,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySOptions",
           "package": "hscurses",
@@ -2197,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySOptions",
           "package": "hscurses",
@@ -2210,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySPrevious",
           "package": "hscurses",
@@ -2219,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySPrevious",
           "package": "hscurses",
@@ -2232,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySPrint",
           "package": "hscurses",
@@ -2241,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySPrint",
           "package": "hscurses",
@@ -2254,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySR",
           "package": "hscurses",
@@ -2263,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySR",
           "package": "hscurses",
@@ -2276,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySRedo",
           "package": "hscurses",
@@ -2285,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySRedo",
           "package": "hscurses",
@@ -2298,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySReplace",
           "package": "hscurses",
@@ -2307,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySReplace",
           "package": "hscurses",
@@ -2320,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySReset",
           "package": "hscurses",
@@ -2329,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySReset",
           "package": "hscurses",
@@ -2342,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySRight",
           "package": "hscurses",
@@ -2351,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySRight",
           "package": "hscurses",
@@ -2364,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySRsume",
           "package": "hscurses",
@@ -2373,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySRsume",
           "package": "hscurses",
@@ -2386,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySSave",
           "package": "hscurses",
@@ -2395,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySSave",
           "package": "hscurses",
@@ -2408,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySSuspend",
           "package": "hscurses",
@@ -2417,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySSuspend",
           "package": "hscurses",
@@ -2430,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySTab",
           "package": "hscurses",
@@ -2439,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySTab",
           "package": "hscurses",
@@ -2452,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySUndo",
           "package": "hscurses",
@@ -2461,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySUndo",
           "package": "hscurses",
@@ -2474,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySave",
           "package": "hscurses",
@@ -2483,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySave",
           "package": "hscurses",
@@ -2496,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySelect",
           "package": "hscurses",
@@ -2505,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySelect",
           "package": "hscurses",
@@ -2518,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeySuspend",
           "package": "hscurses",
@@ -2527,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeySuspend",
           "package": "hscurses",
@@ -2540,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyUndo",
           "package": "hscurses",
@@ -2549,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyUndo",
           "package": "hscurses",
@@ -2562,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyUnknown",
           "package": "hscurses",
@@ -2571,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyUnknown",
           "package": "hscurses",
@@ -2584,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "KeyUp",
           "package": "hscurses",
@@ -2593,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "KeyUp",
           "package": "hscurses",
@@ -2606,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "MouseEvent",
           "package": "hscurses",
@@ -2615,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "MouseEvent",
           "package": "hscurses",
@@ -2628,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "Pair",
           "package": "hscurses",
@@ -2637,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "Pair",
           "package": "hscurses",
@@ -2650,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "addLn",
           "package": "hscurses",
@@ -2659,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "addLn",
           "normalized": "IO()",
@@ -2675,6 +2917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal display (no highlight)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attr0",
           "package": "hscurses",
@@ -2685,6 +2928,7 @@
         "index": {
           "description": "Normal display no highlight",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attr0",
           "package": "hscurses",
@@ -2697,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrBold",
           "package": "hscurses",
@@ -2706,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrBold",
           "package": "hscurses",
@@ -2719,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrBoldOff",
           "package": "hscurses",
@@ -2728,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrBoldOff",
           "normalized": "IO()",
@@ -2743,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrBoldOn",
           "package": "hscurses",
@@ -2752,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrBoldOn",
           "normalized": "IO()",
@@ -2767,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrDim",
           "package": "hscurses",
@@ -2776,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrDim",
           "package": "hscurses",
@@ -2789,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrDimOff",
           "package": "hscurses",
@@ -2798,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrDimOff",
           "normalized": "IO()",
@@ -2813,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrDimOn",
           "package": "hscurses",
@@ -2822,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrDimOn",
           "normalized": "IO()",
@@ -2837,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrOff",
           "package": "hscurses",
@@ -2846,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrOff",
           "normalized": "Attr-\u003eIO()",
@@ -2861,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrOn",
           "package": "hscurses",
@@ -2870,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrOn",
           "normalized": "Attr-\u003eIO()",
@@ -2885,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrPlus",
           "package": "hscurses",
@@ -2894,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrPlus",
           "normalized": "Attr-\u003eAttr-\u003eAttr",
@@ -2909,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "attrSet",
           "package": "hscurses",
@@ -2918,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "attrSet",
           "normalized": "Attr-\u003ePair-\u003eIO()",
@@ -2933,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "bTee",
           "package": "hscurses",
@@ -2942,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "bTee",
           "package": "hscurses",
@@ -2955,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "beep",
           "package": "hscurses",
@@ -2964,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "beep",
           "normalized": "IO()",
@@ -2978,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "bkgrndSet",
           "package": "hscurses",
@@ -2987,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "bkgrndSet",
           "normalized": "Attr-\u003ePair-\u003eIO()",
@@ -3002,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "bl",
           "package": "hscurses",
@@ -3011,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "bl",
           "package": "hscurses",
@@ -3023,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "block",
           "package": "hscurses",
@@ -3032,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "block",
           "package": "hscurses",
@@ -3044,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "board",
           "package": "hscurses",
@@ -3053,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "board",
           "package": "hscurses",
@@ -3065,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "br",
           "package": "hscurses",
@@ -3074,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "br",
           "package": "hscurses",
@@ -3086,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "bs",
           "package": "hscurses",
@@ -3095,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "bs",
           "package": "hscurses",
@@ -3107,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "bullet",
           "package": "hscurses",
@@ -3116,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "bullet",
           "package": "hscurses",
@@ -3129,6 +3411,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e The cbreak routine\n disables line buffering and erase/kill  character-process-\n ing  (interrupt  and  flow  control  characters  are unaf-\n fected), making characters typed by the  user  immediately\n available  to  the  program.  The nocbreak routine returns\n the terminal to normal (cooked) mode.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cBreak",
           "package": "hscurses",
@@ -3139,6 +3422,7 @@
         "index": {
           "description": "The cbreak routine disables line buffering and erase kill character-process ing interrupt and flow control characters are unaf fected making characters typed by the user immediately available to the program The nocbreak routine returns the terminal to normal cooked mode",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cBreak",
           "normalized": "Bool-\u003eIO()",
@@ -3154,6 +3438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cERR",
           "package": "hscurses",
@@ -3163,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cERR",
           "package": "hscurses",
@@ -3176,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cKEY_DOWN",
           "package": "hscurses",
@@ -3185,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cKEY_DOWN",
           "package": "hscurses",
@@ -3198,6 +3486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cKEY_LEFT",
           "package": "hscurses",
@@ -3207,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cKEY_LEFT",
           "package": "hscurses",
@@ -3220,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cKEY_RIGHT",
           "package": "hscurses",
@@ -3229,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cKEY_RIGHT",
           "package": "hscurses",
@@ -3242,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cKEY_UP",
           "package": "hscurses",
@@ -3251,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cKEY_UP",
           "package": "hscurses",
@@ -3264,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cTRUE",
           "package": "hscurses",
@@ -3273,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cTRUE",
           "package": "hscurses",
@@ -3286,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "canChangeColor",
           "package": "hscurses",
@@ -3295,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "canChangeColor",
           "package": "hscurses",
@@ -3308,6 +3606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ckBoard",
           "package": "hscurses",
@@ -3317,6 +3616,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ckBoard",
           "package": "hscurses",
@@ -3330,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "clearOk",
           "package": "hscurses",
@@ -3339,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "clearOk",
           "normalized": "Bool-\u003eIO CInt",
@@ -3354,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "clrToEol",
           "package": "hscurses",
@@ -3363,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "clrToEol",
           "normalized": "IO()",
@@ -3378,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "color",
           "package": "hscurses",
@@ -3387,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "color",
           "normalized": "String-\u003eMaybe Color",
@@ -3401,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "colorContent",
           "package": "hscurses",
@@ -3410,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "colorContent",
           "normalized": "Color-\u003eIO(Int,Int,Int)",
@@ -3426,6 +3734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolorPairs defines the maximum number of color-pairs the terminal\n can support).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "colorPairs",
           "package": "hscurses",
@@ -3436,6 +3745,7 @@
         "index": {
           "description": "colorPairs defines the maximum number of color-pairs the terminal can support",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "colorPairs",
           "package": "hscurses",
@@ -3449,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "colors",
           "package": "hscurses",
@@ -3458,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "colors",
           "package": "hscurses",
@@ -3471,6 +3783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the cursor state\n\u003c/p\u003e\u003cpre\u003e       The curs_set routine sets  the  cursor  state  is  set  to\n       invisible, normal, or very visible for visibility equal to\n       0, 1, or 2 respectively.  If  the  terminal  supports  the\n       visibility   requested,   the  previous  cursor  state  is\n       returned; otherwise, ERR is returned.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cursSet",
           "package": "hscurses",
@@ -3481,6 +3794,7 @@
         "index": {
           "description": "Set the cursor state The curs set routine sets the cursor state is set to invisible normal or very visible for visibility equal to or respectively If the terminal supports the visibility requested the previous cursor state is returned otherwise ERR is returned",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cursSet",
           "normalized": "CursorVisibility-\u003eIO CursorVisibility",
@@ -3497,6 +3811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SIGWINCH signal is sent whenever the terminal size changes.\n This signal is not available on all platforms, so it is a |Maybe| value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cursesSigWinch",
           "package": "hscurses",
@@ -3507,6 +3822,7 @@
         "index": {
           "description": "The SIGWINCH signal is sent whenever the terminal size changes This signal is not available on all platforms so it is Maybe value",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cursesSigWinch",
           "package": "hscurses",
@@ -3520,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "cursesTest",
           "package": "hscurses",
@@ -3529,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "cursesTest",
           "normalized": "IO()",
@@ -3544,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "dArrow",
           "package": "hscurses",
@@ -3553,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "dArrow",
           "package": "hscurses",
@@ -3566,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "decodeKey",
           "package": "hscurses",
@@ -3575,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "decodeKey",
           "normalized": "CInt-\u003eKey",
@@ -3590,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "defaultBackground",
           "package": "hscurses",
@@ -3599,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "defaultBackground",
           "package": "hscurses",
@@ -3612,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "defaultBorder",
           "package": "hscurses",
@@ -3621,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "defaultBorder",
           "package": "hscurses",
@@ -3634,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "defaultForeground",
           "package": "hscurses",
@@ -3643,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "defaultForeground",
           "package": "hscurses",
@@ -3656,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "degree",
           "package": "hscurses",
@@ -3665,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "degree",
           "package": "hscurses",
@@ -3677,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "delWin",
           "package": "hscurses",
@@ -3686,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "delWin",
           "normalized": "Window-\u003eIO()",
@@ -3701,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "diamond",
           "package": "hscurses",
@@ -3710,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "diamond",
           "package": "hscurses",
@@ -3723,6 +4057,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e      The  echo  and  noecho routines control whether characters\n       typed by the user are echoed by getch as they  are  typed.\n       Echoing  by  the  tty  driver is always disabled, but ini-\n       tially getch is in echo  mode,  so  characters  typed  are\n       echoed.  Authors of most interactive programs prefer to do\n       their own echoing in a controlled area of the  screen,  or\n       not  to  echo  at  all, so they disable echoing by calling\n       noecho.  [See curs_getch(3) for a discussion of how  these\n       routines interact with cbreak and nocbreak.]\n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "echo",
           "package": "hscurses",
@@ -3733,6 +4068,7 @@
         "index": {
           "description": "The echo and noecho routines control whether characters typed by the user are echoed by getch as they are typed Echoing by the tty driver is always disabled but ini tially getch is in echo mode so characters typed are echoed Authors of most interactive programs prefer to do their own echoing in controlled area of the screen or not to echo at all so they disable echoing by calling noecho See curs getch for discussion of how these routines interact with cbreak and nocbreak",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "echo",
           "normalized": "Bool-\u003eIO()",
@@ -3748,6 +4084,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e  The program must call endwin for each terminal being used before\n  exiting from curses.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "endWin",
           "package": "hscurses",
@@ -3758,6 +4095,7 @@
         "index": {
           "description": "The program must call endwin for each terminal being used before exiting from curses",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "endWin",
           "normalized": "IO()",
@@ -3773,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "erase",
           "package": "hscurses",
@@ -3782,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "erase",
           "normalized": "IO()",
@@ -3796,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "errI",
           "package": "hscurses",
@@ -3805,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "errI",
           "normalized": "IO CInt-\u003eIO()",
@@ -3819,6 +4161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "flushinp",
           "package": "hscurses",
@@ -3828,6 +4171,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "flushinp",
           "package": "hscurses",
@@ -3840,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "gEqual",
           "package": "hscurses",
@@ -3849,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "gEqual",
           "package": "hscurses",
@@ -3863,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a character from the window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "getCh",
           "package": "hscurses",
@@ -3873,6 +4220,7 @@
         "index": {
           "description": "read character from the window",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "getCh",
           "package": "hscurses",
@@ -3887,6 +4235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current cursor coordinates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "getYX",
           "package": "hscurses",
@@ -3897,6 +4246,7 @@
         "index": {
           "description": "Get the current cursor coordinates",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "getYX",
           "normalized": "Window-\u003eIO(Int,Int)",
@@ -3913,6 +4263,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e      The getch, wgetch, mvgetch and mvwgetch, routines read a\n      character  from the window.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "getch",
           "package": "hscurses",
@@ -3923,6 +4274,7 @@
         "index": {
           "description": "The getch wgetch mvgetch and mvwgetch routines read character from the window",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "getch",
           "package": "hscurses",
@@ -3935,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "hLine",
           "package": "hscurses",
@@ -3944,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "hLine",
           "package": "hscurses",
@@ -3957,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "hasColors",
           "package": "hscurses",
@@ -3966,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "hasColors",
           "package": "hscurses",
@@ -3979,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "initColor",
           "package": "hscurses",
@@ -3988,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "initColor",
           "normalized": "Color-\u003e(Int,Int,Int)-\u003eIO()",
@@ -4004,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einitCurses fn\u003c/code\u003e does all initialization necessary for a Curses\n   application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "initCurses",
           "package": "hscurses",
@@ -4014,6 +4373,7 @@
         "index": {
           "description": "initCurses fn does all initialization necessary for Curses application",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "initCurses",
           "normalized": "IO()",
@@ -4030,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurses support color attributes  on  terminals  with  that\n     capability.   To  use  these  routines start_color must be\n     called, usually right after initscr.   Colors  are  always\n     used  in pairs (referred to as color-pairs).  A color-pair\n     consists of a foreground  color  (for  characters)  and  a\n     background color (for the blank field on which the charac-\n     ters are displayed).  A programmer  initializes  a  color-\n     pair  with  the routine init_pair.  After it has been ini-\n     tialized, COLOR_PAIR(n), a macro  defined  in  \u003ca\u003ecurses.h\u003c/a\u003e,\n     can be used as a new video attribute.\n\u003c/p\u003e\u003cp\u003eIf  a  terminal  is capable of redefining colors, the pro-\n     grammer can use the routine init_color to change the defi-\n     nition   of   a   color.\n\u003c/p\u003e\u003cp\u003eThe init_pair routine changes the definition of  a  color-\n     pair.   It takes three arguments: the number of the color-\n     pair to be changed, the foreground color number,  and  the\n     background color number.  For portable applications:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e    The value of the first argument must be between 1 and\n          COLOR_PAIRS-1.\n\u003c/li\u003e\u003cli\u003e    The value of the second and third arguments  must  be\n          between  0  and  COLORS (the 0 color pair is wired to\n          white on black and cannot be changed).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "initPair",
           "package": "hscurses",
@@ -4040,6 +4401,7 @@
         "index": {
           "description": "curses support color attributes on terminals with that capability To use these routines start color must be called usually right after initscr Colors are always used in pairs referred to as color-pairs color-pair consists of foreground color for characters and background color for the blank field on which the charac ters are displayed programmer initializes color pair with the routine init pair After it has been ini tialized COLOR PAIR macro defined in curses.h can be used as new video attribute If terminal is capable of redefining colors the pro grammer can use the routine init color to change the defi nition of color The init pair routine changes the definition of color pair It takes three arguments the number of the color pair to be changed the foreground color number and the background color number For portable applications The value of the first argument must be between and COLOR PAIRS-1 The value of the second and third arguments must be between and COLORS the color pair is wired to white on black and cannot be changed",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "initPair",
           "normalized": "Pair-\u003eColor-\u003eColor-\u003eIO()",
@@ -4056,6 +4418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitscr is normally the first curses routine to call when\n initializing a program. curs_initscr(3):\n\u003c/p\u003e\u003cpre\u003e     To initialize the routines, the routine initscr or newterm\n     must be called before any of the other routines that  deal\n     with  windows  and  screens  are used.\n\u003c/pre\u003e\u003cpre\u003e     The initscr code determines the terminal type and initial-\n     izes all curses data structures.  initscr also causes  the\n     first  call  to  refresh  to  clear the screen.  If errors\n     occur, initscr writes  an  appropriate  error  message  to\n     standard error and exits; otherwise, a pointer is returned\n     to stdscr.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "initScr",
           "package": "hscurses",
@@ -4066,6 +4429,7 @@
         "index": {
           "description": "initscr is normally the first curses routine to call when initializing program curs initscr To initialize the routines the routine initscr or newterm must be called before any of the other routines that deal with windows and screens are used The initscr code determines the terminal type and initial izes all curses data structures initscr also causes the first call to refresh to clear the screen If errors occur initscr writes an appropriate error message to standard error and exits otherwise pointer is returned to stdscr",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "initScr",
           "package": "hscurses",
@@ -4080,6 +4444,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e       If  the intrflush option is enabled, (bf is TRUE), when an\n        interrupt key  is  pressed  on  the  keyboard  (interrupt,\n        break,  quit)  all  output in the tty driver queue will be\n        flushed, giving the  effect  of  faster  response  to  the\n        interrupt,  but  causing  curses to have the wrong idea of\n        what is on the  screen.   Disabling  (bf  is  FALSE),  the\n        option  prevents the flush.\n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "intrFlush",
           "package": "hscurses",
@@ -4090,6 +4455,7 @@
         "index": {
           "description": "If the intrflush option is enabled bf is TRUE when an interrupt key is pressed on the keyboard interrupt break quit all output in the tty driver queue will be flushed giving the effect of faster response to the interrupt but causing curses to have the wrong idea of what is on the screen Disabling bf is FALSE the option prevents the flush",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "intrFlush",
           "normalized": "Bool-\u003eIO()",
@@ -4105,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isAltCharset",
           "package": "hscurses",
@@ -4114,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isAltCharset",
           "normalized": "Attr-\u003eBool",
@@ -4129,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isBlink",
           "package": "hscurses",
@@ -4138,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isBlink",
           "normalized": "Attr-\u003eBool",
@@ -4153,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isBold",
           "package": "hscurses",
@@ -4162,6 +4533,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isBold",
           "normalized": "Attr-\u003eBool",
@@ -4177,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isDim",
           "package": "hscurses",
@@ -4186,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isDim",
           "normalized": "Attr-\u003eBool",
@@ -4201,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isHorizontal",
           "package": "hscurses",
@@ -4210,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isHorizontal",
           "normalized": "Attr-\u003eBool",
@@ -4225,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isInvis",
           "package": "hscurses",
@@ -4234,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isInvis",
           "normalized": "Attr-\u003eBool",
@@ -4249,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isLeft",
           "package": "hscurses",
@@ -4258,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isLeft",
           "normalized": "Attr-\u003eBool",
@@ -4273,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isLow",
           "package": "hscurses",
@@ -4282,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isLow",
           "normalized": "Attr-\u003eBool",
@@ -4297,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isProtect",
           "package": "hscurses",
@@ -4306,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isProtect",
           "normalized": "Attr-\u003eBool",
@@ -4321,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isReverse",
           "package": "hscurses",
@@ -4330,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isReverse",
           "normalized": "Attr-\u003eBool",
@@ -4345,6 +4731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isRight",
           "package": "hscurses",
@@ -4354,6 +4741,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isRight",
           "normalized": "Attr-\u003eBool",
@@ -4369,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isStandout",
           "package": "hscurses",
@@ -4378,6 +4767,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isStandout",
           "normalized": "Attr-\u003eBool",
@@ -4393,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isTop",
           "package": "hscurses",
@@ -4402,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isTop",
           "normalized": "Attr-\u003eBool",
@@ -4417,6 +4809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isUnderline",
           "package": "hscurses",
@@ -4426,6 +4819,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isUnderline",
           "normalized": "Attr-\u003eBool",
@@ -4441,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "isVertical",
           "package": "hscurses",
@@ -4450,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "isVertical",
           "normalized": "Attr-\u003eBool",
@@ -4465,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "keyResizeCode",
           "package": "hscurses",
@@ -4474,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "keyResizeCode",
           "package": "hscurses",
@@ -4488,6 +4886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable the keypad of the user's terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "keypad",
           "package": "hscurses",
@@ -4498,6 +4897,7 @@
         "index": {
           "description": "Enable the keypad of the user terminal",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "keypad",
           "normalized": "Window-\u003eBool-\u003eIO()",
@@ -4512,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "lArrow",
           "package": "hscurses",
@@ -4521,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "lArrow",
           "package": "hscurses",
@@ -4534,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "lEqual",
           "package": "hscurses",
@@ -4543,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "lEqual",
           "package": "hscurses",
@@ -4556,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "lTee",
           "package": "hscurses",
@@ -4565,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "lTee",
           "package": "hscurses",
@@ -4578,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "lantern",
           "package": "hscurses",
@@ -4587,6 +4994,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "lantern",
           "package": "hscurses",
@@ -4600,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormally, the hardware cursor is left at the  location  of\n     the  window  cursor  being  refreshed.  The leaveok option\n     allows the cursor to be left wherever the  update  happens\n     to leave it.  It is useful for applications where the cur-\n     sor is not used, since it  reduces  the  need  for  cursor\n     motions.   If  possible, the cursor is made invisible when\n     this option is enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "leaveOk",
           "package": "hscurses",
@@ -4610,6 +5019,7 @@
         "index": {
           "description": "Normally the hardware cursor is left at the location of the window cursor being refreshed The leaveok option allows the cursor to be left wherever the update happens to leave it It is useful for applications where the cur sor is not used since it reduces the need for cursor motions If possible the cursor is made invisible when this option is enabled",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "leaveOk",
           "normalized": "Bool-\u003eIO CInt",
@@ -4625,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "llCorner",
           "package": "hscurses",
@@ -4634,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "llCorner",
           "package": "hscurses",
@@ -4647,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "lrCorner",
           "package": "hscurses",
@@ -4656,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "lrCorner",
           "package": "hscurses",
@@ -4669,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ls",
           "package": "hscurses",
@@ -4678,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ls",
           "package": "hscurses",
@@ -4690,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventButton",
           "package": "hscurses",
@@ -4699,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventButton",
           "normalized": "[ButtonEvent]",
@@ -4714,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventId",
           "package": "hscurses",
@@ -4723,6 +5142,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventId",
           "package": "hscurses",
@@ -4736,6 +5156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventX",
           "package": "hscurses",
@@ -4745,6 +5166,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventX",
           "package": "hscurses",
@@ -4758,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventY",
           "package": "hscurses",
@@ -4767,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventY",
           "package": "hscurses",
@@ -4780,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventZ",
           "package": "hscurses",
@@ -4789,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "mouseEventZ",
           "package": "hscurses",
@@ -4803,6 +5229,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e    move the cursor associated with the window\n    to line y and column x.  This routine does  not  move  the\n    physical  cursor  of the terminal until refresh is called.\n    The position specified is relative to the upper  left-hand\n    corner of the window, which is (0,0).\n\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003emove_c\u003c/code\u003e may be a macro.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "move",
           "package": "hscurses",
@@ -4813,6 +5240,7 @@
         "index": {
           "description": "move the cursor associated with the window to line and column This routine does not move the physical cursor of the terminal until refresh is called The position specified is relative to the upper left-hand corner of the window which is Note that move may be macro",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "move",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -4827,6 +5255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "mvAddCh",
           "package": "hscurses",
@@ -4836,6 +5265,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "mvAddCh",
           "normalized": "Int-\u003eInt-\u003eChType-\u003eIO()",
@@ -4851,6 +5281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "mvWAddStr",
           "package": "hscurses",
@@ -4860,6 +5291,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "mvWAddStr",
           "normalized": "Window-\u003eInt-\u003eInt-\u003eString-\u003eIO()",
@@ -4875,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "nEqual",
           "package": "hscurses",
@@ -4884,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "nEqual",
           "package": "hscurses",
@@ -4897,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "newPad",
           "package": "hscurses",
@@ -4906,6 +5341,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "newPad",
           "normalized": "Int-\u003eInt-\u003eIO Window",
@@ -4921,6 +5357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "newWin",
           "package": "hscurses",
@@ -4930,6 +5367,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "newWin",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO Window",
@@ -4946,6 +5384,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e       The  nl  and  nonl routines control whether the underlying\n        display device translates the return key into  newline  on\n        input,  and  whether it translates newline into return and\n        line-feed on output (in either case, the call  addch('\\n')\n        does the equivalent of return and line feed on the virtual\n        screen).  Initially, these translations do occur.  If  you\n        disable  them using nonl, curses will be able to make bet-\n        ter use of the line-feed capability, resulting  in  faster\n        cursor  motion.   Also, curses will then be able to detect\n        the return key.\n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "nl",
           "package": "hscurses",
@@ -4956,6 +5395,7 @@
         "index": {
           "description": "The nl and nonl routines control whether the underlying display device translates the return key into newline on input and whether it translates newline into return and line-feed on output in either case the call addch does the equivalent of return and line feed on the virtual screen Initially these translations do occur If you disable them using nonl curses will be able to make bet ter use of the line-feed capability resulting in faster cursor motion Also curses will then be able to detect the return key",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "nl",
           "normalized": "Bool-\u003eIO()",
@@ -4970,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "noDelay",
           "package": "hscurses",
@@ -4979,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "noDelay",
           "normalized": "Window-\u003eBool-\u003eIO()",
@@ -4994,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "noqiflush",
           "package": "hscurses",
@@ -5003,6 +5446,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "noqiflush",
           "normalized": "IO()",
@@ -5017,6 +5461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "pRefresh",
           "package": "hscurses",
@@ -5026,6 +5471,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "pRefresh",
           "normalized": "Window-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -5041,6 +5487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "pairContent",
           "package": "hscurses",
@@ -5050,6 +5497,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "pairContent",
           "normalized": "Pair-\u003eIO(Color,Color)",
@@ -5065,6 +5513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "pi",
           "package": "hscurses",
@@ -5074,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "pi",
           "package": "hscurses",
@@ -5086,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "plMinus",
           "package": "hscurses",
@@ -5095,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "plMinus",
           "package": "hscurses",
@@ -5108,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "plus",
           "package": "hscurses",
@@ -5117,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "plus",
           "package": "hscurses",
@@ -5129,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "rArrow",
           "package": "hscurses",
@@ -5138,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "rArrow",
           "package": "hscurses",
@@ -5151,6 +5607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "rTee",
           "package": "hscurses",
@@ -5160,6 +5617,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "rTee",
           "package": "hscurses",
@@ -5174,6 +5632,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e    The  raw and noraw routines place the terminal into or out\n     of raw mode.  Raw mode is similar to cbreak mode, in  that\n     characters  typed  are  immediately  passed through to the\n     user program.  The differences are that in raw  mode,  the\n     interrupt,  quit, suspend, and flow control characters are\n     all passed through uninterpreted, instead of generating  a\n     signal.   The  behavior  of the BREAK key depends on other\n     bits in the tty driver that are not set by curses.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "raw",
           "package": "hscurses",
@@ -5184,6 +5643,7 @@
         "index": {
           "description": "The raw and noraw routines place the terminal into or out of raw mode Raw mode is similar to cbreak mode in that characters typed are immediately passed through to the user program The differences are that in raw mode the interrupt quit suspend and flow control characters are all passed through uninterpreted instead of generating signal The behavior of the BREAK key depends on other bits in the tty driver that are not set by curses",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "raw",
           "normalized": "Bool-\u003eIO()",
@@ -5198,6 +5658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "recognize",
           "package": "hscurses",
@@ -5207,6 +5668,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "recognize",
           "normalized": "Char-\u003eIO a-\u003e(ChType-\u003eIO a)-\u003eIO a",
@@ -5222,6 +5684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erefresh curses windows and lines. curs_refresh(3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "refresh",
           "package": "hscurses",
@@ -5232,6 +5695,7 @@
         "index": {
           "description": "refresh curses windows and lines curs refresh",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "refresh",
           "normalized": "IO()",
@@ -5246,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "resetParams",
           "package": "hscurses",
@@ -5255,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "resetParams",
           "normalized": "IO()",
@@ -5270,6 +5736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "resizeTerminal",
           "package": "hscurses",
@@ -5279,6 +5746,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "resizeTerminal",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -5294,6 +5762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "rs",
           "package": "hscurses",
@@ -5303,6 +5772,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "rs",
           "package": "hscurses",
@@ -5315,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "s1",
           "package": "hscurses",
@@ -5324,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "s1",
           "package": "hscurses",
@@ -5336,6 +5808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "s3",
           "package": "hscurses",
@@ -5345,6 +5818,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "s3",
           "package": "hscurses",
@@ -5357,6 +5831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "s7",
           "package": "hscurses",
@@ -5366,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "s7",
           "package": "hscurses",
@@ -5378,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "s9",
           "package": "hscurses",
@@ -5387,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "s9",
           "package": "hscurses",
@@ -5400,6 +5878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the dimensions of the screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "scrSize",
           "package": "hscurses",
@@ -5410,6 +5889,7 @@
         "index": {
           "description": "get the dimensions of the screen",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "scrSize",
           "normalized": "IO(Int,Int)",
@@ -5426,6 +5906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setAltCharset",
           "package": "hscurses",
@@ -5436,6 +5917,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setAltCharset",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5452,6 +5934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setBlink",
           "package": "hscurses",
@@ -5462,6 +5945,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setBlink",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5478,6 +5962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setBold",
           "package": "hscurses",
@@ -5488,6 +5973,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setBold",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5504,6 +5990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setDim",
           "package": "hscurses",
@@ -5514,6 +6001,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setDim",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5530,6 +6018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setHorizontal",
           "package": "hscurses",
@@ -5540,6 +6029,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setHorizontal",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5556,6 +6046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setInvis",
           "package": "hscurses",
@@ -5566,6 +6057,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setInvis",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5582,6 +6074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setLeft",
           "package": "hscurses",
@@ -5592,6 +6085,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setLeft",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5608,6 +6102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setLow",
           "package": "hscurses",
@@ -5618,6 +6113,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setLow",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5634,6 +6130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setProtect",
           "package": "hscurses",
@@ -5644,6 +6141,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setProtect",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5660,6 +6158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setReverse",
           "package": "hscurses",
@@ -5670,6 +6169,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setReverse",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5686,6 +6186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setRight",
           "package": "hscurses",
@@ -5696,6 +6197,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setRight",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5712,6 +6214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setStandout",
           "package": "hscurses",
@@ -5722,6 +6225,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setStandout",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5738,6 +6242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setTop",
           "package": "hscurses",
@@ -5748,6 +6253,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setTop",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5764,6 +6270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setUnderline",
           "package": "hscurses",
@@ -5774,6 +6281,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setUnderline",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5790,6 +6298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "setVertical",
           "package": "hscurses",
@@ -5800,6 +6309,7 @@
         "index": {
           "description": "Setting attributes",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "setVertical",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -5815,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "standend",
           "package": "hscurses",
@@ -5824,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "standend",
           "package": "hscurses",
@@ -5836,6 +6348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "standout",
           "package": "hscurses",
@@ -5845,6 +6358,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "standout",
           "package": "hscurses",
@@ -5858,6 +6372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise the color settings, also sets the screen to the\n default colors (white on black)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "startColor",
           "package": "hscurses",
@@ -5868,6 +6383,7 @@
         "index": {
           "description": "Initialise the color settings also sets the screen to the default colors white on black",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "startColor",
           "normalized": "IO()",
@@ -5884,6 +6400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "stdScr",
           "package": "hscurses",
@@ -5894,6 +6411,7 @@
         "index": {
           "description": "The standard screen",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "stdScr",
           "package": "hscurses",
@@ -5907,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "sterling",
           "package": "hscurses",
@@ -5916,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "sterling",
           "package": "hscurses",
@@ -5928,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "tTee",
           "package": "hscurses",
@@ -5937,6 +6458,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "tTee",
           "package": "hscurses",
@@ -5950,6 +6472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "throwIfErr",
           "package": "hscurses",
@@ -5959,6 +6482,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "throwIfErr",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -5974,6 +6498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "throwIfErr_",
           "package": "hscurses",
@@ -5983,6 +6508,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "throwIfErr_",
           "normalized": "String-\u003eIO a-\u003eIO()",
@@ -5999,6 +6525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a delay in milliseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "timeout",
           "package": "hscurses",
@@ -6009,6 +6536,7 @@
         "index": {
           "description": "Set delay in milliseconds",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "timeout",
           "normalized": "Int-\u003eIO()",
@@ -6023,6 +6551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "tl",
           "package": "hscurses",
@@ -6032,6 +6561,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "tl",
           "package": "hscurses",
@@ -6044,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "touchWin",
           "package": "hscurses",
@@ -6053,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "touchWin",
           "normalized": "Window-\u003eIO()",
@@ -6068,6 +6600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "tr",
           "package": "hscurses",
@@ -6077,6 +6610,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "tr",
           "package": "hscurses",
@@ -6089,6 +6623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ts",
           "package": "hscurses",
@@ -6098,6 +6633,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ts",
           "package": "hscurses",
@@ -6110,6 +6646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "uArrow",
           "package": "hscurses",
@@ -6119,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "uArrow",
           "package": "hscurses",
@@ -6132,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ulCorner",
           "package": "hscurses",
@@ -6141,6 +6680,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ulCorner",
           "package": "hscurses",
@@ -6154,6 +6694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "ungetCh",
           "package": "hscurses",
@@ -6163,6 +6704,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "ungetCh",
           "normalized": "a-\u003eIO()",
@@ -6179,6 +6721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo an actual update. Used after endWin on linux to restore the terminal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "update",
           "package": "hscurses",
@@ -6189,6 +6732,7 @@
         "index": {
           "description": "Do an actual update Used after endWin on linux to restore the terminal",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "update",
           "normalized": "IO()",
@@ -6203,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "urCorner",
           "package": "hscurses",
@@ -6212,6 +6757,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "urCorner",
           "package": "hscurses",
@@ -6225,6 +6771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "useDefaultColors",
           "package": "hscurses",
@@ -6234,6 +6781,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "useDefaultColors",
           "normalized": "IO()",
@@ -6249,6 +6797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "vLine",
           "package": "hscurses",
@@ -6258,6 +6807,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "vLine",
           "package": "hscurses",
@@ -6271,6 +6821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "vline",
           "package": "hscurses",
@@ -6280,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "vline",
           "normalized": "Char-\u003eInt-\u003eIO()",
@@ -6294,6 +6846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wAddStr",
           "package": "hscurses",
@@ -6303,6 +6856,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wAddStr",
           "normalized": "Window-\u003eString-\u003eIO()",
@@ -6319,6 +6873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emanipulate the current attributes of the named window. see curs_attr(3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wAttrGet",
           "package": "hscurses",
@@ -6329,6 +6884,7 @@
         "index": {
           "description": "manipulate the current attributes of the named window see curs attr",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wAttrGet",
           "normalized": "Window-\u003eIO(Attr,Pair)",
@@ -6344,6 +6900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wAttrOff",
           "package": "hscurses",
@@ -6353,6 +6910,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wAttrOff",
           "normalized": "Window-\u003eInt-\u003eIO()",
@@ -6368,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wAttrOn",
           "package": "hscurses",
@@ -6377,6 +6936,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wAttrOn",
           "normalized": "Window-\u003eInt-\u003eIO()",
@@ -6392,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wAttrSet",
           "package": "hscurses",
@@ -6401,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wAttrSet",
           "normalized": "Window-\u003e(Attr,Pair)-\u003eIO()",
@@ -6417,6 +6979,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e    Draw a border around the edges of a window. defaultBorder is\n    a record  representing all 0 parameters to wrecord.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wBorder",
           "package": "hscurses",
@@ -6427,6 +6990,7 @@
         "index": {
           "description": "Draw border around the edges of window defaultBorder is record representing all parameters to wrecord",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wBorder",
           "normalized": "Window-\u003eBorder-\u003eIO()",
@@ -6442,6 +7006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wClrToEol",
           "package": "hscurses",
@@ -6451,6 +7016,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wClrToEol",
           "normalized": "Window-\u003eIO()",
@@ -6467,6 +7033,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e    move the cursor associated with the window\n    to line y and column x.  This routine does  not  move  the\n    physical  cursor  of the terminal until refresh is called.\n    The position specified is relative to the upper  left-hand\n    corner of the window, which is (0,0).\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wMove",
           "package": "hscurses",
@@ -6477,6 +7044,7 @@
         "index": {
           "description": "move the cursor associated with the window to line and column This routine does not move the physical cursor of the terminal until refresh is called The position specified is relative to the upper left-hand corner of the window which is",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wMove",
           "normalized": "Window-\u003eInt-\u003eInt-\u003eIO()",
@@ -6493,6 +7061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewRefresh refreshes the specified window, copying the data\n | from the virtual screen to the physical screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wRefresh",
           "package": "hscurses",
@@ -6503,6 +7072,7 @@
         "index": {
           "description": "wRefresh refreshes the specified window copying the data from the virtual screen to the physical screen",
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wRefresh",
           "normalized": "Window-\u003eIO()",
@@ -6518,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "waddch",
           "package": "hscurses",
@@ -6527,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "waddch",
           "normalized": "Window-\u003eChType-\u003eIO CInt",
@@ -6541,6 +7113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "waddchnstr",
           "package": "hscurses",
@@ -6550,6 +7123,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "waddchnstr",
           "normalized": "Window-\u003eCString-\u003eCInt-\u003eIO CInt",
@@ -6564,6 +7138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "wclear",
           "package": "hscurses",
@@ -6573,6 +7148,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "wclear",
           "normalized": "Window-\u003eIO()",
@@ -6587,6 +7163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Curses",
           "name": "withMouseEventMask",
           "package": "hscurses",
@@ -6596,6 +7173,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Curses",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Curses",
           "name": "withMouseEventMask",
           "normalized": "[ButtonEvent]-\u003ea b-\u003ea b",
@@ -6611,6 +7189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "CursesHelper",
           "package": "hscurses",
@@ -6619,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "CursesHelper",
           "package": "hscurses",
@@ -6633,6 +7213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstractions for some commonly used attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Attribute",
           "package": "hscurses",
@@ -6642,6 +7223,7 @@
         "index": {
           "description": "Abstractions for some commonly used attributes",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Attribute",
           "package": "hscurses",
@@ -6656,6 +7238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BackgroundColor",
           "package": "hscurses",
@@ -6665,6 +7248,7 @@
         "index": {
           "description": "Background colors",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BackgroundColor",
           "package": "hscurses",
@@ -6679,6 +7263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA style which uses the internal curses representations for\n   attributes and colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "CursesStyle",
           "package": "hscurses",
@@ -6688,6 +7273,7 @@
         "index": {
           "description": "style which uses the internal curses representations for attributes and colors",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "CursesStyle",
           "package": "hscurses",
@@ -6702,6 +7288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForeground colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "ForegroundColor",
           "package": "hscurses",
@@ -6711,6 +7298,7 @@
         "index": {
           "description": "Foreground colors",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "ForegroundColor",
           "package": "hscurses",
@@ -6725,6 +7313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA humand-readable style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Style",
           "package": "hscurses",
@@ -6734,6 +7323,7 @@
         "index": {
           "description": "humand-readable style",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Style",
           "package": "hscurses",
@@ -6747,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "AttributeStyle",
           "package": "hscurses",
@@ -6756,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "AttributeStyle",
           "normalized": "AttributeStyle[Attribute]ForegroundColor BackgroundColor",
@@ -6771,6 +7363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BlackB",
           "package": "hscurses",
@@ -6780,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BlackB",
           "package": "hscurses",
@@ -6793,6 +7387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BlackF",
           "package": "hscurses",
@@ -6802,6 +7397,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BlackF",
           "package": "hscurses",
@@ -6815,6 +7411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Blink",
           "package": "hscurses",
@@ -6824,6 +7421,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Blink",
           "package": "hscurses",
@@ -6837,6 +7435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BlueF",
           "package": "hscurses",
@@ -6846,6 +7445,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BlueF",
           "package": "hscurses",
@@ -6859,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Bold",
           "package": "hscurses",
@@ -6868,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Bold",
           "package": "hscurses",
@@ -6881,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BrightWhiteF",
           "package": "hscurses",
@@ -6890,6 +7493,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BrightWhiteF",
           "package": "hscurses",
@@ -6903,6 +7507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BrownB",
           "package": "hscurses",
@@ -6912,6 +7517,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BrownB",
           "package": "hscurses",
@@ -6925,6 +7531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BrownF",
           "package": "hscurses",
@@ -6934,6 +7541,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "BrownF",
           "package": "hscurses",
@@ -6947,6 +7555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "ColorlessStyle",
           "package": "hscurses",
@@ -6956,6 +7565,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "ColorlessStyle",
           "normalized": "ColorlessStyle[Attribute]",
@@ -6971,6 +7581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "CyanF",
           "package": "hscurses",
@@ -6980,6 +7591,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "CyanF",
           "package": "hscurses",
@@ -6993,6 +7605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkBlueB",
           "package": "hscurses",
@@ -7002,6 +7615,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkBlueB",
           "package": "hscurses",
@@ -7015,6 +7629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkBlueF",
           "package": "hscurses",
@@ -7024,6 +7639,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkBlueF",
           "package": "hscurses",
@@ -7037,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkCyanB",
           "package": "hscurses",
@@ -7046,6 +7663,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkCyanB",
           "package": "hscurses",
@@ -7059,6 +7677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkCyanF",
           "package": "hscurses",
@@ -7068,6 +7687,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkCyanF",
           "package": "hscurses",
@@ -7081,6 +7701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkGreenB",
           "package": "hscurses",
@@ -7090,6 +7711,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkGreenB",
           "package": "hscurses",
@@ -7103,6 +7725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkGreenF",
           "package": "hscurses",
@@ -7112,6 +7735,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkGreenF",
           "package": "hscurses",
@@ -7125,6 +7749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkRedB",
           "package": "hscurses",
@@ -7134,6 +7759,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkRedB",
           "package": "hscurses",
@@ -7147,6 +7773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkRedF",
           "package": "hscurses",
@@ -7156,6 +7783,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DarkRedF",
           "package": "hscurses",
@@ -7169,6 +7797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DefaultB",
           "package": "hscurses",
@@ -7178,6 +7807,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DefaultB",
           "package": "hscurses",
@@ -7191,6 +7821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DefaultF",
           "package": "hscurses",
@@ -7200,6 +7831,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "DefaultF",
           "package": "hscurses",
@@ -7213,6 +7845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Dim",
           "package": "hscurses",
@@ -7222,6 +7855,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Dim",
           "package": "hscurses",
@@ -7235,6 +7869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "GreenF",
           "package": "hscurses",
@@ -7244,6 +7879,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "GreenF",
           "package": "hscurses",
@@ -7257,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "GreyF",
           "package": "hscurses",
@@ -7266,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "GreyF",
           "package": "hscurses",
@@ -7279,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "MagentaF",
           "package": "hscurses",
@@ -7288,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "MagentaF",
           "package": "hscurses",
@@ -7301,6 +7941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "PurpleB",
           "package": "hscurses",
@@ -7310,6 +7951,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "PurpleB",
           "package": "hscurses",
@@ -7323,6 +7965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "PurpleF",
           "package": "hscurses",
@@ -7332,6 +7975,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "PurpleF",
           "package": "hscurses",
@@ -7345,6 +7989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "RedF",
           "package": "hscurses",
@@ -7354,6 +7999,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "RedF",
           "package": "hscurses",
@@ -7367,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Reverse",
           "package": "hscurses",
@@ -7376,6 +8023,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Reverse",
           "package": "hscurses",
@@ -7389,6 +8037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Style",
           "package": "hscurses",
@@ -7398,6 +8047,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Style",
           "package": "hscurses",
@@ -7411,6 +8061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Underline",
           "package": "hscurses",
@@ -7420,6 +8071,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "Underline",
           "package": "hscurses",
@@ -7433,6 +8085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "WhiteB",
           "package": "hscurses",
@@ -7442,6 +8095,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "WhiteB",
           "package": "hscurses",
@@ -7455,6 +8109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "WhiteF",
           "package": "hscurses",
@@ -7464,6 +8119,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "WhiteF",
           "package": "hscurses",
@@ -7477,6 +8133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "YellowF",
           "package": "hscurses",
@@ -7486,6 +8143,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "YellowF",
           "package": "hscurses",
@@ -7499,6 +8157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "black",
           "package": "hscurses",
@@ -7508,6 +8167,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "black",
           "package": "hscurses",
@@ -7520,6 +8180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "blue",
           "package": "hscurses",
@@ -7529,6 +8190,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "blue",
           "package": "hscurses",
@@ -7542,6 +8204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the attributes of the given CursesStyle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "changeCursesStyle",
           "package": "hscurses",
@@ -7552,6 +8215,7 @@
         "index": {
           "description": "Changes the attributes of the given CursesStyle",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "changeCursesStyle",
           "normalized": "CursesStyle-\u003e[Attribute]-\u003eCursesStyle",
@@ -7568,6 +8232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an abstract attribute list into its curses representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "convertAttributes",
           "package": "hscurses",
@@ -7578,6 +8243,7 @@
         "index": {
           "description": "Converts an abstract attribute list into its curses representation",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "convertAttributes",
           "normalized": "[Attribute]-\u003eAttr",
@@ -7594,6 +8260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list of human-readable styles into the corresponding\n   curses representation.\n\u003c/p\u003e\u003cp\u003eThis function should be called exactly once at application startup\n   for all styles of the application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "convertStyles",
           "package": "hscurses",
@@ -7604,6 +8271,7 @@
         "index": {
           "description": "Converts list of human-readable styles into the corresponding curses representation This function should be called exactly once at application startup for all styles of the application",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "convertStyles",
           "normalized": "[Style]-\u003eIO[CursesStyle]",
@@ -7619,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "cyan",
           "package": "hscurses",
@@ -7628,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "cyan",
           "package": "hscurses",
@@ -7641,6 +8311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "defaultColor",
           "package": "hscurses",
@@ -7651,6 +8322,7 @@
         "index": {
           "description": "Basic colors",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "defaultColor",
           "package": "hscurses",
@@ -7664,6 +8336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "defaultCursesStyle",
           "package": "hscurses",
@@ -7673,6 +8346,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "defaultCursesStyle",
           "package": "hscurses",
@@ -7686,6 +8360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "defaultStyle",
           "package": "hscurses",
@@ -7695,6 +8370,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "defaultStyle",
           "package": "hscurses",
@@ -7709,6 +8385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting keys to humand-readable strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "displayKey",
           "package": "hscurses",
@@ -7719,6 +8396,7 @@
         "index": {
           "description": "Converting keys to humand-readable strings",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "displayKey",
           "normalized": "Key-\u003eString",
@@ -7735,6 +8413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the cursor at the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "drawCursor",
           "package": "hscurses",
@@ -7745,6 +8424,7 @@
         "index": {
           "description": "Draw the cursor at the given position",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "drawCursor",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003eIO()",
@@ -7761,6 +8441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edrawLine n s\u003c/code\u003e draws \u003ccode\u003en\u003c/code\u003e characters of string \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "drawLine",
           "package": "hscurses",
@@ -7771,6 +8452,7 @@
         "index": {
           "description": "drawLine draws characters of string",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "drawLine",
           "normalized": "Int-\u003eString-\u003eIO()",
@@ -7787,6 +8469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClean up and go home.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "end",
           "package": "hscurses",
@@ -7797,6 +8480,7 @@
         "index": {
           "description": "Clean up and go home",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "end",
           "normalized": "IO()",
@@ -7812,6 +8496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetKey refresh\u003c/code\u003e reads a key.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003erefresh\u003c/code\u003e function is used to redraw the screen when the terminal size\n changes (see the documentatio of \u003ccode\u003estart\u003c/code\u003e for a discussion of the problem).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "getKey",
           "package": "hscurses",
@@ -7822,6 +8507,7 @@
         "index": {
           "description": "getKey refresh reads key The refresh function is used to redraw the screen when the terminal size changes see the documentatio of start for discussion of the problem",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "getKey",
           "normalized": "a()-\u003ea Key",
@@ -7838,6 +8524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove cursor to origin of stdScr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "gotoTop",
           "package": "hscurses",
@@ -7848,6 +8535,7 @@
         "index": {
           "description": "Move cursor to origin of stdScr",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "gotoTop",
           "normalized": "IO()",
@@ -7863,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "green",
           "package": "hscurses",
@@ -7872,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "green",
           "package": "hscurses",
@@ -7884,6 +8574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "magenta",
           "package": "hscurses",
@@ -7893,6 +8584,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "magenta",
           "package": "hscurses",
@@ -7905,6 +8597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "mkCursesStyle",
           "package": "hscurses",
@@ -7914,6 +8607,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "mkCursesStyle",
           "normalized": "[Attribute]-\u003eCursesStyle",
@@ -7929,6 +8623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "red",
           "package": "hscurses",
@@ -7938,6 +8633,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "red",
           "package": "hscurses",
@@ -7951,6 +8647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the screen to normal values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "resetStyle",
           "package": "hscurses",
@@ -7961,6 +8658,7 @@
         "index": {
           "description": "Reset the screen to normal values",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "resetStyle",
           "normalized": "IO()",
@@ -7977,6 +8675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize the window\n From \u003ca\u003eWriting Programs with NCURSES\u003c/a\u003e, by Eric S. Raymond and\n Zeyd M. Ben-Halim\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "resizeui",
           "package": "hscurses",
@@ -7987,6 +8686,7 @@
         "index": {
           "description": "Resize the window From Writing Programs with NCURSES by Eric Raymond and Zeyd Ben-Halim",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "resizeui",
           "normalized": "IO(Int,Int)",
@@ -8002,6 +8702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManipulate the current style of the standard screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "setStyle",
           "package": "hscurses",
@@ -8012,6 +8713,7 @@
         "index": {
           "description": "Manipulate the current style of the standard screen",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "setStyle",
           "normalized": "CursesStyle-\u003eIO()",
@@ -8028,6 +8730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estart\u003c/code\u003e initializes the UI and grabs the keyboard.\n\u003c/p\u003e\u003cp\u003eThis function installs a handler for the SIGWINCH signal\n which writes the KEY_RESIZE key to the input queue (if KEY_RESIZE and\n and SIGWINCH are both available).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "start",
           "package": "hscurses",
@@ -8038,6 +8741,7 @@
         "index": {
           "description": "start initializes the UI and grabs the keyboard This function installs handler for the SIGWINCH signal which writes the KEY RESIZE key to the input queue if KEY RESIZE and and SIGWINCH are both available",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "start",
           "normalized": "IO()",
@@ -8053,6 +8757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuspend the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "suspend",
           "package": "hscurses",
@@ -8063,6 +8768,7 @@
         "index": {
           "description": "Suspend the program",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "suspend",
           "normalized": "IO()",
@@ -8077,6 +8783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "wResetStyle",
           "package": "hscurses",
@@ -8086,6 +8793,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "wResetStyle",
           "normalized": "Window-\u003eIO()",
@@ -8101,6 +8809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "wSetStyle",
           "package": "hscurses",
@@ -8110,6 +8819,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "wSetStyle",
           "normalized": "Window-\u003eCursesStyle-\u003eIO()",
@@ -8125,6 +8835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "wWithStyle",
           "package": "hscurses",
@@ -8134,6 +8845,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "wWithStyle",
           "normalized": "Window-\u003eCursesStyle-\u003ea b-\u003ea b",
@@ -8149,6 +8861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "white",
           "package": "hscurses",
@@ -8158,6 +8871,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "white",
           "package": "hscurses",
@@ -8171,6 +8885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther helpers\n\u003c/p\u003e\u003cp\u003eset the cursor, and do action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "withCursor",
           "package": "hscurses",
@@ -8181,6 +8896,7 @@
         "index": {
           "description": "Other helpers set the cursor and do action",
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "withCursor",
           "normalized": "CursorVisibility-\u003ea b-\u003ea b",
@@ -8196,6 +8912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "withProgram",
           "package": "hscurses",
@@ -8205,6 +8922,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "withProgram",
           "normalized": "a b-\u003ea b",
@@ -8220,6 +8938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "withStyle",
           "package": "hscurses",
@@ -8229,6 +8948,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "withStyle",
           "normalized": "CursesStyle-\u003ea b-\u003ea b",
@@ -8244,6 +8964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.CursesHelper",
           "name": "yellow",
           "package": "hscurses",
@@ -8253,6 +8974,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses CursesHelper",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.CursesHelper",
           "name": "yellow",
           "package": "hscurses",
@@ -8265,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Logging",
           "name": "Logging",
           "package": "hscurses",
@@ -8273,6 +8996,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Logging",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Logging",
           "name": "Logging",
           "package": "hscurses",
@@ -8286,6 +9010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Logging",
           "name": "debug",
           "package": "hscurses",
@@ -8295,6 +9020,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Logging",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Logging",
           "name": "debug",
           "normalized": "String-\u003ea()",
@@ -8309,6 +9035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Logging",
           "name": "trace",
           "package": "hscurses",
@@ -8318,6 +9045,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Logging",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Logging",
           "name": "trace",
           "normalized": "String-\u003ea-\u003ea",
@@ -8332,6 +9060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "MonadException",
           "package": "hscurses",
@@ -8340,6 +9069,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "MonadException",
           "package": "hscurses",
@@ -8353,6 +9083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "MonadExc",
           "package": "hscurses",
@@ -8361,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "MonadExc",
           "package": "hscurses",
@@ -8374,6 +9106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "MonadExcIO",
           "package": "hscurses",
@@ -8382,6 +9115,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "MonadExcIO",
           "package": "hscurses",
@@ -8395,6 +9129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "blockM",
           "package": "hscurses",
@@ -8404,6 +9139,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "blockM",
           "normalized": "a b-\u003ea b",
@@ -8418,6 +9154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "blockState",
           "package": "hscurses",
@@ -8427,6 +9164,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "blockState",
           "normalized": "StateT a b c-\u003eStateT a b c",
@@ -8442,6 +9180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "bracketM",
           "package": "hscurses",
@@ -8450,6 +9189,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "bracketM",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -8464,6 +9204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "bracketM_",
           "package": "hscurses",
@@ -8473,6 +9214,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "bracketM_",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea d",
@@ -8487,6 +9229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "catchJustM",
           "package": "hscurses",
@@ -8495,6 +9238,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "catchJustM",
           "normalized": "(a-\u003eMaybe b)-\u003ec d-\u003e(b-\u003ec d)-\u003ec d",
@@ -8510,6 +9254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "catchM",
           "package": "hscurses",
@@ -8519,6 +9264,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "catchM",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -8533,6 +9279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "catchState",
           "package": "hscurses",
@@ -8542,6 +9289,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "catchState",
           "normalized": "StateT a b c-\u003e(d-\u003eStateT a b c)-\u003eStateT a b c",
@@ -8557,6 +9305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "finally",
           "package": "hscurses",
@@ -8565,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "finally",
           "normalized": "IO a-\u003eIO b-\u003eIO a",
@@ -8579,6 +9329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "handleJustM",
           "package": "hscurses",
@@ -8588,6 +9339,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "handleJustM",
           "normalized": "(a-\u003eMaybe b)-\u003e(b-\u003ec d)-\u003ec d-\u003ec d",
@@ -8603,6 +9355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "handleM",
           "package": "hscurses",
@@ -8612,6 +9365,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "handleM",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -8626,6 +9380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "modifyState",
           "package": "hscurses",
@@ -8635,6 +9390,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "modifyState",
           "normalized": "(a-\u003eb(c,a))-\u003eStateT a b c",
@@ -8650,6 +9406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "tryJustM",
           "package": "hscurses",
@@ -8659,6 +9416,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "tryJustM",
           "normalized": "(a-\u003eMaybe b)-\u003ec d-\u003ec(Either b d)",
@@ -8674,6 +9432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "tryM",
           "package": "hscurses",
@@ -8683,6 +9442,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "tryM",
           "normalized": "a b-\u003ea(Either c b)",
@@ -8697,6 +9457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "unblockM",
           "package": "hscurses",
@@ -8706,6 +9467,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "unblockM",
           "normalized": "a b-\u003ea b",
@@ -8720,6 +9482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.MonadException",
           "name": "unblockState",
           "package": "hscurses",
@@ -8729,6 +9492,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses MonadException",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.MonadException",
           "name": "unblockState",
           "normalized": "StateT a b c-\u003eStateT a b c",
@@ -8744,6 +9508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Widgets",
           "package": "hscurses",
@@ -8752,6 +9517,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Widgets",
           "package": "hscurses",
@@ -8765,6 +9531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ActiveWidget",
           "package": "hscurses",
@@ -8773,6 +9540,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ActiveWidget",
           "package": "hscurses",
@@ -8786,6 +9554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Cont",
           "package": "hscurses",
@@ -8794,6 +9563,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Cont",
           "package": "hscurses",
@@ -8807,6 +9577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Direction",
           "package": "hscurses",
@@ -8815,6 +9586,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Direction",
           "package": "hscurses",
@@ -8828,6 +9600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DrawingHint",
           "package": "hscurses",
@@ -8836,6 +9609,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DrawingHint",
           "package": "hscurses",
@@ -8849,6 +9623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DrawingStyle",
           "package": "hscurses",
@@ -8857,6 +9632,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DrawingStyle",
           "package": "hscurses",
@@ -8870,6 +9646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "EditWidget",
           "package": "hscurses",
@@ -8878,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "EditWidget",
           "package": "hscurses",
@@ -8891,6 +9669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "EditWidgetOptions",
           "package": "hscurses",
@@ -8899,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "EditWidgetOptions",
           "package": "hscurses",
@@ -8912,6 +9692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "EmptyWidget",
           "package": "hscurses",
@@ -8920,6 +9701,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "EmptyWidget",
           "package": "hscurses",
@@ -8933,6 +9715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "FillRow",
           "package": "hscurses",
@@ -8941,6 +9724,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "FillRow",
           "package": "hscurses",
@@ -8954,6 +9738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "HAlignment",
           "package": "hscurses",
@@ -8962,6 +9747,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "HAlignment",
           "package": "hscurses",
@@ -8975,6 +9761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "KeyHandler",
           "package": "hscurses",
@@ -8983,6 +9770,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "KeyHandler",
           "package": "hscurses",
@@ -8996,6 +9784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Offset",
           "package": "hscurses",
@@ -9004,6 +9793,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Offset",
           "package": "hscurses",
@@ -9017,6 +9807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "OpaqueWidget",
           "package": "hscurses",
@@ -9025,6 +9816,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "OpaqueWidget",
           "package": "hscurses",
@@ -9038,6 +9830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Pos",
           "package": "hscurses",
@@ -9046,6 +9839,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Pos",
           "package": "hscurses",
@@ -9059,6 +9853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Row",
           "package": "hscurses",
@@ -9067,6 +9862,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Row",
           "package": "hscurses",
@@ -9080,6 +9876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Size",
           "package": "hscurses",
@@ -9088,6 +9885,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Size",
           "package": "hscurses",
@@ -9101,6 +9899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TableCell",
           "package": "hscurses",
@@ -9109,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TableCell",
           "package": "hscurses",
@@ -9122,6 +9922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TableWidget",
           "package": "hscurses",
@@ -9130,6 +9931,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TableWidget",
           "package": "hscurses",
@@ -9143,6 +9945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TableWidgetDisplayInfo",
           "package": "hscurses",
@@ -9151,6 +9954,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TableWidgetDisplayInfo",
           "package": "hscurses",
@@ -9164,6 +9968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TableWidgetOptions",
           "package": "hscurses",
@@ -9172,6 +9977,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TableWidgetOptions",
           "package": "hscurses",
@@ -9185,6 +9991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TextWidget",
           "package": "hscurses",
@@ -9193,6 +10000,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TextWidget",
           "package": "hscurses",
@@ -9206,6 +10014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TextWidgetOptions",
           "package": "hscurses",
@@ -9214,6 +10023,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TextWidgetOptions",
           "package": "hscurses",
@@ -9227,6 +10037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TextWidgetSize",
           "package": "hscurses",
@@ -9235,6 +10046,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TextWidgetSize",
           "package": "hscurses",
@@ -9248,6 +10060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Widget",
           "package": "hscurses",
@@ -9256,6 +10069,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Widget",
           "package": "hscurses",
@@ -9269,6 +10083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ActiveTableCell",
           "package": "hscurses",
@@ -9278,6 +10093,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ActiveTableCell",
           "package": "hscurses",
@@ -9291,6 +10107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "AlignCenter",
           "package": "hscurses",
@@ -9300,6 +10117,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "AlignCenter",
           "package": "hscurses",
@@ -9313,6 +10131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "AlignLeft",
           "package": "hscurses",
@@ -9322,6 +10141,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "AlignLeft",
           "package": "hscurses",
@@ -9335,6 +10155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "AlignRight",
           "package": "hscurses",
@@ -9344,6 +10165,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "AlignRight",
           "package": "hscurses",
@@ -9357,6 +10179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Cont",
           "package": "hscurses",
@@ -9366,6 +10189,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Cont",
           "package": "hscurses",
@@ -9379,6 +10203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DHActive",
           "package": "hscurses",
@@ -9388,6 +10213,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DHActive",
           "package": "hscurses",
@@ -9401,6 +10227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DHFocus",
           "package": "hscurses",
@@ -9410,6 +10237,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DHFocus",
           "package": "hscurses",
@@ -9423,6 +10251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DHNormal",
           "package": "hscurses",
@@ -9432,6 +10261,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DHNormal",
           "package": "hscurses",
@@ -9445,6 +10275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DStyle",
           "package": "hscurses",
@@ -9454,6 +10285,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DStyle",
           "package": "hscurses",
@@ -9467,6 +10299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DirDown",
           "package": "hscurses",
@@ -9476,6 +10309,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DirDown",
           "package": "hscurses",
@@ -9489,6 +10323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DirLeft",
           "package": "hscurses",
@@ -9498,6 +10333,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DirLeft",
           "package": "hscurses",
@@ -9511,6 +10347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DirRight",
           "package": "hscurses",
@@ -9520,6 +10357,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DirRight",
           "package": "hscurses",
@@ -9533,6 +10371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "DirUp",
           "package": "hscurses",
@@ -9542,6 +10381,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "DirUp",
           "package": "hscurses",
@@ -9555,6 +10395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Done",
           "package": "hscurses",
@@ -9564,6 +10405,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Done",
           "package": "hscurses",
@@ -9577,6 +10419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "EWOptions",
           "package": "hscurses",
@@ -9586,6 +10429,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "EWOptions",
           "package": "hscurses",
@@ -9599,6 +10443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "EditWidget",
           "package": "hscurses",
@@ -9608,6 +10453,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "EditWidget",
           "package": "hscurses",
@@ -9621,6 +10467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "EmptyWidget",
           "package": "hscurses",
@@ -9630,6 +10477,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "EmptyWidget",
           "package": "hscurses",
@@ -9643,6 +10491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "First",
           "package": "hscurses",
@@ -9652,6 +10501,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "First",
           "package": "hscurses",
@@ -9665,6 +10515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "Last",
           "package": "hscurses",
@@ -9674,6 +10525,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "Last",
           "package": "hscurses",
@@ -9687,6 +10539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "None",
           "package": "hscurses",
@@ -9696,6 +10549,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "None",
           "package": "hscurses",
@@ -9709,6 +10563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "OpaqueWidget",
           "package": "hscurses",
@@ -9718,6 +10573,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "OpaqueWidget",
           "package": "hscurses",
@@ -9731,6 +10587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TBWDisplayInfo",
           "package": "hscurses",
@@ -9740,6 +10597,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TBWDisplayInfo",
           "package": "hscurses",
@@ -9753,6 +10611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TBWOptions",
           "package": "hscurses",
@@ -9762,6 +10621,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TBWOptions",
           "package": "hscurses",
@@ -9775,6 +10635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TWOptions",
           "package": "hscurses",
@@ -9784,6 +10645,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TWOptions",
           "package": "hscurses",
@@ -9797,6 +10659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TWSizeDefault",
           "package": "hscurses",
@@ -9806,6 +10669,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TWSizeDefault",
           "package": "hscurses",
@@ -9819,6 +10683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TWSizeFixed",
           "package": "hscurses",
@@ -9828,6 +10693,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TWSizeFixed",
           "package": "hscurses",
@@ -9841,6 +10707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TableCell",
           "package": "hscurses",
@@ -9850,6 +10717,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TableCell",
           "package": "hscurses",
@@ -9863,6 +10731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TableWidget",
           "package": "hscurses",
@@ -9872,6 +10741,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TableWidget",
           "package": "hscurses",
@@ -9885,6 +10755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "TextWidget",
           "package": "hscurses",
@@ -9894,6 +10765,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "TextWidget",
           "package": "hscurses",
@@ -9907,6 +10779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "_activateTableCell",
           "package": "hscurses",
@@ -9916,6 +10789,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "_activateTableCell",
           "normalized": "a()-\u003ePos-\u003eSize-\u003eTableCell-\u003ea(TableCell,String)",
@@ -9931,6 +10805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "_draw",
           "package": "hscurses",
@@ -9940,6 +10815,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "_draw",
           "normalized": "DrawingHint-\u003eDrawingStyle-\u003eIO a-\u003eIO a",
@@ -9954,6 +10830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "activate",
           "package": "hscurses",
@@ -9963,6 +10840,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "activate",
           "normalized": "a()-\u003ePos-\u003eSize-\u003eb-\u003ea(b,String)",
@@ -9977,6 +10855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "activateEditWidget",
           "package": "hscurses",
@@ -9986,6 +10865,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "activateEditWidget",
           "normalized": "a()-\u003ePos-\u003eSize-\u003eEditWidget-\u003ea(EditWidget,String)",
@@ -10001,6 +10881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "addToHistory",
           "package": "hscurses",
@@ -10010,6 +10891,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "addToHistory",
           "normalized": "EditWidget-\u003e[Char]-\u003eEditWidget",
@@ -10025,6 +10907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "align",
           "package": "hscurses",
@@ -10034,6 +10917,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "align",
           "normalized": "HAlignment-\u003eInt-\u003ea-\u003e[a]-\u003e[a]",
@@ -10048,6 +10932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "alignRows",
           "package": "hscurses",
@@ -10057,6 +10942,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "alignRows",
           "normalized": "[[[a]]]-\u003ea-\u003e[a]-\u003e[[a]]",
@@ -10072,6 +10958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "defaultDrawingStyle",
           "package": "hscurses",
@@ -10081,6 +10968,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "defaultDrawingStyle",
           "package": "hscurses",
@@ -10094,6 +10982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "defaultEWOptions",
           "package": "hscurses",
@@ -10103,6 +10992,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "defaultEWOptions",
           "package": "hscurses",
@@ -10116,6 +11006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "defaultTBWOptions",
           "package": "hscurses",
@@ -10125,6 +11016,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "defaultTBWOptions",
           "package": "hscurses",
@@ -10138,6 +11030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "defaultTWOptions",
           "package": "hscurses",
@@ -10147,6 +11040,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "defaultTWOptions",
           "package": "hscurses",
@@ -10160,6 +11054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "deleteAt",
           "package": "hscurses",
@@ -10169,6 +11064,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "deleteAt",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -10184,6 +11080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "draw",
           "package": "hscurses",
@@ -10193,6 +11090,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "draw",
           "normalized": "Pos-\u003eSize-\u003eDrawingHint-\u003ea-\u003eIO()",
@@ -10207,6 +11105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "drawEditWidget",
           "package": "hscurses",
@@ -10216,6 +11115,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "drawEditWidget",
           "normalized": "Pos-\u003eSize-\u003eDrawingHint-\u003eEditWidget-\u003eIO()",
@@ -10231,6 +11131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "drawTableWidget",
           "package": "hscurses",
@@ -10240,6 +11141,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "drawTableWidget",
           "normalized": "Pos-\u003eSize-\u003eDrawingHint-\u003eTableWidget-\u003eIO()",
@@ -10255,6 +11157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "drawTextWidget",
           "package": "hscurses",
@@ -10264,6 +11167,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "drawTextWidget",
           "normalized": "Pos-\u003eSize-\u003eDrawingHint-\u003eTextWidget-\u003eIO()",
@@ -10279,6 +11183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "dstyle_active",
           "package": "hscurses",
@@ -10288,6 +11193,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "dstyle_active",
           "package": "hscurses",
@@ -10300,6 +11206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "dstyle_focus",
           "package": "hscurses",
@@ -10309,6 +11216,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "dstyle_focus",
           "package": "hscurses",
@@ -10321,6 +11229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "dstyle_normal",
           "package": "hscurses",
@@ -10330,6 +11239,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "dstyle_normal",
           "package": "hscurses",
@@ -10342,6 +11252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteLeft",
           "package": "hscurses",
@@ -10351,6 +11262,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteLeft",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10366,6 +11278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteLeft'",
           "package": "hscurses",
@@ -10375,6 +11288,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteLeft'",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eEditWidget",
@@ -10390,6 +11304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteToEnd",
           "package": "hscurses",
@@ -10399,6 +11314,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteToEnd",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10414,6 +11330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteToEnd'",
           "package": "hscurses",
@@ -10423,6 +11340,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteToEnd'",
           "normalized": "a-\u003ea-\u003eEditWidget-\u003eEditWidget",
@@ -10438,6 +11356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteUnderCursor",
           "package": "hscurses",
@@ -10447,6 +11366,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteUnderCursor",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10462,6 +11382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteUnderCursor'",
           "package": "hscurses",
@@ -10471,6 +11392,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetDeleteUnderCursor'",
           "normalized": "a-\u003ea-\u003eEditWidget-\u003eEditWidget",
@@ -10486,6 +11408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetFinish",
           "package": "hscurses",
@@ -10495,6 +11418,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetFinish",
           "normalized": "a-\u003ea-\u003eEditWidget-\u003eb(Cont EditWidget)",
@@ -10510,6 +11434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGetContent",
           "package": "hscurses",
@@ -10519,6 +11444,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGetContent",
           "normalized": "EditWidget-\u003eString",
@@ -10534,6 +11460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGetOptions",
           "package": "hscurses",
@@ -10543,6 +11470,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGetOptions",
           "normalized": "EditWidget-\u003eEditWidgetOptions",
@@ -10558,6 +11486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoEnd",
           "package": "hscurses",
@@ -10567,6 +11496,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoEnd",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10582,6 +11512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoEnd'",
           "package": "hscurses",
@@ -10591,6 +11522,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoEnd'",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eEditWidget",
@@ -10606,6 +11538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoHome",
           "package": "hscurses",
@@ -10615,6 +11548,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoHome",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10630,6 +11564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoHome'",
           "package": "hscurses",
@@ -10639,6 +11574,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoHome'",
           "normalized": "a-\u003ea-\u003eEditWidget-\u003eEditWidget",
@@ -10654,6 +11590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoLeft",
           "package": "hscurses",
@@ -10663,6 +11600,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoLeft",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10678,6 +11616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoLeft'",
           "package": "hscurses",
@@ -10687,6 +11626,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoLeft'",
           "normalized": "a-\u003ea-\u003eEditWidget-\u003eEditWidget",
@@ -10702,6 +11642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoRight",
           "package": "hscurses",
@@ -10711,6 +11652,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoRight",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10726,6 +11668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoRight'",
           "package": "hscurses",
@@ -10735,6 +11678,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetGoRight'",
           "normalized": "a-\u003e(a,Int)-\u003eEditWidget-\u003eEditWidget",
@@ -10750,6 +11694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistory",
           "package": "hscurses",
@@ -10759,6 +11704,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistory",
           "normalized": "(Int-\u003ea-\u003eInt)-\u003eEditWidget-\u003eEditWidget",
@@ -10774,6 +11720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistoryDown",
           "package": "hscurses",
@@ -10783,6 +11730,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistoryDown",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10798,6 +11746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistoryDown'",
           "package": "hscurses",
@@ -10807,6 +11756,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistoryDown'",
           "normalized": "a-\u003ea-\u003eEditWidget-\u003eEditWidget",
@@ -10822,6 +11772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistoryUp",
           "package": "hscurses",
@@ -10831,6 +11782,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistoryUp",
           "normalized": "Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget)",
@@ -10846,6 +11798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistoryUp'",
           "package": "hscurses",
@@ -10855,6 +11808,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetHistoryUp'",
           "normalized": "a-\u003ea-\u003eEditWidget-\u003eEditWidget",
@@ -10870,6 +11824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetKeyHandlers",
           "package": "hscurses",
@@ -10879,6 +11834,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetKeyHandlers",
           "normalized": "[(Key,Pos-\u003eSize-\u003eEditWidget-\u003eIO(Cont EditWidget))]",
@@ -10894,6 +11850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetSetContent",
           "package": "hscurses",
@@ -10903,6 +11860,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetSetContent",
           "normalized": "EditWidget-\u003eString-\u003eEditWidget",
@@ -10918,6 +11876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetSetOptions",
           "package": "hscurses",
@@ -10927,6 +11886,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "editWidgetSetOptions",
           "normalized": "EditWidget-\u003eEditWidgetOptions-\u003eEditWidget",
@@ -10942,6 +11902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_content",
           "package": "hscurses",
@@ -10951,6 +11912,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_content",
           "package": "hscurses",
@@ -10963,6 +11925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_contentPos",
           "package": "hscurses",
@@ -10972,6 +11935,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_contentPos",
           "normalized": "EditWidget-\u003eInt",
@@ -10987,6 +11951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_history",
           "package": "hscurses",
@@ -10996,6 +11961,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_history",
           "normalized": "[String]",
@@ -11010,6 +11976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_historyIndex",
           "package": "hscurses",
@@ -11019,6 +11986,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_historyIndex",
           "package": "hscurses",
@@ -11032,6 +12000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_historySavedContent",
           "package": "hscurses",
@@ -11041,6 +12010,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_historySavedContent",
           "package": "hscurses",
@@ -11054,6 +12024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_options",
           "package": "hscurses",
@@ -11063,6 +12034,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_options",
           "package": "hscurses",
@@ -11075,6 +12047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_xcursor",
           "package": "hscurses",
@@ -11084,6 +12057,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_xcursor",
           "package": "hscurses",
@@ -11096,6 +12070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_xoffset",
           "package": "hscurses",
@@ -11105,6 +12080,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ew_xoffset",
           "package": "hscurses",
@@ -11117,6 +12093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ewopt_keyHandlers",
           "package": "hscurses",
@@ -11126,6 +12103,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ewopt_keyHandlers",
           "normalized": "[(Key,KeyHandler EditWidget)]",
@@ -11141,6 +12119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ewopt_minWidth",
           "package": "hscurses",
@@ -11150,6 +12129,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ewopt_minWidth",
           "package": "hscurses",
@@ -11163,6 +12143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "ewopt_style",
           "package": "hscurses",
@@ -11172,6 +12153,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "ewopt_style",
           "package": "hscurses",
@@ -11184,6 +12166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "findFirstActiveCell",
           "package": "hscurses",
@@ -11193,6 +12176,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "findFirstActiveCell",
           "normalized": "[Row]-\u003eTableWidgetOptions-\u003eMaybe Pos",
@@ -11208,6 +12192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "findNextActiveCell",
           "package": "hscurses",
@@ -11217,6 +12202,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "findNextActiveCell",
           "normalized": "TableWidgetOptions-\u003eInt-\u003ePos-\u003eDirection-\u003eMaybe Pos",
@@ -11232,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "getCellInfo",
           "package": "hscurses",
@@ -11241,6 +12228,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "getCellInfo",
           "normalized": "Pos-\u003eSize-\u003eTableWidget-\u003e(Int,Int)-\u003e(Pos,Size)",
@@ -11256,6 +12244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "getCellWidget",
           "package": "hscurses",
@@ -11265,6 +12254,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "getCellWidget",
           "normalized": "TableWidget-\u003e(Int,Int)-\u003eTableCell",
@@ -11280,6 +12270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "getHeight",
           "package": "hscurses",
@@ -11289,6 +12280,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "getHeight",
           "normalized": "Size-\u003eInt",
@@ -11304,6 +12296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "getWidth",
           "package": "hscurses",
@@ -11313,6 +12306,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "getWidth",
           "normalized": "Size-\u003eInt",
@@ -11328,6 +12322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "getXOffset",
           "package": "hscurses",
@@ -11337,6 +12332,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "getXOffset",
           "normalized": "Offset-\u003eInt",
@@ -11352,6 +12348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "getXPos",
           "package": "hscurses",
@@ -11361,6 +12358,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "getXPos",
           "normalized": "Pos-\u003eInt",
@@ -11376,6 +12374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "getYOffset",
           "package": "hscurses",
@@ -11385,6 +12384,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "getYOffset",
           "normalized": "Offset-\u003eInt",
@@ -11400,6 +12400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "getYPos",
           "package": "hscurses",
@@ -11409,6 +12410,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "getYPos",
           "normalized": "Pos-\u003eInt",
@@ -11424,6 +12426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "isActive",
           "package": "hscurses",
@@ -11433,6 +12436,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "isActive",
           "normalized": "TableCell-\u003eBool",
@@ -11449,6 +12453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin a list by some delimiter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "joinLists",
           "package": "hscurses",
@@ -11459,6 +12464,7 @@
         "index": {
           "description": "Join list by some delimiter",
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "joinLists",
           "normalized": "[[a]]-\u003e[a]-\u003e[a]",
@@ -11474,6 +12480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "listReplace",
           "package": "hscurses",
@@ -11483,6 +12490,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "listReplace",
           "normalized": "[a]-\u003ea-\u003eInt-\u003e[a]",
@@ -11498,6 +12506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "maxHistoryLength",
           "package": "hscurses",
@@ -11507,6 +12516,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "maxHistoryLength",
           "package": "hscurses",
@@ -11520,6 +12530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "minSize",
           "package": "hscurses",
@@ -11529,6 +12540,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "minSize",
           "normalized": "a-\u003eSize",
@@ -11544,6 +12556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "mkDrawingStyle",
           "package": "hscurses",
@@ -11553,6 +12566,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "mkDrawingStyle",
           "normalized": "CursesStyle-\u003eDrawingStyle",
@@ -11568,6 +12582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "mkKeyHandler",
           "package": "hscurses",
@@ -11577,6 +12592,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "mkKeyHandler",
           "normalized": "(Pos-\u003eSize-\u003ea-\u003ea)-\u003eKeyHandler a",
@@ -11592,6 +12608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "newEditWidget",
           "package": "hscurses",
@@ -11601,6 +12618,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "newEditWidget",
           "normalized": "EditWidgetOptions-\u003eString-\u003eEditWidget",
@@ -11616,6 +12634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "newTableWidget",
           "package": "hscurses",
@@ -11625,6 +12644,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "newTableWidget",
           "normalized": "TableWidgetOptions-\u003e[Row]-\u003eTableWidget",
@@ -11640,6 +12660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "newTextWidget",
           "package": "hscurses",
@@ -11649,6 +12670,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "newTextWidget",
           "normalized": "TextWidgetOptions-\u003eString-\u003eTextWidget",
@@ -11664,6 +12686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "scrollBackward",
           "package": "hscurses",
@@ -11673,6 +12696,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "scrollBackward",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt",
@@ -11688,6 +12712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "scrollBy",
           "package": "hscurses",
@@ -11697,6 +12722,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "scrollBy",
           "normalized": "Int-\u003eInt",
@@ -11712,6 +12738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "scrollFactor",
           "package": "hscurses",
@@ -11721,6 +12748,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "scrollFactor",
           "package": "hscurses",
@@ -11734,6 +12762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "scrollForward",
           "package": "hscurses",
@@ -11743,6 +12772,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "scrollForward",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt",
@@ -11758,6 +12788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "setCellWidget",
           "package": "hscurses",
@@ -11767,6 +12798,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "setCellWidget",
           "normalized": "TableWidget-\u003e(Int,Int)-\u003eTableCell-\u003eTableWidget",
@@ -11782,6 +12814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "singletonRow",
           "package": "hscurses",
@@ -11791,6 +12824,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "singletonRow",
           "normalized": "TableCell-\u003eRow",
@@ -11807,6 +12841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a list by some delimiter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "splitList",
           "package": "hscurses",
@@ -11817,6 +12852,7 @@
         "index": {
           "description": "Split list by some delimiter",
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "splitList",
           "normalized": "[a]-\u003e[a]-\u003e[[a]]",
@@ -11832,6 +12868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetActivateCurrent",
           "package": "hscurses",
@@ -11841,6 +12878,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetActivateCurrent",
           "normalized": "a()-\u003ePos-\u003eSize-\u003eDrawingHint-\u003eTableWidget-\u003ea(TableWidget,Maybe String)",
@@ -11856,6 +12894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetDeleteRow",
           "package": "hscurses",
@@ -11865,6 +12904,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetDeleteRow",
           "normalized": "Int-\u003eTableWidget-\u003eTableWidget",
@@ -11880,6 +12920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetDisplayInfo",
           "package": "hscurses",
@@ -11889,6 +12930,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetDisplayInfo",
           "normalized": "Size-\u003eTableWidget-\u003eTableWidgetDisplayInfo",
@@ -11904,6 +12946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetGoDown",
           "package": "hscurses",
@@ -11913,6 +12956,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetGoDown",
           "normalized": "Size-\u003eTableWidget-\u003eTableWidget",
@@ -11928,6 +12972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetGoLeft",
           "package": "hscurses",
@@ -11937,6 +12982,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetGoLeft",
           "normalized": "Size-\u003eTableWidget-\u003eTableWidget",
@@ -11952,6 +12998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetGoRight",
           "package": "hscurses",
@@ -11961,6 +13008,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetGoRight",
           "normalized": "Size-\u003eTableWidget-\u003eTableWidget",
@@ -11976,6 +13024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetGoUp",
           "package": "hscurses",
@@ -11985,6 +13034,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetGoUp",
           "normalized": "Size-\u003eTableWidget-\u003eTableWidget",
@@ -12000,6 +13050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetMakeVisible",
           "package": "hscurses",
@@ -12009,6 +13060,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetMakeVisible",
           "normalized": "TableWidget-\u003e(Int,Int)-\u003eInt-\u003eTableWidget",
@@ -12024,6 +13076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetMove",
           "package": "hscurses",
@@ -12033,6 +13086,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetMove",
           "normalized": "Direction-\u003e(Int,Int)-\u003eTableWidget-\u003eTableWidget",
@@ -12048,6 +13102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetScrollDown",
           "package": "hscurses",
@@ -12057,6 +13112,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetScrollDown",
           "normalized": "Size-\u003eTableWidget-\u003eTableWidget",
@@ -12072,6 +13128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetScrollUp",
           "package": "hscurses",
@@ -12081,6 +13138,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tableWidgetScrollUp",
           "normalized": "Size-\u003eTableWidget-\u003eTableWidget",
@@ -12096,6 +13154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbw_colOffset",
           "package": "hscurses",
@@ -12105,6 +13164,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbw_colOffset",
           "package": "hscurses",
@@ -12118,6 +13178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbw_options",
           "package": "hscurses",
@@ -12127,6 +13188,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbw_options",
           "package": "hscurses",
@@ -12139,6 +13201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbw_pos",
           "package": "hscurses",
@@ -12148,6 +13211,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbw_pos",
           "package": "hscurses",
@@ -12160,6 +13224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbw_rows",
           "package": "hscurses",
@@ -12169,6 +13234,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbw_rows",
           "normalized": "[Row]",
@@ -12183,6 +13249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_firstVis",
           "package": "hscurses",
@@ -12192,6 +13259,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_firstVis",
           "package": "hscurses",
@@ -12205,6 +13273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_height",
           "package": "hscurses",
@@ -12214,6 +13283,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_height",
           "package": "hscurses",
@@ -12226,6 +13296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_heights",
           "package": "hscurses",
@@ -12235,6 +13306,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_heights",
           "normalized": "[Int]",
@@ -12249,6 +13321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_lastVis",
           "package": "hscurses",
@@ -12258,6 +13331,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_lastVis",
           "package": "hscurses",
@@ -12271,6 +13345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_nrows",
           "package": "hscurses",
@@ -12280,6 +13355,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_nrows",
           "package": "hscurses",
@@ -12292,6 +13368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_rightMargin",
           "package": "hscurses",
@@ -12301,6 +13378,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_rightMargin",
           "normalized": "Maybe(Int,Size)",
@@ -12316,6 +13394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_rows",
           "package": "hscurses",
@@ -12325,6 +13404,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_rows",
           "normalized": "[Row]",
@@ -12339,6 +13419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_width",
           "package": "hscurses",
@@ -12348,6 +13429,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_width",
           "package": "hscurses",
@@ -12360,6 +13442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_widths",
           "package": "hscurses",
@@ -12369,6 +13452,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwdisp_widths",
           "normalized": "[Int]",
@@ -12383,6 +13467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwopt_activeCols",
           "package": "hscurses",
@@ -12392,6 +13477,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwopt_activeCols",
           "normalized": "[Int]",
@@ -12407,6 +13493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwopt_fillCol",
           "package": "hscurses",
@@ -12416,6 +13503,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwopt_fillCol",
           "package": "hscurses",
@@ -12429,6 +13517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwopt_fillRow",
           "package": "hscurses",
@@ -12438,6 +13527,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwopt_fillRow",
           "package": "hscurses",
@@ -12451,6 +13541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwopt_minSize",
           "package": "hscurses",
@@ -12460,6 +13551,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tbwopt_minSize",
           "package": "hscurses",
@@ -12473,6 +13565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetGetText",
           "package": "hscurses",
@@ -12482,6 +13575,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetGetText",
           "normalized": "TextWidget-\u003eString",
@@ -12497,6 +13591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetScrollDown",
           "package": "hscurses",
@@ -12506,6 +13601,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetScrollDown",
           "normalized": "Size-\u003eTextWidget-\u003eTextWidget",
@@ -12521,6 +13617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetScrollLeft",
           "package": "hscurses",
@@ -12530,6 +13627,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetScrollLeft",
           "normalized": "Size-\u003eTextWidget-\u003eTextWidget",
@@ -12545,6 +13643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetScrollRight",
           "package": "hscurses",
@@ -12554,6 +13653,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetScrollRight",
           "normalized": "Size-\u003eTextWidget-\u003eTextWidget",
@@ -12569,6 +13669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetScrollUp",
           "package": "hscurses",
@@ -12578,6 +13679,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetScrollUp",
           "normalized": "Size-\u003eTextWidget-\u003eTextWidget",
@@ -12593,6 +13695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetSetText",
           "package": "hscurses",
@@ -12602,6 +13705,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "textWidgetSetText",
           "normalized": "TextWidget-\u003eString-\u003eTextWidget",
@@ -12617,6 +13721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tw_options",
           "package": "hscurses",
@@ -12626,6 +13731,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tw_options",
           "package": "hscurses",
@@ -12638,6 +13744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tw_text",
           "package": "hscurses",
@@ -12647,6 +13754,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tw_text",
           "package": "hscurses",
@@ -12659,6 +13767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tw_xoffset",
           "package": "hscurses",
@@ -12668,6 +13777,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tw_xoffset",
           "package": "hscurses",
@@ -12680,6 +13790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "tw_yoffset",
           "package": "hscurses",
@@ -12689,6 +13800,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "tw_yoffset",
           "package": "hscurses",
@@ -12701,6 +13813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "twopt_halign",
           "package": "hscurses",
@@ -12710,6 +13823,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "twopt_halign",
           "package": "hscurses",
@@ -12722,6 +13836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "twopt_size",
           "package": "hscurses",
@@ -12731,6 +13846,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "twopt_size",
           "package": "hscurses",
@@ -12743,6 +13859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:02 UTC 2014",
           "module": "UI.HSCurses.Widgets",
           "name": "twopt_style",
           "package": "hscurses",
@@ -12752,6 +13869,7 @@
         },
         "index": {
           "hierarchy": "UI HSCurses Widgets",
+          "indexed": "2014-03-11T18:48:02",
           "module": "UI.HSCurses.Widgets",
           "name": "twopt_style",
           "package": "hscurses",

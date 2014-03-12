@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "commodities"
+        "phrase": "commodities",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "Balance",
           "package": "commodities",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "Balance",
           "package": "commodities",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value representing either zero (all zeroes are equivalent), a\n commoditized value, or a vector space of values indexed by commodity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "Balance",
           "package": "commodities",
@@ -49,6 +52,7 @@
         "index": {
           "description": "value representing either zero all zeroes are equivalent commoditized value or vector space of values indexed by commodity",
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "Balance",
           "package": "commodities",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single commoditized amount\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "Amount",
           "package": "commodities",
@@ -73,6 +78,7 @@
         "index": {
           "description": "single commoditized amount",
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "Amount",
           "package": "commodities",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector-space over commodities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "Balance",
           "package": "commodities",
@@ -97,6 +104,7 @@
         "index": {
           "description": "vector-space over commodities",
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "Balance",
           "package": "commodities",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn uncommoditized integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "Plain",
           "package": "commodities",
@@ -121,6 +130,7 @@
         "index": {
           "description": "An uncommoditized integer",
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "Plain",
           "package": "commodities",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "Zero",
           "package": "commodities",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "Zero",
           "package": "commodities",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "balanceStore",
           "package": "commodities",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "balanceStore",
           "normalized": "Key a-\u003ea b-\u003eStore(Key a)b",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "balanceSum",
           "package": "commodities",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "balanceSum",
           "normalized": "[Balance a]-\u003eBalance a",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "delete",
           "package": "commodities",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "delete",
           "normalized": "Int-\u003eBalance a-\u003eBalance a",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "insert",
           "package": "commodities",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "insert",
           "normalized": "Int-\u003ea-\u003eBalance a-\u003eBalance a",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Balance",
           "name": "noCommodity",
           "package": "commodities",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Ledger Balance",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Balance",
           "name": "noCommodity",
           "package": "commodities",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.History",
           "name": "History",
           "package": "commodities",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity History",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.History",
           "name": "History",
           "package": "commodities",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a price conversion in the form of a ratio between two commodities at\n   a specific point in time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.History",
           "name": "addConversion",
           "package": "commodities",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Add price conversion in the form of ratio between two commodities at specific point in time",
           "hierarchy": "Ledger Commodity History",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.History",
           "name": "addConversion",
           "normalized": "Commodity-\u003eCommodity-\u003eUTCTime-\u003eRational-\u003eState CommodityMap()",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a price conversion from the source commodity to the target, using\n   data from the given time or earlier.  Result is Nothing if no conversion\n   can be found, or else the best conversion ratio plus the time of the\n   oldest link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.History",
           "name": "findConversion",
           "package": "commodities",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Lookup price conversion from the source commodity to the target using data from the given time or earlier Result is Nothing if no conversion can be found or else the best conversion ratio plus the time of the oldest link",
           "hierarchy": "Ledger Commodity History",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.History",
           "name": "findConversion",
           "normalized": "Commodity-\u003eCommodity-\u003eUTCTime-\u003eCommodityMap-\u003eMaybe(UTCTime,Rational)",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes an optimal (minimal distance) path through a graph\n   in a best-first fashion, starting from a given starting point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.History",
           "name": "intAStar",
           "package": "commodities",
@@ -354,6 +383,7 @@
         "index": {
           "description": "This function computes an optimal minimal distance path through graph in best-first fashion starting from given starting point",
           "hierarchy": "Ledger Commodity History",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.History",
           "name": "intAStar",
           "normalized": "(Key-\u003eIntMap a)-\u003e(Key-\u003ea)-\u003e(Key-\u003eBool)-\u003eKey-\u003eMaybe[Key]",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes an optimal (minimal distance) path through a graph\n in a best-first fashion, starting from a given starting point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.History",
           "name": "intAStarM",
           "package": "commodities",
@@ -379,6 +410,7 @@
         "index": {
           "description": "This function computes an optimal minimal distance path through graph in best-first fashion starting from given starting point",
           "hierarchy": "Ledger Commodity History",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.History",
           "name": "intAStarM",
           "normalized": "(Key-\u003ea(IntMap b))-\u003e(Key-\u003ea b)-\u003e(Key-\u003ea Bool)-\u003ea Key-\u003ea(Maybe[Key])",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.Parse",
           "name": "Parse",
           "package": "commodities",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity Parse",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.Parse",
           "name": "Parse",
           "package": "commodities",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.Parse",
           "name": "parseBalance",
           "package": "commodities",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity Parse",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.Parse",
           "name": "parseBalance",
           "normalized": "Text-\u003ea(Balance b)",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.Print",
           "name": "Print",
           "package": "commodities",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity Print",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.Print",
           "name": "Print",
           "package": "commodities",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.Print",
           "name": "balance",
           "package": "commodities",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity Print",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.Print",
           "name": "balance",
           "normalized": "CommodityMap-\u003eIso'(Balance a)Text",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity.Print",
           "name": "printBalance",
           "package": "commodities",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity Print",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity.Print",
           "name": "printBalance",
           "normalized": "Balance a-\u003eb Text",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "Commodity",
           "package": "commodities",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "Commodity",
           "package": "commodities",
@@ -529,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommodities are simply indices into a commodity info map, which relates\n   such commodities to the information known about them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "Commodity",
           "package": "commodities",
@@ -538,6 +583,7 @@
         "index": {
           "description": "Commodities are simply indices into commodity info map which relates such commodities to the information known about them",
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "Commodity",
           "package": "commodities",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the information known about a commodity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "CommodityInfo",
           "package": "commodities",
@@ -561,6 +608,7 @@
         "index": {
           "description": "All of the information known about commodity",
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "CommodityInfo",
           "package": "commodities",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA commodities map, relating commodity indices to information about\n   those commodities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "CommodityMap",
           "package": "commodities",
@@ -584,6 +633,7 @@
         "index": {
           "description": "commodities map relating commodity indices to information about those commodities",
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "CommodityMap",
           "package": "commodities",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "HasCommodityInfo",
           "package": "commodities",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "HasCommodityInfo",
           "package": "commodities",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "HasCommodityMap",
           "package": "commodities",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "HasCommodityMap",
           "package": "commodities",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "CommodityInfo",
           "package": "commodities",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "CommodityInfo",
           "package": "commodities",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "CommodityMap",
           "package": "commodities",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "CommodityMap",
           "package": "commodities",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commBuiltin",
           "package": "commodities",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commBuiltin",
           "package": "commodities",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commDecimalComma",
           "package": "commodities",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commDecimalComma",
           "package": "commodities",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commHistory",
           "package": "commodities",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commHistory",
           "package": "commodities",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commKnown",
           "package": "commodities",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commKnown",
           "package": "commodities",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commNoMarket",
           "package": "commodities",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commNoMarket",
           "package": "commodities",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commPrecision",
           "package": "commodities",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commPrecision",
           "package": "commodities",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commPrimary",
           "package": "commodities",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commPrimary",
           "package": "commodities",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commSeparated",
           "package": "commodities",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commSeparated",
           "package": "commodities",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commSuffixed",
           "package": "commodities",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commSuffixed",
           "package": "commodities",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commSymbol",
           "package": "commodities",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commSymbol",
           "package": "commodities",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commThousands",
           "package": "commodities",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commThousands",
           "package": "commodities",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "_commodities",
           "package": "commodities",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "_commodities",
           "package": "commodities",
@@ -946,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commBuiltin",
           "package": "commodities",
@@ -955,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commBuiltin",
           "package": "commodities",
@@ -968,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commDecimalComma",
           "package": "commodities",
@@ -977,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commDecimalComma",
           "package": "commodities",
@@ -990,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commHistory",
           "package": "commodities",
@@ -999,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commHistory",
           "package": "commodities",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commKnown",
           "package": "commodities",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commKnown",
           "package": "commodities",
@@ -1034,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commNoMarket",
           "package": "commodities",
@@ -1043,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commNoMarket",
           "package": "commodities",
@@ -1056,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commPrecision",
           "package": "commodities",
@@ -1065,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commPrecision",
           "package": "commodities",
@@ -1078,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commPrimary",
           "package": "commodities",
@@ -1087,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commPrimary",
           "package": "commodities",
@@ -1100,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commSeparated",
           "package": "commodities",
@@ -1109,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commSeparated",
           "package": "commodities",
@@ -1122,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commSuffixed",
           "package": "commodities",
@@ -1131,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commSuffixed",
           "package": "commodities",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commSymbol",
           "package": "commodities",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commSymbol",
           "package": "commodities",
@@ -1166,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commThousands",
           "package": "commodities",
@@ -1175,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commThousands",
           "package": "commodities",
@@ -1188,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commodities",
           "package": "commodities",
@@ -1197,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commodities",
           "package": "commodities",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commodityInfo",
           "package": "commodities",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commodityInfo",
           "package": "commodities",
@@ -1231,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "commodityMap",
           "package": "commodities",
@@ -1240,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "commodityMap",
           "package": "commodities",
@@ -1254,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eCommodityInfo\u003c/a\u003e\u003c/code\u003e with defaults selected for all fields.  It is\n   intended that at least one field of the result will be modified\n   immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "defaultCommodityInfo",
           "package": "commodities",
@@ -1264,6 +1375,7 @@
         "index": {
           "description": "Return CommodityInfo with defaults selected for all fields It is intended that at least one field of the result will be modified immediately",
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "defaultCommodityInfo",
           "package": "commodities",
@@ -1277,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:34 UTC 2014",
           "module": "Ledger.Commodity",
           "name": "extendByDigits",
           "package": "commodities",
@@ -1286,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Ledger Commodity",
+          "indexed": "2014-03-11T17:36:34",
           "module": "Ledger.Commodity",
           "name": "extendByDigits",
           "package": "commodities",

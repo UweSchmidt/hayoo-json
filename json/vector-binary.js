@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-binary"
+        "phrase": "vector-binary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:00 UTC 2014",
           "module": "Data.Vector.Binary",
           "name": "Binary",
           "package": "vector-binary",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Binary",
+          "indexed": "2014-03-11T20:34:00",
           "module": "Data.Vector.Binary",
           "name": "Binary",
           "package": "vector-binary",

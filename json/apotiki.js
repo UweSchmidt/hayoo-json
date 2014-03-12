@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "apotiki"
+        "phrase": "apotiki",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "Ar",
           "package": "apotiki",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "Ar",
           "package": "apotiki",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "ArEntry",
           "package": "apotiki",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "ArEntry",
           "package": "apotiki",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "ArEntry",
           "package": "apotiki",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "ArEntry",
           "package": "apotiki",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "arFromData",
           "package": "apotiki",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "arFromData",
           "normalized": "ByteString-\u003eEither String ArMap",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "arFromFile",
           "package": "apotiki",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "arFromFile",
           "normalized": "String-\u003eIO(Either String ArMap)",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "entryData",
           "package": "apotiki",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "entryData",
           "package": "apotiki",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "entryDate",
           "package": "apotiki",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "entryDate",
           "package": "apotiki",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "entryGid",
           "package": "apotiki",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "entryGid",
           "package": "apotiki",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "entryMode",
           "package": "apotiki",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "entryMode",
           "package": "apotiki",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "entrySize",
           "package": "apotiki",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "entrySize",
           "package": "apotiki",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Ar",
           "name": "entryUid",
           "package": "apotiki",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Ar",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Ar",
           "name": "entryUid",
           "package": "apotiki",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Package",
           "name": "Package",
           "package": "apotiki",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Package",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Package",
           "name": "Package",
           "package": "apotiki",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Package",
           "name": "debInfo",
           "package": "apotiki",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Package",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Package",
           "name": "debInfo",
           "normalized": "ApotikiConfig-\u003eByteString-\u003eDebInfo",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Package",
           "name": "toDebInfo",
           "package": "apotiki",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Package",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Package",
           "name": "toDebInfo",
           "normalized": "String-\u003eDebInfo",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Package",
           "name": "writeToPool",
           "package": "apotiki",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Package",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Package",
           "name": "writeToPool",
           "normalized": "String-\u003e(DebInfo,ByteString)-\u003eIO()",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "Release",
           "package": "apotiki",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "Release",
           "package": "apotiki",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "ArchRelease",
           "package": "apotiki",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "ArchRelease",
           "package": "apotiki",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "Release",
           "package": "apotiki",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "Release",
           "package": "apotiki",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "archRelease",
           "package": "apotiki",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "archRelease",
           "normalized": "[Char]-\u003e[Char]-\u003eIO(Map[Char]DebInfo)",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "flatinfo",
           "package": "apotiki",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "flatinfo",
           "normalized": "Map[Char]a-\u003e[a]",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "getPkg",
           "package": "apotiki",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "getPkg",
           "normalized": "ApotikiConfig-\u003e(String,ArchRelease)-\u003e(String,ByteString)",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "loadRelease",
           "package": "apotiki",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "loadRelease",
           "normalized": "String-\u003eIO Release",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "md5info",
           "package": "apotiki",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "md5info",
           "normalized": "([Char],[[Char]])-\u003e[Char]",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "mergeRelease",
           "package": "apotiki",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "mergeRelease",
           "normalized": "Map a(Map a b)-\u003eMap a(Map a b)-\u003ea-\u003eMap a b",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "pkgControl",
           "package": "apotiki",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "pkgControl",
           "normalized": "[Char]-\u003e[Char]-\u003e[Char]-\u003eIO DebInfo",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseByArch",
           "package": "apotiki",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseByArch",
           "normalized": "[[Char]]-\u003eMap[Char][Char]-\u003e[([Char],Map[Char][Char])]",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseDescr",
           "package": "apotiki",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseDescr",
           "normalized": "(a,Map[Char]a)-\u003e(a,Map[Char]a)",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseFrom",
           "package": "apotiki",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseFrom",
           "normalized": "[[Char]]-\u003e[Map[Char][Char]]-\u003eMap[Char](Map[Char](Map[Char][Char]))",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseJSON",
           "package": "apotiki",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseJSON",
           "normalized": "String-\u003eIO Release",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseMap",
           "package": "apotiki",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseMap",
           "normalized": "[(a,Map[Char]b)]-\u003e(a,Map b(Map[Char]b))",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseMkDir",
           "package": "apotiki",
@@ -713,6 +774,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseMkDir",
           "normalized": "[Char]-\u003e[Char]-\u003e[Char]-\u003e[Char]-\u003eIO()",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseMkDirs",
           "package": "apotiki",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "releaseMkDirs",
           "normalized": "ApotikiConfig-\u003eIO()",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "same_arch",
           "package": "apotiki",
@@ -761,6 +826,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "same_arch",
           "normalized": "(a,b)-\u003e(a,b)-\u003eBool",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "sha1info",
           "package": "apotiki",
@@ -784,6 +851,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "sha1info",
           "normalized": "([Char],[[Char]])-\u003e[Char]",
@@ -798,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "sha256info",
           "package": "apotiki",
@@ -807,6 +876,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "sha256info",
           "normalized": "([Char],[[Char]])-\u003e[Char]",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "unroll",
           "package": "apotiki",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "unroll",
           "normalized": "[DebInfo]-\u003eString",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "unrollEntry",
           "package": "apotiki",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "unrollEntry",
           "normalized": "([Char],[Char])-\u003e[Char]",
@@ -868,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "unrollMap",
           "package": "apotiki",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "unrollMap",
           "normalized": "Map[Char][Char]-\u003e[Char]",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "updateRelease",
           "package": "apotiki",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "updateRelease",
           "normalized": "[a]-\u003eMap a(Map a b)-\u003eMap a(Map a b)-\u003eMap a(Map a b)",
@@ -916,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "writeArchRelease",
           "package": "apotiki",
@@ -925,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "writeArchRelease",
           "normalized": "ApotikiConfig-\u003e(String,ArchRelease)-\u003eIO(String,[String])",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "writeGlobalRelease",
           "package": "apotiki",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "writeGlobalRelease",
           "normalized": "ApotikiConfig-\u003e[(String,[String])]-\u003eIO()",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "writeGzPackages",
           "package": "apotiki",
@@ -973,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "writeGzPackages",
           "normalized": "ApotikiConfig-\u003e(String,ByteString)-\u003eIO(String,[String])",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "writePackages",
           "package": "apotiki",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "writePackages",
           "normalized": "ApotikiConfig-\u003e(String,ByteString)-\u003eIO(String,[String])",
@@ -1012,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:38 UTC 2014",
           "module": "System.Apotiki.Debian.Release",
           "name": "writeRelease",
           "package": "apotiki",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "System Apotiki Debian Release",
+          "indexed": "2014-03-11T17:11:38",
           "module": "System.Apotiki.Debian.Release",
           "name": "writeRelease",
           "normalized": "ApotikiConfig-\u003eRelease-\u003eIO()",

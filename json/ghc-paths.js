@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-paths"
+        "phrase": "ghc-paths",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:22 UTC 2014",
           "module": "GHC.Paths",
           "name": "Paths",
           "package": "ghc-paths",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "GHC Paths",
+          "indexed": "2014-03-11T18:16:22",
           "module": "GHC.Paths",
           "name": "Paths",
           "package": "ghc-paths",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:22 UTC 2014",
           "module": "GHC.Paths",
           "name": "docdir",
           "package": "ghc-paths",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "GHC Paths",
+          "indexed": "2014-03-11T18:16:22",
           "module": "GHC.Paths",
           "name": "docdir",
           "package": "ghc-paths",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:22 UTC 2014",
           "module": "GHC.Paths",
           "name": "ghc",
           "package": "ghc-paths",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "GHC Paths",
+          "indexed": "2014-03-11T18:16:22",
           "module": "GHC.Paths",
           "name": "ghc",
           "package": "ghc-paths",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:22 UTC 2014",
           "module": "GHC.Paths",
           "name": "ghc_pkg",
           "package": "ghc-paths",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "GHC Paths",
+          "indexed": "2014-03-11T18:16:22",
           "module": "GHC.Paths",
           "name": "ghc_pkg",
           "package": "ghc-paths",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:22 UTC 2014",
           "module": "GHC.Paths",
           "name": "libdir",
           "package": "ghc-paths",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "GHC Paths",
+          "indexed": "2014-03-11T18:16:22",
           "module": "GHC.Paths",
           "name": "libdir",
           "package": "ghc-paths",

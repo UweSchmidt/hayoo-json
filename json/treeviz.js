@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "treeviz"
+        "phrase": "treeviz",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Newtypes.PrettyDouble",
           "name": "PrettyDouble",
           "package": "treeviz",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Newtypes PrettyDouble",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Newtypes.PrettyDouble",
           "name": "PrettyDouble",
           "package": "treeviz",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Newtypes.PrettyDouble",
           "name": "PrettyDouble",
           "package": "treeviz",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Newtypes PrettyDouble",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Newtypes.PrettyDouble",
           "name": "PrettyDouble",
           "package": "treeviz",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Newtypes.PrettyDouble",
           "name": "PrettyDouble",
           "package": "treeviz",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Newtypes PrettyDouble",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Newtypes.PrettyDouble",
           "name": "PrettyDouble",
           "package": "treeviz",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Newtypes.PrettyDouble",
           "name": "uglyDouble",
           "package": "treeviz",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Newtypes PrettyDouble",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Newtypes.PrettyDouble",
           "name": "uglyDouble",
           "package": "treeviz",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "LogTree",
           "package": "treeviz",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "LogTree",
           "package": "treeviz",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTree builder\n\u003c/p\u003e\u003cp\u003eExample:\n   tree  = buildTree newFFTTree tData\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "buildTree",
           "package": "treeviz",
@@ -136,6 +147,7 @@
         "index": {
           "description": "Tree builder Example tree buildTree newFFTTree tData",
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "buildTree",
           "normalized": "TreeData a-\u003eEither String b",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "coProd",
           "package": "treeviz",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "coProd",
           "normalized": "[a]-\u003eb-\u003e([a],b)",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a GenericLogTree to a GraphViz dot diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "dotLogTree",
           "package": "treeviz",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Converts GenericLogTree to GraphViz dot diagram",
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "dotLogTree",
           "normalized": "Either String a-\u003e(String,String)",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "getEval",
           "package": "treeviz",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "getEval",
           "normalized": "Either a(GenericLogTree b)-\u003e[b]",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "getFlatten",
           "package": "treeviz",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "getFlatten",
           "normalized": "Either a(Tree b)-\u003e[b]",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "getLevels",
           "package": "treeviz",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "getLevels",
           "normalized": "Either a(Tree b)-\u003e[[b]]",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "modes",
           "package": "treeviz",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "modes",
           "normalized": "TreeData a-\u003e[(Int,Bool)]",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a tree builder suitable for constructing Fast Fourier Transform\n   (FFT) decomposition trees of arbitrary radices and either decimation\n   style (i.e. - DIT or DIF).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "newFFTTree",
           "package": "treeviz",
@@ -307,6 +332,7 @@
         "index": {
           "description": "Returns tree builder suitable for constructing Fast Fourier Transform FFT decomposition trees of arbitrary radices and either decimation style i.e DIT or DIF",
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "newFFTTree",
           "package": "treeviz",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a data structure suitable for passing to a tree constructor.\n\u003c/p\u003e\u003cp\u003eExample:\n    tData = newTreeData [(2, False), (2, False)] [1.0, 0.0, 0.0, 0.0]\n\u003c/p\u003e\u003cp\u003eNote) For now, all booleans in the list should contain\n      the same value, either True or False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "newTreeData",
           "package": "treeviz",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Build data structure suitable for passing to tree constructor Example tData newTreeData False False Note For now all booleans in the list should contain the same value either True or False",
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "newTreeData",
           "normalized": "[(Int,Bool)]-\u003e[a]-\u003eTreeData a",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:28 UTC 2014",
           "module": "Data.Tree.LogTree",
           "name": "values",
           "package": "treeviz",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data Tree LogTree",
+          "indexed": "2014-03-11T20:25:28",
           "module": "Data.Tree.LogTree",
           "name": "values",
           "normalized": "TreeData a-\u003e[a]",

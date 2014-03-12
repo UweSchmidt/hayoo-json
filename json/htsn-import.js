@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "htsn-import"
+        "phrase": "htsn-import",
+        "type": "phrase"
       },
       "type": "context"
     }

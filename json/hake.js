@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hake"
+        "phrase": "hake",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSet",
           "name": "FunSet",
           "package": "hake",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSet",
           "name": "FunSet",
           "package": "hake",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSet",
           "name": "file",
           "package": "hake",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSet",
           "name": "file",
           "normalized": "[String]-\u003e[String]-\u003e(String-\u003e[String]-\u003e[String])-\u003eRule",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSet",
           "name": "rule",
           "package": "hake",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSet",
           "name": "rule",
           "normalized": "String-\u003eString-\u003e(String-\u003e[String]-\u003e[String])-\u003eRule",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSet",
           "name": "ruleSS",
           "package": "hake",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSet",
           "name": "ruleSS",
           "normalized": "String-\u003eString-\u003e(String-\u003e[String]-\u003e[(String,[String])])-\u003eRule",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSet",
           "name": "ruleV",
           "package": "hake",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSet",
           "name": "ruleV",
           "normalized": "String-\u003e[String]-\u003e[String]-\u003e(String-\u003e[String]-\u003e[String])-\u003eRule",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSet",
           "name": "task",
           "package": "hake",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSet",
           "name": "task",
           "normalized": "String-\u003e[String]-\u003eRule",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetIO",
           "name": "FunSetIO",
           "package": "hake",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetIO",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetIO",
           "name": "FunSetIO",
           "package": "hake",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetIO",
           "name": "file",
           "package": "hake",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetIO",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetIO",
           "name": "file",
           "normalized": "[String]-\u003e[String]-\u003e(String-\u003e[String]-\u003eIO ExitCode)-\u003eRule",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetIO",
           "name": "orDie",
           "package": "hake",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetIO",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetIO",
           "name": "orDie",
           "normalized": "a ExitCode-\u003e(ExitCode-\u003eString)-\u003ea()",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetIO",
           "name": "rule",
           "package": "hake",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetIO",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetIO",
           "name": "rule",
           "normalized": "String-\u003eString-\u003e(String-\u003e[String]-\u003eIO ExitCode)-\u003eRule",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetIO",
           "name": "ruleSS",
           "package": "hake",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetIO",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetIO",
           "name": "ruleSS",
           "normalized": "String-\u003eString-\u003e(String-\u003e[String]-\u003e[(String,IO ExitCode)])-\u003eRule",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetIO",
           "name": "ruleV",
           "package": "hake",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetIO",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetIO",
           "name": "ruleV",
           "normalized": "String-\u003e[String]-\u003e[String]-\u003e(String-\u003e[String]-\u003eIO ExitCode)-\u003eRule",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetIO",
           "name": "task",
           "package": "hake",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetIO",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetIO",
           "name": "task",
           "normalized": "String-\u003eIO ExitCode-\u003eRule",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetRaw",
           "name": "FunSetRaw",
           "package": "hake",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetRaw",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetRaw",
           "name": "FunSetRaw",
           "package": "hake",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetRaw",
           "name": "file",
           "package": "hake",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetRaw",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetRaw",
           "name": "file",
           "normalized": "[String]-\u003e[String]-\u003e(String-\u003e[String]-\u003e[[String]])-\u003eRule",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetRaw",
           "name": "rule",
           "package": "hake",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetRaw",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetRaw",
           "name": "rule",
           "normalized": "String-\u003eString-\u003e(String-\u003e[String]-\u003e[[String]])-\u003eRule",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetRaw",
           "name": "ruleSS",
           "package": "hake",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetRaw",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetRaw",
           "name": "ruleSS",
           "normalized": "String-\u003eString-\u003e(String-\u003e[String]-\u003e[(String,[[String]])])-\u003eRule",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetRaw",
           "name": "ruleV",
           "package": "hake",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetRaw",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetRaw",
           "name": "ruleV",
           "normalized": "String-\u003e[String]-\u003e[String]-\u003e(String-\u003e[String]-\u003e[[String]])-\u003eRule",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.FunSetRaw",
           "name": "task",
           "package": "hake",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Development Hake FunSetRaw",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.FunSetRaw",
           "name": "task",
           "normalized": "String-\u003e[[String]]-\u003eRule",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.OldFunSet",
           "name": "OldFunSet",
           "package": "hake",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Development Hake OldFunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.OldFunSet",
           "name": "OldFunSet",
           "package": "hake",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.OldFunSet",
           "name": "file",
           "package": "hake",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Development Hake OldFunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.OldFunSet",
           "name": "file",
           "normalized": "([String],[String],[String])-\u003eRule",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.OldFunSet",
           "name": "rule",
           "package": "hake",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Development Hake OldFunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.OldFunSet",
           "name": "rule",
           "normalized": "(String,String,String-\u003eString-\u003e[String])-\u003eRule",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.OldFunSet",
           "name": "ruleSS",
           "package": "hake",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Development Hake OldFunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.OldFunSet",
           "name": "ruleSS",
           "normalized": "(String,String,String-\u003eString-\u003e[(String,[String])])-\u003eRule",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake.OldFunSet",
           "name": "task",
           "package": "hake",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Development Hake OldFunSet",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake.OldFunSet",
           "name": "task",
           "normalized": "(String,[String])-\u003eRule",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "Hake",
           "package": "hake",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "Hake",
           "package": "hake",
@@ -589,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the exit codes that a program can return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "ExitCode",
           "package": "hake",
@@ -597,6 +648,7 @@
         "index": {
           "description": "Defines the exit codes that program can return",
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "ExitCode",
           "package": "hake",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "Rule",
           "package": "hake",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "Rule",
           "package": "hake",
@@ -632,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates program failure with an exit code.\n The exact interpretation of the code is\n operating-system dependent.  In particular, some values\n may be prohibited (e.g. 0 on a POSIX-compliant system).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "ExitFailure",
           "package": "hake",
@@ -641,6 +696,7 @@
         "index": {
           "description": "indicates program failure with an exit code The exact interpretation of the code is operating-system dependent In particular some values may be prohibited e.g on POSIX-compliant system",
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "ExitFailure",
           "package": "hake",
@@ -655,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates successful termination;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "ExitSuccess",
           "package": "hake",
@@ -664,6 +721,7 @@
         "index": {
           "description": "indicates successful termination",
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "ExitSuccess",
           "package": "hake",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "addDeps",
           "package": "hake",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "addDeps",
           "normalized": "[Rule]-\u003e[(FilePath,[FilePath])]-\u003e[Rule]",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "base",
           "package": "hake",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "base",
           "normalized": "Targets-\u003eSources-\u003e(String-\u003e[String]-\u003eMadeFromList-\u003eBool-\u003eIO ExitCode)-\u003eRule",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "changeSuffix",
           "package": "hake",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "changeSuffix",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "const2",
           "package": "hake",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "const2",
           "normalized": "a-\u003eb-\u003ec-\u003ea",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "delRules",
           "package": "hake",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "delRules",
           "normalized": "[Rule]-\u003e[(FilePath,[FilePath])]-\u003e[Rule]",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "deps",
           "package": "hake",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "deps",
           "normalized": "[String]-\u003e[String]-\u003eRule",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "dflt",
           "package": "hake",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "dflt",
           "normalized": "[String]-\u003eRule",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "getNewers",
           "package": "hake",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "getNewers",
           "normalized": "FilePath-\u003e[FilePath]-\u003eIO[FilePath]",
@@ -864,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "getVals",
           "package": "hake",
@@ -873,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "getVals",
           "normalized": "String-\u003e[String]-\u003e[String]",
@@ -889,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ehake\u003c/a\u003e\u003c/code\u003e function take rules as argument and get target from command line\n  and make target.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "hake",
           "package": "hake",
@@ -899,6 +976,7 @@
         "index": {
           "description": "The hake function take rules as argument and get target from command line and make target",
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "hake",
           "normalized": "[Rule]-\u003eIO()",
@@ -913,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "hakeT",
           "package": "hake",
@@ -922,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "hakeT",
           "normalized": "[Rule]-\u003eFilePath-\u003eIO()",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "hakefileIs",
           "package": "hake",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "hakefileIs",
           "normalized": "FilePath-\u003e[FilePath]-\u003eIO ExitCode",
@@ -961,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eisSuffixOf\u003c/a\u003e\u003c/code\u003e function takes two lists and returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n iff the first list is a suffix of the second.\n Both lists must be finite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "isSuffixOf",
           "package": "hake",
@@ -970,6 +1053,7 @@
         "index": {
           "description": "The isSuffixOf function takes two lists and returns True iff the first list is suffix of the second Both lists must be finite",
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "isSuffixOf",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -985,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "mkfl",
           "package": "hake",
@@ -994,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "mkfl",
           "normalized": "String-\u003e[String]-\u003eRule",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "rawSystemE",
           "package": "hake",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "rawSystemE",
           "normalized": "[String]-\u003ea ExitCode",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "setCmd",
           "package": "hake",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "setCmd",
           "normalized": "Rule-\u003e(String-\u003e[String]-\u003eMadeFromList-\u003eIO ExitCode)-\u003eRule",
@@ -1056,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:57 UTC 2014",
           "module": "Development.Hake",
           "name": "systemE",
           "package": "hake",
@@ -1065,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Development Hake",
+          "indexed": "2014-03-11T18:26:57",
           "module": "Development.Hake",
           "name": "systemE",
           "normalized": "String-\u003ea ExitCode",

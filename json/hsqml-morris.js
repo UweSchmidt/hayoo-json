@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsqml-morris"
+        "phrase": "hsqml-morris",
+        "type": "phrase"
       },
       "type": "context"
     }

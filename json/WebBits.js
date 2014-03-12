@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WebBits"
+        "phrase": "WebBits",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "Environment",
           "package": "WebBits",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Environment",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "Environment",
           "package": "WebBits",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe statically-determinate lexical structure of a JavaScript program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "EnvTree",
           "package": "WebBits",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The statically-determinate lexical structure of JavaScript program",
           "hierarchy": "BrownPLT JavaScript Environment",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "EnvTree",
           "package": "WebBits",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "EnvTree",
           "package": "WebBits",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Environment",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "EnvTree",
           "normalized": "EnvTree(Map String SourcePos)[EnvTree]",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "env",
           "package": "WebBits",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Environment",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "env",
           "normalized": "Map String SourcePos-\u003e[Statement SourcePos]-\u003e(EnvTree,Map String SourcePos)",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "localVars",
           "package": "WebBits",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Environment",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Environment",
           "name": "localVars",
           "normalized": "[Statement SourcePos]-\u003e[(String,SourcePos)]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "Lexer",
           "package": "WebBits",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "Lexer",
           "package": "WebBits",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "braces",
           "package": "WebBits",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "braces",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "brackets",
           "package": "WebBits",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "brackets",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "charLiteral",
           "package": "WebBits",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "charLiteral",
           "package": "WebBits",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "colon",
           "package": "WebBits",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "colon",
           "package": "WebBits",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "comma",
           "package": "WebBits",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "comma",
           "package": "WebBits",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "decimal",
           "package": "WebBits",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "decimal",
           "package": "WebBits",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "dot",
           "package": "WebBits",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "dot",
           "package": "WebBits",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "float",
           "package": "WebBits",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "float",
           "package": "WebBits",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "hexadecimal",
           "package": "WebBits",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "hexadecimal",
           "package": "WebBits",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "identifier",
           "package": "WebBits",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "identifier",
           "package": "WebBits",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "identifierStart",
           "package": "WebBits",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "identifierStart",
           "normalized": "ParsecT[Char]a Identity Char",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "integer",
           "package": "WebBits",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "integer",
           "package": "WebBits",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "lexeme",
           "package": "WebBits",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "lexeme",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "natural",
           "package": "WebBits",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "natural",
           "package": "WebBits",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "naturalOrFloat",
           "package": "WebBits",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "naturalOrFloat",
           "package": "WebBits",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "octal",
           "package": "WebBits",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "octal",
           "package": "WebBits",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "operator",
           "package": "WebBits",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "operator",
           "package": "WebBits",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "parens",
           "package": "WebBits",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "parens",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "reserved",
           "package": "WebBits",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "reserved",
           "normalized": "String-\u003eParsecT String a Identity()",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "reservedOp",
           "package": "WebBits",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "reservedOp",
           "normalized": "String-\u003eParsecT String a Identity()",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "semi",
           "package": "WebBits",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "semi",
           "package": "WebBits",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "squares",
           "package": "WebBits",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "squares",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "stringLiteral",
           "package": "WebBits",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "stringLiteral",
           "package": "WebBits",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "symbol",
           "package": "WebBits",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "symbol",
           "normalized": "String-\u003eParsecT String a Identity String",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "whiteSpace",
           "package": "WebBits",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Lexer",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Lexer",
           "name": "whiteSpace",
           "normalized": "ParsecT String a Identity()",
@@ -704,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "Parser",
           "package": "WebBits",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "Parser",
           "package": "WebBits",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "ExpressionParser",
           "package": "WebBits",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "ExpressionParser",
           "package": "WebBits",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "ParsedExpression",
           "package": "WebBits",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "ParsedExpression",
           "package": "WebBits",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "ParsedStatement",
           "package": "WebBits",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "ParsedStatement",
           "package": "WebBits",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "StatementParser",
           "package": "WebBits",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "StatementParser",
           "package": "WebBits",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "assignExpr",
           "package": "WebBits",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "assignExpr",
           "package": "WebBits",
@@ -831,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "emptyParsedJavaScript",
           "package": "WebBits",
@@ -840,6 +915,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "emptyParsedJavaScript",
           "package": "WebBits",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseBlockStmt",
           "package": "WebBits",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseBlockStmt",
           "package": "WebBits",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseExpression",
           "package": "WebBits",
@@ -884,6 +963,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseExpression",
           "package": "WebBits",
@@ -897,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseJavaScriptFromFile",
           "package": "WebBits",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseJavaScriptFromFile",
           "normalized": "String-\u003ea[Statement SourcePos]",
@@ -921,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseScript",
           "package": "WebBits",
@@ -930,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseScript",
           "package": "WebBits",
@@ -943,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseScriptFromString",
           "package": "WebBits",
@@ -952,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseScriptFromString",
           "normalized": "String-\u003eString-\u003eEither ParseError(JavaScript SourcePos)",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseSimpleExpr'",
           "package": "WebBits",
@@ -976,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseSimpleExpr'",
           "normalized": "ParsecT[Char]a Identity ParsedExpression",
@@ -991,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseStatement",
           "package": "WebBits",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseStatement",
           "package": "WebBits",
@@ -1013,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseString",
           "package": "WebBits",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Parser",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Parser",
           "name": "parseString",
           "normalized": "String-\u003e[Statement SourcePos]",
@@ -1038,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-printing JavaScript.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.PrettyPrint",
           "name": "PrettyPrint",
           "package": "WebBits",
@@ -1047,6 +1140,7 @@
         "index": {
           "description": "Pretty-printing JavaScript",
           "hierarchy": "BrownPLT JavaScript PrettyPrint",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.PrettyPrint",
           "name": "PrettyPrint",
           "package": "WebBits",
@@ -1060,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.PrettyPrint",
           "name": "expr",
           "package": "WebBits",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript PrettyPrint",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.PrettyPrint",
           "name": "expr",
           "normalized": "Expression a-\u003eDoc",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.PrettyPrint",
           "name": "javaScript",
           "package": "WebBits",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript PrettyPrint",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.PrettyPrint",
           "name": "javaScript",
           "normalized": "JavaScript a-\u003eDoc",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.PrettyPrint",
           "name": "stmt",
           "package": "WebBits",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript PrettyPrint",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.PrettyPrint",
           "name": "stmt",
           "normalized": "Statement a-\u003eDoc",
@@ -1181,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJavaScript's syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Syntax",
           "package": "WebBits",
@@ -1190,6 +1291,7 @@
         "index": {
           "description": "JavaScript syntax",
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Syntax",
           "package": "WebBits",
@@ -1203,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "AssignOp",
           "package": "WebBits",
@@ -1211,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "AssignOp",
           "package": "WebBits",
@@ -1224,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CaseClause",
           "package": "WebBits",
@@ -1232,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CaseClause",
           "package": "WebBits",
@@ -1245,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CatchClause",
           "package": "WebBits",
@@ -1253,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CatchClause",
           "package": "WebBits",
@@ -1266,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Expression",
           "package": "WebBits",
@@ -1274,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Expression",
           "package": "WebBits",
@@ -1287,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInInit",
           "package": "WebBits",
@@ -1295,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInInit",
           "package": "WebBits",
@@ -1308,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInit",
           "package": "WebBits",
@@ -1316,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInit",
           "package": "WebBits",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Id",
           "package": "WebBits",
@@ -1337,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Id",
           "package": "WebBits",
@@ -1350,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "InfixOp",
           "package": "WebBits",
@@ -1358,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "InfixOp",
           "package": "WebBits",
@@ -1371,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "JavaScript",
           "package": "WebBits",
@@ -1379,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "JavaScript",
           "package": "WebBits",
@@ -1392,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LValue",
           "package": "WebBits",
@@ -1400,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LValue",
           "package": "WebBits",
@@ -1413,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixOp",
           "package": "WebBits",
@@ -1421,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixOp",
           "package": "WebBits",
@@ -1434,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Prop",
           "package": "WebBits",
@@ -1442,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Prop",
           "package": "WebBits",
@@ -1455,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Statement",
           "package": "WebBits",
@@ -1463,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Statement",
           "package": "WebBits",
@@ -1476,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "UnaryAssignOp",
           "package": "WebBits",
@@ -1484,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "UnaryAssignOp",
           "package": "WebBits",
@@ -1497,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarDecl",
           "package": "WebBits",
@@ -1505,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarDecl",
           "package": "WebBits",
@@ -1518,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ArrayLit",
           "package": "WebBits",
@@ -1527,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ArrayLit",
           "normalized": "ArrayLit a[Expression a]",
@@ -1542,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "AssignExpr",
           "package": "WebBits",
@@ -1551,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "AssignExpr",
           "package": "WebBits",
@@ -1564,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "BlockStmt",
           "package": "WebBits",
@@ -1573,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "BlockStmt",
           "normalized": "BlockStmt a[Statement a]",
@@ -1588,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "BoolLit",
           "package": "WebBits",
@@ -1597,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "BoolLit",
           "package": "WebBits",
@@ -1610,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "BracketRef",
           "package": "WebBits",
@@ -1619,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "BracketRef",
           "package": "WebBits",
@@ -1632,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "BreakStmt",
           "package": "WebBits",
@@ -1641,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "BreakStmt",
           "package": "WebBits",
@@ -1654,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CallExpr",
           "package": "WebBits",
@@ -1663,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CallExpr",
           "normalized": "CallExpr a(Expression a)[Expression a]",
@@ -1678,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CaseClause",
           "package": "WebBits",
@@ -1687,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CaseClause",
           "normalized": "CaseClause a(Expression a)[Statement a]",
@@ -1702,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CaseDefault",
           "package": "WebBits",
@@ -1711,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CaseDefault",
           "normalized": "CaseDefault a[Statement a]",
@@ -1726,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CatchClause",
           "package": "WebBits",
@@ -1735,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CatchClause",
           "package": "WebBits",
@@ -1748,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CondExpr",
           "package": "WebBits",
@@ -1757,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "CondExpr",
           "package": "WebBits",
@@ -1770,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ContinueStmt",
           "package": "WebBits",
@@ -1779,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ContinueStmt",
           "package": "WebBits",
@@ -1792,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "DoWhileStmt",
           "package": "WebBits",
@@ -1801,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "DoWhileStmt",
           "package": "WebBits",
@@ -1814,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "DotRef",
           "package": "WebBits",
@@ -1823,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "DotRef",
           "package": "WebBits",
@@ -1836,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "EmptyStmt",
           "package": "WebBits",
@@ -1845,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "EmptyStmt",
           "package": "WebBits",
@@ -1858,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ExprInit",
           "package": "WebBits",
@@ -1867,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ExprInit",
           "package": "WebBits",
@@ -1880,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ExprStmt",
           "package": "WebBits",
@@ -1889,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ExprStmt",
           "package": "WebBits",
@@ -1902,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInNoVar",
           "package": "WebBits",
@@ -1911,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInNoVar",
           "package": "WebBits",
@@ -1924,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInStmt",
           "package": "WebBits",
@@ -1933,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInStmt",
           "package": "WebBits",
@@ -1946,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInVar",
           "package": "WebBits",
@@ -1955,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForInVar",
           "package": "WebBits",
@@ -1968,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForStmt",
           "package": "WebBits",
@@ -1977,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ForStmt",
           "package": "WebBits",
@@ -1990,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "FuncExpr",
           "package": "WebBits",
@@ -1999,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "FuncExpr",
           "normalized": "FuncExpr a(Maybe(Id a))[Id a](Statement a)",
@@ -2014,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "FunctionStmt",
           "package": "WebBits",
@@ -2023,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "FunctionStmt",
           "normalized": "FunctionStmt a(Id a)[Id a](Statement a)",
@@ -2038,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Id",
           "package": "WebBits",
@@ -2047,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Id",
           "package": "WebBits",
@@ -2060,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "IfSingleStmt",
           "package": "WebBits",
@@ -2069,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "IfSingleStmt",
           "package": "WebBits",
@@ -2082,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "IfStmt",
           "package": "WebBits",
@@ -2091,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "IfStmt",
           "package": "WebBits",
@@ -2104,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "InfixExpr",
           "package": "WebBits",
@@ -2113,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "InfixExpr",
           "package": "WebBits",
@@ -2126,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "IntLit",
           "package": "WebBits",
@@ -2135,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "IntLit",
           "package": "WebBits",
@@ -2148,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LBracket",
           "package": "WebBits",
@@ -2157,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LBracket",
           "package": "WebBits",
@@ -2170,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LDot",
           "package": "WebBits",
@@ -2179,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LDot",
           "package": "WebBits",
@@ -2192,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LVar",
           "package": "WebBits",
@@ -2201,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LVar",
           "package": "WebBits",
@@ -2214,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LabelledStmt",
           "package": "WebBits",
@@ -2223,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "LabelledStmt",
           "package": "WebBits",
@@ -2236,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ListExpr",
           "package": "WebBits",
@@ -2245,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ListExpr",
           "normalized": "ListExpr a[Expression a]",
@@ -2260,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "NewExpr",
           "package": "WebBits",
@@ -2269,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "NewExpr",
           "normalized": "NewExpr a(Expression a)[Expression a]",
@@ -2284,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "NoInit",
           "package": "WebBits",
@@ -2293,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "NoInit",
           "package": "WebBits",
@@ -2306,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "NullLit",
           "package": "WebBits",
@@ -2315,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "NullLit",
           "package": "WebBits",
@@ -2328,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "NumLit",
           "package": "WebBits",
@@ -2337,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "NumLit",
           "package": "WebBits",
@@ -2350,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ObjectLit",
           "package": "WebBits",
@@ -2359,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ObjectLit",
           "normalized": "ObjectLit a[(Prop a,Expression a)]",
@@ -2374,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAdd",
           "package": "WebBits",
@@ -2383,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAdd",
           "package": "WebBits",
@@ -2396,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssign",
           "package": "WebBits",
@@ -2405,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssign",
           "package": "WebBits",
@@ -2418,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignAdd",
           "package": "WebBits",
@@ -2427,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignAdd",
           "package": "WebBits",
@@ -2440,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignBAnd",
           "package": "WebBits",
@@ -2449,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignBAnd",
           "package": "WebBits",
@@ -2462,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignBOr",
           "package": "WebBits",
@@ -2471,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignBOr",
           "package": "WebBits",
@@ -2484,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignBXor",
           "package": "WebBits",
@@ -2493,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignBXor",
           "package": "WebBits",
@@ -2506,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignDiv",
           "package": "WebBits",
@@ -2515,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignDiv",
           "package": "WebBits",
@@ -2528,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignLShift",
           "package": "WebBits",
@@ -2537,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignLShift",
           "package": "WebBits",
@@ -2550,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignMod",
           "package": "WebBits",
@@ -2559,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignMod",
           "package": "WebBits",
@@ -2572,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignMul",
           "package": "WebBits",
@@ -2581,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignMul",
           "package": "WebBits",
@@ -2594,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignSpRShift",
           "package": "WebBits",
@@ -2603,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignSpRShift",
           "package": "WebBits",
@@ -2616,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignSub",
           "package": "WebBits",
@@ -2625,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignSub",
           "package": "WebBits",
@@ -2638,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignZfRShift",
           "package": "WebBits",
@@ -2647,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpAssignZfRShift",
           "package": "WebBits",
@@ -2660,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpBAnd",
           "package": "WebBits",
@@ -2669,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpBAnd",
           "package": "WebBits",
@@ -2682,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpBOr",
           "package": "WebBits",
@@ -2691,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpBOr",
           "package": "WebBits",
@@ -2704,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpBXor",
           "package": "WebBits",
@@ -2713,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpBXor",
           "package": "WebBits",
@@ -2726,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpDiv",
           "package": "WebBits",
@@ -2735,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpDiv",
           "package": "WebBits",
@@ -2748,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpEq",
           "package": "WebBits",
@@ -2757,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpEq",
           "package": "WebBits",
@@ -2770,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpGEq",
           "package": "WebBits",
@@ -2779,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpGEq",
           "package": "WebBits",
@@ -2792,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpGT",
           "package": "WebBits",
@@ -2801,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpGT",
           "package": "WebBits",
@@ -2814,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpIn",
           "package": "WebBits",
@@ -2823,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpIn",
           "package": "WebBits",
@@ -2836,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpInstanceof",
           "package": "WebBits",
@@ -2845,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpInstanceof",
           "package": "WebBits",
@@ -2858,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLAnd",
           "package": "WebBits",
@@ -2867,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLAnd",
           "package": "WebBits",
@@ -2880,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLEq",
           "package": "WebBits",
@@ -2889,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLEq",
           "package": "WebBits",
@@ -2902,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLOr",
           "package": "WebBits",
@@ -2911,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLOr",
           "package": "WebBits",
@@ -2924,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLShift",
           "package": "WebBits",
@@ -2933,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLShift",
           "package": "WebBits",
@@ -2946,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLT",
           "package": "WebBits",
@@ -2955,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpLT",
           "package": "WebBits",
@@ -2968,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpMod",
           "package": "WebBits",
@@ -2977,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpMod",
           "package": "WebBits",
@@ -2990,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpMul",
           "package": "WebBits",
@@ -2999,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpMul",
           "package": "WebBits",
@@ -3012,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpNEq",
           "package": "WebBits",
@@ -3021,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpNEq",
           "package": "WebBits",
@@ -3034,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpSpRShift",
           "package": "WebBits",
@@ -3043,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpSpRShift",
           "package": "WebBits",
@@ -3056,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpStrictEq",
           "package": "WebBits",
@@ -3065,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpStrictEq",
           "package": "WebBits",
@@ -3078,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpStrictNEq",
           "package": "WebBits",
@@ -3087,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpStrictNEq",
           "package": "WebBits",
@@ -3100,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpSub",
           "package": "WebBits",
@@ -3109,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpSub",
           "package": "WebBits",
@@ -3122,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpZfRShift",
           "package": "WebBits",
@@ -3131,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "OpZfRShift",
           "package": "WebBits",
@@ -3144,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ParenExpr",
           "package": "WebBits",
@@ -3153,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ParenExpr",
           "package": "WebBits",
@@ -3166,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PostfixDec",
           "package": "WebBits",
@@ -3175,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PostfixDec",
           "package": "WebBits",
@@ -3188,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PostfixInc",
           "package": "WebBits",
@@ -3197,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PostfixInc",
           "package": "WebBits",
@@ -3210,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixBNot",
           "package": "WebBits",
@@ -3219,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixBNot",
           "package": "WebBits",
@@ -3232,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixDec",
           "package": "WebBits",
@@ -3241,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixDec",
           "package": "WebBits",
@@ -3254,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixDelete",
           "package": "WebBits",
@@ -3263,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixDelete",
           "package": "WebBits",
@@ -3276,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixExpr",
           "package": "WebBits",
@@ -3285,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixExpr",
           "package": "WebBits",
@@ -3298,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixInc",
           "package": "WebBits",
@@ -3307,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixInc",
           "package": "WebBits",
@@ -3320,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixLNot",
           "package": "WebBits",
@@ -3329,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixLNot",
           "package": "WebBits",
@@ -3342,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixMinus",
           "package": "WebBits",
@@ -3351,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixMinus",
           "package": "WebBits",
@@ -3364,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixPlus",
           "package": "WebBits",
@@ -3373,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixPlus",
           "package": "WebBits",
@@ -3386,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixTypeof",
           "package": "WebBits",
@@ -3395,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixTypeof",
           "package": "WebBits",
@@ -3408,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixVoid",
           "package": "WebBits",
@@ -3417,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PrefixVoid",
           "package": "WebBits",
@@ -3430,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PropId",
           "package": "WebBits",
@@ -3439,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PropId",
           "package": "WebBits",
@@ -3452,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PropNum",
           "package": "WebBits",
@@ -3461,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PropNum",
           "package": "WebBits",
@@ -3474,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PropString",
           "package": "WebBits",
@@ -3483,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "PropString",
           "package": "WebBits",
@@ -3496,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "RegexpLit",
           "package": "WebBits",
@@ -3505,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "RegexpLit",
           "package": "WebBits",
@@ -3518,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ReturnStmt",
           "package": "WebBits",
@@ -3527,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ReturnStmt",
           "package": "WebBits",
@@ -3541,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA script in \u003ca\u003escript\u003c/a\u003e ... \u003ca\u003e/script\u003c/a\u003e tags.  This may seem a little silly,\n but the Flapjax analogue has an inline variant and attribute-inline \n variant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Script",
           "package": "WebBits",
@@ -3551,6 +3866,7 @@
         "index": {
           "description": "script in script script tags This may seem little silly but the Flapjax analogue has an inline variant and attribute-inline variant",
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "Script",
           "normalized": "Script a[Statement a]",
@@ -3566,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "StringLit",
           "package": "WebBits",
@@ -3575,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "StringLit",
           "package": "WebBits",
@@ -3588,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "SwitchStmt",
           "package": "WebBits",
@@ -3597,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "SwitchStmt",
           "normalized": "SwitchStmt a(Expression a)[CaseClause a]",
@@ -3612,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ThisRef",
           "package": "WebBits",
@@ -3621,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ThisRef",
           "package": "WebBits",
@@ -3634,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ThrowStmt",
           "package": "WebBits",
@@ -3643,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "ThrowStmt",
           "package": "WebBits",
@@ -3656,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "TryStmt",
           "package": "WebBits",
@@ -3665,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "TryStmt",
           "package": "WebBits",
@@ -3678,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "UnaryAssignExpr",
           "package": "WebBits",
@@ -3687,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "UnaryAssignExpr",
           "package": "WebBits",
@@ -3700,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarDecl",
           "package": "WebBits",
@@ -3709,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarDecl",
           "package": "WebBits",
@@ -3722,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarDeclStmt",
           "package": "WebBits",
@@ -3731,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarDeclStmt",
           "normalized": "VarDeclStmt a[VarDecl a]",
@@ -3746,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarInit",
           "package": "WebBits",
@@ -3755,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarInit",
           "normalized": "VarInit[VarDecl a]",
@@ -3770,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarRef",
           "package": "WebBits",
@@ -3779,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "VarRef",
           "package": "WebBits",
@@ -3792,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "WhileStmt",
           "package": "WebBits",
@@ -3801,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "WhileStmt",
           "package": "WebBits",
@@ -3814,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "WithStmt",
           "package": "WebBits",
@@ -3823,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "WithStmt",
           "package": "WebBits",
@@ -3836,6 +4176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "unId",
           "package": "WebBits",
@@ -3845,6 +4186,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Syntax",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript.Syntax",
           "name": "unId",
           "normalized": "Id a-\u003eString",
@@ -3861,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-exports commonly used modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:15 UTC 2014",
           "module": "BrownPLT.JavaScript",
           "name": "JavaScript",
           "package": "WebBits",
@@ -3870,6 +4213,7 @@
         "index": {
           "description": "Re-exports commonly used modules",
           "hierarchy": "BrownPLT JavaScript",
+          "indexed": "2014-03-11T17:04:15",
           "module": "BrownPLT.JavaScript",
           "name": "JavaScript",
           "package": "WebBits",

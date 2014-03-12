@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "algebraic-classes"
+        "phrase": "algebraic-classes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.Internal",
           "name": "Internal",
           "package": "algebraic-classes",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra Internal",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.Internal",
           "name": "Internal",
           "package": "algebraic-classes",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.Internal",
           "name": "Algebra",
           "package": "algebraic-classes",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra Internal",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.Internal",
           "name": "Algebra",
           "package": "algebraic-classes",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.Internal",
           "name": "AlgebraSignature",
           "package": "algebraic-classes",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra Internal",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.Internal",
           "name": "AlgebraSignature",
           "package": "algebraic-classes",
@@ -106,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn algebra \u003ccode\u003ef a -\u003e a\u003c/code\u003e corresponds to an instance of \u003ccode\u003ea\u003c/code\u003e of the class \u003ccode\u003eClass f\u003c/code\u003e.\n   In some cases, for example for tuple types, you can give an algebra generically for every signature:\n\u003c/p\u003e\u003cpre\u003e instance (Class f m, Class f n) =\u003e Algebra f (m, n) where\n   algebra fmn = (evaluate (fmap fst fmn), evaluate (fmap snd fmn))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.Internal",
           "name": "algebra",
           "package": "algebraic-classes",
@@ -116,6 +123,7 @@
         "index": {
           "description": "An algebra corresponds to an instance of of the class Class In some cases for example for tuple types you can give an algebra generically for every signature instance Class Class Algebra where algebra fmn evaluate fmap fst fmn evaluate fmap snd fmn",
           "hierarchy": "Data Algebra Internal",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.Internal",
           "name": "algebra",
           "normalized": "a b-\u003eb",
@@ -157,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate the operations of the signature to method calls of the class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.Internal",
           "name": "evaluate",
           "package": "algebraic-classes",
@@ -167,6 +176,7 @@
         "index": {
           "description": "Translate the operations of the signature to method calls of the class",
           "hierarchy": "Data Algebra Internal",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.Internal",
           "name": "evaluate",
           "normalized": "a b-\u003eb",
@@ -181,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "TH",
           "package": "algebraic-classes",
@@ -189,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "TH",
           "package": "algebraic-classes",
@@ -202,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "OperationTH",
           "package": "algebraic-classes",
@@ -210,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "OperationTH",
           "package": "algebraic-classes",
@@ -223,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "SignatureTH",
           "package": "algebraic-classes",
@@ -231,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "SignatureTH",
           "package": "algebraic-classes",
@@ -244,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "OperationTH",
           "package": "algebraic-classes",
@@ -253,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "OperationTH",
           "package": "algebraic-classes",
@@ -266,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "SignatureTH",
           "package": "algebraic-classes",
@@ -275,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "SignatureTH",
           "package": "algebraic-classes",
@@ -288,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "arity",
           "package": "algebraic-classes",
@@ -297,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "arity",
           "package": "algebraic-classes",
@@ -309,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "buildSignatureDataType",
           "package": "algebraic-classes",
@@ -318,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "buildSignatureDataType",
           "normalized": "SignatureTH-\u003e[Dec]",
@@ -333,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "constructor",
           "package": "algebraic-classes",
@@ -342,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "constructor",
           "package": "algebraic-classes",
@@ -409,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance for an algebraic class with a given partial implementation,\n   but don't generate the signature. This is for when you want to derive several instances\n   of the same class, but can't splice the results directly. In that case \u003ccode\u003e\u003ca\u003ederiveSignature\u003c/a\u003e\u003c/code\u003e\n   can't detect it has already generated the signature earlier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "deriveInstanceWith_skipSignature",
           "package": "algebraic-classes",
@@ -419,6 +446,7 @@
         "index": {
           "description": "Derive an instance for an algebraic class with given partial implementation but don generate the signature This is for when you want to derive several instances of the same class but can splice the results directly In that case deriveSignature can detect it has already generated the signature earlier",
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "deriveInstanceWith_skipSignature",
           "normalized": "Q Type-\u003eQ[Dec]-\u003eQ[Dec]",
@@ -435,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive a signature for an algebraic class.\n   For example:\n\u003c/p\u003e\u003cpre\u003e deriveSignature ''Monoid\n\u003c/pre\u003e\u003cp\u003eThe above would generate the following:\n\u003c/p\u003e\u003cpre\u003e data MonoidSignature a = Op_mempty | Op_mappend a a | Op_mconcat [a]\n   deriving (Functor, Foldable, Traversable, Eq, Ord)\n\n type instance Signature Monoid = MonoidSignature\n\n instance AlgebraSignature MonoidSignature where\n   type Class MonoidSignature = Monoid\n   evaluate Op_mempty = mempty\n   evaluate (Op_mappend a b) = mappend a b\n   evaluate (Op_mconcat ms) = mconcat ms  \n\n instance Show a =\u003e Show (MonoidSignature a) where\n   showsPrec d Op_mempty          = showParen (d \u003e 10) $ showString \"mempty\"\n   showsPrec d (Op_mappend a1 a2) = showParen (d \u003e 10) $ showString \"mappend\" . showChar ' ' . showsPrec 11 a1 . showChar ' ' . showsPrec 11 a2\n   showsPrec d (Op_mconcat a1)    = showParen (d \u003e 10) $ showString \"mconcat\" . showChar ' ' . showsPrec 11 a1\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ederiveSignature\u003c/a\u003e\u003c/code\u003e creates the signature data type and an instance for it of the\n   \u003ccode\u003e\u003ca\u003eAlgebraSignature\u003c/a\u003e\u003c/code\u003e class. \u003ccode\u003eDeriveTraversable\u003c/code\u003e is used the generate the \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e instance of the signature.\n\u003c/p\u003e\u003cp\u003eThis will do nothing if there is already a signature for the class in scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "deriveSignature",
           "package": "algebraic-classes",
@@ -445,6 +474,7 @@
         "index": {
           "description": "Derive signature for an algebraic class For example deriveSignature Monoid The above would generate the following data MonoidSignature Op mempty Op mappend Op mconcat deriving Functor Foldable Traversable Eq Ord type instance Signature Monoid MonoidSignature instance AlgebraSignature MonoidSignature where type Class MonoidSignature Monoid evaluate Op mempty mempty evaluate Op mappend mappend evaluate Op mconcat ms mconcat ms instance Show Show MonoidSignature where showsPrec Op mempty showParen showString mempty showsPrec Op mappend a1 a2 showParen showString mappend showChar showsPrec a1 showChar showsPrec a2 showsPrec Op mconcat a1 showParen showString mconcat showChar showsPrec a1 deriveSignature creates the signature data type and an instance for it of the AlgebraSignature class DeriveTraversable is used the generate the Traversable instance of the signature This will do nothing if there is already signature for the class in scope",
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "deriveSignature",
           "normalized": "Name-\u003eQ[Dec]",
@@ -460,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "fixity",
           "package": "algebraic-classes",
@@ -469,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "fixity",
           "package": "algebraic-classes",
@@ -481,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "functionName",
           "package": "algebraic-classes",
@@ -490,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "functionName",
           "package": "algebraic-classes",
@@ -503,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "getSignatureInfo",
           "package": "algebraic-classes",
@@ -512,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "getSignatureInfo",
           "normalized": "Name-\u003eQ SignatureTH",
@@ -527,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "operationName",
           "package": "algebraic-classes",
@@ -536,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "operationName",
           "package": "algebraic-classes",
@@ -549,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "operations",
           "package": "algebraic-classes",
@@ -558,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "operations",
           "normalized": "[OperationTH]",
@@ -572,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "signatureInstances",
           "package": "algebraic-classes",
@@ -581,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "signatureInstances",
           "normalized": "Name-\u003eSignatureTH-\u003e[Dec]",
@@ -596,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "signatureName",
           "package": "algebraic-classes",
@@ -605,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "signatureName",
           "package": "algebraic-classes",
@@ -618,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra.TH",
           "name": "typeVarName",
           "package": "algebraic-classes",
@@ -627,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra TH",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra.TH",
           "name": "typeVarName",
           "package": "algebraic-classes",
@@ -640,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra",
           "name": "Algebra",
           "package": "algebraic-classes",
@@ -648,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra",
           "name": "Algebra",
           "package": "algebraic-classes",
@@ -661,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra",
           "name": "Algebra",
           "package": "algebraic-classes",
@@ -669,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra",
           "name": "Algebra",
           "package": "algebraic-classes",
@@ -682,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra",
           "name": "AlgebraSignature",
           "package": "algebraic-classes",
@@ -690,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra",
           "name": "AlgebraSignature",
           "package": "algebraic-classes",
@@ -704,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn algebra \u003ccode\u003ef a -\u003e a\u003c/code\u003e corresponds to an instance of \u003ccode\u003ea\u003c/code\u003e of the class \u003ccode\u003eClass f\u003c/code\u003e.\n   In some cases, for example for tuple types, you can give an algebra generically for every signature:\n\u003c/p\u003e\u003cpre\u003e instance (Class f m, Class f n) =\u003e Algebra f (m, n) where\n   algebra fmn = (evaluate (fmap fst fmn), evaluate (fmap snd fmn))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra",
           "name": "algebra",
           "package": "algebraic-classes",
@@ -714,6 +767,7 @@
         "index": {
           "description": "An algebra corresponds to an instance of of the class Class In some cases for example for tuple types you can give an algebra generically for every signature instance Class Class Algebra where algebra fmn evaluate fmap fst fmn evaluate fmap snd fmn",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra",
           "name": "algebra",
           "normalized": "a b-\u003eb",
@@ -729,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate the operations of the signature to method calls of the class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:45 UTC 2014",
           "module": "Data.Algebra",
           "name": "evaluate",
           "package": "algebraic-classes",
@@ -739,6 +794,7 @@
         "index": {
           "description": "Translate the operations of the signature to method calls of the class",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T17:09:45",
           "module": "Data.Algebra",
           "name": "evaluate",
           "normalized": "a b-\u003eb",

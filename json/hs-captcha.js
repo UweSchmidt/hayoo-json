@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-captcha"
+        "phrase": "hs-captcha",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:41 UTC 2014",
           "module": "Graphics.Captcha",
           "name": "Captcha",
           "package": "hs-captcha",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Captcha",
+          "indexed": "2014-03-11T18:45:41",
           "module": "Graphics.Captcha",
           "name": "Captcha",
           "package": "hs-captcha",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:41 UTC 2014",
           "module": "Graphics.Captcha",
           "name": "makeCaptcha",
           "package": "hs-captcha",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics Captcha",
+          "indexed": "2014-03-11T18:45:41",
           "module": "Graphics.Captcha",
           "name": "makeCaptcha",
           "normalized": "IO(String,ByteString)",

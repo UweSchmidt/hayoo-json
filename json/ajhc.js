@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ajhc"
+        "phrase": "ajhc",
+        "type": "phrase"
       },
       "type": "context"
     }

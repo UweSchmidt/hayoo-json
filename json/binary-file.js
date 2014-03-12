@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binary-file"
+        "phrase": "binary-file",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary.Instances.BigEndian",
           "name": "BigEndian",
           "package": "binary-file",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "File Binary Instances BigEndian",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary.Instances.BigEndian",
           "name": "BigEndian",
           "package": "binary-file",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary.Instances.LSB0",
           "name": "LSB0",
           "package": "binary-file",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "File Binary Instances LSB0",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary.Instances.LSB0",
           "name": "LSB0",
           "package": "binary-file",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary.Instances.LSB0",
           "name": "BitsInt",
           "package": "binary-file",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "File Binary Instances LSB0",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary.Instances.LSB0",
           "name": "BitsInt",
           "package": "binary-file",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary.Instances.LSB0",
           "name": "bitsInt",
           "package": "binary-file",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "File Binary Instances LSB0",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary.Instances.LSB0",
           "name": "bitsInt",
           "normalized": "BitsInt-\u003eInt",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary.Instances.LittleEndian",
           "name": "LittleEndian",
           "package": "binary-file",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "File Binary Instances LittleEndian",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary.Instances.LittleEndian",
           "name": "LittleEndian",
           "package": "binary-file",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary.Instances.MSB0",
           "name": "MSB0",
           "package": "binary-file",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "File Binary Instances MSB0",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary.Instances.MSB0",
           "name": "MSB0",
           "package": "binary-file",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary.Instances.MSB0",
           "name": "BitsInt",
           "package": "binary-file",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "File Binary Instances MSB0",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary.Instances.MSB0",
           "name": "BitsInt",
           "package": "binary-file",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary.Instances",
           "name": "Instances",
           "package": "binary-file",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "File Binary Instances",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary.Instances",
           "name": "Instances",
           "package": "binary-file",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "Binary",
           "package": "binary-file",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "Binary",
           "package": "binary-file",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "Binary",
           "package": "binary-file",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "Binary",
           "package": "binary-file",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "Field",
           "package": "binary-file",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "Field",
           "package": "binary-file",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "binary",
           "package": "binary-file",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "binary",
           "package": "binary-file",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "consToBits",
           "package": "binary-file",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "consToBits",
           "normalized": "FieldArgument a-\u003ea-\u003eAddBits b-\u003ec(AddBits b)",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "fromBinary",
           "package": "binary-file",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "fromBinary",
           "normalized": "FieldArgument a-\u003eb-\u003ec(a,b)",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "fromBits",
           "package": "binary-file",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "fromBits",
           "normalized": "FieldArgument a-\u003eAddBits b-\u003ec(a,AddBits b)",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "getBytes",
           "package": "binary-file",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "getBytes",
           "normalized": "Int-\u003ea-\u003e(ByteString,a)",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "makeBinary",
           "package": "binary-file",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "makeBinary",
           "normalized": "ByteString-\u003ea",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "readBinaryFile",
           "package": "binary-file",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "readBinaryFile",
           "normalized": "FilePath-\u003eIO String",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "spanBytes",
           "package": "binary-file",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "spanBytes",
           "normalized": "(Word-\u003eBool)-\u003ea-\u003e(ByteString,a)",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "toBinary",
           "package": "binary-file",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "toBinary",
           "normalized": "FieldArgument a-\u003ea-\u003eb c",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "unconsByte",
           "package": "binary-file",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "unconsByte",
           "normalized": "a-\u003e(Word,a)",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:48 UTC 2014",
           "module": "File.Binary",
           "name": "writeBinaryFile",
           "package": "binary-file",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "File Binary",
+          "indexed": "2014-03-11T17:18:48",
           "module": "File.Binary",
           "name": "writeBinaryFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",

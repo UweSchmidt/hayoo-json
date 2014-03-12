@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "confsolve"
+        "phrase": "confsolve",
+        "type": "phrase"
       },
       "type": "context"
     }

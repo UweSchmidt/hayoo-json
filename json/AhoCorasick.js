@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AhoCorasick"
+        "phrase": "AhoCorasick",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAho-Corasick string matching algorithm\n\u003c/p\u003e\u003cp\u003eSimplest example:\n\u003c/p\u003e\u003cpre\u003e\nexample1 = mapM_ print $ findAll simpleSM \"ushers\" where\n    simpleSM = makeSimpleStateMachine [\"he\",\"she\",\"his\",\"hers\"]\n\u003c/pre\u003e\u003cpre\u003e\nPosition {pIndex = 1, pLength = 3, pVal = \"she\"}\nPosition {pIndex = 2, pLength = 2, pVal = \"he\"}\nPosition {pIndex = 2, pLength = 4, pVal = \"hers\"}\n\u003c/pre\u003e\u003cp\u003eWith data:\n\u003c/p\u003e\u003cpre\u003e\nexample2 = mapM_ print $ findAll sm \"ushers\" where\n    sm = makeStateMachine [(\"he\",0),(\"she\",1),(\"his\",2),(\"hers\",3)]\n\u003c/pre\u003e\u003cpre\u003e\nPosition {pIndex = 1, pLength = 3, pVal = 1}\nPosition {pIndex = 2, pLength = 2, pVal = 0}\nPosition {pIndex = 2, pLength = 4, pVal = 3}\n\u003c/pre\u003e\u003cp\u003eStep-by-step state machine evaluation:\n\u003c/p\u003e\u003cpre\u003e\nexample3 = mapM_ print $ next sm \"ushers\" where\n    sm = makeSimpleStateMachine [\"he\",\"she\",\"his\",\"hers\"]\n    next _ [] = []\n    next sm (s:n) = let (SMStepRes match nextSM) = stateMachineStep sm s in\n        (s, match) : next nextSM n\n\u003c/pre\u003e\u003cpre\u003e\n('u',[])\n('s',[])\n('h',[])\n('e',[(3,\"she\"),(2,\"he\")])\n('r',[])\n('s',[(4,\"hers\")])\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "AhoCorasick",
           "package": "AhoCorasick",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Aho-Corasick string matching algorithm Simplest example example1 mapM print findAll simpleSM ushers where simpleSM makeSimpleStateMachine he she his hers Position pIndex pLength pVal she Position pIndex pLength pVal he Position pIndex pLength pVal hers With data example2 mapM print findAll sm ushers where sm makeStateMachine he she his hers Position pIndex pLength pVal Position pIndex pLength pVal Position pIndex pLength pVal Step-by-step state machine evaluation example3 mapM print next sm ushers where sm makeSimpleStateMachine he she his hers next next sm let SMStepRes match nextSM stateMachineStep sm in match next nextSM she he hers",
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "AhoCorasick",
           "package": "AhoCorasick",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "KeyLength",
           "package": "AhoCorasick",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "KeyLength",
           "package": "AhoCorasick",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "Position",
           "package": "AhoCorasick",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "Position",
           "package": "AhoCorasick",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "SMStepRes",
           "package": "AhoCorasick",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "SMStepRes",
           "package": "AhoCorasick",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "StateMachine",
           "package": "AhoCorasick",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "StateMachine",
           "package": "AhoCorasick",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "Position",
           "package": "AhoCorasick",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "Position",
           "package": "AhoCorasick",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "SMStepRes",
           "package": "AhoCorasick",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "SMStepRes",
           "package": "AhoCorasick",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "findAll",
           "package": "AhoCorasick",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "findAll",
           "normalized": "StateMachine a b-\u003e[a]-\u003e[Position b]",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "makeSimpleStateMachine",
           "package": "AhoCorasick",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "makeSimpleStateMachine",
           "normalized": "[[a]]-\u003eStateMachine a[a]",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "makeStateMachine",
           "package": "AhoCorasick",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "makeStateMachine",
           "normalized": "[([a],b)]-\u003eStateMachine a b",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "pIndex",
           "package": "AhoCorasick",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "pIndex",
           "package": "AhoCorasick",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "pLength",
           "package": "AhoCorasick",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "pLength",
           "package": "AhoCorasick",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "pVal",
           "package": "AhoCorasick",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "pVal",
           "package": "AhoCorasick",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "resetStateMachine",
           "package": "AhoCorasick",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "resetStateMachine",
           "normalized": "StateMachine a b-\u003eStateMachine a b",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "smsrMatch",
           "package": "AhoCorasick",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "smsrMatch",
           "normalized": "[(KeyLength,a)]",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "smsrNextSM",
           "package": "AhoCorasick",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "smsrNextSM",
           "package": "AhoCorasick",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:15 UTC 2014",
           "module": "Text.AhoCorasick",
           "name": "stateMachineStep",
           "package": "AhoCorasick",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Text AhoCorasick",
+          "indexed": "2014-03-11T16:33:15",
           "module": "Text.AhoCorasick",
           "name": "stateMachineStep",
           "normalized": "StateMachine a b-\u003ea-\u003eSMStepRes a b",

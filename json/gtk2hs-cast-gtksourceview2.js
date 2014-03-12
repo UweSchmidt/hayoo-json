@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk2hs-cast-gtksourceview2"
+        "phrase": "gtk2hs-cast-gtksourceview2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:13 UTC 2014",
           "module": "Graphics.UI.Gtk.SourceView.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-gtksourceview2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk SourceView Cast",
+          "indexed": "2014-03-11T18:23:13",
           "module": "Graphics.UI.Gtk.SourceView.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-gtksourceview2",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:13 UTC 2014",
           "module": "Graphics.UI.Gtk.SourceView.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-gtksourceview2",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk SourceView Cast",
+          "indexed": "2014-03-11T18:23:13",
           "module": "Graphics.UI.Gtk.SourceView.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-gtksourceview2",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:13 UTC 2014",
           "module": "Graphics.UI.Gtk.SourceView.Cast",
           "name": "cast",
           "package": "gtk2hs-cast-gtksourceview2",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk SourceView Cast",
+          "indexed": "2014-03-11T18:23:13",
           "module": "Graphics.UI.Gtk.SourceView.Cast",
           "name": "cast",
           "normalized": "a-\u003eb",

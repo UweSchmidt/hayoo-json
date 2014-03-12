@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hist-pl-lmf"
+        "phrase": "hist-pl-lmf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides parsing utilities for the LMF dictionary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:16 UTC 2014",
           "module": "NLP.HistPL.LMF.Parse",
           "name": "Parse",
           "package": "hist-pl-lmf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The module provides parsing utilities for the LMF dictionary",
           "hierarchy": "NLP HistPL LMF Parse",
+          "indexed": "2014-03-11T18:40:16",
           "module": "NLP.HistPL.LMF.Parse",
           "name": "Parse",
           "package": "hist-pl-lmf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the entire dictionary in the LMF format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:16 UTC 2014",
           "module": "NLP.HistPL.LMF.Parse",
           "name": "parseLMF",
           "package": "hist-pl-lmf",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Parse the entire dictionary in the LMF format",
           "hierarchy": "NLP HistPL LMF Parse",
+          "indexed": "2014-03-11T18:40:16",
           "module": "NLP.HistPL.LMF.Parse",
           "name": "parseLMF",
           "normalized": "Text-\u003e[LexEntry]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the lexical entry LMF representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:16 UTC 2014",
           "module": "NLP.HistPL.LMF.Parse",
           "name": "parseLexEntry",
           "package": "hist-pl-lmf",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Parse the lexical entry LMF representation",
           "hierarchy": "NLP HistPL LMF Parse",
+          "indexed": "2014-03-11T18:40:16",
           "module": "NLP.HistPL.LMF.Parse",
           "name": "parseLexEntry",
           "normalized": "Text-\u003eLexEntry",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the dictionary from the LMF file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:16 UTC 2014",
           "module": "NLP.HistPL.LMF.Parse",
           "name": "readLMF",
           "package": "hist-pl-lmf",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Read the dictionary from the LMF file",
           "hierarchy": "NLP HistPL LMF Parse",
+          "indexed": "2014-03-11T18:40:16",
           "module": "NLP.HistPL.LMF.Parse",
           "name": "readLMF",
           "normalized": "FilePath-\u003eIO[LexEntry]",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrinting utilities for the LMF dictionary format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:16 UTC 2014",
           "module": "NLP.HistPL.LMF.Show",
           "name": "Show",
           "package": "hist-pl-lmf",
@@ -129,6 +138,7 @@
         "index": {
           "description": "Printing utilities for the LMF dictionary format",
           "hierarchy": "NLP HistPL LMF Show",
+          "indexed": "2014-03-11T18:40:16",
           "module": "NLP.HistPL.LMF.Show",
           "name": "Show",
           "package": "hist-pl-lmf",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the entire dictionary as a lazy text in the LMF format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:16 UTC 2014",
           "module": "NLP.HistPL.LMF.Show",
           "name": "showLMF",
           "package": "hist-pl-lmf",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Show the entire dictionary as lazy text in the LMF format",
           "hierarchy": "NLP HistPL LMF Show",
+          "indexed": "2014-03-11T18:40:16",
           "module": "NLP.HistPL.LMF.Show",
           "name": "showLMF",
           "normalized": "[LexEntry]-\u003eText",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow lexical entry using the LMF format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:16 UTC 2014",
           "module": "NLP.HistPL.LMF.Show",
           "name": "showLexEntry",
           "package": "hist-pl-lmf",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Show lexical entry using the LMF format",
           "hierarchy": "NLP HistPL LMF Show",
+          "indexed": "2014-03-11T18:40:16",
           "module": "NLP.HistPL.LMF.Show",
           "name": "showLexEntry",
           "normalized": "LexEntry-\u003eText",
@@ -195,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-export modules from the LMF hierarchy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:16 UTC 2014",
           "module": "NLP.HistPL.LMF",
           "name": "LMF",
           "package": "hist-pl-lmf",
@@ -204,6 +219,7 @@
         "index": {
           "description": "Re-export modules from the LMF hierarchy",
           "hierarchy": "NLP HistPL LMF",
+          "indexed": "2014-03-11T18:40:16",
           "module": "NLP.HistPL.LMF",
           "name": "LMF",
           "package": "hist-pl-lmf",

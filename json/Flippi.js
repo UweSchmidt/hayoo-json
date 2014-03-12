@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Flippi"
+        "phrase": "Flippi",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-accept"
+        "phrase": "http-accept",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:06 UTC 2014",
           "module": "Network.HTTP.Accept",
           "name": "Accept",
           "package": "http-accept",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Accept",
+          "indexed": "2014-03-11T18:52:06",
           "module": "Network.HTTP.Accept",
           "name": "Accept",
           "package": "http-accept",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect which Accept type to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:06 UTC 2014",
           "module": "Network.HTTP.Accept",
           "name": "selectAcceptType",
           "package": "http-accept",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Select which Accept type to use",
           "hierarchy": "Network HTTP Accept",
+          "indexed": "2014-03-11T18:52:06",
           "module": "Network.HTTP.Accept",
           "name": "selectAcceptType",
           "normalized": "[String]-\u003e[ByteString]-\u003eMaybe String",

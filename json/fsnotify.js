@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fsnotify"
+        "phrase": "fsnotify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify.Devel",
           "name": "Devel",
           "package": "fsnotify",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify Devel",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify.Devel",
           "name": "Devel",
           "package": "fsnotify",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify.Devel",
           "name": "allEvents",
           "package": "fsnotify",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify Devel",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify.Devel",
           "name": "allEvents",
           "normalized": "(FilePath-\u003eBool)-\u003eEvent-\u003eBool",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify.Devel",
           "name": "doAllEvents",
           "package": "fsnotify",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify Devel",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify.Devel",
           "name": "doAllEvents",
           "normalized": "(FilePath-\u003ea())-\u003eEvent-\u003ea()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify.Devel",
           "name": "existsEvents",
           "package": "fsnotify",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify Devel",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify.Devel",
           "name": "existsEvents",
           "normalized": "(FilePath-\u003eBool)-\u003eEvent-\u003eBool",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the given directory tree,\n for files with the given file extension\n perform the given action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify.Devel",
           "name": "treeExtAny",
           "package": "fsnotify",
@@ -121,6 +130,7 @@
         "index": {
           "description": "In the given directory tree for files with the given file extension perform the given action",
           "hierarchy": "System FSNotify Devel",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify.Devel",
           "name": "treeExtAny",
           "normalized": "WatchManager-\u003eFilePath-\u003eText-\u003e(FilePath-\u003eIO())-\u003eIO()",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample of compiling scss files with compass\n\u003c/p\u003e\u003cpre\u003e\n compass :: WatchManager -\u003e FilePath -\u003e IO ()\n compass man dir = do\n  putStrLn $ \u003ca\u003ecompass \u003c/a\u003e ++ encodeString dir\n  treeExtExists man dir \u003ca\u003escss\u003c/a\u003e $ fp -\u003e\n    when (\u003ca\u003edeploy\u003c/a\u003e \u003ccode\u003e\u003ca\u003enotElem\u003c/a\u003e\u003c/code\u003e splitDirectories fp) $ do\n     let d = encodeString $ head (splitDirectories rel)\n     system \u003ca\u003ecd \u003c/a\u003e ++ d ++ \u003ca\u003e&& bundle exec compass compile\u003c/a\u003e\n  return ()\n\u003c/pre\u003e\u003cp\u003eIn the given directory tree,\n watch for any Added and Modified events (but ignore Removed events)\n for files with the given file extension\n perform the given action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify.Devel",
           "name": "treeExtExists",
           "package": "fsnotify",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Example of compiling scss files with compass compass WatchManager FilePath IO compass man dir do putStrLn compass encodeString dir treeExtExists man dir scss fp when deploy notElem splitDirectories fp do let encodeString head splitDirectories rel system cd bundle exec compass compile return In the given directory tree watch for any Added and Modified events but ignore Removed events for files with the given file extension perform the given action",
           "hierarchy": "System FSNotify Devel",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify.Devel",
           "name": "treeExtExists",
           "normalized": "WatchManager-\u003eFilePath-\u003eText-\u003e(FilePath-\u003eIO())-\u003eIO()",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecross-platform file watching.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "FSNotify",
           "package": "fsnotify",
@@ -171,6 +184,7 @@
         "index": {
           "description": "cross-platform file watching",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "FSNotify",
           "package": "fsnotify",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action to be performed in response to an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "Action",
           "package": "fsnotify",
@@ -194,6 +209,7 @@
         "index": {
           "description": "An action to be performed in response to an event",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "Action",
           "package": "fsnotify",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate used to determine whether to act on an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "ActionPredicate",
           "package": "fsnotify",
@@ -217,6 +234,7 @@
         "index": {
           "description": "predicate used to determine whether to act on an event",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "ActionPredicate",
           "package": "fsnotify",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file event reported by a file watcher. Each event contains the\n canonical path for the file and a timestamp guaranteed to be after the\n event occurred (timestamps represent current time when FSEvents receives\n it from the OS and/or platform-specific Haskell modules).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "Event",
           "package": "fsnotify",
@@ -240,6 +259,7 @@
         "index": {
           "description": "file event reported by file watcher Each event contains the canonical path for the file and timestamp guaranteed to be after the event occurred timestamps represent current time when FSEvents receives it from the OS and or platform-specific Haskell modules",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "Event",
           "package": "fsnotify",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "EventChannel",
           "package": "fsnotify",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "EventChannel",
           "package": "fsnotify",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfig object, currently used just for debouncing events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "WatchConfig",
           "package": "fsnotify",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Config object currently used just for debouncing events",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "WatchConfig",
           "package": "fsnotify",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "WatchManager",
           "package": "fsnotify",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "WatchManager",
           "package": "fsnotify",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "Added",
           "package": "fsnotify",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "Added",
           "package": "fsnotify",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "Debounce",
           "package": "fsnotify",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "Debounce",
           "package": "fsnotify",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "DebounceDefault",
           "package": "fsnotify",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "DebounceDefault",
           "package": "fsnotify",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "Modified",
           "package": "fsnotify",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "Modified",
           "package": "fsnotify",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "NoDebounce",
           "package": "fsnotify",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "NoDebounce",
           "package": "fsnotify",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "Removed",
           "package": "fsnotify",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "Removed",
           "package": "fsnotify",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "defaultConfig",
           "package": "fsnotify",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "defaultConfig",
           "package": "fsnotify",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for extracting the path associated with an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "eventPath",
           "package": "fsnotify",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Helper for extracting the path associated with an event",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "eventPath",
           "normalized": "Event-\u003eFilePath",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for extracting the time associated with an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "eventTime",
           "package": "fsnotify",
@@ -509,6 +552,7 @@
         "index": {
           "description": "Helper for extracting the time associated with an event",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "eventTime",
           "normalized": "Event-\u003eUTCTime",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a file watch manager.\n Directories can only be watched when they are managed by a started watch\n watch manager.\n When finished watching. you must release resources via \u003ccode\u003e\u003ca\u003estopManager\u003c/a\u003e\u003c/code\u003e.\n It is preferrable if possible to use \u003ccode\u003e\u003ca\u003ewithManager\u003c/a\u003e\u003c/code\u003e to handle this\n automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "startManager",
           "package": "fsnotify",
@@ -535,6 +580,7 @@
         "index": {
           "description": "Start file watch manager Directories can only be watched when they are managed by started watch watch manager When finished watching you must release resources via stopManager It is preferrable if possible to use withManager to handle this automatically",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "startManager",
           "package": "fsnotify",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "startManagerConf",
           "package": "fsnotify",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "startManagerConf",
           "normalized": "WatchConfig-\u003eIO WatchManager",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop a file watch manager.\n Stopping a watch manager will immediately stop\n watching for files and free resources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "stopManager",
           "package": "fsnotify",
@@ -583,6 +632,7 @@
         "index": {
           "description": "Stop file watch manager Stopping watch manager will immediately stop watching for files and free resources",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "stopManager",
           "normalized": "WatchManager-\u003eIO()",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch the immediate contents of a directory by committing an Action for each event.\n Watching the immediate contents of a directory will only report events\n associated with files within the specified directory, and not files\n within its subdirectories. No two events pertaining to the same FilePath will\n be executed concurrently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "watchDir",
           "package": "fsnotify",
@@ -609,6 +660,7 @@
         "index": {
           "description": "Watch the immediate contents of directory by committing an Action for each event Watching the immediate contents of directory will only report events associated with files within the specified directory and not files within its subdirectories No two events pertaining to the same FilePath will be executed concurrently",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "watchDir",
           "normalized": "WatchManager-\u003eFilePath-\u003eActionPredicate-\u003eAction-\u003eIO()",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch the immediate contents of a directory by streaming events to a Chan.\n Watching the immediate contents of a directory will only report events\n associated with files within the specified directory, and not files\n within its subdirectories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "watchDirChan",
           "package": "fsnotify",
@@ -635,6 +688,7 @@
         "index": {
           "description": "Watch the immediate contents of directory by streaming events to Chan Watching the immediate contents of directory will only report events associated with files within the specified directory and not files within its subdirectories",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "watchDirChan",
           "normalized": "WatchManager-\u003eFilePath-\u003eActionPredicate-\u003eEventChannel-\u003eIO()",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch all the contents of a directory by committing an Action for each event.\n Watching all the contents of a directory will report events associated with\n files within the specified directory and its subdirectories. No two events\n pertaining to the same FilePath will be executed concurrently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "watchTree",
           "package": "fsnotify",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Watch all the contents of directory by committing an Action for each event Watching all the contents of directory will report events associated with files within the specified directory and its subdirectories No two events pertaining to the same FilePath will be executed concurrently",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "watchTree",
           "normalized": "WatchManager-\u003eFilePath-\u003eActionPredicate-\u003eAction-\u003eIO()",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch all the contents of a directory by streaming events to a Chan.\n Watching all the contents of a directory will report events associated with\n files within the specified directory and its subdirectories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "watchTreeChan",
           "package": "fsnotify",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Watch all the contents of directory by streaming events to Chan Watching all the contents of directory will report events associated with files within the specified directory and its subdirectories",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "watchTreeChan",
           "normalized": "WatchManager-\u003eFilePath-\u003eActionPredicate-\u003eEventChannel-\u003eIO()",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an IO action with a WatchManager in place.\n Tear down the WatchManager after the action is complete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "withManager",
           "package": "fsnotify",
@@ -713,6 +772,7 @@
         "index": {
           "description": "Perform an IO action with WatchManager in place Tear down the WatchManager after the action is complete",
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "withManager",
           "normalized": "(WatchManager-\u003eIO a)-\u003eIO a",
@@ -728,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:51 UTC 2014",
           "module": "System.FSNotify",
           "name": "withManagerConf",
           "package": "fsnotify",
@@ -737,6 +798,7 @@
         },
         "index": {
           "hierarchy": "System FSNotify",
+          "indexed": "2014-03-11T18:12:51",
           "module": "System.FSNotify",
           "name": "withManagerConf",
           "normalized": "WatchConfig-\u003e(WatchManager-\u003eIO a)-\u003eIO a",

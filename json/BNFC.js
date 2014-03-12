@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BNFC"
+        "phrase": "BNFC",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "RingUtils",
           "package": "BNFC",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "RingUtils",
           "package": "BNFC",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "AbelianGroup",
           "package": "BNFC",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "AbelianGroup",
           "package": "BNFC",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "AbelianGroupZ",
           "package": "BNFC",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "AbelianGroupZ",
           "package": "BNFC",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "O",
           "package": "BNFC",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "O",
           "package": "BNFC",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "Pair",
           "package": "BNFC",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "Pair",
           "package": "BNFC",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "Ring",
           "package": "BNFC",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "Ring",
           "package": "BNFC",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "RingP",
           "package": "BNFC",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "RingP",
           "package": "BNFC",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "(*)",
           "package": "BNFC",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "(+)",
           "package": "BNFC",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "O",
           "package": "BNFC",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "O",
           "package": "BNFC",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "fromO",
           "package": "BNFC",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "fromO",
           "package": "BNFC",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "isZero",
           "package": "BNFC",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "isZero",
           "normalized": "a-\u003eBool",
@@ -321,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "mul",
           "package": "BNFC",
@@ -330,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "mul",
           "normalized": "Bool-\u003ea-\u003ea-\u003ePair a",
@@ -344,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "mulDefault",
           "package": "BNFC",
@@ -353,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "mulDefault",
           "normalized": "a-\u003ea-\u003ea",
@@ -368,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "onlyLeft",
           "package": "BNFC",
@@ -377,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "onlyLeft",
           "normalized": "[a]-\u003ePair[a]",
@@ -392,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "onlyRight",
           "package": "BNFC",
@@ -401,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "onlyRight",
           "normalized": "[a]-\u003ePair[a]",
@@ -439,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "select",
           "package": "BNFC",
@@ -448,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "select",
           "normalized": "Bool-\u003e[a]-\u003ePair[a]",
@@ -462,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "sum",
           "package": "BNFC",
@@ -471,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "sum",
           "normalized": "[a]-\u003ea",
@@ -485,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Algebra.RingUtils",
           "name": "zero",
           "package": "BNFC",
@@ -494,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Algebra RingUtils",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Algebra.RingUtils",
           "name": "zero",
           "package": "BNFC",
@@ -506,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "Class",
           "package": "BNFC",
@@ -514,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "Class",
           "package": "BNFC",
@@ -527,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "Dimension",
           "package": "BNFC",
@@ -535,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "Dimension",
           "package": "BNFC",
@@ -548,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "Extent",
           "package": "BNFC",
@@ -556,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "Extent",
           "package": "BNFC",
@@ -569,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "Matrix",
           "package": "BNFC",
@@ -577,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "Matrix",
           "package": "BNFC",
@@ -590,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "(***)",
           "package": "BNFC",
@@ -599,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "(***) ***",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -613,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "(\u003c|\u003e)",
           "package": "BNFC",
@@ -622,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -636,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "(\u003c-\u003e)",
           "package": "BNFC",
@@ -645,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -659,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "XD",
           "package": "BNFC",
@@ -668,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "XD",
           "package": "BNFC",
@@ -681,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "YD",
           "package": "BNFC",
@@ -690,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "YD",
           "package": "BNFC",
@@ -703,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "at",
           "package": "BNFC",
@@ -712,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "at",
           "normalized": "Int-\u003eInt-\u003ea b-\u003eb",
@@ -726,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "chopFirstColumn",
           "package": "BNFC",
@@ -735,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "chopFirstColumn",
           "normalized": "a b-\u003ea b",
@@ -750,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "chopFirstRow",
           "package": "BNFC",
@@ -759,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "chopFirstRow",
           "normalized": "a b-\u003ea b",
@@ -774,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "chopLastColumn",
           "package": "BNFC",
@@ -783,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "chopLastColumn",
           "normalized": "a b-\u003ea b",
@@ -798,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "chopLastRow",
           "package": "BNFC",
@@ -807,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "chopLastRow",
           "normalized": "a b-\u003ea b",
@@ -822,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "countColumns",
           "package": "BNFC",
@@ -831,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "countColumns",
           "normalized": "a b-\u003eInt",
@@ -846,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "countRows",
           "package": "BNFC",
@@ -855,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "countRows",
           "normalized": "a b-\u003eInt",
@@ -870,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "ext",
           "package": "BNFC",
@@ -879,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "ext",
           "normalized": "Dimension-\u003e(a,a)-\u003ea",
@@ -893,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "extent",
           "package": "BNFC",
@@ -902,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "extent",
           "normalized": "a b-\u003eExtent",
@@ -916,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "fingerprint",
           "package": "BNFC",
@@ -925,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "fingerprint",
           "normalized": "a b-\u003e[[Char]]",
@@ -939,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "firstRow",
           "package": "BNFC",
@@ -948,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "firstRow",
           "normalized": "a b-\u003ea b",
@@ -963,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "glue",
           "package": "BNFC",
@@ -972,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "glue",
           "normalized": "Dimension-\u003ea b-\u003ea b-\u003ea b",
@@ -986,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "glueExt",
           "package": "BNFC",
@@ -995,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "glueExt",
           "normalized": "Dimension-\u003e(a,a)-\u003e(a,a)-\u003e(a,a)",
@@ -1010,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "lastColumn",
           "package": "BNFC",
@@ -1019,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "lastColumn",
           "normalized": "a b-\u003ea b",
@@ -1034,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "nextDim",
           "package": "BNFC",
@@ -1043,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "nextDim",
           "normalized": "Dimension-\u003eDimension",
@@ -1058,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "quad",
           "package": "BNFC",
@@ -1067,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "quad",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea b-\u003ea b",
@@ -1082,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigleton matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "singleton",
           "package": "BNFC",
@@ -1092,6 +1181,7 @@
         "index": {
           "description": "Sigleton matrix",
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "singleton",
           "normalized": "a-\u003eb a",
@@ -1106,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "split",
           "package": "BNFC",
@@ -1115,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "split",
           "normalized": "Dimension-\u003eInt-\u003ea b-\u003e(a b,a b)",
@@ -1129,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "splitExt",
           "package": "BNFC",
@@ -1138,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "splitExt",
           "normalized": "Dimension-\u003ea-\u003e(a,a)-\u003e((a,a),(a,a))",
@@ -1153,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Class",
           "name": "zeroMatrix",
           "package": "BNFC",
@@ -1162,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Class",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Class",
           "name": "zeroMatrix",
           "normalized": "Int-\u003eInt-\u003ea b",
@@ -1177,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Quad",
           "package": "BNFC",
@@ -1185,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Quad",
           "package": "BNFC",
@@ -1198,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Mat",
           "package": "BNFC",
@@ -1206,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Mat",
           "package": "BNFC",
@@ -1219,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Path",
           "package": "BNFC",
@@ -1227,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Path",
           "package": "BNFC",
@@ -1240,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Q",
           "package": "BNFC",
@@ -1248,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Q",
           "package": "BNFC",
@@ -1260,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Shape",
           "package": "BNFC",
@@ -1268,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Shape",
           "package": "BNFC",
@@ -1281,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Shape'",
           "package": "BNFC",
@@ -1289,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Shape'",
           "package": "BNFC",
@@ -1302,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "SomeShape",
           "package": "BNFC",
@@ -1310,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "SomeShape",
           "package": "BNFC",
@@ -1323,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "SomeTri",
           "package": "BNFC",
@@ -1331,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "SomeTri",
           "package": "BNFC",
@@ -1344,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Vec",
           "package": "BNFC",
@@ -1352,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Vec",
           "package": "BNFC",
@@ -1365,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "(|+|)",
           "package": "BNFC",
@@ -1374,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "(|+|) |+|",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[[a]]",
@@ -1388,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "(-+-)",
           "package": "BNFC",
@@ -1397,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "(-+-) -+-",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1411,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "(\u003c||\u003e)",
           "package": "BNFC",
@@ -1420,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "Maybe(a,Path b)-\u003eMaybe(a,Path c)-\u003eMaybe(a,Path(Bin b c))",
@@ -1434,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "(.+.)",
           "package": "BNFC",
@@ -1443,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "(.+.) .+.",
           "normalized": "Mat a b c-\u003eMat a b c-\u003eMat a b c",
@@ -1457,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": ":!",
           "package": "BNFC",
@@ -1466,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": ":!",
           "normalized": "Vec a b-\u003eVec c b-\u003eVec(Bin a c)b",
@@ -1480,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Bin",
           "package": "BNFC",
@@ -1489,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Bin",
           "package": "BNFC",
@@ -1502,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Bin'",
           "package": "BNFC",
@@ -1511,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Bin'",
           "normalized": "Int-\u003eShape' a-\u003eShape' b-\u003eShape'(Bin a b)",
@@ -1526,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Col",
           "package": "BNFC",
@@ -1535,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Col",
           "normalized": "Mat Leaf a b-\u003eMat Leaf a b-\u003eMat Leaf(Bin a a)b",
@@ -1550,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Here",
           "package": "BNFC",
@@ -1559,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Here",
           "package": "BNFC",
@@ -1572,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "High",
           "package": "BNFC",
@@ -1581,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "High",
           "normalized": "Path a-\u003ePath(Bin b a)",
@@ -1596,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Leaf",
           "package": "BNFC",
@@ -1605,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Leaf",
           "package": "BNFC",
@@ -1618,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Leaf'",
           "package": "BNFC",
@@ -1627,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Leaf'",
           "package": "BNFC",
@@ -1640,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Low",
           "package": "BNFC",
@@ -1649,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Low",
           "normalized": "Path a-\u003ePath(Bin a b)",
@@ -1664,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "O",
           "package": "BNFC",
@@ -1673,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "O",
           "normalized": "a-\u003eVec Leaf a",
@@ -1687,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "One",
           "package": "BNFC",
@@ -1696,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "One",
           "normalized": "a-\u003eMat Leaf Leaf a",
@@ -1711,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Quad",
           "package": "BNFC",
@@ -1720,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Quad",
           "normalized": "(Mat a b c)-\u003e(Mat a b c)-\u003e(Mat a b c)-\u003e(Mat a b c)-\u003eMat(Bin a a)(Bin b b)c",
@@ -1735,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Row",
           "package": "BNFC",
@@ -1744,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Row",
           "normalized": "Mat a Leaf b-\u003eMat a Leaf b-\u003eMat(Bin a a)Leaf b",
@@ -1759,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "S",
           "package": "BNFC",
@@ -1768,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "S",
           "normalized": "Shape' a-\u003eSomeShape",
@@ -1782,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "T",
           "package": "BNFC",
@@ -1791,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "T",
           "normalized": "Shape' a-\u003ePair(Mat a a b)-\u003eSomeTri b",
@@ -1805,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Z",
           "package": "BNFC",
@@ -1814,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Z",
           "package": "BNFC",
@@ -1826,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "Zero",
           "package": "BNFC",
@@ -1835,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "Zero",
           "package": "BNFC",
@@ -1848,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "bin'",
           "package": "BNFC",
@@ -1857,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "bin'",
           "normalized": "Shape' a-\u003eShape' b-\u003eShape'(Bin a b)",
@@ -1871,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "close",
           "package": "BNFC",
@@ -1880,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "close",
           "normalized": "Bool-\u003eMat a a(Pair b)-\u003ePair(Mat a a b)",
@@ -1894,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "closeDisjointP",
           "package": "BNFC",
@@ -1903,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "closeDisjointP",
           "normalized": "Bool-\u003eMat a a b-\u003eMat c a(Pair b)-\u003eMat c c b-\u003ePair(Mat c a b)",
@@ -1918,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "col",
           "package": "BNFC",
@@ -1927,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "col",
           "normalized": "Mat Leaf a b-\u003eMat Leaf a b-\u003eMat Leaf(Bin a a)b",
@@ -1942,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContents of a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "contents",
           "package": "BNFC",
@@ -1952,6 +2117,7 @@
         "index": {
           "description": "Contents of vector",
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "contents",
           "normalized": "Shape' a-\u003eVec a b-\u003e[(Int,b)]",
@@ -1966,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "fingerprint",
           "package": "BNFC",
@@ -1975,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "fingerprint",
           "normalized": "SomeTri a-\u003e[[Char]]",
@@ -1989,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "first",
           "package": "BNFC",
@@ -1998,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "first",
           "normalized": "(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -2012,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "fromPath",
           "package": "BNFC",
@@ -2021,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "fromPath",
           "normalized": "Shape' a-\u003ePath a-\u003eInt",
@@ -2037,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this the rightmost path?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "isRightmost",
           "package": "BNFC",
@@ -2047,6 +2220,7 @@
         "index": {
           "description": "Is this the rightmost path",
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "isRightmost",
           "normalized": "Path a-\u003eBool",
@@ -2062,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "leftMost",
           "package": "BNFC",
@@ -2071,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "leftMost",
           "normalized": "Shape' a-\u003ePath a",
@@ -2086,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "lin",
           "package": "BNFC",
@@ -2095,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "lin",
           "normalized": "Shape' a-\u003eShape' b-\u003eMat a b c-\u003e[[c]]",
@@ -2110,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinearize a matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "lin'",
           "package": "BNFC",
@@ -2120,6 +2299,7 @@
         "index": {
           "description": "Linearize matrix",
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "lin'",
           "normalized": "Mat a b c-\u003eVec b(Vec a c)",
@@ -2135,6 +2315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup in a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "lk",
           "package": "BNFC",
@@ -2145,6 +2326,7 @@
         "index": {
           "description": "Lookup in vector",
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "lk",
           "normalized": "Int-\u003eShape' a-\u003eVec a b-\u003eb",
@@ -2159,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "mergein",
           "package": "BNFC",
@@ -2168,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "mergein",
           "normalized": "Bool-\u003eSomeTri a-\u003ePair a-\u003eSomeTri a-\u003eSomeTri a",
@@ -2182,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "mkShape",
           "package": "BNFC",
@@ -2191,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "mkShape",
           "normalized": "Int-\u003eSomeShape",
@@ -2206,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "mkSing",
           "package": "BNFC",
@@ -2215,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "mkSing",
           "normalized": "Shape' a-\u003eShape' b-\u003ec-\u003eMat a b c",
@@ -2230,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "mkTree",
           "package": "BNFC",
@@ -2239,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "mkTree",
           "normalized": "[Pair a]-\u003eSomeTri a",
@@ -2254,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "mkUpDiag",
           "package": "BNFC",
@@ -2263,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "mkUpDiag",
           "normalized": "[a]-\u003eShape' b-\u003eMat b b a",
@@ -2278,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "mult",
           "package": "BNFC",
@@ -2287,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "mult",
           "normalized": "Bool-\u003eMat a b c-\u003eMat d a c-\u003eMat d b(Pair c)",
@@ -2301,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "one",
           "package": "BNFC",
@@ -2310,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "one",
           "normalized": "a-\u003eMat Leaf Leaf a",
@@ -2324,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "q0",
           "package": "BNFC",
@@ -2333,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "q0",
           "package": "BNFC",
@@ -2345,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "quad",
           "package": "BNFC",
@@ -2354,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "quad",
           "normalized": "Mat a b c-\u003eMat a b c-\u003eMat a b c-\u003eMat a b c-\u003eMat(Bin a a)(Bin b b)c",
@@ -2368,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "quad'",
           "package": "BNFC",
@@ -2377,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "quad'",
           "normalized": "a(Mat b c d)-\u003ea(Mat b c d)-\u003ea(Mat b c d)-\u003ea(Mat b c d)-\u003ea(Mat(Bin b b)(Bin c c)d)",
@@ -2391,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "results",
           "package": "BNFC",
@@ -2400,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "results",
           "normalized": "SomeTri a-\u003e[(Int,a,Int)]",
@@ -2414,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "results'",
           "package": "BNFC",
@@ -2423,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "results'",
           "normalized": "Mat a a b-\u003ePath a-\u003e[(Path a,b,Path a)]",
@@ -2438,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat is, and where is the rightmost non-zero element on a given\n line of the matrix?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "rightmostOnLine",
           "package": "BNFC",
@@ -2448,6 +2655,7 @@
         "index": {
           "description": "What is and where is the rightmost non-zero element on given line of the matrix",
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "rightmostOnLine",
           "normalized": "Path a-\u003eMat b a c-\u003eMaybe(c,Path b)",
@@ -2463,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "root",
           "package": "BNFC",
@@ -2472,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "root",
           "normalized": "SomeTri a-\u003ea",
@@ -2486,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "root'",
           "package": "BNFC",
@@ -2495,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "root'",
           "normalized": "Mat a b c-\u003ec",
@@ -2509,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "row",
           "package": "BNFC",
@@ -2518,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "row",
           "normalized": "Mat a Leaf b-\u003eMat a Leaf b-\u003eMat(Bin a a)Leaf b",
@@ -2532,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "second",
           "package": "BNFC",
@@ -2541,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "second",
           "normalized": "(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -2555,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "showR",
           "package": "BNFC",
@@ -2564,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "showR",
           "normalized": "Mat a b c-\u003eString",
@@ -2578,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "single",
           "package": "BNFC",
@@ -2587,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "single",
           "normalized": "Pair a-\u003eSomeTri a",
@@ -2601,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "square2",
           "package": "BNFC",
@@ -2610,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "square2",
           "normalized": "Pair a-\u003eSomeTri a",
@@ -2624,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "square3",
           "package": "BNFC",
@@ -2633,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "square3",
           "normalized": "Bool-\u003ePair a-\u003ePair a-\u003eSomeTri a",
@@ -2647,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "sz'",
           "package": "BNFC",
@@ -2656,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "sz'",
           "normalized": "Shape' a-\u003eInt",
@@ -2670,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "trav",
           "package": "BNFC",
@@ -2679,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "trav",
           "normalized": "Mat a b(Pair c)-\u003ePair(Mat a b c)",
@@ -2694,6 +2922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of zipWith on vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Matrix.Quad",
           "name": "zw",
           "package": "BNFC",
@@ -2704,6 +2933,7 @@
         "index": {
           "description": "variant of zipWith on vectors",
           "hierarchy": "Data Matrix Quad",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Matrix.Quad",
           "name": "zw",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVec d a-\u003eVec d b-\u003eVec d c",
@@ -2718,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Pair",
           "name": "Pair",
           "package": "BNFC",
@@ -2726,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Data Pair",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Pair",
           "name": "Pair",
           "package": "BNFC",
@@ -2739,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Data.Pair",
           "name": "Pair",
           "package": "BNFC",
@@ -2747,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Data Pair",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Data.Pair",
           "name": "Pair",
           "package": "BNFC",
@@ -2760,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "Chart",
           "package": "BNFC",
@@ -2768,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "Chart",
           "package": "BNFC",
@@ -2781,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "MT2",
           "package": "BNFC",
@@ -2789,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "MT2",
           "package": "BNFC",
@@ -2802,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "Set",
           "package": "BNFC",
@@ -2810,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "Set",
           "package": "BNFC",
@@ -2823,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "fingerprint",
           "package": "BNFC",
@@ -2832,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "fingerprint",
           "normalized": "SomeTri a-\u003e[[Char]]",
@@ -2846,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "genXPM",
           "package": "BNFC",
@@ -2855,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "genXPM",
           "normalized": "[[Char]]-\u003eString",
@@ -2870,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "mergein",
           "package": "BNFC",
@@ -2879,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "mergein",
           "normalized": "Bool-\u003eSomeTri a-\u003ePair a-\u003eSomeTri a-\u003eSomeTri a",
@@ -2893,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "mkTree",
           "package": "BNFC",
@@ -2902,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "mkTree",
           "normalized": "[Pair a]-\u003eQ a",
@@ -2917,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "mkTree'",
           "package": "BNFC",
@@ -2926,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "mkTree'",
           "normalized": "[Pair a]-\u003eQ a",
@@ -2941,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "mkTree2",
           "package": "BNFC",
@@ -2950,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "mkTree2",
           "normalized": "Bool-\u003e[Pair a]-\u003eQ a",
@@ -2965,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "root",
           "package": "BNFC",
@@ -2974,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "root",
           "normalized": "SomeTri a-\u003ea",
@@ -2988,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.Chart",
           "name": "single",
           "package": "BNFC",
@@ -2997,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Parsing Chart",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.Chart",
           "name": "single",
           "normalized": "Pair a-\u003eSomeTri a",
@@ -3011,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.TestProgram",
           "name": "TestProgram",
           "package": "BNFC",
@@ -3019,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Parsing TestProgram",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.TestProgram",
           "name": "TestProgram",
           "package": "BNFC",
@@ -3032,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.TestProgram",
           "name": "Verbosity",
           "package": "BNFC",
@@ -3040,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Parsing TestProgram",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.TestProgram",
           "name": "Verbosity",
           "package": "BNFC",
@@ -3053,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.TestProgram",
           "name": "mainTest",
           "package": "BNFC",
@@ -3062,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "Parsing TestProgram",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.TestProgram",
           "name": "mainTest",
           "normalized": "((a,Any)-\u003eString)-\u003e(Bool-\u003eb-\u003ePair[(a,Any)])-\u003e(String-\u003e[b])-\u003e(b-\u003e(Int,Int))-\u003e(a-\u003eString)-\u003e(a-\u003e[a])-\u003eIO()",
@@ -3077,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.TestProgram",
           "name": "pairs",
           "package": "BNFC",
@@ -3086,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Parsing TestProgram",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.TestProgram",
           "name": "pairs",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -3100,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.TestProgram",
           "name": "putStrV",
           "package": "BNFC",
@@ -3109,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Parsing TestProgram",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.TestProgram",
           "name": "putStrV",
           "normalized": "Verbosity-\u003eString-\u003eIO()",
@@ -3124,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:56 UTC 2014",
           "module": "Parsing.TestProgram",
           "name": "resSz",
           "package": "BNFC",
@@ -3133,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Parsing TestProgram",
+          "indexed": "2014-03-11T16:33:56",
           "module": "Parsing.TestProgram",
           "name": "resSz",
           "normalized": "(a,b,a)-\u003ea",

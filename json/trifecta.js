@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "trifecta"
+        "phrase": "trifecta",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "Combinators",
           "package": "trifecta",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "Combinators",
           "package": "trifecta",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class provides parsers with easy access to:\n\u003c/p\u003e\u003cp\u003e1) the current line contents.\n 2) the current position as a \u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e.\n 3) the ability to use \u003ccode\u003e\u003ca\u003esliced\u003c/a\u003e\u003c/code\u003e on any parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "DeltaParsing",
           "package": "trifecta",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This class provides parsers with easy access to the current line contents the current position as Delta the ability to use sliced on any parser",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "DeltaParsing",
           "package": "trifecta",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is a refinement of \u003ccode\u003e\u003ca\u003eDeltaParsing\u003c/a\u003e\u003c/code\u003e that adds the ability to mark your position in the input\n and return there for further parsing later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "MarkParsing",
           "package": "trifecta",
@@ -72,6 +77,7 @@
         "index": {
           "description": "This class is refinement of DeltaParsing that adds the ability to mark your position in the input and return there for further parsing later",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "MarkParsing",
           "package": "trifecta",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eCareted\u003c/a\u003e\u003c/code\u003e result. Pointing the \u003ccode\u003e\u003ca\u003eCaret\u003c/a\u003e\u003c/code\u003e to where you start.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "careted",
           "package": "trifecta",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Parse Careted result Pointing the Caret to where you start",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "careted",
           "normalized": "a b-\u003ea(Careted b)",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab a \u003ccode\u003e\u003ca\u003eCaret\u003c/a\u003e\u003c/code\u003e pointing to the current location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "careting",
           "package": "trifecta",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Grab Caret pointing to the current location",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "careting",
           "package": "trifecta",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab a fixit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "fixiting",
           "package": "trifecta",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Grab fixit",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "fixiting",
           "normalized": "a ByteString-\u003ea Fixit",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the contents of the current line (from the beginning of the line)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "line",
           "package": "trifecta",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Retrieve the contents of the current line from the beginning of the line",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "line",
           "package": "trifecta",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emark the current location so it can be used in constructing a span, or for later seeking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "mark",
           "package": "trifecta",
@@ -192,6 +207,7 @@
         "index": {
           "description": "mark the current location so it can be used in constructing span or for later seeking",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "mark",
           "package": "trifecta",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current position as a \u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "position",
           "package": "trifecta",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Retrieve the current position as Delta",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "position",
           "package": "trifecta",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek a previously marked location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "release",
           "package": "trifecta",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Seek previously marked location",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "release",
           "normalized": "a-\u003eb()",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a \u003ccode\u003e\u003ca\u003eRendering\u003c/a\u003e\u003c/code\u003e of the current linem noting this position, but not\n placing a \u003ccode\u003e\u003ca\u003eCaret\u003c/a\u003e\u003c/code\u003e there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "rend",
           "package": "trifecta",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Retrieve Rendering of the current linem noting this position but not placing Caret there",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "rend",
           "package": "trifecta",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab the remainder of the current line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "restOfLine",
           "package": "trifecta",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Grab the remainder of the current line",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "restOfLine",
           "package": "trifecta",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser, grabbing all of the text between its start and end points and discarding the original result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "sliced",
           "package": "trifecta",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Run parser grabbing all of the text between its start and end points and discarding the original result",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "sliced",
           "normalized": "a b-\u003ea ByteString",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser, grabbing all of the text between its start and end points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "slicedWith",
           "package": "trifecta",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Run parser grabbing all of the text between its start and end points",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "slicedWith",
           "normalized": "(a-\u003eByteString-\u003eb)-\u003ec a-\u003ec b",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eSpanned\u003c/a\u003e\u003c/code\u003e result. The \u003ccode\u003e\u003ca\u003eSpan\u003c/a\u003e\u003c/code\u003e starts here and runs to the last position parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "spanned",
           "package": "trifecta",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Parse Spanned result The Span starts here and runs to the last position parsed",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "spanned",
           "normalized": "a b-\u003ea(Spanned b)",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard the result of a parse, returning a \u003ccode\u003e\u003ca\u003eSpan\u003c/a\u003e\u003c/code\u003e from where we start to where it ended parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Combinators",
           "name": "spanning",
           "package": "trifecta",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Discard the result of parse returning Span from where we start to where it ended parsing",
           "hierarchy": "Text Trifecta Combinators",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Combinators",
           "name": "spanning",
           "normalized": "a b-\u003ea Span",
@@ -400,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "Delta",
           "package": "trifecta",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "Delta",
           "package": "trifecta",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "Delta",
           "package": "trifecta",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "Delta",
           "package": "trifecta",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "HasBytes",
           "package": "trifecta",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "HasBytes",
           "package": "trifecta",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "HasDelta",
           "package": "trifecta",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "HasDelta",
           "package": "trifecta",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "Columns",
           "package": "trifecta",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "Columns",
           "package": "trifecta",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "Directed",
           "package": "trifecta",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "Directed",
           "package": "trifecta",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "Lines",
           "package": "trifecta",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "Lines",
           "package": "trifecta",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "Tab",
           "package": "trifecta",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "Tab",
           "package": "trifecta",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "bytes",
           "package": "trifecta",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "bytes",
           "normalized": "a-\u003eInt",
@@ -596,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the character offset within the current line from this \u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "column",
           "package": "trifecta",
@@ -606,6 +657,7 @@
         "index": {
           "description": "Retrieve the character offset within the current line from this Delta",
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "column",
           "normalized": "a-\u003eInt",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the byte offset within the current line from this \u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "columnByte",
           "package": "trifecta",
@@ -631,6 +684,7 @@
         "index": {
           "description": "Retrieve the byte offset within the current line from this Delta",
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "columnByte",
           "normalized": "Delta-\u003eInt",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "delta",
           "package": "trifecta",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "delta",
           "normalized": "a-\u003eDelta",
@@ -670,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould we show two things with a \u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e on the same line?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "near",
           "package": "trifecta",
@@ -680,6 +737,7 @@
         "index": {
           "description": "Should we show two things with Delta on the same line",
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "near",
           "normalized": "a-\u003eb-\u003eBool",
@@ -695,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement a column number to the next tabstop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "nextTab",
           "package": "trifecta",
@@ -705,6 +764,7 @@
         "index": {
           "description": "Increment column number to the next tabstop",
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "nextTab",
           "normalized": "Int-\u003eInt",
@@ -721,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewind a \u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e to the beginning of the line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Delta",
           "name": "rewind",
           "package": "trifecta",
@@ -731,6 +792,7 @@
         "index": {
           "description": "Rewind Delta to the beginning of the line",
           "hierarchy": "Text Trifecta Delta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Delta",
           "name": "rewind",
           "normalized": "Delta-\u003eDelta",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "Highlight",
           "package": "trifecta",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "Highlight",
           "package": "trifecta",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "HasHighlightDoc",
           "package": "trifecta",
@@ -774,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "HasHighlightDoc",
           "package": "trifecta",
@@ -787,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "HasHighlightedRope",
           "package": "trifecta",
@@ -795,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "HasHighlightedRope",
           "package": "trifecta",
@@ -809,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTags used by the \u003ccode\u003e\u003ca\u003eTokenParsing\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ehighlight\u003c/a\u003e\u003c/code\u003e combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "Highlight",
           "package": "trifecta",
@@ -817,6 +886,7 @@
         "index": {
           "description": "Tags used by the TokenParsing highlight combinator",
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "Highlight",
           "package": "trifecta",
@@ -831,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a source file like an HsColour rendered document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "HighlightDoc",
           "package": "trifecta",
@@ -840,6 +911,7 @@
         "index": {
           "description": "Represents source file like an HsColour rendered document",
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "HighlightDoc",
           "package": "trifecta",
@@ -854,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eHighlightedRope\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eRope\u003c/a\u003e\u003c/code\u003e with an associated \u003ccode\u003e\u003ca\u003eIntervalMap\u003c/a\u003e\u003c/code\u003e full of highlighted regions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "HighlightedRope",
           "package": "trifecta",
@@ -863,6 +936,7 @@
         "index": {
           "description": "HighlightedRope is Rope with an associated IntervalMap full of highlighted regions",
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "HighlightedRope",
           "package": "trifecta",
@@ -876,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "HighlightDoc",
           "package": "trifecta",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "HighlightDoc",
           "package": "trifecta",
@@ -898,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "HighlightedRope",
           "package": "trifecta",
@@ -907,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "HighlightedRope",
           "package": "trifecta",
@@ -921,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an HTML document from a title and a \u003ccode\u003e\u003ca\u003eHighlightedRope\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "doc",
           "package": "trifecta",
@@ -931,6 +1010,7 @@
         "index": {
           "description": "Generate an HTML document from title and HighlightedRope",
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "doc",
           "normalized": "String-\u003eHighlightedRope-\u003eHighlightDoc",
@@ -945,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "docContent",
           "package": "trifecta",
@@ -954,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "docContent",
           "package": "trifecta",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "docCss",
           "package": "trifecta",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "docCss",
           "package": "trifecta",
@@ -989,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "docTitle",
           "package": "trifecta",
@@ -998,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "docTitle",
           "package": "trifecta",
@@ -1011,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "highlightDoc",
           "package": "trifecta",
@@ -1020,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "highlightDoc",
           "package": "trifecta",
@@ -1033,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "highlightedRope",
           "package": "trifecta",
@@ -1042,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "highlightedRope",
           "package": "trifecta",
@@ -1055,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "ropeContent",
           "package": "trifecta",
@@ -1064,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "ropeContent",
           "package": "trifecta",
@@ -1077,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "ropeHighlights",
           "package": "trifecta",
@@ -1086,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "ropeHighlights",
           "package": "trifecta",
@@ -1100,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eHighlight\u003c/a\u003e\u003c/code\u003e into a coloration on a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Highlight",
           "name": "withHighlight",
           "package": "trifecta",
@@ -1110,6 +1205,7 @@
         "index": {
           "description": "Convert Highlight into coloration on Doc",
           "hierarchy": "Text Trifecta Highlight",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Highlight",
           "name": "withHighlight",
           "normalized": "Highlight-\u003eDoc-\u003eDoc",
@@ -1125,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "Parser",
           "package": "trifecta",
@@ -1133,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "Parser",
           "package": "trifecta",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "Parser",
           "package": "trifecta",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "Parser",
           "package": "trifecta",
@@ -1167,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "Step",
           "package": "trifecta",
@@ -1175,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "Step",
           "package": "trifecta",
@@ -1188,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "Parser",
           "package": "trifecta",
@@ -1197,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "Parser",
           "package": "trifecta",
@@ -1210,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "StepCont",
           "package": "trifecta",
@@ -1219,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "StepCont",
           "normalized": "StepCont Rope(Result a)(Rope-\u003eStep a)",
@@ -1234,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "StepDone",
           "package": "trifecta",
@@ -1243,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "StepDone",
           "package": "trifecta",
@@ -1256,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "StepFail",
           "package": "trifecta",
@@ -1265,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "StepFail",
           "package": "trifecta",
@@ -1278,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "feed",
           "package": "trifecta",
@@ -1287,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "feed",
           "normalized": "a-\u003eStep b-\u003eStep b",
@@ -1301,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "manyAccum",
           "package": "trifecta",
@@ -1310,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "manyAccum",
           "normalized": "(a-\u003e[a]-\u003e[a])-\u003eParser a-\u003eParser[a]",
@@ -1326,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseByteString p delta i\u003c/code\u003e runs a parser \u003ccode\u003ep\u003c/code\u003e on \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "parseByteString",
           "package": "trifecta",
@@ -1336,6 +1451,7 @@
         "index": {
           "description": "parseByteString delta runs parser on",
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "parseByteString",
           "normalized": "Parser a-\u003eDelta-\u003eByteString-\u003eResult a",
@@ -1352,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseFromFile p filePath\u003c/code\u003e runs a parser \u003ccode\u003ep\u003c/code\u003e on the\n input read from \u003ccode\u003efilePath\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e. All diagnostic messages\n emitted over the course of the parse attempt are shown to the user on the console.\n\u003c/p\u003e\u003cpre\u003e main = do\n   result \u003c- parseFromFile numbers \"digits.txt\"\n   case result of\n     Nothing -\u003e return ()\n     Just a  -\u003e print $ sum a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "parseFromFile",
           "package": "trifecta",
@@ -1362,6 +1479,7 @@
         "index": {
           "description": "parseFromFile filePath runs parser on the input read from filePath using readFile All diagnostic messages emitted over the course of the parse attempt are shown to the user on the console main do result parseFromFile numbers digits.txt case result of Nothing return Just print sum",
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "parseFromFile",
           "normalized": "Parser a-\u003eString-\u003eb(Maybe a)",
@@ -1378,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseFromFileEx p filePath\u003c/code\u003e runs a parser \u003ccode\u003ep\u003c/code\u003e on the\n input read from \u003ccode\u003efilePath\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e. Returns all diagnostic messages\n emitted over the course of the parse and the answer if the parse was successful.\n\u003c/p\u003e\u003cpre\u003e main = do\n   result \u003c- parseFromFileEx (many number) \"digits.txt\"\n   case result of\n     Failure xs -\u003e displayLn xs\n     Success a  -\u003e print (sum a)\n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "parseFromFileEx",
           "package": "trifecta",
@@ -1388,6 +1507,7 @@
         "index": {
           "description": "parseFromFileEx filePath runs parser on the input read from filePath using readFile Returns all diagnostic messages emitted over the course of the parse and the answer if the parse was successful main do result parseFromFileEx many number digits.txt case result of Failure xs displayLn xs Success print sum",
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "parseFromFileEx",
           "normalized": "Parser a-\u003eString-\u003eb(Result a)",
@@ -1403,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "parseString",
           "package": "trifecta",
@@ -1412,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "parseString",
           "normalized": "Parser a-\u003eDelta-\u003eString-\u003eResult a",
@@ -1427,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "parseTest",
           "package": "trifecta",
@@ -1436,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "parseTest",
           "normalized": "Parser a-\u003eString-\u003eb()",
@@ -1451,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "starve",
           "package": "trifecta",
@@ -1460,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "starve",
           "normalized": "Step a-\u003eResult a",
@@ -1474,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "stepIt",
           "package": "trifecta",
@@ -1483,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "stepIt",
           "normalized": "It Rope a-\u003eStep a",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "stepParser",
           "package": "trifecta",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "stepParser",
           "normalized": "Parser a-\u003eDelta-\u003eByteString-\u003eStep a",
@@ -1522,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "stepResult",
           "package": "trifecta",
@@ -1531,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "stepResult",
           "normalized": "Rope-\u003eResult a-\u003eStep a",
@@ -1546,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Parser",
           "name": "unparser",
           "package": "trifecta",
@@ -1555,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Parser",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Parser",
           "name": "unparser",
           "normalized": "a b(c-\u003eErr-\u003eIt Rope d)-\u003e(Err-\u003eIt Rope d)-\u003e(c-\u003eSet String-\u003eDelta-\u003eByteString-\u003eIt Rope d)-\u003e(Doc-\u003eIt Rope d)-\u003eDelta-\u003eByteString-\u003eIt Rope d",
@@ -1570,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe type for Lines will very likely change over time, to enable drawing\n lit up multi-character versions of control characters for \u003ccode\u003e^Z\u003c/code\u003e, \u003ccode\u003e^[\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003e0xff\u003c/a\u003e\u003c/code\u003e, etc. This will make for much nicer diagnostics when\n working with protocols.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Rendering",
           "package": "trifecta",
@@ -1579,6 +1714,7 @@
         "index": {
           "description": "The type for Lines will very likely change over time to enable drawing lit up multi-character versions of control characters for xff etc This will make for much nicer diagnostics when working with protocols",
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Rendering",
           "package": "trifecta",
@@ -1593,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e In file included from baz.c:9\n In file included from bar.c:4\n foo.c:8:36: note\n int main(int argc, char ** argv) { int; }\n                                    ^\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Caret",
           "package": "trifecta",
@@ -1602,6 +1739,7 @@
         "index": {
           "description": "In file included from baz.c In file included from bar.c foo.c note int main int argc char argv int",
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Caret",
           "package": "trifecta",
@@ -1615,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Careted",
           "package": "trifecta",
@@ -1623,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Careted",
           "package": "trifecta",
@@ -1636,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Fixit",
           "package": "trifecta",
@@ -1644,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Fixit",
           "package": "trifecta",
@@ -1657,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "HasCaret",
           "package": "trifecta",
@@ -1665,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "HasCaret",
           "package": "trifecta",
@@ -1678,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "HasFixit",
           "package": "trifecta",
@@ -1686,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "HasFixit",
           "package": "trifecta",
@@ -1699,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "HasRendering",
           "package": "trifecta",
@@ -1707,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "HasRendering",
           "package": "trifecta",
@@ -1720,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "HasSpan",
           "package": "trifecta",
@@ -1728,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "HasSpan",
           "package": "trifecta",
@@ -1741,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Lines",
           "package": "trifecta",
@@ -1749,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Lines",
           "package": "trifecta",
@@ -1762,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Renderable",
           "package": "trifecta",
@@ -1770,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Renderable",
           "package": "trifecta",
@@ -1783,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Rendered",
           "package": "trifecta",
@@ -1791,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Rendered",
           "package": "trifecta",
@@ -1804,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Rendering",
           "package": "trifecta",
@@ -1812,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Rendering",
           "package": "trifecta",
@@ -1825,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Source",
           "package": "trifecta",
@@ -1833,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Source",
           "package": "trifecta",
@@ -1846,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Span",
           "package": "trifecta",
@@ -1854,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Span",
           "package": "trifecta",
@@ -1867,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Spanned",
           "package": "trifecta",
@@ -1875,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Spanned",
           "package": "trifecta",
@@ -1888,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "(.#)",
           "package": "trifecta",
@@ -1897,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "(.#) .#",
           "normalized": "(Delta-\u003eLines-\u003eLines)-\u003eRendering-\u003eRendering",
@@ -1911,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": ":~",
           "package": "trifecta",
@@ -1920,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": ":~",
           "package": "trifecta",
@@ -1932,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": ":@",
           "package": "trifecta",
@@ -1941,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": ":@",
           "package": "trifecta",
@@ -1953,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": ":^",
           "package": "trifecta",
@@ -1962,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": ":^",
           "package": "trifecta",
@@ -1974,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Caret",
           "package": "trifecta",
@@ -1983,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Caret",
           "package": "trifecta",
@@ -1996,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Fixit",
           "package": "trifecta",
@@ -2005,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Fixit",
           "package": "trifecta",
@@ -2018,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Rendering",
           "package": "trifecta",
@@ -2027,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Rendering",
           "normalized": "Rendering Delta Int Int(Lines-\u003eLines)(Delta-\u003eLines-\u003eLines)",
@@ -2042,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "Span",
           "package": "trifecta",
@@ -2051,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "Span",
           "package": "trifecta",
@@ -2064,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "_fixitReplacement",
           "package": "trifecta",
@@ -2073,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "_fixitReplacement",
           "package": "trifecta",
@@ -2086,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "_fixitSpan",
           "package": "trifecta",
@@ -2095,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "_fixitSpan",
           "package": "trifecta",
@@ -2108,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "addCaret",
           "package": "trifecta",
@@ -2117,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "addCaret",
           "normalized": "Delta-\u003eRendering-\u003eRendering",
@@ -2132,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "addFixit",
           "package": "trifecta",
@@ -2141,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "addFixit",
           "normalized": "Delta-\u003eDelta-\u003eString-\u003eRendering-\u003eRendering",
@@ -2157,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e int main(int argc, char ** argv) { int; }\n                                    ^~~\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "addSpan",
           "package": "trifecta",
@@ -2167,6 +2356,7 @@
         "index": {
           "description": "int main int argc char argv int",
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "addSpan",
           "normalized": "Delta-\u003eDelta-\u003eRendering-\u003eRendering",
@@ -2182,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "caret",
           "package": "trifecta",
@@ -2191,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "caret",
           "package": "trifecta",
@@ -2203,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "caretEffects",
           "package": "trifecta",
@@ -2212,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "caretEffects",
           "normalized": "[SGR]",
@@ -2227,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "draw",
           "package": "trifecta",
@@ -2236,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "draw",
           "normalized": "[SGR]-\u003eInt-\u003eInt-\u003eString-\u003eLines-\u003eLines",
@@ -2250,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "drawCaret",
           "package": "trifecta",
@@ -2259,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "drawCaret",
           "normalized": "Delta-\u003eDelta-\u003eLines-\u003eLines",
@@ -2274,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "drawFixit",
           "package": "trifecta",
@@ -2283,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "drawFixit",
           "normalized": "Delta-\u003eDelta-\u003eString-\u003eDelta-\u003eLines-\u003eLines",
@@ -2298,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "drawSpan",
           "package": "trifecta",
@@ -2307,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "drawSpan",
           "normalized": "Delta-\u003eDelta-\u003eDelta-\u003eLines-\u003eLines",
@@ -2322,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "emptyRendering",
           "package": "trifecta",
@@ -2331,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "emptyRendering",
           "package": "trifecta",
@@ -2344,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "fixit",
           "package": "trifecta",
@@ -2353,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "fixit",
           "package": "trifecta",
@@ -2365,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "fixitReplacement",
           "package": "trifecta",
@@ -2374,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "fixitReplacement",
           "package": "trifecta",
@@ -2387,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "fixitSpan",
           "package": "trifecta",
@@ -2396,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "fixitSpan",
           "package": "trifecta",
@@ -2409,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "ifNear",
           "package": "trifecta",
@@ -2418,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "ifNear",
           "normalized": "Delta-\u003e(Lines-\u003eLines)-\u003eDelta-\u003eLines-\u003eLines",
@@ -2433,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "nullRendering",
           "package": "trifecta",
@@ -2442,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "nullRendering",
           "normalized": "Rendering-\u003eBool",
@@ -2457,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "render",
           "package": "trifecta",
@@ -2466,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "render",
           "normalized": "a-\u003eRendering",
@@ -2481,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a drawing surface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "rendered",
           "package": "trifecta",
@@ -2491,6 +2708,7 @@
         "index": {
           "description": "create drawing surface",
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "rendered",
           "normalized": "Delta-\u003ea-\u003eRendering",
@@ -2505,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "rendering",
           "package": "trifecta",
@@ -2514,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "rendering",
           "package": "trifecta",
@@ -2526,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingCaret",
           "package": "trifecta",
@@ -2535,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingCaret",
           "normalized": "Delta-\u003eByteString-\u003eRendering",
@@ -2550,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingDelta",
           "package": "trifecta",
@@ -2559,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingDelta",
           "package": "trifecta",
@@ -2572,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingLine",
           "package": "trifecta",
@@ -2581,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingLine",
           "normalized": "Lens' a(Lines-\u003eLines)",
@@ -2596,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingLineBytes",
           "package": "trifecta",
@@ -2605,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingLineBytes",
           "package": "trifecta",
@@ -2618,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingLineLen",
           "package": "trifecta",
@@ -2627,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingLineLen",
           "package": "trifecta",
@@ -2640,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingOverlays",
           "package": "trifecta",
@@ -2649,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "renderingOverlays",
           "normalized": "Lens' a(Delta-\u003eLines-\u003eLines)",
@@ -2664,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "source",
           "package": "trifecta",
@@ -2673,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "source",
           "normalized": "a-\u003e(Int,Int,Lines-\u003eLines)",
@@ -2687,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "span",
           "package": "trifecta",
@@ -2696,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "span",
           "package": "trifecta",
@@ -2708,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rendering",
           "name": "spanEffects",
           "package": "trifecta",
@@ -2717,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rendering",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rendering",
           "name": "spanEffects",
           "normalized": "[SGR]",
@@ -2733,6 +2971,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eResults and Parse Errors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "Result",
           "package": "trifecta",
@@ -2742,6 +2981,7 @@
         "index": {
           "description": "Results and Parse Errors",
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "Result",
           "package": "trifecta",
@@ -2756,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePrism\u003c/a\u003e\u003c/code\u003e that lets you embed or retrieve a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e in a potentially larger type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "AsResult",
           "package": "trifecta",
@@ -2765,6 +3006,7 @@
         "index": {
           "description": "Prism that lets you embed or retrieve Result in potentially larger type",
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "AsResult",
           "package": "trifecta",
@@ -2779,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used to report an error. What went wrong, some supplemental docs and a set of things expected\n at the current location. This does not, however, include the actual location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "Err",
           "package": "trifecta",
@@ -2788,6 +3031,7 @@
         "index": {
           "description": "This is used to report an error What went wrong some supplemental docs and set of things expected at the current location This does not however include the actual location",
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "Err",
           "package": "trifecta",
@@ -2801,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "Errable",
           "package": "trifecta",
@@ -2809,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "Errable",
           "package": "trifecta",
@@ -2822,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "HasErr",
           "package": "trifecta",
@@ -2830,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "HasErr",
           "package": "trifecta",
@@ -2844,6 +3092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of parsing. Either we succeeded or something went wrong.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "Result",
           "package": "trifecta",
@@ -2853,6 +3102,7 @@
         "index": {
           "description": "The result of parsing Either we succeeded or something went wrong",
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "Result",
           "package": "trifecta",
@@ -2866,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "Err",
           "package": "trifecta",
@@ -2875,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "Err",
           "package": "trifecta",
@@ -2888,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "Failure",
           "package": "trifecta",
@@ -2897,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "Failure",
           "package": "trifecta",
@@ -2910,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "Success",
           "package": "trifecta",
@@ -2919,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "Success",
           "package": "trifecta",
@@ -2933,6 +3189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePrism\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eFailure\u003c/a\u003e\u003c/code\u003e constructor of \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "_Failure",
           "package": "trifecta",
@@ -2943,6 +3200,7 @@
         "index": {
           "description": "The Prism for the Failure constructor of Result",
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "_Failure",
           "package": "trifecta",
@@ -2956,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "_Result",
           "package": "trifecta",
@@ -2965,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "_Result",
           "package": "trifecta",
@@ -2979,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePrism\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eSuccess\u003c/a\u003e\u003c/code\u003e constructor of \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "_Success",
           "package": "trifecta",
@@ -2989,6 +3250,7 @@
         "index": {
           "description": "The Prism for the Success constructor of Result",
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "_Success",
           "package": "trifecta",
@@ -3002,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "_expected",
           "package": "trifecta",
@@ -3011,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "_expected",
           "package": "trifecta",
@@ -3023,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "_footnotes",
           "package": "trifecta",
@@ -3032,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "_footnotes",
           "normalized": "[Doc]",
@@ -3046,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "_reason",
           "package": "trifecta",
@@ -3055,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "_reason",
           "package": "trifecta",
@@ -3067,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "err",
           "package": "trifecta",
@@ -3076,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "err",
           "package": "trifecta",
@@ -3088,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "expected",
           "package": "trifecta",
@@ -3097,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "expected",
           "package": "trifecta",
@@ -3110,6 +3382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a location and an \u003ccode\u003e\u003ca\u003eErr\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "explain",
           "package": "trifecta",
@@ -3120,6 +3393,7 @@
         "index": {
           "description": "Convert location and an Err into Doc",
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "explain",
           "normalized": "Rendering-\u003eErr-\u003eDoc",
@@ -3135,6 +3409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a simple \u003ccode\u003e\u003ca\u003eErr\u003c/a\u003e\u003c/code\u003e word-wrapping the supplied message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "failed",
           "package": "trifecta",
@@ -3145,6 +3420,7 @@
         "index": {
           "description": "Generate simple Err word-wrapping the supplied message",
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "failed",
           "normalized": "String-\u003eErr",
@@ -3159,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "footnotes",
           "package": "trifecta",
@@ -3168,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "footnotes",
           "normalized": "Lens' a[Doc]",
@@ -3182,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "raiseErr",
           "package": "trifecta",
@@ -3191,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "raiseErr",
           "normalized": "Err-\u003ea b",
@@ -3206,6 +3486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Result",
           "name": "reason",
           "package": "trifecta",
@@ -3215,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Result",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Result",
           "name": "reason",
           "package": "trifecta",
@@ -3227,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "Rope",
           "package": "trifecta",
@@ -3235,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "Rope",
           "package": "trifecta",
@@ -3248,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "Rope",
           "package": "trifecta",
@@ -3256,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "Rope",
           "package": "trifecta",
@@ -3269,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "Strand",
           "package": "trifecta",
@@ -3277,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "Strand",
           "package": "trifecta",
@@ -3290,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "Rope",
           "package": "trifecta",
@@ -3299,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "Rope",
           "package": "trifecta",
@@ -3312,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "Skipping",
           "package": "trifecta",
@@ -3321,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "Skipping",
           "package": "trifecta",
@@ -3334,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "Strand",
           "package": "trifecta",
@@ -3343,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "Strand",
           "package": "trifecta",
@@ -3357,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egrab a the contents of a rope from a given location up to a newline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "grabLine",
           "package": "trifecta",
@@ -3367,6 +3662,7 @@
         "index": {
           "description": "grab the contents of rope from given location up to newline",
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "grabLine",
           "normalized": "Delta-\u003eRope-\u003ea-\u003e(Delta-\u003eByteString-\u003ea)-\u003ea",
@@ -3383,6 +3679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egrab a the contents of a rope from a given location up to a newline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "grabRest",
           "package": "trifecta",
@@ -3393,6 +3690,7 @@
         "index": {
           "description": "grab the contents of rope from given location up to newline",
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "grabRest",
           "normalized": "Delta-\u003eRope-\u003ea-\u003e(Delta-\u003eByteString-\u003ea)-\u003ea",
@@ -3408,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "rope",
           "package": "trifecta",
@@ -3417,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "rope",
           "normalized": "FingerTree Delta Strand-\u003eRope",
@@ -3431,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "strand",
           "package": "trifecta",
@@ -3440,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "strand",
           "normalized": "ByteString-\u003eStrand",
@@ -3454,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Rope",
           "name": "strands",
           "package": "trifecta",
@@ -3463,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Rope",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Rope",
           "name": "strands",
           "normalized": "Rope-\u003eFingerTree Delta Strand",
@@ -3478,6 +3782,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast zero based arrays, based on the implementation in the HAMT-branch of\n unordered-containers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "Array",
           "package": "trifecta",
@@ -3487,6 +3792,7 @@
         "index": {
           "description": "Fast zero based arrays based on the implementation in the HAMT-branch of unordered-containers",
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "Array",
           "package": "trifecta",
@@ -3500,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "Array",
           "package": "trifecta",
@@ -3508,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "Array",
           "package": "trifecta",
@@ -3521,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "MArray",
           "package": "trifecta",
@@ -3529,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "MArray",
           "package": "trifecta",
@@ -3543,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafely copy the elements of an array. Array bounds are not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "copy",
           "package": "trifecta",
@@ -3553,6 +3864,7 @@
         "index": {
           "description": "Unsafely copy the elements of an array Array bounds are not checked",
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "copy",
           "normalized": "Array a-\u003eInt-\u003eMArray b a-\u003eInt-\u003eInt-\u003eST b()",
@@ -3568,6 +3880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafely copy the elements of an array. Array bounds are not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "copyM",
           "package": "trifecta",
@@ -3578,6 +3891,7 @@
         "index": {
           "description": "Unsafely copy the elements of an array Array bounds are not checked",
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "copyM",
           "normalized": "MArray a b-\u003eInt-\u003eMArray a b-\u003eInt-\u003eInt-\u003eST a()",
@@ -3593,6 +3907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Delete an element at the given position in this array,\n decreasing its size by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "delete",
           "package": "trifecta",
@@ -3603,6 +3918,7 @@
         "index": {
           "description": "Delete an element at the given position in this array decreasing its size by one",
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "delete",
           "normalized": "Array a-\u003eInt-\u003eArray a",
@@ -3617,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "empty",
           "package": "trifecta",
@@ -3626,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "empty",
           "package": "trifecta",
@@ -3638,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "filter",
           "package": "trifecta",
@@ -3647,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eArray a-\u003eArray a",
@@ -3661,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "foldl'",
           "package": "trifecta",
@@ -3670,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eArray b-\u003ea",
@@ -3684,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "foldr",
           "package": "trifecta",
@@ -3693,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eArray a-\u003eb",
@@ -3707,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "index",
           "package": "trifecta",
@@ -3716,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "index",
           "normalized": "Array a-\u003eInt-\u003ea",
@@ -3730,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "indexM_",
           "package": "trifecta",
@@ -3739,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "indexM_",
           "normalized": "MArray a b-\u003eInt-\u003eST a b",
@@ -3753,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "index_",
           "package": "trifecta",
@@ -3762,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "index_",
           "normalized": "Array a-\u003eInt-\u003eST b a",
@@ -3777,6 +4107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Insert an element at the given position in this array,\n increasing its size by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "insert",
           "package": "trifecta",
@@ -3787,6 +4118,7 @@
         "index": {
           "description": "Insert an element at the given position in this array increasing its size by one",
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "insert",
           "normalized": "Array a-\u003eInt-\u003ea-\u003eArray a",
@@ -3801,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "length",
           "package": "trifecta",
@@ -3810,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "length",
           "normalized": "Array a-\u003eInt",
@@ -3824,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "lengthM",
           "package": "trifecta",
@@ -3833,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "lengthM",
           "normalized": "MArray a b-\u003eInt",
@@ -3847,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "map",
           "package": "trifecta",
@@ -3856,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eArray a-\u003eArray b",
@@ -3871,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "map'",
           "package": "trifecta",
@@ -3881,6 +4220,7 @@
         "index": {
           "description": "Strict version of map",
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "map'",
           "normalized": "(a-\u003eb)-\u003eArray a-\u003eArray b",
@@ -3896,6 +4236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new mutable array of specified size, in the specified\n state thread, with each element containing the specified initial\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "new",
           "package": "trifecta",
@@ -3906,6 +4247,7 @@
         "index": {
           "description": "Create new mutable array of specified size in the specified state thread with each element containing the specified initial value",
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "new",
           "normalized": "Int-\u003ea-\u003eST b(MArray b a)",
@@ -3920,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "new_",
           "package": "trifecta",
@@ -3929,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "new_",
           "normalized": "Int-\u003eST a(MArray a b)",
@@ -3943,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "read",
           "package": "trifecta",
@@ -3952,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "read",
           "normalized": "MArray a b-\u003eInt-\u003eST a b",
@@ -3966,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "run",
           "package": "trifecta",
@@ -3975,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "run",
           "normalized": "(a b ST c(MArray c d))-\u003eArray d",
@@ -3989,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "run2",
           "package": "trifecta",
@@ -3998,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "run2",
           "normalized": "(a b ST c(MArray c d,e))-\u003e(Array d,e)",
@@ -4012,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "singleton",
           "package": "trifecta",
@@ -4021,6 +4372,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "singleton",
           "normalized": "a-\u003eArray a",
@@ -4035,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "thaw",
           "package": "trifecta",
@@ -4044,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "thaw",
           "normalized": "Array a-\u003eInt-\u003eInt-\u003eST b(MArray b a)",
@@ -4058,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "traverse",
           "package": "trifecta",
@@ -4067,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "traverse",
           "normalized": "(a-\u003eb c)-\u003eArray a-\u003eb(Array c)",
@@ -4081,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "unsafeFreeze",
           "package": "trifecta",
@@ -4090,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "unsafeFreeze",
           "normalized": "MArray a b-\u003eST a(Array b)",
@@ -4106,6 +4464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Update the element at the given position in this array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "update",
           "package": "trifecta",
@@ -4116,6 +4475,7 @@
         "index": {
           "description": "Update the element at the given position in this array",
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "update",
           "normalized": "Array a-\u003eInt-\u003ea-\u003eArray a",
@@ -4130,6 +4490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.Array",
           "name": "write",
           "package": "trifecta",
@@ -4139,6 +4500,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util Array",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.Array",
           "name": "write",
           "normalized": "MArray a b-\u003eInt-\u003eb-\u003eST a()",
@@ -4154,6 +4516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterval maps implemented using the \u003ccode\u003e\u003ca\u003eFingerTree\u003c/a\u003e\u003c/code\u003e type, following\n section 4.8 of\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Ralf Hinze and Ross Paterson,\n      \"Finger trees: a simple general-purpose data structure\",\n      \u003cem\u003eJournal of Functional Programming\u003c/em\u003e 16:2 (2006) pp 197-217.\n      \u003ca\u003ehttp://www.soi.city.ac.uk/~ross/papers/FingerTree.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAn amortized running time is given for each operation, with \u003cem\u003en\u003c/em\u003e\n referring to the size of the priority queue.  These bounds hold even\n in a persistent (shared) setting.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Many of these operations have the same names as similar\n operations on lists in the \u003ca\u003ePrelude\u003c/a\u003e.  The ambiguity may be resolved\n using either qualification or the \u003ccode\u003ehiding\u003c/code\u003e clause.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ca\u003eData.IntervalMap.FingerTree\u003c/a\u003e, this version sorts things so\n that the largest interval from a given point comes first. This way\n if you have nested intervals, you get the outermost interval before\n the contained intervals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntervalMap",
           "package": "trifecta",
@@ -4163,6 +4526,7 @@
         "index": {
           "description": "Interval maps implemented using the FingerTree type following section of Ralf Hinze and Ross Paterson Finger trees simple general-purpose data structure Journal of Functional Programming pp http www.soi.city.ac.uk ross papers FingerTree.html An amortized running time is given for each operation with referring to the size of the priority queue These bounds hold even in persistent shared setting Note Many of these operations have the same names as similar operations on lists in the Prelude The ambiguity may be resolved using either qualification or the hiding clause Unlike Data.IntervalMap.FingerTree this version sorts things so that the largest interval from given point comes first This way if you have nested intervals you get the outermost interval before the contained intervals",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntervalMap",
           "package": "trifecta",
@@ -4176,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntInterval",
           "package": "trifecta",
@@ -4184,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntInterval",
           "package": "trifecta",
@@ -4198,6 +4564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closed interval.  The lower bound should be less than or equal\n to the higher bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "Interval",
           "package": "trifecta",
@@ -4207,6 +4574,7 @@
         "index": {
           "description": "closed interval The lower bound should be less than or equal to the higher bound",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "Interval",
           "package": "trifecta",
@@ -4221,6 +4589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of closed intervals, possibly with duplicates.\n The \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e instances process the intervals in\n lexicographical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntervalMap",
           "package": "trifecta",
@@ -4230,6 +4599,7 @@
         "index": {
           "description": "Map of closed intervals possibly with duplicates The Foldable and Traversable instances process the intervals in lexicographical order",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntervalMap",
           "package": "trifecta",
@@ -4243,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntInterval",
           "package": "trifecta",
@@ -4252,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntInterval",
           "package": "trifecta",
@@ -4265,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "Interval",
           "package": "trifecta",
@@ -4274,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "Interval",
           "package": "trifecta",
@@ -4287,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntervalMap",
           "package": "trifecta",
@@ -4296,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "IntervalMap",
           "package": "trifecta",
@@ -4309,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "NoInterval",
           "package": "trifecta",
@@ -4318,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "NoInterval",
           "package": "trifecta",
@@ -4332,6 +4710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(k log (n\u003c/em\u003e/\u003cem\u003ek))\u003c/em\u003e.  All intervals that contain the given interval,\n in lexicographical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "dominators",
           "package": "trifecta",
@@ -4342,6 +4721,7 @@
         "index": {
           "description": "log All intervals that contain the given interval in lexicographical order",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "dominators",
           "normalized": "a-\u003ea-\u003eIntervalMap a b-\u003e[(Interval a,b)]",
@@ -4356,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "fromList",
           "package": "trifecta",
@@ -4365,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "fromList",
           "normalized": "[(a,a,b)]-\u003eIntervalMap a b",
@@ -4380,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "high",
           "package": "trifecta",
@@ -4389,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "high",
           "package": "trifecta",
@@ -4402,6 +4786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e.  Insert an interval into a map.\n The map may contain duplicate intervals; the new entry will be inserted\n before any existing entries for the same interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "insert",
           "package": "trifecta",
@@ -4412,6 +4797,7 @@
         "index": {
           "description": "log Insert an interval into map The map may contain duplicate intervals the new entry will be inserted before any existing entries for the same interval",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "insert",
           "normalized": "a-\u003ea-\u003eb-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -4427,6 +4813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(k log (n\u003c/em\u003e/\u003cem\u003ek))\u003c/em\u003e.  All intervals that intersect with the given\n interval, in lexicographical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "intersections",
           "package": "trifecta",
@@ -4437,6 +4824,7 @@
         "index": {
           "description": "log All intervals that intersect with the given interval in lexicographical order",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "intersections",
           "normalized": "a-\u003ea-\u003eIntervalMap a b-\u003e[(Interval a,b)]",
@@ -4451,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "low",
           "package": "trifecta",
@@ -4460,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "low",
           "package": "trifecta",
@@ -4473,6 +4863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Add a delta to each interval in the map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "offset",
           "package": "trifecta",
@@ -4483,6 +4874,7 @@
         "index": {
           "description": "Add delta to each interval in the map",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "offset",
           "normalized": "a-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -4497,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "runIntervalMap",
           "package": "trifecta",
@@ -4506,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "runIntervalMap",
           "package": "trifecta",
@@ -4520,6 +4914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(k log (n\u003c/em\u003e/\u003cem\u003ek))\u003c/em\u003e.  All intervals that contain the given point,\n in lexicographical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "search",
           "package": "trifecta",
@@ -4530,6 +4925,7 @@
         "index": {
           "description": "log All intervals that contain the given point in lexicographical order",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "search",
           "normalized": "a-\u003eIntervalMap a b-\u003e[(Interval a,b)]",
@@ -4545,6 +4941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  Interval map with a single entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "singleton",
           "package": "trifecta",
@@ -4555,6 +4952,7 @@
         "index": {
           "description": "Interval map with single entry",
           "hierarchy": "Text Trifecta Util IntervalMap",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.IntervalMap",
           "name": "singleton",
           "normalized": "Interval a-\u003eb-\u003eIntervalMap a b",
@@ -4570,6 +4968,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eharder, better, faster, stronger...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "It",
           "package": "trifecta",
@@ -4579,6 +4978,7 @@
         "index": {
           "description": "harder better faster stronger",
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "It",
           "package": "trifecta",
@@ -4592,6 +4992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "It",
           "package": "trifecta",
@@ -4600,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "It",
           "package": "trifecta",
@@ -4613,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "It",
           "package": "trifecta",
@@ -4622,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "It",
           "normalized": "It a(b-\u003eIt b a)",
@@ -4637,6 +5041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "Pure",
           "package": "trifecta",
@@ -4646,6 +5051,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "Pure",
           "package": "trifecta",
@@ -4660,6 +5066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a position, go there, and grab the text forward from that point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "fillIt",
           "package": "trifecta",
@@ -4670,6 +5077,7 @@
         "index": {
           "description": "Given position go there and grab the text forward from that point",
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "fillIt",
           "normalized": "a-\u003e(Delta-\u003eByteString-\u003ea)-\u003eDelta-\u003eIt Rope a",
@@ -4685,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "needIt",
           "package": "trifecta",
@@ -4694,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "needIt",
           "normalized": "a-\u003e(b-\u003eMaybe a)-\u003eIt b a",
@@ -4710,6 +5120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the text of the line that contains a given position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "rewindIt",
           "package": "trifecta",
@@ -4720,6 +5131,7 @@
         "index": {
           "description": "Return the text of the line that contains given position",
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "rewindIt",
           "normalized": "Delta-\u003eIt Rope(Maybe ByteString)",
@@ -4735,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "runIt",
           "package": "trifecta",
@@ -4744,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "runIt",
           "normalized": "(a-\u003eb)-\u003e(a-\u003e(c-\u003eIt c a)-\u003eb)-\u003eIt c a-\u003eb",
@@ -4759,6 +5173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "simplifyIt",
           "package": "trifecta",
@@ -4768,6 +5183,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "simplifyIt",
           "normalized": "It a b-\u003ea-\u003eIt a b",
@@ -4783,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "sliceIt",
           "package": "trifecta",
@@ -4792,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "sliceIt",
           "normalized": "Delta-\u003eDelta-\u003eIt Rope ByteString",
@@ -4807,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta.Util.It",
           "name": "wantIt",
           "package": "trifecta",
@@ -4816,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta Util It",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta.Util.It",
           "name": "wantIt",
           "normalized": "a-\u003e(b-\u003e(#Bool,a #))-\u003eIt b a",
@@ -4831,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:38 UTC 2014",
           "module": "Text.Trifecta",
           "name": "Trifecta",
           "package": "trifecta",
@@ -4839,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Text Trifecta",
+          "indexed": "2014-03-11T20:25:38",
           "module": "Text.Trifecta",
           "name": "Trifecta",
           "package": "trifecta",

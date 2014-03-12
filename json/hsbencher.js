@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsbencher"
+        "phrase": "hsbencher",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Main module defining the HSBencher driver.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.App",
           "name": "App",
           "package": "hsbencher",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Main module defining the HSBencher driver",
           "hierarchy": "HSBencher App",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.App",
           "name": "App",
           "package": "hsbencher",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.App",
           "name": "Flag",
           "package": "hsbencher",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Command line flags",
           "hierarchy": "HSBencher App",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.App",
           "name": "Flag",
           "package": "hsbencher",
@@ -628,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode to deal with configuration information, including gathering it from the host environment.\n   Also deals with command line arguments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Config",
           "name": "Config",
           "package": "hsbencher",
@@ -637,6 +642,7 @@
         "index": {
           "description": "Code to deal with configuration information including gathering it from the host environment Also deals with command line arguments",
           "hierarchy": "HSBencher Config",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Config",
           "name": "Config",
           "package": "hsbencher",
@@ -651,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Config",
           "name": "Flag",
           "package": "hsbencher",
@@ -660,6 +667,7 @@
         "index": {
           "description": "Command line flags",
           "hierarchy": "HSBencher Config",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Config",
           "name": "Flag",
           "package": "hsbencher",
@@ -674,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill in \u003ca\u003estatic\u003c/a\u003e fields of a FusionTable row based on the \u003ccode\u003e\u003ca\u003eConfig\u003c/a\u003e\u003c/code\u003e data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Config",
           "name": "augmentResultWithConfig",
           "package": "hsbencher",
@@ -684,6 +693,7 @@
         "index": {
           "description": "Fill in static fields of FusionTable row based on the Config data",
           "hierarchy": "HSBencher Config",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Config",
           "name": "augmentResultWithConfig",
           "normalized": "Config-\u003eBenchmarkResult-\u003eIO BenchmarkResult",
@@ -699,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Config",
           "name": "getConfig",
           "package": "hsbencher",
@@ -708,6 +719,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Config",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Config",
           "name": "getConfig",
           "normalized": "[Flag]-\u003e[Benchmark DefaultParamMeaning]-\u003eIO Config",
@@ -724,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode pertaining to Google Fusion Table upload.\n   Built conditionally based on the -ffusion flag.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Fusion",
           "name": "Fusion",
           "package": "hsbencher",
@@ -733,6 +746,7 @@
         "index": {
           "description": "Code pertaining to Google Fusion Table upload Built conditionally based on the ffusion flag",
           "hierarchy": "HSBencher Fusion",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Fusion",
           "name": "Fusion",
           "package": "hsbencher",
@@ -746,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Fusion",
           "name": "FusionConfig",
           "package": "hsbencher",
@@ -754,6 +769,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Fusion",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Fusion",
           "name": "FusionConfig",
           "package": "hsbencher",
@@ -837,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representaton used for creating tables.  Must be isomorphic to\n \u003ccode\u003e\u003ca\u003eBenchmarkResult\u003c/a\u003e\u003c/code\u003e.  This could perhaps be generated automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Fusion",
           "name": "fusionSchema",
           "package": "hsbencher",
@@ -847,6 +864,7 @@
         "index": {
           "description": "representaton used for creating tables Must be isomorphic to BenchmarkResult This could perhaps be generated automatically",
           "hierarchy": "HSBencher Fusion",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Fusion",
           "name": "fusionSchema",
           "normalized": "[(String,CellType)]",
@@ -888,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the table ID that has been cached on disk, or find the the table in the users\n Google Drive, or create a new table if needed.\n\u003c/p\u003e\u003cp\u003eIn the case of a preexisting table, this function also performs sanity checking\n comparing the expected schema (including column ordering) to the sserver side one.\n It returns the permutation of columns found server side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Fusion",
           "name": "getTableId",
           "package": "hsbencher",
@@ -898,6 +917,7 @@
         "index": {
           "description": "Get the table ID that has been cached on disk or find the the table in the users Google Drive or create new table if needed In the case of preexisting table this function also performs sanity checking comparing the expected schema including column ordering to the sserver side one It returns the permutation of columns found server side",
           "hierarchy": "HSBencher Fusion",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Fusion",
           "name": "getTableId",
           "normalized": "OAuth Client-\u003eString-\u003eBenchM(TableId,[String])",
@@ -914,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the Haskell representation of a benchmark result into a tuple for Fusion\n table upload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Fusion",
           "name": "resultToTuple",
           "package": "hsbencher",
@@ -924,6 +945,7 @@
         "index": {
           "description": "Convert the Haskell representation of benchmark result into tuple for Fusion table upload",
           "hierarchy": "HSBencher Fusion",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Fusion",
           "name": "resultToTuple",
           "normalized": "BenchmarkResult-\u003e[(String,String)]",
@@ -967,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard retry behavior when receiving HTTP network errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Fusion",
           "name": "stdRetry",
           "package": "hsbencher",
@@ -977,6 +1000,7 @@
         "index": {
           "description": "The standard retry behavior when receiving HTTP network errors",
           "hierarchy": "HSBencher Fusion",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Fusion",
           "name": "stdRetry",
           "normalized": "String-\u003eOAuth Client-\u003eOAuth Tokens-\u003eIO a-\u003eBenchM a",
@@ -993,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush the results from a single benchmark to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Fusion",
           "name": "uploadBenchResult",
           "package": "hsbencher",
@@ -1003,6 +1028,7 @@
         "index": {
           "description": "Push the results from single benchmark to the server",
           "hierarchy": "HSBencher Fusion",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Fusion",
           "name": "uploadBenchResult",
           "normalized": "BenchmarkResult-\u003eBenchM()",
@@ -1018,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Logging",
           "name": "Logging",
           "package": "hsbencher",
@@ -1026,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Logging",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Logging",
           "name": "Logging",
           "package": "hsbencher",
@@ -1040,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are three logging destinations we care about.  The .dat\n   file, the .log file, and the user's screen (i.e. the user who\n   launched the benchmarks).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Logging",
           "name": "LogDest",
           "package": "hsbencher",
@@ -1049,6 +1078,7 @@
         "index": {
           "description": "There are three logging destinations we care about The dat file the log file and the user screen i.e the user who launched the benchmarks",
           "hierarchy": "HSBencher Logging",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Logging",
           "name": "LogDest",
           "package": "hsbencher",
@@ -1062,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Logging",
           "name": "LogFile",
           "package": "hsbencher",
@@ -1071,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Logging",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Logging",
           "name": "LogFile",
           "package": "hsbencher",
@@ -1084,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Logging",
           "name": "ResultsFile",
           "package": "hsbencher",
@@ -1093,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Logging",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Logging",
           "name": "ResultsFile",
           "package": "hsbencher",
@@ -1106,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Logging",
           "name": "StdOut",
           "package": "hsbencher",
@@ -1115,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Logging",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Logging",
           "name": "StdOut",
           "package": "hsbencher",
@@ -1129,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a message (line) both to stdout and logFile:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Logging",
           "name": "log",
           "package": "hsbencher",
@@ -1139,6 +1176,7 @@
         "index": {
           "description": "Print message line both to stdout and logFile",
           "hierarchy": "HSBencher Logging",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Logging",
           "name": "log",
           "normalized": "String-\u003eBenchM()",
@@ -1154,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog a line to a particular file and also echo to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Logging",
           "name": "logOn",
           "package": "hsbencher",
@@ -1164,6 +1203,7 @@
         "index": {
           "description": "Log line to particular file and also echo to stdout",
           "hierarchy": "HSBencher Logging",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Logging",
           "name": "logOn",
           "normalized": "[LogDest]-\u003eString-\u003eBenchM()",
@@ -1180,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides tools to time a sub-process (benchmark), including a\n facility for self-reporting execution time and reporting garbage collector\n overhead for GHC-compiled programs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.MeasureProcess",
           "name": "MeasureProcess",
           "package": "hsbencher",
@@ -1189,6 +1230,7 @@
         "index": {
           "description": "This module provides tools to time sub-process benchmark including facility for self-reporting execution time and reporting garbage collector overhead for GHC-compiled programs",
           "hierarchy": "HSBencher MeasureProcess",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.MeasureProcess",
           "name": "MeasureProcess",
           "package": "hsbencher",
@@ -1202,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.MeasureProcess",
           "name": "ghcAllocRateHarvester",
           "package": "hsbencher",
@@ -1211,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "HSBencher MeasureProcess",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.MeasureProcess",
           "name": "ghcAllocRateHarvester",
           "package": "hsbencher",
@@ -1224,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.MeasureProcess",
           "name": "ghcMemFootprintHarvester",
           "package": "hsbencher",
@@ -1233,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "HSBencher MeasureProcess",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.MeasureProcess",
           "name": "ghcMemFootprintHarvester",
           "package": "hsbencher",
@@ -1247,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve productivity (i.e. percent time NOT garbage collecting) as output from\n a Haskell program with \u003ca\u003e+RTS -s\u003c/a\u003e.  Productivity is a percentage (double between\n 0.0 and 100.0, inclusive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.MeasureProcess",
           "name": "ghcProductivityHarvester",
           "package": "hsbencher",
@@ -1257,6 +1304,7 @@
         "index": {
           "description": "Retrieve productivity i.e percent time NOT garbage collecting as output from Haskell program with RTS Productivity is percentage double between and inclusive",
           "hierarchy": "HSBencher MeasureProcess",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.MeasureProcess",
           "name": "ghcProductivityHarvester",
           "package": "hsbencher",
@@ -1271,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis runs a sub-process and tries to determine how long it took (real time) and\n how much of that time was spent in the mutator vs. the garbage collector.\n\u003c/p\u003e\u003cp\u003eIt is complicated by:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e An additional protocol for the process to report self-measured realtime (a\n     line starting in \u003ca\u003eSELFTIMED\u003c/a\u003e)\n\u003c/li\u003e\u003cli\u003e Parsing the output of GHC's \u003ca\u003e+RTS -s\u003c/a\u003e to retrieve productivity OR using \n       lines of the form \u003ca\u003ePRODUCTIVITY: XYZ\u003c/a\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eNote that \u003ca\u003e+RTS -s\u003c/a\u003e is specific to Haskell/GHC, but the PRODUCTIVITY tag allows\n non-haskell processes to report garbage collector overhead.\n\u003c/p\u003e\u003cp\u003eThis procedure is currently not threadsafe, because it changes the current working\n directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.MeasureProcess",
           "name": "measureProcess",
           "package": "hsbencher",
@@ -1280,6 +1329,7 @@
         "index": {
           "description": "This runs sub-process and tries to determine how long it took real time and how much of that time was spent in the mutator vs the garbage collector It is complicated by An additional protocol for the process to report self-measured realtime line starting in SELFTIMED Parsing the output of GHC RTS to retrieve productivity OR using lines of the form PRODUCTIVITY XYZ Note that RTS is specific to Haskell GHC but the PRODUCTIVITY tag allows non-haskell processes to report garbage collector overhead This procedure is currently not threadsafe because it changes the current working directory",
           "hierarchy": "HSBencher MeasureProcess",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.MeasureProcess",
           "name": "measureProcess",
           "normalized": "LineHarvester-\u003eCommandDescr-\u003eIO SubProcess",
@@ -1296,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck for a SELFTIMED line of output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.MeasureProcess",
           "name": "selftimedHarvester",
           "package": "hsbencher",
@@ -1306,6 +1357,7 @@
         "index": {
           "description": "Check for SELFTIMED line of output",
           "hierarchy": "HSBencher MeasureProcess",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.MeasureProcess",
           "name": "selftimedHarvester",
           "package": "hsbencher",
@@ -1320,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck for a line of output of the form \u003ca\u003eTAG NUM\u003c/a\u003e or \u003ca\u003eTAG: NUM\u003c/a\u003e.\n   Take a function that puts the result into place (the write half of a lens).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.MeasureProcess",
           "name": "taggedLineHarvester",
           "package": "hsbencher",
@@ -1330,6 +1383,7 @@
         "index": {
           "description": "Check for line of output of the form TAG NUM or TAG NUM Take function that puts the result into place the write half of lens",
           "hierarchy": "HSBencher MeasureProcess",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.MeasureProcess",
           "name": "taggedLineHarvester",
           "normalized": "ByteString-\u003e(Double-\u003eRunResult-\u003eRunResult)-\u003eLineHarvester",
@@ -1346,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese are the built-in build methods for HSBencher.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Methods",
           "name": "Methods",
           "package": "hsbencher",
@@ -1355,6 +1410,7 @@
         "index": {
           "description": "These are the built-in build methods for HSBencher",
           "hierarchy": "HSBencher Methods",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Methods",
           "name": "Methods",
           "package": "hsbencher",
@@ -1369,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild with cabal.\n   Specifically, this uses \u003ca\u003ecabal install\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis build method attempts to choose reasonable defaults for benchmarking.  It\n takes control of the output program suffix and directory (setting it to BENCHROOT/bin).\n It passes compile-time arguments directly to cabal.  Likewise, runtime arguments\n get passed directly to the resulting binary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Methods",
           "name": "cabalMethod",
           "package": "hsbencher",
@@ -1379,6 +1436,7 @@
         "index": {
           "description": "Build with cabal Specifically this uses cabal install This build method attempts to choose reasonable defaults for benchmarking It takes control of the output program suffix and directory setting it to BENCHROOT bin It passes compile-time arguments directly to cabal Likewise runtime arguments get passed directly to the resulting binary",
           "hierarchy": "HSBencher Methods",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Methods",
           "name": "cabalMethod",
           "package": "hsbencher",
@@ -1393,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild with GHC directly.  This assumes that all dependencies are installed and a\n single call to \u003ccode\u003eghc\u003c/code\u003e can build the file.\n\u003c/p\u003e\u003cp\u003eCompile-time arguments go directly to GHC, and runtime arguments directly to the\n resulting binary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Methods",
           "name": "ghcMethod",
           "package": "hsbencher",
@@ -1403,6 +1462,7 @@
         "index": {
           "description": "Build with GHC directly This assumes that all dependencies are installed and single call to ghc can build the file Compile-time arguments go directly to GHC and runtime arguments directly to the resulting binary",
           "hierarchy": "HSBencher Methods",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Methods",
           "name": "ghcMethod",
           "package": "hsbencher",
@@ -1417,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild with GNU Make.  This is a basic Make protocol; your application may need\n   something more complicated.  This assumes targets clean, run, and the default\n   target for building.\n\u003c/p\u003e\u003cp\u003eThe variables RUN_ARGS and COMPILE_ARGS are used to pass in the per-benchmark\n   run and compile options, so the Makefile must be written with these conventions\n   in mind.  Note that this build method never knows where or if any resulting\n   binaries reside.  One effect of that is that this simple build method can never\n   be used for PARALLEL compiles, because it cannot manage where the\n   build-intermediates are stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Methods",
           "name": "makeMethod",
           "package": "hsbencher",
@@ -1427,6 +1488,7 @@
         "index": {
           "description": "Build with GNU Make This is basic Make protocol your application may need something more complicated This assumes targets clean run and the default target for building The variables RUN ARGS and COMPILE ARGS are used to pass in the per-benchmark run and compile options so the Makefile must be written with these conventions in mind Note that this build method never knows where or if any resulting binaries reside One effect of that is that this simple build method can never be used for PARALLEL compiles because it cannot manage where the build-intermediates are stored",
           "hierarchy": "HSBencher Methods",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Methods",
           "name": "makeMethod",
           "package": "hsbencher",
@@ -1441,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll the core types used by the rest of the HSBencher codebase.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Types",
           "package": "hsbencher",
@@ -1450,6 +1513,7 @@
         "index": {
           "description": "All the core types used by the rest of the HSBencher codebase",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Types",
           "package": "hsbencher",
@@ -1464,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for benchamrking.  This provides access to configuration options, but\n really, its main purpose is enabling logging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "BenchM",
           "package": "hsbencher",
@@ -1473,6 +1538,7 @@
         "index": {
           "description": "monad for benchamrking This provides access to configuration options but really its main purpose is enabling logging",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "BenchM",
           "package": "hsbencher",
@@ -1487,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype for describing (generating) benchmark configuration spaces.\n   This is accomplished by nested conjunctions and disjunctions.\n   For example, varying threads from 1-32 would be a 32-way Or.  Combining that\n   with profiling on/off (product) would create a 64-config space.\n\u003c/p\u003e\u003cp\u003eWhile the ParamSetting provides an *implementation* of the behavior, this\n   datatype can also be decorated with a (more easily machine readable) meaning of\n   the corresponding setting.  For example, indicating that the setting controls\n   the number of threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "BenchSpace",
           "package": "hsbencher",
@@ -1496,6 +1563,7 @@
         "index": {
           "description": "datatype for describing generating benchmark configuration spaces This is accomplished by nested conjunctions and disjunctions For example varying threads from would be way Or Combining that with profiling on off product would create config space While the ParamSetting provides an implementation of the behavior this datatype can also be decorated with more easily machine readable meaning of the corresponding setting For example indicating that the setting controls the number of threads",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "BenchSpace",
           "package": "hsbencher",
@@ -1510,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe all-inclusive datatype for a single Benchmark.  Do NOT construct values of\n this type directly.  Rather, you should make your code robust against future\n addition of fields to this datatype.  Use \u003ccode\u003e\u003ca\u003emkBenchmark\u003c/a\u003e\u003c/code\u003e followed by customizing\n only the fields you need.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Benchmark",
           "package": "hsbencher",
@@ -1519,6 +1588,7 @@
         "index": {
           "description": "The all-inclusive datatype for single Benchmark Do NOT construct values of this type directly Rather you should make your code robust against future addition of fields to this datatype Use mkBenchmark followed by customizing only the fields you need",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Benchmark",
           "package": "hsbencher",
@@ -1533,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis contains all the contextual information for a single benchmark run, which\n   makes up a \u003ca\u003erow\u003c/a\u003e in a table of benchmark results.\n   Note that multiple \u003ca\u003etrials\u003c/a\u003e (actual executions) go into a single BenchmarkResult\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "BenchmarkResult",
           "package": "hsbencher",
@@ -1542,6 +1613,7 @@
         "index": {
           "description": "This contains all the contextual information for single benchmark run which makes up row in table of benchmark results Note that multiple trials actual executions go into single BenchmarkResult",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "BenchmarkResult",
           "package": "hsbencher",
@@ -1556,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BuildID should uniquely identify a particular (compile-time) configuration,\n but consist only of characters that would be reasonable to put in a filename.\n This is used to keep build results from colliding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "BuildID",
           "package": "hsbencher",
@@ -1565,6 +1638,7 @@
         "index": {
           "description": "BuildID should uniquely identify particular compile-time configuration but consist only of characters that would be reasonable to put in filename This is used to keep build results from colliding",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "BuildID",
           "package": "hsbencher",
@@ -1579,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA completely encapsulated method of building benchmarks.  Cabal and Makefiles\n are two examples of this.  The user may extend it with their own methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "BuildMethod",
           "package": "hsbencher",
@@ -1588,6 +1663,7 @@
         "index": {
           "description": "completely encapsulated method of building benchmarks Cabal and Makefiles are two examples of this The user may extend it with their own methods",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "BuildMethod",
           "package": "hsbencher",
@@ -1602,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of doing a build.  Note that \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e can will throw an exception if compilation fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "BuildResult",
           "package": "hsbencher",
@@ -1611,6 +1688,7 @@
         "index": {
           "description": "The result of doing build Note that compile can will throw an exception if compilation fails",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "BuildResult",
           "package": "hsbencher",
@@ -1625,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA self-contained description of a runnable command.  Similar to\n System.Process.CreateProcess but slightly simpler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "CommandDescr",
           "package": "hsbencher",
@@ -1634,6 +1713,7 @@
         "index": {
           "description": "self-contained description of runnable command Similar to System.Process.CreateProcess but slightly simpler",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "CommandDescr",
           "package": "hsbencher",
@@ -1648,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments passed (in a build-method specific way) into the compilation process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "CompileFlags",
           "package": "hsbencher",
@@ -1657,6 +1738,7 @@
         "index": {
           "description": "The arguments passed in build-method specific way into the compilation process",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "CompileFlags",
           "package": "hsbencher",
@@ -1671,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe global configuration for benchmarking.  WARNING! This is an internal data\n structure.  You shouldn't really use it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Config",
           "package": "hsbencher",
@@ -1680,6 +1763,7 @@
         "index": {
           "description": "The global configuration for benchmarking WARNING This is an internal data structure You shouldn really use it",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Config",
           "package": "hsbencher",
@@ -1693,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "DefaultParamMeaning",
           "package": "hsbencher",
@@ -1701,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "DefaultParamMeaning",
           "package": "hsbencher",
@@ -1715,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of a set of files.  The description may take one of multiple\n forms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "FilePredicate",
           "package": "hsbencher",
@@ -1724,6 +1811,7 @@
         "index": {
           "description": "description of set of files The description may take one of multiple forms",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "FilePredicate",
           "package": "hsbencher",
@@ -1737,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "FusionConfig",
           "package": "hsbencher",
@@ -1745,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "FusionConfig",
           "package": "hsbencher",
@@ -1759,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line harvester takes a single line of input and possible extracts data from it\n which it can then add to a RunResult.\n\u003c/p\u003e\u003cp\u003eThe boolean result indicates whether the line was used or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "LineHarvester",
           "package": "hsbencher",
@@ -1768,6 +1859,7 @@
         "index": {
           "description": "line harvester takes single line of input and possible extracts data from it which it can then add to RunResult The boolean result indicates whether the line was used or not",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "LineHarvester",
           "package": "hsbencher",
@@ -1782,6 +1874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent types of parameters that may be set or varied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "ParamSetting",
           "package": "hsbencher",
@@ -1791,6 +1884,7 @@
         "index": {
           "description": "Different types of parameters that may be set or varied",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "ParamSetting",
           "package": "hsbencher",
@@ -1805,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments passed (in a build-method specific way) to the running benchmark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "RunFlags",
           "package": "hsbencher",
@@ -1814,6 +1909,7 @@
         "index": {
           "description": "The arguments passed in build-method specific way to the running benchmark",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "RunFlags",
           "package": "hsbencher",
@@ -1828,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasured results from running a subprocess (benchmark).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "RunResult",
           "package": "hsbencher",
@@ -1837,6 +1934,7 @@
         "index": {
           "description": "Measured results from running subprocess benchmark",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "RunResult",
           "package": "hsbencher",
@@ -1851,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA running subprocess.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "SubProcess",
           "package": "hsbencher",
@@ -1860,6 +1959,7 @@
         "index": {
           "description": "running subprocess",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "SubProcess",
           "package": "hsbencher",
@@ -1873,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "And",
           "package": "hsbencher",
@@ -1882,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "And",
           "normalized": "And[BenchSpace a]",
@@ -1897,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "AnyFile",
           "package": "hsbencher",
@@ -1906,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "AnyFile",
           "package": "hsbencher",
@@ -1919,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Benchmark",
           "package": "hsbencher",
@@ -1928,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Benchmark",
           "package": "hsbencher",
@@ -1941,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "BenchmarkResult",
           "package": "hsbencher",
@@ -1950,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "BenchmarkResult",
           "package": "hsbencher",
@@ -1963,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "BuildMethod",
           "package": "hsbencher",
@@ -1972,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "BuildMethod",
           "package": "hsbencher",
@@ -1986,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes CMD PATH, and establishes a benchmark-private setting to use PATH for CMD.\n   For example `CmdPath \u003ca\u003eghc\u003c/a\u003e \u003ca\u003eghc-7.6.3\u003c/a\u003e`.\n | Threads Int -- ^ Shorthand: builtin support for changing the number of\n threads across a number of separate build methods.\n | TimeOut      Double        -- ^ Set the timeout for this benchmark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "CmdPath",
           "package": "hsbencher",
@@ -1996,6 +2107,7 @@
         "index": {
           "description": "Takes CMD PATH and establishes benchmark-private setting to use PATH for CMD For example CmdPath ghc ghc-7.6.3 Threads Int Shorthand builtin support for changing the number of threads across number of separate build methods TimeOut Double Set the timeout for this benchmark",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "CmdPath",
           "package": "hsbencher",
@@ -2009,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "CommandDescr",
           "package": "hsbencher",
@@ -2018,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "CommandDescr",
           "package": "hsbencher",
@@ -2032,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString contains compile-time options, expanded and tokenized by the shell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "CompileParam",
           "package": "hsbencher",
@@ -2042,6 +2157,7 @@
         "index": {
           "description": "String contains compile-time options expanded and tokenized by the shell",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "CompileParam",
           "package": "hsbencher",
@@ -2055,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Config",
           "package": "hsbencher",
@@ -2064,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Config",
           "package": "hsbencher",
@@ -2078,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains the returned error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "ExitError",
           "package": "hsbencher",
@@ -2088,6 +2207,7 @@
         "index": {
           "description": "Contains the returned error code",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "ExitError",
           "package": "hsbencher",
@@ -2102,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA common pattern.  For example, we can build a file foo.c, if it lives in a\n directory with exactly one \u003ca\u003eMakefile\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "InDirectoryWithExactlyOne",
           "package": "hsbencher",
@@ -2112,6 +2233,7 @@
         "index": {
           "description": "common pattern For example we can build file foo.c if it lives in directory with exactly one Makefile",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "InDirectoryWithExactlyOne",
           "package": "hsbencher",
@@ -2126,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eE.g. \u003ca\u003eMakefile\u003c/a\u003e\n   | SatisfiesPredicate (String -\u003e Bool)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "IsExactly",
           "package": "hsbencher",
@@ -2136,6 +2259,7 @@
         "index": {
           "description": "E.g Makefile SatisfiesPredicate String Bool",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "IsExactly",
           "package": "hsbencher",
@@ -2149,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "LineHarvester",
           "package": "hsbencher",
@@ -2158,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "LineHarvester",
           "normalized": "LineHarvester(ByteString-\u003e(RunResult-\u003eRunResult,Bool))",
@@ -2173,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "NoMeaning",
           "package": "hsbencher",
@@ -2182,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "NoMeaning",
           "package": "hsbencher",
@@ -2195,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Or",
           "package": "hsbencher",
@@ -2204,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Or",
           "normalized": "Or[BenchSpace a]",
@@ -2220,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical or.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "PredOr",
           "package": "hsbencher",
@@ -2230,6 +2361,7 @@
         "index": {
           "description": "Logical or",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "PredOr",
           "package": "hsbencher",
@@ -2243,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "RunCompleted",
           "package": "hsbencher",
@@ -2252,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "RunCompleted",
           "package": "hsbencher",
@@ -2266,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn this case the build return what you need to do the benchmark run, but the\n directory contents cannot be touched until after than run is finished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "RunInPlace",
           "package": "hsbencher",
@@ -2276,6 +2411,7 @@
         "index": {
           "description": "In this case the build return what you need to do the benchmark run but the directory contents cannot be touched until after than run is finished",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "RunInPlace",
           "normalized": "RunInPlace(RunFlags-\u003eEnvVars-\u003eCommandDescr)",
@@ -2291,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "RunTimeOut",
           "package": "hsbencher",
@@ -2300,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "RunTimeOut",
           "package": "hsbencher",
@@ -2314,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the env var and its value, respectively.\n   For now Env Vars ONLY affect runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "RuntimeEnv",
           "package": "hsbencher",
@@ -2324,6 +2463,7 @@
         "index": {
           "description": "The name of the env var and its value respectively For now Env Vars ONLY affect runtime",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "RuntimeEnv",
           "package": "hsbencher",
@@ -2338,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString contains runtime options, expanded and tokenized by the shell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "RuntimeParam",
           "package": "hsbencher",
@@ -2348,6 +2489,7 @@
         "index": {
           "description": "String contains runtime options expanded and tokenized by the shell",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "RuntimeParam",
           "package": "hsbencher",
@@ -2361,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Set",
           "package": "hsbencher",
@@ -2370,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Set",
           "package": "hsbencher",
@@ -2384,6 +2528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis binary can be copied and executed whenever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "StandAloneBinary",
           "package": "hsbencher",
@@ -2394,6 +2539,7 @@
         "index": {
           "description": "This binary can be copied and executed whenever",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "StandAloneBinary",
           "package": "hsbencher",
@@ -2407,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "SubProcess",
           "package": "hsbencher",
@@ -2416,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "SubProcess",
           "package": "hsbencher",
@@ -2430,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the number of threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Threads",
           "package": "hsbencher",
@@ -2440,6 +2589,7 @@
         "index": {
           "description": "Set the number of threads",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Threads",
           "package": "hsbencher",
@@ -2454,6 +2604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich scheduler\u003cem\u003eimplementation\u003c/em\u003eetc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "Variant",
           "package": "hsbencher",
@@ -2464,6 +2615,7 @@
         "index": {
           "description": "Which scheduler implementation etc",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "Variant",
           "package": "hsbencher",
@@ -2478,6 +2630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eE.g. \u003ca\u003e.hs\u003c/a\u003e, WITH the dot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "WithExtension",
           "package": "hsbencher",
@@ -2488,6 +2641,7 @@
         "index": {
           "description": "E.g hs WITH the dot",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "WithExtension",
           "package": "hsbencher",
@@ -2502,6 +2656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace separated list of numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_ALLTIMES",
           "package": "hsbencher",
@@ -2512,6 +2667,7 @@
         "index": {
           "description": "Space separated list of numbers",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_ALLTIMES",
           "package": "hsbencher",
@@ -2525,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_ARGS",
           "package": "hsbencher",
@@ -2534,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_ARGS",
           "normalized": "[String]",
@@ -2549,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_BENCH_FILE",
           "package": "hsbencher",
@@ -2558,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_BENCH_FILE",
           "package": "hsbencher",
@@ -2571,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_BENCH_VERSION",
           "package": "hsbencher",
@@ -2580,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_BENCH_VERSION",
           "package": "hsbencher",
@@ -2593,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_CI_BUILD_ID",
           "package": "hsbencher",
@@ -2602,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_CI_BUILD_ID",
           "package": "hsbencher",
@@ -2615,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_COMPILER",
           "package": "hsbencher",
@@ -2624,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_COMPILER",
           "package": "hsbencher",
@@ -2637,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_COMPILE_FLAGS",
           "package": "hsbencher",
@@ -2646,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_COMPILE_FLAGS",
           "package": "hsbencher",
@@ -2659,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_DATETIME",
           "package": "hsbencher",
@@ -2668,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_DATETIME",
           "package": "hsbencher",
@@ -2681,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_ENV_VARS",
           "package": "hsbencher",
@@ -2690,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_ENV_VARS",
           "package": "hsbencher",
@@ -2703,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_ETC_ISSUE",
           "package": "hsbencher",
@@ -2712,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_ETC_ISSUE",
           "package": "hsbencher",
@@ -2725,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_FULL_LOG",
           "package": "hsbencher",
@@ -2734,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_FULL_LOG",
           "package": "hsbencher",
@@ -2747,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_GIT_BRANCH",
           "package": "hsbencher",
@@ -2756,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_GIT_BRANCH",
           "package": "hsbencher",
@@ -2769,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_GIT_DEPTH",
           "package": "hsbencher",
@@ -2778,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_GIT_DEPTH",
           "package": "hsbencher",
@@ -2791,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_GIT_HASH",
           "package": "hsbencher",
@@ -2800,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_GIT_HASH",
           "package": "hsbencher",
@@ -2813,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_HOSTNAME",
           "package": "hsbencher",
@@ -2822,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_HOSTNAME",
           "package": "hsbencher",
@@ -2835,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_LSPCI",
           "package": "hsbencher",
@@ -2844,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_LSPCI",
           "package": "hsbencher",
@@ -2857,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_MAXTIME",
           "package": "hsbencher",
@@ -2866,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_MAXTIME",
           "package": "hsbencher",
@@ -2879,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_MAXTIME_PRODUCTIVITY",
           "package": "hsbencher",
@@ -2888,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_MAXTIME_PRODUCTIVITY",
           "package": "hsbencher",
@@ -2901,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_MEDIANTIME",
           "package": "hsbencher",
@@ -2910,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_MEDIANTIME",
           "package": "hsbencher",
@@ -2923,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_MEDIANTIME_ALLOCRATE",
           "package": "hsbencher",
@@ -2932,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_MEDIANTIME_ALLOCRATE",
           "package": "hsbencher",
@@ -2945,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_MEDIANTIME_MEMFOOTPRINT",
           "package": "hsbencher",
@@ -2954,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_MEDIANTIME_MEMFOOTPRINT",
           "package": "hsbencher",
@@ -2967,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_MEDIANTIME_PRODUCTIVITY",
           "package": "hsbencher",
@@ -2976,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_MEDIANTIME_PRODUCTIVITY",
           "package": "hsbencher",
@@ -2989,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_MINTIME",
           "package": "hsbencher",
@@ -2998,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_MINTIME",
           "package": "hsbencher",
@@ -3011,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_MINTIME_PRODUCTIVITY",
           "package": "hsbencher",
@@ -3020,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_MINTIME_PRODUCTIVITY",
           "package": "hsbencher",
@@ -3033,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_PROCESSOR",
           "package": "hsbencher",
@@ -3042,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_PROCESSOR",
           "package": "hsbencher",
@@ -3055,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_PROGNAME",
           "package": "hsbencher",
@@ -3064,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_PROGNAME",
           "package": "hsbencher",
@@ -3077,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_RUNID",
           "package": "hsbencher",
@@ -3086,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_RUNID",
           "package": "hsbencher",
@@ -3099,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_RUNTIME_FLAGS",
           "package": "hsbencher",
@@ -3108,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_RUNTIME_FLAGS",
           "package": "hsbencher",
@@ -3121,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_THREADS",
           "package": "hsbencher",
@@ -3130,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_THREADS",
           "package": "hsbencher",
@@ -3143,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_TOPOLOGY",
           "package": "hsbencher",
@@ -3152,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_TOPOLOGY",
           "package": "hsbencher",
@@ -3165,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_TRIALS",
           "package": "hsbencher",
@@ -3174,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_TRIALS",
           "package": "hsbencher",
@@ -3187,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_UNAME",
           "package": "hsbencher",
@@ -3196,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_UNAME",
           "package": "hsbencher",
@@ -3209,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_VARIANT",
           "package": "hsbencher",
@@ -3218,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_VARIANT",
           "package": "hsbencher",
@@ -3231,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "_WHO",
           "package": "hsbencher",
@@ -3240,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "_WHO",
           "package": "hsbencher",
@@ -3254,6 +3476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBytes allocated per mutator-second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "allocRate",
           "package": "hsbencher",
@@ -3264,6 +3487,7 @@
         "index": {
           "description": "Bytes allocated per mutator-second",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "allocRate",
           "package": "hsbencher",
@@ -3278,6 +3502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA global setting to control whether executables are given\n their 'flags/params' after their regular arguments.\n This is here because some executables don't use proper command line parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "argsBeforeFlags",
           "package": "hsbencher",
@@ -3288,6 +3513,7 @@
         "index": {
           "description": "global setting to control whether executables are given their flags params after their regular arguments This is here because some executables don use proper command line parsing",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "argsBeforeFlags",
           "package": "hsbencher",
@@ -3302,6 +3528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific timeout for this benchmark in seconds.  Overrides global setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "benchTimeOut",
           "package": "hsbencher",
@@ -3312,6 +3539,7 @@
         "index": {
           "description": "Specific timeout for this benchmark in seconds Overrides global setting",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "benchTimeOut",
           "package": "hsbencher",
@@ -3325,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "benchlist",
           "package": "hsbencher",
@@ -3334,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "benchlist",
           "normalized": "[Benchmark DefaultParamMeaning]",
@@ -3349,6 +3579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat identifies this set of benchmarks?  Used to create fusion table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "benchsetName",
           "package": "hsbencher",
@@ -3359,6 +3590,7 @@
         "index": {
           "description": "What identifies this set of benchmarks Used to create fusion table",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "benchsetName",
           "package": "hsbencher",
@@ -3373,6 +3605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebenchlist file name and version number (e.g. X.Y)\n , threadsettings :: [Int]  -- ^ A list of #threads to test.  0 signifies non-threaded mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "benchversion",
           "package": "hsbencher",
@@ -3383,6 +3616,7 @@
         "index": {
           "description": "benchlist file name and version number e.g X.Y threadsettings Int list of threads to test signifies non-threaded mode",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "benchversion",
           "normalized": "(String,Double)",
@@ -3398,6 +3632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts with cabal\u003cem\u003emake\u003c/em\u003eghc, can be extended by user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "buildMethods",
           "package": "hsbencher",
@@ -3408,6 +3643,7 @@
         "index": {
           "description": "Starts with cabal make ghc can be extended by user",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "buildMethods",
           "normalized": "[BuildMethod]",
@@ -3424,6 +3660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan this method build a given file/directory?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "canBuild",
           "package": "hsbencher",
@@ -3434,6 +3671,7 @@
         "index": {
           "description": "Can this method build given file directory",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "canBuild",
           "package": "hsbencher",
@@ -3448,6 +3686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe build ID from the continuous integration system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "ciBuildID",
           "package": "hsbencher",
@@ -3458,6 +3697,7 @@
         "index": {
           "description": "The build ID from the continuous integration system",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "ciBuildID",
           "package": "hsbencher",
@@ -3472,6 +3712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClean any left-over build results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "clean",
           "package": "hsbencher",
@@ -3482,6 +3723,7 @@
         "index": {
           "description": "Clean any left-over build results",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "clean",
           "normalized": "PathRegistry-\u003eBuildID-\u003eFilePath-\u003eBenchM()",
@@ -3497,6 +3739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line argument to feed the benchmark executable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "cmdargs",
           "package": "hsbencher",
@@ -3507,6 +3750,7 @@
         "index": {
           "description": "Command line argument to feed the benchmark executable",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "cmdargs",
           "normalized": "[String]",
@@ -3522,6 +3766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutable and arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "command",
           "package": "hsbencher",
@@ -3532,6 +3777,7 @@
         "index": {
           "description": "Executable and arguments",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "command",
           "package": "hsbencher",
@@ -3544,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "compile",
           "package": "hsbencher",
@@ -3553,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "compile",
           "normalized": "PathRegistry-\u003eBuildID-\u003eCompileFlags-\u003eFilePath-\u003eBenchM BuildResult",
@@ -3568,6 +3816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip all runtime options, leaving only compile-time options.  This is useful\n   for figuring out how many separate compiles need to happen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "compileOptsOnly",
           "package": "hsbencher",
@@ -3578,6 +3827,7 @@
         "index": {
           "description": "Strip all runtime options leaving only compile-time options This is useful for figuring out how many separate compiles need to happen",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "compileOptsOnly",
           "normalized": "BenchSpace a-\u003eBenchSpace a",
@@ -3594,6 +3844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore than one build can happen at once.  This\n implies that compile always returns StandAloneBinary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "concurrentBuild",
           "package": "hsbencher",
@@ -3604,6 +3855,7 @@
         "index": {
           "description": "More than one build can happen at once This implies that compile always returns StandAloneBinary",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "concurrentBuild",
           "package": "hsbencher",
@@ -3618,6 +3870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configration space to iterate over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "configs",
           "package": "hsbencher",
@@ -3628,6 +3881,7 @@
         "index": {
           "description": "The configration space to iterate over",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "configs",
           "package": "hsbencher",
@@ -3640,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "doClean",
           "package": "hsbencher",
@@ -3649,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "doClean",
           "package": "hsbencher",
@@ -3662,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "doFusionUpload",
           "package": "hsbencher",
@@ -3671,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "doFusionUpload",
           "package": "hsbencher",
@@ -3685,6 +3943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edoc\u003c/a\u003e\u003c/code\u003e is the equivalent of \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis is a specialised variant of \u003ccode\u003e\u003ca\u003edocPrec\u003c/a\u003e\u003c/code\u003e, using precedence context zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "doc",
           "package": "hsbencher",
@@ -3694,6 +3953,7 @@
         "index": {
           "description": "doc is the equivalent of show This is specialised variant of docPrec using precedence context zero",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "doc",
           "normalized": "a-\u003eDoc",
@@ -3709,6 +3969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default value, useful for filling in only the fields that are relevant to a particular benchmark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "emptyBenchmarkResult",
           "package": "hsbencher",
@@ -3719,6 +3980,7 @@
         "index": {
           "description": "default value useful for filling in only the fields that are relevant to particular benchmark",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "emptyBenchmarkResult",
           "package": "hsbencher",
@@ -3732,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "emptyRunResult",
           "package": "hsbencher",
@@ -3741,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "emptyRunResult",
           "package": "hsbencher",
@@ -3755,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExhaustively compute all configurations described by a benchmark configuration space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "enumerateBenchSpace",
           "package": "hsbencher",
@@ -3765,6 +4030,7 @@
         "index": {
           "description": "Exhaustively compute all configurations described by benchmark configuration space",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "enumerateBenchSpace",
           "normalized": "BenchSpace a-\u003e[[(a,ParamSetting)]]",
@@ -3781,6 +4047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironment variables to APPEND to current env.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "envVars",
           "package": "hsbencher",
@@ -3791,6 +4058,7 @@
         "index": {
           "description": "Environment variables to APPEND to current env",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "envVars",
           "normalized": "[(String,String)]",
@@ -3806,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "envs",
           "package": "hsbencher",
@@ -3815,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "envs",
           "normalized": "[[(String,String)]]",
@@ -3830,6 +4100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function gives meaning to the \u003ccode\u003eFilePred\u003c/code\u003e type.\n   It returns a filepath to signal \u003ca\u003eTrue\u003c/a\u003e and Nothing otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "filePredCheck",
           "package": "hsbencher",
@@ -3840,6 +4111,7 @@
         "index": {
           "description": "This function gives meaning to the FilePred type It returns filepath to signal True and Nothing otherwise",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "filePredCheck",
           "normalized": "FilePredicate-\u003eFilePath-\u003eIO(Maybe FilePath)",
@@ -3855,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "fusionConfig",
           "package": "hsbencher",
@@ -3864,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "fusionConfig",
           "package": "hsbencher",
@@ -3878,6 +4152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBranch, revision hash, depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "gitInfo",
           "package": "hsbencher",
@@ -3888,6 +4163,7 @@
         "index": {
           "description": "Branch revision hash depth",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "gitInfo",
           "normalized": "(String,String,Int)",
@@ -3904,6 +4180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stack of line harvesters that gather RunResult details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "harvesters",
           "package": "hsbencher",
@@ -3914,6 +4191,7 @@
         "index": {
           "description": "stack of line harvesters that gather RunResult details",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "harvesters",
           "package": "hsbencher",
@@ -3926,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "hostname",
           "package": "hsbencher",
@@ -3935,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "hostname",
           "package": "hsbencher",
@@ -3948,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it a setting that affects compile time?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "isCompileTime",
           "package": "hsbencher",
@@ -3958,6 +4239,7 @@
         "index": {
           "description": "Is it setting that affects compile time",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "isCompileTime",
           "normalized": "ParamSetting-\u003eBool",
@@ -3974,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekeep going after error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "keepgoing",
           "package": "hsbencher",
@@ -3984,6 +4267,7 @@
         "index": {
           "description": "keep going after error",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "keepgoing",
           "package": "hsbencher",
@@ -3997,6 +4281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to put more verbose testing output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "logFile",
           "package": "hsbencher",
@@ -4007,6 +4292,7 @@
         "index": {
           "description": "Where to put more verbose testing output",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "logFile",
           "package": "hsbencher",
@@ -4020,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "logOut",
           "package": "hsbencher",
@@ -4029,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "logOut",
           "package": "hsbencher",
@@ -4043,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a simple reformatting (stripping disallowed characters) to create a\n build ID corresponding to a set of compile flags.  To make it unique we also\n append the target path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "makeBuildID",
           "package": "hsbencher",
@@ -4053,6 +4342,7 @@
         "index": {
           "description": "Performs simple reformatting stripping disallowed characters to create build ID corresponding to set of compile flags To make it unique we also append the target path",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "makeBuildID",
           "normalized": "FilePath-\u003eCompileFlags-\u003eBuildID",
@@ -4068,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "maxthreads",
           "package": "hsbencher",
@@ -4077,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "maxthreads",
           "package": "hsbencher",
@@ -4090,6 +4382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh water mark of allocated memory, in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "memFootprint",
           "package": "hsbencher",
@@ -4100,6 +4393,7 @@
         "index": {
           "description": "High water mark of allocated memory in bytes",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "memFootprint",
           "package": "hsbencher",
@@ -4114,6 +4408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies this build method for humans.\n  , buildsFiles :: FilePredicate\n  , canBuild    :: FilePath -\u003e IO Bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "methodName",
           "package": "hsbencher",
@@ -4124,6 +4419,7 @@
         "index": {
           "description": "Identifies this build method for humans buildsFiles FilePredicate canBuild FilePath IO Bool",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "methodName",
           "package": "hsbencher",
@@ -4138,6 +4434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a Benchmark data structure given the core, required set of fields, and uses\n defaults to fill in the rest.  Takes target, cmdargs, configs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "mkBenchmark",
           "package": "hsbencher",
@@ -4148,6 +4445,7 @@
         "index": {
           "description": "Make Benchmark data structure given the core required set of fields and uses defaults to fill in the rest Takes target cmdargs configs",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "mkBenchmark",
           "normalized": "FilePath-\u003e[String]-\u003eBenchSpace a-\u003eBenchmark a",
@@ -4164,6 +4462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the second harvester only if the first fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "orHarvest",
           "package": "hsbencher",
@@ -4174,6 +4473,7 @@
         "index": {
           "description": "Run the second harvester only if the first fails",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "orHarvest",
           "normalized": "LineHarvester-\u003eLineHarvester-\u003eLineHarvester",
@@ -4190,6 +4490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaths to executables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "pathRegistry",
           "package": "hsbencher",
@@ -4200,6 +4501,7 @@
         "index": {
           "description": "Paths to executables",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "pathRegistry",
           "package": "hsbencher",
@@ -4214,6 +4516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream of lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "process_err",
           "package": "hsbencher",
@@ -4224,6 +4527,7 @@
         "index": {
           "description": "stream of lines",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "process_err",
           "package": "hsbencher",
@@ -4237,6 +4541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream of lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "process_out",
           "package": "hsbencher",
@@ -4247,6 +4552,7 @@
         "index": {
           "description": "stream of lines",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "process_out",
           "package": "hsbencher",
@@ -4260,6 +4566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "productivity",
           "package": "hsbencher",
@@ -4270,6 +4577,7 @@
         "index": {
           "description": "Seconds",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "productivity",
           "package": "hsbencher",
@@ -4283,6 +4591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional name to use INSTEAD of the basename from \u003ccode\u003e\u003ca\u003etarget\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "progname",
           "package": "hsbencher",
@@ -4293,6 +4602,7 @@
         "index": {
           "description": "Optional name to use INSTEAD of the basename from target",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "progname",
           "package": "hsbencher",
@@ -4306,6 +4616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBenchmark time in seconds, may be different than total process time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "realtime",
           "package": "hsbencher",
@@ -4316,6 +4627,7 @@
         "index": {
           "description": "Benchmark time in seconds may be different than total process time",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "realtime",
           "package": "hsbencher",
@@ -4329,6 +4641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to put timing results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "resultsFile",
           "package": "hsbencher",
@@ -4339,6 +4652,7 @@
         "index": {
           "description": "Where to put timing results",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "resultsFile",
           "package": "hsbencher",
@@ -4352,6 +4666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "resultsOut",
           "package": "hsbencher",
@@ -4361,6 +4676,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "resultsOut",
           "package": "hsbencher",
@@ -4375,6 +4691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn over-ride for the run ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "runID",
           "package": "hsbencher",
@@ -4385,6 +4702,7 @@
         "index": {
           "description": "An over-ride for the run ID",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "runID",
           "package": "hsbencher",
@@ -4399,6 +4717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimeout in seconds for running benchmarks (if not specified by the benchmark specifically)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "runTimeOut",
           "package": "hsbencher",
@@ -4409,6 +4728,7 @@
         "index": {
           "description": "Timeout in seconds for running benchmarks if not specified by the benchmark specifically",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "runTimeOut",
           "package": "hsbencher",
@@ -4423,6 +4743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynthesize a list of compile/runtime settings that\n will control the number of threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "setThreads",
           "package": "hsbencher",
@@ -4433,6 +4754,7 @@
         "index": {
           "description": "Synthesize list of compile runtime settings that will control the number of threads",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "setThreads",
           "normalized": "Maybe(Int-\u003e[ParamSetting])",
@@ -4448,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "shortrun",
           "package": "hsbencher",
@@ -4457,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "shortrun",
           "package": "hsbencher",
@@ -4470,6 +4794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to start in the config space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "skipTo",
           "package": "hsbencher",
@@ -4480,6 +4805,7 @@
         "index": {
           "description": "Where to start in the config space",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "skipTo",
           "package": "hsbencher",
@@ -4494,6 +4820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds since Epoch. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "startTime",
           "package": "hsbencher",
@@ -4504,6 +4831,7 @@
         "index": {
           "description": "Seconds since Epoch",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "startTime",
           "package": "hsbencher",
@@ -4517,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "stdOut",
           "package": "hsbencher",
@@ -4526,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "stdOut",
           "package": "hsbencher",
@@ -4540,6 +4870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe target file or directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "target",
           "package": "hsbencher",
@@ -4550,6 +4881,7 @@
         "index": {
           "description": "The target file or directory",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "target",
           "package": "hsbencher",
@@ -4563,6 +4895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional timeout in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "timeout",
           "package": "hsbencher",
@@ -4573,6 +4906,7 @@
         "index": {
           "description": "Optional timeout in seconds",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "timeout",
           "package": "hsbencher",
@@ -4585,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "toCmdPaths",
           "package": "hsbencher",
@@ -4594,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "toCmdPaths",
           "normalized": "[(a,ParamSetting)]-\u003e[(String,String)]",
@@ -4610,6 +4946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the parameters that affect the compile-time arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "toCompileFlags",
           "package": "hsbencher",
@@ -4620,6 +4957,7 @@
         "index": {
           "description": "Extract the parameters that affect the compile-time arguments",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "toCompileFlags",
           "normalized": "[(a,ParamSetting)]-\u003eCompileFlags",
@@ -4635,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "toEnvVars",
           "package": "hsbencher",
@@ -4644,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "toEnvVars",
           "normalized": "[(a,ParamSetting)]-\u003e[(String,String)]",
@@ -4660,6 +5000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the parameters that affect the runtime arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "toRunFlags",
           "package": "hsbencher",
@@ -4670,6 +5011,7 @@
         "index": {
           "description": "Extract the parameters that affect the runtime arguments",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "toRunFlags",
           "normalized": "[(a,ParamSetting)]-\u003eRunFlags",
@@ -4686,6 +5028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of runs of each configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "trials",
           "package": "hsbencher",
@@ -4696,6 +5039,7 @@
         "index": {
           "description": "number of runs of each configuration",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "trials",
           "package": "hsbencher",
@@ -4708,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "wait",
           "package": "hsbencher",
@@ -4717,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "wait",
           "package": "hsbencher",
@@ -4730,6 +5076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional working directory to switch to before\n   running command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Types",
           "name": "workingDir",
           "package": "hsbencher",
@@ -4740,6 +5087,7 @@
         "index": {
           "description": "Optional working directory to switch to before running command",
           "hierarchy": "HSBencher Types",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Types",
           "name": "workingDir",
           "package": "hsbencher",
@@ -4754,6 +5102,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMisc Small Helpers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "Utils",
           "package": "hsbencher",
@@ -4763,6 +5112,7 @@
         "index": {
           "description": "Misc Small Helpers",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "Utils",
           "package": "hsbencher",
@@ -4777,6 +5127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a backup copy of existing results_HOST.dat files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "backupResults",
           "package": "hsbencher",
@@ -4787,6 +5138,7 @@
         "index": {
           "description": "Create backup copy of existing results HOST.dat files",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "backupResults",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -4802,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "check",
           "package": "hsbencher",
@@ -4811,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "check",
           "normalized": "Bool-\u003eExitCode-\u003eString-\u003eBenchM Bool",
@@ -4826,6 +5180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "defaultTimeout",
           "package": "hsbencher",
@@ -4836,6 +5191,7 @@
         "index": {
           "description": "In seconds",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "defaultTimeout",
           "package": "hsbencher",
@@ -4850,6 +5206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a thread that echos the contents of stdout/stderr InputStreams (lines) to\n the appropriate places (as designated by the logging facility).\n Returns an MVar used to synchronize on the completion of the echo thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "echoStream",
           "package": "hsbencher",
@@ -4860,6 +5217,7 @@
         "index": {
           "description": "Create thread that echos the contents of stdout stderr InputStreams lines to the appropriate places as designated by the logging facility Returns an MVar used to synchronize on the completion of the echo thread",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "echoStream",
           "normalized": "Bool-\u003eInputStream ByteString-\u003eBenchM(MVar())",
@@ -4876,6 +5234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more persistent version of \u003ccode\u003e\u003ca\u003etakeBaseName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "fetchBaseName",
           "package": "hsbencher",
@@ -4886,6 +5245,7 @@
         "index": {
           "description": "more persistent version of takeBaseName",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "fetchBaseName",
           "normalized": "FilePath-\u003eFilePath",
@@ -4902,6 +5262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a thread but ALSO set up an error handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "forkIOH",
           "package": "hsbencher",
@@ -4912,6 +5273,7 @@
         "index": {
           "description": "Fork thread but ALSO set up an error handler",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "forkIOH",
           "normalized": "String-\u003eIO()-\u003eIO ThreadId",
@@ -4927,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "fst3",
           "package": "hsbencher",
@@ -4936,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "fst3",
           "normalized": "(a,a,a)-\u003ea",
@@ -4950,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "getCPULoad",
           "package": "hsbencher",
@@ -4959,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "getCPULoad",
           "package": "hsbencher",
@@ -4972,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "indent",
           "package": "hsbencher",
@@ -4981,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "indent",
           "normalized": "[String]-\u003e[String]",
@@ -4995,6 +5363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "isNumber",
           "package": "hsbencher",
@@ -5004,6 +5373,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "isNumber",
           "normalized": "String-\u003eBool",
@@ -5020,6 +5390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal variable holding the main thread id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "main_threadid",
           "package": "hsbencher",
@@ -5030,6 +5401,7 @@
         "index": {
           "description": "Global variable holding the main thread id",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "main_threadid",
           "package": "hsbencher",
@@ -5042,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "my_name",
           "package": "hsbencher",
@@ -5051,6 +5424,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "my_name",
           "package": "hsbencher",
@@ -5063,6 +5437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "parseIntList",
           "package": "hsbencher",
@@ -5072,6 +5447,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "parseIntList",
           "normalized": "String-\u003e[Int]",
@@ -5087,6 +5463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "runIgnoreErr",
           "package": "hsbencher",
@@ -5096,6 +5473,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "runIgnoreErr",
           "normalized": "String-\u003eIO String",
@@ -5112,6 +5490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a command through the OS shell and returns stdout split into\n lines.  (Ignore exit code and stderr.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "runLines",
           "package": "hsbencher",
@@ -5122,6 +5501,7 @@
         "index": {
           "description": "Runs command through the OS shell and returns stdout split into lines Ignore exit code and stderr",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "runLines",
           "normalized": "String-\u003eIO[String]",
@@ -5138,6 +5518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a command and wait for all output.  Log output to the appropriate places.\n   The first argument is a \u003ca\u003etag\u003c/a\u003e to append to each output line to make things\n   clearer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "runLogged",
           "package": "hsbencher",
@@ -5148,6 +5529,7 @@
         "index": {
           "description": "Run command and wait for all output Log output to the appropriate places The first argument is tag to append to each output line to make things clearer",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "runLogged",
           "normalized": "String-\u003eString-\u003eBenchM(RunResult,[ByteString])",
@@ -5164,6 +5546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a command through the OS shell and returns the first line of\n output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "runSL",
           "package": "hsbencher",
@@ -5174,6 +5557,7 @@
         "index": {
           "description": "Runs command through the OS shell and returns the first line of output",
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "runSL",
           "normalized": "String-\u003eIO String",
@@ -5189,6 +5573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "snd3",
           "package": "hsbencher",
@@ -5198,6 +5583,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "snd3",
           "normalized": "(a,a,a)-\u003ea",
@@ -5212,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "strBool",
           "package": "hsbencher",
@@ -5221,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "strBool",
           "normalized": "String-\u003eBool",
@@ -5236,6 +5624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "thd3",
           "package": "hsbencher",
@@ -5245,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "thd3",
           "normalized": "(a,a,a)-\u003ea",
@@ -5259,6 +5649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher.Utils",
           "name": "trim",
           "package": "hsbencher",
@@ -5268,6 +5659,7 @@
         },
         "index": {
           "hierarchy": "HSBencher Utils",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher.Utils",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -5283,6 +5675,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module that reexports the necessary bits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher",
           "name": "HSBencher",
           "package": "hsbencher",
@@ -5292,6 +5685,7 @@
         "index": {
           "description": "Convenience module that reexports the necessary bits",
           "hierarchy": "HSBencher",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher",
           "name": "HSBencher",
           "package": "hsbencher",
@@ -5306,6 +5700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:37 UTC 2014",
           "module": "HSBencher",
           "name": "Flag",
           "package": "hsbencher",
@@ -5315,6 +5710,7 @@
         "index": {
           "description": "Command line flags",
           "hierarchy": "HSBencher",
+          "indexed": "2014-03-11T18:46:37",
           "module": "HSBencher",
           "name": "Flag",
           "package": "hsbencher",

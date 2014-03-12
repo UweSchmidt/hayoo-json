@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-routes-happstack"
+        "phrase": "web-routes-happstack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:50 UTC 2014",
           "module": "Web.Routes.Happstack",
           "name": "Happstack",
           "package": "web-routes-happstack",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Happstack",
+          "indexed": "2014-03-11T20:37:50",
           "module": "Web.Routes.Happstack",
           "name": "Happstack",
           "package": "web-routes-happstack",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a \u003ccode\u003e\u003ca\u003eSite\u003c/a\u003e\u003c/code\u003e to a normal Happstack route\n\u003c/p\u003e\u003cp\u003ecalls \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e if the route can be decoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eimplSite_\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:50 UTC 2014",
           "module": "Web.Routes.Happstack",
           "name": "implSite",
           "package": "web-routes-happstack",
@@ -49,6 +52,7 @@
         "index": {
           "description": "convert Site to normal Happstack route calls mzero if the route can be decoded see also implSite",
           "hierarchy": "Web Routes Happstack",
+          "indexed": "2014-03-11T20:37:50",
           "module": "Web.Routes.Happstack",
           "name": "implSite",
           "normalized": "Text-\u003eText-\u003eSite a(b c)-\u003eb c",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a \u003ccode\u003e\u003ca\u003eSite\u003c/a\u003e\u003c/code\u003e to a normal Happstack route\n\u003c/p\u003e\u003cp\u003eIf url decoding fails, it returns \u003ccode\u003eLeft \u003ca\u003ethe parse error\u003c/a\u003e\u003c/code\u003e,\n otherwise \u003ccode\u003eRight a\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eimplSite\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:50 UTC 2014",
           "module": "Web.Routes.Happstack",
           "name": "implSite_",
           "package": "web-routes-happstack",
@@ -74,6 +79,7 @@
         "index": {
           "description": "convert Site to normal Happstack route If url decoding fails it returns Left the parse error otherwise Right see also implSite",
           "hierarchy": "Web Routes Happstack",
+          "indexed": "2014-03-11T20:37:50",
           "module": "Web.Routes.Happstack",
           "name": "implSite_",
           "normalized": "Text-\u003eText-\u003eSite a(b c)-\u003eb(Either String c)",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003eseeOther\u003c/a\u003e\u003c/code\u003e but takes a \u003ccode\u003e\u003ca\u003eURL\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e as an argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:50 UTC 2014",
           "module": "Web.Routes.Happstack",
           "name": "seeOtherURL",
           "package": "web-routes-happstack",
@@ -100,6 +107,7 @@
         "index": {
           "description": "similar to seeOther but takes URL as an argument",
           "hierarchy": "Web Routes Happstack",
+          "indexed": "2014-03-11T20:37:50",
           "module": "Web.Routes.Happstack",
           "name": "seeOtherURL",
           "normalized": "URL a-\u003ea Response",

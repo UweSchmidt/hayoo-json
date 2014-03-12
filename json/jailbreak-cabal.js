@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jailbreak-cabal"
+        "phrase": "jailbreak-cabal",
+        "type": "phrase"
       },
       "type": "context"
     }

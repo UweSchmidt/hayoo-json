@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsntp"
+        "phrase": "hsntp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "LoWire",
           "package": "hsntp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "LoWire",
           "package": "hsntp",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the get at the end of the buffer (for optional fields)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "atEnd",
           "package": "hsntp",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Is the get at the end of the buffer for optional fields",
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "atEnd",
           "package": "hsntp",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "getName",
           "package": "hsntp",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "getName",
           "package": "hsntp",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "getW16",
           "package": "hsntp",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "getW16",
           "package": "hsntp",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "getW16Lst",
           "package": "hsntp",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "getW16Lst",
           "normalized": "Int-\u003eMayIOSt WState[Word]",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "getW32",
           "package": "hsntp",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "getW32",
           "package": "hsntp",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "getW64",
           "package": "hsntp",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "getW64",
           "package": "hsntp",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "getW8Lst",
           "package": "hsntp",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "getW8Lst",
           "normalized": "Int-\u003eMayIOSt WState[Word]",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "putName",
           "package": "hsntp",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "putName",
           "normalized": "Name-\u003ePSt()",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "putW16",
           "package": "hsntp",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "putW16",
           "normalized": "Word-\u003ePSt()",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "putW16Lst",
           "package": "hsntp",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "putW16Lst",
           "normalized": "[Word]-\u003ePSt()",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "putW32",
           "package": "hsntp",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "putW32",
           "normalized": "Word-\u003ePSt()",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "putW64",
           "package": "hsntp",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "putW64",
           "normalized": "Word-\u003ePSt()",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.LoWire",
           "name": "putW8Lst",
           "package": "hsntp",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "DNS LoWire",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.LoWire",
           "name": "putW8Lst",
           "normalized": "[Word]-\u003ePSt()",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Type",
           "package": "hsntp",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Type",
           "package": "hsntp",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Bufi",
           "package": "hsntp",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Bufi",
           "package": "hsntp",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Data",
           "package": "hsntp",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Data",
           "package": "hsntp",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "MayIO",
           "package": "hsntp",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "MayIO",
           "package": "hsntp",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "MayIOSt",
           "package": "hsntp",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "MayIOSt",
           "package": "hsntp",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Name",
           "package": "hsntp",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Name",
           "package": "hsntp",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "PSt",
           "package": "hsntp",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "PSt",
           "package": "hsntp",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Packet",
           "package": "hsntp",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Packet",
           "package": "hsntp",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Question",
           "package": "hsntp",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Question",
           "package": "hsntp",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "RClass",
           "package": "hsntp",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "RClass",
           "package": "hsntp",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "RR",
           "package": "hsntp",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "RR",
           "package": "hsntp",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "RType",
           "package": "hsntp",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "RType",
           "package": "hsntp",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "WState",
           "package": "hsntp",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "WState",
           "package": "hsntp",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Zone",
           "package": "hsntp",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Zone",
           "package": "hsntp",
@@ -631,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Packet",
           "package": "hsntp",
@@ -640,6 +697,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Packet",
           "package": "hsntp",
@@ -653,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Q",
           "package": "hsntp",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Q",
           "package": "hsntp",
@@ -674,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "RR",
           "package": "hsntp",
@@ -683,6 +744,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "RR",
           "package": "hsntp",
@@ -696,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "Zone",
           "package": "hsntp",
@@ -705,6 +768,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "Zone",
           "normalized": "Zone Name[RR]",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "asPQ",
           "package": "hsntp",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "asPQ",
           "normalized": "[RR]",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "converge",
           "package": "hsntp",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "converge",
           "normalized": "Word-\u003eQuestion-\u003ePacket-\u003ePacket",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "emptyPacket",
           "package": "hsntp",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "emptyPacket",
           "package": "hsntp",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "enc",
           "package": "hsntp",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "enc",
           "normalized": "String-\u003eUArray Int Word",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "errorPacket",
           "package": "hsntp",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "errorPacket",
           "package": "hsntp",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "hashQuestion",
           "package": "hsntp",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "hashQuestion",
           "normalized": "Question-\u003eInt",
@@ -858,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "hePQ",
           "package": "hsntp",
@@ -867,6 +944,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "hePQ",
           "package": "hsntp",
@@ -880,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "idPQ",
           "package": "hsntp",
@@ -889,6 +968,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "idPQ",
           "package": "hsntp",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "nsPQ",
           "package": "hsntp",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "nsPQ",
           "normalized": "[RR]",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "putLine",
           "package": "hsntp",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "putLine",
           "normalized": "String-\u003eMayIO()",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "qsPQ",
           "package": "hsntp",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "qsPQ",
           "normalized": "[Question]",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "question",
           "package": "hsntp",
@@ -983,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "question",
           "normalized": "String-\u003eQType-\u003eQClass-\u003eQuestion",
@@ -997,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "rquestion",
           "package": "hsntp",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "rquestion",
           "normalized": "Name-\u003eQType-\u003eQClass-\u003eQuestion",
@@ -1020,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "rsPQ",
           "package": "hsntp",
@@ -1029,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "rsPQ",
           "normalized": "[RR]",
@@ -1044,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "DNS.Type",
           "name": "satisfies",
           "package": "hsntp",
@@ -1053,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "DNS Type",
+          "indexed": "2014-03-11T18:49:29",
           "module": "DNS.Type",
           "name": "satisfies",
           "normalized": "Question-\u003eRR-\u003eBool",
@@ -1067,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Daemon",
           "name": "Daemon",
           "package": "hsntp",
@@ -1075,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Daemon",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Daemon",
           "name": "Daemon",
           "package": "hsntp",
@@ -1088,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Daemon",
           "name": "childLives",
           "package": "hsntp",
@@ -1097,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Daemon",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Daemon",
           "name": "childLives",
           "normalized": "ProcessID-\u003eIO Bool",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Daemon",
           "name": "daemonize",
           "package": "hsntp",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Daemon",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Daemon",
           "name": "daemonize",
           "normalized": "IO()-\u003eIO()-\u003eIO ProcessID",
@@ -1135,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Misc",
           "name": "Misc",
           "package": "hsntp",
@@ -1143,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Misc",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Misc",
           "name": "Misc",
           "package": "hsntp",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Misc",
           "name": "MayIO",
           "package": "hsntp",
@@ -1164,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Misc",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Misc",
           "name": "MayIO",
           "package": "hsntp",
@@ -1177,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Misc",
           "name": "Time",
           "package": "hsntp",
@@ -1185,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Misc",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Misc",
           "name": "Time",
           "package": "hsntp",
@@ -1198,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Misc",
           "name": "runWithTO",
           "package": "hsntp",
@@ -1207,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Misc",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Misc",
           "name": "runWithTO",
           "normalized": "Time-\u003eIO(Either String a)-\u003eIO(Either String a)",
@@ -1222,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Misc",
           "name": "runWithTO'",
           "package": "hsntp",
@@ -1231,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Misc",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Misc",
           "name": "runWithTO'",
           "normalized": "Time-\u003eIO a-\u003eIO a",
@@ -1270,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.Misc",
           "name": "udpQuery",
           "package": "hsntp",
@@ -1279,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util Misc",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.Misc",
           "name": "udpQuery",
           "normalized": "String-\u003ePort-\u003eInt-\u003eTime-\u003e(Bufi-\u003eMayIO Int)-\u003e(Bufi-\u003eMayIO a)-\u003eMayIO a",
@@ -1295,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic UDP connectivity. Currently inefficient - GHC 6.4 should provide\n the primitives directly. Supports fast ops with CVS GHC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDP",
           "name": "UDP",
           "package": "hsntp",
@@ -1304,6 +1417,7 @@
         "index": {
           "description": "Basic UDP connectivity Currently inefficient GHC should provide the primitives directly Supports fast ops with CVS GHC",
           "hierarchy": "HSNTP Util UDP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDP",
           "name": "UDP",
           "package": "hsntp",
@@ -1318,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an UDP-port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDP",
           "name": "connectUDP",
           "package": "hsntp",
@@ -1328,6 +1443,7 @@
         "index": {
           "description": "Connect to an UDP-port",
           "hierarchy": "HSNTP Util UDP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDP",
           "name": "connectUDP",
           "normalized": "String-\u003eInt-\u003eIO Socket",
@@ -1344,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListen UDP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDP",
           "name": "listenUDP",
           "package": "hsntp",
@@ -1354,6 +1471,7 @@
         "index": {
           "description": "Listen UDP",
           "hierarchy": "HSNTP Util UDP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDP",
           "name": "listenUDP",
           "normalized": "Int-\u003eIO Socket",
@@ -1369,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDP",
           "name": "newSock",
           "package": "hsntp",
@@ -1378,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDP",
           "name": "newSock",
           "package": "hsntp",
@@ -1391,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDP",
           "name": "recvBufFrom",
           "package": "hsntp",
@@ -1399,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDP",
           "name": "recvBufFrom",
           "normalized": "Socket-\u003ePtr a-\u003eInt-\u003eIO(Int,SockAddr)",
@@ -1415,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses a socket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDP",
           "name": "sClose",
           "package": "hsntp",
@@ -1424,6 +1547,7 @@
         "index": {
           "description": "Closes socket",
           "hierarchy": "HSNTP Util UDP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDP",
           "name": "sClose",
           "normalized": "Socket-\u003eIO()",
@@ -1439,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDP",
           "name": "sendBufTo",
           "package": "hsntp",
@@ -1447,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDP",
           "name": "sendBufTo",
           "normalized": "Socket-\u003ePtr a-\u003eInt-\u003eSockAddr-\u003eIO Int",
@@ -1487,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "UDPClient",
           "package": "hsntp",
@@ -1495,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "UDPClient",
           "package": "hsntp",
@@ -1508,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "UDPClient",
           "package": "hsntp",
@@ -1516,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "UDPClient",
           "package": "hsntp",
@@ -1529,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "UDPClient",
           "package": "hsntp",
@@ -1538,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "UDPClient",
           "package": "hsntp",
@@ -1551,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "bufSize",
           "package": "hsntp",
@@ -1560,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "bufSize",
           "package": "hsntp",
@@ -1573,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "destSA",
           "package": "hsntp",
@@ -1582,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "destSA",
           "package": "hsntp",
@@ -1595,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "getFun",
           "package": "hsntp",
@@ -1604,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "getFun",
           "normalized": "Bufi-\u003eIO a",
@@ -1619,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "putFun",
           "package": "hsntp",
@@ -1628,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "putFun",
           "normalized": "Bufi-\u003eIO(Int,a)",
@@ -1643,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "retries",
           "package": "hsntp",
@@ -1652,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "retries",
           "package": "hsntp",
@@ -1664,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "runUDPClient",
           "package": "hsntp",
@@ -1673,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "runUDPClient",
           "normalized": "UDPClient a b-\u003eIO a",
@@ -1688,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "stdUDPClient",
           "package": "hsntp",
@@ -1697,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "stdUDPClient",
           "package": "hsntp",
@@ -1710,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "timeout",
           "package": "hsntp",
@@ -1719,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "timeout",
           "package": "hsntp",
@@ -1731,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPClient",
           "name": "valFun",
           "package": "hsntp",
@@ -1740,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPClient",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPClient",
           "name": "valFun",
           "normalized": "a-\u003eb-\u003eb",
@@ -1755,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "UDPServer",
           "package": "hsntp",
@@ -1763,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "UDPServer",
           "package": "hsntp",
@@ -1776,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "UDPServer",
           "package": "hsntp",
@@ -1784,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "UDPServer",
           "package": "hsntp",
@@ -1797,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "UDPServer",
           "package": "hsntp",
@@ -1806,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "UDPServer",
           "package": "hsntp",
@@ -1819,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "bufSize",
           "package": "hsntp",
@@ -1828,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "bufSize",
           "package": "hsntp",
@@ -1841,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "excFun",
           "package": "hsntp",
@@ -1850,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "excFun",
           "normalized": "Exception-\u003eIO()",
@@ -1865,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "getFun",
           "package": "hsntp",
@@ -1874,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "getFun",
           "normalized": "Bufi-\u003eIO a",
@@ -1889,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "port",
           "package": "hsntp",
@@ -1898,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "port",
           "package": "hsntp",
@@ -1910,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "putFun",
           "package": "hsntp",
@@ -1919,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "putFun",
           "normalized": "a-\u003eBufi-\u003eIO Int",
@@ -1934,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "runUDPServer",
           "package": "hsntp",
@@ -1943,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "runUDPServer",
           "normalized": "UDPServer a-\u003eIO[ThreadId]",
@@ -1958,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "stdUDPServer",
           "package": "hsntp",
@@ -1967,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "stdUDPServer",
           "package": "hsntp",
@@ -1980,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "threads",
           "package": "hsntp",
@@ -1989,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "threads",
           "package": "hsntp",
@@ -2001,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "timeout",
           "package": "hsntp",
@@ -2010,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "timeout",
           "package": "hsntp",
@@ -2022,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "waitForever",
           "package": "hsntp",
@@ -2031,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "waitForever",
           "normalized": "IO()",
@@ -2046,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "HSNTP.Util.UDPServer",
           "name": "workFun",
           "package": "hsntp",
@@ -2055,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "HSNTP Util UDPServer",
+          "indexed": "2014-03-11T18:49:29",
           "module": "HSNTP.Util.UDPServer",
           "name": "workFun",
           "normalized": "a-\u003eIO a",
@@ -2070,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.Client",
           "name": "Client",
           "package": "hsntp",
@@ -2078,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "SNTP Client",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.Client",
           "name": "Client",
           "package": "hsntp",
@@ -2091,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.Client",
           "name": "client",
           "package": "hsntp",
@@ -2100,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "SNTP Client",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.Client",
           "name": "client",
           "normalized": "SockAddr-\u003eUDPClient Packet TimeStamp",
@@ -2114,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.Client",
           "name": "query",
           "package": "hsntp",
@@ -2123,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "SNTP Client",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.Client",
           "name": "query",
           "normalized": "HostName-\u003eIO Packet",
@@ -2137,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.Client",
           "name": "setTime",
           "package": "hsntp",
@@ -2146,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "SNTP Client",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.Client",
           "name": "setTime",
           "normalized": "Packet-\u003eIO()",
@@ -2161,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "SNTP",
           "package": "hsntp",
@@ -2169,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "SNTP",
           "package": "hsntp",
@@ -2182,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "Packet",
           "package": "hsntp",
@@ -2190,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "Packet",
           "package": "hsntp",
@@ -2203,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "Packet",
           "package": "hsntp",
@@ -2212,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "Packet",
           "package": "hsntp",
@@ -2225,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "auth",
           "package": "hsntp",
@@ -2234,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "auth",
           "package": "hsntp",
@@ -2246,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "dToSecMSec",
           "package": "hsntp",
@@ -2255,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "dToSecMSec",
           "normalized": "Double-\u003e(Word,Word)",
@@ -2270,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "delay",
           "package": "hsntp",
@@ -2279,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "delay",
           "normalized": "Packet-\u003eDouble",
@@ -2293,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "emptyPacket",
           "package": "hsntp",
@@ -2302,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "emptyPacket",
           "package": "hsntp",
@@ -2315,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "getCurrentTimeStamp",
           "package": "hsntp",
@@ -2324,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "getCurrentTimeStamp",
           "package": "hsntp",
@@ -2337,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "liVerMode",
           "package": "hsntp",
@@ -2346,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "liVerMode",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord",
@@ -2361,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "nilTS",
           "package": "hsntp",
@@ -2370,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "nilTS",
           "package": "hsntp",
@@ -2383,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "origTS",
           "package": "hsntp",
@@ -2392,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "origTS",
           "package": "hsntp",
@@ -2405,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "parsePacket",
           "package": "hsntp",
@@ -2414,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "parsePacket",
           "normalized": "(Ptr Word,Int)-\u003eIO Packet",
@@ -2429,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "poll",
           "package": "hsntp",
@@ -2438,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "poll",
           "package": "hsntp",
@@ -2450,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "precision",
           "package": "hsntp",
@@ -2459,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "precision",
           "package": "hsntp",
@@ -2471,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "putPacket",
           "package": "hsntp",
@@ -2480,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "putPacket",
           "normalized": "Packet-\u003e(Ptr Word,Int)-\u003eIO(Int,TimeStamp)",
@@ -2495,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "received",
           "package": "hsntp",
@@ -2504,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "received",
           "package": "hsntp",
@@ -2516,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "recvTS",
           "package": "hsntp",
@@ -2525,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "recvTS",
           "package": "hsntp",
@@ -2538,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "refId",
           "package": "hsntp",
@@ -2547,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "refId",
           "package": "hsntp",
@@ -2560,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "refTS",
           "package": "hsntp",
@@ -2569,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "refTS",
           "package": "hsntp",
@@ -2582,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "rootDelay",
           "package": "hsntp",
@@ -2591,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "rootDelay",
           "package": "hsntp",
@@ -2604,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "rootDisp",
           "package": "hsntp",
@@ -2613,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "rootDisp",
           "package": "hsntp",
@@ -2626,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "stratum",
           "package": "hsntp",
@@ -2635,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "stratum",
           "package": "hsntp",
@@ -2647,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "tdiff",
           "package": "hsntp",
@@ -2656,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "tdiff",
           "normalized": "Packet-\u003eDouble",
@@ -2670,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "transTS",
           "package": "hsntp",
@@ -2679,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "transTS",
           "package": "hsntp",
@@ -2692,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "tsToClockTime",
           "package": "hsntp",
@@ -2701,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "tsToClockTime",
           "normalized": "TimeStamp-\u003eClockTime",
@@ -2716,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "tsToD",
           "package": "hsntp",
@@ -2725,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "tsToD",
           "normalized": "TimeStamp-\u003eDouble",
@@ -2740,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:29 UTC 2014",
           "module": "SNTP.SNTP",
           "name": "word0",
           "package": "hsntp",
@@ -2749,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "SNTP SNTP",
+          "indexed": "2014-03-11T18:49:29",
           "module": "SNTP.SNTP",
           "name": "word0",
           "package": "hsntp",

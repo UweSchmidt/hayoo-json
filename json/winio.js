@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "winio"
+        "phrase": "winio",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "billeksah-pane"
+        "phrase": "billeksah-pane",
+        "type": "phrase"
       },
       "type": "context"
     }

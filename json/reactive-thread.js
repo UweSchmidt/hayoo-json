@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive-thread"
+        "phrase": "reactive-thread",
+        "type": "phrase"
       },
       "type": "context"
     }

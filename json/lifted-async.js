@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lifted-async"
+        "phrase": "lifted-async",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a wrapped version of \u003ca\u003eControl.Concurrent.Async\u003c/a\u003e with types generalized\nfrom \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e to all monads in either \u003ccode\u003e\u003ca\u003eMonadBase\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMonadBaseControl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "Lifted",
           "package": "lifted-async",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is wrapped version of Control.Concurrent.Async with types generalized from IO to all monads in either MonadBase or MonadBaseControl",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "Lifted",
           "package": "lifted-async",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn asynchronous action spawned by \u003ccode\u003e\u003ca\u003easync\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ewithAsync\u003c/a\u003e\u003c/code\u003e.\n Asynchronous actions are executed in a separate thread, and\n operations are provided for waiting for asynchronous actions to\n complete and obtaining their results (see e.g. \u003ccode\u003e\u003ca\u003ewait\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "Async",
           "package": "lifted-async",
@@ -50,6 +53,7 @@
         "index": {
           "description": "An asynchronous action spawned by async or withAsync Asynchronous actions are executed in separate thread and operations are provided for waiting for asynchronous actions to complete and obtaining their results see e.g wait",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "Async",
           "package": "lifted-async",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003eConcurrently a\u003c/code\u003e is an \u003ccode\u003eIO\u003c/code\u003e operation that can be\n composed with other \u003ccode\u003eConcurrently\u003c/code\u003e values, using the \u003ccode\u003eApplicative\u003c/code\u003e\n and \u003ccode\u003eAlternative\u003c/code\u003e instances.\n\u003c/p\u003e\u003cp\u003eCalling \u003ccode\u003erunConcurrently\u003c/code\u003e on a value of type \u003ccode\u003eConcurrently a\u003c/code\u003e will\n execute the \u003ccode\u003eIO\u003c/code\u003e operations it contains concurrently, before\n delivering the result of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example\n\u003c/p\u003e\u003cpre\u003e (page1, page2, page3)\n     \u003c- runConcurrently $ (,,)\n     \u003c$\u003e Concurrently (getURL \"url1\")\n     \u003c*\u003e Concurrently (getURL \"url2\")\n     \u003c*\u003e Concurrently (getURL \"url3\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "Concurrently",
           "package": "lifted-async",
@@ -72,6 +77,7 @@
         "index": {
           "description": "value of type Concurrently is an IO operation that can be composed with other Concurrently values using the Applicative and Alternative instances Calling runConcurrently on value of type Concurrently will execute the IO operations it contains concurrently before delivering the result of type For example page1 page2 page3 runConcurrently Concurrently getURL url1 Concurrently getURL url2 Concurrently getURL url3",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "Concurrently",
           "package": "lifted-async",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003easync\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "async",
           "package": "lifted-async",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Generalized version of async",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "async",
           "normalized": "a b-\u003ea(Async(StM a b))",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003easyncBound\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncBound",
           "package": "lifted-async",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Generalized version of asyncBound",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncBound",
           "normalized": "a b-\u003ea(Async(StM a b))",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003easyncOn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncOn",
           "package": "lifted-async",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Generalized version of asyncOn",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncOn",
           "normalized": "Int-\u003ea b-\u003ea(Async(StM a b))",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003easyncOnWithUnmask\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncOnWithUnmask",
           "package": "lifted-async",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Generalized version of asyncOnWithUnmask",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncOnWithUnmask",
           "normalized": "Int-\u003e((a b c d-\u003ec d)-\u003ec e)-\u003ec(Async(StM c e))",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e of the thread running the given \u003ccode\u003e\u003ca\u003eAsync\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncThreadId",
           "package": "lifted-async",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Returns the ThreadId of the thread running the given Async",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncThreadId",
           "normalized": "Async a-\u003eThreadId",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003easyncWithUnmask\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncWithUnmask",
           "package": "lifted-async",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Generalized version of asyncWithUnmask",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "asyncWithUnmask",
           "normalized": "((a b c d-\u003ec d)-\u003ec e)-\u003ec(Async(StM c e))",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "cancel",
           "package": "lifted-async",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Generalized version of catch",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "cancel",
           "normalized": "Async(StM a b)-\u003ea()",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ecancelWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "cancelWith",
           "package": "lifted-async",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Generalized version of cancelWith",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "cancelWith",
           "normalized": "Async(StM a b)-\u003ec-\u003ea()",
@@ -291,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003econcurrently\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "concurrently",
           "package": "lifted-async",
@@ -301,6 +324,7 @@
         "index": {
           "description": "Generalized version of concurrently",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "concurrently",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -316,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003elink\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "link",
           "package": "lifted-async",
@@ -326,6 +351,7 @@
         "index": {
           "description": "Generalized version of link",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "link",
           "normalized": "Async(StM a b)-\u003ea()",
@@ -341,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003elink2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "link2",
           "package": "lifted-async",
@@ -351,6 +378,7 @@
         "index": {
           "description": "Generalized version of link2",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "link2",
           "normalized": "Async(StM a b)-\u003eAsync(StM a c)-\u003ea()",
@@ -366,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003emapConcurrently\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "mapConcurrently",
           "package": "lifted-async",
@@ -376,6 +405,7 @@
         "index": {
           "description": "Generalized version of mapConcurrently",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "mapConcurrently",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003epoll\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "poll",
           "package": "lifted-async",
@@ -402,6 +433,7 @@
         "index": {
           "description": "Generalized version of poll",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "poll",
           "normalized": "Async(StM a b)-\u003ea(Maybe(Either SomeException b))",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003epoll\u003c/a\u003e\u003c/code\u003e that can be used inside an STM transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "pollSTM",
           "package": "lifted-async",
@@ -426,6 +459,7 @@
         "index": {
           "description": "version of poll that can be used inside an STM transaction",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "pollSTM",
           "normalized": "Async a-\u003eSTM(Maybe(Either SomeException a))",
@@ -442,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003erace\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "race",
           "package": "lifted-async",
@@ -452,6 +487,7 @@
         "index": {
           "description": "Generalized version of race",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "race",
           "normalized": "a b-\u003ea c-\u003ea(Either b c)",
@@ -467,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003erace_\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "race_",
           "package": "lifted-async",
@@ -477,6 +514,7 @@
         "index": {
           "description": "Generalized version of race",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "race_",
           "normalized": "a b-\u003ea c-\u003ea()",
@@ -491,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "runConcurrently",
           "package": "lifted-async",
@@ -499,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "runConcurrently",
           "normalized": "Concurrently a-\u003eIO a",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewait\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "wait",
           "package": "lifted-async",
@@ -525,6 +566,7 @@
         "index": {
           "description": "Generalized version of wait",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "wait",
           "normalized": "Async(StM a b)-\u003ea b",
@@ -540,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitAny\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitAny",
           "package": "lifted-async",
@@ -550,6 +593,7 @@
         "index": {
           "description": "Generalized version of waitAny",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitAny",
           "normalized": "[Async(StM a b)]-\u003ea(Async(StM a b),b)",
@@ -566,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitAnyCancel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitAnyCancel",
           "package": "lifted-async",
@@ -576,6 +621,7 @@
         "index": {
           "description": "Generalized version of waitAnyCancel",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitAnyCancel",
           "normalized": "[Async a]-\u003eb(Async a,a)",
@@ -592,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitAnyCatch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitAnyCatch",
           "package": "lifted-async",
@@ -602,6 +649,7 @@
         "index": {
           "description": "Generalized version of waitAnyCatch",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitAnyCatch",
           "normalized": "[Async(StM a b)]-\u003ea(Async(StM a b),Either SomeException b)",
@@ -618,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitAnyCatchCancel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitAnyCatchCancel",
           "package": "lifted-async",
@@ -628,6 +677,7 @@
         "index": {
           "description": "Generalized version of waitAnyCatchCancel",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitAnyCatchCancel",
           "normalized": "[Async(StM a b)]-\u003ea(Async(StM a b),Either SomeException b)",
@@ -644,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitBoth\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitBoth",
           "package": "lifted-async",
@@ -654,6 +705,7 @@
         "index": {
           "description": "Generalized version of waitBoth",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitBoth",
           "normalized": "Async(StM a b)-\u003eAsync(StM a c)-\u003ea(b,c)",
@@ -670,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitCatch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitCatch",
           "package": "lifted-async",
@@ -680,6 +733,7 @@
         "index": {
           "description": "Generalized version of waitCatch",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitCatch",
           "normalized": "Async(StM a b)-\u003ea(Either SomeException b)",
@@ -696,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003ewaitCatch\u003c/a\u003e\u003c/code\u003e that can be used inside an STM transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitCatchSTM",
           "package": "lifted-async",
@@ -705,6 +760,7 @@
         "index": {
           "description": "version of waitCatch that can be used inside an STM transaction",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitCatchSTM",
           "normalized": "Async a-\u003eSTM(Either SomeException a)",
@@ -721,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitEither\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEither",
           "package": "lifted-async",
@@ -731,6 +788,7 @@
         "index": {
           "description": "Generalized version of waitEither",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEither",
           "normalized": "Async(StM a b)-\u003eAsync(StM a c)-\u003ea(Either b c)",
@@ -747,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitEitherCancel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEitherCancel",
           "package": "lifted-async",
@@ -757,6 +816,7 @@
         "index": {
           "description": "Generalized version of waitEitherCancel",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEitherCancel",
           "normalized": "Async(StM a b)-\u003eAsync(StM a c)-\u003ea(Either b c)",
@@ -773,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitEitherCatch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEitherCatch",
           "package": "lifted-async",
@@ -783,6 +844,7 @@
         "index": {
           "description": "Generalized version of waitEitherCatch",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEitherCatch",
           "normalized": "Async(StM a b)-\u003eAsync(StM a c)-\u003ea(Either(Either SomeException b)(Either SomeException c))",
@@ -799,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitEitherCatchCancel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEitherCatchCancel",
           "package": "lifted-async",
@@ -809,6 +872,7 @@
         "index": {
           "description": "Generalized version of waitEitherCatchCancel",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEitherCatchCancel",
           "normalized": "Async(StM a b)-\u003eAsync(StM a c)-\u003ea(Either(Either SomeException b)(Either SomeException c))",
@@ -825,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewaitEither_\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEither_",
           "package": "lifted-async",
@@ -835,6 +900,7 @@
         "index": {
           "description": "Generalized version of waitEither",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitEither_",
           "normalized": "Async(StM a b)-\u003eAsync(StM a c)-\u003ea()",
@@ -851,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003ewait\u003c/a\u003e\u003c/code\u003e that can be used inside an STM transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitSTM",
           "package": "lifted-async",
@@ -860,6 +927,7 @@
         "index": {
           "description": "version of wait that can be used inside an STM transaction",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "waitSTM",
           "normalized": "Async a-\u003eSTM a",
@@ -876,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewithAsync\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsync",
           "package": "lifted-async",
@@ -886,6 +955,7 @@
         "index": {
           "description": "Generalized version of withAsync",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsync",
           "normalized": "a b-\u003e(Async(StM a b)-\u003ea c)-\u003ea c",
@@ -902,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewithAsyncBound\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsyncBound",
           "package": "lifted-async",
@@ -912,6 +983,7 @@
         "index": {
           "description": "Generalized version of withAsyncBound",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsyncBound",
           "normalized": "a b-\u003e(Async(StM a b)-\u003ea c)-\u003ea c",
@@ -928,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewithAsyncOn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsyncOn",
           "package": "lifted-async",
@@ -938,6 +1011,7 @@
         "index": {
           "description": "Generalized version of withAsyncOn",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsyncOn",
           "normalized": "Int-\u003ea b-\u003e(Async(StM a b)-\u003ea c)-\u003ea c",
@@ -954,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewithAsyncOnWithUnmask\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsyncOnWithUnmask",
           "package": "lifted-async",
@@ -964,6 +1039,7 @@
         "index": {
           "description": "Generalized version of withAsyncOnWithUnmask",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsyncOnWithUnmask",
           "normalized": "Int-\u003e((a b c d-\u003ec d)-\u003ec e)-\u003e(Async(StM c e)-\u003ec f)-\u003ec f",
@@ -980,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003ewithAsyncWithUnmask\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:24 UTC 2014",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsyncWithUnmask",
           "package": "lifted-async",
@@ -990,6 +1067,7 @@
         "index": {
           "description": "Generalized version of withAsyncWithUnmask",
           "hierarchy": "Control Concurrent Async Lifted",
+          "indexed": "2014-03-11T19:09:24",
           "module": "Control.Concurrent.Async.Lifted",
           "name": "withAsyncWithUnmask",
           "normalized": "((a b c d-\u003ec d)-\u003ec e)-\u003e(Async(StM c e)-\u003ec f)-\u003ec f",

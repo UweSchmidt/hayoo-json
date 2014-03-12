@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "svg2q"
+        "phrase": "svg2q",
+        "type": "phrase"
       },
       "type": "context"
     }

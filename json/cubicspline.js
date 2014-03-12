@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cubicspline"
+        "phrase": "cubicspline",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:16 UTC 2014",
           "module": "Data.Algorithm.CubicSpline",
           "name": "CubicSpline",
           "package": "cubicspline",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Algorithm CubicSpline",
+          "indexed": "2014-03-11T17:45:16",
           "module": "Data.Algorithm.CubicSpline",
           "name": "CubicSpline",
           "package": "cubicspline",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of (x,y) co-ordinates, produces a list of coefficients to cubic equations, with knots at each of the initially provided x co-ordinates. Natural cubic spline interpololation is used. See: \u003ca\u003ehttp://en.wikipedia.org/wiki/Spline_interpolation#Interpolation_using_natural_cubic_spline\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:16 UTC 2014",
           "module": "Data.Algorithm.CubicSpline",
           "name": "cubicSplineCoefficients",
           "package": "cubicspline",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Given list of co-ordinates produces list of coefficients to cubic equations with knots at each of the initially provided co-ordinates Natural cubic spline interpololation is used See http en.wikipedia.org wiki Spline interpolation Interpolation using natural cubic spline",
           "hierarchy": "Data Algorithm CubicSpline",
+          "indexed": "2014-03-11T17:45:16",
           "module": "Data.Algorithm.CubicSpline",
           "name": "cubicSplineCoefficients",
           "normalized": "[(Double,Double)]-\u003e[PolyCos]",

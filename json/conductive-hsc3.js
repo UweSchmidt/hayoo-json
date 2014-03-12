@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "conductive-hsc3"
+        "phrase": "conductive-hsc3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.HSC3Utilities",
           "name": "HSC3Utilities",
           "package": "conductive-hsc3",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive HSC3Utilities",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.HSC3Utilities",
           "name": "HSC3Utilities",
           "package": "conductive-hsc3",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.HSC3Utilities",
           "name": "defaultSCGroup",
           "package": "conductive-hsc3",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive HSC3Utilities",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.HSC3Utilities",
           "name": "defaultSCGroup",
           "normalized": "IO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "Synths",
           "package": "conductive-hsc3",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "Synths",
           "package": "conductive-hsc3",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "defineSynth",
           "package": "conductive-hsc3",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "defineSynth",
           "normalized": "UGen-\u003eString-\u003eIO OSC",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "ping",
           "package": "conductive-hsc3",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "ping",
           "normalized": "Double-\u003eDouble-\u003eIO()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "ping2",
           "package": "conductive-hsc3",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "ping2",
           "normalized": "Double-\u003eDouble-\u003eIO()",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "pingDef",
           "package": "conductive-hsc3",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "pingDef",
           "package": "conductive-hsc3",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "pingDef2",
           "package": "conductive-hsc3",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "pingDef2",
           "package": "conductive-hsc3",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "playSynth",
           "package": "conductive-hsc3",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "playSynth",
           "normalized": "[(String,Double)]-\u003eString-\u003eIO()",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "pmTest",
           "package": "conductive-hsc3",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "pmTest",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "pmTestDef",
           "package": "conductive-hsc3",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "pmTestDef",
           "package": "conductive-hsc3",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "rudeBass",
           "package": "conductive-hsc3",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "rudeBass",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:38 UTC 2014",
           "module": "Sound.Conductive.Synths",
           "name": "rudeBassDef",
           "package": "conductive-hsc3",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Synths",
+          "indexed": "2014-03-11T17:38:38",
           "module": "Sound.Conductive.Synths",
           "name": "rudeBassDef",
           "package": "conductive-hsc3",

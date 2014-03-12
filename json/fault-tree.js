@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fault-tree"
+        "phrase": "fault-tree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "FaultTree",
           "package": "fault-tree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "FaultTree",
           "package": "fault-tree",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "Event",
           "package": "fault-tree",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An event",
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "Event",
           "package": "fault-tree",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical AND.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "And",
           "package": "fault-tree",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Logical AND",
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "And",
           "normalized": "And[Event]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed branch node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "Branch",
           "package": "fault-tree",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Named branch node",
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "Branch",
           "package": "fault-tree",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeaf node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "Leaf",
           "package": "fault-tree",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Leaf node",
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "Leaf",
           "package": "fault-tree",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical NOT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "Not",
           "package": "fault-tree",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Logical NOT",
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "Not",
           "package": "fault-tree",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical OR.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "Or",
           "package": "fault-tree",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Logical OR",
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "Or",
           "normalized": "Or[Event]",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "cutsets",
           "package": "fault-tree",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "cutsets",
           "normalized": "FilePath-\u003eInt-\u003eEvent-\u003e[Event]-\u003eIO()",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a Graphviz dot file from a set of \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e (fault) trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "dot",
           "package": "fault-tree",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Render Graphviz dot file from set of Event fault trees",
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "dot",
           "normalized": "[Event]-\u003eString",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical implication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:41 UTC 2014",
           "module": "Language.FaultTree",
           "name": "imply",
           "package": "fault-tree",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Logical implication",
           "hierarchy": "Language FaultTree",
+          "indexed": "2014-03-11T18:06:41",
           "module": "Language.FaultTree",
           "name": "imply",
           "normalized": "Event-\u003eEvent-\u003eEvent",

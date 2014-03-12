@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gdiff-ig"
+        "phrase": "gdiff-ig",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "GDiff",
           "package": "gdiff-ig",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "GDiff",
           "package": "gdiff-ig",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRebuilds a term, replacing the children with elements from the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "Build",
           "package": "gdiff-ig",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Rebuilds term replacing the children with elements from the list",
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "Build",
           "package": "gdiff-ig",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all the immediate children of a term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "Children",
           "package": "gdiff-ig",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Gets all the immediate children of term",
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "Children",
           "package": "gdiff-ig",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistentials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "Ex",
           "package": "gdiff-ig",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Existentials",
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "Ex",
           "package": "gdiff-ig",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTying the recursive knot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "GDiff",
           "package": "gdiff-ig",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Tying the recursive knot",
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "GDiff",
           "package": "gdiff-ig",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShallow equality: compare the constructor name only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "SEq",
           "package": "gdiff-ig",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Shallow equality compare the constructor name only",
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "SEq",
           "package": "gdiff-ig",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "Ex",
           "package": "gdiff-ig",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "Ex",
           "normalized": "a-\u003eEx",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "build",
           "package": "gdiff-ig",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "build",
           "normalized": "a-\u003e[Ex]-\u003eMaybe(a,[Ex])",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "buildDef",
           "package": "gdiff-ig",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "buildDef",
           "normalized": "a-\u003e[Ex]-\u003eMaybe(a,[Ex])",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "children",
           "package": "gdiff-ig",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "children",
           "normalized": "a-\u003e[Ex]",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "childrenDef",
           "package": "gdiff-ig",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "childrenDef",
           "normalized": "a-\u003e[Ex]",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric diff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "diff",
           "package": "gdiff-ig",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Generic diff",
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "diff",
           "normalized": "a-\u003ea-\u003eEditScript",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit distance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "diffLen",
           "package": "gdiff-ig",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Edit distance",
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "diffLen",
           "normalized": "a-\u003ea-\u003eFloat",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric diff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "patch",
           "package": "gdiff-ig",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Generic diff",
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "patch",
           "normalized": "EditScript-\u003ea-\u003eMaybe a",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "shallowEq",
           "package": "gdiff-ig",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "shallowEq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -372,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:22 UTC 2014",
           "module": "Generics.Instant.GDiff",
           "name": "shallowEqDef",
           "package": "gdiff-ig",
@@ -381,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant GDiff",
+          "indexed": "2014-03-11T18:14:22",
           "module": "Generics.Instant.GDiff",
           "name": "shallowEqDef",
           "normalized": "a-\u003ea-\u003eBool",

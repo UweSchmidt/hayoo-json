@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdbi-sqlite"
+        "phrase": "hdbi-sqlite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "Implementation",
           "package": "hdbi-sqlite",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "Implementation",
           "package": "hdbi-sqlite",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal state of the statement. There is two similar constructors\n \u003ccode\u003e\u003ca\u003eSQFetching\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSQExecuted\u003c/a\u003e\u003c/code\u003e to simulate proper behaviour according to\n tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "SQState",
           "package": "hdbi-sqlite",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Internal state of the statement There is two similar constructors SQFetching and SQExecuted to simulate proper behaviour according to tests",
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "SQState",
           "package": "hdbi-sqlite",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection to the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "SQliteConnection",
           "package": "hdbi-sqlite",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Connection to the database",
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "SQliteConnection",
           "package": "hdbi-sqlite",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepared statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "SQliteStatement",
           "package": "hdbi-sqlite",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Prepared statement",
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "SQliteStatement",
           "package": "hdbi-sqlite",
@@ -247,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebind SqlValue to the particular parameter of query of particular statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "bindParam",
           "package": "hdbi-sqlite",
@@ -257,6 +266,7 @@
         "index": {
           "description": "bind SqlValue to the particular parameter of query of particular statement",
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "bindParam",
           "normalized": "Database-\u003eStatement-\u003eParamIndex-\u003eSqlValue-\u003eIO()",
@@ -298,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "decodeLUTF8",
           "package": "hdbi-sqlite",
@@ -307,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "decodeLUTF8",
           "normalized": "Utf-\u003eText",
@@ -322,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "decodeUTF8",
           "package": "hdbi-sqlite",
@@ -331,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "decodeUTF8",
           "normalized": "Utf-\u003eText",
@@ -346,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "encodeLUTF8",
           "package": "hdbi-sqlite",
@@ -355,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "encodeLUTF8",
           "normalized": "Text-\u003eUtf",
@@ -370,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "encodeSUTF8",
           "package": "hdbi-sqlite",
@@ -379,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "encodeSUTF8",
           "normalized": "String-\u003eUtf",
@@ -394,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "encodeUTF8",
           "package": "hdbi-sqlite",
@@ -403,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "encodeUTF8",
           "normalized": "Text-\u003eUtf",
@@ -419,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efetch value from particular column of current row in particular statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "fetchValue",
           "package": "hdbi-sqlite",
@@ -429,6 +450,7 @@
         "index": {
           "description": "fetch value from particular column of current row in particular statement",
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "fetchValue",
           "normalized": "Statement-\u003eColumnIndex-\u003eIO SqlValue",
@@ -562,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprepend package name to the string for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "sqliteMsg",
           "package": "hdbi-sqlite",
@@ -572,6 +595,7 @@
         "index": {
           "description": "prepend package name to the string for error reporting",
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "sqliteMsg",
           "normalized": "String-\u003eString",
@@ -657,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet error description from the database and throw exception with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "throwErrMsg",
           "package": "hdbi-sqlite",
@@ -667,6 +692,7 @@
         "index": {
           "description": "Get error description from the database and throw exception with it",
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "throwErrMsg",
           "normalized": "Database-\u003eString-\u003eIO a",
@@ -683,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet internal \u003ccode\u003e\u003ca\u003eDatabase\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eSQliteConnection\u003c/a\u003e\u003c/code\u003e and execute and\n action with it. Or throw an error if connection is already closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "withConnectionUnlocked",
           "package": "hdbi-sqlite",
@@ -693,6 +720,7 @@
         "index": {
           "description": "Get internal Database from the SQliteConnection and execute and action with it Or throw an error if connection is already closed",
           "hierarchy": "Database HDBI SQlite Implementation",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite.Implementation",
           "name": "withConnectionUnlocked",
           "normalized": "SQliteConnection-\u003e(Database-\u003eIO a)-\u003eIO a",
@@ -708,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite",
           "name": "SQlite",
           "package": "hdbi-sqlite",
@@ -716,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI SQlite",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite",
           "name": "SQlite",
           "package": "hdbi-sqlite",
@@ -730,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal state of the statement. There is two similar constructors\n \u003ccode\u003e\u003ca\u003eSQFetching\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSQExecuted\u003c/a\u003e\u003c/code\u003e to simulate proper behaviour according to\n tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite",
           "name": "SQState",
           "package": "hdbi-sqlite",
@@ -739,6 +770,7 @@
         "index": {
           "description": "Internal state of the statement There is two similar constructors SQFetching and SQExecuted to simulate proper behaviour according to tests",
           "hierarchy": "Database HDBI SQlite",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite",
           "name": "SQState",
           "package": "hdbi-sqlite",
@@ -753,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection to the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite",
           "name": "SQliteConnection",
           "package": "hdbi-sqlite",
@@ -762,6 +795,7 @@
         "index": {
           "description": "Connection to the database",
           "hierarchy": "Database HDBI SQlite",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite",
           "name": "SQliteConnection",
           "package": "hdbi-sqlite",
@@ -776,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepared statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:32 UTC 2014",
           "module": "Database.HDBI.SQlite",
           "name": "SQliteStatement",
           "package": "hdbi-sqlite",
@@ -785,6 +820,7 @@
         "index": {
           "description": "Prepared statement",
           "hierarchy": "Database HDBI SQlite",
+          "indexed": "2014-03-11T18:35:32",
           "module": "Database.HDBI.SQlite",
           "name": "SQliteStatement",
           "package": "hdbi-sqlite",

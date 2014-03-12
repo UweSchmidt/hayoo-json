@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "minimung"
+        "phrase": "minimung",
+        "type": "phrase"
       },
       "type": "context"
     }

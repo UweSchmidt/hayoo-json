@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "greg-client"
+        "phrase": "greg-client",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a binding to the greg distributed logger,\n which provides a high-precision global time axis and is very performant.\n\u003c/p\u003e\u003cp\u003eSee project home page at \u003ca\u003ehttp://code.google.com/p/greg\u003c/a\u003e for an explanation\n of how to use the server, the features, motivation and design.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "Greg",
           "package": "greg-client",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides binding to the greg distributed logger which provides high-precision global time axis and is very performant See project home page at http code.google.com greg for an explanation of how to use the server the features motivation and design",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "Greg",
           "package": "greg-client",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient configuration.\n You probably only need to change \u003ccode\u003eserver\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "Configuration",
           "package": "greg-client",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Client configuration You probably only need to change server",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "Configuration",
           "package": "greg-client",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "Configuration",
           "package": "greg-client",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "Configuration",
           "package": "greg-client",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow often to initiate calibration exchanges\n   (default \u003ccode\u003e10\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "calibrationPeriodSec",
           "package": "greg-client",
@@ -97,6 +104,7 @@
         "index": {
           "description": "How often to initiate calibration exchanges default",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "calibrationPeriodSec",
           "package": "greg-client",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalibration port (default \u003ccode\u003e5677\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "calibrationPort",
           "package": "greg-client",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Calibration port default",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "calibrationPort",
           "package": "greg-client",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary identifier, will show up in logs.\n   For example, \u003ccode\u003e\"DataService\"\u003c/code\u003e \n   (default \u003ccode\u003e\"unknown\"\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "clientId",
           "package": "greg-client",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Arbitrary identifier will show up in logs For example DataService default unknown",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "clientId",
           "package": "greg-client",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default configuration, suitable for most needs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "defaultConfiguration",
           "package": "greg-client",
@@ -169,6 +182,7 @@
         "index": {
           "description": "The default configuration suitable for most needs",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "defaultConfiguration",
           "package": "greg-client",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow often to send message batches to server \n   (default \u003ccode\u003e1000\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "flushPeriodMs",
           "package": "greg-client",
@@ -193,6 +208,7 @@
         "index": {
           "description": "How often to send message batches to server default",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "flushPeriodMs",
           "package": "greg-client",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog a message. The message will show up in server's output\n annotated with a global timestamp (client's clock offset does \n not matter).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "logMessage",
           "package": "greg-client",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Log message The message will show up in server output annotated with global timestamp client clock offset does not matter",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "logMessage",
           "normalized": "String-\u003eIO()",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many records to store between flushes\n   (more will be dropped) (default \u003ccode\u003e100000\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "maxBufferedRecords",
           "package": "greg-client",
@@ -243,6 +262,7 @@
         "index": {
           "description": "How many records to store between flushes more will be dropped default",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "maxBufferedRecords",
           "package": "greg-client",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage port (default \u003ccode\u003e5676\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "port",
           "package": "greg-client",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Message port default",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "port",
           "package": "greg-client",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer hostname (default \u003ccode\u003elocalhost\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "server",
           "package": "greg-client",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Server hostname default localhost",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "server",
           "package": "greg-client",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to use gzip compression \n   (default \u003ccode\u003eFalse\u003c/code\u003e, \u003ccode\u003eTrue\u003c/code\u003e is unsupported)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "useCompression",
           "package": "greg-client",
@@ -313,6 +338,7 @@
         "index": {
           "description": "Whether to use gzip compression default False True is unsupported",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "useCompression",
           "package": "greg-client",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an IO action with logging (will wait for all messages to flush).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:19 UTC 2014",
           "module": "System.Log.Greg",
           "name": "withGregDo",
           "package": "greg-client",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Perform an IO action with logging will wait for all messages to flush",
           "hierarchy": "System Log Greg",
+          "indexed": "2014-03-11T18:21:19",
           "module": "System.Log.Greg",
           "name": "withGregDo",
           "normalized": "Configuration-\u003eIO()-\u003eIO()",

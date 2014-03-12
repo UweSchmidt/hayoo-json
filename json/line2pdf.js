@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "line2pdf"
+        "phrase": "line2pdf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "Internals",
           "package": "line2pdf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "Internals",
           "package": "line2pdf",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "AppConfig",
           "package": "line2pdf",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "AppConfig",
           "package": "line2pdf",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "Encoding",
           "package": "line2pdf",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "Encoding",
           "package": "line2pdf",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "FontConfig",
           "package": "line2pdf",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "FontConfig",
           "package": "line2pdf",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "M",
           "package": "line2pdf",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "M",
           "package": "line2pdf",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "Obj",
           "package": "line2pdf",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "Obj",
           "package": "line2pdf",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "Big5",
           "package": "line2pdf",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "Big5",
           "package": "line2pdf",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "EUC_JP",
           "package": "line2pdf",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "EUC_JP",
           "package": "line2pdf",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "EUC_KR",
           "package": "line2pdf",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "EUC_KR",
           "package": "line2pdf",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "GBK",
           "package": "line2pdf",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "GBK",
           "package": "line2pdf",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "Latin",
           "package": "line2pdf",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "Latin",
           "package": "line2pdf",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "MkAppConfig",
           "package": "line2pdf",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "MkAppConfig",
           "package": "line2pdf",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "MkFontConfig",
           "package": "line2pdf",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "MkFontConfig",
           "package": "line2pdf",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "ShiftJIS",
           "package": "line2pdf",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "ShiftJIS",
           "package": "line2pdf",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "__LOC__",
           "package": "line2pdf",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "__LOC__",
           "package": "line2pdf",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "__OBJ__",
           "package": "line2pdf",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "__OBJ__",
           "package": "line2pdf",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "__PAGE__",
           "package": "line2pdf",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "__PAGE__",
           "normalized": "IORef[Obj]",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "__POS__",
           "package": "line2pdf",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "__POS__",
           "package": "line2pdf",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "baseFonts",
           "package": "line2pdf",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "baseFonts",
           "normalized": "[String]",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "cidFontType",
           "package": "line2pdf",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "cidFontType",
           "package": "line2pdf",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "currentLocation",
           "package": "line2pdf",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "currentLocation",
           "package": "line2pdf",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "defaultConfig",
           "package": "line2pdf",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "defaultConfig",
           "normalized": "Encoding-\u003eByteString-\u003eAppConfig",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "descriptor",
           "package": "line2pdf",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "descriptor",
           "package": "line2pdf",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "encoding",
           "package": "line2pdf",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "encoding",
           "package": "line2pdf",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "encodings",
           "package": "line2pdf",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "encodings",
           "normalized": "[Encoding]",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "endPage",
           "package": "line2pdf",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "endPage",
           "normalized": "Int-\u003eM()",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "fontFamily",
           "package": "line2pdf",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "fontFamily",
           "normalized": "Int-\u003eString-\u003e[(Int,String)]",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "fontOf",
           "package": "line2pdf",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "fontOf",
           "normalized": "Encoding-\u003eString",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsBig5",
           "package": "line2pdf",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsBig5",
           "normalized": "[(Int,String)]",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsEUC_JP",
           "package": "line2pdf",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsEUC_JP",
           "normalized": "[(Int,String)]",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsEUC_KR",
           "package": "line2pdf",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsEUC_KR",
           "normalized": "[(Int,String)]",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsGBK",
           "package": "line2pdf",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsGBK",
           "normalized": "[(Int,String)]",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsShiftJIS",
           "package": "line2pdf",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "fontsShiftJIS",
           "normalized": "[(Int,String)]",
@@ -758,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "incrObj",
           "package": "line2pdf",
@@ -767,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "incrObj",
           "package": "line2pdf",
@@ -780,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "lineToPDF",
           "package": "line2pdf",
@@ -789,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "lineToPDF",
           "normalized": "AppConfig-\u003eIO()",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "markLocation",
           "package": "line2pdf",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "markLocation",
           "normalized": "Obj-\u003eM()",
@@ -828,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "markObj",
           "package": "line2pdf",
@@ -837,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "markObj",
           "normalized": "(Obj-\u003eM a)-\u003eM a",
@@ -852,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "modifyRef",
           "package": "line2pdf",
@@ -861,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "modifyRef",
           "normalized": "IORef a-\u003e(a-\u003ea)-\u003eM()",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "newRef",
           "package": "line2pdf",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "newRef",
           "normalized": "a-\u003eM(IORef a)",
@@ -900,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "ordering",
           "package": "line2pdf",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "ordering",
           "package": "line2pdf",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "pageHeight",
           "package": "line2pdf",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "pageHeight",
           "package": "line2pdf",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "pageWidth",
           "package": "line2pdf",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "pageWidth",
           "package": "line2pdf",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "pr",
           "package": "line2pdf",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "pr",
           "normalized": "String-\u003eM()",
@@ -988,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "printObj",
           "package": "line2pdf",
@@ -997,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "printObj",
           "normalized": "String-\u003eM Obj",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "ptSize",
           "package": "line2pdf",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "ptSize",
           "package": "line2pdf",
@@ -1034,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "readRef",
           "package": "line2pdf",
@@ -1043,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "readRef",
           "normalized": "IORef a-\u003eM a",
@@ -1058,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "srcEscape",
           "package": "line2pdf",
@@ -1067,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "srcEscape",
           "normalized": "Char-\u003ea-\u003ea",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "srcHead",
           "package": "line2pdf",
@@ -1091,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "srcHead",
           "normalized": "a-\u003eChar",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "srcLength",
           "package": "line2pdf",
@@ -1115,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "srcLength",
           "normalized": "a-\u003eInt",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "srcLines",
           "package": "line2pdf",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "srcLines",
           "normalized": "[a]",
@@ -1154,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "srcPut",
           "package": "line2pdf",
@@ -1163,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "srcPut",
           "normalized": "a-\u003eIO()",
@@ -1178,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "startPage",
           "package": "line2pdf",
@@ -1187,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "startPage",
           "normalized": "AppConfig-\u003eM Int",
@@ -1202,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "strDefaultEncoding",
           "package": "line2pdf",
@@ -1211,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "strDefaultEncoding",
           "package": "line2pdf",
@@ -1224,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "supplement",
           "package": "line2pdf",
@@ -1233,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "supplement",
           "package": "line2pdf",
@@ -1245,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "wBox",
           "package": "line2pdf",
@@ -1254,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "wBox",
           "package": "line2pdf",
@@ -1267,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsBig5",
           "package": "line2pdf",
@@ -1276,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsBig5",
           "normalized": "M[String]",
@@ -1291,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsEUC_JP",
           "package": "line2pdf",
@@ -1300,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsEUC_JP",
           "normalized": "M[String]",
@@ -1315,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsEUC_KR",
           "package": "line2pdf",
@@ -1324,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsEUC_KR",
           "normalized": "M[String]",
@@ -1339,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsGBK",
           "package": "line2pdf",
@@ -1348,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsGBK",
           "normalized": "M[String]",
@@ -1363,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsShiftJIS",
           "package": "line2pdf",
@@ -1372,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeFontsShiftJIS",
           "normalized": "M[String]",
@@ -1387,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeHeader",
           "package": "line2pdf",
@@ -1396,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeHeader",
           "normalized": "[Encoding]-\u003eM(Obj,Obj,Obj,Obj)",
@@ -1411,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeLocations",
           "package": "line2pdf",
@@ -1420,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeLocations",
           "normalized": "M()",
@@ -1435,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeObj",
           "package": "line2pdf",
@@ -1444,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeObj",
           "normalized": "Obj-\u003eM a-\u003eM a",
@@ -1459,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writePages",
           "package": "line2pdf",
@@ -1468,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writePages",
           "normalized": "AppConfig-\u003eM[Obj]",
@@ -1483,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF.Internals",
           "name": "writeRef",
           "package": "line2pdf",
@@ -1492,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF Internals",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF.Internals",
           "name": "writeRef",
           "normalized": "IORef a-\u003ea-\u003eM()",
@@ -1507,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:48 UTC 2014",
           "module": "Text.LineToPDF",
           "name": "LineToPDF",
           "package": "line2pdf",
@@ -1515,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Text LineToPDF",
+          "indexed": "2014-03-11T19:09:48",
           "module": "Text.LineToPDF",
           "name": "LineToPDF",
           "package": "line2pdf",

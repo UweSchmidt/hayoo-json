@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crocodile"
+        "phrase": "crocodile",
+        "type": "phrase"
       },
       "type": "context"
     }

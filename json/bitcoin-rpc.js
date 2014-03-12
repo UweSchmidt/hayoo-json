@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitcoin-rpc"
+        "phrase": "bitcoin-rpc",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-show"
+        "phrase": "bytestring-show",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficiently convert from values to lazy byte strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "ByteString",
           "package": "bytestring-show",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Efficiently convert from values to lazy byte strings",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "ByteString",
           "package": "bytestring-show",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut merely lifts Builder into a Writer monad, applied to ().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "Put",
           "package": "bytestring-show",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Put merely lifts Builder into Writer monad applied to",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "Put",
           "package": "bytestring-show",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PutM type. A Writer monad over the efficient Builder monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "PutM",
           "package": "bytestring-show",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The PutM type Writer monad over the efficient Builder monoid",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "PutM",
           "package": "bytestring-show",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion of values to readable byte strings.\n Minimal complete definition: \u003ccode\u003e\u003ca\u003eshowp\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eshowpPrec\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "Show",
           "package": "bytestring-show",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Conversion of values to readable byte strings Minimal complete definition showp or showpPrec",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "Show",
           "package": "bytestring-show",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "Put",
           "package": "bytestring-show",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "Put",
           "package": "bytestring-show",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a value to the standard output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "print",
           "package": "bytestring-show",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Print value to the standard output",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "print",
           "normalized": "a-\u003eIO()",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a single Char to a byte string, assuming it's ascii.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "putAscii",
           "package": "bytestring-show",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Writes single Char to byte string assuming it ascii",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "putAscii",
           "normalized": "Char-\u003ePut",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a string of ascii characters to a byte string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "putAsciiStr",
           "package": "bytestring-show",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Writes string of ascii characters to byte string",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "putAsciiStr",
           "normalized": "String-\u003ePut",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts the digit corresponding to the Int passed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "putDigit",
           "package": "bytestring-show",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Puts the digit corresponding to the Int passed in",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "putDigit",
           "normalized": "Int-\u003ePut",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a single Char to a byte string, properly UTF-8 encoded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "putUTF8",
           "package": "bytestring-show",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Writes single Char to byte string properly UTF-8 encoded",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "putUTF8",
           "normalized": "Char-\u003ePut",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a string of unicode characters to a byte string,\n properly UTF-8 encoded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "putUTF8Str",
           "package": "bytestring-show",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Writes string of unicode characters to byte string properly UTF-8 encoded",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "putUTF8Str",
           "normalized": "String-\u003ePut",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e monad with a serialiser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "runPut",
           "package": "bytestring-show",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Run the Put monad with serialiser",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "runPut",
           "normalized": "Put-\u003eByteString",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a single value into a byte string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "show",
           "package": "bytestring-show",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Encode single value into byte string",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "show",
           "normalized": "a-\u003eByteString",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes a value to an efficient byte string builder.\n Values of type Put can be efficiently combined, so this\n is available for building strings from multiple values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "showp",
           "package": "bytestring-show",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Encodes value to an efficient byte string builder Values of type Put can be efficiently combined so this is available for building strings from multiple values",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "showp",
           "normalized": "a-\u003ePut",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed RealFloat value using scientific (exponential) notation.\n The optional integer can be used to specify precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "showpEFloat",
           "package": "bytestring-show",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Show signed RealFloat value using scientific exponential notation The optional integer can be used to specify precision",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "showpEFloat",
           "normalized": "Maybe Int-\u003ea-\u003ePut",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed RealFloat value using decimal notation. The optional\n integer can be used to specify precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "showpFFloat",
           "package": "bytestring-show",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Show signed RealFloat value using decimal notation The optional integer can be used to specify precision",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "showpFFloat",
           "normalized": "Maybe Int-\u003ea-\u003ePut",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed RealFloat value using decimal notation when the\n absolute value lies between 0.1 and 9,999,999, and scientific\n notation otherwise. The optional integer can be used to specify\n precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "showpGFloat",
           "package": "bytestring-show",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Show signed RealFloat value using decimal notation when the absolute value lies between and and scientific notation otherwise The optional integer can be used to specify precision",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "showpGFloat",
           "normalized": "Maybe Int-\u003ea-\u003ePut",
@@ -438,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows an Integral number using the base specified by the first\n argument and the chracter representation specified by the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "showpIntAtBase",
           "package": "bytestring-show",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Shows an Integral number using the base specified by the first argument and the chracter representation specified by the second",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "showpIntAtBase",
           "normalized": "a-\u003e(Int-\u003eChar)-\u003ea-\u003ePut",
@@ -464,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows for specialized display of lists of values.\n This is used, for example, when showing arrays of Chars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "showpList",
           "package": "bytestring-show",
@@ -474,6 +511,7 @@
         "index": {
           "description": "Allows for specialized display of lists of values This is used for example when showing arrays of Chars",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "showpList",
           "normalized": "[a]-\u003ePut",
@@ -490,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA utility function for surrounding output by parentheses\n conditionally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "showpParen",
           "package": "bytestring-show",
@@ -500,6 +539,7 @@
         "index": {
           "description": "utility function for surrounding output by parentheses conditionally",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "showpParen",
           "normalized": "Bool-\u003ePut-\u003ePut",
@@ -516,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes a value to an efficient byte string builder.\n The precedence is used to determine where to put\n parentheses in a shown expression involving operators.\n\u003c/p\u003e\u003cp\u003eValues of type Put can be efficiently combined, so the\n showp functions are available for showing multiple values\n before producing an output byte string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "showpPrec",
           "package": "bytestring-show",
@@ -526,6 +567,7 @@
         "index": {
           "description": "Encodes value to an efficient byte string builder The precedence is used to determine where to put parentheses in shown expression involving operators Values of type Put can be efficiently combined so the showp functions are available for showing multiple values before producing an output byte string",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "showpPrec",
           "normalized": "Int-\u003ea-\u003ePut",
@@ -541,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "unPut",
           "package": "bytestring-show",
@@ -549,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "unPut",
           "package": "bytestring-show",
@@ -563,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge several string builders, separating them by newlines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "unlinesP",
           "package": "bytestring-show",
@@ -573,6 +618,7 @@
         "index": {
           "description": "Merge several string builders separating them by newlines",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "unlinesP",
           "normalized": "[Put]-\u003ePut",
@@ -588,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts the decimal digit corresponding to the given Int without\n checking that it is in the interval [0,9]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "unsafePutDigit",
           "package": "bytestring-show",
@@ -598,6 +645,7 @@
         "index": {
           "description": "Puts the decimal digit corresponding to the given Int without checking that it is in the interval",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "unsafePutDigit",
           "normalized": "Int-\u003ePut",
@@ -614,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge several string builders, separating them by spaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:05 UTC 2014",
           "module": "Text.Show.ByteString",
           "name": "unwordsP",
           "package": "bytestring-show",
@@ -624,6 +673,7 @@
         "index": {
           "description": "Merge several string builders separating them by spaces",
           "hierarchy": "Text Show ByteString",
+          "indexed": "2014-03-11T17:27:05",
           "module": "Text.Show.ByteString",
           "name": "unwordsP",
           "normalized": "[Put]-\u003ePut",

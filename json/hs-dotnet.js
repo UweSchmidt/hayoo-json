@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-dotnet"
+        "phrase": "hs-dotnet",
+        "type": "phrase"
       },
       "type": "context"
     }

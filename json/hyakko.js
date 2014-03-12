@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hyakko"
+        "phrase": "hyakko",
+        "type": "phrase"
       },
       "type": "context"
     }

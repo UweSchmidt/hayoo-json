@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "memcached"
+        "phrase": "memcached",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Key",
           "name": "Key",
           "package": "memcached",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Key",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Key",
           "name": "Key",
           "package": "memcached",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Key",
           "name": "Key",
           "package": "memcached",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Key",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Key",
           "name": "Key",
           "package": "memcached",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Key",
           "name": "hash",
           "package": "memcached",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Key",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Key",
           "name": "hash",
           "normalized": "a-\u003eInt",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Key",
           "name": "toKey",
           "package": "memcached",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Key",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Key",
           "name": "toKey",
           "normalized": "a-\u003eString",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Protocol",
           "name": "Protocol",
           "package": "memcached",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Protocol",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Protocol",
           "name": "Protocol",
           "package": "memcached",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Protocol",
           "name": "Server",
           "package": "memcached",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Protocol",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Protocol",
           "name": "Server",
           "package": "memcached",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Protocol",
           "name": "connect",
           "package": "memcached",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Protocol",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Protocol",
           "name": "connect",
           "normalized": "HostName-\u003ePortNumber-\u003eIO Server",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Protocol",
           "name": "disconnect",
           "package": "memcached",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Protocol",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Protocol",
           "name": "disconnect",
           "normalized": "Server-\u003eIO()",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Protocol",
           "name": "stats",
           "package": "memcached",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Protocol",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Protocol",
           "name": "stats",
           "normalized": "Server-\u003eIO[(String,String)]",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Serializable",
           "name": "Serializable",
           "package": "memcached",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Serializable",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Serializable",
           "name": "Serializable",
           "package": "memcached",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Serializable",
           "name": "Serializable",
           "package": "memcached",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Serializable",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Serializable",
           "name": "Serializable",
           "package": "memcached",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Serializable",
           "name": "deserialize",
           "package": "memcached",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Serializable",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Serializable",
           "name": "deserialize",
           "normalized": "ByteString-\u003eMaybe a",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.Serializable",
           "name": "serialize",
           "package": "memcached",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache Serializable",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.Serializable",
           "name": "serialize",
           "normalized": "a-\u003eByteString",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.ServerPool",
           "name": "ServerPool",
           "package": "memcached",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache ServerPool",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.ServerPool",
           "name": "ServerPool",
           "package": "memcached",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.ServerPool",
           "name": "Pool",
           "package": "memcached",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache ServerPool",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.ServerPool",
           "name": "Pool",
           "package": "memcached",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.ServerPool",
           "name": "Server",
           "package": "memcached",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache ServerPool",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.ServerPool",
           "name": "Server",
           "package": "memcached",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.ServerPool",
           "name": "Pool",
           "package": "memcached",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache ServerPool",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.ServerPool",
           "name": "Pool",
           "normalized": "Pool(String-\u003eInt)",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache.ServerPool",
           "name": "Server",
           "package": "memcached",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache ServerPool",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache.ServerPool",
           "name": "Server",
           "package": "memcached",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "Memcache",
           "package": "memcached",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "Memcache",
           "package": "memcached",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "Memcache",
           "package": "memcached",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "Memcache",
           "package": "memcached",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "add",
           "package": "memcached",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "add",
           "normalized": "a-\u003eb-\u003ec-\u003eIO Bool",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "decr",
           "package": "memcached",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "decr",
           "normalized": "a-\u003eb-\u003eInt-\u003eIO(Maybe Int)",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "delete",
           "package": "memcached",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "delete",
           "normalized": "a-\u003eb-\u003eInt-\u003eIO Bool",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "get",
           "package": "memcached",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "get",
           "normalized": "a-\u003eb-\u003eIO(Maybe c)",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "incr",
           "package": "memcached",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "incr",
           "normalized": "a-\u003eb-\u003eInt-\u003eIO(Maybe Int)",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "replace",
           "package": "memcached",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "replace",
           "normalized": "a-\u003eb-\u003ec-\u003eIO Bool",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:09 UTC 2014",
           "module": "Network.Memcache",
           "name": "set",
           "package": "memcached",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Network Memcache",
+          "indexed": "2014-03-11T19:16:09",
           "module": "Network.Memcache",
           "name": "set",
           "normalized": "a-\u003eb-\u003ec-\u003eIO Bool",

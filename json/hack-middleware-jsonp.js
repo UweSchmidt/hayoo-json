@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-middleware-jsonp"
+        "phrase": "hack-middleware-jsonp",
+        "type": "phrase"
       },
       "type": "context"
     }

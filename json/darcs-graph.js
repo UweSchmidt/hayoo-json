@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcs-graph"
+        "phrase": "darcs-graph",
+        "type": "phrase"
       },
       "type": "context"
     }

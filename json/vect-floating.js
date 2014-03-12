@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vect-floating"
+        "phrase": "vect-floating",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Base",
           "package": "vect-floating",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Base",
           "package": "vect-floating",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "AbelianGroup",
           "package": "vect-floating",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "AbelianGroup",
           "package": "vect-floating",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "CrossProd",
           "package": "vect-floating",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Cross product",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "CrossProd",
           "package": "vect-floating",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Determinant",
           "package": "vect-floating",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Determinant",
           "package": "vect-floating",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emakes a diagonal matrix from a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Diagonal",
           "package": "vect-floating",
@@ -114,6 +123,7 @@
         "index": {
           "description": "makes diagonal matrix from vector",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Diagonal",
           "package": "vect-floating",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Dimension",
           "package": "vect-floating",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Dimension",
           "package": "vect-floating",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "DotProd",
           "package": "vect-floating",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "DotProd",
           "package": "vect-floating",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion between vectors (and matrices) of different dimensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Extend",
           "package": "vect-floating",
@@ -179,6 +194,7 @@
         "index": {
           "description": "conversion between vectors and matrices of different dimensions",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Extend",
           "package": "vect-floating",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "HasCoordinates",
           "package": "vect-floating",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "HasCoordinates",
           "package": "vect-floating",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "LeftModule",
           "package": "vect-floating",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "LeftModule",
           "package": "vect-floating",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe components are \u003cem\u003erow\u003c/em\u003e vectors \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat2",
           "package": "vect-floating",
@@ -244,6 +265,7 @@
         "index": {
           "description": "The components are row vectors",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat2",
           "package": "vect-floating",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat3",
           "package": "vect-floating",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat3",
           "package": "vect-floating",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat4",
           "package": "vect-floating",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat4",
           "package": "vect-floating",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Matrix",
           "package": "vect-floating",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Matrix",
           "package": "vect-floating",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "MatrixNorms",
           "package": "vect-floating",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "MatrixNorms",
           "package": "vect-floating",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "MultSemiGroup",
           "package": "vect-floating",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "MultSemiGroup",
           "package": "vect-floating",
@@ -363,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe assumption when dealing with these is always that they are of unit length.\n Also, interpolation works differently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Normal2",
           "package": "vect-floating",
@@ -372,6 +405,7 @@
         "index": {
           "description": "The assumption when dealing with these is always that they are of unit length Also interpolation works differently",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Normal2",
           "package": "vect-floating",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Normal3",
           "package": "vect-floating",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Normal3",
           "package": "vect-floating",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Normal4",
           "package": "vect-floating",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Normal4",
           "package": "vect-floating",
@@ -428,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrthogonal matrices.\n\u003c/p\u003e\u003cp\u003eNote: the \u003ca\u003eRandom\u003c/a\u003e instances generates orthogonal matrices with determinant 1\n (that is, orientation-preserving orthogonal transformations)!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Ortho2",
           "package": "vect-floating",
@@ -437,6 +476,7 @@
         "index": {
           "description": "Orthogonal matrices Note the Random instances generates orthogonal matrices with determinant that is orientation-preserving orthogonal transformations",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Ortho2",
           "package": "vect-floating",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Ortho3",
           "package": "vect-floating",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Ortho3",
           "package": "vect-floating",
@@ -471,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Ortho4",
           "package": "vect-floating",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Ortho4",
           "package": "vect-floating",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Orthogonal",
           "package": "vect-floating",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Orthogonal",
           "package": "vect-floating",
@@ -514,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointwise multiplication \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Pointwise",
           "package": "vect-floating",
@@ -523,6 +570,7 @@
         "index": {
           "description": "Pointwise multiplication",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Pointwise",
           "package": "vect-floating",
@@ -537,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProjective matrices, encoding affine transformations in dimension one less.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Proj3",
           "package": "vect-floating",
@@ -546,6 +595,7 @@
         "index": {
           "description": "Projective matrices encoding affine transformations in dimension one less",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Proj3",
           "package": "vect-floating",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Proj4",
           "package": "vect-floating",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Proj4",
           "package": "vect-floating",
@@ -581,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Projective\" matrices have the following form: the top left corner\n is an any matrix, the bottom right corner is 1, and the top-right\n column is zero. These describe the affine orthogonal transformation of\n the space one dimension less.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Projective",
           "package": "vect-floating",
@@ -590,6 +643,7 @@
         "index": {
           "description": "Projective matrices have the following form the top left corner is an any matrix the bottom right corner is and the top-right column is zero These describe the affine orthogonal transformation of the space one dimension less",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Projective",
           "package": "vect-floating",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "RightModule",
           "package": "vect-floating",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "RightModule",
           "package": "vect-floating",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Ring",
           "package": "vect-floating",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Ring",
           "package": "vect-floating",
@@ -646,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOuter product (could be unified with Diagonal?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Tensor",
           "package": "vect-floating",
@@ -655,6 +714,7 @@
         "index": {
           "description": "Outer product could be unified with Diagonal",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Tensor",
           "package": "vect-floating",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "UnitVector",
           "package": "vect-floating",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "UnitVector",
           "package": "vect-floating",
@@ -689,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec2",
           "package": "vect-floating",
@@ -697,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec2",
           "package": "vect-floating",
@@ -710,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec3",
           "package": "vect-floating",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec3",
           "package": "vect-floating",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec4",
           "package": "vect-floating",
@@ -739,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec4",
           "package": "vect-floating",
@@ -752,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Vector",
           "package": "vect-floating",
@@ -760,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Vector",
           "package": "vect-floating",
@@ -773,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(&!)",
           "package": "vect-floating",
@@ -782,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(&!) &!",
           "normalized": "a-\u003ea-\u003ea",
@@ -796,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(&*)",
           "package": "vect-floating",
@@ -805,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(&*) &*",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -819,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(&+)",
           "package": "vect-floating",
@@ -828,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(&+) &+",
           "normalized": "a-\u003ea-\u003ea",
@@ -842,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(&-)",
           "package": "vect-floating",
@@ -851,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(&-) &-",
           "normalized": "a-\u003ea-\u003ea",
@@ -865,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(&^)",
           "package": "vect-floating",
@@ -874,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(&^) &^",
           "normalized": "a-\u003ea-\u003ea",
@@ -888,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(&.)",
           "package": "vect-floating",
@@ -897,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(&.) &.",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -911,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(*&)",
           "package": "vect-floating",
@@ -920,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(*&) *&",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -934,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(*.)",
           "package": "vect-floating",
@@ -943,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(*.) *.",
           "normalized": "a-\u003eb-\u003eb",
@@ -957,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(.*)",
           "package": "vect-floating",
@@ -966,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(.*) .*",
           "normalized": "a-\u003eb-\u003ea",
@@ -980,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "(.*.)",
           "package": "vect-floating",
@@ -989,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "(.*.) .*.",
           "normalized": "a-\u003ea-\u003ea",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat2",
           "package": "vect-floating",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat2",
           "package": "vect-floating",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat3",
           "package": "vect-floating",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat3",
           "package": "vect-floating",
@@ -1047,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat4",
           "package": "vect-floating",
@@ -1056,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Mat4",
           "package": "vect-floating",
@@ -1069,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec2",
           "package": "vect-floating",
@@ -1078,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec2",
           "package": "vect-floating",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec3",
           "package": "vect-floating",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec3",
           "package": "vect-floating",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec4",
           "package": "vect-floating",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "Vec4",
           "package": "vect-floating",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "_1",
           "package": "vect-floating",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "_1",
           "normalized": "a-\u003eb",
@@ -1158,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "_2",
           "package": "vect-floating",
@@ -1167,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "_2",
           "normalized": "a-\u003eb",
@@ -1181,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "_3",
           "package": "vect-floating",
@@ -1190,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "_3",
           "normalized": "a-\u003eb",
@@ -1204,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "_4",
           "package": "vect-floating",
@@ -1213,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "_4",
           "normalized": "a-\u003eb",
@@ -1228,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe angle between two vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "angle",
           "package": "vect-floating",
@@ -1238,6 +1349,7 @@
         "index": {
           "description": "the angle between two vectors",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "angle",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -1253,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe angle between two unit vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "angle'",
           "package": "vect-floating",
@@ -1263,6 +1376,7 @@
         "index": {
           "description": "the angle between two unit vectors",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "angle'",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -1277,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "crossprod",
           "package": "vect-floating",
@@ -1286,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "crossprod",
           "normalized": "a-\u003ea-\u003ea",
@@ -1300,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "det",
           "package": "vect-floating",
@@ -1309,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "det",
           "normalized": "a-\u003eb",
@@ -1323,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "diag",
           "package": "vect-floating",
@@ -1332,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "diag",
           "normalized": "a-\u003eb",
@@ -1346,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "dim",
           "package": "vect-floating",
@@ -1355,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "dim",
           "normalized": "a-\u003eInt",
@@ -1369,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "distance",
           "package": "vect-floating",
@@ -1378,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "distance",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -1392,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "dotprod",
           "package": "vect-floating",
@@ -1401,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "dotprod",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -1415,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "extendWith",
           "package": "vect-floating",
@@ -1424,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "extendWith",
           "package": "vect-floating",
@@ -1437,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "extendZero",
           "package": "vect-floating",
@@ -1446,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "extendZero",
           "package": "vect-floating",
@@ -1460,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince unit vectors are not a group, we need a separate function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "flipNormal",
           "package": "vect-floating",
@@ -1470,6 +1601,7 @@
         "index": {
           "description": "Since unit vectors are not group we need separate function",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "flipNormal",
           "normalized": "a b-\u003ea b",
@@ -1485,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "frobeniusNorm",
           "package": "vect-floating",
@@ -1494,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "frobeniusNorm",
           "package": "vect-floating",
@@ -1507,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "fromNormal",
           "package": "vect-floating",
@@ -1516,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "fromNormal",
           "normalized": "a b-\u003ec b",
@@ -1531,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "fromNormalRadius",
           "package": "vect-floating",
@@ -1540,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "fromNormalRadius",
           "normalized": "a-\u003eb a-\u003ec a",
@@ -1555,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "fromOrtho",
           "package": "vect-floating",
@@ -1564,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "fromOrtho",
           "normalized": "a b-\u003ec b",
@@ -1579,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "fromProjective",
           "package": "vect-floating",
@@ -1588,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "fromProjective",
           "normalized": "a b-\u003ec b",
@@ -1604,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHouseholder matrix, see \u003ca\u003ehttp://en.wikipedia.org/wiki/Householder_transformation\u003c/a\u003e.  \n In plain words, it is the reflection to the hyperplane orthogonal to the input vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "householder",
           "package": "vect-floating",
@@ -1614,6 +1757,7 @@
         "index": {
           "description": "Householder matrix see http en.wikipedia.org wiki Householder transformation In plain words it is the reflection to the hyperplane orthogonal to the input vector",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "householder",
           "normalized": "a b-\u003ec b",
@@ -1628,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "householderOrtho",
           "package": "vect-floating",
@@ -1637,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "householderOrtho",
           "normalized": "a b-\u003ec b",
@@ -1652,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "idmtx",
           "package": "vect-floating",
@@ -1661,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "idmtx",
           "package": "vect-floating",
@@ -1673,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "inverse",
           "package": "vect-floating",
@@ -1682,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "inverse",
           "normalized": "a-\u003ea",
@@ -1696,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "len",
           "package": "vect-floating",
@@ -1705,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "len",
           "normalized": "a b-\u003eb",
@@ -1719,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "lensqr",
           "package": "vect-floating",
@@ -1728,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "lensqr",
           "normalized": "a b-\u003eb",
@@ -1742,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "linear",
           "package": "vect-floating",
@@ -1751,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "linear",
           "normalized": "a b-\u003ec b",
@@ -1765,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "lmul",
           "package": "vect-floating",
@@ -1774,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "lmul",
           "normalized": "a-\u003eb-\u003eb",
@@ -1788,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "mapVec",
           "package": "vect-floating",
@@ -1797,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "mapVec",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -1812,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "matrixDistance",
           "package": "vect-floating",
@@ -1821,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "matrixDistance",
           "package": "vect-floating",
@@ -1834,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "mkNormal",
           "package": "vect-floating",
@@ -1843,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "mkNormal",
           "package": "vect-floating",
@@ -1856,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "mkVec2",
           "package": "vect-floating",
@@ -1865,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "mkVec2",
           "normalized": "(a,a)-\u003eVec a",
@@ -1880,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "mkVec3",
           "package": "vect-floating",
@@ -1889,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "mkVec3",
           "normalized": "(a,a,a)-\u003eVec a",
@@ -1904,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "mkVec4",
           "package": "vect-floating",
@@ -1913,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "mkVec4",
           "normalized": "(a,a,a,a)-\u003eVec a",
@@ -1928,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "neg",
           "package": "vect-floating",
@@ -1937,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -1951,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "norm",
           "package": "vect-floating",
@@ -1960,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "norm",
           "normalized": "a b-\u003eb",
@@ -1974,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "normalize",
           "package": "vect-floating",
@@ -1983,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "normalize",
           "normalized": "a b-\u003ea b",
@@ -1997,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "normsqr",
           "package": "vect-floating",
@@ -2006,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "normsqr",
           "normalized": "a b-\u003eb",
@@ -2020,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "one",
           "package": "vect-floating",
@@ -2029,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "one",
           "package": "vect-floating",
@@ -2041,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "operatorNorm",
           "package": "vect-floating",
@@ -2050,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "operatorNorm",
           "package": "vect-floating",
@@ -2063,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "orthogonal",
           "package": "vect-floating",
@@ -2072,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "orthogonal",
           "normalized": "a b-\u003ec b",
@@ -2086,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "outer",
           "package": "vect-floating",
@@ -2095,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "outer",
           "normalized": "a-\u003ea-\u003eb",
@@ -2109,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "pointwise",
           "package": "vect-floating",
@@ -2118,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "pointwise",
           "normalized": "a-\u003ea-\u003ea",
@@ -2132,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "project",
           "package": "vect-floating",
@@ -2141,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "project",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -2156,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProjects the first vector down to the hyperplane orthogonal to the second (unit) vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "project'",
           "package": "vect-floating",
@@ -2166,6 +2357,7 @@
         "index": {
           "description": "Projects the first vector down to the hyperplane orthogonal to the second unit vector",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "project'",
           "normalized": "a b-\u003ec b-\u003ea b",
@@ -2181,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection (second argument) is assumed to be a \u003cem\u003eunit\u003c/em\u003e vector!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "projectUnsafe",
           "package": "vect-floating",
@@ -2191,6 +2384,7 @@
         "index": {
           "description": "Direction second argument is assumed to be unit vector",
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "projectUnsafe",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -2206,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "rmul",
           "package": "vect-floating",
@@ -2215,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "rmul",
           "normalized": "a-\u003eb-\u003ea",
@@ -2229,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "scalarMul",
           "package": "vect-floating",
@@ -2238,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "scalarMul",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -2253,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "scaling",
           "package": "vect-floating",
@@ -2262,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "scaling",
           "normalized": "a b-\u003ec b",
@@ -2276,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "semigroupProduct",
           "package": "vect-floating",
@@ -2285,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "semigroupProduct",
           "normalized": "[a]-\u003ea",
@@ -2300,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "toNormalUnsafe",
           "package": "vect-floating",
@@ -2309,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "toNormalUnsafe",
           "package": "vect-floating",
@@ -2322,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "toOrthoUnsafe",
           "package": "vect-floating",
@@ -2331,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "toOrthoUnsafe",
           "normalized": "a b-\u003ec b",
@@ -2346,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "toProjectiveUnsafe",
           "package": "vect-floating",
@@ -2355,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "toProjectiveUnsafe",
           "normalized": "a b-\u003ec b",
@@ -2370,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "translation",
           "package": "vect-floating",
@@ -2379,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "translation",
           "normalized": "a b-\u003ec b",
@@ -2393,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "transpose",
           "package": "vect-floating",
@@ -2402,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "transpose",
           "normalized": "a-\u003ea",
@@ -2416,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "trim",
           "package": "vect-floating",
@@ -2425,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "trim",
           "package": "vect-floating",
@@ -2437,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "vecSum",
           "package": "vect-floating",
@@ -2446,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "vecSum",
           "normalized": "[a]-\u003ea",
@@ -2461,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Base",
           "name": "zero",
           "package": "vect-floating",
@@ -2470,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Base",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Base",
           "name": "zero",
           "package": "vect-floating",
@@ -2483,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGram-Schmidt orthogonalization.\n This module is not re-exported by \u003ca\u003eData.Vect\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.GramSchmidt",
           "name": "GramSchmidt",
           "package": "vect-floating",
@@ -2492,6 +2711,7 @@
         "index": {
           "description": "Gram-Schmidt orthogonalization This module is not re-exported by Data.Vect",
           "hierarchy": "Data Vect Floating GramSchmidt",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.GramSchmidt",
           "name": "GramSchmidt",
           "package": "vect-floating",
@@ -2506,6 +2726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproduces orthogonal/orthonormal vectors from a set of vectors    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.GramSchmidt",
           "name": "GramSchmidt",
           "package": "vect-floating",
@@ -2515,6 +2736,7 @@
         "index": {
           "description": "produces orthogonal orthonormal vectors from set of vectors",
           "hierarchy": "Data Vect Floating GramSchmidt",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.GramSchmidt",
           "name": "GramSchmidt",
           "package": "vect-floating",
@@ -2528,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.GramSchmidt",
           "name": "gramSchmidt",
           "package": "vect-floating",
@@ -2537,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating GramSchmidt",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.GramSchmidt",
           "name": "gramSchmidt",
           "package": "vect-floating",
@@ -2550,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.GramSchmidt",
           "name": "gramSchmidtNormalize",
           "package": "vect-floating",
@@ -2559,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating GramSchmidt",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.GramSchmidt",
           "name": "gramSchmidtNormalize",
           "package": "vect-floating",
@@ -2573,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterpolation of vectors. \n Note: we interpolate unit vectors differently from ordinary vectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Interpolate",
           "name": "Interpolate",
           "package": "vect-floating",
@@ -2582,6 +2809,7 @@
         "index": {
           "description": "Interpolation of vectors Note we interpolate unit vectors differently from ordinary vectors",
           "hierarchy": "Data Vect Floating Interpolate",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Interpolate",
           "name": "Interpolate",
           "package": "vect-floating",
@@ -2595,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Interpolate",
           "name": "Interpolate",
           "package": "vect-floating",
@@ -2603,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Interpolate",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Interpolate",
           "name": "Interpolate",
           "package": "vect-floating",
@@ -2616,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Interpolate",
           "name": "interpolate",
           "package": "vect-floating",
@@ -2625,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Interpolate",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Interpolate",
           "name": "interpolate",
           "normalized": "a-\u003eb-\u003eb-\u003eb",
@@ -2640,6 +2872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpherical linear interpolation.\n See \u003ca\u003ehttp://en.wikipedia.org/wiki/Slerp\u003c/a\u003e    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Interpolate",
           "name": "slerp",
           "package": "vect-floating",
@@ -2650,6 +2883,7 @@
         "index": {
           "description": "Spherical linear interpolation See http en.wikipedia.org wiki Slerp",
           "hierarchy": "Data Vect Floating Interpolate",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Interpolate",
           "name": "slerp",
           "normalized": "a-\u003eb a-\u003eb a-\u003eb a",
@@ -2664,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "Dim2",
           "package": "vect-floating",
@@ -2672,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "Dim2",
           "package": "vect-floating",
@@ -2686,6 +2922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle relative to the positive X axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "angle2",
           "package": "vect-floating",
@@ -2696,6 +2933,7 @@
         "index": {
           "description": "The angle relative to the positive axis",
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "angle2",
           "normalized": "Vec a-\u003ea",
@@ -2710,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "angle2'",
           "package": "vect-floating",
@@ -2719,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "angle2'",
           "normalized": "Normal a-\u003ea",
@@ -2734,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opposite of \u003ca\u003estructVec2\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "destructVec2",
           "package": "vect-floating",
@@ -2744,6 +2985,7 @@
         "index": {
           "description": "The opposite of structVec2",
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "destructVec2",
           "normalized": "[Vec a]-\u003e[a]",
@@ -2759,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "det2",
           "package": "vect-floating",
@@ -2768,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "det2",
           "normalized": "Vec a-\u003eVec a-\u003ea",
@@ -2783,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotation matrix by a given angle (in radians), counterclockwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotMatrix2",
           "package": "vect-floating",
@@ -2793,6 +3038,7 @@
         "index": {
           "description": "Rotation matrix by given angle in radians counterclockwise",
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotMatrix2",
           "normalized": "a-\u003eMat a",
@@ -2808,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotMatrixOrtho2",
           "package": "vect-floating",
@@ -2817,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotMatrixOrtho2",
           "normalized": "a-\u003eOrtho a",
@@ -2832,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotate2",
           "package": "vect-floating",
@@ -2841,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotate2",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -2856,6 +3106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotates counterclockwise by 90 degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotateCCW",
           "package": "vect-floating",
@@ -2866,6 +3117,7 @@
         "index": {
           "description": "Rotates counterclockwise by degrees",
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotateCCW",
           "normalized": "Vec a-\u003eVec a",
@@ -2882,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotates clockwise by 90 degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotateCW",
           "package": "vect-floating",
@@ -2892,6 +3145,7 @@
         "index": {
           "description": "Rotates clockwise by degrees",
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "rotateCW",
           "normalized": "Vec a-\u003eVec a",
@@ -2908,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunit vector with given angle relative to the positive X axis (in the positive direction, that is, CCW).\n A more precise name would be \u003ccode\u003ecosSin\u003c/code\u003e, but that sounds bad :)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "sinCos",
           "package": "vect-floating",
@@ -2918,6 +3173,7 @@
         "index": {
           "description": "unit vector with given angle relative to the positive axis in the positive direction that is CCW more precise name would be cosSin but that sounds bad",
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "sinCos",
           "normalized": "a-\u003eVec a",
@@ -2933,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "sinCos'",
           "package": "vect-floating",
@@ -2942,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "sinCos'",
           "normalized": "a-\u003eNormal a",
@@ -2957,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "sinCosRadius",
           "package": "vect-floating",
@@ -2965,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "sinCosRadius",
           "normalized": "a-\u003ea-\u003eVec a",
@@ -2981,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample: \u003ccode\u003estructVec2 [1,2,3,4] = [ Vec2 1 2 , Vec2 3 4 ]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "structVec2",
           "package": "vect-floating",
@@ -2991,6 +3252,7 @@
         "index": {
           "description": "Example structVec2 Vec2 Vec2",
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "structVec2",
           "normalized": "[a]-\u003e[Vec a]",
@@ -3006,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "translate2X",
           "package": "vect-floating",
@@ -3015,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "translate2X",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3029,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "translate2Y",
           "package": "vect-floating",
@@ -3038,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "translate2Y",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3052,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "vec2X",
           "package": "vect-floating",
@@ -3061,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "vec2X",
           "package": "vect-floating",
@@ -3073,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "vec2Y",
           "package": "vect-floating",
@@ -3082,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim2",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim2",
           "name": "vec2Y",
           "package": "vect-floating",
@@ -3094,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "Dim3",
           "package": "vect-floating",
@@ -3102,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "Dim3",
           "package": "vect-floating",
@@ -3116,6 +3388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opposite of \u003ca\u003estructVec3\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "destructVec3",
           "package": "vect-floating",
@@ -3126,6 +3399,7 @@
         "index": {
           "description": "The opposite of structVec3",
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "destructVec3",
           "normalized": "[Vec a]-\u003e[a]",
@@ -3141,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "det3",
           "package": "vect-floating",
@@ -3150,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "det3",
           "normalized": "Vec a-\u003eVec a-\u003eVec a-\u003ea",
@@ -3165,6 +3441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflects a vector to an axis: that is, the result of \u003ccode\u003ereflect n v\u003c/code\u003e is\n 2\u003cn,v\u003en - v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "reflect",
           "package": "vect-floating",
@@ -3175,6 +3452,7 @@
         "index": {
           "description": "Reflects vector to an axis that is the result of reflect is",
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "reflect",
           "normalized": "Normal a-\u003eVec a-\u003eVec a",
@@ -3189,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "reflect'",
           "package": "vect-floating",
@@ -3198,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "reflect'",
           "normalized": "Normal a-\u003eNormal a-\u003eNormal a",
@@ -3212,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "refract",
           "package": "vect-floating",
@@ -3221,6 +3502,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "refract",
           "normalized": "a-\u003eNormal a-\u003eVec a-\u003eVec a",
@@ -3236,6 +3518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRefraction.\n First parameter (\u003ccode\u003eeta\u003c/code\u003e) is the relative refraction index \n\u003c/p\u003e\u003cpre\u003e        refl_inside\n eta = --------------\n        refl_outside\n\u003c/pre\u003e\u003cp\u003ewhere \"inside\" is the direction of the second argument \n (to vector normal to plane which models the boundary \n between the two materials). That is, total internal reflection\n can occur when \u003ccode\u003eeta\u003e1\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe convention is that the origin is the point of intersection\n of the ray and the surface, and all the vectors \"point away\"\n from here (unlike, say, GLSL's \u003ccode\u003erefract\u003c/code\u003e, where the incident\n vector \"points towards\" the material)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "refract'",
           "package": "vect-floating",
@@ -3246,6 +3529,7 @@
         "index": {
           "description": "Refraction First parameter eta is the relative refraction index refl inside eta refl outside where inside is the direction of the second argument to vector normal to plane which models the boundary between the two materials That is total internal reflection can occur when eta The convention is that the origin is the point of intersection of the ray and the surface and all the vectors point away from here unlike say GLSL refract where the incident vector points towards the material",
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "refract'",
           "normalized": "a-\u003eNormal a-\u003eNormal a-\u003eNormal a",
@@ -3261,6 +3545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen total internal reflection would occur, we return \u003ca\u003eNothing\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "refractOnly'",
           "package": "vect-floating",
@@ -3271,6 +3556,7 @@
         "index": {
           "description": "When total internal reflection would occur we return Nothing",
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "refractOnly'",
           "normalized": "a-\u003eNormal a-\u003eNormal a-\u003eMaybe(Normal a)",
@@ -3287,6 +3573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotation around an arbitrary 3D vector. The resulting 3x3 matrix is intended for multiplication on the \u003cem\u003eright\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrix3",
           "package": "vect-floating",
@@ -3297,6 +3584,7 @@
         "index": {
           "description": "Rotation around an arbitrary vector The resulting x3 matrix is intended for multiplication on the right",
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrix3",
           "normalized": "Vec a-\u003ea-\u003eMat a",
@@ -3313,6 +3601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotation around an arbitrary 3D \u003cem\u003eunit\u003c/em\u003e vector. The resulting 3x3 matrix is intended for multiplication on the \u003cem\u003eright\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrix3'",
           "package": "vect-floating",
@@ -3323,6 +3612,7 @@
         "index": {
           "description": "Rotation around an arbitrary unit vector The resulting x3 matrix is intended for multiplication on the right",
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrix3'",
           "normalized": "Normal a-\u003ea-\u003eMat a",
@@ -3338,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixOrtho3",
           "package": "vect-floating",
@@ -3347,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixOrtho3",
           "normalized": "Vec a-\u003ea-\u003eOrtho a",
@@ -3362,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixOrtho3'",
           "package": "vect-floating",
@@ -3371,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixOrtho3'",
           "normalized": "Normal a-\u003ea-\u003eOrtho a",
@@ -3386,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixX",
           "package": "vect-floating",
@@ -3395,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixX",
           "normalized": "a-\u003eMat a",
@@ -3410,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixY",
           "package": "vect-floating",
@@ -3419,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixY",
           "normalized": "a-\u003eMat a",
@@ -3434,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixZ",
           "package": "vect-floating",
@@ -3443,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotMatrixZ",
           "normalized": "a-\u003eMat a",
@@ -3458,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotate3",
           "package": "vect-floating",
@@ -3466,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotate3",
           "normalized": "a-\u003eVec a-\u003eVec a-\u003eVec a",
@@ -3480,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotate3'",
           "package": "vect-floating",
@@ -3488,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "rotate3'",
           "normalized": "a-\u003eNormal a-\u003eVec a-\u003eVec a",
@@ -3503,6 +3807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample: \u003ccode\u003estructVec3 [1,2,3,4,5,6] = [ Vec3 1 2 3 , Vec3 4 5 6]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "structVec3",
           "package": "vect-floating",
@@ -3513,6 +3818,7 @@
         "index": {
           "description": "Example structVec3 Vec3 Vec3",
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "structVec3",
           "normalized": "[a]-\u003e[Vec a]",
@@ -3528,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "translate3X",
           "package": "vect-floating",
@@ -3537,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "translate3X",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3551,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "translate3Y",
           "package": "vect-floating",
@@ -3560,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "translate3Y",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3574,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "translate3Z",
           "package": "vect-floating",
@@ -3583,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "translate3Z",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3597,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "vec3X",
           "package": "vect-floating",
@@ -3606,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "vec3X",
           "package": "vect-floating",
@@ -3618,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "vec3Y",
           "package": "vect-floating",
@@ -3627,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "vec3Y",
           "package": "vect-floating",
@@ -3639,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "vec3Z",
           "package": "vect-floating",
@@ -3648,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim3",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim3",
           "name": "vec3Z",
           "package": "vect-floating",
@@ -3661,6 +3979,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRotation around an arbitrary plane in four dimensions, and other miscellanea.\n Not very useful for most people, and not re-exported by \u003ca\u003eData.Vect\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "Dim4",
           "package": "vect-floating",
@@ -3670,6 +3989,7 @@
         "index": {
           "description": "Rotation around an arbitrary plane in four dimensions and other miscellanea Not very useful for most people and not re-exported by Data.Vect",
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "Dim4",
           "package": "vect-floating",
@@ -3684,6 +4004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e(x,y,u,v)\u003c/code\u003e is an orthonormal system, then (written in pseudo-code)\n \u003ccode\u003ebiVector4 (x,y) = plusMinus (reverse $ biVector4 (u,v))\u003c/code\u003e.\n This is a helper function for the 4 dimensional rotation code.\n If \u003ccode\u003e(x,y,z,p,q,r) = biVector4 a b\u003c/code\u003e, then the corresponding antisymmetric tensor is\n\u003c/p\u003e\u003cpre\u003e [  0  r  q  p ]\n [ -r  0  z -y ]\n [ -q -z  0  x ]\n [ -p  y -x  0 ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "biVector4",
           "package": "vect-floating",
@@ -3694,6 +4015,7 @@
         "index": {
           "description": "If is an orthonormal system then written in pseudo-code biVector4 plusMinus reverse biVector4 This is helper function for the dimensional rotation code If biVector4 then the corresponding antisymmetric tensor is",
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "biVector4",
           "normalized": "Vec a-\u003eVec a-\u003e(a,a,a,a,a,a)",
@@ -3710,6 +4032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe corresponding antisymmetric tensor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "biVector4AsTensor",
           "package": "vect-floating",
@@ -3720,6 +4043,7 @@
         "index": {
           "description": "the corresponding antisymmetric tensor",
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "biVector4AsTensor",
           "normalized": "Vec a-\u003eVec a-\u003eMat a",
@@ -3735,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "destructVec4",
           "package": "vect-floating",
@@ -3744,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "destructVec4",
           "normalized": "[Vec a]-\u003e[a]",
@@ -3760,6 +4086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe assume only that the axes are independent vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "rotMatrix4",
           "package": "vect-floating",
@@ -3770,6 +4097,7 @@
         "index": {
           "description": "We assume only that the axes are independent vectors",
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "rotMatrix4",
           "normalized": "a-\u003e(Vec a,Vec a)-\u003eMat a",
@@ -3786,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotation matrix around a plane specified by two normalized and \u003cem\u003eorthogonal\u003c/em\u003e vectors.\n Intended for multiplication on the \u003cem\u003eright\u003c/em\u003e!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "rotMatrix4'",
           "package": "vect-floating",
@@ -3796,6 +4125,7 @@
         "index": {
           "description": "Rotation matrix around plane specified by two normalized and orthogonal vectors Intended for multiplication on the right",
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "rotMatrix4'",
           "normalized": "a-\u003e(Normal a,Normal a)-\u003eMat a",
@@ -3812,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe assume only that the axes are independent vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "rotate4",
           "package": "vect-floating",
@@ -3822,6 +4153,7 @@
         "index": {
           "description": "We assume only that the axes are independent vectors",
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "rotate4",
           "normalized": "a-\u003e(Vec a,Vec a)-\u003eVec a-\u003eVec a",
@@ -3837,6 +4169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe assume that the axes are normalized and \u003cem\u003eorthogonal\u003c/em\u003e to each other!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "rotate4'",
           "package": "vect-floating",
@@ -3847,6 +4180,7 @@
         "index": {
           "description": "We assume that the axes are normalized and orthogonal to each other",
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "rotate4'",
           "normalized": "a-\u003e(Normal a,Normal a)-\u003eVec a-\u003eVec a",
@@ -3861,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "structVec4",
           "package": "vect-floating",
@@ -3870,6 +4205,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "structVec4",
           "normalized": "[a]-\u003e[Vec a]",
@@ -3885,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "translate4W",
           "package": "vect-floating",
@@ -3894,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "translate4W",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3908,6 +4246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "translate4X",
           "package": "vect-floating",
@@ -3917,6 +4256,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "translate4X",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3931,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "translate4Y",
           "package": "vect-floating",
@@ -3940,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "translate4Y",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3954,6 +4296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "translate4Z",
           "package": "vect-floating",
@@ -3963,6 +4306,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "translate4Z",
           "normalized": "a-\u003eVec a-\u003eVec a",
@@ -3977,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "vec4W",
           "package": "vect-floating",
@@ -3986,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "vec4W",
           "package": "vect-floating",
@@ -3998,6 +4344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "vec4X",
           "package": "vect-floating",
@@ -4007,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "vec4X",
           "package": "vect-floating",
@@ -4019,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "vec4Y",
           "package": "vect-floating",
@@ -4028,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "vec4Y",
           "package": "vect-floating",
@@ -4040,6 +4390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "vec4Z",
           "package": "vect-floating",
@@ -4049,6 +4400,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Dim4",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Dim4",
           "name": "vec4Z",
           "package": "vect-floating",
@@ -4062,6 +4414,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClassic 4x4 projective matrices, encoding the affine transformations of R^3.\n Our convention is that they are intended for multiplication on\n the \u003cem\u003eright\u003c/em\u003e, that is, they are of the form\n\u003c/p\u003e\u003cpre\u003e     _____\n [  |     |  0  ]\n [  | 3x3 |  0  ]\n [  |_____|  0  ]\n [  p  q  r  1  ]\n\u003c/pre\u003e\u003cp\u003ePlease note that by default, OpenGL stores the matrices (in memory) by columns, while we \n store them by rows; but OpenGL also use the opposite convention (so the OpenGL projective matrices \n are intended for multiplication on the \u003cem\u003eleft\u003c/em\u003e). So in effect, they are the same when stored in the memory,\n say with \u003ccode\u003epoke :: Ptr Mat4 -\u003e Mat4 -\u003e IO ()\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWarning: The naming conventions will probably change in the future.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "Projective",
           "package": "vect-floating",
@@ -4071,6 +4424,7 @@
         "index": {
           "description": "Classic x4 projective matrices encoding the affine transformations of Our convention is that they are intended for multiplication on the right that is they are of the form x3 Please note that by default OpenGL stores the matrices in memory by columns while we store them by rows but OpenGL also use the opposite convention so the OpenGL projective matrices are intended for multiplication on the left So in effect they are the same when stored in the memory say with poke Ptr Mat4 Mat4 IO Warning The naming conventions will probably change in the future",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "Projective",
           "package": "vect-floating",
@@ -4084,6 +4438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotMatrixProj4",
           "package": "vect-floating",
@@ -4093,6 +4448,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotMatrixProj4",
           "normalized": "a-\u003eVec a-\u003eProj a",
@@ -4108,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotMatrixProj4'",
           "package": "vect-floating",
@@ -4117,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotMatrixProj4'",
           "normalized": "a-\u003eNormal a-\u003eProj a",
@@ -4133,6 +4491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003em -\u003e m .*. rotMatrixProj4 angle axis\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotateAfterProj4",
           "package": "vect-floating",
@@ -4143,6 +4502,7 @@
         "index": {
           "description": "Synonym for rotMatrixProj4 angle axis",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotateAfterProj4",
           "normalized": "a-\u003eNormal a-\u003eProj a-\u003eProj a",
@@ -4159,6 +4519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003em -\u003e rotMatrixProj4 angle axis .*. m\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotateBeforeProj4",
           "package": "vect-floating",
@@ -4169,6 +4530,7 @@
         "index": {
           "description": "Synonym for rotMatrixProj4 angle axis",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotateBeforeProj4",
           "normalized": "a-\u003eNormal a-\u003eProj a-\u003eProj a",
@@ -4185,6 +4547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esynonym for \u003ca\u003erotateAfterProj4\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotateProj4",
           "package": "vect-floating",
@@ -4195,6 +4558,7 @@
         "index": {
           "description": "synonym for rotateAfterProj4",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "rotateProj4",
           "normalized": "a-\u003eNormal a-\u003eProj a-\u003eProj a",
@@ -4211,6 +4575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003em -\u003e m .*. scaling v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "scaleAfterProj4",
           "package": "vect-floating",
@@ -4221,6 +4586,7 @@
         "index": {
           "description": "Equivalent to scaling",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "scaleAfterProj4",
           "normalized": "Vec a-\u003eProj a-\u003eProj a",
@@ -4237,6 +4603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003em -\u003e scaling v .*. m\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "scaleBeforeProj4",
           "package": "vect-floating",
@@ -4247,6 +4614,7 @@
         "index": {
           "description": "Equivalent to scaling",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "scaleBeforeProj4",
           "normalized": "Vec a-\u003eProj a-\u003eProj a",
@@ -4262,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "scalingUniformProj4",
           "package": "vect-floating",
@@ -4271,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "scalingUniformProj4",
           "normalized": "a-\u003eProj a",
@@ -4287,6 +4657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ca\u003etranslateAfter4\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "translate4",
           "package": "vect-floating",
@@ -4297,6 +4668,7 @@
         "index": {
           "description": "Synonym for translateAfter4",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "translate4",
           "normalized": "Vec a-\u003eProj a-\u003eProj a",
@@ -4312,6 +4684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003em -\u003e m .*. translation v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "translateAfter4",
           "package": "vect-floating",
@@ -4322,6 +4695,7 @@
         "index": {
           "description": "Equivalent to translation",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "translateAfter4",
           "normalized": "Vec a-\u003eProj a-\u003eProj a",
@@ -4338,6 +4712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003em -\u003e translation v .*. m\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "translateBefore4",
           "package": "vect-floating",
@@ -4348,6 +4723,7 @@
         "index": {
           "description": "Equivalent to translation",
           "hierarchy": "Data Vect Floating Util Projective",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Projective",
           "name": "translateBefore4",
           "normalized": "Vec a-\u003eProj a-\u003eProj a",
@@ -4364,6 +4740,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe unit sphere in the space of quaternions has the group structure\n SU(2) coming from the quaternion multiplication, which is the double\n cover of the group SO(3) of rotations in R^3. Thus, unit quaternions can\n be used to encode rotations in 3D, which is a more compact encoding \n (4 floats) than a 3x3 matrix; however, there are \u003cem\u003etwo\u003c/em\u003e quaternions\n corresponding to each rotation.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://en.wikipedia.org/wiki/Quaternion\u003c/a\u003e and \n \u003ca\u003ehttp://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation\u003c/a\u003e\n for more information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "Quaternion",
           "package": "vect-floating",
@@ -4373,6 +4750,7 @@
         "index": {
           "description": "The unit sphere in the space of quaternions has the group structure SU coming from the quaternion multiplication which is the double cover of the group SO of rotations in Thus unit quaternions can be used to encode rotations in which is more compact encoding floats than x3 matrix however there are two quaternions corresponding to each rotation See http en.wikipedia.org wiki Quaternion and http en.wikipedia.org wiki Quaternions and spatial rotation for more information",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "Quaternion",
           "package": "vect-floating",
@@ -4387,6 +4765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abbreviated type synonym for quaternions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "Q",
           "package": "vect-floating",
@@ -4396,6 +4775,7 @@
         "index": {
           "description": "An abbreviated type synonym for quaternions",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "Q",
           "package": "vect-floating",
@@ -4409,6 +4789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for quaternions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "Quaternion",
           "package": "vect-floating",
@@ -4418,6 +4799,7 @@
         "index": {
           "description": "The type for quaternions",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "Quaternion",
           "package": "vect-floating",
@@ -4432,6 +4814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abbreviated type synonym for unit quaternions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "U",
           "package": "vect-floating",
@@ -4441,6 +4824,7 @@
         "index": {
           "description": "An abbreviated type synonym for unit quaternions",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "U",
           "package": "vect-floating",
@@ -4454,6 +4838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for unit quaternions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "UnitQuaternion",
           "package": "vect-floating",
@@ -4463,6 +4848,7 @@
         "index": {
           "description": "The type for unit quaternions",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "UnitQuaternion",
           "package": "vect-floating",
@@ -4476,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "Q",
           "package": "vect-floating",
@@ -4485,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "Q",
           "package": "vect-floating",
@@ -4497,6 +4885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "U",
           "package": "vect-floating",
@@ -4506,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "U",
           "package": "vect-floating",
@@ -4519,6 +4909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003eleft\u003c/em\u003e action of unit quaternions on 3D vectors.\n That is,\n\u003c/p\u003e\u003cpre\u003e actU q1 $ actU q2 v  ==  actU (q1 `multU` q2) v \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "actU",
           "package": "vect-floating",
@@ -4529,6 +4920,7 @@
         "index": {
           "description": "The left action of unit quaternions on vectors That is actU q1 actU q2 actU q1 multU q2",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "actU",
           "normalized": "U a-\u003eVec a-\u003eVec a",
@@ -4543,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "actU'",
           "package": "vect-floating",
@@ -4552,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "actU'",
           "normalized": "U a-\u003eNormal a-\u003eNormal a",
@@ -4567,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "fromQ",
           "package": "vect-floating",
@@ -4576,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "fromQ",
           "normalized": "Q a-\u003eVec a",
@@ -4590,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "fromU",
           "package": "vect-floating",
@@ -4599,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "fromU",
           "normalized": "U a-\u003eVec a",
@@ -4613,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "fromU'",
           "package": "vect-floating",
@@ -4622,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "fromU'",
           "normalized": "U a-\u003eNormal a",
@@ -4638,6 +5038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse quaternion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "invQ",
           "package": "vect-floating",
@@ -4648,6 +5049,7 @@
         "index": {
           "description": "The inverse quaternion",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "invQ",
           "normalized": "Q a-\u003eQ a",
@@ -4663,6 +5065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of a unit quaternion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "invU",
           "package": "vect-floating",
@@ -4673,6 +5076,7 @@
         "index": {
           "description": "The inverse of unit quaternion",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "invU",
           "normalized": "U a-\u003eU a",
@@ -4688,6 +5092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a rotation matrix (to be multiplied with on the \u003cem\u003eleft\u003c/em\u003e) out of a unit quaternion.\n\u003c/p\u003e\u003cpre\u003e leftOrthoU (rotU axis angl) *. v  ==  v .* rotMatrix3 axis angl\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "leftOrthoU",
           "package": "vect-floating",
@@ -4698,6 +5103,7 @@
         "index": {
           "description": "Makes rotation matrix to be multiplied with on the left out of unit quaternion leftOrthoU rotU axis angl rotMatrix3 axis angl",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "leftOrthoU",
           "normalized": "U a-\u003eOrtho a",
@@ -4714,6 +5120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpolation of unit quaternions. Note that when applied to rotations,\n this may be not what you want, since it is possible that the shortest path\n in the space of unit quaternions is not the shortest path in the space of\n rotations; see \u003ccode\u003e\u003ca\u003eslerpU\u003c/a\u003e\u003c/code\u003e!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "longSlerpU",
           "package": "vect-floating",
@@ -4724,6 +5131,7 @@
         "index": {
           "description": "Interpolation of unit quaternions Note that when applied to rotations this may be not what you want since it is possible that the shortest path in the space of unit quaternions is not the shortest path in the space of rotations see slerpU",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "longSlerpU",
           "normalized": "a-\u003eU a-\u003eU a-\u003eU a",
@@ -4739,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "mkU",
           "package": "vect-floating",
@@ -4748,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "mkU",
           "normalized": "Vec a-\u003eU a",
@@ -4762,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "multQ",
           "package": "vect-floating",
@@ -4771,6 +5182,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "multQ",
           "normalized": "Q a-\u003eQ a-\u003eQ a",
@@ -4785,6 +5197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "multU",
           "package": "vect-floating",
@@ -4794,6 +5207,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "multU",
           "normalized": "U a-\u003eU a-\u003eU a",
@@ -4808,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "negQ",
           "package": "vect-floating",
@@ -4817,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "negQ",
           "normalized": "Q a-\u003eQ a",
@@ -4832,6 +5248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opposite quaternion (which encodes the same rotation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "negU",
           "package": "vect-floating",
@@ -4842,6 +5259,7 @@
         "index": {
           "description": "The opposite quaternion which encodes the same rotation",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "negU",
           "normalized": "U a-\u003eU a",
@@ -4856,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "normalizeQ",
           "package": "vect-floating",
@@ -4865,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "normalizeQ",
           "normalized": "Q a-\u003eQ a",
@@ -4880,6 +5300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is no-op, up to numerical imprecision.\n However, if you multiply together a large number of unit quaternions, \n it may be a good idea to normalize the end result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "normalizeU",
           "package": "vect-floating",
@@ -4890,6 +5311,7 @@
         "index": {
           "description": "This is no-op up to numerical imprecision However if you multiply together large number of unit quaternions it may be good idea to normalize the end result",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "normalizeU",
           "normalized": "U a-\u003eU a",
@@ -4905,6 +5327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a rotation matrix (to be multiplied with on the \u003cem\u003eright\u003c/em\u003e) out of a unit quaternion:\n\u003c/p\u003e\u003cpre\u003e v .* rightOrthoU (rotU axis angl)  ==  v .* rotMatrix3 axis angl\n\u003c/pre\u003e\u003cp\u003ePlease note that while these matrices act on the \u003cem\u003eright\u003c/em\u003e, quaternions act on the \u003cem\u003eleft\u003c/em\u003e; thus\n\u003c/p\u003e\u003cpre\u003e rightOrthoU q1 .*. rightOrthoU q2  ==  rightOrthoU (q2 .*. q1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "rightOrthoU",
           "package": "vect-floating",
@@ -4915,6 +5338,7 @@
         "index": {
           "description": "Makes rotation matrix to be multiplied with on the right out of unit quaternion rightOrthoU rotU axis angl rotMatrix3 axis angl Please note that while these matrices act on the right quaternions act on the left thus rightOrthoU q1 rightOrthoU q2 rightOrthoU q2 q1",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "rightOrthoU",
           "normalized": "U a-\u003eOrtho a",
@@ -4931,6 +5355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe quaternion to encode rotation around an axis. Please note\n that quaternions act on the \u003cem\u003eleft\u003c/em\u003e, that is\n\u003c/p\u003e\u003cpre\u003e rotU axis1 angl1 *. rotU axis2 angl2 *. v  ==  (rotU axis1 angl1 .*. rotU axis2 angl2) *. v \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "rotU",
           "package": "vect-floating",
@@ -4941,6 +5366,7 @@
         "index": {
           "description": "The quaternion to encode rotation around an axis Please note that quaternions act on the left that is rotU axis1 angl1 rotU axis2 angl2 rotU axis1 angl1 rotU axis2 angl2",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "rotU",
           "normalized": "Vec a-\u003ea-\u003eU a",
@@ -4955,6 +5381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "rotU'",
           "package": "vect-floating",
@@ -4964,6 +5391,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "rotU'",
           "normalized": "Normal a-\u003ea-\u003eU a",
@@ -4980,6 +5408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is shortest path interpolation in the space of rotations; however\n this is achieved by possibly flipping the first endpoint in the space of\n quaternions. Thus \u003ccode\u003eslerpU 0.001 q1 q2\u003c/code\u003e may be very far from \u003ccode\u003eq1\u003c/code\u003e (and very\n close to \u003ccode\u003enegU q1\u003c/code\u003e) in the space of quaternions (but they are very close\n in the space of rotations). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "slerpU",
           "package": "vect-floating",
@@ -4990,6 +5419,7 @@
         "index": {
           "description": "This is shortest path interpolation in the space of rotations however this is achieved by possibly flipping the first endpoint in the space of quaternions Thus slerpU q1 q2 may be very far from q1 and very close to negU q1 in the space of quaternions but they are very close in the space of rotations",
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "slerpU",
           "normalized": "a-\u003eU a-\u003eU a-\u003eU a",
@@ -5004,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "toQ",
           "package": "vect-floating",
@@ -5013,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "toQ",
           "normalized": "Vec a-\u003eQ a",
@@ -5027,6 +5459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "toU",
           "package": "vect-floating",
@@ -5036,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "toU",
           "normalized": "Normal a-\u003eU a",
@@ -5050,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "unitQ",
           "package": "vect-floating",
@@ -5059,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "unitQ",
           "package": "vect-floating",
@@ -5071,6 +5507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "unitU",
           "package": "vect-floating",
@@ -5080,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "unitU",
           "package": "vect-floating",
@@ -5092,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "unsafeToU",
           "package": "vect-floating",
@@ -5101,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "unsafeToU",
           "normalized": "Vec a-\u003eU a",
@@ -5116,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "zeroQ",
           "package": "vect-floating",
@@ -5125,6 +5566,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating Util Quaternion",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating.Util.Quaternion",
           "name": "zeroQ",
           "package": "vect-floating",
@@ -5137,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:44 UTC 2014",
           "module": "Data.Vect.Floating",
           "name": "Floating",
           "package": "vect-floating",
@@ -5145,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Floating",
+          "indexed": "2014-03-11T20:33:44",
           "module": "Data.Vect.Floating",
           "name": "Floating",
           "package": "vect-floating",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scrz"
+        "phrase": "scrz",
+        "type": "phrase"
       },
       "type": "context"
     }

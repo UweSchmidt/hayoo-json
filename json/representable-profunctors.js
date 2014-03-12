@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "representable-profunctors"
+        "phrase": "representable-profunctors",
+        "type": "phrase"
       },
       "type": "context"
     }

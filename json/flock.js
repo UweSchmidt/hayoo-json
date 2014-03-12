@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flock"
+        "phrase": "flock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "FLock",
           "package": "flock",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "FLock",
           "package": "flock",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "Block",
           "package": "flock",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "Block",
           "package": "flock",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "Lock",
           "package": "flock",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "Lock",
           "package": "flock",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "SharedExclusive",
           "package": "flock",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "SharedExclusive",
           "package": "flock",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "Block",
           "package": "flock",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "Block",
           "package": "flock",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "Exclusive",
           "package": "flock",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "Exclusive",
           "package": "flock",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "NoBlock",
           "package": "flock",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "NoBlock",
           "package": "flock",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "Shared",
           "package": "flock",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "Shared",
           "package": "flock",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "lock",
           "package": "flock",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "lock",
           "normalized": "FilePath-\u003eSharedExclusive-\u003eBlock-\u003ea Lock",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "lockFd",
           "package": "flock",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "lockFd",
           "normalized": "Fd-\u003eSharedExclusive-\u003eBlock-\u003ea Lock",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "unlock",
           "package": "flock",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "unlock",
           "normalized": "Lock-\u003ea()",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "withFdLock",
           "package": "flock",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "withFdLock",
           "normalized": "Fd-\u003eSharedExclusive-\u003eBlock-\u003ea b-\u003ea b",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:43 UTC 2014",
           "module": "System.Lock.FLock",
           "name": "withLock",
           "package": "flock",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "System Lock FLock",
+          "indexed": "2014-03-11T18:10:43",
           "module": "System.Lock.FLock",
           "name": "withLock",
           "normalized": "FilePath-\u003eSharedExclusive-\u003eBlock-\u003ea b-\u003ea b",

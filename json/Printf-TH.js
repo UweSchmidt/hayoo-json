@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Printf-TH"
+        "phrase": "Printf-TH",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:21 UTC 2014",
           "module": "Text.Printf.TH",
           "name": "TH",
           "package": "Printf-TH",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Printf TH",
+          "indexed": "2014-03-11T16:57:21",
           "module": "Text.Printf.TH",
           "name": "TH",
           "package": "Printf-TH",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:21 UTC 2014",
           "module": "Text.Printf.TH",
           "name": "printf",
           "package": "Printf-TH",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Printf TH",
+          "indexed": "2014-03-11T16:57:21",
           "module": "Text.Printf.TH",
           "name": "printf",
           "normalized": "String-\u003eExpQ",

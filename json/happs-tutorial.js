@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happs-tutorial"
+        "phrase": "happs-tutorial",
+        "type": "phrase"
       },
       "type": "context"
     }

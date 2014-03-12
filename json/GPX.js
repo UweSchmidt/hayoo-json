@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GPX"
+        "phrase": "GPX",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.AgeofdgpsdataL",
           "name": "AgeofdgpsdataL",
           "package": "GPX",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens AgeofdgpsdataL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.AgeofdgpsdataL",
           "name": "AgeofdgpsdataL",
           "package": "GPX",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.AgeofdgpsdataL",
           "name": "AgeofdgpsdataL",
           "package": "GPX",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens AgeofdgpsdataL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.AgeofdgpsdataL",
           "name": "AgeofdgpsdataL",
           "package": "GPX",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.AgeofdgpsdataL",
           "name": "ageofdgpsdataL",
           "package": "GPX",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens AgeofdgpsdataL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.AgeofdgpsdataL",
           "name": "ageofdgpsdataL",
           "package": "GPX",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.AuthorL",
           "name": "AuthorL",
           "package": "GPX",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens AuthorL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.AuthorL",
           "name": "AuthorL",
           "package": "GPX",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.AuthorL",
           "name": "AuthorL",
           "package": "GPX",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens AuthorL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.AuthorL",
           "name": "AuthorL",
           "package": "GPX",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.AuthorL",
           "name": "authorL",
           "package": "GPX",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens AuthorL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.AuthorL",
           "name": "authorL",
           "package": "GPX",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.BoundsL",
           "name": "BoundsL",
           "package": "GPX",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens BoundsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.BoundsL",
           "name": "BoundsL",
           "package": "GPX",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.BoundsL",
           "name": "BoundsL",
           "package": "GPX",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens BoundsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.BoundsL",
           "name": "BoundsL",
           "package": "GPX",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.BoundsL",
           "name": "boundsL",
           "package": "GPX",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens BoundsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.BoundsL",
           "name": "boundsL",
           "package": "GPX",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CmtL",
           "name": "CmtL",
           "package": "GPX",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CmtL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CmtL",
           "name": "CmtL",
           "package": "GPX",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CmtL",
           "name": "CmtL",
           "package": "GPX",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CmtL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CmtL",
           "name": "CmtL",
           "package": "GPX",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CmtL",
           "name": "cmtL",
           "package": "GPX",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CmtL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CmtL",
           "name": "cmtL",
           "package": "GPX",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CopyrightL",
           "name": "CopyrightL",
           "package": "GPX",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CopyrightL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CopyrightL",
           "name": "CopyrightL",
           "package": "GPX",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CopyrightL",
           "name": "CopyrightL",
           "package": "GPX",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CopyrightL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CopyrightL",
           "name": "CopyrightL",
           "package": "GPX",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CopyrightL",
           "name": "copyrightL",
           "package": "GPX",
@@ -321,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CopyrightL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CopyrightL",
           "name": "copyrightL",
           "package": "GPX",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CreatorL",
           "name": "CreatorL",
           "package": "GPX",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CreatorL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CreatorL",
           "name": "CreatorL",
           "package": "GPX",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CreatorL",
           "name": "CreatorL",
           "package": "GPX",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CreatorL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CreatorL",
           "name": "CreatorL",
           "package": "GPX",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.CreatorL",
           "name": "creatorL",
           "package": "GPX",
@@ -384,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens CreatorL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.CreatorL",
           "name": "creatorL",
           "package": "GPX",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DescL",
           "name": "DescL",
           "package": "GPX",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DescL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DescL",
           "name": "DescL",
           "package": "GPX",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DescL",
           "name": "DescL",
           "package": "GPX",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DescL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DescL",
           "name": "DescL",
           "package": "GPX",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DescL",
           "name": "descL",
           "package": "GPX",
@@ -447,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DescL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DescL",
           "name": "descL",
           "package": "GPX",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DgpsidL",
           "name": "DgpsidL",
           "package": "GPX",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DgpsidL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DgpsidL",
           "name": "DgpsidL",
           "package": "GPX",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DgpsidL",
           "name": "DgpsidL",
           "package": "GPX",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DgpsidL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DgpsidL",
           "name": "DgpsidL",
           "package": "GPX",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DgpsidL",
           "name": "dgpsidL",
           "package": "GPX",
@@ -510,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DgpsidL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DgpsidL",
           "name": "dgpsidL",
           "package": "GPX",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DomainL",
           "name": "DomainL",
           "package": "GPX",
@@ -530,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DomainL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DomainL",
           "name": "DomainL",
           "package": "GPX",
@@ -543,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DomainL",
           "name": "DomainL",
           "package": "GPX",
@@ -551,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DomainL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DomainL",
           "name": "DomainL",
           "package": "GPX",
@@ -564,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.DomainL",
           "name": "domainL",
           "package": "GPX",
@@ -573,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens DomainL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.DomainL",
           "name": "domainL",
           "package": "GPX",
@@ -585,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.EleL",
           "name": "EleL",
           "package": "GPX",
@@ -593,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens EleL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.EleL",
           "name": "EleL",
           "package": "GPX",
@@ -606,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.EleL",
           "name": "EleL",
           "package": "GPX",
@@ -614,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens EleL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.EleL",
           "name": "EleL",
           "package": "GPX",
@@ -627,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.EleL",
           "name": "eleL",
           "package": "GPX",
@@ -636,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens EleL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.EleL",
           "name": "eleL",
           "package": "GPX",
@@ -648,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.EmailL",
           "name": "EmailL",
           "package": "GPX",
@@ -656,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens EmailL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.EmailL",
           "name": "EmailL",
           "package": "GPX",
@@ -669,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.EmailL",
           "name": "EmailL",
           "package": "GPX",
@@ -677,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens EmailL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.EmailL",
           "name": "EmailL",
           "package": "GPX",
@@ -690,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.EmailL",
           "name": "emailL",
           "package": "GPX",
@@ -699,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens EmailL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.EmailL",
           "name": "emailL",
           "package": "GPX",
@@ -711,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.ExtensionsL",
           "name": "ExtensionsL",
           "package": "GPX",
@@ -719,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens ExtensionsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.ExtensionsL",
           "name": "ExtensionsL",
           "package": "GPX",
@@ -732,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.ExtensionsL",
           "name": "ExtensionsL",
           "package": "GPX",
@@ -740,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens ExtensionsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.ExtensionsL",
           "name": "ExtensionsL",
           "package": "GPX",
@@ -753,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.ExtensionsL",
           "name": "extensionsL",
           "package": "GPX",
@@ -762,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens ExtensionsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.ExtensionsL",
           "name": "extensionsL",
           "package": "GPX",
@@ -774,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.FixL",
           "name": "FixL",
           "package": "GPX",
@@ -782,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens FixL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.FixL",
           "name": "FixL",
           "package": "GPX",
@@ -795,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.FixL",
           "name": "FixL",
           "package": "GPX",
@@ -803,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens FixL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.FixL",
           "name": "FixL",
           "package": "GPX",
@@ -816,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.FixL",
           "name": "fixL",
           "package": "GPX",
@@ -825,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens FixL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.FixL",
           "name": "fixL",
           "package": "GPX",
@@ -837,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.GeoidheightL",
           "name": "GeoidheightL",
           "package": "GPX",
@@ -845,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens GeoidheightL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.GeoidheightL",
           "name": "GeoidheightL",
           "package": "GPX",
@@ -858,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.GeoidheightL",
           "name": "GeoidheightL",
           "package": "GPX",
@@ -866,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens GeoidheightL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.GeoidheightL",
           "name": "GeoidheightL",
           "package": "GPX",
@@ -879,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.GeoidheightL",
           "name": "geoidheightL",
           "package": "GPX",
@@ -888,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens GeoidheightL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.GeoidheightL",
           "name": "geoidheightL",
           "package": "GPX",
@@ -900,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.HdopL",
           "name": "HdopL",
           "package": "GPX",
@@ -908,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens HdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.HdopL",
           "name": "HdopL",
           "package": "GPX",
@@ -921,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.HdopL",
           "name": "HdopL",
           "package": "GPX",
@@ -929,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens HdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.HdopL",
           "name": "HdopL",
           "package": "GPX",
@@ -942,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.HdopL",
           "name": "hdopL",
           "package": "GPX",
@@ -951,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens HdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.HdopL",
           "name": "hdopL",
           "package": "GPX",
@@ -963,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.HrefL",
           "name": "HrefL",
           "package": "GPX",
@@ -971,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens HrefL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.HrefL",
           "name": "HrefL",
           "package": "GPX",
@@ -984,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.HrefL",
           "name": "HrefL",
           "package": "GPX",
@@ -992,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens HrefL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.HrefL",
           "name": "HrefL",
           "package": "GPX",
@@ -1005,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.HrefL",
           "name": "hrefL",
           "package": "GPX",
@@ -1014,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens HrefL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.HrefL",
           "name": "hrefL",
           "package": "GPX",
@@ -1026,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.IdL",
           "name": "IdL",
           "package": "GPX",
@@ -1034,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens IdL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.IdL",
           "name": "IdL",
           "package": "GPX",
@@ -1047,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.IdL",
           "name": "IdL",
           "package": "GPX",
@@ -1055,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens IdL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.IdL",
           "name": "IdL",
           "package": "GPX",
@@ -1068,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.IdL",
           "name": "idL",
           "package": "GPX",
@@ -1077,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens IdL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.IdL",
           "name": "idL",
           "package": "GPX",
@@ -1089,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.KeywordsL",
           "name": "KeywordsL",
           "package": "GPX",
@@ -1097,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens KeywordsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.KeywordsL",
           "name": "KeywordsL",
           "package": "GPX",
@@ -1110,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.KeywordsL",
           "name": "KeywordsL",
           "package": "GPX",
@@ -1118,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens KeywordsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.KeywordsL",
           "name": "KeywordsL",
           "package": "GPX",
@@ -1131,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.KeywordsL",
           "name": "keywordsL",
           "package": "GPX",
@@ -1140,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens KeywordsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.KeywordsL",
           "name": "keywordsL",
           "package": "GPX",
@@ -1152,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LatL",
           "name": "LatL",
           "package": "GPX",
@@ -1160,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LatL",
           "name": "LatL",
           "package": "GPX",
@@ -1173,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LatL",
           "name": "LatL",
           "package": "GPX",
@@ -1181,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LatL",
           "name": "LatL",
           "package": "GPX",
@@ -1194,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LatL",
           "name": "latL",
           "package": "GPX",
@@ -1203,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LatL",
           "name": "latL",
           "package": "GPX",
@@ -1215,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LicenseL",
           "name": "LicenseL",
           "package": "GPX",
@@ -1223,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LicenseL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LicenseL",
           "name": "LicenseL",
           "package": "GPX",
@@ -1236,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LicenseL",
           "name": "LicenseL",
           "package": "GPX",
@@ -1244,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LicenseL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LicenseL",
           "name": "LicenseL",
           "package": "GPX",
@@ -1257,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LicenseL",
           "name": "licenseL",
           "package": "GPX",
@@ -1266,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LicenseL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LicenseL",
           "name": "licenseL",
           "package": "GPX",
@@ -1278,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LinkL",
           "name": "LinkL",
           "package": "GPX",
@@ -1286,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LinkL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LinkL",
           "name": "LinkL",
           "package": "GPX",
@@ -1299,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LinkL",
           "name": "LinkL",
           "package": "GPX",
@@ -1307,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LinkL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LinkL",
           "name": "LinkL",
           "package": "GPX",
@@ -1320,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LinkL",
           "name": "linkL",
           "package": "GPX",
@@ -1329,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LinkL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LinkL",
           "name": "linkL",
           "package": "GPX",
@@ -1341,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LinksL",
           "name": "LinksL",
           "package": "GPX",
@@ -1349,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LinksL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LinksL",
           "name": "LinksL",
           "package": "GPX",
@@ -1362,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LinksL",
           "name": "LinksL",
           "package": "GPX",
@@ -1370,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LinksL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LinksL",
           "name": "LinksL",
           "package": "GPX",
@@ -1383,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LinksL",
           "name": "linksL",
           "package": "GPX",
@@ -1392,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LinksL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LinksL",
           "name": "linksL",
           "normalized": "Lens a[Link]",
@@ -1406,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LonL",
           "name": "LonL",
           "package": "GPX",
@@ -1414,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LonL",
           "name": "LonL",
           "package": "GPX",
@@ -1427,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LonL",
           "name": "LonL",
           "package": "GPX",
@@ -1435,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LonL",
           "name": "LonL",
           "package": "GPX",
@@ -1448,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.LonL",
           "name": "lonL",
           "package": "GPX",
@@ -1457,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens LonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.LonL",
           "name": "lonL",
           "package": "GPX",
@@ -1469,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MagvarL",
           "name": "MagvarL",
           "package": "GPX",
@@ -1477,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MagvarL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MagvarL",
           "name": "MagvarL",
           "package": "GPX",
@@ -1490,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MagvarL",
           "name": "MagvarL",
           "package": "GPX",
@@ -1498,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MagvarL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MagvarL",
           "name": "MagvarL",
           "package": "GPX",
@@ -1511,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MagvarL",
           "name": "magvarL",
           "package": "GPX",
@@ -1520,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MagvarL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MagvarL",
           "name": "magvarL",
           "package": "GPX",
@@ -1532,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MaxlatL",
           "name": "MaxlatL",
           "package": "GPX",
@@ -1540,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MaxlatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MaxlatL",
           "name": "MaxlatL",
           "package": "GPX",
@@ -1553,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MaxlatL",
           "name": "MaxlatL",
           "package": "GPX",
@@ -1561,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MaxlatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MaxlatL",
           "name": "MaxlatL",
           "package": "GPX",
@@ -1574,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MaxlatL",
           "name": "maxlatL",
           "package": "GPX",
@@ -1583,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MaxlatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MaxlatL",
           "name": "maxlatL",
           "package": "GPX",
@@ -1595,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MaxlonL",
           "name": "MaxlonL",
           "package": "GPX",
@@ -1603,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MaxlonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MaxlonL",
           "name": "MaxlonL",
           "package": "GPX",
@@ -1616,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MaxlonL",
           "name": "MaxlonL",
           "package": "GPX",
@@ -1624,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MaxlonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MaxlonL",
           "name": "MaxlonL",
           "package": "GPX",
@@ -1637,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MaxlonL",
           "name": "maxlonL",
           "package": "GPX",
@@ -1646,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MaxlonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MaxlonL",
           "name": "maxlonL",
           "package": "GPX",
@@ -1658,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MetadataL",
           "name": "MetadataL",
           "package": "GPX",
@@ -1666,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MetadataL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MetadataL",
           "name": "MetadataL",
           "package": "GPX",
@@ -1679,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MetadataL",
           "name": "MetadataL",
           "package": "GPX",
@@ -1687,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MetadataL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MetadataL",
           "name": "MetadataL",
           "package": "GPX",
@@ -1700,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MetadataL",
           "name": "metadataL",
           "package": "GPX",
@@ -1709,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MetadataL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MetadataL",
           "name": "metadataL",
           "package": "GPX",
@@ -1721,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MinlatL",
           "name": "MinlatL",
           "package": "GPX",
@@ -1729,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MinlatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MinlatL",
           "name": "MinlatL",
           "package": "GPX",
@@ -1742,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MinlatL",
           "name": "MinlatL",
           "package": "GPX",
@@ -1750,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MinlatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MinlatL",
           "name": "MinlatL",
           "package": "GPX",
@@ -1763,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MinlatL",
           "name": "minlatL",
           "package": "GPX",
@@ -1772,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MinlatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MinlatL",
           "name": "minlatL",
           "package": "GPX",
@@ -1784,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MinlonL",
           "name": "MinlonL",
           "package": "GPX",
@@ -1792,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MinlonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MinlonL",
           "name": "MinlonL",
           "package": "GPX",
@@ -1805,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MinlonL",
           "name": "MinlonL",
           "package": "GPX",
@@ -1813,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MinlonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MinlonL",
           "name": "MinlonL",
           "package": "GPX",
@@ -1826,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.MinlonL",
           "name": "minlonL",
           "package": "GPX",
@@ -1835,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens MinlonL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.MinlonL",
           "name": "minlonL",
           "package": "GPX",
@@ -1847,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.NameL",
           "name": "NameL",
           "package": "GPX",
@@ -1855,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens NameL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.NameL",
           "name": "NameL",
           "package": "GPX",
@@ -1868,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.NameL",
           "name": "NameL",
           "package": "GPX",
@@ -1876,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens NameL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.NameL",
           "name": "NameL",
           "package": "GPX",
@@ -1889,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.NameL",
           "name": "nameL",
           "package": "GPX",
@@ -1898,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens NameL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.NameL",
           "name": "nameL",
           "package": "GPX",
@@ -1910,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.NumberL",
           "name": "NumberL",
           "package": "GPX",
@@ -1918,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens NumberL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.NumberL",
           "name": "NumberL",
           "package": "GPX",
@@ -1931,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.NumberL",
           "name": "NumberL",
           "package": "GPX",
@@ -1939,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens NumberL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.NumberL",
           "name": "NumberL",
           "package": "GPX",
@@ -1952,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.NumberL",
           "name": "numberL",
           "package": "GPX",
@@ -1961,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens NumberL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.NumberL",
           "name": "numberL",
           "package": "GPX",
@@ -1973,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.PdopL",
           "name": "PdopL",
           "package": "GPX",
@@ -1981,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens PdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.PdopL",
           "name": "PdopL",
           "package": "GPX",
@@ -1994,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.PdopL",
           "name": "PdopL",
           "package": "GPX",
@@ -2002,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens PdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.PdopL",
           "name": "PdopL",
           "package": "GPX",
@@ -2015,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.PdopL",
           "name": "pdopL",
           "package": "GPX",
@@ -2024,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens PdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.PdopL",
           "name": "pdopL",
           "package": "GPX",
@@ -2036,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.PtsL",
           "name": "PtsL",
           "package": "GPX",
@@ -2044,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens PtsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.PtsL",
           "name": "PtsL",
           "package": "GPX",
@@ -2057,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.PtsL",
           "name": "PtsL",
           "package": "GPX",
@@ -2065,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens PtsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.PtsL",
           "name": "PtsL",
           "package": "GPX",
@@ -2078,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.PtsL",
           "name": "ptsL",
           "package": "GPX",
@@ -2087,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens PtsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.PtsL",
           "name": "ptsL",
           "normalized": "Lens a[Pt]",
@@ -2101,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.RteptsL",
           "name": "RteptsL",
           "package": "GPX",
@@ -2109,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens RteptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.RteptsL",
           "name": "RteptsL",
           "package": "GPX",
@@ -2122,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.RteptsL",
           "name": "RteptsL",
           "package": "GPX",
@@ -2130,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens RteptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.RteptsL",
           "name": "RteptsL",
           "package": "GPX",
@@ -2143,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.RteptsL",
           "name": "rteptsL",
           "package": "GPX",
@@ -2152,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens RteptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.RteptsL",
           "name": "rteptsL",
           "normalized": "Lens a[Wpt]",
@@ -2166,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.RtesL",
           "name": "RtesL",
           "package": "GPX",
@@ -2174,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens RtesL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.RtesL",
           "name": "RtesL",
           "package": "GPX",
@@ -2187,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.RtesL",
           "name": "RtesL",
           "package": "GPX",
@@ -2195,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens RtesL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.RtesL",
           "name": "RtesL",
           "package": "GPX",
@@ -2208,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.RtesL",
           "name": "rtesL",
           "package": "GPX",
@@ -2217,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens RtesL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.RtesL",
           "name": "rtesL",
           "normalized": "Lens a[Rte]",
@@ -2231,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SatL",
           "name": "SatL",
           "package": "GPX",
@@ -2239,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SatL",
           "name": "SatL",
           "package": "GPX",
@@ -2252,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SatL",
           "name": "SatL",
           "package": "GPX",
@@ -2260,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SatL",
           "name": "SatL",
           "package": "GPX",
@@ -2273,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SatL",
           "name": "satL",
           "package": "GPX",
@@ -2282,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SatL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SatL",
           "name": "satL",
           "package": "GPX",
@@ -2294,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SrcL",
           "name": "SrcL",
           "package": "GPX",
@@ -2302,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SrcL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SrcL",
           "name": "SrcL",
           "package": "GPX",
@@ -2315,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SrcL",
           "name": "SrcL",
           "package": "GPX",
@@ -2323,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SrcL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SrcL",
           "name": "SrcL",
           "package": "GPX",
@@ -2336,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SrcL",
           "name": "srcL",
           "package": "GPX",
@@ -2345,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SrcL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SrcL",
           "name": "srcL",
           "package": "GPX",
@@ -2357,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SymL",
           "name": "SymL",
           "package": "GPX",
@@ -2365,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SymL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SymL",
           "name": "SymL",
           "package": "GPX",
@@ -2378,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SymL",
           "name": "SymL",
           "package": "GPX",
@@ -2386,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SymL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SymL",
           "name": "SymL",
           "package": "GPX",
@@ -2399,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.SymL",
           "name": "symL",
           "package": "GPX",
@@ -2408,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens SymL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.SymL",
           "name": "symL",
           "package": "GPX",
@@ -2420,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TextL",
           "name": "TextL",
           "package": "GPX",
@@ -2428,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TextL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TextL",
           "name": "TextL",
           "package": "GPX",
@@ -2441,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TextL",
           "name": "TextL",
           "package": "GPX",
@@ -2449,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TextL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TextL",
           "name": "TextL",
           "package": "GPX",
@@ -2462,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TextL",
           "name": "textL",
           "package": "GPX",
@@ -2471,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TextL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TextL",
           "name": "textL",
           "package": "GPX",
@@ -2483,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TimeL",
           "name": "TimeL",
           "package": "GPX",
@@ -2491,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TimeL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TimeL",
           "name": "TimeL",
           "package": "GPX",
@@ -2504,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TimeL",
           "name": "TimeL",
           "package": "GPX",
@@ -2512,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TimeL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TimeL",
           "name": "TimeL",
           "package": "GPX",
@@ -2525,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TimeL",
           "name": "timeL",
           "package": "GPX",
@@ -2534,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TimeL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TimeL",
           "name": "timeL",
           "package": "GPX",
@@ -2546,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrkptsL",
           "name": "TrkptsL",
           "package": "GPX",
@@ -2554,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrkptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrkptsL",
           "name": "TrkptsL",
           "package": "GPX",
@@ -2567,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrkptsL",
           "name": "TrkptsL",
           "package": "GPX",
@@ -2575,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrkptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrkptsL",
           "name": "TrkptsL",
           "package": "GPX",
@@ -2588,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrkptsL",
           "name": "trkptsL",
           "package": "GPX",
@@ -2597,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrkptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrkptsL",
           "name": "trkptsL",
           "normalized": "Lens a[Wpt]",
@@ -2611,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrksL",
           "name": "TrksL",
           "package": "GPX",
@@ -2619,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrksL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrksL",
           "name": "TrksL",
           "package": "GPX",
@@ -2632,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrksL",
           "name": "TrksL",
           "package": "GPX",
@@ -2640,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrksL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrksL",
           "name": "TrksL",
           "package": "GPX",
@@ -2653,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrksL",
           "name": "trksL",
           "package": "GPX",
@@ -2662,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrksL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrksL",
           "name": "trksL",
           "normalized": "Lens a[Trk]",
@@ -2676,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrksegsL",
           "name": "TrksegsL",
           "package": "GPX",
@@ -2684,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrksegsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrksegsL",
           "name": "TrksegsL",
           "package": "GPX",
@@ -2697,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrksegsL",
           "name": "TrksegsL",
           "package": "GPX",
@@ -2705,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrksegsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrksegsL",
           "name": "TrksegsL",
           "package": "GPX",
@@ -2718,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TrksegsL",
           "name": "trksegsL",
           "package": "GPX",
@@ -2727,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TrksegsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TrksegsL",
           "name": "trksegsL",
           "normalized": "Lens a[Trkseg]",
@@ -2741,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TypeL",
           "name": "TypeL",
           "package": "GPX",
@@ -2749,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TypeL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TypeL",
           "name": "TypeL",
           "package": "GPX",
@@ -2762,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TypeL",
           "name": "TypeL",
           "package": "GPX",
@@ -2770,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TypeL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TypeL",
           "name": "TypeL",
           "package": "GPX",
@@ -2783,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.TypeL",
           "name": "typeL",
           "package": "GPX",
@@ -2792,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens TypeL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.TypeL",
           "name": "typeL",
           "package": "GPX",
@@ -2804,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.VdopL",
           "name": "VdopL",
           "package": "GPX",
@@ -2812,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens VdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.VdopL",
           "name": "VdopL",
           "package": "GPX",
@@ -2825,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.VdopL",
           "name": "VdopL",
           "package": "GPX",
@@ -2833,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens VdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.VdopL",
           "name": "VdopL",
           "package": "GPX",
@@ -2846,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.VdopL",
           "name": "vdopL",
           "package": "GPX",
@@ -2855,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens VdopL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.VdopL",
           "name": "vdopL",
           "package": "GPX",
@@ -2867,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.VersionL",
           "name": "VersionL",
           "package": "GPX",
@@ -2875,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens VersionL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.VersionL",
           "name": "VersionL",
           "package": "GPX",
@@ -2888,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.VersionL",
           "name": "VersionL",
           "package": "GPX",
@@ -2896,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens VersionL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.VersionL",
           "name": "VersionL",
           "package": "GPX",
@@ -2909,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.VersionL",
           "name": "versionL",
           "package": "GPX",
@@ -2918,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens VersionL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.VersionL",
           "name": "versionL",
           "package": "GPX",
@@ -2930,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.WptsL",
           "name": "WptsL",
           "package": "GPX",
@@ -2938,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens WptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.WptsL",
           "name": "WptsL",
           "package": "GPX",
@@ -2951,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.WptsL",
           "name": "WptsL",
           "package": "GPX",
@@ -2959,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens WptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.WptsL",
           "name": "WptsL",
           "package": "GPX",
@@ -2972,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.WptsL",
           "name": "wptsL",
           "package": "GPX",
@@ -2981,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens WptsL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.WptsL",
           "name": "wptsL",
           "normalized": "Lens a[Wpt]",
@@ -2995,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.YearL",
           "name": "YearL",
           "package": "GPX",
@@ -3003,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens YearL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.YearL",
           "name": "YearL",
           "package": "GPX",
@@ -3016,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.YearL",
           "name": "YearL",
           "package": "GPX",
@@ -3024,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens YearL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.YearL",
           "name": "YearL",
           "package": "GPX",
@@ -3037,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens.YearL",
           "name": "yearL",
           "package": "GPX",
@@ -3046,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens YearL",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens.YearL",
           "name": "yearL",
           "package": "GPX",
@@ -3058,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Lens",
           "name": "Lens",
           "package": "GPX",
@@ -3066,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Lens",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Lens",
           "name": "Lens",
           "package": "GPX",
@@ -3080,6 +3370,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003eboundsType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_boundsType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Bounds",
           "name": "Bounds",
           "package": "GPX",
@@ -3089,6 +3380,7 @@
         "index": {
           "description": "Complex Type boundsType http www.topografix.com GPX type boundsType",
           "hierarchy": "Data Geo GPX Type Bounds",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Bounds",
           "name": "Bounds",
           "package": "GPX",
@@ -3102,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Bounds",
           "name": "Bounds",
           "package": "GPX",
@@ -3110,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Bounds",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Bounds",
           "name": "Bounds",
           "package": "GPX",
@@ -3123,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Bounds",
           "name": "bounds",
           "package": "GPX",
@@ -3131,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Bounds",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Bounds",
           "name": "bounds",
           "normalized": "(Latitude,Longitude)-\u003e(Latitude,Longitude)-\u003eBounds",
@@ -3146,6 +3442,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003ecopyrightType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_copyrightType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Copyright",
           "name": "Copyright",
           "package": "GPX",
@@ -3155,6 +3452,7 @@
         "index": {
           "description": "Complex Type copyrightType http www.topografix.com GPX type copyrightType",
           "hierarchy": "Data Geo GPX Type Copyright",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Copyright",
           "name": "Copyright",
           "package": "GPX",
@@ -3168,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Copyright",
           "name": "Copyright",
           "package": "GPX",
@@ -3176,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Copyright",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Copyright",
           "name": "Copyright",
           "package": "GPX",
@@ -3189,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Copyright",
           "name": "copyright",
           "package": "GPX",
@@ -3197,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Copyright",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Copyright",
           "name": "copyright",
           "normalized": "String-\u003eMaybe String-\u003eMaybe String-\u003eCopyright",
@@ -3212,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Type: \u003ccode\u003edegreesType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_degreesType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Degrees",
           "name": "Degrees",
           "package": "GPX",
@@ -3221,6 +3524,7 @@
         "index": {
           "description": "Simple Type degreesType http www.topografix.com GPX type degreesType",
           "hierarchy": "Data Geo GPX Type Degrees",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Degrees",
           "name": "Degrees",
           "package": "GPX",
@@ -3234,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Degrees",
           "name": "Degrees",
           "package": "GPX",
@@ -3242,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Degrees",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Degrees",
           "name": "Degrees",
           "package": "GPX",
@@ -3255,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Degrees",
           "name": "degrees",
           "package": "GPX",
@@ -3263,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Degrees",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Degrees",
           "name": "degrees",
           "normalized": "Double-\u003eDegrees",
@@ -3277,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Degrees",
           "name": "runDegrees",
           "package": "GPX",
@@ -3286,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Degrees",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Degrees",
           "name": "runDegrees",
           "normalized": "Degrees-\u003eDouble",
@@ -3302,6 +3612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Type: \u003ccode\u003edgpsStationType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_dgpsStationType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.DgpsStation",
           "name": "DgpsStation",
           "package": "GPX",
@@ -3311,6 +3622,7 @@
         "index": {
           "description": "Simple Type dgpsStationType http www.topografix.com GPX type dgpsStationType",
           "hierarchy": "Data Geo GPX Type DgpsStation",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.DgpsStation",
           "name": "DgpsStation",
           "package": "GPX",
@@ -3324,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.DgpsStation",
           "name": "DgpsStation",
           "package": "GPX",
@@ -3332,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type DgpsStation",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.DgpsStation",
           "name": "DgpsStation",
           "package": "GPX",
@@ -3345,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.DgpsStation",
           "name": "dgpsStation",
           "package": "GPX",
@@ -3353,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type DgpsStation",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.DgpsStation",
           "name": "dgpsStation",
           "normalized": "Int-\u003eMaybe DgpsStation",
@@ -3368,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.DgpsStation",
           "name": "runDgpsStation",
           "package": "GPX",
@@ -3377,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type DgpsStation",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.DgpsStation",
           "name": "runDgpsStation",
           "normalized": "DgpsStation-\u003eInt",
@@ -3393,6 +3711,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003eemailType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_emailType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Email",
           "name": "Email",
           "package": "GPX",
@@ -3402,6 +3721,7 @@
         "index": {
           "description": "Complex Type emailType http www.topografix.com GPX type emailType",
           "hierarchy": "Data Geo GPX Type Email",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Email",
           "name": "Email",
           "package": "GPX",
@@ -3415,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Email",
           "name": "Email",
           "package": "GPX",
@@ -3423,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Email",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Email",
           "name": "Email",
           "package": "GPX",
@@ -3436,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Email",
           "name": "email",
           "package": "GPX",
@@ -3444,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Email",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Email",
           "name": "email",
           "normalized": "String-\u003eString-\u003eEmail",
@@ -3459,6 +3783,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003eextensionsType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_extensionsType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Extensions",
           "name": "Extensions",
           "package": "GPX",
@@ -3468,6 +3793,7 @@
         "index": {
           "description": "Complex Type extensionsType http www.topografix.com GPX type extensionsType",
           "hierarchy": "Data Geo GPX Type Extensions",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Extensions",
           "name": "Extensions",
           "package": "GPX",
@@ -3481,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Extensions",
           "name": "Extensions",
           "package": "GPX",
@@ -3489,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Extensions",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Extensions",
           "name": "Extensions",
           "package": "GPX",
@@ -3502,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Extensions",
           "name": "extensions",
           "package": "GPX",
@@ -3511,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Extensions",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Extensions",
           "name": "extensions",
           "normalized": "XmlTrees-\u003eExtensions",
@@ -3525,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Extensions",
           "name": "runExtensions",
           "package": "GPX",
@@ -3534,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Extensions",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Extensions",
           "name": "runExtensions",
           "normalized": "Extensions-\u003eXmlTrees",
@@ -3550,6 +3882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Type: \u003ccode\u003efixType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_fixType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "Fix",
           "package": "GPX",
@@ -3559,6 +3892,7 @@
         "index": {
           "description": "Simple Type fixType http www.topografix.com GPX type fixType",
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "Fix",
           "package": "GPX",
@@ -3572,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "Fix",
           "package": "GPX",
@@ -3580,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "Fix",
           "package": "GPX",
@@ -3594,6 +3930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eFix\u003c/code\u003e with a value of \u003ccode\u003edgps\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "dgps",
           "package": "GPX",
@@ -3604,6 +3941,7 @@
         "index": {
           "description": "Construct Fix with value of dgps",
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "dgps",
           "package": "GPX",
@@ -3617,6 +3955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eFix\u003c/code\u003e using a string with a value of \u003ccode\u003e[\u003ca\u003enone\u003c/a\u003e, \u003ca\u003e2d\u003c/a\u003e, \u003ca\u003e3d\u003c/a\u003e, \u003ca\u003edgps\u003c/a\u003e, \u003ca\u003epps\u003c/a\u003e]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "fix",
           "package": "GPX",
@@ -3626,6 +3965,7 @@
         "index": {
           "description": "Construct Fix using string with value of none dgps pps",
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "fix",
           "normalized": "String-\u003eMaybe Fix",
@@ -3641,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe catamorphism for \u003ccode\u003eFix\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "foldFix",
           "package": "GPX",
@@ -3650,6 +3991,7 @@
         "index": {
           "description": "The catamorphism for Fix",
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "foldFix",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eFix-\u003ea",
@@ -3666,6 +4008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eFix\u003c/code\u003e with a value of \u003ccode\u003enone\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "none",
           "package": "GPX",
@@ -3676,6 +4019,7 @@
         "index": {
           "description": "Construct Fix with value of none",
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "none",
           "package": "GPX",
@@ -3689,6 +4033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eFix\u003c/code\u003e with a value of \u003ccode\u003epps\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "pps",
           "package": "GPX",
@@ -3699,6 +4044,7 @@
         "index": {
           "description": "Construct Fix with value of pps",
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "pps",
           "package": "GPX",
@@ -3712,6 +4058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eFix\u003c/code\u003e with a value of \u003ccode\u003e3d\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "threed",
           "package": "GPX",
@@ -3722,6 +4069,7 @@
         "index": {
           "description": "Construct Fix with value of",
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "threed",
           "package": "GPX",
@@ -3735,6 +4083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eFix\u003c/code\u003e with a value of \u003ccode\u003e2d\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "twod",
           "package": "GPX",
@@ -3745,6 +4094,7 @@
         "index": {
           "description": "Construct Fix with value of",
           "hierarchy": "Data Geo GPX Type Fix",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Fix",
           "name": "twod",
           "package": "GPX",
@@ -3758,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003egpxType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_gpxType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Gpx",
           "name": "Gpx",
           "package": "GPX",
@@ -3767,6 +4118,7 @@
         "index": {
           "description": "Complex Type gpxType http www.topografix.com GPX type gpxType",
           "hierarchy": "Data Geo GPX Type Gpx",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Gpx",
           "name": "Gpx",
           "package": "GPX",
@@ -3780,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Gpx",
           "name": "Gpx",
           "package": "GPX",
@@ -3788,6 +4141,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Gpx",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Gpx",
           "name": "Gpx",
           "package": "GPX",
@@ -3801,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Gpx",
           "name": "GpxP",
           "package": "GPX",
@@ -3809,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Gpx",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Gpx",
           "name": "GpxP",
           "package": "GPX",
@@ -3822,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Gpx",
           "name": "gpx",
           "package": "GPX",
@@ -3831,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Gpx",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Gpx",
           "name": "gpx",
           "package": "GPX",
@@ -3844,6 +4202,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Type: \u003ccode\u003elatitudeType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_latitudeType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Latitude",
           "name": "Latitude",
           "package": "GPX",
@@ -3853,6 +4212,7 @@
         "index": {
           "description": "Simple Type latitudeType http www.topografix.com GPX type latitudeType",
           "hierarchy": "Data Geo GPX Type Latitude",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Latitude",
           "name": "Latitude",
           "package": "GPX",
@@ -3866,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Latitude",
           "name": "Latitude",
           "package": "GPX",
@@ -3874,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Latitude",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Latitude",
           "name": "Latitude",
           "package": "GPX",
@@ -3887,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Latitude",
           "name": "latitude",
           "package": "GPX",
@@ -3895,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Latitude",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Latitude",
           "name": "latitude",
           "normalized": "Double-\u003eLatitude",
@@ -3909,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Latitude",
           "name": "runLatitude",
           "package": "GPX",
@@ -3918,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Latitude",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Latitude",
           "name": "runLatitude",
           "normalized": "Latitude-\u003eDouble",
@@ -3934,6 +4300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003elinkType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_linkType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Link",
           "name": "Link",
           "package": "GPX",
@@ -3943,6 +4310,7 @@
         "index": {
           "description": "Complex Type linkType http www.topografix.com GPX type linkType",
           "hierarchy": "Data Geo GPX Type Link",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Link",
           "name": "Link",
           "package": "GPX",
@@ -3956,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Link",
           "name": "Link",
           "package": "GPX",
@@ -3964,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Link",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Link",
           "name": "Link",
           "package": "GPX",
@@ -3977,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Link",
           "name": "link",
           "package": "GPX",
@@ -3985,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Link",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Link",
           "name": "link",
           "normalized": "String-\u003eMaybe String-\u003eMaybe String-\u003eLink",
@@ -4000,6 +4372,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Type: \u003ccode\u003elatitudeType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_latitudeType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Longitude",
           "name": "Longitude",
           "package": "GPX",
@@ -4009,6 +4382,7 @@
         "index": {
           "description": "Simple Type latitudeType http www.topografix.com GPX type latitudeType",
           "hierarchy": "Data Geo GPX Type Longitude",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Longitude",
           "name": "Longitude",
           "package": "GPX",
@@ -4022,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Longitude",
           "name": "Longitude",
           "package": "GPX",
@@ -4030,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Longitude",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Longitude",
           "name": "Longitude",
           "package": "GPX",
@@ -4043,6 +4419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Longitude",
           "name": "longitude",
           "package": "GPX",
@@ -4051,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Longitude",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Longitude",
           "name": "longitude",
           "normalized": "Double-\u003eLongitude",
@@ -4065,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Longitude",
           "name": "runLongitude",
           "package": "GPX",
@@ -4074,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Longitude",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Longitude",
           "name": "runLongitude",
           "normalized": "Longitude-\u003eDouble",
@@ -4090,6 +4470,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003emetadataType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_metadataType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Metadata",
           "name": "Metadata",
           "package": "GPX",
@@ -4099,6 +4480,7 @@
         "index": {
           "description": "Complex Type metadataType http www.topografix.com GPX type metadataType",
           "hierarchy": "Data Geo GPX Type Metadata",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Metadata",
           "name": "Metadata",
           "package": "GPX",
@@ -4112,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Metadata",
           "name": "Metadata",
           "package": "GPX",
@@ -4120,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Metadata",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Metadata",
           "name": "Metadata",
           "package": "GPX",
@@ -4133,6 +4517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Metadata",
           "name": "metadata",
           "package": "GPX",
@@ -4141,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Metadata",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Metadata",
           "name": "metadata",
           "normalized": "Maybe String-\u003eMaybe String-\u003eMaybe Person-\u003eMaybe Copyright-\u003e[Link]-\u003eMaybe DateTime-\u003eMaybe String-\u003eMaybe Bounds-\u003eMaybe Extensions-\u003eMetadata",
@@ -4156,6 +4542,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003epersonType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_personType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Person",
           "name": "Person",
           "package": "GPX",
@@ -4165,6 +4552,7 @@
         "index": {
           "description": "Complex Type personType http www.topografix.com GPX type personType",
           "hierarchy": "Data Geo GPX Type Person",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Person",
           "name": "Person",
           "package": "GPX",
@@ -4178,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Person",
           "name": "Person",
           "package": "GPX",
@@ -4186,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Person",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Person",
           "name": "Person",
           "package": "GPX",
@@ -4199,6 +4589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Person",
           "name": "person",
           "package": "GPX",
@@ -4207,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Person",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Person",
           "name": "person",
           "normalized": "Maybe String-\u003eMaybe Email-\u003eMaybe Link-\u003ePerson",
@@ -4222,6 +4614,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003eptType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_ptType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Pt",
           "name": "Pt",
           "package": "GPX",
@@ -4231,6 +4624,7 @@
         "index": {
           "description": "Complex Type ptType http www.topografix.com GPX type ptType",
           "hierarchy": "Data Geo GPX Type Pt",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Pt",
           "name": "Pt",
           "package": "GPX",
@@ -4244,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Pt",
           "name": "Pt",
           "package": "GPX",
@@ -4252,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Pt",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Pt",
           "name": "Pt",
           "package": "GPX",
@@ -4265,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Pt",
           "name": "pt",
           "package": "GPX",
@@ -4273,6 +4670,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Pt",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Pt",
           "name": "pt",
           "normalized": "Latitude-\u003eLongitude-\u003eMaybe Double-\u003eMaybe DateTime-\u003ePt",
@@ -4288,6 +4686,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003eptsegType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_ptsegType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Ptseg",
           "name": "Ptseg",
           "package": "GPX",
@@ -4297,6 +4696,7 @@
         "index": {
           "description": "Complex Type ptsegType http www.topografix.com GPX type ptsegType",
           "hierarchy": "Data Geo GPX Type Ptseg",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Ptseg",
           "name": "Ptseg",
           "package": "GPX",
@@ -4310,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Ptseg",
           "name": "Ptseg",
           "package": "GPX",
@@ -4318,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Ptseg",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Ptseg",
           "name": "Ptseg",
           "package": "GPX",
@@ -4331,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Ptseg",
           "name": "ptseg",
           "package": "GPX",
@@ -4339,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Ptseg",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Ptseg",
           "name": "ptseg",
           "normalized": "[Pt]-\u003ePtseg",
@@ -4353,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Ptseg",
           "name": "runPtseg",
           "package": "GPX",
@@ -4362,6 +4767,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Ptseg",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Ptseg",
           "name": "runPtseg",
           "normalized": "Ptseg-\u003e[Pt]",
@@ -4378,6 +4784,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003erteType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_rteType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Rte",
           "name": "Rte",
           "package": "GPX",
@@ -4387,6 +4794,7 @@
         "index": {
           "description": "Complex Type rteType http www.topografix.com GPX type rteType",
           "hierarchy": "Data Geo GPX Type Rte",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Rte",
           "name": "Rte",
           "package": "GPX",
@@ -4400,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Rte",
           "name": "Rte",
           "package": "GPX",
@@ -4408,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Rte",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Rte",
           "name": "Rte",
           "package": "GPX",
@@ -4421,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Rte",
           "name": "rte",
           "package": "GPX",
@@ -4429,6 +4840,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Rte",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Rte",
           "name": "rte",
           "normalized": "Maybe String-\u003eMaybe String-\u003eMaybe String-\u003eMaybe String-\u003e[Link]-\u003eMaybe Int-\u003eMaybe String-\u003eMaybe Extensions-\u003e[Wpt]-\u003eRte",
@@ -4444,6 +4856,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003etrkType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_trkType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Trk",
           "name": "Trk",
           "package": "GPX",
@@ -4453,6 +4866,7 @@
         "index": {
           "description": "Complex Type trkType http www.topografix.com GPX type trkType",
           "hierarchy": "Data Geo GPX Type Trk",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Trk",
           "name": "Trk",
           "package": "GPX",
@@ -4466,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Trk",
           "name": "Trk",
           "package": "GPX",
@@ -4474,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Trk",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Trk",
           "name": "Trk",
           "package": "GPX",
@@ -4487,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Trk",
           "name": "trk",
           "package": "GPX",
@@ -4495,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Trk",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Trk",
           "name": "trk",
           "normalized": "Maybe String-\u003eMaybe String-\u003eMaybe String-\u003eMaybe String-\u003e[Link]-\u003eMaybe Int-\u003eMaybe String-\u003eMaybe Extensions-\u003e[Trkseg]-\u003eTrk",
@@ -4510,6 +4928,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003etrksegType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_trksegType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Trkseg",
           "name": "Trkseg",
           "package": "GPX",
@@ -4519,6 +4938,7 @@
         "index": {
           "description": "Complex Type trksegType http www.topografix.com GPX type trksegType",
           "hierarchy": "Data Geo GPX Type Trkseg",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Trkseg",
           "name": "Trkseg",
           "package": "GPX",
@@ -4532,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Trkseg",
           "name": "Trkseg",
           "package": "GPX",
@@ -4540,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Trkseg",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Trkseg",
           "name": "Trkseg",
           "package": "GPX",
@@ -4553,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Trkseg",
           "name": "trkseg",
           "package": "GPX",
@@ -4561,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Trkseg",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Trkseg",
           "name": "trkseg",
           "normalized": "[Wpt]-\u003eMaybe Extensions-\u003eTrkseg",
@@ -4576,6 +5000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex Type: \u003ccode\u003ewptType\u003c/code\u003e \u003ca\u003ehttp://www.topografix.com/GPX/1/1/#type_wptType\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Wpt",
           "name": "Wpt",
           "package": "GPX",
@@ -4585,6 +5010,7 @@
         "index": {
           "description": "Complex Type wptType http www.topografix.com GPX type wptType",
           "hierarchy": "Data Geo GPX Type Wpt",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Wpt",
           "name": "Wpt",
           "package": "GPX",
@@ -4598,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Wpt",
           "name": "Wpt",
           "package": "GPX",
@@ -4606,6 +5033,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Wpt",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Wpt",
           "name": "Wpt",
           "package": "GPX",
@@ -4619,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Wpt",
           "name": "wpt",
           "package": "GPX",
@@ -4627,6 +5056,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GPX Type Wpt",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Wpt",
           "name": "wpt",
           "normalized": "Latitude-\u003eLongitude-\u003eMaybe Double-\u003eMaybe DateTime-\u003eMaybe Degrees-\u003eMaybe Double-\u003eMaybe String-\u003eMaybe String-\u003eMaybe String-\u003eMaybe String-\u003e[Link]-\u003eMaybe String-\u003eMaybe String-\u003eMaybe Fix-\u003eMaybe Int-\u003eMaybe Double-\u003eMaybe Double-\u003eMaybe Double-\u003eMaybe Double-\u003eMaybe DgpsStation-\u003eMaybe Extensions-\u003eWpt",
@@ -4642,6 +5072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA waypoint with only a latitude and longitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type.Wpt",
           "name": "wpt'",
           "package": "GPX",
@@ -4651,6 +5082,7 @@
         "index": {
           "description": "waypoint with only latitude and longitude",
           "hierarchy": "Data Geo GPX Type Wpt",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type.Wpt",
           "name": "wpt'",
           "normalized": "Latitude-\u003eLongitude-\u003eWpt",
@@ -4666,6 +5098,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGPX 1.1 Schema \u003ca\u003ehttp://www.topografix.com/GPX/1/1/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX.Type",
           "name": "Type",
           "package": "GPX",
@@ -4675,6 +5108,7 @@
         "index": {
           "description": "GPX Schema http www.topografix.com GPX",
           "hierarchy": "Data Geo GPX Type",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX.Type",
           "name": "Type",
           "package": "GPX",
@@ -4689,6 +5123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGPX 1.1 Schema \u003ca\u003ehttp://www.topografix.com/GPX/1/1/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX",
           "name": "GPX",
           "package": "GPX",
@@ -4698,6 +5133,7 @@
         "index": {
           "description": "GPX Schema http www.topografix.com GPX",
           "hierarchy": "Data Geo GPX",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX",
           "name": "GPX",
           "package": "GPX",
@@ -4712,6 +5148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level GPX data type with the root XML element applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:34 UTC 2014",
           "module": "Data.Geo.GPX",
           "name": "GPX",
           "package": "GPX",
@@ -4721,6 +5158,7 @@
         "index": {
           "description": "Top-level GPX data type with the root XML element applied",
           "hierarchy": "Data Geo GPX",
+          "indexed": "2014-03-11T16:42:34",
           "module": "Data.Geo.GPX",
           "name": "GPX",
           "package": "GPX",

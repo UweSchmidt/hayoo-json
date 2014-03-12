@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dbus"
+        "phrase": "dbus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eD-Bus clients are an abstraction over the lower-level messaging\n system. When combined with an external daemon called the \"bus\", clients\n can perform remote procedure calls to other clients on the bus.\n\u003c/p\u003e\u003cp\u003eClients may also listen for or emit \u003cem\u003esignals\u003c/em\u003e, which are asynchronous\n broadcast notifications.\n\u003c/p\u003e\u003cp\u003eExample: connect to the session bus, and get a list of active names.\n\u003c/p\u003e\u003cpre\u003e\n{-# LANGUAGE OverloadedStrings #-}\n\nimport Data.List (sort)\nimport DBus\nimport DBus.Client\n\nmain = do\n    client \u003c- \u003ccode\u003e\u003ca\u003econnectSession\u003c/a\u003e\u003c/code\u003e\n    \u003cem/\u003e\n    -- Request a list of connected clients from the bus\n    reply \u003c- \u003ccode\u003e\u003ca\u003ecall_\u003c/a\u003e\u003c/code\u003e client (\u003ccode\u003e\u003ca\u003emethodCall\u003c/a\u003e\u003c/code\u003e \"/org/freedesktop/DBus\" \"org.freedesktop.DBus\" \"ListNames\")\n        { \u003ccode\u003e\u003ca\u003emethodCallDestination\u003c/a\u003e\u003c/code\u003e = Just \"org.freedesktop.DBus\"\n        }\n    \u003cem/\u003e\n    -- org.freedesktop.DBus.ListNames() returns a single value, which is\n    -- a list of names (here represented as [String])\n    let Just names = \u003ccode\u003e\u003ca\u003efromVariant\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emethodReturnBody\u003c/a\u003e\u003c/code\u003e reply !! 0)\n    \u003cem/\u003e\n    -- Print each name on a line, sorted so reserved names are below\n    -- temporary names.\n    mapM_ putStrLn (sort names)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "Client",
           "package": "dbus",
@@ -28,6 +29,7 @@
         "index": {
           "description": "D-Bus clients are an abstraction over the lower-level messaging system When combined with an external daemon called the bus clients can perform remote procedure calls to other clients on the bus Clients may also listen for or emit signals which are asynchronous broadcast notifications Example connect to the session bus and get list of active names LANGUAGE OverloadedStrings import Data.List sort import DBus import DBus.Client main do client connectSession Request list of connected clients from the bus reply call client methodCall org freedesktop DBus org.freedesktop.DBus ListNames methodCallDestination Just org.freedesktop.DBus org.freedesktop.DBus.ListNames returns single value which is list of names here represented as String let Just names fromVariant methodReturnBody reply Print each name on line sorted so reserved names are below temporary names mapM putStrLn sort names",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "Client",
           "package": "dbus",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to automatically generate method signatures for introspection\n documents. To support automatic signatures, a method's parameters and\n return value must all be instances of \u003ccode\u003e\u003ca\u003eIsValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis class maps Haskell idioms to D-Bus; it is therefore unable to\n generate some signatures. In particular, it does not support methods\n which accept/return a single structure, or single-element structures.\n It also cannot generate signatures for methods with parameters or return\n values which are only instances of \u003ccode\u003e\u003ca\u003eIsVariant\u003c/a\u003e\u003c/code\u003e. For these cases, please\n use \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo match common Haskell use, if the return value is a tuple, it will be\n converted to a list of return values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "AutoMethod",
           "package": "dbus",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Used to automatically generate method signatures for introspection documents To support automatic signatures method parameters and return value must all be instances of IsValue This class maps Haskell idioms to D-Bus it is therefore unable to generate some signatures In particular it does not support methods which accept return single structure or single-element structures It also cannot generate signatures for methods with parameters or return values which are only instances of IsVariant For these cases please use method To match common Haskell use if the return value is tuple it will be converted to list of return values",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "AutoMethod",
           "package": "dbus",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn active client session to a message bus. Clients may send or receive\n method calls, and listen for or emit signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "Client",
           "package": "dbus",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An active client session to message bus Clients may send or receive method calls and listen for or emit signals",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "Client",
           "package": "dbus",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "ClientError",
           "package": "dbus",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "ClientError",
           "package": "dbus",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "ClientOptions",
           "package": "dbus",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "ClientOptions",
           "package": "dbus",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA match rule describes which signals a particular callback is interested\n in. Use \u003ccode\u003e\u003ca\u003ematchAny\u003c/a\u003e\u003c/code\u003e to construct match rules.\n\u003c/p\u003e\u003cp\u003eExample: a match rule which matches signals sent by the root object.\n\u003c/p\u003e\u003cpre\u003e\nmatchFromRoot :: MatchRule\nmatchFromRoot = \u003ccode\u003e\u003ca\u003ematchAny\u003c/a\u003e\u003c/code\u003e { \u003ccode\u003e\u003ca\u003ematchPath\u003c/a\u003e\u003c/code\u003e = Just \"/\" }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "MatchRule",
           "package": "dbus",
@@ -139,6 +150,7 @@
         "index": {
           "description": "match rule describes which signals particular callback is interested in Use matchAny to construct match rules Example match rule which matches signals sent by the root object matchFromRoot MatchRule matchFromRoot matchAny matchPath Just",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "MatchRule",
           "package": "dbus",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "Method",
           "package": "dbus",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "Method",
           "package": "dbus",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "ReleaseNameReply",
           "package": "dbus",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "ReleaseNameReply",
           "package": "dbus",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "Reply",
           "package": "dbus",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "Reply",
           "package": "dbus",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "RequestNameFlag",
           "package": "dbus",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "RequestNameFlag",
           "package": "dbus",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "RequestNameReply",
           "package": "dbus",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "RequestNameReply",
           "package": "dbus",
@@ -258,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis client is already the primary owner of the requested name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "NameAlreadyOwner",
           "package": "dbus",
@@ -268,6 +291,7 @@
         "index": {
           "description": "This client is already the primary owner of the requested name",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "NameAlreadyOwner",
           "package": "dbus",
@@ -282,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name was already reserved by another client, \u003ccode\u003eDoNotQueue\u003c/code\u003e\n was set, and replacement was either not attempted or not\n successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "NameExists",
           "package": "dbus",
@@ -292,6 +317,7 @@
         "index": {
           "description": "The name was already reserved by another client DoNotQueue was set and replacement was either not attempted or not successful",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "NameExists",
           "package": "dbus",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name was already reserved by another client, and replacement\n was either not attempted or not successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "NameInQueue",
           "package": "dbus",
@@ -316,6 +343,7 @@
         "index": {
           "description": "The name was already reserved by another client and replacement was either not attempted or not successful",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "NameInQueue",
           "package": "dbus",
@@ -330,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe provided name is not assigned to any client on the bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "NameNonExistent",
           "package": "dbus",
@@ -340,6 +369,7 @@
         "index": {
           "description": "The provided name is not assigned to any client on the bus",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "NameNonExistent",
           "package": "dbus",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe provided name is not assigned to this client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "NameNotOwner",
           "package": "dbus",
@@ -364,6 +395,7 @@
         "index": {
           "description": "The provided name is not assigned to this client",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "NameNotOwner",
           "package": "dbus",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis client is now the primary owner of the requested name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "NamePrimaryOwner",
           "package": "dbus",
@@ -388,6 +421,7 @@
         "index": {
           "description": "This client is now the primary owner of the requested name",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "NamePrimaryOwner",
           "package": "dbus",
@@ -402,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis client has released the provided name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "NameReleased",
           "package": "dbus",
@@ -412,6 +447,7 @@
         "index": {
           "description": "This client has released the provided name",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "NameReleased",
           "package": "dbus",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a Haskell function for export, automatically detecting the\n function's type signature.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eAutoMethod\u003c/a\u003e\u003c/code\u003e for details on the limitations of this function.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e for exporting functions with user-defined types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "autoMethod",
           "package": "dbus",
@@ -436,6 +473,7 @@
         "index": {
           "description": "Prepare Haskell function for export automatically detecting the function type signature See AutoMethod for details on the limitations of this function See method for exporting functions with user-defined types",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "autoMethod",
           "normalized": "InterfaceName-\u003eMemberName-\u003ea-\u003eMethod",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a method call to the bus, and wait for the response.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if the method call couldn't be sent, or if the reply\n couldn't be parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "call",
           "package": "dbus",
@@ -462,6 +501,7 @@
         "index": {
           "description": "Send method call to the bus and wait for the response Throws ClientError if the method call couldn be sent or if the reply couldn be parsed",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "call",
           "normalized": "Client-\u003eMethodCall-\u003eIO(Either MethodError MethodReturn)",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a method call to the bus, and do not wait for a response.\n\u003c/p\u003e\u003cp\u003eSets the \u003ccode\u003enoReplyExpected\u003c/code\u003e message flag before sending.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if the method call couldn't be sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "callNoReply",
           "package": "dbus",
@@ -487,6 +528,7 @@
         "index": {
           "description": "Send method call to the bus and do not wait for response Sets the noReplyExpected message flag before sending Throws ClientError if the method call couldn be sent",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "callNoReply",
           "normalized": "Client-\u003eMethodCall-\u003eIO()",
@@ -503,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a method call to the bus, and wait for the response.\n\u003c/p\u003e\u003cp\u003eUnsets the \u003ccode\u003enoReplyExpected\u003c/code\u003e message flag before sending.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if the method call couldn't sent, if the reply\n couldn't be parsed, or if the reply was a \u003ccode\u003e\u003ca\u003eMethodError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "call_",
           "package": "dbus",
@@ -513,6 +556,7 @@
         "index": {
           "description": "Send method call to the bus and wait for the response Unsets the noReplyExpected message flag before sending Throws ClientError if the method call couldn sent if the reply couldn be parsed or if the reply was MethodError",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "call_",
           "normalized": "Client-\u003eMethodCall-\u003eIO MethodReturn",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "clientError",
           "package": "dbus",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "clientError",
           "normalized": "String-\u003eClientError",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "clientErrorFatal",
           "package": "dbus",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "clientErrorFatal",
           "normalized": "ClientError-\u003eBool",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "clientErrorMessage",
           "package": "dbus",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "clientErrorMessage",
           "normalized": "ClientError-\u003eString",
@@ -600,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for the underlying socket, for advanced use cases. See\n the \u003ca\u003eDBus.Socket\u003c/a\u003e module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "clientSocketOptions",
           "package": "dbus",
@@ -610,6 +661,7 @@
         "index": {
           "description": "Options for the underlying socket for advanced use cases See the DBus.Socket module",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "clientSocketOptions",
           "normalized": "ClientOptions a-\u003eSocketOptions a",
@@ -626,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to run the client thread. The provided IO computation\n should be called repeatedly; each time it is called, it will process\n one incoming message.\n\u003c/p\u003e\u003cp\u003eThe provided computation will throw a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if it fails to\n process an incoming message, or if the connection is lost.\n\u003c/p\u003e\u003cp\u003eThe default implementation is \u003ccode\u003e\u003ca\u003eforever\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "clientThreadRunner",
           "package": "dbus",
@@ -636,6 +689,7 @@
         "index": {
           "description": "function to run the client thread The provided IO computation should be called repeatedly each time it is called it will process one incoming message The provided computation will throw ClientError if it fails to process an incoming message or if the connection is lost The default implementation is forever",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "clientThreadRunner",
           "normalized": "ClientOptions a-\u003eIO()-\u003eIO()",
@@ -652,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the bus at the specified address.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "connect",
           "package": "dbus",
@@ -662,6 +717,7 @@
         "index": {
           "description": "Connect to the bus at the specified address Throws ClientError on failure",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "connect",
           "normalized": "Address-\u003eIO Client",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the bus specified in the environment variable\n \u003ccode\u003eDBUS_SESSION_BUS_ADDRESS\u003c/code\u003e, which must be set.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003eDBUS_SESSION_BUS_ADDRESS\u003c/code\u003e is unset, contains an\n invalid address, or if connecting to the bus failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "connectSession",
           "package": "dbus",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Connect to the bus specified in the environment variable DBUS SESSION BUS ADDRESS which must be set Throws ClientError if DBUS SESSION BUS ADDRESS is unset contains an invalid address or if connecting to the bus failed",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "connectSession",
           "package": "dbus",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the bus specified in the environment variable\n \u003ccode\u003eDBUS_STARTER_ADDRESS\u003c/code\u003e, which must be set.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003eDBUS_STARTER_ADDRESS\u003c/code\u003e is unset, contains an\n invalid address, or if connecting to the bus failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "connectStarter",
           "package": "dbus",
@@ -711,6 +770,7 @@
         "index": {
           "description": "Connect to the bus specified in the environment variable DBUS STARTER ADDRESS which must be set Throws ClientError if DBUS STARTER ADDRESS is unset contains an invalid address or if connecting to the bus failed",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "connectStarter",
           "package": "dbus",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the bus specified in the environment variable\n \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e, or to\n \u003ccode\u003eunix:path=/var/run/dbus/system_bus_socket\u003c/code\u003e if \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e\n is not set.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e contains an invalid\n address, or if connecting to the bus failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "connectSystem",
           "package": "dbus",
@@ -735,6 +796,7 @@
         "index": {
           "description": "Connect to the bus specified in the environment variable DBUS SYSTEM BUS ADDRESS or to unix path var run dbus system bus socket if DBUS SYSTEM BUS ADDRESS is not set Throws ClientError if DBUS SYSTEM BUS ADDRESS contains an invalid address or if connecting to the bus failed",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "connectSystem",
           "package": "dbus",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the bus at the specified address, with the given connection\n options. Most users should use \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "connectWith",
           "package": "dbus",
@@ -759,6 +822,7 @@
         "index": {
           "description": "Connect to the bus at the specified address with the given connection options Most users should use connect instead Throws ClientError on failure",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "connectWith",
           "normalized": "ClientOptions a-\u003eAddress-\u003eIO Client",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault client options. Uses the built-in Socket-based transport, which\n supports the \u003ccode\u003etcp:\u003c/code\u003e and \u003ccode\u003eunix:\u003c/code\u003e methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "defaultClientOptions",
           "package": "dbus",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Default client options Uses the built-in Socket-based transport which supports the tcp and unix methods",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "defaultClientOptions",
           "package": "dbus",
@@ -799,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop a \u003ccode\u003eClient'\u003c/code\u003es callback thread and close its underlying socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "disconnect",
           "package": "dbus",
@@ -809,6 +876,7 @@
         "index": {
           "description": "Stop Client callback thread and close its underlying socket",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "disconnect",
           "normalized": "Client-\u003eIO()",
@@ -824,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit the signal on the bus.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if the signal message couldn't be sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "emit",
           "package": "dbus",
@@ -834,6 +903,7 @@
         "index": {
           "description": "Emit the signal on the bus Throws ClientError if the signal message couldn be sent",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "emit",
           "normalized": "Client-\u003eSignal-\u003eIO()",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExport the given functions under the given \u003ccode\u003e\u003ca\u003eObjectPath\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eInterfaceName\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eautoMethod\u003c/a\u003e\u003c/code\u003e to construct a \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e from a function that accepts and\n returns simple types.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e to construct a \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e from a function that handles parameter\n conversion manually.\n\u003c/p\u003e\u003cpre\u003e\nping :: MethodCall -\u003e IO \u003ccode\u003e\u003ca\u003eReply\u003c/a\u003e\u003c/code\u003e\nping _ = replyReturn []\n\nsayHello :: String -\u003e IO String\nsayHello name = return (\"Hello \" ++ name ++ \"!\")\n\nexport client \"/hello_world\"\n    [ \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e \"com.example.HelloWorld\" \"Ping\" ping\n    , \u003ccode\u003e\u003ca\u003eautoMethod\u003c/a\u003e\u003c/code\u003e \"com.example.HelloWorld\" \"Hello\" sayHello\n    ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "export",
           "package": "dbus",
@@ -859,6 +930,7 @@
         "index": {
           "description": "Export the given functions under the given ObjectPath and InterfaceName Use autoMethod to construct Method from function that accepts and returns simple types Use method to construct Method from function that handles parameter conversion manually ping MethodCall IO Reply ping replyReturn sayHello String IO String sayHello name return Hello name export client hello world method com.example.HelloWorld Ping ping autoMethod com.example.HelloWorld Hello sayHello",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "export",
           "normalized": "Client-\u003eObjectPath-\u003e[Method]-\u003eIO()",
@@ -874,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a match rule into the textual format accepted by the bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "formatMatchRule",
           "package": "dbus",
@@ -884,6 +957,7 @@
         "index": {
           "description": "Convert match rule into the textual format accepted by the bus",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "formatMatchRule",
           "normalized": "MatchRule-\u003eString",
@@ -900,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest that the bus forward signals matching the given rule to this\n client, and process them in a callback.\n\u003c/p\u003e\u003cp\u003eA received signal might be processed by more than one callback at a time.\n Callbacks each run in their own thread.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if the match rule couldn't be added to the bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "listen",
           "package": "dbus",
@@ -910,6 +985,7 @@
         "index": {
           "description": "Request that the bus forward signals matching the given rule to this client and process them in callback received signal might be processed by more than one callback at time Callbacks each run in their own thread Throws ClientError if the match rule couldn be added to the bus",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "listen",
           "normalized": "Client-\u003eMatchRule-\u003e(Signal-\u003eIO())-\u003eIO()",
@@ -925,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "matchAny",
           "package": "dbus",
@@ -935,6 +1012,7 @@
         "index": {
           "description": "Match any signal",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "matchAny",
           "package": "dbus",
@@ -949,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, only receives signals sent to the given bus name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "matchDestination",
           "package": "dbus",
@@ -959,6 +1038,7 @@
         "index": {
           "description": "If set only receives signals sent to the given bus name",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "matchDestination",
           "normalized": "MatchRule-\u003eMaybe BusName",
@@ -975,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, only receives signals sent with the given interface name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "matchInterface",
           "package": "dbus",
@@ -985,6 +1066,7 @@
         "index": {
           "description": "If set only receives signals sent with the given interface name",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "matchInterface",
           "normalized": "MatchRule-\u003eMaybe InterfaceName",
@@ -1001,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, only receives signals sent with the given member name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "matchMember",
           "package": "dbus",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "If set only receives signals sent with the given member name",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "matchMember",
           "normalized": "MatchRule-\u003eMaybe MemberName",
@@ -1027,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, only receives signals sent with the given path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "matchPath",
           "package": "dbus",
@@ -1037,6 +1122,7 @@
         "index": {
           "description": "If set only receives signals sent with the given path",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "matchPath",
           "normalized": "MatchRule-\u003eMaybe ObjectPath",
@@ -1053,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, only receives signals sent from the given bus name.\n\u003c/p\u003e\u003cp\u003eThe standard D-Bus implementation from \u003ca\u003ehttp://dbus.freedesktop.org/\u003c/a\u003e\n almost always sets signal senders to the unique name of the sending\n client. If \u003ccode\u003e\u003ca\u003ematchSender\u003c/a\u003e\u003c/code\u003e is a requested name like\n \u003ccode\u003e\"com.example.Foo\"\u003c/code\u003e, it will not match any signals.\n\u003c/p\u003e\u003cp\u003eThe exception is for signals sent by the bus itself, which always\n have a sender of \u003ccode\u003e\"org.freedesktop.DBus\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "matchSender",
           "package": "dbus",
@@ -1063,6 +1150,7 @@
         "index": {
           "description": "If set only receives signals sent from the given bus name The standard D-Bus implementation from http dbus.freedesktop.org almost always sets signal senders to the unique name of the sending client If matchSender is requested name like com.example.Foo it will not match any signals The exception is for signals sent by the bus itself which always have sender of org.freedesktop.DBus",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "matchSender",
           "normalized": "MatchRule-\u003eMaybe BusName",
@@ -1079,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a method handler, which will accept method calls with the given\n interface and member name.\n\u003c/p\u003e\u003cp\u003eNote that the input and output parameter signatures are used for\n introspection, but are not checked when executing a method.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eautoMethod\u003c/a\u003e\u003c/code\u003e for an easier way to export functions with simple\n parameter and return types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "method",
           "package": "dbus",
@@ -1088,6 +1177,7 @@
         "index": {
           "description": "Define method handler which will accept method calls with the given interface and member name Note that the input and output parameter signatures are used for introspection but are not checked when executing method See autoMethod for an easier way to export functions with simple parameter and return types",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "method",
           "normalized": "InterfaceName-\u003eMemberName-\u003eSignature-\u003eSignature-\u003e(MethodCall-\u003eIO Reply)-\u003eMethod",
@@ -1103,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow this client's reservation to be replaced, if another client\n requests it with the \u003ccode\u003e\u003ca\u003enameReplaceExisting\u003c/a\u003e\u003c/code\u003e flag.\n\u003c/p\u003e\u003cp\u003eIf this client's reservation is replaced, this client will be added to the\n wait queue unless the request also included the \u003ccode\u003e\u003ca\u003enameDoNotQueue\u003c/a\u003e\u003c/code\u003e flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "nameAllowReplacement",
           "package": "dbus",
@@ -1113,6 +1204,7 @@
         "index": {
           "description": "Allow this client reservation to be replaced if another client requests it with the nameReplaceExisting flag If this client reservation is replaced this client will be added to the wait queue unless the request also included the nameDoNotQueue flag",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "nameAllowReplacement",
           "package": "dbus",
@@ -1127,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the name is already in use, do not add this client to the queue, just\n return an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "nameDoNotQueue",
           "package": "dbus",
@@ -1137,6 +1230,7 @@
         "index": {
           "description": "If the name is already in use do not add this client to the queue just return an error",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "nameDoNotQueue",
           "package": "dbus",
@@ -1151,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the name being requested is already reserved, attempt to replace it.\n This only works if the current owner provided the \u003ccode\u003e\u003ca\u003enameAllowReplacement\u003c/a\u003e\u003c/code\u003e\n flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "nameReplaceExisting",
           "package": "dbus",
@@ -1161,6 +1256,7 @@
         "index": {
           "description": "If the name being requested is already reserved attempt to replace it This only works if the current owner provided the nameAllowReplacement flag",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "nameReplaceExisting",
           "package": "dbus",
@@ -1175,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelease a name that this client previously requested. See \u003ccode\u003e\u003ca\u003erequestName\u003c/a\u003e\u003c/code\u003e\n for an explanation of name reservation.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if the call failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "releaseName",
           "package": "dbus",
@@ -1185,6 +1282,7 @@
         "index": {
           "description": "Release name that this client previously requested See requestName for an explanation of name reservation Throws ClientError if the call failed",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "releaseName",
           "normalized": "Client-\u003eBusName-\u003eIO ReleaseNameReply",
@@ -1201,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReply to a method call with an error, containing the given error name and\n body.\n\u003c/p\u003e\u003cp\u003eTypically, the first item of the error body is a string with a message\n describing the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "replyError",
           "package": "dbus",
@@ -1211,6 +1310,7 @@
         "index": {
           "description": "Reply to method call with an error containing the given error name and body Typically the first item of the error body is string with message describing the error",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "replyError",
           "normalized": "ErrorName-\u003e[Variant]-\u003eReply",
@@ -1227,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReply to a method call with a successful return, containing the given body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "replyReturn",
           "package": "dbus",
@@ -1237,6 +1338,7 @@
         "index": {
           "description": "Reply to method call with successful return containing the given body",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "replyReturn",
           "normalized": "[Variant]-\u003eReply",
@@ -1253,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsks the message bus to assign the given name to this client. The bus\n maintains a queue of possible owners, where the head of the queue is the\n current (\"primary\") owner.\n\u003c/p\u003e\u003cp\u003eThere are several uses for name reservation:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Clients which export methods reserve a name so users and applications\n   can send them messages. For example, the GNOME Keyring reserves the name\n   \u003ccode\u003e\"org.gnome.keyring\"\u003c/code\u003e on the user's session bus, and NetworkManager\n   reserves \u003ccode\u003e\"org.freedesktop.NetworkManager\"\u003c/code\u003e on the system bus.\n\u003c/li\u003e\u003cli\u003e When there are multiple implementations of a particular service, the\n   service standard will ususally include a generic bus name for the\n   service. This allows other clients to avoid depending on any particular\n   implementation's name. For example, both the GNOME Keyring and KDE\n   KWallet services request the \u003ccode\u003e\"org.freedesktop.secrets\"\u003c/code\u003e name on the\n   user's session bus.\n\u003c/li\u003e\u003cli\u003e A process with \"single instance\" behavior can use name assignment to\n   check whether the instance is already running, and invoke some method\n   on it (e.g. opening a new window).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eClientError\u003c/a\u003e\u003c/code\u003e if the call failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "requestName",
           "package": "dbus",
@@ -1263,6 +1366,7 @@
         "index": {
           "description": "Asks the message bus to assign the given name to this client The bus maintains queue of possible owners where the head of the queue is the current primary owner There are several uses for name reservation Clients which export methods reserve name so users and applications can send them messages For example the GNOME Keyring reserves the name org.gnome.keyring on the user session bus and NetworkManager reserves org.freedesktop.NetworkManager on the system bus When there are multiple implementations of particular service the service standard will ususally include generic bus name for the service This allows other clients to avoid depending on any particular implementation name For example both the GNOME Keyring and KDE KWallet services request the org.freedesktop.secrets name on the user session bus process with single instance behavior can use name assignment to check whether the instance is already running and invoke some method on it e.g opening new window Throws ClientError if the call failed",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "requestName",
           "normalized": "Client-\u003eBusName-\u003e[RequestNameFlag]-\u003eIO RequestNameReply",
@@ -1279,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormally, any exceptions raised while executing a method will be\n given the generic \u003ccode\u003e\"org.freedesktop.DBus.Error.Failed\"\u003c/code\u003e name.\n \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e allows the programmer to specify an error name, and provide\n additional information to the remote application. You may use this instead\n of \u003ccode\u003e\u003ca\u003ethrowIO\u003c/a\u003e\u003c/code\u003e to abort a method call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Client",
           "name": "throwError",
           "package": "dbus",
@@ -1288,6 +1393,7 @@
         "index": {
           "description": "Normally any exceptions raised while executing method will be given the generic org.freedesktop.DBus.Error.Failed name throwError allows the programmer to specify an error name and provide additional information to the remote application You may use this instead of throwIO to abort method call",
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Client",
           "name": "throwError",
           "normalized": "ErrorName-\u003eString-\u003e[Variant]-\u003eIO a",
@@ -1303,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Introspection",
           "package": "dbus",
@@ -1311,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "Introspection",
           "package": "dbus",
@@ -1324,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Direction",
           "package": "dbus",
@@ -1332,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "Direction",
           "package": "dbus",
@@ -1345,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Interface",
           "package": "dbus",
@@ -1353,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "Interface",
           "package": "dbus",
@@ -1366,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Method",
           "package": "dbus",
@@ -1374,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "Method",
           "package": "dbus",
@@ -1387,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "MethodArg",
           "package": "dbus",
@@ -1395,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "MethodArg",
           "package": "dbus",
@@ -1408,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Object",
           "package": "dbus",
@@ -1416,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "Object",
           "package": "dbus",
@@ -1429,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Property",
           "package": "dbus",
@@ -1437,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "Property",
           "package": "dbus",
@@ -1450,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Signal",
           "package": "dbus",
@@ -1458,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "Signal",
           "package": "dbus",
@@ -1471,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "SignalArg",
           "package": "dbus",
@@ -1479,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "SignalArg",
           "package": "dbus",
@@ -1492,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "directionIn",
           "package": "dbus",
@@ -1501,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "directionIn",
           "package": "dbus",
@@ -1514,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "directionOut",
           "package": "dbus",
@@ -1523,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "directionOut",
           "package": "dbus",
@@ -1536,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "formatXML",
           "package": "dbus",
@@ -1545,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "formatXML",
           "normalized": "Object-\u003eMaybe String",
@@ -1560,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "interface",
           "package": "dbus",
@@ -1569,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "interface",
           "normalized": "InterfaceName-\u003eInterface",
@@ -1583,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "interfaceMethods",
           "package": "dbus",
@@ -1592,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "interfaceMethods",
           "normalized": "Interface-\u003e[Method]",
@@ -1607,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "interfaceName",
           "package": "dbus",
@@ -1616,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "interfaceName",
           "normalized": "Interface-\u003eInterfaceName",
@@ -1631,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "interfaceProperties",
           "package": "dbus",
@@ -1640,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "interfaceProperties",
           "normalized": "Interface-\u003e[Property]",
@@ -1655,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "interfaceSignals",
           "package": "dbus",
@@ -1664,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "interfaceSignals",
           "normalized": "Interface-\u003e[Signal]",
@@ -1679,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "method",
           "package": "dbus",
@@ -1688,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "method",
           "normalized": "MemberName-\u003eMethod",
@@ -1702,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "methodArg",
           "package": "dbus",
@@ -1711,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "methodArg",
           "normalized": "String-\u003eType-\u003eDirection-\u003eMethodArg",
@@ -1726,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "methodArgDirection",
           "package": "dbus",
@@ -1735,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "methodArgDirection",
           "normalized": "MethodArg-\u003eDirection",
@@ -1750,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "methodArgName",
           "package": "dbus",
@@ -1759,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "methodArgName",
           "normalized": "MethodArg-\u003eString",
@@ -1774,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "methodArgType",
           "package": "dbus",
@@ -1783,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "methodArgType",
           "normalized": "MethodArg-\u003eType",
@@ -1798,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "methodArgs",
           "package": "dbus",
@@ -1807,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "methodArgs",
           "normalized": "Method-\u003e[MethodArg]",
@@ -1822,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "methodName",
           "package": "dbus",
@@ -1831,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "methodName",
           "normalized": "Method-\u003eMemberName",
@@ -1846,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "object",
           "package": "dbus",
@@ -1855,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "object",
           "normalized": "ObjectPath-\u003eObject",
@@ -1869,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "objectChildren",
           "package": "dbus",
@@ -1878,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "objectChildren",
           "normalized": "Object-\u003e[Object]",
@@ -1893,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "objectInterfaces",
           "package": "dbus",
@@ -1902,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "objectInterfaces",
           "normalized": "Object-\u003e[Interface]",
@@ -1917,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "objectPath",
           "package": "dbus",
@@ -1926,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "objectPath",
           "normalized": "Object-\u003eObjectPath",
@@ -1941,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "parseXML",
           "package": "dbus",
@@ -1950,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "parseXML",
           "normalized": "ObjectPath-\u003eString-\u003eMaybe Object",
@@ -1965,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "property",
           "package": "dbus",
@@ -1974,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "property",
           "normalized": "String-\u003eType-\u003eProperty",
@@ -1988,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "propertyName",
           "package": "dbus",
@@ -1997,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "propertyName",
           "normalized": "Property-\u003eString",
@@ -2012,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "propertyRead",
           "package": "dbus",
@@ -2021,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "propertyRead",
           "normalized": "Property-\u003eBool",
@@ -2036,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "propertyType",
           "package": "dbus",
@@ -2045,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "propertyType",
           "normalized": "Property-\u003eType",
@@ -2060,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "propertyWrite",
           "package": "dbus",
@@ -2069,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "propertyWrite",
           "normalized": "Property-\u003eBool",
@@ -2084,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "signal",
           "package": "dbus",
@@ -2093,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "signal",
           "normalized": "MemberName-\u003eSignal",
@@ -2107,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "signalArg",
           "package": "dbus",
@@ -2116,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "signalArg",
           "normalized": "String-\u003eType-\u003eSignalArg",
@@ -2131,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "signalArgName",
           "package": "dbus",
@@ -2140,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "signalArgName",
           "normalized": "SignalArg-\u003eString",
@@ -2155,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "signalArgType",
           "package": "dbus",
@@ -2164,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "signalArgType",
           "normalized": "SignalArg-\u003eType",
@@ -2179,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "signalArgs",
           "package": "dbus",
@@ -2188,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "signalArgs",
           "normalized": "Signal-\u003e[SignalArg]",
@@ -2203,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Introspection",
           "name": "signalName",
           "package": "dbus",
@@ -2212,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Introspection",
           "name": "signalName",
           "normalized": "Signal-\u003eMemberName",
@@ -2228,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eD-Bus sockets are used for communication between two peers. In this model,\n there is no \"bus\" or \"client\", simply two endpoints sending messages.\n\u003c/p\u003e\u003cp\u003eMost users will want to use the \u003ca\u003eDBus.Client\u003c/a\u003e module instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "Socket",
           "package": "dbus",
@@ -2237,6 +2424,7 @@
         "index": {
           "description": "D-Bus sockets are used for communication between two peers In this model there is no bus or client simply two endpoints sending messages Most users will want to use the DBus.Client module instead",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "Socket",
           "package": "dbus",
@@ -2251,6 +2439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Authenticator defines how the local peer (client) authenticates\n itself to the remote peer (server).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "Authenticator",
           "package": "dbus",
@@ -2260,6 +2449,7 @@
         "index": {
           "description": "An Authenticator defines how the local peer client authenticates itself to the remote peer server",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "Authenticator",
           "package": "dbus",
@@ -2274,6 +2464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn open socket to another process. Messages can be sent to the remote\n peer using \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e, or received using \u003ccode\u003e\u003ca\u003ereceive\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "Socket",
           "package": "dbus",
@@ -2283,6 +2474,7 @@
         "index": {
           "description": "An open socket to another process Messages can be sent to the remote peer using send or received using receive",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "Socket",
           "package": "dbus",
@@ -2297,6 +2489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores information about an error encountered while creating or using a\n \u003ccode\u003e\u003ca\u003eSocket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "SocketError",
           "package": "dbus",
@@ -2306,6 +2499,7 @@
         "index": {
           "description": "Stores information about an error encountered while creating or using Socket",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "SocketError",
           "package": "dbus",
@@ -2319,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "SocketListener",
           "package": "dbus",
@@ -2327,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "SocketListener",
           "package": "dbus",
@@ -2341,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed with \u003ccode\u003e\u003ca\u003eopenWith\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elistenWith\u003c/a\u003e\u003c/code\u003e to provide custom authenticators or\n transport options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "SocketOptions",
           "package": "dbus",
@@ -2350,6 +2547,7 @@
         "index": {
           "description": "Used with openWith and listenWith to provide custom authenticators or transport options",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "SocketOptions",
           "package": "dbus",
@@ -2364,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept a new connection from a socket listener.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eSocketError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "accept",
           "package": "dbus",
@@ -2374,6 +2573,7 @@
         "index": {
           "description": "Accept new connection from socket listener Throws SocketError on failure",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "accept",
           "normalized": "SocketListener-\u003eIO Socket",
@@ -2389,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty authenticator. Use \u003ccode\u003e\u003ca\u003eauthenticatorClient\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eauthenticatorServer\u003c/a\u003e\u003c/code\u003e\n to control how the authentication is performed.\n\u003c/p\u003e\u003cpre\u003e\nmyAuthenticator :: Authenticator MyTransport\nmyAuthenticator = authenticator\n    { \u003ccode\u003e\u003ca\u003eauthenticatorClient\u003c/a\u003e\u003c/code\u003e = clientMyAuth\n    , \u003ccode\u003e\u003ca\u003eauthenticatorServer\u003c/a\u003e\u003c/code\u003e = serverMyAuth\n    }\n\nclientMyAuth :: MyTransport -\u003e IO Bool\nserverMyAuth :: MyTransport -\u003e String -\u003e IO Bool\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "authenticator",
           "package": "dbus",
@@ -2399,6 +2600,7 @@
         "index": {
           "description": "An empty authenticator Use authenticatorClient or authenticatorServer to control how the authentication is performed myAuthenticator Authenticator MyTransport myAuthenticator authenticator authenticatorClient clientMyAuth authenticatorServer serverMyAuth clientMyAuth MyTransport IO Bool serverMyAuth MyTransport String IO Bool",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "authenticator",
           "package": "dbus",
@@ -2412,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the client-side half of an authenticator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "authenticatorClient",
           "package": "dbus",
@@ -2422,6 +2625,7 @@
         "index": {
           "description": "Defines the client-side half of an authenticator",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "authenticatorClient",
           "normalized": "Authenticator a-\u003ea-\u003eIO Bool",
@@ -2438,6 +2642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the server-side half of an authenticator. The UUID is\n allocated by the socket listener.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "authenticatorServer",
           "package": "dbus",
@@ -2448,6 +2653,7 @@
         "index": {
           "description": "Defines the server-side half of an authenticator The UUID is allocated by the socket listener",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "authenticatorServer",
           "normalized": "Authenticator a-\u003ea-\u003eUUID-\u003eIO Bool",
@@ -2464,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an open \u003ccode\u003e\u003ca\u003eSocket\u003c/a\u003e\u003c/code\u003e. Once closed, the socket is no longer valid and\n must not be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "close",
           "package": "dbus",
@@ -2474,6 +2681,7 @@
         "index": {
           "description": "Close an open Socket Once closed the socket is no longer valid and must not be used",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "close",
           "normalized": "Socket-\u003eIO()",
@@ -2489,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an open \u003ccode\u003e\u003ca\u003eSocketListener\u003c/a\u003e\u003c/code\u003e. Once closed, the listener is no longer\n valid and must not be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "closeListener",
           "package": "dbus",
@@ -2499,6 +2708,7 @@
         "index": {
           "description": "Close an open SocketListener Once closed the listener is no longer valid and must not be used",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "closeListener",
           "normalized": "SocketListener-\u003eIO()",
@@ -2515,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003e\u003ca\u003eSocketOptions\u003c/a\u003e\u003c/code\u003e, which uses the default Unix/TCP transport and\n authenticator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "defaultSocketOptions",
           "package": "dbus",
@@ -2525,6 +2736,7 @@
         "index": {
           "description": "Default SocketOptions which uses the default Unix TCP transport and authenticator",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "defaultSocketOptions",
           "package": "dbus",
@@ -2539,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin listening at the given address.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eaccept\u003c/a\u003e\u003c/code\u003e to create sockets from incoming connections.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003ecloseListener\u003c/a\u003e\u003c/code\u003e to stop listening, and to free underlying transport\n resources such as file descriptors.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eSocketError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "listen",
           "package": "dbus",
@@ -2549,6 +2762,7 @@
         "index": {
           "description": "Begin listening at the given address Use accept to create sockets from incoming connections Use closeListener to stop listening and to free underlying transport resources such as file descriptors Throws SocketError on failure",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "listen",
           "normalized": "Address-\u003eIO SocketListener",
@@ -2564,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin listening at the given address.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eaccept\u003c/a\u003e\u003c/code\u003e to create sockets from incoming connections.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003ecloseListener\u003c/a\u003e\u003c/code\u003e to stop listening, and to free underlying transport\n resources such as file descriptors.\n\u003c/p\u003e\u003cp\u003eThis function is for users who need to define custom authenticators\n or transports.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eSocketError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "listenWith",
           "package": "dbus",
@@ -2574,6 +2789,7 @@
         "index": {
           "description": "Begin listening at the given address Use accept to create sockets from incoming connections Use closeListener to stop listening and to free underlying transport resources such as file descriptors This function is for users who need to define custom authenticators or transports Throws SocketError on failure",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "listenWith",
           "normalized": "SocketOptions a-\u003eAddress-\u003eIO SocketListener",
@@ -2590,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a socket to a remote peer listening at the given address.\n\u003c/p\u003e\u003cpre\u003e\nopen = \u003ccode\u003e\u003ca\u003eopenWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultSocketOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eSocketError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "open",
           "package": "dbus",
@@ -2600,6 +2817,7 @@
         "index": {
           "description": "Open socket to remote peer listening at the given address open openWith defaultSocketOptions Throws SocketError on failure",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "open",
           "normalized": "Address-\u003eIO Socket",
@@ -2615,6 +2833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a socket to a remote peer listening at the given address.\n\u003c/p\u003e\u003cp\u003eMost users should use \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e. This function is for users who need to define\n custom authenticators or transports.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eSocketError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "openWith",
           "package": "dbus",
@@ -2625,6 +2844,7 @@
         "index": {
           "description": "Open socket to remote peer listening at the given address Most users should use open This function is for users who need to define custom authenticators or transports Throws SocketError on failure",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "openWith",
           "normalized": "SocketOptions a-\u003eAddress-\u003eIO Socket",
@@ -2641,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive the next message from the socket , blocking until one is available.\n\u003c/p\u003e\u003cp\u003eSockets are thread-safe. Only one message may be received at a time; if\n multiple threads attempt to receive messages concurrently, one will block\n until after the other has finished.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eSocketError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "receive",
           "package": "dbus",
@@ -2651,6 +2872,7 @@
         "index": {
           "description": "Receive the next message from the socket blocking until one is available Sockets are thread-safe Only one message may be received at time if multiple threads attempt to receive messages concurrently one will block until after the other has finished Throws SocketError on failure",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "receive",
           "normalized": "Socket-\u003eIO ReceivedMessage",
@@ -2666,6 +2888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a single message, with a generated \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003e. The second parameter\n exists to prevent race conditions when registering a reply handler; it\n receives the serial the message \u003cem\u003ewill\u003c/em\u003e be sent with, before it's\n actually sent.\n\u003c/p\u003e\u003cp\u003eSockets are thread-safe. Only one message may be sent at a time; if\n multiple threads attempt to send messages concurrently, one will block\n until after the other has finished.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eSocketError\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "send",
           "package": "dbus",
@@ -2676,6 +2899,7 @@
         "index": {
           "description": "Send single message with generated Serial The second parameter exists to prevent race conditions when registering reply handler it receives the serial the message will be sent with before it actually sent Sockets are thread-safe Only one message may be sent at time if multiple threads attempt to send messages concurrently one will block until after the other has finished Throws SocketError on failure",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "send",
           "normalized": "Socket-\u003ea-\u003e(Serial-\u003eIO b)-\u003eIO b",
@@ -2691,6 +2915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to perform authentication with the remote peer. After a\n transport has been opened, it will be passed to the authenticator.\n If the authenticator returns true, then the socket was\n authenticated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "socketAuthenticator",
           "package": "dbus",
@@ -2701,6 +2926,7 @@
         "index": {
           "description": "Used to perform authentication with the remote peer After transport has been opened it will be passed to the authenticator If the authenticator returns true then the socket was authenticated",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "socketAuthenticator",
           "normalized": "SocketOptions a-\u003eAuthenticator a",
@@ -2716,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "socketError",
           "package": "dbus",
@@ -2725,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "socketError",
           "normalized": "String-\u003eSocketError",
@@ -2740,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "socketErrorAddress",
           "package": "dbus",
@@ -2749,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "socketErrorAddress",
           "normalized": "SocketError-\u003eMaybe Address",
@@ -2764,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "socketErrorFatal",
           "package": "dbus",
@@ -2773,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "socketErrorFatal",
           "normalized": "SocketError-\u003eBool",
@@ -2788,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "socketErrorMessage",
           "package": "dbus",
@@ -2797,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "socketErrorMessage",
           "normalized": "SocketError-\u003eString",
@@ -2813,6 +3047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the address to use to connect to a listener.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "socketListenerAddress",
           "package": "dbus",
@@ -2823,6 +3058,7 @@
         "index": {
           "description": "Get the address to use to connect to listener",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "socketListenerAddress",
           "normalized": "SocketListener-\u003eAddress",
@@ -2839,6 +3075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for the underlying transport, to be used by custom transports\n for controlling how to connect to the remote peer.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eDBus.Transport\u003c/a\u003e for details on defining custom transports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Socket",
           "name": "socketTransportOptions",
           "package": "dbus",
@@ -2849,6 +3086,7 @@
         "index": {
           "description": "Options for the underlying transport to be used by custom transports for controlling how to connect to the remote peer See DBus.Transport for details on defining custom transports",
           "hierarchy": "DBus Socket",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Socket",
           "name": "socketTransportOptions",
           "normalized": "SocketOptions a-\u003eTransportOptions a",
@@ -2865,6 +3103,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for defining custom transport mechanisms. Most users will not\n need to care about the types defined in this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "Transport",
           "package": "dbus",
@@ -2874,6 +3113,7 @@
         "index": {
           "description": "Support for defining custom transport mechanisms Most users will not need to care about the types defined in this module",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "Transport",
           "package": "dbus",
@@ -2888,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupports connecting over Unix or TCP sockets.\n\u003c/p\u003e\u003cp\u003eUnix sockets are similar to pipes, but exist as special files in the\n filesystem. On Linux, \u003cem\u003eabstract sockets\u003c/em\u003e have a path-like address, but do\n not actually have entries in the filesystem.\n\u003c/p\u003e\u003cp\u003eTCP sockets may use either IPv4 or IPv6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "SocketTransport",
           "package": "dbus",
@@ -2897,6 +3138,7 @@
         "index": {
           "description": "Supports connecting over Unix or TCP sockets Unix sockets are similar to pipes but exist as special files in the filesystem On Linux abstract sockets have path-like address but do not actually have entries in the filesystem TCP sockets may use either IPv4 or IPv6",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "SocketTransport",
           "package": "dbus",
@@ -2911,6 +3153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTransport\u003c/a\u003e\u003c/code\u003e can exchange bytes with a remote peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "Transport",
           "package": "dbus",
@@ -2920,6 +3163,7 @@
         "index": {
           "description": "Transport can exchange bytes with remote peer",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "Transport",
           "package": "dbus",
@@ -2934,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown from transport methods when an error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "TransportError",
           "package": "dbus",
@@ -2943,6 +3188,7 @@
         "index": {
           "description": "Thrown from transport methods when an error occurs",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "TransportError",
           "package": "dbus",
@@ -2957,6 +3203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTransport\u003c/a\u003e\u003c/code\u003e which can listen for and accept connections from remote\n peers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "TransportListen",
           "package": "dbus",
@@ -2966,6 +3213,7 @@
         "index": {
           "description": "Transport which can listen for and accept connections from remote peers",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "TransportListen",
           "package": "dbus",
@@ -2980,6 +3228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTransport\u003c/a\u003e\u003c/code\u003e which can open a connection to a remote peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "TransportOpen",
           "package": "dbus",
@@ -2989,6 +3238,7 @@
         "index": {
           "description": "Transport which can open connection to remote peer",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "TransportOpen",
           "package": "dbus",
@@ -3003,6 +3253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the processID, userID, and groupID of the socket's peer.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003egetPeerCred\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "socketTransportCredentials",
           "package": "dbus",
@@ -3013,6 +3264,7 @@
         "index": {
           "description": "Returns the processID userID and groupID of the socket peer See getPeerCred",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "socketTransportCredentials",
           "normalized": "SocketTransport-\u003eIO(CUInt,CUInt,CUInt)",
@@ -3028,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "socketTransportOptionBacklog",
           "package": "dbus",
@@ -3037,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "socketTransportOptionBacklog",
           "normalized": "TransportOptions SocketTransport-\u003eInt",
@@ -3053,6 +3307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept a new connection.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eTransportError\u003c/a\u003e\u003c/code\u003e if some error happens before the\n transport is ready to exchange bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportAccept",
           "package": "dbus",
@@ -3063,6 +3318,7 @@
         "index": {
           "description": "Accept new connection Throws TransportError if some error happens before the transport is ready to exchange bytes",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportAccept",
           "normalized": "TransportListener a-\u003eIO a",
@@ -3079,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an open transport, and release any associated resources\n or handles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportClose",
           "package": "dbus",
@@ -3089,6 +3346,7 @@
         "index": {
           "description": "Close an open transport and release any associated resources or handles",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportClose",
           "normalized": "a-\u003eIO()",
@@ -3105,6 +3363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault values for this transport's options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportDefaultOptions",
           "package": "dbus",
@@ -3115,6 +3374,7 @@
         "index": {
           "description": "Default values for this transport options",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportDefaultOptions",
           "package": "dbus",
@@ -3128,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportError",
           "package": "dbus",
@@ -3137,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportError",
           "normalized": "String-\u003eTransportError",
@@ -3152,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportErrorAddress",
           "package": "dbus",
@@ -3161,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportErrorAddress",
           "normalized": "TransportError-\u003eMaybe Address",
@@ -3176,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportErrorMessage",
           "package": "dbus",
@@ -3185,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportErrorMessage",
           "normalized": "TransportError-\u003eString",
@@ -3201,6 +3467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e of the given size from the transport. The\n transport should block until sufficient bytes are available, and\n only return fewer than the requested amount if there will not be\n any more data.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eTransportError\u003c/a\u003e\u003c/code\u003e if an error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportGet",
           "package": "dbus",
@@ -3211,6 +3478,7 @@
         "index": {
           "description": "Receive ByteString of the given size from the transport The transport should block until sufficient bytes are available and only return fewer than the requested amount if there will not be any more data Throws TransportError if an error occurs",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportGet",
           "normalized": "a-\u003eInt-\u003eIO ByteString",
@@ -3227,6 +3495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin listening for connections on the given address, using the\n given options.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eTransportError\u003c/a\u003e\u003c/code\u003e if it's not possible to listen at that\n address (for example, if the port is already in use).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportListen",
           "package": "dbus",
@@ -3237,6 +3506,7 @@
         "index": {
           "description": "Begin listening for connections on the given address using the given options Throws TransportError if it not possible to listen at that address for example if the port is already in use",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportListen",
           "normalized": "TransportOptions a-\u003eAddress-\u003eIO(TransportListener a)",
@@ -3253,6 +3523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the address to use to connect to a listener.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportListenerAddress",
           "package": "dbus",
@@ -3263,6 +3534,7 @@
         "index": {
           "description": "Get the address to use to connect to listener",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportListenerAddress",
           "normalized": "TransportListener a-\u003eAddress",
@@ -3279,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an open listener.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportListenerClose",
           "package": "dbus",
@@ -3289,6 +3562,7 @@
         "index": {
           "description": "Close an open listener",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportListenerClose",
           "normalized": "TransportListener a-\u003eIO()",
@@ -3305,6 +3579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the UUID allocated to this transport listener.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003erandomUUID\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportListenerUUID",
           "package": "dbus",
@@ -3315,6 +3590,7 @@
         "index": {
           "description": "Get the UUID allocated to this transport listener See randomUUID",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportListenerUUID",
           "normalized": "TransportListener a-\u003eUUID",
@@ -3331,6 +3607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a connection to the given address, using the given options.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eTransportError\u003c/a\u003e\u003c/code\u003e if the connection could not be\n established.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportOpen",
           "package": "dbus",
@@ -3341,6 +3618,7 @@
         "index": {
           "description": "Open connection to the given address using the given options Throws TransportError if the connection could not be established",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportOpen",
           "normalized": "TransportOptions a-\u003eAddress-\u003eIO a",
@@ -3357,6 +3635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e over the transport.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eTransportError\u003c/a\u003e\u003c/code\u003e if an error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus.Transport",
           "name": "transportPut",
           "package": "dbus",
@@ -3367,6 +3646,7 @@
         "index": {
           "description": "Send ByteString over the transport Throws TransportError if an error occurs",
           "hierarchy": "DBus Transport",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus.Transport",
           "name": "transportPut",
           "normalized": "a-\u003eByteString-\u003eIO()",
@@ -3383,6 +3663,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types, useful to every D-Bus application.\n\u003c/p\u003e\u003cp\u003eAuthors of client applications should import \u003ca\u003eDBus.Client\u003c/a\u003e, which provides\n an easy RPC-oriented interface to D-Bus methods and signals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "DBus",
           "package": "dbus",
@@ -3392,6 +3673,7 @@
         "index": {
           "description": "Basic types useful to every D-Bus application Authors of client applications should import DBus.Client which provides an easy RPC-oriented interface to D-Bus methods and signals",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "DBus",
           "package": "dbus",
@@ -3406,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a D-Bus server must listen for connections, or a client must connect\n to a server, the listening socket's configuration is specified with an\n \u003cem\u003eaddress\u003c/em\u003e. An address contains the \u003cem\u003emethod\u003c/em\u003e, which determines the\n protocol and transport mechanism, and \u003cem\u003eparameters\u003c/em\u003e, which provide\n additional method-specific information about the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Address",
           "package": "dbus",
@@ -3415,6 +3698,7 @@
         "index": {
           "description": "When D-Bus server must listen for connections or client must connect to server the listening socket configuration is specified with an address An address contains the method which determines the protocol and transport mechanism and parameters which provide additional method-specific information about the address",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Address",
           "package": "dbus",
@@ -3429,6 +3713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA D-Bus Array is a container type similar to Haskell lists, storing\n zero or more values of a single D-Bus type.\n\u003c/p\u003e\u003cp\u003eMost users can use the \u003ccode\u003e\u003ca\u003eIsVariant\u003c/a\u003e\u003c/code\u003e instance for lists or vectors to extract\n the values of an array. This type is for advanced use cases, where the user\n wants to convert array values to Haskell types that are not instances of\n \u003ccode\u003e\u003ca\u003eIsValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Array",
           "package": "dbus",
@@ -3438,6 +3723,7 @@
         "index": {
           "description": "D-Bus Array is container type similar to Haskell lists storing zero or more values of single D-Bus type Most users can use the IsVariant instance for lists or vectors to extract the values of an array This type is for advanced use cases where the user wants to convert array values to Haskell types that are not instances of IsValue",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Array",
           "package": "dbus",
@@ -3452,6 +3738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBus names are used to identify particular clients on the message bus.\n A bus name may be either \u003cem\u003eunique\u003c/em\u003e or \u003cem\u003ewell-known\u003c/em\u003e, where unique names\n start with a colon. Bus names consist of alphanumeric characters separated\n by periods.\n\u003c/p\u003e\u003cp\u003eSee\n \u003ca\u003ehttp://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-names-bus\u003c/a\u003e\n for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "BusName",
           "package": "dbus",
@@ -3461,6 +3748,7 @@
         "index": {
           "description": "Bus names are used to identify particular clients on the message bus bus name may be either unique or well-known where unique names start with colon Bus names consist of alphanumeric characters separated by periods See http dbus.freedesktop.org doc dbus-specification.html message-protocol-names-bus for details",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "BusName",
           "package": "dbus",
@@ -3475,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA D-Bus Dictionary is a container type similar to Haskell maps, storing\n zero or more associations between keys and values.\n\u003c/p\u003e\u003cp\u003eMost users can use the \u003ccode\u003e\u003ca\u003eIsVariant\u003c/a\u003e\u003c/code\u003e instance for maps to extract the values\n of a dictionary. This type is for advanced use cases, where the user\n wants to convert dictionary items to Haskell types that are not instances\n of \u003ccode\u003e\u003ca\u003eIsValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Dictionary",
           "package": "dbus",
@@ -3484,6 +3773,7 @@
         "index": {
           "description": "D-Bus Dictionary is container type similar to Haskell maps storing zero or more associations between keys and values Most users can use the IsVariant instance for maps to extract the values of dictionary This type is for advanced use cases where the user wants to convert dictionary items to Haskell types that are not instances of IsValue",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Dictionary",
           "package": "dbus",
@@ -3497,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Endianness",
           "package": "dbus",
@@ -3505,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Endianness",
           "package": "dbus",
@@ -3519,6 +3811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError names are used to identify which type of error was returned from\n a method call. Error names consist of alphanumeric characters\n separated by periods.\n\u003c/p\u003e\u003cp\u003eSee\n \u003ca\u003ehttp://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-names-error\u003c/a\u003e\n for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "ErrorName",
           "package": "dbus",
@@ -3528,6 +3821,7 @@
         "index": {
           "description": "Error names are used to identify which type of error was returned from method call Error names consist of alphanumeric characters separated by periods See http dbus.freedesktop.org doc dbus-specification.html message-protocol-names-error for details",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "ErrorName",
           "package": "dbus",
@@ -3542,6 +3836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterfaces are used to group a set of methods and signals within an\n exported object. Interface names consist of alphanumeric characters\n separated by periods.\n\u003c/p\u003e\u003cp\u003eSee\n \u003ca\u003ehttp://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-names-interface\u003c/a\u003e\n for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "InterfaceName",
           "package": "dbus",
@@ -3551,6 +3846,7 @@
         "index": {
           "description": "Interfaces are used to group set of methods and signals within an exported object Interface names consist of alphanumeric characters separated by periods See http dbus.freedesktop.org doc dbus-specification.html message-protocol-names-interface for details",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "InterfaceName",
           "package": "dbus",
@@ -3565,6 +3861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic types can be used as keys to dictionaries.\n\u003c/p\u003e\u003cp\u003eUsers may not provide new instances of \u003ccode\u003e\u003ca\u003eIsAtom\u003c/a\u003e\u003c/code\u003e because this could allow\n dictionaries to be created with invalid keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "IsAtom",
           "package": "dbus",
@@ -3574,6 +3871,7 @@
         "index": {
           "description": "Atomic types can be used as keys to dictionaries Users may not provide new instances of IsAtom because this could allow dictionaries to be created with invalid keys",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "IsAtom",
           "package": "dbus",
@@ -3588,6 +3886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue types can be used as items in containers, such as lists or\n dictionaries.\n\u003c/p\u003e\u003cp\u003eUsers may not provide new instances of \u003ccode\u003e\u003ca\u003eIsValue\u003c/a\u003e\u003c/code\u003e because this could allow\n containers to be created with items of heterogenous types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "IsValue",
           "package": "dbus",
@@ -3597,6 +3896,7 @@
         "index": {
           "description": "Value types can be used as items in containers such as lists or dictionaries Users may not provide new instances of IsValue because this could allow containers to be created with items of heterogenous types",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "IsValue",
           "package": "dbus",
@@ -3610,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "IsVariant",
           "package": "dbus",
@@ -3618,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "IsVariant",
           "package": "dbus",
@@ -3631,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "MarshalError",
           "package": "dbus",
@@ -3639,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "MarshalError",
           "package": "dbus",
@@ -3653,6 +3957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMember names are used to identify a single method or signal within an\n interface. Method names consist of alphanumeric characters.\n\u003c/p\u003e\u003cp\u003eSee\n \u003ca\u003ehttp://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-names-member\u003c/a\u003e\n for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "MemberName",
           "package": "dbus",
@@ -3662,6 +3967,7 @@
         "index": {
           "description": "Member names are used to identify single method or signal within an interface Method names consist of alphanumeric characters See http dbus.freedesktop.org doc dbus-specification.html message-protocol-names-member for details",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "MemberName",
           "package": "dbus",
@@ -3675,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Message",
           "package": "dbus",
@@ -3683,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Message",
           "package": "dbus",
@@ -3697,6 +4005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA method call is a request to run some procedure exported by the\n remote process. Procedures are identified by an (object_path,\n interface_name, method_name) tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "MethodCall",
           "package": "dbus",
@@ -3706,6 +4015,7 @@
         "index": {
           "description": "method call is request to run some procedure exported by the remote process Procedures are identified by an object path interface name method name tuple",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "MethodCall",
           "package": "dbus",
@@ -3720,6 +4030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA method error is a reply to a method call, indicating that the call\n received an error and did not succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "MethodError",
           "package": "dbus",
@@ -3729,6 +4040,7 @@
         "index": {
           "description": "method error is reply to method call indicating that the call received an error and did not succeed",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "MethodError",
           "package": "dbus",
@@ -3743,6 +4055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA method return is a reply to a method call, indicating that the call\n succeeded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "MethodReturn",
           "package": "dbus",
@@ -3752,6 +4065,7 @@
         "index": {
           "description": "method return is reply to method call indicating that the call succeeded",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "MethodReturn",
           "package": "dbus",
@@ -3766,6 +4080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject paths are special strings, used to identify a particular object\n exported from a D-Bus application.\n\u003c/p\u003e\u003cp\u003eObject paths must begin with a slash, and consist of alphanumeric\n characters separated by slashes.\n\u003c/p\u003e\u003cp\u003eSee\n \u003ca\u003ehttp://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-marshaling-object-path\u003c/a\u003e\n for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "ObjectPath",
           "package": "dbus",
@@ -3775,6 +4090,7 @@
         "index": {
           "description": "Object paths are special strings used to identify particular object exported from D-Bus application Object paths must begin with slash and consist of alphanumeric characters separated by slashes See http dbus.freedesktop.org doc dbus-specification.html message-protocol-marshaling-object-path for details",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "ObjectPath",
           "package": "dbus",
@@ -3789,6 +4105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot an actual message type, but a wrapper around messages received from\n the bus. Each value contains the message's \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf casing against these constructors, always include a default case to\n handle messages of an unknown type. New message types may be added to the\n D-Bus specification, and applications should handle them gracefully by\n either ignoring or logging them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "ReceivedMessage",
           "package": "dbus",
@@ -3798,6 +4115,7 @@
         "index": {
           "description": "Not an actual message type but wrapper around messages received from the bus Each value contains the message Serial If casing against these constructors always include default case to handle messages of an unknown type New message types may be added to the D-Bus specification and applications should handle them gracefully by either ignoring or logging them",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "ReceivedMessage",
           "package": "dbus",
@@ -3812,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value used to uniquely identify a particular message within a session.\n Serials are 32-bit unsigned integers, and eventually wrap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Serial",
           "package": "dbus",
@@ -3821,6 +4140,7 @@
         "index": {
           "description": "value used to uniquely identify particular message within session Serials are bit unsigned integers and eventually wrap",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Serial",
           "package": "dbus",
@@ -3835,6 +4155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignals are broadcast by applications to notify other clients of some\n event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Signal",
           "package": "dbus",
@@ -3844,6 +4165,7 @@
         "index": {
           "description": "Signals are broadcast by applications to notify other clients of some event",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Signal",
           "package": "dbus",
@@ -3858,6 +4180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signature is a list of D-Bus types, obeying some basic rules of\n validity.\n\u003c/p\u003e\u003cp\u003eThe rules of signature validity are complex: see\n \u003ca\u003ehttp://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-signatures\u003c/a\u003e\n for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Signature",
           "package": "dbus",
@@ -3867,6 +4190,7 @@
         "index": {
           "description": "signature is list of D-Bus types obeying some basic rules of validity The rules of signature validity are complex see http dbus.freedesktop.org doc dbus-specification.html message-protocol-signatures for details",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Signature",
           "package": "dbus",
@@ -3881,6 +4205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA D-Bus Structure is a container type similar to Haskell tuples, storing\n values of any type that is convertable to \u003ccode\u003e\u003ca\u003eIsVariant\u003c/a\u003e\u003c/code\u003e. A Structure may\n contain up to 255 values.\n\u003c/p\u003e\u003cp\u003eMost users can use the \u003ccode\u003e\u003ca\u003eIsVariant\u003c/a\u003e\u003c/code\u003e instance for tuples to extract the\n values of a structure. This type is for very large structures, which may\n be awkward to work with as tuples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Structure",
           "package": "dbus",
@@ -3890,6 +4215,7 @@
         "index": {
           "description": "D-Bus Structure is container type similar to Haskell tuples storing values of any type that is convertable to IsVariant Structure may contain up to values Most users can use the IsVariant instance for tuples to extract the values of structure This type is for very large structures which may be awkward to work with as tuples",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Structure",
           "package": "dbus",
@@ -3903,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Type",
           "package": "dbus",
@@ -3911,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Type",
           "package": "dbus",
@@ -3925,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA D-Bus UUID is 128 bits of data, usually randomly generated. They are\n used for identifying unique server instances to clients.\n\u003c/p\u003e\u003cp\u003eOlder versions of the D-Bus spec also called these values \u003cem\u003eGUIDs\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eD-Bus UUIDs are not the same as the RFC-standardized UUIDs or GUIDs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "UUID",
           "package": "dbus",
@@ -3934,6 +4263,7 @@
         "index": {
           "description": "D-Bus UUID is bits of data usually randomly generated They are used for identifying unique server instances to clients Older versions of the D-Bus spec also called these values GUIDs D-Bus UUIDs are not the same as the RFC-standardized UUIDs or GUIDs",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "UUID",
           "package": "dbus",
@@ -3947,6 +4277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "UnmarshalError",
           "package": "dbus",
@@ -3955,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "UnmarshalError",
           "package": "dbus",
@@ -3969,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariants may contain any other built-in D-Bus value. Besides\n representing native \u003ccode\u003eVARIANT\u003c/code\u003e values, they allow type-safe storage and\n inspection of D-Bus collections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "Variant",
           "package": "dbus",
@@ -3978,6 +4311,7 @@
         "index": {
           "description": "Variants may contain any other built-in D-Bus value Besides representing native VARIANT values they allow type-safe storage and inspection of D-Bus collections",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "Variant",
           "package": "dbus",
@@ -3991,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "BigEndian",
           "package": "dbus",
@@ -4000,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "BigEndian",
           "package": "dbus",
@@ -4013,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "LittleEndian",
           "package": "dbus",
@@ -4022,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "LittleEndian",
           "package": "dbus",
@@ -4035,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "ReceivedMethodCall",
           "package": "dbus",
@@ -4044,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "ReceivedMethodCall",
           "package": "dbus",
@@ -4057,6 +4397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "ReceivedMethodError",
           "package": "dbus",
@@ -4066,6 +4407,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "ReceivedMethodError",
           "package": "dbus",
@@ -4079,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "ReceivedMethodReturn",
           "package": "dbus",
@@ -4088,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "ReceivedMethodReturn",
           "package": "dbus",
@@ -4101,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "ReceivedSignal",
           "package": "dbus",
@@ -4110,6 +4455,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "ReceivedSignal",
           "package": "dbus",
@@ -4123,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeArray",
           "package": "dbus",
@@ -4132,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeArray",
           "package": "dbus",
@@ -4145,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeBoolean",
           "package": "dbus",
@@ -4154,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeBoolean",
           "package": "dbus",
@@ -4167,6 +4517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeDictionary",
           "package": "dbus",
@@ -4176,6 +4527,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeDictionary",
           "package": "dbus",
@@ -4189,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeDouble",
           "package": "dbus",
@@ -4198,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeDouble",
           "package": "dbus",
@@ -4211,6 +4565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeInt16",
           "package": "dbus",
@@ -4220,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeInt16",
           "package": "dbus",
@@ -4233,6 +4589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeInt32",
           "package": "dbus",
@@ -4242,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeInt32",
           "package": "dbus",
@@ -4255,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeInt64",
           "package": "dbus",
@@ -4264,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeInt64",
           "package": "dbus",
@@ -4277,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeObjectPath",
           "package": "dbus",
@@ -4286,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeObjectPath",
           "package": "dbus",
@@ -4299,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeSignature",
           "package": "dbus",
@@ -4308,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeSignature",
           "package": "dbus",
@@ -4321,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeString",
           "package": "dbus",
@@ -4330,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeString",
           "package": "dbus",
@@ -4343,6 +4709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeStructure",
           "package": "dbus",
@@ -4352,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeStructure",
           "normalized": "TypeStructure[Type]",
@@ -4367,6 +4735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeVariant",
           "package": "dbus",
@@ -4376,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeVariant",
           "package": "dbus",
@@ -4389,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeWord16",
           "package": "dbus",
@@ -4398,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeWord16",
           "package": "dbus",
@@ -4411,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeWord32",
           "package": "dbus",
@@ -4420,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeWord32",
           "package": "dbus",
@@ -4433,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeWord64",
           "package": "dbus",
@@ -4442,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeWord64",
           "package": "dbus",
@@ -4455,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "TypeWord8",
           "package": "dbus",
@@ -4464,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "TypeWord8",
           "package": "dbus",
@@ -4478,6 +4856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to convert a method string and parameter map to an \u003ccode\u003e\u003ca\u003eAddress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the method or parameters are invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "address",
           "package": "dbus",
@@ -4488,6 +4867,7 @@
         "index": {
           "description": "Try to convert method string and parameter map to an Address Returns Nothing if the method or parameters are invalid",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "address",
           "normalized": "String-\u003eMap String String-\u003eMaybe Address",
@@ -4502,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "addressMethod",
           "package": "dbus",
@@ -4511,6 +4892,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "addressMethod",
           "normalized": "Address-\u003eString",
@@ -4526,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "addressParameters",
           "package": "dbus",
@@ -4535,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "addressParameters",
           "normalized": "Address-\u003eMap String String",
@@ -4550,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "arrayItems",
           "package": "dbus",
@@ -4559,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "arrayItems",
           "normalized": "Array-\u003e[Variant]",
@@ -4574,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "busName_",
           "package": "dbus",
@@ -4583,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "busName_",
           "normalized": "String-\u003eBusName",
@@ -4598,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "dictionaryItems",
           "package": "dbus",
@@ -4607,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "dictionaryItems",
           "normalized": "Dictionary-\u003e[(Variant,Variant)]",
@@ -4622,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "errorName_",
           "package": "dbus",
@@ -4631,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "errorName_",
           "normalized": "String-\u003eErrorName",
@@ -4647,6 +5039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the first serial in the sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "firstSerial",
           "package": "dbus",
@@ -4657,6 +5050,7 @@
         "index": {
           "description": "Get the first serial in the sequence",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "firstSerial",
           "package": "dbus",
@@ -4671,6 +5065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an address to a string in the format expected by \u003ccode\u003e\u003ca\u003eparseAddress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatAddress",
           "package": "dbus",
@@ -4681,6 +5076,7 @@
         "index": {
           "description": "Convert an address to string in the format expected by parseAddress",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatAddress",
           "normalized": "Address-\u003eString",
@@ -4697,6 +5093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of addresses to a string in the format expected by\n \u003ccode\u003e\u003ca\u003eparseAddresses\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatAddresses",
           "package": "dbus",
@@ -4707,6 +5104,7 @@
         "index": {
           "description": "Convert list of addresses to string in the format expected by parseAddresses",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatAddresses",
           "normalized": "[Address]-\u003eString",
@@ -4722,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatBusName",
           "package": "dbus",
@@ -4731,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatBusName",
           "normalized": "BusName-\u003eString",
@@ -4746,6 +5146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatErrorName",
           "package": "dbus",
@@ -4755,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatErrorName",
           "normalized": "ErrorName-\u003eString",
@@ -4770,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatInterfaceName",
           "package": "dbus",
@@ -4779,6 +5182,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatInterfaceName",
           "normalized": "InterfaceName-\u003eString",
@@ -4794,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatMemberName",
           "package": "dbus",
@@ -4803,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatMemberName",
           "normalized": "MemberName-\u003eString",
@@ -4818,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatObjectPath",
           "package": "dbus",
@@ -4827,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatObjectPath",
           "normalized": "ObjectPath-\u003eString",
@@ -4843,6 +5251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a signature into a signature string. The inverse of\n \u003ccode\u003e\u003ca\u003eparseSignature\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatSignature",
           "package": "dbus",
@@ -4853,6 +5262,7 @@
         "index": {
           "description": "Convert signature into signature string The inverse of parseSignature",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatSignature",
           "normalized": "Signature-\u003eString",
@@ -4869,6 +5279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a D-Bus UUID as hex-encoded ASCII.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "formatUUID",
           "package": "dbus",
@@ -4879,6 +5290,7 @@
         "index": {
           "description": "Format D-Bus UUID as hex-encoded ASCII",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "formatUUID",
           "normalized": "UUID-\u003eString",
@@ -4894,6 +5306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "fromVariant",
           "package": "dbus",
@@ -4903,6 +5316,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "fromVariant",
           "normalized": "Variant-\u003eMaybe a",
@@ -4919,6 +5333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the address in the environment variable\n \u003ccode\u003eDBUS_SESSION_BUS_ADDRESS\u003c/code\u003e, which must be set.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e is unset or contains an\n invalid address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "getSessionAddress",
           "package": "dbus",
@@ -4929,6 +5344,7 @@
         "index": {
           "description": "Returns the address in the environment variable DBUS SESSION BUS ADDRESS which must be set Returns Nothing if DBUS SYSTEM BUS ADDRESS is unset or contains an invalid address",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "getSessionAddress",
           "package": "dbus",
@@ -4943,6 +5359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the address in the environment variable\n \u003ccode\u003eDBUS_STARTER_ADDRESS\u003c/code\u003e, which must be set.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003eDBUS_STARTER_ADDRESS\u003c/code\u003e is unset or contains an\n invalid address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "getStarterAddress",
           "package": "dbus",
@@ -4953,6 +5370,7 @@
         "index": {
           "description": "Returns the address in the environment variable DBUS STARTER ADDRESS which must be set Returns Nothing if DBUS STARTER ADDRESS is unset or contains an invalid address",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "getStarterAddress",
           "package": "dbus",
@@ -4967,6 +5385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the address in the environment variable\n \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e, or\n \u003ccode\u003eunix:path=/var/run/dbus/system_bus_socket\u003c/code\u003e if \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e\n is not set.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e contains an invalid address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "getSystemAddress",
           "package": "dbus",
@@ -4977,6 +5396,7 @@
         "index": {
           "description": "Returns the address in the environment variable DBUS SYSTEM BUS ADDRESS or unix path var run dbus system bus socket if DBUS SYSTEM BUS ADDRESS is not set Returns Nothing if DBUS SYSTEM BUS ADDRESS contains an invalid address",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "getSystemAddress",
           "package": "dbus",
@@ -4990,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "interfaceName_",
           "package": "dbus",
@@ -4999,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "interfaceName_",
           "normalized": "String-\u003eInterfaceName",
@@ -5015,6 +5437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. Although unusual, it is\n possible for marshaling to fail; if this occurs, an error will be\n returned instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "marshal",
           "package": "dbus",
@@ -5025,6 +5448,7 @@
         "index": {
           "description": "Convert Message into ByteString Although unusual it is possible for marshaling to fail if this occurs an error will be returned instead",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "marshal",
           "normalized": "Endianness-\u003eSerial-\u003ea-\u003eEither MarshalError ByteString",
@@ -5039,6 +5463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "marshalErrorMessage",
           "package": "dbus",
@@ -5048,6 +5473,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "marshalErrorMessage",
           "normalized": "MarshalError-\u003eString",
@@ -5063,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "memberName_",
           "package": "dbus",
@@ -5072,6 +5499,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "memberName_",
           "normalized": "String-\u003eMemberName",
@@ -5088,6 +5516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new \u003ccode\u003e\u003ca\u003eMethodCall\u003c/a\u003e\u003c/code\u003e for the given object, interface, and method.\n\u003c/p\u003e\u003cp\u003eUse fields such as \u003ccode\u003e\u003ca\u003emethodCallDestination\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emethodCallBody\u003c/a\u003e\u003c/code\u003e to populate\n a \u003ccode\u003e\u003ca\u003eMethodCall\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n{-# LANGUAGE OverloadedStrings #-}\n\nmethodCall \"/\" \"org.example.Math\" \"Add\"\n    { \u003ccode\u003e\u003ca\u003emethodCallDestination\u003c/a\u003e\u003c/code\u003e = Just \"org.example.Calculator\"\n    , \u003ccode\u003e\u003ca\u003emethodCallBody\u003c/a\u003e\u003c/code\u003e = [\u003ccode\u003e\u003ca\u003etoVariant\u003c/a\u003e\u003c/code\u003e (1 :: Int32), \u003ccode\u003e\u003ca\u003etoVariant\u003c/a\u003e\u003c/code\u003e (2 :: Int32)]\n    }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCall",
           "package": "dbus",
@@ -5098,6 +5527,7 @@
         "index": {
           "description": "Construct new MethodCall for the given object interface and method Use fields such as methodCallDestination and methodCallBody to populate MethodCall LANGUAGE OverloadedStrings methodCall org.example.Math Add methodCallDestination Just org.example.Calculator methodCallBody toVariant Int32 toVariant Int32",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCall",
           "normalized": "ObjectPath-\u003eInterfaceName-\u003eMemberName-\u003eMethodCall",
@@ -5114,6 +5544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet whether the bus should auto-start the remote\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCallAutoStart",
           "package": "dbus",
@@ -5124,6 +5555,7 @@
         "index": {
           "description": "Set whether the bus should auto-start the remote Defaults to True",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCallAutoStart",
           "normalized": "MethodCall-\u003eBool",
@@ -5140,6 +5572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments to the method call. See \u003ccode\u003e\u003ca\u003etoVariant\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCallBody",
           "package": "dbus",
@@ -5150,6 +5583,7 @@
         "index": {
           "description": "The arguments to the method call See toVariant Defaults to",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCallBody",
           "normalized": "MethodCall-\u003e[Variant]",
@@ -5166,6 +5600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the application to send the call to.\n\u003c/p\u003e\u003cp\u003eMost users should set this. If a message with no destination is\n sent to the bus, the bus will behave as if the destination was\n set to \u003ccode\u003eorg.freedesktop.DBus\u003c/code\u003e. For peer-peer connections, the\n destination can be empty because there is only one peer.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCallDestination",
           "package": "dbus",
@@ -5176,6 +5611,7 @@
         "index": {
           "description": "The name of the application to send the call to Most users should set this If message with no destination is sent to the bus the bus will behave as if the destination was set to org.freedesktop.DBus For peer-peer connections the destination can be empty because there is only one peer Defaults to Nothing",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCallDestination",
           "normalized": "MethodCall-\u003eMaybe BusName",
@@ -5192,6 +5628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface of the method call. Each object may implement any\n number of interfaces. Each method is part of at least one\n interface.\n\u003c/p\u003e\u003cp\u003eIn certain cases, this may be \u003ccode\u003eNothing\u003c/code\u003e, but most users should set\n it to a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCallInterface",
           "package": "dbus",
@@ -5202,6 +5639,7 @@
         "index": {
           "description": "The interface of the method call Each object may implement any number of interfaces Each method is part of at least one interface In certain cases this may be Nothing but most users should set it to value",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCallInterface",
           "normalized": "MethodCall-\u003eMaybe InterfaceName",
@@ -5218,6 +5656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe method name of the method call. Method names are unique within\n an interface, but might not be unique within an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCallMember",
           "package": "dbus",
@@ -5228,6 +5667,7 @@
         "index": {
           "description": "The method name of the method call Method names are unique within an interface but might not be unique within an object",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCallMember",
           "normalized": "MethodCall-\u003eMemberName",
@@ -5244,6 +5684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe object path of the method call. Conceptually, object paths\n act like a procedural language's pointers. Each object referenced\n by a path is a collection of procedures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCallPath",
           "package": "dbus",
@@ -5254,6 +5695,7 @@
         "index": {
           "description": "The object path of the method call Conceptually object paths act like procedural language pointers Each object referenced by path is collection of procedures",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCallPath",
           "normalized": "MethodCall-\u003eObjectPath",
@@ -5270,6 +5712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet whether a reply is expected. This can save network and cpu\n resources by inhibiting unnecessary replies.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCallReplyExpected",
           "package": "dbus",
@@ -5280,6 +5723,7 @@
         "index": {
           "description": "Set whether reply is expected This can save network and cpu resources by inhibiting unnecessary replies Defaults to True",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCallReplyExpected",
           "normalized": "MethodCall-\u003eBool",
@@ -5296,6 +5740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the application that sent this call.\n\u003c/p\u003e\u003cp\u003eMost users will just leave this empty, because the bus overwrites\n the sender for security reasons. Setting the sender manually is\n used for peer-peer connections.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodCallSender",
           "package": "dbus",
@@ -5306,6 +5751,7 @@
         "index": {
           "description": "The name of the application that sent this call Most users will just leave this empty because the bus overwrites the sender for security reasons Setting the sender manually is used for peer-peer connections Defaults to Nothing",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodCallSender",
           "normalized": "MethodCall-\u003eMaybe BusName",
@@ -5322,6 +5768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new \u003ccode\u003e\u003ca\u003eMethodError\u003c/a\u003e\u003c/code\u003e, in reply to a method call with the given\n serial.\n\u003c/p\u003e\u003cp\u003eUse fields such as \u003ccode\u003e\u003ca\u003emethodErrorBody\u003c/a\u003e\u003c/code\u003e to populate a \u003ccode\u003e\u003ca\u003eMethodError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodError",
           "package": "dbus",
@@ -5332,6 +5779,7 @@
         "index": {
           "description": "Construct new MethodError in reply to method call with the given serial Use fields such as methodErrorBody to populate MethodError",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodError",
           "normalized": "Serial-\u003eErrorName-\u003eMethodError",
@@ -5348,6 +5796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional information about the error. By convention, if\n the error body contains any items, the first item should be a\n string describing the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodErrorBody",
           "package": "dbus",
@@ -5358,6 +5807,7 @@
         "index": {
           "description": "Additional information about the error By convention if the error body contains any items the first item should be string describing the error",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodErrorBody",
           "normalized": "MethodError-\u003e[Variant]",
@@ -5374,6 +5824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the application that initiated the call.\n\u003c/p\u003e\u003cp\u003eMost users should set this. If a message with no destination is\n sent to the bus, the bus will behave as if the destination was\n set to \u003ccode\u003eorg.freedesktop.DBus\u003c/code\u003e. For peer-peer connections, the\n destination can be empty because there is only one peer.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodErrorDestination",
           "package": "dbus",
@@ -5384,6 +5835,7 @@
         "index": {
           "description": "The name of the application that initiated the call Most users should set this If message with no destination is sent to the bus the bus will behave as if the destination was set to org.freedesktop.DBus For peer-peer connections the destination can be empty because there is only one peer Defaults to Nothing",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodErrorDestination",
           "normalized": "MethodError-\u003eMaybe BusName",
@@ -5400,6 +5852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a human-readable description of the error, by returning the first\n item in the error body if it's a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodErrorMessage",
           "package": "dbus",
@@ -5410,6 +5863,7 @@
         "index": {
           "description": "Get human-readable description of the error by returning the first item in the error body if it string",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodErrorMessage",
           "normalized": "MethodError-\u003eString",
@@ -5426,6 +5880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the error type. Names are used so clients can\n handle certain classes of error differently from others.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodErrorName",
           "package": "dbus",
@@ -5436,6 +5891,7 @@
         "index": {
           "description": "The name of the error type Names are used so clients can handle certain classes of error differently from others",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodErrorName",
           "normalized": "MethodError-\u003eErrorName",
@@ -5452,6 +5908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the application that is returning from a call.\n\u003c/p\u003e\u003cp\u003eMost users will just leave this empty, because the bus overwrites\n the sender for security reasons. Setting the sender manually is\n used for peer-peer connections.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodErrorSender",
           "package": "dbus",
@@ -5462,6 +5919,7 @@
         "index": {
           "description": "The name of the application that is returning from call Most users will just leave this empty because the bus overwrites the sender for security reasons Setting the sender manually is used for peer-peer connections Defaults to Nothing",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodErrorSender",
           "normalized": "MethodError-\u003eMaybe BusName",
@@ -5478,6 +5936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe serial of the original method call. This lets the original\n caller match up this reply to the pending call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodErrorSerial",
           "package": "dbus",
@@ -5488,6 +5947,7 @@
         "index": {
           "description": "The serial of the original method call This lets the original caller match up this reply to the pending call",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodErrorSerial",
           "normalized": "MethodError-\u003eSerial",
@@ -5504,6 +5964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new \u003ccode\u003e\u003ca\u003eMethodReturn\u003c/a\u003e\u003c/code\u003e, in reply to a method call with the given\n serial.\n\u003c/p\u003e\u003cp\u003eUse fields such as \u003ccode\u003e\u003ca\u003emethodReturnBody\u003c/a\u003e\u003c/code\u003e to populate a \u003ccode\u003e\u003ca\u003eMethodReturn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodReturn",
           "package": "dbus",
@@ -5514,6 +5975,7 @@
         "index": {
           "description": "Construct new MethodReturn in reply to method call with the given serial Use fields such as methodReturnBody to populate MethodReturn",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodReturn",
           "normalized": "Serial-\u003eMethodReturn",
@@ -5530,6 +5992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues returned from the method call. See \u003ccode\u003e\u003ca\u003etoVariant\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodReturnBody",
           "package": "dbus",
@@ -5540,6 +6003,7 @@
         "index": {
           "description": "Values returned from the method call See toVariant Defaults to",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodReturnBody",
           "normalized": "MethodReturn-\u003e[Variant]",
@@ -5556,6 +6020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the application that initiated the call.\n\u003c/p\u003e\u003cp\u003eMost users should set this. If a message with no destination is\n sent to the bus, the bus will behave as if the destination was\n set to \u003ccode\u003eorg.freedesktop.DBus\u003c/code\u003e. For peer-peer connections, the\n destination can be empty because there is only one peer.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodReturnDestination",
           "package": "dbus",
@@ -5566,6 +6031,7 @@
         "index": {
           "description": "The name of the application that initiated the call Most users should set this If message with no destination is sent to the bus the bus will behave as if the destination was set to org.freedesktop.DBus For peer-peer connections the destination can be empty because there is only one peer Defaults to Nothing",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodReturnDestination",
           "normalized": "MethodReturn-\u003eMaybe BusName",
@@ -5582,6 +6048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the application that is returning from a call.\n\u003c/p\u003e\u003cp\u003eMost users will just leave this empty, because the bus overwrites\n the sender for security reasons. Setting the sender manually is\n used for peer-peer connections.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodReturnSender",
           "package": "dbus",
@@ -5592,6 +6059,7 @@
         "index": {
           "description": "The name of the application that is returning from call Most users will just leave this empty because the bus overwrites the sender for security reasons Setting the sender manually is used for peer-peer connections Defaults to Nothing",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodReturnSender",
           "normalized": "MethodReturn-\u003eMaybe BusName",
@@ -5608,6 +6076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe serial of the original method call. This lets the original\n caller match up this reply to the pending call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "methodReturnSerial",
           "package": "dbus",
@@ -5618,6 +6087,7 @@
         "index": {
           "description": "The serial of the original method call This lets the original caller match up this reply to the pending call",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "methodReturnSerial",
           "normalized": "MethodReturn-\u003eSerial",
@@ -5634,6 +6104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next serial in the sequence. This may wrap around to\n \u003ccode\u003e\u003ca\u003efirstSerial\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "nextSerial",
           "package": "dbus",
@@ -5644,6 +6115,7 @@
         "index": {
           "description": "Get the next serial in the sequence This may wrap around to firstSerial",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "nextSerial",
           "normalized": "Serial-\u003eSerial",
@@ -5659,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "objectPath_",
           "package": "dbus",
@@ -5668,6 +6141,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "objectPath_",
           "normalized": "String-\u003eObjectPath",
@@ -5684,6 +6158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse a string containing one valid address.\n\u003c/p\u003e\u003cp\u003eAn address string is in the format \u003ccode\u003emethod:key1=val1,key2=val2\u003c/code\u003e. There\n are some limitations on the characters allowed within methods and\n parameters; see the D-Bus specification for full details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "parseAddress",
           "package": "dbus",
@@ -5694,6 +6169,7 @@
         "index": {
           "description": "Try to parse string containing one valid address An address string is in the format method key1 val1 key2 val2 There are some limitations on the characters allowed within methods and parameters see the D-Bus specification for full details",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "parseAddress",
           "normalized": "String-\u003eMaybe Address",
@@ -5710,6 +6186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse a string containing one or more valid addresses.\n\u003c/p\u003e\u003cp\u003eAddresses are separated by semicolons. See \u003ccode\u003e\u003ca\u003eparseAddress\u003c/a\u003e\u003c/code\u003e for the format\n of addresses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "parseAddresses",
           "package": "dbus",
@@ -5720,6 +6197,7 @@
         "index": {
           "description": "Try to parse string containing one or more valid addresses Addresses are separated by semicolons See parseAddress for the format of addresses",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "parseAddresses",
           "normalized": "String-\u003eMaybe[Address]",
@@ -5735,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "parseBusName",
           "package": "dbus",
@@ -5744,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "parseBusName",
           "normalized": "String-\u003eMaybe BusName",
@@ -5759,6 +6239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "parseErrorName",
           "package": "dbus",
@@ -5768,6 +6249,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "parseErrorName",
           "normalized": "String-\u003eMaybe ErrorName",
@@ -5783,6 +6265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "parseInterfaceName",
           "package": "dbus",
@@ -5792,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "parseInterfaceName",
           "normalized": "String-\u003eMaybe InterfaceName",
@@ -5807,6 +6291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "parseMemberName",
           "package": "dbus",
@@ -5816,6 +6301,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "parseMemberName",
           "normalized": "String-\u003eMaybe MemberName",
@@ -5831,6 +6317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "parseObjectPath",
           "package": "dbus",
@@ -5840,6 +6327,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "parseObjectPath",
           "normalized": "String-\u003eMaybe ObjectPath",
@@ -5856,6 +6344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a signature string into a valid signature.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003eNothing\u003c/code\u003e if the given string is not a valid signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "parseSignature",
           "package": "dbus",
@@ -5866,6 +6355,7 @@
         "index": {
           "description": "Parse signature string into valid signature Returns Nothing if the given string is not valid signature",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "parseSignature",
           "normalized": "String-\u003eMaybe Signature",
@@ -5882,6 +6372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random D-Bus UUID. This value is suitable for use in a\n randomly-allocated address, or as a listener's socket address\n \u003ccode\u003e\"guid\"\u003c/code\u003e parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "randomUUID",
           "package": "dbus",
@@ -5892,6 +6383,7 @@
         "index": {
           "description": "Generate random D-Bus UUID This value is suitable for use in randomly-allocated address or as listener socket address guid parameter",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "randomUUID",
           "package": "dbus",
@@ -5906,6 +6398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo matter what sort of message was received, get its body (if provided).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "receivedMessageBody",
           "package": "dbus",
@@ -5916,6 +6409,7 @@
         "index": {
           "description": "No matter what sort of message was received get its body if provided",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "receivedMessageBody",
           "normalized": "ReceivedMessage-\u003e[Variant]",
@@ -5932,6 +6426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo matter what sort of message was received, get its sender (if provided).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "receivedMessageSender",
           "package": "dbus",
@@ -5942,6 +6437,7 @@
         "index": {
           "description": "No matter what sort of message was received get its sender if provided",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "receivedMessageSender",
           "normalized": "ReceivedMessage-\u003eMaybe BusName",
@@ -5958,6 +6454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo matter what sort of message was received, get its serial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "receivedMessageSerial",
           "package": "dbus",
@@ -5968,6 +6465,7 @@
         "index": {
           "description": "No matter what sort of message was received get its serial",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "receivedMessageSerial",
           "normalized": "ReceivedMessage-\u003eSerial",
@@ -5983,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "serialValue",
           "package": "dbus",
@@ -5992,6 +6491,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "serialValue",
           "normalized": "Serial-\u003eWord",
@@ -6008,6 +6508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new \u003ccode\u003e\u003ca\u003eSignal\u003c/a\u003e\u003c/code\u003e for the given object, interface, and signal name.\n\u003c/p\u003e\u003cp\u003eUse fields such as \u003ccode\u003e\u003ca\u003esignalBody\u003c/a\u003e\u003c/code\u003e to populate a \u003ccode\u003e\u003ca\u003eSignal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signal",
           "package": "dbus",
@@ -6018,6 +6519,7 @@
         "index": {
           "description": "Construct new Signal for the given object interface and signal name Use fields such as signalBody to populate Signal",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signal",
           "normalized": "ObjectPath-\u003eInterfaceName-\u003eMemberName-\u003eSignal",
@@ -6033,6 +6535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional information about the signal, such as the new value\n or the time.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signalBody",
           "package": "dbus",
@@ -6043,6 +6546,7 @@
         "index": {
           "description": "Additional information about the signal such as the new value or the time Defaults to",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signalBody",
           "normalized": "Signal-\u003e[Variant]",
@@ -6059,6 +6563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the application to emit the signal to. If \u003ccode\u003eNothing\u003c/code\u003e,\n the signal is sent to any application that has registered an\n appropriate match rule.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signalDestination",
           "package": "dbus",
@@ -6069,6 +6574,7 @@
         "index": {
           "description": "The name of the application to emit the signal to If Nothing the signal is sent to any application that has registered an appropriate match rule Defaults to Nothing",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signalDestination",
           "normalized": "Signal-\u003eMaybe BusName",
@@ -6085,6 +6591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface that this signal belongs to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signalInterface",
           "package": "dbus",
@@ -6095,6 +6602,7 @@
         "index": {
           "description": "The interface that this signal belongs to",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signalInterface",
           "normalized": "Signal-\u003eInterfaceName",
@@ -6111,6 +6619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of this signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signalMember",
           "package": "dbus",
@@ -6121,6 +6630,7 @@
         "index": {
           "description": "The name of this signal",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signalMember",
           "normalized": "Signal-\u003eMemberName",
@@ -6137,6 +6647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path of the object that emitted this signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signalPath",
           "package": "dbus",
@@ -6147,6 +6658,7 @@
         "index": {
           "description": "The path of the object that emitted this signal",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signalPath",
           "normalized": "Signal-\u003eObjectPath",
@@ -6163,6 +6675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the application that emitted this signal.\n\u003c/p\u003e\u003cp\u003eMost users will just leave this empty, because the bus overwrites\n the sender for security reasons. Setting the sender manually is\n used for peer-peer connections.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signalSender",
           "package": "dbus",
@@ -6173,6 +6686,7 @@
         "index": {
           "description": "The name of the application that emitted this signal Most users will just leave this empty because the bus overwrites the sender for security reasons Setting the sender manually is used for peer-peer connections Defaults to Nothing",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signalSender",
           "normalized": "Signal-\u003eMaybe BusName",
@@ -6189,6 +6703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of types into a valid signature.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003eNothing\u003c/code\u003e if the given types are not a valid signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signature",
           "package": "dbus",
@@ -6199,6 +6714,7 @@
         "index": {
           "description": "Convert list of types into valid signature Returns Nothing if the given types are not valid signature",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signature",
           "normalized": "[Type]-\u003eMaybe Signature",
@@ -6214,6 +6730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of types in a signature. The inverse of \u003ccode\u003e\u003ca\u003esignature\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signatureTypes",
           "package": "dbus",
@@ -6224,6 +6741,7 @@
         "index": {
           "description": "Get the list of types in signature The inverse of signature",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signatureTypes",
           "normalized": "Signature-\u003e[Type]",
@@ -6240,6 +6758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of types into a valid signature.\n\u003c/p\u003e\u003cp\u003eThrows an exception if the given types are not a valid signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "signature_",
           "package": "dbus",
@@ -6250,6 +6769,7 @@
         "index": {
           "description": "Convert list of types into valid signature Throws an exception if the given types are not valid signature",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "signature_",
           "normalized": "[Type]-\u003eSignature",
@@ -6264,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "structureItems",
           "package": "dbus",
@@ -6273,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "structureItems",
           "normalized": "Structure-\u003e[Variant]",
@@ -6288,6 +6810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "toVariant",
           "package": "dbus",
@@ -6297,6 +6820,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "toVariant",
           "normalized": "a-\u003eVariant",
@@ -6313,6 +6837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the D-Bus type corresponding to the given Haskell value. The value\n may be \u003ccode\u003eundefined\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "typeOf",
           "package": "dbus",
@@ -6323,6 +6848,7 @@
         "index": {
           "description": "Get the D-Bus type corresponding to the given Haskell value The value may be undefined",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "typeOf",
           "normalized": "a-\u003eType",
@@ -6339,6 +6865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eReceivedMessage\u003c/a\u003e\u003c/code\u003e. The result can be\n inspected to see what type of message was parsed. Unknown message types\n can still be parsed successfully, as long as they otherwise conform to\n the D-Bus standard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "unmarshal",
           "package": "dbus",
@@ -6349,6 +6876,7 @@
         "index": {
           "description": "Parse ByteString into ReceivedMessage The result can be inspected to see what type of message was parsed Unknown message types can still be parsed successfully as long as they otherwise conform to the D-Bus standard",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "unmarshal",
           "normalized": "ByteString-\u003eEither UnmarshalError ReceivedMessage",
@@ -6363,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "unmarshalErrorMessage",
           "package": "dbus",
@@ -6372,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "unmarshalErrorMessage",
           "normalized": "UnmarshalError-\u003eString",
@@ -6388,6 +6918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery variant is strongly-typed; that is, the type of its contained\n value is known at all times. This function retrieves that type, so that\n the correct cast can be used to retrieve the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:51 UTC 2014",
           "module": "DBus",
           "name": "variantType",
           "package": "dbus",
@@ -6398,6 +6929,7 @@
         "index": {
           "description": "Every variant is strongly-typed that is the type of its contained value is known at all times This function retrieves that type so that the correct cast can be used to retrieve the value",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T17:50:51",
           "module": "DBus",
           "name": "variantType",
           "normalized": "Variant-\u003eType",

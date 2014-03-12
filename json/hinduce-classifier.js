@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hinduce-classifier"
+        "phrase": "hinduce-classifier",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:31 UTC 2014",
           "module": "Data.HInduce.Classifier.Class",
           "name": "Class",
           "package": "hinduce-classifier",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Classifier Class",
+          "indexed": "2014-03-11T18:39:31",
           "module": "Data.HInduce.Classifier.Class",
           "name": "Class",
           "package": "hinduce-classifier",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:31 UTC 2014",
           "module": "Data.HInduce.Classifier.Class",
           "name": "Classifier",
           "package": "hinduce-classifier",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Classifier Class",
+          "indexed": "2014-03-11T18:39:31",
           "module": "Data.HInduce.Classifier.Class",
           "name": "Classifier",
           "package": "hinduce-classifier",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:31 UTC 2014",
           "module": "Data.HInduce.Classifier.Class",
           "name": "classify",
           "package": "hinduce-classifier",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Classifier Class",
+          "indexed": "2014-03-11T18:39:31",
           "module": "Data.HInduce.Classifier.Class",
           "name": "classify",
           "normalized": "a-\u003eb-\u003ec",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn machine learning and pattern recognition, classification\n refers to an algorithmic procedure for assigning a given piece of\n input data into one of a given number of categories. An example\n would be assigning a given email into spam or non-spam classes\n or assigning a diagnosis to a given patient as described by\n observed characteristics of the patient (gender, blood pressure,\n presence or absence of certain symptoms, etc.). An algorithm that\n implements classification, especially in a concrete implementation,\n is known as a classifier. The term classifier sometimes also\n refers to the mathematical function, implemented by a\n classification algorithm, that maps input data to a category.\n (\u003ca\u003ehttps://en.wikipedia.org/wiki/Classification_in_machine_learning\u003c/a\u003e,\n Nov 28 2011)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:31 UTC 2014",
           "module": "Data.HInduce.Classifier",
           "name": "Classifier",
           "package": "hinduce-classifier",
@@ -93,6 +100,7 @@
         "index": {
           "description": "In machine learning and pattern recognition classification refers to an algorithmic procedure for assigning given piece of input data into one of given number of categories An example would be assigning given email into spam or non-spam classes or assigning diagnosis to given patient as described by observed characteristics of the patient gender blood pressure presence or absence of certain symptoms etc An algorithm that implements classification especially in concrete implementation is known as classifier The term classifier sometimes also refers to the mathematical function implemented by classification algorithm that maps input data to category https en.wikipedia.org wiki Classification in machine learning Nov",
           "hierarchy": "Data HInduce Classifier",
+          "indexed": "2014-03-11T18:39:31",
           "module": "Data.HInduce.Classifier",
           "name": "Classifier",
           "package": "hinduce-classifier",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the confusion matrix of a classifier, showing numbers of occurance instead of relative frequencies. Prefer \u003ccode\u003eabsConfusion'\u003c/code\u003e in ghci.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:31 UTC 2014",
           "module": "Data.HInduce.Classifier",
           "name": "absConfusion",
           "package": "hinduce-classifier",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Calculate the confusion matrix of classifier showing numbers of occurance instead of relative frequencies Prefer absConfusion in ghci",
           "hierarchy": "Data HInduce Classifier",
+          "indexed": "2014-03-11T18:39:31",
           "module": "Data.HInduce.Classifier",
           "name": "absConfusion",
           "normalized": "a-\u003e[(b,c)]-\u003e[((c,c),Int)]",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003eabsConfusion\u003c/code\u003e, but puts it in a nice table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:31 UTC 2014",
           "module": "Data.HInduce.Classifier",
           "name": "absConfusion'",
           "package": "hinduce-classifier",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Like absConfusion but puts it in nice table",
           "hierarchy": "Data HInduce Classifier",
+          "indexed": "2014-03-11T18:39:31",
           "module": "Data.HInduce.Classifier",
           "name": "absConfusion'",
           "normalized": "a-\u003e[(b,c)]-\u003eTable c c Int",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the confusion matrix of a classifier. Prefer \u003ccode\u003econfusion'\u003c/code\u003e in ghci.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:31 UTC 2014",
           "module": "Data.HInduce.Classifier",
           "name": "confusion",
           "package": "hinduce-classifier",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Calculate the confusion matrix of classifier Prefer confusion in ghci",
           "hierarchy": "Data HInduce Classifier",
+          "indexed": "2014-03-11T18:39:31",
           "module": "Data.HInduce.Classifier",
           "name": "confusion",
           "normalized": "a-\u003e[(b,c)]-\u003e[((c,c),d)]",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003econfusion\u003c/code\u003e, but puts it in a nice table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:31 UTC 2014",
           "module": "Data.HInduce.Classifier",
           "name": "confusion'",
           "package": "hinduce-classifier",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Like confusion but puts it in nice table",
           "hierarchy": "Data HInduce Classifier",
+          "indexed": "2014-03-11T18:39:31",
           "module": "Data.HInduce.Classifier",
           "name": "confusion'",
           "normalized": "a-\u003e[(b,c)]-\u003eTable c c Double",

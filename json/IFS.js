@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "IFS"
+        "phrase": "IFS",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription\n\u003c/p\u003e\u003cp\u003eExample IFS\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Examples",
           "name": "Examples",
           "package": "IFS",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Description Example IFS",
           "hierarchy": "Graphics IFS Examples",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Examples",
           "name": "Examples",
           "package": "IFS",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Examples",
           "name": "fern",
           "package": "IFS",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Examples",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Examples",
           "name": "fern",
           "package": "IFS",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Examples",
           "name": "sierpinski",
           "package": "IFS",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Examples",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Examples",
           "name": "sierpinski",
           "package": "IFS",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Examples",
           "name": "square",
           "package": "IFS",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Examples",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Examples",
           "name": "square",
           "package": "IFS",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription\n\u003c/p\u003e\u003cp\u003eSome geometry operations used by the IFS\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "Geometry",
           "package": "IFS",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Description Some geometry operations used by the IFS",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "Geometry",
           "package": "IFS",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAffine transform on 2x2 space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "M",
           "package": "IFS",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Affine transform on x2 space",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "M",
           "package": "IFS",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElements which can be transformed by an operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "Module",
           "package": "IFS",
@@ -159,6 +172,7 @@
         "index": {
           "description": "Elements which can be transformed by an operator",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "Module",
           "package": "IFS",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure non linear transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "NonLinear",
           "package": "IFS",
@@ -182,6 +197,7 @@
         "index": {
           "description": "pure non linear transformation",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "NonLinear",
           "package": "IFS",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA non linear transformation with a pure non linear part and an affine one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "NonLinearTransform",
           "package": "IFS",
@@ -205,6 +222,7 @@
         "index": {
           "description": "non linear transformation with pure non linear part and an affine one",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "NonLinearTransform",
           "package": "IFS",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "V",
           "package": "IFS",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Vector",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "V",
           "package": "IFS",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "(\u003c*\u003e)",
           "package": "IFS",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "NL",
           "package": "IFS",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "NL",
           "normalized": "NL(NonLinear a,M a)",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "V",
           "package": "IFS",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "V",
           "normalized": "V(a,a)",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "det",
           "package": "IFS",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "det",
           "normalized": "M a-\u003ea",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "inv",
           "package": "IFS",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "inv",
           "normalized": "M a-\u003eM a",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a pure affine transformation\n Linear part:\n a b\n c d\n Affine part:\n e\n f\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "linear",
           "package": "IFS",
@@ -366,6 +397,7 @@
         "index": {
           "description": "Create pure affine transformation Linear part Affine part",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "linear",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eM a",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "rotation",
           "package": "IFS",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "rotation",
           "normalized": "Double-\u003eM Double",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "scaling",
           "package": "IFS",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "scaling",
           "normalized": "Double-\u003eDouble-\u003eM Double",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart vector used to initiate the generation of a random trajectory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "startVector",
           "package": "IFS",
@@ -437,6 +474,7 @@
         "index": {
           "description": "Start vector used to initiate the generation of random trajectory",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "startVector",
           "package": "IFS",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "translation",
           "package": "IFS",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "translation",
           "normalized": "Double-\u003eDouble-\u003eM Double",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v0",
           "package": "IFS",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Linear",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v0",
           "package": "IFS",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSinusoidal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v1",
           "package": "IFS",
@@ -507,6 +550,7 @@
         "index": {
           "description": "Sinusoidal",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v1",
           "package": "IFS",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyperbolic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v10",
           "package": "IFS",
@@ -530,6 +575,7 @@
         "index": {
           "description": "Hyperbolic",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v10",
           "package": "IFS",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiamond\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v11",
           "package": "IFS",
@@ -553,6 +600,7 @@
         "index": {
           "description": "Diamond",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v11",
           "package": "IFS",
@@ -566,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEx\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v12",
           "package": "IFS",
@@ -576,6 +625,7 @@
         "index": {
           "description": "Ex",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v12",
           "package": "IFS",
@@ -589,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpherical\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v2",
           "package": "IFS",
@@ -599,6 +650,7 @@
         "index": {
           "description": "Spherical",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v2",
           "package": "IFS",
@@ -612,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwirl\t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v3",
           "package": "IFS",
@@ -622,6 +675,7 @@
         "index": {
           "description": "Swirl",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v3",
           "package": "IFS",
@@ -635,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorseshoe\t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v4",
           "package": "IFS",
@@ -645,6 +700,7 @@
         "index": {
           "description": "Horseshoe",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v4",
           "package": "IFS",
@@ -658,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v5",
           "package": "IFS",
@@ -668,6 +725,7 @@
         "index": {
           "description": "Polar",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v5",
           "package": "IFS",
@@ -681,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandkerchief\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v6",
           "package": "IFS",
@@ -691,6 +750,7 @@
         "index": {
           "description": "Handkerchief",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v6",
           "package": "IFS",
@@ -704,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeart\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v7",
           "package": "IFS",
@@ -714,6 +775,7 @@
         "index": {
           "description": "Heart",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v7",
           "package": "IFS",
@@ -727,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v8",
           "package": "IFS",
@@ -737,6 +800,7 @@
         "index": {
           "description": "Disc",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v8",
           "package": "IFS",
@@ -750,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpiral\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Geometry",
           "name": "v9",
           "package": "IFS",
@@ -760,6 +825,7 @@
         "index": {
           "description": "Spiral",
           "hierarchy": "Graphics IFS Geometry",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Geometry",
           "name": "v9",
           "package": "IFS",
@@ -773,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription\n\u003c/p\u003e\u003cp\u003ePortable Pixel Map \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "Ppm",
           "package": "IFS",
@@ -782,6 +849,7 @@
         "index": {
           "description": "Description Portable Pixel Map",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "Ppm",
           "package": "IFS",
@@ -796,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRGB Color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "Color",
           "package": "IFS",
@@ -805,6 +874,7 @@
         "index": {
           "description": "RGB Color",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "Color",
           "package": "IFS",
@@ -819,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a coloring functions.\n The first argument is an index value and the second argument is a list of RGB value.\n The function is assumed to concatenate a new triple of RGB value to the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "ColorizeFunction",
           "package": "IFS",
@@ -828,6 +899,7 @@
         "index": {
           "description": "The type of coloring functions The first argument is an index value and the second argument is list of RGB value The function is assumed to concatenate new triple of RGB value to the list",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "ColorizeFunction",
           "package": "IFS",
@@ -841,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "RGB",
           "package": "IFS",
@@ -850,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "RGB",
           "package": "IFS",
@@ -864,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary coloring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "binaryColor",
           "package": "IFS",
@@ -873,6 +948,7 @@
         "index": {
           "description": "Binary coloring",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "binaryColor",
           "normalized": "Color-\u003eColor-\u003eWord-\u003e[Word]-\u003e[Word]",
@@ -889,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlack color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "black",
           "package": "IFS",
@@ -899,6 +976,7 @@
         "index": {
           "description": "Black color",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "black",
           "package": "IFS",
@@ -912,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlue color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "blue",
           "package": "IFS",
@@ -922,6 +1001,7 @@
         "index": {
           "description": "Blue color",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "blue",
           "package": "IFS",
@@ -935,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a PPM picture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "createPict",
           "package": "IFS",
@@ -944,6 +1025,7 @@
         "index": {
           "description": "Create PPM picture",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "createPict",
           "normalized": "String-\u003eInt-\u003eInt-\u003eInt-\u003eColorizeFunction-\u003eIFS Double-\u003eIO()",
@@ -960,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDensity coloring with linear interpolation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "densityColor",
           "package": "IFS",
@@ -969,6 +1052,7 @@
         "index": {
           "description": "Density coloring with linear interpolation",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "densityColor",
           "normalized": "Int-\u003eColor-\u003eColor-\u003eWord-\u003e[Word]-\u003e[Word]",
@@ -985,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGree color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "green",
           "package": "IFS",
@@ -995,6 +1080,7 @@
         "index": {
           "description": "Gree color",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "green",
           "package": "IFS",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRed color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "red",
           "package": "IFS",
@@ -1018,6 +1105,7 @@
         "index": {
           "description": "Red color",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "red",
           "package": "IFS",
@@ -1031,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhite color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS.Ppm",
           "name": "white",
           "package": "IFS",
@@ -1041,6 +1130,7 @@
         "index": {
           "description": "white color",
           "hierarchy": "Graphics IFS Ppm",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS.Ppm",
           "name": "white",
           "package": "IFS",
@@ -1054,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription\n\u003c/p\u003e\u003cp\u003eIterated Function Systems in Haskell\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS",
           "name": "IFS",
           "package": "IFS",
@@ -1063,6 +1154,7 @@
         "index": {
           "description": "Description Iterated Function Systems in Haskell",
           "hierarchy": "Graphics IFS",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS",
           "name": "IFS",
           "package": "IFS",
@@ -1077,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn IFS is expressed in a [0,1]x[0,1] squares. So, the linear transforms used to build it must take that into account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS",
           "name": "IFS",
           "package": "IFS",
@@ -1086,6 +1179,7 @@
         "index": {
           "description": "An IFS is expressed in squares So the linear transforms used to build it must take that into account",
           "hierarchy": "Graphics IFS",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS",
           "name": "IFS",
           "package": "IFS",
@@ -1100,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position in an array of pixels and the color index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS",
           "name": "Pixel",
           "package": "IFS",
@@ -1109,6 +1204,7 @@
         "index": {
           "description": "position in an array of pixels and the color index",
           "hierarchy": "Graphics IFS",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS",
           "name": "Pixel",
           "package": "IFS",
@@ -1123,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of two IFS (probabilities are normalized if required when the IFS is drawn)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS",
           "name": "(\u003c+\u003e)",
           "package": "IFS",
@@ -1133,6 +1230,7 @@
         "index": {
           "description": "Union of two IFS probabilities are normalized if required when the IFS is drawn",
           "hierarchy": "Graphics IFS",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "IFS a-\u003eIFS a-\u003eIFS a",
@@ -1148,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply IFS probabilities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS",
           "name": "(\u003c?\u003e)",
           "package": "IFS",
@@ -1158,6 +1257,7 @@
         "index": {
           "description": "Multiply IFS probabilities",
           "hierarchy": "Graphics IFS",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "Double-\u003eIFS a-\u003eIFS a",
@@ -1173,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw an IFS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS",
           "name": "drawIFS",
           "package": "IFS",
@@ -1182,6 +1283,7 @@
         "index": {
           "description": "Draw an IFS",
           "hierarchy": "Graphics IFS",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS",
           "name": "drawIFS",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eIFS Double-\u003e[Pixel]",
@@ -1198,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a linear IFS from an affine transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:30 UTC 2014",
           "module": "Graphics.IFS",
           "name": "linearIFS",
           "package": "IFS",
@@ -1208,6 +1311,7 @@
         "index": {
           "description": "Create linear IFS from an affine transformation",
           "hierarchy": "Graphics IFS",
+          "indexed": "2014-03-11T16:49:30",
           "module": "Graphics.IFS",
           "name": "linearIFS",
           "normalized": "M a-\u003eIFS a",

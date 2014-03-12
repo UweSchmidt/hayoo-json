@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GtkGLTV"
+        "phrase": "GtkGLTV",
+        "type": "phrase"
       },
       "type": "context"
     }

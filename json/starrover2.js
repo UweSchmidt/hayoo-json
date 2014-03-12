@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "starrover2"
+        "phrase": "starrover2",
+        "type": "phrase"
       },
       "type": "context"
     }

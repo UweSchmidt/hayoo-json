@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hjson"
+        "phrase": "hjson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson.Pretty",
           "name": "Pretty",
           "package": "hjson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HJson Pretty",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson.Pretty",
           "name": "Pretty",
           "package": "hjson",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints JSON with given indenter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson.Pretty",
           "name": "toString",
           "package": "hjson",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Pretty-prints JSON with given indenter",
           "hierarchy": "Text HJson Pretty",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson.Pretty",
           "name": "toString",
           "normalized": "String-\u003eJson-\u003eString",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "HJson",
           "package": "hjson",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "HJson",
           "package": "hjson",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "Json",
           "package": "hjson",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "Json",
           "package": "hjson",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that can be converted to or from JSON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "Jsonable",
           "package": "hjson",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Class of types that can be converted to or from JSON",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "Jsonable",
           "package": "hjson",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnother wrapper for Map String a. It have different \u003ccode\u003e\u003ca\u003eJsonable\u003c/a\u003e\u003c/code\u003e\n   instance. Undecodable values in \u003ccode\u003e\u003ca\u003eJObject\u003c/a\u003e\u003c/code\u003e are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "LaxObject",
           "package": "hjson",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Another wrapper for Map String It have different Jsonable instance Undecodable values in JObject are ignored",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "LaxObject",
           "package": "hjson",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper for list. It's user to avoid overlapping\n   instances for string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "List",
           "package": "hjson",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Newtype wrapper for list It user to avoid overlapping instances for string",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "List",
           "package": "hjson",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper for Map String a. Similarly it's used to avoid\n   overlapping instances for more generic Map a b instance.\n\u003c/p\u003e\u003cp\u003eJsonable instance for this type require that every JSON value in\n   map should be properly decoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "Object",
           "package": "hjson",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Newtype wrapper for Map String Similarly it used to avoid overlapping instances for more generic Map instance Jsonable instance for this type require that every JSON value in map should be properly decoded",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "Object",
           "package": "hjson",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "JArray",
           "package": "hjson",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "JArray",
           "normalized": "JArray[Json]",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "JBool",
           "package": "hjson",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "JBool",
           "package": "hjson",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "JNull",
           "package": "hjson",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "JNull",
           "package": "hjson",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "JNumber",
           "package": "hjson",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "JNumber",
           "package": "hjson",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "JObject",
           "package": "hjson",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "JObject",
           "package": "hjson",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "JString",
           "package": "hjson",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "JString",
           "package": "hjson",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "LaxObject",
           "package": "hjson",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "LaxObject",
           "package": "hjson",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "List",
           "package": "hjson",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "List",
           "package": "hjson",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "Object",
           "package": "hjson",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "Object",
           "package": "hjson",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "asLaxMap",
           "package": "hjson",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "asLaxMap",
           "package": "hjson",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "asList",
           "package": "hjson",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "asList",
           "normalized": "[a]",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "asMap",
           "package": "hjson",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "asMap",
           "package": "hjson",
@@ -468,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscapes string for inclusion in JSON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "escapeJString",
           "package": "hjson",
@@ -478,6 +519,7 @@
         "index": {
           "description": "Escapes string for inclusion in JSON",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "escapeJString",
           "normalized": "String-\u003eString",
@@ -494,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize value. Returns Nothing in case of failure. Default\n   implementation always returns Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "fromJson",
           "package": "hjson",
@@ -504,6 +547,7 @@
         "index": {
           "description": "Deserialize value Returns Nothing in case of failure Default implementation always returns Nothing",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "fromJson",
           "normalized": "Json-\u003eMaybe a",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses JSON string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "fromString",
           "package": "hjson",
@@ -530,6 +575,7 @@
         "index": {
           "description": "Parses JSON string",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "fromString",
           "normalized": "String-\u003eEither ParseError Json",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsec parser for JSON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "jsonParser",
           "package": "hjson",
@@ -556,6 +603,7 @@
         "index": {
           "description": "Parsec parser for JSON",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "jsonParser",
           "package": "hjson",
@@ -570,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert value to JSON representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "toJson",
           "package": "hjson",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Convert value to JSON representation",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "toJson",
           "normalized": "a-\u003eJson",
@@ -596,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders JSON to String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:41 UTC 2014",
           "module": "Text.HJson",
           "name": "toString",
           "package": "hjson",
@@ -606,6 +657,7 @@
         "index": {
           "description": "Renders JSON to String",
           "hierarchy": "Text HJson",
+          "indexed": "2014-03-11T18:40:41",
           "module": "Text.HJson",
           "name": "toString",
           "normalized": "Json-\u003eString",

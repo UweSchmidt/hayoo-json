@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-c-comments"
+        "phrase": "language-c-comments",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "Comments",
           "package": "language-c-comments",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "Comments",
           "package": "language-c-comments",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComment positions use Language.C.Data.Position for compatibility with\n Language.C.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "Comment",
           "package": "language-c-comments",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Comment positions use Language.C.Data.Position for compatibility with Language.C",
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "Comment",
           "package": "language-c-comments",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComments can be either single- or multi-line style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "CommentFormat",
           "package": "language-c-comments",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Comments can be either single or multi-line style",
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "CommentFormat",
           "package": "language-c-comments",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "MultiLine",
           "package": "language-c-comments",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "MultiLine",
           "package": "language-c-comments",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "SingleLine",
           "package": "language-c-comments",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "SingleLine",
           "package": "language-c-comments",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe format of a comment (single- or multi-line).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "commentFormat",
           "package": "language-c-comments",
@@ -140,6 +151,7 @@
         "index": {
           "description": "The format of comment single or multi-line",
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "commentFormat",
           "normalized": "Comment-\u003eCommentFormat",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position of the comment within the source file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "commentPosition",
           "package": "language-c-comments",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The position of the comment within the source file",
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "commentPosition",
           "normalized": "Comment-\u003ePosition",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe text of a comment (including the comment marks).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "commentText",
           "package": "language-c-comments",
@@ -192,6 +207,7 @@
         "index": {
           "description": "The text of comment including the comment marks",
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "commentText",
           "normalized": "Comment-\u003eString",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe text of a comment, but with the comment marks removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "commentTextWithoutMarks",
           "package": "language-c-comments",
@@ -218,6 +235,7 @@
         "index": {
           "description": "The text of comment but with the comment marks removed",
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "commentTextWithoutMarks",
           "normalized": "Comment-\u003eString",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract comments from a C file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "comments",
           "package": "language-c-comments",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Extract comments from file",
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "comments",
           "normalized": "FilePath-\u003eIO[Comment]",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract comments from a string.  A comment's position contains a\n filename; this method uses the empty string in its place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:57 UTC 2014",
           "module": "Language.C.Comments",
           "name": "commentsFromString",
           "package": "language-c-comments",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Extract comments from string comment position contains filename this method uses the empty string in its place",
           "hierarchy": "Language C Comments",
+          "indexed": "2014-03-11T19:04:57",
           "module": "Language.C.Comments",
           "name": "commentsFromString",
           "normalized": "String-\u003e[Comment]",

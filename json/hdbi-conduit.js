@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdbi-conduit"
+        "phrase": "hdbi-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "HDBI",
           "package": "hdbi-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "HDBI",
           "package": "hdbi-conduit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "allocConnection",
           "package": "hdbi-conduit",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "allocConnection",
           "normalized": "IO a-\u003eb(ReleaseKey,a)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "allocStmt",
           "package": "hdbi-conduit",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "allocStmt",
           "normalized": "IO a-\u003eb(ReleaseKey,a)",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to fuse when no data convertion is needed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "asSqlVals",
           "package": "hdbi-conduit",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Function to fuse when no data convertion is needed",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "asSqlVals",
           "normalized": "Conduit[SqlValue]a[SqlValue]",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo specify actual stream type by fusing with it. The value of argument is\n not used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "asThisType",
           "package": "hdbi-conduit",
@@ -124,6 +133,7 @@
         "index": {
           "description": "To specify actual stream type by fusing with it The value of argument is not used",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "asThisType",
           "normalized": "a-\u003eConduit a b a",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "executeStmt",
           "package": "hdbi-conduit",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "executeStmt",
           "normalized": "a-\u003eQuery-\u003eb-\u003ec(ReleaseKey,d)",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eseparate each \u003ccode\u003ei\u003c/code\u003e chunks with Flush\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "flushAt",
           "package": "hdbi-conduit",
@@ -174,6 +187,7 @@
         "index": {
           "description": "separate each chunks with Flush",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "flushAt",
           "normalized": "a-\u003eConduit b c(Flush b)",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe behaviour is the same as \u003ccode\u003egroupBy\u003c/code\u003e function. Each time when prefix\n return False the conduit yields Flush.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "flushBy",
           "package": "hdbi-conduit",
@@ -200,6 +215,7 @@
         "index": {
           "description": "The behaviour is the same as groupBy function Each time when prefix return False the conduit yields Flush",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "flushBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eConduit a b(Flush a)",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform \u003ccode\u003eexecuteRow\u003c/code\u003e for each input row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "insertAll",
           "package": "hdbi-conduit",
@@ -226,6 +243,7 @@
         "index": {
           "description": "perform executeRow for each input row",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "insertAll",
           "normalized": "a-\u003eQuery-\u003eSink b c()",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as \u003ccode\u003e\u003ca\u003einsertAll\u003c/a\u003e\u003c/code\u003e but also count executed rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "insertAllCount",
           "package": "hdbi-conduit",
@@ -252,6 +271,7 @@
         "index": {
           "description": "same as insertAll but also count executed rows",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "insertAllCount",
           "normalized": "a-\u003eQuery-\u003eSink b c d",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute query on each (Chunk row) and commit on each Flush. The last query\n is always commit, so be carefull.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "insertAllTrans",
           "package": "hdbi-conduit",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Execute query on each Chunk row and commit on each Flush The last query is always commit so be carefull",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "insertAllTrans",
           "normalized": "a-\u003eQuery-\u003eSink(Flush b)c()",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute query and stream result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "selectAll",
           "package": "hdbi-conduit",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Execute query and stream result",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "selectAll",
           "normalized": "a-\u003eQuery-\u003eb-\u003eSource c d",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003estatementSinkCount\u003c/a\u003e\u003c/code\u003e but without counting, just return ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "statementSink",
           "package": "hdbi-conduit",
@@ -330,6 +355,7 @@
         "index": {
           "description": "Same as statementSinkCount but without counting just return",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "statementSink",
           "normalized": "(a-\u003eb-\u003ec())-\u003eIO a-\u003eSink b c()",
@@ -346,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute action many times with given thread of values, return the count\n of executions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "statementSinkCount",
           "package": "hdbi-conduit",
@@ -356,6 +383,7 @@
         "index": {
           "description": "Execute action many times with given thread of values return the count of executions",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "statementSinkCount",
           "normalized": "(a-\u003eb-\u003ec())-\u003eIO a-\u003eSink b c d",
@@ -372,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute each chunk with putter function and commit transaction on each\n flush. The last action is always commit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "statementSinkTrans",
           "package": "hdbi-conduit",
@@ -382,6 +411,7 @@
         "index": {
           "description": "Execute each chunk with putter function and commit transaction on each flush The last action is always commit",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "statementSinkTrans",
           "normalized": "a-\u003e(b-\u003ec-\u003ed())-\u003eIO b-\u003eSink(Flush c)d()",
@@ -398,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all values from the statement until action return ''Just a''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:27 UTC 2014",
           "module": "Data.Conduit.HDBI",
           "name": "statementSource",
           "package": "hdbi-conduit",
@@ -408,6 +439,7 @@
         "index": {
           "description": "Get all values from the statement until action return Just",
           "hierarchy": "Data Conduit HDBI",
+          "indexed": "2014-03-11T18:35:27",
           "module": "Data.Conduit.HDBI",
           "name": "statementSource",
           "normalized": "(a-\u003eb(Maybe c))-\u003eIO a-\u003eSource b c",

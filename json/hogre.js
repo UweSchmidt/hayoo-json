@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hogre"
+        "phrase": "hogre",
+        "type": "phrase"
       },
       "type": "context"
     }

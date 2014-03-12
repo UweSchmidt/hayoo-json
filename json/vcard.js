@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vcard"
+        "phrase": "vcard",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements the vCard format defined in RFC 2426, based on the\n text/directory MIME type defined in RFC 2425.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Format.Directory",
           "name": "Directory",
           "package": "vcard",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implements the vCard format defined in RFC based on the text directory MIME type defined in RFC",
           "hierarchy": "Text VCard Format Directory",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Format.Directory",
           "name": "Directory",
           "package": "vcard",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Format.Directory",
           "name": "fromProperties",
           "package": "vcard",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Format Directory",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Format.Directory",
           "name": "fromProperties",
           "normalized": "[VProperty]-\u003eVCard",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Format.Directory",
           "name": "readVCards",
           "package": "vcard",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Format Directory",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Format.Directory",
           "name": "readVCards",
           "normalized": "SourceName-\u003eByteString-\u003e[VCard]",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Format.Directory",
           "name": "writeVCard",
           "package": "vcard",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Format Directory",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Format.Directory",
           "name": "writeVCard",
           "normalized": "VCard-\u003eByteString",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience functions to extract values in vCards and mapping over\n these values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "Query",
           "package": "vcard",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Convenience functions to extract values in vCards and mapping over these values",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "Query",
           "package": "vcard",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter by property value only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "filter",
           "package": "vcard",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Filter by property value only",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "filter",
           "normalized": "(VCardValue-\u003eBool)-\u003e[VCard]-\u003e[VCard]",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupports the most general filter predicates of the \u003ccode\u003efilter\u003c/code\u003e family of functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "filterWithProperty",
           "package": "vcard",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Supports the most general filter predicates of the filter family of functions",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "filterWithProperty",
           "normalized": "(VProperty-\u003eBool)-\u003e[VCard]-\u003e[VCard]",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialization of |filterWithProperty|.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "filterWithType",
           "package": "vcard",
@@ -198,6 +213,7 @@
         "index": {
           "description": "specialization of filterWithProperty",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "filterWithType",
           "normalized": "(Type-\u003eVCardValue-\u003eBool)-\u003e[VCard]-\u003e[VCard]",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "insert",
           "package": "vcard",
@@ -222,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "insert",
           "normalized": "VProperty-\u003eVCard-\u003eVCard",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalog to |Data.List.lookup|. In general an attribute may map to a number\n of values. vCards should maintain the invariant that \u003ccode\u003eforall attr, lookup\n attr vcard /= Just []\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "lookup",
           "package": "vcard",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Analog to Data.List.lookup In general an attribute may map to number of values vCards should maintain the invariant that forall attr lookup attr vcard Just",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "lookup",
           "normalized": "ByteString-\u003eVCard-\u003eMaybe[VCardValue]",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe variant of |lookup| that assumes given type name maps to exactly\n one value in the vCard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "lookup'",
           "package": "vcard",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Unsafe variant of lookup that assumes given type name maps to exactly one value in the vCard",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "lookup'",
           "normalized": "ByteString-\u003eVCard-\u003eVCardValue",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap by property value only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "map",
           "package": "vcard",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Map by property value only",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "map",
           "normalized": "(VCardValue-\u003eVCardValue)-\u003e[VCard]-\u003e[VCard]",
@@ -312,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupports the most general map predicates of the \u003ccode\u003emap\u003c/code\u003e family of functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "mapWithProperty",
           "package": "vcard",
@@ -322,6 +347,7 @@
         "index": {
           "description": "Supports the most general map predicates of the map family of functions",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "mapWithProperty",
           "normalized": "(VProperty-\u003eVCardValue)-\u003e[VCard]-\u003e[VCard]",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialization of |mapWithProperty|.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Query",
           "name": "mapWithType",
           "package": "vcard",
@@ -348,6 +375,7 @@
         "index": {
           "description": "specialization of mapWithProperty",
           "hierarchy": "Text VCard Query",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Query",
           "name": "mapWithType",
           "normalized": "(Type-\u003eVCardValue-\u003eVCardValue)-\u003e[VCard]-\u003e[VCard]",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eField selectors for struct values, such as in N or ADR properties.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Selectors",
           "name": "Selectors",
           "package": "vcard",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Field selectors for struct values such as in or ADR properties",
           "hierarchy": "Text VCard Selectors",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Selectors",
           "name": "Selectors",
           "package": "vcard",
@@ -386,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "Types",
           "package": "vcard",
@@ -394,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "Types",
           "package": "vcard",
@@ -408,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional value specifications in RFC 2426.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "ExtraValue",
           "package": "vcard",
@@ -417,6 +450,7 @@
         "index": {
           "description": "Additional value specifications in RFC",
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "ExtraValue",
           "package": "vcard",
@@ -430,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "SourceName",
           "package": "vcard",
@@ -438,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "SourceName",
           "package": "vcard",
@@ -451,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "VCard",
           "package": "vcard",
@@ -459,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "VCard",
           "package": "vcard",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA |VCardValue| obeys the union of the value specifications in RFC 2425\n and RFC 2426.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "VCardValue",
           "package": "vcard",
@@ -482,6 +521,7 @@
         "index": {
           "description": "VCardValue obeys the union of the value specifications in RFC and RFC",
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "VCardValue",
           "package": "vcard",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "VProperty",
           "package": "vcard",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "VProperty",
           "package": "vcard",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "Version",
           "package": "vcard",
@@ -524,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "Version",
           "package": "vcard",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "Binary",
           "package": "vcard",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "Binary",
           "package": "vcard",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "PhoneNumber",
           "package": "vcard",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "PhoneNumber",
           "package": "vcard",
@@ -581,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "Struct",
           "package": "vcard",
@@ -590,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "Struct",
           "normalized": "Struct[[ByteString]]",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "SubVCard",
           "package": "vcard",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "SubVCard",
           "package": "vcard",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "UTCOffset",
           "package": "vcard",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "UTCOffset",
           "package": "vcard",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "VCard",
           "package": "vcard",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "VCard",
           "package": "vcard",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "Version",
           "package": "vcard",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "Version",
           "package": "vcard",
@@ -694,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid range: 0-23\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "utcOffset_hours",
           "package": "vcard",
@@ -704,6 +763,7 @@
         "index": {
           "description": "Valid range",
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "utcOffset_hours",
           "package": "vcard",
@@ -718,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid range: 0-25\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "utcOffset_minutes",
           "package": "vcard",
@@ -728,6 +789,7 @@
         "index": {
           "description": "Valid range",
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "utcOffset_minutes",
           "package": "vcard",
@@ -741,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "utcOffset_sign",
           "package": "vcard",
@@ -750,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "utcOffset_sign",
           "package": "vcard",
@@ -763,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "vcard_properties",
           "package": "vcard",
@@ -772,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "vcard_properties",
           "normalized": "Map ByteString[VProperty]",
@@ -786,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "vcard_version",
           "package": "vcard",
@@ -795,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "vcard_version",
           "package": "vcard",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "version_major",
           "package": "vcard",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "version_major",
           "package": "vcard",
@@ -828,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard.Types",
           "name": "version_minor",
           "package": "vcard",
@@ -837,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Text VCard Types",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard.Types",
           "name": "version_minor",
           "package": "vcard",
@@ -850,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module reexports most of the modules in the vCard library in\n additionto the mime-directory library, with the exception of\n |Text.VCard.Query|, since that library should be imported qualified, as\n many of the names clash with standard |Prelude| names.\n\u003c/p\u003e\u003cp\u003eTo use this library, you probably want to import one of the modules in\n |Text.VCard.Format| only, to parse and serialize vcards in specific formats.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:29 UTC 2014",
           "module": "Text.VCard",
           "name": "VCard",
           "package": "vcard",
@@ -859,6 +932,7 @@
         "index": {
           "description": "This module reexports most of the modules in the vCard library in additionto the mime-directory library with the exception of Text.VCard.Query since that library should be imported qualified as many of the names clash with standard Prelude names To use this library you probably want to import one of the modules in Text.VCard.Format only to parse and serialize vcards in specific formats",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T20:33:29",
           "module": "Text.VCard",
           "name": "VCard",
           "package": "vcard",

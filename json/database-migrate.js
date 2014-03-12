@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "database-migrate"
+        "phrase": "database-migrate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.Ddl",
           "name": "Ddl",
           "package": "database-migrate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration Ddl",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.Ddl",
           "name": "Ddl",
           "package": "database-migrate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.Ddl",
           "name": "down",
           "package": "database-migrate",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration Ddl",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.Ddl",
           "name": "down",
           "normalized": "MigrationId-\u003eText-\u003eMigration",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.Ddl",
           "name": "migration",
           "package": "database-migrate",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration Ddl",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.Ddl",
           "name": "migration",
           "normalized": "MigrationId-\u003eText-\u003eText-\u003eMigration",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.Ddl",
           "name": "up",
           "package": "database-migrate",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration Ddl",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.Ddl",
           "name": "up",
           "normalized": "MigrationId-\u003eText-\u003eMigration",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.Directory",
           "name": "Directory",
           "package": "database-migrate",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration Directory",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.Directory",
           "name": "Directory",
           "package": "database-migrate",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.Directory",
           "name": "migration",
           "package": "database-migrate",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration Directory",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.Directory",
           "name": "migration",
           "normalized": "FilePath-\u003eIO(Either Text[Migration])",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.File",
           "name": "File",
           "package": "database-migrate",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration File",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.File",
           "name": "File",
           "package": "database-migrate",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.File",
           "name": "down",
           "package": "database-migrate",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration File",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.File",
           "name": "down",
           "normalized": "MigrationId-\u003eFilePath-\u003eMigration",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.File",
           "name": "migration",
           "package": "database-migrate",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration File",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.File",
           "name": "migration",
           "normalized": "MigrationId-\u003eFilePath-\u003eFilePath-\u003eMigration",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.File",
           "name": "up",
           "package": "database-migrate",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration File",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.File",
           "name": "up",
           "normalized": "MigrationId-\u003eFilePath-\u003eMigration",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "FileInferred",
           "package": "database-migrate",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileInferred",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "FileInferred",
           "package": "database-migrate",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "directory",
           "package": "database-migrate",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileInferred",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "directory",
           "normalized": "FilePath-\u003eIO(Either Text[Migration])",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "down",
           "package": "database-migrate",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileInferred",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "down",
           "normalized": "FilePath-\u003eMigration",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "migration",
           "package": "database-migrate",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileInferred",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "migration",
           "normalized": "FilePath-\u003eMigration",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "up",
           "package": "database-migrate",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileInferred",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileInferred",
           "name": "up",
           "normalized": "FilePath-\u003eMigration",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileStandard",
           "name": "FileStandard",
           "package": "database-migrate",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileStandard",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileStandard",
           "name": "FileStandard",
           "package": "database-migrate",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileStandard",
           "name": "down",
           "package": "database-migrate",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileStandard",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileStandard",
           "name": "down",
           "normalized": "MigrationId-\u003eFilePath-\u003eMigration",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileStandard",
           "name": "migration",
           "package": "database-migrate",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileStandard",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileStandard",
           "name": "migration",
           "normalized": "MigrationId-\u003eFilePath-\u003eMigration",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration.FileStandard",
           "name": "up",
           "package": "database-migrate",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration FileStandard",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration.FileStandard",
           "name": "up",
           "normalized": "MigrationId-\u003eFilePath-\u003eMigration",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "Migration",
           "package": "database-migrate",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "Migration",
           "package": "database-migrate",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "Change",
           "package": "database-migrate",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "Change",
           "package": "database-migrate",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "Migration",
           "package": "database-migrate",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "Migration",
           "package": "database-migrate",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "MigrationId",
           "package": "database-migrate",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "MigrationId",
           "package": "database-migrate",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "Ddl",
           "package": "database-migrate",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "Ddl",
           "package": "database-migrate",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "DdlFile",
           "package": "database-migrate",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "DdlFile",
           "package": "database-migrate",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "Dud",
           "package": "database-migrate",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "Dud",
           "package": "database-migrate",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "Migration",
           "package": "database-migrate",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "Migration",
           "package": "database-migrate",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "NoOp",
           "package": "database-migrate",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "NoOp",
           "package": "database-migrate",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "_downChange",
           "package": "database-migrate",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "_downChange",
           "package": "database-migrate",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "_migrationId",
           "package": "database-migrate",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "_migrationId",
           "package": "database-migrate",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "_upChange",
           "package": "database-migrate",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "_upChange",
           "package": "database-migrate",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "downChange",
           "package": "database-migrate",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "downChange",
           "package": "database-migrate",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "migrationId",
           "package": "database-migrate",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "migrationId",
           "package": "database-migrate",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.Migration",
           "name": "upChange",
           "package": "database-migrate",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate Migration",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.Migration",
           "name": "upChange",
           "package": "database-migrate",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.PostgreSQL",
           "name": "PostgreSQL",
           "package": "database-migrate",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate PostgreSQL",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.PostgreSQL",
           "name": "PostgreSQL",
           "package": "database-migrate",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.PostgreSQL",
           "name": "migrate",
           "package": "database-migrate",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate PostgreSQL",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.PostgreSQL",
           "name": "migrate",
           "normalized": "DbName-\u003eConnection-\u003eFilePath-\u003e[Migration]-\u003eIO()",
@@ -815,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate.PostgreSQL",
           "name": "psqlMain",
           "package": "database-migrate",
@@ -824,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Database Migrate PostgreSQL",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate.PostgreSQL",
           "name": "psqlMain",
           "normalized": "IO()",
@@ -840,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library to assist with managing database versioning\n and migration.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: This library is under heavy development, currently\n  the PostgreSQL implementation is functional, but\n  expected to change. It is intended that a type safe\n  migration api, command line tools and MySql support be added\n  before this library will be considered stable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:14 UTC 2014",
           "module": "Database.Migrate",
           "name": "Migrate",
           "package": "database-migrate",
@@ -849,6 +924,7 @@
         "index": {
           "description": "library to assist with managing database versioning and migration Note This library is under heavy development currently the PostgreSQL implementation is functional but expected to change It is intended that type safe migration api command line tools and MySql support be added before this library will be considered stable",
           "hierarchy": "Database Migrate",
+          "indexed": "2014-03-11T17:50:14",
           "module": "Database.Migrate",
           "name": "Migrate",
           "package": "database-migrate",

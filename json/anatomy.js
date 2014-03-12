@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "anatomy"
+        "phrase": "anatomy",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tempus"
+        "phrase": "tempus",
+        "type": "phrase"
       },
       "type": "context"
     }

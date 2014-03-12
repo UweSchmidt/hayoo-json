@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "salvia-extras"
+        "phrase": "salvia-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.CleverCSS",
           "name": "CleverCSS",
           "package": "salvia-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler CleverCSS",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.CleverCSS",
           "name": "CleverCSS",
           "package": "salvia-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.CleverCSS",
           "name": "hCleverCSS",
           "package": "salvia-extras",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler CleverCSS",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.CleverCSS",
           "name": "hCleverCSS",
           "normalized": "a()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.CleverCSS",
           "name": "hFilterCSS",
           "package": "salvia-extras",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler CleverCSS",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.CleverCSS",
           "name": "hFilterCSS",
           "normalized": "a()-\u003ea()-\u003ea()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.CleverCSS",
           "name": "hParametrizedCleverCSS",
           "package": "salvia-extras",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler CleverCSS",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.CleverCSS",
           "name": "hParametrizedCleverCSS",
           "normalized": "Parameters-\u003ea()",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "ColorLog",
           "package": "salvia-extras",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler ColorLog",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "ColorLog",
           "package": "salvia-extras",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "Counter",
           "package": "salvia-extras",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler ColorLog",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "Counter",
           "package": "salvia-extras",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "Counter",
           "package": "salvia-extras",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler ColorLog",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "Counter",
           "package": "salvia-extras",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple logger that prints a summery of the request information to the\nspecified file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "hColorLog",
           "package": "salvia-extras",
@@ -186,6 +201,7 @@
         "index": {
           "description": "simple logger that prints summery of the request information to the specified file handle",
           "hierarchy": "Network Salvia Handler ColorLog",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "hColorLog",
           "normalized": "Handle-\u003ea()",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003ehLog\u003c/code\u003e but also prints the request count since server startup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "hColorLogWithCounter",
           "package": "salvia-extras",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Like hLog but also prints the request count since server startup",
           "hierarchy": "Network Salvia Handler ColorLog",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "hColorLogWithCounter",
           "normalized": "Handle-\u003ea()",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis handler simply increases the request counter variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "hCounter",
           "package": "salvia-extras",
@@ -238,6 +257,7 @@
         "index": {
           "description": "This handler simply increases the request counter variable",
           "hierarchy": "Network Salvia Handler ColorLog",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "hCounter",
           "package": "salvia-extras",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "unCounter",
           "package": "salvia-extras",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler ColorLog",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ColorLog",
           "name": "unCounter",
           "package": "salvia-extras",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ExtendedFileSystem",
           "name": "ExtendedFileSystem",
           "package": "salvia-extras",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler ExtendedFileSystem",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ExtendedFileSystem",
           "name": "ExtendedFileSystem",
           "package": "salvia-extras",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ExtendedFileSystem",
           "name": "hExtendedFileSystem",
           "package": "salvia-extras",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler ExtendedFileSystem",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ExtendedFileSystem",
           "name": "hExtendedFileSystem",
           "normalized": "String-\u003ea()",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.ExtendedFileSystem",
           "name": "hExtendedFileSystemSendFile",
           "package": "salvia-extras",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler ExtendedFileSystem",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.ExtendedFileSystem",
           "name": "hExtendedFileSystemSendFile",
           "normalized": "String-\u003ea()",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.FileStore",
           "name": "FileStore",
           "package": "salvia-extras",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler FileStore",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.FileStore",
           "name": "FileStore",
           "package": "salvia-extras",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.FileStore",
           "name": "hFileStore",
           "package": "salvia-extras",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler FileStore",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.FileStore",
           "name": "hFileStore",
           "normalized": "FileStore-\u003eAuthor-\u003eFilePath-\u003ea()",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.FileStore",
           "name": "hFileStoreDirectory",
           "package": "salvia-extras",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler FileStore",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.FileStore",
           "name": "hFileStoreDirectory",
           "normalized": "FileStore-\u003eFilePath-\u003ea()",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.FileStore",
           "name": "hFileStoreFile",
           "package": "salvia-extras",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler FileStore",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.FileStore",
           "name": "hFileStoreFile",
           "normalized": "FileStore-\u003eAuthor-\u003eFilePath-\u003ea()",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "HsColour",
           "package": "salvia-extras",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler HsColour",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "HsColour",
           "package": "salvia-extras",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "defaultStyleSheet",
           "package": "salvia-extras",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler HsColour",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "defaultStyleSheet",
           "package": "salvia-extras",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "hHighlightHaskell",
           "package": "salvia-extras",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler HsColour",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "hHighlightHaskell",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "hHsColour",
           "package": "salvia-extras",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler HsColour",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "hHsColour",
           "normalized": "FilePath-\u003ea()",
@@ -527,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft means direct inclusion of stylesheet, right means link to external\n stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "hHsColourCustomStyle",
           "package": "salvia-extras",
@@ -537,6 +582,7 @@
         "index": {
           "description": "Left means direct inclusion of stylesheet right means link to external stylesheet",
           "hierarchy": "Network Salvia Handler HsColour",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.HsColour",
           "name": "hHsColourCustomStyle",
           "normalized": "Either String String-\u003eFilePath-\u003ea()",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.SendFile",
           "name": "SendFile",
           "package": "salvia-extras",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler SendFile",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.SendFile",
           "name": "SendFile",
           "package": "salvia-extras",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.SendFile",
           "name": "hSendFileResource",
           "package": "salvia-extras",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler SendFile",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.SendFile",
           "name": "hSendFileResource",
           "normalized": "FilePath-\u003ea()",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.StringTemplate",
           "name": "StringTemplate",
           "package": "salvia-extras",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler StringTemplate",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.StringTemplate",
           "name": "StringTemplate",
           "package": "salvia-extras",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Handler.StringTemplate",
           "name": "hStringTemplate",
           "package": "salvia-extras",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler StringTemplate",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Handler.StringTemplate",
           "name": "hStringTemplate",
           "normalized": "FilePath-\u003e[(String,a)]-\u003eb()",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.C10k",
           "name": "C10k",
           "package": "salvia-extras",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl C10k",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.C10k",
           "name": "C10k",
           "package": "salvia-extras",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.C10k",
           "name": "C10kHandler",
           "package": "salvia-extras",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl C10k",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.C10k",
           "name": "C10kHandler",
           "package": "salvia-extras",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.C10k",
           "name": "C10kHandler",
           "package": "salvia-extras",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl C10k",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.C10k",
           "name": "C10kHandler",
           "package": "salvia-extras",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.C10k",
           "name": "runC10kHandler",
           "package": "salvia-extras",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl C10k",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.C10k",
           "name": "runC10kHandler",
           "normalized": "C a b c-\u003eContext b-\u003eIO(c,Context b)",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.C10k",
           "name": "start",
           "package": "salvia-extras",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl C10k",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.C10k",
           "name": "start",
           "normalized": "String-\u003eString-\u003eC a-\u003eC b c()-\u003ec-\u003eIO()",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "Cgi",
           "package": "salvia-extras",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Cgi",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "Cgi",
           "package": "salvia-extras",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "CgiHandler",
           "package": "salvia-extras",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Cgi",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "CgiHandler",
           "package": "salvia-extras",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "CgiHandler",
           "package": "salvia-extras",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Cgi",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "CgiHandler",
           "package": "salvia-extras",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "hCgiEnv",
           "package": "salvia-extras",
@@ -825,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Cgi",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "hCgiEnv",
           "normalized": "a b-\u003ea()",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "runCgiHandler",
           "package": "salvia-extras",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Cgi",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "runCgiHandler",
           "normalized": "CgiHandler a b-\u003eContext a-\u003eIO(b,Context a)",
@@ -864,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:50 UTC 2014",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "start",
           "package": "salvia-extras",
@@ -873,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Cgi",
+          "indexed": "2014-03-11T19:56:50",
           "module": "Network.Salvia.Impl.Cgi",
           "name": "start",
           "normalized": "String-\u003eCgiHandler a()-\u003ea-\u003eIO()",

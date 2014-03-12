@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lha"
+        "phrase": "lha",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides data structures for HEP events, as outlined by the Les\n   Houches Accord (hep-ph/0109068v1). It attempts to be as close as possible to\n   a direct haskell translation of the accord. Other relevant documents include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e L. Garren, I. G. Knowles, T. Sjostrand and T. Trippe, Eur. Phys. J. C\n   15, 205 (2000).\n\u003c/li\u003e\u003cli\u003e H. Plothow-Besch, Comput. Phys. Commun. 75, 396 (1993); CERN Program\n   Library Long Writeup W5051 (2000); refer to\n   \u003ca\u003ehttp://consult.cern.ch/writeup/pdflib/\u003c/a\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "LHA",
           "package": "lha",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides data structures for HEP events as outlined by the Les Houches Accord hep-ph v1 It attempts to be as close as possible to direct haskell translation of the accord Other relevant documents include Garren Knowles Sjostrand and Trippe Eur Phys Plothow-Besch Comput Phys Commun CERN Program Library Long Writeup W5051 refer to http consult.cern.ch writeup pdflib",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "LHA",
           "package": "lha",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the properties of a single beam particle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Beam",
           "package": "lha",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Represents the properties of single beam particle",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Beam",
           "package": "lha",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a generated event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Event",
           "package": "lha",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Describes generated event",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Event",
           "package": "lha",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "MaybePair",
           "package": "lha",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "MaybePair",
           "package": "lha",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a single particle component of a generated event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Particle",
           "package": "lha",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Describes single particle component of generated event",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Particle",
           "package": "lha",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus codes for particles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "ParticleStatus",
           "package": "lha",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Status codes for particles",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "ParticleStatus",
           "package": "lha",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the properties of an event generation run. Note that this data\n   structure does not contain the generated event information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Run",
           "package": "lha",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Describes the properties of an event generation run Note that this data structure does not contain the generated event information",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Run",
           "package": "lha",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the properties of a subprocess.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Subprocess",
           "package": "lha",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Describes the properties of subprocess",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Subprocess",
           "package": "lha",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Beam",
           "package": "lha",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Beam",
           "package": "lha",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to status code +3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "DocumentationOnly",
           "package": "lha",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Corresponds to status code",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "DocumentationOnly",
           "package": "lha",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Event",
           "package": "lha",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Event",
           "package": "lha",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to status code -1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Incoming",
           "package": "lha",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Corresponds to status code",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Incoming",
           "package": "lha",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to status code -9.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "IncomingBeam",
           "package": "lha",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Corresponds to status code",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "IncomingBeam",
           "package": "lha",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to status code +2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "IntermediateResonance",
           "package": "lha",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Corresponds to status code",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "IntermediateResonance",
           "package": "lha",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to status code -2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "IntermediateSpaceLike",
           "package": "lha",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Corresponds to status code",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "IntermediateSpaceLike",
           "package": "lha",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to status code +1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "OutgoingFinal",
           "package": "lha",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Corresponds to status code",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "OutgoingFinal",
           "package": "lha",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "PBoth",
           "package": "lha",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "PBoth",
           "normalized": "PBoth(a,a)",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "POne",
           "package": "lha",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "POne",
           "package": "lha",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "PZero",
           "package": "lha",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "PZero",
           "package": "lha",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Particle",
           "package": "lha",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Particle",
           "package": "lha",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Run",
           "package": "lha",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Run",
           "package": "lha",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "Subprocess",
           "package": "lha",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "Subprocess",
           "package": "lha",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "aQCD",
           "package": "lha",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "aQCD",
           "package": "lha",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "aQED",
           "package": "lha",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "aQED",
           "package": "lha",
@@ -567,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy in GeV of the beam particle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "beamE",
           "package": "lha",
@@ -577,6 +626,7 @@
         "index": {
           "description": "Energy in GeV of the beam particle",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "beamE",
           "package": "lha",
@@ -590,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the beam particle according to the Particle Data Group convention.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "beamPDG",
           "package": "lha",
@@ -600,6 +651,7 @@
         "index": {
           "description": "ID of the beam particle according to the Particle Data Group convention",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "beamPDG",
           "package": "lha",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ID of the subprocess used to generate this event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "evProcId",
           "package": "lha",
@@ -624,6 +677,7 @@
         "index": {
           "description": "The ID of the subprocess used to generate this event",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "evProcId",
           "package": "lha",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "evWeight",
           "package": "lha",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "evWeight",
           "package": "lha",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "iColor",
           "package": "lha",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "iColor",
           "normalized": "(Int,Int)",
@@ -684,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch dictating how the event weights are to be interpreted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "idwt",
           "package": "lha",
@@ -694,6 +753,7 @@
         "index": {
           "description": "Switch dictating how the event weights are to be interpreted",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "idwt",
           "package": "lha",
@@ -707,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lifetime of the particle, in mm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "lifetime",
           "package": "lha",
@@ -717,6 +778,7 @@
         "index": {
           "description": "The lifetime of the particle in mm",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "lifetime",
           "package": "lha",
@@ -730,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mother particles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "mothers",
           "package": "lha",
@@ -740,6 +803,7 @@
         "index": {
           "description": "The mother particles",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "mothers",
           "package": "lha",
@@ -753,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of particles in this event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "nPart",
           "package": "lha",
@@ -763,6 +828,7 @@
         "index": {
           "description": "The number of particles in this event",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "nPart",
           "package": "lha",
@@ -777,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of different subprocesses being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "nProc",
           "package": "lha",
@@ -787,6 +854,7 @@
         "index": {
           "description": "The number of different subprocesses being used",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "nProc",
           "package": "lha",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "partE",
           "package": "lha",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "partE",
           "package": "lha",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "partM",
           "package": "lha",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "partM",
           "package": "lha",
@@ -843,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the particle according to the Particle Data Group convention.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "partPDG",
           "package": "lha",
@@ -853,6 +926,7 @@
         "index": {
           "description": "ID of the particle according to the Particle Data Group convention",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "partPDG",
           "package": "lha",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "partPx",
           "package": "lha",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "partPx",
           "package": "lha",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "partPy",
           "package": "lha",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "partPy",
           "package": "lha",
@@ -910,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "partPz",
           "package": "lha",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "partPz",
           "package": "lha",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "parts",
           "package": "lha",
@@ -941,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "parts",
           "normalized": "[Particle]",
@@ -956,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthor group for the beam, according to the Cernlib PDFlib specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "pdfg",
           "package": "lha",
@@ -966,6 +1049,7 @@
         "index": {
           "description": "Author group for the beam according to the Cernlib PDFlib specification",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "pdfg",
           "package": "lha",
@@ -979,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePDF set ID for the beam, according to the Cernlib PDFlib specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "pdfs",
           "package": "lha",
@@ -989,6 +1074,7 @@
         "index": {
           "description": "PDF set ID for the beam according to the Cernlib PDFlib specification",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "pdfs",
           "package": "lha",
@@ -1001,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "procId",
           "package": "lha",
@@ -1010,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "procId",
           "package": "lha",
@@ -1024,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe statistical error associated with the value of procXSec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "procXErr",
           "package": "lha",
@@ -1034,6 +1123,7 @@
         "index": {
           "description": "The statistical error associated with the value of procXSec",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "procXErr",
           "package": "lha",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "procXMax",
           "package": "lha",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "procXMax",
           "package": "lha",
@@ -1070,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cross-section of this subprocess, in pb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "procXSec",
           "package": "lha",
@@ -1080,6 +1173,7 @@
         "index": {
           "description": "The cross-section of this subprocess in pb",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "procXSec",
           "package": "lha",
@@ -1094,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all subprocesses being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "procs",
           "package": "lha",
@@ -1104,6 +1199,7 @@
         "index": {
           "description": "List of all subprocesses being used",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "procs",
           "normalized": "[Subprocess]",
@@ -1119,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe properties of the two beams being used in this run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "runBeam",
           "package": "lha",
@@ -1129,6 +1226,7 @@
         "index": {
           "description": "The properties of the two beams being used in this run",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "runBeam",
           "normalized": "(Beam,Beam)",
@@ -1145,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe scale of the event, in GeV.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "scale",
           "package": "lha",
@@ -1155,6 +1254,7 @@
         "index": {
           "description": "The scale of the event in GeV",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "scale",
           "package": "lha",
@@ -1167,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "spin",
           "package": "lha",
@@ -1176,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "spin",
           "package": "lha",
@@ -1189,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus code of the particle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "status",
           "package": "lha",
@@ -1199,6 +1302,7 @@
         "index": {
           "description": "Status code of the particle",
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "status",
           "package": "lha",
@@ -1211,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "statusFromInt",
           "package": "lha",
@@ -1220,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "statusFromInt",
           "normalized": "a-\u003eParticleStatus",
@@ -1235,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:01 UTC 2014",
           "module": "Data.LHA",
           "name": "statusToInt",
           "package": "lha",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Data LHA",
+          "indexed": "2014-03-11T19:08:01",
           "module": "Data.LHA",
           "name": "statusToInt",
           "normalized": "ParticleStatus-\u003ea",

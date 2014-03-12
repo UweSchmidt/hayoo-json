@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "soegtk"
+        "phrase": "soegtk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn alternative implementation of the graphics library used in The Haskell\n School of Expression, by Paul Hudak, \u003ca\u003ehttp://www.haskell.org/soe/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIt has exaclty the same interface as the original implementation\n \u003ca\u003eGraphics.SOE\u003c/a\u003e. See the original for an API reference.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Gtk",
           "package": "soegtk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An alternative implementation of the graphics library used in The Haskell School of Expression by Paul Hudak http www.haskell.org soe It has exaclty the same interface as the original implementation Graphics.SOE See the original for an API reference",
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Gtk",
           "package": "soegtk",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Angle",
           "package": "soegtk",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Angle",
           "package": "soegtk",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Color",
           "package": "soegtk",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Color",
           "package": "soegtk",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Event",
           "package": "soegtk",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Event",
           "package": "soegtk",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Graphic",
           "package": "soegtk",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Graphic",
           "package": "soegtk",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Point",
           "package": "soegtk",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Point",
           "package": "soegtk",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "RedrawMode",
           "package": "soegtk",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "RedrawMode",
           "package": "soegtk",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Region",
           "package": "soegtk",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Region",
           "package": "soegtk",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Size",
           "package": "soegtk",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Size",
           "package": "soegtk",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Title",
           "package": "soegtk",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Title",
           "package": "soegtk",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Window",
           "package": "soegtk",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Window",
           "package": "soegtk",
@@ -252,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Word32",
           "package": "soegtk",
@@ -260,6 +283,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Word32",
           "package": "soegtk",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Black",
           "package": "soegtk",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Black",
           "package": "soegtk",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Blue",
           "package": "soegtk",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Blue",
           "package": "soegtk",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Button",
           "package": "soegtk",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Button",
           "package": "soegtk",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Closed",
           "package": "soegtk",
@@ -348,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Closed",
           "package": "soegtk",
@@ -361,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Cyan",
           "package": "soegtk",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Cyan",
           "package": "soegtk",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Green",
           "package": "soegtk",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Green",
           "package": "soegtk",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Key",
           "package": "soegtk",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Key",
           "package": "soegtk",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Magenta",
           "package": "soegtk",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Magenta",
           "package": "soegtk",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "MouseMove",
           "package": "soegtk",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "MouseMove",
           "package": "soegtk",
@@ -471,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Red",
           "package": "soegtk",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Red",
           "package": "soegtk",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Resize",
           "package": "soegtk",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Resize",
           "package": "soegtk",
@@ -515,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "White",
           "package": "soegtk",
@@ -524,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "White",
           "package": "soegtk",
@@ -537,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "Yellow",
           "package": "soegtk",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "Yellow",
           "package": "soegtk",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "andRegion",
           "package": "soegtk",
@@ -568,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "andRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -583,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "arc",
           "package": "soegtk",
@@ -592,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "arc",
           "normalized": "Point-\u003ePoint-\u003eAngle-\u003eAngle-\u003eGraphic",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "char",
           "package": "soegtk",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "char",
           "package": "soegtk",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "clearWindow",
           "package": "soegtk",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "clearWindow",
           "normalized": "Window-\u003eIO()",
@@ -651,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "closeWindow",
           "package": "soegtk",
@@ -660,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "closeWindow",
           "normalized": "Window-\u003eIO()",
@@ -675,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "createEllipse",
           "package": "soegtk",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "createEllipse",
           "normalized": "Point-\u003ePoint-\u003eRegion",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "createPolygon",
           "package": "soegtk",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "createPolygon",
           "normalized": "[Point]-\u003eRegion",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "createRectangle",
           "package": "soegtk",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "createRectangle",
           "normalized": "Point-\u003ePoint-\u003eRegion",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "diffRegion",
           "package": "soegtk",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "diffRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "drawBufferedGraphic",
           "package": "soegtk",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "drawBufferedGraphic",
           "package": "soegtk",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "drawGraphic",
           "package": "soegtk",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "drawGraphic",
           "package": "soegtk",
@@ -815,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "drawInWindow",
           "package": "soegtk",
@@ -824,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "drawInWindow",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "drawInWindowNow",
           "package": "soegtk",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "drawInWindowNow",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "drawRegion",
           "package": "soegtk",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "drawRegion",
           "normalized": "Region-\u003eGraphic",
@@ -887,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "ellipse",
           "package": "soegtk",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "ellipse",
           "normalized": "Point-\u003ePoint-\u003eGraphic",
@@ -910,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "emptyGraphic",
           "package": "soegtk",
@@ -919,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "emptyGraphic",
           "package": "soegtk",
@@ -932,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "getKey",
           "package": "soegtk",
@@ -941,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "getKey",
           "normalized": "Window-\u003eIO Char",
@@ -956,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "getLBP",
           "package": "soegtk",
@@ -965,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "getLBP",
           "normalized": "Window-\u003eIO Point",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "getRBP",
           "package": "soegtk",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "getRBP",
           "normalized": "Window-\u003eIO Point",
@@ -1004,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "getWindowEvent",
           "package": "soegtk",
@@ -1013,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "getWindowEvent",
           "normalized": "Window-\u003eIO Event",
@@ -1028,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "getWindowSize",
           "package": "soegtk",
@@ -1037,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "getWindowSize",
           "normalized": "Window-\u003eIO Size",
@@ -1052,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "getWindowTick",
           "package": "soegtk",
@@ -1061,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "getWindowTick",
           "normalized": "Window-\u003eIO()",
@@ -1076,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "isDown",
           "package": "soegtk",
@@ -1085,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "isDown",
           "package": "soegtk",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "isLeft",
           "package": "soegtk",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "isLeft",
           "package": "soegtk",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "line",
           "package": "soegtk",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "line",
           "normalized": "Point-\u003ePoint-\u003eGraphic",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "maybeGetWindowEvent",
           "package": "soegtk",
@@ -1152,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "maybeGetWindowEvent",
           "normalized": "Window-\u003eIO(Maybe Event)",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "openWindow",
           "package": "soegtk",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "openWindow",
           "normalized": "Title-\u003eSize-\u003eIO Window",
@@ -1191,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "openWindowEx",
           "package": "soegtk",
@@ -1200,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "openWindowEx",
           "normalized": "Title-\u003eMaybe Point-\u003eMaybe Size-\u003eRedrawMode-\u003eMaybe Time-\u003eIO Window",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "orRegion",
           "package": "soegtk",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "orRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -1239,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "overGraphic",
           "package": "soegtk",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "overGraphic",
           "normalized": "Graphic-\u003eGraphic-\u003eGraphic",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "overGraphics",
           "package": "soegtk",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "overGraphics",
           "normalized": "[Graphic]-\u003eGraphic",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "polyBezier",
           "package": "soegtk",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "polyBezier",
           "normalized": "[Point]-\u003eGraphic",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "polygon",
           "package": "soegtk",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "polygon",
           "normalized": "[Point]-\u003eGraphic",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "polyline",
           "package": "soegtk",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "polyline",
           "normalized": "[Point]-\u003eGraphic",
@@ -1357,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "pt",
           "package": "soegtk",
@@ -1366,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "pt",
           "package": "soegtk",
@@ -1378,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "runGraphics",
           "package": "soegtk",
@@ -1387,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "runGraphics",
           "normalized": "IO()-\u003eIO()",
@@ -1402,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "setGraphic",
           "package": "soegtk",
@@ -1411,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "setGraphic",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -1426,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "shearEllipse",
           "package": "soegtk",
@@ -1435,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "shearEllipse",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003eGraphic",
@@ -1450,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "text",
           "package": "soegtk",
@@ -1459,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "text",
           "normalized": "Point-\u003eString-\u003eGraphic",
@@ -1473,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "timeGetTime",
           "package": "soegtk",
@@ -1482,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "timeGetTime",
           "package": "soegtk",
@@ -1495,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "withColor",
           "package": "soegtk",
@@ -1504,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "withColor",
           "normalized": "Color-\u003eGraphic-\u003eGraphic",
@@ -1519,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "word32ToInt",
           "package": "soegtk",
@@ -1528,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "word32ToInt",
           "normalized": "Word-\u003eInt",
@@ -1543,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:07 UTC 2014",
           "module": "Graphics.SOE.Gtk",
           "name": "xorRegion",
           "package": "soegtk",
@@ -1552,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE Gtk",
+          "indexed": "2014-03-11T20:07:07",
           "module": "Graphics.SOE.Gtk",
           "name": "xorRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",

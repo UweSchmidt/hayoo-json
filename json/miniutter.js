@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "miniutter"
+        "phrase": "miniutter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple English clause creation parameterized by individual words.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "English",
           "package": "miniutter",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple English clause creation parameterized by individual words",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "English",
           "package": "miniutter",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNouns with irregular plural form and nouns with irregular indefinite\n article.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Irregular",
           "package": "miniutter",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Nouns with irregular plural form and nouns with irregular indefinite article",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Irregular",
           "package": "miniutter",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarious basic and compound parts of English simple present tense clauses.\n Many of the possible nestings do not make sense. We don't care.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Part",
           "package": "miniutter",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Various basic and compound parts of English simple present tense clauses Many of the possible nestings do not make sense We don care",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Part",
           "package": "miniutter",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersons: singular 1st, singular 3rd and the rest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Person",
           "package": "miniutter",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Persons singular st singular rd and the rest",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Person",
           "package": "miniutter",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized polarity: affirmative, negative, interrogative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Polarity",
           "package": "miniutter",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Generalized polarity affirmative negative interrogative",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Polarity",
           "package": "miniutter",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparated by space unless one of them is empty (in which case just\n   the non-empty one).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "(\u003c+\u003e)",
           "package": "miniutter",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Separated by space unless one of them is empty in which case just the non-empty one",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Text-\u003eText-\u003eText",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "(\u003c\u003e)",
           "package": "miniutter",
@@ -167,6 +180,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno space in between\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": ":\u003e",
           "package": "miniutter",
@@ -192,6 +207,7 @@
         "index": {
           "description": "no space in between",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": ":\u003e",
           "package": "miniutter",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ephrase with indefinite article\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "AW",
           "package": "miniutter",
@@ -215,6 +232,7 @@
         "index": {
           "description": "phrase with indefinite article",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "AW",
           "package": "miniutter",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake the first letter into a capital letter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Capitalize",
           "package": "miniutter",
@@ -239,6 +258,7 @@
         "index": {
           "description": "make the first letter into capital letter",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Capitalize",
           "package": "miniutter",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplural prefixed with a cardinal, not spelled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "CarWs",
           "package": "miniutter",
@@ -263,6 +284,7 @@
         "index": {
           "description": "plural prefixed with cardinal not spelled",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "CarWs",
           "package": "miniutter",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecardinal number, spelled in full up to 10\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Cardinal",
           "package": "miniutter",
@@ -287,6 +310,7 @@
         "index": {
           "description": "cardinal number spelled in full up to",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Cardinal",
           "package": "miniutter",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplural prefixed with a cardinal, spelled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "CardinalWs",
           "package": "miniutter",
@@ -311,6 +336,7 @@
         "index": {
           "description": "plural prefixed with cardinal spelled",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "CardinalWs",
           "package": "miniutter",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "No",
           "package": "miniutter",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "No",
           "package": "miniutter",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinal number, not spelled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Ord",
           "package": "miniutter",
@@ -357,6 +386,7 @@
         "index": {
           "description": "ordinal number not spelled",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Ord",
           "package": "miniutter",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinal number, spelled in full up to 10\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Ordinal",
           "package": "miniutter",
@@ -381,6 +412,7 @@
         "index": {
           "description": "ordinal number spelled in full up to",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Ordinal",
           "package": "miniutter",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003espace-separated sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Phrase",
           "package": "miniutter",
@@ -405,6 +438,7 @@
         "index": {
           "description": "space-separated sequence",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Phrase",
           "normalized": "Phrase[Part]",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "PlEtc",
           "package": "miniutter",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "PlEtc",
           "package": "miniutter",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Sg1st",
           "package": "miniutter",
@@ -451,6 +488,7 @@
         },
         "index": {
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Sg1st",
           "package": "miniutter",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Sg3rd",
           "package": "miniutter",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Sg3rd",
           "package": "miniutter",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehandle for a String parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "String",
           "package": "miniutter",
@@ -497,6 +538,7 @@
         "index": {
           "description": "handle for String parameter",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "String",
           "package": "miniutter",
@@ -511,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econjugation according to polarity,\n with a default person (pronouns override it)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "SubjectVerb",
           "package": "miniutter",
@@ -521,6 +564,7 @@
         "index": {
           "description": "conjugation according to polarity with default person pronouns override it",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "SubjectVerb",
           "package": "miniutter",
@@ -535,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea shorthand for Sg3rd and Yes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "SubjectVerbSg",
           "package": "miniutter",
@@ -545,6 +590,7 @@
         "index": {
           "description": "shorthand for Sg3rd and Yes",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "SubjectVerbSg",
           "package": "miniutter",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehandle for a Text parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Text",
           "package": "miniutter",
@@ -569,6 +616,7 @@
         "index": {
           "description": "handle for Text parameter",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Text",
           "package": "miniutter",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenumeration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "WWandW",
           "package": "miniutter",
@@ -593,6 +642,7 @@
         "index": {
           "description": "enumeration",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "WWandW",
           "normalized": "WWandW[Part]",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecollection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "WWxW",
           "package": "miniutter",
@@ -619,6 +670,7 @@
         "index": {
           "description": "collection",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "WWxW",
           "normalized": "WWxW Part[Part]",
@@ -634,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Why",
           "package": "miniutter",
@@ -643,6 +696,7 @@
         },
         "index": {
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Why",
           "package": "miniutter",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-premodifying possesive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Wown",
           "package": "miniutter",
@@ -667,6 +722,7 @@
         "index": {
           "description": "non-premodifying possesive",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Wown",
           "package": "miniutter",
@@ -681,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eattributive possesive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "WownW",
           "package": "miniutter",
@@ -691,6 +748,7 @@
         "index": {
           "description": "attributive possesive",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "WownW",
           "package": "miniutter",
@@ -705,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplural form of a phrase\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Ws",
           "package": "miniutter",
@@ -715,6 +774,7 @@
         "index": {
           "description": "plural form of phrase",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Ws",
           "package": "miniutter",
@@ -728,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "Yes",
           "package": "miniutter",
@@ -737,6 +798,7 @@
         },
         "index": {
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "Yes",
           "package": "miniutter",
@@ -751,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault set of words with irregular forms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "defIrregular",
           "package": "miniutter",
@@ -761,6 +824,7 @@
         "index": {
           "description": "Default set of words with irregular forms",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "defIrregular",
           "package": "miniutter",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRealise a phrase. The spacing between parts resembles\n the semantics of \u003ccode\u003e(\u003c+\u003e)\u003c/code\u003e, that is, it ignores empty words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "makePhrase",
           "package": "miniutter",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Realise phrase The spacing between parts resembles the semantics of that is it ignores empty words",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "makePhrase",
           "normalized": "Irregular-\u003e[Part]-\u003eText",
@@ -801,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRealise a complete sentence, capitalized, ending with a dot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:28 UTC 2014",
           "module": "NLP.Miniutter.English",
           "name": "makeSentence",
           "package": "miniutter",
@@ -811,6 +878,7 @@
         "index": {
           "description": "Realise complete sentence capitalized ending with dot",
           "hierarchy": "NLP Miniutter English",
+          "indexed": "2014-03-11T19:18:28",
           "module": "NLP.Miniutter.English",
           "name": "makeSentence",
           "normalized": "Irregular-\u003e[Part]-\u003eText",

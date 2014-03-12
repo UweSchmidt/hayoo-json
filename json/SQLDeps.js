@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SQLDeps"
+        "phrase": "SQLDeps",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe core engine for keeping track of computations and their dependencies. Check the Example.hs for\nan example use.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Engine",
           "name": "Engine",
           "package": "SQLDeps",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The core engine for keeping track of computations and their dependencies Check the Example.hs for an example use",
           "hierarchy": "Database SQLDeps Engine",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Engine",
           "name": "Engine",
           "package": "SQLDeps",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier given by the user to a computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Engine",
           "name": "CompId",
           "package": "SQLDeps",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Unique identifier given by the user to computation",
           "hierarchy": "Database SQLDeps Engine",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Engine",
           "name": "CompId",
           "package": "SQLDeps",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe engines monad, keeping track of queries, dependencies, computations\n and the connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Engine",
           "name": "DepsM",
           "package": "SQLDeps",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The engines monad keeping track of queries dependencies computations and the connection",
           "hierarchy": "Database SQLDeps Engine",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Engine",
           "name": "DepsM",
           "package": "SQLDeps",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an update/insert query on the database. All depending computations\n will be run after the update/insert is commited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Engine",
           "name": "change",
           "package": "SQLDeps",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Run an update insert query on the database All depending computations will be run after the update insert is commited",
           "hierarchy": "Database SQLDeps Engine",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Engine",
           "name": "change",
           "normalized": "Upsert-\u003eDepsM a()",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a query and register it's parent computation. Important: Keep the CompId unique for\n every unique computation, otherwise you will run into errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Engine",
           "name": "query",
           "package": "SQLDeps",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Run query and register it parent computation Important Keep the CompId unique for every unique computation otherwise you will run into errors",
           "hierarchy": "Database SQLDeps Engine",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Engine",
           "name": "query",
           "normalized": "Select-\u003eCompId-\u003eDepsM a()-\u003eDepsM a[[SqlValue]]",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart the frameworks engine with a given HDBC-Connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Engine",
           "name": "runEngine",
           "package": "SQLDeps",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Start the frameworks engine with given HDBC-Connection",
           "hierarchy": "Database SQLDeps Engine",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Engine",
           "name": "runEngine",
           "normalized": "a-\u003eDepsM a b-\u003eIO b",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple type definitions for SQLDeps\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "Types",
           "package": "SQLDeps",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Simple type definitions for SQLDeps",
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "Types",
           "package": "SQLDeps",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "FieldName",
           "package": "SQLDeps",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "FieldName",
           "package": "SQLDeps",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "FieldVal",
           "package": "SQLDeps",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "FieldVal",
           "package": "SQLDeps",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "Filter",
           "package": "SQLDeps",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "Filter",
           "package": "SQLDeps",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "Select",
           "package": "SQLDeps",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "Select",
           "package": "SQLDeps",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "TableName",
           "package": "SQLDeps",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "TableName",
           "package": "SQLDeps",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "Upsert",
           "package": "SQLDeps",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "Upsert",
           "package": "SQLDeps",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "EqualTo",
           "package": "SQLDeps",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "EqualTo",
           "package": "SQLDeps",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "Insert",
           "package": "SQLDeps",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "Insert",
           "normalized": "Insert TableName[(FieldName,FieldVal)]",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "IntVal",
           "package": "SQLDeps",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "IntVal",
           "package": "SQLDeps",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "LargerThan",
           "package": "SQLDeps",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "LargerThan",
           "package": "SQLDeps",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "Select",
           "package": "SQLDeps",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "Select",
           "normalized": "Select[FieldName][TableName][Filter]",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "SmallerThan",
           "package": "SQLDeps",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "SmallerThan",
           "package": "SQLDeps",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "StrVal",
           "package": "SQLDeps",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "StrVal",
           "package": "SQLDeps",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps.Types",
           "name": "Update",
           "package": "SQLDeps",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Database SQLDeps Types",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps.Types",
           "name": "Update",
           "normalized": "Update TableName[(FieldName,FieldVal)][Filter]",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReexport public modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:43 UTC 2014",
           "module": "Database.SQLDeps",
           "name": "SQLDeps",
           "package": "SQLDeps",
@@ -504,6 +547,7 @@
         "index": {
           "description": "Reexport public modules",
           "hierarchy": "Database SQLDeps",
+          "indexed": "2014-03-11T16:59:43",
           "module": "Database.SQLDeps",
           "name": "SQLDeps",
           "package": "SQLDeps",

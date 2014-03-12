@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixed-vector"
+        "phrase": "fixed-vector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVector which could hold any value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Boxed",
           "package": "fixed-vector",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Vector which could hold any value",
           "hierarchy": "Data Vector Fixed Boxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Boxed",
           "package": "fixed-vector",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable unboxed vector with fixed length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "MVec",
           "package": "fixed-vector",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Mutable unboxed vector with fixed length",
           "hierarchy": "Data Vector Fixed Boxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "MVec",
           "package": "fixed-vector",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector with fixed length which can hold any value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec",
           "package": "fixed-vector",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Vector with fixed length which can hold any value",
           "hierarchy": "Data Vector Fixed Boxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec",
           "package": "fixed-vector",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec1",
           "package": "fixed-vector",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Boxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec1",
           "package": "fixed-vector",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec2",
           "package": "fixed-vector",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Boxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec2",
           "package": "fixed-vector",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec3",
           "package": "fixed-vector",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Boxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec3",
           "package": "fixed-vector",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec4",
           "package": "fixed-vector",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Boxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec4",
           "package": "fixed-vector",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec5",
           "package": "fixed-vector",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Boxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Boxed",
           "name": "Vec5",
           "package": "fixed-vector",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAPI for Church-encoded vectors. Implementation of function from\n \u003ca\u003eData.Vector.Fixed\u003c/a\u003e module uses these function internally in order\n to provide shortcut fusion.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Cont",
           "package": "fixed-vector",
@@ -202,6 +219,7 @@
         "index": {
           "description": "API for Church-encoded vectors Implementation of function from Data.Vector.Fixed module uses these function internally in order to provide shortcut fusion",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Cont",
           "package": "fixed-vector",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for handling \u003cem\u003en\u003c/em\u003e-ary functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Arity",
           "package": "fixed-vector",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Type class for handling ary functions",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Arity",
           "package": "fixed-vector",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector represented as continuation. Alternative wording: it's\n   Church encoded N-element vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ContVec",
           "package": "fixed-vector",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Vector represented as continuation Alternative wording it Church encoded N-element vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ContVec",
           "package": "fixed-vector",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType family for n-ary functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Fn",
           "package": "fixed-vector",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Type family for n-ary functions",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Fn",
           "package": "fixed-vector",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper which is used to make \u003ccode\u003e\u003ca\u003eFn\u003c/a\u003e\u003c/code\u003e injective. It's also a\n   reader monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Fun",
           "package": "fixed-vector",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Newtype wrapper which is used to make Fn injective It also reader monad",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Fun",
           "package": "fixed-vector",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for indexing of vector when index value is known at\n   compile time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Index",
           "package": "fixed-vector",
@@ -341,6 +368,7 @@
         "index": {
           "description": "Type class for indexing of vector when index value is known at compile time",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Index",
           "package": "fixed-vector",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N1",
           "package": "fixed-vector",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N1",
           "package": "fixed-vector",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N2",
           "package": "fixed-vector",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N2",
           "package": "fixed-vector",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N3",
           "package": "fixed-vector",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N3",
           "package": "fixed-vector",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N4",
           "package": "fixed-vector",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N4",
           "package": "fixed-vector",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N5",
           "package": "fixed-vector",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N5",
           "package": "fixed-vector",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N6",
           "package": "fixed-vector",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "N6",
           "package": "fixed-vector",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessor of n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "S",
           "package": "fixed-vector",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Successor of",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "S",
           "package": "fixed-vector",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for vectors with fixed length. Instance should provide\n two functions: one to create vector and another for vector\n deconstruction. They must obey following law:\n\u003c/p\u003e\u003cpre\u003e inspect v construct = v\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Vector",
           "package": "fixed-vector",
@@ -506,6 +549,7 @@
         "index": {
           "description": "Type class for vectors with fixed length Instance should provide two functions one to create vector and another for vector deconstruction They must obey following law inspect construct",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Vector",
           "package": "fixed-vector",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector parametrized by length. In ideal world it should be:\n\u003c/p\u003e\u003cpre\u003e forall n. (Arity n, Vector (v n) a, Dim (v n) ~ n) =\u003e VectorN v a\n\u003c/pre\u003e\u003cp\u003eAlas polymorphic constraints aren't allowed in haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "VectorN",
           "package": "fixed-vector",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Vector parametrized by length In ideal world it should be forall Arity Vector Dim VectorN Alas polymorphic constraints aren allowed in haskell",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "VectorN",
           "package": "fixed-vector",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Z",
           "package": "fixed-vector",
@@ -552,6 +599,7 @@
         "index": {
           "description": "Type level zero",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "Z",
           "package": "fixed-vector",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ContVec",
           "package": "fixed-vector",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ContVec",
           "normalized": "ContVec(a b Fun c d e-\u003ee)",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold over \u003cem\u003en\u003c/em\u003e elements exposed as n-ary function. These\n   elements are supplied as arguments to the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "accum",
           "package": "fixed-vector",
@@ -622,6 +673,7 @@
         "index": {
           "description": "Left fold over elements exposed as n-ary function These elements are supplied as arguments to the function",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "accum",
           "package": "fixed-vector",
@@ -635,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether all elements of vector satisfy predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "all",
           "package": "fixed-vector",
@@ -645,6 +698,7 @@
         "index": {
           "description": "Determines whether all elements of vector satisfy predicate",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eContVec b a-\u003eBool",
@@ -660,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction of elements of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "and",
           "package": "fixed-vector",
@@ -670,6 +725,7 @@
         "index": {
           "description": "Conjunction of elements of vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "and",
           "normalized": "ContVec a Bool-\u003eBool",
@@ -685,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether any of element of vector satisfy predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "any",
           "package": "fixed-vector",
@@ -695,6 +752,7 @@
         "index": {
           "description": "Determines whether any of element of vector satisfy predicate",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eContVec b a-\u003eBool",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply single parameter to function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "apFun",
           "package": "fixed-vector",
@@ -720,6 +779,7 @@
         "index": {
           "description": "Apply single parameter to function",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "apFun",
           "normalized": "Fun(S a)b c-\u003eb-\u003eFun a b c",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply last parameter to function. Unlike \u003ccode\u003e\u003ca\u003eapFun\u003c/a\u003e\u003c/code\u003e we need to\n   traverse all parameters but last hence \u003ccode\u003e\u003ca\u003eArity\u003c/a\u003e\u003c/code\u003e constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "apLast",
           "package": "fixed-vector",
@@ -746,6 +807,7 @@
         "index": {
           "description": "Apply last parameter to function Unlike apFun we need to traverse all parameters but last hence Arity constraint",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "apLast",
           "normalized": "Fun(S a)b c-\u003eb-\u003eFun a b c",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply all parameters to the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "apply",
           "package": "fixed-vector",
@@ -771,6 +834,7 @@
         "index": {
           "description": "Apply all parameters to the function",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "apply",
           "normalized": "(a b c(S d)-\u003e(e,c d))-\u003ec f-\u003eFn f e g-\u003eg",
@@ -786,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply all parameters to the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "applyFun",
           "package": "fixed-vector",
@@ -796,6 +861,7 @@
         "index": {
           "description": "Apply all parameters to the function",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "applyFun",
           "package": "fixed-vector",
@@ -810,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply all parameters to the function using monadic\n   actions. Note that for identity monad it's same as\n   applyFun. Ignoring newtypes:\n\u003c/p\u003e\u003cpre\u003e forall b. Fn n a b -\u003e b  ~ ContVecn n a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "applyFunM",
           "package": "fixed-vector",
@@ -820,6 +887,7 @@
         "index": {
           "description": "Apply all parameters to the function using monadic actions Note that for identity monad it same as applyFun Ignoring newtypes forall Fn ContVecn",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "applyFunM",
           "package": "fixed-vector",
@@ -834,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply all parameters to the function using monadic actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "applyM",
           "package": "fixed-vector",
@@ -843,6 +912,7 @@
         "index": {
           "description": "Apply all parameters to the function using monadic actions",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "applyM",
           "normalized": "(a b c(S d)-\u003ee(f,c d))-\u003ec g-\u003ee(ContVec g f)",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArity of function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "arity",
           "package": "fixed-vector",
@@ -868,6 +939,7 @@
         "index": {
           "description": "Arity of function",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "arity",
           "normalized": "a-\u003eInt",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional more efficient implementation of indexing. Shouldn't\n   be used directly, use \u003ccode\u003e\u003ca\u003e!\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "basicIndex",
           "package": "fixed-vector",
@@ -893,6 +966,7 @@
         "index": {
           "description": "Optional more efficient implementation of indexing Shouldn be used directly use instead",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "basicIndex",
           "normalized": "a b-\u003eInt-\u003eb",
@@ -909,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit vector along Nth axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "basis",
           "package": "fixed-vector",
@@ -919,6 +994,7 @@
         "index": {
           "description": "Unit vector along Nth axis",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "basis",
           "normalized": "Int-\u003eContVec a b",
@@ -933,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "collect",
           "package": "fixed-vector",
@@ -942,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "collect",
           "normalized": "(a-\u003eContVec b c)-\u003ed a-\u003eContVec b(d c)",
@@ -956,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "collectM",
           "package": "fixed-vector",
@@ -965,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "collectM",
           "normalized": "(a-\u003eContVec b c)-\u003ed a-\u003eContVec b(d c)",
@@ -980,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Prepend element to vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "cons",
           "package": "fixed-vector",
@@ -990,6 +1071,7 @@
         "index": {
           "description": "Prepend element to vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "cons",
           "normalized": "a-\u003eContVec b a-\u003eContVec(S b)a",
@@ -1005,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend single element to vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "consV",
           "package": "fixed-vector",
@@ -1015,6 +1098,7 @@
         "index": {
           "description": "Prepend single element to vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "consV",
           "normalized": "a b c ContVec(S Z)d-\u003eContVec b d-\u003eContVec(S b)d",
@@ -1030,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd one parameter to function which is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "constFun",
           "package": "fixed-vector",
@@ -1040,6 +1125,7 @@
         "index": {
           "description": "Add one parameter to function which is ignored",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "constFun",
           "normalized": "Fun a b c-\u003eFun(S a)b c",
@@ -1056,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN-ary function for creation of vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "construct",
           "package": "fixed-vector",
@@ -1066,6 +1153,7 @@
         "index": {
           "description": "N-ary function for creation of vectors",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "construct",
           "package": "fixed-vector",
@@ -1079,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert regular vector to continuation based one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "cvec",
           "package": "fixed-vector",
@@ -1089,6 +1178,7 @@
         "index": {
           "description": "Convert regular vector to continuation based one",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "cvec",
           "normalized": "a b-\u003eContVec c b",
@@ -1104,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of sequenceA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "distribute",
           "package": "fixed-vector",
@@ -1114,6 +1205,7 @@
         "index": {
           "description": "The dual of sequenceA",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "distribute",
           "normalized": "a(ContVec b c)-\u003eContVec b(a c)",
@@ -1129,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "distributeM",
           "package": "fixed-vector",
@@ -1139,6 +1232,7 @@
         "index": {
           "description": "The dual of sequence",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "distributeM",
           "normalized": "a(ContVec b c)-\u003eContVec b(a c)",
@@ -1154,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwan van Laarhoven lens for continuation based vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "element",
           "package": "fixed-vector",
@@ -1164,6 +1259,7 @@
         "index": {
           "description": "Twan van Laarhoven lens for continuation based vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "element",
           "normalized": "Int-\u003e(a-\u003eb a)-\u003eContVec c a-\u003eb(ContVec c a)",
@@ -1179,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwan van Laarhoven's lens for element of vector with statically\n   known index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "elementTy",
           "package": "fixed-vector",
@@ -1189,6 +1286,7 @@
         "index": {
           "description": "Twan van Laarhoven lens for element of vector with statically known index",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "elementTy",
           "normalized": "a-\u003e(b-\u003ec b)-\u003eContVec d b-\u003ec(ContVec d b)",
@@ -1229,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic left fold over continuation vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "foldM",
           "package": "fixed-vector",
@@ -1239,6 +1338,7 @@
         "index": {
           "description": "Monadic left fold over continuation vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "foldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003eContVec d b-\u003ec a",
@@ -1254,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold over continuation vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "foldl",
           "package": "fixed-vector",
@@ -1264,6 +1365,7 @@
         "index": {
           "description": "Left fold over continuation vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eContVec c b-\u003ea",
@@ -1279,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "foldl1",
           "package": "fixed-vector",
@@ -1289,6 +1392,7 @@
         "index": {
           "description": "Left fold",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eContVec(S b)a-\u003ea",
@@ -1304,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight fold over continuation vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "foldr",
           "package": "fixed-vector",
@@ -1314,6 +1419,7 @@
         "index": {
           "description": "Right fold over continuation vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eContVec c a-\u003eb",
@@ -1329,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert list to continuation-based vector. Will throw error if\n   list is shorter than resulting vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "fromList",
           "package": "fixed-vector",
@@ -1339,6 +1446,7 @@
         "index": {
           "description": "Convert list to continuation-based vector Will throw error if list is shorter than resulting vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "fromList",
           "normalized": "[a]-\u003eContVec b a",
@@ -1355,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e bu throws error is list doesn't have same\n   length as vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "fromList'",
           "package": "fixed-vector",
@@ -1365,6 +1474,7 @@
         "index": {
           "description": "Same as fromList bu throws error is list doesn have same length as vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "fromList'",
           "normalized": "[a]-\u003eContVec b a",
@@ -1381,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert list to continuation-based vector. Will fail with\n   \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if list doesn't have right length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "fromListM",
           "package": "fixed-vector",
@@ -1391,6 +1502,7 @@
         "index": {
           "description": "Convert list to continuation-based vector Will fail with Nothing if list doesn have right length",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "fromListM",
           "normalized": "[a]-\u003eMaybe(ContVec b a)",
@@ -1407,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate vector from function which maps element's index to its value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "generate",
           "package": "fixed-vector",
@@ -1417,6 +1530,7 @@
         "index": {
           "description": "Generate vector from function which maps element index to its value",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "generate",
           "normalized": "(Int-\u003ea)-\u003eContVec b a",
@@ -1432,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate vector from monadic function which maps element's index\n   to its value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "generateM",
           "package": "fixed-vector",
@@ -1442,6 +1557,7 @@
         "index": {
           "description": "Generate vector from monadic function which maps element index to its value",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "generateM",
           "normalized": "(Int-\u003ea b)-\u003ea(ContVec c b)",
@@ -1456,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "getF",
           "package": "fixed-vector",
@@ -1465,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "getF",
           "normalized": "a-\u003eFun b c c",
@@ -1480,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e which could work with any vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "gfoldl",
           "package": "fixed-vector",
@@ -1490,6 +1609,7 @@
         "index": {
           "description": "Generic gfoldl which could work with any vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "gfoldl",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c)-\u003e(d e b-\u003ea b)-\u003ef g-\u003ea(f g)",
@@ -1505,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003e\u003ca\u003egunfoldl\u003c/a\u003e\u003c/code\u003e which could work with any\n   vector. Since vector can only have one constructor argument for\n   constructor is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "gunfold",
           "package": "fixed-vector",
@@ -1515,6 +1636,7 @@
         "index": {
           "description": "Generic gunfoldl which could work with any vector Since vector can only have one constructor argument for constructor is ignored",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "gunfold",
           "normalized": "a(b-\u003ec)-\u003ea c)-\u003e(d e c-\u003ea c)-\u003ef-\u003ea(g h)",
@@ -1530,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorker function for \u003ccode\u003e\u003ca\u003egunfold\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "gunfoldF",
           "package": "fixed-vector",
@@ -1540,6 +1663,7 @@
         "index": {
           "description": "Worker function for gunfold",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "gunfoldF",
           "normalized": "a(b-\u003ec)-\u003ea c)-\u003eT_gunfold a d e f-\u003ea d",
@@ -1555,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinalizer function for getting head of the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "head",
           "package": "fixed-vector",
@@ -1565,6 +1690,7 @@
         "index": {
           "description": "Finalizer function for getting head of the vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "head",
           "normalized": "ContVec(S a)b-\u003eb",
@@ -1580,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove last parameter into function result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "hideLast",
           "package": "fixed-vector",
@@ -1590,6 +1717,7 @@
         "index": {
           "description": "Move last parameter into function result",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "hideLast",
           "normalized": "Fun(S a)b c-\u003eFun a b(b-\u003ec)",
@@ -1606,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic left fold over continuation vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ifoldM",
           "package": "fixed-vector",
@@ -1616,6 +1745,7 @@
         "index": {
           "description": "Monadic left fold over continuation vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ifoldM",
           "normalized": "(a-\u003eInt-\u003eb-\u003ec a)-\u003ea-\u003eContVec d b-\u003ec a",
@@ -1631,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold over continuation vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ifoldl",
           "package": "fixed-vector",
@@ -1641,6 +1772,7 @@
         "index": {
           "description": "Left fold over continuation vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ifoldl",
           "normalized": "(a-\u003eInt-\u003eb-\u003ea)-\u003ea-\u003eContVec c b-\u003ea",
@@ -1656,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight fold over continuation vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ifoldr",
           "package": "fixed-vector",
@@ -1666,6 +1799,7 @@
         "index": {
           "description": "Right fold over continuation vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "ifoldr",
           "normalized": "(Int-\u003ea-\u003eb-\u003eb)-\u003eb-\u003eContVec c a-\u003eb",
@@ -1681,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to every element of the vector and its index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "imap",
           "package": "fixed-vector",
@@ -1691,6 +1826,7 @@
         "index": {
           "description": "Apply function to every element of the vector and its index",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "imap",
           "normalized": "(Int-\u003ea-\u003eb)-\u003eContVec c a-\u003eContVec c b",
@@ -1706,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply monadic function to every element of the vector and its index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "imapM",
           "package": "fixed-vector",
@@ -1716,6 +1853,7 @@
         "index": {
           "description": "Apply monadic function to every element of the vector and its index",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "imapM",
           "normalized": "(Int-\u003ea-\u003eb c)-\u003eContVec d a-\u003eb(ContVec d c)",
@@ -1731,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply monadic action to each element of vector and its index and\n   ignore result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "imapM_",
           "package": "fixed-vector",
@@ -1741,6 +1880,7 @@
         "index": {
           "description": "Apply monadic action to each element of vector and its index and ignore result",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "imapM_",
           "normalized": "(Int-\u003ea-\u003eb c)-\u003eContVec d a-\u003eb()",
@@ -1756,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Get value at specified index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "index",
           "package": "fixed-vector",
@@ -1766,6 +1907,7 @@
         "index": {
           "description": "Get value at specified index",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "index",
           "normalized": "Int-\u003eContVec a b-\u003eb",
@@ -1781,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruction of vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "inspect",
           "package": "fixed-vector",
@@ -1791,6 +1934,7 @@
         "index": {
           "description": "Deconstruction of vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "inspect",
           "normalized": "a b-\u003eFun(Dim a)b c-\u003ec",
@@ -1806,6 +1950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using function which takes element index\n   as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "izipWith",
           "package": "fixed-vector",
@@ -1816,6 +1961,7 @@
         "index": {
           "description": "Zip two vector together using function which takes element index as well",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "izipWith",
           "normalized": "(Int-\u003ea-\u003eb-\u003ec)-\u003eContVec d a-\u003eContVec d b-\u003eContVec d c",
@@ -1832,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using monadic function which takes element\n   index as well..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "izipWithM",
           "package": "fixed-vector",
@@ -1842,6 +1989,7 @@
         "index": {
           "description": "Zip two vector together using monadic function which takes element index as well",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "izipWithM",
           "normalized": "(Int-\u003ea-\u003eb-\u003ec d)-\u003eContVec e a-\u003eContVec e b-\u003ec(ContVec e d)",
@@ -1883,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "lensF",
           "package": "fixed-vector",
@@ -1892,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "lensF",
           "normalized": "a-\u003e(b-\u003ec b)-\u003eFun d b e-\u003eFun d b(c e)",
@@ -1907,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over vector. Synonym for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "map",
           "package": "fixed-vector",
@@ -1917,6 +2068,7 @@
         "index": {
           "description": "Map over vector Synonym for fmap",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eContVec c a-\u003eContVec c b",
@@ -1932,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic map over vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mapM",
           "package": "fixed-vector",
@@ -1942,6 +2095,7 @@
         "index": {
           "description": "Monadic map over vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eContVec d a-\u003eb(ContVec d c)",
@@ -1957,6 +2111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply monadic action to each element of vector and ignore result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mapM_",
           "package": "fixed-vector",
@@ -1967,6 +2122,7 @@
         "index": {
           "description": "Apply monadic action to each element of vector and ignore result",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mapM_",
           "normalized": "(a-\u003eb c)-\u003eContVec d a-\u003eb()",
@@ -1982,6 +2138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximal element of vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "maximum",
           "package": "fixed-vector",
@@ -1992,6 +2149,7 @@
         "index": {
           "description": "Maximal element of vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "maximum",
           "normalized": "ContVec(S a)b-\u003eb",
@@ -2007,6 +2165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal element of vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "minimum",
           "package": "fixed-vector",
@@ -2017,6 +2176,7 @@
         "index": {
           "description": "Minimal element of vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "minimum",
           "normalized": "ContVec(S a)b-\u003eb",
@@ -2031,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk1",
           "package": "fixed-vector",
@@ -2040,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk1",
           "normalized": "a-\u003eContVec N a",
@@ -2054,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk2",
           "package": "fixed-vector",
@@ -2063,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk2",
           "normalized": "a-\u003ea-\u003eContVec N a",
@@ -2077,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk3",
           "package": "fixed-vector",
@@ -2086,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk3",
           "normalized": "a-\u003ea-\u003ea-\u003eContVec N a",
@@ -2100,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk4",
           "package": "fixed-vector",
@@ -2109,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk4",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eContVec N a",
@@ -2123,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk5",
           "package": "fixed-vector",
@@ -2132,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "mk5",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eContVec N a",
@@ -2147,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction of all elements of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "or",
           "package": "fixed-vector",
@@ -2157,6 +2328,7 @@
         "index": {
           "description": "Disjunction of all elements of vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "or",
           "normalized": "ContVec a Bool-\u003eBool",
@@ -2172,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute monadic action for every element of vector. Synonym for \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "replicate",
           "package": "fixed-vector",
@@ -2182,6 +2355,7 @@
         "index": {
           "description": "Execute monadic action for every element of vector Synonym for pure",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "replicate",
           "normalized": "a-\u003eContVec b a",
@@ -2197,6 +2371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute monadic action for every element of vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "replicateM",
           "package": "fixed-vector",
@@ -2207,6 +2382,7 @@
         "index": {
           "description": "Execute monadic action for every element of vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "replicateM",
           "normalized": "a b-\u003ea(ContVec c b)",
@@ -2222,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse order of elements in the vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "reverse",
           "package": "fixed-vector",
@@ -2232,6 +2409,7 @@
         "index": {
           "description": "Reverse order of elements in the vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "reverse",
           "normalized": "ContVec a b-\u003eContVec a b",
@@ -2247,6 +2425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse order of parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "reverseF",
           "package": "fixed-vector",
@@ -2257,6 +2436,7 @@
         "index": {
           "description": "Reverse order of parameters",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "reverseF",
           "normalized": "Fun a b c-\u003eFun a b c",
@@ -2272,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun continuation vector. It's same as \u003ccode\u003e\u003ca\u003einspect\u003c/a\u003e\u003c/code\u003e but with\n   arguments flipped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "runContVec",
           "package": "fixed-vector",
@@ -2282,6 +2463,7 @@
         "index": {
           "description": "Run continuation vector It same as inspect but with arguments flipped",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "runContVec",
           "normalized": "Fun a b c-\u003eContVec a b-\u003ec",
@@ -2298,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft scan over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "scanl",
           "package": "fixed-vector",
@@ -2308,6 +2491,7 @@
         "index": {
           "description": "Left scan over vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "scanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eContVec c b-\u003eContVec(S c)a",
@@ -2323,6 +2507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft scan over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "scanl1",
           "package": "fixed-vector",
@@ -2333,6 +2518,7 @@
         "index": {
           "description": "Left scan over vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "scanl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eContVec b a-\u003eContVec b a",
@@ -2348,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate every action in the vector from left to right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "sequence",
           "package": "fixed-vector",
@@ -2358,6 +2545,7 @@
         "index": {
           "description": "Evaluate every action in the vector from left to right",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "sequence",
           "normalized": "ContVec a(b c)-\u003eb(ContVec a c)",
@@ -2373,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate every action in the vector from left to right and ignore result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "sequence_",
           "package": "fixed-vector",
@@ -2383,6 +2572,7 @@
         "index": {
           "description": "Evaluate every action in the vector from left to right and ignore result",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "sequence_",
           "normalized": "ContVec a(b c)-\u003eb()",
@@ -2398,6 +2588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove function parameter to the result of N-ary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "shuffleFun",
           "package": "fixed-vector",
@@ -2408,6 +2599,7 @@
         "index": {
           "description": "Move function parameter to the result of N-ary function",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "shuffleFun",
           "normalized": "(a-\u003eFun b c d)-\u003eFun b c(a-\u003ed)",
@@ -2424,6 +2616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Append element to vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "snoc",
           "package": "fixed-vector",
@@ -2434,6 +2627,7 @@
         "index": {
           "description": "Append element to vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "snoc",
           "normalized": "a-\u003eContVec b a-\u003eContVec(S b)a",
@@ -2449,6 +2643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum all elements in the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "sum",
           "package": "fixed-vector",
@@ -2459,6 +2654,7 @@
         "index": {
           "description": "Sum all elements in the vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "sum",
           "normalized": "ContVec a b-\u003eb",
@@ -2474,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Tail of vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "tail",
           "package": "fixed-vector",
@@ -2484,6 +2681,7 @@
         "index": {
           "description": "Tail of vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "tail",
           "normalized": "ContVec(S a)b-\u003eContVec a b",
@@ -2499,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert vector to the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "toList",
           "package": "fixed-vector",
@@ -2509,6 +2708,7 @@
         "index": {
           "description": "Convert vector to the list",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "toList",
           "normalized": "ContVec a b-\u003e[b]",
@@ -2548,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "unfoldr",
           "package": "fixed-vector",
@@ -2558,6 +2759,7 @@
         "index": {
           "description": "Unfold vector",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "unfoldr",
           "normalized": "(a-\u003e(b,a))-\u003ea-\u003eContVec c b",
@@ -2599,6 +2801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "zipWith",
           "package": "fixed-vector",
@@ -2609,6 +2812,7 @@
         "index": {
           "description": "Zip two vector together using function",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eContVec d a-\u003eContVec d b-\u003eContVec d c",
@@ -2625,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using monadic function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Cont",
           "name": "zipWithM",
           "package": "fixed-vector",
@@ -2635,6 +2840,7 @@
         "index": {
           "description": "Zip two vector together using monadic function",
           "hierarchy": "Data Vector Fixed Cont",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Cont",
           "name": "zipWithM",
           "normalized": "(a-\u003eb-\u003ec d)-\u003eContVec e a-\u003eContVec e b-\u003ec(ContVec e d)",
@@ -2651,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMore generic version of function from \u003ca\u003eData.Vector.Fixed\u003c/a\u003e\n module. They do not require that all vector have same type, only\n same length. All such functions have suffix \u003cem\u003eG\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "Generic",
           "package": "fixed-vector",
@@ -2660,6 +2867,7 @@
         "index": {
           "description": "More generic version of function from Data.Vector.Fixed module They do not require that all vector have same type only same length All such functions have suffix",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "Generic",
           "package": "fixed-vector",
@@ -2674,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to every element of the vector and its index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "imapG",
           "package": "fixed-vector",
@@ -2684,6 +2893,7 @@
         "index": {
           "description": "Apply function to every element of the vector and its index",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "imapG",
           "normalized": "(Int-\u003ea-\u003eb)-\u003ec a-\u003ed b",
@@ -2699,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic map over vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "imapMG",
           "package": "fixed-vector",
@@ -2709,6 +2920,7 @@
         "index": {
           "description": "Monadic map over vector",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "imapMG",
           "normalized": "(Int-\u003ea-\u003eb c)-\u003ed a-\u003eb(e c)",
@@ -2725,6 +2937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using function which takes element index\n   as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "izipWithG",
           "package": "fixed-vector",
@@ -2735,6 +2948,7 @@
         "index": {
           "description": "Zip two vector together using function which takes element index as well",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "izipWithG",
           "normalized": "(Int-\u003ea-\u003eb-\u003ec)-\u003ed a-\u003ee b-\u003ef c",
@@ -2751,6 +2965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using monadic function which takes element\n   index as well..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "izipWithMG",
           "package": "fixed-vector",
@@ -2761,6 +2976,7 @@
         "index": {
           "description": "Zip two vector together using monadic function which takes element index as well",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "izipWithMG",
           "normalized": "(Int-\u003ea-\u003eb-\u003ec d)-\u003ee a-\u003ef b-\u003ec(g d)",
@@ -2777,6 +2993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "mapG",
           "package": "fixed-vector",
@@ -2787,6 +3004,7 @@
         "index": {
           "description": "Map over vector",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "mapG",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed b",
@@ -2802,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic map over vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "mapMG",
           "package": "fixed-vector",
@@ -2812,6 +3031,7 @@
         "index": {
           "description": "Monadic map over vector",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "mapMG",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(e c)",
@@ -2828,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "zipWithG",
           "package": "fixed-vector",
@@ -2838,6 +3059,7 @@
         "index": {
           "description": "Zip two vector together using function",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "zipWithG",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ee b-\u003ef c",
@@ -2854,6 +3076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using monadic function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Generic",
           "name": "zipWithMG",
           "package": "fixed-vector",
@@ -2864,6 +3087,7 @@
         "index": {
           "description": "Zip two vector together using monadic function",
           "hierarchy": "Data Vector Fixed Generic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Generic",
           "name": "zipWithMG",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ee a-\u003ef b-\u003ec(g d)",
@@ -2880,6 +3104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrapper function for working with monomorphic vectors. Standard API\n require vector to be parametric in their element type making it\n impossible to work with vectors like\n\u003c/p\u003e\u003cpre\u003e data Vec3 = Vec3 Double Double Double\n\u003c/pre\u003e\u003cp\u003eThis module provides newtype wrapper which allows use of functions\n from \u003ca\u003eData.Vector.Fixed\u003c/a\u003e with such data types and function which\n works with such vectors.\n\u003c/p\u003e\u003cp\u003eFunctions have same meaning as ones from \u003ca\u003eData.Vector.Fixed\u003c/a\u003e and\n documented there.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "Monomorphic",
           "package": "fixed-vector",
@@ -2889,6 +3114,7 @@
         "index": {
           "description": "Wrapper function for working with monomorphic vectors Standard API require vector to be parametric in their element type making it impossible to work with vectors like data Vec3 Vec3 Double Double Double This module provides newtype wrapper which allows use of functions from Data.Vector.Fixed with such data types and function which works with such vectors Functions have same meaning as ones from Data.Vector.Fixed and documented there",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "Monomorphic",
           "package": "fixed-vector",
@@ -2903,6 +3129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for handling \u003cem\u003en\u003c/em\u003e-ary functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "Arity",
           "package": "fixed-vector",
@@ -2912,6 +3139,7 @@
         "index": {
           "description": "Type class for handling ary functions",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "Arity",
           "package": "fixed-vector",
@@ -2926,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimensions of monomorphic vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "DimMono",
           "package": "fixed-vector",
@@ -2935,6 +3164,7 @@
         "index": {
           "description": "Dimensions of monomorphic vector",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "DimMono",
           "package": "fixed-vector",
@@ -2949,6 +3179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper which is used to make \u003ccode\u003e\u003ca\u003eFn\u003c/a\u003e\u003c/code\u003e injective. It's also a\n   reader monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "Fun",
           "package": "fixed-vector",
@@ -2958,6 +3189,7 @@
         "index": {
           "description": "Newtype wrapper which is used to make Fn injective It also reader monad",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "Fun",
           "package": "fixed-vector",
@@ -2971,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N1",
           "package": "fixed-vector",
@@ -2979,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N1",
           "package": "fixed-vector",
@@ -2991,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N2",
           "package": "fixed-vector",
@@ -2999,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N2",
           "package": "fixed-vector",
@@ -3011,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N3",
           "package": "fixed-vector",
@@ -3019,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N3",
           "package": "fixed-vector",
@@ -3031,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N4",
           "package": "fixed-vector",
@@ -3039,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N4",
           "package": "fixed-vector",
@@ -3051,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N5",
           "package": "fixed-vector",
@@ -3059,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N5",
           "package": "fixed-vector",
@@ -3071,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N6",
           "package": "fixed-vector",
@@ -3079,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "N6",
           "package": "fixed-vector",
@@ -3092,6 +3336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessor of n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "S",
           "package": "fixed-vector",
@@ -3101,6 +3346,7 @@
         "index": {
           "description": "Successor of",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "S",
           "package": "fixed-vector",
@@ -3114,6 +3360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounterpart of \u003ccode\u003eVector\u003c/code\u003e type class for monomorphic vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "VectorMono",
           "package": "fixed-vector",
@@ -3123,6 +3370,7 @@
         "index": {
           "description": "Counterpart of Vector type class for monomorphic vectors",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "VectorMono",
           "package": "fixed-vector",
@@ -3137,6 +3385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "Z",
           "package": "fixed-vector",
@@ -3146,6 +3395,7 @@
         "index": {
           "description": "Type level zero",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "Z",
           "package": "fixed-vector",
@@ -3158,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "(!)",
           "package": "fixed-vector",
@@ -3167,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "(!) !",
           "normalized": "a-\u003eInt-\u003eb",
@@ -3181,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "all",
           "package": "fixed-vector",
@@ -3190,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eb-\u003eBool",
@@ -3204,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "and",
           "package": "fixed-vector",
@@ -3213,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "and",
           "normalized": "a-\u003eBool",
@@ -3227,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "any",
           "package": "fixed-vector",
@@ -3236,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eb-\u003eBool",
@@ -3251,6 +3509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional more efficient implementation of indexing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "basicIndex",
           "package": "fixed-vector",
@@ -3261,6 +3520,7 @@
         "index": {
           "description": "Optional more efficient implementation of indexing",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "basicIndex",
           "normalized": "a-\u003eInt-\u003eVectorElm a",
@@ -3276,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "basis",
           "package": "fixed-vector",
@@ -3285,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "basis",
           "normalized": "Int-\u003ea",
@@ -3300,6 +3562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "construct",
           "package": "fixed-vector",
@@ -3310,6 +3573,7 @@
         "index": {
           "description": "Construct vector",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "construct",
           "package": "fixed-vector",
@@ -3322,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "convert",
           "package": "fixed-vector",
@@ -3331,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "convert",
           "normalized": "a-\u003eb",
@@ -3345,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "eq",
           "package": "fixed-vector",
@@ -3354,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "eq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -3368,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "fold",
           "package": "fixed-vector",
@@ -3377,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "fold",
           "normalized": "a-\u003eVectorElm a",
@@ -3391,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldM",
           "package": "fixed-vector",
@@ -3400,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003ed-\u003ec a",
@@ -3414,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldMap",
           "package": "fixed-vector",
@@ -3423,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldMap",
           "normalized": "(VectorElm a-\u003eb)-\u003ea-\u003eb",
@@ -3438,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldl",
           "package": "fixed-vector",
@@ -3447,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -3461,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldl1",
           "package": "fixed-vector",
@@ -3470,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea",
@@ -3484,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldr",
           "package": "fixed-vector",
@@ -3493,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec-\u003eb",
@@ -3507,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "fromList",
           "package": "fixed-vector",
@@ -3516,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "fromList",
           "normalized": "[a]-\u003eb",
@@ -3531,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "generate",
           "package": "fixed-vector",
@@ -3540,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "generate",
           "normalized": "(Int-\u003ea)-\u003eb",
@@ -3554,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "generateM",
           "package": "fixed-vector",
@@ -3563,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "generateM",
           "normalized": "(Int-\u003ea b)-\u003ea c",
@@ -3577,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "head",
           "package": "fixed-vector",
@@ -3586,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "head",
           "normalized": "a-\u003eb",
@@ -3600,6 +3888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "ifoldM",
           "package": "fixed-vector",
@@ -3609,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "ifoldM",
           "normalized": "(a-\u003eInt-\u003eb-\u003ec a)-\u003ea-\u003ed-\u003ec a",
@@ -3623,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "ifoldl",
           "package": "fixed-vector",
@@ -3632,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "ifoldl",
           "normalized": "(a-\u003eInt-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -3646,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "ifoldr",
           "package": "fixed-vector",
@@ -3655,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "ifoldr",
           "normalized": "(Int-\u003ea-\u003eb-\u003eb)-\u003eb-\u003ec-\u003eb",
@@ -3669,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "imap",
           "package": "fixed-vector",
@@ -3678,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "imap",
           "normalized": "(Int-\u003ea-\u003ea)-\u003eb-\u003eb",
@@ -3692,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "imapM",
           "package": "fixed-vector",
@@ -3701,6 +3998,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "imapM",
           "normalized": "(Int-\u003ea-\u003eb a)-\u003ec-\u003eb c",
@@ -3715,6 +4013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "imapM_",
           "package": "fixed-vector",
@@ -3724,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "imapM_",
           "normalized": "(Int-\u003ea-\u003eb c)-\u003ed-\u003eb()",
@@ -3739,6 +4039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInspect vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "inspect",
           "package": "fixed-vector",
@@ -3749,6 +4050,7 @@
         "index": {
           "description": "Inspect vector",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "inspect",
           "normalized": "a-\u003eFun(DimMono a)(VectorElm a)b-\u003eb",
@@ -3763,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "izipWith",
           "package": "fixed-vector",
@@ -3772,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "izipWith",
           "normalized": "(Int-\u003ea-\u003ea-\u003ea)-\u003eb-\u003eb-\u003eb",
@@ -3787,6 +4091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "izipWithM",
           "package": "fixed-vector",
@@ -3796,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "izipWithM",
           "normalized": "(Int-\u003ea-\u003ea-\u003eb a)-\u003ec-\u003ec-\u003eb c",
@@ -3812,6 +4118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "length",
           "package": "fixed-vector",
@@ -3822,6 +4129,7 @@
         "index": {
           "description": "Length of vector",
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -3836,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "map",
           "package": "fixed-vector",
@@ -3845,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "map",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -3859,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mapM",
           "package": "fixed-vector",
@@ -3868,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mapM",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",
@@ -3882,6 +4194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mapM_",
           "package": "fixed-vector",
@@ -3891,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mapM_",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb()",
@@ -3905,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "maximum",
           "package": "fixed-vector",
@@ -3914,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "maximum",
           "normalized": "a-\u003eb",
@@ -3928,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "minimum",
           "package": "fixed-vector",
@@ -3937,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "minimum",
           "normalized": "a-\u003eb",
@@ -3951,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk1",
           "package": "fixed-vector",
@@ -3960,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk1",
           "normalized": "a-\u003eb",
@@ -3974,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk2",
           "package": "fixed-vector",
@@ -3983,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk2",
           "normalized": "a-\u003ea-\u003eb",
@@ -3997,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk3",
           "package": "fixed-vector",
@@ -4006,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk3",
           "normalized": "a-\u003ea-\u003ea-\u003eb",
@@ -4020,6 +4344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk4",
           "package": "fixed-vector",
@@ -4029,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk4",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eb",
@@ -4043,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk5",
           "package": "fixed-vector",
@@ -4052,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "mk5",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb",
@@ -4066,6 +4394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "or",
           "package": "fixed-vector",
@@ -4075,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "or",
           "normalized": "a-\u003eBool",
@@ -4089,6 +4419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "replicate",
           "package": "fixed-vector",
@@ -4098,6 +4429,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "replicate",
           "normalized": "a-\u003eb",
@@ -4112,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "replicateM",
           "package": "fixed-vector",
@@ -4121,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "replicateM",
           "normalized": "a b-\u003ea c",
@@ -4135,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "reverse",
           "package": "fixed-vector",
@@ -4144,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "reverse",
           "normalized": "a-\u003ea",
@@ -4158,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "sum",
           "package": "fixed-vector",
@@ -4167,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "sum",
           "normalized": "a-\u003eb",
@@ -4181,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "tail",
           "package": "fixed-vector",
@@ -4190,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "tail",
           "normalized": "a-\u003eb",
@@ -4204,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "toList",
           "package": "fixed-vector",
@@ -4213,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "toList",
           "normalized": "a-\u003e[b]",
@@ -4228,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "unfoldr",
           "package": "fixed-vector",
@@ -4237,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "unfoldr",
           "normalized": "(a-\u003e(b,a))-\u003ea-\u003ec",
@@ -4251,6 +4595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "zipWith",
           "package": "fixed-vector",
@@ -4260,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "zipWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003eb-\u003eb",
@@ -4275,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "zipWithM",
           "package": "fixed-vector",
@@ -4284,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Monomorphic",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Monomorphic",
           "name": "zipWithM",
           "normalized": "(a-\u003ea-\u003eb a)-\u003ec-\u003ec-\u003eb c",
@@ -4300,6 +4648,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType classes for vectors which are implemented on top of the arrays\n and support in-place mutation. API is similar to one used in the\n \u003ccode\u003evector\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "Mutable",
           "package": "fixed-vector",
@@ -4309,6 +4658,7 @@
         "index": {
           "description": "Type classes for vectors which are implemented on top of the arrays and support in-place mutation API is similar to one used in the vector package",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "Mutable",
           "package": "fixed-vector",
@@ -4323,6 +4673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for handling \u003cem\u003en\u003c/em\u003e-ary functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "Arity",
           "package": "fixed-vector",
@@ -4332,6 +4683,7 @@
         "index": {
           "description": "Type class for handling ary functions",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "Arity",
           "package": "fixed-vector",
@@ -4346,6 +4698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension for mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "DimM",
           "package": "fixed-vector",
@@ -4355,6 +4708,7 @@
         "index": {
           "description": "Dimension for mutable vector",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "DimM",
           "package": "fixed-vector",
@@ -4369,6 +4723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for immutable vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "IVector",
           "package": "fixed-vector",
@@ -4378,6 +4733,7 @@
         "index": {
           "description": "Type class for immutable vectors",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "IVector",
           "package": "fixed-vector",
@@ -4392,6 +4748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for mutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "MVector",
           "package": "fixed-vector",
@@ -4401,6 +4758,7 @@
         "index": {
           "description": "Type class for mutable vectors",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "MVector",
           "package": "fixed-vector",
@@ -4415,6 +4773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable counterpart of fixed-length vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "Mutable",
           "package": "fixed-vector",
@@ -4424,6 +4783,7 @@
         "index": {
           "description": "Mutable counterpart of fixed-length vector",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "Mutable",
           "package": "fixed-vector",
@@ -4438,6 +4798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArity of function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "arity",
           "package": "fixed-vector",
@@ -4448,6 +4809,7 @@
         "index": {
           "description": "Arity of function",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "arity",
           "normalized": "a-\u003eInt",
@@ -4463,6 +4825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate copy of vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "clone",
           "package": "fixed-vector",
@@ -4473,6 +4836,7 @@
         "index": {
           "description": "Create copy of vector",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "clone",
           "normalized": "a(PrimState b)c-\u003eb(a(PrimState b)c)",
@@ -4488,6 +4852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric construct implementation for array-based vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "constructVec",
           "package": "fixed-vector",
@@ -4498,6 +4863,7 @@
         "index": {
           "description": "Generic construct implementation for array-based vectors",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "constructVec",
           "package": "fixed-vector",
@@ -4512,6 +4878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy vector. The two vectors may not overlap. Since vectors'\n   length is encoded in the type there is no need in runtime checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "copy",
           "package": "fixed-vector",
@@ -4522,6 +4889,7 @@
         "index": {
           "description": "Copy vector The two vectors may not overlap Since vectors length is encoded in the type there is no need in runtime checks",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "copy",
           "package": "fixed-vector",
@@ -4535,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafely convert mutable vector to immutable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "freeze",
           "package": "fixed-vector",
@@ -4545,6 +4914,7 @@
         "index": {
           "description": "Safely convert mutable vector to immutable",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "freeze",
           "normalized": "Mutable a(PrimState b)c-\u003eb(a c)",
@@ -4559,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "index",
           "package": "fixed-vector",
@@ -4568,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "index",
           "normalized": "a b-\u003eInt-\u003eb",
@@ -4583,6 +4955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric inspect implementation for array-based vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "inspectVec",
           "package": "fixed-vector",
@@ -4593,6 +4966,7 @@
         "index": {
           "description": "Generic inspect implementation for array-based vectors",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "inspectVec",
           "normalized": "a b-\u003eFun(Dim a)b c-\u003ec",
@@ -4609,6 +4983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of immutable vector. Function doesn't evaluate its argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "lengthI",
           "package": "fixed-vector",
@@ -4619,6 +4994,7 @@
         "index": {
           "description": "Length of immutable vector Function doesn evaluate its argument",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "lengthI",
           "normalized": "a b-\u003eInt",
@@ -4634,6 +5010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of mutable vector. Function doesn't evaluate its argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "lengthM",
           "package": "fixed-vector",
@@ -4644,6 +5021,7 @@
         "index": {
           "description": "Length of mutable vector Function doesn evaluate its argument",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "lengthM",
           "normalized": "a b c-\u003eInt",
@@ -4659,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy vector. The two vectors may overlap. Since vectors' length\n   is encoded in the type there is no need in runtime checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "move",
           "package": "fixed-vector",
@@ -4669,6 +5048,7 @@
         "index": {
           "description": "Copy vector The two vectors may overlap Since vectors length is encoded in the type there is no need in runtime checks",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "move",
           "package": "fixed-vector",
@@ -4682,6 +5062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate new vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "new",
           "package": "fixed-vector",
@@ -4692,6 +5073,7 @@
         "index": {
           "description": "Allocate new vector",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "new",
           "package": "fixed-vector",
@@ -4705,6 +5087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether vectors' buffers overlaps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "overlaps",
           "package": "fixed-vector",
@@ -4715,6 +5098,7 @@
         "index": {
           "description": "Checks whether vectors buffers overlaps",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "overlaps",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -4730,6 +5114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead value at index with bound checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "read",
           "package": "fixed-vector",
@@ -4740,6 +5125,7 @@
         "index": {
           "description": "Read value at index with bound checks",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "read",
           "normalized": "a(PrimState b)c-\u003eInt-\u003eb c",
@@ -4755,6 +5141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafely convert immutable vector to mutable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "thaw",
           "package": "fixed-vector",
@@ -4765,6 +5152,7 @@
         "index": {
           "description": "Safely convert immutable vector to mutable",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "thaw",
           "normalized": "a b-\u003ec(Mutable a(PrimState c)b)",
@@ -4780,6 +5168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert vector to immutable state. Mutable vector must not be\n   modified afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeFreeze",
           "package": "fixed-vector",
@@ -4790,6 +5179,7 @@
         "index": {
           "description": "Convert vector to immutable state Mutable vector must not be modified afterwards",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeFreeze",
           "normalized": "Mutable a(PrimState b)c-\u003eb(a c)",
@@ -4806,6 +5196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet element at specified index without bounds check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeIndex",
           "package": "fixed-vector",
@@ -4816,6 +5207,7 @@
         "index": {
           "description": "Get element at specified index without bounds check",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeIndex",
           "normalized": "a b-\u003eInt-\u003eb",
@@ -4832,6 +5224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead value at index without bound checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeRead",
           "package": "fixed-vector",
@@ -4842,6 +5235,7 @@
         "index": {
           "description": "Read value at index without bound checks",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeRead",
           "normalized": "a(PrimState b)c-\u003eInt-\u003eb c",
@@ -4858,6 +5252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert immutable vector to mutable. Immutable vector must not\n   be used afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeThaw",
           "package": "fixed-vector",
@@ -4868,6 +5263,7 @@
         "index": {
           "description": "Convert immutable vector to mutable Immutable vector must not be used afterwards",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeThaw",
           "normalized": "a b-\u003ec(Mutable a(PrimState c)b)",
@@ -4884,6 +5280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite value at index without bound checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeWrite",
           "package": "fixed-vector",
@@ -4894,6 +5291,7 @@
         "index": {
           "description": "Write value at index without bound checks",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "unsafeWrite",
           "normalized": "a(PrimState b)c-\u003eInt-\u003ec-\u003eb()",
@@ -4910,6 +5308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite value at index with bound checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "write",
           "package": "fixed-vector",
@@ -4920,6 +5319,7 @@
         "index": {
           "description": "Write value at index with bound checks",
           "hierarchy": "Data Vector Fixed Mutable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Mutable",
           "name": "write",
           "normalized": "a(PrimState b)c-\u003eInt-\u003ec-\u003eb()",
@@ -4935,6 +5335,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnboxed vectors with fixed length. Vectors from\n \u003ca\u003eData.Vector.Fixed.Unboxed\u003c/a\u003e provide more flexibility at no\n performeance cost.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Primitive",
           "package": "fixed-vector",
@@ -4944,6 +5345,7 @@
         "index": {
           "description": "Unboxed vectors with fixed length Vectors from Data.Vector.Fixed.Unboxed provide more flexibility at no performeance cost",
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Primitive",
           "package": "fixed-vector",
@@ -4958,6 +5360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable unboxed vector with fixed length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "MVec",
           "package": "fixed-vector",
@@ -4967,6 +5370,7 @@
         "index": {
           "description": "Mutable unboxed vector with fixed length",
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "MVec",
           "package": "fixed-vector",
@@ -4981,6 +5385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types supporting primitive array operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Prim",
           "package": "fixed-vector",
@@ -4989,6 +5394,7 @@
         "index": {
           "description": "Class of types supporting primitive array operations",
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Prim",
           "package": "fixed-vector",
@@ -5003,6 +5409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnboxed vector with fixed length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec",
           "package": "fixed-vector",
@@ -5012,6 +5419,7 @@
         "index": {
           "description": "Unboxed vector with fixed length",
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec",
           "package": "fixed-vector",
@@ -5025,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec1",
           "package": "fixed-vector",
@@ -5033,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec1",
           "package": "fixed-vector",
@@ -5046,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec2",
           "package": "fixed-vector",
@@ -5054,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec2",
           "package": "fixed-vector",
@@ -5067,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec3",
           "package": "fixed-vector",
@@ -5075,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec3",
           "package": "fixed-vector",
@@ -5088,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec4",
           "package": "fixed-vector",
@@ -5096,6 +5511,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec4",
           "package": "fixed-vector",
@@ -5109,6 +5525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec5",
           "package": "fixed-vector",
@@ -5117,6 +5534,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Primitive",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Primitive",
           "name": "Vec5",
           "package": "fixed-vector",
@@ -5131,6 +5549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStorable-based unboxed vectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Storable",
           "package": "fixed-vector",
@@ -5140,6 +5559,7 @@
         "index": {
           "description": "Storable-based unboxed vectors",
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Storable",
           "package": "fixed-vector",
@@ -5154,6 +5574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStorable-based mutable vector with fixed length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "MVec",
           "package": "fixed-vector",
@@ -5163,6 +5584,7 @@
         "index": {
           "description": "Storable-based mutable vector with fixed length",
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "MVec",
           "package": "fixed-vector",
@@ -5177,6 +5599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe member functions of this class facilitate writing values of\nprimitive types to raw memory (which may have been allocated with the\nabove mentioned routines) and reading values from blocks of raw\nmemory.  The class, furthermore, includes support for computing the\nstorage requirements and alignment restrictions of storable types.\n\u003c/p\u003e\u003cp\u003eMemory addresses are represented as values of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e, for some\n\u003ccode\u003ea\u003c/code\u003e which is an instance of class \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e.  The type argument to\n\u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e helps provide some valuable type safety in FFI code (you can't\nmix pointers of different types without an explicit cast), while\nhelping the Haskell type system figure out which marshalling method is\nneeded for a given pointer.\n\u003c/p\u003e\u003cp\u003eAll marshalling between Haskell and a foreign language ultimately\nboils down to translating Haskell data structures into the binary\nrepresentation of a corresponding data structure of the foreign\nlanguage and vice versa.  To code this marshalling in Haskell, it is\nnecessary to manipulate primitive data types stored in unstructured\nmemory blocks.  The class \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e facilitates this manipulation on\nall types for which it is instantiated, which are the standard basic\ntypes of Haskell, the fixed size \u003ccode\u003eInt\u003c/code\u003e types (\u003ccode\u003e\u003ca\u003eInt8\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e,\n\u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e), the fixed size \u003ccode\u003eWord\u003c/code\u003e types (\u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e,\n\u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e), \u003ccode\u003e\u003ca\u003eStablePtr\u003c/a\u003e\u003c/code\u003e, all types from \u003ca\u003eForeign.C.Types\u003c/a\u003e,\nas well as \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003esizeOf\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ealignment\u003c/a\u003e\u003c/code\u003e, one of \u003ccode\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/code\u003e,\n\u003ccode\u003e\u003ca\u003epeekElemOff\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epeekByteOff\u003c/a\u003e\u003c/code\u003e, and one of \u003ccode\u003e\u003ca\u003epoke\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epokeElemOff\u003c/a\u003e\u003c/code\u003e and\n\u003ccode\u003e\u003ca\u003epokeByteOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Storable",
           "package": "fixed-vector",
@@ -5185,6 +5608,7 @@
         "index": {
           "description": "The member functions of this class facilitate writing values of primitive types to raw memory which may have been allocated with the above mentioned routines and reading values from blocks of raw memory The class furthermore includes support for computing the storage requirements and alignment restrictions of storable types Memory addresses are represented as values of type Ptr for some which is an instance of class Storable The type argument to Ptr helps provide some valuable type safety in FFI code you can mix pointers of different types without an explicit cast while helping the Haskell type system figure out which marshalling method is needed for given pointer All marshalling between Haskell and foreign language ultimately boils down to translating Haskell data structures into the binary representation of corresponding data structure of the foreign language and vice versa To code this marshalling in Haskell it is necessary to manipulate primitive data types stored in unstructured memory blocks The class Storable facilitates this manipulation on all types for which it is instantiated which are the standard basic types of Haskell the fixed size Int types Int8 Int16 Int32 Int64 the fixed size Word types Word8 Word16 Word32 Word64 StablePtr all types from Foreign.C.Types as well as Ptr Minimal complete definition sizeOf alignment one of peek peekElemOff and peekByteOff and one of poke pokeElemOff and pokeByteOff",
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Storable",
           "package": "fixed-vector",
@@ -5199,6 +5623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStorable-based vector with fixed length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec",
           "package": "fixed-vector",
@@ -5208,6 +5633,7 @@
         "index": {
           "description": "Storable-based vector with fixed length",
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec",
           "package": "fixed-vector",
@@ -5221,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec1",
           "package": "fixed-vector",
@@ -5229,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec1",
           "package": "fixed-vector",
@@ -5242,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec2",
           "package": "fixed-vector",
@@ -5250,6 +5679,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec2",
           "package": "fixed-vector",
@@ -5263,6 +5693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec3",
           "package": "fixed-vector",
@@ -5271,6 +5702,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec3",
           "package": "fixed-vector",
@@ -5284,6 +5716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec4",
           "package": "fixed-vector",
@@ -5292,6 +5725,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec4",
           "package": "fixed-vector",
@@ -5305,6 +5739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec5",
           "package": "fixed-vector",
@@ -5313,6 +5748,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "Vec5",
           "package": "fixed-vector",
@@ -5326,6 +5762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "MVec",
           "package": "fixed-vector",
@@ -5335,6 +5772,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "MVec",
           "package": "fixed-vector",
@@ -5349,6 +5787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct vector from foreign pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "unsafeFromForeignPtr",
           "package": "fixed-vector",
@@ -5359,6 +5798,7 @@
         "index": {
           "description": "Construct vector from foreign pointer",
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "unsafeFromForeignPtr",
           "normalized": "ForeignPtr a-\u003eVec b a",
@@ -5375,6 +5815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet underlying pointer. Data may not be modified through pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "unsafeToForeignPtr",
           "package": "fixed-vector",
@@ -5385,6 +5826,7 @@
         "index": {
           "description": "Get underlying pointer Data may not be modified through pointer",
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "unsafeToForeignPtr",
           "normalized": "Vec a b-\u003eForeignPtr b",
@@ -5400,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Storable",
           "name": "unsafeWith",
           "package": "fixed-vector",
@@ -5409,6 +5852,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Storable",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Storable",
           "name": "unsafeWith",
           "normalized": "(Ptr a-\u003eIO b)-\u003eVec c a-\u003eIO b",
@@ -5425,6 +5869,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnboxed vectors with fixed length.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Unboxed",
           "package": "fixed-vector",
@@ -5434,6 +5879,7 @@
         "index": {
           "description": "Unboxed vectors with fixed length",
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Unboxed",
           "package": "fixed-vector",
@@ -5447,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "MVec",
           "package": "fixed-vector",
@@ -5455,6 +5902,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "MVec",
           "package": "fixed-vector",
@@ -5468,6 +5916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Unbox",
           "package": "fixed-vector",
@@ -5476,6 +5925,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Unbox",
           "package": "fixed-vector",
@@ -5489,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec",
           "package": "fixed-vector",
@@ -5497,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec",
           "package": "fixed-vector",
@@ -5510,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec1",
           "package": "fixed-vector",
@@ -5518,6 +5971,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec1",
           "package": "fixed-vector",
@@ -5531,6 +5985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec2",
           "package": "fixed-vector",
@@ -5539,6 +5994,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec2",
           "package": "fixed-vector",
@@ -5552,6 +6008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec3",
           "package": "fixed-vector",
@@ -5560,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec3",
           "package": "fixed-vector",
@@ -5573,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec4",
           "package": "fixed-vector",
@@ -5581,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec4",
           "package": "fixed-vector",
@@ -5594,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec5",
           "package": "fixed-vector",
@@ -5602,6 +6063,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed Unboxed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed.Unboxed",
           "name": "Vec5",
           "package": "fixed-vector",
@@ -5616,6 +6078,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric API for vectors with fixed length.\n\u003c/p\u003e\u003cp\u003eFor encoding of vector size library uses Peano naturals defined in\n the library. At come point in the future it would make sense to\n switch to new GHC type level numerals.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eCommon pitfalls\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eLibrary provide instances for tuples. But there's a catch. Tuples\n are monomorphic in element type. Let consider 2-tuple \u003ccode\u003e(Int,Int)\u003c/code\u003e.\n Vector type \u003ccode\u003ev\u003c/code\u003e is \u003ccode\u003e(,) Int\u003c/code\u003e and only allowed element type is\n \u003ccode\u003eInt\u003c/code\u003e.  Because of that we cannot change element type and following\n code will fail:\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e map (== 1) ((1,2) :: (Int,Int))\n\n \u003cinteractive\u003e:3:1:\n     Couldn't match type `Int' with `Bool'\n     In the expression: F.map (== 1) ((1, 2) :: (Int, Int))\n     In an equation for `it': it = map (== 1) ((1, 2) :: (Int, Int))\n\u003c/pre\u003e\u003cp\u003eTo make it work we need to change vector type as well. Functions\n from module \u003ca\u003eData.Vector.Fixed.Generic\u003c/a\u003e provide this functionality.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e map (== 1) ((1,2) :: (Int,Int)) :: (Bool,Bool)\n (True,False)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Fixed",
           "package": "fixed-vector",
@@ -5625,6 +6088,7 @@
         "index": {
           "description": "Generic API for vectors with fixed length For encoding of vector size library uses Peano naturals defined in the library At come point in the future it would make sense to switch to new GHC type level numerals Common pitfalls Library provide instances for tuples But there catch Tuples are monomorphic in element type Let consider tuple Int Int Vector type is Int and only allowed element type is Int Because of that we cannot change element type and following code will fail map Int Int interactive Couldn match type Int with Bool In the expression F.map Int Int In an equation for it it map Int Int To make it work we need to change vector type as well Functions from module Data.Vector.Fixed.Generic provide this functionality map Int Int Bool Bool True False",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Fixed",
           "package": "fixed-vector",
@@ -5639,6 +6103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for handling \u003cem\u003en\u003c/em\u003e-ary functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Arity",
           "package": "fixed-vector",
@@ -5648,6 +6113,7 @@
         "index": {
           "description": "Type class for handling ary functions",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Arity",
           "package": "fixed-vector",
@@ -5662,6 +6128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector represented as continuation. Alternative wording: it's\n   Church encoded N-element vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "ContVec",
           "package": "fixed-vector",
@@ -5671,6 +6138,7 @@
         "index": {
           "description": "Vector represented as continuation Alternative wording it Church encoded N-element vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "ContVec",
           "package": "fixed-vector",
@@ -5685,6 +6153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Empty",
           "package": "fixed-vector",
@@ -5694,6 +6163,7 @@
         "index": {
           "description": "Empty tuple",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Empty",
           "package": "fixed-vector",
@@ -5708,6 +6178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper which is used to make \u003ccode\u003e\u003ca\u003eFn\u003c/a\u003e\u003c/code\u003e injective. It's also a\n   reader monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Fun",
           "package": "fixed-vector",
@@ -5717,6 +6188,7 @@
         "index": {
           "description": "Newtype wrapper which is used to make Fn injective It also reader monad",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Fun",
           "package": "fixed-vector",
@@ -5731,6 +6203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for indexing of vector when index value is known at\n   compile time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Index",
           "package": "fixed-vector",
@@ -5740,6 +6213,7 @@
         "index": {
           "description": "Type class for indexing of vector when index value is known at compile time",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Index",
           "package": "fixed-vector",
@@ -5754,6 +6228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for variadic vector constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Make",
           "package": "fixed-vector",
@@ -5763,6 +6238,7 @@
         "index": {
           "description": "Type class for variadic vector constructors",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Make",
           "package": "fixed-vector",
@@ -5776,6 +6252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "N1",
           "package": "fixed-vector",
@@ -5784,6 +6261,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "N1",
           "package": "fixed-vector",
@@ -5796,6 +6274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "N2",
           "package": "fixed-vector",
@@ -5804,6 +6283,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "N2",
           "package": "fixed-vector",
@@ -5816,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "N3",
           "package": "fixed-vector",
@@ -5824,6 +6305,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "N3",
           "package": "fixed-vector",
@@ -5836,6 +6318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "N4",
           "package": "fixed-vector",
@@ -5844,6 +6327,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "N4",
           "package": "fixed-vector",
@@ -5856,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "N5",
           "package": "fixed-vector",
@@ -5864,6 +6349,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "N5",
           "package": "fixed-vector",
@@ -5876,6 +6362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "N6",
           "package": "fixed-vector",
@@ -5884,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "N6",
           "package": "fixed-vector",
@@ -5897,6 +6385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-element tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Only",
           "package": "fixed-vector",
@@ -5906,6 +6395,7 @@
         "index": {
           "description": "Single-element tuple",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Only",
           "package": "fixed-vector",
@@ -5920,6 +6410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessor of n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "S",
           "package": "fixed-vector",
@@ -5929,6 +6420,7 @@
         "index": {
           "description": "Successor of",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "S",
           "package": "fixed-vector",
@@ -5941,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Tuple2",
           "package": "fixed-vector",
@@ -5949,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Tuple2",
           "package": "fixed-vector",
@@ -5962,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Tuple3",
           "package": "fixed-vector",
@@ -5970,6 +6465,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Tuple3",
           "package": "fixed-vector",
@@ -5983,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Tuple4",
           "package": "fixed-vector",
@@ -5991,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Tuple4",
           "package": "fixed-vector",
@@ -6004,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Tuple5",
           "package": "fixed-vector",
@@ -6012,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Tuple5",
           "package": "fixed-vector",
@@ -6026,6 +6526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector based on the lists. Not very useful by itself but is\n   necessary for implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "VecList",
           "package": "fixed-vector",
@@ -6035,6 +6536,7 @@
         "index": {
           "description": "Vector based on the lists Not very useful by itself but is necessary for implementation",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "VecList",
           "package": "fixed-vector",
@@ -6049,6 +6551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for vectors with fixed length. Instance should provide\n two functions: one to create vector and another for vector\n deconstruction. They must obey following law:\n\u003c/p\u003e\u003cpre\u003e inspect v construct = v\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Vector",
           "package": "fixed-vector",
@@ -6058,6 +6561,7 @@
         "index": {
           "description": "Type class for vectors with fixed length Instance should provide two functions one to create vector and another for vector deconstruction They must obey following law inspect construct",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Vector",
           "package": "fixed-vector",
@@ -6072,6 +6576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector parametrized by length. In ideal world it should be:\n\u003c/p\u003e\u003cpre\u003e forall n. (Arity n, Vector (v n) a, Dim (v n) ~ n) =\u003e VectorN v a\n\u003c/pre\u003e\u003cp\u003eAlas polymorphic constraints aren't allowed in haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "VectorN",
           "package": "fixed-vector",
@@ -6081,6 +6586,7 @@
         "index": {
           "description": "Vector parametrized by length In ideal world it should be forall Arity Vector Dim VectorN Alas polymorphic constraints aren allowed in haskell",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "VectorN",
           "package": "fixed-vector",
@@ -6095,6 +6601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Z",
           "package": "fixed-vector",
@@ -6104,6 +6611,7 @@
         "index": {
           "description": "Type level zero",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Z",
           "package": "fixed-vector",
@@ -6117,6 +6625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve vector's element at index. Generic implementation is\n   \u003cem\u003eO(n)\u003c/em\u003e but more efficient one is used when possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "(!)",
           "package": "fixed-vector",
@@ -6127,6 +6636,7 @@
         "index": {
           "description": "Retrieve vector element at index Generic implementation is but more efficient one is used when possible",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "(!) !",
           "normalized": "a b-\u003eInt-\u003eb",
@@ -6142,6 +6652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCons value to continuation based vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "(\u003c|)",
           "package": "fixed-vector",
@@ -6152,6 +6663,7 @@
         "index": {
           "description": "Cons value to continuation based vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "(\u003c|) \u003c|",
           "normalized": "a-\u003eContVec b a-\u003eContVec(S b)a",
@@ -6166,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Cons",
           "package": "fixed-vector",
@@ -6175,6 +6688,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Cons",
           "normalized": "a-\u003eVecList b a-\u003eVecList(S b)a",
@@ -6190,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Empty",
           "package": "fixed-vector",
@@ -6199,6 +6714,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Empty",
           "package": "fixed-vector",
@@ -6212,6 +6728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Nil",
           "package": "fixed-vector",
@@ -6221,6 +6738,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Nil",
           "package": "fixed-vector",
@@ -6234,6 +6752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "Only",
           "package": "fixed-vector",
@@ -6243,6 +6762,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "Only",
           "package": "fixed-vector",
@@ -6257,6 +6777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether all elements of vector satisfy predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "all",
           "package": "fixed-vector",
@@ -6267,6 +6788,7 @@
         "index": {
           "description": "Determines whether all elements of vector satisfy predicate",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eBool",
@@ -6282,6 +6804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction of all elements of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "and",
           "package": "fixed-vector",
@@ -6292,6 +6815,7 @@
         "index": {
           "description": "Conjunction of all elements of vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "and",
           "normalized": "a Bool-\u003eBool",
@@ -6307,6 +6831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether any of element of vector satisfy predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "any",
           "package": "fixed-vector",
@@ -6317,6 +6842,7 @@
         "index": {
           "description": "Determines whether any of element of vector satisfy predicate",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eBool",
@@ -6332,6 +6858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional more efficient implementation of indexing. Shouldn't\n   be used directly, use \u003ccode\u003e\u003ca\u003e!\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "basicIndex",
           "package": "fixed-vector",
@@ -6342,6 +6869,7 @@
         "index": {
           "description": "Optional more efficient implementation of indexing Shouldn be used directly use instead",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "basicIndex",
           "normalized": "a b-\u003eInt-\u003eb",
@@ -6358,6 +6886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit vector along Nth axis. If index is larger than vector\n   dimensions returns zero vector.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec3)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ebasis 0 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003efromList [1,0,0]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ebasis 1 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003efromList [0,1,0]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ebasis 3 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003efromList [0,0,0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "basis",
           "package": "fixed-vector",
@@ -6368,6 +6897,7 @@
         "index": {
           "description": "Unit vector along Nth axis If index is larger than vector dimensions returns zero vector Examples import Data.Vector.Fixed.Boxed Vec3 basis Vec3 Int fromList basis Vec3 Int fromList basis Vec3 Int fromList",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "basis",
           "normalized": "Int-\u003ea b",
@@ -6382,6 +6912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "collect",
           "package": "fixed-vector",
@@ -6391,6 +6922,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "collect",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -6405,6 +6937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "collectM",
           "package": "fixed-vector",
@@ -6414,6 +6947,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "collectM",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -6429,6 +6963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCons element to the vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "cons",
           "package": "fixed-vector",
@@ -6439,6 +6974,7 @@
         "index": {
           "description": "Cons element to the vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "cons",
           "normalized": "a-\u003eb a-\u003ec a",
@@ -6454,6 +6990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN-ary function for creation of vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "construct",
           "package": "fixed-vector",
@@ -6464,6 +7001,7 @@
         "index": {
           "description": "N-ary function for creation of vectors",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "construct",
           "package": "fixed-vector",
@@ -6477,6 +7015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between different vector types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "convert",
           "package": "fixed-vector",
@@ -6487,6 +7026,7 @@
         "index": {
           "description": "Convert between different vector types",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "convert",
           "normalized": "a b-\u003ec b",
@@ -6501,6 +7041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "distribute",
           "package": "fixed-vector",
@@ -6510,6 +7051,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "distribute",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -6524,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "distributeM",
           "package": "fixed-vector",
@@ -6533,6 +7076,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "distributeM",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -6548,6 +7092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwan van Laarhoven's lens for element of vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "element",
           "package": "fixed-vector",
@@ -6558,6 +7103,7 @@
         "index": {
           "description": "Twan van Laarhoven lens for element of vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "element",
           "normalized": "Int-\u003e(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -6573,6 +7119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwan van Laarhoven's lens for element of vector with statically\n   known index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "elementTy",
           "package": "fixed-vector",
@@ -6583,6 +7130,7 @@
         "index": {
           "description": "Twan van Laarhoven lens for element of vector with statically known index",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "elementTy",
           "normalized": "a-\u003e(b-\u003ec b)-\u003ed b-\u003ec(d b)",
@@ -6599,6 +7147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest two vectors for equality.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec2)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v0 = basis 0 :: Vec2 Int\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v1 = basis 1 :: Vec2 Int\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev0 `eq` v0\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev0 `eq` v1\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "eq",
           "package": "fixed-vector",
@@ -6609,6 +7158,7 @@
         "index": {
           "description": "Test two vectors for equality Examples import Data.Vector.Fixed.Boxed Vec2 let v0 basis Vec2 Int let v1 basis Vec2 Int v0 eq v0 True v0 eq v1 False",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "eq",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -6624,6 +7174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the elements of a structure using a monoid. Similar to\n   \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "fold",
           "package": "fixed-vector",
@@ -6634,6 +7185,7 @@
         "index": {
           "description": "Combine the elements of structure using monoid Similar to fold",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "fold",
           "normalized": "a b-\u003eb",
@@ -6649,6 +7201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic fold over vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "foldM",
           "package": "fixed-vector",
@@ -6659,6 +7212,7 @@
         "index": {
           "description": "Monadic fold over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "foldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003ed b-\u003ec a",
@@ -6674,6 +7228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap each element of the structure to a monoid,\n   and combine the results. Similar to \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "foldMap",
           "package": "fixed-vector",
@@ -6684,6 +7239,7 @@
         "index": {
           "description": "Map each element of the structure to monoid and combine the results Similar to foldMap",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "foldMap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -6700,6 +7256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "foldl",
           "package": "fixed-vector",
@@ -6710,6 +7267,7 @@
         "index": {
           "description": "Left fold over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -6725,6 +7283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "foldl1",
           "package": "fixed-vector",
@@ -6735,6 +7294,7 @@
         "index": {
           "description": "Left fold over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -6750,6 +7310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight fold over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "foldr",
           "package": "fixed-vector",
@@ -6760,6 +7321,7 @@
         "index": {
           "description": "Right fold over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -6775,6 +7337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate vector from \u003ccode\u003eFoldable\u003c/code\u003e data type. Will return \u003ccode\u003eNothing\u003c/code\u003e if\n   data type different number of elements that resulting vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "fromFoldable",
           "package": "fixed-vector",
@@ -6785,6 +7348,7 @@
         "index": {
           "description": "Create vector from Foldable data type Will return Nothing if data type different number of elements that resulting vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "fromFoldable",
           "normalized": "a b-\u003eMaybe(c b)",
@@ -6801,6 +7365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate vector form list. Will throw error if list is shorter than\n   resulting vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "fromList",
           "package": "fixed-vector",
@@ -6811,6 +7376,7 @@
         "index": {
           "description": "Create vector form list Will throw error if list is shorter than resulting vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "fromList",
           "normalized": "[a]-\u003eb a",
@@ -6827,6 +7393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate vector form list. Will throw error if list has different\n   length from resulting vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "fromList'",
           "package": "fixed-vector",
@@ -6837,6 +7404,7 @@
         "index": {
           "description": "Create vector form list Will throw error if list has different length from resulting vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "fromList'",
           "normalized": "[a]-\u003eb a",
@@ -6853,6 +7421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate vector form list. Will return \u003ccode\u003eNothing\u003c/code\u003e if list has different\n   length from resulting vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "fromListM",
           "package": "fixed-vector",
@@ -6863,6 +7432,7 @@
         "index": {
           "description": "Create vector form list Will return Nothing if list has different length from resulting vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "fromListM",
           "normalized": "[a]-\u003eMaybe(b a)",
@@ -6879,6 +7449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate vector from function which maps element's index to its\n   value.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Unboxed (Vec4)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egenerate (^2) :: Vec4 Int\n\u003c/code\u003e\u003c/strong\u003efromList [0,1,4,9]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "generate",
           "package": "fixed-vector",
@@ -6889,6 +7460,7 @@
         "index": {
           "description": "Generate vector from function which maps element index to its value Examples import Data.Vector.Fixed.Unboxed Vec4 generate Vec4 Int fromList",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "generate",
           "normalized": "(Int-\u003ea)-\u003eb a",
@@ -6904,6 +7476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate vector from monadic function which maps element's index\n   to its value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "generateM",
           "package": "fixed-vector",
@@ -6914,6 +7487,7 @@
         "index": {
           "description": "Generate vector from monadic function which maps element index to its value",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "generateM",
           "normalized": "(Int-\u003ea b)-\u003ea(c b)",
@@ -6929,6 +7503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst element of vector.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec3)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet x = mk3 1 2 3 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehead x\n\u003c/code\u003e\u003c/strong\u003e1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "head",
           "package": "fixed-vector",
@@ -6939,6 +7514,7 @@
         "index": {
           "description": "First element of vector Examples import Data.Vector.Fixed.Boxed Vec3 let mk3 Vec3 Int head",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "head",
           "normalized": "a b-\u003eb",
@@ -6954,6 +7530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft monadic fold over vector. Function is applied to each element and\n   its index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "ifoldM",
           "package": "fixed-vector",
@@ -6964,6 +7541,7 @@
         "index": {
           "description": "Left monadic fold over vector Function is applied to each element and its index",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "ifoldM",
           "normalized": "(a-\u003eInt-\u003eb-\u003ec a)-\u003ea-\u003ed b-\u003ec a",
@@ -6979,6 +7557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold over vector. Function is applied to each element and\n   its index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "ifoldl",
           "package": "fixed-vector",
@@ -6989,6 +7568,7 @@
         "index": {
           "description": "Left fold over vector Function is applied to each element and its index",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "ifoldl",
           "normalized": "(a-\u003eInt-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -7004,6 +7584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "ifoldr",
           "package": "fixed-vector",
@@ -7014,6 +7595,7 @@
         "index": {
           "description": "Left fold over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "ifoldr",
           "normalized": "(Int-\u003ea-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -7029,6 +7611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to every element of the vector and its index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "imap",
           "package": "fixed-vector",
@@ -7039,6 +7622,7 @@
         "index": {
           "description": "Apply function to every element of the vector and its index",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "imap",
           "normalized": "(Int-\u003ea-\u003eb)-\u003ec a-\u003ec b",
@@ -7054,6 +7638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply monadic function to every element of the vector and its index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "imapM",
           "package": "fixed-vector",
@@ -7064,6 +7649,7 @@
         "index": {
           "description": "Apply monadic function to every element of the vector and its index",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "imapM",
           "normalized": "(Int-\u003ea-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -7079,6 +7665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply monadic function to every element of the vector and its\n   index and discard result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "imapM_",
           "package": "fixed-vector",
@@ -7089,6 +7676,7 @@
         "index": {
           "description": "Apply monadic function to every element of the vector and its index and discard result",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "imapM_",
           "normalized": "(Int-\u003ea-\u003eb c)-\u003ed a-\u003eb()",
@@ -7104,6 +7692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet element from vector at statically known index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "index",
           "package": "fixed-vector",
@@ -7114,6 +7703,7 @@
         "index": {
           "description": "Get element from vector at statically known index",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "index",
           "normalized": "a b-\u003ec-\u003eb",
@@ -7129,6 +7719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruction of vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "inspect",
           "package": "fixed-vector",
@@ -7139,6 +7730,7 @@
         "index": {
           "description": "Deconstruction of vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "inspect",
           "normalized": "a b-\u003eFun(Dim a)b c-\u003ec",
@@ -7154,6 +7746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using function which takes element index\n   as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "izipWith",
           "package": "fixed-vector",
@@ -7164,6 +7757,7 @@
         "index": {
           "description": "Zip two vector together using function which takes element index as well",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "izipWith",
           "normalized": "(Int-\u003ea-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -7180,6 +7774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using monadic function which takes element\n   index as well..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "izipWithM",
           "package": "fixed-vector",
@@ -7190,6 +7785,7 @@
         "index": {
           "description": "Zip two vector together using monadic function which takes element index as well",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "izipWithM",
           "normalized": "(Int-\u003ea-\u003eb-\u003ec d)-\u003ee a-\u003ee b-\u003ec(e d)",
@@ -7206,6 +7802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "map",
           "package": "fixed-vector",
@@ -7216,6 +7813,7 @@
         "index": {
           "description": "Map over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -7231,6 +7829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic map over vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mapM",
           "package": "fixed-vector",
@@ -7241,6 +7840,7 @@
         "index": {
           "description": "Monadic map over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -7256,6 +7856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply monadic action to each element of vector and ignore result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mapM_",
           "package": "fixed-vector",
@@ -7266,6 +7867,7 @@
         "index": {
           "description": "Apply monadic action to each element of vector and ignore result",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mapM_",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb()",
@@ -7281,6 +7883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximal element of vector.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec3)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet x = mk3 1 2 3 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emaximum x\n\u003c/code\u003e\u003c/strong\u003e3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "maximum",
           "package": "fixed-vector",
@@ -7291,6 +7894,7 @@
         "index": {
           "description": "Maximal element of vector Examples import Data.Vector.Fixed.Boxed Vec3 let mk3 Vec3 Int maximum",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "maximum",
           "normalized": "a b-\u003eb",
@@ -7306,6 +7910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal element of vector.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec3)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet x = mk3 1 2 3 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eminimum x\n\u003c/code\u003e\u003c/strong\u003e1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "minimum",
           "package": "fixed-vector",
@@ -7316,6 +7921,7 @@
         "index": {
           "description": "Minimal element of vector Examples import Data.Vector.Fixed.Boxed Vec3 let mk3 Vec3 Int minimum",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "minimum",
           "normalized": "a b-\u003eb",
@@ -7330,6 +7936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mk0",
           "package": "fixed-vector",
@@ -7339,6 +7946,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mk0",
           "package": "fixed-vector",
@@ -7351,6 +7959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mk1",
           "package": "fixed-vector",
@@ -7360,6 +7969,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mk1",
           "normalized": "a-\u003eb a",
@@ -7374,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mk2",
           "package": "fixed-vector",
@@ -7383,6 +7994,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mk2",
           "normalized": "a-\u003ea-\u003eb a",
@@ -7397,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mk3",
           "package": "fixed-vector",
@@ -7406,6 +8019,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mk3",
           "normalized": "a-\u003ea-\u003ea-\u003eb a",
@@ -7420,6 +8034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mk4",
           "package": "fixed-vector",
@@ -7429,6 +8044,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mk4",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eb a",
@@ -7443,6 +8059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mk5",
           "package": "fixed-vector",
@@ -7452,6 +8069,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mk5",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb a",
@@ -7467,6 +8085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariadic vector constructor. Resulting vector should be converted\n   from \u003ccode\u003e\u003ca\u003eContVec\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003evector\u003c/a\u003e\u003c/code\u003e function.  For example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003evector $ mkN 'a' 'b' 'c' :: (Char,Char,Char)\n\u003c/code\u003e\u003c/strong\u003e('a','b','c')\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "mkN",
           "package": "fixed-vector",
@@ -7477,6 +8096,7 @@
         "index": {
           "description": "Variadic vector constructor Resulting vector should be converted from ContVec using vector function For example vector mkN Char Char Char",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "mkN",
           "normalized": "a-\u003eb",
@@ -7492,6 +8112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction of all elements of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "or",
           "package": "fixed-vector",
@@ -7502,6 +8123,7 @@
         "index": {
           "description": "Disjunction of all elements of vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "or",
           "normalized": "a Bool-\u003eBool",
@@ -7517,6 +8139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexicographic ordering of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "ord",
           "package": "fixed-vector",
@@ -7527,6 +8150,7 @@
         "index": {
           "description": "Lexicographic ordering of two vectors",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "ord",
           "normalized": "a b-\u003ea b-\u003eOrdering",
@@ -7542,6 +8166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicate value \u003cem\u003en\u003c/em\u003e times.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec2)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereplicate 1 :: Vec2 Int\n\u003c/code\u003e\u003c/strong\u003efromList [1,1]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereplicate 2 :: (Double,Double,Double)\n\u003c/code\u003e\u003c/strong\u003e(2.0,2.0,2.0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec4)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereplicate \"foo\" :: Vec4 String\n\u003c/code\u003e\u003c/strong\u003efromList [\"foo\",\"foo\",\"foo\",\"foo\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "replicate",
           "package": "fixed-vector",
@@ -7552,6 +8177,7 @@
         "index": {
           "description": "Replicate value times Examples import Data.Vector.Fixed.Boxed Vec2 replicate Vec2 Int fromList replicate Double Double Double import Data.Vector.Fixed.Boxed Vec4 replicate foo Vec4 String fromList foo foo foo foo",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "replicate",
           "normalized": "a-\u003eb a",
@@ -7567,6 +8193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute monadic action for every element of vector.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec2,Vec3)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereplicateM (Just 3) :: Maybe (Vec3 Int)\n\u003c/code\u003e\u003c/strong\u003eJust fromList [3,3,3]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereplicateM (putStrLn \"Hi!\") :: IO (Vec2 ())\n\u003c/code\u003e\u003c/strong\u003eHi!\nHi!\nfromList [(),()]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "replicateM",
           "package": "fixed-vector",
@@ -7577,6 +8204,7 @@
         "index": {
           "description": "Execute monadic action for every element of vector Examples import Data.Vector.Fixed.Boxed Vec2 Vec3 replicateM Just Maybe Vec3 Int Just fromList replicateM putStrLn Hi IO Vec2 Hi Hi fromList",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "replicateM",
           "normalized": "a b-\u003ea(c b)",
@@ -7592,6 +8220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse order of elements in the vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "reverse",
           "package": "fixed-vector",
@@ -7602,6 +8231,7 @@
         "index": {
           "description": "Reverse order of elements in the vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "reverse",
           "normalized": "a b-\u003ea b",
@@ -7617,6 +8247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft scan over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "scanl",
           "package": "fixed-vector",
@@ -7627,6 +8258,7 @@
         "index": {
           "description": "Left scan over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "scanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ed a",
@@ -7642,6 +8274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft scan over vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "scanl1",
           "package": "fixed-vector",
@@ -7652,6 +8285,7 @@
         "index": {
           "description": "Left scan over vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "scanl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eb a",
@@ -7667,6 +8301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate every action in the vector from left to right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "sequence",
           "package": "fixed-vector",
@@ -7677,6 +8312,7 @@
         "index": {
           "description": "Evaluate every action in the vector from left to right",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "sequence",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -7692,6 +8328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalog of \u003ccode\u003e\u003ca\u003esequenceA\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "sequenceA",
           "package": "fixed-vector",
@@ -7702,6 +8339,7 @@
         "index": {
           "description": "Analog of sequenceA from Traversable",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "sequenceA",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -7717,6 +8355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate every action in the vector from left to right and ignore result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "sequence_",
           "package": "fixed-vector",
@@ -7727,6 +8366,7 @@
         "index": {
           "description": "Evaluate every action in the vector from left to right and ignore result",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "sequence_",
           "normalized": "a(b c)-\u003eb()",
@@ -7742,6 +8382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend element to the vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "snoc",
           "package": "fixed-vector",
@@ -7752,6 +8393,7 @@
         "index": {
           "description": "Append element to the vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "snoc",
           "normalized": "a-\u003eb a-\u003ec a",
@@ -7767,6 +8409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum all elements in the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "sum",
           "package": "fixed-vector",
@@ -7777,6 +8420,7 @@
         "index": {
           "description": "Sum all elements in the vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "sum",
           "normalized": "a b-\u003eb",
@@ -7792,6 +8436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTail of vector.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Complex\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etail (1,2,3) :: Complex Double\n\u003c/code\u003e\u003c/strong\u003e2.0 :+ 3.0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "tail",
           "package": "fixed-vector",
@@ -7802,6 +8447,7 @@
         "index": {
           "description": "Tail of vector Examples import Data.Complex tail Complex Double",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "tail",
           "normalized": "a b-\u003ec b",
@@ -7817,6 +8463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert vector to the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "toList",
           "package": "fixed-vector",
@@ -7827,6 +8474,7 @@
         "index": {
           "description": "Convert vector to the list",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "toList",
           "normalized": "a b-\u003e[b]",
@@ -7843,6 +8491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalog of \u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "traverse",
           "package": "fixed-vector",
@@ -7853,6 +8502,7 @@
         "index": {
           "description": "Analog of traverse from Traversable",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "traverse",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -7868,6 +8518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "unfoldr",
           "package": "fixed-vector",
@@ -7878,6 +8529,7 @@
         "index": {
           "description": "Unfold vector",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "unfoldr",
           "normalized": "(a-\u003e(b,a))-\u003ea-\u003ec b",
@@ -7893,6 +8545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using function.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.Vector.Fixed.Boxed (Vec3)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet b0 = basis 0 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet b1 = basis 1 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet b2 = basis 2 :: Vec3 Int\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet vplus x y = zipWith (+) x y\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003evplus b0 b1\n\u003c/code\u003e\u003c/strong\u003efromList [1,1,0]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003evplus b0 b2\n\u003c/code\u003e\u003c/strong\u003efromList [1,0,1]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003evplus b1 b2\n\u003c/code\u003e\u003c/strong\u003efromList [0,1,1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "zipWith",
           "package": "fixed-vector",
@@ -7903,6 +8556,7 @@
         "index": {
           "description": "Zip two vector together using function Examples import Data.Vector.Fixed.Boxed Vec3 let b0 basis Vec3 Int let b1 basis Vec3 Int let b2 basis Vec3 Int let vplus zipWith vplus b0 b1 fromList vplus b0 b2 fromList vplus b1 b2 fromList",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -7919,6 +8573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vector together using monadic function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:56 UTC 2014",
           "module": "Data.Vector.Fixed",
           "name": "zipWithM",
           "package": "fixed-vector",
@@ -7929,6 +8584,7 @@
         "index": {
           "description": "Zip two vector together using monadic function",
           "hierarchy": "Data Vector Fixed",
+          "indexed": "2014-03-11T18:09:56",
           "module": "Data.Vector.Fixed",
           "name": "zipWithM",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ee a-\u003ee b-\u003ec(e d)",

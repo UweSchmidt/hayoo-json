@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stunclient"
+        "phrase": "stunclient",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports \u003cem\u003eeverything\u003c/em\u003e from this package (except some functions\n defined in Network.Stun) to avoid the need for copy/paste.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "Internal",
           "package": "stunclient",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exports everything from this package except some functions defined in Network.Stun to avoid the need for copy paste",
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "Internal",
           "package": "stunclient",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "Attribute",
           "package": "stunclient",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "Attribute",
           "package": "stunclient",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "AttributeError",
           "package": "stunclient",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "AttributeError",
           "package": "stunclient",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "Credentials",
           "package": "stunclient",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "Credentials",
           "package": "stunclient",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "ErrorAttribute",
           "package": "stunclient",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "ErrorAttribute",
           "package": "stunclient",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "IsAttribute",
           "package": "stunclient",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "IsAttribute",
           "package": "stunclient",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "MappedAddress",
           "package": "stunclient",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "MappedAddress",
           "package": "stunclient",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "Message",
           "package": "stunclient",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "Message",
           "package": "stunclient",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "MessageClass",
           "package": "stunclient",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "MessageClass",
           "package": "stunclient",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "MessageIntegrity",
           "package": "stunclient",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "MessageIntegrity",
           "package": "stunclient",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "Method",
           "package": "stunclient",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "Method",
           "package": "stunclient",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "TransactionID",
           "package": "stunclient",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "TransactionID",
           "package": "stunclient",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "Username",
           "package": "stunclient",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "Username",
           "package": "stunclient",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "XorMappedAddress",
           "package": "stunclient",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "XorMappedAddress",
           "package": "stunclient",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "AttributeDecodeError",
           "package": "stunclient",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "AttributeDecodeError",
           "package": "stunclient",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "AttributeWrongType",
           "package": "stunclient",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "AttributeWrongType",
           "package": "stunclient",
@@ -475,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "MA",
           "package": "stunclient",
@@ -484,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "MA",
           "package": "stunclient",
@@ -520,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "MessageIntegrity",
           "package": "stunclient",
@@ -529,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "MessageIntegrity",
           "package": "stunclient",
@@ -659,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "XMA",
           "package": "stunclient",
@@ -668,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "XMA",
           "package": "stunclient",
@@ -704,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "attributeTypeValue",
           "package": "stunclient",
@@ -713,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "attributeTypeValue",
           "normalized": "a-\u003eWord",
@@ -803,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003emagic cookie\u003c/a\u003e constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "cookie",
           "package": "stunclient",
@@ -813,6 +854,7 @@
         "index": {
           "description": "magic cookie constant",
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "cookie",
           "package": "stunclient",
@@ -825,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "decodeMessageType",
           "package": "stunclient",
@@ -834,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "decodeMessageType",
           "normalized": "Word-\u003e(Method,MessageClass)",
@@ -849,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "encodeMessageType",
           "package": "stunclient",
@@ -858,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "encodeMessageType",
           "normalized": "Method-\u003eMessageClass-\u003eWord",
@@ -1058,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "fingerprintAttribute",
           "package": "stunclient",
@@ -1067,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "fingerprintAttribute",
           "normalized": "Word-\u003eAttribute",
@@ -1082,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "fingerprintXorConstant",
           "package": "stunclient",
@@ -1091,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "fingerprintXorConstant",
           "package": "stunclient",
@@ -1104,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "fromAttribute",
           "package": "stunclient",
@@ -1113,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "fromAttribute",
           "normalized": "Attribute-\u003eEither AttributeError a",
@@ -1153,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "getAddress",
           "package": "stunclient",
@@ -1162,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "getAddress",
           "package": "stunclient",
@@ -1175,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "getAttribute",
           "package": "stunclient",
@@ -1184,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "getAttribute",
           "package": "stunclient",
@@ -1197,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "getErrorAttribute",
           "package": "stunclient",
@@ -1206,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "getErrorAttribute",
           "package": "stunclient",
@@ -1219,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "getMessage",
           "package": "stunclient",
@@ -1228,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "getMessage",
           "package": "stunclient",
@@ -1241,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "halfCookie",
           "package": "stunclient",
@@ -1250,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "halfCookie",
           "package": "stunclient",
@@ -1263,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "maAttributeType",
           "package": "stunclient",
@@ -1272,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "maAttributeType",
           "package": "stunclient",
@@ -1356,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "miHmac",
           "package": "stunclient",
@@ -1365,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "miHmac",
           "package": "stunclient",
@@ -1378,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "putAddress",
           "package": "stunclient",
@@ -1387,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "putAddress",
           "normalized": "SockAddr-\u003ePutM()",
@@ -1402,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "putAttribute",
           "package": "stunclient",
@@ -1411,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "putAttribute",
           "normalized": "Attribute-\u003ePutM()",
@@ -1426,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "putErrorAttribute",
           "package": "stunclient",
@@ -1435,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "putErrorAttribute",
           "normalized": "ErrorAttribute-\u003ePutM()",
@@ -1450,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "putMessage",
           "package": "stunclient",
@@ -1459,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "putMessage",
           "normalized": "Message-\u003ePutM()",
@@ -1474,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "putPlainMessage",
           "package": "stunclient",
@@ -1483,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "putPlainMessage",
           "normalized": "Int-\u003eMessage-\u003ePutM()",
@@ -1522,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "showBits",
           "package": "stunclient",
@@ -1531,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "showBits",
           "normalized": "a-\u003e[Char]",
@@ -1546,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "toAttribute",
           "package": "stunclient",
@@ -1555,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "toAttribute",
           "normalized": "a-\u003eAttribute",
@@ -1593,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "unMA",
           "package": "stunclient",
@@ -1602,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "unMA",
           "package": "stunclient",
@@ -1638,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "unXMA",
           "package": "stunclient",
@@ -1647,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "unXMA",
           "package": "stunclient",
@@ -1687,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "xmaAttributeType",
           "package": "stunclient",
@@ -1696,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "xmaAttributeType",
           "package": "stunclient",
@@ -1709,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun.Internal",
           "name": "xorAddress",
           "package": "stunclient",
@@ -1718,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Network Stun Internal",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun.Internal",
           "name": "xorAddress",
           "normalized": "TransactionID-\u003eSockAddr-\u003eSockAddr",
@@ -1759,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSession Traversal Utilities for NAT (STUN)\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc5389\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFor a simple way to find the mapped address see \u003ccode\u003e\u003ca\u003efindMappedAddress\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "Stun",
           "package": "stunclient",
@@ -1768,6 +1857,7 @@
         "index": {
           "description": "Session Traversal Utilities for NAT STUN http tools.ietf.org html rfc5389 For simple way to find the mapped address see findMappedAddress",
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "Stun",
           "package": "stunclient",
@@ -1781,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "Attribute",
           "package": "stunclient",
@@ -1789,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "Attribute",
           "package": "stunclient",
@@ -1802,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "Credentials",
           "package": "stunclient",
@@ -1810,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "Credentials",
           "package": "stunclient",
@@ -1823,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "ErrorAttribute",
           "package": "stunclient",
@@ -1831,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "ErrorAttribute",
           "package": "stunclient",
@@ -1844,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "IsAttribute",
           "package": "stunclient",
@@ -1852,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "IsAttribute",
           "package": "stunclient",
@@ -1865,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "MappedAddress",
           "package": "stunclient",
@@ -1873,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "MappedAddress",
           "package": "stunclient",
@@ -1886,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "Message",
           "package": "stunclient",
@@ -1894,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "Message",
           "package": "stunclient",
@@ -1907,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "MessageClass",
           "package": "stunclient",
@@ -1915,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "MessageClass",
           "package": "stunclient",
@@ -1928,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "StunError",
           "package": "stunclient",
@@ -1936,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "StunError",
           "package": "stunclient",
@@ -1949,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "TransactionID",
           "package": "stunclient",
@@ -1957,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "TransactionID",
           "package": "stunclient",
@@ -1970,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "Username",
           "package": "stunclient",
@@ -1978,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "Username",
           "package": "stunclient",
@@ -1991,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "XorMappedAddress",
           "package": "stunclient",
@@ -1999,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "XorMappedAddress",
           "package": "stunclient",
@@ -2012,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "ErrorMsg",
           "package": "stunclient",
@@ -2021,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "ErrorMsg",
           "package": "stunclient",
@@ -2034,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "ProtocolError",
           "package": "stunclient",
@@ -2043,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "ProtocolError",
           "package": "stunclient",
@@ -2056,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "TimeOut",
           "package": "stunclient",
@@ -2065,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "TimeOut",
           "package": "stunclient",
@@ -2078,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "WrongMessageType",
           "package": "stunclient",
@@ -2087,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "WrongMessageType",
           "package": "stunclient",
@@ -2100,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "attributeTypeValue",
           "package": "stunclient",
@@ -2109,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "attributeTypeValue",
           "normalized": "a-\u003eWord",
@@ -2125,6 +2247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new bind request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "bindRequest",
           "package": "stunclient",
@@ -2135,6 +2258,7 @@
         "index": {
           "description": "Generate new bind request",
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "bindRequest",
           "package": "stunclient",
@@ -2149,6 +2273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the mapped address by sending a bind request to \u003cem\u003ehost\u003c/em\u003e, using\n \u003cem\u003elocalport\u003c/em\u003e . The request will be retransmitted for each entry of \u003cem\u003etimeOuts\u003c/em\u003e.\n If the list of time outs is empty, a default of 500ms, 1s and 2s is used\n returns the reflexive and the local address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "findMappedAddress",
           "package": "stunclient",
@@ -2158,6 +2283,7 @@
         "index": {
           "description": "Get the mapped address by sending bind request to host using localport The request will be retransmitted for each entry of timeOuts If the list of time outs is empty default of ms and is used returns the reflexive and the local address",
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "findMappedAddress",
           "normalized": "SockAddr-\u003ePortNumber-\u003e[Integer]-\u003eIO(Either StunError(SockAddr,SockAddr))",
@@ -2173,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "fromAttribute",
           "package": "stunclient",
@@ -2182,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "fromAttribute",
           "normalized": "Attribute-\u003eEither AttributeError a",
@@ -2198,6 +2326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a STUN request to the server denoted by address and wait for an\n answer. The request will be sucessively sent once for each element of\n timeOuts until an answer is received or all requests time out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "stunRequest",
           "package": "stunclient",
@@ -2207,6 +2336,7 @@
         "index": {
           "description": "Send STUN request to the server denoted by address and wait for an answer The request will be sucessively sent once for each element of timeOuts until an answer is received or all requests time out",
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "stunRequest",
           "normalized": "SockAddr-\u003ePortNumber-\u003e[Integer]-\u003eMessage-\u003eIO(Either StunError Message)",
@@ -2223,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003estunRequest\u003c/a\u003e\u003c/code\u003e but returns the used socket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "stunRequest'",
           "package": "stunclient",
@@ -2232,6 +2363,7 @@
         "index": {
           "description": "Same as stunRequest but returns the used socket",
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "stunRequest'",
           "normalized": "SockAddr-\u003ePortNumber-\u003e[Integer]-\u003eMessage-\u003eIO(Either StunError(Message,Socket))",
@@ -2247,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:20 UTC 2014",
           "module": "Network.Stun",
           "name": "toAttribute",
           "package": "stunclient",
@@ -2256,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Network Stun",
+          "indexed": "2014-03-11T20:13:20",
           "module": "Network.Stun",
           "name": "toAttribute",
           "normalized": "a-\u003eAttribute",

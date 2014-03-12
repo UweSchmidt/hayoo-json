@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "patience"
+        "phrase": "patience",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements \"patience diff\" and the patience algorithm for the longest\n   increasing subsequence problem.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "Patience",
           "package": "patience",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implements patience diff and the patience algorithm for the longest increasing subsequence problem",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "Patience",
           "package": "patience",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn element of a computed difference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "Item",
           "package": "patience",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An element of computed difference",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "Item",
           "package": "patience",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue taken from both lists.  Both values are provided, in case\n   your type has a non-structural definition of equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "Both",
           "package": "patience",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Value taken from both lists Both values are provided in case your type has non-structural definition of equality",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "Both",
           "package": "patience",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue taken from the \"new\" list, i.e. right argument to \u003ccode\u003e\u003ca\u003ediff\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "New",
           "package": "patience",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Value taken from the new list i.e right argument to diff",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "New",
           "package": "patience",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue taken from the \"old\" list, i.e. left argument to \u003ccode\u003e\u003ca\u003ediff\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "Old",
           "package": "patience",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Value taken from the old list i.e left argument to diff",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "Old",
           "package": "patience",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe difference between two lists, according to the\n \"patience diff\" algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "diff",
           "package": "patience",
@@ -147,6 +158,7 @@
         "index": {
           "description": "The difference between two lists according to the patience diff algorithm",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "diff",
           "normalized": "[a]-\u003e[a]-\u003e[Item a]",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe character \u003ccode\u003e'-'\u003c/code\u003e or \u003ccode\u003e'+'\u003c/code\u003e or \u003ccode\u003e' '\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eOld\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNew\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eBoth\u003c/a\u003e\u003c/code\u003e respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "itemChar",
           "package": "patience",
@@ -172,6 +185,7 @@
         "index": {
           "description": "The character or or for Old or New or Both respectively",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "itemChar",
           "normalized": "Item a-\u003eChar",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value from an \u003ccode\u003e\u003ca\u003eItem\u003c/a\u003e\u003c/code\u003e.  For \u003ccode\u003e\u003ca\u003eBoth\u003c/a\u003e\u003c/code\u003e, returns the \"old\" value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "itemValue",
           "package": "patience",
@@ -198,6 +213,7 @@
         "index": {
           "description": "The value from an Item For Both returns the old value",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "itemValue",
           "normalized": "Item a-\u003ea",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven: a list of distinct integers.  Picks a subset of the integers\n   in the same order, i.e. a subsequence, with the property that\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e it is monotonically increasing, and\n\u003c/li\u003e\u003cli\u003e it is at least as long as any other such subsequence.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis function uses patience sort:\n \u003ca\u003ehttp://en.wikipedia.org/wiki/Patience_sorting\u003c/a\u003e.\n For implementation reasons, the actual list returned is the reverse of\n the subsequence.\n\u003c/p\u003e\u003cp\u003eYou can pair each integer with an arbitrary annotation, which will be\n carried through the algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:56 UTC 2014",
           "module": "Data.Algorithm.Patience",
           "name": "longestIncreasing",
           "package": "patience",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Given list of distinct integers Picks subset of the integers in the same order i.e subsequence with the property that it is monotonically increasing and it is at least as long as any other such subsequence This function uses patience sort http en.wikipedia.org wiki Patience sorting For implementation reasons the actual list returned is the reverse of the subsequence You can pair each integer with an arbitrary annotation which will be carried through the algorithm",
           "hierarchy": "Data Algorithm Patience",
+          "indexed": "2014-03-11T19:35:56",
           "module": "Data.Algorithm.Patience",
           "name": "longestIncreasing",
           "normalized": "[(Int,a)]-\u003e[(Int,a)]",

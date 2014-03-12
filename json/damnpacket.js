@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "damnpacket"
+        "phrase": "damnpacket",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides convenience functions for manipulating dAmn packets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "Packet",
           "package": "damnpacket",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides convenience functions for manipulating dAmn packets",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "Packet",
           "package": "damnpacket",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym--because pressing spacebar is pretty irritating.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "Arguments",
           "package": "damnpacket",
@@ -51,6 +54,7 @@
         "index": {
           "description": "type synonym--because pressing spacebar is pretty irritating",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "Arguments",
           "package": "damnpacket",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a dAmn packet.\n\u003c/p\u003e\u003cp\u003ePackets are comprised of a command, which is mandatory, and three other\n optional elements: a \"parameter\", an argument list, and a body. Any\n combination of the latter three (or none of them) is valid, so the\n parser is fairly lenient.\n\u003c/p\u003e\u003cp\u003eA packet with all four elements will look something like this:\n\u003c/p\u003e\u003cpre\u003e\nproperty chat:SomeChatroom\np=propertyName\nby=name of setter\nts=timestamp\n\nvalue of property\n\u003c/pre\u003e\u003cp\u003eParsing this results in the packet:\n\u003c/p\u003e\u003cpre\u003e\n\u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e { \u003ccode\u003e\u003ca\u003epktCommand\u003c/a\u003e\u003c/code\u003e = \"property\"\n       , \u003ccode\u003e\u003ca\u003epktParameter\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \"chat:SomeChatroom\"\n       , \u003ccode\u003e\u003ca\u003epktArgs\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003efromList\u003c/code\u003e [(\"p\",\"propertyName\"),(\"by\",\"name of setter\"),(\"ts\",\"timestamp\")]\n       , \u003ccode\u003e\u003ca\u003epktBody\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \"value of property\"\n       }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "Packet",
           "package": "damnpacket",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Represents dAmn packet Packets are comprised of command which is mandatory and three other optional elements parameter an argument list and body Any combination of the latter three or none of them is valid so the parser is fairly lenient packet with all four elements will look something like this property chat SomeChatroom propertyName by name of setter ts timestamp value of property Parsing this results in the packet Packet pktCommand property pktParameter Just chat SomeChatroom pktArgs fromList propertyName by name of setter ts timestamp pktBody Just value of property",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "Packet",
           "package": "damnpacket",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "Packet",
           "package": "damnpacket",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "Packet",
           "package": "damnpacket",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse some text, providing a packet or the reason for parse failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "parse",
           "package": "damnpacket",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Parse some text providing packet or the reason for parse failure",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "parse",
           "normalized": "ByteString-\u003eResult Packet",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse some text, discarding any failure message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "parse'",
           "package": "damnpacket",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Parse some text discarding any failure message",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "parse'",
           "normalized": "ByteString-\u003eMaybe Packet",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktArgs",
           "package": "damnpacket",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktArgs",
           "package": "damnpacket",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens on \u003ccode\u003e\u003ca\u003epktArgs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktArgsL",
           "package": "damnpacket",
@@ -192,6 +207,7 @@
         "index": {
           "description": "lens on pktArgs",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktArgsL",
           "normalized": "(Arguments-\u003ea Arguments)-\u003ePacket-\u003ea Packet",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktBody",
           "package": "damnpacket",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktBody",
           "package": "damnpacket",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens on \u003ccode\u003e\u003ca\u003epktBody\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktBodyL",
           "package": "damnpacket",
@@ -240,6 +259,7 @@
         "index": {
           "description": "lens on pktBody",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktBodyL",
           "normalized": "(Maybe ByteString-\u003ea(Maybe ByteString))-\u003ePacket-\u003ea Packet",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktCommand",
           "package": "damnpacket",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktCommand",
           "package": "damnpacket",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens on \u003ccode\u003e\u003ca\u003epktCommand\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktCommandL",
           "package": "damnpacket",
@@ -288,6 +311,7 @@
         "index": {
           "description": "lens on pktCommand",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktCommandL",
           "normalized": "(Text-\u003ea Text)-\u003ePacket-\u003ea Packet",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktParameter",
           "package": "damnpacket",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktParameter",
           "package": "damnpacket",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens on \u003ccode\u003e\u003ca\u003epktParameter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktParameterL",
           "package": "damnpacket",
@@ -336,6 +363,7 @@
         "index": {
           "description": "lens on pktParameter",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktParameterL",
           "normalized": "(Maybe Text-\u003ea(Maybe Text))-\u003ePacket-\u003ea Packet",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDue to the way dAmn packets are designed, it's not possible to\n unambiguously determine whether a packet has a subpacket or just a body.\n Thus you will need to request a subpacket yourself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktSubpacket",
           "package": "damnpacket",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Due to the way dAmn packets are designed it not possible to unambiguously determine whether packet has subpacket or just body Thus you will need to request subpacket yourself",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktSubpacket",
           "normalized": "Packet-\u003eResult Packet",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse when you don't care about the reason for parse failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktSubpacket'",
           "package": "damnpacket",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Use when you don care about the reason for parse failure",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktSubpacket'",
           "normalized": "Packet-\u003eMaybe Packet",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens on \u003ccode\u003e\u003ca\u003epktSubpacket'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "pktSubpacketL",
           "package": "damnpacket",
@@ -414,6 +447,7 @@
         "index": {
           "description": "lens on pktSubpacket",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "pktSubpacketL",
           "normalized": "(Maybe Packet-\u003ea(Maybe Packet))-\u003ePacket-\u003ea Packet",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erender\u003c/a\u003e\u003c/code\u003e converts a packet back into the dAmn text format.\n This is used by \u003ccode\u003e\u003ca\u003epktSubpacketL\u003c/a\u003e\u003c/code\u003e to fulfill the lens laws, but you might\n find it useful if you want to write packets to dAmn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:16 UTC 2014",
           "module": "Text.Damn.Packet",
           "name": "render",
           "package": "damnpacket",
@@ -440,6 +475,7 @@
         "index": {
           "description": "render converts packet back into the dAmn text format This is used by pktSubpacketL to fulfill the lens laws but you might find it useful if you want to write packets to dAmn",
           "hierarchy": "Text Damn Packet",
+          "indexed": "2014-03-11T17:46:16",
           "module": "Text.Damn.Packet",
           "name": "render",
           "normalized": "Packet-\u003eByteString",

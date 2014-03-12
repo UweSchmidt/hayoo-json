@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-sub-th"
+        "phrase": "type-sub-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubsitute one type for another in Template Haskell Dec's, Con's and Type's.\n | Warning! \n | There are a few known issues. The types in cxt's are not subsistuted.\n | Additionally, the Dec's type variables are regenerated after subistution \n | and all explicitly kinded type variables are converted to implicitly kinded type\n | variables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "TypeSub",
           "package": "type-sub-th",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Subsitute one type for another in Template Haskell Dec Con and Type Warning There are few known issues The types in cxt are not subsistuted Additionally the Dec type variables are regenerated after subistution and all explicitly kinded type variables are converted to implicitly kinded type variables",
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "TypeSub",
           "package": "type-sub-th",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA result for partial functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "Result",
           "package": "type-sub-th",
@@ -51,6 +54,7 @@
         "index": {
           "description": "result for partial functions",
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "Result",
           "package": "type-sub-th",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "get_con_types",
           "package": "type-sub-th",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "get_con_types",
           "normalized": "Con-\u003e[Type]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "get_cons",
           "package": "type-sub-th",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "get_cons",
           "normalized": "Dec-\u003e[Con]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "has_type",
           "package": "type-sub-th",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "has_type",
           "normalized": "Type-\u003eType-\u003eBool",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute the new type for the old type in the type  \n transform is from Uniplate     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "sub_type",
           "package": "type-sub-th",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Substitute the new type for the old type in the type transform is from Uniplate",
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "sub_type",
           "normalized": "Type-\u003eType-\u003eType-\u003eType",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute the new type for the old type in the constructor       \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "sub_type_con",
           "package": "type-sub-th",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Substitute the new type for the old type in the constructor",
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "sub_type_con",
           "normalized": "Type-\u003eType-\u003eCon-\u003eCon",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute the a new type for an existing type in all the constructors in a Dec.\n | If the type to replace is missing, the function does nothing. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "sub_type_dec",
           "package": "type-sub-th",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Substitute the new type for an existing type in all the constructors in Dec If the type to replace is missing the function does nothing",
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "sub_type_dec",
           "normalized": "Type-\u003eType-\u003eDec-\u003eDec",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new data declaration where the type variables have been subsituted with the \n | supplied types. Returns an error if the more types the types are provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "sub_types_dec",
           "package": "type-sub-th",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Create new data declaration where the type variables have been subsituted with the supplied types Returns an error if the more types the types are provided",
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "sub_types_dec",
           "normalized": "[Type]-\u003eDec-\u003eResult Dec",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:02 UTC 2014",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "update_ty_vars",
           "package": "type-sub-th",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH TypeSub",
+          "indexed": "2014-03-11T20:28:02",
           "module": "Language.Haskell.TH.TypeSub",
           "name": "update_ty_vars",
           "normalized": "Dec-\u003eDec",

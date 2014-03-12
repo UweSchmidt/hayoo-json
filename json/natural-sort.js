@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "natural-sort"
+        "phrase": "natural-sort",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHuman-friendly text collation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:17 UTC 2014",
           "module": "Algorithms.NaturalSort",
           "name": "NaturalSort",
           "package": "natural-sort",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Human-friendly text collation",
           "hierarchy": "Algorithms NaturalSort",
+          "indexed": "2014-03-11T19:26:17",
           "module": "Algorithms.NaturalSort",
           "name": "NaturalSort",
           "package": "natural-sort",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:17 UTC 2014",
           "module": "Algorithms.NaturalSort",
           "name": "NaturalSort",
           "package": "natural-sort",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Algorithms NaturalSort",
+          "indexed": "2014-03-11T19:26:17",
           "module": "Algorithms.NaturalSort",
           "name": "NaturalSort",
           "package": "natural-sort",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:17 UTC 2014",
           "module": "Algorithms.NaturalSort",
           "name": "SortKey",
           "package": "natural-sort",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Algorithms NaturalSort",
+          "indexed": "2014-03-11T19:26:17",
           "module": "Algorithms.NaturalSort",
           "name": "SortKey",
           "package": "natural-sort",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two values, using their natural ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:17 UTC 2014",
           "module": "Algorithms.NaturalSort",
           "name": "compare",
           "package": "natural-sort",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Compare two values using their natural ordering",
           "hierarchy": "Algorithms NaturalSort",
+          "indexed": "2014-03-11T19:26:17",
           "module": "Algorithms.NaturalSort",
           "name": "compare",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a sortable type into textual and numeric sections, with no\n collation transformation.\n\u003c/p\u003e\u003cp\u003eIf advanced collation is required, either pre-transform the input\n (using eg \u003ccode\u003e\u003ca\u003etoLower\u003c/a\u003e\u003c/code\u003e) or use \u003ccode\u003e\u003ca\u003esortKeyCollated\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:17 UTC 2014",
           "module": "Algorithms.NaturalSort",
           "name": "sortKey",
           "package": "natural-sort",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Split sortable type into textual and numeric sections with no collation transformation If advanced collation is required either pre-transform the input using eg toLower or use sortKeyCollated",
           "hierarchy": "Algorithms NaturalSort",
+          "indexed": "2014-03-11T19:26:17",
           "module": "Algorithms.NaturalSort",
           "name": "sortKey",
           "normalized": "a-\u003eSortKey",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a sortable type into textual and numeric sections, using\n a custom collation transformation. This is useful for providing\n language- or use-specific ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:17 UTC 2014",
           "module": "Algorithms.NaturalSort",
           "name": "sortKeyCollated",
           "package": "natural-sort",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Split sortable type into textual and numeric sections using custom collation transformation This is useful for providing language or use-specific ordering",
           "hierarchy": "Algorithms NaturalSort",
+          "indexed": "2014-03-11T19:26:17",
           "module": "Algorithms.NaturalSort",
           "name": "sortKeyCollated",
           "normalized": "(Text-\u003eByteString)-\u003ea-\u003eSortKey",

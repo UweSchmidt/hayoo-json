@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Yogurt-Standalone"
+        "phrase": "Yogurt-Standalone",
+        "type": "phrase"
       },
       "type": "context"
     }

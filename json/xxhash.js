@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xxhash"
+        "phrase": "xxhash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a pure implementation of the xxHash algorithm.\n\u003c/p\u003e\u003cp\u003eThis implementation is almost as fast as the C version, which is avaliable\n as c_xxHash'.\n\u003c/p\u003e\u003cp\u003eCriterion benchmarks are avaliable via cabal bench.\n\u003c/p\u003e\u003cp\u003eMore information on the algorithm may be found here:\n \u003ca\u003ehttps://code.google.com/p/xxhash/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:09 UTC 2014",
           "module": "Data.Digest.XXHash",
           "name": "XXHash",
           "package": "xxhash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides pure implementation of the xxHash algorithm This implementation is almost as fast as the version which is avaliable as xxHash Criterion benchmarks are avaliable via cabal bench More information on the algorithm may be found here https code.google.com xxhash",
           "hierarchy": "Data Digest XXHash",
+          "indexed": "2014-03-11T20:44:09",
           "module": "Data.Digest.XXHash",
           "name": "XXHash",
           "package": "xxhash",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:09 UTC 2014",
           "module": "Data.Digest.XXHash",
           "name": "XXHash",
           "package": "xxhash",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Digest XXHash",
+          "indexed": "2014-03-11T20:44:09",
           "module": "Data.Digest.XXHash",
           "name": "XXHash",
           "package": "xxhash",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a strict ByteString using the C implementation, the length of the\n ByteString should be limited to 2^31-1 or the results will be invalid.\n\u003c/p\u003e\u003cp\u003eThis is mostly used internally for benchmarking and verification. It's use\n in production is not recommended.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:09 UTC 2014",
           "module": "Data.Digest.XXHash",
           "name": "c_xxHash'",
           "package": "xxhash",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Hash strict ByteString using the implementation the length of the ByteString should be limited to or the results will be invalid This is mostly used internally for benchmarking and verification It use in production is not recommended",
           "hierarchy": "Data Digest XXHash",
+          "indexed": "2014-03-11T20:44:09",
           "module": "Data.Digest.XXHash",
           "name": "c_xxHash'",
           "normalized": "ByteString-\u003eXXHash",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a lazy ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:09 UTC 2014",
           "module": "Data.Digest.XXHash",
           "name": "xxHash",
           "package": "xxhash",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Hash lazy ByteString",
           "hierarchy": "Data Digest XXHash",
+          "indexed": "2014-03-11T20:44:09",
           "module": "Data.Digest.XXHash",
           "name": "xxHash",
           "normalized": "ByteString-\u003eXXHash",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a strict ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:09 UTC 2014",
           "module": "Data.Digest.XXHash",
           "name": "xxHash'",
           "package": "xxhash",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Hash strict ByteString",
           "hierarchy": "Data Digest XXHash",
+          "indexed": "2014-03-11T20:44:09",
           "module": "Data.Digest.XXHash",
           "name": "xxHash'",
           "normalized": "ByteString-\u003eXXHash",

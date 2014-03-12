@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "semigroupoid-extras"
+        "phrase": "semigroupoid-extras",
+        "type": "phrase"
       },
       "type": "context"
     }

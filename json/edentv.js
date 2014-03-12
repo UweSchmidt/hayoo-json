@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "edentv"
+        "phrase": "edentv",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yavie"
+        "phrase": "yavie",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "Editor",
           "package": "yavie",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "Editor",
           "package": "yavie",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "Editor",
           "package": "yavie",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "Editor",
           "package": "yavie",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "Pos",
           "package": "yavie",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "Pos",
           "package": "yavie",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "addExCmd",
           "package": "yavie",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "addExCmd",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "addStatus",
           "package": "yavie",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "addStatus",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "addStrForSearch",
           "package": "yavie",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "addStrForSearch",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "addTimes",
           "package": "yavie",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "addTimes",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "bsExCmd",
           "package": "yavie",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "bsExCmd",
           "normalized": "Editor a-\u003eEditor a",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "bsStatus",
           "package": "yavie",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "bsStatus",
           "normalized": "Editor a-\u003eEditor a",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "concatTwoLines",
           "package": "yavie",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "concatTwoLines",
           "normalized": "Editor a-\u003eEditor a",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorBackWord",
           "package": "yavie",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorBackWord",
           "normalized": "Editor a-\u003eEditor a",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorDown",
           "package": "yavie",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorDown",
           "normalized": "Editor a-\u003eEditor a",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorEndOfLine",
           "package": "yavie",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorEndOfLine",
           "normalized": "Editor a-\u003eEditor a",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorFindChar",
           "package": "yavie",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorFindChar",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorFindCharBack",
           "package": "yavie",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorFindCharBack",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorLeft",
           "package": "yavie",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorLeft",
           "normalized": "Editor a-\u003eEditor a",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorNextSearchStr",
           "package": "yavie",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorNextSearchStr",
           "normalized": "Editor a-\u003eEditor a",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorNextSearchStrBack",
           "package": "yavie",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorNextSearchStrBack",
           "normalized": "Editor a-\u003eEditor a",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorPos",
           "package": "yavie",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorPos",
           "normalized": "Editor a-\u003ePos",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorPosOfDpy",
           "package": "yavie",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorPosOfDpy",
           "normalized": "Editor a-\u003ePos",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorRight",
           "package": "yavie",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorRight",
           "normalized": "Editor a-\u003eEditor a",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorSearchStr",
           "package": "yavie",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorSearchStr",
           "normalized": "Editor a-\u003eEditor a",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorSearchStrBack",
           "package": "yavie",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorSearchStrBack",
           "normalized": "Editor a-\u003eEditor a",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorToHead",
           "package": "yavie",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorToHead",
           "normalized": "Editor a-\u003eEditor a",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorToLast",
           "package": "yavie",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorToLast",
           "normalized": "Editor a-\u003eEditor a",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorToLine",
           "package": "yavie",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorToLine",
           "normalized": "Editor a-\u003eEditor a",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorToLinePercent",
           "package": "yavie",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorToLinePercent",
           "normalized": "Editor a-\u003eEditor a",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorToMiddle",
           "package": "yavie",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorToMiddle",
           "normalized": "Editor a-\u003eEditor a",
@@ -681,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorToTop",
           "package": "yavie",
@@ -690,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorToTop",
           "normalized": "Editor a-\u003eEditor a",
@@ -705,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorToXY",
           "package": "yavie",
@@ -714,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorToXY",
           "normalized": "Int-\u003eInt-\u003eEditor a-\u003eEditor a",
@@ -729,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorTopOfLine",
           "package": "yavie",
@@ -738,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorTopOfLine",
           "normalized": "Editor a-\u003eEditor a",
@@ -753,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorTopOfLineNotSpace",
           "package": "yavie",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorTopOfLineNotSpace",
           "normalized": "Editor a-\u003eEditor a",
@@ -777,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorUp",
           "package": "yavie",
@@ -786,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorUp",
           "normalized": "Editor a-\u003eEditor a",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorWord",
           "package": "yavie",
@@ -810,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorWord",
           "normalized": "Editor a-\u003eEditor a",
@@ -825,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "cursorWordEnd",
           "package": "yavie",
@@ -834,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "cursorWordEnd",
           "normalized": "Editor a-\u003eEditor a",
@@ -849,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteBackWord",
           "package": "yavie",
@@ -858,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteBackWord",
           "normalized": "Editor a-\u003eEditor a",
@@ -873,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteChar",
           "package": "yavie",
@@ -882,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteChar",
           "normalized": "Editor a-\u003eEditor a",
@@ -897,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteCursorToBegin",
           "package": "yavie",
@@ -906,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteCursorToBegin",
           "normalized": "Editor a-\u003eEditor a",
@@ -921,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteCursorToEnd",
           "package": "yavie",
@@ -930,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteCursorToEnd",
           "normalized": "Editor a-\u003eEditor a",
@@ -945,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteDown",
           "package": "yavie",
@@ -954,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteDown",
           "normalized": "Editor a-\u003eEditor a",
@@ -969,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteFind",
           "package": "yavie",
@@ -978,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteFind",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -993,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteFindBack",
           "package": "yavie",
@@ -1002,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteFindBack",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -1017,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteFindMore",
           "package": "yavie",
@@ -1026,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteFindMore",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -1041,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteInLargeVmode",
           "package": "yavie",
@@ -1050,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteInLargeVmode",
           "normalized": "Editor a-\u003eEditor a",
@@ -1065,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteLeft",
           "package": "yavie",
@@ -1074,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteLeft",
           "normalized": "Editor a-\u003eEditor a",
@@ -1089,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteLine",
           "package": "yavie",
@@ -1098,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteLine",
           "normalized": "Editor a-\u003eEditor a",
@@ -1113,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteRight",
           "package": "yavie",
@@ -1122,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteRight",
           "normalized": "Editor a-\u003eEditor a",
@@ -1137,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteThisEditor",
           "package": "yavie",
@@ -1146,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteThisEditor",
           "normalized": "Editor a-\u003eEditor a",
@@ -1161,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteUp",
           "package": "yavie",
@@ -1170,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteUp",
           "normalized": "Editor a-\u003eEditor a",
@@ -1185,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteWord",
           "package": "yavie",
@@ -1194,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteWord",
           "normalized": "Editor a-\u003eEditor a",
@@ -1209,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "deleteWordEnd",
           "package": "yavie",
@@ -1218,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "deleteWordEnd",
           "normalized": "Editor a-\u003eEditor a",
@@ -1233,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "displayLines",
           "package": "yavie",
@@ -1242,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "displayLines",
           "normalized": "Editor a-\u003e[String]",
@@ -1257,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "displayVisualLines",
           "package": "yavie",
@@ -1266,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "displayVisualLines",
           "normalized": "Editor a-\u003e[(Bool,String)]",
@@ -1281,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "fileName",
           "package": "yavie",
@@ -1290,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "fileName",
           "normalized": "Editor a-\u003eFilePath",
@@ -1305,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "flipCase",
           "package": "yavie",
@@ -1314,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "flipCase",
           "normalized": "Editor a-\u003eEditor a",
@@ -1329,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "getExCmd",
           "package": "yavie",
@@ -1338,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "getExCmd",
           "normalized": "Editor a-\u003eString",
@@ -1353,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "getOtherValue",
           "package": "yavie",
@@ -1362,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "getOtherValue",
           "normalized": "Editor a-\u003eMaybe a",
@@ -1377,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "inInsertMode",
           "package": "yavie",
@@ -1386,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "inInsertMode",
           "normalized": "Editor a-\u003eEditor a",
@@ -1401,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "initialSaveToEditor",
           "package": "yavie",
@@ -1410,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "initialSaveToEditor",
           "normalized": "Int-\u003eInt-\u003eFilePath-\u003eString-\u003eEditor a",
@@ -1425,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "insertChar",
           "package": "yavie",
@@ -1434,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "insertChar",
           "normalized": "Char-\u003eEditor a-\u003eEditor a",
@@ -1449,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "insertNL",
           "package": "yavie",
@@ -1458,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "insertNL",
           "normalized": "Editor a-\u003eEditor a",
@@ -1473,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "insertString",
           "package": "yavie",
@@ -1482,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "insertString",
           "normalized": "String-\u003eEditor a-\u003eEditor a",
@@ -1497,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "insertStringAfter",
           "package": "yavie",
@@ -1506,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "insertStringAfter",
           "normalized": "String-\u003eEditor a-\u003eEditor a",
@@ -1521,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "isBoxCursor",
           "package": "yavie",
@@ -1530,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "isBoxCursor",
           "normalized": "Editor a-\u003eBool",
@@ -1545,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "isModified",
           "package": "yavie",
@@ -1554,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "isModified",
           "normalized": "Editor a-\u003eBool",
@@ -1569,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "modifyOtherValue",
           "package": "yavie",
@@ -1578,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "modifyOtherValue",
           "normalized": "(a-\u003ea)-\u003eEditor a-\u003eEditor a",
@@ -1593,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "multi",
           "package": "yavie",
@@ -1602,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "multi",
           "normalized": "(Editor a-\u003eEditor a)-\u003eEditor a-\u003eEditor a",
@@ -1616,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "needDeleteThisEditor",
           "package": "yavie",
@@ -1625,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "needDeleteThisEditor",
           "normalized": "Editor a-\u003eBool",
@@ -1640,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "outInsertMode",
           "package": "yavie",
@@ -1649,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "outInsertMode",
           "normalized": "Editor a-\u003eEditor a",
@@ -1664,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "pasteYanked",
           "package": "yavie",
@@ -1673,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "pasteYanked",
           "normalized": "Editor a-\u003eEditor a",
@@ -1688,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "pasteYankedAfter",
           "package": "yavie",
@@ -1697,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "pasteYankedAfter",
           "normalized": "Editor a-\u003eEditor a",
@@ -1712,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "redo",
           "package": "yavie",
@@ -1721,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "redo",
           "normalized": "Editor a-\u003eEditor a",
@@ -1735,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "replaceModeOff",
           "package": "yavie",
@@ -1744,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "replaceModeOff",
           "normalized": "Editor a-\u003eEditor a",
@@ -1759,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "replaceModeOn",
           "package": "yavie",
@@ -1768,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "replaceModeOn",
           "normalized": "Editor a-\u003eEditor a",
@@ -1783,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resetExCmd",
           "package": "yavie",
@@ -1792,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resetExCmd",
           "normalized": "Editor a-\u003eEditor a",
@@ -1807,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resetIOAction",
           "package": "yavie",
@@ -1816,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resetIOAction",
           "normalized": "Editor a-\u003eEditor a",
@@ -1831,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resetModified",
           "package": "yavie",
@@ -1840,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resetModified",
           "normalized": "Editor a-\u003eEditor a",
@@ -1855,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resetStatus",
           "package": "yavie",
@@ -1864,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resetStatus",
           "normalized": "Editor a-\u003eEditor a",
@@ -1879,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resetStrForSearch",
           "package": "yavie",
@@ -1888,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resetStrForSearch",
           "normalized": "Editor a-\u003eEditor a",
@@ -1903,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resetTimes",
           "package": "yavie",
@@ -1912,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resetTimes",
           "normalized": "Editor a-\u003eEditor a",
@@ -1927,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resetVisualmode",
           "package": "yavie",
@@ -1936,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resetVisualmode",
           "normalized": "Editor a-\u003eEditor a",
@@ -1951,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resetYank",
           "package": "yavie",
@@ -1960,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resetYank",
           "normalized": "Editor a-\u003eEditor a",
@@ -1975,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "resizeDisplay",
           "package": "yavie",
@@ -1984,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "resizeDisplay",
           "normalized": "Int-\u003eInt-\u003eEditor a-\u003eEditor a",
@@ -1999,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "runIOAction",
           "package": "yavie",
@@ -2008,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "runIOAction",
           "normalized": "Editor a-\u003eIO(Editor a)",
@@ -2023,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "saveToEditor",
           "package": "yavie",
@@ -2032,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "saveToEditor",
           "normalized": "FilePath-\u003eEditor a-\u003eEditor a",
@@ -2047,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "saveToFile",
           "package": "yavie",
@@ -2056,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "saveToFile",
           "normalized": "Editor a-\u003eEditor a",
@@ -2071,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "saveToHistory",
           "package": "yavie",
@@ -2080,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "saveToHistory",
           "normalized": "Editor a-\u003eEditor a",
@@ -2095,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "saveToTmpFile",
           "package": "yavie",
@@ -2104,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "saveToTmpFile",
           "normalized": "Editor a-\u003eEditor a",
@@ -2119,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollDown",
           "package": "yavie",
@@ -2128,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollDown",
           "normalized": "Editor a-\u003eEditor a",
@@ -2143,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollDownHPage",
           "package": "yavie",
@@ -2152,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollDownHPage",
           "normalized": "Editor a-\u003eEditor a",
@@ -2167,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollDownPage",
           "package": "yavie",
@@ -2176,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollDownPage",
           "normalized": "Editor a-\u003eEditor a",
@@ -2191,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollForCursorHead",
           "package": "yavie",
@@ -2200,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollForCursorHead",
           "normalized": "Editor a-\u003eEditor a",
@@ -2215,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollForCursorLast",
           "package": "yavie",
@@ -2224,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollForCursorLast",
           "normalized": "Editor a-\u003eEditor a",
@@ -2239,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollForCursorMiddle",
           "package": "yavie",
@@ -2248,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollForCursorMiddle",
           "normalized": "Editor a-\u003eEditor a",
@@ -2263,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollUp",
           "package": "yavie",
@@ -2272,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollUp",
           "normalized": "Editor a-\u003eEditor a",
@@ -2287,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollUpHPage",
           "package": "yavie",
@@ -2296,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollUpHPage",
           "normalized": "Editor a-\u003eEditor a",
@@ -2311,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "scrollUpPage",
           "package": "yavie",
@@ -2320,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "scrollUpPage",
           "normalized": "Editor a-\u003eEditor a",
@@ -2335,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "setIOAction",
           "package": "yavie",
@@ -2344,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "setIOAction",
           "normalized": "(Editor a-\u003eIO(Editor a))-\u003eEditor a-\u003eEditor a",
@@ -2359,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "setOtherValue",
           "package": "yavie",
@@ -2368,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "setOtherValue",
           "normalized": "a-\u003eEditor a-\u003eEditor a",
@@ -2383,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "setStatus",
           "package": "yavie",
@@ -2392,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "setStatus",
           "normalized": "String-\u003eEditor a-\u003eEditor a",
@@ -2407,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "setVisualBeginY",
           "package": "yavie",
@@ -2416,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "setVisualBeginY",
           "normalized": "Editor a-\u003eEditor a",
@@ -2431,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "undo",
           "package": "yavie",
@@ -2440,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "undo",
           "normalized": "Editor a-\u003eEditor a",
@@ -2454,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "yankInLargeVmode",
           "package": "yavie",
@@ -2463,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "yankInLargeVmode",
           "normalized": "Editor a-\u003eEditor a",
@@ -2478,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Editor",
           "name": "yankLines",
           "package": "yavie",
@@ -2487,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Yavie Editor",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Editor",
           "name": "yankLines",
           "normalized": "Editor a-\u003eEditor a",
@@ -2502,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind.Vi",
           "name": "Vi",
           "package": "yavie",
@@ -2510,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind Vi",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind.Vi",
           "name": "Vi",
           "package": "yavie",
@@ -2523,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind.Vi",
           "name": "defaultCmdbind",
           "package": "yavie",
@@ -2532,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind Vi",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind.Vi",
           "name": "defaultCmdbind",
           "package": "yavie",
@@ -2545,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind.Vi",
           "name": "defaultInsertmode",
           "package": "yavie",
@@ -2554,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind Vi",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind.Vi",
           "name": "defaultInsertmode",
           "package": "yavie",
@@ -2567,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind.Vi",
           "name": "defaultKeybind",
           "package": "yavie",
@@ -2576,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind Vi",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind.Vi",
           "name": "defaultKeybind",
           "normalized": "Cmdbind a-\u003eKeybind a",
@@ -2591,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind.Vi",
           "name": "defaultRomode",
           "package": "yavie",
@@ -2600,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind Vi",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind.Vi",
           "name": "defaultRomode",
           "package": "yavie",
@@ -2613,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "Keybind",
           "package": "yavie",
@@ -2621,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "Keybind",
           "package": "yavie",
@@ -2634,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "Button",
           "package": "yavie",
@@ -2642,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "Button",
           "package": "yavie",
@@ -2655,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "Cmdbind",
           "package": "yavie",
@@ -2663,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "Cmdbind",
           "package": "yavie",
@@ -2676,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "Event",
           "package": "yavie",
@@ -2684,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "Event",
           "package": "yavie",
@@ -2697,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "Key",
           "package": "yavie",
@@ -2705,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "Key",
           "package": "yavie",
@@ -2718,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "Keybind",
           "package": "yavie",
@@ -2726,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "Keybind",
           "package": "yavie",
@@ -2739,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "Modifier",
           "package": "yavie",
@@ -2747,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "Modifier",
           "package": "yavie",
@@ -2760,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "BLeft",
           "package": "yavie",
@@ -2769,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "BLeft",
           "package": "yavie",
@@ -2782,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "BMiddle",
           "package": "yavie",
@@ -2791,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "BMiddle",
           "package": "yavie",
@@ -2804,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "BRight",
           "package": "yavie",
@@ -2813,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "BRight",
           "package": "yavie",
@@ -2826,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "EvDeleteEditor",
           "package": "yavie",
@@ -2835,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "EvDeleteEditor",
           "package": "yavie",
@@ -2848,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "EvExpose",
           "package": "yavie",
@@ -2857,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "EvExpose",
           "package": "yavie",
@@ -2870,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "EvKey",
           "package": "yavie",
@@ -2879,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "EvKey",
           "normalized": "EvKey Key[Modifier]",
@@ -2894,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "EvMouse",
           "package": "yavie",
@@ -2903,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "EvMouse",
           "normalized": "EvMouse Int Int Button[Modifier]",
@@ -2918,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "EvResize",
           "package": "yavie",
@@ -2927,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "EvResize",
           "package": "yavie",
@@ -2940,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KASCII",
           "package": "yavie",
@@ -2949,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KASCII",
           "package": "yavie",
@@ -2962,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KBS",
           "package": "yavie",
@@ -2971,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KBS",
           "package": "yavie",
@@ -2984,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KBackTab",
           "package": "yavie",
@@ -2993,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KBackTab",
           "package": "yavie",
@@ -3006,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KDel",
           "package": "yavie",
@@ -3015,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KDel",
           "package": "yavie",
@@ -3028,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KDown",
           "package": "yavie",
@@ -3037,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KDown",
           "package": "yavie",
@@ -3050,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KEnd",
           "package": "yavie",
@@ -3059,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KEnd",
           "package": "yavie",
@@ -3072,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KEnter",
           "package": "yavie",
@@ -3081,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KEnter",
           "package": "yavie",
@@ -3094,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KEsc",
           "package": "yavie",
@@ -3103,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KEsc",
           "package": "yavie",
@@ -3116,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KFun",
           "package": "yavie",
@@ -3125,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KFun",
           "package": "yavie",
@@ -3138,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KHome",
           "package": "yavie",
@@ -3147,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KHome",
           "package": "yavie",
@@ -3160,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KIns",
           "package": "yavie",
@@ -3169,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KIns",
           "package": "yavie",
@@ -3182,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KLeft",
           "package": "yavie",
@@ -3191,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KLeft",
           "package": "yavie",
@@ -3204,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KMenu",
           "package": "yavie",
@@ -3213,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KMenu",
           "package": "yavie",
@@ -3226,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KOthers",
           "package": "yavie",
@@ -3235,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KOthers",
           "package": "yavie",
@@ -3248,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KPageDown",
           "package": "yavie",
@@ -3257,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KPageDown",
           "package": "yavie",
@@ -3270,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KPageUp",
           "package": "yavie",
@@ -3279,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KPageUp",
           "package": "yavie",
@@ -3292,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KPause",
           "package": "yavie",
@@ -3301,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KPause",
           "package": "yavie",
@@ -3314,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KPrtScr",
           "package": "yavie",
@@ -3323,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KPrtScr",
           "package": "yavie",
@@ -3336,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KRight",
           "package": "yavie",
@@ -3345,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KRight",
           "package": "yavie",
@@ -3358,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KTab",
           "package": "yavie",
@@ -3367,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KTab",
           "package": "yavie",
@@ -3380,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KUnknown",
           "package": "yavie",
@@ -3389,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KUnknown",
           "package": "yavie",
@@ -3402,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "KUp",
           "package": "yavie",
@@ -3411,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "KUp",
           "package": "yavie",
@@ -3424,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "MAlt",
           "package": "yavie",
@@ -3433,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "MAlt",
           "package": "yavie",
@@ -3446,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "MCtrl",
           "package": "yavie",
@@ -3455,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "MCtrl",
           "package": "yavie",
@@ -3468,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "MMeta",
           "package": "yavie",
@@ -3477,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "MMeta",
           "package": "yavie",
@@ -3490,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "MShift",
           "package": "yavie",
@@ -3499,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "MShift",
           "package": "yavie",
@@ -3512,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie.Keybind",
           "name": "UnknownEvent",
           "package": "yavie",
@@ -3521,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "Yavie Keybind",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie.Keybind",
           "name": "UnknownEvent",
           "package": "yavie",
@@ -3534,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "Yavie",
           "package": "yavie",
@@ -3542,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "Yavie",
           "package": "yavie",
@@ -3555,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "RefMonad",
           "package": "yavie",
@@ -3563,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "RefMonad",
           "package": "yavie",
@@ -3576,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "YavieConfig",
           "package": "yavie",
@@ -3584,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "YavieConfig",
           "package": "yavie",
@@ -3597,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "YavieConfig",
           "package": "yavie",
@@ -3606,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "YavieConfig",
           "package": "yavie",
@@ -3619,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "bind",
           "package": "yavie",
@@ -3627,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "bind",
           "normalized": "(a-\u003eEventMonad a b())-\u003eEventMonad a b()",
@@ -3641,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "defaultGetReadOnlyFlag",
           "package": "yavie",
@@ -3650,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "defaultGetReadOnlyFlag",
           "package": "yavie",
@@ -3663,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "defaultWithInitEditor",
           "package": "yavie",
@@ -3672,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "defaultWithInitEditor",
           "normalized": "Int-\u003eInt-\u003e(Editor a-\u003eIO(Editor a))-\u003eIO()",
@@ -3687,6 +4003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "displaySize",
           "package": "yavie",
@@ -3696,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "displaySize",
           "normalized": "a-\u003eb(Int,Int)",
@@ -3711,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "drawDisplay",
           "package": "yavie",
@@ -3720,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "drawDisplay",
           "normalized": "a-\u003eb(Editor c)-\u003eb()",
@@ -3735,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "finalize",
           "package": "yavie",
@@ -3744,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "finalize",
           "normalized": "a-\u003eb()",
@@ -3758,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "getReadOnlyFlag",
           "package": "yavie",
@@ -3767,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "getReadOnlyFlag",
           "package": "yavie",
@@ -3780,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "initialize",
           "package": "yavie",
@@ -3789,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "initialize",
           "package": "yavie",
@@ -3801,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "isEventDriven",
           "package": "yavie",
@@ -3810,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "isEventDriven",
           "package": "yavie",
@@ -3823,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "keybind",
           "package": "yavie",
@@ -3832,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "keybind",
           "package": "yavie",
@@ -3844,6 +4174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "romode",
           "package": "yavie",
@@ -3853,6 +4184,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "romode",
           "package": "yavie",
@@ -3865,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "runAction",
           "package": "yavie",
@@ -3874,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "runAction",
           "normalized": "Editor a-\u003eb(Editor a)",
@@ -3889,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "runYavie",
           "package": "yavie",
@@ -3898,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "runYavie",
           "normalized": "YavieConfig a b c-\u003ea()",
@@ -3913,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "supplyEvent",
           "package": "yavie",
@@ -3922,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "supplyEvent",
           "normalized": "a-\u003e(Event-\u003eb Bool)-\u003eb()",
@@ -3937,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:51 UTC 2014",
           "module": "Yavie",
           "name": "withInitEditor",
           "package": "yavie",
@@ -3946,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Yavie",
+          "indexed": "2014-03-11T20:44:51",
           "module": "Yavie",
           "name": "withInitEditor",
           "normalized": "Int-\u003eInt-\u003e(Editor a-\u003eb(Editor a))-\u003eb()",

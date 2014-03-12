@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-ftp"
+        "phrase": "haskell-ftp",
+        "type": "phrase"
       },
       "type": "context"
     }

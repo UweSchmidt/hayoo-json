@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simplessh"
+        "phrase": "simplessh",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "SimpleSSH",
           "package": "simplessh",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "SimpleSSH",
           "package": "simplessh",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a command execution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Result",
           "package": "simplessh",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The result of command execution",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Result",
           "package": "simplessh",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExit code or signal of a process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ResultExit",
           "package": "simplessh",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Exit code or signal of process",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ResultExit",
           "package": "simplessh",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Session",
           "package": "simplessh",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Session",
           "package": "simplessh",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "SimpleSSH",
           "package": "simplessh",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "SimpleSSH",
           "package": "simplessh",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "SimpleSSHError",
           "package": "simplessh",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "SimpleSSHError",
           "package": "simplessh",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Authentication",
           "package": "simplessh",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Authentication",
           "package": "simplessh",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ChannelExec",
           "package": "simplessh",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ChannelExec",
           "package": "simplessh",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ChannelOpen",
           "package": "simplessh",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ChannelOpen",
           "package": "simplessh",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Connect",
           "package": "simplessh",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Connect",
           "package": "simplessh",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ExitFailure",
           "package": "simplessh",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ExitFailure",
           "package": "simplessh",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ExitSignal",
           "package": "simplessh",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ExitSignal",
           "package": "simplessh",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ExitSuccess",
           "package": "simplessh",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "ExitSuccess",
           "package": "simplessh",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "FileOpen",
           "package": "simplessh",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "FileOpen",
           "package": "simplessh",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Handshake",
           "package": "simplessh",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Handshake",
           "package": "simplessh",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Init",
           "package": "simplessh",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Init",
           "package": "simplessh",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "KnownhostsCheck",
           "package": "simplessh",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "KnownhostsCheck",
           "package": "simplessh",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "KnownhostsHostkey",
           "package": "simplessh",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "KnownhostsHostkey",
           "package": "simplessh",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "KnownhostsInit",
           "package": "simplessh",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "KnownhostsInit",
           "package": "simplessh",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Read",
           "package": "simplessh",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Read",
           "package": "simplessh",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Result",
           "package": "simplessh",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Result",
           "package": "simplessh",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Unknown",
           "package": "simplessh",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Unknown",
           "package": "simplessh",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Write",
           "package": "simplessh",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "Write",
           "package": "simplessh",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "authenticateWithKey",
           "package": "simplessh",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "authenticateWithKey",
           "normalized": "Session-\u003eString-\u003eFilePath-\u003eFilePath-\u003eString-\u003eSimpleSSH Session",
@@ -546,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthenticate with a public key for a given username.\n\u003c/p\u003e\u003cp\u003eLeave the passphrase empty if not needed.\n\u003c/p\u003e\u003cp\u003eAuthenticate a session with a pair username / password.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "authenticateWithPassword",
           "package": "simplessh",
@@ -555,6 +604,7 @@
         "index": {
           "description": "Authenticate with public key for given username Leave the passphrase empty if not needed Authenticate session with pair username password",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "authenticateWithPassword",
           "normalized": "Session-\u003eString-\u003eString-\u003eSimpleSSH Session",
@@ -571,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "closeSession",
           "package": "simplessh",
@@ -581,6 +632,7 @@
         "index": {
           "description": "Close session",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "closeSession",
           "normalized": "Session-\u003eSimpleSSH()",
@@ -597,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a command to the server.\n\u003c/p\u003e\u003cp\u003eOne should be authenticated before sending commands on a \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "execCommand",
           "package": "simplessh",
@@ -606,6 +659,7 @@
         "index": {
           "description": "Send command to the server One should be authenticated before sending commands on Session",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "execCommand",
           "normalized": "Session-\u003eString-\u003eSimpleSSH Result",
@@ -622,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a SSH session. The next step is to authenticate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "openSession",
           "package": "simplessh",
@@ -631,6 +686,7 @@
         "index": {
           "description": "Open SSH session The next step is to authenticate",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "openSession",
           "normalized": "String-\u003eInteger-\u003eString-\u003eSimpleSSH Session",
@@ -647,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe process' stderr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "resultErr",
           "package": "simplessh",
@@ -657,6 +714,7 @@
         "index": {
           "description": "The process stderr",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "resultErr",
           "package": "simplessh",
@@ -671,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe process' exit code or signal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "resultExit",
           "package": "simplessh",
@@ -681,6 +740,7 @@
         "index": {
           "description": "The process exit code or signal",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "resultExit",
           "package": "simplessh",
@@ -695,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe process' stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "resultOut",
           "package": "simplessh",
@@ -705,6 +766,7 @@
         "index": {
           "description": "The process stdout",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "resultOut",
           "package": "simplessh",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "runSimpleSSH",
           "package": "simplessh",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "runSimpleSSH",
           "normalized": "SimpleSSH a-\u003eIO(Either SimpleSSHError a)",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a file to the server and returns the number of bytes transferred.\n\u003c/p\u003e\u003cp\u003eOne should be authenticated before sending files on a 'Session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "sendFile",
           "package": "simplessh",
@@ -752,6 +817,7 @@
         "index": {
           "description": "Send file to the server and returns the number of bytes transferred One should be authenticated before sending files on Session",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "sendFile",
           "normalized": "Session-\u003eInteger-\u003eString-\u003eString-\u003eSimpleSSH Integer",
@@ -768,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a connection, authenticate, execute some action and close the connection.\n\u003c/p\u003e\u003cp\u003eIt is the safe way of using SimpleSSH. This function is to be used to authenticate with a key, otherwise see \u003ccode\u003e\u003ca\u003ewithSessionPassword\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "withSessionKey",
           "package": "simplessh",
@@ -777,6 +844,7 @@
         "index": {
           "description": "Open connection authenticate execute some action and close the connection It is the safe way of using SimpleSSH This function is to be used to authenticate with key otherwise see withSessionPassword",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "withSessionKey",
           "normalized": "String-\u003eInteger-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003e(Session-\u003eSimpleSSH a)-\u003eSimpleSSH a",
@@ -793,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a connection, authenticate, execute some action and close the connection.\n\u003c/p\u003e\u003cp\u003eIt is the safe way of using SimpleSSH. This function is to be used to authenticate with a pair username / password, otherwise see \u003ccode\u003e\u003ca\u003ewithSessionKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:38 UTC 2014",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "withSessionPassword",
           "package": "simplessh",
@@ -802,6 +871,7 @@
         "index": {
           "description": "Open connection authenticate execute some action and close the connection It is the safe way of using SimpleSSH This function is to be used to authenticate with pair username password otherwise see withSessionKey",
           "hierarchy": "Network SSH Client SimpleSSH",
+          "indexed": "2014-03-11T20:03:38",
           "module": "Network.SSH.Client.SimpleSSH",
           "name": "withSessionPassword",
           "normalized": "String-\u003eInteger-\u003eString-\u003eString-\u003eString-\u003e(Session-\u003eSimpleSSH a)-\u003eSimpleSSH a",

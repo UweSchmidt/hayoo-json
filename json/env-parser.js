@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "env-parser"
+        "phrase": "env-parser",
+        "type": "phrase"
       },
       "type": "context"
     }

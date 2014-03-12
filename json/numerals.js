@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "numerals"
+        "phrase": "numerals",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "BigNum",
           "package": "numerals",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "BigNum",
           "package": "numerals",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that renders the postfix part of a large number name. Or\n more simply put, this calculates the \"illion\" part of\n \"million\", \"billion\", etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "PostfixRepr",
           "package": "numerals",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Function that renders the postfix part of large number name Or more simply put this calculates the illion part of million billion etc",
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "PostfixRepr",
           "package": "numerals",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "cardinal",
           "package": "numerals",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "cardinalRepr",
           "package": "numerals",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "cardinalRepr",
           "package": "numerals",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "forms",
           "package": "numerals",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "forms",
           "normalized": "Text-\u003eText-\u003eText-\u003eText-\u003eText-\u003eCtx(Exp a)-\u003eText",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "ordQuantityName",
           "package": "numerals",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "ordQuantityName",
           "normalized": "Text-\u003eText-\u003eText-\u003eText-\u003ePostfixRepr a",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "pelletierRepr",
           "package": "numerals",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "pelletierRepr",
           "normalized": "PostfixRepr a-\u003ePostfixRepr a-\u003e[(ℤ,Ctx(Exp a)-\u003eText)]-\u003eScaleRepr a",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "quantityName",
           "package": "numerals",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "quantityName",
           "normalized": "Text-\u003eText-\u003ePostfixRepr a",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "rule",
           "package": "numerals",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "rule",
           "package": "numerals",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "scaleRepr",
           "package": "numerals",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "scaleRepr",
           "normalized": "PostfixRepr a-\u003e[(ℤ,Ctx(Exp a)-\u003eText)]-\u003eScaleRepr a",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.BigNum",
           "name": "symMap",
           "package": "numerals",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral BigNum",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.BigNum",
           "name": "symMap",
           "normalized": "Map a(Ctx(Exp b)-\u003eText)",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "Entry",
           "package": "numerals",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "Entry",
           "package": "numerals",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "Conversion",
           "package": "numerals",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "Conversion",
           "package": "numerals",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "Entry",
           "package": "numerals",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "Entry",
           "package": "numerals",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "Conversion",
           "package": "numerals",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "Conversion",
           "package": "numerals",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "Entry",
           "package": "numerals",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "Entry",
           "package": "numerals",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "emptyEntry",
           "package": "numerals",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "emptyEntry",
           "package": "numerals",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entCardinal",
           "package": "numerals",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entCardinal",
           "package": "numerals",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entEnglishName",
           "package": "numerals",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entEnglishName",
           "package": "numerals",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entIso639_1",
           "package": "numerals",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entIso639_1",
           "package": "numerals",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entIso639_2",
           "package": "numerals",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entIso639_2",
           "normalized": "[Text]",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entIso639_3",
           "package": "numerals",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entIso639_3",
           "package": "numerals",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entMultiplicative",
           "package": "numerals",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entMultiplicative",
           "package": "numerals",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entNativeNames",
           "package": "numerals",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entNativeNames",
           "normalized": "[Text]",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entOrdinal",
           "package": "numerals",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entOrdinal",
           "package": "numerals",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entPartitive",
           "package": "numerals",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entPartitive",
           "normalized": "Maybe(Conversion(ℤ,ℤ))",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "entVariant",
           "package": "numerals",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "entVariant",
           "package": "numerals",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "toNumeral",
           "package": "numerals",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "toNumeral",
           "normalized": "Inflection-\u003ea-\u003eMaybe Text",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Entry",
           "name": "toStructure",
           "package": "numerals",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Entry",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Entry",
           "name": "toStructure",
           "normalized": "a-\u003eExp Inflection",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Reified",
           "package": "numerals",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Reified",
           "package": "numerals",
@@ -694,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression that represents the structure of a numeral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Exp",
           "package": "numerals",
@@ -703,6 +764,7 @@
         "index": {
           "description": "An expression that represents the structure of numeral",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Exp",
           "package": "numerals",
@@ -717,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA side or direction, either \u003ccode\u003e\u003ca\u003eL\u003c/a\u003e\u003c/code\u003eeft or \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003eight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Side",
           "package": "numerals",
@@ -726,6 +789,7 @@
         "index": {
           "description": "side or direction either eft or ight",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Side",
           "package": "numerals",
@@ -740,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition of two expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Add",
           "package": "numerals",
@@ -750,6 +815,7 @@
         "index": {
           "description": "Addition of two expressions",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Add",
           "package": "numerals",
@@ -764,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dual form of an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Dual",
           "package": "numerals",
@@ -774,6 +841,7 @@
         "index": {
           "description": "dual form of an expression",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Dual",
           "package": "numerals",
@@ -788,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fraction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Frac",
           "package": "numerals",
@@ -798,6 +867,7 @@
         "index": {
           "description": "fraction",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Frac",
           "package": "numerals",
@@ -812,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA change of inflection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Inflection",
           "package": "numerals",
@@ -822,6 +893,7 @@
         "index": {
           "description": "change of inflection",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Inflection",
           "normalized": "Inflection(a-\u003ea)(Exp a)",
@@ -838,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "L",
           "package": "numerals",
@@ -848,6 +921,7 @@
         "index": {
           "description": "Left",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "L",
           "package": "numerals",
@@ -861,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Lit",
           "package": "numerals",
@@ -871,6 +946,7 @@
         "index": {
           "description": "literal value",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Lit",
           "package": "numerals",
@@ -885,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication of two expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Mul",
           "package": "numerals",
@@ -895,6 +972,7 @@
         "index": {
           "description": "Multiplication of two expressions",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Mul",
           "package": "numerals",
@@ -909,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation of an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Neg",
           "package": "numerals",
@@ -919,6 +998,7 @@
         "index": {
           "description": "Negation of an expression",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Neg",
           "package": "numerals",
@@ -933,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plural form of an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Plural",
           "package": "numerals",
@@ -943,6 +1024,7 @@
         "index": {
           "description": "plural form of an expression",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Plural",
           "package": "numerals",
@@ -957,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "R",
           "package": "numerals",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "Right",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "R",
           "package": "numerals",
@@ -980,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA step in a scale of large values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Scale",
           "package": "numerals",
@@ -990,6 +1075,7 @@
         "index": {
           "description": "step in scale of large values",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Scale",
           "package": "numerals",
@@ -1004,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne expression subtracted from another expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Sub",
           "package": "numerals",
@@ -1014,6 +1101,7 @@
         "index": {
           "description": "One expression subtracted from another expression",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Sub",
           "package": "numerals",
@@ -1028,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unknown value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Unknown",
           "package": "numerals",
@@ -1038,6 +1127,7 @@
         "index": {
           "description": "An unknown value",
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "Unknown",
           "package": "numerals",
@@ -1051,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp.Reified",
           "name": "showExp",
           "package": "numerals",
@@ -1060,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp.Reified",
           "name": "showExp",
           "normalized": "Exp a-\u003eString",
@@ -1075,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Exp",
           "package": "numerals",
@@ -1083,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Exp",
           "package": "numerals",
@@ -1097,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition of two values.\n\u003c/p\u003e\u003cp\u003eExample in English:\n\u003c/p\u003e\u003cpre\u003e \"fifteen\" = lit 5 `add` lit 10\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Add",
           "package": "numerals",
@@ -1106,6 +1201,7 @@
         "index": {
           "description": "Addition of two values Example in English fifteen lit add lit",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Add",
           "package": "numerals",
@@ -1120,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dual of a value.\n\u003c/p\u003e\u003cp\u003eThis is used in some languages that express some values as the dual\n of a smaller value. For instance, in Hebrew the number 20 is\n expressed as the dual of 10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Dual",
           "package": "numerals",
@@ -1129,6 +1226,7 @@
         "index": {
           "description": "dual of value This is used in some languages that express some values as the dual of smaller value For instance in Hebrew the number is expressed as the dual of",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Dual",
           "package": "numerals",
@@ -1143,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fraction.\n\u003c/p\u003e\u003cp\u003eExample in English:\n\u003c/p\u003e\u003cpre\u003e \"two thirds\" = `frac` (lit 2) (lit 3)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Frac",
           "package": "numerals",
@@ -1152,6 +1251,7 @@
         "index": {
           "description": "fraction Example in English two thirds frac lit lit",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Frac",
           "package": "numerals",
@@ -1166,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA change of inflection.\n\u003c/p\u003e\u003cp\u003eThis is used in a language like Spanish where the inflection of a\n number word is not always constant. Specifically, in Spanish, large\n number names always have the masculine gender. So 'mill&#243;n',\n 'bill&#243;n' and the like are all masculine. This can result in the\n following number word: 10000001 = \u003ca\u003eun (masculine) mill&#243;n una\n (feminine)\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Inflection",
           "package": "numerals",
@@ -1175,6 +1276,7 @@
         "index": {
           "description": "change of inflection This is used in language like Spanish where the inflection of number word is not always constant Specifically in Spanish large number names always have the masculine gender So mill bill and the like are all masculine This can result in the following number word un masculine mill una feminine",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Inflection",
           "package": "numerals",
@@ -1189,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal value.\n\u003c/p\u003e\u003cp\u003eExample in English:\n\u003c/p\u003e\u003cpre\u003e \"three\" = lit 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Lit",
           "package": "numerals",
@@ -1198,6 +1301,7 @@
         "index": {
           "description": "literal value Example in English three lit",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Lit",
           "package": "numerals",
@@ -1212,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication of two values.\n\u003c/p\u003e\u003cp\u003eExample in English:\n\u003c/p\u003e\u003cpre\u003e \"thirty\" = lit 3 `mul` lit 10\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Mul",
           "package": "numerals",
@@ -1221,6 +1326,7 @@
         "index": {
           "description": "Multiplication of two values Example in English thirty lit mul lit",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Mul",
           "package": "numerals",
@@ -1235,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation of a value.\n\u003c/p\u003e\u003cp\u003eExample in English:\n\u003c/p\u003e\u003cpre\u003e \"minus two\" = neg (lit 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Neg",
           "package": "numerals",
@@ -1244,6 +1351,7 @@
         "index": {
           "description": "Negation of value Example in English minus two neg lit",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Neg",
           "package": "numerals",
@@ -1258,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plural of a value.\n\u003c/p\u003e\u003cp\u003eThis is used in some languages that express some values as the\n plural of a smaller value. For instance, in Hebrew the numbers\n [30,40..90] are expressed as the plurals of [3..9].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Plural",
           "package": "numerals",
@@ -1267,6 +1376,7 @@
         "index": {
           "description": "plural of value This is used in some languages that express some values as the plural of smaller value For instance in Hebrew the numbers are expressed as the plurals of",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Plural",
           "package": "numerals",
@@ -1281,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA step in a scale of large values.\n\u003c/p\u003e\u003cp\u003eShould be interpreted as \u003ccode\u003e10 ^ (rank * base + offset)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample in English:\n\u003c/p\u003e\u003cpre\u003e \"quadrillion\" = scale 3 3 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Scale",
           "package": "numerals",
@@ -1290,6 +1401,7 @@
         "index": {
           "description": "step in scale of large values Should be interpreted as rank base offset Example in English quadrillion scale",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Scale",
           "package": "numerals",
@@ -1304,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne value subtracted from another value.\n\u003c/p\u003e\u003cp\u003eExample in Latin:\n\u003c/p\u003e\u003cpre\u003e \"duod&#275;v&#299;gint&#299;\" = lit 2 `sub` (lit 2 `mul` lit 10)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Sub",
           "package": "numerals",
@@ -1313,6 +1426,7 @@
         "index": {
           "description": "One value subtracted from another value Example in Latin duod gint lit sub lit mul lit",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Sub",
           "package": "numerals",
@@ -1327,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unknown value. This is used to signal that a value can not be\n represented in the expression language.\n\u003c/p\u003e\u003cp\u003eLaw: isUnknown unknown == True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "Unknown",
           "package": "numerals",
@@ -1336,6 +1451,7 @@
         "index": {
           "description": "An unknown value This is used to signal that value can not be represented in the expression language Law isUnknown unknown True",
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "Unknown",
           "package": "numerals",
@@ -1349,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "add",
           "package": "numerals",
@@ -1358,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "add",
           "normalized": "a-\u003ea-\u003ea",
@@ -1372,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "dual",
           "package": "numerals",
@@ -1381,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "dual",
           "normalized": "a-\u003ea",
@@ -1395,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "frac",
           "package": "numerals",
@@ -1404,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "frac",
           "normalized": "a-\u003ea-\u003ea",
@@ -1418,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "inflection",
           "package": "numerals",
@@ -1427,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "inflection",
           "normalized": "(Inf a-\u003eInf a)-\u003ea-\u003ea",
@@ -1441,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "isUnknown",
           "package": "numerals",
@@ -1450,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "isUnknown",
           "normalized": "a-\u003eBool",
@@ -1465,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "lit",
           "package": "numerals",
@@ -1474,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "lit",
           "normalized": "ℤ-\u003ea",
@@ -1488,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "mul",
           "package": "numerals",
@@ -1497,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "mul",
           "normalized": "a-\u003ea-\u003ea",
@@ -1511,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "neg",
           "package": "numerals",
@@ -1520,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -1534,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "plural",
           "package": "numerals",
@@ -1543,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "plural",
           "normalized": "a-\u003ea",
@@ -1557,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "scale",
           "package": "numerals",
@@ -1566,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "scale",
           "package": "numerals",
@@ -1578,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "sub",
           "package": "numerals",
@@ -1587,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "sub",
           "normalized": "a-\u003ea-\u003ea",
@@ -1601,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Exp",
           "name": "unknown",
           "package": "numerals",
@@ -1610,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Exp",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Exp",
           "name": "unknown",
           "package": "numerals",
@@ -1622,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Reified",
           "package": "numerals",
@@ -1630,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Reified",
           "package": "numerals",
@@ -1643,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Case",
           "package": "numerals",
@@ -1651,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Case",
           "package": "numerals",
@@ -1664,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Gender",
           "package": "numerals",
@@ -1672,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Gender",
           "package": "numerals",
@@ -1685,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Inflection",
           "package": "numerals",
@@ -1693,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Inflection",
           "package": "numerals",
@@ -1706,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Number",
           "package": "numerals",
@@ -1714,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Number",
           "package": "numerals",
@@ -1727,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Abessive",
           "package": "numerals",
@@ -1736,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Abessive",
           "package": "numerals",
@@ -1749,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Ablative",
           "package": "numerals",
@@ -1758,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Ablative",
           "package": "numerals",
@@ -1771,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Accusative",
           "package": "numerals",
@@ -1780,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Accusative",
           "package": "numerals",
@@ -1793,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Comitative",
           "package": "numerals",
@@ -1802,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Comitative",
           "package": "numerals",
@@ -1815,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Common",
           "package": "numerals",
@@ -1824,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Common",
           "package": "numerals",
@@ -1837,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Dative",
           "package": "numerals",
@@ -1846,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Dative",
           "package": "numerals",
@@ -1859,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Delative",
           "package": "numerals",
@@ -1868,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Delative",
           "package": "numerals",
@@ -1881,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Distributive",
           "package": "numerals",
@@ -1890,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Distributive",
           "package": "numerals",
@@ -1903,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "DistributiveTemporal",
           "package": "numerals",
@@ -1912,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "DistributiveTemporal",
           "package": "numerals",
@@ -1925,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Dual",
           "package": "numerals",
@@ -1934,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Dual",
           "package": "numerals",
@@ -1947,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Essive",
           "package": "numerals",
@@ -1956,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Essive",
           "package": "numerals",
@@ -1969,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Feminine",
           "package": "numerals",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Feminine",
           "package": "numerals",
@@ -1991,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Genitive",
           "package": "numerals",
@@ -2000,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Genitive",
           "package": "numerals",
@@ -2013,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Inflection",
           "package": "numerals",
@@ -2022,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Inflection",
           "package": "numerals",
@@ -2035,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Instructive",
           "package": "numerals",
@@ -2044,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Instructive",
           "package": "numerals",
@@ -2057,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Instrumental",
           "package": "numerals",
@@ -2066,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Instrumental",
           "package": "numerals",
@@ -2079,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Lative",
           "package": "numerals",
@@ -2088,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Lative",
           "package": "numerals",
@@ -2101,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Locative",
           "package": "numerals",
@@ -2110,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Locative",
           "package": "numerals",
@@ -2123,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Masculine",
           "package": "numerals",
@@ -2132,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Masculine",
           "package": "numerals",
@@ -2145,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Multiplicative",
           "package": "numerals",
@@ -2154,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Multiplicative",
           "package": "numerals",
@@ -2167,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Neuter",
           "package": "numerals",
@@ -2176,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Neuter",
           "package": "numerals",
@@ -2189,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Nominative",
           "package": "numerals",
@@ -2198,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Nominative",
           "package": "numerals",
@@ -2211,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Partitive",
           "package": "numerals",
@@ -2220,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Partitive",
           "package": "numerals",
@@ -2233,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Paucal",
           "package": "numerals",
@@ -2242,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Paucal",
           "package": "numerals",
@@ -2255,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Plural",
           "package": "numerals",
@@ -2264,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Plural",
           "package": "numerals",
@@ -2277,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Singular",
           "package": "numerals",
@@ -2286,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Singular",
           "package": "numerals",
@@ -2299,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Sublative",
           "package": "numerals",
@@ -2308,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Sublative",
           "package": "numerals",
@@ -2321,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "SuperEssive",
           "package": "numerals",
@@ -2330,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "SuperEssive",
           "package": "numerals",
@@ -2343,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Translative",
           "package": "numerals",
@@ -2352,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Translative",
           "package": "numerals",
@@ -2365,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Trial",
           "package": "numerals",
@@ -2374,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Trial",
           "package": "numerals",
@@ -2387,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Vocative",
           "package": "numerals",
@@ -2396,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "Vocative",
           "package": "numerals",
@@ -2409,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "defaultInflection",
           "package": "numerals",
@@ -2418,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "defaultInflection",
           "package": "numerals",
@@ -2431,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "iCase",
           "package": "numerals",
@@ -2440,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "iCase",
           "package": "numerals",
@@ -2453,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "iGender",
           "package": "numerals",
@@ -2462,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "iGender",
           "package": "numerals",
@@ -2475,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "iNumber",
           "package": "numerals",
@@ -2484,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar Reified",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar.Reified",
           "name": "iNumber",
           "package": "numerals",
@@ -2497,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Grammar",
           "package": "numerals",
@@ -2505,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Grammar",
           "package": "numerals",
@@ -2519,6 +2741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn linguistics, abessive (abbreviated abe or abess), caritive and privative\n (abbreviated priv) are names for a grammatical case expressing the lack or\n absence of the marked noun.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Abessive",
           "package": "numerals",
@@ -2528,6 +2751,7 @@
         "index": {
           "description": "In linguistics abessive abbreviated abe or abess caritive and privative abbreviated priv are names for grammatical case expressing the lack or absence of the marked noun",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Abessive",
           "package": "numerals",
@@ -2542,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ablative case (abbreviated abl) indicates movement from\n something, or cause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Ablative",
           "package": "numerals",
@@ -2551,6 +2776,7 @@
         "index": {
           "description": "The ablative case abbreviated abl indicates movement from something or cause",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Ablative",
           "package": "numerals",
@@ -2565,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe accusative case (abbreviated acc) indicates the direct object\n of a verb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Accusative",
           "package": "numerals",
@@ -2574,6 +2801,7 @@
         "index": {
           "description": "The accusative case abbreviated acc indicates the direct object of verb",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Accusative",
           "package": "numerals",
@@ -2588,6 +2816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe comitative case (abbreviated com), also known as the associative case\n (abbreviated ass), is a grammatical case that denotes companionship, and is\n used where English would typically use preposition \u003ca\u003ewith\u003c/a\u003e in the sense of \u003ca\u003ein\n company with\u003c/a\u003e or \u003ca\u003etogether with\u003c/a\u003e (other uses of \u003ca\u003ewith,\u003c/a\u003e e.g. with the meaning\n of \u003ca\u003eusing,\u003c/a\u003e \u003ca\u003eby means of\u003c/a\u003e (I cut bread with a knife) would correspond to the\n instrumental case or related cases).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Comitative",
           "package": "numerals",
@@ -2597,6 +2826,7 @@
         "index": {
           "description": "The comitative case abbreviated com also known as the associative case abbreviated ass is grammatical case that denotes companionship and is used where English would typically use preposition with in the sense of in company with or together with other uses of with e.g with the meaning of using by means of cut bread with knife would correspond to the instrumental case or related cases",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Comitative",
           "package": "numerals",
@@ -2610,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Common",
           "package": "numerals",
@@ -2618,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Common",
           "package": "numerals",
@@ -2632,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dative case (abbreviated dat, or sometimes d when it is a\n core argument) indicates the indirect object of a verb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Dative",
           "package": "numerals",
@@ -2641,6 +2874,7 @@
         "index": {
           "description": "The dative case abbreviated dat or sometimes when it is core argument indicates the indirect object of verb",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Dative",
           "package": "numerals",
@@ -2655,6 +2889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe delative case (abbreviated del; from Latin deferre \u003ca\u003eto bear or bring\n away or down\u003c/a\u003e) in the Hungarian language can originally express the movement\n from the surface of something (e.g. \u003ca\u003eoff the table\u003c/a\u003e), but it is used in\n several other meanings (e.g. \u003ca\u003eabout people\u003c/a\u003e), some of them related to the\n original (e.g. \u003ca\u003efrom the post office\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Delative",
           "package": "numerals",
@@ -2664,6 +2899,7 @@
         "index": {
           "description": "The delative case abbreviated del from Latin deferre to bear or bring away or down in the Hungarian language can originally express the movement from the surface of something e.g off the table but it is used in several other meanings e.g about people some of them related to the original e.g from the post office",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Delative",
           "package": "numerals",
@@ -2678,6 +2914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe distributive case (abbreviated distr) is used on nouns for the meanings\n of per or each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Distributive",
           "package": "numerals",
@@ -2687,6 +2924,7 @@
         "index": {
           "description": "The distributive case abbreviated distr is used on nouns for the meanings of per or each",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Distributive",
           "package": "numerals",
@@ -2701,6 +2939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe distributive-temporal case specifies when something is done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "DistributiveTemporal",
           "package": "numerals",
@@ -2710,6 +2949,7 @@
         "index": {
           "description": "The distributive-temporal case specifies when something is done",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "DistributiveTemporal",
           "package": "numerals",
@@ -2723,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Dual",
           "package": "numerals",
@@ -2731,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Dual",
           "package": "numerals",
@@ -2745,6 +2987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe essive or similaris case (abbreviated ess) carries the meaning of a\n temporary location or state of being, often equivalent to the English \u003ca\u003eas a\n (child)\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Essive",
           "package": "numerals",
@@ -2754,6 +2997,7 @@
         "index": {
           "description": "The essive or similaris case abbreviated ess carries the meaning of temporary location or state of being often equivalent to the English as child",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Essive",
           "package": "numerals",
@@ -2767,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Feminine",
           "package": "numerals",
@@ -2775,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Feminine",
           "package": "numerals",
@@ -2789,6 +3035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe genitive case (abbreviated gen; also called the possessive\n case or second case), which roughly corresponds to English's\n possessive case and preposition of, indicates the possessor of\n another noun.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Genitive",
           "package": "numerals",
@@ -2798,6 +3045,7 @@
         "index": {
           "description": "The genitive case abbreviated gen also called the possessive case or second case which roughly corresponds to English possessive case and preposition of indicates the possessor of another noun",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Genitive",
           "package": "numerals",
@@ -2812,6 +3060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase class for various kinds of inflections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Inflection",
           "package": "numerals",
@@ -2821,6 +3070,7 @@
         "index": {
           "description": "Base class for various kinds of inflections",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Inflection",
           "package": "numerals",
@@ -2835,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the Finnish language and Estonian language, the instructive case has the\n basic meaning of \u003ca\u003eby means of\u003c/a\u003e. It is a comparatively rarely used case,\n though it is found in some commonly used expressions, such as omin silmin &#8594; \u003ca\u003ewith one's own eyes\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Instructive",
           "package": "numerals",
@@ -2844,6 +3095,7 @@
         "index": {
           "description": "In the Finnish language and Estonian language the instructive case has the basic meaning of by means of It is comparatively rarely used case though it is found in some commonly used expressions such as omin silmin with one own eyes",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Instructive",
           "package": "numerals",
@@ -2858,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe instrumental case (abbreviated ins or instr; also called the\n eighth case) indicates an object used in performing an action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Instrumental",
           "package": "numerals",
@@ -2867,6 +3120,7 @@
         "index": {
           "description": "The instrumental case abbreviated ins or instr also called the eighth case indicates an object used in performing an action",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Instrumental",
           "package": "numerals",
@@ -2881,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLative (abbreviated lat) is a case which indicates motion to a location. It\n corresponds to the English prepositions \u003ca\u003eto\u003c/a\u003e and \u003ca\u003einto\u003c/a\u003e. The lative case\n belongs to the group of the general local cases together with the locative\n and separative case. The term derives from the Latin lat-, the participle\n stem of ferre, \u003ca\u003eto bring\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Lative",
           "package": "numerals",
@@ -2890,6 +3145,7 @@
         "index": {
           "description": "Lative abbreviated lat is case which indicates motion to location It corresponds to the English prepositions to and into The lative case belongs to the group of the general local cases together with the locative and separative case The term derives from the Latin lat the participle stem of ferre to bring",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Lative",
           "package": "numerals",
@@ -2904,6 +3160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe locative case (abbreviated loc) indicates a location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Locative",
           "package": "numerals",
@@ -2913,6 +3170,7 @@
         "index": {
           "description": "The locative case abbreviated loc indicates location",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Locative",
           "package": "numerals",
@@ -2927,6 +3185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn linguistics, ablative case (abbreviated abl) is a name given to cases in\n various languages whose common characteristic is that they mark motion away\n from something, though the details in each language may differ. The name\n \u003ca\u003eablative\u003c/a\u003e derives from the Latin ablatus, the (irregular) perfect passive\n participle of auferre \u003ca\u003eto carry away\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeAblative",
           "package": "numerals",
@@ -2936,6 +3195,7 @@
         "index": {
           "description": "In linguistics ablative case abbreviated abl is name given to cases in various languages whose common characteristic is that they mark motion away from something though the details in each language may differ The name ablative derives from the Latin ablatus the irregular perfect passive participle of auferre to carry away",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeAblative",
           "package": "numerals",
@@ -2950,6 +3210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn Uralic languages, such as Finnish, Estonian and Hungarian, the adessive\n case (abbreviated ade; from Latin adesse \u003ca\u003eto be present\u003c/a\u003e) is the fourth of\n the locative cases with the basic meaning of \u003ca\u003eon\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeAdessive",
           "package": "numerals",
@@ -2959,6 +3220,7 @@
         "index": {
           "description": "In Uralic languages such as Finnish Estonian and Hungarian the adessive case abbreviated ade from Latin adesse to be present is the fourth of the locative cases with the basic meaning of on",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeAdessive",
           "package": "numerals",
@@ -2973,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllative case (abbreviated all; from Latin all&#257;t-, afferre \u003ca\u003eto bring to\u003c/a\u003e)\n is a type of the locative cases used in several languages. The term allative\n is generally used for the lative case in the majority of languages which do\n not make finer distinctions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeAllative",
           "package": "numerals",
@@ -2982,6 +3245,7 @@
         "index": {
           "description": "Allative case abbreviated all from Latin all afferre to bring to is type of the locative cases used in several languages The term allative is generally used for the lative case in the majority of languages which do not make finer distinctions",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeAllative",
           "package": "numerals",
@@ -2996,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElative (abbreviated ela; from Latin efferre \u003ca\u003eto bring or carry out\u003c/a\u003e) is a\n locative case with the basic meaning \u003ca\u003eout of\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeElative",
           "package": "numerals",
@@ -3005,6 +3270,7 @@
         "index": {
           "description": "Elative abbreviated ela from Latin efferre to bring or carry out is locative case with the basic meaning out of",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeElative",
           "package": "numerals",
@@ -3019,6 +3285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIllative (abbreviated ill; from Latin illatus \u003ca\u003ebrought in\u003c/a\u003e) is, in the\n Finnish language, Estonian language and the Hungarian language, the third of\n the locative cases with the basic meaning of \u003ca\u003einto (the inside of)\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeIllative",
           "package": "numerals",
@@ -3028,6 +3295,7 @@
         "index": {
           "description": "Illative abbreviated ill from Latin illatus brought in is in the Finnish language Estonian language and the Hungarian language the third of the locative cases with the basic meaning of into the inside of",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeIllative",
           "package": "numerals",
@@ -3042,6 +3310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInessive case (abbreviated ine; from Latin inesse \u003ca\u003eto be in or at\u003c/a\u003e) is a\n locative grammatical case. This case carries the basic meaning of \u003ca\u003ein\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeInessive",
           "package": "numerals",
@@ -3051,6 +3320,7 @@
         "index": {
           "description": "Inessive case abbreviated ine from Latin inesse to be in or at is locative grammatical case This case carries the basic meaning of in",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "LocativeInessive",
           "package": "numerals",
@@ -3064,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Masculine",
           "package": "numerals",
@@ -3072,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Masculine",
           "package": "numerals",
@@ -3086,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multiplicative case is a grammatical case used for marking a number of\n something (\u003ca\u003ethree times\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Multiplicative",
           "package": "numerals",
@@ -3095,6 +3368,7 @@
         "index": {
           "description": "The multiplicative case is grammatical case used for marking number of something three times",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Multiplicative",
           "package": "numerals",
@@ -3108,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Neuter",
           "package": "numerals",
@@ -3116,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Neuter",
           "package": "numerals",
@@ -3129,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "NoCase",
           "package": "numerals",
@@ -3137,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "NoCase",
           "package": "numerals",
@@ -3150,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "NoGender",
           "package": "numerals",
@@ -3158,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "NoGender",
           "package": "numerals",
@@ -3171,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "NoNumber",
           "package": "numerals",
@@ -3179,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "NoNumber",
           "package": "numerals",
@@ -3193,6 +3475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nominative case (abbreviated nom) indicates the subject of a\n finite verb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Nominative",
           "package": "numerals",
@@ -3202,6 +3485,7 @@
         "index": {
           "description": "The nominative case abbreviated nom indicates the subject of finite verb",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Nominative",
           "package": "numerals",
@@ -3216,6 +3500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe partitive case (abbreviated ptv or more ambiguously part)\n denotes \u003ca\u003epartialness\u003c/a\u003e, \u003ca\u003ewithout result\u003c/a\u003e, or \u003ca\u003ewithout specific\n identity\u003c/a\u003e. It is also used in contexts where a subgroup is selected\n from a larger group, or with numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Partitive",
           "package": "numerals",
@@ -3225,6 +3510,7 @@
         "index": {
           "description": "The partitive case abbreviated ptv or more ambiguously part denotes partialness without result or without specific identity It is also used in contexts where subgroup is selected from larger group or with numbers",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Partitive",
           "package": "numerals",
@@ -3238,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Paucal",
           "package": "numerals",
@@ -3246,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Paucal",
           "package": "numerals",
@@ -3259,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Plural",
           "package": "numerals",
@@ -3267,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Plural",
           "package": "numerals",
@@ -3280,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Singular",
           "package": "numerals",
@@ -3288,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Singular",
           "package": "numerals",
@@ -3302,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe term sublative case (abbreviated subl) is used to refer to grammatical\n cases expressing different situations: In Hungarian, it expresses the\n destination of the movement, originally to the surface of something (e.g. sit\n down on the ground, climb the tree), but in other figurative meanings as well\n (e.g. to university, for two nights), while in Tsez and other Northeast\n Caucasian languages it denotes a movement towards the bottomsides or the area\n under an object. The sublative case is used in the Finnish, Tsez and\n Hungarian languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Sublative",
           "package": "numerals",
@@ -3311,6 +3604,7 @@
         "index": {
           "description": "The term sublative case abbreviated subl is used to refer to grammatical cases expressing different situations In Hungarian it expresses the destination of the movement originally to the surface of something e.g sit down on the ground climb the tree but in other figurative meanings as well e.g to university for two nights while in Tsez and other Northeast Caucasian languages it denotes movement towards the bottomsides or the area under an object The sublative case is used in the Finnish Tsez and Hungarian languages",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Sublative",
           "package": "numerals",
@@ -3325,6 +3619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Superessive case (abbreviated supe) is a grammatical declension\n indicating location on top of, or on the surface of something. Its name comes\n from Latin supersum, superesse: to be over and above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "SuperEssive",
           "package": "numerals",
@@ -3334,6 +3629,7 @@
         "index": {
           "description": "The Superessive case abbreviated supe is grammatical declension indicating location on top of or on the surface of something Its name comes from Latin supersum superesse to be over and above",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "SuperEssive",
           "package": "numerals",
@@ -3348,6 +3644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe translative case (abbreviated transl) is a grammatical case that\n indicates a change in state of a noun, with the general sense of \u003ca\u003ebecoming X\u003c/a\u003e\n or \u003ca\u003echange to X\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Translative",
           "package": "numerals",
@@ -3357,6 +3654,7 @@
         "index": {
           "description": "The translative case abbreviated transl is grammatical case that indicates change in state of noun with the general sense of becoming or change to",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Translative",
           "package": "numerals",
@@ -3370,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Trial",
           "package": "numerals",
@@ -3378,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Trial",
           "package": "numerals",
@@ -3392,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe vocative case indicates an addressee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "Vocative",
           "package": "numerals",
@@ -3401,6 +3702,7 @@
         "index": {
           "description": "The vocative case indicates an addressee",
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "Vocative",
           "package": "numerals",
@@ -3414,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "abessive",
           "package": "numerals",
@@ -3423,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "abessive",
           "normalized": "a-\u003ea",
@@ -3437,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "ablative",
           "package": "numerals",
@@ -3446,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "ablative",
           "normalized": "a-\u003ea",
@@ -3460,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "accusative",
           "package": "numerals",
@@ -3469,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "accusative",
           "normalized": "a-\u003ea",
@@ -3483,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "comitative",
           "package": "numerals",
@@ -3492,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "comitative",
           "normalized": "a-\u003ea",
@@ -3506,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "common",
           "package": "numerals",
@@ -3515,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "common",
           "normalized": "a-\u003ea",
@@ -3529,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "dative",
           "package": "numerals",
@@ -3538,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "dative",
           "normalized": "a-\u003ea",
@@ -3552,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "delative",
           "package": "numerals",
@@ -3561,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "delative",
           "normalized": "a-\u003ea",
@@ -3575,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "distributive",
           "package": "numerals",
@@ -3584,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "distributive",
           "normalized": "a-\u003ea",
@@ -3598,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "distributiveTemporal",
           "package": "numerals",
@@ -3607,6 +3926,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "distributiveTemporal",
           "normalized": "a-\u003ea",
@@ -3622,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "dual",
           "package": "numerals",
@@ -3631,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "dual",
           "normalized": "a-\u003ea",
@@ -3645,6 +3967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "essive",
           "package": "numerals",
@@ -3654,6 +3977,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "essive",
           "normalized": "a-\u003ea",
@@ -3668,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "feminine",
           "package": "numerals",
@@ -3677,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "feminine",
           "normalized": "a-\u003ea",
@@ -3691,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "genitive",
           "package": "numerals",
@@ -3700,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "genitive",
           "normalized": "a-\u003ea",
@@ -3714,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "hasNoCase",
           "package": "numerals",
@@ -3723,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "hasNoCase",
           "normalized": "a-\u003eBool",
@@ -3738,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "hasNoGender",
           "package": "numerals",
@@ -3747,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "hasNoGender",
           "normalized": "a-\u003eBool",
@@ -3762,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "hasNoNumber",
           "package": "numerals",
@@ -3771,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "hasNoNumber",
           "normalized": "a-\u003eBool",
@@ -3786,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "instructive",
           "package": "numerals",
@@ -3795,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "instructive",
           "normalized": "a-\u003ea",
@@ -3809,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "instrumental",
           "package": "numerals",
@@ -3818,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "instrumental",
           "normalized": "a-\u003ea",
@@ -3832,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isAbessive",
           "package": "numerals",
@@ -3841,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isAbessive",
           "normalized": "a-\u003eBool",
@@ -3856,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isAblative",
           "package": "numerals",
@@ -3865,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isAblative",
           "normalized": "a-\u003eBool",
@@ -3880,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isAccusative",
           "package": "numerals",
@@ -3889,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isAccusative",
           "normalized": "a-\u003eBool",
@@ -3904,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isComitative",
           "package": "numerals",
@@ -3913,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isComitative",
           "normalized": "a-\u003eBool",
@@ -3928,6 +4274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isCommon",
           "package": "numerals",
@@ -3937,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isCommon",
           "normalized": "a-\u003eBool",
@@ -3952,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isDative",
           "package": "numerals",
@@ -3961,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isDative",
           "normalized": "a-\u003eBool",
@@ -3976,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isDelative",
           "package": "numerals",
@@ -3985,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isDelative",
           "normalized": "a-\u003eBool",
@@ -4000,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isDistributive",
           "package": "numerals",
@@ -4009,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isDistributive",
           "normalized": "a-\u003eBool",
@@ -4024,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isDistributiveTemporal",
           "package": "numerals",
@@ -4033,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isDistributiveTemporal",
           "normalized": "a-\u003eBool",
@@ -4048,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isDual",
           "package": "numerals",
@@ -4057,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isDual",
           "normalized": "a-\u003eBool",
@@ -4072,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isEssive",
           "package": "numerals",
@@ -4081,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isEssive",
           "normalized": "a-\u003eBool",
@@ -4096,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isFeminine",
           "package": "numerals",
@@ -4105,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isFeminine",
           "normalized": "a-\u003eBool",
@@ -4120,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isGenitive",
           "package": "numerals",
@@ -4129,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isGenitive",
           "normalized": "a-\u003eBool",
@@ -4144,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isInstructive",
           "package": "numerals",
@@ -4153,6 +4518,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isInstructive",
           "normalized": "a-\u003eBool",
@@ -4168,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isInstrumental",
           "package": "numerals",
@@ -4177,6 +4544,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isInstrumental",
           "normalized": "a-\u003eBool",
@@ -4192,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isLative",
           "package": "numerals",
@@ -4201,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isLative",
           "normalized": "a-\u003eBool",
@@ -4216,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isLocative",
           "package": "numerals",
@@ -4225,6 +4596,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isLocative",
           "normalized": "a-\u003eBool",
@@ -4240,6 +4612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeAblative",
           "package": "numerals",
@@ -4249,6 +4622,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeAblative",
           "normalized": "a-\u003eBool",
@@ -4264,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeAdessive",
           "package": "numerals",
@@ -4273,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeAdessive",
           "normalized": "a-\u003eBool",
@@ -4288,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeAllative",
           "package": "numerals",
@@ -4297,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeAllative",
           "normalized": "a-\u003eBool",
@@ -4312,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeElative",
           "package": "numerals",
@@ -4321,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeElative",
           "normalized": "a-\u003eBool",
@@ -4336,6 +4716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeIllative",
           "package": "numerals",
@@ -4345,6 +4726,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeIllative",
           "normalized": "a-\u003eBool",
@@ -4360,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeInessive",
           "package": "numerals",
@@ -4369,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isLocativeInessive",
           "normalized": "a-\u003eBool",
@@ -4384,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isMasculine",
           "package": "numerals",
@@ -4393,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isMasculine",
           "normalized": "a-\u003eBool",
@@ -4408,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isMultiplicative",
           "package": "numerals",
@@ -4417,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isMultiplicative",
           "normalized": "a-\u003eBool",
@@ -4432,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isNeuter",
           "package": "numerals",
@@ -4441,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isNeuter",
           "normalized": "a-\u003eBool",
@@ -4456,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isNominative",
           "package": "numerals",
@@ -4465,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isNominative",
           "normalized": "a-\u003eBool",
@@ -4480,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isPartitive",
           "package": "numerals",
@@ -4489,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isPartitive",
           "normalized": "a-\u003eBool",
@@ -4504,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isPaucal",
           "package": "numerals",
@@ -4513,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isPaucal",
           "normalized": "a-\u003eBool",
@@ -4528,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isPlural",
           "package": "numerals",
@@ -4537,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isPlural",
           "normalized": "a-\u003eBool",
@@ -4552,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isSingular",
           "package": "numerals",
@@ -4561,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isSingular",
           "normalized": "a-\u003eBool",
@@ -4576,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isSublative",
           "package": "numerals",
@@ -4585,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isSublative",
           "normalized": "a-\u003eBool",
@@ -4600,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isSuperEssive",
           "package": "numerals",
@@ -4609,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isSuperEssive",
           "normalized": "a-\u003eBool",
@@ -4624,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isTranslative",
           "package": "numerals",
@@ -4633,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isTranslative",
           "normalized": "a-\u003eBool",
@@ -4648,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isTrial",
           "package": "numerals",
@@ -4657,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isTrial",
           "normalized": "a-\u003eBool",
@@ -4672,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "isVocative",
           "package": "numerals",
@@ -4681,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "isVocative",
           "normalized": "a-\u003eBool",
@@ -4696,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "lative",
           "package": "numerals",
@@ -4705,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "lative",
           "normalized": "a-\u003ea",
@@ -4719,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "locative",
           "package": "numerals",
@@ -4728,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "locative",
           "normalized": "a-\u003ea",
@@ -4742,6 +5156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "locativeAblative",
           "package": "numerals",
@@ -4751,6 +5166,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "locativeAblative",
           "normalized": "a-\u003ea",
@@ -4766,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "locativeAdessive",
           "package": "numerals",
@@ -4775,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "locativeAdessive",
           "normalized": "a-\u003ea",
@@ -4790,6 +5208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "locativeAllative",
           "package": "numerals",
@@ -4799,6 +5218,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "locativeAllative",
           "normalized": "a-\u003ea",
@@ -4814,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "locativeElative",
           "package": "numerals",
@@ -4823,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "locativeElative",
           "normalized": "a-\u003ea",
@@ -4838,6 +5260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "locativeIllative",
           "package": "numerals",
@@ -4847,6 +5270,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "locativeIllative",
           "normalized": "a-\u003ea",
@@ -4862,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "locativeInessive",
           "package": "numerals",
@@ -4871,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "locativeInessive",
           "normalized": "a-\u003ea",
@@ -4886,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "masculine",
           "package": "numerals",
@@ -4895,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "masculine",
           "normalized": "a-\u003ea",
@@ -4909,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "multiplicative",
           "package": "numerals",
@@ -4918,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "multiplicative",
           "normalized": "a-\u003ea",
@@ -4932,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "neuter",
           "package": "numerals",
@@ -4941,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "neuter",
           "normalized": "a-\u003ea",
@@ -4955,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "noCase",
           "package": "numerals",
@@ -4964,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "noCase",
           "normalized": "a-\u003ea",
@@ -4979,6 +5413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "noGender",
           "package": "numerals",
@@ -4988,6 +5423,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "noGender",
           "normalized": "a-\u003ea",
@@ -5003,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "noNumber",
           "package": "numerals",
@@ -5012,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "noNumber",
           "normalized": "a-\u003ea",
@@ -5027,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "nominative",
           "package": "numerals",
@@ -5036,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "nominative",
           "normalized": "a-\u003ea",
@@ -5050,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "partitive",
           "package": "numerals",
@@ -5059,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "partitive",
           "normalized": "a-\u003ea",
@@ -5073,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "paucal",
           "package": "numerals",
@@ -5082,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "paucal",
           "normalized": "a-\u003ea",
@@ -5096,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "plural",
           "package": "numerals",
@@ -5105,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "plural",
           "normalized": "a-\u003ea",
@@ -5119,6 +5565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "singular",
           "package": "numerals",
@@ -5128,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "singular",
           "normalized": "a-\u003ea",
@@ -5142,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "sublative",
           "package": "numerals",
@@ -5151,6 +5600,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "sublative",
           "normalized": "a-\u003ea",
@@ -5165,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "superEssive",
           "package": "numerals",
@@ -5174,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "superEssive",
           "normalized": "a-\u003ea",
@@ -5189,6 +5641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "translative",
           "package": "numerals",
@@ -5198,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "translative",
           "normalized": "a-\u003ea",
@@ -5212,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "trial",
           "package": "numerals",
@@ -5221,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "trial",
           "normalized": "a-\u003ea",
@@ -5235,6 +5691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Grammar",
           "name": "vocative",
           "package": "numerals",
@@ -5244,6 +5701,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Grammar",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Grammar",
           "name": "vocative",
           "normalized": "a-\u003ea",
@@ -5259,6 +5717,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        af\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        afr\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        afr\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Afrikaans\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Afrikaans\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AF",
           "name": "AF",
           "package": "numerals",
@@ -5268,6 +5727,7 @@
         "index": {
           "description": "ISO639-1 af ISO639-2 afr ISO639-3 afr Native name Afrikaans English name Afrikaans",
           "hierarchy": "Text Numeral Language AF",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AF",
           "name": "AF",
           "package": "numerals",
@@ -5281,6 +5741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AF",
           "name": "bounds",
           "package": "numerals",
@@ -5290,6 +5751,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AF",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AF",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -5304,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AF",
           "name": "cardinal",
           "package": "numerals",
@@ -5313,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AF",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AF",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -5327,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AF",
           "name": "entry",
           "package": "numerals",
@@ -5336,6 +5801,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AF",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AF",
           "name": "entry",
           "package": "numerals",
@@ -5348,6 +5814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AF",
           "name": "ordinal",
           "package": "numerals",
@@ -5357,6 +5824,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AF",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AF",
           "name": "ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -5371,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AF",
           "name": "struct",
           "package": "numerals",
@@ -5380,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AF",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AF",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -5395,6 +5865,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        amp\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Alamblak\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AMP",
           "name": "AMP",
           "package": "numerals",
@@ -5404,6 +5875,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2 ISO639-3 amp Native name English name Alamblak",
           "hierarchy": "Text Numeral Language AMP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AMP",
           "name": "AMP",
           "package": "numerals",
@@ -5417,6 +5889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AMP",
           "name": "bounds",
           "package": "numerals",
@@ -5426,6 +5899,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AMP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AMP",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -5440,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AMP",
           "name": "cardinal",
           "package": "numerals",
@@ -5449,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AMP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AMP",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -5463,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AMP",
           "name": "entry",
           "package": "numerals",
@@ -5472,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AMP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AMP",
           "name": "entry",
           "package": "numerals",
@@ -5484,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.AMP",
           "name": "struct",
           "package": "numerals",
@@ -5493,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language AMP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.AMP",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -5507,6 +5987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.BG",
           "name": "BG",
           "package": "numerals",
@@ -5515,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language BG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.BG",
           "name": "BG",
           "package": "numerals",
@@ -5528,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.BG",
           "name": "bounds",
           "package": "numerals",
@@ -5537,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language BG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.BG",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -5551,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.BG",
           "name": "cardinal",
           "package": "numerals",
@@ -5560,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language BG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.BG",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -5574,6 +6060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.BG",
           "name": "entry",
           "package": "numerals",
@@ -5583,6 +6070,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language BG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.BG",
           "name": "entry",
           "package": "numerals",
@@ -5595,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.BG",
           "name": "struct",
           "package": "numerals",
@@ -5604,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language BG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.BG",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -5619,6 +6109,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       chn\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        chn\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     chinuk wawa\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Chinook Jargon\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHN",
           "name": "CHN",
           "package": "numerals",
@@ -5628,6 +6119,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2B chn ISO639-3 chn Native name chinuk wawa English name Chinook Jargon",
           "hierarchy": "Text Numeral Language CHN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHN",
           "name": "CHN",
           "package": "numerals",
@@ -5641,6 +6133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHN",
           "name": "bounds",
           "package": "numerals",
@@ -5650,6 +6143,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CHN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHN",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -5664,6 +6158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHN",
           "name": "cardinal",
           "package": "numerals",
@@ -5673,6 +6168,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CHN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHN",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -5687,6 +6183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHN",
           "name": "entry",
           "package": "numerals",
@@ -5696,6 +6193,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CHN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHN",
           "name": "entry",
           "package": "numerals",
@@ -5708,6 +6206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHN",
           "name": "struct",
           "package": "numerals",
@@ -5717,6 +6216,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CHN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHN",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -5732,6 +6232,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        chr\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        chr\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     &#5091;&#5043;&#5033; &#5030;&#5100;&#5058;&#5039;&#5069;&#5079; (Tsalagi Gawonihis\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Cherokee\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHR",
           "name": "CHR",
           "package": "numerals",
@@ -5741,6 +6242,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2 chr ISO639-3 chr Native name Tsalagi Gawonihis English name Cherokee",
           "hierarchy": "Text Numeral Language CHR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHR",
           "name": "CHR",
           "package": "numerals",
@@ -5754,6 +6256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHR",
           "name": "bounds",
           "package": "numerals",
@@ -5763,6 +6266,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CHR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHR",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -5777,6 +6281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHR",
           "name": "cardinal",
           "package": "numerals",
@@ -5786,6 +6291,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CHR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHR",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -5800,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHR",
           "name": "entry",
           "package": "numerals",
@@ -5809,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CHR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHR",
           "name": "entry",
           "package": "numerals",
@@ -5821,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHR",
           "name": "struct",
           "package": "numerals",
@@ -5830,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CHR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHR",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -5845,6 +6355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransliterates a string written in the Cherokee syllabary to the\n latin alphabet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CHR",
           "name": "transliterate",
           "package": "numerals",
@@ -5855,6 +6366,7 @@
         "index": {
           "description": "Transliterates string written in the Cherokee syllabary to the latin alphabet",
           "hierarchy": "Text Numeral Language CHR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CHR",
           "name": "transliterate",
           "normalized": "Text-\u003eText",
@@ -5870,6 +6382,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        clm\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     n&#601;x&#695;s&#411;&#789;ay&#789;&#601;m&#250;c&#601;\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Klallam\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CLM",
           "name": "CLM",
           "package": "numerals",
@@ -5879,6 +6392,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2B ISO639-3 clm Native name ay English name Klallam",
           "hierarchy": "Text Numeral Language CLM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CLM",
           "name": "CLM",
           "package": "numerals",
@@ -5892,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CLM",
           "name": "bounds",
           "package": "numerals",
@@ -5901,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CLM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CLM",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -5915,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CLM",
           "name": "cardinal",
           "package": "numerals",
@@ -5924,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CLM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CLM",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -5938,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CLM",
           "name": "entry",
           "package": "numerals",
@@ -5947,6 +6466,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CLM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CLM",
           "name": "entry",
           "package": "numerals",
@@ -5959,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CLM",
           "name": "struct",
           "package": "numerals",
@@ -5968,6 +6489,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CLM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CLM",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -5983,6 +6505,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        cs\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       cze\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2T\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       ces\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        ces\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     &#268;e&#353;tina\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Czech\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CS",
           "name": "CS",
           "package": "numerals",
@@ -5992,6 +6515,7 @@
         "index": {
           "description": "ISO639-1 cs ISO639-2B cze ISO639-2T ces ISO639-3 ces Native name tina English name Czech",
           "hierarchy": "Text Numeral Language CS",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CS",
           "name": "CS",
           "package": "numerals",
@@ -6005,6 +6529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CS",
           "name": "bounds",
           "package": "numerals",
@@ -6014,6 +6539,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CS",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CS",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -6028,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CS",
           "name": "cardinal",
           "package": "numerals",
@@ -6037,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CS",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CS",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6051,6 +6579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.CS",
           "name": "entry",
           "package": "numerals",
@@ -6060,6 +6589,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language CS",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.CS",
           "name": "entry",
           "package": "numerals",
@@ -6097,6 +6627,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        de\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       ger\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2T\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       deu\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        deu\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Deutsch\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    German\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.DE",
           "name": "DE",
           "package": "numerals",
@@ -6106,6 +6637,7 @@
         "index": {
           "description": "ISO639-1 de ISO639-2B ger ISO639-2T deu ISO639-3 deu Native name Deutsch English name German",
           "hierarchy": "Text Numeral Language DE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.DE",
           "name": "DE",
           "package": "numerals",
@@ -6119,6 +6651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.DE",
           "name": "bounds",
           "package": "numerals",
@@ -6128,6 +6661,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language DE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.DE",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -6142,6 +6676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.DE",
           "name": "cardinal",
           "package": "numerals",
@@ -6151,6 +6686,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language DE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.DE",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6165,6 +6701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.DE",
           "name": "entry",
           "package": "numerals",
@@ -6174,6 +6711,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language DE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.DE",
           "name": "entry",
           "package": "numerals",
@@ -6186,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.DE",
           "name": "ordinal",
           "package": "numerals",
@@ -6195,6 +6734,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language DE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.DE",
           "name": "ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6234,6 +6774,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        en\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       eng\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        eng\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     English\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    English\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "EN",
           "package": "numerals",
@@ -6243,6 +6784,7 @@
         "index": {
           "description": "ISO639-1 en ISO639-2B eng ISO639-3 eng Native name English English name English",
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "EN",
           "package": "numerals",
@@ -6256,6 +6798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "bounds",
           "package": "numerals",
@@ -6265,6 +6808,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -6279,6 +6823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "gbPelletier_cardinal",
           "package": "numerals",
@@ -6288,6 +6833,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "gbPelletier_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6303,6 +6849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "gb_cardinal",
           "package": "numerals",
@@ -6312,6 +6859,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "gb_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6326,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "gb_entry",
           "package": "numerals",
@@ -6335,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "gb_entry",
           "package": "numerals",
@@ -6347,6 +6897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "gb_ordinal",
           "package": "numerals",
@@ -6356,6 +6907,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "gb_ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6370,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "pelletierScaleStruct",
           "package": "numerals",
@@ -6379,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "pelletierScaleStruct",
           "normalized": "a-\u003eb",
@@ -6394,6 +6948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "shortScaleStruct",
           "package": "numerals",
@@ -6403,6 +6958,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "shortScaleStruct",
           "normalized": "a-\u003eb",
@@ -6418,6 +6974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "us_cardinal",
           "package": "numerals",
@@ -6427,6 +6984,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "us_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6441,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "us_entry",
           "package": "numerals",
@@ -6450,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "us_entry",
           "package": "numerals",
@@ -6462,6 +7022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EN",
           "name": "us_ordinal",
           "package": "numerals",
@@ -6471,6 +7032,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EN",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EN",
           "name": "us_ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6486,6 +7048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        eo\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       epo\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        epo\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Esperanto\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Esperanto\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EO",
           "name": "EO",
           "package": "numerals",
@@ -6495,6 +7058,7 @@
         "index": {
           "description": "ISO639-1 eo ISO639-2B epo ISO639-3 epo Native name Esperanto English name Esperanto",
           "hierarchy": "Text Numeral Language EO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EO",
           "name": "EO",
           "package": "numerals",
@@ -6508,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EO",
           "name": "bounds",
           "package": "numerals",
@@ -6517,6 +7082,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EO",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -6531,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EO",
           "name": "cardinal",
           "package": "numerals",
@@ -6540,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EO",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6554,6 +7122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EO",
           "name": "entry",
           "package": "numerals",
@@ -6563,6 +7132,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EO",
           "name": "entry",
           "package": "numerals",
@@ -6575,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.EO",
           "name": "struct",
           "package": "numerals",
@@ -6584,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language EO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.EO",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -6599,6 +7171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        es\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       spa\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        spa\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Espa&#241;ol\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Spanish\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ES",
           "name": "ES",
           "package": "numerals",
@@ -6608,6 +7181,7 @@
         "index": {
           "description": "ISO639-1 es ISO639-2B spa ISO639-3 spa Native name Espa ol English name Spanish",
           "hierarchy": "Text Numeral Language ES",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ES",
           "name": "ES",
           "package": "numerals",
@@ -6621,6 +7195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ES",
           "name": "bounds",
           "package": "numerals",
@@ -6630,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ES",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ES",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -6644,6 +7220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ES",
           "name": "cardinal",
           "package": "numerals",
@@ -6653,6 +7230,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ES",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ES",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6667,6 +7245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ES",
           "name": "entry",
           "package": "numerals",
@@ -6676,6 +7255,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ES",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ES",
           "name": "entry",
           "package": "numerals",
@@ -6688,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ES",
           "name": "struct",
           "package": "numerals",
@@ -6697,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ES",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ES",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -6711,6 +7293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.Entries",
           "name": "Entries",
           "package": "numerals",
@@ -6719,6 +7302,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language Entries",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.Entries",
           "name": "Entries",
           "package": "numerals",
@@ -6732,6 +7316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.Entries",
           "name": "entries",
           "package": "numerals",
@@ -6741,6 +7326,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language Entries",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.Entries",
           "name": "entries",
           "normalized": "[Entry]",
@@ -6756,6 +7342,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        fi\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       fin\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        fin\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     suomi\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Finnish\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FI",
           "name": "FI",
           "package": "numerals",
@@ -6765,6 +7352,7 @@
         "index": {
           "description": "ISO639-1 fi ISO639-2B fin ISO639-3 fin Native name suomi English name Finnish",
           "hierarchy": "Text Numeral Language FI",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FI",
           "name": "FI",
           "package": "numerals",
@@ -6778,6 +7366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FI",
           "name": "bounds",
           "package": "numerals",
@@ -6787,6 +7376,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FI",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FI",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -6801,6 +7391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FI",
           "name": "cardinal",
           "package": "numerals",
@@ -6810,6 +7401,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FI",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FI",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6824,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FI",
           "name": "entry",
           "package": "numerals",
@@ -6833,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FI",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FI",
           "name": "entry",
           "package": "numerals",
@@ -6845,6 +7439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FI",
           "name": "ordinal",
           "package": "numerals",
@@ -6854,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FI",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FI",
           "name": "ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6868,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FI",
           "name": "struct",
           "package": "numerals",
@@ -6877,6 +7474,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FI",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FI",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -6892,6 +7490,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        fr\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       fre\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        fra\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Fran&#231;ais\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    French\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FR",
           "name": "FR",
           "package": "numerals",
@@ -6901,6 +7500,7 @@
         "index": {
           "description": "ISO639-1 fr ISO639-2B fre ISO639-3 fra Native name Fran ais English name French",
           "hierarchy": "Text Numeral Language FR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FR",
           "name": "FR",
           "package": "numerals",
@@ -6914,6 +7514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FR",
           "name": "bounds",
           "package": "numerals",
@@ -6923,6 +7524,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FR",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -6937,6 +7539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FR",
           "name": "cardinal",
           "package": "numerals",
@@ -6946,6 +7549,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FR",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -6960,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FR",
           "name": "cardinalStruct",
           "package": "numerals",
@@ -6969,6 +7574,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FR",
           "name": "cardinalStruct",
           "normalized": "a-\u003eb",
@@ -6984,6 +7590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FR",
           "name": "entry",
           "package": "numerals",
@@ -6993,6 +7600,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FR",
           "name": "entry",
           "package": "numerals",
@@ -7005,6 +7613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FR",
           "name": "ordinal",
           "package": "numerals",
@@ -7014,6 +7623,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FR",
           "name": "ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7028,6 +7638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FR",
           "name": "ordinalStruct",
           "package": "numerals",
@@ -7037,6 +7648,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FR",
           "name": "ordinalStruct",
           "normalized": "a-\u003eb",
@@ -7053,6 +7665,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        fur\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        fur\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Furlan\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Friulan\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FUR",
           "name": "FUR",
           "package": "numerals",
@@ -7062,6 +7675,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2 fur ISO639-3 fur Native name Furlan English name Friulan",
           "hierarchy": "Text Numeral Language FUR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FUR",
           "name": "FUR",
           "package": "numerals",
@@ -7075,6 +7689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FUR",
           "name": "bounds",
           "package": "numerals",
@@ -7084,6 +7699,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FUR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FUR",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -7098,6 +7714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FUR",
           "name": "cardinal",
           "package": "numerals",
@@ -7107,6 +7724,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FUR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FUR",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7121,6 +7739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.FUR",
           "name": "entry",
           "package": "numerals",
@@ -7130,6 +7749,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language FUR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.FUR",
           "name": "entry",
           "package": "numerals",
@@ -7167,6 +7787,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        gse\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        gse\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Schwyzerd&#252;tsch\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Swiss German\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GSW",
           "name": "GSW",
           "package": "numerals",
@@ -7176,6 +7797,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2 gse ISO639-3 gse Native name Schwyzerd tsch English name Swiss German",
           "hierarchy": "Text Numeral Language GSW",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GSW",
           "name": "GSW",
           "package": "numerals",
@@ -7189,6 +7811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GSW",
           "name": "bounds",
           "package": "numerals",
@@ -7198,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language GSW",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GSW",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -7212,6 +7836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GSW",
           "name": "cardinal",
           "package": "numerals",
@@ -7221,6 +7846,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language GSW",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GSW",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7235,6 +7861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GSW",
           "name": "entry",
           "package": "numerals",
@@ -7244,6 +7871,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language GSW",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GSW",
           "name": "entry",
           "package": "numerals",
@@ -7257,6 +7885,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        gv\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        glv\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        glv\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Gaelg\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Manx\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GV",
           "name": "GV",
           "package": "numerals",
@@ -7266,6 +7895,7 @@
         "index": {
           "description": "ISO639-1 gv ISO639-2 glv ISO639-3 glv Native name Gaelg English name Manx",
           "hierarchy": "Text Numeral Language GV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GV",
           "name": "GV",
           "package": "numerals",
@@ -7279,6 +7909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GV",
           "name": "bounds",
           "package": "numerals",
@@ -7288,6 +7919,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language GV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GV",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -7302,6 +7934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GV",
           "name": "cardinal",
           "package": "numerals",
@@ -7311,6 +7944,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language GV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GV",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7325,6 +7959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GV",
           "name": "entry",
           "package": "numerals",
@@ -7334,6 +7969,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language GV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GV",
           "name": "entry",
           "package": "numerals",
@@ -7346,6 +7982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.GV",
           "name": "struct",
           "package": "numerals",
@@ -7355,6 +7992,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language GV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.GV",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -7370,6 +8008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        he\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        heb\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        heb\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     &#1506;&#1460;&#1489;&#1456;&#1512;&#1460;\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Modern Hebrew\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HE",
           "name": "HE",
           "package": "numerals",
@@ -7379,6 +8018,7 @@
         "index": {
           "description": "ISO639-1 he ISO639-2 heb ISO639-3 heb Native name English name Modern Hebrew",
           "hierarchy": "Text Numeral Language HE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HE",
           "name": "HE",
           "package": "numerals",
@@ -7392,6 +8032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HE",
           "name": "bounds",
           "package": "numerals",
@@ -7401,6 +8042,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language HE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HE",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -7415,6 +8057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HE",
           "name": "cardinal",
           "package": "numerals",
@@ -7424,6 +8067,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language HE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HE",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7438,6 +8082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HE",
           "name": "entry",
           "package": "numerals",
@@ -7447,6 +8092,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language HE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HE",
           "name": "entry",
           "package": "numerals",
@@ -7459,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HE",
           "name": "struct",
           "package": "numerals",
@@ -7468,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language HE",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HE",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -7483,6 +8131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        hop\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Hopil&#224;vayi\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Hopi\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HOP",
           "name": "HOP",
           "package": "numerals",
@@ -7492,6 +8141,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2 ISO639-3 hop Native name Hopil vayi English name Hopi",
           "hierarchy": "Text Numeral Language HOP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HOP",
           "name": "HOP",
           "package": "numerals",
@@ -7505,6 +8155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HOP",
           "name": "bounds",
           "package": "numerals",
@@ -7514,6 +8165,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language HOP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HOP",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -7528,6 +8180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HOP",
           "name": "cardinal",
           "package": "numerals",
@@ -7537,6 +8190,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language HOP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HOP",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7551,6 +8205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HOP",
           "name": "entry",
           "package": "numerals",
@@ -7560,6 +8215,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language HOP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HOP",
           "name": "entry",
           "package": "numerals",
@@ -7572,6 +8228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.HOP",
           "name": "struct",
           "package": "numerals",
@@ -7581,6 +8238,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language HOP",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.HOP",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -7596,6 +8254,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        it\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       ita\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        ita\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Italiano\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Italian\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.IT",
           "name": "IT",
           "package": "numerals",
@@ -7605,6 +8264,7 @@
         "index": {
           "description": "ISO639-1 it ISO639-2B ita ISO639-3 ita Native name Italiano English name Italian",
           "hierarchy": "Text Numeral Language IT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.IT",
           "name": "IT",
           "package": "numerals",
@@ -7618,6 +8278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.IT",
           "name": "bounds",
           "package": "numerals",
@@ -7627,6 +8288,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language IT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.IT",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -7641,6 +8303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.IT",
           "name": "cardinal",
           "package": "numerals",
@@ -7650,6 +8313,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language IT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.IT",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7664,6 +8328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.IT",
           "name": "entry",
           "package": "numerals",
@@ -7673,6 +8338,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language IT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.IT",
           "name": "entry",
           "package": "numerals",
@@ -7685,6 +8351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.IT",
           "name": "ordinal",
           "package": "numerals",
@@ -7694,6 +8361,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language IT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.IT",
           "name": "ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7708,6 +8376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.IT",
           "name": "rule",
           "package": "numerals",
@@ -7717,6 +8386,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language IT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.IT",
           "name": "rule",
           "package": "numerals",
@@ -7729,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.IT",
           "name": "struct",
           "package": "numerals",
@@ -7738,6 +8409,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language IT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.IT",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -7753,6 +8425,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        ja\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       jpn\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        jpn\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     &#26085;&#26412;&#35486;\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Japanese\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "JA",
           "package": "numerals",
@@ -7762,6 +8435,7 @@
         "index": {
           "description": "ISO639-1 ja ISO639-2B jpn ISO639-3 jpn Native name English name Japanese",
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "JA",
           "package": "numerals",
@@ -7775,6 +8449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "bounds",
           "package": "numerals",
@@ -7784,6 +8459,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -7798,6 +8474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "daiji_bounds",
           "package": "numerals",
@@ -7807,6 +8484,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "daiji_bounds",
           "normalized": "(a,a)",
@@ -7821,6 +8499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "daiji_cardinal",
           "package": "numerals",
@@ -7830,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "daiji_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7844,6 +8524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "daiji_entry",
           "package": "numerals",
@@ -7853,6 +8534,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "daiji_entry",
           "package": "numerals",
@@ -7865,6 +8547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "kanji_cardinal",
           "package": "numerals",
@@ -7874,6 +8557,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "kanji_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7888,6 +8572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "kanji_entry",
           "package": "numerals",
@@ -7897,6 +8582,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "kanji_entry",
           "package": "numerals",
@@ -7909,6 +8595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "on'yomi_cardinal",
           "package": "numerals",
@@ -7918,6 +8605,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "on'yomi_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7932,6 +8620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "on'yomi_entry",
           "package": "numerals",
@@ -7941,6 +8630,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "on'yomi_entry",
           "package": "numerals",
@@ -7953,6 +8643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "preferred_cardinal",
           "package": "numerals",
@@ -7962,6 +8653,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "preferred_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -7976,6 +8668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "preferred_entry",
           "package": "numerals",
@@ -7985,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "preferred_entry",
           "package": "numerals",
@@ -7997,6 +8691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.JA",
           "name": "struct",
           "package": "numerals",
@@ -8006,6 +8701,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language JA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.JA",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -8021,6 +8717,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        la\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       lat\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        lat\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Latine\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Latin\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LA",
           "name": "LA",
           "package": "numerals",
@@ -8030,6 +8727,7 @@
         "index": {
           "description": "ISO639-1 la ISO639-2B lat ISO639-3 lat Native name Latine English name Latin",
           "hierarchy": "Text Numeral Language LA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LA",
           "name": "LA",
           "package": "numerals",
@@ -8043,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LA",
           "name": "bounds",
           "package": "numerals",
@@ -8052,6 +8751,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language LA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LA",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -8066,6 +8766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LA",
           "name": "cardinal",
           "package": "numerals",
@@ -8075,6 +8776,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language LA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LA",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8089,6 +8791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LA",
           "name": "entry",
           "package": "numerals",
@@ -8098,6 +8801,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language LA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LA",
           "name": "entry",
           "package": "numerals",
@@ -8110,6 +8814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LA",
           "name": "struct",
           "package": "numerals",
@@ -8119,6 +8824,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language LA",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LA",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -8134,6 +8840,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        lld\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Ladin\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Ladin\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LLD",
           "name": "LLD",
           "package": "numerals",
@@ -8143,6 +8850,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2 ISO639-3 lld Native name Ladin English name Ladin",
           "hierarchy": "Text Numeral Language LLD",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LLD",
           "name": "LLD",
           "package": "numerals",
@@ -8156,6 +8864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LLD",
           "name": "bounds",
           "package": "numerals",
@@ -8165,6 +8874,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language LLD",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LLD",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -8179,6 +8889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LLD",
           "name": "cardinal",
           "package": "numerals",
@@ -8188,6 +8899,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language LLD",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LLD",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8202,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.LLD",
           "name": "entry",
           "package": "numerals",
@@ -8211,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language LLD",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.LLD",
           "name": "entry",
           "package": "numerals",
@@ -8224,6 +8938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        mg\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        mlg\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        mlg\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Malagasy\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.MG",
           "name": "MG",
           "package": "numerals",
@@ -8233,6 +8948,7 @@
         "index": {
           "description": "ISO639-1 mg ISO639-2 mlg ISO639-3 mlg Native name English name Malagasy",
           "hierarchy": "Text Numeral Language MG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.MG",
           "name": "MG",
           "package": "numerals",
@@ -8246,6 +8962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.MG",
           "name": "bounds",
           "package": "numerals",
@@ -8255,6 +8972,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language MG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.MG",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -8269,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.MG",
           "name": "cardinal",
           "package": "numerals",
@@ -8278,6 +8997,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language MG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.MG",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8292,6 +9012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.MG",
           "name": "entry",
           "package": "numerals",
@@ -8301,6 +9022,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language MG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.MG",
           "name": "entry",
           "package": "numerals",
@@ -8313,6 +9035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.MG",
           "name": "struct",
           "package": "numerals",
@@ -8322,6 +9045,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language MG",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.MG",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -8337,6 +9061,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        nl\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       dut\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        nld\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Nederlands\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Dutch\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NL",
           "name": "NL",
           "package": "numerals",
@@ -8346,6 +9071,7 @@
         "index": {
           "description": "ISO639-1 nl ISO639-2B dut ISO639-3 nld Native name Nederlands English name Dutch",
           "hierarchy": "Text Numeral Language NL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NL",
           "name": "NL",
           "package": "numerals",
@@ -8359,6 +9085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NL",
           "name": "bounds",
           "package": "numerals",
@@ -8368,6 +9095,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NL",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -8382,6 +9110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NL",
           "name": "cardinal",
           "package": "numerals",
@@ -8391,6 +9120,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NL",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8405,6 +9135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NL",
           "name": "entry",
           "package": "numerals",
@@ -8414,6 +9145,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NL",
           "name": "entry",
           "package": "numerals",
@@ -8426,6 +9158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NL",
           "name": "multiplicative",
           "package": "numerals",
@@ -8435,6 +9168,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NL",
           "name": "multiplicative",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8449,6 +9183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NL",
           "name": "ordinal",
           "package": "numerals",
@@ -8458,6 +9193,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NL",
           "name": "ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8472,6 +9208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NL",
           "name": "partitive",
           "package": "numerals",
@@ -8481,6 +9218,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NL",
           "name": "partitive",
           "normalized": "a-\u003e(b,b)-\u003eMaybe Text",
@@ -8495,6 +9233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NL",
           "name": "struct",
           "package": "numerals",
@@ -8504,6 +9243,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NL",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -8519,6 +9259,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        nb\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       nob\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        nob\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Bokm&#229;l\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Norwegian Bokm&#229;l\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NO",
           "name": "NO",
           "package": "numerals",
@@ -8528,6 +9269,7 @@
         "index": {
           "description": "ISO639-1 nb ISO639-2B nob ISO639-3 nob Native name Bokm English name Norwegian Bokm",
           "hierarchy": "Text Numeral Language NO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NO",
           "name": "NO",
           "package": "numerals",
@@ -8541,6 +9283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NO",
           "name": "bounds",
           "package": "numerals",
@@ -8550,6 +9293,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NO",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -8564,6 +9308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NO",
           "name": "cardinal",
           "package": "numerals",
@@ -8573,6 +9318,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NO",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8587,6 +9333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NO",
           "name": "entry",
           "package": "numerals",
@@ -8596,6 +9343,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NO",
           "name": "entry",
           "package": "numerals",
@@ -8608,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NO",
           "name": "struct",
           "package": "numerals",
@@ -8617,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NO",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -8632,6 +9382,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        nqm\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Ndom\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NQM",
           "name": "NQM",
           "package": "numerals",
@@ -8641,6 +9392,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2B ISO639-3 nqm Native name English name Ndom",
           "hierarchy": "Text Numeral Language NQM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NQM",
           "name": "NQM",
           "package": "numerals",
@@ -8654,6 +9406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NQM",
           "name": "bounds",
           "package": "numerals",
@@ -8663,6 +9416,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NQM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NQM",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -8677,6 +9431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NQM",
           "name": "cardinal",
           "package": "numerals",
@@ -8686,6 +9441,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NQM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NQM",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8700,6 +9456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NQM",
           "name": "entry",
           "package": "numerals",
@@ -8709,6 +9466,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NQM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NQM",
           "name": "entry",
           "package": "numerals",
@@ -8721,6 +9479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.NQM",
           "name": "struct",
           "package": "numerals",
@@ -8730,6 +9489,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language NQM",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.NQM",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -8745,6 +9505,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        oj\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        oji\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        oji\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     &#5130;&#5314;&#5393;&#5320;&#5167;&#5287;&#5134;&#5328; (Anishinaabemowin)\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Ojibwe\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.OJ",
           "name": "OJ",
           "package": "numerals",
@@ -8754,6 +9515,7 @@
         "index": {
           "description": "ISO639-1 oj ISO639-2 oji ISO639-3 oji Native name Anishinaabemowin English name Ojibwe",
           "hierarchy": "Text Numeral Language OJ",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.OJ",
           "name": "OJ",
           "package": "numerals",
@@ -8767,6 +9529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.OJ",
           "name": "bounds",
           "package": "numerals",
@@ -8776,6 +9539,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language OJ",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.OJ",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -8790,6 +9554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.OJ",
           "name": "cardinal",
           "package": "numerals",
@@ -8799,6 +9564,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language OJ",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.OJ",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8813,6 +9579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.OJ",
           "name": "entry",
           "package": "numerals",
@@ -8822,6 +9589,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language OJ",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.OJ",
           "name": "entry",
           "package": "numerals",
@@ -8834,6 +9602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.OJ",
           "name": "struct",
           "package": "numerals",
@@ -8843,6 +9612,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language OJ",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.OJ",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -8858,6 +9628,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        pdc\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Pennsilfaanisch Deitsch\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Pennsylvania German\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PDC",
           "name": "PDC",
           "package": "numerals",
@@ -8867,6 +9638,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2 ISO639-3 pdc Native name Pennsilfaanisch Deitsch English name Pennsylvania German",
           "hierarchy": "Text Numeral Language PDC",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PDC",
           "name": "PDC",
           "package": "numerals",
@@ -8880,6 +9652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PDC",
           "name": "bounds",
           "package": "numerals",
@@ -8889,6 +9662,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PDC",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PDC",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -8903,6 +9677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PDC",
           "name": "cardinal",
           "package": "numerals",
@@ -8912,6 +9687,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PDC",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PDC",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -8926,6 +9702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PDC",
           "name": "entry",
           "package": "numerals",
@@ -8935,6 +9712,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PDC",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PDC",
           "name": "entry",
           "package": "numerals",
@@ -8947,6 +9725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PDC",
           "name": "struct",
           "package": "numerals",
@@ -8956,6 +9735,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PDC",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PDC",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -8971,6 +9751,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        pl\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        pol\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        pol\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     j&#281;zyk polski\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Polish\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PL",
           "name": "PL",
           "package": "numerals",
@@ -8980,6 +9761,7 @@
         "index": {
           "description": "ISO639-1 pl ISO639-2 pol ISO639-3 pol Native name zyk polski English name Polish",
           "hierarchy": "Text Numeral Language PL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PL",
           "name": "PL",
           "package": "numerals",
@@ -8993,6 +9775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PL",
           "name": "bounds",
           "package": "numerals",
@@ -9002,6 +9785,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PL",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9017,6 +9801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliczebniki g&#322;&#243;wne\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PL",
           "name": "cardinal",
           "package": "numerals",
@@ -9027,6 +9812,7 @@
         "index": {
           "description": "liczebniki wne",
           "hierarchy": "Text Numeral Language PL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PL",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9041,6 +9827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PL",
           "name": "entry",
           "package": "numerals",
@@ -9050,6 +9837,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PL",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PL",
           "name": "entry",
           "package": "numerals",
@@ -9063,6 +9851,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        pt\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        por\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        por\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Portugu&#234;s\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Portuguese\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PT",
           "name": "PT",
           "package": "numerals",
@@ -9072,6 +9861,7 @@
         "index": {
           "description": "ISO639-1 pt ISO639-2 por ISO639-3 por Native name Portugu English name Portuguese",
           "hierarchy": "Text Numeral Language PT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PT",
           "name": "PT",
           "package": "numerals",
@@ -9085,6 +9875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PT",
           "name": "bounds",
           "package": "numerals",
@@ -9094,6 +9885,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PT",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9108,6 +9900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PT",
           "name": "cardinal",
           "package": "numerals",
@@ -9117,6 +9910,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PT",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9131,6 +9925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PT",
           "name": "cardinal_struct",
           "package": "numerals",
@@ -9140,6 +9935,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PT",
           "name": "cardinal_struct",
           "normalized": "a-\u003eb",
@@ -9154,6 +9950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PT",
           "name": "entry",
           "package": "numerals",
@@ -9163,6 +9960,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PT",
           "name": "entry",
           "package": "numerals",
@@ -9175,6 +9973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PT",
           "name": "ordinal",
           "package": "numerals",
@@ -9184,6 +9983,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PT",
           "name": "ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9198,6 +9998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.PT",
           "name": "ordinal_struct",
           "package": "numerals",
@@ -9207,6 +10008,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language PT",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.PT",
           "name": "ordinal_struct",
           "normalized": "a-\u003eb",
@@ -9222,6 +10024,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        ru\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        rus\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        rus\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; &#1103;&#1079;&#1099;&#1082;\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Russian\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.RU",
           "name": "RU",
           "package": "numerals",
@@ -9231,6 +10034,7 @@
         "index": {
           "description": "ISO639-1 ru ISO639-2 rus ISO639-3 rus Native name English name Russian",
           "hierarchy": "Text Numeral Language RU",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.RU",
           "name": "RU",
           "package": "numerals",
@@ -9244,6 +10048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.RU",
           "name": "bounds",
           "package": "numerals",
@@ -9253,6 +10058,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language RU",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.RU",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9267,6 +10073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.RU",
           "name": "cardinal",
           "package": "numerals",
@@ -9276,6 +10083,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language RU",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.RU",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9290,6 +10098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.RU",
           "name": "entry",
           "package": "numerals",
@@ -9299,6 +10108,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language RU",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.RU",
           "name": "entry",
           "package": "numerals",
@@ -9311,6 +10121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.RU",
           "name": "struct",
           "package": "numerals",
@@ -9320,6 +10131,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language RU",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.RU",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -9335,6 +10147,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        -\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        sco\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        sco\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Scots\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Scots\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SCO",
           "name": "SCO",
           "package": "numerals",
@@ -9344,6 +10157,7 @@
         "index": {
           "description": "ISO639-1 ISO639-2 sco ISO639-3 sco Native name Scots English name Scots",
           "hierarchy": "Text Numeral Language SCO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SCO",
           "name": "SCO",
           "package": "numerals",
@@ -9357,6 +10171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SCO",
           "name": "bounds",
           "package": "numerals",
@@ -9366,6 +10181,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SCO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SCO",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9380,6 +10196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SCO",
           "name": "cardinal",
           "package": "numerals",
@@ -9389,6 +10206,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SCO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SCO",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9403,6 +10221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SCO",
           "name": "entry",
           "package": "numerals",
@@ -9412,6 +10231,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SCO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SCO",
           "name": "entry",
           "package": "numerals",
@@ -9424,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SCO",
           "name": "struct",
           "package": "numerals",
@@ -9433,6 +10254,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SCO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SCO",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -9448,6 +10270,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        sv\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       swe\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        swe\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     svenska\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Swedish\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SV",
           "name": "SV",
           "package": "numerals",
@@ -9457,6 +10280,7 @@
         "index": {
           "description": "ISO639-1 sv ISO639-2B swe ISO639-3 swe Native name svenska English name Swedish",
           "hierarchy": "Text Numeral Language SV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SV",
           "name": "SV",
           "package": "numerals",
@@ -9470,6 +10294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SV",
           "name": "bounds",
           "package": "numerals",
@@ -9479,6 +10304,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SV",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9493,6 +10319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SV",
           "name": "cardinal",
           "package": "numerals",
@@ -9502,6 +10329,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SV",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9516,6 +10344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SV",
           "name": "entry",
           "package": "numerals",
@@ -9525,6 +10354,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SV",
           "name": "entry",
           "package": "numerals",
@@ -9537,6 +10367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SV",
           "name": "ordinal",
           "package": "numerals",
@@ -9546,6 +10377,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SV",
           "name": "ordinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9560,6 +10392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.SV",
           "name": "struct",
           "package": "numerals",
@@ -9569,6 +10402,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language SV",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.SV",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -9584,6 +10418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        tr\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        tur\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        tur\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     T&#252;rk&#231;e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Turkish\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.TR",
           "name": "TR",
           "package": "numerals",
@@ -9593,6 +10428,7 @@
         "index": {
           "description": "ISO639-1 tr ISO639-2 tur ISO639-3 tur Native name rk English name Turkish",
           "hierarchy": "Text Numeral Language TR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.TR",
           "name": "TR",
           "package": "numerals",
@@ -9606,6 +10442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.TR",
           "name": "bounds",
           "package": "numerals",
@@ -9615,6 +10452,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language TR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.TR",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9629,6 +10467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.TR",
           "name": "cardinal",
           "package": "numerals",
@@ -9638,6 +10477,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language TR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.TR",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9652,6 +10492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.TR",
           "name": "entry",
           "package": "numerals",
@@ -9661,6 +10502,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language TR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.TR",
           "name": "entry",
           "package": "numerals",
@@ -9673,6 +10515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.TR",
           "name": "struct",
           "package": "numerals",
@@ -9682,6 +10525,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language TR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.TR",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -9697,6 +10541,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        wo\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        wo1\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        wo1\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     Wolof\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Wolof\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.WO",
           "name": "WO",
           "package": "numerals",
@@ -9706,6 +10551,7 @@
         "index": {
           "description": "ISO639-1 wo ISO639-2 wo1 ISO639-3 wo1 Native name Wolof English name Wolof",
           "hierarchy": "Text Numeral Language WO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.WO",
           "name": "WO",
           "package": "numerals",
@@ -9719,6 +10565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.WO",
           "name": "bounds",
           "package": "numerals",
@@ -9728,6 +10575,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language WO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.WO",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9742,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.WO",
           "name": "cardinal",
           "package": "numerals",
@@ -9751,6 +10600,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language WO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.WO",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9765,6 +10615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.WO",
           "name": "entry",
           "package": "numerals",
@@ -9774,6 +10625,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language WO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.WO",
           "name": "entry",
           "package": "numerals",
@@ -9786,6 +10638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.WO",
           "name": "struct",
           "package": "numerals",
@@ -9795,6 +10648,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language WO",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.WO",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -9810,6 +10664,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        yo\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        yor\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        yor\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     &#232;d&#232; Yor&#249;b&#225;\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Yoruba\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.YOR",
           "name": "YOR",
           "package": "numerals",
@@ -9819,6 +10674,7 @@
         "index": {
           "description": "ISO639-1 yo ISO639-2 yor ISO639-3 yor Native name Yor English name Yoruba",
           "hierarchy": "Text Numeral Language YOR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.YOR",
           "name": "YOR",
           "package": "numerals",
@@ -9832,6 +10688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.YOR",
           "name": "bounds",
           "package": "numerals",
@@ -9841,6 +10698,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language YOR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.YOR",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9855,6 +10713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.YOR",
           "name": "cardinal",
           "package": "numerals",
@@ -9864,6 +10723,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language YOR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.YOR",
           "name": "cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9878,6 +10738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.YOR",
           "name": "entry",
           "package": "numerals",
@@ -9887,6 +10748,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language YOR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.YOR",
           "name": "entry",
           "package": "numerals",
@@ -9899,6 +10761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.YOR",
           "name": "struct",
           "package": "numerals",
@@ -9908,6 +10771,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language YOR",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.YOR",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -9923,6 +10787,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eISO639-1\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        zh\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2B\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       chi\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-2T\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e       zho\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eISO639-3\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e        cmn\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNative name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     &#23448;&#35441;\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEnglish name\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    Chinese\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "ZH",
           "package": "numerals",
@@ -9932,6 +10797,7 @@
         "index": {
           "description": "ISO639-1 zh ISO639-2B chi ISO639-2T zho ISO639-3 cmn Native name English name Chinese",
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "ZH",
           "package": "numerals",
@@ -9945,6 +10811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "bounds",
           "package": "numerals",
@@ -9954,6 +10821,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -9968,6 +10836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "finance_simpl_cardinal",
           "package": "numerals",
@@ -9977,6 +10846,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "finance_simpl_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -9991,6 +10861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "finance_simpl_entry",
           "package": "numerals",
@@ -10000,6 +10871,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "finance_simpl_entry",
           "package": "numerals",
@@ -10012,6 +10884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "finance_trad_cardinal",
           "package": "numerals",
@@ -10021,6 +10894,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "finance_trad_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -10035,6 +10909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "finance_trad_entry",
           "package": "numerals",
@@ -10044,6 +10919,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "finance_trad_entry",
           "package": "numerals",
@@ -10056,6 +10932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "pinyin_cardinal",
           "package": "numerals",
@@ -10065,6 +10942,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "pinyin_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -10079,6 +10957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "pinyin_entry",
           "package": "numerals",
@@ -10088,6 +10967,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "pinyin_entry",
           "package": "numerals",
@@ -10100,6 +10980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "simpl_cardinal",
           "package": "numerals",
@@ -10109,6 +10990,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "simpl_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -10123,6 +11005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "simpl_entry",
           "package": "numerals",
@@ -10132,6 +11015,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "simpl_entry",
           "package": "numerals",
@@ -10144,6 +11028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "struct",
           "package": "numerals",
@@ -10153,6 +11038,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "struct",
           "normalized": "a-\u003eb",
@@ -10167,6 +11053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "trad_cardinal",
           "package": "numerals",
@@ -10176,6 +11063,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "trad_cardinal",
           "normalized": "a-\u003eb-\u003eMaybe Text",
@@ -10190,6 +11078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Language.ZH",
           "name": "trad_entry",
           "package": "numerals",
@@ -10199,6 +11088,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Language ZH",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Language.ZH",
           "name": "trad_entry",
           "package": "numerals",
@@ -10211,6 +11101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Misc",
           "name": "Misc",
           "package": "numerals",
@@ -10219,6 +11110,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Misc",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Misc",
           "name": "Misc",
           "package": "numerals",
@@ -10233,6 +11125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (base 10) logarithm of an integral value. Note that the\n result must be able to fit in an ordinary Int value. This means the\n maximum input value is 10 ^ (maxBound &#8759; Int).\n\u003c/p\u003e\u003cp\u003eRaise 10 to some power.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Misc",
           "name": "dec",
           "package": "numerals",
@@ -10243,6 +11136,7 @@
         "index": {
           "description": "The base logarithm of an integral value Note that the result must be able to fit in an ordinary Int value This means the maximum input value is maxBound Int Raise to some power",
           "hierarchy": "Text Numeral Misc",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Misc",
           "name": "dec",
           "normalized": "a-\u003ea",
@@ -10257,6 +11151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Misc",
           "name": "intLog",
           "package": "numerals",
@@ -10266,6 +11161,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Misc",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Misc",
           "name": "intLog",
           "normalized": "a-\u003ea",
@@ -10281,6 +11177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "Render",
           "package": "numerals",
@@ -10289,6 +11186,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "Render",
           "package": "numerals",
@@ -10303,6 +11201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context in which an \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003eression appears.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "Ctx",
           "package": "numerals",
@@ -10312,6 +11211,7 @@
         "index": {
           "description": "context in which an Exp ression appears",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "Ctx",
           "package": "numerals",
@@ -10326,6 +11226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation for numerals.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRepr\u003c/a\u003e\u003c/code\u003e contains all the information on how to render an\n \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003eression to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "Repr",
           "package": "numerals",
@@ -10335,6 +11236,7 @@
         "index": {
           "description": "representation for numerals Repr contains all the information on how to render an Exp ression to Text value",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "Repr",
           "package": "numerals",
@@ -10349,6 +11251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that renders the representation of a step in a scale of\n large values. The value represented by the step is 10 ^ (rank *\n base + offset).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "ScaleRepr",
           "package": "numerals",
@@ -10358,6 +11261,7 @@
         "index": {
           "description": "Function that renders the representation of step in scale of large values The value represented by the step is rank base offset",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "ScaleRepr",
           "package": "numerals",
@@ -10372,6 +11276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxAdd",
           "package": "numerals",
@@ -10382,6 +11287,7 @@
         "index": {
           "description": "Addition context",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxAdd",
           "package": "numerals",
@@ -10396,6 +11302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxDual",
           "package": "numerals",
@@ -10406,6 +11313,7 @@
         "index": {
           "description": "Dual context",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxDual",
           "package": "numerals",
@@ -10420,6 +11328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty context. Used for top level expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxEmpty",
           "package": "numerals",
@@ -10430,6 +11339,7 @@
         "index": {
           "description": "The empty context Used for top level expressions",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxEmpty",
           "package": "numerals",
@@ -10444,6 +11354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFraction context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxFrac",
           "package": "numerals",
@@ -10454,6 +11365,7 @@
         "index": {
           "description": "Fraction context",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxFrac",
           "package": "numerals",
@@ -10468,6 +11380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxMul",
           "package": "numerals",
@@ -10478,6 +11391,7 @@
         "index": {
           "description": "Multiplication context",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxMul",
           "package": "numerals",
@@ -10492,6 +11406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxNeg",
           "package": "numerals",
@@ -10502,6 +11417,7 @@
         "index": {
           "description": "Negation context",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxNeg",
           "package": "numerals",
@@ -10516,6 +11432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlural context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxPlural",
           "package": "numerals",
@@ -10526,6 +11443,7 @@
         "index": {
           "description": "Plural context",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxPlural",
           "package": "numerals",
@@ -10540,6 +11458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxScale",
           "package": "numerals",
@@ -10550,6 +11469,7 @@
         "index": {
           "description": "Scale context",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxScale",
           "package": "numerals",
@@ -10564,6 +11484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtraction context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "CtxSub",
           "package": "numerals",
@@ -10574,6 +11495,7 @@
         "index": {
           "description": "Subtraction context",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "CtxSub",
           "package": "numerals",
@@ -10587,6 +11509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "Repr",
           "package": "numerals",
@@ -10596,6 +11519,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "Repr",
           "package": "numerals",
@@ -10610,6 +11534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default representation.\n\u003c/p\u003e\u003cp\u003eOnly the combining functions are defined. The rest are either\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e or always produce \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "defaultRepr",
           "package": "numerals",
@@ -10620,6 +11545,7 @@
         "index": {
           "description": "The default representation Only the combining functions are defined The rest are either Nothing or always produce Nothing",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "defaultRepr",
           "package": "numerals",
@@ -10634,6 +11560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether a context is completely on the outside of an\n expression, either left or right.\n\u003c/p\u003e\u003cp\u003eGiven the following expression:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eAdd\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e 1000) (\u003ccode\u003e\u003ca\u003eAdd\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eMul\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e 2) (\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e 100)) (\u003ccode\u003e\u003ca\u003eAdd\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e 4) (\u003ccode\u003e\u003ca\u003eMul\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e 3) (\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e 10))))\n\u003c/pre\u003e\u003cp\u003eOn the left we have \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e 1000\u003c/code\u003e and on the right \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e 10\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "isOutside",
           "package": "numerals",
@@ -10644,6 +11571,7 @@
         "index": {
           "description": "Checks whether context is completely on the outside of an expression either left or right Given the following expression Add Lit Add Mul Lit Lit Add Lit Mul Lit Lit On the left we have Lit and on the right Lit",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "isOutside",
           "normalized": "Side-\u003eCtx a-\u003eBool",
@@ -10659,6 +11587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "posIndex",
           "package": "numerals",
@@ -10668,6 +11597,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "posIndex",
           "normalized": "Ctx a-\u003eℤ",
@@ -10684,6 +11614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders an expression to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value according to a certain\n representation and inflection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "render",
           "package": "numerals",
@@ -10693,6 +11624,7 @@
         "index": {
           "description": "Renders an expression to Text value according to certain representation and inflection",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "render",
           "normalized": "Repr a-\u003ea-\u003eExp a-\u003eMaybe Text",
@@ -10708,6 +11640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders an addition. This concerns the addition itself, not\n the things being added. For example: In \"one hundred and\n eighty\" this function would be responsible for rendering the\n \"and\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprAdd",
           "package": "numerals",
@@ -10718,6 +11651,7 @@
         "index": {
           "description": "Renders an addition This concerns the addition itself not the things being added For example In one hundred and eighty this function would be responsible for rendering the and",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprAdd",
           "normalized": "Maybe(Exp a-\u003eExp a-\u003eCtx(Exp a)-\u003eText)",
@@ -10734,6 +11668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines an addition and the things being added.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprAddCombine",
           "package": "numerals",
@@ -10744,6 +11679,7 @@
         "index": {
           "description": "Combines an addition and the things being added",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprAddCombine",
           "normalized": "Maybe(Text-\u003eText-\u003eExp a-\u003eText-\u003eExp a-\u003eText)",
@@ -10760,6 +11696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a fraction. This concerns the fraction itself, not\n the numerator or the denominator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprFrac",
           "package": "numerals",
@@ -10770,6 +11707,7 @@
         "index": {
           "description": "Renders fraction This concerns the fraction itself not the numerator or the denominator",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprFrac",
           "normalized": "Maybe(Exp a-\u003eExp a-\u003eCtx(Exp a)-\u003eText)",
@@ -10786,6 +11724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a fraction and the numerator and denominator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprFracCombine",
           "package": "numerals",
@@ -10796,6 +11735,7 @@
         "index": {
           "description": "Combines fraction and the numerator and denominator",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprFracCombine",
           "normalized": "Maybe(Text-\u003eText-\u003eExp a-\u003eText-\u003eExp a-\u003eText)",
@@ -10812,6 +11752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a multiplication. This concerns the multiplication\n itself, not the things being multiplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprMul",
           "package": "numerals",
@@ -10822,6 +11763,7 @@
         "index": {
           "description": "Renders multiplication This concerns the multiplication itself not the things being multiplied",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprMul",
           "normalized": "Maybe(Exp a-\u003eExp a-\u003eCtx(Exp a)-\u003eText)",
@@ -10838,6 +11780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a multiplication and the things being multiplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprMulCombine",
           "package": "numerals",
@@ -10848,6 +11791,7 @@
         "index": {
           "description": "Combines multiplication and the things being multiplied",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprMulCombine",
           "normalized": "Maybe(Text-\u003eText-\u003eExp a-\u003eText-\u003eExp a-\u003eText)",
@@ -10864,6 +11808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a negation. This concerns the negation itself, not\n the thing being negated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprNeg",
           "package": "numerals",
@@ -10874,6 +11819,7 @@
         "index": {
           "description": "Renders negation This concerns the negation itself not the thing being negated",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprNeg",
           "normalized": "Maybe(Exp a-\u003eCtx(Exp a)-\u003eText)",
@@ -10890,6 +11836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a negation and the thing being negated. For\n example: this would combine \"minus\" and \"three\" into\n \"minus three\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprNegCombine",
           "package": "numerals",
@@ -10900,6 +11847,7 @@
         "index": {
           "description": "Combines negation and the thing being negated For example this would combine minus and three into minus three",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprNegCombine",
           "normalized": "Maybe(Text-\u003eText-\u003eExp a-\u003eText)",
@@ -10916,6 +11864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a step in a scale of large values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprScale",
           "package": "numerals",
@@ -10926,6 +11875,7 @@
         "index": {
           "description": "Renders step in scale of large values",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprScale",
           "package": "numerals",
@@ -10940,6 +11890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a subtraction. This concerns the subtraction\n itself, not the things being subtracted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprSub",
           "package": "numerals",
@@ -10950,6 +11901,7 @@
         "index": {
           "description": "Renders subtraction This concerns the subtraction itself not the things being subtracted",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprSub",
           "normalized": "Maybe(Exp a-\u003eExp a-\u003eCtx(Exp a)-\u003eText)",
@@ -10966,6 +11918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a subtraction and the things being subtracted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprSubCombine",
           "package": "numerals",
@@ -10976,6 +11929,7 @@
         "index": {
           "description": "Combines subtraction and the things being subtracted",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprSubCombine",
           "normalized": "Maybe(Text-\u003eText-\u003eExp a-\u003eText-\u003eExp a-\u003eText)",
@@ -10992,6 +11946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation for unknown values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprUnknown",
           "package": "numerals",
@@ -11002,6 +11957,7 @@
         "index": {
           "description": "Representation for unknown values",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprUnknown",
           "package": "numerals",
@@ -11016,6 +11972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a literal value. Not necessarily defined for every\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Render",
           "name": "reprValue",
           "package": "numerals",
@@ -11026,6 +11983,7 @@
         "index": {
           "description": "Renders literal value Not necessarily defined for every value",
           "hierarchy": "Text Numeral Render",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Render",
           "name": "reprValue",
           "normalized": "a-\u003eℤ-\u003eMaybe(Ctx(Exp a)-\u003eText)",
@@ -11042,6 +12000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRules to convert numbers to an expression language.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "Rules",
           "package": "numerals",
@@ -11051,6 +12010,7 @@
         "index": {
           "description": "Rules to convert numbers to an expression language",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "Rules",
           "package": "numerals",
@@ -11065,6 +12025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule on how to convert a number into an expression\n language. Notice how this type is equal to the type of the \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e\n operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "Rule",
           "package": "numerals",
@@ -11074,6 +12035,7 @@
         "index": {
           "description": "rule on how to convert number into an expression language Notice how this type is equal to the type of the operator",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "Rule",
           "package": "numerals",
@@ -11088,6 +12050,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(add 10 L $ lit $ fix unknown) (13 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eAdd (Lit 3) (Lit 10)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "add",
           "package": "numerals",
@@ -11098,6 +12061,7 @@
         "index": {
           "description": "add lit fix unknown Integer Exp Add Lit Lit",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "add",
           "normalized": "a-\u003eSide-\u003eRule a b",
@@ -11113,6 +12077,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(checkPos $ lit $ fix unknown) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eLit 3\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(checkPos $ lit $ fix unknown) (-3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eUnknown\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "checkPos",
           "package": "numerals",
@@ -11123,6 +12088,7 @@
         "index": {
           "description": "checkPos lit fix unknown Integer Exp Lit checkPos lit fix unknown Integer Exp Unknown",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "checkPos",
           "package": "numerals",
@@ -11137,6 +12103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to apply the first rule, if that produces an \u003ccode\u003e\u003ca\u003eunknown\u003c/a\u003e\u003c/code\u003e\n value it applies the second rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "combine",
           "package": "numerals",
@@ -11147,6 +12114,7 @@
         "index": {
           "description": "Tries to apply the first rule if that produces an unknown value it applies the second rule",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "combine",
           "normalized": "Rule a b-\u003eRule a b-\u003eRule a b",
@@ -11162,6 +12130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 'if-then-else' concept for rules. Applies the first rule if\n the predicate holds on the input value, otherwise applies the\n second rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "conditional",
           "package": "numerals",
@@ -11171,6 +12140,7 @@
         "index": {
           "description": "The if-then-else concept for rules Applies the first rule if the predicate holds on the input value otherwise applies the second rule",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "conditional",
           "normalized": "(a-\u003eBool)-\u003eRule a b-\u003eRule a b-\u003eRule a b",
@@ -11186,6 +12156,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(dual $ lit $ fix unknown) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eDual (Lit 3)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "dual",
           "package": "numerals",
@@ -11196,6 +12167,7 @@
         "index": {
           "description": "dual lit fix unknown Integer Exp Dual Lit",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "dual",
           "package": "numerals",
@@ -11209,6 +12181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChooses which rule to apply to an input value based on a interval\n list of rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "findRule",
           "package": "numerals",
@@ -11218,6 +12191,7 @@
         "index": {
           "description": "Chooses which rule to apply to an input value based on interval list of rules",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "findRule",
           "normalized": "(a,Rule a b)-\u003e[(a,Rule a b)]-\u003ea-\u003eRule a b",
@@ -11234,6 +12208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the inflection of a subexpression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "inflection",
           "package": "numerals",
@@ -11244,6 +12219,7 @@
         "index": {
           "description": "Changes the inflection of subexpression",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "inflection",
           "normalized": "(Inf a-\u003eInf a)-\u003eRule b a",
@@ -11259,6 +12235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe literal rule. Converts its argument into a \u003ccode\u003e\u003ca\u003elit\u003c/a\u003e\u003c/code\u003eeral\n expression.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elit (fix unknown) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eLit 3\n\u003c/pre\u003e\u003cp\u003eIn this example lit is applied to the nonsense rule \"\u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eunknown\u003c/a\u003e\u003c/code\u003e\". Lit ignores that function, which is why we can pass it\n anything we want, including itself.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elit (fix undefined) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eLit 3\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(fix lit) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eLit 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "lit",
           "package": "numerals",
@@ -11269,6 +12246,7 @@
         "index": {
           "description": "The literal rule Converts its argument into lit eral expression lit fix unknown Integer Exp Lit In this example lit is applied to the nonsense rule fix unknown Lit ignores that function which is why we can pass it anything we want including itself lit fix undefined Integer Exp Lit fix lit Integer Exp Lit",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "lit",
           "package": "numerals",
@@ -11282,6 +12260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant on the \u003ccode\u003e\u003ca\u003elit\u003c/a\u003e\u003c/code\u003e rule which always multiplies its argument\n with 1. Useful for languages which have numerals of the form \"one\n hundred and three\" as opposed to \"hundred and three\".\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elit1 (fix unknown) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eMul (Lit 1) (Lit 3)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "lit1",
           "package": "numerals",
@@ -11292,6 +12271,7 @@
         "index": {
           "description": "variant on the lit rule which always multiplies its argument with Useful for languages which have numerals of the form one hundred and three as opposed to hundred and three lit1 fix unknown Integer Exp Mul Lit Lit",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "lit1",
           "package": "numerals",
@@ -11304,6 +12284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "longScale",
           "package": "numerals",
@@ -11312,6 +12293,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "longScale",
           "normalized": "Side-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11327,6 +12309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "longScale1",
           "package": "numerals",
@@ -11335,6 +12318,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "longScale1",
           "normalized": "Side-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11351,6 +12335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a value before it is given to a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "mapRule",
           "package": "numerals",
@@ -11361,6 +12346,7 @@
         "index": {
           "description": "Transform value before it is given to rule",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "mapRule",
           "normalized": "(a-\u003ea)-\u003eRule a b-\u003eRule a b",
@@ -11376,6 +12362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "mkStep",
           "package": "numerals",
@@ -11384,6 +12371,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "mkStep",
           "normalized": "Rule a b-\u003e(a-\u003eSide-\u003eRule a b)-\u003e(a-\u003eSide-\u003eSide-\u003eRule a b)-\u003ea-\u003ea-\u003eSide-\u003eSide-\u003eRule a b",
@@ -11400,6 +12388,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(mul 10 R L $ lit $ fix unknown) (42 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eAdd (Mul (Lit 4) (Lit 10)) (Lit 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "mul",
           "package": "numerals",
@@ -11410,6 +12399,7 @@
         "index": {
           "description": "mul lit fix unknown Integer Exp Add Mul Lit Lit Lit",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "mul",
           "normalized": "a-\u003eSide-\u003eSide-\u003eRule a b",
@@ -11424,6 +12414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "mul1",
           "package": "numerals",
@@ -11433,6 +12424,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "mul1",
           "normalized": "a-\u003eSide-\u003eSide-\u003eRule a b",
@@ -11447,6 +12439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "mulScale",
           "package": "numerals",
@@ -11455,6 +12448,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "mulScale",
           "normalized": "a-\u003ea-\u003eSide-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11470,6 +12464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "mulScale1",
           "package": "numerals",
@@ -11478,6 +12473,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "mulScale1",
           "normalized": "a-\u003ea-\u003eSide-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11493,6 +12489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "mulScale_",
           "package": "numerals",
@@ -11501,6 +12498,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "mulScale_",
           "normalized": "((a-\u003eb)-\u003ea-\u003eb-\u003eSide-\u003eb)-\u003ea-\u003ea-\u003eSide-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11516,6 +12514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "pelletierScale",
           "package": "numerals",
@@ -11524,6 +12523,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "pelletierScale",
           "normalized": "Side-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11539,6 +12539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "pelletierScale1",
           "package": "numerals",
@@ -11547,6 +12548,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "pelletierScale1",
           "normalized": "Side-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11563,6 +12565,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(plural $ lit $ fix unknown) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003ePlural (Lit 3)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "plural",
           "package": "numerals",
@@ -11573,6 +12576,7 @@
         "index": {
           "description": "plural lit fix unknown Integer Exp Plural Lit",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "plural",
           "package": "numerals",
@@ -11586,6 +12590,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(pos $ lit $ fix unknown) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eLit 3\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(pos $ lit $ fix unknown) (-3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eNeg (Lit 3)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "pos",
           "package": "numerals",
@@ -11596,6 +12601,7 @@
         "index": {
           "description": "pos lit fix unknown Integer Exp Lit pos lit fix unknown Integer Exp Neg Lit",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "pos",
           "package": "numerals",
@@ -11608,6 +12614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "shortScale",
           "package": "numerals",
@@ -11616,6 +12623,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "shortScale",
           "normalized": "Side-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11631,6 +12639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "shortScale1",
           "package": "numerals",
@@ -11639,6 +12648,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "shortScale1",
           "normalized": "Side-\u003eSide-\u003eRule a b-\u003eRule a b",
@@ -11654,6 +12664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "step",
           "package": "numerals",
@@ -11663,6 +12674,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "step",
           "normalized": "a-\u003ea-\u003eSide-\u003eSide-\u003eRule a b",
@@ -11677,6 +12689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "step1",
           "package": "numerals",
@@ -11686,6 +12699,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "step1",
           "normalized": "a-\u003ea-\u003eSide-\u003eSide-\u003eRule a b",
@@ -11701,6 +12715,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(sub 20 $ lit $ fix unknown) (18 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eSub (Lit 2) (Lit 20)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "sub",
           "package": "numerals",
@@ -11711,6 +12726,7 @@
         "index": {
           "description": "sub lit fix unknown Integer Exp Sub Lit Lit",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "sub",
           "normalized": "a-\u003eRule a b",
@@ -11726,6 +12742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule that always fails to convert a value. It constantly\n produces the \u003ccode\u003e\u003ca\u003eunknown\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(fix unknown) (3 :: Integer) :: Exp\n\u003c/code\u003e\u003c/strong\u003eUnknown\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral.Rules",
           "name": "unknown",
           "package": "numerals",
@@ -11736,6 +12753,7 @@
         "index": {
           "description": "rule that always fails to convert value It constantly produces the unknown value fix unknown Integer Exp Unknown",
           "hierarchy": "Text Numeral Rules",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral.Rules",
           "name": "unknown",
           "package": "numerals",
@@ -11748,6 +12766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:28 UTC 2014",
           "module": "Text.Numeral",
           "name": "Numeral",
           "package": "numerals",
@@ -11756,6 +12775,7 @@
         },
         "index": {
           "hierarchy": "Text Numeral",
+          "indexed": "2014-03-11T19:30:28",
           "module": "Text.Numeral",
           "name": "Numeral",
           "package": "numerals",

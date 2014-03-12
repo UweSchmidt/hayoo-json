@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hobbes"
+        "phrase": "hobbes",
+        "type": "phrase"
       },
       "type": "context"
     }

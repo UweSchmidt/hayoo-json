@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xenstore"
+        "phrase": "xenstore",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "Store",
           "package": "xenstore",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "Store",
           "package": "xenstore",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "Perm",
           "package": "xenstore",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "Perm",
           "package": "xenstore",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "XsData",
           "package": "xenstore",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "XsData",
           "package": "xenstore",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "XsError",
           "package": "xenstore",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "XsError",
           "package": "xenstore",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "XsHandle",
           "package": "xenstore",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "XsHandle",
           "package": "xenstore",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "XsPath",
           "package": "xenstore",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "XsPath",
           "package": "xenstore",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "XsPerms",
           "package": "xenstore",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "XsPerms",
           "package": "xenstore",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "XsWatchCallback",
           "package": "xenstore",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "XsWatchCallback",
           "package": "xenstore",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "ErrorAgain",
           "package": "xenstore",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "ErrorAgain",
           "package": "xenstore",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "ErrorInval",
           "package": "xenstore",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "ErrorInval",
           "package": "xenstore",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "ErrorNoEnt",
           "package": "xenstore",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "ErrorNoEnt",
           "package": "xenstore",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "ErrorOther",
           "package": "xenstore",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "ErrorOther",
           "package": "xenstore",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "PermNone",
           "package": "xenstore",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "PermNone",
           "package": "xenstore",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "PermRDWR",
           "package": "xenstore",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "PermRDWR",
           "package": "xenstore",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "PermRead",
           "package": "xenstore",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "PermRead",
           "package": "xenstore",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "PermWrite",
           "package": "xenstore",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "PermWrite",
           "package": "xenstore",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "XsPerms",
           "package": "xenstore",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "XsPerms",
           "package": "xenstore",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "initiateXS",
           "package": "xenstore",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "initiateXS",
           "package": "xenstore",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "permACL",
           "package": "xenstore",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "permACL",
           "normalized": "[(Word,Perm)]",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "permOther",
           "package": "xenstore",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "permOther",
           "package": "xenstore",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "permOwner",
           "package": "xenstore",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "permOwner",
           "package": "xenstore",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "terminateXS",
           "package": "xenstore",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "terminateXS",
           "normalized": "XsHandle-\u003eIO()",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "tryXS",
           "package": "xenstore",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "tryXS",
           "normalized": "IO a-\u003eIO(Maybe a)",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "withTransaction",
           "package": "xenstore",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "withTransaction",
           "normalized": "XsHandle-\u003eIO a-\u003eIO a",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "withXS",
           "package": "xenstore",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "withXS",
           "normalized": "(XsHandle-\u003eIO a)-\u003eIO a",
@@ -571,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist entries from this path in the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsDirectory",
           "package": "xenstore",
@@ -581,6 +632,7 @@
         "index": {
           "description": "list entries from this path in the store",
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsDirectory",
           "normalized": "XsHandle-\u003eXsPath-\u003eIO[XsPath]",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsGetDomainPath",
           "package": "xenstore",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsGetDomainPath",
           "normalized": "XsHandle-\u003eWord-\u003eIO XsPath",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsGetPerms",
           "package": "xenstore",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsGetPerms",
           "normalized": "XsHandle-\u003eXsPath-\u003eIO XsPerms",
@@ -645,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a path in the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsMkdir",
           "package": "xenstore",
@@ -655,6 +712,7 @@
         "index": {
           "description": "create path in the store",
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsMkdir",
           "normalized": "XsHandle-\u003eXsPath-\u003eIO()",
@@ -671,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a value from the path in the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsRead",
           "package": "xenstore",
@@ -681,6 +740,7 @@
         "index": {
           "description": "read value from the path in the store",
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsRead",
           "normalized": "XsHandle-\u003eXsPath-\u003eIO XsData",
@@ -697,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove a path in the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsRm",
           "package": "xenstore",
@@ -707,6 +768,7 @@
         "index": {
           "description": "remove path in the store",
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsRm",
           "normalized": "XsHandle-\u003eXsPath-\u003eIO()",
@@ -722,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsSetPerms",
           "package": "xenstore",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsSetPerms",
           "normalized": "XsHandle-\u003eXsPath-\u003eXsPerms-\u003eIO()",
@@ -747,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunwatch a watch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsUnwatch",
           "package": "xenstore",
@@ -757,6 +822,7 @@
         "index": {
           "description": "unwatch watch",
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsUnwatch",
           "normalized": "XsHandle-\u003eXsPath-\u003eXsData-\u003eIO()",
@@ -773,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewatch a specific path for change, and execute a specific callback when it's firing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsWatch",
           "package": "xenstore",
@@ -783,6 +850,7 @@
         "index": {
           "description": "watch specific path for change and execute specific callback when it firing",
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsWatch",
           "normalized": "XsHandle-\u003eXsPath-\u003eXsData-\u003eXsWatchCallback-\u003eIO()",
@@ -799,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite a value to a path in the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:16 UTC 2014",
           "module": "System.Xen.Store",
           "name": "xsWrite",
           "package": "xenstore",
@@ -809,6 +878,7 @@
         "index": {
           "description": "write value to path in the store",
           "hierarchy": "System Xen Store",
+          "indexed": "2014-03-11T20:41:16",
           "module": "System.Xen.Store",
           "name": "xsWrite",
           "normalized": "XsHandle-\u003eXsPath-\u003eXsData-\u003eIO()",

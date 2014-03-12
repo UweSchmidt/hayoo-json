@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "typography-geometry"
+        "phrase": "typography-geometry",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the function to approximate a list of curves with\n degree 3 Bezier curves, using a least squares method.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Approximation",
           "name": "Approximation",
           "package": "typography-geometry",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains the function to approximate list of curves with degree Bezier curves using least squares method",
           "hierarchy": "Graphics Typography Geometry Approximation",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Approximation",
           "name": "Approximation",
           "package": "typography-geometry",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximates a list of \u003ccode\u003eCurves\u003c/code\u003e with a list of degree 3 Bernstein curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Approximation",
           "name": "approximate",
           "package": "typography-geometry",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Approximates list of Curves with list of degree Bernstein curves",
           "hierarchy": "Graphics Typography Geometry Approximation",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Approximation",
           "name": "approximate",
           "normalized": "[Curve]-\u003e[(Bernsteinp Int Double,Bernsteinp Int Double)]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the basic functions for manipulating Bezier curves. It is heavily\n based on the book by N. M. Patrikalakis and T. Maekawa, Shape Interrogation for Computer\n Aided Design and Manufacturing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Bezier",
           "package": "typography-geometry",
@@ -76,6 +81,7 @@
         "index": {
           "description": "This module contains the basic functions for manipulating Bezier curves It is heavily based on the book by Patrikalakis and Maekawa Shape Interrogation for Computer Aided Design and Manufacturing",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Bezier",
           "package": "typography-geometry",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for representing all types of curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Curve",
           "package": "typography-geometry",
@@ -99,6 +106,7 @@
         "index": {
           "description": "The type for representing all types of curves",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Curve",
           "package": "typography-geometry",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Bezier",
           "package": "typography-geometry",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Bezier",
           "package": "typography-geometry",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Circle",
           "package": "typography-geometry",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Circle",
           "package": "typography-geometry",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Offset",
           "package": "typography-geometry",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "Offset",
           "package": "typography-geometry",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shortcut to define degree 3 Bezier curves from points. If the control\n points are \u003ccode\u003ea,b,c,d\u003c/code\u003e, the function should be called with\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebezier3\u003c/a\u003e\u003c/code\u003e xa ya xb yb xc yc xd yd\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "bezier3",
           "package": "typography-geometry",
@@ -189,6 +204,7 @@
         "index": {
           "description": "shortcut to define degree Bezier curves from points If the control points are the function should be called with bezier3 xa ya xb yb xc yc xd yd",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "bezier3",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eCurve",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bottommost point on a curve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "bottom",
           "package": "typography-geometry",
@@ -214,6 +231,7 @@
         "index": {
           "description": "The bottommost point on curve",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "bottom",
           "normalized": "Curve-\u003e(Double,Double)",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "cx",
           "package": "typography-geometry",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "cx",
           "package": "typography-geometry",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "cx0",
           "package": "typography-geometry",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "cx0",
           "package": "typography-geometry",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "cy",
           "package": "typography-geometry",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "cy",
           "package": "typography-geometry",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "cy0",
           "package": "typography-geometry",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "cy0",
           "package": "typography-geometry",
@@ -313,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePseudo-distance from a point to a curve. Is the result is\n smaller than 1, the point is inside the curve. If it is greater\n than 1, the point is outside. Else we don't know (as usual with\n interval arithmetic).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "distance",
           "package": "typography-geometry",
@@ -323,6 +350,7 @@
         "index": {
           "description": "Pseudo-distance from point to curve Is the result is smaller than the point is inside the curve If it is greater than the point is outside Else we don know as usual with interval arithmetic",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "distance",
           "normalized": "Interval-\u003eInterval-\u003eCurve-\u003eInterval",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives the point corresponding to the given value of the parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "evalCurve",
           "package": "typography-geometry",
@@ -348,6 +377,7 @@
         "index": {
           "description": "Gives the point corresponding to the given value of the parameter",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "evalCurve",
           "normalized": "Curve-\u003eInterval-\u003e(Interval,Interval)",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003einter\u003c/a\u003e\u003c/code\u003e c0 c1\u003c/code\u003e is a list of all possible points of intersection\n between curves \u003ccode\u003ec0\u003c/code\u003e and \u003ccode\u003ec1\u003c/code\u003e : if \u003ccode\u003e(u,v,w,x)\u003c/code\u003e is returned by \u003ccode\u003e\u003ca\u003einter\u003c/a\u003e\u003c/code\u003e,\n then curve \u003ccode\u003ec0\u003c/code\u003e may intersect with \u003ccode\u003ec1\u003c/code\u003e between parameter values \u003ccode\u003eu\u003c/code\u003e\n and \u003ccode\u003ev\u003c/code\u003e, which corresponds to parameter values between \u003ccode\u003ew\u003c/code\u003e and \u003ccode\u003ex\u003c/code\u003e for\n \u003ccode\u003ec1\u003c/code\u003e. The implementation guarantees that all actual solutions are found,\n but possibly false solutions may also be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "inter",
           "package": "typography-geometry",
@@ -374,6 +405,7 @@
         "index": {
           "description": "inter c0 c1 is list of all possible points of intersection between curves c0 and c1 if is returned by inter then curve c0 may intersect with c1 between parameter values and which corresponds to parameter values between and for c1 The implementation guarantees that all actual solutions are found but possibly false solutions may also be returned",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "inter",
           "normalized": "Curve-\u003eCurve-\u003e[(Double,Double,Double,Double)]",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe leftmost point on a curve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "left",
           "package": "typography-geometry",
@@ -399,6 +432,7 @@
         "index": {
           "description": "The leftmost point on curve",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "left",
           "normalized": "Curve-\u003e(Double,Double)",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic constructor for lines : a line is a degree 1 Bezier curve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "line",
           "package": "typography-geometry",
@@ -424,6 +459,7 @@
         "index": {
           "description": "The basic constructor for lines line is degree Bezier curve",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "line",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eCurve",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "matrix",
           "package": "typography-geometry",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "matrix",
           "package": "typography-geometry",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffsets a given Bezier curve with the given pen matrix. The original\n pen is a circle of radius one, the matrix, if inversible, is applied to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "offset",
           "package": "typography-geometry",
@@ -470,6 +509,7 @@
         "index": {
           "description": "Offsets given Bezier curve with the given pen matrix The original pen is circle of radius one the matrix if inversible is applied to it",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "offset",
           "normalized": "Matrix Double-\u003eCurve-\u003e[Curve]",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rightmost point on a curve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "right",
           "package": "typography-geometry",
@@ -495,6 +536,7 @@
         "index": {
           "description": "The rightmost point on curve",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "right",
           "normalized": "Curve-\u003e(Double,Double)",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "t0",
           "package": "typography-geometry",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "t0",
           "package": "typography-geometry",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "t1",
           "package": "typography-geometry",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "t1",
           "package": "typography-geometry",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe topmost point on a curve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "top",
           "package": "typography-geometry",
@@ -562,6 +609,7 @@
         "index": {
           "description": "The topmost point on curve",
           "hierarchy": "Graphics Typography Geometry Bezier",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Bezier",
           "name": "top",
           "normalized": "Curve-\u003e(Double,Double)",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the necessary calls to the other modules of Metafont'\n to compute the outlines of a given number of pen strokes. The normal way of\n using it is by calling \u003ccode\u003e\u003ca\u003eoutlines\u003c/a\u003e\u003c/code\u003e. One other possible way would be :\n\u003c/p\u003e\u003cpre\u003e\n let curves=cutAll curvesList in\n remerge $ contour curves $ intersections curves\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "Outlines",
           "package": "typography-geometry",
@@ -586,6 +635,7 @@
         "index": {
           "description": "This module contains the necessary calls to the other modules of Metafont to compute the outlines of given number of pen strokes The normal way of using it is by calling outlines One other possible way would be let curves cutAll curvesList in remerge contour curves intersections curves",
           "hierarchy": "Graphics Typography Geometry Outlines",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "Outlines",
           "package": "typography-geometry",
@@ -600,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003econtour\u003c/a\u003e\u003c/code\u003e takes the curves and the intersections computed as in \u003ccode\u003e\u003ca\u003eintersections\u003c/a\u003e\u003c/code\u003e,\n and outputs a list of all simple closed paths defined by the curves in the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "contour",
           "package": "typography-geometry",
@@ -610,6 +661,7 @@
         "index": {
           "description": "contour takes the curves and the intersections computed as in intersections and outputs list of all simple closed paths defined by the curves in the input",
           "hierarchy": "Graphics Typography Geometry Outlines",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "contour",
           "normalized": "Vector(Vector Curve)-\u003eMap(Int,Int,Double)[(Int,Int,Double,Double)]-\u003e[[(Int,Int,Double,Double)]]",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ecutAll\u003c/a\u003e\u003c/code\u003e curves\u003c/code\u003e is the array of all the curves, cut such that\n each part does not intersect itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "cutAll",
           "package": "typography-geometry",
@@ -635,6 +688,7 @@
         "index": {
           "description": "cutAll curves is the array of all the curves cut such that each part does not intersect itself",
           "hierarchy": "Graphics Typography Geometry Outlines",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "cutAll",
           "normalized": "[[Curve]]-\u003eVector(Vector Curve)",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the intersections between any pair of curves given\n as input, in parallel in GHC using \u003ccode\u003e+RTS -N\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "intersections",
           "package": "typography-geometry",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Computes the intersections between any pair of curves given as input in parallel in GHC using RTS",
           "hierarchy": "Graphics Typography Geometry Outlines",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "intersections",
           "normalized": "Vector(Vector Curve)-\u003eMap(Int,Int,Double)[(Int,Int,Double,Double)]",
@@ -676,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of curves, potentially offset, and outputs the relevants part\n of the outlines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "outlines",
           "package": "typography-geometry",
@@ -686,6 +743,7 @@
         "index": {
           "description": "Takes list of curves potentially offset and outputs the relevants part of the outlines",
           "hierarchy": "Graphics Typography Geometry Outlines",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "outlines",
           "normalized": "[[Curve]]-\u003e[[Curve]]",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eremerge\u003c/a\u003e\u003c/code\u003e takes the curves, the output of \u003ccode\u003e\u003ca\u003econtour\u003c/a\u003e\u003c/code\u003e, and outputs\n the list of \u003ca\u003eremerged\u003c/a\u003e curves, i.e. where the parts free of self-intersections\n are glued back to each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "remerge",
           "package": "typography-geometry",
@@ -711,6 +770,7 @@
         "index": {
           "description": "remerge takes the curves the output of contour and outputs the list of remerged curves i.e where the parts free of self-intersections are glued back to each other",
           "hierarchy": "Graphics Typography Geometry Outlines",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry.Outlines",
           "name": "remerge",
           "normalized": "Vector(Vector Curve)-\u003e[(Int,Int,Double,Double)]-\u003e[Curve]",
@@ -726,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains basic tools for geometric types and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "Geometry",
           "package": "typography-geometry",
@@ -735,6 +796,7 @@
         "index": {
           "description": "This module contains basic tools for geometric types and functions",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "Geometry",
           "package": "typography-geometry",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for applying geometric applications to objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "Geometric",
           "package": "typography-geometry",
@@ -758,6 +821,7 @@
         "index": {
           "description": "class for applying geometric applications to objects",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "Geometric",
           "package": "typography-geometry",
@@ -772,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the transformation matrices used in all geometrical applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "Matrix2",
           "package": "typography-geometry",
@@ -781,6 +846,7 @@
         "index": {
           "description": "The type of the transformation matrices used in all geometrical applications",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "Matrix2",
           "package": "typography-geometry",
@@ -795,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe application of \u003ccode\u003eMatrix2 a b c d\u003c/code\u003e to vector \u003ccode\u003e(x,y)\u003c/code\u003e should be\n \u003ccode\u003e(ax+by,cx+dy)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "Matrix2",
           "package": "typography-geometry",
@@ -805,6 +872,7 @@
         "index": {
           "description": "The application of Matrix2 to vector should be ax by cx dy",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "Matrix2",
           "package": "typography-geometry",
@@ -818,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "apply",
           "package": "typography-geometry",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "apply",
           "normalized": "Matrix Double-\u003ea-\u003ea",
@@ -842,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ebottomMost\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e is the lower point between \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "bottomMost",
           "package": "typography-geometry",
@@ -852,6 +923,7 @@
         "index": {
           "description": "bottomMost is the lower point between and",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "bottomMost",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)",
@@ -868,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverses an inversible matrix. If it is not inversible,\n The behaviour is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "inverse",
           "package": "typography-geometry",
@@ -878,6 +951,7 @@
         "index": {
           "description": "Inverses an inversible matrix If it is not inversible The behaviour is undefined",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "inverse",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -893,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eleftMost\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e is the leftmost point between \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "leftMost",
           "package": "typography-geometry",
@@ -903,6 +978,7 @@
         "index": {
           "description": "leftMost is the leftmost point between and",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "leftMost",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)",
@@ -919,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erightMost\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e is the rightmost point between \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "rightMost",
           "package": "typography-geometry",
@@ -929,6 +1006,7 @@
         "index": {
           "description": "rightMost is the rightmost point between and",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "rightMost",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)",
@@ -945,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe matrix of a rotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "rotation",
           "package": "typography-geometry",
@@ -955,6 +1034,7 @@
         "index": {
           "description": "The matrix of rotation",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "rotation",
           "normalized": "a-\u003eMatrix a",
@@ -970,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etopMost\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e is the upper point between \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "topMost",
           "package": "typography-geometry",
@@ -980,6 +1061,7 @@
         "index": {
           "description": "topMost is the upper point between and",
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "topMost",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)",
@@ -995,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:23 UTC 2014",
           "module": "Graphics.Typography.Geometry",
           "name": "translate",
           "package": "typography-geometry",
@@ -1004,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Graphics Typography Geometry",
+          "indexed": "2014-03-11T20:28:23",
           "module": "Graphics.Typography.Geometry",
           "name": "translate",
           "normalized": "Double-\u003eDouble-\u003ea-\u003ea",

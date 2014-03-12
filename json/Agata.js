@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Agata"
+        "phrase": "Agata",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "Base",
           "package": "Agata",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "Base",
           "package": "Agata",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "Buildable",
           "package": "Agata",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "Buildable",
           "package": "Agata",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "Builder",
           "package": "Agata",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "Builder",
           "package": "Agata",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "($\u003e)",
           "package": "Agata",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "($\u003e) $\u003e",
           "normalized": "a-\u003e(Application b a-\u003eApplication b b)-\u003e[Builder b]",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "(*\u003e)",
           "package": "Agata",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "(*\u003e) *\u003e",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right Kleisli composition of monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "(\u003e=\u003e)",
           "package": "Agata",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Left-to-right Kleisli composition of monads",
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "(\u003e=\u003e) \u003e=\u003e",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "(.\u003e)",
           "package": "Agata",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "(.\u003e) .\u003e",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "agata",
           "package": "Agata",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "agata",
           "package": "Agata",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "agataEnum",
           "package": "Agata",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "agataEnum",
           "normalized": "Int-\u003e(Integer,[a])",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "agataSC",
           "package": "Agata",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "agataSC",
           "normalized": "Int-\u003e[a]",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "agataWith",
           "package": "Agata",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "agataWith",
           "normalized": "Strategy a-\u003eGen a",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "automutrec",
           "package": "Agata",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "automutrec",
           "normalized": "Application a(b-\u003ec)-\u003eApplication a c",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "autorec",
           "package": "Agata",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "autorec",
           "normalized": "Application a(b-\u003ec)-\u003eApplication a c",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "build",
           "package": "Agata",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "build",
           "normalized": "[Builder a]",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "construct",
           "package": "Agata",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "construct",
           "normalized": "a-\u003e(Application b a-\u003eApplication b b)-\u003eBuilder b",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "dimension",
           "package": "Agata",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "dimension",
           "package": "Agata",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "graft",
           "package": "Agata",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "graft",
           "normalized": "Gen a-\u003e(Int-\u003e(Integer,[a]))-\u003e[Builder a]",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "improve",
           "package": "Agata",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "improve",
           "normalized": "a-\u003eImproving a",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "inline",
           "package": "Agata",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "inline",
           "normalized": "(a-\u003eb)-\u003e[Builder b]",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "mutrec",
           "package": "Agata",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "mutrec",
           "normalized": "Application a(b-\u003ec)-\u003eApplication a c",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "nonrec",
           "package": "Agata",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "nonrec",
           "normalized": "Application a(b-\u003ec)-\u003eApplication a c",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "rb",
           "package": "Agata",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "rb",
           "normalized": "a-\u003e(a-\u003eb)-\u003eImproving b",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "rebuild",
           "package": "Agata",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "rebuild",
           "normalized": "a-\u003e(a-\u003eImproving b)-\u003eImproving b",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "rec",
           "package": "Agata",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "rec",
           "normalized": "Application a(a-\u003eb)-\u003eApplication a b",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Base",
           "name": "use",
           "package": "Agata",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Base",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Base",
           "name": "use",
           "normalized": "a-\u003e[Builder a]",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "Common",
           "package": "Agata",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "Common",
           "package": "Agata",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "Dimension",
           "package": "Agata",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "Dimension",
           "package": "Agata",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "Improving",
           "package": "Agata",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "Improving",
           "package": "Agata",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "acquire",
           "package": "Agata",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "acquire",
           "package": "Agata",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "currentDimension",
           "package": "Agata",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "currentDimension",
           "package": "Agata",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "permute",
           "package": "Agata",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "permute",
           "normalized": "[a]-\u003eGen[a]",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "piles",
           "package": "Agata",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "piles",
           "normalized": "a-\u003ea-\u003eGen[a]",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "request",
           "package": "Agata",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "request",
           "normalized": "Improving()",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Common",
           "name": "taggedWith",
           "package": "Agata",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Common",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Common",
           "name": "taggedWith",
           "normalized": "Tagged a b-\u003ea-\u003eTagged a b",
@@ -786,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Instances",
           "name": "Instances",
           "package": "Agata",
@@ -794,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Instances",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Instances",
           "name": "Instances",
           "package": "Agata",
@@ -807,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "Strategies",
           "package": "Agata",
@@ -815,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "Strategies",
           "package": "Agata",
@@ -828,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "Strategy",
           "package": "Agata",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "Strategy",
           "package": "Agata",
@@ -849,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "exponentialSize",
           "package": "Agata",
@@ -858,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "exponentialSize",
           "package": "Agata",
@@ -871,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "fixedSize",
           "package": "Agata",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "fixedSize",
           "package": "Agata",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "linearSize",
           "package": "Agata",
@@ -902,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "linearSize",
           "package": "Agata",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "linearSize'",
           "package": "Agata",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "linearSize'",
           "package": "Agata",
@@ -937,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "listStrategy",
           "package": "Agata",
@@ -946,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "listStrategy",
           "normalized": "(Int-\u003eDimension a-\u003eGen[Int])-\u003eStrategy a",
@@ -961,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "partitions",
           "package": "Agata",
@@ -970,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "partitions",
           "package": "Agata",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "quadraticSize",
           "package": "Agata",
@@ -991,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "quadraticSize",
           "package": "Agata",
@@ -1004,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "quadraticSize'",
           "package": "Agata",
@@ -1013,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "quadraticSize'",
           "package": "Agata",
@@ -1026,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata.Strategies",
           "name": "randomStrategy",
           "package": "Agata",
@@ -1035,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Test Agata Strategies",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata.Strategies",
           "name": "randomStrategy",
           "normalized": "[Strategy a]-\u003eStrategy a",
@@ -1050,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.Agata",
           "name": "Agata",
           "package": "Agata",
@@ -1058,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Test Agata",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.Agata",
           "name": "Agata",
           "package": "Agata",
@@ -1071,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "AgataTH",
           "package": "Agata",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "AgataTH",
           "package": "Agata",
@@ -1092,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "DerivOption",
           "package": "Agata",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "DerivOption",
           "package": "Agata",
@@ -1113,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "(\u003c++\u003e)",
           "package": "Agata",
@@ -1122,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "Derivation-\u003eDerivOption-\u003eDerivation",
@@ -1136,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "Inline",
           "package": "Agata",
@@ -1145,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "Inline",
           "package": "Agata",
@@ -1158,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "NoArbitrary",
           "package": "Agata",
@@ -1167,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "NoArbitrary",
           "package": "Agata",
@@ -1180,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "agatath",
           "package": "Agata",
@@ -1189,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "agatath",
           "normalized": "Derivation-\u003eQ[Dec]",
@@ -1203,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "derive",
           "package": "Agata",
@@ -1212,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "derive",
           "normalized": "Name-\u003eDerivation",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "deriveall",
           "package": "Agata",
@@ -1235,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "deriveall",
           "normalized": "[Name]-\u003eDerivation",
@@ -1249,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:58 UTC 2014",
           "module": "Test.AgataTH",
           "name": "echoAgata",
           "package": "Agata",
@@ -1258,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Test AgataTH",
+          "indexed": "2014-03-11T16:32:58",
           "module": "Test.AgataTH",
           "name": "echoAgata",
           "normalized": "String-\u003eName-\u003eQ[Dec]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MonadCatchIO-mtl-foreign"
+        "phrase": "MonadCatchIO-mtl-foreign",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module assumes that you are familiar with the funcitons\n  of the same name in Foreign.Marshall.Alloc, Foreign.Marshal.AllocArray\n  and in Foreign.ForeignPtr.\n\u003c/p\u003e\u003cp\u003eThe functions are generalized to work in any monad which is an\n  instance of MonadCatchIO.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:53:08 UTC 2014",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "Foreign",
           "package": "MonadCatchIO-mtl-foreign",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module assumes that you are familiar with the funcitons of the same name in Foreign.Marshall.Alloc Foreign.Marshal.AllocArray and in Foreign.ForeignPtr The functions are generalized to work in any monad which is an instance of MonadCatchIO",
           "hierarchy": "Control Monad CatchIO Foreign",
+          "indexed": "2014-03-11T16:53:08",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "Foreign",
           "package": "MonadCatchIO-mtl-foreign",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:08 UTC 2014",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "alloca",
           "package": "MonadCatchIO-mtl-foreign",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CatchIO Foreign",
+          "indexed": "2014-03-11T16:53:08",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "alloca",
           "normalized": "(Ptr a-\u003eb c)-\u003eb c",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:08 UTC 2014",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "allocaArray",
           "package": "MonadCatchIO-mtl-foreign",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CatchIO Foreign",
+          "indexed": "2014-03-11T16:53:08",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "allocaArray",
           "normalized": "Int-\u003e(Ptr a-\u003eb c)-\u003eb c",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:08 UTC 2014",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "allocaArray0",
           "package": "MonadCatchIO-mtl-foreign",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CatchIO Foreign",
+          "indexed": "2014-03-11T16:53:08",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "allocaArray0",
           "normalized": "Int-\u003e(Ptr a-\u003eb c)-\u003eb c",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:08 UTC 2014",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "allocaBytes",
           "package": "MonadCatchIO-mtl-foreign",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CatchIO Foreign",
+          "indexed": "2014-03-11T16:53:08",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "allocaBytes",
           "normalized": "Int-\u003e(Ptr a-\u003eb c)-\u003eb c",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:08 UTC 2014",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "withForeignPtr",
           "package": "MonadCatchIO-mtl-foreign",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CatchIO Foreign",
+          "indexed": "2014-03-11T16:53:08",
           "module": "Control.Monad.CatchIO.Foreign",
           "name": "withForeignPtr",
           "normalized": "ForeignPtr a-\u003e(Ptr a-\u003eb c)-\u003eb c",

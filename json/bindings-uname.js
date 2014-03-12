@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-uname"
+        "phrase": "bindings-uname",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:54 UTC 2014",
           "module": "Bindings.Uname",
           "name": "Uname",
           "package": "bindings-uname",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings Uname",
+          "indexed": "2014-03-11T17:21:54",
           "module": "Bindings.Uname",
           "name": "Uname",
           "package": "bindings-uname",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:54 UTC 2014",
           "module": "Bindings.Uname",
           "name": "Utsname",
           "package": "bindings-uname",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bindings Uname",
+          "indexed": "2014-03-11T17:21:54",
           "module": "Bindings.Uname",
           "name": "Utsname",
           "package": "bindings-uname",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:54 UTC 2014",
           "module": "Bindings.Uname",
           "name": "machine",
           "package": "bindings-uname",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Bindings Uname",
+          "indexed": "2014-03-11T17:21:54",
           "module": "Bindings.Uname",
           "name": "machine",
           "normalized": "Ptr Utsname-\u003eCString",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:54 UTC 2014",
           "module": "Bindings.Uname",
           "name": "nodename",
           "package": "bindings-uname",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Bindings Uname",
+          "indexed": "2014-03-11T17:21:54",
           "module": "Bindings.Uname",
           "name": "nodename",
           "normalized": "Ptr Utsname-\u003eCString",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:54 UTC 2014",
           "module": "Bindings.Uname",
           "name": "release",
           "package": "bindings-uname",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Bindings Uname",
+          "indexed": "2014-03-11T17:21:54",
           "module": "Bindings.Uname",
           "name": "release",
           "normalized": "Ptr Utsname-\u003eCString",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:54 UTC 2014",
           "module": "Bindings.Uname",
           "name": "sysname",
           "package": "bindings-uname",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Bindings Uname",
+          "indexed": "2014-03-11T17:21:54",
           "module": "Bindings.Uname",
           "name": "sysname",
           "normalized": "Ptr Utsname-\u003eCString",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003euname\u003c/a\u003e\u003c/code\u003e name\u003c/code\u003e stores nul-terminated strings of information\n   identifying the current system info to the structure referenced\n   by name.\n\u003c/p\u003e\u003cpre\u003e import Foreign.C\n import Foreign.Marshal\n\n sysName :: IO String\n sysName = alloca $ \\ ptr -\u003e\n           do throwErrnoIfMinus1_ \"uname\" $ uname ptr\n              peekCString $ sysname ptr\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:21:54 UTC 2014",
           "module": "Bindings.Uname",
           "name": "uname",
           "package": "bindings-uname",
@@ -163,6 +176,7 @@
         "index": {
           "description": "uname name stores nul-terminated strings of information identifying the current system info to the structure referenced by name import Foreign.C import Foreign.Marshal sysName IO String sysName alloca ptr do throwErrnoIfMinus1 uname uname ptr peekCString sysname ptr",
           "hierarchy": "Bindings Uname",
+          "indexed": "2014-03-11T17:21:54",
           "module": "Bindings.Uname",
           "name": "uname",
           "normalized": "Ptr Utsname-\u003eIO CInt",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:54 UTC 2014",
           "module": "Bindings.Uname",
           "name": "version",
           "package": "bindings-uname",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Bindings Uname",
+          "indexed": "2014-03-11T17:21:54",
           "module": "Bindings.Uname",
           "name": "version",
           "normalized": "Ptr Utsname-\u003eCString",

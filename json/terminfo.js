@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "terminfo"
+        "phrase": "terminfo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a low-level interface to the C functions of the \n terminfo library. \n\u003c/p\u003e\u003cp\u003eNOTE: Since this library is built on top of the curses interface, it is not thread-safe.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "Base",
           "package": "terminfo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides low-level interface to the functions of the terminfo library NOTE Since this library is built on top of the curses interface it is not thread-safe",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "Base",
           "package": "terminfo",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA feature or operation which a \u003ccode\u003e\u003ca\u003eTerminal\u003c/a\u003e\u003c/code\u003e may define.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "Capability",
           "package": "terminfo",
@@ -51,6 +54,7 @@
         "index": {
           "description": "feature or operation which Terminal may define",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "Capability",
           "package": "terminfo",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter to specify the number of lines affected.  Some capabilities\n (e.g., \u003ccode\u003eclear\u003c/code\u003e and \u003ccode\u003edch1\u003c/code\u003e) use\n this parameter on some terminals to compute variable-length padding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "LinesAffected",
           "package": "terminfo",
@@ -74,6 +79,7 @@
         "index": {
           "description": "parameter to specify the number of lines affected Some capabilities e.g clear and dch1 use this parameter on some terminals to compute variable-length padding",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "LinesAffected",
           "package": "terminfo",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monoids (types with an associative binary operation that\n has an identity).  Instances should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emappend mempty x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x mempty = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x (mappend y z) = mappend (mappend x y) z\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emconcat = \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e mappend mempty\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe method names refer to the monoid of lists under concatenation,\n but there are many other instances.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome types can be viewed as a monoid in more than one way,\n e.g. both addition and multiplication on numbers.\n In such cases we often define \u003ccode\u003enewtype\u003c/code\u003es and make those instances\n of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eProduct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "Monoid",
           "package": "terminfo",
@@ -96,6 +103,7 @@
         "index": {
           "description": "The class of monoids types with an associative binary operation that has an identity Instances should satisfy the following laws mappend mempty mappend mempty mappend mappend mappend mappend mconcat foldr mappend mempty The method names refer to the monoid of lists under concatenation but there are many other instances Minimal complete definition mempty and mappend Some types can be viewed as monoid in more than one way e.g both addition and multiplication on numbers In such cases we often define newtype and make those instances of Monoid e.g Sum and Product",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "Monoid",
           "package": "terminfo",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "OutputCap",
           "package": "terminfo",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "OutputCap",
           "package": "terminfo",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "SetupTermError",
           "package": "terminfo",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "SetupTermError",
           "package": "terminfo",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action which sends output to the terminal.  That output may mix plain text with control\n characters and escape sequences, along with delays (called \"padding\") required by some older\n terminals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "TermOutput",
           "package": "terminfo",
@@ -161,6 +174,7 @@
         "index": {
           "description": "An action which sends output to the terminal That output may mix plain text with control characters and escape sequences along with delays called padding required by some older terminals",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "TermOutput",
           "package": "terminfo",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "TermStr",
           "package": "terminfo",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "TermStr",
           "package": "terminfo",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "Terminal",
           "package": "terminfo",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "Terminal",
           "package": "terminfo",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operator version of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "(\u003c#\u003e)",
           "package": "terminfo",
@@ -227,6 +246,7 @@
         "index": {
           "description": "An operator version of mappend",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "(\u003c#\u003e) \u003c#\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "getCapability",
           "package": "terminfo",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "getCapability",
           "normalized": "Terminal-\u003eCapability a-\u003eMaybe a",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the terminal output to the terminal or file managed by the given\n \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "hRunTermOutput",
           "package": "terminfo",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Write the terminal output to the terminal or file managed by the given Handle",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "hRunTermOutput",
           "normalized": "Handle-\u003eTerminal-\u003eTermOutput-\u003eIO()",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "mappend",
           "package": "terminfo",
@@ -301,6 +326,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "mconcat",
           "package": "terminfo",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "mempty",
           "package": "terminfo",
@@ -349,6 +378,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "mempty",
           "package": "terminfo",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the terminal output to the standard output device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "runTermOutput",
           "package": "terminfo",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Write the terminal output to the standard output device",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "runTermOutput",
           "normalized": "Terminal-\u003eTermOutput-\u003eIO()",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the terminfo library to the given terminal entry.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eSetupTermError\u003c/a\u003e\u003c/code\u003e if the terminfo database could not be read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "setupTerm",
           "package": "terminfo",
@@ -398,6 +431,7 @@
         "index": {
           "description": "Initialize the terminfo library to the given terminal entry Throws SetupTermError if the terminfo database could not be read",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "setupTerm",
           "normalized": "String-\u003eIO Terminal",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the terminfo library, using the \u003ccode\u003eTERM\u003c/code\u003e environmental variable.\n If \u003ccode\u003eTERM\u003c/code\u003e is not set, we use the generic, minimal entry \u003ccode\u003edumb\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eSetupTermError\u003c/a\u003e\u003c/code\u003e if the terminfo database could not be read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "setupTermFromEnv",
           "package": "terminfo",
@@ -424,6 +459,7 @@
         "index": {
           "description": "Initialize the terminfo library using the TERM environmental variable If TERM is not set we use the generic minimal entry dumb Throws SetupTermError if the terminfo database could not be read",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "setupTermFromEnv",
           "package": "terminfo",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "termText",
           "package": "terminfo",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "termText",
           "normalized": "String-\u003eTermOutput",
@@ -462,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a boolean capability in the terminfo database.  \n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003etiGuardFlag\u003c/a\u003e\u003c/code\u003e, this capability never fails; it returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if the\n capability is absent or set to false, and returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e otherwise.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetFlag",
           "package": "terminfo",
@@ -472,6 +511,7 @@
         "index": {
           "description": "Look up boolean capability in the terminfo database Unlike tiGuardFlag this capability never fails it returns False if the capability is absent or set to false and returns True otherwise",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetFlag",
           "normalized": "String-\u003eCapability Bool",
@@ -488,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a numeric capability in the terminfo database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetNum",
           "package": "terminfo",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Look up numeric capability in the terminfo database",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetNum",
           "normalized": "String-\u003eCapability Int",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up an output capability in the terminfo database.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetOutput",
           "package": "terminfo",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Look up an output capability in the terminfo database",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetOutput",
           "normalized": "String-\u003eCapability([Int]-\u003eLinesAffected-\u003eTermOutput)",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up an output capability which takes a fixed number of parameters\n (for example, \u003ccode\u003eInt -\u003e Int -\u003e TermOutput\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eFor capabilities which may contain variable-length\n padding, use \u003ccode\u003e\u003ca\u003etiGetOutput\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetOutput1",
           "package": "terminfo",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Look up an output capability which takes fixed number of parameters for example Int Int TermOutput For capabilities which may contain variable-length padding use tiGetOutput instead",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetOutput1",
           "normalized": "String-\u003eCapability a",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use tiGetOutput instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eLook up a string capability in the terminfo database.  NOTE: This function is deprecated; use\n \u003ccode\u003e\u003ca\u003etiGetOutput1\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetStr",
           "package": "terminfo",
@@ -576,6 +623,7 @@
         "index": {
           "description": "Deprecated use tiGetOutput instead Look up string capability in the terminfo database NOTE This function is deprecated use tiGetOutput1 instead",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGetStr",
           "normalized": "String-\u003eCapability String",
@@ -592,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a boolean capability in the terminfo database, and fail if\n it's not defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGuardFlag",
           "package": "terminfo",
@@ -602,6 +651,7 @@
         "index": {
           "description": "Look up boolean capability in the terminfo database and fail if it not defined",
           "hierarchy": "System Console Terminfo Base",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Base",
           "name": "tiGuardFlag",
           "normalized": "String-\u003eCapability()",
@@ -617,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Color",
           "package": "terminfo",
@@ -625,6 +676,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Color",
           "package": "terminfo",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Color",
           "package": "terminfo",
@@ -646,6 +699,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Color",
           "package": "terminfo",
@@ -659,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Black",
           "package": "terminfo",
@@ -668,6 +723,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Black",
           "package": "terminfo",
@@ -681,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Blue",
           "package": "terminfo",
@@ -690,6 +747,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Blue",
           "package": "terminfo",
@@ -703,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "ColorNumber",
           "package": "terminfo",
@@ -712,6 +771,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "ColorNumber",
           "package": "terminfo",
@@ -725,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Cyan",
           "package": "terminfo",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Cyan",
           "package": "terminfo",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Green",
           "package": "terminfo",
@@ -756,6 +819,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Green",
           "package": "terminfo",
@@ -769,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Magenta",
           "package": "terminfo",
@@ -778,6 +843,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Magenta",
           "package": "terminfo",
@@ -791,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Red",
           "package": "terminfo",
@@ -800,6 +867,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Red",
           "package": "terminfo",
@@ -813,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "White",
           "package": "terminfo",
@@ -822,6 +891,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "White",
           "package": "terminfo",
@@ -835,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "Yellow",
           "package": "terminfo",
@@ -844,6 +915,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "Yellow",
           "package": "terminfo",
@@ -858,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestores foreground/background colors to their original\n settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "restoreDefaultColors",
           "package": "terminfo",
@@ -868,6 +941,7 @@
         "index": {
           "description": "Restores foreground background colors to their original settings",
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "restoreDefaultColors",
           "package": "terminfo",
@@ -882,6 +956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the background color of all further text output, using\n either the \u003ccode\u003esetab\u003c/code\u003e or \u003ccode\u003esetb\u003c/code\u003e capability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "setBackgroundColor",
           "package": "terminfo",
@@ -892,6 +967,7 @@
         "index": {
           "description": "Sets the background color of all further text output using either the setab or setb capability",
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "setBackgroundColor",
           "normalized": "Capability(Color-\u003ea)",
@@ -908,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the foreground color of all further text output, using\n either the \u003ccode\u003esetaf\u003c/code\u003e or \u003ccode\u003esetf\u003c/code\u003e capability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "setForegroundColor",
           "package": "terminfo",
@@ -918,6 +995,7 @@
         "index": {
           "description": "Sets the foreground color of all further text output using either the setaf or setf capability",
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "setForegroundColor",
           "normalized": "Capability(Color-\u003ea)",
@@ -934,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum number of of colors on the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "termColors",
           "package": "terminfo",
@@ -944,6 +1023,7 @@
         "index": {
           "description": "The maximum number of of colors on the screen",
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "termColors",
           "package": "terminfo",
@@ -958,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis capability temporarily sets the\n terminal's background color while outputting the given text, and\n then restores the terminal to its default foreground and background\n colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "withBackgroundColor",
           "package": "terminfo",
@@ -968,6 +1049,7 @@
         "index": {
           "description": "This capability temporarily sets the terminal background color while outputting the given text and then restores the terminal to its default foreground and background colors",
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "withBackgroundColor",
           "normalized": "Capability(Color-\u003ea-\u003ea)",
@@ -984,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis capability temporarily sets the\n terminal's foreground color while outputting the given text, and\n then restores the terminal to its default foreground and background\n colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Color",
           "name": "withForegroundColor",
           "package": "terminfo",
@@ -994,6 +1077,7 @@
         "index": {
           "description": "This capability temporarily sets the terminal foreground color while outputting the given text and then restores the terminal to its default foreground and background colors",
           "hierarchy": "System Console Terminfo Color",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Color",
           "name": "withForegroundColor",
           "normalized": "Capability(Color-\u003ea-\u003ea)",
@@ -1010,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides capabilities for moving the cursor on the terminal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "Cursor",
           "package": "terminfo",
@@ -1019,6 +1104,7 @@
         "index": {
           "description": "This module provides capabilities for moving the cursor on the terminal",
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "Cursor",
           "package": "terminfo",
@@ -1032,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "Point",
           "package": "terminfo",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "Point",
           "package": "terminfo",
@@ -1053,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "Point",
           "package": "terminfo",
@@ -1062,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "Point",
           "package": "terminfo",
@@ -1076,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis flag specifies that a backspace at column 0 wraps the cursor to\n the last column of the previous line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "autoLeftMargin",
           "package": "terminfo",
@@ -1086,6 +1177,7 @@
         "index": {
           "description": "This flag specifies that backspace at column wraps the cursor to the last column of the previous line",
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "autoLeftMargin",
           "package": "terminfo",
@@ -1100,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis flag specifies that the cursor wraps automatically from the last \n column of one line to the first column of the next.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "autoRightMargin",
           "package": "terminfo",
@@ -1110,6 +1203,7 @@
         "index": {
           "description": "This flag specifies that the cursor wraps automatically from the last column of one line to the first column of the next",
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "autoRightMargin",
           "package": "terminfo",
@@ -1124,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ecr\u003c/code\u003e capability, which moves the cursor to the first column of the\n current line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "carriageReturn",
           "package": "terminfo",
@@ -1134,6 +1229,7 @@
         "index": {
           "description": "The cr capability which moves the cursor to the first column of the current line",
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "carriageReturn",
           "package": "terminfo",
@@ -1147,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "col",
           "package": "terminfo",
@@ -1156,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "col",
           "package": "terminfo",
@@ -1168,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "columnAddress",
           "package": "terminfo",
@@ -1177,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "columnAddress",
           "normalized": "Capability(Int-\u003ea)",
@@ -1192,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorAddress",
           "package": "terminfo",
@@ -1201,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorAddress",
           "normalized": "Capability(Point-\u003ea)",
@@ -1216,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorDown",
           "package": "terminfo",
@@ -1225,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorDown",
           "normalized": "Capability(Int-\u003ea)",
@@ -1240,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorDown1",
           "package": "terminfo",
@@ -1249,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorDown1",
           "package": "terminfo",
@@ -1262,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorHome",
           "package": "terminfo",
@@ -1271,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorHome",
           "package": "terminfo",
@@ -1284,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorLeft",
           "package": "terminfo",
@@ -1293,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorLeft",
           "normalized": "Capability(Int-\u003ea)",
@@ -1308,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorLeft1",
           "package": "terminfo",
@@ -1317,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorLeft1",
           "package": "terminfo",
@@ -1330,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorRight",
           "package": "terminfo",
@@ -1339,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorRight",
           "normalized": "Capability(Int-\u003ea)",
@@ -1354,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorRight1",
           "package": "terminfo",
@@ -1363,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorRight1",
           "package": "terminfo",
@@ -1376,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorToLL",
           "package": "terminfo",
@@ -1385,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorToLL",
           "package": "terminfo",
@@ -1398,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorUp",
           "package": "terminfo",
@@ -1407,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorUp",
           "normalized": "Capability(Int-\u003ea)",
@@ -1422,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorUp1",
           "package": "terminfo",
@@ -1431,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "cursorUp1",
           "package": "terminfo",
@@ -1444,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "moveDown",
           "package": "terminfo",
@@ -1453,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "moveDown",
           "normalized": "Capability(Int-\u003ea)",
@@ -1468,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "moveLeft",
           "package": "terminfo",
@@ -1477,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "moveLeft",
           "normalized": "Capability(Int-\u003ea)",
@@ -1492,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "moveRight",
           "package": "terminfo",
@@ -1501,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "moveRight",
           "normalized": "Capability(Int-\u003ea)",
@@ -1516,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "moveUp",
           "package": "terminfo",
@@ -1525,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "moveUp",
           "normalized": "Capability(Int-\u003ea)",
@@ -1541,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003enel\u003c/code\u003e capability, which moves the cursor to the first column of\n the next line.  It behaves like a carriage return followed by a line feed.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003enel\u003c/code\u003e is not defined, this may be built out of other capabilities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "newline",
           "package": "terminfo",
@@ -1551,6 +1682,7 @@
         "index": {
           "description": "The nel capability which moves the cursor to the first column of the next line It behaves like carriage return followed by line feed If nel is not defined this may be built out of other capabilities",
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "newline",
           "package": "terminfo",
@@ -1563,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "row",
           "package": "terminfo",
@@ -1572,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "row",
           "package": "terminfo",
@@ -1584,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "rowAddress",
           "package": "terminfo",
@@ -1593,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "rowAddress",
           "normalized": "Capability(Int-\u003ea)",
@@ -1608,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "scrollForward",
           "package": "terminfo",
@@ -1617,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "scrollForward",
           "package": "terminfo",
@@ -1630,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "scrollReverse",
           "package": "terminfo",
@@ -1639,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "scrollReverse",
           "package": "terminfo",
@@ -1652,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "termColumns",
           "package": "terminfo",
@@ -1661,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "termColumns",
           "package": "terminfo",
@@ -1674,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "termLines",
           "package": "terminfo",
@@ -1683,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "termLines",
           "package": "terminfo",
@@ -1697,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis flag specifies that the terminal does not perform\n \u003ccode\u003e\u003ca\u003eautoRightMargin\u003c/a\u003e\u003c/code\u003e-style wrapping when the character which would cause the \n wraparound is a control character.\n This is also known as the \"newline glitch\" or \"magic wrap\".  \n\u003c/p\u003e\u003cp\u003eFor example, in an 80-column terminal with this behavior, the following \n will print single-spaced instead of double-spaced:\n\u003c/p\u003e\u003cpre\u003e replicateM_ 5 $ putStr $ replicate 80 'x' ++ \"\\n\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Cursor",
           "name": "wraparoundGlitch",
           "package": "terminfo",
@@ -1707,6 +1852,7 @@
         "index": {
           "description": "This flag specifies that the terminal does not perform autoRightMargin style wrapping when the character which would cause the wraparound is control character This is also known as the newline glitch or magic wrap For example in an column terminal with this behavior the following will print single-spaced instead of double-spaced replicateM putStr replicate",
           "hierarchy": "System Console Terminfo Cursor",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Cursor",
           "name": "wraparoundGlitch",
           "package": "terminfo",
@@ -1720,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Edit",
           "name": "Edit",
           "package": "terminfo",
@@ -1728,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Edit",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Edit",
           "name": "Edit",
           "package": "terminfo",
@@ -1742,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear from beginning of line to cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Edit",
           "name": "clearBOL",
           "package": "terminfo",
@@ -1752,6 +1901,7 @@
         "index": {
           "description": "Clear from beginning of line to cursor",
           "hierarchy": "System Console Terminfo Edit",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Edit",
           "name": "clearBOL",
           "package": "terminfo",
@@ -1766,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear from cursor to end of line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Edit",
           "name": "clearEOL",
           "package": "terminfo",
@@ -1776,6 +1927,7 @@
         "index": {
           "description": "Clear from cursor to end of line",
           "hierarchy": "System Console Terminfo Edit",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Edit",
           "name": "clearEOL",
           "package": "terminfo",
@@ -1790,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear display after cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Edit",
           "name": "clearEOS",
           "package": "terminfo",
@@ -1800,6 +1953,7 @@
         "index": {
           "description": "Clear display after cursor",
           "hierarchy": "System Console Terminfo Edit",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Edit",
           "name": "clearEOS",
           "normalized": "Capability(LinesAffected-\u003eTermOutput)",
@@ -1816,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the screen, and move the cursor to the upper left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Edit",
           "name": "clearScreen",
           "package": "terminfo",
@@ -1826,6 +1981,7 @@
         "index": {
           "description": "Clear the screen and move the cursor to the upper left",
           "hierarchy": "System Console Terminfo Edit",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Edit",
           "name": "clearScreen",
           "normalized": "Capability(LinesAffected-\u003eTermOutput)",
@@ -1841,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "Effects",
           "package": "terminfo",
@@ -1849,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "Effects",
           "package": "terminfo",
@@ -1862,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "Attributes",
           "package": "terminfo",
@@ -1870,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "Attributes",
           "package": "terminfo",
@@ -1883,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "Attributes",
           "package": "terminfo",
@@ -1892,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "Attributes",
           "package": "terminfo",
@@ -1906,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns off all text attributes.  This capability will always succeed, but it has\n no effect in terminals which do not support text attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "allAttributesOff",
           "package": "terminfo",
@@ -1916,6 +2079,7 @@
         "index": {
           "description": "Turns off all text attributes This capability will always succeed but it has no effect in terminals which do not support text attributes",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "allAttributesOff",
           "package": "terminfo",
@@ -1930,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSound the audible bell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "bell",
           "package": "terminfo",
@@ -1940,6 +2105,7 @@
         "index": {
           "description": "Sound the audible bell",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "bell",
           "package": "terminfo",
@@ -1952,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "blinkAttr",
           "package": "terminfo",
@@ -1961,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "blinkAttr",
           "package": "terminfo",
@@ -1974,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "blinkOn",
           "package": "terminfo",
@@ -1983,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "blinkOn",
           "package": "terminfo",
@@ -1996,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "boldAttr",
           "package": "terminfo",
@@ -2005,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "boldAttr",
           "package": "terminfo",
@@ -2018,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "boldOn",
           "package": "terminfo",
@@ -2027,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "boldOn",
           "package": "terminfo",
@@ -2041,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese attributes have all properties turned off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "defaultAttributes",
           "package": "terminfo",
@@ -2051,6 +2226,7 @@
         "index": {
           "description": "These attributes have all properties turned off",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "defaultAttributes",
           "package": "terminfo",
@@ -2064,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "dimAttr",
           "package": "terminfo",
@@ -2073,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "dimAttr",
           "package": "terminfo",
@@ -2086,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "dimOn",
           "package": "terminfo",
@@ -2095,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "dimOn",
           "package": "terminfo",
@@ -2108,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "enterStandoutMode",
           "package": "terminfo",
@@ -2117,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "enterStandoutMode",
           "package": "terminfo",
@@ -2130,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "enterUnderlineMode",
           "package": "terminfo",
@@ -2139,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "enterUnderlineMode",
           "package": "terminfo",
@@ -2152,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "exitStandoutMode",
           "package": "terminfo",
@@ -2161,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "exitStandoutMode",
           "package": "terminfo",
@@ -2174,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "exitUnderlineMode",
           "package": "terminfo",
@@ -2183,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "exitUnderlineMode",
           "package": "terminfo",
@@ -2196,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "invisibleAttr",
           "package": "terminfo",
@@ -2205,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "invisibleAttr",
           "package": "terminfo",
@@ -2218,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "invisibleOn",
           "package": "terminfo",
@@ -2227,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "invisibleOn",
           "package": "terminfo",
@@ -2240,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "protectedAttr",
           "package": "terminfo",
@@ -2249,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "protectedAttr",
           "package": "terminfo",
@@ -2262,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "protectedOn",
           "package": "terminfo",
@@ -2271,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "protectedOn",
           "package": "terminfo",
@@ -2284,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "reverseAttr",
           "package": "terminfo",
@@ -2293,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "reverseAttr",
           "package": "terminfo",
@@ -2306,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "reverseOn",
           "package": "terminfo",
@@ -2315,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "reverseOn",
           "package": "terminfo",
@@ -2329,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the attributes on or off.  This capability will always succeed;\n properties which cannot be set in the current terminal will be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "setAttributes",
           "package": "terminfo",
@@ -2339,6 +2540,7 @@
         "index": {
           "description": "Sets the attributes on or off This capability will always succeed properties which cannot be set in the current terminal will be ignored",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "setAttributes",
           "normalized": "Capability(Attributes-\u003ea)",
@@ -2354,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "standoutAttr",
           "package": "terminfo",
@@ -2363,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "standoutAttr",
           "package": "terminfo",
@@ -2376,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "underlineAttr",
           "package": "terminfo",
@@ -2385,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "underlineAttr",
           "package": "terminfo",
@@ -2399,6 +2605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePresent a visual alert using the \u003ccode\u003eflash\u003c/code\u003e capability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "visualBell",
           "package": "terminfo",
@@ -2409,6 +2616,7 @@
         "index": {
           "description": "Present visual alert using the flash capability",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "visualBell",
           "package": "terminfo",
@@ -2423,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the attributes on or off before outputting the given text,\n and then turns them all off.  This capability will always succeed; properties\n which cannot be set in the current terminal will be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "withAttributes",
           "package": "terminfo",
@@ -2433,6 +2642,7 @@
         "index": {
           "description": "Sets the attributes on or off before outputting the given text and then turns them all off This capability will always succeed properties which cannot be set in the current terminal will be ignored",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "withAttributes",
           "normalized": "Capability(Attributes-\u003ea-\u003ea)",
@@ -2449,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns on bold mode before outputting the given text, and then turns\n all attributes off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "withBold",
           "package": "terminfo",
@@ -2459,6 +2670,7 @@
         "index": {
           "description": "Turns on bold mode before outputting the given text and then turns all attributes off",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "withBold",
           "normalized": "Capability(a-\u003ea)",
@@ -2475,6 +2687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns on standout mode before outputting the given\n text, and then turns it off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "withStandout",
           "package": "terminfo",
@@ -2485,6 +2698,7 @@
         "index": {
           "description": "Turns on standout mode before outputting the given text and then turns it off",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "withStandout",
           "normalized": "Capability(a-\u003ea)",
@@ -2501,6 +2715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns on underline mode before outputting the given\n text, and then turns it off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Effects",
           "name": "withUnderline",
           "package": "terminfo",
@@ -2511,6 +2726,7 @@
         "index": {
           "description": "Turns on underline mode before outputting the given text and then turns it off",
           "hierarchy": "System Console Terminfo Effects",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Effects",
           "name": "withUnderline",
           "normalized": "Capability(a-\u003ea)",
@@ -2527,6 +2743,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe string capabilities in this module are the character sequences\n corresponding to user input such as arrow keys and function keys.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "Keys",
           "package": "terminfo",
@@ -2536,6 +2753,7 @@
         "index": {
           "description": "The string capabilities in this module are the character sequences corresponding to user input such as arrow keys and function keys",
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "Keys",
           "package": "terminfo",
@@ -2550,6 +2768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up the control sequence for a given function sequence.  For example, \n \u003ccode\u003efunctionKey 12\u003c/code\u003e retrieves the \u003ccode\u003ekf12\u003c/code\u003e capability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "functionKey",
           "package": "terminfo",
@@ -2560,6 +2779,7 @@
         "index": {
           "description": "Look up the control sequence for given function sequence For example functionKey retrieves the kf12 capability",
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "functionKey",
           "normalized": "Int-\u003eCapability String",
@@ -2575,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyBackspace",
           "package": "terminfo",
@@ -2584,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyBackspace",
           "package": "terminfo",
@@ -2597,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyDeleteChar",
           "package": "terminfo",
@@ -2606,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyDeleteChar",
           "package": "terminfo",
@@ -2619,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyDown",
           "package": "terminfo",
@@ -2628,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyDown",
           "package": "terminfo",
@@ -2641,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyEnd",
           "package": "terminfo",
@@ -2650,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyEnd",
           "package": "terminfo",
@@ -2663,6 +2891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyEnter",
           "package": "terminfo",
@@ -2672,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyEnter",
           "package": "terminfo",
@@ -2685,6 +2915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyHome",
           "package": "terminfo",
@@ -2694,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyHome",
           "package": "terminfo",
@@ -2707,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyLeft",
           "package": "terminfo",
@@ -2716,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyLeft",
           "package": "terminfo",
@@ -2729,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyPageDown",
           "package": "terminfo",
@@ -2738,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyPageDown",
           "package": "terminfo",
@@ -2751,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyPageUp",
           "package": "terminfo",
@@ -2760,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyPageUp",
           "package": "terminfo",
@@ -2773,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyRight",
           "package": "terminfo",
@@ -2782,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyRight",
           "package": "terminfo",
@@ -2795,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyUp",
           "package": "terminfo",
@@ -2804,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keyUp",
           "package": "terminfo",
@@ -2817,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keypadOff",
           "package": "terminfo",
@@ -2826,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keypadOff",
           "package": "terminfo",
@@ -2839,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo.Keys",
           "name": "keypadOn",
           "package": "terminfo",
@@ -2848,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo Keys",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo.Keys",
           "name": "keypadOn",
           "package": "terminfo",
@@ -2861,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:55 UTC 2014",
           "module": "System.Console.Terminfo",
           "name": "Terminfo",
           "package": "terminfo",
@@ -2869,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo",
+          "indexed": "2014-03-11T20:18:55",
           "module": "System.Console.Terminfo",
           "name": "Terminfo",
           "package": "terminfo",

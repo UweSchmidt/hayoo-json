@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tabloid"
+        "phrase": "tabloid",
+        "type": "phrase"
       },
       "type": "context"
     }

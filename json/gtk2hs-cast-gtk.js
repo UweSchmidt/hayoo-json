@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk2hs-cast-gtk"
+        "phrase": "gtk2hs-cast-gtk",
+        "type": "phrase"
       },
       "type": "context"
     }

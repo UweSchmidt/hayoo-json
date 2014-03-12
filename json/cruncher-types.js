@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cruncher-types"
+        "phrase": "cruncher-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe highest level of a response that Cruncher deals with. Contains only the\n final result of a sandbox run, including compilation and execution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "FinalResult",
           "package": "cruncher-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The highest level of response that Cruncher deals with Contains only the final result of sandbox run including compilation and execution",
           "hierarchy": "Evalso Cruncher FinalResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "FinalResult",
           "package": "cruncher-types",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe final result for a given request.\n\u003c/p\u003e\u003cp\u003eThis data type also handles error handling, in the form of types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "FinalResult",
           "package": "cruncher-types",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The final result for given request This data type also handles error handling in the form of types",
           "hierarchy": "Evalso Cruncher FinalResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "FinalResult",
           "package": "cruncher-types",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "FinalResult",
           "package": "cruncher-types",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher FinalResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "FinalResult",
           "package": "cruncher-types",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "NoSuchLanguage",
           "package": "cruncher-types",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher FinalResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "NoSuchLanguage",
           "package": "cruncher-types",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "SELinuxNotEnforcing",
           "package": "cruncher-types",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher FinalResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "SELinuxNotEnforcing",
           "package": "cruncher-types",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compilation result, if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "compile",
           "package": "cruncher-types",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The compilation result if any",
           "hierarchy": "Evalso Cruncher FinalResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "compile",
           "package": "cruncher-types",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe execution result, if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "run",
           "package": "cruncher-types",
@@ -164,6 +177,7 @@
         "index": {
           "description": "The execution result if any",
           "hierarchy": "Evalso Cruncher FinalResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.FinalResult",
           "name": "run",
           "package": "cruncher-types",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandles incoming requests (usually from our Yesod frontend, but could be\n from anywhere).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.Request",
           "name": "Request",
           "package": "cruncher-types",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Handles incoming requests usually from our Yesod frontend but could be from anywhere",
           "hierarchy": "Evalso Cruncher Request",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.Request",
           "name": "Request",
           "package": "cruncher-types",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes an incoming request to the system. Proper use of this will\n   normally lead to some kind of a \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eSandboxResult\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.Request",
           "name": "Request",
           "package": "cruncher-types",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Describes an incoming request to the system Proper use of this will normally lead to some kind of IO SandboxResult",
           "hierarchy": "Evalso Cruncher Request",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.Request",
           "name": "Request",
           "package": "cruncher-types",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.Request",
           "name": "Request",
           "package": "cruncher-types",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher Request",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.Request",
           "name": "Request",
           "package": "cruncher-types",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.Request",
           "name": "code",
           "package": "cruncher-types",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher Request",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.Request",
           "name": "code",
           "package": "cruncher-types",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.Request",
           "name": "compileOnly",
           "package": "cruncher-types",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher Request",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.Request",
           "name": "compileOnly",
           "package": "cruncher-types",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.Request",
           "name": "inputFiles",
           "package": "cruncher-types",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher Request",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.Request",
           "name": "inputFiles",
           "package": "cruncher-types",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.Request",
           "name": "language",
           "package": "cruncher-types",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher Request",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.Request",
           "name": "language",
           "package": "cruncher-types",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.Request",
           "name": "stdin",
           "package": "cruncher-types",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher Request",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.Request",
           "name": "stdin",
           "package": "cruncher-types",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains data types/constructors for individual sandbox runs.\n For example, the compile step will produce a \u003ccode\u003e\u003ca\u003eSandboxResult\u003c/a\u003e\u003c/code\u003e, which is\n defined in this module. The execution/evaluation step will also produce a\n \u003ccode\u003e\u003ca\u003eSandboxResult\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "SandboxResult",
           "package": "cruncher-types",
@@ -361,6 +392,7 @@
         "index": {
           "description": "Contains data types constructors for individual sandbox runs For example the compile step will produce SandboxResult which is defined in this module The execution evaluation step will also produce SandboxResult",
           "hierarchy": "Evalso Cruncher SandboxResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "SandboxResult",
           "package": "cruncher-types",
@@ -375,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the result we get back after performing an evaluation (or\n   compilation). This is almost always wrapped in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "SandboxResult",
           "package": "cruncher-types",
@@ -384,6 +417,7 @@
         "index": {
           "description": "Describes the result we get back after performing an evaluation or compilation This is almost always wrapped in IO",
           "hierarchy": "Evalso Cruncher SandboxResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "SandboxResult",
           "package": "cruncher-types",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "SandboxResult",
           "package": "cruncher-types",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Evalso Cruncher SandboxResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "SandboxResult",
           "package": "cruncher-types",
@@ -420,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exit code returned by the process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "exitCode",
           "package": "cruncher-types",
@@ -430,6 +467,7 @@
         "index": {
           "description": "The exit code returned by the process",
           "hierarchy": "Evalso Cruncher SandboxResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "exitCode",
           "package": "cruncher-types",
@@ -444,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase64-encoded output files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "outputFiles",
           "package": "cruncher-types",
@@ -454,6 +493,7 @@
         "index": {
           "description": "Base64-encoded output files",
           "hierarchy": "Evalso Cruncher SandboxResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "outputFiles",
           "package": "cruncher-types",
@@ -468,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard error stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "stderr",
           "package": "cruncher-types",
@@ -478,6 +519,7 @@
         "index": {
           "description": "Standard error stream",
           "hierarchy": "Evalso Cruncher SandboxResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "stderr",
           "package": "cruncher-types",
@@ -491,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard output stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "stdout",
           "package": "cruncher-types",
@@ -501,6 +544,7 @@
         "index": {
           "description": "Standard output stream",
           "hierarchy": "Evalso Cruncher SandboxResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "stdout",
           "package": "cruncher-types",
@@ -514,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow long the process took\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:21 UTC 2014",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "wallTime",
           "package": "cruncher-types",
@@ -524,6 +569,7 @@
         "index": {
           "description": "How long the process took",
           "hierarchy": "Evalso Cruncher SandboxResult",
+          "indexed": "2014-03-11T17:43:21",
           "module": "Evalso.Cruncher.SandboxResult",
           "name": "wallTime",
           "package": "cruncher-types",

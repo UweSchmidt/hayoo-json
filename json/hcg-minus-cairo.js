@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hcg-minus-cairo"
+        "phrase": "hcg-minus-cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering of \u003ca\u003eData.CG.Minus.Arrow\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus.Arrow",
           "name": "Arrow",
           "package": "hcg-minus-cairo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Rendering of Data.CG.Minus.Arrow",
           "hierarchy": "Render CG Minus Arrow",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus.Arrow",
           "name": "Arrow",
           "package": "hcg-minus-cairo",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e with solid arrow tip at endpoint.  Arrow tip\n co-ordinates are given by \u003ccode\u003e\u003ca\u003earrow_coord\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrow_ep",
           "package": "hcg-minus-cairo",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Render Ln with solid arrow tip at endpoint Arrow tip co-ordinates are given by arrow coord",
           "hierarchy": "Render CG Minus Arrow",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrow_ep",
           "normalized": "R-\u003eR-\u003eCa-\u003eLn R-\u003eRender()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003earrow_ep\u003c/a\u003e\u003c/code\u003e with draws tip at mid-point of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrow_mp",
           "package": "hcg-minus-cairo",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Variant of arrow ep with draws tip at mid-point of Ln",
           "hierarchy": "Render CG Minus Arrow",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrow_mp",
           "normalized": "R-\u003eR-\u003eCa-\u003eLn R-\u003eRender()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrow_strk",
           "package": "hcg-minus-cairo",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Render CG Minus Arrow",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrow_strk",
           "normalized": "Ca-\u003eRender()",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003earrow_ep\u003c/a\u003e\u003c/code\u003e to render \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e as sequence of arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrows_ep",
           "package": "hcg-minus-cairo",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Variant of arrow ep to render Ls as sequence of arrows",
           "hierarchy": "Render CG Minus Arrow",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrows_ep",
           "normalized": "R-\u003eR-\u003eCa-\u003eLs R-\u003eRender()",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003earrow_mp\u003c/a\u003e\u003c/code\u003e to render \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e as sequence of arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrows_mp",
           "package": "hcg-minus-cairo",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Variant of arrow mp to render Ls as sequence of arrows",
           "hierarchy": "Render CG Minus Arrow",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus.Arrow",
           "name": "arrows_mp",
           "normalized": "R-\u003eR-\u003eCa-\u003eLs R-\u003eRender()",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCG (minus) rendering in terms of \u003ccode\u003e\u003ca\u003eRender\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "Minus",
           "package": "hcg-minus-cairo",
@@ -174,6 +187,7 @@
         "index": {
           "description": "CG minus rendering in terms of Render",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "Minus",
           "package": "hcg-minus-cairo",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of file types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "File_Type",
           "package": "hcg-minus-cairo",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Enumeration of file types",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "File_Type",
           "package": "hcg-minus-cairo",
@@ -210,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "F_PDF",
           "package": "hcg-minus-cairo",
@@ -219,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "F_PDF",
           "package": "hcg-minus-cairo",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "F_SVG",
           "package": "hcg-minus-cairo",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "F_SVG",
           "package": "hcg-minus-cairo",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003ccode\u003e\u003ca\u003epolygon\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e then \u003ccode\u003efill\u003c/code\u003e and \u003ccode\u003estroke\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "area",
           "package": "hcg-minus-cairo",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Run polygon on Ls then fill and stroke",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "area",
           "normalized": "R-\u003eCa-\u003eCa-\u003eLs R-\u003eRender()",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003earea\u003c/a\u003e\u003c/code\u003e with fixed grey border of width \u003ccode\u003e0.005\u003c/code\u003e and\n grey \u003ccode\u003e0.15\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "area'",
           "package": "hcg-minus-cairo",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Variant of area with fixed grey border of width and grey",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "area'",
           "normalized": "Ca-\u003eLs R-\u003eRender()",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCircle centred at \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e with radius \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "circle",
           "package": "hcg-minus-cairo",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Circle centred at Pt with radius",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "circle",
           "normalized": "Pt R-\u003eR-\u003eRender()",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCa\u003c/a\u003e\u003c/code\u003e call to \u003ccode\u003e\u003ca\u003esetSourceRGBA\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "colour",
           "package": "hcg-minus-cairo",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Ca call to setSourceRGBA",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "colour",
           "normalized": "Ca-\u003eRender()",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreyscale call to \u003ccode\u003e\u003ca\u003esetSourceRGBA\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "grey",
           "package": "hcg-minus-cairo",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Greyscale call to setSourceRGBA",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "grey",
           "normalized": "R-\u003eRender()",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003emoveTo\u003c/a\u003e\u003c/code\u003e then sequence of \u003ccode\u003e\u003ca\u003elineTo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "line",
           "package": "hcg-minus-cairo",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Render Ls as moveTo then sequence of lineTo",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "line",
           "normalized": "Ls R-\u003eRender()",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "nil",
           "package": "hcg-minus-cairo",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Render nothing",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "nil",
           "normalized": "Render()",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003ccode\u003e\u003ca\u003epolygon\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e then \u003ccode\u003e\u003ca\u003epen\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003estroke\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "outline",
           "package": "hcg-minus-cairo",
@@ -440,6 +475,7 @@
         "index": {
           "description": "Run polygon on Ls then pen and stroke",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "outline",
           "normalized": "R-\u003eCa-\u003eLs R-\u003eRender()",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet line width \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCa\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "pen",
           "package": "hcg-minus-cairo",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Set line width and Ca",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "pen",
           "normalized": "R-\u003eCa-\u003eRender()",
@@ -480,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e as set of square points with \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e dimension.\n Runs \u003ccode\u003e\u003ca\u003efill\u003c/a\u003e\u003c/code\u003e on each square.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "points",
           "package": "hcg-minus-cairo",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Render Ls as set of square points with dimension Runs fill on each square",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "points",
           "normalized": "R-\u003eLs R-\u003eRender()",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eline\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003eclosePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "polygon",
           "package": "hcg-minus-cairo",
@@ -515,6 +556,7 @@
         "index": {
           "description": "Variant of line that runs closePath",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "polygon",
           "normalized": "Ls R-\u003eRender()",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender rectangle given colour \u003ccode\u003e\u003ca\u003eCa\u003c/a\u003e\u003c/code\u003e, upper-left \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e and\n \u003cem\u003e(width,height)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "rect",
           "package": "hcg-minus-cairo",
@@ -540,6 +583,7 @@
         "index": {
           "description": "Render rectangle given colour Ca upper-left Pt and width height",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "rect",
           "normalized": "Ca-\u003ePt R-\u003e(R,R)-\u003eRender()",
@@ -555,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender to \u003ccode\u003e\u003ca\u003eFile_Type\u003c/a\u003e\u003c/code\u003e.  (w,h) give the page size.  The\n appropriate extension is appended to \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "render_to_file",
           "package": "hcg-minus-cairo",
@@ -565,6 +610,7 @@
         "index": {
           "description": "Render to File Type give the page size The appropriate extension is appended to FilePath",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "render_to_file",
           "normalized": "File_Type-\u003e(R,R)-\u003eFilePath-\u003eRender()-\u003eIO()",
@@ -580,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender text \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e in colour \u003ccode\u003e\u003ca\u003eCa\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e in font size \u003cem\u003esz\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:01 UTC 2014",
           "module": "Render.CG.Minus",
           "name": "text",
           "package": "hcg-minus-cairo",
@@ -590,6 +637,7 @@
         "index": {
           "description": "Render text String in colour Ca at Pt in font size sz",
           "hierarchy": "Render CG Minus",
+          "indexed": "2014-03-11T18:35:01",
           "module": "Render.CG.Minus",
           "name": "text",
           "normalized": "Ca-\u003ePt R-\u003eR-\u003eString-\u003eRender()",

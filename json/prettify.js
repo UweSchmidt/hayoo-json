@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prettify"
+        "phrase": "prettify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library was based on \u003cem\u003eThe Design of a Pretty-printing Library\u003c/em\u003e by Jeuring and \n Meijer.\n\u003c/p\u003e\u003cp\u003eHeavily modified by Simon Peyton Jones (December 1996).\n\u003c/p\u003e\u003cp\u003eLightly modified by Hans Hoglund (October 2012).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "Pretty",
           "package": "prettify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library was based on The Design of Pretty-printing Library by Jeuring and Meijer Heavily modified by Simon Peyton Jones December Lightly modified by Hans Hoglund October",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "Pretty",
           "package": "prettify",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "Mode",
           "package": "prettify",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Rendering mode",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "Mode",
           "package": "prettify",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that can be pretty-printed.                                                    \n\u003c/p\u003e\u003cp\u003eThe Pretty class is similar to \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, but converts values to \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003es instead \n of \u003ccode\u003eStrings\u003c/code\u003e. A printer is essentially a string with some extra structural information\n such as length and indentation.\n\u003c/p\u003e\u003cp\u003eNote that the instances for primitive types, lists and tuples all satisfy\n\u003c/p\u003e\u003cpre\u003e (show . pretty) x == show x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "Pretty",
           "package": "prettify",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Class of types that can be pretty-printed The Pretty class is similar to Show but converts values to Printer instead of Strings printer is essentially string with some extra structural information such as length and indentation Note that the instances for primitive types lists and tuples all satisfy show pretty show",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "Pretty",
           "package": "prettify",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of printers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "Printer",
           "package": "prettify",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The abstract type of printers",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "Printer",
           "package": "prettify",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA printing style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "Style",
           "package": "prettify",
@@ -120,6 +129,7 @@
         "index": {
           "description": "printing style",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "Style",
           "package": "prettify",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeside, separated by space, unless one of the arguments is \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "(\u003c+\u003e)",
           "package": "prettify",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Beside separated by space unless one of the arguments is empty is associative with identity empty",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Printer-\u003ePrinter-\u003ePrinter",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeside.\n \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "(\u003c-\u003e)",
           "package": "prettify",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Beside is associative with identity empty",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "Printer-\u003ePrinter-\u003ePrinter",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbove, with no overlapping.\n \u003ccode\u003e\u003ca\u003e\u003c//\u003e\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "(\u003c//\u003e)",
           "package": "prettify",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Above with no overlapping is associative with identity empty",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "(\u003c//\u003e) \u003c//\u003e",
           "normalized": "Printer-\u003ePrinter-\u003ePrinter",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbove, except that if the last line of the first argument stops\n at least one position before the first line of the second begins,\n these two lines are overlapped.  For example:\n\u003c/p\u003e\u003cpre\u003e    string \"hi\" \u003c/\u003e nest 5 (string \"there\")\n\u003c/pre\u003e\u003cp\u003elays out as\n\u003c/p\u003e\u003cpre\u003e    hi   there\n\u003c/pre\u003e\u003cp\u003erather than\n\u003c/p\u003e\u003cpre\u003e    hi\n         there\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, and also satisfies\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e(x \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e y) \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e z = x \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e (y \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e z)\u003c/code\u003e, if \u003ccode\u003ey\u003c/code\u003e non-empty.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "(\u003c/\u003e)",
           "package": "prettify",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Above except that if the last line of the first argument stops at least one position before the first line of the second begins these two lines are overlapped For example string hi nest string there lays out as hi there rather than hi there is associative with identity empty and also satisfies if non-empty",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "Printer-\u003ePrinter-\u003ePrinter",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo indentation, infinitely long lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "LeftMode",
           "package": "prettify",
@@ -244,6 +263,7 @@
         "index": {
           "description": "No indentation infinitely long lines",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "LeftMode",
           "package": "prettify",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll on one line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "OneLineMode",
           "package": "prettify",
@@ -268,6 +289,7 @@
         "index": {
           "description": "All on one line",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "OneLineMode",
           "package": "prettify",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "PageMode",
           "package": "prettify",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Normal",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "PageMode",
           "package": "prettify",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "Style",
           "package": "prettify",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "Style",
           "package": "prettify",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith zig-zag cuts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "ZigZagMode",
           "package": "prettify",
@@ -338,6 +365,7 @@
         "index": {
           "description": "With zig-zag cuts",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "ZigZagMode",
           "package": "prettify",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap printer in \u003ccode\u003e{...}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "braces",
           "package": "prettify",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Wrap printer in",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "braces",
           "normalized": "Printer-\u003ePrinter",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap printer in \u003ccode\u003e[...]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "brackets",
           "package": "prettify",
@@ -387,6 +418,7 @@
         "index": {
           "description": "Wrap printer in",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "brackets",
           "normalized": "Printer-\u003ePrinter",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither \u003ccode\u003e\u003ca\u003ehcat\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "cat",
           "package": "prettify",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Either hcat or vcat",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "cat",
           "normalized": "[Printer]-\u003ePrinter",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA printer of height and width 1, containing a literal character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "char",
           "package": "prettify",
@@ -437,6 +472,7 @@
         "index": {
           "description": "printer of height and width containing literal character",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "char",
           "normalized": "Char-\u003ePrinter",
@@ -451,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "double",
           "package": "prettify",
@@ -460,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "double",
           "normalized": "Double-\u003ePrinter",
@@ -475,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap printer in \u003ccode\u003e\"...\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "doubleQuotes",
           "package": "prettify",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Wrap printer in",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "doubleQuotes",
           "normalized": "Printer-\u003ePrinter",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty printer, with no height and no width.\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e is the identity for \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c//\u003e\u003c/a\u003e\u003c/code\u003e, and anywhere\n in the argument list for \u003ccode\u003e\u003ca\u003esep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehcat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehsep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efcat\u003c/a\u003e\u003c/code\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "empty",
           "package": "prettify",
@@ -511,6 +552,7 @@
         "index": {
           "description": "The empty printer with no height and no width empty is the identity for and and anywhere in the argument list for sep hcat hsep vcat fcat etc",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "empty",
           "package": "prettify",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Paragraph fill\" version of \u003ccode\u003e\u003ca\u003ecat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "fcat",
           "package": "prettify",
@@ -534,6 +577,7 @@
         "index": {
           "description": "Paragraph fill version of cat",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "fcat",
           "normalized": "[Printer]-\u003ePrinter",
@@ -548,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "float",
           "package": "prettify",
@@ -557,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "float",
           "normalized": "Float-\u003ePrinter",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Paragraph fill\" version of \u003ccode\u003e\u003ca\u003esep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "fsep",
           "package": "prettify",
@@ -582,6 +629,7 @@
         "index": {
           "description": "Paragraph fill version of sep",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "fsep",
           "normalized": "[Printer]-\u003ePrinter",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ehang d1 n d2 = sep [d1, nest n d2]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "hang",
           "package": "prettify",
@@ -607,6 +656,7 @@
         "index": {
           "description": "hang d1 d2 sep d1 nest d2",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "hang",
           "normalized": "Printer-\u003eInt-\u003ePrinter-\u003ePrinter",
@@ -622,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "hcat",
           "package": "prettify",
@@ -632,6 +683,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "hcat",
           "normalized": "[Printer]-\u003ePrinter",
@@ -647,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "hsep",
           "package": "prettify",
@@ -657,6 +710,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "hsep",
           "normalized": "[Printer]-\u003ePrinter",
@@ -672,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin with initiator.\n\u003c/p\u003e\u003cpre\u003e initBy q [x1,x2..xn] = q \u003c\u003e x1 \u003c\u003e q \u003c\u003e x2 \u003c\u003e q .. xn.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "initBy",
           "package": "prettify",
@@ -682,6 +737,7 @@
         "index": {
           "description": "Join with initiator initBy x1 x2..xn x1 x2 xn",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "initBy",
           "normalized": "Printer-\u003e[Printer]-\u003ePrinter",
@@ -698,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin with initiator followed by space.\n\u003c/p\u003e\u003cpre\u003e initByS q [x1,x2..xn] = q \u003c+\u003e x1 \u003c\u003e q \u003c+\u003e x2 \u003c\u003e q \u003c+\u003e .. xn.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "initByS",
           "package": "prettify",
@@ -708,6 +765,7 @@
         "index": {
           "description": "Join with initiator followed by space initByS x1 x2..xn x1 x2 xn",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "initByS",
           "normalized": "Printer-\u003e[Printer]-\u003ePrinter",
@@ -723,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "int",
           "package": "prettify",
@@ -732,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "int",
           "normalized": "Int-\u003ePrinter",
@@ -746,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "integer",
           "package": "prettify",
@@ -755,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "integer",
           "normalized": "Integer-\u003ePrinter",
@@ -770,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the printer is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "isEmpty",
           "package": "prettify",
@@ -780,6 +843,7 @@
         "index": {
           "description": "Returns True if the printer is empty",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "isEmpty",
           "normalized": "Printer-\u003eBool",
@@ -796,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of line, in chars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "lineLength",
           "package": "prettify",
@@ -806,6 +871,7 @@
         "index": {
           "description": "Length of line in chars",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "lineLength",
           "package": "prettify",
@@ -820,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe printing mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "mode",
           "package": "prettify",
@@ -830,6 +897,7 @@
         "index": {
           "description": "The printing mode",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "mode",
           "package": "prettify",
@@ -843,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNest (or indent) a printer by a given number of positions\n (which may also be negative).  \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e satisfies the laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e 0 x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k' x) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e (k+k') x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (x \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e y) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k z \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (x \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e y) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k x \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y = x \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e, if \u003ccode\u003ex\u003c/code\u003e non-empty\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe side condition on the last law is needed because\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e is a left identity for \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "nest",
           "package": "prettify",
@@ -853,6 +922,7 @@
         "index": {
           "description": "Nest or indent printer by given number of positions which may also be negative nest satisfies the laws nest nest nest nest nest nest nest nest nest nest nest empty empty nest if non-empty The side condition on the last law is needed because empty is left identity for",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "nest",
           "normalized": "Int-\u003ePrinter-\u003ePrinter",
@@ -868,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap printer in \u003ccode\u003e(...)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "parens",
           "package": "prettify",
@@ -878,6 +949,7 @@
         "index": {
           "description": "Wrap printer in",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "parens",
           "normalized": "Printer-\u003ePrinter",
@@ -893,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a printer for the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "pretty",
           "package": "prettify",
@@ -903,6 +976,7 @@
         "index": {
           "description": "Return printer for the given value",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "pretty",
           "normalized": "a-\u003ePrinter",
@@ -918,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe method prettyList is provided to allow the programmer to give a\n   specialised way of printing lists of values. For example, this is used by\n   the predefined Pretty instance of the Char type, where values of type String\n   should be shown in double quotes, rather than between square brackets.    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "prettyList",
           "package": "prettify",
@@ -928,6 +1003,7 @@
         "index": {
           "description": "The method prettyList is provided to allow the programmer to give specialised way of printing lists of values For example this is used by the predefined Pretty instance of the Char type where values of type String should be shown in double quotes rather than between square brackets",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "prettyList",
           "normalized": "[a]-\u003ePrinter",
@@ -944,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap printer in \u003ccode\u003e'...'\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "quotes",
           "package": "prettify",
@@ -954,6 +1031,7 @@
         "index": {
           "description": "Wrap printer in",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "quotes",
           "normalized": "Printer-\u003ePrinter",
@@ -968,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "rational",
           "package": "prettify",
@@ -977,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "rational",
           "normalized": "Rational-\u003ePrinter",
@@ -992,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRatio of ribbon length to line length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "ribbonsPerLine",
           "package": "prettify",
@@ -1002,6 +1083,7 @@
         "index": {
           "description": "Ratio of ribbon length to line length",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "ribbonsPerLine",
           "package": "prettify",
@@ -1016,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the \u003ccode\u003ePrinter\u003c/code\u003e to a String using the default \u003ccode\u003eStyle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "runPrinter",
           "package": "prettify",
@@ -1026,6 +1109,7 @@
         "index": {
           "description": "Render the Printer to String using the default Style",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "runPrinter",
           "normalized": "Printer-\u003eString",
@@ -1042,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the \u003ccode\u003ePrinter\u003c/code\u003e to a String using the given \u003ccode\u003eStyle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "runPrinterStyle",
           "package": "prettify",
@@ -1052,6 +1137,7 @@
         "index": {
           "description": "Render the Printer to String using the given Style",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "runPrinterStyle",
           "normalized": "Style-\u003ePrinter-\u003eString",
@@ -1068,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither \u003ccode\u003e\u003ca\u003ehsep\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "sep",
           "package": "prettify",
@@ -1078,6 +1165,7 @@
         "index": {
           "description": "Either hsep or vcat",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "sep",
           "normalized": "[Printer]-\u003ePrinter",
@@ -1093,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin with separator.\n\u003c/p\u003e\u003cpre\u003e sepBy q [x1,x2..xn] = x1 \u003c\u003e q \u003c\u003e x2 \u003c\u003e q .. xn.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "sepBy",
           "package": "prettify",
@@ -1103,6 +1192,7 @@
         "index": {
           "description": "Join with separator sepBy x1 x2..xn x1 x2 xn",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "sepBy",
           "normalized": "Printer-\u003e[Printer]-\u003ePrinter",
@@ -1119,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin with separator followed by space.\n\u003c/p\u003e\u003cpre\u003e sepByS q [x1,x2..xn] = x1 \u003c\u003e q \u003c+\u003e x2 \u003c\u003e q \u003c+\u003e.. xn.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "sepByS",
           "package": "prettify",
@@ -1129,6 +1220,7 @@
         "index": {
           "description": "Join with separator followed by space sepByS x1 x2..xn x1 x2 xn",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "sepByS",
           "normalized": "Printer-\u003e[Printer]-\u003ePrinter",
@@ -1145,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome string with any width. (\u003ccode\u003estring s = sizedText (length s) s\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "sizedText",
           "package": "prettify",
@@ -1155,6 +1248,7 @@
         "index": {
           "description": "Some string with any width string sizedText length",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "sizedText",
           "normalized": "Int-\u003eString-\u003ePrinter",
@@ -1171,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA printer of height 1 containing a literal string.\n \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e satisfies the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e s \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e t = \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e (s\u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003et)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e \"\" \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e x = x\u003c/code\u003e, if \u003ccode\u003ex\u003c/code\u003e non-empty\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe side condition on the last law is necessary because \u003ccode\u003e\u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e\n has height 1, while \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e has no height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "string",
           "package": "prettify",
@@ -1181,6 +1276,7 @@
         "index": {
           "description": "printer of height containing literal string string satisfies the following laws string string string string if non-empty The side condition on the last law is necessary because string has height while empty has no height",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "string",
           "normalized": "String-\u003ePrinter",
@@ -1196,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default style (\u003ccode\u003emode=PageMode, lineLength=100, ribbonsPerLine=1.5\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "style",
           "package": "prettify",
@@ -1206,6 +1303,7 @@
         "index": {
           "description": "The default style mode PageMode lineLength ribbonsPerLine",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "style",
           "package": "prettify",
@@ -1219,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin with terminator.\n\u003c/p\u003e\u003cpre\u003e termBy q [x1,x2..xn] = x1 \u003c\u003e q \u003c\u003e x2 \u003c\u003e q .. xn \u003c\u003e q.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "termBy",
           "package": "prettify",
@@ -1229,6 +1328,7 @@
         "index": {
           "description": "Join with terminator termBy x1 x2..xn x1 x2 xn",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "termBy",
           "normalized": "Printer-\u003e[Printer]-\u003ePrinter",
@@ -1245,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin with terminator followed by space.\n\u003c/p\u003e\u003cpre\u003e termByS q [x1,x2..xn] = x1 \u003c\u003e q \u003c+\u003e x2 \u003c\u003e q \u003c+\u003e .. xn \u003c\u003e q.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "termByS",
           "package": "prettify",
@@ -1255,6 +1356,7 @@
         "index": {
           "description": "Join with terminator followed by space termByS x1 x2..xn x1 x2 xn",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "termByS",
           "normalized": "Printer-\u003e[Printer]-\u003ePrinter",
@@ -1271,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "vcat",
           "package": "prettify",
@@ -1281,6 +1384,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "vcat",
           "normalized": "[Printer]-\u003ePrinter",
@@ -1296,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap printer in the given characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "wrap",
           "package": "prettify",
@@ -1306,6 +1411,7 @@
         "index": {
           "description": "Wrap printer in the given characters",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "wrap",
           "normalized": "Char-\u003eChar-\u003ePrinter-\u003ePrinter",
@@ -1321,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome string, but without any width. Use for non-printing string\n such as a HTML or Latex tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:26 UTC 2014",
           "module": "Text.Pretty",
           "name": "zeroWidthText",
           "package": "prettify",
@@ -1331,6 +1438,7 @@
         "index": {
           "description": "Some string but without any width Use for non-printing string such as HTML or Latex tags",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T19:43:26",
           "module": "Text.Pretty",
           "name": "zeroWidthText",
           "normalized": "String-\u003ePrinter",

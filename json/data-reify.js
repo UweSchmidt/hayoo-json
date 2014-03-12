@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-reify"
+        "phrase": "data-reify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the shared definition of a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e in Data.Reify.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:36 UTC 2014",
           "module": "Data.Reify.Graph",
           "name": "Graph",
           "package": "data-reify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is the shared definition of Graph in Data.Reify",
           "hierarchy": "Data Reify Graph",
+          "indexed": "2014-03-11T17:49:36",
           "module": "Data.Reify.Graph",
           "name": "Graph",
           "package": "data-reify",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e is a basic graph structure over nodes of the higher kind \u003ccode\u003ee\u003c/code\u003e, with a single root.\n There is an assumption that there is no Unique used in a node which does not have a \n corresponding entry is the association list.\n The idea with this structure is that it is trivial to convert into an \u003ccode\u003eArray\u003c/code\u003e, \n \u003ccode\u003eIntMap\u003c/code\u003e, or into a Martin Erwig's Functional Graph, as required.   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:36 UTC 2014",
           "module": "Data.Reify.Graph",
           "name": "Graph",
           "package": "data-reify",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Graph is basic graph structure over nodes of the higher kind with single root There is an assumption that there is no Unique used in node which does not have corresponding entry is the association list The idea with this structure is that it is trivial to convert into an Array IntMap or into Martin Erwig Functional Graph as required",
           "hierarchy": "Data Reify Graph",
+          "indexed": "2014-03-11T17:49:36",
           "module": "Data.Reify.Graph",
           "name": "Graph",
           "package": "data-reify",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:36 UTC 2014",
           "module": "Data.Reify.Graph",
           "name": "Unique",
           "package": "data-reify",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Reify Graph",
+          "indexed": "2014-03-11T17:49:36",
           "module": "Data.Reify.Graph",
           "name": "Unique",
           "package": "data-reify",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:36 UTC 2014",
           "module": "Data.Reify.Graph",
           "name": "Graph",
           "package": "data-reify",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Reify Graph",
+          "indexed": "2014-03-11T17:49:36",
           "module": "Data.Reify.Graph",
           "name": "Graph",
           "normalized": "Graph[(Unique,a Unique)]Unique",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:36 UTC 2014",
           "module": "Data.Reify",
           "name": "Reify",
           "package": "data-reify",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Reify",
+          "indexed": "2014-03-11T17:49:36",
           "module": "Data.Reify",
           "name": "Reify",
           "package": "data-reify",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMuRef\u003c/a\u003e\u003c/code\u003e is a class that provided a way to reference into a specific type,\n and a way to map over the deferenced internals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:36 UTC 2014",
           "module": "Data.Reify",
           "name": "MuRef",
           "package": "data-reify",
@@ -140,6 +151,7 @@
         "index": {
           "description": "MuRef is class that provided way to reference into specific type and way to map over the deferenced internals",
           "hierarchy": "Data Reify",
+          "indexed": "2014-03-11T17:49:36",
           "module": "Data.Reify",
           "name": "MuRef",
           "package": "data-reify",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:36 UTC 2014",
           "module": "Data.Reify",
           "name": "mapDeRef",
           "package": "data-reify",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Reify",
+          "indexed": "2014-03-11T17:49:36",
           "module": "Data.Reify",
           "name": "mapDeRef",
           "normalized": "a-\u003eb c)-\u003ed-\u003eb(DeRef d c)",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereifyGraph\u003c/a\u003e\u003c/code\u003e takes a data structure that admits \u003ccode\u003e\u003ca\u003eMuRef\u003c/a\u003e\u003c/code\u003e, and returns a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e that contains\n the dereferenced nodes, with their children as \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e rather than recursive values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:36 UTC 2014",
           "module": "Data.Reify",
           "name": "reifyGraph",
           "package": "data-reify",
@@ -188,6 +203,7 @@
         "index": {
           "description": "reifyGraph takes data structure that admits MuRef and returns Graph that contains the dereferenced nodes with their children as Int rather than recursive values",
           "hierarchy": "Data Reify",
+          "indexed": "2014-03-11T17:49:36",
           "module": "Data.Reify",
           "name": "reifyGraph",
           "normalized": "a-\u003eIO(Graph(DeRef a))",

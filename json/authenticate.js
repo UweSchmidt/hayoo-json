@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "authenticate"
+        "phrase": "authenticate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.BrowserId",
           "name": "BrowserId",
           "package": "authenticate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate BrowserId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.BrowserId",
           "name": "BrowserId",
           "package": "authenticate",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of the Javascript file hosted by browserid.org\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.BrowserId",
           "name": "browserIdJs",
           "package": "authenticate",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Location of the Javascript file hosted by browserid.org",
           "hierarchy": "Web Authenticate BrowserId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.BrowserId",
           "name": "browserIdJs",
           "package": "authenticate",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.BrowserId",
           "name": "checkAssertion",
           "package": "authenticate",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate BrowserId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.BrowserId",
           "name": "checkAssertion",
           "normalized": "Text-\u003eText-\u003eManager-\u003ea(Maybe Text)",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenIDs for a number of common OPs. When a function takes a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n parameter, that \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e is the username.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "Providers",
           "package": "authenticate",
@@ -96,6 +103,7 @@
         "index": {
           "description": "OpenIDs for number of common OPs When function takes String parameter that String is the username",
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "Providers",
           "package": "authenticate",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "blogger",
           "package": "authenticate",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "blogger",
           "normalized": "String-\u003eString",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "claimid",
           "package": "authenticate",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "claimid",
           "normalized": "String-\u003eString",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "google",
           "package": "authenticate",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "google",
           "package": "authenticate",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "livejournal",
           "package": "authenticate",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "livejournal",
           "normalized": "String-\u003eString",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "myopenid",
           "package": "authenticate",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "myopenid",
           "normalized": "String-\u003eString",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "myspace",
           "package": "authenticate",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "myspace",
           "normalized": "String-\u003eString",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "typepad",
           "package": "authenticate",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "typepad",
           "normalized": "String-\u003eString",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "verisign",
           "package": "authenticate",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "verisign",
           "normalized": "String-\u003eString",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "wordpress",
           "package": "authenticate",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "wordpress",
           "normalized": "String-\u003eString",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "yahoo",
           "package": "authenticate",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId Providers",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId.Providers",
           "name": "yahoo",
           "package": "authenticate",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "OpenId",
           "package": "authenticate",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "OpenId",
           "package": "authenticate",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "AuthenticateException",
           "package": "authenticate",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "AuthenticateException",
           "package": "authenticate",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA valid OpenID identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "Identifier",
           "package": "authenticate",
@@ -387,6 +420,7 @@
         "index": {
           "description": "valid OpenID identifier",
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "Identifier",
           "package": "authenticate",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "OpenIdResponse",
           "package": "authenticate",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "OpenIdResponse",
           "package": "authenticate",
@@ -467,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "Identifier",
           "package": "authenticate",
@@ -476,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "Identifier",
           "package": "authenticate",
@@ -536,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use authenticateClaimed\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "authenticate",
           "package": "authenticate",
@@ -546,6 +585,7 @@
         "index": {
           "description": "Deprecated Use authenticateClaimed",
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "authenticate",
           "normalized": "[(Text,Text)]-\u003eManager-\u003ea(Identifier,[(Text,Text)])",
@@ -560,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "authenticateClaimed",
           "package": "authenticate",
@@ -569,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "authenticateClaimed",
           "normalized": "[(Text,Text)]-\u003eManager-\u003ea OpenIdResponse",
@@ -584,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "getForwardUrl",
           "package": "authenticate",
@@ -592,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "getForwardUrl",
           "normalized": "Text-\u003eText-\u003eMaybe Text-\u003e[(Text,Text)]-\u003eManager-\u003ea Text",
@@ -607,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "identifier",
           "package": "authenticate",
@@ -616,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "identifier",
           "package": "authenticate",
@@ -628,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "oirClaimed",
           "package": "authenticate",
@@ -637,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "oirClaimed",
           "normalized": "OpenIdResponse-\u003eMaybe Identifier",
@@ -652,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "oirOpLocal",
           "package": "authenticate",
@@ -661,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "oirOpLocal",
           "normalized": "OpenIdResponse-\u003eIdentifier",
@@ -676,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.OpenId",
           "name": "oirParams",
           "package": "authenticate",
@@ -685,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OpenId",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.OpenId",
           "name": "oirParams",
           "normalized": "OpenIdResponse-\u003e[(Text,Text)]",
@@ -700,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.Rpxnow",
           "name": "Rpxnow",
           "package": "authenticate",
@@ -708,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Rpxnow",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.Rpxnow",
           "name": "Rpxnow",
           "package": "authenticate",
@@ -721,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.Rpxnow",
           "name": "AuthenticateException",
           "package": "authenticate",
@@ -729,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Rpxnow",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.Rpxnow",
           "name": "AuthenticateException",
           "package": "authenticate",
@@ -743,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation received from Rpxnow after a valid login.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.Rpxnow",
           "name": "Identifier",
           "package": "authenticate",
@@ -752,6 +809,7 @@
         "index": {
           "description": "Information received from Rpxnow after valid login",
           "hierarchy": "Web Authenticate Rpxnow",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.Rpxnow",
           "name": "Identifier",
           "package": "authenticate",
@@ -765,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.Rpxnow",
           "name": "Identifier",
           "package": "authenticate",
@@ -774,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Rpxnow",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.Rpxnow",
           "name": "Identifier",
           "package": "authenticate",
@@ -788,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to log a user in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.Rpxnow",
           "name": "authenticate",
           "package": "authenticate",
@@ -797,6 +858,7 @@
         "index": {
           "description": "Attempt to log user in",
           "hierarchy": "Web Authenticate Rpxnow",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.Rpxnow",
           "name": "authenticate",
           "normalized": "String-\u003eString-\u003eManager-\u003ea Identifier",
@@ -811,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.Rpxnow",
           "name": "extraData",
           "package": "authenticate",
@@ -820,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Rpxnow",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.Rpxnow",
           "name": "extraData",
           "normalized": "[(Text,Text)]",
@@ -835,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:02 UTC 2014",
           "module": "Web.Authenticate.Rpxnow",
           "name": "identifier",
           "package": "authenticate",
@@ -844,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Rpxnow",
+          "indexed": "2014-03-11T17:15:02",
           "module": "Web.Authenticate.Rpxnow",
           "name": "identifier",
           "package": "authenticate",

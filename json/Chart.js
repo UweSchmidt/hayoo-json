@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Chart"
+        "phrase": "Chart",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculate and render floating value axes\n including doubles with linear, log, and percentage scaling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "Floating",
           "package": "Chart",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Calculate and render floating value axes including doubles with linear log and percentage scaling",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "Floating",
           "package": "Chart",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LinearAxisParams",
           "package": "Chart",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LinearAxisParams",
           "package": "Chart",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LogAxisParams",
           "package": "Chart",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LogAxisParams",
           "package": "Chart",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper class for doubles used to indicate they are to\n be plotted against a log axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LogValue",
           "package": "Chart",
@@ -93,6 +100,7 @@
         "index": {
           "description": "wrapper class for doubles used to indicate they are to be plotted against log axis",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LogValue",
           "package": "Chart",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper class for doubles used to indicate they are to\n be plotted against a percentage axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "Percent",
           "package": "Chart",
@@ -116,6 +125,7 @@
         "index": {
           "description": "wrapper class for doubles used to indicate they are to be plotted against percentage axis",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "Percent",
           "package": "Chart",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LinearAxisParams",
           "package": "Chart",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LinearAxisParams",
           "package": "Chart",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LogAxisParams",
           "package": "Chart",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LogAxisParams",
           "package": "Chart",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LogValue",
           "package": "Chart",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "LogValue",
           "package": "Chart",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "Percent",
           "package": "Chart",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "Percent",
           "package": "Chart",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function used to show the axes labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "_la_labelf",
           "package": "Chart",
@@ -228,6 +247,7 @@
         "index": {
           "description": "The function used to show the axes labels",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "_la_labelf",
           "normalized": "a-\u003eString",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe target number of labels to be shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "_la_nLabels",
           "package": "Chart",
@@ -253,6 +274,7 @@
         "index": {
           "description": "The target number of labels to be shown",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "_la_nLabels",
           "package": "Chart",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe target number of ticks to be shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "_la_nTicks",
           "package": "Chart",
@@ -277,6 +300,7 @@
         "index": {
           "description": "The target number of ticks to be shown",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "_la_nTicks",
           "package": "Chart",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function used to show the axes labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "_loga_labelf",
           "package": "Chart",
@@ -301,6 +326,7 @@
         "index": {
           "description": "The function used to show the axes labels",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "_loga_labelf",
           "normalized": "a-\u003eString",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a linear axis automatically, scaled appropriately for the\n input data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "autoScaledAxis",
           "package": "Chart",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Generate linear axis automatically scaled appropriately for the input data",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "autoScaledAxis",
           "normalized": "LinearAxisParams a-\u003eAxisFn a",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a log axis automatically, scaled appropriate for the\n input data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "autoScaledLogAxis",
           "package": "Chart",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Generate log axis automatically scaled appropriate for the input data",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "autoScaledLogAxis",
           "normalized": "LogAxisParams a-\u003eAxisFn a",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a target number of values, and a list of input points,\n   find evenly spaced values from the set {1*X, 2*X, 2.5*X, 5*X} (where\n   X is some power of ten) that evenly cover the input points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "autoSteps",
           "package": "Chart",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Given target number of values and list of input points find evenly spaced values from the set where is some power of ten that evenly cover the input points",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "autoSteps",
           "normalized": "Int-\u003e[Double]-\u003e[Double]",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "defaultLinearAxis",
           "package": "Chart",
@@ -404,6 +437,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "defaultLinearAxis",
           "package": "Chart",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "defaultLogAxis",
           "package": "Chart",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "defaultLogAxis",
           "package": "Chart",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "la_labelf",
           "package": "Chart",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "la_labelf",
           "normalized": "a b c Lens(LinearAxisParams b)(LinearAxisParams b)(b-\u003eString)(b-\u003eString)",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "la_nLabels",
           "package": "Chart",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "la_nLabels",
           "package": "Chart",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "la_nTicks",
           "package": "Chart",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "la_nTicks",
           "package": "Chart",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "loga_labelf",
           "package": "Chart",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "loga_labelf",
           "normalized": "a b c Iso(LogAxisParams b)(LogAxisParams b)(b-\u003eString)(b-\u003eString)",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a linear axis with the specified bounds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "scaledAxis",
           "package": "Chart",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Generate linear axis with the specified bounds",
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "scaledAxis",
           "normalized": "LinearAxisParams a-\u003e(a,a)-\u003eAxisFn a",
@@ -557,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "unPercent",
           "package": "Chart",
@@ -566,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Floating",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Floating",
           "name": "unPercent",
           "package": "Chart",
@@ -580,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculate and render indexed axes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "Indexed",
           "package": "Chart",
@@ -589,6 +638,7 @@
         "index": {
           "description": "Calculate and render indexed axes",
           "hierarchy": "Graphics Rendering Chart Axis Indexed",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "Indexed",
           "package": "Chart",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for capturing values plotted by index number\n   (ie position in a list) rather than a numerical value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "PlotIndex",
           "package": "Chart",
@@ -612,6 +663,7 @@
         "index": {
           "description": "Type for capturing values plotted by index number ie position in list rather than numerical value",
           "hierarchy": "Graphics Rendering Chart Axis Indexed",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "PlotIndex",
           "package": "Chart",
@@ -625,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "PlotIndex",
           "package": "Chart",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Indexed",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "PlotIndex",
           "package": "Chart",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAugment a list of values with index numbers for plotting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "addIndexes",
           "package": "Chart",
@@ -658,6 +713,7 @@
         "index": {
           "description": "Augment list of values with index numbers for plotting",
           "hierarchy": "Graphics Rendering Chart Axis Indexed",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "addIndexes",
           "normalized": "[a]-\u003e[(PlotIndex,a)]",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an axis for values indexed by position. The\n   list of strings are the labels to be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "autoIndexAxis",
           "package": "Chart",
@@ -684,6 +741,7 @@
         "index": {
           "description": "Create an axis for values indexed by position The list of strings are the labels to be used",
           "hierarchy": "Graphics Rendering Chart Axis Indexed",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "autoIndexAxis",
           "normalized": "[String]-\u003e[a]-\u003eAxisData a",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "plotindex_i",
           "package": "Chart",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Indexed",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Indexed",
           "name": "plotindex_i",
           "package": "Chart",
@@ -721,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculate and render integer indexed axes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Int",
           "name": "Int",
           "package": "Chart",
@@ -730,6 +791,7 @@
         "index": {
           "description": "Calculate and render integer indexed axes",
           "hierarchy": "Graphics Rendering Chart Axis Int",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Int",
           "name": "Int",
           "package": "Chart",
@@ -743,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Int",
           "name": "autoScaledIntAxis",
           "package": "Chart",
@@ -752,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Int",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Int",
           "name": "autoScaledIntAxis",
           "normalized": "LinearAxisParams a-\u003eAxisFn a",
@@ -767,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Int",
           "name": "defaultIntAxis",
           "package": "Chart",
@@ -776,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Int",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Int",
           "name": "defaultIntAxis",
           "package": "Chart",
@@ -789,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Int",
           "name": "scaledIntAxis",
           "package": "Chart",
@@ -798,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Int",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Int",
           "name": "scaledIntAxis",
           "normalized": "LinearAxisParams a-\u003e(a,a)-\u003eAxisFn a",
@@ -814,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculate and render time axes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "LocalTime",
           "package": "Chart",
@@ -823,6 +892,7 @@
         "index": {
           "description": "Calculate and render time axes",
           "hierarchy": "Graphics Rendering Chart Axis LocalTime",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "LocalTime",
           "package": "Chart",
@@ -837,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomatically choose a suitable time axis, based upon the time range\n   of data.  The values to be plotted against this axis can be created\n   with \u003ccode\u003edoubleFromLocalTime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "autoTimeAxis",
           "package": "Chart",
@@ -847,6 +918,7 @@
         "index": {
           "description": "Automatically choose suitable time axis based upon the time range of data The values to be plotted against this axis can be created with doubleFromLocalTime",
           "hierarchy": "Graphics Rendering Chart Axis LocalTime",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "autoTimeAxis",
           "package": "Chart",
@@ -861,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eTimeSeq\u003c/code\u003e for calendar days.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "days",
           "package": "Chart",
@@ -871,6 +944,7 @@
         "index": {
           "description": "TimeSeq for calendar days",
           "hierarchy": "Graphics Rendering Chart Axis LocalTime",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "days",
           "package": "Chart",
@@ -884,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eTimeSeq\u003c/code\u003e for calendar months.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "months",
           "package": "Chart",
@@ -894,6 +969,7 @@
         "index": {
           "description": "TimeSeq for calendar months",
           "hierarchy": "Graphics Rendering Chart Axis LocalTime",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "months",
           "package": "Chart",
@@ -907,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eAxisFn\u003c/a\u003e\u003c/code\u003e to for a time axis.  The first \u003ccode\u003eTimeSeq\u003c/code\u003e sets the\n   minor ticks, and the ultimate range will be aligned to its elements.\n   The second \u003ccode\u003eTimeSeq\u003c/code\u003e sets the labels and grid.  The third \u003ccode\u003eTimeSeq\u003c/code\u003e\n   sets the second line of labels.  The \u003ccode\u003eTimeLabelFn\u003c/code\u003e is\n   used to format LocalTimes for labels.  The values to be plotted\n   against this axis can be created with \u003ccode\u003edoubleFromLocalTime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "timeAxis",
           "package": "Chart",
@@ -917,6 +994,7 @@
         "index": {
           "description": "Create an AxisFn to for time axis The first TimeSeq sets the minor ticks and the ultimate range will be aligned to its elements The second TimeSeq sets the labels and grid The third TimeSeq sets the second line of labels The TimeLabelFn is used to format LocalTimes for labels The values to be plotted against this axis can be created with doubleFromLocalTime",
           "hierarchy": "Graphics Rendering Chart Axis LocalTime",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "timeAxis",
           "normalized": "TimeSeq-\u003eTimeSeq-\u003eTimeLabelFn-\u003eTimeLabelAlignment-\u003eTimeSeq-\u003eTimeLabelFn-\u003eTimeLabelAlignment-\u003eAxisFn LocalTime",
@@ -933,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eTimeSeq\u003c/code\u003e for calendar years.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "years",
           "package": "Chart",
@@ -943,6 +1022,7 @@
         "index": {
           "description": "TimeSeq for calendar years",
           "hierarchy": "Graphics Rendering Chart Axis LocalTime",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.LocalTime",
           "name": "years",
           "package": "Chart",
@@ -956,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType definitions for Axes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "Types",
           "package": "Chart",
@@ -965,6 +1046,7 @@
         "index": {
           "description": "Type definitions for Axes",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "Types",
           "package": "Chart",
@@ -979,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic data associated with an axis showing values of type x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisData",
           "package": "Chart",
@@ -988,6 +1071,7 @@
         "index": {
           "description": "The basic data associated with an axis showing values of type",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisData",
           "package": "Chart",
@@ -1002,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to generate the axis data, given the data values\n   to be plotted against it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisFn",
           "package": "Chart",
@@ -1011,6 +1096,7 @@
         "index": {
           "description": "function to generate the axis data given the data values to be plotted against it",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisFn",
           "package": "Chart",
@@ -1025,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl values for how an axis gets displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisStyle",
           "package": "Chart",
@@ -1034,6 +1121,7 @@
         "index": {
           "description": "Control values for how an axis gets displayed",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisStyle",
           "package": "Chart",
@@ -1048,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect the information we need to render an axis. The\n   bool is true if the axis direction is reversed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisT",
           "package": "Chart",
@@ -1057,6 +1146,7 @@
         "index": {
           "description": "Collect the information we need to render an axis The bool is true if the axis direction is reversed",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisT",
           "package": "Chart",
@@ -1071,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfigures whick visual elements of a axis are shown at the\n   appropriate edge of a plot area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisVisibility",
           "package": "Chart",
@@ -1080,6 +1171,7 @@
         "index": {
           "description": "Configures whick visual elements of axis are shown at the appropriate edge of plot area",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisVisibility",
           "package": "Chart",
@@ -1094,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass abstracting the functions we need\n to be able to plot against an axis of type a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "PlotValue",
           "package": "Chart",
@@ -1103,6 +1196,7 @@
         "index": {
           "description": "typeclass abstracting the functions we need to be able to plot against an axis of type",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "PlotValue",
           "package": "Chart",
@@ -1116,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisData",
           "package": "Chart",
@@ -1125,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisData",
           "package": "Chart",
@@ -1138,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisStyle",
           "package": "Chart",
@@ -1147,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisStyle",
           "package": "Chart",
@@ -1160,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisT",
           "package": "Chart",
@@ -1169,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisT",
           "package": "Chart",
@@ -1182,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisVisibility",
           "package": "Chart",
@@ -1191,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "AxisVisibility",
           "package": "Chart",
@@ -1205,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe positions on the axis (in viewport units) where\n   we want to show grid lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_grid",
           "package": "Chart",
@@ -1215,6 +1318,7 @@
         "index": {
           "description": "The positions on the axis in viewport units where we want to show grid lines",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_grid",
           "normalized": "[a]",
@@ -1230,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLineStyle\u003c/a\u003e\u003c/code\u003e to use for axis grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_grid_style",
           "package": "Chart",
@@ -1240,6 +1345,7 @@
         "index": {
           "description": "LineStyle to use for axis grid",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_grid_style",
           "package": "Chart",
@@ -1253,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow far the labels are to be drawn from the axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_label_gap",
           "package": "Chart",
@@ -1263,6 +1370,7 @@
         "index": {
           "description": "How far the labels are to be drawn from the axis",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_label_gap",
           "package": "Chart",
@@ -1276,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFontStyle\u003c/a\u003e\u003c/code\u003e to use for axis labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_label_style",
           "package": "Chart",
@@ -1286,6 +1395,7 @@
         "index": {
           "description": "FontStyle to use for axis labels",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_label_style",
           "package": "Chart",
@@ -1299,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe labels on an axis as pairs. The first element of the pair\n   is the position on the axis (in viewport units) and the\n   second is the label text string. Note that multiple sets of\n   labels can be specified, and are shown successively further\n   away from the axis line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_labels",
           "package": "Chart",
@@ -1309,6 +1420,7 @@
         "index": {
           "description": "The labels on an axis as pairs The first element of the pair is the position on the axis in viewport units and the second is the label text string Note that multiple sets of labels can be specified and are shown successively further away from the axis line",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_labels",
           "normalized": "[[(a,String)]]",
@@ -1324,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLineStyle\u003c/a\u003e\u003c/code\u003e to use for axis line and ticks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_line_style",
           "package": "Chart",
@@ -1334,6 +1447,7 @@
         "index": {
           "description": "LineStyle to use for axis line and ticks",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_line_style",
           "package": "Chart",
@@ -1347,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to display the labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_show_labels",
           "package": "Chart",
@@ -1357,6 +1472,7 @@
         "index": {
           "description": "Whether to display the labels",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_show_labels",
           "package": "Chart",
@@ -1370,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to display a line along the axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_show_line",
           "package": "Chart",
@@ -1380,6 +1497,7 @@
         "index": {
           "description": "Whether to display line along the axis",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_show_line",
           "package": "Chart",
@@ -1393,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to display the tick marks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_show_ticks",
           "package": "Chart",
@@ -1403,6 +1522,7 @@
         "index": {
           "description": "Whether to display the tick marks",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_show_ticks",
           "package": "Chart",
@@ -1416,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tick marks on the axis as pairs.\n   The first element is the position on the axis\n   (in viewport units) and the second element is the\n   length of the tick in output coordinates.\n   The tick starts on the axis, and positive numbers are drawn\n   towards the plot area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_ticks",
           "package": "Chart",
@@ -1426,6 +1547,7 @@
         "index": {
           "description": "The tick marks on the axis as pairs The first element is the position on the axis in viewport units and the second element is the length of the tick in output coordinates The tick starts on the axis and positive numbers are drawn towards the plot area",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_ticks",
           "normalized": "[(a,Double)]",
@@ -1441,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe _axis_tropweiv function maps device coordinates back to values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_tropweiv",
           "package": "Chart",
@@ -1451,6 +1574,7 @@
         "index": {
           "description": "The axis tropweiv function maps device coordinates back to values",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_tropweiv",
           "normalized": "Range-\u003eDouble-\u003ea",
@@ -1466,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe _axis_viewport function maps values into device coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_viewport",
           "package": "Chart",
@@ -1476,6 +1601,7 @@
         "index": {
           "description": "The axis viewport function maps values into device coordinates",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_viewport",
           "normalized": "Range-\u003ea-\u003eDouble",
@@ -1491,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich parts of the axis shall be displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_visibility",
           "package": "Chart",
@@ -1501,6 +1628,7 @@
         "index": {
           "description": "Which parts of the axis shall be displayed",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "_axis_visibility",
           "package": "Chart",
@@ -1513,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "autoAxis",
           "package": "Chart",
@@ -1522,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "autoAxis",
           "package": "Chart",
@@ -1536,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier to position grid lines to line up with only the major ticks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisGridAtBigTicks",
           "package": "Chart",
@@ -1546,6 +1677,7 @@
         "index": {
           "description": "Modifier to position grid lines to line up with only the major ticks",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisGridAtBigTicks",
           "normalized": "AxisData a-\u003eAxisData a",
@@ -1562,6 +1694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier to position grid lines to line up with the labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisGridAtLabels",
           "package": "Chart",
@@ -1572,6 +1705,7 @@
         "index": {
           "description": "Modifier to position grid lines to line up with the labels",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisGridAtLabels",
           "normalized": "AxisData a-\u003eAxisData a",
@@ -1588,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier to position grid lines to line up with the ticks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisGridAtTicks",
           "package": "Chart",
@@ -1598,6 +1733,7 @@
         "index": {
           "description": "Modifier to position grid lines to line up with the ticks",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisGridAtTicks",
           "normalized": "AxisData a-\u003eAxisData a",
@@ -1614,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier to remove grid lines from an axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisGridHide",
           "package": "Chart",
@@ -1624,6 +1761,7 @@
         "index": {
           "description": "Modifier to remove grid lines from an axis",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisGridHide",
           "normalized": "AxisData a-\u003eAxisData a",
@@ -1640,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier to change labels on an axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisLabelsOverride",
           "package": "Chart",
@@ -1650,6 +1789,7 @@
         "index": {
           "description": "Modifier to change labels on an axis",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisLabelsOverride",
           "normalized": "[(a,String)]-\u003eAxisData a-\u003eAxisData a",
@@ -1666,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the amount by which the labels extend beyond\n   the ends of the axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisOverhang",
           "package": "Chart",
@@ -1676,6 +1817,7 @@
         "index": {
           "description": "Calculate the amount by which the labels extend beyond the ends of the axis",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisOverhang",
           "normalized": "AxisT a-\u003eChartBackend(Double,Double)",
@@ -1692,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a renderable from an axis, in order that\n it can be composed with other renderables and drawn. This\n does not include the drawing of the grid, which must be done\n separately by the \u003ccode\u003e\u003ca\u003erenderAxisGrid\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisToRenderable",
           "package": "Chart",
@@ -1702,6 +1845,7 @@
         "index": {
           "description": "Construct renderable from an axis in order that it can be composed with other renderables and drawn This does not include the drawing of the grid which must be done separately by the renderAxisGrid function",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axisToRenderable",
           "normalized": "AxisT a-\u003eRenderable a",
@@ -1717,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_grid",
           "package": "Chart",
@@ -1726,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_grid",
           "normalized": "a b Lens'(AxisData c)[c]",
@@ -1740,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_grid_style",
           "package": "Chart",
@@ -1749,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_grid_style",
           "package": "Chart",
@@ -1761,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_label_gap",
           "package": "Chart",
@@ -1770,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_label_gap",
           "package": "Chart",
@@ -1782,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_label_style",
           "package": "Chart",
@@ -1791,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_label_style",
           "package": "Chart",
@@ -1803,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_labels",
           "package": "Chart",
@@ -1812,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_labels",
           "normalized": "a b Lens'(AxisData c)[[(c,String)]]",
@@ -1826,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_line_style",
           "package": "Chart",
@@ -1835,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_line_style",
           "package": "Chart",
@@ -1847,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_show_labels",
           "package": "Chart",
@@ -1856,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_show_labels",
           "package": "Chart",
@@ -1868,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_show_line",
           "package": "Chart",
@@ -1877,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_show_line",
           "package": "Chart",
@@ -1889,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_show_ticks",
           "package": "Chart",
@@ -1898,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_show_ticks",
           "package": "Chart",
@@ -1910,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_ticks",
           "package": "Chart",
@@ -1919,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_ticks",
           "normalized": "a b Lens'(AxisData c)[(c,Double)]",
@@ -1933,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_tropweiv",
           "package": "Chart",
@@ -1942,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_tropweiv",
           "normalized": "a b Lens'(AxisData c)(Range-\u003eDouble-\u003ec)",
@@ -1956,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_viewport",
           "package": "Chart",
@@ -1965,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_viewport",
           "normalized": "a b Lens'(AxisData c)(Range-\u003ec-\u003eDouble)",
@@ -1979,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_visibility",
           "package": "Chart",
@@ -1988,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "axis_visibility",
           "package": "Chart",
@@ -2001,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default \u003ccode\u003e\u003ca\u003eLineStyle\u003c/a\u003e\u003c/code\u003e of an axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "defaultAxisLineStyle",
           "package": "Chart",
@@ -2011,6 +2182,7 @@
         "index": {
           "description": "The default LineStyle of an axis",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "defaultAxisLineStyle",
           "package": "Chart",
@@ -2025,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "defaultAxisStyle",
           "package": "Chart",
@@ -2035,6 +2208,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "defaultAxisStyle",
           "package": "Chart",
@@ -2049,6 +2223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default \u003ccode\u003e\u003ca\u003eLineStyle\u003c/a\u003e\u003c/code\u003e of a plot area grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "defaultGridLineStyle",
           "package": "Chart",
@@ -2059,6 +2234,7 @@
         "index": {
           "description": "The default LineStyle of plot area grid",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "defaultGridLineStyle",
           "package": "Chart",
@@ -2072,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "fromValue",
           "package": "Chart",
@@ -2081,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "fromValue",
           "normalized": "Double-\u003ea",
@@ -2097,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn inverse linear mapping of points from one range to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "invLinMap",
           "package": "Chart",
@@ -2107,6 +2286,7 @@
         "index": {
           "description": "An inverse linear mapping of points from one range to another",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "invLinMap",
           "normalized": "(Double-\u003ea)-\u003e(a-\u003eDouble)-\u003e(a,a)-\u003eRange-\u003eDouble-\u003ea",
@@ -2123,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse mapping from device co-ordinate range back to\n   interesting values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "invmap",
           "package": "Chart",
@@ -2133,6 +2314,7 @@
         "index": {
           "description": "The inverse mapping from device co-ordinate range back to interesting values",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "invmap",
           "normalized": "(a,a)-\u003eRange-\u003eDouble-\u003ea",
@@ -2148,6 +2330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA linear mapping of points in one range to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "linMap",
           "package": "Chart",
@@ -2158,6 +2341,7 @@
         "index": {
           "description": "linear mapping of points in one range to another",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "linMap",
           "normalized": "(a-\u003eDouble)-\u003e(a,a)-\u003eRange-\u003ea-\u003eDouble",
@@ -2174,6 +2358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an axis given the positions for ticks, grid lines, and \n labels, and the labelling function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "makeAxis",
           "package": "Chart",
@@ -2184,6 +2369,7 @@
         "index": {
           "description": "Construct an axis given the positions for ticks grid lines and labels and the labelling function",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "makeAxis",
           "normalized": "(a-\u003eString)-\u003e([a],[a],[a])-\u003eAxisData a",
@@ -2200,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an axis given the positions for ticks, grid lines, and \n labels, and the positioning and labelling functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "makeAxis'",
           "package": "Chart",
@@ -2210,6 +2397,7 @@
         "index": {
           "description": "Construct an axis given the positions for ticks grid lines and labels and the positioning and labelling functions",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "makeAxis'",
           "normalized": "(a-\u003eDouble)-\u003e(Double-\u003ea)-\u003e(a-\u003eString)-\u003e([a],[a],[a])-\u003eAxisData a",
@@ -2225,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "renderAxisGrid",
           "package": "Chart",
@@ -2234,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "renderAxisGrid",
           "normalized": "RectSize-\u003eAxisT a-\u003eChartBackend()",
@@ -2249,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "toValue",
           "package": "Chart",
@@ -2258,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "toValue",
           "normalized": "a-\u003eDouble",
@@ -2274,6 +2466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA linear mapping of points in one range to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "vmap",
           "package": "Chart",
@@ -2284,6 +2477,7 @@
         "index": {
           "description": "linear mapping of points in one range to another",
           "hierarchy": "Graphics Rendering Chart Axis Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Types",
           "name": "vmap",
           "normalized": "(a,a)-\u003eRange-\u003ea-\u003eDouble",
@@ -2299,6 +2493,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculate and render unit indexed axes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Unit",
           "name": "Unit",
           "package": "Chart",
@@ -2308,6 +2503,7 @@
         "index": {
           "description": "Calculate and render unit indexed axes",
           "hierarchy": "Graphics Rendering Chart Axis Unit",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Unit",
           "name": "Unit",
           "package": "Chart",
@@ -2321,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis.Unit",
           "name": "unitAxis",
           "package": "Chart",
@@ -2330,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Axis Unit",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis.Unit",
           "name": "unitAxis",
           "normalized": "AxisData()",
@@ -2346,6 +2544,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode to calculate and render axes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Axis",
           "name": "Axis",
           "package": "Chart",
@@ -2355,6 +2554,7 @@
         "index": {
           "description": "Code to calculate and render axes",
           "hierarchy": "Graphics Rendering Chart Axis",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Axis",
           "name": "Axis",
           "package": "Chart",
@@ -2369,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the implementation details common to all \u003ccode\u003e\u003ca\u003eChartBackend\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "Impl",
           "package": "Chart",
@@ -2378,6 +2579,7 @@
         "index": {
           "description": "This module provides the implementation details common to all ChartBackend",
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "Impl",
           "package": "Chart",
@@ -2392,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the new name ChartBackend!\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eAlias so the old name for rendering code still works.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "CRender",
           "package": "Chart",
@@ -2401,6 +2604,7 @@
         "index": {
           "description": "Deprecated Use the new name ChartBackend Alias so the old name for rendering code still works",
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "CRender",
           "package": "Chart",
@@ -2415,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eChartBackend\u003c/a\u003e\u003c/code\u003e provides the capability to render a chart somewhere.\n\u003c/p\u003e\u003cp\u003eThe coordinate system of the backend has its initial origin (0,0)\n   in the top left corner of the drawing plane. The x-axis points \n   towards the top right corner and the y-axis points towards \n   the bottom left corner. The unit used by coordinates, the font size,\n   and lengths is the always the same, but depends on the backend.\n   All angles are measured in radians.\n\u003c/p\u003e\u003cp\u003eThe line, fill and font style are set to their default values \n   initially.\n\u003c/p\u003e\u003cp\u003eInformation about the semantics of the instructions can be \n   found in the documentation of \u003ccode\u003e\u003ca\u003eChartBackendInstr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "ChartBackend",
           "package": "Chart",
@@ -2424,6 +2629,7 @@
         "index": {
           "description": "ChartBackend provides the capability to render chart somewhere The coordinate system of the backend has its initial origin in the top left corner of the drawing plane The x-axis points towards the top right corner and the y-axis points towards the bottom left corner The unit used by coordinates the font size and lengths is the always the same but depends on the backend All angles are measured in radians The line fill and font style are set to their default values initially Information about the semantics of the instructions can be found in the documentation of ChartBackendInstr",
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "ChartBackend",
           "package": "Chart",
@@ -2438,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract drawing operation generated when using the\n   the chart drawing API.\n\u003c/p\u003e\u003cp\u003eSee the documentation of the different function for the correct semantics\n   of each instruction:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003estrokePath\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efillPath\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edrawText\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etextSize\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003egetPointAlignFn\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetCoordAlignFn\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eAlignmentFns\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ewithTransform\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ewithClipRegion\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ewithLineStyle\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ewithFillStyle\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ewithFontStyle\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "ChartBackendInstr",
           "package": "Chart",
@@ -2447,6 +2654,7 @@
         "index": {
           "description": "The abstract drawing operation generated when using the the chart drawing API See the documentation of the different function for the correct semantics of each instruction strokePath fillPath drawText textSize getPointAlignFn getCoordAlignFn AlignmentFns withTransform withClipRegion withLineStyle withFillStyle withFontStyle",
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "ChartBackendInstr",
           "package": "Chart",
@@ -2460,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "DrawText",
           "package": "Chart",
@@ -2469,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "DrawText",
           "normalized": "Point-\u003eString-\u003eChartBackendInstr()",
@@ -2484,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "FillPath",
           "package": "Chart",
@@ -2493,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "FillPath",
           "normalized": "Path-\u003eChartBackendInstr()",
@@ -2508,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "GetAlignments",
           "package": "Chart",
@@ -2517,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "GetAlignments",
           "package": "Chart",
@@ -2530,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "GetTextSize",
           "package": "Chart",
@@ -2539,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "GetTextSize",
           "normalized": "String-\u003eChartBackendInstr TextSize",
@@ -2554,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "StrokePath",
           "package": "Chart",
@@ -2563,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "StrokePath",
           "normalized": "Path-\u003eChartBackendInstr()",
@@ -2578,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithClipRegion",
           "package": "Chart",
@@ -2587,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithClipRegion",
           "normalized": "Rect-\u003eProgram ChartBackendInstr a-\u003eChartBackendInstr a",
@@ -2602,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithFillStyle",
           "package": "Chart",
@@ -2611,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithFillStyle",
           "normalized": "FillStyle-\u003eProgram ChartBackendInstr a-\u003eChartBackendInstr a",
@@ -2626,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithFontStyle",
           "package": "Chart",
@@ -2635,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithFontStyle",
           "normalized": "FontStyle-\u003eProgram ChartBackendInstr a-\u003eChartBackendInstr a",
@@ -2650,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithLineStyle",
           "package": "Chart",
@@ -2659,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithLineStyle",
           "normalized": "LineStyle-\u003eProgram ChartBackendInstr a-\u003eChartBackendInstr a",
@@ -2674,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithTransform",
           "package": "Chart",
@@ -2683,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Impl",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Impl",
           "name": "WithTransform",
           "normalized": "Matrix-\u003eProgram ChartBackendInstr a-\u003eChartBackendInstr a",
@@ -2995,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "Types",
           "package": "Chart",
@@ -3003,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "Types",
           "package": "Chart",
@@ -3017,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to align points for a certain rendering device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "AlignmentFn",
           "package": "Chart",
@@ -3026,6 +3257,7 @@
         "index": {
           "description": "function to align points for certain rendering device",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "AlignmentFn",
           "package": "Chart",
@@ -3040,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHolds the point and coordinate alignment function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "AlignmentFns",
           "package": "Chart",
@@ -3049,6 +3282,7 @@
         "index": {
           "description": "Holds the point and coordinate alignment function",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "AlignmentFns",
           "package": "Chart",
@@ -3063,6 +3297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for a fill style.\n\u003c/p\u003e\u003cp\u003eThe contained Cairo action sets the required fill\n   style in the Cairo rendering state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "FillStyle",
           "package": "Chart",
@@ -3072,6 +3307,7 @@
         "index": {
           "description": "Abstract data type for fill style The contained Cairo action sets the required fill style in the Cairo rendering state",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "FillStyle",
           "package": "Chart",
@@ -3086,6 +3322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible slants of a font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "FontSlant",
           "package": "Chart",
@@ -3095,6 +3332,7 @@
         "index": {
           "description": "The possible slants of font",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "FontSlant",
           "package": "Chart",
@@ -3109,6 +3347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for a font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "FontStyle",
           "package": "Chart",
@@ -3118,6 +3357,7 @@
         "index": {
           "description": "Data type for font",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "FontStyle",
           "package": "Chart",
@@ -3132,6 +3372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible weights of a font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "FontWeight",
           "package": "Chart",
@@ -3141,6 +3382,7 @@
         "index": {
           "description": "The possible weights of font",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "FontWeight",
           "package": "Chart",
@@ -3155,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible horizontal anchor points for text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "HTextAnchor",
           "package": "Chart",
@@ -3164,6 +3407,7 @@
         "index": {
           "description": "Possible horizontal anchor points for text",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "HTextAnchor",
           "package": "Chart",
@@ -3178,6 +3422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different supported line ends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "LineCap",
           "package": "Chart",
@@ -3187,6 +3432,7 @@
         "index": {
           "description": "The different supported line ends",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "LineCap",
           "package": "Chart",
@@ -3201,6 +3447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different supported ways to join line ends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "LineJoin",
           "package": "Chart",
@@ -3210,6 +3457,7 @@
         "index": {
           "description": "The different supported ways to join line ends",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "LineJoin",
           "package": "Chart",
@@ -3224,6 +3472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for the style of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "LineStyle",
           "package": "Chart",
@@ -3233,6 +3482,7 @@
         "index": {
           "description": "Data type for the style of line",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "LineStyle",
           "package": "Chart",
@@ -3247,6 +3497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText metrics returned by \u003ccode\u003etextSize\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "TextSize",
           "package": "Chart",
@@ -3256,6 +3507,7 @@
         "index": {
           "description": "Text metrics returned by textSize",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "TextSize",
           "package": "Chart",
@@ -3270,6 +3522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible vertical anchor points for text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "VTextAnchor",
           "package": "Chart",
@@ -3279,6 +3532,7 @@
         "index": {
           "description": "Possible vertical anchor points for text",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "VTextAnchor",
           "package": "Chart",
@@ -3292,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "AlignmentFns",
           "package": "Chart",
@@ -3301,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "AlignmentFns",
           "package": "Chart",
@@ -4107,6 +4363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA adjustment applied immediately prior to coordinates\n   being transformed.\n\u003c/p\u003e\u003cp\u003eThis is usually used to align prior to filling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "afCoordAlignFn",
           "package": "Chart",
@@ -4117,6 +4374,7 @@
         "index": {
           "description": "adjustment applied immediately prior to coordinates being transformed This is usually used to align prior to filling",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "afCoordAlignFn",
           "package": "Chart",
@@ -4131,6 +4389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn adjustment applied immediately prior to points\n   being displayed in device coordinates.\n\u003c/p\u003e\u003cp\u003eWhen device coordinates correspond to pixels, a cleaner\n   image is created if this transform rounds to the nearest\n   pixel. With higher-resolution output, this transform can\n   just be the identity function.\n\u003c/p\u003e\u003cp\u003eThis is usually used to align prior to stroking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "afPointAlignFn",
           "package": "Chart",
@@ -4141,6 +4400,7 @@
         "index": {
           "description": "An adjustment applied immediately prior to points being displayed in device coordinates When device coordinates correspond to pixels cleaner image is created if this transform rounds to the nearest pixel With higher-resolution output this transform can just be the identity function This is usually used to align prior to stroking",
           "hierarchy": "Graphics Rendering Chart Backend Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend.Types",
           "name": "afPointAlignFn",
           "package": "Chart",
@@ -4577,6 +4837,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the API for drawing operations abstracted\n to arbitrary \u003ccode\u003e\u003ca\u003eChartBackend\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "Backend",
           "package": "Chart",
@@ -4586,6 +4847,7 @@
         "index": {
           "description": "This module provides the API for drawing operations abstracted to arbitrary ChartBackend",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "Backend",
           "package": "Chart",
@@ -4600,6 +4862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to align points for a certain rendering device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "AlignmentFn",
           "package": "Chart",
@@ -4609,6 +4872,7 @@
         "index": {
           "description": "function to align points for certain rendering device",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "AlignmentFn",
           "package": "Chart",
@@ -4623,6 +4887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHolds the point and coordinate alignment function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "AlignmentFns",
           "package": "Chart",
@@ -4632,6 +4897,7 @@
         "index": {
           "description": "Holds the point and coordinate alignment function",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "AlignmentFns",
           "package": "Chart",
@@ -4646,6 +4912,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the new name ChartBackend!\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eAlias so the old name for rendering code still works.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "CRender",
           "package": "Chart",
@@ -4655,6 +4922,7 @@
         "index": {
           "description": "Deprecated Use the new name ChartBackend Alias so the old name for rendering code still works",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "CRender",
           "package": "Chart",
@@ -4669,6 +4937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eChartBackend\u003c/a\u003e\u003c/code\u003e provides the capability to render a chart somewhere.\n\u003c/p\u003e\u003cp\u003eThe coordinate system of the backend has its initial origin (0,0)\n   in the top left corner of the drawing plane. The x-axis points \n   towards the top right corner and the y-axis points towards \n   the bottom left corner. The unit used by coordinates, the font size,\n   and lengths is the always the same, but depends on the backend.\n   All angles are measured in radians.\n\u003c/p\u003e\u003cp\u003eThe line, fill and font style are set to their default values \n   initially.\n\u003c/p\u003e\u003cp\u003eInformation about the semantics of the instructions can be \n   found in the documentation of \u003ccode\u003e\u003ca\u003eChartBackendInstr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "ChartBackend",
           "package": "Chart",
@@ -4678,6 +4947,7 @@
         "index": {
           "description": "ChartBackend provides the capability to render chart somewhere The coordinate system of the backend has its initial origin in the top left corner of the drawing plane The x-axis points towards the top right corner and the y-axis points towards the bottom left corner The unit used by coordinates the font size and lengths is the always the same but depends on the backend All angles are measured in radians The line fill and font style are set to their default values initially Information about the semantics of the instructions can be found in the documentation of ChartBackendInstr",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "ChartBackend",
           "package": "Chart",
@@ -4692,6 +4962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for a fill style.\n\u003c/p\u003e\u003cp\u003eThe contained Cairo action sets the required fill\n   style in the Cairo rendering state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "FillStyle",
           "package": "Chart",
@@ -4701,6 +4972,7 @@
         "index": {
           "description": "Abstract data type for fill style The contained Cairo action sets the required fill style in the Cairo rendering state",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "FillStyle",
           "package": "Chart",
@@ -4715,6 +4987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible slants of a font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "FontSlant",
           "package": "Chart",
@@ -4724,6 +4997,7 @@
         "index": {
           "description": "The possible slants of font",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "FontSlant",
           "package": "Chart",
@@ -4738,6 +5012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for a font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "FontStyle",
           "package": "Chart",
@@ -4747,6 +5022,7 @@
         "index": {
           "description": "Data type for font",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "FontStyle",
           "package": "Chart",
@@ -4761,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible weights of a font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "FontWeight",
           "package": "Chart",
@@ -4770,6 +5047,7 @@
         "index": {
           "description": "The possible weights of font",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "FontWeight",
           "package": "Chart",
@@ -4784,6 +5062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible horizontal anchor points for text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "HTextAnchor",
           "package": "Chart",
@@ -4793,6 +5072,7 @@
         "index": {
           "description": "Possible horizontal anchor points for text",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "HTextAnchor",
           "package": "Chart",
@@ -4807,6 +5087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different supported line ends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "LineCap",
           "package": "Chart",
@@ -4816,6 +5097,7 @@
         "index": {
           "description": "The different supported line ends",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "LineCap",
           "package": "Chart",
@@ -4830,6 +5112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different supported ways to join line ends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "LineJoin",
           "package": "Chart",
@@ -4839,6 +5122,7 @@
         "index": {
           "description": "The different supported ways to join line ends",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "LineJoin",
           "package": "Chart",
@@ -4853,6 +5137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for the style of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "LineStyle",
           "package": "Chart",
@@ -4862,6 +5147,7 @@
         "index": {
           "description": "Data type for the style of line",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "LineStyle",
           "package": "Chart",
@@ -4876,6 +5162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText metrics returned by \u003ccode\u003etextSize\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "TextSize",
           "package": "Chart",
@@ -4885,6 +5172,7 @@
         "index": {
           "description": "Text metrics returned by textSize",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "TextSize",
           "package": "Chart",
@@ -4899,6 +5187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible vertical anchor points for text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "VTextAnchor",
           "package": "Chart",
@@ -4908,6 +5197,7 @@
         "index": {
           "description": "Possible vertical anchor points for text",
           "hierarchy": "Graphics Rendering Chart Backend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Backend",
           "name": "VTextAnchor",
           "package": "Chart",
@@ -4922,6 +5212,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains basic types and functions used for drawing.\n\u003c/p\u003e\u003cp\u003eNote that Template Haskell is used to derive accessor functions\n (see \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e) for each field of the following data types:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ePointStyle\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThese accessors are not shown in this API documentation.  They have\n the same name as the field, but with the trailing underscore\n dropped. Hence for data field f_::F in type D, they have type\n\u003c/p\u003e\u003cpre\u003e\n   f :: Control.Lens.Lens' D F\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "Drawing",
           "package": "Chart",
@@ -4931,6 +5222,7 @@
         "index": {
           "description": "This module contains basic types and functions used for drawing Note that Template Haskell is used to derive accessor functions see Lens for each field of the following data types PointStyle These accessors are not shown in this API documentation They have the same name as the field but with the trailing underscore dropped Hence for data field in type they have type Control.Lens.Lens",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "Drawing",
           "package": "Chart",
@@ -4945,6 +5237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different shapes a point can have.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShape",
           "package": "Chart",
@@ -4954,6 +5247,7 @@
         "index": {
           "description": "The different shapes point can have",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShape",
           "package": "Chart",
@@ -4968,6 +5262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for the style of a plotted point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointStyle",
           "package": "Chart",
@@ -4977,6 +5272,7 @@
         "index": {
           "description": "Abstract data type for the style of plotted point",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointStyle",
           "package": "Chart",
@@ -4991,6 +5287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapeCircle",
           "package": "Chart",
@@ -5001,6 +5298,7 @@
         "index": {
           "description": "circle",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapeCircle",
           "package": "Chart",
@@ -5015,6 +5313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cross.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapeCross",
           "package": "Chart",
@@ -5025,6 +5324,7 @@
         "index": {
           "description": "cross",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapeCross",
           "package": "Chart",
@@ -5039,6 +5339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapePlus",
           "package": "Chart",
@@ -5049,6 +5350,7 @@
         "index": {
           "description": "plus sign",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapePlus",
           "package": "Chart",
@@ -5063,6 +5365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of vertices and is right-side-up?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapePolygon",
           "package": "Chart",
@@ -5073,6 +5376,7 @@
         "index": {
           "description": "Number of vertices and is right-side-up",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapePolygon",
           "package": "Chart",
@@ -5087,6 +5391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of a cross and a plus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapeStar",
           "package": "Chart",
@@ -5097,6 +5402,7 @@
         "index": {
           "description": "Combination of cross and plus",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointShapeStar",
           "package": "Chart",
@@ -5110,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointStyle",
           "package": "Chart",
@@ -5119,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "PointStyle",
           "package": "Chart",
@@ -5133,6 +5441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe color to stroke the outline with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_border_color",
           "package": "Chart",
@@ -5143,6 +5452,7 @@
         "index": {
           "description": "The color to stroke the outline with",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_border_color",
           "package": "Chart",
@@ -5156,6 +5466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe width of the outline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_border_width",
           "package": "Chart",
@@ -5166,6 +5477,7 @@
         "index": {
           "description": "The width of the outline",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_border_width",
           "package": "Chart",
@@ -5179,6 +5491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe color to fill the point with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_color",
           "package": "Chart",
@@ -5189,6 +5502,7 @@
         "index": {
           "description": "The color to fill the point with",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_color",
           "package": "Chart",
@@ -5202,6 +5516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe radius of the tightest surrounding circle of the point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_radius",
           "package": "Chart",
@@ -5212,6 +5527,7 @@
         "index": {
           "description": "The radius of the tightest surrounding circle of the point",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_radius",
           "package": "Chart",
@@ -5225,6 +5541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_shape",
           "package": "Chart",
@@ -5235,6 +5552,7 @@
         "index": {
           "description": "The shape",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "_point_shape",
           "package": "Chart",
@@ -5248,6 +5566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign the path using the environment's alignment function for coordinates.\n   This is generally useful when filling. \n   See \u003ccode\u003e\u003ca\u003ealignPath\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egetCoordAlignFn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignFillPath",
           "package": "Chart",
@@ -5258,6 +5577,7 @@
         "index": {
           "description": "Align the path using the environment alignment function for coordinates This is generally useful when filling See alignPath and getCoordAlignFn",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignFillPath",
           "normalized": "Path-\u003eChartBackend Path",
@@ -5274,6 +5594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign the point using the environment's alignment function for coordinates.\n   See \u003ccode\u003e\u003ca\u003egetCoordAlignFn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignFillPoint",
           "package": "Chart",
@@ -5284,6 +5605,7 @@
         "index": {
           "description": "Align the point using the environment alignment function for coordinates See getCoordAlignFn",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignFillPoint",
           "normalized": "Point-\u003eChartBackend Point",
@@ -5300,6 +5622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe points will be aligned by the \u003ccode\u003e\u003ca\u003egetCoordAlignFn\u003c/a\u003e\u003c/code\u003e, so that\n   when drawing bitmaps, the edges of the region will fall between\n   pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignFillPoints",
           "package": "Chart",
@@ -5310,6 +5633,7 @@
         "index": {
           "description": "The points will be aligned by the getCoordAlignFn so that when drawing bitmaps the edges of the region will fall between pixels",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignFillPoints",
           "normalized": "[Point]-\u003eChartBackend[Point]",
@@ -5326,6 +5650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign the path by applying the given function on all points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignPath",
           "package": "Chart",
@@ -5336,6 +5661,7 @@
         "index": {
           "description": "Align the path by applying the given function on all points",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignPath",
           "normalized": "(Point-\u003ePoint)-\u003ePath-\u003ePath",
@@ -5352,6 +5678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign the path using the environment's alignment function for points.\n   This is generally useful when stroking. \n   See \u003ccode\u003e\u003ca\u003ealignPath\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egetPointAlignFn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignStrokePath",
           "package": "Chart",
@@ -5362,6 +5689,7 @@
         "index": {
           "description": "Align the path using the environment alignment function for points This is generally useful when stroking See alignPath and getPointAlignFn",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignStrokePath",
           "normalized": "Path-\u003eChartBackend Path",
@@ -5378,6 +5706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign the point using the environment's alignment function for points.\n   See \u003ccode\u003e\u003ca\u003egetPointAlignFn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignStrokePoint",
           "package": "Chart",
@@ -5388,6 +5717,7 @@
         "index": {
           "description": "Align the point using the environment alignment function for points See getPointAlignFn",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignStrokePoint",
           "normalized": "Point-\u003eChartBackend Point",
@@ -5404,6 +5734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe points will be aligned by the \u003ccode\u003e\u003ca\u003egetPointAlignFn\u003c/a\u003e\u003c/code\u003e, so that\n   when drawing bitmaps, 1 pixel wide lines will be centred on the\n   pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignStrokePoints",
           "package": "Chart",
@@ -5414,6 +5745,7 @@
         "index": {
           "description": "The points will be aligned by the getPointAlignFn so that when drawing bitmaps pixel wide lines will be centred on the pixels",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "alignStrokePoints",
           "normalized": "[Point]-\u003eChartBackend[Point]",
@@ -5430,6 +5762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a dashed line style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "dashedLine",
           "package": "Chart",
@@ -5439,6 +5772,7 @@
         "index": {
           "description": "Create dashed line style",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "dashedLine",
           "normalized": "Double-\u003e[Double]-\u003eAlphaColour Double-\u003eLineStyle",
@@ -5455,6 +5789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default sequence of colours to use when plotings different data sets\n   in a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "defaultColorSeq",
           "package": "Chart",
@@ -5465,6 +5800,7 @@
         "index": {
           "description": "The default sequence of colours to use when plotings different data sets in graph",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "defaultColorSeq",
           "normalized": "[AlphaColour Double]",
@@ -5481,6 +5817,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDefault style for points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "defaultPointStyle",
           "package": "Chart",
@@ -5491,6 +5828,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance Default style for points",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "defaultPointStyle",
           "package": "Chart",
@@ -5505,6 +5843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a single point at the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "drawPoint",
           "package": "Chart",
@@ -5514,6 +5853,7 @@
         "index": {
           "description": "Draw single point at the given location",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "drawPoint",
           "normalized": "PointStyle-\u003ePoint-\u003eChartBackend()",
@@ -5530,6 +5870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a line of text that is aligned at a different anchor point.\n   See \u003ccode\u003e\u003ca\u003edrawText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "drawTextA",
           "package": "Chart",
@@ -5540,6 +5881,7 @@
         "index": {
           "description": "Draw line of text that is aligned at different anchor point See drawText",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "drawTextA",
           "normalized": "HTextAnchor-\u003eVTextAnchor-\u003ePoint-\u003eString-\u003eChartBackend()",
@@ -5556,6 +5898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a textual label anchored by one of its corners\n   or edges, with rotation. Rotation angle is given in degrees,\n   rotation is performed around anchor point.\n   See \u003ccode\u003e\u003ca\u003edrawText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "drawTextR",
           "package": "Chart",
@@ -5566,6 +5909,7 @@
         "index": {
           "description": "Draw textual label anchored by one of its corners or edges with rotation Rotation angle is given in degrees rotation is performed around anchor point See drawText",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "drawTextR",
           "normalized": "HTextAnchor-\u003eVTextAnchor-\u003eDouble-\u003ePoint-\u003eString-\u003eChartBackend()",
@@ -5582,6 +5926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a multi-line textual label anchored by one of its corners\n   or edges, with rotation. Rotation angle is given in degrees,\n   rotation is performed around anchor point.\n   See \u003ccode\u003e\u003ca\u003edrawText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "drawTextsR",
           "package": "Chart",
@@ -5592,6 +5937,7 @@
         "index": {
           "description": "Draw multi-line textual label anchored by one of its corners or edges with rotation Rotation angle is given in degrees rotation is performed around anchor point See drawText",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "drawTextsR",
           "normalized": "HTextAnchor-\u003eVTextAnchor-\u003eDouble-\u003ePoint-\u003eString-\u003eChartBackend()",
@@ -5608,6 +5954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross point style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "exes",
           "package": "Chart",
@@ -5617,6 +5964,7 @@
         "index": {
           "description": "Cross point style",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "exes",
           "normalized": "Double-\u003eDouble-\u003eAlphaColour Double-\u003ePointStyle",
@@ -5632,6 +5980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill the region with the given corners.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "fillPointPath",
           "package": "Chart",
@@ -5642,6 +5991,7 @@
         "index": {
           "description": "Fill the region with the given corners",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "fillPointPath",
           "normalized": "[Point]-\u003eChartBackend()",
@@ -5658,6 +6008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle for filled circle points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "filledCircles",
           "package": "Chart",
@@ -5667,6 +6018,7 @@
         "index": {
           "description": "Style for filled circle points",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "filledCircles",
           "normalized": "Double-\u003eAlphaColour Double-\u003ePointStyle",
@@ -5683,6 +6035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle for filled polygon points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "filledPolygon",
           "package": "Chart",
@@ -5692,6 +6045,7 @@
         "index": {
           "description": "Style for filled polygon points",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "filledPolygon",
           "normalized": "Double-\u003eInt-\u003eBool-\u003eAlphaColour Double-\u003ePointStyle",
@@ -5708,6 +6062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle for stroked circle points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "hollowCircles",
           "package": "Chart",
@@ -5717,6 +6072,7 @@
         "index": {
           "description": "Style for stroked circle points",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "hollowCircles",
           "normalized": "Double-\u003eDouble-\u003eAlphaColour Double-\u003ePointStyle",
@@ -5733,6 +6089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle for stroked polygon points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "hollowPolygon",
           "package": "Chart",
@@ -5742,6 +6099,7 @@
         "index": {
           "description": "Style for stroked polygon points",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "hollowPolygon",
           "normalized": "Double-\u003eDouble-\u003eInt-\u003eBool-\u003eAlphaColour Double-\u003ePointStyle",
@@ -5758,6 +6116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlus sign point style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "plusses",
           "package": "Chart",
@@ -5767,6 +6126,7 @@
         "index": {
           "description": "Plus sign point style",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "plusses",
           "normalized": "Double-\u003eDouble-\u003eAlphaColour Double-\u003ePointStyle",
@@ -5781,6 +6141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_border_color",
           "package": "Chart",
@@ -5790,6 +6151,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_border_color",
           "package": "Chart",
@@ -5802,6 +6164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_border_width",
           "package": "Chart",
@@ -5811,6 +6174,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_border_width",
           "package": "Chart",
@@ -5823,6 +6187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_color",
           "package": "Chart",
@@ -5832,6 +6197,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_color",
           "package": "Chart",
@@ -5844,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_radius",
           "package": "Chart",
@@ -5853,6 +6220,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_radius",
           "package": "Chart",
@@ -5865,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_shape",
           "package": "Chart",
@@ -5874,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "point_shape",
           "package": "Chart",
@@ -5887,6 +6257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill style that fill everything this the given colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "solidFillStyle",
           "package": "Chart",
@@ -5897,6 +6268,7 @@
         "index": {
           "description": "Fill style that fill everything this the given colour",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "solidFillStyle",
           "normalized": "AlphaColour Double-\u003eFillStyle",
@@ -5913,6 +6285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a solid line style (not dashed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "solidLine",
           "package": "Chart",
@@ -5922,6 +6295,7 @@
         "index": {
           "description": "Create solid line style not dashed",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "solidLine",
           "normalized": "Double-\u003eAlphaColour Double-\u003eLineStyle",
@@ -5938,6 +6312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of plus and cross point style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "stars",
           "package": "Chart",
@@ -5947,6 +6322,7 @@
         "index": {
           "description": "Combination of plus and cross point style",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "stars",
           "normalized": "Double-\u003eDouble-\u003eAlphaColour Double-\u003ePointStyle",
@@ -5962,6 +6338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw lines between the specified points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "strokePointPath",
           "package": "Chart",
@@ -5972,6 +6349,7 @@
         "index": {
           "description": "Draw lines between the specified points",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "strokePointPath",
           "normalized": "[Point]-\u003eChartBackend()",
@@ -5988,6 +6366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the width and height of the string when rendered.\n   See \u003ccode\u003e\u003ca\u003etextSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "textDimension",
           "package": "Chart",
@@ -5998,6 +6377,7 @@
         "index": {
           "description": "Get the width and height of the string when rendered See textSize",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "textDimension",
           "normalized": "String-\u003eChartBackend RectSize",
@@ -6014,6 +6394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the bounding rectangle for a text string positioned\n   where it would be drawn by \u003ccode\u003e\u003ca\u003edrawText\u003c/a\u003e\u003c/code\u003e.\n   See \u003ccode\u003e\u003ca\u003etextSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "textDrawRect",
           "package": "Chart",
@@ -6024,6 +6405,7 @@
         "index": {
           "description": "Return the bounding rectangle for text string positioned where it would be drawn by drawText See textSize",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "textDrawRect",
           "normalized": "HTextAnchor-\u003eVTextAnchor-\u003ePoint-\u003eString-\u003eChartBackend Rect",
@@ -6039,6 +6421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withDefaultStyle",
           "package": "Chart",
@@ -6048,6 +6431,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withDefaultStyle",
           "normalized": "ChartBackend a-\u003eChartBackend a",
@@ -6064,6 +6448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the \u003ccode\u003e\u003ca\u003eLineStyle\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFillStyle\u003c/a\u003e\u003c/code\u003e to comply with\n   the given \u003ccode\u003e\u003ca\u003ePointStyle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withPointStyle",
           "package": "Chart",
@@ -6074,6 +6459,7 @@
         "index": {
           "description": "Changes the LineStyle and FillStyle to comply with the given PointStyle",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withPointStyle",
           "normalized": "PointStyle-\u003eChartBackend a-\u003eChartBackend a",
@@ -6090,6 +6476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a local rotation. The angle is given in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withRotation",
           "package": "Chart",
@@ -6100,6 +6487,7 @@
         "index": {
           "description": "Apply local rotation The angle is given in radians",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withRotation",
           "normalized": "Double-\u003eChartBackend a-\u003eChartBackend a",
@@ -6116,6 +6504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a local scale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withScale",
           "package": "Chart",
@@ -6126,6 +6515,7 @@
         "index": {
           "description": "Apply local scale",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withScale",
           "normalized": "Vector-\u003eChartBackend a-\u003eChartBackend a",
@@ -6142,6 +6532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a local scale on the x-axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withScaleX",
           "package": "Chart",
@@ -6152,6 +6543,7 @@
         "index": {
           "description": "Apply local scale on the x-axis",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withScaleX",
           "normalized": "Double-\u003eChartBackend a-\u003eChartBackend a",
@@ -6168,6 +6560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a local scale on the y-axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withScaleY",
           "package": "Chart",
@@ -6178,6 +6571,7 @@
         "index": {
           "description": "Apply local scale on the y-axis",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withScaleY",
           "normalized": "Double-\u003eChartBackend a-\u003eChartBackend a",
@@ -6194,6 +6588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a local translation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withTranslation",
           "package": "Chart",
@@ -6204,6 +6599,7 @@
         "index": {
           "description": "Apply local translation",
           "hierarchy": "Graphics Rendering Chart Drawing",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Drawing",
           "name": "withTranslation",
           "normalized": "Point-\u003eChartBackend a-\u003eChartBackend a",
@@ -6219,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Geometry",
           "package": "Chart",
@@ -6227,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Geometry",
           "package": "Chart",
@@ -6240,6 +6638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Limit",
           "package": "Chart",
@@ -6248,6 +6647,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Limit",
           "package": "Chart",
@@ -6262,6 +6662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied from Graphics.Rendering.Cairo.Matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Matrix",
           "package": "Chart",
@@ -6271,6 +6672,7 @@
         "index": {
           "description": "Copied from Graphics.Rendering.Cairo.Matrix",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Matrix",
           "package": "Chart",
@@ -6285,6 +6687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path type used by Charts.\n\u003c/p\u003e\u003cp\u003eA path can consist of several subpaths. Each\n   is started by a \u003ccode\u003e\u003ca\u003eMoveTo\u003c/a\u003e\u003c/code\u003e operation. All subpaths\n   are open, except the last one, which may be closed\n   using the \u003ccode\u003e\u003ca\u003eClose\u003c/a\u003e\u003c/code\u003e operation. When filling a path\n   all subpaths are closed implicitly.\n\u003c/p\u003e\u003cp\u003eClosing a subpath means that a line is drawn from\n   the end point to the start point of the subpath.\n\u003c/p\u003e\u003cp\u003eIf a \u003ccode\u003e\u003ca\u003eArc\u003c/a\u003e\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003eArcNeg\u003c/a\u003e\u003c/code\u003e) is drawn a implicit line\n   from the last end point of the subpath is drawn\n   to the beginning of the arc. Another implicit line\n   is drawn from the end of an arc to the beginning of\n   the next path segment.\n\u003c/p\u003e\u003cp\u003eThe beginning of a subpath is either (0,0) or set\n   by a \u003ccode\u003e\u003ca\u003eMoveTo\u003c/a\u003e\u003c/code\u003e instruction. If the first subpath is started\n   with an arc the beginning of that subpath is the beginning\n   of the arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Path",
           "package": "Chart",
@@ -6294,6 +6697,7 @@
         "index": {
           "description": "The path type used by Charts path can consist of several subpaths Each is started by MoveTo operation All subpaths are open except the last one which may be closed using the Close operation When filling path all subpaths are closed implicitly Closing subpath means that line is drawn from the end point to the start point of the subpath If Arc or ArcNeg is drawn implicit line from the last end point of the subpath is drawn to the beginning of the arc Another implicit line is drawn from the end of an arc to the beginning of the next path segment The beginning of subpath is either or set by MoveTo instruction If the first subpath is started with an arc the beginning of that subpath is the beginning of the arc",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Path",
           "package": "Chart",
@@ -6308,6 +6712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point in two dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Point",
           "package": "Chart",
@@ -6317,6 +6722,7 @@
         "index": {
           "description": "point in two dimensions",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Point",
           "package": "Chart",
@@ -6331,6 +6737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function mapping between points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "PointMapFn",
           "package": "Chart",
@@ -6340,6 +6747,7 @@
         "index": {
           "description": "function mapping between points",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "PointMapFn",
           "package": "Chart",
@@ -6353,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Range",
           "package": "Chart",
@@ -6361,6 +6770,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Range",
           "package": "Chart",
@@ -6375,6 +6785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangle is defined by two points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Rect",
           "package": "Chart",
@@ -6384,6 +6795,7 @@
         "index": {
           "description": "rectangle is defined by two points",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Rect",
           "package": "Chart",
@@ -6398,6 +6810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdge of a rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "RectEdge",
           "package": "Chart",
@@ -6407,6 +6820,7 @@
         "index": {
           "description": "Edge of rectangle",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "RectEdge",
           "package": "Chart",
@@ -6420,6 +6834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "RectSize",
           "package": "Chart",
@@ -6428,6 +6843,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "RectSize",
           "package": "Chart",
@@ -6442,6 +6858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector in two dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Vector",
           "package": "Chart",
@@ -6451,6 +6868,7 @@
         "index": {
           "description": "vector in two dimensions",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Vector",
           "package": "Chart",
@@ -6464,6 +6882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Arc",
           "package": "Chart",
@@ -6473,6 +6892,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Arc",
           "package": "Chart",
@@ -6486,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "ArcNeg",
           "package": "Chart",
@@ -6495,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "ArcNeg",
           "package": "Chart",
@@ -6508,6 +6930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Close",
           "package": "Chart",
@@ -6517,6 +6940,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Close",
           "package": "Chart",
@@ -6530,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "E_Bottom",
           "package": "Chart",
@@ -6539,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "E_Bottom",
           "package": "Chart",
@@ -6552,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "E_Left",
           "package": "Chart",
@@ -6561,6 +6988,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "E_Left",
           "package": "Chart",
@@ -6574,6 +7002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "E_Right",
           "package": "Chart",
@@ -6583,6 +7012,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "E_Right",
           "package": "Chart",
@@ -6596,6 +7026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "E_Top",
           "package": "Chart",
@@ -6605,6 +7036,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "E_Top",
           "package": "Chart",
@@ -6618,6 +7050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "End",
           "package": "Chart",
@@ -6627,6 +7060,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "End",
           "package": "Chart",
@@ -6640,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "LMax",
           "package": "Chart",
@@ -6649,6 +7084,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "LMax",
           "package": "Chart",
@@ -6662,6 +7098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "LMin",
           "package": "Chart",
@@ -6671,6 +7108,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "LMin",
           "package": "Chart",
@@ -6684,6 +7122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "LValue",
           "package": "Chart",
@@ -6693,6 +7132,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "LValue",
           "package": "Chart",
@@ -6706,6 +7146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "LineTo",
           "package": "Chart",
@@ -6715,6 +7156,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "LineTo",
           "package": "Chart",
@@ -6728,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Matrix",
           "package": "Chart",
@@ -6737,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Matrix",
           "package": "Chart",
@@ -6750,6 +7194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "MoveTo",
           "package": "Chart",
@@ -6759,6 +7204,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "MoveTo",
           "package": "Chart",
@@ -6772,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Point",
           "package": "Chart",
@@ -6781,6 +7228,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Point",
           "package": "Chart",
@@ -6794,6 +7242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Rect",
           "package": "Chart",
@@ -6803,6 +7252,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Rect",
           "package": "Chart",
@@ -6816,6 +7266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Vector",
           "package": "Chart",
@@ -6825,6 +7276,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "Vector",
           "package": "Chart",
@@ -6839,6 +7291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied from Graphics.Rendering.Cairo.Matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "adjoint",
           "package": "Chart",
@@ -6849,6 +7302,7 @@
         "index": {
           "description": "Copied from Graphics.Rendering.Cairo.Matrix",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "adjoint",
           "normalized": "Matrix-\u003eMatrix",
@@ -6864,6 +7318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the arc of a circle. A straight line connects\n   the end of the previous path with the beginning of the arc.\n   The zero angle points in direction of the positive x-axis.\n   Angles increase in clock-wise direction. If the stop angle\n   is smaller then the start angle it is increased by multiples of\n   \u003ccode\u003e2 * pi\u003c/code\u003e until is is greater or equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "arc",
           "package": "Chart",
@@ -6873,6 +7328,7 @@
         "index": {
           "description": "Draw the arc of circle straight line connects the end of the previous path with the beginning of the arc The zero angle points in direction of the positive x-axis Angles increase in clock-wise direction If the stop angle is smaller then the start angle it is increased by multiples of pi until is is greater or equal",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "arc",
           "normalized": "Point-\u003eDouble-\u003eDouble-\u003eDouble-\u003ePath",
@@ -6888,6 +7344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-cut for \u003ccode\u003e\u003ca\u003earc\u003c/a\u003e\u003c/code\u003e, if you don't want to create a \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "arc'",
           "package": "Chart",
@@ -6898,6 +7355,7 @@
         "index": {
           "description": "Short-cut for arc if you don want to create Point",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "arc'",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003ePath",
@@ -6913,6 +7371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003earc\u003c/a\u003e\u003c/code\u003e, but draws from the stop angle to the start angle\n   instead of between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "arcNeg",
           "package": "Chart",
@@ -6923,6 +7382,7 @@
         "index": {
           "description": "Like arc but draws from the stop angle to the start angle instead of between them",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "arcNeg",
           "normalized": "Point-\u003eDouble-\u003eDouble-\u003eDouble-\u003ePath",
@@ -6939,6 +7399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-cut for \u003ccode\u003e\u003ca\u003earcNeg\u003c/a\u003e\u003c/code\u003e, if you don't want to create a \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "arcNeg'",
           "package": "Chart",
@@ -6949,6 +7410,7 @@
         "index": {
           "description": "Short-cut for arcNeg if you don want to create Point",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "arcNeg'",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003ePath",
@@ -6965,6 +7427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closed empty path. Closes a path when appended.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "close",
           "package": "Chart",
@@ -6975,6 +7438,7 @@
         "index": {
           "description": "closed empty path Closes path when appended",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "close",
           "package": "Chart",
@@ -6988,6 +7452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the given path to a monoid structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "foldPath",
           "package": "Chart",
@@ -6997,6 +7462,7 @@
         "index": {
           "description": "Fold the given path to monoid structure",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "foldPath",
           "normalized": "(Point-\u003ea)-\u003e(Point-\u003ea)-\u003e(Point-\u003eDouble-\u003eDouble-\u003eDouble-\u003ea)-\u003e(Point-\u003eDouble-\u003eDouble-\u003eDouble-\u003ea)-\u003ea-\u003ePath-\u003ea",
@@ -7013,6 +7479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied from Graphics.Rendering.Cairo.Matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "identity",
           "package": "Chart",
@@ -7023,6 +7490,7 @@
         "index": {
           "description": "Copied from Graphics.Rendering.Cairo.Matrix",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "identity",
           "package": "Chart",
@@ -7036,6 +7504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersects the rectangles. If they intersect the\n   intersection rectangle is returned.\n   \u003ccode\u003e\u003ca\u003eLMin\u003c/a\u003e\u003c/code\u003e is the empty rectangle / intersection and\n   \u003ccode\u003e\u003ca\u003eLMax\u003c/a\u003e\u003c/code\u003e is the infinite plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "intersectRect",
           "package": "Chart",
@@ -7046,6 +7515,7 @@
         "index": {
           "description": "Intersects the rectangles If they intersect the intersection rectangle is returned LMin is the empty rectangle intersection and LMax is the infinite plane",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "intersectRect",
           "normalized": "Limit Rect-\u003eLimit Rect-\u003eLimit Rect",
@@ -7062,6 +7532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied from Graphics.Rendering.Cairo.Matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "invert",
           "package": "Chart",
@@ -7072,6 +7543,7 @@
         "index": {
           "description": "Copied from Graphics.Rendering.Cairo.Matrix",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "invert",
           "normalized": "Matrix-\u003eMatrix",
@@ -7087,6 +7559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the paths pointer to the given location and draw a straight \n   line while doing so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "lineTo",
           "package": "Chart",
@@ -7097,6 +7570,7 @@
         "index": {
           "description": "Move the paths pointer to the given location and draw straight line while doing so",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "lineTo",
           "normalized": "Point-\u003ePath",
@@ -7113,6 +7587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-cut for \u003ccode\u003e\u003ca\u003elineTo\u003c/a\u003e\u003c/code\u003e, if you don't want to create a \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "lineTo'",
           "package": "Chart",
@@ -7123,6 +7598,7 @@
         "index": {
           "description": "Short-cut for lineTo if you don want to create Point",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "lineTo'",
           "normalized": "Double-\u003eDouble-\u003ePath",
@@ -7139,6 +7615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnriches the path with explicit instructions to draw lines,\n   that otherwise would be implicit. See \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e for details\n   about what lines in paths are implicit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "makeLinesExplicit",
           "package": "Chart",
@@ -7149,6 +7626,7 @@
         "index": {
           "description": "Enriches the path with explicit instructions to draw lines that otherwise would be implicit See Path for details about what lines in paths are implicit",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "makeLinesExplicit",
           "normalized": "Path-\u003ePath",
@@ -7165,6 +7643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a rectangle based upon the coordinates of 4 points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "mkrect",
           "package": "Chart",
@@ -7175,6 +7654,7 @@
         "index": {
           "description": "Create rectangle based upon the coordinates of points",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "mkrect",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003ePoint-\u003eRect",
@@ -7190,6 +7670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the paths pointer to the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "moveTo",
           "package": "Chart",
@@ -7200,6 +7681,7 @@
         "index": {
           "description": "Move the paths pointer to the given location",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "moveTo",
           "normalized": "Point-\u003ePath",
@@ -7216,6 +7698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-cut for \u003ccode\u003e\u003ca\u003emoveTo\u003c/a\u003e\u003c/code\u003e, if you don't want to create a \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "moveTo'",
           "package": "Chart",
@@ -7226,6 +7709,7 @@
         "index": {
           "description": "Short-cut for moveTo if you don want to create Point",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "moveTo'",
           "normalized": "Double-\u003eDouble-\u003ePath",
@@ -7241,6 +7725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "p_x",
           "package": "Chart",
@@ -7250,6 +7735,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "p_x",
           "package": "Chart",
@@ -7262,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "p_y",
           "package": "Chart",
@@ -7271,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "p_y",
           "package": "Chart",
@@ -7284,6 +7772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "pointToVec",
           "package": "Chart",
@@ -7294,6 +7783,7 @@
         "index": {
           "description": "Convert Point to Vector",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "pointToVec",
           "normalized": "Point-\u003eVector",
@@ -7310,6 +7800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract two points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "psub",
           "package": "Chart",
@@ -7320,6 +7811,7 @@
         "index": {
           "description": "Subtract two points",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "psub",
           "normalized": "Point-\u003ePoint-\u003eVector",
@@ -7335,6 +7827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a point and a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "pvadd",
           "package": "Chart",
@@ -7345,6 +7838,7 @@
         "index": {
           "description": "Add point and vector",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "pvadd",
           "normalized": "Point-\u003eVector-\u003ePoint",
@@ -7360,6 +7854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract a vector from a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "pvsub",
           "package": "Chart",
@@ -7370,6 +7865,7 @@
         "index": {
           "description": "Subtract vector from point",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "pvsub",
           "normalized": "Point-\u003eVector-\u003ePoint",
@@ -7385,6 +7881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a path from a rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "rectPath",
           "package": "Chart",
@@ -7395,6 +7892,7 @@
         "index": {
           "description": "Make path from rectangle",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "rectPath",
           "normalized": "Rect-\u003ePath",
@@ -7411,6 +7909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied from Graphics.Rendering.Cairo.Matrix\n   Rotations angle is given in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "rotate",
           "package": "Chart",
@@ -7421,6 +7920,7 @@
         "index": {
           "description": "Copied from Graphics.Rendering.Cairo.Matrix Rotations angle is given in radians",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "rotate",
           "normalized": "Double-\u003eMatrix-\u003eMatrix",
@@ -7436,6 +7936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a point around the origin.\n   The angle is given in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "rotateP",
           "package": "Chart",
@@ -7446,6 +7947,7 @@
         "index": {
           "description": "Rotate point around the origin The angle is given in radians",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "rotateP",
           "normalized": "Double-\u003ePoint-\u003ePoint",
@@ -7461,6 +7963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied from Graphics.Rendering.Cairo.Matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "scalarMultiply",
           "package": "Chart",
@@ -7471,6 +7974,7 @@
         "index": {
           "description": "Copied from Graphics.Rendering.Cairo.Matrix",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "scalarMultiply",
           "normalized": "Double-\u003eMatrix-\u003eMatrix",
@@ -7487,6 +7991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied and adopted from Graphics.Rendering.Cairo.Matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "scale",
           "package": "Chart",
@@ -7497,6 +8002,7 @@
         "index": {
           "description": "Copied and adopted from Graphics.Rendering.Cairo.Matrix",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "scale",
           "normalized": "Vector-\u003eMatrix-\u003eMatrix",
@@ -7512,6 +8018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "scaleP",
           "package": "Chart",
@@ -7522,6 +8029,7 @@
         "index": {
           "description": "Scale point",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "scaleP",
           "normalized": "Vector-\u003ePoint-\u003ePoint",
@@ -7537,6 +8045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a point using the given matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "transformP",
           "package": "Chart",
@@ -7547,6 +8056,7 @@
         "index": {
           "description": "Transform point using the given matrix",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "transformP",
           "normalized": "Matrix-\u003ePoint-\u003ePoint",
@@ -7562,6 +8072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied and adopted from Graphics.Rendering.Cairo.Matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "translate",
           "package": "Chart",
@@ -7572,6 +8083,7 @@
         "index": {
           "description": "Copied and adopted from Graphics.Rendering.Cairo.Matrix",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "translate",
           "normalized": "Vector-\u003eMatrix-\u003eMatrix",
@@ -7587,6 +8099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "translateP",
           "package": "Chart",
@@ -7597,6 +8110,7 @@
         "index": {
           "description": "Translate point",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "translateP",
           "normalized": "Vector-\u003ePoint-\u003ePoint",
@@ -7611,6 +8125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "v_x",
           "package": "Chart",
@@ -7620,6 +8135,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "v_x",
           "package": "Chart",
@@ -7632,6 +8148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "v_y",
           "package": "Chart",
@@ -7641,6 +8158,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "v_y",
           "package": "Chart",
@@ -7654,6 +8172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a vector by a constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "vscale",
           "package": "Chart",
@@ -7664,6 +8183,7 @@
         "index": {
           "description": "Scale vector by constant",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "vscale",
           "normalized": "Double-\u003eVector-\u003eVector",
@@ -7679,6 +8199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a point is within a rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "within",
           "package": "Chart",
@@ -7689,6 +8210,7 @@
         "index": {
           "description": "Test if point is within rectangle",
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "within",
           "normalized": "Point-\u003eRect-\u003eBool",
@@ -7703,6 +8225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "x0",
           "package": "Chart",
@@ -7712,6 +8235,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "x0",
           "package": "Chart",
@@ -7724,6 +8248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "xx",
           "package": "Chart",
@@ -7733,6 +8258,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "xx",
           "package": "Chart",
@@ -7745,6 +8271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "xy",
           "package": "Chart",
@@ -7754,6 +8281,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "xy",
           "package": "Chart",
@@ -7766,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "y0",
           "package": "Chart",
@@ -7775,6 +8304,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "y0",
           "package": "Chart",
@@ -7787,6 +8317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "yx",
           "package": "Chart",
@@ -7796,6 +8327,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "yx",
           "package": "Chart",
@@ -7808,6 +8340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "yy",
           "package": "Chart",
@@ -7817,6 +8350,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Geometry",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Geometry",
           "name": "yy",
           "package": "Chart",
@@ -7830,6 +8364,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA container type for values that can be composed by horizonal\n and vertical layout.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "Grid",
           "package": "Chart",
@@ -7839,6 +8374,7 @@
         "index": {
           "description": "container type for values that can be composed by horizonal and vertical layout",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "Grid",
           "package": "Chart",
@@ -7853,6 +8389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract datatype representing a grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "Grid",
           "package": "Chart",
@@ -7862,6 +8399,7 @@
         "index": {
           "description": "Abstract datatype representing grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "Grid",
           "package": "Chart",
@@ -7875,6 +8413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "Span",
           "package": "Chart",
@@ -7883,6 +8422,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "Span",
           "package": "Chart",
@@ -7897,6 +8437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003ebeside\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "(.|.)",
           "package": "Chart",
@@ -7907,6 +8448,7 @@
         "index": {
           "description": "synonym for beside",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "(.|.) .|.",
           "normalized": "Grid a-\u003eGrid a-\u003eGrid a",
@@ -7922,6 +8464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003eabove\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "(./.)",
           "package": "Chart",
@@ -7932,6 +8475,7 @@
         "index": {
           "description": "synonym for above",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "(./.) ./.",
           "normalized": "Grid a-\u003eGrid a-\u003eGrid a",
@@ -7946,6 +8490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "above",
           "package": "Chart",
@@ -7955,6 +8500,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "above",
           "normalized": "Grid a-\u003eGrid a-\u003eGrid a",
@@ -7969,6 +8515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "aboveN",
           "package": "Chart",
@@ -7978,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "aboveN",
           "normalized": "[Grid a]-\u003eGrid a",
@@ -7993,6 +8541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value placed below the grid, occupying 1 row with the same\n   horizontal span as the grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "aboveWide",
           "package": "Chart",
@@ -8003,6 +8552,7 @@
         "index": {
           "description": "value placed below the grid occupying row with the same horizontal span as the grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "aboveWide",
           "normalized": "Grid a-\u003ea-\u003eGrid a",
@@ -8018,6 +8568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "beside",
           "package": "Chart",
@@ -8027,6 +8578,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "beside",
           "normalized": "Grid a-\u003eGrid a-\u003eGrid a",
@@ -8041,6 +8593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "besideN",
           "package": "Chart",
@@ -8050,6 +8603,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "besideN",
           "normalized": "[Grid a]-\u003eGrid a",
@@ -8065,6 +8619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value placed to the right of the grid, occupying 1 column with\n   the same vertical span as the grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "besideTall",
           "package": "Chart",
@@ -8075,6 +8630,7 @@
         "index": {
           "description": "value placed to the right of the grid occupying column with the same vertical span as the grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "besideTall",
           "normalized": "Grid a-\u003ea-\u003eGrid a",
@@ -8091,6 +8647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 1x1 empty grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "empty",
           "package": "Chart",
@@ -8101,6 +8658,7 @@
         "index": {
           "description": "x1 empty grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "empty",
           "package": "Chart",
@@ -8114,6 +8672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value placed over a grid, with the same span as the grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "fullOverlayOver",
           "package": "Chart",
@@ -8124,6 +8683,7 @@
         "index": {
           "description": "value placed over grid with the same span as the grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "fullOverlayOver",
           "normalized": "a-\u003eGrid a-\u003eGrid a",
@@ -8140,6 +8700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value placed under a grid, with the same span as the grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "fullOverlayUnder",
           "package": "Chart",
@@ -8150,6 +8711,7 @@
         "index": {
           "description": "value placed under grid with the same span as the grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "fullOverlayUnder",
           "normalized": "a-\u003eGrid a-\u003eGrid a",
@@ -8165,6 +8727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "gridToRenderable",
           "package": "Chart",
@@ -8174,6 +8737,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "gridToRenderable",
           "normalized": "Grid(Renderable a)-\u003eRenderable a",
@@ -8189,6 +8753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "height",
           "package": "Chart",
@@ -8198,6 +8763,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "height",
           "normalized": "Grid a-\u003eInt",
@@ -8213,6 +8779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 0x0 empty grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "nullt",
           "package": "Chart",
@@ -8223,6 +8790,7 @@
         "index": {
           "description": "x0 empty grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "nullt",
           "package": "Chart",
@@ -8236,6 +8804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne grid over the other. The first argument is shallow, the second is deep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "overlay",
           "package": "Chart",
@@ -8246,6 +8815,7 @@
         "index": {
           "description": "One grid over the other The first argument is shallow the second is deep",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "overlay",
           "normalized": "Grid a-\u003eGrid a-\u003eGrid a",
@@ -8261,6 +8831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value placed to the left of the grid, occupying 1 column with\n   the same vertical span as the grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "tallBeside",
           "package": "Chart",
@@ -8271,6 +8842,7 @@
         "index": {
           "description": "value placed to the left of the grid occupying column with the same vertical span as the grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "tallBeside",
           "normalized": "a-\u003eGrid a-\u003eGrid a",
@@ -8287,6 +8859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WxH (measured in cells) grid from a given value, with space weight (1,1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "tspan",
           "package": "Chart",
@@ -8297,6 +8870,7 @@
         "index": {
           "description": "WxH measured in cells grid from given value with space weight",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "tspan",
           "normalized": "a-\u003eSpan-\u003eGrid a",
@@ -8312,6 +8886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 1x1 grid from a given value, with no extra space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "tval",
           "package": "Chart",
@@ -8322,6 +8897,7 @@
         "index": {
           "description": "x1 grid from given value with no extra space",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "tval",
           "normalized": "a-\u003eGrid a",
@@ -8337,6 +8913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the space weight of *every* cell of the grid to given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "weights",
           "package": "Chart",
@@ -8347,6 +8924,7 @@
         "index": {
           "description": "Sets the space weight of every cell of the grid to given value",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "weights",
           "normalized": "SpaceWeight-\u003eGrid a-\u003eGrid a",
@@ -8362,6 +8940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value occupying 1 row with the same  horizontal span as the grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "wideAbove",
           "package": "Chart",
@@ -8372,6 +8951,7 @@
         "index": {
           "description": "value occupying row with the same horizontal span as the grid",
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "wideAbove",
           "normalized": "a-\u003eGrid a-\u003eGrid a",
@@ -8387,6 +8967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "width",
           "package": "Chart",
@@ -8396,6 +8977,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Grid",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Grid",
           "name": "width",
           "normalized": "Grid a-\u003eInt",
@@ -8411,6 +8993,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module glues together axes and plots to actually create a renderable\n for a chart.\n\u003c/p\u003e\u003cp\u003eNote that Template haskell is used to derive accessor functions\n (see \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e) for each field of the following data types:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eLayoutLR\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eStackedLayouts\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eLayoutAxis\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThese accessors are not shown in this API documentation.  They have\n the same name as the field, but with the leading underscore\n dropped. Hence for data field _f::F in type D, they have type\n\u003c/p\u003e\u003cpre\u003e\n   f :: Control.Lens.Lens' D F\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "Layout",
           "package": "Chart",
@@ -8420,6 +9003,7 @@
         "index": {
           "description": "This module glues together axes and plots to actually create renderable for chart Note that Template haskell is used to derive accessor functions see Lens for each field of the following data types Layout LayoutLR StackedLayouts LayoutAxis These accessors are not shown in this API documentation They have the same name as the field but with the leading underscore dropped Hence for data field in type they have type Control.Lens.Lens",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "Layout",
           "package": "Chart",
@@ -8434,6 +9018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Layout value is a single plot area, with single x and y\n   axis. The title is at the top and the legend at the bottom. It's\n   parametrized by the types of values to be plotted on the x\n   and y axes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "Layout",
           "package": "Chart",
@@ -8443,6 +9028,7 @@
         "index": {
           "description": "Layout value is single plot area with single and axis The title is at the top and the legend at the bottom It parametrized by the types of values to be plotted on the and axes",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "Layout",
           "package": "Chart",
@@ -8457,6 +9043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of axis that is used in \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLayoutLR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo generate the actual axis type (\u003ccode\u003e\u003ca\u003eAxisData\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAxisT\u003c/a\u003e\u003c/code\u003e)\n   the \u003ccode\u003e\u003ca\u003e_laxis_generate\u003c/a\u003e\u003c/code\u003e function is called and custom settings\n   are applied with \u003ccode\u003e\u003ca\u003e_laxis_override\u003c/a\u003e\u003c/code\u003e. Note that the \u003ccode\u003e\u003ca\u003eAxisVisibility\u003c/a\u003e\u003c/code\u003e\n   values in \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLayoutLR\u003c/a\u003e\u003c/code\u003e override visibility related \n   settings of the axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutAxis",
           "package": "Chart",
@@ -8466,6 +9053,7 @@
         "index": {
           "description": "Type of axis that is used in Layout and LayoutLR To generate the actual axis type AxisData and AxisT the laxis generate function is called and custom settings are applied with laxis override Note that the AxisVisibility values in Layout and LayoutLR override visibility related settings of the axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutAxis",
           "package": "Chart",
@@ -8480,6 +9068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA LayoutLR value is a single plot area, with an x axis and\n   independent left and right y axes, with a title at the top;\n   legend at the bottom. It's parametrized by the types of values\n   to be plotted on the x and two y axes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutLR",
           "package": "Chart",
@@ -8489,6 +9078,7 @@
         "index": {
           "description": "LayoutLR value is single plot area with an axis and independent left and right axes with title at the top legend at the bottom It parametrized by the types of values to be plotted on the and two axes",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutLR",
           "package": "Chart",
@@ -8503,6 +9093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on what is at a specifc location of a \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eLayoutLR\u003c/a\u003e\u003c/code\u003e.\n   This is delivered by the \u003ccode\u003e\u003ca\u003ePickFn\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eRenderable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick",
           "package": "Chart",
@@ -8512,6 +9103,7 @@
         "index": {
           "description": "Information on what is at specifc location of Layout or LayoutLR This is delivered by the PickFn of Renderable",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick",
           "package": "Chart",
@@ -8526,6 +9118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eMAxisFn\u003c/code\u003e is a function that generates an (optional) axis\n   given the points plotted against that axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "MAxisFn",
           "package": "Chart",
@@ -8535,6 +9128,7 @@
         "index": {
           "description": "MAxisFn is function that generates an optional axis given the points plotted against that axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "MAxisFn",
           "package": "Chart",
@@ -8549,6 +9143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA layout with its y type hidden, so that it can be stacked\n   with other layouts with differing y axis, but the same x axis.\n   See \u003ccode\u003e\u003ca\u003eStackedLayouts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayout",
           "package": "Chart",
@@ -8558,6 +9153,7 @@
         "index": {
           "description": "layout with its type hidden so that it can be stacked with other layouts with differing axis but the same axis See StackedLayouts",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayout",
           "package": "Chart",
@@ -8572,6 +9168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container for a set of vertically \u003ccode\u003e\u003ca\u003eStackedLayout\u003c/a\u003e\u003c/code\u003es.\n   The x axis of the different layouts will be aligned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayouts",
           "package": "Chart",
@@ -8581,6 +9178,7 @@
         "index": {
           "description": "container for set of vertically StackedLayout The axis of the different layouts will be aligned",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayouts",
           "package": "Chart",
@@ -8594,6 +9192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "Layout",
           "package": "Chart",
@@ -8603,6 +9202,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "Layout",
           "package": "Chart",
@@ -8616,6 +9216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutAxis",
           "package": "Chart",
@@ -8625,6 +9226,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutAxis",
           "package": "Chart",
@@ -8638,6 +9240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutLR",
           "package": "Chart",
@@ -8647,6 +9250,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutLR",
           "package": "Chart",
@@ -8661,6 +9265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA legend entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_Legend",
           "package": "Chart",
@@ -8671,6 +9276,7 @@
         "index": {
           "description": "legend entry",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_Legend",
           "package": "Chart",
@@ -8685,6 +9291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe plot area at the given plot coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_PlotArea",
           "package": "Chart",
@@ -8695,6 +9302,7 @@
         "index": {
           "description": "The plot area at the given plot coordinates",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_PlotArea",
           "package": "Chart",
@@ -8709,6 +9317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_Title",
           "package": "Chart",
@@ -8719,6 +9328,7 @@
         "index": {
           "description": "The title",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_Title",
           "package": "Chart",
@@ -8733,6 +9343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bottom x axis at the given plot coordinate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_XBottomAxis",
           "package": "Chart",
@@ -8743,6 +9354,7 @@
         "index": {
           "description": "The bottom axis at the given plot coordinate",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_XBottomAxis",
           "package": "Chart",
@@ -8757,6 +9369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title of the bottom x axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_XBottomAxisTitle",
           "package": "Chart",
@@ -8767,6 +9380,7 @@
         "index": {
           "description": "The title of the bottom axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_XBottomAxisTitle",
           "package": "Chart",
@@ -8781,6 +9395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top x axis at the given plot coordinate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_XTopAxis",
           "package": "Chart",
@@ -8791,6 +9406,7 @@
         "index": {
           "description": "The top axis at the given plot coordinate",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_XTopAxis",
           "package": "Chart",
@@ -8805,6 +9421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title of the top x axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_XTopAxisTitle",
           "package": "Chart",
@@ -8815,6 +9432,7 @@
         "index": {
           "description": "The title of the top axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_XTopAxisTitle",
           "package": "Chart",
@@ -8829,6 +9447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe left y axis at the given plot coordinate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_YLeftAxis",
           "package": "Chart",
@@ -8839,6 +9458,7 @@
         "index": {
           "description": "The left axis at the given plot coordinate",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_YLeftAxis",
           "package": "Chart",
@@ -8853,6 +9473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title of the left y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_YLeftAxisTitle",
           "package": "Chart",
@@ -8863,6 +9484,7 @@
         "index": {
           "description": "The title of the left axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_YLeftAxisTitle",
           "package": "Chart",
@@ -8877,6 +9499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right y axis at the given plot coordinate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_YRightAxis",
           "package": "Chart",
@@ -8887,6 +9510,7 @@
         "index": {
           "description": "The right axis at the given plot coordinate",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_YRightAxis",
           "package": "Chart",
@@ -8901,6 +9525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title of the right y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_YRightAxisTitle",
           "package": "Chart",
@@ -8911,6 +9536,7 @@
         "index": {
           "description": "The title of the right axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "LayoutPick_YRightAxisTitle",
           "package": "Chart",
@@ -8925,6 +9551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e to stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayout",
           "package": "Chart",
@@ -8935,6 +9562,7 @@
         "index": {
           "description": "Layout to stack",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayout",
           "package": "Chart",
@@ -8949,6 +9577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eLayoutLR\u003c/a\u003e\u003c/code\u003e to stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayoutLR",
           "package": "Chart",
@@ -8959,6 +9588,7 @@
         "index": {
           "description": "LayoutLR to stack",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayoutLR",
           "package": "Chart",
@@ -8972,6 +9602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayouts",
           "package": "Chart",
@@ -8981,6 +9612,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "StackedLayouts",
           "package": "Chart",
@@ -8995,6 +9627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that generates the axis data, based upon the\n   points plotted. The default value is \u003ccode\u003e\u003ca\u003eautoAxis\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_generate",
           "package": "Chart",
@@ -9005,6 +9638,7 @@
         "index": {
           "description": "Function that generates the axis data based upon the points plotted The default value is autoAxis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_generate",
           "package": "Chart",
@@ -9018,6 +9652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that can be used to override the generated axis data.\n   The default value is \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_override",
           "package": "Chart",
@@ -9028,6 +9663,7 @@
         "index": {
           "description": "Function that can be used to override the generated axis data The default value is id",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_override",
           "normalized": "AxisData a-\u003eAxisData a",
@@ -9043,6 +9679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if left to right (bottom to top) is to show descending values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_reverse",
           "package": "Chart",
@@ -9053,6 +9690,7 @@
         "index": {
           "description": "True if left to right bottom to top is to show descending values",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_reverse",
           "package": "Chart",
@@ -9066,6 +9704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAxis style applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_style",
           "package": "Chart",
@@ -9076,6 +9715,7 @@
         "index": {
           "description": "Axis style applied",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_style",
           "package": "Chart",
@@ -9089,6 +9729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle displayed for the axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_title",
           "package": "Chart",
@@ -9099,6 +9740,7 @@
         "index": {
           "description": "Title displayed for the axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_title",
           "package": "Chart",
@@ -9112,6 +9754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont style to use for the axis title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_title_style",
           "package": "Chart",
@@ -9122,6 +9765,7 @@
         "index": {
           "description": "Font style to use for the axis title",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_laxis_title_style",
           "package": "Chart",
@@ -9135,6 +9779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to fill the background of everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_background",
           "package": "Chart",
@@ -9145,6 +9790,7 @@
         "index": {
           "description": "How to fill the background of everything",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_background",
           "package": "Chart",
@@ -9158,6 +9804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility options for the bottom axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_bottom_axis_visibility",
           "package": "Chart",
@@ -9168,6 +9815,7 @@
         "index": {
           "description": "Visibility options for the bottom axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_bottom_axis_visibility",
           "package": "Chart",
@@ -9181,6 +9829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the grid shall be rendered\n   beneath (\u003ccode\u003eFalse\u003c/code\u003e) or over (\u003ccode\u003eTrue\u003c/code\u003e) all plots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_grid_last",
           "package": "Chart",
@@ -9191,6 +9840,7 @@
         "index": {
           "description": "If the grid shall be rendered beneath False or over True all plots",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_grid_last",
           "package": "Chart",
@@ -9204,6 +9854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility options for the left axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_left_axis_visibility",
           "package": "Chart",
@@ -9214,6 +9865,7 @@
         "index": {
           "description": "Visibility options for the left axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_left_axis_visibility",
           "package": "Chart",
@@ -9227,6 +9879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to style the legend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_legend",
           "package": "Chart",
@@ -9237,6 +9890,7 @@
         "index": {
           "description": "How to style the legend",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_legend",
           "package": "Chart",
@@ -9250,6 +9904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe margin distance to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_margin",
           "package": "Chart",
@@ -9260,6 +9915,7 @@
         "index": {
           "description": "The margin distance to use",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_margin",
           "package": "Chart",
@@ -9273,6 +9929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to fill the background of the plot, \n   if different from the overall background.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_plot_background",
           "package": "Chart",
@@ -9283,6 +9940,7 @@
         "index": {
           "description": "How to fill the background of the plot if different from the overall background",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_plot_background",
           "package": "Chart",
@@ -9296,6 +9954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data sets to plot in the chart.\n   The are ploted over each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_plots",
           "package": "Chart",
@@ -9306,6 +9965,7 @@
         "index": {
           "description": "The data sets to plot in the chart The are ploted over each other",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_plots",
           "normalized": "[Plot a b]",
@@ -9321,6 +9981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility options for the right axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_right_axis_visibility",
           "package": "Chart",
@@ -9331,6 +9992,7 @@
         "index": {
           "description": "Visibility options for the right axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_right_axis_visibility",
           "package": "Chart",
@@ -9344,6 +10006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle to display above the chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_title",
           "package": "Chart",
@@ -9354,6 +10017,7 @@
         "index": {
           "description": "Title to display above the chart",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_title",
           "package": "Chart",
@@ -9367,6 +10031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont style to use for the title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_title_style",
           "package": "Chart",
@@ -9377,6 +10042,7 @@
         "index": {
           "description": "Font style to use for the title",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_title_style",
           "package": "Chart",
@@ -9390,6 +10056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility options for the top axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_top_axis_visibility",
           "package": "Chart",
@@ -9400,6 +10067,7 @@
         "index": {
           "description": "Visibility options for the top axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_top_axis_visibility",
           "package": "Chart",
@@ -9413,6 +10081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRules to generate the x axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_x_axis",
           "package": "Chart",
@@ -9423,6 +10092,7 @@
         "index": {
           "description": "Rules to generate the axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_x_axis",
           "package": "Chart",
@@ -9436,6 +10106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRules to generate the y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_y_axis",
           "package": "Chart",
@@ -9446,6 +10117,7 @@
         "index": {
           "description": "Rules to generate the axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layout_y_axis",
           "package": "Chart",
@@ -9459,6 +10131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to fill the background of everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_background",
           "package": "Chart",
@@ -9469,6 +10142,7 @@
         "index": {
           "description": "How to fill the background of everything",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_background",
           "package": "Chart",
@@ -9482,6 +10156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility options for the bottom axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_bottom_axis_visibility",
           "package": "Chart",
@@ -9492,6 +10167,7 @@
         "index": {
           "description": "Visibility options for the bottom axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_bottom_axis_visibility",
           "package": "Chart",
@@ -9505,6 +10181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the grid shall be rendered\n   beneath (\u003ccode\u003eFalse\u003c/code\u003e) or over (\u003ccode\u003eTrue\u003c/code\u003e) all plots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_grid_last",
           "package": "Chart",
@@ -9515,6 +10192,7 @@
         "index": {
           "description": "If the grid shall be rendered beneath False or over True all plots",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_grid_last",
           "package": "Chart",
@@ -9528,6 +10206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRules to generate the left y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_left_axis",
           "package": "Chart",
@@ -9538,6 +10217,7 @@
         "index": {
           "description": "Rules to generate the left axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_left_axis",
           "package": "Chart",
@@ -9551,6 +10231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility options for the left axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_left_axis_visibility",
           "package": "Chart",
@@ -9561,6 +10242,7 @@
         "index": {
           "description": "Visibility options for the left axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_left_axis_visibility",
           "package": "Chart",
@@ -9574,6 +10256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to style the legend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_legend",
           "package": "Chart",
@@ -9584,6 +10267,7 @@
         "index": {
           "description": "How to style the legend",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_legend",
           "package": "Chart",
@@ -9597,6 +10281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe margin distance to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_margin",
           "package": "Chart",
@@ -9607,6 +10292,7 @@
         "index": {
           "description": "The margin distance to use",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_margin",
           "package": "Chart",
@@ -9620,6 +10306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to fill the background of the plot, \n   if different from the overall background.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_plot_background",
           "package": "Chart",
@@ -9630,6 +10317,7 @@
         "index": {
           "description": "How to fill the background of the plot if different from the overall background",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_plot_background",
           "package": "Chart",
@@ -9643,6 +10331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data sets to plot in the chart.\n   The are ploted over each other.\n   The either type associates the plot with the\n   left or right y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_plots",
           "package": "Chart",
@@ -9653,6 +10342,7 @@
         "index": {
           "description": "The data sets to plot in the chart The are ploted over each other The either type associates the plot with the left or right axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_plots",
           "normalized": "[Either(Plot a b)(Plot a b)]",
@@ -9668,6 +10358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRules to generate the right y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_right_axis",
           "package": "Chart",
@@ -9678,6 +10369,7 @@
         "index": {
           "description": "Rules to generate the right axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_right_axis",
           "package": "Chart",
@@ -9691,6 +10383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility options for the right axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_right_axis_visibility",
           "package": "Chart",
@@ -9701,6 +10394,7 @@
         "index": {
           "description": "Visibility options for the right axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_right_axis_visibility",
           "package": "Chart",
@@ -9714,6 +10408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle to display above the chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_title",
           "package": "Chart",
@@ -9724,6 +10419,7 @@
         "index": {
           "description": "Title to display above the chart",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_title",
           "package": "Chart",
@@ -9737,6 +10433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont style to use for the title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_title_style",
           "package": "Chart",
@@ -9747,6 +10444,7 @@
         "index": {
           "description": "Font style to use for the title",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_title_style",
           "package": "Chart",
@@ -9760,6 +10458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility options for the top axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_top_axis_visibility",
           "package": "Chart",
@@ -9770,6 +10469,7 @@
         "index": {
           "description": "Visibility options for the top axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_top_axis_visibility",
           "package": "Chart",
@@ -9783,6 +10483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRules to generate the x axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_x_axis",
           "package": "Chart",
@@ -9793,6 +10494,7 @@
         "index": {
           "description": "Rules to generate the axis",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_layoutlr_x_axis",
           "package": "Chart",
@@ -9806,6 +10508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the different legends shall be combined in one legend at the bottom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_slayouts_compress_legend",
           "package": "Chart",
@@ -9816,6 +10519,7 @@
         "index": {
           "description": "If the different legends shall be combined in one legend at the bottom",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_slayouts_compress_legend",
           "package": "Chart",
@@ -9829,6 +10533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe stacked layouts from top (first element) to bottom (last element).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_slayouts_layouts",
           "package": "Chart",
@@ -9839,6 +10544,7 @@
         "index": {
           "description": "The stacked layouts from top first element to bottom last element",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "_slayouts_layouts",
           "normalized": "[StackedLayout a]",
@@ -9854,6 +10560,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "defaultLayoutAxis",
           "package": "Chart",
@@ -9864,6 +10571,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "defaultLayoutAxis",
           "package": "Chart",
@@ -9878,6 +10586,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "defaultStackedLayouts",
           "package": "Chart",
@@ -9888,6 +10597,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "defaultStackedLayouts",
           "package": "Chart",
@@ -9901,6 +10611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_generate",
           "package": "Chart",
@@ -9910,6 +10621,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_generate",
           "package": "Chart",
@@ -9922,6 +10634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_override",
           "package": "Chart",
@@ -9931,6 +10644,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_override",
           "normalized": "a b Lens'(LayoutAxis c)(AxisData c-\u003eAxisData c)",
@@ -9945,6 +10659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_reverse",
           "package": "Chart",
@@ -9954,6 +10669,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_reverse",
           "package": "Chart",
@@ -9966,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_style",
           "package": "Chart",
@@ -9975,6 +10692,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_style",
           "package": "Chart",
@@ -9987,6 +10705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_title",
           "package": "Chart",
@@ -9996,6 +10715,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_title",
           "package": "Chart",
@@ -10008,6 +10728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_title_style",
           "package": "Chart",
@@ -10017,6 +10738,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "laxis_title_style",
           "package": "Chart",
@@ -10030,6 +10752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given \u003ccode\u003e\u003ca\u003eLayoutLR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutLRToRenderable",
           "package": "Chart",
@@ -10040,6 +10763,7 @@
         "index": {
           "description": "Render the given LayoutLR",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutLRToRenderable",
           "normalized": "LayoutLR a b c-\u003eRenderable(LayoutPick a b c)",
@@ -10056,6 +10780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutToRenderable",
           "package": "Chart",
@@ -10066,6 +10791,7 @@
         "index": {
           "description": "Render the given Layout",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutToRenderable",
           "normalized": "Layout a b-\u003eRenderable(LayoutPick a b b)",
@@ -10081,6 +10807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_background",
           "package": "Chart",
@@ -10090,6 +10817,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_background",
           "package": "Chart",
@@ -10102,6 +10830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_bottom_axis_visibility",
           "package": "Chart",
@@ -10111,6 +10840,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_bottom_axis_visibility",
           "package": "Chart",
@@ -10123,6 +10853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_grid_last",
           "package": "Chart",
@@ -10132,6 +10863,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_grid_last",
           "package": "Chart",
@@ -10144,6 +10876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_left_axis_visibility",
           "package": "Chart",
@@ -10153,6 +10886,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_left_axis_visibility",
           "package": "Chart",
@@ -10165,6 +10899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_legend",
           "package": "Chart",
@@ -10174,6 +10909,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_legend",
           "package": "Chart",
@@ -10186,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_margin",
           "package": "Chart",
@@ -10195,6 +10932,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_margin",
           "package": "Chart",
@@ -10207,6 +10945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_plot_background",
           "package": "Chart",
@@ -10216,6 +10955,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_plot_background",
           "package": "Chart",
@@ -10228,6 +10968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_plots",
           "package": "Chart",
@@ -10237,6 +10978,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_plots",
           "normalized": "a b c Lens'(Layout b d)[Plot b d]",
@@ -10251,6 +10993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_right_axis_visibility",
           "package": "Chart",
@@ -10260,6 +11003,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_right_axis_visibility",
           "package": "Chart",
@@ -10272,6 +11016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_title",
           "package": "Chart",
@@ -10281,6 +11026,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_title",
           "package": "Chart",
@@ -10293,6 +11039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_title_style",
           "package": "Chart",
@@ -10302,6 +11049,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_title_style",
           "package": "Chart",
@@ -10314,6 +11062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_top_axis_visibility",
           "package": "Chart",
@@ -10323,6 +11072,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_top_axis_visibility",
           "package": "Chart",
@@ -10335,6 +11085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_x_axis",
           "package": "Chart",
@@ -10344,6 +11095,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_x_axis",
           "package": "Chart",
@@ -10356,6 +11108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_y_axis",
           "package": "Chart",
@@ -10365,6 +11118,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layout_y_axis",
           "package": "Chart",
@@ -10377,6 +11131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_background",
           "package": "Chart",
@@ -10386,6 +11141,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_background",
           "package": "Chart",
@@ -10398,6 +11154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_bottom_axis_visibility",
           "package": "Chart",
@@ -10407,6 +11164,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_bottom_axis_visibility",
           "package": "Chart",
@@ -10419,6 +11177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_grid_last",
           "package": "Chart",
@@ -10428,6 +11187,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_grid_last",
           "package": "Chart",
@@ -10440,6 +11200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_left_axis",
           "package": "Chart",
@@ -10449,6 +11210,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_left_axis",
           "package": "Chart",
@@ -10461,6 +11223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_left_axis_visibility",
           "package": "Chart",
@@ -10470,6 +11233,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_left_axis_visibility",
           "package": "Chart",
@@ -10482,6 +11246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_legend",
           "package": "Chart",
@@ -10491,6 +11256,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_legend",
           "package": "Chart",
@@ -10503,6 +11269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_margin",
           "package": "Chart",
@@ -10512,6 +11279,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_margin",
           "package": "Chart",
@@ -10524,6 +11292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_plot_background",
           "package": "Chart",
@@ -10533,6 +11302,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_plot_background",
           "package": "Chart",
@@ -10545,6 +11315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_plots",
           "package": "Chart",
@@ -10554,6 +11325,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_plots",
           "normalized": "a b c c Lens'(LayoutLR b c c)[Either(Plot b c)(Plot b c)]",
@@ -10568,6 +11340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_right_axis",
           "package": "Chart",
@@ -10577,6 +11350,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_right_axis",
           "package": "Chart",
@@ -10589,6 +11363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_right_axis_visibility",
           "package": "Chart",
@@ -10598,6 +11373,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_right_axis_visibility",
           "package": "Chart",
@@ -10610,6 +11386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_title",
           "package": "Chart",
@@ -10619,6 +11396,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_title",
           "package": "Chart",
@@ -10631,6 +11409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_title_style",
           "package": "Chart",
@@ -10640,6 +11419,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_title_style",
           "package": "Chart",
@@ -10652,6 +11432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_top_axis_visibility",
           "package": "Chart",
@@ -10661,6 +11442,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_top_axis_visibility",
           "package": "Chart",
@@ -10673,6 +11455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_x_axis",
           "package": "Chart",
@@ -10682,6 +11465,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "layoutlr_x_axis",
           "package": "Chart",
@@ -10695,6 +11479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender several layouts with the same x-axis type and range,\n   vertically stacked so that their origins and x-values are aligned.\n\u003c/p\u003e\u003cp\u003eThe legends from all the charts may be optionally combined, and shown\n   once on the bottom chart. See \u003ccode\u003e\u003ca\u003eStackedLayouts\u003c/a\u003e\u003c/code\u003e for further information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "renderStackedLayouts",
           "package": "Chart",
@@ -10705,6 +11490,7 @@
         "index": {
           "description": "Render several layouts with the same x-axis type and range vertically stacked so that their origins and x-values are aligned The legends from all the charts may be optionally combined and shown once on the bottom chart See StackedLayouts for further information",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "renderStackedLayouts",
           "normalized": "StackedLayouts a-\u003eRenderable()",
@@ -10721,6 +11507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper to set the forground color uniformly on a Layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "setLayoutForeground",
           "package": "Chart",
@@ -10731,6 +11518,7 @@
         "index": {
           "description": "Helper to set the forground color uniformly on Layout",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "setLayoutForeground",
           "normalized": "AlphaColour Double-\u003eLayout a b-\u003eLayout a b",
@@ -10747,6 +11535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper to set the forground color uniformly on a LayoutLR.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "setLayoutLRForeground",
           "package": "Chart",
@@ -10757,6 +11546,7 @@
         "index": {
           "description": "Helper to set the forground color uniformly on LayoutLR",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "setLayoutLRForeground",
           "normalized": "AlphaColour Double-\u003eLayoutLR a b c-\u003eLayoutLR a b c",
@@ -10772,6 +11562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "slayouts_compress_legend",
           "package": "Chart",
@@ -10781,6 +11572,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "slayouts_compress_legend",
           "package": "Chart",
@@ -10793,6 +11585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "slayouts_layouts",
           "package": "Chart",
@@ -10802,6 +11595,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "slayouts_layouts",
           "normalized": "a b c Lens(StackedLayouts b)(StackedLayouts b)[StackedLayout b][StackedLayout b]",
@@ -10817,6 +11611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper to update all axis styles on a Layout1 simultaneously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "updateAllAxesStyles",
           "package": "Chart",
@@ -10827,6 +11622,7 @@
         "index": {
           "description": "Helper to update all axis styles on Layout1 simultaneously",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "updateAllAxesStyles",
           "normalized": "(AxisStyle-\u003eAxisStyle)-\u003eLayout a b-\u003eLayout a b",
@@ -10843,6 +11639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper to update all axis styles on a LayoutLR simultaneously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "updateAllAxesStylesLR",
           "package": "Chart",
@@ -10853,6 +11650,7 @@
         "index": {
           "description": "Helper to update all axis styles on LayoutLR simultaneously",
           "hierarchy": "Graphics Rendering Chart Layout",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Layout",
           "name": "updateAllAxesStylesLR",
           "normalized": "(AxisStyle-\u003eAxisStyle)-\u003eLayoutLR a b c-\u003eLayoutLR a b c",
@@ -10869,6 +11667,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and functions for handling the legend(s) on a chart. A legend\n is an area on the chart used to label the plotted values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "Legend",
           "package": "Chart",
@@ -10878,6 +11677,7 @@
         "index": {
           "description": "Types and functions for handling the legend on chart legend is an area on the chart used to label the plotted values",
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "Legend",
           "package": "Chart",
@@ -10891,6 +11691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "Legend",
           "package": "Chart",
@@ -10899,6 +11700,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "Legend",
           "package": "Chart",
@@ -10913,6 +11715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLegends can be constructed in two orientations: in rows\n (where we specify the maximum number of columns), and in\n columns (where we specify the maximum number of rows)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LegendOrientation",
           "package": "Chart",
@@ -10922,6 +11725,7 @@
         "index": {
           "description": "Legends can be constructed in two orientations in rows where we specify the maximum number of columns and in columns where we specify the maximum number of rows",
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LegendOrientation",
           "package": "Chart",
@@ -10935,6 +11739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LegendStyle",
           "package": "Chart",
@@ -10943,6 +11748,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LegendStyle",
           "package": "Chart",
@@ -10956,6 +11762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LOCols",
           "package": "Chart",
@@ -10965,6 +11772,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LOCols",
           "package": "Chart",
@@ -10978,6 +11786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LORows",
           "package": "Chart",
@@ -10987,6 +11796,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LORows",
           "package": "Chart",
@@ -11000,6 +11810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "Legend",
           "package": "Chart",
@@ -11009,6 +11820,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "Legend",
           "normalized": "Legend LegendStyle[(String,Rect-\u003eChartBackend())]",
@@ -11024,6 +11836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LegendStyle",
           "package": "Chart",
@@ -11033,6 +11846,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "LegendStyle",
           "package": "Chart",
@@ -11046,6 +11860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "_legend_label_style",
           "package": "Chart",
@@ -11055,6 +11870,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "_legend_label_style",
           "package": "Chart",
@@ -11067,6 +11883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "_legend_margin",
           "package": "Chart",
@@ -11076,6 +11893,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "_legend_margin",
           "package": "Chart",
@@ -11088,6 +11906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "_legend_orientation",
           "package": "Chart",
@@ -11097,6 +11916,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "_legend_orientation",
           "package": "Chart",
@@ -11109,6 +11929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "_legend_plot_size",
           "package": "Chart",
@@ -11118,6 +11939,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "_legend_plot_size",
           "package": "Chart",
@@ -11131,6 +11953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "defaultLegendStyle",
           "package": "Chart",
@@ -11141,6 +11964,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "defaultLegendStyle",
           "package": "Chart",
@@ -11154,6 +11978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legendToRenderable",
           "package": "Chart",
@@ -11163,6 +11988,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legendToRenderable",
           "normalized": "Legend a b-\u003eRenderable String",
@@ -11178,6 +12004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legend_label_style",
           "package": "Chart",
@@ -11187,6 +12014,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legend_label_style",
           "package": "Chart",
@@ -11199,6 +12027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legend_margin",
           "package": "Chart",
@@ -11208,6 +12037,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legend_margin",
           "package": "Chart",
@@ -11220,6 +12050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legend_orientation",
           "package": "Chart",
@@ -11229,6 +12060,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legend_orientation",
           "package": "Chart",
@@ -11241,6 +12073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legend_plot_size",
           "package": "Chart",
@@ -11250,6 +12083,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Legend",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Legend",
           "name": "legend_plot_size",
           "package": "Chart",
@@ -11263,6 +12097,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShow textual annotations on a chart.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "Annotation",
           "package": "Chart",
@@ -11272,6 +12107,7 @@
         "index": {
           "description": "Show textual annotations on chart",
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "Annotation",
           "package": "Chart",
@@ -11286,6 +12122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue for describing a series of text annotations\n   to be placed at arbitrary points on the graph. Annotations\n   can be rotated and styled. Rotation angle is given in degrees,\n   rotation is performend around the anchor point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "PlotAnnotation",
           "package": "Chart",
@@ -11295,6 +12132,7 @@
         "index": {
           "description": "Value for describing series of text annotations to be placed at arbitrary points on the graph Annotations can be rotated and styled Rotation angle is given in degrees rotation is performend around the anchor point",
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "PlotAnnotation",
           "package": "Chart",
@@ -11308,6 +12146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "PlotAnnotation",
           "package": "Chart",
@@ -11317,6 +12156,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "PlotAnnotation",
           "package": "Chart",
@@ -11330,6 +12170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_angle",
           "package": "Chart",
@@ -11339,6 +12180,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_angle",
           "package": "Chart",
@@ -11351,6 +12193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_hanchor",
           "package": "Chart",
@@ -11360,6 +12203,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_hanchor",
           "package": "Chart",
@@ -11372,6 +12216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_style",
           "package": "Chart",
@@ -11381,6 +12226,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_style",
           "package": "Chart",
@@ -11393,6 +12239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_values",
           "package": "Chart",
@@ -11402,6 +12249,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_values",
           "normalized": "[(a,b,String)]",
@@ -11416,6 +12264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_vanchor",
           "package": "Chart",
@@ -11425,6 +12274,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "_plot_annotation_vanchor",
           "package": "Chart",
@@ -11438,6 +12288,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "defaultPlotAnnotation",
           "package": "Chart",
@@ -11448,6 +12299,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "defaultPlotAnnotation",
           "package": "Chart",
@@ -11461,6 +12313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_angle",
           "package": "Chart",
@@ -11470,6 +12323,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_angle",
           "package": "Chart",
@@ -11482,6 +12336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_hanchor",
           "package": "Chart",
@@ -11491,6 +12346,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_hanchor",
           "package": "Chart",
@@ -11503,6 +12359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_style",
           "package": "Chart",
@@ -11512,6 +12369,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_style",
           "package": "Chart",
@@ -11524,6 +12382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_values",
           "package": "Chart",
@@ -11533,6 +12392,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_values",
           "normalized": "a b c b d Lens(PlotAnnotation b c)(PlotAnnotation b c)[(b,c,String)][(b,c,String)]",
@@ -11547,6 +12407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_vanchor",
           "package": "Chart",
@@ -11556,6 +12417,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Annotation",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Annotation",
           "name": "plot_annotation_vanchor",
           "package": "Chart",
@@ -11569,6 +12431,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArea spots are a collection of unconnected filled circles,\n with x,y position, and an independent z value to be represented\n by the relative area of the spots.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots",
           "package": "Chart",
@@ -11578,6 +12441,7 @@
         "index": {
           "description": "Area spots are collection of unconnected filled circles with position and an independent value to be represented by the relative area of the spots",
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots",
           "package": "Chart",
@@ -11592,6 +12456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of unconnected spots, with x,y position, and an\n   independent z value to be represented by the area of the spot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots",
           "package": "Chart",
@@ -11601,6 +12466,7 @@
         "index": {
           "description": "collection of unconnected spots with position and an independent value to be represented by the area of the spot",
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots",
           "package": "Chart",
@@ -11615,6 +12481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of unconnected spots, with x,y position, an\n   independent z value to be represented by the area of the spot,\n   and in addition, a fourth variable t to be represented by a colour\n   from a given palette.  (A linear transfer function from t to palette\n   is assumed.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots4D",
           "package": "Chart",
@@ -11624,6 +12491,7 @@
         "index": {
           "description": "collection of unconnected spots with position an independent value to be represented by the area of the spot and in addition fourth variable to be represented by colour from given palette linear transfer function from to palette is assumed",
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots4D",
           "package": "Chart",
@@ -11637,6 +12505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots",
           "package": "Chart",
@@ -11646,6 +12515,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots",
           "package": "Chart",
@@ -11659,6 +12529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots4D",
           "package": "Chart",
@@ -11668,6 +12539,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "AreaSpots4D",
           "package": "Chart",
@@ -11681,6 +12553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_linethick",
           "package": "Chart",
@@ -11690,6 +12563,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_linethick",
           "package": "Chart",
@@ -11703,6 +12577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe largest size of spot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_max_radius",
           "package": "Chart",
@@ -11713,6 +12588,7 @@
         "index": {
           "description": "the largest size of spot",
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_max_radius",
           "package": "Chart",
@@ -11725,6 +12601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_opacity",
           "package": "Chart",
@@ -11734,6 +12611,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_opacity",
           "package": "Chart",
@@ -11746,6 +12624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_palette",
           "package": "Chart",
@@ -11755,6 +12634,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_palette",
           "normalized": "[Colour Double]",
@@ -11769,6 +12649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_title",
           "package": "Chart",
@@ -11778,6 +12659,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_title",
           "package": "Chart",
@@ -11790,6 +12672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_values",
           "package": "Chart",
@@ -11799,6 +12682,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_4d_values",
           "normalized": "[(a,b,c,d)]",
@@ -11813,6 +12697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_fillcolour",
           "package": "Chart",
@@ -11822,6 +12707,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_fillcolour",
           "package": "Chart",
@@ -11834,6 +12720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_linecolour",
           "package": "Chart",
@@ -11843,6 +12730,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_linecolour",
           "package": "Chart",
@@ -11855,6 +12743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_linethick",
           "package": "Chart",
@@ -11864,6 +12753,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_linethick",
           "package": "Chart",
@@ -11877,6 +12767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe largest size of spot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_max_radius",
           "package": "Chart",
@@ -11887,6 +12778,7 @@
         "index": {
           "description": "the largest size of spot",
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_max_radius",
           "package": "Chart",
@@ -11899,6 +12791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_opacity",
           "package": "Chart",
@@ -11908,6 +12801,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_opacity",
           "package": "Chart",
@@ -11920,6 +12814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_title",
           "package": "Chart",
@@ -11929,6 +12824,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_title",
           "package": "Chart",
@@ -11941,6 +12837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_values",
           "package": "Chart",
@@ -11950,6 +12847,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "_area_spots_values",
           "normalized": "[(a,b,c)]",
@@ -11964,6 +12862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_linethick",
           "package": "Chart",
@@ -11973,6 +12872,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_linethick",
           "package": "Chart",
@@ -11985,6 +12885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_max_radius",
           "package": "Chart",
@@ -11994,6 +12895,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_max_radius",
           "package": "Chart",
@@ -12006,6 +12908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_palette",
           "package": "Chart",
@@ -12015,6 +12918,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_palette",
           "normalized": "a b c d e Lens'(AreaSpots D b c d f)[Colour Double]",
@@ -12029,6 +12933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_title",
           "package": "Chart",
@@ -12038,6 +12943,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_title",
           "package": "Chart",
@@ -12050,6 +12956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_values",
           "package": "Chart",
@@ -12059,6 +12966,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_4d_values",
           "normalized": "a b c d e b c d f Lens(AreaSpots D b c d e)(AreaSpots D b c d e)[(d,e,b,c)][(d,e,b,c)]",
@@ -12073,6 +12981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_fillcolour",
           "package": "Chart",
@@ -12082,6 +12991,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_fillcolour",
           "package": "Chart",
@@ -12094,6 +13004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_linecolour",
           "package": "Chart",
@@ -12103,6 +13014,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_linecolour",
           "package": "Chart",
@@ -12115,6 +13027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_linethick",
           "package": "Chart",
@@ -12124,6 +13037,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_linethick",
           "package": "Chart",
@@ -12136,6 +13050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_max_radius",
           "package": "Chart",
@@ -12145,6 +13060,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_max_radius",
           "package": "Chart",
@@ -12157,6 +13073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_title",
           "package": "Chart",
@@ -12166,6 +13083,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_title",
           "package": "Chart",
@@ -12178,6 +13096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_values",
           "package": "Chart",
@@ -12187,6 +13106,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "area_spots_values",
           "normalized": "a b c d b c e Lens(AreaSpots b c d)(AreaSpots b c d)[(c,d,b)][(c,d,b)]",
@@ -12202,6 +13122,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "defaultAreaSpots",
           "package": "Chart",
@@ -12212,6 +13133,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "defaultAreaSpots",
           "package": "Chart",
@@ -12226,6 +13148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "defaultAreaSpots4D",
           "package": "Chart",
@@ -12236,6 +13159,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot AreaSpots",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.AreaSpots",
           "name": "defaultAreaSpots4D",
           "package": "Chart",
@@ -12250,6 +13174,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBar Charts\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "Bars",
           "package": "Chart",
@@ -12259,6 +13184,7 @@
         "index": {
           "description": "Bar Charts",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "Bars",
           "package": "Chart",
@@ -12272,6 +13198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsPlotValue",
           "package": "Chart",
@@ -12280,6 +13207,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsPlotValue",
           "package": "Chart",
@@ -12294,6 +13222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue describing how to plot a set of bars.\n   Note that the input data is typed [(x,[y])], ie for each x value\n   we plot several y values. Typically the size of each [y] list would\n   be the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBars",
           "package": "Chart",
@@ -12303,6 +13232,7 @@
         "index": {
           "description": "Value describing how to plot set of bars Note that the input data is typed ie for each value we plot several values Typically the size of each list would be the same",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBars",
           "package": "Chart",
@@ -12317,6 +13247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow bars for a given (x,[y]) are aligned with respect to screen\n   coordinate corresponding to x (deviceX).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBarsAlignment",
           "package": "Chart",
@@ -12326,6 +13257,7 @@
         "index": {
           "description": "How bars for given are aligned with respect to screen coordinate corresponding to deviceX",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBarsAlignment",
           "package": "Chart",
@@ -12339,6 +13271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBarsSpacing",
           "package": "Chart",
@@ -12347,6 +13280,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBarsSpacing",
           "package": "Chart",
@@ -12360,6 +13294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBarsStyle",
           "package": "Chart",
@@ -12368,6 +13303,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBarsStyle",
           "package": "Chart",
@@ -12382,6 +13318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBars are centered around deviceX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsCentered",
           "package": "Chart",
@@ -12392,6 +13329,7 @@
         "index": {
           "description": "Bars are centered around deviceX",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsCentered",
           "package": "Chart",
@@ -12406,6 +13344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBars for a fixed x are put horizontally\n   beside each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsClustered",
           "package": "Chart",
@@ -12416,6 +13355,7 @@
         "index": {
           "description": "Bars for fixed are put horizontally beside each other",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsClustered",
           "package": "Chart",
@@ -12430,6 +13370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(BarsFixGap g mw) means make the gaps between\n   the bars equal to g, but with a minimum bar width\n   of mw\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsFixGap",
           "package": "Chart",
@@ -12440,6 +13381,7 @@
         "index": {
           "description": "BarsFixGap mw means make the gaps between the bars equal to but with minimum bar width of mw",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsFixGap",
           "package": "Chart",
@@ -12454,6 +13396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll bars have the same width in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsFixWidth",
           "package": "Chart",
@@ -12464,6 +13407,7 @@
         "index": {
           "description": "All bars have the same width in pixels",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsFixWidth",
           "package": "Chart",
@@ -12478,6 +13422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe left edge of bars is at deviceX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsLeft",
           "package": "Chart",
@@ -12488,6 +13433,7 @@
         "index": {
           "description": "The left edge of bars is at deviceX",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsLeft",
           "package": "Chart",
@@ -12502,6 +13448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right edge of bars is at deviceX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsRight",
           "package": "Chart",
@@ -12512,6 +13459,7 @@
         "index": {
           "description": "The right edge of bars is at deviceX",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsRight",
           "package": "Chart",
@@ -12526,6 +13474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBars for a fixed x are stacked vertically\n   on top of each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsStacked",
           "package": "Chart",
@@ -12536,6 +13485,7 @@
         "index": {
           "description": "Bars for fixed are stacked vertically on top of each other",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "BarsStacked",
           "package": "Chart",
@@ -12549,6 +13499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBars",
           "package": "Chart",
@@ -12558,6 +13509,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "PlotBars",
           "package": "Chart",
@@ -12572,6 +13524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis value controls how bars for a fixed x are aligned with\n   respect to the device coordinate corresponding to x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_alignment",
           "package": "Chart",
@@ -12582,6 +13535,7 @@
         "index": {
           "description": "This value controls how bars for fixed are aligned with respect to the device coordinate corresponding to",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_alignment",
           "package": "Chart",
@@ -12595,6 +13549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe style in which to draw each element of [y]. A fill style\n   is required, and if a linestyle is given, each bar will be\n   outlined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_item_styles",
           "package": "Chart",
@@ -12605,6 +13560,7 @@
         "index": {
           "description": "The style in which to draw each element of fill style is required and if linestyle is given each bar will be outlined",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_item_styles",
           "normalized": "[(FillStyle,Maybe LineStyle)]",
@@ -12620,6 +13576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe starting level for the chart (normally 0).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_reference",
           "package": "Chart",
@@ -12630,6 +13587,7 @@
         "index": {
           "description": "The starting level for the chart normally",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_reference",
           "package": "Chart",
@@ -12642,6 +13600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_singleton_width",
           "package": "Chart",
@@ -12651,6 +13610,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_singleton_width",
           "package": "Chart",
@@ -12664,6 +13624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis value controls how the widths of the bars are\n   calculated. Either the widths of the bars, or the gaps between\n   them can be fixed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_spacing",
           "package": "Chart",
@@ -12674,6 +13635,7 @@
         "index": {
           "description": "This value controls how the widths of the bars are calculated Either the widths of the bars or the gaps between them can be fixed",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_spacing",
           "package": "Chart",
@@ -12687,6 +13649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis value specifies whether each value from [y] should be\n   shown beside or above the previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_style",
           "package": "Chart",
@@ -12697,6 +13660,7 @@
         "index": {
           "description": "This value specifies whether each value from should be shown beside or above the previous value",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_style",
           "package": "Chart",
@@ -12710,6 +13674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title of each element of [y]. These will be shown in the legend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_titles",
           "package": "Chart",
@@ -12720,6 +13685,7 @@
         "index": {
           "description": "The title of each element of These will be shown in the legend",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_titles",
           "normalized": "[String]",
@@ -12735,6 +13701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual points to be plotted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_values",
           "package": "Chart",
@@ -12745,6 +13712,7 @@
         "index": {
           "description": "The actual points to be plotted",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "_plot_bars_values",
           "normalized": "[(a,[b])]",
@@ -12759,6 +13727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "barsAdd",
           "package": "Chart",
@@ -12768,6 +13737,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "barsAdd",
           "normalized": "a-\u003ea-\u003ea",
@@ -12783,6 +13753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "barsReference",
           "package": "Chart",
@@ -12792,6 +13763,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "barsReference",
           "package": "Chart",
@@ -12806,6 +13778,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "defaultPlotBars",
           "package": "Chart",
@@ -12816,6 +13789,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "defaultPlotBars",
           "package": "Chart",
@@ -12829,6 +13803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plotBars",
           "package": "Chart",
@@ -12838,6 +13813,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plotBars",
           "normalized": "PlotBars a b-\u003ePlot a b",
@@ -12853,6 +13829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_alignment",
           "package": "Chart",
@@ -12862,6 +13839,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_alignment",
           "package": "Chart",
@@ -12874,6 +13852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_item_styles",
           "package": "Chart",
@@ -12883,6 +13862,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_item_styles",
           "normalized": "a b c Lens'(PlotBars b d)[(FillStyle,Maybe LineStyle)]",
@@ -12897,6 +13877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_reference",
           "package": "Chart",
@@ -12906,6 +13887,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_reference",
           "package": "Chart",
@@ -12918,6 +13900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_singleton_width",
           "package": "Chart",
@@ -12927,6 +13910,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_singleton_width",
           "package": "Chart",
@@ -12939,6 +13923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_spacing",
           "package": "Chart",
@@ -12948,6 +13933,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_spacing",
           "package": "Chart",
@@ -12960,6 +13946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_style",
           "package": "Chart",
@@ -12969,6 +13956,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_style",
           "package": "Chart",
@@ -12981,6 +13969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_titles",
           "package": "Chart",
@@ -12990,6 +13979,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_titles",
           "normalized": "a b c Lens'(PlotBars b d)[String]",
@@ -13004,6 +13994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_values",
           "package": "Chart",
@@ -13013,6 +14004,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Bars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Bars",
           "name": "plot_bars_values",
           "normalized": "a b c d Lens(PlotBars b c)(PlotBars b c)[(b,[c])][(b,[c])]",
@@ -13028,6 +14020,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCandlestick charts for financial plotting\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "Candle",
           "package": "Chart",
@@ -13037,6 +14030,7 @@
         "index": {
           "description": "Candlestick charts for financial plotting",
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "Candle",
           "package": "Chart",
@@ -13051,6 +14045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Value holding price intervals for a given x-coord.\n   An alternative view is that these are statistical intervals: the\n   0th, 25th, 50th, 75th, and 100th percentiles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "Candle",
           "package": "Chart",
@@ -13060,6 +14055,7 @@
         "index": {
           "description": "Value holding price intervals for given x-coord An alternative view is that these are statistical intervals the th th th th and th percentiles",
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "Candle",
           "package": "Chart",
@@ -13074,6 +14070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue defining a financial interval: opening and closing prices, with\n   maxima and minima; and a style in which to render them.\n   By convention, there are different fill styles depending on whether\n   the price rises (open \u003c close) or falls (close \u003c open).\n   (This plot type can also be re-purposed for statistical intervals, e.g.\n    minimum, first quartile, median, third quartile, maximum.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "PlotCandle",
           "package": "Chart",
@@ -13083,6 +14080,7 @@
         "index": {
           "description": "Value defining financial interval opening and closing prices with maxima and minima and style in which to render them By convention there are different fill styles depending on whether the price rises open close or falls close open This plot type can also be re-purposed for statistical intervals e.g minimum first quartile median third quartile maximum",
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "PlotCandle",
           "package": "Chart",
@@ -13096,6 +14094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "Candle",
           "package": "Chart",
@@ -13105,6 +14104,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "Candle",
           "package": "Chart",
@@ -13118,6 +14118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "PlotCandle",
           "package": "Chart",
@@ -13127,6 +14128,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "PlotCandle",
           "package": "Chart",
@@ -13140,6 +14142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_centre",
           "package": "Chart",
@@ -13149,6 +14152,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_centre",
           "package": "Chart",
@@ -13161,6 +14165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_fall_fill_style",
           "package": "Chart",
@@ -13170,6 +14175,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_fall_fill_style",
           "package": "Chart",
@@ -13182,6 +14188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_fill",
           "package": "Chart",
@@ -13191,6 +14198,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_fill",
           "package": "Chart",
@@ -13203,6 +14211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_line_style",
           "package": "Chart",
@@ -13212,6 +14221,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_line_style",
           "package": "Chart",
@@ -13224,6 +14234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_rise_fill_style",
           "package": "Chart",
@@ -13233,6 +14244,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_rise_fill_style",
           "package": "Chart",
@@ -13245,6 +14257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_tick_length",
           "package": "Chart",
@@ -13254,6 +14267,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_tick_length",
           "package": "Chart",
@@ -13266,6 +14280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_title",
           "package": "Chart",
@@ -13275,6 +14290,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_title",
           "package": "Chart",
@@ -13287,6 +14303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_values",
           "package": "Chart",
@@ -13296,6 +14313,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_values",
           "normalized": "[Candle a b]",
@@ -13310,6 +14328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_width",
           "package": "Chart",
@@ -13319,6 +14338,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "_plot_candle_width",
           "package": "Chart",
@@ -13331,6 +14351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_close",
           "package": "Chart",
@@ -13340,6 +14361,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_close",
           "package": "Chart",
@@ -13352,6 +14374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_high",
           "package": "Chart",
@@ -13361,6 +14384,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_high",
           "package": "Chart",
@@ -13373,6 +14397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_low",
           "package": "Chart",
@@ -13382,6 +14407,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_low",
           "package": "Chart",
@@ -13394,6 +14420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_mid",
           "package": "Chart",
@@ -13403,6 +14430,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_mid",
           "package": "Chart",
@@ -13415,6 +14443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_open",
           "package": "Chart",
@@ -13424,6 +14453,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_open",
           "package": "Chart",
@@ -13436,6 +14466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_x",
           "package": "Chart",
@@ -13445,6 +14476,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "candle_x",
           "package": "Chart",
@@ -13458,6 +14490,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "defaultPlotCandle",
           "package": "Chart",
@@ -13468,6 +14501,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "defaultPlotCandle",
           "package": "Chart",
@@ -13481,6 +14515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_centre",
           "package": "Chart",
@@ -13490,6 +14525,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_centre",
           "package": "Chart",
@@ -13502,6 +14538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_fall_fill_style",
           "package": "Chart",
@@ -13511,6 +14548,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_fall_fill_style",
           "package": "Chart",
@@ -13523,6 +14561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_fill",
           "package": "Chart",
@@ -13532,6 +14571,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_fill",
           "package": "Chart",
@@ -13544,6 +14584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_line_style",
           "package": "Chart",
@@ -13553,6 +14594,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_line_style",
           "package": "Chart",
@@ -13565,6 +14607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_rise_fill_style",
           "package": "Chart",
@@ -13574,6 +14617,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_rise_fill_style",
           "package": "Chart",
@@ -13586,6 +14630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_tick_length",
           "package": "Chart",
@@ -13595,6 +14640,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_tick_length",
           "package": "Chart",
@@ -13607,6 +14653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_title",
           "package": "Chart",
@@ -13616,6 +14663,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_title",
           "package": "Chart",
@@ -13628,6 +14676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_values",
           "package": "Chart",
@@ -13637,6 +14686,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_values",
           "normalized": "a b c b d Lens(PlotCandle b c)(PlotCandle b c)[Candle b c][Candle b c]",
@@ -13651,6 +14701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_width",
           "package": "Chart",
@@ -13660,6 +14711,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Candle",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Candle",
           "name": "plot_candle_width",
           "package": "Chart",
@@ -13673,6 +14725,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlot series of points with associated error bars.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrBars",
           "package": "Chart",
@@ -13682,6 +14735,7 @@
         "index": {
           "description": "Plot series of points with associated error bars",
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrBars",
           "package": "Chart",
@@ -13695,6 +14749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrPoint",
           "package": "Chart",
@@ -13703,6 +14758,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrPoint",
           "package": "Chart",
@@ -13717,6 +14773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue for holding a point with associated error bounds for each axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrValue",
           "package": "Chart",
@@ -13726,6 +14783,7 @@
         "index": {
           "description": "Value for holding point with associated error bounds for each axis",
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrValue",
           "package": "Chart",
@@ -13740,6 +14798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue defining a series of error intervals, and a style in\n   which to render them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "PlotErrBars",
           "package": "Chart",
@@ -13749,6 +14808,7 @@
         "index": {
           "description": "Value defining series of error intervals and style in which to render them",
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "PlotErrBars",
           "package": "Chart",
@@ -13762,6 +14822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrPoint",
           "package": "Chart",
@@ -13771,6 +14832,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrPoint",
           "package": "Chart",
@@ -13784,6 +14846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrValue",
           "package": "Chart",
@@ -13793,6 +14856,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ErrValue",
           "package": "Chart",
@@ -13806,6 +14870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "PlotErrBars",
           "package": "Chart",
@@ -13815,6 +14880,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "PlotErrBars",
           "package": "Chart",
@@ -13828,6 +14894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_line_style",
           "package": "Chart",
@@ -13837,6 +14904,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_line_style",
           "package": "Chart",
@@ -13849,6 +14917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_overhang",
           "package": "Chart",
@@ -13858,6 +14927,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_overhang",
           "package": "Chart",
@@ -13870,6 +14940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_tick_length",
           "package": "Chart",
@@ -13879,6 +14950,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_tick_length",
           "package": "Chart",
@@ -13891,6 +14963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_title",
           "package": "Chart",
@@ -13900,6 +14973,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_title",
           "package": "Chart",
@@ -13912,6 +14986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_values",
           "package": "Chart",
@@ -13921,6 +14996,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "_plot_errbars_values",
           "normalized": "[ErrPoint a b]",
@@ -13936,6 +15012,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "defaultPlotErrBars",
           "package": "Chart",
@@ -13946,6 +15023,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "defaultPlotErrBars",
           "package": "Chart",
@@ -13959,6 +15037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ep_x",
           "package": "Chart",
@@ -13968,6 +15047,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ep_x",
           "package": "Chart",
@@ -13980,6 +15060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ep_y",
           "package": "Chart",
@@ -13989,6 +15070,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ep_y",
           "package": "Chart",
@@ -14001,6 +15083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ev_best",
           "package": "Chart",
@@ -14010,6 +15093,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ev_best",
           "package": "Chart",
@@ -14022,6 +15106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ev_high",
           "package": "Chart",
@@ -14031,6 +15116,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ev_high",
           "package": "Chart",
@@ -14043,6 +15129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ev_low",
           "package": "Chart",
@@ -14052,6 +15139,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "ev_low",
           "package": "Chart",
@@ -14064,6 +15152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_line_style",
           "package": "Chart",
@@ -14073,6 +15162,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_line_style",
           "package": "Chart",
@@ -14085,6 +15175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_overhang",
           "package": "Chart",
@@ -14094,6 +15185,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_overhang",
           "package": "Chart",
@@ -14106,6 +15198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_tick_length",
           "package": "Chart",
@@ -14115,6 +15208,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_tick_length",
           "package": "Chart",
@@ -14127,6 +15221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_title",
           "package": "Chart",
@@ -14136,6 +15231,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_title",
           "package": "Chart",
@@ -14148,6 +15244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_values",
           "package": "Chart",
@@ -14157,6 +15254,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "plot_errbars_values",
           "normalized": "a b c b d Lens(PlotErrBars b c)(PlotErrBars b c)[ErrPoint b c][ErrPoint b c]",
@@ -14172,6 +15270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the error is symmetric, we can simply pass in dx for the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "symErrPoint",
           "package": "Chart",
@@ -14182,6 +15281,7 @@
         "index": {
           "description": "When the error is symmetric we can simply pass in dx for the error",
           "hierarchy": "Graphics Rendering Chart Plot ErrBars",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.ErrBars",
           "name": "symErrPoint",
           "normalized": "a-\u003eb-\u003ea-\u003eb-\u003eErrPoint a b",
@@ -14198,6 +15298,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlots that fill the area between two lines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "FillBetween",
           "package": "Chart",
@@ -14207,6 +15308,7 @@
         "index": {
           "description": "Plots that fill the area between two lines",
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "FillBetween",
           "package": "Chart",
@@ -14221,6 +15323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue specifying a plot filling the area between two sets of Y\n   coordinates, given common X coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "PlotFillBetween",
           "package": "Chart",
@@ -14230,6 +15333,7 @@
         "index": {
           "description": "Value specifying plot filling the area between two sets of coordinates given common coordinates",
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "PlotFillBetween",
           "package": "Chart",
@@ -14243,6 +15347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "PlotFillBetween",
           "package": "Chart",
@@ -14252,6 +15357,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "PlotFillBetween",
           "package": "Chart",
@@ -14265,6 +15371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "_plot_fillbetween_style",
           "package": "Chart",
@@ -14274,6 +15381,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "_plot_fillbetween_style",
           "package": "Chart",
@@ -14286,6 +15394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "_plot_fillbetween_title",
           "package": "Chart",
@@ -14295,6 +15404,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "_plot_fillbetween_title",
           "package": "Chart",
@@ -14307,6 +15417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "_plot_fillbetween_values",
           "package": "Chart",
@@ -14316,6 +15427,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "_plot_fillbetween_values",
           "normalized": "[(a,(b,b))]",
@@ -14331,6 +15443,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "defaultPlotFillBetween",
           "package": "Chart",
@@ -14341,6 +15454,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "defaultPlotFillBetween",
           "package": "Chart",
@@ -14354,6 +15468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "plot_fillbetween_style",
           "package": "Chart",
@@ -14363,6 +15478,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "plot_fillbetween_style",
           "package": "Chart",
@@ -14375,6 +15491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "plot_fillbetween_title",
           "package": "Chart",
@@ -14384,6 +15501,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "plot_fillbetween_title",
           "package": "Chart",
@@ -14396,6 +15514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "plot_fillbetween_values",
           "package": "Chart",
@@ -14405,6 +15524,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot FillBetween",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.FillBetween",
           "name": "plot_fillbetween_values",
           "normalized": "a b c b d Lens(PlotFillBetween b c)(PlotFillBetween b c)[(b,(c,c))][(b,(c,c))]",
@@ -14420,6 +15540,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlots that don't show, but occupy space so as to effect axis\n scaling\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "Hidden",
           "package": "Chart",
@@ -14429,6 +15550,7 @@
         "index": {
           "description": "Plots that don show but occupy space so as to effect axis scaling",
           "hierarchy": "Graphics Rendering Chart Plot Hidden",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "Hidden",
           "package": "Chart",
@@ -14443,6 +15565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue defining some hidden x and y values. The values don't\n   get displayed, but still affect axis scaling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "PlotHidden",
           "package": "Chart",
@@ -14452,6 +15575,7 @@
         "index": {
           "description": "Value defining some hidden and values The values don get displayed but still affect axis scaling",
           "hierarchy": "Graphics Rendering Chart Plot Hidden",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "PlotHidden",
           "package": "Chart",
@@ -14465,6 +15589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "PlotHidden",
           "package": "Chart",
@@ -14474,6 +15599,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Hidden",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "PlotHidden",
           "package": "Chart",
@@ -14487,6 +15613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "_plot_hidden_x_values",
           "package": "Chart",
@@ -14496,6 +15623,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Hidden",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "_plot_hidden_x_values",
           "normalized": "[a]",
@@ -14510,6 +15638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "_plot_hidden_y_values",
           "package": "Chart",
@@ -14519,6 +15648,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Hidden",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Hidden",
           "name": "_plot_hidden_y_values",
           "normalized": "[a]",
@@ -14534,6 +15664,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLine plots\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "Lines",
           "package": "Chart",
@@ -14543,6 +15674,7 @@
         "index": {
           "description": "Line plots",
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "Lines",
           "package": "Chart",
@@ -14557,6 +15689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue defining a series of (possibly disjointed) lines,\n   and a style in which to render them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "PlotLines",
           "package": "Chart",
@@ -14566,6 +15699,7 @@
         "index": {
           "description": "Value defining series of possibly disjointed lines and style in which to render them",
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "PlotLines",
           "package": "Chart",
@@ -14579,6 +15713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "PlotLines",
           "package": "Chart",
@@ -14588,6 +15723,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "PlotLines",
           "package": "Chart",
@@ -14602,6 +15738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional lines to be plotted, specified using\n the Limit type to allow referencing the edges of\n the plot area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "_plot_lines_limit_values",
           "package": "Chart",
@@ -14612,6 +15749,7 @@
         "index": {
           "description": "Additional lines to be plotted specified using the Limit type to allow referencing the edges of the plot area",
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "_plot_lines_limit_values",
           "normalized": "[[(Limit a,Limit b)]]",
@@ -14626,6 +15764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "_plot_lines_style",
           "package": "Chart",
@@ -14635,6 +15774,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "_plot_lines_style",
           "package": "Chart",
@@ -14647,6 +15787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "_plot_lines_title",
           "package": "Chart",
@@ -14656,6 +15797,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "_plot_lines_title",
           "package": "Chart",
@@ -14669,6 +15811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lines to be plotted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "_plot_lines_values",
           "package": "Chart",
@@ -14679,6 +15822,7 @@
         "index": {
           "description": "The lines to be plotted",
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "_plot_lines_values",
           "normalized": "[[(a,b)]]",
@@ -14693,6 +15837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "defaultPlotLineStyle",
           "package": "Chart",
@@ -14702,6 +15847,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "defaultPlotLineStyle",
           "package": "Chart",
@@ -14716,6 +15862,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "defaultPlotLines",
           "package": "Chart",
@@ -14726,6 +15873,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "defaultPlotLines",
           "package": "Chart",
@@ -14740,6 +15888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to plot a single horizontal line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "hlinePlot",
           "package": "Chart",
@@ -14750,6 +15899,7 @@
         "index": {
           "description": "Helper function to plot single horizontal line",
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "hlinePlot",
           "normalized": "String-\u003eLineStyle-\u003ea-\u003ePlot b a",
@@ -14765,6 +15915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "plot_lines_limit_values",
           "package": "Chart",
@@ -14774,6 +15925,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "plot_lines_limit_values",
           "normalized": "a b c Lens'(PlotLines b d)[[(Limit b,Limit d)]]",
@@ -14788,6 +15940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "plot_lines_style",
           "package": "Chart",
@@ -14797,6 +15950,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "plot_lines_style",
           "package": "Chart",
@@ -14809,6 +15963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "plot_lines_title",
           "package": "Chart",
@@ -14818,6 +15973,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "plot_lines_title",
           "package": "Chart",
@@ -14830,6 +15986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "plot_lines_values",
           "package": "Chart",
@@ -14839,6 +15996,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "plot_lines_values",
           "normalized": "a b c Lens'(PlotLines b d)[[(b,d)]]",
@@ -14854,6 +16012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to plot a single vertical line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "vlinePlot",
           "package": "Chart",
@@ -14864,6 +16023,7 @@
         "index": {
           "description": "Helper function to plot single vertical line",
           "hierarchy": "Graphics Rendering Chart Plot Lines",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Lines",
           "name": "vlinePlot",
           "normalized": "String-\u003eLineStyle-\u003ea-\u003ePlot a b",
@@ -14880,6 +16040,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA  basic pie chart.\n\u003c/p\u003e\u003cp\u003ePie charts are handled different to other plots, in that they\n have their own layout, and can't be composed with other plots. A\n pie chart is rendered with code in the following form:\n\u003c/p\u003e\u003cpre\u003e\n values :: [PieItem]\n values = [...]\n layout :: PieLayout\n layout = pie_plot ^: pie_data ^= values\n        $ defaultPieLayout\n renderable = toRenderable layout\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "Pie",
           "package": "Chart",
@@ -14889,6 +16050,7 @@
         "index": {
           "description": "basic pie chart Pie charts are handled different to other plots in that they have their own layout and can be composed with other plots pie chart is rendered with code in the following form values PieItem values layout PieLayout layout pie plot pie data values defaultPieLayout renderable toRenderable layout",
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "Pie",
           "package": "Chart",
@@ -14902,6 +16064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieChart",
           "package": "Chart",
@@ -14910,6 +16073,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieChart",
           "package": "Chart",
@@ -14923,6 +16087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieItem",
           "package": "Chart",
@@ -14931,6 +16096,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieItem",
           "package": "Chart",
@@ -14944,6 +16110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieLayout",
           "package": "Chart",
@@ -14952,6 +16119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieLayout",
           "package": "Chart",
@@ -14965,6 +16133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieChart",
           "package": "Chart",
@@ -14974,6 +16143,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieChart",
           "package": "Chart",
@@ -14987,6 +16157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieItem",
           "package": "Chart",
@@ -14996,6 +16167,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieItem",
           "package": "Chart",
@@ -15009,6 +16181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieLayout",
           "package": "Chart",
@@ -15018,6 +16191,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "PieLayout",
           "package": "Chart",
@@ -15031,6 +16205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_background",
           "package": "Chart",
@@ -15040,6 +16215,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_background",
           "package": "Chart",
@@ -15052,6 +16228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_colors",
           "package": "Chart",
@@ -15061,6 +16238,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_colors",
           "normalized": "[AlphaColour Double]",
@@ -15075,6 +16253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_data",
           "package": "Chart",
@@ -15084,6 +16263,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_data",
           "normalized": "[PieItem]",
@@ -15098,6 +16278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_label_line_style",
           "package": "Chart",
@@ -15107,6 +16288,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_label_line_style",
           "package": "Chart",
@@ -15119,6 +16301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_label_style",
           "package": "Chart",
@@ -15128,6 +16311,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_label_style",
           "package": "Chart",
@@ -15140,6 +16324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_margin",
           "package": "Chart",
@@ -15149,6 +16334,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_margin",
           "package": "Chart",
@@ -15161,6 +16347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_plot",
           "package": "Chart",
@@ -15170,6 +16357,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_plot",
           "package": "Chart",
@@ -15182,6 +16370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_start_angle",
           "package": "Chart",
@@ -15191,6 +16380,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_start_angle",
           "package": "Chart",
@@ -15203,6 +16393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_title",
           "package": "Chart",
@@ -15212,6 +16403,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_title",
           "package": "Chart",
@@ -15224,6 +16416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_title_style",
           "package": "Chart",
@@ -15233,6 +16426,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pie_title_style",
           "package": "Chart",
@@ -15245,6 +16439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pitem_label",
           "package": "Chart",
@@ -15254,6 +16449,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pitem_label",
           "package": "Chart",
@@ -15266,6 +16462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pitem_offset",
           "package": "Chart",
@@ -15275,6 +16472,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pitem_offset",
           "package": "Chart",
@@ -15287,6 +16485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pitem_value",
           "package": "Chart",
@@ -15296,6 +16495,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "_pitem_value",
           "package": "Chart",
@@ -15309,6 +16509,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "defaultPieChart",
           "package": "Chart",
@@ -15319,6 +16520,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "defaultPieChart",
           "package": "Chart",
@@ -15333,6 +16535,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "defaultPieItem",
           "package": "Chart",
@@ -15343,6 +16546,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "defaultPieItem",
           "package": "Chart",
@@ -15357,6 +16561,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "defaultPieLayout",
           "package": "Chart",
@@ -15367,6 +16572,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "defaultPieLayout",
           "package": "Chart",
@@ -15380,6 +16586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pieChartToRenderable",
           "package": "Chart",
@@ -15389,6 +16596,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pieChartToRenderable",
           "normalized": "PieChart-\u003eRenderable(PickFn a)",
@@ -15404,6 +16612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pieToRenderable",
           "package": "Chart",
@@ -15413,6 +16622,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pieToRenderable",
           "normalized": "PieLayout-\u003eRenderable(PickFn a)",
@@ -15428,6 +16638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_background",
           "package": "Chart",
@@ -15437,6 +16648,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_background",
           "package": "Chart",
@@ -15449,6 +16661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_colors",
           "package": "Chart",
@@ -15458,6 +16671,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_colors",
           "normalized": "Lens' PieChart[AlphaColour Double]",
@@ -15472,6 +16686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_data",
           "package": "Chart",
@@ -15481,6 +16696,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_data",
           "normalized": "Lens' PieChart[PieItem]",
@@ -15495,6 +16711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_label_line_style",
           "package": "Chart",
@@ -15504,6 +16721,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_label_line_style",
           "package": "Chart",
@@ -15516,6 +16734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_label_style",
           "package": "Chart",
@@ -15525,6 +16744,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_label_style",
           "package": "Chart",
@@ -15537,6 +16757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_margin",
           "package": "Chart",
@@ -15546,6 +16767,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_margin",
           "package": "Chart",
@@ -15558,6 +16780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_plot",
           "package": "Chart",
@@ -15567,6 +16790,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_plot",
           "package": "Chart",
@@ -15579,6 +16803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_start_angle",
           "package": "Chart",
@@ -15588,6 +16813,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_start_angle",
           "package": "Chart",
@@ -15600,6 +16826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_title",
           "package": "Chart",
@@ -15609,6 +16836,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_title",
           "package": "Chart",
@@ -15621,6 +16849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_title_style",
           "package": "Chart",
@@ -15630,6 +16859,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pie_title_style",
           "package": "Chart",
@@ -15642,6 +16872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pitem_label",
           "package": "Chart",
@@ -15651,6 +16882,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pitem_label",
           "package": "Chart",
@@ -15663,6 +16895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pitem_offset",
           "package": "Chart",
@@ -15672,6 +16905,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pitem_offset",
           "package": "Chart",
@@ -15684,6 +16918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pitem_value",
           "package": "Chart",
@@ -15693,6 +16928,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Pie",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Pie",
           "name": "pitem_value",
           "package": "Chart",
@@ -15706,6 +16942,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to plot sets of points, marked in various styles.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "Points",
           "package": "Chart",
@@ -15715,6 +16952,7 @@
         "index": {
           "description": "Functions to plot sets of points marked in various styles",
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "Points",
           "package": "Chart",
@@ -15729,6 +16967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue defining a series of datapoints, and a style in\n   which to render them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "PlotPoints",
           "package": "Chart",
@@ -15738,6 +16977,7 @@
         "index": {
           "description": "Value defining series of datapoints and style in which to render them",
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "PlotPoints",
           "package": "Chart",
@@ -15751,6 +16991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "PlotPoints",
           "package": "Chart",
@@ -15760,6 +17001,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "PlotPoints",
           "package": "Chart",
@@ -15773,6 +17015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "_plot_points_style",
           "package": "Chart",
@@ -15782,6 +17025,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "_plot_points_style",
           "package": "Chart",
@@ -15794,6 +17038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "_plot_points_title",
           "package": "Chart",
@@ -15803,6 +17048,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "_plot_points_title",
           "package": "Chart",
@@ -15815,6 +17061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "_plot_points_values",
           "package": "Chart",
@@ -15824,6 +17071,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "_plot_points_values",
           "normalized": "[(a,b)]",
@@ -15839,6 +17087,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the according Data.Default instance!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "defaultPlotPoints",
           "package": "Chart",
@@ -15849,6 +17098,7 @@
         "index": {
           "description": "Deprecated Use the according Data.Default instance",
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "defaultPlotPoints",
           "package": "Chart",
@@ -15862,6 +17112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "plot_points_style",
           "package": "Chart",
@@ -15871,6 +17122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "plot_points_style",
           "package": "Chart",
@@ -15883,6 +17135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "plot_points_title",
           "package": "Chart",
@@ -15892,6 +17145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "plot_points_title",
           "package": "Chart",
@@ -15904,6 +17158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "plot_points_values",
           "package": "Chart",
@@ -15913,6 +17168,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Points",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Points",
           "name": "plot_points_values",
           "normalized": "a b c b d Lens(PlotPoints b c)(PlotPoints b c)[(b,c)][(b,c)]",
@@ -15928,6 +17184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes and functions common to the implementation of the various\n plot types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "Types",
           "package": "Chart",
@@ -15937,6 +17194,7 @@
         "index": {
           "description": "Datatypes and functions common to the implementation of the various plot types",
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "Types",
           "package": "Chart",
@@ -15951,6 +17209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface to control plotting on a 2D area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "Plot",
           "package": "Chart",
@@ -15960,6 +17219,7 @@
         "index": {
           "description": "Interface to control plotting on area",
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "Plot",
           "package": "Chart",
@@ -15974,6 +17234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class abstracting the conversion of a value to a Plot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "ToPlot",
           "package": "Chart",
@@ -15983,6 +17244,7 @@
         "index": {
           "description": "type class abstracting the conversion of value to Plot",
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "ToPlot",
           "package": "Chart",
@@ -15996,6 +17258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "Plot",
           "package": "Chart",
@@ -16005,6 +17268,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "Plot",
           "package": "Chart",
@@ -16019,6 +17283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the model space coordinates to be plotted. These are\n   used to autoscale the axes where necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "_plot_all_points",
           "package": "Chart",
@@ -16029,6 +17294,7 @@
         "index": {
           "description": "All of the model space coordinates to be plotted These are used to autoscale the axes where necessary",
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "_plot_all_points",
           "normalized": "([a],[b])",
@@ -16044,6 +17310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails for how to show this plot in a legend. For each item\n   the string is the text to show, and the function renders a\n   graphical sample of the plot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "_plot_legend",
           "package": "Chart",
@@ -16054,6 +17321,7 @@
         "index": {
           "description": "Details for how to show this plot in legend For each item the string is the text to show and the function renders graphical sample of the plot",
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "_plot_legend",
           "normalized": "[(String,Rect-\u003eChartBackend())]",
@@ -16069,6 +17337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the mapping between model space coordinates and device\n   coordinates, render this plot into a chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "_plot_render",
           "package": "Chart",
@@ -16079,6 +17348,7 @@
         "index": {
           "description": "Given the mapping between model space coordinates and device coordinates render this plot into chart",
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "_plot_render",
           "normalized": "PointMapFn a b-\u003eChartBackend()",
@@ -16094,6 +17364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin any two plots together (they will share a legend).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "joinPlot",
           "package": "Chart",
@@ -16104,6 +17375,7 @@
         "index": {
           "description": "Join any two plots together they will share legend",
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "joinPlot",
           "normalized": "Plot a b-\u003ePlot a b-\u003ePlot a b",
@@ -16119,6 +17391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "mapXY",
           "package": "Chart",
@@ -16128,6 +17401,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "mapXY",
           "normalized": "PointMapFn a b-\u003e(a,b)-\u003ePoint",
@@ -16143,6 +17417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "plot_all_points",
           "package": "Chart",
@@ -16152,6 +17427,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "plot_all_points",
           "normalized": "a b c Lens'(Plot b d)([b],[d])",
@@ -16166,6 +17442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "plot_legend",
           "package": "Chart",
@@ -16175,6 +17452,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "plot_legend",
           "normalized": "a b c Lens'(Plot b d)[(String,Rect-\u003eChartBackend())]",
@@ -16189,6 +17467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "plot_render",
           "package": "Chart",
@@ -16198,6 +17477,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "plot_render",
           "normalized": "a b c Lens'(Plot b d)(PointMapFn b d-\u003eChartBackend())",
@@ -16212,6 +17492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "toPlot",
           "package": "Chart",
@@ -16221,6 +17502,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Plot Types",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot.Types",
           "name": "toPlot",
           "normalized": "a b c-\u003ePlot b c",
@@ -16237,6 +17519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode to calculate and render various types of plots.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Plot",
           "name": "Plot",
           "package": "Chart",
@@ -16246,6 +17529,7 @@
         "index": {
           "description": "Code to calculate and render various types of plots",
           "hierarchy": "Graphics Rendering Chart Plot",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Plot",
           "name": "Plot",
           "package": "Chart",
@@ -16260,6 +17544,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the definition of the \u003ccode\u003e\u003ca\u003eRenderable\u003c/a\u003e\u003c/code\u003e type, which\n is a composable drawing element, along with assorted functions to\n them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "Renderable",
           "package": "Chart",
@@ -16269,6 +17554,7 @@
         "index": {
           "description": "This module contains the definition of the Renderable type which is composable drawing element along with assorted functions to them",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "Renderable",
           "package": "Chart",
@@ -16283,6 +17569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that maps a point in device coordinates to some value.\n\u003c/p\u003e\u003cp\u003ePerhaps it might be generalised from Maybe a to\n   (MonadPlus m ) =\u003e m a in the future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "PickFn",
           "package": "Chart",
@@ -16292,6 +17579,7 @@
         "index": {
           "description": "function that maps point in device coordinates to some value Perhaps it might be generalised from Maybe to MonadPlus in the future",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "PickFn",
           "package": "Chart",
@@ -16306,6 +17594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Renderable is a record of functions required to layout a\n   graphic element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "Renderable",
           "package": "Chart",
@@ -16315,6 +17604,7 @@
         "index": {
           "description": "Renderable is record of functions required to layout graphic element",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "Renderable",
           "package": "Chart",
@@ -16329,6 +17619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class abtracting the conversion of a value to a Renderable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "ToRenderable",
           "package": "Chart",
@@ -16338,6 +17629,7 @@
         "index": {
           "description": "type class abtracting the conversion of value to Renderable",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "ToRenderable",
           "package": "Chart",
@@ -16351,6 +17643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "Renderable",
           "package": "Chart",
@@ -16360,6 +17653,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "Renderable",
           "package": "Chart",
@@ -16374,6 +17668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd some spacing at the edges of a renderable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "addMargins",
           "package": "Chart",
@@ -16383,6 +17678,7 @@
         "index": {
           "description": "Add some spacing at the edges of renderable",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "addMargins",
           "normalized": "(Double,Double,Double,Double)-\u003eRenderable a-\u003eRenderable a",
@@ -16399,6 +17695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for using a renderable, when we generate it\n   in the CRender monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "embedRenderable",
           "package": "Chart",
@@ -16409,6 +17706,7 @@
         "index": {
           "description": "Helper function for using renderable when we generate it in the CRender monad",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "embedRenderable",
           "normalized": "ChartBackend(Renderable a)-\u003eRenderable a",
@@ -16424,6 +17722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "emptyRenderable",
           "package": "Chart",
@@ -16433,6 +17732,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "emptyRenderable",
           "package": "Chart",
@@ -16447,6 +17747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverlay a renderable over a solid background fill.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "fillBackground",
           "package": "Chart",
@@ -16457,6 +17758,7 @@
         "index": {
           "description": "Overlay renderable over solid background fill",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "fillBackground",
           "normalized": "FillStyle-\u003eRenderable a-\u003eRenderable a",
@@ -16473,6 +17775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a renderable from a text string, aligned with the axes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "label",
           "package": "Chart",
@@ -16483,6 +17786,7 @@
         "index": {
           "description": "Construct renderable from text string aligned with the axes",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "label",
           "normalized": "FontStyle-\u003eHTextAnchor-\u003eVTextAnchor-\u003eString-\u003eRenderable String",
@@ -16498,6 +17802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the result of a renderable's pickfunction, keeping only \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "mapMaybePickFn",
           "package": "Chart",
@@ -16508,6 +17813,7 @@
         "index": {
           "description": "Map function over the result of renderable pickfunction keeping only Just results",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "mapMaybePickFn",
           "normalized": "(a-\u003eMaybe b)-\u003eRenderable a-\u003eRenderable b",
@@ -16524,6 +17830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over result of a renderable's pickfunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "mapPickFn",
           "package": "Chart",
@@ -16534,6 +17841,7 @@
         "index": {
           "description": "Map function over result of renderable pickfunction",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "mapPickFn",
           "normalized": "(a-\u003eb)-\u003eRenderable a-\u003eRenderable b",
@@ -16550,6 +17858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Cairo action to calculate a minimum size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "minsize",
           "package": "Chart",
@@ -16560,6 +17869,7 @@
         "index": {
           "description": "Cairo action to calculate minimum size",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "minsize",
           "package": "Chart",
@@ -16572,6 +17882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "nullPickFn",
           "package": "Chart",
@@ -16581,6 +17892,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "nullPickFn",
           "package": "Chart",
@@ -16594,6 +17906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rect_cornerStyle",
           "package": "Chart",
@@ -16603,6 +17916,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rect_cornerStyle",
           "package": "Chart",
@@ -16616,6 +17930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rect_fillStyle",
           "package": "Chart",
@@ -16625,6 +17940,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rect_fillStyle",
           "package": "Chart",
@@ -16638,6 +17954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rect_lineStyle",
           "package": "Chart",
@@ -16647,6 +17964,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rect_lineStyle",
           "package": "Chart",
@@ -16660,6 +17978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rect_minsize",
           "package": "Chart",
@@ -16669,6 +17988,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rect_minsize",
           "package": "Chart",
@@ -16681,6 +18001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rectangleToRenderable",
           "package": "Chart",
@@ -16690,6 +18011,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rectangleToRenderable",
           "normalized": "Rectangle-\u003eRenderable a",
@@ -16706,6 +18028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Cairo action for drawing it within a rectangle.\n   The rectangle is from the origin to the given point.\n\u003c/p\u003e\u003cp\u003eThe resulting \u003ca\u003epick\u003c/a\u003e function  maps a point in the image to a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "render",
           "package": "Chart",
@@ -16716,6 +18039,7 @@
         "index": {
           "description": "Cairo action for drawing it within rectangle The rectangle is from the origin to the given point The resulting pick function maps point in the image to value",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "render",
           "normalized": "RectSize-\u003eChartBackend(PickFn a)",
@@ -16731,6 +18055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a renderable from a text string, rotated wrt to axes. The angle\n   of rotation is in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rlabel",
           "package": "Chart",
@@ -16741,6 +18066,7 @@
         "index": {
           "description": "Construct renderable from text string rotated wrt to axes The angle of rotation is in degrees",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "rlabel",
           "normalized": "FontStyle-\u003eHTextAnchor-\u003eVTextAnchor-\u003eDouble-\u003eString-\u003eRenderable String",
@@ -16756,6 +18082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the pick function of a renderable with another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "setPickFn",
           "package": "Chart",
@@ -16766,6 +18093,7 @@
         "index": {
           "description": "Replace the pick function of renderable with another",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "setPickFn",
           "normalized": "PickFn a-\u003eRenderable b-\u003eRenderable a",
@@ -16782,6 +18110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a blank renderable with a specified minimum size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "spacer",
           "package": "Chart",
@@ -16792,6 +18121,7 @@
         "index": {
           "description": "Create blank renderable with specified minimum size",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "spacer",
           "normalized": "RectSize-\u003eRenderable a",
@@ -16807,6 +18137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a blank renderable with a minimum size the same as\n   some other renderable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "spacer1",
           "package": "Chart",
@@ -16817,6 +18148,7 @@
         "index": {
           "description": "Create blank renderable with minimum size the same as some other renderable",
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "spacer1",
           "normalized": "Renderable a-\u003eRenderable b",
@@ -16831,6 +18163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "toRenderable",
           "package": "Chart",
@@ -16840,6 +18173,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Renderable",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Renderable",
           "name": "toRenderable",
           "normalized": "a-\u003eRenderable()",
@@ -16856,6 +18190,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreated     : 2008-02-26\n Modified    : 2011-02-11\n Version     : 0.2\n\u003c/p\u003e\u003cp\u003eSparklines implementation in Haskell.  Sparklines are\n mini graphs inspired by Edward Tufte.\n\u003c/p\u003e\u003cp\u003eThe original implementation (by Hitesh Jasani) used the gd\n package as a backend renderer, and is still available at\n     http:\u003cem/\u003ehackage.haskell.org\u003cem\u003epackage\u003c/em\u003ehsparklines\n The present version uses Cairo as its renderer, and integrates with\n the Chart package, in the sense that Sparklines are just another\n kind of (ToRenderable a =\u003e a), so can be composed into grids etc.\n\u003c/p\u003e\u003cpre\u003e dp :: [Double]\n dp = [24,21,32.3,24,15,34,43,55,57,72,74,75,73,72,55,44]\n\n sparkLineToPNG \"bar_spark.png\" (SparkLine barSpark dp)\n\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkLine",
           "package": "Chart",
@@ -16865,6 +18200,7 @@
         "index": {
           "description": "Created Modified Version Sparklines implementation in Haskell Sparklines are mini graphs inspired by Edward Tufte The original implementation by Hitesh Jasani used the gd package as backend renderer and is still available at http hackage.haskell.org package hsparklines The present version uses Cairo as its renderer and integrates with the Chart package in the sense that Sparklines are just another kind of ToRenderable so can be composed into grids etc dp Double dp sparkLineToPNG bar spark.png SparkLine barSpark dp",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkLine",
           "package": "Chart",
@@ -16879,6 +18215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sparkline is a single sequence of data values, treated as y-values.\n   The x-values are anonymous and implicit in the sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkLine",
           "package": "Chart",
@@ -16888,6 +18225,7 @@
         "index": {
           "description": "sparkline is single sequence of data values treated as y-values The x-values are anonymous and implicit in the sequence",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkLine",
           "package": "Chart",
@@ -16902,6 +18240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions to render the sparklines in different ways.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkOptions",
           "package": "Chart",
@@ -16911,6 +18250,7 @@
         "index": {
           "description": "Options to render the sparklines in different ways",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkOptions",
           "package": "Chart",
@@ -16924,6 +18264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkLine",
           "package": "Chart",
@@ -16933,6 +18274,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkLine",
           "package": "Chart",
@@ -16946,6 +18288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkOptions",
           "package": "Chart",
@@ -16955,6 +18298,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "SparkOptions",
           "package": "Chart",
@@ -16969,6 +18313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault options for a barchart sparkline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "barSpark",
           "package": "Chart",
@@ -16979,6 +18324,7 @@
         "index": {
           "description": "Default options for barchart sparkline",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "barSpark",
           "package": "Chart",
@@ -16993,6 +18339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a SparkLine to a drawing surface using cairo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "renderSparkLine",
           "package": "Chart",
@@ -17003,6 +18350,7 @@
         "index": {
           "description": "Render SparkLine to drawing surface using cairo",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "renderSparkLine",
           "normalized": "SparkLine-\u003eChartBackend(PickFn())",
@@ -17018,6 +18366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sl_data",
           "package": "Chart",
@@ -17027,6 +18376,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sl_data",
           "normalized": "[Double]",
@@ -17041,6 +18391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sl_options",
           "package": "Chart",
@@ -17050,6 +18401,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sl_options",
           "package": "Chart",
@@ -17063,6 +18415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault options for a smooth sparkline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "smoothSpark",
           "package": "Chart",
@@ -17073,6 +18426,7 @@
         "index": {
           "description": "Default options for smooth sparkline",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "smoothSpark",
           "package": "Chart",
@@ -17087,6 +18441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebackground color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_bgColor",
           "package": "Chart",
@@ -17097,6 +18452,7 @@
         "index": {
           "description": "background color",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_bgColor",
           "package": "Chart",
@@ -17111,6 +18467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egraph height (pixels)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_height",
           "package": "Chart",
@@ -17121,6 +18478,7 @@
         "index": {
           "description": "graph height pixels",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_height",
           "package": "Chart",
@@ -17134,6 +18492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolor of last datapoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_lastColor",
           "package": "Chart",
@@ -17144,6 +18503,7 @@
         "index": {
           "description": "color of last datapoint",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_lastColor",
           "package": "Chart",
@@ -17158,6 +18518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay last marker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_lastMarker",
           "package": "Chart",
@@ -17168,6 +18529,7 @@
         "index": {
           "description": "display last marker",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_lastMarker",
           "package": "Chart",
@@ -17182,6 +18544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata point limits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_limits",
           "package": "Chart",
@@ -17192,6 +18555,7 @@
         "index": {
           "description": "data point limits",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_limits",
           "normalized": "(Double,Double)",
@@ -17207,6 +18571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolor of maximum datapoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_maxColor",
           "package": "Chart",
@@ -17217,6 +18582,7 @@
         "index": {
           "description": "color of maximum datapoint",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_maxColor",
           "package": "Chart",
@@ -17231,6 +18597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay maximum marker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_maxMarker",
           "package": "Chart",
@@ -17241,6 +18608,7 @@
         "index": {
           "description": "display maximum marker",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_maxMarker",
           "package": "Chart",
@@ -17255,6 +18623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolor of minimum datapoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_minColor",
           "package": "Chart",
@@ -17265,6 +18634,7 @@
         "index": {
           "description": "color of minimum datapoint",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_minColor",
           "package": "Chart",
@@ -17279,6 +18649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay minimum marker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_minMarker",
           "package": "Chart",
@@ -17289,6 +18660,7 @@
         "index": {
           "description": "display minimum marker",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_minMarker",
           "package": "Chart",
@@ -17303,6 +18675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmooth or bars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_smooth",
           "package": "Chart",
@@ -17313,6 +18686,7 @@
         "index": {
           "description": "smooth or bars",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_smooth",
           "package": "Chart",
@@ -17326,6 +18700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estep size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_step",
           "package": "Chart",
@@ -17336,6 +18711,7 @@
         "index": {
           "description": "step size",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "so_step",
           "package": "Chart",
@@ -17348,6 +18724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sparkLineToRenderable",
           "package": "Chart",
@@ -17357,6 +18734,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sparkLineToRenderable",
           "normalized": "SparkLine-\u003eRenderable()",
@@ -17372,6 +18750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sparkSize",
           "package": "Chart",
@@ -17381,6 +18760,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sparkSize",
           "normalized": "SparkLine-\u003e(Int,Int)",
@@ -17397,6 +18777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the width of a SparkLine, for rendering purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sparkWidth",
           "package": "Chart",
@@ -17407,6 +18788,7 @@
         "index": {
           "description": "Compute the width of SparkLine for rendering purposes",
           "hierarchy": "Graphics Rendering Chart SparkLine",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.SparkLine",
           "name": "sparkWidth",
           "normalized": "SparkLine-\u003eInt",
@@ -17423,6 +18805,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNon chart specific utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Utils",
           "name": "Utils",
           "package": "Chart",
@@ -17432,6 +18815,7 @@
         "index": {
           "description": "Non chart specific utility functions",
           "hierarchy": "Graphics Rendering Chart Utils",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Utils",
           "name": "Utils",
           "package": "Chart",
@@ -17446,6 +18830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the given value is and actual numeric value and not \n   a concept like NaN or infinity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Utils",
           "name": "isValidNumber",
           "package": "Chart",
@@ -17456,6 +18841,7 @@
         "index": {
           "description": "Checks if the given value is and actual numeric value and not concept like NaN or infinity",
           "hierarchy": "Graphics Rendering Chart Utils",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Utils",
           "name": "isValidNumber",
           "normalized": "a-\u003eBool",
@@ -17472,6 +18858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e that returns a monadic value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart.Utils",
           "name": "maybeM",
           "package": "Chart",
@@ -17482,6 +18869,7 @@
         "index": {
           "description": "Version of maybe that returns monadic value",
           "hierarchy": "Graphics Rendering Chart Utils",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart.Utils",
           "name": "maybeM",
           "normalized": "a-\u003e(b-\u003ec a)-\u003eMaybe b-\u003ec a",
@@ -17497,6 +18885,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA framework for creating 2D charts in Haskell.\n\u003c/p\u003e\u003cp\u003eThe basic model is that you define a value representing a chart to\n be displayed, and then convert it to a \u003ccode\u003e\u003ca\u003eRenderable\u003c/a\u003e\u003c/code\u003e by applying\n \u003ccode\u003e\u003ca\u003etoRenderable\u003c/a\u003e\u003c/code\u003e. This \u003ccode\u003e\u003ca\u003eRenderable\u003c/a\u003e\u003c/code\u003e is then actually output by\n calling a function in an appropriate graphics backend, eg\n \u003ccode\u003erenderableToFile\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCurrently, there are three types of charts:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e is a standard XY chart\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eLayoutLR\u003c/a\u003e\u003c/code\u003e is an XY chart with independent left\n       and right axes\n\u003c/li\u003e\u003cli\u003e  \u003ccode\u003e\u003ca\u003ePieLayout\u003c/a\u003e\u003c/code\u003e is a pie chart\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLayoutLR\u003c/a\u003e\u003c/code\u003e charts can be stacked vertically using\n the \u003ccode\u003e\u003ca\u003eStackedLayouts\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eRenderable\u003c/a\u003e\u003c/code\u003es can be composed in arbitrary ways using the\n \u003ca\u003eGraphics.Rendering.Chart.Grid\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eMany of the record structure involved in the API have a large\n number of fields. \u003ccode\u003eLens\u003c/code\u003ees are provided to access each field. Also,\n for each record type, there is generally a default value, which can\n be accessed through the \u003ccode\u003edef\u003c/code\u003e value of the \u003ccode\u003eDefault\u003c/code\u003e typeclass.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:20 UTC 2014",
           "module": "Graphics.Rendering.Chart",
           "name": "Chart",
           "package": "Chart",
@@ -17506,6 +18895,7 @@
         "index": {
           "description": "framework for creating charts in Haskell The basic model is that you define value representing chart to be displayed and then convert it to Renderable by applying toRenderable This Renderable is then actually output by calling function in an appropriate graphics backend eg renderableToFile Currently there are three types of charts Layout is standard XY chart LayoutLR is an XY chart with independent left and right axes PieLayout is pie chart Layout and LayoutLR charts can be stacked vertically using the StackedLayouts type Renderable can be composed in arbitrary ways using the Graphics.Rendering.Chart.Grid module Many of the record structure involved in the API have large number of fields Lens es are provided to access each field Also for each record type there is generally default value which can be accessed through the def value of the Default typeclass",
           "hierarchy": "Graphics Rendering Chart",
+          "indexed": "2014-03-11T16:36:20",
           "module": "Graphics.Rendering.Chart",
           "name": "Chart",
           "package": "Chart",

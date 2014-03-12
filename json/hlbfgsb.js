@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hlbfgsb"
+        "phrase": "hlbfgsb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:50 UTC 2014",
           "module": "Numeric.Lbfgsb",
           "name": "Lbfgsb",
           "package": "hlbfgsb",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Lbfgsb",
+          "indexed": "2014-03-11T18:40:50",
           "module": "Numeric.Lbfgsb",
           "name": "Lbfgsb",
           "package": "hlbfgsb",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:50 UTC 2014",
           "module": "Numeric.Lbfgsb",
           "name": "minimize",
           "package": "hlbfgsb",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Numeric Lbfgsb",
+          "indexed": "2014-03-11T18:40:50",
           "module": "Numeric.Lbfgsb",
           "name": "minimize",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003e[Double]-\u003e[(Maybe Double,Maybe Double)]-\u003e([Double]-\u003e(Double,[Double]))-\u003e[Double]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:50 UTC 2014",
           "module": "Numeric.Lbfgsb",
           "name": "minimizeV",
           "package": "hlbfgsb",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Numeric Lbfgsb",
+          "indexed": "2014-03-11T18:40:50",
           "module": "Numeric.Lbfgsb",
           "name": "minimizeV",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eVector Double-\u003e[(Maybe Double,Maybe Double)]-\u003e(Vector Double-\u003e(Double,Vector Double))-\u003eVector Double",

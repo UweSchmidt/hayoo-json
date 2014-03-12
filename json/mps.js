@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mps"
+        "phrase": "mps",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Env",
           "name": "Env",
           "package": "mps",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "MPS Env",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Env",
           "name": "Env",
           "package": "mps",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "Extra",
           "package": "mps",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "Extra",
           "package": "mps",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "MatchList",
           "package": "mps",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "MatchList",
           "package": "mps",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "RegexResult",
           "package": "mps",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "RegexResult",
           "package": "mps",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "b2u",
           "package": "mps",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "b2u",
           "normalized": "String-\u003eString",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "base",
           "package": "mps",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "base",
           "normalized": "a-\u003ea-\u003eString",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "camel_case",
           "package": "mps",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "camel_case",
           "normalized": "String-\u003eString",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "collapse",
           "package": "mps",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "collapse",
           "normalized": "[a]-\u003eb",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "date",
           "package": "mps",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "date",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003eDay",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "empty",
           "package": "mps",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "empty",
           "normalized": "String-\u003eBool",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "f2t",
           "package": "mps",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "f2t",
           "normalized": "a-\u003eUTCTime",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "file_mtime",
           "package": "mps",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "file_mtime",
           "normalized": "String-\u003eIO UTCTime",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "file_size",
           "package": "mps",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "file_size",
           "normalized": "String-\u003eIO Integer",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "filter_comment",
           "package": "mps",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "filter_comment",
           "normalized": "String-\u003eString",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "format_time",
           "package": "mps",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "format_time",
           "normalized": "String-\u003eUTCTime-\u003eString",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "get_current_directory",
           "package": "mps",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "get_current_directory",
           "package": "mps",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "get_permissions",
           "package": "mps",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "get_permissions",
           "normalized": "String-\u003eIO Permissions",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "gsub",
           "package": "mps",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "gsub",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "i2t",
           "package": "mps",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "i2t",
           "normalized": "Integer-\u003eUTCTime",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "ls",
           "package": "mps",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "ls",
           "normalized": "String-\u003eIO[String]",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "match",
           "package": "mps",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "match",
           "normalized": "String-\u003eString-\u003eMaybe(RegexResult,MatchList)",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "now",
           "package": "mps",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "now",
           "package": "mps",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_eval",
           "package": "mps",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_eval",
           "normalized": "[a]-\u003e[a]",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_eval'",
           "package": "mps",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_eval'",
           "normalized": "[a]-\u003e[a]",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_map",
           "package": "mps",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_map",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_map'",
           "package": "mps",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_map'",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_map_reduce",
           "package": "mps",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_map_reduce",
           "normalized": "([a]-\u003eb)-\u003e(b-\u003eb-\u003eb)-\u003e[a]-\u003eb",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_map_reduce_to",
           "package": "mps",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_map_reduce_to",
           "normalized": "Int-\u003e([a]-\u003eb)-\u003e(b-\u003eb-\u003eb)-\u003e[a]-\u003eb",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_reduce",
           "package": "mps",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_reduce",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_reduce'",
           "package": "mps",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_reduce'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "p_split_to",
           "package": "mps",
@@ -705,6 +766,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "p_split_to",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "parse_time",
           "package": "mps",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "parse_time",
           "normalized": "String-\u003eString-\u003eUTCTime",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "purify",
           "package": "mps",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "purify",
           "normalized": "IO a-\u003ea",
@@ -765,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "read_binary_file",
           "package": "mps",
@@ -774,6 +841,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "read_binary_file",
           "normalized": "String-\u003eIO String",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "simple_time_format",
           "package": "mps",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "simple_time_format",
           "package": "mps",
@@ -809,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "snake_case",
           "package": "mps",
@@ -818,6 +889,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "snake_case",
           "normalized": "String-\u003eString",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "splash_date",
           "package": "mps",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "splash_date",
           "normalized": "Day-\u003e(Integer,Int,Int)",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "split",
           "package": "mps",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "split",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -878,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "split'",
           "package": "mps",
@@ -887,6 +964,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "split'",
           "normalized": "String-\u003e[String]",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "split_raw",
           "package": "mps",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "split_raw",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "strip",
           "package": "mps",
@@ -933,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "strip",
           "normalized": "String-\u003eString",
@@ -947,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "sub",
           "package": "mps",
@@ -956,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "sub",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -970,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "t2f",
           "package": "mps",
@@ -979,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "t2f",
           "normalized": "UTCTime-\u003ea",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "t2i",
           "package": "mps",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "t2i",
           "normalized": "UTCTime-\u003eInteger",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Extra",
           "name": "u2b",
           "package": "mps",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "MPS Extra",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Extra",
           "name": "u2b",
           "normalized": "String-\u003eString",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Heavy",
           "name": "Heavy",
           "package": "mps",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "MPS Heavy",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Heavy",
           "name": "Heavy",
           "package": "mps",
@@ -1060,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Heavy",
           "name": "escape_unicode_xml",
           "package": "mps",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "MPS Heavy",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Heavy",
           "name": "escape_unicode_xml",
           "normalized": "String-\u003eString",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Heavy",
           "name": "escape_xml",
           "package": "mps",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "MPS Heavy",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Heavy",
           "name": "escape_xml",
           "normalized": "String-\u003eString",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Heavy",
           "name": "parse",
           "package": "mps",
@@ -1115,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "MPS Heavy",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Heavy",
           "name": "parse",
           "normalized": "GenParser a()b-\u003e[a]-\u003eb",
@@ -1129,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Heavy",
           "name": "unescape_unicode_xml",
           "package": "mps",
@@ -1138,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "MPS Heavy",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Heavy",
           "name": "unescape_unicode_xml",
           "normalized": "String-\u003eString",
@@ -1152,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Heavy",
           "name": "unescape_xml",
           "package": "mps",
@@ -1161,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "MPS Heavy",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Heavy",
           "name": "unescape_xml",
           "normalized": "String-\u003eString",
@@ -1175,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "Light",
           "package": "mps",
@@ -1183,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "Light",
           "package": "mps",
@@ -1196,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "(-)",
           "package": "mps",
@@ -1205,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "(-) -",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "(/)",
           "package": "mps",
@@ -1228,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "(/) /",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath",
@@ -1242,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "(\u003c)",
           "package": "mps",
@@ -1251,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "(\u003c) \u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "(\u003c-\u003e)",
           "package": "mps",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1288,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "(\u003e)",
           "package": "mps",
@@ -1297,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "(\u003e) \u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "(^)",
           "package": "mps",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "(^) ^",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "(.)",
           "package": "mps",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "(.) .",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -1357,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "apply",
           "package": "mps",
@@ -1366,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "apply",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -1380,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "aren't",
           "package": "mps",
@@ -1389,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "aren't",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1403,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "at",
           "package": "mps",
@@ -1412,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "at",
           "normalized": "Int-\u003e[a]-\u003ea",
@@ -1426,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "belongs_to",
           "package": "mps",
@@ -1435,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "belongs_to",
           "normalized": "a b-\u003eb-\u003eBool",
@@ -1449,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "between",
           "package": "mps",
@@ -1458,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "between",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -1472,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "capitalize",
           "package": "mps",
@@ -1481,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "capitalize",
           "normalized": "String-\u003eString",
@@ -1495,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "cherry_pick",
           "package": "mps",
@@ -1504,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "cherry_pick",
           "normalized": "[Int]-\u003e[a]-\u003e[a]",
@@ -1518,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "common",
           "package": "mps",
@@ -1527,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "common",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1541,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "compare_by",
           "package": "mps",
@@ -1550,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "compare_by",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -1564,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "concat_map",
           "package": "mps",
@@ -1573,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "concat_map",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003e[b]",
@@ -1587,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "decode",
           "package": "mps",
@@ -1596,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "decode",
           "normalized": "[(Int,a)]-\u003e[a]",
@@ -1610,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "downto",
           "package": "mps",
@@ -1619,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "downto",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -1633,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "eighth",
           "package": "mps",
@@ -1642,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "eighth",
           "normalized": "[a]-\u003ea",
@@ -1656,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "encode",
           "package": "mps",
@@ -1665,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "encode",
           "normalized": "[a]-\u003e[(Int,a)]",
@@ -1679,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "ends_with",
           "package": "mps",
@@ -1688,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "ends_with",
           "normalized": "String-\u003eString-\u003eBool",
@@ -1702,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "eq",
           "package": "mps",
@@ -1711,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "eq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1725,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "explode",
           "package": "mps",
@@ -1734,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "explode",
           "normalized": "a-\u003e[Int]",
@@ -1748,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "fifth",
           "package": "mps",
@@ -1757,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "fifth",
           "normalized": "[a]-\u003ea",
@@ -1771,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "filter_fst",
           "package": "mps",
@@ -1780,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "filter_fst",
           "normalized": "(a-\u003eBool)-\u003e[(a,b)]-\u003e[(a,b)]",
@@ -1794,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "filter_snd",
           "package": "mps",
@@ -1803,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "filter_snd",
           "normalized": "(a-\u003eBool)-\u003e[(b,a)]-\u003e[(b,a)]",
@@ -1817,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "first",
           "package": "mps",
@@ -1826,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "first",
           "normalized": "[a]-\u003ea",
@@ -1840,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "forth",
           "package": "mps",
@@ -1849,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "forth",
           "normalized": "[a]-\u003ea",
@@ -1863,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "from_i",
           "package": "mps",
@@ -1872,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "from_i",
           "normalized": "a-\u003eb",
@@ -1886,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "has",
           "package": "mps",
@@ -1895,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "has",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -1909,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "hist",
           "package": "mps",
@@ -1918,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "hist",
           "normalized": "(a,a)-\u003e[a]-\u003eArray a b",
@@ -1932,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "in_group_of",
           "package": "mps",
@@ -1941,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "in_group_of",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -1955,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "indexed",
           "package": "mps",
@@ -1964,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "indexed",
           "normalized": "[a]-\u003e[(b,a)]",
@@ -1978,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "inject",
           "package": "mps",
@@ -1987,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "inject",
           "normalized": "a-\u003e(a-\u003eb-\u003ea)-\u003ec b-\u003ea",
@@ -2001,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "inject'",
           "package": "mps",
@@ -2010,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "inject'",
           "normalized": "a-\u003e(a-\u003eb-\u003ea)-\u003ec b-\u003ea",
@@ -2024,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "inner_inject",
           "package": "mps",
@@ -2033,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "inner_inject",
           "normalized": "a-\u003e(a-\u003eb-\u003ea)-\u003e[c b]-\u003e[a]",
@@ -2047,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "inner_map",
           "package": "mps",
@@ -2056,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "inner_map",
           "normalized": "(a-\u003eb)-\u003e[[a]]-\u003e[[b]]",
@@ -2070,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "inner_reduce",
           "package": "mps",
@@ -2079,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "inner_reduce",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[[a]]-\u003e[a]",
@@ -2093,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "insert_at",
           "package": "mps",
@@ -2102,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "insert_at",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[a]",
@@ -2116,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "is",
           "package": "mps",
@@ -2125,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "is",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2139,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "is_not",
           "package": "mps",
@@ -2148,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "is_not",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2162,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "is_palindrom",
           "package": "mps",
@@ -2171,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "is_palindrom",
           "normalized": "[a]-\u003eBool",
@@ -2185,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "is_unique",
           "package": "mps",
@@ -2194,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "is_unique",
           "normalized": "[a]-\u003eBool",
@@ -2208,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "isn't",
           "package": "mps",
@@ -2217,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "isn't",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2231,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "join",
           "package": "mps",
@@ -2240,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "join",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -2254,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "join'",
           "package": "mps",
@@ -2263,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "join'",
           "normalized": "[[a]]-\u003e[a]",
@@ -2277,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "label_by",
           "package": "mps",
@@ -2286,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "label_by",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[(b,a)]",
@@ -2300,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "labeling",
           "package": "mps",
@@ -2309,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "labeling",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[(a,b)]",
@@ -2323,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "lb",
           "package": "mps",
@@ -2332,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "lb",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -2346,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "let_receive",
           "package": "mps",
@@ -2355,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "let_receive",
           "normalized": "(a-\u003eb-\u003ec)-\u003eb-\u003ea-\u003ec",
@@ -2369,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "list2",
           "package": "mps",
@@ -2378,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "list2",
           "normalized": "(a,a)-\u003e[a]",
@@ -2392,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "list3",
           "package": "mps",
@@ -2401,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "list3",
           "normalized": "(a,a,a)-\u003e[a]",
@@ -2415,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "ljust",
           "package": "mps",
@@ -2424,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "ljust",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[a]",
@@ -2438,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "lower",
           "package": "mps",
@@ -2447,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "lower",
           "normalized": "String-\u003eString",
@@ -2461,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "map_fst",
           "package": "mps",
@@ -2470,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "map_fst",
           "normalized": "(a-\u003eb)-\u003e[(a,c)]-\u003e[(b,c)]",
@@ -2484,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "map_send_to",
           "package": "mps",
@@ -2493,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "map_send_to",
           "normalized": "a-\u003e[a-\u003eb]-\u003e[b]",
@@ -2507,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "map_snd",
           "package": "mps",
@@ -2516,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "map_snd",
           "normalized": "(a-\u003eb)-\u003e[(c,a)]-\u003e[(c,b)]",
@@ -2530,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "map_with_index",
           "package": "mps",
@@ -2539,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "map_with_index",
           "normalized": "((a,b)-\u003eb)-\u003e[b]-\u003e[b]",
@@ -2553,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "ninth",
           "package": "mps",
@@ -2562,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "ninth",
           "normalized": "[a]-\u003ea",
@@ -2576,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "none_of",
           "package": "mps",
@@ -2585,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "none_of",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eBool",
@@ -2599,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "not_null",
           "package": "mps",
@@ -2608,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "not_null",
           "normalized": "[a]-\u003eBool",
@@ -2622,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "only_fst",
           "package": "mps",
@@ -2631,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "only_fst",
           "normalized": "[(a,b)]-\u003e[a]",
@@ -2645,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "only_one",
           "package": "mps",
@@ -2654,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "only_one",
           "normalized": "[a]-\u003eBool",
@@ -2668,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "only_snd",
           "package": "mps",
@@ -2677,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "only_snd",
           "normalized": "[(a,b)]-\u003e[b]",
@@ -2691,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "pair",
           "package": "mps",
@@ -2700,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "pair",
           "normalized": "((a,b)-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -2714,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "powerslice",
           "package": "mps",
@@ -2723,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "powerslice",
           "normalized": "[a]-\u003e[[a]]",
@@ -2737,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "reduce",
           "package": "mps",
@@ -2746,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "reduce",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -2760,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "reduce'",
           "package": "mps",
@@ -2769,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "reduce'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -2783,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "reject",
           "package": "mps",
@@ -2792,6 +3035,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "reject",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -2806,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "remove_at",
           "package": "mps",
@@ -2815,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "remove_at",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -2829,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "replace_at",
           "package": "mps",
@@ -2838,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "replace_at",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[a]",
@@ -2852,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "rjust",
           "package": "mps",
@@ -2861,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "rjust",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[a]",
@@ -2875,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "rsort",
           "package": "mps",
@@ -2884,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "rsort",
           "normalized": "[a]-\u003e[a]",
@@ -2898,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "same",
           "package": "mps",
@@ -2907,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "same",
           "normalized": "[a]-\u003eBool",
@@ -2921,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "second",
           "package": "mps",
@@ -2930,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "second",
           "normalized": "[a]-\u003ea",
@@ -2944,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "select",
           "package": "mps",
@@ -2953,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "select",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -2967,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "send_to",
           "package": "mps",
@@ -2976,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "send_to",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -2990,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "seventh",
           "package": "mps",
@@ -2999,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "seventh",
           "normalized": "[a]-\u003ea",
@@ -3013,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "sixth",
           "package": "mps",
@@ -3022,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "sixth",
           "normalized": "[a]-\u003ea",
@@ -3036,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "slice",
           "package": "mps",
@@ -3045,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "slice",
           "normalized": "Int-\u003eInt-\u003e[a]-\u003e[a]",
@@ -3059,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "splash",
           "package": "mps",
@@ -3068,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "splash",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a,b)-\u003ec",
@@ -3082,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "splash3",
           "package": "mps",
@@ -3091,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "splash3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(a,b,c)-\u003ed",
@@ -3105,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "split_to",
           "package": "mps",
@@ -3114,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "split_to",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -3128,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "starts_with",
           "package": "mps",
@@ -3137,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "starts_with",
           "normalized": "String-\u003eString-\u003eBool",
@@ -3151,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "swap",
           "package": "mps",
@@ -3160,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "swap",
           "normalized": "(a,b)-\u003e(b,a)",
@@ -3174,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "tenth",
           "package": "mps",
@@ -3183,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "tenth",
           "normalized": "[a]-\u003ea",
@@ -3197,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "third",
           "package": "mps",
@@ -3206,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "third",
           "normalized": "[a]-\u003ea",
@@ -3220,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "times",
           "package": "mps",
@@ -3229,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "times",
           "normalized": "a-\u003eInt-\u003e[a]",
@@ -3243,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "to_a",
           "package": "mps",
@@ -3252,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "to_a",
           "normalized": "[a]-\u003eArray Int a",
@@ -3266,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "to_a'",
           "package": "mps",
@@ -3275,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "to_a'",
           "normalized": "(a,a)-\u003e[b]-\u003eArray a b",
@@ -3289,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "to_h",
           "package": "mps",
@@ -3298,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "to_h",
           "normalized": "[(a,b)]-\u003eMap a b",
@@ -3312,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "to_list",
           "package": "mps",
@@ -3321,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "to_list",
           "normalized": "a b-\u003e[b]",
@@ -3335,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "to_s",
           "package": "mps",
@@ -3344,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "to_s",
           "normalized": "a-\u003eString",
@@ -3358,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "to_set",
           "package": "mps",
@@ -3367,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "to_set",
           "normalized": "[a]-\u003eSet a",
@@ -3381,6 +3675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "trace'",
           "package": "mps",
@@ -3390,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "trace'",
           "normalized": "a-\u003ea",
@@ -3404,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "triple",
           "package": "mps",
@@ -3413,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "triple",
           "normalized": "((a,b,c)-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -3427,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "tuple2",
           "package": "mps",
@@ -3436,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "tuple2",
           "normalized": "[a]-\u003e(a,a)",
@@ -3450,6 +3750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "tuple3",
           "package": "mps",
@@ -3459,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "tuple3",
           "normalized": "[a]-\u003e(a,a,a)",
@@ -3473,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "twin",
           "package": "mps",
@@ -3482,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "twin",
           "normalized": "a-\u003e(a,a)",
@@ -3496,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "ub",
           "package": "mps",
@@ -3505,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "ub",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -3519,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "unique",
           "package": "mps",
@@ -3528,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "unique",
           "normalized": "[a]-\u003e[a]",
@@ -3542,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "upper",
           "package": "mps",
@@ -3551,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "upper",
           "normalized": "String-\u003eString",
@@ -3565,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.Light",
           "name": "upto",
           "package": "mps",
@@ -3574,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "MPS Light",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.Light",
           "name": "upto",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -3588,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.TH",
           "name": "TH",
           "package": "mps",
@@ -3596,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "MPS TH",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.TH",
           "name": "TH",
           "package": "mps",
@@ -3609,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS.TH",
           "name": "here",
           "package": "mps",
@@ -3618,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "MPS TH",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS.TH",
           "name": "here",
           "package": "mps",
@@ -3630,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPS",
           "name": "MPS",
           "package": "mps",
@@ -3638,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "MPS",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPS",
           "name": "MPS",
           "package": "mps",
@@ -3651,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "MPSUTF8",
           "package": "mps",
@@ -3659,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "MPSUTF8",
           "package": "mps",
@@ -3672,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "dir_exist",
           "package": "mps",
@@ -3681,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "dir_exist",
           "normalized": "String-\u003eIO Bool",
@@ -3695,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "file_exist",
           "package": "mps",
@@ -3704,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "file_exist",
           "normalized": "String-\u003eIO Bool",
@@ -3718,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "gsub",
           "package": "mps",
@@ -3727,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "gsub",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -3741,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "ls",
           "package": "mps",
@@ -3750,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "ls",
           "normalized": "String-\u003eIO[String]",
@@ -3764,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "match",
           "package": "mps",
@@ -3773,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "match",
           "normalized": "String-\u003eString-\u003eMaybe(RegexResult,MatchList)",
@@ -3787,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "mkdir_p",
           "package": "mps",
@@ -3796,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "mkdir_p",
           "normalized": "String-\u003eIO()",
@@ -3810,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "read_file",
           "package": "mps",
@@ -3819,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "read_file",
           "normalized": "String-\u003eIO String",
@@ -3833,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "rm",
           "package": "mps",
@@ -3842,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "rm",
           "normalized": "String-\u003eIO()",
@@ -3856,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "rm_rf",
           "package": "mps",
@@ -3865,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "rm_rf",
           "normalized": "String-\u003eIO()",
@@ -3879,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "split",
           "package": "mps",
@@ -3888,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "split",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -3902,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "strip",
           "package": "mps",
@@ -3911,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "strip",
           "normalized": "String-\u003eString",
@@ -3925,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "sub",
           "package": "mps",
@@ -3934,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "sub",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -3948,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:59 UTC 2014",
           "module": "MPSUTF8",
           "name": "write_file",
           "package": "mps",
@@ -3957,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "MPSUTF8",
+          "indexed": "2014-03-11T19:22:59",
           "module": "MPSUTF8",
           "name": "write_file",
           "normalized": "String-\u003eString-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HAppS-Util"
+        "phrase": "HAppS-Util",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.Base64",
           "name": "Base64",
           "package": "HAppS-Util",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto Base64",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.Base64",
           "name": "Base64",
           "package": "HAppS-Util",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut up a string into 72 char lines, each line terminated by CRLF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.Base64",
           "name": "chop72",
           "package": "HAppS-Util",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Cut up string into char lines each line terminated by CRLF",
           "hierarchy": "HAppS Crypto Base64",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.Base64",
           "name": "chop72",
           "normalized": "String-\u003eString",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.Base64",
           "name": "decode",
           "package": "HAppS-Util",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto Base64",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.Base64",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.Base64",
           "name": "encode",
           "package": "HAppS-Util",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto Base64",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.Base64",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.DES",
           "name": "DES",
           "package": "HAppS-Util",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto DES",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.DES",
           "name": "DES",
           "package": "HAppS-Util",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.DES",
           "name": "des_dec",
           "package": "HAppS-Util",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto DES",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.DES",
           "name": "des_dec",
           "normalized": "Message-\u003eKey-\u003eEnc",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.DES",
           "name": "des_enc",
           "package": "HAppS-Util",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto DES",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.DES",
           "name": "des_enc",
           "normalized": "Message-\u003eKey-\u003eEnc",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.HMAC",
           "name": "HMAC",
           "package": "HAppS-Util",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto HMAC",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.HMAC",
           "name": "HMAC",
           "package": "HAppS-Util",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.HMAC",
           "name": "hmacSHA1",
           "package": "HAppS-Util",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto HMAC",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.HMAC",
           "name": "hmacSHA1",
           "normalized": "String-\u003eString-\u003eString",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "MD5",
           "package": "HAppS-Util",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "MD5",
           "package": "HAppS-Util",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "MD5Context",
           "package": "HAppS-Util",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "MD5Context",
           "package": "HAppS-Util",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "applyMD5Rounds",
           "package": "HAppS-Util",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "applyMD5Rounds",
           "normalized": "MD Partial-\u003eByteString-\u003eMD Partial",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill read the lazy ByteString and return the md5 digest.\n   Some application might want to wrap this function for type safty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "md5",
           "package": "HAppS-Util",
@@ -299,6 +324,7 @@
         "index": {
           "description": "Will read the lazy ByteString and return the md5 digest Some application might want to wrap this function for type safty",
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "md5",
           "normalized": "ByteString-\u003eByteString",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "md5File",
           "package": "HAppS-Util",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "md5File",
           "normalized": "String-\u003eIO()",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "md5Finalize",
           "package": "HAppS-Util",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "md5Finalize",
           "normalized": "MD Context-\u003eByteString",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "md5InitialContext",
           "package": "HAppS-Util",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "md5InitialContext",
           "package": "HAppS-Util",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "md5Update",
           "package": "HAppS-Util",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "md5Update",
           "normalized": "MD Context-\u003eByteString-\u003eMD Context",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "stringMD5",
           "package": "HAppS-Util",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "stringMD5",
           "normalized": "ByteString-\u003e[Char]",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.MD5",
           "name": "test",
           "package": "HAppS-Util",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto MD5",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.MD5",
           "name": "test",
           "normalized": "IO()",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.SHA1",
           "name": "SHA1",
           "package": "HAppS-Util",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto SHA1",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.SHA1",
           "name": "SHA1",
           "package": "HAppS-Util",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.SHA1",
           "name": "sha1",
           "package": "HAppS-Util",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto SHA1",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.SHA1",
           "name": "sha1",
           "normalized": "String-\u003eString",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.SHA1",
           "name": "sha1Raw",
           "package": "HAppS-Util",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto SHA1",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.SHA1",
           "name": "sha1Raw",
           "normalized": "String-\u003eString",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.SHA1",
           "name": "sha1_size",
           "package": "HAppS-Util",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto SHA1",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.SHA1",
           "name": "sha1_size",
           "normalized": "a-\u003eString-\u003eString",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Crypto.W64",
           "name": "W64",
           "package": "HAppS-Util",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "HAppS Crypto W64",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Crypto.W64",
           "name": "W64",
           "package": "HAppS-Util",
@@ -566,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompatiblity for ByteStrings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "ByteStringCompat",
           "package": "HAppS-Util",
@@ -575,6 +624,7 @@
         "index": {
           "description": "Compatiblity for ByteStrings",
           "hierarchy": "HAppS Util ByteStringCompat",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "ByteStringCompat",
           "package": "HAppS-Util",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "breakChar",
           "package": "HAppS-Util",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util ByteStringCompat",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "breakChar",
           "normalized": "Char-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -613,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebreakCharEnd\u003c/a\u003e\u003c/code\u003e behaves like breakChar, but from the end of the\n ByteString.\n\u003c/p\u003e\u003cpre\u003e breakCharEnd ('b') (pack \"aabbcc\") == (\"aab\",\"cc\")\n\u003c/pre\u003e\u003cp\u003eand the following are equivalent:\n\u003c/p\u003e\u003cpre\u003e breakCharEnd 'c' \"abcdef\"\n let (x,y) = break (=='c') (reverse \"abcdef\")\n in (reverse (drop 1 y), reverse x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "breakCharEnd",
           "package": "HAppS-Util",
@@ -623,6 +676,7 @@
         "index": {
           "description": "breakCharEnd behaves like breakChar but from the end of the ByteString breakCharEnd pack aabbcc aab cc and the following are equivalent breakCharEnd abcdef let break reverse abcdef in reverse drop reverse",
           "hierarchy": "HAppS Util ByteStringCompat",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "breakCharEnd",
           "normalized": "Char-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "dropSpace",
           "package": "HAppS-Util",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util ByteStringCompat",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "dropSpace",
           "normalized": "ByteString-\u003eByteString",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "dropSpaceEnd",
           "package": "HAppS-Util",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util ByteStringCompat",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "dropSpaceEnd",
           "normalized": "ByteString-\u003eByteString",
@@ -687,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChunk a lazy bytestring into reasonable chunks - is id from outside.\n   This is useful to make bytestring chunks reasonable sized for e.g.\n   compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "rechunkLazy",
           "package": "HAppS-Util",
@@ -697,6 +756,7 @@
         "index": {
           "description": "Chunk lazy bytestring into reasonable chunks is id from outside This is useful to make bytestring chunks reasonable sized for e.g compression",
           "hierarchy": "HAppS Util ByteStringCompat",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.ByteStringCompat",
           "name": "rechunkLazy",
           "normalized": "ByteString-\u003eByteString",
@@ -713,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious helper routines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "Common",
           "package": "HAppS-Util",
@@ -722,6 +783,7 @@
         "index": {
           "description": "Various helper routines",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "Common",
           "package": "HAppS-Util",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "EpochSeconds",
           "package": "HAppS-Util",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "EpochSeconds",
           "package": "HAppS-Util",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "Seconds",
           "package": "HAppS-Util",
@@ -764,6 +829,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "Seconds",
           "package": "HAppS-Util",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "comp",
           "package": "HAppS-Util",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "comp",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -801,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe tracing, outputs the message and the value to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "debug",
           "package": "HAppS-Util",
@@ -811,6 +880,7 @@
         "index": {
           "description": "Unsafe tracing outputs the message and the value to stderr",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "debug",
           "normalized": "String-\u003ea-\u003ea",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe tracing messages inside a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "debugM",
           "package": "HAppS-Util",
@@ -836,6 +907,7 @@
         "index": {
           "description": "Unsafe tracing messages inside monad",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "debugM",
           "normalized": "String-\u003ea()",
@@ -850,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "eSecsToCalTime",
           "package": "HAppS-Util",
@@ -859,6 +932,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "eSecsToCalTime",
           "normalized": "EpochSeconds-\u003eIO CalendarTime",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "epochPico",
           "package": "HAppS-Util",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "epochPico",
           "normalized": "CalendarTime-\u003eInteger",
@@ -898,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "epochSeconds",
           "package": "HAppS-Util",
@@ -907,6 +984,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "epochSeconds",
           "normalized": "CalendarTime-\u003eEpochSeconds",
@@ -923,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a line from the handle and echo to stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "hGetLn",
           "package": "HAppS-Util",
@@ -933,6 +1012,7 @@
         "index": {
           "description": "Get line from the handle and echo to stdout",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "hGetLn",
           "normalized": "Handle-\u003eIO String",
@@ -949,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a line into a handle followed by \u003ca\u003ern\u003c/a\u003e and echo to stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "hPutLine",
           "package": "HAppS-Util",
@@ -959,6 +1040,7 @@
         "index": {
           "description": "Put line into handle followed by rn and echo to stdout",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "hPutLine",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -974,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "ltrim",
           "package": "HAppS-Util",
@@ -983,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "ltrim",
           "normalized": "String-\u003eString",
@@ -997,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "mapFst",
           "package": "HAppS-Util",
@@ -1006,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "mapFst",
           "normalized": "(a-\u003eb)-\u003e[(a,c)]-\u003e[(b,c)]",
@@ -1021,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "mapSnd",
           "package": "HAppS-Util",
@@ -1030,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "mapSnd",
           "normalized": "(a-\u003eb)-\u003e[(c,a)]-\u003e[(c,b)]",
@@ -1046,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Maybe into an another monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "maybeM",
           "package": "HAppS-Util",
@@ -1056,6 +1145,7 @@
         "index": {
           "description": "Convert Maybe into an another monad",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "maybeM",
           "normalized": "Maybe a-\u003eb a",
@@ -1071,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead file with a default value if the file does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "mbReadFile",
           "package": "HAppS-Util",
@@ -1081,6 +1172,7 @@
         "index": {
           "description": "Read file with default value if the file does not exist",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "mbReadFile",
           "normalized": "a-\u003e(String-\u003ea)-\u003eFilePath-\u003eIO a",
@@ -1096,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "notMb",
           "package": "HAppS-Util",
@@ -1105,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "notMb",
           "normalized": "a-\u003eMaybe a-\u003eMaybe a",
@@ -1121,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in any monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "readM",
           "package": "HAppS-Util",
@@ -1131,6 +1226,7 @@
         "index": {
           "description": "Read in any monad",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "readM",
           "normalized": "String-\u003ea b",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "revmap",
           "package": "HAppS-Util",
@@ -1154,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "revmap",
           "normalized": "a-\u003e[a-\u003eb]-\u003e[b]",
@@ -1168,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "rtrim",
           "package": "HAppS-Util",
@@ -1177,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "rtrim",
           "normalized": "String-\u003eString",
@@ -1192,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an external command. Upon failure print status\n   to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "runCommand",
           "package": "HAppS-Util",
@@ -1202,6 +1303,7 @@
         "index": {
           "description": "Run an external command Upon failure print status to stderr",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "runCommand",
           "normalized": "String-\u003e[String]-\u003eIO()",
@@ -1218,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit is like break, but the matching element is dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "split",
           "package": "HAppS-Util",
@@ -1228,6 +1331,7 @@
         "index": {
           "description": "Split is like break but the matching element is dropped",
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "split",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -1242,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "splitList",
           "package": "HAppS-Util",
@@ -1251,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "splitList",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -1266,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "splitListBy",
           "package": "HAppS-Util",
@@ -1275,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "splitListBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -1290,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "trim",
           "package": "HAppS-Util",
@@ -1299,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -1313,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Common",
           "name": "unBracket",
           "package": "HAppS-Util",
@@ -1322,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Common",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Common",
           "name": "unBracket",
           "normalized": "String-\u003eString",
@@ -1337,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Concurrent",
           "name": "Concurrent",
           "package": "HAppS-Util",
@@ -1345,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Concurrent",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Concurrent",
           "name": "Concurrent",
           "package": "HAppS-Util",
@@ -1359,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a new thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Concurrent",
           "name": "fork",
           "package": "HAppS-Util",
@@ -1369,6 +1484,7 @@
         "index": {
           "description": "Fork new thread",
           "hierarchy": "HAppS Util Concurrent",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Concurrent",
           "name": "fork",
           "normalized": "IO a-\u003eIO ThreadId",
@@ -1383,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Concurrent",
           "name": "fork_",
           "package": "HAppS-Util",
@@ -1392,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Concurrent",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Concurrent",
           "name": "fork_",
           "normalized": "IO a-\u003eIO()",
@@ -1407,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister an action to be run when ghci is restarted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Concurrent",
           "name": "registerResetAction",
           "package": "HAppS-Util",
@@ -1417,6 +1536,7 @@
         "index": {
           "description": "Register an action to be run when ghci is restarted",
           "hierarchy": "HAppS Util Concurrent",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Concurrent",
           "name": "registerResetAction",
           "normalized": "IO()-\u003eIO()",
@@ -1433,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Concurrent",
           "name": "reset",
           "package": "HAppS-Util",
@@ -1443,6 +1564,7 @@
         "index": {
           "description": "Reset state",
           "hierarchy": "HAppS Util Concurrent",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Concurrent",
           "name": "reset",
           "normalized": "IO()",
@@ -1458,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep N seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Concurrent",
           "name": "sleep",
           "package": "HAppS-Util",
@@ -1468,6 +1591,7 @@
         "index": {
           "description": "Sleep seconds",
           "hierarchy": "HAppS Util Concurrent",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Concurrent",
           "name": "sleep",
           "normalized": "Int-\u003eIO()",
@@ -1482,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.Daemonize",
           "name": "Daemonize",
           "package": "HAppS-Util",
@@ -1490,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util Daemonize",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.Daemonize",
           "name": "Daemonize",
           "package": "HAppS-Util",
@@ -1503,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.EventHandler",
           "name": "EventHandler",
           "package": "HAppS-Util",
@@ -1511,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util EventHandler",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.EventHandler",
           "name": "EventHandler",
           "package": "HAppS-Util",
@@ -1524,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TH",
           "name": "TH",
           "package": "HAppS-Util",
@@ -1532,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util TH",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TH",
           "name": "TH",
           "package": "HAppS-Util",
@@ -1545,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TH",
           "name": "instanceD'",
           "package": "HAppS-Util",
@@ -1554,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util TH",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TH",
           "name": "instanceD'",
           "normalized": "CxtQ-\u003eTypeQ-\u003eQ[Dec]-\u003eDecQ",
@@ -1569,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TH",
           "name": "isSigD",
           "package": "HAppS-Util",
@@ -1578,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util TH",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TH",
           "name": "isSigD",
           "normalized": "Dec-\u003eBool",
@@ -1594,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTimeout implementation for performing operations in the IO monad\n with a timeout added. Both using Maybe and exceptions to handle\n timeouts are supported.\n\u003c/p\u003e\u003cp\u003eTimeouts can be implemented in GHC with either a global handler\n or a per-timeout thread which sleeps until the timeout. The latter\n is used in this module. Blocking on foreign calls can cause\n problems as GHC has no way of interrupting such threads.\n The module provides a slightly slower alternative implementation\n which returns even if the computation has blocked on a foreign\n call. This should not be an issue unless -threaded is used.\n\u003c/p\u003e\u003cp\u003eThe timeouts are currently limited to a maximum of about\n 2000 seconds. This is a feature of threadDelay, but\n supporting longer timeouts is certainly possible if\n that is desirable.\n\u003c/p\u003e\u003cp\u003eFor nested timeouts there are different ways to implement them:\n a) attach an id to the exception so that the catch knows wether it may catch\n    this timout exception. I've choosen this because overhead is only passing\n    and incrementing an integer value. A integer wrap araound is possible but\n    too unlikely to happen to make me worry about it\n b) start a new workiing and killing thread so that if the original thread\n   was run within withTimeOut itself it catches the exception and not an inner\n   timout. (this is done in withSafeTimeOut, for another reason though)\n c) keep throwing exceptions until the the withTimeOut function kills the\n   killing thread. But consider sequence (forever (timeOut threadDelay 10sec) )\n   In this case the exception will be called and the next timOut may be entered\n   before the second Exception has been thrown\n\u003c/p\u003e\u003cp\u003eAll exceptions but the internal TimeOutExceptionI are rethrown in the calling thread\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TimeOut",
           "name": "TimeOut",
           "package": "HAppS-Util",
@@ -1603,6 +1738,7 @@
         "index": {
           "description": "Timeout implementation for performing operations in the IO monad with timeout added Both using Maybe and exceptions to handle timeouts are supported Timeouts can be implemented in GHC with either global handler or per-timeout thread which sleeps until the timeout The latter is used in this module Blocking on foreign calls can cause problems as GHC has no way of interrupting such threads The module provides slightly slower alternative implementation which returns even if the computation has blocked on foreign call This should not be an issue unless threaded is used The timeouts are currently limited to maximum of about seconds This is feature of threadDelay but supporting longer timeouts is certainly possible if that is desirable For nested timeouts there are different ways to implement them attach an id to the exception so that the catch knows wether it may catch this timout exception ve choosen this because overhead is only passing and incrementing an integer value integer wrap araound is possible but too unlikely to happen to make me worry about it start new workiing and killing thread so that if the original thread was run within withTimeOut itself it catches the exception and not an inner timout this is done in withSafeTimeOut for another reason though keep throwing exceptions until the the withTimeOut function kills the killing thread But consider sequence forever timeOut threadDelay sec In this case the exception will be called and the next timOut may be entered before the second Exception has been thrown All exceptions but the internal TimeOutExceptionI are rethrown in the calling thread",
           "hierarchy": "HAppS Util TimeOut",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TimeOut",
           "name": "TimeOut",
           "package": "HAppS-Util",
@@ -1616,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TimeOut",
           "name": "TimeOutException",
           "package": "HAppS-Util",
@@ -1624,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util TimeOut",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TimeOut",
           "name": "TimeOutException",
           "package": "HAppS-Util",
@@ -1637,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TimeOut",
           "name": "TimeOutException",
           "package": "HAppS-Util",
@@ -1646,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util TimeOut",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TimeOut",
           "name": "TimeOutException",
           "package": "HAppS-Util",
@@ -1660,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant representing one second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TimeOut",
           "name": "second",
           "package": "HAppS-Util",
@@ -1670,6 +1811,7 @@
         "index": {
           "description": "Constant representing one second",
           "hierarchy": "HAppS Util TimeOut",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TimeOut",
           "name": "second",
           "package": "HAppS-Util",
@@ -1682,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TimeOut",
           "name": "withSafeTimeOut",
           "package": "HAppS-Util",
@@ -1691,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util TimeOut",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TimeOut",
           "name": "withSafeTimeOut",
           "normalized": "Int-\u003eIO a-\u003eIO a",
@@ -1707,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike timeOut, but additionally it works even if the computation is blocking\n async exceptions (explicitely or by a blocking FFI call). This consumes\n more resources than timeOut, but is still quite fast.\n\u003c/p\u003e\u003cp\u003eLike withTimeOutMaybe, but handles the operation blocking exceptions like withSafeTimeOut\n does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TimeOut",
           "name": "withSafeTimeOutMaybe",
           "package": "HAppS-Util",
@@ -1717,6 +1862,7 @@
         "index": {
           "description": "Like timeOut but additionally it works even if the computation is blocking async exceptions explicitely or by blocking FFI call This consumes more resources than timeOut but is still quite fast Like withTimeOutMaybe but handles the operation blocking exceptions like withSafeTimeOut does",
           "hierarchy": "HAppS Util TimeOut",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TimeOut",
           "name": "withSafeTimeOutMaybe",
           "normalized": "Int-\u003eIO a-\u003eIO(Maybe a)",
@@ -1732,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TimeOut",
           "name": "withTimeOut",
           "package": "HAppS-Util",
@@ -1741,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "HAppS Util TimeOut",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TimeOut",
           "name": "withTimeOut",
           "normalized": "Int-\u003eIO a-\u003eIO a",
@@ -1757,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the normal timeout handler. It throws a TimeOutException exception,\n if the timeout occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:20 UTC 2014",
           "module": "HAppS.Util.TimeOut",
           "name": "withTimeOutMaybe",
           "package": "HAppS-Util",
@@ -1767,6 +1916,7 @@
         "index": {
           "description": "This is the normal timeout handler It throws TimeOutException exception if the timeout occurs",
           "hierarchy": "HAppS Util TimeOut",
+          "indexed": "2014-03-11T16:44:20",
           "module": "HAppS.Util.TimeOut",
           "name": "withTimeOutMaybe",
           "normalized": "Int-\u003eIO a-\u003eIO(Maybe a)",

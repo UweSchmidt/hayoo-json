@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cpsa"
+        "phrase": "cpsa",
+        "type": "phrase"
       },
       "type": "context"
     }

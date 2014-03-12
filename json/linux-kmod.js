@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linux-kmod"
+        "phrase": "linux-kmod",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh-level bindings to to the \u003ccode\u003elibkmod\u003c/code\u003e library for manipulating\n Linux kernel modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "KMod",
           "package": "linux-kmod",
@@ -28,6 +29,7 @@
         "index": {
           "description": "High-level bindings to to the libkmod library for manipulating Linux kernel modules",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "KMod",
           "package": "linux-kmod",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddress of a module section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Address",
           "package": "linux-kmod",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Address of module section",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Address",
           "package": "linux-kmod",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbol bind type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Bind",
           "package": "linux-kmod",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Symbol bind type",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Bind",
           "package": "linux-kmod",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eBlacklist\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e filter for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleProbeInsertModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e specifies\n how blacklist configuration should be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Blacklist",
           "package": "linux-kmod",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Blacklist filter for moduleProbeInsertModule specifies how blacklist configuration should be applied",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Blacklist",
           "package": "linux-kmod",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003ethrow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003en by \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleProbeInsertModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if the\n module cannot be inserted due to a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBlacklist\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "BlacklistError",
           "package": "linux-kmod",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Exception throw by moduleProbeInsertModule if the module cannot be inserted due to Blacklist setting",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "BlacklistError",
           "package": "linux-kmod",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrc of a symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "CRC",
           "package": "linux-kmod",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Crc of symbol",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "CRC",
           "package": "linux-kmod",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object representing the library context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Context",
           "package": "linux-kmod",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Opaque object representing the library context",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Context",
           "package": "linux-kmod",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter type for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleNewFromLookupWithFilter\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Filter",
           "package": "linux-kmod",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Filter type for moduleNewFromLookupWithFilter",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Filter",
           "package": "linux-kmod",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent an index file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Index",
           "package": "linux-kmod",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Represent an index file",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Index",
           "package": "linux-kmod",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible values of initialization state of a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Initstate",
           "package": "linux-kmod",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Possible values of initialization state of Module",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Initstate",
           "package": "linux-kmod",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleInsertModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "InsertFlags",
           "package": "linux-kmod",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Flags for moduleInsertModule",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "InsertFlags",
           "package": "linux-kmod",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent the key in a (key,value) pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Key",
           "package": "linux-kmod",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Represent the key in key value pair",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Key",
           "package": "linux-kmod",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object representing a module. The \u003ccode\u003e\u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance of\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is achieved using \u003ccode\u003ekmod_module_get_name\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Module",
           "package": "linux-kmod",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Opaque object representing module The Show instance of Module is achieved using kmod module get name",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Module",
           "package": "linux-kmod",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of a module section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Name",
           "package": "linux-kmod",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Name of module section",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Name",
           "package": "linux-kmod",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for module loading to pass to Linux Kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Options",
           "package": "linux-kmod",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Options for module loading to pass to Linux Kernel",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Options",
           "package": "linux-kmod",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to print the actions being taken during the execution of\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleProbeInsertModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "PrintAction",
           "package": "linux-kmod",
@@ -373,6 +404,7 @@
         "index": {
           "description": "Function to print the actions being taken during the execution of moduleProbeInsertModule",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "PrintAction",
           "package": "linux-kmod",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleProbeInsertModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "ProbeFlags",
           "package": "linux-kmod",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Flags for moduleProbeInsertModule",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "ProbeFlags",
           "package": "linux-kmod",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleRemoveModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "RemoveFlags",
           "package": "linux-kmod",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Flags for moduleRemoveModule",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "RemoveFlags",
           "package": "linux-kmod",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent the return values of \u003ccode\u003e\u003ccode\u003e\u003ca\u003evalidateResources\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Resources",
           "package": "linux-kmod",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Represent the return values of validateResources",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Resources",
           "package": "linux-kmod",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to run a module install commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "RunInstall",
           "package": "linux-kmod",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Function to run module install commands",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "RunInstall",
           "package": "linux-kmod",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of a symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Symbol",
           "package": "linux-kmod",
@@ -488,6 +529,7 @@
         "index": {
           "description": "Name of symbol",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Symbol",
           "package": "linux-kmod",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent the value in a (key,value) pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Value",
           "package": "linux-kmod",
@@ -511,6 +554,7 @@
         "index": {
           "description": "Represent the value in key value pair",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Value",
           "package": "linux-kmod",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply blacklist configuration\n to the module alone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Blacklist",
           "package": "linux-kmod",
@@ -535,6 +580,7 @@
         "index": {
           "description": "Apply blacklist configuration to the module alone",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Blacklist",
           "package": "linux-kmod",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply blacklist configuration\n to the module only if it is an\n alias\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "BlacklistAliasOnly",
           "package": "linux-kmod",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Apply blacklist configuration to the module only if it is an alias",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "BlacklistAliasOnly",
           "package": "linux-kmod",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply blacklist configuration\n to the module and its\n dependencies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "BlacklistAll",
           "package": "linux-kmod",
@@ -583,6 +632,7 @@
         "index": {
           "description": "Apply blacklist configuration to the module and its dependencies",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "BlacklistAll",
           "package": "linux-kmod",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "BlacklistError",
           "package": "linux-kmod",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "BlacklistError",
           "package": "linux-kmod",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Builtin",
           "package": "linux-kmod",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Builtin",
           "package": "linux-kmod",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Coming",
           "package": "linux-kmod",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Coming",
           "package": "linux-kmod",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Filter",
           "package": "linux-kmod",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Filter",
           "package": "linux-kmod",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Global",
           "package": "linux-kmod",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Global",
           "package": "linux-kmod",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Going",
           "package": "linux-kmod",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Going",
           "package": "linux-kmod",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "InsertFlags",
           "package": "linux-kmod",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "InsertFlags",
           "package": "linux-kmod",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Live",
           "package": "linux-kmod",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Live",
           "package": "linux-kmod",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Local",
           "package": "linux-kmod",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Local",
           "package": "linux-kmod",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "ModulesAlias",
           "package": "linux-kmod",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "ModulesAlias",
           "package": "linux-kmod",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "ModulesBuiltin",
           "package": "linux-kmod",
@@ -825,6 +896,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "ModulesBuiltin",
           "package": "linux-kmod",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "ModulesDep",
           "package": "linux-kmod",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "ModulesDep",
           "package": "linux-kmod",
@@ -860,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "ModulesSymbol",
           "package": "linux-kmod",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "ModulesSymbol",
           "package": "linux-kmod",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "MustRecreate",
           "package": "linux-kmod",
@@ -891,6 +968,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "MustRecreate",
           "package": "linux-kmod",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "MustReload",
           "package": "linux-kmod",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "MustReload",
           "package": "linux-kmod",
@@ -927,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not apply blacklist\n configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "NoBlacklist",
           "package": "linux-kmod",
@@ -937,6 +1018,7 @@
         "index": {
           "description": "Do not apply blacklist configuration",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "NoBlacklist",
           "package": "linux-kmod",
@@ -950,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "None",
           "package": "linux-kmod",
@@ -959,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "None",
           "package": "linux-kmod",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Ok",
           "package": "linux-kmod",
@@ -981,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Ok",
           "package": "linux-kmod",
@@ -994,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "ProbeFlags",
           "package": "linux-kmod",
@@ -1003,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "ProbeFlags",
           "package": "linux-kmod",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "RemoveFlags",
           "package": "linux-kmod",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "RemoveFlags",
           "package": "linux-kmod",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Undefined",
           "package": "linux-kmod",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Undefined",
           "package": "linux-kmod",
@@ -1060,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "Weak",
           "package": "linux-kmod",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "Weak",
           "package": "linux-kmod",
@@ -1083,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of modules and corresponding aliases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "configGetAliases",
           "package": "linux-kmod",
@@ -1093,6 +1188,7 @@
         "index": {
           "description": "Get the list of modules and corresponding aliases",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "configGetAliases",
           "normalized": "Context-\u003eIO[(Key,Value)]",
@@ -1109,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of blacklisted modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "configGetBlacklists",
           "package": "linux-kmod",
@@ -1119,6 +1216,7 @@
         "index": {
           "description": "Get the list of blacklisted modules",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "configGetBlacklists",
           "normalized": "Context-\u003eIO[String]",
@@ -1135,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of modules and corresponding install commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "configGetInstallCommands",
           "package": "linux-kmod",
@@ -1145,6 +1244,7 @@
         "index": {
           "description": "Get the list of modules and corresponding install commands",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "configGetInstallCommands",
           "normalized": "Context-\u003eIO[(Key,Value)]",
@@ -1161,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of modules and corresponding options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "configGetOptions",
           "package": "linux-kmod",
@@ -1171,6 +1272,7 @@
         "index": {
           "description": "Get the list of modules and corresponding options",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "configGetOptions",
           "normalized": "Context-\u003eIO[(Key,Value)]",
@@ -1187,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of modules and corresponding remove commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "configGetRemoveCommands",
           "package": "linux-kmod",
@@ -1197,6 +1300,7 @@
         "index": {
           "description": "Get the list of modules and corresponding remove commands",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "configGetRemoveCommands",
           "normalized": "Context-\u003eIO[(Key,Value)]",
@@ -1213,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of modules and corresponding soft dependencies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "configGetSoftdeps",
           "package": "linux-kmod",
@@ -1223,6 +1328,7 @@
         "index": {
           "description": "Get the list of modules and corresponding soft dependencies",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "configGetSoftdeps",
           "normalized": "Context-\u003eIO[(Key,Value)]",
@@ -1239,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to file descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "dumpIndex",
           "package": "linux-kmod",
@@ -1249,6 +1356,7 @@
         "index": {
           "description": "Dump Index to file descriptor",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "dumpIndex",
           "normalized": "Context-\u003eIndex-\u003eFd-\u003eIO()",
@@ -1264,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "filterBlacklist",
           "package": "linux-kmod",
@@ -1273,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "filterBlacklist",
           "package": "linux-kmod",
@@ -1286,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "filterBuiltin",
           "package": "linux-kmod",
@@ -1295,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "filterBuiltin",
           "package": "linux-kmod",
@@ -1309,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current logging priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "getLogPriority",
           "package": "linux-kmod",
@@ -1319,6 +1432,7 @@
         "index": {
           "description": "Get the current logging priority",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "getLogPriority",
           "normalized": "Context-\u003eIO Int",
@@ -1334,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "insertForceModVersion",
           "package": "linux-kmod",
@@ -1343,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "insertForceModVersion",
           "package": "linux-kmod",
@@ -1356,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "insertForceVerMagic",
           "package": "linux-kmod",
@@ -1365,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "insertForceVerMagic",
           "package": "linux-kmod",
@@ -1379,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad indexes and keep them open in \u003ccode\u003e\u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "loadResources",
           "package": "linux-kmod",
@@ -1389,6 +1508,7 @@
         "index": {
           "description": "Load indexes and keep them open in Context",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "loadResources",
           "normalized": "Context-\u003eIO()",
@@ -1405,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch the modules.dep index to find the dependencies of the\n given \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetDependencies",
           "package": "linux-kmod",
@@ -1415,6 +1536,7 @@
         "index": {
           "description": "Search the modules.dep index to find the dependencies of the given Module",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetDependencies",
           "normalized": "Module-\u003eIO[Module]",
@@ -1431,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of entries in ELF section \".symtab\" or\n \"__ksymtab_strings\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetDependencySymbols",
           "package": "linux-kmod",
@@ -1441,6 +1564,7 @@
         "index": {
           "description": "Get the list of entries in ELF section symtab or ksymtab strings",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetDependencySymbols",
           "normalized": "Module-\u003eIO[(Symbol,Bind,CRC)]",
@@ -1457,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es that are holding the given\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, as returned by Linux kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetHolders",
           "package": "linux-kmod",
@@ -1467,6 +1592,7 @@
         "index": {
           "description": "Get the list of Module that are holding the given Module as returned by Linux kernel",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetHolders",
           "normalized": "Module-\u003eIO[Module]",
@@ -1483,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of entries in ELF section \".modinfo\", these\n contain alias, license, depends, vermagic and other keys with\n respective values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetInfo",
           "package": "linux-kmod",
@@ -1493,6 +1620,7 @@
         "index": {
           "description": "Get the list of entries in ELF section modinfo these contain alias license depends vermagic and other keys with respective values",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetInfo",
           "normalized": "Module-\u003eIO[(Key,Value)]",
@@ -1509,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eInitstate\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e of the given \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, as returned by\n Linux Kernel, by reading \u003ccode\u003e/sys\u003c/code\u003e filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetInitstate",
           "package": "linux-kmod",
@@ -1519,6 +1648,7 @@
         "index": {
           "description": "Get the Initstate of the given Module as returned by Linux Kernel by reading sys filesystem",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetInitstate",
           "normalized": "Module-\u003eIO Initstate",
@@ -1535,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet install commands for this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Install commands come\n from the configuration file and are cached in \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. The first\n call to this function will search for this module in configuration\n and subsequent calls return the cached string. The install commands\n are returned as they were in the configuration, concatenated by\n ';'. No other processing is made in this string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetInstallCommands",
           "package": "linux-kmod",
@@ -1545,6 +1676,7 @@
         "index": {
           "description": "Get install commands for this Module Install commands come from the configuration file and are cached in Module The first call to this function will search for this module in configuration and subsequent calls return the cached string The install commands are returned as they were in the configuration concatenated by No other processing is made in this string",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetInstallCommands",
           "normalized": "Module-\u003eIO(Maybe String)",
@@ -1561,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet options of this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Options come from the\n configuration file and are cached in \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. The first call to\n this function will search for this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e in configuration and\n subsequent calls return the cached string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetOptions",
           "package": "linux-kmod",
@@ -1571,6 +1704,7 @@
         "index": {
           "description": "Get options of this Module Options come from the configuration file and are cached in Module The first call to this function will search for this Module in configuration and subsequent calls return the cached string",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetOptions",
           "normalized": "Module-\u003eIO(Maybe String)",
@@ -1587,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path of this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. If this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e was not\n created by path, it can search the modules.dep index in order to\n find out the module under context's dirname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetPath",
           "package": "linux-kmod",
@@ -1597,6 +1732,7 @@
         "index": {
           "description": "Get the path of this Module If this Module was not created by path it can search the modules.dep index in order to find out the module under context dirname",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetPath",
           "normalized": "Module-\u003eIO(Maybe String)",
@@ -1613,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the ref count of the given \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, as returned by Linux\n kernel, by reading \u003ccode\u003e/sys\u003c/code\u003e filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetRefcnt",
           "package": "linux-kmod",
@@ -1623,6 +1760,7 @@
         "index": {
           "description": "Get the ref count of the given Module as returned by Linux kernel by reading sys filesystem",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetRefcnt",
           "normalized": "Module-\u003eIO Int",
@@ -1639,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet remove commands for this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Remove commands come\n from the configuration file and are cached in \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. The first\n call to this function will search for this module in configuration\n and subsequent calls return the cached string. The remove commands\n are returned as they were in the configuration, concatenated by\n ';'. No other processing is made in this string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetRemoveCommands",
           "package": "linux-kmod",
@@ -1649,6 +1788,7 @@
         "index": {
           "description": "Get remove commands for this Module Remove commands come from the configuration file and are cached in Module The first call to this function will search for this module in configuration and subsequent calls return the cached string The remove commands are returned as they were in the configuration concatenated by No other processing is made in this string",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetRemoveCommands",
           "normalized": "Module-\u003eIO(Maybe String)",
@@ -1665,6 +1805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of sections of this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, as returned by Linux\n kernel (implemented natively in Haskell by reading \u003ccode\u003e/sys/module/\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetSections",
           "package": "linux-kmod",
@@ -1675,6 +1816,7 @@
         "index": {
           "description": "Get list of sections of this Module as returned by Linux kernel implemented natively in Haskell by reading sys module",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetSections",
           "normalized": "Module-\u003eIO[(Name,Address)]",
@@ -1691,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the given \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e as returned by Linux kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetSize",
           "package": "linux-kmod",
@@ -1701,6 +1844,7 @@
         "index": {
           "description": "Get the size of the given Module as returned by Linux kernel",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetSize",
           "normalized": "Module-\u003eIO Int",
@@ -1717,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet soft dependencies for this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetSoftdeps",
           "package": "linux-kmod",
@@ -1727,6 +1872,7 @@
         "index": {
           "description": "Get soft dependencies for this Module",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetSoftdeps",
           "normalized": "Module-\u003eIO([Module],[Module])",
@@ -1743,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of entries in ELF section \".symtab\" or\n \"__ksymtab_strings\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetSymbols",
           "package": "linux-kmod",
@@ -1753,6 +1900,7 @@
         "index": {
           "description": "Get the list of entries in ELF section symtab or ksymtab strings",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetSymbols",
           "normalized": "Module-\u003eIO[(Symbol,CRC)]",
@@ -1769,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of entries in ELF section \"__versions\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleGetVersions",
           "package": "linux-kmod",
@@ -1779,6 +1928,7 @@
         "index": {
           "description": "Get the list of entries in ELF section versions",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleGetVersions",
           "normalized": "Module-\u003eIO[(Symbol,CRC)]",
@@ -1795,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a module in Linux kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleInsertModule",
           "package": "linux-kmod",
@@ -1805,6 +1956,7 @@
         "index": {
           "description": "Insert module in Linux kernel",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleInsertModule",
           "normalized": "Module-\u003eInsertFlags-\u003eOptions-\u003eIO()",
@@ -1821,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es currently loaded in kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromLoaded",
           "package": "linux-kmod",
@@ -1831,6 +1984,7 @@
         "index": {
           "description": "Get the list of Module currently loaded in kernel",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromLoaded",
           "normalized": "Context-\u003eIO[Module]",
@@ -1847,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new list of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es using an alias or module name\n and lookup libkmod's configuration files and indexes in order to\n find the module. Once it's found in one of the places, it stops\n searching and create the list of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromLookup",
           "package": "linux-kmod",
@@ -1857,6 +2012,7 @@
         "index": {
           "description": "Create new list of Module using an alias or module name and lookup libkmod configuration files and indexes in order to find the module Once it found in one of the places it stops searching and create the list of Module",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromLookup",
           "normalized": "Context-\u003eString-\u003eIO[Module]",
@@ -1873,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleNewFromLookup\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e but apply  filter the output list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromLookupWithFilter",
           "package": "linux-kmod",
@@ -1883,6 +2040,7 @@
         "index": {
           "description": "Same as moduleNewFromLookup but apply filter the output list",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromLookupWithFilter",
           "normalized": "Context-\u003eString-\u003eFilter-\u003eIO[Module]",
@@ -1899,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e using the module name, that can not be an\n alias, file name or anything else; it must be a module\n name. There's no check if the module exists in the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromName",
           "package": "linux-kmod",
@@ -1909,6 +2068,7 @@
         "index": {
           "description": "Create new Module using the module name that can not be an alias file name or anything else it must be module name There no check if the module exists in the system",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromName",
           "normalized": "Context-\u003eString-\u003eIO Module",
@@ -1925,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e using the module path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromPath",
           "package": "linux-kmod",
@@ -1935,6 +2096,7 @@
         "index": {
           "description": "Create new Module using the module path",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleNewFromPath",
           "normalized": "Context-\u003eString-\u003eIO Module",
@@ -1951,6 +2113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a module in Linux kernel resolving dependencies, soft\n dependencies, install commands and applying blacklist. If the\n module cannot be inserted due to the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBlacklist\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e filter, \u003ccode\u003e\u003ccode\u003e\u003ca\u003emoduleProbeInsertModule\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003ethrow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es a\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBlacklistError\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleProbeInsertModule",
           "package": "linux-kmod",
@@ -1960,6 +2123,7 @@
         "index": {
           "description": "Insert module in Linux kernel resolving dependencies soft dependencies install commands and applying blacklist If the module cannot be inserted due to the Blacklist filter moduleProbeInsertModule throw BlacklistError exception",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleProbeInsertModule",
           "normalized": "Module-\u003eProbeFlags-\u003eBlacklist-\u003eMaybe Options-\u003eMaybe RunInstall-\u003eMaybe PrintAction-\u003eIO()",
@@ -1976,6 +2140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a module from Linux kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "moduleRemoveModule",
           "package": "linux-kmod",
@@ -1986,6 +2151,7 @@
         "index": {
           "description": "Remove module from Linux kernel",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "moduleRemoveModule",
           "normalized": "Module-\u003eRemoveFlags-\u003eIO()",
@@ -2002,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003ekmod\u003c/code\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e from configuration files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "new",
           "package": "linux-kmod",
@@ -2011,6 +2178,7 @@
         "index": {
           "description": "Create kmod Context from configuration files",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "new",
           "normalized": "Maybe FilePath-\u003eMaybe[FilePath]-\u003eIO Context",
@@ -2025,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "probeDryRun",
           "package": "linux-kmod",
@@ -2034,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "probeDryRun",
           "package": "linux-kmod",
@@ -2047,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "probeFailOnLoaded",
           "package": "linux-kmod",
@@ -2056,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "probeFailOnLoaded",
           "package": "linux-kmod",
@@ -2069,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "probeForceModVersion",
           "package": "linux-kmod",
@@ -2078,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "probeForceModVersion",
           "package": "linux-kmod",
@@ -2091,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "probeForceVerMagic",
           "package": "linux-kmod",
@@ -2100,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "probeForceVerMagic",
           "package": "linux-kmod",
@@ -2113,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "probeIgnoreCommand",
           "package": "linux-kmod",
@@ -2122,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "probeIgnoreCommand",
           "package": "linux-kmod",
@@ -2135,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "probeIgnoreLoaded",
           "package": "linux-kmod",
@@ -2144,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "probeIgnoreLoaded",
           "package": "linux-kmod",
@@ -2157,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "removeForce",
           "package": "linux-kmod",
@@ -2166,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "removeForce",
           "package": "linux-kmod",
@@ -2179,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "removeNowait",
           "package": "linux-kmod",
@@ -2188,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "removeNowait",
           "package": "linux-kmod",
@@ -2202,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current logging priority. The value controls which\n messages are logged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "setLogPriority",
           "package": "linux-kmod",
@@ -2212,6 +2397,7 @@
         "index": {
           "description": "Set the current logging priority The value controls which messages are logged",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "setLogPriority",
           "normalized": "Context-\u003eInt-\u003eIO()",
@@ -2228,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnload all the indexes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "unloadResources",
           "package": "linux-kmod",
@@ -2238,6 +2425,7 @@
         "index": {
           "description": "Unload all the indexes",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "unloadResources",
           "normalized": "Context-\u003eIO()",
@@ -2254,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if indexes and configuration files changed on disk and the\n current context is not valid anymore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:14 UTC 2014",
           "module": "System.Linux.KMod",
           "name": "validateResources",
           "package": "linux-kmod",
@@ -2264,6 +2453,7 @@
         "index": {
           "description": "Check if indexes and configuration files changed on disk and the current context is not valid anymore",
           "hierarchy": "System Linux KMod",
+          "indexed": "2014-03-11T19:10:14",
           "module": "System.Linux.KMod",
           "name": "validateResources",
           "normalized": "Context-\u003eIO Resources",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fallingblocks"
+        "phrase": "fallingblocks",
+        "type": "phrase"
       },
       "type": "context"
     }

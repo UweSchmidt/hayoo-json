@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-types"
+        "phrase": "http-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Header",
           "name": "Header",
           "package": "http-types",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types Header",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Header",
           "name": "Header",
           "package": "http-types",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRFC 2616 Byte range (individual). \n\u003c/p\u003e\u003cp\u003eNegative indices are not allowed!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Header",
           "name": "ByteRange",
           "package": "http-types",
@@ -49,6 +52,7 @@
         "index": {
           "description": "RFC Byte range individual Negative indices are not allowed",
           "hierarchy": "Network HTTP Types Header",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Header",
           "name": "ByteRange",
           "package": "http-types",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRFC 2616 Byte ranges (set).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Header",
           "name": "ByteRanges",
           "package": "http-types",
@@ -72,6 +77,7 @@
         "index": {
           "description": "RFC Byte ranges set",
           "hierarchy": "Network HTTP Types Header",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Header",
           "name": "ByteRanges",
           "package": "http-types",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Header",
           "name": "Header",
           "package": "http-types",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Header",
           "hierarchy": "Network HTTP Types Header",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Header",
           "name": "Header",
           "package": "http-types",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Header",
           "name": "HeaderName",
           "package": "http-types",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Header name",
           "hierarchy": "Network HTTP Types Header",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Header",
           "name": "HeaderName",
           "package": "http-types",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest Headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Header",
           "name": "RequestHeaders",
           "package": "http-types",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Request Headers",
           "hierarchy": "Network HTTP Types Header",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Header",
           "name": "RequestHeaders",
           "package": "http-types",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse Headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Header",
           "name": "ResponseHeaders",
           "package": "http-types",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Response Headers",
           "hierarchy": "Network HTTP Types Header",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Header",
           "name": "ResponseHeaders",
           "package": "http-types",
@@ -821,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Method",
           "name": "Method",
           "package": "http-types",
@@ -829,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types Method",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Method",
           "name": "Method",
           "package": "http-types",
@@ -843,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP method (flat string type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Method",
           "name": "Method",
           "package": "http-types",
@@ -852,6 +869,7 @@
         "index": {
           "description": "HTTP method flat string type",
           "hierarchy": "Network HTTP Types Method",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Method",
           "name": "Method",
           "package": "http-types",
@@ -866,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP standard method (as defined by RFC 2616, and PATCH which is defined\n   by RFC 5789).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Method",
           "name": "StdMethod",
           "package": "http-types",
@@ -875,6 +894,7 @@
         "index": {
           "description": "HTTP standard method as defined by RFC and PATCH which is defined by RFC",
           "hierarchy": "Network HTTP Types Method",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Method",
           "name": "StdMethod",
           "package": "http-types",
@@ -1401,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "QueryLike",
           "package": "http-types",
@@ -1409,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types QueryLike",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "QueryLike",
           "package": "http-types",
@@ -1423,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes which, in a Query-like key-value list, are used in the Key position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "QueryKeyLike",
           "package": "http-types",
@@ -1432,6 +1455,7 @@
         "index": {
           "description": "Types which in Query-like key-value list are used in the Key position",
           "hierarchy": "Network HTTP Types QueryLike",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "QueryKeyLike",
           "package": "http-types",
@@ -1446,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes which can, and commonly are, converted to \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e are in this class.\n\u003c/p\u003e\u003cp\u003eYou can use lists of simple key value pairs, with \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e (strict, or lazy: \n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e), \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e as the key/value types. You can also have the value\n type lifted into a Maybe to support keys without values; and finally it is possible to put\n each pair into a Maybe for key-value pairs that aren't always present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "QueryLike",
           "package": "http-types",
@@ -1455,6 +1480,7 @@
         "index": {
           "description": "Types which can and commonly are converted to Query are in this class You can use lists of simple key value pairs with ByteString strict or lazy ByteString Text or String as the key value types You can also have the value type lifted into Maybe to support keys without values and finally it is possible to put each pair into Maybe for key-value pairs that aren always present",
           "hierarchy": "Network HTTP Types QueryLike",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "QueryLike",
           "package": "http-types",
@@ -1469,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes which, in a Query-like key-value list, are used in the Value position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "QueryValueLike",
           "package": "http-types",
@@ -1478,6 +1505,7 @@
         "index": {
           "description": "Types which in Query-like key-value list are used in the Value position",
           "hierarchy": "Network HTTP Types QueryLike",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "QueryValueLike",
           "package": "http-types",
@@ -1492,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "toQuery",
           "package": "http-types",
@@ -1502,6 +1531,7 @@
         "index": {
           "description": "Convert to Query",
           "hierarchy": "Network HTTP Types QueryLike",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "toQuery",
           "normalized": "a-\u003eQuery",
@@ -1517,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "toQueryKey",
           "package": "http-types",
@@ -1526,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types QueryLike",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "toQueryKey",
           "normalized": "a-\u003eByteString",
@@ -1541,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "toQueryValue",
           "package": "http-types",
@@ -1550,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types QueryLike",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.QueryLike",
           "name": "toQueryValue",
           "normalized": "a-\u003eMaybe ByteString",
@@ -1565,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Status",
           "name": "Status",
           "package": "http-types",
@@ -1573,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types Status",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Status",
           "name": "Status",
           "package": "http-types",
@@ -1587,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP Status.\n\u003c/p\u003e\u003cp\u003eOnly the \u003ccode\u003e\u003ca\u003estatusCode\u003c/a\u003e\u003c/code\u003e is used for comparisons.\n\u003c/p\u003e\u003cp\u003ePlease use \u003ccode\u003e\u003ca\u003emkStatus\u003c/a\u003e\u003c/code\u003e to create status codes from code and message, or the \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instance or the\n status code constants (like \u003ccode\u003e\u003ca\u003eok200\u003c/a\u003e\u003c/code\u003e). There might be additional record members in the future.\n\u003c/p\u003e\u003cp\u003eNote that the Show instance is only for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Status",
           "name": "Status",
           "package": "http-types",
@@ -1596,6 +1633,7 @@
         "index": {
           "description": "HTTP Status Only the statusCode is used for comparisons Please use mkStatus to create status codes from code and message or the Enum instance or the status code constants like ok200 There might be additional record members in the future Note that the Show instance is only for debugging",
           "hierarchy": "Network HTTP Types Status",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Status",
           "name": "Status",
           "package": "http-types",
@@ -3840,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.URI",
           "name": "URI",
           "package": "http-types",
@@ -3848,6 +3887,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types URI",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.URI",
           "name": "URI",
           "package": "http-types",
@@ -3862,6 +3902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery.\n\u003c/p\u003e\u003cp\u003eGeneral form: a=b&c=d, but if the value is Nothing, it becomes\n a&c=d.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.URI",
           "name": "Query",
           "package": "http-types",
@@ -3871,6 +3912,7 @@
         "index": {
           "description": "Query General form but if the value is Nothing it becomes",
           "hierarchy": "Network HTTP Types URI",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.URI",
           "name": "Query",
           "package": "http-types",
@@ -3885,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.URI",
           "name": "QueryItem",
           "package": "http-types",
@@ -3894,6 +3937,7 @@
         "index": {
           "description": "Query item",
           "hierarchy": "Network HTTP Types URI",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.URI",
           "name": "QueryItem",
           "package": "http-types",
@@ -3908,6 +3952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike Query, but with \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e (UTF8-encoded).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.URI",
           "name": "QueryText",
           "package": "http-types",
@@ -3917,6 +3962,7 @@
         "index": {
           "description": "Like Query but with Text instead of ByteString UTF8-encoded",
           "hierarchy": "Network HTTP Types URI",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.URI",
           "name": "QueryText",
           "package": "http-types",
@@ -3931,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplified Query type without support for parameter-less items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.URI",
           "name": "SimpleQuery",
           "package": "http-types",
@@ -3940,6 +3987,7 @@
         "index": {
           "description": "Simplified Query type without support for parameter-less items",
           "hierarchy": "Network HTTP Types URI",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.URI",
           "name": "SimpleQuery",
           "package": "http-types",
@@ -3954,6 +4002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplified Query item type without support for parameter-less items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.URI",
           "name": "SimpleQueryItem",
           "package": "http-types",
@@ -3963,6 +4012,7 @@
         "index": {
           "description": "Simplified Query item type without support for parameter-less items",
           "hierarchy": "Network HTTP Types URI",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.URI",
           "name": "SimpleQueryItem",
           "package": "http-types",
@@ -4456,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Version",
           "name": "Version",
           "package": "http-types",
@@ -4464,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types Version",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Version",
           "name": "Version",
           "package": "http-types",
@@ -4478,6 +4530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP Version.\n\u003c/p\u003e\u003cp\u003eNote that the Show instance is intended merely for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types.Version",
           "name": "HttpVersion",
           "package": "http-types",
@@ -4487,6 +4540,7 @@
         "index": {
           "description": "HTTP Version Note that the Show instance is intended merely for debugging",
           "hierarchy": "Network HTTP Types Version",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types.Version",
           "name": "HttpVersion",
           "package": "http-types",
@@ -4641,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "Types",
           "package": "http-types",
@@ -4649,6 +4704,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "Types",
           "package": "http-types",
@@ -4663,6 +4719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRFC 2616 Byte range (individual). \n\u003c/p\u003e\u003cp\u003eNegative indices are not allowed!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "ByteRange",
           "package": "http-types",
@@ -4672,6 +4729,7 @@
         "index": {
           "description": "RFC Byte range individual Negative indices are not allowed",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "ByteRange",
           "package": "http-types",
@@ -4686,6 +4744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRFC 2616 Byte ranges (set).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "ByteRanges",
           "package": "http-types",
@@ -4695,6 +4754,7 @@
         "index": {
           "description": "RFC Byte ranges set",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "ByteRanges",
           "package": "http-types",
@@ -4709,6 +4769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "Header",
           "package": "http-types",
@@ -4718,6 +4779,7 @@
         "index": {
           "description": "Header",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "Header",
           "package": "http-types",
@@ -4732,6 +4794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "HeaderName",
           "package": "http-types",
@@ -4741,6 +4804,7 @@
         "index": {
           "description": "Header name",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "HeaderName",
           "package": "http-types",
@@ -4755,6 +4819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP Version.\n\u003c/p\u003e\u003cp\u003eNote that the Show instance is intended merely for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "HttpVersion",
           "package": "http-types",
@@ -4764,6 +4829,7 @@
         "index": {
           "description": "HTTP Version Note that the Show instance is intended merely for debugging",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "HttpVersion",
           "package": "http-types",
@@ -4778,6 +4844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP method (flat string type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "Method",
           "package": "http-types",
@@ -4787,6 +4854,7 @@
         "index": {
           "description": "HTTP method flat string type",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "Method",
           "package": "http-types",
@@ -4801,6 +4869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery.\n\u003c/p\u003e\u003cp\u003eGeneral form: a=b&c=d, but if the value is Nothing, it becomes\n a&c=d.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "Query",
           "package": "http-types",
@@ -4810,6 +4879,7 @@
         "index": {
           "description": "Query General form but if the value is Nothing it becomes",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "Query",
           "package": "http-types",
@@ -4824,6 +4894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "QueryItem",
           "package": "http-types",
@@ -4833,6 +4904,7 @@
         "index": {
           "description": "Query item",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "QueryItem",
           "package": "http-types",
@@ -4847,6 +4919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes which can, and commonly are, converted to \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e are in this class.\n\u003c/p\u003e\u003cp\u003eYou can use lists of simple key value pairs, with \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e (strict, or lazy: \n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e), \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e as the key/value types. You can also have the value\n type lifted into a Maybe to support keys without values; and finally it is possible to put\n each pair into a Maybe for key-value pairs that aren't always present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "QueryLike",
           "package": "http-types",
@@ -4856,6 +4929,7 @@
         "index": {
           "description": "Types which can and commonly are converted to Query are in this class You can use lists of simple key value pairs with ByteString strict or lazy ByteString Text or String as the key value types You can also have the value type lifted into Maybe to support keys without values and finally it is possible to put each pair into Maybe for key-value pairs that aren always present",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "QueryLike",
           "package": "http-types",
@@ -4870,6 +4944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike Query, but with \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e (UTF8-encoded).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "QueryText",
           "package": "http-types",
@@ -4879,6 +4954,7 @@
         "index": {
           "description": "Like Query but with Text instead of ByteString UTF8-encoded",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "QueryText",
           "package": "http-types",
@@ -4893,6 +4969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest Headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "RequestHeaders",
           "package": "http-types",
@@ -4902,6 +4979,7 @@
         "index": {
           "description": "Request Headers",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "RequestHeaders",
           "package": "http-types",
@@ -4916,6 +4994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse Headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "ResponseHeaders",
           "package": "http-types",
@@ -4925,6 +5004,7 @@
         "index": {
           "description": "Response Headers",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "ResponseHeaders",
           "package": "http-types",
@@ -4939,6 +5019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplified Query type without support for parameter-less items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "SimpleQuery",
           "package": "http-types",
@@ -4948,6 +5029,7 @@
         "index": {
           "description": "Simplified Query type without support for parameter-less items",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "SimpleQuery",
           "package": "http-types",
@@ -4962,6 +5044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplified Query item type without support for parameter-less items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "SimpleQueryItem",
           "package": "http-types",
@@ -4971,6 +5054,7 @@
         "index": {
           "description": "Simplified Query item type without support for parameter-less items",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "SimpleQueryItem",
           "package": "http-types",
@@ -4985,6 +5069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP Status.\n\u003c/p\u003e\u003cp\u003eOnly the \u003ccode\u003e\u003ca\u003estatusCode\u003c/a\u003e\u003c/code\u003e is used for comparisons.\n\u003c/p\u003e\u003cp\u003ePlease use \u003ccode\u003e\u003ca\u003emkStatus\u003c/a\u003e\u003c/code\u003e to create status codes from code and message, or the \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instance or the\n status code constants (like \u003ccode\u003e\u003ca\u003eok200\u003c/a\u003e\u003c/code\u003e). There might be additional record members in the future.\n\u003c/p\u003e\u003cp\u003eNote that the Show instance is only for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "Status",
           "package": "http-types",
@@ -4994,6 +5079,7 @@
         "index": {
           "description": "HTTP Status Only the statusCode is used for comparisons Please use mkStatus to create status codes from code and message or the Enum instance or the status code constants like ok200 There might be additional record members in the future Note that the Show instance is only for debugging",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "Status",
           "package": "http-types",
@@ -5008,6 +5094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP standard method (as defined by RFC 2616, and PATCH which is defined\n   by RFC 5789).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "StdMethod",
           "package": "http-types",
@@ -5017,6 +5104,7 @@
         "index": {
           "description": "HTTP standard method as defined by RFC and PATCH which is defined by RFC",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "StdMethod",
           "package": "http-types",
@@ -5031,6 +5119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:04 UTC 2014",
           "module": "Network.HTTP.Types",
           "name": "toQuery",
           "package": "http-types",
@@ -5041,6 +5130,7 @@
         "index": {
           "description": "Convert to Query",
           "hierarchy": "Network HTTP Types",
+          "indexed": "2014-03-11T18:53:04",
           "module": "Network.HTTP.Types",
           "name": "toQuery",
           "normalized": "a-\u003eQuery",

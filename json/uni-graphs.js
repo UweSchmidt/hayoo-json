@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uni-graphs"
+        "phrase": "uni-graphs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003edisplayGraph\u003c/a\u003e\u003c/code\u003e displays something implementing the\n \u003ca\u003eGraph\u003c/a\u003e interface with something implementing with \u003ca\u003eGraphDisp\u003c/a\u003e interface.\n \u003ccode\u003e\u003ca\u003edisplayGraph0\u003c/a\u003e\u003c/code\u003e is a slightly more general version that also returns the\n actual graph.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.DisplayGraph",
           "name": "DisplayGraph",
           "package": "uni-graphs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "displayGraph displays something implementing the Graph interface with something implementing with GraphDisp interface displayGraph0 is slightly more general version that also returns the actual graph",
           "hierarchy": "Graphs DisplayGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.DisplayGraph",
           "name": "DisplayGraph",
           "package": "uni-graphs",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.DisplayGraph",
           "name": "DisplayGraph",
           "package": "uni-graphs",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphs DisplayGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.DisplayGraph",
           "name": "DisplayGraph",
           "package": "uni-graphs",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.DisplayGraph",
           "name": "displayGraph",
           "package": "uni-graphs",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Graphs DisplayGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.DisplayGraph",
           "name": "displayGraph",
           "normalized": "Graph a b c d e f g h-\u003ei j k l m-\u003eb-\u003e(DisplayGraph-\u003eNodeType-\u003ek-\u003eIO(e Node))-\u003e(DisplayGraph-\u003eArcType-\u003em-\u003eIO(h Arc))-\u003eIO DisplayGraph",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.DisplayGraph",
           "name": "displayGraph0",
           "package": "uni-graphs",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Graphs DisplayGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.DisplayGraph",
           "name": "displayGraph0",
           "normalized": "Graph a b c d e f g h-\u003ei j k l m-\u003eb-\u003e(DisplayGraph-\u003eNodeType-\u003ek-\u003eIO(e Node))-\u003e(DisplayGraph-\u003eArcType-\u003em-\u003eIO(h Arc))-\u003eIO(DisplayGraph,Graph a b c d e f g h)",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.DisplayGraph",
           "name": "displayGraph1",
           "package": "uni-graphs",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Graphs DisplayGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.DisplayGraph",
           "name": "displayGraph1",
           "normalized": "Graph a b c d e f g h-\u003eGraphConnection i j k l-\u003eb-\u003e(DisplayGraph-\u003eNodeType-\u003ej-\u003eIO(e(Node,i)))-\u003e(DisplayGraph-\u003eArcType-\u003el-\u003eIO(h(Arc,k)))-\u003eIO(DisplayGraph,Graph a b c d e f g h)",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module describes an empty display graph sort.  In other words, it\n displays nothing.  Not a lot of use you might think, but we use it for\n the MMiSS API to get a version graph without invoking daVinci.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.EmptyGraphSort",
           "name": "EmptyGraphSort",
           "package": "uni-graphs",
@@ -144,6 +155,7 @@
         "index": {
           "description": "This module describes an empty display graph sort In other words it displays nothing Not lot of use you might think but we use it for the MMiSS API to get version graph without invoking daVinci",
           "hierarchy": "Graphs EmptyGraphSort",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.EmptyGraphSort",
           "name": "EmptyGraphSort",
           "package": "uni-graphs",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.EmptyGraphSort",
           "name": "emptyGraphSort",
           "package": "uni-graphs",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Graphs EmptyGraphSort",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.EmptyGraphSort",
           "name": "emptyGraphSort",
           "package": "uni-graphs",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGiven two acyclic graphs G1 and G2 sharing some nodes, and a list V1 of nodes in G1,\n let A be the union of G1 intersect G2 and V1.  The function in this module returns\n a list L of type [(Node,[Node])] such that\n (1) The first elements in each pair in L are precisely those elements of V1 not in G2.\n (2) For each element (n,ms) in L,\n     the list ms contains precisely those vertices m of G1 such that\n     (a) m is in A;\n     (b) there is a path from m to n in G1 which has no common vertices with\n         A except at its endpoints.\n (3) Where the list contains two elements (n1,ms1) and (n2,ms2), such that\n     ms2 contains n1, then (n1,ms1) comes before (n2,ms2) in the list.\n\u003c/p\u003e\u003cp\u003eThe purpose of all this is to provide a list of the nodes to be constructed\n in G2 to extend it by V1 while preserving as much as possible of the path\n structure in V1.  This is used for adding version graph information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCommonParents",
           "name": "FindCommonParents",
           "package": "uni-graphs",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Given two acyclic graphs G1 and G2 sharing some nodes and list V1 of nodes in G1 let be the union of G1 intersect G2 and V1 The function in this module returns list of type Node Node such that The first elements in each pair in are precisely those elements of V1 not in G2 For each element ms in the list ms contains precisely those vertices of G1 such that is in there is path from to in G1 which has no common vertices with except at its endpoints Where the list contains two elements n1 ms1 and n2 ms2 such that ms2 contains n1 then n1 ms1 comes before n2 ms2 in the list The purpose of all this is to provide list of the nodes to be constructed in G2 to extend it by V1 while preserving as much as possible of the path structure in V1 This is used for adding version graph information",
           "hierarchy": "Graphs FindCommonParents",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCommonParents",
           "name": "FindCommonParents",
           "package": "uni-graphs",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCommonParents",
           "name": "GraphBack",
           "package": "uni-graphs",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Graphs FindCommonParents",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCommonParents",
           "name": "GraphBack",
           "package": "uni-graphs",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCommonParents",
           "name": "GraphBack",
           "package": "uni-graphs",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Graphs FindCommonParents",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCommonParents",
           "name": "GraphBack",
           "package": "uni-graphs",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCommonParents",
           "name": "findCommonParents",
           "package": "uni-graphs",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Graphs FindCommonParents",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCommonParents",
           "name": "findCommonParents",
           "normalized": "GraphBack a b-\u003eGraphBack a b-\u003e[a]-\u003e[(a,[(a,Maybe a)])]",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all nodes in the graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCommonParents",
           "name": "getAllNodes",
           "package": "uni-graphs",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Get all nodes in the graph",
           "hierarchy": "Graphs FindCommonParents",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCommonParents",
           "name": "getAllNodes",
           "normalized": "[a]",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the node does not exist in the graph \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n Otherwise \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e key where key is a \"nodeKey\", an ordered key\n uniquely distinguishing the node (and used to detect common elements\n in the two graphs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCommonParents",
           "name": "getKey",
           "package": "uni-graphs",
@@ -306,6 +331,7 @@
         "index": {
           "description": "If the node does not exist in the graph Nothing Otherwise Just key where key is nodeKey an ordered key uniquely distinguishing the node and used to detect common elements in the two graphs",
           "hierarchy": "Graphs FindCommonParents",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCommonParents",
           "name": "getKey",
           "normalized": "a-\u003eMaybe b",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf node does not exist Nothing, otherwise immediate\n parents of node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCommonParents",
           "name": "getParents",
           "package": "uni-graphs",
@@ -332,6 +359,7 @@
         "index": {
           "description": "If node does not exist Nothing otherwise immediate parents of node",
           "hierarchy": "Graphs FindCommonParents",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCommonParents",
           "name": "getParents",
           "normalized": "a-\u003eMaybe[a]",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe function in this module finds a cycle in a given directed graph, if\n one exists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCycle",
           "name": "FindCycle",
           "package": "uni-graphs",
@@ -357,6 +386,7 @@
         "index": {
           "description": "The function in this module finds cycle in given directed graph if one exists",
           "hierarchy": "Graphs FindCycle",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCycle",
           "name": "FindCycle",
           "package": "uni-graphs",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a cycle in a graph.  We are given a list of nodes to start\n from, and a successor function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.FindCycle",
           "name": "findCycle",
           "package": "uni-graphs",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Find cycle in graph We are given list of nodes to start from and successor function",
           "hierarchy": "Graphs FindCycle",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.FindCycle",
           "name": "findCycle",
           "normalized": "[a]-\u003e(a-\u003e[a])-\u003eMaybe[a]",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAncestors",
           "name": "GetAncestors",
           "package": "uni-graphs",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAncestors",
           "name": "GetAncestors",
           "package": "uni-graphs",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAncestors",
           "name": "getAncestors",
           "package": "uni-graphs",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAncestors",
           "name": "getAncestors",
           "normalized": "Bool-\u003ea b c d e-\u003e(b-\u003eIO Bool)-\u003eNode-\u003eIO[Node]",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAncestors",
           "name": "getAncestorsGeneric",
           "package": "uni-graphs",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAncestors",
           "name": "getAncestorsGeneric",
           "normalized": "Bool-\u003e(a-\u003eIO[a])-\u003e(a-\u003eIO Bool)-\u003ea-\u003eIO[a]",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAncestors",
           "name": "getAncestorsPure",
           "package": "uni-graphs",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAncestors",
           "name": "getAncestorsPure",
           "normalized": "(a-\u003e[a])-\u003ea-\u003e[a]",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAncestors",
           "name": "getDescendants",
           "package": "uni-graphs",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAncestors",
           "name": "getDescendants",
           "normalized": "Bool-\u003ea b c d e-\u003e(b-\u003eIO Bool)-\u003eNode-\u003eIO[Node]",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if first node is ancestor or equal to the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAncestors",
           "name": "isAncestor",
           "package": "uni-graphs",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Returns True if first node is ancestor or equal to the second",
           "hierarchy": "Graphs GetAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAncestors",
           "name": "isAncestor",
           "normalized": "(a-\u003eb[a])-\u003ea-\u003ea-\u003eb Bool",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if first node is ancestor or equal to the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAncestors",
           "name": "isAncestorPure",
           "package": "uni-graphs",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Returns True if first node is ancestor or equal to the second",
           "hierarchy": "Graphs GetAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAncestors",
           "name": "isAncestorPure",
           "normalized": "(a-\u003e[a])-\u003ea-\u003ea-\u003eBool",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGetAttributes is used by the GraphEditor to pop up HTk windows\n to get information from the user.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "GetAttributes",
           "package": "uni-graphs",
@@ -575,6 +622,7 @@
         "index": {
           "description": "GetAttributes is used by the GraphEditor to pop up HTk windows to get information from the user",
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "GetAttributes",
           "package": "uni-graphs",
@@ -588,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "ArcAttributes",
           "package": "uni-graphs",
@@ -596,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "ArcAttributes",
           "package": "uni-graphs",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "ArcTypeAttributes",
           "package": "uni-graphs",
@@ -617,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "ArcTypeAttributes",
           "package": "uni-graphs",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "NodeAttributes",
           "package": "uni-graphs",
@@ -638,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "NodeAttributes",
           "package": "uni-graphs",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "NodeTypeAttributes",
           "package": "uni-graphs",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "NodeTypeAttributes",
           "package": "uni-graphs",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "ArcAttributes",
           "package": "uni-graphs",
@@ -681,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "ArcAttributes",
           "package": "uni-graphs",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "ArcTypeAttributes",
           "package": "uni-graphs",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "ArcTypeAttributes",
           "package": "uni-graphs",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "NodeAttributes",
           "package": "uni-graphs",
@@ -725,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "NodeAttributes",
           "package": "uni-graphs",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "NodeTypeAttributes",
           "package": "uni-graphs",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "NodeTypeAttributes",
           "package": "uni-graphs",
@@ -760,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "arcType",
           "package": "uni-graphs",
@@ -769,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "arcType",
           "package": "uni-graphs",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "arcTypeTitle",
           "package": "uni-graphs",
@@ -791,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "arcTypeTitle",
           "package": "uni-graphs",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "displayError",
           "package": "uni-graphs",
@@ -813,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "displayError",
           "normalized": "String-\u003eIO()",
@@ -828,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "getArcAttributes",
           "package": "uni-graphs",
@@ -837,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "getArcAttributes",
           "normalized": "Registry String a-\u003eIO(Maybe(ArcAttributes a))",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "getArcTypeAttributes",
           "package": "uni-graphs",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "getArcTypeAttributes",
           "package": "uni-graphs",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "getNodeAttributes",
           "package": "uni-graphs",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "getNodeAttributes",
           "normalized": "Registry String a-\u003eIO(Maybe(NodeAttributes a))",
@@ -898,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "getNodeTypeAttributes",
           "package": "uni-graphs",
@@ -907,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "getNodeTypeAttributes",
           "package": "uni-graphs",
@@ -920,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "nodeTitle",
           "package": "uni-graphs",
@@ -929,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "nodeTitle",
           "package": "uni-graphs",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "nodeType",
           "package": "uni-graphs",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "nodeType",
           "package": "uni-graphs",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "nodeTypeTitle",
           "package": "uni-graphs",
@@ -973,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "nodeTypeTitle",
           "package": "uni-graphs",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GetAttributes",
           "name": "shape",
           "package": "uni-graphs",
@@ -995,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Graphs GetAttributes",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GetAttributes",
           "name": "shape",
           "package": "uni-graphs",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraph defines the Graph class, which defines the basic things a\n graph must do.  Peculiarities:\n (1) Graphs are directed with labelled nodes and\n     arcs.  These nodes and arcs have types.\n (2) The nodes and arcs are identified by values of type Node and Arc.\n     These values are essentially strings.  The strings are provided by\n     the user; there is no mechanism for generating new unique strings.\n     (This is because this is easy in the applications I have in mind.)\n (3) A necessary feature of these graphs is that it is supposed to\n     be easy generate copies, both on the same system and on others.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "Graph",
           "package": "uni-graphs",
@@ -1017,6 +1104,7 @@
         "index": {
           "description": "Graph defines the Graph class which defines the basic things graph must do Peculiarities Graphs are directed with labelled nodes and arcs These nodes and arcs have types The nodes and arcs are identified by values of type Node and Arc These values are essentially strings The strings are provided by the user there is no mechanism for generating new unique strings This is because this is easy in the applications have in mind necessary feature of these graphs is that it is supposed to be easy generate copies both on the same system and on others",
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "Graph",
           "package": "uni-graphs",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "Arc",
           "package": "uni-graphs",
@@ -1038,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "Arc",
           "package": "uni-graphs",
@@ -1051,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "ArcType",
           "package": "uni-graphs",
@@ -1059,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "ArcType",
           "package": "uni-graphs",
@@ -1072,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "CannedGraph",
           "package": "uni-graphs",
@@ -1080,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "CannedGraph",
           "package": "uni-graphs",
@@ -1093,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "Graph",
           "package": "uni-graphs",
@@ -1101,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "Graph",
           "package": "uni-graphs",
@@ -1114,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "GraphConnection",
           "package": "uni-graphs",
@@ -1122,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "GraphConnection",
           "package": "uni-graphs",
@@ -1135,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "GraphConnectionData",
           "package": "uni-graphs",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "GraphConnectionData",
           "package": "uni-graphs",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "Node",
           "package": "uni-graphs",
@@ -1164,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "Node",
           "package": "uni-graphs",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "NodeType",
           "package": "uni-graphs",
@@ -1185,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "NodeType",
           "package": "uni-graphs",
@@ -1198,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "PartialShow",
           "package": "uni-graphs",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "PartialShow",
           "package": "uni-graphs",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "Update",
           "package": "uni-graphs",
@@ -1227,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "Update",
           "package": "uni-graphs",
@@ -1240,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "CannedGraph",
           "package": "uni-graphs",
@@ -1249,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "CannedGraph",
           "package": "uni-graphs",
@@ -1262,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "DeleteArc",
           "package": "uni-graphs",
@@ -1271,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "DeleteArc",
           "package": "uni-graphs",
@@ -1284,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "DeleteNode",
           "package": "uni-graphs",
@@ -1293,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "DeleteNode",
           "package": "uni-graphs",
@@ -1306,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "GraphConnectionData",
           "package": "uni-graphs",
@@ -1315,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "GraphConnectionData",
           "package": "uni-graphs",
@@ -1328,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "MultiUpdate",
           "package": "uni-graphs",
@@ -1337,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "MultiUpdate",
           "normalized": "MultiUpdate[Update a b c d]",
@@ -1352,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "NewArc",
           "package": "uni-graphs",
@@ -1361,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "NewArc",
           "package": "uni-graphs",
@@ -1374,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "NewArcType",
           "package": "uni-graphs",
@@ -1383,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "NewArcType",
           "package": "uni-graphs",
@@ -1396,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "NewNode",
           "package": "uni-graphs",
@@ -1405,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "NewNode",
           "package": "uni-graphs",
@@ -1418,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "NewNodeType",
           "package": "uni-graphs",
@@ -1427,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "NewNodeType",
           "package": "uni-graphs",
@@ -1440,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "PartialShow",
           "package": "uni-graphs",
@@ -1449,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "PartialShow",
           "package": "uni-graphs",
@@ -1462,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "SetArcLabel",
           "package": "uni-graphs",
@@ -1471,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "SetArcLabel",
           "package": "uni-graphs",
@@ -1484,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "SetArcType",
           "package": "uni-graphs",
@@ -1493,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "SetArcType",
           "package": "uni-graphs",
@@ -1506,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "SetArcTypeLabel",
           "package": "uni-graphs",
@@ -1515,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "SetArcTypeLabel",
           "package": "uni-graphs",
@@ -1528,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "SetNodeLabel",
           "package": "uni-graphs",
@@ -1537,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "SetNodeLabel",
           "package": "uni-graphs",
@@ -1550,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "SetNodeType",
           "package": "uni-graphs",
@@ -1559,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "SetNodeType",
           "package": "uni-graphs",
@@ -1572,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "SetNodeTypeLabel",
           "package": "uni-graphs",
@@ -1581,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "SetNodeTypeLabel",
           "package": "uni-graphs",
@@ -1594,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "deRegister",
           "package": "uni-graphs",
@@ -1603,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "deRegister",
           "normalized": "IO()",
@@ -1618,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "firstNode",
           "package": "uni-graphs",
@@ -1627,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "firstNode",
           "package": "uni-graphs",
@@ -1640,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getArcLabel",
           "package": "uni-graphs",
@@ -1649,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getArcLabel",
           "normalized": "a b c d e-\u003eArc-\u003eIO d",
@@ -1664,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getArcType",
           "package": "uni-graphs",
@@ -1673,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getArcType",
           "normalized": "a b c d e-\u003eArc-\u003eIO ArcType",
@@ -1688,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getArcTypeLabel",
           "package": "uni-graphs",
@@ -1697,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getArcTypeLabel",
           "normalized": "a b c d e-\u003eArcType-\u003eIO e",
@@ -1712,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getArcTypes",
           "package": "uni-graphs",
@@ -1721,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getArcTypes",
           "normalized": "a b c d e-\u003eIO[ArcType]",
@@ -1736,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getArcs",
           "package": "uni-graphs",
@@ -1745,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getArcs",
           "normalized": "a b c d e-\u003eIO[Arc]",
@@ -1760,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getArcsIn",
           "package": "uni-graphs",
@@ -1769,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getArcsIn",
           "normalized": "a b c d e-\u003eNode-\u003eIO[Arc]",
@@ -1784,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getArcsOut",
           "package": "uni-graphs",
@@ -1793,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getArcsOut",
           "normalized": "a b c d e-\u003eNode-\u003eIO[Arc]",
@@ -1808,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getNodeLabel",
           "package": "uni-graphs",
@@ -1817,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getNodeLabel",
           "normalized": "a b c d e-\u003eNode-\u003eIO b",
@@ -1832,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getNodeType",
           "package": "uni-graphs",
@@ -1841,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getNodeType",
           "normalized": "a b c d e-\u003eNode-\u003eIO NodeType",
@@ -1856,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getNodeTypeLabel",
           "package": "uni-graphs",
@@ -1865,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getNodeTypeLabel",
           "normalized": "a b c d e-\u003eNodeType-\u003eIO c",
@@ -1880,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getNodeTypes",
           "package": "uni-graphs",
@@ -1889,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getNodeTypes",
           "normalized": "a b c d e-\u003eIO[NodeType]",
@@ -1904,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getNodes",
           "package": "uni-graphs",
@@ -1913,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getNodes",
           "normalized": "a b c d e-\u003eIO[Node]",
@@ -1928,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getSource",
           "package": "uni-graphs",
@@ -1937,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getSource",
           "normalized": "a b c d e-\u003eArc-\u003eIO Node",
@@ -1952,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "getTarget",
           "package": "uni-graphs",
@@ -1961,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "getTarget",
           "normalized": "a b c d e-\u003eArc-\u003eIO Node",
@@ -1976,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "graphState",
           "package": "uni-graphs",
@@ -1985,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "graphState",
           "package": "uni-graphs",
@@ -1998,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "graphUpdate",
           "package": "uni-graphs",
@@ -2007,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "graphUpdate",
           "normalized": "Update a b c d-\u003eIO()",
@@ -2022,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "nameSourceBranch",
           "package": "uni-graphs",
@@ -2031,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "nameSourceBranch",
           "package": "uni-graphs",
@@ -2044,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "newArc",
           "package": "uni-graphs",
@@ -2053,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "newArc",
           "normalized": "a b c d e-\u003eArcType-\u003ed-\u003eNode-\u003eNode-\u003eIO Arc",
@@ -2068,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "newArcType",
           "package": "uni-graphs",
@@ -2077,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "newArcType",
           "normalized": "a b c d e-\u003ee-\u003eIO ArcType",
@@ -2092,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "newEmptyGraph",
           "package": "uni-graphs",
@@ -2101,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "newEmptyGraph",
           "package": "uni-graphs",
@@ -2114,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "newGraph",
           "package": "uni-graphs",
@@ -2123,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "newGraph",
           "normalized": "GraphConnection a b c d-\u003eIO(e a b c d)",
@@ -2138,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "newNode",
           "package": "uni-graphs",
@@ -2147,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "newNode",
           "normalized": "a b c d e-\u003eNodeType-\u003eb-\u003eIO Node",
@@ -2162,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "newNodeType",
           "package": "uni-graphs",
@@ -2171,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "newNodeType",
           "normalized": "a b c d e-\u003ec-\u003eIO NodeType",
@@ -2186,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "shareGraph",
           "package": "uni-graphs",
@@ -2195,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "shareGraph",
           "normalized": "a b c d e-\u003eGraphConnection b c d e",
@@ -2210,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "update",
           "package": "uni-graphs",
@@ -2219,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "update",
           "normalized": "a b c d e-\u003eUpdate b c d e-\u003eIO()",
@@ -2233,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.Graph",
           "name": "updates",
           "package": "uni-graphs",
@@ -2242,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Graphs Graph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.Graph",
           "name": "updates",
           "normalized": "[Update a b c d]",
@@ -2257,6 +2453,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraphConfigure contains definitions for the various configuration\n options for \u003ca\u003eGraphDisp\u003c/a\u003e objects.  These should be implemented\n using the \u003ccode\u003e\u003ca\u003eHasConfig\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eHasConfigValue\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eModifyHasDef\u003c/a\u003e\u003c/code\u003e,\n applied to instances of\n \u003ccode\u003e\u003ca\u003eGraphParms\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNodeTypeParms\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eArcTypeParms\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "GraphConfigure",
           "package": "uni-graphs",
@@ -2266,6 +2463,7 @@
         "index": {
           "description": "GraphConfigure contains definitions for the various configuration options for GraphDisp objects These should be implemented using the HasConfig HasConfigValue and ModifyHasDef applied to instances of GraphParms NodeTypeParms and ArcTypeParms",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "GraphConfigure",
           "package": "uni-graphs",
@@ -2280,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to be applied to all user actions.  This is useful\n for exception wrappers and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ActionWrapper",
           "package": "uni-graphs",
@@ -2289,6 +2488,7 @@
         "index": {
           "description": "Function to be applied to all user actions This is useful for exception wrappers and so on",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ActionWrapper",
           "package": "uni-graphs",
@@ -2303,6 +2503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, action which is invoked if the user attempts to close the\n window.  If the action returns True, we close it.\n\u003c/p\u003e\u003cp\u003eWARNING.  This action is performed in the middle of the event loop,\n so please don't attempt to do any further graph interactions during it.\n (But HTk interactions should be fine.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "AllowClose",
           "package": "uni-graphs",
@@ -2312,6 +2513,7 @@
         "index": {
           "description": "If set action which is invoked if the user attempts to close the window If the action returns True we close it WARNING This action is performed in the middle of the event loop so please don attempt to do any further graph interactions during it But HTk interactions should be fine",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "AllowClose",
           "package": "uni-graphs",
@@ -2326,6 +2528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf True, allow Drag-and-Drop operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "AllowDragging",
           "package": "uni-graphs",
@@ -2335,6 +2538,7 @@
         "index": {
           "description": "If True allow Drag-and-Drop operators",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "AllowDragging",
           "package": "uni-graphs",
@@ -2349,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe border of this node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Border",
           "package": "uni-graphs",
@@ -2358,6 +2563,7 @@
         "index": {
           "description": "The border of this node",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Border",
           "package": "uni-graphs",
@@ -2372,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a \u003ccode\u003e\u003ca\u003eBorder\u003c/a\u003e\u003c/code\u003e which dynamically changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "BorderSource",
           "package": "uni-graphs",
@@ -2381,6 +2588,7 @@
         "index": {
           "description": "Compute Border which dynamically changes",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "BorderSource",
           "package": "uni-graphs",
@@ -2395,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user is responsible for making sure this String is properly\n formatted.  To quote from the daVinci documentation:\n\u003c/p\u003e\u003cpre\u003e Can be used to define the background color of a node. The value of this\n attribute may be any X-Window colorname (see file lib/rgb.txt in your X11\n directory) or any RGB color specification in a format like \"#0f331e\",\n where 0f is the hexadecimal value for the red part of the color, 33 is\n the green part and 1e is the blue.  Hence, a pallet of 16.7 million\n colors is supported. The default color for nodes is \"white\".\n\u003c/pre\u003e\u003cp\u003eThere is a function for constructing \"RGB color specification\"s in\n \u003ca\u003eColour\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Color",
           "package": "uni-graphs",
@@ -2404,6 +2613,7 @@
         "index": {
           "description": "The user is responsible for making sure this String is properly formatted To quote from the daVinci documentation Can be used to define the background color of node The value of this attribute may be any X-Window colorname see file lib rgb.txt in your X11 directory or any RGB color specification in format like f331e where is the hexadecimal value for the red part of the color is the green part and is the blue Hence pallet of million colors is supported The default color for nodes is white There is function for constructing RGB color specification in Colour",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Color",
           "package": "uni-graphs",
@@ -2418,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to be performed when a node or arc is double-clicked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "DoubleClickAction",
           "package": "uni-graphs",
@@ -2427,6 +2638,7 @@
         "index": {
           "description": "Action to be performed when node or arc is double-clicked",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "DoubleClickAction",
           "package": "uni-graphs",
@@ -2441,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user is responsible for making sure this String is properly\n formatted.  To quote from the daVinci documentation:\n\u003c/p\u003e\u003cpre\u003e This attribute is used to control the arrow of an edge. In a graph visualization,\n each edge usually has an arrow pointing to the child node. This attribute can be\n used to let the arrow be drawn inverse (i.e. pointing to the parent), to get an arrow\n at both sides of an edge or to suppress arrows for a particular edge. The supported\n attribute values are: \"last\" (1 arrow pointing to the child, default), \\\"first\\\"\n(1 arrow to the parent), \"both\" (2 arrows to the parent and to children) and \"none\"\n(no arrows).\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "EdgeDir",
           "package": "uni-graphs",
@@ -2450,6 +2663,7 @@
         "index": {
           "description": "The user is responsible for making sure this String is properly formatted To quote from the daVinci documentation This attribute is used to control the arrow of an edge In graph visualization each edge usually has an arrow pointing to the child node This attribute can be used to let the arrow be drawn inverse i.e pointing to the parent to get an arrow at both sides of an edge or to suppress arrows for particular edge The supported attribute values are last arrow pointing to the child default first arrow to the parent both arrows to the parent and to children and none no arrows",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "EdgeDir",
           "package": "uni-graphs",
@@ -2464,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pattern of an edge\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "EdgePattern",
           "package": "uni-graphs",
@@ -2473,6 +2688,7 @@
         "index": {
           "description": "The pattern of an edge",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "EdgePattern",
           "package": "uni-graphs",
@@ -2486,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "FileMenuAct",
           "package": "uni-graphs",
@@ -2494,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "FileMenuAct",
           "package": "uni-graphs",
@@ -2508,6 +2726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe following options are provided specially by DaVinci (see, for now,\n \u003ca\u003ehttp://www.informatik.uni-bremen.de/daVinci/old/docs/reference/api/api_app_menu_cmd.html\u003c/a\u003e\n for the daVinci2.1 documentation.  If a \u003ccode\u003e\u003ca\u003eFileMenuAct\u003c/a\u003e\u003c/code\u003e is used as\n a configuration with a specified action, the corresponding option is\n enabled in the daVinci File menu, and the action is performed when the\n option is selected.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eAllowClose\u003c/a\u003e\u003c/code\u003e configuration and \u003ccode\u003e\u003ca\u003eCloseMenuOption\u003c/a\u003e\u003c/code\u003e both set the action\n to be taken when the user selects a close event, and each overrides the\n other.\n\u003c/p\u003e\u003cp\u003eBy default the Close and Print options are enabled, however these\n and other options can be disabled by specifing \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as the\n second argument to FileMenuAct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "FileMenuOption",
           "package": "uni-graphs",
@@ -2517,6 +2736,7 @@
         "index": {
           "description": "The following options are provided specially by DaVinci see for now http www.informatik.uni-bremen.de daVinci old docs reference api api app menu cmd.html for the daVinci2.1 documentation If FileMenuAct is used as configuration with specified action the corresponding option is enabled in the daVinci File menu and the action is performed when the option is selected The AllowClose configuration and CloseMenuOption both set the action to be taken when the user selects close event and each overrides the other By default the Close and Print options are enabled however these and other options can be disabled by specifing Nothing as the second argument to FileMenuAct",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "FileMenuOption",
           "package": "uni-graphs",
@@ -2531,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe font in which the label of this node is displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "FontStyle",
           "package": "uni-graphs",
@@ -2540,6 +2761,7 @@
         "index": {
           "description": "The font in which the label of this node is displayed",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "FontStyle",
           "package": "uni-graphs",
@@ -2554,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a \u003ccode\u003e\u003ca\u003eFontStyle\u003c/a\u003e\u003c/code\u003e which dynamically changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "FontStyleSource",
           "package": "uni-graphs",
@@ -2563,6 +2786,7 @@
         "index": {
           "description": "Compute FontStyle which dynamically changes",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "FontStyleSource",
           "package": "uni-graphs",
@@ -2576,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "GlobalMenu",
           "package": "uni-graphs",
@@ -2584,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "GlobalMenu",
           "package": "uni-graphs",
@@ -2597,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "GraphAllConfig",
           "package": "uni-graphs",
@@ -2605,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "GraphAllConfig",
           "package": "uni-graphs",
@@ -2619,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to be performed after mouse action not involving any node but\n somewhere on the graph.\n\u003c/p\u003e\u003cp\u003eIf you want to use this, the graph parameters need to include\n \u003ccode\u003e\u003ca\u003eAllowDragging\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "GraphGesture",
           "package": "uni-graphs",
@@ -2628,6 +2857,7 @@
         "index": {
           "description": "Action to be performed after mouse action not involving any node but somewhere on the graph If you want to use this the graph parameters need to include AllowDragging True",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "GraphGesture",
           "package": "uni-graphs",
@@ -2641,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "GraphTitle",
           "package": "uni-graphs",
@@ -2649,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "GraphTitle",
           "package": "uni-graphs",
@@ -2662,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "HasArcTypeConfigs",
           "package": "uni-graphs",
@@ -2670,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "HasArcTypeConfigs",
           "package": "uni-graphs",
@@ -2683,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "HasConfig",
           "package": "uni-graphs",
@@ -2690,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "HasConfig",
           "package": "uni-graphs",
@@ -2703,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "HasConfigValue",
           "package": "uni-graphs",
@@ -2711,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "HasConfigValue",
           "package": "uni-graphs",
@@ -2724,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "HasGraphConfigs",
           "package": "uni-graphs",
@@ -2732,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "HasGraphConfigs",
           "package": "uni-graphs",
@@ -2745,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "HasModifyValue",
           "package": "uni-graphs",
@@ -2753,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "HasModifyValue",
           "package": "uni-graphs",
@@ -2766,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "HasNodeModifies",
           "package": "uni-graphs",
@@ -2774,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "HasNodeModifies",
           "package": "uni-graphs",
@@ -2787,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "HasNodeTypeConfigs",
           "package": "uni-graphs",
@@ -2795,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "HasNodeTypeConfigs",
           "package": "uni-graphs",
@@ -2809,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user is responsible for making sure this String is properly\n formatted.  To quote from the daVinci documentation:\n\u003c/p\u003e\u003cpre\u003e  With this attribute you can control the shape of the edge's arrows.\n The possible values are: \"farrow\" (default), \"arrow\", \"fcircle\", and \"circle\",\n where a leading 'f' means filled.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Head",
           "package": "uni-graphs",
@@ -2818,6 +3065,7 @@
         "index": {
           "description": "The user is responsible for making sure this String is properly formatted To quote from the daVinci documentation With this attribute you can control the shape of the edge arrows The possible values are farrow default arrow fcircle and circle where leading means filled",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Head",
           "package": "uni-graphs",
@@ -2831,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "LocalMenu",
           "package": "uni-graphs",
@@ -2839,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "LocalMenu",
           "package": "uni-graphs",
@@ -2852,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "MenuPrim",
           "package": "uni-graphs",
@@ -2859,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "MenuPrim",
           "package": "uni-graphs",
@@ -2872,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ModifyHasDef",
           "package": "uni-graphs",
@@ -2880,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ModifyHasDef",
           "package": "uni-graphs",
@@ -2894,6 +3148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf True, arcs from the node are not displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NodeArcsHidden",
           "package": "uni-graphs",
@@ -2903,6 +3158,7 @@
         "index": {
           "description": "If True arcs from the node are not displayed",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NodeArcsHidden",
           "package": "uni-graphs",
@@ -2917,6 +3173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to be performed when the user drags one node onto another.\n The dragged node's value is passed as a Dyn (since it could have any\n type).\n\u003c/p\u003e\u003cp\u003eIf you want to use this, the graph parameters need to include\n \u003ccode\u003e\u003ca\u003eAllowDragging\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NodeDragAndDrop",
           "package": "uni-graphs",
@@ -2926,6 +3183,7 @@
         "index": {
           "description": "Action to be performed when the user drags one node onto another The dragged node value is passed as Dyn since it could have any type If you want to use this the graph parameters need to include AllowDragging True",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NodeDragAndDrop",
           "package": "uni-graphs",
@@ -2940,6 +3198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to be performed when the user drags a node somewhere else,\n but not onto another node.\n\u003c/p\u003e\u003cp\u003eIf you want to use this, the graph parameters need to include\n \u003ccode\u003e\u003ca\u003eAllowDragging\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NodeGesture",
           "package": "uni-graphs",
@@ -2949,6 +3208,7 @@
         "index": {
           "description": "Action to be performed when the user drags node somewhere else but not onto another node If you want to use this the graph parameters need to include AllowDragging True",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NodeGesture",
           "package": "uni-graphs",
@@ -2963,6 +3223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, try hard to optimise the layout of the graph\n on redrawing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "OptimiseLayout",
           "package": "uni-graphs",
@@ -2972,6 +3233,7 @@
         "index": {
           "description": "If True try hard to optimise the layout of the graph on redrawing it",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "OptimiseLayout",
           "package": "uni-graphs",
@@ -2986,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich way up the graph is.\n\u003c/p\u003e\u003cp\u003eWe copy the DaVinciTypes constructors, though of course this will\n mean we have to painfully convert one to the other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Orientation",
           "package": "uni-graphs",
@@ -2995,6 +3258,7 @@
         "index": {
           "description": "Which way up the graph is We copy the DaVinciTypes constructors though of course this will mean we have to painfully convert one to the other",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Orientation",
           "package": "uni-graphs",
@@ -3009,6 +3273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis datatype is based on \u003ca\u003eDaVinciClasses\u003c/a\u003e, including several\n name clashes.  However we omit \u003ccode\u003eTextual\u003c/code\u003e, add the file argument\n to \u003ccode\u003e\u003ca\u003eIcon\u003c/a\u003e\u003c/code\u003e and the shape \u003ccode\u003e\u003ca\u003eTriangle\u003c/a\u003e\u003c/code\u003e.  This datatype may get bigger!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Shape",
           "package": "uni-graphs",
@@ -3018,6 +3283,7 @@
         "index": {
           "description": "This datatype is based on DaVinciClasses including several name clashes However we omit Textual add the file argument to Icon and the shape Triangle This datatype may get bigger",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Shape",
           "package": "uni-graphs",
@@ -3032,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf True, add a survey view of the graph; IE display\n a picture of the whole graph which fits onto the\n screen (without displaying everything)\n as well as a picture of the details (which may not\n fit onto the screen).\n\u003c/p\u003e\u003cp\u003e(The user can do this anyway from daVinci's menus.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "SurveyView",
           "package": "uni-graphs",
@@ -3041,6 +3308,7 @@
         "index": {
           "description": "If True add survey view of the graph IE display picture of the whole graph which fits onto the screen without displaying everything as well as picture of the details which may not fit onto the screen The user can do this anyway from daVinci menus",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "SurveyView",
           "package": "uni-graphs",
@@ -3055,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a function which computes a node or arc title string to be\n displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ValueTitle",
           "package": "uni-graphs",
@@ -3064,6 +3333,7 @@
         "index": {
           "description": "Provide function which computes node or arc title string to be displayed",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ValueTitle",
           "package": "uni-graphs",
@@ -3078,6 +3348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a function which computes a source which generates a dynamically-\n changing title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ValueTitleSource",
           "package": "uni-graphs",
@@ -3087,6 +3358,7 @@
         "index": {
           "description": "Provide function which computes source which generates dynamically changing title",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ValueTitleSource",
           "package": "uni-graphs",
@@ -3100,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "($$)",
           "package": "uni-graphs",
@@ -3108,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "($$) $$",
           "normalized": "a-\u003eb-\u003eb",
@@ -3122,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "($$$)",
           "package": "uni-graphs",
@@ -3131,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "($$$) $$$",
           "normalized": "a b-\u003ec b-\u003ec b",
@@ -3146,6 +3422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e$$$? can be a useful abbreviation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "($$$?)",
           "package": "uni-graphs",
@@ -3156,6 +3433,7 @@
         "index": {
           "description": "can be useful abbreviation",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "($$$?) $$$?",
           "normalized": "Maybe(a b)-\u003ec b-\u003ec b",
@@ -3170,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ActionWrapper",
           "package": "uni-graphs",
@@ -3179,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ActionWrapper",
           "normalized": "ActionWrapper(IO()-\u003eIO())",
@@ -3194,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "AllowClose",
           "package": "uni-graphs",
@@ -3203,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "AllowClose",
           "package": "uni-graphs",
@@ -3216,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "AllowDragging",
           "package": "uni-graphs",
@@ -3225,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "AllowDragging",
           "package": "uni-graphs",
@@ -3238,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Blank",
           "package": "uni-graphs",
@@ -3246,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Blank",
           "package": "uni-graphs",
@@ -3259,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "BoldFontStyle",
           "package": "uni-graphs",
@@ -3268,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "BoldFontStyle",
           "package": "uni-graphs",
@@ -3281,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "BoldItalicFontStyle",
           "package": "uni-graphs",
@@ -3290,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "BoldItalicFontStyle",
           "package": "uni-graphs",
@@ -3303,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "BorderSource",
           "package": "uni-graphs",
@@ -3312,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "BorderSource",
           "normalized": "BorderSource(a-\u003eIO(SimpleSource Border))",
@@ -3327,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "BottomUp",
           "package": "uni-graphs",
@@ -3336,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "BottomUp",
           "package": "uni-graphs",
@@ -3349,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Box",
           "package": "uni-graphs",
@@ -3358,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Box",
           "package": "uni-graphs",
@@ -3371,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Button",
           "package": "uni-graphs",
@@ -3379,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Button",
           "package": "uni-graphs",
@@ -3392,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Circle",
           "package": "uni-graphs",
@@ -3401,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Circle",
           "package": "uni-graphs",
@@ -3414,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "CloseMenuOption",
           "package": "uni-graphs",
@@ -3423,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "CloseMenuOption",
           "package": "uni-graphs",
@@ -3436,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Color",
           "package": "uni-graphs",
@@ -3445,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Color",
           "package": "uni-graphs",
@@ -3458,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Dashed",
           "package": "uni-graphs",
@@ -3467,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Dashed",
           "package": "uni-graphs",
@@ -3480,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Dir",
           "package": "uni-graphs",
@@ -3489,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Dir",
           "package": "uni-graphs",
@@ -3502,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Dotted",
           "package": "uni-graphs",
@@ -3511,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Dotted",
           "package": "uni-graphs",
@@ -3524,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Double",
           "package": "uni-graphs",
@@ -3533,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Double",
           "package": "uni-graphs",
@@ -3546,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "DoubleBorder",
           "package": "uni-graphs",
@@ -3555,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "DoubleBorder",
           "package": "uni-graphs",
@@ -3568,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "DoubleClickAction",
           "package": "uni-graphs",
@@ -3577,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "DoubleClickAction",
           "normalized": "DoubleClickAction(a-\u003eIO())",
@@ -3592,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Ellipse",
           "package": "uni-graphs",
@@ -3601,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Ellipse",
           "package": "uni-graphs",
@@ -3614,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ExitMenuOption",
           "package": "uni-graphs",
@@ -3623,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ExitMenuOption",
           "package": "uni-graphs",
@@ -3636,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "FileMenuAct",
           "package": "uni-graphs",
@@ -3645,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "FileMenuAct",
           "normalized": "FileMenuAct FileMenuOption(Maybe(IO()))",
@@ -3660,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "FontStyleSource",
           "package": "uni-graphs",
@@ -3669,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "FontStyleSource",
           "normalized": "FontStyleSource(a-\u003eIO(SimpleSource FontStyle))",
@@ -3684,6 +4008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "GlobalMenu",
           "package": "uni-graphs",
@@ -3693,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "GlobalMenu",
           "normalized": "GlobalMenu(MenuPrim(Maybe String)(IO()))",
@@ -3708,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "GraphGesture",
           "package": "uni-graphs",
@@ -3717,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "GraphGesture",
           "normalized": "GraphGesture(IO())",
@@ -3732,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "GraphTitle",
           "package": "uni-graphs",
@@ -3741,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "GraphTitle",
           "package": "uni-graphs",
@@ -3754,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Head",
           "package": "uni-graphs",
@@ -3763,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Head",
           "package": "uni-graphs",
@@ -3776,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Icon",
           "package": "uni-graphs",
@@ -3785,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Icon",
           "package": "uni-graphs",
@@ -3798,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ItalicFontStyle",
           "package": "uni-graphs",
@@ -3807,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ItalicFontStyle",
           "package": "uni-graphs",
@@ -3820,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "LeftRight",
           "package": "uni-graphs",
@@ -3829,6 +4166,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "LeftRight",
           "package": "uni-graphs",
@@ -3842,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "LocalMenu",
           "package": "uni-graphs",
@@ -3851,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "LocalMenu",
           "normalized": "LocalMenu(MenuPrim(Maybe String)(a-\u003eIO()))",
@@ -3866,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Menu",
           "package": "uni-graphs",
@@ -3874,6 +4215,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Menu",
           "normalized": "Menu a[MenuPrim a b]",
@@ -3889,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NewMenuOption",
           "package": "uni-graphs",
@@ -3898,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NewMenuOption",
           "package": "uni-graphs",
@@ -3911,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NoBorder",
           "package": "uni-graphs",
@@ -3920,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NoBorder",
           "package": "uni-graphs",
@@ -3933,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NodeArcsHidden",
           "package": "uni-graphs",
@@ -3942,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NodeArcsHidden",
           "package": "uni-graphs",
@@ -3955,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NodeDragAndDrop",
           "package": "uni-graphs",
@@ -3964,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NodeDragAndDrop",
           "normalized": "NodeDragAndDrop(Dyn-\u003ea-\u003eIO())",
@@ -3979,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NodeGesture",
           "package": "uni-graphs",
@@ -3988,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NodeGesture",
           "normalized": "NodeGesture(a-\u003eIO())",
@@ -4003,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "NormalFontStyle",
           "package": "uni-graphs",
@@ -4012,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "NormalFontStyle",
           "package": "uni-graphs",
@@ -4025,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "OpenMenuOption",
           "package": "uni-graphs",
@@ -4034,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "OpenMenuOption",
           "package": "uni-graphs",
@@ -4047,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "OptimiseLayout",
           "package": "uni-graphs",
@@ -4056,6 +4413,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "OptimiseLayout",
           "package": "uni-graphs",
@@ -4069,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "PrintMenuOption",
           "package": "uni-graphs",
@@ -4078,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "PrintMenuOption",
           "package": "uni-graphs",
@@ -4091,6 +4451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Rhombus",
           "package": "uni-graphs",
@@ -4100,6 +4461,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Rhombus",
           "package": "uni-graphs",
@@ -4113,6 +4475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "RightLeft",
           "package": "uni-graphs",
@@ -4122,6 +4485,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "RightLeft",
           "package": "uni-graphs",
@@ -4135,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "SaveAsMenuOption",
           "package": "uni-graphs",
@@ -4144,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "SaveAsMenuOption",
           "package": "uni-graphs",
@@ -4157,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "SaveMenuOption",
           "package": "uni-graphs",
@@ -4166,6 +4533,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "SaveMenuOption",
           "package": "uni-graphs",
@@ -4179,6 +4547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "SingleBorder",
           "package": "uni-graphs",
@@ -4188,6 +4557,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "SingleBorder",
           "package": "uni-graphs",
@@ -4201,6 +4571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Solid",
           "package": "uni-graphs",
@@ -4210,6 +4581,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Solid",
           "package": "uni-graphs",
@@ -4223,6 +4595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "SurveyView",
           "package": "uni-graphs",
@@ -4232,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "SurveyView",
           "package": "uni-graphs",
@@ -4245,6 +4619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Thick",
           "package": "uni-graphs",
@@ -4254,6 +4629,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Thick",
           "package": "uni-graphs",
@@ -4267,6 +4643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "TopDown",
           "package": "uni-graphs",
@@ -4276,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "TopDown",
           "package": "uni-graphs",
@@ -4289,6 +4667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "Triangle",
           "package": "uni-graphs",
@@ -4298,6 +4677,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "Triangle",
           "package": "uni-graphs",
@@ -4311,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ValueTitle",
           "package": "uni-graphs",
@@ -4320,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ValueTitle",
           "normalized": "ValueTitle(a-\u003eIO String)",
@@ -4335,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "ValueTitleSource",
           "package": "uni-graphs",
@@ -4344,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "ValueTitleSource",
           "normalized": "ValueTitleSource(a-\u003eIO(SimpleSource String))",
@@ -4360,6 +4744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs a service to MMiSS we provide a function which combines\n several GlobalMenus into one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "combineGlobalMenus",
           "package": "uni-graphs",
@@ -4370,6 +4755,7 @@
         "index": {
           "description": "As service to MMiSS we provide function which combines several GlobalMenus into one",
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "combineGlobalMenus",
           "normalized": "[GlobalMenu]-\u003eGlobalMenu",
@@ -4385,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "configUsed",
           "package": "uni-graphs",
@@ -4393,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "configUsed",
           "normalized": "a-\u003eb-\u003eBool",
@@ -4408,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "configUsed'",
           "package": "uni-graphs",
@@ -4417,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "configUsed'",
           "normalized": "a b-\u003ec b-\u003eBool",
@@ -4432,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "def",
           "package": "uni-graphs",
@@ -4441,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "def",
           "package": "uni-graphs",
@@ -4453,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "defaultAllowClose",
           "package": "uni-graphs",
@@ -4462,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "defaultAllowClose",
           "package": "uni-graphs",
@@ -4475,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "isDef",
           "package": "uni-graphs",
@@ -4484,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "isDef",
           "normalized": "a-\u003eBool",
@@ -4499,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "mapMMenuPrim",
           "package": "uni-graphs",
@@ -4507,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "mapMMenuPrim",
           "normalized": "(a-\u003eb c)-\u003eMenuPrim d a-\u003eb(MenuPrim d c)",
@@ -4522,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "mapMMenuPrim'",
           "package": "uni-graphs",
@@ -4530,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "mapMMenuPrim'",
           "normalized": "(a-\u003eb c)-\u003eMenuPrim a d-\u003eb(MenuPrim c d)",
@@ -4545,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "mapMenuPrim",
           "package": "uni-graphs",
@@ -4553,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "mapMenuPrim",
           "normalized": "(a-\u003eb)-\u003eMenuPrim c a-\u003eMenuPrim c b",
@@ -4568,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "mapMenuPrim'",
           "package": "uni-graphs",
@@ -4576,6 +4979,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "mapMenuPrim'",
           "normalized": "(a-\u003eb)-\u003eMenuPrim a c-\u003eMenuPrim b c",
@@ -4591,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConfigure",
           "name": "modify",
           "package": "uni-graphs",
@@ -4600,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConfigure",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConfigure",
           "name": "modify",
           "normalized": "a-\u003eb-\u003ec d-\u003eIO()",
@@ -4615,6 +5021,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraphConnection contains various operations on graph connections\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConnection",
           "name": "GraphConnection",
           "package": "uni-graphs",
@@ -4624,6 +5031,7 @@
         "index": {
           "description": "GraphConnection contains various operations on graph connections",
           "hierarchy": "Graphs GraphConnection",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConnection",
           "name": "GraphConnection",
           "package": "uni-graphs",
@@ -4637,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConnection",
           "name": "SubGraph",
           "package": "uni-graphs",
@@ -4645,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConnection",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConnection",
           "name": "SubGraph",
           "package": "uni-graphs",
@@ -4658,6 +5068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConnection",
           "name": "SubGraph",
           "package": "uni-graphs",
@@ -4667,6 +5078,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConnection",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConnection",
           "name": "SubGraph",
           "package": "uni-graphs",
@@ -4680,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConnection",
           "name": "attachSubGraph",
           "package": "uni-graphs",
@@ -4689,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConnection",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConnection",
           "name": "attachSubGraph",
           "normalized": "SubGraph-\u003eGraphConnection a b c d-\u003eGraphConnection a b c d",
@@ -4704,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConnection",
           "name": "attachSuperGraph",
           "package": "uni-graphs",
@@ -4713,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConnection",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConnection",
           "name": "attachSuperGraph",
           "normalized": "SubGraph-\u003eGraphConnection a b c d-\u003eGraphConnection a b c d",
@@ -4728,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConnection",
           "name": "mapGraphConnection",
           "package": "uni-graphs",
@@ -4736,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConnection",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConnection",
           "name": "mapGraphConnection",
           "normalized": "(a-\u003e(a,NodeType))-\u003e(b-\u003e(b,ArcType))-\u003e[Update a c b d]-\u003eGraphConnection a()b()-\u003eGraphConnection a c b d",
@@ -4751,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConnection",
           "name": "nodeIn",
           "package": "uni-graphs",
@@ -4760,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConnection",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConnection",
           "name": "nodeIn",
           "normalized": "Node-\u003eBool",
@@ -4775,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphConnection",
           "name": "nodeTypeIn",
           "package": "uni-graphs",
@@ -4784,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphConnection",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphConnection",
           "name": "nodeTypeIn",
           "normalized": "NodeType-\u003eBool",
@@ -4800,6 +5222,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn UniForM we need ways of displaying typed directed graphs.\n In the original UniForM, it was only possible to use the DaVinci\n encapsulation for displaying directed graphs.  While this is very good,\n in the new UniForM it is intended to factor out this encapsulation\n so that it will not be too difficult to replace DaVinci by other\n graph-drawing package (or variants of DaVinci) for particular graphs.\n Example alternatives that might be considered:\n (1) some sort of text-only interface.\n (2) Windows-style displaying of a tree structure using clickable\n     folders.\n In this module we present the classes that any such \"graph-drawing package\"\n is supposed to implement.\n\u003c/p\u003e\u003cp\u003eThis module is in two parts.\n\u003c/p\u003e\u003cp\u003eThe first part contains the\n \"user-friendly\" versions of the functions.  For these, it is assumed\n (as will usually be the case) that there is only one\n node/nodeType/arc/arcType around for a particular graph.  The whole lot\n is indexed by the GraphAll, which contains ALL the functionality\n required for accessing the graphs (apart from configuration options).\n For example, the only daVinci-specific thing you should need to use\n to write a program which calls daVinci will be the daVinciSort variable.\n\u003c/p\u003e\u003cp\u003eThe second part contains the \"user-hateful\" versions.  All the\n user-hateful functions have names ending in \"Prim\".\n Graph display implementations only have to implement the user-hateful\n versions.  The user-hateful versions should only be of interest to other\n people if the graph display provides more than one implementation of\n the NodeClass, NodeTypeClass (or whatever) implementation.  One\n disadvantage to the user of using the user-hateful versions of the\n functions is that because of all the overloading, you have to put\n in lots of explicit types, or else get the most hideous type errors.\n\u003c/p\u003e\u003cp\u003eConfiguring things like graph titles, shape of node boxes, menus,\n and so on should also be implemented, where possible, by graph display\n interfaces.  The various options are documented in GraphConfigure.hs.\n They should be applied using the Computation.HasConfig interface.\n\u003c/p\u003e\u003cp\u003eThe types which are supposed in various combinations to be instances\n of the classes are as follows:\n\u003c/p\u003e\u003cp\u003egraph.  This corresponds to one graph display.\n    graphConfig.  This is configuration information for a graph.\n       This might be a window title or size for example.\n    graphParms.  This is a collection of graphConfig's used to\n       construct a graph.\n\u003c/p\u003e\u003cp\u003eNodes and arcs carry values.  Thus all the following carry\n a type parameter.  But, for ease of implementation with, for example,\n DaVinci, the type parameter is required to be an instance of \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e   node.  A value of this type is an actual node in a graph.\n       (Will be an instance of \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e via \u003ccode\u003e\u003ca\u003eTypeable1\u003c/a\u003e\u003c/code\u003e.)\n\u003c/li\u003e\u003cli\u003e   nodeType.  Nodes are created with a particular UniForM \"type\" which\n       is a Haskell value of type nodetype.  In fact a graph might\n       conceivably have multiply Haskell types corresponding to node\n       and nodeType, meaning that nodes, or their UniForM types,\n       will be distinguished additionally by the Haskell type system.\n\u003c/li\u003e\u003cli\u003e   nodeTypeConfig.  Configuration information for a nodeType.\n       This might include how a node with this type is to be displayed\n       graphically.  This also includes information on what to do when the\n       node is clicked.\n\u003c/li\u003e\u003cli\u003e   nodeTypeParms.  A collection of nodeTypeConfig's used to construct\n       a nodeType\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSimilar constructions for arcs . . .\n    arc.\n    arcType.\n    arcTypeConfig.\n    arcTypeParms.\n\u003c/p\u003e\u003cp\u003eThere are quite a lot of classes.  This is partly because of the need\n to have a separate class for each subset of the type variables\n which is actually used in the type of a function.\n\u003c/p\u003e\u003cp\u003eThis file is fairly repetitive, mainly because of the need to\n repeat the configuration machinery over and over again.\n\u003c/p\u003e\u003cp\u003eThe functionality provided in this file is inspired by that\n provided by DaVinci.  However we extend it by allowing\n nodes to have labels.\n\u003c/p\u003e\u003cp\u003eThis file should be read in conjunction with \u003ca\u003eGraphConfigure\u003c/a\u003e,\n which contains various configuration options to be used for\n graph objects.\n\u003c/p\u003e\u003cp\u003eAdditional Notes\n ----------------\n\u003c/p\u003e\u003col\u003e\u003cli\u003e At the end of a program using a GraphDisp instance,\n     \u003ccode\u003eshutdown\u003c/code\u003e should be called.  For example,\n     in the case of the DaVinci instance this is\n     required to get rid of the DaVinci and HTk processes.\n\u003c/li\u003e\u003cli\u003e It is more cumbersome writing the Graph Editor than I would\n     like because the menu code doesn't give you\n     direct access to the node or arc type.  Unfortunately doing this\n     would make the classes in this file even more complicated than\n     they are now.\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "GraphDisp",
           "package": "uni-graphs",
@@ -4809,6 +5232,7 @@
         "index": {
           "description": "In UniForM we need ways of displaying typed directed graphs In the original UniForM it was only possible to use the DaVinci encapsulation for displaying directed graphs While this is very good in the new UniForM it is intended to factor out this encapsulation so that it will not be too difficult to replace DaVinci by other graph-drawing package or variants of DaVinci for particular graphs Example alternatives that might be considered some sort of text-only interface Windows-style displaying of tree structure using clickable folders In this module we present the classes that any such graph-drawing package is supposed to implement This module is in two parts The first part contains the user-friendly versions of the functions For these it is assumed as will usually be the case that there is only one node nodeType arc arcType around for particular graph The whole lot is indexed by the GraphAll which contains ALL the functionality required for accessing the graphs apart from configuration options For example the only daVinci-specific thing you should need to use to write program which calls daVinci will be the daVinciSort variable The second part contains the user-hateful versions All the user-hateful functions have names ending in Prim Graph display implementations only have to implement the user-hateful versions The user-hateful versions should only be of interest to other people if the graph display provides more than one implementation of the NodeClass NodeTypeClass or whatever implementation One disadvantage to the user of using the user-hateful versions of the functions is that because of all the overloading you have to put in lots of explicit types or else get the most hideous type errors Configuring things like graph titles shape of node boxes menus and so on should also be implemented where possible by graph display interfaces The various options are documented in GraphConfigure.hs They should be applied using the Computation.HasConfig interface The types which are supposed in various combinations to be instances of the classes are as follows graph This corresponds to one graph display graphConfig This is configuration information for graph This might be window title or size for example graphParms This is collection of graphConfig used to construct graph Nodes and arcs carry values Thus all the following carry type parameter But for ease of implementation with for example DaVinci the type parameter is required to be an instance of Typeable node value of this type is an actual node in graph Will be an instance of Typeable via Typeable1 nodeType Nodes are created with particular UniForM type which is Haskell value of type nodetype In fact graph might conceivably have multiply Haskell types corresponding to node and nodeType meaning that nodes or their UniForM types will be distinguished additionally by the Haskell type system nodeTypeConfig Configuration information for nodeType This might include how node with this type is to be displayed graphically This also includes information on what to do when the node is clicked nodeTypeParms collection of nodeTypeConfig used to construct nodeType Similar constructions for arcs arc arcType arcTypeConfig arcTypeParms There are quite lot of classes This is partly because of the need to have separate class for each subset of the type variables which is actually used in the type of function This file is fairly repetitive mainly because of the need to repeat the configuration machinery over and over again The functionality provided in this file is inspired by that provided by DaVinci However we extend it by allowing nodes to have labels This file should be read in conjunction with GraphConfigure which contains various configuration options to be used for graph objects Additional Notes At the end of program using GraphDisp instance shutdown should be called For example in the case of the DaVinci instance this is required to get rid of the DaVinci and HTk processes It is more cumbersome writing the Graph Editor than would like because the menu code doesn give you direct access to the node or arc type Unfortunately doing this would make the classes in this file even more complicated than they are now",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "GraphDisp",
           "package": "uni-graphs",
@@ -4822,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "ArcClass",
           "package": "uni-graphs",
@@ -4830,6 +5255,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "ArcClass",
           "package": "uni-graphs",
@@ -4843,6 +5269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "ArcTypeClass",
           "package": "uni-graphs",
@@ -4851,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "ArcTypeClass",
           "package": "uni-graphs",
@@ -4864,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "ArcTypeConfig",
           "package": "uni-graphs",
@@ -4872,6 +5301,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "ArcTypeConfig",
           "package": "uni-graphs",
@@ -4885,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "ArcTypeParms",
           "package": "uni-graphs",
@@ -4893,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "ArcTypeParms",
           "package": "uni-graphs",
@@ -4906,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "DeleteArc",
           "package": "uni-graphs",
@@ -4914,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "DeleteArc",
           "package": "uni-graphs",
@@ -4927,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "DeleteNode",
           "package": "uni-graphs",
@@ -4935,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "DeleteNode",
           "package": "uni-graphs",
@@ -4948,6 +5384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "Eq1",
           "package": "uni-graphs",
@@ -4956,6 +5393,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "Eq1",
           "package": "uni-graphs",
@@ -4970,6 +5408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe graph implementation will provide a value of this type to\n get you started.  For example, for daVinci this is called \u003ccode\u003edaVinciSort\u003c/code\u003e.\n However you then need to use it as an argument to \u003ccode\u003e\u003ca\u003enewGraph\u003c/a\u003e\u003c/code\u003e to construct\n the actual graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "Graph",
           "package": "uni-graphs",
@@ -4979,6 +5418,7 @@
         "index": {
           "description": "The graph implementation will provide value of this type to get you started For example for daVinci this is called daVinciSort However you then need to use it as an argument to newGraph to construct the actual graph",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "Graph",
           "package": "uni-graphs",
@@ -4992,6 +5432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "GraphAll",
           "package": "uni-graphs",
@@ -5000,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "GraphAll",
           "package": "uni-graphs",
@@ -5013,6 +5455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "GraphClass",
           "package": "uni-graphs",
@@ -5021,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "GraphClass",
           "package": "uni-graphs",
@@ -5034,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "GraphConfig",
           "package": "uni-graphs",
@@ -5042,6 +5487,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "GraphConfig",
           "package": "uni-graphs",
@@ -5055,6 +5501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "GraphParms",
           "package": "uni-graphs",
@@ -5063,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "GraphParms",
           "package": "uni-graphs",
@@ -5076,6 +5524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NewArc",
           "package": "uni-graphs",
@@ -5084,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NewArc",
           "package": "uni-graphs",
@@ -5097,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NewArcType",
           "package": "uni-graphs",
@@ -5105,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NewArcType",
           "package": "uni-graphs",
@@ -5118,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NewGraph",
           "package": "uni-graphs",
@@ -5126,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NewGraph",
           "package": "uni-graphs",
@@ -5139,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NewNode",
           "package": "uni-graphs",
@@ -5147,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NewNode",
           "package": "uni-graphs",
@@ -5160,6 +5616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NewNodeType",
           "package": "uni-graphs",
@@ -5168,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NewNodeType",
           "package": "uni-graphs",
@@ -5181,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NodeClass",
           "package": "uni-graphs",
@@ -5189,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NodeClass",
           "package": "uni-graphs",
@@ -5202,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NodeTypeClass",
           "package": "uni-graphs",
@@ -5210,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NodeTypeClass",
           "package": "uni-graphs",
@@ -5223,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NodeTypeConfig",
           "package": "uni-graphs",
@@ -5231,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NodeTypeConfig",
           "package": "uni-graphs",
@@ -5244,6 +5708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "NodeTypeParms",
           "package": "uni-graphs",
@@ -5252,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "NodeTypeParms",
           "package": "uni-graphs",
@@ -5265,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "Ord1",
           "package": "uni-graphs",
@@ -5273,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "Ord1",
           "package": "uni-graphs",
@@ -5286,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "SetArcType",
           "package": "uni-graphs",
@@ -5294,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "SetArcType",
           "package": "uni-graphs",
@@ -5307,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "SetNodeFocus",
           "package": "uni-graphs",
@@ -5315,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "SetNodeFocus",
           "package": "uni-graphs",
@@ -5328,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "WrappedNode",
           "package": "uni-graphs",
@@ -5336,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "WrappedNode",
           "package": "uni-graphs",
@@ -5349,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "Graph",
           "package": "uni-graphs",
@@ -5358,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "Graph",
           "package": "uni-graphs",
@@ -5371,6 +5847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "WrappedNode",
           "package": "uni-graphs",
@@ -5380,6 +5857,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "WrappedNode",
           "package": "uni-graphs",
@@ -5393,6 +5871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "coMapArcTypeParms",
           "package": "uni-graphs",
@@ -5402,6 +5881,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "coMapArcTypeParms",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -5417,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "coMapNodeTypeParms",
           "package": "uni-graphs",
@@ -5426,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "coMapNodeTypeParms",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -5441,6 +5923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "compare1",
           "package": "uni-graphs",
@@ -5450,6 +5933,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "compare1",
           "normalized": "a b-\u003ea b-\u003eOrdering",
@@ -5465,6 +5949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete an arc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "deleteArc",
           "package": "uni-graphs",
@@ -5475,6 +5960,7 @@
         "index": {
           "description": "delete an arc",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "deleteArc",
           "normalized": "Graph a b c d e f g h-\u003ef i-\u003eIO()",
@@ -5490,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "deleteArcPrim",
           "package": "uni-graphs",
@@ -5499,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "deleteArcPrim",
           "normalized": "a-\u003eb c-\u003eIO()",
@@ -5515,6 +6003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete a node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "deleteNode",
           "package": "uni-graphs",
@@ -5525,6 +6014,7 @@
         "index": {
           "description": "delete node",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "deleteNode",
           "normalized": "Graph a b c d e f g h-\u003ec i-\u003eIO()",
@@ -5540,6 +6030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "deleteNodePrim",
           "package": "uni-graphs",
@@ -5549,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "deleteNodePrim",
           "normalized": "a-\u003eb c-\u003eIO()",
@@ -5564,6 +6056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "displaySort",
           "package": "uni-graphs",
@@ -5573,6 +6066,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "displaySort",
           "package": "uni-graphs",
@@ -5586,6 +6080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "emptyArcTypeParms",
           "package": "uni-graphs",
@@ -5595,6 +6090,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "emptyArcTypeParms",
           "package": "uni-graphs",
@@ -5608,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "emptyGraphParms",
           "package": "uni-graphs",
@@ -5617,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "emptyGraphParms",
           "package": "uni-graphs",
@@ -5630,6 +6128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "emptyNodeTypeParms",
           "package": "uni-graphs",
@@ -5639,6 +6138,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "emptyNodeTypeParms",
           "package": "uni-graphs",
@@ -5652,6 +6152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "eq1",
           "package": "uni-graphs",
@@ -5661,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "eq1",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -5676,6 +6178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the value associated with an arc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "getArcValue",
           "package": "uni-graphs",
@@ -5686,6 +6189,7 @@
         "index": {
           "description": "get the value associated with an arc",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "getArcValue",
           "normalized": "Graph a b c d e f g h-\u003ef i-\u003eIO i",
@@ -5701,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "getArcValuePrim",
           "package": "uni-graphs",
@@ -5710,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "getArcValuePrim",
           "normalized": "a-\u003eb c-\u003eIO c",
@@ -5726,6 +6232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake over all interaction on the graph, and perform the given\n action, supplying it with an event which is activated when the user\n double-clicks a node.  This is helpful when you need an interaction\n selecting several nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "getMultipleNodes",
           "package": "uni-graphs",
@@ -5736,6 +6243,7 @@
         "index": {
           "description": "Take over all interaction on the graph and perform the given action supplying it with an event which is activated when the user double-clicks node This is helpful when you need an interaction selecting several nodes",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "getMultipleNodes",
           "normalized": "Graph a b c d e f g h-\u003e(Event(WrappedNode c)-\u003eIO i)-\u003eIO i",
@@ -5751,6 +6259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "getMultipleNodesPrim",
           "package": "uni-graphs",
@@ -5760,6 +6269,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "getMultipleNodesPrim",
           "normalized": "a-\u003e(Event(WrappedNode b)-\u003eIO c)-\u003eIO c",
@@ -5776,6 +6286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the value associated with a node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "getNodeValue",
           "package": "uni-graphs",
@@ -5786,6 +6297,7 @@
         "index": {
           "description": "get the value associated with node",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "getNodeValue",
           "normalized": "Graph a b c d e f g h-\u003ec i-\u003eIO i",
@@ -5801,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "getNodeValuePrim",
           "package": "uni-graphs",
@@ -5810,6 +6323,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "getNodeValuePrim",
           "normalized": "a-\u003eb c-\u003eIO c",
@@ -5825,6 +6339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "invisibleArcType",
           "package": "uni-graphs",
@@ -5834,6 +6349,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "invisibleArcType",
           "package": "uni-graphs",
@@ -5847,6 +6363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "invisibleArcTypeParms",
           "package": "uni-graphs",
@@ -5856,6 +6373,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "invisibleArcTypeParms",
           "package": "uni-graphs",
@@ -5870,6 +6388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a new arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newArc",
           "package": "uni-graphs",
@@ -5880,6 +6399,7 @@
         "index": {
           "description": "construct new arc",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newArc",
           "normalized": "Graph a b c d e f g h-\u003eg i-\u003ei-\u003ec j-\u003ec k-\u003eIO(f i)",
@@ -5896,6 +6416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a node, construct a \u003ccode\u003e\u003ca\u003eListDrawer\u003c/a\u003e\u003c/code\u003e which can be used as a way\n of drawing ordered sets of out-arcs from that node.\n (NB.  At the moment daVinci does not do this properly, but that is\n daVinci's fault, not mine.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newArcListDrawer",
           "package": "uni-graphs",
@@ -5906,6 +6427,7 @@
         "index": {
           "description": "Given node construct ListDrawer which can be used as way of drawing ordered sets of out-arcs from that node NB At the moment daVinci does not do this properly but that is daVinci fault not mine",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newArcListDrawer",
           "normalized": "Graph a b c d e f g h-\u003ec i-\u003eListDrawer(g j,j,WrappedNode c)(f j)",
@@ -5921,6 +6443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newArcListDrawerPrim",
           "package": "uni-graphs",
@@ -5930,6 +6453,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newArcListDrawerPrim",
           "normalized": "a-\u003eb c-\u003eListDrawer(d e,e,WrappedNode f)(g e)",
@@ -5945,6 +6469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newArcPrim",
           "package": "uni-graphs",
@@ -5954,6 +6479,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newArcPrim",
           "normalized": "a-\u003eb c-\u003ec-\u003ed e-\u003ef g-\u003eIO(h c)",
@@ -5970,6 +6496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new arc type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newArcType",
           "package": "uni-graphs",
@@ -5980,6 +6507,7 @@
         "index": {
           "description": "create new arc type",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newArcType",
           "normalized": "Graph a b c d e f g h-\u003eh i-\u003eIO(g i)",
@@ -5995,6 +6523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newArcTypePrim",
           "package": "uni-graphs",
@@ -6004,6 +6533,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newArcTypePrim",
           "normalized": "a-\u003eb c-\u003eIO(d c)",
@@ -6020,6 +6550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new graph.  The input value will be something like\n \u003ca\u003eDaVinciGraph\u003c/a\u003e's value \u003ccode\u003edaVinciSort\u003c/code\u003e; the resulting graph will be\n returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newGraph",
           "package": "uni-graphs",
@@ -6030,6 +6561,7 @@
         "index": {
           "description": "Construct new graph The input value will be something like DaVinciGraph value daVinciSort the resulting graph will be returned",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newGraph",
           "normalized": "Graph a b c d e f g h-\u003eb-\u003eIO(Graph a b c d e f g h)",
@@ -6045,6 +6577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newGraphPrim",
           "package": "uni-graphs",
@@ -6054,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newGraphPrim",
           "normalized": "a-\u003eIO b",
@@ -6070,6 +6604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a new node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newNode",
           "package": "uni-graphs",
@@ -6080,6 +6615,7 @@
         "index": {
           "description": "construct new node",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newNode",
           "normalized": "Graph a b c d e f g h-\u003ed i-\u003ei-\u003eIO(c i)",
@@ -6095,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newNodePrim",
           "package": "uni-graphs",
@@ -6104,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newNodePrim",
           "normalized": "a-\u003eb c-\u003ec-\u003eIO(d c)",
@@ -6120,6 +6658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a node type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newNodeType",
           "package": "uni-graphs",
@@ -6130,6 +6669,7 @@
         "index": {
           "description": "construct node type",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newNodeType",
           "normalized": "Graph a b c d e f g h-\u003ee i-\u003eIO(d i)",
@@ -6145,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "newNodeTypePrim",
           "package": "uni-graphs",
@@ -6154,6 +6695,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "newNodeTypePrim",
           "normalized": "a-\u003eb c-\u003eIO(d c)",
@@ -6170,6 +6712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedraw the graph.  This is needed when you want to show updates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "redraw",
           "package": "uni-graphs",
@@ -6180,6 +6723,7 @@
         "index": {
           "description": "Redraw the graph This is needed when you want to show updates",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "redraw",
           "normalized": "Graph a b c d e f g h-\u003eIO()",
@@ -6194,6 +6738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "redrawPrim",
           "package": "uni-graphs",
@@ -6203,6 +6748,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "redrawPrim",
           "normalized": "a-\u003eIO()",
@@ -6218,6 +6764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setArcType",
           "package": "uni-graphs",
@@ -6227,6 +6774,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setArcType",
           "normalized": "Graph a b c d e f g h-\u003ef i-\u003eg i-\u003eIO()",
@@ -6242,6 +6790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setArcTypePrim",
           "package": "uni-graphs",
@@ -6251,6 +6800,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setArcTypePrim",
           "normalized": "a-\u003eb c-\u003ed c-\u003eIO()",
@@ -6267,6 +6817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the value associated with an arc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setArcValue",
           "package": "uni-graphs",
@@ -6277,6 +6828,7 @@
         "index": {
           "description": "set the value associated with an arc",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setArcValue",
           "normalized": "Graph a b c d e f g h-\u003ef i-\u003ei-\u003eIO()",
@@ -6292,6 +6844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setArcValuePrim",
           "package": "uni-graphs",
@@ -6301,6 +6854,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setArcValuePrim",
           "normalized": "a-\u003eb c-\u003ec-\u003eIO()",
@@ -6316,6 +6870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setNodeFocus",
           "package": "uni-graphs",
@@ -6325,6 +6880,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setNodeFocus",
           "normalized": "Graph a b c d e f g h-\u003ec i-\u003eIO()",
@@ -6340,6 +6896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setNodeFocusPrim",
           "package": "uni-graphs",
@@ -6349,6 +6906,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setNodeFocusPrim",
           "normalized": "a-\u003eb c-\u003eIO()",
@@ -6365,6 +6923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset a node's type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setNodeType",
           "package": "uni-graphs",
@@ -6375,6 +6934,7 @@
         "index": {
           "description": "set node type",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setNodeType",
           "normalized": "Graph a b c d e f g h-\u003ec i-\u003ed i-\u003eIO()",
@@ -6390,6 +6950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setNodeTypePrim",
           "package": "uni-graphs",
@@ -6399,6 +6960,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setNodeTypePrim",
           "normalized": "a-\u003eb c-\u003ed c-\u003eIO()",
@@ -6415,6 +6977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the value associated with a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setNodeValue",
           "package": "uni-graphs",
@@ -6425,6 +6988,7 @@
         "index": {
           "description": "set the value associated with node",
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setNodeValue",
           "normalized": "Graph a b c d e f g h-\u003ec i-\u003ei-\u003eIO()",
@@ -6440,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphDisp",
           "name": "setNodeValuePrim",
           "package": "uni-graphs",
@@ -6449,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphDisp",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphDisp",
           "name": "setNodeValuePrim",
           "normalized": "a-\u003eb c-\u003ec-\u003eIO()",
@@ -6465,6 +7031,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e#\n\u003c/p\u003e\u003cp\u003eThis Graph Editor is inspired by the one by Einar Karlsen but uses\n the new graph interface.\n\u003c/p\u003e\u003cp\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e#\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphEditor",
           "name": "GraphEditor",
           "package": "uni-graphs",
@@ -6474,6 +7041,7 @@
         "index": {
           "description": "This Graph Editor is inspired by the one by Einar Karlsen but uses the new graph interface",
           "hierarchy": "Graphs GraphEditor",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphEditor",
           "name": "GraphEditor",
           "package": "uni-graphs",
@@ -6487,6 +7055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphEditor",
           "name": "Displayable",
           "package": "uni-graphs",
@@ -6495,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphEditor",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphEditor",
           "name": "Displayable",
           "package": "uni-graphs",
@@ -6508,6 +7078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphEditor",
           "name": "DisplayableCannedGraph",
           "package": "uni-graphs",
@@ -6516,6 +7087,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphEditor",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphEditor",
           "name": "DisplayableCannedGraph",
           "package": "uni-graphs",
@@ -6529,6 +7101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphEditor",
           "name": "DisplayableGraphConnection",
           "package": "uni-graphs",
@@ -6537,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphEditor",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphEditor",
           "name": "DisplayableGraphConnection",
           "package": "uni-graphs",
@@ -6550,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphEditor",
           "name": "DisplayableUpdate",
           "package": "uni-graphs",
@@ -6558,6 +7133,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphEditor",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphEditor",
           "name": "DisplayableUpdate",
           "package": "uni-graphs",
@@ -6571,6 +7147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphEditor",
           "name": "GraphEditor",
           "package": "uni-graphs",
@@ -6579,6 +7156,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphEditor",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphEditor",
           "name": "GraphEditor",
           "package": "uni-graphs",
@@ -6592,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphEditor",
           "name": "newGraphEditor",
           "package": "uni-graphs",
@@ -6601,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphEditor",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphEditor",
           "name": "newGraphEditor",
           "normalized": "Graph a b c d e f g h-\u003eDisplayable i-\u003eIO GraphEditor",
@@ -6617,6 +7197,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains various functions for operating on graphs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphOps",
           "name": "GraphOps",
           "package": "uni-graphs",
@@ -6626,6 +7207,7 @@
         "index": {
           "description": "This module contains various functions for operating on graphs",
           "hierarchy": "Graphs GraphOps",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphOps",
           "name": "GraphOps",
           "package": "uni-graphs",
@@ -6639,6 +7221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphOps",
           "name": "isAncestor",
           "package": "uni-graphs",
@@ -6648,6 +7231,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphOps",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphOps",
           "name": "isAncestor",
           "normalized": "a b c d e-\u003eNode-\u003eNode-\u003eIO Bool",
@@ -6663,6 +7247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.GraphOps",
           "name": "isAncestorBy",
           "package": "uni-graphs",
@@ -6672,6 +7257,7 @@
         },
         "index": {
           "hierarchy": "Graphs GraphOps",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.GraphOps",
           "name": "isAncestorBy",
           "normalized": "(a-\u003eIO[a])-\u003ea-\u003ea-\u003eIO Bool",
@@ -6688,6 +7274,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNewNames is used for generating new names for Node's, Arc's,\n NodeType's and ArcType's in a graph on a globally unique basis.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "NewNames",
           "package": "uni-graphs",
@@ -6697,6 +7284,7 @@
         "index": {
           "description": "NewNames is used for generating new names for Node Arc NodeType and ArcType in graph on globally unique basis",
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "NewNames",
           "package": "uni-graphs",
@@ -6710,6 +7298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "FrozenNameSource",
           "package": "uni-graphs",
@@ -6718,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "FrozenNameSource",
           "package": "uni-graphs",
@@ -6731,6 +7321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "NameSource",
           "package": "uni-graphs",
@@ -6739,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "NameSource",
           "package": "uni-graphs",
@@ -6752,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "NameSourceBranch",
           "package": "uni-graphs",
@@ -6760,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "NameSourceBranch",
           "package": "uni-graphs",
@@ -6773,6 +7367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "branch",
           "package": "uni-graphs",
@@ -6782,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "branch",
           "normalized": "NameSource-\u003eIO NameSourceBranch",
@@ -6796,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "defrostNameSource",
           "package": "uni-graphs",
@@ -6805,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "defrostNameSource",
           "normalized": "NameSource-\u003eFrozenNameSource-\u003eIO()",
@@ -6820,6 +7418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "freezeNameSource",
           "package": "uni-graphs",
@@ -6829,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "freezeNameSource",
           "normalized": "NameSource-\u003eIO FrozenNameSource",
@@ -6844,6 +7444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "getNewName",
           "package": "uni-graphs",
@@ -6853,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "getNewName",
           "normalized": "NameSource-\u003eIO String",
@@ -6868,6 +7470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "initialBranch",
           "package": "uni-graphs",
@@ -6877,6 +7480,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "initialBranch",
           "package": "uni-graphs",
@@ -6890,6 +7494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.NewNames",
           "name": "useBranch",
           "package": "uni-graphs",
@@ -6899,6 +7504,7 @@
         },
         "index": {
           "hierarchy": "Graphs NewNames",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.NewNames",
           "name": "useBranch",
           "normalized": "NameSourceBranch-\u003eIO NameSource",
@@ -6915,6 +7521,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a simple \"pure\" graph interface, destined\n to be used for the complex graph operations required by VersionDag.\n\u003c/p\u003e\u003cp\u003eWe instance \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e for debugging purposes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "PureGraph",
           "package": "uni-graphs",
@@ -6924,6 +7531,7 @@
         "index": {
           "description": "This module implements simple pure graph interface destined to be used for the complex graph operations required by VersionDag We instance Show for debugging purposes",
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "PureGraph",
           "package": "uni-graphs",
@@ -6937,6 +7545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "ArcData",
           "package": "uni-graphs",
@@ -6945,6 +7554,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "ArcData",
           "package": "uni-graphs",
@@ -6958,6 +7568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "NodeData",
           "package": "uni-graphs",
@@ -6966,6 +7577,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "NodeData",
           "package": "uni-graphs",
@@ -6980,6 +7592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enode given with their parent nodes.  The parents should always come\n before their children in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "PureGraph",
           "package": "uni-graphs",
@@ -6989,6 +7602,7 @@
         "index": {
           "description": "node given with their parent nodes The parents should always come before their children in the list",
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "PureGraph",
           "package": "uni-graphs",
@@ -7002,6 +7616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "ArcData",
           "package": "uni-graphs",
@@ -7011,6 +7626,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "ArcData",
           "package": "uni-graphs",
@@ -7024,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "NodeData",
           "package": "uni-graphs",
@@ -7033,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "NodeData",
           "package": "uni-graphs",
@@ -7046,6 +7664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "PureGraph",
           "package": "uni-graphs",
@@ -7055,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "PureGraph",
           "package": "uni-graphs",
@@ -7069,6 +7689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a node with given parent arcs from it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "addNode",
           "package": "uni-graphs",
@@ -7079,6 +7700,7 @@
         "index": {
           "description": "add node with given parent arcs from it",
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "addNode",
           "normalized": "PureGraph a b-\u003ea-\u003e[(b,a)]-\u003ePureGraph a b",
@@ -7094,6 +7716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "arcInfo",
           "package": "uni-graphs",
@@ -7103,6 +7726,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "arcInfo",
           "package": "uni-graphs",
@@ -7117,6 +7741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNB.  The graph will end up ill-formed if you delete a node which\n has parent arcs pointing to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "deleteNode",
           "package": "uni-graphs",
@@ -7127,6 +7752,7 @@
         "index": {
           "description": "NB The graph will end up ill-formed if you delete node which has parent arcs pointing to it",
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "deleteNode",
           "normalized": "PureGraph a b-\u003ea-\u003ePureGraph a b",
@@ -7142,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "emptyPureGraph",
           "package": "uni-graphs",
@@ -7151,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "emptyPureGraph",
           "package": "uni-graphs",
@@ -7164,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "mapArcInfo",
           "package": "uni-graphs",
@@ -7173,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "mapArcInfo",
           "normalized": "(a-\u003ea)-\u003ePureGraph b a-\u003ePureGraph b a",
@@ -7188,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "nodeDataFM",
           "package": "uni-graphs",
@@ -7197,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "nodeDataFM",
           "package": "uni-graphs",
@@ -7210,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "nodeExists",
           "package": "uni-graphs",
@@ -7219,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "nodeExists",
           "normalized": "PureGraph a b-\u003ea-\u003eBool",
@@ -7234,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "parentNodes",
           "package": "uni-graphs",
@@ -7243,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "parentNodes",
           "normalized": "NodeData a b-\u003e[a]",
@@ -7258,6 +7894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "parents",
           "package": "uni-graphs",
@@ -7267,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "parents",
           "normalized": "[ArcData a b]",
@@ -7281,6 +7919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "target",
           "package": "uni-graphs",
@@ -7290,6 +7929,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "target",
           "package": "uni-graphs",
@@ -7302,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "toAllNodes",
           "package": "uni-graphs",
@@ -7311,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "toAllNodes",
           "normalized": "PureGraph a b-\u003e[a]",
@@ -7326,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraph",
           "name": "toNodeParents",
           "package": "uni-graphs",
@@ -7335,6 +7978,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraph",
           "name": "toNodeParents",
           "normalized": "PureGraph a b-\u003ea-\u003eMaybe[a]",
@@ -7350,6 +7994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraphMakeConsistent",
           "name": "PureGraphMakeConsistent",
           "package": "uni-graphs",
@@ -7358,6 +8003,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraphMakeConsistent",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraphMakeConsistent",
           "name": "PureGraphMakeConsistent",
           "package": "uni-graphs",
@@ -7371,6 +8017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraphMakeConsistent",
           "name": "pureGraphMakeConsistent",
           "package": "uni-graphs",
@@ -7380,6 +8027,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraphMakeConsistent",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraphMakeConsistent",
           "name": "pureGraphMakeConsistent",
           "normalized": "PureGraph a b-\u003ePureGraph a b",
@@ -7396,6 +8044,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe functions in this module implement pruning of \u003ccode\u003e\u003ca\u003ePureGraph\u003c/a\u003e\u003c/code\u003es,\n to remove hidden nodes as far as possible, while still showing the\n structure between non-hidden nodes.\n\u003c/p\u003e\u003cp\u003eNB.  It is assumed the PureGraph is acyclic!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraphPrune",
           "name": "PureGraphPrune",
           "package": "uni-graphs",
@@ -7405,6 +8054,7 @@
         "index": {
           "description": "The functions in this module implement pruning of PureGraph to remove hidden nodes as far as possible while still showing the structure between non-hidden nodes NB It is assumed the PureGraph is acyclic",
           "hierarchy": "Graphs PureGraphPrune",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraphPrune",
           "name": "PureGraphPrune",
           "package": "uni-graphs",
@@ -7419,6 +8069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove \u003ca\u003ehidden\u003c/a\u003e vertices as far as possible from a graph, which\n must be acyclic, while still preserving the structure as far as possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraphPrune",
           "name": "pureGraphPrune",
           "package": "uni-graphs",
@@ -7428,6 +8079,7 @@
         "index": {
           "description": "Remove hidden vertices as far as possible from graph which must be acyclic while still preserving the structure as far as possible",
           "hierarchy": "Graphs PureGraphPrune",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraphPrune",
           "name": "pureGraphPrune",
           "normalized": "(a-\u003eBool)-\u003ePureGraph a b-\u003ePureGraph a(Maybe b)",
@@ -7444,6 +8096,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module, given a changing source of \u003ccode\u003e\u003ca\u003ePureGraph\u003c/a\u003e\u003c/code\u003es, transforms it into\n a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e. -}\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraphToGraph",
           "name": "PureGraphToGraph",
           "package": "uni-graphs",
@@ -7453,6 +8106,7 @@
         "index": {
           "description": "This module given changing source of PureGraph transforms it into Graph",
           "hierarchy": "Graphs PureGraphToGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraphToGraph",
           "name": "PureGraphToGraph",
           "package": "uni-graphs",
@@ -7466,6 +8120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.PureGraphToGraph",
           "name": "pureGraphToGraph",
           "package": "uni-graphs",
@@ -7475,6 +8130,7 @@
         },
         "index": {
           "hierarchy": "Graphs PureGraphToGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.PureGraphToGraph",
           "name": "pureGraphToGraph",
           "normalized": "SimpleSource(PureGraph a b,a-\u003ec)-\u003eGraphConnection c()b()",
@@ -7491,6 +8147,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe removeAncestors function in this module (actually an IO action) takes\n a graph G and a list of nodes N and computes N' = { n in N |\n    there does not exist an m in N and a non-trivial path n -\u003e m }.\n This is required for graph merging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.RemoveAncestors",
           "name": "RemoveAncestors",
           "package": "uni-graphs",
@@ -7500,6 +8157,7 @@
         "index": {
           "description": "The removeAncestors function in this module actually an IO action takes graph and list of nodes and computes in there does not exist an in and non-trivial path This is required for graph merging",
           "hierarchy": "Graphs RemoveAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.RemoveAncestors",
           "name": "RemoveAncestors",
           "package": "uni-graphs",
@@ -7514,6 +8172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a graph G and a list of nodes N and computes N' = { n in N |\n there does not exist an m in N and a non-trivial path n -\u003e m }.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.RemoveAncestors",
           "name": "removeAncestors",
           "package": "uni-graphs",
@@ -7524,6 +8183,7 @@
         "index": {
           "description": "Takes graph and list of nodes and computes in there does not exist an in and non-trivial path",
           "hierarchy": "Graphs RemoveAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.RemoveAncestors",
           "name": "removeAncestors",
           "normalized": "a b c d e-\u003e[Node]-\u003eIO[Node]",
@@ -7540,6 +8200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral removeAncestors function, which takes as argument the action\n computing a Node's successors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.RemoveAncestors",
           "name": "removeAncestorsBy",
           "package": "uni-graphs",
@@ -7550,6 +8211,7 @@
         "index": {
           "description": "General removeAncestors function which takes as argument the action computing Node successors",
           "hierarchy": "Graphs RemoveAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.RemoveAncestors",
           "name": "removeAncestorsBy",
           "normalized": "(a-\u003eb[a])-\u003e[a]-\u003eb[a]",
@@ -7566,6 +8228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure version of \u003ccode\u003e\u003ca\u003eremoveAncestorsBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.RemoveAncestors",
           "name": "removeAncestorsByPure",
           "package": "uni-graphs",
@@ -7576,6 +8239,7 @@
         "index": {
           "description": "Pure version of removeAncestorsBy",
           "hierarchy": "Graphs RemoveAncestors",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.RemoveAncestors",
           "name": "removeAncestorsByPure",
           "normalized": "(a-\u003e[a])-\u003e[a]-\u003e[a]",
@@ -7592,6 +8256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimpleGraph is, as the name implies, a simple implementation\n of the Graph interface.  For example, we don't bother to sort\n the arcs going out of a node, meaning that to find out if two\n nodes are connected requires searching all the arcs out of one\n of the nodes, or all the arcs into the other.\n\u003c/p\u003e\u003cp\u003eNotes on synchronicity.\n    The Update operations Set*Label are intrinsically unsafe in\n    this implementation since if two communicating SimpleGraphs\n    both execute a Set*Label operation with different label values\n    they may end up with each others values.  It is recommended that\n    Set*Label only be used during the initialisation of the object,\n    as a way of tieing the knot.\n\u003c/p\u003e\u003cp\u003eIn addition, Update operations which create a value based on a previous\n    value (EG a NewNode creates a Node based on a NodeType), do\n    assume that the previous value has already been created.\n\u003c/p\u003e\u003cp\u003eI realise this is somewhat informal.  It may be necessary to\n    replace SimpleGraph by something more complicated later . . .\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.SimpleGraph",
           "name": "SimpleGraph",
           "package": "uni-graphs",
@@ -7601,6 +8266,7 @@
         "index": {
           "description": "SimpleGraph is as the name implies simple implementation of the Graph interface For example we don bother to sort the arcs going out of node meaning that to find out if two nodes are connected requires searching all the arcs out of one of the nodes or all the arcs into the other Notes on synchronicity The Update operations Set Label are intrinsically unsafe in this implementation since if two communicating SimpleGraphs both execute Set Label operation with different label values they may end up with each others values It is recommended that Set Label only be used during the initialisation of the object as way of tieing the knot In addition Update operations which create value based on previous value EG NewNode creates Node based on NodeType do assume that the previous value has already been created realise this is somewhat informal It may be necessary to replace SimpleGraph by something more complicated later",
           "hierarchy": "Graphs SimpleGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.SimpleGraph",
           "name": "SimpleGraph",
           "package": "uni-graphs",
@@ -7614,6 +8280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.SimpleGraph",
           "name": "ClientData",
           "package": "uni-graphs",
@@ -7622,6 +8289,7 @@
         },
         "index": {
           "hierarchy": "Graphs SimpleGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.SimpleGraph",
           "name": "ClientData",
           "package": "uni-graphs",
@@ -7635,6 +8303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.SimpleGraph",
           "name": "SimpleGraph",
           "package": "uni-graphs",
@@ -7643,6 +8312,7 @@
         },
         "index": {
           "hierarchy": "Graphs SimpleGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.SimpleGraph",
           "name": "SimpleGraph",
           "package": "uni-graphs",
@@ -7656,6 +8326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.SimpleGraph",
           "name": "ClientData",
           "package": "uni-graphs",
@@ -7665,6 +8336,7 @@
         },
         "index": {
           "hierarchy": "Graphs SimpleGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.SimpleGraph",
           "name": "ClientData",
           "package": "uni-graphs",
@@ -7678,6 +8350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.SimpleGraph",
           "name": "clientID",
           "package": "uni-graphs",
@@ -7687,6 +8360,7 @@
         },
         "index": {
           "hierarchy": "Graphs SimpleGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.SimpleGraph",
           "name": "clientID",
           "package": "uni-graphs",
@@ -7700,6 +8374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.SimpleGraph",
           "name": "clientSink",
           "package": "uni-graphs",
@@ -7709,6 +8384,7 @@
         },
         "index": {
           "hierarchy": "Graphs SimpleGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.SimpleGraph",
           "name": "clientSink",
           "normalized": "Update a b c d-\u003eIO()",
@@ -7724,6 +8400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.SimpleGraph",
           "name": "delayedAction",
           "package": "uni-graphs",
@@ -7733,6 +8410,7 @@
         },
         "index": {
           "hierarchy": "Graphs SimpleGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.SimpleGraph",
           "name": "delayedAction",
           "normalized": "SimpleGraph a b c d-\u003eNode-\u003eIO()-\u003eIO()",
@@ -7748,6 +8426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.SimpleGraph",
           "name": "getNameSource",
           "package": "uni-graphs",
@@ -7757,6 +8436,7 @@
         },
         "index": {
           "hierarchy": "Graphs SimpleGraph",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.SimpleGraph",
           "name": "getNameSource",
           "normalized": "SimpleGraph a b c d-\u003eNameSource",
@@ -7772,6 +8452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.TopSort",
           "name": "TopSort",
           "package": "uni-graphs",
@@ -7780,6 +8461,7 @@
         },
         "index": {
           "hierarchy": "Graphs TopSort",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.TopSort",
           "name": "TopSort",
           "package": "uni-graphs",
@@ -7793,6 +8475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.TopSort",
           "name": "topSort",
           "package": "uni-graphs",
@@ -7802,6 +8485,7 @@
         },
         "index": {
           "hierarchy": "Graphs TopSort",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.TopSort",
           "name": "topSort",
           "normalized": "[(a,a)]-\u003e[a]",
@@ -7817,6 +8501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.TopSort",
           "name": "topSort1",
           "package": "uni-graphs",
@@ -7826,6 +8511,7 @@
         },
         "index": {
           "hierarchy": "Graphs TopSort",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.TopSort",
           "name": "topSort1",
           "normalized": "[(a,a)]-\u003e[a]-\u003e[a]",
@@ -7842,6 +8528,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a VersionDag, a graph which is used for\n displaying versions within the Workbench.\n\u003c/p\u003e\u003cp\u003eThe main differences between this and normal \u003ccode\u003eSimpleGraph.SimpleGraph'\u003c/code\u003es\n are that\n   (1) the parents of a node are fixed when it is created, as are\n       all arc labels and arc type labels.\n   (2) it is possible to selectively \u003ca\u003ehide\u003c/a\u003e nodes from being displayed.\n       We intelligently display the structure between these nodes.\n   (3) it is not permitted to delete a node with children.  (Though it\n       may be hidden.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "VersionDag",
           "package": "uni-graphs",
@@ -7851,6 +8538,7 @@
         "index": {
           "description": "This module implements VersionDag graph which is used for displaying versions within the Workbench The main differences between this and normal SimpleGraph.SimpleGraph are that the parents of node are fixed when it is created as are all arc labels and arc type labels it is possible to selectively hide nodes from being displayed We intelligently display the structure between these nodes it is not permitted to delete node with children Though it may be hidden",
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "VersionDag",
           "package": "uni-graphs",
@@ -7864,6 +8552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "VersionDag",
           "package": "uni-graphs",
@@ -7872,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "VersionDag",
           "package": "uni-graphs",
@@ -7885,6 +8575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "addVersion",
           "package": "uni-graphs",
@@ -7894,6 +8585,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "addVersion",
           "normalized": "VersionDag a b c-\u003eb-\u003eIO()",
@@ -7909,6 +8601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "addVersions",
           "package": "uni-graphs",
@@ -7918,6 +8611,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "addVersions",
           "normalized": "VersionDag a b c-\u003e[b]-\u003eIO()",
@@ -7934,6 +8628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the hidden function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "changeIsHidden",
           "package": "uni-graphs",
@@ -7944,6 +8639,7 @@
         "index": {
           "description": "Change the hidden function",
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "changeIsHidden",
           "normalized": "VersionDag a b c-\u003e(b-\u003eBool)-\u003eIO()",
@@ -7959,6 +8655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "deleteVersion",
           "package": "uni-graphs",
@@ -7968,6 +8665,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "deleteVersion",
           "normalized": "VersionDag a b c-\u003ea-\u003eIO()",
@@ -7984,6 +8682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the input graph in the form of FindCommonParents.GraphBack.\n NB.\n (1) the confusion in the type variable \u003ca\u003enodeKey\u003c/a\u003e as used in\n     FindCommonParents is not the same as our \u003ca\u003enodeKey\u003c/a\u003e.\n (2) we get a snapshot of the state of the input graph at a particular\n     time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "getInputGraphBack",
           "package": "uni-graphs",
@@ -7994,6 +8693,7 @@
         "index": {
           "description": "Get the input graph in the form of FindCommonParents.GraphBack NB the confusion in the type variable nodeKey as used in FindCommonParents is not the same as our nodeKey we get snapshot of the state of the input graph at particular time",
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "getInputGraphBack",
           "normalized": "VersionDag a b c-\u003e(a-\u003eb-\u003ed)-\u003eIO(GraphBack a d)",
@@ -8009,6 +8709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "getNodeInfos",
           "package": "uni-graphs",
@@ -8018,6 +8719,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "getNodeInfos",
           "normalized": "VersionDag a b c-\u003eIO[b]",
@@ -8033,6 +8735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "lookupNodeKey",
           "package": "uni-graphs",
@@ -8042,6 +8745,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "lookupNodeKey",
           "normalized": "VersionDag a b c-\u003ea-\u003eIO(Maybe b)",
@@ -8057,6 +8761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "newVersionDag",
           "package": "uni-graphs",
@@ -8066,6 +8771,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "newVersionDag",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003e(a-\u003e[(c,b)])-\u003eIO(VersionDag b a c)",
@@ -8081,6 +8787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "nodeKeyExists",
           "package": "uni-graphs",
@@ -8090,6 +8797,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "nodeKeyExists",
           "normalized": "VersionDag a b c-\u003ea-\u003eIO Bool",
@@ -8106,6 +8814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the nodeInfo of something already added.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "setNodeInfo",
           "package": "uni-graphs",
@@ -8116,6 +8825,7 @@
         "index": {
           "description": "Change the nodeInfo of something already added",
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "setNodeInfo",
           "normalized": "VersionDag a b c-\u003eb-\u003eIO()",
@@ -8131,6 +8841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "toDisplayedGraph",
           "package": "uni-graphs",
@@ -8140,6 +8851,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "toDisplayedGraph",
           "normalized": "VersionDag a b c-\u003eGraphConnection(b,Bool)()(Maybe c)()",
@@ -8155,6 +8867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:20 UTC 2014",
           "module": "Graphs.VersionDag",
           "name": "toInputGraph",
           "package": "uni-graphs",
@@ -8164,6 +8877,7 @@
         },
         "index": {
           "hierarchy": "Graphs VersionDag",
+          "indexed": "2014-03-11T20:29:20",
           "module": "Graphs.VersionDag",
           "name": "toInputGraph",
           "normalized": "VersionDag a b c-\u003eGraphConnection b()c()",

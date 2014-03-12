@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PortMidi"
+        "phrase": "PortMidi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to PortMidi\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "PortMidi",
           "package": "PortMidi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interface to PortMidi",
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "PortMidi",
           "package": "PortMidi",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "DeviceID",
           "package": "PortMidi",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "DeviceID",
           "package": "PortMidi",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "DeviceInfo",
           "package": "PortMidi",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "DeviceInfo",
           "package": "PortMidi",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "PMError",
           "package": "PortMidi",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "PMError",
           "package": "PortMidi",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "PMEvent",
           "package": "PortMidi",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "PMEvent",
           "package": "PortMidi",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "PMMsg",
           "package": "PortMidi",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "PMMsg",
           "package": "PortMidi",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "PMStream",
           "package": "PortMidi",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "PMStream",
           "package": "PortMidi",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "BadData",
           "package": "PortMidi",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "BadData",
           "package": "PortMidi",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "BadPtr",
           "package": "PortMidi",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "BadPtr",
           "package": "PortMidi",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "BufferMaxSize",
           "package": "PortMidi",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "BufferMaxSize",
           "package": "PortMidi",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "BufferOverflow",
           "package": "PortMidi",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "BufferOverflow",
           "package": "PortMidi",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "BufferTooSmall",
           "package": "PortMidi",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "BufferTooSmall",
           "package": "PortMidi",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "DeviceInfo",
           "package": "PortMidi",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "DeviceInfo",
           "package": "PortMidi",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "GotData",
           "package": "PortMidi",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "GotData",
           "package": "PortMidi",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "HostError",
           "package": "PortMidi",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "HostError",
           "package": "PortMidi",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "InsufficientMemory",
           "package": "PortMidi",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "InsufficientMemory",
           "package": "PortMidi",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "InternalError",
           "package": "PortMidi",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "InternalError",
           "package": "PortMidi",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "InvalidDeviceId",
           "package": "PortMidi",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "InvalidDeviceId",
           "package": "PortMidi",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "NoError",
           "package": "PortMidi",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "NoError",
           "package": "PortMidi",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "PMEvent",
           "package": "PortMidi",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "PMEvent",
           "package": "PortMidi",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "PMMsg",
           "package": "PortMidi",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "PMMsg",
           "package": "PortMidi",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "abort",
           "package": "PortMidi",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "abort",
           "normalized": "PMStream-\u003eIO PMError",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "channel",
           "package": "PortMidi",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "channel",
           "normalized": "Int-\u003eCLong",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "close",
           "package": "PortMidi",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "close",
           "normalized": "PMStream-\u003eIO PMError",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "countDevices",
           "package": "PortMidi",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "countDevices",
           "package": "PortMidi",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "data1",
           "package": "PortMidi",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "data1",
           "package": "PortMidi",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "data2",
           "package": "PortMidi",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "data2",
           "package": "PortMidi",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "decodeMsg",
           "package": "PortMidi",
@@ -617,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "decodeMsg",
           "normalized": "CLong-\u003ePMMsg",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "encodeMsg",
           "package": "PortMidi",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "encodeMsg",
           "normalized": "PMMsg-\u003eCLong",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterActive",
           "package": "PortMidi",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterActive",
           "package": "PortMidi",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterAftertouch",
           "package": "PortMidi",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterAftertouch",
           "package": "PortMidi",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterChannelAftertouch",
           "package": "PortMidi",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterChannelAftertouch",
           "package": "PortMidi",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterClock",
           "package": "PortMidi",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterClock",
           "package": "PortMidi",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterControl",
           "package": "PortMidi",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterControl",
           "package": "PortMidi",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterFD",
           "package": "PortMidi",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterFD",
           "package": "PortMidi",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterMTC",
           "package": "PortMidi",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterMTC",
           "package": "PortMidi",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterNote",
           "package": "PortMidi",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterNote",
           "package": "PortMidi",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterPitchBend",
           "package": "PortMidi",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterPitchBend",
           "package": "PortMidi",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterPlay",
           "package": "PortMidi",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterPlay",
           "package": "PortMidi",
@@ -876,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterPolyAftertouch",
           "package": "PortMidi",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterPolyAftertouch",
           "package": "PortMidi",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterProgram",
           "package": "PortMidi",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterProgram",
           "package": "PortMidi",
@@ -920,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterRealtime",
           "package": "PortMidi",
@@ -929,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterRealtime",
           "package": "PortMidi",
@@ -942,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterReset",
           "package": "PortMidi",
@@ -951,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterReset",
           "package": "PortMidi",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterSongPosition",
           "package": "PortMidi",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterSongPosition",
           "package": "PortMidi",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterSongSelect",
           "package": "PortMidi",
@@ -995,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterSongSelect",
           "package": "PortMidi",
@@ -1008,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterSysex",
           "package": "PortMidi",
@@ -1017,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterSysex",
           "package": "PortMidi",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterSystemCommon",
           "package": "PortMidi",
@@ -1039,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterSystemCommon",
           "package": "PortMidi",
@@ -1052,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterTick",
           "package": "PortMidi",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterTick",
           "package": "PortMidi",
@@ -1074,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterTune",
           "package": "PortMidi",
@@ -1083,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterTune",
           "package": "PortMidi",
@@ -1096,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "filterUndefined",
           "package": "PortMidi",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "filterUndefined",
           "package": "PortMidi",
@@ -1118,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "getDefaultInputDeviceID",
           "package": "PortMidi",
@@ -1127,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "getDefaultInputDeviceID",
           "package": "PortMidi",
@@ -1140,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "getDefaultOutputDeviceID",
           "package": "PortMidi",
@@ -1149,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "getDefaultOutputDeviceID",
           "package": "PortMidi",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "getDeviceInfo",
           "package": "PortMidi",
@@ -1171,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "getDeviceInfo",
           "normalized": "DeviceID-\u003eIO DeviceInfo",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "getErrorText",
           "package": "PortMidi",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "getErrorText",
           "normalized": "PMError-\u003eIO String",
@@ -1210,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "hasHostError",
           "package": "PortMidi",
@@ -1219,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "hasHostError",
           "normalized": "PMStream-\u003eIO Bool",
@@ -1234,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "initialize",
           "package": "PortMidi",
@@ -1243,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "initialize",
           "package": "PortMidi",
@@ -1255,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "input",
           "package": "PortMidi",
@@ -1264,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "input",
           "package": "PortMidi",
@@ -1276,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "interface",
           "package": "PortMidi",
@@ -1285,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "interface",
           "package": "PortMidi",
@@ -1297,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "message",
           "package": "PortMidi",
@@ -1306,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "message",
           "package": "PortMidi",
@@ -1318,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "name",
           "package": "PortMidi",
@@ -1327,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "name",
           "package": "PortMidi",
@@ -1339,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "openInput",
           "package": "PortMidi",
@@ -1348,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "openInput",
           "normalized": "DeviceID-\u003eIO(Either PMStream PMError)",
@@ -1363,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "openOutput",
           "package": "PortMidi",
@@ -1372,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "openOutput",
           "normalized": "DeviceID-\u003eInt-\u003eIO(Either PMStream PMError)",
@@ -1387,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "opened",
           "package": "PortMidi",
@@ -1396,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "opened",
           "package": "PortMidi",
@@ -1408,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "output",
           "package": "PortMidi",
@@ -1417,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "output",
           "package": "PortMidi",
@@ -1429,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "readEvents",
           "package": "PortMidi",
@@ -1438,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "readEvents",
           "normalized": "PMStream-\u003eIO(Either[PMEvent]PMError)",
@@ -1453,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "setChannelMask",
           "package": "PortMidi",
@@ -1462,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "setChannelMask",
           "normalized": "PMStream-\u003eCLong-\u003eIO PMError",
@@ -1477,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "setFilter",
           "package": "PortMidi",
@@ -1486,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "setFilter",
           "normalized": "PMStream-\u003eCLong-\u003eIO PMError",
@@ -1501,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "status",
           "package": "PortMidi",
@@ -1510,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "status",
           "package": "PortMidi",
@@ -1522,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "terminate",
           "package": "PortMidi",
@@ -1531,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "terminate",
           "package": "PortMidi",
@@ -1543,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "time",
           "package": "PortMidi",
@@ -1552,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "time",
           "package": "PortMidi",
@@ -1564,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "timestamp",
           "package": "PortMidi",
@@ -1573,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "timestamp",
           "package": "PortMidi",
@@ -1585,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "writeEvents",
           "package": "PortMidi",
@@ -1594,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "writeEvents",
           "normalized": "PMStream-\u003e[PMEvent]-\u003eIO PMError",
@@ -1609,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "writeShort",
           "package": "PortMidi",
@@ -1618,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "writeShort",
           "normalized": "PMStream-\u003ePMEvent-\u003eIO PMError",
@@ -1633,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:13 UTC 2014",
           "module": "Sound.PortMidi",
           "name": "writeSysEx",
           "package": "PortMidi",
@@ -1642,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Sound PortMidi",
+          "indexed": "2014-03-11T16:57:13",
           "module": "Sound.PortMidi",
           "name": "writeSysEx",
           "normalized": "PMStream-\u003eTimestamp-\u003eString-\u003eIO PMError",

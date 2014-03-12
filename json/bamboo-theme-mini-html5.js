@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bamboo-theme-mini-html5"
+        "phrase": "bamboo-theme-mini-html5",
+        "type": "phrase"
       },
       "type": "context"
     }

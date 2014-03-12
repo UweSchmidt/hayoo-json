@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "riak"
+        "phrase": "riak",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic support for the Riak decentralized data store.\n\u003c/p\u003e\u003cp\u003eWhen storing and retrieving data, the functions in this module do\n not perform any encoding or decoding of data, nor do they resolve\n conflicts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "Basic",
           "package": "riak",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Basic support for the Riak decentralized data store When storing and retrieving data the functions in this module do not perform any encoding or decoding of data nor do they resolve conflicts",
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "Basic",
           "package": "riak",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "Client",
           "package": "riak",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "Client",
           "package": "riak",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA client identifier.  This is used by the Riak cluster when\n logging vector clock changes, and should be unique for each client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "ClientID",
           "package": "riak",
@@ -72,6 +77,7 @@
         "index": {
           "description": "client identifier This is used by the Riak cluster when logging vector clock changes and should be unique for each client",
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "ClientID",
           "package": "riak",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection to a Riak server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "Connection",
           "package": "riak",
@@ -95,6 +102,7 @@
         "index": {
           "description": "connection to Riak server",
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "Connection",
           "package": "riak",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA read/write quorum.  The quantity of replicas that must respond\n to a read or write request before it is considered successful. This\n is defined as a bucket property or as one of the relevant\n parameters to a single request (\u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eW\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eDW\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eRW\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "Quorum",
           "package": "riak",
@@ -118,6 +127,7 @@
         "index": {
           "description": "read write quorum The quantity of replicas that must respond to read or write request before it is considered successful This is defined as bucket property or as one of the relevant parameters to single request DW RW",
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "Quorum",
           "package": "riak",
@@ -504,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a value.  This may return multiple conflicting siblings.\n Choosing among them is your responsibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "get",
           "package": "riak",
@@ -514,6 +525,7 @@
         "index": {
           "description": "Retrieve value This may return multiple conflicting siblings Choosing among them is your responsibility",
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "get",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eR-\u003eIO(Maybe(Seq Content,VClock))",
@@ -736,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value.  This may return multiple conflicting\n siblings.  Choosing among them, and storing a new value, is your\n responsibility.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "put",
           "package": "riak",
@@ -746,6 +759,7 @@
         "index": {
           "description": "Store single value This may return multiple conflicting siblings Choosing among them and storing new value is your responsibility You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored",
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "put",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003eContent-\u003eW-\u003eDW-\u003eIO(Seq Content,VClock)",
@@ -761,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value, without the possibility of conflict\n resolution.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored, and you will not be notified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "put_",
           "package": "riak",
@@ -771,6 +786,7 @@
         "index": {
           "description": "Store single value without the possibility of conflict resolution You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored and you will not be notified",
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "put_",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003eContent-\u003eW-\u003eDW-\u003eIO()",
@@ -813,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell the server our client ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Basic",
           "name": "setClientID",
           "package": "riak",
@@ -823,6 +840,7 @@
         "index": {
           "description": "Tell the server our client ID",
           "hierarchy": "Network Riak Basic",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Basic",
           "name": "setClientID",
           "normalized": "Connection-\u003eClientID-\u003eIO()",
@@ -839,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA high-performance striped pooling abstraction for managing\n connections to a Riak cluster. This is a thin wrapper around\n \u003ccode\u003e\u003ca\u003ePool\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection.Pool",
           "name": "Pool",
           "package": "riak",
@@ -848,6 +867,7 @@
         "index": {
           "description": "high-performance striped pooling abstraction for managing connections to Riak cluster This is thin wrapper around Pool",
           "hierarchy": "Network Riak Connection Pool",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection.Pool",
           "name": "Pool",
           "package": "riak",
@@ -862,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pool of connections to a Riak server.\n\u003c/p\u003e\u003cp\u003eThis pool is \"striped\", i.e. it consists of several sub-pools\n that are managed independently.\n\u003c/p\u003e\u003cp\u003eThe total number of connections that can possibly be open at once\n is \u003ccode\u003e\u003ca\u003emaxConnections\u003c/a\u003e\u003c/code\u003e * \u003ccode\u003e\u003ca\u003enumStripes\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection.Pool",
           "name": "Pool",
           "package": "riak",
@@ -871,6 +892,7 @@
         "index": {
           "description": "pool of connections to Riak server This pool is striped i.e it consists of several sub-pools that are managed independently The total number of connections that can possibly be open at once is maxConnections numStripes",
           "hierarchy": "Network Riak Connection Pool",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection.Pool",
           "name": "Pool",
           "package": "riak",
@@ -885,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient specification.  The client ID is ignored, and always\n regenerated automatically for each new connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection.Pool",
           "name": "client",
           "package": "riak",
@@ -895,6 +918,7 @@
         "index": {
           "description": "Client specification The client ID is ignored and always regenerated automatically for each new connection",
           "hierarchy": "Network Riak Connection Pool",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection.Pool",
           "name": "client",
           "normalized": "Pool-\u003eClient",
@@ -910,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new connection pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection.Pool",
           "name": "create",
           "package": "riak",
@@ -919,6 +944,7 @@
         "index": {
           "description": "Create new connection pool",
           "hierarchy": "Network Riak Connection Pool",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection.Pool",
           "name": "create",
           "normalized": "Client-\u003eInt-\u003eNominalDiffTime-\u003eInt-\u003eIO Pool",
@@ -934,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmount of time for which an unused connection is kept open.  The\n smallest acceptable value is 0.5 seconds.\n\u003c/p\u003e\u003cp\u003eThe elapsed time before closing may be a little longer than\n requested, as the reaper thread wakes at 1-second intervals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection.Pool",
           "name": "idleTime",
           "package": "riak",
@@ -944,6 +971,7 @@
         "index": {
           "description": "Amount of time for which an unused connection is kept open The smallest acceptable value is seconds The elapsed time before closing may be little longer than requested as the reaper thread wakes at second intervals",
           "hierarchy": "Network Riak Connection Pool",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection.Pool",
           "name": "idleTime",
           "normalized": "Pool-\u003eNominalDiffTime",
@@ -960,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of connections to keep open per stripe.  The\n smallest acceptable value is 1.\n\u003c/p\u003e\u003cp\u003eRequests for connections will block if this limit is reached on a\n single stripe, even if other stripes have idle connections\n available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection.Pool",
           "name": "maxConnections",
           "package": "riak",
@@ -970,6 +999,7 @@
         "index": {
           "description": "Maximum number of connections to keep open per stripe The smallest acceptable value is Requests for connections will block if this limit is reached on single stripe even if other stripes have idle connections available",
           "hierarchy": "Network Riak Connection Pool",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection.Pool",
           "name": "maxConnections",
           "normalized": "Pool-\u003eInt",
@@ -986,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStripe count.  The number of distinct sub-pools to maintain.  The\n smallest acceptable value is 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection.Pool",
           "name": "numStripes",
           "package": "riak",
@@ -996,6 +1027,7 @@
         "index": {
           "description": "Stripe count The number of distinct sub-pools to maintain The smallest acceptable value is",
           "hierarchy": "Network Riak Connection Pool",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection.Pool",
           "name": "numStripes",
           "normalized": "Pool-\u003eInt",
@@ -1012,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporarily take a connection from a \u003ccode\u003e\u003ca\u003ePool\u003c/a\u003e\u003c/code\u003e, perform an action\n with it, and return it to the pool afterwards.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the pool has a connection available, it is used\n   immediately.\n\u003c/li\u003e\u003cli\u003e Otherwise, if the maximum number of connections has not been\n   reached, a new connection is created and used.\n\u003c/li\u003e\u003cli\u003e If the maximum number of connections has been reached, this\n   function blocks until a connection becomes available, then that\n   connection is used.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf the action throws an exception of any type, the \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e is\n destroyed, and not returned to the pool.\n\u003c/p\u003e\u003cp\u003eIt probably goes without saying that you should never call\n \u003ccode\u003e\u003ca\u003edisconnect\u003c/a\u003e\u003c/code\u003e on a connection, as doing so will cause a subsequent\n user (who expects the connection to be valid) to throw an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection.Pool",
           "name": "withConnection",
           "package": "riak",
@@ -1022,6 +1055,7 @@
         "index": {
           "description": "Temporarily take connection from Pool perform an action with it and return it to the pool afterwards If the pool has connection available it is used immediately Otherwise if the maximum number of connections has not been reached new connection is created and used If the maximum number of connections has been reached this function blocks until connection becomes available then that connection is used If the action throws an exception of any type the Connection is destroyed and not returned to the pool It probably goes without saying that you should never call disconnect on connection as doing so will cause subsequent user who expects the connection to be valid to throw an exception",
           "hierarchy": "Network Riak Connection Pool",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection.Pool",
           "name": "withConnection",
           "normalized": "Pool-\u003e(Connection-\u003eIO a)-\u003eIO a",
@@ -1038,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level network connection management.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection",
           "name": "Connection",
           "package": "riak",
@@ -1047,6 +1082,7 @@
         "index": {
           "description": "Low-level network connection management",
           "hierarchy": "Network Riak Connection",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection",
           "name": "Connection",
           "package": "riak",
@@ -1061,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a request to the server, and receive its response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection",
           "name": "exchange",
           "package": "riak",
@@ -1071,6 +1108,7 @@
         "index": {
           "description": "Send request to the server and receive its response",
           "hierarchy": "Network Riak Connection",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection",
           "name": "exchange",
           "normalized": "Connection-\u003ea-\u003eIO b",
@@ -1086,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a request to the server, and receive its response (which may\n be empty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection",
           "name": "exchangeMaybe",
           "package": "riak",
@@ -1096,6 +1135,7 @@
         "index": {
           "description": "Send request to the server and receive its response which may be empty",
           "hierarchy": "Network Riak Connection",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection",
           "name": "exchangeMaybe",
           "normalized": "Connection-\u003ea-\u003eIO(Maybe b)",
@@ -1112,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a request to the server, and receive its response, but do\n not decode it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection",
           "name": "exchange_",
           "package": "riak",
@@ -1122,6 +1163,7 @@
         "index": {
           "description": "Send request to the server and receive its response but do not decode it",
           "hierarchy": "Network Riak Connection",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection",
           "name": "exchange_",
           "normalized": "Connection-\u003ea-\u003eIO()",
@@ -1137,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random client ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection",
           "name": "makeClientID",
           "package": "riak",
@@ -1147,6 +1190,7 @@
         "index": {
           "description": "Generate random client ID",
           "hierarchy": "Network Riak Connection",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection",
           "name": "makeClientID",
           "package": "riak",
@@ -1161,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a series of requests to the server, back to back, and\n receive a response for each request sent.  The sending and\n receiving will be overlapped if possible, to improve concurrency\n and reduce latency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection",
           "name": "pipeline",
           "package": "riak",
@@ -1171,6 +1216,7 @@
         "index": {
           "description": "Send series of requests to the server back to back and receive response for each request sent The sending and receiving will be overlapped if possible to improve concurrency and reduce latency",
           "hierarchy": "Network Riak Connection",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection",
           "name": "pipeline",
           "normalized": "Connection-\u003e[a]-\u003eIO[b]",
@@ -1186,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a series of requests to the server, back to back, and\n receive a response for each request sent (the responses may be\n empty).  The sending and receiving will be overlapped if possible,\n to improve concurrency and reduce latency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection",
           "name": "pipelineMaybe",
           "package": "riak",
@@ -1196,6 +1243,7 @@
         "index": {
           "description": "Send series of requests to the server back to back and receive response for each request sent the responses may be empty The sending and receiving will be overlapped if possible to improve concurrency and reduce latency",
           "hierarchy": "Network Riak Connection",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection",
           "name": "pipelineMaybe",
           "normalized": "Connection-\u003e[a]-\u003eIO[Maybe b]",
@@ -1212,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a series of requests to the server, back to back, and\n receive (but do not decode) a response for each request sent.  The\n sending and receiving will be overlapped if possible, to improve\n concurrency and reduce latency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Connection",
           "name": "pipeline_",
           "package": "riak",
@@ -1222,6 +1271,7 @@
         "index": {
           "description": "Send series of requests to the server back to back and receive but do not decode response for each request sent The sending and receiving will be overlapped if possible to improve concurrency and reduce latency",
           "hierarchy": "Network Riak Connection",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Connection",
           "name": "pipeline_",
           "normalized": "Connection-\u003e[a]-\u003eIO()",
@@ -1237,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level content and link types and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "Content",
           "package": "riak",
@@ -1246,6 +1297,7 @@
         "index": {
           "description": "Low-level content and link types and functions",
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "Content",
           "package": "riak",
@@ -1259,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "Content",
           "package": "riak",
@@ -1266,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "Content",
           "package": "riak",
@@ -1279,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "Link",
           "package": "riak",
@@ -1286,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "Link",
           "package": "riak",
@@ -1299,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "Content",
           "package": "riak",
@@ -1307,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "Content",
           "package": "riak",
@@ -1320,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "Link",
           "package": "riak",
@@ -1328,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "Link",
           "package": "riak",
@@ -1342,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent encoded as \u003ccode\u003eapplication/octet-stream\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "binary",
           "package": "riak",
@@ -1352,6 +1413,7 @@
         "index": {
           "description": "Content encoded as application octet-stream",
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "binary",
           "normalized": "ByteString-\u003eContent",
@@ -1366,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "bucket",
           "package": "riak",
@@ -1374,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "bucket",
           "package": "riak",
@@ -1386,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "charset",
           "package": "riak",
@@ -1394,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "charset",
           "package": "riak",
@@ -1406,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "content_encoding",
           "package": "riak",
@@ -1414,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "content_encoding",
           "package": "riak",
@@ -1426,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "content_type",
           "package": "riak",
@@ -1434,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "content_type",
           "package": "riak",
@@ -1447,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty piece of content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "empty",
           "package": "riak",
@@ -1457,6 +1528,7 @@
         "index": {
           "description": "An empty piece of content",
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "empty",
           "package": "riak",
@@ -1469,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "indexes",
           "package": "riak",
@@ -1477,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "indexes",
           "package": "riak",
@@ -1490,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent encoded as \u003ccode\u003eapplication/json\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "json",
           "package": "riak",
@@ -1500,6 +1575,7 @@
         "index": {
           "description": "Content encoded as application json",
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "json",
           "normalized": "a-\u003eContent",
@@ -1514,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "key",
           "package": "riak",
@@ -1522,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "key",
           "package": "riak",
@@ -1534,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "last_mod",
           "package": "riak",
@@ -1542,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "last_mod",
           "package": "riak",
@@ -1554,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "last_mod_usecs",
           "package": "riak",
@@ -1562,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "last_mod_usecs",
           "package": "riak",
@@ -1575,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "link",
           "package": "riak",
@@ -1585,6 +1668,7 @@
         "index": {
           "description": "Create link",
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "link",
           "normalized": "Bucket-\u003eKey-\u003eTag-\u003eLink",
@@ -1599,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "links",
           "package": "riak",
@@ -1607,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "links",
           "package": "riak",
@@ -1619,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "tag",
           "package": "riak",
@@ -1627,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "tag",
           "package": "riak",
@@ -1639,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "usermeta",
           "package": "riak",
@@ -1647,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "usermeta",
           "package": "riak",
@@ -1659,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "value",
           "package": "riak",
@@ -1667,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "value",
           "package": "riak",
@@ -1679,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Content",
           "name": "vtag",
           "package": "riak",
@@ -1687,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Content",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Content",
           "name": "vtag",
           "package": "riak",
@@ -1700,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for debug logging.  The code in this package only works if\n the package was built with the \u003ccode\u003e-fdebug\u003c/code\u003e flag.  Otherwise, they are\n all no-ops.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Debug",
           "name": "Debug",
           "package": "riak",
@@ -1709,6 +1804,7 @@
         "index": {
           "description": "Support for debug logging The code in this package only works if the package was built with the fdebug flag Otherwise they are all no-ops",
           "hierarchy": "Network Riak Debug",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Debug",
           "name": "Debug",
           "package": "riak",
@@ -1723,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a debug message, if debugging is enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Debug",
           "name": "debug",
           "package": "riak",
@@ -1732,6 +1829,7 @@
         "index": {
           "description": "Print debug message if debugging is enabled",
           "hierarchy": "Network Riak Debug",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Debug",
           "name": "debug",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -1747,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a debug message, and information about some values.  If the\n debug level is greater than 1, print the values themselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Debug",
           "name": "debugValues",
           "package": "riak",
@@ -1757,6 +1856,7 @@
         "index": {
           "description": "Print debug message and information about some values If the debug level is greater than print the values themselves",
           "hierarchy": "Network Riak Debug",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Debug",
           "name": "debugValues",
           "normalized": "String-\u003eString-\u003e[a]-\u003eIO()",
@@ -1773,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current debugging level.  This is established once by reading\n the \u003ccode\u003eRIAK_DEBUG\u003c/code\u003e environment variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Debug",
           "name": "level",
           "package": "riak",
@@ -1783,6 +1884,7 @@
         "index": {
           "description": "The current debugging level This is established once by reading the RIAK DEBUG environment variable",
           "hierarchy": "Network Riak Debug",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Debug",
           "name": "level",
           "package": "riak",
@@ -1796,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e to log to (\u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e is the default).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Debug",
           "name": "setHandle",
           "package": "riak",
@@ -1806,6 +1909,7 @@
         "index": {
           "description": "Set the Handle to log to stderr is the default",
           "hierarchy": "Network Riak Debug",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Debug",
           "name": "setHandle",
           "normalized": "Handle-\u003eIO()",
@@ -1822,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a \u003ccode\u003e\u003ca\u003eTagged\u003c/a\u003e\u003c/code\u003e value.  Show the entire value if the debug level\n is above 1, just the tag otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Debug",
           "name": "showM",
           "package": "riak",
@@ -1832,6 +1937,7 @@
         "index": {
           "description": "Show Tagged value Show the entire value if the debug level is above just the tag otherwise",
           "hierarchy": "Network Riak Debug",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Debug",
           "name": "showM",
           "normalized": "a-\u003eString",
@@ -1847,6 +1953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for REST-safe name handling.\n\u003c/p\u003e\u003cp\u003eRiak's protocol buffer (PBC) API will accept unescaped bucket,\n link, and key names.  Its REST API does not unescape names, so it\n is possible to use the PBC API to construct names that cannot be\n accessed via the REST API (e.g. containing an embedded slash or\n other URL-unsafe octet).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Escape",
           "name": "Escape",
           "package": "riak",
@@ -1856,6 +1963,7 @@
         "index": {
           "description": "Support for REST-safe name handling Riak protocol buffer PBC API will accept unescaped bucket link and key names Its REST API does not unescape names so it is possible to use the PBC API to construct names that cannot be accessed via the REST API e.g containing an embedded slash or other URL-unsafe octet",
           "hierarchy": "Network Riak Escape",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Escape",
           "name": "Escape",
           "package": "riak",
@@ -1870,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of string-like types that can be URL-escaped and\n unescaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Escape",
           "name": "Escape",
           "package": "riak",
@@ -1879,6 +1988,7 @@
         "index": {
           "description": "The class of string-like types that can be URL-escaped and unescaped",
           "hierarchy": "Network Riak Escape",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Escape",
           "name": "Escape",
           "package": "riak",
@@ -1893,6 +2003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL-escape a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Escape",
           "name": "escape",
           "package": "riak",
@@ -1903,6 +2014,7 @@
         "index": {
           "description": "URL-escape string",
           "hierarchy": "Network Riak Escape",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Escape",
           "name": "escape",
           "normalized": "a-\u003eByteString",
@@ -1918,6 +2030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL-unescape a string that is presumed to be properly escaped.\n If the string is invalid, an error will be thrown that cannot be\n caught from pure code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Escape",
           "name": "unescape",
           "package": "riak",
@@ -1928,6 +2041,7 @@
         "index": {
           "description": "URL-unescape string that is presumed to be properly escaped If the string is invalid an error will be thrown that cannot be caught from pure code",
           "hierarchy": "Network Riak Escape",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Escape",
           "name": "unescape",
           "normalized": "ByteString-\u003ea",
@@ -1943,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL-unescape a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Escape",
           "name": "unescape'",
           "package": "riak",
@@ -1953,6 +2068,7 @@
         "index": {
           "description": "URL-unescape string",
           "hierarchy": "Network Riak Escape",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Escape",
           "name": "unescape'",
           "normalized": "ByteString-\u003eEither String a",
@@ -1968,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseful functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Functions",
           "name": "Functions",
           "package": "riak",
@@ -1977,6 +2094,7 @@
         "index": {
           "description": "Useful functions",
           "hierarchy": "Network Riak Functions",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Functions",
           "name": "Functions",
           "package": "riak",
@@ -1990,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Functions",
           "name": "lazy",
           "package": "riak",
@@ -1999,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Functions",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Functions",
           "name": "lazy",
           "normalized": "ByteString-\u003eByteString",
@@ -2013,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Functions",
           "name": "mapEither",
           "package": "riak",
@@ -2022,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Functions",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Functions",
           "name": "mapEither",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eEither a c-\u003eEither b d",
@@ -2037,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Functions",
           "name": "strict",
           "package": "riak",
@@ -2046,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Functions",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Functions",
           "name": "strict",
           "normalized": "ByteString-\u003eByteString",
@@ -2061,6 +2185,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows storage and retrieval of JSON-encoded data.\n\u003c/p\u003e\u003cp\u003eFunctions automatically resolve conflicts using \u003ccode\u003e\u003ca\u003eResolvable\u003c/a\u003e\u003c/code\u003e\n instances.  For instance, if a \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e returns three siblings, a\n winner will be chosen using \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e.  If a \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e results in a\n conflict, a winner will be chosen using \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e, and the winner\n will be \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e; this will be repeated until either no conflict\n occurs or the process has been repeated too many times.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -2070,6 +2195,7 @@
         "index": {
           "description": "This module allows storage and retrieval of JSON-encoded data Functions automatically resolve conflicts using Resolvable instances For instance if get returns three siblings winner will be chosen using resolve If put results in conflict winner will be chosen using resolve and the winner will be put this will be repeated until either no conflict occurs or the process has been repeated too many times",
           "hierarchy": "Network Riak JSON Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -2084,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomated conflict resolution failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "ResolutionFailure",
           "package": "riak",
@@ -2093,6 +2220,7 @@
         "index": {
           "description": "Automated conflict resolution failed",
           "hierarchy": "Network Riak JSON Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "ResolutionFailure",
           "package": "riak",
@@ -2107,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can automatically resolve a vector clock conflict\n between two or more versions of a value.\n\u003c/p\u003e\u003cp\u003eInstances must be symmetric in their behaviour, such that the\n following law is obeyed:\n\u003c/p\u003e\u003cpre\u003e resolve a b == resolve b a\n\u003c/pre\u003e\u003cp\u003eOtherwise, there are no restrictions on the behaviour of \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e.\n The result may be \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e, a value derived from \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e, or\n something else.\n\u003c/p\u003e\u003cp\u003eIf several conflicting siblings are found, \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e will be\n applied over all of them using a fold, to yield a single\n \"winner\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -2116,6 +2245,7 @@
         "index": {
           "description": "type that can automatically resolve vector clock conflict between two or more versions of value Instances must be symmetric in their behaviour such that the following law is obeyed resolve resolve Otherwise there are no restrictions on the behaviour of resolve The result may be value derived from and or something else If several conflicting siblings are found resolve will be applied over all of them using fold to yield single winner",
           "hierarchy": "Network Riak JSON Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -2312,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore multiple values, resolving any vector clock conflicts that\n arise.  A single invocation of this function may involve several\n roundtrips to the server to resolve conflicts.\n\u003c/p\u003e\u003cp\u003eIf any conflicts arise, a winner will be chosen in each case using\n \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e, and the winners will be stored; this will be repeated\n until either no conflicts occur or a (fairly large) number of\n retries has been attempted without success.\n\u003c/p\u003e\u003cp\u003eIf this function gives up due to apparently being stuck in a loop,\n it will throw a \u003ccode\u003e\u003ca\u003eResolutionFailure\u003c/a\u003e\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "putMany_",
           "package": "riak",
@@ -2322,6 +2453,7 @@
         "index": {
           "description": "Store multiple values resolving any vector clock conflicts that arise single invocation of this function may involve several roundtrips to the server to resolve conflicts If any conflicts arise winner will be chosen in each case using resolve and the winners will be stored this will be repeated until either no conflicts occur or fairly large number of retries has been attempted without success If this function gives up due to apparently being stuck in loop it will throw ResolutionFailure exception",
           "hierarchy": "Network Riak JSON Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "putMany_",
           "normalized": "Connection-\u003eBucket-\u003e[(Key,Maybe VClock,a)]-\u003eW-\u003eDW-\u003eIO()",
@@ -2338,6 +2470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value, automatically resolving any vector clock\n conflicts that arise.  A single invocation of this function may\n involve several roundtrips to the server to resolve conflicts.\n\u003c/p\u003e\u003cp\u003eIf a conflict arises, a winner will be chosen using \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e, and\n the winner will be stored; this will be repeated until no conflict\n occurs or a (fairly large) number of retries has been attempted\n without success.\n\u003c/p\u003e\u003cp\u003eIf this function gives up due to apparently being stuck in a\n conflict resolution loop, it will throw a \u003ccode\u003e\u003ca\u003eResolutionFailure\u003c/a\u003e\u003c/code\u003e\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "put_",
           "package": "riak",
@@ -2348,6 +2481,7 @@
         "index": {
           "description": "Store single value automatically resolving any vector clock conflicts that arise single invocation of this function may involve several roundtrips to the server to resolve conflicts If conflict arises winner will be chosen using resolve and the winner will be stored this will be repeated until no conflict occurs or fairly large number of retries has been attempted without success If this function gives up due to apparently being stuck in conflict resolution loop it will throw ResolutionFailure exception",
           "hierarchy": "Network Riak JSON Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "put_",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003ea-\u003eW-\u003eDW-\u003eIO()",
@@ -2363,6 +2497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve a conflict between two values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "resolve",
           "package": "riak",
@@ -2373,6 +2508,7 @@
         "index": {
           "description": "Resolve conflict between two values",
           "hierarchy": "Network Riak JSON Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON.Resolvable",
           "name": "resolve",
           "normalized": "a-\u003ea-\u003ea",
@@ -2388,6 +2524,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows storage and retrieval of JSON-encoded data.\n\u003c/p\u003e\u003cp\u003eThe functions in this module do not perform any conflict resolution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "JSON",
           "package": "riak",
@@ -2397,6 +2534,7 @@
         "index": {
           "description": "This module allows storage and retrieval of JSON-encoded data The functions in this module do not perform any conflict resolution",
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "JSON",
           "package": "riak",
@@ -2410,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "JSON",
           "package": "riak",
@@ -2418,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "JSON",
           "package": "riak",
@@ -2432,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a value.  This may return multiple conflicting siblings.\n Choosing among them is your responsibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "get",
           "package": "riak",
@@ -2442,6 +2583,7 @@
         "index": {
           "description": "Retrieve value This may return multiple conflicting siblings Choosing among them is your responsibility",
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "get",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eR-\u003eIO(Maybe([a],VClock))",
@@ -2456,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "getMany",
           "package": "riak",
@@ -2465,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "getMany",
           "normalized": "Connection-\u003eBucket-\u003e[Key]-\u003eR-\u003eIO[Maybe([a],VClock)]",
@@ -2481,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a value so that it will be encoded and decoded as JSON\n when converted to/from \u003ccode\u003eContent\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "json",
           "package": "riak",
@@ -2491,6 +2636,7 @@
         "index": {
           "description": "Wrap up value so that it will be encoded and decoded as JSON when converted to from Content",
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "json",
           "normalized": "a-\u003eJSON a",
@@ -2506,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a \u003ccode\u003e\u003ca\u003eJSON\u003c/a\u003e\u003c/code\u003e-wrapped value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "plain",
           "package": "riak",
@@ -2516,6 +2663,7 @@
         "index": {
           "description": "Unwrap JSON wrapped value",
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "plain",
           "normalized": "JSON a-\u003ea",
@@ -2531,6 +2679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value.  This may return multiple conflicting\n siblings.  Choosing among them, and storing a new value, is your\n responsibility.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "put",
           "package": "riak",
@@ -2541,6 +2690,7 @@
         "index": {
           "description": "Store single value This may return multiple conflicting siblings Choosing among them and storing new value is your responsibility You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored",
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "put",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003ea-\u003eW-\u003eDW-\u003eIO([a],VClock)",
@@ -2556,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore many values.  This may return multiple conflicting siblings\n for each value stored.  Choosing among them, and storing a new\n value in each case, is your responsibility.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "putMany",
           "package": "riak",
@@ -2566,6 +2717,7 @@
         "index": {
           "description": "Store many values This may return multiple conflicting siblings for each value stored Choosing among them and storing new value in each case is your responsibility You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored",
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "putMany",
           "normalized": "Connection-\u003eBucket-\u003e[(Key,Maybe VClock,a)]-\u003eW-\u003eDW-\u003eIO[([a],VClock)]",
@@ -2582,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore many values, without the possibility of conflict\n resolution.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored, and you will not be notified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "putMany_",
           "package": "riak",
@@ -2592,6 +2745,7 @@
         "index": {
           "description": "Store many values without the possibility of conflict resolution You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored and you will not be notified",
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "putMany_",
           "normalized": "Connection-\u003eBucket-\u003e[(Key,Maybe VClock,a)]-\u003eW-\u003eDW-\u003eIO()",
@@ -2608,6 +2762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value, without the possibility of conflict\n resolution.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored, and you will not be notified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.JSON",
           "name": "put_",
           "package": "riak",
@@ -2618,6 +2773,7 @@
         "index": {
           "description": "Store single value without the possibility of conflict resolution You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored and you will not be notified",
           "hierarchy": "Network Riak JSON",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.JSON",
           "name": "put_",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003ea-\u003eW-\u003eDW-\u003eIO()",
@@ -2633,6 +2789,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSmart constructors for Riak types.  These functions correctly\n URL-escape bucket, key, and link names.  You should thus use them\n in preference to the raw data constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "Request",
           "package": "riak",
@@ -2642,6 +2799,7 @@
         "index": {
           "description": "Smart constructors for Riak types These functions correctly URL-escape bucket key and link names You should thus use them in preference to the raw data constructors",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "Request",
           "package": "riak",
@@ -2655,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "DeleteRequest",
           "package": "riak",
@@ -2662,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "DeleteRequest",
           "package": "riak",
@@ -2675,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "GetBucketRequest",
           "package": "riak",
@@ -2682,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "GetBucketRequest",
           "package": "riak",
@@ -2695,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "GetClientIDRequest",
           "package": "riak",
@@ -2702,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "GetClientIDRequest",
           "package": "riak",
@@ -2715,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "GetRequest",
           "package": "riak",
@@ -2722,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "GetRequest",
           "package": "riak",
@@ -2735,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "GetServerInfoRequest",
           "package": "riak",
@@ -2742,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "GetServerInfoRequest",
           "package": "riak",
@@ -2755,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "Link",
           "package": "riak",
@@ -2762,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "Link",
           "package": "riak",
@@ -2775,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "ListBucketsRequest",
           "package": "riak",
@@ -2782,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "ListBucketsRequest",
           "package": "riak",
@@ -2795,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "ListKeysRequest",
           "package": "riak",
@@ -2802,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "ListKeysRequest",
           "package": "riak",
@@ -2815,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "MapReduceRequest",
           "package": "riak",
@@ -2822,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "MapReduceRequest",
           "package": "riak",
@@ -2835,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "PingRequest",
           "package": "riak",
@@ -2842,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "PingRequest",
           "package": "riak",
@@ -2855,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "PutRequest",
           "package": "riak",
@@ -2862,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "PutRequest",
           "package": "riak",
@@ -2875,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "SetBucketRequest",
           "package": "riak",
@@ -2882,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "SetBucketRequest",
           "package": "riak",
@@ -2896,6 +3078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a delete request.  The bucket and key names are URL-escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "delete",
           "package": "riak",
@@ -2906,6 +3089,7 @@
         "index": {
           "description": "Create delete request The bucket and key names are URL-escaped",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "delete",
           "normalized": "Bucket-\u003eKey-\u003eRW-\u003eDeleteRequest",
@@ -2921,6 +3105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a get request.  The bucket and key names are URL-escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "get",
           "package": "riak",
@@ -2931,6 +3116,7 @@
         "index": {
           "description": "Create get request The bucket and key names are URL-escaped",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "get",
           "normalized": "Bucket-\u003eKey-\u003eR-\u003eGetRequest",
@@ -2946,6 +3132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a get-bucket request.  The bucket name is URL-escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "getBucket",
           "package": "riak",
@@ -2956,6 +3143,7 @@
         "index": {
           "description": "Create get-bucket request The bucket name is URL-escaped",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "getBucket",
           "normalized": "Bucket-\u003eGetBucketRequest",
@@ -2972,6 +3160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a client-ID request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "getClientID",
           "package": "riak",
@@ -2982,6 +3171,7 @@
         "index": {
           "description": "Create client-ID request",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "getClientID",
           "package": "riak",
@@ -2996,6 +3186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a server-info request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "getServerInfo",
           "package": "riak",
@@ -3006,6 +3197,7 @@
         "index": {
           "description": "Create server-info request",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "getServerInfo",
           "package": "riak",
@@ -3020,6 +3212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a link.  The bucket and key names are URL-escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "link",
           "package": "riak",
@@ -3030,6 +3223,7 @@
         "index": {
           "description": "Create link The bucket and key names are URL-escaped",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "link",
           "normalized": "Bucket-\u003eKey-\u003eTag-\u003eLink",
@@ -3045,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list-buckets request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "listBuckets",
           "package": "riak",
@@ -3055,6 +3250,7 @@
         "index": {
           "description": "Create list-buckets request",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "listBuckets",
           "package": "riak",
@@ -3069,6 +3265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list-keys request.  The bucket name is URL-escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "listKeys",
           "package": "riak",
@@ -3079,6 +3276,7 @@
         "index": {
           "description": "Create list-keys request The bucket name is URL-escaped",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "listKeys",
           "normalized": "Bucket-\u003eListKeysRequest",
@@ -3095,6 +3293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a map-reduce request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "mapReduce",
           "package": "riak",
@@ -3105,6 +3304,7 @@
         "index": {
           "description": "Create map-reduce request",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "mapReduce",
           "normalized": "Job-\u003eMapReduceRequest",
@@ -3121,6 +3321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a ping request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "ping",
           "package": "riak",
@@ -3131,6 +3332,7 @@
         "index": {
           "description": "Create ping request",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "ping",
           "package": "riak",
@@ -3144,6 +3346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a put request.  The bucket and key names are URL-escaped.\n Any \u003ccode\u003eLink\u003c/code\u003e values inside the \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e are assumed to have been\n constructed with the \u003ccode\u003e\u003ca\u003elink\u003c/a\u003e\u003c/code\u003e function, and hence \u003cem\u003enot\u003c/em\u003e escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "put",
           "package": "riak",
@@ -3154,6 +3357,7 @@
         "index": {
           "description": "Create put request The bucket and key names are URL-escaped Any Link values inside the Content are assumed to have been constructed with the link function and hence not escaped",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "put",
           "normalized": "Bucket-\u003eKey-\u003eMaybe VClock-\u003eContent-\u003eW-\u003eDW-\u003eBool-\u003ePutRequest",
@@ -3169,6 +3373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a set-bucket request.  The bucket name is URL-escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Request",
           "name": "setBucket",
           "package": "riak",
@@ -3179,6 +3384,7 @@
         "index": {
           "description": "Create set-bucket request The bucket name is URL-escaped",
           "hierarchy": "Network Riak Request",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Request",
           "name": "setBucket",
           "normalized": "Bucket-\u003eBucketProps-\u003eSetBucketRequest",
@@ -3195,6 +3401,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStorage and retrieval of data with automatic conflict resolution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -3204,6 +3411,7 @@
         "index": {
           "description": "Storage and retrieval of data with automatic conflict resolution",
           "hierarchy": "Network Riak Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -3218,6 +3426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomated conflict resolution failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Resolvable",
           "name": "ResolutionFailure",
           "package": "riak",
@@ -3227,6 +3436,7 @@
         "index": {
           "description": "Automated conflict resolution failed",
           "hierarchy": "Network Riak Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Resolvable",
           "name": "ResolutionFailure",
           "package": "riak",
@@ -3241,6 +3451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can automatically resolve a vector clock conflict\n between two or more versions of a value.\n\u003c/p\u003e\u003cp\u003eInstances must be symmetric in their behaviour, such that the\n following law is obeyed:\n\u003c/p\u003e\u003cpre\u003e resolve a b == resolve b a\n\u003c/pre\u003e\u003cp\u003eOtherwise, there are no restrictions on the behaviour of \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e.\n The result may be \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e, a value derived from \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e, or\n something else.\n\u003c/p\u003e\u003cp\u003eIf several conflicting siblings are found, \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e will be\n applied over all of them using a fold, to yield a single\n \"winner\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -3250,6 +3461,7 @@
         "index": {
           "description": "type that can automatically resolve vector clock conflict between two or more versions of value Instances must be symmetric in their behaviour such that the following law is obeyed resolve resolve Otherwise there are no restrictions on the behaviour of resolve The result may be value derived from and or something else If several conflicting siblings are found resolve will be applied over all of them using fold to yield single winner",
           "hierarchy": "Network Riak Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -3264,6 +3476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper that uses the \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e method of a type's\n \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance to perform vector clock conflict resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Resolvable",
           "name": "ResolvableMonoid",
           "package": "riak",
@@ -3273,6 +3486,7 @@
         "index": {
           "description": "newtype wrapper that uses the mappend method of type Monoid instance to perform vector clock conflict resolution",
           "hierarchy": "Network Riak Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Resolvable",
           "name": "ResolvableMonoid",
           "package": "riak",
@@ -3286,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Resolvable",
           "name": "RM",
           "package": "riak",
@@ -3295,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Resolvable",
           "name": "RM",
           "package": "riak",
@@ -3309,6 +3525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve a conflict between two values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Resolvable",
           "name": "resolve",
           "package": "riak",
@@ -3319,6 +3536,7 @@
         "index": {
           "description": "Resolve conflict between two values",
           "hierarchy": "Network Riak Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Resolvable",
           "name": "resolve",
           "normalized": "a-\u003ea-\u003ea",
@@ -3333,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Resolvable",
           "name": "unRM",
           "package": "riak",
@@ -3342,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Resolvable",
           "name": "unRM",
           "package": "riak",
@@ -3356,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSmart deconstructors for Riak types.  These functions correctly\n URL-unescape bucket, key, and link names.  You should thus use them\n in preference to direct pattern matching against raw data\n constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Response",
           "name": "Response",
           "package": "riak",
@@ -3365,6 +3586,7 @@
         "index": {
           "description": "Smart deconstructors for Riak types These functions correctly URL-unescape bucket key and link names You should thus use them in preference to direct pattern matching against raw data constructors",
           "hierarchy": "Network Riak Response",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Response",
           "name": "Response",
           "package": "riak",
@@ -3379,6 +3601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a get response.  Bucket and key names in links are\n URL-unescaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Response",
           "name": "get",
           "package": "riak",
@@ -3389,6 +3612,7 @@
         "index": {
           "description": "Construct get response Bucket and key names in links are URL-unescaped",
           "hierarchy": "Network Riak Response",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Response",
           "name": "get",
           "normalized": "Maybe GetResponse-\u003eMaybe(Seq Content,VClock)",
@@ -3403,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Response",
           "name": "getBucket",
           "package": "riak",
@@ -3412,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Response",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Response",
           "name": "getBucket",
           "normalized": "GetBucketResponse-\u003eBucketProps",
@@ -3427,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Response",
           "name": "getClientID",
           "package": "riak",
@@ -3436,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Response",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Response",
           "name": "getClientID",
           "normalized": "GetClientIDResponse-\u003eClientID",
@@ -3452,6 +3680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a list-buckets response.  Bucket names are unescaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Response",
           "name": "listBuckets",
           "package": "riak",
@@ -3462,6 +3691,7 @@
         "index": {
           "description": "Construct list-buckets response Bucket names are unescaped",
           "hierarchy": "Network Riak Response",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Response",
           "name": "listBuckets",
           "normalized": "ListBucketsResponse-\u003eSeq Bucket",
@@ -3478,6 +3708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a put response.  Bucket and key names in links are\n URL-unescaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Response",
           "name": "put",
           "package": "riak",
@@ -3488,6 +3719,7 @@
         "index": {
           "description": "Construct put response Bucket and key names in links are URL-unescaped",
           "hierarchy": "Network Riak Response",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Response",
           "name": "put",
           "normalized": "PutResponse-\u003e(Seq Content,VClock)",
@@ -3503,6 +3735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL-unescape the names of keys and buckets in the links of a\n \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Response",
           "name": "unescapeLinks",
           "package": "riak",
@@ -3513,6 +3746,7 @@
         "index": {
           "description": "URL-unescape the names of keys and buckets in the links of Content value",
           "hierarchy": "Network Riak Response",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Response",
           "name": "unescapeLinks",
           "normalized": "Content-\u003eContent",
@@ -3529,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Types",
           "package": "riak",
@@ -3538,6 +3773,7 @@
         "index": {
           "description": "Basic types",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Types",
           "package": "riak",
@@ -3552,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bucket is a container and keyspace for data stored in Riak,\n with a set of common properties for its contents (the number of\n replicas, for instance).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Bucket",
           "package": "riak",
@@ -3561,6 +3798,7 @@
         "index": {
           "description": "Bucket is container and keyspace for data stored in Riak with set of common properties for its contents the number of replicas for instance",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Bucket",
           "package": "riak",
@@ -3574,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Client",
           "package": "riak",
@@ -3582,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Client",
           "package": "riak",
@@ -3596,6 +3836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA client identifier.  This is used by the Riak cluster when\n logging vector clock changes, and should be unique for each client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "ClientID",
           "package": "riak",
@@ -3605,6 +3846,7 @@
         "index": {
           "description": "client identifier This is used by the Riak cluster when logging vector clock changes and should be unique for each client",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "ClientID",
           "package": "riak",
@@ -3619,6 +3861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection to a Riak server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Connection",
           "package": "riak",
@@ -3628,6 +3871,7 @@
         "index": {
           "description": "connection to Riak server",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Connection",
           "package": "riak",
@@ -3642,6 +3886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDurable write quorum.  How many replicas to commit to durable\n storage before returning a successful response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "DW",
           "package": "riak",
@@ -3651,6 +3896,7 @@
         "index": {
           "description": "Durable write quorum How many replicas to commit to durable storage before returning successful response",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "DW",
           "package": "riak",
@@ -3664,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Exchange",
           "package": "riak",
@@ -3672,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Exchange",
           "package": "riak",
@@ -3686,6 +3934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specification of a MapReduce\n job. \u003ca\u003ehttp://wiki.basho.com/MapReduce.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Job",
           "package": "riak",
@@ -3695,6 +3944,7 @@
         "index": {
           "description": "specification of MapReduce job http wiki.basho.com MapReduce.html",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Job",
           "package": "riak",
@@ -3709,6 +3959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys are unique object identifiers in Riak and are scoped within\n buckets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Key",
           "package": "riak",
@@ -3718,6 +3969,7 @@
         "index": {
           "description": "Keys are unique object identifiers in Riak and are scoped within buckets",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Key",
           "package": "riak",
@@ -3732,6 +3984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier for an inbound or outbound message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "MessageTag",
           "package": "riak",
@@ -3741,6 +3994,7 @@
         "index": {
           "description": "An identifier for an inbound or outbound message",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "MessageTag",
           "package": "riak",
@@ -3755,6 +4009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA read/write quorum.  The quantity of replicas that must respond\n to a read or write request before it is considered successful. This\n is defined as a bucket property or as one of the relevant\n parameters to a single request (\u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eW\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eDW\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eRW\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Quorum",
           "package": "riak",
@@ -3764,6 +4019,7 @@
         "index": {
           "description": "read write quorum The quantity of replicas that must respond to read or write request before it is considered successful This is defined as bucket property or as one of the relevant parameters to single request DW RW",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Quorum",
           "package": "riak",
@@ -3778,6 +4034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead quorum.  How many replicas need to agree when retrieving a\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "R",
           "package": "riak",
@@ -3787,6 +4044,7 @@
         "index": {
           "description": "Read quorum How many replicas need to agree when retrieving value",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "R",
           "package": "riak",
@@ -3800,6 +4058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead/write quorum.  How many replicas need to collaborate when\n deleting a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "RW",
           "package": "riak",
@@ -3809,6 +4068,7 @@
         "index": {
           "description": "Read write quorum How many replicas need to collaborate when deleting value",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "RW",
           "package": "riak",
@@ -3823,6 +4083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message representing a request from client to server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Request",
           "package": "riak",
@@ -3832,6 +4093,7 @@
         "index": {
           "description": "message representing request from client to server",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Request",
           "package": "riak",
@@ -3846,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message representing a response from server to client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Response",
           "package": "riak",
@@ -3855,6 +4118,7 @@
         "index": {
           "description": "message representing response from server to client",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Response",
           "package": "riak",
@@ -3869,6 +4133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main Riak exception type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "RiakException",
           "package": "riak",
@@ -3878,6 +4143,7 @@
         "index": {
           "description": "The main Riak exception type",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "RiakException",
           "package": "riak",
@@ -3892,6 +4158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn application-specific identifier for a link.  See\n \u003ca\u003ehttp://wiki.basho.com/Links.html\u003c/a\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Tag",
           "package": "riak",
@@ -3901,6 +4168,7 @@
         "index": {
           "description": "An application-specific identifier for link See http wiki.basho.com Links.html for details",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Tag",
           "package": "riak",
@@ -3915,6 +4183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessages are tagged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Tagged",
           "package": "riak",
@@ -3924,6 +4193,7 @@
         "index": {
           "description": "Messages are tagged",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Tagged",
           "package": "riak",
@@ -3938,6 +4208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper that keeps Riak vector clocks opaque.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "VClock",
           "package": "riak",
@@ -3947,6 +4218,7 @@
         "index": {
           "description": "wrapper that keeps Riak vector clocks opaque",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "VClock",
           "package": "riak",
@@ -3961,6 +4233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite quorum.  How many replicas to write to before returning a\n successful response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "W",
           "package": "riak",
@@ -3970,6 +4243,7 @@
         "index": {
           "description": "Write quorum How many replicas to write to before returning successful response",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "W",
           "package": "riak",
@@ -3982,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "DeleteRequest",
           "package": "riak",
@@ -3991,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "DeleteRequest",
           "package": "riak",
@@ -4004,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "DeleteResponse",
           "package": "riak",
@@ -4013,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "DeleteResponse",
           "package": "riak",
@@ -4026,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "Erlang",
           "package": "riak",
@@ -4035,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "Erlang",
           "package": "riak",
@@ -4048,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "ErrorResponse",
           "package": "riak",
@@ -4057,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "ErrorResponse",
           "package": "riak",
@@ -4070,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "GetBucketRequest",
           "package": "riak",
@@ -4079,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "GetBucketRequest",
           "package": "riak",
@@ -4092,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "GetBucketResponse",
           "package": "riak",
@@ -4101,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "GetBucketResponse",
           "package": "riak",
@@ -4114,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "GetClientIDRequest",
           "package": "riak",
@@ -4123,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "GetClientIDRequest",
           "package": "riak",
@@ -4136,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "GetClientIDResponse",
           "package": "riak",
@@ -4145,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "GetClientIDResponse",
           "package": "riak",
@@ -4158,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "GetRequest",
           "package": "riak",
@@ -4167,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "GetRequest",
           "package": "riak",
@@ -4180,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "GetResponse",
           "package": "riak",
@@ -4189,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "GetResponse",
           "package": "riak",
@@ -4202,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "GetServerInfoRequest",
           "package": "riak",
@@ -4211,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "GetServerInfoRequest",
           "package": "riak",
@@ -4224,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "GetServerInfoResponse",
           "package": "riak",
@@ -4233,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "GetServerInfoResponse",
           "package": "riak",
@@ -4246,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "JSON",
           "package": "riak",
@@ -4255,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "JSON",
           "package": "riak",
@@ -4268,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "ListBucketsRequest",
           "package": "riak",
@@ -4277,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "ListBucketsRequest",
           "package": "riak",
@@ -4290,6 +4592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "ListBucketsResponse",
           "package": "riak",
@@ -4299,6 +4602,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "ListBucketsResponse",
           "package": "riak",
@@ -4312,6 +4616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "ListKeysRequest",
           "package": "riak",
@@ -4321,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "ListKeysRequest",
           "package": "riak",
@@ -4334,6 +4640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "ListKeysResponse",
           "package": "riak",
@@ -4343,6 +4650,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "ListKeysResponse",
           "package": "riak",
@@ -4356,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "MapReduceRequest",
           "package": "riak",
@@ -4365,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "MapReduceRequest",
           "package": "riak",
@@ -4378,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "MapReduceResponse",
           "package": "riak",
@@ -4387,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "MapReduceResponse",
           "package": "riak",
@@ -4400,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "PingRequest",
           "package": "riak",
@@ -4409,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "PingRequest",
           "package": "riak",
@@ -4422,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "PingResponse",
           "package": "riak",
@@ -4431,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "PingResponse",
           "package": "riak",
@@ -4444,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "PutRequest",
           "package": "riak",
@@ -4453,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "PutRequest",
           "package": "riak",
@@ -4466,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "PutResponse",
           "package": "riak",
@@ -4475,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "PutResponse",
           "package": "riak",
@@ -4488,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "SetBucketRequest",
           "package": "riak",
@@ -4497,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "SetBucketRequest",
           "package": "riak",
@@ -4510,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "SetBucketResponse",
           "package": "riak",
@@ -4519,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "SetBucketResponse",
           "package": "riak",
@@ -4532,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "SetClientIDRequest",
           "package": "riak",
@@ -4541,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "SetClientIDRequest",
           "package": "riak",
@@ -4554,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "SetClientIDResponse",
           "package": "riak",
@@ -4563,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "SetClientIDResponse",
           "package": "riak",
@@ -4576,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "VClock",
           "package": "riak",
@@ -4585,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "VClock",
           "package": "riak",
@@ -4599,6 +4929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap the \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  (This is really only useful for\n printing the raw vclock string.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "fromVClock",
           "package": "riak",
@@ -4609,6 +4940,7 @@
         "index": {
           "description": "Unwrap the ByteString This is really only useful for printing the raw vclock string",
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "fromVClock",
           "package": "riak",
@@ -4622,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Types",
           "name": "messageTag",
           "package": "riak",
@@ -4631,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Types",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Types",
           "name": "messageTag",
           "package": "riak",
@@ -4645,6 +4979,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows storage and retrieval of data encoded using the\n \u003ccode\u003e\u003ca\u003eIsContent\u003c/a\u003e\u003c/code\u003e typeclass.  This provides access to more of Riak's\n storage features than JSON, e.g. links.\n\u003c/p\u003e\u003cp\u003eFunctions automatically resolve conflicts using \u003ccode\u003e\u003ca\u003eResolvable\u003c/a\u003e\u003c/code\u003e\n instances.  For instance, if a \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e returns three siblings, a\n winner will be chosen using \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e.  If a \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e results in a\n conflict, a winner will be chosen using \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e, and the winner\n will be \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e; this will be repeated until either no conflict\n occurs or the process has been repeated too many times.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -4654,6 +4989,7 @@
         "index": {
           "description": "This module allows storage and retrieval of data encoded using the IsContent typeclass This provides access to more of Riak storage features than JSON e.g links Functions automatically resolve conflicts using Resolvable instances For instance if get returns three siblings winner will be chosen using resolve If put results in conflict winner will be chosen using resolve and the winner will be put this will be repeated until either no conflict occurs or the process has been repeated too many times",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -4667,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "IsContent",
           "package": "riak",
@@ -4675,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "IsContent",
           "package": "riak",
@@ -4689,6 +5027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomated conflict resolution failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "ResolutionFailure",
           "package": "riak",
@@ -4698,6 +5037,7 @@
         "index": {
           "description": "Automated conflict resolution failed",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "ResolutionFailure",
           "package": "riak",
@@ -4712,6 +5052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can automatically resolve a vector clock conflict\n between two or more versions of a value.\n\u003c/p\u003e\u003cp\u003eInstances must be symmetric in their behaviour, such that the\n following law is obeyed:\n\u003c/p\u003e\u003cpre\u003e resolve a b == resolve b a\n\u003c/pre\u003e\u003cp\u003eOtherwise, there are no restrictions on the behaviour of \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e.\n The result may be \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e, a value derived from \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e, or\n something else.\n\u003c/p\u003e\u003cp\u003eIf several conflicting siblings are found, \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e will be\n applied over all of them using a fold, to yield a single\n \"winner\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -4721,6 +5062,7 @@
         "index": {
           "description": "type that can automatically resolve vector clock conflict between two or more versions of value Instances must be symmetric in their behaviour such that the following law is obeyed resolve resolve Otherwise there are no restrictions on the behaviour of resolve The result may be value derived from and or something else If several conflicting siblings are found resolve will be applied over all of them using fold to yield single winner",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "Resolvable",
           "package": "riak",
@@ -4735,6 +5077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a single value.  If conflicting values are returned, the\n \u003ccode\u003e\u003ca\u003eResolvable\u003c/a\u003e\u003c/code\u003e is used to choose a winner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "get",
           "package": "riak",
@@ -4745,6 +5088,7 @@
         "index": {
           "description": "Retrieve single value If conflicting values are returned the Resolvable is used to choose winner",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "get",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eR-\u003eIO(Maybe(a,VClock))",
@@ -4760,6 +5104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve multiple values.  If conflicting values are returned for\n a key, the \u003ccode\u003e\u003ca\u003eResolvable\u003c/a\u003e\u003c/code\u003e is used to choose a winner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "getMany",
           "package": "riak",
@@ -4770,6 +5115,7 @@
         "index": {
           "description": "Retrieve multiple values If conflicting values are returned for key the Resolvable is used to choose winner",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "getMany",
           "normalized": "Connection-\u003eBucket-\u003e[Key]-\u003eR-\u003eIO[Maybe(a,VClock)]",
@@ -4786,6 +5132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a single value.  The value, if any, is retrieved using\n \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e; conflict resolution is performed if necessary.  The\n modification function is called on the resulting value, and its\n result is stored using \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e, which may again perform conflict\n resolution.\n\u003c/p\u003e\u003cp\u003eThe result of this function is whatever was returned by \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf the \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e phase of this function gives up due to apparently\n being stuck in a conflict resolution loop, it will throw a\n \u003ccode\u003e\u003ca\u003eResolutionFailure\u003c/a\u003e\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "modify_",
           "package": "riak",
@@ -4796,6 +5143,7 @@
         "index": {
           "description": "Modify single value The value if any is retrieved using get conflict resolution is performed if necessary The modification function is called on the resulting value and its result is stored using put which may again perform conflict resolution The result of this function is whatever was returned by put If the put phase of this function gives up due to apparently being stuck in conflict resolution loop it will throw ResolutionFailure exception",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "modify_",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eR-\u003eW-\u003eDW-\u003e(Maybe a-\u003eIO a)-\u003eIO a",
@@ -4810,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "parseContent",
           "package": "riak",
@@ -4819,6 +5168,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "parseContent",
           "normalized": "Content-\u003eParser a",
@@ -4835,6 +5185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value, automatically resolving any vector clock\n conflicts that arise.  A single invocation of this function may\n involve several roundtrips to the server to resolve conflicts.\n\u003c/p\u003e\u003cp\u003eIf a conflict arises, a winner will be chosen using \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e, and\n the winner will be stored; this will be repeated until no conflict\n occurs or a (fairly large) number of retries has been attempted\n without success.\n\u003c/p\u003e\u003cp\u003eIf this function gives up due to apparently being stuck in a\n conflict resolution loop, it will throw a \u003ccode\u003e\u003ca\u003eResolutionFailure\u003c/a\u003e\u003c/code\u003e\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "put",
           "package": "riak",
@@ -4845,6 +5196,7 @@
         "index": {
           "description": "Store single value automatically resolving any vector clock conflicts that arise single invocation of this function may involve several roundtrips to the server to resolve conflicts If conflict arises winner will be chosen using resolve and the winner will be stored this will be repeated until no conflict occurs or fairly large number of retries has been attempted without success If this function gives up due to apparently being stuck in conflict resolution loop it will throw ResolutionFailure exception",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "put",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003ea-\u003eW-\u003eDW-\u003eIO(a,VClock)",
@@ -4860,6 +5212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore multiple values, resolving any vector clock conflicts that\n arise.  A single invocation of this function may involve several\n roundtrips to the server to resolve conflicts.\n\u003c/p\u003e\u003cp\u003eIf any conflicts arise, a winner will be chosen in each case using\n \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e, and the winners will be stored; this will be repeated\n until either no conflicts occur or a (fairly large) number of\n retries has been attempted without success.\n\u003c/p\u003e\u003cp\u003eFor each original value to be stored, the final value that was\n stored at the end of any conflict resolution is returned.\n\u003c/p\u003e\u003cp\u003eIf this function gives up due to apparently being stuck in a loop,\n it will throw a \u003ccode\u003e\u003ca\u003eResolutionFailure\u003c/a\u003e\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "putMany",
           "package": "riak",
@@ -4870,6 +5223,7 @@
         "index": {
           "description": "Store multiple values resolving any vector clock conflicts that arise single invocation of this function may involve several roundtrips to the server to resolve conflicts If any conflicts arise winner will be chosen in each case using resolve and the winners will be stored this will be repeated until either no conflicts occur or fairly large number of retries has been attempted without success For each original value to be stored the final value that was stored at the end of any conflict resolution is returned If this function gives up due to apparently being stuck in loop it will throw ResolutionFailure exception",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "putMany",
           "normalized": "Connection-\u003eBucket-\u003e[(Key,Maybe VClock,a)]-\u003eW-\u003eDW-\u003eIO[(a,VClock)]",
@@ -4886,6 +5240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore multiple values, resolving any vector clock conflicts that\n arise.  A single invocation of this function may involve several\n roundtrips to the server to resolve conflicts.\n\u003c/p\u003e\u003cp\u003eIf any conflicts arise, a winner will be chosen in each case using\n \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e, and the winners will be stored; this will be repeated\n until either no conflicts occur or a (fairly large) number of\n retries has been attempted without success.\n\u003c/p\u003e\u003cp\u003eIf this function gives up due to apparently being stuck in a loop,\n it will throw a \u003ccode\u003e\u003ca\u003eResolutionFailure\u003c/a\u003e\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "putMany_",
           "package": "riak",
@@ -4896,6 +5251,7 @@
         "index": {
           "description": "Store multiple values resolving any vector clock conflicts that arise single invocation of this function may involve several roundtrips to the server to resolve conflicts If any conflicts arise winner will be chosen in each case using resolve and the winners will be stored this will be repeated until either no conflicts occur or fairly large number of retries has been attempted without success If this function gives up due to apparently being stuck in loop it will throw ResolutionFailure exception",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "putMany_",
           "normalized": "Connection-\u003eBucket-\u003e[(Key,Maybe VClock,a)]-\u003eW-\u003eDW-\u003eIO()",
@@ -4912,6 +5268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value, automatically resolving any vector clock\n conflicts that arise.  A single invocation of this function may\n involve several roundtrips to the server to resolve conflicts.\n\u003c/p\u003e\u003cp\u003eIf a conflict arises, a winner will be chosen using \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e, and\n the winner will be stored; this will be repeated until no conflict\n occurs or a (fairly large) number of retries has been attempted\n without success.\n\u003c/p\u003e\u003cp\u003eIf this function gives up due to apparently being stuck in a\n conflict resolution loop, it will throw a \u003ccode\u003e\u003ca\u003eResolutionFailure\u003c/a\u003e\u003c/code\u003e\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "put_",
           "package": "riak",
@@ -4922,6 +5279,7 @@
         "index": {
           "description": "Store single value automatically resolving any vector clock conflicts that arise single invocation of this function may involve several roundtrips to the server to resolve conflicts If conflict arises winner will be chosen using resolve and the winner will be stored this will be repeated until no conflict occurs or fairly large number of retries has been attempted without success If this function gives up due to apparently being stuck in conflict resolution loop it will throw ResolutionFailure exception",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "put_",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003ea-\u003eW-\u003eDW-\u003eIO()",
@@ -4937,6 +5295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve a conflict between two values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "resolve",
           "package": "riak",
@@ -4947,6 +5306,7 @@
         "index": {
           "description": "Resolve conflict between two values",
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "resolve",
           "normalized": "a-\u003ea-\u003ea",
@@ -4961,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value.Resolvable",
           "name": "toContent",
           "package": "riak",
@@ -4970,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Value Resolvable",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value.Resolvable",
           "name": "toContent",
           "normalized": "a-\u003eContent",
@@ -4986,6 +5348,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows storage and retrieval of data using the\n \u003ccode\u003e\u003ca\u003eIsContent\u003c/a\u003e\u003c/code\u003e typeclass.  This provides access to more of Riak's\n storage features than JSON, e.g. links.\n\u003c/p\u003e\u003cp\u003eThe functions in this module do not perform any conflict resolution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "Value",
           "package": "riak",
@@ -4995,6 +5358,7 @@
         "index": {
           "description": "This module allows storage and retrieval of data using the IsContent typeclass This provides access to more of Riak storage features than JSON e.g links The functions in this module do not perform any conflict resolution",
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "Value",
           "package": "riak",
@@ -5008,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "IsContent",
           "package": "riak",
@@ -5016,6 +5381,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "IsContent",
           "package": "riak",
@@ -5029,6 +5395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "fromContent",
           "package": "riak",
@@ -5038,6 +5405,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "fromContent",
           "normalized": "Content-\u003eMaybe a",
@@ -5054,6 +5422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a value.  This may return multiple conflicting siblings.\n Choosing among them is your responsibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "get",
           "package": "riak",
@@ -5064,6 +5433,7 @@
         "index": {
           "description": "Retrieve value This may return multiple conflicting siblings Choosing among them is your responsibility",
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "get",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eR-\u003eIO(Maybe([a],VClock))",
@@ -5078,6 +5448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "getMany",
           "package": "riak",
@@ -5087,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "getMany",
           "normalized": "Connection-\u003eBucket-\u003e[Key]-\u003eR-\u003eIO[Maybe([a],VClock)]",
@@ -5102,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "parseContent",
           "package": "riak",
@@ -5111,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "parseContent",
           "normalized": "Content-\u003eParser a",
@@ -5127,6 +5501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value.  This may return multiple conflicting\n siblings.  Choosing among them, and storing a new value, is your\n responsibility.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "put",
           "package": "riak",
@@ -5137,6 +5512,7 @@
         "index": {
           "description": "Store single value This may return multiple conflicting siblings Choosing among them and storing new value is your responsibility You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored",
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "put",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003ea-\u003eW-\u003eDW-\u003eIO([a],VClock)",
@@ -5152,6 +5528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore many values.  This may return multiple conflicting siblings\n for each value stored.  Choosing among them, and storing a new\n value in each case, is your responsibility.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "putMany",
           "package": "riak",
@@ -5162,6 +5539,7 @@
         "index": {
           "description": "Store many values This may return multiple conflicting siblings for each value stored Choosing among them and storing new value in each case is your responsibility You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored",
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "putMany",
           "normalized": "Connection-\u003eBucket-\u003e[(Key,Maybe VClock,a)]-\u003eW-\u003eDW-\u003eIO[([a],VClock)]",
@@ -5178,6 +5556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore many values, without the possibility of conflict\n resolution.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored, and you will not be notified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "putMany_",
           "package": "riak",
@@ -5188,6 +5567,7 @@
         "index": {
           "description": "Store many values without the possibility of conflict resolution You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored and you will not be notified",
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "putMany_",
           "normalized": "Connection-\u003eBucket-\u003e[(Key,Maybe VClock,a)]-\u003eW-\u003eDW-\u003eIO()",
@@ -5204,6 +5584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a single value, without the possibility of conflict\n resolution.\n\u003c/p\u003e\u003cp\u003eYou should \u003cem\u003eonly\u003c/em\u003e supply \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e if you are sure\n that the given bucket+key combination does not already exist.  If\n you omit a \u003ccode\u003e\u003ca\u003eVClock\u003c/a\u003e\u003c/code\u003e but the bucket+key \u003cem\u003edoes\u003c/em\u003e exist, your value\n will not be stored, and you will not be notified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "put_",
           "package": "riak",
@@ -5214,6 +5595,7 @@
         "index": {
           "description": "Store single value without the possibility of conflict resolution You should only supply Nothing as VClock if you are sure that the given bucket key combination does not already exist If you omit VClock but the bucket key does exist your value will not be stored and you will not be notified",
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "put_",
           "normalized": "Connection-\u003eBucket-\u003eKey-\u003eMaybe VClock-\u003ea-\u003eW-\u003eDW-\u003eIO()",
@@ -5228,6 +5610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak.Value",
           "name": "toContent",
           "package": "riak",
@@ -5237,6 +5620,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Value",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak.Value",
           "name": "toContent",
           "normalized": "a-\u003eContent",
@@ -5253,6 +5637,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA client for the Riak decentralized data store.\n\u003c/p\u003e\u003cp\u003eThe functions in this module use JSON as the storage\n representation, and automatically perform conflict resolution\n during storage and retrieval.\n\u003c/p\u003e\u003cp\u003eThis library is organized to allow a tradeoff between power\n and ease of use.  If you would like a different degree of\n automation with storage and conflict resolution, you may want to\n use one of the following modules (ranked from easiest to most\n tricky to use):\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eNetwork.Riak.JSON.Resolvable\u003c/dt\u003e\u003cdd\u003e JSON for storage, automatic conflict\n resolution.  (This module actually re-exports its definitions.)\n This is the easiest module to work with.\n\u003c/dd\u003e\u003cdt\u003eNetwork.Riak.JSON\u003c/dt\u003e\u003cdd\u003e JSON for storage, manual conflict resolution.\n\u003c/dd\u003e\u003cdt\u003eNetwork.Riak.Value.Resolvable\u003c/dt\u003e\u003cdd\u003e More complex (but still automatic)\n storage, automatic conflict resolution.\n\u003c/dd\u003e\u003cdt\u003eNetwork.Riak.Value\u003c/dt\u003e\u003cdd\u003e More complex (but still automatic) storage,\n manual conflict resolution.\n\u003c/dd\u003e\u003cdt\u003eNetwork.Riak.Basic\u003c/dt\u003e\u003cdd\u003e manual storage, manual conflict resolution.\n This is the most demanding module to work with, as you must encode\n and decode data yourself, and handle all conflict resolution\n yourself.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak",
           "name": "Riak",
           "package": "riak",
@@ -5262,6 +5647,7 @@
         "index": {
           "description": "client for the Riak decentralized data store The functions in this module use JSON as the storage representation and automatically perform conflict resolution during storage and retrieval This library is organized to allow tradeoff between power and ease of use If you would like different degree of automation with storage and conflict resolution you may want to use one of the following modules ranked from easiest to most tricky to use Network.Riak.JSON.Resolvable JSON for storage automatic conflict resolution This module actually re-exports its definitions This is the easiest module to work with Network.Riak.JSON JSON for storage manual conflict resolution Network.Riak.Value.Resolvable More complex but still automatic storage automatic conflict resolution Network.Riak.Value More complex but still automatic storage manual conflict resolution Network.Riak.Basic manual storage manual conflict resolution This is the most demanding module to work with as you must encode and decode data yourself and handle all conflict resolution yourself",
           "hierarchy": "Network Riak",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak",
           "name": "Riak",
           "package": "riak",
@@ -5275,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak",
           "name": "Client",
           "package": "riak",
@@ -5283,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Network Riak",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak",
           "name": "Client",
           "package": "riak",
@@ -5297,6 +5685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA client identifier.  This is used by the Riak cluster when\n logging vector clock changes, and should be unique for each client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak",
           "name": "ClientID",
           "package": "riak",
@@ -5306,6 +5695,7 @@
         "index": {
           "description": "client identifier This is used by the Riak cluster when logging vector clock changes and should be unique for each client",
           "hierarchy": "Network Riak",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak",
           "name": "ClientID",
           "package": "riak",
@@ -5320,6 +5710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection to a Riak server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak",
           "name": "Connection",
           "package": "riak",
@@ -5329,6 +5720,7 @@
         "index": {
           "description": "connection to Riak server",
           "hierarchy": "Network Riak",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak",
           "name": "Connection",
           "package": "riak",
@@ -5343,6 +5735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA read/write quorum.  The quantity of replicas that must respond\n to a read or write request before it is considered successful. This\n is defined as a bucket property or as one of the relevant\n parameters to a single request (\u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eW\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eDW\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eRW\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak",
           "name": "Quorum",
           "package": "riak",
@@ -5352,6 +5745,7 @@
         "index": {
           "description": "read write quorum The quantity of replicas that must respond to read or write request before it is considered successful This is defined as bucket property or as one of the relevant parameters to single request DW RW",
           "hierarchy": "Network Riak",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak",
           "name": "Quorum",
           "package": "riak",
@@ -5366,6 +5760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can automatically resolve a vector clock conflict\n between two or more versions of a value.\n\u003c/p\u003e\u003cp\u003eInstances must be symmetric in their behaviour, such that the\n following law is obeyed:\n\u003c/p\u003e\u003cpre\u003e resolve a b == resolve b a\n\u003c/pre\u003e\u003cp\u003eOtherwise, there are no restrictions on the behaviour of \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e.\n The result may be \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e, a value derived from \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e, or\n something else.\n\u003c/p\u003e\u003cp\u003eIf several conflicting siblings are found, \u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e will be\n applied over all of them using a fold, to yield a single\n \"winner\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak",
           "name": "Resolvable",
           "package": "riak",
@@ -5375,6 +5770,7 @@
         "index": {
           "description": "type that can automatically resolve vector clock conflict between two or more versions of value Instances must be symmetric in their behaviour such that the following law is obeyed resolve resolve Otherwise there are no restrictions on the behaviour of resolve The result may be value derived from and or something else If several conflicting siblings are found resolve will be applied over all of them using fold to yield single winner",
           "hierarchy": "Network Riak",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak",
           "name": "Resolvable",
           "package": "riak",
@@ -5389,6 +5785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve a conflict between two values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:26 UTC 2014",
           "module": "Network.Riak",
           "name": "resolve",
           "package": "riak",
@@ -5399,6 +5796,7 @@
         "index": {
           "description": "Resolve conflict between two values",
           "hierarchy": "Network Riak",
+          "indexed": "2014-03-11T19:54:26",
           "module": "Network.Riak",
           "name": "resolve",
           "normalized": "a-\u003ea-\u003ea",

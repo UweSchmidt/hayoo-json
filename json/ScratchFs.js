@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ScratchFs"
+        "phrase": "ScratchFs",
+        "type": "phrase"
       },
       "type": "context"
     }

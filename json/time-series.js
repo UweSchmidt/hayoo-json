@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "time-series"
+        "phrase": "time-series",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for correlation analysis.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "Correlation",
           "package": "time-series",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for correlation analysis",
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "Correlation",
           "package": "time-series",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "chunks",
           "package": "time-series",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "chunks",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect computation of correlation of two windows X and Y.\n Resulting value \u003cem\u003er\u003c/em\u003e is:\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://bit.ly/15XPwC3\"/\u003e\n\u003c/p\u003e\u003cp\u003eSee: \u003ca\u003ehttp://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient#Definition\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eWhere: X&#772; is mean of X, Xi is i-th element of X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "direct",
           "package": "time-series",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Direct computation of correlation of two windows and Resulting value is See http en.wikipedia.org wiki Pearson product-moment correlation coefficient Definition Where is mean of Xi is i-th element of",
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "direct",
           "normalized": "Window-\u003eWindow-\u003eDouble",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "dotp",
           "package": "time-series",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "dotp",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "len",
           "package": "time-series",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "len",
           "normalized": "[a]-\u003eb",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "mean",
           "package": "time-series",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "mean",
           "normalized": "[a]-\u003ea",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector norm:\n\u003c/p\u003e\u003cpre\u003e norm as = sqrt $ sum [a^2|a \u003c- as]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "norm",
           "package": "time-series",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Vector norm norm as sqrt sum as",
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "norm",
           "normalized": "[a]-\u003ea",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSketch distance based correlation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "sketch",
           "package": "time-series",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Sketch distance based correlation",
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "sketch",
           "normalized": "Window-\u003eWindow-\u003eDouble",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSketch distance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "sketch_distance",
           "package": "time-series",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Sketch distance",
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "sketch_distance",
           "normalized": "Int-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNaive correlation from sketch distance, using:\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://bit.ly/1fWIkjp\"/\u003e\n\u003c/p\u003e\u003cp\u003esketch distance is computated without incremental update.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "sketch_naive",
           "package": "time-series",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Naive correlation from sketch distance using sketch distance is computated without incremental update",
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "sketch_naive",
           "normalized": "[Window]-\u003eInt-\u003eWindow-\u003eWindow-\u003eDouble",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "square",
           "package": "time-series",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "square",
           "normalized": "a-\u003ea",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "stddev",
           "package": "time-series",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "stddev",
           "normalized": "[Double]-\u003eDouble",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Correlation",
           "name": "stddev'",
           "package": "time-series",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Correlation",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Correlation",
           "name": "stddev'",
           "normalized": "Window-\u003eDouble",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComputing pseudorandom 64-bit words.\nWe use RC5 as a basis for our PRG.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "PRG64",
           "package": "time-series",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Computing pseudorandom bit words We use RC5 as basis for our PRG",
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "PRG64",
           "package": "time-series",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "PRG64",
           "package": "time-series",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "PRG64",
           "package": "time-series",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "PRG64",
           "package": "time-series",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "PRG64",
           "package": "time-series",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "generateRandomVectorsCSV",
           "package": "time-series",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "generateRandomVectorsCSV",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003eString",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "prg64A",
           "package": "time-series",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "prg64A",
           "package": "time-series",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "prg64B",
           "package": "time-series",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "prg64B",
           "package": "time-series",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "prg64Bits",
           "package": "time-series",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "prg64Bits",
           "normalized": "PRG-\u003e[[a]]",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "prg64Init",
           "package": "time-series",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "prg64Init",
           "normalized": "Integer-\u003ePRG",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey pairs for rounds a-la RC5. We have to have at lest 6 rounds for\n avalanche effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "prg64Keys",
           "package": "time-series",
@@ -515,6 +558,7 @@
         "index": {
           "description": "Key pairs for rounds a-la RC5 We have to have at lest rounds for avalanche effect",
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "prg64Keys",
           "normalized": "[(Word,Word)]",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the next value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "prg64Next",
           "package": "time-series",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Compute the next value",
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "prg64Next",
           "normalized": "PRG-\u003e(PRG,Word)",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom unit vector and control vector, with specified size.\n\u003c/p\u003e\u003cp\u003eSame random sequence will returned with same seed, so that sketch\n distance could be calculated with same random sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.PRG64",
           "name": "rnd",
           "package": "time-series",
@@ -566,6 +613,7 @@
         "index": {
           "description": "Random unit vector and control vector with specified size Same random sequence will returned with same seed so that sketch distance could be calculated with same random sequence",
           "hierarchy": "TimeSeries PRG64",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.PRG64",
           "name": "rnd",
           "normalized": "Word-\u003eWord-\u003eInteger-\u003e([Double],[Double])",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormat conversion for plotting data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Plot",
           "name": "Plot",
           "package": "time-series",
@@ -590,6 +639,7 @@
         "index": {
           "description": "Format conversion for plotting data",
           "hierarchy": "TimeSeries Plot",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Plot",
           "name": "Plot",
           "package": "time-series",
@@ -604,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActual work for plotting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Plot",
           "name": "rho09",
           "package": "time-series",
@@ -614,6 +665,7 @@
         "index": {
           "description": "Actual work for plotting",
           "hierarchy": "TimeSeries Plot",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Plot",
           "name": "rho09",
           "normalized": "FilePath-\u003eIO()",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erho09_100000\u003c/a\u003e\u003c/code\u003e, but using fewer input data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Plot",
           "name": "rho09_10000",
           "package": "time-series",
@@ -639,6 +692,7 @@
         "index": {
           "description": "Like rho09 but using fewer input data",
           "hierarchy": "TimeSeries Plot",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Plot",
           "name": "rho09_10000",
           "normalized": "IO()",
@@ -654,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead correlated data from sample csv file and convert to format\n fed to \"tplot\" from timeplot package.\n\u003c/p\u003e\u003cp\u003eE.g. Plot to \"out.png\":\n\u003c/p\u003e\u003cpre\u003e $ tplot -if rho09.tmp -o out.png -or 1920x1080 -tf '%s' -dk lines\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Plot",
           "name": "rho09_100000",
           "package": "time-series",
@@ -664,6 +719,7 @@
         "index": {
           "description": "Read correlated data from sample csv file and convert to format fed to tplot from timeplot package E.g Plot to out.png tplot if rho09.tmp out.png or x1080 tf dk lines",
           "hierarchy": "TimeSeries Plot",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Plot",
           "name": "rho09_100000",
           "normalized": "IO()",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData routing for time series analysis.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Routing",
           "package": "time-series",
@@ -688,6 +745,7 @@
         "index": {
           "description": "Data routing for time series analysis",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Routing",
           "package": "time-series",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummary of basic window.\n\u003c/p\u003e\u003cp\u003eFrom \"3.5 The Issues in Implementation section\":\n\u003c/p\u003e\u003cp\u003e\u003cem\u003e... We need to maintain\u003c/em\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Xbw&#8305;&#8901;R\n\u003c/li\u003e\u003cli\u003e sum(Xbw&#8305;)\n\u003c/li\u003e\u003cli\u003e sum((Xbw&#8305;)&#178;)\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cem\u003efor each basic window.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "BWSummary",
           "package": "time-series",
@@ -711,6 +770,7 @@
         "index": {
           "description": "Summary of basic window From The Issues in Implementation section We need to maintain Xbw sum Xbw sum Xbw for each basic window",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "BWSummary",
           "package": "time-series",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresenting basic windows as \u003ccode\u003e\u003ca\u003eIntMap\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eWindow\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eKey of outer \u003ccode\u003e\u003ca\u003eIntMap\u003c/a\u003e\u003c/code\u003e is ID for concurrent input stream, number of\n keys matches to number of concurrent input stream. Inner \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e\n is indexed basic window within sliding window, number of elements\n matches to \u003cem\u003enb\u003c/em\u003e, where `nb = sw \u003cem\u003e bw`, \u003c/em\u003esw/ is sliding window size\n and \u003cem\u003ebw\u003c/em\u003e is basic window size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "BasicWindows",
           "package": "time-series",
@@ -734,6 +795,7 @@
         "index": {
           "description": "Representing basic windows as IntMap of Seq of Window Key of outer IntMap is ID for concurrent input stream number of keys matches to number of concurrent input stream Inner Seq is indexed basic window within sliding window number of elements matches to nb where nb sw bw sw is sliding window size and bw is basic window size",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "BasicWindows",
           "package": "time-series",
@@ -748,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration values for detecting correlations from\n uncooperative time series data.\n\u003c/p\u003e\u003cp\u003eThis data type shall relate to bootstrapping in future, but at the\n moment, nothing related.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Config",
           "package": "time-series",
@@ -757,6 +820,7 @@
         "index": {
           "description": "Configuration values for detecting correlations from uncooperative time series data This data type shall relate to bootstrapping in future but at the moment nothing related",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Config",
           "package": "time-series",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of correlation analysis.\n\u003c/p\u003e\u003cp\u003eInspired from output found in \"statStream\". See:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://cs.nyu.edu/cs/faculty/shasha/papers/statstream/doc.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "CorrResult",
           "package": "time-series",
@@ -780,6 +845,7 @@
         "index": {
           "description": "Result of correlation analysis Inspired from output found in statStream See http cs.nyu.edu cs faculty shasha papers statstream doc.html",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "CorrResult",
           "package": "time-series",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementations.\n\u003c/p\u003e\u003cp\u003eAs for a prototype, used to analyse and compre resulting values for\n different implementations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Implementation",
           "package": "time-series",
@@ -803,6 +870,7 @@
         "index": {
           "description": "Implementations As for prototype used to analyse and compre resulting values for different implementations",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Implementation",
           "package": "time-series",
@@ -817,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop for analysing correlation of input data and updating\n analysis results and windowed data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Loop",
           "package": "time-series",
@@ -826,6 +895,7 @@
         "index": {
           "description": "Loop for analysing correlation of input data and updating analysis results and windowed data",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Loop",
           "package": "time-series",
@@ -840,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummary of sliding window.\n\u003c/p\u003e\u003cp\u003eWe don't need to maintain whole basic windows when sketch\n implementation is the only concern. To show correlation values with\n direct function, preserving the whole basic window contents. From\n \"3.5 The Issues in Implementation section\":\n\u003c/p\u003e\u003cp\u003e\u003cem\u003e... We need to maintain\u003c/em\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e &#8721;i=0,nb-1(sum(Xbw&#8305;))\n\u003c/li\u003e\u003cli\u003e &#8721;i=0,nb-1(sum((Xbw&#8305;)&#178;))\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cem\u003efor a sliding window ...\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Summary",
           "package": "time-series",
@@ -849,6 +920,7 @@
         "index": {
           "description": "Summary of sliding window We don need to maintain whole basic windows when sketch implementation is the only concern To show correlation values with direct function preserving the whole basic window contents From The Issues in Implementation section We need to maintain nb-1 sum Xbw nb-1 sum Xbw for sliding window",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Summary",
           "package": "time-series",
@@ -863,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState stored in analysis system.\n\u003c/p\u003e\u003cp\u003eLater this shall relate to memory data in hardware implementation,\n but at the moment its 100% Haskell data type and values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "SysState",
           "package": "time-series",
@@ -872,6 +945,7 @@
         "index": {
           "description": "State stored in analysis system Later this shall relate to memory data in hardware implementation but at the moment its Haskell data type and values",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "SysState",
           "package": "time-series",
@@ -885,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "BWSummary",
           "package": "time-series",
@@ -894,6 +969,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "BWSummary",
           "package": "time-series",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Config",
           "package": "time-series",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Config",
           "package": "time-series",
@@ -929,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "CorrResult",
           "package": "time-series",
@@ -938,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "CorrResult",
           "package": "time-series",
@@ -952,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect correlation computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Direct",
           "package": "time-series",
@@ -962,6 +1043,7 @@
         "index": {
           "description": "Direct correlation computation",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Direct",
           "package": "time-series",
@@ -975,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Loop",
           "package": "time-series",
@@ -984,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Loop",
           "package": "time-series",
@@ -998,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSketch based computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Sketch",
           "package": "time-series",
@@ -1008,6 +1093,7 @@
         "index": {
           "description": "Sketch based computation",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Sketch",
           "package": "time-series",
@@ -1021,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "Summary",
           "package": "time-series",
@@ -1030,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "Summary",
           "package": "time-series",
@@ -1043,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "SysState",
           "package": "time-series",
@@ -1052,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "SysState",
           "package": "time-series",
@@ -1066,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of basic window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "bwSize",
           "package": "time-series",
@@ -1076,6 +1167,7 @@
         "index": {
           "description": "Size of basic window",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "bwSize",
           "package": "time-series",
@@ -1090,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSketch of basic window, currently not in use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "bwSketch",
           "package": "time-series",
@@ -1100,6 +1193,7 @@
         "index": {
           "description": "Sketch of basic window currently not in use",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "bwSketch",
           "package": "time-series",
@@ -1114,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of elements in basic window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "bwsSum",
           "package": "time-series",
@@ -1124,6 +1219,7 @@
         "index": {
           "description": "Sum of elements in basic window",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "bwsSum",
           "package": "time-series",
@@ -1138,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of squared elements in basic window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "bwsSumSq",
           "package": "time-series",
@@ -1148,6 +1245,7 @@
         "index": {
           "description": "Sum of squared elements in basic window",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "bwsSumSq",
           "package": "time-series",
@@ -1162,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend first argument to second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "consBW",
           "package": "time-series",
@@ -1171,6 +1270,7 @@
         "index": {
           "description": "Append first argument to second argument",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "consBW",
           "normalized": "Seq Window-\u003eSeq Window-\u003eSeq Window",
@@ -1187,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCutoff value between of correlation, between 0 to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "corrCutoff",
           "package": "time-series",
@@ -1197,6 +1298,7 @@
         "index": {
           "description": "Cutoff value between of correlation between to",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "corrCutoff",
           "package": "time-series",
@@ -1211,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute correlations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "corrPermute",
           "package": "time-series",
@@ -1220,6 +1323,7 @@
         "index": {
           "description": "Compute correlations",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "corrPermute",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eBasicWindows-\u003eIntMap Summary-\u003e[(CorrResult,CorrResult)]",
@@ -1236,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecrTimeStart\u003c/code\u003e + (size of base window)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "crEndTime",
           "package": "time-series",
@@ -1246,6 +1351,7 @@
         "index": {
           "description": "crTimeStart size of base window",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "crEndTime",
           "package": "time-series",
@@ -1260,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of time series input A.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "crIndexA",
           "package": "time-series",
@@ -1270,6 +1377,7 @@
         "index": {
           "description": "Index of time series input",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "crIndexA",
           "package": "time-series",
@@ -1284,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of time series input B.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "crIndexB",
           "package": "time-series",
@@ -1294,6 +1403,7 @@
         "index": {
           "description": "Index of time series input",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "crIndexB",
           "package": "time-series",
@@ -1308,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart time of base window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "crStartTime",
           "package": "time-series",
@@ -1318,6 +1429,7 @@
         "index": {
           "description": "Start time of base window",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "crStartTime",
           "package": "time-series",
@@ -1332,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value between -1 to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "crValue",
           "package": "time-series",
@@ -1342,6 +1455,7 @@
         "index": {
           "description": "value between to",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "crValue",
           "package": "time-series",
@@ -1356,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter results with implementation and cutoff value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "filterImpl",
           "package": "time-series",
@@ -1365,6 +1480,7 @@
         "index": {
           "description": "Filter results with implementation and cutoff value",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "filterImpl",
           "normalized": "Implementation-\u003eDouble-\u003e(CorrResult,CorrResult)-\u003e[CorrResult]",
@@ -1381,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "impls",
           "package": "time-series",
@@ -1391,6 +1508,7 @@
         "index": {
           "description": "Implementation",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "impls",
           "package": "time-series",
@@ -1404,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial basic window summary data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "initialBWSummary",
           "package": "time-series",
@@ -1413,6 +1532,7 @@
         "index": {
           "description": "Initial basic window summary data",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "initialBWSummary",
           "normalized": "Size-\u003eBWSummary",
@@ -1428,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "initialBasicWindows",
           "package": "time-series",
@@ -1437,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "initialBasicWindows",
           "normalized": "Size-\u003eSize-\u003eInt-\u003eBasicWindows",
@@ -1452,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "initialSlidingWindows",
           "package": "time-series",
@@ -1461,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "initialSlidingWindows",
           "normalized": "Size-\u003eInt-\u003eIntMap Window",
@@ -1476,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "initialSummaries",
           "package": "time-series",
@@ -1484,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "initialSummaries",
           "normalized": "Config-\u003eInt-\u003eIntMap Summary",
@@ -1500,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial state.\n\u003c/p\u003e\u003cp\u003eOther than \u003ccode\u003e\u003ca\u003eConfig\u003c/a\u003e\u003c/code\u003e, number of concurrent time series input data is\n passed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "initialSysState",
           "package": "time-series",
@@ -1510,6 +1637,7 @@
         "index": {
           "description": "Initial state Other than Config number of concurrent time series input data is passed",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "initialSysState",
           "normalized": "Config-\u003eInt-\u003eSysState",
@@ -1526,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main loop of time series analysis.\n\u003c/p\u003e\u003cp\u003eSpecifying number of concurrent time series data in this function.\n In hardware implementation, this may relates to fixed value, which\n possibly been configured at the time of code generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "loop",
           "package": "time-series",
@@ -1535,6 +1664,7 @@
         "index": {
           "description": "The main loop of time series analysis Specifying number of concurrent time series data in this function In hardware implementation this may relates to fixed value which possibly been configured at the time of code generation",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "loop",
           "normalized": "Handle-\u003eConfig-\u003e[[Double]]-\u003eIO()",
@@ -1550,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeed for random vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "randSeed",
           "package": "time-series",
@@ -1560,6 +1691,7 @@
         "index": {
           "description": "Seed for random vectors",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "randSeed",
           "package": "time-series",
@@ -1574,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial random vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "randomVectors",
           "package": "time-series",
@@ -1583,6 +1716,7 @@
         "index": {
           "description": "Initial random vectors",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "randomVectors",
           "normalized": "Integer-\u003eSize-\u003eSize-\u003eInt-\u003eIntMap RandomVector",
@@ -1599,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCons given element to given \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e and remove last element in\n \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "rotateSeq",
           "package": "time-series",
@@ -1609,6 +1744,7 @@
         "index": {
           "description": "Cons given element to given Seq and remove last element in Seq",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "rotateSeq",
           "normalized": "a-\u003eSeq a-\u003eSeq a",
@@ -1625,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap \u003ccode\u003e\u003ca\u003eLoop\u003c/a\u003e\u003c/code\u003e, run internal \u003ccode\u003eState\u003c/code\u003e and \u003ccode\u003eWriter\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "runLoop",
           "package": "time-series",
@@ -1635,6 +1772,7 @@
         "index": {
           "description": "Unwrap Loop run internal State and Writer",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "runLoop",
           "normalized": "Loop a-\u003eSysState-\u003e((a,SysState),[Either String CorrResult])",
@@ -1651,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplified string representation of \u003ccode\u003e\u003ca\u003eCorrResult\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esimpleCorrResult (CorrResult 1 2 10 20 0.5)\n\u003c/code\u003e\u003c/strong\u003e\"1, 2, 10, 20, 0.5\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "simpleCorrResult",
           "package": "time-series",
@@ -1661,6 +1800,7 @@
         "index": {
           "description": "Simplified string representation of CorrResult simpleCorrResult CorrResult",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "simpleCorrResult",
           "normalized": "CorrResult-\u003eString",
@@ -1677,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of subsequences for grouping sketch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sketchGroups",
           "package": "time-series",
@@ -1687,6 +1828,7 @@
         "index": {
           "description": "Number of subsequences for grouping sketch",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sketchGroups",
           "package": "time-series",
@@ -1701,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of random elements in sketch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sketchSize",
           "package": "time-series",
@@ -1711,6 +1854,7 @@
         "index": {
           "description": "Number of random elements in sketch",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sketchSize",
           "package": "time-series",
@@ -1725,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStruct sliding windows from basic windows.\n\u003c/p\u003e\u003cp\u003eThis function is not needed in hardware implementation, should used\n for direct calculation only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "slidingWindow",
           "package": "time-series",
@@ -1735,6 +1880,7 @@
         "index": {
           "description": "Struct sliding windows from basic windows This function is not needed in hardware implementation should used for direct calculation only",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "slidingWindow",
           "normalized": "Word-\u003eBasicWindows-\u003eIntMap Window",
@@ -1751,6 +1897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummaries for basic windows, length of \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e is \u003cem\u003enb\u003c/em\u003e, where\n \u003ccode\u003enb = sliding_window_size / basic_window_size\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "smrBasicWindows",
           "package": "time-series",
@@ -1761,6 +1908,7 @@
         "index": {
           "description": "Summaries for basic windows length of Seq is nb where nb sliding window size basic window size",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "smrBasicWindows",
           "package": "time-series",
@@ -1775,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-sketches. \"\u003cem\u003ePre\u003c/em\u003e\" means that those sketch values\n before applying dot product with control vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "smrPreSketches",
           "package": "time-series",
@@ -1785,6 +1934,7 @@
         "index": {
           "description": "Pre-sketches Pre means that those sketch values before applying dot product with control vector",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "smrPreSketches",
           "normalized": "[Window]",
@@ -1801,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSketch vector, size of this window matches to sketch size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "smrSketch",
           "package": "time-series",
@@ -1811,6 +1962,7 @@
         "index": {
           "description": "Sketch vector size of this window matches to sketch size",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "smrSketch",
           "package": "time-series",
@@ -1825,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of elements in sliding window.\n In other words, \u003ccode\u003e&#8721;i=0,nb-1(sum(Xbw&#8305;))\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "smrSum",
           "package": "time-series",
@@ -1835,6 +1988,7 @@
         "index": {
           "description": "Sum of elements in sliding window In other words nb-1 sum Xbw",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "smrSum",
           "package": "time-series",
@@ -1849,6 +2003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of squared elements in sliding window.\n In other words, \u003ccode\u003e&#8721;i=0,nb-1(sum((Xbw&#8305;)&#178;)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "smrSumSq",
           "package": "time-series",
@@ -1859,6 +2014,7 @@
         "index": {
           "description": "Sum of squared elements in sliding window In other words nb-1 sum Xbw",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "smrSumSq",
           "package": "time-series",
@@ -1873,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle step to take with new input data.\n\u003c/p\u003e\u003cp\u003eHandle state management and if found any, report analysis result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "step",
           "package": "time-series",
@@ -1883,6 +2040,7 @@
         "index": {
           "description": "Single step to take with new input data Handle state management and if found any report analysis result",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "step",
           "normalized": "Config-\u003e[Double]-\u003eLoop()",
@@ -1898,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of sliding window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "swSize",
           "package": "time-series",
@@ -1908,6 +2067,7 @@
         "index": {
           "description": "Size of sliding window",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "swSize",
           "package": "time-series",
@@ -1921,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sysAppendCount",
           "package": "time-series",
@@ -1930,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sysAppendCount",
           "package": "time-series",
@@ -1943,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sysBasicWindows",
           "package": "time-series",
@@ -1952,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sysBasicWindows",
           "package": "time-series",
@@ -1965,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sysConfig",
           "package": "time-series",
@@ -1974,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sysConfig",
           "package": "time-series",
@@ -1987,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sysCurrentTime",
           "package": "time-series",
@@ -1996,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sysCurrentTime",
           "package": "time-series",
@@ -2009,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sysIsReadyToTell",
           "package": "time-series",
@@ -2018,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sysIsReadyToTell",
           "package": "time-series",
@@ -2031,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sysNumberOfBasicWindows",
           "package": "time-series",
@@ -2040,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sysNumberOfBasicWindows",
           "package": "time-series",
@@ -2053,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sysRandomVectors",
           "package": "time-series",
@@ -2062,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sysRandomVectors",
           "package": "time-series",
@@ -2075,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "sysSummaries",
           "package": "time-series",
@@ -2084,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "sysSummaries",
           "package": "time-series",
@@ -2097,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "unLoop",
           "package": "time-series",
@@ -2106,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "unLoop",
           "normalized": "StateT SysState(Writer[Either String CorrResult])a",
@@ -2122,6 +2300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdding new elements to windows, removing old elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "updateStates",
           "package": "time-series",
@@ -2132,6 +2311,7 @@
         "index": {
           "description": "Adding new elements to windows removing old elements",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "updateStates",
           "normalized": "[Double]-\u003eLoop()",
@@ -2148,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate sum of elements in sliding window, and sum of squared\n elements in sliding window, and shift contents of basic windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "updateSummariesAndShift",
           "package": "time-series",
@@ -2158,6 +2339,7 @@
         "index": {
           "description": "Update sum of elements in sliding window and sum of squared elements in sliding window and shift contents of basic windows",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "updateSummariesAndShift",
           "normalized": "Loop()",
@@ -2174,6 +2356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo show trace output or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Routing",
           "name": "verbose",
           "package": "time-series",
@@ -2184,6 +2367,7 @@
         "index": {
           "description": "To show trace output or not",
           "hierarchy": "TimeSeries Routing",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Routing",
           "name": "verbose",
           "package": "time-series",
@@ -2197,6 +2381,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eScratches and notes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "Scratch",
           "package": "time-series",
@@ -2206,6 +2391,7 @@
         "index": {
           "description": "Scratches and notes",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "Scratch",
           "package": "time-series",
@@ -2219,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "CorrFunc",
           "package": "time-series",
@@ -2227,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "CorrFunc",
           "package": "time-series",
@@ -2240,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "DistanceFunc",
           "package": "time-series",
@@ -2248,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "DistanceFunc",
           "package": "time-series",
@@ -2262,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom vector used for structured sketches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "RandomVector",
           "package": "time-series",
@@ -2271,6 +2462,7 @@
         "index": {
           "description": "Random vector used for structured sketches",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "RandomVector",
           "package": "time-series",
@@ -2284,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "RandomVector",
           "package": "time-series",
@@ -2293,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "RandomVector",
           "package": "time-series",
@@ -2306,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "bwins01",
           "package": "time-series",
@@ -2315,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "bwins01",
           "package": "time-series",
@@ -2327,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "chunks",
           "package": "time-series",
@@ -2336,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "chunks",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -2351,6 +2549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelf descriptive function to show the comparison of naive and\n incremental \u003cem\u003eavg\u003c/em\u003e and \u003cem\u003evar\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "compare_naive_and_incremental_avg_and_var",
           "package": "time-series",
@@ -2361,6 +2560,7 @@
         "index": {
           "description": "Self descriptive function to show the comparison of naive and incremental avg and var",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "compare_naive_and_incremental_avg_and_var",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003e[Double]-\u003eIO[Double]",
@@ -2376,6 +2576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample comparison of avg and var, as shown in the function name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "comparison_of_avg_and_var",
           "package": "time-series",
@@ -2386,6 +2587,7 @@
         "index": {
           "description": "Sample comparison of avg and var as shown in the function name",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "comparison_of_avg_and_var",
           "normalized": "IO()",
@@ -2401,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom above:\n\u003c/p\u003e\u003cpre\u003e                 D^2(x&#770;,y&#770;)\n corr(x,y) = 1 - &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;\n                    2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "corr_from_direct_distance",
           "package": "time-series",
@@ -2411,6 +2614,7 @@
         "index": {
           "description": "From above corr",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "corr_from_direct_distance",
           "package": "time-series",
@@ -2424,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing normalized input vector X and Y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "corr_from_distance",
           "package": "time-series",
@@ -2434,6 +2639,7 @@
         "index": {
           "description": "Using normalized input vector and",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "corr_from_distance",
           "normalized": "DistanceFunc-\u003eCorrFunc",
@@ -2449,6 +2655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecorr_from_direct_distance\u003c/a\u003e\u003c/code\u003e, but using \u003ccode\u003e\u003ca\u003edist_sketch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "corr_from_sketch_distance",
           "package": "time-series",
@@ -2458,6 +2665,7 @@
         "index": {
           "description": "Like corr from direct distance but using dist sketch",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "corr_from_sketch_distance",
           "normalized": "Int-\u003eCorrFunc",
@@ -2472,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "correlation_direct_01",
           "package": "time-series",
@@ -2481,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "correlation_direct_01",
           "normalized": "[Double]-\u003e[Double]-\u003eDouble",
@@ -2495,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "correlation_direct_02",
           "package": "time-series",
@@ -2504,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "correlation_direct_02",
           "normalized": "[Double]-\u003e[Double]-\u003eDouble",
@@ -2518,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "covariance_direct",
           "package": "time-series",
@@ -2527,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "covariance_direct",
           "normalized": "[Double]-\u003e[Double]-\u003eDouble",
@@ -2541,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "direct_diff_with_sketch_corr",
           "package": "time-series",
@@ -2550,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "direct_diff_with_sketch_corr",
           "normalized": "Integer-\u003eInt-\u003e(Double,Double)",
@@ -2565,6 +2781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ed / s, where d is direct distance and s is sketch distance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "direct_div_by_sketch_distance",
           "package": "time-series",
@@ -2575,6 +2792,7 @@
         "index": {
           "description": "where is direct distance and is sketch distance",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "direct_div_by_sketch_distance",
           "normalized": "Integer-\u003eInt-\u003eDouble",
@@ -2590,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect distance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "dist_direct",
           "package": "time-series",
@@ -2600,6 +2819,7 @@
         "index": {
           "description": "Direct distance",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "dist_direct",
           "normalized": "[Double]-\u003e[Double]-\u003eDouble",
@@ -2615,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSketch distance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "dist_sketch",
           "package": "time-series",
@@ -2624,6 +2845,7 @@
         "index": {
           "description": "Sketch distance",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "dist_sketch",
           "normalized": "Int-\u003e[Double]-\u003e[Double]-\u003eDouble",
@@ -2638,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "dotp",
           "package": "time-series",
@@ -2647,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "dotp",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -2662,6 +2886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate avg and var in a manner described in section 3.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "incremental_avg_and_var",
           "package": "time-series",
@@ -2671,6 +2896,7 @@
         "index": {
           "description": "Update avg and var in manner described in section",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "incremental_avg_and_var",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003e[Double]-\u003e[([Double],Double,Double)]",
@@ -2685,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "len",
           "package": "time-series",
@@ -2694,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "len",
           "normalized": "[a]-\u003eb",
@@ -2708,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "mean",
           "package": "time-series",
@@ -2717,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "mean",
           "normalized": "[a]-\u003ea",
@@ -2731,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "norm",
           "package": "time-series",
@@ -2740,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "norm",
           "normalized": "[a]-\u003ea",
@@ -2755,6 +2987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate list of doubles between 0 to 1 with \u003ccode\u003e\u003ca\u003ePRG64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "prg64Doubles",
           "package": "time-series",
@@ -2765,6 +2998,7 @@
         "index": {
           "description": "Generate list of doubles between to with PRG64",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "prg64Doubles",
           "normalized": "Integer-\u003e[Double]",
@@ -2781,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow ratio of correlation value computed with direct function and\n computed with standardized convolved sketch distance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "print_comparisons_incr",
           "package": "time-series",
@@ -2791,6 +3026,7 @@
         "index": {
           "description": "Show ratio of correlation value computed with direct function and computed with standardized convolved sketch distance",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "print_comparisons_incr",
           "normalized": "IO()",
@@ -2806,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint comparisions of single sketch.\n\u003c/p\u003e\u003cp\u003eShowing sliding window contents, sketch from structured vector,\n sketch from direct dot product, diff of the two, and ratio of the two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "print_comparisons_of_single_sketch",
           "package": "time-series",
@@ -2816,6 +3053,7 @@
         "index": {
           "description": "Print comparisions of single sketch Showing sliding window contents sketch from structured vector sketch from direct dot product diff of the two and ratio of the two",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "print_comparisons_of_single_sketch",
           "normalized": "IO()",
@@ -2830,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "print_convolved_sketches",
           "package": "time-series",
@@ -2839,6 +3078,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "print_convolved_sketches",
           "normalized": "Int-\u003eIO()",
@@ -2853,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "print_corr_diffs",
           "package": "time-series",
@@ -2862,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "print_corr_diffs",
           "normalized": "IO()",
@@ -2877,6 +3119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint \u003ccode\u003edirect_div_by_sketch\u003c/code\u003e with different sketch sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "print_dist_ratios",
           "package": "time-series",
@@ -2887,6 +3130,7 @@
         "index": {
           "description": "Print direct div by sketch with different sketch sizes",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "print_dist_ratios",
           "normalized": "IO()",
@@ -2902,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush the contents of first list to second list, returning list\n having same length as second list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "push",
           "package": "time-series",
@@ -2912,6 +3157,7 @@
         "index": {
           "description": "Push the contents of first list to second list returning list having same length as second list",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "push",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -2927,6 +3173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom values treated as \u003cem\u003econtrolling vector\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "rvControl",
           "package": "time-series",
@@ -2937,6 +3184,7 @@
         "index": {
           "description": "Random values treated as controlling vector",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "rvControl",
           "normalized": "[Double]",
@@ -2953,6 +3201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom values treated as \u003cem\u003eunit\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "rvUnit",
           "package": "time-series",
@@ -2963,6 +3212,7 @@
         "index": {
           "description": "Random values treated as unit",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "rvUnit",
           "normalized": "[Double]",
@@ -2978,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "seq_one_sketch",
           "package": "time-series",
@@ -2987,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "seq_one_sketch",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003e[Double]-\u003e[([Double],Double)]",
@@ -3002,6 +3254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScratch of:\n \u003cem\u003eFigure B.6: Structured convolution procedure every basic window\u003c/em\u003e.\n Still has \"Curse of Dimensionality\".\n\u003c/p\u003e\u003cp\u003eThis time, sketch size is controlled with given argument.\n\u003c/p\u003e\u003cp\u003eXXX: Normalization is improper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "sequence_of_sketches",
           "package": "time-series",
@@ -3011,6 +3264,7 @@
         "index": {
           "description": "Scratch of Figure B.6 Structured convolution procedure every basic window Still has Curse of Dimensionality This time sketch size is controlled with given argument XXX Normalization is improper",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "sequence_of_sketches",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003eInt-\u003e[Double]-\u003e[([Double],[Double])]",
@@ -3026,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize 2 sketch vector of t constructed from random vectors v1 and\n v2.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esketch_of_t\n\u003c/code\u003e\u003c/strong\u003e[0.30000000000000004,-4.58]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "sketch_of_t",
           "package": "time-series",
@@ -3036,6 +3291,7 @@
         "index": {
           "description": "Size sketch vector of constructed from random vectors v1 and v2 sketch of",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "sketch_of_t",
           "normalized": "[Double]",
@@ -3050,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "sq",
           "package": "time-series",
@@ -3059,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "sq",
           "normalized": "a-\u003ea",
@@ -3073,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "standardize",
           "package": "time-series",
@@ -3082,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "standardize",
           "normalized": "[Double]-\u003e[Double]",
@@ -3096,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "stddev",
           "package": "time-series",
@@ -3105,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "stddev",
           "normalized": "[Double]-\u003eDouble",
@@ -3119,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "swins01",
           "package": "time-series",
@@ -3128,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "swins01",
           "package": "time-series",
@@ -3141,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom vector rbw:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e rbw = (r&#8320;,r&#8321;,...,rbw-1\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eand \u003cem\u003econtrol vector\u003c/em\u003e b:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e b = (b&#8320;,b&#8321;,...,bnb-1\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "unit_random_vector_and_control_vector",
           "package": "time-series",
@@ -3150,6 +3415,7 @@
         "index": {
           "description": "Random vector rbw rbw rbw-1 and control vector bnb-1",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "unit_random_vector_and_control_vector",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003eRandomVector",
@@ -3164,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "variance_direct",
           "package": "time-series",
@@ -3173,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "variance_direct",
           "normalized": "[Double]-\u003eDouble",
@@ -3187,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "vw",
           "package": "time-series",
@@ -3196,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "vw",
           "normalized": "[Double]",
@@ -3210,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "vw'",
           "package": "time-series",
@@ -3219,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "vw'",
           "normalized": "[Double]",
@@ -3233,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "vx",
           "package": "time-series",
@@ -3242,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "vx",
           "normalized": "[Double]",
@@ -3256,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "vx'",
           "package": "time-series",
@@ -3265,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "vx'",
           "normalized": "[Double]",
@@ -3279,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "w0",
           "package": "time-series",
@@ -3288,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "w0",
           "package": "time-series",
@@ -3300,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "w1",
           "package": "time-series",
@@ -3309,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "w1",
           "package": "time-series",
@@ -3321,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "w1_copied_from_w0",
           "package": "time-series",
@@ -3330,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "w1_copied_from_w0",
           "package": "time-series",
@@ -3343,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom vector for sliding window, built from unit random vector\n and control vector:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e r = (rbw&#8901;b&#8320;,rbw&#8901;b&#8321;,...,rbw&#8901;bnb-1\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Scratch",
           "name": "whole_random_vector",
           "package": "time-series",
@@ -3352,6 +3635,7 @@
         "index": {
           "description": "Random vector for sliding window built from unit random vector and control vector rbw rbw rbw bnb-1",
           "hierarchy": "TimeSeries Scratch",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Scratch",
           "name": "whole_random_vector",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003e[Double]",
@@ -3367,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Utils",
           "name": "Utils",
           "package": "time-series",
@@ -3376,6 +3661,7 @@
         "index": {
           "description": "Utilities",
           "hierarchy": "TimeSeries Utils",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Utils",
           "name": "Utils",
           "package": "time-series",
@@ -3390,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate given string by comma.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecomma \"foo,bar,buzz\"\n\u003c/code\u003e\u003c/strong\u003e[\"foo\",\"bar\",\"buzz\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Utils",
           "name": "comma",
           "package": "time-series",
@@ -3400,6 +3687,7 @@
         "index": {
           "description": "Separate given string by comma comma foo bar buzz foo bar buzz",
           "hierarchy": "TimeSeries Utils",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Utils",
           "name": "comma",
           "normalized": "String-\u003e[String]",
@@ -3415,6 +3703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat contents of CSV file.\n\u003c/p\u003e\u003cp\u003eSee \"data/correlated-walks_rho09_n100000_k5.csv\" for input sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Utils",
           "name": "formatCSV",
           "package": "time-series",
@@ -3425,6 +3714,7 @@
         "index": {
           "description": "Format contents of CSV file See data correlated-walks rho09 n100000 k5.csv for input sample",
           "hierarchy": "TimeSeries Utils",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Utils",
           "name": "formatCSV",
           "normalized": "String-\u003e[[Double]]",
@@ -3441,6 +3731,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWindow for time series analysis.\n\u003c/p\u003e\u003cp\u003eLater these shall relate to memory and FPGA internal registers in\nhardware...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "Window",
           "package": "time-series",
@@ -3450,6 +3741,7 @@
         "index": {
           "description": "Window for time series analysis Later these shall relate to memory and FPGA internal registers in hardware",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "Window",
           "package": "time-series",
@@ -3464,6 +3756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "RandomVector",
           "package": "time-series",
@@ -3473,6 +3766,7 @@
         "index": {
           "description": "Random vector",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "RandomVector",
           "package": "time-series",
@@ -3487,6 +3781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsidering to restrict window size to power of 2, at least for\n initial phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "Size",
           "package": "time-series",
@@ -3496,6 +3791,7 @@
         "index": {
           "description": "Considering to restrict window size to power of at least for initial phase",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "Size",
           "package": "time-series",
@@ -3510,6 +3806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype for windowd data.\n\u003c/p\u003e\u003cp\u003eShall relate to memory contents in hardware.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "Window",
           "package": "time-series",
@@ -3519,6 +3816,7 @@
         "index": {
           "description": "Newtype for windowd data Shall relate to memory contents in hardware",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "Window",
           "package": "time-series",
@@ -3532,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "RandomVector",
           "package": "time-series",
@@ -3541,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "RandomVector",
           "package": "time-series",
@@ -3554,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "Window",
           "package": "time-series",
@@ -3563,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "Window",
           "package": "time-series",
@@ -3577,6 +3879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend two windows, with shifting the contents of second window.\n Last \u003cem\u003en\u003c/em\u003e elements of second window is removed, where \u003cem\u003en\u003c/em\u003e is number\n of elements in first window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "append",
           "package": "time-series",
@@ -3587,6 +3890,7 @@
         "index": {
           "description": "Append two windows with shifting the contents of second window Last elements of second window is removed where is number of elements in first window",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "append",
           "normalized": "Window-\u003eWindow-\u003eWindow",
@@ -3602,6 +3906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAverage of window contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "average",
           "package": "time-series",
@@ -3612,6 +3917,7 @@
         "index": {
           "description": "Average of window contents",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "average",
           "normalized": "Window-\u003eDouble",
@@ -3627,6 +3933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl random vector, mentioned as \u003cem\u003eb\u003c/em\u003e in the paper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "controlRV",
           "package": "time-series",
@@ -3637,6 +3944,7 @@
         "index": {
           "description": "Control random vector mentioned as in the paper",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "controlRV",
           "package": "time-series",
@@ -3651,6 +3959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy contents of window to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "copyContents",
           "package": "time-series",
@@ -3660,6 +3969,7 @@
         "index": {
           "description": "Copy contents of window to another",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "copyContents",
           "normalized": "Window-\u003eWindow-\u003eWindow",
@@ -3676,6 +3986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot product of given two windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "dotp",
           "package": "time-series",
@@ -3686,6 +3997,7 @@
         "index": {
           "description": "Dot product of given two windows",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "dotp",
           "normalized": "Window-\u003eWindow-\u003eDouble",
@@ -3701,6 +4013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot produt of list of window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "dotps",
           "package": "time-series",
@@ -3711,6 +4024,7 @@
         "index": {
           "description": "Dot produt of list of window",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "dotps",
           "normalized": "[Window]-\u003eWindow-\u003eWindow",
@@ -3726,6 +4040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindow of given size, filled with zeros.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "empty",
           "package": "time-series",
@@ -3736,6 +4051,7 @@
         "index": {
           "description": "Window of given size filled with zeros",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "empty",
           "normalized": "Size-\u003eWindow",
@@ -3751,6 +4067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate window from assoc list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "fromList",
           "package": "time-series",
@@ -3761,6 +4078,7 @@
         "index": {
           "description": "Create window from assoc list",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "fromList",
           "normalized": "[Double]-\u003eWindow",
@@ -3777,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "length",
           "package": "time-series",
@@ -3787,6 +4106,7 @@
         "index": {
           "description": "Length of window",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "length",
           "normalized": "Window-\u003eInt",
@@ -3802,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNorm, by viewing window as vector.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet x = fromList [0,3,4]\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet y = fromList [0,0,0]\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edistance x y\n\u003c/code\u003e\u003c/strong\u003e5.0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "norm",
           "package": "time-series",
@@ -3812,6 +4133,7 @@
         "index": {
           "description": "Norm by viewing window as vector let fromList let fromList distance",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "norm",
           "normalized": "Window-\u003eWindow-\u003eDouble",
@@ -3827,6 +4149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow contents of window with \u003ccode\u003e\u003ca\u003eprintf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "pretty",
           "package": "time-series",
@@ -3837,6 +4160,7 @@
         "index": {
           "description": "Show contents of window with printf",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "pretty",
           "normalized": "Window-\u003eString",
@@ -3852,6 +4176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut given \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e as first element, shifts all the other\n element except for the last one, which being removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "push",
           "package": "time-series",
@@ -3862,6 +4187,7 @@
         "index": {
           "description": "Put given Double as first element shifts all the other element except for the last one which being removed",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "push",
           "normalized": "Double-\u003eWindow-\u003eWindow",
@@ -3877,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate window for random vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "randomVector",
           "package": "time-series",
@@ -3886,6 +4213,7 @@
         "index": {
           "description": "Create window for random vectors",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "randomVector",
           "normalized": "Integer-\u003eSize-\u003eSize-\u003eRandomVector",
@@ -3902,6 +4230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize 1 window containing given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "singleton",
           "package": "time-series",
@@ -3912,6 +4241,7 @@
         "index": {
           "description": "Size window containing given value",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "singleton",
           "normalized": "Double-\u003eWindow",
@@ -3927,6 +4257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSums up square of window elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "sumSqWindow",
           "package": "time-series",
@@ -3937,6 +4268,7 @@
         "index": {
           "description": "Sums up square of window elements",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "sumSqWindow",
           "normalized": "Window-\u003eDouble",
@@ -3953,6 +4285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSums up window elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "sumWindow",
           "package": "time-series",
@@ -3963,6 +4296,7 @@
         "index": {
           "description": "Sums up window elements",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "sumWindow",
           "normalized": "Window-\u003eDouble",
@@ -3978,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "toList",
           "package": "time-series",
@@ -3987,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "toList",
           "normalized": "Window-\u003e[Double]",
@@ -4003,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit random vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "unitRV",
           "package": "time-series",
@@ -4013,6 +4350,7 @@
         "index": {
           "description": "Unit random vector",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "unitRV",
           "package": "time-series",
@@ -4027,6 +4365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariance of window contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "variance",
           "package": "time-series",
@@ -4037,6 +4376,7 @@
         "index": {
           "description": "Variance of window contents",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "variance",
           "normalized": "Window-\u003eDouble",
@@ -4052,6 +4392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate whole random vector from \u003ccode\u003e\u003ca\u003eRandomVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUnit random vector and control vector in given \u003ccode\u003e\u003ca\u003eRandomVector\u003c/a\u003e\u003c/code\u003e is\n convolved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:52 UTC 2014",
           "module": "TimeSeries.Window",
           "name": "wholeRandomVector",
           "package": "time-series",
@@ -4061,6 +4402,7 @@
         "index": {
           "description": "Create whole random vector from RandomVector Unit random vector and control vector in given RandomVector is convolved",
           "hierarchy": "TimeSeries Window",
+          "indexed": "2014-03-11T20:22:52",
           "module": "TimeSeries.Window",
           "name": "wholeRandomVector",
           "normalized": "RandomVector-\u003eWindow",

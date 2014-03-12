@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "biocore"
+        "phrase": "biocore",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines common data structures for biosequences,\n    i.e. data that represents nucleotide or protein sequences.\n\u003c/p\u003e\u003cp\u003eBasically, anything resembling or wrapping a sequence should\n    implement the \u003ccode\u003e\u003ca\u003eBioSeq\u003c/a\u003e\u003c/code\u003e class (and \u003ccode\u003e\u003ca\u003eBioSeqQual\u003c/a\u003e\u003c/code\u003e if quality information\n    is available).\n\u003c/p\u003e\u003cp\u003eThe data types are mostly wrappers from lazy bytestrings from\n    \u003ccode\u003e\u003ca\u003eLazy\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eChar8\u003c/a\u003e\u003c/code\u003e, but most users\n    of this module should not need to access the underlying data types directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "Sequence",
           "package": "biocore",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines common data structures for biosequences i.e data that represents nucleotide or protein sequences Basically anything resembling or wrapping sequence should implement the BioSeq class and BioSeqQual if quality information is available The data types are mostly wrappers from lazy bytestrings from Lazy and Char8 but most users of this module should not need to access the underlying data types directly",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "Sequence",
           "package": "biocore",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBioSeq\u003c/a\u003e\u003c/code\u003e class models sequence data, and any data object that\n   represents a biological sequence should implement it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "BioSeq",
           "package": "biocore",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The BioSeq class models sequence data and any data object that represents biological sequence should implement it",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "BioSeq",
           "package": "biocore",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe BioSeqQual class extends \u003ccode\u003e\u003ca\u003eBioSeq\u003c/a\u003e\u003c/code\u003e with quality data.  Any correspondig data object\n   should be an instance, this will allow Fasta formatted quality data \u003ccode\u003e\u003ca\u003etoFastaQual\u003c/a\u003e\u003c/code\u003e, as\n   well as the combined FastQ format (via \u003ccode\u003e\u003ca\u003etoFastQ\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "BioSeqQual",
           "package": "biocore",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The BioSeqQual class extends BioSeq with quality data Any correspondig data object should be an instance this will allow Fasta formatted quality data toFastaQual as well as the combined FastQ format via toFastQ",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "BioSeqQual",
           "package": "biocore",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eOffset\u003c/a\u003e\u003c/code\u003e is a zero-based index into a sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "Offset",
           "package": "biocore",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An Offset is zero-based index into sequence",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "Offset",
           "package": "biocore",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quality value is in the range 0..255.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "Qual",
           "package": "biocore",
@@ -120,6 +129,7 @@
         "index": {
           "description": "quality value is in the range",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "Qual",
           "package": "biocore",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuality data are lazy bytestrings of \u003ccode\u003e\u003ca\u003eQual\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "QualData",
           "package": "biocore",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Quality data are lazy bytestrings of Qual",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "QualData",
           "package": "biocore",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence data are lazy bytestrings of ASCII characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "SeqData",
           "package": "biocore",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Sequence data are lazy bytestrings of ASCII characters",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "SeqData",
           "package": "biocore",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence data are lazy bytestrings of ASCII characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "SeqLabel",
           "package": "biocore",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Sequence data are lazy bytestrings of ASCII characters",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "SeqLabel",
           "package": "biocore",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "Offset",
           "package": "biocore",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "Offset",
           "package": "biocore",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "Qual",
           "package": "biocore",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "Qual",
           "package": "biocore",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "QualData",
           "package": "biocore",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "QualData",
           "package": "biocore",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "SeqData",
           "package": "biocore",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "SeqData",
           "package": "biocore",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "SeqLabel",
           "package": "biocore",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "SeqLabel",
           "package": "biocore",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "seqdata",
           "package": "biocore",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "seqdata",
           "package": "biocore",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "seqheader",
           "package": "biocore",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "seqheader",
           "package": "biocore",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "seqid",
           "package": "biocore",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "seqid",
           "package": "biocore",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Warning: 'seqlabel' is deprecated, use 'seqid' or 'seqheader' instead.\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "seqlabel",
           "package": "biocore",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Deprecated Warning seqlabel is deprecated use seqid or seqheader instead",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "seqlabel",
           "package": "biocore",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "seqlength",
           "package": "biocore",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "seqlength",
           "package": "biocore",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "seqqual",
           "package": "biocore",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "seqqual",
           "normalized": "a-\u003eQualData",
@@ -443,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput FastQ-formatted data.  For simplicity, only the Sanger quality format is supported,\n   and only four lines per sequence (i.e. no line breaks in sequence or quality data).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "toFastQ",
           "package": "biocore",
@@ -453,6 +492,7 @@
         "index": {
           "description": "Output FastQ-formatted data For simplicity only the Sanger quality format is supported and only four lines per sequence i.e no line breaks in sequence or quality data",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "toFastQ",
           "normalized": "a-\u003eByteString",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny \u003ccode\u003e\u003ca\u003eBioSeq\u003c/a\u003e\u003c/code\u003e can be formatted as Fasta, 60-char lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "toFasta",
           "package": "biocore",
@@ -479,6 +520,7 @@
         "index": {
           "description": "Any BioSeq can be formatted as Fasta char lines",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "toFasta",
           "normalized": "a-\u003eByteString",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput Fasta-formatted quality data (.qual files), where quality values are output as\n   whitespace-separated integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "toFastaQual",
           "package": "biocore",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Output Fasta-formatted quality data qual files where quality values are output as whitespace-separated integers",
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "toFastaQual",
           "normalized": "a-\u003eByteString",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "unOff",
           "package": "biocore",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "unOff",
           "package": "biocore",
@@ -542,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "unQD",
           "package": "biocore",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "unQD",
           "package": "biocore",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "unQual",
           "package": "biocore",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "unQual",
           "package": "biocore",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "unSD",
           "package": "biocore",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "unSD",
           "package": "biocore",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Sequence",
           "name": "unSL",
           "package": "biocore",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Sequence",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Sequence",
           "name": "unSL",
           "package": "biocore",
@@ -631,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefine common data types for features of sequences \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Strand",
           "name": "Strand",
           "package": "biocore",
@@ -640,6 +695,7 @@
         "index": {
           "description": "Define common data types for features of sequences",
           "hierarchy": "Bio Core Strand",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Strand",
           "name": "Strand",
           "package": "biocore",
@@ -654,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eStrand\u003c/a\u003e\u003c/code\u003e is either plus (forward) or minus (reverse or reverse-complement)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Strand",
           "name": "Strand",
           "package": "biocore",
@@ -663,6 +720,7 @@
         "index": {
           "description": "Strand is either plus forward or minus reverse or reverse-complement",
           "hierarchy": "Bio Core Strand",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Strand",
           "name": "Strand",
           "package": "biocore",
@@ -676,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Strand",
           "name": "Minus",
           "package": "biocore",
@@ -685,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Strand",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Strand",
           "name": "Minus",
           "package": "biocore",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core.Strand",
           "name": "Plus",
           "package": "biocore",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Bio Core Strand",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core.Strand",
           "name": "Plus",
           "package": "biocore",
@@ -721,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-exporting everything from sub-modules for simplicity \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:13 UTC 2014",
           "module": "Bio.Core",
           "name": "Core",
           "package": "biocore",
@@ -730,6 +793,7 @@
         "index": {
           "description": "Re-exporting everything from sub-modules for simplicity",
           "hierarchy": "Bio Core",
+          "indexed": "2014-03-11T17:22:13",
           "module": "Bio.Core",
           "name": "Core",
           "package": "biocore",

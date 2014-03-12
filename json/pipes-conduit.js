@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pipes-conduit"
+        "phrase": "pipes-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdapters to convert conduits to pipes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:06 UTC 2014",
           "module": "Control.Pipe.Conduit",
           "name": "Conduit",
           "package": "pipes-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Adapters to convert conduits to pipes",
           "hierarchy": "Control Pipe Conduit",
+          "indexed": "2014-03-11T19:39:06",
           "module": "Control.Pipe.Conduit",
           "name": "Conduit",
           "package": "pipes-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003ePipe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe resulting pipe behaves like the original \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e, and closes it upon\n termination. Any unconsumed input is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:06 UTC 2014",
           "module": "Control.Pipe.Conduit",
           "name": "conduitPipe",
           "package": "pipes-conduit",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Convert Conduit to Pipe The resulting pipe behaves like the original Conduit and closes it upon termination Any unconsumed input is returned",
           "hierarchy": "Control Pipe Conduit",
+          "indexed": "2014-03-11T19:39:06",
           "module": "Control.Pipe.Conduit",
           "name": "conduitPipe",
           "normalized": "Conduit a b c-\u003ePipe a c(ResourceT b)(Maybe a)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003ePipe\u003c/a\u003e\u003c/code\u003e, ignoring unconsumed input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:06 UTC 2014",
           "module": "Control.Pipe.Conduit",
           "name": "conduitPipe_",
           "package": "pipes-conduit",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Convert Conduit to Pipe ignoring unconsumed input",
           "hierarchy": "Control Pipe Conduit",
+          "indexed": "2014-03-11T19:39:06",
           "module": "Control.Pipe.Conduit",
           "name": "conduitPipe_",
           "normalized": "Conduit a b c-\u003ePipe a c(ResourceT b)()",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003ePipe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOptional consumed input is returned, together with the sink result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:06 UTC 2014",
           "module": "Control.Pipe.Conduit",
           "name": "sinkPipe",
           "package": "pipes-conduit",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Convert Sink into Pipe Optional consumed input is returned together with the sink result",
           "hierarchy": "Control Pipe Conduit",
+          "indexed": "2014-03-11T19:39:06",
           "module": "Control.Pipe.Conduit",
           "name": "sinkPipe",
           "normalized": "Sink a b c-\u003ePipe a d(ResourceT b)(Maybe a,c)",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003ePipe\u003c/a\u003e\u003c/code\u003e, ignoring results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:06 UTC 2014",
           "module": "Control.Pipe.Conduit",
           "name": "sinkPipe_",
           "package": "pipes-conduit",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Convert Sink into Pipe ignoring results",
           "hierarchy": "Control Pipe Conduit",
+          "indexed": "2014-03-11T19:39:06",
           "module": "Control.Pipe.Conduit",
           "name": "sinkPipe_",
           "normalized": "Sink a b c-\u003ePipe a d(ResourceT b)()",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003ePipe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe resulting \u003ccode\u003e\u003ca\u003ePipe\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eProducer\u003c/a\u003e\u003c/code\u003e which pulls from the \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e until\n exhaustion and yields the received data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:06 UTC 2014",
           "module": "Control.Pipe.Conduit",
           "name": "sourcePipe",
           "package": "pipes-conduit",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Convert Source into Pipe The resulting Pipe is Producer which pulls from the Source until exhaustion and yields the received data",
           "hierarchy": "Control Pipe Conduit",
+          "indexed": "2014-03-11T19:39:06",
           "module": "Control.Pipe.Conduit",
           "name": "sourcePipe",
           "normalized": "Source a b-\u003ePipe c b(ResourceT a)()",

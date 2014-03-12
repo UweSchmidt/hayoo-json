@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb-dynamic"
+        "phrase": "haskelldb-dynamic",
+        "type": "phrase"
       },
       "type": "context"
     }

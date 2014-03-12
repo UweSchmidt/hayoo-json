@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shakespeare-text"
+        "phrase": "shakespeare-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "Text",
           "package": "shakespeare-text",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "Text",
           "package": "shakespeare-text",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "TextUrl",
           "package": "shakespeare-text",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "TextUrl",
           "package": "shakespeare-text",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "ToText",
           "package": "shakespeare-text",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "ToText",
           "package": "shakespeare-text",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecodegen is designed for generating Yesod code, including templates\n So it uses different interpolation characters that won't clash with templates.\n You can use the normal text quasiquoters to generate code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "codegen",
           "package": "shakespeare-text",
@@ -92,6 +99,7 @@
         "index": {
           "description": "codegen is designed for generating Yesod code including templates So it uses different interpolation characters that won clash with templates You can use the normal text quasiquoters to generate code",
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "codegen",
           "package": "shakespeare-text",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "codegenFile",
           "package": "shakespeare-text",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "codegenFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "codegenFileReload",
           "package": "shakespeare-text",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "codegenFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates strict Text\n codegen is designed for generating Yesod code, including templates\n So it uses different interpolation characters that won't clash with templates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "codegenSt",
           "package": "shakespeare-text",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Generates strict Text codegen is designed for generating Yesod code including templates So it uses different interpolation characters that won clash with templates",
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "codegenSt",
           "package": "shakespeare-text",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "lt",
           "package": "shakespeare-text",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "lt",
           "package": "shakespeare-text",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "renderTextUrl",
           "package": "shakespeare-text",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "renderTextUrl",
           "normalized": "RenderUrl a-\u003eTextUrl a-\u003eText",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "st",
           "package": "shakespeare-text",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "st",
           "package": "shakespeare-text",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "stext",
           "package": "shakespeare-text",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "stext",
           "package": "shakespeare-text",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "text",
           "package": "shakespeare-text",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "text",
           "package": "shakespeare-text",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "textFile",
           "package": "shakespeare-text",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "textFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use textFileReload instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "textFileDebug",
           "package": "shakespeare-text",
@@ -319,6 +346,7 @@
         "index": {
           "description": "Deprecated Please use textFileReload instead",
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "textFileDebug",
           "normalized": "FilePath-\u003eQ Exp",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "textFileReload",
           "package": "shakespeare-text",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "textFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:13 UTC 2014",
           "module": "Text.Shakespeare.Text",
           "name": "toText",
           "package": "shakespeare-text",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Text",
+          "indexed": "2014-03-11T20:01:13",
           "module": "Text.Shakespeare.Text",
           "name": "toText",
           "normalized": "a-\u003eBuilder",

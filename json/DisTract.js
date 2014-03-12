@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DisTract"
+        "phrase": "DisTract",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Comment",
           "name": "3AaddComment",
           "package": "DisTract",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Comment",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Comment",
           "name": "3AaddComment",
           "normalized": "Config-\u003eBug-\u003eMaybe(String,String)-\u003eIO Bug",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Comment",
           "name": "3AcommentsDir",
           "package": "DisTract",
@@ -51,6 +54,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Comment",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Comment",
           "name": "3AcommentsDir",
           "package": "DisTract",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Comment",
           "name": "3AloadComments",
           "package": "DisTract",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Comment",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Comment",
           "name": "3AloadComments",
           "normalized": "Config-\u003eBugId-\u003eIO Comment",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Comment",
           "name": "3AwriteComment",
           "package": "DisTract",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Comment",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Comment",
           "name": "3AwriteComment",
           "normalized": "Config-\u003eBugId-\u003eString-\u003eMaybe String-\u003eIO Comment",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Field",
           "name": "3AfieldsDir",
           "package": "DisTract",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Field",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Field",
           "name": "3AfieldsDir",
           "package": "DisTract",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Field",
           "name": "3AloadFieldDfns",
           "package": "DisTract",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Field",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Field",
           "name": "3AloadFieldDfns",
           "normalized": "Config-\u003eIO(Map String Field)",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Field",
           "name": "3AloadFields",
           "package": "DisTract",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Field",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Field",
           "name": "3AloadFields",
           "normalized": "Config-\u003eBugId-\u003eIO FieldValues",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Field",
           "name": "3AupdateFields",
           "package": "DisTract",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Field",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Field",
           "name": "3AupdateFields",
           "normalized": "Config-\u003eBug-\u003eMap String Value-\u003eIO(Bug,[FieldValue])",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.Field",
           "name": "3AwriteFields",
           "package": "DisTract",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug Field",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.Field",
           "name": "3AwriteFields",
           "normalized": "Config-\u003eBugId-\u003eMap String Value-\u003eIO FieldValues",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.PseudoField",
           "name": "3AloadPseudoFields",
           "package": "DisTract",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug PseudoField",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.PseudoField",
           "name": "3AloadPseudoFields",
           "normalized": "Config-\u003eBug-\u003eIO Bug",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug.PseudoField",
           "name": "3ApseudoFieldDfn",
           "package": "DisTract",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug PseudoField",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug.PseudoField",
           "name": "3ApseudoFieldDfn",
           "normalized": "PseudoField-\u003eField",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug",
           "name": "3AloadBug",
           "package": "DisTract",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug",
           "name": "3AloadBug",
           "normalized": "Config-\u003eBugId-\u003eIO(Maybe Bug)",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug",
           "name": "3AmakeNewBug",
           "package": "DisTract",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug",
           "name": "3AmakeNewBug",
           "normalized": "Config-\u003eString-\u003eMap String Value-\u003eIO Bug",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Bug",
           "name": "3AupdateBug",
           "package": "DisTract",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "DisTract Bug",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Bug",
           "name": "3AupdateBug",
           "normalized": "Config-\u003eBugId-\u003eMaybe(String,String)-\u003eMap String Value-\u003eIO(Maybe Bug)",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.BugFileInputLoader",
           "name": "3AparseForBugUpdate",
           "package": "DisTract",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "DisTract BugFileInputLoader",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.BugFileInputLoader",
           "name": "3AparseForBugUpdate",
           "normalized": "FilePath-\u003eIO(Maybe(BugId,Maybe(String,String),Map String Value))",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.BugFileInputLoader",
           "name": "3AparseForNewBug",
           "package": "DisTract",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "DisTract BugFileInputLoader",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.BugFileInputLoader",
           "name": "3AparseForNewBug",
           "normalized": "FilePath-\u003eIO(Maybe(String,Map String Value))",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Config.Parser",
           "name": "3AfindUserInPrefsBranch",
           "package": "DisTract",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "DisTract Config Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Config.Parser",
           "name": "3AfindUserInPrefsBranch",
           "normalized": "String-\u003eString",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Config.Parser",
           "name": "3AparseConfig",
           "package": "DisTract",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "DisTract Config Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Config.Parser",
           "name": "3AparseConfig",
           "normalized": "String-\u003eMap String String",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Config",
           "name": "3AbuildConfig",
           "package": "DisTract",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "DisTract Config",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Config",
           "name": "3AbuildConfig",
           "package": "DisTract",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Config",
           "name": "3AbuildConfigFromArgs",
           "package": "DisTract",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "DisTract Config",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Config",
           "name": "3AbuildConfigFromArgs",
           "normalized": "[String]-\u003eIO Config",
@@ -492,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Config",
           "name": "3AdefaultConfig",
           "package": "DisTract",
@@ -501,6 +542,7 @@
         },
         "index": {
           "hierarchy": "DisTract Config",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Config",
           "name": "3AdefaultConfig",
           "normalized": "FilePath-\u003e[String]-\u003eIO Config",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Config",
           "name": "3Apackage_name",
           "package": "DisTract",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "DisTract Config",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Config",
           "name": "3Apackage_name",
           "package": "DisTract",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Config",
           "name": "3Apackage_version",
           "package": "DisTract",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "DisTract Config",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Config",
           "name": "3Apackage_version",
           "package": "DisTract",
@@ -560,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.HTML.BugList",
           "name": "3AformatBugList",
           "package": "DisTract",
@@ -569,6 +616,7 @@
         },
         "index": {
           "hierarchy": "DisTract HTML BugList",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.HTML.BugList",
           "name": "3AformatBugList",
           "normalized": "Config-\u003eIO()",
@@ -584,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.HTML.BugNew",
           "name": "3AformatNew",
           "package": "DisTract",
@@ -593,6 +642,7 @@
         },
         "index": {
           "hierarchy": "DisTract HTML BugNew",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.HTML.BugNew",
           "name": "3AformatNew",
           "normalized": "Config-\u003eIO()",
@@ -608,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.HTML.BugNew",
           "name": "3AnewToHTML",
           "package": "DisTract",
@@ -617,6 +668,7 @@
         },
         "index": {
           "hierarchy": "DisTract HTML BugNew",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.HTML.BugNew",
           "name": "3AnewToHTML",
           "normalized": "Config-\u003eIO String",
@@ -632,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.HTML.BugView",
           "name": "3AbugToHTML",
           "package": "DisTract",
@@ -641,6 +694,7 @@
         },
         "index": {
           "hierarchy": "DisTract HTML BugView",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.HTML.BugView",
           "name": "3AbugToHTML",
           "normalized": "Config-\u003eBug-\u003eIO String",
@@ -656,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.HTML.BugView",
           "name": "3AformatBug",
           "package": "DisTract",
@@ -665,6 +720,7 @@
         },
         "index": {
           "hierarchy": "DisTract HTML BugView",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.HTML.BugView",
           "name": "3AformatBug",
           "normalized": "Config-\u003eMaybe Bug-\u003eIO()",
@@ -680,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.HTML.BugView",
           "name": "3AformatBugId",
           "package": "DisTract",
@@ -689,6 +746,7 @@
         },
         "index": {
           "hierarchy": "DisTract HTML BugView",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.HTML.BugView",
           "name": "3AformatBugId",
           "normalized": "Config-\u003eBugId-\u003eIO()",
@@ -704,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.HTML.Fields",
           "name": "3AtoFormInput",
           "package": "DisTract",
@@ -713,6 +772,7 @@
         },
         "index": {
           "hierarchy": "DisTract HTML Fields",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.HTML.Fields",
           "name": "3AtoFormInput",
           "normalized": "FieldValue-\u003eString",
@@ -728,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.HTML.Fields",
           "name": "3AtoSummary",
           "package": "DisTract",
@@ -737,6 +798,7 @@
         },
         "index": {
           "hierarchy": "DisTract HTML Fields",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.HTML.Fields",
           "name": "3AtoSummary",
           "normalized": "FieldValue-\u003eString",
@@ -752,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.IOUtils",
           "name": "3AloadAll",
           "package": "DisTract",
@@ -761,6 +824,7 @@
         },
         "index": {
           "hierarchy": "DisTract IOUtils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.IOUtils",
           "name": "3AloadAll",
           "normalized": "Config-\u003eIO[Maybe Bug]",
@@ -776,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.IOUtils",
           "name": "3AloadAndUpdateAll",
           "package": "DisTract",
@@ -785,6 +850,7 @@
         },
         "index": {
           "hierarchy": "DisTract IOUtils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.IOUtils",
           "name": "3AloadAndUpdateAll",
           "normalized": "Config-\u003eIO[Maybe Bug]",
@@ -800,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.IOUtils",
           "name": "3AupdateAndLoadBug",
           "package": "DisTract",
@@ -809,6 +876,7 @@
         },
         "index": {
           "hierarchy": "DisTract IOUtils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.IOUtils",
           "name": "3AupdateAndLoadBug",
           "normalized": "Config-\u003eBugId-\u003eIO(Maybe Bug)",
@@ -824,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.JSONUtils",
           "name": "3AlookupJsonString",
           "package": "DisTract",
@@ -833,6 +902,7 @@
         },
         "index": {
           "hierarchy": "DisTract JSONUtils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.JSONUtils",
           "name": "3AlookupJsonString",
           "normalized": "Map String Value-\u003eString-\u003eString",
@@ -848,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3Abin",
           "package": "DisTract",
@@ -857,6 +928,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3Abin",
           "package": "DisTract",
@@ -870,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3AbinDir",
           "package": "DisTract",
@@ -879,6 +952,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3AbinDir",
           "normalized": "FilePath-\u003eFilePath",
@@ -894,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3AbugIdToPath",
           "package": "DisTract",
@@ -903,6 +978,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3AbugIdToPath",
           "normalized": "Config-\u003eBugId-\u003eString",
@@ -918,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3Abugs",
           "package": "DisTract",
@@ -927,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3Abugs",
           "package": "DisTract",
@@ -940,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3AbugsDir",
           "package": "DisTract",
@@ -949,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3AbugsDir",
           "normalized": "FilePath-\u003eFilePath",
@@ -964,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3Ahtml",
           "package": "DisTract",
@@ -973,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3Ahtml",
           "package": "DisTract",
@@ -986,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3AhtmlDir",
           "package": "DisTract",
@@ -995,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3AhtmlDir",
           "normalized": "FilePath-\u003eFilePath",
@@ -1010,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3Aprefs",
           "package": "DisTract",
@@ -1019,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3Aprefs",
           "package": "DisTract",
@@ -1032,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Layout",
           "name": "3AprefsDir",
           "package": "DisTract",
@@ -1041,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "DisTract Layout",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Layout",
           "name": "3AprefsDir",
           "normalized": "FilePath-\u003eFilePath",
@@ -1056,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnAdd",
           "package": "DisTract",
@@ -1065,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnAdd",
           "normalized": "Config-\u003eFilePath-\u003e[FilePath]-\u003eIO()",
@@ -1080,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnAddUnknownFiles",
           "package": "DisTract",
@@ -1089,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnAddUnknownFiles",
           "normalized": "Config-\u003eFilePath-\u003eIO()",
@@ -1104,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnCheckOutBranch",
           "package": "DisTract",
@@ -1113,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnCheckOutBranch",
           "normalized": "Config-\u003eFilePath-\u003eString-\u003eFilePath-\u003eIO()",
@@ -1128,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnCommit",
           "package": "DisTract",
@@ -1137,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnCommit",
           "normalized": "Config-\u003eFilePath-\u003eString-\u003e[FilePath]-\u003eIO(Maybe Hash)",
@@ -1152,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnDoesBranchExist",
           "package": "DisTract",
@@ -1161,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnDoesBranchExist",
           "normalized": "Config-\u003eString-\u003eIO Bool",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnFindCurrentBranch",
           "package": "DisTract",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnFindCurrentBranch",
           "normalized": "Config-\u003eFilePath-\u003eIO String",
@@ -1200,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnFindVersion",
           "package": "DisTract",
@@ -1209,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnFindVersion",
           "normalized": "Config-\u003eIO SupportedVersion",
@@ -1224,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnGetBranches",
           "package": "DisTract",
@@ -1233,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnGetBranches",
           "normalized": "Config-\u003eIO[String]",
@@ -1248,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnGetRevision",
           "package": "DisTract",
@@ -1257,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnGetRevision",
           "normalized": "Config-\u003eHash-\u003eIO Revision",
@@ -1272,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnHeads",
           "package": "DisTract",
@@ -1281,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnHeads",
           "normalized": "Config-\u003eFilePath-\u003eIO[Hash]",
@@ -1296,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnInitDB",
           "package": "DisTract",
@@ -1305,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnInitDB",
           "normalized": "Config-\u003eIO()",
@@ -1320,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnLogBrief",
           "package": "DisTract",
@@ -1329,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnLogBrief",
           "normalized": "Config-\u003eFilePath-\u003e[String]-\u003eFilePath-\u003eIO[LogBrief]",
@@ -1344,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnLsKeys",
           "package": "DisTract",
@@ -1353,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnLsKeys",
           "normalized": "Config-\u003eIO([Key],[Key])",
@@ -1368,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnSetupBranch",
           "package": "DisTract",
@@ -1377,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnSetupBranch",
           "normalized": "Config-\u003eString-\u003eFilePath-\u003eIO()",
@@ -1392,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnUpdate",
           "package": "DisTract",
@@ -1401,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Interaction",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Interaction",
           "name": "3AmtnUpdate",
           "normalized": "Config-\u003eFilePath-\u003eMaybe Hash-\u003eIO()",
@@ -1416,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindCerts",
           "package": "DisTract",
@@ -1425,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindCerts",
           "normalized": "String-\u003e[Cert]",
@@ -1440,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindHash",
           "package": "DisTract",
@@ -1449,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindHash",
           "normalized": "String-\u003eHash",
@@ -1464,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindHashInCommitMessage",
           "package": "DisTract",
@@ -1473,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindHashInCommitMessage",
           "normalized": "String-\u003e(Maybe Hash)",
@@ -1488,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindHashes",
           "package": "DisTract",
@@ -1497,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindHashes",
           "normalized": "String-\u003e[Hash]",
@@ -1512,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindKeys",
           "package": "DisTract",
@@ -1521,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindKeys",
           "normalized": "String-\u003e([Key],[Key])",
@@ -1536,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindLogBriefs",
           "package": "DisTract",
@@ -1545,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindLogBriefs",
           "normalized": "String-\u003e[LogBrief]",
@@ -1560,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindVersionHash",
           "package": "DisTract",
@@ -1569,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Parser",
           "name": "3AfindVersionHash",
           "normalized": "String-\u003eHash",
@@ -1584,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Parser",
           "name": "3AhandleParseError",
           "package": "DisTract",
@@ -1593,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Parser",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Parser",
           "name": "3AhandleParseError",
           "normalized": "Either ParseError a-\u003ea",
@@ -1608,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Types",
           "name": "3ACert",
           "package": "DisTract",
@@ -1616,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Types",
           "name": "3ACert",
           "package": "DisTract",
@@ -1629,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Types",
           "name": "3AHash",
           "package": "DisTract",
@@ -1637,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Types",
           "name": "3AHash",
           "package": "DisTract",
@@ -1650,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Types",
           "name": "3AKey",
           "package": "DisTract",
@@ -1658,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Types",
           "name": "3AKey",
           "package": "DisTract",
@@ -1671,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Types",
           "name": "3ALogBrief",
           "package": "DisTract",
@@ -1679,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Types",
           "name": "3ALogBrief",
           "package": "DisTract",
@@ -1692,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Types",
           "name": "3ARevision",
           "package": "DisTract",
@@ -1700,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Types",
           "name": "3ARevision",
           "package": "DisTract",
@@ -1713,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Types",
           "name": "3ASignature",
           "package": "DisTract",
@@ -1721,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Types",
           "name": "3ASignature",
           "package": "DisTract",
@@ -1734,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Monotone.Types",
           "name": "3ATrust",
           "package": "DisTract",
@@ -1742,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "DisTract Monotone Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Monotone.Types",
           "name": "3ATrust",
           "package": "DisTract",
@@ -1755,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Parsers",
           "name": "3AfindBugId",
           "package": "DisTract",
@@ -1764,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "DisTract Parsers",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Parsers",
           "name": "3AfindBugId",
           "normalized": "String-\u003eEither ParseError BugId",
@@ -1779,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3ABug",
           "package": "DisTract",
@@ -1787,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3ABug",
           "package": "DisTract",
@@ -1800,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3ABugId",
           "package": "DisTract",
@@ -1808,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3ABugId",
           "package": "DisTract",
@@ -1821,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AComment",
           "package": "DisTract",
@@ -1829,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AComment",
           "package": "DisTract",
@@ -1842,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AConfig",
           "package": "DisTract",
@@ -1850,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AConfig",
           "package": "DisTract",
@@ -1863,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AField",
           "package": "DisTract",
@@ -1871,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AField",
           "package": "DisTract",
@@ -1884,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AFieldDfns",
           "package": "DisTract",
@@ -1892,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AFieldDfns",
           "package": "DisTract",
@@ -1905,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AFieldType",
           "package": "DisTract",
@@ -1913,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AFieldType",
           "package": "DisTract",
@@ -1926,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AFieldValue",
           "package": "DisTract",
@@ -1934,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AFieldValue",
           "package": "DisTract",
@@ -1947,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AFieldValues",
           "package": "DisTract",
@@ -1955,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AFieldValues",
           "package": "DisTract",
@@ -1968,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3ALog",
           "package": "DisTract",
@@ -1976,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3ALog",
           "package": "DisTract",
@@ -1989,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3ASupportedVersion",
           "package": "DisTract",
@@ -1997,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3ASupportedVersion",
           "package": "DisTract",
@@ -2010,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AValidator",
           "package": "DisTract",
@@ -2018,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AValidator",
           "package": "DisTract",
@@ -2031,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3ALogger",
           "package": "DisTract",
@@ -2039,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3ALogger",
           "package": "DisTract",
@@ -2052,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AisPseudoField",
           "package": "DisTract",
@@ -2061,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AisPseudoField",
           "normalized": "Field-\u003eBool",
@@ -2076,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AisPseudoFieldValue",
           "package": "DisTract",
@@ -2085,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AisPseudoFieldValue",
           "normalized": "FieldValue-\u003eBool",
@@ -2100,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AlogStr",
           "package": "DisTract",
@@ -2109,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AlogStr",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -2124,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Types",
           "name": "3AlogWithPrefix",
           "package": "DisTract",
@@ -2133,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "DisTract Types",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Types",
           "name": "3AlogWithPrefix",
           "normalized": "a-\u003eString-\u003eString-\u003eIO()",
@@ -2148,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AbugIdDateFormat",
           "package": "DisTract",
@@ -2157,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AbugIdDateFormat",
           "package": "DisTract",
@@ -2170,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AbugIdDateFormatLength",
           "package": "DisTract",
@@ -2179,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AbugIdDateFormatLength",
           "package": "DisTract",
@@ -2192,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AbugIdTimeFormatter",
           "package": "DisTract",
@@ -2201,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AbugIdTimeFormatter",
           "normalized": "UTCTime-\u003eString",
@@ -2216,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AformatTimeHuman",
           "package": "DisTract",
@@ -2225,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AformatTimeHuman",
           "normalized": "a-\u003eIO String",
@@ -2240,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AhumanTimeFormat",
           "package": "DisTract",
@@ -2249,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AhumanTimeFormat",
           "package": "DisTract",
@@ -2262,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AintersperseEvery",
           "package": "DisTract",
@@ -2271,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AintersperseEvery",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[a]",
@@ -2286,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AmonotoneDateFormat",
           "package": "DisTract",
@@ -2295,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AmonotoneDateFormat",
           "package": "DisTract",
@@ -2308,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AmonotoneDateFormatLength",
           "package": "DisTract",
@@ -2317,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AmonotoneDateFormatLength",
           "package": "DisTract",
@@ -2330,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AreadFileStrict",
           "package": "DisTract",
@@ -2339,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AreadFileStrict",
           "normalized": "FilePath-\u003eIO String",
@@ -2354,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Utils",
           "name": "3AwriteFileStrict",
           "package": "DisTract",
@@ -2363,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "DisTract Utils",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Utils",
           "name": "3AwriteFileStrict",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -2378,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "DisTract.Version",
           "name": "3AgetNameVersionFromCabal",
           "package": "DisTract",
@@ -2387,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "DisTract Version",
+          "indexed": "2014-03-11T16:39:00",
           "module": "DisTract.Version",
           "name": "3AgetNameVersionFromCabal",
           "normalized": "FilePath-\u003eQ[Dec]",
@@ -2402,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "JSON",
           "name": "3AValue",
           "package": "DisTract",
@@ -2410,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "JSON",
+          "indexed": "2014-03-11T16:39:00",
           "module": "JSON",
           "name": "3AValue",
           "package": "DisTract",
@@ -2423,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "JSON",
           "name": "3Ajson",
           "package": "DisTract",
@@ -2432,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "JSON",
+          "indexed": "2014-03-11T16:39:00",
           "module": "JSON",
           "name": "3Ajson",
           "package": "DisTract",
@@ -2445,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "JSON",
           "name": "3Aparse",
           "package": "DisTract",
@@ -2454,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "JSON",
+          "indexed": "2014-03-11T16:39:00",
           "module": "JSON",
           "name": "3Aparse",
           "normalized": "String-\u003eMaybe Value",
@@ -2469,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "JSON",
           "name": "3Astringify",
           "package": "DisTract",
@@ -2478,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "JSON",
+          "indexed": "2014-03-11T16:39:00",
           "module": "JSON",
           "name": "3Astringify",
           "normalized": "Value-\u003eString",
@@ -2493,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "JSON",
           "name": "3Astringify'",
           "package": "DisTract",
@@ -2502,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "JSON",
+          "indexed": "2014-03-11T16:39:00",
           "module": "JSON",
           "name": "3Astringify'",
           "normalized": "(Char-\u003eBool)-\u003eValue-\u003eString",
@@ -2517,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "JSON",
           "name": "3AtoDoc",
           "package": "DisTract",
@@ -2526,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "JSON",
+          "indexed": "2014-03-11T16:39:00",
           "module": "JSON",
           "name": "3AtoDoc",
           "normalized": "Value-\u003eDoc",
@@ -2541,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:00 UTC 2014",
           "module": "JSON",
           "name": "3AtoDoc'",
           "package": "DisTract",
@@ -2550,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "JSON",
+          "indexed": "2014-03-11T16:39:00",
           "module": "JSON",
           "name": "3AtoDoc'",
           "normalized": "(Char-\u003eBool)-\u003eValue-\u003eDoc",

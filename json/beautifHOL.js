@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "beautifHOL"
+        "phrase": "beautifHOL",
+        "type": "phrase"
       },
       "type": "context"
     }

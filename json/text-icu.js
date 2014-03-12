@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "text-icu"
+        "phrase": "text-icu",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eString breaking functions for Unicode, implemented as bindings to\n the International Components for Unicode (ICU) libraries.\n\u003c/p\u003e\u003cp\u003eThe text boundary positions are found according to the rules described in\n Unicode Standard Annex #29, Text Boundaries, and Unicode Standard Annex\n #14, Line Breaking Properties.  These are available at\n \u003ca\u003ehttp://www.unicode.org/reports/tr14/\u003c/a\u003e and\n \u003ca\u003ehttp://www.unicode.org/reports/tr29/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "Break",
           "package": "text-icu",
@@ -28,6 +29,7 @@
         "index": {
           "description": "String breaking functions for Unicode implemented as bindings to the International Components for Unicode ICU libraries The text boundary positions are found according to the rules described in Unicode Standard Annex Text Boundaries and Unicode Standard Annex Line Breaking Properties These are available at http www.unicode.org reports tr14 and http www.unicode.org reports tr29",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "Break",
           "package": "text-icu",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "BreakIterator",
           "package": "text-icu",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "BreakIterator",
           "package": "text-icu",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine break status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "Line",
           "package": "text-icu",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Line break status",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "Line",
           "package": "text-icu",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord break status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "Word",
           "package": "text-icu",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Word break status",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "Word",
           "package": "text-icu",
@@ -282,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocales for which text breaking information is available.  A\n \u003ccode\u003e\u003ca\u003eBreakIterator\u003c/a\u003e\u003c/code\u003e in a locale in this list will perform the correct\n text breaking for the locale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "available",
           "package": "text-icu",
@@ -292,6 +301,7 @@
         "index": {
           "description": "Locales for which text breaking information is available BreakIterator in locale in this list will perform the correct text breaking for the locale",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "available",
           "normalized": "[LocaleName]",
@@ -307,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a string on character boundaries.\n\u003c/p\u003e\u003cp\u003eCharacter boundary analysis identifies the boundaries of \"Extended\n Grapheme Clusters\", which are groupings of codepoints that should be\n treated as character-like units for many text operations.  Please see\n Unicode Standard Annex #29, Unicode Text Segmentation,\n \u003ca\u003ehttp://www.unicode.org/reports/tr29/\u003c/a\u003e for additional information on\n grapheme clusters and guidelines on their use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "breakCharacter",
           "package": "text-icu",
@@ -317,6 +328,7 @@
         "index": {
           "description": "Break string on character boundaries Character boundary analysis identifies the boundaries of Extended Grapheme Clusters which are groupings of codepoints that should be treated as character-like units for many text operations Please see Unicode Standard Annex Unicode Text Segmentation http www.unicode.org reports tr29 for additional information on grapheme clusters and guidelines on their use",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "breakCharacter",
           "normalized": "LocaleName-\u003eText-\u003eIO(BreakIterator())",
@@ -333,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a string on line boundaries.\n\u003c/p\u003e\u003cp\u003eLine boundary analysis determines where a text string can be broken when\n line wrapping. The mechanism correctly handles punctuation and hyphenated\n words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "breakLine",
           "package": "text-icu",
@@ -343,6 +356,7 @@
         "index": {
           "description": "Break string on line boundaries Line boundary analysis determines where text string can be broken when line wrapping The mechanism correctly handles punctuation and hyphenated words",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "breakLine",
           "normalized": "LocaleName-\u003eText-\u003eIO(BreakIterator Line)",
@@ -359,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a string on sentence boundaries.\n\u003c/p\u003e\u003cp\u003eSentence boundary analysis allows selection with correct interpretation\n of periods within numbers and abbreviations, and trailing punctuation\n marks such as quotation marks and parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "breakSentence",
           "package": "text-icu",
@@ -369,6 +384,7 @@
         "index": {
           "description": "Break string on sentence boundaries Sentence boundary analysis allows selection with correct interpretation of periods within numbers and abbreviations and trailing punctuation marks such as quotation marks and parentheses",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "breakSentence",
           "normalized": "LocaleName-\u003eText-\u003eIO(BreakIterator())",
@@ -385,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a string on word boundaries.\n\u003c/p\u003e\u003cp\u003eWord boundary analysis is used by search and replace functions, as well\n as within text editing applications that allow the user to select words\n with a double click. Word selection provides correct interpretation of\n punctuation marks within and following words. Characters that are not\n part of a word, such as symbols or punctuation marks, have word breaks on\n both sides.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "breakWord",
           "package": "text-icu",
@@ -395,6 +412,7 @@
         "index": {
           "description": "Break string on word boundaries Word boundary analysis is used by search and replace functions as well as within text editing applications that allow the user to select words with double click Word selection provides correct interpretation of punctuation marks within and following words Characters that are not part of word such as symbols or punctuation marks have word breaks on both sides",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "breakWord",
           "normalized": "LocaleName-\u003eText-\u003eIO(BreakIterator Word)",
@@ -411,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread safe cloning operation.  This is substantially faster than\n creating a new \u003ccode\u003e\u003ca\u003eBreakIterator\u003c/a\u003e\u003c/code\u003e from scratch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "clone",
           "package": "text-icu",
@@ -421,6 +440,7 @@
         "index": {
           "description": "Thread safe cloning operation This is substantially faster than creating new BreakIterator from scratch",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "clone",
           "normalized": "BreakIterator a-\u003eIO(BreakIterator a)",
@@ -436,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the character index most recently returned by \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eprevious\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003elast\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "current",
           "package": "text-icu",
@@ -446,6 +467,7 @@
         "index": {
           "description": "Return the character index most recently returned by next previous first or last",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "current",
           "normalized": "BreakIterator a-\u003eIO(Maybe I)",
@@ -461,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the breaker to the beginning of the text to be scanned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "first",
           "package": "text-icu",
@@ -471,6 +494,7 @@
         "index": {
           "description": "Reset the breaker to the beginning of the text to be scanned",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "first",
           "normalized": "BreakIterator a-\u003eIO I",
@@ -486,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the text boundary following the specified offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "following",
           "package": "text-icu",
@@ -496,6 +521,7 @@
         "index": {
           "description": "Determine the text boundary following the specified offset",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "following",
           "normalized": "BreakIterator a-\u003eInt-\u003eIO(Maybe I)",
@@ -511,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the status from the break rule that determined the most recently\n returned break position.  For rules that do not specify a status, a\n default value of \u003ccode\u003e()\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "getStatus",
           "package": "text-icu",
@@ -521,6 +548,7 @@
         "index": {
           "description": "Return the status from the break rule that determined the most recently returned break position For rules that do not specify status default value of is returned",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "getStatus",
           "normalized": "BreakIterator a-\u003eIO a",
@@ -537,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn statuses from all of the break rules that determined the most\n recently returned break position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "getStatuses",
           "package": "text-icu",
@@ -547,6 +576,7 @@
         "index": {
           "description": "Return statuses from all of the break rules that determined the most recently returned break position",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "getStatuses",
           "normalized": "BreakIterator a-\u003eIO[a]",
@@ -563,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether the specfied position is a boundary position.\n As a side effect, leaves the iterator pointing to the first\n boundary position at or after the given offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "isBoundary",
           "package": "text-icu",
@@ -573,6 +604,7 @@
         "index": {
           "description": "Determine whether the specfied position is boundary position As side effect leaves the iterator pointing to the first boundary position at or after the given offset",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "isBoundary",
           "normalized": "BreakIterator a-\u003eInt-\u003eIO Bool",
@@ -589,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the breaker to the end of the text to be scanned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "last",
           "package": "text-icu",
@@ -599,6 +632,7 @@
         "index": {
           "description": "Reset the breaker to the end of the text to be scanned",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "last",
           "normalized": "BreakIterator a-\u003eIO I",
@@ -614,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvance the iterator and break at the text boundary that follows the\n current text boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "next",
           "package": "text-icu",
@@ -624,6 +659,7 @@
         "index": {
           "description": "Advance the iterator and break at the text boundary that follows the current text boundary",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "next",
           "normalized": "BreakIterator a-\u003eIO(Maybe I)",
@@ -639,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the text boundary preceding the specified offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "preceding",
           "package": "text-icu",
@@ -649,6 +686,7 @@
         "index": {
           "description": "Determine the text boundary preceding the specified offset",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "preceding",
           "normalized": "BreakIterator a-\u003eInt-\u003eIO(Maybe I)",
@@ -664,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvance the iterator and break at the text boundary that precedes the\n current text boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "previous",
           "package": "text-icu",
@@ -674,6 +713,7 @@
         "index": {
           "description": "Advance the iterator and break at the text boundary that precedes the current text boundary",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "previous",
           "normalized": "BreakIterator a-\u003eIO(Maybe I)",
@@ -689,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint an existing \u003ccode\u003e\u003ca\u003eBreakIterator\u003c/a\u003e\u003c/code\u003e at a new piece of text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Break",
           "name": "setText",
           "package": "text-icu",
@@ -699,6 +740,7 @@
         "index": {
           "description": "Point an existing BreakIterator at new piece of text",
           "hierarchy": "Data Text ICU Break",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Break",
           "name": "setText",
           "normalized": "BreakIterator a-\u003eText-\u003eIO()",
@@ -715,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess to the Unicode Character Database, implemented as bindings\n to the International Components for Unicode (ICU) libraries.\n\u003c/p\u003e\u003cp\u003eUnicode assigns each code point (not just assigned character) values for\n many properties.  Most are simple boolean flags, or constants from a\n small enumerated list.  For some, values are relatively more complex\n types.\n\u003c/p\u003e\u003cp\u003eFor more information see \"About the Unicode Character Database\"\n \u003ca\u003ehttp://www.unicode.org/ucd/\u003c/a\u003e and the ICU User Guide chapter on\n Properties \u003ca\u003ehttp://icu-project.org/userguide/properties.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Char",
           "package": "text-icu",
@@ -724,6 +767,7 @@
         "index": {
           "description": "Access to the Unicode Character Database implemented as bindings to the International Components for Unicode ICU libraries Unicode assigns each code point not just assigned character values for many properties Most are simple boolean flags or constants from small enumerated list For some values are relatively more complex types For more information see About the Unicode Character Database http www.unicode.org ucd and the ICU User Guide chapter on Properties http icu-project.org userguide properties.html",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Char",
           "package": "text-icu",
@@ -737,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BidiClass_",
           "package": "text-icu",
@@ -745,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BidiClass_",
           "package": "text-icu",
@@ -759,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescriptions of Unicode blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BlockCode",
           "package": "text-icu",
@@ -768,6 +815,7 @@
         "index": {
           "description": "Descriptions of Unicode blocks",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BlockCode",
           "package": "text-icu",
@@ -781,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Block_",
           "package": "text-icu",
@@ -789,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Block_",
           "package": "text-icu",
@@ -802,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Bool_",
           "package": "text-icu",
@@ -810,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Bool_",
           "package": "text-icu",
@@ -823,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CanonicalCombiningClass_",
           "package": "text-icu",
@@ -831,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CanonicalCombiningClass_",
           "package": "text-icu",
@@ -844,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Decomposition",
           "package": "text-icu",
@@ -852,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Decomposition",
           "package": "text-icu",
@@ -865,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Decomposition_",
           "package": "text-icu",
@@ -873,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Decomposition_",
           "package": "text-icu",
@@ -887,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe language directional property of a character set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Direction",
           "package": "text-icu",
@@ -896,6 +955,7 @@
         "index": {
           "description": "The language directional property of character set",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Direction",
           "package": "text-icu",
@@ -909,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EastAsianWidth",
           "package": "text-icu",
@@ -917,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EastAsianWidth",
           "package": "text-icu",
@@ -930,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EastAsianWidth_",
           "package": "text-icu",
@@ -938,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EastAsianWidth_",
           "package": "text-icu",
@@ -951,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralCategory",
           "package": "text-icu",
@@ -959,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralCategory",
           "package": "text-icu",
@@ -972,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralCategory_",
           "package": "text-icu",
@@ -980,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralCategory_",
           "package": "text-icu",
@@ -993,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeClusterBreak",
           "package": "text-icu",
@@ -1001,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeClusterBreak",
           "package": "text-icu",
@@ -1014,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeClusterBreak_",
           "package": "text-icu",
@@ -1022,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeClusterBreak_",
           "package": "text-icu",
@@ -1035,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HangulSyllableType",
           "package": "text-icu",
@@ -1043,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HangulSyllableType",
           "package": "text-icu",
@@ -1056,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HangulSyllableType_",
           "package": "text-icu",
@@ -1064,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HangulSyllableType_",
           "package": "text-icu",
@@ -1077,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningGroup",
           "package": "text-icu",
@@ -1085,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningGroup",
           "package": "text-icu",
@@ -1098,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningGroup_",
           "package": "text-icu",
@@ -1106,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningGroup_",
           "package": "text-icu",
@@ -1119,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningType",
           "package": "text-icu",
@@ -1127,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningType",
           "package": "text-icu",
@@ -1140,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningType_",
           "package": "text-icu",
@@ -1148,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningType_",
           "package": "text-icu",
@@ -1161,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LeadCanonicalCombiningClass_",
           "package": "text-icu",
@@ -1169,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LeadCanonicalCombiningClass_",
           "package": "text-icu",
@@ -1182,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LineBreak",
           "package": "text-icu",
@@ -1190,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LineBreak",
           "package": "text-icu",
@@ -1203,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LineBreak_",
           "package": "text-icu",
@@ -1211,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LineBreak_",
           "package": "text-icu",
@@ -1224,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFCQuickCheck_",
           "package": "text-icu",
@@ -1232,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFCQuickCheck_",
           "package": "text-icu",
@@ -1245,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFDQuickCheck_",
           "package": "text-icu",
@@ -1253,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFDQuickCheck_",
           "package": "text-icu",
@@ -1266,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFKCQuickCheck_",
           "package": "text-icu",
@@ -1274,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFKCQuickCheck_",
           "package": "text-icu",
@@ -1287,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFKDQuickCheck_",
           "package": "text-icu",
@@ -1295,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFKDQuickCheck_",
           "package": "text-icu",
@@ -1308,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NumericType",
           "package": "text-icu",
@@ -1316,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NumericType",
           "package": "text-icu",
@@ -1329,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NumericType_",
           "package": "text-icu",
@@ -1337,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NumericType_",
           "package": "text-icu",
@@ -1350,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Property",
           "package": "text-icu",
@@ -1358,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Property",
           "package": "text-icu",
@@ -1371,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SentenceBreak",
           "package": "text-icu",
@@ -1379,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SentenceBreak",
           "package": "text-icu",
@@ -1392,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SentenceBreak_",
           "package": "text-icu",
@@ -1400,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SentenceBreak_",
           "package": "text-icu",
@@ -1413,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "TrailingCanonicalCombiningClass_",
           "package": "text-icu",
@@ -1421,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "TrailingCanonicalCombiningClass_",
           "package": "text-icu",
@@ -1434,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WordBreak",
           "package": "text-icu",
@@ -1442,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WordBreak",
           "package": "text-icu",
@@ -1455,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WordBreak_",
           "package": "text-icu",
@@ -1463,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WordBreak_",
           "package": "text-icu",
@@ -1477,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0-9, A-F, a-f\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ASCIIHexDigit",
           "package": "text-icu",
@@ -1487,6 +1602,7 @@
         "index": {
           "description": "A-F a-f",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ASCIIHexDigit",
           "package": "text-icu",
@@ -1500,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "AegeanNumbers",
           "package": "text-icu",
@@ -1509,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "AegeanNumbers",
           "package": "text-icu",
@@ -1522,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Ain",
           "package": "text-icu",
@@ -1531,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Ain",
           "package": "text-icu",
@@ -1544,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Alaph",
           "package": "text-icu",
@@ -1553,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Alaph",
           "package": "text-icu",
@@ -1566,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Alef",
           "package": "text-icu",
@@ -1575,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Alef",
           "package": "text-icu",
@@ -1588,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Alphabetic",
           "package": "text-icu",
@@ -1597,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Alphabetic",
           "package": "text-icu",
@@ -1610,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "AlphabeticPresentationForms",
           "package": "text-icu",
@@ -1619,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "AlphabeticPresentationForms",
           "package": "text-icu",
@@ -1632,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Ambiguous",
           "package": "text-icu",
@@ -1641,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Ambiguous",
           "package": "text-icu",
@@ -1654,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "AncientGreekMusicalNotation",
           "package": "text-icu",
@@ -1663,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "AncientGreekMusicalNotation",
           "package": "text-icu",
@@ -1676,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "AncientGreekNumbers",
           "package": "text-icu",
@@ -1685,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "AncientGreekNumbers",
           "package": "text-icu",
@@ -1698,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "AncientSymbols",
           "package": "text-icu",
@@ -1707,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "AncientSymbols",
           "package": "text-icu",
@@ -1720,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Arabic",
           "package": "text-icu",
@@ -1729,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Arabic",
           "package": "text-icu",
@@ -1742,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ArabicNumber",
           "package": "text-icu",
@@ -1751,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ArabicNumber",
           "package": "text-icu",
@@ -1764,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ArabicPresentationFormsA",
           "package": "text-icu",
@@ -1773,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ArabicPresentationFormsA",
           "package": "text-icu",
@@ -1786,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ArabicPresentationFormsB",
           "package": "text-icu",
@@ -1795,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ArabicPresentationFormsB",
           "package": "text-icu",
@@ -1808,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ArabicSupplement",
           "package": "text-icu",
@@ -1817,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ArabicSupplement",
           "package": "text-icu",
@@ -1830,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Armenian",
           "package": "text-icu",
@@ -1839,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Armenian",
           "package": "text-icu",
@@ -1852,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Arrows",
           "package": "text-icu",
@@ -1861,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Arrows",
           "package": "text-icu",
@@ -1874,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Balinese",
           "package": "text-icu",
@@ -1883,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Balinese",
           "package": "text-icu",
@@ -1896,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BasicLatin",
           "package": "text-icu",
@@ -1905,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BasicLatin",
           "package": "text-icu",
@@ -1918,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Beh",
           "package": "text-icu",
@@ -1927,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Beh",
           "package": "text-icu",
@@ -1940,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Bengali",
           "package": "text-icu",
@@ -1949,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Bengali",
           "package": "text-icu",
@@ -1962,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Beth",
           "package": "text-icu",
@@ -1971,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Beth",
           "package": "text-icu",
@@ -1984,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BidiClass",
           "package": "text-icu",
@@ -1993,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BidiClass",
           "package": "text-icu",
@@ -2007,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat controls which have specific functions in the Bidi Algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BidiControl",
           "package": "text-icu",
@@ -2017,6 +2180,7 @@
         "index": {
           "description": "Format controls which have specific functions in the Bidi Algorithm",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BidiControl",
           "package": "text-icu",
@@ -2031,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that may change display in RTL text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BidiMirrored",
           "package": "text-icu",
@@ -2041,6 +2206,7 @@
         "index": {
           "description": "Characters that may change display in RTL text",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BidiMirrored",
           "package": "text-icu",
@@ -2054,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Block",
           "package": "text-icu",
@@ -2063,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Block",
           "package": "text-icu",
@@ -2076,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BlockElements",
           "package": "text-icu",
@@ -2085,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BlockElements",
           "package": "text-icu",
@@ -2098,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BlockSeparator",
           "package": "text-icu",
@@ -2107,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BlockSeparator",
           "package": "text-icu",
@@ -2120,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Bopomofo",
           "package": "text-icu",
@@ -2129,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Bopomofo",
           "package": "text-icu",
@@ -2142,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BopomofoExtended",
           "package": "text-icu",
@@ -2151,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BopomofoExtended",
           "package": "text-icu",
@@ -2164,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BoundaryNeutral",
           "package": "text-icu",
@@ -2173,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BoundaryNeutral",
           "package": "text-icu",
@@ -2186,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BoxDrawing",
           "package": "text-icu",
@@ -2195,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BoxDrawing",
           "package": "text-icu",
@@ -2208,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BraillePatterns",
           "package": "text-icu",
@@ -2217,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BraillePatterns",
           "package": "text-icu",
@@ -2230,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BreakAfter",
           "package": "text-icu",
@@ -2239,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BreakAfter",
           "package": "text-icu",
@@ -2252,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BreakBefore",
           "package": "text-icu",
@@ -2261,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BreakBefore",
           "package": "text-icu",
@@ -2274,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BreakBoth",
           "package": "text-icu",
@@ -2283,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BreakBoth",
           "package": "text-icu",
@@ -2296,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BreakSymbols",
           "package": "text-icu",
@@ -2305,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BreakSymbols",
           "package": "text-icu",
@@ -2318,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Buginese",
           "package": "text-icu",
@@ -2327,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Buginese",
           "package": "text-icu",
@@ -2340,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Buhid",
           "package": "text-icu",
@@ -2349,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Buhid",
           "package": "text-icu",
@@ -2362,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "BurushaskiYehBarree",
           "package": "text-icu",
@@ -2371,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "BurushaskiYehBarree",
           "package": "text-icu",
@@ -2384,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ByzantineMusicalSymbols",
           "package": "text-icu",
@@ -2393,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ByzantineMusicalSymbols",
           "package": "text-icu",
@@ -2406,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKCompatibility",
           "package": "text-icu",
@@ -2415,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKCompatibility",
           "package": "text-icu",
@@ -2428,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKCompatibilityForms",
           "package": "text-icu",
@@ -2437,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKCompatibilityForms",
           "package": "text-icu",
@@ -2450,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKCompatibilityIdeographs",
           "package": "text-icu",
@@ -2459,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKCompatibilityIdeographs",
           "package": "text-icu",
@@ -2472,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKCompatibilityIdeographsSupplement",
           "package": "text-icu",
@@ -2481,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKCompatibilityIdeographsSupplement",
           "package": "text-icu",
@@ -2494,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKRadicalsSupplement",
           "package": "text-icu",
@@ -2503,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKRadicalsSupplement",
           "package": "text-icu",
@@ -2516,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKStrokes",
           "package": "text-icu",
@@ -2525,6 +2734,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKStrokes",
           "package": "text-icu",
@@ -2538,6 +2748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKSymbolsAndPunctuation",
           "package": "text-icu",
@@ -2547,6 +2758,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKSymbolsAndPunctuation",
           "package": "text-icu",
@@ -2560,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKUnifiedIdeographs",
           "package": "text-icu",
@@ -2569,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKUnifiedIdeographs",
           "package": "text-icu",
@@ -2582,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKUnifiedIdeographsExtensionA",
           "package": "text-icu",
@@ -2591,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKUnifiedIdeographsExtensionA",
           "package": "text-icu",
@@ -2604,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CJKUnifiedIdeographsExtensionB",
           "package": "text-icu",
@@ -2613,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CJKUnifiedIdeographsExtensionB",
           "package": "text-icu",
@@ -2626,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CR",
           "package": "text-icu",
@@ -2635,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CR",
           "package": "text-icu",
@@ -2648,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Canonical",
           "package": "text-icu",
@@ -2657,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Canonical",
           "package": "text-icu",
@@ -2670,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CanonicalCombiningClass",
           "package": "text-icu",
@@ -2679,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CanonicalCombiningClass",
           "package": "text-icu",
@@ -2692,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Carian",
           "package": "text-icu",
@@ -2701,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Carian",
           "package": "text-icu",
@@ -2714,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CarriageReturn",
           "package": "text-icu",
@@ -2723,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CarriageReturn",
           "package": "text-icu",
@@ -2737,6 +2965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither the source of a case mapping or \u003cem\u003ein\u003c/em\u003e the target of a case\n mapping. Not the same as the general category \u003ccode\u003eCased_Letter\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CaseSensitive",
           "package": "text-icu",
@@ -2747,6 +2976,7 @@
         "index": {
           "description": "Either the source of case mapping or in the target of case mapping Not the same as the general category Cased Letter",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CaseSensitive",
           "package": "text-icu",
@@ -2760,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Cham",
           "package": "text-icu",
@@ -2769,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Cham",
           "package": "text-icu",
@@ -2782,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Cherokee",
           "package": "text-icu",
@@ -2791,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Cherokee",
           "package": "text-icu",
@@ -2804,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Circle",
           "package": "text-icu",
@@ -2813,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Circle",
           "package": "text-icu",
@@ -2826,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ClosePunctuation",
           "package": "text-icu",
@@ -2835,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ClosePunctuation",
           "package": "text-icu",
@@ -2848,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningDiacriticalMarks",
           "package": "text-icu",
@@ -2857,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningDiacriticalMarks",
           "package": "text-icu",
@@ -2870,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningDiacriticalMarksForSymbols",
           "package": "text-icu",
@@ -2879,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningDiacriticalMarksForSymbols",
           "package": "text-icu",
@@ -2892,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningDiacriticalMarksSupplement",
           "package": "text-icu",
@@ -2901,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningDiacriticalMarksSupplement",
           "package": "text-icu",
@@ -2914,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningHalfMarks",
           "package": "text-icu",
@@ -2923,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningHalfMarks",
           "package": "text-icu",
@@ -2936,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningMark",
           "package": "text-icu",
@@ -2945,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningMark",
           "package": "text-icu",
@@ -2958,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningSpacingMark",
           "package": "text-icu",
@@ -2967,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CombiningSpacingMark",
           "package": "text-icu",
@@ -2980,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CommonNumberSeparator",
           "package": "text-icu",
@@ -2989,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CommonNumberSeparator",
           "package": "text-icu",
@@ -3002,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Compat",
           "package": "text-icu",
@@ -3011,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Compat",
           "package": "text-icu",
@@ -3024,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ComplexContext",
           "package": "text-icu",
@@ -3033,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ComplexContext",
           "package": "text-icu",
@@ -3046,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ConnectorPunctuation",
           "package": "text-icu",
@@ -3055,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ConnectorPunctuation",
           "package": "text-icu",
@@ -3068,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ContingentBreak",
           "package": "text-icu",
@@ -3077,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ContingentBreak",
           "package": "text-icu",
@@ -3090,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Control",
           "package": "text-icu",
@@ -3099,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Control",
           "package": "text-icu",
@@ -3112,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ControlChar",
           "package": "text-icu",
@@ -3121,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ControlChar",
           "package": "text-icu",
@@ -3134,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ControlPictures",
           "package": "text-icu",
@@ -3143,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ControlPictures",
           "package": "text-icu",
@@ -3156,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Coptic",
           "package": "text-icu",
@@ -3165,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Coptic",
           "package": "text-icu",
@@ -3178,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Count",
           "package": "text-icu",
@@ -3187,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Count",
           "package": "text-icu",
@@ -3200,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CountingRodNumerals",
           "package": "text-icu",
@@ -3209,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CountingRodNumerals",
           "package": "text-icu",
@@ -3222,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Cuneiform",
           "package": "text-icu",
@@ -3231,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Cuneiform",
           "package": "text-icu",
@@ -3244,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CuneiformNumbersAndPunctuation",
           "package": "text-icu",
@@ -3253,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CuneiformNumbersAndPunctuation",
           "package": "text-icu",
@@ -3266,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CurrencySymbol",
           "package": "text-icu",
@@ -3275,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CurrencySymbol",
           "package": "text-icu",
@@ -3288,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CurrencySymbols",
           "package": "text-icu",
@@ -3297,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CurrencySymbols",
           "package": "text-icu",
@@ -3310,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CypriotSyllabary",
           "package": "text-icu",
@@ -3319,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CypriotSyllabary",
           "package": "text-icu",
@@ -3332,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Cyrillic",
           "package": "text-icu",
@@ -3341,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Cyrillic",
           "package": "text-icu",
@@ -3354,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CyrillicExtendedA",
           "package": "text-icu",
@@ -3363,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CyrillicExtendedA",
           "package": "text-icu",
@@ -3376,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CyrillicExtendedB",
           "package": "text-icu",
@@ -3385,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CyrillicExtendedB",
           "package": "text-icu",
@@ -3398,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "CyrillicSupplement",
           "package": "text-icu",
@@ -3407,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "CyrillicSupplement",
           "package": "text-icu",
@@ -3420,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Dal",
           "package": "text-icu",
@@ -3429,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Dal",
           "package": "text-icu",
@@ -3442,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "DalathRish",
           "package": "text-icu",
@@ -3451,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "DalathRish",
           "package": "text-icu",
@@ -3465,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariations of dashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Dash",
           "package": "text-icu",
@@ -3475,6 +3770,7 @@
         "index": {
           "description": "Variations of dashes",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Dash",
           "package": "text-icu",
@@ -3488,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "DashPunctuation",
           "package": "text-icu",
@@ -3497,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "DashPunctuation",
           "package": "text-icu",
@@ -3510,6 +3808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "DecimalDigitNumber",
           "package": "text-icu",
@@ -3519,6 +3818,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "DecimalDigitNumber",
           "package": "text-icu",
@@ -3532,6 +3832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Decomposition",
           "package": "text-icu",
@@ -3541,6 +3842,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Decomposition",
           "package": "text-icu",
@@ -3555,6 +3857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnorable in most processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "DefaultIgnorable",
           "package": "text-icu",
@@ -3565,6 +3868,7 @@
         "index": {
           "description": "Ignorable in most processing",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "DefaultIgnorable",
           "package": "text-icu",
@@ -3579,6 +3883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe usage of deprecated characters is strongly discouraged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Deprecated",
           "package": "text-icu",
@@ -3589,6 +3894,7 @@
         "index": {
           "description": "The usage of deprecated characters is strongly discouraged",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Deprecated",
           "package": "text-icu",
@@ -3602,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Deseret",
           "package": "text-icu",
@@ -3611,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Deseret",
           "package": "text-icu",
@@ -3624,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Devanagari",
           "package": "text-icu",
@@ -3633,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Devanagari",
           "package": "text-icu",
@@ -3647,6 +3957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that linguistically modify the meaning of another\n character to which they apply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Diacritic",
           "package": "text-icu",
@@ -3657,6 +3968,7 @@
         "index": {
           "description": "Characters that linguistically modify the meaning of another character to which they apply",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Diacritic",
           "package": "text-icu",
@@ -3670,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Dingbats",
           "package": "text-icu",
@@ -3679,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Dingbats",
           "package": "text-icu",
@@ -3692,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "DirNonSpacingMark",
           "package": "text-icu",
@@ -3701,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "DirNonSpacingMark",
           "package": "text-icu",
@@ -3714,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "DominoTiles",
           "package": "text-icu",
@@ -3723,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "DominoTiles",
           "package": "text-icu",
@@ -3736,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "DualJoining",
           "package": "text-icu",
@@ -3745,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "DualJoining",
           "package": "text-icu",
@@ -3758,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "E",
           "package": "text-icu",
@@ -3767,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "E",
           "package": "text-icu",
@@ -3779,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EAAmbiguous",
           "package": "text-icu",
@@ -3788,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EAAmbiguous",
           "package": "text-icu",
@@ -3801,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EACount",
           "package": "text-icu",
@@ -3810,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EACount",
           "package": "text-icu",
@@ -3823,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EAFull",
           "package": "text-icu",
@@ -3832,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EAFull",
           "package": "text-icu",
@@ -3845,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EAHalf",
           "package": "text-icu",
@@ -3854,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EAHalf",
           "package": "text-icu",
@@ -3867,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EANarrow",
           "package": "text-icu",
@@ -3876,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EANarrow",
           "package": "text-icu",
@@ -3889,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EANeutral",
           "package": "text-icu",
@@ -3898,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EANeutral",
           "package": "text-icu",
@@ -3911,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EAWide",
           "package": "text-icu",
@@ -3920,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EAWide",
           "package": "text-icu",
@@ -3933,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EastAsianWidth",
           "package": "text-icu",
@@ -3942,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EastAsianWidth",
           "package": "text-icu",
@@ -3955,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EnclosedAlphanumerics",
           "package": "text-icu",
@@ -3964,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EnclosedAlphanumerics",
           "package": "text-icu",
@@ -3977,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EnclosedCJKLettersAndMonths",
           "package": "text-icu",
@@ -3986,6 +4327,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EnclosedCJKLettersAndMonths",
           "package": "text-icu",
@@ -3999,6 +4341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EnclosingMark",
           "package": "text-icu",
@@ -4008,6 +4351,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EnclosingMark",
           "package": "text-icu",
@@ -4021,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EndPunctuation",
           "package": "text-icu",
@@ -4030,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EndPunctuation",
           "package": "text-icu",
@@ -4043,6 +4389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Ethiopic",
           "package": "text-icu",
@@ -4052,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Ethiopic",
           "package": "text-icu",
@@ -4065,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EthiopicExtended",
           "package": "text-icu",
@@ -4074,6 +4423,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EthiopicExtended",
           "package": "text-icu",
@@ -4087,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EthiopicSupplement",
           "package": "text-icu",
@@ -4096,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EthiopicSupplement",
           "package": "text-icu",
@@ -4109,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EuropeanNumber",
           "package": "text-icu",
@@ -4118,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EuropeanNumber",
           "package": "text-icu",
@@ -4131,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EuropeanNumberSeparator",
           "package": "text-icu",
@@ -4140,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EuropeanNumberSeparator",
           "package": "text-icu",
@@ -4153,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "EuropeanNumberTerminator",
           "package": "text-icu",
@@ -4162,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "EuropeanNumberTerminator",
           "package": "text-icu",
@@ -4175,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Exclamation",
           "package": "text-icu",
@@ -4184,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Exclamation",
           "package": "text-icu",
@@ -4197,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Extend",
           "package": "text-icu",
@@ -4206,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Extend",
           "package": "text-icu",
@@ -4220,6 +4582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the value or shape of a preceding alphabetic character,\n e.g. length and iteration marks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Extender",
           "package": "text-icu",
@@ -4230,6 +4593,7 @@
         "index": {
           "description": "Extend the value or shape of preceding alphabetic character e.g length and iteration marks",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Extender",
           "package": "text-icu",
@@ -4243,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Fe",
           "package": "text-icu",
@@ -4252,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Fe",
           "package": "text-icu",
@@ -4265,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Feh",
           "package": "text-icu",
@@ -4274,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Feh",
           "package": "text-icu",
@@ -4287,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Final",
           "package": "text-icu",
@@ -4296,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Final",
           "package": "text-icu",
@@ -4309,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "FinalPunctuation",
           "package": "text-icu",
@@ -4318,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "FinalPunctuation",
           "package": "text-icu",
@@ -4331,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "FinalSemkath",
           "package": "text-icu",
@@ -4340,6 +4713,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "FinalSemkath",
           "package": "text-icu",
@@ -4353,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Font",
           "package": "text-icu",
@@ -4362,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Font",
           "package": "text-icu",
@@ -4375,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "FormatChar",
           "package": "text-icu",
@@ -4384,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "FormatChar",
           "package": "text-icu",
@@ -4397,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Fraction",
           "package": "text-icu",
@@ -4406,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Fraction",
           "package": "text-icu",
@@ -4419,6 +4799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "FullCompositionExclusion",
           "package": "text-icu",
@@ -4428,6 +4809,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "FullCompositionExclusion",
           "package": "text-icu",
@@ -4441,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Gaf",
           "package": "text-icu",
@@ -4450,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Gaf",
           "package": "text-icu",
@@ -4463,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Gamal",
           "package": "text-icu",
@@ -4472,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Gamal",
           "package": "text-icu",
@@ -4485,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralCategory",
           "package": "text-icu",
@@ -4494,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralCategory",
           "package": "text-icu",
@@ -4507,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralOtherType",
           "package": "text-icu",
@@ -4516,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralOtherType",
           "package": "text-icu",
@@ -4529,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralPunctuation",
           "package": "text-icu",
@@ -4538,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GeneralPunctuation",
           "package": "text-icu",
@@ -4551,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GeometricShapes",
           "package": "text-icu",
@@ -4560,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GeometricShapes",
           "package": "text-icu",
@@ -4573,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Georgian",
           "package": "text-icu",
@@ -4582,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Georgian",
           "package": "text-icu",
@@ -4595,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GeorgianSupplement",
           "package": "text-icu",
@@ -4604,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GeorgianSupplement",
           "package": "text-icu",
@@ -4617,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Glagolitic",
           "package": "text-icu",
@@ -4626,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Glagolitic",
           "package": "text-icu",
@@ -4639,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Glue",
           "package": "text-icu",
@@ -4648,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Glue",
           "package": "text-icu",
@@ -4661,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Gothic",
           "package": "text-icu",
@@ -4670,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Gothic",
           "package": "text-icu",
@@ -4684,6 +5088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of grapheme cluster boundaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeBase",
           "package": "text-icu",
@@ -4694,6 +5099,7 @@
         "index": {
           "description": "For programmatic determination of grapheme cluster boundaries",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeBase",
           "package": "text-icu",
@@ -4707,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeClusterBreak",
           "package": "text-icu",
@@ -4716,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeClusterBreak",
           "package": "text-icu",
@@ -4730,6 +5138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of grapheme cluster boundaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeExtend",
           "package": "text-icu",
@@ -4740,6 +5149,7 @@
         "index": {
           "description": "For programmatic determination of grapheme cluster boundaries",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeExtend",
           "package": "text-icu",
@@ -4754,6 +5164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of grapheme cluster boundaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeLink",
           "package": "text-icu",
@@ -4764,6 +5175,7 @@
         "index": {
           "description": "For programmatic determination of grapheme cluster boundaries",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GraphemeLink",
           "package": "text-icu",
@@ -4777,6 +5189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GreekAndCoptic",
           "package": "text-icu",
@@ -4786,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GreekAndCoptic",
           "package": "text-icu",
@@ -4799,6 +5213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "GreekExtended",
           "package": "text-icu",
@@ -4808,6 +5223,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "GreekExtended",
           "package": "text-icu",
@@ -4821,6 +5237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Gujarati",
           "package": "text-icu",
@@ -4830,6 +5247,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Gujarati",
           "package": "text-icu",
@@ -4843,6 +5261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Gurmukhi",
           "package": "text-icu",
@@ -4852,6 +5271,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Gurmukhi",
           "package": "text-icu",
@@ -4865,6 +5285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "H2",
           "package": "text-icu",
@@ -4874,6 +5295,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "H2",
           "package": "text-icu",
@@ -4886,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "H3",
           "package": "text-icu",
@@ -4895,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "H3",
           "package": "text-icu",
@@ -4907,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Hah",
           "package": "text-icu",
@@ -4916,6 +5341,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Hah",
           "package": "text-icu",
@@ -4929,6 +5355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HalfwidthAndFullwidthForms",
           "package": "text-icu",
@@ -4938,6 +5365,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HalfwidthAndFullwidthForms",
           "package": "text-icu",
@@ -4951,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HamzaOnHehGoal",
           "package": "text-icu",
@@ -4960,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HamzaOnHehGoal",
           "package": "text-icu",
@@ -4973,6 +5403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HangulCompatibilityJamo",
           "package": "text-icu",
@@ -4982,6 +5413,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HangulCompatibilityJamo",
           "package": "text-icu",
@@ -4995,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HangulJamo",
           "package": "text-icu",
@@ -5004,6 +5437,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HangulJamo",
           "package": "text-icu",
@@ -5017,6 +5451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HangulSyllableType",
           "package": "text-icu",
@@ -5026,6 +5461,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HangulSyllableType",
           "package": "text-icu",
@@ -5039,6 +5475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HangulSyllables",
           "package": "text-icu",
@@ -5048,6 +5485,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HangulSyllables",
           "package": "text-icu",
@@ -5061,6 +5499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Hanunoo",
           "package": "text-icu",
@@ -5070,6 +5509,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Hanunoo",
           "package": "text-icu",
@@ -5083,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "He",
           "package": "text-icu",
@@ -5092,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "He",
           "package": "text-icu",
@@ -5105,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Hebrew",
           "package": "text-icu",
@@ -5114,6 +5557,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Hebrew",
           "package": "text-icu",
@@ -5127,6 +5571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Heh",
           "package": "text-icu",
@@ -5136,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Heh",
           "package": "text-icu",
@@ -5149,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HehGoal",
           "package": "text-icu",
@@ -5158,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HehGoal",
           "package": "text-icu",
@@ -5171,6 +5619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Heth",
           "package": "text-icu",
@@ -5180,6 +5629,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Heth",
           "package": "text-icu",
@@ -5194,6 +5644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters commonly used for hexadecimal numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HexDigit",
           "package": "text-icu",
@@ -5204,6 +5655,7 @@
         "index": {
           "description": "Characters commonly used for hexadecimal numbers",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HexDigit",
           "package": "text-icu",
@@ -5217,6 +5669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HighPrivateUseSurrogates",
           "package": "text-icu",
@@ -5226,6 +5679,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HighPrivateUseSurrogates",
           "package": "text-icu",
@@ -5239,6 +5693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "HighSurrogates",
           "package": "text-icu",
@@ -5248,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "HighSurrogates",
           "package": "text-icu",
@@ -5261,6 +5717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Hiragana",
           "package": "text-icu",
@@ -5270,6 +5727,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Hiragana",
           "package": "text-icu",
@@ -5284,6 +5742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDashes used to mark connections between pieces of words, plus the\n Katakana middle dot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Hyphen",
           "package": "text-icu",
@@ -5294,6 +5753,7 @@
         "index": {
           "description": "Dashes used to mark connections between pieces of words plus the Katakana middle dot",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Hyphen",
           "package": "text-icu",
@@ -5308,6 +5768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that can continue an identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "IDContinue",
           "package": "text-icu",
@@ -5318,6 +5779,7 @@
         "index": {
           "description": "Characters that can continue an identifier",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "IDContinue",
           "package": "text-icu",
@@ -5332,6 +5794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of Ideographic Description Sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "IDSBinaryOperator",
           "package": "text-icu",
@@ -5342,6 +5805,7 @@
         "index": {
           "description": "For programmatic determination of Ideographic Description Sequences",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "IDSBinaryOperator",
           "package": "text-icu",
@@ -5355,6 +5819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "IDSTrinaryOperator",
           "package": "text-icu",
@@ -5364,6 +5829,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "IDSTrinaryOperator",
           "package": "text-icu",
@@ -5378,6 +5844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that can start an identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "IDStart",
           "package": "text-icu",
@@ -5388,6 +5855,7 @@
         "index": {
           "description": "Characters that can start an identifier",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "IDStart",
           "package": "text-icu",
@@ -5401,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "IPAExtensions",
           "package": "text-icu",
@@ -5410,6 +5879,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "IPAExtensions",
           "package": "text-icu",
@@ -5424,6 +5894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCJKV ideographs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Ideographic",
           "package": "text-icu",
@@ -5434,6 +5905,7 @@
         "index": {
           "description": "CJKV ideographs",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Ideographic",
           "package": "text-icu",
@@ -5447,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "IdeographicDescriptionCharacters",
           "package": "text-icu",
@@ -5456,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "IdeographicDescriptionCharacters",
           "package": "text-icu",
@@ -5469,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "InfixNumeric",
           "package": "text-icu",
@@ -5478,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "InfixNumeric",
           "package": "text-icu",
@@ -5491,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Initial",
           "package": "text-icu",
@@ -5500,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Initial",
           "package": "text-icu",
@@ -5513,6 +5991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "InitialPunctuation",
           "package": "text-icu",
@@ -5522,6 +6001,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "InitialPunctuation",
           "package": "text-icu",
@@ -5535,6 +6015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Inseparable",
           "package": "text-icu",
@@ -5544,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Inseparable",
           "package": "text-icu",
@@ -5557,6 +6039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Isolated",
           "package": "text-icu",
@@ -5566,6 +6049,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Isolated",
           "package": "text-icu",
@@ -5579,6 +6063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JL",
           "package": "text-icu",
@@ -5588,6 +6073,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JL",
           "package": "text-icu",
@@ -5601,6 +6087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JT",
           "package": "text-icu",
@@ -5610,6 +6097,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JT",
           "package": "text-icu",
@@ -5623,6 +6111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JV",
           "package": "text-icu",
@@ -5632,6 +6121,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JV",
           "package": "text-icu",
@@ -5645,6 +6135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JoinCausing",
           "package": "text-icu",
@@ -5654,6 +6145,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JoinCausing",
           "package": "text-icu",
@@ -5668,6 +6160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat controls for cursive joining and ligation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JoinControl",
           "package": "text-icu",
@@ -5678,6 +6171,7 @@
         "index": {
           "description": "Format controls for cursive joining and ligation",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JoinControl",
           "package": "text-icu",
@@ -5691,6 +6185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningGroup",
           "package": "text-icu",
@@ -5700,6 +6195,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningGroup",
           "package": "text-icu",
@@ -5713,6 +6209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningType",
           "package": "text-icu",
@@ -5722,6 +6219,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "JoiningType",
           "package": "text-icu",
@@ -5735,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Kaf",
           "package": "text-icu",
@@ -5744,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Kaf",
           "package": "text-icu",
@@ -5757,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Kanbun",
           "package": "text-icu",
@@ -5766,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Kanbun",
           "package": "text-icu",
@@ -5779,6 +6281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "KangxiRadicals",
           "package": "text-icu",
@@ -5788,6 +6291,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "KangxiRadicals",
           "package": "text-icu",
@@ -5801,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Kannada",
           "package": "text-icu",
@@ -5810,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Kannada",
           "package": "text-icu",
@@ -5823,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Kaph",
           "package": "text-icu",
@@ -5832,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Kaph",
           "package": "text-icu",
@@ -5845,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Katakana",
           "package": "text-icu",
@@ -5854,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Katakana",
           "package": "text-icu",
@@ -5867,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "KatakanaPhoneticExtensions",
           "package": "text-icu",
@@ -5876,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "KatakanaPhoneticExtensions",
           "package": "text-icu",
@@ -5889,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "KayahLi",
           "package": "text-icu",
@@ -5898,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "KayahLi",
           "package": "text-icu",
@@ -5911,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Khaph",
           "package": "text-icu",
@@ -5920,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Khaph",
           "package": "text-icu",
@@ -5933,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Kharoshthi",
           "package": "text-icu",
@@ -5942,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Kharoshthi",
           "package": "text-icu",
@@ -5955,6 +6473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Khmer",
           "package": "text-icu",
@@ -5964,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Khmer",
           "package": "text-icu",
@@ -5977,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "KhmerSymbols",
           "package": "text-icu",
@@ -5986,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "KhmerSymbols",
           "package": "text-icu",
@@ -5999,6 +6521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "KnottedHeh",
           "package": "text-icu",
@@ -6008,6 +6531,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "KnottedHeh",
           "package": "text-icu",
@@ -6021,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "L",
           "package": "text-icu",
@@ -6030,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "L",
           "package": "text-icu",
@@ -6042,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LBAlphabetic",
           "package": "text-icu",
@@ -6051,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LBAlphabetic",
           "package": "text-icu",
@@ -6064,6 +6592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LBHyphen",
           "package": "text-icu",
@@ -6073,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LBHyphen",
           "package": "text-icu",
@@ -6086,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LBIdeographic",
           "package": "text-icu",
@@ -6095,6 +6626,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LBIdeographic",
           "package": "text-icu",
@@ -6108,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LBSurrogate",
           "package": "text-icu",
@@ -6117,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LBSurrogate",
           "package": "text-icu",
@@ -6130,6 +6664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LF",
           "package": "text-icu",
@@ -6139,6 +6674,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LF",
           "package": "text-icu",
@@ -6152,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LV",
           "package": "text-icu",
@@ -6161,6 +6698,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LV",
           "package": "text-icu",
@@ -6174,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LVSyllable",
           "package": "text-icu",
@@ -6183,6 +6722,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LVSyllable",
           "package": "text-icu",
@@ -6196,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LVT",
           "package": "text-icu",
@@ -6205,6 +6746,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LVT",
           "package": "text-icu",
@@ -6218,6 +6760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LVTSyllable",
           "package": "text-icu",
@@ -6227,6 +6770,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LVTSyllable",
           "package": "text-icu",
@@ -6240,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Lam",
           "package": "text-icu",
@@ -6249,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Lam",
           "package": "text-icu",
@@ -6262,6 +6808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Lamadh",
           "package": "text-icu",
@@ -6271,6 +6818,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Lamadh",
           "package": "text-icu",
@@ -6284,6 +6832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Lao",
           "package": "text-icu",
@@ -6293,6 +6842,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Lao",
           "package": "text-icu",
@@ -6306,6 +6856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Latin1Supplement",
           "package": "text-icu",
@@ -6315,6 +6866,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Latin1Supplement",
           "package": "text-icu",
@@ -6328,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedA",
           "package": "text-icu",
@@ -6337,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedA",
           "package": "text-icu",
@@ -6350,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedAdditional",
           "package": "text-icu",
@@ -6359,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedAdditional",
           "package": "text-icu",
@@ -6372,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedB",
           "package": "text-icu",
@@ -6381,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedB",
           "package": "text-icu",
@@ -6394,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedC",
           "package": "text-icu",
@@ -6403,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedC",
           "package": "text-icu",
@@ -6416,6 +6976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedD",
           "package": "text-icu",
@@ -6425,6 +6986,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LatinExtendedD",
           "package": "text-icu",
@@ -6438,6 +7000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LeadCanonicalCombiningClass",
           "package": "text-icu",
@@ -6447,6 +7010,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LeadCanonicalCombiningClass",
           "package": "text-icu",
@@ -6460,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LeadingJamo",
           "package": "text-icu",
@@ -6469,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LeadingJamo",
           "package": "text-icu",
@@ -6482,6 +7048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LeftJoining",
           "package": "text-icu",
@@ -6491,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LeftJoining",
           "package": "text-icu",
@@ -6504,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LeftToRight",
           "package": "text-icu",
@@ -6513,6 +7082,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LeftToRight",
           "package": "text-icu",
@@ -6526,6 +7096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LeftToRightEmbedding",
           "package": "text-icu",
@@ -6535,6 +7106,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LeftToRightEmbedding",
           "package": "text-icu",
@@ -6548,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LeftToRightOverride",
           "package": "text-icu",
@@ -6557,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LeftToRightOverride",
           "package": "text-icu",
@@ -6570,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Lepcha",
           "package": "text-icu",
@@ -6579,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Lepcha",
           "package": "text-icu",
@@ -6592,6 +7168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LetterNumber",
           "package": "text-icu",
@@ -6601,6 +7178,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LetterNumber",
           "package": "text-icu",
@@ -6614,6 +7192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LetterlikeSymbols",
           "package": "text-icu",
@@ -6623,6 +7202,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LetterlikeSymbols",
           "package": "text-icu",
@@ -6636,6 +7216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Limbu",
           "package": "text-icu",
@@ -6645,6 +7226,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Limbu",
           "package": "text-icu",
@@ -6658,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LineBreak",
           "package": "text-icu",
@@ -6667,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LineBreak",
           "package": "text-icu",
@@ -6680,6 +7264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LineFeed",
           "package": "text-icu",
@@ -6689,6 +7274,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LineFeed",
           "package": "text-icu",
@@ -6702,6 +7288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LineSeparator",
           "package": "text-icu",
@@ -6711,6 +7298,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LineSeparator",
           "package": "text-icu",
@@ -6724,6 +7312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LinearBIdeograms",
           "package": "text-icu",
@@ -6733,6 +7322,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LinearBIdeograms",
           "package": "text-icu",
@@ -6746,6 +7336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LinearBSyllabary",
           "package": "text-icu",
@@ -6755,6 +7346,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LinearBSyllabary",
           "package": "text-icu",
@@ -6769,6 +7361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that do not use logical order and require special handling\n in most processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LogicalOrderException",
           "package": "text-icu",
@@ -6779,6 +7372,7 @@
         "index": {
           "description": "Characters that do not use logical order and require special handling in most processing",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LogicalOrderException",
           "package": "text-icu",
@@ -6792,6 +7386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LowSurrogates",
           "package": "text-icu",
@@ -6801,6 +7396,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LowSurrogates",
           "package": "text-icu",
@@ -6814,6 +7410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Lowercase",
           "package": "text-icu",
@@ -6823,6 +7420,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Lowercase",
           "package": "text-icu",
@@ -6836,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "LowercaseLetter",
           "package": "text-icu",
@@ -6845,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "LowercaseLetter",
           "package": "text-icu",
@@ -6858,6 +7458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Lycian",
           "package": "text-icu",
@@ -6867,6 +7468,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Lycian",
           "package": "text-icu",
@@ -6880,6 +7482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Lydian",
           "package": "text-icu",
@@ -6889,6 +7492,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Lydian",
           "package": "text-icu",
@@ -6902,6 +7506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MahjongTiles",
           "package": "text-icu",
@@ -6911,6 +7516,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MahjongTiles",
           "package": "text-icu",
@@ -6924,6 +7530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Malayalam",
           "package": "text-icu",
@@ -6933,6 +7540,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Malayalam",
           "package": "text-icu",
@@ -6946,6 +7554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MandatoryBreak",
           "package": "text-icu",
@@ -6955,6 +7564,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MandatoryBreak",
           "package": "text-icu",
@@ -6968,6 +7578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Math",
           "package": "text-icu",
@@ -6977,6 +7588,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Math",
           "package": "text-icu",
@@ -6990,6 +7602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MathSymbol",
           "package": "text-icu",
@@ -6999,6 +7612,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MathSymbol",
           "package": "text-icu",
@@ -7012,6 +7626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MathematicalAlphanumericSymbols",
           "package": "text-icu",
@@ -7021,6 +7636,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MathematicalAlphanumericSymbols",
           "package": "text-icu",
@@ -7034,6 +7650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MathematicalOperators",
           "package": "text-icu",
@@ -7043,6 +7660,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MathematicalOperators",
           "package": "text-icu",
@@ -7056,6 +7674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Medial",
           "package": "text-icu",
@@ -7065,6 +7684,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Medial",
           "package": "text-icu",
@@ -7078,6 +7698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Meem",
           "package": "text-icu",
@@ -7087,6 +7708,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Meem",
           "package": "text-icu",
@@ -7100,6 +7722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Mim",
           "package": "text-icu",
@@ -7109,6 +7732,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Mim",
           "package": "text-icu",
@@ -7122,6 +7746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousMathematicalSymbolsA",
           "package": "text-icu",
@@ -7131,6 +7756,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousMathematicalSymbolsA",
           "package": "text-icu",
@@ -7144,6 +7770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousMathematicalSymbolsB",
           "package": "text-icu",
@@ -7153,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousMathematicalSymbolsB",
           "package": "text-icu",
@@ -7166,6 +7794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousSymbols",
           "package": "text-icu",
@@ -7175,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousSymbols",
           "package": "text-icu",
@@ -7188,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousSymbolsAndArrows",
           "package": "text-icu",
@@ -7197,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousSymbolsAndArrows",
           "package": "text-icu",
@@ -7210,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousTechnical",
           "package": "text-icu",
@@ -7219,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MiscellaneousTechnical",
           "package": "text-icu",
@@ -7232,6 +7866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ModifierLetter",
           "package": "text-icu",
@@ -7241,6 +7876,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ModifierLetter",
           "package": "text-icu",
@@ -7254,6 +7890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ModifierSymbol",
           "package": "text-icu",
@@ -7263,6 +7900,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ModifierSymbol",
           "package": "text-icu",
@@ -7276,6 +7914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ModifierToneLetters",
           "package": "text-icu",
@@ -7285,6 +7924,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ModifierToneLetters",
           "package": "text-icu",
@@ -7298,6 +7938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Mongolian",
           "package": "text-icu",
@@ -7307,6 +7948,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Mongolian",
           "package": "text-icu",
@@ -7320,6 +7962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "MusicalSymbols",
           "package": "text-icu",
@@ -7329,6 +7972,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "MusicalSymbols",
           "package": "text-icu",
@@ -7342,6 +7986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Myanmar",
           "package": "text-icu",
@@ -7351,6 +7996,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Myanmar",
           "package": "text-icu",
@@ -7364,6 +8010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "N'Ko",
           "package": "text-icu",
@@ -7373,6 +8020,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "N'Ko",
           "package": "text-icu",
@@ -7387,6 +8035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eICU-specific property for characters that are inert under NFC,\n i.e. they do not interact with adjacent characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFCInert",
           "package": "text-icu",
@@ -7397,6 +8046,7 @@
         "index": {
           "description": "ICU-specific property for characters that are inert under NFC i.e they do not interact with adjacent characters",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFCInert",
           "package": "text-icu",
@@ -7410,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFCQuickCheck",
           "package": "text-icu",
@@ -7419,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFCQuickCheck",
           "package": "text-icu",
@@ -7433,6 +8085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eICU-specific property for characters that are inert under NFD, i.e.\n they do not interact with adjacent characters.  Used for example in\n normalizing transforms in incremental mode to find the boundary of\n safely normalizable text despite possible text additions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFDInert",
           "package": "text-icu",
@@ -7443,6 +8096,7 @@
         "index": {
           "description": "ICU-specific property for characters that are inert under NFD i.e they do not interact with adjacent characters Used for example in normalizing transforms in incremental mode to find the boundary of safely normalizable text despite possible text additions",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFDInert",
           "package": "text-icu",
@@ -7456,6 +8110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFDQuickCheck",
           "package": "text-icu",
@@ -7465,6 +8120,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFDQuickCheck",
           "package": "text-icu",
@@ -7479,6 +8135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eICU-specific property for characters that are inert under NFKC,\n i.e. they do not interact with adjacent characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFKCInert",
           "package": "text-icu",
@@ -7489,6 +8146,7 @@
         "index": {
           "description": "ICU-specific property for characters that are inert under NFKC i.e they do not interact with adjacent characters",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFKCInert",
           "package": "text-icu",
@@ -7502,6 +8160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFKCQuickCheck",
           "package": "text-icu",
@@ -7511,6 +8170,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFKCQuickCheck",
           "package": "text-icu",
@@ -7525,6 +8185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eICU-specific property for characters that are inert under NFKD, i.e.\n they do not interact with adjacent characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFKDInert",
           "package": "text-icu",
@@ -7535,6 +8196,7 @@
         "index": {
           "description": "ICU-specific property for characters that are inert under NFKD i.e they do not interact with adjacent characters",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFKDInert",
           "package": "text-icu",
@@ -7548,6 +8210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NFKDQuickCheck",
           "package": "text-icu",
@@ -7557,6 +8220,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NFKDQuickCheck",
           "package": "text-icu",
@@ -7570,6 +8234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NTDecimal",
           "package": "text-icu",
@@ -7579,6 +8244,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NTDecimal",
           "package": "text-icu",
@@ -7592,6 +8258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NTDigit",
           "package": "text-icu",
@@ -7601,6 +8268,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NTDigit",
           "package": "text-icu",
@@ -7614,6 +8282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NTNumeric",
           "package": "text-icu",
@@ -7623,6 +8292,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NTNumeric",
           "package": "text-icu",
@@ -7636,6 +8306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Narrow",
           "package": "text-icu",
@@ -7645,6 +8316,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Narrow",
           "package": "text-icu",
@@ -7658,6 +8330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NewTaiLue",
           "package": "text-icu",
@@ -7667,6 +8340,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NewTaiLue",
           "package": "text-icu",
@@ -7680,6 +8354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NextLine",
           "package": "text-icu",
@@ -7689,6 +8364,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NextLine",
           "package": "text-icu",
@@ -7702,6 +8378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NoBlock",
           "package": "text-icu",
@@ -7711,6 +8388,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NoBlock",
           "package": "text-icu",
@@ -7724,6 +8402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NoBreak",
           "package": "text-icu",
@@ -7733,6 +8412,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NoBreak",
           "package": "text-icu",
@@ -7747,6 +8427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode points that are explicitly defined as illegal for the encoding\n of characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NonCharacter",
           "package": "text-icu",
@@ -7757,6 +8438,7 @@
         "index": {
           "description": "Code points that are explicitly defined as illegal for the encoding of characters",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NonCharacter",
           "package": "text-icu",
@@ -7770,6 +8452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NonSpacingMark",
           "package": "text-icu",
@@ -7779,6 +8462,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NonSpacingMark",
           "package": "text-icu",
@@ -7792,6 +8476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Nonstarter",
           "package": "text-icu",
@@ -7801,6 +8486,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Nonstarter",
           "package": "text-icu",
@@ -7814,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Noon",
           "package": "text-icu",
@@ -7823,6 +8510,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Noon",
           "package": "text-icu",
@@ -7836,6 +8524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NumberForms",
           "package": "text-icu",
@@ -7845,6 +8534,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NumberForms",
           "package": "text-icu",
@@ -7858,6 +8548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Numeric",
           "package": "text-icu",
@@ -7867,6 +8558,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Numeric",
           "package": "text-icu",
@@ -7880,6 +8572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "NumericType",
           "package": "text-icu",
@@ -7889,6 +8582,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "NumericType",
           "package": "text-icu",
@@ -7902,6 +8596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Nun",
           "package": "text-icu",
@@ -7911,6 +8606,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Nun",
           "package": "text-icu",
@@ -7924,6 +8620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Ogham",
           "package": "text-icu",
@@ -7933,6 +8630,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Ogham",
           "package": "text-icu",
@@ -7946,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OlChiki",
           "package": "text-icu",
@@ -7955,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OlChiki",
           "package": "text-icu",
@@ -7968,6 +8668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OldItalic",
           "package": "text-icu",
@@ -7977,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OldItalic",
           "package": "text-icu",
@@ -7990,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OldPersian",
           "package": "text-icu",
@@ -7999,6 +8702,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OldPersian",
           "package": "text-icu",
@@ -8012,6 +8716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OpenPunctuation",
           "package": "text-icu",
@@ -8021,6 +8726,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OpenPunctuation",
           "package": "text-icu",
@@ -8034,6 +8740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OpticalCharacterRecognition",
           "package": "text-icu",
@@ -8043,6 +8750,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OpticalCharacterRecognition",
           "package": "text-icu",
@@ -8056,6 +8764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Oriya",
           "package": "text-icu",
@@ -8065,6 +8774,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Oriya",
           "package": "text-icu",
@@ -8078,6 +8788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Osmanya",
           "package": "text-icu",
@@ -8087,6 +8798,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Osmanya",
           "package": "text-icu",
@@ -8100,6 +8812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OtherLetter",
           "package": "text-icu",
@@ -8109,6 +8822,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OtherLetter",
           "package": "text-icu",
@@ -8122,6 +8836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OtherNeutral",
           "package": "text-icu",
@@ -8131,6 +8846,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OtherNeutral",
           "package": "text-icu",
@@ -8144,6 +8860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OtherNumber",
           "package": "text-icu",
@@ -8153,6 +8870,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OtherNumber",
           "package": "text-icu",
@@ -8166,6 +8884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OtherPunctuation",
           "package": "text-icu",
@@ -8175,6 +8894,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OtherPunctuation",
           "package": "text-icu",
@@ -8188,6 +8908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "OtherSymbol",
           "package": "text-icu",
@@ -8197,6 +8918,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "OtherSymbol",
           "package": "text-icu",
@@ -8211,6 +8933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlphanumeric character class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXAlNum",
           "package": "text-icu",
@@ -8221,6 +8944,7 @@
         "index": {
           "description": "Alphanumeric character class",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXAlNum",
           "package": "text-icu",
@@ -8235,6 +8959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlank character class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXBlank",
           "package": "text-icu",
@@ -8245,6 +8970,7 @@
         "index": {
           "description": "Blank character class",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXBlank",
           "package": "text-icu",
@@ -8259,6 +8985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph character class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXGraph",
           "package": "text-icu",
@@ -8269,6 +8996,7 @@
         "index": {
           "description": "Graph character class",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXGraph",
           "package": "text-icu",
@@ -8283,6 +9011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrintable character class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXPrint",
           "package": "text-icu",
@@ -8293,6 +9022,7 @@
         "index": {
           "description": "Printable character class",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXPrint",
           "package": "text-icu",
@@ -8307,6 +9037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHex digit character class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXXDigit",
           "package": "text-icu",
@@ -8317,6 +9048,7 @@
         "index": {
           "description": "Hex digit character class",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "POSIXXDigit",
           "package": "text-icu",
@@ -8330,6 +9062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ParagraphSeparator",
           "package": "text-icu",
@@ -8339,6 +9072,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ParagraphSeparator",
           "package": "text-icu",
@@ -8353,6 +9087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee UAX #31 Identifier and Pattern Syntax\n \u003ca\u003ehttp://www.unicode.org/reports/tr31/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PatternSyntax",
           "package": "text-icu",
@@ -8363,6 +9098,7 @@
         "index": {
           "description": "See UAX Identifier and Pattern Syntax http www.unicode.org reports tr31",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PatternSyntax",
           "package": "text-icu",
@@ -8377,6 +9113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee UAX #31 Identifier and Pattern Syntax\n \u003ca\u003ehttp://www.unicode.org/reports/tr31/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PatternWhiteSpace",
           "package": "text-icu",
@@ -8387,6 +9124,7 @@
         "index": {
           "description": "See UAX Identifier and Pattern Syntax http www.unicode.org reports tr31",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PatternWhiteSpace",
           "package": "text-icu",
@@ -8400,6 +9138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Pe",
           "package": "text-icu",
@@ -8409,6 +9148,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Pe",
           "package": "text-icu",
@@ -8422,6 +9162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PhagsPa",
           "package": "text-icu",
@@ -8431,6 +9172,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PhagsPa",
           "package": "text-icu",
@@ -8444,6 +9186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PhaistosDisc",
           "package": "text-icu",
@@ -8453,6 +9196,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PhaistosDisc",
           "package": "text-icu",
@@ -8466,6 +9210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Phoenician",
           "package": "text-icu",
@@ -8475,6 +9220,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Phoenician",
           "package": "text-icu",
@@ -8488,6 +9234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PhoneticExtensions",
           "package": "text-icu",
@@ -8497,6 +9244,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PhoneticExtensions",
           "package": "text-icu",
@@ -8510,6 +9258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PhoneticExtensionsSupplement",
           "package": "text-icu",
@@ -8519,6 +9268,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PhoneticExtensionsSupplement",
           "package": "text-icu",
@@ -8532,6 +9282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PopDirectionalFormat",
           "package": "text-icu",
@@ -8541,6 +9292,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PopDirectionalFormat",
           "package": "text-icu",
@@ -8554,6 +9306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PostfixNumeric",
           "package": "text-icu",
@@ -8563,6 +9316,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PostfixNumeric",
           "package": "text-icu",
@@ -8576,6 +9330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PrefixNumeric",
           "package": "text-icu",
@@ -8585,6 +9340,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PrefixNumeric",
           "package": "text-icu",
@@ -8598,6 +9354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Prepend",
           "package": "text-icu",
@@ -8607,6 +9364,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Prepend",
           "package": "text-icu",
@@ -8620,6 +9378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PrivateUseArea",
           "package": "text-icu",
@@ -8629,6 +9388,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PrivateUseArea",
           "package": "text-icu",
@@ -8642,6 +9402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "PrivateUseChar",
           "package": "text-icu",
@@ -8651,6 +9412,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "PrivateUseChar",
           "package": "text-icu",
@@ -8664,6 +9426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Qaf",
           "package": "text-icu",
@@ -8673,6 +9436,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Qaf",
           "package": "text-icu",
@@ -8686,6 +9450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Qaph",
           "package": "text-icu",
@@ -8695,6 +9460,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Qaph",
           "package": "text-icu",
@@ -8708,6 +9474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Quotation",
           "package": "text-icu",
@@ -8717,6 +9484,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Quotation",
           "package": "text-icu",
@@ -8730,6 +9498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "QuotationMark",
           "package": "text-icu",
@@ -8739,6 +9508,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "QuotationMark",
           "package": "text-icu",
@@ -8753,6 +9523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of Ideographic Description Sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Radical",
           "package": "text-icu",
@@ -8763,6 +9534,7 @@
         "index": {
           "description": "For programmatic determination of Ideographic Description Sequences",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Radical",
           "package": "text-icu",
@@ -8776,6 +9548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Reh",
           "package": "text-icu",
@@ -8785,6 +9558,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Reh",
           "package": "text-icu",
@@ -8798,6 +9572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Rejang",
           "package": "text-icu",
@@ -8807,6 +9582,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Rejang",
           "package": "text-icu",
@@ -8820,6 +9596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "ReversedPe",
           "package": "text-icu",
@@ -8829,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "ReversedPe",
           "package": "text-icu",
@@ -8842,6 +9620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "RightJoining",
           "package": "text-icu",
@@ -8851,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "RightJoining",
           "package": "text-icu",
@@ -8864,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "RightToLeft",
           "package": "text-icu",
@@ -8873,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "RightToLeft",
           "package": "text-icu",
@@ -8886,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "RightToLeftArabic",
           "package": "text-icu",
@@ -8895,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "RightToLeftArabic",
           "package": "text-icu",
@@ -8908,6 +9692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "RightToLeftEmbedding",
           "package": "text-icu",
@@ -8917,6 +9702,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "RightToLeftEmbedding",
           "package": "text-icu",
@@ -8930,6 +9716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "RightToLeftOverride",
           "package": "text-icu",
@@ -8939,6 +9726,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "RightToLeftOverride",
           "package": "text-icu",
@@ -8952,6 +9740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Runic",
           "package": "text-icu",
@@ -8961,6 +9750,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Runic",
           "package": "text-icu",
@@ -8974,6 +9764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBATerm",
           "package": "text-icu",
@@ -8983,6 +9774,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBATerm",
           "package": "text-icu",
@@ -8996,6 +9788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBCR",
           "package": "text-icu",
@@ -9005,6 +9798,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBCR",
           "package": "text-icu",
@@ -9018,6 +9812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBClose",
           "package": "text-icu",
@@ -9027,6 +9822,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBClose",
           "package": "text-icu",
@@ -9040,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBExtend",
           "package": "text-icu",
@@ -9049,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBExtend",
           "package": "text-icu",
@@ -9062,6 +9860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBFormat",
           "package": "text-icu",
@@ -9071,6 +9870,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBFormat",
           "package": "text-icu",
@@ -9084,6 +9884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBLF",
           "package": "text-icu",
@@ -9093,6 +9894,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBLF",
           "package": "text-icu",
@@ -9106,6 +9908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBLower",
           "package": "text-icu",
@@ -9115,6 +9918,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBLower",
           "package": "text-icu",
@@ -9128,6 +9932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBNumeric",
           "package": "text-icu",
@@ -9137,6 +9942,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBNumeric",
           "package": "text-icu",
@@ -9150,6 +9956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBOLetter",
           "package": "text-icu",
@@ -9159,6 +9966,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBOLetter",
           "package": "text-icu",
@@ -9172,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBSContinue",
           "package": "text-icu",
@@ -9181,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBSContinue",
           "package": "text-icu",
@@ -9194,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBSP",
           "package": "text-icu",
@@ -9203,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBSP",
           "package": "text-icu",
@@ -9216,6 +10028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBSTerm",
           "package": "text-icu",
@@ -9225,6 +10038,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBSTerm",
           "package": "text-icu",
@@ -9238,6 +10052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBSep",
           "package": "text-icu",
@@ -9247,6 +10062,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBSep",
           "package": "text-icu",
@@ -9260,6 +10076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SBUpper",
           "package": "text-icu",
@@ -9269,6 +10086,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SBUpper",
           "package": "text-icu",
@@ -9283,6 +10101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentence Terminal. Used in UAX #29: Text Boundaries\n \u003ca\u003ehttp://www.unicode.org/reports/tr29/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "STerm",
           "package": "text-icu",
@@ -9293,6 +10112,7 @@
         "index": {
           "description": "Sentence Terminal Used in UAX Text Boundaries http www.unicode.org reports tr29",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "STerm",
           "package": "text-icu",
@@ -9306,6 +10126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Sad",
           "package": "text-icu",
@@ -9315,6 +10136,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Sad",
           "package": "text-icu",
@@ -9328,6 +10150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Sadhe",
           "package": "text-icu",
@@ -9337,6 +10160,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Sadhe",
           "package": "text-icu",
@@ -9350,6 +10174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Saurashtra",
           "package": "text-icu",
@@ -9359,6 +10184,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Saurashtra",
           "package": "text-icu",
@@ -9372,6 +10198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Seen",
           "package": "text-icu",
@@ -9381,6 +10208,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Seen",
           "package": "text-icu",
@@ -9394,6 +10222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SegmentSeparator",
           "package": "text-icu",
@@ -9403,6 +10232,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SegmentSeparator",
           "package": "text-icu",
@@ -9417,6 +10247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eICU-specific property for characters that are starters in terms of\n Unicode normalization and combining character sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SegmentStarter",
           "package": "text-icu",
@@ -9427,6 +10258,7 @@
         "index": {
           "description": "ICU-specific property for characters that are starters in terms of Unicode normalization and combining character sequences",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SegmentStarter",
           "package": "text-icu",
@@ -9440,6 +10272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Semkath",
           "package": "text-icu",
@@ -9449,6 +10282,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Semkath",
           "package": "text-icu",
@@ -9462,6 +10296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SentenceBreak",
           "package": "text-icu",
@@ -9471,6 +10306,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SentenceBreak",
           "package": "text-icu",
@@ -9484,6 +10320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Shavian",
           "package": "text-icu",
@@ -9493,6 +10330,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Shavian",
           "package": "text-icu",
@@ -9506,6 +10344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Shin",
           "package": "text-icu",
@@ -9515,6 +10354,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Shin",
           "package": "text-icu",
@@ -9528,6 +10368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Sinhala",
           "package": "text-icu",
@@ -9537,6 +10378,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Sinhala",
           "package": "text-icu",
@@ -9550,6 +10392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Small",
           "package": "text-icu",
@@ -9559,6 +10402,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Small",
           "package": "text-icu",
@@ -9572,6 +10416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SmallFormVariants",
           "package": "text-icu",
@@ -9581,6 +10426,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SmallFormVariants",
           "package": "text-icu",
@@ -9595,6 +10441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters with a \u003ca\u003esoft dot\u003c/a\u003e, like i or j. An accent placed on these\n characters causes the dot to disappear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SoftDotted",
           "package": "text-icu",
@@ -9605,6 +10452,7 @@
         "index": {
           "description": "Characters with soft dot like or An accent placed on these characters causes the dot to disappear",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SoftDotted",
           "package": "text-icu",
@@ -9618,6 +10466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Space",
           "package": "text-icu",
@@ -9627,6 +10476,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Space",
           "package": "text-icu",
@@ -9640,6 +10490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SpaceSeparator",
           "package": "text-icu",
@@ -9649,6 +10500,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SpaceSeparator",
           "package": "text-icu",
@@ -9662,6 +10514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SpacingMark",
           "package": "text-icu",
@@ -9671,6 +10524,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SpacingMark",
           "package": "text-icu",
@@ -9684,6 +10538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SpacingModifierLetters",
           "package": "text-icu",
@@ -9693,6 +10548,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SpacingModifierLetters",
           "package": "text-icu",
@@ -9706,6 +10562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Specials",
           "package": "text-icu",
@@ -9715,6 +10572,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Specials",
           "package": "text-icu",
@@ -9728,6 +10586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Square",
           "package": "text-icu",
@@ -9737,6 +10596,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Square",
           "package": "text-icu",
@@ -9750,6 +10610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "StartPunctuation",
           "package": "text-icu",
@@ -9759,6 +10620,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "StartPunctuation",
           "package": "text-icu",
@@ -9772,6 +10634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Sub",
           "package": "text-icu",
@@ -9781,6 +10644,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Sub",
           "package": "text-icu",
@@ -9794,6 +10658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Sundanese",
           "package": "text-icu",
@@ -9803,6 +10668,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Sundanese",
           "package": "text-icu",
@@ -9816,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Super",
           "package": "text-icu",
@@ -9825,6 +10692,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Super",
           "package": "text-icu",
@@ -9838,6 +10706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SuperscriptsAndSubscripts",
           "package": "text-icu",
@@ -9847,6 +10716,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SuperscriptsAndSubscripts",
           "package": "text-icu",
@@ -9860,6 +10730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementalArrowsA",
           "package": "text-icu",
@@ -9869,6 +10740,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementalArrowsA",
           "package": "text-icu",
@@ -9882,6 +10754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementalArrowsB",
           "package": "text-icu",
@@ -9891,6 +10764,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementalArrowsB",
           "package": "text-icu",
@@ -9904,6 +10778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementalMathematicalOperators",
           "package": "text-icu",
@@ -9913,6 +10788,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementalMathematicalOperators",
           "package": "text-icu",
@@ -9926,6 +10802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementalPunctuation",
           "package": "text-icu",
@@ -9935,6 +10812,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementalPunctuation",
           "package": "text-icu",
@@ -9948,6 +10826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementaryPrivateUseAreaA",
           "package": "text-icu",
@@ -9957,6 +10836,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementaryPrivateUseAreaA",
           "package": "text-icu",
@@ -9970,6 +10850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementaryPrivateUseAreaB",
           "package": "text-icu",
@@ -9979,6 +10860,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SupplementaryPrivateUseAreaB",
           "package": "text-icu",
@@ -9992,6 +10874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Surrogate",
           "package": "text-icu",
@@ -10001,6 +10884,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Surrogate",
           "package": "text-icu",
@@ -10014,6 +10898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SwashKaf",
           "package": "text-icu",
@@ -10023,6 +10908,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SwashKaf",
           "package": "text-icu",
@@ -10036,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SylotiNagri",
           "package": "text-icu",
@@ -10045,6 +10932,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SylotiNagri",
           "package": "text-icu",
@@ -10058,6 +10946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Syriac",
           "package": "text-icu",
@@ -10067,6 +10956,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Syriac",
           "package": "text-icu",
@@ -10080,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "SyriacWaw",
           "package": "text-icu",
@@ -10089,6 +10980,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "SyriacWaw",
           "package": "text-icu",
@@ -10102,6 +10994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "T",
           "package": "text-icu",
@@ -10111,6 +11004,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "T",
           "package": "text-icu",
@@ -10123,6 +11017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Tagalog",
           "package": "text-icu",
@@ -10132,6 +11027,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Tagalog",
           "package": "text-icu",
@@ -10145,6 +11041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Tagbanwa",
           "package": "text-icu",
@@ -10154,6 +11051,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Tagbanwa",
           "package": "text-icu",
@@ -10167,6 +11065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Tags",
           "package": "text-icu",
@@ -10176,6 +11075,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Tags",
           "package": "text-icu",
@@ -10189,6 +11089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Tah",
           "package": "text-icu",
@@ -10198,6 +11099,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Tah",
           "package": "text-icu",
@@ -10211,6 +11113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "TaiLe",
           "package": "text-icu",
@@ -10220,6 +11123,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "TaiLe",
           "package": "text-icu",
@@ -10233,6 +11137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "TaiXuanJingSymbols",
           "package": "text-icu",
@@ -10242,6 +11147,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "TaiXuanJingSymbols",
           "package": "text-icu",
@@ -10255,6 +11161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Tamil",
           "package": "text-icu",
@@ -10264,6 +11171,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Tamil",
           "package": "text-icu",
@@ -10277,6 +11185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Taw",
           "package": "text-icu",
@@ -10286,6 +11195,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Taw",
           "package": "text-icu",
@@ -10299,6 +11209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "TehMarbuta",
           "package": "text-icu",
@@ -10308,6 +11219,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "TehMarbuta",
           "package": "text-icu",
@@ -10321,6 +11233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Telugu",
           "package": "text-icu",
@@ -10330,6 +11243,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Telugu",
           "package": "text-icu",
@@ -10344,6 +11258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePunctuation characters that generally mark the end of textual units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "TerminalPunctuation",
           "package": "text-icu",
@@ -10354,6 +11269,7 @@
         "index": {
           "description": "Punctuation characters that generally mark the end of textual units",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "TerminalPunctuation",
           "package": "text-icu",
@@ -10367,6 +11283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Teth",
           "package": "text-icu",
@@ -10376,6 +11293,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Teth",
           "package": "text-icu",
@@ -10389,6 +11307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Thaana",
           "package": "text-icu",
@@ -10398,6 +11317,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Thaana",
           "package": "text-icu",
@@ -10411,6 +11331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Thai",
           "package": "text-icu",
@@ -10420,6 +11341,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Thai",
           "package": "text-icu",
@@ -10433,6 +11355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Tibetan",
           "package": "text-icu",
@@ -10442,6 +11365,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Tibetan",
           "package": "text-icu",
@@ -10455,6 +11379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Tifinagh",
           "package": "text-icu",
@@ -10464,6 +11389,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Tifinagh",
           "package": "text-icu",
@@ -10477,6 +11403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "TitlecaseLetter",
           "package": "text-icu",
@@ -10486,6 +11413,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "TitlecaseLetter",
           "package": "text-icu",
@@ -10499,6 +11427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "TrailingCanonicalCombiningClass",
           "package": "text-icu",
@@ -10508,6 +11437,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "TrailingCanonicalCombiningClass",
           "package": "text-icu",
@@ -10521,6 +11451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "TrailingJamo",
           "package": "text-icu",
@@ -10530,6 +11461,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "TrailingJamo",
           "package": "text-icu",
@@ -10543,6 +11475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Transparent",
           "package": "text-icu",
@@ -10552,6 +11485,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Transparent",
           "package": "text-icu",
@@ -10565,6 +11499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Ugaritic",
           "package": "text-icu",
@@ -10574,6 +11509,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Ugaritic",
           "package": "text-icu",
@@ -10587,6 +11523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "UnifiedCanadianAboriginalSyllabics",
           "package": "text-icu",
@@ -10596,6 +11533,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "UnifiedCanadianAboriginalSyllabics",
           "package": "text-icu",
@@ -10610,6 +11548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of Ideographic Description Sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "UnifiedIdeograph",
           "package": "text-icu",
@@ -10620,6 +11559,7 @@
         "index": {
           "description": "For programmatic determination of Ideographic Description Sequences",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "UnifiedIdeograph",
           "package": "text-icu",
@@ -10633,6 +11573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Uppercase",
           "package": "text-icu",
@@ -10642,6 +11583,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Uppercase",
           "package": "text-icu",
@@ -10655,6 +11597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "UppercaseLetter",
           "package": "text-icu",
@@ -10664,6 +11607,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "UppercaseLetter",
           "package": "text-icu",
@@ -10677,6 +11621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "V",
           "package": "text-icu",
@@ -10686,6 +11631,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "V",
           "package": "text-icu",
@@ -10698,6 +11644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Vai",
           "package": "text-icu",
@@ -10707,6 +11654,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Vai",
           "package": "text-icu",
@@ -10721,6 +11669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates all those characters that qualify as Variation\n Selectors. For details on the behavior of these characters, see\n \u003ca\u003ehttp://unicode.org/Public/UNIDATA/StandardizedVariants.html\u003c/a\u003e and 15.6\n Variation Selectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "VariationSelector",
           "package": "text-icu",
@@ -10731,6 +11680,7 @@
         "index": {
           "description": "Indicates all those characters that qualify as Variation Selectors For details on the behavior of these characters see http unicode.org Public UNIDATA StandardizedVariants.html and Variation Selectors",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "VariationSelector",
           "package": "text-icu",
@@ -10744,6 +11694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "VariationSelectors",
           "package": "text-icu",
@@ -10753,6 +11704,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "VariationSelectors",
           "package": "text-icu",
@@ -10766,6 +11718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "VariationSelectorsSupplement",
           "package": "text-icu",
@@ -10775,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "VariationSelectorsSupplement",
           "package": "text-icu",
@@ -10788,6 +11742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Vertical",
           "package": "text-icu",
@@ -10797,6 +11752,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Vertical",
           "package": "text-icu",
@@ -10810,6 +11766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "VerticalForms",
           "package": "text-icu",
@@ -10819,6 +11776,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "VerticalForms",
           "package": "text-icu",
@@ -10832,6 +11790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "VowelJamo",
           "package": "text-icu",
@@ -10841,6 +11800,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "VowelJamo",
           "package": "text-icu",
@@ -10854,6 +11814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBALetter",
           "package": "text-icu",
@@ -10863,6 +11824,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBALetter",
           "package": "text-icu",
@@ -10876,6 +11838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBCR",
           "package": "text-icu",
@@ -10885,6 +11848,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBCR",
           "package": "text-icu",
@@ -10898,6 +11862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBExtend",
           "package": "text-icu",
@@ -10907,6 +11872,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBExtend",
           "package": "text-icu",
@@ -10920,6 +11886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBExtendNumLet",
           "package": "text-icu",
@@ -10929,6 +11896,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBExtendNumLet",
           "package": "text-icu",
@@ -10942,6 +11910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBFormat",
           "package": "text-icu",
@@ -10951,6 +11920,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBFormat",
           "package": "text-icu",
@@ -10964,6 +11934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBKatakana",
           "package": "text-icu",
@@ -10973,6 +11944,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBKatakana",
           "package": "text-icu",
@@ -10986,6 +11958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBLF",
           "package": "text-icu",
@@ -10995,6 +11968,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBLF",
           "package": "text-icu",
@@ -11008,6 +11982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBMidLetter",
           "package": "text-icu",
@@ -11017,6 +11992,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBMidLetter",
           "package": "text-icu",
@@ -11030,6 +12006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBMidNum",
           "package": "text-icu",
@@ -11039,6 +12016,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBMidNum",
           "package": "text-icu",
@@ -11052,6 +12030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBMidNumLet",
           "package": "text-icu",
@@ -11061,6 +12040,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBMidNumLet",
           "package": "text-icu",
@@ -11074,6 +12054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBNewline",
           "package": "text-icu",
@@ -11083,6 +12064,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBNewline",
           "package": "text-icu",
@@ -11096,6 +12078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WBNumeric",
           "package": "text-icu",
@@ -11105,6 +12088,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WBNumeric",
           "package": "text-icu",
@@ -11118,6 +12102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Waw",
           "package": "text-icu",
@@ -11127,6 +12112,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Waw",
           "package": "text-icu",
@@ -11140,6 +12126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WhiteSpace",
           "package": "text-icu",
@@ -11149,6 +12136,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WhiteSpace",
           "package": "text-icu",
@@ -11162,6 +12150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WhiteSpaceNeutral",
           "package": "text-icu",
@@ -11171,6 +12160,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WhiteSpaceNeutral",
           "package": "text-icu",
@@ -11184,6 +12174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Wide",
           "package": "text-icu",
@@ -11193,6 +12184,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Wide",
           "package": "text-icu",
@@ -11206,6 +12198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WordBreak",
           "package": "text-icu",
@@ -11215,6 +12208,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WordBreak",
           "package": "text-icu",
@@ -11228,6 +12222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "WordJoiner",
           "package": "text-icu",
@@ -11237,6 +12232,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "WordJoiner",
           "package": "text-icu",
@@ -11251,6 +12247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIDContinue\u003c/a\u003e\u003c/code\u003e modified to allow closure under normalization forms\n NFKC and NFKD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "XidContinue",
           "package": "text-icu",
@@ -11261,6 +12258,7 @@
         "index": {
           "description": "IDContinue modified to allow closure under normalization forms NFKC and NFKD",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "XidContinue",
           "package": "text-icu",
@@ -11275,6 +12273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIDStart\u003c/a\u003e\u003c/code\u003e modified to allow closure under normalization forms NFKC\n and NFKD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "XidStart",
           "package": "text-icu",
@@ -11285,6 +12284,7 @@
         "index": {
           "description": "IDStart modified to allow closure under normalization forms NFKC and NFKD",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "XidStart",
           "package": "text-icu",
@@ -11298,6 +12298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Yeh",
           "package": "text-icu",
@@ -11307,6 +12308,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Yeh",
           "package": "text-icu",
@@ -11320,6 +12322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "YehBarree",
           "package": "text-icu",
@@ -11329,6 +12332,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "YehBarree",
           "package": "text-icu",
@@ -11342,6 +12346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "YehWithTail",
           "package": "text-icu",
@@ -11351,6 +12356,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "YehWithTail",
           "package": "text-icu",
@@ -11364,6 +12370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "YiRadicals",
           "package": "text-icu",
@@ -11373,6 +12380,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "YiRadicals",
           "package": "text-icu",
@@ -11386,6 +12394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "YiSyllables",
           "package": "text-icu",
@@ -11395,6 +12404,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "YiSyllables",
           "package": "text-icu",
@@ -11408,6 +12418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "YijingHexagramSymbols",
           "package": "text-icu",
@@ -11417,6 +12428,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "YijingHexagramSymbols",
           "package": "text-icu",
@@ -11430,6 +12442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Yudh",
           "package": "text-icu",
@@ -11439,6 +12452,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Yudh",
           "package": "text-icu",
@@ -11452,6 +12466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "YudhHe",
           "package": "text-icu",
@@ -11461,6 +12476,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "YudhHe",
           "package": "text-icu",
@@ -11474,6 +12490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Zain",
           "package": "text-icu",
@@ -11483,6 +12500,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Zain",
           "package": "text-icu",
@@ -11496,6 +12514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Zhain",
           "package": "text-icu",
@@ -11505,6 +12524,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Zhain",
           "package": "text-icu",
@@ -11518,6 +12538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "Zwspace",
           "package": "text-icu",
@@ -11527,6 +12548,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "Zwspace",
           "package": "text-icu",
@@ -11541,6 +12563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the Unicode allocation block that contains the given\n character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "blockCode",
           "package": "text-icu",
@@ -11551,6 +12574,7 @@
         "index": {
           "description": "Return the Unicode allocation block that contains the given character",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "blockCode",
           "normalized": "Char-\u003eBlockCode",
@@ -11567,6 +12591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a Unicode character by its full or extended name, and return\n its code point value.\n\u003c/p\u003e\u003cp\u003eThe name is matched exactly and completely.\n\u003c/p\u003e\u003cp\u003eA Unicode 1.0 name is matched only if it differs from the modern\n name.\n\u003c/p\u003e\u003cp\u003eCompared to \u003ccode\u003e\u003ca\u003echarFromName\u003c/a\u003e\u003c/code\u003e, this function gives each Unicode code\n point a unique extended name. Extended names are lowercase followed\n by an uppercase hexadecimal number, within angle brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "charFromFullName",
           "package": "text-icu",
@@ -11577,6 +12602,7 @@
         "index": {
           "description": "Find Unicode character by its full or extended name and return its code point value The name is matched exactly and completely Unicode name is matched only if it differs from the modern name Compared to charFromName this function gives each Unicode code point unique extended name Extended names are lowercase followed by an uppercase hexadecimal number within angle brackets",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "charFromFullName",
           "normalized": "String-\u003eMaybe Char",
@@ -11593,6 +12619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a Unicode character by its full name, and return its code\n point value.\n\u003c/p\u003e\u003cp\u003eThe name is matched exactly and completely.\n\u003c/p\u003e\u003cp\u003eA Unicode 1.0 name is matched only if it differs from the modern\n name.  Unicode names are all uppercase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "charFromName",
           "package": "text-icu",
@@ -11603,6 +12630,7 @@
         "index": {
           "description": "Find Unicode character by its full name and return its code point value The name is matched exactly and completely Unicode name is matched only if it differs from the modern name Unicode names are all uppercase",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "charFromName",
           "normalized": "String-\u003eMaybe Char",
@@ -11619,6 +12647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the full name of a Unicode character.\n\u003c/p\u003e\u003cp\u003eCompared to \u003ccode\u003e\u003ca\u003echarName\u003c/a\u003e\u003c/code\u003e, this function gives each Unicode code point\n a unique extended name. Extended names are lowercase followed by an\n uppercase hexadecimal number, within angle brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "charFullName",
           "package": "text-icu",
@@ -11629,6 +12658,7 @@
         "index": {
           "description": "Return the full name of Unicode character Compared to charName this function gives each Unicode code point unique extended name Extended names are lowercase followed by an uppercase hexadecimal number within angle brackets",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "charFullName",
           "normalized": "Char-\u003eString",
@@ -11645,6 +12675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the name of a Unicode character.\n\u003c/p\u003e\u003cp\u003eThe names of all unassigned characters are empty.\n\u003c/p\u003e\u003cp\u003eThe name contains only \u003ca\u003einvariant\u003c/a\u003e characters like A-Z, 0-9, space,\n and '-'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "charName",
           "package": "text-icu",
@@ -11655,6 +12686,7 @@
         "index": {
           "description": "Return the name of Unicode character The names of all unassigned characters are empty The name contains only invariant characters like A-Z space and",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "charName",
           "normalized": "Char-\u003eString",
@@ -11670,6 +12702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "combiningClass",
           "package": "text-icu",
@@ -11679,6 +12712,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "combiningClass",
           "normalized": "Char-\u003eInt",
@@ -11695,6 +12729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the decimal digit value of a decimal digit character.\n Such characters have the general category \u003ccode\u003eNd\u003c/code\u003e (decimal digit\n numbers) and a \u003ccode\u003e\u003ca\u003eNumericType\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eNTDecimal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNo digit values are returned for any Han characters, because Han\n number characters are often used with a special Chinese-style\n number format (with characters for powers of 10 in between) instead\n of in decimal-positional notation.  Unicode 4 explicitly assigns\n Han number characters a \u003ccode\u003e\u003ca\u003eNumericType\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eNTNumeric\u003c/a\u003e\u003c/code\u003e instead of\n \u003ccode\u003e\u003ca\u003eNTDecimal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "digitToInt",
           "package": "text-icu",
@@ -11705,6 +12740,7 @@
         "index": {
           "description": "Return the decimal digit value of decimal digit character Such characters have the general category Nd decimal digit numbers and NumericType of NTDecimal No digit values are returned for any Han characters because Han number characters are often used with special Chinese-style number format with characters for powers of in between instead of in decimal-positional notation Unicode explicitly assigns Han number characters NumericType of NTNumeric instead of NTDecimal",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "digitToInt",
           "normalized": "Char-\u003eMaybe Int",
@@ -11721,6 +12757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the bidirectional category value for the code point,\n which is used in the Unicode bidirectional algorithm (UAX #9\n \u003ca\u003ehttp://www.unicode.org/reports/tr9/\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "direction",
           "package": "text-icu",
@@ -11731,6 +12768,7 @@
         "index": {
           "description": "Return the bidirectional category value for the code point which is used in the Unicode bidirectional algorithm UAX http www.unicode.org reports tr9",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "direction",
           "normalized": "Char-\u003eDirection",
@@ -11746,6 +12784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether the code point has the \u003ccode\u003e\u003ca\u003eBidiMirrored\u003c/a\u003e\u003c/code\u003e property.  This\n property is set for characters that are commonly used in Right-To-Left\n contexts and need to be displayed with a \u003ca\u003emirrored\u003c/a\u003e glyph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "isMirrored",
           "package": "text-icu",
@@ -11756,6 +12795,7 @@
         "index": {
           "description": "Determine whether the code point has the BidiMirrored property This property is set for characters that are commonly used in Right-To-Left contexts and need to be displayed with mirrored glyph",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "isMirrored",
           "normalized": "Char-\u003eBool",
@@ -11772,6 +12812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the ISO 10646 comment for a character.\n\u003c/p\u003e\u003cp\u003eIf a character does not have an associated comment, the empty\n string is returned.\n\u003c/p\u003e\u003cp\u003eThe ISO 10646 comment is an informative field in the Unicode\n Character Database (\u003ccode\u003eUnicodeData.txt\u003c/code\u003e field 11) and is from the ISO\n 10646 names list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "isoComment",
           "package": "text-icu",
@@ -11782,6 +12823,7 @@
         "index": {
           "description": "Return the ISO comment for character If character does not have an associated comment the empty string is returned The ISO comment is an informative field in the Unicode Character Database UnicodeData.txt field and is from the ISO names list",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "isoComment",
           "normalized": "Char-\u003eString",
@@ -11797,6 +12839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "mirror",
           "package": "text-icu",
@@ -11806,6 +12849,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "mirror",
           "normalized": "Char-\u003eChar",
@@ -11821,6 +12865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the numeric value for a Unicode code point as defined in the\n Unicode Character Database.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e return type is necessary because some numeric values are\n fractions, negative, or too large to fit in a fixed-width integral type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "numericValue",
           "package": "text-icu",
@@ -11831,6 +12876,7 @@
         "index": {
           "description": "Return the numeric value for Unicode code point as defined in the Unicode Character Database Double return type is necessary because some numeric values are fractions negative or too large to fit in fixed-width integral type",
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "numericValue",
           "normalized": "Char-\u003eMaybe Double",
@@ -11846,6 +12892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Char",
           "name": "property",
           "package": "text-icu",
@@ -11855,6 +12902,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Char",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Char",
           "name": "property",
           "normalized": "a-\u003eChar-\u003eb",
@@ -11870,6 +12918,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eString collation functions for Unicode, implemented as bindings to\n the International Components for Unicode (ICU) libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Collate",
           "package": "text-icu",
@@ -11879,6 +12928,7 @@
         "index": {
           "description": "String collation functions for Unicode implemented as bindings to the International Components for Unicode ICU libraries",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Collate",
           "package": "text-icu",
@@ -11893,6 +12943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl the handling of variable weight elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "AlternateHandling",
           "package": "text-icu",
@@ -11902,6 +12953,7 @@
         "index": {
           "description": "Control the handling of variable weight elements",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "AlternateHandling",
           "package": "text-icu",
@@ -11915,6 +12967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Attribute",
           "package": "text-icu",
@@ -11923,6 +12976,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Attribute",
           "package": "text-icu",
@@ -11937,6 +12991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl the ordering of upper and lower case letters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "CaseFirst",
           "package": "text-icu",
@@ -11946,6 +13001,7 @@
         "index": {
           "description": "Control the ordering of upper and lower case letters",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "CaseFirst",
           "package": "text-icu",
@@ -11960,6 +13016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString collator type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "MCollator",
           "package": "text-icu",
@@ -11969,6 +13026,7 @@
         "index": {
           "description": "String collator type",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "MCollator",
           "package": "text-icu",
@@ -11983,6 +13041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strength attribute. The usual strength for most locales (except\n Japanese) is tertiary. Quaternary strength is useful when combined with\n shifted setting for alternate handling attribute and for JIS x 4061\n collation, when it is used to distinguish between Katakana and Hiragana\n (this is achieved by setting \u003ccode\u003e\u003ca\u003eHiraganaQuaternaryMode\u003c/a\u003e\u003c/code\u003e mode to\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e). Otherwise, quaternary level is affected only by the number of\n non ignorable code points in the string. Identical strength is rarely\n useful, as it amounts to codepoints of the \u003ccode\u003eNFD\u003c/code\u003e form of the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Strength",
           "package": "text-icu",
@@ -11992,6 +13051,7 @@
         "index": {
           "description": "The strength attribute The usual strength for most locales except Japanese is tertiary Quaternary strength is useful when combined with shifted setting for alternate handling attribute and for JIS collation when it is used to distinguish between Katakana and Hiragana this is achieved by setting HiraganaQuaternaryMode mode to True Otherwise quaternary level is affected only by the number of non ignorable code points in the string Identical strength is rarely useful as it amounts to codepoints of the NFD form of the string",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Strength",
           "package": "text-icu",
@@ -12006,6 +13066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor handling variable elements.  \u003ccode\u003e\u003ca\u003eNonIgnorable\u003c/a\u003e\u003c/code\u003e is\n default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "AlternateHandling",
           "package": "text-icu",
@@ -12016,6 +13077,7 @@
         "index": {
           "description": "For handling variable elements NonIgnorable is default",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "AlternateHandling",
           "package": "text-icu",
@@ -12030,6 +13092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl the ordering of upper and lower case letters.\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e (the default) orders upper and lower case\n letters in accordance to their tertiary weights.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "CaseFirst",
           "package": "text-icu",
@@ -12040,6 +13103,7 @@
         "index": {
           "description": "Control the ordering of upper and lower case letters Nothing the default orders upper and lower case letters in accordance to their tertiary weights",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "CaseFirst",
           "package": "text-icu",
@@ -12054,6 +13118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether an extra case level (positioned\n before the third level) is generated or not.  When\n \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e (default), case level is not generated; when\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the case level is generated. Contents of the\n case level are affected by the value of the \u003ccode\u003e\u003ca\u003eCaseFirst\u003c/a\u003e\u003c/code\u003e\n attribute. A simple way to ignore accent differences in\n a string is to set the strength to \u003ccode\u003e\u003ca\u003ePrimary\u003c/a\u003e\u003c/code\u003e and enable\n case level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "CaseLevel",
           "package": "text-icu",
@@ -12064,6 +13129,7 @@
         "index": {
           "description": "Controls whether an extra case level positioned before the third level is generated or not When False default case level is not generated when True the case level is generated Contents of the case level are affected by the value of the CaseFirst attribute simple way to ignore accent differences in string is to set the strength to Primary and enable case level",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "CaseLevel",
           "package": "text-icu",
@@ -12078,6 +13144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection of secondary weights, used in French.  \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\n results in secondary weights being considered backwards,\n while \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e treats secondary weights in the order in\n which they appear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "French",
           "package": "text-icu",
@@ -12088,6 +13155,7 @@
         "index": {
           "description": "Direction of secondary weights used in French True results in secondary weights being considered backwards while False treats secondary weights in the order in which they appear",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "French",
           "package": "text-icu",
@@ -12102,6 +13170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen turned on, this attribute positions Hiragana\n before all non-ignorables on quaternary level. This is a\n sneaky way to produce JIS sort order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "HiraganaQuaternaryMode",
           "package": "text-icu",
@@ -12112,6 +13181,7 @@
         "index": {
           "description": "When turned on this attribute positions Hiragana before all non-ignorables on quaternary level This is sneaky way to produce JIS sort order",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "HiraganaQuaternaryMode",
           "package": "text-icu",
@@ -12125,6 +13195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Identical",
           "package": "text-icu",
@@ -12134,6 +13205,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Identical",
           "package": "text-icu",
@@ -12148,6 +13220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce lower case letters to sort before\n upper case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "LowerFirst",
           "package": "text-icu",
@@ -12158,6 +13231,7 @@
         "index": {
           "description": "Force lower case letters to sort before upper case",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "LowerFirst",
           "package": "text-icu",
@@ -12172,6 +13246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTreat all codepoints with non-ignorable primary\n weights in the same way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "NonIgnorable",
           "package": "text-icu",
@@ -12182,6 +13257,7 @@
         "index": {
           "description": "Treat all codepoints with non-ignorable primary weights in the same way",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "NonIgnorable",
           "package": "text-icu",
@@ -12196,6 +13272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether the normalization check and necessary\n normalizations are performed. When \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e (default) no\n normalization check is performed. The correctness of the\n result is guaranteed only if the input data is in\n so-called \u003ccode\u003eFCD\u003c/code\u003e form (see users manual for more info).\n When \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, an incremental check is performed to see\n whether the input data is in \u003ccode\u003eFCD\u003c/code\u003e form. If the data is\n not in \u003ccode\u003eFCD\u003c/code\u003e form, incremental \u003ccode\u003eNFD\u003c/code\u003e normalization is\n performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "NormalizationMode",
           "package": "text-icu",
@@ -12206,6 +13283,7 @@
         "index": {
           "description": "Controls whether the normalization check and necessary normalizations are performed When False default no normalization check is performed The correctness of the result is guaranteed only if the input data is in so-called FCD form see users manual for more info When True an incremental check is performed to see whether the input data is in FCD form If the data is not in FCD form incremental NFD normalization is performed",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "NormalizationMode",
           "package": "text-icu",
@@ -12220,6 +13298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen enabled, this attribute generates a collation key\n for the numeric value of substrings of digits.  This is\n a way to get '100' to sort \u003cem\u003eafter\u003c/em\u003e '2'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Numeric",
           "package": "text-icu",
@@ -12230,6 +13309,7 @@
         "index": {
           "description": "When enabled this attribute generates collation key for the numeric value of substrings of digits This is way to get to sort after",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Numeric",
           "package": "text-icu",
@@ -12243,6 +13323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Primary",
           "package": "text-icu",
@@ -12252,6 +13333,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Primary",
           "package": "text-icu",
@@ -12265,6 +13347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Quaternary",
           "package": "text-icu",
@@ -12274,6 +13357,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Quaternary",
           "package": "text-icu",
@@ -12287,6 +13371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Secondary",
           "package": "text-icu",
@@ -12296,6 +13381,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Secondary",
           "package": "text-icu",
@@ -12310,6 +13396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCause codepoints with primary weights that are\n equal to or below the variable top value to be\n ignored on primary level and moved to the\n quaternary level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Shifted",
           "package": "text-icu",
@@ -12320,6 +13407,7 @@
         "index": {
           "description": "Cause codepoints with primary weights that are equal to or below the variable top value to be ignored on primary level and moved to the quaternary level",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Shifted",
           "package": "text-icu",
@@ -12333,6 +13421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Strength",
           "package": "text-icu",
@@ -12342,6 +13431,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Strength",
           "package": "text-icu",
@@ -12355,6 +13445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "Tertiary",
           "package": "text-icu",
@@ -12364,6 +13455,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "Tertiary",
           "package": "text-icu",
@@ -12378,6 +13470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce upper case letters to sort before\n lower case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "UpperFirst",
           "package": "text-icu",
@@ -12388,6 +13481,7 @@
         "index": {
           "description": "Force upper case letters to sort before lower case",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "UpperFirst",
           "package": "text-icu",
@@ -12402,6 +13496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a copy of a mutable \u003ccode\u003e\u003ca\u003eMCollator\u003c/a\u003e\u003c/code\u003e.\n Subsequent changes to the input \u003ccode\u003e\u003ca\u003eMCollator\u003c/a\u003e\u003c/code\u003e will not affect the state of\n the returned \u003ccode\u003e\u003ca\u003eMCollator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "clone",
           "package": "text-icu",
@@ -12412,6 +13507,7 @@
         "index": {
           "description": "Make copy of mutable MCollator Subsequent changes to the input MCollator will not affect the state of the returned MCollator",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "clone",
           "normalized": "MCollator-\u003eIO MCollator",
@@ -12427,6 +13523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "collate",
           "package": "text-icu",
@@ -12437,6 +13534,7 @@
         "index": {
           "description": "Compare two strings",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "collate",
           "normalized": "MCollator-\u003eText-\u003eText-\u003eIO Ordering",
@@ -12452,6 +13550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two \u003ccode\u003e\u003ca\u003eCharIterator\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eIf either iterator was constructed from a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, it does not need\n to be copied or converted internally, so this function can be quite\n cheap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "collateIter",
           "package": "text-icu",
@@ -12462,6 +13561,7 @@
         "index": {
           "description": "Compare two CharIterator If either iterator was constructed from ByteString it does not need to be copied or converted internally so this function can be quite cheap",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "collateIter",
           "normalized": "MCollator-\u003eCharIterator-\u003eCharIterator-\u003eIO Ordering",
@@ -12478,6 +13578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMCollator\u003c/a\u003e\u003c/code\u003es are considered equal if they will sort strings\n identically. This means that both the current attributes and the rules\n must be equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "equals",
           "package": "text-icu",
@@ -12488,6 +13589,7 @@
         "index": {
           "description": "MCollator are considered equal if they will sort strings identically This means that both the current attributes and the rules must be equivalent",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "equals",
           "normalized": "MCollator-\u003eMCollator-\u003eIO Bool",
@@ -12503,6 +13605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a safe copy of a mutable \u003ccode\u003e\u003ca\u003eMCollator\u003c/a\u003e\u003c/code\u003e for use in pure code.\n Subsequent changes to the \u003ccode\u003e\u003ca\u003eMCollator\u003c/a\u003e\u003c/code\u003e will not affect the state of\n the returned \u003ccode\u003e\u003ca\u003eCollator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "freeze",
           "package": "text-icu",
@@ -12513,6 +13616,7 @@
         "index": {
           "description": "Make safe copy of mutable MCollator for use in pure code Subsequent changes to the MCollator will not affect the state of the returned Collator",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "freeze",
           "normalized": "MCollator-\u003eIO Collator",
@@ -12528,6 +13632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of an \u003ccode\u003e\u003ca\u003eMCollator\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e\u003cp\u003eIt is safe to provide a dummy argument to an \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e constructor when\n using this function, so the following will work:\n\u003c/p\u003e\u003cpre\u003e getAttribute mcol (NormalizationMode undefined)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "getAttribute",
           "package": "text-icu",
@@ -12538,6 +13643,7 @@
         "index": {
           "description": "Get the value of an MCollator attribute It is safe to provide dummy argument to an Attribute constructor when using this function so the following will work getAttribute mcol NormalizationMode undefined",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "getAttribute",
           "normalized": "MCollator-\u003eAttribute-\u003eIO Attribute",
@@ -12554,6 +13660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a \u003ccode\u003e\u003ca\u003eCollator\u003c/a\u003e\u003c/code\u003e for comparing strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "open",
           "package": "text-icu",
@@ -12563,6 +13670,7 @@
         "index": {
           "description": "Open Collator for comparing strings",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "open",
           "normalized": "LocaleName-\u003eIO MCollator",
@@ -12578,6 +13686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the value of an \u003ccode\u003e\u003ca\u003eMCollator\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "setAttribute",
           "package": "text-icu",
@@ -12588,6 +13697,7 @@
         "index": {
           "description": "Set the value of an MCollator attribute",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "setAttribute",
           "normalized": "MCollator-\u003eAttribute-\u003eIO()",
@@ -12604,6 +13714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a key for sorting the \u003ccode\u003eText\u003c/code\u003e using the given \u003ccode\u003e\u003ca\u003eCollator\u003c/a\u003e\u003c/code\u003e.\n The result of comparing two \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es that have been\n transformed with \u003ccode\u003e\u003ca\u003esortKey\u003c/a\u003e\u003c/code\u003e will be the same as the result of\n \u003ccode\u003e\u003ca\u003ecollate\u003c/a\u003e\u003c/code\u003e on the two untransformed \u003ccode\u003eText\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Collate",
           "name": "sortKey",
           "package": "text-icu",
@@ -12614,6 +13725,7 @@
         "index": {
           "description": "Create key for sorting the Text using the given Collator The result of comparing two ByteString that have been transformed with sortKey will be the same as the result of collate on the two untransformed Text",
           "hierarchy": "Data Text ICU Collate",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Collate",
           "name": "sortKey",
           "normalized": "MCollator-\u003eText-\u003eIO ByteString",
@@ -12630,6 +13742,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCharacter set conversion functions for Unicode, implemented as\n bindings to the International Components for Unicode (ICU)\n libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "Convert",
           "package": "text-icu",
@@ -12639,6 +13752,7 @@
         "index": {
           "description": "Character set conversion functions for Unicode implemented as bindings to the International Components for Unicode ICU libraries",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "Convert",
           "package": "text-icu",
@@ -12653,6 +13767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter set converter type.  \u003cem\u003eNote\u003c/em\u003e: this structure is not\n thread safe. It is \u003cem\u003enot\u003c/em\u003e safe to use value of this type\n simultaneously from multiple threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "Converter",
           "package": "text-icu",
@@ -12662,6 +13777,7 @@
         "index": {
           "description": "Character set converter type Note this structure is not thread safe It is not safe to use value of this type simultaneously from multiple threads",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "Converter",
           "package": "text-icu",
@@ -12676,6 +13792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the aliases for a given converter or alias name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "aliases",
           "package": "text-icu",
@@ -12686,6 +13803,7 @@
         "index": {
           "description": "Return the aliases for given converter or alias name",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "aliases",
           "normalized": "String-\u003e[String]",
@@ -12701,6 +13819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo a fuzzy compare of two converter/alias names.  The comparison\n is case-insensitive, ignores leading zeroes if they are not\n followed by further digits, and ignores all but letters and digits.\n Thus the strings \u003ccode\u003e\"UTF-8\"\u003c/code\u003e, \u003ccode\u003e\"utf_8\"\u003c/code\u003e, \u003ccode\u003e\"u*T@f08\"\u003c/code\u003e and\n \u003ccode\u003e\"Utf 8\"\u003c/code\u003e are exactly equivalent.  See section 1.4, Charset Alias\n Matching in Unicode Technical Standard #22 at\n \u003ca\u003ehttp://www.unicode.org/reports/tr22/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "compareNames",
           "package": "text-icu",
@@ -12711,6 +13830,7 @@
         "index": {
           "description": "Do fuzzy compare of two converter alias names The comparison is case-insensitive ignores leading zeroes if they are not followed by further digits and ignores all but letters and digits Thus the strings UTF-8 utf T@f08 and Utf are exactly equivalent See section Charset Alias Matching in Unicode Technical Standard at http www.unicode.org reports tr22",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "compareNames",
           "normalized": "String-\u003eString-\u003eOrdering",
@@ -12727,6 +13847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of the canonical names of all available converters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "converterNames",
           "package": "text-icu",
@@ -12737,6 +13858,7 @@
         "index": {
           "description": "list of the canonical names of all available converters",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "converterNames",
           "normalized": "[String]",
@@ -12753,6 +13875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the Unicode string into a codepage string using the given\n converter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "fromUnicode",
           "package": "text-icu",
@@ -12763,6 +13886,7 @@
         "index": {
           "description": "Convert the Unicode string into codepage string using the given converter",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "fromUnicode",
           "normalized": "Converter-\u003eText-\u003eByteString",
@@ -12779,6 +13903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current default converter name. If you want to \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e\n a default converter, you do not need to use this function.  It is\n faster to pass the empty string to \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e the default converter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "getDefaultName",
           "package": "text-icu",
@@ -12789,6 +13914,7 @@
         "index": {
           "description": "Returns the current default converter name If you want to open default converter you do not need to use this function It is faster to pass the empty string to open the default converter",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "getDefaultName",
           "package": "text-icu",
@@ -12803,6 +13929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the internal, canonical name of the converter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "getName",
           "package": "text-icu",
@@ -12813,6 +13940,7 @@
         "index": {
           "description": "Gets the internal canonical name of the converter",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "getName",
           "normalized": "Converter-\u003eString",
@@ -12829,6 +13957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the converter contains ambiguous mappings of\n the same character or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "isAmbiguous",
           "package": "text-icu",
@@ -12839,6 +13968,7 @@
         "index": {
           "description": "Indicates whether the converter contains ambiguous mappings of the same character or not",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "isAmbiguous",
           "normalized": "Converter-\u003eBool",
@@ -12855,6 +13985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eConverter\u003c/a\u003e\u003c/code\u003e with the name of a coded character set\n specified as a string.  The actual name will be resolved with the\n alias file using a case-insensitive string comparison that ignores\n leading zeroes and all non-alphanumeric characters.  E.g., the\n names \u003ccode\u003e\"UTF8\"\u003c/code\u003e, \u003ccode\u003e\"utf-8\"\u003c/code\u003e, \u003ccode\u003e\"u*T@f08\"\u003c/code\u003e and \u003ccode\u003e\"Utf 8\"\u003c/code\u003e are\n all equivalent (see also \u003ccode\u003e\u003ca\u003ecompareNames\u003c/a\u003e\u003c/code\u003e).  If an empty string is\n passed for the converter name, it will create one with the\n \u003ccode\u003e\u003ca\u003egetDefaultName\u003c/a\u003e\u003c/code\u003e return value.\n\u003c/p\u003e\u003cp\u003eA converter name may contain options like a locale specification to\n control the specific behavior of the newly instantiated converter.\n The meaning of the options depends on the particular converter.  If\n an option is not defined for or recognized by a given converter,\n then it is ignored.\n\u003c/p\u003e\u003cp\u003eOptions are appended to the converter name string, with a comma\n between the name and the first option and also between adjacent\n options.\n\u003c/p\u003e\u003cp\u003eIf the alias is ambiguous, then the preferred converter is used.\n\u003c/p\u003e\u003cp\u003eThe conversion behavior and names can vary between platforms. ICU\n may convert some characters differently from other\n platforms. Details on this topic are in the ICU User's Guide at\n \u003ca\u003ehttp://icu-project.org/userguide/conversion.html\u003c/a\u003e. Aliases\n starting with a \u003ccode\u003e\"cp\"\u003c/code\u003e prefix have no specific meaning other than\n its an alias starting with the letters \u003ccode\u003e\"cp\"\u003c/code\u003e. Please do not\n associate any meaning to these aliases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "open",
           "package": "text-icu",
@@ -12864,6 +13995,7 @@
         "index": {
           "description": "Create Converter with the name of coded character set specified as string The actual name will be resolved with the alias file using case-insensitive string comparison that ignores leading zeroes and all non-alphanumeric characters E.g the names UTF8 utf-8 T@f08 and Utf are all equivalent see also compareNames If an empty string is passed for the converter name it will create one with the getDefaultName return value converter name may contain options like locale specification to control the specific behavior of the newly instantiated converter The meaning of the options depends on the particular converter If an option is not defined for or recognized by given converter then it is ignored Options are appended to the converter name string with comma between the name and the first option and also between adjacent options If the alias is ambiguous then the preferred converter is used The conversion behavior and names can vary between platforms ICU may convert some characters differently from other platforms Details on this topic are in the ICU User Guide at http icu-project.org userguide conversion.html Aliases starting with cp prefix have no specific meaning other than its an alias starting with the letters cp Please do not associate any meaning to these aliases",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "open",
           "normalized": "String-\u003eMaybe Bool-\u003eIO Converter",
@@ -12879,6 +14011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the current default converter name. If this function needs\n to be called, it should be called during application\n initialization. Most of the time, the results from \u003ccode\u003e\u003ca\u003egetDefaultName\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e with an empty string argument is sufficient for your\n application.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: this function is not thread safe. \u003cem\u003eDo not\u003c/em\u003e call this\n function when \u003cem\u003eany\u003c/em\u003e ICU function is being used from more than one\n thread!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "setDefaultName",
           "package": "text-icu",
@@ -12889,6 +14022,7 @@
         "index": {
           "description": "Sets the current default converter name If this function needs to be called it should be called during application initialization Most of the time the results from getDefaultName or open with an empty string argument is sufficient for your application Note this function is not thread safe Do not call this function when any ICU function is being used from more than one thread",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "setDefaultName",
           "normalized": "String-\u003eIO()",
@@ -12905,6 +14039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of supported standard names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "standardNames",
           "package": "text-icu",
@@ -12915,6 +14050,7 @@
         "index": {
           "description": "The list of supported standard names",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "standardNames",
           "normalized": "[String]",
@@ -12931,6 +14067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the codepage string into a Unicode string using the given\n converter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "toUnicode",
           "package": "text-icu",
@@ -12941,6 +14078,7 @@
         "index": {
           "description": "Convert the codepage string into Unicode string using the given converter",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "toUnicode",
           "normalized": "Converter-\u003eByteString-\u003eText",
@@ -12957,6 +14095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether the converter uses fallback mappings or not.\n This flag has restrictions.  Regardless of this flag, the converter\n will always use fallbacks from Unicode Private Use code points, as\n well as reverse fallbacks (to Unicode).  For details see \".ucm\n File Format\" in the Conversion Data chapter of the ICU User Guide:\n \u003ca\u003ehttp://www.icu-project.org/userguide/conversion-data.html#ucmformat\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Convert",
           "name": "usesFallback",
           "package": "text-icu",
@@ -12967,6 +14106,7 @@
         "index": {
           "description": "Determines whether the converter uses fallback mappings or not This flag has restrictions Regardless of this flag the converter will always use fallbacks from Unicode Private Use code points as well as reverse fallbacks to Unicode For details see ucm File Format in the Conversion Data chapter of the ICU User Guide http www.icu-project.org userguide conversion-data.html ucmformat",
           "hierarchy": "Data Text ICU Convert",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Convert",
           "name": "usesFallback",
           "normalized": "Converter-\u003eBool",
@@ -12982,6 +14122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "Error",
           "package": "text-icu",
@@ -12990,6 +14131,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "Error",
           "package": "text-icu",
@@ -13004,6 +14146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eICU error type.  This is an instance of the \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e type\n class.  A value of this type may be thrown as an exception by most\n ICU functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "ICUError",
           "package": "text-icu",
@@ -13013,6 +14156,7 @@
         "index": {
           "description": "ICU error type This is an instance of the Exception type class value of this type may be thrown as an exception by most ICU functions",
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "ICUError",
           "package": "text-icu",
@@ -13027,6 +14171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed information about parsing errors.  Used by ICU parsing\n engines that parse long rules, patterns, or programs, where the\n text being parsed is long enough that more information than an\n \u003ccode\u003e\u003ca\u003eICUError\u003c/a\u003e\u003c/code\u003e is needed to localize the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "ParseError",
           "package": "text-icu",
@@ -13036,6 +14181,7 @@
         "index": {
           "description": "Detailed information about parsing errors Used by ICU parsing engines that parse long rules patterns or programs where the text being parsed is long enough that more information than an ICUError is needed to localize the error",
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "ParseError",
           "package": "text-icu",
@@ -13050,6 +14196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a string representing the name of the given error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "errorName",
           "package": "text-icu",
@@ -13060,6 +14207,7 @@
         "index": {
           "description": "Return string representing the name of the given error code",
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "errorName",
           "normalized": "ICUError-\u003eString",
@@ -13076,6 +14224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate whether the given error code is a failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "isFailure",
           "package": "text-icu",
@@ -13086,6 +14235,7 @@
         "index": {
           "description": "Indicate whether the given error code is failure",
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "isFailure",
           "normalized": "ICUError-\u003eBool",
@@ -13101,6 +14251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "isRegexError",
           "package": "text-icu",
@@ -13110,6 +14261,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "isRegexError",
           "normalized": "ICUError-\u003eBool",
@@ -13126,6 +14278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate whether the given error code is a success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "isSuccess",
           "package": "text-icu",
@@ -13136,6 +14289,7 @@
         "index": {
           "description": "Indicate whether the given error code is success",
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "isSuccess",
           "normalized": "ICUError-\u003eBool",
@@ -13151,6 +14305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_AMBIGUOUS_ALIAS_WARNING",
           "package": "text-icu",
@@ -13160,6 +14315,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_AMBIGUOUS_ALIAS_WARNING",
           "package": "text-icu",
@@ -13173,6 +14329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_ARGUMENT_TYPE_MISMATCH",
           "package": "text-icu",
@@ -13182,6 +14339,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_ARGUMENT_TYPE_MISMATCH",
           "package": "text-icu",
@@ -13195,6 +14353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BAD_VARIABLE_DEFINITION",
           "package": "text-icu",
@@ -13204,6 +14363,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BAD_VARIABLE_DEFINITION",
           "package": "text-icu",
@@ -13217,6 +14377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_ASSIGN_ERROR",
           "package": "text-icu",
@@ -13226,6 +14387,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_ASSIGN_ERROR",
           "package": "text-icu",
@@ -13239,6 +14401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_HEX_DIGITS_EXPECTED",
           "package": "text-icu",
@@ -13248,6 +14411,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_HEX_DIGITS_EXPECTED",
           "package": "text-icu",
@@ -13261,6 +14425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_INIT_ERROR",
           "package": "text-icu",
@@ -13270,6 +14435,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_INIT_ERROR",
           "package": "text-icu",
@@ -13283,6 +14449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_INTERNAL_ERROR",
           "package": "text-icu",
@@ -13292,6 +14459,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_INTERNAL_ERROR",
           "package": "text-icu",
@@ -13305,6 +14473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_MALFORMED_RULE_TAG",
           "package": "text-icu",
@@ -13314,6 +14483,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_MALFORMED_RULE_TAG",
           "package": "text-icu",
@@ -13327,6 +14497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_MISMATCHED_PAREN",
           "package": "text-icu",
@@ -13336,6 +14507,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_MISMATCHED_PAREN",
           "package": "text-icu",
@@ -13349,6 +14521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_NEW_LINE_IN_QUOTED_STRING",
           "package": "text-icu",
@@ -13358,6 +14531,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_NEW_LINE_IN_QUOTED_STRING",
           "package": "text-icu",
@@ -13371,6 +14545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_RULE_EMPTY_SET",
           "package": "text-icu",
@@ -13380,6 +14555,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_RULE_EMPTY_SET",
           "package": "text-icu",
@@ -13393,6 +14569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_RULE_SYNTAX",
           "package": "text-icu",
@@ -13402,6 +14579,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_RULE_SYNTAX",
           "package": "text-icu",
@@ -13415,6 +14593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_SEMICOLON_EXPECTED",
           "package": "text-icu",
@@ -13424,6 +14603,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_SEMICOLON_EXPECTED",
           "package": "text-icu",
@@ -13437,6 +14617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_UNCLOSED_SET",
           "package": "text-icu",
@@ -13446,6 +14627,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_UNCLOSED_SET",
           "package": "text-icu",
@@ -13459,6 +14641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_UNDEFINED_VARIABLE",
           "package": "text-icu",
@@ -13468,6 +14651,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_UNDEFINED_VARIABLE",
           "package": "text-icu",
@@ -13481,6 +14665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_UNRECOGNIZED_OPTION",
           "package": "text-icu",
@@ -13490,6 +14675,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_UNRECOGNIZED_OPTION",
           "package": "text-icu",
@@ -13503,6 +14689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_VARIABLE_REDFINITION",
           "package": "text-icu",
@@ -13512,6 +14699,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BRK_VARIABLE_REDFINITION",
           "package": "text-icu",
@@ -13525,6 +14713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_BUFFER_OVERFLOW_ERROR",
           "package": "text-icu",
@@ -13534,6 +14723,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_BUFFER_OVERFLOW_ERROR",
           "package": "text-icu",
@@ -13547,6 +14737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_CE_NOT_FOUND_ERROR",
           "package": "text-icu",
@@ -13556,6 +14747,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_CE_NOT_FOUND_ERROR",
           "package": "text-icu",
@@ -13569,6 +14761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_COLLATOR_VERSION_MISMATCH",
           "package": "text-icu",
@@ -13578,6 +14771,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_COLLATOR_VERSION_MISMATCH",
           "package": "text-icu",
@@ -13591,6 +14785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_DEFAULT_KEYWORD_MISSING",
           "package": "text-icu",
@@ -13600,6 +14795,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_DEFAULT_KEYWORD_MISSING",
           "package": "text-icu",
@@ -13613,6 +14809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_DIFFERENT_UCA_VERSION",
           "package": "text-icu",
@@ -13622,6 +14819,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_DIFFERENT_UCA_VERSION",
           "package": "text-icu",
@@ -13635,6 +14833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_DUPLICATE_KEYWORD",
           "package": "text-icu",
@@ -13644,6 +14843,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_DUPLICATE_KEYWORD",
           "package": "text-icu",
@@ -13657,6 +14857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_ENUM_OUT_OF_SYNC_ERROR",
           "package": "text-icu",
@@ -13666,6 +14867,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_ENUM_OUT_OF_SYNC_ERROR",
           "package": "text-icu",
@@ -13679,6 +14881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_FILE_ACCESS_ERROR",
           "package": "text-icu",
@@ -13688,6 +14891,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_FILE_ACCESS_ERROR",
           "package": "text-icu",
@@ -13701,6 +14905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_ACE_PREFIX_ERROR",
           "package": "text-icu",
@@ -13710,6 +14915,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_ACE_PREFIX_ERROR",
           "package": "text-icu",
@@ -13723,6 +14929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_CHECK_BIDI_ERROR",
           "package": "text-icu",
@@ -13732,6 +14939,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_CHECK_BIDI_ERROR",
           "package": "text-icu",
@@ -13745,6 +14953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_DOMAIN_NAME_TOO_LONG_ERROR",
           "package": "text-icu",
@@ -13754,6 +14963,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_DOMAIN_NAME_TOO_LONG_ERROR",
           "package": "text-icu",
@@ -13767,6 +14977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_LABEL_TOO_LONG_ERROR",
           "package": "text-icu",
@@ -13776,6 +14987,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_LABEL_TOO_LONG_ERROR",
           "package": "text-icu",
@@ -13789,6 +15001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_PROHIBITED_ERROR",
           "package": "text-icu",
@@ -13798,6 +15011,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_PROHIBITED_ERROR",
           "package": "text-icu",
@@ -13811,6 +15025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_STD3_ASCII_RULES_ERROR",
           "package": "text-icu",
@@ -13820,6 +15035,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_STD3_ASCII_RULES_ERROR",
           "package": "text-icu",
@@ -13833,6 +15049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_UNASSIGNED_ERROR",
           "package": "text-icu",
@@ -13842,6 +15059,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_UNASSIGNED_ERROR",
           "package": "text-icu",
@@ -13855,6 +15073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_VERIFICATION_ERROR",
           "package": "text-icu",
@@ -13864,6 +15083,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_VERIFICATION_ERROR",
           "package": "text-icu",
@@ -13877,6 +15097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_ZERO_LENGTH_LABEL_ERROR",
           "package": "text-icu",
@@ -13886,6 +15107,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_IDNA_ZERO_LENGTH_LABEL_ERROR",
           "package": "text-icu",
@@ -13899,6 +15121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_ARGUMENT_ERROR",
           "package": "text-icu",
@@ -13908,6 +15131,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_ARGUMENT_ERROR",
           "package": "text-icu",
@@ -13921,6 +15145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_CHARACTER",
           "package": "text-icu",
@@ -13930,6 +15155,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_CHARACTER",
           "package": "text-icu",
@@ -13943,6 +15169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_CHAR_FOUND",
           "package": "text-icu",
@@ -13952,6 +15179,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_CHAR_FOUND",
           "package": "text-icu",
@@ -13965,6 +15193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_ESCAPE_SEQUENCE",
           "package": "text-icu",
@@ -13974,6 +15203,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_ESCAPE_SEQUENCE",
           "package": "text-icu",
@@ -13987,6 +15217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_PAD_POSITION",
           "package": "text-icu",
@@ -13996,6 +15227,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_ILLEGAL_PAD_POSITION",
           "package": "text-icu",
@@ -14009,6 +15241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INDEX_OUTOFBOUNDS_ERROR",
           "package": "text-icu",
@@ -14018,6 +15251,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INDEX_OUTOFBOUNDS_ERROR",
           "package": "text-icu",
@@ -14031,6 +15265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INTERNAL_PROGRAM_ERROR",
           "package": "text-icu",
@@ -14040,6 +15275,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INTERNAL_PROGRAM_ERROR",
           "package": "text-icu",
@@ -14053,6 +15289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INTERNAL_TRANSLITERATOR_ERROR",
           "package": "text-icu",
@@ -14062,6 +15299,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INTERNAL_TRANSLITERATOR_ERROR",
           "package": "text-icu",
@@ -14075,6 +15313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_CHAR_FOUND",
           "package": "text-icu",
@@ -14084,6 +15323,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_CHAR_FOUND",
           "package": "text-icu",
@@ -14097,6 +15337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_FORMAT_ERROR",
           "package": "text-icu",
@@ -14106,6 +15347,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_FORMAT_ERROR",
           "package": "text-icu",
@@ -14119,6 +15361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_FUNCTION",
           "package": "text-icu",
@@ -14128,6 +15371,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_FUNCTION",
           "package": "text-icu",
@@ -14141,6 +15385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_ID",
           "package": "text-icu",
@@ -14150,6 +15395,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_ID",
           "package": "text-icu",
@@ -14163,6 +15409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_RBT_SYNTAX",
           "package": "text-icu",
@@ -14172,6 +15419,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_RBT_SYNTAX",
           "package": "text-icu",
@@ -14185,6 +15433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_STATE_ERROR",
           "package": "text-icu",
@@ -14194,6 +15443,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_STATE_ERROR",
           "package": "text-icu",
@@ -14207,6 +15457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_TABLE_FILE",
           "package": "text-icu",
@@ -14216,6 +15467,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_TABLE_FILE",
           "package": "text-icu",
@@ -14229,6 +15481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_TABLE_FORMAT",
           "package": "text-icu",
@@ -14238,6 +15491,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVALID_TABLE_FORMAT",
           "package": "text-icu",
@@ -14251,6 +15505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVARIANT_CONVERSION_ERROR",
           "package": "text-icu",
@@ -14260,6 +15515,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_INVARIANT_CONVERSION_ERROR",
           "package": "text-icu",
@@ -14273,6 +15529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_EXPONENTIAL_PATTERN",
           "package": "text-icu",
@@ -14282,6 +15539,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_EXPONENTIAL_PATTERN",
           "package": "text-icu",
@@ -14295,6 +15553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_PRAGMA",
           "package": "text-icu",
@@ -14304,6 +15563,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_PRAGMA",
           "package": "text-icu",
@@ -14317,6 +15577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_RULE",
           "package": "text-icu",
@@ -14326,6 +15587,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_RULE",
           "package": "text-icu",
@@ -14339,6 +15601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_SET",
           "package": "text-icu",
@@ -14348,6 +15611,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_SET",
           "package": "text-icu",
@@ -14361,6 +15625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_UNICODE_ESCAPE",
           "package": "text-icu",
@@ -14370,6 +15635,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_UNICODE_ESCAPE",
           "package": "text-icu",
@@ -14383,6 +15649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_VARIABLE_DEFINITION",
           "package": "text-icu",
@@ -14392,6 +15659,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_VARIABLE_DEFINITION",
           "package": "text-icu",
@@ -14405,6 +15673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_VARIABLE_REFERENCE",
           "package": "text-icu",
@@ -14414,6 +15683,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MALFORMED_VARIABLE_REFERENCE",
           "package": "text-icu",
@@ -14427,6 +15697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MEMORY_ALLOCATION_ERROR",
           "package": "text-icu",
@@ -14436,6 +15707,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MEMORY_ALLOCATION_ERROR",
           "package": "text-icu",
@@ -14449,6 +15721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MESSAGE_PARSE_ERROR",
           "package": "text-icu",
@@ -14458,6 +15731,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MESSAGE_PARSE_ERROR",
           "package": "text-icu",
@@ -14471,6 +15745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISPLACED_COMPOUND_FILTER",
           "package": "text-icu",
@@ -14480,6 +15755,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISPLACED_COMPOUND_FILTER",
           "package": "text-icu",
@@ -14493,6 +15769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISPLACED_CURSOR_OFFSET",
           "package": "text-icu",
@@ -14502,6 +15779,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISPLACED_CURSOR_OFFSET",
           "package": "text-icu",
@@ -14515,6 +15793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISPLACED_QUANTIFIER",
           "package": "text-icu",
@@ -14524,6 +15803,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISPLACED_QUANTIFIER",
           "package": "text-icu",
@@ -14537,6 +15817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISSING_OPERATOR",
           "package": "text-icu",
@@ -14546,6 +15827,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISSING_OPERATOR",
           "package": "text-icu",
@@ -14559,6 +15841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISSING_RESOURCE_ERROR",
           "package": "text-icu",
@@ -14568,6 +15851,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MISSING_RESOURCE_ERROR",
           "package": "text-icu",
@@ -14581,6 +15865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_ANTE_CONTEXTS",
           "package": "text-icu",
@@ -14590,6 +15875,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_ANTE_CONTEXTS",
           "package": "text-icu",
@@ -14603,6 +15889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_COMPOUND_FILTERS",
           "package": "text-icu",
@@ -14612,6 +15899,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_COMPOUND_FILTERS",
           "package": "text-icu",
@@ -14625,6 +15913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_CURSORS",
           "package": "text-icu",
@@ -14634,6 +15923,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_CURSORS",
           "package": "text-icu",
@@ -14647,6 +15937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_DECIMAL_SEPARATORS",
           "package": "text-icu",
@@ -14656,6 +15947,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_DECIMAL_SEPARATORS",
           "package": "text-icu",
@@ -14669,6 +15961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_EXPONENTIAL_SYMBOLS",
           "package": "text-icu",
@@ -14678,6 +15971,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_EXPONENTIAL_SYMBOLS",
           "package": "text-icu",
@@ -14691,6 +15985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_PAD_SPECIFIERS",
           "package": "text-icu",
@@ -14700,6 +15995,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_PAD_SPECIFIERS",
           "package": "text-icu",
@@ -14713,6 +16009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_PERCENT_SYMBOLS",
           "package": "text-icu",
@@ -14722,6 +16019,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_PERCENT_SYMBOLS",
           "package": "text-icu",
@@ -14735,6 +16033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_PERMILL_SYMBOLS",
           "package": "text-icu",
@@ -14744,6 +16043,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_PERMILL_SYMBOLS",
           "package": "text-icu",
@@ -14757,6 +16057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_POST_CONTEXTS",
           "package": "text-icu",
@@ -14766,6 +16067,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_MULTIPLE_POST_CONTEXTS",
           "package": "text-icu",
@@ -14779,6 +16081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_NO_SPACE_AVAILABLE",
           "package": "text-icu",
@@ -14788,6 +16091,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_NO_SPACE_AVAILABLE",
           "package": "text-icu",
@@ -14801,6 +16105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_NO_WRITE_PERMISSION",
           "package": "text-icu",
@@ -14810,6 +16115,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_NO_WRITE_PERMISSION",
           "package": "text-icu",
@@ -14823,6 +16129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_PARSE_ERROR",
           "package": "text-icu",
@@ -14832,6 +16139,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_PARSE_ERROR",
           "package": "text-icu",
@@ -14845,6 +16153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_PATTERN_SYNTAX_ERROR",
           "package": "text-icu",
@@ -14854,6 +16163,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_PATTERN_SYNTAX_ERROR",
           "package": "text-icu",
@@ -14867,6 +16177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_PRIMARY_TOO_LONG_ERROR",
           "package": "text-icu",
@@ -14876,6 +16187,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_PRIMARY_TOO_LONG_ERROR",
           "package": "text-icu",
@@ -14889,6 +16201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_BAD_ESCAPE_SEQUENCE",
           "package": "text-icu",
@@ -14898,6 +16211,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_BAD_ESCAPE_SEQUENCE",
           "package": "text-icu",
@@ -14911,6 +16225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_BAD_INTERVAL",
           "package": "text-icu",
@@ -14920,6 +16235,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_BAD_INTERVAL",
           "package": "text-icu",
@@ -14933,6 +16249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INTERNAL_ERROR",
           "package": "text-icu",
@@ -14942,6 +16259,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INTERNAL_ERROR",
           "package": "text-icu",
@@ -14955,6 +16273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INVALID_BACK_REF",
           "package": "text-icu",
@@ -14964,6 +16283,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INVALID_BACK_REF",
           "package": "text-icu",
@@ -14977,6 +16297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INVALID_FLAG",
           "package": "text-icu",
@@ -14986,6 +16307,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INVALID_FLAG",
           "package": "text-icu",
@@ -14999,6 +16321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INVALID_RANGE",
           "package": "text-icu",
@@ -15008,6 +16331,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INVALID_RANGE",
           "package": "text-icu",
@@ -15021,6 +16345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INVALID_STATE",
           "package": "text-icu",
@@ -15030,6 +16355,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_INVALID_STATE",
           "package": "text-icu",
@@ -15043,6 +16369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_MAX_LT_MIN",
           "package": "text-icu",
@@ -15052,6 +16379,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_MAX_LT_MIN",
           "package": "text-icu",
@@ -15065,6 +16393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_MISMATCHED_PAREN",
           "package": "text-icu",
@@ -15074,6 +16403,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_MISMATCHED_PAREN",
           "package": "text-icu",
@@ -15087,6 +16417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_NUMBER_TOO_BIG",
           "package": "text-icu",
@@ -15096,6 +16427,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_NUMBER_TOO_BIG",
           "package": "text-icu",
@@ -15109,6 +16441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_OCTAL_TOO_BIG",
           "package": "text-icu",
@@ -15118,6 +16451,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_OCTAL_TOO_BIG",
           "package": "text-icu",
@@ -15131,6 +16465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_PROPERTY_SYNTAX",
           "package": "text-icu",
@@ -15140,6 +16475,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_PROPERTY_SYNTAX",
           "package": "text-icu",
@@ -15153,6 +16489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_RULE_SYNTAX",
           "package": "text-icu",
@@ -15162,6 +16499,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_RULE_SYNTAX",
           "package": "text-icu",
@@ -15175,6 +16513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_SET_CONTAINS_STRING",
           "package": "text-icu",
@@ -15184,6 +16523,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_SET_CONTAINS_STRING",
           "package": "text-icu",
@@ -15197,6 +16537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_STACK_OVERFLOW",
           "package": "text-icu",
@@ -15206,6 +16547,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_STACK_OVERFLOW",
           "package": "text-icu",
@@ -15219,6 +16561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_STOPPED_BY_CALLER",
           "package": "text-icu",
@@ -15228,6 +16571,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_STOPPED_BY_CALLER",
           "package": "text-icu",
@@ -15241,6 +16585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_TIME_OUT",
           "package": "text-icu",
@@ -15250,6 +16595,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_TIME_OUT",
           "package": "text-icu",
@@ -15263,6 +16609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_UNIMPLEMENTED",
           "package": "text-icu",
@@ -15272,6 +16619,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_REGEX_UNIMPLEMENTED",
           "package": "text-icu",
@@ -15285,6 +16633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_RESOURCE_TYPE_MISMATCH",
           "package": "text-icu",
@@ -15294,6 +16643,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_RESOURCE_TYPE_MISMATCH",
           "package": "text-icu",
@@ -15307,6 +16657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_RULE_MASK_ERROR",
           "package": "text-icu",
@@ -15316,6 +16667,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_RULE_MASK_ERROR",
           "package": "text-icu",
@@ -15329,6 +16681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_SAFECLONE_ALLOCATED_WARNING",
           "package": "text-icu",
@@ -15338,6 +16691,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_SAFECLONE_ALLOCATED_WARNING",
           "package": "text-icu",
@@ -15351,6 +16705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_SORT_KEY_TOO_SHORT_WARNING",
           "package": "text-icu",
@@ -15360,6 +16715,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_SORT_KEY_TOO_SHORT_WARNING",
           "package": "text-icu",
@@ -15373,6 +16729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_STATE_OLD_WARNING",
           "package": "text-icu",
@@ -15382,6 +16739,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_STATE_OLD_WARNING",
           "package": "text-icu",
@@ -15395,6 +16753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_STATE_TOO_OLD_ERROR",
           "package": "text-icu",
@@ -15404,6 +16763,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_STATE_TOO_OLD_ERROR",
           "package": "text-icu",
@@ -15417,6 +16777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_STRING_NOT_TERMINATED_WARNING",
           "package": "text-icu",
@@ -15426,6 +16787,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_STRING_NOT_TERMINATED_WARNING",
           "package": "text-icu",
@@ -15439,6 +16801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_TOO_MANY_ALIASES_ERROR",
           "package": "text-icu",
@@ -15448,6 +16811,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_TOO_MANY_ALIASES_ERROR",
           "package": "text-icu",
@@ -15461,6 +16825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_TRAILING_BACKSLASH",
           "package": "text-icu",
@@ -15470,6 +16835,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_TRAILING_BACKSLASH",
           "package": "text-icu",
@@ -15483,6 +16849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_TRUNCATED_CHAR_FOUND",
           "package": "text-icu",
@@ -15492,6 +16859,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_TRUNCATED_CHAR_FOUND",
           "package": "text-icu",
@@ -15505,6 +16873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNCLOSED_SEGMENT",
           "package": "text-icu",
@@ -15514,6 +16883,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNCLOSED_SEGMENT",
           "package": "text-icu",
@@ -15527,6 +16897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNDEFINED_KEYWORD",
           "package": "text-icu",
@@ -15536,6 +16907,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNDEFINED_KEYWORD",
           "package": "text-icu",
@@ -15549,6 +16921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNDEFINED_SEGMENT_REFERENCE",
           "package": "text-icu",
@@ -15558,6 +16931,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNDEFINED_SEGMENT_REFERENCE",
           "package": "text-icu",
@@ -15571,6 +16945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNDEFINED_VARIABLE",
           "package": "text-icu",
@@ -15580,6 +16955,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNDEFINED_VARIABLE",
           "package": "text-icu",
@@ -15593,6 +16969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNEXPECTED_TOKEN",
           "package": "text-icu",
@@ -15602,6 +16979,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNEXPECTED_TOKEN",
           "package": "text-icu",
@@ -15615,6 +16993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNMATCHED_BRACES",
           "package": "text-icu",
@@ -15624,6 +17003,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNMATCHED_BRACES",
           "package": "text-icu",
@@ -15637,6 +17017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNQUOTED_SPECIAL",
           "package": "text-icu",
@@ -15646,6 +17027,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNQUOTED_SPECIAL",
           "package": "text-icu",
@@ -15659,6 +17041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNSUPPORTED_ERROR",
           "package": "text-icu",
@@ -15668,6 +17051,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNSUPPORTED_ERROR",
           "package": "text-icu",
@@ -15681,6 +17065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNSUPPORTED_ESCAPE_SEQUENCE",
           "package": "text-icu",
@@ -15690,6 +17075,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNSUPPORTED_ESCAPE_SEQUENCE",
           "package": "text-icu",
@@ -15703,6 +17089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNTERMINATED_QUOTE",
           "package": "text-icu",
@@ -15712,6 +17099,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_UNTERMINATED_QUOTE",
           "package": "text-icu",
@@ -15725,6 +17113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_USELESS_COLLATOR_ERROR",
           "package": "text-icu",
@@ -15734,6 +17123,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_USELESS_COLLATOR_ERROR",
           "package": "text-icu",
@@ -15747,6 +17137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_USING_DEFAULT_WARNING",
           "package": "text-icu",
@@ -15756,6 +17147,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_USING_DEFAULT_WARNING",
           "package": "text-icu",
@@ -15769,6 +17161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_USING_FALLBACK_WARNING",
           "package": "text-icu",
@@ -15778,6 +17171,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_USING_FALLBACK_WARNING",
           "package": "text-icu",
@@ -15791,6 +17185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_VARIABLE_RANGE_EXHAUSTED",
           "package": "text-icu",
@@ -15800,6 +17195,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_VARIABLE_RANGE_EXHAUSTED",
           "package": "text-icu",
@@ -15813,6 +17209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Error",
           "name": "u_VARIABLE_RANGE_OVERLAP",
           "package": "text-icu",
@@ -15822,6 +17219,7 @@
         },
         "index": {
           "hierarchy": "Data Text ICU Error",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Error",
           "name": "u_VARIABLE_RANGE_OVERLAP",
           "package": "text-icu",
@@ -15836,6 +17234,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCharacter set normalization functions for Unicode, implemented as\n bindings to the International Components for Unicode (ICU)\n libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Normalize",
           "name": "Normalize",
           "package": "text-icu",
@@ -15845,6 +17244,7 @@
         "index": {
           "description": "Character set normalization functions for Unicode implemented as bindings to the International Components for Unicode ICU libraries",
           "hierarchy": "Data Text ICU Normalize",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Normalize",
           "name": "Normalize",
           "package": "text-icu",
@@ -15859,6 +17259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions to \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Normalize",
           "name": "CompareOption",
           "package": "text-icu",
@@ -15868,6 +17269,7 @@
         "index": {
           "description": "Options to compare",
           "hierarchy": "Data Text ICU Normalize",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Normalize",
           "name": "CompareOption",
           "package": "text-icu",
@@ -15882,6 +17284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalization modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Normalize",
           "name": "NormalizationMode",
           "package": "text-icu",
@@ -15891,6 +17294,7 @@
         "index": {
           "description": "Normalization modes",
           "hierarchy": "Data Text ICU Normalize",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Normalize",
           "name": "NormalizationMode",
           "package": "text-icu",
@@ -16236,6 +17640,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRegular expression support for Unicode, implemented as bindings to\n the International Components for Unicode (ICU) libraries.\n\u003c/p\u003e\u003cp\u003eThe syntax and behaviour of ICU regular expressions are Perl-like.\n For complete details, see the ICU User Guide entry at\n \u003ca\u003ehttp://userguide.icu-project.org/strings/regexp\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: The functions in this module are not thread safe.  For\n thread safe use, see \u003ccode\u003e\u003ca\u003eclone\u003c/a\u003e\u003c/code\u003e below, or use the pure functions in\n \u003ccode\u003e\u003ca\u003eICU\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "Regex",
           "package": "text-icu",
@@ -16245,6 +17650,7 @@
         "index": {
           "description": "Regular expression support for Unicode implemented as bindings to the International Components for Unicode ICU libraries The syntax and behaviour of ICU regular expressions are Perl-like For complete details see the ICU User Guide entry at http userguide.icu-project.org strings regexp Note The functions in this module are not thread safe For thread safe use see clone below or use the pure functions in ICU",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "Regex",
           "package": "text-icu",
@@ -16259,6 +17665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for controlling matching behaviour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "MatchOption",
           "package": "text-icu",
@@ -16268,6 +17675,7 @@
         "index": {
           "description": "Options for controlling matching behaviour",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "MatchOption",
           "package": "text-icu",
@@ -16282,6 +17690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed information about parsing errors.  Used by ICU parsing\n engines that parse long rules, patterns, or programs, where the\n text being parsed is long enough that more information than an\n \u003ccode\u003e\u003ca\u003eICUError\u003c/a\u003e\u003c/code\u003e is needed to localize the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "ParseError",
           "package": "text-icu",
@@ -16291,6 +17700,7 @@
         "index": {
           "description": "Detailed information about parsing errors Used by ICU parsing engines that parse long rules patterns or programs where the text being parsed is long enough that more information than an ICUError is needed to localize the error",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "ParseError",
           "package": "text-icu",
@@ -16305,6 +17715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e values are usually constructed using the \u003ccode\u003e\u003ca\u003eregex\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003eregex'\u003c/code\u003e functions.  This type is also an instance of \u003ccode\u003eIsString\u003c/code\u003e,\n so if you have the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension enabled,\n you can construct a \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e by simply writing the pattern in\n quotes (though this does not allow you to specify any \u003ccode\u003eOption\u003c/code\u003es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "Regex",
           "package": "text-icu",
@@ -16314,6 +17725,7 @@
         "index": {
           "description": "compiled regular expression Regex values are usually constructed using the regex or regex functions This type is also an instance of IsString so if you have the OverloadedStrings language extension enabled you can construct Regex by simply writing the pattern in quotes though this does not allow you to specify any Option",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "Regex",
           "package": "text-icu",
@@ -16578,6 +17990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a copy of a compiled regular expression.  Cloning a regular\n expression is faster than opening a second instance from the source\n form of the expression, and requires less memory.\n\u003c/p\u003e\u003cp\u003eNote that the current input string and the position of any matched\n text within it are not cloned; only the pattern itself and and the\n match mode flags are copied.\n\u003c/p\u003e\u003cp\u003eCloning can be particularly useful to threaded applications that\n perform multiple match operations in parallel.  Each concurrent RE\n operation requires its own instance of a \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "clone",
           "package": "text-icu",
@@ -16588,6 +18001,7 @@
         "index": {
           "description": "Make copy of compiled regular expression Cloning regular expression is faster than opening second instance from the source form of the expression and requires less memory Note that the current input string and the position of any matched text within it are not cloned only the pattern itself and and the match mode flags are copied Cloning can be particularly useful to threaded applications that perform multiple match operations in parallel Each concurrent RE operation requires its own instance of Regex",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "clone",
           "normalized": "Regex-\u003eIO Regex",
@@ -16603,6 +18017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the index in the input string of the end of the text\n matched by the specified capture group during the previous match\n operation.  Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the capture group was not part of\n the last match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "end",
           "package": "text-icu",
@@ -16613,6 +18028,7 @@
         "index": {
           "description": "Returns the index in the input string of the end of the text matched by the specified capture group during the previous match operation Returns Nothing if the capture group was not part of the last match",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "end",
           "normalized": "Regex-\u003eInt-\u003eIO(Maybe I)",
@@ -16628,6 +18044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the index in the input string of the end of the text\n matched by the specified capture group during the previous match\n operation.  Returns \u003ccode\u003e-1\u003c/code\u003e if the capture group was not part of\n the last match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "end_",
           "package": "text-icu",
@@ -16638,6 +18055,7 @@
         "index": {
           "description": "Returns the index in the input string of the end of the text matched by the specified capture group during the previous match operation Returns if the capture group was not part of the last match",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "end_",
           "normalized": "Regex-\u003eInt-\u003eIO I",
@@ -16653,6 +18071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the first matching substring of the input string that\n matches the pattern.\n\u003c/p\u003e\u003cp\u003eIf \u003cem\u003en\u003c/em\u003e is non-negative, the search for a match begins at the\n specified index, and any match region is reset.\n\u003c/p\u003e\u003cp\u003eIf \u003cem\u003en\u003c/em\u003e is -1, the search begins at the start of the input region,\n or at the start of the full string if no region has been specified.\n\u003c/p\u003e\u003cp\u003eIf a match is found, \u003ccode\u003e\u003ca\u003estart\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eend\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003egroup\u003c/code\u003e will provide more\n information regarding the match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "find",
           "package": "text-icu",
@@ -16663,6 +18082,7 @@
         "index": {
           "description": "Find the first matching substring of the input string that matches the pattern If is non-negative the search for match begins at the specified index and any match region is reset If is the search begins at the start of the input region or at the start of the full string if no region has been specified If match is found start end and group will provide more information regarding the match",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "find",
           "normalized": "Regex-\u003eI-\u003eIO Bool",
@@ -16678,6 +18098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the next pattern match in the input string.  Begin searching\n the input at the location following the end of he previous match,\n or at the start of the string (or region) if there is no previous\n match.\n\u003c/p\u003e\u003cp\u003eIf a match is found, \u003ccode\u003e\u003ca\u003estart\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eend\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003egroup\u003c/code\u003e will provide more\n information regarding the match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "findNext",
           "package": "text-icu",
@@ -16688,6 +18109,7 @@
         "index": {
           "description": "Find the next pattern match in the input string Begin searching the input at the location following the end of he previous match or at the start of the string or region if there is no previous match If match is found start end and group will provide more information regarding the match",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "findNext",
           "normalized": "Regex-\u003eIO Bool",
@@ -16704,6 +18126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the subject text that is currently associated with this\n regular expression object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "getText",
           "package": "text-icu",
@@ -16714,6 +18137,7 @@
         "index": {
           "description": "Get the subject text that is currently associated with this regular expression object",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "getText",
           "normalized": "Regex-\u003eIO(ForeignPtr Word,I)",
@@ -16730,6 +18154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of capturing groups in this regular\n expression's pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "groupCount",
           "package": "text-icu",
@@ -16740,6 +18165,7 @@
         "index": {
           "description": "Return the number of capturing groups in this regular expression pattern",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "groupCount",
           "normalized": "Regex-\u003eIO Int",
@@ -16756,6 +18182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the source form of the pattern used to construct this\n regular expression or match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "pattern",
           "package": "text-icu",
@@ -16766,6 +18193,7 @@
         "index": {
           "description": "Return the source form of the pattern used to construct this regular expression or match",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "pattern",
           "normalized": "Regex-\u003eText",
@@ -16781,6 +18209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a regular expression with the given options.  This\n function throws a \u003ccode\u003eParseError\u003c/code\u003e if the pattern is invalid.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e is initialized with empty text to search against.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "regex",
           "package": "text-icu",
@@ -16791,6 +18220,7 @@
         "index": {
           "description": "Compile regular expression with the given options This function throws ParseError if the pattern is invalid The Regex is initialized with empty text to search against",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "regex",
           "normalized": "[MatchOption]-\u003eText-\u003eIO Regex",
@@ -16806,6 +18236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a regular expression with the given options.  This is\n safest to use when the pattern is constructed at run time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "regex'",
           "package": "text-icu",
@@ -16816,6 +18247,7 @@
         "index": {
           "description": "Compile regular expression with the given options This is safest to use when the pattern is constructed at run time",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "regex'",
           "normalized": "[MatchOption]-\u003eText-\u003eIO(Either ParseError Regex)",
@@ -16831,6 +18263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the subject text string upon which the regular expression\n will look for matches.  This function may be called any number of\n times, allowing the regular expression pattern to be applied to\n different strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "setText",
           "package": "text-icu",
@@ -16841,6 +18274,7 @@
         "index": {
           "description": "Set the subject text string upon which the regular expression will look for matches This function may be called any number of times allowing the regular expression pattern to be applied to different strings",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "setText",
           "normalized": "Regex-\u003eText-\u003eIO()",
@@ -16857,6 +18291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the index in the input string of the start of the text\n matched by the specified capture group during the previous match\n operation.  Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the capture group was not part of\n the last match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "start",
           "package": "text-icu",
@@ -16867,6 +18302,7 @@
         "index": {
           "description": "Returns the index in the input string of the start of the text matched by the specified capture group during the previous match operation Returns Nothing if the capture group was not part of the last match",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "start",
           "normalized": "Regex-\u003eInt-\u003eIO(Maybe I)",
@@ -16882,6 +18318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the index in the input string of the start of the text\n matched by the specified capture group during the previous match\n operation.  Returns \u003ccode\u003e-1\u003c/code\u003e if the capture group was not part of the\n last match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Regex",
           "name": "start_",
           "package": "text-icu",
@@ -16892,6 +18329,7 @@
         "index": {
           "description": "Returns the index in the input string of the start of the text matched by the specified capture group during the previous match operation Returns if the capture group was not part of the last match",
           "hierarchy": "Data Text ICU Regex",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Regex",
           "name": "start_",
           "normalized": "Regex-\u003eInt-\u003eIO I",
@@ -16907,6 +18345,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for use when manipulating Unicode text, using the bindings to\n the International Components for Unicode (ICU) libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Types",
           "name": "Types",
           "package": "text-icu",
@@ -16916,6 +18355,7 @@
         "index": {
           "description": "Types for use when manipulating Unicode text using the bindings to the International Components for Unicode ICU libraries",
           "hierarchy": "Data Text ICU Types",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Types",
           "name": "Types",
           "package": "text-icu",
@@ -16930,6 +18370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a locale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Types",
           "name": "LocaleName",
           "package": "text-icu",
@@ -16939,6 +18380,7 @@
         "index": {
           "description": "The name of locale",
           "hierarchy": "Data Text ICU Types",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Types",
           "name": "LocaleName",
           "package": "text-icu",
@@ -16953,6 +18395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed information about parsing errors.  Used by ICU parsing\n engines that parse long rules, patterns, or programs, where the\n text being parsed is long enough that more information than an\n \u003ccode\u003e\u003ca\u003eICUError\u003c/a\u003e\u003c/code\u003e is needed to localize the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU.Types",
           "name": "ParseError",
           "package": "text-icu",
@@ -16962,6 +18405,7 @@
         "index": {
           "description": "Detailed information about parsing errors Used by ICU parsing engines that parse long rules patterns or programs where the text being parsed is long enough that more information than an ICUError is needed to localize the error",
           "hierarchy": "Data Text ICU Types",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU.Types",
           "name": "ParseError",
           "package": "text-icu",
@@ -17051,6 +18495,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommonly used functions for Unicode, implemented as bindings to the\n International Components for Unicode (ICU) libraries.\n\u003c/p\u003e\u003cp\u003eThis module contains only the most commonly used types and\n functions.  Other modules in this package expose richer interfaces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "ICU",
           "package": "text-icu",
@@ -17060,6 +18505,7 @@
         "index": {
           "description": "Commonly used functions for Unicode implemented as bindings to the International Components for Unicode ICU libraries This module contains only the most commonly used types and functions Other modules in this package expose richer interfaces",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "ICU",
           "package": "text-icu",
@@ -17074,6 +18520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA break in a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "Break",
           "package": "text-icu",
@@ -17083,6 +18530,7 @@
         "index": {
           "description": "break in string",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "Break",
           "package": "text-icu",
@@ -17097,6 +18545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA boundary analyser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "Breaker",
           "package": "text-icu",
@@ -17106,6 +18555,7 @@
         "index": {
           "description": "boundary analyser",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "Breaker",
           "package": "text-icu",
@@ -17120,6 +18570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that supports efficient iteration over Unicode characters.\n\u003c/p\u003e\u003cp\u003eAs an example of where this may be useful, a function using this\n type may be able to iterate over a UTF-8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e directly,\n rather than first copying and converting it to an intermediate\n form.  This type also allows e.g. comparison between \u003ccode\u003eText\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, with minimal overhead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "CharIterator",
           "package": "text-icu",
@@ -17129,6 +18580,7 @@
         "index": {
           "description": "type that supports efficient iteration over Unicode characters As an example of where this may be useful function using this type may be able to iterate over UTF-8 ByteString directly rather than first copying and converting it to an intermediate form This type also allows e.g comparison between Text and ByteString with minimal overhead",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "CharIterator",
           "package": "text-icu",
@@ -17143,6 +18595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString collator type.  \u003ccode\u003e\u003ca\u003eCollator\u003c/a\u003e\u003c/code\u003es are considered equal if they\n will sort strings identically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "Collator",
           "package": "text-icu",
@@ -17152,6 +18605,7 @@
         "index": {
           "description": "String collator type Collator are considered equal if they will sort strings identically",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "Collator",
           "package": "text-icu",
@@ -17166,6 +18620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions to \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "CompareOption",
           "package": "text-icu",
@@ -17175,6 +18630,7 @@
         "index": {
           "description": "Options to compare",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "CompareOption",
           "package": "text-icu",
@@ -17189,6 +18645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine break status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "Line",
           "package": "text-icu",
@@ -17198,6 +18655,7 @@
         "index": {
           "description": "Line break status",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "Line",
           "package": "text-icu",
@@ -17212,6 +18670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a locale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "LocaleName",
           "package": "text-icu",
@@ -17221,6 +18680,7 @@
         "index": {
           "description": "The name of locale",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "LocaleName",
           "package": "text-icu",
@@ -17235,6 +18695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA match for a regular expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "Match",
           "package": "text-icu",
@@ -17244,6 +18705,7 @@
         "index": {
           "description": "match for regular expression",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "Match",
           "package": "text-icu",
@@ -17258,6 +18720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for controlling matching behaviour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "MatchOption",
           "package": "text-icu",
@@ -17267,6 +18730,7 @@
         "index": {
           "description": "Options for controlling matching behaviour",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "MatchOption",
           "package": "text-icu",
@@ -17281,6 +18745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalization modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "NormalizationMode",
           "package": "text-icu",
@@ -17290,6 +18755,7 @@
         "index": {
           "description": "Normalization modes",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "NormalizationMode",
           "package": "text-icu",
@@ -17304,6 +18770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed information about parsing errors.  Used by ICU parsing\n engines that parse long rules, patterns, or programs, where the\n text being parsed is long enough that more information than an\n \u003ccode\u003e\u003ca\u003eICUError\u003c/a\u003e\u003c/code\u003e is needed to localize the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "ParseError",
           "package": "text-icu",
@@ -17313,6 +18780,7 @@
         "index": {
           "description": "Detailed information about parsing errors Used by ICU parsing engines that parse long rules patterns or programs where the text being parsed is long enough that more information than an ICUError is needed to localize the error",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "ParseError",
           "package": "text-icu",
@@ -17327,6 +18795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e values are usually constructed using the \u003ccode\u003e\u003ca\u003eregex\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eregex'\u003c/a\u003e\u003c/code\u003e functions.  This type is also an instance of \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e,\n so if you have the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension enabled,\n you can construct a \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e by simply writing the pattern in\n quotes (though this does not allow you to specify any \u003ccode\u003eOption\u003c/code\u003es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "Regex",
           "package": "text-icu",
@@ -17336,6 +18805,7 @@
         "index": {
           "description": "compiled regular expression Regex values are usually constructed using the regex or regex functions This type is also an instance of IsString so if you have the OverloadedStrings language extension enabled you can construct Regex by simply writing the pattern in quotes though this does not allow you to specify any Option",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "Regex",
           "package": "text-icu",
@@ -17350,6 +18820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass for functions common to both \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e\n types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "Regular",
           "package": "text-icu",
@@ -17359,6 +18830,7 @@
         "index": {
           "description": "typeclass for functions common to both Match and Regex types",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "Regular",
           "package": "text-icu",
@@ -17373,6 +18845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord break status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "Word",
           "package": "text-icu",
@@ -17382,6 +18855,7 @@
         "index": {
           "description": "Word break status",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "Word",
           "package": "text-icu",
@@ -17396,6 +18870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a string on character boundaries.\n\u003c/p\u003e\u003cp\u003eCharacter boundary analysis identifies the boundaries of \u003ca\u003eExtended\n Grapheme Clusters\u003c/a\u003e, which are groupings of codepoints that should be\n treated as character-like units for many text operations.  Please see\n Unicode Standard Annex #29, Unicode Text Segmentation,\n \u003ca\u003ehttp://www.unicode.org/reports/tr29/\u003c/a\u003e for additional information on\n grapheme clusters and guidelines on their use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "breakCharacter",
           "package": "text-icu",
@@ -17406,6 +18881,7 @@
         "index": {
           "description": "Break string on character boundaries Character boundary analysis identifies the boundaries of Extended Grapheme Clusters which are groupings of codepoints that should be treated as character-like units for many text operations Please see Unicode Standard Annex Unicode Text Segmentation http www.unicode.org reports tr29 for additional information on grapheme clusters and guidelines on their use",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "breakCharacter",
           "normalized": "LocaleName-\u003eBreaker()",
@@ -17422,6 +18898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a string on line boundaries.\n\u003c/p\u003e\u003cp\u003eLine boundary analysis determines where a text string can be broken when\n line wrapping. The mechanism correctly handles punctuation and hyphenated\n words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "breakLine",
           "package": "text-icu",
@@ -17432,6 +18909,7 @@
         "index": {
           "description": "Break string on line boundaries Line boundary analysis determines where text string can be broken when line wrapping The mechanism correctly handles punctuation and hyphenated words",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "breakLine",
           "normalized": "LocaleName-\u003eBreaker Line",
@@ -17448,6 +18926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a string on sentence boundaries.\n\u003c/p\u003e\u003cp\u003eSentence boundary analysis allows selection with correct interpretation\n of periods within numbers and abbreviations, and trailing punctuation\n marks such as quotation marks and parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "breakSentence",
           "package": "text-icu",
@@ -17458,6 +18937,7 @@
         "index": {
           "description": "Break string on sentence boundaries Sentence boundary analysis allows selection with correct interpretation of periods within numbers and abbreviations and trailing punctuation marks such as quotation marks and parentheses",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "breakSentence",
           "normalized": "LocaleName-\u003eBreaker()",
@@ -17474,6 +18954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a string on word boundaries.\n\u003c/p\u003e\u003cp\u003eWord boundary analysis is used by search and replace functions, as well\n as within text editing applications that allow the user to select words\n with a double click. Word selection provides correct interpretation of\n punctuation marks within and following words. Characters that are not\n part of a word, such as symbols or punctuation marks, have word breaks on\n both sides.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "breakWord",
           "package": "text-icu",
@@ -17484,6 +18965,7 @@
         "index": {
           "description": "Break string on word boundaries Word boundary analysis is used by search and replace functions as well as within text editing applications that allow the user to select words with double click Word selection provides correct interpretation of punctuation marks within and following words Characters that are not part of word such as symbols or punctuation marks have word breaks on both sides",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "breakWord",
           "normalized": "LocaleName-\u003eBreaker Word",
@@ -17500,6 +18982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of all breaks in a string, from left to right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "breaks",
           "package": "text-icu",
@@ -17510,6 +18993,7 @@
         "index": {
           "description": "Return list of all breaks in string from left to right",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "breaks",
           "normalized": "Breaker a-\u003eText-\u003e[Break a]",
@@ -17525,6 +19009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of all breaks in a string, from right to left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "breaksRight",
           "package": "text-icu",
@@ -17535,6 +19020,7 @@
         "index": {
           "description": "Return list of all breaks in string from right to left",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "breaksRight",
           "normalized": "Breaker a-\u003eText-\u003e[Break a]",
@@ -17551,6 +19037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText of the current break.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "brkBreak",
           "package": "text-icu",
@@ -17561,6 +19048,7 @@
         "index": {
           "description": "Text of the current break",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "brkBreak",
           "normalized": "Break a-\u003eText",
@@ -17577,6 +19065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix of the current break.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "brkPrefix",
           "package": "text-icu",
@@ -17587,6 +19076,7 @@
         "index": {
           "description": "Prefix of the current break",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "brkPrefix",
           "normalized": "Break a-\u003eText",
@@ -17603,6 +19093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of the current break (only meaningful if \u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "brkStatus",
           "package": "text-icu",
@@ -17613,6 +19104,7 @@
         "index": {
           "description": "Status of the current break only meaningful if Line or Word",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "brkStatus",
           "normalized": "Break a-\u003ea",
@@ -17629,6 +19121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuffix of the current break.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "brkSuffix",
           "package": "text-icu",
@@ -17639,6 +19132,7 @@
         "index": {
           "description": "Suffix of the current break",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "brkSuffix",
           "normalized": "Break a-\u003eText",
@@ -17655,6 +19149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "collate",
           "package": "text-icu",
@@ -17665,6 +19160,7 @@
         "index": {
           "description": "Compare two strings",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "collate",
           "normalized": "Collator-\u003eText-\u003eText-\u003eOrdering",
@@ -17680,6 +19176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two \u003ccode\u003e\u003ca\u003eCharIterator\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eIf either iterator was constructed from a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, it does not\n need to be copied or converted beforehand, so this function can be\n quite cheap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "collateIter",
           "package": "text-icu",
@@ -17690,6 +19187,7 @@
         "index": {
           "description": "Compare two CharIterator If either iterator was constructed from ByteString it does not need to be copied or converted beforehand so this function can be quite cheap",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "collateIter",
           "normalized": "Collator-\u003eCharIterator-\u003eCharIterator-\u003eOrdering",
@@ -17706,6 +19204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an immutable \u003ccode\u003e\u003ca\u003eCollator\u003c/a\u003e\u003c/code\u003e for comparing strings.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e is passed as the locale, UCA collation rules will be\n used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "collator",
           "package": "text-icu",
@@ -17716,6 +19215,7 @@
         "index": {
           "description": "Create an immutable Collator for comparing strings If Root is passed as the locale UCA collation rules will be used",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "collator",
           "normalized": "LocaleName-\u003eCollator",
@@ -17731,6 +19231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an immutable \u003ccode\u003e\u003ca\u003eCollator\u003c/a\u003e\u003c/code\u003e with the given \u003ccode\u003eAttribute\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "collatorWith",
           "package": "text-icu",
@@ -17741,6 +19242,7 @@
         "index": {
           "description": "Create an immutable Collator with the given Attribute",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "collatorWith",
           "normalized": "LocaleName-\u003e[Attribute]-\u003eCollator",
@@ -17757,6 +19259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the first match for the regular expression in the given text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "find",
           "package": "text-icu",
@@ -17767,6 +19270,7 @@
         "index": {
           "description": "Find the first match for the regular expression in the given text",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "find",
           "normalized": "Regex-\u003eText-\u003eMaybe Match",
@@ -17782,6 +19286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily find all matches for the regular expression in the given\n text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "findAll",
           "package": "text-icu",
@@ -17792,6 +19297,7 @@
         "index": {
           "description": "Lazily find all matches for the regular expression in the given text",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "findAll",
           "normalized": "Regex-\u003eText-\u003e[Match]",
@@ -17808,6 +19314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eCharIterator\u003c/a\u003e\u003c/code\u003e from a Unicode string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "fromString",
           "package": "text-icu",
@@ -17818,6 +19325,7 @@
         "index": {
           "description": "Construct CharIterator from Unicode string",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "fromString",
           "normalized": "String-\u003eCharIterator",
@@ -17834,6 +19342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eCharIterator\u003c/a\u003e\u003c/code\u003e from a Unicode string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "fromText",
           "package": "text-icu",
@@ -17844,6 +19353,7 @@
         "index": {
           "description": "Construct CharIterator from Unicode string",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "fromText",
           "normalized": "Text-\u003eCharIterator",
@@ -17860,6 +19370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eCharIterator\u003c/a\u003e\u003c/code\u003e from a Unicode string encoded as a\n UTF-8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The validity of the encoded string is *not*\n checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "fromUtf8",
           "package": "text-icu",
@@ -17870,6 +19381,7 @@
         "index": {
           "description": "Construct CharIterator from Unicode string encoded as UTF-8 ByteString The validity of the encoded string is not checked",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "fromUtf8",
           "normalized": "ByteString-\u003eCharIterator",
@@ -17886,6 +19398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003cem\u003en\u003c/em\u003eth capturing group in a match, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003cem\u003en\u003c/em\u003e\n is out of bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "group",
           "package": "text-icu",
@@ -17896,6 +19409,7 @@
         "index": {
           "description": "Return the th capturing group in match or Nothing if is out of bounds",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "group",
           "normalized": "Int-\u003eMatch-\u003eMaybe Text",
@@ -17911,6 +19425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of capturing groups in this regular\n expression or match's pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "groupCount",
           "package": "text-icu",
@@ -17921,6 +19436,7 @@
         "index": {
           "description": "Return the number of capturing groups in this regular expression or match pattern",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "groupCount",
           "normalized": "a-\u003eInt",
@@ -17937,6 +19453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the source form of the pattern used to construct this\n regular expression or match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "pattern",
           "package": "text-icu",
@@ -17947,6 +19464,7 @@
         "index": {
           "description": "Return the source form of the pattern used to construct this regular expression or match",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "pattern",
           "normalized": "a-\u003eText",
@@ -17962,6 +19480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the prefix of the \u003cem\u003en\u003c/em\u003eth capturing group in a match (the\n text from the start of the string to the start of the match), or\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003cem\u003en\u003c/em\u003e is out of bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "prefix",
           "package": "text-icu",
@@ -17972,6 +19491,7 @@
         "index": {
           "description": "Return the prefix of the th capturing group in match the text from the start of the string to the start of the match or Nothing if is out of bounds",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "prefix",
           "normalized": "Int-\u003eMatch-\u003eMaybe Text",
@@ -17987,6 +19507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a regular expression with the given options.  This\n function throws a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e if the pattern is invalid, so it is\n best for use when the pattern is statically known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "regex",
           "package": "text-icu",
@@ -17997,6 +19518,7 @@
         "index": {
           "description": "Compile regular expression with the given options This function throws ParseError if the pattern is invalid so it is best for use when the pattern is statically known",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "regex",
           "normalized": "[MatchOption]-\u003eText-\u003eRegex",
@@ -18012,6 +19534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a regular expression with the given options.  This is\n safest to use when the pattern is constructed at run time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "regex'",
           "package": "text-icu",
@@ -18022,6 +19545,7 @@
         "index": {
           "description": "Compile regular expression with the given options This is safest to use when the pattern is constructed at run time",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "regex'",
           "normalized": "[MatchOption]-\u003eText-\u003eEither ParseError Regex",
@@ -18037,6 +19561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a key for sorting the \u003ccode\u003eText\u003c/code\u003e using the given \u003ccode\u003e\u003ca\u003eCollator\u003c/a\u003e\u003c/code\u003e.\n The result of comparing two \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es that have been\n transformed with \u003ccode\u003e\u003ca\u003esortKey\u003c/a\u003e\u003c/code\u003e will be the same as the result of\n \u003ccode\u003e\u003ca\u003ecollate\u003c/a\u003e\u003c/code\u003e on the two untransformed \u003ccode\u003eText\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "sortKey",
           "package": "text-icu",
@@ -18047,6 +19572,7 @@
         "index": {
           "description": "Create key for sorting the Text using the given Collator The result of comparing two ByteString that have been transformed with sortKey will be the same as the result of collate on the two untransformed Text",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "sortKey",
           "normalized": "Collator-\u003eText-\u003eByteString",
@@ -18063,6 +19589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the span of text between the end of the previous match and\n the beginning of the current match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "span",
           "package": "text-icu",
@@ -18073,6 +19600,7 @@
         "index": {
           "description": "Return the span of text between the end of the previous match and the beginning of the current match",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "span",
           "normalized": "Match-\u003eText",
@@ -18088,6 +19616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the suffix of the \u003cem\u003en\u003c/em\u003eth capturing group in a match (the\n text from the end of the match to the end of the string), or\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003cem\u003en\u003c/em\u003e is out of bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "suffix",
           "package": "text-icu",
@@ -18098,6 +19627,7 @@
         "index": {
           "description": "Return the suffix of the th capturing group in match the text from the end of the match to the end of the string or Nothing if is out of bounds",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "suffix",
           "normalized": "Int-\u003eMatch-\u003eMaybe Text",
@@ -18113,6 +19643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase-fold the characters in a string.\n\u003c/p\u003e\u003cp\u003eCase folding is locale independent and not context sensitive, but\n there is an option for treating the letter I specially for Turkic\n languages.  The result may be longer or shorter than the original.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "toCaseFold",
           "package": "text-icu",
@@ -18122,6 +19653,7 @@
         "index": {
           "description": "Case-fold the characters in string Case folding is locale independent and not context sensitive but there is an option for treating the letter specially for Turkic languages The result may be longer or shorter than the original",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "toCaseFold",
           "normalized": "Bool-\u003eText-\u003eText",
@@ -18138,6 +19670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowercase the characters in a string.\n\u003c/p\u003e\u003cp\u003eCasing is locale dependent and context sensitive.  The result may\n be longer or shorter than the original.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "toLower",
           "package": "text-icu",
@@ -18148,6 +19681,7 @@
         "index": {
           "description": "Lowercase the characters in string Casing is locale dependent and context sensitive The result may be longer or shorter than the original",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "toLower",
           "normalized": "LocaleName-\u003eText-\u003eText",
@@ -18164,6 +19698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUppercase the characters in a string.\n\u003c/p\u003e\u003cp\u003eCasing is locale dependent and context sensitive.  The result may\n be longer or shorter than the original.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "toUpper",
           "package": "text-icu",
@@ -18174,6 +19709,7 @@
         "index": {
           "description": "Uppercase the characters in string Casing is locale dependent and context sensitive The result may be longer or shorter than the original",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "toUpper",
           "normalized": "LocaleName-\u003eText-\u003eText",
@@ -18190,6 +19726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCollator\u003c/a\u003e\u003c/code\u003e that uses the Unicode Collation Algorithm (UCA).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "uca",
           "package": "text-icu",
@@ -18200,6 +19737,7 @@
         "index": {
           "description": "Collator that uses the Unicode Collation Algorithm UCA",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "uca",
           "package": "text-icu",
@@ -18213,6 +19751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combinator for returning a list of all capturing groups on a\n \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:18 UTC 2014",
           "module": "Data.Text.ICU",
           "name": "unfold",
           "package": "text-icu",
@@ -18223,6 +19762,7 @@
         "index": {
           "description": "combinator for returning list of all capturing groups on Match",
           "hierarchy": "Data Text ICU",
+          "indexed": "2014-03-11T20:20:18",
           "module": "Data.Text.ICU",
           "name": "unfold",
           "normalized": "(Int-\u003eMatch-\u003eMaybe Text)-\u003eMatch-\u003e[Text]",

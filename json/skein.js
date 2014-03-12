@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "skein"
+        "phrase": "skein",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic wrappers around the C library.  You shouldn't need to\n use these functions.  Instead, use the high-level\n \u003ca\u003eCrypto.Skein\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "Internal",
           "package": "skein",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Basic wrappers around the library You shouldn need to use these functions Instead use the high-level Crypto.Skein module",
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "Internal",
           "package": "skein",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "Skein1024Ctx",
           "package": "skein",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "Skein1024Ctx",
           "package": "skein",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "Skein256Ctx",
           "package": "skein",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "Skein256Ctx",
           "package": "skein",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "Skein512Ctx",
           "package": "skein",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "Skein512Ctx",
           "package": "skein",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "S1024Ctx",
           "package": "skein",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "S1024Ctx",
           "package": "skein",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "S256Ctx",
           "package": "skein",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "S256Ctx",
           "package": "skein",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "S512Ctx",
           "package": "skein",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "S512Ctx",
           "package": "skein",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrows exception if the function does not return\n successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "check",
           "package": "skein",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Throws exception if the function does not return successfully",
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "check",
           "normalized": "IO CInt-\u003eIO()",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "sKEIN_BAD_HASHLEN",
           "package": "skein",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "sKEIN_BAD_HASHLEN",
           "package": "skein",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "sKEIN_FAIL",
           "package": "skein",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "sKEIN_FAIL",
           "package": "skein",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass to \u003ccode\u003eInitExt\u003c/code\u003e to get sequential processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "sKEIN_SEQUENTIAL",
           "package": "skein",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Pass to InitExt to get sequential processing",
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "sKEIN_SEQUENTIAL",
           "package": "skein",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "sKEIN_SUCCESS",
           "package": "skein",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "sKEIN_SUCCESS",
           "package": "skein",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024Final",
           "package": "skein",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024Final",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024FinalPad",
           "package": "skein",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024FinalPad",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024Init",
           "package": "skein",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024Init",
           "normalized": "Ptr Skein Ctx-\u003eCSize-\u003eIO CInt",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024InitExt",
           "package": "skein",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024InitExt",
           "normalized": "Ptr Skein Ctx-\u003eCSize-\u003eWord-\u003ePtr Word-\u003eCSize-\u003eIO CInt",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024Output",
           "package": "skein",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024Output",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024Update",
           "package": "skein",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein1024Update",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eCSize-\u003eIO CInt",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein256Final",
           "package": "skein",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein256Final",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein256FinalPad",
           "package": "skein",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein256FinalPad",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein256Init",
           "package": "skein",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein256Init",
           "normalized": "Ptr Skein Ctx-\u003eCSize-\u003eIO CInt",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein256InitExt",
           "package": "skein",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein256InitExt",
           "normalized": "Ptr Skein Ctx-\u003eCSize-\u003eWord-\u003ePtr Word-\u003eCSize-\u003eIO CInt",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein256Output",
           "package": "skein",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein256Output",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein256Update",
           "package": "skein",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein256Update",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eCSize-\u003eIO CInt",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein512Final",
           "package": "skein",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein512Final",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein512FinalPad",
           "package": "skein",
@@ -606,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein512FinalPad",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein512Init",
           "package": "skein",
@@ -630,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein512Init",
           "normalized": "Ptr Skein Ctx-\u003eCSize-\u003eIO CInt",
@@ -645,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein512InitExt",
           "package": "skein",
@@ -654,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein512InitExt",
           "normalized": "Ptr Skein Ctx-\u003eCSize-\u003eWord-\u003ePtr Word-\u003eCSize-\u003eIO CInt",
@@ -669,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein512Output",
           "package": "skein",
@@ -678,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein512Output",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eIO CInt",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "skein512Update",
           "package": "skein",
@@ -702,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "skein512Update",
           "normalized": "Ptr Skein Ctx-\u003ePtr Word-\u003eCSize-\u003eIO CInt",
@@ -717,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "unS1024Ctx",
           "package": "skein",
@@ -726,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "unS1024Ctx",
           "package": "skein",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "unS256Ctx",
           "package": "skein",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "unS256Ctx",
           "package": "skein",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein.Internal",
           "name": "unS512Ctx",
           "package": "skein",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Crypto Skein Internal",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein.Internal",
           "name": "unS512Ctx",
           "package": "skein",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh-level interface for the Skein family of hash functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein",
           "package": "skein",
@@ -793,6 +860,7 @@
         "index": {
           "description": "High-level interface for the Skein family of hash functions",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein",
           "package": "skein",
@@ -807,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecret key used to calculate the Skein-MAC.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e may have any length.  However, it's recommended to\n have at least the same number of bits of the state size.  For\n example, when using \u003ccode\u003e\u003ca\u003eskeinMAC\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eSkein_512_256\u003c/a\u003e\u003c/code\u003e, it is\n recommended to have a key with at least 64 bytes (512 bits),\n which is the state size of \u003ccode\u003e\u003ca\u003eSkein_512_256\u003c/a\u003e\u003c/code\u003e (the first of the\n two numbers).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Key",
           "package": "skein",
@@ -816,6 +885,7 @@
         "index": {
           "description": "Secret key used to calculate the Skein-MAC The Key may have any length However it recommended to have at least the same number of bits of the state size For example when using skeinMAC with Skein it is recommended to have key with at least bytes bits which is the state size of Skein the first of the two numbers",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Key",
           "package": "skein",
@@ -830,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of Skein contexts that may be used for Skein-MAC (all\n of them).  Included here mostly for documentation purposes,\n since adding new instances is not safe (functions using\n \u003ccode\u003e\u003ca\u003eSkeinMAC\u003c/a\u003e\u003c/code\u003e unsurprisingly assume that they are using Skein).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "SkeinMAC",
           "package": "skein",
@@ -839,6 +910,7 @@
         "index": {
           "description": "Class of Skein contexts that may be used for Skein-MAC all of them Included here mostly for documentation purposes since adding new instances is not safe functions using SkeinMAC unsurprisingly assume that they are using Skein",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "SkeinMAC",
           "package": "skein",
@@ -853,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-1024-1024 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 1024-bit (128-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  This is the\n ultra-conservative variant.  Even if some future attack\n managed to break Skein-512, it's quite likely that Skein-1024\n would remain secure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_1024_1024",
           "package": "skein",
@@ -862,6 +935,7 @@
         "index": {
           "description": "Skein-1024-1024 hash You probably want to use encode to obtain bit byte ByteString This is the ultra-conservative variant Even if some future attack managed to break Skein-512 it quite likely that Skein-1024 would remain secure",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_1024_1024",
           "package": "skein",
@@ -876,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-1024-1024 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_1024_1024_Ctx",
           "package": "skein",
@@ -885,6 +960,7 @@
         "index": {
           "description": "Context of the Skein-1024-1024 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_1024_1024_Ctx",
           "package": "skein",
@@ -899,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-1024-384 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 384-bit (48-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a\n drop-in replacement for SHA-384.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_1024_384",
           "package": "skein",
@@ -908,6 +985,7 @@
         "index": {
           "description": "Skein-1024-384 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for SHA-384",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_1024_384",
           "package": "skein",
@@ -922,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-1024-384 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_1024_384_Ctx",
           "package": "skein",
@@ -931,6 +1010,7 @@
         "index": {
           "description": "Context of the Skein-1024-384 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_1024_384_Ctx",
           "package": "skein",
@@ -945,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-1024-512 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 512-bit (64-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a\n drop-in replacement for SHA-512.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_1024_512",
           "package": "skein",
@@ -954,6 +1035,7 @@
         "index": {
           "description": "Skein-1024-512 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for SHA-512",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_1024_512",
           "package": "skein",
@@ -968,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-1024-512 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_1024_512_Ctx",
           "package": "skein",
@@ -977,6 +1060,7 @@
         "index": {
           "description": "Context of the Skein-1024-512 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_1024_512_Ctx",
           "package": "skein",
@@ -991,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-256-128 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 128-bit (16-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a\n drop-in replacement for MD5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_256_128",
           "package": "skein",
@@ -1000,6 +1085,7 @@
         "index": {
           "description": "Skein-256-128 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for MD5",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_256_128",
           "package": "skein",
@@ -1014,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-256-128 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_256_128_Ctx",
           "package": "skein",
@@ -1023,6 +1110,7 @@
         "index": {
           "description": "Context of the Skein-256-128 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_256_128_Ctx",
           "package": "skein",
@@ -1037,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-256-160 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 160-bit (20-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a\n drop-in replacement for SHA-1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_256_160",
           "package": "skein",
@@ -1046,6 +1135,7 @@
         "index": {
           "description": "Skein-256-160 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for SHA-1",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_256_160",
           "package": "skein",
@@ -1060,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-256-160 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_256_160_Ctx",
           "package": "skein",
@@ -1069,6 +1160,7 @@
         "index": {
           "description": "Context of the Skein-256-160 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_256_160_Ctx",
           "package": "skein",
@@ -1083,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-256-224 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 224-bit (28-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a\n drop-in replacement for SHA-224.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_256_224",
           "package": "skein",
@@ -1092,6 +1185,7 @@
         "index": {
           "description": "Skein-256-224 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for SHA-224",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_256_224",
           "package": "skein",
@@ -1106,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-256-224 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_256_224_Ctx",
           "package": "skein",
@@ -1115,6 +1210,7 @@
         "index": {
           "description": "Context of the Skein-256-224 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_256_224_Ctx",
           "package": "skein",
@@ -1129,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-256-256 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 256-bit (32-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  Usually it's better\n to use \u003ccode\u003e\u003ca\u003eSkein_512_256\u003c/a\u003e\u003c/code\u003e (256 bits of output) or \u003ccode\u003e\u003ca\u003eSkein_512_512\u003c/a\u003e\u003c/code\u003e\n (512 bits of output).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_256_256",
           "package": "skein",
@@ -1138,6 +1235,7 @@
         "index": {
           "description": "Skein-256-256 hash You probably want to use encode to obtain bit byte ByteString Usually it better to use Skein bits of output or Skein bits of output",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_256_256",
           "package": "skein",
@@ -1152,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-256-256 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_256_256_Ctx",
           "package": "skein",
@@ -1161,6 +1260,7 @@
         "index": {
           "description": "Context of the Skein-256-256 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_256_256_Ctx",
           "package": "skein",
@@ -1175,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-512-128 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 128-bit (16-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a\n drop-in replacement for MD5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_128",
           "package": "skein",
@@ -1184,6 +1285,7 @@
         "index": {
           "description": "Skein-512-128 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for MD5",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_128",
           "package": "skein",
@@ -1198,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-512-128 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_128_Ctx",
           "package": "skein",
@@ -1207,6 +1310,7 @@
         "index": {
           "description": "Context of the Skein-512-128 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_128_Ctx",
           "package": "skein",
@@ -1221,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-512-160 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 160-bit (20-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a\n drop-in replacement for SHA-1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_160",
           "package": "skein",
@@ -1230,6 +1335,7 @@
         "index": {
           "description": "Skein-512-160 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for SHA-1",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_160",
           "package": "skein",
@@ -1244,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-512-160 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_160_Ctx",
           "package": "skein",
@@ -1253,6 +1360,7 @@
         "index": {
           "description": "Context of the Skein-512-160 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_160_Ctx",
           "package": "skein",
@@ -1267,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-512-224 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 224-bit (28-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a drop-in replacement for SHA-224.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_224",
           "package": "skein",
@@ -1276,6 +1385,7 @@
         "index": {
           "description": "Skein-512-224 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for SHA-224",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_224",
           "package": "skein",
@@ -1290,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-512-224 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_224_Ctx",
           "package": "skein",
@@ -1299,6 +1410,7 @@
         "index": {
           "description": "Context of the Skein-512-224 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_224_Ctx",
           "package": "skein",
@@ -1313,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-512-256 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 256-bit (32-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_256",
           "package": "skein",
@@ -1322,6 +1435,7 @@
         "index": {
           "description": "Skein-512-256 hash You probably want to use encode to obtain bit byte ByteString",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_256",
           "package": "skein",
@@ -1336,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-512-256 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_256_Ctx",
           "package": "skein",
@@ -1345,6 +1460,7 @@
         "index": {
           "description": "Context of the Skein-512-256 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_256_Ctx",
           "package": "skein",
@@ -1359,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-512-384 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 384-bit (48-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  May be used as a\n drop-in replacement for SHA-384.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_384",
           "package": "skein",
@@ -1368,6 +1485,7 @@
         "index": {
           "description": "Skein-512-384 hash You probably want to use encode to obtain bit byte ByteString May be used as drop-in replacement for SHA-384",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_384",
           "package": "skein",
@@ -1382,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-512-384 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_384_Ctx",
           "package": "skein",
@@ -1391,6 +1510,7 @@
         "index": {
           "description": "Context of the Skein-512-384 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_384_Ctx",
           "package": "skein",
@@ -1405,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein-512-512 hash.  You probably want to use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to\n obtain a 512-bit (64-byte) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  It's the main Skein\n hash function.  May be used as a drop-in replacement for\n SHA-512 as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_512",
           "package": "skein",
@@ -1414,6 +1535,7 @@
         "index": {
           "description": "Skein-512-512 hash You probably want to use encode to obtain bit byte ByteString It the main Skein hash function May be used as drop-in replacement for SHA-512 as well",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_512",
           "package": "skein",
@@ -1428,6 +1550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of the Skein-512-512 hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "Skein_512_512_Ctx",
           "package": "skein",
@@ -1437,6 +1560,7 @@
         "index": {
           "description": "Context of the Skein-512-512 hash function",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "Skein_512_512_Ctx",
           "package": "skein",
@@ -1451,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the Skein-MAC of a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e given a\n \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e.  You probably also want to apply \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e to get a\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e out of the \u003ccode\u003edigest\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function may be partially applied for increased\n performance.  Using a partially applied \u003ccode\u003eskeinMAC\u003c/code\u003e is as fast\n as using Skein as a cryptographic hash function.  So, instead\n of\n\u003c/p\u003e\u003cpre\u003e\n let mac1 = skeinMAC key message1\n     mac2 = skeinMAC key message2\n     mac3 = skeinMAC key message3\n     ...\n\u003c/pre\u003e\u003cp\u003ewrite the following code:\n\u003c/p\u003e\u003cpre\u003e\n let calcMAC = skeinMAC key\n     mac1 = calcMAC message1\n     mac2 = calcMAC message2\n     mac3 = calcMAC message3\n     ...\n\u003c/pre\u003e\u003cp\u003eThis way the key will be processed only once (with\n \u003ccode\u003e\u003ca\u003eskeinMACCtx\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "skeinMAC",
           "package": "skein",
@@ -1461,6 +1586,7 @@
         "index": {
           "description": "Calculate the Skein-MAC of lazy ByteString given Key You probably also want to apply encode to get ByteString out of the digest This function may be partially applied for increased performance Using partially applied skeinMAC is as fast as using Skein as cryptographic hash function So instead of let mac1 skeinMAC key message1 mac2 skeinMAC key message2 mac3 skeinMAC key message3 write the following code let calcMAC skeinMAC key mac1 calcMAC message1 mac2 calcMAC message2 mac3 calcMAC message3 This way the key will be processed only once with skeinMACCtx",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "skeinMAC",
           "normalized": "Key-\u003eByteString-\u003ea",
@@ -1477,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eskeinMAC\u003c/a\u003e\u003c/code\u003e, however using a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n Should be faster for small \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "skeinMAC'",
           "package": "skein",
@@ -1487,6 +1614,7 @@
         "index": {
           "description": "Same as skeinMAC however using strict ByteString Should be faster for small ByteString",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "skeinMAC'",
           "normalized": "Key-\u003eByteString-\u003ea",
@@ -1503,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a context \u003ccode\u003eskeinCtx\u003c/code\u003e given a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e.  This\n context may be used with the usual \u003ccode\u003e\u003ca\u003eHash\u003c/a\u003e\u003c/code\u003e interface to\n obtain a message authentication code (MAC).\n\u003c/p\u003e\u003cp\u003eFor a simpler interface, see \u003ccode\u003e\u003ca\u003eskeinMAC\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eskeinMAC'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:04 UTC 2014",
           "module": "Crypto.Skein",
           "name": "skeinMACCtx",
           "package": "skein",
@@ -1513,6 +1642,7 @@
         "index": {
           "description": "Construct context skeinCtx given Key This context may be used with the usual Hash interface to obtain message authentication code MAC For simpler interface see skeinMAC and skeinMAC",
           "hierarchy": "Crypto Skein",
+          "indexed": "2014-03-11T20:04:04",
           "module": "Crypto.Skein",
           "name": "skeinMACCtx",
           "normalized": "Key-\u003ea",

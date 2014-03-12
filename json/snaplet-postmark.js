@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-postmark"
+        "phrase": "snaplet-postmark",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "Postmark",
           "package": "snaplet-postmark",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "Postmark",
           "package": "snaplet-postmark",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "HasPostmark",
           "package": "snaplet-postmark",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "HasPostmark",
           "package": "snaplet-postmark",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "Postmark",
           "package": "snaplet-postmark",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "Postmark",
           "package": "snaplet-postmark",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "Postmark",
           "package": "snaplet-postmark",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "Postmark",
           "package": "snaplet-postmark",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "getPostmark",
           "package": "snaplet-postmark",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "getPostmark",
           "package": "snaplet-postmark",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "initPostmark",
           "package": "snaplet-postmark",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "initPostmark",
           "package": "snaplet-postmark",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "logErr",
           "package": "snaplet-postmark",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "logErr",
           "normalized": "a-\u003eIO(Maybe b)-\u003eWriterT[a]c(Maybe b)",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "sendEmail",
           "package": "snaplet-postmark",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "sendEmail",
           "normalized": "Email-\u003ea(PostmarkResponse PostmarkError Sent)",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "sendEmails",
           "package": "snaplet-postmark",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "sendEmails",
           "normalized": "[Email]-\u003ea(PostmarkResponse PostmarkError[Sent])",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "unPostmark",
           "package": "snaplet-postmark",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "unPostmark",
           "package": "snaplet-postmark",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:02 UTC 2014",
           "module": "Snap.Snaplet.Postmark",
           "name": "withPS",
           "package": "snaplet-postmark",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Postmark",
+          "indexed": "2014-03-11T20:06:02",
           "module": "Snap.Snaplet.Postmark",
           "name": "withPS",
           "normalized": "(PostmarkSettings-\u003ea b)-\u003ea b",

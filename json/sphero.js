@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sphero"
+        "phrase": "sphero",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClient library for Orbotix Sphero.\n\u003c/p\u003e\u003cp\u003eSee examples directory for an example.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "Sphero",
           "package": "sphero",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Client library for Orbotix Sphero See examples directory for an example",
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "Sphero",
           "package": "sphero",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "Sphero",
           "package": "sphero",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "Sphero",
           "package": "sphero",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "Versioning",
           "package": "sphero",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "Versioning",
           "package": "sphero",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "Versioning",
           "package": "sphero",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "Versioning",
           "package": "sphero",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "color",
           "package": "sphero",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "color",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eSphero()",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "forkSphero",
           "package": "sphero",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "forkSphero",
           "normalized": "Sphero()-\u003eSphero ThreadId",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "getVersioning",
           "package": "sphero",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "getVersioning",
           "package": "sphero",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "ping",
           "package": "sphero",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "ping",
           "normalized": "Sphero()",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "roll",
           "package": "sphero",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "roll",
           "normalized": "Word-\u003eInt-\u003eSphero()",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "runSphero",
           "package": "sphero",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "runSphero",
           "normalized": "RFCOMMSocket-\u003eSphero a-\u003eIO a",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veAPI",
           "package": "sphero",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veAPI",
           "normalized": "Maybe(Word,Word)",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veBAS",
           "package": "sphero",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veBAS",
           "package": "sphero",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veBL",
           "package": "sphero",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veBL",
           "package": "sphero",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veHW",
           "package": "sphero",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veHW",
           "package": "sphero",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veMACRO",
           "package": "sphero",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veMACRO",
           "package": "sphero",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veMDL",
           "package": "sphero",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veMDL",
           "package": "sphero",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veMSA",
           "package": "sphero",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veMSA",
           "normalized": "(Word,Word)",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:15 UTC 2014",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veRECV",
           "package": "sphero",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Orbotix Sphero",
+          "indexed": "2014-03-11T20:08:15",
           "module": "Network.Protocol.Orbotix.Sphero",
           "name": "veRECV",
           "package": "sphero",

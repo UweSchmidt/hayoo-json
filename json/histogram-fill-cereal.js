@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "histogram-fill-cereal"
+        "phrase": "histogram-fill-cereal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCereal instances for histogram-fill\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:27 UTC 2014",
           "module": "Data.Histogram.Cereal",
           "name": "Cereal",
           "package": "histogram-fill-cereal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Cereal instances for histogram-fill",
           "hierarchy": "Data Histogram Cereal",
+          "indexed": "2014-03-11T18:40:27",
           "module": "Data.Histogram.Cereal",
           "name": "Cereal",
           "package": "histogram-fill-cereal",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-lua"
+        "phrase": "language-lua",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Lexer",
           "name": "Lexer",
           "package": "language-lua",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Lexer",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Lexer",
           "name": "Lexer",
           "package": "language-lua",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Lexer",
           "name": "AlexPosn",
           "package": "language-lua",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Lexer",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Lexer",
           "name": "AlexPosn",
           "package": "language-lua",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLua token with position information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Lexer",
           "name": "LTok",
           "package": "language-lua",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Lua token with position information",
           "hierarchy": "Language Lua Lexer",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Lexer",
           "name": "LTok",
           "package": "language-lua",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Lexer",
           "name": "AlexPn",
           "package": "language-lua",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Lexer",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Lexer",
           "name": "AlexPn",
           "package": "language-lua",
@@ -158,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Parser",
           "name": "Parser",
           "package": "language-lua",
@@ -166,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Parser",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Parser",
           "name": "Parser",
           "package": "language-lua",
@@ -306,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLua pretty-printer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "language-lua",
@@ -315,6 +326,7 @@
         "index": {
           "description": "Lua pretty-printer",
           "hierarchy": "Language Lua PrettyPrinter",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "language-lua",
@@ -328,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.PrettyPrinter",
           "name": "LPretty",
           "package": "language-lua",
@@ -336,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Language Lua PrettyPrinter",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.PrettyPrinter",
           "name": "LPretty",
           "package": "language-lua",
@@ -350,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(displayIO handle simpleDoc)\u003c/code\u003e writes \u003ccode\u003esimpleDoc\u003c/code\u003e to the file\n handle \u003ccode\u003ehandle\u003c/code\u003e. This function is used for example by \u003ccode\u003ehPutDoc\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e hPutDoc handle doc  = displayIO handle (renderPretty 0.4 100 doc)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.PrettyPrinter",
           "name": "displayIO",
           "package": "language-lua",
@@ -360,6 +375,7 @@
         "index": {
           "description": "displayIO handle simpleDoc writes simpleDoc to the file handle handle This function is used for example by hPutDoc hPutDoc handle doc displayIO handle renderPretty doc",
           "hierarchy": "Language Lua PrettyPrinter",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.PrettyPrinter",
           "name": "displayIO",
           "normalized": "Handle-\u003eSimpleDoc-\u003eIO()",
@@ -376,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(displayS simpleDoc)\u003c/code\u003e takes the output \u003ccode\u003esimpleDoc\u003c/code\u003e from a\n rendering function and transforms it to a \u003ccode\u003e\u003ca\u003eShowS\u003c/a\u003e\u003c/code\u003e type (for use in\n the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class).\n\u003c/p\u003e\u003cpre\u003e showWidth :: Int -\u003e Doc -\u003e String\n showWidth w x   = displayS (renderPretty 0.4 w x) \"\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.PrettyPrinter",
           "name": "displayS",
           "package": "language-lua",
@@ -386,6 +403,7 @@
         "index": {
           "description": "displayS simpleDoc takes the output simpleDoc from rendering function and transforms it to ShowS type for use in the Show class showWidth Int Doc String showWidth displayS renderPretty",
           "hierarchy": "Language Lua PrettyPrinter",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.PrettyPrinter",
           "name": "displayS",
           "normalized": "SimpleDoc-\u003eShowS",
@@ -400,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.PrettyPrinter",
           "name": "pprint",
           "package": "language-lua",
@@ -409,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Language Lua PrettyPrinter",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.PrettyPrinter",
           "name": "pprint",
           "normalized": "a-\u003eDoc",
@@ -424,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the default pretty printer which is used by \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003eputDoc\u003c/code\u003e and \u003ccode\u003ehPutDoc\u003c/code\u003e. \u003ccode\u003e(renderPretty ribbonfrac width x)\u003c/code\u003e renders\n document \u003ccode\u003ex\u003c/code\u003e with a page width of \u003ccode\u003ewidth\u003c/code\u003e and a ribbon width of\n \u003ccode\u003e(ribbonfrac * width)\u003c/code\u003e characters. The ribbon width is the maximal\n amount of non-indentation characters on a line. The parameter\n \u003ccode\u003eribbonfrac\u003c/code\u003e should be between \u003ccode\u003e0.0\u003c/code\u003e and \u003ccode\u003e1.0\u003c/code\u003e. If it is lower or\n higher, the ribbon width will be 0 or \u003ccode\u003ewidth\u003c/code\u003e respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.PrettyPrinter",
           "name": "renderPretty",
           "package": "language-lua",
@@ -434,6 +455,7 @@
         "index": {
           "description": "This is the default pretty printer which is used by show putDoc and hPutDoc renderPretty ribbonfrac width renders document with page width of width and ribbon width of ribbonfrac width characters The ribbon width is the maximal amount of non-indentation characters on line The parameter ribbonfrac should be between and If it is lower or higher the ribbon width will be or width respectively",
           "hierarchy": "Language Lua PrettyPrinter",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.PrettyPrinter",
           "name": "renderPretty",
           "normalized": "Float-\u003eInt-\u003eDoc-\u003eSimpleDoc",
@@ -449,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "Token",
           "package": "language-lua",
@@ -457,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "Token",
           "package": "language-lua",
@@ -471,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLua tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LToken",
           "package": "language-lua",
@@ -480,6 +505,7 @@
         "index": {
           "description": "Lua tokens",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LToken",
           "package": "language-lua",
@@ -494,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokAnd",
           "package": "language-lua",
@@ -504,6 +531,7 @@
         "index": {
           "description": "and",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokAnd",
           "package": "language-lua",
@@ -518,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e=\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokAssign",
           "package": "language-lua",
@@ -527,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokAssign",
           "package": "language-lua",
@@ -541,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebreak\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokBreak",
           "package": "language-lua",
@@ -551,6 +582,7 @@
         "index": {
           "description": "break",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokBreak",
           "package": "language-lua",
@@ -565,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokColon",
           "package": "language-lua",
@@ -574,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokColon",
           "package": "language-lua",
@@ -588,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokComma",
           "package": "language-lua",
@@ -597,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokComma",
           "package": "language-lua",
@@ -611,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e::\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokDColon",
           "package": "language-lua",
@@ -620,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokDColon",
           "package": "language-lua",
@@ -634,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokDDot",
           "package": "language-lua",
@@ -643,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokDDot",
           "package": "language-lua",
@@ -657,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokDo",
           "package": "language-lua",
@@ -667,6 +708,7 @@
         "index": {
           "description": "do",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokDo",
           "package": "language-lua",
@@ -681,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokDot",
           "package": "language-lua",
@@ -690,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokDot",
           "package": "language-lua",
@@ -704,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokEllipsis",
           "package": "language-lua",
@@ -713,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokEllipsis",
           "package": "language-lua",
@@ -727,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eelse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokElse",
           "package": "language-lua",
@@ -737,6 +784,7 @@
         "index": {
           "description": "else",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokElse",
           "package": "language-lua",
@@ -751,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eelseif\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokElseIf",
           "package": "language-lua",
@@ -761,6 +810,7 @@
         "index": {
           "description": "elseif",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokElseIf",
           "package": "language-lua",
@@ -775,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokEnd",
           "package": "language-lua",
@@ -785,6 +836,7 @@
         "index": {
           "description": "end",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokEnd",
           "package": "language-lua",
@@ -799,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eend of file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokEof",
           "package": "language-lua",
@@ -809,6 +862,7 @@
         "index": {
           "description": "end of file",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokEof",
           "package": "language-lua",
@@ -823,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e==\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokEqual",
           "package": "language-lua",
@@ -832,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokEqual",
           "package": "language-lua",
@@ -846,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e^\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokExp",
           "package": "language-lua",
@@ -855,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokExp",
           "package": "language-lua",
@@ -869,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efalse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokFalse",
           "package": "language-lua",
@@ -879,6 +938,7 @@
         "index": {
           "description": "false",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokFalse",
           "package": "language-lua",
@@ -893,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokFor",
           "package": "language-lua",
@@ -903,6 +964,7 @@
         "index": {
           "description": "for",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokFor",
           "package": "language-lua",
@@ -917,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokFunction",
           "package": "language-lua",
@@ -927,6 +990,7 @@
         "index": {
           "description": "function",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokFunction",
           "package": "language-lua",
@@ -941,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003e=\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokGEq",
           "package": "language-lua",
@@ -950,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokGEq",
           "package": "language-lua",
@@ -964,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokGT",
           "package": "language-lua",
@@ -973,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokGT",
           "package": "language-lua",
@@ -987,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egoto\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokGoto",
           "package": "language-lua",
@@ -997,6 +1066,7 @@
         "index": {
           "description": "goto",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokGoto",
           "package": "language-lua",
@@ -1011,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eidentifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokIdent",
           "package": "language-lua",
@@ -1021,6 +1092,7 @@
         "index": {
           "description": "identifier",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokIdent",
           "package": "language-lua",
@@ -1035,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokIf",
           "package": "language-lua",
@@ -1045,6 +1118,7 @@
         "index": {
           "description": "if",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokIf",
           "package": "language-lua",
@@ -1059,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ein\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokIn",
           "package": "language-lua",
@@ -1069,6 +1144,7 @@
         "index": {
           "description": "in",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokIn",
           "package": "language-lua",
@@ -1083,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e{\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokLBrace",
           "package": "language-lua",
@@ -1092,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokLBrace",
           "package": "language-lua",
@@ -1106,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e[\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokLBracket",
           "package": "language-lua",
@@ -1115,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokLBracket",
           "package": "language-lua",
@@ -1129,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c=\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokLEq",
           "package": "language-lua",
@@ -1138,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokLEq",
           "package": "language-lua",
@@ -1152,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokLParen",
           "package": "language-lua",
@@ -1161,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokLParen",
           "package": "language-lua",
@@ -1175,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokLT",
           "package": "language-lua",
@@ -1184,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokLT",
           "package": "language-lua",
@@ -1198,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokLocal",
           "package": "language-lua",
@@ -1208,6 +1295,7 @@
         "index": {
           "description": "local",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokLocal",
           "package": "language-lua",
@@ -1222,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e-\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokMinus",
           "package": "language-lua",
@@ -1231,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokMinus",
           "package": "language-lua",
@@ -1245,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enil\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokNil",
           "package": "language-lua",
@@ -1255,6 +1346,7 @@
         "index": {
           "description": "nil",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokNil",
           "package": "language-lua",
@@ -1269,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokNot",
           "package": "language-lua",
@@ -1279,6 +1372,7 @@
         "index": {
           "description": "not",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokNot",
           "package": "language-lua",
@@ -1293,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e~=\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokNotequal",
           "package": "language-lua",
@@ -1302,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokNotequal",
           "package": "language-lua",
@@ -1316,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokNum",
           "package": "language-lua",
@@ -1326,6 +1423,7 @@
         "index": {
           "description": "number constant",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokNum",
           "package": "language-lua",
@@ -1340,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokOr",
           "package": "language-lua",
@@ -1350,6 +1449,7 @@
         "index": {
           "description": "or",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokOr",
           "package": "language-lua",
@@ -1364,6 +1464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e%\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokPercent",
           "package": "language-lua",
@@ -1373,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokPercent",
           "package": "language-lua",
@@ -1387,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokPlus",
           "package": "language-lua",
@@ -1396,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokPlus",
           "package": "language-lua",
@@ -1410,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokRBrace",
           "package": "language-lua",
@@ -1419,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokRBrace",
           "package": "language-lua",
@@ -1433,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokRBracket",
           "package": "language-lua",
@@ -1442,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokRBracket",
           "package": "language-lua",
@@ -1456,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokRParen",
           "package": "language-lua",
@@ -1465,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokRParen",
           "package": "language-lua",
@@ -1479,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepeat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokRepeat",
           "package": "language-lua",
@@ -1489,6 +1600,7 @@
         "index": {
           "description": "repeat",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokRepeat",
           "package": "language-lua",
@@ -1503,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokReturn",
           "package": "language-lua",
@@ -1513,6 +1626,7 @@
         "index": {
           "description": "return",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokReturn",
           "package": "language-lua",
@@ -1527,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokSLit",
           "package": "language-lua",
@@ -1537,6 +1652,7 @@
         "index": {
           "description": "string constant",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokSLit",
           "package": "language-lua",
@@ -1551,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokSemic",
           "package": "language-lua",
@@ -1560,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokSemic",
           "package": "language-lua",
@@ -1574,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e#\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokSh",
           "package": "language-lua",
@@ -1583,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokSh",
           "package": "language-lua",
@@ -1597,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e/\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokSlash",
           "package": "language-lua",
@@ -1606,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokSlash",
           "package": "language-lua",
@@ -1620,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokStar",
           "package": "language-lua",
@@ -1629,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokStar",
           "package": "language-lua",
@@ -1643,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokThen",
           "package": "language-lua",
@@ -1653,6 +1778,7 @@
         "index": {
           "description": "then",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokThen",
           "package": "language-lua",
@@ -1667,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokTrue",
           "package": "language-lua",
@@ -1677,6 +1804,7 @@
         "index": {
           "description": "true",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokTrue",
           "package": "language-lua",
@@ -1691,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euntil\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokUntil",
           "package": "language-lua",
@@ -1701,6 +1830,7 @@
         "index": {
           "description": "until",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokUntil",
           "package": "language-lua",
@@ -1715,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "LTokWhile",
           "package": "language-lua",
@@ -1725,6 +1856,7 @@
         "index": {
           "description": "while",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "LTokWhile",
           "package": "language-lua",
@@ -1739,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial function, returns value of \u003ccode\u003e\u003ca\u003eLTokNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eLTokSLit\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLTokIdent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Token",
           "name": "tokenValue",
           "package": "language-lua",
@@ -1749,6 +1882,7 @@
         "index": {
           "description": "Partial function returns value of LTokNum LTokSLit and LTokIdent",
           "hierarchy": "Language Lua Token",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Token",
           "name": "tokenValue",
           "normalized": "LToken-\u003eString",
@@ -1765,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLua 5.2 syntax tree, as specified in \u003ca\u003ehttp://www.lua.org/manual/5.2/manual.html#9\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Types",
           "package": "language-lua",
@@ -1774,6 +1909,7 @@
         "index": {
           "description": "Lua syntax tree as specified in http www.lua.org manual manual.html",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Types",
           "package": "language-lua",
@@ -1787,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Annotated",
           "package": "language-lua",
@@ -1795,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Annotated",
           "package": "language-lua",
@@ -1808,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Binop",
           "package": "language-lua",
@@ -1816,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Binop",
           "package": "language-lua",
@@ -1830,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA block is list of statements with optional return statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Block",
           "package": "language-lua",
@@ -1839,6 +1980,7 @@
         "index": {
           "description": "block is list of statements with optional return statement",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Block",
           "package": "language-lua",
@@ -1852,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Exp",
           "package": "language-lua",
@@ -1860,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Exp",
           "package": "language-lua",
@@ -1873,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "FunArg",
           "package": "language-lua",
@@ -1881,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "FunArg",
           "package": "language-lua",
@@ -1894,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "FunBody",
           "package": "language-lua",
@@ -1902,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "FunBody",
           "package": "language-lua",
@@ -1915,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "FunCall",
           "package": "language-lua",
@@ -1923,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "FunCall",
           "package": "language-lua",
@@ -1936,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "FunDef",
           "package": "language-lua",
@@ -1944,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "FunDef",
           "package": "language-lua",
@@ -1957,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "FunName",
           "package": "language-lua",
@@ -1965,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "FunName",
           "package": "language-lua",
@@ -1978,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Name",
           "package": "language-lua",
@@ -1986,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Name",
           "package": "language-lua",
@@ -1999,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "PrefixExp",
           "package": "language-lua",
@@ -2007,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "PrefixExp",
           "package": "language-lua",
@@ -2020,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Stat",
           "package": "language-lua",
@@ -2028,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Stat",
           "package": "language-lua",
@@ -2041,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Table",
           "package": "language-lua",
@@ -2049,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Table",
           "package": "language-lua",
@@ -2062,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "TableField",
           "package": "language-lua",
@@ -2070,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "TableField",
           "package": "language-lua",
@@ -2083,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Unop",
           "package": "language-lua",
@@ -2091,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Unop",
           "package": "language-lua",
@@ -2104,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Var",
           "package": "language-lua",
@@ -2112,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Var",
           "package": "language-lua",
@@ -2125,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Add",
           "package": "language-lua",
@@ -2134,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Add",
           "package": "language-lua",
@@ -2147,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "And",
           "package": "language-lua",
@@ -2156,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "And",
           "package": "language-lua",
@@ -2170,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of args\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Args",
           "package": "language-lua",
@@ -2180,6 +2353,7 @@
         "index": {
           "description": "list of args",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Args",
           "normalized": "Args a[Exp a]",
@@ -2320,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Concat",
           "package": "language-lua",
@@ -2329,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Concat",
           "package": "language-lua",
@@ -2342,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Div",
           "package": "language-lua",
@@ -2351,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Div",
           "package": "language-lua",
@@ -2414,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "EQ",
           "package": "language-lua",
@@ -2423,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "EQ",
           "package": "language-lua",
@@ -2460,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Exp",
           "package": "language-lua",
@@ -2469,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Exp",
           "package": "language-lua",
@@ -2483,6 +2665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e[exp] = exp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "ExpField",
           "package": "language-lua",
@@ -2493,6 +2676,7 @@
         "index": {
           "description": "exp exp",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "ExpField",
           "package": "language-lua",
@@ -2506,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Field",
           "package": "language-lua",
@@ -2515,6 +2700,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Field",
           "package": "language-lua",
@@ -2606,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(args, vararg, block)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "FunBody",
           "package": "language-lua",
@@ -2616,6 +2803,7 @@
         "index": {
           "description": "args vararg block",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "FunBody",
           "normalized": "FunBody a[Name a](Maybe a)(Block a)",
@@ -2656,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "FunDef",
           "package": "language-lua",
@@ -2665,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "FunDef",
           "package": "language-lua",
@@ -2678,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "FunName",
           "package": "language-lua",
@@ -2687,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "FunName",
           "normalized": "FunName a(Name a)[Name a](Maybe(Name a))",
@@ -2702,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "GT",
           "package": "language-lua",
@@ -2711,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "GT",
           "package": "language-lua",
@@ -2724,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "GTE",
           "package": "language-lua",
@@ -2733,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "GTE",
           "package": "language-lua",
@@ -2798,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "LT",
           "package": "language-lua",
@@ -2807,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "LT",
           "package": "language-lua",
@@ -2820,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "LTE",
           "package": "language-lua",
@@ -2829,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "LTE",
           "package": "language-lua",
@@ -2867,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Len",
           "package": "language-lua",
@@ -2876,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Len",
           "package": "language-lua",
@@ -2942,6 +3144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eprefixexp : name ( funarg )\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "MethodCall",
           "package": "language-lua",
@@ -2952,6 +3155,7 @@
         "index": {
           "description": "prefixexp name funarg",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "MethodCall",
           "package": "language-lua",
@@ -2965,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Mod",
           "package": "language-lua",
@@ -2974,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Mod",
           "package": "language-lua",
@@ -2987,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Mul",
           "package": "language-lua",
@@ -2996,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Mul",
           "package": "language-lua",
@@ -3009,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "NEQ",
           "package": "language-lua",
@@ -3018,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "NEQ",
           "package": "language-lua",
@@ -3031,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Name",
           "package": "language-lua",
@@ -3040,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Name",
           "package": "language-lua",
@@ -3054,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003ename = exp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "NamedField",
           "package": "language-lua",
@@ -3064,6 +3277,7 @@
         "index": {
           "description": "name exp",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "NamedField",
           "package": "language-lua",
@@ -3077,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Neg",
           "package": "language-lua",
@@ -3086,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Neg",
           "package": "language-lua",
@@ -3123,6 +3339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eprefixexp ( funarg )\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "NormalFunCall",
           "package": "language-lua",
@@ -3133,6 +3350,7 @@
         "index": {
           "description": "prefixexp funarg",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "NormalFunCall",
           "package": "language-lua",
@@ -3146,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Not",
           "package": "language-lua",
@@ -3155,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Not",
           "package": "language-lua",
@@ -3191,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Or",
           "package": "language-lua",
@@ -3200,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Or",
           "package": "language-lua",
@@ -3213,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "PEFunCall",
           "package": "language-lua",
@@ -3222,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "PEFunCall",
           "package": "language-lua",
@@ -3235,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "PEVar",
           "package": "language-lua",
@@ -3244,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "PEVar",
           "package": "language-lua",
@@ -3257,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Paren",
           "package": "language-lua",
@@ -3266,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Paren",
           "package": "language-lua",
@@ -3328,6 +3556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003etable[exp]\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Select",
           "package": "language-lua",
@@ -3338,6 +3567,7 @@
         "index": {
           "description": "table exp",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Select",
           "package": "language-lua",
@@ -3352,6 +3582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003etable.variable\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "SelectName",
           "package": "language-lua",
@@ -3362,6 +3593,7 @@
         "index": {
           "description": "table.variable",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "SelectName",
           "package": "language-lua",
@@ -3399,6 +3631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "StringArg",
           "package": "language-lua",
@@ -3409,6 +3642,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "StringArg",
           "package": "language-lua",
@@ -3422,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Sub",
           "package": "language-lua",
@@ -3431,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Sub",
           "package": "language-lua",
@@ -3445,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of table fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "Table",
           "package": "language-lua",
@@ -3455,6 +3692,7 @@
         "index": {
           "description": "list of table fields",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "Table",
           "normalized": "Table a[TableField a]",
@@ -3471,6 +3709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etable constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "TableArg",
           "package": "language-lua",
@@ -3481,6 +3720,7 @@
         "index": {
           "description": "table constructor",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "TableArg",
           "package": "language-lua",
@@ -3545,6 +3785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "VarName",
           "package": "language-lua",
@@ -3555,6 +3796,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "VarName",
           "package": "language-lua",
@@ -3618,6 +3860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the annotation of an AST node. Note that only the annotation of\n   the node itself is affected, and not the annotations of any child nodes.\n   if all nodes in the AST tree are to be affected, use \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "amap",
           "package": "language-lua",
@@ -3628,6 +3871,7 @@
         "index": {
           "description": "Change the annotation of an AST node Note that only the annotation of the node itself is affected and not the annotations of any child nodes if all nodes in the AST tree are to be affected use fmap",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "amap",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -3643,6 +3887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the annotation of an AST node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua.Types",
           "name": "ann",
           "package": "language-lua",
@@ -3653,6 +3898,7 @@
         "index": {
           "description": "Retrieve the annotation of an AST node",
           "hierarchy": "Language Lua Types",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua.Types",
           "name": "ann",
           "normalized": "a b-\u003eb",
@@ -3667,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua",
           "name": "Lua",
           "package": "language-lua",
@@ -3675,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "Language Lua",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua",
           "name": "Lua",
           "package": "language-lua",
@@ -3689,6 +3937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA block is list of statements with optional return statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua",
           "name": "Block",
           "package": "language-lua",
@@ -3698,6 +3947,7 @@
         "index": {
           "description": "block is list of statements with optional return statement",
           "hierarchy": "Language Lua",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua",
           "name": "Block",
           "package": "language-lua",
@@ -3711,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua",
           "name": "Exp",
           "package": "language-lua",
@@ -3719,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Language Lua",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua",
           "name": "Exp",
           "package": "language-lua",
@@ -3732,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua",
           "name": "Stat",
           "package": "language-lua",
@@ -3740,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Language Lua",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua",
           "name": "Stat",
           "package": "language-lua",
@@ -3753,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Language.Lua",
           "name": "pprint",
           "package": "language-lua",
@@ -3762,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Language Lua",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Language.Lua",
           "name": "pprint",
           "normalized": "a-\u003eDoc",
@@ -3777,6 +4033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLexer/Parsec interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Text.Parsec.LTok",
           "name": "LTok",
           "package": "language-lua",
@@ -3786,6 +4043,7 @@
         "index": {
           "description": "Lexer Parsec interface",
           "hierarchy": "Text Parsec LTok",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Text.Parsec.LTok",
           "name": "LTok",
           "package": "language-lua",
@@ -3799,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Text.Parsec.LTok",
           "name": "Parser",
           "package": "language-lua",
@@ -3807,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec LTok",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Text.Parsec.LTok",
           "name": "Parser",
           "package": "language-lua",
@@ -3821,6 +4081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eLTokIdent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Text.Parsec.LTok",
           "name": "anyIdent",
           "package": "language-lua",
@@ -3831,6 +4092,7 @@
         "index": {
           "description": "Parses LTokIdent",
           "hierarchy": "Text Parsec LTok",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Text.Parsec.LTok",
           "name": "anyIdent",
           "normalized": "ParsecT[LTok]a b LToken",
@@ -3847,6 +4109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eLTokNum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Text.Parsec.LTok",
           "name": "anyNum",
           "package": "language-lua",
@@ -3857,6 +4120,7 @@
         "index": {
           "description": "Parses LTokNum",
           "hierarchy": "Text Parsec LTok",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Text.Parsec.LTok",
           "name": "anyNum",
           "normalized": "ParsecT[LTok]a b LToken",
@@ -3873,6 +4137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser succeeds whenever the given predicate returns true when called with\n parsed \u003ccode\u003e\u003ca\u003eLTok\u003c/a\u003e\u003c/code\u003e. Same as \u003ccode\u003e\u003ca\u003esatisfy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Text.Parsec.LTok",
           "name": "satisfy",
           "package": "language-lua",
@@ -3883,6 +4148,7 @@
         "index": {
           "description": "This parser succeeds whenever the given predicate returns true when called with parsed LTok Same as satisfy",
           "hierarchy": "Text Parsec LTok",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Text.Parsec.LTok",
           "name": "satisfy",
           "normalized": "(LTok-\u003eBool)-\u003eParsecT[LTok]a b LToken",
@@ -3898,6 +4164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eLTokSLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Text.Parsec.LTok",
           "name": "string",
           "package": "language-lua",
@@ -3908,6 +4175,7 @@
         "index": {
           "description": "Parses LTokSLit",
           "hierarchy": "Text Parsec LTok",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Text.Parsec.LTok",
           "name": "string",
           "normalized": "ParsecT[LTok]a b LToken",
@@ -3923,6 +4191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses given \u003ccode\u003e\u003ca\u003eLToken\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:45 UTC 2014",
           "module": "Text.Parsec.LTok",
           "name": "tok",
           "package": "language-lua",
@@ -3933,6 +4202,7 @@
         "index": {
           "description": "Parses given LToken",
           "hierarchy": "Text Parsec LTok",
+          "indexed": "2014-03-11T19:05:45",
           "module": "Text.Parsec.LTok",
           "name": "tok",
           "normalized": "LToken-\u003eParsecT[LTok]a b LToken",

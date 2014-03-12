@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "check-email"
+        "phrase": "check-email",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:54 UTC 2014",
           "module": "Network.Email.Check",
           "name": "Check",
           "package": "check-email",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Email Check",
+          "indexed": "2014-03-11T17:31:54",
           "module": "Network.Email.Check",
           "name": "Check",
           "package": "check-email",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see whether an email is (1) RFC-valid and (2) has an\n existant MX record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:54 UTC 2014",
           "module": "Network.Email.Check",
           "name": "check",
           "package": "check-email",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Check to see whether an email is RFC-valid and has an existant MX record",
           "hierarchy": "Network Email Check",
+          "indexed": "2014-03-11T17:31:54",
           "module": "Network.Email.Check",
           "name": "check",
           "normalized": "String-\u003eIO(Either String EmailAddress)",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:54 UTC 2014",
           "module": "Network.Email.Check",
           "name": "checkMx",
           "package": "check-email",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Network Email Check",
+          "indexed": "2014-03-11T17:31:54",
           "module": "Network.Email.Check",
           "name": "checkMx",
           "normalized": "CString-\u003eIO CInt",

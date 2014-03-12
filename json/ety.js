@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ety"
+        "phrase": "ety",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn API for the Online Etymology Dictionary at http:\u003cem/\u003eetymonline.com/.\n   The encoding is ISO-8859-1/latin1 so needs to use uconv.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "EtymologyOnline",
           "package": "ety",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An API for the Online Etymology Dictionary at http etymonline.com The encoding is ISO-8859-1 latin1 so needs to use uconv",
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "EtymologyOnline",
           "package": "ety",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn EO exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "EOException",
           "package": "ety",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An EO exception",
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "EOException",
           "package": "ety",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "CannotDownloadPageCountForLetter",
           "package": "ety",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "CannotDownloadPageCountForLetter",
           "package": "ety",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "CannotDownloadPageEntries",
           "package": "ety",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "CannotDownloadPageEntries",
           "package": "ety",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "CannotParsePageCountForLetter",
           "package": "ety",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "CannotParsePageCountForLetter",
           "package": "ety",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "CannotParsePageEntries",
           "package": "ety",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "CannotParsePageEntries",
           "package": "ety",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "NoEntryInPage",
           "package": "ety",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "NoEntryInPage",
           "package": "ety",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "allContent",
           "package": "ety",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "allContent",
           "normalized": "Element-\u003eString",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a random Etymology Online entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "getRandomEntry",
           "package": "ety",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Get random Etymology Online entry",
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "getRandomEntry",
           "normalized": "IO(String,String)",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "getentries",
           "package": "ety",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "getentries",
           "normalized": "Maybe Element-\u003eMaybe[(String,String)]",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the entries for a letter and page number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "getletterentries",
           "package": "ety",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Get the entries for letter and page number",
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "getletterentries",
           "normalized": "Converter-\u003eChar-\u003eInt-\u003eIO[(String,String)]",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of pages for a letter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "getletterpages",
           "package": "ety",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Get the number of pages for letter",
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "getletterpages",
           "normalized": "Converter-\u003eChar-\u003eIO Int",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "getlinks",
           "package": "ety",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "getlinks",
           "normalized": "Maybe Element-\u003eMaybe[String]",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "paginglinks",
           "package": "ety",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "paginglinks",
           "normalized": "Element-\u003e[String]",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "paginglist",
           "package": "ety",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "paginglist",
           "normalized": "Element-\u003eBool",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "parseEOXML",
           "package": "ety",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "parseEOXML",
           "normalized": "Converter-\u003eByteString-\u003eMaybe Element",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "qname",
           "package": "ety",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "qname",
           "normalized": "String-\u003eMaybe String-\u003eQName",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "trim",
           "package": "ety",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:13 UTC 2014",
           "module": "Language.English.EtymologyOnline",
           "name": "xhtml",
           "package": "ety",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Language English EtymologyOnline",
+          "indexed": "2014-03-11T18:04:13",
           "module": "Language.English.EtymologyOnline",
           "name": "xhtml",
           "package": "ety",

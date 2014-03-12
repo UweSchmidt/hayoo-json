@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zoom-cache-sndfile"
+        "phrase": "zoom-cache-sndfile",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "splice"
+        "phrase": "splice",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library implements most efficient socket to socket data transfer loops\n  for proxy servers on each operating system.\n\u003c/p\u003e\u003cp\u003eOn GNU/Linux, it uses and exposes the zero-copy \u003ccode\u003esplice()\u003c/code\u003e system call:\n  \u003ca\u003ehttp://kerneltrap.org/node/6505\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eOn all other operating systems, it currently falls back to a portable Haskell\n  implementation &#8211; which allocates a single memory buffer in user address space,\n  then enters an inner loop that uses \u003ccode\u003e\u003ca\u003ehGetBufSome\u003c/a\u003e\u003c/code\u003e and\n  \u003ccode\u003e\u003ca\u003ehPutBuf\u003c/a\u003e\u003c/code\u003e. This avoids lots of tiny allocations as would otherwise\n  be caused by \u003ccode\u003e\u003ca\u003erecv\u003c/a\u003e\u003c/code\u003e and\n  \u003ccode\u003e\u003ca\u003esendAll\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003ebytestring\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:29 UTC 2014",
           "module": "Network.Socket.Splice",
           "name": "Splice",
           "package": "splice",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library implements most efficient socket to socket data transfer loops for proxy servers on each operating system On GNU Linux it uses and exposes the zero-copy splice system call http kerneltrap.org node On all other operating systems it currently falls back to portable Haskell implementation which allocates single memory buffer in user address space then enters an inner loop that uses hGetBufSome and hPutBuf This avoids lots of tiny allocations as would otherwise be caused by recv and sendAll from the bytestring package",
           "hierarchy": "Network Socket Splice",
+          "indexed": "2014-03-11T20:08:29",
           "module": "Network.Socket.Splice",
           "name": "Splice",
           "package": "splice",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe numeric type to recommend chunk sizes for moving data between sockets\n   used by both zero-copy and portable implementations of \u003ccode\u003e\u003ca\u003esplice\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:29 UTC 2014",
           "module": "Network.Socket.Splice",
           "name": "ChunkSize",
           "package": "splice",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The numeric type to recommend chunk sizes for moving data between sockets used by both zero-copy and portable implementations of splice",
           "hierarchy": "Network Socket Splice",
+          "indexed": "2014-03-11T20:08:29",
           "module": "Network.Socket.Splice",
           "name": "ChunkSize",
           "package": "splice",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe portable Haskell loop.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e allocates a \u003cem\u003esingle\u003c/em\u003e memory buffer in user address space\n\u003c/li\u003e\u003cli\u003e uses it until the loop terminates by exception\n\u003c/li\u003e\u003cli\u003e frees the buffer and returns\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003eNotes\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e the socket handles are required to be in \u003ccode\u003e\u003ca\u003eNoBuffering\u003c/a\u003e\u003c/code\u003e mode.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:08:29 UTC 2014",
           "module": "Network.Socket.Splice",
           "name": "hSplice",
           "package": "splice",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The portable Haskell loop allocates single memory buffer in user address space uses it until the loop terminates by exception frees the buffer and returns Notes the socket handles are required to be in NoBuffering mode",
           "hierarchy": "Network Socket Splice",
+          "indexed": "2014-03-11T20:08:29",
           "module": "Network.Socket.Splice",
           "name": "hSplice",
           "normalized": "Int-\u003eHandle-\u003eHandle-\u003eIO()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePipes data from one socket to another in an \u003cem\u003einfinite loop\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003esplice\u003c/a\u003e\u003c/code\u003e currently has two implementations:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eon GNU/Linux using \u003ccode\u003efdSplice\u003c/code\u003e &#8773;\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cpre\u003e splice len (sIn, _       ) (sOut, _        ) = ... fdSplice ...\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003eon all other operating systems using \u003ccode\u003e\u003ca\u003ehSplice\u003c/a\u003e\u003c/code\u003e &#8773;\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cpre\u003e splice len (_  , Just hIn) (_   , Just hOut) = ... hSplice  ...\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003eNotes\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003efdSplice\u003c/code\u003e and \u003ccode\u003efdSplice\u003c/code\u003e implementation of \u003ccode\u003e\u003ca\u003esplice\u003c/a\u003e\u003c/code\u003e are only available\n        on GNU/Linux.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ehSplice\u003c/a\u003e\u003c/code\u003e is always available and the \u003ccode\u003e\u003ca\u003ehSplice\u003c/a\u003e\u003c/code\u003e implementation of\n       \u003ccode\u003e\u003ca\u003esplice\u003c/a\u003e\u003c/code\u003e can be forced on GNU/Linux by defining the \u003ccode\u003eportable\u003c/code\u003e flag at\n       compile time.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ehSplice\u003c/a\u003e\u003c/code\u003e implementation requires handles in \u003ccode\u003e\u003ca\u003eNoBuffering\u003c/a\u003e\u003c/code\u003e mode.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003esplice\u003c/a\u003e\u003c/code\u003e is a terminal loop on two sockets and once entered its sockets\n        and handles cannot be interleaved by other IO operations.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:08:29 UTC 2014",
           "module": "Network.Socket.Splice",
           "name": "splice",
           "package": "splice",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Pipes data from one socket to another in an infinite loop splice currently has two implementations on GNU Linux using fdSplice splice len sIn sOut fdSplice on all other operating systems using hSplice splice len Just hIn Just hOut hSplice Notes fdSplice and fdSplice implementation of splice are only available on GNU Linux hSplice is always available and the hSplice implementation of splice can be forced on GNU Linux by defining the portable flag at compile time hSplice implementation requires handles in NoBuffering mode splice is terminal loop on two sockets and once entered its sockets and handles cannot be interleaved by other IO operations",
           "hierarchy": "Network Socket Splice",
+          "indexed": "2014-03-11T20:08:29",
           "module": "Network.Socket.Splice",
           "name": "splice",
           "normalized": "ChunkSize-\u003e(Socket,Maybe Handle)-\u003e(Socket,Maybe Handle)-\u003eIO()",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e but used when an obvious exception\n   is expected and can be handled easily. Unlike \u003ccode\u003e\u003ca\u003efinally\u003c/a\u003e\u003c/code\u003e exceptions are\n   \u003cem\u003eNOT\u003c/em\u003e rethrown once handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:29 UTC 2014",
           "module": "Network.Socket.Splice",
           "name": "tryWith",
           "package": "splice",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Similar to try but used when an obvious exception is expected and can be handled easily Unlike finally exceptions are NOT rethrown once handled",
           "hierarchy": "Network Socket Splice",
+          "indexed": "2014-03-11T20:08:29",
           "module": "Network.Socket.Splice",
           "name": "tryWith",
           "normalized": "(SomeException-\u003eIO a)-\u003eIO a-\u003eIO a",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e but used when an obvious exception\n   is expected which can be safely ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:29 UTC 2014",
           "module": "Network.Socket.Splice",
           "name": "try_",
           "package": "splice",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Similar to try but used when an obvious exception is expected which can be safely ignored",
           "hierarchy": "Network Socket Splice",
+          "indexed": "2014-03-11T20:08:29",
           "module": "Network.Socket.Splice",
           "name": "try_",
           "normalized": "IO()-\u003eIO()",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether \u003ccode\u003e\u003ca\u003esplice\u003c/a\u003e\u003c/code\u003e uses zero-copy system calls or the portable user\n   space Haskell implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:29 UTC 2014",
           "module": "Network.Socket.Splice",
           "name": "zeroCopy",
           "package": "splice",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Indicates whether splice uses zero-copy system calls or the portable user space Haskell implementation",
           "hierarchy": "Network Socket Splice",
+          "indexed": "2014-03-11T20:08:29",
           "module": "Network.Socket.Splice",
           "name": "zeroCopy",
           "package": "splice",

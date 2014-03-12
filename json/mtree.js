@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mtree"
+        "phrase": "mtree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Haskell library provides an implementation of a tree data\n type with meta data in the nodes and content in the leaves.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:32 UTC 2014",
           "module": "Data.Trees.MTree",
           "name": "MTree",
           "package": "mtree",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This Haskell library provides an implementation of tree data type with meta data in the nodes and content in the leaves",
           "hierarchy": "Data Trees MTree",
+          "indexed": "2014-03-11T19:23:32",
           "module": "Data.Trees.MTree",
           "name": "MTree",
           "package": "mtree",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e| The \u003ccode\u003eTree m c\u003c/code\u003e is a tree structure with metadata in the nodes\n | and metadata and content in the leaves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:32 UTC 2014",
           "module": "Data.Trees.MTree",
           "name": "Tree",
           "package": "mtree",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Tree is tree structure with metadata in the nodes and metadata and content in the leaves",
           "hierarchy": "Data Trees MTree",
+          "indexed": "2014-03-11T19:23:32",
           "module": "Data.Trees.MTree",
           "name": "Tree",
           "package": "mtree",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:32 UTC 2014",
           "module": "Data.Trees.MTree",
           "name": "Leaf",
           "package": "mtree",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Trees MTree",
+          "indexed": "2014-03-11T19:23:32",
           "module": "Data.Trees.MTree",
           "name": "Leaf",
           "package": "mtree",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:32 UTC 2014",
           "module": "Data.Trees.MTree",
           "name": "Node",
           "package": "mtree",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Trees MTree",
+          "indexed": "2014-03-11T19:23:32",
           "module": "Data.Trees.MTree",
           "name": "Node",
           "package": "mtree",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:32 UTC 2014",
           "module": "Data.Trees.MTree",
           "name": "content",
           "package": "mtree",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Trees MTree",
+          "indexed": "2014-03-11T19:23:32",
           "module": "Data.Trees.MTree",
           "name": "content",
           "package": "mtree",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:32 UTC 2014",
           "module": "Data.Trees.MTree",
           "name": "meta",
           "package": "mtree",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Trees MTree",
+          "indexed": "2014-03-11T19:23:32",
           "module": "Data.Trees.MTree",
           "name": "meta",
           "package": "mtree",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:32 UTC 2014",
           "module": "Data.Trees.MTree",
           "name": "trees",
           "package": "mtree",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Trees MTree",
+          "indexed": "2014-03-11T19:23:32",
           "module": "Data.Trees.MTree",
           "name": "trees",
           "normalized": "[Tree a b]",

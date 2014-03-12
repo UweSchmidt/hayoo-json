@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HLearn-approximation"
+        "phrase": "HLearn-approximation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBin packing is one of the most well studied NP-hard problems.  See wikipedia for a detailed description \u003ca\u003ehttps://en.wikipedia.org/wiki/Bin_packing\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.BinPacking",
           "name": "BinPacking",
           "package": "HLearn-approximation",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bin packing is one of the most well studied NP-hard problems See wikipedia for detailed description https en.wikipedia.org wiki Bin packing",
           "hierarchy": "HLearn NPHard BinPacking",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.BinPacking",
           "name": "BinPacking",
           "package": "HLearn-approximation",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.BinPacking",
           "name": "BinPacking",
           "package": "HLearn-approximation",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "HLearn NPHard BinPacking",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.BinPacking",
           "name": "BinPacking",
           "package": "HLearn-approximation",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.BinPacking",
           "name": "BinPacking",
           "package": "HLearn-approximation",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "HLearn NPHard BinPacking",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.BinPacking",
           "name": "BinPacking",
           "package": "HLearn-approximation",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.BinPacking",
           "name": "packing",
           "package": "HLearn-approximation",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "HLearn NPHard BinPacking",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.BinPacking",
           "name": "packing",
           "normalized": "Map Int[a]",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.BinPacking",
           "name": "vector",
           "package": "HLearn-approximation",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "HLearn NPHard BinPacking",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.BinPacking",
           "name": "vector",
           "package": "HLearn-approximation",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSee the wikipedia article for details about the Multiprocessor Scheduling problem \u003ca\u003ehttps://en.wikipedia.org/wiki/Multiprocessor_scheduling\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "Scheduling",
           "package": "HLearn-approximation",
@@ -138,6 +149,7 @@
         "index": {
           "description": "See the wikipedia article for details about the Multiprocessor Scheduling problem https en.wikipedia.org wiki Multiprocessor scheduling",
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "Scheduling",
           "package": "HLearn-approximation",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "Scheduling",
           "package": "HLearn-approximation",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "Scheduling",
           "package": "HLearn-approximation",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "Scheduling",
           "package": "HLearn-approximation",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "Scheduling",
           "package": "HLearn-approximation",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all schedules.  The schedules are represented by a list of the elements within them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "getSchedules",
           "package": "HLearn-approximation",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Returns list of all schedules The schedules are represented by list of the elements within them",
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "getSchedules",
           "normalized": "Scheduling a b-\u003e[[b]]",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the size of the largest bin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "maxpartition",
           "package": "HLearn-approximation",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Returns the size of the largest bin",
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "maxpartition",
           "normalized": "Scheduling a b-\u003eRing b",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the size of the smallest bin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "minpartition",
           "package": "HLearn-approximation",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Returns the size of the smallest bin",
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "minpartition",
           "normalized": "Scheduling a b-\u003eRing b",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "schedule",
           "package": "HLearn-approximation",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "schedule",
           "normalized": "Map Bin[a]",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA schedule's spread is a measure of it's \"goodness.\"  The smaller the spread, the better the schedule.  It is equal to \u003ccode\u003e\u003ca\u003emaxpartition\u003c/a\u003e\u003c/code\u003e - \u003ccode\u003e\u003ca\u003eminpartition\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "spread",
           "package": "HLearn-approximation",
@@ -304,6 +329,7 @@
         "index": {
           "description": "schedule spread is measure of it goodness The smaller the spread the better the schedule It is equal to maxpartition minpartition",
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "spread",
           "normalized": "Scheduling a b-\u003eRing b",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:34 UTC 2014",
           "module": "HLearn.NPHard.Scheduling",
           "name": "vector",
           "package": "HLearn-approximation",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "HLearn NPHard Scheduling",
+          "indexed": "2014-03-11T16:45:34",
           "module": "HLearn.NPHard.Scheduling",
           "name": "vector",
           "package": "HLearn-approximation",

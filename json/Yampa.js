@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Yampa"
+        "phrase": "Yampa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAffine space type relation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.AffineSpace",
           "name": "AffineSpace",
           "package": "Yampa",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Affine space type relation",
           "hierarchy": "FRP Yampa AffineSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.AffineSpace",
           "name": "AffineSpace",
           "package": "Yampa",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.AffineSpace",
           "name": "AffineSpace",
           "package": "Yampa",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa AffineSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.AffineSpace",
           "name": "AffineSpace",
           "package": "Yampa",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.AffineSpace",
           "name": "(.+^)",
           "package": "Yampa",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa AffineSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.AffineSpace",
           "name": "(.+^) .+^",
           "normalized": "a-\u003eb-\u003ea",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.AffineSpace",
           "name": "(.-^)",
           "package": "Yampa",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa AffineSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.AffineSpace",
           "name": "(.-^) .-^",
           "normalized": "a-\u003eb-\u003ea",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.AffineSpace",
           "name": "(.-.)",
           "package": "Yampa",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa AffineSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.AffineSpace",
           "name": "(.-.) .-.",
           "normalized": "a-\u003ea-\u003eb",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.AffineSpace",
           "name": "distance",
           "package": "Yampa",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa AffineSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.AffineSpace",
           "name": "distance",
           "normalized": "a-\u003ea-\u003eb",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.AffineSpace",
           "name": "origin",
           "package": "Yampa",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa AffineSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.AffineSpace",
           "name": "origin",
           "package": "Yampa",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition of Yampa Event type.\n\u003c/p\u003e\u003cp\u003eNote on naming conventions used in this module.\n\u003c/p\u003e\u003cp\u003eNames here might have to be rethought. It's really a bit messy.\n In general, the aim has been short and convenient names (like \u003ccode\u003e\u003ca\u003etag\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eattach\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elMerge\u003c/a\u003e\u003c/code\u003e) and thus we have tried to stay away from suffixing/\n prefixing conventions. E.g. \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e as a common suffix would be very\n verbose.\n\u003c/p\u003e\u003cp\u003eHowever, part of the names come from a desire to stay close to similar\n functions for the Maybe type. e.g. \u003ccode\u003e\u003ca\u003eevent\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efromEvent\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eisEvent\u003c/a\u003e\u003c/code\u003e.\n In many cases, this use of \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e can could understood to refer to the\n constructor \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e, not to the type name \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e. Thus this use of\n event should not be seen as a suffixing-with-type-name convention. But\n that is obviously not easy to see, and, more over, interpreting \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e\n as the name of the type might make equally good or better sense. E.g.\n \u003ccode\u003e\u003ca\u003efromEvent\u003c/a\u003e\u003c/code\u003e can also be seen as a function taking an event signal,\n which is a partial function on time, to a normal signal. The latter is\n then undefined when the source event function is undefined.\n\u003c/p\u003e\u003cp\u003eIn other cases, it has been necessary to somehow stay out of the way of\n names used by the prelude or other commonly imported modules/modules\n which could be expected to be used heavily in Yampa code. In those cases\n a suffix \u003ccode\u003eE\u003c/code\u003e have been added. Examples are \u003ccode\u003e\u003ca\u003efilterE\u003c/a\u003e\u003c/code\u003e (exists in Prelude)\n and \u003ccode\u003e\u003ca\u003ejoinE\u003c/a\u003e\u003c/code\u003e (exists in Monad). Maybe the suffix isn't necessary in the\n last case.\n\u003c/p\u003e\u003cp\u003eSome functions (actually only one currently, \u003ccode\u003e\u003ca\u003emapFilterE\u003c/a\u003e\u003c/code\u003e) have got an \u003ccode\u003eE\u003c/code\u003e\n suffix just because they're closely related (by name or semantics) to one\n which already has an \u003ccode\u003eE\u003c/code\u003e suffix. Another candidate would be \u003ccode\u003e\u003ca\u003esplitE\u003c/a\u003e\u003c/code\u003e to\n complement \u003ccode\u003e\u003ca\u003ejoinE\u003c/a\u003e\u003c/code\u003e. But events carrying pairs could obviously have other\n sources than a \u003ccode\u003e\u003ca\u003ejoinE\u003c/a\u003e\u003c/code\u003e, so currently it is called \u003ccode\u003esplit\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e2003-05-19: Actually, have now changed to \u003ccode\u003e\u003ca\u003esplitE\u003c/a\u003e\u003c/code\u003e to avoid a clash\n with the method \u003ccode\u003esplit\u003c/code\u003e in the class RandomGen.\n\u003c/p\u003e\u003cp\u003e2003-05-19: What about \u003ccode\u003e\u003ca\u003egate\u003c/a\u003e\u003c/code\u003e? Stands out compared to e.g. \u003ccode\u003e\u003ca\u003efilterE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCurrently the \u003ccode\u003eE\u003c/code\u003e suffix is considered an exception. Maybe we should use\n completely different names to avoid the \u003ccode\u003eE\u003c/code\u003e suffix. If the functions\n are not used that often, \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e might be approriate. Alternatively the\n suffix \u003ccode\u003eE\u003c/code\u003e should be adopted globaly (except if the name already contains\n \u003ccode\u003e\u003ca\u003eevent\u003c/a\u003e\u003c/code\u003e in some form?).\n\u003c/p\u003e\u003cp\u003eArguably, having both a type \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e and a constructor \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e is confusing\n since there are more than one constructor. But the name \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e for the\n constructor is quite apt. It's really the type name that is wrong. But\n no one has found a better name, and changing it would be a really major\n undertaking. Yes, the constructor \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e is not exported, but we still\n need to talk conceptually about them. On the other hand, if we consider\n Event-signals as partial functions on time, maybe it isn't so confusing:\n they just don't have a value between events, so \u003ccode\u003e\u003ca\u003eNoEvent\u003c/a\u003e\u003c/code\u003e does not really\n exist conceptually.\n\u003c/p\u003e\u003cp\u003eToDo:\n - Either: reveal NoEvent and Event\n   or:     introcuce 'event = Event', call what's now \u003ccode\u003e\u003ca\u003eevent\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efromEvent\u003c/a\u003e\u003c/code\u003e,\n           and call what's now called \u003ccode\u003e\u003ca\u003efromEvent\u003c/a\u003e\u003c/code\u003e something else, like\n           \u003ccode\u003eunsafeFromEvent\u003c/code\u003e??? Better, dump it! After all, using current\n\t     names, 'fromEvent = event undefined'!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Event",
           "name": "Event",
           "package": "Yampa",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Definition of Yampa Event type Note on naming conventions used in this module Names here might have to be rethought It really bit messy In general the aim has been short and convenient names like tag attach lMerge and thus we have tried to stay away from suffixing prefixing conventions E.g Event as common suffix would be very verbose However part of the names come from desire to stay close to similar functions for the Maybe type e.g event fromEvent isEvent In many cases this use of Event can could understood to refer to the constructor Event not to the type name Event Thus this use of event should not be seen as suffixing-with-type-name convention But that is obviously not easy to see and more over interpreting Event as the name of the type might make equally good or better sense E.g fromEvent can also be seen as function taking an event signal which is partial function on time to normal signal The latter is then undefined when the source event function is undefined In other cases it has been necessary to somehow stay out of the way of names used by the prelude or other commonly imported modules modules which could be expected to be used heavily in Yampa code In those cases suffix have been added Examples are filterE exists in Prelude and joinE exists in Monad Maybe the suffix isn necessary in the last case Some functions actually only one currently mapFilterE have got an suffix just because they re closely related by name or semantics to one which already has an suffix Another candidate would be splitE to complement joinE But events carrying pairs could obviously have other sources than joinE so currently it is called split Actually have now changed to splitE to avoid clash with the method split in the class RandomGen What about gate Stands out compared to e.g filterE Currently the suffix is considered an exception Maybe we should use completely different names to avoid the suffix If the functions are not used that often Event might be approriate Alternatively the suffix should be adopted globaly except if the name already contains event in some form Arguably having both type Event and constructor Event is confusing since there are more than one constructor But the name Event for the constructor is quite apt It really the type name that is wrong But no one has found better name and changing it would be really major undertaking Yes the constructor Event is not exported but we still need to talk conceptually about them On the other hand if we consider Event-signals as partial functions on time maybe it isn so confusing they just don have value between events so NoEvent does not really exist conceptually ToDo Either reveal NoEvent and Event or introcuce event Event call what now event fromEvent and call what now called fromEvent something else like unsafeFromEvent Better dump it After all using current names fromEvent event undefined",
           "hierarchy": "FRP Yampa Event",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Event",
           "name": "Event",
           "package": "Yampa",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Event",
           "name": "Event",
           "package": "Yampa",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Event",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Event",
           "name": "Event",
           "package": "Yampa",
@@ -560,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Event",
           "name": "maybeToEvent",
           "package": "Yampa",
@@ -569,6 +588,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Event",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Event",
           "name": "maybeToEvent",
           "normalized": "Maybe a-\u003eEvent a",
@@ -830,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHyperstrict evaluation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Forceable",
           "name": "Forceable",
           "package": "Yampa",
@@ -839,6 +860,7 @@
         "index": {
           "description": "Hyperstrict evaluation",
           "hierarchy": "FRP Yampa Forceable",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Forceable",
           "name": "Forceable",
           "package": "Yampa",
@@ -852,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Forceable",
           "name": "Forceable",
           "package": "Yampa",
@@ -860,6 +883,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Forceable",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Forceable",
           "name": "Forceable",
           "package": "Yampa",
@@ -873,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Forceable",
           "name": "force",
           "package": "Yampa",
@@ -882,6 +907,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Forceable",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Forceable",
           "name": "force",
           "normalized": "a-\u003ea",
@@ -897,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic geometrical abstractions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Geometry",
           "name": "Geometry",
           "package": "Yampa",
@@ -906,6 +933,7 @@
         "index": {
           "description": "Basic geometrical abstractions",
           "hierarchy": "FRP Yampa Geometry",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Geometry",
           "name": "Geometry",
           "package": "Yampa",
@@ -920,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface giving access to some of the internal\n details of the Yampa implementation.\n\u003c/p\u003e\u003cp\u003eThis interface is indended to be used when the need arises to break\n abstraction barriers, e.g. for interfacing Yampa to the real world, for\n debugging purposes, or the like. Be aware that the internal details\n may change. Relying on this interface means that your code is not\n insulated against such changes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Internals",
           "name": "Internals",
           "package": "Yampa",
@@ -929,6 +958,7 @@
         "index": {
           "description": "An interface giving access to some of the internal details of the Yampa implementation This interface is indended to be used when the need arises to break abstraction barriers e.g for interfacing Yampa to the real world for debugging purposes or the like Be aware that the internal details may change Relying on this interface means that your code is not insulated against such changes",
           "hierarchy": "FRP Yampa Internals",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Internals",
           "name": "Internals",
           "package": "Yampa",
@@ -942,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Internals",
           "name": "Event",
           "package": "Yampa",
@@ -950,6 +981,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Internals",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Internals",
           "name": "Event",
           "package": "Yampa",
@@ -964,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFramework for record merging.\n\u003c/p\u003e\u003cp\u003eIdea:\n\u003c/p\u003e\u003cp\u003eMergeableRecord is intended to be a super class for classes providing\n update operations on records. The ADT induced by such a set of operations\n can be considered a \u003ca\u003emergeable record\u003c/a\u003e, which can be merged into larger\n mergeable records essentially by function composition. Finalization turns\n a mergeable record into a record.\n\u003c/p\u003e\u003cp\u003eTypical use:\n\u003c/p\u003e\u003cp\u003eGiven\n\u003c/p\u003e\u003cpre\u003e  data Foo = Foo {l1 :: T1, l2 :: T2}\n\u003c/pre\u003e\u003cp\u003eone define a mergeable record type (MR Foo) by the following instance:\n\u003c/p\u003e\u003cpre\u003e\n   instance MergeableRecord Foo where\n       mrDefault = Foo {l1 = v1_dflt, l2 = v2_dflt}\n\u003c/pre\u003e\u003cp\u003eTypically, one would also provide definitions for setting the fields,\n possibly (but not necessarily) overloaded:\n\u003c/p\u003e\u003cpre\u003e\n   instance HasL1 Foo where\n       setL1 v = mrMake (foo -\u003e foo {l1 = v})\n\u003c/pre\u003e\u003cp\u003eNow Foo records can be created as follows:\n\u003c/p\u003e\u003cpre\u003e\n   let foo1 = setL1 v1\n   ...\n   let foo2 = setL2 v2 ~+~ foo1\n   ...\n   let foo\u003ca\u003eN\u003c/a\u003e = setL1 vN ~+~ foo\u003ca\u003eN-1\u003c/a\u003e\n   let fooFinal = mrFinalize foo\u003ca\u003eN\u003c/a\u003e\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "MergeableRecord",
           "package": "Yampa",
@@ -973,6 +1006,7 @@
         "index": {
           "description": "Framework for record merging Idea MergeableRecord is intended to be super class for classes providing update operations on records The ADT induced by such set of operations can be considered mergeable record which can be merged into larger mergeable records essentially by function composition Finalization turns mergeable record into record Typical use Given data Foo Foo l1 T1 l2 T2 one define mergeable record type MR Foo by the following instance instance MergeableRecord Foo where mrDefault Foo l1 v1 dflt l2 v2 dflt Typically one would also provide definitions for setting the fields possibly but not necessarily overloaded instance HasL1 Foo where setL1 mrMake foo foo l1 Now Foo records can be created as follows let foo1 setL1 v1 let foo2 setL2 v2 foo1 let foo setL1 vN foo N-1 let fooFinal mrFinalize foo",
           "hierarchy": "FRP Yampa MergeableRecord",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "MergeableRecord",
           "package": "Yampa",
@@ -986,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "MR",
           "package": "Yampa",
@@ -994,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa MergeableRecord",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "MR",
           "package": "Yampa",
@@ -1007,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "MergeableRecord",
           "package": "Yampa",
@@ -1015,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa MergeableRecord",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "MergeableRecord",
           "package": "Yampa",
@@ -1028,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "(~+~)",
           "package": "Yampa",
@@ -1037,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa MergeableRecord",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "(~+~) ~+~",
           "normalized": "MR a-\u003eMR a-\u003eMR a",
@@ -1051,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "mrDefault",
           "package": "Yampa",
@@ -1060,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa MergeableRecord",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "mrDefault",
           "package": "Yampa",
@@ -1073,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "mrFinalize",
           "package": "Yampa",
@@ -1082,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa MergeableRecord",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "mrFinalize",
           "normalized": "MR a-\u003ea",
@@ -1097,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "mrMake",
           "package": "Yampa",
@@ -1106,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa MergeableRecord",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "mrMake",
           "normalized": "(a-\u003ea)-\u003eMR a",
@@ -1121,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "mrMerge",
           "package": "Yampa",
@@ -1130,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa MergeableRecord",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.MergeableRecord",
           "name": "mrMerge",
           "normalized": "MR a-\u003eMR a-\u003eMR a",
@@ -1146,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of entities that really should be part\n of the Haskell 98 prelude or simply have no better\n home.\n\u003c/p\u003e\u003cp\u003e!!! Reverse function composition should go.\n !!! Better to use \u003ccode\u003e\u003c\u003c\u003c\u003c/code\u003e and \u003ccode\u003e\u003e\u003e\u003e\u003c/code\u003e for, respectively,\n !!! function composition and reverse function composition.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "Miscellany",
           "package": "Yampa",
@@ -1155,6 +1204,7 @@
         "index": {
           "description": "Collection of entities that really should be part of the Haskell prelude or simply have no better home Reverse function composition should go Better to use and for respectively function composition and reverse function composition",
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "Miscellany",
           "package": "Yampa",
@@ -1216,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "fDiv",
           "package": "Yampa",
@@ -1225,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "fDiv",
           "normalized": "a-\u003ea-\u003eInteger",
@@ -1240,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "fDivMod",
           "package": "Yampa",
@@ -1249,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "fDivMod",
           "normalized": "a-\u003ea-\u003e(Integer,a)",
@@ -1264,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "fMod",
           "package": "Yampa",
@@ -1273,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "fMod",
           "normalized": "a-\u003ea-\u003ea",
@@ -1288,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "mapFst",
           "package": "Yampa",
@@ -1297,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "mapFst",
           "normalized": "(a-\u003eb)-\u003e[(a,c)]-\u003e[(b,c)]",
@@ -1312,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "mapSnd",
           "package": "Yampa",
@@ -1321,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "mapSnd",
           "normalized": "(a-\u003eb)-\u003e[(c,a)]-\u003e[(c,b)]",
@@ -1336,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel3_1",
           "package": "Yampa",
@@ -1345,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel3_1",
           "normalized": "(a,b,c)-\u003ea",
@@ -1359,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel3_2",
           "package": "Yampa",
@@ -1368,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel3_2",
           "normalized": "(a,b,c)-\u003eb",
@@ -1382,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel3_3",
           "package": "Yampa",
@@ -1391,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel3_3",
           "normalized": "(a,b,c)-\u003ec",
@@ -1405,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel4_1",
           "package": "Yampa",
@@ -1414,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel4_1",
           "normalized": "(a,b,c,d)-\u003ea",
@@ -1428,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel4_2",
           "package": "Yampa",
@@ -1437,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel4_2",
           "normalized": "(a,b,c,d)-\u003eb",
@@ -1451,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel4_3",
           "package": "Yampa",
@@ -1460,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel4_3",
           "normalized": "(a,b,c,d)-\u003ec",
@@ -1474,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel4_4",
           "package": "Yampa",
@@ -1483,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel4_4",
           "normalized": "(a,b,c,d)-\u003ed",
@@ -1497,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_1",
           "package": "Yampa",
@@ -1506,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_1",
           "normalized": "(a,b,c,d,e)-\u003ea",
@@ -1520,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_2",
           "package": "Yampa",
@@ -1529,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_2",
           "normalized": "(a,b,c,d,e)-\u003eb",
@@ -1543,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_3",
           "package": "Yampa",
@@ -1552,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_3",
           "normalized": "(a,b,c,d,e)-\u003ec",
@@ -1566,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_4",
           "package": "Yampa",
@@ -1575,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_4",
           "normalized": "(a,b,c,d,e)-\u003ed",
@@ -1589,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_5",
           "package": "Yampa",
@@ -1598,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Miscellany",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Miscellany",
           "name": "sel5_5",
           "normalized": "(a,b,c,d,e)-\u003ee",
@@ -1637,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e2D point abstraction (R^2).\n\u003c/p\u003e\u003cp\u003eToDo: Deriving Show, or provide dedicated show instance?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point2",
           "name": "Point2",
           "package": "Yampa",
@@ -1646,6 +1731,7 @@
         "index": {
           "description": "point abstraction ToDo Deriving Show or provide dedicated show instance",
           "hierarchy": "FRP Yampa Point2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point2",
           "name": "Point2",
           "package": "Yampa",
@@ -1659,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point2",
           "name": "Point2",
           "package": "Yampa",
@@ -1667,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point2",
           "name": "Point2",
           "package": "Yampa",
@@ -1680,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point2",
           "name": "Point2",
           "package": "Yampa",
@@ -1689,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point2",
           "name": "Point2",
           "package": "Yampa",
@@ -1702,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point2",
           "name": "point2X",
           "package": "Yampa",
@@ -1711,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point2",
           "name": "point2X",
           "normalized": "Point a-\u003ea",
@@ -1725,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point2",
           "name": "point2Y",
           "package": "Yampa",
@@ -1734,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point2",
           "name": "point2Y",
           "normalized": "Point a-\u003ea",
@@ -1749,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e3D point abstraction (R^3).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point3",
           "name": "Point3",
           "package": "Yampa",
@@ -1758,6 +1853,7 @@
         "index": {
           "description": "point abstraction",
           "hierarchy": "FRP Yampa Point3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point3",
           "name": "Point3",
           "package": "Yampa",
@@ -1771,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point3",
           "name": "Point3",
           "package": "Yampa",
@@ -1779,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point3",
           "name": "Point3",
           "package": "Yampa",
@@ -1792,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point3",
           "name": "Point3",
           "package": "Yampa",
@@ -1801,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point3",
           "name": "Point3",
           "package": "Yampa",
@@ -1814,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point3",
           "name": "point3X",
           "package": "Yampa",
@@ -1823,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point3",
           "name": "point3X",
           "normalized": "Point a-\u003ea",
@@ -1837,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point3",
           "name": "point3Y",
           "package": "Yampa",
@@ -1846,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point3",
           "name": "point3Y",
           "normalized": "Point a-\u003ea",
@@ -1860,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Point3",
           "name": "point3Z",
           "package": "Yampa",
@@ -1869,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Point3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Point3",
           "name": "point3Z",
           "normalized": "Point a-\u003ea",
@@ -1884,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTask abstraction on top of signal transformers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "Task",
           "package": "Yampa",
@@ -1893,6 +2000,7 @@
         "index": {
           "description": "Task abstraction on top of signal transformers",
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "Task",
           "package": "Yampa",
@@ -1906,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "Task",
           "package": "Yampa",
@@ -1914,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "Task",
           "package": "Yampa",
@@ -1927,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "abortWhen",
           "package": "Yampa",
@@ -1936,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "abortWhen",
           "normalized": "Task a b c-\u003eSF a(Event d)-\u003eTask a b(Either c d)",
@@ -1951,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "constT",
           "package": "Yampa",
@@ -1960,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "constT",
           "normalized": "a-\u003eTask b a c",
@@ -1974,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "for",
           "package": "Yampa",
@@ -1983,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "for",
           "normalized": "a-\u003e(a-\u003ea)-\u003e(a-\u003eBool)-\u003eb c-\u003eb()",
@@ -1997,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "forAll",
           "package": "Yampa",
@@ -2006,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "forAll",
           "normalized": "[a]-\u003e(a-\u003eb c)-\u003eb()",
@@ -2021,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "forEver",
           "package": "Yampa",
@@ -2030,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "forEver",
           "normalized": "a b-\u003ea c",
@@ -2045,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "mkTask",
           "package": "Yampa",
@@ -2054,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "mkTask",
           "normalized": "SF a(b,Event c)-\u003eTask a b c",
@@ -2069,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "repeatUntil",
           "package": "Yampa",
@@ -2078,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "repeatUntil",
           "normalized": "a b-\u003e(b-\u003eBool)-\u003ea b",
@@ -2093,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "runTask",
           "package": "Yampa",
@@ -2102,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "runTask",
           "normalized": "Task a b c-\u003eSF a(Either b c)",
@@ -2117,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "runTask_",
           "package": "Yampa",
@@ -2126,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "runTask_",
           "normalized": "Task a b c-\u003eSF a b",
@@ -2141,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "sleepT",
           "package": "Yampa",
@@ -2150,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "sleepT",
           "normalized": "Time-\u003ea-\u003eTask b a()",
@@ -2164,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "snapT",
           "package": "Yampa",
@@ -2173,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "snapT",
           "package": "Yampa",
@@ -2185,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "taskToSF",
           "package": "Yampa",
@@ -2194,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "taskToSF",
           "normalized": "Task a b c-\u003eSF a(b,Event c)",
@@ -2209,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Task",
           "name": "timeOut",
           "package": "Yampa",
@@ -2218,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Task",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Task",
           "name": "timeOut",
           "normalized": "Task a b c-\u003eTime-\u003eTask a b(Maybe c)",
@@ -2234,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerived utility definitions.\n\u003c/p\u003e\u003cp\u003eToDo:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Possibly add\n       impulse :: VectorSpace a k =\u003e a -\u003e Event a\n   But to do that, we need access to Event, which we currently do not have.\n\u003c/li\u003e\u003cli\u003e The general arrow utilities should be moved to a module\n   FRP.Yampa.Utilities.\n\u003c/li\u003e\u003cli\u003e I'm not sure structuring the Yampa \"core\" according to what is\n   core functionality and what's not is all that useful. There are\n   many cases where we want to implement combinators that fairly\n   easily could be implemented in terms of others as primitives simply\n   because we expect that that implementation is going to be much more\n   efficient, and that the combinators are used sufficiently often to\n   warrant doing this. E.g. \u003ccode\u003e\u003ca\u003eswitch\u003c/a\u003e\u003c/code\u003e should be a primitive, even though\n   it could be derived from \u003ccode\u003e\u003ca\u003epSwitch\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Reconsider \u003ccode\u003e\u003ca\u003erecur\u003c/a\u003e\u003c/code\u003e. If an event source has an immediate occurrence,\n   we'll get into a loop. For example: recur now. Maybe suppress\n   initial occurrences? Initial occurrences are rather pointless in this\n   case anyway.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "Utilities",
           "package": "Yampa",
@@ -2243,6 +2380,7 @@
         "index": {
           "description": "Derived utility definitions ToDo Possibly add impulse VectorSpace Event But to do that we need access to Event which we currently do not have The general arrow utilities should be moved to module FRP.Yampa.Utilities not sure structuring the Yampa core according to what is core functionality and what not is all that useful There are many cases where we want to implement combinators that fairly easily could be implemented in terms of others as primitives simply because we expect that that implementation is going to be much more efficient and that the combinators are used sufficiently often to warrant doing this E.g switch should be primitive even though it could be derived from pSwitch Reconsider recur If an event source has an immediate occurrence we ll get into loop For example recur now Maybe suppress initial occurrences Initial occurrences are rather pointless in this case anyway",
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "Utilities",
           "package": "Yampa",
@@ -2257,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecomposition with a pure function (right-to-left variant).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "(\u003c\u003c^)",
           "package": "Yampa",
@@ -2266,6 +2405,7 @@
         "index": {
           "description": "Precomposition with pure function right-to-left variant",
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "(\u003c\u003c^) \u003c\u003c^",
           "normalized": "a b c-\u003e(d-\u003eb)-\u003ea d c",
@@ -2281,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostcomposition with a pure function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "(\u003e\u003e^)",
           "package": "Yampa",
@@ -2290,6 +2431,7 @@
         "index": {
           "description": "Postcomposition with pure function",
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "(\u003e\u003e^) \u003e\u003e^",
           "normalized": "a b c-\u003e(c-\u003ed)-\u003ea b d",
@@ -2305,6 +2447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostcomposition with a pure function (right-to-left variant).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "(^\u003c\u003c)",
           "package": "Yampa",
@@ -2314,6 +2457,7 @@
         "index": {
           "description": "Postcomposition with pure function right-to-left variant",
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "(^\u003c\u003c) ^\u003c\u003c",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -2329,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecomposition with a pure function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "(^\u003e\u003e)",
           "package": "Yampa",
@@ -2338,6 +2483,7 @@
         "index": {
           "description": "Precomposition with pure function",
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "(^\u003e\u003e) ^\u003e\u003e",
           "normalized": "(a-\u003eb)-\u003ec b d-\u003ec a d",
@@ -2352,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "andThen",
           "package": "Yampa",
@@ -2361,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "andThen",
           "normalized": "SF a(Event b)-\u003eSF a(Event b)-\u003eSF a(Event b)",
@@ -2376,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "arr2",
           "package": "Yampa",
@@ -2385,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "arr2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed(a,b)c",
@@ -2399,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "arr3",
           "package": "Yampa",
@@ -2408,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "arr3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee(a,b,c)d",
@@ -2422,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "arr4",
           "package": "Yampa",
@@ -2431,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "arr4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ef(a,b,c,d)e",
@@ -2445,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "arr5",
           "package": "Yampa",
@@ -2454,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "arr5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eg(a,b,c,d,e)f",
@@ -2468,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "count",
           "package": "Yampa",
@@ -2477,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "count",
           "package": "Yampa",
@@ -2489,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "dTrackAndHold",
           "package": "Yampa",
@@ -2498,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "dTrackAndHold",
           "normalized": "a-\u003eSF(Maybe a)a",
@@ -2513,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "dpSwitchZ",
           "package": "Yampa",
@@ -2522,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "dpSwitchZ",
           "normalized": "[SF a b]-\u003eSF([a],[b])(Event c)-\u003e([SF a b]-\u003ec-\u003eSF[a][b])-\u003eSF[a][b]",
@@ -2537,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "drpSwitchZ",
           "package": "Yampa",
@@ -2546,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "drpSwitchZ",
           "normalized": "[SF a b]-\u003eSF([a],Event([SF a b]-\u003e[SF a b]))[b]",
@@ -2561,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "fby",
           "package": "Yampa",
@@ -2570,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "fby",
           "normalized": "a-\u003eSF b a-\u003eSF b a",
@@ -2584,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "impulseIntegral",
           "package": "Yampa",
@@ -2593,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "impulseIntegral",
           "normalized": "SF(a,Event a)a",
@@ -2608,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "lift0",
           "package": "Yampa",
@@ -2617,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "lift0",
           "normalized": "a-\u003eb c a",
@@ -2631,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "lift1",
           "package": "Yampa",
@@ -2640,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "lift1",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -2654,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "lift2",
           "package": "Yampa",
@@ -2663,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "lift2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed e a-\u003ed e b-\u003ed e c",
@@ -2677,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "lift3",
           "package": "Yampa",
@@ -2686,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "lift3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee f a-\u003ee f b-\u003ee f c-\u003ee f d",
@@ -2700,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "lift4",
           "package": "Yampa",
@@ -2709,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "lift4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ef g a-\u003ef g b-\u003ef g c-\u003ef g d-\u003ef g e",
@@ -2723,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "lift5",
           "package": "Yampa",
@@ -2732,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "lift5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eg h a-\u003eg h b-\u003eg h c-\u003eg h d-\u003eg h e-\u003eg h f",
@@ -2746,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "old_accumHold",
           "package": "Yampa",
@@ -2755,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "old_accumHold",
           "normalized": "a-\u003eSF(Event(a-\u003ea))a",
@@ -2770,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "old_accumHoldBy",
           "package": "Yampa",
@@ -2779,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "old_accumHoldBy",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSF(Event b)a",
@@ -2794,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "old_dAccumHold",
           "package": "Yampa",
@@ -2803,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "old_dAccumHold",
           "normalized": "a-\u003eSF(Event(a-\u003ea))a",
@@ -2818,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "old_dAccumHoldBy",
           "package": "Yampa",
@@ -2827,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "old_dAccumHoldBy",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSF(Event b)a",
@@ -2842,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "old_dHold",
           "package": "Yampa",
@@ -2851,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "old_dHold",
           "normalized": "a-\u003eSF(Event a)a",
@@ -2866,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "old_impulseIntegral",
           "package": "Yampa",
@@ -2875,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "old_impulseIntegral",
           "normalized": "SF(a,Event a)a",
@@ -2890,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "pSwitchZ",
           "package": "Yampa",
@@ -2899,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "pSwitchZ",
           "normalized": "[SF a b]-\u003eSF([a],[b])(Event c)-\u003e([SF a b]-\u003ec-\u003eSF[a][b])-\u003eSF[a][b]",
@@ -2914,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "parZ",
           "package": "Yampa",
@@ -2923,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "parZ",
           "normalized": "[SF a b]-\u003eSF[a][b]",
@@ -2937,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "provided",
           "package": "Yampa",
@@ -2946,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "provided",
           "normalized": "(a-\u003eBool)-\u003eSF a b-\u003eSF a b-\u003eSF a b",
@@ -2960,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "recur",
           "package": "Yampa",
@@ -2969,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "recur",
           "normalized": "SF a(Event b)-\u003eSF a(Event b)",
@@ -2983,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "rpSwitchZ",
           "package": "Yampa",
@@ -2992,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "rpSwitchZ",
           "normalized": "[SF a b]-\u003eSF([a],Event([SF a b]-\u003e[SF a b]))[b]",
@@ -3007,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "sample",
           "package": "Yampa",
@@ -3016,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "sample",
           "normalized": "Time-\u003eSF a(Event a)",
@@ -3030,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "sampleWindow",
           "package": "Yampa",
@@ -3039,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "sampleWindow",
           "normalized": "Int-\u003eTime-\u003eSF a(Event[a])",
@@ -3054,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "snap",
           "package": "Yampa",
@@ -3063,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "snap",
           "package": "Yampa",
@@ -3075,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Utilities",
           "name": "snapAfter",
           "package": "Yampa",
@@ -3084,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Utilities",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Utilities",
           "name": "snapAfter",
           "normalized": "Time-\u003eSF a(Event a)",
@@ -3100,6 +3310,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e2D vector abstraction (R^2).\n\u003c/p\u003e\u003cp\u003eToDo: Deriving Show, or provide dedicated show instance?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "Vector2",
           "package": "Yampa",
@@ -3109,6 +3320,7 @@
         "index": {
           "description": "vector abstraction ToDo Deriving Show or provide dedicated show instance",
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "Vector2",
           "package": "Yampa",
@@ -3122,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "Vector2",
           "package": "Yampa",
@@ -3130,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "Vector2",
           "package": "Yampa",
@@ -3143,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2",
           "package": "Yampa",
@@ -3152,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2",
           "normalized": "a-\u003ea-\u003eVector a",
@@ -3166,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Polar",
           "package": "Yampa",
@@ -3175,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Polar",
           "normalized": "a-\u003ea-\u003eVector a",
@@ -3190,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Rho",
           "package": "Yampa",
@@ -3199,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Rho",
           "normalized": "Vector a-\u003ea",
@@ -3214,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2RhoTheta",
           "package": "Yampa",
@@ -3223,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2RhoTheta",
           "normalized": "Vector a-\u003e(a,a)",
@@ -3238,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Rotate",
           "package": "Yampa",
@@ -3247,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Rotate",
           "normalized": "a-\u003eVector a-\u003eVector a",
@@ -3262,6 +3486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Theta",
           "package": "Yampa",
@@ -3271,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Theta",
           "normalized": "Vector a-\u003ea",
@@ -3286,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2X",
           "package": "Yampa",
@@ -3295,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2X",
           "normalized": "Vector a-\u003ea",
@@ -3309,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2XY",
           "package": "Yampa",
@@ -3318,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2XY",
           "normalized": "Vector a-\u003e(a,a)",
@@ -3333,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Y",
           "package": "Yampa",
@@ -3342,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector2",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector2",
           "name": "vector2Y",
           "normalized": "Vector a-\u003ea",
@@ -3357,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e3D vector abstraction (R^3).\n\u003c/p\u003e\u003cp\u003eToDo: Deriving Show, or provide dedicated show instance?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "Vector3",
           "package": "Yampa",
@@ -3366,6 +3599,7 @@
         "index": {
           "description": "vector abstraction ToDo Deriving Show or provide dedicated show instance",
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "Vector3",
           "package": "Yampa",
@@ -3379,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "Vector3",
           "package": "Yampa",
@@ -3387,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "Vector3",
           "package": "Yampa",
@@ -3400,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3",
           "package": "Yampa",
@@ -3409,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3",
           "normalized": "a-\u003ea-\u003ea-\u003eVector a",
@@ -3423,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Phi",
           "package": "Yampa",
@@ -3432,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Phi",
           "normalized": "Vector a-\u003ea",
@@ -3447,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Rho",
           "package": "Yampa",
@@ -3456,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Rho",
           "normalized": "Vector a-\u003ea",
@@ -3471,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3RhoThetaPhi",
           "package": "Yampa",
@@ -3480,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3RhoThetaPhi",
           "normalized": "Vector a-\u003e(a,a,a)",
@@ -3495,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Rotate",
           "package": "Yampa",
@@ -3504,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Rotate",
           "normalized": "a-\u003ea-\u003eVector a-\u003eVector a",
@@ -3519,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Spherical",
           "package": "Yampa",
@@ -3528,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Spherical",
           "normalized": "a-\u003ea-\u003ea-\u003eVector a",
@@ -3543,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Theta",
           "package": "Yampa",
@@ -3552,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Theta",
           "normalized": "Vector a-\u003ea",
@@ -3567,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3X",
           "package": "Yampa",
@@ -3576,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3X",
           "normalized": "Vector a-\u003ea",
@@ -3590,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3XYZ",
           "package": "Yampa",
@@ -3599,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3XYZ",
           "normalized": "Vector a-\u003e(a,a,a)",
@@ -3614,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Y",
           "package": "Yampa",
@@ -3623,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Y",
           "normalized": "Vector a-\u003ea",
@@ -3637,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Z",
           "package": "Yampa",
@@ -3646,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa Vector3",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.Vector3",
           "name": "vector3Z",
           "normalized": "Vector a-\u003ea",
@@ -3661,6 +3919,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVector space type relation and basic instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "VectorSpace",
           "package": "Yampa",
@@ -3670,6 +3929,7 @@
         "index": {
           "description": "Vector space type relation and basic instances",
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "VectorSpace",
           "package": "Yampa",
@@ -3683,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "VectorSpace",
           "package": "Yampa",
@@ -3691,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "VectorSpace",
           "package": "Yampa",
@@ -3704,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "(*^)",
           "package": "Yampa",
@@ -3713,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "(*^) *^",
           "normalized": "a-\u003eb-\u003eb",
@@ -3727,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "(^+^)",
           "package": "Yampa",
@@ -3736,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "(^+^) ^+^",
           "normalized": "a-\u003ea-\u003ea",
@@ -3750,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "(^-^)",
           "package": "Yampa",
@@ -3759,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "(^-^) ^-^",
           "normalized": "a-\u003ea-\u003ea",
@@ -3773,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "(^/)",
           "package": "Yampa",
@@ -3782,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "(^/) ^/",
           "normalized": "a-\u003eb-\u003ea",
@@ -3796,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "dot",
           "package": "Yampa",
@@ -3805,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "dot",
           "normalized": "a-\u003ea-\u003eb",
@@ -3819,6 +4091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "negateVector",
           "package": "Yampa",
@@ -3828,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "negateVector",
           "normalized": "a-\u003ea",
@@ -3843,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "norm",
           "package": "Yampa",
@@ -3852,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "norm",
           "normalized": "a-\u003eb",
@@ -3866,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "normalize",
           "package": "Yampa",
@@ -3875,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "normalize",
           "normalized": "a-\u003ea",
@@ -3889,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa.VectorSpace",
           "name": "zeroVector",
           "package": "Yampa",
@@ -3898,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa VectorSpace",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa.VectorSpace",
           "name": "zeroVector",
           "package": "Yampa",
@@ -3912,6 +4192,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNew version using GADTs.\n\u003c/p\u003e\u003cp\u003eToDo:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Specialize def. of repeatedly. Could have an impact on invaders.\n\u003c/li\u003e\u003cli\u003e New defs for accs using SFAcc\n\u003c/li\u003e\u003cli\u003e Make sure opt worked: e.g.\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e     repeatedly \u003e\u003e\u003e count \u003e\u003e\u003e arr (fmap sqr)\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e Introduce SFAccHld.\n\u003c/li\u003e\u003cli\u003e See if possible to unify AccHld wity Acc??? They are so close.\n\u003c/li\u003e\u003cli\u003e Introduce SScan. BUT KEEP IN MIND: Most if not all opts would\n   have been possible without GADTs???\n\u003c/li\u003e\u003cli\u003e Look into pairs. At least pairing of SScan ought to be interesting.\n\u003c/li\u003e\u003cli\u003e Would be nice if we could get rid of first & second with impunity\n   thanks to Id optimizations. That's a clear win, with or without\n   an explicit pair combinator.\n\u003c/li\u003e\u003cli\u003e delayEventCat is a bit complicated ...\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eRandom ideas:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e What if one used rules to optimize\n   - (arr :: SF a ()) to (constant ())\n   - (arr :: SF a a) to identity\n   But inspection of invader source code seem to indicate that\n   these are not very common cases at all.\n\u003c/li\u003e\u003cli\u003e It would be nice if it was possible to come up with opt. rules\n   that are invariant of how signal function expressions are\n   parenthesized. Right now, we have e.g.\n       arr f \u003e\u003e\u003e (constant c \u003e\u003e\u003e sf)\n   being optimized to\n       cpAuxA1 f (cpAuxC1 c sf)\n   whereas it clearly should be possible to optimize to just\n       cpAuxC1 c sf\n   What if we didn't use SF' but\n      SFComp :: \u003ca\u003etfun\u003c/a\u003e -\u003e SF' a b -\u003e SF' b c -\u003e SF' a c\n   ???\n\u003c/li\u003e\u003cli\u003e The transition function would still be optimized in (pretty much)\n   the current way, but it would still be possible to look \u003ca\u003einside\u003c/a\u003e\n   composed signal functions for lost optimization opts.\n   Seems to me this could be done without too much extra effort/no dupl.\n   work.\n   E.g. new cpAux, the general case:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n      cpAux sf1 sf2 = SFComp tf sf1 sf2\n          where\n              tf dt a = (cpAux sf1' sf2', c)\n                  where\n                      (sf1', b) = (sfTF' sf1) dt a\n                      (sf2', c) = (sfTF' sf2) dt b\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e The ONLY change was changing the constructor from SF' to SFComp and\n   adding sf1 and sf2 to the constructor app.!\n\u003c/li\u003e\u003cli\u003e An optimized case:\n     cpAuxC1 b sf1 sf2               = SFComp tf sf1 sf2\n   So cpAuxC1 gets an extra arg, and we change the constructor.\n   But how to exploit without writing 1000s of rules???\n   Maybe define predicates on SFComp to see if the first or second\n   sf are \u003ca\u003einteresting\u003c/a\u003e, and if so, make \u003ca\u003ereassociate\u003c/a\u003e and make a\n   recursive call? E.g. we're in the arr case, and the first sf is another\n   arr, so we'd like to combine the two.\n\u003c/li\u003e\u003cli\u003e It would also be intersting, then, to know when to STOP playing this\n   game, due to the overhead involved.\n\u003c/li\u003e\u003cli\u003e Why don't we have a \u003ca\u003eSWITCH\u003c/a\u003e constructor that indicates that the\n   structure will change, and thus that it is worthwile to keep\n   looking for opt. opportunities, whereas a plain \u003ca\u003eSF'\u003c/a\u003e would\n   indicate that things NEVER are going to change, and thus we can just\n   as well give up?\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "Yampa",
           "package": "Yampa",
@@ -3921,6 +4202,7 @@
         "index": {
           "description": "New version using GADTs ToDo Specialize def of repeatedly Could have an impact on invaders New defs for accs using SFAcc Make sure opt worked e.g repeatedly count arr fmap sqr Introduce SFAccHld See if possible to unify AccHld wity Acc They are so close Introduce SScan BUT KEEP IN MIND Most if not all opts would have been possible without GADTs Look into pairs At least pairing of SScan ought to be interesting Would be nice if we could get rid of first second with impunity thanks to Id optimizations That clear win with or without an explicit pair combinator delayEventCat is bit complicated Random ideas What if one used rules to optimize arr SF to constant arr SF to identity But inspection of invader source code seem to indicate that these are not very common cases at all It would be nice if it was possible to come up with opt rules that are invariant of how signal function expressions are parenthesized Right now we have e.g arr constant sf being optimized to cpAuxA1 cpAuxC1 sf whereas it clearly should be possible to optimize to just cpAuxC1 sf What if we didn use SF but SFComp tfun SF SF SF The transition function would still be optimized in pretty much the current way but it would still be possible to look inside composed signal functions for lost optimization opts Seems to me this could be done without too much extra effort no dupl work E.g new cpAux the general case cpAux sf1 sf2 SFComp tf sf1 sf2 where tf dt cpAux sf1 sf2 where sf1 sfTF sf1 dt sf2 sfTF sf2 dt The ONLY change was changing the constructor from SF to SFComp and adding sf1 and sf2 to the constructor app An optimized case cpAuxC1 sf1 sf2 SFComp tf sf1 sf2 So cpAuxC1 gets an extra arg and we change the constructor But how to exploit without writing of rules Maybe define predicates on SFComp to see if the first or second sf are interesting and if so make reassociate and make recursive call E.g we re in the arr case and the first sf is another arr so we like to combine the two It would also be intersting then to know when to STOP playing this game due to the overhead involved Why don we have SWITCH constructor that indicates that the structure will change and thus that it is worthwile to keep looking for opt opportunities whereas plain SF would indicate that things NEVER are going to change and thus we can just as well give up",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "Yampa",
           "package": "Yampa",
@@ -3934,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "DTime",
           "package": "Yampa",
@@ -3942,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "DTime",
           "package": "Yampa",
@@ -3955,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "Event",
           "package": "Yampa",
@@ -3963,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "Event",
           "package": "Yampa",
@@ -3977,6 +4263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith a source of random number supply in hand, the \u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e class allows the\nprogrammer to extract random values of a variety of types.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003erandomR\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erandom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "Random",
           "package": "Yampa",
@@ -3985,6 +4272,7 @@
         "index": {
           "description": "With source of random number supply in hand the Random class allows the programmer to extract random values of variety of types Minimal complete definition randomR and random",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "Random",
           "package": "Yampa",
@@ -3999,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e provides a common interface to random number\n generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "RandomGen",
           "package": "Yampa",
@@ -4007,6 +4296,7 @@
         "index": {
           "description": "The class RandomGen provides common interface to random number generators",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "RandomGen",
           "package": "Yampa",
@@ -4020,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "ReactHandle",
           "package": "Yampa",
@@ -4028,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "ReactHandle",
           "package": "Yampa",
@@ -4041,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "SF",
           "package": "Yampa",
@@ -4049,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "SF",
           "package": "Yampa",
@@ -4062,6 +4356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "Time",
           "package": "Yampa",
@@ -4070,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "Time",
           "package": "Yampa",
@@ -4083,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "(--\u003e)",
           "package": "Yampa",
@@ -4092,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "(--\u003e) --\u003e",
           "normalized": "a-\u003eSF b a-\u003eSF b a",
@@ -4106,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "(-=\u003e)",
           "package": "Yampa",
@@ -4115,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "(-=\u003e) -=\u003e",
           "normalized": "(a-\u003ea)-\u003eSF b a-\u003eSF b a",
@@ -4129,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "(\u003e--)",
           "package": "Yampa",
@@ -4138,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "(\u003e--) \u003e--",
           "normalized": "a-\u003eSF a b-\u003eSF a b",
@@ -4152,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "(\u003e=-)",
           "package": "Yampa",
@@ -4161,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "(\u003e=-) \u003e=-",
           "normalized": "(a-\u003ea)-\u003eSF a b-\u003eSF a b",
@@ -4175,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "accum",
           "package": "Yampa",
@@ -4184,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "accum",
           "normalized": "a-\u003eSF(Event(a-\u003ea))(Event a)",
@@ -4198,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "accumBy",
           "package": "Yampa",
@@ -4207,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "accumBy",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSF(Event b)(Event a)",
@@ -4222,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "accumFilter",
           "package": "Yampa",
@@ -4231,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "accumFilter",
           "normalized": "(a-\u003eb-\u003e(a,Maybe c))-\u003ea-\u003eSF(Event b)(Event c)",
@@ -4246,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "accumHold",
           "package": "Yampa",
@@ -4255,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "accumHold",
           "normalized": "a-\u003eSF(Event(a-\u003ea))a",
@@ -4270,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "accumHoldBy",
           "package": "Yampa",
@@ -4279,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "accumHoldBy",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSF(Event b)a",
@@ -4294,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "after",
           "package": "Yampa",
@@ -4303,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "after",
           "normalized": "Time-\u003ea-\u003eSF b(Event a)",
@@ -4317,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "afterEach",
           "package": "Yampa",
@@ -4326,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "afterEach",
           "normalized": "[(Time,a)]-\u003eSF b(Event a)",
@@ -4341,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "afterEachCat",
           "package": "Yampa",
@@ -4350,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "afterEachCat",
           "normalized": "[(Time,a)]-\u003eSF b(Event[a])",
@@ -4365,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "arrEPrim",
           "package": "Yampa",
@@ -4374,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "arrEPrim",
           "normalized": "(Event a-\u003eb)-\u003eSF(Event a)b",
@@ -4389,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "arrPrim",
           "package": "Yampa",
@@ -4398,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "arrPrim",
           "normalized": "(a-\u003eb)-\u003eSF a b",
@@ -4413,6 +4737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "constant",
           "package": "Yampa",
@@ -4422,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "constant",
           "normalized": "a-\u003eSF b a",
@@ -4436,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "dAccumHold",
           "package": "Yampa",
@@ -4445,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "dAccumHold",
           "normalized": "a-\u003eSF(Event(a-\u003ea))a",
@@ -4460,6 +4788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "dAccumHoldBy",
           "package": "Yampa",
@@ -4469,6 +4798,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "dAccumHoldBy",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSF(Event b)a",
@@ -4484,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "dHold",
           "package": "Yampa",
@@ -4493,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "dHold",
           "normalized": "a-\u003eSF(Event a)a",
@@ -4508,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "dSwitch",
           "package": "Yampa",
@@ -4517,6 +4850,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "dSwitch",
           "normalized": "SF a(b,Event c)-\u003e(c-\u003eSF a b)-\u003eSF a b",
@@ -4532,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "delay",
           "package": "Yampa",
@@ -4541,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "delay",
           "normalized": "Time-\u003ea-\u003eSF a a",
@@ -4555,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "delayEvent",
           "package": "Yampa",
@@ -4564,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "delayEvent",
           "normalized": "Time-\u003eSF(Event a)(Event a)",
@@ -4579,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "delayEventCat",
           "package": "Yampa",
@@ -4588,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "delayEventCat",
           "normalized": "Time-\u003eSF(Event a)(Event[a])",
@@ -4603,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "deltaEncode",
           "package": "Yampa",
@@ -4612,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "deltaEncode",
           "normalized": "DTime-\u003e[a]-\u003e(a,[(DTime,Maybe a)])",
@@ -4627,6 +4969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "deltaEncodeBy",
           "package": "Yampa",
@@ -4636,6 +4979,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "deltaEncodeBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eDTime-\u003e[a]-\u003e(a,[(DTime,Maybe a)])",
@@ -4651,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "derivative",
           "package": "Yampa",
@@ -4660,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "derivative",
           "package": "Yampa",
@@ -4672,6 +5018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "dkSwitch",
           "package": "Yampa",
@@ -4681,6 +5028,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "dkSwitch",
           "normalized": "SF a b-\u003eSF(a,b)(Event c)-\u003e(SF a b-\u003ec-\u003eSF a b)-\u003eSF a b",
@@ -4696,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "dpSwitch",
           "package": "Yampa",
@@ -4705,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "dpSwitch",
           "normalized": "(a b c-\u003ed e-\u003ed(f,e))-\u003ed(SF f g)-\u003eSF(c,d g)(Event h)-\u003e(d(SF f g)-\u003eh-\u003eSF c(d g))-\u003eSF c(d g)",
@@ -4720,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "dpSwitchB",
           "package": "Yampa",
@@ -4729,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "dpSwitchB",
           "normalized": "a(SF b c)-\u003eSF(b,a c)(Event d)-\u003e(a(SF b c)-\u003ed-\u003eSF b(a c))-\u003eSF b(a c)",
@@ -4744,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "drSwitch",
           "package": "Yampa",
@@ -4753,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "drSwitch",
           "normalized": "SF a b-\u003eSF(a,Event(SF a b))b",
@@ -4768,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "dropEvents",
           "package": "Yampa",
@@ -4777,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "dropEvents",
           "normalized": "Int-\u003eSF(Event a)(Event a)",
@@ -4792,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "drpSwitch",
           "package": "Yampa",
@@ -4801,6 +5158,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "drpSwitch",
           "normalized": "(a b c-\u003ed e-\u003ed(f,e))-\u003ed(SF f g)-\u003eSF(c,Event(d(SF f g)-\u003ed(SF f g)))(d g)",
@@ -4816,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "drpSwitchB",
           "package": "Yampa",
@@ -4825,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "drpSwitchB",
           "normalized": "a(SF b c)-\u003eSF(b,Event(a(SF b c)-\u003ea(SF b c)))(a c)",
@@ -4840,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "edge",
           "package": "Yampa",
@@ -4849,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "edge",
           "normalized": "SF Bool(Event())",
@@ -4863,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "edgeBy",
           "package": "Yampa",
@@ -4872,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "edgeBy",
           "normalized": "(a-\u003ea-\u003eMaybe b)-\u003ea-\u003eSF a(Event b)",
@@ -4887,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "edgeJust",
           "package": "Yampa",
@@ -4896,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "edgeJust",
           "package": "Yampa",
@@ -4909,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "edgeTag",
           "package": "Yampa",
@@ -4918,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "edgeTag",
           "normalized": "a-\u003eSF Bool(Event a)",
@@ -4933,6 +5301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "embed",
           "package": "Yampa",
@@ -4942,6 +5311,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "embed",
           "normalized": "SF a b-\u003e(a,[(DTime,Maybe a)])-\u003e[b]",
@@ -4956,6 +5326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "embedSynch",
           "package": "Yampa",
@@ -4965,6 +5336,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "embedSynch",
           "normalized": "SF a b-\u003e(a,[(DTime,Maybe a)])-\u003eSF Double b",
@@ -4981,6 +5353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e operation yields the range of values returned by\n the generator.\n\u003c/p\u003e\u003cp\u003eIt is required that:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If \u003ccode\u003e(a,b) = \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e, then \u003ccode\u003ea \u003c b\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e always returns a pair of defined \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe second condition ensures that \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e cannot examine its\n argument, and hence the value it returns can be determined only by the\n instance of \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e.  That in turn allows an implementation to make\n a single call to \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e to establish a generator's range, without\n being concerned that the generator returned by (say) \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e might have\n a different range to the generator passed to \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default definition spans the full range of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "genRange",
           "package": "Yampa",
@@ -4990,6 +5363,7 @@
         "index": {
           "description": "The genRange operation yields the range of values returned by the generator It is required that If genRange then genRange always returns pair of defined Int The second condition ensures that genRange cannot examine its argument and hence the value it returns can be determined only by the instance of RandomGen That in turn allows an implementation to make single call to genRange to establish generator range without being concerned that the generator returned by say next might have different range to the generator passed to next The default definition spans the full range of Int",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "genRange",
           "normalized": "a-\u003e(Int,Int)",
@@ -5005,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "hold",
           "package": "Yampa",
@@ -5014,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "hold",
           "normalized": "a-\u003eSF(Event a)a",
@@ -5028,6 +5404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "iEdge",
           "package": "Yampa",
@@ -5037,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "iEdge",
           "normalized": "Bool-\u003eSF Bool(Event())",
@@ -5052,6 +5430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "iPre",
           "package": "Yampa",
@@ -5061,6 +5440,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "iPre",
           "normalized": "a-\u003eSF a a",
@@ -5076,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "identity",
           "package": "Yampa",
@@ -5085,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "identity",
           "package": "Yampa",
@@ -5097,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "imIntegral",
           "package": "Yampa",
@@ -5106,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "imIntegral",
           "normalized": "a-\u003eSF a a",
@@ -5121,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "initially",
           "package": "Yampa",
@@ -5130,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "initially",
           "normalized": "a-\u003eSF a a",
@@ -5144,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "integral",
           "package": "Yampa",
@@ -5153,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "integral",
           "package": "Yampa",
@@ -5165,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "kSwitch",
           "package": "Yampa",
@@ -5174,6 +5563,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "kSwitch",
           "normalized": "SF a b-\u003eSF(a,b)(Event c)-\u003e(SF a b-\u003ec-\u003eSF a b)-\u003eSF a b",
@@ -5189,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "localTime",
           "package": "Yampa",
@@ -5198,6 +5589,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "localTime",
           "package": "Yampa",
@@ -5211,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "loopIntegral",
           "package": "Yampa",
@@ -5220,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "loopIntegral",
           "normalized": "SF(a,b)(c,b)-\u003eSF a c",
@@ -5235,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "loopPre",
           "package": "Yampa",
@@ -5244,6 +5639,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "loopPre",
           "normalized": "a-\u003eSF(b,a)(c,a)-\u003eSF b c",
@@ -5259,6 +5655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "never",
           "package": "Yampa",
@@ -5268,6 +5665,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "never",
           "package": "Yampa",
@@ -5281,6 +5679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e operation returns an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e that is uniformly distributed\n in the range returned by \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e (including both end points),\n and a new generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "next",
           "package": "Yampa",
@@ -5290,6 +5689,7 @@
         "index": {
           "description": "The next operation returns an Int that is uniformly distributed in the range returned by genRange including both end points and new generator",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "next",
           "normalized": "a-\u003e(Int,a)",
@@ -5304,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "noise",
           "package": "Yampa",
@@ -5313,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "noise",
           "normalized": "a-\u003eSF b c",
@@ -5327,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "noiseR",
           "package": "Yampa",
@@ -5336,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "noiseR",
           "normalized": "(a,a)-\u003eb-\u003eSF c a",
@@ -5350,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "notYet",
           "package": "Yampa",
@@ -5359,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "notYet",
           "package": "Yampa",
@@ -5372,6 +5778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "now",
           "package": "Yampa",
@@ -5381,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "now",
           "normalized": "a-\u003eSF b(Event a)",
@@ -5395,6 +5803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "occasionally",
           "package": "Yampa",
@@ -5404,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "occasionally",
           "normalized": "a-\u003eTime-\u003eb-\u003eSF c(Event b)",
@@ -5418,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "old_accum",
           "package": "Yampa",
@@ -5427,6 +5838,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "old_accum",
           "normalized": "a-\u003eSF(Event(a-\u003ea))(Event a)",
@@ -5441,6 +5853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "old_accumBy",
           "package": "Yampa",
@@ -5450,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "old_accumBy",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSF(Event b)(Event a)",
@@ -5465,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "old_accumFilter",
           "package": "Yampa",
@@ -5474,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "old_accumFilter",
           "normalized": "(a-\u003eb-\u003e(a,Maybe c))-\u003ea-\u003eSF(Event b)(Event c)",
@@ -5489,6 +5905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "old_hold",
           "package": "Yampa",
@@ -5498,6 +5915,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "old_hold",
           "normalized": "a-\u003eSF(Event a)a",
@@ -5512,6 +5930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "old_iPre",
           "package": "Yampa",
@@ -5521,6 +5940,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "old_iPre",
           "normalized": "a-\u003eSF a a",
@@ -5536,6 +5956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "old_pre",
           "package": "Yampa",
@@ -5545,6 +5966,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "old_pre",
           "package": "Yampa",
@@ -5557,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "once",
           "package": "Yampa",
@@ -5566,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "once",
           "package": "Yampa",
@@ -5578,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "pSwitch",
           "package": "Yampa",
@@ -5587,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "pSwitch",
           "normalized": "(a b c-\u003ed e-\u003ed(f,e))-\u003ed(SF f g)-\u003eSF(c,d g)(Event h)-\u003e(d(SF f g)-\u003eh-\u003eSF c(d g))-\u003eSF c(d g)",
@@ -5602,6 +6028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "pSwitchB",
           "package": "Yampa",
@@ -5611,6 +6038,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "pSwitchB",
           "normalized": "a(SF b c)-\u003eSF(b,a c)(Event d)-\u003e(a(SF b c)-\u003ed-\u003eSF b(a c))-\u003eSF b(a c)",
@@ -5626,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "par",
           "package": "Yampa",
@@ -5635,6 +6064,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "par",
           "normalized": "(a b c-\u003ed e-\u003ed(f,e))-\u003ed(SF f g)-\u003eSF c(d g)",
@@ -5649,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "parB",
           "package": "Yampa",
@@ -5658,6 +6089,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "parB",
           "normalized": "a(SF b c)-\u003eSF b(a c)",
@@ -5672,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "pre",
           "package": "Yampa",
@@ -5681,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "pre",
           "package": "Yampa",
@@ -5693,6 +6127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "rSwitch",
           "package": "Yampa",
@@ -5702,6 +6137,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "rSwitch",
           "normalized": "SF a b-\u003eSF(a,Event(SF a b))b",
@@ -5718,6 +6154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003erandomR\u003c/a\u003e\u003c/code\u003e, but using a default range determined by the type:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For bounded types (instances of \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e, such as \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e),\n   the range is normally the whole type.\n\u003c/li\u003e\u003cli\u003e For fractional types, the range is normally the semi-closed interval\n \u003ccode\u003e[0,1)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e For \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e, the range is (arbitrarily) the range of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "random",
           "package": "Yampa",
@@ -5727,6 +6164,7 @@
         "index": {
           "description": "The same as randomR but using default range determined by the type For bounded types instances of Bounded such as Char the range is normally the whole type For fractional types the range is normally the semi-closed interval For Integer the range is arbitrarily the range of Int",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "random",
           "normalized": "a-\u003e(b,a)",
@@ -5742,6 +6180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003erandom\u003c/a\u003e\u003c/code\u003e that uses the global random number generator\n (see \u003ca\u003eSystem.Random\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "randomIO",
           "package": "Yampa",
@@ -5751,6 +6190,7 @@
         "index": {
           "description": "variant of random that uses the global random number generator see System.Random",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "randomIO",
           "package": "Yampa",
@@ -5765,6 +6205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a range \u003cem\u003e(lo,hi)\u003c/em\u003e and a random number generator\n \u003cem\u003eg\u003c/em\u003e, and returns a random value uniformly distributed in the closed\n interval \u003cem\u003e[lo,hi]\u003c/em\u003e, together with a new generator. It is unspecified\n what happens if \u003cem\u003elo\u003ehi\u003c/em\u003e. For continuous types there is no requirement\n that the values \u003cem\u003elo\u003c/em\u003e and \u003cem\u003ehi\u003c/em\u003e are ever produced, but they may be,\n depending on the implementation and the interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "randomR",
           "package": "Yampa",
@@ -5774,6 +6215,7 @@
         "index": {
           "description": "Takes range lo hi and random number generator and returns random value uniformly distributed in the closed interval lo hi together with new generator It is unspecified what happens if lo hi For continuous types there is no requirement that the values lo and hi are ever produced but they may be depending on the implementation and the interval",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "randomR",
           "normalized": "(a,a)-\u003eb-\u003e(a,b)",
@@ -5789,6 +6231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003erandomR\u003c/a\u003e\u003c/code\u003e that uses the global random number generator\n (see \u003ca\u003eSystem.Random\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "randomRIO",
           "package": "Yampa",
@@ -5798,6 +6241,7 @@
         "index": {
           "description": "variant of randomR that uses the global random number generator see System.Random",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "randomRIO",
           "normalized": "(a,a)-\u003eIO a",
@@ -5814,6 +6258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlural variant of \u003ccode\u003e\u003ca\u003erandomR\u003c/a\u003e\u003c/code\u003e, producing an infinite list of\n random values instead of returning a new generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "randomRs",
           "package": "Yampa",
@@ -5823,6 +6268,7 @@
         "index": {
           "description": "Plural variant of randomR producing an infinite list of random values instead of returning new generator",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "randomRs",
           "normalized": "(a,a)-\u003eb-\u003e[a]",
@@ -5839,6 +6285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlural variant of \u003ccode\u003e\u003ca\u003erandom\u003c/a\u003e\u003c/code\u003e, producing an infinite list of\n random values instead of returning a new generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "randoms",
           "package": "Yampa",
@@ -5848,6 +6295,7 @@
         "index": {
           "description": "Plural variant of random producing an infinite list of random values instead of returning new generator",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "randoms",
           "normalized": "a-\u003e[b]",
@@ -5862,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "react",
           "package": "Yampa",
@@ -5871,6 +6320,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "react",
           "normalized": "ReactHandle a b-\u003e(DTime,Maybe a)-\u003eIO Bool",
@@ -5885,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "reactInit",
           "package": "Yampa",
@@ -5894,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "reactInit",
           "normalized": "IO a-\u003e(ReactHandle a b-\u003eBool-\u003eb-\u003eIO Bool)-\u003eSF a b-\u003eIO(ReactHandle a b)",
@@ -5909,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "reactimate",
           "package": "Yampa",
@@ -5918,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "reactimate",
           "normalized": "IO a-\u003e(Bool-\u003eIO(DTime,Maybe a))-\u003e(Bool-\u003eb-\u003eIO Bool)-\u003eSF a b-\u003eIO()",
@@ -5932,6 +6386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "repeatedly",
           "package": "Yampa",
@@ -5941,6 +6396,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "repeatedly",
           "normalized": "Time-\u003ea-\u003eSF b(Event a)",
@@ -5955,6 +6411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "rpSwitch",
           "package": "Yampa",
@@ -5964,6 +6421,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "rpSwitch",
           "normalized": "(a b c-\u003ed e-\u003ed(f,e))-\u003ed(SF f g)-\u003eSF(c,Event(d(SF f g)-\u003ed(SF f g)))(d g)",
@@ -5979,6 +6437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "rpSwitchB",
           "package": "Yampa",
@@ -5988,6 +6447,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "rpSwitchB",
           "normalized": "a(SF b c)-\u003eSF(b,Event(a(SF b c)-\u003ea(SF b c)))(a c)",
@@ -6004,6 +6464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e operation allows one to obtain two distinct random number\n generators. This is very useful in functional programs (for example, when\n passing a random number generator down to recursive calls), but very\n little work has been done on statistically robust implementations of\n \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e ([\u003ca\u003eSystem.Random\u003c/a\u003e, \u003ca\u003eSystem.Random\u003c/a\u003e]\n are the only examples we know of).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "split",
           "package": "Yampa",
@@ -6013,6 +6474,7 @@
         "index": {
           "description": "The split operation allows one to obtain two distinct random number generators This is very useful in functional programs for example when passing random number generator down to recursive calls but very little work has been done on statistically robust implementations of split System.Random System.Random are the only examples we know of",
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "split",
           "normalized": "a-\u003e(a,a)",
@@ -6027,6 +6489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "sscan",
           "package": "Yampa",
@@ -6036,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "sscan",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSF b a",
@@ -6050,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "sscanPrim",
           "package": "Yampa",
@@ -6059,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "sscanPrim",
           "normalized": "(a-\u003eb-\u003eMaybe(a,c))-\u003ea-\u003ec-\u003eSF b c",
@@ -6074,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "switch",
           "package": "Yampa",
@@ -6083,6 +6550,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "switch",
           "normalized": "SF a(b,Event c)-\u003e(c-\u003eSF a b)-\u003eSF a b",
@@ -6097,6 +6565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "takeEvents",
           "package": "Yampa",
@@ -6106,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "takeEvents",
           "normalized": "Int-\u003eSF(Event a)(Event a)",
@@ -6121,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "time",
           "package": "Yampa",
@@ -6130,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "time",
           "package": "Yampa",
@@ -6142,6 +6614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:54 UTC 2014",
           "module": "FRP.Yampa",
           "name": "trackAndHold",
           "package": "Yampa",
@@ -6151,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "FRP Yampa",
+          "indexed": "2014-03-11T17:05:54",
           "module": "FRP.Yampa",
           "name": "trackAndHold",
           "normalized": "a-\u003eSF(Maybe a)a",

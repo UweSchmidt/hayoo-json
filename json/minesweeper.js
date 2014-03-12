@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "minesweeper"
+        "phrase": "minesweeper",
+        "type": "phrase"
       },
       "type": "context"
     }

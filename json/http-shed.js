@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-shed"
+        "phrase": "http-shed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA trivial web server, original used in the cherry chess processor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Httpd",
           "package": "http-shed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "trivial web server original used in the cherry chess processor",
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "Httpd",
           "package": "http-shed",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Request",
           "package": "http-shed",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "Request",
           "package": "http-shed",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Response",
           "package": "http-shed",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "Response",
           "package": "http-shed",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Server",
           "package": "http-shed",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "Server",
           "package": "http-shed",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Request",
           "package": "http-shed",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "Request",
           "package": "http-shed",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Response",
           "package": "http-shed",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "Response",
           "package": "http-shed",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "initServer",
           "package": "http-shed",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "initServer",
           "normalized": "Int-\u003e(Request-\u003eIO Response)-\u003eIO Server",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes an escaped query, optionally starting with \u003ccode\u003e?\u003c/code\u003e, and returns an unescaped index-value list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "queryToArguments",
           "package": "http-shed",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Takes an escaped query optionally starting with and returns an unescaped index-value list",
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "queryToArguments",
           "normalized": "String-\u003e[(String,String)]",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "reqBody",
           "package": "http-shed",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "reqBody",
           "package": "http-shed",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "reqHeaders",
           "package": "http-shed",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "reqHeaders",
           "normalized": "[(String,String)]",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "reqMethod",
           "package": "http-shed",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "reqMethod",
           "package": "http-shed",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "reqURI",
           "package": "http-shed",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "reqURI",
           "package": "http-shed",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "resBody",
           "package": "http-shed",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "resBody",
           "package": "http-shed",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "resCode",
           "package": "http-shed",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "resCode",
           "package": "http-shed",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:59 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "resHeaders",
           "package": "http-shed",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:52:59",
           "module": "Network.Shed.Httpd",
           "name": "resHeaders",
           "normalized": "[(String,String)]",

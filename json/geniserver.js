@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "geniserver"
+        "phrase": "geniserver",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "Flag",
           "package": "geniserver",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "Flag",
           "package": "geniserver",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "HostFlg",
           "package": "geniserver",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "HostFlg",
           "package": "geniserver",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "OptSection",
           "package": "geniserver",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "OptSection",
           "package": "geniserver",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "PortFlg",
           "package": "geniserver",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "PortFlg",
           "package": "geniserver",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "ReqMaxSizeFlg",
           "package": "geniserver",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "ReqMaxSizeFlg",
           "package": "geniserver",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "HostFlg",
           "package": "geniserver",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "HostFlg",
           "package": "geniserver",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "PortFlg",
           "package": "geniserver",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "PortFlg",
           "package": "geniserver",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "ReqMaxSizeFlg",
           "package": "geniserver",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "ReqMaxSizeFlg",
           "package": "geniserver",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "defaultHost",
           "package": "geniserver",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "defaultHost",
           "package": "geniserver",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "defaultPort",
           "package": "geniserver",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "defaultPort",
           "package": "geniserver",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "defaultReqMaxSize",
           "package": "geniserver",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "defaultReqMaxSize",
           "package": "geniserver",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "optionsForRequest",
           "package": "geniserver",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "optionsForRequest",
           "normalized": "[OptDescr Flag]",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "optionsForServer",
           "package": "geniserver",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "optionsForServer",
           "normalized": "[OptDescr Flag]",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "serverOptions",
           "package": "geniserver",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "serverOptions",
           "normalized": "[OptDescr Flag]",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Flag",
           "name": "serverOptionsSections",
           "package": "geniserver",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Flag",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Flag",
           "name": "serverOptionsSections",
           "normalized": "[OptSection]",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Instruction",
           "name": "Instruction",
           "package": "geniserver",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Instruction",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Instruction",
           "name": "Instruction",
           "package": "geniserver",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Instruction",
           "name": "ServerInstruction",
           "package": "geniserver",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Instruction",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Instruction",
           "name": "ServerInstruction",
           "package": "geniserver",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Instruction",
           "name": "ServerInstruction",
           "package": "geniserver",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Instruction",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Instruction",
           "name": "ServerInstruction",
           "package": "geniserver",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Instruction",
           "name": "gParams",
           "package": "geniserver",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Instruction",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Instruction",
           "name": "gParams",
           "normalized": "[String]",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server.Instruction",
           "name": "gSemantics",
           "package": "geniserver",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server Instruction",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server.Instruction",
           "name": "gSemantics",
           "package": "geniserver",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "Server",
           "package": "geniserver",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "Server",
           "package": "geniserver",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "GenReq",
           "package": "geniserver",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "GenReq",
           "package": "geniserver",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "Dump",
           "package": "geniserver",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "Dump",
           "package": "geniserver",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "Normal",
           "package": "geniserver",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "Normal",
           "package": "geniserver",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "application",
           "package": "geniserver",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "application",
           "normalized": "Int-\u003eProgState-\u003eCustomSem a-\u003eSnap()",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "err",
           "package": "geniserver",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "err",
           "normalized": "Text-\u003eSnap()",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "handleRequest",
           "package": "geniserver",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "handleRequest",
           "normalized": "ProgState-\u003eCustomSem a-\u003eServerInstruction-\u003eIO(Either Text GeniResults)",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "initialise",
           "package": "geniserver",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "initialise",
           "normalized": "Params-\u003eIO ProgState",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "ok",
           "package": "geniserver",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "ok",
           "normalized": "GenReq-\u003eGeniResults-\u003eSnap()",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "parseInstruction",
           "package": "geniserver",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "parseInstruction",
           "normalized": "ByteString-\u003eEither String a",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "prettyEncode",
           "package": "geniserver",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "prettyEncode",
           "normalized": "a-\u003eText",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:23 UTC 2014",
           "module": "NLP.GenI.Server",
           "name": "showResults",
           "package": "geniserver",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Server",
+          "indexed": "2014-03-11T18:15:23",
           "module": "NLP.GenI.Server",
           "name": "showResults",
           "normalized": "[GeniResult]-\u003eText",

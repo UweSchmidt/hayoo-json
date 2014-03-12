@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unicode-names"
+        "phrase": "unicode-names",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:43 UTC 2014",
           "module": "Data.Char.Properties.Names",
           "name": "Names",
           "package": "unicode-names",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Names",
+          "indexed": "2014-03-11T20:29:43",
           "module": "Data.Char.Properties.Names",
           "name": "Names",
           "package": "unicode-names",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:43 UTC 2014",
           "module": "Data.Char.Properties.Names",
           "name": "getCharacterName",
           "package": "unicode-names",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Names",
+          "indexed": "2014-03-11T20:29:43",
           "module": "Data.Char.Properties.Names",
           "name": "getCharacterName",
           "normalized": "Char-\u003eString",

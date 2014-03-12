@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "waitfree"
+        "phrase": "waitfree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "Waitfree",
           "package": "waitfree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "Waitfree",
           "package": "waitfree",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean abreviation for \u003ccode\u003e\u003ca\u003eHCons\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": ":*:",
           "package": "waitfree",
@@ -49,6 +52,7 @@
         "index": {
           "description": "an abreviation for HCons",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": ":*:",
           "package": "waitfree",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach \u003ccode\u003e\u003ca\u003eThread\u003c/a\u003e\u003c/code\u003e type has \u003ccode\u003e\u003ca\u003eAbstractThreadId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "AbstractThreadId",
           "package": "waitfree",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Each Thread type has AbstractThreadId",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "AbstractThreadId",
           "package": "waitfree",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'HCons (K t e)' adds a remote computation in front of a \u003ccode\u003eIOerSequent\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "HCons",
           "package": "waitfree",
@@ -94,6 +101,7 @@
         "index": {
           "description": "HCons adds remote computation in front of IOerSequent",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "HCons",
           "package": "waitfree",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHNil\u003c/a\u003e\u003c/code\u003e is the empty \u003ccode\u003eIOerSequent\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "HNil",
           "package": "waitfree",
@@ -117,6 +126,7 @@
         "index": {
           "description": "HNil is the empty IOerSequent",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "HNil",
           "package": "waitfree",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type 'K t a' represents a remote computation returning \u003ccode\u003ea\u003c/code\u003e that is performed by a thread \u003ccode\u003e\u003ca\u003et\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "K",
           "package": "waitfree",
@@ -140,6 +151,7 @@
         "index": {
           "description": "value of type represents remote computation returning that is performed by thread",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "K",
           "package": "waitfree",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'SucT t' is a \u003ccode\u003e\u003ca\u003eThread\u003c/a\u003e\u003c/code\u003e if t is a \u003ccode\u003e\u003ca\u003eThread\u003c/a\u003e\u003c/code\u003e.  The name \u003ccode\u003e\u003ca\u003eSucT\u003c/a\u003e\u003c/code\u003e comes from the successor function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "SucT",
           "package": "waitfree",
@@ -162,6 +175,7 @@
         "index": {
           "description": "SucT is Thread if is Thread The name SucT comes from the successor function",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "SucT",
           "package": "waitfree",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract representation of a thread.  Threads are actually implemented using \u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "Thread",
           "package": "waitfree",
@@ -185,6 +200,7 @@
         "index": {
           "description": "An abstract representation of thread Threads are actually implemented using forkIO",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "Thread",
           "package": "waitfree",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThreadStatus shows whether a thread is finished or have to try executing another job.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "ThreadStatus",
           "package": "waitfree",
@@ -208,6 +225,7 @@
         "index": {
           "description": "ThreadStatus shows whether thread is finished or have to try executing another job",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "ThreadStatus",
           "package": "waitfree",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eZeroT\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eThread\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "ZeroT",
           "package": "waitfree",
@@ -231,6 +250,7 @@
         "index": {
           "description": "ZeroT is Thread",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "ZeroT",
           "package": "waitfree",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextend a IO hypersequent with another computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "(-*-)",
           "package": "waitfree",
@@ -255,6 +276,7 @@
         "index": {
           "description": "extend IO hypersequent with another computation",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "(-*-) -*-",
           "normalized": "(a-\u003eb-\u003eIO c)-\u003e(d-\u003eIO e)-\u003eHCons(K a b)d-\u003eIO(HCons(K a c)e)",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "Finished",
           "package": "waitfree",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "Finished",
           "package": "waitfree",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "TryAnotherJob",
           "package": "waitfree",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "TryAnotherJob",
           "package": "waitfree",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "atid",
           "package": "waitfree",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "atid",
           "normalized": "a-\u003eAbstractThreadId",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "choice",
           "package": "waitfree",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "choice",
           "normalized": "(K a b*(K a b*c))-\u003eIO(K a b*c)",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecomm\u003c/a\u003e\u003c/code\u003e stands for communication.  \u003ccode\u003e\u003ca\u003ecomm\u003c/a\u003e\u003c/code\u003e combines two hypersequents with a communicating component from each hypersequent.\n | 'comm hypersequent1 error1 hypersequent2 error2' where \u003ccode\u003eerror1\u003c/code\u003e and \u003ccode\u003eerror2\u003c/code\u003e specifies what to do in case of read failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "comm",
           "package": "waitfree",
@@ -370,6 +401,7 @@
         "index": {
           "description": "comm stands for communication comm combines two hypersequents with communicating component from each hypersequent comm hypersequent1 error1 hypersequent2 error2 where error1 and error2 specifies what to do in case of read failure",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "comm",
           "normalized": "IO(HCons(K a(b,c))d)-\u003e(a-\u003eb-\u003eIO ThreadStatus)-\u003eIO(HCons(K e(f,g))h)-\u003e(e-\u003ef-\u003eIO ThreadStatus)-\u003eIO(K a(b,g)*(K e(f,c)*i))",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "cycling",
           "package": "waitfree",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "cycling",
           "normalized": "IO a-\u003eIO(HCons b c)",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "exchange",
           "package": "waitfree",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "exchange",
           "normalized": "(K a b*(K c d*e))-\u003eIO(K c d*(K a b*e))",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e executes a \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e hypersequent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "execute",
           "package": "waitfree",
@@ -441,6 +478,7 @@
         "index": {
           "description": "execute executes IO hypersequent",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "execute",
           "normalized": "IO a-\u003eIO()",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "follows",
           "package": "waitfree",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "follows",
           "normalized": "IO a-\u003eIO b-\u003eIO c",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/code\u003e allows to look at the result of a remote computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "peek",
           "package": "waitfree",
@@ -489,6 +530,7 @@
         "index": {
           "description": "peek allows to look at the result of remote computation",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "peek",
           "normalized": "(a-\u003eJobStatus b-\u003eIO c)-\u003eK a b-\u003eIO c",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esingle\u003c/a\u003e\u003c/code\u003e creates a IO hypersequent consisting of a single remote computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "single",
           "package": "waitfree",
@@ -514,6 +557,7 @@
         "index": {
           "description": "single creates IO hypersequent consisting of single remote computation",
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "single",
           "normalized": "(a-\u003eIO b)-\u003eIO(K a b*HNil)",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:08 UTC 2014",
           "module": "Control.Concurrent.Waitfree",
           "name": "t",
           "package": "waitfree",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Waitfree",
+          "indexed": "2014-03-11T20:37:08",
           "module": "Control.Concurrent.Waitfree",
           "name": "t",
           "package": "waitfree",

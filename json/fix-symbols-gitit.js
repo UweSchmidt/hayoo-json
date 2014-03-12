@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fix-symbols-gitit"
+        "phrase": "fix-symbols-gitit",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lhs2TeX-hl"
+        "phrase": "lhs2TeX-hl",
+        "type": "phrase"
       },
       "type": "context"
     }

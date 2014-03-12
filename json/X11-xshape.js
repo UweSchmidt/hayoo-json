@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "X11-xshape"
+        "phrase": "X11-xshape",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "Xshape",
           "package": "X11-xshape",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "Xshape",
           "package": "X11-xshape",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeBounding",
           "package": "X11-xshape",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeBounding",
           "package": "X11-xshape",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeClip",
           "package": "X11-xshape",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeClip",
           "package": "X11-xshape",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeCombine",
           "package": "X11-xshape",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeCombine",
           "package": "X11-xshape",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeGetRectangles",
           "package": "X11-xshape",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeGetRectangles",
           "package": "X11-xshape",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeInput",
           "package": "X11-xshape",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeInput",
           "package": "X11-xshape",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeInputSelected",
           "package": "X11-xshape",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeInputSelected",
           "package": "X11-xshape",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeIntersect",
           "package": "X11-xshape",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeIntersect",
           "package": "X11-xshape",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeInvert",
           "package": "X11-xshape",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeInvert",
           "package": "X11-xshape",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeMask",
           "package": "X11-xshape",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeMask",
           "package": "X11-xshape",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeNotify",
           "package": "X11-xshape",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeNotify",
           "package": "X11-xshape",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeNotifyMask",
           "package": "X11-xshape",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeNotifyMask",
           "package": "X11-xshape",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeNumberEvents",
           "package": "X11-xshape",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeNumberEvents",
           "package": "X11-xshape",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeOffset",
           "package": "X11-xshape",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeOffset",
           "package": "X11-xshape",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeQueryExtents",
           "package": "X11-xshape",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeQueryExtents",
           "package": "X11-xshape",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeQueryVersion",
           "package": "X11-xshape",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeQueryVersion",
           "package": "X11-xshape",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeRectangles",
           "package": "X11-xshape",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeRectangles",
           "package": "X11-xshape",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeSelectInput",
           "package": "X11-xshape",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeSelectInput",
           "package": "X11-xshape",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeSet",
           "package": "X11-xshape",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeSet",
           "package": "X11-xshape",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeSubtract",
           "package": "X11-xshape",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeSubtract",
           "package": "X11-xshape",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "shapeUnion",
           "package": "X11-xshape",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "shapeUnion",
           "package": "X11-xshape",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeCombineMask",
           "package": "X11-xshape",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeCombineMask",
           "normalized": "Display-\u003eWindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003ePixmap-\u003eCInt-\u003eIO()",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeCombineRectangles",
           "package": "X11-xshape",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeCombineRectangles",
           "normalized": "Display-\u003eWindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003ePtr Rectangle-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeCombineRegion",
           "package": "X11-xshape",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeCombineRegion",
           "normalized": "Display-\u003eWindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003ePtr Region-\u003eCInt-\u003eIO()",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeCombineShape",
           "package": "X11-xshape",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeCombineShape",
           "normalized": "Display-\u003eWindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003eWindow-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeGetRectangles",
           "package": "X11-xshape",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeGetRectangles",
           "normalized": "Display-\u003eWindow-\u003eCInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO(Ptr Rectangle)",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeInputSelected",
           "package": "X11-xshape",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeInputSelected",
           "normalized": "Display-\u003eWindow-\u003eIO CUInt",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeOffsetShape",
           "package": "X11-xshape",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeOffsetShape",
           "normalized": "Display-\u003eWindow-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeQueryExtension",
           "package": "X11-xshape",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeQueryExtension",
           "normalized": "Display-\u003eIO(Maybe(CInt,CInt))",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeQueryExtents",
           "package": "X11-xshape",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeQueryExtents",
           "normalized": "Display-\u003eWindow-\u003eCInt-\u003eCInt-\u003eCUInt-\u003eCUInt-\u003eBool-\u003eCInt-\u003eCInt-\u003eCUInt-\u003eCUInt-\u003eIO()",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeQueryVersion",
           "package": "X11-xshape",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeQueryVersion",
           "normalized": "Display-\u003eIO(Maybe(CInt,CInt))",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:24 UTC 2014",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeSelectInput",
           "package": "X11-xshape",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xshape",
+          "indexed": "2014-03-11T17:05:24",
           "module": "Graphics.X11.Xshape",
           "name": "xshapeSelectInput",
           "normalized": "Display-\u003eWindow-\u003eCUInt-\u003eIO()",

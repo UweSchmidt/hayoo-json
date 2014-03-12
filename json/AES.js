@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AES"
+        "phrase": "AES",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive (in IO) AES operations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.IO",
           "name": "IO",
           "package": "AES",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Primitive in IO AES operations",
           "hierarchy": "Codec Crypto AES IO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.IO",
           "name": "IO",
           "package": "AES",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.IO",
           "name": "AESCtx",
           "package": "AES",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto AES IO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.IO",
           "name": "AESCtx",
           "package": "AES",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.IO",
           "name": "Direction",
           "package": "AES",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto AES IO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.IO",
           "name": "Direction",
           "package": "AES",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModes ECB and CBC can only handle full 16-byte frames. This means\n the length of every strict bytestring passed in must be a multiple\n of 16; when using lazy bytestrings, its \u003cem\u003ecomponent\u003c/em\u003e strict\n bytestrings must all satisfy this.\n\u003c/p\u003e\u003cp\u003eOther modes can handle bytestrings of any length. However,\n encrypting a bytestring of length 5 and then one of length 4 is not\n the same operation as encrypting a single bytestring of length 9;\n they are internally padded to a multiple of 16 bytes.\n\u003c/p\u003e\u003cp\u003eFor OFB and CTR, Encrypt and Decrypt are the same operation. For\n CTR, the IV is the initial value of the counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.IO",
           "name": "Mode",
           "package": "AES",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Modes ECB and CBC can only handle full byte frames This means the length of every strict bytestring passed in must be multiple of when using lazy bytestrings its component strict bytestrings must all satisfy this Other modes can handle bytestrings of any length However encrypting bytestring of length and then one of length is not the same operation as encrypting single bytestring of length they are internally padded to multiple of bytes For OFB and CTR Encrypt and Decrypt are the same operation For CTR the IV is the initial value of the counter",
           "hierarchy": "Codec Crypto AES IO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.IO",
           "name": "Mode",
           "package": "AES",
@@ -268,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrementally encrypt/decrypt bytestrings\n\u003c/p\u003e\u003cp\u003ecrypt is definitely not thread-safe. Don't even think about\n it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.IO",
           "name": "crypt",
           "package": "AES",
@@ -278,6 +287,7 @@
         "index": {
           "description": "Incrementally encrypt decrypt bytestrings crypt is definitely not thread-safe Don even think about it",
           "hierarchy": "Codec Crypto AES IO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.IO",
           "name": "crypt",
           "normalized": "AESCtx-\u003eByteString-\u003eIO ByteString",
@@ -293,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an encryption/decryption context for incremental\n encryption/decryption\n\u003c/p\u003e\u003cp\u003eYou may create an ECB context this way, in which case you may pass\n undefined for the IV\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.IO",
           "name": "newCtx",
           "package": "AES",
@@ -302,6 +313,7 @@
         "index": {
           "description": "Create an encryption decryption context for incremental encryption decryption You may create an ECB context this way in which case you may pass undefined for the IV",
           "hierarchy": "Codec Crypto AES IO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.IO",
           "name": "newCtx",
           "normalized": "Mode-\u003eByteString-\u003eByteString-\u003eDirection-\u003eIO AESCtx",
@@ -318,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a context for ECB, which doesn't need an IV\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.IO",
           "name": "newECBCtx",
           "package": "AES",
@@ -327,6 +340,7 @@
         "index": {
           "description": "Create context for ECB which doesn need an IV",
           "hierarchy": "Codec Crypto AES IO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.IO",
           "name": "newECBCtx",
           "normalized": "ByteString-\u003eDirection-\u003eIO AESCtx",
@@ -343,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn occasionally pure, monadic interface to AES\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "Monad",
           "package": "AES",
@@ -352,6 +367,7 @@
         "index": {
           "description": "An occasionally pure monadic interface to AES",
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "Monad",
           "package": "AES",
@@ -365,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "AES",
           "package": "AES",
@@ -373,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "AES",
           "package": "AES",
@@ -386,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "AEST",
           "package": "AES",
@@ -394,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "AEST",
           "package": "AES",
@@ -408,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of things that can be crypted\n\u003c/p\u003e\u003cp\u003eThe crypt function returns incremental results as well as\n appending them to the result bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "Cryptable",
           "package": "AES",
@@ -417,6 +438,7 @@
         "index": {
           "description": "class of things that can be crypted The crypt function returns incremental results as well as appending them to the result bytestring",
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "Cryptable",
           "package": "AES",
@@ -430,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "Direction",
           "package": "AES",
@@ -438,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "Direction",
           "package": "AES",
@@ -452,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModes ECB and CBC can only handle full 16-byte frames. This means\n the length of every strict bytestring passed in must be a multiple\n of 16; when using lazy bytestrings, its \u003cem\u003ecomponent\u003c/em\u003e strict\n bytestrings must all satisfy this.\n\u003c/p\u003e\u003cp\u003eOther modes can handle bytestrings of any length. However,\n encrypting a bytestring of length 5 and then one of length 4 is not\n the same operation as encrypting a single bytestring of length 9;\n they are internally padded to a multiple of 16 bytes.\n\u003c/p\u003e\u003cp\u003eFor OFB and CTR, Encrypt and Decrypt are the same operation. For\n CTR, the IV is the initial value of the counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "Mode",
           "package": "AES",
@@ -461,6 +486,7 @@
         "index": {
           "description": "Modes ECB and CBC can only handle full byte frames This means the length of every strict bytestring passed in must be multiple of when using lazy bytestrings its component strict bytestrings must all satisfy this Other modes can handle bytestrings of any length However encrypting bytestring of length and then one of length is not the same operation as encrypting single bytestring of length they are internally padded to multiple of bytes For OFB and CTR Encrypt and Decrypt are the same operation For CTR the IV is the initial value of the counter",
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "Mode",
           "package": "AES",
@@ -474,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "crypt",
           "package": "AES",
@@ -483,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "crypt",
           "normalized": "a-\u003eAES b a",
@@ -498,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an AES computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "runAES",
           "package": "AES",
@@ -507,6 +536,7 @@
         "index": {
           "description": "Run an AES computation",
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "runAES",
           "normalized": "Mode-\u003eByteString-\u003eByteString-\u003eDirection-\u003e(a b AES c d)-\u003e(d,ByteString)",
@@ -523,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an AES computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Monad",
           "name": "runAEST",
           "package": "AES",
@@ -532,6 +563,7 @@
         "index": {
           "description": "Run an AES computation",
           "hierarchy": "Codec Crypto AES Monad",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Monad",
           "name": "runAEST",
           "normalized": "Mode-\u003eByteString-\u003eByteString-\u003eDirection-\u003eAEST a b-\u003ea(b,ByteString)",
@@ -548,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a cryptographically secure PRNG based on\n AES, reading the seed from \u003cem\u003edev\u003c/em\u003erandom\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Random",
           "name": "Random",
           "package": "AES",
@@ -557,6 +590,7 @@
         "index": {
           "description": "This module provides cryptographically secure PRNG based on AES reading the seed from dev random",
           "hierarchy": "Codec Crypto AES Random",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Random",
           "name": "Random",
           "package": "AES",
@@ -571,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA random number generator that gets its input from prandBytes,\n ensuring purity by storing those bytes for later if you don't\n discard the generator.\n\u003c/p\u003e\u003cp\u003eUsing split on this generator isn't supported, but could be.\n\u003c/p\u003e\u003cp\u003ePlease note that if an asynchronous exception is caught while a\n random number is being generated, the generator will be wrecked\n forevermore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Random",
           "name": "AESGen",
           "package": "AES",
@@ -580,6 +615,7 @@
         "index": {
           "description": "random number generator that gets its input from prandBytes ensuring purity by storing those bytes for later if you don discard the generator Using split on this generator isn supported but could be Please note that if an asynchronous exception is caught while random number is being generated the generator will be wrecked forevermore",
           "hierarchy": "Codec Crypto AES Random",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Random",
           "name": "AESGen",
           "package": "AES",
@@ -593,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Random",
           "name": "newAESGen",
           "package": "AES",
@@ -602,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto AES Random",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Random",
           "name": "newAESGen",
           "package": "AES",
@@ -616,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCryptographic pseudorandomness from an AES cipher. This function\n is currently inefficient for non-multiple-of-16 sized bytestrings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Random",
           "name": "prandBytes",
           "package": "AES",
@@ -626,6 +665,7 @@
         "index": {
           "description": "Cryptographic pseudorandomness from an AES cipher This function is currently inefficient for non-multiple-of-16 sized bytestrings",
           "hierarchy": "Codec Crypto AES Random",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Random",
           "name": "prandBytes",
           "normalized": "Int-\u003eIO ByteString",
@@ -642,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomness from a system source of nonsense such as \u003cem\u003edev\u003c/em\u003erandom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES.Random",
           "name": "randBytes",
           "package": "AES",
@@ -652,6 +693,7 @@
         "index": {
           "description": "Randomness from system source of nonsense such as dev random",
           "hierarchy": "Codec Crypto AES Random",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES.Random",
           "name": "randBytes",
           "normalized": "Int-\u003eIO ByteString",
@@ -668,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure interface to AES\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES",
           "name": "AES",
           "package": "AES",
@@ -677,6 +720,7 @@
         "index": {
           "description": "pure interface to AES",
           "hierarchy": "Codec Crypto AES",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES",
           "name": "AES",
           "package": "AES",
@@ -690,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES",
           "name": "Direction",
           "package": "AES",
@@ -698,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto AES",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES",
           "name": "Direction",
           "package": "AES",
@@ -712,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModes ECB and CBC can only handle full 16-byte frames. This means\n the length of every strict bytestring passed in must be a multiple\n of 16; when using lazy bytestrings, its \u003cem\u003ecomponent\u003c/em\u003e strict\n bytestrings must all satisfy this.\n\u003c/p\u003e\u003cp\u003eOther modes can handle bytestrings of any length. However,\n encrypting a bytestring of length 5 and then one of length 4 is not\n the same operation as encrypting a single bytestring of length 9;\n they are internally padded to a multiple of 16 bytes.\n\u003c/p\u003e\u003cp\u003eFor OFB and CTR, Encrypt and Decrypt are the same operation. For\n CTR, the IV is the initial value of the counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES",
           "name": "Mode",
           "package": "AES",
@@ -721,6 +768,7 @@
         "index": {
           "description": "Modes ECB and CBC can only handle full byte frames This means the length of every strict bytestring passed in must be multiple of when using lazy bytestrings its component strict bytestrings must all satisfy this Other modes can handle bytestrings of any length However encrypting bytestring of length and then one of length is not the same operation as encrypting single bytestring of length they are internally padded to multiple of bytes For OFB and CTR Encrypt and Decrypt are the same operation For CTR the IV is the initial value of the counter",
           "hierarchy": "Codec Crypto AES",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES",
           "name": "Mode",
           "package": "AES",
@@ -735,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncryption/decryption for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES",
           "name": "crypt",
           "package": "AES",
@@ -744,6 +793,7 @@
         "index": {
           "description": "Encryption decryption for lazy bytestrings",
           "hierarchy": "Codec Crypto AES",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES",
           "name": "crypt",
           "normalized": "Mode-\u003eByteString-\u003eByteString-\u003eDirection-\u003eByteString-\u003eByteString",
@@ -759,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncryption/decryption for strict bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Codec.Crypto.AES",
           "name": "crypt'",
           "package": "AES",
@@ -768,6 +819,7 @@
         "index": {
           "description": "Encryption decryption for strict bytestrings",
           "hierarchy": "Codec Crypto AES",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Codec.Crypto.AES",
           "name": "crypt'",
           "normalized": "Mode-\u003eByteString-\u003eByteString-\u003eDirection-\u003eByteString-\u003eByteString",
@@ -783,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJust like MonadIO, but codifying \u003cem\u003eunsafe\u003c/em\u003e IO execution. Exists for safety.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Control.Monad.UnsafeIO",
           "name": "UnsafeIO",
           "package": "AES",
@@ -792,6 +845,7 @@
         "index": {
           "description": "Just like MonadIO but codifying unsafe IO execution Exists for safety",
           "hierarchy": "Control Monad UnsafeIO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Control.Monad.UnsafeIO",
           "name": "UnsafeIO",
           "package": "AES",
@@ -805,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Control.Monad.UnsafeIO",
           "name": "MonadUnsafeIO",
           "package": "AES",
@@ -813,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Control Monad UnsafeIO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Control.Monad.UnsafeIO",
           "name": "MonadUnsafeIO",
           "package": "AES",
@@ -826,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:26 UTC 2014",
           "module": "Control.Monad.UnsafeIO",
           "name": "liftUnsafeIO",
           "package": "AES",
@@ -835,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Control Monad UnsafeIO",
+          "indexed": "2014-03-11T16:32:26",
           "module": "Control.Monad.UnsafeIO",
           "name": "liftUnsafeIO",
           "normalized": "IO a-\u003eb a",

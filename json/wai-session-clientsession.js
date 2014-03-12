@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-session-clientsession"
+        "phrase": "wai-session-clientsession",
+        "type": "phrase"
       },
       "type": "context"
     }

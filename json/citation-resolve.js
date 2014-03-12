@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "citation-resolve"
+        "phrase": "citation-resolve",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "Internal",
           "package": "citation-resolve",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "Internal",
           "package": "citation-resolve",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data structure that carries the resolved references.  Since\n   the mapping \u003ccode\u003eReference -\u003e BibTeX\u003c/code\u003e is not the inverse of \n   \u003ccode\u003eBibTeX -\u003e Reference\u003c/code\u003e for the version \u003ccode\u003eciteproc-hs-0.3.8\u003c/code\u003e and loses some\n   information, we choose to store the original BibTeX string in the Database,\n  rather  than \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "Database",
           "package": "citation-resolve",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The data structure that carries the resolved references Since the mapping Reference BibTeX is not the inverse of BibTeX Reference for the version citeproc-hs-0.3.8 and loses some information we choose to store the original BibTeX string in the Database rather than Reference",
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "Database",
           "package": "citation-resolve",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lens for accessing the map within the Database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "HasDatabase",
           "package": "citation-resolve",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The lens for accessing the map within the Database",
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "HasDatabase",
           "package": "citation-resolve",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolver Monad is a function that converts a key of type \u003ccode\u003ea\u003c/code\u003e to some\n other type \u003ccode\u003eb\u003c/code\u003e, which may fail with an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "RM",
           "package": "citation-resolve",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Resolver Monad is function that converts key of type to some other type which may fail with an error message",
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "RM",
           "package": "citation-resolve",
@@ -154,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "database",
           "package": "citation-resolve",
@@ -163,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "database",
           "package": "citation-resolve",
@@ -175,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "databaseMap",
           "package": "citation-resolve",
@@ -184,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "databaseMap",
           "package": "citation-resolve",
@@ -198,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea safer way to get data file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "getDataFileName",
           "package": "citation-resolve",
@@ -208,6 +221,7 @@
         "index": {
           "description": "safer way to get data file name",
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "getDataFileName",
           "normalized": "String-\u003eIO String",
@@ -224,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform possibly failing IO within a monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "liftIOE",
           "package": "citation-resolve",
@@ -234,6 +249,7 @@
         "index": {
           "description": "Perform possibly failing IO within monad",
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "liftIOE",
           "normalized": "IO(Either a b)-\u003eEitherT a c b",
@@ -249,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveArXiv",
           "package": "citation-resolve",
@@ -258,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveArXiv",
           "package": "citation-resolve",
@@ -271,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveBibcode",
           "package": "citation-resolve",
@@ -280,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveBibcode",
           "package": "citation-resolve",
@@ -294,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a Bibtex entry that contains single reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveBibtex",
           "package": "citation-resolve",
@@ -304,6 +325,7 @@
         "index": {
           "description": "parse Bibtex entry that contains single reference",
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveBibtex",
           "normalized": "String-\u003eRM a String Reference",
@@ -320,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresolvers for specific document IDs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveDOI",
           "package": "citation-resolve",
@@ -330,6 +353,7 @@
         "index": {
           "description": "resolvers for specific document IDs",
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveDOI",
           "package": "citation-resolve",
@@ -370,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveISBN",
           "package": "citation-resolve",
@@ -379,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "resolveISBN",
           "package": "citation-resolve",
@@ -393,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString version of replace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "stringReplace",
           "package": "citation-resolve",
@@ -403,6 +430,7 @@
         "index": {
           "description": "String version of replace",
           "hierarchy": "Text CSL Input Identifier Internal",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier.Internal",
           "name": "stringReplace",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -446,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules provides a way to convert document identifiers, such\n  as DOIs, ISBNs, arXiv IDs to bibliographic references.\n\u003c/p\u003e\u003cp\u003eEach type of identifiers will be converted via internet services\n  to a bibliographic record of type \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e , which in\n  turn can be rendered in various format using \u003ccode\u003eciteproc-hs\u003c/code\u003e package\n  \u003ca\u003ehackage.haskell.org/package/citeproc-hs\u003c/a\u003e .\n\u003c/p\u003e\u003cp\u003eMoreover, the server responses are cached in a local database,\n  making the server load as little as possible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier",
           "name": "Identifier",
           "package": "citation-resolve",
@@ -455,6 +484,7 @@
         "index": {
           "description": "This modules provides way to convert document identifiers such as DOIs ISBNs arXiv IDs to bibliographic references Each type of identifiers will be converted via internet services to bibliographic record of type Reference which in turn can be rendered in various format using citeproc-hs package hackage.haskell.org package citeproc-hs Moreover the server responses are cached in local database making the server load as little as possible",
           "hierarchy": "Text CSL Input Identifier",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier",
           "name": "Identifier",
           "package": "citation-resolve",
@@ -469,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data structure that carries the resolved references.  Since\n   the mapping \u003ccode\u003eReference -\u003e BibTeX\u003c/code\u003e is not the inverse of \n   \u003ccode\u003eBibTeX -\u003e Reference\u003c/code\u003e for the version \u003ccode\u003eciteproc-hs-0.3.8\u003c/code\u003e and loses some\n   information, we choose to store the original BibTeX string in the Database,\n  rather  than \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier",
           "name": "Database",
           "package": "citation-resolve",
@@ -478,6 +509,7 @@
         "index": {
           "description": "The data structure that carries the resolved references Since the mapping Reference BibTeX is not the inverse of BibTeX Reference for the version citeproc-hs-0.3.8 and loses some information we choose to store the original BibTeX string in the Database rather than Reference",
           "hierarchy": "Text CSL Input Identifier",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier",
           "name": "Database",
           "package": "citation-resolve",
@@ -492,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lens for accessing the map within the Database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier",
           "name": "HasDatabase",
           "package": "citation-resolve",
@@ -501,6 +534,7 @@
         "index": {
           "description": "The lens for accessing the map within the Database",
           "hierarchy": "Text CSL Input Identifier",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier",
           "name": "HasDatabase",
           "package": "citation-resolve",
@@ -514,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier",
           "name": "database",
           "package": "citation-resolve",
@@ -523,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Identifier",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier",
           "name": "database",
           "package": "citation-resolve",
@@ -535,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier",
           "name": "databaseMap",
           "package": "citation-resolve",
@@ -544,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Identifier",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier",
           "name": "databaseMap",
           "package": "citation-resolve",
@@ -558,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve a document url to a \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e. returns an empty reference when someting fails.\n   prefix the document ID with one of \u003ca\u003earXiv:\u003c/a\u003e, \u003ca\u003edoi:\u003c/a\u003e, \u003ca\u003ebibcode:\u003c/a\u003e or \u003ca\u003eisbn:\u003c/a\u003e .\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo { ref \u003c- resolveDef \"arXiv:1204.4779\" ; putStrLn $ title ref }\n\u003c/code\u003e\u003c/strong\u003eParaiso: an automated tuning framework for explicit solvers of partial differential equations\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo { ref \u003c- resolveDef \"doi:10.1088/1749-4699/5/1/015003\" ; print $ author ref }\n\u003c/code\u003e\u003c/strong\u003e[Takayuki Muranushi]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo { ref \u003c- resolveDef \"bibcode:2012CS&D....5a5003M\" ; putStrLn $ containerTitle ref }\n\u003c/code\u003e\u003c/strong\u003eComputational Science and Discovery\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo { ref \u003c- resolveDef \"isbn:9784274068850\" ; putStrLn $ title ref }\n\u003c/code\u003e\u003c/strong\u003eSugoi hasukeru tanoshiku manab&#333;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier",
           "name": "resolve",
           "package": "citation-resolve",
@@ -568,6 +607,7 @@
         "index": {
           "description": "Resolve document url to Reference returns an empty reference when someting fails prefix the document ID with one of arXiv doi bibcode or isbn do ref resolveDef arXiv putStrLn title ref Paraiso an automated tuning framework for explicit solvers of partial differential equations do ref resolveDef doi print author ref Takayuki Muranushi do ref resolveDef bibcode CS D....5a5003M putStrLn containerTitle ref Computational Science and Discovery do ref resolveDef isbn putStrLn title ref Sugoi hasukeru tanoshiku manab",
           "hierarchy": "Text CSL Input Identifier",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier",
           "name": "resolve",
           "normalized": "String-\u003ea Reference",
@@ -583,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve the document id using the default database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier",
           "name": "resolveDef",
           "package": "citation-resolve",
@@ -593,6 +634,7 @@
         "index": {
           "description": "Resolve the document id using the default database",
           "hierarchy": "Text CSL Input Identifier",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier",
           "name": "resolveDef",
           "normalized": "String-\u003eIO Reference",
@@ -609,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the resolver database and generate the BibTeX item string for the document,\n   using the url as the citation-key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:01 UTC 2014",
           "module": "Text.CSL.Input.Identifier",
           "name": "toBibTeXItem",
           "package": "citation-resolve",
@@ -619,6 +662,7 @@
         "index": {
           "description": "Access the resolver database and generate the BibTeX item string for the document using the url as the citation-key",
           "hierarchy": "Text CSL Input Identifier",
+          "indexed": "2014-03-11T17:33:01",
           "module": "Text.CSL.Input.Identifier",
           "name": "toBibTeXItem",
           "normalized": "String-\u003ea Text",

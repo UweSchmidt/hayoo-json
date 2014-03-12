@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bktrees"
+        "phrase": "bktrees",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes the internal representation of Burkhard-Keller trees.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree.Internal",
           "name": "Internal",
           "package": "bktrees",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exposes the internal representation of Burkhard-Keller trees",
           "hierarchy": "Data Set BKTree Internal",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree.Internal",
           "name": "Internal",
           "package": "bktrees",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Burkhard-Keller trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree.Internal",
           "name": "BKTree",
           "package": "bktrees",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The type of Burkhard-Keller trees",
           "hierarchy": "Data Set BKTree Internal",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree.Internal",
           "name": "BKTree",
           "package": "bktrees",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree.Internal",
           "name": "Empty",
           "package": "bktrees",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Set BKTree Internal",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree.Internal",
           "name": "Empty",
           "package": "bktrees",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree.Internal",
           "name": "Node",
           "package": "bktrees",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Set BKTree Internal",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree.Internal",
           "name": "Node",
           "package": "bktrees",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBurkhard-Keller trees provide an implementation of sets which apart\n   from the ordinary operations also has an approximate member search,\n   allowing you to search for elements that are of a distance \u003ccode\u003en\u003c/code\u003e from\n   the element you are searching for. The distance is determined using\n   a metric on the type of elements. Therefore all elements must\n   implement the \u003ccode\u003e\u003ca\u003eMetric\u003c/a\u003e\u003c/code\u003e type class, rather than the more usual\n   \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUseful metrics include the manhattan distance between two points,\n   the Levenshtein edit distance between two strings, the number of\n   edges in the shortest path between two nodes in an undirected graph\n   and the Hamming distance between two binary strings. Any euclidean\n   space also has a metric. However, in this module we use int-valued\n   metrics and that's not compatible with the metrics of euclidean \n   spaces which are real-values.\n\u003c/p\u003e\u003cp\u003eThe worst case complexity of many of these operations is quite bad,\n   but the expected behavior varies greatly with the metric. For\n   example, the discrete metric (\u003ccode\u003edistance x y | y == x = 0 |\n   otherwise = 1\u003c/code\u003e) makes BK-trees behave abysmally. The metrics\n   mentioned above should give good performance characteristics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "BKTree",
           "package": "bktrees",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Burkhard-Keller trees provide an implementation of sets which apart from the ordinary operations also has an approximate member search allowing you to search for elements that are of distance from the element you are searching for The distance is determined using metric on the type of elements Therefore all elements must implement the Metric type class rather than the more usual Ord Useful metrics include the manhattan distance between two points the Levenshtein edit distance between two strings the number of edges in the shortest path between two nodes in an undirected graph and the Hamming distance between two binary strings Any euclidean space also has metric However in this module we use int-valued metrics and that not compatible with the metrics of euclidean spaces which are real-values The worst case complexity of many of these operations is quite bad but the expected behavior varies greatly with the metric For example the discrete metric distance otherwise makes BK-trees behave abysmally The metrics mentioned above should give good performance characteristics",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "BKTree",
           "package": "bktrees",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Burkhard-Keller trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "BKTree",
           "package": "bktrees",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The type of Burkhard-Keller trees",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "BKTree",
           "package": "bktrees",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type is \u003ccode\u003e\u003ca\u003eMetric\u003c/a\u003e\u003c/code\u003e if is has a function \u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e which has the following\n properties:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e x y \u003e= 0\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e x y == 0\u003c/code\u003e if and only if \u003ccode\u003ex == y\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e x y == \u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e y x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e x z \u003c= \u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e x y + \u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e y z\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAll types of elements to \u003ccode\u003e\u003ca\u003eBKTree\u003c/a\u003e\u003c/code\u003e must implement \u003ccode\u003e\u003ca\u003eMetric\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis definition of a metric deviates from the mathematical one in that it\n returns an integer instead of a real number. The reason for choosing \n integers is that I wanted to avoid the rather unpredictable rounding\n of floating point numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "Metric",
           "package": "bktrees",
@@ -164,6 +177,7 @@
         "index": {
           "description": "type is Metric if is has function distance which has the following properties distance distance if and only if distance distance distance distance distance All types of elements to BKTree must implement Metric This definition of metric deviates from the mathematical one in that it returns an integer instead of real number The reason for choosing integers is that wanted to avoid the rather unpredictable rounding of floating point numbers",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "Metric",
           "package": "bktrees",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eclosest\u003c/a\u003e\u003c/code\u003e a tree\u003c/code\u003e returns the element in \u003ccode\u003etree\u003c/code\u003e which is closest to\n   \u003ccode\u003ea\u003c/code\u003e together with the distance. Returns \u003ccode\u003eNothing\u003c/code\u003e if the tree is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "closest",
           "package": "bktrees",
@@ -188,6 +203,7 @@
         "index": {
           "description": "closest tree returns the element in tree which is closest to together with the distance Returns Nothing if the tree is empty",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "closest",
           "normalized": "a-\u003eBKTree a-\u003eMaybe(a,Int)",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves an element from the tree. If an element occurs several times in \n   the tree then only one occurrence will be deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "delete",
           "package": "bktrees",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Removes an element from the tree If an element occurs several times in the tree then only one occurrence will be deleted",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "delete",
           "normalized": "a-\u003eBKTree a-\u003eBKTree a",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "distance",
           "package": "bktrees",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "distance",
           "normalized": "a-\u003ea-\u003eInt",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all the elements of the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "elems",
           "package": "bktrees",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Returns all the elements of the tree",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "elems",
           "normalized": "BKTree a-\u003e[a]",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eelemsDistance\u003c/a\u003e\u003c/code\u003e n a tree\u003c/code\u003e returns all the elements in \u003ccode\u003etree\u003c/code\u003e which are \n   at a \u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e less than or equal to \u003ccode\u003en\u003c/code\u003e from the element \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "elemsDistance",
           "package": "bktrees",
@@ -286,6 +309,7 @@
         "index": {
           "description": "elemsDistance tree returns all the elements in tree which are at distance less than or equal to from the element",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "elemsDistance",
           "normalized": "Int-\u003ea-\u003eBKTree a-\u003e[a]",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "empty",
           "package": "bktrees",
@@ -312,6 +337,7 @@
         "index": {
           "description": "The empty tree",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "empty",
           "package": "bktrees",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a tree from a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "fromList",
           "package": "bktrees",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Constructs tree from list",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "fromList",
           "normalized": "[a]-\u003eBKTree a",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts an element into the tree. If an element is inserted several times\n   it will be stored several times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "insert",
           "package": "bktrees",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Inserts an element into the tree If an element is inserted several times it will be stored several times",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "insert",
           "normalized": "a-\u003eBKTree a-\u003eBKTree a",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether an element is in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "member",
           "package": "bktrees",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Checks whether an element is in the tree",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "member",
           "normalized": "a-\u003eBKTree a-\u003eBool",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate searching. \u003ccode\u003e\u003ccode\u003e\u003ca\u003ememberDistance\u003c/a\u003e\u003c/code\u003e n a tree\u003c/code\u003e will return true if\n   there is an element in \u003ccode\u003etree\u003c/code\u003e which has a \u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e less than or equal to\n   \u003ccode\u003en\u003c/code\u003e from \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "memberDistance",
           "package": "bktrees",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Approximate searching memberDistance tree will return true if there is an element in tree which has distance less than or equal to from",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "memberDistance",
           "normalized": "Int-\u003ea-\u003eBKTree a-\u003eBool",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the tree is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "null",
           "package": "bktrees",
@@ -437,6 +472,7 @@
         "index": {
           "description": "Test if the tree is empty",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "null",
           "normalized": "BKTree a-\u003eBool",
@@ -452,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tree with a single element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "singleton",
           "package": "bktrees",
@@ -462,6 +499,7 @@
         "index": {
           "description": "The tree with single element",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "singleton",
           "normalized": "a-\u003eBKTree a",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "size",
           "package": "bktrees",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Size of the tree",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "size",
           "normalized": "BKTree a-\u003eInt",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two trees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "union",
           "package": "bktrees",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Merges two trees",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "union",
           "normalized": "BKTree a-\u003eBKTree a-\u003eBKTree a",
@@ -527,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges several trees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:22 UTC 2014",
           "module": "Data.Set.BKTree",
           "name": "unions",
           "package": "bktrees",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Merges several trees",
           "hierarchy": "Data Set BKTree",
+          "indexed": "2014-03-11T17:23:22",
           "module": "Data.Set.BKTree",
           "name": "unions",
           "normalized": "[BKTree a]-\u003eBKTree a",

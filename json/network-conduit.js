@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-conduit"
+        "phrase": "network-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "Unix",
           "package": "network-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "Unix",
           "package": "network-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data passed to a Unix domain sockets \u003ccode\u003eApplication\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "AppData",
           "package": "network-conduit",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The data passed to Unix domain sockets Application Since",
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "AppData",
           "package": "network-conduit",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a Unix domain sockets client.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Settings for Unix domain sockets client Since",
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a Unix domain sockets server.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Settings for Unix domain sockets server Since",
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "AppData",
           "package": "network-conduit",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "AppData",
           "package": "network-conduit",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "appSink",
           "package": "network-conduit",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "appSink",
           "normalized": "Sink ByteString a()",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "appSource",
           "package": "network-conduit",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "appSource",
           "package": "network-conduit",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "clientPath",
           "package": "network-conduit",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "clientPath",
           "package": "network-conduit",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "serverAfterBind",
           "package": "network-conduit",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "serverAfterBind",
           "normalized": "Socket-\u003ea()",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "serverPath",
           "package": "network-conduit",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal.Unix",
           "name": "serverPath",
           "package": "network-conduit",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "Internal",
           "package": "network-conduit",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "Internal",
           "package": "network-conduit",
@@ -310,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data passed to an \u003ccode\u003eApplication\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "AppData",
           "package": "network-conduit",
@@ -319,6 +346,7 @@
         "index": {
           "description": "The data passed to an Application Since",
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "AppData",
           "package": "network-conduit",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a TCP client, specifying how to connect to the server.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -342,6 +371,7 @@
         "index": {
           "description": "Settings for TCP client specifying how to connect to the server Since",
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a TCP server. It takes a port to listen on, and an optional\n hostname to bind to.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -365,6 +396,7 @@
         "index": {
           "description": "Settings for TCP server It takes port to listen on and an optional hostname to bind to Since",
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "AppData",
           "package": "network-conduit",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "AppData",
           "package": "network-conduit",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "appLocalAddr",
           "package": "network-conduit",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "appLocalAddr",
           "package": "network-conduit",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "appSink",
           "package": "network-conduit",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "appSink",
           "normalized": "Sink ByteString a()",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "appSockAddr",
           "package": "network-conduit",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "appSockAddr",
           "package": "network-conduit",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "appSource",
           "package": "network-conduit",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "appSource",
           "package": "network-conduit",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "clientHost",
           "package": "network-conduit",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "clientHost",
           "package": "network-conduit",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "clientPort",
           "package": "network-conduit",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "clientPort",
           "package": "network-conduit",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "serverAfterBind",
           "package": "network-conduit",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "serverAfterBind",
           "normalized": "Socket-\u003ea()",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "serverHost",
           "package": "network-conduit",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "serverHost",
           "package": "network-conduit",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "serverNeedLocalAddr",
           "package": "network-conduit",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "serverNeedLocalAddr",
           "package": "network-conduit",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Internal",
           "name": "serverPort",
           "package": "network-conduit",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Internal",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Internal",
           "name": "serverPort",
           "package": "network-conduit",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "UDP",
           "package": "network-conduit",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "UDP",
           "package": "network-conduit",
@@ -690,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich host to bind.\n\u003c/p\u003e\u003cp\u003eNote: The \u003ccode\u003eIsString\u003c/code\u003e instance recognizes the following special values:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e*\u003c/code\u003e means \u003ccode\u003eHostAny\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e*4\u003c/code\u003e means \u003ccode\u003eHostIPv4\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e*6\u003c/code\u003e means \u003ccode\u003eHostIPv6\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "HostPreference",
           "package": "network-conduit",
@@ -699,6 +760,7 @@
         "index": {
           "description": "Which host to bind Note The IsString instance recognizes the following special values means HostAny means HostIPv4 means HostIPv6",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "HostPreference",
           "package": "network-conduit",
@@ -713,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a single message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "Message",
           "package": "network-conduit",
@@ -722,6 +785,7 @@
         "index": {
           "description": "Representation of single message",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "Message",
           "package": "network-conduit",
@@ -827,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "Message",
           "package": "network-conduit",
@@ -836,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "Message",
           "package": "network-conduit",
@@ -850,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to bind a listening \u003ccode\u003eSocket\u003c/code\u003e on the given host/port. If no host is\n given, will use the first address available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "bindPort",
           "package": "network-conduit",
@@ -860,6 +927,7 @@
         "index": {
           "description": "Attempt to bind listening Socket on the given host port If no host is given will use the first address available",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "bindPort",
           "normalized": "Int-\u003eHostPreference-\u003eIO Socket",
@@ -876,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to connect to the given host/port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "getSocket",
           "package": "network-conduit",
@@ -886,6 +955,7 @@
         "index": {
           "description": "Attempt to connect to the given host port",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "getSocket",
           "normalized": "String-\u003eInt-\u003eIO(Socket,AddrInfo)",
@@ -901,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "msgData",
           "package": "network-conduit",
@@ -910,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "msgData",
           "package": "network-conduit",
@@ -923,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "msgSender",
           "package": "network-conduit",
@@ -932,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "msgSender",
           "package": "network-conduit",
@@ -946,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream messages to the connected socket.\n\u003c/p\u003e\u003cp\u003eThe payload is sent using \u003ccode\u003esendAll\u003c/code\u003e, so it might end up in multiple packets.\n\u003c/p\u003e\u003cp\u003eThis function does \u003cem\u003enot\u003c/em\u003e automatically close the socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "sinkAllSocket",
           "package": "network-conduit",
@@ -956,6 +1031,7 @@
         "index": {
           "description": "Stream messages to the connected socket The payload is sent using sendAll so it might end up in multiple packets This function does not automatically close the socket",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "sinkAllSocket",
           "normalized": "Socket-\u003eConsumer ByteString a()",
@@ -972,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream messages to the socket.\n\u003c/p\u003e\u003cp\u003eEvery handled item contains the message payload and the destination\n address. The payload is sent using \u003ccode\u003esendAllTo\u003c/code\u003e, so it might end up in\n multiple packets.\n\u003c/p\u003e\u003cp\u003eThis function does \u003cem\u003enot\u003c/em\u003e automatically close the socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "sinkAllToSocket",
           "package": "network-conduit",
@@ -982,6 +1059,7 @@
         "index": {
           "description": "Stream messages to the socket Every handled item contains the message payload and the destination address The payload is sent using sendAllTo so it might end up in multiple packets This function does not automatically close the socket",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "sinkAllToSocket",
           "normalized": "Socket-\u003eConsumer Message a()",
@@ -998,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream messages to the connected socket.\n\u003c/p\u003e\u003cp\u003eThe payload is sent using \u003ccode\u003esend\u003c/code\u003e, so some of it might be lost.\n\u003c/p\u003e\u003cp\u003eThis function does \u003cem\u003enot\u003c/em\u003e automatically close the socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "sinkSocket",
           "package": "network-conduit",
@@ -1008,6 +1087,7 @@
         "index": {
           "description": "Stream messages to the connected socket The payload is sent using send so some of it might be lost This function does not automatically close the socket",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "sinkSocket",
           "normalized": "Socket-\u003eConsumer ByteString a()",
@@ -1024,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream messages to the socket.\n\u003c/p\u003e\u003cp\u003eEvery handled item contains the message payload and the destination\n address. The payload is sent using \u003ccode\u003esendTo\u003c/code\u003e, so some of it might be\n lost.\n\u003c/p\u003e\u003cp\u003eThis function does \u003cem\u003enot\u003c/em\u003e automatically close the socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "sinkToSocket",
           "package": "network-conduit",
@@ -1034,6 +1115,7 @@
         "index": {
           "description": "Stream messages to the socket Every handled item contains the message payload and the destination address The payload is sent using sendTo so some of it might be lost This function does not automatically close the socket",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "sinkToSocket",
           "normalized": "Socket-\u003eConsumer Message a()",
@@ -1050,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream messages from the socket.\n\u003c/p\u003e\u003cp\u003eThe given \u003ccode\u003elen\u003c/code\u003e defines the maximum packet size. Every produced item\n contains the message payload and the origin address.\n\u003c/p\u003e\u003cp\u003eThis function does \u003cem\u003enot\u003c/em\u003e automatically close the socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.UDP",
           "name": "sourceSocket",
           "package": "network-conduit",
@@ -1060,6 +1143,7 @@
         "index": {
           "description": "Stream messages from the socket The given len defines the maximum packet size Every produced item contains the message payload and the origin address This function does not automatically close the socket",
           "hierarchy": "Data Conduit Network UDP",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.UDP",
           "name": "sourceSocket",
           "normalized": "Socket-\u003eInt-\u003eProducer a Message",
@@ -1075,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "Unix",
           "package": "network-conduit",
@@ -1083,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "Unix",
           "package": "network-conduit",
@@ -1097,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data passed to a Unix domain sockets \u003ccode\u003eApplication\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "AppData",
           "package": "network-conduit",
@@ -1106,6 +1193,7 @@
         "index": {
           "description": "The data passed to Unix domain sockets Application Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "AppData",
           "package": "network-conduit",
@@ -1120,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple Unix domain sockets application.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "Application",
           "package": "network-conduit",
@@ -1129,6 +1218,7 @@
         "index": {
           "description": "simple Unix domain sockets application Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "Application",
           "package": "network-conduit",
@@ -1143,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a Unix domain sockets client.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -1152,6 +1243,7 @@
         "index": {
           "description": "Settings for Unix domain sockets client Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -1166,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a Unix domain sockets server.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -1175,6 +1268,7 @@
         "index": {
           "description": "Settings for Unix domain sockets server Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -1215,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "appSink",
           "package": "network-conduit",
@@ -1224,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "appSink",
           "normalized": "AppData a-\u003eSink ByteString a()",
@@ -1239,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "appSource",
           "package": "network-conduit",
@@ -1248,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "appSource",
           "normalized": "AppData a-\u003eSource a ByteString",
@@ -1264,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to bind a listening Unix domain socket at the given path.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "bindPath",
           "package": "network-conduit",
@@ -1274,6 +1373,7 @@
         "index": {
           "description": "Attempt to bind listening Unix domain socket at the given path Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "bindPath",
           "normalized": "FilePath-\u003eIO Socket",
@@ -1289,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "clientPath",
           "package": "network-conduit",
@@ -1298,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "clientPath",
           "normalized": "ClientSettings a-\u003eFilePath",
@@ -1314,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "clientSettings",
           "package": "network-conduit",
@@ -1323,6 +1426,7 @@
         "index": {
           "description": "Smart constructor Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "clientSettings",
           "normalized": "FilePath-\u003eClientSettings a",
@@ -1339,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to connect to the given Unix domain socket path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "getSocket",
           "package": "network-conduit",
@@ -1349,6 +1454,7 @@
         "index": {
           "description": "Attempt to connect to the given Unix domain socket path",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "getSocket",
           "normalized": "FilePath-\u003eIO Socket",
@@ -1365,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003eApplication\u003c/code\u003e by connecting to the specified server.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "runUnixClient",
           "package": "network-conduit",
@@ -1375,6 +1482,7 @@
         "index": {
           "description": "Run an Application by connecting to the specified server Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "runUnixClient",
           "normalized": "ClientSettings a-\u003eApplication a-\u003ea()",
@@ -1391,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003eApplication\u003c/code\u003e with the given settings. This function will create a\n new listening socket, accept connections on it, and spawn a new thread for\n each connection.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "runUnixServer",
           "package": "network-conduit",
@@ -1401,6 +1510,7 @@
         "index": {
           "description": "Run an Application with the given settings This function will create new listening socket accept connections on it and spawn new thread for each connection Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "runUnixServer",
           "normalized": "ServerSettings a-\u003eApplication a-\u003ea()",
@@ -1416,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "serverAfterBind",
           "package": "network-conduit",
@@ -1425,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "serverAfterBind",
           "normalized": "ServerSettings a-\u003eSocket-\u003ea()",
@@ -1440,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "serverPath",
           "package": "network-conduit",
@@ -1449,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "serverPath",
           "normalized": "ServerSettings a-\u003eFilePath",
@@ -1465,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network.Unix",
           "name": "serverSettings",
           "package": "network-conduit",
@@ -1474,6 +1589,7 @@
         "index": {
           "description": "Smart constructor Since",
           "hierarchy": "Data Conduit Network Unix",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network.Unix",
           "name": "serverSettings",
           "normalized": "FilePath-\u003eServerSettings a",
@@ -1543,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "Network",
           "package": "network-conduit",
@@ -1551,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "Network",
           "package": "network-conduit",
@@ -1565,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data passed to an \u003ccode\u003eApplication\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "AppData",
           "package": "network-conduit",
@@ -1574,6 +1693,7 @@
         "index": {
           "description": "The data passed to an Application Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "AppData",
           "package": "network-conduit",
@@ -1588,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple TCP application.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "Application",
           "package": "network-conduit",
@@ -1597,6 +1718,7 @@
         "index": {
           "description": "simple TCP application Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "Application",
           "package": "network-conduit",
@@ -1611,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a TCP client, specifying how to connect to the server.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -1620,6 +1743,7 @@
         "index": {
           "description": "Settings for TCP client specifying how to connect to the server Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "ClientSettings",
           "package": "network-conduit",
@@ -1633,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "ConnectionHandle",
           "package": "network-conduit",
@@ -1641,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "ConnectionHandle",
           "package": "network-conduit",
@@ -1655,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich host to bind.\n\u003c/p\u003e\u003cp\u003eNote: The \u003ccode\u003eIsString\u003c/code\u003e instance recognizes the following special values:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e*\u003c/code\u003e means \u003ccode\u003eHostAny\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e*4\u003c/code\u003e means \u003ccode\u003eHostIPv4\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e*6\u003c/code\u003e means \u003ccode\u003eHostIPv6\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "HostPreference",
           "package": "network-conduit",
@@ -1664,6 +1791,7 @@
         "index": {
           "description": "Which host to bind Note The IsString instance recognizes the following special values means HostAny means HostIPv4 means HostIPv6",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "HostPreference",
           "package": "network-conduit",
@@ -1678,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a TCP server. It takes a port to listen on, and an optional\n hostname to bind to.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -1687,6 +1816,7 @@
         "index": {
           "description": "Settings for TCP server It takes port to listen on and an optional hostname to bind to Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "ServerSettings",
           "package": "network-conduit",
@@ -1700,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "ConnectionHandle",
           "package": "network-conduit",
@@ -1709,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "ConnectionHandle",
           "package": "network-conduit",
@@ -1722,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "appLocalAddr",
           "package": "network-conduit",
@@ -1731,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "appLocalAddr",
           "normalized": "AppData a-\u003eMaybe SockAddr",
@@ -1746,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "appSink",
           "package": "network-conduit",
@@ -1755,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "appSink",
           "normalized": "AppData a-\u003eSink ByteString a()",
@@ -1770,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "appSockAddr",
           "package": "network-conduit",
@@ -1779,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "appSockAddr",
           "normalized": "AppData a-\u003eSockAddr",
@@ -1794,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "appSource",
           "package": "network-conduit",
@@ -1803,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "appSource",
           "normalized": "AppData a-\u003eSource a ByteString",
@@ -1819,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to bind a listening \u003ccode\u003eSocket\u003c/code\u003e on the given host/port. If no host is\n given, will use the first address available.\n \u003ccode\u003emaxListenQueue\u003c/code\u003e is topically 128 which is too short for\n high performance servers. So, we specify 'max 2048 maxListenQueue' to\n the listen queue.\n\u003c/p\u003e\u003cp\u003eSince 0.3.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "bindPort",
           "package": "network-conduit",
@@ -1829,6 +1970,7 @@
         "index": {
           "description": "Attempt to bind listening Socket on the given host port If no host is given will use the first address available maxListenQueue is topically which is too short for high performance servers So we specify max maxListenQueue to the listen queue Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "bindPort",
           "normalized": "Int-\u003eHostPreference-\u003eIO Socket",
@@ -1844,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "clientHost",
           "package": "network-conduit",
@@ -1853,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "clientHost",
           "normalized": "ClientSettings a-\u003eByteString",
@@ -1868,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "clientPort",
           "package": "network-conduit",
@@ -1877,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "clientPort",
           "normalized": "ClientSettings a-\u003eInt",
@@ -1893,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "clientSettings",
           "package": "network-conduit",
@@ -1902,6 +2049,7 @@
         "index": {
           "description": "Smart constructor Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "clientSettings",
           "normalized": "Int-\u003eByteString-\u003eClientSettings a",
@@ -1917,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "getHandle",
           "package": "network-conduit",
@@ -1926,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "getHandle",
           "normalized": "Socket-\u003eSockAddr-\u003eMaybe SockAddr-\u003ea()",
@@ -1942,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to connect to the given host/port.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "getSocket",
           "package": "network-conduit",
@@ -1952,6 +2103,7 @@
         "index": {
           "description": "Attempt to connect to the given host port Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "getSocket",
           "normalized": "ByteString-\u003eInt-\u003eIO(Socket,SockAddr)",
@@ -1968,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003eApplication\u003c/code\u003e by connecting to the specified server.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "runTCPClient",
           "package": "network-conduit",
@@ -1978,6 +2131,7 @@
         "index": {
           "description": "Run an Application by connecting to the specified server Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "runTCPClient",
           "normalized": "ClientSettings a-\u003eApplication a-\u003ea()",
@@ -1994,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003eApplication\u003c/code\u003e with the given settings. This function will create a\n new listening socket, accept connections on it, and spawn a new thread for\n each connection.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "runTCPServer",
           "package": "network-conduit",
@@ -2004,6 +2159,7 @@
         "index": {
           "description": "Run an Application with the given settings This function will create new listening socket accept connections on it and spawn new thread for each connection Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "runTCPServer",
           "normalized": "ServerSettings a-\u003eApplication a-\u003ea()",
@@ -2019,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "runTCPServerWithHandle",
           "package": "network-conduit",
@@ -2028,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "runTCPServerWithHandle",
           "normalized": "ServerSettings a-\u003eConnectionHandle a-\u003ea()",
@@ -2043,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "serverAfterBind",
           "package": "network-conduit",
@@ -2052,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "serverAfterBind",
           "normalized": "ServerSettings a-\u003eSocket-\u003ea()",
@@ -2067,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "serverHost",
           "package": "network-conduit",
@@ -2076,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "serverHost",
           "normalized": "ServerSettings a-\u003eHostPreference",
@@ -2091,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "serverNeedLocalAddr",
           "package": "network-conduit",
@@ -2100,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "serverNeedLocalAddr",
           "normalized": "ServerSettings a-\u003eBool",
@@ -2115,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "serverPort",
           "package": "network-conduit",
@@ -2124,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "serverPort",
           "normalized": "ServerSettings a-\u003eInt",
@@ -2140,6 +2306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor.\n\u003c/p\u003e\u003cp\u003eSince 0.6.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:34 UTC 2014",
           "module": "Data.Conduit.Network",
           "name": "serverSettings",
           "package": "network-conduit",
@@ -2149,6 +2316,7 @@
         "index": {
           "description": "Smart constructor Since",
           "hierarchy": "Data Conduit Network",
+          "indexed": "2014-03-11T19:27:34",
           "module": "Data.Conduit.Network",
           "name": "serverSettings",
           "normalized": "Int-\u003eHostPreference-\u003eServerSettings a",

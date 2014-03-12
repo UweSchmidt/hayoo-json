@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hydra-hs"
+        "phrase": "hydra-hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper for the Sixense SDK, based on the C SDK.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "Hydra",
           "package": "hydra-hs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "wrapper for the Sixense SDK based on the SDK",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "Hydra",
           "package": "hydra-hs",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "AllControllerData",
           "package": "hydra-hs",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "AllControllerData",
           "package": "hydra-hs",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "Button",
           "package": "hydra-hs",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "Button",
           "package": "hydra-hs",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "ControllerData",
           "package": "hydra-hs",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "ControllerData",
           "package": "hydra-hs",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "ControllerID",
           "package": "hydra-hs",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "ControllerID",
           "package": "hydra-hs",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "SixenseSuccess",
           "package": "hydra-hs",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "SixenseSuccess",
           "package": "hydra-hs",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "AllControllerData",
           "package": "hydra-hs",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "AllControllerData",
           "package": "hydra-hs",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "ControllerData",
           "package": "hydra-hs",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "ControllerData",
           "package": "hydra-hs",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "Failure",
           "package": "hydra-hs",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "Failure",
           "package": "hydra-hs",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "Success",
           "package": "hydra-hs",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "Success",
           "package": "hydra-hs",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShut down the Sixense library.\n This shuts down the Sixense library. After this function call, all Sixense API calls will return failure, until sixenseInit() is called again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "autoEnableHemisphereTracking",
           "package": "hydra-hs",
@@ -245,6 +266,7 @@
         "index": {
           "description": "Shut down the Sixense library This shuts down the Sixense library After this function call all Sixense API calls will return failure until sixenseInit is called again",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "autoEnableHemisphereTracking",
           "normalized": "ControllerID-\u003eIO SixenseSuccess",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "baseConnected",
           "package": "hydra-hs",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "baseConnected",
           "normalized": "ControllerID-\u003eIO Bool",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "button1",
           "package": "hydra-hs",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "button1",
           "package": "hydra-hs",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "button2",
           "package": "hydra-hs",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "button2",
           "package": "hydra-hs",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "button3",
           "package": "hydra-hs",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "button3",
           "package": "hydra-hs",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "button4",
           "package": "hydra-hs",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "button4",
           "package": "hydra-hs",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "buttonBumper",
           "package": "hydra-hs",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "buttonBumper",
           "package": "hydra-hs",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "buttonJoystick",
           "package": "hydra-hs",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "buttonJoystick",
           "package": "hydra-hs",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "buttonStart",
           "package": "hydra-hs",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "buttonStart",
           "package": "hydra-hs",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "buttons",
           "package": "hydra-hs",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "buttons",
           "package": "hydra-hs",
@@ -456,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the referenced controller is currently connected to the Control Unit.\n This call is used to determine whether or not a given controller is powered on and connected to the system. The argument is an index between 0 and the maximum number of supported controllers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "controllerEnabled",
           "package": "hydra-hs",
@@ -466,6 +507,7 @@
         "index": {
           "description": "Returns true if the referenced controller is currently connected to the Control Unit This call is used to determine whether or not given controller is powered on and connected to the system The argument is an index between and the maximum number of supported controllers",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "controllerEnabled",
           "normalized": "ControllerID-\u003eIO Bool",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "controllerIndex",
           "package": "hydra-hs",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "controllerIndex",
           "package": "hydra-hs",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "controllers",
           "package": "hydra-hs",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "controllers",
           "normalized": "[ControllerData]",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "enabled",
           "package": "hydra-hs",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "enabled",
           "package": "hydra-hs",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "firmwareRevision",
           "package": "hydra-hs",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "firmwareRevision",
           "package": "hydra-hs",
@@ -570,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet state of all of the controllers, selecting how far back into a history of the last 10 updates. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "getAllData",
           "package": "hydra-hs",
@@ -579,6 +630,7 @@
         "index": {
           "description": "Get state of all of the controllers selecting how far back into history of the last updates",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "getAllData",
           "normalized": "Int-\u003eIO(Maybe AllControllerData)",
@@ -595,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the most recent state of all of the controllers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "getAllNewestData",
           "package": "hydra-hs",
@@ -605,6 +658,7 @@
         "index": {
           "description": "Get the most recent state of all of the controllers",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "getAllNewestData",
           "package": "hydra-hs",
@@ -619,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet state of one of the controllers, selecting how far back into a history of the last 10 updates. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "getData",
           "package": "hydra-hs",
@@ -628,6 +683,7 @@
         "index": {
           "description": "Get state of one of the controllers selecting how far back into history of the last updates",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "getData",
           "normalized": "ControllerID-\u003eInt-\u003eIO(Maybe ControllerData)",
@@ -644,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the enable status of the internal position and orientation filtering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "getFilterEnabled",
           "package": "hydra-hs",
@@ -654,6 +711,7 @@
         "index": {
           "description": "Returns the enable status of the internal position and orientation filtering",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "getFilterEnabled",
           "package": "hydra-hs",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "getMaxControllers",
           "package": "hydra-hs",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "getMaxControllers",
           "package": "hydra-hs",
@@ -690,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the most recent state of one of the controllers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "getNewestData",
           "package": "hydra-hs",
@@ -700,6 +761,7 @@
         "index": {
           "description": "Get the most recent state of one of the controllers",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "getNewestData",
           "normalized": "ControllerID-\u003eIO(Maybe ControllerData)",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "hardwareRevision",
           "package": "hydra-hs",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "hardwareRevision",
           "package": "hydra-hs",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "hemiTrackingEnabled",
           "package": "hydra-hs",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "hemiTrackingEnabled",
           "package": "hydra-hs",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "historySize",
           "package": "hydra-hs",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "historySize",
           "package": "hydra-hs",
@@ -781,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "isDocked",
           "package": "hydra-hs",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "isDocked",
           "package": "hydra-hs",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "joystickX",
           "package": "hydra-hs",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "joystickX",
           "package": "hydra-hs",
@@ -824,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "joystickY",
           "package": "hydra-hs",
@@ -833,6 +906,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "joystickY",
           "package": "hydra-hs",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "magneticFrequency",
           "package": "hydra-hs",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "magneticFrequency",
           "package": "hydra-hs",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "maxBases",
           "package": "hydra-hs",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "maxBases",
           "package": "hydra-hs",
@@ -889,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "numActiveControllers",
           "package": "hydra-hs",
@@ -898,6 +977,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "numActiveControllers",
           "package": "hydra-hs",
@@ -911,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "packetType",
           "package": "hydra-hs",
@@ -920,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "packetType",
           "package": "hydra-hs",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "pos",
           "package": "hydra-hs",
@@ -942,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "pos",
           "package": "hydra-hs",
@@ -954,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "rotMat",
           "package": "hydra-hs",
@@ -963,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "rotMat",
           "package": "hydra-hs",
@@ -976,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "rotQuat",
           "package": "hydra-hs",
@@ -985,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "rotQuat",
           "package": "hydra-hs",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "sequenceNumber",
           "package": "hydra-hs",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "sequenceNumber",
           "package": "hydra-hs",
@@ -1020,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "setActiveBase",
           "package": "hydra-hs",
@@ -1029,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "setActiveBase",
           "normalized": "Int-\u003eIO SixenseSuccess",
@@ -1045,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the internal position and orientation filtering on or off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "setFilterEnabled",
           "package": "hydra-hs",
@@ -1055,6 +1148,7 @@
         "index": {
           "description": "Turn the internal position and orientation filtering on or off",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "setFilterEnabled",
           "normalized": "Bool-\u003eIO SixenseSuccess",
@@ -1071,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShut down the Sixense library.\n This shuts down the Sixense library. After this function call, all Sixense API calls will return failure, until sixenseInit() is called again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "sixenseExit",
           "package": "hydra-hs",
@@ -1081,6 +1176,7 @@
         "index": {
           "description": "Shut down the Sixense library This shuts down the Sixense library After this function call all Sixense API calls will return failure until sixenseInit is called again",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "sixenseExit",
           "package": "hydra-hs",
@@ -1095,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the Sixense library.\n This function initializes the Sixense library. It must be called at least one time per application. Subsequent calls will have no effect. Once initialized, the other Sixense function calls will work as described until sixenseExit() is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "sixenseInit",
           "package": "hydra-hs",
@@ -1105,6 +1202,7 @@
         "index": {
           "description": "Initialize the Sixense library This function initializes the Sixense library It must be called at least one time per application Subsequent calls will have no effect Once initialized the other Sixense function calls will work as described until sixenseExit is called",
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "sixenseInit",
           "package": "hydra-hs",
@@ -1118,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "trigger",
           "package": "hydra-hs",
@@ -1127,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "trigger",
           "package": "hydra-hs",
@@ -1139,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:02 UTC 2014",
           "module": "System.Hardware.Hydra",
           "name": "whichHand",
           "package": "hydra-hs",
@@ -1148,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Hydra",
+          "indexed": "2014-03-11T18:55:02",
           "module": "System.Hardware.Hydra",
           "name": "whichHand",
           "package": "hydra-hs",

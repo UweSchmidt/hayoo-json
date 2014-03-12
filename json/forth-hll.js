@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "forth-hll"
+        "phrase": "forth-hll",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "AST",
           "package": "forth-hll",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "AST",
           "package": "forth-hll",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "AST",
           "package": "forth-hll",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "AST",
           "package": "forth-hll",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Expr",
           "package": "forth-hll",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Expr",
           "package": "forth-hll",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Forth",
           "package": "forth-hll",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Forth",
           "package": "forth-hll",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Operator",
           "package": "forth-hll",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Operator",
           "package": "forth-hll",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "UOperator",
           "package": "forth-hll",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "UOperator",
           "package": "forth-hll",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(!)",
           "package": "forth-hll",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(!) !",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(/=)",
           "package": "forth-hll",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(/=) /=",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(\u003c)",
           "package": "forth-hll",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(\u003c) \u003c",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(\u003c=)",
           "package": "forth-hll",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(\u003c=) \u003c=",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(==)",
           "package": "forth-hll",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(==) ==",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(=:)",
           "package": "forth-hll",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(=:) =:",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(\u003e)",
           "package": "forth-hll",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(\u003e) \u003e",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(\u003e=)",
           "package": "forth-hll",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(\u003e=) \u003e=",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(≠)",
           "package": "forth-hll",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(≠) ≠",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(≤)",
           "package": "forth-hll",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(≤) ≤",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(≥)",
           "package": "forth-hll",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "(≥) ≥",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Add",
           "package": "forth-hll",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Add",
           "package": "forth-hll",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Array",
           "package": "forth-hll",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Array",
           "normalized": "Array String[F Word]",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "ArrayRef",
           "package": "forth-hll",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "ArrayRef",
           "package": "forth-hll",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Eq",
           "package": "forth-hll",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Eq",
           "package": "forth-hll",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Fold",
           "package": "forth-hll",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Fold",
           "package": "forth-hll",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "For",
           "package": "forth-hll",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "For",
           "package": "forth-hll",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Forth",
           "package": "forth-hll",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Forth",
           "package": "forth-hll",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Get",
           "package": "forth-hll",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Get",
           "package": "forth-hll",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Gt",
           "package": "forth-hll",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Gt",
           "package": "forth-hll",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "GtE",
           "package": "forth-hll",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "GtE",
           "package": "forth-hll",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "If",
           "package": "forth-hll",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "If",
           "package": "forth-hll",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Lt",
           "package": "forth-hll",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Lt",
           "package": "forth-hll",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "LtE",
           "package": "forth-hll",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "LtE",
           "package": "forth-hll",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Map",
           "package": "forth-hll",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Map",
           "package": "forth-hll",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Mul",
           "package": "forth-hll",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Mul",
           "package": "forth-hll",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "NEq",
           "package": "forth-hll",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "NEq",
           "package": "forth-hll",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Neg",
           "package": "forth-hll",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Neg",
           "package": "forth-hll",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Nil",
           "package": "forth-hll",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Nil",
           "package": "forth-hll",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Not",
           "package": "forth-hll",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Not",
           "package": "forth-hll",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Num",
           "package": "forth-hll",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Num",
           "package": "forth-hll",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Op",
           "package": "forth-hll",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Op",
           "package": "forth-hll",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Set",
           "package": "forth-hll",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Set",
           "package": "forth-hll",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Sub",
           "package": "forth-hll",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "Sub",
           "package": "forth-hll",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "UOp",
           "package": "forth-hll",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "UOp",
           "package": "forth-hll",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "While",
           "package": "forth-hll",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "While",
           "package": "forth-hll",
@@ -949,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "array",
           "package": "forth-hll",
@@ -958,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "array",
           "normalized": "String-\u003e[F Word]-\u003eAST",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "fold",
           "package": "forth-hll",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "fold",
           "normalized": "AST-\u003eAST-\u003eAST-\u003eAST-\u003eAST",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "for",
           "package": "forth-hll",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "for",
           "normalized": "AST-\u003eAST-\u003eAST-\u003eAST",
@@ -1018,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "ifThenElse",
           "package": "forth-hll",
@@ -1027,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "ifThenElse",
           "normalized": "AST-\u003eAST-\u003eAST-\u003eAST",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "liftExpr",
           "package": "forth-hll",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "liftExpr",
           "normalized": "Expr-\u003eAST",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "map",
           "package": "forth-hll",
@@ -1075,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "map",
           "normalized": "AST-\u003eAST-\u003eAST-\u003eAST",
@@ -1089,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "nil",
           "package": "forth-hll",
@@ -1098,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "nil",
           "package": "forth-hll",
@@ -1110,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "not",
           "package": "forth-hll",
@@ -1119,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "not",
           "normalized": "AST-\u003eAST",
@@ -1133,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "op",
           "package": "forth-hll",
@@ -1142,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "op",
           "normalized": "Operator-\u003eAST-\u003eAST-\u003eAST",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "ref",
           "package": "forth-hll",
@@ -1165,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "ref",
           "normalized": "String-\u003eAST",
@@ -1179,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "val",
           "package": "forth-hll",
@@ -1188,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "val",
           "normalized": "AST-\u003eAST",
@@ -1202,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "while",
           "package": "forth-hll",
@@ -1211,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL AST",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.AST",
           "name": "while",
           "normalized": "AST-\u003eAST-\u003eAST",
@@ -1225,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "Compile",
           "package": "forth-hll",
@@ -1233,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "Compile",
           "package": "forth-hll",
@@ -1246,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "St",
           "package": "forth-hll",
@@ -1254,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "St",
           "package": "forth-hll",
@@ -1267,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "St",
           "package": "forth-hll",
@@ -1276,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "St",
           "package": "forth-hll",
@@ -1289,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "addArray",
           "package": "forth-hll",
@@ -1298,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "addArray",
           "normalized": "String-\u003e[F Word]-\u003eState St()",
@@ -1313,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "compile",
           "package": "forth-hll",
@@ -1322,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "compile",
           "normalized": "AST-\u003e(Program,[F Word])",
@@ -1336,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "counter",
           "package": "forth-hll",
@@ -1345,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "counter",
           "package": "forth-hll",
@@ -1357,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "nextName",
           "package": "forth-hll",
@@ -1366,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "nextName",
           "normalized": "St-\u003eSt",
@@ -1382,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a number into a constant instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "num",
           "package": "forth-hll",
@@ -1392,6 +1515,7 @@
         "index": {
           "description": "Wraps number into constant instruction",
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "num",
           "normalized": "F Word-\u003eInstruction",
@@ -1406,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "startData",
           "package": "forth-hll",
@@ -1415,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "startData",
           "normalized": "[F Word]",
@@ -1430,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "vars",
           "package": "forth-hll",
@@ -1439,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Compile",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Compile",
           "name": "vars",
           "normalized": "[(String,F Word)]",
@@ -1453,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "Example",
           "package": "forth-hll",
@@ -1461,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Example",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "Example",
           "package": "forth-hll",
@@ -1474,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "asBits",
           "package": "forth-hll",
@@ -1483,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Example",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "asBits",
           "normalized": "[F Word]",
@@ -1498,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "asNative",
           "package": "forth-hll",
@@ -1507,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Example",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "asNative",
           "package": "forth-hll",
@@ -1520,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "compiledToNative",
           "package": "forth-hll",
@@ -1529,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Example",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "compiledToNative",
           "normalized": "(Program,[F Word])-\u003eNativeProgram",
@@ -1544,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:37 UTC 2014",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "test",
           "package": "forth-hll",
@@ -1553,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Language ArrayForth HLL Example",
+          "indexed": "2014-03-11T18:11:37",
           "module": "Language.ArrayForth.HLL.Example",
           "name": "test",
           "package": "forth-hll",

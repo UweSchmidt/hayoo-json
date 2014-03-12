@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multipass"
+        "phrase": "multipass",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerant",
           "name": "Accelerant",
           "package": "multipass",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerant",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerant",
           "name": "Accelerant",
           "package": "multipass",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerant",
           "name": "Accelerant",
           "package": "multipass",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerant",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerant",
           "name": "Accelerant",
           "package": "multipass",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerant",
           "name": "largestPass",
           "package": "multipass",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerant",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerant",
           "name": "largestPass",
           "package": "multipass",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerant",
           "name": "meanPass",
           "package": "multipass",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerant",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerant",
           "name": "meanPass",
           "package": "multipass",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerant",
           "name": "midrangePass",
           "package": "multipass",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerant",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerant",
           "name": "midrangePass",
           "package": "multipass",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerant",
           "name": "smallestPass",
           "package": "multipass",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerant",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerant",
           "name": "smallestPass",
           "package": "multipass",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerant",
           "name": "totalPass",
           "package": "multipass",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerant",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerant",
           "name": "totalPass",
           "package": "multipass",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerated",
           "name": "Accelerated",
           "package": "multipass",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerated",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerated",
           "name": "Accelerated",
           "package": "multipass",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerated",
           "name": "Accelerated",
           "package": "multipass",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerated",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerated",
           "name": "Accelerated",
           "package": "multipass",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerated",
           "name": "largest",
           "package": "multipass",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerated",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerated",
           "name": "largest",
           "package": "multipass",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerated",
           "name": "mean",
           "package": "multipass",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerated",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerated",
           "name": "mean",
           "package": "multipass",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerated",
           "name": "midrange",
           "package": "multipass",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerated",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerated",
           "name": "midrange",
           "package": "multipass",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerated",
           "name": "smallest",
           "package": "multipass",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerated",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerated",
           "name": "smallest",
           "package": "multipass",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Accelerated",
           "name": "total",
           "package": "multipass",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Accelerated",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Accelerated",
           "name": "total",
           "package": "multipass",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Calc",
           "name": "Calc",
           "package": "multipass",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Calc",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Calc",
           "name": "Calc",
           "package": "multipass",
@@ -338,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Calc",
           "name": "Calc",
           "package": "multipass",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Calc",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Calc",
           "name": "Calc",
           "package": "multipass",
@@ -433,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Calculation",
           "name": "Calculation",
           "package": "multipass",
@@ -441,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Calculation",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Calculation",
           "name": "Calculation",
           "package": "multipass",
@@ -454,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Calculation",
           "name": "Calculation",
           "package": "multipass",
@@ -462,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Calculation",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Calculation",
           "name": "Calculation",
           "package": "multipass",
@@ -475,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Calculation",
           "name": "calc",
           "package": "multipass",
@@ -484,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Calculation",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Calculation",
           "name": "calc",
           "normalized": "a b c d-\u003eCalc b c d",
@@ -498,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Call",
           "name": "Call",
           "package": "multipass",
@@ -506,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Call",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Call",
           "name": "Call",
           "package": "multipass",
@@ -519,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Call",
           "name": "Call",
           "package": "multipass",
@@ -527,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Call",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Call",
           "name": "Call",
           "package": "multipass",
@@ -540,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Call",
           "name": "call",
           "package": "multipass",
@@ -549,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Call",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Call",
           "name": "call",
           "normalized": "a b c-\u003eb-\u003ec",
@@ -563,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Class",
           "name": "Class",
           "package": "multipass",
@@ -571,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Class",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Class",
           "name": "Class",
           "package": "multipass",
@@ -584,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Class",
           "name": "Passable",
           "package": "multipass",
@@ -592,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Class",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Class",
           "name": "Passable",
           "package": "multipass",
@@ -605,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Class",
           "name": "pass",
           "package": "multipass",
@@ -614,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Class",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Class",
           "name": "pass",
           "normalized": "a b c d-\u003ePass b c d",
@@ -628,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Env",
           "name": "Env",
           "package": "multipass",
@@ -636,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Env",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Env",
           "name": "Env",
           "package": "multipass",
@@ -649,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Env",
           "name": "Env",
           "package": "multipass",
@@ -657,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Env",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Env",
           "name": "Env",
           "package": "multipass",
@@ -670,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Env",
           "name": "cons",
           "package": "multipass",
@@ -679,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Env",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Env",
           "name": "cons",
           "normalized": "a-\u003eEnv b a-\u003eEnv b a",
@@ -693,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Env",
           "name": "empty",
           "package": "multipass",
@@ -702,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Env",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Env",
           "name": "empty",
           "package": "multipass",
@@ -714,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Env",
           "name": "insert",
           "package": "multipass",
@@ -723,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Env",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Env",
           "name": "insert",
           "normalized": "Thrist a b c-\u003ec-\u003eEnv a b-\u003eEnv a b",
@@ -737,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Env",
           "name": "lookup",
           "package": "multipass",
@@ -746,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Env",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Env",
           "name": "lookup",
           "normalized": "Thrist a b c-\u003eEnv a b-\u003eMaybe c",
@@ -760,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Eval.Naive",
           "name": "Naive",
           "package": "multipass",
@@ -768,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Eval Naive",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Eval.Naive",
           "name": "Naive",
           "package": "multipass",
@@ -781,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Eval.Naive",
           "name": "Naive",
           "package": "multipass",
@@ -789,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Eval Naive",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Eval.Naive",
           "name": "Naive",
           "package": "multipass",
@@ -826,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Eval.Naive",
           "name": "naive",
           "package": "multipass",
@@ -835,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Eval Naive",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Eval.Naive",
           "name": "naive",
           "normalized": "a b c-\u003eInt-\u003e[b]-\u003ec",
@@ -849,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Eval",
           "name": "Eval",
           "package": "multipass",
@@ -857,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Eval",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Eval",
           "name": "Eval",
           "package": "multipass",
@@ -870,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Eval",
           "name": "Eval",
           "package": "multipass",
@@ -878,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Eval",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Eval",
           "name": "Eval",
           "package": "multipass",
@@ -916,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a calculation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Eval",
           "name": "eval",
           "package": "multipass",
@@ -926,6 +999,7 @@
         "index": {
           "description": "Run calculation",
           "hierarchy": "Data Pass Eval",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Eval",
           "name": "eval",
           "normalized": "a b c-\u003eInt-\u003e[b]-\u003ec",
@@ -940,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Fun",
           "name": "Fun",
           "package": "multipass",
@@ -948,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Fun",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Fun",
           "name": "Fun",
           "package": "multipass",
@@ -961,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Fun",
           "name": "Fun",
           "package": "multipass",
@@ -969,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Fun",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Fun",
           "name": "Fun",
           "package": "multipass",
@@ -982,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Fun",
           "name": "Fun",
           "package": "multipass",
@@ -991,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Fun",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Fun",
           "name": "Fun",
           "package": "multipass",
@@ -1004,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Fun",
           "name": "unFun",
           "package": "multipass",
@@ -1013,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Fun",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Fun",
           "name": "unFun",
           "package": "multipass",
@@ -1026,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Key",
           "name": "Key",
           "package": "multipass",
@@ -1034,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Key",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Key",
           "name": "Key",
           "package": "multipass",
@@ -1047,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Key",
           "name": "Key",
           "package": "multipass",
@@ -1055,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Key",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Key",
           "name": "Key",
           "package": "multipass",
@@ -1068,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Key",
           "name": "Key",
           "package": "multipass",
@@ -1077,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Key",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Key",
           "name": "Key",
           "normalized": "Thrist a b c-\u003eKey a b",
@@ -1092,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L.By",
           "name": "By",
           "package": "multipass",
@@ -1100,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L By",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L.By",
           "name": "By",
           "package": "multipass",
@@ -1113,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L.By",
           "name": "By",
           "package": "multipass",
@@ -1121,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L By",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L.By",
           "name": "By",
           "package": "multipass",
@@ -1134,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L.By",
           "name": "by",
           "package": "multipass",
@@ -1143,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L By",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L.By",
           "name": "by",
           "normalized": "a b c-\u003eEstimator-\u003ea b c",
@@ -1157,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L.Estimator",
           "name": "Estimator",
           "package": "multipass",
@@ -1165,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L Estimator",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L.Estimator",
           "name": "Estimator",
           "package": "multipass",
@@ -1178,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L.Estimator",
           "name": "Estimate",
           "package": "multipass",
@@ -1186,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L Estimator",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L.Estimator",
           "name": "Estimate",
           "package": "multipass",
@@ -1200,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTechniques used to smooth the nearest values when calculating quantile functions. R2 is used by default, and the numbering convention follows the \n use in the R programming language, as far as it goes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L.Estimator",
           "name": "Estimator",
           "package": "multipass",
@@ -1209,6 +1308,7 @@
         "index": {
           "description": "Techniques used to smooth the nearest values when calculating quantile functions R2 is used by default and the numbering convention follows the use in the programming language as far as it goes",
           "hierarchy": "Data Pass L Estimator",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L.Estimator",
           "name": "Estimator",
           "package": "multipass",
@@ -1222,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L.Estimator",
           "name": "Estimate",
           "package": "multipass",
@@ -1231,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L Estimator",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L.Estimator",
           "name": "Estimate",
           "package": "multipass",
@@ -1509,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L.Estimator",
           "name": "estimateBy",
           "package": "multipass",
@@ -1518,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L Estimator",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L.Estimator",
           "name": "estimateBy",
           "normalized": "Estimator-\u003eRational-\u003eInt-\u003eEstimate a",
@@ -1533,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L",
           "name": "L",
           "package": "multipass",
@@ -1541,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L",
           "name": "L",
           "package": "multipass",
@@ -1554,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn L-Estimator represents a linear combination of order statistics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L",
           "name": "L",
           "package": "multipass",
@@ -1563,6 +1670,7 @@
         "index": {
           "description": "An L-Estimator represents linear combination of order statistics",
           "hierarchy": "Data Pass L",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L",
           "name": "L",
           "package": "multipass",
@@ -1894,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L",
           "name": "callL",
           "package": "multipass",
@@ -1903,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L",
           "name": "callL",
           "normalized": "L a b-\u003eInt-\u003eIntMap b",
@@ -1917,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L",
           "name": "eqL",
           "package": "multipass",
@@ -1926,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L",
           "name": "eqL",
           "normalized": "L a b-\u003ec a-\u003ec b",
@@ -1940,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L",
           "name": "getL",
           "package": "multipass",
@@ -1949,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L",
           "name": "getL",
           "package": "multipass",
@@ -1961,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L",
           "name": "ordL",
           "package": "multipass",
@@ -1970,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L",
           "name": "ordL",
           "normalized": "a)-\u003ea",
@@ -1984,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.L",
           "name": "selectM",
           "package": "multipass",
@@ -1993,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Data Pass L",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.L",
           "name": "selectM",
           "normalized": "IntMap a-\u003e[a]-\u003ea",
@@ -2007,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Ord",
           "package": "multipass",
@@ -2015,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Ord",
           "package": "multipass",
@@ -2028,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Max",
           "package": "multipass",
@@ -2036,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Max",
           "package": "multipass",
@@ -2049,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Min",
           "package": "multipass",
@@ -2057,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Min",
           "package": "multipass",
@@ -2070,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Max",
           "package": "multipass",
@@ -2079,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Max",
           "package": "multipass",
@@ -2092,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Min",
           "package": "multipass",
@@ -2101,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "Min",
           "package": "multipass",
@@ -2114,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "NoMax",
           "package": "multipass",
@@ -2123,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "NoMax",
           "package": "multipass",
@@ -2136,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "NoMin",
           "package": "multipass",
@@ -2145,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "NoMin",
           "package": "multipass",
@@ -2158,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "getMax",
           "package": "multipass",
@@ -2167,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "getMax",
           "normalized": "Max a-\u003ea",
@@ -2182,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Monoid.Ord",
           "name": "getMin",
           "package": "multipass",
@@ -2191,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Monoid Ord",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Monoid.Ord",
           "name": "getMin",
           "normalized": "Min a-\u003ea",
@@ -2206,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Named",
           "name": "Named",
           "package": "multipass",
@@ -2214,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Named",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Named",
           "name": "Named",
           "package": "multipass",
@@ -2227,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Named",
           "name": "Named",
           "package": "multipass",
@@ -2235,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Named",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Named",
           "name": "Named",
           "package": "multipass",
@@ -2248,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Named",
           "name": "equalFun",
           "package": "multipass",
@@ -2257,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Named",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Named",
           "name": "equalFun",
           "normalized": "a b c-\u003ea d e-\u003eBool",
@@ -2272,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Named",
           "name": "hashFunWithSalt",
           "package": "multipass",
@@ -2281,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Named",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Named",
           "name": "hashFunWithSalt",
           "normalized": "Int-\u003ea b c-\u003eInt",
@@ -2296,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Named",
           "name": "putFun",
           "package": "multipass",
@@ -2305,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Named",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Named",
           "name": "putFun",
           "normalized": "a b c-\u003ePut",
@@ -2320,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Named",
           "name": "showsFun",
           "package": "multipass",
@@ -2329,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Named",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Named",
           "name": "showsFun",
           "normalized": "Int-\u003ea b c-\u003eString-\u003eString",
@@ -2344,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Prep",
           "name": "Prep",
           "package": "multipass",
@@ -2352,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Prep",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Prep",
           "name": "Prep",
           "package": "multipass",
@@ -2365,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Prep",
           "name": "Prep",
           "package": "multipass",
@@ -2373,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Prep",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Prep",
           "name": "Prep",
           "package": "multipass",
@@ -2386,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Prep",
           "name": "prep",
           "package": "multipass",
@@ -2395,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Prep",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Prep",
           "name": "prep",
           "normalized": "a b c-\u003ed a c e-\u003ed a b e",
@@ -2409,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "Robust",
           "package": "multipass",
@@ -2417,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "Robust",
           "package": "multipass",
@@ -2431,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eembedding for L-estimators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "Robust",
           "package": "multipass",
@@ -2440,6 +2597,7 @@
         "index": {
           "description": "embedding for L-estimators",
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "Robust",
           "package": "multipass",
@@ -2475,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "idr",
           "package": "multipass",
@@ -2484,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "idr",
           "package": "multipass",
@@ -2521,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterquartile range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "iqr",
           "package": "multipass",
@@ -2531,6 +2692,7 @@
         "index": {
           "description": "interquartile range",
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "iqr",
           "package": "multipass",
@@ -2543,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "jackknifed",
           "package": "multipass",
@@ -2552,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "jackknifed",
           "normalized": "L a b-\u003ec a b",
@@ -2566,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "lscale",
           "package": "multipass",
@@ -2575,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "lscale",
           "package": "multipass",
@@ -2609,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "midhinge",
           "package": "multipass",
@@ -2618,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "midhinge",
           "package": "multipass",
@@ -2846,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "quantile",
           "package": "multipass",
@@ -2855,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "quantile",
           "normalized": "Rational-\u003ea b b",
@@ -2917,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "robust",
           "package": "multipass",
@@ -2926,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "robust",
           "normalized": "L a b-\u003ec a b",
@@ -3013,6 +3185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTukey's trimean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "trimean",
           "package": "multipass",
@@ -3023,6 +3196,7 @@
         "index": {
           "description": "Tukey trimean",
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "trimean",
           "package": "multipass",
@@ -3035,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "trimmed",
           "package": "multipass",
@@ -3044,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "trimmed",
           "normalized": "Rational-\u003eL a b-\u003ec a b",
@@ -3058,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Robust",
           "name": "winsorized",
           "package": "multipass",
@@ -3067,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Robust",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Robust",
           "name": "winsorized",
           "normalized": "Rational-\u003eL a b-\u003ec a b",
@@ -3081,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Step",
           "name": "Step",
           "package": "multipass",
@@ -3089,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Step",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Step",
           "name": "Step",
           "package": "multipass",
@@ -3102,6 +3282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Step",
           "name": "Step",
           "package": "multipass",
@@ -3110,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Step",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Step",
           "name": "Step",
           "package": "multipass",
@@ -3123,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Step",
           "name": "step",
           "package": "multipass",
@@ -3132,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Step",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Step",
           "name": "step",
           "normalized": "Pass a b c-\u003ed a b c",
@@ -3146,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Thrist",
           "name": "Thrist",
           "package": "multipass",
@@ -3154,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Thrist",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Thrist",
           "name": "Thrist",
           "package": "multipass",
@@ -3167,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Thrist",
           "name": "Thrist",
           "package": "multipass",
@@ -3175,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Thrist",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Thrist",
           "name": "Thrist",
           "package": "multipass",
@@ -3235,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Thrist",
           "name": "fromThrist",
           "package": "multipass",
@@ -3244,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Thrist",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Thrist",
           "name": "fromThrist",
           "normalized": "(a b c d b e-\u003ef)-\u003eThrist d g h-\u003e[f]",
@@ -3283,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Trans",
           "name": "Trans",
           "package": "multipass",
@@ -3291,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Trans",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Trans",
           "name": "Trans",
           "package": "multipass",
@@ -3304,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Trans",
           "name": "Trans",
           "package": "multipass",
@@ -3312,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Trans",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Trans",
           "name": "Trans",
           "package": "multipass",
@@ -3325,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Trans",
           "name": "trans",
           "package": "multipass",
@@ -3334,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Trans",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Trans",
           "name": "trans",
           "normalized": "a b c-\u003ed a b c",
@@ -3348,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Type",
           "name": "Type",
           "package": "multipass",
@@ -3356,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Type",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Type",
           "name": "Type",
           "package": "multipass",
@@ -3369,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Type",
           "name": "Pass",
           "package": "multipass",
@@ -3377,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Type",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Type",
           "name": "Pass",
           "package": "multipass",
@@ -3489,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass.Type",
           "name": "env",
           "package": "multipass",
@@ -3498,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Data Pass Type",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass.Type",
           "name": "env",
           "normalized": "Pass a b c-\u003eEnv a b",
@@ -3512,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Pass",
           "package": "multipass",
@@ -3520,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Pass",
           "package": "multipass",
@@ -3533,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Accelerant",
           "package": "multipass",
@@ -3541,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Accelerant",
           "package": "multipass",
@@ -3554,6 +3760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Accelerated",
           "package": "multipass",
@@ -3562,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Accelerated",
           "package": "multipass",
@@ -3575,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "By",
           "package": "multipass",
@@ -3583,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "By",
           "package": "multipass",
@@ -3596,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Calc",
           "package": "multipass",
@@ -3604,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Calc",
           "package": "multipass",
@@ -3617,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Calculation",
           "package": "multipass",
@@ -3625,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Calculation",
           "package": "multipass",
@@ -3638,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Call",
           "package": "multipass",
@@ -3646,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Call",
           "package": "multipass",
@@ -3660,6 +3876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTechniques used to smooth the nearest values when calculating quantile functions. R2 is used by default, and the numbering convention follows the \n use in the R programming language, as far as it goes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Estimator",
           "package": "multipass",
@@ -3669,6 +3886,7 @@
         "index": {
           "description": "Techniques used to smooth the nearest values when calculating quantile functions R2 is used by default and the numbering convention follows the use in the programming language as far as it goes",
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Estimator",
           "package": "multipass",
@@ -3682,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Eval",
           "package": "multipass",
@@ -3690,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Eval",
           "package": "multipass",
@@ -3704,6 +3924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn L-Estimator represents a linear combination of order statistics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "L",
           "package": "multipass",
@@ -3713,6 +3934,7 @@
         "index": {
           "description": "An L-Estimator represents linear combination of order statistics",
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "L",
           "package": "multipass",
@@ -3725,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Naive",
           "package": "multipass",
@@ -3733,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Naive",
           "package": "multipass",
@@ -3746,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Named",
           "package": "multipass",
@@ -3754,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Named",
           "package": "multipass",
@@ -3767,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Pass",
           "package": "multipass",
@@ -3775,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Pass",
           "package": "multipass",
@@ -3788,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Passable",
           "package": "multipass",
@@ -3796,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Passable",
           "package": "multipass",
@@ -3809,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Prep",
           "package": "multipass",
@@ -3817,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Prep",
           "package": "multipass",
@@ -3831,6 +4063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eembedding for L-estimators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Robust",
           "package": "multipass",
@@ -3840,6 +4073,7 @@
         "index": {
           "description": "embedding for L-estimators",
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Robust",
           "package": "multipass",
@@ -3853,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Step",
           "package": "multipass",
@@ -3861,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Step",
           "package": "multipass",
@@ -3874,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Thrist",
           "package": "multipass",
@@ -3882,6 +4119,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Thrist",
           "package": "multipass",
@@ -3895,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "Trans",
           "package": "multipass",
@@ -3903,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "Trans",
           "package": "multipass",
@@ -3916,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "by",
           "package": "multipass",
@@ -3925,6 +4166,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "by",
           "normalized": "a b c-\u003eEstimator-\u003ea b c",
@@ -3939,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "calc",
           "package": "multipass",
@@ -3948,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "calc",
           "normalized": "a b c d-\u003eCalc b c d",
@@ -3962,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "call",
           "package": "multipass",
@@ -3971,6 +4216,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "call",
           "normalized": "a b c-\u003eb-\u003ec",
@@ -3985,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "equalFun",
           "package": "multipass",
@@ -3994,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "equalFun",
           "normalized": "a b c-\u003ea d e-\u003eBool",
@@ -4010,6 +4258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a calculation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "eval",
           "package": "multipass",
@@ -4020,6 +4269,7 @@
         "index": {
           "description": "Run calculation",
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "eval",
           "normalized": "a b c-\u003eInt-\u003e[b]-\u003ec",
@@ -4034,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "hashFunWithSalt",
           "package": "multipass",
@@ -4043,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "hashFunWithSalt",
           "normalized": "Int-\u003ea b c-\u003eInt",
@@ -4058,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "idr",
           "package": "multipass",
@@ -4067,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "idr",
           "package": "multipass",
@@ -4080,6 +4334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterquartile range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "iqr",
           "package": "multipass",
@@ -4090,6 +4345,7 @@
         "index": {
           "description": "interquartile range",
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "iqr",
           "package": "multipass",
@@ -4102,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "jackknifed",
           "package": "multipass",
@@ -4111,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "jackknifed",
           "normalized": "L a b-\u003ec a b",
@@ -4125,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "largest",
           "package": "multipass",
@@ -4134,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "largest",
           "package": "multipass",
@@ -4146,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "largestPass",
           "package": "multipass",
@@ -4155,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "largestPass",
           "package": "multipass",
@@ -4168,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "lscale",
           "package": "multipass",
@@ -4177,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "lscale",
           "package": "multipass",
@@ -4189,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "mean",
           "package": "multipass",
@@ -4198,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "mean",
           "package": "multipass",
@@ -4210,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "meanPass",
           "package": "multipass",
@@ -4219,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "meanPass",
           "package": "multipass",
@@ -4232,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "midhinge",
           "package": "multipass",
@@ -4241,6 +4510,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "midhinge",
           "package": "multipass",
@@ -4253,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "midrange",
           "package": "multipass",
@@ -4262,6 +4533,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "midrange",
           "package": "multipass",
@@ -4274,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "midrangePass",
           "package": "multipass",
@@ -4283,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "midrangePass",
           "package": "multipass",
@@ -4296,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "naive",
           "package": "multipass",
@@ -4305,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "naive",
           "normalized": "a b c-\u003eInt-\u003e[b]-\u003ec",
@@ -4319,6 +4595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "pass",
           "package": "multipass",
@@ -4328,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "pass",
           "normalized": "a b c d-\u003ePass b c d",
@@ -4342,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "prep",
           "package": "multipass",
@@ -4351,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "prep",
           "normalized": "a b c-\u003ed a c e-\u003ed a b e",
@@ -4365,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "putFun",
           "package": "multipass",
@@ -4374,6 +4655,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "putFun",
           "normalized": "a b c-\u003ePut",
@@ -4389,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "quantile",
           "package": "multipass",
@@ -4398,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "quantile",
           "normalized": "Rational-\u003ea b b",
@@ -4412,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "robust",
           "package": "multipass",
@@ -4421,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "robust",
           "normalized": "L a b-\u003ec a b",
@@ -4435,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "showsFun",
           "package": "multipass",
@@ -4444,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "showsFun",
           "normalized": "Int-\u003ea b c-\u003eString-\u003eString",
@@ -4459,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "smallest",
           "package": "multipass",
@@ -4468,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "smallest",
           "package": "multipass",
@@ -4480,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "smallestPass",
           "package": "multipass",
@@ -4489,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "smallestPass",
           "package": "multipass",
@@ -4502,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "step",
           "package": "multipass",
@@ -4511,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "step",
           "normalized": "Pass a b c-\u003ed a b c",
@@ -4525,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "total",
           "package": "multipass",
@@ -4534,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "total",
           "package": "multipass",
@@ -4546,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "totalPass",
           "package": "multipass",
@@ -4555,6 +4852,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "totalPass",
           "package": "multipass",
@@ -4568,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "trans",
           "package": "multipass",
@@ -4577,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "trans",
           "normalized": "a b c-\u003ed a b c",
@@ -4592,6 +4892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTukey's trimean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "trimean",
           "package": "multipass",
@@ -4602,6 +4903,7 @@
         "index": {
           "description": "Tukey trimean",
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "trimean",
           "package": "multipass",
@@ -4614,6 +4916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "trimmed",
           "package": "multipass",
@@ -4623,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "trimmed",
           "normalized": "Rational-\u003eL a b-\u003ec a b",
@@ -4637,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:50 UTC 2014",
           "module": "Data.Pass",
           "name": "winsorized",
           "package": "multipass",
@@ -4646,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "Data Pass",
+          "indexed": "2014-03-11T19:23:50",
           "module": "Data.Pass",
           "name": "winsorized",
           "normalized": "Rational-\u003eL a b-\u003ec a b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-types"
+        "phrase": "xml-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types for representing XML.\n\u003c/p\u003e\u003cp\u003eThe idea is to have a full set of appropriate types, which various XML\n libraries can share. Instead of having equivalent-but-incompatible types\n for every binding, parser, or client, they all share the same types can\n can thus interoperate easily.\n\u003c/p\u003e\u003cp\u003eThis library contains complete types for most parts of an XML document,\n including the prologue, node tree, and doctype. Some basic combinators\n are included for common tasks, including traversing the node tree and\n filtering children.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Types",
           "package": "xml-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Basic types for representing XML The idea is to have full set of appropriate types which various XML libraries can share Instead of having equivalent-but-incompatible types for every binding parser or client they all share the same types can can thus interoperate easily This library contains complete types for most parts of an XML document including the prologue node tree and doctype Some basic combinators are included for common tasks including traversing the node tree and filtering children",
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Types",
           "package": "xml-types",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Content",
           "package": "xml-types",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Content",
           "package": "xml-types",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: due to the incredible complexity of DTDs, this type only supports\n external subsets. I've tried adding internal subset types, but they\n quickly gain more code than the rest of this module put together.\n\u003c/p\u003e\u003cp\u003eIt is possible that some future version of this library might support\n internal subsets, but I am no longer actively working on adding them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Doctype",
           "package": "xml-types",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Note due to the incredible complexity of DTDs this type only supports external subsets ve tried adding internal subset types but they quickly gain more code than the rest of this module put together It is possible that some future version of this library might support internal subsets but am no longer actively working on adding them",
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Doctype",
           "package": "xml-types",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Document",
           "package": "xml-types",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Document",
           "package": "xml-types",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Element",
           "package": "xml-types",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Element",
           "package": "xml-types",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome XML processing tools are incremental, and work in terms of events\n rather than node trees. The \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e type allows a document to be fully\n specified as a sequence of events.\n\u003c/p\u003e\u003cp\u003eEvent-based XML libraries include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/xml-enumerator\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/libxml-enumerator\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/expat-enumerator\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Event",
           "package": "xml-types",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Some XML processing tools are incremental and work in terms of events rather than node trees The Event type allows document to be fully specified as sequence of events Event-based XML libraries include http hackage.haskell.org package xml-enumerator http hackage.haskell.org package libxml-enumerator http hackage.haskell.org package expat-enumerator",
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Event",
           "package": "xml-types",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "ExternalID",
           "package": "xml-types",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "ExternalID",
           "package": "xml-types",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Instruction",
           "package": "xml-types",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Instruction",
           "package": "xml-types",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Miscellaneous",
           "package": "xml-types",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Miscellaneous",
           "package": "xml-types",
@@ -214,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fully qualified name.\n\u003c/p\u003e\u003cp\u003ePrefixes are not semantically important; they are included only to\n simplify pass-through parsing. When comparing names with \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\n methods, prefixes are ignored.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eIsString\u003c/code\u003e instance supports Clark notation; see\n \u003ca\u003ehttp://www.jclark.com/xml/xmlns.htm\u003c/a\u003e and\n \u003ca\u003ehttp://infohost.nmt.edu/tcc/help/pubs/pylxml/etree-QName.html\u003c/a\u003e. Use\n the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension for very simple \u003ccode\u003eName\u003c/code\u003e\n construction:\n\u003c/p\u003e\u003cpre\u003e myname :: Name\n myname = \"{http://example.com/ns/my-namespace}my-name\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Name",
           "package": "xml-types",
@@ -223,6 +242,7 @@
         "index": {
           "description": "fully qualified name Prefixes are not semantically important they are included only to simplify pass-through parsing When comparing names with Eq or Ord methods prefixes are ignored The IsString instance supports Clark notation see http www.jclark.com xml xmlns.htm and http infohost.nmt.edu tcc help pubs pylxml etree-QName.html Use the OverloadedStrings language extension for very simple Name construction myname Name myname http example.com ns my-namespace my-name",
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Name",
           "package": "xml-types",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Node",
           "package": "xml-types",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Node",
           "package": "xml-types",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Prologue",
           "package": "xml-types",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Prologue",
           "package": "xml-types",
@@ -279,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor pass-through parsing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "ContentEntity",
           "package": "xml-types",
@@ -289,6 +314,7 @@
         "index": {
           "description": "For pass-through parsing",
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "ContentEntity",
           "package": "xml-types",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "ContentText",
           "package": "xml-types",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "ContentText",
           "package": "xml-types",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Doctype",
           "package": "xml-types",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Doctype",
           "package": "xml-types",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Document",
           "package": "xml-types",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Document",
           "package": "xml-types",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Element",
           "package": "xml-types",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Element",
           "package": "xml-types",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventBeginDoctype",
           "package": "xml-types",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventBeginDoctype",
           "package": "xml-types",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventBeginDocument",
           "package": "xml-types",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventBeginDocument",
           "package": "xml-types",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventBeginElement",
           "package": "xml-types",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventBeginElement",
           "normalized": "EventBeginElement Name[(Name,[Content])]",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventCDATA",
           "package": "xml-types",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventCDATA",
           "package": "xml-types",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventComment",
           "package": "xml-types",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventComment",
           "package": "xml-types",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventContent",
           "package": "xml-types",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventContent",
           "package": "xml-types",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventEndDoctype",
           "package": "xml-types",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventEndDoctype",
           "package": "xml-types",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventEndDocument",
           "package": "xml-types",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventEndDocument",
           "package": "xml-types",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventEndElement",
           "package": "xml-types",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventEndElement",
           "package": "xml-types",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "EventInstruction",
           "package": "xml-types",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "EventInstruction",
           "package": "xml-types",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Instruction",
           "package": "xml-types",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Instruction",
           "package": "xml-types",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "MiscComment",
           "package": "xml-types",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "MiscComment",
           "package": "xml-types",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "MiscInstruction",
           "package": "xml-types",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "MiscInstruction",
           "package": "xml-types",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Name",
           "package": "xml-types",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Name",
           "package": "xml-types",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "NodeComment",
           "package": "xml-types",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "NodeComment",
           "package": "xml-types",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "NodeContent",
           "package": "xml-types",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "NodeContent",
           "package": "xml-types",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "NodeElement",
           "package": "xml-types",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "NodeElement",
           "package": "xml-types",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "NodeInstruction",
           "package": "xml-types",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "NodeInstruction",
           "package": "xml-types",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "Prologue",
           "package": "xml-types",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "Prologue",
           "package": "xml-types",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "PublicID",
           "package": "xml-types",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "PublicID",
           "package": "xml-types",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "SystemID",
           "package": "xml-types",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "SystemID",
           "package": "xml-types",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "attributeContent",
           "package": "xml-types",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "attributeContent",
           "normalized": "Name-\u003eElement-\u003eMaybe[Content]",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "attributeText",
           "package": "xml-types",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "attributeText",
           "normalized": "Name-\u003eElement-\u003eMaybe Text",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "doctypeID",
           "package": "xml-types",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "doctypeID",
           "package": "xml-types",
@@ -924,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "doctypeName",
           "package": "xml-types",
@@ -933,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "doctypeName",
           "package": "xml-types",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "documentEpilogue",
           "package": "xml-types",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "documentEpilogue",
           "normalized": "[Miscellaneous]",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "documentPrologue",
           "package": "xml-types",
@@ -979,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "documentPrologue",
           "package": "xml-types",
@@ -992,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "documentRoot",
           "package": "xml-types",
@@ -1001,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "documentRoot",
           "package": "xml-types",
@@ -1014,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "elementAttributes",
           "package": "xml-types",
@@ -1023,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "elementAttributes",
           "normalized": "[(Name,[Content])]",
@@ -1038,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "elementChildren",
           "package": "xml-types",
@@ -1047,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "elementChildren",
           "normalized": "Element-\u003e[Element]",
@@ -1062,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "elementContent",
           "package": "xml-types",
@@ -1071,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "elementContent",
           "normalized": "Element-\u003e[Content]",
@@ -1086,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "elementName",
           "package": "xml-types",
@@ -1095,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "elementName",
           "package": "xml-types",
@@ -1108,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "elementNodes",
           "package": "xml-types",
@@ -1117,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "elementNodes",
           "normalized": "[Node]",
@@ -1132,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "elementText",
           "package": "xml-types",
@@ -1141,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "elementText",
           "normalized": "Element-\u003e[Text]",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "hasAttribute",
           "package": "xml-types",
@@ -1165,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "hasAttribute",
           "normalized": "Name-\u003eElement-\u003e[Element]",
@@ -1180,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "hasAttributeText",
           "package": "xml-types",
@@ -1189,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "hasAttributeText",
           "normalized": "Name-\u003e(Text-\u003eBool)-\u003eElement-\u003e[Element]",
@@ -1204,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "instructionData",
           "package": "xml-types",
@@ -1213,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "instructionData",
           "package": "xml-types",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "instructionTarget",
           "package": "xml-types",
@@ -1235,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "instructionTarget",
           "package": "xml-types",
@@ -1248,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "isComment",
           "package": "xml-types",
@@ -1257,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "isComment",
           "normalized": "Node-\u003e[Text]",
@@ -1272,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "isContent",
           "package": "xml-types",
@@ -1281,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "isContent",
           "normalized": "Node-\u003e[Content]",
@@ -1296,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "isElement",
           "package": "xml-types",
@@ -1305,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "isElement",
           "normalized": "Node-\u003e[Element]",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "isInstruction",
           "package": "xml-types",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "isInstruction",
           "normalized": "Node-\u003e[Instruction]",
@@ -1344,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "isNamed",
           "package": "xml-types",
@@ -1353,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "isNamed",
           "normalized": "Name-\u003eElement-\u003e[Element]",
@@ -1368,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "nameLocalName",
           "package": "xml-types",
@@ -1377,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "nameLocalName",
           "package": "xml-types",
@@ -1390,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "nameNamespace",
           "package": "xml-types",
@@ -1399,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "nameNamespace",
           "package": "xml-types",
@@ -1412,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "namePrefix",
           "package": "xml-types",
@@ -1421,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "namePrefix",
           "package": "xml-types",
@@ -1434,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "nodeChildren",
           "package": "xml-types",
@@ -1443,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "nodeChildren",
           "normalized": "Node-\u003e[Node]",
@@ -1458,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "nodeContent",
           "package": "xml-types",
@@ -1467,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "nodeContent",
           "normalized": "Node-\u003e[Content]",
@@ -1482,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "nodeText",
           "package": "xml-types",
@@ -1491,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "nodeText",
           "normalized": "Node-\u003e[Text]",
@@ -1506,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "prologueAfter",
           "package": "xml-types",
@@ -1515,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "prologueAfter",
           "normalized": "[Miscellaneous]",
@@ -1530,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "prologueBefore",
           "package": "xml-types",
@@ -1539,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "prologueBefore",
           "normalized": "[Miscellaneous]",
@@ -1554,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:38 UTC 2014",
           "module": "Data.XML.Types",
           "name": "prologueDoctype",
           "package": "xml-types",
@@ -1563,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Data XML Types",
+          "indexed": "2014-03-11T20:42:38",
           "module": "Data.XML.Types",
           "name": "prologueDoctype",
           "package": "xml-types",

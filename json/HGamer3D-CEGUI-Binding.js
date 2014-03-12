@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HGamer3D-CEGUI-Binding"
+        "phrase": "HGamer3D-CEGUI-Binding",
+        "type": "phrase"
       },
       "type": "context"
     }

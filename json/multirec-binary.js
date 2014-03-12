@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multirec-binary"
+        "phrase": "multirec-binary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:05 UTC 2014",
           "module": "Generics.MultiRec.Binary",
           "name": "HBinary",
           "package": "multirec-binary",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Binary",
+          "indexed": "2014-03-11T19:24:05",
           "module": "Generics.MultiRec.Binary",
           "name": "HBinary",
           "package": "multirec-binary",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "Generic binary \u003ctt\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:24:05 UTC 2014",
           "module": "Generics.MultiRec.Binary",
           "name": "gget",
           "package": "multirec-binary",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Generic binary Get",
           "hierarchy": "Generics MultiRec Binary",
+          "indexed": "2014-03-11T19:24:05",
           "module": "Generics.MultiRec.Binary",
           "name": "gget",
           "normalized": "a b-\u003eGet b",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "Generic binary \u003ctt\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:24:05 UTC 2014",
           "module": "Generics.MultiRec.Binary",
           "name": "gput",
           "package": "multirec-binary",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Generic binary Put",
           "hierarchy": "Generics MultiRec Binary",
+          "indexed": "2014-03-11T19:24:05",
           "module": "Generics.MultiRec.Binary",
           "name": "gput",
           "normalized": "a b-\u003eb-\u003ePut",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:05 UTC 2014",
           "module": "Generics.MultiRec.Binary",
           "name": "hget",
           "package": "multirec-binary",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Binary",
+          "indexed": "2014-03-11T19:24:05",
           "module": "Generics.MultiRec.Binary",
           "name": "hget",
           "normalized": "a b-\u003eGet(c b))-\u003ea d-\u003eGet(e c d)",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:05 UTC 2014",
           "module": "Generics.MultiRec.Binary",
           "name": "hput",
           "package": "multirec-binary",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Binary",
+          "indexed": "2014-03-11T19:24:05",
           "module": "Generics.MultiRec.Binary",
           "name": "hput",
           "normalized": "(a b c d-\u003ee d-\u003ePut)-\u003ec f-\u003eg e f-\u003ePut",

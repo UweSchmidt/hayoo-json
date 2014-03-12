@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "properties"
+        "phrase": "properties",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "Properties",
           "package": "properties",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "Properties",
           "package": "properties",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties is a convenient way to express list of properties with\n the same arity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "Properties",
           "package": "properties",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Properties is convenient way to express list of properties with the same arity",
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "Properties",
           "package": "properties",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA labeled property includes a string label and an expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "Property",
           "package": "properties",
@@ -72,6 +77,7 @@
         "index": {
           "description": "labeled property includes string label and an expression",
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "Property",
           "package": "properties",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "Properties",
           "package": "properties",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "Properties",
           "package": "properties",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "Property",
           "package": "properties",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "Property",
           "package": "properties",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "binary",
           "package": "properties",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "binary",
           "normalized": "[Property((a,b)-\u003eBool)]",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty properties:   \u003ccode\u003eproperties= Properties [] [] []\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "properties",
           "package": "properties",
@@ -163,6 +176,7 @@
         "index": {
           "description": "empty properties properties Properties",
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "properties",
           "package": "properties",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "ternary",
           "package": "properties",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "ternary",
           "normalized": "[Property((a,b,c)-\u003eBool)]",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "unary",
           "package": "properties",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "unary",
           "normalized": "[Property(a-\u003eBool)]",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck a list of properties.\n when a property is violated, a trace error is printed\n at the end i return the first value, just like (flip trace)\n must be used as opeator:\n\u003c/p\u003e\u003cpre\u003e\u003ca\u003eexpression\u003c/a\u003e  \u003ccode\u003e\u003ca\u003everify\u003c/a\u003e\u003c/code\u003e \u003ca\u003eproperties\u003c/a\u003e \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e \u003ca\u003evalue tuple\u003c/a\u003e\u003c/pre\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003estringProperty= \u003ccode\u003e\u003ca\u003eProperty\u003c/a\u003e\u003c/code\u003e \"length\" (\\(x, y)-\u003e length (x++y)== length x + length y)\n\nmain= do\n        let s=  \"hello \"\n        let s2= \"world\"\n        print $ s++ s2        `\u003ccode\u003e\u003ca\u003everify\u003c/a\u003e\u003c/code\u003e` stringProperty `\u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e`(s,s2)\n        print \"that's all!\"\u003c/pre\u003e\u003cp\u003eIt is possible to check quickCheck style properties. The same example with a quickCheck style property:\n\u003c/p\u003e\u003cpre\u003equickCheckProperty x y=  length (x++y)== length x + length y\n\nmain= do\n        let s=  \"hello \"\n        let s2= \"world\"\n        print $ s++ s2        `\u003ccode\u003e\u003ca\u003everify\u003c/a\u003e\u003c/code\u003e` [Property \"stringSumLength\" $ uncurry quickCheckProperty] `\u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e`(s,s2)\n        print \"that's all!\"\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "verify",
           "package": "properties",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Check list of properties when property is violated trace error is printed at the end return the first value just like flip trace must be used as opeator expression verify properties with value tuple Example stringProperty Property length length length length main do let hello let s2 world print s2 verify stringProperty with s2 print that all It is possible to check quickCheck style properties The same example with quickCheck style property quickCheckProperty length length length main do let hello let s2 world print s2 verify Property stringSumLength uncurry quickCheckProperty with s2 print that all",
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "verify",
           "normalized": "a-\u003e[Property(b-\u003eBool)]-\u003eb-\u003ea",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eto improve readability: \u003ccode\u003ewith= ($)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:22 UTC 2014",
           "module": "Test.Properties",
           "name": "with",
           "package": "properties",
@@ -257,6 +278,7 @@
         "index": {
           "description": "to improve readability with",
           "hierarchy": "Test Properties",
+          "indexed": "2014-03-11T19:45:22",
           "module": "Test.Properties",
           "name": "with",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",

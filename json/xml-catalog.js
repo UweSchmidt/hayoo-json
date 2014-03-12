@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-catalog"
+        "phrase": "xml-catalog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsed for loading a catalog file, caching DTDs and applying DTDs to\n documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:03 UTC 2014",
           "module": "Text.XML.Catalog",
           "name": "Catalog",
           "package": "xml-catalog",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Used for loading catalog file caching DTDs and applying DTDs to documents",
           "hierarchy": "Text XML Catalog",
+          "indexed": "2014-03-11T20:42:03",
           "module": "Text.XML.Catalog",
           "name": "Catalog",
           "package": "xml-catalog",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML catalog, mapping public and system identifiers to filepaths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:03 UTC 2014",
           "module": "Text.XML.Catalog",
           "name": "Catalog",
           "package": "xml-catalog",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An XML catalog mapping public and system identifiers to filepaths",
           "hierarchy": "Text XML Catalog",
+          "indexed": "2014-03-11T20:42:03",
           "module": "Text.XML.Catalog",
           "name": "Catalog",
           "package": "xml-catalog",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a public or system identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:03 UTC 2014",
           "module": "Text.XML.Catalog",
           "name": "PubSys",
           "package": "xml-catalog",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Either public or system identifier",
           "hierarchy": "Text XML Catalog",
+          "indexed": "2014-03-11T20:42:03",
           "module": "Text.XML.Catalog",
           "name": "PubSys",
           "package": "xml-catalog",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:03 UTC 2014",
           "module": "Text.XML.Catalog",
           "name": "Public",
           "package": "xml-catalog",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text XML Catalog",
+          "indexed": "2014-03-11T20:42:03",
           "module": "Text.XML.Catalog",
           "name": "Public",
           "package": "xml-catalog",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:03 UTC 2014",
           "module": "Text.XML.Catalog",
           "name": "System",
           "package": "xml-catalog",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Text XML Catalog",
+          "indexed": "2014-03-11T20:42:03",
           "module": "Text.XML.Catalog",
           "name": "System",
           "package": "xml-catalog",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eCatalog\u003c/a\u003e\u003c/code\u003e from the given path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:03 UTC 2014",
           "module": "Text.XML.Catalog",
           "name": "loadCatalog",
           "package": "xml-catalog",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Load Catalog from the given path",
           "hierarchy": "Text XML Catalog",
+          "indexed": "2014-03-11T20:42:03",
           "module": "Text.XML.Catalog",
           "name": "loadCatalog",
           "normalized": "SchemeMap-\u003eURI-\u003ea Catalog",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:03 UTC 2014",
           "module": "Text.XML.Catalog",
           "name": "resolveURI",
           "package": "xml-catalog",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Text XML Catalog",
+          "indexed": "2014-03-11T20:42:03",
           "module": "Text.XML.Catalog",
           "name": "resolveURI",
           "normalized": "Catalog-\u003eMaybe URI-\u003eExternalID-\u003eMaybe URI",

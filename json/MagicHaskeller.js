@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MagicHaskeller"
+        "phrase": "MagicHaskeller",
+        "type": "phrase"
       },
       "type": "context"
     }

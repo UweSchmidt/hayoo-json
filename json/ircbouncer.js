@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ircbouncer"
+        "phrase": "ircbouncer",
+        "type": "phrase"
       },
       "type": "context"
     }

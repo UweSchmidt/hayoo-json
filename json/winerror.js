@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "winerror"
+        "phrase": "winerror",
+        "type": "phrase"
       },
       "type": "context"
     }

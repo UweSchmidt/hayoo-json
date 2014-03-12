@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Dung"
+        "phrase": "Dung",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements Dung's argumentation frameworks. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "AF",
           "package": "Dung",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements Dung argumentation frameworks",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "AF",
           "package": "Dung",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract argumentation framework is a set of arguments \n (represented as a list) and an attack relation on these arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "DungAF",
           "package": "Dung",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An abstract argumentation framework is set of arguments represented as list and an attack relation on these arguments",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "DungAF",
           "package": "Dung",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabelling of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "Status",
           "package": "Dung",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Labelling of arguments",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "Status",
           "package": "Dung",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "AF",
           "package": "Dung",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "AF",
           "normalized": "AF[a][(a,a)]",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "In",
           "package": "Dung",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "In",
           "package": "Dung",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "Out",
           "package": "Dung",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "Out",
           "package": "Dung",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "Undecided",
           "package": "Dung",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "Undecided",
           "package": "Dung",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an argumentation framework, determines whether an  \n argument is acceptable with respect to a list of \u003ccode\u003eargs\u003c/code\u003e (subset of the arguments in the AF). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "acceptable",
           "package": "Dung",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Given an argumentation framework determines whether an argument is acceptable with respect to list of args subset of the arguments in the AF",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "acceptable",
           "normalized": "DungAF a-\u003ea-\u003e[a]-\u003eBool",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an argumentation framework, determines whether \n the set of arguments \u003ccode\u003eargs\u003c/code\u003e (subset of the arguments in the AF) is admissible,\n i.e. if \u003ccode\u003eargs\u003c/code\u003e is \u003ccode\u003e\u003ca\u003econflictFree\u003c/a\u003e\u003c/code\u003e and args is a subset of \u003ccode\u003ef af args\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "admissible",
           "package": "Dung",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Given an argumentation framework determines whether the set of arguments args subset of the arguments in the AF is admissible i.e if args is conflictFree and args is subset of af args",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "admissible",
           "normalized": "DungAF a-\u003e[a]-\u003eBool",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of arguments that are \u003ccode\u003e\u003ca\u003eIn\u003c/a\u003e\u003c/code\u003e in an argumentation framework af, \n an argument \u003ccode\u003earg\u003c/code\u003e is attacked if there exists an attacker that is \u003ccode\u003e\u003ca\u003eIn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "attacked",
           "package": "Dung",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Given list of arguments that are In in an argumentation framework af an argument arg is attacked if there exists an attacker that is In",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "attacked",
           "normalized": "[a]-\u003eDungAF a-\u003ea-\u003eBool",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an argumentation framework, determines whether args \n (subset of the arguments in the AF) is conflict-free.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "conflictFree",
           "package": "Dung",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Given an argumentation framework determines whether args subset of the arguments in the AF is conflict-free",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "conflictFree",
           "normalized": "DungAF a-\u003e[a]-\u003eBool",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an argumentation framework, determines whether an  \n argument is acceptable with respect to \u003ccode\u003eargs\u003c/code\u003e (subset of the arguments in the AF). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "f",
           "package": "Dung",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Given an argumentation framework determines whether an argument is acceptable with respect to args subset of the arguments in the AF",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "f",
           "normalized": "DungAF a-\u003e[a]-\u003e[a]",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the grounded labelling for a Dung argumentation framework,\n returning a list of arguments with statuses.\n\u003c/p\u003e\u003cp\u003eBased on section 4.1 of Proof Theories and Algorithms for Abstract Argumentation Frameworks\n by Modgil and Caminada\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "grounded",
           "package": "Dung",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Computes the grounded labelling for Dung argumentation framework returning list of arguments with statuses Based on section of Proof Theories and Algorithms for Abstract Argumentation Frameworks by Modgil and Caminada",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "grounded",
           "normalized": "DungAF a-\u003e[(a,Status)]",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe grounded extension of an argumentation framework is just the grounded labelling, \n keeping only those arguments that were labelled \u003ccode\u003e\u003ca\u003eIn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "groundedExt",
           "package": "Dung",
@@ -339,6 +366,7 @@
         "index": {
           "description": "The grounded extension of an argumentation framework is just the grounded labelling keeping only those arguments that were labelled In",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "groundedExt",
           "normalized": "DungAF a-\u003e[a]",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a characteristic function f, computes the grounded extension\n by iterating on the empty set (list) until it reaches a fixpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "groundedF",
           "package": "Dung",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Given characteristic function computes the grounded extension by iterating on the empty set list until it reaches fixpoint",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "groundedF",
           "normalized": "([a]-\u003e[a])-\u003e[a]",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an argumentation framework, determines whether args \n (subset of the arguments in the AF), attacks an argument arg (in the AF).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "setAttacks",
           "package": "Dung",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Given an argumentation framework determines whether args subset of the arguments in the AF attacks an argument arg in the AF",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "setAttacks",
           "normalized": "DungAF a-\u003e[a]-\u003ea-\u003eBool",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of arguments that are \u003ccode\u003e\u003ca\u003eOut\u003c/a\u003e\u003c/code\u003e in an argumentation framework af, \n an argument \u003ccode\u003earg\u003c/code\u003e is unattacked if the list of its attackers, ignoring the outs, is empty. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.AF",
           "name": "unattacked",
           "package": "Dung",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Given list of arguments that are Out in an argumentation framework af an argument arg is unattacked if the list of its attackers ignoring the outs is empty",
           "hierarchy": "Language Dung AF",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.AF",
           "name": "unattacked",
           "normalized": "[a]-\u003eDungAF a-\u003ea-\u003eBool",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the examples module accompanying the implementation of Dung's \n argumentation frameworks. \n\u003c/p\u003e\u003cp\u003eThis module contains a collection of examples, showing how to define \n arguments, argumentation frameworks and how to use the standard definitions.\n\u003c/p\u003e\u003cp\u003eTo run these examples, or your own: start GHCi and do the following:\n\u003c/p\u003e\u003cpre\u003e:l Language.Dung.Examples\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.Examples",
           "name": "Examples",
           "package": "Dung",
@@ -440,6 +475,7 @@
         "index": {
           "description": "This is the examples module accompanying the implementation of Dung argumentation frameworks This module contains collection of examples showing how to define arguments argumentation frameworks and how to use the standard definitions To run these examples or your own start GHCi and do the following Language.Dung.Examples",
           "hierarchy": "Language Dung Examples",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.Examples",
           "name": "Examples",
           "package": "Dung",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe simplest abstract argument is an argument identifiable by its name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.Examples",
           "name": "AbsArg",
           "package": "Dung",
@@ -463,6 +500,7 @@
         "index": {
           "description": "The simplest abstract argument is an argument identifiable by its name",
           "hierarchy": "Language Dung Examples",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.Examples",
           "name": "AbsArg",
           "package": "Dung",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample AF: A -\u003e B -\u003e C \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.Examples",
           "name": "exampleAF",
           "package": "Dung",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Example AF",
           "hierarchy": "Language Dung Examples",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.Examples",
           "name": "exampleAF",
           "package": "Dung",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample AF: A \u003c-\u003e B\n\u003c/p\u003e\u003cp\u003eNow follow a few example outputs using the above argumentation frameworks.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003esetAttacks:\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003e\u003ccode\u003e[a,b]\u003c/code\u003e \u003ccode\u003e\u003ca\u003esetAttacks\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e in the argumentation framework \u003ccode\u003e\u003ca\u003eexampleAF\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esetAttacks exampleAF [a,b] c\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esetAttacks exampleAF [b,c] a\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esetAttacks exampleAF2 [] b\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003econflictFree:\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003e\u003ccode\u003e[a,c]\u003c/code\u003e is \u003ccode\u003e\u003ca\u003econflictFree\u003c/a\u003e\u003c/code\u003e in the argumentation framework \u003ccode\u003e\u003ca\u003eexampleAF\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003econflictFree exampleAF [a,c]\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003econflictFree exampleAF [a,b,c]\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003econflictFree exampleAF2 [a,b]\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003eacceptable:\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003e\u003ccode\u003ec\u003c/code\u003e is acceptable w.r.t. \u003ccode\u003e[a,b]\u003c/code\u003e in the argumentation framework \u003ccode\u003e\u003ca\u003eexampleAF\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eacceptable exampleAF c [a,b]\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eacceptable exampleAF c []\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eacceptable exampleAF b [a,b,c]\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003eadmissible:\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003e\u003ccode\u003e[a,b,c]\u003c/code\u003e is admissible in the argumentation framework \u003ccode\u003e\u003ca\u003eexampleAF\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eadmissible exampleAF [a,b,c]\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eadmissible exampleAF [a,c]\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eadmissible exampleAF [a]\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003egrounded:\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe grounded labelling of the argumentation framework \u003ccode\u003e\u003ca\u003eexampleAF\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egrounded exampleAF\n\u003c/code\u003e\u003c/strong\u003e[(\"A\",In),(\"C\",In),(\"B\",Out)]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egrounded exampleAF2\n\u003c/code\u003e\u003c/strong\u003e[(\"A\",Undecided),(\"B\",Undecided)]\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003egroundedExt:\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe grounded extension of the argumentation framework \u003ccode\u003e\u003ca\u003eexampleAF\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egroundedExt exampleAF\n\u003c/code\u003e\u003c/strong\u003e[\"A\", \"C\"]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egroundedExt exampleAF2\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.Examples",
           "name": "exampleAF2",
           "package": "Dung",
@@ -511,6 +552,7 @@
         "index": {
           "description": "Example AF Now follow few example outputs using the above argumentation frameworks setAttacks setAttacks in the argumentation framework exampleAF setAttacks exampleAF True setAttacks exampleAF False setAttacks exampleAF2 False conflictFree is conflictFree in the argumentation framework exampleAF conflictFree exampleAF True conflictFree exampleAF False conflictFree exampleAF2 False acceptable is acceptable w.r.t in the argumentation framework exampleAF acceptable exampleAF True acceptable exampleAF False acceptable exampleAF False admissible is admissible in the argumentation framework exampleAF admissible exampleAF False admissible exampleAF True admissible exampleAF True grounded The grounded labelling of the argumentation framework exampleAF grounded exampleAF In In Out grounded exampleAF2 Undecided Undecided groundedExt The grounded extension of the argumentation framework exampleAF groundedExt exampleAF groundedExt exampleAF2",
           "hierarchy": "Language Dung Examples",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.Examples",
           "name": "exampleAF2",
           "package": "Dung",
@@ -525,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efixed point function for a specific argumentation framework,\n \u003ccode\u003efaf = f exampleAF\u003c/code\u003e.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003egroundedF:\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe grounded extension of the argumentation framework \u003ccode\u003e\u003ca\u003eexampleAF\u003c/a\u003e\u003c/code\u003e using the fixpoint definition:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egroundedF faf\n\u003c/code\u003e\u003c/strong\u003e[\"A\",\"C\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egroundedF (f exampleAF2)\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:39:22 UTC 2014",
           "module": "Language.Dung.Examples",
           "name": "faf",
           "package": "Dung",
@@ -535,6 +578,7 @@
         "index": {
           "description": "fixed point function for specific argumentation framework faf exampleAF groundedF The grounded extension of the argumentation framework exampleAF using the fixpoint definition groundedF faf groundedF exampleAF2",
           "hierarchy": "Language Dung Examples",
+          "indexed": "2014-03-11T16:39:22",
           "module": "Language.Dung.Examples",
           "name": "faf",
           "normalized": "[AbsArg]-\u003e[AbsArg]",

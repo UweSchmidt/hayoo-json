@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dbus-client"
+        "phrase": "dbus-client",
+        "type": "phrase"
       },
       "type": "context"
     }

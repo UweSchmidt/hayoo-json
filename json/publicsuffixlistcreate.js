@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "publicsuffixlistcreate"
+        "phrase": "publicsuffixlistcreate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis script parses the public suffix list, and constructs a data structure which can\nbe used with the isSuffix function in Lookup.hs. It exports a GSink which produces\nthe opaque \u003ccode\u003e\u003ca\u003eDataStructure\u003c/a\u003e\u003c/code\u003e and can be fed any Source as input.\n\u003c/p\u003e\u003cp\u003eThis makes an few assumption about the information in the public suffix list:\nnamely, that no rule is a suffix of another rule. For example, if there is a rule\nabc.def.ghi\nthen then is no other rule\ndef.ghi\nor\n!def.ghi\n\u003c/p\u003e\u003cp\u003eThe actual data structure involved here is a tree where the nodes have no value and\nthe edges are DNS labels. There are two trees: one to handle the exception rules,\nand one to handle the regular rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:49 UTC 2014",
           "module": "Network.PublicSuffixList.Create",
           "name": "Create",
           "package": "publicsuffixlistcreate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This script parses the public suffix list and constructs data structure which can be used with the isSuffix function in Lookup.hs It exports GSink which produces the opaque DataStructure and can be fed any Source as input This makes an few assumption about the information in the public suffix list namely that no rule is suffix of another rule For example if there is rule abc.def.ghi then then is no other rule def.ghi or def.ghi The actual data structure involved here is tree where the nodes have no value and the edges are DNS labels There are two trees one to handle the exception rules and one to handle the regular rules",
           "hierarchy": "Network PublicSuffixList Create",
+          "indexed": "2014-03-11T19:45:49",
           "module": "Network.PublicSuffixList.Create",
           "name": "Create",
           "package": "publicsuffixlistcreate",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:49 UTC 2014",
           "module": "Network.PublicSuffixList.Create",
           "name": "PublicSuffixListException",
           "package": "publicsuffixlistcreate",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network PublicSuffixList Create",
+          "indexed": "2014-03-11T19:45:49",
           "module": "Network.PublicSuffixList.Create",
           "name": "PublicSuffixListException",
           "package": "publicsuffixlistcreate",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:49 UTC 2014",
           "module": "Network.PublicSuffixList.Create",
           "name": "sink",
           "package": "publicsuffixlistcreate",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network PublicSuffixList Create",
+          "indexed": "2014-03-11T19:45:49",
           "module": "Network.PublicSuffixList.Create",
           "name": "sink",
           "package": "publicsuffixlistcreate",

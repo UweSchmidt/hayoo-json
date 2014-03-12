@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stdata"
+        "phrase": "stdata",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "Data",
           "package": "stdata",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "Data",
           "package": "stdata",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "AntiAtom",
           "package": "stdata",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "AntiAtom",
           "package": "stdata",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "Atom",
           "package": "stdata",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "Atom",
           "package": "stdata",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "DualSExp",
           "package": "stdata",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "DualSExp",
           "package": "stdata",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "DualSExpLink",
           "package": "stdata",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "DualSExpLink",
           "package": "stdata",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "OpenLink",
           "package": "stdata",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "OpenLink",
           "package": "stdata",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "OpenSExp",
           "package": "stdata",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "OpenSExp",
           "package": "stdata",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "SExp",
           "package": "stdata",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "SExp",
           "package": "stdata",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "SExpLink",
           "package": "stdata",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "SExpLink",
           "package": "stdata",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "AntiAtomDualSExp",
           "package": "stdata",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "AntiAtomDualSExp",
           "package": "stdata",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "AntiConsListDualSExpLink",
           "package": "stdata",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "AntiConsListDualSExpLink",
           "package": "stdata",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "AntiConsValueDualSExpLink",
           "package": "stdata",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "AntiConsValueDualSExpLink",
           "package": "stdata",
@@ -274,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated with QuasiQuotes of form \u003ccode\u003e[sexp| @atom:name |]\u003c/code\u003e. Will be\n converted to expression or pattern of type \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003ename\u003c/code\u003e will be bound\n with type \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "AtomAntiAtom",
           "package": "stdata",
@@ -284,6 +309,7 @@
         "index": {
           "description": "Created with QuasiQuotes of form sexp atom name Will be converted to expression or pattern of type SExp name will be bound with type Atom",
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "AtomAntiAtom",
           "package": "stdata",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "AtomSExp",
           "package": "stdata",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "AtomSExp",
           "package": "stdata",
@@ -320,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated with QuasiQuotes of form \u003ccode\u003e[sexp| @bool:name |]\u003c/code\u003e.  Will be\n converted to expression or pattern of type \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003ename\u003c/code\u003e will be bound\n with type \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "BooleanAntiAtom",
           "package": "stdata",
@@ -330,6 +359,7 @@
         "index": {
           "description": "Created with QuasiQuotes of form sexp bool name Will be converted to expression or pattern of type SExp name will be bound with type Bool",
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "BooleanAntiAtom",
           "package": "stdata",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "BooleanAtom",
           "package": "stdata",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "BooleanAtom",
           "package": "stdata",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "ConsLink",
           "package": "stdata",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "ConsLink",
           "package": "stdata",
@@ -388,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated with QuasiQuotes of form \u003ccode\u003e[sexp| @float:name |]\u003c/code\u003e.  Will be\n converted to expression or pattern of type \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003ename\u003c/code\u003e will be bound\n with type \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "FloatingAntiAtom",
           "package": "stdata",
@@ -398,6 +433,7 @@
         "index": {
           "description": "Created with QuasiQuotes of form sexp float name Will be converted to expression or pattern of type SExp name will be bound with type Double",
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "FloatingAntiAtom",
           "package": "stdata",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "FloatingAtom",
           "package": "stdata",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "FloatingAtom",
           "package": "stdata",
@@ -434,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated with QuasiQuotes of form \u003ccode\u003e[sexp| @int:name |]\u003c/code\u003e.  Will be\n converted to expression or pattern of type \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003ename\u003c/code\u003e will be bound\n with type \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "IntegerAntiAtom",
           "package": "stdata",
@@ -444,6 +483,7 @@
         "index": {
           "description": "Created with QuasiQuotes of form sexp int name Will be converted to expression or pattern of type SExp name will be bound with type Integer",
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "IntegerAntiAtom",
           "package": "stdata",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "IntegerAtom",
           "package": "stdata",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "IntegerAtom",
           "package": "stdata",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "LinkSExp",
           "package": "stdata",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "LinkSExp",
           "package": "stdata",
@@ -502,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated with QuasiQuotes of form \u003ccode\u003e[sexp| @list:name |]\u003c/code\u003e. Will be\n converted to expression or pattern of type \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003ename\u003c/code\u003e will be bound\n with type '[SExp]'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "ListAntiAtom",
           "package": "stdata",
@@ -512,6 +557,7 @@
         "index": {
           "description": "Created with QuasiQuotes of form sexp list name Will be converted to expression or pattern of type SExp name will be bound with type SExp",
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "ListAntiAtom",
           "package": "stdata",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "NullLink",
           "package": "stdata",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "NullLink",
           "package": "stdata",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "PositiveDualSExp",
           "package": "stdata",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "PositiveDualSExp",
           "package": "stdata",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "PositiveDualSExpLink",
           "package": "stdata",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "PositiveDualSExpLink",
           "package": "stdata",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "SExp",
           "package": "stdata",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "SExp",
           "package": "stdata",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "SExpLink",
           "package": "stdata",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "SExpLink",
           "package": "stdata",
@@ -636,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated with QuasiQuotes of form \u003ccode\u003e[sexp| @str:name |]\u003c/code\u003e. Will be\n converted to expression or pattern of type \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003ename\u003c/code\u003e will be bound\n with type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "StringAntiAtom",
           "package": "stdata",
@@ -646,6 +703,7 @@
         "index": {
           "description": "Created with QuasiQuotes of form sexp str name Will be converted to expression or pattern of type SExp name will be bound with type String",
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "StringAntiAtom",
           "package": "stdata",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "StringAtom",
           "package": "stdata",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "StringAtom",
           "package": "stdata",
@@ -682,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated with QuasiQuotes of form \u003ccode\u003e[sexp| @sym:name |]\u003c/code\u003e.  Will be\n converted to expression or pattern of type \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003ename\u003c/code\u003e will be bound\n with type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "SymbolAntiAtom",
           "package": "stdata",
@@ -692,6 +753,7 @@
         "index": {
           "description": "Created with QuasiQuotes of form sexp sym name Will be converted to expression or pattern of type SExp name will be bound with type String",
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "SymbolAntiAtom",
           "package": "stdata",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "SymbolAtom",
           "package": "stdata",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "SymbolAtom",
           "package": "stdata",
@@ -728,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated with QuasiQuotes of form \u003ccode\u003e[sexp| @:name |]\u003c/code\u003e. Will be converted\n to expression or pattern of type \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003ename\u003c/code\u003e will be bound with type\n \u003ccode\u003e\u003ca\u003eSExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "ValueAntiAtom",
           "package": "stdata",
@@ -738,6 +803,7 @@
         "index": {
           "description": "Created with QuasiQuotes of form sexp name Will be converted to expression or pattern of type SExp name will be bound with type SExp",
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "ValueAntiAtom",
           "package": "stdata",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "listToSExp",
           "package": "stdata",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "listToSExp",
           "normalized": "[SExp]-\u003eSExp",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "listToSExpLink",
           "package": "stdata",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "listToSExpLink",
           "normalized": "[SExp]-\u003eSExpLink",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "sexpLinkToList",
           "package": "stdata",
@@ -808,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "sexpLinkToList",
           "normalized": "SExpLink-\u003e[SExp]",
@@ -823,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "sexpSymbolValue",
           "package": "stdata",
@@ -832,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "sexpSymbolValue",
           "normalized": "SExp-\u003eMaybe String",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "sexpToList",
           "package": "stdata",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "sexpToList",
           "normalized": "SExp-\u003eMaybe[SExp]",
@@ -871,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "unSExp",
           "package": "stdata",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "unSExp",
           "package": "stdata",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Data",
           "name": "unSExpLink",
           "package": "stdata",
@@ -902,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Data",
           "name": "unSExpLink",
           "package": "stdata",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "Parse",
           "package": "stdata",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "Parse",
           "package": "stdata",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "SExpToken",
           "package": "stdata",
@@ -944,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "SExpToken",
           "package": "stdata",
@@ -957,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiAtomToken",
           "package": "stdata",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiAtomToken",
           "package": "stdata",
@@ -979,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiBooleanToken",
           "package": "stdata",
@@ -988,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiBooleanToken",
           "package": "stdata",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiConsToken",
           "package": "stdata",
@@ -1010,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiConsToken",
           "package": "stdata",
@@ -1023,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiFloatingToken",
           "package": "stdata",
@@ -1032,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiFloatingToken",
           "package": "stdata",
@@ -1045,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiIntegerToken",
           "package": "stdata",
@@ -1054,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiIntegerToken",
           "package": "stdata",
@@ -1067,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiListToken",
           "package": "stdata",
@@ -1076,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiListToken",
           "package": "stdata",
@@ -1089,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiStringToken",
           "package": "stdata",
@@ -1098,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiStringToken",
           "package": "stdata",
@@ -1111,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiSymbolToken",
           "package": "stdata",
@@ -1120,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiSymbolToken",
           "package": "stdata",
@@ -1133,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "AntiValueToken",
           "package": "stdata",
@@ -1142,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "AntiValueToken",
           "package": "stdata",
@@ -1155,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "BooleanToken",
           "package": "stdata",
@@ -1164,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "BooleanToken",
           "package": "stdata",
@@ -1177,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "CommentToken",
           "package": "stdata",
@@ -1186,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "CommentToken",
           "package": "stdata",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "FloatingToken",
           "package": "stdata",
@@ -1208,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "FloatingToken",
           "package": "stdata",
@@ -1221,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "IntegerToken",
           "package": "stdata",
@@ -1230,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "IntegerToken",
           "package": "stdata",
@@ -1243,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "LParenToken",
           "package": "stdata",
@@ -1252,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "LParenToken",
           "package": "stdata",
@@ -1265,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "RParenToken",
           "package": "stdata",
@@ -1274,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "RParenToken",
           "package": "stdata",
@@ -1287,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "StringToken",
           "package": "stdata",
@@ -1296,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "StringToken",
           "package": "stdata",
@@ -1309,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "SymbolToken",
           "package": "stdata",
@@ -1318,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "SymbolToken",
           "package": "stdata",
@@ -1331,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "WhitespaceToken",
           "package": "stdata",
@@ -1340,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "WhitespaceToken",
           "package": "stdata",
@@ -1353,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiAtomTokenValueM",
           "package": "stdata",
@@ -1362,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiAtomTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1377,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiBooleanTokenValueM",
           "package": "stdata",
@@ -1386,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiBooleanTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1401,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiConsTokenValueM",
           "package": "stdata",
@@ -1410,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiConsTokenValueM",
           "normalized": "SExpToken-\u003eMaybe()",
@@ -1425,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiFloatingTokenValueM",
           "package": "stdata",
@@ -1434,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiFloatingTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1449,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiIntegerTokenValueM",
           "package": "stdata",
@@ -1458,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiIntegerTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1473,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiListTokenValueM",
           "package": "stdata",
@@ -1482,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiListTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1497,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiStringTokenValueM",
           "package": "stdata",
@@ -1506,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiStringTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1521,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiSymbolTokenValueM",
           "package": "stdata",
@@ -1530,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiSymbolTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1545,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "antiValueTokenValueM",
           "package": "stdata",
@@ -1554,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "antiValueTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1569,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "booleanTokenValueM",
           "package": "stdata",
@@ -1578,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "booleanTokenValueM",
           "normalized": "SExpToken-\u003eMaybe Bool",
@@ -1593,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "commentTokenValueM",
           "package": "stdata",
@@ -1602,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "commentTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -1617,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "convertAntiAtomToValueE",
           "package": "stdata",
@@ -1626,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "convertAntiAtomToValueE",
           "normalized": "AntiAtom-\u003e(Q Exp-\u003eQ Exp)-\u003e(Q Exp-\u003eQ Exp)-\u003eQ Exp",
@@ -1641,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "convertAntiAtomToValueP",
           "package": "stdata",
@@ -1650,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "convertAntiAtomToValueP",
           "normalized": "AntiAtom-\u003e(Q Pat-\u003eQ Pat)-\u003e(Q Pat-\u003eQ Pat)-\u003eQ Pat",
@@ -1665,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "convertAtomE",
           "package": "stdata",
@@ -1674,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "convertAtomE",
           "normalized": "Atom-\u003eQ Exp",
@@ -1689,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "convertAtomP",
           "package": "stdata",
@@ -1698,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "convertAtomP",
           "normalized": "Atom-\u003eQ Pat",
@@ -1713,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "convertOpenLinkE",
           "package": "stdata",
@@ -1722,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "convertOpenLinkE",
           "normalized": "(a-\u003eQ Exp)-\u003e(b-\u003eQ Exp)-\u003eOpenLink a b-\u003eQ Exp",
@@ -1737,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "convertOpenLinkP",
           "package": "stdata",
@@ -1746,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "convertOpenLinkP",
           "normalized": "(a-\u003eQ Pat)-\u003e(b-\u003eQ Pat)-\u003eOpenLink a b-\u003eQ Pat",
@@ -1761,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "floatingTokenValueM",
           "package": "stdata",
@@ -1770,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "floatingTokenValueM",
           "normalized": "SExpToken-\u003eMaybe Double",
@@ -1785,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "integerTokenValueM",
           "package": "stdata",
@@ -1794,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "integerTokenValueM",
           "normalized": "SExpToken-\u003eMaybe Integer",
@@ -1809,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "isDiscardSExpToken",
           "package": "stdata",
@@ -1818,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "isDiscardSExpToken",
           "normalized": "SExpToken-\u003eBool",
@@ -1833,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "lParenTokenValueM",
           "package": "stdata",
@@ -1842,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "lParenTokenValueM",
           "normalized": "SExpToken-\u003eMaybe()",
@@ -1857,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "lexOne",
           "package": "stdata",
@@ -1866,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "lexOne",
           "normalized": "SourcePos-\u003e[Parser a]-\u003eString-\u003eEither String((SourcePos,a),SourcePos,String)",
@@ -1881,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "lexSExp",
           "package": "stdata",
@@ -1890,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "lexSExp",
           "normalized": "String-\u003eEither String[(SourcePos,SExpToken)]",
@@ -1905,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "parseDualSExp",
           "package": "stdata",
@@ -1914,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "parseDualSExp",
           "normalized": "String-\u003eEither String DualSExp",
@@ -1929,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "parseSExp",
           "package": "stdata",
@@ -1938,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "parseSExp",
           "normalized": "String-\u003eEither String SExp",
@@ -1953,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "qtokParse",
           "package": "stdata",
@@ -1962,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "qtokParse",
           "normalized": "(String-\u003eEither String[a])-\u003eGenParser a()b-\u003eString-\u003eQ b",
@@ -1977,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "rParenTokenValueM",
           "package": "stdata",
@@ -1986,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "rParenTokenValueM",
           "normalized": "SExpToken-\u003eMaybe()",
@@ -2001,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "sexp",
           "package": "stdata",
@@ -2010,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "sexp",
           "package": "stdata",
@@ -2022,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "sexpTokens",
           "package": "stdata",
@@ -2031,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "sexpTokens",
           "normalized": "[Parser SExpToken]",
@@ -2046,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "sexpl",
           "package": "stdata",
@@ -2055,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "sexpl",
           "package": "stdata",
@@ -2067,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "stringTokenValueM",
           "package": "stdata",
@@ -2076,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "stringTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -2091,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "symbolTokenValueM",
           "package": "stdata",
@@ -2100,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "symbolTokenValueM",
           "normalized": "SExpToken-\u003eMaybe String",
@@ -2115,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "tokParse",
           "package": "stdata",
@@ -2124,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "tokParse",
           "normalized": "(String-\u003eEither String[a])-\u003eGenParser a()b-\u003eString-\u003eEither String b",
@@ -2139,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "unparseAtom",
           "package": "stdata",
@@ -2148,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "unparseAtom",
           "normalized": "Atom-\u003eString",
@@ -2163,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "unparseSExp",
           "package": "stdata",
@@ -2172,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "unparseSExp",
           "normalized": "SExp-\u003eString",
@@ -2187,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp.Parse",
           "name": "whitespaceTokenValueM",
           "package": "stdata",
@@ -2196,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Data SExp Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp.Parse",
           "name": "whitespaceTokenValueM",
           "normalized": "SExpToken-\u003eMaybe()",
@@ -2211,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.SExp",
           "name": "SExp",
           "package": "stdata",
@@ -2219,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Data SExp",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.SExp",
           "name": "SExp",
           "package": "stdata",
@@ -2232,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "Data",
           "package": "stdata",
@@ -2240,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "Data",
           "package": "stdata",
@@ -2253,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "DualSData",
           "package": "stdata",
@@ -2261,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "DualSData",
           "package": "stdata",
@@ -2274,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "DualSLink",
           "package": "stdata",
@@ -2282,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "DualSLink",
           "package": "stdata",
@@ -2295,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "DualTData",
           "package": "stdata",
@@ -2303,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "DualTData",
           "package": "stdata",
@@ -2316,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "DualTLink",
           "package": "stdata",
@@ -2324,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "DualTLink",
           "package": "stdata",
@@ -2337,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "OpenSData",
           "package": "stdata",
@@ -2345,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "OpenSData",
           "package": "stdata",
@@ -2358,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "OpenTData",
           "package": "stdata",
@@ -2366,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "OpenTData",
           "package": "stdata",
@@ -2379,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "SData",
           "package": "stdata",
@@ -2387,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "SData",
           "package": "stdata",
@@ -2400,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "SLink",
           "package": "stdata",
@@ -2408,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "SLink",
           "package": "stdata",
@@ -2421,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "TData",
           "package": "stdata",
@@ -2429,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "TData",
           "package": "stdata",
@@ -2442,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "TLink",
           "package": "stdata",
@@ -2450,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "TLink",
           "package": "stdata",
@@ -2463,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "AntiAtomDualSData",
           "package": "stdata",
@@ -2472,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "AntiAtomDualSData",
           "package": "stdata",
@@ -2485,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "AntiConsListDualSLink",
           "package": "stdata",
@@ -2494,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "AntiConsListDualSLink",
           "package": "stdata",
@@ -2507,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "AntiConsValueDualSLink",
           "package": "stdata",
@@ -2516,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "AntiConsValueDualSLink",
           "package": "stdata",
@@ -2529,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "AtomSData",
           "package": "stdata",
@@ -2538,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "AtomSData",
           "package": "stdata",
@@ -2551,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "AtomTData",
           "package": "stdata",
@@ -2560,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "AtomTData",
           "package": "stdata",
@@ -2573,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "DualTData",
           "package": "stdata",
@@ -2582,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "DualTData",
           "package": "stdata",
@@ -2595,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "DualTLink",
           "package": "stdata",
@@ -2604,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "DualTLink",
           "package": "stdata",
@@ -2617,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "PositiveDualSData",
           "package": "stdata",
@@ -2626,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "PositiveDualSData",
           "package": "stdata",
@@ -2639,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "PositiveDualSLink",
           "package": "stdata",
@@ -2648,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "PositiveDualSLink",
           "package": "stdata",
@@ -2661,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "SData",
           "package": "stdata",
@@ -2670,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "SData",
           "package": "stdata",
@@ -2683,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "SLink",
           "package": "stdata",
@@ -2692,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "SLink",
           "package": "stdata",
@@ -2705,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "SLinkSData",
           "package": "stdata",
@@ -2714,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "SLinkSData",
           "package": "stdata",
@@ -2727,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "SLinkTData",
           "package": "stdata",
@@ -2736,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "SLinkTData",
           "package": "stdata",
@@ -2749,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "TData",
           "package": "stdata",
@@ -2758,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "TData",
           "package": "stdata",
@@ -2771,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "TLink",
           "package": "stdata",
@@ -2780,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "TLink",
           "package": "stdata",
@@ -2793,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "TLinkSData",
           "package": "stdata",
@@ -2802,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "TLinkSData",
           "package": "stdata",
@@ -2815,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "listToSData",
           "package": "stdata",
@@ -2824,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "listToSData",
           "normalized": "[SData]-\u003eSData",
@@ -2839,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "listToSLink",
           "package": "stdata",
@@ -2848,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "listToSLink",
           "normalized": "[SData]-\u003eSLink",
@@ -2863,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "sdataSymbolValue",
           "package": "stdata",
@@ -2872,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "sdataSymbolValue",
           "normalized": "SData-\u003eMaybe String",
@@ -2887,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "sdataToList",
           "package": "stdata",
@@ -2896,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "sdataToList",
           "normalized": "SData-\u003eMaybe[SData]",
@@ -2911,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "slinkToList",
           "package": "stdata",
@@ -2920,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "slinkToList",
           "normalized": "SLink-\u003e[SData]",
@@ -2935,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "unDualTData",
           "package": "stdata",
@@ -2944,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "unDualTData",
           "package": "stdata",
@@ -2957,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "unDualTLink",
           "package": "stdata",
@@ -2966,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "unDualTLink",
           "package": "stdata",
@@ -2979,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "unSData",
           "package": "stdata",
@@ -2988,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "unSData",
           "package": "stdata",
@@ -3001,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "unSLink",
           "package": "stdata",
@@ -3010,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "unSLink",
           "package": "stdata",
@@ -3023,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "unTData",
           "package": "stdata",
@@ -3032,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "unTData",
           "package": "stdata",
@@ -3045,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Data",
           "name": "unTLink",
           "package": "stdata",
@@ -3054,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "Data STData Data",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Data",
           "name": "unTLink",
           "package": "stdata",
@@ -3067,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "Parse",
           "package": "stdata",
@@ -3075,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "Parse",
           "package": "stdata",
@@ -3088,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "STDataToken",
           "package": "stdata",
@@ -3096,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "STDataToken",
           "package": "stdata",
@@ -3109,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "CloseStructureToken",
           "package": "stdata",
@@ -3118,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "CloseStructureToken",
           "package": "stdata",
@@ -3131,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "CloseTextToken",
           "package": "stdata",
@@ -3140,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "CloseTextToken",
           "package": "stdata",
@@ -3153,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "OpenStructureToken",
           "package": "stdata",
@@ -3162,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "OpenStructureToken",
           "package": "stdata",
@@ -3175,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "OpenTextToken",
           "package": "stdata",
@@ -3184,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "OpenTextToken",
           "package": "stdata",
@@ -3197,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "SExpSTDataToken",
           "package": "stdata",
@@ -3206,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "SExpSTDataToken",
           "package": "stdata",
@@ -3219,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "TextToken",
           "package": "stdata",
@@ -3228,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "TextToken",
           "package": "stdata",
@@ -3241,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "closeStructureTokenValueM",
           "package": "stdata",
@@ -3250,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "closeStructureTokenValueM",
           "normalized": "STDataToken-\u003eMaybe()",
@@ -3265,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "closeTextTokenValueM",
           "package": "stdata",
@@ -3274,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "closeTextTokenValueM",
           "normalized": "STDataToken-\u003eMaybe()",
@@ -3289,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "convertOpenSDataE",
           "package": "stdata",
@@ -3298,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "convertOpenSDataE",
           "normalized": "(a-\u003eQ Exp)-\u003e(b-\u003eQ Exp)-\u003eOpenSData a b-\u003eQ Exp",
@@ -3313,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "convertOpenSDataP",
           "package": "stdata",
@@ -3322,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "convertOpenSDataP",
           "normalized": "(a-\u003eQ Pat)-\u003e(b-\u003eQ Pat)-\u003eOpenSData a b-\u003eQ Pat",
@@ -3337,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "convertOpenTDataE",
           "package": "stdata",
@@ -3346,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "convertOpenTDataE",
           "normalized": "(a-\u003eQ Exp)-\u003eOpenTData a-\u003eQ Exp",
@@ -3361,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "convertOpenTDataP",
           "package": "stdata",
@@ -3370,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "convertOpenTDataP",
           "normalized": "(a-\u003eQ Pat)-\u003eOpenTData a-\u003eQ Pat",
@@ -3385,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "isDiscardSTDataToken",
           "package": "stdata",
@@ -3394,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "isDiscardSTDataToken",
           "normalized": "STDataToken-\u003eBool",
@@ -3409,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "lexStructure",
           "package": "stdata",
@@ -3418,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "lexStructure",
           "normalized": "String-\u003eEither String[(SourcePos,STDataToken)]",
@@ -3433,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "lexText",
           "package": "stdata",
@@ -3442,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "lexText",
           "normalized": "String-\u003eEither String[(SourcePos,STDataToken)]",
@@ -3457,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "openStructureTokenValueM",
           "package": "stdata",
@@ -3466,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "openStructureTokenValueM",
           "normalized": "STDataToken-\u003eMaybe()",
@@ -3481,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "openTextTokenValueM",
           "package": "stdata",
@@ -3490,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "openTextTokenValueM",
           "normalized": "STDataToken-\u003eMaybe()",
@@ -3505,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "parseSData",
           "package": "stdata",
@@ -3514,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "parseSData",
           "normalized": "String-\u003eEither String SData",
@@ -3529,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "parseSLink",
           "package": "stdata",
@@ -3538,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "parseSLink",
           "normalized": "String-\u003eEither String SLink",
@@ -3553,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "parseTData",
           "package": "stdata",
@@ -3562,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "parseTData",
           "normalized": "String-\u003eEither String TData",
@@ -3577,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "parseTLink",
           "package": "stdata",
@@ -3586,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "parseTLink",
           "normalized": "String-\u003eEither String TLink",
@@ -3601,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "sdata",
           "package": "stdata",
@@ -3610,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "sdata",
           "package": "stdata",
@@ -3622,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "sexpSTDataTokenValueM",
           "package": "stdata",
@@ -3631,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "sexpSTDataTokenValueM",
           "normalized": "STDataToken-\u003eMaybe SExpToken",
@@ -3646,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "slink",
           "package": "stdata",
@@ -3655,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "slink",
           "package": "stdata",
@@ -3667,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "structureTokens",
           "package": "stdata",
@@ -3676,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "structureTokens",
           "normalized": "[Parser STDataToken]",
@@ -3691,6 +4015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "tdata",
           "package": "stdata",
@@ -3700,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "tdata",
           "package": "stdata",
@@ -3712,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "textTokenValueM",
           "package": "stdata",
@@ -3721,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "textTokenValueM",
           "normalized": "STDataToken-\u003eMaybe String",
@@ -3736,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "textTokens",
           "package": "stdata",
@@ -3745,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "textTokens",
           "normalized": "[Parser STDataToken]",
@@ -3760,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData.Parse",
           "name": "tlink",
           "package": "stdata",
@@ -3769,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "Data STData Parse",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData.Parse",
           "name": "tlink",
           "package": "stdata",
@@ -3781,6 +4113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:37 UTC 2014",
           "module": "Data.STData",
           "name": "STData",
           "package": "stdata",
@@ -3789,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Data STData",
+          "indexed": "2014-03-11T20:10:37",
           "module": "Data.STData",
           "name": "STData",
           "package": "stdata",

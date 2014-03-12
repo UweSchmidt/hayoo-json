@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-routes-regular"
+        "phrase": "web-routes-regular",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:59 UTC 2014",
           "module": "Web.Routes.Regular",
           "name": "Regular",
           "package": "web-routes-regular",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Regular",
+          "indexed": "2014-03-11T20:37:59",
           "module": "Web.Routes.Regular",
           "name": "Regular",
           "package": "web-routes-regular",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:59 UTC 2014",
           "module": "Web.Routes.Regular",
           "name": "GToURL",
           "package": "web-routes-regular",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Regular",
+          "indexed": "2014-03-11T20:37:59",
           "module": "Web.Routes.Regular",
           "name": "GToURL",
           "package": "web-routes-regular",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:59 UTC 2014",
           "module": "Web.Routes.Regular",
           "name": "gfromPathSegments",
           "package": "web-routes-regular",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Regular",
+          "indexed": "2014-03-11T20:37:59",
           "module": "Web.Routes.Regular",
           "name": "gfromPathSegments",
           "package": "web-routes-regular",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:59 UTC 2014",
           "module": "Web.Routes.Regular",
           "name": "gtoPathSegments",
           "package": "web-routes-regular",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Regular",
+          "indexed": "2014-03-11T20:37:59",
           "module": "Web.Routes.Regular",
           "name": "gtoPathSegments",
           "normalized": "a b-\u003e[Text]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "named-formlet"
+        "phrase": "named-formlet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMini formlets library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "Formlet",
           "package": "named-formlet",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Mini formlets library",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "Formlet",
           "package": "named-formlet",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple formlet data type, collects errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "Formlet",
           "package": "named-formlet",
@@ -51,6 +54,7 @@
         "index": {
           "description": "simple formlet data type collects errors",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "Formlet",
           "package": "named-formlet",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "Formlet",
           "package": "named-formlet",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "Formlet",
           "package": "named-formlet",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a textarea input with a label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "areaInput",
           "package": "named-formlet",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Make textarea input with label",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "areaInput",
           "normalized": "Text-\u003eText-\u003eMaybe Text-\u003eFormlet Text",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a drop down input with a label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "dropInput",
           "package": "named-formlet",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Make drop down input with label",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "dropInput",
           "normalized": "[(Text,Text)]-\u003eText-\u003eText-\u003eText-\u003eFormlet Text",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a real internal id from a slug.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "findOption",
           "package": "named-formlet",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Lookup real internal id from slug",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "findOption",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e(a-\u003eb)-\u003eEither Text b",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a simple formlet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "formlet",
           "package": "named-formlet",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Make simple formlet",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "formlet",
           "normalized": "Text-\u003e(Maybe Text-\u003eHtml)-\u003eFormlet Text",
@@ -189,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "formletHtml",
           "package": "named-formlet",
@@ -198,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "formletHtml",
           "normalized": "Params-\u003eHtml",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "formletName",
           "package": "named-formlet",
@@ -222,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "formletName",
           "package": "named-formlet",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "formletValue",
           "package": "named-formlet",
@@ -244,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "formletValue",
           "normalized": "Params-\u003eEither[Text]a",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "integer",
           "package": "named-formlet",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Integer parser",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "integer",
           "normalized": "Text-\u003eEither Text Integer",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an input optional (empty text is nothing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "opt",
           "package": "named-formlet",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Make an input optional empty text is nothing",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "opt",
           "normalized": "Formlet Text-\u003eFormlet(Maybe Text)",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a list of options for use with the option formlet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "options",
           "package": "named-formlet",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Make list of options for use with the option formlet",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "options",
           "normalized": "(a-\u003eText)-\u003e(a-\u003eText)-\u003e[a]-\u003e[(Text,Text)]",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a form value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "parse",
           "package": "named-formlet",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Parse form value",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "parse",
           "normalized": "(a-\u003eEither Text b)-\u003eFormlet a-\u003eFormlet b",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an input required (non-empty text).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "req",
           "package": "named-formlet",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Make an input required non-empty text",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "req",
           "normalized": "Formlet Text-\u003eFormlet Text",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a submit (captioned) button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "submitInput",
           "package": "named-formlet",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Make submit captioned button",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "submitInput",
           "normalized": "Text-\u003eText-\u003eHtml",
@@ -411,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a text input formlet with a label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "textInput",
           "package": "named-formlet",
@@ -421,6 +454,7 @@
         "index": {
           "description": "Make text input formlet with label",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "textInput",
           "normalized": "Text-\u003eText-\u003eMaybe Text-\u003eFormlet Text",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap/transform formlet's HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:35 UTC 2014",
           "module": "Text.Formlet",
           "name": "wrap",
           "package": "named-formlet",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Wrap transform formlet HTML",
           "hierarchy": "Text Formlet",
+          "indexed": "2014-03-11T19:25:35",
           "module": "Text.Formlet",
           "name": "wrap",
           "normalized": "(Html-\u003eHtml)-\u003eFormlet Text-\u003eFormlet Text",

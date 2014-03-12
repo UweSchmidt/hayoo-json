@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xmonad-screenshot"
+        "phrase": "xmonad-screenshot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides an utility functions for easy and robust workspaces' screen capturing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "WorkspaceScreenshot",
           "package": "xmonad-screenshot",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides an utility functions for easy and robust workspaces screen capturing",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "WorkspaceScreenshot",
           "package": "xmonad-screenshot",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLayout for resulting capture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "CapturingLayout",
           "package": "xmonad-screenshot",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Layout for resulting capture",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "CapturingLayout",
           "package": "xmonad-screenshot",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "CapturingLayout",
           "package": "xmonad-screenshot",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "CapturingLayout",
           "package": "xmonad-screenshot",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture screens from workspaces satisfying given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "captureWorkspacesWhen",
           "package": "xmonad-screenshot",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Capture screens from workspaces satisfying given predicate",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "captureWorkspacesWhen",
           "normalized": "(WindowSpace-\u003eX Bool)-\u003e(FilePath-\u003eIO())-\u003eCapturingLayout-\u003eX()",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture screens from workspaces which id satisfies given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "captureWorkspacesWhenId",
           "package": "xmonad-screenshot",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Capture screens from workspaces which id satisfies given predicate",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "captureWorkspacesWhenId",
           "normalized": "(WorkspaceId-\u003eX Bool)-\u003e(FilePath-\u003eIO())-\u003eCapturingLayout-\u003eX()",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault hook. Does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "defaultHook",
           "package": "xmonad-screenshot",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Default hook Does nothing",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "defaultHook",
           "normalized": "a-\u003eIO()",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault predicate. Accepts every available workspace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "defaultPredicate",
           "package": "xmonad-screenshot",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Default predicate Accepts every available workspace",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "defaultPredicate",
           "normalized": "a-\u003eX Bool",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum height and maximum width for capture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "dimensions",
           "package": "xmonad-screenshot",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Maximum height and maximum width for capture",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "dimensions",
           "normalized": "[Pixbuf]-\u003eIO(Int,Int)",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilling algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "fill",
           "package": "xmonad-screenshot",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Filling algorithm",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "fill",
           "normalized": "[Pixbuf]-\u003ePixbuf-\u003eIO()",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture screens layout horizontally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "horizontally",
           "package": "xmonad-screenshot",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Capture screens layout horizontally",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "horizontally",
           "package": "xmonad-screenshot",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInit gtk to enable a possibility of capturing workspaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "initCapturing",
           "package": "xmonad-screenshot",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Init gtk to enable possibility of capturing workspaces",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "initCapturing",
           "normalized": "IO()",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture screens layout vertically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:31 UTC 2014",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "vertically",
           "package": "xmonad-screenshot",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Capture screens layout vertically",
           "hierarchy": "XMonad Util WorkspaceScreenshot",
+          "indexed": "2014-03-11T20:43:31",
           "module": "XMonad.Util.WorkspaceScreenshot",
           "name": "vertically",
           "package": "xmonad-screenshot",

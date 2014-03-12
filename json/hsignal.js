@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsignal"
+        "phrase": "hsignal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.EEG",
           "name": "EEG",
           "package": "hsignal",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Signal EEG",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.EEG",
           "name": "EEG",
           "package": "hsignal",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.EEG",
           "name": "loadBDF",
           "package": "hsignal",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Numeric Signal EEG",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.EEG",
           "name": "loadBDF",
           "normalized": "FilePath-\u003eIO(Maybe(Multichannel Float))",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSignal processing functions, multichannel datatype\n\u003c/p\u003e\u003cp\u003elink with '-threaded' and run with +RTS -Nn, where n is the number of CPUs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "Multichannel",
           "package": "hsignal",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Signal processing functions multichannel datatype link with threaded and run with RTS Nn where is the number of CPUs",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "Multichannel",
           "package": "hsignal",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata type with multiple channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "Multichannel",
           "package": "hsignal",
@@ -96,6 +103,7 @@
         "index": {
           "description": "data type with multiple channels",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "Multichannel",
           "package": "hsignal",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number of channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "channels",
           "package": "hsignal",
@@ -120,6 +129,7 @@
         "index": {
           "description": "the number of channels",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "channels",
           "normalized": "Multichannel a-\u003eInt",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a multichannel data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "createMultichannel",
           "package": "hsignal",
@@ -144,6 +155,7 @@
         "index": {
           "description": "create multichannel data type",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "createMultichannel",
           "normalized": "Int-\u003eInt-\u003e[Vector a]-\u003eMultichannel a",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edetrend the data with a specified window size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "detrend",
           "package": "hsignal",
@@ -170,6 +183,7 @@
         "index": {
           "description": "detrend the data with specified window size",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "detrend",
           "normalized": "Int-\u003eMultichannel Double-\u003eMultichannel Double",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewas the data detrended?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "detrended",
           "package": "hsignal",
@@ -195,6 +210,7 @@
         "index": {
           "description": "was the data detrended",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "detrended",
           "normalized": "Multichannel a-\u003eBool",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculate the entropy of the phase difference between pairs of channels (fills upper half of matrix)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "entropy_delta_phase",
           "package": "hsignal",
@@ -219,6 +236,7 @@
         "index": {
           "description": "calculate the entropy of the phase difference between pairs of channels fills upper half of matrix",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "entropy_delta_phase",
           "normalized": "Multichannel a-\u003eMatrix Double",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilter the data with the given passband\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "filter",
           "package": "hsignal",
@@ -244,6 +263,7 @@
         "index": {
           "description": "filter the data with the given passband",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "filter",
           "normalized": "(Int,Int)-\u003eMultichannel a-\u003eMultichannel a",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewas the data filtered?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "filtered",
           "package": "hsignal",
@@ -269,6 +290,7 @@
         "index": {
           "description": "was the data filtered",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "filtered",
           "normalized": "Multichannel a-\u003eMaybe(Int,Int)",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract one channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "getChannel",
           "package": "hsignal",
@@ -294,6 +317,7 @@
         "index": {
           "description": "extract one channel",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "getChannel",
           "normalized": "Int-\u003eMultichannel a-\u003eVector a",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract all channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "getChannels",
           "package": "hsignal",
@@ -320,6 +345,7 @@
         "index": {
           "description": "extract all channels",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "getChannels",
           "normalized": "Multichannel a-\u003eArray Int(Vector a)",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculate histograms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "histograms",
           "package": "hsignal",
@@ -345,6 +372,7 @@
         "index": {
           "description": "calculate histograms",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "histograms",
           "normalized": "Array Int(Vector a)-\u003eInt-\u003e(Double,Double)-\u003eInt-\u003eInt-\u003e(Double,Double)-\u003e(Double,Double)-\u003e(Array Int Histogram,Array(Int,Int)Histogram D)",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap a function executed concurrently\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "mapConcurrently",
           "package": "hsignal",
@@ -369,6 +398,7 @@
         "index": {
           "description": "map function executed concurrently",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "mapConcurrently",
           "normalized": "(Vector a-\u003eVector b)-\u003eMultichannel a-\u003eMultichannel b",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculate the mutual information of the phase between pairs of channels (fills upper half of matrix)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "mi_phase",
           "package": "hsignal",
@@ -394,6 +425,7 @@
         "index": {
           "description": "calculate the mutual information of the phase between pairs of channels fills upper half of matrix",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "mi_phase",
           "normalized": "Multichannel a-\u003eMatrix Double",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe bits of precision\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "precision",
           "package": "hsignal",
@@ -419,6 +452,7 @@
         "index": {
           "description": "the bits of precision",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "precision",
           "normalized": "Multichannel a-\u003eInt",
@@ -433,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "readMultichannel",
           "package": "hsignal",
@@ -442,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "readMultichannel",
           "normalized": "FilePath-\u003eIO(Multichannel a)",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe length, in samples\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "samples",
           "package": "hsignal",
@@ -468,6 +505,7 @@
         "index": {
           "description": "the length in samples",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "samples",
           "normalized": "Multichannel a-\u003eInt",
@@ -483,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe sampling rate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "sampling_rate",
           "package": "hsignal",
@@ -493,6 +532,7 @@
         "index": {
           "description": "the sampling rate",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "sampling_rate",
           "normalized": "Multichannel a-\u003eInt",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract a slice of the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "slice",
           "package": "hsignal",
@@ -517,6 +558,7 @@
         "index": {
           "description": "extract slice of the data",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "slice",
           "normalized": "Int-\u003eInt-\u003eMultichannel a-\u003eMultichannel a",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert the data to a matrix with channels as rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "toMatrix",
           "package": "hsignal",
@@ -542,6 +585,7 @@
         "index": {
           "description": "convert the data to matrix with channels as rows",
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "toMatrix",
           "normalized": "Multichannel a-\u003eMatrix a",
@@ -557,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Multichannel",
           "name": "writeMultichannel",
           "package": "hsignal",
@@ -566,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Numeric Signal Multichannel",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Multichannel",
           "name": "writeMultichannel",
           "normalized": "FilePath-\u003eMultichannel a-\u003eIO()",
@@ -582,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNoise generation functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Noise",
           "name": "Noise",
           "package": "hsignal",
@@ -591,6 +638,7 @@
         "index": {
           "description": "Noise generation functions",
           "hierarchy": "Numeric Signal Noise",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Noise",
           "name": "Noise",
           "package": "hsignal",
@@ -605,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1/f scale invariant noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Noise",
           "name": "pinkNoise",
           "package": "hsignal",
@@ -614,6 +663,7 @@
         "index": {
           "description": "scale invariant noise",
           "hierarchy": "Numeric Signal Noise",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Noise",
           "name": "pinkNoise",
           "normalized": "Double-\u003eInt-\u003eInt-\u003eVector Double",
@@ -630,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate noise from a power spectrum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Noise",
           "name": "powerNoise",
           "package": "hsignal",
@@ -639,6 +690,7 @@
         "index": {
           "description": "generate noise from power spectrum",
           "hierarchy": "Numeric Signal Noise",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Noise",
           "name": "powerNoise",
           "normalized": "Vector Double-\u003eInt-\u003eVector Double",
@@ -654,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal.Noise",
           "name": "spatialNoise",
           "package": "hsignal",
@@ -662,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Numeric Signal Noise",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal.Noise",
           "name": "spatialNoise",
           "normalized": "Double-\u003eInt-\u003eInt-\u003eInt-\u003eMatrix Double",
@@ -678,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSignal processing functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "Signal",
           "package": "hsignal",
@@ -687,6 +742,7 @@
         "index": {
           "description": "Signal processing functions",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "Signal",
           "package": "hsignal",
@@ -700,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "Convolvable",
           "package": "hsignal",
@@ -708,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "Convolvable",
           "package": "hsignal",
@@ -721,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "Filterable",
           "package": "hsignal",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "Filterable",
           "package": "hsignal",
@@ -743,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe phase of an analytic signal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "analytic_phase",
           "package": "hsignal",
@@ -753,6 +814,7 @@
         "index": {
           "description": "the phase of an analytic signal",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "analytic_phase",
           "normalized": "Vector(Complex a)-\u003eVector a",
@@ -768,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe power (amplitude^2 = v * (conj c)) of an analytic signal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "analytic_power",
           "package": "hsignal",
@@ -778,6 +841,7 @@
         "index": {
           "description": "the power amplitude conj of an analytic signal",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "analytic_power",
           "normalized": "Vector(Complex Double)-\u003eVector a",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean analytic signal is the original signal with Hilbert-transformed signal as imaginary component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "analytic_signal",
           "package": "hsignal",
@@ -803,6 +868,7 @@
         "index": {
           "description": "an analytic signal is the original signal with Hilbert-transformed signal as imaginary component",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "analytic_signal",
           "normalized": "Vector Double-\u003eVector(Complex Double)",
@@ -818,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eauto correlation of two signals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "auto_correlation",
           "package": "hsignal",
@@ -827,6 +894,7 @@
         "index": {
           "description": "auto correlation of two signals",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "auto_correlation",
           "normalized": "Int-\u003eVector a-\u003eVector a",
@@ -842,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eauto covariance of two signals\n     the auto correlation is computed by dividing the result\n     by the variance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "auto_covariance",
           "package": "hsignal",
@@ -851,6 +920,7 @@
         "index": {
           "description": "auto covariance of two signals the auto correlation is computed by dividing the result by the variance",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "auto_covariance",
           "normalized": "Int-\u003eVector a-\u003e(a,Vector a)",
@@ -866,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea broadband filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "broadband_filter",
           "package": "hsignal",
@@ -875,6 +946,7 @@
         "index": {
           "description": "broadband filter",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "broadband_filter",
           "normalized": "Int-\u003e(Int,Int)-\u003eVector a-\u003eVector a",
@@ -890,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea broadband FIR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "broadband_fir",
           "package": "hsignal",
@@ -899,6 +972,7 @@
         "index": {
           "description": "broadband FIR",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "broadband_fir",
           "normalized": "Int-\u003e(Int,Int)-\u003eVector a",
@@ -914,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvolve two containers, output is the size of the second argument, no zero padding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "convolve",
           "package": "hsignal",
@@ -924,6 +999,7 @@
         "index": {
           "description": "convolve two containers output is the size of the second argument no zero padding",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "convolve",
           "normalized": "a-\u003ea-\u003ea",
@@ -939,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecross correlation of two signals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "cross_correlation",
           "package": "hsignal",
@@ -948,6 +1025,7 @@
         "index": {
           "description": "cross correlation of two signals",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "cross_correlation",
           "normalized": "Int-\u003eVector a-\u003eVector a-\u003eVector a",
@@ -963,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecross covariance of two signals\n     the cross correlation is computed by dividing the result\n     by the product of the two standard deviations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "cross_covariance",
           "package": "hsignal",
@@ -972,6 +1051,7 @@
         "index": {
           "description": "cross covariance of two signals the cross correlation is computed by dividing the result by the product of the two standard deviations",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "cross_covariance",
           "normalized": "Int-\u003eVector a-\u003eVector a-\u003e(a,a,Vector a)",
@@ -987,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute the cross spectrum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "cross_spectrum",
           "package": "hsignal",
@@ -996,6 +1077,7 @@
         "index": {
           "description": "compute the cross spectrum",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "cross_spectrum",
           "normalized": "Int-\u003eVector a-\u003eVector a-\u003eVector(Complex Double)",
@@ -1011,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecumulative sum of a series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "cumulative_sum",
           "package": "hsignal",
@@ -1021,6 +1104,7 @@
         "index": {
           "description": "cumulative sum of series",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "cumulative_sum",
           "normalized": "Vector a-\u003eVector a",
@@ -1036,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe difference between consecutive elements of a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "deriv",
           "package": "hsignal",
@@ -1046,6 +1131,7 @@
         "index": {
           "description": "the difference between consecutive elements of vector",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "deriv",
           "normalized": "Vector a-\u003eVector a",
@@ -1061,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove a linear trend from data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "detrend",
           "package": "hsignal",
@@ -1070,6 +1157,7 @@
         "index": {
           "description": "remove linear trend from data",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "detrend",
           "normalized": "Int-\u003eVector Double-\u003eVector Double",
@@ -1085,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresample, take one sample every n samples in the original\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "downsample",
           "package": "hsignal",
@@ -1095,6 +1184,7 @@
         "index": {
           "description": "resample take one sample every samples in the original",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "downsample",
           "normalized": "Int-\u003eVector a-\u003eVector a",
@@ -1110,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilters the signal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "filter",
           "package": "hsignal",
@@ -1119,6 +1210,7 @@
         "index": {
           "description": "filters the signal",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "filter",
           "normalized": "Vector a-\u003eVector a-\u003eInt-\u003eVector a-\u003eVector a",
@@ -1134,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproduce an FIR filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "fir",
           "package": "hsignal",
@@ -1143,6 +1236,7 @@
         "index": {
           "description": "produce an FIR filter",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "fir",
           "normalized": "Int-\u003e[(a,a)]-\u003eInt-\u003eInt-\u003eVector a-\u003eVector a",
@@ -1158,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edetermine the frequency response of a filter, given a vector of frequencies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "freqzF",
           "package": "hsignal",
@@ -1167,6 +1262,7 @@
         "index": {
           "description": "determine the frequency response of filter given vector of frequencies",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "freqzF",
           "normalized": "Vector a-\u003eVector a-\u003eInt-\u003eVector a-\u003eVector a",
@@ -1182,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edetermine the frequency response of a filter, given a number of points and sampling rate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "freqzN",
           "package": "hsignal",
@@ -1191,6 +1288,7 @@
         "index": {
           "description": "determine the frequency response of filter given number of points and sampling rate",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "freqzN",
           "normalized": "Vector a-\u003eVector a-\u003eInt-\u003eInt-\u003e(Vector a,Vector a)",
@@ -1206,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecoefficients of a Hamming window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "hamming",
           "package": "hsignal",
@@ -1215,6 +1314,7 @@
         "index": {
           "description": "coefficients of Hamming window",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "hamming",
           "normalized": "Int-\u003eVector a",
@@ -1230,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWelch (1967) power spectrum density using periodogram/FFT method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "pwelch",
           "package": "hsignal",
@@ -1239,6 +1340,7 @@
         "index": {
           "description": "Welch power spectrum density using periodogram FFT method",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "pwelch",
           "normalized": "Int-\u003eInt-\u003eVector Double-\u003e(Vector Double,Vector Double)",
@@ -1254,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresize the vector to length n by resampling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "resize",
           "package": "hsignal",
@@ -1264,6 +1367,7 @@
         "index": {
           "description": "resize the vector to length by resampling",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "resize",
           "normalized": "Int-\u003eVector a-\u003eVector a",
@@ -1279,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estandard FIR filter\n |   FIR filter with grid a power of 2 greater than the order, ramp = grid/16, hamming window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "standard_fir",
           "package": "hsignal",
@@ -1289,6 +1394,7 @@
         "index": {
           "description": "standard FIR filter FIR filter with grid power of greater than the order ramp grid hamming window",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "standard_fir",
           "normalized": "Int-\u003e[(a,a)]-\u003eVector a",
@@ -1304,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunwrap the phase of signal (input expected to be within (-pi,pi))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:41 UTC 2014",
           "module": "Numeric.Signal",
           "name": "unwrap",
           "package": "hsignal",
@@ -1314,6 +1421,7 @@
         "index": {
           "description": "unwrap the phase of signal input expected to be within pi pi",
           "hierarchy": "Numeric Signal",
+          "indexed": "2014-03-11T18:48:41",
           "module": "Numeric.Signal",
           "name": "unwrap",
           "normalized": "Vector a-\u003eVector a",

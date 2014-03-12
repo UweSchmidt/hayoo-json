@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-core-flow"
+        "phrase": "ddc-core-flow",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShort-hands for constructing compound expressions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "Compounds",
           "package": "ddc-core-flow",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Short-hands for constructing compound expressions",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "Compounds",
           "package": "ddc-core-flow",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal \u003ccode\u003eBool#\u003c/code\u003e data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcBool",
           "package": "ddc-core-flow",
@@ -52,6 +55,7 @@
         "index": {
           "description": "literal Bool data constructor",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcBool",
           "normalized": "Bool-\u003eDaCon Name",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Literal \u003ccode\u003eNat#\u003c/code\u003e data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcNat",
           "package": "ddc-core-flow",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Literal Nat data constructor",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcNat",
           "normalized": "Integer-\u003eDaCon Name",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData constructor for \u003ccode\u003eTuple1#\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcTuple1",
           "package": "ddc-core-flow",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Data constructor for Tuple1",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcTuple1",
           "package": "ddc-core-flow",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData constructor for \u003ccode\u003eTuple2#\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcTuple2",
           "package": "ddc-core-flow",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Data constructor for Tuple2",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcTuple2",
           "package": "ddc-core-flow",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData constructor for n-tuples\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcTupleN",
           "package": "ddc-core-flow",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Data constructor for n-tuples",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "dcTupleN",
           "normalized": "Int-\u003eDaCon Name",
@@ -167,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "kRate",
           "package": "ddc-core-flow",
@@ -176,6 +189,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "kRate",
           "package": "ddc-core-flow",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive `Bool#` type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tBool",
           "package": "ddc-core-flow",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Primitive Bool type",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tBool",
           "package": "ddc-core-flow",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive `Int#` type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tInt",
           "package": "ddc-core-flow",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Primitive Int type",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tInt",
           "package": "ddc-core-flow",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive Nat# type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tNat",
           "package": "ddc-core-flow",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Primitive Nat type",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tNat",
           "package": "ddc-core-flow",
@@ -261,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tRateNat",
           "package": "ddc-core-flow",
@@ -270,6 +291,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tRateNat",
           "normalized": "Type Name-\u003eType Name",
@@ -285,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tRef",
           "package": "ddc-core-flow",
@@ -294,6 +317,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tRef",
           "normalized": "Type Name-\u003eType Name",
@@ -309,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tSegd",
           "package": "ddc-core-flow",
@@ -318,6 +343,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tSegd",
           "normalized": "Type Name-\u003eType Name-\u003eType Name",
@@ -333,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tSel1",
           "package": "ddc-core-flow",
@@ -342,6 +369,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tSel1",
           "normalized": "Type Name-\u003eType Name-\u003eType Name",
@@ -357,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tSel2",
           "package": "ddc-core-flow",
@@ -366,6 +395,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tSel2",
           "normalized": "Type Name-\u003eType Name-\u003eType Name-\u003eType Name",
@@ -381,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tSeries",
           "package": "ddc-core-flow",
@@ -390,6 +421,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tSeries",
           "normalized": "Type Name-\u003eType Name-\u003eType Name",
@@ -405,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tTuple1",
           "package": "ddc-core-flow",
@@ -414,6 +447,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tTuple1",
           "normalized": "Type Name-\u003eType Name",
@@ -429,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tTuple2",
           "package": "ddc-core-flow",
@@ -438,6 +473,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tTuple2",
           "normalized": "Type Name-\u003eType Name-\u003eType Name",
@@ -453,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tTupleN",
           "package": "ddc-core-flow",
@@ -462,6 +499,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tTupleN",
           "normalized": "[Type Name]-\u003eType Name",
@@ -477,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tVector",
           "package": "ddc-core-flow",
@@ -486,6 +525,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tVector",
           "normalized": "Type Name-\u003eType Name",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive `Void#` type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tVoid",
           "package": "ddc-core-flow",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Primitive Void type",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tVoid",
           "package": "ddc-core-flow",
@@ -526,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive `WordN#` type of the given width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tWord",
           "package": "ddc-core-flow",
@@ -536,6 +579,7 @@
         "index": {
           "description": "Primitive WordN type of the given width",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tWord",
           "normalized": "Int-\u003eType Name",
@@ -551,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tWorld",
           "package": "ddc-core-flow",
@@ -560,6 +605,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "tWorld",
           "package": "ddc-core-flow",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal \u003ccode\u003eBool#\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xBool",
           "package": "ddc-core-flow",
@@ -584,6 +631,7 @@
         "index": {
           "description": "literal Bool",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xBool",
           "normalized": "Bool-\u003eExp a Name",
@@ -599,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xLoopGuard",
           "package": "ddc-core-flow",
@@ -607,6 +656,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xLoopGuard",
           "normalized": "Exp()Name-\u003eExp()Name-\u003eExp()Name-\u003eExp()Name",
@@ -622,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xLoopLoopN",
           "package": "ddc-core-flow",
@@ -631,6 +682,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xLoopLoopN",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name-\u003eExp()Name",
@@ -647,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal \u003ccode\u003eNat#\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNat",
           "package": "ddc-core-flow",
@@ -657,6 +710,7 @@
         "index": {
           "description": "literal Nat",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNat",
           "normalized": "Integer-\u003eExp a Name",
@@ -672,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNatOfRateNat",
           "package": "ddc-core-flow",
@@ -681,6 +736,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNatOfRateNat",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name",
@@ -696,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNew",
           "package": "ddc-core-flow",
@@ -705,6 +762,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNew",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name",
@@ -720,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNewVector",
           "package": "ddc-core-flow",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNewVector",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name",
@@ -744,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNewVectorN",
           "package": "ddc-core-flow",
@@ -753,6 +814,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNewVectorN",
           "normalized": "Type Name-\u003eType Name-\u003eExp()Name-\u003eExp()Name",
@@ -768,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNewVectorR",
           "package": "ddc-core-flow",
@@ -777,6 +840,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNewVectorR",
           "normalized": "Type Name-\u003eType Name-\u003eExp()Name",
@@ -792,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNext",
           "package": "ddc-core-flow",
@@ -801,6 +866,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xNext",
           "normalized": "Type Name-\u003eType Name-\u003eExp()Name-\u003eExp()Name-\u003eExp()Name",
@@ -816,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xRateOfSeries",
           "package": "ddc-core-flow",
@@ -825,6 +892,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xRateOfSeries",
           "normalized": "Type Name-\u003eType Name-\u003eExp()Name-\u003eExp()Name",
@@ -840,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xRead",
           "package": "ddc-core-flow",
@@ -849,6 +918,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xRead",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name",
@@ -864,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xReadVector",
           "package": "ddc-core-flow",
@@ -873,6 +944,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xReadVector",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name-\u003eExp()Name",
@@ -888,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xSliceVector",
           "package": "ddc-core-flow",
@@ -897,6 +970,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xSliceVector",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name-\u003eExp()Name",
@@ -913,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eTuple2#\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xTuple2",
           "package": "ddc-core-flow",
@@ -923,6 +998,7 @@
         "index": {
           "description": "Construct Tuple2",
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xTuple2",
           "normalized": "Type Name-\u003eType Name-\u003eExp a Name-\u003eExp a Name-\u003eExp a Name",
@@ -938,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xWrite",
           "package": "ddc-core-flow",
@@ -947,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xWrite",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name-\u003eExp()Name",
@@ -962,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xWriteVector",
           "package": "ddc-core-flow",
@@ -971,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Compounds",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Compounds",
           "name": "xWriteVector",
           "normalized": "Type Name-\u003eExp()Name-\u003eExp()Name-\u003eExp()Name-\u003eExp()Name",
@@ -986,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Context",
           "name": "Context",
           "package": "ddc-core-flow",
@@ -994,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Context",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Context",
           "name": "Context",
           "package": "ddc-core-flow",
@@ -1007,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Context",
           "name": "Context",
           "package": "ddc-core-flow",
@@ -1015,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Context",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Context",
           "name": "Context",
           "package": "ddc-core-flow",
@@ -1193,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Env",
           "name": "Env",
           "package": "ddc-core-flow",
@@ -1201,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Env",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Env",
           "name": "Env",
           "package": "ddc-core-flow",
@@ -1215,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type definitions \n\u003c/p\u003e\u003cpre\u003e  Type                         Constructors\n  ----                ------------------------------\n  Bool#               True# False#\n  Nat#                0# 1# 2# ...\n  Int#                ... -2i# -1i# 0i# 1i# 2i# ...\n  Tag#                (none, convert from Nat#)\n  Word{8,16,32,64}#   42w8# 123w64# ...\n  Float{32,64}#       (none, convert from Int#)\n\n  Tuple{2-32}         (T{2-32})\n  Vector              (none, abstract)\n  Series              (none, abstract)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Env",
           "name": "primDataDefs",
           "package": "ddc-core-flow",
@@ -1225,6 +1312,7 @@
         "index": {
           "description": "Data type definitions Type Constructors Bool True False Nat Int Tag none convert from Nat Word w8 w64 Float none convert from Int Tuple Vector none abstract Series none abstract",
           "hierarchy": "DDC Core Flow Env",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Env",
           "name": "primDataDefs",
           "package": "ddc-core-flow",
@@ -1239,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind environment containing kinds of primitive data types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Env",
           "name": "primKindEnv",
           "package": "ddc-core-flow",
@@ -1249,6 +1338,7 @@
         "index": {
           "description": "Kind environment containing kinds of primitive data types",
           "hierarchy": "DDC Core Flow Env",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Env",
           "name": "primKindEnv",
           "package": "ddc-core-flow",
@@ -1263,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort environment containing sorts of primitive kinds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Env",
           "name": "primSortEnv",
           "package": "ddc-core-flow",
@@ -1273,6 +1364,7 @@
         "index": {
           "description": "Sort environment containing sorts of primitive kinds",
           "hierarchy": "DDC Core Flow Env",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Env",
           "name": "primSortEnv",
           "package": "ddc-core-flow",
@@ -1287,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType environment containing types of primitive operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Env",
           "name": "primTypeEnv",
           "package": "ddc-core-flow",
@@ -1297,6 +1390,7 @@
         "index": {
           "description": "Type environment containing types of primitive operators",
           "hierarchy": "DDC Core Flow Env",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Env",
           "name": "primTypeEnv",
           "package": "ddc-core-flow",
@@ -1310,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "Exp",
           "package": "ddc-core-flow",
@@ -1318,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "Exp",
           "package": "ddc-core-flow",
@@ -1331,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "AltF",
           "package": "ddc-core-flow",
@@ -1339,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "AltF",
           "package": "ddc-core-flow",
@@ -1352,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "BindF",
           "package": "ddc-core-flow",
@@ -1360,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "BindF",
           "package": "ddc-core-flow",
@@ -1373,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "BoundF",
           "package": "ddc-core-flow",
@@ -1381,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "BoundF",
           "package": "ddc-core-flow",
@@ -1394,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "CastF",
           "package": "ddc-core-flow",
@@ -1402,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "CastF",
           "package": "ddc-core-flow",
@@ -1415,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "ExpF",
           "package": "ddc-core-flow",
@@ -1423,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "ExpF",
           "package": "ddc-core-flow",
@@ -1436,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "KindEnvF",
           "package": "ddc-core-flow",
@@ -1444,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "KindEnvF",
           "package": "ddc-core-flow",
@@ -1457,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "LetsF",
           "package": "ddc-core-flow",
@@ -1465,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "LetsF",
           "package": "ddc-core-flow",
@@ -1478,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "ModuleF",
           "package": "ddc-core-flow",
@@ -1486,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "ModuleF",
           "package": "ddc-core-flow",
@@ -1499,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "PatF",
           "package": "ddc-core-flow",
@@ -1507,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "PatF",
           "package": "ddc-core-flow",
@@ -1520,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "TypeEnvF",
           "package": "ddc-core-flow",
@@ -1528,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "TypeEnvF",
           "package": "ddc-core-flow",
@@ -1541,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "TypeF",
           "package": "ddc-core-flow",
@@ -1549,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "TypeF",
           "package": "ddc-core-flow",
@@ -1562,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Exp",
           "name": "WitnessF",
           "package": "ddc-core-flow",
@@ -1570,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Exp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Exp",
           "name": "WitnessF",
           "package": "ddc-core-flow",
@@ -1583,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "Prim",
           "package": "ddc-core-flow",
@@ -1591,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "Prim",
           "package": "ddc-core-flow",
@@ -1605,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive data constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "DaConFlow",
           "package": "ddc-core-flow",
@@ -1614,6 +1737,7 @@
         "index": {
           "description": "Primitive data constructors",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "DaConFlow",
           "package": "ddc-core-flow",
@@ -1628,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragment specific kind constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "KiConFlow",
           "package": "ddc-core-flow",
@@ -1637,6 +1762,7 @@
         "index": {
           "description": "Fragment specific kind constructors",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "KiConFlow",
           "package": "ddc-core-flow",
@@ -1651,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of things used in Disciple Core Flow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "Name",
           "package": "ddc-core-flow",
@@ -1660,6 +1787,7 @@
         "index": {
           "description": "Names of things used in Disciple Core Flow",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "Name",
           "package": "ddc-core-flow",
@@ -1674,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlow operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlow",
           "package": "ddc-core-flow",
@@ -1683,6 +1812,7 @@
         "index": {
           "description": "Flow operators",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlow",
           "package": "ddc-core-flow",
@@ -1697,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpLoop",
           "package": "ddc-core-flow",
@@ -1706,6 +1837,7 @@
         "index": {
           "description": "Loop operators",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpLoop",
           "package": "ddc-core-flow",
@@ -1720,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStore",
           "package": "ddc-core-flow",
@@ -1729,6 +1862,7 @@
         "index": {
           "description": "Store operators",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStore",
           "package": "ddc-core-flow",
@@ -1743,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive arithmetic, logic, and comparison opretors.\n   We expect the backend/machine to be able to implement these directly.\n\u003c/p\u003e\u003cp\u003eFor the Shift Right operator, the type that it is used at determines\n   whether it is an arithmetic (with sign-extension) or logical\n   (no sign-extension) shift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "PrimArith",
           "package": "ddc-core-flow",
@@ -1751,6 +1886,7 @@
         "index": {
           "description": "Primitive arithmetic logic and comparison opretors We expect the backend machine to be able to implement these directly For the Shift Right operator the type that it is used at determines whether it is an arithmetic with sign-extension or logical no sign-extension shift",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "PrimArith",
           "package": "ddc-core-flow",
@@ -1765,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive cast between two types.\n\u003c/p\u003e\u003cp\u003eThe exact set of available casts is determined by the target platform.\n   For example, you can only promote a \u003ccode\u003eNat#\u003c/code\u003e to a \u003ccode\u003eWord32#\u003c/code\u003e on a 32-bit\n   system. On a 64-bit system the \u003ccode\u003eNat#\u003c/code\u003e type is 64-bits wide, so casting it\n   to a \u003ccode\u003eWord32#\u003c/code\u003e would be a truncation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "PrimCast",
           "package": "ddc-core-flow",
@@ -1773,6 +1910,7 @@
         "index": {
           "description": "Primitive cast between two types The exact set of available casts is determined by the target platform For example you can only promote Nat to Word32 on bit system On bit system the Nat type is bits wide so casting it to Word32 would be truncation",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "PrimCast",
           "package": "ddc-core-flow",
@@ -1787,6 +1925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "PrimTyCon",
           "package": "ddc-core-flow",
@@ -1795,6 +1934,7 @@
         "index": {
           "description": "Primitive type constructors",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "PrimTyCon",
           "package": "ddc-core-flow",
@@ -1809,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragment specific type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "TyConFlow",
           "package": "ddc-core-flow",
@@ -1818,6 +1959,7 @@
         "index": {
           "description": "Fragment specific type constructors",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "TyConFlow",
           "package": "ddc-core-flow",
@@ -1832,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTN\u003c/code\u003e data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "DaConFlowTuple",
           "package": "ddc-core-flow",
@@ -1842,6 +1985,7 @@
         "index": {
           "description": "TN data constructor",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "DaConFlowTuple",
           "package": "ddc-core-flow",
@@ -1855,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "KiConFlowRate",
           "package": "ddc-core-flow",
@@ -1864,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "KiConFlowRate",
           "package": "ddc-core-flow",
@@ -2277,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowCombine",
           "package": "ddc-core-flow",
@@ -2286,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowCombine",
           "package": "ddc-core-flow",
@@ -2299,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowFold",
           "package": "ddc-core-flow",
@@ -2308,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowFold",
           "package": "ddc-core-flow",
@@ -2321,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowFoldIndex",
           "package": "ddc-core-flow",
@@ -2330,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowFoldIndex",
           "package": "ddc-core-flow",
@@ -2343,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowFolds",
           "package": "ddc-core-flow",
@@ -2352,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowFolds",
           "package": "ddc-core-flow",
@@ -2365,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowMap",
           "package": "ddc-core-flow",
@@ -2374,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowMap",
           "package": "ddc-core-flow",
@@ -2387,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowMkSel",
           "package": "ddc-core-flow",
@@ -2396,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowMkSel",
           "package": "ddc-core-flow",
@@ -2409,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowNatOfRateNat",
           "package": "ddc-core-flow",
@@ -2418,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowNatOfRateNat",
           "package": "ddc-core-flow",
@@ -2431,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowPack",
           "package": "ddc-core-flow",
@@ -2440,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowPack",
           "package": "ddc-core-flow",
@@ -2453,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowRateOfSeries",
           "package": "ddc-core-flow",
@@ -2462,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowRateOfSeries",
           "package": "ddc-core-flow",
@@ -2475,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowRep",
           "package": "ddc-core-flow",
@@ -2484,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowRep",
           "package": "ddc-core-flow",
@@ -2497,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowReps",
           "package": "ddc-core-flow",
@@ -2506,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowReps",
           "package": "ddc-core-flow",
@@ -2519,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowSplit",
           "package": "ddc-core-flow",
@@ -2528,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowSplit",
           "package": "ddc-core-flow",
@@ -2541,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowUnfold",
           "package": "ddc-core-flow",
@@ -2550,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowUnfold",
           "package": "ddc-core-flow",
@@ -2563,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowUnfolds",
           "package": "ddc-core-flow",
@@ -2572,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowUnfolds",
           "package": "ddc-core-flow",
@@ -2585,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowVectorOfSeries",
           "package": "ddc-core-flow",
@@ -2594,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpFlowVectorOfSeries",
           "package": "ddc-core-flow",
@@ -2607,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpLoopGuard",
           "package": "ddc-core-flow",
@@ -2616,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpLoopGuard",
           "package": "ddc-core-flow",
@@ -2629,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpLoopLoop",
           "package": "ddc-core-flow",
@@ -2638,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpLoopLoop",
           "package": "ddc-core-flow",
@@ -2651,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpLoopLoopN",
           "package": "ddc-core-flow",
@@ -2660,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpLoopLoopN",
           "package": "ddc-core-flow",
@@ -2674,6 +2856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNew",
           "package": "ddc-core-flow",
@@ -2684,6 +2867,7 @@
         "index": {
           "description": "Allocate new reference",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNew",
           "package": "ddc-core-flow",
@@ -2698,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new vector (taking a \u003ccode\u003eNat\u003c/code\u003e for the length)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNewVector",
           "package": "ddc-core-flow",
@@ -2708,6 +2893,7 @@
         "index": {
           "description": "Allocate new vector taking Nat for the length",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNewVector",
           "package": "ddc-core-flow",
@@ -2722,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new vector (taking a \u003ccode\u003eRateNat\u003c/code\u003e for the length)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNewVectorN",
           "package": "ddc-core-flow",
@@ -2732,6 +2919,7 @@
         "index": {
           "description": "Allocate new vector taking RateNat for the length",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNewVectorN",
           "package": "ddc-core-flow",
@@ -2746,6 +2934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new vector (taking a \u003ccode\u003eRate\u003c/code\u003e for the length)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNewVectorR",
           "package": "ddc-core-flow",
@@ -2756,6 +2945,7 @@
         "index": {
           "description": "Allocate new vector taking Rate for the length",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNewVectorR",
           "package": "ddc-core-flow",
@@ -2770,6 +2960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the next element from a series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNext",
           "package": "ddc-core-flow",
@@ -2780,6 +2971,7 @@
         "index": {
           "description": "Take the next element from series",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreNext",
           "package": "ddc-core-flow",
@@ -2794,6 +2986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from a reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreRead",
           "package": "ddc-core-flow",
@@ -2804,6 +2997,7 @@
         "index": {
           "description": "Read from reference",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreRead",
           "package": "ddc-core-flow",
@@ -2818,6 +3012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreReadVector",
           "package": "ddc-core-flow",
@@ -2828,6 +3023,7 @@
         "index": {
           "description": "Read from vector",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreReadVector",
           "package": "ddc-core-flow",
@@ -2842,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlice after a pack/filter (taking a \u003ccode\u003eNat\u003c/code\u003e for new length)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreSliceVector",
           "package": "ddc-core-flow",
@@ -2852,6 +3049,7 @@
         "index": {
           "description": "Slice after pack filter taking Nat for new length",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreSliceVector",
           "package": "ddc-core-flow",
@@ -2866,6 +3064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreWrite",
           "package": "ddc-core-flow",
@@ -2876,6 +3075,7 @@
         "index": {
           "description": "Write to reference",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreWrite",
           "package": "ddc-core-flow",
@@ -2890,6 +3090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreWriteVector",
           "package": "ddc-core-flow",
@@ -2900,6 +3101,7 @@
         "index": {
           "description": "Write to vector",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "OpStoreWriteVector",
           "package": "ddc-core-flow",
@@ -3882,6 +4084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the kind of a type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "kindPrimTyCon",
           "package": "ddc-core-flow",
@@ -3892,6 +4095,7 @@
         "index": {
           "description": "Yield the kind of type constructor",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "kindPrimTyCon",
           "normalized": "PrimTyCon-\u003eKind Name",
@@ -3908,6 +4112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the kind of a primitive type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "kindTyConFlow",
           "package": "ddc-core-flow",
@@ -3918,6 +4123,7 @@
         "index": {
           "description": "Yield the kind of primitive type constructor",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "kindTyConFlow",
           "normalized": "TyConFlow-\u003eKind Name",
@@ -3934,6 +4140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a data constructor name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "readDaConFlow",
           "package": "ddc-core-flow",
@@ -3944,6 +4151,7 @@
         "index": {
           "description": "Read data constructor name",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "readDaConFlow",
           "normalized": "String-\u003eMaybe DaConFlow",
@@ -3960,6 +4168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a kind constructor name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "readKiConFlow",
           "package": "ddc-core-flow",
@@ -3970,6 +4179,7 @@
         "index": {
           "description": "Read kind constructor name",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "readKiConFlow",
           "normalized": "String-\u003eMaybe KiConFlow",
@@ -4013,6 +4223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a data flow operator name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "readOpFlow",
           "package": "ddc-core-flow",
@@ -4023,6 +4234,7 @@
         "index": {
           "description": "Read data flow operator name",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "readOpFlow",
           "normalized": "String-\u003eMaybe OpFlow",
@@ -4039,6 +4251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a loop operator name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "readOpLoop",
           "package": "ddc-core-flow",
@@ -4049,6 +4262,7 @@
         "index": {
           "description": "Read loop operator name",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "readOpLoop",
           "normalized": "String-\u003eMaybe OpLoop",
@@ -4065,6 +4279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a store operator name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "readOpStore",
           "package": "ddc-core-flow",
@@ -4075,6 +4290,7 @@
         "index": {
           "description": "Read store operator name",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "readOpStore",
           "normalized": "String-\u003eMaybe OpStore",
@@ -4091,6 +4307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a type constructor name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "readTyConFlow",
           "package": "ddc-core-flow",
@@ -4101,6 +4318,7 @@
         "index": {
           "description": "Read type constructor name",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "readTyConFlow",
           "normalized": "String-\u003eMaybe TyConFlow",
@@ -4117,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the type of a data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "typeDaConFlow",
           "package": "ddc-core-flow",
@@ -4127,6 +4346,7 @@
         "index": {
           "description": "Yield the type of data constructor",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "typeDaConFlow",
           "normalized": "DaConFlow-\u003eType Name",
@@ -4143,6 +4363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the type of a data flow operator, \n   or \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e if there isn't one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "typeOpFlow",
           "package": "ddc-core-flow",
@@ -4153,6 +4374,7 @@
         "index": {
           "description": "Yield the type of data flow operator or error if there isn one",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "typeOpFlow",
           "normalized": "OpFlow-\u003eType Name",
@@ -4169,6 +4391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the type of a loop operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "typeOpLoop",
           "package": "ddc-core-flow",
@@ -4179,6 +4402,7 @@
         "index": {
           "description": "Yield the type of loop operator",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "typeOpLoop",
           "normalized": "OpLoop-\u003eType Name",
@@ -4195,6 +4419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the type of a store operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "typeOpStore",
           "package": "ddc-core-flow",
@@ -4205,6 +4430,7 @@
         "index": {
           "description": "Yield the type of store operator",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "typeOpStore",
           "normalized": "OpStore-\u003eType Name",
@@ -4221,6 +4447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the type of a primitive arithmetic operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "typePrimArith",
           "package": "ddc-core-flow",
@@ -4231,6 +4458,7 @@
         "index": {
           "description": "Take the type of primitive arithmetic operator",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "typePrimArith",
           "normalized": "PrimArith-\u003eType Name",
@@ -4247,6 +4475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the type of a primitive cast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Prim",
           "name": "typePrimCast",
           "package": "ddc-core-flow",
@@ -4257,6 +4486,7 @@
         "index": {
           "description": "Take the type of primitive cast",
           "hierarchy": "DDC Core Flow Prim",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Prim",
           "name": "typePrimCast",
           "normalized": "PrimCast-\u003eType Name",
@@ -4273,6 +4503,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcedure\u003c/a\u003e\u003c/code\u003e is an abstract imperative loop nest. \n   The loops are represented as a separated loop anatomy, to make it\n   easy to incrementally build them from a data flow graph expressed\n   as a \u003ccode\u003eProcess\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Procedure",
           "package": "ddc-core-flow",
@@ -4282,6 +4513,7 @@
         "index": {
           "description": "Procedure is an abstract imperative loop nest The loops are represented as separated loop anatomy to make it easy to incrementally build them from data flow graph expressed as Process",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Procedure",
           "package": "ddc-core-flow",
@@ -4295,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Context",
           "package": "ddc-core-flow",
@@ -4303,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Context",
           "package": "ddc-core-flow",
@@ -4317,6 +4551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA loop nest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Nest",
           "package": "ddc-core-flow",
@@ -4326,6 +4561,7 @@
         "index": {
           "description": "loop nest",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Nest",
           "package": "ddc-core-flow",
@@ -4340,6 +4576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn imperative procedure made up of some loops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Procedure",
           "package": "ddc-core-flow",
@@ -4349,6 +4586,7 @@
         "index": {
           "description": "An imperative procedure made up of some loops",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Procedure",
           "package": "ddc-core-flow",
@@ -4363,6 +4601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatements that appear in the body of a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StmtBody",
           "package": "ddc-core-flow",
@@ -4372,6 +4611,7 @@
         "index": {
           "description": "Statements that appear in the body of loop",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StmtBody",
           "package": "ddc-core-flow",
@@ -4386,6 +4626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatements that appear after a loop to cleanup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StmtEnd",
           "package": "ddc-core-flow",
@@ -4395,6 +4636,7 @@
         "index": {
           "description": "Statements that appear after loop to cleanup",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StmtEnd",
           "package": "ddc-core-flow",
@@ -4409,6 +4651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatements that can appear at the start of a loop.\n   These initialise accumulators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StmtStart",
           "package": "ddc-core-flow",
@@ -4418,6 +4661,7 @@
         "index": {
           "description": "Statements that can appear at the start of loop These initialise accumulators",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StmtStart",
           "package": "ddc-core-flow",
@@ -4432,6 +4676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from an accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "BodyAccRead",
           "package": "ddc-core-flow",
@@ -4442,6 +4687,7 @@
         "index": {
           "description": "Read from an accumulator",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "BodyAccRead",
           "package": "ddc-core-flow",
@@ -4456,6 +4702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody of an accumulation operation.\n   Writes to the accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "BodyAccWrite",
           "package": "ddc-core-flow",
@@ -4466,6 +4713,7 @@
         "index": {
           "description": "Body of an accumulation operation Writes to the accumulator",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "BodyAccWrite",
           "package": "ddc-core-flow",
@@ -4480,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a pure expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "BodyStmt",
           "package": "ddc-core-flow",
@@ -4490,6 +4739,7 @@
         "index": {
           "description": "Evaluate pure expression",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "BodyStmt",
           "package": "ddc-core-flow",
@@ -4504,6 +4754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "BodyVecWrite",
           "package": "ddc-core-flow",
@@ -4514,6 +4765,7 @@
         "index": {
           "description": "Write to vector",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "BodyVecWrite",
           "package": "ddc-core-flow",
@@ -4528,6 +4780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the result of an accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "EndAcc",
           "package": "ddc-core-flow",
@@ -4538,6 +4791,7 @@
         "index": {
           "description": "Read the result of an accumulator",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "EndAcc",
           "package": "ddc-core-flow",
@@ -4552,6 +4806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure ending statements to produce the result of \n   the overall process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "EndStmt",
           "package": "ddc-core-flow",
@@ -4562,6 +4817,7 @@
         "index": {
           "description": "Pure ending statements to produce the result of the overall process",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "EndStmt",
           "package": "ddc-core-flow",
@@ -4576,6 +4832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestructively slice down a vector to its final size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "EndVecSlice",
           "package": "ddc-core-flow",
@@ -4586,6 +4843,7 @@
         "index": {
           "description": "Destructively slice down vector to its final size",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "EndVecSlice",
           "package": "ddc-core-flow",
@@ -4599,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "NestEmpty",
           "package": "ddc-core-flow",
@@ -4608,6 +4867,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "NestEmpty",
           "package": "ddc-core-flow",
@@ -4621,6 +4881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "NestIf",
           "package": "ddc-core-flow",
@@ -4630,6 +4891,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "NestIf",
           "package": "ddc-core-flow",
@@ -4643,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "NestList",
           "package": "ddc-core-flow",
@@ -4652,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "NestList",
           "package": "ddc-core-flow",
@@ -4665,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "NestLoop",
           "package": "ddc-core-flow",
@@ -4674,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "NestLoop",
           "package": "ddc-core-flow",
@@ -4687,6 +4953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Procedure",
           "package": "ddc-core-flow",
@@ -4696,6 +4963,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "Procedure",
           "package": "ddc-core-flow",
@@ -4709,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StartAcc",
           "package": "ddc-core-flow",
@@ -4718,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StartAcc",
           "package": "ddc-core-flow",
@@ -4731,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StartVecNew",
           "package": "ddc-core-flow",
@@ -4740,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "StartVecNew",
           "package": "ddc-core-flow",
@@ -4754,6 +5026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression to update the accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyAccExp",
           "package": "ddc-core-flow",
@@ -4764,6 +5037,7 @@
         "index": {
           "description": "Expression to update the accumulator",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyAccExp",
           "normalized": "Exp()Name",
@@ -4780,6 +5054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the accumulator.\n\u003c/p\u003e\u003cp\u003eName of the accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyAccName",
           "package": "ddc-core-flow",
@@ -4790,6 +5065,7 @@
         "index": {
           "description": "Name of the accumulator Name of the accumulator",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyAccName",
           "package": "ddc-core-flow",
@@ -4804,6 +5080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinder for the read value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyAccNameBind",
           "package": "ddc-core-flow",
@@ -4814,6 +5091,7 @@
         "index": {
           "description": "Binder for the read value",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyAccNameBind",
           "package": "ddc-core-flow",
@@ -4828,6 +5106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the accumulator.\n\u003c/p\u003e\u003cp\u003eType of the accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyAccType",
           "package": "ddc-core-flow",
@@ -4838,6 +5117,7 @@
         "index": {
           "description": "Type of the accumulator Type of the accumulator",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyAccType",
           "package": "ddc-core-flow",
@@ -4852,6 +5132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression to evaluate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyExpression",
           "package": "ddc-core-flow",
@@ -4862,6 +5143,7 @@
         "index": {
           "description": "Expression to evaluate",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyExpression",
           "normalized": "Exp()Name",
@@ -4878,6 +5160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind for the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyResultBind",
           "package": "ddc-core-flow",
@@ -4888,6 +5171,7 @@
         "index": {
           "description": "Bind for the result",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyResultBind",
           "package": "ddc-core-flow",
@@ -4902,6 +5186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyVecName",
           "package": "ddc-core-flow",
@@ -4912,6 +5197,7 @@
         "index": {
           "description": "Name of the vector",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyVecName",
           "package": "ddc-core-flow",
@@ -4926,6 +5212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyVecWriteElemType",
           "package": "ddc-core-flow",
@@ -4936,6 +5223,7 @@
         "index": {
           "description": "Type of the element",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyVecWriteElemType",
           "package": "ddc-core-flow",
@@ -4950,6 +5238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression for the index to write to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyVecWriteIx",
           "package": "ddc-core-flow",
@@ -4960,6 +5249,7 @@
         "index": {
           "description": "Expression for the index to write to",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyVecWriteIx",
           "normalized": "Exp()Name",
@@ -4976,6 +5266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression for the value to write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyVecWriteVal",
           "package": "ddc-core-flow",
@@ -4986,6 +5277,7 @@
         "index": {
           "description": "Expression for the value to write",
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "bodyVecWriteVal",
           "normalized": "Exp()Name",
@@ -5001,6 +5293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endAccName",
           "package": "ddc-core-flow",
@@ -5010,6 +5303,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endAccName",
           "package": "ddc-core-flow",
@@ -5023,6 +5317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endBind",
           "package": "ddc-core-flow",
@@ -5032,6 +5327,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endBind",
           "package": "ddc-core-flow",
@@ -5045,6 +5341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endExp",
           "package": "ddc-core-flow",
@@ -5054,6 +5351,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endExp",
           "normalized": "Exp()Name",
@@ -5069,6 +5367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endName",
           "package": "ddc-core-flow",
@@ -5078,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endName",
           "package": "ddc-core-flow",
@@ -5091,6 +5391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endType",
           "package": "ddc-core-flow",
@@ -5100,6 +5401,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endType",
           "package": "ddc-core-flow",
@@ -5113,6 +5415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endVecName",
           "package": "ddc-core-flow",
@@ -5122,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endVecName",
           "package": "ddc-core-flow",
@@ -5135,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endVecRate",
           "package": "ddc-core-flow",
@@ -5144,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endVecRate",
           "package": "ddc-core-flow",
@@ -5157,6 +5463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endVecType",
           "package": "ddc-core-flow",
@@ -5166,6 +5473,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "endVecType",
           "package": "ddc-core-flow",
@@ -5179,6 +5487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestBody",
           "package": "ddc-core-flow",
@@ -5188,6 +5497,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestBody",
           "normalized": "[StmtBody]",
@@ -5203,6 +5513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestEnd",
           "package": "ddc-core-flow",
@@ -5212,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestEnd",
           "normalized": "[StmtEnd]",
@@ -5227,6 +5539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestFlags",
           "package": "ddc-core-flow",
@@ -5236,6 +5549,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestFlags",
           "package": "ddc-core-flow",
@@ -5249,6 +5563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestInner",
           "package": "ddc-core-flow",
@@ -5258,6 +5573,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestInner",
           "package": "ddc-core-flow",
@@ -5271,6 +5587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestInnerRate",
           "package": "ddc-core-flow",
@@ -5280,6 +5597,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestInnerRate",
           "package": "ddc-core-flow",
@@ -5293,6 +5611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestList",
           "package": "ddc-core-flow",
@@ -5302,6 +5621,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestList",
           "normalized": "[Nest]",
@@ -5317,6 +5637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestOuterRate",
           "package": "ddc-core-flow",
@@ -5326,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestOuterRate",
           "package": "ddc-core-flow",
@@ -5339,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestRate",
           "package": "ddc-core-flow",
@@ -5348,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestRate",
           "package": "ddc-core-flow",
@@ -5361,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestResult",
           "package": "ddc-core-flow",
@@ -5370,6 +5695,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestResult",
           "normalized": "Exp()Name",
@@ -5385,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestStart",
           "package": "ddc-core-flow",
@@ -5394,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "nestStart",
           "normalized": "[StmtStart]",
@@ -5409,6 +5737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureName",
           "package": "ddc-core-flow",
@@ -5418,6 +5747,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureName",
           "package": "ddc-core-flow",
@@ -5431,6 +5761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureNest",
           "package": "ddc-core-flow",
@@ -5440,6 +5771,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureNest",
           "package": "ddc-core-flow",
@@ -5453,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureParamTypes",
           "package": "ddc-core-flow",
@@ -5462,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureParamTypes",
           "normalized": "[BindF]",
@@ -5477,6 +5811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureParamValues",
           "package": "ddc-core-flow",
@@ -5486,6 +5821,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureParamValues",
           "normalized": "[BindF]",
@@ -5501,6 +5837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureResult",
           "package": "ddc-core-flow",
@@ -5510,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureResult",
           "package": "ddc-core-flow",
@@ -5523,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureResultType",
           "package": "ddc-core-flow",
@@ -5532,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureResultType",
           "package": "ddc-core-flow",
@@ -5545,6 +5885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureStmts",
           "package": "ddc-core-flow",
@@ -5554,6 +5895,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "procedureStmts",
           "normalized": "[LetsF]",
@@ -5569,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startAccExp",
           "package": "ddc-core-flow",
@@ -5578,6 +5921,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startAccExp",
           "normalized": "Exp()Name",
@@ -5593,6 +5937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startAccName",
           "package": "ddc-core-flow",
@@ -5602,6 +5947,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startAccName",
           "package": "ddc-core-flow",
@@ -5615,6 +5961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startAccType",
           "package": "ddc-core-flow",
@@ -5624,6 +5971,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startAccType",
           "package": "ddc-core-flow",
@@ -5637,6 +5985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startVecNewElemType",
           "package": "ddc-core-flow",
@@ -5646,6 +5995,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startVecNewElemType",
           "package": "ddc-core-flow",
@@ -5659,6 +6009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startVecNewName",
           "package": "ddc-core-flow",
@@ -5668,6 +6019,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startVecNewName",
           "package": "ddc-core-flow",
@@ -5681,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startVecNewRate",
           "package": "ddc-core-flow",
@@ -5690,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Procedure",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Procedure",
           "name": "startVecNewRate",
           "package": "ddc-core-flow",
@@ -5703,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Process.Operator",
           "name": "Operator",
           "package": "ddc-core-flow",
@@ -5711,6 +6066,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Process Operator",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Process.Operator",
           "name": "Operator",
           "package": "ddc-core-flow",
@@ -5725,6 +6081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract series operator.\n\u003c/p\u003e\u003cp\u003eEach of the constructors holds all the information we need to produce\n   code for that operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Process.Operator",
           "name": "Operator",
           "package": "ddc-core-flow",
@@ -5734,6 +6091,7 @@
         "index": {
           "description": "An abstract series operator Each of the constructors holds all the information we need to produce code for that operator",
           "hierarchy": "DDC Core Flow Process Operator",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Process.Operator",
           "name": "Operator",
           "package": "ddc-core-flow",
@@ -6276,6 +6634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Process.Pretty",
           "name": "Pretty",
           "package": "ddc-core-flow",
@@ -6284,6 +6643,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Process Pretty",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Process.Pretty",
           "name": "Pretty",
           "package": "ddc-core-flow",
@@ -6297,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Process.Process",
           "name": "Process",
           "package": "ddc-core-flow",
@@ -6305,6 +6666,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Process Process",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Process.Process",
           "name": "Process",
           "package": "ddc-core-flow",
@@ -6319,6 +6681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA process applies some series operators and produces some non-series\n   result.\n\u003c/p\u003e\u003cp\u003eWe get one of these for each top-level series function in the\n   original program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Process.Process",
           "name": "Process",
           "package": "ddc-core-flow",
@@ -6328,6 +6691,7 @@
         "index": {
           "description": "process applies some series operators and produces some non-series result We get one of these for each top-level series function in the original program",
           "hierarchy": "DDC Core Flow Process Process",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Process.Process",
           "name": "Process",
           "package": "ddc-core-flow",
@@ -6570,6 +6934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Process",
           "name": "Process",
           "package": "ddc-core-flow",
@@ -6578,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Process",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Process",
           "name": "Process",
           "package": "ddc-core-flow",
@@ -6592,6 +6958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract series operator.\n\u003c/p\u003e\u003cp\u003eEach of the constructors holds all the information we need to produce\n   code for that operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Process",
           "name": "Operator",
           "package": "ddc-core-flow",
@@ -6601,6 +6968,7 @@
         "index": {
           "description": "An abstract series operator Each of the constructors holds all the information we need to produce code for that operator",
           "hierarchy": "DDC Core Flow Process",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Process",
           "name": "Operator",
           "package": "ddc-core-flow",
@@ -6615,6 +6983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA process applies some series operators and produces some non-series\n   result.\n\u003c/p\u003e\u003cp\u003eWe get one of these for each top-level series function in the\n   original program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Process",
           "name": "Process",
           "package": "ddc-core-flow",
@@ -6624,6 +6993,7 @@
         "index": {
           "description": "process applies some series operators and produces some non-series result We get one of these for each top-level series function in the original program",
           "hierarchy": "DDC Core Flow Process",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Process",
           "name": "Process",
           "package": "ddc-core-flow",
@@ -6638,6 +7008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLanguage profile for Disciple Core Flow.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Profile",
           "name": "Profile",
           "package": "ddc-core-flow",
@@ -6647,6 +7018,7 @@
         "index": {
           "description": "Language profile for Disciple Core Flow",
           "hierarchy": "DDC Core Flow Profile",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Profile",
           "name": "Profile",
           "package": "ddc-core-flow",
@@ -6661,6 +7033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new type variable name that is not in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Profile",
           "name": "freshT",
           "package": "ddc-core-flow",
@@ -6671,6 +7044,7 @@
         "index": {
           "description": "Create new type variable name that is not in the given environment",
           "hierarchy": "DDC Core Flow Profile",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Profile",
           "name": "freshT",
           "normalized": "Env Name-\u003eBind Name-\u003eState Int Name",
@@ -6686,6 +7060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new value variable name that is not in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Profile",
           "name": "freshX",
           "package": "ddc-core-flow",
@@ -6696,6 +7071,7 @@
         "index": {
           "description": "Create new value variable name that is not in the given environment",
           "hierarchy": "DDC Core Flow Profile",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Profile",
           "name": "freshX",
           "normalized": "Env Name-\u003eBind Name-\u003eState Int Name",
@@ -6788,6 +7164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Concretize",
           "name": "Concretize",
           "package": "ddc-core-flow",
@@ -6796,6 +7173,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Concretize",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Concretize",
           "name": "Concretize",
           "package": "ddc-core-flow",
@@ -6810,6 +7188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite operators that use type level rates to ones that \n   use value level ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Concretize",
           "name": "concretizeModule",
           "package": "ddc-core-flow",
@@ -6820,6 +7199,7 @@
         "index": {
           "description": "Rewrite operators that use type level rates to ones that use value level ones",
           "hierarchy": "DDC Core Flow Transform Concretize",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Concretize",
           "name": "concretizeModule",
           "normalized": "Module()Name-\u003eModule()Name",
@@ -6835,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Extract",
           "name": "Extract",
           "package": "ddc-core-flow",
@@ -6843,6 +7224,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Extract",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Extract",
           "name": "Extract",
           "package": "ddc-core-flow",
@@ -6857,6 +7239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a core module from some stream procedures.\n   This produces vanilla core code again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Extract",
           "name": "extractModule",
           "package": "ddc-core-flow",
@@ -6867,6 +7250,7 @@
         "index": {
           "description": "Extract core module from some stream procedures This produces vanilla core code again",
           "hierarchy": "DDC Core Flow Transform Extract",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Extract",
           "name": "extractModule",
           "normalized": "ModuleF-\u003e[Procedure]-\u003eModuleF",
@@ -6882,6 +7266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Prep",
           "name": "Prep",
           "package": "ddc-core-flow",
@@ -6890,6 +7275,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Prep",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Prep",
           "name": "Prep",
           "package": "ddc-core-flow",
@@ -6904,6 +7290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a module for lowering.\n   We need all worker functions passed to flow operators to be eta-expanded\n   and for their parameters to have real names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Prep",
           "name": "prepModule",
           "package": "ddc-core-flow",
@@ -6914,6 +7301,7 @@
         "index": {
           "description": "Prepare module for lowering We need all worker functions passed to flow operators to be eta-expanded and for their parameters to have real names",
           "hierarchy": "DDC Core Flow Transform Prep",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Prep",
           "name": "prepModule",
           "normalized": "Module a Name-\u003e(Module a Name,Map Name[Type Name])",
@@ -6929,6 +7317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Schedule",
           "name": "Schedule",
           "package": "ddc-core-flow",
@@ -6937,6 +7326,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Schedule",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Schedule",
           "name": "Schedule",
           "package": "ddc-core-flow",
@@ -6951,6 +7341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate loops from a list of operators.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The input series must all have the same rate.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Schedule",
           "name": "scheduleProcess",
           "package": "ddc-core-flow",
@@ -6961,6 +7352,7 @@
         "index": {
           "description": "Create loops from list of operators The input series must all have the same rate",
           "hierarchy": "DDC Core Flow Transform Schedule",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Schedule",
           "name": "scheduleProcess",
           "normalized": "Process-\u003eProcedure",
@@ -6976,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Slurp",
           "name": "Slurp",
           "package": "ddc-core-flow",
@@ -6984,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Slurp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Slurp",
           "name": "Slurp",
           "package": "ddc-core-flow",
@@ -6998,6 +7392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlurp stream processes from the top level of a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Slurp",
           "name": "slurpProcesses",
           "package": "ddc-core-flow",
@@ -7008,6 +7403,7 @@
         "index": {
           "description": "Slurp stream processes from the top level of module",
           "hierarchy": "DDC Core Flow Transform Slurp",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Slurp",
           "name": "slurpProcesses",
           "normalized": "Module()Name-\u003e[Process]",
@@ -7024,6 +7420,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition for the thread transform.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "Thread",
           "package": "ddc-core-flow",
@@ -7033,6 +7430,7 @@
         "index": {
           "description": "Definition for the thread transform",
           "hierarchy": "DDC Core Flow Transform Thread",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "Thread",
           "package": "ddc-core-flow",
@@ -7047,6 +7445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread config defines what state token to use,\n   and what functions need to have it threaded though them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "threadConfig",
           "package": "ddc-core-flow",
@@ -7057,6 +7456,7 @@
         "index": {
           "description": "Thread config defines what state token to use and what functions need to have it threaded though them",
           "hierarchy": "DDC Core Flow Transform Thread",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "threadConfig",
           "normalized": "Config()Name",
@@ -7073,6 +7473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the new type for a stateful primop.\n   The new types have a World# token threaded though them, which make them\n   suitable for applying the Thread transform when converting a Core Flow\n   program to a language that needs such state threading (like GHC Core).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "threadType",
           "package": "ddc-core-flow",
@@ -7083,6 +7484,7 @@
         "index": {
           "description": "Get the new type for stateful primop The new types have World token threaded though them which make them suitable for applying the Thread transform when converting Core Flow program to language that needs such state threading like GHC Core",
           "hierarchy": "DDC Core Flow Transform Thread",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "threadType",
           "normalized": "Name-\u003eType Name-\u003eMaybe(Type Name)",
@@ -7099,6 +7501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a pattern to unwrap the result of a stateful computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "unwrapResult",
           "package": "ddc-core-flow",
@@ -7109,6 +7512,7 @@
         "index": {
           "description": "Make pattern to unwrap the result of stateful computation",
           "hierarchy": "DDC Core Flow Transform Thread",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "unwrapResult",
           "normalized": "Name-\u003eMaybe(Bind Name-\u003e[Bind Name]-\u003ePat Name)",
@@ -7125,6 +7529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap the result of a stateful computation with the state token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "wrapResultExp",
           "package": "ddc-core-flow",
@@ -7134,6 +7539,7 @@
         "index": {
           "description": "Wrap the result of stateful computation with the state token",
           "hierarchy": "DDC Core Flow Transform Thread",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "wrapResultExp",
           "normalized": "Exp(AnTEC()Name)Name-\u003eExp(AnTEC()Name)Name-\u003eExp()Name",
@@ -7150,6 +7556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap the result type of a stateful computation with the state type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "wrapResultType",
           "package": "ddc-core-flow",
@@ -7160,6 +7567,7 @@
         "index": {
           "description": "Wrap the result type of stateful computation with the state type",
           "hierarchy": "DDC Core Flow Transform Thread",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Thread",
           "name": "wrapResultType",
           "normalized": "Type Name-\u003eType Name",
@@ -7176,6 +7584,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert a loop expressed with the loopn\u003ca name=\" and guard\"/\u003e combinators into\n   a tail recursive loop with accumulators.\n\u003c/p\u003e\u003cp\u003eASUMPTIONS:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e No nested loops.\n      We could support these, but we don't yet.\n\u003c/li\u003e\u003cli\u003e Outer control flow is only defined via the loopn\u003ca name=\" and guard\"/\u003e \n     combinators.\n\u003c/li\u003e\u003cli\u003e References don't escape, \n      so they're not stored in data structures or captured in closures.\n\u003c/li\u003e\u003cli\u003e No aliasing of references, \n      so updating ref with a particular name does not affect any other ref.\n\u003c/li\u003e\u003cli\u003e Refs holding loop counters for loopn\u003ca name=\" and entry counters for guard\"/\u003e \n     are not written to by any other statements.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe above assumptions are true for code generated with the lowering\n   transform, but won't be true for general code, and we don't check for\n   violiations of these assumptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "Wind",
           "package": "ddc-core-flow",
@@ -7185,6 +7594,7 @@
         "index": {
           "description": "Convert loop expressed with the loopn combinators into tail recursive loop with accumulators ASUMPTIONS No nested loops We could support these but we don yet Outer control flow is only defined via the loopn combinators References don escape so they re not stored in data structures or captured in closures No aliasing of references so updating ref with particular name does not affect any other ref Refs holding loop counters for loopn are not written to by any other statements The above assumptions are true for code generated with the lowering transform but won be true for general code and we don check for violiations of these assumptions",
           "hierarchy": "DDC Core Flow Transform Wind",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "Wind",
           "package": "ddc-core-flow",
@@ -7199,6 +7609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent information for a reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "RefInfo",
           "package": "ddc-core-flow",
@@ -7208,6 +7619,7 @@
         "index": {
           "description": "Current information for reference",
           "hierarchy": "DDC Core Flow Transform Wind",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "RefInfo",
           "package": "ddc-core-flow",
@@ -7221,6 +7633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "RefInfo",
           "package": "ddc-core-flow",
@@ -7230,6 +7643,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Wind",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "RefInfo",
           "package": "ddc-core-flow",
@@ -7243,6 +7657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "refInfoCurrent",
           "package": "ddc-core-flow",
@@ -7252,6 +7667,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Wind",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "refInfoCurrent",
           "package": "ddc-core-flow",
@@ -7265,6 +7681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "refInfoName",
           "package": "ddc-core-flow",
@@ -7274,6 +7691,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Wind",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "refInfoName",
           "package": "ddc-core-flow",
@@ -7287,6 +7705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "refInfoType",
           "package": "ddc-core-flow",
@@ -7296,6 +7715,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Wind",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "refInfoType",
           "package": "ddc-core-flow",
@@ -7309,6 +7729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "refInfoVersionNumber",
           "package": "ddc-core-flow",
@@ -7318,6 +7739,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Wind",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "refInfoVersionNumber",
           "package": "ddc-core-flow",
@@ -7331,6 +7753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "windModule",
           "package": "ddc-core-flow",
@@ -7340,6 +7763,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Flow Transform Wind",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow.Transform.Wind",
           "name": "windModule",
           "normalized": "Module()Name-\u003eModule()Name",
@@ -7356,6 +7780,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisciple Core Flow is a Domain Specific Language (DSL) for writing first\n   order data flow programs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow",
           "name": "Flow",
           "package": "ddc-core-flow",
@@ -7365,6 +7790,7 @@
         "index": {
           "description": "Disciple Core Flow is Domain Specific Language DSL for writing first order data flow programs",
           "hierarchy": "DDC Core Flow",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow",
           "name": "Flow",
           "package": "ddc-core-flow",
@@ -7379,6 +7805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of things used in Disciple Core Flow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow",
           "name": "Name",
           "package": "ddc-core-flow",
@@ -7388,6 +7815,7 @@
         "index": {
           "description": "Names of things used in Disciple Core Flow",
           "hierarchy": "DDC Core Flow",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow",
           "name": "Name",
           "package": "ddc-core-flow",
@@ -7402,6 +7830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive arithmetic, logic, and comparison opretors.\n   We expect the backend/machine to be able to implement these directly.\n\u003c/p\u003e\u003cp\u003eFor the Shift Right operator, the type that it is used at determines\n   whether it is an arithmetic (with sign-extension) or logical\n   (no sign-extension) shift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow",
           "name": "PrimArith",
           "package": "ddc-core-flow",
@@ -7410,6 +7839,7 @@
         "index": {
           "description": "Primitive arithmetic logic and comparison opretors We expect the backend machine to be able to implement these directly For the Shift Right operator the type that it is used at determines whether it is an arithmetic with sign-extension or logical no sign-extension shift",
           "hierarchy": "DDC Core Flow",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow",
           "name": "PrimArith",
           "package": "ddc-core-flow",
@@ -7424,6 +7854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive cast between two types.\n\u003c/p\u003e\u003cp\u003eThe exact set of available casts is determined by the target platform.\n   For example, you can only promote a \u003ccode\u003eNat#\u003c/code\u003e to a \u003ccode\u003eWord32#\u003c/code\u003e on a 32-bit\n   system. On a 64-bit system the \u003ccode\u003eNat#\u003c/code\u003e type is 64-bits wide, so casting it\n   to a \u003ccode\u003eWord32#\u003c/code\u003e would be a truncation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow",
           "name": "PrimCast",
           "package": "ddc-core-flow",
@@ -7432,6 +7863,7 @@
         "index": {
           "description": "Primitive cast between two types The exact set of available casts is determined by the target platform For example you can only promote Nat to Word32 on bit system On bit system the Nat type is bits wide so casting it to Word32 would be truncation",
           "hierarchy": "DDC Core Flow",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow",
           "name": "PrimCast",
           "package": "ddc-core-flow",
@@ -7446,6 +7878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow",
           "name": "PrimTyCon",
           "package": "ddc-core-flow",
@@ -7454,6 +7887,7 @@
         "index": {
           "description": "Primitive type constructors",
           "hierarchy": "DDC Core Flow",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow",
           "name": "PrimTyCon",
           "package": "ddc-core-flow",
@@ -7468,6 +7902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragment specific type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:34 UTC 2014",
           "module": "DDC.Core.Flow",
           "name": "TyConFlow",
           "package": "ddc-core-flow",
@@ -7477,6 +7912,7 @@
         "index": {
           "description": "Fragment specific type constructors",
           "hierarchy": "DDC Core Flow",
+          "indexed": "2014-03-11T17:51:34",
           "module": "DDC.Core.Flow",
           "name": "TyConFlow",
           "package": "ddc-core-flow",

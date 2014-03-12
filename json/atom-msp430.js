@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atom-msp430"
+        "phrase": "atom-msp430",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "Compile",
           "package": "atom-msp430",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "Compile",
           "package": "atom-msp430",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram information. It specifies the functions that should be used in specific\n   roles in the compiled code, as well as other configuration information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "MSP430Compilation",
           "package": "atom-msp430",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Program information It specifies the functions that should be used in specific roles in the compiled code as well as other configuration information",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "MSP430Compilation",
           "package": "atom-msp430",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "MSP430Compilation",
           "package": "atom-msp430",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "MSP430Compilation",
           "package": "atom-msp430",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a main function calling setup and loop?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "emitMainFn",
           "package": "atom-msp430",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Add main function calling setup and loop",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "emitMainFn",
           "package": "atom-msp430",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEasy settings for a program with setup and loop, but no main function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "energiaProgram",
           "package": "atom-msp430",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Easy settings for program with setup and loop but no main function",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "energiaProgram",
           "normalized": "Atom()-\u003eAtom()-\u003eMSP Compilation",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction called in a busy loop after setup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "loopFn",
           "package": "atom-msp430",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Function called in busy loop after setup",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "loopFn",
           "normalized": "Maybe(Atom())",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the loop function in the generated code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "loopFnName",
           "package": "atom-msp430",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Name of the loop function in the generated code",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "loopFnName",
           "package": "atom-msp430",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the main file to generate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "mainFile",
           "package": "atom-msp430",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Name of the main file to generate",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "mainFile",
           "package": "atom-msp430",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a program given by the compilation specification. Compiles all functions into library files\n   and then generates a main file which calls these functions in the appropriate way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "mspCompile",
           "package": "atom-msp430",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Compile program given by the compilation specification Compiles all functions into library files and then generates main file which calls these functions in the appropriate way",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "mspCompile",
           "normalized": "String-\u003eMSP Compilation-\u003eIO()",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault program to construct your own programs from. Contains Nothing and generates a\n   basic main.c. Use it by overriding the functions it generates, and optionally their names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "mspProgram",
           "package": "atom-msp430",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Default program to construct your own programs from Contains Nothing and generates basic main.c Use it by overriding the functions it generates and optionally their names",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "mspProgram",
           "package": "atom-msp430",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to call when there is a PORT1 interrupt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "port1ISR",
           "package": "atom-msp430",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Function to call when there is PORT1 interrupt",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "port1ISR",
           "normalized": "Maybe(Atom())",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the PORT1 interrupt function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "port1ISRName",
           "package": "atom-msp430",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Name of the PORT1 interrupt function",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "port1ISRName",
           "package": "atom-msp430",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to call when there is a PORT2 interrupt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "port2ISR",
           "package": "atom-msp430",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Function to call when there is PORT2 interrupt",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "port2ISR",
           "normalized": "Maybe(Atom())",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the PORT2 interrupt function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "port2ISRName",
           "package": "atom-msp430",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Name of the PORT2 interrupt function",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "port2ISRName",
           "package": "atom-msp430",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction called once when the MCU starts up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "setupFn",
           "package": "atom-msp430",
@@ -369,6 +398,7 @@
         "index": {
           "description": "Function called once when the MCU starts up",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "setupFn",
           "normalized": "Maybe(Atom())",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the setup function in the generated code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "setupFnName",
           "package": "atom-msp430",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Name of the setup function in the generated code",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "setupFnName",
           "package": "atom-msp430",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEasy settings for a program with just a setup function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "simpleProgram",
           "package": "atom-msp430",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Easy settings for program with just setup function",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "simpleProgram",
           "normalized": "Atom()-\u003eMSP Compilation",
@@ -435,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to run when a TimerA CCR interrupt happens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "timerAISR",
           "package": "atom-msp430",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Function to run when TimerA CCR interrupt happens",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "timerAISR",
           "normalized": "Maybe(Atom())",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the TimerA interrupt function in the generated code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "timerAISRName",
           "package": "atom-msp430",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Name of the TimerA interrupt function in the generated code",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "timerAISRName",
           "package": "atom-msp430",
@@ -485,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to call when the WDT interrupts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "watchdogISR",
           "package": "atom-msp430",
@@ -495,6 +534,7 @@
         "index": {
           "description": "Function to call when the WDT interrupts",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "watchdogISR",
           "normalized": "Maybe(Atom())",
@@ -511,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the WDT interrupt function in the generated code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "watchdogISRName",
           "package": "atom-msp430",
@@ -521,6 +562,7 @@
         "index": {
           "description": "Name of the WDT interrupt function in the generated code",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "watchdogISRName",
           "package": "atom-msp430",
@@ -535,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEasy settings for a Wiring-style program with setup and loop functions. Expects a device extension\n   for header files - i.e. running with \u003ca\u003eg2231\u003c/a\u003e wihh generate files that #include \u003ca\u003emsp430g2231.h\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Compile",
           "name": "wiringProgram",
           "package": "atom-msp430",
@@ -545,6 +588,7 @@
         "index": {
           "description": "Easy settings for Wiring-style program with setup and loop functions Expects device extension for header files i.e running with g2231 wihh generate files that include msp430g2231.h",
           "hierarchy": "Language Atom MSP430 Compile",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Compile",
           "name": "wiringProgram",
           "normalized": "Atom()-\u003eAtom()-\u003eMSP Compilation",
@@ -560,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "DigitalIO",
           "package": "atom-msp430",
@@ -568,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "DigitalIO",
           "package": "atom-msp430",
@@ -581,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1Dir",
           "package": "atom-msp430",
@@ -590,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1Dir",
           "package": "atom-msp430",
@@ -603,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1Function",
           "package": "atom-msp430",
@@ -612,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1Function",
           "package": "atom-msp430",
@@ -625,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1In",
           "package": "atom-msp430",
@@ -634,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1In",
           "package": "atom-msp430",
@@ -647,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1InterruptEdgeSelect",
           "package": "atom-msp430",
@@ -656,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1InterruptEdgeSelect",
           "package": "atom-msp430",
@@ -669,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1InterruptEnable",
           "package": "atom-msp430",
@@ -678,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1InterruptEnable",
           "package": "atom-msp430",
@@ -691,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1InterruptFlags",
           "package": "atom-msp430",
@@ -700,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1InterruptFlags",
           "package": "atom-msp430",
@@ -713,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1Out",
           "package": "atom-msp430",
@@ -722,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1Out",
           "package": "atom-msp430",
@@ -735,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1Resistors",
           "package": "atom-msp430",
@@ -744,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port1Resistors",
           "package": "atom-msp430",
@@ -757,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2Dir",
           "package": "atom-msp430",
@@ -766,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2Dir",
           "package": "atom-msp430",
@@ -779,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2Function",
           "package": "atom-msp430",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2Function",
           "package": "atom-msp430",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2In",
           "package": "atom-msp430",
@@ -810,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2In",
           "package": "atom-msp430",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2InterruptEdgeSelect",
           "package": "atom-msp430",
@@ -832,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2InterruptEdgeSelect",
           "package": "atom-msp430",
@@ -845,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2InterruptEnable",
           "package": "atom-msp430",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2InterruptEnable",
           "package": "atom-msp430",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2InterruptFlags",
           "package": "atom-msp430",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2InterruptFlags",
           "package": "atom-msp430",
@@ -889,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2Out",
           "package": "atom-msp430",
@@ -898,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2Out",
           "package": "atom-msp430",
@@ -911,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2Resistors",
           "package": "atom-msp430",
@@ -920,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 DigitalIO",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.DigitalIO",
           "name": "port2Resistors",
           "package": "atom-msp430",
@@ -933,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Interrupts",
           "name": "Interrupts",
           "package": "atom-msp430",
@@ -941,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Interrupts",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Interrupts",
           "name": "Interrupts",
           "package": "atom-msp430",
@@ -954,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Interrupts",
           "name": "interruptEnable",
           "package": "atom-msp430",
@@ -963,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Interrupts",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Interrupts",
           "name": "interruptEnable",
           "package": "atom-msp430",
@@ -976,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Interrupts",
           "name": "interruptFlags",
           "package": "atom-msp430",
@@ -985,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Interrupts",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Interrupts",
           "name": "interruptFlags",
           "package": "atom-msp430",
@@ -998,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "TimerA",
           "package": "atom-msp430",
@@ -1006,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "TimerA",
           "package": "atom-msp430",
@@ -1019,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taCCRInterrupt",
           "package": "atom-msp430",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taCCRInterrupt",
           "package": "atom-msp430",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taCaptureBoth",
           "package": "atom-msp430",
@@ -1050,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taCaptureBoth",
           "package": "atom-msp430",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taCaptureFalling",
           "package": "atom-msp430",
@@ -1072,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taCaptureFalling",
           "package": "atom-msp430",
@@ -1085,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taCaptureRising",
           "package": "atom-msp430",
@@ -1094,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taCaptureRising",
           "package": "atom-msp430",
@@ -1107,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taClear",
           "package": "atom-msp430",
@@ -1116,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taClear",
           "package": "atom-msp430",
@@ -1129,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taContinuousMode",
           "package": "atom-msp430",
@@ -1138,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taContinuousMode",
           "package": "atom-msp430",
@@ -1151,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taInterruptEnabled",
           "package": "atom-msp430",
@@ -1160,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taInterruptEnabled",
           "package": "atom-msp430",
@@ -1173,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSource",
           "package": "atom-msp430",
@@ -1182,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSource",
           "package": "atom-msp430",
@@ -1195,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceACLK",
           "package": "atom-msp430",
@@ -1204,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceACLK",
           "package": "atom-msp430",
@@ -1217,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceDiv1",
           "package": "atom-msp430",
@@ -1226,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceDiv1",
           "package": "atom-msp430",
@@ -1239,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceDiv2",
           "package": "atom-msp430",
@@ -1248,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceDiv2",
           "package": "atom-msp430",
@@ -1261,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceDiv4",
           "package": "atom-msp430",
@@ -1270,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceDiv4",
           "package": "atom-msp430",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceDiv8",
           "package": "atom-msp430",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceDiv8",
           "package": "atom-msp430",
@@ -1305,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceINCLK",
           "package": "atom-msp430",
@@ -1314,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceINCLK",
           "package": "atom-msp430",
@@ -1327,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceSMCLK",
           "package": "atom-msp430",
@@ -1336,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSourceSMCLK",
           "package": "atom-msp430",
@@ -1349,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taStopMode",
           "package": "atom-msp430",
@@ -1358,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taStopMode",
           "package": "atom-msp430",
@@ -1371,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSyncCapture",
           "package": "atom-msp430",
@@ -1380,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taSyncCapture",
           "package": "atom-msp430",
@@ -1393,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taUpDownMode",
           "package": "atom-msp430",
@@ -1402,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taUpDownMode",
           "package": "atom-msp430",
@@ -1415,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taUpMode",
           "package": "atom-msp430",
@@ -1424,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "taUpMode",
           "package": "atom-msp430",
@@ -1437,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerACCC0",
           "package": "atom-msp430",
@@ -1446,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerACCC0",
           "package": "atom-msp430",
@@ -1459,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerACCC1",
           "package": "atom-msp430",
@@ -1468,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerACCC1",
           "package": "atom-msp430",
@@ -1481,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerACCR0",
           "package": "atom-msp430",
@@ -1490,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerACCR0",
           "package": "atom-msp430",
@@ -1503,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerACCR1",
           "package": "atom-msp430",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerACCR1",
           "package": "atom-msp430",
@@ -1525,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerAControl",
           "package": "atom-msp430",
@@ -1534,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 TimerA",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.TimerA",
           "name": "timerAControl",
           "package": "atom-msp430",
@@ -1547,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "Watchdog",
           "package": "atom-msp430",
@@ -1555,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "Watchdog",
           "package": "atom-msp430",
@@ -1568,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "watchdog",
           "package": "atom-msp430",
@@ -1577,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "watchdog",
           "package": "atom-msp430",
@@ -1589,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtClearCounter",
           "package": "atom-msp430",
@@ -1598,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtClearCounter",
           "package": "atom-msp430",
@@ -1611,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtHold",
           "package": "atom-msp430",
@@ -1620,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtHold",
           "package": "atom-msp430",
@@ -1633,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtInterruptEnable",
           "package": "atom-msp430",
@@ -1642,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtInterruptEnable",
           "package": "atom-msp430",
@@ -1655,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtIntervalMode",
           "package": "atom-msp430",
@@ -1664,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtIntervalMode",
           "package": "atom-msp430",
@@ -1677,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtNMI",
           "package": "atom-msp430",
@@ -1686,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtNMI",
           "package": "atom-msp430",
@@ -1699,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtNMIFalling",
           "package": "atom-msp430",
@@ -1708,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtNMIFalling",
           "package": "atom-msp430",
@@ -1721,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtNMIInterruptEnable",
           "package": "atom-msp430",
@@ -1730,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtNMIInterruptEnable",
           "package": "atom-msp430",
@@ -1743,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtPassword",
           "package": "atom-msp430",
@@ -1752,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtPassword",
           "package": "atom-msp430",
@@ -1765,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtSourceDiv13",
           "package": "atom-msp430",
@@ -1774,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtSourceDiv13",
           "package": "atom-msp430",
@@ -1787,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtSourceDiv15",
           "package": "atom-msp430",
@@ -1796,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtSourceDiv15",
           "package": "atom-msp430",
@@ -1809,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtSourceDiv6",
           "package": "atom-msp430",
@@ -1818,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtSourceDiv6",
           "package": "atom-msp430",
@@ -1831,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtSourceDiv9",
           "package": "atom-msp430",
@@ -1840,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtSourceDiv9",
           "package": "atom-msp430",
@@ -1853,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtUseAuxClock",
           "package": "atom-msp430",
@@ -1862,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430 Watchdog",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430.Watchdog",
           "name": "wdtUseAuxClock",
           "package": "atom-msp430",
@@ -1875,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:12 UTC 2014",
           "module": "Language.Atom.MSP430",
           "name": "MSP430",
           "package": "atom-msp430",
@@ -1883,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Language Atom MSP430",
+          "indexed": "2014-03-11T17:14:12",
           "module": "Language.Atom.MSP430",
           "name": "MSP430",
           "package": "atom-msp430",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-postgresql"
+        "phrase": "persistent-postgresql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA postgresql backend for persistent.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "Postgresql",
           "package": "persistent-postgresql",
@@ -28,6 +29,7 @@
         "index": {
           "description": "postgresql backend for persistent",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "Postgresql",
           "package": "persistent-postgresql",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003elibpq\u003c/code\u003e connection string.  A simple example of connection\n string would be \u003ccode\u003e\"host=localhost port=5432 user=test\n dbname=test password=test\"\u003c/code\u003e.  Please read libpq's\n documentation at\n \u003ca\u003ehttp://www.postgresql.org/docs/9.1/static/libpq-connect.html\u003c/a\u003e\n for more details on how to create such strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "ConnectionString",
           "package": "persistent-postgresql",
@@ -51,6 +54,7 @@
         "index": {
           "description": "libpq connection string simple example of connection string would be host localhost port user test dbname test password test Please read libpq documentation at http www.postgresql.org docs static libpq-connect.html for more details on how to create such strings",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "ConnectionString",
           "package": "persistent-postgresql",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation required to connect to a PostgreSQL database\n using \u003ccode\u003epersistent\u003c/code\u003e's generic facilities.  These values are the\n same that are given to \u003ccode\u003e\u003ca\u003ewithPostgresqlPool\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "PostgresConf",
           "package": "persistent-postgresql",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Information required to connect to PostgreSQL database using persistent generic facilities These values are the same that are given to withPostgresqlPool",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "PostgresConf",
           "package": "persistent-postgresql",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "PostgresConf",
           "package": "persistent-postgresql",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "PostgresConf",
           "package": "persistent-postgresql",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a PostgreSQL connection pool.  Note that it's your\n responsability to properly close the connection pool when\n unneeded.  Use \u003ccode\u003e\u003ca\u003ewithPostgresqlPool\u003c/a\u003e\u003c/code\u003e for an automatic resource\n control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "createPostgresqlPool",
           "package": "persistent-postgresql",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Create PostgreSQL connection pool Note that it your responsability to properly close the connection pool when unneeded Use withPostgresqlPool for an automatic resource control",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "createPostgresqlPool",
           "normalized": "ConnectionString-\u003eInt-\u003ea ConnectionPool",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "openSimpleConn",
           "package": "persistent-postgresql",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Generate Connection from Connection",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "openSimpleConn",
           "normalized": "Connection-\u003eIO Connection",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe connection string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "pgConnStr",
           "package": "persistent-postgresql",
@@ -171,6 +184,7 @@
         "index": {
           "description": "The connection string",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "pgConnStr",
           "package": "persistent-postgresql",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many connections should be held on the connection pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "pgPoolSize",
           "package": "persistent-postgresql",
@@ -195,6 +210,7 @@
         "index": {
           "description": "How many connections should be held on the connection pool",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "pgPoolSize",
           "package": "persistent-postgresql",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ewithPostgresqlPool\u003c/a\u003e\u003c/code\u003e, but instead of opening a pool\n of connections, only one connection is opened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "withPostgresqlConn",
           "package": "persistent-postgresql",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Same as withPostgresqlPool but instead of opening pool of connections only one connection is opened",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "withPostgresqlConn",
           "normalized": "ConnectionString-\u003e(Connection-\u003ea b)-\u003ea b",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a PostgreSQL connection pool and run the given\n action.  The pool is properly released after the action\n finishes using it.  Note that you should not use the given\n \u003ccode\u003e\u003ca\u003eConnectionPool\u003c/a\u003e\u003c/code\u003e outside the action since it may be already\n been released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:51 UTC 2014",
           "module": "Database.Persist.Postgresql",
           "name": "withPostgresqlPool",
           "package": "persistent-postgresql",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Create PostgreSQL connection pool and run the given action The pool is properly released after the action finishes using it Note that you should not use the given ConnectionPool outside the action since it may be already been released",
           "hierarchy": "Database Persist Postgresql",
+          "indexed": "2014-03-11T19:37:51",
           "module": "Database.Persist.Postgresql",
           "name": "withPostgresqlPool",
           "normalized": "ConnectionString-\u003eInt-\u003e(ConnectionPool-\u003ea b)-\u003ea b",

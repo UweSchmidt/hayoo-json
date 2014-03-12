@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sparser"
+        "phrase": "sparser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLightweight parsing library based on partial functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "Sparser",
           "package": "sparser",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Lightweight parsing library based on partial functions",
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "Sparser",
           "package": "sparser",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "Sparser",
           "package": "sparser",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "Sparser",
           "package": "sparser",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "SparserT",
           "package": "sparser",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "SparserT",
           "package": "sparser",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "asSparser",
           "package": "sparser",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "asSparser",
           "normalized": "Sparser a-\u003eSparser a",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "atEnd",
           "package": "sparser",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "atEnd",
           "normalized": "SparserT a b()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "between",
           "package": "sparser",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "between",
           "normalized": "a b-\u003ea b-\u003ea c-\u003ea c",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "braces",
           "package": "sparser",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "braces",
           "normalized": "SparserT a Char b-\u003eSparserT a Char b",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "brackets",
           "package": "sparser",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "brackets",
           "normalized": "SparserT a Char b-\u003eSparserT a Char b",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "char",
           "package": "sparser",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "char",
           "normalized": "a-\u003eSparserT b a a",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "charIf",
           "package": "sparser",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "charIf",
           "normalized": "(a-\u003eBool)-\u003eSparserT b a a",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "complete",
           "package": "sparser",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "complete",
           "normalized": "SparserT a b c-\u003eSparserT a b c",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "count",
           "package": "sparser",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "count",
           "normalized": "Int-\u003ea b-\u003ea[b]",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "endBy",
           "package": "sparser",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "endBy",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "endBy1",
           "package": "sparser",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "endBy1",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceed based on predicate, but do not consume input.\n\u003c/p\u003e\u003cp\u003eThe given function receives the \u003cem\u003eentire\u003c/em\u003e remaining input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "gateP",
           "package": "sparser",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Succeed based on predicate but do not consume input The given function receives the entire remaining input",
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "gateP",
           "normalized": "(a-\u003e[b]-\u003eBool)-\u003eSparserT a b()",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumes one input element.\n\u003c/p\u003e\u003cp\u003eFails if the predicate fails, or if there is no more input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "headP",
           "package": "sparser",
@@ -377,6 +408,7 @@
         "index": {
           "description": "Consumes one input element Fails if the predicate fails or if there is no more input",
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "headP",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eSparserT a b b",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "ifState",
           "package": "sparser",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "ifState",
           "normalized": "(a-\u003eBool)-\u003eSparserT a b c-\u003eSparserT a b c",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "integer",
           "package": "sparser",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "integer",
           "package": "sparser",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "many1",
           "package": "sparser",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "many1",
           "normalized": "a b-\u003ea[b]",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "notChar",
           "package": "sparser",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "notChar",
           "normalized": "a-\u003eSparserT b a a",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;\n Run a parser, returning the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "runSparser",
           "package": "sparser",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Run parser returning the result",
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "runSparser",
           "normalized": "Sparser a-\u003eString-\u003eMaybe a",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;\n Run a parser with a custom state, returning the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "runSparserT",
           "package": "sparser",
@@ -520,6 +563,7 @@
         "index": {
           "description": "Run parser with custom state returning the result",
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "runSparserT",
           "normalized": "SparserT a b c-\u003ea-\u003e[b]-\u003eMaybe c",
@@ -536,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;\n Run a parser with a custom state.\n\u003c/p\u003e\u003cp\u003eThis is the most general way to run a parser. It returns the final state,\n remaining input and the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "runSparserT'",
           "package": "sparser",
@@ -546,6 +591,7 @@
         "index": {
           "description": "Run parser with custom state This is the most general way to run parser It returns the final state remaining input and the result",
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "runSparserT'",
           "normalized": "SparserT a b c-\u003ea-\u003e[b]-\u003eMaybe(a,[b],c)",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "sepBy",
           "package": "sparser",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "sepBy",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "sepBy1",
           "package": "sparser",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "sepBy1",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "sepEndBy",
           "package": "sparser",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "sepEndBy",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "sepEndBy1",
           "package": "sparser",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "sepEndBy1",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "skipMany",
           "package": "sparser",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "skipMany",
           "normalized": "a b-\u003ea()",
@@ -681,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "skipMany1",
           "package": "sparser",
@@ -690,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "skipMany1",
           "normalized": "a b-\u003ea()",
@@ -705,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "space",
           "package": "sparser",
@@ -714,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "space",
           "normalized": "SparserT a Char[Char]",
@@ -729,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume one or more input elements.\n\u003c/p\u003e\u003cp\u003eThe given function receives the \u003cem\u003eentire\u003c/em\u003e remaining input, and must return\n   the number of consumed elements.\n\u003c/p\u003e\u003cp\u003eFails if the predicate return 0 or less, or if there is no more input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "splitP",
           "package": "sparser",
@@ -739,6 +800,7 @@
         "index": {
           "description": "Consume one or more input elements The given function receives the entire remaining input and must return the number of consumed elements Fails if the predicate return or less or if there is no more input",
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "splitP",
           "normalized": "(a-\u003e[b]-\u003eInt)-\u003eSparserT a b[b]",
@@ -754,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Return the state as result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "stateP",
           "package": "sparser",
@@ -764,6 +827,7 @@
         "index": {
           "description": "Return the state as result",
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "stateP",
           "package": "sparser",
@@ -776,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "string",
           "package": "sparser",
@@ -785,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "string",
           "normalized": "[a]-\u003eSparserT b a[a]",
@@ -799,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "stringIf",
           "package": "sparser",
@@ -808,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "stringIf",
           "normalized": "Int-\u003e([a]-\u003eBool)-\u003eSparserT b a[a]",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "stringLiteral",
           "package": "sparser",
@@ -832,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "stringLiteral",
           "package": "sparser",
@@ -845,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:48 UTC 2014",
           "module": "Data.Sparser",
           "name": "withState",
           "package": "sparser",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Data Sparser",
+          "indexed": "2014-03-11T20:07:48",
           "module": "Data.Sparser",
           "name": "withState",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eSparserT b c d-\u003eSparserT a c d",

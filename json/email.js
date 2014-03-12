@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "email"
+        "phrase": "email",
+        "type": "phrase"
       },
       "type": "context"
     }

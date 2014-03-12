@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pcap-conduit"
+        "phrase": "pcap-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides conduit \u003ccode\u003eSources\u003c/code\u003e for pcap data ( captured by\n wireshark, tcpdump, etc.) You can enumerate pcap files and live\n interfaces.\n\u003c/p\u003e\u003cp\u003eBased on \u003ccode\u003epcap-enumerator\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:13 UTC 2014",
           "module": "Network.Pcap.Conduit",
           "name": "Conduit",
           "package": "pcap-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This package provides conduit Sources for pcap data captured by wireshark tcpdump etc You can enumerate pcap files and live interfaces Based on pcap-enumerator",
           "hierarchy": "Network Pcap Conduit",
+          "indexed": "2014-03-11T19:36:13",
           "module": "Network.Pcap.Conduit",
           "name": "Conduit",
           "package": "pcap-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:13 UTC 2014",
           "module": "Network.Pcap.Conduit",
           "name": "Packet",
           "package": "pcap-conduit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Convenient alias",
           "hierarchy": "Network Pcap Conduit",
+          "indexed": "2014-03-11T19:36:13",
           "module": "Network.Pcap.Conduit",
           "name": "Packet",
           "package": "pcap-conduit",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a conduit \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e from a live interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:13 UTC 2014",
           "module": "Network.Pcap.Conduit",
           "name": "sourceLive",
           "package": "pcap-conduit",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Create conduit Source from live interface",
           "hierarchy": "Network Pcap Conduit",
+          "indexed": "2014-03-11T19:36:13",
           "module": "Network.Pcap.Conduit",
           "name": "sourceLive",
           "normalized": "String-\u003eInt-\u003eBool-\u003eInt-\u003eSource a Packet",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a conduit \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e from a pcap data file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:13 UTC 2014",
           "module": "Network.Pcap.Conduit",
           "name": "sourceOffline",
           "package": "pcap-conduit",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Create conduit Source from pcap data file",
           "hierarchy": "Network Pcap Conduit",
+          "indexed": "2014-03-11T19:36:13",
           "module": "Network.Pcap.Conduit",
           "name": "sourceOffline",
           "normalized": "FilePath-\u003eSource a Packet",

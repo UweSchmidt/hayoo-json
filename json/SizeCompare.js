@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SizeCompare"
+        "phrase": "SizeCompare",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "SizeCompare",
           "package": "SizeCompare",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "SizeCompare",
           "package": "SizeCompare",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides functionality for smartly measuring the size of a container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "Sizeable",
           "package": "SizeCompare",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Provides functionality for smartly measuring the size of container",
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "Sizeable",
           "package": "SizeCompare",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines Smaller Than on the size of containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "(|\u003c|)",
           "package": "SizeCompare",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Defines Smaller Than on the size of containers",
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "(|\u003c|) |\u003c|",
           "normalized": "a-\u003eb-\u003eBool",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines Smaller Than or Equal on the size of containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "(|\u003c=|)",
           "package": "SizeCompare",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Defines Smaller Than or Equal on the size of containers",
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "(|\u003c=|) |\u003c=|",
           "normalized": "a-\u003eb-\u003eBool",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality on the size of containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "(|==|)",
           "package": "SizeCompare",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Equality on the size of containers",
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "(|==|) |==|",
           "normalized": "a-\u003eb-\u003eBool",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines Greater Than on the size of containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "(|\u003e|)",
           "package": "SizeCompare",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Defines Greater Than on the size of containers",
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "(|\u003e|) |\u003e|",
           "normalized": "a-\u003eb-\u003eBool",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines Greate Than or Equal on the size of containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "(|\u003e=|)",
           "package": "SizeCompare",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Defines Greate Than or Equal on the size of containers",
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "(|\u003e=|) |\u003e=|",
           "normalized": "a-\u003eb-\u003eBool",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns (Just size) for containers with O(1) size lookup, otherwise Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "cSize",
           "package": "SizeCompare",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Returns Just size for containers with size lookup otherwise Nothing",
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "cSize",
           "normalized": "a-\u003eMaybe Int",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduces a container by 1 element, resulting in Nothing when finished\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:52 UTC 2014",
           "module": "Data.SizeCompare",
           "name": "reduce",
           "package": "SizeCompare",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Reduces container by element resulting in Nothing when finished",
           "hierarchy": "Data SizeCompare",
+          "indexed": "2014-03-11T17:00:52",
           "module": "Data.SizeCompare",
           "name": "reduce",
           "normalized": "a-\u003eMaybe a",

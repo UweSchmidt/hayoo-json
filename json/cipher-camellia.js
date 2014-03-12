@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cipher-camellia"
+        "phrase": "cipher-camellia",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCamellia support. only 128 bit variant available for now.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:47 UTC 2014",
           "module": "Crypto.Cipher.Camellia",
           "name": "Camellia",
           "package": "cipher-camellia",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Camellia support only bit variant available for now",
           "hierarchy": "Crypto Cipher Camellia",
+          "indexed": "2014-03-11T17:32:47",
           "module": "Crypto.Cipher.Camellia",
           "name": "Camellia",
           "package": "cipher-camellia",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCamellia block cipher with 128 bit key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:47 UTC 2014",
           "module": "Crypto.Cipher.Camellia",
           "name": "Camellia128",
           "package": "cipher-camellia",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Camellia block cipher with bit key",
           "hierarchy": "Crypto Cipher Camellia",
+          "indexed": "2014-03-11T17:32:47",
           "module": "Crypto.Cipher.Camellia",
           "name": "Camellia128",
           "package": "cipher-camellia",

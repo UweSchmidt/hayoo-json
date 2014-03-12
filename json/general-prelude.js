@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "general-prelude"
+        "phrase": "general-prelude",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrelude replacement, use the NoImplicitPrelude extension before importing\n   this.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "General",
           "package": "general-prelude",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Prelude replacement use the NoImplicitPrelude extension before importing this",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "General",
           "package": "general-prelude",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict (call-by-value) application, defined in terms of \u003ccode\u003e\u003ca\u003eseq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "($!)",
           "package": "general-prelude",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Strict call-by-value application defined in terms of seq",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "($!) $!",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "(*)",
           "package": "general-prelude",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "(+)",
           "package": "general-prelude",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "(-)",
           "package": "general-prelude",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "(-) -",
           "normalized": "a-\u003ea-\u003ea",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efractional division\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "(/)",
           "package": "general-prelude",
@@ -141,6 +152,7 @@
         "index": {
           "description": "fractional division",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "(/) /",
           "normalized": "a-\u003ea-\u003ea",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e stops execution and displays an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "error",
           "package": "general-prelude",
@@ -165,6 +178,7 @@
         "index": {
           "description": "error stops execution and displays an error message",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "error",
           "normalized": "[Char]-\u003ea",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "filter",
           "package": "general-prelude",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003ec a",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral coercion from integral types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "fromIntegral",
           "package": "general-prelude",
@@ -212,6 +229,7 @@
         "index": {
           "description": "general coercion from integral types",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "fromIntegral",
           "normalized": "a-\u003eb",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn either/maybe equivalent for Bool, often known as if'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "if'",
           "package": "general-prelude",
@@ -237,6 +256,7 @@
         "index": {
           "description": "An either maybe equivalent for Bool often known as if",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "if'",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger modulus, satisfying\n\u003c/p\u003e\u003cpre\u003e (x `div` y)*y + (x `mod` y) == x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "mod",
           "package": "general-prelude",
@@ -261,6 +282,7 @@
         "index": {
           "description": "integer modulus satisfying div mod",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "mod",
           "normalized": "a-\u003ea-\u003ea",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates its first argument to head normal form, and then returns its second\n \targument as the result. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "seq",
           "package": "general-prelude",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Evaluates its first argument to head normal form and then returns its second argument as the result",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "seq",
           "normalized": "a-\u003eb-\u003eb",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special case of \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n It is expected that compilers will recognize this and insert error\n messages which are more appropriate to the context in which \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e\n appears. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:42 UTC 2014",
           "module": "Prelude.General",
           "name": "undefined",
           "package": "general-prelude",
@@ -309,6 +334,7 @@
         "index": {
           "description": "special case of error It is expected that compilers will recognize this and insert error messages which are more appropriate to the context in which undefined appears",
           "hierarchy": "Prelude General",
+          "indexed": "2014-03-11T18:14:42",
           "module": "Prelude.General",
           "name": "undefined",
           "package": "general-prelude",

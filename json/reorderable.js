@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reorderable"
+        "phrase": "reorderable",
+        "type": "phrase"
       },
       "type": "context"
     }

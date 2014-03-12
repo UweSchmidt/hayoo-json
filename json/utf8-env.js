@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "utf8-env"
+        "phrase": "utf8-env",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMiscellaneous information about the system environment, assuming it was\n encoded in UTF-8. To be used as a drop-in replacement for System.Environment\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:08 UTC 2014",
           "module": "System.Environment.UTF8",
           "name": "UTF8",
           "package": "utf8-env",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Miscellaneous information about the system environment assuming it was encoded in UTF-8 To be used as drop-in replacement for System.Environment",
           "hierarchy": "System Environment UTF8",
+          "indexed": "2014-03-11T20:32:08",
           "module": "System.Environment.UTF8",
           "name": "UTF8",
           "package": "utf8-env",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003egetArgs\u003c/a\u003e\u003c/code\u003e returns a list of the program's command\n line arguments (not including the program name).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:08 UTC 2014",
           "module": "System.Environment.UTF8",
           "name": "getArgs",
           "package": "utf8-env",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Computation getArgs returns list of the program command line arguments not including the program name",
           "hierarchy": "System Environment UTF8",
+          "indexed": "2014-03-11T20:32:08",
           "module": "System.Environment.UTF8",
           "name": "getArgs",
           "normalized": "IO[String]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003egetEnv\u003c/a\u003e\u003c/code\u003e \u003ccode\u003evar\u003c/code\u003e returns the value\n of the environment variable \u003ccode\u003evar\u003c/code\u003e.  \n\u003c/p\u003e\u003cp\u003eThis computation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eSystem.IO.Error.isDoesNotExistError\u003c/code\u003e if the environment variable\n    does not exist.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:32:08 UTC 2014",
           "module": "System.Environment.UTF8",
           "name": "getEnv",
           "package": "utf8-env",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Computation getEnv var returns the value of the environment variable var This computation may fail with System.IO.Error.isDoesNotExistError if the environment variable does not exist",
           "hierarchy": "System Environment UTF8",
+          "indexed": "2014-03-11T20:32:08",
           "module": "System.Environment.UTF8",
           "name": "getEnv",
           "normalized": "String-\u003eIO String",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetEnvironment\u003c/a\u003e\u003c/code\u003e retrieves the entire environment as a\n list of \u003ccode\u003e(key,value)\u003c/code\u003e pairs.\n\u003c/p\u003e\u003cp\u003eIf an environment entry does not contain an \u003ccode\u003e'='\u003c/code\u003e character,\n the \u003ccode\u003ekey\u003c/code\u003e is the whole entry and the \u003ccode\u003evalue\u003c/code\u003e is the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:08 UTC 2014",
           "module": "System.Environment.UTF8",
           "name": "getEnvironment",
           "package": "utf8-env",
@@ -104,6 +111,7 @@
         "index": {
           "description": "getEnvironment retrieves the entire environment as list of key value pairs If an environment entry does not contain an character the key is the whole entry and the value is the empty string",
           "hierarchy": "System Environment UTF8",
+          "indexed": "2014-03-11T20:32:08",
           "module": "System.Environment.UTF8",
           "name": "getEnvironment",
           "normalized": "IO[(String,String)]",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003egetProgName\u003c/a\u003e\u003c/code\u003e returns the name of the program as it was\n invoked.\n\u003c/p\u003e\u003cp\u003eHowever, this is hard-to-impossible to implement on some non-Unix\n OSes, so instead, for maximum portability, we just return the leafname\n of the program as invoked. Even then there are some differences\n between platforms: on Windows, for example, a program invoked as foo\n is probably really \u003ccode\u003eFOO.EXE\u003c/code\u003e, and that is what \u003ccode\u003e\u003ca\u003egetProgName\u003c/a\u003e\u003c/code\u003e will return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:08 UTC 2014",
           "module": "System.Environment.UTF8",
           "name": "getProgName",
           "package": "utf8-env",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Computation getProgName returns the name of the program as it was invoked However this is hard-to-impossible to implement on some non-Unix OSes so instead for maximum portability we just return the leafname of the program as invoked Even then there are some differences between platforms on Windows for example program invoked as foo is probably really FOO.EXE and that is what getProgName will return",
           "hierarchy": "System Environment UTF8",
+          "indexed": "2014-03-11T20:32:08",
           "module": "System.Environment.UTF8",
           "name": "getProgName",
           "package": "utf8-env",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithArgs\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eargs act\u003c/code\u003e - while executing action \u003ccode\u003eact\u003c/code\u003e, have \u003ccode\u003e\u003ca\u003egetArgs\u003c/a\u003e\u003c/code\u003e\n return \u003ccode\u003eargs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:08 UTC 2014",
           "module": "System.Environment.UTF8",
           "name": "withArgs",
           "package": "utf8-env",
@@ -154,6 +165,7 @@
         "index": {
           "description": "withArgs args act while executing action act have getArgs return args",
           "hierarchy": "System Environment UTF8",
+          "indexed": "2014-03-11T20:32:08",
           "module": "System.Environment.UTF8",
           "name": "withArgs",
           "normalized": "[String]-\u003eIO a-\u003eIO a",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithProgName\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ename act\u003c/code\u003e - while executing action \u003ccode\u003eact\u003c/code\u003e,\n have \u003ccode\u003e\u003ca\u003egetProgName\u003c/a\u003e\u003c/code\u003e return \u003ccode\u003ename\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:08 UTC 2014",
           "module": "System.Environment.UTF8",
           "name": "withProgName",
           "package": "utf8-env",
@@ -180,6 +193,7 @@
         "index": {
           "description": "withProgName name act while executing action act have getProgName return name",
           "hierarchy": "System Environment UTF8",
+          "indexed": "2014-03-11T20:32:08",
           "module": "System.Environment.UTF8",
           "name": "withProgName",
           "normalized": "String-\u003eIO a-\u003eIO a",

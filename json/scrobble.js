@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scrobble"
+        "phrase": "scrobble",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA client for scrobbling, based upon the Audioscrobbler Realtime\n Submission protocol v1.2\n \u003ca\u003ehttp://www.audioscrobbler.net/development/protocol/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n import Scrobble.Client\n import Data.Time\n\nexample = do\n   client \u003c- newClient Details\n     { detPassword = \"YOURPASS\"\n     , detUsername = \"YOURUSER\"\n     , detClient   = \"qlb\"\n     , detVersion  = \"0.9.2\"\n     , detServer   = defaultServer\n     }\n   nowPlaying client NowPlaying\n     { npArtist      = \"Kasabian\"\n     , npTrack       = \"Ladies and Gentlemen\"\n     , npAlbum       = Just \"West Ryder Pauper Lunatic Asylum\"\n     , npLength      = Just 288\n     , npPosition    = Nothing\n     , npMusicBrainz = Nothing\n     }\n   timestamp \u003c- getCurrentTime\n   submitTracks client\n                [Submission { subArtist      = \"Kasabian\"\n                            , subTrack       = \"Ladies and Gentlemen\"\n                            , subTimestamp   = timestamp\n                            , subSource      = UserChosen\n                            , subRating      = Nothing\n                            , subLength      = Just 288\n                            , subAlbum       = Just \"West Ryder Pauper Lunatic Asylum\"\n                            , subPosition    = Nothing\n                            , subMusicBrainz = Nothing\n                            }]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Client",
           "name": "Client",
           "package": "scrobble",
@@ -28,6 +29,7 @@
         "index": {
           "description": "client for scrobbling based upon the Audioscrobbler Realtime Submission protocol v1.2 http www.audioscrobbler.net development protocol Example import Scrobble.Client import Data.Time example do client newClient Details detPassword YOURPASS detUsername YOURUSER detClient qlb detVersion detServer defaultServer nowPlaying client NowPlaying npArtist Kasabian npTrack Ladies and Gentlemen npAlbum Just West Ryder Pauper Lunatic Asylum npLength Just npPosition Nothing npMusicBrainz Nothing timestamp getCurrentTime submitTracks client Submission subArtist Kasabian subTrack Ladies and Gentlemen subTimestamp timestamp subSource UserChosen subRating Nothing subLength Just subAlbum Just West Ryder Pauper Lunatic Asylum subPosition Nothing subMusicBrainz Nothing",
           "hierarchy": "Scrobble Client",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Client",
           "name": "Client",
           "package": "scrobble",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Audioscrobbler server: http:\u003cem/\u003epost.audioscrobbler.com/\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Client",
           "name": "defaultServer",
           "package": "scrobble",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Default Audioscrobbler server http post.audioscrobbler.com",
           "hierarchy": "Scrobble Client",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Client",
           "name": "defaultServer",
           "package": "scrobble",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a client session. Throws \u003ca\u003eScrobblerError\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Client",
           "name": "newClient",
           "package": "scrobble",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Create client session Throws ScrobblerError",
           "hierarchy": "Scrobble Client",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Client",
           "name": "newClient",
           "normalized": "Details-\u003eIO Client",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a now playing message.  Throws \u003ca\u003eScrobblerError\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Client",
           "name": "nowPlaying",
           "package": "scrobble",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Send now playing message Throws ScrobblerError",
           "hierarchy": "Scrobble Client",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Client",
           "name": "nowPlaying",
           "normalized": "Client-\u003eNowPlaying-\u003eIO()",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmit track(s).  Throws \u003ca\u003eScrobblerError\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Client",
           "name": "submitTracks",
           "package": "scrobble",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Submit track Throws ScrobblerError",
           "hierarchy": "Scrobble Client",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Client",
           "name": "submitTracks",
           "normalized": "Client-\u003e[Submission]-\u003eIO()",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA server for scrobbling, based upon the Audioscrobbler Realtime\n Submission protocol v1.2\n \u003ca\u003ehttp://www.audioscrobbler.net/development/protocol/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Server",
           "name": "Server",
           "package": "scrobble",
@@ -153,6 +164,7 @@
         "index": {
           "description": "server for scrobbling based upon the Audioscrobbler Realtime Submission protocol v1.2 http www.audioscrobbler.net development protocol",
           "hierarchy": "Scrobble Server",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Server",
           "name": "Server",
           "package": "scrobble",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a scrobbling server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Server",
           "name": "startScrobbleServer",
           "package": "scrobble",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Start scrobbling server",
           "hierarchy": "Scrobble Server",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Server",
           "name": "startScrobbleServer",
           "normalized": "Config-\u003eHandlers-\u003eIO()",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eScrobbling data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Types",
           "package": "scrobble",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Scrobbling data types",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Types",
           "package": "scrobble",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scrobbling client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Client",
           "package": "scrobble",
@@ -225,6 +242,7 @@
         "index": {
           "description": "scrobbling client",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Client",
           "package": "scrobble",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Config",
           "package": "scrobble",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Server configuration",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Config",
           "package": "scrobble",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails for creating a scrobbling client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Details",
           "package": "scrobble",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Details for creating scrobbling client",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Details",
           "package": "scrobble",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent handlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Handlers",
           "package": "scrobble",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Event handlers",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Handlers",
           "package": "scrobble",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA now playing track.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "NowPlaying",
           "package": "scrobble",
@@ -317,6 +342,7 @@
         "index": {
           "description": "now playing track",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "NowPlaying",
           "package": "scrobble",
@@ -331,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rating of a track.\n\u003c/p\u003e\u003cp\u003eNote: Currently, a web-service must also be called to set love/ban\n status. We anticipate that this will be phased out soon, and the\n submission service will handle the whole process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Rating",
           "package": "scrobble",
@@ -340,6 +367,7 @@
         "index": {
           "description": "rating of track Note Currently web-service must also be called to set love ban status We anticipate that this will be phased out soon and the submission service will handle the whole process",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Rating",
           "package": "scrobble",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Response",
           "package": "scrobble",
@@ -363,6 +392,7 @@
         "index": {
           "description": "Server response",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Response",
           "package": "scrobble",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScrobble exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "ScrobblerError",
           "package": "scrobble",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Scrobble exception",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "ScrobblerError",
           "package": "scrobble",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scrobbling session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Session",
           "package": "scrobble",
@@ -409,6 +442,7 @@
         "index": {
           "description": "scrobbling session",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Session",
           "package": "scrobble",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe source of the track. Required, must be one of the following\n codes:\n\u003c/p\u003e\u003cp\u003ePlease note, for the time being, sources other than P and L are not\n supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Source",
           "package": "scrobble",
@@ -432,6 +467,7 @@
         "index": {
           "description": "The source of the track Required must be one of the following codes Please note for the time being sources other than and are not supported",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Source",
           "package": "scrobble",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA track submission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Submission",
           "package": "scrobble",
@@ -455,6 +492,7 @@
         "index": {
           "description": "track submission",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Submission",
           "package": "scrobble",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "BADAUTH",
           "package": "scrobble",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "BADAUTH",
           "package": "scrobble",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "BADSESSION",
           "package": "scrobble",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "BADSESSION",
           "package": "scrobble",
@@ -512,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "BANNED",
           "package": "scrobble",
@@ -521,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "BANNED",
           "package": "scrobble",
@@ -535,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBan (only if source=L). This implies a skip, and the\n client should skip to the next track when a ban happens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Ban",
           "package": "scrobble",
@@ -545,6 +590,7 @@
         "index": {
           "description": "Ban only if source This implies skip and the client should skip to the next track when ban happens",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Ban",
           "package": "scrobble",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Client",
           "package": "scrobble",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Client",
           "package": "scrobble",
@@ -580,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Config",
           "package": "scrobble",
@@ -589,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Config",
           "package": "scrobble",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Details",
           "package": "scrobble",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Details",
           "package": "scrobble",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "FAILED",
           "package": "scrobble",
@@ -633,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "FAILED",
           "package": "scrobble",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Handlers",
           "package": "scrobble",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Handlers",
           "package": "scrobble",
@@ -669,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast.fm (any mode). In this case, the 5-digit Last.fm\n recommendation key must be appended to this source ID to\n prove the validity of the submission (for example,\n \u003ca\u003eo[0]=L1b48a\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "LastFm",
           "package": "scrobble",
@@ -679,6 +736,7 @@
         "index": {
           "description": "Last.fm any mode In this case the digit Last.fm recommendation key must be appended to this source ID to prove the validity of the submission for example L1b48a",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "LastFm",
           "package": "scrobble",
@@ -693,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLove (on any mode if the user has manually loved the\n track). This implies a listen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Love",
           "package": "scrobble",
@@ -703,6 +762,7 @@
         "index": {
           "description": "Love on any mode if the user has manually loved the track This implies listen",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Love",
           "package": "scrobble",
@@ -717,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-personalised broadcast\n (e.g. Shoutcast, BBC Radio 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "NonPersonlizedBroadcast",
           "package": "scrobble",
@@ -727,6 +788,7 @@
         "index": {
           "description": "Non-personalised broadcast e.g Shoutcast BBC Radio",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "NonPersonlizedBroadcast",
           "package": "scrobble",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "NowPlaying",
           "package": "scrobble",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "NowPlaying",
           "package": "scrobble",
@@ -762,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "OK",
           "package": "scrobble",
@@ -771,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "OK",
           "package": "scrobble",
@@ -785,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersonalised recommendation except Last.fm\n (e.g. Pandora, Launchcast)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Personalized",
           "package": "scrobble",
@@ -795,6 +862,7 @@
         "index": {
           "description": "Personalised recommendation except Last.fm e.g Pandora Launchcast",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Personalized",
           "package": "scrobble",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "ScrobblerBadAuth",
           "package": "scrobble",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "ScrobblerBadAuth",
           "package": "scrobble",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "ScrobblerBadTime",
           "package": "scrobble",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "ScrobblerBadTime",
           "package": "scrobble",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "ScrobblerBanned",
           "package": "scrobble",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "ScrobblerBanned",
           "package": "scrobble",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "ScrobblerFailed",
           "package": "scrobble",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "ScrobblerFailed",
           "package": "scrobble",
@@ -896,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "ScrobblerHardFail",
           "package": "scrobble",
@@ -905,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "ScrobblerHardFail",
           "package": "scrobble",
@@ -918,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "ScrobblerNowPlayingFail",
           "package": "scrobble",
@@ -927,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "ScrobblerNowPlayingFail",
           "package": "scrobble",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "ScrobblerSubmitFail",
           "package": "scrobble",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "ScrobblerSubmitFail",
           "package": "scrobble",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Session",
           "package": "scrobble",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Session",
           "package": "scrobble",
@@ -985,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip (only if source=L).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Skip",
           "package": "scrobble",
@@ -995,6 +1080,7 @@
         "index": {
           "description": "Skip only if source",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Skip",
           "package": "scrobble",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Submission",
           "package": "scrobble",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Submission",
           "package": "scrobble",
@@ -1031,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource unknown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "Unknown",
           "package": "scrobble",
@@ -1041,6 +1130,7 @@
         "index": {
           "description": "Source unknown",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "Unknown",
           "package": "scrobble",
@@ -1055,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChosen by the user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "UserChosen",
           "package": "scrobble",
@@ -1065,6 +1156,7 @@
         "index": {
           "description": "Chosen by the user",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "UserChosen",
           "package": "scrobble",
@@ -1079,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of seconds of inactivity before a session expires.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "cfgExpire",
           "package": "scrobble",
@@ -1089,6 +1182,7 @@
         "index": {
           "description": "Number of seconds of inactivity before session expires",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "cfgExpire",
           "package": "scrobble",
@@ -1103,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name used for server (probably just localhost).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "cfgHost",
           "package": "scrobble",
@@ -1113,6 +1208,7 @@
         "index": {
           "description": "Host name used for server probably just localhost",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "cfgHost",
           "package": "scrobble",
@@ -1127,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort to listen on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "cfgPort",
           "package": "scrobble",
@@ -1137,6 +1234,7 @@
         "index": {
           "description": "Port to listen on",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "cfgPort",
           "package": "scrobble",
@@ -1151,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNow playing URL to submit to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "cliNowPlaying",
           "package": "scrobble",
@@ -1161,6 +1260,7 @@
         "index": {
           "description": "Now playing URL to submit to",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "cliNowPlaying",
           "package": "scrobble",
@@ -1175,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL to submit listened tracks to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "cliSubmit",
           "package": "scrobble",
@@ -1185,6 +1286,7 @@
         "index": {
           "description": "URL to submit listened tracks to",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "cliSubmit",
           "package": "scrobble",
@@ -1199,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "cliToken",
           "package": "scrobble",
@@ -1209,6 +1312,7 @@
         "index": {
           "description": "Session token",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "cliToken",
           "package": "scrobble",
@@ -1223,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eE.g. &#8220;qlb&#8221;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "detClient",
           "package": "scrobble",
@@ -1233,6 +1338,7 @@
         "index": {
           "description": "E.g qlb",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "detClient",
           "package": "scrobble",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "detPassword",
           "package": "scrobble",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "detPassword",
           "package": "scrobble",
@@ -1269,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee defaultServer in \u003ca\u003eScrobble.Client\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "detServer",
           "package": "scrobble",
@@ -1279,6 +1388,7 @@
         "index": {
           "description": "See defaultServer in Scrobble.Client",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "detServer",
           "package": "scrobble",
@@ -1292,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "detUsername",
           "package": "scrobble",
@@ -1301,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "detUsername",
           "package": "scrobble",
@@ -1315,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eE.g. &#8220;0.9.2&#8221;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "detVersion",
           "package": "scrobble",
@@ -1325,6 +1438,7 @@
         "index": {
           "description": "E.g",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "detVersion",
           "package": "scrobble",
@@ -1339,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession expiry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "handleExpire",
           "package": "scrobble",
@@ -1349,6 +1464,7 @@
         "index": {
           "description": "Session expiry",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "handleExpire",
           "normalized": "Session-\u003eIO()",
@@ -1365,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial connection hand-shake.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "handleHandshake",
           "package": "scrobble",
@@ -1375,6 +1492,7 @@
         "index": {
           "description": "Initial connection hand-shake",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "handleHandshake",
           "normalized": "Session-\u003eIO()",
@@ -1391,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNow-playing notification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "handleNowPlaying",
           "package": "scrobble",
@@ -1401,6 +1520,7 @@
         "index": {
           "description": "Now-playing notification",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "handleNowPlaying",
           "normalized": "Session-\u003eNowPlaying-\u003eIO()",
@@ -1417,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayed tracks submission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "handleSubmissions",
           "package": "scrobble",
@@ -1427,6 +1548,7 @@
         "index": {
           "description": "Played tracks submission",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "handleSubmissions",
           "normalized": "Session-\u003e[Submission]-\u003eIO Bool",
@@ -1443,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlbum name (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "npAlbum",
           "package": "scrobble",
@@ -1453,6 +1576,7 @@
         "index": {
           "description": "Album name if any",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "npAlbum",
           "package": "scrobble",
@@ -1467,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArtist name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "npArtist",
           "package": "scrobble",
@@ -1477,6 +1602,7 @@
         "index": {
           "description": "Artist name",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "npArtist",
           "package": "scrobble",
@@ -1491,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack length in seconds (if known).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "npLength",
           "package": "scrobble",
@@ -1501,6 +1628,7 @@
         "index": {
           "description": "Track length in seconds if known",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "npLength",
           "package": "scrobble",
@@ -1515,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMusicBrainz track id (if known).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "npMusicBrainz",
           "package": "scrobble",
@@ -1525,6 +1654,7 @@
         "index": {
           "description": "MusicBrainz track id if known",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "npMusicBrainz",
           "package": "scrobble",
@@ -1539,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack position (if known).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "npPosition",
           "package": "scrobble",
@@ -1549,6 +1680,7 @@
         "index": {
           "description": "Track position if known",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "npPosition",
           "package": "scrobble",
@@ -1563,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "npTrack",
           "package": "scrobble",
@@ -1573,6 +1706,7 @@
         "index": {
           "description": "Track title",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "npTrack",
           "package": "scrobble",
@@ -1587,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient (music player's) id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "sesClientId",
           "package": "scrobble",
@@ -1597,6 +1732,7 @@
         "index": {
           "description": "Client music player id",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "sesClientId",
           "package": "scrobble",
@@ -1611,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "sesClientVer",
           "package": "scrobble",
@@ -1621,6 +1758,7 @@
         "index": {
           "description": "Client version",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "sesClientVer",
           "package": "scrobble",
@@ -1635,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the session require handshake?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "sesHandshake",
           "package": "scrobble",
@@ -1645,6 +1784,7 @@
         "index": {
           "description": "Does the session require handshake",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "sesHandshake",
           "package": "scrobble",
@@ -1659,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimestamp of connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "sesTimestamp",
           "package": "scrobble",
@@ -1669,6 +1810,7 @@
         "index": {
           "description": "Timestamp of connection",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "sesTimestamp",
           "package": "scrobble",
@@ -1683,6 +1825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "sesToken",
           "package": "scrobble",
@@ -1693,6 +1836,7 @@
         "index": {
           "description": "Session token",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "sesToken",
           "package": "scrobble",
@@ -1707,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsername.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "sesUser",
           "package": "scrobble",
@@ -1717,6 +1862,7 @@
         "index": {
           "description": "Username",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "sesUser",
           "package": "scrobble",
@@ -1731,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of the protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "sesVersion",
           "package": "scrobble",
@@ -1741,6 +1888,7 @@
         "index": {
           "description": "Version of the protocol",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "sesVersion",
           "package": "scrobble",
@@ -1755,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlbum (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subAlbum",
           "package": "scrobble",
@@ -1765,6 +1914,7 @@
         "index": {
           "description": "Album if any",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subAlbum",
           "package": "scrobble",
@@ -1779,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArtist name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subArtist",
           "package": "scrobble",
@@ -1789,6 +1940,7 @@
         "index": {
           "description": "Artist name",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subArtist",
           "package": "scrobble",
@@ -1803,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack length (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subLength",
           "package": "scrobble",
@@ -1813,6 +1966,7 @@
         "index": {
           "description": "Track length if any",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subLength",
           "package": "scrobble",
@@ -1827,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMusicBrainz track id (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subMusicBrainz",
           "package": "scrobble",
@@ -1837,6 +1992,7 @@
         "index": {
           "description": "MusicBrainz track id if any",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subMusicBrainz",
           "package": "scrobble",
@@ -1851,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack position in album (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subPosition",
           "package": "scrobble",
@@ -1861,6 +2018,7 @@
         "index": {
           "description": "Track position in album if any",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subPosition",
           "package": "scrobble",
@@ -1875,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRating (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subRating",
           "package": "scrobble",
@@ -1885,6 +2044,7 @@
         "index": {
           "description": "Rating if any",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subRating",
           "package": "scrobble",
@@ -1899,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource of track.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subSource",
           "package": "scrobble",
@@ -1909,6 +2070,7 @@
         "index": {
           "description": "Source of track",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subSource",
           "package": "scrobble",
@@ -1923,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subTimestamp",
           "package": "scrobble",
@@ -1933,6 +2096,7 @@
         "index": {
           "description": "Track timestamp",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subTimestamp",
           "package": "scrobble",
@@ -1947,6 +2111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:41 UTC 2014",
           "module": "Scrobble.Types",
           "name": "subTrack",
           "package": "scrobble",
@@ -1957,6 +2122,7 @@
         "index": {
           "description": "Track title",
           "hierarchy": "Scrobble Types",
+          "indexed": "2014-03-11T19:58:41",
           "module": "Scrobble.Types",
           "name": "subTrack",
           "package": "scrobble",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "VecN"
+        "phrase": "VecN",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple peano-indexed vector type, some instances and functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:51 UTC 2014",
           "module": "Data.VecN",
           "name": "VecN",
           "package": "VecN",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple peano-indexed vector type some instances and functions",
           "hierarchy": "Data VecN",
+          "indexed": "2014-03-11T17:03:51",
           "module": "Data.VecN",
           "name": "VecN",
           "package": "VecN",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:51 UTC 2014",
           "module": "Data.VecN",
           "name": "VecN",
           "package": "VecN",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data VecN",
+          "indexed": "2014-03-11T17:03:51",
           "module": "Data.VecN",
           "name": "VecN",
           "package": "VecN",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:51 UTC 2014",
           "module": "Data.VecN",
           "name": ":\u003e",
           "package": "VecN",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data VecN",
+          "indexed": "2014-03-11T17:03:51",
           "module": "Data.VecN",
           "name": ":\u003e",
           "normalized": "a-\u003eVecN b a-\u003eVecN(Succ b)a",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:51 UTC 2014",
           "module": "Data.VecN",
           "name": "VecZero",
           "package": "VecN",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data VecN",
+          "indexed": "2014-03-11T17:03:51",
           "module": "Data.VecN",
           "name": "VecZero",
           "package": "VecN",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:51 UTC 2014",
           "module": "Data.VecN",
           "name": "head",
           "package": "VecN",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data VecN",
+          "indexed": "2014-03-11T17:03:51",
           "module": "Data.VecN",
           "name": "head",
           "normalized": "VecN(Succ a)b-\u003eb",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:51 UTC 2014",
           "module": "Data.VecN",
           "name": "tail",
           "package": "VecN",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data VecN",
+          "indexed": "2014-03-11T17:03:51",
           "module": "Data.VecN",
           "name": "tail",
           "normalized": "VecN(Succ a)b-\u003eVecN a b",

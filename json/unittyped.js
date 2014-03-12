@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unittyped"
+        "phrase": "unittyped",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for working with amounts of bytes and bits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Bytes",
           "name": "Bytes",
           "package": "unittyped",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module for working with amounts of bytes and bits",
           "hierarchy": "UnitTyped Bytes",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Bytes",
           "name": "Bytes",
           "package": "unittyped",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bit of data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Bytes",
           "name": "Bit",
           "package": "unittyped",
@@ -51,6 +54,7 @@
         "index": {
           "description": "bit of data",
           "hierarchy": "UnitTyped Bytes",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Bytes",
           "name": "Bit",
           "package": "unittyped",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA byte of data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Bytes",
           "name": "Byte",
           "package": "unittyped",
@@ -74,6 +79,7 @@
         "index": {
           "description": "byte of data",
           "hierarchy": "UnitTyped Bytes",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Bytes",
           "name": "Byte",
           "package": "unittyped",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn of amount of data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Bytes",
           "name": "Data",
           "package": "unittyped",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An of amount of data",
           "hierarchy": "UnitTyped Bytes",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Bytes",
           "name": "Data",
           "package": "unittyped",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension representing \u003ccode\u003eData^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Bytes",
           "name": "DataUnit",
           "package": "unittyped",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The dimension representing Data",
           "hierarchy": "UnitTyped Bytes",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Bytes",
           "name": "DataUnit",
           "package": "unittyped",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Bytes",
           "name": "bit",
           "package": "unittyped",
@@ -144,6 +155,7 @@
         "index": {
           "description": "One bit",
           "hierarchy": "UnitTyped Bytes",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Bytes",
           "name": "bit",
           "package": "unittyped",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Bytes",
           "name": "byte",
           "package": "unittyped",
@@ -167,6 +180,7 @@
         "index": {
           "description": "One byte",
           "hierarchy": "UnitTyped Bytes",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Bytes",
           "name": "byte",
           "package": "unittyped",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module with a number of currencies. Values updated on: 22-11-2012\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "Currency",
           "package": "unittyped",
@@ -189,6 +204,7 @@
         "index": {
           "description": "module with number of currencies Values updated on",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "Currency",
           "package": "unittyped",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of currency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "Currency",
           "package": "unittyped",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Dimension of currency",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "Currency",
           "package": "unittyped",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension representing \u003ccode\u003eCurrency^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "CurrencyUnit",
           "package": "unittyped",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Dimension representing Currency",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "CurrencyUnit",
           "package": "unittyped",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dollar ($).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "Dollar",
           "package": "unittyped",
@@ -258,6 +279,7 @@
         "index": {
           "description": "dollar",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "Dollar",
           "package": "unittyped",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA euro (&#8364;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "Euro",
           "package": "unittyped",
@@ -281,6 +304,7 @@
         "index": {
           "description": "euro",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "Euro",
           "package": "unittyped",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo longer used, Dutch Guilders (&#402;)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "Gulden",
           "package": "unittyped",
@@ -304,6 +329,7 @@
         "index": {
           "description": "No longer used Dutch Guilders",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "Gulden",
           "package": "unittyped",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBritish Pound (&#163;)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "Pound",
           "package": "unittyped",
@@ -327,6 +354,7 @@
         "index": {
           "description": "British Pound",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "Pound",
           "package": "unittyped",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Yen (&#165;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "Yen",
           "package": "unittyped",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Yen",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "Yen",
           "package": "unittyped",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne dollar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "dollar",
           "package": "unittyped",
@@ -374,6 +405,7 @@
         "index": {
           "description": "One dollar",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "dollar",
           "package": "unittyped",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne dollarcent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "dollarcent",
           "package": "unittyped",
@@ -397,6 +430,7 @@
         "index": {
           "description": "One dollarcent",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "dollarcent",
           "package": "unittyped",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne euro.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "euro",
           "package": "unittyped",
@@ -420,6 +455,7 @@
         "index": {
           "description": "One euro",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "euro",
           "package": "unittyped",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne eurocent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "eurocent",
           "package": "unittyped",
@@ -443,6 +480,7 @@
         "index": {
           "description": "One eurocent",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "eurocent",
           "package": "unittyped",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne gulden.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "gulden",
           "package": "unittyped",
@@ -466,6 +505,7 @@
         "index": {
           "description": "One gulden",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "gulden",
           "package": "unittyped",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne pound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "pound",
           "package": "unittyped",
@@ -489,6 +530,7 @@
         "index": {
           "description": "One pound",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "pound",
           "package": "unittyped",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne yen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.Currency",
           "name": "yen",
           "package": "unittyped",
@@ -512,6 +555,7 @@
         "index": {
           "description": "One yen",
           "hierarchy": "UnitTyped Currency",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.Currency",
           "name": "yen",
           "package": "unittyped",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module renaming operators on values to names that would normally collide with the \u003ca\u003ePrelude\u003c/a\u003e.\n E.g. \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAlso adds instances for \u003ccode\u003eNum\u003c/code\u003e that makes it possible to write:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e1 meter / second\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "NoPrelude",
           "package": "unittyped",
@@ -534,6 +579,7 @@
         "index": {
           "description": "module renaming operators on values to names that would normally collide with the Prelude E.g sin Also adds instances for Num that makes it possible to write meter second",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "NoPrelude",
           "package": "unittyped",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.*.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(*)",
           "package": "unittyped",
@@ -558,6 +605,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(*) *",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a f(Mul c e)",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.+.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(+)",
           "package": "unittyped",
@@ -583,6 +632,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(+) +",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a b c",
@@ -598,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(-)",
           "package": "unittyped",
@@ -608,6 +659,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(-) -",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a b c",
@@ -623,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e./.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(/)",
           "package": "unittyped",
@@ -633,6 +686,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(/) /",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a f(Div c e)",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.\u003c.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(\u003c)",
           "package": "unittyped",
@@ -658,6 +713,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(\u003c) \u003c",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -673,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.\u003c=.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(\u003c=)",
           "package": "unittyped",
@@ -683,6 +740,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(\u003c=) \u003c=",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -698,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.==.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(==)",
           "package": "unittyped",
@@ -708,6 +767,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(==) ==",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.\u003e.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(\u003e)",
           "package": "unittyped",
@@ -733,6 +794,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(\u003e) \u003e",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -748,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.\u003e.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(\u003e=)",
           "package": "unittyped",
@@ -758,6 +821,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(\u003e=) \u003e=",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -773,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003e.$.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "(.)",
           "package": "unittyped",
@@ -783,6 +848,7 @@
         "index": {
           "description": "See",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "(.) .",
           "normalized": "a-\u003eValue a b c-\u003eValue a b c",
@@ -798,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the arccosinus of a value. Always computes \u003ccode\u003e\u003ca\u003eRadian\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "acos",
           "package": "unittyped",
@@ -808,6 +875,7 @@
         "index": {
           "description": "Calculate the arccosinus of value Always computes Radian",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "acos",
           "normalized": "Value a NoDimension Count-\u003eValue a NoDimension Radian",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the arcsinus of a value. Always computes \u003ccode\u003e\u003ca\u003eRadian\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "asin",
           "package": "unittyped",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Calculate the arcsinus of value Always computes Radian",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "asin",
           "normalized": "Value a NoDimension Count-\u003eValue a NoDimension Radian",
@@ -848,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the arctangens of a value. Always computes \u003ccode\u003e\u003ca\u003eRadian\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "atan",
           "package": "unittyped",
@@ -858,6 +929,7 @@
         "index": {
           "description": "Calculate the arctangens of value Always computes Radian",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "atan",
           "normalized": "Value a NoDimension Count-\u003eValue a NoDimension Radian",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the cosinus of a value. Works on \u003ccode\u003e\u003ca\u003eDegree\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRadian\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "cos",
           "package": "unittyped",
@@ -883,6 +956,7 @@
         "index": {
           "description": "Calculate the cosinus of value Works on Degree and Radian",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "cos",
           "normalized": "Value a NoDimension b-\u003eValue a NoDimension Count",
@@ -898,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the sinus of a value. Works on \u003ccode\u003e\u003ca\u003eDegree\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRadian\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "sin",
           "package": "unittyped",
@@ -908,6 +983,7 @@
         "index": {
           "description": "Calculate the sinus of value Works on Degree and Radian",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "sin",
           "normalized": "Value a NoDimension b-\u003eValue a NoDimension Count",
@@ -923,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the tangens of a value. Works on \u003ccode\u003e\u003ca\u003eDegree\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRadian\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.NoPrelude",
           "name": "tan",
           "package": "unittyped",
@@ -933,6 +1010,7 @@
         "index": {
           "description": "Calculate the tangens of value Works on Degree and Radian",
           "hierarchy": "UnitTyped NoPrelude",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.NoPrelude",
           "name": "tan",
           "normalized": "Value a NoDimension b-\u003eValue a NoDimension Count",
@@ -948,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA number of mathematical or physical constants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "Constants",
           "package": "unittyped",
@@ -957,6 +1036,7 @@
         "index": {
           "description": "number of mathematical or physical constants",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "Constants",
           "package": "unittyped",
@@ -971,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic unit of length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "a_0",
           "package": "unittyped",
@@ -981,6 +1062,7 @@
         "index": {
           "description": "Atomic unit of length",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "a_0",
           "package": "unittyped",
@@ -994,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe speed of light\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "c",
           "package": "unittyped",
@@ -1004,6 +1087,7 @@
         "index": {
           "description": "The speed of light",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "c",
           "package": "unittyped",
@@ -1017,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic unit of charge (elementary charge)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "e",
           "package": "unittyped",
@@ -1027,6 +1112,7 @@
         "index": {
           "description": "Atomic unit of charge elementary charge",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "e",
           "package": "unittyped",
@@ -1040,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic unit of energy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "e_h",
           "package": "unittyped",
@@ -1050,6 +1137,7 @@
         "index": {
           "description": "Atomic unit of energy",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "e_h",
           "package": "unittyped",
@@ -1063,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGravitational constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "g",
           "package": "unittyped",
@@ -1073,6 +1162,7 @@
         "index": {
           "description": "Gravitational constant",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "g",
           "package": "unittyped",
@@ -1086,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlanck constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "h",
           "package": "unittyped",
@@ -1096,6 +1187,7 @@
         "index": {
           "description": "Planck constant",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "h",
           "package": "unittyped",
@@ -1109,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduced Planck constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "hbar",
           "package": "unittyped",
@@ -1119,6 +1212,7 @@
         "index": {
           "description": "Reduced Planck constant",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "hbar",
           "package": "unittyped",
@@ -1132,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlanck mass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "m_P",
           "package": "unittyped",
@@ -1142,6 +1237,7 @@
         "index": {
           "description": "Planck mass",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "m_P",
           "package": "unittyped",
@@ -1155,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduced Planck mass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "m_P'",
           "package": "unittyped",
@@ -1165,6 +1262,7 @@
         "index": {
           "description": "Reduced Planck mass",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "m_P'",
           "package": "unittyped",
@@ -1179,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic unit of mass (electron mass)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "m_e",
           "package": "unittyped",
@@ -1189,6 +1288,7 @@
         "index": {
           "description": "Atomic unit of mass electron mass",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "m_e",
           "package": "unittyped",
@@ -1202,6 +1302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#960; as a rational value. Which it isn't. But we can pretend it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "pi",
           "package": "unittyped",
@@ -1212,6 +1313,7 @@
         "index": {
           "description": "as rational value Which it isn But we can pretend it is",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "pi",
           "package": "unittyped",
@@ -1225,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#960; as the floating point value it has in the \u003ca\u003ePrelude\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "pi'",
           "package": "unittyped",
@@ -1235,6 +1338,7 @@
         "index": {
           "description": "as the floating point value it has in the Prelude",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "pi'",
           "package": "unittyped",
@@ -1248,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGas constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Constants",
           "name": "r",
           "package": "unittyped",
@@ -1258,6 +1363,7 @@
         "index": {
           "description": "Gas constant",
           "hierarchy": "UnitTyped SI Constants",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Constants",
           "name": "r",
           "package": "unittyped",
@@ -1271,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module with dimensionless units often used with SI.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Count",
           "package": "unittyped",
@@ -1280,6 +1387,7 @@
         "index": {
           "description": "module with dimensionless units often used with SI",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Count",
           "package": "unittyped",
@@ -1294,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngles are dimensionless, these are degrees (&#730;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Degree",
           "package": "unittyped",
@@ -1303,6 +1412,7 @@
         "index": {
           "description": "Angles are dimensionless these are degrees",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Degree",
           "package": "unittyped",
@@ -1317,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePercentage: 1% == 0.001\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Percentage",
           "package": "unittyped",
@@ -1326,6 +1437,7 @@
         "index": {
           "description": "Percentage",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Percentage",
           "package": "unittyped",
@@ -1340,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePer mille: 1&#8240; == 0.001\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Permil",
           "package": "unittyped",
@@ -1349,6 +1462,7 @@
         "index": {
           "description": "Per mille",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Permil",
           "package": "unittyped",
@@ -1363,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParts per billion: 1 ppb == 0.1^9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Ppb",
           "package": "unittyped",
@@ -1372,6 +1487,7 @@
         "index": {
           "description": "Parts per billion ppb",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Ppb",
           "package": "unittyped",
@@ -1386,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParts per million: 1 ppm == 0.1^6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Ppm",
           "package": "unittyped",
@@ -1395,6 +1512,7 @@
         "index": {
           "description": "Parts per million ppm",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Ppm",
           "package": "unittyped",
@@ -1409,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParts per trillion: 1 ppt == 0.1^12\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Ppt",
           "package": "unittyped",
@@ -1418,6 +1537,7 @@
         "index": {
           "description": "Parts per trillion ppt",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Ppt",
           "package": "unittyped",
@@ -1432,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngles are dimensionless, these are radians (rad).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Radian",
           "package": "unittyped",
@@ -1441,6 +1562,7 @@
         "index": {
           "description": "Angles are dimensionless these are radians rad",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "Radian",
           "package": "unittyped",
@@ -1455,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne degree (&#730;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "deg",
           "package": "unittyped",
@@ -1465,6 +1588,7 @@
         "index": {
           "description": "One degree",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "deg",
           "package": "unittyped",
@@ -1478,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne percent (%).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "percent",
           "package": "unittyped",
@@ -1488,6 +1613,7 @@
         "index": {
           "description": "One percent",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "percent",
           "package": "unittyped",
@@ -1501,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne per mille (&#8240;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "permil",
           "package": "unittyped",
@@ -1511,6 +1638,7 @@
         "index": {
           "description": "One per mille",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "permil",
           "package": "unittyped",
@@ -1524,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne part per billion (ppb).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "ppb",
           "package": "unittyped",
@@ -1534,6 +1663,7 @@
         "index": {
           "description": "One part per billion ppb",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "ppb",
           "package": "unittyped",
@@ -1547,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne part per million (ppm).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "ppm",
           "package": "unittyped",
@@ -1557,6 +1688,7 @@
         "index": {
           "description": "One part per million ppm",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "ppm",
           "package": "unittyped",
@@ -1570,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne part per trillion (ppt).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "ppt",
           "package": "unittyped",
@@ -1580,6 +1713,7 @@
         "index": {
           "description": "One part per trillion ppt",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "ppt",
           "package": "unittyped",
@@ -1593,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne rad (rad).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "rad",
           "package": "unittyped",
@@ -1603,6 +1738,7 @@
         "index": {
           "description": "One rad rad",
           "hierarchy": "UnitTyped SI Derived Count",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Count",
           "name": "rad",
           "package": "unittyped",
@@ -1616,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnits derived from the SI unit for length, and higher dimensions of length (area, volume).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Length",
           "package": "unittyped",
@@ -1625,6 +1762,7 @@
         "index": {
           "description": "Units derived from the SI unit for length and higher dimensions of length area volume",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Length",
           "package": "unittyped",
@@ -1639,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#197;ngstr&#246;m, length unit for atoms and molecules (&#197;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Ångström",
           "package": "unittyped",
@@ -1648,6 +1787,7 @@
         "index": {
           "description": "ngstr length unit for atoms and molecules",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Ångström",
           "package": "unittyped",
@@ -1662,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArea: \u003ccode\u003eLength^2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "AreaUnit",
           "package": "unittyped",
@@ -1671,6 +1812,7 @@
         "index": {
           "description": "Area Length",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "AreaUnit",
           "package": "unittyped",
@@ -1685,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArea, often used in nuclear physics (b).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Barn",
           "package": "unittyped",
@@ -1694,6 +1837,7 @@
         "index": {
           "description": "Area often used in nuclear physics",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Barn",
           "package": "unittyped",
@@ -1708,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFluid ounce, unit of volume (fl oz).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "FluidOunce",
           "package": "unittyped",
@@ -1717,6 +1862,7 @@
         "index": {
           "description": "Fluid ounce unit of volume fl oz",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "FluidOunce",
           "package": "unittyped",
@@ -1731,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe international foot (ft).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Foot",
           "package": "unittyped",
@@ -1740,6 +1887,7 @@
         "index": {
           "description": "The international foot ft",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Foot",
           "package": "unittyped",
@@ -1754,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGallon, unit of volume (gallon).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Gallon",
           "package": "unittyped",
@@ -1763,6 +1912,7 @@
         "index": {
           "description": "Gallon unit of volume gallon",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Gallon",
           "package": "unittyped",
@@ -1777,6 +1927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe international inch (in).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Inch",
           "package": "unittyped",
@@ -1786,6 +1937,7 @@
         "index": {
           "description": "The international inch in",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Inch",
           "package": "unittyped",
@@ -1800,6 +1952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiter, unit of volume (L).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Liter",
           "package": "unittyped",
@@ -1809,6 +1962,7 @@
         "index": {
           "description": "Liter unit of volume",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Liter",
           "package": "unittyped",
@@ -1823,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe international mile (mile).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Mile",
           "package": "unittyped",
@@ -1832,6 +1987,7 @@
         "index": {
           "description": "The international mile mile",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Mile",
           "package": "unittyped",
@@ -1846,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNautical miles (M).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "NauticalMile",
           "package": "unittyped",
@@ -1855,6 +2012,7 @@
         "index": {
           "description": "Nautical miles",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "NauticalMile",
           "package": "unittyped",
@@ -1869,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume: \u003ccode\u003eLength^3\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "VolumeUnit",
           "package": "unittyped",
@@ -1878,6 +2037,7 @@
         "index": {
           "description": "Volume Length",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "VolumeUnit",
           "package": "unittyped",
@@ -1892,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe international yard (yd).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Yard",
           "package": "unittyped",
@@ -1901,6 +2062,7 @@
         "index": {
           "description": "The international yard yd",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "Yard",
           "package": "unittyped",
@@ -1915,6 +2077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne &#229;ngstr&#246;m (&#197;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "ångström",
           "package": "unittyped",
@@ -1925,6 +2088,7 @@
         "index": {
           "description": "One ngstr",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "ångström",
           "package": "unittyped",
@@ -1938,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne &#229;ngstr&#246;m, for those with bad UTF-8 support (&#197;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "angstrom",
           "package": "unittyped",
@@ -1948,6 +2113,7 @@
         "index": {
           "description": "One ngstr for those with bad UTF-8 support",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "angstrom",
           "package": "unittyped",
@@ -1961,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne barn (b).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "barn",
           "package": "unittyped",
@@ -1971,6 +2138,7 @@
         "index": {
           "description": "One barn",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "barn",
           "package": "unittyped",
@@ -1984,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne fluid ounce (fl oz).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "fluid_ounce",
           "package": "unittyped",
@@ -1994,6 +2163,7 @@
         "index": {
           "description": "One fluid ounce fl oz",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "fluid_ounce",
           "package": "unittyped",
@@ -2007,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne foot (ft).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "foot",
           "package": "unittyped",
@@ -2017,6 +2188,7 @@
         "index": {
           "description": "One foot ft",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "foot",
           "package": "unittyped",
@@ -2030,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne gallon (gallon).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "gallon",
           "package": "unittyped",
@@ -2040,6 +2213,7 @@
         "index": {
           "description": "One gallon gallon",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "gallon",
           "package": "unittyped",
@@ -2053,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne inch (in).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "inch",
           "package": "unittyped",
@@ -2063,6 +2238,7 @@
         "index": {
           "description": "One inch in",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "inch",
           "package": "unittyped",
@@ -2076,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne liter (L).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "liter",
           "package": "unittyped",
@@ -2086,6 +2263,7 @@
         "index": {
           "description": "One liter",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "liter",
           "package": "unittyped",
@@ -2099,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne mile (mile).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "mile",
           "package": "unittyped",
@@ -2109,6 +2288,7 @@
         "index": {
           "description": "One mile mile",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "mile",
           "package": "unittyped",
@@ -2122,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne nautical mile (M).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "nautical_mile",
           "package": "unittyped",
@@ -2132,6 +2313,7 @@
         "index": {
           "description": "One nautical mile",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "nautical_mile",
           "package": "unittyped",
@@ -2145,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne yard (yd).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "yard",
           "package": "unittyped",
@@ -2155,6 +2338,7 @@
         "index": {
           "description": "One yard yd",
           "hierarchy": "UnitTyped SI Derived Length",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Length",
           "name": "yard",
           "package": "unittyped",
@@ -2168,6 +2352,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnits derived from the SI unit for mass.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Mass",
           "name": "Mass",
           "package": "unittyped",
@@ -2177,6 +2362,7 @@
         "index": {
           "description": "Units derived from the SI unit for mass",
           "hierarchy": "UnitTyped SI Derived Mass",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Mass",
           "name": "Mass",
           "package": "unittyped",
@@ -2191,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePound, imperial unit of mass (lb).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Mass",
           "name": "Pound",
           "package": "unittyped",
@@ -2200,6 +2387,7 @@
         "index": {
           "description": "Pound imperial unit of mass lb",
           "hierarchy": "UnitTyped SI Derived Mass",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Mass",
           "name": "Pound",
           "package": "unittyped",
@@ -2214,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne pound (lb).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Mass",
           "name": "pound",
           "package": "unittyped",
@@ -2224,6 +2413,7 @@
         "index": {
           "description": "One pound lb",
           "hierarchy": "UnitTyped SI Derived Mass",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Mass",
           "name": "pound",
           "package": "unittyped",
@@ -2237,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnits derived from the SI unit for time: \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Time",
           "package": "unittyped",
@@ -2246,6 +2437,7 @@
         "index": {
           "description": "Units derived from the SI unit for time second",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Time",
           "package": "unittyped",
@@ -2260,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay (day).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Day",
           "package": "unittyped",
@@ -2269,6 +2462,7 @@
         "index": {
           "description": "Day day",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Day",
           "package": "unittyped",
@@ -2283,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrequency in Hertz. (Hz)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Hertz",
           "package": "unittyped",
@@ -2292,6 +2487,7 @@
         "index": {
           "description": "Frequency in Hertz Hz",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Hertz",
           "package": "unittyped",
@@ -2306,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour (h).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Hour",
           "package": "unittyped",
@@ -2315,6 +2512,7 @@
         "index": {
           "description": "Hour",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Hour",
           "package": "unittyped",
@@ -2329,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJulian year (a). This is an average year in the Julian calender (so 365.25 days). Still used in astronomy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "JulianYear",
           "package": "unittyped",
@@ -2338,6 +2537,7 @@
         "index": {
           "description": "Julian year This is an average year in the Julian calender so days Still used in astronomy",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "JulianYear",
           "package": "unittyped",
@@ -2352,6 +2552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinute (min.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Minute",
           "package": "unittyped",
@@ -2361,6 +2562,7 @@
         "index": {
           "description": "Minute min",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Minute",
           "package": "unittyped",
@@ -2375,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonth (month). Average length of a month (365.2425 / 12).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Month",
           "package": "unittyped",
@@ -2384,6 +2587,7 @@
         "index": {
           "description": "Month month Average length of month",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Month",
           "package": "unittyped",
@@ -2398,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYear (yr). This is an average year in the Gregorian calender (so 365.2425 days).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Year",
           "package": "unittyped",
@@ -2407,6 +2612,7 @@
         "index": {
           "description": "Year yr This is an average year in the Gregorian calender so days",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "Year",
           "package": "unittyped",
@@ -2421,6 +2627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne day (day).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "day",
           "package": "unittyped",
@@ -2431,6 +2638,7 @@
         "index": {
           "description": "One day day",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "day",
           "package": "unittyped",
@@ -2444,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne herz (Hz).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "hertz",
           "package": "unittyped",
@@ -2454,6 +2663,7 @@
         "index": {
           "description": "One herz Hz",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "hertz",
           "package": "unittyped",
@@ -2467,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne hour (h).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "hour",
           "package": "unittyped",
@@ -2477,6 +2688,7 @@
         "index": {
           "description": "One hour",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "hour",
           "package": "unittyped",
@@ -2490,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne Julian year (a).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "julian_year",
           "package": "unittyped",
@@ -2500,6 +2713,7 @@
         "index": {
           "description": "One Julian year",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "julian_year",
           "package": "unittyped",
@@ -2513,6 +2727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne minute (min.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "minute",
           "package": "unittyped",
@@ -2523,6 +2738,7 @@
         "index": {
           "description": "One minute min",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "minute",
           "package": "unittyped",
@@ -2536,6 +2752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne month (month).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "month",
           "package": "unittyped",
@@ -2546,6 +2763,7 @@
         "index": {
           "description": "One month month",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "month",
           "package": "unittyped",
@@ -2559,6 +2777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne year (yr).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "year",
           "package": "unittyped",
@@ -2569,6 +2788,7 @@
         "index": {
           "description": "One year yr",
           "hierarchy": "UnitTyped SI Derived Time",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived.Time",
           "name": "year",
           "package": "unittyped",
@@ -2582,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module with dimensions and units derived from combining SI units.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Derived",
           "package": "unittyped",
@@ -2591,6 +2812,7 @@
         "index": {
           "description": "module with dimensions and units derived from combining SI units",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Derived",
           "package": "unittyped",
@@ -2605,6 +2827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceleration. \u003ccode\u003eLength^1 Time^-2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Acceleration",
           "package": "unittyped",
@@ -2614,6 +2837,7 @@
         "index": {
           "description": "Acceleration Length Time",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Acceleration",
           "package": "unittyped",
@@ -2628,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of pressure (bar).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Bar",
           "package": "unittyped",
@@ -2637,6 +2862,7 @@
         "index": {
           "description": "Unit of pressure bar",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Bar",
           "package": "unittyped",
@@ -2651,6 +2877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectric capacitance. \u003ccode\u003eCurrent^2 Mass^-1 Length^2 Time^4\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Capacitance",
           "package": "unittyped",
@@ -2660,6 +2887,7 @@
         "index": {
           "description": "Electric capacitance Current Mass Length Time",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Capacitance",
           "package": "unittyped",
@@ -2674,6 +2902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectric charge. \u003ccode\u003eTime^1 Current^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Charge",
           "package": "unittyped",
@@ -2683,6 +2912,7 @@
         "index": {
           "description": "Electric charge Time Current",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Charge",
           "package": "unittyped",
@@ -2697,6 +2927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectric conductance. \u003ccode\u003eCurrent^2 Mass^-1 Length^-2 Time^3\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Conductance",
           "package": "unittyped",
@@ -2706,6 +2937,7 @@
         "index": {
           "description": "Electric conductance Current Mass Length Time",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Conductance",
           "package": "unittyped",
@@ -2720,6 +2952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of chage (C).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Coulomb",
           "package": "unittyped",
@@ -2729,6 +2962,7 @@
         "index": {
           "description": "Unit of chage",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Coulomb",
           "package": "unittyped",
@@ -2743,6 +2977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy. \u003ccode\u003eLength^2 Time^-2 Mass^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Energy",
           "package": "unittyped",
@@ -2752,6 +2987,7 @@
         "index": {
           "description": "Energy Length Time Mass",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Energy",
           "package": "unittyped",
@@ -2766,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of energy (eV).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Ev",
           "package": "unittyped",
@@ -2775,6 +3012,7 @@
         "index": {
           "description": "Unit of energy eV",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Ev",
           "package": "unittyped",
@@ -2789,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of capacitance (F).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Farad",
           "package": "unittyped",
@@ -2798,6 +3037,7 @@
         "index": {
           "description": "Unit of capacitance",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Farad",
           "package": "unittyped",
@@ -2812,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMagnetic flux. \u003ccode\u003eCurrent^-1 Length^2 Mass^1 Time^-2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Flux",
           "package": "unittyped",
@@ -2821,6 +3062,7 @@
         "index": {
           "description": "Magnetic flux Current Length Mass Time",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Flux",
           "package": "unittyped",
@@ -2835,6 +3077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMagnetic field strength. \u003ccode\u003eTime^-2 Mass^1 Current^-1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "FluxDensity",
           "package": "unittyped",
@@ -2844,6 +3087,7 @@
         "index": {
           "description": "Magnetic field strength Time Mass Current",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "FluxDensity",
           "package": "unittyped",
@@ -2858,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce. \u003ccode\u003eLength^1 Time^-1 Mass^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Force",
           "package": "unittyped",
@@ -2867,6 +3112,7 @@
         "index": {
           "description": "Force Length Time Mass",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Force",
           "package": "unittyped",
@@ -2881,6 +3127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of Inductance (H).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Henry",
           "package": "unittyped",
@@ -2890,6 +3137,7 @@
         "index": {
           "description": "Unit of Inductance",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Henry",
           "package": "unittyped",
@@ -2904,6 +3152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInductance. \u003ccode\u003eCurrent^-2 Time^-2 Mass^1 Length^2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Inductance",
           "package": "unittyped",
@@ -2913,6 +3162,7 @@
         "index": {
           "description": "Inductance Current Time Mass Length",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Inductance",
           "package": "unittyped",
@@ -2927,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of energy (J).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Joule",
           "package": "unittyped",
@@ -2936,6 +3187,7 @@
         "index": {
           "description": "Unit of energy",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Joule",
           "package": "unittyped",
@@ -2950,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerived unit of speed (kn).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Knot",
           "package": "unittyped",
@@ -2959,6 +3212,7 @@
         "index": {
           "description": "Derived unit of speed kn",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Knot",
           "package": "unittyped",
@@ -2973,6 +3227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of pressure (mmHg).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "MmHg",
           "package": "unittyped",
@@ -2982,6 +3237,7 @@
         "index": {
           "description": "Unit of pressure mmHg",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "MmHg",
           "package": "unittyped",
@@ -2996,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of force (N).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Newton",
           "package": "unittyped",
@@ -3005,6 +3262,7 @@
         "index": {
           "description": "Unit of force",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Newton",
           "package": "unittyped",
@@ -3019,6 +3277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of resistance (&#937;).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Ohm",
           "package": "unittyped",
@@ -3028,6 +3287,7 @@
         "index": {
           "description": "Unit of resistance",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Ohm",
           "package": "unittyped",
@@ -3042,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of pressure (Pa).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Pascal",
           "package": "unittyped",
@@ -3051,6 +3312,7 @@
         "index": {
           "description": "Unit of pressure Pa",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Pascal",
           "package": "unittyped",
@@ -3065,6 +3327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectric potential. \u003ccode\u003eTime^-3 Current^-1 Mass^1 Length^2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Potential",
           "package": "unittyped",
@@ -3074,6 +3337,7 @@
         "index": {
           "description": "Electric potential Time Current Mass Length",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Potential",
           "package": "unittyped",
@@ -3088,6 +3352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy. \u003ccode\u003eLength^2 Time^-3 Mass^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Power",
           "package": "unittyped",
@@ -3097,6 +3362,7 @@
         "index": {
           "description": "Energy Length Time Mass",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Power",
           "package": "unittyped",
@@ -3111,6 +3377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy. \u003ccode\u003eLength^-1 Time^-2 Mass^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Pressure",
           "package": "unittyped",
@@ -3120,6 +3387,7 @@
         "index": {
           "description": "Energy Length Time Mass",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Pressure",
           "package": "unittyped",
@@ -3134,6 +3402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectric resistance. \u003ccode\u003eCurrent^-2 Time^-3 Length^2 Mass^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Resistance",
           "package": "unittyped",
@@ -3143,6 +3412,7 @@
         "index": {
           "description": "Electric resistance Current Time Length Mass",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Resistance",
           "package": "unittyped",
@@ -3157,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of conductance (S).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Siemens",
           "package": "unittyped",
@@ -3166,6 +3437,7 @@
         "index": {
           "description": "Unit of conductance",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Siemens",
           "package": "unittyped",
@@ -3180,6 +3452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpeed. \u003ccode\u003eLength^1 Time^-1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Speed",
           "package": "unittyped",
@@ -3189,6 +3462,7 @@
         "index": {
           "description": "Speed Length Time",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Speed",
           "package": "unittyped",
@@ -3203,6 +3477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of magnetic field strength (T).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Tesla",
           "package": "unittyped",
@@ -3212,6 +3487,7 @@
         "index": {
           "description": "Unit of magnetic field strength",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Tesla",
           "package": "unittyped",
@@ -3226,6 +3502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of potential (V).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Volt",
           "package": "unittyped",
@@ -3235,6 +3512,7 @@
         "index": {
           "description": "Unit of potential",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Volt",
           "package": "unittyped",
@@ -3249,6 +3527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of power (W).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Watt",
           "package": "unittyped",
@@ -3258,6 +3537,7 @@
         "index": {
           "description": "Unit of power",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Watt",
           "package": "unittyped",
@@ -3272,6 +3552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit of magnetic flux (Wb).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "Weber",
           "package": "unittyped",
@@ -3281,6 +3562,7 @@
         "index": {
           "description": "Unit of magnetic flux Wb",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "Weber",
           "package": "unittyped",
@@ -3295,6 +3577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "bar",
           "package": "unittyped",
@@ -3305,6 +3588,7 @@
         "index": {
           "description": "One bar",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "bar",
           "package": "unittyped",
@@ -3318,6 +3602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne coulomb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "coulomb",
           "package": "unittyped",
@@ -3328,6 +3613,7 @@
         "index": {
           "description": "One coulomb",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "coulomb",
           "package": "unittyped",
@@ -3341,6 +3627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne eV.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "eV",
           "package": "unittyped",
@@ -3351,6 +3638,7 @@
         "index": {
           "description": "One eV",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "eV",
           "package": "unittyped",
@@ -3364,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne farad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "farad",
           "package": "unittyped",
@@ -3374,6 +3663,7 @@
         "index": {
           "description": "One farad",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "farad",
           "package": "unittyped",
@@ -3387,6 +3677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne henry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "henry",
           "package": "unittyped",
@@ -3397,6 +3688,7 @@
         "index": {
           "description": "One henry",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "henry",
           "package": "unittyped",
@@ -3410,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne joule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "joule",
           "package": "unittyped",
@@ -3420,6 +3713,7 @@
         "index": {
           "description": "One joule",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "joule",
           "package": "unittyped",
@@ -3433,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne knot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "knot",
           "package": "unittyped",
@@ -3443,6 +3738,7 @@
         "index": {
           "description": "One knot",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "knot",
           "package": "unittyped",
@@ -3456,6 +3752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne kwh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "kwh",
           "package": "unittyped",
@@ -3466,6 +3763,7 @@
         "index": {
           "description": "One kwh",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "kwh",
           "package": "unittyped",
@@ -3479,6 +3777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne mmHg.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "mmHg",
           "package": "unittyped",
@@ -3489,6 +3788,7 @@
         "index": {
           "description": "One mmHg",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "mmHg",
           "package": "unittyped",
@@ -3503,6 +3803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne newton.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "newton",
           "package": "unittyped",
@@ -3513,6 +3814,7 @@
         "index": {
           "description": "One newton",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "newton",
           "package": "unittyped",
@@ -3526,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne ohm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "ohm",
           "package": "unittyped",
@@ -3536,6 +3839,7 @@
         "index": {
           "description": "One ohm",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "ohm",
           "package": "unittyped",
@@ -3549,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne pascal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "pascal",
           "package": "unittyped",
@@ -3559,6 +3864,7 @@
         "index": {
           "description": "One pascal",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "pascal",
           "package": "unittyped",
@@ -3572,6 +3878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne siemens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "siemens",
           "package": "unittyped",
@@ -3582,6 +3889,7 @@
         "index": {
           "description": "One siemens",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "siemens",
           "package": "unittyped",
@@ -3595,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne tesla.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "tesla",
           "package": "unittyped",
@@ -3605,6 +3914,7 @@
         "index": {
           "description": "One tesla",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "tesla",
           "package": "unittyped",
@@ -3618,6 +3928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne volt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "volt",
           "package": "unittyped",
@@ -3628,6 +3939,7 @@
         "index": {
           "description": "One volt",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "volt",
           "package": "unittyped",
@@ -3641,6 +3953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne watt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "watt",
           "package": "unittyped",
@@ -3651,6 +3964,7 @@
         "index": {
           "description": "One watt",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "watt",
           "package": "unittyped",
@@ -3664,6 +3978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne weber.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Derived",
           "name": "weber",
           "package": "unittyped",
@@ -3674,6 +3989,7 @@
         "index": {
           "description": "One weber",
           "hierarchy": "UnitTyped SI Derived",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Derived",
           "name": "weber",
           "package": "unittyped",
@@ -3687,6 +4003,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module creates the SI prefixes for units.\n This module allows syntax like:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e42 kilo meter\n\u003c/code\u003e\u003c/strong\u003e42.0 km\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Meta",
           "package": "unittyped",
@@ -3696,6 +4013,7 @@
         "index": {
           "description": "This module creates the SI prefixes for units This module allows syntax like kilo meter km",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Meta",
           "package": "unittyped",
@@ -3710,6 +4028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-18 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Atto",
           "package": "unittyped",
@@ -3719,6 +4038,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Atto",
           "package": "unittyped",
@@ -3733,6 +4053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-2 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Centi",
           "package": "unittyped",
@@ -3742,6 +4063,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Centi",
           "package": "unittyped",
@@ -3756,6 +4078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^1 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Deca",
           "package": "unittyped",
@@ -3765,6 +4088,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Deca",
           "package": "unittyped",
@@ -3779,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-1 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Deci",
           "package": "unittyped",
@@ -3788,6 +4113,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Deci",
           "package": "unittyped",
@@ -3802,6 +4128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^18 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Exa",
           "package": "unittyped",
@@ -3811,6 +4138,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Exa",
           "package": "unittyped",
@@ -3825,6 +4153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 2^60 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Exbi",
           "package": "unittyped",
@@ -3834,6 +4163,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Exbi",
           "package": "unittyped",
@@ -3848,6 +4178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-15 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Femto",
           "package": "unittyped",
@@ -3857,6 +4188,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Femto",
           "package": "unittyped",
@@ -3871,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 2^30 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Gibi",
           "package": "unittyped",
@@ -3880,6 +4213,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Gibi",
           "package": "unittyped",
@@ -3894,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^9 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Giga",
           "package": "unittyped",
@@ -3903,6 +4238,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Giga",
           "package": "unittyped",
@@ -3917,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^2 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Hecto",
           "package": "unittyped",
@@ -3926,6 +4263,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Hecto",
           "package": "unittyped",
@@ -3940,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 2^10 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Kibi",
           "package": "unittyped",
@@ -3949,6 +4288,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Kibi",
           "package": "unittyped",
@@ -3963,6 +4303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^3 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Kilo",
           "package": "unittyped",
@@ -3972,6 +4313,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Kilo",
           "package": "unittyped",
@@ -3986,6 +4328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 2^20 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Mebi",
           "package": "unittyped",
@@ -3995,6 +4338,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Mebi",
           "package": "unittyped",
@@ -4009,6 +4353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^6 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Mega",
           "package": "unittyped",
@@ -4018,6 +4363,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Mega",
           "package": "unittyped",
@@ -4032,6 +4378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-6 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Micro",
           "package": "unittyped",
@@ -4041,6 +4388,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Micro",
           "package": "unittyped",
@@ -4055,6 +4403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-3 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Mili",
           "package": "unittyped",
@@ -4064,6 +4413,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Mili",
           "package": "unittyped",
@@ -4078,6 +4428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-9 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Nano",
           "package": "unittyped",
@@ -4087,6 +4438,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Nano",
           "package": "unittyped",
@@ -4101,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 2^50 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Pebi",
           "package": "unittyped",
@@ -4110,6 +4463,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Pebi",
           "package": "unittyped",
@@ -4124,6 +4478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^15 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Peta",
           "package": "unittyped",
@@ -4133,6 +4488,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Peta",
           "package": "unittyped",
@@ -4147,6 +4503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-12 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Pico",
           "package": "unittyped",
@@ -4156,6 +4513,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Pico",
           "package": "unittyped",
@@ -4170,6 +4528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 2^40 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Tebi",
           "package": "unittyped",
@@ -4179,6 +4538,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Tebi",
           "package": "unittyped",
@@ -4193,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^12 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Tera",
           "package": "unittyped",
@@ -4202,6 +4563,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Tera",
           "package": "unittyped",
@@ -4216,6 +4578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 2^80 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Yobi",
           "package": "unittyped",
@@ -4225,6 +4588,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Yobi",
           "package": "unittyped",
@@ -4239,6 +4603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-24 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Yocto",
           "package": "unittyped",
@@ -4248,6 +4613,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Yocto",
           "package": "unittyped",
@@ -4262,6 +4628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^24 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Yotta",
           "package": "unittyped",
@@ -4271,6 +4638,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Yotta",
           "package": "unittyped",
@@ -4285,6 +4653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 2^70 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Zebi",
           "package": "unittyped",
@@ -4294,6 +4663,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Zebi",
           "package": "unittyped",
@@ -4308,6 +4678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^-21 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Zepto",
           "package": "unittyped",
@@ -4317,6 +4688,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Zepto",
           "package": "unittyped",
@@ -4331,6 +4703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit 10^21 times an existing unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "Zetta",
           "package": "unittyped",
@@ -4340,6 +4713,7 @@
         "index": {
           "description": "Create unit times an existing unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "Zetta",
           "package": "unittyped",
@@ -4354,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one atto(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "atto",
           "package": "unittyped",
@@ -4364,6 +4739,7 @@
         "index": {
           "description": "Take unit and return one atto unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "atto",
           "normalized": "Value a b c-\u003eValue a b(Atto c)",
@@ -4379,6 +4755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one centi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "centi",
           "package": "unittyped",
@@ -4389,6 +4766,7 @@
         "index": {
           "description": "Take unit and return one centi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "centi",
           "normalized": "Value a b c-\u003eValue a b(Centi c)",
@@ -4404,6 +4782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one deca(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "deca",
           "package": "unittyped",
@@ -4414,6 +4793,7 @@
         "index": {
           "description": "Take unit and return one deca unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "deca",
           "normalized": "Value a b c-\u003eValue a b(Deca c)",
@@ -4429,6 +4809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one deci(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "deci",
           "package": "unittyped",
@@ -4439,6 +4820,7 @@
         "index": {
           "description": "Take unit and return one deci unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "deci",
           "normalized": "Value a b c-\u003eValue a b(Deci c)",
@@ -4454,6 +4836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one exa(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "exa",
           "package": "unittyped",
@@ -4464,6 +4847,7 @@
         "index": {
           "description": "Take unit and return one exa unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "exa",
           "normalized": "Value a b c-\u003eValue a b(Exa c)",
@@ -4479,6 +4863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one exbi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "exbi",
           "package": "unittyped",
@@ -4489,6 +4874,7 @@
         "index": {
           "description": "Take unit and return one exbi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "exbi",
           "normalized": "Value a b c-\u003eValue a b(Exbi c)",
@@ -4504,6 +4890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one femto(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "femto",
           "package": "unittyped",
@@ -4514,6 +4901,7 @@
         "index": {
           "description": "Take unit and return one femto unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "femto",
           "normalized": "Value a b c-\u003eValue a b(Femto c)",
@@ -4529,6 +4917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one gibi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "gibi",
           "package": "unittyped",
@@ -4539,6 +4928,7 @@
         "index": {
           "description": "Take unit and return one gibi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "gibi",
           "normalized": "Value a b c-\u003eValue a b(Gibi c)",
@@ -4554,6 +4944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one giga(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "giga",
           "package": "unittyped",
@@ -4564,6 +4955,7 @@
         "index": {
           "description": "Take unit and return one giga unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "giga",
           "normalized": "Value a b c-\u003eValue a b(Giga c)",
@@ -4579,6 +4971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one hecto(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "hecto",
           "package": "unittyped",
@@ -4589,6 +4982,7 @@
         "index": {
           "description": "Take unit and return one hecto unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "hecto",
           "normalized": "Value a b c-\u003eValue a b(Hecto c)",
@@ -4604,6 +4998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one kibi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "kibi",
           "package": "unittyped",
@@ -4614,6 +5009,7 @@
         "index": {
           "description": "Take unit and return one kibi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "kibi",
           "normalized": "Value a b c-\u003eValue a b(Kibi c)",
@@ -4629,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one kilo(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "kilo",
           "package": "unittyped",
@@ -4639,6 +5036,7 @@
         "index": {
           "description": "Take unit and return one kilo unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "kilo",
           "normalized": "Value a b c-\u003eValue a b(Kilo c)",
@@ -4654,6 +5052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one mebi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "mebi",
           "package": "unittyped",
@@ -4664,6 +5063,7 @@
         "index": {
           "description": "Take unit and return one mebi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "mebi",
           "normalized": "Value a b c-\u003eValue a b(Mebi c)",
@@ -4679,6 +5079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one mega(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "mega",
           "package": "unittyped",
@@ -4689,6 +5090,7 @@
         "index": {
           "description": "Take unit and return one mega unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "mega",
           "normalized": "Value a b c-\u003eValue a b(Mega c)",
@@ -4704,6 +5106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one micro(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "micro",
           "package": "unittyped",
@@ -4714,6 +5117,7 @@
         "index": {
           "description": "Take unit and return one micro unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "micro",
           "normalized": "Value a b c-\u003eValue a b(Micro c)",
@@ -4729,6 +5133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one mili(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "mili",
           "package": "unittyped",
@@ -4739,6 +5144,7 @@
         "index": {
           "description": "Take unit and return one mili unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "mili",
           "normalized": "Value a b c-\u003eValue a b(Mili c)",
@@ -4754,6 +5160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one nano(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "nano",
           "package": "unittyped",
@@ -4764,6 +5171,7 @@
         "index": {
           "description": "Take unit and return one nano unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "nano",
           "normalized": "Value a b c-\u003eValue a b(Nano c)",
@@ -4779,6 +5187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one pebi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "pebi",
           "package": "unittyped",
@@ -4789,6 +5198,7 @@
         "index": {
           "description": "Take unit and return one pebi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "pebi",
           "normalized": "Value a b c-\u003eValue a b(Pebi c)",
@@ -4804,6 +5214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one peta(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "peta",
           "package": "unittyped",
@@ -4814,6 +5225,7 @@
         "index": {
           "description": "Take unit and return one peta unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "peta",
           "normalized": "Value a b c-\u003eValue a b(Peta c)",
@@ -4829,6 +5241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one pico(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "pico",
           "package": "unittyped",
@@ -4839,6 +5252,7 @@
         "index": {
           "description": "Take unit and return one pico unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "pico",
           "normalized": "Value a b c-\u003eValue a b(Pico c)",
@@ -4854,6 +5268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one tebi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "tebi",
           "package": "unittyped",
@@ -4864,6 +5279,7 @@
         "index": {
           "description": "Take unit and return one tebi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "tebi",
           "normalized": "Value a b c-\u003eValue a b(Tebi c)",
@@ -4879,6 +5295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one tera(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "tera",
           "package": "unittyped",
@@ -4889,6 +5306,7 @@
         "index": {
           "description": "Take unit and return one tera unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "tera",
           "normalized": "Value a b c-\u003eValue a b(Tera c)",
@@ -4904,6 +5322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one yobi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "yobi",
           "package": "unittyped",
@@ -4914,6 +5333,7 @@
         "index": {
           "description": "Take unit and return one yobi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "yobi",
           "normalized": "Value a b c-\u003eValue a b(Yobi c)",
@@ -4929,6 +5349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one yocto(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "yocto",
           "package": "unittyped",
@@ -4939,6 +5360,7 @@
         "index": {
           "description": "Take unit and return one yocto unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "yocto",
           "normalized": "Value a b c-\u003eValue a b(Yocto c)",
@@ -4954,6 +5376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one yotta(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "yotta",
           "package": "unittyped",
@@ -4964,6 +5387,7 @@
         "index": {
           "description": "Take unit and return one yotta unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "yotta",
           "normalized": "Value a b c-\u003eValue a b(Yotta c)",
@@ -4979,6 +5403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one zebi(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "zebi",
           "package": "unittyped",
@@ -4989,6 +5414,7 @@
         "index": {
           "description": "Take unit and return one zebi unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "zebi",
           "normalized": "Value a b c-\u003eValue a b(Zebi c)",
@@ -5004,6 +5430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one zepto(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "zepto",
           "package": "unittyped",
@@ -5014,6 +5441,7 @@
         "index": {
           "description": "Take unit and return one zepto unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "zepto",
           "normalized": "Value a b c-\u003eValue a b(Zepto c)",
@@ -5029,6 +5457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a unit and return one zetta(unit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI.Meta",
           "name": "zetta",
           "package": "unittyped",
@@ -5039,6 +5468,7 @@
         "index": {
           "description": "Take unit and return one zetta unit",
           "hierarchy": "UnitTyped SI Meta",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI.Meta",
           "name": "zetta",
           "normalized": "Value a b c-\u003eValue a b(Zetta c)",
@@ -5054,6 +5484,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule definig all SI units and their dimensions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "SI",
           "package": "unittyped",
@@ -5063,6 +5494,7 @@
         "index": {
           "description": "Module definig all SI units and their dimensions",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "SI",
           "package": "unittyped",
@@ -5077,6 +5509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SI unit for \u003ccode\u003e\u003ca\u003eCurrent\u003c/a\u003e\u003c/code\u003e: ampere (A).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Ampere",
           "package": "unittyped",
@@ -5086,6 +5519,7 @@
         "index": {
           "description": "The SI unit for Current ampere",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Ampere",
           "package": "unittyped",
@@ -5100,6 +5534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SI unit for \u003ccode\u003e\u003ca\u003eLuminous\u003c/a\u003e\u003c/code\u003e intensity: candela (cd).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Candela",
           "package": "unittyped",
@@ -5109,6 +5544,7 @@
         "index": {
           "description": "The SI unit for Luminous intensity candela cd",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Candela",
           "package": "unittyped",
@@ -5123,6 +5559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of electric current.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Current",
           "package": "unittyped",
@@ -5132,6 +5569,7 @@
         "index": {
           "description": "Dimension of electric current",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Current",
           "package": "unittyped",
@@ -5146,6 +5584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension defining \u003ccode\u003eCurrent^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "CurrentDimension",
           "package": "unittyped",
@@ -5155,6 +5594,7 @@
         "index": {
           "description": "The dimension defining Current",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "CurrentDimension",
           "package": "unittyped",
@@ -5169,6 +5609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SI unit for \u003ccode\u003e\u003ca\u003eMass\u003c/a\u003e\u003c/code\u003e is officially kilogram, but we define grams (g) here, so \u003ccode\u003ekilo gram\u003c/code\u003e will work when using \u003ccode\u003e\u003ca\u003eMeta\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Gram",
           "package": "unittyped",
@@ -5178,6 +5619,7 @@
         "index": {
           "description": "The SI unit for Mass is officially kilogram but we define grams here so kilo gram will work when using Meta",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Gram",
           "package": "unittyped",
@@ -5192,6 +5634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SI unit for \u003ccode\u003e\u003ca\u003eTemperature\u003c/a\u003e\u003c/code\u003e: Kelvin (K).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Kelvin",
           "package": "unittyped",
@@ -5201,6 +5644,7 @@
         "index": {
           "description": "The SI unit for Temperature Kelvin",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Kelvin",
           "package": "unittyped",
@@ -5215,6 +5659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Length",
           "package": "unittyped",
@@ -5224,6 +5669,7 @@
         "index": {
           "description": "Dimension of length",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Length",
           "package": "unittyped",
@@ -5238,6 +5684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension defining \u003ccode\u003eLength^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "LengthDimension",
           "package": "unittyped",
@@ -5247,6 +5694,7 @@
         "index": {
           "description": "The dimension defining Length",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "LengthDimension",
           "package": "unittyped",
@@ -5261,6 +5709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of luminous intensity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Luminous",
           "package": "unittyped",
@@ -5270,6 +5719,7 @@
         "index": {
           "description": "Dimension of luminous intensity",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Luminous",
           "package": "unittyped",
@@ -5284,6 +5734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension defining \u003ccode\u003eLuminous^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "LuminousDimension",
           "package": "unittyped",
@@ -5293,6 +5744,7 @@
         "index": {
           "description": "The dimension defining Luminous",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "LuminousDimension",
           "package": "unittyped",
@@ -5307,6 +5759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of mass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Mass",
           "package": "unittyped",
@@ -5316,6 +5769,7 @@
         "index": {
           "description": "Dimension of mass",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Mass",
           "package": "unittyped",
@@ -5330,6 +5784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension defining \u003ccode\u003eMass^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "MassDimension",
           "package": "unittyped",
@@ -5339,6 +5794,7 @@
         "index": {
           "description": "The dimension defining Mass",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "MassDimension",
           "package": "unittyped",
@@ -5353,6 +5809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SI unit for \u003ccode\u003e\u003ca\u003eLength\u003c/a\u003e\u003c/code\u003e: meter (m).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Meter",
           "package": "unittyped",
@@ -5362,6 +5819,7 @@
         "index": {
           "description": "The SI unit for Length meter",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Meter",
           "package": "unittyped",
@@ -5376,6 +5834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit for moles. Officially, this is a SI unit, but we definite it in terms of \u003ccode\u003e\u003ca\u003eCount\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Mole",
           "package": "unittyped",
@@ -5385,6 +5844,7 @@
         "index": {
           "description": "Unit for moles Officially this is SI unit but we definite it in terms of Count",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Mole",
           "package": "unittyped",
@@ -5399,6 +5859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SI unit for \u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e: second (s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Second",
           "package": "unittyped",
@@ -5408,6 +5869,7 @@
         "index": {
           "description": "The SI unit for Time second",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Second",
           "package": "unittyped",
@@ -5422,6 +5884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of temperature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Temperature",
           "package": "unittyped",
@@ -5431,6 +5894,7 @@
         "index": {
           "description": "Dimension of temperature",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Temperature",
           "package": "unittyped",
@@ -5445,6 +5909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension defining \u003ccode\u003eTemperature^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "TemperatureDimension",
           "package": "unittyped",
@@ -5454,6 +5919,7 @@
         "index": {
           "description": "The dimension defining Temperature",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "TemperatureDimension",
           "package": "unittyped",
@@ -5468,6 +5934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "Time",
           "package": "unittyped",
@@ -5477,6 +5944,7 @@
         "index": {
           "description": "Dimension of time",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "Time",
           "package": "unittyped",
@@ -5491,6 +5959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension defining \u003ccode\u003eTime^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "TimeDimension",
           "package": "unittyped",
@@ -5500,6 +5969,7 @@
         "index": {
           "description": "The dimension defining Time",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "TimeDimension",
           "package": "unittyped",
@@ -5514,6 +5984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne ampere (A).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "ampere",
           "package": "unittyped",
@@ -5524,6 +5995,7 @@
         "index": {
           "description": "One ampere",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "ampere",
           "package": "unittyped",
@@ -5537,6 +6009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne candela (cd).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "candela",
           "package": "unittyped",
@@ -5547,6 +6020,7 @@
         "index": {
           "description": "One candela cd",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "candela",
           "package": "unittyped",
@@ -5560,6 +6034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne thing (#).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "count",
           "package": "unittyped",
@@ -5570,6 +6045,7 @@
         "index": {
           "description": "One thing",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "count",
           "package": "unittyped",
@@ -5583,6 +6059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne gram (g).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "gram",
           "package": "unittyped",
@@ -5593,6 +6070,7 @@
         "index": {
           "description": "One gram",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "gram",
           "package": "unittyped",
@@ -5606,6 +6084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne Kelvin (K).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "kelvin",
           "package": "unittyped",
@@ -5616,6 +6095,7 @@
         "index": {
           "description": "One Kelvin",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "kelvin",
           "package": "unittyped",
@@ -5629,6 +6109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne meter (m).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "meter",
           "package": "unittyped",
@@ -5639,6 +6120,7 @@
         "index": {
           "description": "One meter",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "meter",
           "package": "unittyped",
@@ -5652,6 +6134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne mole (mol).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "mole",
           "package": "unittyped",
@@ -5662,6 +6145,7 @@
         "index": {
           "description": "One mole mol",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "mole",
           "package": "unittyped",
@@ -5675,6 +6159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne second (s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped.SI",
           "name": "second",
           "package": "unittyped",
@@ -5685,6 +6170,7 @@
         "index": {
           "description": "One second",
           "hierarchy": "UnitTyped SI",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped.SI",
           "name": "second",
           "package": "unittyped",
@@ -5698,6 +6184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule defining values with dimensions and units, and mathematical operations on those.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "UnitTyped",
           "package": "unittyped",
@@ -5707,6 +6194,7 @@
         "index": {
           "description": "Module defining values with dimensions and units and mathematical operations on those",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "UnitTyped",
           "package": "unittyped",
@@ -5721,6 +6209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvertable is a class that models the fact that the unit \u003ccode\u003eb\u003c/code\u003e has dimension \u003ccode\u003ea\u003c/code\u003e (of kind \u003ccode\u003e\u003ca\u003eUnitMap\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Convertable",
           "package": "unittyped",
@@ -5730,6 +6219,7 @@
         "index": {
           "description": "Convertable is class that models the fact that the unit has dimension of kind UnitMap",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Convertable",
           "package": "unittyped",
@@ -5744,6 +6234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Count",
           "package": "unittyped",
@@ -5753,6 +6244,7 @@
         "index": {
           "description": "One thing",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Count",
           "package": "unittyped",
@@ -5767,6 +6259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unit representing the division of the units b by d.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Div",
           "package": "unittyped",
@@ -5776,6 +6269,7 @@
         "index": {
           "description": "unit representing the division of the units by",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Div",
           "package": "unittyped",
@@ -5790,6 +6284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unit representing the multplication of the units b and d.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Mul",
           "package": "unittyped",
@@ -5799,6 +6294,7 @@
         "index": {
           "description": "unit representing the multplication of the units and",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Mul",
           "package": "unittyped",
@@ -5813,6 +6309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level -4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "NFour",
           "package": "unittyped",
@@ -5822,6 +6319,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "NFour",
           "package": "unittyped",
@@ -5836,6 +6334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level -1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "NOne",
           "package": "unittyped",
@@ -5845,6 +6344,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "NOne",
           "package": "unittyped",
@@ -5859,6 +6359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level -3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "NThree",
           "package": "unittyped",
@@ -5868,6 +6369,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "NThree",
           "package": "unittyped",
@@ -5882,6 +6384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level -2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "NTwo",
           "package": "unittyped",
@@ -5891,6 +6394,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "NTwo",
           "package": "unittyped",
@@ -5905,6 +6409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level natural numbers (excluding zero, though).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Nat",
           "package": "unittyped",
@@ -5914,6 +6419,7 @@
         "index": {
           "description": "Type level natural numbers excluding zero though",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Nat",
           "package": "unittyped",
@@ -5928,6 +6434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is for dimensionless values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "NoDimension",
           "package": "unittyped",
@@ -5937,6 +6444,7 @@
         "index": {
           "description": "This is for dimensionless values",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "NoDimension",
           "package": "unittyped",
@@ -5951,6 +6459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Number",
           "package": "unittyped",
@@ -5960,6 +6469,7 @@
         "index": {
           "description": "Type level integers",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Number",
           "package": "unittyped",
@@ -5974,6 +6484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level +5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "PFive",
           "package": "unittyped",
@@ -5983,6 +6494,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "PFive",
           "package": "unittyped",
@@ -5997,6 +6509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level +4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "PFour",
           "package": "unittyped",
@@ -6006,6 +6519,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "PFour",
           "package": "unittyped",
@@ -6020,6 +6534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level +1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "POne",
           "package": "unittyped",
@@ -6029,6 +6544,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "POne",
           "package": "unittyped",
@@ -6043,6 +6559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level +6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "PSix",
           "package": "unittyped",
@@ -6052,6 +6569,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "PSix",
           "package": "unittyped",
@@ -6066,6 +6584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level +3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "PThree",
           "package": "unittyped",
@@ -6075,6 +6594,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "PThree",
           "package": "unittyped",
@@ -6089,6 +6609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level +2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "PTwo",
           "package": "unittyped",
@@ -6098,6 +6619,7 @@
         "index": {
           "description": "Type level",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "PTwo",
           "package": "unittyped",
@@ -6112,6 +6634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e^\u003c/a\u003e\u003c/code\u003e is not definable on \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es in general, as the result depends on the exponent.\n However, we can use this class to raise a unit to a type level \u003ccode\u003e\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Pow",
           "package": "unittyped",
@@ -6121,6 +6644,7 @@
         "index": {
           "description": "is not definable on Value in general as the result depends on the exponent However we can use this class to raise unit to type level Number",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Pow",
           "package": "unittyped",
@@ -6135,6 +6659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eb\u003c/code\u003e is equal to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if and only if \u003ccode\u003emap1\u003c/code\u003e and \u003ccode\u003emap2\u003c/code\u003e represent the same dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "UnitEq",
           "package": "unittyped",
@@ -6144,6 +6669,7 @@
         "index": {
           "description": "is equal to True if and only if map1 and map2 represent the same dimension",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "UnitEq",
           "package": "unittyped",
@@ -6158,6 +6684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is meant to be use as a datatype promoted to a kind.\n It represents a map of dimensions to type level integers.\n If two maps are equal, then the dimension they represent is the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "UnitMap",
           "package": "unittyped",
@@ -6167,6 +6694,7 @@
         "index": {
           "description": "This is meant to be use as datatype promoted to kind It represents map of dimensions to type level integers If two maps are equal then the dimension they represent is the same",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "UnitMap",
           "package": "unittyped",
@@ -6181,6 +6709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStates that merging the first map with the second map produces the third argument.\n Merging happens by summing the two values for the same key.\n Typically, dimensions are merged when multiplicing two values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "UnitMerge",
           "package": "unittyped",
@@ -6190,6 +6719,7 @@
         "index": {
           "description": "States that merging the first map with the second map produces the third argument Merging happens by summing the two values for the same key Typically dimensions are merged when multiplicing two values",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "UnitMerge",
           "package": "unittyped",
@@ -6204,6 +6734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStates that \u003ccode\u003erest\u003c/code\u003e is the same dimension as \u003ccode\u003emap1\u003c/code\u003e, but all integers inverted.\n Used for division.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "UnitNeg",
           "package": "unittyped",
@@ -6213,6 +6744,7 @@
         "index": {
           "description": "States that rest is the same dimension as map1 but all integers inverted Used for division",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "UnitNeg",
           "package": "unittyped",
@@ -6227,6 +6759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value tagged with its dimension b and unit c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Value",
           "package": "unittyped",
@@ -6236,6 +6769,7 @@
         "index": {
           "description": "value tagged with its dimension and unit",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Value",
           "package": "unittyped",
@@ -6250,6 +6784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for \u003ccode\u003e\u003ca\u003ecoerce\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(~.)",
           "package": "unittyped",
@@ -6260,6 +6795,7 @@
         "index": {
           "description": "Shorthand for coerce",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(~.) ~.",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a d e",
@@ -6275,6 +6811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply a unit by a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.$.)",
           "package": "unittyped",
@@ -6285,6 +6822,7 @@
         "index": {
           "description": "Multiply unit by scalar",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.$.) .$.",
           "normalized": "a-\u003eValue a b c-\u003eValue a b c",
@@ -6300,6 +6838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply two values, constructing a value with as dimension the product of the dimensions,\n and as unit the multplication of the units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.*.)",
           "package": "unittyped",
@@ -6310,6 +6849,7 @@
         "index": {
           "description": "Multiply two values constructing value with as dimension the product of the dimensions and as unit the multplication of the units",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.*.) .*.",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a f(Mul c e)",
@@ -6325,6 +6865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two values with matching dimensions. Units are automatically resolved. The result will have the same unit as the lhs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.+.)",
           "package": "unittyped",
@@ -6335,6 +6876,7 @@
         "index": {
           "description": "Add two values with matching dimensions Units are automatically resolved The result will have the same unit as the lhs",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.+.) .+.",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a b c",
@@ -6350,6 +6892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract two values with matching dimensions. Units are automatically resolved. The result will have the same unit as the lhs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.-.)",
           "package": "unittyped",
@@ -6360,6 +6903,7 @@
         "index": {
           "description": "Subtract two values with matching dimensions Units are automatically resolved The result will have the same unit as the lhs",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.-.) .-.",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a b c",
@@ -6375,6 +6919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide two values, constructing a value with as dimension the division of the dimension of the lhs by the dimension of the rhs,\n and the same for the units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(./.)",
           "package": "unittyped",
@@ -6385,6 +6930,7 @@
         "index": {
           "description": "Divide two values constructing value with as dimension the division of the dimension of the lhs by the dimension of the rhs and the same for the units",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(./.) ./.",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a f(Div c e)",
@@ -6400,6 +6946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003c=\u003c/a\u003e\u003c/code\u003e on values. Only defined for values with rational contents. Can be used on any two values with the same dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.\u003c=.)",
           "package": "unittyped",
@@ -6410,6 +6957,7 @@
         "index": {
           "description": "on values Only defined for values with rational contents Can be used on any two values with the same dimension",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.\u003c=.) .\u003c=.",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -6425,6 +6973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e on values. Only defined for values with rational contents. Can be used on any two values with the same dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.\u003c.)",
           "package": "unittyped",
@@ -6435,6 +6984,7 @@
         "index": {
           "description": "on values Only defined for values with rational contents Can be used on any two values with the same dimension",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.\u003c.) .\u003c.",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -6450,6 +7000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e for values. Only defined for values with rational contents. Can be used on any two values with the same dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.==.)",
           "package": "unittyped",
@@ -6460,6 +7011,7 @@
         "index": {
           "description": "for values Only defined for values with rational contents Can be used on any two values with the same dimension",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.==.) .==.",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -6475,6 +7027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003e=\u003c/a\u003e\u003c/code\u003e on values. Only defined for values with rational contents. Can be used on any two values with the same dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.\u003e=.)",
           "package": "unittyped",
@@ -6485,6 +7038,7 @@
         "index": {
           "description": "on values Only defined for values with rational contents Can be used on any two values with the same dimension",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.\u003e=.) .\u003e=.",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -6500,6 +7054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e on values. Only defined for values with rational contents. Can be used on any two values with the same dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "(.\u003e.)",
           "package": "unittyped",
@@ -6510,6 +7065,7 @@
         "index": {
           "description": "on values Only defined for values with rational contents Can be used on any two values with the same dimension",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "(.\u003e.) .\u003e.",
           "normalized": "Value Rational a b-\u003eValue Rational c d-\u003eBool",
@@ -6524,6 +7080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Neg",
           "package": "unittyped",
@@ -6533,6 +7090,7 @@
         },
         "index": {
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Neg",
           "package": "unittyped",
@@ -6546,6 +7104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "One",
           "package": "unittyped",
@@ -6555,6 +7114,7 @@
         },
         "index": {
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "One",
           "package": "unittyped",
@@ -6568,6 +7128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Pos",
           "package": "unittyped",
@@ -6577,6 +7138,7 @@
         },
         "index": {
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Pos",
           "package": "unittyped",
@@ -6590,6 +7152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Suc",
           "package": "unittyped",
@@ -6599,6 +7162,7 @@
         },
         "index": {
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Suc",
           "package": "unittyped",
@@ -6612,6 +7176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "UnitCons",
           "package": "unittyped",
@@ -6621,6 +7186,7 @@
         },
         "index": {
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "UnitCons",
           "normalized": "a-\u003eNumber-\u003eUnitMap-\u003eUnitMap",
@@ -6636,6 +7202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "UnitNil",
           "package": "unittyped",
@@ -6645,6 +7212,7 @@
         },
         "index": {
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "UnitNil",
           "package": "unittyped",
@@ -6658,6 +7226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Value",
           "package": "unittyped",
@@ -6667,6 +7236,7 @@
         },
         "index": {
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Value",
           "package": "unittyped",
@@ -6680,6 +7250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "Zero",
           "package": "unittyped",
@@ -6689,6 +7260,7 @@
         },
         "index": {
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "Zero",
           "package": "unittyped",
@@ -6703,6 +7275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for \u003ccode\u003e\u003ca\u003ecoerce\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "as",
           "package": "unittyped",
@@ -6713,6 +7286,7 @@
         "index": {
           "description": "Shorthand for coerce",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "as",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a d e",
@@ -6728,6 +7302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecoerce something of a specific dimension into any other unit in the same dimension.\n The second argument is only used for its type, but it allows nice syntax like:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecoerce (120 meter / second) (kilo meter / hour)\n\u003c/code\u003e\u003c/strong\u003e432.0 km/h\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "coerce",
           "package": "unittyped",
@@ -6738,6 +7313,7 @@
         "index": {
           "description": "coerce something of specific dimension into any other unit in the same dimension The second argument is only used for its type but it allows nice syntax like coerce meter second kilo meter hour km",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "coerce",
           "normalized": "Value a b c-\u003eValue a d e-\u003eValue a d e",
@@ -6753,6 +7329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the third power of a value. Identical to pow3, reads better on units:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e1 . cubic inch `as` mili liter\n\u003c/code\u003e\u003c/strong\u003e16.387063999999995 mL\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "cubic",
           "package": "unittyped",
@@ -6763,6 +7340,7 @@
         "index": {
           "description": "Calculate the third power of value Identical to pow3 reads better on units cubic inch as mili liter mL",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "cubic",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -6778,6 +7356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multiplication factor to convert this unit between other units in the same dimension.\n Only the ratio matters, which one is '1' is not important, as long as all are consistent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "factor",
           "package": "unittyped",
@@ -6788,6 +7367,7 @@
         "index": {
           "description": "The multiplication factor to convert this unit between other units in the same dimension Only the ratio matters which one is is not important as long as all are consistent",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "factor",
           "normalized": "Value a b c-\u003ea",
@@ -6803,6 +7383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new value with given scalar as value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "mkVal",
           "package": "unittyped",
@@ -6813,6 +7394,7 @@
         "index": {
           "description": "Create new value with given scalar as value",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "mkVal",
           "normalized": "a-\u003eValue a b c",
@@ -6829,6 +7411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapped value with scalar value 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "one",
           "package": "unittyped",
@@ -6839,6 +7422,7 @@
         "index": {
           "description": "wrapped value with scalar value",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "one",
           "package": "unittyped",
@@ -6852,6 +7436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^0\u003c/code\u003e. Yes, this is always \u003ccode\u003eone :: Value f NoDimension Count\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pow0",
           "package": "unittyped",
@@ -6862,6 +7447,7 @@
         "index": {
           "description": "Calculate Yes this is always one Value NoDimension Count",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pow0",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -6877,6 +7463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pow1",
           "package": "unittyped",
@@ -6887,6 +7474,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pow1",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -6902,6 +7490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pow2",
           "package": "unittyped",
@@ -6912,6 +7501,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pow2",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -6927,6 +7517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^3\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pow3",
           "package": "unittyped",
@@ -6937,6 +7528,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pow3",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -6952,6 +7544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^4\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pow4",
           "package": "unittyped",
@@ -6962,6 +7555,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pow4",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -6977,6 +7571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^5\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pow5",
           "package": "unittyped",
@@ -6987,6 +7582,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pow5",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -7002,6 +7598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^6\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pow6",
           "package": "unittyped",
@@ -7012,6 +7609,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pow6",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -7027,6 +7625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^(-1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pown1",
           "package": "unittyped",
@@ -7037,6 +7636,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pown1",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -7052,6 +7652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^(-2)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pown2",
           "package": "unittyped",
@@ -7062,6 +7663,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pown2",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -7077,6 +7679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003ex^(-3)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "pown3",
           "package": "unittyped",
@@ -7087,6 +7690,7 @@
         "index": {
           "description": "Calculate",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "pown3",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -7102,6 +7706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString representation of a unit. The boolean determines wether to use brackets (only important for the denomiator).\n The value should not be important for the output, its only here because it needs to be a class method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "showunit",
           "package": "unittyped",
@@ -7112,6 +7717,7 @@
         "index": {
           "description": "String representation of unit The boolean determines wether to use brackets only important for the denomiator The value should not be important for the output its only here because it needs to be class method",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "showunit",
           "normalized": "Bool-\u003eValue a b c-\u003eString",
@@ -7127,6 +7733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the square of a value. Identical to pow2, reads better on units:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e100 . square meter `as` square yard\n\u003c/code\u003e\u003c/strong\u003e119.59900463010803 yd&#8901;yd&#8901;#\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "square",
           "package": "unittyped",
@@ -7137,6 +7744,7 @@
         "index": {
           "description": "Calculate the square of value Identical to pow2 reads better on units square meter as square yard yd yd",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "square",
           "normalized": "Value a b c-\u003eValue a d e",
@@ -7152,6 +7760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the value of a value wrapped in a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:20 UTC 2014",
           "module": "UnitTyped",
           "name": "val",
           "package": "unittyped",
@@ -7162,6 +7771,7 @@
         "index": {
           "description": "Obtain the value of value wrapped in type",
           "hierarchy": "UnitTyped",
+          "indexed": "2014-03-11T20:30:20",
           "module": "UnitTyped",
           "name": "val",
           "normalized": "Value a b c-\u003ea",

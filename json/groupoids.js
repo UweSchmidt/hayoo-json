@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "groupoids"
+        "phrase": "groupoids",
+        "type": "phrase"
       },
       "type": "context"
     }

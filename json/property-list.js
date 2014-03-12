@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "property-list"
+        "phrase": "property-list",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe internal \"algebraic\" interface for working with property-list-like\n things.  The classes defined here are the basis for a very general system\n supporting transformations between many property-list representations,\n including both internal and external formats.  The transformations are\n based on algebra and are very well-behaved mathematically.  It is possible\n to \"fuse\" operations so that, for example, reading from XML and writing\n to a text plist can be done without creating any intermediate \n representations other than those used by the XML parser and the text \n renderer.  Or, expressions using the \"smart constructors\" can be\n evaluated to directly synthesize XML-formatted plists, or the view-pattern\n destructors can be used to directly analyze them.\n\u003c/p\u003e\u003cp\u003eThe interface defined in this module is very heavily influenced by \n category-theoretical constructions.  In particular, F-algebras and \n F-coalgebras, initiality, and terminality.  For those not familiar with\n these concepts, this will probably be quite incomprehensible.  Sorry\n about that.  The basic idea, though, is the use of the \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e \n type as a sort of a central junction point through which all conversions\n between property-list-like types and property-list-item types are routed.\n The classes defined here are chosen to minimize the inderdependence of\n these types and hence maximize the flexibility of the system as a whole.\n\u003c/p\u003e\u003cp\u003eMore simply stated, these weird math thingies make the design\n as flexible as possible (in a well-defined and useful sense).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "Algebra",
           "package": "property-list",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The internal algebraic interface for working with property-list-like things The classes defined here are the basis for very general system supporting transformations between many property-list representations including both internal and external formats The transformations are based on algebra and are very well-behaved mathematically It is possible to fuse operations so that for example reading from XML and writing to text plist can be done without creating any intermediate representations other than those used by the XML parser and the text renderer Or expressions using the smart constructors can be evaluated to directly synthesize XML-formatted plists or the view-pattern destructors can be used to directly analyze them The interface defined in this module is very heavily influenced by category-theoretical constructions In particular F-algebras and F-coalgebras initiality and terminality For those not familiar with these concepts this will probably be quite incomprehensible Sorry about that The basic idea though is the use of the PropertyListS type as sort of central junction point through which all conversions between property-list-like types and property-list-item types are routed The classes defined here are chosen to minimize the inderdependence of these types and hence maximize the flexibility of the system as whole More simply stated these weird math thingies make the design as flexible as possible in well-defined and useful sense",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "Algebra",
           "package": "property-list",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identification of the fact that the type \u003ccode\u003ea\u003c/code\u003e has an initial plist algebra\n (under some lifting \u003ccode\u003ef\u003c/code\u003e).  Functional dependencies are in use - for any \n type, only one of its initial algebras (if multiple apply, which they may\n because the same type may be initial for multiple distinct liftings)\n can be chosen, and for any lifting only one type's algebra may be chosen.\n This is to make types decidable in the not-so-uncommon case where the\n lifting is encapsulated (eg, any time \u003ccode\u003e\u003ca\u003efoldPList\u003c/a\u003e\u003c/code\u003e is partially applied\n - for example, see the signature of \u003ccode\u003e\u003ca\u003efromPlist\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eFor cases where the lifting either needs to be chosen or needs to be\n transformed to another lifting, \u003ccode\u003e\u003ca\u003efromPlistWith\u003c/a\u003e\u003c/code\u003e is provided.  It is based\n on the same definition as the default implementation of \u003ccode\u003e\u003ca\u003efoldPList\u003c/a\u003e\u003c/code\u003e but\n also inserts a chosen transformation of the lifting.\n\u003c/p\u003e\u003cp\u003eQuestion for self: Is the PListCoalgebra context reasonable here?  \n Some rough calculations suggest that in the presence of fixed point \n type operators, it is possible to construct a PListCoalgebra for any \n InitialPList, which essentially is defined as pattern matching.  So, \n I'm not totally sure but I think this is reasonable - at least, for\n finitary signatures, which we're using as long as \u003ccode\u003ef\u003c/code\u003e doesn't go crazy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "InitialPList",
           "package": "property-list",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An identification of the fact that the type has an initial plist algebra under some lifting Functional dependencies are in use for any type only one of its initial algebras if multiple apply which they may because the same type may be initial for multiple distinct liftings can be chosen and for any lifting only one type algebra may be chosen This is to make types decidable in the not-so-uncommon case where the lifting is encapsulated eg any time foldPList is partially applied for example see the signature of fromPlist For cases where the lifting either needs to be chosen or needs to be transformed to another lifting fromPlistWith is provided It is based on the same definition as the default implementation of foldPList but also inserts chosen transformation of the lifting Question for self Is the PListCoalgebra context reasonable here Some rough calculations suggest that in the presence of fixed point type operators it is possible to construct PListCoalgebra for any InitialPList which essentially is defined as pattern matching So not totally sure but think this is reasonable at least for finitary signatures which we re using as long as doesn go crazy",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "InitialPList",
           "package": "property-list",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types which can be constructed algebraically from the\n \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e signature (lifted by \u003ccode\u003ef\u003c/code\u003e) - in other words, types which\n you can put property lists into.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003ef\u003c/code\u003e-lifting is provided to support extending the algebra.  The algebra\n is defined in a class rather than passing around functions because most of\n the time for any given type there is only one algebra you care about.\n\u003c/p\u003e\u003cp\u003eTypically a renderer for an output format will be implemented as a type\n with an \u003ccode\u003einstance \u003ccode\u003e\u003ca\u003ePListAlgebra\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  For example, the XML \n output system is implemented in the \u003ccode\u003einstance \u003ccode\u003e\u003ca\u003ePListAlgebra\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e \n \u003ccode\u003eData.PropertyList.Xml.Types.Plist\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PListAlgebra",
           "package": "property-list",
@@ -74,6 +79,7 @@
         "index": {
           "description": "class for types which can be constructed algebraically from the PropertyListS signature lifted by in other words types which you can put property lists into The lifting is provided to support extending the algebra The algebra is defined in class rather than passing around functions because most of the time for any given type there is only one algebra you care about Typically renderer for an output format will be implemented as type with an instance PListAlgebra Identity For example the XML output system is implemented in the instance PListAlgebra Identity Data.PropertyList.Xml.Types.Plist",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PListAlgebra",
           "package": "property-list",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types which can be dissected (pattern-matched) into the\n \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e signature (lifted by \u003ccode\u003ef\u003c/code\u003e) - in other words, types which\n you can take property lists out of.\n\u003c/p\u003e\u003cp\u003eTypically a property list parser will be implemented as a type with a\n \u003ccode\u003e\u003ca\u003ePListCoalgebra\u003c/a\u003e\u003c/code\u003e instance, where \u003ccode\u003ef\u003c/code\u003e is either \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e in the case where\n the parser guarantees to return a fully well-formed property list \n (assuming it returns anything at all) or \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esomething\u003c/code\u003e when the \n parser only guarantees that the structure is sound (but that some elements\n might be defective, in which case a value of type \u003ccode\u003esomething\u003c/code\u003e would be \n substituted).  The XML parser, for example, is based on the latter \n approach, where \u003ccode\u003esomething\u003c/code\u003e is \u003ccode\u003eUnparsedPlistItem\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PListCoalgebra",
           "package": "property-list",
@@ -97,6 +104,7 @@
         "index": {
           "description": "class for types which can be dissected pattern-matched into the PropertyListS signature lifted by in other words types which you can take property lists out of Typically property list parser will be implemented as type with PListCoalgebra instance where is either Identity in the case where the parser guarantees to return fully well-formed property list assuming it returns anything at all or Either something when the parser only guarantees that the structure is sound but that some elements might be defective in which case value of type something would be substituted The XML parser for example is based on the latter approach where something is UnparsedPlistItem",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PListCoalgebra",
           "package": "property-list",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature of the base property list algebra.  This algebra is \n \"lifted\" in various ways to support several different but similar\n representations of property lists as well as projections and\n injections.  All the different representations are \u003ccode\u003econnected\u003c/code\u003e through\n this signature.\n\u003c/p\u003e\u003cp\u003eFor example, \u003ccode\u003ePropertyList\u003c/code\u003e is a fixed-point of this signature - that\n is, a recursive version where \u003ccode\u003ea\u003c/code\u003e is instantiated as \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e.\n That gives the \"expected\" structure of a basic property list.  It is both\n initial and terminal for this signature in its 'un-lifted' form - which\n is to say, any other type with an algebra for this signature (such as an \n XML representation) can be made from a \u003ccode\u003ePropertyList\u003c/code\u003e, and any type with\n a coalgebra for this signature (such as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e, etc.)\n can be converted directly to a \u003ccode\u003ePropertyList\u003c/code\u003e.  This also means that any\n transformation or series of transformations involving the \u003ccode\u003ePropertyList\u003c/code\u003e\n type can be fused to \"skip\" generating intermediate property lists, \n although there are currently no rewrite rules set up to do so.\n\u003c/p\u003e\u003cp\u003eSimilarly, \u003ccode\u003ePartialPropertyList\u003c/code\u003e is a fixed point of an arbitrarily-\n augmented version of this signature (also known as the free monad \n generated by the signature).  Depending on its type parameter, \n \u003ccode\u003ePartialPropertyList\u003c/code\u003e can be terminal among many simple extensions to \n the signature.  Thus many types with a coalgebra for an extension of \n this signature (such as XML given an appropriate tree destructor, or \n the \u003ccode\u003ePropertyList\u003c/code\u003e type itself)  can be trivially converted to a \n \u003ccode\u003ePartialPropertyList\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PropertyListS",
           "package": "property-list",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The signature of the base property list algebra This algebra is lifted in various ways to support several different but similar representations of property lists as well as projections and injections All the different representations are connected through this signature For example PropertyList is fixed-point of this signature that is recursive version where is instantiated as PropertyListS That gives the expected structure of basic property list It is both initial and terminal for this signature in its un-lifted form which is to say any other type with an algebra for this signature such as an XML representation can be made from PropertyList and any type with coalgebra for this signature such as String an Integer etc can be converted directly to PropertyList This also means that any transformation or series of transformations involving the PropertyList type can be fused to skip generating intermediate property lists although there are currently no rewrite rules set up to do so Similarly PartialPropertyList is fixed point of an arbitrarily augmented version of this signature also known as the free monad generated by the signature Depending on its type parameter PartialPropertyList can be terminal among many simple extensions to the signature Thus many types with coalgebra for an extension of this signature such as XML given an appropriate tree destructor or the PropertyList type itself can be trivially converted to PartialPropertyList",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PropertyListS",
           "package": "property-list",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChosen terminal coalgebra for the given lifting, and chosen lifting\n for the given type.  See also \u003ccode\u003e\u003ca\u003eInitialPList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "TerminalPList",
           "package": "property-list",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Chosen terminal coalgebra for the given lifting and chosen lifting for the given type See also InitialPList",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "TerminalPList",
           "package": "property-list",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PLArray",
           "package": "property-list",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PLArray",
           "normalized": "PLArray[a]",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PLBool",
           "package": "property-list",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PLBool",
           "package": "property-list",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PLData",
           "package": "property-list",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PLData",
           "package": "property-list",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PLDate",
           "package": "property-list",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PLDate",
           "package": "property-list",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PLDict",
           "package": "property-list",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PLDict",
           "package": "property-list",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PLInt",
           "package": "property-list",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PLInt",
           "package": "property-list",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PLReal",
           "package": "property-list",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PLReal",
           "package": "property-list",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "PLString",
           "package": "property-list",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "PLString",
           "package": "property-list",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing some other plist algebra, compute the unique transformation from\n the type \u003ccode\u003ea\u003c/code\u003e to that algebra.\n\u003c/p\u003e\u003cp\u003eThe default implementation is:\n\u003c/p\u003e\u003cpre\u003e foldPList f = go\n    where\n        go = f . fmap (fmap go) . plistCoalgebra\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "foldPList",
           "package": "property-list",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Using some other plist algebra compute the unique transformation from the type to that algebra The default implementation is foldPList go where go fmap fmap go plistCoalgebra",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "foldPList",
           "normalized": "(a(PropertyListS b)-\u003eb)-\u003ec-\u003eb",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a basic non-recursive algebra of property list items.\n This is equivalent to pattern matching on \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "foldPropertyListS",
           "package": "property-list",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Construct basic non-recursive algebra of property list items This is equivalent to pattern matching on PropertyListS",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "foldPropertyListS",
           "normalized": "([a]-\u003eb)-\u003e(ByteString-\u003eb)-\u003e(UTCTime-\u003eb)-\u003e(Map String a-\u003eb)-\u003e(Double-\u003eb)-\u003e(Integer-\u003eb)-\u003e(String-\u003eb)-\u003e(Bool-\u003eb)-\u003ePropertyListS a-\u003eb",
@@ -587,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from an initial plist to any other plist with the same lifted algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "fromPlist",
           "package": "property-list",
@@ -597,6 +630,7 @@
         "index": {
           "description": "Convert from an initial plist to any other plist with the same lifted algebra",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "fromPlist",
           "normalized": "a-\u003eb",
@@ -612,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "fromPlistWith",
           "package": "property-list",
@@ -621,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "fromPlistWith",
           "normalized": "(a(PropertyListS b)-\u003ec(PropertyListS b))-\u003ed-\u003eb",
@@ -837,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a value of type \u003ccode\u003ea\u003c/code\u003e from a piece of a property list (using\n the \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e signature augmented by the \"lifting\" \u003ccode\u003ef\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "plistAlgebra",
           "package": "property-list",
@@ -847,6 +884,7 @@
         "index": {
           "description": "Build value of type from piece of property list using the PropertyListS signature augmented by the lifting",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "plistAlgebra",
           "normalized": "a(PropertyListS b)-\u003eb",
@@ -863,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalyze a value of type \u003ccode\u003ea\u003c/code\u003e by matching it to a constructor in the\n (lifted by \u003ccode\u003ef\u003c/code\u003e) \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "plistCoalgebra",
           "package": "property-list",
@@ -873,6 +912,7 @@
         "index": {
           "description": "Analyze value of type by matching it to constructor in the lifted by PropertyListS signature",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "plistCoalgebra",
           "normalized": "a-\u003eb(PropertyListS a)",
@@ -889,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from any plist-like thing to a plist which is terminal for a some lifted algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "toPlist",
           "package": "property-list",
@@ -899,6 +940,7 @@
         "index": {
           "description": "Convert from any plist-like thing to plist which is terminal for some lifted algebra",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "toPlist",
           "normalized": "a-\u003eb",
@@ -914,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "toPlistWith",
           "package": "property-list",
@@ -923,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "toPlistWith",
           "normalized": "(a(PropertyListS b)-\u003ec(PropertyListS b))-\u003eb-\u003ed",
@@ -939,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven some coalgebra for the chosen lifted plist signature, compute\n the unique extraction/unfolding of that coalgebra into the type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default implementation is:\n\u003c/p\u003e\u003cpre\u003e unfoldPList f = go\n     where\n         go = plistAlgebra . fmap (fmap go) . f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Algebra",
           "name": "unfoldPList",
           "package": "property-list",
@@ -949,6 +994,7 @@
         "index": {
           "description": "Given some coalgebra for the chosen lifted plist signature compute the unique extraction unfolding of that coalgebra into the type The default implementation is unfoldPList go where go plistAlgebra fmap fmap go",
           "hierarchy": "Data PropertyList Algebra",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Algebra",
           "name": "unfoldPList",
           "normalized": "(a-\u003eb(PropertyListS a))-\u003ea-\u003ec",
@@ -964,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "Binary",
           "package": "property-list",
@@ -972,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "Binary",
           "package": "property-list",
@@ -985,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "Abs",
           "package": "property-list",
@@ -993,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "Abs",
           "package": "property-list",
@@ -1006,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPListHeader",
           "package": "property-list",
@@ -1014,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPListHeader",
           "package": "property-list",
@@ -1027,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPListRecord",
           "package": "property-list",
@@ -1035,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPListRecord",
           "package": "property-list",
@@ -1048,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPListRecords",
           "package": "property-list",
@@ -1056,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPListRecords",
           "package": "property-list",
@@ -1069,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPListTrailer",
           "package": "property-list",
@@ -1077,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPListTrailer",
           "package": "property-list",
@@ -1090,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "Rel",
           "package": "property-list",
@@ -1098,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "Rel",
           "package": "property-list",
@@ -1111,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "UnparsedBPListRecord",
           "package": "property-list",
@@ -1119,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "UnparsedBPListRecord",
           "package": "property-list",
@@ -1132,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLArray",
           "package": "property-list",
@@ -1141,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLArray",
           "normalized": "BPLArray[Word]",
@@ -1156,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLBool",
           "package": "property-list",
@@ -1165,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLBool",
           "package": "property-list",
@@ -1178,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLData",
           "package": "property-list",
@@ -1187,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLData",
           "package": "property-list",
@@ -1200,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLDate",
           "package": "property-list",
@@ -1209,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLDate",
           "package": "property-list",
@@ -1222,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLDict",
           "package": "property-list",
@@ -1231,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLDict",
           "normalized": "BPLDict[Word][Word]",
@@ -1246,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLFill",
           "package": "property-list",
@@ -1255,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLFill",
           "package": "property-list",
@@ -1268,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLInt",
           "package": "property-list",
@@ -1277,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLInt",
           "package": "property-list",
@@ -1290,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLNull",
           "package": "property-list",
@@ -1299,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLNull",
           "package": "property-list",
@@ -1312,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLReal",
           "package": "property-list",
@@ -1321,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLReal",
           "package": "property-list",
@@ -1334,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLSet",
           "package": "property-list",
@@ -1343,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLSet",
           "normalized": "BPLSet[Word]",
@@ -1358,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLString",
           "package": "property-list",
@@ -1367,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLString",
           "package": "property-list",
@@ -1380,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPLUID",
           "package": "property-list",
@@ -1389,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPLUID",
           "package": "property-list",
@@ -1402,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPListHeader",
           "package": "property-list",
@@ -1411,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPListHeader",
           "package": "property-list",
@@ -1424,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPListRecords",
           "package": "property-list",
@@ -1433,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPListRecords",
           "package": "property-list",
@@ -1446,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "BPListTrailer",
           "package": "property-list",
@@ -1455,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "BPListTrailer",
           "package": "property-list",
@@ -1611,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake some \u003ccode\u003e\u003ca\u003eBPListRecords\u003c/a\u003e\u003c/code\u003e using relative addressing and change them to use absolute addressing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "absolutize",
           "package": "property-list",
@@ -1621,6 +1714,7 @@
         "index": {
           "description": "Take some BPListRecords using relative addressing and change them to use absolute addressing",
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "absolutize",
           "normalized": "BPListRecords Rel-\u003eBPListRecords Abs",
@@ -1635,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "bplistVersion",
           "package": "property-list",
@@ -1644,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "bplistVersion",
           "package": "property-list",
@@ -1658,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReconstruct a property list from a collection of \u003ccode\u003e\u003ca\u003eBPListRecords\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "delinearize",
           "package": "property-list",
@@ -1668,6 +1765,7 @@
         "index": {
           "description": "Reconstruct property list from collection of BPListRecords",
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "delinearize",
           "normalized": "BPListRecords Abs-\u003ePartialPropertyList UnparsedBPListRecord",
@@ -1708,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake some \u003ccode\u003e\u003ca\u003eBPListRecords\u003c/a\u003e\u003c/code\u003e using absolute addressing and eliminate \n all duplicate records, compact the table and update all internal\n references.\n\u003c/p\u003e\u003cp\u003eDoes not necessarily yield a totally deduplicated table; The process\n of interning can introduce duplicate records (because it alters arrays,\n dicts and sets).  All other node types will be deduplicated in one pass,\n though, which is usually sufficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "intern",
           "package": "property-list",
@@ -1718,6 +1817,7 @@
         "index": {
           "description": "Take some BPListRecords using absolute addressing and eliminate all duplicate records compact the table and update all internal references Does not necessarily yield totally deduplicated table The process of interning can introduce duplicate records because it alters arrays dicts and sets All other node types will be deduplicated in one pass though which is usually sufficient",
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "intern",
           "normalized": "BPListRecords Abs-\u003eBPListRecords Abs",
@@ -1733,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a \u003ccode\u003e\u003ca\u003ePropertyList\u003c/a\u003e\u003c/code\u003e to a sequence of \u003ccode\u003e\u003ca\u003eBPListRecords\u003c/a\u003e\u003c/code\u003e.  The resulting records will\n use absolute addressing and will not have any duplicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "linearize",
           "package": "property-list",
@@ -1743,6 +1844,7 @@
         "index": {
           "description": "Flatten PropertyList to sequence of BPListRecords The resulting records will use absolute addressing and will not have any duplicates",
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "linearize",
           "normalized": "PropertyList-\u003eBPListRecords Abs",
@@ -1757,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "numObjects",
           "package": "property-list",
@@ -1766,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "numObjects",
           "package": "property-list",
@@ -1779,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "objectRefSize",
           "package": "property-list",
@@ -1788,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "objectRefSize",
           "package": "property-list",
@@ -1801,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "offsetIntSize",
           "package": "property-list",
@@ -1810,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "offsetIntSize",
           "package": "property-list",
@@ -1823,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "offsetTableOffset",
           "package": "property-list",
@@ -1832,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "offsetTableOffset",
           "package": "property-list",
@@ -1845,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "putBPList",
           "package": "property-list",
@@ -1854,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "putBPList",
           "normalized": "BPListRecords a-\u003ePutM()",
@@ -1869,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "readBPListRecords",
           "package": "property-list",
@@ -1878,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "readBPListRecords",
           "normalized": "ByteString-\u003eEither String(BPListRecords Abs)",
@@ -1893,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "readBinaryPartialPropertyList",
           "package": "property-list",
@@ -1902,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "readBinaryPartialPropertyList",
           "normalized": "ByteString-\u003eEither String(PartialPropertyList UnparsedBPListRecord)",
@@ -1917,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "readBinaryPartialPropertyListFromFile",
           "package": "property-list",
@@ -1926,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "readBinaryPartialPropertyListFromFile",
           "normalized": "FilePath-\u003eIO(PartialPropertyList UnparsedBPListRecord)",
@@ -1991,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "records",
           "package": "property-list",
@@ -2000,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "records",
           "package": "property-list",
@@ -2012,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "rootObject",
           "package": "property-list",
@@ -2021,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "rootObject",
           "package": "property-list",
@@ -2034,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "sortVersion",
           "package": "property-list",
@@ -2043,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "sortVersion",
           "package": "property-list",
@@ -2056,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Binary",
           "name": "topObject",
           "package": "property-list",
@@ -2065,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Binary",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Binary",
           "name": "topObject",
           "package": "property-list",
@@ -2103,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Xml",
           "name": "Xml",
           "package": "property-list",
@@ -2111,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Xml",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Xml",
           "name": "Xml",
           "package": "property-list",
@@ -2125,6 +2253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of values that were structurally sound in the \n property list file but the contents of which couldn't be interpreted\n as what they claimed to be.  The result of the initial parse phase will\n typically be a \u003ccode\u003ePartialPropertyList UnparsedXmlPlistItem\u003c/code\u003e, and if\n the whole plist was parsed properly will contain no actual values \n of this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Xml",
           "name": "UnparsedXmlPlistItem",
           "package": "property-list",
@@ -2134,6 +2263,7 @@
         "index": {
           "description": "representation of values that were structurally sound in the property list file but the contents of which couldn be interpreted as what they claimed to be The result of the initial parse phase will typically be PartialPropertyList UnparsedXmlPlistItem and if the whole plist was parsed properly will contain no actual values of this type",
           "hierarchy": "Data PropertyList Xml",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Xml",
           "name": "UnparsedXmlPlistItem",
           "package": "property-list",
@@ -2263,6 +2393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an XML property list from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e in the xml1 plist format, leaving \n unparseable elements in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Xml",
           "name": "readXmlPartialPropertyList",
           "package": "property-list",
@@ -2273,6 +2404,7 @@
         "index": {
           "description": "Read an XML property list from String in the xml1 plist format leaving unparseable elements in the tree",
           "hierarchy": "Data PropertyList Xml",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Xml",
           "name": "readXmlPartialPropertyList",
           "normalized": "String-\u003eEither String(PartialPropertyList UnparsedXmlPlistItem)",
@@ -2289,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an XML propertylist from a file in the xml1 plist format to a\n partial propertylist which is structurally sound but may contain some \n unparseable nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Xml",
           "name": "readXmlPartialPropertyListFromFile",
           "package": "property-list",
@@ -2299,6 +2432,7 @@
         "index": {
           "description": "Read an XML propertylist from file in the xml1 plist format to partial propertylist which is structurally sound but may contain some unparseable nodes",
           "hierarchy": "Data PropertyList Xml",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Xml",
           "name": "readXmlPartialPropertyListFromFile",
           "normalized": "FilePath-\u003eIO(PartialPropertyList UnparsedXmlPlistItem)",
@@ -2395,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList.Xml",
           "name": "unparsedXmlPlistItemToElement",
           "package": "property-list",
@@ -2404,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList Xml",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList.Xml",
           "name": "unparsedXmlPlistItemToElement",
           "normalized": "UnparsedXmlPlistItem-\u003eElement",
@@ -2446,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "PropertyList",
           "package": "property-list",
@@ -2454,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "PropertyList",
           "package": "property-list",
@@ -2468,6 +2606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identification of the fact that the type \u003ccode\u003ea\u003c/code\u003e has an initial plist algebra\n (under some lifting \u003ccode\u003ef\u003c/code\u003e).  Functional dependencies are in use - for any \n type, only one of its initial algebras (if multiple apply, which they may\n because the same type may be initial for multiple distinct liftings)\n can be chosen, and for any lifting only one type's algebra may be chosen.\n This is to make types decidable in the not-so-uncommon case where the\n lifting is encapsulated (eg, any time \u003ccode\u003e\u003ca\u003efoldPList\u003c/a\u003e\u003c/code\u003e is partially applied\n - for example, see the signature of \u003ccode\u003e\u003ca\u003efromPlist\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eFor cases where the lifting either needs to be chosen or needs to be\n transformed to another lifting, \u003ccode\u003e\u003ca\u003efromPlistWith\u003c/a\u003e\u003c/code\u003e is provided.  It is based\n on the same definition as the default implementation of \u003ccode\u003e\u003ca\u003efoldPList\u003c/a\u003e\u003c/code\u003e but\n also inserts a chosen transformation of the lifting.\n\u003c/p\u003e\u003cp\u003eQuestion for self: Is the PListCoalgebra context reasonable here?  \n Some rough calculations suggest that in the presence of fixed point \n type operators, it is possible to construct a PListCoalgebra for any \n InitialPList, which essentially is defined as pattern matching.  So, \n I'm not totally sure but I think this is reasonable - at least, for\n finitary signatures, which we're using as long as \u003ccode\u003ef\u003c/code\u003e doesn't go crazy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "InitialPList",
           "package": "property-list",
@@ -2477,6 +2616,7 @@
         "index": {
           "description": "An identification of the fact that the type has an initial plist algebra under some lifting Functional dependencies are in use for any type only one of its initial algebras if multiple apply which they may because the same type may be initial for multiple distinct liftings can be chosen and for any lifting only one type algebra may be chosen This is to make types decidable in the not-so-uncommon case where the lifting is encapsulated eg any time foldPList is partially applied for example see the signature of fromPlist For cases where the lifting either needs to be chosen or needs to be transformed to another lifting fromPlistWith is provided It is based on the same definition as the default implementation of foldPList but also inserts chosen transformation of the lifting Question for self Is the PListCoalgebra context reasonable here Some rough calculations suggest that in the presence of fixed point type operators it is possible to construct PListCoalgebra for any InitialPList which essentially is defined as pattern matching So not totally sure but think this is reasonable at least for finitary signatures which we re using as long as doesn go crazy",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "InitialPList",
           "package": "property-list",
@@ -2491,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types which can be constructed algebraically from the\n \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e signature (lifted by \u003ccode\u003ef\u003c/code\u003e) - in other words, types which\n you can put property lists into.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003ef\u003c/code\u003e-lifting is provided to support extending the algebra.  The algebra\n is defined in a class rather than passing around functions because most of\n the time for any given type there is only one algebra you care about.\n\u003c/p\u003e\u003cp\u003eTypically a renderer for an output format will be implemented as a type\n with an \u003ccode\u003einstance \u003ccode\u003e\u003ca\u003ePListAlgebra\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  For example, the XML \n output system is implemented in the \u003ccode\u003einstance \u003ccode\u003e\u003ca\u003ePListAlgebra\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e \n \u003ccode\u003eData.PropertyList.Xml.Types.Plist\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "PListAlgebra",
           "package": "property-list",
@@ -2500,6 +2641,7 @@
         "index": {
           "description": "class for types which can be constructed algebraically from the PropertyListS signature lifted by in other words types which you can put property lists into The lifting is provided to support extending the algebra The algebra is defined in class rather than passing around functions because most of the time for any given type there is only one algebra you care about Typically renderer for an output format will be implemented as type with an instance PListAlgebra Identity For example the XML output system is implemented in the instance PListAlgebra Identity Data.PropertyList.Xml.Types.Plist",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "PListAlgebra",
           "package": "property-list",
@@ -2514,6 +2656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types which can be dissected (pattern-matched) into the\n \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e signature (lifted by \u003ccode\u003ef\u003c/code\u003e) - in other words, types which\n you can take property lists out of.\n\u003c/p\u003e\u003cp\u003eTypically a property list parser will be implemented as a type with a\n \u003ccode\u003e\u003ca\u003ePListCoalgebra\u003c/a\u003e\u003c/code\u003e instance, where \u003ccode\u003ef\u003c/code\u003e is either \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e in the case where\n the parser guarantees to return a fully well-formed property list \n (assuming it returns anything at all) or \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esomething\u003c/code\u003e when the \n parser only guarantees that the structure is sound (but that some elements\n might be defective, in which case a value of type \u003ccode\u003esomething\u003c/code\u003e would be \n substituted).  The XML parser, for example, is based on the latter \n approach, where \u003ccode\u003esomething\u003c/code\u003e is \u003ccode\u003eUnparsedPlistItem\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "PListCoalgebra",
           "package": "property-list",
@@ -2523,6 +2666,7 @@
         "index": {
           "description": "class for types which can be dissected pattern-matched into the PropertyListS signature lifted by in other words types which you can take property lists out of Typically property list parser will be implemented as type with PListCoalgebra instance where is either Identity in the case where the parser guarantees to return fully well-formed property list assuming it returns anything at all or Either something when the parser only guarantees that the structure is sound but that some elements might be defective in which case value of type something would be substituted The XML parser for example is based on the latter approach where something is UnparsedPlistItem",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "PListCoalgebra",
           "package": "property-list",
@@ -2537,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA partially-parsed property-list term algebra, parameterized over the type of\n \"structural holes\" in the terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "PartialPropertyList",
           "package": "property-list",
@@ -2546,6 +2691,7 @@
         "index": {
           "description": "partially-parsed property-list term algebra parameterized over the type of structural holes in the terms",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "PartialPropertyList",
           "package": "property-list",
@@ -2560,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fully-parsed property list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "PropertyList",
           "package": "property-list",
@@ -2569,6 +2716,7 @@
         "index": {
           "description": "fully-parsed property list",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "PropertyList",
           "package": "property-list",
@@ -2583,6 +2731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for items which can be converted to and from property lists.  This\n is more general than \u003ccode\u003e\u003ca\u003ePListAlgebra\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePListCoalgebra\u003c/a\u003e\u003c/code\u003e, in that it allows\n for transformations that are not primitive-recursive.  This relaxation is\n necessary and desirable in the \u003ccode\u003e\u003ca\u003ePropertyListItem\u003c/a\u003e\u003c/code\u003e situation because we are \n more interested in composable injection/projection operations on than in\n universal maps.\n\u003c/p\u003e\u003cp\u003eThe algebraic interface also cannot work for arrays or dictionaries,\n because it only allows primitive (co-)recursion - the conversions can only\n operate on one \"layer\" of \u003ccode\u003e\u003ca\u003ePropertyListS\u003c/a\u003e\u003c/code\u003e at a time.  This could be \n handled by enlarging the types (from [t] to Either t [t], for example)\n or by encoding in-band (by taking a singleton list to be an element \n instead of a list, for example), but both of those \"solutions\" create\n headaches of their own, and in any case the algebraic interface is probably\n too bizarre for most users.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "PropertyListItem",
           "package": "property-list",
@@ -2592,6 +2741,7 @@
         "index": {
           "description": "class for items which can be converted to and from property lists This is more general than PListAlgebra and PListCoalgebra in that it allows for transformations that are not primitive-recursive This relaxation is necessary and desirable in the PropertyListItem situation because we are more interested in composable injection projection operations on than in universal maps The algebraic interface also cannot work for arrays or dictionaries because it only allows primitive co recursion the conversions can only operate on one layer of PropertyListS at time This could be handled by enlarging the types from to Either for example or by encoding in-band by taking singleton list to be an element instead of list for example but both of those solutions create headaches of their own and in any case the algebraic interface is probably too bizarre for most users",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "PropertyListItem",
           "package": "property-list",
@@ -2606,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChosen terminal coalgebra for the given lifting, and chosen lifting\n for the given type.  See also \u003ccode\u003e\u003ca\u003eInitialPList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "TerminalPList",
           "package": "property-list",
@@ -2615,6 +2766,7 @@
         "index": {
           "description": "Chosen terminal coalgebra for the given lifting and chosen lifting for the given type See also InitialPList",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "TerminalPList",
           "package": "property-list",
@@ -2628,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "UnparsedBPListRecord",
           "package": "property-list",
@@ -2636,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "UnparsedBPListRecord",
           "package": "property-list",
@@ -2650,6 +2804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of values that were structurally sound in the \n property list file but the contents of which couldn't be interpreted\n as what they claimed to be.  The result of the initial parse phase will\n typically be a \u003ccode\u003ePartialPropertyList UnparsedXmlPlistItem\u003c/code\u003e, and if\n the whole plist was parsed properly will contain no actual values \n of this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "UnparsedXmlPlistItem",
           "package": "property-list",
@@ -2659,6 +2814,7 @@
         "index": {
           "description": "representation of values that were structurally sound in the property list file but the contents of which couldn be interpreted as what they claimed to be The result of the initial parse phase will typically be PartialPropertyList UnparsedXmlPlistItem and if the whole plist was parsed properly will contain no actual values of this type",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "UnparsedXmlPlistItem",
           "package": "property-list",
@@ -2673,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ealterItemAtKeyPath path f\u003c/code\u003e applies the function \u003ccode\u003ef\u003c/code\u003e deep inside the \n \u003ccode\u003e\u003ca\u003ePropertyList\u003c/a\u003e\u003c/code\u003e on the property list item at the given key-path \u003ccode\u003epath\u003c/code\u003e\n (if possible).  This is the same notion of key path as is used in the \n Apple plist APIs - namely, each component of the path indicates descending \n into a dictionary by selecting the element with that key (if any).  If a \n key is not found, it is created.  If a key is found but is not a \n dictionary, the operation fails (with \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eIf the result of \u003ccode\u003ef\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, and the resulting dictionary is empty,\n that dictionary is deleted in the result (and any empty parent dictionaries).\n If this is not the behavior you want, you should alter the parent dictionary \n itself and return an empty one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "alterItemAtKeyPath",
           "package": "property-list",
@@ -2683,6 +2840,7 @@
         "index": {
           "description": "alterItemAtKeyPath path applies the function deep inside the PropertyList on the property list item at the given key-path path if possible This is the same notion of key path as is used in the Apple plist APIs namely each component of the path indicates descending into dictionary by selecting the element with that key if any If key is not found it is created If key is found but is not dictionary the operation fails with error If the result of is Nothing and the resulting dictionary is empty that dictionary is deleted in the result and any empty parent dictionaries If this is not the behavior you want you should alter the parent dictionary itself and return an empty one",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "alterItemAtKeyPath",
           "normalized": "[String]-\u003e(Maybe a-\u003eMaybe b)-\u003eMaybe PropertyList-\u003eMaybe PropertyList",
@@ -2699,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ealterItemAtKeyPathM path f\u003c/code\u003e applies the function \u003ccode\u003ef\u003c/code\u003e deep inside the \n \u003ccode\u003e\u003ca\u003ePropertyList\u003c/a\u003e\u003c/code\u003e on the property list item at the given key-path \u003ccode\u003epath\u003c/code\u003e\n (if possible).  This is the same notion of key path as is used in the \n Apple plist APIs - each component of the path indicates descending \n into a dictionary by selecting the element with that key (if any).  If a \n key is not found, it is created.  If a key is found but is not a \n dictionary, the operation fails (with \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e class).\n\u003c/p\u003e\u003cp\u003eIf the result of \u003ccode\u003ef\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, and the resulting dictionary is empty,\n that dictionary is deleted in the result (and any empty parent dictionaries).\n If this is not the behavior you want, you should alter the parent dictionary \n itself and return an empty one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "alterItemAtKeyPathM",
           "package": "property-list",
@@ -2709,6 +2868,7 @@
         "index": {
           "description": "alterItemAtKeyPathM path applies the function deep inside the PropertyList on the property list item at the given key-path path if possible This is the same notion of key path as is used in the Apple plist APIs each component of the path indicates descending into dictionary by selecting the element with that key if any If key is not found it is created If key is found but is not dictionary the operation fails with fail from the Monad class If the result of is Nothing and the resulting dictionary is empty that dictionary is deleted in the result and any empty parent dictionaries If this is not the behavior you want you should alter the parent dictionary itself and return an empty one",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "alterItemAtKeyPathM",
           "normalized": "[String]-\u003e(Maybe a-\u003eb(Maybe c))-\u003eMaybe PropertyList-\u003eb(Maybe PropertyList)",
@@ -2725,6 +2885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a property list to a property list item if its contents\n _exactly_ fit the target type.  Note that when using types\n such as \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e (as opposed to \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003ePropertyList\u003c/a\u003e\u003c/code\u003e) this will mean that a single element of the \n dictionary of a non-\u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e type will cause the entire conversion to\n fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "fromPropertyList",
           "package": "property-list",
@@ -2735,6 +2896,7 @@
         "index": {
           "description": "Convert property list to property list item if its contents exactly fit the target type Note that when using types such as Map String Int as opposed to Map String PropertyList this will mean that single element of the dictionary of non Int type will cause the entire conversion to fail",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "fromPropertyList",
           "normalized": "PropertyList-\u003eMaybe a",
@@ -2751,6 +2913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the item, if any (and if convertible to the required type), \n at a given key path.  If the key path passes through something that \n is not a dictionary, the operation returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "getItemAtKeyPath",
           "package": "property-list",
@@ -2761,6 +2924,7 @@
         "index": {
           "description": "Gets the item if any and if convertible to the required type at given key path If the key path passes through something that is not dictionary the operation returns Nothing",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "getItemAtKeyPath",
           "normalized": "[String]-\u003eMaybe PropertyList-\u003eMaybe a",
@@ -2776,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "listFromPropertyList",
           "package": "property-list",
@@ -2785,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "listFromPropertyList",
           "normalized": "PropertyList-\u003eMaybe[a]",
@@ -2801,6 +2967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to support a general instance for lists without breaking\n String, we use the same trick as the Prelude uses for Show.\n Generally, the list methods should not be overridden, and maybe\n they shouldn't even be exported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "listToPropertyList",
           "package": "property-list",
@@ -2811,6 +2978,7 @@
         "index": {
           "description": "In order to support general instance for lists without breaking String we use the same trick as the Prelude uses for Show Generally the list methods should not be overridden and maybe they shouldn even be exported",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "listToPropertyList",
           "normalized": "[a]-\u003ePropertyList",
@@ -2827,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a property list from a file, trying all supported property list formats.\n Presently, the \"XML1\" and \"bplist00\" formats are supported.  See also\n \u003ccode\u003e\u003ca\u003ereadXmlPropertyListFromFile\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ereadBinaryPropertyListFromFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "readPropertyListFromFile",
           "package": "property-list",
@@ -2837,6 +3006,7 @@
         "index": {
           "description": "Read property list from file trying all supported property list formats Presently the XML1 and bplist00 formats are supported See also readXmlPropertyListFromFile and readBinaryPropertyListFromFile",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "readPropertyListFromFile",
           "normalized": "FilePath-\u003eIO PropertyList",
@@ -2853,6 +3023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the item at a given key-path.  If the key path does not exist, it is\n created.  If it exists but passes through something that is not a dictionary,\n the operation fails (with \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "setItemAtKeyPath",
           "package": "property-list",
@@ -2863,6 +3034,7 @@
         "index": {
           "description": "Sets the item at given key-path If the key path does not exist it is created If it exists but passes through something that is not dictionary the operation fails with error",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "setItemAtKeyPath",
           "normalized": "[String]-\u003eMaybe a-\u003eMaybe PropertyList-\u003eMaybe PropertyList",
@@ -2879,6 +3051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003ePropertyList\u003c/a\u003e\u003c/code\u003e from the item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "toPropertyList",
           "package": "property-list",
@@ -2889,6 +3062,7 @@
         "index": {
           "description": "Construct PropertyList from the item",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "toPropertyList",
           "normalized": "a-\u003ePropertyList",
@@ -2905,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a property list to a file, using a \"preferred\" property list format.\n Presently, that is the \"XML1\" format.  See also \u003ccode\u003e\u003ca\u003ewriteXmlPropertyListToFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:25 UTC 2014",
           "module": "Data.PropertyList",
           "name": "writePropertyListToFile",
           "package": "property-list",
@@ -2915,6 +3090,7 @@
         "index": {
           "description": "Write property list to file using preferred property list format Presently that is the XML1 format See also writeXmlPropertyListToFile",
           "hierarchy": "Data PropertyList",
+          "indexed": "2014-03-11T19:45:25",
           "module": "Data.PropertyList",
           "name": "writePropertyListToFile",
           "normalized": "FilePath-\u003ePropertyList-\u003eIO()",

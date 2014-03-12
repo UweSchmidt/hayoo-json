@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yjtools"
+        "phrase": "yjtools",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Applicative.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Applicative.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Applicative.Tools",
           "name": "(\u003c.\u003e)",
           "package": "yjtools",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Applicative.Tools",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed a)-\u003ec-\u003ed b",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "doUntil",
           "package": "yjtools",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "doUntil",
           "normalized": "a-\u003e(a-\u003eb(a,Bool))-\u003eb a",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "doUntil_",
           "package": "yjtools",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "doUntil_",
           "normalized": "a Bool-\u003ea()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "doWhile",
           "package": "yjtools",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "doWhile",
           "normalized": "a-\u003e(a-\u003eb(a,Bool))-\u003eb a",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "doWhile_",
           "package": "yjtools",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "doWhile_",
           "normalized": "a Bool-\u003ea()",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "filterM",
           "package": "yjtools",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "filterM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb[a]",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "for",
           "package": "yjtools",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "for",
           "normalized": "a-\u003e(a-\u003eBool)-\u003e(a-\u003ea)-\u003eb-\u003e(a-\u003eb-\u003ec b)-\u003ec b",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "for_",
           "package": "yjtools",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "for_",
           "normalized": "a-\u003e(a-\u003eBool)-\u003e(a-\u003ea)-\u003e(a-\u003eb c)-\u003eb()",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "ifM",
           "package": "yjtools",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "ifM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "repeatM",
           "package": "yjtools",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "repeatM",
           "normalized": "a b-\u003ea[b]",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "repeatM_",
           "package": "yjtools",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "repeatM_",
           "normalized": "a b-\u003ea()",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "skipRet",
           "package": "yjtools",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "skipRet",
           "normalized": "a b-\u003ec-\u003ea c",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "unlessM",
           "package": "yjtools",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "unlessM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Control.Monad.Tools",
           "name": "whenM",
           "package": "yjtools",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Control.Monad.Tools",
           "name": "whenM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Bool.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Bool Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Bool.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Bool.Tools",
           "name": "(|||)",
           "package": "yjtools",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Data Bool Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Bool.Tools",
           "name": "(|||) |||",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Bool.Tools",
           "name": "(&&&)",
           "package": "yjtools",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Data Bool Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Bool.Tools",
           "name": "(&&&) &&&",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Bool.Tools",
           "name": "whether",
           "package": "yjtools",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Bool Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Bool.Tools",
           "name": "whether",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Function.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Data Function Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Function.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Function.Tools",
           "name": "apply2way",
           "package": "yjtools",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Data Function Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Function.Tools",
           "name": "apply2way",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ea)-\u003e(d-\u003eb)-\u003ed-\u003ec",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Function.Tools",
           "name": "applyUnless",
           "package": "yjtools",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Data Function Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Function.Tools",
           "name": "applyUnless",
           "normalized": "Bool-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Function.Tools",
           "name": "applyWhen",
           "package": "yjtools",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Data Function Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Function.Tools",
           "name": "applyWhen",
           "normalized": "Bool-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Function.Tools",
           "name": "const2",
           "package": "yjtools",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Data Function Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Function.Tools",
           "name": "const2",
           "normalized": "a-\u003eb-\u003ec-\u003ea",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Function.Tools",
           "name": "const3",
           "package": "yjtools",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Data Function Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Function.Tools",
           "name": "const3",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ea",
@@ -615,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.IORef.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.IORef.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.IORef.Tools",
           "name": "atomicModifyIORef_",
           "package": "yjtools",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.IORef.Tools",
           "name": "atomicModifyIORef_",
           "normalized": "IORef a-\u003e(a-\u003ea)-\u003eIO()",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.List.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data List Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.List.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.List.Tools",
           "name": "defaultElem",
           "package": "yjtools",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data List Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.List.Tools",
           "name": "defaultElem",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.List.Tools",
           "name": "dropUntil",
           "package": "yjtools",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Data List Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.List.Tools",
           "name": "dropUntil",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.List.Tools",
           "name": "isIncludedElem",
           "package": "yjtools",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Data List Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.List.Tools",
           "name": "isIncludedElem",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.List.Tools",
           "name": "modifyAt",
           "package": "yjtools",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Data List Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.List.Tools",
           "name": "modifyAt",
           "normalized": "[a]-\u003eInt-\u003e(a-\u003ea)-\u003e[a]",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.List.Tools",
           "name": "mulLists",
           "package": "yjtools",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data List Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.List.Tools",
           "name": "mulLists",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -801,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.List.Tools",
           "name": "setAt",
           "package": "yjtools",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Data List Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.List.Tools",
           "name": "setAt",
           "normalized": "[a]-\u003eInt-\u003ea-\u003e[a]",
@@ -825,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.List.Tools",
           "name": "takeUntil",
           "package": "yjtools",
@@ -834,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Data List Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.List.Tools",
           "name": "takeUntil",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -849,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Tuple.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Tuple.Tools",
           "name": "Tools",
           "package": "yjtools",
@@ -870,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Tuple.Tools",
           "name": "curry3",
           "package": "yjtools",
@@ -879,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Tuple.Tools",
           "name": "curry3",
           "normalized": "((a,b,c)-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Tuple.Tools",
           "name": "rotate",
           "package": "yjtools",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Tuple.Tools",
           "name": "rotate",
           "normalized": "a-\u003e(a,a)-\u003e(a,a)",
@@ -916,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:24 UTC 2014",
           "module": "Data.Tuple.Tools",
           "name": "uncurry3",
           "package": "yjtools",
@@ -925,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Tools",
+          "indexed": "2014-03-11T20:47:24",
           "module": "Data.Tuple.Tools",
           "name": "uncurry3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(a,b,c)-\u003ed",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-GeoIP"
+        "phrase": "hs-GeoIP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoIP",
           "package": "hs-GeoIP",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoIP",
           "package": "hs-GeoIP",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing an established connection to a GeoIPCity database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoDB",
           "package": "hs-GeoIP",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Type representing an established connection to GeoIPCity database",
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoDB",
           "package": "hs-GeoIP",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoIPOption",
           "package": "hs-GeoIP",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoIPOption",
           "package": "hs-GeoIP",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn data for a geolocation lookup \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoIPRecord",
           "package": "hs-GeoIP",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Return data for geolocation lookup",
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoIPRecord",
           "package": "hs-GeoIP",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoIPRecord",
           "package": "hs-GeoIP",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "GeoIPRecord",
           "package": "hs-GeoIP",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "check_cache",
           "package": "hs-GeoIP",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "check_cache",
           "package": "hs-GeoIP",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollapse & combine multiple \u003ccode\u003e\u003ca\u003eGeoIPOption\u003c/a\u003e\u003c/code\u003es into one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "combineOptions",
           "package": "hs-GeoIP",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Collapse combine multiple GeoIPOption into one",
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "combineOptions",
           "normalized": "[GeoIPOption]-\u003eGeoIPOption",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoAccuracyRadius",
           "package": "hs-GeoIP",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoAccuracyRadius",
           "package": "hs-GeoIP",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoAreaCode",
           "package": "hs-GeoIP",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoAreaCode",
           "package": "hs-GeoIP",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoCity",
           "package": "hs-GeoIP",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoCity",
           "package": "hs-GeoIP",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoContinentCode",
           "package": "hs-GeoIP",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoContinentCode",
           "package": "hs-GeoIP",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoCountryCode",
           "package": "hs-GeoIP",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoCountryCode",
           "package": "hs-GeoIP",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoCountryCode3",
           "package": "hs-GeoIP",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoCountryCode3",
           "package": "hs-GeoIP",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoCountryName",
           "package": "hs-GeoIP",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoCountryName",
           "package": "hs-GeoIP",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoLatitude",
           "package": "hs-GeoIP",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoLatitude",
           "package": "hs-GeoIP",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeo-locate by given IP Adress\n\u003c/p\u003e\u003cpre\u003e geoLocateByIPAddress db \"123.123.123.123\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoLocateByIPAddress",
           "package": "hs-GeoIP",
@@ -362,6 +393,7 @@
         "index": {
           "description": "Geo-locate by given IP Adress geoLocateByIPAddress db",
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoLocateByIPAddress",
           "normalized": "GeoDB-\u003eByteString-\u003eIO(Maybe GeoIPRecord)",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeo-locate by given IP number. Call \u003ccode\u003e\u003ca\u003emkIpNum\u003c/a\u003e\u003c/code\u003e on a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e ip address to\n convert to IP number.\n\u003c/p\u003e\u003cpre\u003e geoLocateByIPNum db 12336939327338\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoLocateByIPNum",
           "package": "hs-GeoIP",
@@ -388,6 +421,7 @@
         "index": {
           "description": "Geo-locate by given IP number Call mkIpNum on String ip address to convert to IP number geoLocateByIPNum db",
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoLocateByIPNum",
           "normalized": "GeoDB-\u003eInteger-\u003eIO(Maybe GeoIPRecord)",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoLongitude",
           "package": "hs-GeoIP",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoLongitude",
           "package": "hs-GeoIP",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoPostalCode",
           "package": "hs-GeoIP",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoPostalCode",
           "package": "hs-GeoIP",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoRegion",
           "package": "hs-GeoIP",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoRegion",
           "package": "hs-GeoIP",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoStringByIPAddress",
           "package": "hs-GeoIP",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoStringByIPAddress",
           "normalized": "GeoDB-\u003eByteString-\u003eIO(Maybe ByteString)",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoStringByIPNum",
           "package": "hs-GeoIP",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "geoStringByIPNum",
           "normalized": "GeoDB-\u003eInteger-\u003eIO(Maybe ByteString)",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "index_cache",
           "package": "hs-GeoIP",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "index_cache",
           "package": "hs-GeoIP",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "memory_cache",
           "package": "hs-GeoIP",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "memory_cache",
           "package": "hs-GeoIP",
@@ -560,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string IP adress to IPNum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "mkIpNum",
           "package": "hs-GeoIP",
@@ -570,6 +619,7 @@
         "index": {
           "description": "Convert string IP adress to IPNum",
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "mkIpNum",
           "normalized": "ByteString-\u003eMaybe Integer",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "mmap_cache",
           "package": "hs-GeoIP",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "mmap_cache",
           "package": "hs-GeoIP",
@@ -607,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the binary GeoIP data file with the given options.\n\u003c/p\u003e\u003cp\u003eThis would open a file and cache in memory:\n\u003c/p\u003e\u003cpre\u003e openGeoDB \"GeoCity.dat\" memory_cache\n\u003c/pre\u003e\u003cp\u003eThe memory on the C side is automatically freed by the Haskell GC when\n appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "openGeoDB",
           "package": "hs-GeoIP",
@@ -617,6 +670,7 @@
         "index": {
           "description": "Open the binary GeoIP data file with the given options This would open file and cache in memory openGeoDB GeoCity.dat memory cache The memory on the side is automatically freed by the Haskell GC when appropriate",
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "openGeoDB",
           "normalized": "GeoIPOption-\u003eString-\u003eIO GeoDB",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:37 UTC 2014",
           "module": "Data.Geolocation.GeoIP",
           "name": "standard",
           "package": "hs-GeoIP",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Data Geolocation GeoIP",
+          "indexed": "2014-03-11T18:45:37",
           "module": "Data.Geolocation.GeoIP",
           "name": "standard",
           "package": "hs-GeoIP",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GLFW-task"
+        "phrase": "GLFW-task",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGLFW helper functions for use with a \u003ccode\u003e\u003ca\u003eTaskT\u003c/a\u003e\u003c/code\u003e monad transformer (from monad-task package).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "Task",
           "package": "GLFW-task",
@@ -28,6 +29,7 @@
         "index": {
           "description": "GLFW helper functions for use with TaskT monad transformer from monad-task package",
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "Task",
           "package": "GLFW-task",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEvent\u003c/code\u003e is a unified data type for all GLFW events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "Event",
           "package": "GLFW-task",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Event is unified data type for all GLFW events",
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "Event",
           "package": "GLFW-task",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "CharEvent",
           "package": "GLFW-task",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "CharEvent",
           "package": "GLFW-task",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "KeyEvent",
           "package": "GLFW-task",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "KeyEvent",
           "package": "GLFW-task",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "MouseButtonEvent",
           "package": "GLFW-task",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "MouseButtonEvent",
           "package": "GLFW-task",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "MousePosEvent",
           "package": "GLFW-task",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "MousePosEvent",
           "package": "GLFW-task",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "MouseWheelEvent",
           "package": "GLFW-task",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "MouseWheelEvent",
           "package": "GLFW-task",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "WindowCloseEvent",
           "package": "GLFW-task",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "WindowCloseEvent",
           "package": "GLFW-task",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "WindowRefreshEvent",
           "package": "GLFW-task",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "WindowRefreshEvent",
           "package": "GLFW-task",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "WindowSizeEvent",
           "package": "GLFW-task",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "WindowSizeEvent",
           "package": "GLFW-task",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isButton",
           "package": "GLFW-task",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isButton",
           "normalized": "MouseButton-\u003eMouseButton-\u003eMaybe()",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isChar",
           "package": "GLFW-task",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isChar",
           "normalized": "Char-\u003eChar-\u003eMaybe()",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isKey",
           "package": "GLFW-task",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isKey",
           "normalized": "a-\u003eKey-\u003eMaybe()",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isPress",
           "package": "GLFW-task",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isPress",
           "normalized": "(a,KeyButtonState)-\u003eMaybe a",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isRelease",
           "package": "GLFW-task",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "isRelease",
           "normalized": "(a,KeyButtonState)-\u003eMaybe a",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onButton",
           "package": "GLFW-task",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onButton",
           "normalized": "Event-\u003eMaybe(MouseButton,KeyButtonState)",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onChar",
           "package": "GLFW-task",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onChar",
           "normalized": "Event-\u003eMaybe(Char,KeyButtonState)",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onClose",
           "package": "GLFW-task",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onClose",
           "normalized": "Event-\u003eMaybe()",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onKey",
           "package": "GLFW-task",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onKey",
           "normalized": "Event-\u003eMaybe(Key,KeyButtonState)",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onPos",
           "package": "GLFW-task",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onPos",
           "normalized": "Event-\u003eMaybe Position",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onRefresh",
           "package": "GLFW-task",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onRefresh",
           "normalized": "Event-\u003eMaybe()",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onSize",
           "package": "GLFW-task",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onSize",
           "normalized": "Event-\u003eMaybe Size",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onWheel",
           "package": "GLFW-task",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "onWheel",
           "normalized": "Event-\u003eMaybe Int",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eregisterTaskCallbacks\u003c/code\u003e sets up all event callbacks, and returns a \n   \u003ccode\u003e\u003ca\u003ewaitEvent\u003c/a\u003e\u003c/code\u003e equivalent function for task monad,\n   which must be called repeatedly in order to pump events to other \n   task co-routines.\n\u003c/p\u003e\u003cp\u003eThese task co-routines should use \u003ccode\u003e\u003ca\u003ewatch\u003c/a\u003e\u003c/code\u003e \n   to select event of interest, and they should be forked prior to\n   the waitEvent call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:21 UTC 2014",
           "module": "Graphics.UI.GLFW.Task",
           "name": "registerTaskCallbacks",
           "package": "GLFW-task",
@@ -563,6 +610,7 @@
         "index": {
           "description": "registerTaskCallbacks sets up all event callbacks and returns waitEvent equivalent function for task monad which must be called repeatedly in order to pump events to other task co-routines These task co-routines should use watch to select event of interest and they should be forked prior to the waitEvent call",
           "hierarchy": "Graphics UI GLFW Task",
+          "indexed": "2014-03-11T16:42:21",
           "module": "Graphics.UI.GLFW.Task",
           "name": "registerTaskCallbacks",
           "normalized": "IO(a())",

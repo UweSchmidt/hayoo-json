@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Chart-simple"
+        "phrase": "Chart-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "Internal",
           "package": "Chart-simple",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "Internal",
           "package": "Chart-simple",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "InternalPlot",
           "package": "Chart-simple",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "InternalPlot",
           "package": "Chart-simple",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "IsPlot",
           "package": "Chart-simple",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "IsPlot",
           "package": "Chart-simple",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "LayoutDDD",
           "package": "Chart-simple",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "LayoutDDD",
           "package": "Chart-simple",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotArg",
           "package": "Chart-simple",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotArg",
           "package": "Chart-simple",
@@ -124,6 +134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType to define a few simple properties of each plot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotKind",
           "package": "Chart-simple",
@@ -133,6 +144,7 @@
         "index": {
           "description": "Type to define few simple properties of each plot",
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotKind",
           "package": "Chart-simple",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotPDFType",
           "package": "Chart-simple",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotPDFType",
           "package": "Chart-simple",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotPNGType",
           "package": "Chart-simple",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotPNGType",
           "package": "Chart-simple",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotPSType",
           "package": "Chart-simple",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotPSType",
           "package": "Chart-simple",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotType",
           "package": "Chart-simple",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotType",
           "package": "Chart-simple",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotWindowType",
           "package": "Chart-simple",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "PlotWindowType",
           "package": "Chart-simple",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UPlot",
           "package": "Chart-simple",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UPlot",
           "package": "Chart-simple",
@@ -433,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "IPX",
           "package": "Chart-simple",
@@ -442,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "IPX",
           "normalized": "IPX[a][PlotKind]",
@@ -457,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "IPY",
           "package": "Chart-simple",
@@ -466,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "IPY",
           "normalized": "IPY[a][PlotKind]",
@@ -481,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "LayoutDDD",
           "package": "Chart-simple",
@@ -490,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "LayoutDDD",
           "package": "Chart-simple",
@@ -687,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UDoubles",
           "package": "Chart-simple",
@@ -696,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UDoubles",
           "normalized": "UDoubles[Double]",
@@ -711,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UFunction",
           "package": "Chart-simple",
@@ -720,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UFunction",
           "normalized": "UFunction(Double-\u003eDouble)",
@@ -735,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UKind",
           "package": "Chart-simple",
@@ -744,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UKind",
           "normalized": "UKind[PlotKind]",
@@ -759,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UString",
           "package": "Chart-simple",
@@ -768,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "UString",
           "package": "Chart-simple",
@@ -781,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "X",
           "package": "Chart-simple",
@@ -790,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "X",
           "normalized": "X[Double]",
@@ -804,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "iplot",
           "package": "Chart-simple",
@@ -813,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "iplot",
           "normalized": "[InternalPlot a b]-\u003eLayout a b",
@@ -852,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "name",
           "package": "Chart-simple",
@@ -861,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "name",
           "normalized": "[PlotKind]-\u003eString",
@@ -875,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "pl",
           "package": "Chart-simple",
@@ -884,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "pl",
           "normalized": "[UPlot]-\u003ea",
@@ -898,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "pld",
           "package": "Chart-simple",
@@ -907,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "pld",
           "normalized": "FilePath-\u003e[UPlot]-\u003ea",
@@ -945,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "plotLayout",
           "package": "Chart-simple",
@@ -954,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "plotLayout",
           "package": "Chart-simple",
@@ -1049,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a plot on the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "plotWindow",
           "package": "Chart-simple",
@@ -1059,6 +1110,7 @@
         "index": {
           "description": "Display plot on the screen",
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "plotWindow",
           "package": "Chart-simple",
@@ -1072,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "plp",
           "package": "Chart-simple",
@@ -1081,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "plp",
           "normalized": "FilePath-\u003e[UPlot]-\u003ea",
@@ -1095,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "pls",
           "package": "Chart-simple",
@@ -1104,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "pls",
           "normalized": "FilePath-\u003e[UPlot]-\u003ea",
@@ -1118,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "plw",
           "package": "Chart-simple",
@@ -1127,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "plw",
           "normalized": "[UPlot]-\u003ea",
@@ -1141,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "str2k",
           "package": "Chart-simple",
@@ -1150,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "str2k",
           "normalized": "String-\u003e[PlotKind]",
@@ -1164,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "str2khelper",
           "package": "Chart-simple",
@@ -1173,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "str2khelper",
           "normalized": "String-\u003ePlotKind-\u003e[PlotKind]",
@@ -1187,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "styleColor",
           "package": "Chart-simple",
@@ -1196,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "styleColor",
           "normalized": "Int-\u003eAlphaColour Double",
@@ -1211,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "styleSymbol",
           "package": "Chart-simple",
@@ -1220,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "styleSymbol",
           "normalized": "Int-\u003ePlotKind",
@@ -1235,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "toUPlot",
           "package": "Chart-simple",
@@ -1244,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "toUPlot",
           "normalized": "a-\u003e[UPlot]",
@@ -1259,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "toUPlot'",
           "package": "Chart-simple",
@@ -1268,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple Internal",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple.Internal",
           "name": "toUPlot'",
           "normalized": "[a]-\u003e[UPlot]",
@@ -1332,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn even simpler framework for creating 2D charts in Haskell.\n\u003c/p\u003e\u003cp\u003eThe basic idea is to make it as easy to plot as octave, which means that\n you provide no more information than you wish to provide.  We provide\n four plotting functions, which differ only in their output.  One\n produces a \u003ca\u003eLayout1\u003c/a\u003e that you can customize using other\n Graphics.Rendering.Chart functions.  The other three produce their\n output directly.  All three accept the same input and produce the same plots.\n\u003c/p\u003e\u003cp\u003eThe plot functions accept a variable number of arguments.  You must\n provide a [Double] which defines the points on the x axis, which must\n precede any of the \u003ca\u003ey\u003c/a\u003e values.  The y values may either be [Double] or\n functions.  After any given y value, you can give either Strings or\n PlotKinds describing how you'd like that y printed.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e -- this plotters\n import Graphics.Rendering.Chart.Simple\n -- rendering instances from 'chart-cairo' package\n import Graphics.Rendering.Chart.Backend.Cairo\n\u003c/pre\u003e\u003cpre\u003e main = do\n     plotPDF \"foo.pdf\" [0 :: Double, 0.1..10] sin \"- \" cos \". \" cos \"o\"\n\u003c/pre\u003e\u003cpre\u003e     plotPS \"foo.ps\" [0 :: Double, 0.1..10] (sin . exp) \"- \" (sin . exp) \"o-\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "Simple",
           "package": "Chart-simple",
@@ -1341,6 +1412,7 @@
         "index": {
           "description": "An even simpler framework for creating charts in Haskell The basic idea is to make it as easy to plot as octave which means that you provide no more information than you wish to provide We provide four plotting functions which differ only in their output One produces Layout1 that you can customize using other Graphics.Rendering.Chart functions The other three produce their output directly All three accept the same input and produce the same plots The plot functions accept variable number of arguments You must provide Double which defines the points on the axis which must precede any of the values The values may either be Double or functions After any given value you can give either Strings or PlotKinds describing how you like that printed Examples this plotters import Graphics.Rendering.Chart.Simple rendering instances from chart-cairo package import Graphics.Rendering.Chart.Backend.Cairo main do plotPDF foo.pdf Double sin cos cos plotPS foo.ps Double sin exp sin exp",
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "Simple",
           "package": "Chart-simple",
@@ -1354,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "LayoutDDD",
           "package": "Chart-simple",
@@ -1362,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "LayoutDDD",
           "package": "Chart-simple",
@@ -1376,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType to define a few simple properties of each plot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "PlotKind",
           "package": "Chart-simple",
@@ -1385,6 +1460,7 @@
         "index": {
           "description": "Type to define few simple properties of each plot",
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "PlotKind",
           "package": "Chart-simple",
@@ -1398,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "PlotPDFType",
           "package": "Chart-simple",
@@ -1406,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "PlotPDFType",
           "package": "Chart-simple",
@@ -1419,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "PlotPNGType",
           "package": "Chart-simple",
@@ -1427,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "PlotPNGType",
           "package": "Chart-simple",
@@ -1440,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "PlotPSType",
           "package": "Chart-simple",
@@ -1448,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "PlotPSType",
           "package": "Chart-simple",
@@ -1461,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "pld",
           "package": "Chart-simple",
@@ -1470,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "pld",
           "normalized": "FilePath-\u003e[UPlot]-\u003ea",
@@ -1484,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "plotLayout",
           "package": "Chart-simple",
@@ -1493,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "plotLayout",
           "normalized": "LayoutDDD-\u003eLayout Double Double",
@@ -1508,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "plp",
           "package": "Chart-simple",
@@ -1517,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "plp",
           "normalized": "FilePath-\u003e[UPlot]-\u003ea",
@@ -1531,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:28 UTC 2014",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "pls",
           "package": "Chart-simple",
@@ -1540,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Simple",
+          "indexed": "2014-03-11T16:36:28",
           "module": "Graphics.Rendering.Chart.Simple",
           "name": "pls",
           "normalized": "FilePath-\u003e[UPlot]-\u003ea",

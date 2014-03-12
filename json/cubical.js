@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cubical"
+        "phrase": "cubical",
+        "type": "phrase"
       },
       "type": "context"
     }

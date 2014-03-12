@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nitro"
+        "phrase": "nitro",
+        "type": "phrase"
       },
       "type": "context"
     }

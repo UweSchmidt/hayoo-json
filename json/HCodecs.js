@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HCodecs"
+        "phrase": "HCodecs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReading, writing and maniplating of standard MIDI files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Midi",
           "package": "HCodecs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Reading writing and maniplating of standard MIDI files",
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Midi",
           "package": "HCodecs",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Bank",
           "package": "HCodecs",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Bank",
           "package": "HCodecs",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Channel",
           "package": "HCodecs",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Channel",
           "package": "HCodecs",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "FileType",
           "package": "HCodecs",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "FileType",
           "package": "HCodecs",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Key",
           "package": "HCodecs",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Key",
           "package": "HCodecs",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Message",
           "package": "HCodecs",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Message",
           "package": "HCodecs",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Midi",
           "package": "HCodecs",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Midi",
           "package": "HCodecs",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "PitchWheel",
           "package": "HCodecs",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "PitchWheel",
           "package": "HCodecs",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Preset",
           "package": "HCodecs",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Preset",
           "package": "HCodecs",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Pressure",
           "package": "HCodecs",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Pressure",
           "package": "HCodecs",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Tempo",
           "package": "HCodecs",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Tempo",
           "package": "HCodecs",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Ticks",
           "package": "HCodecs",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Ticks",
           "package": "HCodecs",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Time",
           "package": "HCodecs",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Time",
           "package": "HCodecs",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "TimeDiv",
           "package": "HCodecs",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "TimeDiv",
           "package": "HCodecs",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Track",
           "package": "HCodecs",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Track",
           "package": "HCodecs",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Velocity",
           "package": "HCodecs",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Velocity",
           "package": "HCodecs",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "ChannelPrefix",
           "package": "HCodecs",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "ChannelPrefix",
           "package": "HCodecs",
@@ -378,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "ChannelPressure",
           "package": "HCodecs",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "ChannelPressure",
           "package": "HCodecs",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "ControlChange",
           "package": "HCodecs",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "ControlChange",
           "package": "HCodecs",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Copyright",
           "package": "HCodecs",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Copyright",
           "package": "HCodecs",
@@ -444,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "CuePoint",
           "package": "HCodecs",
@@ -453,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "CuePoint",
           "package": "HCodecs",
@@ -466,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "DeviceName",
           "package": "HCodecs",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "DeviceName",
           "package": "HCodecs",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "InstrumentName",
           "package": "HCodecs",
@@ -497,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "InstrumentName",
           "package": "HCodecs",
@@ -510,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "KeyPressure",
           "package": "HCodecs",
@@ -519,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "KeyPressure",
           "package": "HCodecs",
@@ -532,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "KeySignature",
           "package": "HCodecs",
@@ -541,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "KeySignature",
           "package": "HCodecs",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Lyrics",
           "package": "HCodecs",
@@ -563,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Lyrics",
           "package": "HCodecs",
@@ -576,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Marker",
           "package": "HCodecs",
@@ -585,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Marker",
           "package": "HCodecs",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Midi",
           "package": "HCodecs",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Midi",
           "package": "HCodecs",
@@ -620,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "MultiPattern",
           "package": "HCodecs",
@@ -629,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "MultiPattern",
           "package": "HCodecs",
@@ -642,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "MultiTrack",
           "package": "HCodecs",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "MultiTrack",
           "package": "HCodecs",
@@ -664,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "NoteOff",
           "package": "HCodecs",
@@ -673,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "NoteOff",
           "package": "HCodecs",
@@ -686,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "NoteOn",
           "package": "HCodecs",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "NoteOn",
           "package": "HCodecs",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "PitchWheel",
           "package": "HCodecs",
@@ -717,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "PitchWheel",
           "package": "HCodecs",
@@ -730,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "ProgramChange",
           "package": "HCodecs",
@@ -739,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "ProgramChange",
           "package": "HCodecs",
@@ -752,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "ProgramName",
           "package": "HCodecs",
@@ -761,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "ProgramName",
           "package": "HCodecs",
@@ -774,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Reserved",
           "package": "HCodecs",
@@ -783,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Reserved",
           "package": "HCodecs",
@@ -796,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "SMPTEOffset",
           "package": "HCodecs",
@@ -805,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "SMPTEOffset",
           "package": "HCodecs",
@@ -818,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "SequenceNumber",
           "package": "HCodecs",
@@ -827,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "SequenceNumber",
           "package": "HCodecs",
@@ -840,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "SingleTrack",
           "package": "HCodecs",
@@ -849,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "SingleTrack",
           "package": "HCodecs",
@@ -862,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Sysex",
           "package": "HCodecs",
@@ -871,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Sysex",
           "package": "HCodecs",
@@ -884,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "TempoChange",
           "package": "HCodecs",
@@ -893,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "TempoChange",
           "package": "HCodecs",
@@ -906,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "Text",
           "package": "HCodecs",
@@ -915,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "Text",
           "package": "HCodecs",
@@ -928,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "TicksPerBeat",
           "package": "HCodecs",
@@ -937,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "TicksPerBeat",
           "package": "HCodecs",
@@ -950,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "TicksPerSecond",
           "package": "HCodecs",
@@ -959,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "TicksPerSecond",
           "package": "HCodecs",
@@ -972,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "TimeSignature",
           "package": "HCodecs",
@@ -981,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "TimeSignature",
           "package": "HCodecs",
@@ -994,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "TrackEnd",
           "package": "HCodecs",
@@ -1003,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "TrackEnd",
           "package": "HCodecs",
@@ -1016,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "TrackName",
           "package": "HCodecs",
@@ -1025,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "TrackName",
           "package": "HCodecs",
@@ -1038,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "buildMessage",
           "package": "HCodecs",
@@ -1047,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "buildMessage",
           "normalized": "Message-\u003eBuilder",
@@ -1062,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "buildMidi",
           "package": "HCodecs",
@@ -1071,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "buildMidi",
           "normalized": "Midi-\u003eBuilder",
@@ -1086,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "buildTrack",
           "package": "HCodecs",
@@ -1095,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "buildTrack",
           "normalized": "Track Ticks-\u003eBuilder",
@@ -1110,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "channel",
           "package": "HCodecs",
@@ -1119,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "channel",
           "package": "HCodecs",
@@ -1131,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "controllerNumber",
           "package": "HCodecs",
@@ -1140,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "controllerNumber",
           "package": "HCodecs",
@@ -1153,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "controllerValue",
           "package": "HCodecs",
@@ -1162,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "controllerValue",
           "package": "HCodecs",
@@ -1175,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "exportFile",
           "package": "HCodecs",
@@ -1184,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "exportFile",
           "normalized": "FilePath-\u003eMidi-\u003eIO()",
@@ -1199,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "fileType",
           "package": "HCodecs",
@@ -1208,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "fileType",
           "package": "HCodecs",
@@ -1221,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "fromAbsTime",
           "package": "HCodecs",
@@ -1230,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "fromAbsTime",
           "normalized": "Track a-\u003eTrack a",
@@ -1245,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "fromRealTime",
           "package": "HCodecs",
@@ -1254,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "fromRealTime",
           "normalized": "TimeDiv-\u003eTrack Time-\u003eTrack Ticks",
@@ -1269,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "importFile",
           "package": "HCodecs",
@@ -1278,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "importFile",
           "normalized": "FilePath-\u003eIO(Either String Midi)",
@@ -1293,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isChannelMessage",
           "package": "HCodecs",
@@ -1302,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isChannelMessage",
           "normalized": "Message-\u003eBool",
@@ -1317,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isChannelPressure",
           "package": "HCodecs",
@@ -1326,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isChannelPressure",
           "normalized": "Message-\u003eBool",
@@ -1341,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isControlChange",
           "package": "HCodecs",
@@ -1350,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isControlChange",
           "normalized": "Message-\u003eBool",
@@ -1365,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isKeyPressure",
           "package": "HCodecs",
@@ -1374,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isKeyPressure",
           "normalized": "Message-\u003eBool",
@@ -1389,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isMetaMessage",
           "package": "HCodecs",
@@ -1398,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isMetaMessage",
           "normalized": "Message-\u003eBool",
@@ -1413,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isNoteOff",
           "package": "HCodecs",
@@ -1422,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isNoteOff",
           "normalized": "Message-\u003eBool",
@@ -1437,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isNoteOn",
           "package": "HCodecs",
@@ -1446,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isNoteOn",
           "normalized": "Message-\u003eBool",
@@ -1461,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isPitchWheel",
           "package": "HCodecs",
@@ -1470,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isPitchWheel",
           "normalized": "Message-\u003eBool",
@@ -1485,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isProgramChange",
           "package": "HCodecs",
@@ -1494,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isProgramChange",
           "normalized": "Message-\u003eBool",
@@ -1509,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isSysexMessage",
           "package": "HCodecs",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isSysexMessage",
           "normalized": "Message-\u003eBool",
@@ -1533,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "isTrackEnd",
           "package": "HCodecs",
@@ -1542,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "isTrackEnd",
           "normalized": "Message-\u003eBool",
@@ -1557,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "key",
           "package": "HCodecs",
@@ -1566,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "key",
           "package": "HCodecs",
@@ -1578,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "merge",
           "package": "HCodecs",
@@ -1587,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "merge",
           "normalized": "Track a-\u003eTrack a-\u003eTrack a",
@@ -1601,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "parseMessage",
           "package": "HCodecs",
@@ -1610,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "parseMessage",
           "normalized": "Maybe Message-\u003eParser Message",
@@ -1625,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "parseMidi",
           "package": "HCodecs",
@@ -1634,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "parseMidi",
           "package": "HCodecs",
@@ -1647,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "parseTrack",
           "package": "HCodecs",
@@ -1656,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "parseTrack",
           "package": "HCodecs",
@@ -1669,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "pitchWheel",
           "package": "HCodecs",
@@ -1678,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "pitchWheel",
           "package": "HCodecs",
@@ -1691,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "preset",
           "package": "HCodecs",
@@ -1700,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "preset",
           "package": "HCodecs",
@@ -1712,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "pressure",
           "package": "HCodecs",
@@ -1721,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "pressure",
           "package": "HCodecs",
@@ -1733,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "removeTrackEnds",
           "package": "HCodecs",
@@ -1742,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "removeTrackEnds",
           "normalized": "Track a-\u003eTrack a",
@@ -1757,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "timeDiv",
           "package": "HCodecs",
@@ -1766,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "timeDiv",
           "package": "HCodecs",
@@ -1779,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "toAbsTime",
           "package": "HCodecs",
@@ -1788,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "toAbsTime",
           "normalized": "Track a-\u003eTrack a",
@@ -1803,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "toRealTime",
           "package": "HCodecs",
@@ -1812,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "toRealTime",
           "normalized": "TimeDiv-\u003eTrack Ticks-\u003eTrack Time",
@@ -1827,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "toSingleTrack",
           "package": "HCodecs",
@@ -1836,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "toSingleTrack",
           "normalized": "Midi-\u003eMidi",
@@ -1851,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "tracks",
           "package": "HCodecs",
@@ -1860,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "tracks",
           "normalized": "[Track Ticks]",
@@ -1874,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Midi",
           "name": "velocity",
           "package": "HCodecs",
@@ -1883,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Codec Midi",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Midi",
           "name": "velocity",
           "package": "HCodecs",
@@ -1896,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for reading and writting of SoundFont instrument description files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "SoundFont",
           "package": "HCodecs",
@@ -1905,6 +2074,7 @@
         "index": {
           "description": "Module for reading and writting of SoundFont instrument description files",
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "SoundFont",
           "package": "HCodecs",
@@ -1918,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Bag",
           "package": "HCodecs",
@@ -1926,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Bag",
           "package": "HCodecs",
@@ -1939,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Generator",
           "package": "HCodecs",
@@ -1947,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Generator",
           "package": "HCodecs",
@@ -1960,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Info",
           "package": "HCodecs",
@@ -1968,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Info",
           "package": "HCodecs",
@@ -1981,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Inst",
           "package": "HCodecs",
@@ -1989,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Inst",
           "package": "HCodecs",
@@ -2002,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Mod",
           "package": "HCodecs",
@@ -2010,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Mod",
           "package": "HCodecs",
@@ -2023,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Pdta",
           "package": "HCodecs",
@@ -2031,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Pdta",
           "package": "HCodecs",
@@ -2044,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Phdr",
           "package": "HCodecs",
@@ -2052,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Phdr",
           "package": "HCodecs",
@@ -2065,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Sdta",
           "package": "HCodecs",
@@ -2073,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Sdta",
           "package": "HCodecs",
@@ -2086,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Shdr",
           "package": "HCodecs",
@@ -2094,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Shdr",
           "package": "HCodecs",
@@ -2107,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "SoundFont",
           "package": "HCodecs",
@@ -2115,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "SoundFont",
           "package": "HCodecs",
@@ -2128,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "AttackModEnv",
           "package": "HCodecs",
@@ -2137,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "AttackModEnv",
           "package": "HCodecs",
@@ -2150,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "AttackVolEnv",
           "package": "HCodecs",
@@ -2159,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "AttackVolEnv",
           "package": "HCodecs",
@@ -2172,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Authors",
           "package": "HCodecs",
@@ -2181,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Authors",
           "package": "HCodecs",
@@ -2194,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Bag",
           "package": "HCodecs",
@@ -2203,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Bag",
           "package": "HCodecs",
@@ -2216,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "BankName",
           "package": "HCodecs",
@@ -2225,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "BankName",
           "package": "HCodecs",
@@ -2238,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Chorus",
           "package": "HCodecs",
@@ -2247,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Chorus",
           "package": "HCodecs",
@@ -2260,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "CoarseTune",
           "package": "HCodecs",
@@ -2269,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "CoarseTune",
           "package": "HCodecs",
@@ -2282,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Comments",
           "package": "HCodecs",
@@ -2291,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Comments",
           "package": "HCodecs",
@@ -2304,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "CopyrightMessage",
           "package": "HCodecs",
@@ -2313,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "CopyrightMessage",
           "package": "HCodecs",
@@ -2326,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "CreationDate",
           "package": "HCodecs",
@@ -2335,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "CreationDate",
           "package": "HCodecs",
@@ -2348,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "DecayModEnv",
           "package": "HCodecs",
@@ -2357,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "DecayModEnv",
           "package": "HCodecs",
@@ -2370,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "DecayVolEnv",
           "package": "HCodecs",
@@ -2379,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "DecayVolEnv",
           "package": "HCodecs",
@@ -2392,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "DelayModEnv",
           "package": "HCodecs",
@@ -2401,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "DelayModEnv",
           "package": "HCodecs",
@@ -2414,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "DelayModLfo",
           "package": "HCodecs",
@@ -2423,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "DelayModLfo",
           "package": "HCodecs",
@@ -2436,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "DelayVibLfo",
           "package": "HCodecs",
@@ -2445,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "DelayVibLfo",
           "package": "HCodecs",
@@ -2458,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "DelayVolEnv",
           "package": "HCodecs",
@@ -2467,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "DelayVolEnv",
           "package": "HCodecs",
@@ -2480,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "EndAddressCoarseOffset",
           "package": "HCodecs",
@@ -2489,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "EndAddressCoarseOffset",
           "package": "HCodecs",
@@ -2502,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "EndAddressOffset",
           "package": "HCodecs",
@@ -2511,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "EndAddressOffset",
           "package": "HCodecs",
@@ -2524,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ExclusiveClass",
           "package": "HCodecs",
@@ -2533,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ExclusiveClass",
           "package": "HCodecs",
@@ -2546,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "FineTune",
           "package": "HCodecs",
@@ -2555,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "FineTune",
           "package": "HCodecs",
@@ -2568,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "FreqModLfo",
           "package": "HCodecs",
@@ -2577,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "FreqModLfo",
           "package": "HCodecs",
@@ -2590,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "FreqVibLfo",
           "package": "HCodecs",
@@ -2599,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "FreqVibLfo",
           "package": "HCodecs",
@@ -2612,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "HoldModEnv",
           "package": "HCodecs",
@@ -2621,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "HoldModEnv",
           "package": "HCodecs",
@@ -2634,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "HoldVolEnv",
           "package": "HCodecs",
@@ -2643,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "HoldVolEnv",
           "package": "HCodecs",
@@ -2656,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "InitAtten",
           "package": "HCodecs",
@@ -2665,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "InitAtten",
           "package": "HCodecs",
@@ -2678,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "InitFc",
           "package": "HCodecs",
@@ -2687,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "InitFc",
           "package": "HCodecs",
@@ -2700,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "InitQ",
           "package": "HCodecs",
@@ -2709,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "InitQ",
           "package": "HCodecs",
@@ -2722,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Inst",
           "package": "HCodecs",
@@ -2731,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Inst",
           "package": "HCodecs",
@@ -2744,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "InstIndex",
           "package": "HCodecs",
@@ -2753,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "InstIndex",
           "package": "HCodecs",
@@ -2766,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "IntendedProduct",
           "package": "HCodecs",
@@ -2775,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "IntendedProduct",
           "package": "HCodecs",
@@ -2788,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Key",
           "package": "HCodecs",
@@ -2797,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Key",
           "package": "HCodecs",
@@ -2810,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "KeyRange",
           "package": "HCodecs",
@@ -2819,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "KeyRange",
           "package": "HCodecs",
@@ -2832,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "KeyToModEnvDecay",
           "package": "HCodecs",
@@ -2841,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "KeyToModEnvDecay",
           "package": "HCodecs",
@@ -2854,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "KeyToModEnvHold",
           "package": "HCodecs",
@@ -2863,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "KeyToModEnvHold",
           "package": "HCodecs",
@@ -2876,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "KeyToVolEnvDecay",
           "package": "HCodecs",
@@ -2885,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "KeyToVolEnvDecay",
           "package": "HCodecs",
@@ -2898,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "KeyToVolEnvHold",
           "package": "HCodecs",
@@ -2907,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "KeyToVolEnvHold",
           "package": "HCodecs",
@@ -2920,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "LoopEndAddressCoarseOffset",
           "package": "HCodecs",
@@ -2929,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "LoopEndAddressCoarseOffset",
           "package": "HCodecs",
@@ -2942,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "LoopEndAddressOffset",
           "package": "HCodecs",
@@ -2951,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "LoopEndAddressOffset",
           "package": "HCodecs",
@@ -2964,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "LoopStartAddressCoarseOffset",
           "package": "HCodecs",
@@ -2973,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "LoopStartAddressCoarseOffset",
           "package": "HCodecs",
@@ -2986,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "LoopStartAddressOffset",
           "package": "HCodecs",
@@ -2995,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "LoopStartAddressOffset",
           "package": "HCodecs",
@@ -3008,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Mod",
           "package": "HCodecs",
@@ -3017,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Mod",
           "package": "HCodecs",
@@ -3030,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ModEnvToFc",
           "package": "HCodecs",
@@ -3039,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ModEnvToFc",
           "package": "HCodecs",
@@ -3052,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ModEnvToPitch",
           "package": "HCodecs",
@@ -3061,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ModEnvToPitch",
           "package": "HCodecs",
@@ -3074,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ModLfoToFc",
           "package": "HCodecs",
@@ -3083,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ModLfoToFc",
           "package": "HCodecs",
@@ -3096,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ModLfoToPitch",
           "package": "HCodecs",
@@ -3105,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ModLfoToPitch",
           "package": "HCodecs",
@@ -3118,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ModLfoToVol",
           "package": "HCodecs",
@@ -3127,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ModLfoToVol",
           "package": "HCodecs",
@@ -3140,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Pan",
           "package": "HCodecs",
@@ -3149,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Pan",
           "package": "HCodecs",
@@ -3162,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Pdta",
           "package": "HCodecs",
@@ -3171,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Pdta",
           "package": "HCodecs",
@@ -3184,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Phdr",
           "package": "HCodecs",
@@ -3193,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Phdr",
           "package": "HCodecs",
@@ -3206,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ReleaseModEnv",
           "package": "HCodecs",
@@ -3215,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ReleaseModEnv",
           "package": "HCodecs",
@@ -3228,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ReleaseVolEnv",
           "package": "HCodecs",
@@ -3237,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ReleaseVolEnv",
           "package": "HCodecs",
@@ -3250,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ReservedGen",
           "package": "HCodecs",
@@ -3259,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ReservedGen",
           "package": "HCodecs",
@@ -3272,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ReservedInfo",
           "package": "HCodecs",
@@ -3281,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ReservedInfo",
           "package": "HCodecs",
@@ -3294,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Reverb",
           "package": "HCodecs",
@@ -3303,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Reverb",
           "package": "HCodecs",
@@ -3316,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "RomName",
           "package": "HCodecs",
@@ -3325,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "RomName",
           "package": "HCodecs",
@@ -3338,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "RomVersion",
           "package": "HCodecs",
@@ -3347,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "RomVersion",
           "package": "HCodecs",
@@ -3360,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "RootKey",
           "package": "HCodecs",
@@ -3369,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "RootKey",
           "package": "HCodecs",
@@ -3382,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "SampleIndex",
           "package": "HCodecs",
@@ -3391,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "SampleIndex",
           "package": "HCodecs",
@@ -3404,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "SampleMode",
           "package": "HCodecs",
@@ -3413,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "SampleMode",
           "package": "HCodecs",
@@ -3426,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ScaleTuning",
           "package": "HCodecs",
@@ -3435,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ScaleTuning",
           "package": "HCodecs",
@@ -3448,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Sdta",
           "package": "HCodecs",
@@ -3457,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Sdta",
           "package": "HCodecs",
@@ -3470,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Shdr",
           "package": "HCodecs",
@@ -3479,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Shdr",
           "package": "HCodecs",
@@ -3492,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "SoundFont",
           "package": "HCodecs",
@@ -3501,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "SoundFont",
           "package": "HCodecs",
@@ -3514,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "StartAddressCoarseOffset",
           "package": "HCodecs",
@@ -3523,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "StartAddressCoarseOffset",
           "package": "HCodecs",
@@ -3536,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "StartAddressOffset",
           "package": "HCodecs",
@@ -3545,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "StartAddressOffset",
           "package": "HCodecs",
@@ -3558,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "SustainModEnv",
           "package": "HCodecs",
@@ -3567,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "SustainModEnv",
           "package": "HCodecs",
@@ -3580,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "SustainVolEnv",
           "package": "HCodecs",
@@ -3589,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "SustainVolEnv",
           "package": "HCodecs",
@@ -3602,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "TargetSoundEngine",
           "package": "HCodecs",
@@ -3611,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "TargetSoundEngine",
           "package": "HCodecs",
@@ -3624,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "UsedTools",
           "package": "HCodecs",
@@ -3633,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "UsedTools",
           "package": "HCodecs",
@@ -3646,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Vel",
           "package": "HCodecs",
@@ -3655,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Vel",
           "package": "HCodecs",
@@ -3668,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "VelRange",
           "package": "HCodecs",
@@ -3677,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "VelRange",
           "package": "HCodecs",
@@ -3690,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "Version",
           "package": "HCodecs",
@@ -3699,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "Version",
           "package": "HCodecs",
@@ -3712,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "VibLfoToPitch",
           "package": "HCodecs",
@@ -3721,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "VibLfoToPitch",
           "package": "HCodecs",
@@ -3734,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "amount",
           "package": "HCodecs",
@@ -3743,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "amount",
           "package": "HCodecs",
@@ -3755,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "amtSrcOper",
           "package": "HCodecs",
@@ -3764,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "amtSrcOper",
           "package": "HCodecs",
@@ -3777,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "bank",
           "package": "HCodecs",
@@ -3786,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "bank",
           "package": "HCodecs",
@@ -3798,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "buildInfos",
           "package": "HCodecs",
@@ -3807,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "buildInfos",
           "normalized": "Array Word Info-\u003eBuilder",
@@ -3822,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "buildPdta",
           "package": "HCodecs",
@@ -3831,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "buildPdta",
           "normalized": "Pdta-\u003eBuilder",
@@ -3846,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "buildSdta",
           "package": "HCodecs",
@@ -3855,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "buildSdta",
           "normalized": "Sdta-\u003eBuilder",
@@ -3870,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "buildSoundFont",
           "package": "HCodecs",
@@ -3879,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "buildSoundFont",
           "normalized": "SoundFont-\u003eBuilder",
@@ -3894,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "destOper",
           "package": "HCodecs",
@@ -3903,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "destOper",
           "package": "HCodecs",
@@ -3916,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "end",
           "package": "HCodecs",
@@ -3925,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "end",
           "package": "HCodecs",
@@ -3937,6 +4291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "endLoop",
           "package": "HCodecs",
@@ -3946,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "endLoop",
           "package": "HCodecs",
@@ -3959,6 +4315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "exportFile",
           "package": "HCodecs",
@@ -3968,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "exportFile",
           "normalized": "FilePath-\u003eSoundFont-\u003eIO()",
@@ -3983,6 +4341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "genNdx",
           "package": "HCodecs",
@@ -3992,6 +4351,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "genNdx",
           "package": "HCodecs",
@@ -4005,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "genre",
           "package": "HCodecs",
@@ -4014,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "genre",
           "package": "HCodecs",
@@ -4026,6 +4388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "ibags",
           "package": "HCodecs",
@@ -4035,6 +4398,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "ibags",
           "package": "HCodecs",
@@ -4047,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "igens",
           "package": "HCodecs",
@@ -4056,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "igens",
           "package": "HCodecs",
@@ -4068,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "imods",
           "package": "HCodecs",
@@ -4077,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "imods",
           "package": "HCodecs",
@@ -4089,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "importFile",
           "package": "HCodecs",
@@ -4098,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "importFile",
           "normalized": "FilePath-\u003eIO(Either String SoundFont)",
@@ -4113,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "infos",
           "package": "HCodecs",
@@ -4122,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "infos",
           "package": "HCodecs",
@@ -4134,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "instBagNdx",
           "package": "HCodecs",
@@ -4143,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "instBagNdx",
           "package": "HCodecs",
@@ -4156,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "instName",
           "package": "HCodecs",
@@ -4165,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "instName",
           "package": "HCodecs",
@@ -4178,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "insts",
           "package": "HCodecs",
@@ -4187,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "insts",
           "package": "HCodecs",
@@ -4199,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "isInstIndex",
           "package": "HCodecs",
@@ -4208,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "isInstIndex",
           "normalized": "Generator-\u003eBool",
@@ -4223,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "isSampleIndex",
           "package": "HCodecs",
@@ -4232,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "isSampleIndex",
           "normalized": "Generator-\u003eBool",
@@ -4247,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "library",
           "package": "HCodecs",
@@ -4256,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "library",
           "package": "HCodecs",
@@ -4268,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "modNdx",
           "package": "HCodecs",
@@ -4277,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "modNdx",
           "package": "HCodecs",
@@ -4290,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "morphology",
           "package": "HCodecs",
@@ -4299,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "morphology",
           "package": "HCodecs",
@@ -4311,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "originalPitch",
           "package": "HCodecs",
@@ -4320,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "originalPitch",
           "package": "HCodecs",
@@ -4333,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "parseInfos",
           "package": "HCodecs",
@@ -4342,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "parseInfos",
           "package": "HCodecs",
@@ -4355,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "parsePdta",
           "package": "HCodecs",
@@ -4364,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "parsePdta",
           "package": "HCodecs",
@@ -4377,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "parseSdta",
           "package": "HCodecs",
@@ -4386,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "parseSdta",
           "package": "HCodecs",
@@ -4399,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "parseSoundFont",
           "package": "HCodecs",
@@ -4408,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "parseSoundFont",
           "package": "HCodecs",
@@ -4421,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "pbags",
           "package": "HCodecs",
@@ -4430,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "pbags",
           "package": "HCodecs",
@@ -4442,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "pdta",
           "package": "HCodecs",
@@ -4451,6 +4852,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "pdta",
           "package": "HCodecs",
@@ -4463,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "pgens",
           "package": "HCodecs",
@@ -4472,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "pgens",
           "package": "HCodecs",
@@ -4484,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "phdrs",
           "package": "HCodecs",
@@ -4493,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "phdrs",
           "package": "HCodecs",
@@ -4505,6 +4911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "pitchCorrection",
           "package": "HCodecs",
@@ -4514,6 +4921,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "pitchCorrection",
           "package": "HCodecs",
@@ -4527,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "pmods",
           "package": "HCodecs",
@@ -4536,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "pmods",
           "package": "HCodecs",
@@ -4548,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "preset",
           "package": "HCodecs",
@@ -4557,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "preset",
           "package": "HCodecs",
@@ -4569,6 +4981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "presetBagNdx",
           "package": "HCodecs",
@@ -4578,6 +4991,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "presetBagNdx",
           "package": "HCodecs",
@@ -4591,6 +5005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "presetName",
           "package": "HCodecs",
@@ -4600,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "presetName",
           "package": "HCodecs",
@@ -4613,6 +5029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "sampleLink",
           "package": "HCodecs",
@@ -4622,6 +5039,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "sampleLink",
           "package": "HCodecs",
@@ -4635,6 +5053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "sampleName",
           "package": "HCodecs",
@@ -4644,6 +5063,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "sampleName",
           "package": "HCodecs",
@@ -4657,6 +5077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "sampleRate",
           "package": "HCodecs",
@@ -4666,6 +5087,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "sampleRate",
           "package": "HCodecs",
@@ -4679,6 +5101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "sampleType",
           "package": "HCodecs",
@@ -4688,6 +5111,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "sampleType",
           "package": "HCodecs",
@@ -4701,6 +5125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "sdta",
           "package": "HCodecs",
@@ -4710,6 +5135,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "sdta",
           "package": "HCodecs",
@@ -4722,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "shdrs",
           "package": "HCodecs",
@@ -4731,6 +5158,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "shdrs",
           "package": "HCodecs",
@@ -4743,6 +5171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "sm24",
           "package": "HCodecs",
@@ -4752,6 +5181,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "sm24",
           "package": "HCodecs",
@@ -4764,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "smpl",
           "package": "HCodecs",
@@ -4773,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "smpl",
           "package": "HCodecs",
@@ -4785,6 +5217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "srcOper",
           "package": "HCodecs",
@@ -4794,6 +5227,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "srcOper",
           "package": "HCodecs",
@@ -4807,6 +5241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "start",
           "package": "HCodecs",
@@ -4816,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "start",
           "package": "HCodecs",
@@ -4828,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "startLoop",
           "package": "HCodecs",
@@ -4837,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "startLoop",
           "package": "HCodecs",
@@ -4850,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.SoundFont",
           "name": "transOper",
           "package": "HCodecs",
@@ -4859,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Codec SoundFont",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.SoundFont",
           "name": "transOper",
           "package": "HCodecs",
@@ -4873,6 +5313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for reading and writting of WAVE (.wav) audio files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "Wav",
           "package": "HCodecs",
@@ -4882,6 +5323,7 @@
         "index": {
           "description": "Module for reading and writting of WAVE wav audio files",
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "Wav",
           "package": "HCodecs",
@@ -4895,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "AudibleInWav",
           "package": "HCodecs",
@@ -4903,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "AudibleInWav",
           "package": "HCodecs",
@@ -4916,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "bitsPerSample",
           "package": "HCodecs",
@@ -4925,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "bitsPerSample",
           "normalized": "a-\u003eInt",
@@ -4940,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "buildSample",
           "package": "HCodecs",
@@ -4949,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "buildSample",
           "normalized": "a-\u003eBuilder",
@@ -4964,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "buildWav",
           "package": "HCodecs",
@@ -4973,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "buildWav",
           "normalized": "Audio a-\u003eBuilder",
@@ -4988,6 +5438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "exportFile",
           "package": "HCodecs",
@@ -4997,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "exportFile",
           "normalized": "FilePath-\u003eAudio a-\u003eIO()",
@@ -5012,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "importFile",
           "package": "HCodecs",
@@ -5021,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "importFile",
           "normalized": "FilePath-\u003eIO(Either String(Audio a))",
@@ -5036,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "parseSample",
           "package": "HCodecs",
@@ -5045,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "parseSample",
           "package": "HCodecs",
@@ -5058,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Codec.Wav",
           "name": "parseWav",
           "package": "HCodecs",
@@ -5067,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Codec Wav",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Codec.Wav",
           "name": "parseWav",
           "package": "HCodecs",
@@ -5081,6 +5539,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral purpose data type for representing an audio data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "Audio",
           "package": "HCodecs",
@@ -5090,6 +5549,7 @@
         "index": {
           "description": "General purpose data type for representing an audio data",
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "Audio",
           "package": "HCodecs",
@@ -5103,6 +5563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "Audible",
           "package": "HCodecs",
@@ -5111,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "Audible",
           "package": "HCodecs",
@@ -5124,6 +5586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "Audio",
           "package": "HCodecs",
@@ -5132,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "Audio",
           "package": "HCodecs",
@@ -5145,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "Sample",
           "package": "HCodecs",
@@ -5153,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "Sample",
           "package": "HCodecs",
@@ -5166,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "SampleData",
           "package": "HCodecs",
@@ -5174,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "SampleData",
           "package": "HCodecs",
@@ -5187,6 +5655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "SampleMode",
           "package": "HCodecs",
@@ -5195,6 +5664,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "SampleMode",
           "package": "HCodecs",
@@ -5208,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "Audio",
           "package": "HCodecs",
@@ -5217,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "Audio",
           "package": "HCodecs",
@@ -5230,6 +5702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "ContLoop",
           "package": "HCodecs",
@@ -5239,6 +5712,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "ContLoop",
           "package": "HCodecs",
@@ -5252,6 +5726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "NoLoop",
           "package": "HCodecs",
@@ -5261,6 +5736,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "NoLoop",
           "package": "HCodecs",
@@ -5274,6 +5750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "PressLoop",
           "package": "HCodecs",
@@ -5283,6 +5760,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "PressLoop",
           "package": "HCodecs",
@@ -5296,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "buildSampleData",
           "package": "HCodecs",
@@ -5305,6 +5784,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "buildSampleData",
           "normalized": "(a-\u003eBuilder)-\u003eSampleData a-\u003eBuilder",
@@ -5320,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "channelNumber",
           "package": "HCodecs",
@@ -5329,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "channelNumber",
           "package": "HCodecs",
@@ -5342,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "convert",
           "package": "HCodecs",
@@ -5351,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "convert",
           "normalized": "SampleData a-\u003eSampleData b",
@@ -5365,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "fromSample",
           "package": "HCodecs",
@@ -5374,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "fromSample",
           "normalized": "Sample-\u003ea",
@@ -5389,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "parseSampleData",
           "package": "HCodecs",
@@ -5398,6 +5885,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "parseSampleData",
           "normalized": "Int-\u003eParser a-\u003eParser(SampleData a)",
@@ -5413,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "sampleData",
           "package": "HCodecs",
@@ -5422,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "sampleData",
           "package": "HCodecs",
@@ -5435,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "sampleNumber",
           "package": "HCodecs",
@@ -5444,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "sampleNumber",
           "normalized": "SampleData a-\u003eInt",
@@ -5459,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "sampleRate",
           "package": "HCodecs",
@@ -5468,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "sampleRate",
           "package": "HCodecs",
@@ -5481,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "sampleType",
           "package": "HCodecs",
@@ -5490,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "sampleType",
           "normalized": "SampleData a-\u003ea",
@@ -5505,6 +6001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.Audio",
           "name": "toSample",
           "package": "HCodecs",
@@ -5514,6 +6011,7 @@
         },
         "index": {
           "hierarchy": "Data Audio",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.Audio",
           "name": "toSample",
           "normalized": "a-\u003eSample",
@@ -5530,6 +6028,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient construction of lazy bytestrings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "Builder",
           "package": "HCodecs",
@@ -5539,6 +6038,7 @@
         "index": {
           "description": "Efficient construction of lazy bytestrings",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "Builder",
           "package": "HCodecs",
@@ -5553,6 +6053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e is an efficient way to build lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n There are several functions for constructing \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es, but only one\n to inspect them: to extract any data, you have to turn them into lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es using \u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInternally, a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e constructs a lazy \u003ccode\u003e\u003ca\u003eBytestring\u003c/a\u003e\u003c/code\u003e by filling byte\n arrays piece by piece.  As each buffer is filled, it is 'popped'\n off, to become a new chunk of the resulting lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n All this is hidden from the user of the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "Builder",
           "package": "HCodecs",
@@ -5562,6 +6063,7 @@
         "index": {
           "description": "Builder is an efficient way to build lazy ByteString There are several functions for constructing Builder but only one to inspect them to extract any data you have to turn them into lazy ByteString using toLazyByteString Internally Builder constructs lazy Bytestring by filling byte arrays piece by piece As each buffer is filled it is popped off to become new chunk of the resulting lazy ByteString All this is hidden from the user of the Builder",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "Builder",
           "package": "HCodecs",
@@ -5576,6 +6078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The concatenation of two Builders, an associative operation\n with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, satisfying\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e x y) = \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e x) (\u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e y)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "append",
           "package": "HCodecs",
@@ -5586,6 +6089,7 @@
         "index": {
           "description": "The concatenation of two Builders an associative operation with identity empty satisfying toLazyByteString append append toLazyByteString toLazyByteString",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "append",
           "normalized": "Builder-\u003eBuilder-\u003eBuilder",
@@ -5601,6 +6105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The empty Builder, satisfying\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "empty",
           "package": "HCodecs",
@@ -5611,6 +6116,7 @@
         "index": {
           "description": "The empty Builder satisfying toLazyByteString empty empty",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "empty",
           "package": "HCodecs",
@@ -5624,6 +6130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Pop the \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e we have constructed so far, if any,\n yielding a new chunk in the result lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "flush",
           "package": "HCodecs",
@@ -5634,6 +6141,7 @@
         "index": {
           "description": "Pop the ByteString we have constructed so far if any yielding new chunk in the result lazy ByteString",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "flush",
           "package": "HCodecs",
@@ -5647,6 +6155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e A Builder taking a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, satisfying\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efromByteString\u003c/a\u003e\u003c/code\u003e bs) = \u003ccode\u003e\u003ca\u003efromChunks\u003c/a\u003e\u003c/code\u003e [bs]\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "fromByteString",
           "package": "HCodecs",
@@ -5657,6 +6166,7 @@
         "index": {
           "description": "Builder taking ByteString satisfying toLazyByteString fromByteString bs fromChunks bs",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -5673,6 +6183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e A Builder taking a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, satisfying\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efromLazyByteString\u003c/a\u003e\u003c/code\u003e bs) = bs\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "fromLazyByteString",
           "package": "HCodecs",
@@ -5683,6 +6194,7 @@
         "index": {
           "description": "Builder taking lazy ByteString satisfying toLazyByteString fromLazyByteString bs bs",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "fromLazyByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -5698,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putInt16be",
           "package": "HCodecs",
@@ -5707,6 +6220,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putInt16be",
           "normalized": "Int-\u003eBuilder",
@@ -5722,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putInt16le",
           "package": "HCodecs",
@@ -5731,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putInt16le",
           "normalized": "Int-\u003eBuilder",
@@ -5746,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putInt32be",
           "package": "HCodecs",
@@ -5755,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putInt32be",
           "normalized": "Int-\u003eBuilder",
@@ -5770,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putInt32le",
           "package": "HCodecs",
@@ -5779,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putInt32le",
           "normalized": "Int-\u003eBuilder",
@@ -5794,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putInt64be",
           "package": "HCodecs",
@@ -5803,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putInt64be",
           "normalized": "Int-\u003eBuilder",
@@ -5818,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putInt64le",
           "package": "HCodecs",
@@ -5827,6 +6350,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putInt64le",
           "normalized": "Int-\u003eBuilder",
@@ -5842,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putInt8",
           "package": "HCodecs",
@@ -5851,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putInt8",
           "normalized": "Int-\u003eBuilder",
@@ -5866,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putString",
           "package": "HCodecs",
@@ -5875,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putString",
           "normalized": "String-\u003eBuilder",
@@ -5890,6 +6418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putVarLenBe",
           "package": "HCodecs",
@@ -5899,6 +6428,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putVarLenBe",
           "normalized": "Word-\u003eBuilder",
@@ -5914,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putVarLenLe",
           "package": "HCodecs",
@@ -5923,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putVarLenLe",
           "normalized": "Word-\u003eBuilder",
@@ -5939,6 +6471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word16 in big endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord16be",
           "package": "HCodecs",
@@ -5949,6 +6482,7 @@
         "index": {
           "description": "Write Word16 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord16be",
           "normalized": "Word-\u003eBuilder",
@@ -5965,6 +6499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word16 in native host order and host endianness.\n 2 bytes will be written, unaligned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord16host",
           "package": "HCodecs",
@@ -5975,6 +6510,7 @@
         "index": {
           "description": "Write Word16 in native host order and host endianness bytes will be written unaligned",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord16host",
           "normalized": "Word-\u003eBuilder",
@@ -5991,6 +6527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word16 in little endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord16le",
           "package": "HCodecs",
@@ -6001,6 +6538,7 @@
         "index": {
           "description": "Write Word16 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord16le",
           "normalized": "Word-\u003eBuilder",
@@ -6017,6 +6555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a 24 bit number in big endian format represented as Word32\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord24be",
           "package": "HCodecs",
@@ -6027,6 +6566,7 @@
         "index": {
           "description": "Write bit number in big endian format represented as Word32",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord24be",
           "normalized": "Word-\u003eBuilder",
@@ -6043,6 +6583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a 24 bit number in little endian format represented as Word32\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord24le",
           "package": "HCodecs",
@@ -6053,6 +6594,7 @@
         "index": {
           "description": "Write bit number in little endian format represented as Word32",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord24le",
           "normalized": "Word-\u003eBuilder",
@@ -6069,6 +6611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word32 in big endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord32be",
           "package": "HCodecs",
@@ -6079,6 +6622,7 @@
         "index": {
           "description": "Write Word32 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord32be",
           "normalized": "Word-\u003eBuilder",
@@ -6095,6 +6639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word32 in native host order and host endianness.\n 4 bytes will be written, unaligned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord32host",
           "package": "HCodecs",
@@ -6105,6 +6650,7 @@
         "index": {
           "description": "Write Word32 in native host order and host endianness bytes will be written unaligned",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord32host",
           "normalized": "Word-\u003eBuilder",
@@ -6121,6 +6667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word32 in little endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord32le",
           "package": "HCodecs",
@@ -6131,6 +6678,7 @@
         "index": {
           "description": "Write Word32 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord32le",
           "normalized": "Word-\u003eBuilder",
@@ -6147,6 +6695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word64 in big endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord64be",
           "package": "HCodecs",
@@ -6157,6 +6706,7 @@
         "index": {
           "description": "Write Word64 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord64be",
           "normalized": "Word-\u003eBuilder",
@@ -6173,6 +6723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word64 in native host order.\n On a 32 bit machine we write two host order Word32s, in big endian form.\n 8 bytes will be written, unaligned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord64host",
           "package": "HCodecs",
@@ -6183,6 +6734,7 @@
         "index": {
           "description": "Write Word64 in native host order On bit machine we write two host order Word32s in big endian form bytes will be written unaligned",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord64host",
           "normalized": "Word-\u003eBuilder",
@@ -6199,6 +6751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Word64 in little endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord64le",
           "package": "HCodecs",
@@ -6209,6 +6762,7 @@
         "index": {
           "description": "Write Word64 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord64le",
           "normalized": "Word-\u003eBuilder",
@@ -6224,6 +6778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWord8",
           "package": "HCodecs",
@@ -6233,6 +6788,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWord8",
           "normalized": "Word-\u003eBuilder",
@@ -6249,6 +6805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e A Builder taking a single native machine word. The word is\n written in host order, host endian form, for the machine you're on.\n On a 64 bit machine the Word is an 8 byte value, on a 32 bit machine,\n 4 bytes. Values written this way are not portable to\n different endian or word sized machines, without conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "putWordHost",
           "package": "HCodecs",
@@ -6259,6 +6816,7 @@
         "index": {
           "description": "Builder taking single native machine word The word is written in host order host endian form for the machine you re on On bit machine the Word is an byte value on bit machine bytes Values written this way are not portable to different endian or word sized machines without conversion",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "putWordHost",
           "normalized": "Word-\u003eBuilder",
@@ -6275,6 +6833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e A Builder taking a single byte, satisfying\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e b) = \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e b\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "singleton",
           "package": "HCodecs",
@@ -6285,6 +6844,7 @@
         "index": {
           "description": "Builder taking single byte satisfying toLazyByteString singleton singleton",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "singleton",
           "normalized": "Word-\u003eBuilder",
@@ -6300,6 +6860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e Extract a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n The construction work takes place if and when the relevant part of\n the lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e is demanded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "toLazyByteString",
           "package": "HCodecs",
@@ -6310,6 +6871,7 @@
         "index": {
           "description": "Extract lazy ByteString from Builder The construction work takes place if and when the relevant part of the lazy ByteString is demanded",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Builder",
           "name": "toLazyByteString",
           "normalized": "Builder-\u003eByteString",
@@ -6326,6 +6888,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad for efficiently building structures from\n encoded lazy ByteStrings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "Parser",
           "package": "HCodecs",
@@ -6335,6 +6898,7 @@
         "index": {
           "description": "monad for efficiently building structures from encoded lazy ByteStrings",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "Parser",
           "package": "HCodecs",
@@ -6349,6 +6913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Get monad is just a State monad carrying around the input ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "Parser",
           "package": "HCodecs",
@@ -6358,6 +6923,7 @@
         "index": {
           "description": "The Get monad is just State monad carrying around the input ByteString",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "Parser",
           "package": "HCodecs",
@@ -6372,6 +6938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the total number of bytes read to this point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "bytesRead",
           "package": "HCodecs",
@@ -6382,6 +6949,7 @@
         "index": {
           "description": "Get the total number of bytes read to this point",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "bytesRead",
           "package": "HCodecs",
@@ -6395,6 +6963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "choice",
           "package": "HCodecs",
@@ -6404,6 +6973,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "choice",
           "normalized": "[Parser a]-\u003eParser a",
@@ -6418,6 +6988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "expect",
           "package": "HCodecs",
@@ -6427,6 +6998,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "expect",
           "normalized": "(a-\u003eBool)-\u003eParser a-\u003eParser a",
@@ -6442,6 +7014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn efficient \u003ccode\u003eget\u003c/code\u003e method for strict ByteStrings. Fails if fewer\n than \u003ccode\u003en\u003c/code\u003e bytes are left in the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getByteString",
           "package": "HCodecs",
@@ -6452,6 +7025,7 @@
         "index": {
           "description": "An efficient get method for strict ByteStrings Fails if fewer than bytes are left in the input",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getByteString",
           "normalized": "Int-\u003eParser ByteString",
@@ -6468,6 +7042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull \u003ccode\u003en\u003c/code\u003e bytes from the input, as a strict ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getBytes",
           "package": "HCodecs",
@@ -6478,6 +7053,7 @@
         "index": {
           "description": "Pull bytes from the input as strict ByteString",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getBytes",
           "normalized": "Int-\u003eParser ByteString",
@@ -6493,6 +7069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getInt16be",
           "package": "HCodecs",
@@ -6502,6 +7079,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getInt16be",
           "package": "HCodecs",
@@ -6515,6 +7093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getInt16le",
           "package": "HCodecs",
@@ -6524,6 +7103,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getInt16le",
           "package": "HCodecs",
@@ -6537,6 +7117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getInt32be",
           "package": "HCodecs",
@@ -6546,6 +7127,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getInt32be",
           "package": "HCodecs",
@@ -6559,6 +7141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getInt32le",
           "package": "HCodecs",
@@ -6568,6 +7151,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getInt32le",
           "package": "HCodecs",
@@ -6581,6 +7165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getInt64be",
           "package": "HCodecs",
@@ -6590,6 +7175,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getInt64be",
           "package": "HCodecs",
@@ -6603,6 +7189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getInt64le",
           "package": "HCodecs",
@@ -6612,6 +7199,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getInt64le",
           "package": "HCodecs",
@@ -6625,6 +7213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getInt8",
           "package": "HCodecs",
@@ -6634,6 +7223,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getInt8",
           "package": "HCodecs",
@@ -6648,6 +7238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn efficient \u003ccode\u003eget\u003c/code\u003e method for lazy ByteStrings. Does not fail if fewer than\n \u003ccode\u003en\u003c/code\u003e bytes are left in the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getLazyByteString",
           "package": "HCodecs",
@@ -6658,6 +7249,7 @@
         "index": {
           "description": "An efficient get method for lazy ByteStrings Does not fail if fewer than bytes are left in the input",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getLazyByteString",
           "normalized": "Int-\u003eParser ByteString",
@@ -6674,6 +7266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a lazy ByteString that is terminated with a NUL byte. Fails\n if it reaches the end of input without hitting a NUL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getLazyByteStringNul",
           "package": "HCodecs",
@@ -6684,6 +7277,7 @@
         "index": {
           "description": "Get lazy ByteString that is terminated with NUL byte Fails if it reaches the end of input without hitting NUL",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getLazyByteStringNul",
           "package": "HCodecs",
@@ -6698,6 +7292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the remaining bytes as a lazy ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getRemainingLazyByteString",
           "package": "HCodecs",
@@ -6708,6 +7303,7 @@
         "index": {
           "description": "Get the remaining bytes as lazy ByteString",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getRemainingLazyByteString",
           "package": "HCodecs",
@@ -6721,6 +7317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getString",
           "package": "HCodecs",
@@ -6730,6 +7327,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getString",
           "normalized": "Int-\u003eParser String",
@@ -6745,6 +7343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getStringNul",
           "package": "HCodecs",
@@ -6754,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getStringNul",
           "package": "HCodecs",
@@ -6767,6 +7367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getVarLenBe",
           "package": "HCodecs",
@@ -6776,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getVarLenBe",
           "package": "HCodecs",
@@ -6789,6 +7391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getVarLenLe",
           "package": "HCodecs",
@@ -6798,6 +7401,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getVarLenLe",
           "package": "HCodecs",
@@ -6812,6 +7416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Word16 in big endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord16be",
           "package": "HCodecs",
@@ -6822,6 +7427,7 @@
         "index": {
           "description": "Read Word16 in big endian format",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord16be",
           "package": "HCodecs",
@@ -6836,6 +7442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Read a 2 byte Word16 in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord16host",
           "package": "HCodecs",
@@ -6846,6 +7453,7 @@
         "index": {
           "description": "Read byte Word16 in native host order and host endianness",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord16host",
           "package": "HCodecs",
@@ -6860,6 +7468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Word16 in little endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord16le",
           "package": "HCodecs",
@@ -6870,6 +7479,7 @@
         "index": {
           "description": "Read Word16 in little endian format",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord16le",
           "package": "HCodecs",
@@ -6884,6 +7494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a 24 bit word into Word32 in big endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord24be",
           "package": "HCodecs",
@@ -6894,6 +7505,7 @@
         "index": {
           "description": "Read bit word into Word32 in big endian format",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord24be",
           "package": "HCodecs",
@@ -6907,6 +7519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord24le",
           "package": "HCodecs",
@@ -6916,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord24le",
           "package": "HCodecs",
@@ -6930,6 +7544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Word32 in big endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord32be",
           "package": "HCodecs",
@@ -6940,6 +7555,7 @@
         "index": {
           "description": "Read Word32 in big endian format",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord32be",
           "package": "HCodecs",
@@ -6954,6 +7570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Read a Word32 in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord32host",
           "package": "HCodecs",
@@ -6964,6 +7581,7 @@
         "index": {
           "description": "Read Word32 in native host order and host endianness",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord32host",
           "package": "HCodecs",
@@ -6978,6 +7596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Word32 in little endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord32le",
           "package": "HCodecs",
@@ -6988,6 +7607,7 @@
         "index": {
           "description": "Read Word32 in little endian format",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord32le",
           "package": "HCodecs",
@@ -7002,6 +7622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Word64 in big endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord64be",
           "package": "HCodecs",
@@ -7012,6 +7633,7 @@
         "index": {
           "description": "Read Word64 in big endian format",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord64be",
           "package": "HCodecs",
@@ -7026,6 +7648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Read a Word64 in native host order and host endianess.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord64host",
           "package": "HCodecs",
@@ -7036,6 +7659,7 @@
         "index": {
           "description": "Read Word64 in native host order and host endianess",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord64host",
           "package": "HCodecs",
@@ -7050,6 +7674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Word64 in little endian format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord64le",
           "package": "HCodecs",
@@ -7060,6 +7685,7 @@
         "index": {
           "description": "Read Word64 in little endian format",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord64le",
           "package": "HCodecs",
@@ -7074,6 +7700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Word8 from the monad state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWord8",
           "package": "HCodecs",
@@ -7084,6 +7711,7 @@
         "index": {
           "description": "Read Word8 from the monad state",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWord8",
           "package": "HCodecs",
@@ -7098,6 +7726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Read a single native machine word. The word is read in\n host order, host endian form, for the machine you're on. On a 64 bit\n machine the Word is an 8 byte value, on a 32 bit machine, 4 bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "getWordHost",
           "package": "HCodecs",
@@ -7108,6 +7737,7 @@
         "index": {
           "description": "Read single native machine word The word is read in host order host endian form for the machine you re on On bit machine the Word is an byte value on bit machine bytes",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "getWordHost",
           "package": "HCodecs",
@@ -7121,6 +7751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "int16be",
           "package": "HCodecs",
@@ -7130,6 +7761,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "int16be",
           "normalized": "Int-\u003eParser Int",
@@ -7144,6 +7776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "int16le",
           "package": "HCodecs",
@@ -7153,6 +7786,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "int16le",
           "normalized": "Int-\u003eParser Int",
@@ -7167,6 +7801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "int32be",
           "package": "HCodecs",
@@ -7176,6 +7811,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "int32be",
           "normalized": "Int-\u003eParser Int",
@@ -7190,6 +7826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "int32le",
           "package": "HCodecs",
@@ -7199,6 +7836,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "int32le",
           "normalized": "Int-\u003eParser Int",
@@ -7213,6 +7851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "int64be",
           "package": "HCodecs",
@@ -7222,6 +7861,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "int64be",
           "normalized": "Int-\u003eParser Int",
@@ -7236,6 +7876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "int64le",
           "package": "HCodecs",
@@ -7245,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "int64le",
           "normalized": "Int-\u003eParser Int",
@@ -7259,6 +7901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "int8",
           "package": "HCodecs",
@@ -7268,6 +7911,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "int8",
           "normalized": "Int-\u003eParser Int",
@@ -7283,6 +7927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether all input has been consumed,\n i.e. there are no remaining unparsed bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "isEmpty",
           "package": "HCodecs",
@@ -7293,6 +7938,7 @@
         "index": {
           "description": "Test whether all input has been consumed i.e there are no remaining unparsed bytes",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "isEmpty",
           "package": "HCodecs",
@@ -7307,6 +7953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003ccode\u003ega\u003c/code\u003e, but return without consuming its input.\n Fails if \u003ccode\u003ega\u003c/code\u003e fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "lookAhead",
           "package": "HCodecs",
@@ -7317,6 +7964,7 @@
         "index": {
           "description": "Run ga but return without consuming its input Fails if ga fails",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "lookAhead",
           "normalized": "Parser a-\u003eParser a",
@@ -7333,6 +7981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elookAhead\u003c/a\u003e\u003c/code\u003e, but consume the input if \u003ccode\u003egea\u003c/code\u003e returns 'Right _'.\n Fails if \u003ccode\u003egea\u003c/code\u003e fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "lookAheadE",
           "package": "HCodecs",
@@ -7343,6 +7992,7 @@
         "index": {
           "description": "Like lookAhead but consume the input if gea returns Right Fails if gea fails",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "lookAheadE",
           "normalized": "Parser(Either a b)-\u003eParser(Either a b)",
@@ -7359,6 +8009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elookAhead\u003c/a\u003e\u003c/code\u003e, but consume the input if \u003ccode\u003egma\u003c/code\u003e returns 'Just _'.\n Fails if \u003ccode\u003egma\u003c/code\u003e fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "lookAheadM",
           "package": "HCodecs",
@@ -7369,6 +8020,7 @@
         "index": {
           "description": "Like lookAhead but consume the input if gma returns Just Fails if gma fails",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "lookAheadM",
           "normalized": "Parser(Maybe a)-\u003eParser(Maybe a)",
@@ -7385,6 +8037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of remaining unparsed bytes.\n Useful for checking whether all input has been consumed.\n Note that this forces the rest of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "remaining",
           "package": "HCodecs",
@@ -7395,6 +8048,7 @@
         "index": {
           "description": "Get the number of remaining unparsed bytes Useful for checking whether all input has been consumed Note that this forces the rest of the input",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "remaining",
           "package": "HCodecs",
@@ -7408,6 +8062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the Get monad applies a \u003ccode\u003eget\u003c/code\u003e-based parser on the input ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "runParser",
           "package": "HCodecs",
@@ -7418,6 +8073,7 @@
         "index": {
           "description": "Run the Get monad applies get based parser on the input ByteString",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "runParser",
           "normalized": "Parser a-\u003eByteString-\u003eEither String a",
@@ -7434,6 +8090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the Get monad applies a \u003ccode\u003eget\u003c/code\u003e-based parser on the input\n ByteString. Additional to the result of get it returns the number of\n consumed bytes and the rest of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "runParserState",
           "package": "HCodecs",
@@ -7444,6 +8101,7 @@
         "index": {
           "description": "Run the Get monad applies get based parser on the input ByteString Additional to the result of get it returns the number of consumed bytes and the rest of the input",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "runParserState",
           "normalized": "Parser a-\u003eByteString-\u003eInt-\u003eEither String(a,ByteString,Int)",
@@ -7459,6 +8117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "satisfy",
           "package": "HCodecs",
@@ -7468,6 +8127,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "satisfy",
           "normalized": "(Word-\u003eBool)-\u003eParser Word",
@@ -7483,6 +8143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip ahead \u003ccode\u003en\u003c/code\u003e bytes. Fails if fewer than \u003ccode\u003en\u003c/code\u003e bytes are available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "skip",
           "package": "HCodecs",
@@ -7493,6 +8154,7 @@
         "index": {
           "description": "Skip ahead bytes Fails if fewer than bytes are available",
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "skip",
           "normalized": "Word-\u003eParser()",
@@ -7507,6 +8169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "string",
           "package": "HCodecs",
@@ -7516,6 +8179,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "string",
           "normalized": "String-\u003eParser String",
@@ -7530,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "varLenBe",
           "package": "HCodecs",
@@ -7539,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "varLenBe",
           "normalized": "Word-\u003eParser Word",
@@ -7554,6 +8220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "varLenLe",
           "package": "HCodecs",
@@ -7563,6 +8230,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "varLenLe",
           "normalized": "Word-\u003eParser Word",
@@ -7578,6 +8246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word16be",
           "package": "HCodecs",
@@ -7587,6 +8256,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word16be",
           "normalized": "Word-\u003eParser Word",
@@ -7601,6 +8271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word16host",
           "package": "HCodecs",
@@ -7610,6 +8281,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word16host",
           "normalized": "Word-\u003eParser Word",
@@ -7624,6 +8296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word16le",
           "package": "HCodecs",
@@ -7633,6 +8306,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word16le",
           "normalized": "Word-\u003eParser Word",
@@ -7647,6 +8321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word24be",
           "package": "HCodecs",
@@ -7656,6 +8331,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word24be",
           "normalized": "Word-\u003eParser Word",
@@ -7670,6 +8346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word24le",
           "package": "HCodecs",
@@ -7679,6 +8356,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word24le",
           "normalized": "Word-\u003eParser Word",
@@ -7693,6 +8371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word32be",
           "package": "HCodecs",
@@ -7702,6 +8381,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word32be",
           "normalized": "Word-\u003eParser Word",
@@ -7716,6 +8396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word32host",
           "package": "HCodecs",
@@ -7725,6 +8406,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word32host",
           "normalized": "Word-\u003eParser Word",
@@ -7739,6 +8421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word32le",
           "package": "HCodecs",
@@ -7748,6 +8431,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word32le",
           "normalized": "Word-\u003eParser Word",
@@ -7762,6 +8446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word64be",
           "package": "HCodecs",
@@ -7771,6 +8456,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word64be",
           "normalized": "Word-\u003eParser Word",
@@ -7785,6 +8471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word64host",
           "package": "HCodecs",
@@ -7794,6 +8481,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word64host",
           "normalized": "Word-\u003eParser Word",
@@ -7808,6 +8496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word64le",
           "package": "HCodecs",
@@ -7817,6 +8506,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word64le",
           "normalized": "Word-\u003eParser Word",
@@ -7831,6 +8521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "word8",
           "package": "HCodecs",
@@ -7840,6 +8531,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "word8",
           "normalized": "Word-\u003eParser Word",
@@ -7854,6 +8546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:28 UTC 2014",
           "module": "Data.ByteString.Parser",
           "name": "wordHost",
           "package": "HCodecs",
@@ -7863,6 +8556,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Parser",
+          "indexed": "2014-03-11T16:44:28",
           "module": "Data.ByteString.Parser",
           "name": "wordHost",
           "normalized": "Word-\u003eParser Word",

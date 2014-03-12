@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "STMonadTrans"
+        "phrase": "STMonadTrans",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the implementation of the \u003ccode\u003e\u003ca\u003eSTT\u003c/a\u003e\u003c/code\u003e type for those\n   occasions where it's needed in order to implement new liftings through\n   operations in other monads.\n\u003c/p\u003e\u003cp\u003eWarning! This monad transformer should not be used with monads that\n   can contain multiple answers, like the list monad. The reason is that \n   the will be duplicated across the different answers and this cause\n   Bad Things to happen (such as loss of referential transparency). Safe \n   monads include the monads State, Reader, Writer, Maybe and \n   combinations of their corresponding monad transformers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "Internal",
           "package": "STMonadTrans",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the implementation of the STT type for those occasions where it needed in order to implement new liftings through operations in other monads Warning This monad transformer should not be used with monads that can contain multiple answers like the list monad The reason is that the will be duplicated across the different answers and this cause Bad Things to happen such as loss of referential transparency Safe monads include the monads State Reader Writer Maybe and combinations of their corresponding monad transformers",
           "hierarchy": "Control Monad ST Trans Internal",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "Internal",
           "package": "STMonadTrans",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSTT\u003c/a\u003e\u003c/code\u003e is the monad transformer providing polymorphic updateable references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "STT",
           "package": "STMonadTrans",
@@ -51,6 +54,7 @@
         "index": {
           "description": "STT is the monad transformer providing polymorphic updateable references",
           "hierarchy": "Control Monad ST Trans Internal",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "STT",
           "package": "STMonadTrans",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSTTRet\u003c/a\u003e\u003c/code\u003e is needed to encapsulate the unboxed state token that GHC passes\n   around. This type is essentially a pair, but an ordinary pair is not\n   not allowed to contain unboxed types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "STTRet",
           "package": "STMonadTrans",
@@ -74,6 +79,7 @@
         "index": {
           "description": "STTRet is needed to encapsulate the unboxed state token that GHC passes around This type is essentially pair but an ordinary pair is not not allowed to contain unboxed types",
           "hierarchy": "Control Monad ST Trans Internal",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "STTRet",
           "package": "STMonadTrans",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "STT",
           "package": "STMonadTrans",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Trans Internal",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "STT",
           "normalized": "STT(State # a-\u003eb(STTRet a c))",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "STTRet",
           "package": "STMonadTrans",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Trans Internal",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "STTRet",
           "package": "STMonadTrans",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "unSTT",
           "package": "STMonadTrans",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Trans Internal",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans.Internal",
           "name": "unSTT",
           "normalized": "STT a b c-\u003eState # a-\u003eb(STTRet a c)",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides a monad transformer version of the ST monad.\n\u003c/p\u003e\u003cp\u003eWarning! This monad transformer should not be used with monads that\n   can contain multiple answers, like the list monad. The reason is that \n   the will be duplicated across the different answers and this cause\n   Bad Things to happen (such as loss of referential transparency). Safe \n   monads include the monads State, Reader, Writer, Maybe and \n   combinations of their corresponding monad transformers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "Trans",
           "package": "STMonadTrans",
@@ -167,6 +180,7 @@
         "index": {
           "description": "This library provides monad transformer version of the ST monad Warning This monad transformer should not be used with monads that can contain multiple answers like the list monad The reason is that the will be duplicated across the different answers and this cause Bad Things to happen such as loss of referential transparency Safe monads include the monads State Reader Writer Maybe and combinations of their corresponding monad transformers",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "Trans",
           "package": "STMonadTrans",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "STArray",
           "package": "STMonadTrans",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Mutable arrays",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "STArray",
           "package": "STMonadTrans",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "STRef",
           "package": "STMonadTrans",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Mutable references",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "STRef",
           "package": "STMonadTrans",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSTT\u003c/a\u003e\u003c/code\u003e is the monad transformer providing polymorphic updateable references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "STT",
           "package": "STMonadTrans",
@@ -236,6 +255,7 @@
         "index": {
           "description": "STT is the monad transformer providing polymorphic updateable references",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "STT",
           "package": "STMonadTrans",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the lowest and highest indices of the array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "boundsSTArray",
           "package": "STMonadTrans",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Returns the lowest and highest indices of the array",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "boundsSTArray",
           "normalized": "STArray a b c-\u003e(b,b)",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a mutable array and turn it into an immutable array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "freezeSTArray",
           "package": "STMonadTrans",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Copy mutable array and turn it into an immutable array",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "freezeSTArray",
           "normalized": "STArray a b c-\u003eSTT a d(Array b c)",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new mutable array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "newSTArray",
           "package": "STMonadTrans",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Creates new mutable array",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "newSTArray",
           "normalized": "(a,a)-\u003eb-\u003eSTT c d(STArray c a b)",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "newSTRef",
           "package": "STMonadTrans",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Create new reference",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "newSTRef",
           "normalized": "a-\u003eSTT b c(STRef b a)",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of elements in the array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "numElementsSTArray",
           "package": "STMonadTrans",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Returns the number of elements in the array",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "numElementsSTArray",
           "normalized": "STArray a b c-\u003eInt",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves an element from the array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "readSTArray",
           "package": "STMonadTrans",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Retrieves an element from the array",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "readSTArray",
           "normalized": "STArray a b c-\u003eb-\u003eSTT a d c",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads the value of a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "readSTRef",
           "package": "STMonadTrans",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Reads the value of reference",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "readSTRef",
           "normalized": "STRef a b-\u003eSTT a c b",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a computation in the \u003ccode\u003e\u003ca\u003eSTT\u003c/a\u003e\u003c/code\u003e monad transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "runST",
           "package": "STMonadTrans",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Executes computation in the STT monad transformer",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "runST",
           "normalized": "(a b STT c d e)-\u003ed e",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA safe way to create and work with a mutable array before returning an\n immutable array for later perusal.  This function avoids copying\n the array before returning it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "runSTArray",
           "package": "STMonadTrans",
@@ -468,6 +505,7 @@
         "index": {
           "description": "safe way to create and work with mutable array before returning an immutable array for later perusal This function avoids copying the array before returning it",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "runSTArray",
           "normalized": "(a b STT c d(STArray c e f))-\u003ed(Array e f)",
@@ -484,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy an immutable array and turn it into a mutable array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "thawSTArray",
           "package": "STMonadTrans",
@@ -494,6 +533,7 @@
         "index": {
           "description": "Copy an immutable array and turn it into mutable array",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "thawSTArray",
           "normalized": "Array a b-\u003eSTT c d(STArray c a b)",
@@ -509,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "unsafeIORefToSTRef",
           "package": "STMonadTrans",
@@ -518,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "unsafeIORefToSTRef",
           "normalized": "IORef a-\u003eSTRef b a",
@@ -533,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "unsafeIOToSTT",
           "package": "STMonadTrans",
@@ -542,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "unsafeIOToSTT",
           "normalized": "IO a-\u003eSTT b c a",
@@ -557,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "unsafeSTRefToIORef",
           "package": "STMonadTrans",
@@ -566,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "unsafeSTRefToIORef",
           "normalized": "STRef a b-\u003eIORef b",
@@ -581,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "unsafeSTToIO",
           "package": "STMonadTrans",
@@ -590,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "unsafeSTToIO",
           "normalized": "STT a IO b-\u003eIO b",
@@ -606,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies an element in the array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "writeSTArray",
           "package": "STMonadTrans",
@@ -616,6 +665,7 @@
         "index": {
           "description": "Modifies an element in the array",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "writeSTArray",
           "normalized": "STArray a b c-\u003eb-\u003ec-\u003eSTT a d()",
@@ -632,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the value of a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:48 UTC 2014",
           "module": "Control.Monad.ST.Trans",
           "name": "writeSTRef",
           "package": "STMonadTrans",
@@ -642,6 +693,7 @@
         "index": {
           "description": "Modifies the value of reference",
           "hierarchy": "Control Monad ST Trans",
+          "indexed": "2014-03-11T16:59:48",
           "module": "Control.Monad.ST.Trans",
           "name": "writeSTRef",
           "normalized": "STRef a b-\u003eb-\u003eSTT a c()",

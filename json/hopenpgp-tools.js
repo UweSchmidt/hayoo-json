@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hopenpgp-tools"
+        "phrase": "hopenpgp-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

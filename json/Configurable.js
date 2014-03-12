@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Configurable"
+        "phrase": "Configurable",
+        "type": "phrase"
       },
       "type": "context"
     }

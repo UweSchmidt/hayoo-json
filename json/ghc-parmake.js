@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-parmake"
+        "phrase": "ghc-parmake",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "BuildPlan",
           "package": "ghc-parmake",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "BuildPlan",
           "package": "ghc-parmake",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA graph of all dependencies between targets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "BuildPlan",
           "package": "ghc-parmake",
@@ -49,6 +52,7 @@
         "index": {
           "description": "graph of all dependencies between targets",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "BuildPlan",
           "package": "ghc-parmake",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a BuildPlan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "Settings",
           "package": "ghc-parmake",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Settings for BuildPlan",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "Settings",
           "package": "ghc-parmake",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "Target",
           "package": "ghc-parmake",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "Target",
           "package": "ghc-parmake",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "TargetId",
           "package": "ghc-parmake",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "TargetId",
           "package": "ghc-parmake",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "Settings",
           "package": "ghc-parmake",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "Settings",
           "package": "ghc-parmake",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a Target, return all its dependencies (internal + external).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "allDepends",
           "package": "ghc-parmake",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Given Target return all its dependencies internal external",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "allDepends",
           "normalized": "Target-\u003e[TargetId]",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all targets that are currently building.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "building",
           "package": "ghc-parmake",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Return all targets that are currently building",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "building",
           "normalized": "BuildPlan-\u003e[Target]",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all targets that were built successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "completed",
           "package": "ghc-parmake",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Return all targets that were built successfully",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "completed",
           "normalized": "BuildPlan-\u003e[Target]",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "defaultSettings",
           "package": "ghc-parmake",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "defaultSettings",
           "package": "ghc-parmake",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre there any targets in the \u003ca\u003ecurrently building\u003c/a\u003e state?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "hasBuilding",
           "package": "ghc-parmake",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Are there any targets in the currently building state",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "hasBuilding",
           "normalized": "BuildPlan-\u003eBool",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "hisuf",
           "package": "ghc-parmake",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "hisuf",
           "package": "ghc-parmake",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark a target as successfully built.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "markCompleted",
           "package": "ghc-parmake",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Mark target as successfully built",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "markCompleted",
           "normalized": "BuildPlan-\u003eTarget-\u003eBuildPlan",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark all \u003ca\u003eready\u003c/a\u003e targets as \u003ca\u003ecurrently building\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "markReadyAsBuilding",
           "package": "ghc-parmake",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Mark all ready targets as currently building",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "markReadyAsBuilding",
           "normalized": "BuildPlan-\u003eBuildPlan",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new BuildPlan from a list of (target, dependency) pairs. This is\n mostly a copy of Distribution.Client.PackageIndex.dependencyGraph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "new",
           "package": "ghc-parmake",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Create new BuildPlan from list of target dependency pairs This is mostly copy of Distribution.Client.PackageIndex.dependencyGraph",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "new",
           "normalized": "Settings-\u003e[Dep]-\u003e[FilePath]-\u003eBuildPlan",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many targets are we building currently?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "numBuilding",
           "package": "ghc-parmake",
@@ -382,6 +413,7 @@
         "index": {
           "description": "How many targets are we building currently",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "numBuilding",
           "normalized": "BuildPlan-\u003eInt",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "numCompleted",
           "package": "ghc-parmake",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "numCompleted",
           "normalized": "BuildPlan-\u003eInt",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a Target, return the name of the object file produced from it that\n should be fed to the linker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "object",
           "package": "ghc-parmake",
@@ -432,6 +467,7 @@
         "index": {
           "description": "Given Target return the name of the object file produced from it that should be fed to the linker",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "object",
           "normalized": "Target-\u003eMaybe FilePath",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a BuildPlan, return the list of object files for all completed\n targets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "objects",
           "package": "ghc-parmake",
@@ -457,6 +494,7 @@
         "index": {
           "description": "Given BuildPlan return the list of object files for all completed targets",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "objects",
           "normalized": "BuildPlan-\u003e[FilePath]",
@@ -471,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "osuf",
           "package": "ghc-parmake",
@@ -480,6 +519,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "osuf",
           "package": "ghc-parmake",
@@ -493,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all targets that are ready to be built.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "ready",
           "package": "ghc-parmake",
@@ -503,6 +544,7 @@
         "index": {
           "description": "Get all targets that are ready to be built",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "ready",
           "normalized": "BuildPlan-\u003e[Target]",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal number of targets in the BuildPlan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "size",
           "package": "ghc-parmake",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Total number of targets in the BuildPlan",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "size",
           "normalized": "BuildPlan-\u003eInt",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a Target, return the name of the source file from which it can be\n produced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "source",
           "package": "ghc-parmake",
@@ -553,6 +598,7 @@
         "index": {
           "description": "Given Target return the name of the source file from which it can be produced",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "source",
           "normalized": "Target-\u003eFilePath",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget (e.g. \u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.BuildPlan",
           "name": "targetId",
           "package": "ghc-parmake",
@@ -578,6 +625,7 @@
         "index": {
           "description": "Target e.g",
           "hierarchy": "GHC ParMake BuildPlan",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.BuildPlan",
           "name": "targetId",
           "normalized": "Target-\u003eTargetId",
@@ -593,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Common",
           "name": "Common",
           "package": "ghc-parmake",
@@ -601,6 +650,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Common",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Common",
           "name": "Common",
           "package": "ghc-parmake",
@@ -614,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Common",
           "name": "andM",
           "package": "ghc-parmake",
@@ -623,6 +674,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Common",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Common",
           "name": "andM",
           "normalized": "[a Bool]-\u003ea Bool",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap f over l and then append rest to l. More efficient than doing `map f l\n ++ rest`.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Common",
           "name": "appendMap",
           "package": "ghc-parmake",
@@ -648,6 +701,7 @@
         "index": {
           "description": "Map over and then append rest to More efficient than doing map rest",
           "hierarchy": "GHC ParMake Common",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Common",
           "name": "appendMap",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]-\u003e[b]",
@@ -663,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Common",
           "name": "firstM",
           "package": "ghc-parmake",
@@ -672,6 +727,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Common",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Common",
           "name": "firstM",
           "normalized": "[a]-\u003e(a-\u003eb Bool)-\u003eb(Maybe a)",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Common",
           "name": "maybeRead",
           "package": "ghc-parmake",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Common",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Common",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe a",
@@ -710,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Common",
           "name": "pathToMaybe",
           "package": "ghc-parmake",
@@ -719,6 +778,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Common",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Common",
           "name": "pathToMaybe",
           "normalized": "FilePath-\u003eMaybe FilePath",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove consecutive duplicate elements from a list.\n Example: uniq [3,3,3] = [3].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Common",
           "name": "uniq",
           "package": "ghc-parmake",
@@ -745,6 +806,7 @@
         "index": {
           "description": "Remove consecutive duplicate elements from list Example uniq",
           "hierarchy": "GHC ParMake Common",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Common",
           "name": "uniq",
           "normalized": "[a]-\u003e[a]",
@@ -759,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "Engine",
           "package": "ghc-parmake",
@@ -767,6 +830,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "Engine",
           "package": "ghc-parmake",
@@ -780,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "ControlChan",
           "package": "ghc-parmake",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "ControlChan",
           "package": "ghc-parmake",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "ControlMessage",
           "package": "ghc-parmake",
@@ -809,6 +876,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "ControlMessage",
           "package": "ghc-parmake",
@@ -822,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "LogChan",
           "package": "ghc-parmake",
@@ -830,6 +899,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "LogChan",
           "package": "ghc-parmake",
@@ -843,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "LogTask",
           "package": "ghc-parmake",
@@ -851,6 +922,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "LogTask",
           "package": "ghc-parmake",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "WorkerChan",
           "package": "ghc-parmake",
@@ -872,6 +945,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "WorkerChan",
           "package": "ghc-parmake",
@@ -885,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "WorkerTask",
           "package": "ghc-parmake",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "WorkerTask",
           "package": "ghc-parmake",
@@ -906,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "BuildCompleted",
           "package": "ghc-parmake",
@@ -915,6 +992,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "BuildCompleted",
           "package": "ghc-parmake",
@@ -928,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "BuildFailed",
           "package": "ghc-parmake",
@@ -937,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "BuildFailed",
           "package": "ghc-parmake",
@@ -950,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "BuildModule",
           "package": "ghc-parmake",
@@ -959,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "BuildModule",
           "package": "ghc-parmake",
@@ -972,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "BuildProgram",
           "package": "ghc-parmake",
@@ -981,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "BuildProgram",
           "normalized": "BuildProgram FilePath[FilePath]",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "CompileFailed",
           "package": "ghc-parmake",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "CompileFailed",
           "package": "ghc-parmake",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "LogFlushStdOut",
           "package": "ghc-parmake",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "LogFlushStdOut",
           "package": "ghc-parmake",
@@ -1040,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "LogStr",
           "package": "ghc-parmake",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "LogStr",
           "package": "ghc-parmake",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "LogStrErr",
           "package": "ghc-parmake",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "LogStrErr",
           "package": "ghc-parmake",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "LogStrLn",
           "package": "ghc-parmake",
@@ -1093,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "LogStrLn",
           "package": "ghc-parmake",
@@ -1106,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "LogStrLnErr",
           "package": "ghc-parmake",
@@ -1115,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "LogStrLnErr",
           "package": "ghc-parmake",
@@ -1128,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "ModuleCompiled",
           "package": "ghc-parmake",
@@ -1137,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "ModuleCompiled",
           "package": "ghc-parmake",
@@ -1151,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a BuildPlan, perform the compilation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "compile",
           "package": "ghc-parmake",
@@ -1161,6 +1260,7 @@
         "index": {
           "description": "Given BuildPlan perform the compilation",
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "compile",
           "normalized": "Verbosity-\u003eBuildPlan-\u003eInt-\u003eFilePath-\u003e[String]-\u003e[FilePath]-\u003eMaybe FilePath-\u003eIO ExitCode",
@@ -1175,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "controlThread",
           "package": "ghc-parmake",
@@ -1184,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "controlThread",
           "normalized": "BuildPlan-\u003eMaybe FilePath-\u003eControlChan-\u003eWorkerChan-\u003eIO ExitCode",
@@ -1199,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "logThread",
           "package": "ghc-parmake",
@@ -1208,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "logThread",
           "normalized": "LogChan-\u003eIO()",
@@ -1223,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "logThreadOutputHooks",
           "package": "ghc-parmake",
@@ -1232,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "logThreadOutputHooks",
           "normalized": "String-\u003eLogChan-\u003eOutputHooks",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Engine",
           "name": "workerThread",
           "package": "ghc-parmake",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Engine",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Engine",
           "name": "workerThread",
           "normalized": "OutputHooks-\u003eVerbosity-\u003eString-\u003eFilePath-\u003e[String]-\u003e[FilePath]-\u003eWorkerChan-\u003eControlChan-\u003eIO()",
@@ -1271,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Parse",
           "name": "Parse",
           "package": "ghc-parmake",
@@ -1279,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Parse",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Parse",
           "name": "Parse",
           "package": "ghc-parmake",
@@ -1293,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list of (targets, dependencies) to a \u003ccode\u003e\u003ca\u003eDep\u003c/a\u003e\u003c/code\u003e list\n with no external dependencies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Parse",
           "name": "depsListToDeps",
           "package": "ghc-parmake",
@@ -1303,6 +1414,7 @@
         "index": {
           "description": "Converts list of targets dependencies to Dep list with no external dependencies",
           "hierarchy": "GHC ParMake Parse",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Parse",
           "name": "depsListToDeps",
           "normalized": "[(FilePath,FilePath)]-\u003e[Dep]",
@@ -1318,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Parse",
           "name": "getModuleDeps",
           "package": "ghc-parmake",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Parse",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Parse",
           "name": "getModuleDeps",
           "normalized": "Verbosity-\u003eFilePath-\u003e[String]-\u003e[FilePath]-\u003eIO[Dep]",
@@ -1342,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Types",
           "name": "Types",
           "package": "ghc-parmake",
@@ -1350,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Types",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Types",
           "name": "Types",
           "package": "ghc-parmake",
@@ -1364,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single dependency extracted from the 'ghc -M' output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Types",
           "name": "Dep",
           "package": "ghc-parmake",
@@ -1373,6 +1490,7 @@
         "index": {
           "description": "single dependency extracted from the ghc output",
           "hierarchy": "GHC ParMake Types",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Types",
           "name": "Dep",
           "package": "ghc-parmake",
@@ -1386,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Types",
           "name": "Dep",
           "package": "ghc-parmake",
@@ -1395,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Types",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Types",
           "name": "Dep",
           "package": "ghc-parmake",
@@ -1409,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal dependencies: dependencies given by\n 'ghc -M -include-pkg-deps' minus the internal\n ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Types",
           "name": "depExternal",
           "package": "ghc-parmake",
@@ -1419,6 +1540,7 @@
         "index": {
           "description": "External dependencies dependencies given by ghc include-pkg-deps minus the internal ones",
           "hierarchy": "GHC ParMake Types",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Types",
           "name": "depExternal",
           "normalized": "[FilePath]",
@@ -1435,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDependencies in our build.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Types",
           "name": "depInternal",
           "package": "ghc-parmake",
@@ -1445,6 +1568,7 @@
         "index": {
           "description": "Dependencies in our build",
           "hierarchy": "GHC ParMake Types",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Types",
           "name": "depInternal",
           "normalized": "[FilePath]",
@@ -1461,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe target file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Types",
           "name": "depTarget",
           "package": "ghc-parmake",
@@ -1471,6 +1596,7 @@
         "index": {
           "description": "The target file",
           "hierarchy": "GHC ParMake Types",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Types",
           "name": "depTarget",
           "package": "ghc-parmake",
@@ -1484,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "Util",
           "package": "ghc-parmake",
@@ -1492,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "Util",
           "package": "ghc-parmake",
@@ -1505,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "OutputHooks",
           "package": "ghc-parmake",
@@ -1513,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "OutputHooks",
           "package": "ghc-parmake",
@@ -1526,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "UpToDateStatus",
           "package": "ghc-parmake",
@@ -1534,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "UpToDateStatus",
           "package": "ghc-parmake",
@@ -1547,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "Verbosity",
           "package": "ghc-parmake",
@@ -1555,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "Verbosity",
           "package": "ghc-parmake",
@@ -1568,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "NewerDependency",
           "package": "ghc-parmake",
@@ -1577,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "NewerDependency",
           "package": "ghc-parmake",
@@ -1590,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "OutputHooks",
           "package": "ghc-parmake",
@@ -1599,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "OutputHooks",
           "package": "ghc-parmake",
@@ -1612,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "TargetDoesNotExist",
           "package": "ghc-parmake",
@@ -1621,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "TargetDoesNotExist",
           "package": "ghc-parmake",
@@ -1634,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "UpToDate",
           "package": "ghc-parmake",
@@ -1643,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "UpToDate",
           "package": "ghc-parmake",
@@ -1656,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "deafening",
           "package": "ghc-parmake",
@@ -1665,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "deafening",
           "package": "ghc-parmake",
@@ -1678,6 +1822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed internal debugging information\n\u003c/p\u003e\u003cp\u003eWe display these messages when the verbosity level is \u003ccode\u003e\u003ca\u003edeafening\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "debug",
           "package": "ghc-parmake",
@@ -1688,6 +1833,7 @@
         "index": {
           "description": "Detailed internal debugging information We display these messages when the verbosity level is deafening",
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "debug",
           "normalized": "OutputHooks-\u003eVerbosity-\u003eString-\u003eIO()",
@@ -1702,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "debug'",
           "package": "ghc-parmake",
@@ -1711,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "debug'",
           "normalized": "Verbosity-\u003eString-\u003eIO()",
@@ -1725,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "defaultOutputHooks",
           "package": "ghc-parmake",
@@ -1734,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "defaultOutputHooks",
           "package": "ghc-parmake",
@@ -1748,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFatal error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "fatal",
           "package": "ghc-parmake",
@@ -1758,6 +1909,7 @@
         "index": {
           "description": "Fatal error",
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "fatal",
           "normalized": "String-\u003ea",
@@ -1772,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "flushStdOutHook",
           "package": "ghc-parmake",
@@ -1781,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "flushStdOutHook",
           "normalized": "(IO())",
@@ -1797,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore detail on the operation of some action.\n\u003c/p\u003e\u003cp\u003eWe display these messages when the verbosity level is \u003ccode\u003e\u003ca\u003everbose\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "info",
           "package": "ghc-parmake",
@@ -1807,6 +1962,7 @@
         "index": {
           "description": "More detail on the operation of some action We display these messages when the verbosity level is verbose",
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "info",
           "normalized": "OutputHooks-\u003eVerbosity-\u003eString-\u003eIO()",
@@ -1821,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "info'",
           "package": "ghc-parmake",
@@ -1830,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "info'",
           "normalized": "Verbosity-\u003eString-\u003eIO()",
@@ -1844,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "intToVerbosity",
           "package": "ghc-parmake",
@@ -1853,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "intToVerbosity",
           "normalized": "Int-\u003eMaybe Verbosity",
@@ -1868,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "normal",
           "package": "ghc-parmake",
@@ -1877,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "normal",
           "package": "ghc-parmake",
@@ -1889,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "notice",
           "package": "ghc-parmake",
@@ -1898,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "notice",
           "normalized": "OutputHooks-\u003eVerbosity-\u003eString-\u003eIO()",
@@ -1912,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "notice'",
           "package": "ghc-parmake",
@@ -1921,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "notice'",
           "normalized": "Verbosity-\u003eString-\u003eIO()",
@@ -1936,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful status messages.\n\u003c/p\u003e\u003cp\u003eWe display these at the \u003ccode\u003e\u003ca\u003enormal\u003c/a\u003e\u003c/code\u003e verbosity level.\n\u003c/p\u003e\u003cp\u003eThis is for the ordinary helpful status messages that users see. Just\n enough information to know that things are working but not floods of detail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "noticeRaw",
           "package": "ghc-parmake",
@@ -1946,6 +2113,7 @@
         "index": {
           "description": "Useful status messages We display these at the normal verbosity level This is for the ordinary helpful status messages that users see Just enough information to know that things are working but not floods of detail",
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "noticeRaw",
           "normalized": "OutputHooks-\u003eVerbosity-\u003eString-\u003eIO()",
@@ -1961,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "putStrErrHook",
           "package": "ghc-parmake",
@@ -1970,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "putStrErrHook",
           "normalized": "(String-\u003eIO())",
@@ -1985,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "putStrHook",
           "package": "ghc-parmake",
@@ -1994,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "putStrHook",
           "normalized": "(String-\u003eIO())",
@@ -2009,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "putStrLnErrHook",
           "package": "ghc-parmake",
@@ -2018,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "putStrLnErrHook",
           "normalized": "(String-\u003eIO())",
@@ -2033,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "putStrLnHook",
           "package": "ghc-parmake",
@@ -2042,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "putStrLnHook",
           "normalized": "(String-\u003eIO())",
@@ -2058,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess creation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "runProcess",
           "package": "ghc-parmake",
@@ -2067,6 +2244,7 @@
         "index": {
           "description": "Process creation",
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "runProcess",
           "normalized": "OutputHooks-\u003eMaybe FilePath-\u003eFilePath-\u003e[String]-\u003eIO ExitCode",
@@ -2082,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "silent",
           "package": "ghc-parmake",
@@ -2091,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "silent",
           "package": "ghc-parmake",
@@ -2104,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this target up to date w.r.t. its dependencies?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "upToDateCheck",
           "package": "ghc-parmake",
@@ -2114,6 +2295,7 @@
         "index": {
           "description": "Is this target up to date w.r.t its dependencies",
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "upToDateCheck",
           "normalized": "FilePath-\u003e[FilePath]-\u003eIO UpToDateStatus",
@@ -2129,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "verbose",
           "package": "ghc-parmake",
@@ -2138,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "verbose",
           "package": "ghc-parmake",
@@ -2151,6 +2335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon fatal conditions that may be indicative of an error or problem.\n\u003c/p\u003e\u003cp\u003eWe display these at the \u003ccode\u003e\u003ca\u003enormal\u003c/a\u003e\u003c/code\u003e verbosity level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "warn",
           "package": "ghc-parmake",
@@ -2161,6 +2346,7 @@
         "index": {
           "description": "Non fatal conditions that may be indicative of an error or problem We display these at the normal verbosity level",
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "warn",
           "normalized": "OutputHooks-\u003eVerbosity-\u003eString-\u003eIO()",
@@ -2175,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:18 UTC 2014",
           "module": "GHC.ParMake.Util",
           "name": "warn'",
           "package": "ghc-parmake",
@@ -2184,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "GHC ParMake Util",
+          "indexed": "2014-03-11T18:16:18",
           "module": "GHC.ParMake.Util",
           "name": "warn'",
           "normalized": "Verbosity-\u003eString-\u003eIO()",

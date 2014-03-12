@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-cache"
+        "phrase": "hxt-cache",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Control.Concurrent.ResourceTable",
           "name": "ResourceTable",
           "package": "hxt-cache",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ResourceTable",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Control.Concurrent.ResourceTable",
           "name": "ResourceTable",
           "package": "hxt-cache",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Control.Concurrent.ResourceTable",
           "name": "ResourceLock",
           "package": "hxt-cache",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ResourceTable",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Control.Concurrent.ResourceTable",
           "name": "ResourceLock",
           "package": "hxt-cache",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Control.Concurrent.ResourceTable",
           "name": "ResourceTable",
           "package": "hxt-cache",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ResourceTable",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Control.Concurrent.ResourceTable",
           "name": "ResourceTable",
           "package": "hxt-cache",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Control.Concurrent.ResourceTable",
           "name": "newResourceTable",
           "package": "hxt-cache",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ResourceTable",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Control.Concurrent.ResourceTable",
           "name": "newResourceTable",
           "package": "hxt-cache",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Control.Concurrent.ResourceTable",
           "name": "releaseResource",
           "package": "hxt-cache",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ResourceTable",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Control.Concurrent.ResourceTable",
           "name": "releaseResource",
           "normalized": "ResourceTable a-\u003ea-\u003eIO()",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Control.Concurrent.ResourceTable",
           "name": "requestResource",
           "package": "hxt-cache",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ResourceTable",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Control.Concurrent.ResourceTable",
           "name": "requestResource",
           "normalized": "ResourceTable a-\u003ea-\u003eIO()",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCaching of XML document trees and other binary data\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "XmlCache",
           "package": "hxt-cache",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Caching of XML document trees and other binary data",
           "hierarchy": "Text XML HXT Arrow XmlCache",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "XmlCache",
           "package": "hxt-cache",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate arrow for checking if a document is in the cache.\n The arrow fails if document not there or is not longer valid, else the file name is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "isInCache",
           "package": "hxt-cache",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Predicate arrow for checking if document is in the cache The arrow fails if document not there or is not longer valid else the file name is returned",
           "hierarchy": "Text XML HXT Arrow XmlCache",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "isInCache",
           "package": "hxt-cache",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "lookupCache",
           "package": "hxt-cache",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Arrow XmlCache",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "lookupCache",
           "normalized": "String-\u003eIOStateArrow a b c",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "readCache",
           "package": "hxt-cache",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Arrow XmlCache",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "readCache",
           "normalized": "String-\u003eIOStateArrow a b c",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "sha1HashString",
           "package": "hxt-cache",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Arrow XmlCache",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "sha1HashString",
           "package": "hxt-cache",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the SHA1 hash is hexadecimal format for an arbitray serializable value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "sha1HashValue",
           "package": "hxt-cache",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Compute the SHA1 hash is hexadecimal format for an arbitray serializable value",
           "hierarchy": "Text XML HXT Arrow XmlCache",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "sha1HashValue",
           "package": "hxt-cache",
@@ -344,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "writeCache",
           "package": "hxt-cache",
@@ -353,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Arrow XmlCache",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Text.XML.HXT.Arrow.XmlCache",
           "name": "writeCache",
           "normalized": "String-\u003eIOStateArrow a b()",
@@ -369,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCaching of XML document trees and other binary data\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:13 UTC 2014",
           "module": "Text.XML.HXT.Cache",
           "name": "Cache",
           "package": "hxt-cache",
@@ -378,6 +405,7 @@
         "index": {
           "description": "Caching of XML document trees and other binary data",
           "hierarchy": "Text XML HXT Cache",
+          "indexed": "2014-03-11T18:54:13",
           "module": "Text.XML.HXT.Cache",
           "name": "Cache",
           "package": "hxt-cache",

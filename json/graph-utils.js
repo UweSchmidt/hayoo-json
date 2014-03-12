@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graph-utils"
+        "phrase": "graph-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.EasyGrapher",
           "name": "EasyGrapher",
           "package": "graph-utils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Graph EasyGrapher",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.EasyGrapher",
           "name": "EasyGrapher",
           "package": "graph-utils",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'EGGraph a' is a list of 'EGTerm a'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.EasyGrapher",
           "name": "EGGraph",
           "package": "graph-utils",
@@ -49,6 +52,7 @@
         "index": {
           "description": "EGGraph is list of EGTerm",
           "hierarchy": "Data Graph EasyGrapher",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.EasyGrapher",
           "name": "EGGraph",
           "package": "graph-utils",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eEGTerm\u003c/a\u003e\u003c/code\u003e is a vertex & an edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.EasyGrapher",
           "name": "EGTerm",
           "package": "graph-utils",
@@ -72,6 +77,7 @@
         "index": {
           "description": "EGTerm is vertex an edge",
           "hierarchy": "Data Graph EasyGrapher",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.EasyGrapher",
           "name": "EGTerm",
           "package": "graph-utils",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.EasyGrapher",
           "name": ":=\u003e",
           "package": "graph-utils",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Graph EasyGrapher",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.EasyGrapher",
           "name": ":=\u003e",
           "package": "graph-utils",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.EasyGrapher",
           "name": "EGVertex",
           "package": "graph-utils",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Graph EasyGrapher",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.EasyGrapher",
           "name": "EGVertex",
           "package": "graph-utils",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebuildGraph\u003c/a\u003e\u003c/code\u003e converts EGGraph \u003ccode\u003egr\u003c/code\u003e into the '(gr a ())'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.EasyGrapher",
           "name": "buildGraph",
           "package": "graph-utils",
@@ -139,6 +150,7 @@
         "index": {
           "description": "buildGraph converts EGGraph gr into the gr",
           "hierarchy": "Data Graph EasyGrapher",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.EasyGrapher",
           "name": "buildGraph",
           "normalized": "EGGraph a-\u003eb a()",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromGr\u003c/a\u003e\u003c/code\u003e converts 'gr :: (gr a ())' into 'EGGraph a'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.EasyGrapher",
           "name": "fromGr",
           "package": "graph-utils",
@@ -165,6 +178,7 @@
         "index": {
           "description": "fromGr converts gr gr into EGGraph",
           "hierarchy": "Data Graph EasyGrapher",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.EasyGrapher",
           "name": "fromGr",
           "normalized": "a b()-\u003eEGGraph b",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasi quoter for \u003ccode\u003e\u003ca\u003eEGGraph\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.EasyGrapher",
           "name": "gr",
           "package": "graph-utils",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Quasi quoter for EGGraph",
           "hierarchy": "Data Graph EasyGrapher",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.EasyGrapher",
           "name": "gr",
           "package": "graph-utils",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.PageRank",
           "name": "PageRank",
           "package": "graph-utils",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PageRank",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.PageRank",
           "name": "PageRank",
           "package": "graph-utils",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRankDic\u003c/a\u003e\u003c/code\u003e is the Map for holding PageRank data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.PageRank",
           "name": "RankDic",
           "package": "graph-utils",
@@ -234,6 +253,7 @@
         "index": {
           "description": "RankDic is the Map for holding PageRank data",
           "hierarchy": "Data Graph PageRank",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.PageRank",
           "name": "RankDic",
           "package": "graph-utils",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epageRanks\u003c/a\u003e\u003c/code\u003e calculate the PageRank for each node in the Graph \u003ccode\u003egr\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:28 UTC 2014",
           "module": "Data.Graph.PageRank",
           "name": "pageRanks",
           "package": "graph-utils",
@@ -258,6 +279,7 @@
         "index": {
           "description": "pageRanks calculate the PageRank for each node in the Graph gr",
           "hierarchy": "Data Graph PageRank",
+          "indexed": "2014-03-11T18:20:28",
           "module": "Data.Graph.PageRank",
           "name": "pageRanks",
           "normalized": "a b c-\u003eDouble-\u003eDouble-\u003eRankDic",

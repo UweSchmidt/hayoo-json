@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambdacube-core"
+        "phrase": "lambdacube-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "BiMap",
           "name": "BiMap",
           "package": "lambdacube-core",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BiMap",
+          "indexed": "2014-03-11T19:04:28",
           "module": "BiMap",
           "name": "BiMap",
           "package": "lambdacube-core",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "BiMap",
           "name": "BiMap",
           "package": "lambdacube-core",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "BiMap",
+          "indexed": "2014-03-11T19:04:28",
           "module": "BiMap",
           "name": "BiMap",
           "package": "lambdacube-core",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "BiMap",
           "name": "BiMap",
           "package": "lambdacube-core",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "BiMap",
+          "indexed": "2014-03-11T19:04:28",
           "module": "BiMap",
           "name": "BiMap",
           "package": "lambdacube-core",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "BiMap",
           "name": "empty",
           "package": "lambdacube-core",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "BiMap",
+          "indexed": "2014-03-11T19:04:28",
           "module": "BiMap",
           "name": "empty",
           "package": "lambdacube-core",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "BiMap",
           "name": "insert",
           "package": "lambdacube-core",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "BiMap",
+          "indexed": "2014-03-11T19:04:28",
           "module": "BiMap",
           "name": "insert",
           "normalized": "a-\u003eBiMap a-\u003e(Int,BiMap a)",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "BiMap",
           "name": "lookup_key",
           "package": "lambdacube-core",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "BiMap",
+          "indexed": "2014-03-11T19:04:28",
           "module": "BiMap",
           "name": "lookup_key",
           "normalized": "a-\u003eBiMap a-\u003eMaybe Int",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "BiMap",
           "name": "lookup_val",
           "package": "lambdacube-core",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "BiMap",
+          "indexed": "2014-03-11T19:04:28",
           "module": "BiMap",
           "name": "lookup_val",
           "normalized": "Int-\u003eBiMap a-\u003ea",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "BiMap",
           "name": "size",
           "package": "lambdacube-core",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "BiMap",
+          "indexed": "2014-03-11T19:04:28",
           "module": "BiMap",
           "name": "size",
           "normalized": "BiMap a-\u003eInt",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "LC_API",
           "package": "lambdacube-core",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "LC_API",
           "package": "lambdacube-core",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "Buffer",
           "package": "lambdacube-core",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "Buffer",
           "package": "lambdacube-core",
@@ -238,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "Int32",
           "package": "lambdacube-core",
@@ -246,6 +267,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "Int32",
           "package": "lambdacube-core",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "Object",
           "package": "lambdacube-core",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "Object",
           "package": "lambdacube-core",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "Renderer",
           "package": "lambdacube-core",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "Renderer",
           "package": "lambdacube-core",
@@ -302,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "Word32",
           "package": "lambdacube-core",
@@ -310,6 +337,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "Word32",
           "package": "lambdacube-core",
@@ -448,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "compileRenderer",
           "package": "lambdacube-core",
@@ -457,6 +486,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "compileRenderer",
           "normalized": "GPOutput SingleOutput-\u003eIO Renderer",
@@ -497,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "dispose",
           "package": "lambdacube-core",
@@ -506,6 +537,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "dispose",
           "normalized": "Renderer-\u003eIO()",
@@ -545,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "objectUniformSetter",
           "package": "lambdacube-core",
@@ -554,6 +587,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "objectUniformSetter",
           "normalized": "Object-\u003eTrie InputSetter",
@@ -594,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "render",
           "package": "lambdacube-core",
@@ -603,6 +638,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "render",
           "normalized": "Renderer-\u003eIO()",
@@ -617,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "setScreenSize",
           "package": "lambdacube-core",
@@ -626,6 +663,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "setScreenSize",
           "normalized": "Renderer-\u003eWord-\u003eWord-\u003eIO()",
@@ -641,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "slotStream",
           "package": "lambdacube-core",
@@ -650,6 +689,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "slotStream",
           "normalized": "Renderer-\u003eTrie(FetchPrimitive,Trie InputType)",
@@ -665,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "slotUniform",
           "package": "lambdacube-core",
@@ -674,6 +715,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "slotUniform",
           "normalized": "Renderer-\u003eTrie(Trie InputType)",
@@ -689,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformBool",
           "package": "lambdacube-core",
@@ -698,6 +741,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformBool",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun Bool",
@@ -713,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformFTexture2D",
           "package": "lambdacube-core",
@@ -722,6 +767,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformFTexture2D",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun TextureData",
@@ -737,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformFloat",
           "package": "lambdacube-core",
@@ -746,6 +793,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformFloat",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun Float",
@@ -761,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformInt",
           "package": "lambdacube-core",
@@ -770,6 +819,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformInt",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun Int",
@@ -785,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM22F",
           "package": "lambdacube-core",
@@ -794,6 +845,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM22F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -808,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM23F",
           "package": "lambdacube-core",
@@ -817,6 +870,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM23F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -831,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM24F",
           "package": "lambdacube-core",
@@ -840,6 +895,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM24F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -854,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM32F",
           "package": "lambdacube-core",
@@ -863,6 +920,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM32F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -877,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM33F",
           "package": "lambdacube-core",
@@ -886,6 +945,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM33F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -900,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM34F",
           "package": "lambdacube-core",
@@ -909,6 +970,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM34F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -923,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM42F",
           "package": "lambdacube-core",
@@ -932,6 +995,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM42F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -946,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM43F",
           "package": "lambdacube-core",
@@ -955,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM43F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -969,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformM44F",
           "package": "lambdacube-core",
@@ -978,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformM44F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun M F",
@@ -992,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformSetter",
           "package": "lambdacube-core",
@@ -1001,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformSetter",
           "normalized": "Renderer-\u003eTrie InputSetter",
@@ -1016,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV2B",
           "package": "lambdacube-core",
@@ -1025,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV2B",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V B",
@@ -1039,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV2F",
           "package": "lambdacube-core",
@@ -1048,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV2F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V F",
@@ -1062,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV2I",
           "package": "lambdacube-core",
@@ -1071,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV2I",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V I",
@@ -1085,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV2U",
           "package": "lambdacube-core",
@@ -1094,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV2U",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V U",
@@ -1108,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV3B",
           "package": "lambdacube-core",
@@ -1117,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV3B",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V B",
@@ -1131,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV3F",
           "package": "lambdacube-core",
@@ -1140,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV3F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V F",
@@ -1154,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV3I",
           "package": "lambdacube-core",
@@ -1163,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV3I",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V I",
@@ -1177,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV3U",
           "package": "lambdacube-core",
@@ -1186,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV3U",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V U",
@@ -1200,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV4B",
           "package": "lambdacube-core",
@@ -1209,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV4B",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V B",
@@ -1223,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV4F",
           "package": "lambdacube-core",
@@ -1232,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV4F",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V F",
@@ -1246,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV4I",
           "package": "lambdacube-core",
@@ -1255,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV4I",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V I",
@@ -1269,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformV4U",
           "package": "lambdacube-core",
@@ -1278,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformV4U",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun V U",
@@ -1292,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_API",
           "name": "uniformWord",
           "package": "lambdacube-core",
@@ -1301,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "LC_API",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_API",
           "name": "uniformWord",
           "normalized": "ByteString-\u003eTrie InputSetter-\u003eSetterFun Word",
@@ -1341,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "LC_B_GL",
           "package": "lambdacube-core",
@@ -1349,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "LC_B_GL",
           "package": "lambdacube-core",
@@ -1362,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "compileRenderer",
           "package": "lambdacube-core",
@@ -1371,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "compileRenderer",
           "normalized": "DAG-\u003eExp-\u003eIO Renderer",
@@ -1386,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "findFetch",
           "package": "lambdacube-core",
@@ -1395,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "findFetch",
           "normalized": "DAG-\u003eExp-\u003eMaybe Exp",
@@ -1410,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "mkPassSetup",
           "package": "lambdacube-core",
@@ -1419,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "mkPassSetup",
           "normalized": "IORef(Word,Word)-\u003eDAG-\u003eMap Exp GLuint-\u003e(Exp-\u003e[Exp])-\u003e(Bool,Int,Int)-\u003eExp-\u003eIO(IO(),IO())",
@@ -1434,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "mkRenderDescriptor",
           "package": "lambdacube-core",
@@ -1443,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "mkRenderDescriptor",
           "normalized": "DAG-\u003eRenderState-\u003eMap Exp String-\u003eMap Exp String-\u003eMap Exp GLuint-\u003eExp-\u003eIO RenderDescriptor",
@@ -1458,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "mkRenderState",
           "package": "lambdacube-core",
@@ -1467,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "mkRenderState",
           "package": "lambdacube-core",
@@ -1480,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "mkRenderTextures",
           "package": "lambdacube-core",
@@ -1489,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "mkRenderTextures",
           "normalized": "DAG-\u003e[Exp]-\u003eIO(Map Exp String,Map Exp String,Map Exp GLuint,IO(),Exp-\u003e[Exp])",
@@ -1504,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "mkSlotDescriptor",
           "package": "lambdacube-core",
@@ -1513,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "mkSlotDescriptor",
           "normalized": "Set Exp-\u003eIO SlotDescriptor",
@@ -1528,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "nubS",
           "package": "lambdacube-core",
@@ -1537,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "nubS",
           "normalized": "[a]-\u003e[a]",
@@ -1551,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "orderedFrameBuffersFromGP",
           "package": "lambdacube-core",
@@ -1560,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "orderedFrameBuffersFromGP",
           "normalized": "DAG-\u003eExp-\u003e[Exp]",
@@ -1575,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "printFBOStatus",
           "package": "lambdacube-core",
@@ -1584,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "printFBOStatus",
           "normalized": "IO()",
@@ -1599,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GL",
           "name": "printGLStatus",
           "package": "lambdacube-core",
@@ -1608,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GL",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GL",
           "name": "printGLStatus",
           "normalized": "IO()",
@@ -1623,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "LC_B_GLCompile",
           "package": "lambdacube-core",
@@ -1631,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "LC_B_GLCompile",
           "package": "lambdacube-core",
@@ -1644,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "ShaderSource",
           "package": "lambdacube-core",
@@ -1652,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "ShaderSource",
           "package": "lambdacube-core",
@@ -1665,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "FragmentShaderSrc",
           "package": "lambdacube-core",
@@ -1674,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "FragmentShaderSrc",
           "package": "lambdacube-core",
@@ -1687,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "GeometryShaderSrc",
           "package": "lambdacube-core",
@@ -1696,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "GeometryShaderSrc",
           "package": "lambdacube-core",
@@ -1709,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "VertexShaderSrc",
           "package": "lambdacube-core",
@@ -1718,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "VertexShaderSrc",
           "package": "lambdacube-core",
@@ -1731,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "compileClearFrameBuffer",
           "package": "lambdacube-core",
@@ -1740,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "compileClearFrameBuffer",
           "normalized": "Exp-\u003eIO()",
@@ -1755,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "compileRenderFrameBuffer",
           "package": "lambdacube-core",
@@ -1764,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "compileRenderFrameBuffer",
           "normalized": "DAG-\u003e[(Exp,String)]-\u003e[(Exp,String)]-\u003eIORef ObjectSet-\u003eExp-\u003eIO(IO(),IO(),Trie GLint,Trie GLuint,Int)",
@@ -1779,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "setupAccumulationContext",
           "package": "lambdacube-core",
@@ -1788,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "setupAccumulationContext",
           "normalized": "AccumulationContext-\u003eIO()",
@@ -1803,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLCompile",
           "name": "setupRasterContext",
           "package": "lambdacube-core",
@@ -1812,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLCompile",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLCompile",
           "name": "setupRasterContext",
           "normalized": "RasterContext-\u003eIO()",
@@ -1827,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLData",
           "name": "LC_B_GLData",
           "package": "lambdacube-core",
@@ -1835,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLData",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLData",
           "name": "LC_B_GLData",
           "package": "lambdacube-core",
@@ -1848,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLData",
           "name": "nullObject",
           "package": "lambdacube-core",
@@ -1857,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLData",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLData",
           "name": "nullObject",
           "package": "lambdacube-core",
@@ -1870,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLSLCodeGen",
           "name": "LC_B_GLSLCodeGen",
           "package": "lambdacube-core",
@@ -1878,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLSLCodeGen",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLSLCodeGen",
           "name": "LC_B_GLSLCodeGen",
           "package": "lambdacube-core",
@@ -1891,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLSLCodeGen",
           "name": "codeGenFragmentShader",
           "package": "lambdacube-core",
@@ -1900,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLSLCodeGen",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLSLCodeGen",
           "name": "codeGenFragmentShader",
           "normalized": "DAG-\u003eMap Exp String-\u003e[(ByteString,InterpolationQualifier,InputType)]-\u003eExp-\u003eExp-\u003e(ByteString,[(ByteString,InputType)],Int)",
@@ -1915,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLSLCodeGen",
           "name": "codeGenGeometryShader",
           "package": "lambdacube-core",
@@ -1924,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLSLCodeGen",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLSLCodeGen",
           "name": "codeGenGeometryShader",
           "normalized": "DAG-\u003eMap Exp String-\u003eFetchPrimitive-\u003e[(ByteString,InterpolationQualifier,InputType)]-\u003eExp-\u003e(ByteString,[(ByteString,InterpolationQualifier,InputType)])",
@@ -1939,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLSLCodeGen",
           "name": "codeGenType",
           "package": "lambdacube-core",
@@ -1948,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLSLCodeGen",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLSLCodeGen",
           "name": "codeGenType",
           "normalized": "Ty-\u003e[InputType]",
@@ -1963,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLSLCodeGen",
           "name": "codeGenVertexShader",
           "package": "lambdacube-core",
@@ -1972,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLSLCodeGen",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLSLCodeGen",
           "name": "codeGenVertexShader",
           "normalized": "DAG-\u003eMap Exp String-\u003e[(ByteString,InputType)]-\u003eExp-\u003e(ByteString,[(ByteString,InterpolationQualifier,InputType)])",
@@ -1987,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "LC_B_GLType",
           "package": "lambdacube-core",
@@ -1995,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "LC_B_GLType",
           "package": "lambdacube-core",
@@ -2008,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "ArrayDesc",
           "package": "lambdacube-core",
@@ -2016,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "ArrayDesc",
           "package": "lambdacube-core",
@@ -2029,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "Buffer",
           "package": "lambdacube-core",
@@ -2037,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "Buffer",
           "package": "lambdacube-core",
@@ -2050,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "Object",
           "package": "lambdacube-core",
@@ -2058,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "Object",
           "package": "lambdacube-core",
@@ -2071,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "ObjectSet",
           "package": "lambdacube-core",
@@ -2079,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "ObjectSet",
           "package": "lambdacube-core",
@@ -2092,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "RenderDescriptor",
           "package": "lambdacube-core",
@@ -2100,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "RenderDescriptor",
           "package": "lambdacube-core",
@@ -2113,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "RenderState",
           "package": "lambdacube-core",
@@ -2121,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "RenderState",
           "package": "lambdacube-core",
@@ -2134,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "Renderer",
           "package": "lambdacube-core",
@@ -2142,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "Renderer",
           "package": "lambdacube-core",
@@ -2155,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "SlotDescriptor",
           "package": "lambdacube-core",
@@ -2163,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "SlotDescriptor",
           "package": "lambdacube-core",
@@ -2176,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "StreamSetter",
           "package": "lambdacube-core",
@@ -2184,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "StreamSetter",
           "package": "lambdacube-core",
@@ -2243,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "Object",
           "package": "lambdacube-core",
@@ -2252,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "Object",
           "package": "lambdacube-core",
@@ -2265,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "ObjectSet",
           "package": "lambdacube-core",
@@ -2274,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "ObjectSet",
           "package": "lambdacube-core",
@@ -2287,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "RenderDescriptor",
           "package": "lambdacube-core",
@@ -2296,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "RenderDescriptor",
           "package": "lambdacube-core",
@@ -2309,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "RenderState",
           "package": "lambdacube-core",
@@ -2318,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "RenderState",
           "package": "lambdacube-core",
@@ -2331,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "Renderer",
           "package": "lambdacube-core",
@@ -2340,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "Renderer",
           "package": "lambdacube-core",
@@ -2353,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "SlotDescriptor",
           "package": "lambdacube-core",
@@ -2362,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "SlotDescriptor",
           "package": "lambdacube-core",
@@ -2467,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "attachedGP",
           "package": "lambdacube-core",
@@ -2476,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "attachedGP",
           "package": "lambdacube-core",
@@ -2535,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "dispose",
           "package": "lambdacube-core",
@@ -2544,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "dispose",
           "normalized": "IO()",
@@ -2558,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "disposeAction",
           "package": "lambdacube-core",
@@ -2567,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "disposeAction",
           "normalized": "IO()",
@@ -2582,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "drawObject",
           "package": "lambdacube-core",
@@ -2591,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "drawObject",
           "normalized": "IO()",
@@ -2606,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "drawObjectMap",
           "package": "lambdacube-core",
@@ -2615,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "drawObjectMap",
           "normalized": "Map Object(IO())",
@@ -2630,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "drawObjectsIORef",
           "package": "lambdacube-core",
@@ -2639,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "drawObjectsIORef",
           "package": "lambdacube-core",
@@ -2652,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "fragmentOutCount",
           "package": "lambdacube-core",
@@ -2661,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "fragmentOutCount",
           "package": "lambdacube-core",
@@ -2674,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "mkUniformSetup",
           "package": "lambdacube-core",
@@ -2683,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "mkUniformSetup",
           "normalized": "Trie(GLint-\u003eIO())",
@@ -2698,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "objectEnabledIORef",
           "package": "lambdacube-core",
@@ -2707,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "objectEnabledIORef",
           "package": "lambdacube-core",
@@ -2720,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "objectID",
           "package": "lambdacube-core",
@@ -2729,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "objectID",
           "package": "lambdacube-core",
@@ -2742,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "objectIDSeed",
           "package": "lambdacube-core",
@@ -2751,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "objectIDSeed",
           "package": "lambdacube-core",
@@ -2764,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "objectSet",
           "package": "lambdacube-core",
@@ -2773,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "objectSet",
           "package": "lambdacube-core",
@@ -2786,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "objectSlotName",
           "package": "lambdacube-core",
@@ -2795,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "objectSlotName",
           "package": "lambdacube-core",
@@ -2808,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "objectUniformSetter",
           "package": "lambdacube-core",
@@ -2817,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "objectUniformSetter",
           "package": "lambdacube-core",
@@ -2830,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "render",
           "package": "lambdacube-core",
@@ -2839,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "render",
           "normalized": "IO()",
@@ -2853,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "renderAction",
           "package": "lambdacube-core",
@@ -2862,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "renderAction",
           "normalized": "IO()",
@@ -2877,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "renderDescriptor",
           "package": "lambdacube-core",
@@ -2886,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "renderDescriptor",
           "package": "lambdacube-core",
@@ -2899,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "renderState",
           "package": "lambdacube-core",
@@ -2908,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "renderState",
           "package": "lambdacube-core",
@@ -2921,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "setScreenSize",
           "package": "lambdacube-core",
@@ -2930,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "setScreenSize",
           "normalized": "Word-\u003eWord-\u003eIO()",
@@ -2945,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "slotDescriptor",
           "package": "lambdacube-core",
@@ -2954,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "slotDescriptor",
           "package": "lambdacube-core",
@@ -2967,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "slotStream",
           "package": "lambdacube-core",
@@ -2976,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "slotStream",
           "normalized": "Trie(FetchPrimitive,Trie InputType)",
@@ -2991,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "slotUniform",
           "package": "lambdacube-core",
@@ -3000,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "slotUniform",
           "package": "lambdacube-core",
@@ -3013,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "streamLocation",
           "package": "lambdacube-core",
@@ -3022,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "streamLocation",
           "package": "lambdacube-core",
@@ -3035,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "textureUnitState",
           "package": "lambdacube-core",
@@ -3044,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "textureUnitState",
           "package": "lambdacube-core",
@@ -3057,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "uniformLocation",
           "package": "lambdacube-core",
@@ -3066,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "uniformLocation",
           "package": "lambdacube-core",
@@ -3079,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLType",
           "name": "uniformSetter",
           "package": "lambdacube-core",
@@ -3088,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLType",
           "name": "uniformSetter",
           "package": "lambdacube-core",
@@ -3101,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "LC_B_GLUtil",
           "package": "lambdacube-core",
@@ -3109,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "LC_B_GLUtil",
           "package": "lambdacube-core",
@@ -3122,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "ArrayDesc",
           "package": "lambdacube-core",
@@ -3130,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "ArrayDesc",
           "package": "lambdacube-core",
@@ -3143,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "Buffer",
           "package": "lambdacube-core",
@@ -3151,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "Buffer",
           "package": "lambdacube-core",
@@ -3164,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "StreamSetter",
           "package": "lambdacube-core",
@@ -3172,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "StreamSetter",
           "package": "lambdacube-core",
@@ -3185,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "arrayTypeToGLType",
           "package": "lambdacube-core",
@@ -3194,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "arrayTypeToGLType",
           "normalized": "ArrayType-\u003eGLenum",
@@ -3209,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "blendEquationToGLType",
           "package": "lambdacube-core",
@@ -3218,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "blendEquationToGLType",
           "normalized": "BlendEquation-\u003eGLenum",
@@ -3233,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "blendingFactorToGLType",
           "package": "lambdacube-core",
@@ -3242,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "blendingFactorToGLType",
           "normalized": "BlendingFactor-\u003eGLenum",
@@ -3257,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "checkFBO",
           "package": "lambdacube-core",
@@ -3266,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "checkFBO",
           "package": "lambdacube-core",
@@ -3279,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "checkGL",
           "package": "lambdacube-core",
@@ -3288,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "checkGL",
           "package": "lambdacube-core",
@@ -3301,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "comparisonFunctionToGLType",
           "package": "lambdacube-core",
@@ -3310,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "comparisonFunctionToGLType",
           "normalized": "ComparisonFunction-\u003eGLenum",
@@ -3325,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "compileShader",
           "package": "lambdacube-core",
@@ -3334,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "compileShader",
           "normalized": "GLuint-\u003e[ByteString]-\u003eIO()",
@@ -3349,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "createGLTextureObject",
           "package": "lambdacube-core",
@@ -3358,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "createGLTextureObject",
           "normalized": "DAG-\u003eExp-\u003eIO GLuint",
@@ -3373,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "glGetIntegerv1",
           "package": "lambdacube-core",
@@ -3382,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "glGetIntegerv1",
           "normalized": "GLenum-\u003eIO GLint",
@@ -3397,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "glGetProgramiv1",
           "package": "lambdacube-core",
@@ -3406,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "glGetProgramiv1",
           "normalized": "GLenum-\u003eGLuint-\u003eIO GLint",
@@ -3421,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "glGetShaderiv1",
           "package": "lambdacube-core",
@@ -3430,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "glGetShaderiv1",
           "normalized": "GLenum-\u003eGLuint-\u003eIO GLint",
@@ -3445,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "logicOperationToGLType",
           "package": "lambdacube-core",
@@ -3454,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "logicOperationToGLType",
           "normalized": "LogicOperation-\u003eGLenum",
@@ -3469,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "mkSSetter",
           "package": "lambdacube-core",
@@ -3478,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "mkSSetter",
           "normalized": "InputType-\u003eGLuint-\u003eStreamSetter",
@@ -3493,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "mkUniformSetter",
           "package": "lambdacube-core",
@@ -3502,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "mkUniformSetter",
           "normalized": "RenderState-\u003eInputType-\u003eIO(GLint-\u003eIO(),InputSetter)",
@@ -3517,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "printProgramLog",
           "package": "lambdacube-core",
@@ -3526,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "printProgramLog",
           "normalized": "GLuint-\u003eIO()",
@@ -3541,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "queryStreams",
           "package": "lambdacube-core",
@@ -3550,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "queryStreams",
           "normalized": "GLuint-\u003eIO(Trie GLuint,Trie InputType)",
@@ -3565,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "queryUniforms",
           "package": "lambdacube-core",
@@ -3574,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "queryUniforms",
           "normalized": "GLuint-\u003eIO(Trie GLint,Trie InputType)",
@@ -3589,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "setSampler",
           "package": "lambdacube-core",
@@ -3598,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "setSampler",
           "normalized": "GLint-\u003eInt-\u003eIO()",
@@ -3613,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "streamToInputType",
           "package": "lambdacube-core",
@@ -3622,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "streamToInputType",
           "normalized": "Stream Buffer-\u003eInputType",
@@ -3637,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "textureDataTypeToGLArityType",
           "package": "lambdacube-core",
@@ -3646,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "textureDataTypeToGLArityType",
           "normalized": "TextureDataType-\u003eGLenum",
@@ -3661,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_GLUtil",
           "name": "textureDataTypeToGLType",
           "package": "lambdacube-core",
@@ -3670,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "LC_B_GLUtil",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_GLUtil",
           "name": "textureDataTypeToGLType",
           "normalized": "TextureDataType-\u003eGLenum",
@@ -3685,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "LC_B_Traversals",
           "package": "lambdacube-core",
@@ -3693,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "LC_B_Traversals",
           "package": "lambdacube-core",
@@ -3706,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "HasExp",
           "package": "lambdacube-core",
@@ -3714,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "HasExp",
           "package": "lambdacube-core",
@@ -3727,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "drawOperations",
           "package": "lambdacube-core",
@@ -3736,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "drawOperations",
           "normalized": "DAG-\u003eExp-\u003e[Exp]",
@@ -3751,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "expUniverse",
           "package": "lambdacube-core",
@@ -3760,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "expUniverse",
           "normalized": "DAG-\u003ea-\u003e[Exp]",
@@ -3775,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "expUniverse'",
           "package": "lambdacube-core",
@@ -3784,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "expUniverse'",
           "normalized": "DAG-\u003ea-\u003e[Exp]",
@@ -3799,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "findFrameBuffer",
           "package": "lambdacube-core",
@@ -3808,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "findFrameBuffer",
           "normalized": "DAG-\u003eExp-\u003eExp",
@@ -3823,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "gpUniverse",
           "package": "lambdacube-core",
@@ -3832,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "gpUniverse",
           "normalized": "DAG-\u003eExp-\u003e[Exp]",
@@ -3847,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "gpUniverse'",
           "package": "lambdacube-core",
@@ -3856,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "gpUniverse'",
           "normalized": "DAG-\u003eExp-\u003e[Exp]",
@@ -3871,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_B_Traversals",
           "name": "renderChain",
           "package": "lambdacube-core",
@@ -3880,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "LC_B_Traversals",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_B_Traversals",
           "name": "renderChain",
           "normalized": "DAG-\u003eExp-\u003e[Exp]",
@@ -3895,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_C_Convert",
           "name": "LC_C_Convert",
           "package": "lambdacube-core",
@@ -3903,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "LC_C_Convert",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_C_Convert",
           "name": "LC_C_Convert",
           "package": "lambdacube-core",
@@ -3916,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_C_Convert",
           "name": "convertGPOutput",
           "package": "lambdacube-core",
@@ -3925,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "LC_C_Convert",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_C_Convert",
           "name": "convertGPOutput",
           "normalized": "GPOutput a-\u003eb",
@@ -3940,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_C_PrimFun",
           "name": "LC_C_PrimFun",
           "package": "lambdacube-core",
@@ -3948,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "LC_C_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_C_PrimFun",
           "name": "LC_C_PrimFun",
           "package": "lambdacube-core",
@@ -3961,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_C_PrimFun",
           "name": "convertPrimFun",
           "package": "lambdacube-core",
@@ -3970,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "LC_C_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_C_PrimFun",
           "name": "convertPrimFun",
           "normalized": "PrimFun a b-\u003ePrimFun",
@@ -3985,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LC_G_APIType",
           "package": "lambdacube-core",
@@ -3993,6 +4306,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LC_G_APIType",
           "package": "lambdacube-core",
@@ -4006,6 +4320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Array",
           "package": "lambdacube-core",
@@ -4014,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Array",
           "package": "lambdacube-core",
@@ -4027,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrayType",
           "package": "lambdacube-core",
@@ -4035,6 +4352,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrayType",
           "package": "lambdacube-core",
@@ -4048,6 +4366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "BlendEquation",
           "package": "lambdacube-core",
@@ -4056,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "BlendEquation",
           "package": "lambdacube-core",
@@ -4069,6 +4389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "BlendingFactor",
           "package": "lambdacube-core",
@@ -4077,6 +4398,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "BlendingFactor",
           "package": "lambdacube-core",
@@ -4090,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "BufferSetter",
           "package": "lambdacube-core",
@@ -4098,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "BufferSetter",
           "package": "lambdacube-core",
@@ -4111,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ComparisonFunction",
           "package": "lambdacube-core",
@@ -4119,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ComparisonFunction",
           "package": "lambdacube-core",
@@ -4132,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "CullMode",
           "package": "lambdacube-core",
@@ -4140,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "CullMode",
           "package": "lambdacube-core",
@@ -4153,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "DepthFunction",
           "package": "lambdacube-core",
@@ -4161,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "DepthFunction",
           "package": "lambdacube-core",
@@ -4174,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "EdgeMode",
           "package": "lambdacube-core",
@@ -4182,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "EdgeMode",
           "package": "lambdacube-core",
@@ -4195,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Filter",
           "package": "lambdacube-core",
@@ -4203,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Filter",
           "package": "lambdacube-core",
@@ -4216,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FrontFace",
           "package": "lambdacube-core",
@@ -4224,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FrontFace",
           "package": "lambdacube-core",
@@ -4237,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "IndexStream",
           "package": "lambdacube-core",
@@ -4245,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "IndexStream",
           "package": "lambdacube-core",
@@ -4258,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "InputSetter",
           "package": "lambdacube-core",
@@ -4266,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "InputSetter",
           "package": "lambdacube-core",
@@ -4279,6 +4619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "InputType",
           "package": "lambdacube-core",
@@ -4287,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "InputType",
           "package": "lambdacube-core",
@@ -4300,6 +4642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LogicOperation",
           "package": "lambdacube-core",
@@ -4308,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LogicOperation",
           "package": "lambdacube-core",
@@ -4321,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PointSize",
           "package": "lambdacube-core",
@@ -4329,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PointSize",
           "package": "lambdacube-core",
@@ -4342,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PointSpriteCoordOrigin",
           "package": "lambdacube-core",
@@ -4350,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PointSpriteCoordOrigin",
           "package": "lambdacube-core",
@@ -4363,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PolygonMode",
           "package": "lambdacube-core",
@@ -4371,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PolygonMode",
           "package": "lambdacube-core",
@@ -4384,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PolygonOffset",
           "package": "lambdacube-core",
@@ -4392,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PolygonOffset",
           "package": "lambdacube-core",
@@ -4405,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Primitive",
           "package": "lambdacube-core",
@@ -4413,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Primitive",
           "package": "lambdacube-core",
@@ -4426,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ProvokingVertex",
           "package": "lambdacube-core",
@@ -4434,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ProvokingVertex",
           "package": "lambdacube-core",
@@ -4447,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SetterFun",
           "package": "lambdacube-core",
@@ -4455,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SetterFun",
           "package": "lambdacube-core",
@@ -4468,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "StencilOperation",
           "package": "lambdacube-core",
@@ -4476,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "StencilOperation",
           "package": "lambdacube-core",
@@ -4489,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "StencilOps",
           "package": "lambdacube-core",
@@ -4497,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "StencilOps",
           "package": "lambdacube-core",
@@ -4510,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "StencilTest",
           "package": "lambdacube-core",
@@ -4518,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "StencilTest",
           "package": "lambdacube-core",
@@ -4531,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "StencilTests",
           "package": "lambdacube-core",
@@ -4539,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "StencilTests",
           "package": "lambdacube-core",
@@ -4552,6 +4918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Stream",
           "package": "lambdacube-core",
@@ -4560,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Stream",
           "package": "lambdacube-core",
@@ -4573,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "StreamType",
           "package": "lambdacube-core",
@@ -4581,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "StreamType",
           "package": "lambdacube-core",
@@ -4594,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TextureData",
           "package": "lambdacube-core",
@@ -4602,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TextureData",
           "package": "lambdacube-core",
@@ -4615,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Ty",
           "package": "lambdacube-core",
@@ -4623,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Ty",
           "package": "lambdacube-core",
@@ -4636,6 +5010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Value",
           "package": "lambdacube-core",
@@ -4644,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Value",
           "package": "lambdacube-core",
@@ -4657,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Always",
           "package": "lambdacube-core",
@@ -4666,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Always",
           "package": "lambdacube-core",
@@ -4679,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "And",
           "package": "lambdacube-core",
@@ -4688,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "And",
           "package": "lambdacube-core",
@@ -4701,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "AndInverted",
           "package": "lambdacube-core",
@@ -4710,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "AndInverted",
           "package": "lambdacube-core",
@@ -4723,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "AndReverse",
           "package": "lambdacube-core",
@@ -4732,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "AndReverse",
           "package": "lambdacube-core",
@@ -4745,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrFloat",
           "package": "lambdacube-core",
@@ -4754,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrFloat",
           "package": "lambdacube-core",
@@ -4767,6 +5153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrHalf",
           "package": "lambdacube-core",
@@ -4776,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrHalf",
           "package": "lambdacube-core",
@@ -4789,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrInt16",
           "package": "lambdacube-core",
@@ -4798,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrInt16",
           "package": "lambdacube-core",
@@ -4811,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrInt32",
           "package": "lambdacube-core",
@@ -4820,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrInt32",
           "package": "lambdacube-core",
@@ -4833,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrInt8",
           "package": "lambdacube-core",
@@ -4842,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrInt8",
           "package": "lambdacube-core",
@@ -4855,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrWord16",
           "package": "lambdacube-core",
@@ -4864,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrWord16",
           "package": "lambdacube-core",
@@ -4877,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrWord32",
           "package": "lambdacube-core",
@@ -4886,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrWord32",
           "package": "lambdacube-core",
@@ -4899,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ArrWord8",
           "package": "lambdacube-core",
@@ -4908,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ArrWord8",
           "package": "lambdacube-core",
@@ -4921,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Array",
           "package": "lambdacube-core",
@@ -4930,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Array",
           "package": "lambdacube-core",
@@ -4943,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Bool",
           "package": "lambdacube-core",
@@ -4952,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Bool",
           "package": "lambdacube-core",
@@ -4965,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "CCW",
           "package": "lambdacube-core",
@@ -4974,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "CCW",
           "package": "lambdacube-core",
@@ -4987,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "CW",
           "package": "lambdacube-core",
@@ -4996,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "CW",
           "package": "lambdacube-core",
@@ -5009,6 +5417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ClampToBorder",
           "package": "lambdacube-core",
@@ -5018,6 +5427,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ClampToBorder",
           "package": "lambdacube-core",
@@ -5031,6 +5441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ClampToEdge",
           "package": "lambdacube-core",
@@ -5040,6 +5451,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ClampToEdge",
           "package": "lambdacube-core",
@@ -5053,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Clear",
           "package": "lambdacube-core",
@@ -5062,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Clear",
           "package": "lambdacube-core",
@@ -5075,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstFloat",
           "package": "lambdacube-core",
@@ -5084,6 +5499,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstFloat",
           "package": "lambdacube-core",
@@ -5097,6 +5513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstInt",
           "package": "lambdacube-core",
@@ -5106,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstInt",
           "package": "lambdacube-core",
@@ -5119,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM22F",
           "package": "lambdacube-core",
@@ -5128,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM22F",
           "package": "lambdacube-core",
@@ -5141,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM23F",
           "package": "lambdacube-core",
@@ -5150,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM23F",
           "package": "lambdacube-core",
@@ -5163,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM24F",
           "package": "lambdacube-core",
@@ -5172,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM24F",
           "package": "lambdacube-core",
@@ -5185,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM32F",
           "package": "lambdacube-core",
@@ -5194,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM32F",
           "package": "lambdacube-core",
@@ -5207,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM33F",
           "package": "lambdacube-core",
@@ -5216,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM33F",
           "package": "lambdacube-core",
@@ -5229,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM34F",
           "package": "lambdacube-core",
@@ -5238,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM34F",
           "package": "lambdacube-core",
@@ -5251,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM42F",
           "package": "lambdacube-core",
@@ -5260,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM42F",
           "package": "lambdacube-core",
@@ -5273,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM43F",
           "package": "lambdacube-core",
@@ -5282,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM43F",
           "package": "lambdacube-core",
@@ -5295,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstM44F",
           "package": "lambdacube-core",
@@ -5304,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstM44F",
           "package": "lambdacube-core",
@@ -5317,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV2F",
           "package": "lambdacube-core",
@@ -5326,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV2F",
           "package": "lambdacube-core",
@@ -5339,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV2I",
           "package": "lambdacube-core",
@@ -5348,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV2I",
           "package": "lambdacube-core",
@@ -5361,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV2U",
           "package": "lambdacube-core",
@@ -5370,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV2U",
           "package": "lambdacube-core",
@@ -5383,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV3F",
           "package": "lambdacube-core",
@@ -5392,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV3F",
           "package": "lambdacube-core",
@@ -5405,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV3I",
           "package": "lambdacube-core",
@@ -5414,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV3I",
           "package": "lambdacube-core",
@@ -5427,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV3U",
           "package": "lambdacube-core",
@@ -5436,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV3U",
           "package": "lambdacube-core",
@@ -5449,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV4F",
           "package": "lambdacube-core",
@@ -5458,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV4F",
           "package": "lambdacube-core",
@@ -5471,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV4I",
           "package": "lambdacube-core",
@@ -5480,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV4I",
           "package": "lambdacube-core",
@@ -5493,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstV4U",
           "package": "lambdacube-core",
@@ -5502,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstV4U",
           "package": "lambdacube-core",
@@ -5515,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstWord",
           "package": "lambdacube-core",
@@ -5524,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstWord",
           "package": "lambdacube-core",
@@ -5537,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstantAlpha",
           "package": "lambdacube-core",
@@ -5546,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstantAlpha",
           "package": "lambdacube-core",
@@ -5559,6 +6017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ConstantColor",
           "package": "lambdacube-core",
@@ -5568,6 +6027,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ConstantColor",
           "package": "lambdacube-core",
@@ -5581,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Copy",
           "package": "lambdacube-core",
@@ -5590,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Copy",
           "package": "lambdacube-core",
@@ -5603,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "CopyInverted",
           "package": "lambdacube-core",
@@ -5612,6 +6075,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "CopyInverted",
           "package": "lambdacube-core",
@@ -5625,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "CullBack",
           "package": "lambdacube-core",
@@ -5634,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "CullBack",
           "package": "lambdacube-core",
@@ -5647,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "CullFront",
           "package": "lambdacube-core",
@@ -5656,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "CullFront",
           "package": "lambdacube-core",
@@ -5669,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "CullNone",
           "package": "lambdacube-core",
@@ -5678,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "CullNone",
           "package": "lambdacube-core",
@@ -5691,6 +6161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "DstAlpha",
           "package": "lambdacube-core",
@@ -5700,6 +6171,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "DstAlpha",
           "package": "lambdacube-core",
@@ -5713,6 +6185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "DstColor",
           "package": "lambdacube-core",
@@ -5722,6 +6195,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "DstColor",
           "package": "lambdacube-core",
@@ -5735,6 +6209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Equal",
           "package": "lambdacube-core",
@@ -5744,6 +6219,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Equal",
           "package": "lambdacube-core",
@@ -5757,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Equiv",
           "package": "lambdacube-core",
@@ -5766,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Equiv",
           "package": "lambdacube-core",
@@ -5779,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTexture1D",
           "package": "lambdacube-core",
@@ -5788,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTexture1D",
           "package": "lambdacube-core",
@@ -5801,6 +6281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTexture1DArray",
           "package": "lambdacube-core",
@@ -5810,6 +6291,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTexture1DArray",
           "package": "lambdacube-core",
@@ -5823,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTexture2D",
           "package": "lambdacube-core",
@@ -5832,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTexture2D",
           "package": "lambdacube-core",
@@ -5845,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTexture2DArray",
           "package": "lambdacube-core",
@@ -5854,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTexture2DArray",
           "package": "lambdacube-core",
@@ -5867,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTexture2DMS",
           "package": "lambdacube-core",
@@ -5876,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTexture2DMS",
           "package": "lambdacube-core",
@@ -5889,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTexture2DMSArray",
           "package": "lambdacube-core",
@@ -5898,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTexture2DMSArray",
           "package": "lambdacube-core",
@@ -5911,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTexture2DRect",
           "package": "lambdacube-core",
@@ -5920,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTexture2DRect",
           "package": "lambdacube-core",
@@ -5933,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTexture3D",
           "package": "lambdacube-core",
@@ -5942,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTexture3D",
           "package": "lambdacube-core",
@@ -5955,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTextureBuffer",
           "package": "lambdacube-core",
@@ -5964,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTextureBuffer",
           "package": "lambdacube-core",
@@ -5977,6 +6473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FTextureCube",
           "package": "lambdacube-core",
@@ -5986,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FTextureCube",
           "package": "lambdacube-core",
@@ -5999,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FirstVertex",
           "package": "lambdacube-core",
@@ -6008,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FirstVertex",
           "package": "lambdacube-core",
@@ -6021,6 +6521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Float",
           "package": "lambdacube-core",
@@ -6030,6 +6531,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Float",
           "package": "lambdacube-core",
@@ -6043,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FragmentStream'",
           "package": "lambdacube-core",
@@ -6052,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FragmentStream'",
           "package": "lambdacube-core",
@@ -6065,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FrameBuffer'",
           "package": "lambdacube-core",
@@ -6074,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FrameBuffer'",
           "package": "lambdacube-core",
@@ -6087,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FuncAdd",
           "package": "lambdacube-core",
@@ -6096,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FuncAdd",
           "package": "lambdacube-core",
@@ -6109,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FuncReverseSubtract",
           "package": "lambdacube-core",
@@ -6118,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FuncReverseSubtract",
           "package": "lambdacube-core",
@@ -6131,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "FuncSubtract",
           "package": "lambdacube-core",
@@ -6140,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "FuncSubtract",
           "package": "lambdacube-core",
@@ -6153,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Gequal",
           "package": "lambdacube-core",
@@ -6162,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Gequal",
           "package": "lambdacube-core",
@@ -6175,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Greater",
           "package": "lambdacube-core",
@@ -6184,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Greater",
           "package": "lambdacube-core",
@@ -6197,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITexture1D",
           "package": "lambdacube-core",
@@ -6206,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITexture1D",
           "package": "lambdacube-core",
@@ -6219,6 +6737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITexture1DArray",
           "package": "lambdacube-core",
@@ -6228,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITexture1DArray",
           "package": "lambdacube-core",
@@ -6241,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITexture2D",
           "package": "lambdacube-core",
@@ -6250,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITexture2D",
           "package": "lambdacube-core",
@@ -6263,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITexture2DArray",
           "package": "lambdacube-core",
@@ -6272,6 +6795,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITexture2DArray",
           "package": "lambdacube-core",
@@ -6285,6 +6809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITexture2DMS",
           "package": "lambdacube-core",
@@ -6294,6 +6819,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITexture2DMS",
           "package": "lambdacube-core",
@@ -6307,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITexture2DMSArray",
           "package": "lambdacube-core",
@@ -6316,6 +6843,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITexture2DMSArray",
           "package": "lambdacube-core",
@@ -6329,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITexture2DRect",
           "package": "lambdacube-core",
@@ -6338,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITexture2DRect",
           "package": "lambdacube-core",
@@ -6351,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITexture3D",
           "package": "lambdacube-core",
@@ -6360,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITexture3D",
           "package": "lambdacube-core",
@@ -6373,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITextureBuffer",
           "package": "lambdacube-core",
@@ -6382,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITextureBuffer",
           "package": "lambdacube-core",
@@ -6395,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ITextureCube",
           "package": "lambdacube-core",
@@ -6404,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ITextureCube",
           "package": "lambdacube-core",
@@ -6417,6 +6953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Image'",
           "package": "lambdacube-core",
@@ -6426,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Image'",
           "package": "lambdacube-core",
@@ -6439,6 +6977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "IndexStream",
           "package": "lambdacube-core",
@@ -6448,6 +6987,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "IndexStream",
           "package": "lambdacube-core",
@@ -6461,6 +7001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Int",
           "package": "lambdacube-core",
@@ -6470,6 +7011,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Int",
           "package": "lambdacube-core",
@@ -6483,6 +7025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Invert",
           "package": "lambdacube-core",
@@ -6492,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Invert",
           "package": "lambdacube-core",
@@ -6505,6 +7049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LastVertex",
           "package": "lambdacube-core",
@@ -6514,6 +7059,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LastVertex",
           "package": "lambdacube-core",
@@ -6527,6 +7073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Lequal",
           "package": "lambdacube-core",
@@ -6536,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Lequal",
           "package": "lambdacube-core",
@@ -6549,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Less",
           "package": "lambdacube-core",
@@ -6558,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Less",
           "package": "lambdacube-core",
@@ -6571,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LineList",
           "package": "lambdacube-core",
@@ -6580,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LineList",
           "package": "lambdacube-core",
@@ -6593,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LineListAdjacency",
           "package": "lambdacube-core",
@@ -6602,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LineListAdjacency",
           "package": "lambdacube-core",
@@ -6615,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LineStrip",
           "package": "lambdacube-core",
@@ -6624,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LineStrip",
           "package": "lambdacube-core",
@@ -6637,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LineStripAdjacency",
           "package": "lambdacube-core",
@@ -6646,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LineStripAdjacency",
           "package": "lambdacube-core",
@@ -6659,6 +7217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LinearFilter",
           "package": "lambdacube-core",
@@ -6668,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LinearFilter",
           "package": "lambdacube-core",
@@ -6681,6 +7241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "LowerLeft",
           "package": "lambdacube-core",
@@ -6690,6 +7251,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "LowerLeft",
           "package": "lambdacube-core",
@@ -6703,6 +7265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M22F",
           "package": "lambdacube-core",
@@ -6712,6 +7275,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M22F",
           "package": "lambdacube-core",
@@ -6724,6 +7288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M23F",
           "package": "lambdacube-core",
@@ -6733,6 +7298,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M23F",
           "package": "lambdacube-core",
@@ -6745,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M24F",
           "package": "lambdacube-core",
@@ -6754,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M24F",
           "package": "lambdacube-core",
@@ -6766,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M32F",
           "package": "lambdacube-core",
@@ -6775,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M32F",
           "package": "lambdacube-core",
@@ -6787,6 +7357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M33F",
           "package": "lambdacube-core",
@@ -6796,6 +7367,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M33F",
           "package": "lambdacube-core",
@@ -6808,6 +7380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M34F",
           "package": "lambdacube-core",
@@ -6817,6 +7390,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M34F",
           "package": "lambdacube-core",
@@ -6829,6 +7403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M42F",
           "package": "lambdacube-core",
@@ -6838,6 +7413,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M42F",
           "package": "lambdacube-core",
@@ -6850,6 +7426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M43F",
           "package": "lambdacube-core",
@@ -6859,6 +7436,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M43F",
           "package": "lambdacube-core",
@@ -6871,6 +7449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "M44F",
           "package": "lambdacube-core",
@@ -6880,6 +7459,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "M44F",
           "package": "lambdacube-core",
@@ -6892,6 +7472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Max",
           "package": "lambdacube-core",
@@ -6901,6 +7482,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Max",
           "package": "lambdacube-core",
@@ -6914,6 +7496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Min",
           "package": "lambdacube-core",
@@ -6923,6 +7506,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Min",
           "package": "lambdacube-core",
@@ -6936,6 +7520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "MirroredRepeat",
           "package": "lambdacube-core",
@@ -6945,6 +7530,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "MirroredRepeat",
           "package": "lambdacube-core",
@@ -6958,6 +7544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Nand",
           "package": "lambdacube-core",
@@ -6967,6 +7554,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Nand",
           "package": "lambdacube-core",
@@ -6980,6 +7568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Never",
           "package": "lambdacube-core",
@@ -6989,6 +7578,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Never",
           "package": "lambdacube-core",
@@ -7002,6 +7592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "NoOffset",
           "package": "lambdacube-core",
@@ -7011,6 +7602,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "NoOffset",
           "package": "lambdacube-core",
@@ -7024,6 +7616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Noop",
           "package": "lambdacube-core",
@@ -7033,6 +7626,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Noop",
           "package": "lambdacube-core",
@@ -7046,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Nor",
           "package": "lambdacube-core",
@@ -7055,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Nor",
           "package": "lambdacube-core",
@@ -7068,6 +7664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Notequal",
           "package": "lambdacube-core",
@@ -7077,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Notequal",
           "package": "lambdacube-core",
@@ -7090,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Offset",
           "package": "lambdacube-core",
@@ -7099,6 +7698,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Offset",
           "package": "lambdacube-core",
@@ -7112,6 +7712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "One",
           "package": "lambdacube-core",
@@ -7121,6 +7722,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "One",
           "package": "lambdacube-core",
@@ -7134,6 +7736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OneMinusConstantAlpha",
           "package": "lambdacube-core",
@@ -7143,6 +7746,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OneMinusConstantAlpha",
           "package": "lambdacube-core",
@@ -7156,6 +7760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OneMinusConstantColor",
           "package": "lambdacube-core",
@@ -7165,6 +7770,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OneMinusConstantColor",
           "package": "lambdacube-core",
@@ -7178,6 +7784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OneMinusDstAlpha",
           "package": "lambdacube-core",
@@ -7187,6 +7794,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OneMinusDstAlpha",
           "package": "lambdacube-core",
@@ -7200,6 +7808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OneMinusDstColor",
           "package": "lambdacube-core",
@@ -7209,6 +7818,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OneMinusDstColor",
           "package": "lambdacube-core",
@@ -7222,6 +7832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OneMinusSrcAlpha",
           "package": "lambdacube-core",
@@ -7231,6 +7842,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OneMinusSrcAlpha",
           "package": "lambdacube-core",
@@ -7244,6 +7856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OneMinusSrcColor",
           "package": "lambdacube-core",
@@ -7253,6 +7866,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OneMinusSrcColor",
           "package": "lambdacube-core",
@@ -7266,6 +7880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OpDecr",
           "package": "lambdacube-core",
@@ -7275,6 +7890,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OpDecr",
           "package": "lambdacube-core",
@@ -7288,6 +7904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OpDecrWrap",
           "package": "lambdacube-core",
@@ -7297,6 +7914,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OpDecrWrap",
           "package": "lambdacube-core",
@@ -7310,6 +7928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OpIncr",
           "package": "lambdacube-core",
@@ -7319,6 +7938,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OpIncr",
           "package": "lambdacube-core",
@@ -7332,6 +7952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OpIncrWrap",
           "package": "lambdacube-core",
@@ -7341,6 +7962,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OpIncrWrap",
           "package": "lambdacube-core",
@@ -7354,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OpInvert",
           "package": "lambdacube-core",
@@ -7363,6 +7986,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OpInvert",
           "package": "lambdacube-core",
@@ -7376,6 +8000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OpKeep",
           "package": "lambdacube-core",
@@ -7385,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OpKeep",
           "package": "lambdacube-core",
@@ -7398,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OpReplace",
           "package": "lambdacube-core",
@@ -7407,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OpReplace",
           "package": "lambdacube-core",
@@ -7420,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OpZero",
           "package": "lambdacube-core",
@@ -7429,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OpZero",
           "package": "lambdacube-core",
@@ -7442,6 +8072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Or",
           "package": "lambdacube-core",
@@ -7451,6 +8082,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Or",
           "package": "lambdacube-core",
@@ -7464,6 +8096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OrInverted",
           "package": "lambdacube-core",
@@ -7473,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OrInverted",
           "package": "lambdacube-core",
@@ -7486,6 +8120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "OrReverse",
           "package": "lambdacube-core",
@@ -7495,6 +8130,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "OrReverse",
           "package": "lambdacube-core",
@@ -7508,6 +8144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PointFilter",
           "package": "lambdacube-core",
@@ -7517,6 +8154,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PointFilter",
           "package": "lambdacube-core",
@@ -7530,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PointList",
           "package": "lambdacube-core",
@@ -7539,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PointList",
           "package": "lambdacube-core",
@@ -7552,6 +8192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PointSize",
           "package": "lambdacube-core",
@@ -7561,6 +8202,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PointSize",
           "package": "lambdacube-core",
@@ -7574,6 +8216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PolygonFill",
           "package": "lambdacube-core",
@@ -7583,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PolygonFill",
           "package": "lambdacube-core",
@@ -7596,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PolygonLine",
           "package": "lambdacube-core",
@@ -7605,6 +8250,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PolygonLine",
           "package": "lambdacube-core",
@@ -7618,6 +8264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PolygonPoint",
           "package": "lambdacube-core",
@@ -7627,6 +8274,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PolygonPoint",
           "package": "lambdacube-core",
@@ -7640,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "PrimitiveStream'",
           "package": "lambdacube-core",
@@ -7649,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "PrimitiveStream'",
           "package": "lambdacube-core",
@@ -7662,6 +8312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "ProgramPointSize",
           "package": "lambdacube-core",
@@ -7671,6 +8322,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "ProgramPointSize",
           "package": "lambdacube-core",
@@ -7684,6 +8336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Repeat",
           "package": "lambdacube-core",
@@ -7693,6 +8346,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Repeat",
           "package": "lambdacube-core",
@@ -7706,6 +8360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SBool",
           "package": "lambdacube-core",
@@ -7715,6 +8370,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SBool",
           "package": "lambdacube-core",
@@ -7728,6 +8384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTexture1D",
           "package": "lambdacube-core",
@@ -7737,6 +8394,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTexture1D",
           "package": "lambdacube-core",
@@ -7750,6 +8408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTexture1DArray",
           "package": "lambdacube-core",
@@ -7759,6 +8418,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTexture1DArray",
           "package": "lambdacube-core",
@@ -7772,6 +8432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTexture2D",
           "package": "lambdacube-core",
@@ -7781,6 +8442,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTexture2D",
           "package": "lambdacube-core",
@@ -7794,6 +8456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTexture2DArray",
           "package": "lambdacube-core",
@@ -7803,6 +8466,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTexture2DArray",
           "package": "lambdacube-core",
@@ -7816,6 +8480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTexture2DMS",
           "package": "lambdacube-core",
@@ -7825,6 +8490,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTexture2DMS",
           "package": "lambdacube-core",
@@ -7838,6 +8504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTexture2DMSArray",
           "package": "lambdacube-core",
@@ -7847,6 +8514,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTexture2DMSArray",
           "package": "lambdacube-core",
@@ -7860,6 +8528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTexture2DRect",
           "package": "lambdacube-core",
@@ -7869,6 +8538,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTexture2DRect",
           "package": "lambdacube-core",
@@ -7882,6 +8552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTexture3D",
           "package": "lambdacube-core",
@@ -7891,6 +8562,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTexture3D",
           "package": "lambdacube-core",
@@ -7904,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTextureBuffer",
           "package": "lambdacube-core",
@@ -7913,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTextureBuffer",
           "package": "lambdacube-core",
@@ -7926,6 +8600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFTextureCube",
           "package": "lambdacube-core",
@@ -7935,6 +8610,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFTextureCube",
           "package": "lambdacube-core",
@@ -7948,6 +8624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SFloat",
           "package": "lambdacube-core",
@@ -7957,6 +8634,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SFloat",
           "package": "lambdacube-core",
@@ -7970,6 +8648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITexture1D",
           "package": "lambdacube-core",
@@ -7979,6 +8658,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITexture1D",
           "package": "lambdacube-core",
@@ -7992,6 +8672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITexture1DArray",
           "package": "lambdacube-core",
@@ -8001,6 +8682,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITexture1DArray",
           "package": "lambdacube-core",
@@ -8014,6 +8696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITexture2D",
           "package": "lambdacube-core",
@@ -8023,6 +8706,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITexture2D",
           "package": "lambdacube-core",
@@ -8036,6 +8720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITexture2DArray",
           "package": "lambdacube-core",
@@ -8045,6 +8730,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITexture2DArray",
           "package": "lambdacube-core",
@@ -8058,6 +8744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITexture2DMS",
           "package": "lambdacube-core",
@@ -8067,6 +8754,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITexture2DMS",
           "package": "lambdacube-core",
@@ -8080,6 +8768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITexture2DMSArray",
           "package": "lambdacube-core",
@@ -8089,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITexture2DMSArray",
           "package": "lambdacube-core",
@@ -8102,6 +8792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITexture2DRect",
           "package": "lambdacube-core",
@@ -8111,6 +8802,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITexture2DRect",
           "package": "lambdacube-core",
@@ -8124,6 +8816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITexture3D",
           "package": "lambdacube-core",
@@ -8133,6 +8826,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITexture3D",
           "package": "lambdacube-core",
@@ -8146,6 +8840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITextureBuffer",
           "package": "lambdacube-core",
@@ -8155,6 +8850,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITextureBuffer",
           "package": "lambdacube-core",
@@ -8168,6 +8864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SITextureCube",
           "package": "lambdacube-core",
@@ -8177,6 +8874,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SITextureCube",
           "package": "lambdacube-core",
@@ -8190,6 +8888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SInt",
           "package": "lambdacube-core",
@@ -8199,6 +8898,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SInt",
           "package": "lambdacube-core",
@@ -8212,6 +8912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM22F",
           "package": "lambdacube-core",
@@ -8221,6 +8922,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM22F",
           "package": "lambdacube-core",
@@ -8234,6 +8936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM23F",
           "package": "lambdacube-core",
@@ -8243,6 +8946,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM23F",
           "package": "lambdacube-core",
@@ -8256,6 +8960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM24F",
           "package": "lambdacube-core",
@@ -8265,6 +8970,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM24F",
           "package": "lambdacube-core",
@@ -8278,6 +8984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM32F",
           "package": "lambdacube-core",
@@ -8287,6 +8994,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM32F",
           "package": "lambdacube-core",
@@ -8300,6 +9008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM33F",
           "package": "lambdacube-core",
@@ -8309,6 +9018,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM33F",
           "package": "lambdacube-core",
@@ -8322,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM34F",
           "package": "lambdacube-core",
@@ -8331,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM34F",
           "package": "lambdacube-core",
@@ -8344,6 +9056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM42F",
           "package": "lambdacube-core",
@@ -8353,6 +9066,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM42F",
           "package": "lambdacube-core",
@@ -8366,6 +9080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM43F",
           "package": "lambdacube-core",
@@ -8375,6 +9090,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM43F",
           "package": "lambdacube-core",
@@ -8388,6 +9104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SM44F",
           "package": "lambdacube-core",
@@ -8397,6 +9114,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SM44F",
           "package": "lambdacube-core",
@@ -8410,6 +9128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SSTexture1D",
           "package": "lambdacube-core",
@@ -8419,6 +9138,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SSTexture1D",
           "package": "lambdacube-core",
@@ -8432,6 +9152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SSTexture1DArray",
           "package": "lambdacube-core",
@@ -8441,6 +9162,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SSTexture1DArray",
           "package": "lambdacube-core",
@@ -8454,6 +9176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SSTexture2D",
           "package": "lambdacube-core",
@@ -8463,6 +9186,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SSTexture2D",
           "package": "lambdacube-core",
@@ -8476,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SSTexture2DArray",
           "package": "lambdacube-core",
@@ -8485,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SSTexture2DArray",
           "package": "lambdacube-core",
@@ -8498,6 +9224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SSTexture2DRect",
           "package": "lambdacube-core",
@@ -8507,6 +9234,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SSTexture2DRect",
           "package": "lambdacube-core",
@@ -8520,6 +9248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SSTextureCube",
           "package": "lambdacube-core",
@@ -8529,6 +9258,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SSTextureCube",
           "package": "lambdacube-core",
@@ -8542,6 +9272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "STexture1D",
           "package": "lambdacube-core",
@@ -8551,6 +9282,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "STexture1D",
           "package": "lambdacube-core",
@@ -8564,6 +9296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "STexture1DArray",
           "package": "lambdacube-core",
@@ -8573,6 +9306,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "STexture1DArray",
           "package": "lambdacube-core",
@@ -8586,6 +9320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "STexture2D",
           "package": "lambdacube-core",
@@ -8595,6 +9330,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "STexture2D",
           "package": "lambdacube-core",
@@ -8608,6 +9344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "STexture2DArray",
           "package": "lambdacube-core",
@@ -8617,6 +9354,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "STexture2DArray",
           "package": "lambdacube-core",
@@ -8630,6 +9368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "STexture2DRect",
           "package": "lambdacube-core",
@@ -8639,6 +9378,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "STexture2DRect",
           "package": "lambdacube-core",
@@ -8652,6 +9392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "STextureCube",
           "package": "lambdacube-core",
@@ -8661,6 +9402,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "STextureCube",
           "package": "lambdacube-core",
@@ -8674,6 +9416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTexture1D",
           "package": "lambdacube-core",
@@ -8683,6 +9426,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTexture1D",
           "package": "lambdacube-core",
@@ -8696,6 +9440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTexture1DArray",
           "package": "lambdacube-core",
@@ -8705,6 +9450,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTexture1DArray",
           "package": "lambdacube-core",
@@ -8718,6 +9464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTexture2D",
           "package": "lambdacube-core",
@@ -8727,6 +9474,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTexture2D",
           "package": "lambdacube-core",
@@ -8740,6 +9488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTexture2DArray",
           "package": "lambdacube-core",
@@ -8749,6 +9498,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTexture2DArray",
           "package": "lambdacube-core",
@@ -8762,6 +9512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTexture2DMS",
           "package": "lambdacube-core",
@@ -8771,6 +9522,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTexture2DMS",
           "package": "lambdacube-core",
@@ -8784,6 +9536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTexture2DMSArray",
           "package": "lambdacube-core",
@@ -8793,6 +9546,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTexture2DMSArray",
           "package": "lambdacube-core",
@@ -8806,6 +9560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTexture2DRect",
           "package": "lambdacube-core",
@@ -8815,6 +9570,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTexture2DRect",
           "package": "lambdacube-core",
@@ -8828,6 +9584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTexture3D",
           "package": "lambdacube-core",
@@ -8837,6 +9594,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTexture3D",
           "package": "lambdacube-core",
@@ -8850,6 +9608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTextureBuffer",
           "package": "lambdacube-core",
@@ -8859,6 +9618,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTextureBuffer",
           "package": "lambdacube-core",
@@ -8872,6 +9632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SUTextureCube",
           "package": "lambdacube-core",
@@ -8881,6 +9642,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SUTextureCube",
           "package": "lambdacube-core",
@@ -8894,6 +9656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV2B",
           "package": "lambdacube-core",
@@ -8903,6 +9666,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV2B",
           "package": "lambdacube-core",
@@ -8916,6 +9680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV2F",
           "package": "lambdacube-core",
@@ -8925,6 +9690,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV2F",
           "package": "lambdacube-core",
@@ -8938,6 +9704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV2I",
           "package": "lambdacube-core",
@@ -8947,6 +9714,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV2I",
           "package": "lambdacube-core",
@@ -8960,6 +9728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV2U",
           "package": "lambdacube-core",
@@ -8969,6 +9738,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV2U",
           "package": "lambdacube-core",
@@ -8982,6 +9752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV3B",
           "package": "lambdacube-core",
@@ -8991,6 +9762,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV3B",
           "package": "lambdacube-core",
@@ -9004,6 +9776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV3F",
           "package": "lambdacube-core",
@@ -9013,6 +9786,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV3F",
           "package": "lambdacube-core",
@@ -9026,6 +9800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV3I",
           "package": "lambdacube-core",
@@ -9035,6 +9810,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV3I",
           "package": "lambdacube-core",
@@ -9048,6 +9824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV3U",
           "package": "lambdacube-core",
@@ -9057,6 +9834,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV3U",
           "package": "lambdacube-core",
@@ -9070,6 +9848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV4B",
           "package": "lambdacube-core",
@@ -9079,6 +9858,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV4B",
           "package": "lambdacube-core",
@@ -9092,6 +9872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV4F",
           "package": "lambdacube-core",
@@ -9101,6 +9882,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV4F",
           "package": "lambdacube-core",
@@ -9114,6 +9896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV4I",
           "package": "lambdacube-core",
@@ -9123,6 +9906,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV4I",
           "package": "lambdacube-core",
@@ -9136,6 +9920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SV4U",
           "package": "lambdacube-core",
@@ -9145,6 +9930,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SV4U",
           "package": "lambdacube-core",
@@ -9158,6 +9944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SWord",
           "package": "lambdacube-core",
@@ -9167,6 +9954,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SWord",
           "package": "lambdacube-core",
@@ -9180,6 +9968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Set",
           "package": "lambdacube-core",
@@ -9189,6 +9978,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Set",
           "package": "lambdacube-core",
@@ -9202,6 +9992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Single",
           "package": "lambdacube-core",
@@ -9211,6 +10002,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Single",
           "package": "lambdacube-core",
@@ -9224,6 +10016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SrcAlpha",
           "package": "lambdacube-core",
@@ -9233,6 +10026,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SrcAlpha",
           "package": "lambdacube-core",
@@ -9246,6 +10040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SrcAlphaSaturate",
           "package": "lambdacube-core",
@@ -9255,6 +10050,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SrcAlphaSaturate",
           "package": "lambdacube-core",
@@ -9268,6 +10064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "SrcColor",
           "package": "lambdacube-core",
@@ -9277,6 +10074,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "SrcColor",
           "package": "lambdacube-core",
@@ -9290,6 +10088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "StencilOps",
           "package": "lambdacube-core",
@@ -9299,6 +10098,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "StencilOps",
           "package": "lambdacube-core",
@@ -9312,6 +10112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "StencilTest",
           "package": "lambdacube-core",
@@ -9321,6 +10122,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "StencilTest",
           "package": "lambdacube-core",
@@ -9334,6 +10136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "StencilTests",
           "package": "lambdacube-core",
@@ -9343,6 +10146,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "StencilTests",
           "package": "lambdacube-core",
@@ -9356,6 +10160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Stream",
           "package": "lambdacube-core",
@@ -9365,6 +10170,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Stream",
           "package": "lambdacube-core",
@@ -9378,6 +10184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TFloat",
           "package": "lambdacube-core",
@@ -9387,6 +10194,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TFloat",
           "package": "lambdacube-core",
@@ -9400,6 +10208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TInt",
           "package": "lambdacube-core",
@@ -9409,6 +10218,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TInt",
           "package": "lambdacube-core",
@@ -9422,6 +10232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM22F",
           "package": "lambdacube-core",
@@ -9431,6 +10242,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM22F",
           "package": "lambdacube-core",
@@ -9444,6 +10256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM23F",
           "package": "lambdacube-core",
@@ -9453,6 +10266,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM23F",
           "package": "lambdacube-core",
@@ -9466,6 +10280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM24F",
           "package": "lambdacube-core",
@@ -9475,6 +10290,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM24F",
           "package": "lambdacube-core",
@@ -9488,6 +10304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM32F",
           "package": "lambdacube-core",
@@ -9497,6 +10314,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM32F",
           "package": "lambdacube-core",
@@ -9510,6 +10328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM33F",
           "package": "lambdacube-core",
@@ -9519,6 +10338,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM33F",
           "package": "lambdacube-core",
@@ -9532,6 +10352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM34F",
           "package": "lambdacube-core",
@@ -9541,6 +10362,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM34F",
           "package": "lambdacube-core",
@@ -9554,6 +10376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM42F",
           "package": "lambdacube-core",
@@ -9563,6 +10386,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM42F",
           "package": "lambdacube-core",
@@ -9576,6 +10400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM43F",
           "package": "lambdacube-core",
@@ -9585,6 +10410,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM43F",
           "package": "lambdacube-core",
@@ -9598,6 +10424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TM44F",
           "package": "lambdacube-core",
@@ -9607,6 +10434,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TM44F",
           "package": "lambdacube-core",
@@ -9620,6 +10448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV2F",
           "package": "lambdacube-core",
@@ -9629,6 +10458,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV2F",
           "package": "lambdacube-core",
@@ -9642,6 +10472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV2I",
           "package": "lambdacube-core",
@@ -9651,6 +10482,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV2I",
           "package": "lambdacube-core",
@@ -9664,6 +10496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV2U",
           "package": "lambdacube-core",
@@ -9673,6 +10506,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV2U",
           "package": "lambdacube-core",
@@ -9686,6 +10520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV3F",
           "package": "lambdacube-core",
@@ -9695,6 +10530,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV3F",
           "package": "lambdacube-core",
@@ -9708,6 +10544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV3I",
           "package": "lambdacube-core",
@@ -9717,6 +10554,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV3I",
           "package": "lambdacube-core",
@@ -9730,6 +10568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV3U",
           "package": "lambdacube-core",
@@ -9739,6 +10578,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV3U",
           "package": "lambdacube-core",
@@ -9752,6 +10592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV4F",
           "package": "lambdacube-core",
@@ -9761,6 +10602,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV4F",
           "package": "lambdacube-core",
@@ -9774,6 +10616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV4I",
           "package": "lambdacube-core",
@@ -9783,6 +10626,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV4I",
           "package": "lambdacube-core",
@@ -9796,6 +10640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TV4U",
           "package": "lambdacube-core",
@@ -9805,6 +10650,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TV4U",
           "package": "lambdacube-core",
@@ -9818,6 +10664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TWord",
           "package": "lambdacube-core",
@@ -9827,6 +10674,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TWord",
           "package": "lambdacube-core",
@@ -9840,6 +10688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TextureData",
           "package": "lambdacube-core",
@@ -9849,6 +10698,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TextureData",
           "package": "lambdacube-core",
@@ -9862,6 +10712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TriangleFan",
           "package": "lambdacube-core",
@@ -9871,6 +10722,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TriangleFan",
           "package": "lambdacube-core",
@@ -9884,6 +10736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TriangleList",
           "package": "lambdacube-core",
@@ -9893,6 +10746,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TriangleList",
           "package": "lambdacube-core",
@@ -9906,6 +10760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TriangleListAdjacency",
           "package": "lambdacube-core",
@@ -9915,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TriangleListAdjacency",
           "package": "lambdacube-core",
@@ -9928,6 +10784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TriangleStrip",
           "package": "lambdacube-core",
@@ -9937,6 +10794,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TriangleStrip",
           "package": "lambdacube-core",
@@ -9950,6 +10808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "TriangleStripAdjacency",
           "package": "lambdacube-core",
@@ -9959,6 +10818,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "TriangleStripAdjacency",
           "package": "lambdacube-core",
@@ -9972,6 +10832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Tuple",
           "package": "lambdacube-core",
@@ -9981,6 +10842,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Tuple",
           "normalized": "Tuple[Ty]",
@@ -9996,6 +10858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTexture1D",
           "package": "lambdacube-core",
@@ -10005,6 +10868,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTexture1D",
           "package": "lambdacube-core",
@@ -10018,6 +10882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTexture1DArray",
           "package": "lambdacube-core",
@@ -10027,6 +10892,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTexture1DArray",
           "package": "lambdacube-core",
@@ -10040,6 +10906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTexture2D",
           "package": "lambdacube-core",
@@ -10049,6 +10916,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTexture2D",
           "package": "lambdacube-core",
@@ -10062,6 +10930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTexture2DArray",
           "package": "lambdacube-core",
@@ -10071,6 +10940,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTexture2DArray",
           "package": "lambdacube-core",
@@ -10084,6 +10954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTexture2DMS",
           "package": "lambdacube-core",
@@ -10093,6 +10964,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTexture2DMS",
           "package": "lambdacube-core",
@@ -10106,6 +10978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTexture2DMSArray",
           "package": "lambdacube-core",
@@ -10115,6 +10988,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTexture2DMSArray",
           "package": "lambdacube-core",
@@ -10128,6 +11002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTexture2DRect",
           "package": "lambdacube-core",
@@ -10137,6 +11012,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTexture2DRect",
           "package": "lambdacube-core",
@@ -10150,6 +11026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTexture3D",
           "package": "lambdacube-core",
@@ -10159,6 +11036,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTexture3D",
           "package": "lambdacube-core",
@@ -10172,6 +11050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTextureBuffer",
           "package": "lambdacube-core",
@@ -10181,6 +11060,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTextureBuffer",
           "package": "lambdacube-core",
@@ -10194,6 +11074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UTextureCube",
           "package": "lambdacube-core",
@@ -10203,6 +11084,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UTextureCube",
           "package": "lambdacube-core",
@@ -10216,6 +11098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Unknown",
           "package": "lambdacube-core",
@@ -10225,6 +11108,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Unknown",
           "package": "lambdacube-core",
@@ -10238,6 +11122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "UpperLeft",
           "package": "lambdacube-core",
@@ -10247,6 +11132,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "UpperLeft",
           "package": "lambdacube-core",
@@ -10260,6 +11146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V2B",
           "package": "lambdacube-core",
@@ -10269,6 +11156,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V2B",
           "package": "lambdacube-core",
@@ -10281,6 +11169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V2F",
           "package": "lambdacube-core",
@@ -10290,6 +11179,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V2F",
           "package": "lambdacube-core",
@@ -10302,6 +11192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V2I",
           "package": "lambdacube-core",
@@ -10311,6 +11202,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V2I",
           "package": "lambdacube-core",
@@ -10323,6 +11215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V2U",
           "package": "lambdacube-core",
@@ -10332,6 +11225,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V2U",
           "package": "lambdacube-core",
@@ -10344,6 +11238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V3B",
           "package": "lambdacube-core",
@@ -10353,6 +11248,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V3B",
           "package": "lambdacube-core",
@@ -10365,6 +11261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V3F",
           "package": "lambdacube-core",
@@ -10374,6 +11271,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V3F",
           "package": "lambdacube-core",
@@ -10386,6 +11284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V3I",
           "package": "lambdacube-core",
@@ -10395,6 +11294,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V3I",
           "package": "lambdacube-core",
@@ -10407,6 +11307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V3U",
           "package": "lambdacube-core",
@@ -10416,6 +11317,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V3U",
           "package": "lambdacube-core",
@@ -10428,6 +11330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V4B",
           "package": "lambdacube-core",
@@ -10437,6 +11340,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V4B",
           "package": "lambdacube-core",
@@ -10449,6 +11353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V4F",
           "package": "lambdacube-core",
@@ -10458,6 +11363,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V4F",
           "package": "lambdacube-core",
@@ -10470,6 +11376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V4I",
           "package": "lambdacube-core",
@@ -10479,6 +11386,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V4I",
           "package": "lambdacube-core",
@@ -10491,6 +11399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "V4U",
           "package": "lambdacube-core",
@@ -10500,6 +11409,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "V4U",
           "package": "lambdacube-core",
@@ -10512,6 +11422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VBool",
           "package": "lambdacube-core",
@@ -10521,6 +11432,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VBool",
           "package": "lambdacube-core",
@@ -10534,6 +11446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VFloat",
           "package": "lambdacube-core",
@@ -10543,6 +11456,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VFloat",
           "package": "lambdacube-core",
@@ -10556,6 +11470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VInt",
           "package": "lambdacube-core",
@@ -10565,6 +11480,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VInt",
           "package": "lambdacube-core",
@@ -10578,6 +11494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM22F",
           "package": "lambdacube-core",
@@ -10587,6 +11504,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM22F",
           "package": "lambdacube-core",
@@ -10600,6 +11518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM23F",
           "package": "lambdacube-core",
@@ -10609,6 +11528,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM23F",
           "package": "lambdacube-core",
@@ -10622,6 +11542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM24F",
           "package": "lambdacube-core",
@@ -10631,6 +11552,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM24F",
           "package": "lambdacube-core",
@@ -10644,6 +11566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM32F",
           "package": "lambdacube-core",
@@ -10653,6 +11576,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM32F",
           "package": "lambdacube-core",
@@ -10666,6 +11590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM33F",
           "package": "lambdacube-core",
@@ -10675,6 +11600,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM33F",
           "package": "lambdacube-core",
@@ -10688,6 +11614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM34F",
           "package": "lambdacube-core",
@@ -10697,6 +11624,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM34F",
           "package": "lambdacube-core",
@@ -10710,6 +11638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM42F",
           "package": "lambdacube-core",
@@ -10719,6 +11648,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM42F",
           "package": "lambdacube-core",
@@ -10732,6 +11662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM43F",
           "package": "lambdacube-core",
@@ -10741,6 +11672,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM43F",
           "package": "lambdacube-core",
@@ -10754,6 +11686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VM44F",
           "package": "lambdacube-core",
@@ -10763,6 +11696,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VM44F",
           "package": "lambdacube-core",
@@ -10776,6 +11710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV2B",
           "package": "lambdacube-core",
@@ -10785,6 +11720,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV2B",
           "package": "lambdacube-core",
@@ -10798,6 +11734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV2F",
           "package": "lambdacube-core",
@@ -10807,6 +11744,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV2F",
           "package": "lambdacube-core",
@@ -10820,6 +11758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV2I",
           "package": "lambdacube-core",
@@ -10829,6 +11768,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV2I",
           "package": "lambdacube-core",
@@ -10842,6 +11782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV2U",
           "package": "lambdacube-core",
@@ -10851,6 +11792,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV2U",
           "package": "lambdacube-core",
@@ -10864,6 +11806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV3B",
           "package": "lambdacube-core",
@@ -10873,6 +11816,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV3B",
           "package": "lambdacube-core",
@@ -10886,6 +11830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV3F",
           "package": "lambdacube-core",
@@ -10895,6 +11840,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV3F",
           "package": "lambdacube-core",
@@ -10908,6 +11854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV3I",
           "package": "lambdacube-core",
@@ -10917,6 +11864,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV3I",
           "package": "lambdacube-core",
@@ -10930,6 +11878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV3U",
           "package": "lambdacube-core",
@@ -10939,6 +11888,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV3U",
           "package": "lambdacube-core",
@@ -10952,6 +11902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV4B",
           "package": "lambdacube-core",
@@ -10961,6 +11912,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV4B",
           "package": "lambdacube-core",
@@ -10974,6 +11926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV4F",
           "package": "lambdacube-core",
@@ -10983,6 +11936,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV4F",
           "package": "lambdacube-core",
@@ -10996,6 +11950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV4I",
           "package": "lambdacube-core",
@@ -11005,6 +11960,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV4I",
           "package": "lambdacube-core",
@@ -11018,6 +11974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VV4U",
           "package": "lambdacube-core",
@@ -11027,6 +11984,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VV4U",
           "package": "lambdacube-core",
@@ -11040,6 +11998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VWord",
           "package": "lambdacube-core",
@@ -11049,6 +12008,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VWord",
           "package": "lambdacube-core",
@@ -11062,6 +12022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "VertexStream'",
           "package": "lambdacube-core",
@@ -11071,6 +12032,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "VertexStream'",
           "package": "lambdacube-core",
@@ -11084,6 +12046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Word",
           "package": "lambdacube-core",
@@ -11093,6 +12056,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Word",
           "package": "lambdacube-core",
@@ -11106,6 +12070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Xor",
           "package": "lambdacube-core",
@@ -11115,6 +12080,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Xor",
           "package": "lambdacube-core",
@@ -11128,6 +12094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "Zero",
           "package": "lambdacube-core",
@@ -11137,6 +12104,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "Zero",
           "package": "lambdacube-core",
@@ -11151,6 +12119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for back faced triangles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "backStencilOp",
           "package": "lambdacube-core",
@@ -11161,6 +12130,7 @@
         "index": {
           "description": "Used for back faced triangles",
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "backStencilOp",
           "package": "lambdacube-core",
@@ -11174,6 +12144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "fromStreamType",
           "package": "lambdacube-core",
@@ -11183,6 +12154,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "fromStreamType",
           "normalized": "StreamType-\u003eInputType",
@@ -11199,6 +12171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for front faced triangles and other primitives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "frontStencilOp",
           "package": "lambdacube-core",
@@ -11209,6 +12182,7 @@
         "index": {
           "description": "Used for front faced triangles and other primitives",
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "frontStencilOp",
           "package": "lambdacube-core",
@@ -11222,6 +12196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "indexArrIdx",
           "package": "lambdacube-core",
@@ -11231,6 +12206,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "indexArrIdx",
           "package": "lambdacube-core",
@@ -11244,6 +12220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "indexBuffer",
           "package": "lambdacube-core",
@@ -11253,6 +12230,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "indexBuffer",
           "package": "lambdacube-core",
@@ -11266,6 +12244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "indexLength",
           "package": "lambdacube-core",
@@ -11275,6 +12254,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "indexLength",
           "package": "lambdacube-core",
@@ -11288,6 +12268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "indexStart",
           "package": "lambdacube-core",
@@ -11297,6 +12278,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "indexStart",
           "package": "lambdacube-core",
@@ -11310,6 +12292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "sizeOfArrayType",
           "package": "lambdacube-core",
@@ -11319,6 +12302,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "sizeOfArrayType",
           "normalized": "ArrayType-\u003eInt",
@@ -11335,6 +12319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function used to compare the \u003ccode\u003estencilReference\u003c/code\u003e and the stencil buffers value with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "stencilComparision",
           "package": "lambdacube-core",
@@ -11345,6 +12330,7 @@
         "index": {
           "description": "The function used to compare the stencilReference and the stencil buffers value with",
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "stencilComparision",
           "package": "lambdacube-core",
@@ -11359,6 +12345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bit mask with ones in each position that should be compared and written to the stencil buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "stencilMask",
           "package": "lambdacube-core",
@@ -11369,6 +12356,7 @@
         "index": {
           "description": "bit mask with ones in each position that should be compared and written to the stencil buffer",
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "stencilMask",
           "package": "lambdacube-core",
@@ -11383,6 +12371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value to compare with the stencil buffer's value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "stencilReference",
           "package": "lambdacube-core",
@@ -11393,6 +12382,7 @@
         "index": {
           "description": "The value to compare with the stencil buffer value",
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "stencilReference",
           "package": "lambdacube-core",
@@ -11406,6 +12396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "streamArrIdx",
           "package": "lambdacube-core",
@@ -11415,6 +12406,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "streamArrIdx",
           "package": "lambdacube-core",
@@ -11428,6 +12420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "streamBuffer",
           "package": "lambdacube-core",
@@ -11437,6 +12430,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "streamBuffer",
           "package": "lambdacube-core",
@@ -11450,6 +12444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "streamLength",
           "package": "lambdacube-core",
@@ -11459,6 +12454,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "streamLength",
           "package": "lambdacube-core",
@@ -11472,6 +12468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "streamStart",
           "package": "lambdacube-core",
@@ -11481,6 +12478,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "streamStart",
           "package": "lambdacube-core",
@@ -11494,6 +12492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "streamType",
           "package": "lambdacube-core",
@@ -11503,6 +12502,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "streamType",
           "package": "lambdacube-core",
@@ -11516,6 +12516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "textureObject",
           "package": "lambdacube-core",
@@ -11525,6 +12526,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "textureObject",
           "package": "lambdacube-core",
@@ -11538,6 +12540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "toStreamType",
           "package": "lambdacube-core",
@@ -11547,6 +12550,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "toStreamType",
           "normalized": "InputType-\u003eMaybe StreamType",
@@ -11562,6 +12566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_APIType",
           "name": "tySize",
           "package": "lambdacube-core",
@@ -11571,6 +12576,7 @@
         },
         "index": {
           "hierarchy": "LC_G_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_APIType",
           "name": "tySize",
           "normalized": "Ty-\u003eInt",
@@ -11586,6 +12592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "LC_G_Type",
           "package": "lambdacube-core",
@@ -11594,6 +12601,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "LC_G_Type",
           "package": "lambdacube-core",
@@ -11607,6 +12615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsComponent",
           "package": "lambdacube-core",
@@ -11615,6 +12624,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsComponent",
           "package": "lambdacube-core",
@@ -11628,6 +12638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsFloating",
           "package": "lambdacube-core",
@@ -11636,6 +12647,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsFloating",
           "package": "lambdacube-core",
@@ -11649,6 +12661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsIntegral",
           "package": "lambdacube-core",
@@ -11657,6 +12670,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsIntegral",
           "package": "lambdacube-core",
@@ -11670,6 +12684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsMat",
           "package": "lambdacube-core",
@@ -11678,6 +12693,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsMat",
           "package": "lambdacube-core",
@@ -11691,6 +12707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsMatVec",
           "package": "lambdacube-core",
@@ -11699,6 +12716,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsMatVec",
           "package": "lambdacube-core",
@@ -11712,6 +12730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsMatVecScalar",
           "package": "lambdacube-core",
@@ -11720,6 +12739,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsMatVecScalar",
           "package": "lambdacube-core",
@@ -11733,6 +12753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsNum",
           "package": "lambdacube-core",
@@ -11741,6 +12762,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsNum",
           "package": "lambdacube-core",
@@ -11754,6 +12776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsNumComponent",
           "package": "lambdacube-core",
@@ -11762,6 +12785,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsNumComponent",
           "package": "lambdacube-core",
@@ -11775,6 +12799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsSigned",
           "package": "lambdacube-core",
@@ -11783,6 +12808,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsSigned",
           "package": "lambdacube-core",
@@ -11796,6 +12822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsVec",
           "package": "lambdacube-core",
@@ -11804,6 +12831,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsVec",
           "package": "lambdacube-core",
@@ -11817,6 +12845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "IsVecScalar",
           "package": "lambdacube-core",
@@ -11825,6 +12854,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "IsVecScalar",
           "package": "lambdacube-core",
@@ -11838,6 +12868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M22F",
           "package": "lambdacube-core",
@@ -11846,6 +12877,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M22F",
           "package": "lambdacube-core",
@@ -11858,6 +12890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M23F",
           "package": "lambdacube-core",
@@ -11866,6 +12899,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M23F",
           "package": "lambdacube-core",
@@ -11878,6 +12912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M24F",
           "package": "lambdacube-core",
@@ -11886,6 +12921,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M24F",
           "package": "lambdacube-core",
@@ -11898,6 +12934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M32F",
           "package": "lambdacube-core",
@@ -11906,6 +12943,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M32F",
           "package": "lambdacube-core",
@@ -11918,6 +12956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M33F",
           "package": "lambdacube-core",
@@ -11926,6 +12965,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M33F",
           "package": "lambdacube-core",
@@ -11938,6 +12978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M34F",
           "package": "lambdacube-core",
@@ -11946,6 +12987,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M34F",
           "package": "lambdacube-core",
@@ -11958,6 +13000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M42F",
           "package": "lambdacube-core",
@@ -11966,6 +13009,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M42F",
           "package": "lambdacube-core",
@@ -11978,6 +13022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M43F",
           "package": "lambdacube-core",
@@ -11986,6 +13031,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M43F",
           "package": "lambdacube-core",
@@ -11998,6 +13044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "M44F",
           "package": "lambdacube-core",
@@ -12006,6 +13053,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "M44F",
           "package": "lambdacube-core",
@@ -12018,6 +13066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V2",
           "package": "lambdacube-core",
@@ -12026,6 +13075,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V2",
           "package": "lambdacube-core",
@@ -12038,6 +13088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V2B",
           "package": "lambdacube-core",
@@ -12046,6 +13097,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V2B",
           "package": "lambdacube-core",
@@ -12058,6 +13110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V2F",
           "package": "lambdacube-core",
@@ -12066,6 +13119,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V2F",
           "package": "lambdacube-core",
@@ -12078,6 +13132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V2I",
           "package": "lambdacube-core",
@@ -12086,6 +13141,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V2I",
           "package": "lambdacube-core",
@@ -12098,6 +13154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V2U",
           "package": "lambdacube-core",
@@ -12106,6 +13163,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V2U",
           "package": "lambdacube-core",
@@ -12118,6 +13176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V3",
           "package": "lambdacube-core",
@@ -12126,6 +13185,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V3",
           "package": "lambdacube-core",
@@ -12138,6 +13198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V3B",
           "package": "lambdacube-core",
@@ -12146,6 +13207,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V3B",
           "package": "lambdacube-core",
@@ -12158,6 +13220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V3F",
           "package": "lambdacube-core",
@@ -12166,6 +13229,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V3F",
           "package": "lambdacube-core",
@@ -12178,6 +13242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V3I",
           "package": "lambdacube-core",
@@ -12186,6 +13251,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V3I",
           "package": "lambdacube-core",
@@ -12198,6 +13264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V3U",
           "package": "lambdacube-core",
@@ -12206,6 +13273,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V3U",
           "package": "lambdacube-core",
@@ -12218,6 +13286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V4",
           "package": "lambdacube-core",
@@ -12226,6 +13295,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V4",
           "package": "lambdacube-core",
@@ -12238,6 +13308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V4B",
           "package": "lambdacube-core",
@@ -12246,6 +13317,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V4B",
           "package": "lambdacube-core",
@@ -12258,6 +13330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V4F",
           "package": "lambdacube-core",
@@ -12266,6 +13339,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V4F",
           "package": "lambdacube-core",
@@ -12278,6 +13352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V4I",
           "package": "lambdacube-core",
@@ -12286,6 +13361,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V4I",
           "package": "lambdacube-core",
@@ -12298,6 +13374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V4U",
           "package": "lambdacube-core",
@@ -12306,6 +13383,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V4U",
           "package": "lambdacube-core",
@@ -12318,6 +13396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V2",
           "package": "lambdacube-core",
@@ -12327,6 +13406,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V2",
           "package": "lambdacube-core",
@@ -12339,6 +13419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V3",
           "package": "lambdacube-core",
@@ -12348,6 +13429,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V3",
           "package": "lambdacube-core",
@@ -12360,6 +13442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_G_Type",
           "name": "V4",
           "package": "lambdacube-core",
@@ -12369,6 +13452,7 @@
         },
         "index": {
           "hierarchy": "LC_G_Type",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_G_Type",
           "name": "V4",
           "package": "lambdacube-core",
@@ -12381,6 +13465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "LC_Mesh",
           "package": "lambdacube-core",
@@ -12389,6 +13474,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "LC_Mesh",
           "package": "lambdacube-core",
@@ -12402,6 +13488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "Mesh",
           "package": "lambdacube-core",
@@ -12410,6 +13497,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "Mesh",
           "package": "lambdacube-core",
@@ -12423,6 +13511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "MeshAttribute",
           "package": "lambdacube-core",
@@ -12431,6 +13520,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "MeshAttribute",
           "package": "lambdacube-core",
@@ -12444,6 +13534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "MeshPrimitive",
           "package": "lambdacube-core",
@@ -12452,6 +13543,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "MeshPrimitive",
           "package": "lambdacube-core",
@@ -12465,6 +13557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_Float",
           "package": "lambdacube-core",
@@ -12474,6 +13567,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_Float",
           "package": "lambdacube-core",
@@ -12487,6 +13581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_Int",
           "package": "lambdacube-core",
@@ -12496,6 +13591,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_Int",
           "package": "lambdacube-core",
@@ -12509,6 +13605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_M22F",
           "package": "lambdacube-core",
@@ -12518,6 +13615,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_M22F",
           "package": "lambdacube-core",
@@ -12530,6 +13628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_M33F",
           "package": "lambdacube-core",
@@ -12539,6 +13638,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_M33F",
           "package": "lambdacube-core",
@@ -12551,6 +13651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_M44F",
           "package": "lambdacube-core",
@@ -12560,6 +13661,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_M44F",
           "package": "lambdacube-core",
@@ -12572,6 +13674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_V2F",
           "package": "lambdacube-core",
@@ -12581,6 +13684,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_V2F",
           "package": "lambdacube-core",
@@ -12593,6 +13697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_V3F",
           "package": "lambdacube-core",
@@ -12602,6 +13707,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_V3F",
           "package": "lambdacube-core",
@@ -12614,6 +13720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_V4F",
           "package": "lambdacube-core",
@@ -12623,6 +13730,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_V4F",
           "package": "lambdacube-core",
@@ -12635,6 +13743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "A_Word",
           "package": "lambdacube-core",
@@ -12644,6 +13753,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "A_Word",
           "package": "lambdacube-core",
@@ -12657,6 +13767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "Mesh",
           "package": "lambdacube-core",
@@ -12666,6 +13777,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "Mesh",
           "package": "lambdacube-core",
@@ -12679,6 +13791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "P_Points",
           "package": "lambdacube-core",
@@ -12688,6 +13801,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "P_Points",
           "package": "lambdacube-core",
@@ -12701,6 +13815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "P_TriangleStrip",
           "package": "lambdacube-core",
@@ -12710,6 +13825,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "P_TriangleStrip",
           "package": "lambdacube-core",
@@ -12723,6 +13839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "P_TriangleStripI",
           "package": "lambdacube-core",
@@ -12732,6 +13849,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "P_TriangleStripI",
           "package": "lambdacube-core",
@@ -12745,6 +13863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "P_Triangles",
           "package": "lambdacube-core",
@@ -12754,6 +13873,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "P_Triangles",
           "package": "lambdacube-core",
@@ -12767,6 +13887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "P_TrianglesI",
           "package": "lambdacube-core",
@@ -12776,6 +13897,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "P_TrianglesI",
           "package": "lambdacube-core",
@@ -12789,6 +13911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "addMesh",
           "package": "lambdacube-core",
@@ -12798,6 +13921,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "addMesh",
           "normalized": "Renderer-\u003eByteString-\u003eMesh-\u003e[ByteString]-\u003eIO Object",
@@ -12813,6 +13937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "compileMesh",
           "package": "lambdacube-core",
@@ -12822,6 +13947,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "compileMesh",
           "normalized": "Mesh-\u003eIO Mesh",
@@ -12837,6 +13963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "loadMesh",
           "package": "lambdacube-core",
@@ -12846,6 +13973,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "loadMesh",
           "normalized": "ByteString-\u003eIO Mesh",
@@ -12861,6 +13989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "mAttributes",
           "package": "lambdacube-core",
@@ -12870,6 +13999,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "mAttributes",
           "package": "lambdacube-core",
@@ -12883,6 +14013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "mGPUData",
           "package": "lambdacube-core",
@@ -12892,6 +14023,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "mGPUData",
           "package": "lambdacube-core",
@@ -12905,6 +14037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "mPrimitive",
           "package": "lambdacube-core",
@@ -12914,6 +14047,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "mPrimitive",
           "package": "lambdacube-core",
@@ -12927,6 +14061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_Mesh",
           "name": "saveMesh",
           "package": "lambdacube-core",
@@ -12936,6 +14071,7 @@
         },
         "index": {
           "hierarchy": "LC_Mesh",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_Mesh",
           "name": "saveMesh",
           "normalized": "ByteString-\u003eMesh-\u003eIO()",
@@ -12951,6 +14087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "LC_T_APIType",
           "package": "lambdacube-core",
@@ -12959,6 +14096,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "LC_T_APIType",
           "package": "lambdacube-core",
@@ -12972,6 +14110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": ":+:",
           "package": "lambdacube-core",
@@ -12980,6 +14119,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": ":+:",
           "package": "lambdacube-core",
@@ -12992,6 +14132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "AccumulationContext",
           "package": "lambdacube-core",
@@ -13000,6 +14141,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "AccumulationContext",
           "package": "lambdacube-core",
@@ -13013,6 +14155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Blending",
           "package": "lambdacube-core",
@@ -13021,6 +14164,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Blending",
           "package": "lambdacube-core",
@@ -13034,6 +14178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Color",
           "package": "lambdacube-core",
@@ -13042,6 +14187,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Color",
           "package": "lambdacube-core",
@@ -13055,6 +14201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ColorRepr",
           "package": "lambdacube-core",
@@ -13063,6 +14210,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ColorRepr",
           "package": "lambdacube-core",
@@ -13076,6 +14224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Depth",
           "package": "lambdacube-core",
@@ -13084,6 +14233,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Depth",
           "package": "lambdacube-core",
@@ -13097,6 +14247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "FTRepr",
           "package": "lambdacube-core",
@@ -13105,6 +14256,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "FTRepr",
           "package": "lambdacube-core",
@@ -13118,6 +14270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "FTRepr'",
           "package": "lambdacube-core",
@@ -13126,6 +14279,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "FTRepr'",
           "package": "lambdacube-core",
@@ -13139,6 +14293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "FetchPrimitive",
           "package": "lambdacube-core",
@@ -13147,6 +14302,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "FetchPrimitive",
           "package": "lambdacube-core",
@@ -13160,6 +14316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "FlatTuple",
           "package": "lambdacube-core",
@@ -13168,6 +14325,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "FlatTuple",
           "package": "lambdacube-core",
@@ -13181,6 +14339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "FragmentOperation",
           "package": "lambdacube-core",
@@ -13189,6 +14348,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "FragmentOperation",
           "package": "lambdacube-core",
@@ -13202,6 +14362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "FragmentStream",
           "package": "lambdacube-core",
@@ -13210,6 +14371,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "FragmentStream",
           "package": "lambdacube-core",
@@ -13223,6 +14385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "FrameBuffer",
           "package": "lambdacube-core",
@@ -13231,6 +14394,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "FrameBuffer",
           "package": "lambdacube-core",
@@ -13244,6 +14408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Frequency",
           "package": "lambdacube-core",
@@ -13252,6 +14417,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Frequency",
           "package": "lambdacube-core",
@@ -13265,6 +14431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Image",
           "package": "lambdacube-core",
@@ -13273,6 +14440,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Image",
           "package": "lambdacube-core",
@@ -13286,6 +14454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Input",
           "package": "lambdacube-core",
@@ -13294,6 +14463,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Input",
           "package": "lambdacube-core",
@@ -13307,6 +14477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "InputTuple",
           "package": "lambdacube-core",
@@ -13315,6 +14486,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "InputTuple",
           "package": "lambdacube-core",
@@ -13328,6 +14500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Interpolated",
           "package": "lambdacube-core",
@@ -13336,6 +14509,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Interpolated",
           "package": "lambdacube-core",
@@ -13349,6 +14523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IsColorArity",
           "package": "lambdacube-core",
@@ -13357,6 +14532,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IsColorArity",
           "package": "lambdacube-core",
@@ -13370,6 +14546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IsColorOutput",
           "package": "lambdacube-core",
@@ -13378,6 +14555,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IsColorOutput",
           "package": "lambdacube-core",
@@ -13391,6 +14569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IsFloatTuple",
           "package": "lambdacube-core",
@@ -13399,6 +14578,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IsFloatTuple",
           "package": "lambdacube-core",
@@ -13412,6 +14592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IsMipValid",
           "package": "lambdacube-core",
@@ -13420,6 +14601,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IsMipValid",
           "package": "lambdacube-core",
@@ -13433,6 +14615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IsValidOutput",
           "package": "lambdacube-core",
@@ -13441,6 +14624,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IsValidOutput",
           "package": "lambdacube-core",
@@ -13454,6 +14638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IsValidTextureSlot",
           "package": "lambdacube-core",
@@ -13462,6 +14647,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IsValidTextureSlot",
           "package": "lambdacube-core",
@@ -13475,6 +14661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "MipMap",
           "package": "lambdacube-core",
@@ -13483,6 +14670,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "MipMap",
           "package": "lambdacube-core",
@@ -13496,6 +14684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "NatNum",
           "package": "lambdacube-core",
@@ -13504,6 +14693,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "NatNum",
           "package": "lambdacube-core",
@@ -13517,6 +14707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "NoConstraint",
           "package": "lambdacube-core",
@@ -13525,6 +14716,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "NoConstraint",
           "package": "lambdacube-core",
@@ -13538,6 +14730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "NoStencilRepr",
           "package": "lambdacube-core",
@@ -13546,6 +14739,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "NoStencilRepr",
           "package": "lambdacube-core",
@@ -13559,6 +14753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "OutputPrimitive",
           "package": "lambdacube-core",
@@ -13567,6 +14762,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "OutputPrimitive",
           "package": "lambdacube-core",
@@ -13580,6 +14776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "OutputType",
           "package": "lambdacube-core",
@@ -13588,6 +14785,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "OutputType",
           "package": "lambdacube-core",
@@ -13601,6 +14799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "PrimitiveStream",
           "package": "lambdacube-core",
@@ -13609,6 +14808,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "PrimitiveStream",
           "package": "lambdacube-core",
@@ -13622,6 +14822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "PrimitiveType",
           "package": "lambdacube-core",
@@ -13630,6 +14831,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "PrimitiveType",
           "package": "lambdacube-core",
@@ -13643,6 +14845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "PrimitiveVertices",
           "package": "lambdacube-core",
@@ -13651,6 +14854,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "PrimitiveVertices",
           "package": "lambdacube-core",
@@ -13664,6 +14868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "RasterContext",
           "package": "lambdacube-core",
@@ -13672,6 +14877,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "RasterContext",
           "package": "lambdacube-core",
@@ -13685,6 +14891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Stencil",
           "package": "lambdacube-core",
@@ -13693,6 +14900,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Stencil",
           "package": "lambdacube-core",
@@ -13706,6 +14914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TexArrRepr",
           "package": "lambdacube-core",
@@ -13714,6 +14923,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TexArrRepr",
           "package": "lambdacube-core",
@@ -13727,6 +14937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TexDataRepr",
           "package": "lambdacube-core",
@@ -13735,6 +14946,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TexDataRepr",
           "package": "lambdacube-core",
@@ -13748,6 +14960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TexSizeRepr",
           "package": "lambdacube-core",
@@ -13756,6 +14969,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TexSizeRepr",
           "package": "lambdacube-core",
@@ -13769,6 +14983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Texture",
           "package": "lambdacube-core",
@@ -13777,6 +14992,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Texture",
           "package": "lambdacube-core",
@@ -13790,6 +15006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TextureDataType",
           "package": "lambdacube-core",
@@ -13798,6 +15015,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TextureDataType",
           "package": "lambdacube-core",
@@ -13811,6 +15029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TextureMipMap",
           "package": "lambdacube-core",
@@ -13819,6 +15038,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TextureMipMap",
           "package": "lambdacube-core",
@@ -13832,6 +15052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TextureType",
           "package": "lambdacube-core",
@@ -13840,6 +15061,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TextureType",
           "package": "lambdacube-core",
@@ -13853,6 +15075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "VertexStream",
           "package": "lambdacube-core",
@@ -13861,6 +15084,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "VertexStream",
           "package": "lambdacube-core",
@@ -13874,6 +15098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ZZ",
           "package": "lambdacube-core",
@@ -13882,6 +15107,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ZZ",
           "package": "lambdacube-core",
@@ -13895,6 +15121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": ":+:",
           "package": "lambdacube-core",
@@ -13904,6 +15131,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": ":+:",
           "package": "lambdacube-core",
@@ -13916,6 +15144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": ":.",
           "package": "lambdacube-core",
@@ -13925,6 +15154,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": ":.",
           "normalized": "a b-\u003eFlatTuple c a d-\u003eFlatTuple c a(b d)",
@@ -13939,6 +15169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "AccumulationContext",
           "package": "lambdacube-core",
@@ -13948,6 +15179,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "AccumulationContext",
           "package": "lambdacube-core",
@@ -13961,6 +15193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "AutoMip",
           "package": "lambdacube-core",
@@ -13970,6 +15203,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "AutoMip",
           "normalized": "Int-\u003eInt-\u003eMipMap TexMip",
@@ -13985,6 +15219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Blend",
           "package": "lambdacube-core",
@@ -13994,6 +15229,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Blend",
           "normalized": "(BlendEquation,BlendEquation)-\u003e((BlendingFactor,BlendingFactor),(BlendingFactor,BlendingFactor))-\u003eV F-\u003eBlending Float",
@@ -14009,6 +15245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "BlendLogicOp",
           "package": "lambdacube-core",
@@ -14018,6 +15255,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "BlendLogicOp",
           "normalized": "LogicOperation-\u003eBlending a",
@@ -14033,6 +15271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ColorImage",
           "package": "lambdacube-core",
@@ -14042,6 +15281,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ColorImage",
           "normalized": "NatNum a-\u003eb-\u003eImage a(Color b)",
@@ -14057,6 +15297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ColorOp",
           "package": "lambdacube-core",
@@ -14066,6 +15307,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ColorOp",
           "normalized": "Blending a-\u003eb-\u003eFragmentOperation(Color c)",
@@ -14081,6 +15323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "DepthImage",
           "package": "lambdacube-core",
@@ -14090,6 +15333,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "DepthImage",
           "normalized": "NatNum a-\u003eFloat-\u003eImage a(Depth Float)",
@@ -14105,6 +15349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "DepthOp",
           "package": "lambdacube-core",
@@ -14114,6 +15359,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "DepthOp",
           "normalized": "DepthFunction-\u003eBool-\u003eFragmentOperation(Depth Float)",
@@ -14129,6 +15375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "F",
           "package": "lambdacube-core",
@@ -14138,6 +15385,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "F",
           "package": "lambdacube-core",
@@ -14150,6 +15398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Flat",
           "package": "lambdacube-core",
@@ -14159,6 +15408,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Flat",
           "normalized": "a b-\u003eInterpolated a b",
@@ -14174,6 +15424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Float",
           "package": "lambdacube-core",
@@ -14183,6 +15434,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Float",
           "normalized": "a-\u003eTextureDataType(Regular Float)a",
@@ -14198,6 +15450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "G",
           "package": "lambdacube-core",
@@ -14207,6 +15460,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "G",
           "package": "lambdacube-core",
@@ -14219,6 +15473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IBool",
           "package": "lambdacube-core",
@@ -14228,6 +15483,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IBool",
           "normalized": "ByteString-\u003eInput Bool",
@@ -14243,6 +15499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IFloat",
           "package": "lambdacube-core",
@@ -14252,6 +15509,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IFloat",
           "normalized": "ByteString-\u003eInput Float",
@@ -14267,6 +15525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IInt",
           "package": "lambdacube-core",
@@ -14276,6 +15535,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IInt",
           "normalized": "ByteString-\u003eInput Int",
@@ -14291,6 +15551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM22F",
           "package": "lambdacube-core",
@@ -14300,6 +15561,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM22F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14315,6 +15577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM23F",
           "package": "lambdacube-core",
@@ -14324,6 +15587,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM23F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14339,6 +15603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM24F",
           "package": "lambdacube-core",
@@ -14348,6 +15613,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM24F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14363,6 +15629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM32F",
           "package": "lambdacube-core",
@@ -14372,6 +15639,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM32F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14387,6 +15655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM33F",
           "package": "lambdacube-core",
@@ -14396,6 +15665,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM33F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14411,6 +15681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM34F",
           "package": "lambdacube-core",
@@ -14420,6 +15691,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM34F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14435,6 +15707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM42F",
           "package": "lambdacube-core",
@@ -14444,6 +15717,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM42F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14459,6 +15733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM43F",
           "package": "lambdacube-core",
@@ -14468,6 +15743,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM43F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14483,6 +15759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IM44F",
           "package": "lambdacube-core",
@@ -14492,6 +15769,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IM44F",
           "normalized": "ByteString-\u003eInput M F",
@@ -14507,6 +15785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV2B",
           "package": "lambdacube-core",
@@ -14516,6 +15795,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV2B",
           "normalized": "ByteString-\u003eInput V B",
@@ -14531,6 +15811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV2F",
           "package": "lambdacube-core",
@@ -14540,6 +15821,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV2F",
           "normalized": "ByteString-\u003eInput V F",
@@ -14555,6 +15837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV2I",
           "package": "lambdacube-core",
@@ -14564,6 +15847,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV2I",
           "normalized": "ByteString-\u003eInput V I",
@@ -14579,6 +15863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV2U",
           "package": "lambdacube-core",
@@ -14588,6 +15873,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV2U",
           "normalized": "ByteString-\u003eInput V U",
@@ -14603,6 +15889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV3B",
           "package": "lambdacube-core",
@@ -14612,6 +15899,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV3B",
           "normalized": "ByteString-\u003eInput V B",
@@ -14627,6 +15915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV3F",
           "package": "lambdacube-core",
@@ -14636,6 +15925,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV3F",
           "normalized": "ByteString-\u003eInput V F",
@@ -14651,6 +15941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV3I",
           "package": "lambdacube-core",
@@ -14660,6 +15951,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV3I",
           "normalized": "ByteString-\u003eInput V I",
@@ -14675,6 +15967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV3U",
           "package": "lambdacube-core",
@@ -14684,6 +15977,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV3U",
           "normalized": "ByteString-\u003eInput V U",
@@ -14699,6 +15993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV4B",
           "package": "lambdacube-core",
@@ -14708,6 +16003,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV4B",
           "normalized": "ByteString-\u003eInput V B",
@@ -14723,6 +16019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV4F",
           "package": "lambdacube-core",
@@ -14732,6 +16029,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV4F",
           "normalized": "ByteString-\u003eInput V F",
@@ -14747,6 +16045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV4I",
           "package": "lambdacube-core",
@@ -14756,6 +16055,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV4I",
           "normalized": "ByteString-\u003eInput V I",
@@ -14771,6 +16071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IV4U",
           "package": "lambdacube-core",
@@ -14780,6 +16081,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IV4U",
           "normalized": "ByteString-\u003eInput V U",
@@ -14795,6 +16097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "IWord",
           "package": "lambdacube-core",
@@ -14804,6 +16107,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "IWord",
           "normalized": "ByteString-\u003eInput Word",
@@ -14819,6 +16123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Int",
           "package": "lambdacube-core",
@@ -14828,6 +16133,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Int",
           "normalized": "a-\u003eTextureDataType(Regular Int)a",
@@ -14843,6 +16149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Line",
           "package": "lambdacube-core",
@@ -14852,6 +16159,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Line",
           "package": "lambdacube-core",
@@ -14865,6 +16173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "LineAdjacency",
           "package": "lambdacube-core",
@@ -14874,6 +16183,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "LineAdjacency",
           "package": "lambdacube-core",
@@ -14887,6 +16197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "LineCtx",
           "package": "lambdacube-core",
@@ -14896,6 +16207,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "LineCtx",
           "normalized": "Float-\u003eProvokingVertex-\u003eRasterContext Line",
@@ -14911,6 +16223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Lines",
           "package": "lambdacube-core",
@@ -14920,6 +16233,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Lines",
           "package": "lambdacube-core",
@@ -14933,6 +16247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "LinesAdjacency",
           "package": "lambdacube-core",
@@ -14942,6 +16257,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "LinesAdjacency",
           "package": "lambdacube-core",
@@ -14955,6 +16271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "LinesOutput",
           "package": "lambdacube-core",
@@ -14964,6 +16281,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "LinesOutput",
           "package": "lambdacube-core",
@@ -14977,6 +16295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Mip",
           "package": "lambdacube-core",
@@ -14986,6 +16305,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Mip",
           "normalized": "Int-\u003eInt-\u003eMipMap TexMip",
@@ -15001,6 +16321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "MultiOutput",
           "package": "lambdacube-core",
@@ -15010,6 +16331,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "MultiOutput",
           "package": "lambdacube-core",
@@ -15023,6 +16345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N0",
           "package": "lambdacube-core",
@@ -15032,6 +16355,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N0",
           "package": "lambdacube-core",
@@ -15044,6 +16368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N1",
           "package": "lambdacube-core",
@@ -15053,6 +16378,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N1",
           "package": "lambdacube-core",
@@ -15065,6 +16391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N2",
           "package": "lambdacube-core",
@@ -15074,6 +16401,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N2",
           "package": "lambdacube-core",
@@ -15086,6 +16414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N3",
           "package": "lambdacube-core",
@@ -15095,6 +16424,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N3",
           "package": "lambdacube-core",
@@ -15107,6 +16437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N4",
           "package": "lambdacube-core",
@@ -15116,6 +16447,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N4",
           "package": "lambdacube-core",
@@ -15128,6 +16460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N5",
           "package": "lambdacube-core",
@@ -15137,6 +16470,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N5",
           "package": "lambdacube-core",
@@ -15149,6 +16483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N6",
           "package": "lambdacube-core",
@@ -15158,6 +16493,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N6",
           "package": "lambdacube-core",
@@ -15170,6 +16506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N7",
           "package": "lambdacube-core",
@@ -15179,6 +16516,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N7",
           "package": "lambdacube-core",
@@ -15191,6 +16529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N8",
           "package": "lambdacube-core",
@@ -15200,6 +16539,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N8",
           "package": "lambdacube-core",
@@ -15212,6 +16552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "N9",
           "package": "lambdacube-core",
@@ -15221,6 +16562,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "N9",
           "package": "lambdacube-core",
@@ -15233,6 +16575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "NoBlending",
           "package": "lambdacube-core",
@@ -15242,6 +16585,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "NoBlending",
           "package": "lambdacube-core",
@@ -15255,6 +16599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "NoMip",
           "package": "lambdacube-core",
@@ -15264,6 +16609,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "NoMip",
           "package": "lambdacube-core",
@@ -15277,6 +16623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "NoPerspective",
           "package": "lambdacube-core",
@@ -15286,6 +16633,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "NoPerspective",
           "normalized": "a b-\u003eInterpolated a b",
@@ -15301,6 +16649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Obj",
           "package": "lambdacube-core",
@@ -15310,6 +16659,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Obj",
           "package": "lambdacube-core",
@@ -15323,6 +16673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Point",
           "package": "lambdacube-core",
@@ -15332,6 +16683,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Point",
           "package": "lambdacube-core",
@@ -15345,6 +16697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "PointCtx",
           "package": "lambdacube-core",
@@ -15354,6 +16707,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "PointCtx",
           "normalized": "PointSize-\u003eFloat-\u003ePointSpriteCoordOrigin-\u003eRasterContext Point",
@@ -15369,6 +16723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Points",
           "package": "lambdacube-core",
@@ -15378,6 +16733,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Points",
           "package": "lambdacube-core",
@@ -15391,6 +16747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "PointsOutput",
           "package": "lambdacube-core",
@@ -15400,6 +16757,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "PointsOutput",
           "package": "lambdacube-core",
@@ -15413,6 +16771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Shadow",
           "package": "lambdacube-core",
@@ -15422,6 +16781,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Shadow",
           "package": "lambdacube-core",
@@ -15435,6 +16795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "SingleOutput",
           "package": "lambdacube-core",
@@ -15444,6 +16805,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "SingleOutput",
           "package": "lambdacube-core",
@@ -15457,6 +16819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Smooth",
           "package": "lambdacube-core",
@@ -15466,6 +16829,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Smooth",
           "normalized": "a b-\u003eInterpolated a b",
@@ -15481,6 +16845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "StencilImage",
           "package": "lambdacube-core",
@@ -15490,6 +16855,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "StencilImage",
           "normalized": "NatNum a-\u003eInt-\u003eImage a(Stencil Int)",
@@ -15505,6 +16871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "StencilOp",
           "package": "lambdacube-core",
@@ -15514,6 +16881,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "StencilOp",
           "normalized": "StencilTests-\u003eStencilOps-\u003eStencilOps-\u003eFragmentOperation(Stencil Int)",
@@ -15529,6 +16897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TexMip",
           "package": "lambdacube-core",
@@ -15538,6 +16907,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TexMip",
           "package": "lambdacube-core",
@@ -15551,6 +16921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TexNoMip",
           "package": "lambdacube-core",
@@ -15560,6 +16931,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TexNoMip",
           "package": "lambdacube-core",
@@ -15573,6 +16945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Texture",
           "package": "lambdacube-core",
@@ -15582,6 +16955,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Texture",
           "normalized": "TextureType a b c d e f-\u003eTexSizeRepr a-\u003eMipMap g-\u003e[h(Image d(TexDataRepr f e))]-\u003eTexture h a c e f",
@@ -15597,6 +16971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Texture1D",
           "package": "lambdacube-core",
@@ -15606,6 +16981,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Texture1D",
           "normalized": "TextureDataType a b-\u003eNatNum c-\u003eTextureType Tex D TexMip(TexArrRepr c)c a b",
@@ -15621,6 +16997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Texture2D",
           "package": "lambdacube-core",
@@ -15630,6 +17007,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Texture2D",
           "normalized": "TextureDataType a b-\u003eNatNum c-\u003eTextureType Tex D TexMip(TexArrRepr c)c a b",
@@ -15645,6 +17023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Texture2DMS",
           "package": "lambdacube-core",
@@ -15654,6 +17033,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Texture2DMS",
           "normalized": "TextureDataType(Regular a)b-\u003eNatNum c-\u003eTextureType Tex D TexNoMip(TexArrRepr c)c(MultiSample a)b",
@@ -15669,6 +17049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Texture3D",
           "package": "lambdacube-core",
@@ -15678,6 +17059,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Texture3D",
           "normalized": "TextureDataType(Regular a)b-\u003eTextureType Tex D TexMip SingleTex(Regular a)b",
@@ -15693,6 +17075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TextureBuffer",
           "package": "lambdacube-core",
@@ -15702,6 +17085,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TextureBuffer",
           "normalized": "TextureDataType(Regular a)b-\u003eTextureType Tex D TexNoMip SingleTex(Buffer a)b",
@@ -15717,6 +17101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TextureCube",
           "package": "lambdacube-core",
@@ -15726,6 +17111,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TextureCube",
           "normalized": "TextureDataType a b-\u003eTextureType Tex D TexMip CubeTex a b",
@@ -15741,6 +17127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TextureRect",
           "package": "lambdacube-core",
@@ -15750,6 +17137,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TextureRect",
           "normalized": "TextureDataType a b-\u003eTextureType TexRect TexNoMip SingleTex a b",
@@ -15765,6 +17153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TextureSlot",
           "package": "lambdacube-core",
@@ -15774,6 +17163,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TextureSlot",
           "normalized": "ByteString-\u003eTextureType a b c d e f-\u003eTexture g a c e f",
@@ -15789,6 +17179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Triangle",
           "package": "lambdacube-core",
@@ -15798,6 +17189,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Triangle",
           "package": "lambdacube-core",
@@ -15811,6 +17203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TriangleAdjacency",
           "package": "lambdacube-core",
@@ -15820,6 +17213,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TriangleAdjacency",
           "package": "lambdacube-core",
@@ -15833,6 +17227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TriangleCtx",
           "package": "lambdacube-core",
@@ -15842,6 +17237,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TriangleCtx",
           "normalized": "CullMode-\u003ePolygonMode-\u003ePolygonOffset-\u003eProvokingVertex-\u003eRasterContext Triangle",
@@ -15857,6 +17253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Triangles",
           "package": "lambdacube-core",
@@ -15866,6 +17263,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Triangles",
           "package": "lambdacube-core",
@@ -15879,6 +17277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TrianglesAdjacency",
           "package": "lambdacube-core",
@@ -15888,6 +17287,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TrianglesAdjacency",
           "package": "lambdacube-core",
@@ -15901,6 +17301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "TrianglesOutput",
           "package": "lambdacube-core",
@@ -15910,6 +17311,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "TrianglesOutput",
           "package": "lambdacube-core",
@@ -15923,6 +17325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "V",
           "package": "lambdacube-core",
@@ -15932,6 +17335,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "V",
           "package": "lambdacube-core",
@@ -15944,6 +17348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "Word",
           "package": "lambdacube-core",
@@ -15953,6 +17358,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "Word",
           "normalized": "a-\u003eTextureDataType(Regular Word)a",
@@ -15968,6 +17374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ZT",
           "package": "lambdacube-core",
@@ -15977,6 +17384,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ZT",
           "package": "lambdacube-core",
@@ -15990,6 +17398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ZZ",
           "package": "lambdacube-core",
@@ -15999,6 +17408,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ZZ",
           "package": "lambdacube-core",
@@ -16012,6 +17422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "accOperations",
           "package": "lambdacube-core",
@@ -16021,6 +17432,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "accOperations",
           "package": "lambdacube-core",
@@ -16034,6 +17446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "accViewportName",
           "package": "lambdacube-core",
@@ -16043,6 +17456,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "accViewportName",
           "package": "lambdacube-core",
@@ -16056,6 +17470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "blend",
           "package": "lambdacube-core",
@@ -16065,6 +17480,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "blend",
           "package": "lambdacube-core",
@@ -16077,6 +17493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxCullMode",
           "package": "lambdacube-core",
@@ -16086,6 +17503,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxCullMode",
           "package": "lambdacube-core",
@@ -16099,6 +17517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxFadeThresholdSize",
           "package": "lambdacube-core",
@@ -16108,6 +17527,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxFadeThresholdSize",
           "package": "lambdacube-core",
@@ -16121,6 +17541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxLineWidth",
           "package": "lambdacube-core",
@@ -16130,6 +17551,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxLineWidth",
           "package": "lambdacube-core",
@@ -16143,6 +17565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxPointSize",
           "package": "lambdacube-core",
@@ -16152,6 +17575,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxPointSize",
           "package": "lambdacube-core",
@@ -16165,6 +17589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxPolygonMode",
           "package": "lambdacube-core",
@@ -16174,6 +17599,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxPolygonMode",
           "package": "lambdacube-core",
@@ -16187,6 +17613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxPolygonOffset",
           "package": "lambdacube-core",
@@ -16196,6 +17623,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxPolygonOffset",
           "package": "lambdacube-core",
@@ -16209,6 +17637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxProvokingVertex",
           "package": "lambdacube-core",
@@ -16218,6 +17647,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxProvokingVertex",
           "package": "lambdacube-core",
@@ -16231,6 +17661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxProvokingVertex'",
           "package": "lambdacube-core",
@@ -16240,6 +17671,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxProvokingVertex'",
           "package": "lambdacube-core",
@@ -16253,6 +17685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "ctxSpriteCoordOrigin",
           "package": "lambdacube-core",
@@ -16262,6 +17695,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "ctxSpriteCoordOrigin",
           "package": "lambdacube-core",
@@ -16275,6 +17709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n0",
           "package": "lambdacube-core",
@@ -16284,6 +17719,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n0",
           "package": "lambdacube-core",
@@ -16296,6 +17732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n1",
           "package": "lambdacube-core",
@@ -16305,6 +17742,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n1",
           "package": "lambdacube-core",
@@ -16317,6 +17755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n2",
           "package": "lambdacube-core",
@@ -16326,6 +17765,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n2",
           "package": "lambdacube-core",
@@ -16338,6 +17778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n3",
           "package": "lambdacube-core",
@@ -16347,6 +17788,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n3",
           "package": "lambdacube-core",
@@ -16359,6 +17801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n4",
           "package": "lambdacube-core",
@@ -16368,6 +17811,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n4",
           "package": "lambdacube-core",
@@ -16380,6 +17824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n5",
           "package": "lambdacube-core",
@@ -16389,6 +17834,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n5",
           "package": "lambdacube-core",
@@ -16401,6 +17847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n6",
           "package": "lambdacube-core",
@@ -16410,6 +17857,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n6",
           "package": "lambdacube-core",
@@ -16422,6 +17870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n7",
           "package": "lambdacube-core",
@@ -16431,6 +17880,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n7",
           "package": "lambdacube-core",
@@ -16443,6 +17893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n8",
           "package": "lambdacube-core",
@@ -16452,6 +17903,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n8",
           "package": "lambdacube-core",
@@ -16464,6 +17916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "n9",
           "package": "lambdacube-core",
@@ -16473,6 +17926,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "n9",
           "package": "lambdacube-core",
@@ -16485,6 +17939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "toColorArity",
           "package": "lambdacube-core",
@@ -16494,6 +17949,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "toColorArity",
           "normalized": "a-\u003eColorArity",
@@ -16509,6 +17965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "toInput",
           "package": "lambdacube-core",
@@ -16518,6 +17975,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "toInput",
           "normalized": "Input a-\u003e(ByteString,InputType)",
@@ -16533,6 +17991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "toInputList",
           "package": "lambdacube-core",
@@ -16542,6 +18001,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "toInputList",
           "normalized": "a-\u003e[(ByteString,InputType)]",
@@ -16557,6 +18017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_APIType",
           "name": "triangleCtx",
           "package": "lambdacube-core",
@@ -16566,6 +18027,7 @@
         },
         "index": {
           "hierarchy": "LC_T_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_APIType",
           "name": "triangleCtx",
           "package": "lambdacube-core",
@@ -16579,6 +18041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "LC_T_DSLType",
           "package": "lambdacube-core",
@@ -16587,6 +18050,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "LC_T_DSLType",
           "package": "lambdacube-core",
@@ -16600,6 +18064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "EltRepr",
           "package": "lambdacube-core",
@@ -16608,6 +18073,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "EltRepr",
           "package": "lambdacube-core",
@@ -16621,6 +18087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "EltRepr'",
           "package": "lambdacube-core",
@@ -16629,6 +18096,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "EltRepr'",
           "package": "lambdacube-core",
@@ -16642,6 +18110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "GPU",
           "package": "lambdacube-core",
@@ -16650,6 +18119,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "GPU",
           "package": "lambdacube-core",
@@ -16663,6 +18133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "IsScalar",
           "package": "lambdacube-core",
@@ -16671,6 +18142,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "IsScalar",
           "package": "lambdacube-core",
@@ -16685,6 +18157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion between surface n-tuples and our tuple representation.\n\u003c/p\u003e\u003cp\u003eour language uses nested tuple representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "IsTuple",
           "package": "lambdacube-core",
@@ -16694,6 +18167,7 @@
         "index": {
           "description": "Conversion between surface n-tuples and our tuple representation our language uses nested tuple representation",
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "IsTuple",
           "package": "lambdacube-core",
@@ -16707,6 +18181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "RG",
           "package": "lambdacube-core",
@@ -16715,6 +18190,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "RG",
           "package": "lambdacube-core",
@@ -16728,6 +18204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "RGB",
           "package": "lambdacube-core",
@@ -16736,6 +18213,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "RGB",
           "package": "lambdacube-core",
@@ -16749,6 +18227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "RGBA",
           "package": "lambdacube-core",
@@ -16757,6 +18236,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "RGBA",
           "package": "lambdacube-core",
@@ -16770,6 +18250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Red",
           "package": "lambdacube-core",
@@ -16778,6 +18259,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Red",
           "package": "lambdacube-core",
@@ -16791,6 +18273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "SGPU",
           "package": "lambdacube-core",
@@ -16799,6 +18282,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "SGPU",
           "package": "lambdacube-core",
@@ -16812,6 +18296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Sampler",
           "package": "lambdacube-core",
@@ -16820,6 +18305,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Sampler",
           "package": "lambdacube-core",
@@ -16833,6 +18319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "TextureArray",
           "package": "lambdacube-core",
@@ -16841,6 +18328,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "TextureArray",
           "package": "lambdacube-core",
@@ -16854,6 +18342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "TextureSemantics",
           "package": "lambdacube-core",
@@ -16862,6 +18351,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "TextureSemantics",
           "package": "lambdacube-core",
@@ -16875,6 +18365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "TextureShape",
           "package": "lambdacube-core",
@@ -16883,6 +18374,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "TextureShape",
           "package": "lambdacube-core",
@@ -16897,6 +18389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe represent tuples as heterogenous lists, typed by a type list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Tuple",
           "package": "lambdacube-core",
@@ -16906,6 +18399,7 @@
         "index": {
           "description": "We represent tuples as heterogenous lists typed by type list",
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Tuple",
           "package": "lambdacube-core",
@@ -16920,6 +18414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-safe projection indicies for tuples.\n\u003c/p\u003e\u003cp\u003eNB: We index tuples by starting to count from the *right*!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "TupleIdx",
           "package": "lambdacube-core",
@@ -16929,6 +18424,7 @@
         "index": {
           "description": "Type-safe projection indicies for tuples NB We index tuples by starting to count from the right",
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "TupleIdx",
           "package": "lambdacube-core",
@@ -16942,6 +18438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "ArrayTex",
           "package": "lambdacube-core",
@@ -16951,6 +18448,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "ArrayTex",
           "package": "lambdacube-core",
@@ -16964,6 +18462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Buffer",
           "package": "lambdacube-core",
@@ -16973,6 +18472,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Buffer",
           "package": "lambdacube-core",
@@ -16986,6 +18486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "CubeTex",
           "package": "lambdacube-core",
@@ -16995,6 +18496,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "CubeTex",
           "package": "lambdacube-core",
@@ -17008,6 +18510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "MultiSample",
           "package": "lambdacube-core",
@@ -17017,6 +18520,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "MultiSample",
           "package": "lambdacube-core",
@@ -17030,6 +18534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "NilTup",
           "package": "lambdacube-core",
@@ -17039,6 +18544,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "NilTup",
           "normalized": "Tuple a()",
@@ -17054,6 +18560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "RG",
           "package": "lambdacube-core",
@@ -17063,6 +18570,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "RG",
           "package": "lambdacube-core",
@@ -17076,6 +18584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "RGB",
           "package": "lambdacube-core",
@@ -17085,6 +18594,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "RGB",
           "package": "lambdacube-core",
@@ -17098,6 +18608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "RGBA",
           "package": "lambdacube-core",
@@ -17107,6 +18618,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "RGBA",
           "package": "lambdacube-core",
@@ -17120,6 +18632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Red",
           "package": "lambdacube-core",
@@ -17129,6 +18642,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Red",
           "package": "lambdacube-core",
@@ -17142,6 +18656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Regular",
           "package": "lambdacube-core",
@@ -17151,6 +18666,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Regular",
           "package": "lambdacube-core",
@@ -17164,6 +18680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Shadow",
           "package": "lambdacube-core",
@@ -17173,6 +18690,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Shadow",
           "package": "lambdacube-core",
@@ -17186,6 +18704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "SingleTex",
           "package": "lambdacube-core",
@@ -17195,6 +18714,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "SingleTex",
           "package": "lambdacube-core",
@@ -17208,6 +18728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "SnocTup",
           "package": "lambdacube-core",
@@ -17217,6 +18738,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "SnocTup",
           "normalized": "Tuple a b-\u003ea c-\u003eTuple a(b,c)",
@@ -17232,6 +18754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "SuccTupIdx",
           "package": "lambdacube-core",
@@ -17241,6 +18764,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "SuccTupIdx",
           "normalized": "TupleIdx a b-\u003eTupleIdx(a,c)b",
@@ -17256,6 +18780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Tex1D",
           "package": "lambdacube-core",
@@ -17265,6 +18790,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Tex1D",
           "package": "lambdacube-core",
@@ -17278,6 +18804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Tex2D",
           "package": "lambdacube-core",
@@ -17287,6 +18814,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Tex2D",
           "package": "lambdacube-core",
@@ -17300,6 +18828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "Tex3D",
           "package": "lambdacube-core",
@@ -17309,6 +18838,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "Tex3D",
           "package": "lambdacube-core",
@@ -17322,6 +18852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "TexRect",
           "package": "lambdacube-core",
@@ -17331,6 +18862,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "TexRect",
           "package": "lambdacube-core",
@@ -17344,6 +18876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "ZeroTupIdx",
           "package": "lambdacube-core",
@@ -17353,6 +18886,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "ZeroTupIdx",
           "normalized": "TupleIdx(a,b)b",
@@ -17368,6 +18902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix0",
           "package": "lambdacube-core",
@@ -17377,6 +18912,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix0",
           "normalized": "TupleIdx(a,b)b",
@@ -17391,6 +18927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix1",
           "package": "lambdacube-core",
@@ -17400,6 +18937,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix1",
           "normalized": "TupleIdx((a,b),b)b",
@@ -17414,6 +18952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix2",
           "package": "lambdacube-core",
@@ -17423,6 +18962,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix2",
           "normalized": "TupleIdx(((a,b),b),b)b",
@@ -17437,6 +18977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix3",
           "package": "lambdacube-core",
@@ -17446,6 +18987,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix3",
           "normalized": "TupleIdx((((a,b),b),b),b)b",
@@ -17460,6 +19002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix4",
           "package": "lambdacube-core",
@@ -17469,6 +19012,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix4",
           "normalized": "TupleIdx(((((a,b),b),b),b),b)b",
@@ -17483,6 +19027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix5",
           "package": "lambdacube-core",
@@ -17492,6 +19037,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix5",
           "normalized": "TupleIdx((((((a,b),b),b),b),b),b)b",
@@ -17506,6 +19052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix6",
           "package": "lambdacube-core",
@@ -17515,6 +19062,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix6",
           "normalized": "TupleIdx(((((((a,b),b),b),b),b),b),b)b",
@@ -17529,6 +19077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix7",
           "package": "lambdacube-core",
@@ -17538,6 +19087,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix7",
           "normalized": "TupleIdx((((((((a,b),b),b),b),b),b),b),b)b",
@@ -17552,6 +19102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tix8",
           "package": "lambdacube-core",
@@ -17561,6 +19112,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tix8",
           "normalized": "TupleIdx(((((((((a,b),b),b),b),b),b),b),b),b)b",
@@ -17575,6 +19127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "toType",
           "package": "lambdacube-core",
@@ -17584,6 +19137,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "toType",
           "normalized": "a-\u003eInputType",
@@ -17599,6 +19153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "toValue",
           "package": "lambdacube-core",
@@ -17608,6 +19163,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "toValue",
           "normalized": "a-\u003eValue",
@@ -17623,6 +19179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_DSLType",
           "name": "tupleType",
           "package": "lambdacube-core",
@@ -17632,6 +19189,7 @@
         },
         "index": {
           "hierarchy": "LC_T_DSLType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_DSLType",
           "name": "tupleType",
           "normalized": "a-\u003eTy",
@@ -17647,6 +19205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "LC_T_HOAS",
           "package": "lambdacube-core",
@@ -17655,6 +19214,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "LC_T_HOAS",
           "package": "lambdacube-core",
@@ -17668,6 +19228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Exp",
           "package": "lambdacube-core",
@@ -17676,6 +19237,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Exp",
           "package": "lambdacube-core",
@@ -17689,6 +19251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "FlatExp",
           "package": "lambdacube-core",
@@ -17697,6 +19260,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "FlatExp",
           "package": "lambdacube-core",
@@ -17710,6 +19274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "FragmentFilter",
           "package": "lambdacube-core",
@@ -17718,6 +19283,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "FragmentFilter",
           "package": "lambdacube-core",
@@ -17731,6 +19297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "FragmentOut",
           "package": "lambdacube-core",
@@ -17739,6 +19306,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "FragmentOut",
           "package": "lambdacube-core",
@@ -17752,6 +19320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "GPOutput",
           "package": "lambdacube-core",
@@ -17760,6 +19329,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "GPOutput",
           "package": "lambdacube-core",
@@ -17773,6 +19343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "GeometryOut",
           "package": "lambdacube-core",
@@ -17781,6 +19352,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "GeometryOut",
           "package": "lambdacube-core",
@@ -17794,6 +19366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "GeometryShader",
           "package": "lambdacube-core",
@@ -17802,6 +19375,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "GeometryShader",
           "package": "lambdacube-core",
@@ -17815,6 +19389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "InterpolatedFlatExp",
           "package": "lambdacube-core",
@@ -17823,6 +19398,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "InterpolatedFlatExp",
           "package": "lambdacube-core",
@@ -17836,6 +19412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "VertexOut",
           "package": "lambdacube-core",
@@ -17844,6 +19421,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "VertexOut",
           "package": "lambdacube-core",
@@ -17857,6 +19435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Accumulate",
           "package": "lambdacube-core",
@@ -17866,6 +19445,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Accumulate",
           "normalized": "AccumulationContext a-\u003eFragmentFilter b-\u003e(Exp F b-\u003eFragmentOut(NoStencilRepr a))-\u003eExp Obj(FragmentStream c b)-\u003eExp Obj(FrameBuffer c(FTRepr' a))-\u003eExp Obj(FrameBuffer c(FTRepr' a))",
@@ -17881,6 +19461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Cond",
           "package": "lambdacube-core",
@@ -17890,6 +19471,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Cond",
           "normalized": "Exp a Bool-\u003eExp a b-\u003eExp a b-\u003eExp a b",
@@ -17905,6 +19487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Const",
           "package": "lambdacube-core",
@@ -17914,6 +19497,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Const",
           "normalized": "a-\u003eExp b a",
@@ -17929,6 +19513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Fetch",
           "package": "lambdacube-core",
@@ -17938,6 +19523,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Fetch",
           "normalized": "ByteString-\u003eFetchPrimitive a-\u003eb-\u003eExp Obj(VertexStream a(InputTupleRepr b))",
@@ -17953,6 +19539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Filter",
           "package": "lambdacube-core",
@@ -17962,6 +19549,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Filter",
           "normalized": "(Exp F a-\u003eExp F Bool)-\u003eFragmentFilter a",
@@ -17977,6 +19565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "FragmentOut",
           "package": "lambdacube-core",
@@ -17986,6 +19575,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "FragmentOut",
           "normalized": "FlatExp F a-\u003eFragmentOut(ColorRepr a)",
@@ -18001,6 +19591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "FragmentOutDepth",
           "package": "lambdacube-core",
@@ -18010,6 +19601,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "FragmentOutDepth",
           "normalized": "Exp F Float-\u003eFlatExp F a-\u003eFragmentOut(Depth Float ColorRepr a)",
@@ -18025,6 +19617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "FragmentOutRastDepth",
           "package": "lambdacube-core",
@@ -18034,6 +19627,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "FragmentOutRastDepth",
           "normalized": "FlatExp F a-\u003eFragmentOut(Depth Float ColorRepr a)",
@@ -18049,6 +19643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "FrameBuffer",
           "package": "lambdacube-core",
@@ -18058,6 +19653,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "FrameBuffer",
           "normalized": "FrameBuffer a b-\u003eExp Obj(FrameBuffer a(FTRepr' b))",
@@ -18073,6 +19669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "GeometryOut",
           "package": "lambdacube-core",
@@ -18082,6 +19679,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "GeometryOut",
           "normalized": "Exp G a-\u003eExp G V F-\u003eExp G Float-\u003eFlatExp G b-\u003eInterpolatedFlatExp G c-\u003eGeometryOut a(FTRepr b)(FTRepr c)",
@@ -18097,6 +19695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "GeometryShader",
           "package": "lambdacube-core",
@@ -18106,6 +19705,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "GeometryShader",
           "normalized": "NatNum a-\u003eOutputPrimitive b-\u003eInt-\u003e(Exp G c-\u003eExp G(d,Int))-\u003e(Exp G d-\u003eExp G(Int,Int,d,e,Int))-\u003e(Exp G e-\u003eGeometryOut e f g)-\u003eGeometryShader h b i f a j g",
@@ -18121,6 +19721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "ImageOut",
           "package": "lambdacube-core",
@@ -18130,6 +19731,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "ImageOut",
           "normalized": "ByteString-\u003eV U-\u003eExp Obj(Image a)-\u003eGPOutput SingleOutput",
@@ -18145,6 +19747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Loop",
           "package": "lambdacube-core",
@@ -18154,6 +19757,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Loop",
           "normalized": "(Exp a b-\u003eExp a b)-\u003e(Exp a b-\u003eExp a Bool)-\u003e(Exp a b-\u003eExp a c)-\u003eExp a b-\u003eExp a c",
@@ -18169,6 +19773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "MultiOut",
           "package": "lambdacube-core",
@@ -18178,6 +19783,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "MultiOut",
           "normalized": "[GPOutput SingleOutput]-\u003eGPOutput MultiOutput",
@@ -18193,6 +19799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "PassAll",
           "package": "lambdacube-core",
@@ -18202,6 +19809,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "PassAll",
           "package": "lambdacube-core",
@@ -18215,6 +19823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "PrimApp",
           "package": "lambdacube-core",
@@ -18224,6 +19833,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "PrimApp",
           "normalized": "PrimFun a(b-\u003ec)-\u003eExp a b-\u003eExp a c",
@@ -18239,6 +19849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "PrimVar",
           "package": "lambdacube-core",
@@ -18248,6 +19859,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "PrimVar",
           "normalized": "Input a-\u003eExp b a",
@@ -18263,6 +19875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Prj",
           "package": "lambdacube-core",
@@ -18272,6 +19885,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Prj",
           "normalized": "TupleIdx(TupleRepr a)b-\u003eExp c a-\u003eExp c b",
@@ -18287,6 +19901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "PrjFrameBuffer",
           "package": "lambdacube-core",
@@ -18296,6 +19911,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "PrjFrameBuffer",
           "normalized": "ByteString-\u003eTupleIdx(EltRepr a)b-\u003eExp Obj(FrameBuffer c a)-\u003eExp Obj(Image c b)",
@@ -18311,6 +19927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "PrjImage",
           "package": "lambdacube-core",
@@ -18320,6 +19937,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "PrjImage",
           "normalized": "ByteString-\u003eNatNum a-\u003eExp Obj(Image b c)-\u003eExp Obj(Image c)",
@@ -18335,6 +19953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Rasterize",
           "package": "lambdacube-core",
@@ -18344,6 +19963,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Rasterize",
           "normalized": "RasterContext a-\u003eExp Obj(PrimitiveStream a b c d e)-\u003eExp Obj(FragmentStream c e)",
@@ -18359,6 +19979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Reassemble",
           "package": "lambdacube-core",
@@ -18368,6 +19989,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Reassemble",
           "normalized": "GeometryShader a b c d e f g-\u003eExp Obj(PrimitiveStream a c V f)-\u003eExp Obj(PrimitiveStream b d e G g)",
@@ -18383,6 +20005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Sampler",
           "package": "lambdacube-core",
@@ -18392,6 +20015,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Sampler",
           "normalized": "Filter-\u003eEdgeMode-\u003eTexture(Exp Obj)a b c d-\u003eExp e(Sampler a b c d)",
@@ -18407,6 +20031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "ScreenOut",
           "package": "lambdacube-core",
@@ -18416,6 +20041,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "ScreenOut",
           "normalized": "Exp Obj(Image a)-\u003eGPOutput SingleOutput",
@@ -18431,6 +20057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Tag",
           "package": "lambdacube-core",
@@ -18440,6 +20067,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Tag",
           "normalized": "Int-\u003eString-\u003eExp a b",
@@ -18455,6 +20083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Transform",
           "package": "lambdacube-core",
@@ -18464,6 +20093,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Transform",
           "normalized": "(Exp V a-\u003eVertexOut b c)-\u003eExp Obj(VertexStream d a)-\u003eExp Obj(PrimitiveStream d b V c)",
@@ -18479,6 +20109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Tup",
           "package": "lambdacube-core",
@@ -18488,6 +20119,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Tup",
           "normalized": "Tuple(Exp a)(TupleRepr b)-\u003eExp a b",
@@ -18503,6 +20135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "Uni",
           "package": "lambdacube-core",
@@ -18512,6 +20145,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "Uni",
           "normalized": "Input a-\u003eExp b a",
@@ -18527,6 +20161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_HOAS",
           "name": "VertexOut",
           "package": "lambdacube-core",
@@ -18536,6 +20171,7 @@
         },
         "index": {
           "hierarchy": "LC_T_HOAS",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_HOAS",
           "name": "VertexOut",
           "normalized": "Exp V V F-\u003eExp V Float-\u003eFlatExp V a-\u003eInterpolatedFlatExp V b-\u003eVertexOut(FTRepr a)(FTRepr b)",
@@ -18551,6 +20187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "LC_T_Language",
           "package": "lambdacube-core",
@@ -18559,6 +20196,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "LC_T_Language",
           "package": "lambdacube-core",
@@ -18572,6 +20210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "BuiltinCommon",
           "package": "lambdacube-core",
@@ -18580,6 +20219,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "BuiltinCommon",
           "package": "lambdacube-core",
@@ -18593,6 +20233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "BuiltinMix",
           "package": "lambdacube-core",
@@ -18601,6 +20242,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "BuiltinMix",
           "package": "lambdacube-core",
@@ -18614,6 +20256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "BuiltinStep",
           "package": "lambdacube-core",
@@ -18622,6 +20265,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "BuiltinStep",
           "package": "lambdacube-core",
@@ -18635,6 +20279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "IdentityMatrix",
           "package": "lambdacube-core",
@@ -18643,6 +20288,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "IdentityMatrix",
           "package": "lambdacube-core",
@@ -18656,6 +20302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "OperatorArithmetic",
           "package": "lambdacube-core",
@@ -18664,6 +20311,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "OperatorArithmetic",
           "package": "lambdacube-core",
@@ -18677,6 +20325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "OperatorBit",
           "package": "lambdacube-core",
@@ -18685,6 +20334,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "OperatorBit",
           "package": "lambdacube-core",
@@ -18698,6 +20348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "OperatorDivide",
           "package": "lambdacube-core",
@@ -18706,6 +20357,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "OperatorDivide",
           "package": "lambdacube-core",
@@ -18719,6 +20371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "OperatorEq",
           "package": "lambdacube-core",
@@ -18727,6 +20380,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "OperatorEq",
           "package": "lambdacube-core",
@@ -18740,6 +20394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "OperatorRelational",
           "package": "lambdacube-core",
@@ -18748,6 +20403,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "OperatorRelational",
           "package": "lambdacube-core",
@@ -18761,6 +20417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "OperatorShift",
           "package": "lambdacube-core",
@@ -18769,6 +20426,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "OperatorShift",
           "package": "lambdacube-core",
@@ -18782,6 +20440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "PkgVec",
           "package": "lambdacube-core",
@@ -18790,6 +20449,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "PkgVec",
           "package": "lambdacube-core",
@@ -18803,6 +20463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "SpecialConstant",
           "package": "lambdacube-core",
@@ -18811,6 +20472,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "SpecialConstant",
           "package": "lambdacube-core",
@@ -18824,6 +20486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@|)",
           "package": "lambdacube-core",
@@ -18833,6 +20496,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@|) @|",
           "normalized": "a-\u003eb-\u003ea",
@@ -18847,6 +20511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@||)",
           "package": "lambdacube-core",
@@ -18856,6 +20521,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@||) @||",
           "normalized": "Exp a Bool-\u003eExp a Bool-\u003eExp a Bool",
@@ -18870,6 +20536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@#)",
           "package": "lambdacube-core",
@@ -18879,6 +20546,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@#) @#",
           "normalized": "Exp a(V Float)-\u003eExp a(V Float)-\u003eExp a(V Float)",
@@ -18893,6 +20561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@%)",
           "package": "lambdacube-core",
@@ -18902,6 +20571,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@%) @%",
           "normalized": "a-\u003eb-\u003ea",
@@ -18916,6 +20586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@&)",
           "package": "lambdacube-core",
@@ -18925,6 +20596,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@&) @&",
           "normalized": "a-\u003eb-\u003ea",
@@ -18939,6 +20611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@&&)",
           "package": "lambdacube-core",
@@ -18948,6 +20621,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@&&) @&&",
           "normalized": "Exp a Bool-\u003eExp a Bool-\u003eExp a Bool",
@@ -18962,6 +20636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@*)",
           "package": "lambdacube-core",
@@ -18971,6 +20646,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@*) @*",
           "normalized": "a-\u003eb-\u003ea",
@@ -18985,6 +20661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@*.)",
           "package": "lambdacube-core",
@@ -18994,6 +20671,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@*.) @*.",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d",
@@ -19008,6 +20686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@+)",
           "package": "lambdacube-core",
@@ -19017,6 +20696,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@+) @+",
           "normalized": "a-\u003eb-\u003ea",
@@ -19031,6 +20711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@-)",
           "package": "lambdacube-core",
@@ -19040,6 +20721,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@-) @-",
           "normalized": "a-\u003eb-\u003ea",
@@ -19054,6 +20736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@/)",
           "package": "lambdacube-core",
@@ -19063,6 +20746,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@/) @/",
           "normalized": "a-\u003eb-\u003ea",
@@ -19077,6 +20761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@/=)",
           "package": "lambdacube-core",
@@ -19086,6 +20771,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@/=) @/=",
           "normalized": "a-\u003ea-\u003eb",
@@ -19100,6 +20786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@\u003c)",
           "package": "lambdacube-core",
@@ -19109,6 +20796,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@\u003c) @\u003c",
           "normalized": "a-\u003ea-\u003eb",
@@ -19123,6 +20811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@\u003c\u003c)",
           "package": "lambdacube-core",
@@ -19132,6 +20821,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@\u003c\u003c) @\u003c\u003c",
           "normalized": "a-\u003eb-\u003ea",
@@ -19146,6 +20836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@\u003c=)",
           "package": "lambdacube-core",
@@ -19155,6 +20846,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@\u003c=) @\u003c=",
           "normalized": "a-\u003ea-\u003eb",
@@ -19169,6 +20861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@==)",
           "package": "lambdacube-core",
@@ -19178,6 +20871,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@==) @==",
           "normalized": "a-\u003ea-\u003eb",
@@ -19192,6 +20886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@\u003e)",
           "package": "lambdacube-core",
@@ -19201,6 +20896,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@\u003e) @\u003e",
           "normalized": "a-\u003ea-\u003eb",
@@ -19215,6 +20911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@\u003e=)",
           "package": "lambdacube-core",
@@ -19224,6 +20921,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@\u003e=) @\u003e=",
           "normalized": "a-\u003ea-\u003eb",
@@ -19238,6 +20936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@\u003e\u003e)",
           "package": "lambdacube-core",
@@ -19247,6 +20946,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@\u003e\u003e) @\u003e\u003e",
           "normalized": "a-\u003eb-\u003ea",
@@ -19261,6 +20961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@^)",
           "package": "lambdacube-core",
@@ -19270,6 +20971,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@^) @^",
           "normalized": "a-\u003eb-\u003ea",
@@ -19284,6 +20986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@.)",
           "package": "lambdacube-core",
@@ -19293,6 +20996,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@.) @.",
           "normalized": "Exp a b-\u003eExp a b-\u003eExp a Float",
@@ -19307,6 +21011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@.*)",
           "package": "lambdacube-core",
@@ -19316,6 +21021,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@.*) @.*",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d",
@@ -19330,6 +21036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "(@.*.)",
           "package": "lambdacube-core",
@@ -19339,6 +21046,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "(@.*.) @.*.",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d",
@@ -19353,6 +21061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "abs'",
           "package": "lambdacube-core",
@@ -19362,6 +21071,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "abs'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19376,6 +21086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "acos'",
           "package": "lambdacube-core",
@@ -19385,6 +21096,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "acos'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19399,6 +21111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "acosh'",
           "package": "lambdacube-core",
@@ -19408,6 +21121,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "acosh'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19422,6 +21136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "all'",
           "package": "lambdacube-core",
@@ -19431,6 +21146,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "all'",
           "normalized": "Exp a b-\u003eExp a Bool",
@@ -19445,6 +21161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "any'",
           "package": "lambdacube-core",
@@ -19454,6 +21171,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "any'",
           "normalized": "Exp a b-\u003eExp a Bool",
@@ -19468,6 +21186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "asin'",
           "package": "lambdacube-core",
@@ -19477,6 +21196,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "asin'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19491,6 +21211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "asinh'",
           "package": "lambdacube-core",
@@ -19500,6 +21221,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "asinh'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19514,6 +21236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "atan'",
           "package": "lambdacube-core",
@@ -19523,6 +21246,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "atan'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19537,6 +21261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "atan2'",
           "package": "lambdacube-core",
@@ -19546,6 +21271,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "atan2'",
           "normalized": "Exp a b-\u003eExp a b-\u003eExp a b",
@@ -19560,6 +21286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "atanh'",
           "package": "lambdacube-core",
@@ -19569,6 +21296,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "atanh'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19583,6 +21311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "ceil'",
           "package": "lambdacube-core",
@@ -19592,6 +21321,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "ceil'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19606,6 +21336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "clamp'",
           "package": "lambdacube-core",
@@ -19615,6 +21346,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "clamp'",
           "normalized": "a-\u003eb-\u003eb-\u003ea",
@@ -19629,6 +21361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "complement'",
           "package": "lambdacube-core",
@@ -19638,6 +21371,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "complement'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19652,6 +21386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "cos'",
           "package": "lambdacube-core",
@@ -19661,6 +21396,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "cos'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19675,6 +21411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "cosh'",
           "package": "lambdacube-core",
@@ -19684,6 +21421,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "cosh'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19698,6 +21436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "cross'",
           "package": "lambdacube-core",
@@ -19707,6 +21446,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "cross'",
           "normalized": "Exp a(V Float)-\u003eExp a(V Float)-\u003eExp a(V Float)",
@@ -19721,6 +21461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "dFdx'",
           "package": "lambdacube-core",
@@ -19730,6 +21471,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "dFdx'",
           "normalized": "Exp F a-\u003eExp F a",
@@ -19745,6 +21487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "dFdy'",
           "package": "lambdacube-core",
@@ -19754,6 +21497,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "dFdy'",
           "normalized": "Exp F a-\u003eExp F a",
@@ -19769,6 +21513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "degrees'",
           "package": "lambdacube-core",
@@ -19778,6 +21523,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "degrees'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19792,6 +21538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "determinant'",
           "package": "lambdacube-core",
@@ -19801,6 +21548,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "determinant'",
           "normalized": "Exp a b-\u003eExp a Float",
@@ -19815,6 +21563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "distance'",
           "package": "lambdacube-core",
@@ -19824,6 +21573,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "distance'",
           "normalized": "Exp a b-\u003eExp a b-\u003eExp a Float",
@@ -19838,6 +21588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "dot'",
           "package": "lambdacube-core",
@@ -19847,6 +21598,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "dot'",
           "normalized": "Exp a b-\u003eExp a b-\u003eExp a Float",
@@ -19861,6 +21613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "exp'",
           "package": "lambdacube-core",
@@ -19870,6 +21623,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "exp'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19884,6 +21638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "exp2'",
           "package": "lambdacube-core",
@@ -19893,6 +21648,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "exp2'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -19907,6 +21663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "faceforward'",
           "package": "lambdacube-core",
@@ -19916,6 +21673,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "faceforward'",
           "normalized": "Exp a b-\u003eExp a b-\u003eExp a b-\u003eExp a b",
@@ -19930,6 +21688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "floatBitsToInt'",
           "package": "lambdacube-core",
@@ -19939,6 +21698,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "floatBitsToInt'",
           "normalized": "Exp a b-\u003eExp a c",
@@ -19954,6 +21714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "floatBitsToUint'",
           "package": "lambdacube-core",
@@ -19963,6 +21724,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "floatBitsToUint'",
           "normalized": "Exp a b-\u003eExp a c",
@@ -19978,6 +21740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "floor'",
           "package": "lambdacube-core",
@@ -19987,6 +21750,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "floor'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20001,6 +21765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "fract'",
           "package": "lambdacube-core",
@@ -20010,6 +21775,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "fract'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20024,6 +21790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "fragCoord'",
           "package": "lambdacube-core",
@@ -20033,6 +21800,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "fragCoord'",
           "package": "lambdacube-core",
@@ -20046,6 +21814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "frontFacing'",
           "package": "lambdacube-core",
@@ -20055,6 +21824,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "frontFacing'",
           "package": "lambdacube-core",
@@ -20068,6 +21838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "fwidth'",
           "package": "lambdacube-core",
@@ -20077,6 +21848,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "fwidth'",
           "normalized": "Exp F a-\u003eExp F a",
@@ -20091,6 +21863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "idmtx'",
           "package": "lambdacube-core",
@@ -20100,6 +21873,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "idmtx'",
           "package": "lambdacube-core",
@@ -20112,6 +21886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "instanceID'",
           "package": "lambdacube-core",
@@ -20121,6 +21896,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "instanceID'",
           "package": "lambdacube-core",
@@ -20134,6 +21910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "intBitsToFloat'",
           "package": "lambdacube-core",
@@ -20143,6 +21920,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "intBitsToFloat'",
           "normalized": "Exp a b-\u003eExp a c",
@@ -20158,6 +21936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "inverse'",
           "package": "lambdacube-core",
@@ -20167,6 +21946,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "inverse'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20181,6 +21961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "invsqrt'",
           "package": "lambdacube-core",
@@ -20190,6 +21971,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "invsqrt'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20204,6 +21986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "isinf'",
           "package": "lambdacube-core",
@@ -20213,6 +21996,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "isinf'",
           "normalized": "Exp a b-\u003eExp a c",
@@ -20227,6 +22011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "isnan'",
           "package": "lambdacube-core",
@@ -20236,6 +22021,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "isnan'",
           "normalized": "Exp a b-\u003eExp a c",
@@ -20250,6 +22036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "length'",
           "package": "lambdacube-core",
@@ -20259,6 +22046,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "length'",
           "normalized": "Exp a b-\u003eExp a Float",
@@ -20273,6 +22061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "log'",
           "package": "lambdacube-core",
@@ -20282,6 +22071,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "log'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20296,6 +22086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "log2'",
           "package": "lambdacube-core",
@@ -20305,6 +22096,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "log2'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20319,6 +22111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "max'",
           "package": "lambdacube-core",
@@ -20328,6 +22121,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "max'",
           "normalized": "a-\u003eb-\u003ea",
@@ -20342,6 +22136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "min'",
           "package": "lambdacube-core",
@@ -20351,6 +22146,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "min'",
           "normalized": "a-\u003eb-\u003ea",
@@ -20365,6 +22161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "mix'",
           "package": "lambdacube-core",
@@ -20374,6 +22171,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "mix'",
           "normalized": "a-\u003ea-\u003eb-\u003ea",
@@ -20388,6 +22186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "modf'",
           "package": "lambdacube-core",
@@ -20397,6 +22196,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "modf'",
           "normalized": "Exp a b-\u003eExp a(b,b)",
@@ -20411,6 +22211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "neg'",
           "package": "lambdacube-core",
@@ -20420,6 +22221,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "neg'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20434,6 +22236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "noise1'",
           "package": "lambdacube-core",
@@ -20443,6 +22246,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "noise1'",
           "normalized": "Exp a b-\u003eExp a Float",
@@ -20457,6 +22261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "noise2'",
           "package": "lambdacube-core",
@@ -20466,6 +22271,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "noise2'",
           "normalized": "Exp a b-\u003eExp a(V Float)",
@@ -20480,6 +22286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "noise3'",
           "package": "lambdacube-core",
@@ -20489,6 +22296,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "noise3'",
           "normalized": "Exp a b-\u003eExp a(V Float)",
@@ -20503,6 +22311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "noise4'",
           "package": "lambdacube-core",
@@ -20512,6 +22321,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "noise4'",
           "normalized": "Exp a b-\u003eExp a(V Float)",
@@ -20526,6 +22336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "normalize'",
           "package": "lambdacube-core",
@@ -20535,6 +22346,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "normalize'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20549,6 +22361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "not'",
           "package": "lambdacube-core",
@@ -20558,6 +22371,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "not'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20572,6 +22386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "one'",
           "package": "lambdacube-core",
@@ -20581,6 +22396,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "one'",
           "package": "lambdacube-core",
@@ -20593,6 +22409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "outerProduct'",
           "package": "lambdacube-core",
@@ -20602,6 +22419,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "outerProduct'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d",
@@ -20617,6 +22435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "pack'",
           "package": "lambdacube-core",
@@ -20626,6 +22445,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "pack'",
           "normalized": "a(Exp b c)-\u003eExp b(a c)",
@@ -20640,6 +22460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "pointCoord'",
           "package": "lambdacube-core",
@@ -20649,6 +22470,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "pointCoord'",
           "package": "lambdacube-core",
@@ -20662,6 +22484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "pow'",
           "package": "lambdacube-core",
@@ -20671,6 +22494,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "pow'",
           "normalized": "Exp a b-\u003eExp a b-\u003eExp a b",
@@ -20685,6 +22509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "primitiveID'",
           "package": "lambdacube-core",
@@ -20694,6 +22519,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "primitiveID'",
           "package": "lambdacube-core",
@@ -20707,6 +22533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "primitiveIDIn'",
           "package": "lambdacube-core",
@@ -20716,6 +22543,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "primitiveIDIn'",
           "package": "lambdacube-core",
@@ -20729,6 +22557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "radians'",
           "package": "lambdacube-core",
@@ -20738,6 +22567,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "radians'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20752,6 +22582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "reflect'",
           "package": "lambdacube-core",
@@ -20761,6 +22592,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "reflect'",
           "normalized": "Exp a b-\u003eExp a b-\u003eExp a b",
@@ -20775,6 +22607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "refract'",
           "package": "lambdacube-core",
@@ -20784,6 +22617,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "refract'",
           "normalized": "Exp a b-\u003eExp a b-\u003eExp a b-\u003eExp a b",
@@ -20798,6 +22632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "round'",
           "package": "lambdacube-core",
@@ -20807,6 +22642,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "round'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20821,6 +22657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "roundEven'",
           "package": "lambdacube-core",
@@ -20830,6 +22667,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "roundEven'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20845,6 +22683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "sign'",
           "package": "lambdacube-core",
@@ -20854,6 +22693,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "sign'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20868,6 +22708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "sin'",
           "package": "lambdacube-core",
@@ -20877,6 +22718,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "sin'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20891,6 +22733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "sinh'",
           "package": "lambdacube-core",
@@ -20900,6 +22743,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "sinh'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20914,6 +22758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "smoothstep'",
           "package": "lambdacube-core",
@@ -20923,6 +22768,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "smoothstep'",
           "normalized": "a-\u003ea-\u003eb-\u003eb",
@@ -20937,6 +22783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "sqrt'",
           "package": "lambdacube-core",
@@ -20946,6 +22793,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "sqrt'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -20960,6 +22808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "step'",
           "package": "lambdacube-core",
@@ -20969,6 +22818,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "step'",
           "normalized": "a-\u003eb-\u003eb",
@@ -20983,6 +22833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tan'",
           "package": "lambdacube-core",
@@ -20992,6 +22843,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tan'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -21006,6 +22858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tanh'",
           "package": "lambdacube-core",
@@ -21015,6 +22868,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tanh'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -21029,6 +22883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "texelFetch'",
           "package": "lambdacube-core",
@@ -21038,6 +22893,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "texelFetch'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a(TexelRepr b)",
@@ -21053,6 +22909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "texelFetchOffset'",
           "package": "lambdacube-core",
@@ -21062,6 +22919,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "texelFetchOffset'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a e-\u003eExp a(TexelRepr b)",
@@ -21077,6 +22935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "texture'",
           "package": "lambdacube-core",
@@ -21086,6 +22945,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "texture'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a(TexelRepr b)",
@@ -21100,6 +22960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureB'",
           "package": "lambdacube-core",
@@ -21109,6 +22970,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureB'",
           "normalized": "Exp F a-\u003eExp F b-\u003eExp F c-\u003eExp F(TexelRepr a)",
@@ -21124,6 +22986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureGrad'",
           "package": "lambdacube-core",
@@ -21133,6 +22996,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureGrad'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a e-\u003eExp a(TexelRepr b)",
@@ -21148,6 +23012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureGradOffset'",
           "package": "lambdacube-core",
@@ -21157,6 +23022,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureGradOffset'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a e-\u003eExp a f-\u003eExp a(TexelRepr b)",
@@ -21172,6 +23038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureLod'",
           "package": "lambdacube-core",
@@ -21181,6 +23048,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureLod'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a(TexelRepr b)",
@@ -21196,6 +23064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureLodOffset'",
           "package": "lambdacube-core",
@@ -21205,6 +23074,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureLodOffset'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a e-\u003eExp a(TexelRepr b)",
@@ -21220,6 +23090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureOffset'",
           "package": "lambdacube-core",
@@ -21229,6 +23100,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureOffset'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a(TexelRepr b)",
@@ -21244,6 +23116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureOffsetB'",
           "package": "lambdacube-core",
@@ -21253,6 +23126,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureOffsetB'",
           "normalized": "Exp F a-\u003eExp F b-\u003eExp F c-\u003eExp F d-\u003eExp F(TexelRepr a)",
@@ -21268,6 +23142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureProj'",
           "package": "lambdacube-core",
@@ -21277,6 +23152,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureProj'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a(TexelRepr b)",
@@ -21292,6 +23168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureProjB'",
           "package": "lambdacube-core",
@@ -21301,6 +23178,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureProjB'",
           "normalized": "Exp F a-\u003eExp F b-\u003eExp F c-\u003eExp F(TexelRepr a)",
@@ -21316,6 +23194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureProjGrad'",
           "package": "lambdacube-core",
@@ -21325,6 +23204,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureProjGrad'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a e-\u003eExp a(TexelRepr b)",
@@ -21340,6 +23220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureProjGradOffset'",
           "package": "lambdacube-core",
@@ -21349,6 +23230,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureProjGradOffset'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a e-\u003eExp a f-\u003eExp a(TexelRepr b)",
@@ -21364,6 +23246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureProjLod'",
           "package": "lambdacube-core",
@@ -21373,6 +23256,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureProjLod'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a(TexelRepr b)",
@@ -21388,6 +23272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureProjLodOffset'",
           "package": "lambdacube-core",
@@ -21397,6 +23282,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureProjLodOffset'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a e-\u003eExp a(TexelRepr b)",
@@ -21412,6 +23298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureProjOffset'",
           "package": "lambdacube-core",
@@ -21421,6 +23308,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureProjOffset'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d-\u003eExp a(TexelRepr b)",
@@ -21436,6 +23324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureProjOffsetB'",
           "package": "lambdacube-core",
@@ -21445,6 +23334,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureProjOffsetB'",
           "normalized": "Exp F a-\u003eExp F b-\u003eExp F c-\u003eExp F d-\u003eExp F(TexelRepr a)",
@@ -21460,6 +23350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "textureSize'",
           "package": "lambdacube-core",
@@ -21469,6 +23360,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "textureSize'",
           "normalized": "Exp a b-\u003eExp a c-\u003eExp a d",
@@ -21484,6 +23376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "transpose'",
           "package": "lambdacube-core",
@@ -21493,6 +23386,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "transpose'",
           "normalized": "Exp a b-\u003eExp a c",
@@ -21507,6 +23401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "trunc'",
           "package": "lambdacube-core",
@@ -21516,6 +23411,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "trunc'",
           "normalized": "Exp a b-\u003eExp a b",
@@ -21530,6 +23426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup0",
           "package": "lambdacube-core",
@@ -21539,6 +23436,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup0",
           "normalized": "Exp a()",
@@ -21553,6 +23451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup2",
           "package": "lambdacube-core",
@@ -21562,6 +23461,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup2",
           "normalized": "(Exp a b,Exp a c)-\u003eExp a(b,c)",
@@ -21576,6 +23476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup3",
           "package": "lambdacube-core",
@@ -21585,6 +23486,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup3",
           "normalized": "(Exp a b,Exp a c,Exp a d)-\u003eExp a(b,c,d)",
@@ -21599,6 +23501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup4",
           "package": "lambdacube-core",
@@ -21608,6 +23511,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup4",
           "normalized": "(Exp a b,Exp a c,Exp a d,Exp a e)-\u003eExp a(b,c,d,e)",
@@ -21622,6 +23526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup5",
           "package": "lambdacube-core",
@@ -21631,6 +23536,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup5",
           "normalized": "(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f)-\u003eExp a(b,c,d,e,f)",
@@ -21645,6 +23551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup6",
           "package": "lambdacube-core",
@@ -21654,6 +23561,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup6",
           "normalized": "(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f,Exp a g)-\u003eExp a(b,c,d,e,f,g)",
@@ -21668,6 +23576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup7",
           "package": "lambdacube-core",
@@ -21677,6 +23586,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup7",
           "normalized": "(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f,Exp a g,Exp a h)-\u003eExp a(b,c,d,e,f,g,h)",
@@ -21691,6 +23601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup8",
           "package": "lambdacube-core",
@@ -21700,6 +23611,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup8",
           "normalized": "(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f,Exp a g,Exp a h,Exp a i)-\u003eExp a(b,c,d,e,f,g,h,i)",
@@ -21714,6 +23626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "tup9",
           "package": "lambdacube-core",
@@ -21723,6 +23636,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "tup9",
           "normalized": "(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f,Exp a g,Exp a h,Exp a i,Exp a j)-\u003eExp a(b,c,d,e,f,g,h,i,j)",
@@ -21737,6 +23651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "uintBitsToFloat'",
           "package": "lambdacube-core",
@@ -21746,6 +23661,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "uintBitsToFloat'",
           "normalized": "Exp a b-\u003eExp a c",
@@ -21761,6 +23677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "unpack'",
           "package": "lambdacube-core",
@@ -21770,6 +23687,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "unpack'",
           "normalized": "Exp a(b c)-\u003eb(Exp a c)",
@@ -21784,6 +23702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "untup2",
           "package": "lambdacube-core",
@@ -21793,6 +23712,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "untup2",
           "normalized": "Exp a(b,c)-\u003e(Exp a b,Exp a c)",
@@ -21807,6 +23727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "untup3",
           "package": "lambdacube-core",
@@ -21816,6 +23737,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "untup3",
           "normalized": "Exp a(b,c,d)-\u003e(Exp a b,Exp a c,Exp a d)",
@@ -21830,6 +23752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "untup4",
           "package": "lambdacube-core",
@@ -21839,6 +23762,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "untup4",
           "normalized": "Exp a(b,c,d,e)-\u003e(Exp a b,Exp a c,Exp a d,Exp a e)",
@@ -21853,6 +23777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "untup5",
           "package": "lambdacube-core",
@@ -21862,6 +23787,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "untup5",
           "normalized": "Exp a(b,c,d,e,f)-\u003e(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f)",
@@ -21876,6 +23802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "untup6",
           "package": "lambdacube-core",
@@ -21885,6 +23812,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "untup6",
           "normalized": "Exp a(b,c,d,e,f,g)-\u003e(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f,Exp a g)",
@@ -21899,6 +23827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "untup7",
           "package": "lambdacube-core",
@@ -21908,6 +23837,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "untup7",
           "normalized": "Exp a(b,c,d,e,f,g,h)-\u003e(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f,Exp a g,Exp a h)",
@@ -21922,6 +23852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "untup8",
           "package": "lambdacube-core",
@@ -21931,6 +23862,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "untup8",
           "normalized": "Exp a(b,c,d,e,f,g,h,i)-\u003e(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f,Exp a g,Exp a h,Exp a i)",
@@ -21945,6 +23877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "untup9",
           "package": "lambdacube-core",
@@ -21954,6 +23887,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "untup9",
           "normalized": "Exp a(b,c,d,e,f,g,h,i,j)-\u003e(Exp a b,Exp a c,Exp a d,Exp a e,Exp a f,Exp a g,Exp a h,Exp a i,Exp a j)",
@@ -21968,6 +23902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "vertexID'",
           "package": "lambdacube-core",
@@ -21977,6 +23912,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "vertexID'",
           "package": "lambdacube-core",
@@ -21990,6 +23926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "xor'",
           "package": "lambdacube-core",
@@ -21999,6 +23936,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "xor'",
           "normalized": "Exp a Bool-\u003eExp a Bool-\u003eExp a Bool",
@@ -22013,6 +23951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Language",
           "name": "zero'",
           "package": "lambdacube-core",
@@ -22022,6 +23961,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Language",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Language",
           "name": "zero'",
           "package": "lambdacube-core",
@@ -22034,6 +23974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "LC_T_PrimFun",
           "package": "lambdacube-core",
@@ -22042,6 +23983,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "LC_T_PrimFun",
           "package": "lambdacube-core",
@@ -22055,6 +23997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimFun",
           "package": "lambdacube-core",
@@ -22063,6 +24006,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimFun",
           "package": "lambdacube-core",
@@ -22076,6 +24020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimACos",
           "package": "lambdacube-core",
@@ -22085,6 +24030,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimACos",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22100,6 +24046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimACosH",
           "package": "lambdacube-core",
@@ -22109,6 +24056,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimACosH",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22124,6 +24072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimASin",
           "package": "lambdacube-core",
@@ -22133,6 +24082,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimASin",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22148,6 +24098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimASinH",
           "package": "lambdacube-core",
@@ -22157,6 +24108,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimASinH",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22172,6 +24124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimATan",
           "package": "lambdacube-core",
@@ -22181,6 +24134,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimATan",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22196,6 +24150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimATan2",
           "package": "lambdacube-core",
@@ -22205,6 +24160,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimATan2",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -22220,6 +24176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimATanH",
           "package": "lambdacube-core",
@@ -22229,6 +24186,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimATanH",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22244,6 +24202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimAbs",
           "package": "lambdacube-core",
@@ -22253,6 +24212,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimAbs",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22268,6 +24228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimAdd",
           "package": "lambdacube-core",
@@ -22277,6 +24238,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimAdd",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -22292,6 +24254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimAddS",
           "package": "lambdacube-core",
@@ -22301,6 +24264,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimAddS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -22316,6 +24280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimAll",
           "package": "lambdacube-core",
@@ -22325,6 +24290,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimAll",
           "normalized": "PrimFun a(b-\u003eBool)",
@@ -22340,6 +24306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimAnd",
           "package": "lambdacube-core",
@@ -22349,6 +24316,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimAnd",
           "normalized": "PrimFun a((Bool,Bool)-\u003eBool)",
@@ -22364,6 +24332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimAny",
           "package": "lambdacube-core",
@@ -22373,6 +24342,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimAny",
           "normalized": "PrimFun a(b-\u003eBool)",
@@ -22388,6 +24358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBAnd",
           "package": "lambdacube-core",
@@ -22397,6 +24368,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBAnd",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -22412,6 +24384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBAndS",
           "package": "lambdacube-core",
@@ -22421,6 +24394,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBAndS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -22436,6 +24410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBNot",
           "package": "lambdacube-core",
@@ -22445,6 +24420,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBNot",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22460,6 +24436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBOr",
           "package": "lambdacube-core",
@@ -22469,6 +24446,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBOr",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -22484,6 +24462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBOrS",
           "package": "lambdacube-core",
@@ -22493,6 +24472,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBOrS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -22508,6 +24488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBShiftL",
           "package": "lambdacube-core",
@@ -22517,6 +24498,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBShiftL",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -22532,6 +24514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBShiftLS",
           "package": "lambdacube-core",
@@ -22541,6 +24524,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBShiftLS",
           "normalized": "PrimFun a((b,Word)-\u003eb)",
@@ -22556,6 +24540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBShiftR",
           "package": "lambdacube-core",
@@ -22565,6 +24550,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBShiftR",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -22580,6 +24566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBShiftRS",
           "package": "lambdacube-core",
@@ -22589,6 +24576,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBShiftRS",
           "normalized": "PrimFun a((b,Word)-\u003eb)",
@@ -22604,6 +24592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBXor",
           "package": "lambdacube-core",
@@ -22613,6 +24602,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBXor",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -22628,6 +24618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimBXorS",
           "package": "lambdacube-core",
@@ -22637,6 +24628,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimBXorS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -22652,6 +24644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimCeil",
           "package": "lambdacube-core",
@@ -22661,6 +24654,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimCeil",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22676,6 +24670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimClamp",
           "package": "lambdacube-core",
@@ -22685,6 +24680,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimClamp",
           "normalized": "PrimFun a((b,b,b)-\u003eb)",
@@ -22700,6 +24696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimClampS",
           "package": "lambdacube-core",
@@ -22709,6 +24706,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimClampS",
           "normalized": "PrimFun a((b,c,c)-\u003eb)",
@@ -22724,6 +24722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimCos",
           "package": "lambdacube-core",
@@ -22733,6 +24732,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimCos",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22748,6 +24748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimCosH",
           "package": "lambdacube-core",
@@ -22757,6 +24758,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimCosH",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22772,6 +24774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimCross",
           "package": "lambdacube-core",
@@ -22781,6 +24784,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimCross",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -22796,6 +24800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimDFdx",
           "package": "lambdacube-core",
@@ -22805,6 +24810,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimDFdx",
           "normalized": "PrimFun F(a-\u003ea)",
@@ -22820,6 +24826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimDFdy",
           "package": "lambdacube-core",
@@ -22829,6 +24836,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimDFdy",
           "normalized": "PrimFun F(a-\u003ea)",
@@ -22844,6 +24852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimDegrees",
           "package": "lambdacube-core",
@@ -22853,6 +24862,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimDegrees",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -22868,6 +24878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimDeterminant",
           "package": "lambdacube-core",
@@ -22877,6 +24888,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimDeterminant",
           "normalized": "PrimFun a(b-\u003eFloat)",
@@ -22892,6 +24904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimDistance",
           "package": "lambdacube-core",
@@ -22901,6 +24914,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimDistance",
           "normalized": "PrimFun a((b,b)-\u003eFloat)",
@@ -22916,6 +24930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimDiv",
           "package": "lambdacube-core",
@@ -22925,6 +24940,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimDiv",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -22940,6 +24956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimDivS",
           "package": "lambdacube-core",
@@ -22949,6 +24966,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimDivS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -22964,6 +24982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimDot",
           "package": "lambdacube-core",
@@ -22973,6 +24992,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimDot",
           "normalized": "PrimFun a((b,b)-\u003eFloat)",
@@ -22988,6 +25008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimEqual",
           "package": "lambdacube-core",
@@ -22997,6 +25018,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimEqual",
           "normalized": "PrimFun a((b,b)-\u003eBool)",
@@ -23012,6 +25034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimEqualV",
           "package": "lambdacube-core",
@@ -23021,6 +25044,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimEqualV",
           "normalized": "PrimFun a((b,b)-\u003ec)",
@@ -23036,6 +25060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimExp",
           "package": "lambdacube-core",
@@ -23045,6 +25070,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimExp",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23060,6 +25086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimExp2",
           "package": "lambdacube-core",
@@ -23069,6 +25096,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimExp2",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23084,6 +25112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimFWidth",
           "package": "lambdacube-core",
@@ -23093,6 +25122,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimFWidth",
           "normalized": "PrimFun F(a-\u003ea)",
@@ -23108,6 +25138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimFaceForward",
           "package": "lambdacube-core",
@@ -23117,6 +25148,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimFaceForward",
           "normalized": "PrimFun a((b,b,b)-\u003eb)",
@@ -23132,6 +25164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimFloatBitsToInt",
           "package": "lambdacube-core",
@@ -23141,6 +25174,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimFloatBitsToInt",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -23156,6 +25190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimFloatBitsToUInt",
           "package": "lambdacube-core",
@@ -23165,6 +25200,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimFloatBitsToUInt",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -23180,6 +25216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimFloor",
           "package": "lambdacube-core",
@@ -23189,6 +25226,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimFloor",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23204,6 +25242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimFract",
           "package": "lambdacube-core",
@@ -23213,6 +25252,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimFract",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23228,6 +25268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimGreaterThan",
           "package": "lambdacube-core",
@@ -23237,6 +25278,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimGreaterThan",
           "normalized": "PrimFun a((b,b)-\u003ec)",
@@ -23252,6 +25294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimGreaterThanEqual",
           "package": "lambdacube-core",
@@ -23261,6 +25304,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimGreaterThanEqual",
           "normalized": "PrimFun a((b,b)-\u003ec)",
@@ -23276,6 +25320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimIntBitsToFloat",
           "package": "lambdacube-core",
@@ -23285,6 +25330,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimIntBitsToFloat",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -23300,6 +25346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimInvSqrt",
           "package": "lambdacube-core",
@@ -23309,6 +25356,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimInvSqrt",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23324,6 +25372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimInverse",
           "package": "lambdacube-core",
@@ -23333,6 +25382,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimInverse",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23348,6 +25398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimIsInf",
           "package": "lambdacube-core",
@@ -23357,6 +25408,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimIsInf",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -23372,6 +25424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimIsNan",
           "package": "lambdacube-core",
@@ -23381,6 +25434,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimIsNan",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -23396,6 +25450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimLength",
           "package": "lambdacube-core",
@@ -23405,6 +25460,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimLength",
           "normalized": "PrimFun a(b-\u003eFloat)",
@@ -23420,6 +25476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimLessThan",
           "package": "lambdacube-core",
@@ -23429,6 +25486,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimLessThan",
           "normalized": "PrimFun a((b,b)-\u003ec)",
@@ -23444,6 +25502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimLessThanEqual",
           "package": "lambdacube-core",
@@ -23453,6 +25512,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimLessThanEqual",
           "normalized": "PrimFun a((b,b)-\u003ec)",
@@ -23468,6 +25528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimLog",
           "package": "lambdacube-core",
@@ -23477,6 +25538,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimLog",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23492,6 +25554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimLog2",
           "package": "lambdacube-core",
@@ -23501,6 +25564,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimLog2",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23516,6 +25580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMax",
           "package": "lambdacube-core",
@@ -23525,6 +25590,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMax",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -23540,6 +25606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMaxS",
           "package": "lambdacube-core",
@@ -23549,6 +25616,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMaxS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -23564,6 +25632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMin",
           "package": "lambdacube-core",
@@ -23573,6 +25642,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMin",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -23588,6 +25658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMinS",
           "package": "lambdacube-core",
@@ -23597,6 +25668,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMinS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -23612,6 +25684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMix",
           "package": "lambdacube-core",
@@ -23621,6 +25694,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMix",
           "normalized": "PrimFun a((b,b,b)-\u003eb)",
@@ -23636,6 +25710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMixB",
           "package": "lambdacube-core",
@@ -23645,6 +25720,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMixB",
           "normalized": "PrimFun a((b,b,c)-\u003eb)",
@@ -23660,6 +25736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMixS",
           "package": "lambdacube-core",
@@ -23669,6 +25746,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMixS",
           "normalized": "PrimFun a((b,b,Float)-\u003eb)",
@@ -23684,6 +25762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMod",
           "package": "lambdacube-core",
@@ -23693,6 +25772,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMod",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -23708,6 +25788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimModF",
           "package": "lambdacube-core",
@@ -23717,6 +25798,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimModF",
           "normalized": "PrimFun a(b-\u003e(b,b))",
@@ -23732,6 +25814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimModS",
           "package": "lambdacube-core",
@@ -23741,6 +25824,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimModS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -23756,6 +25840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMul",
           "package": "lambdacube-core",
@@ -23765,6 +25850,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMul",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -23780,6 +25866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMulMatMat",
           "package": "lambdacube-core",
@@ -23789,6 +25876,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMulMatMat",
           "normalized": "PrimFun a((b,c)-\u003ed)",
@@ -23804,6 +25892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMulMatVec",
           "package": "lambdacube-core",
@@ -23813,6 +25902,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMulMatVec",
           "normalized": "PrimFun a((b,c)-\u003ed)",
@@ -23828,6 +25918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMulS",
           "package": "lambdacube-core",
@@ -23837,6 +25928,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMulS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -23852,6 +25944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimMulVecMat",
           "package": "lambdacube-core",
@@ -23861,6 +25954,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimMulVecMat",
           "normalized": "PrimFun a((b,c)-\u003ed)",
@@ -23876,6 +25970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNeg",
           "package": "lambdacube-core",
@@ -23885,6 +25980,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNeg",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -23900,6 +25996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNoise1",
           "package": "lambdacube-core",
@@ -23909,6 +26006,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNoise1",
           "normalized": "PrimFun a(b-\u003eFloat)",
@@ -23924,6 +26022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNoise2",
           "package": "lambdacube-core",
@@ -23933,6 +26032,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNoise2",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -23948,6 +26048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNoise3",
           "package": "lambdacube-core",
@@ -23957,6 +26058,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNoise3",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -23972,6 +26074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNoise4",
           "package": "lambdacube-core",
@@ -23981,6 +26084,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNoise4",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -23996,6 +26100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNormalize",
           "package": "lambdacube-core",
@@ -24005,6 +26110,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNormalize",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24020,6 +26126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNot",
           "package": "lambdacube-core",
@@ -24029,6 +26136,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNot",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24044,6 +26152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNotEqual",
           "package": "lambdacube-core",
@@ -24053,6 +26162,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNotEqual",
           "normalized": "PrimFun a((b,b)-\u003eBool)",
@@ -24068,6 +26178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimNotEqualV",
           "package": "lambdacube-core",
@@ -24077,6 +26188,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimNotEqualV",
           "normalized": "PrimFun a((b,b)-\u003ec)",
@@ -24092,6 +26204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimOr",
           "package": "lambdacube-core",
@@ -24101,6 +26214,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimOr",
           "normalized": "PrimFun a((Bool,Bool)-\u003eBool)",
@@ -24116,6 +26230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimOuterProduct",
           "package": "lambdacube-core",
@@ -24125,6 +26240,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimOuterProduct",
           "normalized": "PrimFun a((b,c)-\u003ed)",
@@ -24140,6 +26256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimPow",
           "package": "lambdacube-core",
@@ -24149,6 +26266,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimPow",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -24164,6 +26282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimRadians",
           "package": "lambdacube-core",
@@ -24173,6 +26292,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimRadians",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24188,6 +26308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimReflect",
           "package": "lambdacube-core",
@@ -24197,6 +26318,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimReflect",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -24212,6 +26334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimRefract",
           "package": "lambdacube-core",
@@ -24221,6 +26344,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimRefract",
           "normalized": "PrimFun a((b,b,b)-\u003eb)",
@@ -24236,6 +26360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimRound",
           "package": "lambdacube-core",
@@ -24245,6 +26370,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimRound",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24260,6 +26386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimRoundEven",
           "package": "lambdacube-core",
@@ -24269,6 +26396,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimRoundEven",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24284,6 +26412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimSign",
           "package": "lambdacube-core",
@@ -24293,6 +26422,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimSign",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24308,6 +26438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimSin",
           "package": "lambdacube-core",
@@ -24317,6 +26448,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimSin",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24332,6 +26464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimSinH",
           "package": "lambdacube-core",
@@ -24341,6 +26474,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimSinH",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24356,6 +26490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimSmoothStep",
           "package": "lambdacube-core",
@@ -24365,6 +26500,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimSmoothStep",
           "normalized": "PrimFun a((b,b,b)-\u003eb)",
@@ -24380,6 +26516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimSmoothStepS",
           "package": "lambdacube-core",
@@ -24389,6 +26526,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimSmoothStepS",
           "normalized": "PrimFun a((Float,Float,b)-\u003eb)",
@@ -24404,6 +26542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimSqrt",
           "package": "lambdacube-core",
@@ -24413,6 +26552,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimSqrt",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24428,6 +26568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimStep",
           "package": "lambdacube-core",
@@ -24437,6 +26578,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimStep",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -24452,6 +26594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimStepS",
           "package": "lambdacube-core",
@@ -24461,6 +26604,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimStepS",
           "normalized": "PrimFun a((Float,b)-\u003eb)",
@@ -24476,6 +26620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimSub",
           "package": "lambdacube-core",
@@ -24485,6 +26630,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimSub",
           "normalized": "PrimFun a((b,b)-\u003eb)",
@@ -24500,6 +26646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimSubS",
           "package": "lambdacube-core",
@@ -24509,6 +26656,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimSubS",
           "normalized": "PrimFun a((b,c)-\u003eb)",
@@ -24524,6 +26672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTan",
           "package": "lambdacube-core",
@@ -24533,6 +26682,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTan",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24548,6 +26698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTanH",
           "package": "lambdacube-core",
@@ -24557,6 +26708,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTanH",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -24572,6 +26724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTexelFetch",
           "package": "lambdacube-core",
@@ -24581,6 +26734,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTexelFetch",
           "normalized": "PrimFun a((b,c,d)-\u003eTexelRepr b)",
@@ -24596,6 +26750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTexelFetchOffset",
           "package": "lambdacube-core",
@@ -24605,6 +26760,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTexelFetchOffset",
           "normalized": "PrimFun a((b,c,d,e)-\u003eTexelRepr b)",
@@ -24620,6 +26776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTexture",
           "package": "lambdacube-core",
@@ -24629,6 +26786,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTexture",
           "normalized": "PrimFun a((b,c)-\u003eTexelRepr b)",
@@ -24644,6 +26802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureB",
           "package": "lambdacube-core",
@@ -24653,6 +26812,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureB",
           "normalized": "PrimFun F((a,b,c)-\u003eTexelRepr a)",
@@ -24668,6 +26828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureGrad",
           "package": "lambdacube-core",
@@ -24677,6 +26838,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureGrad",
           "normalized": "PrimFun a((b,c,d,e)-\u003eTexelRepr b)",
@@ -24692,6 +26854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureGradOffset",
           "package": "lambdacube-core",
@@ -24701,6 +26864,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureGradOffset",
           "normalized": "PrimFun a((b,c,d,e,f)-\u003eTexelRepr b)",
@@ -24716,6 +26880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureLod",
           "package": "lambdacube-core",
@@ -24725,6 +26890,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureLod",
           "normalized": "PrimFun a((b,c,d)-\u003eTexelRepr b)",
@@ -24740,6 +26906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureLodOffset",
           "package": "lambdacube-core",
@@ -24749,6 +26916,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureLodOffset",
           "normalized": "PrimFun a((b,c,d,e)-\u003eTexelRepr b)",
@@ -24764,6 +26932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureOffset",
           "package": "lambdacube-core",
@@ -24773,6 +26942,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureOffset",
           "normalized": "PrimFun a((b,c,d)-\u003eTexelRepr b)",
@@ -24788,6 +26958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureOffsetB",
           "package": "lambdacube-core",
@@ -24797,6 +26968,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureOffsetB",
           "normalized": "PrimFun F((a,b,c,d)-\u003eTexelRepr a)",
@@ -24812,6 +26984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProj",
           "package": "lambdacube-core",
@@ -24821,6 +26994,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProj",
           "normalized": "PrimFun a((b,c)-\u003eTexelRepr b)",
@@ -24836,6 +27010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjB",
           "package": "lambdacube-core",
@@ -24845,6 +27020,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjB",
           "normalized": "PrimFun F((a,b,c)-\u003eTexelRepr a)",
@@ -24860,6 +27036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjGrad",
           "package": "lambdacube-core",
@@ -24869,6 +27046,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjGrad",
           "normalized": "PrimFun a((b,c,d,e)-\u003eTexelRepr b)",
@@ -24884,6 +27062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjGradOffset",
           "package": "lambdacube-core",
@@ -24893,6 +27072,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjGradOffset",
           "normalized": "PrimFun a((b,c,d,e,f)-\u003eTexelRepr b)",
@@ -24908,6 +27088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjLod",
           "package": "lambdacube-core",
@@ -24917,6 +27098,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjLod",
           "normalized": "PrimFun a((b,c,d)-\u003eTexelRepr b)",
@@ -24932,6 +27114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjLodOffset",
           "package": "lambdacube-core",
@@ -24941,6 +27124,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjLodOffset",
           "normalized": "PrimFun a((b,c,d,e)-\u003eTexelRepr b)",
@@ -24956,6 +27140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjOffset",
           "package": "lambdacube-core",
@@ -24965,6 +27150,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjOffset",
           "normalized": "PrimFun a((b,c,d)-\u003eTexelRepr b)",
@@ -24980,6 +27166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjOffsetB",
           "package": "lambdacube-core",
@@ -24989,6 +27176,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureProjOffsetB",
           "normalized": "PrimFun F((a,b,c,d)-\u003eTexelRepr a)",
@@ -25004,6 +27192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureSize",
           "package": "lambdacube-core",
@@ -25013,6 +27202,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTextureSize",
           "normalized": "PrimFun a((b,c)-\u003ed)",
@@ -25028,6 +27218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTranspose",
           "package": "lambdacube-core",
@@ -25037,6 +27228,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTranspose",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -25052,6 +27244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTrunc",
           "package": "lambdacube-core",
@@ -25061,6 +27254,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTrunc",
           "normalized": "PrimFun a(b-\u003eb)",
@@ -25076,6 +27270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTupToV2",
           "package": "lambdacube-core",
@@ -25085,6 +27280,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTupToV2",
           "normalized": "PrimFun a((b,b)-\u003eV b)",
@@ -25100,6 +27296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTupToV3",
           "package": "lambdacube-core",
@@ -25109,6 +27306,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTupToV3",
           "normalized": "PrimFun a((b,b,b)-\u003eV b)",
@@ -25124,6 +27322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimTupToV4",
           "package": "lambdacube-core",
@@ -25133,6 +27332,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimTupToV4",
           "normalized": "PrimFun a((b,b,b,b)-\u003eV b)",
@@ -25148,6 +27348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimUIntBitsToFloat",
           "package": "lambdacube-core",
@@ -25157,6 +27358,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimUIntBitsToFloat",
           "normalized": "PrimFun a(b-\u003ec)",
@@ -25172,6 +27374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimV2ToTup",
           "package": "lambdacube-core",
@@ -25181,6 +27384,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimV2ToTup",
           "normalized": "PrimFun a(V b-\u003e(b,b))",
@@ -25196,6 +27400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimV3ToTup",
           "package": "lambdacube-core",
@@ -25205,6 +27410,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimV3ToTup",
           "normalized": "PrimFun a(V b-\u003e(b,b,b))",
@@ -25220,6 +27426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimV4ToTup",
           "package": "lambdacube-core",
@@ -25229,6 +27436,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimV4ToTup",
           "normalized": "PrimFun a(V b-\u003e(b,b,b,b))",
@@ -25244,6 +27452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_PrimFun",
           "name": "PrimXor",
           "package": "lambdacube-core",
@@ -25253,6 +27462,7 @@
         },
         "index": {
           "hierarchy": "LC_T_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_PrimFun",
           "name": "PrimXor",
           "normalized": "PrimFun a((Bool,Bool)-\u003eBool)",
@@ -25268,6 +27478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "LC_T_Sampler",
           "package": "lambdacube-core",
@@ -25276,6 +27487,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "LC_T_Sampler",
           "package": "lambdacube-core",
@@ -25289,6 +27501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "GSampler1D",
           "package": "lambdacube-core",
@@ -25297,6 +27510,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "GSampler1D",
           "package": "lambdacube-core",
@@ -25310,6 +27524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "GSampler1DArray",
           "package": "lambdacube-core",
@@ -25318,6 +27533,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "GSampler1DArray",
           "package": "lambdacube-core",
@@ -25331,6 +27547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "GSampler2D",
           "package": "lambdacube-core",
@@ -25339,6 +27556,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "GSampler2D",
           "package": "lambdacube-core",
@@ -25352,6 +27570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "GSampler2DArray",
           "package": "lambdacube-core",
@@ -25360,6 +27579,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "GSampler2DArray",
           "package": "lambdacube-core",
@@ -25373,6 +27593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "GSampler2DRect",
           "package": "lambdacube-core",
@@ -25381,6 +27602,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "GSampler2DRect",
           "package": "lambdacube-core",
@@ -25394,6 +27616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "GSampler3D",
           "package": "lambdacube-core",
@@ -25402,6 +27625,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "GSampler3D",
           "package": "lambdacube-core",
@@ -25415,6 +27639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "GSamplerCube",
           "package": "lambdacube-core",
@@ -25423,6 +27648,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "GSamplerCube",
           "package": "lambdacube-core",
@@ -25436,6 +27662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTexelFetch",
           "package": "lambdacube-core",
@@ -25444,6 +27671,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTexelFetch",
           "package": "lambdacube-core",
@@ -25457,6 +27685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTexelFetchOffset",
           "package": "lambdacube-core",
@@ -25465,6 +27694,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTexelFetchOffset",
           "package": "lambdacube-core",
@@ -25478,6 +27708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTexture",
           "package": "lambdacube-core",
@@ -25486,6 +27717,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTexture",
           "package": "lambdacube-core",
@@ -25499,6 +27731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureGrad",
           "package": "lambdacube-core",
@@ -25507,6 +27740,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureGrad",
           "package": "lambdacube-core",
@@ -25520,6 +27754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureGradOffset",
           "package": "lambdacube-core",
@@ -25528,6 +27763,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureGradOffset",
           "package": "lambdacube-core",
@@ -25541,6 +27777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureLod",
           "package": "lambdacube-core",
@@ -25549,6 +27786,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureLod",
           "package": "lambdacube-core",
@@ -25562,6 +27800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureLodOffset",
           "package": "lambdacube-core",
@@ -25570,6 +27809,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureLodOffset",
           "package": "lambdacube-core",
@@ -25583,6 +27823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureOffset",
           "package": "lambdacube-core",
@@ -25591,6 +27832,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureOffset",
           "package": "lambdacube-core",
@@ -25604,6 +27846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureProj",
           "package": "lambdacube-core",
@@ -25612,6 +27855,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureProj",
           "package": "lambdacube-core",
@@ -25625,6 +27869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjGrad",
           "package": "lambdacube-core",
@@ -25633,6 +27878,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjGrad",
           "package": "lambdacube-core",
@@ -25646,6 +27892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjGradOffset",
           "package": "lambdacube-core",
@@ -25654,6 +27901,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjGradOffset",
           "package": "lambdacube-core",
@@ -25667,6 +27915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjLod",
           "package": "lambdacube-core",
@@ -25675,6 +27924,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjLod",
           "package": "lambdacube-core",
@@ -25688,6 +27938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjLodOffset",
           "package": "lambdacube-core",
@@ -25696,6 +27947,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjLodOffset",
           "package": "lambdacube-core",
@@ -25709,6 +27961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjOffset",
           "package": "lambdacube-core",
@@ -25717,6 +27970,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureProjOffset",
           "package": "lambdacube-core",
@@ -25730,6 +27984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "IsTextureSize",
           "package": "lambdacube-core",
@@ -25738,6 +27993,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "IsTextureSize",
           "package": "lambdacube-core",
@@ -25751,6 +28007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler1D",
           "package": "lambdacube-core",
@@ -25759,6 +28016,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler1D",
           "package": "lambdacube-core",
@@ -25772,6 +28030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler1DArray",
           "package": "lambdacube-core",
@@ -25780,6 +28039,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler1DArray",
           "package": "lambdacube-core",
@@ -25793,6 +28053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler1DArrayShadow",
           "package": "lambdacube-core",
@@ -25801,6 +28062,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler1DArrayShadow",
           "package": "lambdacube-core",
@@ -25814,6 +28076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler1DShadow",
           "package": "lambdacube-core",
@@ -25822,6 +28085,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler1DShadow",
           "package": "lambdacube-core",
@@ -25835,6 +28099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler2D",
           "package": "lambdacube-core",
@@ -25843,6 +28108,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler2D",
           "package": "lambdacube-core",
@@ -25856,6 +28122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler2DArray",
           "package": "lambdacube-core",
@@ -25864,6 +28131,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler2DArray",
           "package": "lambdacube-core",
@@ -25877,6 +28145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler2DArrayShadow",
           "package": "lambdacube-core",
@@ -25885,6 +28154,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler2DArrayShadow",
           "package": "lambdacube-core",
@@ -25898,6 +28168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler2DMS",
           "package": "lambdacube-core",
@@ -25906,6 +28177,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler2DMS",
           "package": "lambdacube-core",
@@ -25919,6 +28191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler2DMSArray",
           "package": "lambdacube-core",
@@ -25927,6 +28200,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler2DMSArray",
           "package": "lambdacube-core",
@@ -25940,6 +28214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler2DRect",
           "package": "lambdacube-core",
@@ -25948,6 +28223,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler2DRect",
           "package": "lambdacube-core",
@@ -25961,6 +28237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler2DRectShadow",
           "package": "lambdacube-core",
@@ -25969,6 +28246,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler2DRectShadow",
           "package": "lambdacube-core",
@@ -25982,6 +28260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler2DShadow",
           "package": "lambdacube-core",
@@ -25990,6 +28269,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler2DShadow",
           "package": "lambdacube-core",
@@ -26003,6 +28283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "Sampler3D",
           "package": "lambdacube-core",
@@ -26011,6 +28292,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "Sampler3D",
           "package": "lambdacube-core",
@@ -26024,6 +28306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "SamplerBuffer",
           "package": "lambdacube-core",
@@ -26032,6 +28315,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "SamplerBuffer",
           "package": "lambdacube-core",
@@ -26045,6 +28329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "SamplerCube",
           "package": "lambdacube-core",
@@ -26053,6 +28338,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "SamplerCube",
           "package": "lambdacube-core",
@@ -26066,6 +28352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "SamplerCubeShadow",
           "package": "lambdacube-core",
@@ -26074,6 +28361,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "SamplerCubeShadow",
           "package": "lambdacube-core",
@@ -26087,6 +28375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_T_Sampler",
           "name": "TexelRepr",
           "package": "lambdacube-core",
@@ -26095,6 +28384,7 @@
         },
         "index": {
           "hierarchy": "LC_T_Sampler",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_T_Sampler",
           "name": "TexelRepr",
           "package": "lambdacube-core",
@@ -26108,6 +28398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "LC_U_APIType",
           "package": "lambdacube-core",
@@ -26116,6 +28407,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "LC_U_APIType",
           "package": "lambdacube-core",
@@ -26129,6 +28421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "AccumulationContext",
           "package": "lambdacube-core",
@@ -26137,6 +28430,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "AccumulationContext",
           "package": "lambdacube-core",
@@ -26150,6 +28444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Blending",
           "package": "lambdacube-core",
@@ -26158,6 +28453,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Blending",
           "package": "lambdacube-core",
@@ -26171,6 +28467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "ColorArity",
           "package": "lambdacube-core",
@@ -26179,6 +28476,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "ColorArity",
           "package": "lambdacube-core",
@@ -26192,6 +28490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "FetchPrimitive",
           "package": "lambdacube-core",
@@ -26200,6 +28499,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "FetchPrimitive",
           "package": "lambdacube-core",
@@ -26213,6 +28513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "FragmentOperation",
           "package": "lambdacube-core",
@@ -26221,6 +28522,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "FragmentOperation",
           "package": "lambdacube-core",
@@ -26234,6 +28536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Image",
           "package": "lambdacube-core",
@@ -26242,6 +28545,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Image",
           "package": "lambdacube-core",
@@ -26255,6 +28559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "MipMap",
           "package": "lambdacube-core",
@@ -26263,6 +28568,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "MipMap",
           "package": "lambdacube-core",
@@ -26276,6 +28582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "OutputPrimitive",
           "package": "lambdacube-core",
@@ -26284,6 +28591,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "OutputPrimitive",
           "package": "lambdacube-core",
@@ -26297,6 +28605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "RasterContext",
           "package": "lambdacube-core",
@@ -26305,6 +28614,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "RasterContext",
           "package": "lambdacube-core",
@@ -26318,6 +28628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "TextureDataType",
           "package": "lambdacube-core",
@@ -26326,6 +28637,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "TextureDataType",
           "package": "lambdacube-core",
@@ -26339,6 +28651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "TextureType",
           "package": "lambdacube-core",
@@ -26347,6 +28660,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "TextureType",
           "package": "lambdacube-core",
@@ -26360,6 +28674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "AccumulationContext",
           "package": "lambdacube-core",
@@ -26369,6 +28684,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "AccumulationContext",
           "package": "lambdacube-core",
@@ -26382,6 +28698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "AutoMip",
           "package": "lambdacube-core",
@@ -26391,6 +28708,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "AutoMip",
           "package": "lambdacube-core",
@@ -26404,6 +28722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Blend",
           "package": "lambdacube-core",
@@ -26413,6 +28732,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Blend",
           "normalized": "Blend(BlendEquation,BlendEquation)((BlendingFactor,BlendingFactor),(BlendingFactor,BlendingFactor))V F",
@@ -26428,6 +28748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "BlendLogicOp",
           "package": "lambdacube-core",
@@ -26437,6 +28758,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "BlendLogicOp",
           "package": "lambdacube-core",
@@ -26450,6 +28772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "ColorImage",
           "package": "lambdacube-core",
@@ -26459,6 +28782,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "ColorImage",
           "package": "lambdacube-core",
@@ -26472,6 +28796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "ColorOp",
           "package": "lambdacube-core",
@@ -26481,6 +28806,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "ColorOp",
           "package": "lambdacube-core",
@@ -26494,6 +28820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "DepthImage",
           "package": "lambdacube-core",
@@ -26503,6 +28830,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "DepthImage",
           "package": "lambdacube-core",
@@ -26516,6 +28844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "DepthOp",
           "package": "lambdacube-core",
@@ -26525,6 +28854,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "DepthOp",
           "package": "lambdacube-core",
@@ -26538,6 +28868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "FloatT",
           "package": "lambdacube-core",
@@ -26547,6 +28878,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "FloatT",
           "package": "lambdacube-core",
@@ -26560,6 +28892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "IntT",
           "package": "lambdacube-core",
@@ -26569,6 +28902,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "IntT",
           "package": "lambdacube-core",
@@ -26582,6 +28916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "LineCtx",
           "package": "lambdacube-core",
@@ -26591,6 +28926,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "LineCtx",
           "package": "lambdacube-core",
@@ -26604,6 +28940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Lines",
           "package": "lambdacube-core",
@@ -26613,6 +28950,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Lines",
           "package": "lambdacube-core",
@@ -26626,6 +28964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "LinesAdjacency",
           "package": "lambdacube-core",
@@ -26635,6 +28974,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "LinesAdjacency",
           "package": "lambdacube-core",
@@ -26648,6 +28988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "LinesOutput",
           "package": "lambdacube-core",
@@ -26657,6 +28998,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "LinesOutput",
           "package": "lambdacube-core",
@@ -26670,6 +29012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Mip",
           "package": "lambdacube-core",
@@ -26679,6 +29022,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Mip",
           "package": "lambdacube-core",
@@ -26692,6 +29036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "NoBlending",
           "package": "lambdacube-core",
@@ -26701,6 +29046,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "NoBlending",
           "package": "lambdacube-core",
@@ -26714,6 +29060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "NoMip",
           "package": "lambdacube-core",
@@ -26723,6 +29070,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "NoMip",
           "package": "lambdacube-core",
@@ -26736,6 +29084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "PointCtx",
           "package": "lambdacube-core",
@@ -26745,6 +29094,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "PointCtx",
           "package": "lambdacube-core",
@@ -26758,6 +29108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Points",
           "package": "lambdacube-core",
@@ -26767,6 +29118,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Points",
           "package": "lambdacube-core",
@@ -26780,6 +29132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "PointsOutput",
           "package": "lambdacube-core",
@@ -26789,6 +29142,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "PointsOutput",
           "package": "lambdacube-core",
@@ -26802,6 +29156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "RG",
           "package": "lambdacube-core",
@@ -26811,6 +29166,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "RG",
           "package": "lambdacube-core",
@@ -26824,6 +29180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "RGB",
           "package": "lambdacube-core",
@@ -26833,6 +29190,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "RGB",
           "package": "lambdacube-core",
@@ -26846,6 +29204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "RGBA",
           "package": "lambdacube-core",
@@ -26855,6 +29214,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "RGBA",
           "package": "lambdacube-core",
@@ -26868,6 +29228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Red",
           "package": "lambdacube-core",
@@ -26877,6 +29238,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Red",
           "package": "lambdacube-core",
@@ -26890,6 +29252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "ShadowT",
           "package": "lambdacube-core",
@@ -26899,6 +29262,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "ShadowT",
           "package": "lambdacube-core",
@@ -26912,6 +29276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "StencilImage",
           "package": "lambdacube-core",
@@ -26921,6 +29286,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "StencilImage",
           "package": "lambdacube-core",
@@ -26934,6 +29300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "StencilOp",
           "package": "lambdacube-core",
@@ -26943,6 +29310,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "StencilOp",
           "package": "lambdacube-core",
@@ -26956,6 +29324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Texture1D",
           "package": "lambdacube-core",
@@ -26965,6 +29334,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Texture1D",
           "package": "lambdacube-core",
@@ -26978,6 +29348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Texture2D",
           "package": "lambdacube-core",
@@ -26987,6 +29358,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Texture2D",
           "package": "lambdacube-core",
@@ -27000,6 +29372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Texture2DMS",
           "package": "lambdacube-core",
@@ -27009,6 +29382,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Texture2DMS",
           "package": "lambdacube-core",
@@ -27022,6 +29396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Texture3D",
           "package": "lambdacube-core",
@@ -27031,6 +29406,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Texture3D",
           "package": "lambdacube-core",
@@ -27044,6 +29420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "TextureBuffer",
           "package": "lambdacube-core",
@@ -27053,6 +29430,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "TextureBuffer",
           "package": "lambdacube-core",
@@ -27066,6 +29444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "TextureCube",
           "package": "lambdacube-core",
@@ -27075,6 +29454,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "TextureCube",
           "package": "lambdacube-core",
@@ -27088,6 +29468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "TextureRect",
           "package": "lambdacube-core",
@@ -27097,6 +29478,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "TextureRect",
           "package": "lambdacube-core",
@@ -27110,6 +29492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "TriangleCtx",
           "package": "lambdacube-core",
@@ -27119,6 +29502,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "TriangleCtx",
           "package": "lambdacube-core",
@@ -27132,6 +29516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "Triangles",
           "package": "lambdacube-core",
@@ -27141,6 +29526,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "Triangles",
           "package": "lambdacube-core",
@@ -27154,6 +29540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "TrianglesAdjacency",
           "package": "lambdacube-core",
@@ -27163,6 +29550,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "TrianglesAdjacency",
           "package": "lambdacube-core",
@@ -27176,6 +29564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "TrianglesOutput",
           "package": "lambdacube-core",
@@ -27185,6 +29574,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "TrianglesOutput",
           "package": "lambdacube-core",
@@ -27198,6 +29588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "WordT",
           "package": "lambdacube-core",
@@ -27207,6 +29598,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "WordT",
           "package": "lambdacube-core",
@@ -27220,6 +29612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "accOperations",
           "package": "lambdacube-core",
@@ -27229,6 +29622,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "accOperations",
           "normalized": "[FragmentOperation]",
@@ -27244,6 +29638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_APIType",
           "name": "accViewportName",
           "package": "lambdacube-core",
@@ -27253,6 +29648,7 @@
         },
         "index": {
           "hierarchy": "LC_U_APIType",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_APIType",
           "name": "accViewportName",
           "package": "lambdacube-core",
@@ -27266,6 +29662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "LC_U_DeBruijn",
           "package": "lambdacube-core",
@@ -27274,6 +29671,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "LC_U_DeBruijn",
           "package": "lambdacube-core",
@@ -27287,6 +29685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "DAG",
           "package": "lambdacube-core",
@@ -27295,6 +29694,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "DAG",
           "package": "lambdacube-core",
@@ -27308,6 +29708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Exp",
           "package": "lambdacube-core",
@@ -27316,6 +29717,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Exp",
           "package": "lambdacube-core",
@@ -27329,6 +29731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "ExpC",
           "package": "lambdacube-core",
@@ -27337,6 +29740,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "ExpC",
           "package": "lambdacube-core",
@@ -27350,6 +29754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "ExpId",
           "package": "lambdacube-core",
@@ -27358,6 +29763,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "ExpId",
           "package": "lambdacube-core",
@@ -27371,6 +29777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "N",
           "package": "lambdacube-core",
@@ -27379,6 +29786,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "N",
           "package": "lambdacube-core",
@@ -27391,6 +29799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Accumulate",
           "package": "lambdacube-core",
@@ -27400,6 +29809,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Accumulate",
           "package": "lambdacube-core",
@@ -27413,6 +29823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Apply",
           "package": "lambdacube-core",
@@ -27422,6 +29833,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Apply",
           "package": "lambdacube-core",
@@ -27435,6 +29847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Body",
           "package": "lambdacube-core",
@@ -27444,6 +29857,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Body",
           "package": "lambdacube-core",
@@ -27457,6 +29871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Cond",
           "package": "lambdacube-core",
@@ -27466,6 +29881,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Cond",
           "package": "lambdacube-core",
@@ -27479,6 +29895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Const",
           "package": "lambdacube-core",
@@ -27488,6 +29905,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Const",
           "package": "lambdacube-core",
@@ -27501,6 +29919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "DAG",
           "package": "lambdacube-core",
@@ -27510,6 +29929,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "DAG",
           "package": "lambdacube-core",
@@ -27523,6 +29943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Fetch",
           "package": "lambdacube-core",
@@ -27532,6 +29953,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Fetch",
           "normalized": "Fetch ByteString FetchPrimitive[(ByteString,InputType)]",
@@ -27547,6 +29969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Filter",
           "package": "lambdacube-core",
@@ -27556,6 +29979,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Filter",
           "package": "lambdacube-core",
@@ -27569,6 +29993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Flat",
           "package": "lambdacube-core",
@@ -27578,6 +30003,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Flat",
           "package": "lambdacube-core",
@@ -27591,6 +30017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "FragmentOut",
           "package": "lambdacube-core",
@@ -27600,6 +30027,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "FragmentOut",
           "normalized": "FragmentOut[ExpId]",
@@ -27615,6 +30043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "FragmentOutDepth",
           "package": "lambdacube-core",
@@ -27624,6 +30053,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "FragmentOutDepth",
           "normalized": "FragmentOutDepth ExpId[ExpId]",
@@ -27639,6 +30069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "FragmentOutRastDepth",
           "package": "lambdacube-core",
@@ -27648,6 +30079,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "FragmentOutRastDepth",
           "normalized": "FragmentOutRastDepth[ExpId]",
@@ -27663,6 +30095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "FrameBuffer",
           "package": "lambdacube-core",
@@ -27672,6 +30105,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "FrameBuffer",
           "normalized": "FrameBuffer[Image]",
@@ -27687,6 +30121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "GeometryOut",
           "package": "lambdacube-core",
@@ -27696,6 +30131,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "GeometryOut",
           "normalized": "GeometryOut ExpId ExpId ExpId[ExpId][ExpId]",
@@ -27711,6 +30147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "GeometryShader",
           "package": "lambdacube-core",
@@ -27720,6 +30157,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "GeometryShader",
           "package": "lambdacube-core",
@@ -27733,6 +30171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "ImageOut",
           "package": "lambdacube-core",
@@ -27742,6 +30181,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "ImageOut",
           "package": "lambdacube-core",
@@ -27755,6 +30195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Lam",
           "package": "lambdacube-core",
@@ -27764,6 +30205,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Lam",
           "package": "lambdacube-core",
@@ -27777,6 +30219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Loop",
           "package": "lambdacube-core",
@@ -27786,6 +30229,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Loop",
           "package": "lambdacube-core",
@@ -27799,6 +30243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "MultiOut",
           "package": "lambdacube-core",
@@ -27808,6 +30253,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "MultiOut",
           "normalized": "MultiOut[ExpId]",
@@ -27823,6 +30269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "N",
           "package": "lambdacube-core",
@@ -27832,6 +30279,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "N",
           "package": "lambdacube-core",
@@ -27844,6 +30292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "NoPerspective",
           "package": "lambdacube-core",
@@ -27853,6 +30302,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "NoPerspective",
           "package": "lambdacube-core",
@@ -27866,6 +30316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "PassAll",
           "package": "lambdacube-core",
@@ -27875,6 +30326,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "PassAll",
           "package": "lambdacube-core",
@@ -27888,6 +30340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "PrimApp",
           "package": "lambdacube-core",
@@ -27897,6 +30350,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "PrimApp",
           "package": "lambdacube-core",
@@ -27910,6 +30364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "PrimVar",
           "package": "lambdacube-core",
@@ -27919,6 +30374,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "PrimVar",
           "package": "lambdacube-core",
@@ -27932,6 +30388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Prj",
           "package": "lambdacube-core",
@@ -27941,6 +30398,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Prj",
           "package": "lambdacube-core",
@@ -27954,6 +30412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "PrjFrameBuffer",
           "package": "lambdacube-core",
@@ -27963,6 +30422,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "PrjFrameBuffer",
           "package": "lambdacube-core",
@@ -27976,6 +30436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "PrjImage",
           "package": "lambdacube-core",
@@ -27985,6 +30446,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "PrjImage",
           "package": "lambdacube-core",
@@ -27998,6 +30460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Rasterize",
           "package": "lambdacube-core",
@@ -28007,6 +30470,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Rasterize",
           "package": "lambdacube-core",
@@ -28020,6 +30484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Reassemble",
           "package": "lambdacube-core",
@@ -28029,6 +30494,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Reassemble",
           "package": "lambdacube-core",
@@ -28042,6 +30508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Sampler",
           "package": "lambdacube-core",
@@ -28051,6 +30518,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Sampler",
           "package": "lambdacube-core",
@@ -28064,6 +30532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "ScreenOut",
           "package": "lambdacube-core",
@@ -28073,6 +30542,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "ScreenOut",
           "package": "lambdacube-core",
@@ -28086,6 +30556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Smooth",
           "package": "lambdacube-core",
@@ -28095,6 +30566,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Smooth",
           "package": "lambdacube-core",
@@ -28108,6 +30580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Texture",
           "package": "lambdacube-core",
@@ -28117,6 +30590,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Texture",
           "normalized": "Texture TextureType Value MipMap[ExpId]",
@@ -28132,6 +30606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "TextureSlot",
           "package": "lambdacube-core",
@@ -28141,6 +30616,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "TextureSlot",
           "package": "lambdacube-core",
@@ -28154,6 +30630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Transform",
           "package": "lambdacube-core",
@@ -28163,6 +30640,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Transform",
           "package": "lambdacube-core",
@@ -28176,6 +30654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Tup",
           "package": "lambdacube-core",
@@ -28185,6 +30664,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Tup",
           "normalized": "Tup[ExpId]",
@@ -28200,6 +30680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Uni",
           "package": "lambdacube-core",
@@ -28209,6 +30690,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Uni",
           "package": "lambdacube-core",
@@ -28222,6 +30704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "Var",
           "package": "lambdacube-core",
@@ -28231,6 +30714,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "Var",
           "package": "lambdacube-core",
@@ -28244,6 +30728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "VertexOut",
           "package": "lambdacube-core",
@@ -28253,6 +30738,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "VertexOut",
           "normalized": "VertexOut ExpId ExpId[ExpId][ExpId]",
@@ -28268,6 +30754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "accumulate",
           "package": "lambdacube-core",
@@ -28277,6 +30764,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "accumulate",
           "normalized": "AccumulationContext-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -28291,6 +30779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "apply",
           "package": "lambdacube-core",
@@ -28300,6 +30789,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "apply",
           "normalized": "Ty-\u003ea-\u003ea-\u003ea",
@@ -28314,6 +30804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "body",
           "package": "lambdacube-core",
@@ -28323,6 +30814,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "body",
           "normalized": "a-\u003ea",
@@ -28337,6 +30829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "cond",
           "package": "lambdacube-core",
@@ -28346,6 +30839,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "cond",
           "normalized": "Ty-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -28360,6 +30854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "const_",
           "package": "lambdacube-core",
@@ -28369,6 +30864,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "const_",
           "normalized": "Ty-\u003eValue-\u003ea",
@@ -28383,6 +30879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "dagCount",
           "package": "lambdacube-core",
@@ -28392,6 +30889,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "dagCount",
           "package": "lambdacube-core",
@@ -28405,6 +30903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "dagExp",
           "package": "lambdacube-core",
@@ -28414,6 +30913,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "dagExp",
           "package": "lambdacube-core",
@@ -28427,6 +30927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "dagTy",
           "package": "lambdacube-core",
@@ -28436,6 +30937,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "dagTy",
           "package": "lambdacube-core",
@@ -28449,6 +30951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "emptyDAG",
           "package": "lambdacube-core",
@@ -28458,6 +30961,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "emptyDAG",
           "package": "lambdacube-core",
@@ -28471,6 +30975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "expCount",
           "package": "lambdacube-core",
@@ -28480,6 +30985,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "expCount",
           "normalized": "DAG-\u003eExp-\u003eInt",
@@ -28495,6 +31001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "expIdCount",
           "package": "lambdacube-core",
@@ -28504,6 +31011,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "expIdCount",
           "normalized": "DAG-\u003eExpId-\u003eInt",
@@ -28519,6 +31027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "expIdType",
           "package": "lambdacube-core",
@@ -28528,6 +31037,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "expIdType",
           "normalized": "DAG-\u003eExpId-\u003eTy",
@@ -28543,6 +31053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "expType",
           "package": "lambdacube-core",
@@ -28552,6 +31063,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "expType",
           "normalized": "DAG-\u003eExp-\u003eTy",
@@ -28567,6 +31079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "fetch",
           "package": "lambdacube-core",
@@ -28576,6 +31089,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "fetch",
           "normalized": "ByteString-\u003eFetchPrimitive-\u003e[(ByteString,InputType)]-\u003ea",
@@ -28590,6 +31104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "filter_",
           "package": "lambdacube-core",
@@ -28599,6 +31114,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "filter_",
           "normalized": "a-\u003ea",
@@ -28613,6 +31129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "flat",
           "package": "lambdacube-core",
@@ -28622,6 +31139,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "flat",
           "normalized": "a-\u003ea",
@@ -28636,6 +31154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "fragmentOut",
           "package": "lambdacube-core",
@@ -28645,6 +31164,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "fragmentOut",
           "normalized": "[a]-\u003ea",
@@ -28660,6 +31180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "fragmentOutDepth",
           "package": "lambdacube-core",
@@ -28669,6 +31190,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "fragmentOutDepth",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -28684,6 +31206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "fragmentOutRastDepth",
           "package": "lambdacube-core",
@@ -28693,6 +31216,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "fragmentOutRastDepth",
           "normalized": "[a]-\u003ea",
@@ -28708,6 +31232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "frameBuffer",
           "package": "lambdacube-core",
@@ -28717,6 +31242,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "frameBuffer",
           "normalized": "[Image]-\u003ea",
@@ -28732,6 +31258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "geometryOut",
           "package": "lambdacube-core",
@@ -28741,6 +31268,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "geometryOut",
           "normalized": "a-\u003ea-\u003ea-\u003e[a]-\u003e[a]-\u003ea",
@@ -28756,6 +31284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "geometryShader",
           "package": "lambdacube-core",
@@ -28765,6 +31294,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "geometryShader",
           "normalized": "Int-\u003eOutputPrimitive-\u003eInt-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -28780,6 +31310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "hashcons",
           "package": "lambdacube-core",
@@ -28789,6 +31320,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "hashcons",
           "normalized": "Ty-\u003eExp-\u003eState DAG ExpId",
@@ -28803,6 +31335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "imageOut",
           "package": "lambdacube-core",
@@ -28812,6 +31345,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "imageOut",
           "normalized": "ByteString-\u003eV U-\u003ea-\u003ea",
@@ -28827,6 +31361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "lam",
           "package": "lambdacube-core",
@@ -28836,6 +31371,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "lam",
           "normalized": "Ty-\u003ea-\u003ea",
@@ -28850,6 +31386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "loop",
           "package": "lambdacube-core",
@@ -28859,6 +31396,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "loop",
           "normalized": "Ty-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -28873,6 +31411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "multiOut",
           "package": "lambdacube-core",
@@ -28882,6 +31421,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "multiOut",
           "normalized": "[a]-\u003ea",
@@ -28897,6 +31437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "noPerspective",
           "package": "lambdacube-core",
@@ -28906,6 +31447,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "noPerspective",
           "normalized": "a-\u003ea",
@@ -28921,6 +31463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "passAll",
           "package": "lambdacube-core",
@@ -28930,6 +31473,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "passAll",
           "package": "lambdacube-core",
@@ -28943,6 +31487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "primApp",
           "package": "lambdacube-core",
@@ -28952,6 +31497,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "primApp",
           "normalized": "Ty-\u003ePrimFun-\u003ea-\u003ea",
@@ -28967,6 +31513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "primVar",
           "package": "lambdacube-core",
@@ -28976,6 +31523,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "primVar",
           "normalized": "Ty-\u003eByteString-\u003ea",
@@ -28991,6 +31539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "prj",
           "package": "lambdacube-core",
@@ -29000,6 +31549,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "prj",
           "normalized": "Ty-\u003eInt-\u003ea-\u003ea",
@@ -29014,6 +31564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "prjFrameBuffer",
           "package": "lambdacube-core",
@@ -29023,6 +31574,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "prjFrameBuffer",
           "normalized": "ByteString-\u003eInt-\u003ea-\u003ea",
@@ -29038,6 +31590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "prjImage",
           "package": "lambdacube-core",
@@ -29047,6 +31600,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "prjImage",
           "normalized": "ByteString-\u003eInt-\u003ea-\u003ea",
@@ -29062,6 +31616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "rasterize",
           "package": "lambdacube-core",
@@ -29071,6 +31626,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "rasterize",
           "normalized": "RasterContext-\u003ea-\u003ea",
@@ -29085,6 +31641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "reassemble",
           "package": "lambdacube-core",
@@ -29094,6 +31651,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "reassemble",
           "normalized": "a-\u003ea-\u003ea",
@@ -29108,6 +31666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "sampler",
           "package": "lambdacube-core",
@@ -29117,6 +31676,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "sampler",
           "normalized": "Ty-\u003eFilter-\u003eEdgeMode-\u003ea-\u003ea",
@@ -29131,6 +31691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "screenOut",
           "package": "lambdacube-core",
@@ -29140,6 +31701,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "screenOut",
           "normalized": "a-\u003ea",
@@ -29155,6 +31717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "smooth",
           "package": "lambdacube-core",
@@ -29164,6 +31727,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "smooth",
           "normalized": "a-\u003ea",
@@ -29178,6 +31742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "texture",
           "package": "lambdacube-core",
@@ -29187,6 +31752,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "texture",
           "normalized": "TextureType-\u003eValue-\u003eMipMap-\u003e[a]-\u003ea",
@@ -29201,6 +31767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "textureSlot",
           "package": "lambdacube-core",
@@ -29210,6 +31777,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "textureSlot",
           "normalized": "ByteString-\u003eTextureType-\u003ea",
@@ -29225,6 +31793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "toExp",
           "package": "lambdacube-core",
@@ -29234,6 +31803,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "toExp",
           "normalized": "DAG-\u003eExpId-\u003eExp",
@@ -29249,6 +31819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "toExpId",
           "package": "lambdacube-core",
@@ -29258,6 +31829,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "toExpId",
           "normalized": "DAG-\u003eExp-\u003eExpId",
@@ -29273,6 +31845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "transform",
           "package": "lambdacube-core",
@@ -29282,6 +31855,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "transform",
           "normalized": "a-\u003ea-\u003ea",
@@ -29296,6 +31870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "tup",
           "package": "lambdacube-core",
@@ -29305,6 +31880,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "tup",
           "normalized": "Ty-\u003e[a]-\u003ea",
@@ -29319,6 +31895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "unN",
           "package": "lambdacube-core",
@@ -29328,6 +31905,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "unN",
           "package": "lambdacube-core",
@@ -29340,6 +31918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "uni",
           "package": "lambdacube-core",
@@ -29349,6 +31928,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "uni",
           "normalized": "Ty-\u003eByteString-\u003ea",
@@ -29363,6 +31943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "var",
           "package": "lambdacube-core",
@@ -29372,6 +31953,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "var",
           "normalized": "Ty-\u003eInt-\u003eString-\u003ea",
@@ -29386,6 +31968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_DeBruijn",
           "name": "vertexOut",
           "package": "lambdacube-core",
@@ -29395,6 +31978,7 @@
         },
         "index": {
           "hierarchy": "LC_U_DeBruijn",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_DeBruijn",
           "name": "vertexOut",
           "normalized": "a-\u003ea-\u003e[a]-\u003e[a]-\u003ea",
@@ -29410,6 +31994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "LC_U_PrimFun",
           "package": "lambdacube-core",
@@ -29418,6 +32003,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "LC_U_PrimFun",
           "package": "lambdacube-core",
@@ -29431,6 +32017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimFun",
           "package": "lambdacube-core",
@@ -29439,6 +32026,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimFun",
           "package": "lambdacube-core",
@@ -29452,6 +32040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimACos",
           "package": "lambdacube-core",
@@ -29461,6 +32050,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimACos",
           "package": "lambdacube-core",
@@ -29474,6 +32064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimACosH",
           "package": "lambdacube-core",
@@ -29483,6 +32074,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimACosH",
           "package": "lambdacube-core",
@@ -29496,6 +32088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimASin",
           "package": "lambdacube-core",
@@ -29505,6 +32098,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimASin",
           "package": "lambdacube-core",
@@ -29518,6 +32112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimASinH",
           "package": "lambdacube-core",
@@ -29527,6 +32122,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimASinH",
           "package": "lambdacube-core",
@@ -29540,6 +32136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimATan",
           "package": "lambdacube-core",
@@ -29549,6 +32146,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimATan",
           "package": "lambdacube-core",
@@ -29562,6 +32160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimATan2",
           "package": "lambdacube-core",
@@ -29571,6 +32170,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimATan2",
           "package": "lambdacube-core",
@@ -29584,6 +32184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimATanH",
           "package": "lambdacube-core",
@@ -29593,6 +32194,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimATanH",
           "package": "lambdacube-core",
@@ -29606,6 +32208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimAbs",
           "package": "lambdacube-core",
@@ -29615,6 +32218,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimAbs",
           "package": "lambdacube-core",
@@ -29628,6 +32232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimAdd",
           "package": "lambdacube-core",
@@ -29637,6 +32242,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimAdd",
           "package": "lambdacube-core",
@@ -29650,6 +32256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimAddS",
           "package": "lambdacube-core",
@@ -29659,6 +32266,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimAddS",
           "package": "lambdacube-core",
@@ -29672,6 +32280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimAll",
           "package": "lambdacube-core",
@@ -29681,6 +32290,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimAll",
           "package": "lambdacube-core",
@@ -29694,6 +32304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimAnd",
           "package": "lambdacube-core",
@@ -29703,6 +32314,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimAnd",
           "package": "lambdacube-core",
@@ -29716,6 +32328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimAny",
           "package": "lambdacube-core",
@@ -29725,6 +32338,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimAny",
           "package": "lambdacube-core",
@@ -29738,6 +32352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBAnd",
           "package": "lambdacube-core",
@@ -29747,6 +32362,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBAnd",
           "package": "lambdacube-core",
@@ -29760,6 +32376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBAndS",
           "package": "lambdacube-core",
@@ -29769,6 +32386,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBAndS",
           "package": "lambdacube-core",
@@ -29782,6 +32400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBNot",
           "package": "lambdacube-core",
@@ -29791,6 +32410,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBNot",
           "package": "lambdacube-core",
@@ -29804,6 +32424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBOr",
           "package": "lambdacube-core",
@@ -29813,6 +32434,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBOr",
           "package": "lambdacube-core",
@@ -29826,6 +32448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBOrS",
           "package": "lambdacube-core",
@@ -29835,6 +32458,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBOrS",
           "package": "lambdacube-core",
@@ -29848,6 +32472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBShiftL",
           "package": "lambdacube-core",
@@ -29857,6 +32482,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBShiftL",
           "package": "lambdacube-core",
@@ -29870,6 +32496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBShiftLS",
           "package": "lambdacube-core",
@@ -29879,6 +32506,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBShiftLS",
           "package": "lambdacube-core",
@@ -29892,6 +32520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBShiftR",
           "package": "lambdacube-core",
@@ -29901,6 +32530,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBShiftR",
           "package": "lambdacube-core",
@@ -29914,6 +32544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBShiftRS",
           "package": "lambdacube-core",
@@ -29923,6 +32554,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBShiftRS",
           "package": "lambdacube-core",
@@ -29936,6 +32568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBXor",
           "package": "lambdacube-core",
@@ -29945,6 +32578,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBXor",
           "package": "lambdacube-core",
@@ -29958,6 +32592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimBXorS",
           "package": "lambdacube-core",
@@ -29967,6 +32602,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimBXorS",
           "package": "lambdacube-core",
@@ -29980,6 +32616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimCeil",
           "package": "lambdacube-core",
@@ -29989,6 +32626,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimCeil",
           "package": "lambdacube-core",
@@ -30002,6 +32640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimClamp",
           "package": "lambdacube-core",
@@ -30011,6 +32650,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimClamp",
           "package": "lambdacube-core",
@@ -30024,6 +32664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimClampS",
           "package": "lambdacube-core",
@@ -30033,6 +32674,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimClampS",
           "package": "lambdacube-core",
@@ -30046,6 +32688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimCos",
           "package": "lambdacube-core",
@@ -30055,6 +32698,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimCos",
           "package": "lambdacube-core",
@@ -30068,6 +32712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimCosH",
           "package": "lambdacube-core",
@@ -30077,6 +32722,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimCosH",
           "package": "lambdacube-core",
@@ -30090,6 +32736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimCross",
           "package": "lambdacube-core",
@@ -30099,6 +32746,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimCross",
           "package": "lambdacube-core",
@@ -30112,6 +32760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimDFdx",
           "package": "lambdacube-core",
@@ -30121,6 +32770,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimDFdx",
           "package": "lambdacube-core",
@@ -30134,6 +32784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimDFdy",
           "package": "lambdacube-core",
@@ -30143,6 +32794,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimDFdy",
           "package": "lambdacube-core",
@@ -30156,6 +32808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimDegrees",
           "package": "lambdacube-core",
@@ -30165,6 +32818,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimDegrees",
           "package": "lambdacube-core",
@@ -30178,6 +32832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimDeterminant",
           "package": "lambdacube-core",
@@ -30187,6 +32842,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimDeterminant",
           "package": "lambdacube-core",
@@ -30200,6 +32856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimDistance",
           "package": "lambdacube-core",
@@ -30209,6 +32866,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimDistance",
           "package": "lambdacube-core",
@@ -30222,6 +32880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimDiv",
           "package": "lambdacube-core",
@@ -30231,6 +32890,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimDiv",
           "package": "lambdacube-core",
@@ -30244,6 +32904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimDivS",
           "package": "lambdacube-core",
@@ -30253,6 +32914,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimDivS",
           "package": "lambdacube-core",
@@ -30266,6 +32928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimDot",
           "package": "lambdacube-core",
@@ -30275,6 +32938,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimDot",
           "package": "lambdacube-core",
@@ -30288,6 +32952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimEqual",
           "package": "lambdacube-core",
@@ -30297,6 +32962,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimEqual",
           "package": "lambdacube-core",
@@ -30310,6 +32976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimEqualV",
           "package": "lambdacube-core",
@@ -30319,6 +32986,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimEqualV",
           "package": "lambdacube-core",
@@ -30332,6 +33000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimExp",
           "package": "lambdacube-core",
@@ -30341,6 +33010,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimExp",
           "package": "lambdacube-core",
@@ -30354,6 +33024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimExp2",
           "package": "lambdacube-core",
@@ -30363,6 +33034,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimExp2",
           "package": "lambdacube-core",
@@ -30376,6 +33048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimFWidth",
           "package": "lambdacube-core",
@@ -30385,6 +33058,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimFWidth",
           "package": "lambdacube-core",
@@ -30398,6 +33072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimFaceForward",
           "package": "lambdacube-core",
@@ -30407,6 +33082,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimFaceForward",
           "package": "lambdacube-core",
@@ -30420,6 +33096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimFloatBitsToInt",
           "package": "lambdacube-core",
@@ -30429,6 +33106,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimFloatBitsToInt",
           "package": "lambdacube-core",
@@ -30442,6 +33120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimFloatBitsToUInt",
           "package": "lambdacube-core",
@@ -30451,6 +33130,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimFloatBitsToUInt",
           "package": "lambdacube-core",
@@ -30464,6 +33144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimFloor",
           "package": "lambdacube-core",
@@ -30473,6 +33154,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimFloor",
           "package": "lambdacube-core",
@@ -30486,6 +33168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimFract",
           "package": "lambdacube-core",
@@ -30495,6 +33178,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimFract",
           "package": "lambdacube-core",
@@ -30508,6 +33192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimGreaterThan",
           "package": "lambdacube-core",
@@ -30517,6 +33202,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimGreaterThan",
           "package": "lambdacube-core",
@@ -30530,6 +33216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimGreaterThanEqual",
           "package": "lambdacube-core",
@@ -30539,6 +33226,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimGreaterThanEqual",
           "package": "lambdacube-core",
@@ -30552,6 +33240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimIntBitsToFloat",
           "package": "lambdacube-core",
@@ -30561,6 +33250,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimIntBitsToFloat",
           "package": "lambdacube-core",
@@ -30574,6 +33264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimInvSqrt",
           "package": "lambdacube-core",
@@ -30583,6 +33274,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimInvSqrt",
           "package": "lambdacube-core",
@@ -30596,6 +33288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimInverse",
           "package": "lambdacube-core",
@@ -30605,6 +33298,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimInverse",
           "package": "lambdacube-core",
@@ -30618,6 +33312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimIsInf",
           "package": "lambdacube-core",
@@ -30627,6 +33322,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimIsInf",
           "package": "lambdacube-core",
@@ -30640,6 +33336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimIsNan",
           "package": "lambdacube-core",
@@ -30649,6 +33346,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimIsNan",
           "package": "lambdacube-core",
@@ -30662,6 +33360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimLength",
           "package": "lambdacube-core",
@@ -30671,6 +33370,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimLength",
           "package": "lambdacube-core",
@@ -30684,6 +33384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimLessThan",
           "package": "lambdacube-core",
@@ -30693,6 +33394,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimLessThan",
           "package": "lambdacube-core",
@@ -30706,6 +33408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimLessThanEqual",
           "package": "lambdacube-core",
@@ -30715,6 +33418,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimLessThanEqual",
           "package": "lambdacube-core",
@@ -30728,6 +33432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimLog",
           "package": "lambdacube-core",
@@ -30737,6 +33442,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimLog",
           "package": "lambdacube-core",
@@ -30750,6 +33456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimLog2",
           "package": "lambdacube-core",
@@ -30759,6 +33466,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimLog2",
           "package": "lambdacube-core",
@@ -30772,6 +33480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMax",
           "package": "lambdacube-core",
@@ -30781,6 +33490,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMax",
           "package": "lambdacube-core",
@@ -30794,6 +33504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMaxS",
           "package": "lambdacube-core",
@@ -30803,6 +33514,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMaxS",
           "package": "lambdacube-core",
@@ -30816,6 +33528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMin",
           "package": "lambdacube-core",
@@ -30825,6 +33538,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMin",
           "package": "lambdacube-core",
@@ -30838,6 +33552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMinS",
           "package": "lambdacube-core",
@@ -30847,6 +33562,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMinS",
           "package": "lambdacube-core",
@@ -30860,6 +33576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMix",
           "package": "lambdacube-core",
@@ -30869,6 +33586,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMix",
           "package": "lambdacube-core",
@@ -30882,6 +33600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMixB",
           "package": "lambdacube-core",
@@ -30891,6 +33610,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMixB",
           "package": "lambdacube-core",
@@ -30904,6 +33624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMixS",
           "package": "lambdacube-core",
@@ -30913,6 +33634,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMixS",
           "package": "lambdacube-core",
@@ -30926,6 +33648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMod",
           "package": "lambdacube-core",
@@ -30935,6 +33658,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMod",
           "package": "lambdacube-core",
@@ -30948,6 +33672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimModF",
           "package": "lambdacube-core",
@@ -30957,6 +33682,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimModF",
           "package": "lambdacube-core",
@@ -30970,6 +33696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimModS",
           "package": "lambdacube-core",
@@ -30979,6 +33706,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimModS",
           "package": "lambdacube-core",
@@ -30992,6 +33720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMul",
           "package": "lambdacube-core",
@@ -31001,6 +33730,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMul",
           "package": "lambdacube-core",
@@ -31014,6 +33744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMulMatMat",
           "package": "lambdacube-core",
@@ -31023,6 +33754,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMulMatMat",
           "package": "lambdacube-core",
@@ -31036,6 +33768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMulMatVec",
           "package": "lambdacube-core",
@@ -31045,6 +33778,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMulMatVec",
           "package": "lambdacube-core",
@@ -31058,6 +33792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMulS",
           "package": "lambdacube-core",
@@ -31067,6 +33802,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMulS",
           "package": "lambdacube-core",
@@ -31080,6 +33816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimMulVecMat",
           "package": "lambdacube-core",
@@ -31089,6 +33826,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimMulVecMat",
           "package": "lambdacube-core",
@@ -31102,6 +33840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNeg",
           "package": "lambdacube-core",
@@ -31111,6 +33850,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNeg",
           "package": "lambdacube-core",
@@ -31124,6 +33864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNoise1",
           "package": "lambdacube-core",
@@ -31133,6 +33874,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNoise1",
           "package": "lambdacube-core",
@@ -31146,6 +33888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNoise2",
           "package": "lambdacube-core",
@@ -31155,6 +33898,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNoise2",
           "package": "lambdacube-core",
@@ -31168,6 +33912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNoise3",
           "package": "lambdacube-core",
@@ -31177,6 +33922,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNoise3",
           "package": "lambdacube-core",
@@ -31190,6 +33936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNoise4",
           "package": "lambdacube-core",
@@ -31199,6 +33946,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNoise4",
           "package": "lambdacube-core",
@@ -31212,6 +33960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNormalize",
           "package": "lambdacube-core",
@@ -31221,6 +33970,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNormalize",
           "package": "lambdacube-core",
@@ -31234,6 +33984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNot",
           "package": "lambdacube-core",
@@ -31243,6 +33994,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNot",
           "package": "lambdacube-core",
@@ -31256,6 +34008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNotEqual",
           "package": "lambdacube-core",
@@ -31265,6 +34018,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNotEqual",
           "package": "lambdacube-core",
@@ -31278,6 +34032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimNotEqualV",
           "package": "lambdacube-core",
@@ -31287,6 +34042,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimNotEqualV",
           "package": "lambdacube-core",
@@ -31300,6 +34056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimOr",
           "package": "lambdacube-core",
@@ -31309,6 +34066,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimOr",
           "package": "lambdacube-core",
@@ -31322,6 +34080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimOuterProduct",
           "package": "lambdacube-core",
@@ -31331,6 +34090,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimOuterProduct",
           "package": "lambdacube-core",
@@ -31344,6 +34104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimPow",
           "package": "lambdacube-core",
@@ -31353,6 +34114,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimPow",
           "package": "lambdacube-core",
@@ -31366,6 +34128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimRadians",
           "package": "lambdacube-core",
@@ -31375,6 +34138,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimRadians",
           "package": "lambdacube-core",
@@ -31388,6 +34152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimReflect",
           "package": "lambdacube-core",
@@ -31397,6 +34162,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimReflect",
           "package": "lambdacube-core",
@@ -31410,6 +34176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimRefract",
           "package": "lambdacube-core",
@@ -31419,6 +34186,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimRefract",
           "package": "lambdacube-core",
@@ -31432,6 +34200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimRound",
           "package": "lambdacube-core",
@@ -31441,6 +34210,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimRound",
           "package": "lambdacube-core",
@@ -31454,6 +34224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimRoundEven",
           "package": "lambdacube-core",
@@ -31463,6 +34234,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimRoundEven",
           "package": "lambdacube-core",
@@ -31476,6 +34248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimSign",
           "package": "lambdacube-core",
@@ -31485,6 +34258,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimSign",
           "package": "lambdacube-core",
@@ -31498,6 +34272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimSin",
           "package": "lambdacube-core",
@@ -31507,6 +34282,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimSin",
           "package": "lambdacube-core",
@@ -31520,6 +34296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimSinH",
           "package": "lambdacube-core",
@@ -31529,6 +34306,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimSinH",
           "package": "lambdacube-core",
@@ -31542,6 +34320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimSmoothStep",
           "package": "lambdacube-core",
@@ -31551,6 +34330,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimSmoothStep",
           "package": "lambdacube-core",
@@ -31564,6 +34344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimSmoothStepS",
           "package": "lambdacube-core",
@@ -31573,6 +34354,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimSmoothStepS",
           "package": "lambdacube-core",
@@ -31586,6 +34368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimSqrt",
           "package": "lambdacube-core",
@@ -31595,6 +34378,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimSqrt",
           "package": "lambdacube-core",
@@ -31608,6 +34392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimStep",
           "package": "lambdacube-core",
@@ -31617,6 +34402,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimStep",
           "package": "lambdacube-core",
@@ -31630,6 +34416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimStepS",
           "package": "lambdacube-core",
@@ -31639,6 +34426,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimStepS",
           "package": "lambdacube-core",
@@ -31652,6 +34440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimSub",
           "package": "lambdacube-core",
@@ -31661,6 +34450,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimSub",
           "package": "lambdacube-core",
@@ -31674,6 +34464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimSubS",
           "package": "lambdacube-core",
@@ -31683,6 +34474,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimSubS",
           "package": "lambdacube-core",
@@ -31696,6 +34488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTan",
           "package": "lambdacube-core",
@@ -31705,6 +34498,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTan",
           "package": "lambdacube-core",
@@ -31718,6 +34512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTanH",
           "package": "lambdacube-core",
@@ -31727,6 +34522,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTanH",
           "package": "lambdacube-core",
@@ -31740,6 +34536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTexelFetch",
           "package": "lambdacube-core",
@@ -31749,6 +34546,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTexelFetch",
           "package": "lambdacube-core",
@@ -31762,6 +34560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTexelFetchOffset",
           "package": "lambdacube-core",
@@ -31771,6 +34570,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTexelFetchOffset",
           "package": "lambdacube-core",
@@ -31784,6 +34584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTexture",
           "package": "lambdacube-core",
@@ -31793,6 +34594,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTexture",
           "package": "lambdacube-core",
@@ -31806,6 +34608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureGrad",
           "package": "lambdacube-core",
@@ -31815,6 +34618,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureGrad",
           "package": "lambdacube-core",
@@ -31828,6 +34632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureGradOffset",
           "package": "lambdacube-core",
@@ -31837,6 +34642,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureGradOffset",
           "package": "lambdacube-core",
@@ -31850,6 +34656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureLod",
           "package": "lambdacube-core",
@@ -31859,6 +34666,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureLod",
           "package": "lambdacube-core",
@@ -31872,6 +34680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureLodOffset",
           "package": "lambdacube-core",
@@ -31881,6 +34690,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureLodOffset",
           "package": "lambdacube-core",
@@ -31894,6 +34704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureOffset",
           "package": "lambdacube-core",
@@ -31903,6 +34714,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureOffset",
           "package": "lambdacube-core",
@@ -31916,6 +34728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProj",
           "package": "lambdacube-core",
@@ -31925,6 +34738,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProj",
           "package": "lambdacube-core",
@@ -31938,6 +34752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjGrad",
           "package": "lambdacube-core",
@@ -31947,6 +34762,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjGrad",
           "package": "lambdacube-core",
@@ -31960,6 +34776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjGradOffset",
           "package": "lambdacube-core",
@@ -31969,6 +34786,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjGradOffset",
           "package": "lambdacube-core",
@@ -31982,6 +34800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjLod",
           "package": "lambdacube-core",
@@ -31991,6 +34810,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjLod",
           "package": "lambdacube-core",
@@ -32004,6 +34824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjLodOffset",
           "package": "lambdacube-core",
@@ -32013,6 +34834,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjLodOffset",
           "package": "lambdacube-core",
@@ -32026,6 +34848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjOffset",
           "package": "lambdacube-core",
@@ -32035,6 +34858,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureProjOffset",
           "package": "lambdacube-core",
@@ -32048,6 +34872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureSize",
           "package": "lambdacube-core",
@@ -32057,6 +34882,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTextureSize",
           "package": "lambdacube-core",
@@ -32070,6 +34896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTranspose",
           "package": "lambdacube-core",
@@ -32079,6 +34906,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTranspose",
           "package": "lambdacube-core",
@@ -32092,6 +34920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTrunc",
           "package": "lambdacube-core",
@@ -32101,6 +34930,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTrunc",
           "package": "lambdacube-core",
@@ -32114,6 +34944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTupToV2",
           "package": "lambdacube-core",
@@ -32123,6 +34954,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTupToV2",
           "package": "lambdacube-core",
@@ -32136,6 +34968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTupToV3",
           "package": "lambdacube-core",
@@ -32145,6 +34978,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTupToV3",
           "package": "lambdacube-core",
@@ -32158,6 +34992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimTupToV4",
           "package": "lambdacube-core",
@@ -32167,6 +35002,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimTupToV4",
           "package": "lambdacube-core",
@@ -32180,6 +35016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimUIntBitsToFloat",
           "package": "lambdacube-core",
@@ -32189,6 +35026,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimUIntBitsToFloat",
           "package": "lambdacube-core",
@@ -32202,6 +35040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimV2ToTup",
           "package": "lambdacube-core",
@@ -32211,6 +35050,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimV2ToTup",
           "package": "lambdacube-core",
@@ -32224,6 +35064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimV3ToTup",
           "package": "lambdacube-core",
@@ -32233,6 +35074,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimV3ToTup",
           "package": "lambdacube-core",
@@ -32246,6 +35088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimV4ToTup",
           "package": "lambdacube-core",
@@ -32255,6 +35098,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimV4ToTup",
           "package": "lambdacube-core",
@@ -32268,6 +35112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:28 UTC 2014",
           "module": "LC_U_PrimFun",
           "name": "PrimXor",
           "package": "lambdacube-core",
@@ -32277,6 +35122,7 @@
         },
         "index": {
           "hierarchy": "LC_U_PrimFun",
+          "indexed": "2014-03-11T19:04:28",
           "module": "LC_U_PrimFun",
           "name": "PrimXor",
           "package": "lambdacube-core",

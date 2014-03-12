@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gmap"
+        "phrase": "gmap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.AssocList",
           "name": "AssocList",
           "package": "gmap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data GMap AssocList",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.AssocList",
           "name": "AssocList",
           "package": "gmap",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.AssocList",
           "name": "AList",
           "package": "gmap",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data GMap AssocList",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.AssocList",
           "name": "AList",
           "package": "gmap",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.AssocList",
           "name": "ImaginaryOrdMap",
           "package": "gmap",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data GMap AssocList",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.AssocList",
           "name": "ImaginaryOrdMap",
           "package": "gmap",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.AssocList",
           "name": "OList",
           "package": "gmap",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data GMap AssocList",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.AssocList",
           "name": "OList",
           "package": "gmap",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.AssocList",
           "name": "SList",
           "package": "gmap",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data GMap AssocList",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.AssocList",
           "name": "SList",
           "package": "gmap",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.AssocList",
           "name": "AL",
           "package": "gmap",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Data GMap AssocList",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.AssocList",
           "name": "AL",
           "normalized": "AL[(a,b)]",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.AssocList",
           "name": "SL",
           "package": "gmap",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data GMap AssocList",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.AssocList",
           "name": "SL",
           "normalized": "SL[(a,b)]",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.AssocList",
           "name": "sl",
           "package": "gmap",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data GMap AssocList",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.AssocList",
           "name": "sl",
           "normalized": "[(a,b)]-\u003eSList c a b",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.CacheKeys",
           "name": "CacheKeys",
           "package": "gmap",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data GMap CacheKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.CacheKeys",
           "name": "CacheKeys",
           "package": "gmap",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map transformer that causes keys to be cached alongside elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.CacheKeys",
           "name": "CacheKeys",
           "package": "gmap",
@@ -225,6 +244,7 @@
         "index": {
           "description": "map transformer that causes keys to be cached alongside elements",
           "hierarchy": "Data GMap CacheKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.CacheKeys",
           "name": "CacheKeys",
           "package": "gmap",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.CacheKeys",
           "name": "cacheKeys",
           "package": "gmap",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Data GMap CacheKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.CacheKeys",
           "name": "cacheKeys",
           "normalized": "a b-\u003eCacheKeys a c b",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.CacheKeys",
           "name": "uncacheKeys",
           "package": "gmap",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data GMap CacheKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.CacheKeys",
           "name": "uncacheKeys",
           "normalized": "CacheKeys a b c-\u003ea c",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "ChoiceMap",
           "package": "gmap",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "ChoiceMap",
           "package": "gmap",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice2",
           "package": "gmap",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice2",
           "package": "gmap",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e type for keys of form \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e mapL kL, \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e mapR kR) =\u003e \u003ccode\u003e\u003ca\u003eChoice2\u003c/a\u003e\u003c/code\u003e kL kR\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice2Map",
           "package": "gmap",
@@ -338,6 +367,7 @@
         "index": {
           "description": "The Map type for keys of form Map mapL kL Map mapR kR Choice2 kL kR",
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice2Map",
           "package": "gmap",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice3",
           "package": "gmap",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice3",
           "package": "gmap",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice3Map",
           "package": "gmap",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice3Map",
           "package": "gmap",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice4",
           "package": "gmap",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice4",
           "package": "gmap",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice4Map",
           "package": "gmap",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice4Map",
           "package": "gmap",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice5",
           "package": "gmap",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice5",
           "package": "gmap",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice5Map",
           "package": "gmap",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "Choice5Map",
           "package": "gmap",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C1of2",
           "package": "gmap",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C1of2",
           "package": "gmap",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C1of3",
           "package": "gmap",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C1of3",
           "package": "gmap",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C1of4",
           "package": "gmap",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C1of4",
           "package": "gmap",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C1of5",
           "package": "gmap",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C1of5",
           "package": "gmap",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C2of2",
           "package": "gmap",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C2of2",
           "package": "gmap",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C2of3",
           "package": "gmap",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C2of3",
           "package": "gmap",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C2of4",
           "package": "gmap",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C2of4",
           "package": "gmap",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C2of5",
           "package": "gmap",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C2of5",
           "package": "gmap",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C3of3",
           "package": "gmap",
@@ -654,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C3of3",
           "package": "gmap",
@@ -666,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C3of4",
           "package": "gmap",
@@ -675,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C3of4",
           "package": "gmap",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C3of5",
           "package": "gmap",
@@ -696,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C3of5",
           "package": "gmap",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C4of4",
           "package": "gmap",
@@ -717,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C4of4",
           "package": "gmap",
@@ -729,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C4of5",
           "package": "gmap",
@@ -738,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C4of5",
           "package": "gmap",
@@ -750,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ChoiceMap",
           "name": "C5of5",
           "package": "gmap",
@@ -759,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ChoiceMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ChoiceMap",
           "name": "C5of5",
           "package": "gmap",
@@ -771,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.EitherMap",
           "name": "EitherMap",
           "package": "gmap",
@@ -779,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Data GMap EitherMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.EitherMap",
           "name": "EitherMap",
           "package": "gmap",
@@ -792,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.EitherMap",
           "name": "EitherMap",
           "package": "gmap",
@@ -800,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Data GMap EitherMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.EitherMap",
           "name": "EitherMap",
           "package": "gmap",
@@ -813,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.EnumMap",
           "name": "EnumMap",
           "package": "gmap",
@@ -821,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Data GMap EnumMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.EnumMap",
           "name": "EnumMap",
           "package": "gmap",
@@ -834,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.EnumMap",
           "name": "EnumMap",
           "package": "gmap",
@@ -842,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data GMap EnumMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.EnumMap",
           "name": "EnumMap",
           "package": "gmap",
@@ -855,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.InjectKeys",
           "name": "InjectKeys",
           "package": "gmap",
@@ -863,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data GMap InjectKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.InjectKeys",
           "name": "InjectKeys",
           "package": "gmap",
@@ -876,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.InjectKeys",
           "name": "InjectKeys",
           "package": "gmap",
@@ -884,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data GMap InjectKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.InjectKeys",
           "name": "InjectKeys",
           "package": "gmap",
@@ -898,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003et\u003c/code\u003e is a phantom type which determines the encoding and decoding functions used.\n \u003ccode\u003et\u003c/code\u003e is passed as an undefined value.\n \u003ccode\u003e\u003ca\u003einject\u003c/a\u003e\u003c/code\u003e must be injective (ie (inject a) == (inject b) implies a == b) and reversible by \u003ccode\u003e\u003ca\u003eoutject\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.InjectKeys",
           "name": "Injection",
           "package": "gmap",
@@ -907,6 +990,7 @@
         "index": {
           "description": "is phantom type which determines the encoding and decoding functions used is passed as an undefined value inject must be injective ie inject inject implies and reversible by outject",
           "hierarchy": "Data GMap InjectKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.InjectKeys",
           "name": "Injection",
           "package": "gmap",
@@ -920,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.InjectKeys",
           "name": "inject",
           "package": "gmap",
@@ -929,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Data GMap InjectKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.InjectKeys",
           "name": "inject",
           "normalized": "a-\u003eb-\u003eb",
@@ -943,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.InjectKeys",
           "name": "outject",
           "package": "gmap",
@@ -952,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Data GMap InjectKeys",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.InjectKeys",
           "name": "outject",
           "normalized": "a-\u003eb-\u003eb",
@@ -966,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.IntMap",
           "name": "IntMap",
           "package": "gmap",
@@ -974,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Data GMap IntMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.IntMap",
           "name": "IntMap",
           "package": "gmap",
@@ -988,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe GT type for \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.IntMap",
           "name": "IntMap",
           "package": "gmap",
@@ -997,6 +1088,7 @@
         "index": {
           "description": "The GT type for Int keys",
           "hierarchy": "Data GMap IntMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.IntMap",
           "name": "IntMap",
           "package": "gmap",
@@ -1010,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ListMap",
           "name": "ListMap",
           "package": "gmap",
@@ -1018,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Data GMap ListMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ListMap",
           "name": "ListMap",
           "package": "gmap",
@@ -1032,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e type for keys of form \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e map k =\u003e [k]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.ListMap",
           "name": "ListMap",
           "package": "gmap",
@@ -1041,6 +1136,7 @@
         "index": {
           "description": "The Map type for keys of form Map map",
           "hierarchy": "Data GMap ListMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.ListMap",
           "name": "ListMap",
           "package": "gmap",
@@ -1054,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.MaybeMap",
           "name": "MaybeMap",
           "package": "gmap",
@@ -1062,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Data GMap MaybeMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.MaybeMap",
           "name": "MaybeMap",
           "package": "gmap",
@@ -1075,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.MaybeMap",
           "name": "MaybeMap",
           "package": "gmap",
@@ -1083,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Data GMap MaybeMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.MaybeMap",
           "name": "MaybeMap",
           "package": "gmap",
@@ -1096,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.OrdMap",
           "name": "OrdMap",
           "package": "gmap",
@@ -1104,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Data GMap OrdMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.OrdMap",
           "name": "OrdMap",
           "package": "gmap",
@@ -1118,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e type any key type which is an instance of \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e.\n This is a newtype wrapper around \u003ccode\u003e\u003ccode\u003eData.Tree.AVL.AVL\u003c/code\u003e (k,a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.OrdMap",
           "name": "OrdMap",
           "package": "gmap",
@@ -1127,6 +1230,7 @@
         "index": {
           "description": "The default Map type any key type which is an instance of Ord This is newtype wrapper around Data.Tree.AVL.AVL",
           "hierarchy": "Data GMap OrdMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.OrdMap",
           "name": "OrdMap",
           "package": "gmap",
@@ -1140,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.TupleMap",
           "name": "TupleMap",
           "package": "gmap",
@@ -1148,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Data GMap TupleMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.TupleMap",
           "name": "TupleMap",
           "package": "gmap",
@@ -1161,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.TupleMap",
           "name": "Tuple2Map",
           "package": "gmap",
@@ -1169,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Data GMap TupleMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.TupleMap",
           "name": "Tuple2Map",
           "package": "gmap",
@@ -1182,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.TupleMap",
           "name": "Tuple3Map",
           "package": "gmap",
@@ -1190,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Data GMap TupleMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.TupleMap",
           "name": "Tuple3Map",
           "package": "gmap",
@@ -1203,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.TupleMap",
           "name": "Tuple4Map",
           "package": "gmap",
@@ -1211,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Data GMap TupleMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.TupleMap",
           "name": "Tuple4Map",
           "package": "gmap",
@@ -1224,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.TupleMap",
           "name": "Tuple5Map",
           "package": "gmap",
@@ -1232,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Data GMap TupleMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.TupleMap",
           "name": "Tuple5Map",
           "package": "gmap",
@@ -1245,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.UnitMap",
           "name": "UnitMap",
           "package": "gmap",
@@ -1253,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Data GMap UnitMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.UnitMap",
           "name": "UnitMap",
           "package": "gmap",
@@ -1267,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e type unit (empty tuple) keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap.UnitMap",
           "name": "UnitMap",
           "package": "gmap",
@@ -1276,6 +1393,7 @@
         "index": {
           "description": "The default Map type unit empty tuple keys",
           "hierarchy": "Data GMap UnitMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap.UnitMap",
           "name": "UnitMap",
           "package": "gmap",
@@ -1289,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "GMap",
           "package": "gmap",
@@ -1297,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "GMap",
           "package": "gmap",
@@ -1311,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of composable maps.\n For an example of a composed map see Data.GMap.ListMap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "Map",
           "package": "gmap",
@@ -1320,6 +1441,7 @@
         "index": {
           "description": "Type of composable maps For an example of composed map see Data.GMap.ListMap",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "Map",
           "package": "gmap",
@@ -1334,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps which maintain some order on their keys, determined by compareKey.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "OrderedMap",
           "package": "gmap",
@@ -1343,6 +1466,7 @@
         "index": {
           "description": "Maps which maintain some order on their keys determined by compareKey",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "OrderedMap",
           "package": "gmap",
@@ -1357,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaised by disjointUnion if the arguments are not disjoint. Note that instances of Map are *not* required\n to test that arguments are disjoint.\n\u003c/p\u003e\u003cp\u003eThis is the return type for the \u003ccode\u003e\u003ca\u003estatus\u003c/a\u003e\u003c/code\u003e method of the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "Status",
           "package": "gmap",
@@ -1366,6 +1491,7 @@
         "index": {
           "description": "Raised by disjointUnion if the arguments are not disjoint Note that instances of Map are not required to test that arguments are disjoint This is the return type for the status method of the Map class",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "Status",
           "package": "gmap",
@@ -1379,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "Many",
           "package": "gmap",
@@ -1388,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "Many",
           "package": "gmap",
@@ -1401,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "None",
           "package": "gmap",
@@ -1410,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "None",
           "package": "gmap",
@@ -1423,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "One",
           "package": "gmap",
@@ -1432,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "One",
           "package": "gmap",
@@ -1446,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd number of key/value pairs in the map to the supplied Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "addSize",
           "package": "gmap",
@@ -1456,6 +1589,7 @@
         "index": {
           "description": "Add number of key value pairs in the map to the supplied Int",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "addSize",
           "normalized": "a b-\u003eInt #-\u003eInt #",
@@ -1472,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value associated with the supplied key (if any) and apply the supplied function\n to that value. Delete the association if the result is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e. Replace the old value with\n the new value if the result is (\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e something).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "adjustMaybe",
           "package": "gmap",
@@ -1482,6 +1617,7 @@
         "index": {
           "description": "Find the value associated with the supplied key if any and apply the supplied function to that value Delete the association if the result is Nothing Replace the old value with the new value if the result is Just something",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "adjustMaybe",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003ec a-\u003ec a",
@@ -1498,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eadjustMaybe\u003c/a\u003e\u003c/code\u003e except that the new associated value is strictly evaluated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "adjustMaybe'",
           "package": "gmap",
@@ -1508,6 +1645,7 @@
         "index": {
           "description": "Like adjustMaybe except that the new associated value is strictly evaluated",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "adjustMaybe'",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003ec a-\u003ec a",
@@ -1524,6 +1662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value associated with the supplied key (if any) and apply the supplied function\n to that value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "adjustWith",
           "package": "gmap",
@@ -1534,6 +1673,7 @@
         "index": {
           "description": "Find the value associated with the supplied key if any and apply the supplied function to that value",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "adjustWith",
           "normalized": "(a-\u003ea)-\u003eb-\u003ec a-\u003ec a",
@@ -1550,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003eadjust\u003c/code\u003e but applies the supplied function strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "adjustWith'",
           "package": "gmap",
@@ -1560,6 +1701,7 @@
         "index": {
           "description": "Same as adjust but applies the supplied function strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "adjustWith'",
           "normalized": "(a-\u003ea)-\u003eb-\u003ec a-\u003ec a",
@@ -1576,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a combined insert/modify/delete operation. The argument to the supplied function\n is (\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e a) if there is a value (a) associated with the supplied key, otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n If the return value is (\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e a'), a' becomes the new value associated with the supplied key.\n If the return value is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the association for the supplied key (if any) is deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "alter",
           "package": "gmap",
@@ -1586,6 +1729,7 @@
         "index": {
           "description": "This is combined insert modify delete operation The argument to the supplied function is Just if there is value associated with the supplied key otherwise Nothing If the return value is Just becomes the new value associated with the supplied key If the return value is Nothing the association for the supplied key if any is deleted",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003ec a-\u003ec a",
@@ -1601,6 +1745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e except that the new associated value is strictly evaluated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "alter'",
           "package": "gmap",
@@ -1611,6 +1756,7 @@
         "index": {
           "description": "Like alter except that the new associated value is strictly evaluated",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "alter'",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003ec a-\u003ec a",
@@ -1625,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "assocs",
           "package": "gmap",
@@ -1634,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "assocs",
           "normalized": "a b-\u003e[(c,b)]",
@@ -1649,6 +1797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all associations in the map in ascending order of keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "assocsAsc",
           "package": "gmap",
@@ -1659,6 +1808,7 @@
         "index": {
           "description": "List all associations in the map in ascending order of keys",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "assocsAsc",
           "normalized": "a b-\u003e[(c,b)]",
@@ -1675,6 +1825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all associations in the map in descending order of keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "assocsDesc",
           "package": "gmap",
@@ -1685,6 +1836,7 @@
         "index": {
           "description": "List all associations in the map in descending order of keys",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "assocsDesc",
           "normalized": "a b-\u003e[(c,b)]",
@@ -1701,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery function in this class must respect the ordering given by compareKey.\n The first argument is required for its type only and should not be evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "compareKey",
           "package": "gmap",
@@ -1711,6 +1864,7 @@
         "index": {
           "description": "Every function in this class must respect the ordering given by compareKey The first argument is required for its type only and should not be evaluated",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "compareKey",
           "normalized": "a b-\u003ec-\u003ec-\u003eOrdering",
@@ -1727,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the association for the supplied key (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "delete",
           "package": "gmap",
@@ -1737,6 +1892,7 @@
         "index": {
           "description": "Delete the association for the supplied key if any",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "delete",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -1752,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the difference between two maps. For any key occuring in the second map,\n the corresponding association (if any) is deleted from the first map.\n The associated values in the second map are irrelevant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "difference",
           "package": "gmap",
@@ -1762,6 +1919,7 @@
         "index": {
           "description": "Evaluate the difference between two maps For any key occuring in the second map the corresponding association if any is deleted from the first map The associated values in the second map are irrelevant",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "difference",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -1777,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference with a combining function. If the combining function returns\n \u003ccode\u003eJust a\u003c/code\u003e then the corresponding association is not deleted from the result map\n (it is retained with \u003ccode\u003ea\u003c/code\u003e as the associated value).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "differenceMaybe",
           "package": "gmap",
@@ -1787,6 +1946,7 @@
         "index": {
           "description": "Difference with combining function If the combining function returns Just then the corresponding association is not deleted from the result map it is retained with as the associated value",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "differenceMaybe",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003ec a-\u003ec b-\u003ec a",
@@ -1803,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edifferenceMaybe\u003c/a\u003e\u003c/code\u003e except that the new associated values are strictly evaluated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "differenceMaybe'",
           "package": "gmap",
@@ -1813,6 +1974,7 @@
         "index": {
           "description": "Like differenceMaybe except that the new associated values are strictly evaluated",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "differenceMaybe'",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003ec a-\u003ec b-\u003ec a",
@@ -1829,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the union of two key-disjoint maps. If the arguments are not disjoint the\n behaviour is undefined. This is potentially faster than \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "disjointUnion",
           "package": "gmap",
@@ -1839,6 +2002,7 @@
         "index": {
           "description": "Evaluate the union of two key-disjoint maps If the arguments are not disjoint the behaviour is undefined This is potentially faster than union",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "disjointUnion",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1854,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "disjointUnionError",
           "package": "gmap",
@@ -1863,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "disjointUnionError",
           "package": "gmap",
@@ -1876,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "elems",
           "package": "gmap",
@@ -1885,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "elems",
           "normalized": "a b-\u003e[b]",
@@ -1900,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the elements in the map in ascending order of keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "elemsAsc",
           "package": "gmap",
@@ -1910,6 +2079,7 @@
         "index": {
           "description": "List the elements in the map in ascending order of keys",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "elemsAsc",
           "normalized": "a b-\u003e[b]",
@@ -1926,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the elements in the map in descending order of keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "elemsDesc",
           "package": "gmap",
@@ -1936,6 +2107,7 @@
         "index": {
           "description": "List the elements in the map in descending order of keys",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "elemsDesc",
           "normalized": "a b-\u003e[b]",
@@ -1952,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "empty",
           "package": "gmap",
@@ -1962,6 +2135,7 @@
         "index": {
           "description": "The empty map",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "empty",
           "package": "gmap",
@@ -1975,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete associations for which the supplied predicate returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e when applied to\n the associated value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "filter",
           "package": "gmap",
@@ -1985,6 +2160,7 @@
         "index": {
           "description": "Delete associations for which the supplied predicate returns False when applied to the associated value",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -2000,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold right over the list of associations in an unspecified order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldAssocs",
           "package": "gmap",
@@ -2010,6 +2187,7 @@
         "index": {
           "description": "Fold right over the list of associations in an unspecified order",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldAssocs",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ed b-\u003ec",
@@ -2026,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldAssocs\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their third argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldAssocs'",
           "package": "gmap",
@@ -2036,6 +2215,7 @@
         "index": {
           "description": "strict version of foldAssocs which should be used for accumulating functions which are strict in their third argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldAssocs'",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ed b-\u003ec",
@@ -2052,6 +2232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight associative fold over the list of associations in ascending order of keys.\n See \u003ccode\u003e\u003ca\u003efoldAssocsAsc'\u003c/a\u003e\u003c/code\u003e for a strict version of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldAssocsAsc",
           "package": "gmap",
@@ -2062,6 +2243,7 @@
         "index": {
           "description": "Right associative fold over the list of associations in ascending order of keys See foldAssocsAsc for strict version of this function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldAssocsAsc",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ed b-\u003ec",
@@ -2078,6 +2260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldAssocsAsc\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their third argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldAssocsAsc'",
           "package": "gmap",
@@ -2088,6 +2271,7 @@
         "index": {
           "description": "strict version of foldAssocsAsc which should be used for accumulating functions which are strict in their third argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldAssocsAsc'",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ed b-\u003ec",
@@ -2104,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight associative fold over the list of associations in descending order of keys.\n See \u003ccode\u003e\u003ca\u003efoldAssocsDesc'\u003c/a\u003e\u003c/code\u003e for a strict version of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldAssocsDesc",
           "package": "gmap",
@@ -2114,6 +2299,7 @@
         "index": {
           "description": "Right associative fold over the list of associations in descending order of keys See foldAssocsDesc for strict version of this function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldAssocsDesc",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ed b-\u003ec",
@@ -2130,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldAssocsDesc\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their third argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldAssocsDesc'",
           "package": "gmap",
@@ -2140,6 +2327,7 @@
         "index": {
           "description": "strict version of foldAssocsDesc which should be used for accumulating functions which are strict in their third argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldAssocsDesc'",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ed b-\u003ec",
@@ -2156,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold right over the list of elements in an unspecified order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldElems",
           "package": "gmap",
@@ -2166,6 +2355,7 @@
         "index": {
           "description": "Fold right over the list of elements in an unspecified order",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldElems",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -2182,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldElems\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldElems'",
           "package": "gmap",
@@ -2192,6 +2383,7 @@
         "index": {
           "description": "strict version of foldElems which should be used for accumulating functions which are strict in their second argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldElems'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -2208,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight associative fold over the list of elements in ascending order of keys.\n See \u003ccode\u003e\u003ca\u003efoldElemsAsc'\u003c/a\u003e\u003c/code\u003e for a strict version of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldElemsAsc",
           "package": "gmap",
@@ -2218,6 +2411,7 @@
         "index": {
           "description": "Right associative fold over the list of elements in ascending order of keys See foldElemsAsc for strict version of this function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldElemsAsc",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -2234,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldElemsAsc\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldElemsAsc'",
           "package": "gmap",
@@ -2244,6 +2439,7 @@
         "index": {
           "description": "strict version of foldElemsAsc which should be used for accumulating functions which are strict in their second argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldElemsAsc'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -2260,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight associative fold over the list of elements in descending order of keys.\n See \u003ccode\u003e\u003ca\u003efoldElemsDesc'\u003c/a\u003e\u003c/code\u003e for a strict version of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldElemsDesc",
           "package": "gmap",
@@ -2270,6 +2467,7 @@
         "index": {
           "description": "Right associative fold over the list of elements in descending order of keys See foldElemsDesc for strict version of this function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldElemsDesc",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -2286,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldElemsDesc\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldElemsDesc'",
           "package": "gmap",
@@ -2296,6 +2495,7 @@
         "index": {
           "description": "strict version of foldElemsDesc which should be used for accumulating functions which are strict in their second argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldElemsDesc'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -2312,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold over elements in un-specified order using \u003cem\u003eunboxed\u003c/em\u003e Int accumulator (with GHC).\n Defaults to boxed Int for other Haskells. Typically used for counting functions.\n Implementations are free to traverse the map in any order.\n The folded function is always applied strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldElemsUInt",
           "package": "gmap",
@@ -2322,6 +2523,7 @@
         "index": {
           "description": "Fold over elements in un-specified order using unboxed Int accumulator with GHC Defaults to boxed Int for other Haskells Typically used for counting functions Implementations are free to traverse the map in any order The folded function is always applied strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldElemsUInt",
           "normalized": "(a-\u003eInt #-\u003eInt #)-\u003eInt #-\u003eb a-\u003eInt #",
@@ -2338,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold right over the list of keys in an unspecified order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldKeys",
           "package": "gmap",
@@ -2348,6 +2551,7 @@
         "index": {
           "description": "Fold right over the list of keys in an unspecified order",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldKeys",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec d-\u003eb",
@@ -2364,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldKeys\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldKeys'",
           "package": "gmap",
@@ -2374,6 +2579,7 @@
         "index": {
           "description": "strict version of foldKeys which should be used for accumulating functions which are strict in their second argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldKeys'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec d-\u003eb",
@@ -2390,6 +2596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight associative fold over the list of keys in ascending order.\n See \u003ccode\u003e\u003ca\u003efoldKeysAsc'\u003c/a\u003e\u003c/code\u003e for a strict version of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldKeysAsc",
           "package": "gmap",
@@ -2400,6 +2607,7 @@
         "index": {
           "description": "Right associative fold over the list of keys in ascending order See foldKeysAsc for strict version of this function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldKeysAsc",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec d-\u003eb",
@@ -2416,6 +2624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldKeysAsc\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldKeysAsc'",
           "package": "gmap",
@@ -2426,6 +2635,7 @@
         "index": {
           "description": "strict version of foldKeysAsc which should be used for accumulating functions which are strict in their second argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldKeysAsc'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec d-\u003eb",
@@ -2442,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight associative fold over the list of keys in descending order.\n See \u003ccode\u003e\u003ca\u003efoldKeysDesc'\u003c/a\u003e\u003c/code\u003e for a strict version of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldKeysDesc",
           "package": "gmap",
@@ -2452,6 +2663,7 @@
         "index": {
           "description": "Right associative fold over the list of keys in descending order See foldKeysDesc for strict version of this function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldKeysDesc",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec d-\u003eb",
@@ -2468,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldKeysDesc\u003c/a\u003e\u003c/code\u003e which should be used for\n accumulating functions which are strict in their second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "foldKeysDesc'",
           "package": "gmap",
@@ -2478,6 +2691,7 @@
         "index": {
           "description": "strict version of foldKeysDesc which should be used for accumulating functions which are strict in their second argument",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "foldKeysDesc'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec d-\u003eb",
@@ -2493,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocs",
           "package": "gmap",
@@ -2502,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocs",
           "normalized": "[(a,b)]-\u003ec b",
@@ -2517,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocsAsc",
           "package": "gmap",
@@ -2526,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocsAsc",
           "normalized": "[(a,b)]-\u003ec b",
@@ -2541,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocsAscMaybe",
           "package": "gmap",
@@ -2550,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocsAscMaybe",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003e[(b,a)]-\u003ec a",
@@ -2566,6 +2786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a map from an ascending list of key/value pairs\n Combine repeated keys with the provided function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocsAscWith",
           "package": "gmap",
@@ -2576,6 +2797,7 @@
         "index": {
           "description": "Create map from an ascending list of key value pairs Combine repeated keys with the provided function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocsAscWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003ec a",
@@ -2591,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocsDesc",
           "package": "gmap",
@@ -2600,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocsDesc",
           "normalized": "[(a,b)]-\u003ec b",
@@ -2615,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocsDescMaybe",
           "package": "gmap",
@@ -2624,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocsDescMaybe",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003e[(b,a)]-\u003ec a",
@@ -2640,6 +2866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a map from a descending list of key/value pairs\n Combine repeated keys with the provided function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocsDescWith",
           "package": "gmap",
@@ -2650,6 +2877,7 @@
         "index": {
           "description": "Create map from descending list of key value pairs Combine repeated keys with the provided function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocsDescWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003ec a",
@@ -2665,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocsMaybe",
           "package": "gmap",
@@ -2674,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocsMaybe",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003e[(b,a)]-\u003ec a",
@@ -2690,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a map from an unordered list of associations\n Combine repeated keys with the provided function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "fromAssocsWith",
           "package": "gmap",
@@ -2700,6 +2931,7 @@
         "index": {
           "description": "Create map from an unordered list of associations Combine repeated keys with the provided function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "fromAssocsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003ec a",
@@ -2716,6 +2948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new association in the map, overwriting any value currently associated with the key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insert",
           "package": "gmap",
@@ -2726,6 +2959,7 @@
         "index": {
           "description": "Write new association in the map overwriting any value currently associated with the key",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insert",
           "normalized": "a-\u003eb-\u003ec b-\u003ec b",
@@ -2741,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new association in the map, overwriting any value currently associated with the key.\n The new value is evaluated strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insert'",
           "package": "gmap",
@@ -2751,6 +2986,7 @@
         "index": {
           "description": "Write new association in the map overwriting any value currently associated with the key The new value is evaluated strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insert'",
           "normalized": "a-\u003eb-\u003ec b-\u003ec b",
@@ -2766,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an unordered list of key/value pairs into a map.\n Repeated keys will be overwritten by the last occurence of the key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocs",
           "package": "gmap",
@@ -2776,6 +3013,7 @@
         "index": {
           "description": "Insert an unordered list of key value pairs into map Repeated keys will be overwritten by the last occurence of the key",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocs",
           "normalized": "[(a,b)]-\u003ec b-\u003ec b",
@@ -2792,6 +3030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an ascending list of associations into a map\n Duplicate keys are replaced by the rightmost value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocsAsc",
           "package": "gmap",
@@ -2802,6 +3041,7 @@
         "index": {
           "description": "Insert an ascending list of associations into map Duplicate keys are replaced by the rightmost value",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocsAsc",
           "normalized": "[(a,b)]-\u003ec b-\u003ec b",
@@ -2818,6 +3058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einsertAssocsAscWith\u003c/a\u003e\u003c/code\u003e except that if Nothing is returned then the key is discarded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocsAscMaybe",
           "package": "gmap",
@@ -2828,6 +3069,7 @@
         "index": {
           "description": "Same as insertAssocsAscWith except that if Nothing is returned then the key is discarded",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocsAscMaybe",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003e[(b,a)]-\u003ec a-\u003ec a",
@@ -2844,6 +3086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an ascending list of associations into a map\n Duplicate keys are combined with the supplied function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocsAscWith",
           "package": "gmap",
@@ -2854,6 +3097,7 @@
         "index": {
           "description": "Insert an ascending list of associations into map Duplicate keys are combined with the supplied function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocsAscWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003ec a-\u003ec a",
@@ -2870,6 +3114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a descending list of associations into a map\n Duplicate keys are replaced by the rightmost value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocsDesc",
           "package": "gmap",
@@ -2880,6 +3125,7 @@
         "index": {
           "description": "Insert descending list of associations into map Duplicate keys are replaced by the rightmost value",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocsDesc",
           "normalized": "[(a,b)]-\u003ec b-\u003ec b",
@@ -2896,6 +3142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einsertAssocsDescWith\u003c/a\u003e\u003c/code\u003e except that if Nothing is returned then the key is discarded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocsDescMaybe",
           "package": "gmap",
@@ -2906,6 +3153,7 @@
         "index": {
           "description": "Same as insertAssocsDescWith except that if Nothing is returned then the key is discarded",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocsDescMaybe",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003e[(b,a)]-\u003ec a-\u003ec a",
@@ -2922,6 +3170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a descending list of associations into a map\n Duplicate keys are combined with the supplied function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocsDescWith",
           "package": "gmap",
@@ -2932,6 +3181,7 @@
         "index": {
           "description": "Insert descending list of associations into map Duplicate keys are combined with the supplied function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocsDescWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003ec a-\u003ec a",
@@ -2947,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocsMaybe",
           "package": "gmap",
@@ -2956,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocsMaybe",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003e[(b,a)]-\u003ec a-\u003ec a",
@@ -2971,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertAssocsWith",
           "package": "gmap",
@@ -2980,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertAssocsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003ec a-\u003ec a",
@@ -2996,6 +3250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e, but the association is deleted if the supplied function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n (The supplied function is always applied strictly.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertMaybe",
           "package": "gmap",
@@ -3006,6 +3261,7 @@
         "index": {
           "description": "Similar to insert but the association is deleted if the supplied function returns Nothing The supplied function is always applied strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertMaybe",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003ea-\u003ec a-\u003ec a",
@@ -3022,6 +3278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003einsertMaybe\u003c/a\u003e\u003c/code\u003e except that if the key is already present the new associated\n value is evaluated strictly. If the key is not present then the supplied value is\n *not* evaluated strictly. (TODO Change this)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertMaybe'",
           "package": "gmap",
@@ -3032,6 +3289,7 @@
         "index": {
           "description": "Like insertMaybe except that if the key is already present the new associated value is evaluated strictly If the key is not present then the supplied value is not evaluated strictly TODO Change this",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertMaybe'",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003ea-\u003ec a-\u003ec a",
@@ -3048,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new association in the map if there is currently no value associated with the key.\n If there is a value associated with the key then replace it with the result of\n applying the supplied function to that value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertWith",
           "package": "gmap",
@@ -3058,6 +3317,7 @@
         "index": {
           "description": "Insert new association in the map if there is currently no value associated with the key If there is value associated with the key then replace it with the result of applying the supplied function to that value",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertWith",
           "normalized": "(a-\u003ea)-\u003eb-\u003ea-\u003ec a-\u003ec a",
@@ -3074,6 +3334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einsertWith\u003c/a\u003e\u003c/code\u003e, but applies the supplied function strictly if the search succeeds.\n Note that the third argument is not strictly evaluated either way (TODO change this)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "insertWith'",
           "package": "gmap",
@@ -3084,6 +3345,7 @@
         "index": {
           "description": "Same as insertWith but applies the supplied function strictly if the search succeeds Note that the third argument is not strictly evaluated either way TODO change this",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "insertWith'",
           "normalized": "(a-\u003ea)-\u003eb-\u003ea-\u003ec a-\u003ec a",
@@ -3100,6 +3362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the intersection of two maps, combining common associations using the supplied function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "intersection",
           "package": "gmap",
@@ -3110,6 +3373,7 @@
         "index": {
           "description": "Evaluate the intersection of two maps combining common associations using the supplied function",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "intersection",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -3125,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e, but the new associated values are evaluated strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "intersection'",
           "package": "gmap",
@@ -3135,6 +3400,7 @@
         "index": {
           "description": "Same as intersection but the new associated values are evaluated strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "intersection'",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -3150,6 +3416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the intersection of two maps, but delete combined associations from the result map\n if the combining function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "intersectionMaybe",
           "package": "gmap",
@@ -3160,6 +3427,7 @@
         "index": {
           "description": "Evaluate the intersection of two maps but delete combined associations from the result map if the combining function returns Nothing",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "intersectionMaybe",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003ed a-\u003ed b-\u003ed c",
@@ -3176,6 +3444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eintersectionMaybe\u003c/a\u003e\u003c/code\u003e except that the new associated values are strictly evaluated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "intersectionMaybe'",
           "package": "gmap",
@@ -3186,6 +3455,7 @@
         "index": {
           "description": "Like intersectionMaybe except that the new associated values are strictly evaluated",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "intersectionMaybe'",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003ed a-\u003ed b-\u003ed c",
@@ -3201,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "isEmpty",
           "package": "gmap",
@@ -3210,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "isEmpty",
           "normalized": "a b-\u003eBool",
@@ -3226,6 +3498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eisSubmapOf\u003c/a\u003e\u003c/code\u003e, but also requires that the size of the second map is\n greater than the first (so does not include the case where the key sets are identical).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "isProperSubmapOfBy",
           "package": "gmap",
@@ -3236,6 +3509,7 @@
         "index": {
           "description": "Similar to isSubmapOf but also requires that the size of the second map is greater than the first so does not include the case where the key sets are identical",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "isProperSubmapOfBy",
           "normalized": "(a-\u003eb-\u003eBool)-\u003ec a-\u003ec b-\u003eBool",
@@ -3252,6 +3526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eisSubsetOf\u003c/a\u003e\u003c/code\u003e, but also requires that the size of the second map is\n greater than the first (so does not include the case where the key sets are identical).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "isProperSubsetOf",
           "package": "gmap",
@@ -3262,6 +3537,7 @@
         "index": {
           "description": "Similar to isSubsetOf but also requires that the size of the second map is greater than the first so does not include the case where the key sets are identical",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "isProperSubsetOf",
           "normalized": "a b-\u003ea c-\u003eBool",
@@ -3277,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "isSingleton",
           "package": "gmap",
@@ -3286,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "isSingleton",
           "normalized": "a b-\u003eBool",
@@ -3302,6 +3580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the keys in the first map are a subset of the keys in the second map\n and the corresponding function always returns true when applied to the values associated\n with matching keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "isSubmapOf",
           "package": "gmap",
@@ -3312,6 +3591,7 @@
         "index": {
           "description": "Returns true if the keys in the first map are subset of the keys in the second map and the corresponding function always returns true when applied to the values associated with matching keys",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "isSubmapOf",
           "normalized": "(a-\u003eb-\u003eBool)-\u003ec a-\u003ec b-\u003eBool",
@@ -3328,6 +3608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the keys in the first map are a subset of the keys in the second map.\n (This includes the case where the key sets are identical). Note that this function does\n not examine the associated values (which are irrelevant). See \u003ccode\u003e\u003ca\u003eisSubmapOf\u003c/a\u003e\u003c/code\u003e if you\n do want associated values examined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "isSubsetOf",
           "package": "gmap",
@@ -3338,6 +3619,7 @@
         "index": {
           "description": "Returns true if the keys in the first map are subset of the keys in the second map This includes the case where the key sets are identical Note that this function does not examine the associated values which are irrelevant See isSubmapOf if you do want associated values examined",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "isSubsetOf",
           "normalized": "a b-\u003ea c-\u003eBool",
@@ -3353,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "keys",
           "package": "gmap",
@@ -3362,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "keys",
           "normalized": "a b-\u003e[c]",
@@ -3377,6 +3661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all keys in the map in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "keysAsc",
           "package": "gmap",
@@ -3387,6 +3672,7 @@
         "index": {
           "description": "List all keys in the map in ascending order",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "keysAsc",
           "normalized": "a b-\u003e[c]",
@@ -3403,6 +3689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all keys in the map in descending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "keysDesc",
           "package": "gmap",
@@ -3413,6 +3700,7 @@
         "index": {
           "description": "List all keys in the map in descending order",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "keysDesc",
           "normalized": "a b-\u003e[c]",
@@ -3429,6 +3717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value associated with the supplied key (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "lookup",
           "package": "gmap",
@@ -3439,6 +3728,7 @@
         "index": {
           "description": "Return the value associated with the supplied key if any",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "lookup",
           "normalized": "a-\u003eb c-\u003eMaybe c",
@@ -3454,6 +3744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value associated with the supplied key (if any) and return the result\n of applying the supplied continuation function to that value. Useful for nested lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "lookupCont",
           "package": "gmap",
@@ -3464,6 +3755,7 @@
         "index": {
           "description": "Find the value associated with the supplied key if any and return the result of applying the supplied continuation function to that value Useful for nested lookup",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "lookupCont",
           "normalized": "(a-\u003eMaybe b)-\u003ec-\u003ed a-\u003eMaybe b",
@@ -3480,6 +3772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "lookupM",
           "package": "gmap",
@@ -3490,6 +3783,7 @@
         "index": {
           "description": "Monadic lookup",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "lookupM",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -3505,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the supplied function to every associated value in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "map",
           "package": "gmap",
@@ -3515,6 +3810,7 @@
         "index": {
           "description": "Apply the supplied function to every associated value in the map",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -3530,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e, but the function is applied strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "map'",
           "package": "gmap",
@@ -3540,6 +3837,7 @@
         "index": {
           "description": "Same as map but the function is applied strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "map'",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -3555,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the supplied function to every associated value in the map.\n If the result is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e then the delete the corresponding association.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "mapMaybe",
           "package": "gmap",
@@ -3565,6 +3864,7 @@
         "index": {
           "description": "Apply the supplied function to every associated value in the map If the result is Nothing then the delete the corresponding association",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003ec a-\u003ec b",
@@ -3581,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emapMaybe\u003c/a\u003e\u003c/code\u003e except that the new associated values are strictly evaluated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "mapMaybe'",
           "package": "gmap",
@@ -3591,6 +3892,7 @@
         "index": {
           "description": "Like mapMaybe except that the new associated values are strictly evaluated",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "mapMaybe'",
           "normalized": "(a-\u003eMaybe b)-\u003ec a-\u003ec b",
@@ -3607,6 +3909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the supplied function to every association in the map, and use the result\n as the new associated value for the corresponding key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "mapWithKey",
           "package": "gmap",
@@ -3617,6 +3920,7 @@
         "index": {
           "description": "Apply the supplied function to every association in the map and use the result as the new associated value for the corresponding key",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "mapWithKey",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed b-\u003ed c",
@@ -3633,6 +3937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emapWithKey\u003c/a\u003e\u003c/code\u003e, but the function is applied strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "mapWithKey'",
           "package": "gmap",
@@ -3643,6 +3948,7 @@
         "index": {
           "description": "Same as mapWithKey but the function is applied strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "mapWithKey'",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed b-\u003ed c",
@@ -3659,6 +3965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReject empty maps (return Nothing).\n Typically used for dealing with nested maps.\n eg to delete a key from a nested map:\n 'adjustMaybe (nonEmpty $ delete k2) k1'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "nonEmpty",
           "package": "gmap",
@@ -3669,6 +3976,7 @@
         "index": {
           "description": "Reject empty maps return Nothing Typically used for dealing with nested maps eg to delete key from nested map adjustMaybe nonEmpty delete k2 k1",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "nonEmpty",
           "normalized": "a b-\u003eMaybe(a b)",
@@ -3685,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a map of the supplied type to sort a list of keys into ascending order (eliminating duplicates).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "nubAscWith",
           "package": "gmap",
@@ -3695,6 +4004,7 @@
         "index": {
           "description": "Use map of the supplied type to sort list of keys into ascending order eliminating duplicates",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "nubAscWith",
           "normalized": "a()-\u003e[b]-\u003e[b]",
@@ -3711,6 +4021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a map of the supplied type to sort a list of keys into descending order (eliminating duplicates).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "nubDescWith",
           "package": "gmap",
@@ -3721,6 +4032,7 @@
         "index": {
           "description": "Use map of the supplied type to sort list of keys into descending order eliminating duplicates",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "nubDescWith",
           "normalized": "a()-\u003e[b]-\u003e[b]",
@@ -3737,6 +4049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two keys and if they are \u003cem\u003edifferent\u003c/em\u003e return a function that will create\n a map with two associations (when supplied with the corresponding associated values).\n If the keys are the same then this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "pair",
           "package": "gmap",
@@ -3747,6 +4060,7 @@
         "index": {
           "description": "Compare two keys and if they are different return function that will create map with two associations when supplied with the corresponding associated values If the keys are the same then this function returns Nothing",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "pair",
           "normalized": "a-\u003ea-\u003eMaybe(b-\u003eb-\u003ec b)",
@@ -3762,6 +4076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a map with a single association.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "singleton",
           "package": "gmap",
@@ -3772,6 +4087,7 @@
         "index": {
           "description": "Create map with single association",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003ec b",
@@ -3787,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of associations in a map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "size",
           "package": "gmap",
@@ -3797,6 +4114,7 @@
         "index": {
           "description": "Count the number of associations in map",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "size",
           "normalized": "a b-\u003eInt",
@@ -3812,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a map of the supplied type to sort a list of keys into ascending order\n Slower than nubAscWith, but retains duplicate keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "sortAscWith",
           "package": "gmap",
@@ -3822,6 +4141,7 @@
         "index": {
           "description": "Use map of the supplied type to sort list of keys into ascending order Slower than nubAscWith but retains duplicate keys",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "sortAscWith",
           "normalized": "a Int-\u003e[b]-\u003e[b]",
@@ -3838,6 +4158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a map of the supplied type to sort a list of keys into descending order\n Slower than nubDescWith, but retains duplicate keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "sortDescWith",
           "package": "gmap",
@@ -3848,6 +4169,7 @@
         "index": {
           "description": "Use map of the supplied type to sort list of keys into descending order Slower than nubDescWith but retains duplicate keys",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "sortDescWith",
           "normalized": "a Int-\u003e[b]-\u003e[b]",
@@ -3864,6 +4186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee the \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e type.\n This function provides a way to find out if a map is empty, a singleton,\n or contains more than one association.\n It is useful if empty or singleton maps require special treatment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "status",
           "package": "gmap",
@@ -3874,6 +4197,7 @@
         "index": {
           "description": "See the Status type This function provides way to find out if map is empty singleton or contains more than one association It is useful if empty or singleton maps require special treatment",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "status",
           "normalized": "a b-\u003eStatus c b",
@@ -3889,6 +4213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the union of two maps. If the maps contain common keys then combine the\n values associated with those keys using the supplied function. The value arguments\n to this function are supplied in the same order as the map arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "union",
           "package": "gmap",
@@ -3899,6 +4224,7 @@
         "index": {
           "description": "Evaluate the union of two maps If the maps contain common keys then combine the values associated with those keys using the supplied function The value arguments to this function are supplied in the same order as the map arguments",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "union",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eb a-\u003eb a",
@@ -3914,6 +4240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003eunionWith\u003c/code\u003e, but the new associated values are evaluated strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "union'",
           "package": "gmap",
@@ -3924,6 +4251,7 @@
         "index": {
           "description": "Same as unionWith but the new associated values are evaluated strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "union'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eb a-\u003eb a",
@@ -3939,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the union of two maps, but delete combined associations from the result map\n if the combining function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "unionMaybe",
           "package": "gmap",
@@ -3949,6 +4278,7 @@
         "index": {
           "description": "Evaluate the union of two maps but delete combined associations from the result map if the combining function returns Nothing",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "unionMaybe",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003eb a-\u003eb a-\u003eb a",
@@ -3965,6 +4295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eunionMaybe\u003c/a\u003e\u003c/code\u003e except that the new associated values are strictly evaluated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "unionMaybe'",
           "package": "gmap",
@@ -3975,6 +4306,7 @@
         "index": {
           "description": "Like unionMaybe except that the new associated values are strictly evaluated",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "unionMaybe'",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003eb a-\u003eb a-\u003eb a",
@@ -3991,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whatever underlying data structure is used to implement an\n instance of this class is valid. Used for debugging.\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e indicates the data structure is valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "valid",
           "package": "gmap",
@@ -4001,6 +4334,7 @@
         "index": {
           "description": "Test whatever underlying data structure is used to implement an instance of this class is valid Used for debugging Nothing indicates the data structure is valid",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "valid",
           "normalized": "a b-\u003eMaybe String",
@@ -4016,6 +4350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the left difference, intersection and right difference of the supplied maps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "venn",
           "package": "gmap",
@@ -4026,6 +4361,7 @@
         "index": {
           "description": "Returns the left difference intersection and right difference of the supplied maps",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "venn",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003e(d a,d c,d b)",
@@ -4041,6 +4377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003evenn\u003c/a\u003e\u003c/code\u003e, but the new values in the intersection are evaluated strictly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "venn'",
           "package": "gmap",
@@ -4051,6 +4388,7 @@
         "index": {
           "description": "Same as venn but the new values in the intersection are evaluated strictly",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "venn'",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003e(d a,d c,d b)",
@@ -4066,6 +4404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003evenn\u003c/a\u003e\u003c/code\u003e, except that values for which the argument function returns nothing\n are dropped from the intersection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "vennMaybe",
           "package": "gmap",
@@ -4076,6 +4415,7 @@
         "index": {
           "description": "Same as venn except that values for which the argument function returns nothing are dropped from the intersection",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "vennMaybe",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003ed a-\u003ed b-\u003e(d a,d c,d b)",
@@ -4092,6 +4432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003evennMaybe\u003c/a\u003e\u003c/code\u003e except that the new associated values are strictly evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Data.GMap",
           "name": "vennMaybe'",
           "package": "gmap",
@@ -4102,6 +4443,7 @@
         "index": {
           "description": "Same as vennMaybe except that the new associated values are strictly evaluated",
           "hierarchy": "Data GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Data.GMap",
           "name": "vennMaybe'",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003ed a-\u003ed b-\u003e(d a,d c,d b)",
@@ -4117,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "Utils",
           "package": "gmap",
@@ -4125,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "Utils",
           "package": "gmap",
@@ -4138,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "Test",
           "package": "gmap",
@@ -4146,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "Test",
           "package": "gmap",
@@ -4159,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "Tests",
           "package": "gmap",
@@ -4167,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "Tests",
           "package": "gmap",
@@ -4180,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "CompareTest",
           "package": "gmap",
@@ -4189,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "CompareTest",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a-\u003eb-\u003ec)-\u003eTest a a",
@@ -4204,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "CompareTest2",
           "package": "gmap",
@@ -4213,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "CompareTest2",
           "normalized": "((a,a)-\u003eb-\u003ec)-\u003e((a,a)-\u003eb-\u003ec)-\u003eTest a a",
@@ -4228,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "SimpleTest",
           "package": "gmap",
@@ -4237,6 +4590,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "SimpleTest",
           "normalized": "(a-\u003eb)-\u003eTest a a",
@@ -4252,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "SimpleTest2",
           "package": "gmap",
@@ -4261,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "SimpleTest2",
           "normalized": "((a,a)-\u003eb)-\u003eTest a a",
@@ -4276,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "compareTest",
           "package": "gmap",
@@ -4285,6 +4642,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "compareTest",
           "normalized": "a b-\u003ec-\u003ed)-\u003eTest(a b)(a b)",
@@ -4300,6 +4658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "compareTest2",
           "package": "gmap",
@@ -4309,6 +4668,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "compareTest2",
           "normalized": "(a b,a b)-\u003ec-\u003ed)-\u003eTest(a b)(a b)",
@@ -4324,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "runAListTest",
           "package": "gmap",
@@ -4333,6 +4694,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "runAListTest",
           "normalized": "a b-\u003eTests(a b)(AList c b)-\u003eInt-\u003eIO()",
@@ -4348,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "runSListTest",
           "package": "gmap",
@@ -4357,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "runSListTest",
           "normalized": "a b-\u003eTests(a b)(SList a c b)-\u003eInt-\u003eIO()",
@@ -4372,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap.Utils",
           "name": "runTests",
           "package": "gmap",
@@ -4381,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Test GMap Utils",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap.Utils",
           "name": "runTests",
           "normalized": "Tests a a-\u003eInt-\u003eIO()",
@@ -4396,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap",
           "name": "GMap",
           "package": "gmap",
@@ -4404,6 +4771,7 @@
         },
         "index": {
           "hierarchy": "Test GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap",
           "name": "GMap",
           "package": "gmap",
@@ -4417,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap",
           "name": "isLazyMerge",
           "package": "gmap",
@@ -4426,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Test GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap",
           "name": "isLazyMerge",
           "normalized": "a b-\u003ea b-\u003ec-\u003e(a b-\u003ea b-\u003ea b)-\u003eBool",
@@ -4441,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap",
           "name": "isStrictMerge",
           "package": "gmap",
@@ -4450,6 +4821,7 @@
         },
         "index": {
           "hierarchy": "Test GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap",
           "name": "isStrictMerge",
           "normalized": "a b-\u003ea b-\u003ec-\u003e(a b-\u003ea b-\u003ea b)-\u003eBool",
@@ -4465,6 +4837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap",
           "name": "keyedLike",
           "package": "gmap",
@@ -4474,6 +4847,7 @@
         },
         "index": {
           "hierarchy": "Test GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap",
           "name": "keyedLike",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -4489,6 +4863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap",
           "name": "mapSortAssocs",
           "package": "gmap",
@@ -4498,6 +4873,7 @@
         },
         "index": {
           "hierarchy": "Test GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap",
           "name": "mapSortAssocs",
           "normalized": "a b-\u003e[(c,b)]-\u003e[(c,b)]",
@@ -4513,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap",
           "name": "mapSortKeys",
           "package": "gmap",
@@ -4522,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Test GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap",
           "name": "mapSortKeys",
           "normalized": "a b-\u003e[c]-\u003e[c]",
@@ -4537,6 +4915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:39 UTC 2014",
           "module": "Test.GMap",
           "name": "vennAssocs",
           "package": "gmap",
@@ -4546,6 +4925,7 @@
         },
         "index": {
           "hierarchy": "Test GMap",
+          "indexed": "2014-03-11T18:18:39",
           "module": "Test.GMap",
           "name": "vennAssocs",
           "normalized": "(a b,a b,a b)-\u003e([(c,b)],[(c,b)],[(c,b)])",

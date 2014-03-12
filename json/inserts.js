@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "inserts"
+        "phrase": "inserts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe internal workings of \u003ccode\u003einserts\u003c/code\u003e. In most cases you don't want to be\n digging around in this module, but it's useful if you want to somehow analyze\n or transform the \u003ccode\u003e\u003ca\u003eTemplate\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cp\u003eThe usual caveat applies: this module is not a public API and is subject to\n modification without warning.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "Internal",
           "package": "inserts",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The internal workings of inserts In most cases you don want to be digging around in this module but it useful if you want to somehow analyze or transform the Template type The usual caveat applies this module is not public API and is subject to modification without warning",
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "Internal",
           "package": "inserts",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGot\u003c/a\u003e\u003c/code\u003e is the \"purely \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e\" \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e with \n \u003ccode\u003e[S.ByteString]\u003c/code\u003e as its \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e type. When both the left and\n right arguments to '(\u003ca\u003e*\u003c/a\u003e)' are \u003ccode\u003e\u003ca\u003eMiss\u003c/a\u003e\u003c/code\u003e their errors are \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003eed\n together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "Got",
           "package": "inserts",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Got is the purely Applicative Either with S.ByteString as its Left type When both the left and right arguments to are Miss their errors are mappend ed together",
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "Got",
           "package": "inserts",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "Template",
           "package": "inserts",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "Template",
           "package": "inserts",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTemplate\u003c/a\u003e\u003c/code\u003e chunks are either \u003ccode\u003e\u003ca\u003eLiteral\u003c/a\u003e\u003c/code\u003es or \u003ccode\u003e\u003ca\u003eHole\u003c/a\u003e\u003c/code\u003es to be filled by a \n runtime key lookup later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "TemplateC",
           "package": "inserts",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Template chunks are either Literal or Hole to be filled by runtime key lookup later",
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "TemplateC",
           "package": "inserts",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "Got",
           "package": "inserts",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "Got",
           "package": "inserts",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "Hole",
           "package": "inserts",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "Hole",
           "package": "inserts",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "Literal",
           "package": "inserts",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "Literal",
           "package": "inserts",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "Miss",
           "package": "inserts",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "Miss",
           "package": "inserts",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "Template",
           "package": "inserts",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "Template",
           "package": "inserts",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "gotEither",
           "package": "inserts",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "gotEither",
           "normalized": "Got a-\u003eEither[ByteString]a",
@@ -297,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe can build a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e much more quickly, so if you need\n to quickly show your templates then this might be nicer than using \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\n directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "showTemplate",
           "package": "inserts",
@@ -307,6 +328,7 @@
         "index": {
           "description": "We can build lazy ByteString much more quickly so if you need to quickly show your templates then this might be nicer than using show directly",
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "showTemplate",
           "normalized": "Template-\u003eByteString",
@@ -347,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts.Internal",
           "name": "unTemplate",
           "package": "inserts",
@@ -356,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts Internal",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts.Internal",
           "name": "unTemplate",
           "package": "inserts",
@@ -370,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompletely trivial, interpolation-only \u003ccode\u003e\u003ca\u003eTemplate\u003c/a\u003e\u003c/code\u003es; for when you want an API\n that fits on a business card. \u003ca\u003eText.Template.Inserts\u003c/a\u003e implements a\n subset of Mustache syntax. It uses template strings with named holes\n deliminted by \"mustaches\":\n\u003c/p\u003e\u003cpre\u003e import Data.HashMap.Strict as Map\n import Data.ByteString     as S\n\n context :: HashMap ByteString ByteString\n context = Map.fromList [ (\"country\", \"Morocco\")\n                        , (\"favoriteFruit\", \"bananas\")\n                        ]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erunTemplate (flip Map.lookup context) \"I live in {{country}} and love {{favoriteFruit}}.\"\n\u003c/code\u003e\u003c/strong\u003eRight \"I live in Morocco and love bananas\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erunTemplate (flip Map.lookup context) \"My address is {{ address }}\"\n\u003c/code\u003e\u003c/strong\u003eLeft [\"address\"]\n\u003c/pre\u003e\u003cp\u003e\u003ca\u003eText.Template.Inserts\u003c/a\u003e seeks to be as unsurprising and simple as\n possible sacrificing all kinds of niceities. Sometimes though, all you\n need is obvious, trivial string interpolation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts",
           "name": "Inserts",
           "package": "inserts",
@@ -379,6 +404,7 @@
         "index": {
           "description": "Completely trivial interpolation-only Template for when you want an API that fits on business card Text.Template.Inserts implements subset of Mustache syntax It uses template strings with named holes deliminted by mustaches import Data.HashMap.Strict as Map import Data.ByteString as context HashMap ByteString ByteString context Map.fromList country Morocco favoriteFruit bananas runTemplate flip Map.lookup context live in country and love favoriteFruit Right live in Morocco and love bananas runTemplate flip Map.lookup context My address is address Left address Text.Template.Inserts seeks to be as unsurprising and simple as possible sacrificing all kinds of niceities Sometimes though all you need is obvious trivial string interpolation",
           "hierarchy": "Text Template Inserts",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts",
           "name": "Inserts",
           "package": "inserts",
@@ -392,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:59 UTC 2014",
           "module": "Text.Template.Inserts",
           "name": "Template",
           "package": "inserts",
@@ -400,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Text Template Inserts",
+          "indexed": "2014-03-11T18:57:59",
           "module": "Text.Template.Inserts",
           "name": "Template",
           "package": "inserts",

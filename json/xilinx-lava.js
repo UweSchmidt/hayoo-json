@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xilinx-lava"
+        "phrase": "xilinx-lava",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Adder",
           "name": "Adder",
           "package": "xilinx-lava",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Lava Adder",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Adder",
           "name": "Adder",
           "package": "xilinx-lava",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Adder",
           "name": "adder",
           "package": "xilinx-lava",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Lava Adder",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Adder",
           "name": "adder",
           "normalized": "Int-\u003e([Bit],[Bit])-\u003eOut[Bit]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Adder",
           "name": "adderWithCarry",
           "package": "xilinx-lava",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Lava Adder",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Adder",
           "name": "adderWithCarry",
           "normalized": "a-\u003e(Bit,([Bit],[Bit]))-\u003eOut([Bit],Bit)",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Comparator",
           "name": "Comparator",
           "package": "xilinx-lava",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Lava Comparator",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Comparator",
           "name": "Comparator",
           "package": "xilinx-lava",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe comparator returns '1' if b \u003e= a, '0' otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Comparator",
           "name": "comparator",
           "package": "xilinx-lava",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The comparator returns if otherwise",
           "hierarchy": "Lava Comparator",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Comparator",
           "name": "comparator",
           "normalized": "([Bit],[Bit])-\u003eOut Bit",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Diagnostics",
           "package": "xilinx-lava",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Diagnostics",
           "package": "xilinx-lava",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Bit",
           "package": "xilinx-lava",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Bit",
           "package": "xilinx-lava",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "BitVec",
           "package": "xilinx-lava",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "BitVec",
           "package": "xilinx-lava",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Component",
           "package": "xilinx-lava",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Component",
           "package": "xilinx-lava",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "CondShiftFn",
           "package": "xilinx-lava",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "CondShiftFn",
           "package": "xilinx-lava",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Dir",
           "package": "xilinx-lava",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Dir",
           "package": "xilinx-lava",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "DrivenPorts",
           "package": "xilinx-lava",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "DrivenPorts",
           "package": "xilinx-lava",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Instance",
           "package": "xilinx-lava",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Instance",
           "package": "xilinx-lava",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Layout",
           "package": "xilinx-lava",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Layout",
           "package": "xilinx-lava",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "NetType",
           "package": "xilinx-lava",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "NetType",
           "package": "xilinx-lava",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Netlist",
           "package": "xilinx-lava",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Netlist",
           "package": "xilinx-lava",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Out",
           "package": "xilinx-lava",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Out",
           "package": "xilinx-lava",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "PortDeclaration",
           "package": "xilinx-lava",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "PortDeclaration",
           "package": "xilinx-lava",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "PortDirection",
           "package": "xilinx-lava",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "PortDirection",
           "package": "xilinx-lava",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Position",
           "package": "xilinx-lava",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Position",
           "package": "xilinx-lava",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "XilinxArchitecture",
           "package": "xilinx-lava",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "XilinxArchitecture",
           "package": "xilinx-lava",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "BeginOverlayTile",
           "package": "xilinx-lava",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "BeginOverlayTile",
           "package": "xilinx-lava",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Below",
           "package": "xilinx-lava",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Below",
           "normalized": "Below(Int,Int)Layout Layout",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Beside",
           "package": "xilinx-lava",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Beside",
           "normalized": "Beside(Int,Int)Layout Layout",
@@ -607,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "CondShiftFn",
           "package": "xilinx-lava",
@@ -616,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "CondShiftFn",
           "normalized": "CondShiftFn(Int-\u003eBool,Int-\u003eInt)(Int-\u003eBool,Int-\u003eInt)",
@@ -631,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "ConditionalShift",
           "package": "xilinx-lava",
@@ -640,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "ConditionalShift",
           "package": "xilinx-lava",
@@ -676,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "EmptyLayout",
           "package": "xilinx-lava",
@@ -685,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "EmptyLayout",
           "package": "xilinx-lava",
@@ -698,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "InputPort",
           "package": "xilinx-lava",
@@ -707,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "InputPort",
           "package": "xilinx-lava",
@@ -720,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Instance",
           "package": "xilinx-lava",
@@ -729,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Instance",
           "package": "xilinx-lava",
@@ -742,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "LocalInput",
           "package": "xilinx-lava",
@@ -751,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "LocalInput",
           "package": "xilinx-lava",
@@ -764,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "LocalOutput",
           "package": "xilinx-lava",
@@ -773,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "LocalOutput",
           "package": "xilinx-lava",
@@ -786,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Lut1",
           "package": "xilinx-lava",
@@ -795,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Lut1",
           "normalized": "Lut[Int]Int Int String",
@@ -810,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Lut2",
           "package": "xilinx-lava",
@@ -819,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Lut2",
           "normalized": "Lut[Int]Int Int Int String",
@@ -834,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Lut2_l",
           "package": "xilinx-lava",
@@ -843,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Lut2_l",
           "normalized": "Lut a[Int]Int Int Int String",
@@ -858,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Lut3",
           "package": "xilinx-lava",
@@ -867,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Lut3",
           "normalized": "Lut[Int]Int Int Int Int String",
@@ -882,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Lut4",
           "package": "xilinx-lava",
@@ -891,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Lut4",
           "normalized": "Lut[Int]Int Int Int Int Int String",
@@ -906,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Lut5",
           "package": "xilinx-lava",
@@ -915,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Lut5",
           "normalized": "Lut[Int]Int Int Int Int Int Int String",
@@ -930,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Lut6",
           "package": "xilinx-lava",
@@ -939,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Lut6",
           "normalized": "Lut[Int]Int Int Int Int Int Int Int String",
@@ -977,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Netlist",
           "package": "xilinx-lava",
@@ -986,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Netlist",
           "package": "xilinx-lava",
@@ -999,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "NoPlacement",
           "package": "xilinx-lava",
@@ -1008,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "NoPlacement",
           "package": "xilinx-lava",
@@ -1021,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "OutputPort",
           "package": "xilinx-lava",
@@ -1030,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "OutputPort",
           "package": "xilinx-lava",
@@ -1043,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Overlay",
           "package": "xilinx-lava",
@@ -1052,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Overlay",
           "normalized": "Overlay(Int,Int)Layout Layout",
@@ -1067,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Placed",
           "package": "xilinx-lava",
@@ -1076,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Placed",
           "package": "xilinx-lava",
@@ -1089,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Port",
           "package": "xilinx-lava",
@@ -1098,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Port",
           "normalized": "Port String PortDirection NetType[Int]",
@@ -1113,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "PrimitiveGate",
           "package": "xilinx-lava",
@@ -1122,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "PrimitiveGate",
           "normalized": "PrimitiveGate[(String,Int)][(String,Int)]",
@@ -1137,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Space",
           "package": "xilinx-lava",
@@ -1146,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Space",
           "normalized": "Space(Int,Int)",
@@ -1161,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Tile",
           "package": "xilinx-lava",
@@ -1170,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Tile",
           "normalized": "Tile(Int,Int)Int",
@@ -1208,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "Unplaced",
           "package": "xilinx-lava",
@@ -1217,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "Unplaced",
           "package": "xilinx-lava",
@@ -1322,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "addInstance",
           "package": "xilinx-lava",
@@ -1331,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "addInstance",
           "normalized": "Instance-\u003eOut()",
@@ -1346,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "circuitName",
           "package": "xilinx-lava",
@@ -1355,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "circuitName",
           "package": "xilinx-lava",
@@ -1368,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "component",
           "package": "xilinx-lava",
@@ -1377,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "component",
           "package": "xilinx-lava",
@@ -1389,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "componentName",
           "package": "xilinx-lava",
@@ -1398,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "componentName",
           "package": "xilinx-lava",
@@ -1411,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "componentSize",
           "package": "xilinx-lava",
@@ -1420,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "componentSize",
           "normalized": "Maybe(Int,Int)",
@@ -1460,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "computedShifts",
           "package": "xilinx-lava",
@@ -1469,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "computedShifts",
           "normalized": "(Array Int Int,Array Int Int)",
@@ -1484,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "decrementLayoutNesting",
           "package": "xilinx-lava",
@@ -1493,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "decrementLayoutNesting",
           "normalized": "Out()",
@@ -1508,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "getInstCount",
           "package": "xilinx-lava",
@@ -1517,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "getInstCount",
           "package": "xilinx-lava",
@@ -1530,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "getNetCount",
           "package": "xilinx-lava",
@@ -1539,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "getNetCount",
           "package": "xilinx-lava",
@@ -1552,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "getNewNet",
           "package": "xilinx-lava",
@@ -1561,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "getNewNet",
           "package": "xilinx-lava",
@@ -1574,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "incrementInstCount",
           "package": "xilinx-lava",
@@ -1583,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "incrementInstCount",
           "normalized": "Out()",
@@ -1598,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "incrementLayoutNesting",
           "package": "xilinx-lava",
@@ -1607,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "incrementLayoutNesting",
           "normalized": "Out()",
@@ -1622,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "incrementNetCount",
           "package": "xilinx-lava",
@@ -1631,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "incrementNetCount",
           "normalized": "Int-\u003eOut()",
@@ -1646,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "instCount",
           "package": "xilinx-lava",
@@ -1655,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "instCount",
           "package": "xilinx-lava",
@@ -1668,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "instanceNumber",
           "package": "xilinx-lava",
@@ -1677,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "instanceNumber",
           "package": "xilinx-lava",
@@ -1690,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "instances",
           "package": "xilinx-lava",
@@ -1699,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "instances",
           "normalized": "[Instance]",
@@ -1713,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "layout",
           "package": "xilinx-lava",
@@ -1722,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "layout",
           "normalized": "[Layout]",
@@ -1736,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "layoutNesting",
           "package": "xilinx-lava",
@@ -1745,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "layoutNesting",
           "package": "xilinx-lava",
@@ -1758,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "netCount",
           "package": "xilinx-lava",
@@ -1767,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "netCount",
           "package": "xilinx-lava",
@@ -1780,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "netDrivers",
           "package": "xilinx-lava",
@@ -1789,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "netDrivers",
           "package": "xilinx-lava",
@@ -1802,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "one",
           "package": "xilinx-lava",
@@ -1811,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "one",
           "package": "xilinx-lava",
@@ -1823,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "popLayout",
           "package": "xilinx-lava",
@@ -1832,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "popLayout",
           "package": "xilinx-lava",
@@ -1845,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "ports",
           "package": "xilinx-lava",
@@ -1854,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "ports",
           "normalized": "[PortDeclaration]",
@@ -1868,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "position",
           "package": "xilinx-lava",
@@ -1877,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "position",
           "package": "xilinx-lava",
@@ -1914,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "pushLayout",
           "package": "xilinx-lava",
@@ -1923,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "pushLayout",
           "normalized": "Layout-\u003eOut()",
@@ -1938,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "rlocOrigin",
           "package": "xilinx-lava",
@@ -1947,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "rlocOrigin",
           "normalized": "Maybe(Int,Int)",
@@ -1962,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "setCircuitName",
           "package": "xilinx-lava",
@@ -1971,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "setCircuitName",
           "normalized": "String-\u003eOut()",
@@ -2011,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "sizeOfLayout",
           "package": "xilinx-lava",
@@ -2020,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "sizeOfLayout",
           "normalized": "Layout-\u003e(Int,Int)",
@@ -2035,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "subCircuits",
           "package": "xilinx-lava",
@@ -2044,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "subCircuits",
           "normalized": "[Netlist]",
@@ -2059,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "types",
           "package": "xilinx-lava",
@@ -2068,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "types",
           "normalized": "[(String,NetType)]",
@@ -2082,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "xilinxArchitecture",
           "package": "xilinx-lava",
@@ -2091,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "xilinxArchitecture",
           "package": "xilinx-lava",
@@ -2104,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Diagnostics",
           "name": "zero",
           "package": "xilinx-lava",
@@ -2113,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Lava Diagnostics",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Diagnostics",
           "name": "zero",
           "package": "xilinx-lava",
@@ -2125,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.ISE",
           "name": "ISE",
           "package": "xilinx-lava",
@@ -2133,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Lava ISE",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.ISE",
           "name": "ISE",
           "package": "xilinx-lava",
@@ -2146,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.ISE",
           "name": "Effort",
           "package": "xilinx-lava",
@@ -2154,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Lava ISE",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.ISE",
           "name": "Effort",
           "package": "xilinx-lava",
@@ -2167,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.ISE",
           "name": "Balanced",
           "package": "xilinx-lava",
@@ -2176,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Lava ISE",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.ISE",
           "name": "Balanced",
           "package": "xilinx-lava",
@@ -2189,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.ISE",
           "name": "FastRuntime",
           "package": "xilinx-lava",
@@ -2198,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Lava ISE",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.ISE",
           "name": "FastRuntime",
           "package": "xilinx-lava",
@@ -2211,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.ISE",
           "name": "HighEffort",
           "package": "xilinx-lava",
@@ -2220,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Lava ISE",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.ISE",
           "name": "HighEffort",
           "package": "xilinx-lava",
@@ -2233,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.ISE",
           "name": "implement",
           "package": "xilinx-lava",
@@ -2241,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Lava ISE",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.ISE",
           "name": "implement",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eEffort-\u003eInt-\u003eIO()",
@@ -2256,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003exflow\u003c/a\u003e\u003c/code\u003e function executes the Xilinx ISE implementation tools\n   with the specified circuit, part, package, speed grade and\n   implementation effort. The name of the primary clock is assumed\n   to be clk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.ISE",
           "name": "xflow",
           "package": "xilinx-lava",
@@ -2265,6 +2438,7 @@
         "index": {
           "description": "The xflow function executes the Xilinx ISE implementation tools with the specified circuit part package speed grade and implementation effort The name of the primary clock is assumed to be clk",
           "hierarchy": "Lava ISE",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.ISE",
           "name": "xflow",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eEffort-\u003eInt-\u003eIO()",
@@ -2279,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.OneBitAdder",
           "name": "OneBitAdder",
           "package": "xilinx-lava",
@@ -2287,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Lava OneBitAdder",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.OneBitAdder",
           "name": "OneBitAdder",
           "package": "xilinx-lava",
@@ -2300,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.OneBitAdder",
           "name": "oneBitAdder",
           "package": "xilinx-lava",
@@ -2309,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Lava OneBitAdder",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.OneBitAdder",
           "name": "oneBitAdder",
           "normalized": "(Bit,(Bit,Bit))-\u003eOut(Bit,Bit)",
@@ -2324,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.OneBitSubtractor",
           "name": "OneBitSubtractor",
           "package": "xilinx-lava",
@@ -2332,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Lava OneBitSubtractor",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.OneBitSubtractor",
           "name": "OneBitSubtractor",
           "package": "xilinx-lava",
@@ -2345,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.OneBitSubtractor",
           "name": "oneBitSubtractor",
           "package": "xilinx-lava",
@@ -2354,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Lava OneBitSubtractor",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.OneBitSubtractor",
           "name": "oneBitSubtractor",
           "normalized": "(Bit,(Bit,Bit))-\u003eOut(Bit,Bit)",
@@ -2369,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Subtractor",
           "name": "Subtractor",
           "package": "xilinx-lava",
@@ -2377,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Lava Subtractor",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Subtractor",
           "name": "Subtractor",
           "package": "xilinx-lava",
@@ -2391,6 +2575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subtactor circuit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Subtractor",
           "name": "subtractor",
           "package": "xilinx-lava",
@@ -2401,6 +2586,7 @@
         "index": {
           "description": "subtactor circuit",
           "hierarchy": "Lava Subtractor",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Subtractor",
           "name": "subtractor",
           "normalized": "(Bit,([Bit],[Bit]))-\u003eOut([Bit],Bit)",
@@ -2415,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Subtractor",
           "name": "subtractorNoCarryIn",
           "package": "xilinx-lava",
@@ -2424,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Lava Subtractor",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Subtractor",
           "name": "subtractorNoCarryIn",
           "normalized": "([Bit],[Bit])-\u003eOut([Bit],Bit)",
@@ -2440,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Lava.Unisim module defines the basic gates that are\n   common to all architectures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Virtex2",
           "name": "Virtex2",
           "package": "xilinx-lava",
@@ -2449,6 +2638,7 @@
         "index": {
           "description": "The Lava.Unisim module defines the basic gates that are common to all architectures",
           "hierarchy": "Lava Virtex2",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Virtex2",
           "name": "Virtex2",
           "package": "xilinx-lava",
@@ -3858,6 +4048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Lava.Unisim module defines the basic gates that are\n   common to all architectures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Virtex4",
           "name": "Virtex4",
           "package": "xilinx-lava",
@@ -3867,6 +4058,7 @@
         "index": {
           "description": "The Lava.Unisim module defines the basic gates that are common to all architectures",
           "hierarchy": "Lava Virtex4",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Virtex4",
           "name": "Virtex4",
           "package": "xilinx-lava",
@@ -3881,6 +4073,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Lava.Unisim module defines the basic gates that are\n   common to all architectures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Virtex5",
           "name": "Virtex5",
           "package": "xilinx-lava",
@@ -3890,6 +4083,7 @@
         "index": {
           "description": "The Lava.Unisim module defines the basic gates that are common to all architectures",
           "hierarchy": "Lava Virtex5",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Virtex5",
           "name": "Virtex5",
           "package": "xilinx-lava",
@@ -3904,6 +4098,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Lava.Unisim module defines the basic gates that are\n   common to all architectures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava.Virtex6",
           "name": "Virtex6",
           "package": "xilinx-lava",
@@ -3913,6 +4108,7 @@
         "index": {
           "description": "The Lava.Unisim module defines the basic gates that are common to all architectures",
           "hierarchy": "Lava Virtex6",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava.Virtex6",
           "name": "Virtex6",
           "package": "xilinx-lava",
@@ -3927,6 +4123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXilinx Lava is a library for FPGA circuit design with a focus\n   on circuit layout.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "Lava",
           "package": "xilinx-lava",
@@ -3936,6 +4133,7 @@
         "index": {
           "description": "Xilinx Lava is library for FPGA circuit design with focus on circuit layout",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "Lava",
           "package": "xilinx-lava",
@@ -3949,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "Bit",
           "package": "xilinx-lava",
@@ -3957,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "Bit",
           "package": "xilinx-lava",
@@ -3970,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "Dir",
           "package": "xilinx-lava",
@@ -3978,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "Dir",
           "package": "xilinx-lava",
@@ -3991,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "NetType",
           "package": "xilinx-lava",
@@ -3999,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "NetType",
           "package": "xilinx-lava",
@@ -4012,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "Netlist",
           "package": "xilinx-lava",
@@ -4020,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "Netlist",
           "package": "xilinx-lava",
@@ -4033,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "Out",
           "package": "xilinx-lava",
@@ -4041,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "Out",
           "package": "xilinx-lava",
@@ -4054,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "XilinxArchitecture",
           "package": "xilinx-lava",
@@ -4062,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "XilinxArchitecture",
           "package": "xilinx-lava",
@@ -4076,6 +4286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerial composition with no layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "(-\u003e-)",
           "package": "xilinx-lava",
@@ -4086,6 +4297,7 @@
         "index": {
           "description": "Serial composition with no layout",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "(-\u003e-) -\u003e-",
           "normalized": "(a-\u003eOut b)-\u003e(b-\u003eOut c)-\u003ea-\u003eOut c",
@@ -4101,6 +4313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerial composition with overly layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "(\u003e|\u003e)",
           "package": "xilinx-lava",
@@ -4111,6 +4324,7 @@
         "index": {
           "description": "Serial composition with overly layout",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "(\u003e|\u003e) \u003e|\u003e",
           "normalized": "(a-\u003eOut b)-\u003e(b-\u003eOut c)-\u003ea-\u003eOut c",
@@ -4126,6 +4340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerial composition with horizontal left to right layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "(\u003e-\u003e)",
           "package": "xilinx-lava",
@@ -4136,6 +4351,7 @@
         "index": {
           "description": "Serial composition with horizontal left to right layout",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "(\u003e-\u003e) \u003e-\u003e",
           "normalized": "(a-\u003eOut b)-\u003e(b-\u003eOut c)-\u003ea-\u003eOut c",
@@ -4151,6 +4367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerial composition with mid-horizontal left to right layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "(\u003e=\u003e)",
           "package": "xilinx-lava",
@@ -4161,6 +4378,7 @@
         "index": {
           "description": "Serial composition with mid-horizontal left to right layout",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "(\u003e=\u003e) \u003e=\u003e",
           "normalized": "(a-\u003eOut b)-\u003e(b-\u003eOut c)-\u003ea-\u003eOut c",
@@ -4175,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "binaryListToInt",
           "package": "xilinx-lava",
@@ -4184,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "binaryListToInt",
           "normalized": "[Int]-\u003eInt",
@@ -4200,6 +4420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChops a list into chunks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "chop",
           "package": "xilinx-lava",
@@ -4210,6 +4431,7 @@
         "index": {
           "description": "Chops list into chunks",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "chop",
           "normalized": "Int-\u003e[a]-\u003eOut[[a]]",
@@ -4225,6 +4447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChops a list into chunks formed as pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "chopPair",
           "package": "xilinx-lava",
@@ -4235,6 +4458,7 @@
         "index": {
           "description": "Chops list into chunks formed as pairs",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "chopPair",
           "normalized": "[a]-\u003eOut[(a,a)]",
@@ -4251,6 +4475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace four sided tile comoponents in a colum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "col",
           "package": "xilinx-lava",
@@ -4260,6 +4485,7 @@
         "index": {
           "description": "Place four sided tile comoponents in colum",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "col",
           "normalized": "((a,b)-\u003eOut(c,a))-\u003e(a,[b])-\u003eOut([c],a)",
@@ -4275,6 +4501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of lists and returns their concatenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "concaT",
           "package": "xilinx-lava",
@@ -4285,6 +4512,7 @@
         "index": {
           "description": "Takes list of lists and returns their concatenation",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "concaT",
           "normalized": "[[a]]-\u003eOut[a]",
@@ -4299,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "condShift",
           "package": "xilinx-lava",
@@ -4308,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "condShift",
           "normalized": "(Int-\u003eBool,Int-\u003eInt)-\u003e(Int-\u003eBool,Int-\u003eInt)-\u003eOut()",
@@ -4323,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "declareBUF",
           "package": "xilinx-lava",
@@ -4332,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "declareBUF",
           "normalized": "Handle-\u003eIO()",
@@ -4347,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "declareBUFInstance",
           "package": "xilinx-lava",
@@ -4356,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "declareBUFInstance",
           "normalized": "Handle-\u003ePortDeclaration-\u003eIO()",
@@ -4371,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "declareBUFInstances",
           "package": "xilinx-lava",
@@ -4380,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "declareBUFInstances",
           "normalized": "Handle-\u003e[PortDeclaration]-\u003eIO()",
@@ -4395,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "declareCell",
           "package": "xilinx-lava",
@@ -4404,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "declareCell",
           "normalized": "Handle-\u003eString-\u003e[String]-\u003e[String]-\u003eIO()",
@@ -4419,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "declareComponent",
           "package": "xilinx-lava",
@@ -4428,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "declareComponent",
           "normalized": "Handle-\u003eInstance-\u003eIO()",
@@ -4443,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "declareComponents",
           "package": "xilinx-lava",
@@ -4452,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "declareComponents",
           "normalized": "Handle-\u003e[String]-\u003e[Instance]-\u003eIO()",
@@ -4467,6 +4709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "declareType",
           "package": "xilinx-lava",
@@ -4476,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "declareType",
           "normalized": "String-\u003eNetType-\u003eOut NetType",
@@ -4491,6 +4735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "edifLUTInit",
           "package": "xilinx-lava",
@@ -4500,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "edifLUTInit",
           "normalized": "[Int]-\u003eString",
@@ -4516,6 +4762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efindConnection\u003c/a\u003e\u003c/code\u003e takes a net number and a list of connectiosn\n   and returns the port indices which are connected to this Lava net.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "findConnection",
           "package": "xilinx-lava",
@@ -4526,6 +4773,7 @@
         "index": {
           "description": "findConnection takes net number and list of connectiosn and returns the port indices which are connected to this Lava net",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "findConnection",
           "normalized": "Int-\u003e[Int]-\u003e[Int]-\u003e[Int]",
@@ -4542,6 +4790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efindConnection2D\u003c/a\u003e\u003c/code\u003e takes a net number and a list of connectiosn\n   and returns the 2D port indices which are connected to this Lava net.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "findConnection2D",
           "package": "xilinx-lava",
@@ -4552,6 +4801,7 @@
         "index": {
           "description": "findConnection2D takes net number and list of connectiosn and returns the port indices which are connected to this Lava net",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "findConnection2D",
           "normalized": "Int-\u003e[[Int]]-\u003e[Int]-\u003e[Int]-\u003e[(Int,Int)]",
@@ -4568,6 +4818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a wire into two\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "fork2",
           "package": "xilinx-lava",
@@ -4578,6 +4829,7 @@
         "index": {
           "description": "Splits wire into two",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "fork2",
           "normalized": "a-\u003eOut(a,a)",
@@ -4592,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "freshBitVec",
           "package": "xilinx-lava",
@@ -4601,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "freshBitVec",
           "normalized": "Int-\u003eDir-\u003eInt-\u003eOut[Bit]",
@@ -4617,6 +4871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a circuit to the first element of a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "fsT",
           "package": "xilinx-lava",
@@ -4627,6 +4882,7 @@
         "index": {
           "description": "Applies circuit to the first element of pair",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "fsT",
           "normalized": "(a-\u003eOut b)-\u003e(a,c)-\u003eOut(b,c)",
@@ -4642,6 +4898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a circuit to the first halve of a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "fstList",
           "package": "xilinx-lava",
@@ -4652,6 +4909,7 @@
         "index": {
           "description": "Applies circuit to the first halve of list",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "fstList",
           "normalized": "([a]-\u003eOut[a])-\u003e[a]-\u003eOut[a]",
@@ -4667,6 +4925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "fstListPair",
           "package": "xilinx-lava",
@@ -4676,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "fstListPair",
           "normalized": "[a]-\u003ea",
@@ -4692,6 +4952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeated serial composition (left to right)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "hRepN",
           "package": "xilinx-lava",
@@ -4702,6 +4963,7 @@
         "index": {
           "description": "Repeated serial composition left to right",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "hRepN",
           "normalized": "Int-\u003e(a-\u003eOut a)-\u003ea-\u003eOut a",
@@ -4718,6 +4980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTales a list and returns a pair containing the two halves of the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "halve",
           "package": "xilinx-lava",
@@ -4728,6 +4991,7 @@
         "index": {
           "description": "Tales list and returns pair containing the two halves of the list",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "halve",
           "normalized": "[a]-\u003eOut([a],[a])",
@@ -4743,6 +5007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHalves the input list into a list containign the two halves\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "halveList",
           "package": "xilinx-lava",
@@ -4753,6 +5018,7 @@
         "index": {
           "description": "Halves the input list into list containign the two halves",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "halveList",
           "normalized": "[a]-\u003eOut[[a]]",
@@ -4769,6 +5035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehalveListToPair\u003c/a\u003e\u003c/code\u003e will take a list and return a pair containing the\n   two halves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "halveListToPair",
           "package": "xilinx-lava",
@@ -4779,6 +5046,7 @@
         "index": {
           "description": "halveListToPair will take list and return pair containing the two halves",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "halveListToPair",
           "normalized": "[a]-\u003e([a],[a])",
@@ -4795,6 +5063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal map of a circuit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "hmaP",
           "package": "xilinx-lava",
@@ -4805,6 +5074,7 @@
         "index": {
           "description": "Horizontal map of circuit",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "hmaP",
           "normalized": "(a-\u003eOut b)-\u003e[a]-\u003eOut[b]",
@@ -4820,6 +5090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal parallel composition of a list of circuits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "hpar",
           "package": "xilinx-lava",
@@ -4830,6 +5101,7 @@
         "index": {
           "description": "Horizontal parallel composition of list of circuits",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "hpar",
           "normalized": "[a-\u003eOut b]-\u003e[a]-\u003eOut[b]",
@@ -4845,6 +5117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal parallel composition of two circuits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "hpar2",
           "package": "xilinx-lava",
@@ -4855,6 +5128,7 @@
         "index": {
           "description": "Horizontal parallel composition of two circuits",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "hpar2",
           "normalized": "(a-\u003eOut b)-\u003e(c-\u003eOut d)-\u003e(a,c)-\u003eOut(b,d)",
@@ -4870,6 +5144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal repeated parallel composition of a circuit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "hparN",
           "package": "xilinx-lava",
@@ -4880,6 +5155,7 @@
         "index": {
           "description": "Horizontal repeated parallel composition of circuit",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "hparN",
           "normalized": "Int-\u003e(a-\u003eOut b)-\u003e[a]-\u003eOut[b]",
@@ -4895,6 +5171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einputArrayOfArray\u003c/a\u003e\u003c/code\u003e creates an input array of arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "inputArrayOfArray",
           "package": "xilinx-lava",
@@ -4905,6 +5182,7 @@
         "index": {
           "description": "inputArrayOfArray creates an input array of arrays",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "inputArrayOfArray",
           "normalized": "String-\u003eNetType-\u003eOut[[Bit]]",
@@ -4921,6 +5199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einputBitVec\u003c/a\u003e\u003c/code\u003e creates a bit-vector input port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "inputBitVec",
           "package": "xilinx-lava",
@@ -4931,6 +5210,7 @@
         "index": {
           "description": "inputBitVec creates bit-vector input port",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "inputBitVec",
           "normalized": "String-\u003eNetType-\u003eOut[Bit]",
@@ -4947,6 +5227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einputBitVecLocal\u003c/a\u003e\u003c/code\u003e creates a local bit-vector input port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "inputBitVecLocal",
           "package": "xilinx-lava",
@@ -4957,6 +5238,7 @@
         "index": {
           "description": "inputBitVecLocal creates local bit-vector input port",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "inputBitVecLocal",
           "normalized": "String-\u003eNetType-\u003eOut[Bit]",
@@ -4973,6 +5255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einputLocalArrayOfArray\u003c/a\u003e\u003c/code\u003e creates an input array of arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "inputLocalArrayOfArray",
           "package": "xilinx-lava",
@@ -4983,6 +5266,7 @@
         "index": {
           "description": "inputLocalArrayOfArray creates an input array of arrays",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "inputLocalArrayOfArray",
           "normalized": "String-\u003eNetType-\u003eOut[[Bit]]",
@@ -4999,6 +5283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einputPort\u003c/a\u003e\u003c/code\u003e creates a single bit input port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "inputPort",
           "package": "xilinx-lava",
@@ -5009,6 +5294,7 @@
         "index": {
           "description": "inputPort creates single bit input port",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "inputPort",
           "normalized": "String-\u003eNetType-\u003eOut Bit",
@@ -5024,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "instantiate",
           "package": "xilinx-lava",
@@ -5033,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "instantiate",
           "normalized": "String-\u003eOut()-\u003e[(String,Bit)]-\u003e[String]-\u003eOut[Bit]",
@@ -5048,6 +5336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function defines the version of Lava which should correspond\n   to the Cabal version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "lavaVersion",
           "package": "xilinx-lava",
@@ -5058,6 +5347,7 @@
         "index": {
           "description": "This function defines the version of Lava which should correspond to the Cabal version",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "lavaVersion",
           "normalized": "(Int,Int,Int,Int)",
@@ -5074,6 +5364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a two element list into a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "listToPair",
           "package": "xilinx-lava",
@@ -5084,6 +5375,7 @@
         "index": {
           "description": "Converts two element list into pair",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "listToPair",
           "normalized": "[a]-\u003eOut(a,a)",
@@ -5100,6 +5392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements a user-defined 1 input combinational gate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "lut1gate",
           "package": "xilinx-lava",
@@ -5110,6 +5403,7 @@
         "index": {
           "description": "Implements user-defined input combinational gate",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "lut1gate",
           "normalized": "(Bool-\u003eBool)-\u003eString-\u003eBit-\u003eOut Bit",
@@ -5125,6 +5419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements a user defined two input combinational gate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "lut2gate",
           "package": "xilinx-lava",
@@ -5135,6 +5430,7 @@
         "index": {
           "description": "Implements user defined two input combinational gate",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "lut2gate",
           "normalized": "(Bool-\u003eBool-\u003eBool)-\u003eString-\u003e(Bit,Bit)-\u003eOut Bit",
@@ -5150,6 +5446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements a local user defined two input combinational gate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "lut2gate_l",
           "package": "xilinx-lava",
@@ -5160,6 +5457,7 @@
         "index": {
           "description": "Implements local user defined two input combinational gate",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "lut2gate_l",
           "normalized": "(Bool-\u003eBool-\u003eBool)-\u003eString-\u003e(Bit,Bit)-\u003eOut Bit",
@@ -5175,6 +5473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements a user defined three input combinational gate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "lut3gate",
           "package": "xilinx-lava",
@@ -5185,6 +5484,7 @@
         "index": {
           "description": "Implements user defined three input combinational gate",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "lut3gate",
           "normalized": "(Bool-\u003eBool-\u003eBool-\u003eBool)-\u003eString-\u003e(Bit,Bit,Bit)-\u003eOut Bit",
@@ -5200,6 +5500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements a user defined four input combinational gate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "lut4gate",
           "package": "xilinx-lava",
@@ -5210,6 +5511,7 @@
         "index": {
           "description": "Implements user defined four input combinational gate",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "lut4gate",
           "normalized": "(Bool-\u003eBool-\u003eBool-\u003eBool-\u003eBool)-\u003eString-\u003e(Bit,Bit,Bit,Bit)-\u003eOut Bit",
@@ -5225,6 +5527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements a user defined five input combinational gate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "lut5gate",
           "package": "xilinx-lava",
@@ -5235,6 +5538,7 @@
         "index": {
           "description": "Implements user defined five input combinational gate",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "lut5gate",
           "normalized": "(Bool-\u003eBool-\u003eBool-\u003eBool-\u003eBool-\u003eBool)-\u003eString-\u003e(Bit,Bit,Bit,Bit,Bit)-\u003eOut Bit",
@@ -5250,6 +5554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements a user defined six input combinational gate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "lut6gate",
           "package": "xilinx-lava",
@@ -5260,6 +5565,7 @@
         "index": {
           "description": "Implements user defined six input combinational gate",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "lut6gate",
           "normalized": "(Bool-\u003eBool-\u003eBool-\u003eBool-\u003eBool-\u003eBool-\u003eBool)-\u003eString-\u003e(Bit,Bit,Bit,Bit,Bit,Bit)-\u003eOut Bit",
@@ -5275,6 +5581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical map of a circuit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "maP",
           "package": "xilinx-lava",
@@ -5285,6 +5592,7 @@
         "index": {
           "description": "Vertical map of circuit",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "maP",
           "normalized": "(a-\u003eOut b)-\u003e[a]-\u003eOut[b]",
@@ -5299,6 +5607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "mainPreamble",
           "package": "xilinx-lava",
@@ -5308,6 +5617,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "mainPreamble",
           "normalized": "Handle-\u003eNetlist-\u003eIO()",
@@ -5324,6 +5634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emapPair\u003c/a\u003e\u003c/code\u003e maps a circuit over adajcent pairs of elements in a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "mapPair",
           "package": "xilinx-lava",
@@ -5334,6 +5645,7 @@
         "index": {
           "description": "mapPair maps circuit over adajcent pairs of elements in list",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "mapPair",
           "normalized": "((a,a)-\u003eOut a)-\u003e[a]-\u003eOut[a]",
@@ -5350,6 +5662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace components in a horizontal middle arrangement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "middle",
           "package": "xilinx-lava",
@@ -5360,6 +5673,7 @@
         "index": {
           "description": "Place components in horizontal middle arrangement",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "middle",
           "normalized": "(a-\u003eOut b)-\u003e((b,c)-\u003eOut d)-\u003e(e-\u003eOut c)-\u003e(a,e)-\u003eOut d",
@@ -5374,6 +5688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "one",
           "package": "xilinx-lava",
@@ -5383,6 +5698,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "one",
           "package": "xilinx-lava",
@@ -5395,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "outputArrayOfArray",
           "package": "xilinx-lava",
@@ -5404,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "outputArrayOfArray",
           "normalized": "String-\u003eNetType-\u003e[[Bit]]-\u003eOut()",
@@ -5420,6 +5738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eoutputBitVec\u003c/a\u003e\u003c/code\u003e creates a bit-vector output port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "outputBitVec",
           "package": "xilinx-lava",
@@ -5430,6 +5749,7 @@
         "index": {
           "description": "outputBitVec creates bit-vector output port",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "outputBitVec",
           "normalized": "String-\u003eNetType-\u003e[Bit]-\u003eOut()",
@@ -5446,6 +5766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eoutputBitVecKept\u003c/code\u003e creates a bit-vector local signal with a\n   KEEP attribute set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "outputBitVecLocal",
           "package": "xilinx-lava",
@@ -5456,6 +5777,7 @@
         "index": {
           "description": "outputBitVecKept creates bit-vector local signal with KEEP attribute set",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "outputBitVecLocal",
           "normalized": "String-\u003eNetType-\u003e[Bit]-\u003eOut()",
@@ -5471,6 +5793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "outputLocalArrayOfArray",
           "package": "xilinx-lava",
@@ -5480,6 +5803,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "outputLocalArrayOfArray",
           "normalized": "String-\u003eNetType-\u003e[[Bit]]-\u003eOut()",
@@ -5496,6 +5820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eoutputPort\u003c/a\u003e\u003c/code\u003e creates a single bit output port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "outputPort",
           "package": "xilinx-lava",
@@ -5506,6 +5831,7 @@
         "index": {
           "description": "outputPort creates single bit output port",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "outputPort",
           "normalized": "String-\u003eNetType-\u003eBit-\u003eOut()",
@@ -5522,6 +5848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoverlayTile takes a circuit instantiation block and overlays all the\n   the instantions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "overlayTile",
           "package": "xilinx-lava",
@@ -5532,6 +5859,7 @@
         "index": {
           "description": "overlayTile takes circuit instantiation block and overlays all the the instantions",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "overlayTile",
           "normalized": "Out a-\u003eOut a",
@@ -5548,6 +5876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis makes pairs out of consequetive members of an even length list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "pair",
           "package": "xilinx-lava",
@@ -5558,6 +5887,7 @@
         "index": {
           "description": "This makes pairs out of consequetive members of an even length list",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "pair",
           "normalized": "[a]-\u003eOut[[a]]",
@@ -5573,6 +5903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a par into a list containing two elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "pairToList",
           "package": "xilinx-lava",
@@ -5583,6 +5914,7 @@
         "index": {
           "description": "Converts par into list containing two elements",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "pairToList",
           "normalized": "(a,a)-\u003eOut[a]",
@@ -5599,6 +5931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical parallel composition of two circuits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "par2",
           "package": "xilinx-lava",
@@ -5609,6 +5942,7 @@
         "index": {
           "description": "Vertical parallel composition of two circuits",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "par2",
           "normalized": "(a-\u003eOut b)-\u003e(c-\u003eOut d)-\u003e(a,c)-\u003eOut(b,d)",
@@ -5624,6 +5958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel composition of two circuit which have overlaid layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "par2Overlay",
           "package": "xilinx-lava",
@@ -5634,6 +5969,7 @@
         "index": {
           "description": "Parallel composition of two circuit which have overlaid layout",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "par2Overlay",
           "normalized": "(a-\u003eOut b)-\u003e(c-\u003eOut d)-\u003e(a,c)-\u003eOut(b,d)",
@@ -5650,6 +5986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel composition of three circuit which have overlaid layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "par3Overlay",
           "package": "xilinx-lava",
@@ -5660,6 +5997,7 @@
         "index": {
           "description": "Parallel composition of three circuit which have overlaid layout",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "par3Overlay",
           "normalized": "(a-\u003eOut b)-\u003e(c-\u003eOut d)-\u003e(e-\u003eOut f)-\u003e(a,c,e)-\u003eOut(b,d,f)",
@@ -5675,6 +6013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "postamble",
           "package": "xilinx-lava",
@@ -5684,6 +6023,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "postamble",
           "normalized": "Handle-\u003eNetlist-\u003eIO()",
@@ -5698,6 +6038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "powersOfTwo",
           "package": "xilinx-lava",
@@ -5707,6 +6048,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "powersOfTwo",
           "normalized": "[Int]",
@@ -5722,6 +6064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "preamble",
           "package": "xilinx-lava",
@@ -5731,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "preamble",
           "normalized": "Handle-\u003eNetlist-\u003eIO()",
@@ -5746,6 +6090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eprimitiveGate\u003c/a\u003e\u003c/code\u003e adds a primitive gate \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "primitiveGate",
           "package": "xilinx-lava",
@@ -5755,6 +6100,7 @@
         "index": {
           "description": "primitiveGate adds primitive gate",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "primitiveGate",
           "normalized": "String-\u003e[(String,Bit)]-\u003e[String]-\u003eMaybe(Int,Int)-\u003eOut[Bit]",
@@ -5770,6 +6116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "projectFst",
           "package": "xilinx-lava",
@@ -5779,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "projectFst",
           "normalized": "(a,b)-\u003eOut a",
@@ -5794,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "projectSnd",
           "package": "xilinx-lava",
@@ -5803,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "projectSnd",
           "normalized": "(a,b)-\u003eOut b",
@@ -5818,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putArrayOfArrayPort",
           "package": "xilinx-lava",
@@ -5827,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putArrayOfArrayPort",
           "normalized": "Handle-\u003eString-\u003eString-\u003eInt-\u003eInt-\u003eIO()",
@@ -5843,6 +6195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eputDriver\u003c/a\u003e\u003c/code\u003e writes out the EDIF net driven by source net(i)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putDriver",
           "package": "xilinx-lava",
@@ -5852,6 +6205,7 @@
         "index": {
           "description": "putDriver writes out the EDIF net driven by source net",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putDriver",
           "normalized": "Handle-\u003e[(String,NetType)]-\u003eArray Int DrivenPorts-\u003e[PortDeclaration]-\u003eInt-\u003eIO()",
@@ -5867,6 +6221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putEDIFInstance",
           "package": "xilinx-lava",
@@ -5876,6 +6231,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putEDIFInstance",
           "normalized": "Handle-\u003eNetlist-\u003eInstance-\u003eIO()",
@@ -5891,6 +6247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putEDIFPort",
           "package": "xilinx-lava",
@@ -5900,6 +6257,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putEDIFPort",
           "normalized": "Handle-\u003e[(String,NetType)]-\u003ePortDeclaration-\u003eIO()",
@@ -5915,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putLUTInstance",
           "package": "xilinx-lava",
@@ -5924,6 +6283,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putLUTInstance",
           "normalized": "Handle-\u003eNetlist-\u003eInstance-\u003e[Int]-\u003eIO()",
@@ -5939,6 +6299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putPortWire",
           "package": "xilinx-lava",
@@ -5948,6 +6309,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putPortWire",
           "normalized": "Handle-\u003e[(String,NetType)]-\u003eInt-\u003ePortDeclaration-\u003eIO()",
@@ -5963,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putPortWires",
           "package": "xilinx-lava",
@@ -5972,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putPortWires",
           "normalized": "Handle-\u003e[(String,NetType)]-\u003eInt-\u003e[PortDeclaration]-\u003eIO()",
@@ -5987,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putPrimitiveInstance",
           "package": "xilinx-lava",
@@ -5996,6 +6361,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putPrimitiveInstance",
           "normalized": "Handle-\u003eNetlist-\u003eInstance-\u003eIO()",
@@ -6011,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putVHDLPackage",
           "package": "xilinx-lava",
@@ -6020,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putVHDLPackage",
           "normalized": "Handle-\u003eNetlist-\u003eIO()",
@@ -6035,6 +6403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putXilinxEDIF",
           "package": "xilinx-lava",
@@ -6044,6 +6413,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putXilinxEDIF",
           "normalized": "Netlist-\u003eIO()",
@@ -6059,6 +6429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "putXilinxVHDL",
           "package": "xilinx-lava",
@@ -6068,6 +6439,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "putXilinxVHDL",
           "normalized": "Netlist-\u003eIO()",
@@ -6083,6 +6455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "reversE",
           "package": "xilinx-lava",
@@ -6092,6 +6465,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "reversE",
           "normalized": "[a]-\u003eOut[a]",
@@ -6107,6 +6481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a circuit to the second element of a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "snD",
           "package": "xilinx-lava",
@@ -6117,6 +6492,7 @@
         "index": {
           "description": "Applies circuit to the second element of pair",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "snD",
           "normalized": "(a-\u003eOut b)-\u003e(c,a)-\u003eOut(c,b)",
@@ -6132,6 +6508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a circuit to the second halve of a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "sndList",
           "package": "xilinx-lava",
@@ -6142,6 +6519,7 @@
         "index": {
           "description": "Applies circuit to the second halve of list",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "sndList",
           "normalized": "([a]-\u003eOut[a])-\u003e[a]-\u003eOut[a]",
@@ -6157,6 +6535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "sndListPair",
           "package": "xilinx-lava",
@@ -6166,6 +6545,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "sndListPair",
           "normalized": "[a]-\u003ea",
@@ -6182,6 +6562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a pair containing two list halves and undoes the halve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "unhalve",
           "package": "xilinx-lava",
@@ -6192,6 +6573,7 @@
         "index": {
           "description": "Take pair containing two list halves and undoes the halve",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "unhalve",
           "normalized": "([a],[a])-\u003eOut[a]",
@@ -6207,6 +6589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndoes halveList\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "unhalveList",
           "package": "xilinx-lava",
@@ -6217,6 +6600,7 @@
         "index": {
           "description": "Undoes halveList",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "unhalveList",
           "normalized": "[[a]]-\u003eOut[a]",
@@ -6233,6 +6617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of pairs and returns a flattend list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "unpair",
           "package": "xilinx-lava",
@@ -6243,6 +6628,7 @@
         "index": {
           "description": "Takes list of pairs and returns flattend list",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "unpair",
           "normalized": "[[a]]-\u003eOut[a]",
@@ -6258,6 +6644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of pairs and unzips it into a pair of  lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "unziP",
           "package": "xilinx-lava",
@@ -6268,6 +6655,7 @@
         "index": {
           "description": "Takes list of pairs and unzips it into pair of lists",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "unziP",
           "normalized": "[(a,b)]-\u003eOut([a],[b])",
@@ -6283,6 +6671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndo the zipList operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "unzipList",
           "package": "xilinx-lava",
@@ -6293,6 +6682,7 @@
         "index": {
           "description": "Undo the zipList operation",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "unzipList",
           "normalized": "[[a]]-\u003eOut[[a]]",
@@ -6308,6 +6698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "vhdlPackage",
           "package": "xilinx-lava",
@@ -6317,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "vhdlPackage",
           "normalized": "Handle-\u003eString-\u003e[PortDeclaration]-\u003e[(String,NetType)]-\u003eIO()",
@@ -6332,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "zero",
           "package": "xilinx-lava",
@@ -6341,6 +6734,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "zero",
           "package": "xilinx-lava",
@@ -6354,6 +6748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a pair of lists and returns a zipped list of pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "ziP",
           "package": "xilinx-lava",
@@ -6364,6 +6759,7 @@
         "index": {
           "description": "Takes pair of lists and returns zipped list of pairs",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "ziP",
           "normalized": "([a],[b])-\u003eOut[(a,b)]",
@@ -6379,6 +6775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list containing two elements and returns a list of lists\n   where each element is a two element list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:42 UTC 2014",
           "module": "Lava",
           "name": "zipList",
           "package": "xilinx-lava",
@@ -6389,6 +6786,7 @@
         "index": {
           "description": "Takes list containing two elements and returns list of lists where each element is two element list",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:41:42",
           "module": "Lava",
           "name": "zipList",
           "normalized": "[[a]]-\u003eOut[[a]]",

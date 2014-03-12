@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kickass-torrents-dump-parser"
+        "phrase": "kickass-torrents-dump-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "KickassTorrentsDumpParser",
           "package": "kickass-torrents-dump-parser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "KickassTorrentsDumpParser",
           "package": "kickass-torrents-dump-parser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "InfoHash",
           "package": "kickass-torrents-dump-parser",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "InfoHash",
           "package": "kickass-torrents-dump-parser",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "Release",
           "package": "kickass-torrents-dump-parser",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "Release",
           "package": "kickass-torrents-dump-parser",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "ReleaseCategory",
           "package": "kickass-torrents-dump-parser",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "ReleaseCategory",
           "package": "kickass-torrents-dump-parser",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "ReleaseTitle",
           "package": "kickass-torrents-dump-parser",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "ReleaseTitle",
           "package": "kickass-torrents-dump-parser",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "URL",
           "package": "kickass-torrents-dump-parser",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "URL",
           "package": "kickass-torrents-dump-parser",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "InfoHash",
           "package": "kickass-torrents-dump-parser",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "InfoHash",
           "package": "kickass-torrents-dump-parser",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "Release",
           "package": "kickass-torrents-dump-parser",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "Release",
           "package": "kickass-torrents-dump-parser",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "ReleaseCategory",
           "package": "kickass-torrents-dump-parser",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "ReleaseCategory",
           "package": "kickass-torrents-dump-parser",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "ReleaseTitle",
           "package": "kickass-torrents-dump-parser",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "ReleaseTitle",
           "package": "kickass-torrents-dump-parser",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "URL",
           "package": "kickass-torrents-dump-parser",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "URL",
           "package": "kickass-torrents-dump-parser",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "category",
           "package": "kickass-torrents-dump-parser",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "category",
           "package": "kickass-torrents-dump-parser",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "infoHash",
           "package": "kickass-torrents-dump-parser",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "infoHash",
           "package": "kickass-torrents-dump-parser",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "katUrl",
           "package": "kickass-torrents-dump-parser",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "katUrl",
           "package": "kickass-torrents-dump-parser",
@@ -320,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a release from a Lazy ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "parseDump",
           "package": "kickass-torrents-dump-parser",
@@ -330,6 +359,7 @@
         "index": {
           "description": "Parses release from Lazy ByteString",
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "parseDump",
           "normalized": "ByteString-\u003eEither String(Vector Release)",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "title",
           "package": "kickass-torrents-dump-parser",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "title",
           "package": "kickass-torrents-dump-parser",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "torrentUrl",
           "package": "kickass-torrents-dump-parser",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "torrentUrl",
           "package": "kickass-torrents-dump-parser",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "unInfoHash",
           "package": "kickass-torrents-dump-parser",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "unInfoHash",
           "package": "kickass-torrents-dump-parser",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "unReleaseCategory",
           "package": "kickass-torrents-dump-parser",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "unReleaseCategory",
           "package": "kickass-torrents-dump-parser",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "unReleaseTitle",
           "package": "kickass-torrents-dump-parser",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "unReleaseTitle",
           "package": "kickass-torrents-dump-parser",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:03 UTC 2014",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "unUrl",
           "package": "kickass-torrents-dump-parser",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Text KickassTorrentsDumpParser",
+          "indexed": "2014-03-11T19:03:03",
           "module": "Text.KickassTorrentsDumpParser",
           "name": "unUrl",
           "package": "kickass-torrents-dump-parser",

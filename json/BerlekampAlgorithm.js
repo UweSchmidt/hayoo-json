@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BerlekampAlgorithm"
+        "phrase": "BerlekampAlgorithm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "BerlekampAlgorithm",
           "package": "BerlekampAlgorithm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "BerlekampAlgorithm",
           "package": "BerlekampAlgorithm",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eberlekamp\n berlekamp p P: gives a complete factorization of a polynom P of irreducible polynoms over Fp[x].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "berlekamp",
           "package": "BerlekampAlgorithm",
@@ -50,6 +53,7 @@
         "index": {
           "description": "berlekamp berlekamp gives complete factorization of polynom of irreducible polynoms over Fp",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "berlekamp",
           "normalized": "Integer-\u003e[Integer]-\u003e[[Integer]]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ederivPolyZ : derivative of polynmial P over Fp[x]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "derivPolyZ",
           "package": "BerlekampAlgorithm",
@@ -75,6 +80,7 @@
         "index": {
           "description": "derivPolyZ derivative of polynmial over Fp",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "derivPolyZ",
           "normalized": "Integer-\u003e[Integer]-\u003e[Integer]",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrobenius automorphism : linear map V -\u003e V^p - V , V in Fp[x]\u003cem\u003eP and Fp[x]\u003c/em\u003eP as vector space over the field Fp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "frob",
           "package": "BerlekampAlgorithm",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Frobenius automorphism linear map in Fp and Fp as vector space over the field Fp",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "frob",
           "normalized": "Integer-\u003eInteger-\u003e[Integer]-\u003e[Integer]",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBerlekamp's Factorization Algorithm over Fp[x] : computes the factorization of a monic square-free polynomial P into irreducible factor polynomials over F_{p}[x] , p is a prime number. This method is based on linear algebra over finite field.\n | g\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "g",
           "package": "BerlekampAlgorithm",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Berlekamp Factorization Algorithm over Fp computes the factorization of monic square-free polynomial into irreducible factor polynomials over is prime number This method is based on linear algebra over finite field",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "g",
           "normalized": "Maybe a-\u003ea",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirreducibilityTestPolyZ\n irreducibilityTestPolyZ : irreducibility test of polynomials over Fp[x]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "irreducibilityTestPolyZ",
           "package": "BerlekampAlgorithm",
@@ -151,6 +162,7 @@
         "index": {
           "description": "irreducibilityTestPolyZ irreducibilityTestPolyZ irreducibility test of polynomials over Fp",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "irreducibilityTestPolyZ",
           "normalized": "Integer-\u003e[Integer]-\u003eBool",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elswap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "lswap",
           "package": "BerlekampAlgorithm",
@@ -177,6 +190,7 @@
         "index": {
           "description": "lswap",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "lswap",
           "normalized": "Int-\u003eInt-\u003e([a],[a])-\u003e([a],[a])",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematrixBerl\n matrixBerl p f : is the matrix of the Frobenius endomorphism over the canonical base {1,X,X^2..,X^(p-1)} ,\n matrixBerl(i,j) = X^(pj)-X^j mod P.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "matrixBerlTranspose",
           "package": "BerlekampAlgorithm",
@@ -202,6 +217,7 @@
         "index": {
           "description": "matrixBerl matrixBerl is the matrix of the Frobenius endomorphism over the canonical base p-1 matrixBerl pj mod",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "matrixBerlTranspose",
           "normalized": "Integer-\u003e[Integer]-\u003e[[Integer]]",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emmultZ\n mmultZ p a b : compute the product of two integer matrices in Fp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "mmultZ",
           "package": "BerlekampAlgorithm",
@@ -228,6 +245,7 @@
         "index": {
           "description": "mmultZ mmultZ compute the product of two integer matrices in Fp",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "mmultZ",
           "normalized": "Integer-\u003e[[Integer]]-\u003e[[Integer]]-\u003e[[Integer]]",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emultPoly\n multPoly : product of polynomials P1, .., Pk in Fp[x].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "multPoly",
           "package": "BerlekampAlgorithm",
@@ -253,6 +272,7 @@
         "index": {
           "description": "multPoly multPoly product of polynomials P1 Pk in Fp",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "multPoly",
           "normalized": "Integer-\u003e[[Integer]]-\u003e[Integer]",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enullSpaceModIntegerMat p m : computes the null space of matrix m in Fp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "nullSpaceModIntegerMat",
           "package": "BerlekampAlgorithm",
@@ -279,6 +300,7 @@
         "index": {
           "description": "nullSpaceModIntegerMat computes the null space of matrix in Fp",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "nullSpaceModIntegerMat",
           "normalized": "Integer-\u003e[[Integer]]-\u003e[[Integer]]",
@@ -295,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epivotPos'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "pivotPos'",
           "package": "BerlekampAlgorithm",
@@ -305,6 +328,7 @@
         "index": {
           "description": "pivotPos",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "pivotPos'",
           "normalized": "a-\u003e[[b]]-\u003e(Int,a)",
@@ -321,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esquareFreePolyZ\n squareFreePolyZ p f : gives the euclidean quotient of P and gcd(f,f'). That quotient is a square free polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "squareFreePolyZ",
           "package": "BerlekampAlgorithm",
@@ -331,6 +356,7 @@
         "index": {
           "description": "squareFreePolyZ squareFreePolyZ gives the euclidean quotient of and gcd That quotient is square free polynomial",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "squareFreePolyZ",
           "normalized": "Integer-\u003e[Integer]-\u003e[Integer]",
@@ -347,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etriangulizedModIntegerMat\ntriangulizedModIntegerMat p m: gives the gauss triangular decomposition of an integeral matrix m in Fp.\n The result is (r, u) where u is a unimodular matrix, r is an upper-triangular matrix , and u.m = r.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:10 UTC 2014",
           "module": "BerlekampAlgorithm",
           "name": "triangulizedModIntegerMat",
           "package": "BerlekampAlgorithm",
@@ -357,6 +384,7 @@
         "index": {
           "description": "triangulizedModIntegerMat triangulizedModIntegerMat gives the gauss triangular decomposition of an integeral matrix in Fp The result is where is unimodular matrix is an upper-triangular matrix and u.m",
           "hierarchy": "BerlekampAlgorithm",
+          "indexed": "2014-03-11T16:34:10",
           "module": "BerlekampAlgorithm",
           "name": "triangulizedModIntegerMat",
           "normalized": "Integer-\u003e[[Integer]]-\u003e([[Integer]],[[Integer]])",

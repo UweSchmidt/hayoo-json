@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-handler-launch"
+        "phrase": "wai-handler-launch",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:12 UTC 2014",
           "module": "Network.Wai.Handler.Launch",
           "name": "Launch",
           "package": "wai-handler-launch",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler Launch",
+          "indexed": "2014-03-11T20:36:12",
           "module": "Network.Wai.Handler.Launch",
           "name": "Launch",
           "package": "wai-handler-launch",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:12 UTC 2014",
           "module": "Network.Wai.Handler.Launch",
           "name": "run",
           "package": "wai-handler-launch",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler Launch",
+          "indexed": "2014-03-11T20:36:12",
           "module": "Network.Wai.Handler.Launch",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:12 UTC 2014",
           "module": "Network.Wai.Handler.Launch",
           "name": "runUrl",
           "package": "wai-handler-launch",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler Launch",
+          "indexed": "2014-03-11T20:36:12",
           "module": "Network.Wai.Handler.Launch",
           "name": "runUrl",
           "normalized": "String-\u003eApplication-\u003eIO()",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:12 UTC 2014",
           "module": "Network.Wai.Handler.Launch",
           "name": "runUrlPort",
           "package": "wai-handler-launch",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler Launch",
+          "indexed": "2014-03-11T20:36:12",
           "module": "Network.Wai.Handler.Launch",
           "name": "runUrlPort",
           "normalized": "Int-\u003eString-\u003eApplication-\u003eIO()",

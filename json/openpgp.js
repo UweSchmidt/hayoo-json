@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "openpgp"
+        "phrase": "openpgp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain implementation of the OpenPGP message format \u003ca\u003ehttp://tools.ietf.org/html/rfc4880\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThe recommended way to import this module is:\n\u003c/p\u003e\u003cpre\u003e import qualified Data.OpenPGP as OpenPGP\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "OpenPGP",
           "package": "openpgp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Main implementation of the OpenPGP message format http tools.ietf.org html rfc4880 The recommended way to import this module is import qualified Data.OpenPGP as OpenPGP",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "OpenPGP",
           "package": "openpgp",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "CompressionAlgorithm",
           "package": "openpgp",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "CompressionAlgorithm",
           "package": "openpgp",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "HashAlgorithm",
           "package": "openpgp",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "HashAlgorithm",
           "package": "openpgp",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeyAlgorithm",
           "package": "openpgp",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeyAlgorithm",
           "package": "openpgp",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-3.2\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "MPI",
           "package": "openpgp",
@@ -114,6 +123,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-3.2",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "MPI",
           "package": "openpgp",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message is encoded as a list that takes the entire file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "Message",
           "package": "openpgp",
@@ -137,6 +148,7 @@
         "index": {
           "description": "message is encoded as list that takes the entire file",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "Message",
           "package": "openpgp",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "Packet",
           "package": "openpgp",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "Packet",
           "package": "openpgp",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RevocationCode",
           "package": "openpgp",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RevocationCode",
           "package": "openpgp",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "S2K",
           "package": "openpgp",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "S2K",
           "package": "openpgp",
@@ -213,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData needed to verify a signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SignatureOver",
           "package": "openpgp",
@@ -222,6 +241,7 @@
         "index": {
           "description": "Data needed to verify signature",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SignatureOver",
           "package": "openpgp",
@@ -236,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.2.3.1\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SignatureSubpacket",
           "package": "openpgp",
@@ -245,6 +266,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.2.3.1",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SignatureSubpacket",
           "package": "openpgp",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SymmetricAlgorithm",
           "package": "openpgp",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SymmetricAlgorithm",
           "package": "openpgp",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "AES128",
           "package": "openpgp",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "AES128",
           "package": "openpgp",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "AES192",
           "package": "openpgp",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "AES192",
           "package": "openpgp",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "AES256",
           "package": "openpgp",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "AES256",
           "package": "openpgp",
@@ -346,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.1\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "AsymmetricSessionKeyPacket",
           "package": "openpgp",
@@ -356,6 +387,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.1",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "AsymmetricSessionKeyPacket",
           "package": "openpgp",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "BZip2",
           "package": "openpgp",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "BZip2",
           "package": "openpgp",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "Blowfish",
           "package": "openpgp",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "Blowfish",
           "package": "openpgp",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "CAST5",
           "package": "openpgp",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "CAST5",
           "package": "openpgp",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "CertificationSignature",
           "package": "openpgp",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "CertificationSignature",
           "package": "openpgp",
@@ -458,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.6\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "CompressedDataPacket",
           "package": "openpgp",
@@ -468,6 +509,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.6",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "CompressedDataPacket",
           "package": "openpgp",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "CompressionAlgorithm",
           "package": "openpgp",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "CompressionAlgorithm",
           "package": "openpgp",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "DH",
           "package": "openpgp",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "DH",
           "package": "openpgp",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "DSA",
           "package": "openpgp",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "DSA",
           "package": "openpgp",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "DataSignature",
           "package": "openpgp",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "DataSignature",
           "package": "openpgp",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "ECC",
           "package": "openpgp",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "ECC",
           "package": "openpgp",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "ECDSA",
           "package": "openpgp",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "ECDSA",
           "package": "openpgp",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "ELGAMAL",
           "package": "openpgp",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "ELGAMAL",
           "package": "openpgp",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "EmbeddedSignaturePacket",
           "package": "openpgp",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "EmbeddedSignaturePacket",
           "package": "openpgp",
@@ -658,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.13\u003c/a\u003e\n or \u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.7\u003c/a\u003e when version is 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "EncryptedDataPacket",
           "package": "openpgp",
@@ -668,6 +727,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.13 or http tools.ietf.org html rfc4880 section-5.7 when version is",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "EncryptedDataPacket",
           "package": "openpgp",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "ExportableCertificationPacket",
           "package": "openpgp",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "ExportableCertificationPacket",
           "package": "openpgp",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "FeaturesPacket",
           "package": "openpgp",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "FeaturesPacket",
           "package": "openpgp",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "HashAlgorithm",
           "package": "openpgp",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "HashAlgorithm",
           "package": "openpgp",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "IDEA",
           "package": "openpgp",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "IDEA",
           "package": "openpgp",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "IssuerPacket",
           "package": "openpgp",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "IssuerPacket",
           "package": "openpgp",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "IteratedSaltedS2K",
           "package": "openpgp",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "IteratedSaltedS2K",
           "package": "openpgp",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeyAlgorithm",
           "package": "openpgp",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeyAlgorithm",
           "package": "openpgp",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeyCompromised",
           "package": "openpgp",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeyCompromised",
           "package": "openpgp",
@@ -858,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eseconds after key CreationTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeyExpirationTimePacket",
           "package": "openpgp",
@@ -868,6 +945,7 @@
         "index": {
           "description": "seconds after key CreationTime",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeyExpirationTimePacket",
           "package": "openpgp",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeyFlagsPacket",
           "package": "openpgp",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeyFlagsPacket",
           "package": "openpgp",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeyRetired",
           "package": "openpgp",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeyRetired",
           "package": "openpgp",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeyServerPreferencesPacket",
           "package": "openpgp",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeyServerPreferencesPacket",
           "package": "openpgp",
@@ -947,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeySignature",
           "package": "openpgp",
@@ -956,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeySignature",
           "package": "openpgp",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "KeySuperseded",
           "package": "openpgp",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "KeySuperseded",
           "package": "openpgp",
@@ -992,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.9\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "LiteralDataPacket",
           "package": "openpgp",
@@ -1002,6 +1091,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.9",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "LiteralDataPacket",
           "package": "openpgp",
@@ -1015,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "MD5",
           "package": "openpgp",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "MD5",
           "package": "openpgp",
@@ -1037,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "MPI",
           "package": "openpgp",
@@ -1046,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "MPI",
           "package": "openpgp",
@@ -1060,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.8\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "MarkerPacket",
           "package": "openpgp",
@@ -1070,6 +1165,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.8",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "MarkerPacket",
           "package": "openpgp",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "Message",
           "package": "openpgp",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "Message",
           "normalized": "Message[Packet]",
@@ -1108,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.14\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "ModificationDetectionCodePacket",
           "package": "openpgp",
@@ -1118,6 +1217,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.14",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "ModificationDetectionCodePacket",
           "package": "openpgp",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "NoReason",
           "package": "openpgp",
@@ -1140,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "NoReason",
           "package": "openpgp",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "NotationDataPacket",
           "package": "openpgp",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "NotationDataPacket",
           "package": "openpgp",
@@ -1176,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.4\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "OnePassSignaturePacket",
           "package": "openpgp",
@@ -1186,6 +1291,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.4",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "OnePassSignaturePacket",
           "package": "openpgp",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "PolicyURIPacket",
           "package": "openpgp",
@@ -1208,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "PolicyURIPacket",
           "package": "openpgp",
@@ -1221,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "PreferredCompressionAlgorithmsPacket",
           "package": "openpgp",
@@ -1230,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "PreferredCompressionAlgorithmsPacket",
           "normalized": "PreferredCompressionAlgorithmsPacket[CompressionAlgorithm]",
@@ -1245,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "PreferredHashAlgorithmsPacket",
           "package": "openpgp",
@@ -1254,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "PreferredHashAlgorithmsPacket",
           "normalized": "PreferredHashAlgorithmsPacket[HashAlgorithm]",
@@ -1269,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "PreferredKeyServerPacket",
           "package": "openpgp",
@@ -1278,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "PreferredKeyServerPacket",
           "package": "openpgp",
@@ -1291,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "PreferredSymmetricAlgorithmsPacket",
           "package": "openpgp",
@@ -1300,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "PreferredSymmetricAlgorithmsPacket",
           "normalized": "PreferredSymmetricAlgorithmsPacket[SymmetricAlgorithm]",
@@ -1315,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "PrimaryUserIDPacket",
           "package": "openpgp",
@@ -1324,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "PrimaryUserIDPacket",
           "package": "openpgp",
@@ -1338,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.5.1.1\u003c/a\u003e (also subkey)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "PublicKeyPacket",
           "package": "openpgp",
@@ -1348,6 +1467,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.5.1.1 also subkey",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "PublicKeyPacket",
           "package": "openpgp",
@@ -1361,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RIPEMD160",
           "package": "openpgp",
@@ -1370,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RIPEMD160",
           "package": "openpgp",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RSA",
           "package": "openpgp",
@@ -1392,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RSA",
           "package": "openpgp",
@@ -1405,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RSA_E",
           "package": "openpgp",
@@ -1414,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RSA_E",
           "package": "openpgp",
@@ -1427,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RSA_S",
           "package": "openpgp",
@@ -1436,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RSA_S",
           "package": "openpgp",
@@ -1449,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "ReasonForRevocationPacket",
           "package": "openpgp",
@@ -1458,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "ReasonForRevocationPacket",
           "package": "openpgp",
@@ -1471,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RegularExpressionPacket",
           "package": "openpgp",
@@ -1480,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RegularExpressionPacket",
           "package": "openpgp",
@@ -1493,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RevocablePacket",
           "package": "openpgp",
@@ -1502,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RevocablePacket",
           "package": "openpgp",
@@ -1515,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RevocationCode",
           "package": "openpgp",
@@ -1524,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RevocationCode",
           "package": "openpgp",
@@ -1537,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "RevocationKeyPacket",
           "package": "openpgp",
@@ -1546,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "RevocationKeyPacket",
           "package": "openpgp",
@@ -1559,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "S2K",
           "package": "openpgp",
@@ -1568,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "S2K",
           "package": "openpgp",
@@ -1580,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SHA1",
           "package": "openpgp",
@@ -1589,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SHA1",
           "package": "openpgp",
@@ -1602,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SHA224",
           "package": "openpgp",
@@ -1611,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SHA224",
           "package": "openpgp",
@@ -1624,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SHA256",
           "package": "openpgp",
@@ -1633,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SHA256",
           "package": "openpgp",
@@ -1646,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SHA384",
           "package": "openpgp",
@@ -1655,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SHA384",
           "package": "openpgp",
@@ -1668,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SHA512",
           "package": "openpgp",
@@ -1677,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SHA512",
           "package": "openpgp",
@@ -1690,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SaltedS2K",
           "package": "openpgp",
@@ -1699,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SaltedS2K",
           "package": "openpgp",
@@ -1713,6 +1865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.5.1.3\u003c/a\u003e (also subkey)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SecretKeyPacket",
           "package": "openpgp",
@@ -1723,6 +1876,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.5.1.3 also subkey",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SecretKeyPacket",
           "package": "openpgp",
@@ -1736,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SignatureCreationTimePacket",
           "package": "openpgp",
@@ -1745,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SignatureCreationTimePacket",
           "package": "openpgp",
@@ -1759,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eseconds after CreationTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SignatureExpirationTimePacket",
           "package": "openpgp",
@@ -1769,6 +1926,7 @@
         "index": {
           "description": "seconds after CreationTime",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SignatureExpirationTimePacket",
           "package": "openpgp",
@@ -1782,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SignatureTargetPacket",
           "package": "openpgp",
@@ -1791,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SignatureTargetPacket",
           "package": "openpgp",
@@ -1804,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SignerUserIDPacket",
           "package": "openpgp",
@@ -1813,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SignerUserIDPacket",
           "package": "openpgp",
@@ -1826,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SimpleS2K",
           "package": "openpgp",
@@ -1835,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SimpleS2K",
           "package": "openpgp",
@@ -1848,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SubkeySignature",
           "package": "openpgp",
@@ -1857,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SubkeySignature",
           "package": "openpgp",
@@ -1870,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SymmetricAlgorithm",
           "package": "openpgp",
@@ -1879,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SymmetricAlgorithm",
           "package": "openpgp",
@@ -1893,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.3\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "SymmetricSessionKeyPacket",
           "package": "openpgp",
@@ -1903,6 +2072,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.3",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "SymmetricSessionKeyPacket",
           "package": "openpgp",
@@ -1916,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "TripleDES",
           "package": "openpgp",
@@ -1925,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "TripleDES",
           "package": "openpgp",
@@ -1939,6 +2111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "TrustPacket",
           "package": "openpgp",
@@ -1949,6 +2122,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.10",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "TrustPacket",
           "package": "openpgp",
@@ -1962,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "TrustSignaturePacket",
           "package": "openpgp",
@@ -1971,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "TrustSignaturePacket",
           "package": "openpgp",
@@ -1984,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "Twofish",
           "package": "openpgp",
@@ -1993,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "Twofish",
           "package": "openpgp",
@@ -2006,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "Uncompressed",
           "package": "openpgp",
@@ -2015,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "Uncompressed",
           "package": "openpgp",
@@ -2028,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "Unencrypted",
           "package": "openpgp",
@@ -2037,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "Unencrypted",
           "package": "openpgp",
@@ -2050,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "UnsupportedPacket",
           "package": "openpgp",
@@ -2059,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "UnsupportedPacket",
           "package": "openpgp",
@@ -2072,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "UnsupportedSignatureSubpacket",
           "package": "openpgp",
@@ -2081,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "UnsupportedSignatureSubpacket",
           "package": "openpgp",
@@ -2094,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "UserIDInvalid",
           "package": "openpgp",
@@ -2103,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "UserIDInvalid",
           "package": "openpgp",
@@ -2117,6 +2305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.11\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "UserIDPacket",
           "package": "openpgp",
@@ -2127,6 +2316,7 @@
         "index": {
           "description": "http tools.ietf.org html rfc4880 section-5.11",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "UserIDPacket",
           "package": "openpgp",
@@ -2140,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "ZIP",
           "package": "openpgp",
@@ -2149,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "ZIP",
           "package": "openpgp",
@@ -2162,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "ZLIB",
           "package": "openpgp",
@@ -2171,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "ZLIB",
           "package": "openpgp",
@@ -2184,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "authentication",
           "package": "openpgp",
@@ -2193,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "authentication",
           "package": "openpgp",
@@ -2205,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "certify_keys",
           "package": "openpgp",
@@ -2214,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "certify_keys",
           "package": "openpgp",
@@ -2226,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "compression_algorithm",
           "package": "openpgp",
@@ -2235,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "compression_algorithm",
           "package": "openpgp",
@@ -2247,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "content",
           "package": "openpgp",
@@ -2256,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "content",
           "package": "openpgp",
@@ -2268,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "depth",
           "package": "openpgp",
@@ -2277,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "depth",
           "package": "openpgp",
@@ -2289,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "encrypt_communication",
           "package": "openpgp",
@@ -2298,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "encrypt_communication",
           "package": "openpgp",
@@ -2310,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "encrypt_storage",
           "package": "openpgp",
@@ -2319,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "encrypt_storage",
           "package": "openpgp",
@@ -2331,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "encrypted_data",
           "package": "openpgp",
@@ -2340,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "encrypted_data",
           "package": "openpgp",
@@ -2352,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "filename",
           "package": "openpgp",
@@ -2361,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "filename",
           "package": "openpgp",
@@ -2374,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a key with the given Fingerprint/KeyID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "find_key",
           "package": "openpgp",
@@ -2383,6 +2596,7 @@
         "index": {
           "description": "Find key with the given Fingerprint KeyID",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "find_key",
           "normalized": "(Packet-\u003eString)-\u003eMessage-\u003eString-\u003eMaybe Packet",
@@ -2398,6 +2612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper method for fingerprints and such\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "fingerprint_material",
           "package": "openpgp",
@@ -2408,6 +2623,7 @@
         "index": {
           "description": "Helper method for fingerprints and such",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "fingerprint_material",
           "normalized": "Packet-\u003e[ByteString]",
@@ -2422,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "format",
           "package": "openpgp",
@@ -2431,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "format",
           "package": "openpgp",
@@ -2443,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "group_key",
           "package": "openpgp",
@@ -2452,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "group_key",
           "package": "openpgp",
@@ -2464,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "hash",
           "package": "openpgp",
@@ -2473,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "hash",
           "package": "openpgp",
@@ -2485,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "hash_algorithm",
           "package": "openpgp",
@@ -2494,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "hash_algorithm",
           "package": "openpgp",
@@ -2506,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "human_readable",
           "package": "openpgp",
@@ -2515,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "human_readable",
           "package": "openpgp",
@@ -2527,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "isSignaturePacket",
           "package": "openpgp",
@@ -2536,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "isSignaturePacket",
           "normalized": "Packet-\u003eBool",
@@ -2551,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "is_subkey",
           "package": "openpgp",
@@ -2560,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "is_subkey",
           "package": "openpgp",
@@ -2572,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "key",
           "package": "openpgp",
@@ -2581,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "key",
           "normalized": "[(Char,MPI)]",
@@ -2595,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "key_algorithm",
           "package": "openpgp",
@@ -2604,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "key_algorithm",
           "package": "openpgp",
@@ -2616,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "key_id",
           "package": "openpgp",
@@ -2625,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "key_id",
           "package": "openpgp",
@@ -2637,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "keyserver_no_modify",
           "package": "openpgp",
@@ -2646,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "keyserver_no_modify",
           "package": "openpgp",
@@ -2658,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "literal",
           "package": "openpgp",
@@ -2667,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "literal",
           "package": "openpgp",
@@ -2679,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "message",
           "package": "openpgp",
@@ -2688,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "message",
           "package": "openpgp",
@@ -2700,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "nested",
           "package": "openpgp",
@@ -2709,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "nested",
           "package": "openpgp",
@@ -2721,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "notation_name",
           "package": "openpgp",
@@ -2730,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "notation_name",
           "package": "openpgp",
@@ -2742,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "notation_value",
           "package": "openpgp",
@@ -2751,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "notation_value",
           "package": "openpgp",
@@ -2763,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "public_key_fields",
           "package": "openpgp",
@@ -2772,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "public_key_fields",
           "normalized": "KeyAlgorithm-\u003e[Char]",
@@ -2786,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "revocation_key_algorithm",
           "package": "openpgp",
@@ -2795,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "revocation_key_algorithm",
           "package": "openpgp",
@@ -2807,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "revocation_key_fingerprint",
           "package": "openpgp",
@@ -2816,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "revocation_key_fingerprint",
           "package": "openpgp",
@@ -2829,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is meaningless if symmetric_algorithm == Unencrypted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "s2k",
           "package": "openpgp",
@@ -2839,6 +3094,7 @@
         "index": {
           "description": "This is meaningless if symmetric algorithm Unencrypted",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "s2k",
           "package": "openpgp",
@@ -2851,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "s2k_useage",
           "package": "openpgp",
@@ -2860,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "s2k_useage",
           "package": "openpgp",
@@ -2872,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "secret_key_fields",
           "package": "openpgp",
@@ -2881,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "secret_key_fields",
           "normalized": "KeyAlgorithm-\u003e[Char]",
@@ -2895,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "sensitive",
           "package": "openpgp",
@@ -2904,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "sensitive",
           "package": "openpgp",
@@ -2916,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "sign_data",
           "package": "openpgp",
@@ -2925,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "sign_data",
           "package": "openpgp",
@@ -2938,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignaturePacket smart constructor\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-5.2\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "signaturePacket",
           "package": "openpgp",
@@ -2947,6 +3212,7 @@
         "index": {
           "description": "SignaturePacket smart constructor http tools.ietf.org html rfc4880 section-5.2",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "signaturePacket",
           "normalized": "Word-\u003eWord-\u003eKeyAlgorithm-\u003eHashAlgorithm-\u003e[SignatureSubpacket]-\u003e[SignatureSubpacket]-\u003eWord-\u003e[MPI]-\u003ePacket",
@@ -2963,6 +3229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the keyid that issued a SignaturePacket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "signature_issuer",
           "package": "openpgp",
@@ -2973,6 +3240,7 @@
         "index": {
           "description": "Find the keyid that issued SignaturePacket",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "signature_issuer",
           "normalized": "Packet-\u003eMaybe String",
@@ -2987,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "signature_type",
           "package": "openpgp",
@@ -2996,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "signature_type",
           "package": "openpgp",
@@ -3009,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract signed objects from a well-formatted message\n\u003c/p\u003e\u003cp\u003eRecurses into CompressedDataPacket\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-11\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "signatures",
           "package": "openpgp",
@@ -3019,6 +3290,7 @@
         "index": {
           "description": "Extract signed objects from well-formatted message Recurses into CompressedDataPacket http tools.ietf.org html rfc4880 section-11",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "signatures",
           "normalized": "Message-\u003e[SignatureOver]",
@@ -3033,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "signatures_over",
           "package": "openpgp",
@@ -3042,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "signatures_over",
           "normalized": "[Packet]",
@@ -3056,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "split_key",
           "package": "openpgp",
@@ -3065,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "split_key",
           "package": "openpgp",
@@ -3078,6 +3354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a hash function and an \u003ccode\u003e\u003ca\u003eS2K\u003c/a\u003e\u003c/code\u003e value and generate the bytes\n   needed for creating a symmetric key.\n\u003c/p\u003e\u003cp\u003eReturn value is always infinite length.\n Take the first n bytes you need for your keysize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "string2key",
           "package": "openpgp",
@@ -3088,6 +3365,7 @@
         "index": {
           "description": "Take hash function and an S2K value and generate the bytes needed for creating symmetric key Return value is always infinite length Take the first bytes you need for your keysize",
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "string2key",
           "normalized": "(HashAlgorithm-\u003eByteString-\u003eByteString)-\u003eS K-\u003eByteString-\u003eByteString",
@@ -3102,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "subkey",
           "package": "openpgp",
@@ -3111,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "subkey",
           "package": "openpgp",
@@ -3123,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "supports_mdc",
           "package": "openpgp",
@@ -3132,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "supports_mdc",
           "package": "openpgp",
@@ -3144,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "symmetric_algorithm",
           "package": "openpgp",
@@ -3153,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "symmetric_algorithm",
           "package": "openpgp",
@@ -3165,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "target_hash_algorithm",
           "package": "openpgp",
@@ -3174,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "target_hash_algorithm",
           "package": "openpgp",
@@ -3186,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "target_key_algorithm",
           "package": "openpgp",
@@ -3195,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "target_key_algorithm",
           "package": "openpgp",
@@ -3207,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "timestamp",
           "package": "openpgp",
@@ -3216,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "timestamp",
           "package": "openpgp",
@@ -3228,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "topkey",
           "package": "openpgp",
@@ -3237,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "topkey",
           "package": "openpgp",
@@ -3249,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "trust",
           "package": "openpgp",
@@ -3258,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "trust",
           "package": "openpgp",
@@ -3270,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "user_id",
           "package": "openpgp",
@@ -3279,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "user_id",
           "package": "openpgp",
@@ -3291,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "v3_days_of_validity",
           "package": "openpgp",
@@ -3300,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "v3_days_of_validity",
           "package": "openpgp",
@@ -3312,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:04 UTC 2014",
           "module": "Data.OpenPGP",
           "name": "version",
           "package": "openpgp",
@@ -3321,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "Data OpenPGP",
+          "indexed": "2014-03-11T19:32:04",
           "module": "Data.OpenPGP",
           "name": "version",
           "package": "openpgp",

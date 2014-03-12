@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tls-extra"
+        "phrase": "tls-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "Extra",
           "package": "tls-extra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "Extra",
           "package": "tls-extra",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eCertificateUsageAccept\u003c/a\u003e\u003c/code\u003e if all the checks pass, or the first\n   failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "certificateChecks",
           "package": "tls-extra",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Returns CertificateUsageAccept if all the checks pass or the first failure",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "certificateChecks",
           "normalized": "[[X]-\u003eIO CertificateUsage]-\u003e[X]-\u003eIO CertificateUsage",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash the certificate signing data using the supplied hash function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "certificateFingerprint",
           "package": "tls-extra",
@@ -76,6 +81,7 @@
         "index": {
           "description": "hash the certificate signing data using the supplied hash function",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "certificateFingerprint",
           "normalized": "(ByteString-\u003eByteString)-\u003eX-\u003eByteString",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this certificate self signed?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "certificateSelfSigned",
           "package": "tls-extra",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Is this certificate self signed",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "certificateSelfSigned",
           "normalized": "X-\u003eBool",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003everify a certificate against another one.\n the first certificate need to be signed by the second one for this function to succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "certificateVerifyAgainst",
           "package": "tls-extra",
@@ -128,6 +137,7 @@
         "index": {
           "description": "verify certificate against another one the first certificate need to be signed by the second one for this function to succeed",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "certificateVerifyAgainst",
           "normalized": "X-\u003eX-\u003eBool",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003everify a certificates chain using the system certificates available.\n\u003c/p\u003e\u003cp\u003eeach certificate of the list is verified against the next certificate, until\n it can be verified against a system certificate (system certificates are assumed as trusted)\n\u003c/p\u003e\u003cp\u003eThis helper only check that the chain of certificate is valid, which means that each items\n received are signed by the next one, or by a system certificate. Some extra checks need to\n be done at the user level so that the certificate chain received make sense in the context.\n\u003c/p\u003e\u003cp\u003efor example for HTTP, the user should typically verify the certificate subject match the URL\n of connection.\n\u003c/p\u003e\u003cp\u003eTODO: verify validity, check revocation list if any, add optional user output to know\n the rejection reason.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "certificateVerifyChain",
           "package": "tls-extra",
@@ -154,6 +165,7 @@
         "index": {
           "description": "verify certificates chain using the system certificates available each certificate of the list is verified against the next certificate until it can be verified against system certificate system certificates are assumed as trusted This helper only check that the chain of certificate is valid which means that each items received are signed by the next one or by system certificate Some extra checks need to be done at the user level so that the certificate chain received make sense in the context for example for HTTP the user should typically verify the certificate subject match the URL of connection TODO verify validity check revocation list if any add optional user output to know the rejection reason",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "certificateVerifyChain",
           "normalized": "CertificateStore-\u003e[X]-\u003eIO CertificateUsage",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify that the given certificate chain is application to the given fully qualified host name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "certificateVerifyDomain",
           "package": "tls-extra",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Verify that the given certificate chain is application to the given fully qualified host name",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "certificateVerifyDomain",
           "normalized": "String-\u003e[X]-\u003eCertificateUsage",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify certificate validity period that need to between the bounds of the certificate.\n TODO: maybe should verify whole chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "certificateVerifyValidity",
           "package": "tls-extra",
@@ -206,6 +221,7 @@
         "index": {
           "description": "Verify certificate validity period that need to between the bounds of the certificate TODO maybe should verify whole chain",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "certificateVerifyValidity",
           "normalized": "Day-\u003e[X]-\u003eCertificateUsage",
@@ -222,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (128 bit key), RSA key exchange and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "cipher_AES128_SHA1",
           "package": "tls-extra",
@@ -232,6 +249,7 @@
         "index": {
           "description": "AES cipher bit key RSA key exchange and SHA1 for digest",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "cipher_AES128_SHA1",
           "package": "tls-extra",
@@ -246,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (128 bit key), RSA key exchange and SHA256 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "cipher_AES128_SHA256",
           "package": "tls-extra",
@@ -256,6 +275,7 @@
         "index": {
           "description": "AES cipher bit key RSA key exchange and SHA256 for digest",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "cipher_AES128_SHA256",
           "package": "tls-extra",
@@ -270,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (256 bit key), RSA key exchange and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "cipher_AES256_SHA1",
           "package": "tls-extra",
@@ -280,6 +301,7 @@
         "index": {
           "description": "AES cipher bit key RSA key exchange and SHA1 for digest",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "cipher_AES256_SHA1",
           "package": "tls-extra",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (256 bit key), RSA key exchange and SHA256 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "cipher_AES256_SHA256",
           "package": "tls-extra",
@@ -304,6 +327,7 @@
         "index": {
           "description": "AES cipher bit key RSA key exchange and SHA256 for digest",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "cipher_AES256_SHA256",
           "package": "tls-extra",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRC4 cipher, RSA key exchange and MD5 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "cipher_RC4_128_MD5",
           "package": "tls-extra",
@@ -328,6 +353,7 @@
         "index": {
           "description": "RC4 cipher RSA key exchange and MD5 for digest",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "cipher_RC4_128_MD5",
           "package": "tls-extra",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRC4 cipher, RSA key exchange and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "cipher_RC4_128_SHA1",
           "package": "tls-extra",
@@ -352,6 +379,7 @@
         "index": {
           "description": "RC4 cipher RSA key exchange and SHA1 for digest",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "cipher_RC4_128_SHA1",
           "package": "tls-extra",
@@ -366,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunencrypted cipher using RSA for key exchange and MD5 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "cipher_null_MD5",
           "package": "tls-extra",
@@ -376,6 +405,7 @@
         "index": {
           "description": "unencrypted cipher using RSA for key exchange and MD5 for digest",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "cipher_null_MD5",
           "package": "tls-extra",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunencrypted cipher using RSA for key exchange and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "cipher_null_SHA1",
           "package": "tls-extra",
@@ -400,6 +431,7 @@
         "index": {
           "description": "unencrypted cipher using RSA for key exchange and SHA1 for digest",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "cipher_null_SHA1",
           "package": "tls-extra",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall encrypted ciphers supported ordered from strong to weak.\n this choice of ciphersuite should satisfy most normal need\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "ciphersuite_all",
           "package": "tls-extra",
@@ -424,6 +457,7 @@
         "index": {
           "description": "all encrypted ciphers supported ordered from strong to weak this choice of ciphersuite should satisfy most normal need",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "ciphersuite_all",
           "normalized": "[Cipher]",
@@ -439,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of medium ciphers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "ciphersuite_medium",
           "package": "tls-extra",
@@ -449,6 +484,7 @@
         "index": {
           "description": "list of medium ciphers",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "ciphersuite_medium",
           "normalized": "[Cipher]",
@@ -464,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe strongest ciphers supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "ciphersuite_strong",
           "package": "tls-extra",
@@ -474,6 +511,7 @@
         "index": {
           "description": "the strongest ciphers supported",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "ciphersuite_strong",
           "normalized": "[Cipher]",
@@ -489,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall unencrypted ciphers, do not use on insecure network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "ciphersuite_unencrypted",
           "package": "tls-extra",
@@ -499,6 +538,7 @@
         "index": {
           "description": "all unencrypted ciphers do not use on insecure network",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "ciphersuite_unencrypted",
           "normalized": "[Cipher]",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003econnectionClient host port param rng\u003c/code\u003e opens a TCP client connection\n to a destination host and port description (number or name). For\n example:\n\u003c/p\u003e\u003cpre\u003e\n import Network.TLS.Extra\n import Crypto.Random.AESCtr\n ...\n   conn \u003ca\u003emakeSystem\u003c/a\u003e\u003e= connectionClient 192.168.2.2 7777 defaultParams\n\u003c/pre\u003e\u003cp\u003ewill make a new RNG (using cprng-aes) and connect to IP 192.168.2.2\n on port 7777.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "connectionClient",
           "package": "tls-extra",
@@ -524,6 +565,7 @@
         "index": {
           "description": "connectionClient host port param rng opens TCP client connection to destination host and port description number or name For example import Network.TLS.Extra import Crypto.Random.AESCtr conn makeSystem connectionClient defaultParams will make new RNG using cprng-aes and connect to IP on port",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "connectionClient",
           "normalized": "String-\u003eString-\u003eTLSParams-\u003ea-\u003eIO Context",
@@ -540,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread one X509 certificate from a file.\n\u003c/p\u003e\u003cp\u003ethe certificate must be in the usual PEM format with the\n TRUSTED CERTIFICATE or CERTIFICATE pem name.\n\u003c/p\u003e\u003cp\u003eIf no valid PEM encoded certificate is found in the file\n this function will raise an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "fileReadCertificate",
           "package": "tls-extra",
@@ -550,6 +593,7 @@
         "index": {
           "description": "read one X509 certificate from file the certificate must be in the usual PEM format with the TRUSTED CERTIFICATE or CERTIFICATE pem name If no valid PEM encoded certificate is found in the file this function will raise an error",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "fileReadCertificate",
           "normalized": "FilePath-\u003eIO X",
@@ -566,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread one private key from a file.\n\u003c/p\u003e\u003cp\u003ethe private key must be in the usual PEM format and at the moment only\n RSA PRIVATE KEY are supported.\n\u003c/p\u003e\u003cp\u003eIf no valid PEM encoded private key is found in the file\n this function will raise an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:39 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "fileReadPrivateKey",
           "package": "tls-extra",
@@ -576,6 +621,7 @@
         "index": {
           "description": "read one private key from file the private key must be in the usual PEM format and at the moment only RSA PRIVATE KEY are supported If no valid PEM encoded private key is found in the file this function will raise an error",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:39",
           "module": "Network.TLS.Extra",
           "name": "fileReadPrivateKey",
           "normalized": "FilePath-\u003eIO PrivateKey",

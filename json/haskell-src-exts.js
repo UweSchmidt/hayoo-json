@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-src-exts"
+        "phrase": "haskell-src-exts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains combinators to use when building\n Haskell source trees programmatically, as opposed to\n parsing them from a string. The contents here are quite\n experimental and will likely receive a lot of attention\n when the rest has stabilised.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "Build",
           "package": "haskell-src-exts",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains combinators to use when building Haskell source trees programmatically as opposed to parsing them from string The contents here are quite experimental and will likely receive lot of attention when the rest has stabilised",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "Build",
           "package": "haskell-src-exts",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unguarded alternative in a \u003ccode\u003ecase\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "alt",
           "package": "haskell-src-exts",
@@ -52,6 +55,7 @@
         "index": {
           "description": "An unguarded alternative in case expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "alt",
           "normalized": "a-\u003ePat a-\u003eExp a-\u003eAlt a",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternative with a single guard in a \u003ccode\u003ecase\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "altGW",
           "package": "haskell-src-exts",
@@ -77,6 +82,7 @@
         "index": {
           "description": "An alternative with single guard in case expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "altGW",
           "normalized": "a-\u003ePat a-\u003e[Stmt a]-\u003eExp a-\u003eBinds a-\u003eAlt a",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of expressions by juxtaposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "app",
           "package": "haskell-src-exts",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Application of expressions by juxtaposition",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "app",
           "normalized": "a-\u003eExp a-\u003eExp a-\u003eExp a",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to a list of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "appFun",
           "package": "haskell-src-exts",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Apply function to list of arguments",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "appFun",
           "normalized": "[a]-\u003eExp a-\u003e[Exp a]-\u003eExp a",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHoist a set of declarations to a binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "binds",
           "package": "haskell-src-exts",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Hoist set of declarations to binding group",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "binds",
           "normalized": "a-\u003e[Decl a]-\u003eBinds a",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003ecase\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "caseE",
           "package": "haskell-src-exts",
@@ -179,6 +192,7 @@
         "index": {
           "description": "case expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "caseE",
           "normalized": "a-\u003eExp a-\u003e[Alt a]-\u003eExp a",
@@ -194,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal character expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "charE",
           "package": "haskell-src-exts",
@@ -204,6 +219,7 @@
         "index": {
           "description": "literal character expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "charE",
           "normalized": "a-\u003eChar-\u003eExp a",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal character pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "charP",
           "package": "haskell-src-exts",
@@ -229,6 +246,7 @@
         "index": {
           "description": "literal character pattern",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "charP",
           "normalized": "a-\u003eChar-\u003ePat a",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA do block formed by the given statements.\n   The last statement in the list should be\n   a \u003ccode\u003e\u003ca\u003eQualifier\u003c/a\u003e\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "doE",
           "package": "haskell-src-exts",
@@ -254,6 +273,7 @@
         "index": {
           "description": "do block formed by the given statements The last statement in the list should be Qualifier expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "doE",
           "normalized": "a-\u003e[Stmt a]-\u003eExp a",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty list expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "eList",
           "package": "haskell-src-exts",
@@ -279,6 +300,7 @@
         "index": {
           "description": "The empty list expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "eList",
           "normalized": "a-\u003eExp a",
@@ -295,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function with a given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "function",
           "package": "haskell-src-exts",
@@ -305,6 +328,7 @@
         "index": {
           "description": "function with given name",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "function",
           "normalized": "a-\u003eString-\u003eExp a",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate k names by appending numbers 1 through k to a given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "genNames",
           "package": "haskell-src-exts",
@@ -330,6 +355,7 @@
         "index": {
           "description": "Generate names by appending numbers through to given string",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "genNames",
           "normalized": "a-\u003eString-\u003eInt-\u003e[Name a]",
@@ -346,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generator statement: \u003cem\u003epat\u003c/em\u003e \u003ccode\u003e\u003c-\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "genStmt",
           "package": "haskell-src-exts",
@@ -356,6 +383,7 @@
         "index": {
           "description": "generator statement pat exp",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "genStmt",
           "normalized": "a-\u003ePat a-\u003eExp a-\u003eStmt a",
@@ -372,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an operator infix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "infixApp",
           "package": "haskell-src-exts",
@@ -382,6 +411,7 @@
         "index": {
           "description": "Apply an operator infix",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "infixApp",
           "normalized": "a-\u003eExp a-\u003eQOp a-\u003eExp a-\u003eExp a",
@@ -398,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal integer expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "intE",
           "package": "haskell-src-exts",
@@ -408,6 +439,7 @@
         "index": {
           "description": "literal integer expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "intE",
           "normalized": "a-\u003eInteger-\u003eExp a",
@@ -423,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal integer pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "intP",
           "package": "haskell-src-exts",
@@ -433,6 +466,7 @@
         "index": {
           "description": "literal integer pattern",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "intP",
           "normalized": "a-\u003eInteger-\u003ePat a",
@@ -448,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLambda abstraction, given a list of argument\n   patterns and an expression body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "lamE",
           "package": "haskell-src-exts",
@@ -458,6 +493,7 @@
         "index": {
           "description": "Lambda abstraction given list of argument patterns and an expression body",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "lamE",
           "normalized": "a-\u003e[Pat a]-\u003eExp a-\u003eExp a",
@@ -473,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003elet\u003c/code\u003e ... \u003ccode\u003ein\u003c/code\u003e block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "letE",
           "package": "haskell-src-exts",
@@ -483,6 +520,7 @@
         "index": {
           "description": "let in block",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "letE",
           "normalized": "a-\u003e[Decl a]-\u003eExp a-\u003eExp a",
@@ -498,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003elet\u003c/code\u003e binding group as a statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "letStmt",
           "package": "haskell-src-exts",
@@ -508,6 +547,7 @@
         "index": {
           "description": "let binding group as statement",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "letStmt",
           "normalized": "a-\u003e[Decl a]-\u003eStmt a",
@@ -524,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "listE",
           "package": "haskell-src-exts",
@@ -534,6 +575,7 @@
         "index": {
           "description": "list expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "listE",
           "normalized": "a-\u003e[Exp a]-\u003eExp a",
@@ -549,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a constructor of a given name to a list of pattern\n   arguments, forming a constructor pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "metaConPat",
           "package": "haskell-src-exts",
@@ -559,6 +602,7 @@
         "index": {
           "description": "Apply constructor of given name to list of pattern arguments forming constructor pattern",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "metaConPat",
           "normalized": "a-\u003eString-\u003e[Pat a]-\u003ePat a",
@@ -575,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function of a given name to a list of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "metaFunction",
           "package": "haskell-src-exts",
@@ -585,6 +630,7 @@
         "index": {
           "description": "Apply function of given name to list of arguments",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "metaFunction",
           "normalized": "a-\u003eString-\u003e[Exp a]-\u003eExp a",
@@ -601,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier with the given string as its name.\n   The string should be a valid Haskell identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "name",
           "package": "haskell-src-exts",
@@ -611,6 +658,7 @@
         "index": {
           "description": "An identifier with the given string as its name The string should be valid Haskell identifier",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "name",
           "normalized": "a-\u003eString-\u003eName a",
@@ -626,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind an identifier to an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "nameBind",
           "package": "haskell-src-exts",
@@ -636,6 +685,7 @@
         "index": {
           "description": "Bind an identifier to an expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "nameBind",
           "normalized": "a-\u003eName a-\u003eExp a-\u003eDecl a",
@@ -652,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "noBinds",
           "package": "haskell-src-exts",
@@ -662,6 +713,7 @@
         "index": {
           "description": "An empty binding group",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "noBinds",
           "normalized": "a-\u003eBinds a",
@@ -678,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the given identifier as an operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "op",
           "package": "haskell-src-exts",
@@ -688,6 +741,7 @@
         "index": {
           "description": "Use the given identifier as an operator",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "op",
           "normalized": "a-\u003eName a-\u003eQOp a",
@@ -703,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor pattern, with argument patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pApp",
           "package": "haskell-src-exts",
@@ -713,6 +768,7 @@
         "index": {
           "description": "constructor pattern with argument patterns",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pApp",
           "normalized": "a-\u003eName a-\u003e[Pat a]-\u003ePat a",
@@ -729,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut parentheses around a pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pParen",
           "package": "haskell-src-exts",
@@ -739,6 +796,7 @@
         "index": {
           "description": "Put parentheses around pattern",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pParen",
           "normalized": "a-\u003ePat a-\u003ePat a",
@@ -755,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pTuple",
           "package": "haskell-src-exts",
@@ -765,6 +824,7 @@
         "index": {
           "description": "tuple pattern",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pTuple",
           "normalized": "a-\u003e[Pat a]-\u003ePat a",
@@ -781,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut parentheses around an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "paren",
           "package": "haskell-src-exts",
@@ -791,6 +852,7 @@
         "index": {
           "description": "Put parentheses around an expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "paren",
           "normalized": "a-\u003eExp a-\u003eExp a",
@@ -806,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern bind where the pattern is a variable, and where\n there are no guards and no 'where' clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "patBind",
           "package": "haskell-src-exts",
@@ -816,6 +879,7 @@
         "index": {
           "description": "pattern bind where the pattern is variable and where there are no guards and no where clause",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "patBind",
           "normalized": "a-\u003ePat a-\u003eExp a-\u003eDecl a",
@@ -832,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern bind where the pattern is a variable, and where\n there are no guards, but with a 'where' clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "patBindWhere",
           "package": "haskell-src-exts",
@@ -842,6 +907,7 @@
         "index": {
           "description": "pattern bind where the pattern is variable and where there are no guards but with where clause",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "patBindWhere",
           "normalized": "a-\u003ePat a-\u003eExp a-\u003e[Decl a]-\u003eDecl a",
@@ -858,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty list pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "peList",
           "package": "haskell-src-exts",
@@ -868,6 +935,7 @@
         "index": {
           "description": "The empty list pattern",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "peList",
           "normalized": "a-\u003ePat a",
@@ -884,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pvar",
           "package": "haskell-src-exts",
@@ -894,6 +963,7 @@
         "index": {
           "description": "pattern variable",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pvar",
           "normalized": "a-\u003eName a-\u003ePat a",
@@ -909,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple pattern consisting of variables only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pvarTuple",
           "package": "haskell-src-exts",
@@ -919,6 +990,7 @@
         "index": {
           "description": "tuple pattern consisting of variables only",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "pvarTuple",
           "normalized": "a-\u003e[Name a]-\u003ePat a",
@@ -935,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA qualifier expression statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "qualStmt",
           "package": "haskell-src-exts",
@@ -945,6 +1018,7 @@
         "index": {
           "description": "qualifier expression statement",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "qualStmt",
           "normalized": "a-\u003eExp a-\u003eStmt a",
@@ -961,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA qualified variable as expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "qvar",
           "package": "haskell-src-exts",
@@ -971,6 +1046,7 @@
         "index": {
           "description": "qualified variable as expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "qvar",
           "normalized": "a-\u003eModuleName a-\u003eName a-\u003eExp a",
@@ -986,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function with a single clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "sfun",
           "package": "haskell-src-exts",
@@ -996,6 +1073,7 @@
         "index": {
           "description": "function with single clause",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "sfun",
           "normalized": "a-\u003eName a-\u003e[Name a]-\u003eRhs a-\u003eMaybe(Binds a)-\u003eDecl a",
@@ -1011,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function with a single clause, a single argument, no guards\n and no where declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "simpleFun",
           "package": "haskell-src-exts",
@@ -1021,6 +1100,7 @@
         "index": {
           "description": "function with single clause single argument no guards and no where declarations",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "simpleFun",
           "normalized": "a-\u003eName a-\u003eName a-\u003eExp a-\u003eDecl a",
@@ -1037,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal string expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "strE",
           "package": "haskell-src-exts",
@@ -1047,6 +1128,7 @@
         "index": {
           "description": "literal string expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "strE",
           "normalized": "a-\u003eString-\u003eExp a",
@@ -1062,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal string pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "strP",
           "package": "haskell-src-exts",
@@ -1072,6 +1155,7 @@
         "index": {
           "description": "literal string pattern",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "strP",
           "normalized": "a-\u003eString-\u003ePat a",
@@ -1087,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol identifier. The string should be a valid\n   Haskell symbol identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "sym",
           "package": "haskell-src-exts",
@@ -1097,6 +1182,7 @@
         "index": {
           "description": "symbol identifier The string should be valid Haskell symbol identifier",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "sym",
           "normalized": "a-\u003eString-\u003eName a",
@@ -1112,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "tuple",
           "package": "haskell-src-exts",
@@ -1122,6 +1209,7 @@
         "index": {
           "description": "tuple expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "tuple",
           "normalized": "a-\u003e[Exp a]-\u003eExp a",
@@ -1137,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA local variable as expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "var",
           "package": "haskell-src-exts",
@@ -1147,6 +1236,7 @@
         "index": {
           "description": "local variable as expression",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "var",
           "normalized": "a-\u003eName a-\u003eExp a",
@@ -1162,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple expression consisting of variables only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "varTuple",
           "package": "haskell-src-exts",
@@ -1172,6 +1263,7 @@
         "index": {
           "description": "tuple expression consisting of variables only",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "varTuple",
           "normalized": "a-\u003e[Name a]-\u003eExp a",
@@ -1188,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe wildcard pattern: \u003ccode\u003e_\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "wildcard",
           "package": "haskell-src-exts",
@@ -1198,6 +1291,7 @@
         "index": {
           "description": "The wildcard pattern",
           "hierarchy": "Language Haskell Exts Annotated Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Build",
           "name": "wildcard",
           "normalized": "a-\u003ePat a",
@@ -1213,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExact-printer for Haskell abstract syntax. The input is a (semi-concrete)\n abstract syntax tree, annotated with exact source information to enable\n printing the tree exactly as it was parsed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.ExactPrint",
           "name": "ExactPrint",
           "package": "haskell-src-exts",
@@ -1222,6 +1317,7 @@
         "index": {
           "description": "Exact-printer for Haskell abstract syntax The input is semi-concrete abstract syntax tree annotated with exact source information to enable printing the tree exactly as it was parsed",
           "hierarchy": "Language Haskell Exts Annotated ExactPrint",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.ExactPrint",
           "name": "ExactPrint",
           "package": "haskell-src-exts",
@@ -1235,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.ExactPrint",
           "name": "ExactP",
           "package": "haskell-src-exts",
@@ -1243,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated ExactPrint",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.ExactPrint",
           "name": "ExactP",
           "package": "haskell-src-exts",
@@ -1257,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an AST exactly as specified by the annotations on the nodes in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.ExactPrint",
           "name": "exactPrint",
           "package": "haskell-src-exts",
@@ -1267,6 +1366,7 @@
         "index": {
           "description": "Print an AST exactly as specified by the annotations on the nodes in the tree",
           "hierarchy": "Language Haskell Exts Annotated ExactPrint",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.ExactPrint",
           "name": "exactPrint",
           "normalized": "a SrcSpanInfo-\u003e[Comment]-\u003eString",
@@ -1283,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFixity information to give the parser so that infix operators can\n be parsed properly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Fixity",
           "name": "Fixity",
           "package": "haskell-src-exts",
@@ -1292,6 +1393,7 @@
         "index": {
           "description": "Fixity information to give the parser so that infix operators can be parsed properly",
           "hierarchy": "Language Haskell Exts Annotated Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Fixity",
           "name": "Fixity",
           "package": "haskell-src-exts",
@@ -1306,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll AST elements that may include expressions which in turn may\n   need fixity tweaking will be instances of this class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Fixity",
           "name": "AppFixity",
           "package": "haskell-src-exts",
@@ -1315,6 +1418,7 @@
         "index": {
           "description": "All AST elements that may include expressions which in turn may need fixity tweaking will be instances of this class",
           "hierarchy": "Language Haskell Exts Annotated Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Fixity",
           "name": "AppFixity",
           "package": "haskell-src-exts",
@@ -1329,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator fixities are represented by their associativity\n   (left, right or none) and their precedence (0-9).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Fixity",
           "name": "Fixity",
           "package": "haskell-src-exts",
@@ -1338,6 +1443,7 @@
         "index": {
           "description": "Operator fixities are represented by their associativity left right or none and their precedence",
           "hierarchy": "Language Haskell Exts Annotated Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Fixity",
           "name": "Fixity",
           "package": "haskell-src-exts",
@@ -1375,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTweak any expressions in the element to account for the\n   fixities given. Assumes that all operator expressions are\n   fully left associative chains to begin with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Fixity",
           "name": "applyFixities",
           "package": "haskell-src-exts",
@@ -1385,6 +1492,7 @@
         "index": {
           "description": "Tweak any expressions in the element to account for the fixities given Assumes that all operator expressions are fully left associative chains to begin with",
           "hierarchy": "Language Haskell Exts Annotated Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Fixity",
           "name": "applyFixities",
           "package": "haskell-src-exts",
@@ -1525,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains code for translating from the annotated\n complex AST in Language.Haskell.Exts.Annotated.Syntax\n to the simpler, sparsely annotated AST in Language.Haskell.Exts.Syntax.\n\u003c/p\u003e\u003cp\u003eA function \u003ccode\u003esXYZ\u003c/code\u003e translates an annotated AST node of type \u003ccode\u003eXYZ l\u003c/code\u003e into\n a simple AST node of type \u003ccode\u003eXYZ\u003c/code\u003e. I would have prefered to use a MPTC\n with an fd/type family to get a single exported function name, but\n I wish to stay Haskell 2010 compliant. Let's hope for Haskell 2011.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "Simplify",
           "package": "haskell-src-exts",
@@ -1534,6 +1643,7 @@
         "index": {
           "description": "This module contains code for translating from the annotated complex AST in Language.Haskell.Exts.Annotated.Syntax to the simpler sparsely annotated AST in Language.Haskell.Exts.Syntax function sXYZ translates an annotated AST node of type XYZ into simple AST node of type XYZ would have prefered to use MPTC with an fd type family to get single exported function name but wish to stay Haskell compliant Let hope for Haskell",
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "Simplify",
           "package": "haskell-src-exts",
@@ -1547,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sActivation",
           "package": "haskell-src-exts",
@@ -1556,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sActivation",
           "normalized": "Activation a-\u003eActivation",
@@ -1571,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sAlt",
           "package": "haskell-src-exts",
@@ -1580,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sAlt",
           "normalized": "Alt a-\u003eAlt",
@@ -1595,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sAnnotation",
           "package": "haskell-src-exts",
@@ -1604,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sAnnotation",
           "normalized": "Annotation a-\u003eAnnotation",
@@ -1619,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sAssoc",
           "package": "haskell-src-exts",
@@ -1628,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sAssoc",
           "normalized": "Assoc a-\u003eAssoc",
@@ -1643,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sAsst",
           "package": "haskell-src-exts",
@@ -1652,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sAsst",
           "normalized": "Asst a-\u003eAsst",
@@ -1667,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sBangType",
           "package": "haskell-src-exts",
@@ -1676,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sBangType",
           "normalized": "BangType a-\u003eBangType",
@@ -1691,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sBinds",
           "package": "haskell-src-exts",
@@ -1700,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sBinds",
           "normalized": "Binds a-\u003eBinds",
@@ -1715,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sBracket",
           "package": "haskell-src-exts",
@@ -1724,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sBracket",
           "normalized": "Bracket a-\u003eBracket",
@@ -1739,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sCName",
           "package": "haskell-src-exts",
@@ -1748,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sCName",
           "normalized": "CName a-\u003eCName",
@@ -1763,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sCallConv",
           "package": "haskell-src-exts",
@@ -1772,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sCallConv",
           "normalized": "CallConv a-\u003eCallConv",
@@ -1787,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sClassDecl",
           "package": "haskell-src-exts",
@@ -1796,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sClassDecl",
           "normalized": "ClassDecl a-\u003eClassDecl",
@@ -1811,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sConDecl",
           "package": "haskell-src-exts",
@@ -1820,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sConDecl",
           "normalized": "ConDecl a-\u003eConDecl",
@@ -1835,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sContext",
           "package": "haskell-src-exts",
@@ -1844,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sContext",
           "normalized": "Context a-\u003eContext",
@@ -1859,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sDataOrNew",
           "package": "haskell-src-exts",
@@ -1868,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sDataOrNew",
           "normalized": "DataOrNew a-\u003eDataOrNew",
@@ -1884,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an annotated AST node representing a Haskell declaration\n   into a simpler version. Note that in the simpler version, all declaration\n   nodes are still annotated by \u003ccode\u003e\u003ca\u003eSrcLoc\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sDecl",
           "package": "haskell-src-exts",
@@ -1894,6 +2033,7 @@
         "index": {
           "description": "Translate an annotated AST node representing Haskell declaration into simpler version Note that in the simpler version all declaration nodes are still annotated by SrcLoc",
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sDecl",
           "normalized": "Decl a-\u003eDecl",
@@ -1909,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sDeclHead",
           "package": "haskell-src-exts",
@@ -1918,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sDeclHead",
           "normalized": "DeclHead a-\u003e(Name,[TyVarBind])",
@@ -1933,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sDeriving",
           "package": "haskell-src-exts",
@@ -1942,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sDeriving",
           "normalized": "Deriving a-\u003e[(QName,[Type])]",
@@ -1957,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sExp",
           "package": "haskell-src-exts",
@@ -1966,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sExp",
           "normalized": "Exp a-\u003eExp",
@@ -1981,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sExportSpec",
           "package": "haskell-src-exts",
@@ -1990,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sExportSpec",
           "normalized": "ExportSpec a-\u003eExportSpec",
@@ -2005,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sExportSpecList",
           "package": "haskell-src-exts",
@@ -2014,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sExportSpecList",
           "normalized": "ExportSpecList a-\u003e[ExportSpec]",
@@ -2029,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sFieldDecl",
           "package": "haskell-src-exts",
@@ -2038,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sFieldDecl",
           "normalized": "FieldDecl a-\u003e([Name],BangType)",
@@ -2053,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sFieldUpdate",
           "package": "haskell-src-exts",
@@ -2062,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sFieldUpdate",
           "normalized": "FieldUpdate a-\u003eFieldUpdate",
@@ -2077,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sFunDep",
           "package": "haskell-src-exts",
@@ -2086,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sFunDep",
           "normalized": "FunDep a-\u003eFunDep",
@@ -2101,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sGadtDecl",
           "package": "haskell-src-exts",
@@ -2110,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sGadtDecl",
           "normalized": "GadtDecl a-\u003eGadtDecl",
@@ -2125,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sGuardedAlt",
           "package": "haskell-src-exts",
@@ -2134,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sGuardedAlt",
           "normalized": "GuardedAlt a-\u003eGuardedAlt",
@@ -2149,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sGuardedAlts",
           "package": "haskell-src-exts",
@@ -2158,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sGuardedAlts",
           "normalized": "GuardedAlts a-\u003eGuardedAlts",
@@ -2173,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sGuardedRhs",
           "package": "haskell-src-exts",
@@ -2182,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sGuardedRhs",
           "normalized": "GuardedRhs a-\u003eGuardedRhs",
@@ -2197,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sIPBind",
           "package": "haskell-src-exts",
@@ -2206,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sIPBind",
           "normalized": "IPBind a-\u003eIPBind",
@@ -2221,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sIPName",
           "package": "haskell-src-exts",
@@ -2230,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sIPName",
           "normalized": "IPName a-\u003eIPName",
@@ -2245,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sImportDecl",
           "package": "haskell-src-exts",
@@ -2254,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sImportDecl",
           "normalized": "ImportDecl a-\u003eImportDecl",
@@ -2269,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sImportSpec",
           "package": "haskell-src-exts",
@@ -2278,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sImportSpec",
           "normalized": "ImportSpec a-\u003eImportSpec",
@@ -2293,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sImportSpecList",
           "package": "haskell-src-exts",
@@ -2302,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sImportSpecList",
           "normalized": "ImportSpecList a-\u003e(Bool,[ImportSpec])",
@@ -2317,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sInstDecl",
           "package": "haskell-src-exts",
@@ -2326,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sInstDecl",
           "normalized": "InstDecl a-\u003eInstDecl",
@@ -2341,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sInstHead",
           "package": "haskell-src-exts",
@@ -2350,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sInstHead",
           "normalized": "InstHead a-\u003e(QName,[Type])",
@@ -2365,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sKind",
           "package": "haskell-src-exts",
@@ -2374,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sKind",
           "normalized": "Kind a-\u003eKind",
@@ -2389,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sLiteral",
           "package": "haskell-src-exts",
@@ -2398,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sLiteral",
           "normalized": "Literal a-\u003eLiteral",
@@ -2413,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sMatch",
           "package": "haskell-src-exts",
@@ -2422,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sMatch",
           "normalized": "Match a-\u003eMatch",
@@ -2438,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an annotated AST node representing a Haskell module, into\n   a simpler version that retains (almost) only abstract information.\n   In particular, XML and hybrid XML pages enabled by the XmlSyntax extension\n   are translated into standard Haskell modules with a \u003ccode\u003epage\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sModule",
           "package": "haskell-src-exts",
@@ -2448,6 +2633,7 @@
         "index": {
           "description": "Translate an annotated AST node representing Haskell module into simpler version that retains almost only abstract information In particular XML and hybrid XML pages enabled by the XmlSyntax extension are translated into standard Haskell modules with page function",
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sModule",
           "normalized": "Module a-\u003eModule",
@@ -2463,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sModuleHead",
           "package": "haskell-src-exts",
@@ -2472,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sModuleHead",
           "normalized": "Maybe(ModuleHead a)-\u003e(ModuleName,Maybe WarningText,Maybe[ExportSpec])",
@@ -2487,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sModuleName",
           "package": "haskell-src-exts",
@@ -2496,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sModuleName",
           "normalized": "ModuleName a-\u003eModuleName",
@@ -2511,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sModulePragma",
           "package": "haskell-src-exts",
@@ -2520,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sModulePragma",
           "normalized": "ModulePragma a-\u003eModulePragma",
@@ -2535,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sName",
           "package": "haskell-src-exts",
@@ -2544,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sName",
           "normalized": "Name a-\u003eName",
@@ -2559,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sOp",
           "package": "haskell-src-exts",
@@ -2568,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sOp",
           "normalized": "Op a-\u003eOp",
@@ -2583,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sPXAttr",
           "package": "haskell-src-exts",
@@ -2592,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sPXAttr",
           "normalized": "PXAttr a-\u003ePXAttr",
@@ -2607,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sPat",
           "package": "haskell-src-exts",
@@ -2616,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sPat",
           "normalized": "Pat a-\u003ePat",
@@ -2631,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sPatField",
           "package": "haskell-src-exts",
@@ -2640,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sPatField",
           "normalized": "PatField a-\u003ePatField",
@@ -2655,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sQName",
           "package": "haskell-src-exts",
@@ -2664,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sQName",
           "normalized": "QName a-\u003eQName",
@@ -2679,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sQOp",
           "package": "haskell-src-exts",
@@ -2688,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sQOp",
           "normalized": "QOp a-\u003eQOp",
@@ -2703,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sQualConDecl",
           "package": "haskell-src-exts",
@@ -2712,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sQualConDecl",
           "normalized": "QualConDecl a-\u003eQualConDecl",
@@ -2727,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sQualStmt",
           "package": "haskell-src-exts",
@@ -2736,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sQualStmt",
           "normalized": "QualStmt a-\u003eQualStmt",
@@ -2751,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRPat",
           "package": "haskell-src-exts",
@@ -2760,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRPat",
           "normalized": "RPat a-\u003eRPat",
@@ -2775,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRPatOp",
           "package": "haskell-src-exts",
@@ -2784,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRPatOp",
           "normalized": "RPatOp a-\u003eRPatOp",
@@ -2799,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRhs",
           "package": "haskell-src-exts",
@@ -2808,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRhs",
           "normalized": "Rhs a-\u003eRhs",
@@ -2823,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRule",
           "package": "haskell-src-exts",
@@ -2832,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRule",
           "normalized": "Rule a-\u003eRule",
@@ -2847,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRuleVar",
           "package": "haskell-src-exts",
@@ -2856,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sRuleVar",
           "normalized": "RuleVar a-\u003eRuleVar",
@@ -2871,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sSafety",
           "package": "haskell-src-exts",
@@ -2880,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sSafety",
           "normalized": "Safety a-\u003eSafety",
@@ -2895,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sSpecialCon",
           "package": "haskell-src-exts",
@@ -2904,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sSpecialCon",
           "normalized": "SpecialCon a-\u003eSpecialCon",
@@ -2919,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sSplice",
           "package": "haskell-src-exts",
@@ -2928,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sSplice",
           "normalized": "Splice a-\u003eSplice",
@@ -2943,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sStmt",
           "package": "haskell-src-exts",
@@ -2952,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sStmt",
           "normalized": "Stmt a-\u003eStmt",
@@ -2967,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sTyVarBind",
           "package": "haskell-src-exts",
@@ -2976,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sTyVarBind",
           "normalized": "TyVarBind a-\u003eTyVarBind",
@@ -2991,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sType",
           "package": "haskell-src-exts",
@@ -3000,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sType",
           "normalized": "Type a-\u003eType",
@@ -3015,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sWarningText",
           "package": "haskell-src-exts",
@@ -3024,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sWarningText",
           "normalized": "WarningText a-\u003eWarningText",
@@ -3039,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sXAttr",
           "package": "haskell-src-exts",
@@ -3048,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sXAttr",
           "normalized": "XAttr a-\u003eXAttr",
@@ -3063,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sXName",
           "package": "haskell-src-exts",
@@ -3072,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Simplify",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Simplify",
           "name": "sXName",
           "normalized": "XName a-\u003eXName",
@@ -3088,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA suite of datatypes describing the (semi-concrete) abstract syntax of Haskell 98\n \u003ca\u003ehttp://www.haskell.org/onlinereport/\u003c/a\u003e plus registered extensions, including:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e multi-parameter type classes with functional dependencies (MultiParamTypeClasses, FunctionalDependencies)\n\u003c/li\u003e\u003cli\u003e parameters of type class assertions are unrestricted (FlexibleContexts)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eforall\u003c/code\u003e types as universal and existential quantification (RankNTypes, ExistentialQuantification, etc)\n\u003c/li\u003e\u003cli\u003e pattern guards (PatternGuards)\n\u003c/li\u003e\u003cli\u003e implicit parameters (ImplicitParameters)\n\u003c/li\u003e\u003cli\u003e generalised algebraic data types (GADTs)\n\u003c/li\u003e\u003cli\u003e template haskell (TemplateHaskell)\n\u003c/li\u003e\u003cli\u003e empty data type declarations (EmptyDataDecls)\n\u003c/li\u003e\u003cli\u003e unboxed tuples (UnboxedTuples)\n\u003c/li\u003e\u003cli\u003e regular patterns (RegularPatterns)\n\u003c/li\u003e\u003cli\u003e HSP-style XML expressions and patterns (XmlSyntax)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAll nodes in the syntax tree are annotated with something of a user-definable data type.\n When parsing, this annotation will contain information about the source location that the\n particular node comes from.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Syntax",
           "package": "haskell-src-exts",
@@ -3097,6 +3336,7 @@
         "index": {
           "description": "suite of datatypes describing the semi-concrete abstract syntax of Haskell http www.haskell.org onlinereport plus registered extensions including multi-parameter type classes with functional dependencies MultiParamTypeClasses FunctionalDependencies parameters of type class assertions are unrestricted FlexibleContexts forall types as universal and existential quantification RankNTypes ExistentialQuantification etc pattern guards PatternGuards implicit parameters ImplicitParameters generalised algebraic data types GADTs template haskell TemplateHaskell empty data type declarations EmptyDataDecls unboxed tuples UnboxedTuples regular patterns RegularPatterns HSP-style XML expressions and patterns XmlSyntax All nodes in the syntax tree are annotated with something of user-definable data type When parsing this annotation will contain information about the source location that the particular node comes from",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Syntax",
           "package": "haskell-src-exts",
@@ -3111,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivation clause of a RULES pragma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Activation",
           "package": "haskell-src-exts",
@@ -3120,6 +3361,7 @@
         "index": {
           "description": "Activation clause of RULES pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Activation",
           "package": "haskell-src-exts",
@@ -3134,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003ealt\u003c/em\u003e alternative in a \u003ccode\u003ecase\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Alt",
           "package": "haskell-src-exts",
@@ -3143,6 +3386,7 @@
         "index": {
           "description": "An alt alternative in case expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Alt",
           "package": "haskell-src-exts",
@@ -3157,6 +3401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAST nodes are annotated, and this class allows manipulation of the annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Annotated",
           "package": "haskell-src-exts",
@@ -3166,6 +3411,7 @@
         "index": {
           "description": "AST nodes are annotated and this class allows manipulation of the annotations",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Annotated",
           "package": "haskell-src-exts",
@@ -3180,6 +3426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation through an ANN pragma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Annotation",
           "package": "haskell-src-exts",
@@ -3189,6 +3436,7 @@
         "index": {
           "description": "An annotation through an ANN pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Annotation",
           "package": "haskell-src-exts",
@@ -3203,6 +3451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociativity of an operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Assoc",
           "package": "haskell-src-exts",
@@ -3212,6 +3461,7 @@
         "index": {
           "description": "Associativity of an operator",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Assoc",
           "package": "haskell-src-exts",
@@ -3226,6 +3476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass assertions.\n   In Haskell 98, the argument would be a \u003cem\u003etyvar\u003c/em\u003e, but this definition\n   allows multiple parameters, and allows them to be \u003cem\u003etype\u003c/em\u003es.\n   Also extended with support for implicit parameters and equality constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Asst",
           "package": "haskell-src-exts",
@@ -3235,6 +3486,7 @@
         "index": {
           "description": "Class assertions In Haskell the argument would be tyvar but this definition allows multiple parameters and allows them to be type Also extended with support for implicit parameters and equality constraints",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Asst",
           "package": "haskell-src-exts",
@@ -3249,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a constructor argument or field, optionally including\n   a strictness annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "BangType",
           "package": "haskell-src-exts",
@@ -3258,6 +3511,7 @@
         "index": {
           "description": "The type of constructor argument or field optionally including strictness annotation",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "BangType",
           "package": "haskell-src-exts",
@@ -3272,6 +3526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binding group inside a \u003ccode\u003elet\u003c/code\u003e or \u003ccode\u003ewhere\u003c/code\u003e clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Binds",
           "package": "haskell-src-exts",
@@ -3281,6 +3536,7 @@
         "index": {
           "description": "binding group inside let or where clause",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Binds",
           "package": "haskell-src-exts",
@@ -3295,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlag denoting whether a tuple is boxed or unboxed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Boxed",
           "package": "haskell-src-exts",
@@ -3304,6 +3561,7 @@
         "index": {
           "description": "Flag denoting whether tuple is boxed or unboxed",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Boxed",
           "package": "haskell-src-exts",
@@ -3318,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA template haskell bracket expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Bracket",
           "package": "haskell-src-exts",
@@ -3327,6 +3586,7 @@
         "index": {
           "description": "template haskell bracket expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Bracket",
           "package": "haskell-src-exts",
@@ -3341,6 +3601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name (\u003cem\u003ecname\u003c/em\u003e) of a component of a class or data type in an \u003ccode\u003eimport\u003c/code\u003e\n or export specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CName",
           "package": "haskell-src-exts",
@@ -3350,6 +3611,7 @@
         "index": {
           "description": "name cname of component of class or data type in an import or export specification",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CName",
           "package": "haskell-src-exts",
@@ -3364,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe calling convention of a foreign function call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CallConv",
           "package": "haskell-src-exts",
@@ -3373,6 +3636,7 @@
         "index": {
           "description": "The calling convention of foreign function call",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CallConv",
           "package": "haskell-src-exts",
@@ -3387,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations inside a class declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClassDecl",
           "package": "haskell-src-exts",
@@ -3396,6 +3661,7 @@
         "index": {
           "description": "Declarations inside class declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClassDecl",
           "package": "haskell-src-exts",
@@ -3410,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclaration of an ordinary data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ConDecl",
           "package": "haskell-src-exts",
@@ -3419,6 +3686,7 @@
         "index": {
           "description": "Declaration of an ordinary data constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ConDecl",
           "package": "haskell-src-exts",
@@ -3433,6 +3701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context is a set of assertions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Context",
           "package": "haskell-src-exts",
@@ -3442,6 +3711,7 @@
         "index": {
           "description": "context is set of assertions",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Context",
           "package": "haskell-src-exts",
@@ -3456,6 +3726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA flag stating whether a declaration is a data or newtype declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataOrNew",
           "package": "haskell-src-exts",
@@ -3465,6 +3736,7 @@
         "index": {
           "description": "flag stating whether declaration is data or newtype declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataOrNew",
           "package": "haskell-src-exts",
@@ -3479,6 +3751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA top-level declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Decl",
           "package": "haskell-src-exts",
@@ -3488,6 +3761,7 @@
         "index": {
           "description": "top-level declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Decl",
           "package": "haskell-src-exts",
@@ -3502,6 +3776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head of a type or class declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DeclHead",
           "package": "haskell-src-exts",
@@ -3511,6 +3786,7 @@
         "index": {
           "description": "The head of type or class declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DeclHead",
           "package": "haskell-src-exts",
@@ -3525,6 +3801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA deriving clause following a data type declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Deriving",
           "package": "haskell-src-exts",
@@ -3534,6 +3811,7 @@
         "index": {
           "description": "deriving clause following data type declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Deriving",
           "package": "haskell-src-exts",
@@ -3548,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Exp",
           "package": "haskell-src-exts",
@@ -3557,6 +3836,7 @@
         "index": {
           "description": "Haskell expressions",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Exp",
           "package": "haskell-src-exts",
@@ -3571,6 +3851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn item in a module's export specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExportSpec",
           "package": "haskell-src-exts",
@@ -3580,6 +3861,7 @@
         "index": {
           "description": "An item in module export specification",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExportSpec",
           "package": "haskell-src-exts",
@@ -3594,6 +3876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicit export specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExportSpecList",
           "package": "haskell-src-exts",
@@ -3603,6 +3886,7 @@
         "index": {
           "description": "An explicit export specification",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExportSpecList",
           "package": "haskell-src-exts",
@@ -3617,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclaration of a (list of) named field(s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldDecl",
           "package": "haskell-src-exts",
@@ -3626,6 +3911,7 @@
         "index": {
           "description": "Declaration of list of named field",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldDecl",
           "package": "haskell-src-exts",
@@ -3640,6 +3926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003efbind\u003c/em\u003e in a labeled construction or update expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldUpdate",
           "package": "haskell-src-exts",
@@ -3649,6 +3936,7 @@
         "index": {
           "description": "An fbind in labeled construction or update expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldUpdate",
           "package": "haskell-src-exts",
@@ -3663,6 +3951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functional dependency, given on the form\n   l1 l2 ... ln -\u003e r2 r3 .. rn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FunDep",
           "package": "haskell-src-exts",
@@ -3672,6 +3961,7 @@
         "index": {
           "description": "functional dependency given on the form l1 l2 ln r2 r3 rn",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FunDep",
           "package": "haskell-src-exts",
@@ -3686,6 +3976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single constructor declaration in a GADT data type declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GadtDecl",
           "package": "haskell-src-exts",
@@ -3695,6 +3986,7 @@
         "index": {
           "description": "single constructor declaration in GADT data type declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GadtDecl",
           "package": "haskell-src-exts",
@@ -3709,6 +4001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA guarded case alternative \u003ccode\u003e|\u003c/code\u003e \u003cem\u003estmts\u003c/em\u003e \u003ccode\u003e-\u003e\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedAlt",
           "package": "haskell-src-exts",
@@ -3718,6 +4011,7 @@
         "index": {
           "description": "guarded case alternative stmts exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedAlt",
           "package": "haskell-src-exts",
@@ -3732,6 +4026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right-hand sides of a \u003ccode\u003ecase\u003c/code\u003e alternative,\n   which may be a single right-hand side or a\n   set of guarded ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedAlts",
           "package": "haskell-src-exts",
@@ -3741,6 +4036,7 @@
         "index": {
           "description": "The right-hand sides of case alternative which may be single right-hand side or set of guarded ones",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedAlts",
           "package": "haskell-src-exts",
@@ -3755,6 +4051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA guarded right hand side \u003ccode\u003e|\u003c/code\u003e \u003cem\u003estmts\u003c/em\u003e \u003ccode\u003e=\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e.\n   The guard is a series of statements when using pattern guards,\n   otherwise it will be a single qualifier expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedRhs",
           "package": "haskell-src-exts",
@@ -3764,6 +4061,7 @@
         "index": {
           "description": "guarded right hand side stmts exp The guard is series of statements when using pattern guards otherwise it will be single qualifier expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedRhs",
           "package": "haskell-src-exts",
@@ -3778,6 +4076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binding of an implicit parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPBind",
           "package": "haskell-src-exts",
@@ -3787,6 +4086,7 @@
         "index": {
           "description": "binding of an implicit parameter",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPBind",
           "package": "haskell-src-exts",
@@ -3801,6 +4101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn implicit parameter name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPName",
           "package": "haskell-src-exts",
@@ -3810,6 +4111,7 @@
         "index": {
           "description": "An implicit parameter name",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPName",
           "package": "haskell-src-exts",
@@ -3824,6 +4126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn import declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportDecl",
           "package": "haskell-src-exts",
@@ -3833,6 +4136,7 @@
         "index": {
           "description": "An import declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportDecl",
           "package": "haskell-src-exts",
@@ -3847,6 +4151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn import specification, representing a single explicit item imported\n   (or hidden) from a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportSpec",
           "package": "haskell-src-exts",
@@ -3856,6 +4161,7 @@
         "index": {
           "description": "An import specification representing single explicit item imported or hidden from module",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportSpec",
           "package": "haskell-src-exts",
@@ -3870,6 +4176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicit import specification list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportSpecList",
           "package": "haskell-src-exts",
@@ -3879,6 +4186,7 @@
         "index": {
           "description": "An explicit import specification list",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportSpecList",
           "package": "haskell-src-exts",
@@ -3893,6 +4201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations inside an instance declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InstDecl",
           "package": "haskell-src-exts",
@@ -3902,6 +4211,7 @@
         "index": {
           "description": "Declarations inside an instance declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InstDecl",
           "package": "haskell-src-exts",
@@ -3916,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head of an instance declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InstHead",
           "package": "haskell-src-exts",
@@ -3925,6 +4236,7 @@
         "index": {
           "description": "The head of an instance declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InstHead",
           "package": "haskell-src-exts",
@@ -3939,6 +4251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicit kind annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Kind",
           "package": "haskell-src-exts",
@@ -3948,6 +4261,7 @@
         "index": {
           "description": "An explicit kind annotation",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Kind",
           "package": "haskell-src-exts",
@@ -3962,6 +4276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eliteral\u003c/em\u003e\n Values of this type hold the abstract value of the literal, along with the\n precise string representation used.  For example, \u003ccode\u003e10\u003c/code\u003e, \u003ccode\u003e0o12\u003c/code\u003e and \u003ccode\u003e0xa\u003c/code\u003e\n have the same value representation, but each carry a different string representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Literal",
           "package": "haskell-src-exts",
@@ -3971,6 +4286,7 @@
         "index": {
           "description": "literal Values of this type hold the abstract value of the literal along with the precise string representation used For example o12 and xa have the same value representation but each carry different string representation",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Literal",
           "package": "haskell-src-exts",
@@ -3985,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClauses of a function binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Match",
           "package": "haskell-src-exts",
@@ -3994,6 +4311,7 @@
         "index": {
           "description": "Clauses of function binding",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Match",
           "package": "haskell-src-exts",
@@ -4008,6 +4326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete Haskell source module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Module",
           "package": "haskell-src-exts",
@@ -4017,6 +4336,7 @@
         "index": {
           "description": "complete Haskell source module",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Module",
           "package": "haskell-src-exts",
@@ -4031,6 +4351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head of a module, including the name and export specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleHead",
           "package": "haskell-src-exts",
@@ -4040,6 +4361,7 @@
         "index": {
           "description": "The head of module including the name and export specification",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleHead",
           "package": "haskell-src-exts",
@@ -4054,6 +4376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a Haskell module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleName",
           "package": "haskell-src-exts",
@@ -4063,6 +4386,7 @@
         "index": {
           "description": "The name of Haskell module",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleName",
           "package": "haskell-src-exts",
@@ -4077,6 +4401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA top level options pragma, preceding the module header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModulePragma",
           "package": "haskell-src-exts",
@@ -4086,6 +4411,7 @@
         "index": {
           "description": "top level options pragma preceding the module header",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModulePragma",
           "package": "haskell-src-exts",
@@ -4100,6 +4426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent variables, and also constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Name",
           "package": "haskell-src-exts",
@@ -4109,6 +4436,7 @@
         "index": {
           "description": "This type is used to represent variables and also constructors",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Name",
           "package": "haskell-src-exts",
@@ -4123,6 +4451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperators appearing in \u003ccode\u003einfix\u003c/code\u003e declarations are never qualified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Op",
           "package": "haskell-src-exts",
@@ -4132,6 +4461,7 @@
         "index": {
           "description": "Operators appearing in infix declarations are never qualified",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Op",
           "package": "haskell-src-exts",
@@ -4146,6 +4476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML attribute in a pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXAttr",
           "package": "haskell-src-exts",
@@ -4155,6 +4486,7 @@
         "index": {
           "description": "An XML attribute in pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXAttr",
           "package": "haskell-src-exts",
@@ -4169,6 +4501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern, to be matched against a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Pat",
           "package": "haskell-src-exts",
@@ -4178,6 +4511,7 @@
         "index": {
           "description": "pattern to be matched against value",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Pat",
           "package": "haskell-src-exts",
@@ -4192,6 +4526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003efpat\u003c/em\u003e in a labeled record pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PatField",
           "package": "haskell-src-exts",
@@ -4201,6 +4536,7 @@
         "index": {
           "description": "An fpat in labeled record pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PatField",
           "package": "haskell-src-exts",
@@ -4215,6 +4551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent qualified variables, and also\n qualified constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QName",
           "package": "haskell-src-exts",
@@ -4224,6 +4561,7 @@
         "index": {
           "description": "This type is used to represent qualified variables and also qualified constructors",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QName",
           "package": "haskell-src-exts",
@@ -4238,6 +4576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly qualified infix operators (\u003cem\u003eqop\u003c/em\u003e), appearing in expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QOp",
           "package": "haskell-src-exts",
@@ -4247,6 +4586,7 @@
         "index": {
           "description": "Possibly qualified infix operators qop appearing in expressions",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QOp",
           "package": "haskell-src-exts",
@@ -4261,6 +4601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single constructor declaration within a data type declaration,\n   which may have an existential quantification binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QualConDecl",
           "package": "haskell-src-exts",
@@ -4270,6 +4611,7 @@
         "index": {
           "description": "single constructor declaration within data type declaration which may have an existential quantification binding",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QualConDecl",
           "package": "haskell-src-exts",
@@ -4284,6 +4626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general \u003cem\u003etransqual\u003c/em\u003e in a list comprehension,\n   which could potentially be a transform of the kind\n   enabled by TransformListComp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QualStmt",
           "package": "haskell-src-exts",
@@ -4293,6 +4636,7 @@
         "index": {
           "description": "general transqual in list comprehension which could potentially be transform of the kind enabled by TransformListComp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QualStmt",
           "package": "haskell-src-exts",
@@ -4307,6 +4651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity in a regular pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPat",
           "package": "haskell-src-exts",
@@ -4316,6 +4661,7 @@
         "index": {
           "description": "An entity in regular pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPat",
           "package": "haskell-src-exts",
@@ -4330,6 +4676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular pattern operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPatOp",
           "package": "haskell-src-exts",
@@ -4339,6 +4686,7 @@
         "index": {
           "description": "regular pattern operator",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPatOp",
           "package": "haskell-src-exts",
@@ -4353,6 +4701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right hand side of a function or pattern binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Rhs",
           "package": "haskell-src-exts",
@@ -4362,6 +4711,7 @@
         "index": {
           "description": "The right hand side of function or pattern binding",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Rhs",
           "package": "haskell-src-exts",
@@ -4376,6 +4726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe body of a RULES pragma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Rule",
           "package": "haskell-src-exts",
@@ -4385,6 +4736,7 @@
         "index": {
           "description": "The body of RULES pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Rule",
           "package": "haskell-src-exts",
@@ -4399,6 +4751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables used in a RULES pragma, optionally annotated with types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RuleVar",
           "package": "haskell-src-exts",
@@ -4408,6 +4761,7 @@
         "index": {
           "description": "Variables used in RULES pragma optionally annotated with types",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RuleVar",
           "package": "haskell-src-exts",
@@ -4422,6 +4776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe safety of a foreign function call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Safety",
           "package": "haskell-src-exts",
@@ -4431,6 +4786,7 @@
         "index": {
           "description": "The safety of foreign function call",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Safety",
           "package": "haskell-src-exts",
@@ -4445,6 +4801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructors with special syntax.\n These names are never qualified, and always refer to builtin type or\n data constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpecialCon",
           "package": "haskell-src-exts",
@@ -4454,6 +4811,7 @@
         "index": {
           "description": "Constructors with special syntax These names are never qualified and always refer to builtin type or data constructors",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpecialCon",
           "package": "haskell-src-exts",
@@ -4468,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA template haskell splice expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Splice",
           "package": "haskell-src-exts",
@@ -4477,6 +4836,7 @@
         "index": {
           "description": "template haskell splice expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Splice",
           "package": "haskell-src-exts",
@@ -4491,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA statement, representing both a \u003cem\u003estmt\u003c/em\u003e in a \u003ccode\u003edo\u003c/code\u003e-expression,\n   an ordinary \u003cem\u003equal\u003c/em\u003e in a list comprehension, as well as a \u003cem\u003estmt\u003c/em\u003e\n   in a pattern guard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Stmt",
           "package": "haskell-src-exts",
@@ -4500,6 +4861,7 @@
         "index": {
           "description": "statement representing both stmt in do expression an ordinary qual in list comprehension as well as stmt in pattern guard",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Stmt",
           "package": "haskell-src-exts",
@@ -4514,6 +4876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecognised tools for OPTIONS pragmas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Tool",
           "package": "haskell-src-exts",
@@ -4523,6 +4886,7 @@
         "index": {
           "description": "Recognised tools for OPTIONS pragmas",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Tool",
           "package": "haskell-src-exts",
@@ -4537,6 +4901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type variable declaration, optionally with an explicit kind annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyVarBind",
           "package": "haskell-src-exts",
@@ -4546,6 +4911,7 @@
         "index": {
           "description": "type variable declaration optionally with an explicit kind annotation",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyVarBind",
           "package": "haskell-src-exts",
@@ -4560,6 +4926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type qualified with a context.\n   An unqualified type has an empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Type",
           "package": "haskell-src-exts",
@@ -4569,6 +4936,7 @@
         "index": {
           "description": "type qualified with context An unqualified type has an empty context",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Type",
           "package": "haskell-src-exts",
@@ -4583,6 +4951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning text to optionally use in the module header of e.g.\n   a deprecated module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "WarningText",
           "package": "haskell-src-exts",
@@ -4592,6 +4961,7 @@
         "index": {
           "description": "Warning text to optionally use in the module header of e.g deprecated module",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "WarningText",
           "package": "haskell-src-exts",
@@ -4606,6 +4976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn xml attribute, which is a name-expression pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XAttr",
           "package": "haskell-src-exts",
@@ -4615,6 +4986,7 @@
         "index": {
           "description": "An xml attribute which is name-expression pair",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XAttr",
           "package": "haskell-src-exts",
@@ -4629,6 +5001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of an xml element or attribute,\n   possibly qualified with a namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XName",
           "package": "haskell-src-exts",
@@ -4638,6 +5011,7 @@
         "index": {
           "description": "The name of an xml element or attribute possibly qualified with namespace",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XName",
           "package": "haskell-src-exts",
@@ -4652,6 +5026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if two AST elements are equal modulo annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "(=~=)",
           "package": "haskell-src-exts",
@@ -4662,6 +5037,7 @@
         "index": {
           "description": "Test if two AST elements are equal modulo annotations",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "(=~=) =~=",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -4676,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ActiveFrom",
           "package": "haskell-src-exts",
@@ -4685,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ActiveFrom",
           "package": "haskell-src-exts",
@@ -4698,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ActiveUntil",
           "package": "haskell-src-exts",
@@ -4707,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ActiveUntil",
           "package": "haskell-src-exts",
@@ -4720,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Alt",
           "package": "haskell-src-exts",
@@ -4729,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Alt",
           "package": "haskell-src-exts",
@@ -4743,6 +5125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation for a declared name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Ann",
           "package": "haskell-src-exts",
@@ -4753,6 +5136,7 @@
         "index": {
           "description": "An annotation for declared name",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Ann",
           "package": "haskell-src-exts",
@@ -4767,6 +5151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANN pragma with module scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AnnModulePragma",
           "package": "haskell-src-exts",
@@ -4777,6 +5162,7 @@
         "index": {
           "description": "ANN pragma with module scope",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AnnModulePragma",
           "package": "haskell-src-exts",
@@ -4791,6 +5177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ANN pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AnnPragma",
           "package": "haskell-src-exts",
@@ -4801,6 +5188,7 @@
         "index": {
           "description": "An ANN pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AnnPragma",
           "package": "haskell-src-exts",
@@ -4815,6 +5203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "App",
           "package": "haskell-src-exts",
@@ -4825,6 +5214,7 @@
         "index": {
           "description": "ordinary application",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "App",
           "package": "haskell-src-exts",
@@ -4839,6 +5229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft-associative operator (declared with \u003ccode\u003einfixl\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AssocLeft",
           "package": "haskell-src-exts",
@@ -4849,6 +5240,7 @@
         "index": {
           "description": "left-associative operator declared with infixl",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AssocLeft",
           "package": "haskell-src-exts",
@@ -4863,6 +5255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-associative operator (declared with \u003ccode\u003einfix\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AssocNone",
           "package": "haskell-src-exts",
@@ -4873,6 +5266,7 @@
         "index": {
           "description": "non-associative operator declared with infix",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AssocNone",
           "package": "haskell-src-exts",
@@ -4887,6 +5281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright-associative operator (declared with \u003ccode\u003einfixr\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AssocRight",
           "package": "haskell-src-exts",
@@ -4897,6 +5292,7 @@
         "index": {
           "description": "right-associative operator declared with infixr",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "AssocRight",
           "package": "haskell-src-exts",
@@ -4911,6 +5307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ordinary binding group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "BDecls",
           "package": "haskell-src-exts",
@@ -4921,6 +5318,7 @@
         "index": {
           "description": "An ordinary binding group",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "BDecls",
           "normalized": "BDecls a[Decl a]",
@@ -4937,6 +5335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estrict component, marked with \"\u003ccode\u003e!\u003c/code\u003e\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "BangedTy",
           "package": "haskell-src-exts",
@@ -4947,6 +5346,7 @@
         "index": {
           "description": "strict component marked with",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "BangedTy",
           "package": "haskell-src-exts",
@@ -4984,6 +5384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemplate haskell bracket expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "BracketExp",
           "package": "haskell-src-exts",
@@ -4994,6 +5395,7 @@
         "index": {
           "description": "template haskell bracket expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "BracketExp",
           "package": "haskell-src-exts",
@@ -5007,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CApi",
           "package": "haskell-src-exts",
@@ -5016,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CApi",
           "package": "haskell-src-exts",
@@ -5029,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CCall",
           "package": "haskell-src-exts",
@@ -5038,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CCall",
           "package": "haskell-src-exts",
@@ -5051,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CPlusPlus",
           "package": "haskell-src-exts",
@@ -5060,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CPlusPlus",
           "package": "haskell-src-exts",
@@ -5074,6 +5482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecase\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eof\u003c/code\u003e \u003cem\u003ealts\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Case",
           "package": "haskell-src-exts",
@@ -5084,6 +5493,7 @@
         "index": {
           "description": "case exp of alts",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Case",
           "normalized": "Case a(Exp a)[Alt a]",
@@ -5100,6 +5510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echaracter literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Char",
           "package": "haskell-src-exts",
@@ -5110,6 +5521,7 @@
         "index": {
           "description": "character literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Char",
           "package": "haskell-src-exts",
@@ -5124,6 +5536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary class assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClassA",
           "package": "haskell-src-exts",
@@ -5134,6 +5547,7 @@
         "index": {
           "description": "ordinary class assertion",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClassA",
           "normalized": "ClassA a(QName a)[Type a]",
@@ -5150,6 +5564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of a type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClassDecl",
           "package": "haskell-src-exts",
@@ -5160,6 +5575,7 @@
         "index": {
           "description": "declaration of type class",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClassDecl",
           "normalized": "ClassDecl a(Maybe(Context a))(DeclHead a)[FunDep a](Maybe[ClassDecl a])",
@@ -5176,6 +5592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeclaration of an associated data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClsDataFam",
           "package": "haskell-src-exts",
@@ -5186,6 +5603,7 @@
         "index": {
           "description": "declaration of an associated data type",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClsDataFam",
           "package": "haskell-src-exts",
@@ -5200,6 +5618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClsDecl",
           "package": "haskell-src-exts",
@@ -5210,6 +5629,7 @@
         "index": {
           "description": "ordinary declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClsDecl",
           "package": "haskell-src-exts",
@@ -5224,6 +5644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault choice for an associated type synonym\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClsTyDef",
           "package": "haskell-src-exts",
@@ -5234,6 +5655,7 @@
         "index": {
           "description": "default choice for an associated type synonym",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClsTyDef",
           "package": "haskell-src-exts",
@@ -5248,6 +5670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeclaration of an associated type synonym\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClsTyFam",
           "package": "haskell-src-exts",
@@ -5258,6 +5681,7 @@
         "index": {
           "description": "declaration of an associated type synonym",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ClsTyFam",
           "package": "haskell-src-exts",
@@ -5272,6 +5696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Con",
           "package": "haskell-src-exts",
@@ -5282,6 +5707,7 @@
         "index": {
           "description": "data constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Con",
           "package": "haskell-src-exts",
@@ -5296,6 +5722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ConDecl",
           "package": "haskell-src-exts",
@@ -5306,6 +5733,7 @@
         "index": {
           "description": "ordinary data constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ConDecl",
           "normalized": "ConDecl a(Name a)[BangType a]",
@@ -5322,6 +5750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of a data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ConName",
           "package": "haskell-src-exts",
@@ -5332,6 +5761,7 @@
         "index": {
           "description": "name of data constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ConName",
           "package": "haskell-src-exts",
@@ -5346,6 +5776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructor operator (\u003cem\u003econop\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ConOp",
           "package": "haskell-src-exts",
@@ -5356,6 +5787,7 @@
         "index": {
           "description": "constructor operator conop",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ConOp",
           "package": "haskell-src-exts",
@@ -5370,6 +5802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist data constructor \u003ccode\u003e(:)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Cons",
           "package": "haskell-src-exts",
@@ -5380,6 +5813,7 @@
         "index": {
           "description": "list data constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Cons",
           "package": "haskell-src-exts",
@@ -5394,6 +5828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCORE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CorePragma",
           "package": "haskell-src-exts",
@@ -5404,6 +5839,7 @@
         "index": {
           "description": "CORE pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CorePragma",
           "package": "haskell-src-exts",
@@ -5417,6 +5853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CxEmpty",
           "package": "haskell-src-exts",
@@ -5426,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CxEmpty",
           "package": "haskell-src-exts",
@@ -5439,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CxParen",
           "package": "haskell-src-exts",
@@ -5448,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CxParen",
           "package": "haskell-src-exts",
@@ -5461,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CxSingle",
           "package": "haskell-src-exts",
@@ -5470,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CxSingle",
           "package": "haskell-src-exts",
@@ -5483,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CxTuple",
           "package": "haskell-src-exts",
@@ -5492,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "CxTuple",
           "normalized": "CxTuple a[Asst a]",
@@ -5507,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DHInfix",
           "package": "haskell-src-exts",
@@ -5516,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DHInfix",
           "package": "haskell-src-exts",
@@ -5529,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DHParen",
           "package": "haskell-src-exts",
@@ -5538,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DHParen",
           "package": "haskell-src-exts",
@@ -5551,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DHead",
           "package": "haskell-src-exts",
@@ -5560,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DHead",
           "normalized": "DHead a(Name a)[TyVarBind a]",
@@ -5576,6 +6026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data OR newtype declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataDecl",
           "package": "haskell-src-exts",
@@ -5586,6 +6037,7 @@
         "index": {
           "description": "data OR newtype declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataDecl",
           "normalized": "DataDecl a(DataOrNew a)(Maybe(Context a))(DeclHead a)[QualConDecl a](Maybe(Deriving a))",
@@ -5602,6 +6054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data family declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataFamDecl",
           "package": "haskell-src-exts",
@@ -5612,6 +6065,7 @@
         "index": {
           "description": "data family declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataFamDecl",
           "package": "haskell-src-exts",
@@ -5626,6 +6080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data family instance declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataInsDecl",
           "package": "haskell-src-exts",
@@ -5636,6 +6091,7 @@
         "index": {
           "description": "data family instance declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataInsDecl",
           "normalized": "DataInsDecl a(DataOrNew a)(Type a)[QualConDecl a](Maybe(Deriving a))",
@@ -5651,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataType",
           "package": "haskell-src-exts",
@@ -5660,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DataType",
           "package": "haskell-src-exts",
@@ -5674,6 +6132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeclaration bracket: \u003ccode\u003e[d| ... |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DeclBracket",
           "package": "haskell-src-exts",
@@ -5684,6 +6143,7 @@
         "index": {
           "description": "declaration bracket",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DeclBracket",
           "normalized": "DeclBracket a[Decl a]",
@@ -5700,6 +6160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of default types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DefaultDecl",
           "package": "haskell-src-exts",
@@ -5710,6 +6171,7 @@
         "index": {
           "description": "declaration of default types",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DefaultDecl",
           "normalized": "DefaultDecl a[Type a]",
@@ -5726,6 +6188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DEPRECATED pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DeprPragmaDecl",
           "package": "haskell-src-exts",
@@ -5736,6 +6199,7 @@
         "index": {
           "description": "DEPRECATED pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DeprPragmaDecl",
           "normalized": "DeprPragmaDecl a[([Name a],String)]",
@@ -5751,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DeprText",
           "package": "haskell-src-exts",
@@ -5760,6 +6225,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DeprText",
           "package": "haskell-src-exts",
@@ -5774,6 +6240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standalone deriving declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DerivDecl",
           "package": "haskell-src-exts",
@@ -5784,6 +6251,7 @@
         "index": {
           "description": "standalone deriving declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DerivDecl",
           "package": "haskell-src-exts",
@@ -5797,6 +6265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Deriving",
           "package": "haskell-src-exts",
@@ -5806,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Deriving",
           "normalized": "Deriving a[InstHead a]",
@@ -5822,6 +6292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edo\u003c/code\u003e-expression:\n   the last statement in the list\n   should be an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Do",
           "package": "haskell-src-exts",
@@ -5832,6 +6303,7 @@
         "index": {
           "description": "do expression the last statement in the list should be an expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Do",
           "normalized": "Do a[Stmt a]",
@@ -5847,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DotNet",
           "package": "haskell-src-exts",
@@ -5856,6 +6329,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "DotNet",
           "package": "haskell-src-exts",
@@ -5870,6 +6344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT\u003c/code\u003e:\n   a class or datatype exported abstractly,\n   or a type synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EAbs",
           "package": "haskell-src-exts",
@@ -5880,6 +6355,7 @@
         "index": {
           "description": "class or datatype exported abstractly or type synonym",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EAbs",
           "package": "haskell-src-exts",
@@ -5894,6 +6370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emodule M\u003c/code\u003e:\n   re-export a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EModuleContents",
           "package": "haskell-src-exts",
@@ -5904,6 +6381,7 @@
         "index": {
           "description": "module re-export module",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EModuleContents",
           "package": "haskell-src-exts",
@@ -5918,6 +6396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(..)\u003c/code\u003e:\n   a class exported with all of its methods, or\n   a datatype exported with all of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EThingAll",
           "package": "haskell-src-exts",
@@ -5928,6 +6407,7 @@
         "index": {
           "description": "class exported with all of its methods or datatype exported with all of its constructors",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EThingAll",
           "package": "haskell-src-exts",
@@ -5942,6 +6422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(C_1,...,C_n)\u003c/code\u003e:\n   a class exported with some of its methods, or\n   a datatype exported with some of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EThingWith",
           "package": "haskell-src-exts",
@@ -5952,6 +6433,7 @@
         "index": {
           "description": "class exported with some of its methods or datatype exported with some of its constructors",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EThingWith",
           "normalized": "EThingWith a(QName a)[CName a]",
@@ -5968,6 +6450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EVar",
           "package": "haskell-src-exts",
@@ -5978,6 +6461,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EVar",
           "package": "haskell-src-exts",
@@ -5992,6 +6476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunbounded arithmetic sequence,\n   incrementing by 1: \u003ccode\u003e[from ..]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EnumFrom",
           "package": "haskell-src-exts",
@@ -6002,6 +6487,7 @@
         "index": {
           "description": "unbounded arithmetic sequence incrementing by from",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EnumFrom",
           "package": "haskell-src-exts",
@@ -6016,6 +6502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunbounded arithmetic sequence,\n   with first two elements given \u003ccode\u003e[from, then ..]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EnumFromThen",
           "package": "haskell-src-exts",
@@ -6026,6 +6513,7 @@
         "index": {
           "description": "unbounded arithmetic sequence with first two elements given from then",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EnumFromThen",
           "package": "haskell-src-exts",
@@ -6040,6 +6528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebounded arithmetic sequence,\n   with first two elements given \u003ccode\u003e[from, then .. to]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EnumFromThenTo",
           "package": "haskell-src-exts",
@@ -6050,6 +6539,7 @@
         "index": {
           "description": "bounded arithmetic sequence with first two elements given from then to",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EnumFromThenTo",
           "package": "haskell-src-exts",
@@ -6064,6 +6554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebounded arithmetic sequence,\n   incrementing by 1 \u003ccode\u003e[from .. to]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EnumFromTo",
           "package": "haskell-src-exts",
@@ -6074,6 +6565,7 @@
         "index": {
           "description": "bounded arithmetic sequence incrementing by from to",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EnumFromTo",
           "package": "haskell-src-exts",
@@ -6088,6 +6580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype equality constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EqualP",
           "package": "haskell-src-exts",
@@ -6098,6 +6591,7 @@
         "index": {
           "description": "type equality constraint",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "EqualP",
           "package": "haskell-src-exts",
@@ -6112,6 +6606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpression bracket: \u003ccode\u003e[| ... |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExpBracket",
           "package": "haskell-src-exts",
@@ -6122,6 +6617,7 @@
         "index": {
           "description": "expression bracket",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExpBracket",
           "package": "haskell-src-exts",
@@ -6136,6 +6632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpression with explicit type signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExpTypeSig",
           "package": "haskell-src-exts",
@@ -6146,6 +6643,7 @@
         "index": {
           "description": "expression with explicit type signature",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExpTypeSig",
           "package": "haskell-src-exts",
@@ -6159,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExportSpecList",
           "package": "haskell-src-exts",
@@ -6168,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ExportSpecList",
           "normalized": "ExportSpecList a[ExportSpec a]",
@@ -6183,6 +6683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldDecl",
           "package": "haskell-src-exts",
@@ -6192,6 +6693,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldDecl",
           "normalized": "FieldDecl a[Name a](BangType a)",
@@ -6208,6 +6710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field pun\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldPun",
           "package": "haskell-src-exts",
@@ -6218,6 +6721,7 @@
         "index": {
           "description": "record field pun",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldPun",
           "package": "haskell-src-exts",
@@ -6232,6 +6736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary label-expresion pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldUpdate",
           "package": "haskell-src-exts",
@@ -6242,6 +6747,7 @@
         "index": {
           "description": "ordinary label-expresion pair",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldUpdate",
           "package": "haskell-src-exts",
@@ -6256,6 +6762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field wildcard\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldWildcard",
           "package": "haskell-src-exts",
@@ -6266,6 +6773,7 @@
         "index": {
           "description": "record field wildcard",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FieldWildcard",
           "package": "haskell-src-exts",
@@ -6280,6 +6788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA foreign export declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ForExp",
           "package": "haskell-src-exts",
@@ -6290,6 +6799,7 @@
         "index": {
           "description": "foreign export declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ForExp",
           "package": "haskell-src-exts",
@@ -6304,6 +6814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA foreign import declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ForImp",
           "package": "haskell-src-exts",
@@ -6314,6 +6825,7 @@
         "index": {
           "description": "foreign import declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ForImp",
           "package": "haskell-src-exts",
@@ -6328,6 +6840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efloating point literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Frac",
           "package": "haskell-src-exts",
@@ -6338,6 +6851,7 @@
         "index": {
           "description": "floating point literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Frac",
           "package": "haskell-src-exts",
@@ -6352,6 +6866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of function binding clauses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FunBind",
           "package": "haskell-src-exts",
@@ -6362,6 +6877,7 @@
         "index": {
           "description": "set of function binding clauses",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FunBind",
           "normalized": "FunBind a[Match a]",
@@ -6378,6 +6894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction type constructor \u003ccode\u003e-\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FunCon",
           "package": "haskell-src-exts",
@@ -6388,6 +6905,7 @@
         "index": {
           "description": "function type constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FunCon",
           "package": "haskell-src-exts",
@@ -6401,6 +6919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FunDep",
           "package": "haskell-src-exts",
@@ -6410,6 +6929,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "FunDep",
           "normalized": "FunDep a[Name a][Name a]",
@@ -6426,6 +6946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data OR newtype declaration, GADT style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GDataDecl",
           "package": "haskell-src-exts",
@@ -6436,6 +6957,7 @@
         "index": {
           "description": "data OR newtype declaration GADT style",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GDataDecl",
           "normalized": "GDataDecl a(DataOrNew a)(Maybe(Context a))(DeclHead a)(Maybe(Kind a))[GadtDecl a](Maybe(Deriving a))",
@@ -6452,6 +6974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data family instance declaration, GADT style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GDataInsDecl",
           "package": "haskell-src-exts",
@@ -6462,6 +6985,7 @@
         "index": {
           "description": "data family instance declaration GADT style",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GDataInsDecl",
           "normalized": "GDataInsDecl a(DataOrNew a)(Type a)(Maybe(Kind a))[GadtDecl a](Maybe(Deriving a))",
@@ -6500,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GadtDecl",
           "package": "haskell-src-exts",
@@ -6509,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GadtDecl",
           "package": "haskell-src-exts",
@@ -6523,6 +7049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGENERATED pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GenPragma",
           "package": "haskell-src-exts",
@@ -6533,6 +7060,7 @@
         "index": {
           "description": "GENERATED pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GenPragma",
           "normalized": "GenPragma a String(Int,Int)(Int,Int)(Exp a)",
@@ -6549,6 +7077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea generator: \u003cem\u003epat\u003c/em\u003e \u003ccode\u003e\u003c-\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Generator",
           "package": "haskell-src-exts",
@@ -6559,6 +7088,7 @@
         "index": {
           "description": "generator pat exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Generator",
           "package": "haskell-src-exts",
@@ -6573,6 +7103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003ccode\u003egroup\u003c/code\u003e \u003ccode\u003eby\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GroupBy",
           "package": "haskell-src-exts",
@@ -6583,6 +7114,7 @@
         "index": {
           "description": "then group by exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GroupBy",
           "package": "haskell-src-exts",
@@ -6597,6 +7129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003ccode\u003egroup\u003c/code\u003e \u003ccode\u003eby\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eusing\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GroupByUsing",
           "package": "haskell-src-exts",
@@ -6607,6 +7140,7 @@
         "index": {
           "description": "then group by exp using exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GroupByUsing",
           "package": "haskell-src-exts",
@@ -6621,6 +7155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003ccode\u003egroup\u003c/code\u003e \u003ccode\u003eusing\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GroupUsing",
           "package": "haskell-src-exts",
@@ -6631,6 +7166,7 @@
         "index": {
           "description": "then group using exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GroupUsing",
           "package": "haskell-src-exts",
@@ -6644,6 +7180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedAlt",
           "package": "haskell-src-exts",
@@ -6653,6 +7190,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedAlt",
           "normalized": "GuardedAlt a[Stmt a](Exp a)",
@@ -6669,6 +7207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003egdpat\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedAlts",
           "package": "haskell-src-exts",
@@ -6679,6 +7218,7 @@
         "index": {
           "description": "gdpat",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedAlts",
           "normalized": "GuardedAlts a[GuardedAlt a]",
@@ -6694,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedRhs",
           "package": "haskell-src-exts",
@@ -6703,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedRhs",
           "normalized": "GuardedRhs a[Stmt a](Exp a)",
@@ -6719,6 +7261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eguarded right hand side (\u003cem\u003egdrhs\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedRhss",
           "package": "haskell-src-exts",
@@ -6729,6 +7272,7 @@
         "index": {
           "description": "guarded right hand side gdrhs",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "GuardedRhss",
           "normalized": "GuardedRhss a[GuardedRhs a]",
@@ -6791,6 +7335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT\u003c/code\u003e:\n   the name of a class, datatype or type synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IAbs",
           "package": "haskell-src-exts",
@@ -6801,6 +7346,7 @@
         "index": {
           "description": "the name of class datatype or type synonym",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IAbs",
           "package": "haskell-src-exts",
@@ -6814,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IHInfix",
           "package": "haskell-src-exts",
@@ -6823,6 +7370,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IHInfix",
           "package": "haskell-src-exts",
@@ -6836,6 +7384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IHParen",
           "package": "haskell-src-exts",
@@ -6845,6 +7394,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IHParen",
           "package": "haskell-src-exts",
@@ -6858,6 +7408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IHead",
           "package": "haskell-src-exts",
@@ -6867,6 +7418,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IHead",
           "normalized": "IHead a(QName a)[Type a]",
@@ -6882,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPBind",
           "package": "haskell-src-exts",
@@ -6891,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPBind",
           "package": "haskell-src-exts",
@@ -6905,6 +7459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binding group for implicit parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPBinds",
           "package": "haskell-src-exts",
@@ -6915,6 +7470,7 @@
         "index": {
           "description": "binding group for implicit parameters",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPBinds",
           "normalized": "IPBinds a[IPBind a]",
@@ -6931,6 +7487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e?\u003cem\u003eident\u003c/em\u003e, non-linear implicit parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPDup",
           "package": "haskell-src-exts",
@@ -6941,6 +7498,7 @@
         "index": {
           "description": "ident non-linear implicit parameter",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPDup",
           "package": "haskell-src-exts",
@@ -6955,6 +7513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e%\u003cem\u003eident\u003c/em\u003e, linear implicit parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPLin",
           "package": "haskell-src-exts",
@@ -6965,6 +7524,7 @@
         "index": {
           "description": "ident linear implicit parameter",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPLin",
           "package": "haskell-src-exts",
@@ -6979,6 +7539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimplicit parameter variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPVar",
           "package": "haskell-src-exts",
@@ -6989,6 +7550,7 @@
         "index": {
           "description": "implicit parameter variable",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IPVar",
           "package": "haskell-src-exts",
@@ -7003,6 +7565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimplicit parameter assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IParam",
           "package": "haskell-src-exts",
@@ -7013,6 +7576,7 @@
         "index": {
           "description": "implicit parameter assertion",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IParam",
           "package": "haskell-src-exts",
@@ -7027,6 +7591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(..)\u003c/code\u003e:\n   a class imported with all of its methods, or\n   a datatype imported with all of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IThingAll",
           "package": "haskell-src-exts",
@@ -7037,6 +7602,7 @@
         "index": {
           "description": "class imported with all of its methods or datatype imported with all of its constructors",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IThingAll",
           "package": "haskell-src-exts",
@@ -7051,6 +7617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(C_1,...,C_n)\u003c/code\u003e:\n   a class imported with some of its methods, or\n   a datatype imported with some of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IThingWith",
           "package": "haskell-src-exts",
@@ -7061,6 +7628,7 @@
         "index": {
           "description": "class imported with some of its methods or datatype imported with some of its constructors",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IThingWith",
           "normalized": "IThingWith a(Name a)[CName a]",
@@ -7077,6 +7645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IVar",
           "package": "haskell-src-exts",
@@ -7087,6 +7656,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IVar",
           "package": "haskell-src-exts",
@@ -7101,6 +7671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable splice: \u003ccode\u003e$var\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IdSplice",
           "package": "haskell-src-exts",
@@ -7111,6 +7682,7 @@
         "index": {
           "description": "variable splice var",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "IdSplice",
           "package": "haskell-src-exts",
@@ -7125,6 +7697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003evarid\u003c/em\u003e or \u003cem\u003econid\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Ident",
           "package": "haskell-src-exts",
@@ -7135,6 +7708,7 @@
         "index": {
           "description": "varid or conid",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Ident",
           "package": "haskell-src-exts",
@@ -7149,6 +7723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eif\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003ethen\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eelse\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "If",
           "package": "haskell-src-exts",
@@ -7159,6 +7734,7 @@
         "index": {
           "description": "if exp then exp else exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "If",
           "package": "haskell-src-exts",
@@ -7172,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportDecl",
           "package": "haskell-src-exts",
@@ -7181,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportDecl",
           "package": "haskell-src-exts",
@@ -7194,6 +7772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportSpecList",
           "package": "haskell-src-exts",
@@ -7203,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ImportSpecList",
           "normalized": "ImportSpecList a Bool[ImportSpec a]",
@@ -7219,6 +7799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclass assertion where the class name is given infix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixA",
           "package": "haskell-src-exts",
@@ -7229,6 +7810,7 @@
         "index": {
           "description": "class assertion where the class name is given infix",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixA",
           "package": "haskell-src-exts",
@@ -7243,6 +7825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixApp",
           "package": "haskell-src-exts",
@@ -7253,6 +7836,7 @@
         "index": {
           "description": "infix application",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixApp",
           "package": "haskell-src-exts",
@@ -7267,6 +7851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixConDecl",
           "package": "haskell-src-exts",
@@ -7277,6 +7862,7 @@
         "index": {
           "description": "infix data constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixConDecl",
           "package": "haskell-src-exts",
@@ -7291,6 +7877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of operator fixity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixDecl",
           "package": "haskell-src-exts",
@@ -7301,6 +7888,7 @@
         "index": {
           "description": "declaration of operator fixity",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixDecl",
           "normalized": "InfixDecl a(Assoc a)(Maybe Int)[Op a]",
@@ -7317,6 +7905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA clause defined with infix notation, i.e. first its first argument\n  pattern, then the function name, then its following argument(s),\n  the right-hand side and an optional where clause.\n  Note that there can be more than two arguments to a function declared\n  infix, hence the list of pattern arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixMatch",
           "package": "haskell-src-exts",
@@ -7327,6 +7916,7 @@
         "index": {
           "description": "clause defined with infix notation i.e first its first argument pattern then the function name then its following argument the right-hand side and an optional where clause Note that there can be more than two arguments to function declared infix hence the list of pattern arguments",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InfixMatch",
           "normalized": "InfixMatch a(Pat a)(Name a)[Pat a](Rhs a)(Maybe(Binds a))",
@@ -7343,6 +7933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn INLINE CONLIKE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InlineConlikeSig",
           "package": "haskell-src-exts",
@@ -7353,6 +7944,7 @@
         "index": {
           "description": "An INLINE CONLIKE pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InlineConlikeSig",
           "package": "haskell-src-exts",
@@ -7367,6 +7959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn INLINE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InlineSig",
           "package": "haskell-src-exts",
@@ -7377,6 +7970,7 @@
         "index": {
           "description": "An INLINE pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InlineSig",
           "package": "haskell-src-exts",
@@ -7391,6 +7985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean associated data type implementation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InsData",
           "package": "haskell-src-exts",
@@ -7401,6 +7996,7 @@
         "index": {
           "description": "an associated data type implementation",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InsData",
           "normalized": "InsData a(DataOrNew a)(Type a)[QualConDecl a](Maybe(Deriving a))",
@@ -7417,6 +8013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InsDecl",
           "package": "haskell-src-exts",
@@ -7427,6 +8024,7 @@
         "index": {
           "description": "ordinary declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InsDecl",
           "package": "haskell-src-exts",
@@ -7441,6 +8039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean associated data type implemented using GADT style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InsGData",
           "package": "haskell-src-exts",
@@ -7451,6 +8050,7 @@
         "index": {
           "description": "an associated data type implemented using GADT style",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InsGData",
           "normalized": "InsGData a(DataOrNew a)(Type a)(Maybe(Kind a))[GadtDecl a](Maybe(Deriving a))",
@@ -7467,6 +8067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean associated type definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InsType",
           "package": "haskell-src-exts",
@@ -7477,6 +8078,7 @@
         "index": {
           "description": "an associated type definition",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InsType",
           "package": "haskell-src-exts",
@@ -7491,6 +8093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn declaration of a type class instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InstDecl",
           "package": "haskell-src-exts",
@@ -7501,6 +8104,7 @@
         "index": {
           "description": "An declaration of type class instance",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InstDecl",
           "normalized": "InstDecl a(Maybe(Context a))(InstHead a)(Maybe[InstDecl a])",
@@ -7517,6 +8121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SPECIALISE instance pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InstSig",
           "package": "haskell-src-exts",
@@ -7527,6 +8132,7 @@
         "index": {
           "description": "SPECIALISE instance pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "InstSig",
           "package": "haskell-src-exts",
@@ -7541,6 +8147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Int",
           "package": "haskell-src-exts",
@@ -7551,6 +8158,7 @@
         "index": {
           "description": "integer literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Int",
           "package": "haskell-src-exts",
@@ -7564,6 +8172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Js",
           "package": "haskell-src-exts",
@@ -7573,6 +8182,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Js",
           "package": "haskell-src-exts",
@@ -7586,6 +8196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Jvm",
           "package": "haskell-src-exts",
@@ -7595,6 +8206,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Jvm",
           "package": "haskell-src-exts",
@@ -7609,6 +8221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e!\u003c/code\u003e, the kind of unboxed types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindBang",
           "package": "haskell-src-exts",
@@ -7619,6 +8232,7 @@
         "index": {
           "description": "the kind of unboxed types",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindBang",
           "package": "haskell-src-exts",
@@ -7633,6 +8247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e-\u003e\u003c/code\u003e, the kind of a type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindFn",
           "package": "haskell-src-exts",
@@ -7643,6 +8258,7 @@
         "index": {
           "description": "the kind of type constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindFn",
           "package": "haskell-src-exts",
@@ -7657,6 +8273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea parenthesised kind\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindParen",
           "package": "haskell-src-exts",
@@ -7667,6 +8284,7 @@
         "index": {
           "description": "parenthesised kind",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindParen",
           "package": "haskell-src-exts",
@@ -7681,6 +8299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e*\u003c/code\u003e, the kind of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindStar",
           "package": "haskell-src-exts",
@@ -7691,6 +8310,7 @@
         "index": {
           "description": "the kind of types",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindStar",
           "package": "haskell-src-exts",
@@ -7705,6 +8325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea kind variable (as-of-yet unsupported by compilers)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindVar",
           "package": "haskell-src-exts",
@@ -7715,6 +8336,7 @@
         "index": {
           "description": "kind variable as-of-yet unsupported by compilers",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindVar",
           "package": "haskell-src-exts",
@@ -7729,6 +8351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable binding with kind annotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindedVar",
           "package": "haskell-src-exts",
@@ -7739,6 +8362,7 @@
         "index": {
           "description": "variable binding with kind annotation",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "KindedVar",
           "package": "haskell-src-exts",
@@ -7753,6 +8377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elambda expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Lambda",
           "package": "haskell-src-exts",
@@ -7763,6 +8388,7 @@
         "index": {
           "description": "lambda expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Lambda",
           "normalized": "Lambda a[Pat a](Exp a)",
@@ -7779,6 +8405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLANGUAGE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LanguagePragma",
           "package": "haskell-src-exts",
@@ -7789,6 +8416,7 @@
         "index": {
           "description": "LANGUAGE pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LanguagePragma",
           "normalized": "LanguagePragma a[Name a]",
@@ -7805,6 +8433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earrow application (from left): \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e-\u003c\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LeftArrApp",
           "package": "haskell-src-exts",
@@ -7815,6 +8444,7 @@
         "index": {
           "description": "arrow application from left exp exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LeftArrApp",
           "package": "haskell-src-exts",
@@ -7829,6 +8459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehigher-order arrow application (from left): \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e-\u003c\u003c\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LeftArrHighApp",
           "package": "haskell-src-exts",
@@ -7839,6 +8470,7 @@
         "index": {
           "description": "higher-order arrow application from left exp exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LeftArrHighApp",
           "package": "haskell-src-exts",
@@ -7853,6 +8485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft section \u003ccode\u003e(\u003c/code\u003e\u003cem\u003eexp\u003c/em\u003e \u003cem\u003eqop\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LeftSection",
           "package": "haskell-src-exts",
@@ -7863,6 +8496,7 @@
         "index": {
           "description": "left section exp qop",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LeftSection",
           "package": "haskell-src-exts",
@@ -7877,6 +8511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal declarations with \u003ccode\u003elet\u003c/code\u003e ... \u003ccode\u003ein\u003c/code\u003e ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Let",
           "package": "haskell-src-exts",
@@ -7887,6 +8522,7 @@
         "index": {
           "description": "local declarations with let in",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Let",
           "package": "haskell-src-exts",
@@ -7901,6 +8537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal bindings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LetStmt",
           "package": "haskell-src-exts",
@@ -7911,6 +8548,7 @@
         "index": {
           "description": "local bindings",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "LetStmt",
           "package": "haskell-src-exts",
@@ -7925,6 +8563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "List",
           "package": "haskell-src-exts",
@@ -7935,6 +8574,7 @@
         "index": {
           "description": "list expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "List",
           "normalized": "List a[Exp a]",
@@ -7951,6 +8591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary list comprehension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ListComp",
           "package": "haskell-src-exts",
@@ -7961,6 +8602,7 @@
         "index": {
           "description": "ordinary list comprehension",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ListComp",
           "normalized": "ListComp a(Exp a)[QualStmt a]",
@@ -7977,6 +8619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist type constructor \u003ccode\u003e[]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ListCon",
           "package": "haskell-src-exts",
@@ -7987,6 +8630,7 @@
         "index": {
           "description": "list type constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ListCon",
           "package": "haskell-src-exts",
@@ -8001,6 +8645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliteral constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Lit",
           "package": "haskell-src-exts",
@@ -8011,6 +8656,7 @@
         "index": {
           "description": "literal constant",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Lit",
           "package": "haskell-src-exts",
@@ -8025,6 +8671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emdo\u003c/code\u003e-expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "MDo",
           "package": "haskell-src-exts",
@@ -8035,6 +8682,7 @@
         "index": {
           "description": "mdo expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "MDo",
           "normalized": "MDo a[Stmt a]",
@@ -8051,6 +8699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA clause defined with prefix notation, i.e. the function name\n  followed by its argument patterns, the right-hand side and an\n  optional where clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Match",
           "package": "haskell-src-exts",
@@ -8061,6 +8710,7 @@
         "index": {
           "description": "clause defined with prefix notation i.e the function name followed by its argument patterns the right-hand side and an optional where clause",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Match",
           "normalized": "Match a(Name a)[Pat a](Rhs a)(Maybe(Binds a))",
@@ -8077,6 +8727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean ordinary Haskell module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Module",
           "package": "haskell-src-exts",
@@ -8087,6 +8738,7 @@
         "index": {
           "description": "an ordinary Haskell module",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Module",
           "normalized": "Module a(Maybe(ModuleHead a))[ModulePragma a][ImportDecl a][Decl a]",
@@ -8103,6 +8755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation for the defining module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleAnn",
           "package": "haskell-src-exts",
@@ -8113,6 +8766,7 @@
         "index": {
           "description": "An annotation for the defining module",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleAnn",
           "package": "haskell-src-exts",
@@ -8126,6 +8780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleHead",
           "package": "haskell-src-exts",
@@ -8135,6 +8790,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleHead",
           "package": "haskell-src-exts",
@@ -8148,6 +8804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleName",
           "package": "haskell-src-exts",
@@ -8157,6 +8814,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ModuleName",
           "package": "haskell-src-exts",
@@ -8194,6 +8852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegation expression \u003ccode\u003e-\u003cem\u003eexp\u003c/em\u003e\u003c/code\u003e (unary minus)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "NegApp",
           "package": "haskell-src-exts",
@@ -8204,6 +8863,7 @@
         "index": {
           "description": "negation expression exp unary minus",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "NegApp",
           "package": "haskell-src-exts",
@@ -8217,6 +8877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "NewType",
           "package": "haskell-src-exts",
@@ -8226,6 +8887,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "NewType",
           "package": "haskell-src-exts",
@@ -8240,6 +8902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOPTIONS pragma, possibly qualified with a tool, e.g. OPTIONS_GHC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "OptionsPragma",
           "package": "haskell-src-exts",
@@ -8250,6 +8913,7 @@
         "index": {
           "description": "OPTIONS pragma possibly qualified with tool e.g OPTIONS GHC",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "OptionsPragma",
           "package": "haskell-src-exts",
@@ -8264,6 +8928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata constructor and argument patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PApp",
           "package": "haskell-src-exts",
@@ -8274,6 +8939,7 @@
         "index": {
           "description": "data constructor and argument patterns",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PApp",
           "normalized": "PApp a(QName a)[Pat a]",
@@ -8290,6 +8956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e@\u003c/code\u003e-pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PAsPat",
           "package": "haskell-src-exts",
@@ -8300,6 +8967,7 @@
         "index": {
           "description": "pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PAsPat",
           "package": "haskell-src-exts",
@@ -8314,6 +8982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estrict (bang) pattern: \u003ccode\u003ef !x = ...\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PBangPat",
           "package": "haskell-src-exts",
@@ -8324,6 +8993,7 @@
         "index": {
           "description": "strict bang pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PBangPat",
           "package": "haskell-src-exts",
@@ -8338,6 +9008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicit generics style type argument e.g. \u003ccode\u003ef {| Int |} x = ...\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PExplTypeArg",
           "package": "haskell-src-exts",
@@ -8348,6 +9019,7 @@
         "index": {
           "description": "Explicit generics style type argument e.g Int",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PExplTypeArg",
           "package": "haskell-src-exts",
@@ -8362,6 +9034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary label-pattern pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PFieldPat",
           "package": "haskell-src-exts",
@@ -8372,6 +9045,7 @@
         "index": {
           "description": "ordinary label-pattern pair",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PFieldPat",
           "package": "haskell-src-exts",
@@ -8386,6 +9060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field pun\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PFieldPun",
           "package": "haskell-src-exts",
@@ -8396,6 +9071,7 @@
         "index": {
           "description": "record field pun",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PFieldPun",
           "package": "haskell-src-exts",
@@ -8410,6 +9086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field wildcard\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PFieldWildcard",
           "package": "haskell-src-exts",
@@ -8420,6 +9097,7 @@
         "index": {
           "description": "record field wildcard",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PFieldWildcard",
           "package": "haskell-src-exts",
@@ -8434,6 +9112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epattern with an infix data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PInfixApp",
           "package": "haskell-src-exts",
@@ -8444,6 +9123,7 @@
         "index": {
           "description": "pattern with an infix data constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PInfixApp",
           "package": "haskell-src-exts",
@@ -8458,6 +9138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirrefutable pattern: \u003ccode\u003e~\u003cem\u003epat\u003c/em\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PIrrPat",
           "package": "haskell-src-exts",
@@ -8468,6 +9149,7 @@
         "index": {
           "description": "irrefutable pattern pat",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PIrrPat",
           "package": "haskell-src-exts",
@@ -8482,6 +9164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PList",
           "package": "haskell-src-exts",
@@ -8492,6 +9175,7 @@
         "index": {
           "description": "list pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PList",
           "normalized": "PList a[Pat a]",
@@ -8508,6 +9192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliteral constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PLit",
           "package": "haskell-src-exts",
@@ -8518,6 +9203,7 @@
         "index": {
           "description": "literal constant",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PLit",
           "package": "haskell-src-exts",
@@ -8532,6 +9218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003en+k pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PNPlusK",
           "package": "haskell-src-exts",
@@ -8542,6 +9229,7 @@
         "index": {
           "description": "pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PNPlusK",
           "package": "haskell-src-exts",
@@ -8556,6 +9244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegated pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PNeg",
           "package": "haskell-src-exts",
@@ -8566,6 +9255,7 @@
         "index": {
           "description": "negated pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PNeg",
           "package": "haskell-src-exts",
@@ -8580,6 +9270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparenthesized pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PParen",
           "package": "haskell-src-exts",
@@ -8590,6 +9281,7 @@
         "index": {
           "description": "parenthesized pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PParen",
           "package": "haskell-src-exts",
@@ -8604,6 +9296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equasi quote pattern: \u003ccode\u003e[$\u003cem\u003ename\u003c/em\u003e| \u003cem\u003estring\u003c/em\u003e |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PQuasiQuote",
           "package": "haskell-src-exts",
@@ -8614,6 +9307,7 @@
         "index": {
           "description": "quasi quote pattern name string",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PQuasiQuote",
           "package": "haskell-src-exts",
@@ -8628,6 +9322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregular list pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PRPat",
           "package": "haskell-src-exts",
@@ -8638,6 +9333,7 @@
         "index": {
           "description": "regular list pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PRPat",
           "normalized": "PRPat a[RPat a]",
@@ -8654,6 +9350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabelled pattern, record style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PRec",
           "package": "haskell-src-exts",
@@ -8664,6 +9361,7 @@
         "index": {
           "description": "labelled pattern record style",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PRec",
           "normalized": "PRec a(QName a)[PatField a]",
@@ -8680,6 +9378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PTuple",
           "package": "haskell-src-exts",
@@ -8690,6 +9389,7 @@
         "index": {
           "description": "tuple pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PTuple",
           "normalized": "PTuple a Boxed[Pat a]",
@@ -8706,6 +9406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PVar",
           "package": "haskell-src-exts",
@@ -8716,6 +9417,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PVar",
           "package": "haskell-src-exts",
@@ -8730,6 +9432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eview patterns of the form \u003ccode\u003e(\u003cem\u003eexp\u003c/em\u003e -\u003e \u003cem\u003epat\u003c/em\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PViewPat",
           "package": "haskell-src-exts",
@@ -8740,6 +9443,7 @@
         "index": {
           "description": "view patterns of the form exp pat",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PViewPat",
           "package": "haskell-src-exts",
@@ -8754,6 +9458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewildcard pattern: \u003ccode\u003e_\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PWildCard",
           "package": "haskell-src-exts",
@@ -8764,6 +9469,7 @@
         "index": {
           "description": "wildcard pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PWildCard",
           "package": "haskell-src-exts",
@@ -8777,6 +9483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXAttr",
           "package": "haskell-src-exts",
@@ -8786,6 +9493,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXAttr",
           "package": "haskell-src-exts",
@@ -8800,6 +9508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML singleton element pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXETag",
           "package": "haskell-src-exts",
@@ -8810,6 +9519,7 @@
         "index": {
           "description": "XML singleton element pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXETag",
           "normalized": "PXETag a(XName a)[PXAttr a](Maybe(Pat a))",
@@ -8826,6 +9536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML embedded pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXPatTag",
           "package": "haskell-src-exts",
@@ -8836,6 +9547,7 @@
         "index": {
           "description": "XML embedded pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXPatTag",
           "package": "haskell-src-exts",
@@ -8850,6 +9562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML PCDATA pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXPcdata",
           "package": "haskell-src-exts",
@@ -8860,6 +9573,7 @@
         "index": {
           "description": "XML PCDATA pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXPcdata",
           "package": "haskell-src-exts",
@@ -8874,6 +9588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML regular list pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXRPats",
           "package": "haskell-src-exts",
@@ -8884,6 +9599,7 @@
         "index": {
           "description": "XML regular list pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXRPats",
           "normalized": "PXRPats a[RPat a]",
@@ -8900,6 +9616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML element pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXTag",
           "package": "haskell-src-exts",
@@ -8910,6 +9627,7 @@
         "index": {
           "description": "XML element pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PXTag",
           "normalized": "PXTag a(XName a)[PXAttr a](Maybe(Pat a))[Pat a]",
@@ -8926,6 +9644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparallel list comprehension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ParComp",
           "package": "haskell-src-exts",
@@ -8936,6 +9655,7 @@
         "index": {
           "description": "parallel list comprehension",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ParComp",
           "normalized": "ParComp a(Exp a)[[QualStmt a]]",
@@ -8952,6 +9672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparenthesised expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Paren",
           "package": "haskell-src-exts",
@@ -8962,6 +9683,7 @@
         "index": {
           "description": "parenthesised expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Paren",
           "package": "haskell-src-exts",
@@ -8976,6 +9698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparenthesised expression splice: \u003ccode\u003e$(\u003cem\u003eexp\u003c/em\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ParenSplice",
           "package": "haskell-src-exts",
@@ -8986,6 +9709,7 @@
         "index": {
           "description": "parenthesised expression splice exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ParenSplice",
           "package": "haskell-src-exts",
@@ -9000,6 +9724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern binding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PatBind",
           "package": "haskell-src-exts",
@@ -9010,6 +9735,7 @@
         "index": {
           "description": "pattern binding",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PatBind",
           "package": "haskell-src-exts",
@@ -9024,6 +9750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epattern bracket: \u003ccode\u003e[p| ... |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PatBracket",
           "package": "haskell-src-exts",
@@ -9034,6 +9761,7 @@
         "index": {
           "description": "pattern bracket",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PatBracket",
           "package": "haskell-src-exts",
@@ -9048,6 +9776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epattern with type signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PatTypeSig",
           "package": "haskell-src-exts",
@@ -9058,6 +9787,7 @@
         "index": {
           "description": "pattern with type signature",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PatTypeSig",
           "package": "haskell-src-exts",
@@ -9072,6 +9802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterruptible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PlayInterruptible",
           "package": "haskell-src-exts",
@@ -9082,6 +9813,7 @@
         "index": {
           "description": "interruptible",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PlayInterruptible",
           "package": "haskell-src-exts",
@@ -9096,6 +9828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsafe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PlayRisky",
           "package": "haskell-src-exts",
@@ -9106,6 +9839,7 @@
         "index": {
           "description": "unsafe",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PlayRisky",
           "package": "haskell-src-exts",
@@ -9120,6 +9854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esafe (\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e) or threadsafe (\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PlaySafe",
           "package": "haskell-src-exts",
@@ -9130,6 +9865,7 @@
         "index": {
           "description": "safe False or threadsafe True",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PlaySafe",
           "package": "haskell-src-exts",
@@ -9144,6 +9880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed character literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimChar",
           "package": "haskell-src-exts",
@@ -9154,6 +9891,7 @@
         "index": {
           "description": "unboxed character literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimChar",
           "package": "haskell-src-exts",
@@ -9168,6 +9906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed double literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimDouble",
           "package": "haskell-src-exts",
@@ -9178,6 +9917,7 @@
         "index": {
           "description": "unboxed double literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimDouble",
           "package": "haskell-src-exts",
@@ -9192,6 +9932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed float literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimFloat",
           "package": "haskell-src-exts",
@@ -9202,6 +9943,7 @@
         "index": {
           "description": "unboxed float literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimFloat",
           "package": "haskell-src-exts",
@@ -9216,6 +9958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed integer literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimInt",
           "package": "haskell-src-exts",
@@ -9226,6 +9969,7 @@
         "index": {
           "description": "unboxed integer literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimInt",
           "package": "haskell-src-exts",
@@ -9240,6 +9984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed string literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimString",
           "package": "haskell-src-exts",
@@ -9250,6 +9995,7 @@
         "index": {
           "description": "unboxed string literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimString",
           "package": "haskell-src-exts",
@@ -9264,6 +10010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed word literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimWord",
           "package": "haskell-src-exts",
@@ -9274,6 +10021,7 @@
         "index": {
           "description": "unboxed word literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "PrimWord",
           "package": "haskell-src-exts",
@@ -9288,6 +10036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earrows proc: \u003ccode\u003eproc\u003c/code\u003e \u003cem\u003epat\u003c/em\u003e \u003ccode\u003e-\u003e\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Proc",
           "package": "haskell-src-exts",
@@ -9298,6 +10047,7 @@
         "index": {
           "description": "arrows proc proc pat exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Proc",
           "package": "haskell-src-exts",
@@ -9312,6 +10062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructor operator (\u003cem\u003eqconop\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QConOp",
           "package": "haskell-src-exts",
@@ -9322,6 +10073,7 @@
         "index": {
           "description": "constructor operator qconop",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QConOp",
           "package": "haskell-src-exts",
@@ -9336,6 +10088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable operator (\u003cem\u003eqvarop\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QVarOp",
           "package": "haskell-src-exts",
@@ -9346,6 +10099,7 @@
         "index": {
           "description": "variable operator qvarop",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QVarOp",
           "package": "haskell-src-exts",
@@ -9360,6 +10114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename qualified with a module name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Qual",
           "package": "haskell-src-exts",
@@ -9370,6 +10125,7 @@
         "index": {
           "description": "name qualified with module name",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Qual",
           "package": "haskell-src-exts",
@@ -9383,6 +10139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QualConDecl",
           "package": "haskell-src-exts",
@@ -9392,6 +10149,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QualConDecl",
           "normalized": "QualConDecl a(Maybe[TyVarBind a])(Maybe(Context a))(ConDecl a)",
@@ -9408,6 +10166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean ordinary statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QualStmt",
           "package": "haskell-src-exts",
@@ -9418,6 +10177,7 @@
         "index": {
           "description": "an ordinary statement",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QualStmt",
           "package": "haskell-src-exts",
@@ -9432,6 +10192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean \u003cem\u003eexp\u003c/em\u003e by itself: in a \u003ccode\u003edo\u003c/code\u003e-expression,\n   an action whose result is discarded;\n   in a list comprehension and pattern guard,\n   a guard expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Qualifier",
           "package": "haskell-src-exts",
@@ -9442,6 +10203,7 @@
         "index": {
           "description": "an exp by itself in do expression an action whose result is discarded in list comprehension and pattern guard guard expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Qualifier",
           "package": "haskell-src-exts",
@@ -9456,6 +10218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equasi-quotaion: \u003ccode\u003e[$\u003cem\u003ename\u003c/em\u003e| \u003cem\u003estring\u003c/em\u003e |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QuasiQuote",
           "package": "haskell-src-exts",
@@ -9466,6 +10229,7 @@
         "index": {
           "description": "quasi-quotaion name string",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "QuasiQuote",
           "package": "haskell-src-exts",
@@ -9480,6 +10244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elinear variable binding, e.g. foo@(1 | 2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPAs",
           "package": "haskell-src-exts",
@@ -9490,6 +10255,7 @@
         "index": {
           "description": "linear variable binding e.g foo",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPAs",
           "package": "haskell-src-exts",
@@ -9504,6 +10270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-linear variable binding, e.g. (foo@:(1 | 2))*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPCAs",
           "package": "haskell-src-exts",
@@ -9514,6 +10281,7 @@
         "index": {
           "description": "non-linear variable binding e.g foo",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPCAs",
           "package": "haskell-src-exts",
@@ -9528,6 +10296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echoice pattern, e.g. (1 | 2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPEither",
           "package": "haskell-src-exts",
@@ -9538,6 +10307,7 @@
         "index": {
           "description": "choice pattern e.g",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPEither",
           "package": "haskell-src-exts",
@@ -9552,6 +10322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eguarded pattern, e.g. (| p | p \u003c 3 |)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPGuard",
           "package": "haskell-src-exts",
@@ -9562,6 +10333,7 @@
         "index": {
           "description": "guarded pattern e.g",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPGuard",
           "normalized": "RPGuard a(Pat a)[Stmt a]",
@@ -9578,6 +10350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoperator pattern, e.g. pat*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPOp",
           "package": "haskell-src-exts",
@@ -9588,6 +10361,7 @@
         "index": {
           "description": "operator pattern e.g pat",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPOp",
           "package": "haskell-src-exts",
@@ -9602,6 +10376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e?\u003c/code\u003e = 0 or 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPOpt",
           "package": "haskell-src-exts",
@@ -9612,6 +10387,7 @@
         "index": {
           "description": "or",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPOpt",
           "package": "haskell-src-exts",
@@ -9626,6 +10402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e?!\u003c/code\u003e = 0 or 1, greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPOptG",
           "package": "haskell-src-exts",
@@ -9636,6 +10413,7 @@
         "index": {
           "description": "or greedy",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPOptG",
           "package": "haskell-src-exts",
@@ -9650,6 +10428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparenthesised pattern, e.g. (2*)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPParen",
           "package": "haskell-src-exts",
@@ -9660,6 +10439,7 @@
         "index": {
           "description": "parenthesised pattern e.g",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPParen",
           "package": "haskell-src-exts",
@@ -9674,6 +10454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean ordinary pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPPat",
           "package": "haskell-src-exts",
@@ -9684,6 +10465,7 @@
         "index": {
           "description": "an ordinary pattern",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPPat",
           "package": "haskell-src-exts",
@@ -9698,6 +10480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e+\u003c/code\u003e = 1 or more\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPPlus",
           "package": "haskell-src-exts",
@@ -9708,6 +10491,7 @@
         "index": {
           "description": "or more",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPPlus",
           "package": "haskell-src-exts",
@@ -9722,6 +10506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e+!\u003c/code\u003e = 1 or more, greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPPlusG",
           "package": "haskell-src-exts",
@@ -9732,6 +10517,7 @@
         "index": {
           "description": "or more greedy",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPPlusG",
           "package": "haskell-src-exts",
@@ -9746,6 +10532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esequence pattern, e.g. (| 1, 2, 3 |)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPSeq",
           "package": "haskell-src-exts",
@@ -9756,6 +10543,7 @@
         "index": {
           "description": "sequence pattern e.g",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPSeq",
           "normalized": "RPSeq a[RPat a]",
@@ -9772,6 +10560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e*\u003c/code\u003e = 0 or more\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPStar",
           "package": "haskell-src-exts",
@@ -9782,6 +10571,7 @@
         "index": {
           "description": "or more",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPStar",
           "package": "haskell-src-exts",
@@ -9796,6 +10586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e*!\u003c/code\u003e = 0 or more, greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPStarG",
           "package": "haskell-src-exts",
@@ -9806,6 +10597,7 @@
         "index": {
           "description": "or more greedy",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RPStarG",
           "package": "haskell-src-exts",
@@ -9820,6 +10612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord construction expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RecConstr",
           "package": "haskell-src-exts",
@@ -9830,6 +10623,7 @@
         "index": {
           "description": "record construction expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RecConstr",
           "normalized": "RecConstr a(QName a)[FieldUpdate a]",
@@ -9846,6 +10640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RecDecl",
           "package": "haskell-src-exts",
@@ -9856,6 +10651,7 @@
         "index": {
           "description": "record constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RecDecl",
           "normalized": "RecDecl a(Name a)[FieldDecl a]",
@@ -9872,6 +10668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea recursive binding group for arrows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RecStmt",
           "package": "haskell-src-exts",
@@ -9882,6 +10679,7 @@
         "index": {
           "description": "recursive binding group for arrows",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RecStmt",
           "normalized": "RecStmt a[Stmt a]",
@@ -9898,6 +10696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord update expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RecUpdate",
           "package": "haskell-src-exts",
@@ -9908,6 +10707,7 @@
         "index": {
           "description": "record update expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RecUpdate",
           "normalized": "RecUpdate a(Exp a)[FieldUpdate a]",
@@ -9924,6 +10724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earrow application (from right): \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e\u003e-\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RightArrApp",
           "package": "haskell-src-exts",
@@ -9934,6 +10735,7 @@
         "index": {
           "description": "arrow application from right exp exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RightArrApp",
           "package": "haskell-src-exts",
@@ -9948,6 +10750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehigher-order arrow application (from right): \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e\u003e\u003e-\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RightArrHighApp",
           "package": "haskell-src-exts",
@@ -9958,6 +10761,7 @@
         "index": {
           "description": "higher-order arrow application from right exp exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RightArrHighApp",
           "package": "haskell-src-exts",
@@ -9972,6 +10776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright section \u003ccode\u003e(\u003c/code\u003e\u003cem\u003eqop\u003c/em\u003e \u003cem\u003eexp\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RightSection",
           "package": "haskell-src-exts",
@@ -9982,6 +10787,7 @@
         "index": {
           "description": "right section qop exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RightSection",
           "package": "haskell-src-exts",
@@ -9995,6 +10801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Rule",
           "package": "haskell-src-exts",
@@ -10004,6 +10811,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Rule",
           "normalized": "Rule a String(Maybe(Activation a))(Maybe[RuleVar a])(Exp a)(Exp a)",
@@ -10020,6 +10828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA RULES pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RulePragmaDecl",
           "package": "haskell-src-exts",
@@ -10030,6 +10839,7 @@
         "index": {
           "description": "RULES pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RulePragmaDecl",
           "normalized": "RulePragmaDecl a[Rule a]",
@@ -10045,6 +10855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RuleVar",
           "package": "haskell-src-exts",
@@ -10054,6 +10865,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "RuleVar",
           "package": "haskell-src-exts",
@@ -10068,6 +10880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSCC pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SCCPragma",
           "package": "haskell-src-exts",
@@ -10078,6 +10891,7 @@
         "index": {
           "description": "SCC pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SCCPragma",
           "package": "haskell-src-exts",
@@ -10092,6 +10906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SPECIALISE INLINE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpecInlineSig",
           "package": "haskell-src-exts",
@@ -10102,6 +10917,7 @@
         "index": {
           "description": "SPECIALISE INLINE pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpecInlineSig",
           "normalized": "SpecInlineSig a Bool(Maybe(Activation a))(QName a)[Type a]",
@@ -10118,6 +10934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SPECIALISE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpecSig",
           "package": "haskell-src-exts",
@@ -10128,6 +10945,7 @@
         "index": {
           "description": "SPECIALISE pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpecSig",
           "normalized": "SpecSig a(Maybe(Activation a))(QName a)[Type a]",
@@ -10144,6 +10962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuilt-in constructor with special syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Special",
           "package": "haskell-src-exts",
@@ -10154,6 +10973,7 @@
         "index": {
           "description": "built-in constructor with special syntax",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Special",
           "package": "haskell-src-exts",
@@ -10168,6 +10988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Template Haskell splicing declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpliceDecl",
           "package": "haskell-src-exts",
@@ -10178,6 +10999,7 @@
         "index": {
           "description": "Template Haskell splicing declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpliceDecl",
           "package": "haskell-src-exts",
@@ -10192,6 +11014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemplate haskell splice expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpliceExp",
           "package": "haskell-src-exts",
@@ -10202,6 +11025,7 @@
         "index": {
           "description": "template haskell splice expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "SpliceExp",
           "package": "haskell-src-exts",
@@ -10215,6 +11039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "StdCall",
           "package": "haskell-src-exts",
@@ -10224,6 +11049,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "StdCall",
           "package": "haskell-src-exts",
@@ -10238,6 +11064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "String",
           "package": "haskell-src-exts",
@@ -10248,6 +11075,7 @@
         "index": {
           "description": "string literal",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "String",
           "package": "haskell-src-exts",
@@ -10262,6 +11090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003evarsym\u003c/em\u003e or \u003cem\u003econsym\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Symbol",
           "package": "haskell-src-exts",
@@ -10272,6 +11101,7 @@
         "index": {
           "description": "varsym or consym",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Symbol",
           "package": "haskell-src-exts",
@@ -10286,6 +11116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eby\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ThenBy",
           "package": "haskell-src-exts",
@@ -10296,6 +11127,7 @@
         "index": {
           "description": "then exp by exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ThenBy",
           "package": "haskell-src-exts",
@@ -10310,6 +11142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ThenTrans",
           "package": "haskell-src-exts",
@@ -10320,6 +11153,7 @@
         "index": {
           "description": "then exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ThenTrans",
           "package": "haskell-src-exts",
@@ -10334,6 +11168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Tuple",
           "package": "haskell-src-exts",
@@ -10344,6 +11179,7 @@
         "index": {
           "description": "tuple expression",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Tuple",
           "normalized": "Tuple a Boxed[Exp a]",
@@ -10360,6 +11196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003en\u003c/em\u003e-ary tuple type and data\n   constructors \u003ccode\u003e(,)\u003c/code\u003e etc, possibly boxed \u003ccode\u003e(#,#)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TupleCon",
           "package": "haskell-src-exts",
@@ -10370,6 +11207,7 @@
         "index": {
           "description": "ary tuple type and data constructors etc possibly boxed",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TupleCon",
           "package": "haskell-src-exts",
@@ -10384,6 +11222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple section expression, e.g. \u003ccode\u003e(,,3)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TupleSection",
           "package": "haskell-src-exts",
@@ -10394,6 +11233,7 @@
         "index": {
           "description": "tuple section expression e.g",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TupleSection",
           "normalized": "TupleSection a Boxed[Maybe(Exp a)]",
@@ -10410,6 +11250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplication of a type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyApp",
           "package": "haskell-src-exts",
@@ -10420,6 +11261,7 @@
         "index": {
           "description": "application of type constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyApp",
           "package": "haskell-src-exts",
@@ -10434,6 +11276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enamed type or type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyCon",
           "package": "haskell-src-exts",
@@ -10444,6 +11287,7 @@
         "index": {
           "description": "named type or type constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyCon",
           "package": "haskell-src-exts",
@@ -10458,6 +11302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equalified type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyForall",
           "package": "haskell-src-exts",
@@ -10468,6 +11313,7 @@
         "index": {
           "description": "qualified type",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyForall",
           "normalized": "TyForall a(Maybe[TyVarBind a])(Maybe(Context a))(Type a)",
@@ -10484,6 +11330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyFun",
           "package": "haskell-src-exts",
@@ -10494,6 +11341,7 @@
         "index": {
           "description": "function type",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyFun",
           "package": "haskell-src-exts",
@@ -10508,6 +11356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyInfix",
           "package": "haskell-src-exts",
@@ -10518,6 +11367,7 @@
         "index": {
           "description": "infix type constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyInfix",
           "package": "haskell-src-exts",
@@ -10532,6 +11382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype with explicit kind signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyKind",
           "package": "haskell-src-exts",
@@ -10542,6 +11393,7 @@
         "index": {
           "description": "type with explicit kind signature",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyKind",
           "package": "haskell-src-exts",
@@ -10556,6 +11408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist syntax, e.g. [a], as opposed to [] a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyList",
           "package": "haskell-src-exts",
@@ -10566,6 +11419,7 @@
         "index": {
           "description": "list syntax e.g as opposed to",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyList",
           "package": "haskell-src-exts",
@@ -10580,6 +11434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype surrounded by parentheses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyParen",
           "package": "haskell-src-exts",
@@ -10590,6 +11445,7 @@
         "index": {
           "description": "type surrounded by parentheses",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyParen",
           "package": "haskell-src-exts",
@@ -10604,6 +11460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple type, possibly boxed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyTuple",
           "package": "haskell-src-exts",
@@ -10614,6 +11471,7 @@
         "index": {
           "description": "tuple type possibly boxed",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyTuple",
           "normalized": "TyTuple a Boxed[Type a]",
@@ -10630,6 +11488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyVar",
           "package": "haskell-src-exts",
@@ -10640,6 +11499,7 @@
         "index": {
           "description": "type variable",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TyVar",
           "package": "haskell-src-exts",
@@ -10654,6 +11514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e''T\u003c/code\u003e for template haskell reifying of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypQuote",
           "package": "haskell-src-exts",
@@ -10664,6 +11525,7 @@
         "index": {
           "description": "for template haskell reifying of types",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypQuote",
           "package": "haskell-src-exts",
@@ -10678,6 +11540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation for a declared type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeAnn",
           "package": "haskell-src-exts",
@@ -10688,6 +11551,7 @@
         "index": {
           "description": "An annotation for declared type",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeAnn",
           "package": "haskell-src-exts",
@@ -10702,6 +11566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype bracket: \u003ccode\u003e[t| ... |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeBracket",
           "package": "haskell-src-exts",
@@ -10712,6 +11577,7 @@
         "index": {
           "description": "type bracket",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeBracket",
           "package": "haskell-src-exts",
@@ -10726,6 +11592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeDecl",
           "package": "haskell-src-exts",
@@ -10736,6 +11603,7 @@
         "index": {
           "description": "type declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeDecl",
           "package": "haskell-src-exts",
@@ -10750,6 +11618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type family declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeFamDecl",
           "package": "haskell-src-exts",
@@ -10760,6 +11629,7 @@
         "index": {
           "description": "type family declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeFamDecl",
           "package": "haskell-src-exts",
@@ -10774,6 +11644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type family instance declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeInsDecl",
           "package": "haskell-src-exts",
@@ -10784,6 +11655,7 @@
         "index": {
           "description": "type family instance declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeInsDecl",
           "package": "haskell-src-exts",
@@ -10798,6 +11670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type signature declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeSig",
           "package": "haskell-src-exts",
@@ -10808,6 +11681,7 @@
         "index": {
           "description": "type signature declaration",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypeSig",
           "normalized": "TypeSig a[Name a](Type a)",
@@ -10823,6 +11697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypedRuleVar",
           "package": "haskell-src-exts",
@@ -10832,6 +11707,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "TypedRuleVar",
           "package": "haskell-src-exts",
@@ -10846,6 +11722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-strict component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnBangedTy",
           "package": "haskell-src-exts",
@@ -10856,6 +11733,7 @@
         "index": {
           "description": "non-strict component",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnBangedTy",
           "package": "haskell-src-exts",
@@ -10870,6 +11748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e-\u003e\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnGuardedAlt",
           "package": "haskell-src-exts",
@@ -10880,6 +11759,7 @@
         "index": {
           "description": "exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnGuardedAlt",
           "package": "haskell-src-exts",
@@ -10894,6 +11774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunguarded right hand side (\u003cem\u003eexp\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnGuardedRhs",
           "package": "haskell-src-exts",
@@ -10904,6 +11785,7 @@
         "index": {
           "description": "unguarded right hand side exp",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnGuardedRhs",
           "package": "haskell-src-exts",
@@ -10918,6 +11800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunqualified local name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnQual",
           "package": "haskell-src-exts",
@@ -10928,6 +11811,7 @@
         "index": {
           "description": "unqualified local name",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnQual",
           "package": "haskell-src-exts",
@@ -10965,6 +11849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed singleton tuple constructor \u003ccode\u003e(# #)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnboxedSingleCon",
           "package": "haskell-src-exts",
@@ -10975,6 +11860,7 @@
         "index": {
           "description": "unboxed singleton tuple constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnboxedSingleCon",
           "package": "haskell-src-exts",
@@ -10989,6 +11875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunit type and data constructor \u003ccode\u003e()\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnitCon",
           "package": "haskell-src-exts",
@@ -10999,6 +11886,7 @@
         "index": {
           "description": "unit type and data constructor",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnitCon",
           "package": "haskell-src-exts",
@@ -11013,6 +11901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary variable binding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnkindedVar",
           "package": "haskell-src-exts",
@@ -11023,6 +11912,7 @@
         "index": {
           "description": "ordinary variable binding",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnkindedVar",
           "package": "haskell-src-exts",
@@ -11060,6 +11950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed component, marked with an UNPACK pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnpackedTy",
           "package": "haskell-src-exts",
@@ -11070,6 +11961,7 @@
         "index": {
           "description": "unboxed component marked with an UNPACK pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "UnpackedTy",
           "package": "haskell-src-exts",
@@ -11084,6 +11976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Var",
           "package": "haskell-src-exts",
@@ -11094,6 +11987,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "Var",
           "package": "haskell-src-exts",
@@ -11108,6 +12002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of a method or field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "VarName",
           "package": "haskell-src-exts",
@@ -11118,6 +12013,7 @@
         "index": {
           "description": "name of method or field",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "VarName",
           "package": "haskell-src-exts",
@@ -11132,6 +12028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable operator (\u003cem\u003evarop\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "VarOp",
           "package": "haskell-src-exts",
@@ -11142,6 +12039,7 @@
         "index": {
           "description": "variable operator varop",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "VarOp",
           "package": "haskell-src-exts",
@@ -11156,6 +12054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e'x\u003c/code\u003e for template haskell reifying of expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "VarQuote",
           "package": "haskell-src-exts",
@@ -11166,6 +12065,7 @@
         "index": {
           "description": "for template haskell reifying of expressions",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "VarQuote",
           "package": "haskell-src-exts",
@@ -11180,6 +12080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WARNING pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "WarnPragmaDecl",
           "package": "haskell-src-exts",
@@ -11190,6 +12091,7 @@
         "index": {
           "description": "WARNING pragma",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "WarnPragmaDecl",
           "normalized": "WarnPragmaDecl a[([Name a],String)]",
@@ -11205,6 +12107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "WarnText",
           "package": "haskell-src-exts",
@@ -11214,6 +12117,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "WarnText",
           "package": "haskell-src-exts",
@@ -11227,6 +12131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XAttr",
           "package": "haskell-src-exts",
@@ -11236,6 +12141,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XAttr",
           "package": "haskell-src-exts",
@@ -11250,6 +12156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echildren of an xml element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XChildTag",
           "package": "haskell-src-exts",
@@ -11260,6 +12167,7 @@
         "index": {
           "description": "children of an xml element",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XChildTag",
           "normalized": "XChildTag a[Exp a]",
@@ -11275,6 +12183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XDomName",
           "package": "haskell-src-exts",
@@ -11284,6 +12193,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XDomName",
           "package": "haskell-src-exts",
@@ -11298,6 +12208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty xml element, with attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XETag",
           "package": "haskell-src-exts",
@@ -11308,6 +12219,7 @@
         "index": {
           "description": "empty xml element with attributes",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XETag",
           "normalized": "XETag a(XName a)[XAttr a](Maybe(Exp a))",
@@ -11324,6 +12236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eescaped haskell expression inside xml\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XExpTag",
           "package": "haskell-src-exts",
@@ -11334,6 +12247,7 @@
         "index": {
           "description": "escaped haskell expression inside xml",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XExpTag",
           "package": "haskell-src-exts",
@@ -11347,6 +12261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XName",
           "package": "haskell-src-exts",
@@ -11356,6 +12271,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XName",
           "package": "haskell-src-exts",
@@ -11370,6 +12286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePCDATA child element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XPcdata",
           "package": "haskell-src-exts",
@@ -11380,6 +12297,7 @@
         "index": {
           "description": "PCDATA child element",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XPcdata",
           "package": "haskell-src-exts",
@@ -11394,6 +12312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exml element, with attributes and children\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XTag",
           "package": "haskell-src-exts",
@@ -11404,6 +12323,7 @@
         "index": {
           "description": "xml element with attributes and children",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XTag",
           "normalized": "XTag a(XName a)[XAttr a](Maybe(Exp a))[Exp a]",
@@ -11420,6 +12340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea hybrid module combining an XML document with an ordinary module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XmlHybrid",
           "package": "haskell-src-exts",
@@ -11430,6 +12351,7 @@
         "index": {
           "description": "hybrid module combining an XML document with an ordinary module",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XmlHybrid",
           "normalized": "XmlHybrid a(Maybe(ModuleHead a))[ModulePragma a][ImportDecl a][Decl a](XName a)[XAttr a](Maybe(Exp a))[Exp a]",
@@ -11446,6 +12368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea module consisting of a single XML document. The ModuleName never appears in the source\n   but is needed for semantic purposes, it will be the same as the file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XmlPage",
           "package": "haskell-src-exts",
@@ -11456,6 +12379,7 @@
         "index": {
           "description": "module consisting of single XML document The ModuleName never appears in the source but is needed for semantic purposes it will be the same as the file name",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "XmlPage",
           "normalized": "XmlPage a(ModuleName a)[ModulePragma a](XName a)[XAttr a](Maybe(Exp a))[Exp a]",
@@ -11495,6 +12419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the annotation of an AST node. Note that only the annotation of\n   the node itself is affected, and not the annotations of any child nodes.\n   if all nodes in the AST tree are to be affected, use \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "amap",
           "package": "haskell-src-exts",
@@ -11505,6 +12430,7 @@
         "index": {
           "description": "Change the annotation of an AST node Note that only the annotation of the node itself is affected and not the annotations of any child nodes if all nodes in the AST tree are to be affected use fmap",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "amap",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -11520,6 +12446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the annotation of an AST node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ann",
           "package": "haskell-src-exts",
@@ -11530,6 +12457,7 @@
         "index": {
           "description": "Retrieve the annotation of an AST node",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ann",
           "normalized": "a b-\u003eb",
@@ -11544,6 +12472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "as_name",
           "package": "haskell-src-exts",
@@ -11553,6 +12482,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "as_name",
           "normalized": "a-\u003eName a",
@@ -11567,6 +12497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "bang_name",
           "package": "haskell-src-exts",
@@ -11576,6 +12507,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "bang_name",
           "normalized": "a-\u003eName a",
@@ -11590,6 +12522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ccall_name",
           "package": "haskell-src-exts",
@@ -11599,6 +12532,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "ccall_name",
           "normalized": "a-\u003eName a",
@@ -11613,6 +12547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "cplusplus_name",
           "package": "haskell-src-exts",
@@ -11622,6 +12557,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "cplusplus_name",
           "normalized": "a-\u003eName a",
@@ -11636,6 +12572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "dot_name",
           "package": "haskell-src-exts",
@@ -11645,6 +12582,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "dot_name",
           "normalized": "a-\u003eName a",
@@ -11659,6 +12597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "dotnet_name",
           "package": "haskell-src-exts",
@@ -11668,6 +12607,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "dotnet_name",
           "normalized": "a-\u003eName a",
@@ -11682,6 +12622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "export_name",
           "package": "haskell-src-exts",
@@ -11691,6 +12632,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "export_name",
           "normalized": "a-\u003eName a",
@@ -11705,6 +12647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "family_name",
           "package": "haskell-src-exts",
@@ -11714,6 +12657,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "family_name",
           "normalized": "a-\u003eName a",
@@ -11728,6 +12672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "forall_name",
           "package": "haskell-src-exts",
@@ -11737,6 +12682,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "forall_name",
           "normalized": "a-\u003eName a",
@@ -11751,6 +12697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "fun_tycon",
           "package": "haskell-src-exts",
@@ -11760,6 +12707,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "fun_tycon",
           "normalized": "a-\u003eType a",
@@ -11774,6 +12722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "fun_tycon_name",
           "package": "haskell-src-exts",
@@ -11783,6 +12732,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "fun_tycon_name",
           "normalized": "a-\u003eQName a",
@@ -11797,6 +12747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "hiding_name",
           "package": "haskell-src-exts",
@@ -11806,6 +12757,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "hiding_name",
           "normalized": "a-\u003eName a",
@@ -11821,6 +12773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eannotation, used by parser for position of the \u003ccode\u003eimport\u003c/code\u003e keyword.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importAnn",
           "package": "haskell-src-exts",
@@ -11831,6 +12784,7 @@
         "index": {
           "description": "annotation used by parser for position of the import keyword",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importAnn",
           "package": "haskell-src-exts",
@@ -11845,6 +12799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional alias name in an \u003ccode\u003eas\u003c/code\u003e clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importAs",
           "package": "haskell-src-exts",
@@ -11855,6 +12810,7 @@
         "index": {
           "description": "optional alias name in an as clause",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importAs",
           "package": "haskell-src-exts",
@@ -11869,6 +12825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of the module imported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importModule",
           "package": "haskell-src-exts",
@@ -11879,6 +12836,7 @@
         "index": {
           "description": "name of the module imported",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importModule",
           "package": "haskell-src-exts",
@@ -11893,6 +12851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported with explicit package name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importPkg",
           "package": "haskell-src-exts",
@@ -11903,6 +12862,7 @@
         "index": {
           "description": "imported with explicit package name",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importPkg",
           "package": "haskell-src-exts",
@@ -11917,6 +12877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported \u003ccode\u003equalified\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importQualified",
           "package": "haskell-src-exts",
@@ -11927,6 +12888,7 @@
         "index": {
           "description": "imported qualified",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importQualified",
           "package": "haskell-src-exts",
@@ -11941,6 +12903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional list of import specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importSpecs",
           "package": "haskell-src-exts",
@@ -11951,6 +12914,7 @@
         "index": {
           "description": "optional list of import specifications",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importSpecs",
           "package": "haskell-src-exts",
@@ -11965,6 +12929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported with \u003ccode\u003e{-# SOURCE #-}\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importSrc",
           "package": "haskell-src-exts",
@@ -11975,6 +12940,7 @@
         "index": {
           "description": "imported with SOURCE",
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "importSrc",
           "package": "haskell-src-exts",
@@ -11988,6 +12954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "js_name",
           "package": "haskell-src-exts",
@@ -11997,6 +12964,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "js_name",
           "normalized": "a-\u003eName a",
@@ -12011,6 +12979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "jvm_name",
           "package": "haskell-src-exts",
@@ -12020,6 +12989,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "jvm_name",
           "normalized": "a-\u003eName a",
@@ -12034,6 +13004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "list_cons_name",
           "package": "haskell-src-exts",
@@ -12043,6 +13014,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "list_cons_name",
           "normalized": "a-\u003eQName a",
@@ -12057,6 +13029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "list_tycon",
           "package": "haskell-src-exts",
@@ -12066,6 +13039,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "list_tycon",
           "normalized": "a-\u003eType a",
@@ -12080,6 +13054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "list_tycon_name",
           "package": "haskell-src-exts",
@@ -12089,6 +13064,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "list_tycon_name",
           "normalized": "a-\u003eQName a",
@@ -12103,6 +13079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "main_mod",
           "package": "haskell-src-exts",
@@ -12112,6 +13089,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "main_mod",
           "normalized": "a-\u003eModuleName a",
@@ -12126,6 +13104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "main_name",
           "package": "haskell-src-exts",
@@ -12135,6 +13114,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "main_name",
           "normalized": "a-\u003eName a",
@@ -12149,6 +13129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "minus_name",
           "package": "haskell-src-exts",
@@ -12158,6 +13139,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "minus_name",
           "normalized": "a-\u003eName a",
@@ -12172,6 +13154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "prelude_mod",
           "package": "haskell-src-exts",
@@ -12181,6 +13164,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "prelude_mod",
           "normalized": "a-\u003eModuleName a",
@@ -12195,6 +13179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "qualified_name",
           "package": "haskell-src-exts",
@@ -12204,6 +13189,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "qualified_name",
           "normalized": "a-\u003eName a",
@@ -12218,6 +13204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "safe_name",
           "package": "haskell-src-exts",
@@ -12227,6 +13214,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "safe_name",
           "normalized": "a-\u003eName a",
@@ -12241,6 +13229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "star_name",
           "package": "haskell-src-exts",
@@ -12250,6 +13239,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "star_name",
           "normalized": "a-\u003eName a",
@@ -12264,6 +13254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "stdcall_name",
           "package": "haskell-src-exts",
@@ -12273,6 +13264,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "stdcall_name",
           "normalized": "a-\u003eName a",
@@ -12287,6 +13279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "threadsafe_name",
           "package": "haskell-src-exts",
@@ -12296,6 +13289,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "threadsafe_name",
           "normalized": "a-\u003eName a",
@@ -12310,6 +13304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "tuple_con",
           "package": "haskell-src-exts",
@@ -12319,6 +13314,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "tuple_con",
           "normalized": "a-\u003eBoxed-\u003eInt-\u003eExp a",
@@ -12333,6 +13329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "tuple_con_name",
           "package": "haskell-src-exts",
@@ -12342,6 +13339,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "tuple_con_name",
           "normalized": "a-\u003eBoxed-\u003eInt-\u003eQName a",
@@ -12356,6 +13354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "tuple_tycon",
           "package": "haskell-src-exts",
@@ -12365,6 +13364,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "tuple_tycon",
           "normalized": "a-\u003eBoxed-\u003eInt-\u003eType a",
@@ -12379,6 +13379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "tuple_tycon_name",
           "package": "haskell-src-exts",
@@ -12388,6 +13389,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "tuple_tycon_name",
           "normalized": "a-\u003eBoxed-\u003eInt-\u003eQName a",
@@ -12402,6 +13404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unboxed_singleton_con",
           "package": "haskell-src-exts",
@@ -12411,6 +13414,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unboxed_singleton_con",
           "normalized": "a-\u003eExp a",
@@ -12425,6 +13429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unboxed_singleton_con_name",
           "package": "haskell-src-exts",
@@ -12434,6 +13439,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unboxed_singleton_con_name",
           "normalized": "a-\u003eQName a",
@@ -12448,6 +13454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unboxed_singleton_tycon",
           "package": "haskell-src-exts",
@@ -12457,6 +13464,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unboxed_singleton_tycon",
           "normalized": "a-\u003eType a",
@@ -12471,6 +13479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unboxed_singleton_tycon_name",
           "package": "haskell-src-exts",
@@ -12480,6 +13489,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unboxed_singleton_tycon_name",
           "normalized": "a-\u003eQName a",
@@ -12494,6 +13504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unit_con",
           "package": "haskell-src-exts",
@@ -12503,6 +13514,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unit_con",
           "normalized": "a-\u003eExp a",
@@ -12517,6 +13529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unit_con_name",
           "package": "haskell-src-exts",
@@ -12526,6 +13539,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unit_con_name",
           "normalized": "a-\u003eQName a",
@@ -12540,6 +13554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unit_tycon",
           "package": "haskell-src-exts",
@@ -12549,6 +13564,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unit_tycon",
           "normalized": "a-\u003eType a",
@@ -12563,6 +13579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unit_tycon_name",
           "package": "haskell-src-exts",
@@ -12572,6 +13589,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unit_tycon_name",
           "normalized": "a-\u003eQName a",
@@ -12586,6 +13604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unsafe_name",
           "package": "haskell-src-exts",
@@ -12595,6 +13614,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated.Syntax",
           "name": "unsafe_name",
           "normalized": "a-\u003eName a",
@@ -12610,6 +13630,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn umbrella module for the various functionality\n of the package. Also provides some convenient\n functionality for dealing directly with source files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "Annotated",
           "package": "haskell-src-exts",
@@ -12619,6 +13640,7 @@
         "index": {
           "description": "An umbrella module for the various functionality of the package Also provides some convenient functionality for dealing directly with source files",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "Annotated",
           "package": "haskell-src-exts",
@@ -12633,6 +13655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell top-level declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseDecl",
           "package": "haskell-src-exts",
@@ -12643,6 +13666,7 @@
         "index": {
           "description": "Parse of string containing Haskell top-level declaration",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseDecl",
           "normalized": "String-\u003eParseResult(Decl SrcSpanInfo)",
@@ -12659,6 +13683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseDeclWithComments",
           "package": "haskell-src-exts",
@@ -12669,6 +13694,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseDeclWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Decl SrcSpanInfo,[Comment])",
@@ -12685,6 +13711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell top-level declaration, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseDeclWithMode",
           "package": "haskell-src-exts",
@@ -12695,6 +13722,7 @@
         "index": {
           "description": "Parse of string containing Haskell top-level declaration using an explicit mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseDeclWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Decl SrcSpanInfo)",
@@ -12711,6 +13739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseExp",
           "package": "haskell-src-exts",
@@ -12721,6 +13750,7 @@
         "index": {
           "description": "Parse of string containing Haskell expression",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseExp",
           "normalized": "String-\u003eParseResult(Exp SrcSpanInfo)",
@@ -12737,6 +13767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseExpWithComments",
           "package": "haskell-src-exts",
@@ -12747,6 +13778,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseExpWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Exp SrcSpanInfo,[Comment])",
@@ -12763,6 +13795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell expression, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseExpWithMode",
           "package": "haskell-src-exts",
@@ -12773,6 +13806,7 @@
         "index": {
           "description": "Parse of string containing Haskell expression using an explicit mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseExpWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Exp SrcSpanInfo)",
@@ -12789,6 +13823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file on disk, using the default parse mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFile",
           "package": "haskell-src-exts",
@@ -12799,6 +13834,7 @@
         "index": {
           "description": "Parse source file on disk using the default parse mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(ParseResult(Module SrcSpanInfo))",
@@ -12815,6 +13851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file from a string using the default parse mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileContents",
           "package": "haskell-src-exts",
@@ -12825,6 +13862,7 @@
         "index": {
           "description": "Parse source file from string using the default parse mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileContents",
           "normalized": "String-\u003eParseResult(Module SrcSpanInfo)",
@@ -12840,6 +13878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileContentsWithComments",
           "package": "haskell-src-exts",
@@ -12849,6 +13888,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileContentsWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Module SrcSpanInfo,[Comment])",
@@ -12865,6 +13905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file from a string, with an extra set of extensions to know about\n   on top of what the file itself declares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileContentsWithExts",
           "package": "haskell-src-exts",
@@ -12875,6 +13916,7 @@
         "index": {
           "description": "Parse source file from string with an extra set of extensions to know about on top of what the file itself declares",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileContentsWithExts",
           "normalized": "[Extension]-\u003eString-\u003eParseResult(Module SrcSpanInfo)",
@@ -12891,6 +13933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file from a string using a custom parse mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileContentsWithMode",
           "package": "haskell-src-exts",
@@ -12901,6 +13944,7 @@
         "index": {
           "description": "Parse source file from string using custom parse mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileContentsWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Module SrcSpanInfo)",
@@ -12916,6 +13960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileWithComments",
           "package": "haskell-src-exts",
@@ -12925,6 +13970,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileWithComments",
           "normalized": "ParseMode-\u003eFilePath-\u003eIO(ParseResult(Module SrcSpanInfo,[Comment]))",
@@ -12941,6 +13987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file on disk, with an extra set of extensions to know about\n   on top of what the file itself declares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileWithExts",
           "package": "haskell-src-exts",
@@ -12951,6 +13998,7 @@
         "index": {
           "description": "Parse source file on disk with an extra set of extensions to know about on top of what the file itself declares",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileWithExts",
           "normalized": "[Extension]-\u003eFilePath-\u003eIO(ParseResult(Module SrcSpanInfo))",
@@ -12967,6 +14015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file on disk, supplying a custom parse mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileWithMode",
           "package": "haskell-src-exts",
@@ -12977,6 +14026,7 @@
         "index": {
           "description": "Parse source file on disk supplying custom parse mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseFileWithMode",
           "normalized": "ParseMode-\u003eFilePath-\u003eIO(ParseResult(Module SrcSpanInfo))",
@@ -12993,6 +14043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string, which should contain a complete Haskell module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseModule",
           "package": "haskell-src-exts",
@@ -13003,6 +14054,7 @@
         "index": {
           "description": "Parse of string which should contain complete Haskell module",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseModule",
           "normalized": "String-\u003eParseResult(Module SrcSpanInfo)",
@@ -13019,6 +14071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseModuleWithComments",
           "package": "haskell-src-exts",
@@ -13029,6 +14082,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseModuleWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Module SrcSpanInfo,[Comment])",
@@ -13045,6 +14099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseModuleWithMode",
           "package": "haskell-src-exts",
@@ -13055,6 +14110,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseModuleWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Module SrcSpanInfo)",
@@ -13071,6 +14127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parsePat",
           "package": "haskell-src-exts",
@@ -13081,6 +14138,7 @@
         "index": {
           "description": "Parse of string containing Haskell pattern",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parsePat",
           "normalized": "String-\u003eParseResult(Pat SrcSpanInfo)",
@@ -13097,6 +14155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parsePatWithComments",
           "package": "haskell-src-exts",
@@ -13107,6 +14166,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parsePatWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Pat SrcSpanInfo,[Comment])",
@@ -13123,6 +14183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell pattern, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parsePatWithMode",
           "package": "haskell-src-exts",
@@ -13133,6 +14194,7 @@
         "index": {
           "description": "Parse of string containing Haskell pattern using an explicit mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parsePatWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Pat SrcSpanInfo)",
@@ -13149,6 +14211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseStmt",
           "package": "haskell-src-exts",
@@ -13159,6 +14222,7 @@
         "index": {
           "description": "Parse of string containing Haskell statement",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseStmt",
           "normalized": "String-\u003eParseResult(Stmt SrcSpanInfo)",
@@ -13175,6 +14239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseStmtWithComments",
           "package": "haskell-src-exts",
@@ -13185,6 +14250,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseStmtWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Stmt SrcSpanInfo,[Comment])",
@@ -13201,6 +14267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell type, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseStmtWithMode",
           "package": "haskell-src-exts",
@@ -13211,6 +14278,7 @@
         "index": {
           "description": "Parse of string containing Haskell type using an explicit mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseStmtWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Stmt SrcSpanInfo)",
@@ -13227,6 +14295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseType",
           "package": "haskell-src-exts",
@@ -13237,6 +14306,7 @@
         "index": {
           "description": "Parse of string containing Haskell type",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseType",
           "normalized": "String-\u003eParseResult(Type SrcSpanInfo)",
@@ -13253,6 +14323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseTypeWithComments",
           "package": "haskell-src-exts",
@@ -13263,6 +14334,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseTypeWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Type SrcSpanInfo,[Comment])",
@@ -13279,6 +14351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell type, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseTypeWithMode",
           "package": "haskell-src-exts",
@@ -13289,6 +14362,7 @@
         "index": {
           "description": "Parse of string containing Haskell type using an explicit mode",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "parseTypeWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Type SrcSpanInfo)",
@@ -13305,6 +14379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGather the extensions declared in LANGUAGE pragmas\n   at the top of the file. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n   parse of the pragmas fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "readExtensions",
           "package": "haskell-src-exts",
@@ -13315,6 +14390,7 @@
         "index": {
           "description": "Gather the extensions declared in LANGUAGE pragmas at the top of the file Returns Nothing if the parse of the pragmas fails",
           "hierarchy": "Language Haskell Exts Annotated",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Annotated",
           "name": "readExtensions",
           "normalized": "String-\u003eMaybe(Maybe Language,[Extension])",
@@ -13331,6 +14407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains combinators to use when building\n Haskell source trees programmatically, as opposed to\n parsing them from a string. The contents here are quite\n experimental and will likely receive a lot of attention\n when the rest has stabilised.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "Build",
           "package": "haskell-src-exts",
@@ -13340,6 +14417,7 @@
         "index": {
           "description": "This module contains combinators to use when building Haskell source trees programmatically as opposed to parsing them from string The contents here are quite experimental and will likely receive lot of attention when the rest has stabilised",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "Build",
           "package": "haskell-src-exts",
@@ -13354,6 +14432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unguarded alternative in a \u003ccode\u003ecase\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "alt",
           "package": "haskell-src-exts",
@@ -13364,6 +14443,7 @@
         "index": {
           "description": "An unguarded alternative in case expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "alt",
           "normalized": "SrcLoc-\u003ePat-\u003eExp-\u003eAlt",
@@ -13379,6 +14459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternative with a single guard in a \u003ccode\u003ecase\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "altGW",
           "package": "haskell-src-exts",
@@ -13389,6 +14470,7 @@
         "index": {
           "description": "An alternative with single guard in case expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "altGW",
           "normalized": "SrcLoc-\u003ePat-\u003e[Stmt]-\u003eExp-\u003eBinds-\u003eAlt",
@@ -13405,6 +14487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of expressions by juxtaposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "app",
           "package": "haskell-src-exts",
@@ -13415,6 +14498,7 @@
         "index": {
           "description": "Application of expressions by juxtaposition",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "app",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -13430,6 +14514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to a list of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "appFun",
           "package": "haskell-src-exts",
@@ -13440,6 +14525,7 @@
         "index": {
           "description": "Apply function to list of arguments",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "appFun",
           "normalized": "Exp-\u003e[Exp]-\u003eExp",
@@ -13456,6 +14542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHoist a set of declarations to a binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "binds",
           "package": "haskell-src-exts",
@@ -13466,6 +14553,7 @@
         "index": {
           "description": "Hoist set of declarations to binding group",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "binds",
           "normalized": "[Decl]-\u003eBinds",
@@ -13481,6 +14569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003ecase\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "caseE",
           "package": "haskell-src-exts",
@@ -13491,6 +14580,7 @@
         "index": {
           "description": "case expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "caseE",
           "normalized": "Exp-\u003e[Alt]-\u003eExp",
@@ -13506,6 +14596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal character expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "charE",
           "package": "haskell-src-exts",
@@ -13516,6 +14607,7 @@
         "index": {
           "description": "literal character expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "charE",
           "normalized": "Char-\u003eExp",
@@ -13531,6 +14623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal character pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "charP",
           "package": "haskell-src-exts",
@@ -13541,6 +14634,7 @@
         "index": {
           "description": "literal character pattern",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "charP",
           "normalized": "Char-\u003ePat",
@@ -13556,6 +14650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA do block formed by the given statements.\n   The last statement in the list should be\n   a \u003ccode\u003e\u003ca\u003eQualifier\u003c/a\u003e\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "doE",
           "package": "haskell-src-exts",
@@ -13566,6 +14661,7 @@
         "index": {
           "description": "do block formed by the given statements The last statement in the list should be Qualifier expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "doE",
           "normalized": "[Stmt]-\u003eExp",
@@ -13581,6 +14677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty list expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "eList",
           "package": "haskell-src-exts",
@@ -13591,6 +14688,7 @@
         "index": {
           "description": "The empty list expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "eList",
           "package": "haskell-src-exts",
@@ -13605,6 +14703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function with a given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "function",
           "package": "haskell-src-exts",
@@ -13615,6 +14714,7 @@
         "index": {
           "description": "function with given name",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "function",
           "normalized": "String-\u003eExp",
@@ -13630,6 +14730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate k names by appending numbers 1 through k to a given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "genNames",
           "package": "haskell-src-exts",
@@ -13640,6 +14741,7 @@
         "index": {
           "description": "Generate names by appending numbers through to given string",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "genNames",
           "normalized": "String-\u003eInt-\u003e[Name]",
@@ -13656,6 +14758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generator statement: \u003cem\u003epat\u003c/em\u003e \u003ccode\u003e\u003c-\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "genStmt",
           "package": "haskell-src-exts",
@@ -13666,6 +14769,7 @@
         "index": {
           "description": "generator statement pat exp",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "genStmt",
           "normalized": "SrcLoc-\u003ePat-\u003eExp-\u003eStmt",
@@ -13682,6 +14786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an operator infix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "infixApp",
           "package": "haskell-src-exts",
@@ -13692,6 +14797,7 @@
         "index": {
           "description": "Apply an operator infix",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "infixApp",
           "normalized": "Exp-\u003eQOp-\u003eExp-\u003eExp",
@@ -13708,6 +14814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal integer expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "intE",
           "package": "haskell-src-exts",
@@ -13718,6 +14825,7 @@
         "index": {
           "description": "literal integer expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "intE",
           "normalized": "Integer-\u003eExp",
@@ -13733,6 +14841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal integer pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "intP",
           "package": "haskell-src-exts",
@@ -13743,6 +14852,7 @@
         "index": {
           "description": "literal integer pattern",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "intP",
           "normalized": "Integer-\u003ePat",
@@ -13758,6 +14868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLambda abstraction, given a list of argument\n   patterns and an expression body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "lamE",
           "package": "haskell-src-exts",
@@ -13768,6 +14879,7 @@
         "index": {
           "description": "Lambda abstraction given list of argument patterns and an expression body",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "lamE",
           "normalized": "SrcLoc-\u003e[Pat]-\u003eExp-\u003eExp",
@@ -13783,6 +14895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003elet\u003c/code\u003e ... \u003ccode\u003ein\u003c/code\u003e block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "letE",
           "package": "haskell-src-exts",
@@ -13793,6 +14906,7 @@
         "index": {
           "description": "let in block",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "letE",
           "normalized": "[Decl]-\u003eExp-\u003eExp",
@@ -13808,6 +14922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003elet\u003c/code\u003e binding group as a statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "letStmt",
           "package": "haskell-src-exts",
@@ -13818,6 +14933,7 @@
         "index": {
           "description": "let binding group as statement",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "letStmt",
           "normalized": "[Decl]-\u003eStmt",
@@ -13834,6 +14950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "listE",
           "package": "haskell-src-exts",
@@ -13844,6 +14961,7 @@
         "index": {
           "description": "list expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "listE",
           "normalized": "[Exp]-\u003eExp",
@@ -13859,6 +14977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a constructor of a given name to a list of pattern\n   arguments, forming a constructor pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "metaConPat",
           "package": "haskell-src-exts",
@@ -13869,6 +14988,7 @@
         "index": {
           "description": "Apply constructor of given name to list of pattern arguments forming constructor pattern",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "metaConPat",
           "normalized": "String-\u003e[Pat]-\u003ePat",
@@ -13885,6 +15005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function of a given name to a list of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "metaFunction",
           "package": "haskell-src-exts",
@@ -13895,6 +15016,7 @@
         "index": {
           "description": "Apply function of given name to list of arguments",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "metaFunction",
           "normalized": "String-\u003e[Exp]-\u003eExp",
@@ -13911,6 +15033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier with the given string as its name.\n   The string should be a valid Haskell identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "name",
           "package": "haskell-src-exts",
@@ -13921,6 +15044,7 @@
         "index": {
           "description": "An identifier with the given string as its name The string should be valid Haskell identifier",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "name",
           "normalized": "String-\u003eName",
@@ -13936,6 +15060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind an identifier to an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "nameBind",
           "package": "haskell-src-exts",
@@ -13946,6 +15071,7 @@
         "index": {
           "description": "Bind an identifier to an expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "nameBind",
           "normalized": "SrcLoc-\u003eName-\u003eExp-\u003eDecl",
@@ -13962,6 +15088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "noBinds",
           "package": "haskell-src-exts",
@@ -13972,6 +15099,7 @@
         "index": {
           "description": "An empty binding group",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "noBinds",
           "package": "haskell-src-exts",
@@ -13986,6 +15114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the given identifier as an operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "op",
           "package": "haskell-src-exts",
@@ -13996,6 +15125,7 @@
         "index": {
           "description": "Use the given identifier as an operator",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "op",
           "normalized": "Name-\u003eQOp",
@@ -14011,6 +15141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor pattern, with argument patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "pApp",
           "package": "haskell-src-exts",
@@ -14021,6 +15152,7 @@
         "index": {
           "description": "constructor pattern with argument patterns",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "pApp",
           "normalized": "Name-\u003e[Pat]-\u003ePat",
@@ -14037,6 +15169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut parentheses around a pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "pParen",
           "package": "haskell-src-exts",
@@ -14047,6 +15180,7 @@
         "index": {
           "description": "Put parentheses around pattern",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "pParen",
           "normalized": "Pat-\u003ePat",
@@ -14063,6 +15197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "pTuple",
           "package": "haskell-src-exts",
@@ -14073,6 +15208,7 @@
         "index": {
           "description": "tuple pattern",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "pTuple",
           "normalized": "[Pat]-\u003ePat",
@@ -14089,6 +15225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut parentheses around an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "paren",
           "package": "haskell-src-exts",
@@ -14099,6 +15236,7 @@
         "index": {
           "description": "Put parentheses around an expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "paren",
           "normalized": "Exp-\u003eExp",
@@ -14114,6 +15252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern bind where the pattern is a variable, and where\n there are no guards and no 'where' clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "patBind",
           "package": "haskell-src-exts",
@@ -14124,6 +15263,7 @@
         "index": {
           "description": "pattern bind where the pattern is variable and where there are no guards and no where clause",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "patBind",
           "normalized": "SrcLoc-\u003ePat-\u003eExp-\u003eDecl",
@@ -14140,6 +15280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern bind where the pattern is a variable, and where\n there are no guards, but with a 'where' clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "patBindWhere",
           "package": "haskell-src-exts",
@@ -14150,6 +15291,7 @@
         "index": {
           "description": "pattern bind where the pattern is variable and where there are no guards but with where clause",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "patBindWhere",
           "normalized": "SrcLoc-\u003ePat-\u003eExp-\u003e[Decl]-\u003eDecl",
@@ -14166,6 +15308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty list pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "peList",
           "package": "haskell-src-exts",
@@ -14176,6 +15319,7 @@
         "index": {
           "description": "The empty list pattern",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "peList",
           "package": "haskell-src-exts",
@@ -14190,6 +15334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "pvar",
           "package": "haskell-src-exts",
@@ -14200,6 +15345,7 @@
         "index": {
           "description": "pattern variable",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "pvar",
           "normalized": "Name-\u003ePat",
@@ -14215,6 +15361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple pattern consisting of variables only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "pvarTuple",
           "package": "haskell-src-exts",
@@ -14225,6 +15372,7 @@
         "index": {
           "description": "tuple pattern consisting of variables only",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "pvarTuple",
           "normalized": "[Name]-\u003ePat",
@@ -14241,6 +15389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA qualifier expression statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "qualStmt",
           "package": "haskell-src-exts",
@@ -14251,6 +15400,7 @@
         "index": {
           "description": "qualifier expression statement",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "qualStmt",
           "normalized": "Exp-\u003eStmt",
@@ -14267,6 +15417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA qualified variable as expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "qvar",
           "package": "haskell-src-exts",
@@ -14277,6 +15428,7 @@
         "index": {
           "description": "qualified variable as expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "qvar",
           "normalized": "ModuleName-\u003eName-\u003eExp",
@@ -14292,6 +15444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function with a single clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "sfun",
           "package": "haskell-src-exts",
@@ -14302,6 +15455,7 @@
         "index": {
           "description": "function with single clause",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "sfun",
           "normalized": "SrcLoc-\u003eName-\u003e[Name]-\u003eRhs-\u003eBinds-\u003eDecl",
@@ -14317,6 +15471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function with a single clause, a single argument, no guards\n and no where declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "simpleFun",
           "package": "haskell-src-exts",
@@ -14327,6 +15482,7 @@
         "index": {
           "description": "function with single clause single argument no guards and no where declarations",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "simpleFun",
           "normalized": "SrcLoc-\u003eName-\u003eName-\u003eExp-\u003eDecl",
@@ -14343,6 +15499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal string expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "strE",
           "package": "haskell-src-exts",
@@ -14353,6 +15510,7 @@
         "index": {
           "description": "literal string expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "strE",
           "normalized": "String-\u003eExp",
@@ -14368,6 +15526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal string pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "strP",
           "package": "haskell-src-exts",
@@ -14378,6 +15537,7 @@
         "index": {
           "description": "literal string pattern",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "strP",
           "normalized": "String-\u003ePat",
@@ -14393,6 +15553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol identifier. The string should be a valid\n   Haskell symbol identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "sym",
           "package": "haskell-src-exts",
@@ -14403,6 +15564,7 @@
         "index": {
           "description": "symbol identifier The string should be valid Haskell symbol identifier",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "sym",
           "normalized": "String-\u003eName",
@@ -14418,6 +15580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "tuple",
           "package": "haskell-src-exts",
@@ -14428,6 +15591,7 @@
         "index": {
           "description": "tuple expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "tuple",
           "normalized": "[Exp]-\u003eExp",
@@ -14443,6 +15607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA local variable as expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "var",
           "package": "haskell-src-exts",
@@ -14453,6 +15618,7 @@
         "index": {
           "description": "local variable as expression",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "var",
           "normalized": "Name-\u003eExp",
@@ -14468,6 +15634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple expression consisting of variables only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "varTuple",
           "package": "haskell-src-exts",
@@ -14478,6 +15645,7 @@
         "index": {
           "description": "tuple expression consisting of variables only",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "varTuple",
           "normalized": "[Name]-\u003eExp",
@@ -14494,6 +15662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe wildcard pattern: \u003ccode\u003e_\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Build",
           "name": "wildcard",
           "package": "haskell-src-exts",
@@ -14504,6 +15673,7 @@
         "index": {
           "description": "The wildcard pattern",
           "hierarchy": "Language Haskell Exts Build",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Build",
           "name": "wildcard",
           "package": "haskell-src-exts",
@@ -14516,6 +15686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Comments",
           "name": "Comments",
           "package": "haskell-src-exts",
@@ -14524,6 +15695,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Comments",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Comments",
           "name": "Comments",
           "package": "haskell-src-exts",
@@ -14538,6 +15710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell comment. The \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the comment is multi-line, i.e. \u003ccode\u003e{- -}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Comments",
           "name": "Comment",
           "package": "haskell-src-exts",
@@ -14547,6 +15720,7 @@
         "index": {
           "description": "Haskell comment The Bool is True if the comment is multi-line i.e",
           "hierarchy": "Language Haskell Exts Comments",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Comments",
           "name": "Comment",
           "package": "haskell-src-exts",
@@ -14560,6 +15734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Comments",
           "name": "Comment",
           "package": "haskell-src-exts",
@@ -14569,6 +15744,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Comments",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Comments",
           "name": "Comment",
           "package": "haskell-src-exts",
@@ -14583,6 +15759,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the list of recognized modular features\n of Haskell, most often (sloppily) referred to as \u003ca\u003eextensions\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eClosely mimicking the Language.Haskell.Extension module from\n the Cabal library, this package also includes functionality for\n \u003ca\u003ecomputing\u003c/a\u003e languages as sets of features. Also, we make no\n promise not to add extensions not yet recognized by Cabal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Extension",
           "package": "haskell-src-exts",
@@ -14592,6 +15769,7 @@
         "index": {
           "description": "This module defines the list of recognized modular features of Haskell most often sloppily referred to as extensions Closely mimicking the Language.Haskell.Extension module from the Cabal library this package also includes functionality for computing languages as sets of features Also we make no promise not to add extensions not yet recognized by Cabal",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Extension",
           "package": "haskell-src-exts",
@@ -14606,6 +15784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis represents language extensions beyond a base \u003ccode\u003e\u003ca\u003eLanguage\u003c/a\u003e\u003c/code\u003e definition\n (such as \u003ccode\u003e\u003ca\u003eHaskell98\u003c/a\u003e\u003c/code\u003e) that are supported by some implementations, usually\n in some special mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Extension",
           "package": "haskell-src-exts",
@@ -14615,6 +15794,7 @@
         "index": {
           "description": "This represents language extensions beyond base Language definition such as Haskell98 that are supported by some implementations usually in some special mode",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Extension",
           "package": "haskell-src-exts",
@@ -14628,6 +15808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "KnownExtension",
           "package": "haskell-src-exts",
@@ -14636,6 +15817,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "KnownExtension",
           "package": "haskell-src-exts",
@@ -14649,6 +15831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Language",
           "package": "haskell-src-exts",
@@ -14657,6 +15840,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Language",
           "package": "haskell-src-exts",
@@ -14671,6 +15855,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.10\u003c/dt\u003e\u003cdd\u003e Enable arrow notation.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Arrows",
           "package": "haskell-src-exts",
@@ -14681,6 +15866,7 @@
         "index": {
           "description": "GHC Enable arrow notation",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Arrows",
           "package": "haskell-src-exts",
@@ -14695,6 +15881,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.11\u003c/dt\u003e\u003cdd\u003e Enable a form of pattern which forces evaluation\n before an attempted match, and a form of strict \u003ccode\u003elet\u003c/code\u003e/\u003ccode\u003ewhere\u003c/code\u003e\n binding.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "BangPatterns",
           "package": "haskell-src-exts",
@@ -14705,6 +15892,7 @@
         "index": {
           "description": "GHC Enable form of pattern which forces evaluation before an attempted match and form of strict let where binding",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "BangPatterns",
           "package": "haskell-src-exts",
@@ -14719,6 +15907,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 8.1.5\u003c/dt\u003e\u003cdd\u003e Enable the \u003ccode\u003ecapi\u003c/code\u003e calling convention in the\n foreign function interface.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "CApiFFI",
           "package": "haskell-src-exts",
@@ -14729,6 +15918,7 @@
         "index": {
           "description": "GHC Enable the capi calling convention in the foreign function interface",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "CApiFFI",
           "package": "haskell-src-exts",
@@ -14743,6 +15933,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 4.10.3\u003c/dt\u003e\u003cdd\u003e Run the C preprocessor on Haskell source code.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "CPP",
           "package": "haskell-src-exts",
@@ -14753,6 +15944,7 @@
         "index": {
           "description": "GHC Run the preprocessor on Haskell source code",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "CPP",
           "package": "haskell-src-exts",
@@ -14767,6 +15959,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.1.3\u003c/dt\u003e\u003cdd\u003e Allow a class method's type to place\n additional constraints on a class type variable.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ConstrainedClassMethods",
           "package": "haskell-src-exts",
@@ -14777,6 +15970,7 @@
         "index": {
           "description": "GHC Allow class method type to place additional constraints on class type variable",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ConstrainedClassMethods",
           "package": "haskell-src-exts",
@@ -14791,6 +15985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow contexts to be put on datatypes, e.g. the \u003ccode\u003eEq a\u003c/code\u003e in\n \u003ccode\u003edata Eq a =\u003e Set a = NilSet | ConsSet a (Set a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DatatypeContexts",
           "package": "haskell-src-exts",
@@ -14801,6 +15996,7 @@
         "index": {
           "description": "Allow contexts to be put on datatypes e.g the Eq in data Eq Set NilSet ConsSet Set",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DatatypeContexts",
           "package": "haskell-src-exts",
@@ -14815,6 +16011,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.5.3\u003c/dt\u003e\u003cdd\u003e Enable \u003ccode\u003ederiving\u003c/code\u003e for classes\n \u003ccode\u003eData.Typeable.Typeable\u003c/code\u003e and \u003ccode\u003eData.Generics.Data\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DeriveDataTypeable",
           "package": "haskell-src-exts",
@@ -14825,6 +16022,7 @@
         "index": {
           "description": "GHC Enable deriving for classes Data.Typeable.Typeable and Data.Generics.Data",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DeriveDataTypeable",
           "package": "haskell-src-exts",
@@ -14839,6 +16037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable \u003ccode\u003ederiving\u003c/code\u003e for the \u003ccode\u003eData.Foldable.Foldable\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DeriveFoldable",
           "package": "haskell-src-exts",
@@ -14849,6 +16048,7 @@
         "index": {
           "description": "Enable deriving for the Data.Foldable.Foldable class",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DeriveFoldable",
           "package": "haskell-src-exts",
@@ -14863,6 +16063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable \u003ccode\u003ederiving\u003c/code\u003e for the \u003ccode\u003eData.Functor.Functor\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DeriveFunctor",
           "package": "haskell-src-exts",
@@ -14873,6 +16074,7 @@
         "index": {
           "description": "Enable deriving for the Data.Functor.Functor class",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DeriveFunctor",
           "package": "haskell-src-exts",
@@ -14887,6 +16089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable \u003ccode\u003ederiving\u003c/code\u003e for the \u003ccode\u003eData.Traversable.Traversable\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DeriveTraversable",
           "package": "haskell-src-exts",
@@ -14897,6 +16100,7 @@
         "index": {
           "description": "Enable deriving for the Data.Traversable.Traversable class",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DeriveTraversable",
           "package": "haskell-src-exts",
@@ -14911,6 +16115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable a known extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DisableExtension",
           "package": "haskell-src-exts",
@@ -14921,6 +16126,7 @@
         "index": {
           "description": "Disable known extension",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DisableExtension",
           "package": "haskell-src-exts",
@@ -14935,6 +16141,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.14\u003c/dt\u003e\u003cdd\u003e Allow a record field name to be disambiguated\n by the type of the record it's in.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DisambiguateRecordFields",
           "package": "haskell-src-exts",
@@ -14945,6 +16152,7 @@
         "index": {
           "description": "GHC Allow record field name to be disambiguated by the type of the record it in",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DisambiguateRecordFields",
           "package": "haskell-src-exts",
@@ -14959,6 +16167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImprove the layout rule when \u003ccode\u003eif\u003c/code\u003e expressions are used in a \u003ccode\u003edo\u003c/code\u003e\n block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DoAndIfThenElse",
           "package": "haskell-src-exts",
@@ -14969,6 +16178,7 @@
         "index": {
           "description": "Improve the layout rule when if expressions are used in do block",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "DoAndIfThenElse",
           "package": "haskell-src-exts",
@@ -14983,6 +16193,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.4.1\u003c/dt\u003e\u003cdd\u003e Allow data type declarations with no constructors.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "EmptyDataDecls",
           "package": "haskell-src-exts",
@@ -14993,6 +16204,7 @@
         "index": {
           "description": "GHC Allow data type declarations with no constructors",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "EmptyDataDecls",
           "package": "haskell-src-exts",
@@ -15007,6 +16219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable a known extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "EnableExtension",
           "package": "haskell-src-exts",
@@ -15017,6 +16230,7 @@
         "index": {
           "description": "Enable known extension",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "EnableExtension",
           "package": "haskell-src-exts",
@@ -15031,6 +16245,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.4.4\u003c/dt\u003e\u003cdd\u003e Allow existentially-quantified data constructors.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ExistentialQuantification",
           "package": "haskell-src-exts",
@@ -15041,6 +16256,7 @@
         "index": {
           "description": "GHC Allow existentially-quantified data constructors",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ExistentialQuantification",
           "package": "haskell-src-exts",
@@ -15055,6 +16271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003ccode\u003eforall\u003c/code\u003e a keyword in types, which can be used to give the\n generalisation explicitly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ExplicitForAll",
           "package": "haskell-src-exts",
@@ -15065,6 +16282,7 @@
         "index": {
           "description": "Make forall keyword in types which can be used to give the generalisation explicitly",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ExplicitForAll",
           "package": "haskell-src-exts",
@@ -15079,6 +16297,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 2.4.5\u003c/dt\u003e\u003cdd\u003e Allow default instantiation of polymorphic\n types in more situations.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ExtendedDefaultRules",
           "package": "haskell-src-exts",
@@ -15089,6 +16308,7 @@
         "index": {
           "description": "GHC Allow default instantiation of polymorphic types in more situations",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ExtendedDefaultRules",
           "package": "haskell-src-exts",
@@ -15103,6 +16323,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eHugs &#167; 7.1\u003c/dt\u003e\u003cdd\u003e Enable the \"Trex\" extensible records system.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ExtensibleRecords",
           "package": "haskell-src-exts",
@@ -15113,6 +16334,7 @@
         "index": {
           "description": "Hugs Enable the Trex extensible records system",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ExtensibleRecords",
           "package": "haskell-src-exts",
@@ -15127,6 +16349,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.2\u003c/dt\u003e\u003cdd\u003e Relax some restrictions on the form of the context\n of a type signature.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "FlexibleContexts",
           "package": "haskell-src-exts",
@@ -15137,6 +16360,7 @@
         "index": {
           "description": "GHC Relax some restrictions on the form of the context of type signature",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "FlexibleContexts",
           "package": "haskell-src-exts",
@@ -15151,6 +16375,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.3.2\u003c/dt\u003e\u003cdd\u003e Relax some restrictions on the form of the\n context of an instance declaration.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "FlexibleInstances",
           "package": "haskell-src-exts",
@@ -15161,6 +16386,7 @@
         "index": {
           "description": "GHC Relax some restrictions on the form of the context of an instance declaration",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "FlexibleInstances",
           "package": "haskell-src-exts",
@@ -15175,6 +16401,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 8\u003c/dt\u003e\u003cdd\u003e Enable the Foreign Function Interface.  In GHC,\n implements the standard Haskell 98 Foreign Function Interface\n Addendum, plus some GHC-specific extensions.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ForeignFunctionInterface",
           "package": "haskell-src-exts",
@@ -15185,6 +16412,7 @@
         "index": {
           "description": "GHC Enable the Foreign Function Interface In GHC implements the standard Haskell Foreign Function Interface Addendum plus some GHC-specific extensions",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ForeignFunctionInterface",
           "package": "haskell-src-exts",
@@ -15199,6 +16427,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.2\u003c/dt\u003e\u003cdd\u003e Allow a specification attached to a\n multi-parameter type class which indicates that some parameters\n are entirely determined by others. The implementation will check\n that this property holds for the declared instances, and will use\n this property to reduce ambiguity in instance resolution.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "FunctionalDependencies",
           "package": "haskell-src-exts",
@@ -15209,6 +16438,7 @@
         "index": {
           "description": "GHC Allow specification attached to multi-parameter type class which indicates that some parameters are entirely determined by others The implementation will check that this property holds for the declared instances and will use this property to reduce ambiguity in instance resolution",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "FunctionalDependencies",
           "package": "haskell-src-exts",
@@ -15223,6 +16453,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.4.6\u003c/dt\u003e\u003cdd\u003e Enable generalized algebraic data types, in\n which type variables may be instantiated on a per-constructor\n basis. Implies GADTSyntax.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "GADTs",
           "package": "haskell-src-exts",
@@ -15233,6 +16464,7 @@
         "index": {
           "description": "GHC Enable generalized algebraic data types in which type variables may be instantiated on per-constructor basis Implies GADTSyntax",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "GADTs",
           "package": "haskell-src-exts",
@@ -15247,6 +16479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows GHC primops, written in C--, to be imported into a Haskell\n file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "GHCForeignImportPrim",
           "package": "haskell-src-exts",
@@ -15257,6 +16490,7 @@
         "index": {
           "description": "Allows GHC primops written in to be imported into Haskell file",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "GHCForeignImportPrim",
           "package": "haskell-src-exts",
@@ -15271,6 +16505,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.5.4\u003c/dt\u003e\u003cdd\u003e Allow a type declared with \u003ccode\u003enewtype\u003c/code\u003e to use\n \u003ccode\u003ederiving\u003c/code\u003e for any class with an instance for the underlying type.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "GeneralizedNewtypeDeriving",
           "package": "haskell-src-exts",
@@ -15281,6 +16516,7 @@
         "index": {
           "description": "GHC Allow type declared with newtype to use deriving for any class with an instance for the underlying type",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "GeneralizedNewtypeDeriving",
           "package": "haskell-src-exts",
@@ -15295,6 +16531,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.16\u003c/dt\u003e\u003cdd\u003e Enable generic type classes, with default instances\n defined in terms of the algebraic structure of a type.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Generics",
           "package": "haskell-src-exts",
@@ -15305,6 +16542,7 @@
         "index": {
           "description": "GHC Enable generic type classes with default instances defined in terms of the algebraic structure of type",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Generics",
           "package": "haskell-src-exts",
@@ -15319,6 +16557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell 2010 language as defined by the Haskell 2010 report.\n \u003ca\u003ehttp://www.haskell.org/onlinereport/haskell2010\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Haskell2010",
           "package": "haskell-src-exts",
@@ -15329,6 +16568,7 @@
         "index": {
           "description": "The Haskell language as defined by the Haskell report http www.haskell.org onlinereport haskell2010",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Haskell2010",
           "package": "haskell-src-exts",
@@ -15343,6 +16583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell 98 language as defined by the Haskell 98 report.\n \u003ca\u003ehttp://haskell.org/onlinereport/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Haskell98",
           "package": "haskell-src-exts",
@@ -15353,6 +16594,7 @@
         "index": {
           "description": "The Haskell language as defined by the Haskell report http haskell.org onlinereport",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Haskell98",
           "package": "haskell-src-exts",
@@ -15367,6 +16609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimal language resulting from disabling all recognized\n extensions - including ones that are part of all known language\n definitions e.g. MonomorphismRestriction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "HaskellAllDisabled",
           "package": "haskell-src-exts",
@@ -15377,6 +16620,7 @@
         "index": {
           "description": "The minimal language resulting from disabling all recognized extensions including ones that are part of all known language definitions e.g MonomorphismRestriction",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "HaskellAllDisabled",
           "package": "haskell-src-exts",
@@ -15391,6 +16635,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eHugs &#167; 7.3\u003c/dt\u003e\u003cdd\u003e Enable an alternate syntax for string literals,\n with string templating.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "HereDocuments",
           "package": "haskell-src-exts",
@@ -15401,6 +16646,7 @@
         "index": {
           "description": "Hugs Enable an alternate syntax for string literals with string templating",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "HereDocuments",
           "package": "haskell-src-exts",
@@ -15415,6 +16661,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.3\u003c/dt\u003e\u003cdd\u003e Enable implicit function parameters with dynamic\n scope.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ImplicitParams",
           "package": "haskell-src-exts",
@@ -15425,6 +16672,7 @@
         "index": {
           "description": "GHC Enable implicit function parameters with dynamic scope",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ImplicitParams",
           "package": "haskell-src-exts",
@@ -15439,6 +16687,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.11\u003c/dt\u003e\u003cdd\u003e Enable the implicit importing of the module\n \u003ccode\u003ePrelude\u003c/code\u003e.  When disabled, when desugaring certain built-in syntax\n into ordinary identifiers, use whatever is in scope rather than the\n \u003ccode\u003ePrelude\u003c/code\u003e -- version.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ImplicitPrelude",
           "package": "haskell-src-exts",
@@ -15449,6 +16698,7 @@
         "index": {
           "description": "GHC Enable the implicit importing of the module Prelude When disabled when desugaring certain built-in syntax into ordinary identifiers use whatever is in scope rather than the Prelude version",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ImplicitPrelude",
           "package": "haskell-src-exts",
@@ -15463,6 +16713,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.6\u003c/dt\u003e\u003cdd\u003e Deprecated in GHC 6.12 and will be removed in\n GHC 7.  Allow a type variable to be instantiated at a\n polymorphic type.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ImpredicativeTypes",
           "package": "haskell-src-exts",
@@ -15473,6 +16724,7 @@
         "index": {
           "description": "GHC Deprecated in GHC and will be removed in GHC Allow type variable to be instantiated at polymorphic type",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ImpredicativeTypes",
           "package": "haskell-src-exts",
@@ -15487,6 +16739,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.3.4\u003c/dt\u003e\u003cdd\u003e Implies \u003ccode\u003e\u003ca\u003eOverlappingInstances\u003c/a\u003e\u003c/code\u003e.  Allow the\n implementation to choose an instance even when it is possible\n that further instantiation of types will lead to a more specific\n instance being applicable.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "IncoherentInstances",
           "package": "haskell-src-exts",
@@ -15497,6 +16750,7 @@
         "index": {
           "description": "GHC Implies OverlappingInstances Allow the implementation to choose an instance even when it is possible that further instantiation of types will lead to more specific instance being applicable",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "IncoherentInstances",
           "package": "haskell-src-exts",
@@ -15511,6 +16765,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 8.1.4\u003c/dt\u003e\u003cdd\u003e Enable interruptible FFI.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "InterruptibleFFI",
           "package": "haskell-src-exts",
@@ -15521,6 +16776,7 @@
         "index": {
           "description": "GHC Enable interruptible FFI",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "InterruptibleFFI",
           "package": "haskell-src-exts",
@@ -15535,6 +16791,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.4\u003c/dt\u003e\u003cdd\u003e Allow an explicit kind signature giving the kind of\n types over which a type variable ranges.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "KindSignatures",
           "package": "haskell-src-exts",
@@ -15545,6 +16802,7 @@
         "index": {
           "description": "GHC Allow an explicit kind signature giving the kind of types over which type variable ranges",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "KindSignatures",
           "package": "haskell-src-exts",
@@ -15559,6 +16817,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.4.3\u003c/dt\u003e\u003cdd\u003e Defer validity checking of types until after\n expanding type synonyms, relaxing the constraints on how synonyms\n may be used.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "LiberalTypeSynonyms",
           "package": "haskell-src-exts",
@@ -15569,6 +16828,7 @@
         "index": {
           "description": "GHC Defer validity checking of types until after expanding type synonyms relaxing the constraints on how synonyms may be used",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "LiberalTypeSynonyms",
           "package": "haskell-src-exts",
@@ -15583,6 +16843,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.2\u003c/dt\u003e\u003cdd\u003e Allow the character \u003ccode\u003e#\u003c/code\u003e as a postfix modifier on\n identifiers.  Also enables literal syntax for unboxed values.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MagicHash",
           "package": "haskell-src-exts",
@@ -15593,6 +16854,7 @@
         "index": {
           "description": "GHC Allow the character as postfix modifier on identifiers Also enables literal syntax for unboxed values",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MagicHash",
           "package": "haskell-src-exts",
@@ -15607,6 +16869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal (\u003ccode\u003elet\u003c/code\u003e and \u003ccode\u003ewhere\u003c/code\u003e) bindings are monomorphic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MonoLocalBinds",
           "package": "haskell-src-exts",
@@ -15617,6 +16880,7 @@
         "index": {
           "description": "Local let and where bindings are monomorphic",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MonoLocalBinds",
           "package": "haskell-src-exts",
@@ -15631,6 +16895,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.17.2\u003c/dt\u003e\u003cdd\u003e Make pattern bindings monomorphic.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MonoPatBinds",
           "package": "haskell-src-exts",
@@ -15641,6 +16906,7 @@
         "index": {
           "description": "GHC Make pattern bindings monomorphic",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MonoPatBinds",
           "package": "haskell-src-exts",
@@ -15655,6 +16921,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.17\u003c/dt\u003e\u003cdd\u003e Enable the dreaded monomorphism restriction.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MonomorphismRestriction",
           "package": "haskell-src-exts",
@@ -15665,6 +16932,7 @@
         "index": {
           "description": "GHC Enable the dreaded monomorphism restriction",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MonomorphismRestriction",
           "package": "haskell-src-exts",
@@ -15679,6 +16947,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.1.1\u003c/dt\u003e\u003cdd\u003e Allow multiple parameters in a type class.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MultiParamTypeClasses",
           "package": "haskell-src-exts",
@@ -15689,6 +16958,7 @@
         "index": {
           "description": "GHC Allow multiple parameters in type class",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "MultiParamTypeClasses",
           "package": "haskell-src-exts",
@@ -15703,6 +16973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupport for patterns of the form \u003ccode\u003en + k\u003c/code\u003e, where \u003ccode\u003ek\u003c/code\u003e is an\n integer literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "NPlusKPatterns",
           "package": "haskell-src-exts",
@@ -15713,6 +16984,7 @@
         "index": {
           "description": "Support for patterns of the form where is an integer literal",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "NPlusKPatterns",
           "package": "haskell-src-exts",
@@ -15727,6 +16999,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.15\u003c/dt\u003e\u003cdd\u003e Enable syntax for implicitly binding local names\n corresponding to the field names of a record.  Puns bind specific\n names, unlike \u003ccode\u003e\u003ca\u003eRecordWildCards\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "NamedFieldPuns",
           "package": "haskell-src-exts",
@@ -15737,6 +17010,7 @@
         "index": {
           "description": "GHC Enable syntax for implicitly binding local names corresponding to the field names of record Puns bind specific names unlike RecordWildCards",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "NamedFieldPuns",
           "package": "haskell-src-exts",
@@ -15751,6 +17025,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.3\u003c/dt\u003e\u003cdd\u003e Change the syntax for qualified infix\n operators.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "NewQualifiedOperators",
           "package": "haskell-src-exts",
@@ -15761,6 +17036,7 @@
         "index": {
           "description": "GHC Change the syntax for qualified infix operators",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "NewQualifiedOperators",
           "package": "haskell-src-exts",
@@ -15775,6 +17051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable non-decreasing indentation for 'do' blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "NondecreasingIndentation",
           "package": "haskell-src-exts",
@@ -15785,6 +17062,7 @@
         "index": {
           "description": "Enable non-decreasing indentation for do blocks",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "NondecreasingIndentation",
           "package": "haskell-src-exts",
@@ -15799,6 +17077,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.3.4\u003c/dt\u003e\u003cdd\u003e Allow overlapping class instances,\n provided there is a unique most specific instance for each use.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "OverlappingInstances",
           "package": "haskell-src-exts",
@@ -15809,6 +17088,7 @@
         "index": {
           "description": "GHC Allow overlapping class instances provided there is unique most specific instance for each use",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "OverlappingInstances",
           "package": "haskell-src-exts",
@@ -15823,6 +17103,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.4\u003c/dt\u003e\u003cdd\u003e Enable overloading of string literals using a\n type class, much like integer literals.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "OverloadedStrings",
           "package": "haskell-src-exts",
@@ -15833,6 +17114,7 @@
         "index": {
           "description": "GHC Enable overloading of string literals using type class much like integer literals",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "OverloadedStrings",
           "package": "haskell-src-exts",
@@ -15847,6 +17129,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.18\u003c/dt\u003e\u003cdd\u003e Allow imports to be qualified by the package\n name the module is intended to be imported from, e.g.\n\u003c/dd\u003e\u003c/dl\u003e\u003cpre\u003e import \"network\" Network.Socket\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PackageImports",
           "package": "haskell-src-exts",
@@ -15857,6 +17140,7 @@
         "index": {
           "description": "GHC Allow imports to be qualified by the package name the module is intended to be imported from e.g import network Network.Socket",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PackageImports",
           "package": "haskell-src-exts",
@@ -15871,6 +17155,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.9\u003c/dt\u003e\u003cdd\u003e Provide syntax for writing list\n comprehensions which iterate over several lists together, like\n the \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e family of functions.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ParallelListComp",
           "package": "haskell-src-exts",
@@ -15881,6 +17166,7 @@
         "index": {
           "description": "GHC Provide syntax for writing list comprehensions which iterate over several lists together like the zipWith family of functions",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ParallelListComp",
           "package": "haskell-src-exts",
@@ -15895,6 +17181,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.5\u003c/dt\u003e\u003cdd\u003e Enable a form of guard which matches a pattern and\n binds variables.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PatternGuards",
           "package": "haskell-src-exts",
@@ -15905,6 +17192,7 @@
         "index": {
           "description": "GHC Enable form of guard which matches pattern and binds variables",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PatternGuards",
           "package": "haskell-src-exts",
@@ -15919,6 +17207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated, use \u003ccode\u003e\u003ca\u003eScopedTypeVariables\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PatternSignatures",
           "package": "haskell-src-exts",
@@ -15929,6 +17218,7 @@
         "index": {
           "description": "Deprecated use ScopedTypeVariables instead",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PatternSignatures",
           "package": "haskell-src-exts",
@@ -15943,6 +17233,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.5\u003c/dt\u003e\u003cdd\u003e Allow data constructors to have polymorphic\n arguments.  Unlike \u003ccode\u003e\u003ca\u003eRankNTypes\u003c/a\u003e\u003c/code\u003e, does not allow this for ordinary\n functions.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PolymorphicComponents",
           "package": "haskell-src-exts",
@@ -15953,6 +17244,7 @@
         "index": {
           "description": "GHC Allow data constructors to have polymorphic arguments Unlike RankNTypes does not allow this for ordinary functions",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PolymorphicComponents",
           "package": "haskell-src-exts",
@@ -15967,6 +17259,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.12\u003c/dt\u003e\u003cdd\u003e Relax the interpretation of left operator\n sections to allow unary postfix operators.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PostfixOperators",
           "package": "haskell-src-exts",
@@ -15977,6 +17270,7 @@
         "index": {
           "description": "GHC Relax the interpretation of left operator sections to allow unary postfix operators",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "PostfixOperators",
           "package": "haskell-src-exts",
@@ -15991,6 +17285,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.9.5\u003c/dt\u003e\u003cdd\u003e Enable quasi-quotation, a mechanism for defining\n new concrete syntax for expressions and patterns.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "QuasiQuotes",
           "package": "haskell-src-exts",
@@ -16001,6 +17296,7 @@
         "index": {
           "description": "GHC Enable quasi-quotation mechanism for defining new concrete syntax for expressions and patterns",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "QuasiQuotes",
           "package": "haskell-src-exts",
@@ -16015,6 +17311,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.5\u003c/dt\u003e\u003cdd\u003e Like \u003ccode\u003e\u003ca\u003eRankNTypes\u003c/a\u003e\u003c/code\u003e but does not allow a\n higher-rank type to itself appear on the left of a function\n arrow.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Rank2Types",
           "package": "haskell-src-exts",
@@ -16025,6 +17322,7 @@
         "index": {
           "description": "GHC Like RankNTypes but does not allow higher-rank type to itself appear on the left of function arrow",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "Rank2Types",
           "package": "haskell-src-exts",
@@ -16039,6 +17337,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.5\u003c/dt\u003e\u003cdd\u003e Allow a universally-quantified type to occur on\n the left of a function arrow.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RankNTypes",
           "package": "haskell-src-exts",
@@ -16049,6 +17348,7 @@
         "index": {
           "description": "GHC Allow universally-quantified type to occur on the left of function arrow",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RankNTypes",
           "package": "haskell-src-exts",
@@ -16063,6 +17363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes much of the Haskell sugar be desugared into calls to the\n function with a particular name that is in scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RebindableSyntax",
           "package": "haskell-src-exts",
@@ -16073,6 +17374,7 @@
         "index": {
           "description": "Makes much of the Haskell sugar be desugared into calls to the function with particular name that is in scope",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RebindableSyntax",
           "package": "haskell-src-exts",
@@ -16087,6 +17389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated, use \u003ccode\u003e\u003ca\u003eNamedFieldPuns\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RecordPuns",
           "package": "haskell-src-exts",
@@ -16097,6 +17400,7 @@
         "index": {
           "description": "Deprecated use NamedFieldPuns instead",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RecordPuns",
           "package": "haskell-src-exts",
@@ -16111,6 +17415,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.16\u003c/dt\u003e\u003cdd\u003e Enable syntax for implicitly binding local names\n corresponding to the field names of a record.  A wildcard binds\n all unmentioned names, unlike \u003ccode\u003e\u003ca\u003eNamedFieldPuns\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RecordWildCards",
           "package": "haskell-src-exts",
@@ -16121,6 +17426,7 @@
         "index": {
           "description": "GHC Enable syntax for implicitly binding local names corresponding to the field names of record wildcard binds all unmentioned names unlike NamedFieldPuns",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RecordWildCards",
           "package": "haskell-src-exts",
@@ -16135,6 +17441,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.8.2\u003c/dt\u003e\u003cdd\u003e Deprecated in GHC.  Allows recursive bindings\n using \u003ccode\u003emdo\u003c/code\u003e, a variant of \u003ccode\u003edo\u003c/code\u003e.  \u003ccode\u003eDoRec\u003c/code\u003e provides a different,\n preferred syntax.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RecursiveDo",
           "package": "haskell-src-exts",
@@ -16145,6 +17452,7 @@
         "index": {
           "description": "GHC Deprecated in GHC Allows recursive bindings using mdo variant of do DoRec provides different preferred syntax",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RecursiveDo",
           "package": "haskell-src-exts",
@@ -16159,6 +17467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow regular pattern matching over lists, as discussed in the\n paper \"Regular Expression Patterns\" by Niklas Broberg, Andreas Farre\n and Josef Svenningsson, from ICFP '04.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RegularPatterns",
           "package": "haskell-src-exts",
@@ -16169,6 +17478,7 @@
         "index": {
           "description": "Allow regular pattern matching over lists as discussed in the paper Regular Expression Patterns by Niklas Broberg Andreas Farre and Josef Svenningsson from ICFP",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RegularPatterns",
           "package": "haskell-src-exts",
@@ -16183,6 +17493,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.8\u003c/dt\u003e\u003cdd\u003e Relax the requirements on mutually-recursive\n polymorphic functions.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RelaxedPolyRec",
           "package": "haskell-src-exts",
@@ -16193,6 +17504,7 @@
         "index": {
           "description": "GHC Relax the requirements on mutually-recursive polymorphic functions",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RelaxedPolyRec",
           "package": "haskell-src-exts",
@@ -16207,6 +17519,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eHugs &#167; 7.2\u003c/dt\u003e\u003cdd\u003e Enable type synonyms which are transparent in\n some definitions and opaque elsewhere, as a way of implementing \n abstract datatypes.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RestrictedTypeSynonyms",
           "package": "haskell-src-exts",
@@ -16217,6 +17530,7 @@
         "index": {
           "description": "Hugs Enable type synonyms which are transparent in some definitions and opaque elsewhere as way of implementing abstract datatypes",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "RestrictedTypeSynonyms",
           "package": "haskell-src-exts",
@@ -16231,6 +17545,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.8.7\u003c/dt\u003e\u003cdd\u003e Cause a type variable in a signature, which has an\n explicit \u003ccode\u003eforall\u003c/code\u003e quantifier, to scope over the definition of the\n accompanying value declaration.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ScopedTypeVariables",
           "package": "haskell-src-exts",
@@ -16241,6 +17556,7 @@
         "index": {
           "description": "GHC Cause type variable in signature which has an explicit forall quantifier to scope over the definition of the accompanying value declaration",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ScopedTypeVariables",
           "package": "haskell-src-exts",
@@ -16255,6 +17571,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.5.2\u003c/dt\u003e\u003cdd\u003e Allow a standalone declaration which invokes the\n type class \u003ccode\u003ederiving\u003c/code\u003e mechanism.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "StandaloneDeriving",
           "package": "haskell-src-exts",
@@ -16265,6 +17582,7 @@
         "index": {
           "description": "GHC Allow standalone declaration which invokes the type class deriving mechanism",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "StandaloneDeriving",
           "package": "haskell-src-exts",
@@ -16279,6 +17597,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.9\u003c/dt\u003e\u003cdd\u003e Enable Template Haskell, a system for compile-time\n metaprogramming.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TemplateHaskell",
           "package": "haskell-src-exts",
@@ -16289,6 +17608,7 @@
         "index": {
           "description": "GHC Enable Template Haskell system for compile-time metaprogramming",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TemplateHaskell",
           "package": "haskell-src-exts",
@@ -16303,6 +17623,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.10\u003c/dt\u003e\u003cdd\u003e Enable generalized list comprehensions,\n supporting operations such as sorting and grouping.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TransformListComp",
           "package": "haskell-src-exts",
@@ -16313,6 +17634,7 @@
         "index": {
           "description": "GHC Enable generalized list comprehensions supporting operations such as sorting and grouping",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TransformListComp",
           "package": "haskell-src-exts",
@@ -16327,6 +17649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnables the use of tuple sections, e.g. \u003ccode\u003e(, True)\u003c/code\u003e desugars into\n \u003ccode\u003ex -\u003e (x, True)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TupleSections",
           "package": "haskell-src-exts",
@@ -16337,6 +17660,7 @@
         "index": {
           "description": "Enables the use of tuple sections e.g True desugars into True",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TupleSections",
           "package": "haskell-src-exts",
@@ -16351,6 +17675,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.7\u003c/dt\u003e\u003cdd\u003e Allow data types and type synonyms which are\n indexed by types, i.e. ad-hoc polymorphism for types.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TypeFamilies",
           "package": "haskell-src-exts",
@@ -16361,6 +17686,7 @@
         "index": {
           "description": "GHC Allow data types and type synonyms which are indexed by types i.e ad-hoc polymorphism for types",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TypeFamilies",
           "package": "haskell-src-exts",
@@ -16375,6 +17701,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.4.2\u003c/dt\u003e\u003cdd\u003e Allow the name of a type constructor, type class,\n or type variable to be an infix operator.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TypeOperators",
           "package": "haskell-src-exts",
@@ -16385,6 +17712,7 @@
         "index": {
           "description": "GHC Allow the name of type constructor type class or type variable to be an infix operator",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TypeOperators",
           "package": "haskell-src-exts",
@@ -16399,6 +17727,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.3.1\u003c/dt\u003e\u003cdd\u003e Allow type synonyms in instance heads.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TypeSynonymInstances",
           "package": "haskell-src-exts",
@@ -16409,6 +17738,7 @@
         "index": {
           "description": "GHC Allow type synonyms in instance heads",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "TypeSynonymInstances",
           "package": "haskell-src-exts",
@@ -16423,6 +17753,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.2.2\u003c/dt\u003e\u003cdd\u003e Enable unboxed tuples.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnboxedTuples",
           "package": "haskell-src-exts",
@@ -16433,6 +17764,7 @@
         "index": {
           "description": "GHC Enable unboxed tuples",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnboxedTuples",
           "package": "haskell-src-exts",
@@ -16447,6 +17779,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.6.3.3\u003c/dt\u003e\u003cdd\u003e Ignore structural rules guaranteeing the\n termination of class instance resolution.  Termination is\n guaranteed by a fixed-depth recursion stack, and compilation\n may fail if this depth is exceeded.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UndecidableInstances",
           "package": "haskell-src-exts",
@@ -16457,6 +17790,7 @@
         "index": {
           "description": "GHC Ignore structural rules guaranteeing the termination of class instance resolution Termination is guaranteed by fixed-depth recursion stack and compilation may fail if this depth is exceeded",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UndecidableInstances",
           "package": "haskell-src-exts",
@@ -16471,6 +17805,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.1\u003c/dt\u003e\u003cdd\u003e Allow certain Unicode characters to stand for\n certain ASCII character sequences, e.g. keywords and punctuation.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnicodeSyntax",
           "package": "haskell-src-exts",
@@ -16481,6 +17816,7 @@
         "index": {
           "description": "GHC Allow certain Unicode characters to stand for certain ASCII character sequences e.g keywords and punctuation",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnicodeSyntax",
           "package": "haskell-src-exts",
@@ -16495,6 +17831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unknown extension, identified by the name of its \u003ccode\u003eLANGUAGE\u003c/code\u003e\n pragma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnknownExtension",
           "package": "haskell-src-exts",
@@ -16505,6 +17842,7 @@
         "index": {
           "description": "An unknown extension identified by the name of its LANGUAGE pragma",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnknownExtension",
           "package": "haskell-src-exts",
@@ -16519,6 +17857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unknown language, identified by its name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnknownLanguage",
           "package": "haskell-src-exts",
@@ -16529,6 +17868,7 @@
         "index": {
           "description": "An unknown language identified by its name",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnknownLanguage",
           "package": "haskell-src-exts",
@@ -16543,6 +17883,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 8.1.1\u003c/dt\u003e\u003cdd\u003e Allow the use of unboxed types as foreign types,\n e.g. in \u003ccode\u003eforeign import\u003c/code\u003e and \u003ccode\u003eforeign export\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnliftedFFITypes",
           "package": "haskell-src-exts",
@@ -16553,6 +17894,7 @@
         "index": {
           "description": "GHC Allow the use of unboxed types as foreign types e.g in foreign import and foreign export",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "UnliftedFFITypes",
           "package": "haskell-src-exts",
@@ -16567,6 +17909,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eGHC &#167; 7.3.6\u003c/dt\u003e\u003cdd\u003e Enable view patterns, which match a value by\n applying a function and matching on the result.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ViewPatterns",
           "package": "haskell-src-exts",
@@ -16577,6 +17920,7 @@
         "index": {
           "description": "GHC Enable view patterns which match value by applying function and matching on the result",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ViewPatterns",
           "package": "haskell-src-exts",
@@ -16591,6 +17935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow concrete XML syntax to be used in expressions and patterns,\n as per the Haskell Server Pages extension language:\n \u003ca\u003ehttp://www.haskell.org/haskellwiki/HSP\u003c/a\u003e. The ideas behind it are\n discussed in the paper \"Haskell Server Pages through Dynamic Loading\"\n by Niklas Broberg, from Haskell Workshop '05.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "XmlSyntax",
           "package": "haskell-src-exts",
@@ -16601,6 +17946,7 @@
         "index": {
           "description": "Allow concrete XML syntax to be used in expressions and patterns as per the Haskell Server Pages extension language http www.haskell.org haskellwiki HSP The ideas behind it are discussed in the paper Haskell Server Pages through Dynamic Loading by Niklas Broberg from Haskell Workshop",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "XmlSyntax",
           "package": "haskell-src-exts",
@@ -16615,6 +17961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA clever version of read that returns an \u003ccode\u003e\u003ca\u003eUnknownExtension\u003c/a\u003e\u003c/code\u003e\n   if the string is not recognised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "classifyExtension",
           "package": "haskell-src-exts",
@@ -16625,6 +17972,7 @@
         "index": {
           "description": "clever version of read that returns an UnknownExtension if the string is not recognised",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "classifyExtension",
           "normalized": "String-\u003eExtension",
@@ -16640,6 +17988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "classifyLanguage",
           "package": "haskell-src-exts",
@@ -16649,6 +17998,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "classifyLanguage",
           "normalized": "String-\u003eLanguage",
@@ -16665,6 +18015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtensions that have been deprecated, possibly paired with another\n extension that replaces it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "deprecatedExtensions",
           "package": "haskell-src-exts",
@@ -16675,6 +18026,7 @@
         "index": {
           "description": "Extensions that have been deprecated possibly paired with another extension that replaces it",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "deprecatedExtensions",
           "normalized": "[(Extension,Maybe Extension)]",
@@ -16690,6 +18042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ghcDefault",
           "package": "haskell-src-exts",
@@ -16699,6 +18052,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "ghcDefault",
           "normalized": "[Extension]",
@@ -16715,6 +18069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of extensions enabled by\n   GHC's portmanteau -fglasgow-exts flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "glasgowExts",
           "package": "haskell-src-exts",
@@ -16725,6 +18080,7 @@
         "index": {
           "description": "The list of extensions enabled by GHC portmanteau fglasgow-exts flag",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "glasgowExts",
           "normalized": "[Extension]",
@@ -16741,6 +18097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCertain extensions imply other extensions, and this function\n   makes the implication explicit. This also handles deprecated\n   extensions, which imply their replacements.\n   The returned value is the transitive closure of implied\n   extensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "impliesExts",
           "package": "haskell-src-exts",
@@ -16751,6 +18108,7 @@
         "index": {
           "description": "Certain extensions imply other extensions and this function makes the implication explicit This also handles deprecated extensions which imply their replacements The returned value is the transitive closure of implied extensions",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "impliesExts",
           "normalized": "[KnownExtension]-\u003e[KnownExtension]",
@@ -16767,6 +18125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all known extensions, all enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "knownExtensions",
           "package": "haskell-src-exts",
@@ -16777,6 +18136,7 @@
         "index": {
           "description": "List of all known extensions all enabled",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "knownExtensions",
           "normalized": "[Extension]",
@@ -16792,6 +18152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "knownLanguages",
           "package": "haskell-src-exts",
@@ -16801,6 +18162,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "knownLanguages",
           "normalized": "[Language]",
@@ -16817,6 +18179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an enabled or disabled extension; returns\n \u003ccode\u003e\u003ca\u003eUnknownExtension\u003c/a\u003e\u003c/code\u003e if the parse fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "parseExtension",
           "package": "haskell-src-exts",
@@ -16827,6 +18190,7 @@
         "index": {
           "description": "Parse an enabled or disabled extension returns UnknownExtension if the parse fails",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "parseExtension",
           "normalized": "String-\u003eExtension",
@@ -16843,6 +18207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print an extension. Disabled extensions are prefixed with\n 'No'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "prettyExtension",
           "package": "haskell-src-exts",
@@ -16853,6 +18218,7 @@
         "index": {
           "description": "Pretty print an extension Disabled extensions are prefixed with No",
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "prettyExtension",
           "normalized": "Extension-\u003eString",
@@ -16868,6 +18234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "prettyLanguage",
           "package": "haskell-src-exts",
@@ -16877,6 +18244,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "prettyLanguage",
           "normalized": "Language-\u003eString",
@@ -16892,6 +18260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Extension",
           "name": "toExtensionList",
           "package": "haskell-src-exts",
@@ -16901,6 +18270,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Extension",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Extension",
           "name": "toExtensionList",
           "normalized": "Language-\u003e[Extension]-\u003e[KnownExtension]",
@@ -16917,6 +18287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFixity information to give the parser so that infix operators can\n be parsed properly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "Fixity",
           "package": "haskell-src-exts",
@@ -16926,6 +18297,7 @@
         "index": {
           "description": "Fixity information to give the parser so that infix operators can be parsed properly",
           "hierarchy": "Language Haskell Exts Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "Fixity",
           "package": "haskell-src-exts",
@@ -16940,6 +18312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll AST elements that may include expressions which in turn may\n   need fixity tweaking will be instances of this class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "AppFixity",
           "package": "haskell-src-exts",
@@ -16949,6 +18322,7 @@
         "index": {
           "description": "All AST elements that may include expressions which in turn may need fixity tweaking will be instances of this class",
           "hierarchy": "Language Haskell Exts Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "AppFixity",
           "package": "haskell-src-exts",
@@ -16963,6 +18337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator fixities are represented by their associativity\n   (left, right or none) and their precedence (0-9).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "Fixity",
           "package": "haskell-src-exts",
@@ -16972,6 +18347,7 @@
         "index": {
           "description": "Operator fixities are represented by their associativity left right or none and their precedence",
           "hierarchy": "Language Haskell Exts Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "Fixity",
           "package": "haskell-src-exts",
@@ -16986,6 +18362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTweak any expressions in the element to account for the\n   fixities given. Assumes that all operator expressions are\n   fully left associative chains to begin with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "applyFixities",
           "package": "haskell-src-exts",
@@ -16996,6 +18373,7 @@
         "index": {
           "description": "Tweak any expressions in the element to account for the fixities given Assumes that all operator expressions are fully left associative chains to begin with",
           "hierarchy": "Language Haskell Exts Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "applyFixities",
           "package": "haskell-src-exts",
@@ -17010,6 +18388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilt-in fixity for prefix minus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "prefixMinusFixity",
           "package": "haskell-src-exts",
@@ -17020,6 +18399,7 @@
         "index": {
           "description": "Built-in fixity for prefix minus",
           "hierarchy": "Language Haskell Exts Fixity",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Fixity",
           "name": "prefixMinusFixity",
           "normalized": "(Assoc,Int)",
@@ -17036,6 +18416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLexer for Haskell with extensions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Lexer",
           "package": "haskell-src-exts",
@@ -17045,6 +18426,7 @@
         "index": {
           "description": "Lexer for Haskell with extensions",
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Lexer",
           "package": "haskell-src-exts",
@@ -17059,6 +18441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity located in the source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Loc",
           "package": "haskell-src-exts",
@@ -17068,6 +18451,7 @@
         "index": {
           "description": "An entity located in the source",
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Loc",
           "package": "haskell-src-exts",
@@ -17081,6 +18465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Token",
           "package": "haskell-src-exts",
@@ -17089,6 +18474,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Token",
           "package": "haskell-src-exts",
@@ -17102,6 +18488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "ANN",
           "package": "haskell-src-exts",
@@ -17111,6 +18498,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "ANN",
           "package": "haskell-src-exts",
@@ -17124,6 +18512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "At",
           "package": "haskell-src-exts",
@@ -17133,6 +18522,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "At",
           "package": "haskell-src-exts",
@@ -17146,6 +18536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "BackQuote",
           "package": "haskell-src-exts",
@@ -17155,6 +18546,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "BackQuote",
           "package": "haskell-src-exts",
@@ -17168,6 +18560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Backslash",
           "package": "haskell-src-exts",
@@ -17177,6 +18570,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Backslash",
           "package": "haskell-src-exts",
@@ -17190,6 +18584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Bar",
           "package": "haskell-src-exts",
@@ -17199,6 +18594,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Bar",
           "package": "haskell-src-exts",
@@ -17212,6 +18608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "CORE",
           "package": "haskell-src-exts",
@@ -17221,6 +18618,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "CORE",
           "package": "haskell-src-exts",
@@ -17234,6 +18632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Character",
           "package": "haskell-src-exts",
@@ -17243,6 +18642,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Character",
           "normalized": "Character(Char,String)",
@@ -17258,6 +18658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "CharacterHash",
           "package": "haskell-src-exts",
@@ -17267,6 +18668,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "CharacterHash",
           "normalized": "CharacterHash(Char,String)",
@@ -17282,6 +18684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Colon",
           "package": "haskell-src-exts",
@@ -17291,6 +18694,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Colon",
           "package": "haskell-src-exts",
@@ -17304,6 +18708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Comma",
           "package": "haskell-src-exts",
@@ -17313,6 +18718,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Comma",
           "package": "haskell-src-exts",
@@ -17326,6 +18732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "ConId",
           "package": "haskell-src-exts",
@@ -17335,6 +18742,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "ConId",
           "package": "haskell-src-exts",
@@ -17348,6 +18756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "ConSym",
           "package": "haskell-src-exts",
@@ -17357,6 +18766,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "ConSym",
           "package": "haskell-src-exts",
@@ -17370,6 +18780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DEPRECATED",
           "package": "haskell-src-exts",
@@ -17379,6 +18790,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DEPRECATED",
           "package": "haskell-src-exts",
@@ -17392,6 +18804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DVarId",
           "package": "haskell-src-exts",
@@ -17401,6 +18814,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DVarId",
           "normalized": "DVarId[String]",
@@ -17416,6 +18830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Dot",
           "package": "haskell-src-exts",
@@ -17425,6 +18840,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Dot",
           "package": "haskell-src-exts",
@@ -17438,6 +18854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DotDot",
           "package": "haskell-src-exts",
@@ -17447,6 +18864,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DotDot",
           "package": "haskell-src-exts",
@@ -17460,6 +18878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DoubleArrow",
           "package": "haskell-src-exts",
@@ -17469,6 +18888,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DoubleArrow",
           "package": "haskell-src-exts",
@@ -17482,6 +18902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DoubleColon",
           "package": "haskell-src-exts",
@@ -17491,6 +18912,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DoubleColon",
           "package": "haskell-src-exts",
@@ -17504,6 +18926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DoubleTokHash",
           "package": "haskell-src-exts",
@@ -17513,6 +18936,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "DoubleTokHash",
           "normalized": "DoubleTokHash(Rational,String)",
@@ -17528,6 +18952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "EOF",
           "package": "haskell-src-exts",
@@ -17537,6 +18962,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "EOF",
           "package": "haskell-src-exts",
@@ -17550,6 +18976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Equals",
           "package": "haskell-src-exts",
@@ -17559,6 +18986,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Equals",
           "package": "haskell-src-exts",
@@ -17572,6 +19000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Exclamation",
           "package": "haskell-src-exts",
@@ -17581,6 +19010,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Exclamation",
           "package": "haskell-src-exts",
@@ -17594,6 +19024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "FloatTok",
           "package": "haskell-src-exts",
@@ -17603,6 +19034,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "FloatTok",
           "normalized": "FloatTok(Rational,String)",
@@ -17618,6 +19050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "FloatTokHash",
           "package": "haskell-src-exts",
@@ -17627,6 +19060,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "FloatTokHash",
           "normalized": "FloatTokHash(Rational,String)",
@@ -17642,6 +19076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "GENERATED",
           "package": "haskell-src-exts",
@@ -17651,6 +19086,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "GENERATED",
           "package": "haskell-src-exts",
@@ -17664,6 +19100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "IDupVarId",
           "package": "haskell-src-exts",
@@ -17673,6 +19110,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "IDupVarId",
           "package": "haskell-src-exts",
@@ -17686,6 +19124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "ILinVarId",
           "package": "haskell-src-exts",
@@ -17695,6 +19134,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "ILinVarId",
           "package": "haskell-src-exts",
@@ -17708,6 +19148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "INLINE",
           "package": "haskell-src-exts",
@@ -17717,6 +19158,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "INLINE",
           "package": "haskell-src-exts",
@@ -17730,6 +19172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "INLINE_CONLIKE",
           "package": "haskell-src-exts",
@@ -17739,6 +19182,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "INLINE_CONLIKE",
           "package": "haskell-src-exts",
@@ -17752,6 +19196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "IntTok",
           "package": "haskell-src-exts",
@@ -17761,6 +19206,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "IntTok",
           "normalized": "IntTok(Integer,String)",
@@ -17776,6 +19222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "IntTokHash",
           "package": "haskell-src-exts",
@@ -17785,6 +19232,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "IntTokHash",
           "normalized": "IntTokHash(Integer,String)",
@@ -17800,6 +19248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_As",
           "package": "haskell-src-exts",
@@ -17809,6 +19258,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_As",
           "package": "haskell-src-exts",
@@ -17822,6 +19272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_By",
           "package": "haskell-src-exts",
@@ -17831,6 +19282,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_By",
           "package": "haskell-src-exts",
@@ -17844,6 +19296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_CApi",
           "package": "haskell-src-exts",
@@ -17853,6 +19306,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_CApi",
           "package": "haskell-src-exts",
@@ -17866,6 +19320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_CCall",
           "package": "haskell-src-exts",
@@ -17875,6 +19330,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_CCall",
           "package": "haskell-src-exts",
@@ -17888,6 +19344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_CPlusPlus",
           "package": "haskell-src-exts",
@@ -17897,6 +19354,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_CPlusPlus",
           "package": "haskell-src-exts",
@@ -17910,6 +19368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Case",
           "package": "haskell-src-exts",
@@ -17919,6 +19378,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Case",
           "package": "haskell-src-exts",
@@ -17932,6 +19392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Class",
           "package": "haskell-src-exts",
@@ -17941,6 +19402,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Class",
           "package": "haskell-src-exts",
@@ -17954,6 +19416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Data",
           "package": "haskell-src-exts",
@@ -17963,6 +19426,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Data",
           "package": "haskell-src-exts",
@@ -17976,6 +19440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Default",
           "package": "haskell-src-exts",
@@ -17985,6 +19450,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Default",
           "package": "haskell-src-exts",
@@ -17998,6 +19464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Deriving",
           "package": "haskell-src-exts",
@@ -18007,6 +19474,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Deriving",
           "package": "haskell-src-exts",
@@ -18020,6 +19488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Do",
           "package": "haskell-src-exts",
@@ -18029,6 +19498,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Do",
           "package": "haskell-src-exts",
@@ -18042,6 +19512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_DotNet",
           "package": "haskell-src-exts",
@@ -18051,6 +19522,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_DotNet",
           "package": "haskell-src-exts",
@@ -18064,6 +19536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Else",
           "package": "haskell-src-exts",
@@ -18073,6 +19546,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Else",
           "package": "haskell-src-exts",
@@ -18086,6 +19560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Export",
           "package": "haskell-src-exts",
@@ -18095,6 +19570,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Export",
           "package": "haskell-src-exts",
@@ -18108,6 +19584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Family",
           "package": "haskell-src-exts",
@@ -18117,6 +19594,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Family",
           "package": "haskell-src-exts",
@@ -18130,6 +19608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Forall",
           "package": "haskell-src-exts",
@@ -18139,6 +19618,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Forall",
           "package": "haskell-src-exts",
@@ -18152,6 +19632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Foreign",
           "package": "haskell-src-exts",
@@ -18161,6 +19642,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Foreign",
           "package": "haskell-src-exts",
@@ -18174,6 +19656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Group",
           "package": "haskell-src-exts",
@@ -18183,6 +19666,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Group",
           "package": "haskell-src-exts",
@@ -18196,6 +19680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Hiding",
           "package": "haskell-src-exts",
@@ -18205,6 +19690,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Hiding",
           "package": "haskell-src-exts",
@@ -18218,6 +19704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_If",
           "package": "haskell-src-exts",
@@ -18227,6 +19714,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_If",
           "package": "haskell-src-exts",
@@ -18240,6 +19728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Import",
           "package": "haskell-src-exts",
@@ -18249,6 +19738,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Import",
           "package": "haskell-src-exts",
@@ -18262,6 +19752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_In",
           "package": "haskell-src-exts",
@@ -18271,6 +19762,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_In",
           "package": "haskell-src-exts",
@@ -18284,6 +19776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Infix",
           "package": "haskell-src-exts",
@@ -18293,6 +19786,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Infix",
           "package": "haskell-src-exts",
@@ -18306,6 +19800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_InfixL",
           "package": "haskell-src-exts",
@@ -18315,6 +19810,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_InfixL",
           "package": "haskell-src-exts",
@@ -18328,6 +19824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_InfixR",
           "package": "haskell-src-exts",
@@ -18337,6 +19834,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_InfixR",
           "package": "haskell-src-exts",
@@ -18350,6 +19848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Instance",
           "package": "haskell-src-exts",
@@ -18359,6 +19858,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Instance",
           "package": "haskell-src-exts",
@@ -18372,6 +19872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Interruptible",
           "package": "haskell-src-exts",
@@ -18381,6 +19882,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Interruptible",
           "package": "haskell-src-exts",
@@ -18394,6 +19896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Js",
           "package": "haskell-src-exts",
@@ -18403,6 +19906,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Js",
           "package": "haskell-src-exts",
@@ -18416,6 +19920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Jvm",
           "package": "haskell-src-exts",
@@ -18425,6 +19930,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Jvm",
           "package": "haskell-src-exts",
@@ -18438,6 +19944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Let",
           "package": "haskell-src-exts",
@@ -18447,6 +19954,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Let",
           "package": "haskell-src-exts",
@@ -18460,6 +19968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_MDo",
           "package": "haskell-src-exts",
@@ -18469,6 +19978,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_MDo",
           "package": "haskell-src-exts",
@@ -18482,6 +19992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Module",
           "package": "haskell-src-exts",
@@ -18491,6 +20002,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Module",
           "package": "haskell-src-exts",
@@ -18504,6 +20016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_NewType",
           "package": "haskell-src-exts",
@@ -18513,6 +20026,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_NewType",
           "package": "haskell-src-exts",
@@ -18526,6 +20040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Of",
           "package": "haskell-src-exts",
@@ -18535,6 +20050,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Of",
           "package": "haskell-src-exts",
@@ -18548,6 +20064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Proc",
           "package": "haskell-src-exts",
@@ -18557,6 +20074,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Proc",
           "package": "haskell-src-exts",
@@ -18570,6 +20088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Qualified",
           "package": "haskell-src-exts",
@@ -18579,6 +20098,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Qualified",
           "package": "haskell-src-exts",
@@ -18592,6 +20112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Rec",
           "package": "haskell-src-exts",
@@ -18601,6 +20122,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Rec",
           "package": "haskell-src-exts",
@@ -18614,6 +20136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Safe",
           "package": "haskell-src-exts",
@@ -18623,6 +20146,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Safe",
           "package": "haskell-src-exts",
@@ -18636,6 +20160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_StdCall",
           "package": "haskell-src-exts",
@@ -18645,6 +20170,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_StdCall",
           "package": "haskell-src-exts",
@@ -18658,6 +20184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Then",
           "package": "haskell-src-exts",
@@ -18667,6 +20194,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Then",
           "package": "haskell-src-exts",
@@ -18680,6 +20208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Threadsafe",
           "package": "haskell-src-exts",
@@ -18689,6 +20218,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Threadsafe",
           "package": "haskell-src-exts",
@@ -18702,6 +20232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Type",
           "package": "haskell-src-exts",
@@ -18711,6 +20242,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Type",
           "package": "haskell-src-exts",
@@ -18724,6 +20256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Unsafe",
           "package": "haskell-src-exts",
@@ -18733,6 +20266,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Unsafe",
           "package": "haskell-src-exts",
@@ -18746,6 +20280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Using",
           "package": "haskell-src-exts",
@@ -18755,6 +20290,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Using",
           "package": "haskell-src-exts",
@@ -18768,6 +20304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Where",
           "package": "haskell-src-exts",
@@ -18777,6 +20314,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "KW_Where",
           "package": "haskell-src-exts",
@@ -18790,6 +20328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LANGUAGE",
           "package": "haskell-src-exts",
@@ -18799,6 +20338,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LANGUAGE",
           "package": "haskell-src-exts",
@@ -18812,6 +20352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftArrow",
           "package": "haskell-src-exts",
@@ -18821,6 +20362,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftArrow",
           "package": "haskell-src-exts",
@@ -18834,6 +20376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftArrowTail",
           "package": "haskell-src-exts",
@@ -18843,6 +20386,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftArrowTail",
           "package": "haskell-src-exts",
@@ -18856,6 +20400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftCurly",
           "package": "haskell-src-exts",
@@ -18865,6 +20410,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftCurly",
           "package": "haskell-src-exts",
@@ -18878,6 +20424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftCurlyBar",
           "package": "haskell-src-exts",
@@ -18887,6 +20434,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftCurlyBar",
           "package": "haskell-src-exts",
@@ -18900,6 +20448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftDblArrowTail",
           "package": "haskell-src-exts",
@@ -18909,6 +20458,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftDblArrowTail",
           "package": "haskell-src-exts",
@@ -18922,6 +20472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftHashParen",
           "package": "haskell-src-exts",
@@ -18931,6 +20482,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftHashParen",
           "package": "haskell-src-exts",
@@ -18944,6 +20496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftParen",
           "package": "haskell-src-exts",
@@ -18953,6 +20506,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftParen",
           "package": "haskell-src-exts",
@@ -18966,6 +20520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftSquare",
           "package": "haskell-src-exts",
@@ -18975,6 +20530,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "LeftSquare",
           "package": "haskell-src-exts",
@@ -19011,6 +20567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Minus",
           "package": "haskell-src-exts",
@@ -19020,6 +20577,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Minus",
           "package": "haskell-src-exts",
@@ -19033,6 +20591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "OPTIONS",
           "package": "haskell-src-exts",
@@ -19042,6 +20601,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "OPTIONS",
           "normalized": "OPTIONS(Maybe String,String)",
@@ -19057,6 +20617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "PragmaEnd",
           "package": "haskell-src-exts",
@@ -19066,6 +20627,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "PragmaEnd",
           "package": "haskell-src-exts",
@@ -19079,6 +20641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "QConId",
           "package": "haskell-src-exts",
@@ -19088,6 +20651,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "QConId",
           "normalized": "QConId(String,String)",
@@ -19103,6 +20667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "QConSym",
           "package": "haskell-src-exts",
@@ -19112,6 +20677,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "QConSym",
           "normalized": "QConSym(String,String)",
@@ -19127,6 +20693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "QVarId",
           "package": "haskell-src-exts",
@@ -19136,6 +20703,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "QVarId",
           "normalized": "QVarId(String,String)",
@@ -19151,6 +20719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "QVarSym",
           "package": "haskell-src-exts",
@@ -19160,6 +20729,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "QVarSym",
           "normalized": "QVarSym(String,String)",
@@ -19176,6 +20746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RPCAt",
           "package": "haskell-src-exts",
@@ -19185,6 +20756,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RPCAt",
           "package": "haskell-src-exts",
@@ -19198,6 +20770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RPGuardClose",
           "package": "haskell-src-exts",
@@ -19207,6 +20780,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RPGuardClose",
           "package": "haskell-src-exts",
@@ -19220,6 +20794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RPGuardOpen",
           "package": "haskell-src-exts",
@@ -19229,6 +20804,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RPGuardOpen",
           "package": "haskell-src-exts",
@@ -19242,6 +20818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RULES",
           "package": "haskell-src-exts",
@@ -19251,6 +20828,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RULES",
           "package": "haskell-src-exts",
@@ -19264,6 +20842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightArrow",
           "package": "haskell-src-exts",
@@ -19273,6 +20852,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightArrow",
           "package": "haskell-src-exts",
@@ -19286,6 +20866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightArrowTail",
           "package": "haskell-src-exts",
@@ -19295,6 +20876,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightArrowTail",
           "package": "haskell-src-exts",
@@ -19308,6 +20890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightCurly",
           "package": "haskell-src-exts",
@@ -19317,6 +20900,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightCurly",
           "package": "haskell-src-exts",
@@ -19330,6 +20914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightCurlyBar",
           "package": "haskell-src-exts",
@@ -19339,6 +20924,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightCurlyBar",
           "package": "haskell-src-exts",
@@ -19352,6 +20938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightDblArrowTail",
           "package": "haskell-src-exts",
@@ -19361,6 +20948,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightDblArrowTail",
           "package": "haskell-src-exts",
@@ -19374,6 +20962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightHashParen",
           "package": "haskell-src-exts",
@@ -19383,6 +20972,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightHashParen",
           "package": "haskell-src-exts",
@@ -19396,6 +20986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightParen",
           "package": "haskell-src-exts",
@@ -19405,6 +20996,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightParen",
           "package": "haskell-src-exts",
@@ -19418,6 +21010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightSquare",
           "package": "haskell-src-exts",
@@ -19427,6 +21020,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "RightSquare",
           "package": "haskell-src-exts",
@@ -19440,6 +21034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SCC",
           "package": "haskell-src-exts",
@@ -19449,6 +21044,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SCC",
           "package": "haskell-src-exts",
@@ -19462,6 +21058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SOURCE",
           "package": "haskell-src-exts",
@@ -19471,6 +21068,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SOURCE",
           "package": "haskell-src-exts",
@@ -19484,6 +21082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SPECIALISE",
           "package": "haskell-src-exts",
@@ -19493,6 +21092,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SPECIALISE",
           "package": "haskell-src-exts",
@@ -19506,6 +21106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SPECIALISE_INLINE",
           "package": "haskell-src-exts",
@@ -19515,6 +21116,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SPECIALISE_INLINE",
           "package": "haskell-src-exts",
@@ -19528,6 +21130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SemiColon",
           "package": "haskell-src-exts",
@@ -19537,6 +21140,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "SemiColon",
           "package": "haskell-src-exts",
@@ -19550,6 +21154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Star",
           "package": "haskell-src-exts",
@@ -19559,6 +21164,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Star",
           "package": "haskell-src-exts",
@@ -19572,6 +21178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "StringHash",
           "package": "haskell-src-exts",
@@ -19581,6 +21188,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "StringHash",
           "normalized": "StringHash(String,String)",
@@ -19596,6 +21204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "StringTok",
           "package": "haskell-src-exts",
@@ -19605,6 +21214,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "StringTok",
           "normalized": "StringTok(String,String)",
@@ -19620,6 +21230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THCloseQuote",
           "package": "haskell-src-exts",
@@ -19629,6 +21240,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THCloseQuote",
           "package": "haskell-src-exts",
@@ -19642,6 +21254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THDecQuote",
           "package": "haskell-src-exts",
@@ -19651,6 +21264,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THDecQuote",
           "package": "haskell-src-exts",
@@ -19664,6 +21278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THExpQuote",
           "package": "haskell-src-exts",
@@ -19673,6 +21288,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THExpQuote",
           "package": "haskell-src-exts",
@@ -19687,6 +21303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THIdEscape",
           "package": "haskell-src-exts",
@@ -19696,6 +21313,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THIdEscape",
           "package": "haskell-src-exts",
@@ -19709,6 +21327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THParenEscape",
           "package": "haskell-src-exts",
@@ -19718,6 +21337,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THParenEscape",
           "package": "haskell-src-exts",
@@ -19731,6 +21351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THPatQuote",
           "package": "haskell-src-exts",
@@ -19740,6 +21361,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THPatQuote",
           "package": "haskell-src-exts",
@@ -19753,6 +21375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THQuasiQuote",
           "package": "haskell-src-exts",
@@ -19762,6 +21385,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THQuasiQuote",
           "normalized": "THQuasiQuote(String,String)",
@@ -19777,6 +21401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THTyQuote",
           "package": "haskell-src-exts",
@@ -19786,6 +21411,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THTyQuote",
           "package": "haskell-src-exts",
@@ -19799,6 +21425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THTypQuote",
           "package": "haskell-src-exts",
@@ -19808,6 +21435,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THTypQuote",
           "package": "haskell-src-exts",
@@ -19821,6 +21449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THVarQuote",
           "package": "haskell-src-exts",
@@ -19830,6 +21459,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "THVarQuote",
           "package": "haskell-src-exts",
@@ -19843,6 +21473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Tilde",
           "package": "haskell-src-exts",
@@ -19852,6 +21483,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Tilde",
           "package": "haskell-src-exts",
@@ -19865,6 +21497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "UNPACK",
           "package": "haskell-src-exts",
@@ -19874,6 +21507,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "UNPACK",
           "package": "haskell-src-exts",
@@ -19887,6 +21521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Underscore",
           "package": "haskell-src-exts",
@@ -19896,6 +21531,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "Underscore",
           "package": "haskell-src-exts",
@@ -19909,6 +21545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "VRightCurly",
           "package": "haskell-src-exts",
@@ -19918,6 +21555,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "VRightCurly",
           "package": "haskell-src-exts",
@@ -19931,6 +21569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "VarId",
           "package": "haskell-src-exts",
@@ -19940,6 +21579,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "VarId",
           "package": "haskell-src-exts",
@@ -19953,6 +21593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "VarSym",
           "package": "haskell-src-exts",
@@ -19962,6 +21603,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "VarSym",
           "package": "haskell-src-exts",
@@ -19975,6 +21617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "WARNING",
           "package": "haskell-src-exts",
@@ -19984,6 +21627,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "WARNING",
           "package": "haskell-src-exts",
@@ -19997,6 +21641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "WordTokHash",
           "package": "haskell-src-exts",
@@ -20006,6 +21651,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "WordTokHash",
           "normalized": "WordTokHash(Integer,String)",
@@ -20021,6 +21667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XChildTagOpen",
           "package": "haskell-src-exts",
@@ -20030,6 +21677,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XChildTagOpen",
           "package": "haskell-src-exts",
@@ -20043,6 +21691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XCloseTagOpen",
           "package": "haskell-src-exts",
@@ -20052,6 +21701,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XCloseTagOpen",
           "package": "haskell-src-exts",
@@ -20065,6 +21715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XCodeTagClose",
           "package": "haskell-src-exts",
@@ -20074,6 +21725,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XCodeTagClose",
           "package": "haskell-src-exts",
@@ -20087,6 +21739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XCodeTagOpen",
           "package": "haskell-src-exts",
@@ -20096,6 +21749,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XCodeTagOpen",
           "package": "haskell-src-exts",
@@ -20109,6 +21763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XEmptyTagClose",
           "package": "haskell-src-exts",
@@ -20118,6 +21773,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XEmptyTagClose",
           "package": "haskell-src-exts",
@@ -20131,6 +21787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XPCDATA",
           "package": "haskell-src-exts",
@@ -20140,6 +21797,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XPCDATA",
           "package": "haskell-src-exts",
@@ -20153,6 +21811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XRPatClose",
           "package": "haskell-src-exts",
@@ -20162,6 +21821,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XRPatClose",
           "package": "haskell-src-exts",
@@ -20175,6 +21835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XRPatOpen",
           "package": "haskell-src-exts",
@@ -20184,6 +21845,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XRPatOpen",
           "package": "haskell-src-exts",
@@ -20197,6 +21859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XStdTagClose",
           "package": "haskell-src-exts",
@@ -20206,6 +21869,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XStdTagClose",
           "package": "haskell-src-exts",
@@ -20219,6 +21883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XStdTagOpen",
           "package": "haskell-src-exts",
@@ -20228,6 +21893,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "XStdTagOpen",
           "package": "haskell-src-exts",
@@ -20242,6 +21908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex a string into a list of Haskell 2010 source tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "lexTokenStream",
           "package": "haskell-src-exts",
@@ -20252,6 +21919,7 @@
         "index": {
           "description": "Lex string into list of Haskell source tokens",
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "lexTokenStream",
           "normalized": "String-\u003eParseResult[Loc Token]",
@@ -20268,6 +21936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex a string into a list of Haskell source tokens, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "lexTokenStreamWithMode",
           "package": "haskell-src-exts",
@@ -20278,6 +21947,7 @@
         "index": {
           "description": "Lex string into list of Haskell source tokens using an explicit mode",
           "hierarchy": "Language Haskell Exts Lexer",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Lexer",
           "name": "lexTokenStreamWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult[Loc Token]",
@@ -20339,6 +22009,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for Haskell with extensions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "Parser",
           "package": "haskell-src-exts",
@@ -20348,6 +22019,7 @@
         "index": {
           "description": "Parser for Haskell with extensions",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "Parser",
           "package": "haskell-src-exts",
@@ -20362,6 +22034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatic parameters governing a parse.\n   Note that the various parse functions in \u003ca\u003eLanguage.Haskell.Exts.Parser\u003c/a\u003e\n   never look at LANGUAGE pragmas, regardless of\n   what the \u003ccode\u003eignoreLanguagePragmas\u003c/code\u003e flag is set to.\n   Only the various \u003ccode\u003eparseFile\u003c/code\u003e functions in \u003ca\u003eLanguage.Haskell.Exts\u003c/a\u003e will\n   act on it, when set to \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseMode",
           "package": "haskell-src-exts",
@@ -20371,6 +22044,7 @@
         "index": {
           "description": "Static parameters governing parse Note that the various parse functions in Language.Haskell.Exts.Parser never look at LANGUAGE pragmas regardless of what the ignoreLanguagePragmas flag is set to Only the various parseFile functions in Language.Haskell.Exts will act on it when set to False",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseMode",
           "package": "haskell-src-exts",
@@ -20385,6 +22059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseResult",
           "package": "haskell-src-exts",
@@ -20394,6 +22069,7 @@
         "index": {
           "description": "The result of parse",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseResult",
           "package": "haskell-src-exts",
@@ -20408,6 +22084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass to reuse the parse function at many different types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "Parseable",
           "package": "haskell-src-exts",
@@ -20417,6 +22094,7 @@
         "index": {
           "description": "Class to reuse the parse function at many different types",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "Parseable",
           "package": "haskell-src-exts",
@@ -20431,6 +22109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parse failed at the specified\n source location, with an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseFailed",
           "package": "haskell-src-exts",
@@ -20441,6 +22120,7 @@
         "index": {
           "description": "The parse failed at the specified source location with an error message",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseFailed",
           "package": "haskell-src-exts",
@@ -20454,6 +22134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseMode",
           "package": "haskell-src-exts",
@@ -20463,6 +22144,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseMode",
           "package": "haskell-src-exts",
@@ -20477,6 +22159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parse succeeded, yielding a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseOk",
           "package": "haskell-src-exts",
@@ -20487,6 +22170,7 @@
         "index": {
           "description": "The parse succeeded yielding value",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ParseOk",
           "package": "haskell-src-exts",
@@ -20501,6 +22185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebase language (e.g. Haskell98, Haskell2010)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "baseLanguage",
           "package": "haskell-src-exts",
@@ -20511,6 +22196,7 @@
         "index": {
           "description": "base language e.g Haskell98 Haskell2010",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "baseLanguage",
           "package": "haskell-src-exts",
@@ -20525,6 +22211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault parameters for a parse.\n   The default is an unknown filename,\n   no extensions (i.e. Haskell 98),\n   don't ignore LANGUAGE pragmas, do ignore LINE pragmas,\n   and be aware of fixities from the \u003ccode\u003ePrelude\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "defaultParseMode",
           "package": "haskell-src-exts",
@@ -20535,6 +22222,7 @@
         "index": {
           "description": "Default parameters for parse The default is an unknown filename no extensions i.e Haskell don ignore LANGUAGE pragmas do ignore LINE pragmas and be aware of fixities from the Prelude",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "defaultParseMode",
           "package": "haskell-src-exts",
@@ -20549,6 +22237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of extensions enabled for parsing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "extensions",
           "package": "haskell-src-exts",
@@ -20559,6 +22248,7 @@
         "index": {
           "description": "list of extensions enabled for parsing",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "extensions",
           "normalized": "[Extension]",
@@ -20574,6 +22264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of fixities to be aware of\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "fixities",
           "package": "haskell-src-exts",
@@ -20584,6 +22275,7 @@
         "index": {
           "description": "list of fixities to be aware of",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "fixities",
           "normalized": "Maybe[Fixity]",
@@ -20599,6 +22291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the result of a successful parse, throwing an\n   error if the parse is actually not successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "fromParseResult",
           "package": "haskell-src-exts",
@@ -20609,6 +22302,7 @@
         "index": {
           "description": "Retrieve the result of successful parse throwing an error if the parse is actually not successful",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "fromParseResult",
           "normalized": "ParseResult a-\u003ea",
@@ -20624,6 +22318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "getTopPragmas",
           "package": "haskell-src-exts",
@@ -20633,6 +22328,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "getTopPragmas",
           "normalized": "String-\u003eParseResult[ModulePragma]",
@@ -20649,6 +22345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the parser won't care about further extensions\n   in LANGUAGE pragmas in source files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ignoreLanguagePragmas",
           "package": "haskell-src-exts",
@@ -20659,6 +22356,7 @@
         "index": {
           "description": "if True the parser won care about further extensions in LANGUAGE pragmas in source files",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ignoreLanguagePragmas",
           "package": "haskell-src-exts",
@@ -20673,6 +22371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the parser won't read line position information\n   from LINE pragmas in source files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ignoreLinePragmas",
           "package": "haskell-src-exts",
@@ -20683,6 +22382,7 @@
         "index": {
           "description": "if True the parser won read line position information from LINE pragmas in source files",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "ignoreLinePragmas",
           "package": "haskell-src-exts",
@@ -20697,6 +22397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string with default mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parse",
           "package": "haskell-src-exts",
@@ -20707,6 +22408,7 @@
         "index": {
           "description": "Parse string with default mode",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parse",
           "normalized": "String-\u003eParseResult a",
@@ -20722,6 +22424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell top-level declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseDecl",
           "package": "haskell-src-exts",
@@ -20732,6 +22435,7 @@
         "index": {
           "description": "Parse of string containing Haskell top-level declaration",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseDecl",
           "normalized": "String-\u003eParseResult Decl",
@@ -20748,6 +22452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseDeclWithComments",
           "package": "haskell-src-exts",
@@ -20758,6 +22463,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseDeclWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Decl,[Comment])",
@@ -20774,6 +22480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell top-level declaration, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseDeclWithMode",
           "package": "haskell-src-exts",
@@ -20784,6 +22491,7 @@
         "index": {
           "description": "Parse of string containing Haskell top-level declaration using an explicit mode",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseDeclWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult Decl",
@@ -20800,6 +22508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseExp",
           "package": "haskell-src-exts",
@@ -20810,6 +22519,7 @@
         "index": {
           "description": "Parse of string containing Haskell expression",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseExp",
           "normalized": "String-\u003eParseResult Exp",
@@ -20826,6 +22536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseExpWithComments",
           "package": "haskell-src-exts",
@@ -20836,6 +22547,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseExpWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Exp,[Comment])",
@@ -20852,6 +22564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell expression, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseExpWithMode",
           "package": "haskell-src-exts",
@@ -20862,6 +22575,7 @@
         "index": {
           "description": "Parse of string containing Haskell expression using an explicit mode",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseExpWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult Exp",
@@ -20878,6 +22592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoriginal name of the file being parsed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseFilename",
           "package": "haskell-src-exts",
@@ -20888,6 +22603,7 @@
         "index": {
           "description": "original name of the file being parsed",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseFilename",
           "package": "haskell-src-exts",
@@ -20902,6 +22618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string, which should contain a complete Haskell module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseModule",
           "package": "haskell-src-exts",
@@ -20912,6 +22629,7 @@
         "index": {
           "description": "Parse of string which should contain complete Haskell module",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseModule",
           "normalized": "String-\u003eParseResult Module",
@@ -20928,6 +22646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseModuleWithComments",
           "package": "haskell-src-exts",
@@ -20938,6 +22657,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseModuleWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Module,[Comment])",
@@ -20954,6 +22674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseModuleWithMode",
           "package": "haskell-src-exts",
@@ -20964,6 +22685,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseModuleWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult Module",
@@ -20980,6 +22702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parsePat",
           "package": "haskell-src-exts",
@@ -20990,6 +22713,7 @@
         "index": {
           "description": "Parse of string containing Haskell pattern",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parsePat",
           "normalized": "String-\u003eParseResult Pat",
@@ -21006,6 +22730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parsePatWithComments",
           "package": "haskell-src-exts",
@@ -21016,6 +22741,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parsePatWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Pat,[Comment])",
@@ -21032,6 +22758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell pattern, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parsePatWithMode",
           "package": "haskell-src-exts",
@@ -21042,6 +22769,7 @@
         "index": {
           "description": "Parse of string containing Haskell pattern using an explicit mode",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parsePatWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult Pat",
@@ -21058,6 +22786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseStmt",
           "package": "haskell-src-exts",
@@ -21068,6 +22797,7 @@
         "index": {
           "description": "Parse of string containing Haskell type",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseStmt",
           "normalized": "String-\u003eParseResult Stmt",
@@ -21084,6 +22814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseStmtWithComments",
           "package": "haskell-src-exts",
@@ -21094,6 +22825,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseStmtWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Stmt,[Comment])",
@@ -21110,6 +22842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell type, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseStmtWithMode",
           "package": "haskell-src-exts",
@@ -21120,6 +22853,7 @@
         "index": {
           "description": "Parse of string containing Haskell type using an explicit mode",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseStmtWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult Stmt",
@@ -21136,6 +22870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseType",
           "package": "haskell-src-exts",
@@ -21146,6 +22881,7 @@
         "index": {
           "description": "Parse of string containing Haskell type",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseType",
           "normalized": "String-\u003eParseResult Type",
@@ -21162,6 +22898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode, retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseTypeWithComments",
           "package": "haskell-src-exts",
@@ -21172,6 +22909,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode retaining comments",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseTypeWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Type,[Comment])",
@@ -21188,6 +22926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a Haskell type, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseTypeWithMode",
           "package": "haskell-src-exts",
@@ -21198,6 +22937,7 @@
         "index": {
           "description": "Parse of string containing Haskell type using an explicit mode",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseTypeWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult Type",
@@ -21214,6 +22954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string with an explicit mode, returning all comments along the AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseWithComments",
           "package": "haskell-src-exts",
@@ -21224,6 +22965,7 @@
         "index": {
           "description": "Parse string with an explicit mode returning all comments along the AST",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(a,[Comment])",
@@ -21240,6 +22982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string with an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseWithMode",
           "package": "haskell-src-exts",
@@ -21250,6 +22993,7 @@
         "index": {
           "description": "Parse string with an explicit mode",
           "hierarchy": "Language Haskell Exts Parser",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Parser",
           "name": "parseWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult a",
@@ -21266,6 +23010,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printer for Haskell with extensions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Pretty",
           "package": "haskell-src-exts",
@@ -21275,6 +23020,7 @@
         "index": {
           "description": "Pretty printer for Haskell with extensions",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Pretty",
           "package": "haskell-src-exts",
@@ -21288,6 +23034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Indent",
           "package": "haskell-src-exts",
@@ -21296,6 +23043,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Indent",
           "package": "haskell-src-exts",
@@ -21310,6 +23058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Mode",
           "package": "haskell-src-exts",
@@ -21318,6 +23067,7 @@
         "index": {
           "description": "Rendering mode",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Mode",
           "package": "haskell-src-exts",
@@ -21332,6 +23082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printing parameters.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e the \u003ccode\u003e\u003ca\u003eonsideIndent\u003c/a\u003e\u003c/code\u003e must be positive and less than all other indents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPHsMode",
           "package": "haskell-src-exts",
@@ -21341,6 +23092,7 @@
         "index": {
           "description": "Pretty-printing parameters Note the onsideIndent must be positive and less than all other indents",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPHsMode",
           "package": "haskell-src-exts",
@@ -21355,6 +23107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarieties of layout we can use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPLayout",
           "package": "haskell-src-exts",
@@ -21364,6 +23117,7 @@
         "index": {
           "description": "Varieties of layout we can use",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPLayout",
           "package": "haskell-src-exts",
@@ -21378,6 +23132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that can be pretty-printed, including all the syntactic objects\n in \u003ca\u003eLanguage.Haskell.Exts.Syntax\u003c/a\u003e and \u003ca\u003eLanguage.Haskell.Exts.Annotated.Syntax\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Pretty",
           "package": "haskell-src-exts",
@@ -21387,6 +23142,7 @@
         "index": {
           "description": "Things that can be pretty-printed including all the syntactic objects in Language.Haskell.Exts.Syntax and Language.Haskell.Exts.Annotated.Syntax",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Pretty",
           "package": "haskell-src-exts",
@@ -21401,6 +23157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rendering style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Style",
           "package": "haskell-src-exts",
@@ -21409,6 +23166,7 @@
         "index": {
           "description": "rendering style",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Style",
           "package": "haskell-src-exts",
@@ -21423,6 +23181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo indentation, infinitely long lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "LeftMode",
           "package": "haskell-src-exts",
@@ -21432,6 +23191,7 @@
         "index": {
           "description": "No indentation infinitely long lines",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "LeftMode",
           "package": "haskell-src-exts",
@@ -21446,6 +23206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll on one line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "OneLineMode",
           "package": "haskell-src-exts",
@@ -21455,6 +23216,7 @@
         "index": {
           "description": "All on one line",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "OneLineMode",
           "package": "haskell-src-exts",
@@ -21468,6 +23230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPHsMode",
           "package": "haskell-src-exts",
@@ -21477,6 +23240,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPHsMode",
           "package": "haskell-src-exts",
@@ -21491,6 +23255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einline decls, with newlines between them\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPInLine",
           "package": "haskell-src-exts",
@@ -21501,6 +23266,7 @@
         "index": {
           "description": "inline decls with newlines between them",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPInLine",
           "package": "haskell-src-exts",
@@ -21515,6 +23281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeverything on a single line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPNoLayout",
           "package": "haskell-src-exts",
@@ -21525,6 +23292,7 @@
         "index": {
           "description": "everything on single line",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPNoLayout",
           "package": "haskell-src-exts",
@@ -21539,6 +23307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclassical layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPOffsideRule",
           "package": "haskell-src-exts",
@@ -21549,6 +23318,7 @@
         "index": {
           "description": "classical layout",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPOffsideRule",
           "package": "haskell-src-exts",
@@ -21563,6 +23333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclassical layout made explicit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPSemiColon",
           "package": "haskell-src-exts",
@@ -21573,6 +23344,7 @@
         "index": {
           "description": "classical layout made explicit",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PPSemiColon",
           "package": "haskell-src-exts",
@@ -21587,6 +23359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PageMode",
           "package": "haskell-src-exts",
@@ -21596,6 +23369,7 @@
         "index": {
           "description": "Normal",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "PageMode",
           "package": "haskell-src-exts",
@@ -21609,6 +23383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Style",
           "package": "haskell-src-exts",
@@ -21617,6 +23392,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "Style",
           "package": "haskell-src-exts",
@@ -21631,6 +23407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith zig-zag cuts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "ZigZagMode",
           "package": "haskell-src-exts",
@@ -21640,6 +23417,7 @@
         "index": {
           "description": "With zig-zag cuts",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "ZigZagMode",
           "package": "haskell-src-exts",
@@ -21654,6 +23432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the body of a\n \u003ccode\u003ecase\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "caseIndent",
           "package": "haskell-src-exts",
@@ -21664,6 +23443,7 @@
         "index": {
           "description": "indentation of the body of case expression",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "caseIndent",
           "package": "haskell-src-exts",
@@ -21678,6 +23458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of a class or instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "classIndent",
           "package": "haskell-src-exts",
@@ -21688,6 +23469,7 @@
         "index": {
           "description": "indentation of class or instance",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "classIndent",
           "package": "haskell-src-exts",
@@ -21702,6 +23484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default mode: pretty-print using the offside rule and sensible\n defaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "defaultMode",
           "package": "haskell-src-exts",
@@ -21712,6 +23495,7 @@
         "index": {
           "description": "The default mode pretty-print using the offside rule and sensible defaults",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "defaultMode",
           "package": "haskell-src-exts",
@@ -21726,6 +23510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of a \u003ccode\u003edo\u003c/code\u003e-expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "doIndent",
           "package": "haskell-src-exts",
@@ -21736,6 +23521,7 @@
         "index": {
           "description": "indentation of do expression",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "doIndent",
           "package": "haskell-src-exts",
@@ -21750,6 +23536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printing style to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "layout",
           "package": "haskell-src-exts",
@@ -21760,6 +23547,7 @@
         "index": {
           "description": "Pretty-printing style to use",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "layout",
           "package": "haskell-src-exts",
@@ -21773,6 +23561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the declarations in a\n \u003ccode\u003elet\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "letIndent",
           "package": "haskell-src-exts",
@@ -21783,6 +23572,7 @@
         "index": {
           "description": "indentation of the declarations in let expression",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "letIndent",
           "package": "haskell-src-exts",
@@ -21797,6 +23587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of line, in chars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "lineLength",
           "package": "haskell-src-exts",
@@ -21806,6 +23597,7 @@
         "index": {
           "description": "Length of line in chars",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "lineLength",
           "package": "haskell-src-exts",
@@ -21820,6 +23612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd GHC-style \u003ccode\u003eLINE\u003c/code\u003e pragmas to output?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "linePragmas",
           "package": "haskell-src-exts",
@@ -21830,6 +23623,7 @@
         "index": {
           "description": "add GHC-style LINE pragmas to output",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "linePragmas",
           "package": "haskell-src-exts",
@@ -21844,6 +23638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rendering mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "mode",
           "package": "haskell-src-exts",
@@ -21853,6 +23648,7 @@
         "index": {
           "description": "The rendering mode",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "mode",
           "package": "haskell-src-exts",
@@ -21866,6 +23662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation added for continuation\n lines that would otherwise be offside\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "onsideIndent",
           "package": "haskell-src-exts",
@@ -21876,6 +23673,7 @@
         "index": {
           "description": "indentation added for continuation lines that would otherwise be offside",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "onsideIndent",
           "package": "haskell-src-exts",
@@ -21890,6 +23688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty-print with the default style and \u003ccode\u003e\u003ca\u003edefaultMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "prettyPrint",
           "package": "haskell-src-exts",
@@ -21900,6 +23699,7 @@
         "index": {
           "description": "pretty-print with the default style and defaultMode",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "prettyPrint",
           "normalized": "a-\u003eString",
@@ -21916,6 +23716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty-print with a given style and mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "prettyPrintStyleMode",
           "package": "haskell-src-exts",
@@ -21926,6 +23727,7 @@
         "index": {
           "description": "pretty-print with given style and mode",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "prettyPrintStyleMode",
           "normalized": "Style-\u003ePPHsMode-\u003ea-\u003eString",
@@ -21942,6 +23744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty-print with the default style and a given mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "prettyPrintWithMode",
           "package": "haskell-src-exts",
@@ -21952,6 +23755,7 @@
         "index": {
           "description": "pretty-print with the default style and given mode",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "prettyPrintWithMode",
           "normalized": "PPHsMode-\u003ea-\u003eString",
@@ -21968,6 +23772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRatio of ribbon length to line length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "ribbonsPerLine",
           "package": "haskell-src-exts",
@@ -21977,6 +23782,7 @@
         "index": {
           "description": "Ratio of ribbon length to line length",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "ribbonsPerLine",
           "package": "haskell-src-exts",
@@ -21991,6 +23797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblank lines between statements?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "spacing",
           "package": "haskell-src-exts",
@@ -22001,6 +23808,7 @@
         "index": {
           "description": "blank lines between statements",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "spacing",
           "package": "haskell-src-exts",
@@ -22014,6 +23822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default style (\u003ccode\u003emode=PageMode, lineLength=100, ribbonsPerLine=1.5\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "style",
           "package": "haskell-src-exts",
@@ -22023,6 +23832,7 @@
         "index": {
           "description": "The default style mode PageMode lineLength ribbonsPerLine",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "style",
           "package": "haskell-src-exts",
@@ -22036,6 +23846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the declarations in a\n \u003ccode\u003ewhere\u003c/code\u003e clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "whereIndent",
           "package": "haskell-src-exts",
@@ -22046,6 +23857,7 @@
         "index": {
           "description": "indentation of the declarations in where clause",
           "hierarchy": "Language Haskell Exts Pretty",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Pretty",
           "name": "whereIndent",
           "package": "haskell-src-exts",
@@ -22060,6 +23872,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines various data types representing source location\n information, of varying degree of preciseness.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcLoc",
           "package": "haskell-src-exts",
@@ -22069,6 +23882,7 @@
         "index": {
           "description": "This module defines various data types representing source location information of varying degree of preciseness",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcLoc",
           "package": "haskell-src-exts",
@@ -22083,6 +23897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity located in the source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "Loc",
           "package": "haskell-src-exts",
@@ -22092,6 +23907,7 @@
         "index": {
           "description": "An entity located in the source",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "Loc",
           "package": "haskell-src-exts",
@@ -22106,6 +23922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to work over all kinds of source location information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcInfo",
           "package": "haskell-src-exts",
@@ -22115,6 +23932,7 @@
         "index": {
           "description": "class to work over all kinds of source location information",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcInfo",
           "package": "haskell-src-exts",
@@ -22129,6 +23947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single position in the source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcLoc",
           "package": "haskell-src-exts",
@@ -22138,6 +23957,7 @@
         "index": {
           "description": "single position in the source",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcLoc",
           "package": "haskell-src-exts",
@@ -22152,6 +23972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA portion of the source, spanning one or more lines and zero or more columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcSpan",
           "package": "haskell-src-exts",
@@ -22161,6 +23982,7 @@
         "index": {
           "description": "portion of the source spanning one or more lines and zero or more columns",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcSpan",
           "package": "haskell-src-exts",
@@ -22175,6 +23997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA portion of the source, extended with information on the position of entities within the span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcSpanInfo",
           "package": "haskell-src-exts",
@@ -22184,6 +24007,7 @@
         "index": {
           "description": "portion of the source extended with information on the position of entities within the span",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcSpanInfo",
           "package": "haskell-src-exts",
@@ -22198,6 +24022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd more positional information for entities of a span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c**)",
           "package": "haskell-src-exts",
@@ -22208,6 +24033,7 @@
         "index": {
           "description": "Add more positional information for entities of span",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c**) \u003c**",
           "normalized": "SrcSpanInfo-\u003e[SrcSpan]-\u003eSrcSpanInfo",
@@ -22223,6 +24049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort name for \u003ccode\u003e\u003ca\u003ecombSpanInfo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c++\u003e)",
           "package": "haskell-src-exts",
@@ -22233,6 +24060,7 @@
         "index": {
           "description": "Short name for combSpanInfo",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "SrcSpanInfo-\u003eSrcSpanInfo-\u003eSrcSpanInfo",
@@ -22248,6 +24076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptionally combine the first argument with the second,\n   or return it unchanged if the second argument is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c+?\u003e)",
           "package": "haskell-src-exts",
@@ -22258,6 +24087,7 @@
         "index": {
           "description": "Optionally combine the first argument with the second or return it unchanged if the second argument is Nothing",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c+?\u003e) \u003c+?\u003e",
           "normalized": "SrcSpanInfo-\u003eMaybe SrcSpanInfo-\u003eSrcSpanInfo",
@@ -22273,6 +24103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptionally combine the second argument with the first,\n   or return it unchanged if the first argument is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c?+\u003e)",
           "package": "haskell-src-exts",
@@ -22283,6 +24114,7 @@
         "index": {
           "description": "Optionally combine the second argument with the first or return it unchanged if the first argument is Nothing",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c?+\u003e) \u003c?+\u003e",
           "normalized": "Maybe SrcSpanInfo-\u003eSrcSpanInfo-\u003eSrcSpanInfo",
@@ -22298,6 +24130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two \u003ccode\u003e\u003ca\u003eSrcSpan\u003c/a\u003e\u003c/code\u003es and lift them to a \u003ccode\u003eSrcInfoSpan\u003c/code\u003e with\n   no positional information for entities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c^^\u003e)",
           "package": "haskell-src-exts",
@@ -22308,6 +24141,7 @@
         "index": {
           "description": "Merge two SrcSpan and lift them to SrcInfoSpan with no positional information for entities",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "(\u003c^^\u003e) \u003c^^\u003e",
           "normalized": "SrcSpan-\u003eSrcSpan-\u003eSrcSpanInfo",
@@ -22345,6 +24179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcSpan",
           "package": "haskell-src-exts",
@@ -22354,6 +24189,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcSpan",
           "package": "haskell-src-exts",
@@ -22367,6 +24203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcSpanInfo",
           "package": "haskell-src-exts",
@@ -22376,6 +24213,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "SrcSpanInfo",
           "package": "haskell-src-exts",
@@ -22390,6 +24228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two \u003ccode\u003e\u003ca\u003eSrcSpanInfo\u003c/a\u003e\u003c/code\u003es into one that spans the combined source area of\n   the two arguments, leaving positional information blank.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "combSpanInfo",
           "package": "haskell-src-exts",
@@ -22400,6 +24239,7 @@
         "index": {
           "description": "Combine two SrcSpanInfo into one that spans the combined source area of the two arguments leaving positional information blank",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "combSpanInfo",
           "normalized": "SrcSpanInfo-\u003eSrcSpanInfo-\u003eSrcSpanInfo",
@@ -22415,6 +24255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "fileName",
           "package": "haskell-src-exts",
@@ -22424,6 +24265,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "fileName",
           "normalized": "a-\u003eString",
@@ -22439,6 +24281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "fromSrcInfo",
           "package": "haskell-src-exts",
@@ -22448,6 +24291,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "fromSrcInfo",
           "normalized": "SrcSpanInfo-\u003ea",
@@ -22463,6 +24307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "getPointLoc",
           "package": "haskell-src-exts",
@@ -22472,6 +24317,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "getPointLoc",
           "normalized": "a-\u003eSrcLoc",
@@ -22488,6 +24334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eSrcSpanInfo\u003c/a\u003e\u003c/code\u003e with the supplied positional information for entities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "infoSpan",
           "package": "haskell-src-exts",
@@ -22498,6 +24345,7 @@
         "index": {
           "description": "Generate SrcSpanInfo with the supplied positional information for entities",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "infoSpan",
           "normalized": "SrcSpan-\u003e[SrcSpan]-\u003eSrcSpanInfo",
@@ -22514,6 +24362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a given span starts and ends at the same location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "isNullSpan",
           "package": "haskell-src-exts",
@@ -22524,6 +24373,7 @@
         "index": {
           "description": "Test if given span starts and ends at the same location",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "isNullSpan",
           "normalized": "SrcSpan-\u003eBool",
@@ -22540,6 +24390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two source spans into a single span from the start of the first\n   to the end of the second. Assumes that the two spans relate to the\n   same source file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "mergeSrcSpan",
           "package": "haskell-src-exts",
@@ -22550,6 +24401,7 @@
         "index": {
           "description": "Merge two source spans into single span from the start of the first to the end of the second Assumes that the two spans relate to the same source file",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "mergeSrcSpan",
           "normalized": "SrcSpan-\u003eSrcSpan-\u003eSrcSpan",
@@ -22566,6 +24418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two locations in the source to denote a span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "mkSrcSpan",
           "package": "haskell-src-exts",
@@ -22576,6 +24429,7 @@
         "index": {
           "description": "Combine two locations in the source to denote span",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "mkSrcSpan",
           "normalized": "SrcLoc-\u003eSrcLoc-\u003eSrcSpan",
@@ -22592,6 +24446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eSrcSpanInfo\u003c/a\u003e\u003c/code\u003e with no positional information for entities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "noInfoSpan",
           "package": "haskell-src-exts",
@@ -22602,6 +24457,7 @@
         "index": {
           "description": "Generate SrcSpanInfo with no positional information for entities",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "noInfoSpan",
           "normalized": "SrcSpan-\u003eSrcSpanInfo",
@@ -22617,6 +24473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "noLoc",
           "package": "haskell-src-exts",
@@ -22626,6 +24483,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "noLoc",
           "package": "haskell-src-exts",
@@ -22639,6 +24497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "spanSize",
           "package": "haskell-src-exts",
@@ -22648,6 +24507,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "spanSize",
           "normalized": "SrcSpan-\u003e(Int,Int)",
@@ -22709,6 +24569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcInfoPoints",
           "package": "haskell-src-exts",
@@ -22718,6 +24579,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcInfoPoints",
           "normalized": "[SrcSpan]",
@@ -22733,6 +24595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcInfoSpan",
           "package": "haskell-src-exts",
@@ -22742,6 +24605,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcInfoSpan",
           "package": "haskell-src-exts",
@@ -22779,6 +24643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003esrcSpanEndLine\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esrcSpanEndColumn\u003c/a\u003e\u003c/code\u003e in a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanEnd",
           "package": "haskell-src-exts",
@@ -22789,6 +24654,7 @@
         "index": {
           "description": "Returns srcSpanEndLine and srcSpanEndColumn in pair",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanEnd",
           "normalized": "SrcSpan-\u003e(Int,Int)",
@@ -22804,6 +24670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanEndColumn",
           "package": "haskell-src-exts",
@@ -22813,6 +24680,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanEndColumn",
           "package": "haskell-src-exts",
@@ -22826,6 +24694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanEndLine",
           "package": "haskell-src-exts",
@@ -22835,6 +24704,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanEndLine",
           "package": "haskell-src-exts",
@@ -22848,6 +24718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanFilename",
           "package": "haskell-src-exts",
@@ -22857,6 +24728,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanFilename",
           "package": "haskell-src-exts",
@@ -22871,6 +24743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003esrcSpanStartLine\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esrcSpanStartColumn\u003c/a\u003e\u003c/code\u003e in a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanStart",
           "package": "haskell-src-exts",
@@ -22881,6 +24754,7 @@
         "index": {
           "description": "Returns srcSpanStartLine and srcSpanStartColumn in pair",
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanStart",
           "normalized": "SrcSpan-\u003e(Int,Int)",
@@ -22896,6 +24770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanStartColumn",
           "package": "haskell-src-exts",
@@ -22905,6 +24780,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanStartColumn",
           "package": "haskell-src-exts",
@@ -22918,6 +24794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanStartLine",
           "package": "haskell-src-exts",
@@ -22927,6 +24804,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "srcSpanStartLine",
           "package": "haskell-src-exts",
@@ -22940,6 +24818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "startColumn",
           "package": "haskell-src-exts",
@@ -22949,6 +24828,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "startColumn",
           "normalized": "a-\u003eInt",
@@ -22964,6 +24844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "startLine",
           "package": "haskell-src-exts",
@@ -22973,6 +24854,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "startLine",
           "normalized": "a-\u003eInt",
@@ -22988,6 +24870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "toSrcInfo",
           "package": "haskell-src-exts",
@@ -22997,6 +24880,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts SrcLoc",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.SrcLoc",
           "name": "toSrcInfo",
           "normalized": "SrcLoc-\u003e[SrcSpan]-\u003eSrcLoc-\u003ea",
@@ -23013,6 +24897,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA suite of datatypes describing the abstract syntax of Haskell 98\n \u003ca\u003ehttp://www.haskell.org/onlinereport/\u003c/a\u003e plus registered extensions, including:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e multi-parameter type classes with functional dependencies (MultiParamTypeClasses, FunctionalDependencies)\n\u003c/li\u003e\u003cli\u003e parameters of type class assertions are unrestricted (FlexibleContexts)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eforall\u003c/code\u003e types as universal and existential quantification (RankNTypes, ExistentialQuantification, etc)\n\u003c/li\u003e\u003cli\u003e pattern guards (PatternGuards)\n\u003c/li\u003e\u003cli\u003e implicit parameters (ImplicitParameters)\n\u003c/li\u003e\u003cli\u003e generalised algebraic data types (GADTs)\n\u003c/li\u003e\u003cli\u003e template haskell (TemplateHaskell)\n\u003c/li\u003e\u003cli\u003e empty data type declarations (EmptyDataDecls)\n\u003c/li\u003e\u003cli\u003e unboxed tuples (UnboxedTuples)\n\u003c/li\u003e\u003cli\u003e regular patterns (RegularPatterns)\n\u003c/li\u003e\u003cli\u003e HSP-style XML expressions and patterns (XmlSyntax)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Syntax",
           "package": "haskell-src-exts",
@@ -23022,6 +24907,7 @@
         "index": {
           "description": "suite of datatypes describing the abstract syntax of Haskell http www.haskell.org onlinereport plus registered extensions including multi-parameter type classes with functional dependencies MultiParamTypeClasses FunctionalDependencies parameters of type class assertions are unrestricted FlexibleContexts forall types as universal and existential quantification RankNTypes ExistentialQuantification etc pattern guards PatternGuards implicit parameters ImplicitParameters generalised algebraic data types GADTs template haskell TemplateHaskell empty data type declarations EmptyDataDecls unboxed tuples UnboxedTuples regular patterns RegularPatterns HSP-style XML expressions and patterns XmlSyntax",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Syntax",
           "package": "haskell-src-exts",
@@ -23036,6 +24922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivation clause of a RULES pragma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Activation",
           "package": "haskell-src-exts",
@@ -23045,6 +24932,7 @@
         "index": {
           "description": "Activation clause of RULES pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Activation",
           "package": "haskell-src-exts",
@@ -23059,6 +24947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003ealt\u003c/em\u003e alternative in a \u003ccode\u003ecase\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Alt",
           "package": "haskell-src-exts",
@@ -23068,6 +24957,7 @@
         "index": {
           "description": "An alt alternative in case expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Alt",
           "package": "haskell-src-exts",
@@ -23082,6 +24972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation through an ANN pragma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Annotation",
           "package": "haskell-src-exts",
@@ -23091,6 +24982,7 @@
         "index": {
           "description": "An annotation through an ANN pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Annotation",
           "package": "haskell-src-exts",
@@ -23105,6 +24997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociativity of an operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Assoc",
           "package": "haskell-src-exts",
@@ -23114,6 +25007,7 @@
         "index": {
           "description": "Associativity of an operator",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Assoc",
           "package": "haskell-src-exts",
@@ -23128,6 +25022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass assertions.\n   In Haskell 98, the argument would be a \u003cem\u003etyvar\u003c/em\u003e, but this definition\n   allows multiple parameters, and allows them to be \u003cem\u003etype\u003c/em\u003es.\n   Also extended with support for implicit parameters and equality constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Asst",
           "package": "haskell-src-exts",
@@ -23137,6 +25032,7 @@
         "index": {
           "description": "Class assertions In Haskell the argument would be tyvar but this definition allows multiple parameters and allows them to be type Also extended with support for implicit parameters and equality constraints",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Asst",
           "package": "haskell-src-exts",
@@ -23151,6 +25047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a constructor argument or field, optionally including\n   a strictness annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "BangType",
           "package": "haskell-src-exts",
@@ -23160,6 +25057,7 @@
         "index": {
           "description": "The type of constructor argument or field optionally including strictness annotation",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "BangType",
           "package": "haskell-src-exts",
@@ -23174,6 +25072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binding group inside a \u003ccode\u003elet\u003c/code\u003e or \u003ccode\u003ewhere\u003c/code\u003e clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Binds",
           "package": "haskell-src-exts",
@@ -23183,6 +25082,7 @@
         "index": {
           "description": "binding group inside let or where clause",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Binds",
           "package": "haskell-src-exts",
@@ -23197,6 +25097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlag denoting whether a tuple is boxed or unboxed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Boxed",
           "package": "haskell-src-exts",
@@ -23206,6 +25107,7 @@
         "index": {
           "description": "Flag denoting whether tuple is boxed or unboxed",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Boxed",
           "package": "haskell-src-exts",
@@ -23220,6 +25122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA template haskell bracket expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Bracket",
           "package": "haskell-src-exts",
@@ -23229,6 +25132,7 @@
         "index": {
           "description": "template haskell bracket expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Bracket",
           "package": "haskell-src-exts",
@@ -23243,6 +25147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name (\u003cem\u003ecname\u003c/em\u003e) of a component of a class or data type in an \u003ccode\u003eimport\u003c/code\u003e\n   or export specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CName",
           "package": "haskell-src-exts",
@@ -23252,6 +25157,7 @@
         "index": {
           "description": "name cname of component of class or data type in an import or export specification",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CName",
           "package": "haskell-src-exts",
@@ -23266,6 +25172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe calling convention of a foreign function call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CallConv",
           "package": "haskell-src-exts",
@@ -23275,6 +25182,7 @@
         "index": {
           "description": "The calling convention of foreign function call",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CallConv",
           "package": "haskell-src-exts",
@@ -23289,6 +25197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations inside a class declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClassDecl",
           "package": "haskell-src-exts",
@@ -23298,6 +25207,7 @@
         "index": {
           "description": "Declarations inside class declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClassDecl",
           "package": "haskell-src-exts",
@@ -23312,6 +25222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclaration of an ordinary data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ConDecl",
           "package": "haskell-src-exts",
@@ -23321,6 +25232,7 @@
         "index": {
           "description": "Declaration of an ordinary data constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ConDecl",
           "package": "haskell-src-exts",
@@ -23335,6 +25247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context is a set of assertions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Context",
           "package": "haskell-src-exts",
@@ -23344,6 +25257,7 @@
         "index": {
           "description": "context is set of assertions",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Context",
           "package": "haskell-src-exts",
@@ -23358,6 +25272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA flag stating whether a declaration is a data or newtype declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataOrNew",
           "package": "haskell-src-exts",
@@ -23367,6 +25282,7 @@
         "index": {
           "description": "flag stating whether declaration is data or newtype declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataOrNew",
           "package": "haskell-src-exts",
@@ -23381,6 +25297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA top-level declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Decl",
           "package": "haskell-src-exts",
@@ -23390,6 +25307,7 @@
         "index": {
           "description": "top-level declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Decl",
           "package": "haskell-src-exts",
@@ -23404,6 +25322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single derived instance, which may have arguments since it may be a MPTC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Deriving",
           "package": "haskell-src-exts",
@@ -23413,6 +25332,7 @@
         "index": {
           "description": "single derived instance which may have arguments since it may be MPTC",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Deriving",
           "package": "haskell-src-exts",
@@ -23427,6 +25347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Exp",
           "package": "haskell-src-exts",
@@ -23436,6 +25357,7 @@
         "index": {
           "description": "Haskell expressions",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Exp",
           "package": "haskell-src-exts",
@@ -23450,6 +25372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn item in a module's export specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ExportSpec",
           "package": "haskell-src-exts",
@@ -23459,6 +25382,7 @@
         "index": {
           "description": "An item in module export specification",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ExportSpec",
           "package": "haskell-src-exts",
@@ -23473,6 +25397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003efbind\u003c/em\u003e in a labeled construction or update expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FieldUpdate",
           "package": "haskell-src-exts",
@@ -23482,6 +25407,7 @@
         "index": {
           "description": "An fbind in labeled construction or update expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FieldUpdate",
           "package": "haskell-src-exts",
@@ -23496,6 +25422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functional dependency, given on the form\n   l1 l2 ... ln -\u003e r2 r3 .. rn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FunDep",
           "package": "haskell-src-exts",
@@ -23505,6 +25432,7 @@
         "index": {
           "description": "functional dependency given on the form l1 l2 ln r2 r3 rn",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FunDep",
           "package": "haskell-src-exts",
@@ -23519,6 +25447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single constructor declaration in a GADT data type declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GadtDecl",
           "package": "haskell-src-exts",
@@ -23528,6 +25457,7 @@
         "index": {
           "description": "single constructor declaration in GADT data type declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GadtDecl",
           "package": "haskell-src-exts",
@@ -23542,6 +25472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA guarded case alternative \u003ccode\u003e|\u003c/code\u003e \u003cem\u003estmts\u003c/em\u003e \u003ccode\u003e-\u003e\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedAlt",
           "package": "haskell-src-exts",
@@ -23551,6 +25482,7 @@
         "index": {
           "description": "guarded case alternative stmts exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedAlt",
           "package": "haskell-src-exts",
@@ -23565,6 +25497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right-hand sides of a \u003ccode\u003ecase\u003c/code\u003e alternative,\n   which may be a single right-hand side or a\n   set of guarded ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedAlts",
           "package": "haskell-src-exts",
@@ -23574,6 +25507,7 @@
         "index": {
           "description": "The right-hand sides of case alternative which may be single right-hand side or set of guarded ones",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedAlts",
           "package": "haskell-src-exts",
@@ -23588,6 +25522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA guarded right hand side \u003ccode\u003e|\u003c/code\u003e \u003cem\u003estmts\u003c/em\u003e \u003ccode\u003e=\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e.\n   The guard is a series of statements when using pattern guards,\n   otherwise it will be a single qualifier expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedRhs",
           "package": "haskell-src-exts",
@@ -23597,6 +25532,7 @@
         "index": {
           "description": "guarded right hand side stmts exp The guard is series of statements when using pattern guards otherwise it will be single qualifier expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedRhs",
           "package": "haskell-src-exts",
@@ -23611,6 +25547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binding of an implicit parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPBind",
           "package": "haskell-src-exts",
@@ -23620,6 +25557,7 @@
         "index": {
           "description": "binding of an implicit parameter",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPBind",
           "package": "haskell-src-exts",
@@ -23634,6 +25572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn implicit parameter name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPName",
           "package": "haskell-src-exts",
@@ -23643,6 +25582,7 @@
         "index": {
           "description": "An implicit parameter name",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPName",
           "package": "haskell-src-exts",
@@ -23657,6 +25597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn import declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ImportDecl",
           "package": "haskell-src-exts",
@@ -23666,6 +25607,7 @@
         "index": {
           "description": "An import declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ImportDecl",
           "package": "haskell-src-exts",
@@ -23680,6 +25622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn import specification, representing a single explicit item imported\n   (or hidden) from a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ImportSpec",
           "package": "haskell-src-exts",
@@ -23689,6 +25632,7 @@
         "index": {
           "description": "An import specification representing single explicit item imported or hidden from module",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ImportSpec",
           "package": "haskell-src-exts",
@@ -23703,6 +25647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations inside an instance declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InstDecl",
           "package": "haskell-src-exts",
@@ -23712,6 +25657,7 @@
         "index": {
           "description": "Declarations inside an instance declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InstDecl",
           "package": "haskell-src-exts",
@@ -23726,6 +25672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicit kind annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Kind",
           "package": "haskell-src-exts",
@@ -23735,6 +25682,7 @@
         "index": {
           "description": "An explicit kind annotation",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Kind",
           "package": "haskell-src-exts",
@@ -23749,6 +25697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eliteral\u003c/em\u003e\n Values of this type hold the abstract value of the literal, not the\n precise string representation used.  For example, \u003ccode\u003e10\u003c/code\u003e, \u003ccode\u003e0o12\u003c/code\u003e and \u003ccode\u003e0xa\u003c/code\u003e\n have the same representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Literal",
           "package": "haskell-src-exts",
@@ -23758,6 +25707,7 @@
         "index": {
           "description": "literal Values of this type hold the abstract value of the literal not the precise string representation used For example o12 and xa have the same representation",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Literal",
           "package": "haskell-src-exts",
@@ -23772,6 +25722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClauses of a function binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Match",
           "package": "haskell-src-exts",
@@ -23781,6 +25732,7 @@
         "index": {
           "description": "Clauses of function binding",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Match",
           "package": "haskell-src-exts",
@@ -23795,6 +25747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete Haskell source module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Module",
           "package": "haskell-src-exts",
@@ -23804,6 +25757,7 @@
         "index": {
           "description": "complete Haskell source module",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Module",
           "package": "haskell-src-exts",
@@ -23818,6 +25772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a Haskell module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ModuleName",
           "package": "haskell-src-exts",
@@ -23827,6 +25782,7 @@
         "index": {
           "description": "The name of Haskell module",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ModuleName",
           "package": "haskell-src-exts",
@@ -23841,6 +25797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA top level options pragma, preceding the module header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ModulePragma",
           "package": "haskell-src-exts",
@@ -23850,6 +25807,7 @@
         "index": {
           "description": "top level options pragma preceding the module header",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ModulePragma",
           "package": "haskell-src-exts",
@@ -23864,6 +25822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent variables, and also constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Name",
           "package": "haskell-src-exts",
@@ -23873,6 +25832,7 @@
         "index": {
           "description": "This type is used to represent variables and also constructors",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Name",
           "package": "haskell-src-exts",
@@ -23887,6 +25847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperators appearing in \u003ccode\u003einfix\u003c/code\u003e declarations are never qualified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Op",
           "package": "haskell-src-exts",
@@ -23896,6 +25857,7 @@
         "index": {
           "description": "Operators appearing in infix declarations are never qualified",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Op",
           "package": "haskell-src-exts",
@@ -23910,6 +25872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML attribute in a pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXAttr",
           "package": "haskell-src-exts",
@@ -23919,6 +25882,7 @@
         "index": {
           "description": "An XML attribute in pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXAttr",
           "package": "haskell-src-exts",
@@ -23933,6 +25897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern, to be matched against a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Pat",
           "package": "haskell-src-exts",
@@ -23942,6 +25907,7 @@
         "index": {
           "description": "pattern to be matched against value",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Pat",
           "package": "haskell-src-exts",
@@ -23956,6 +25922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003efpat\u003c/em\u003e in a labeled record pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PatField",
           "package": "haskell-src-exts",
@@ -23965,6 +25932,7 @@
         "index": {
           "description": "An fpat in labeled record pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PatField",
           "package": "haskell-src-exts",
@@ -23979,6 +25947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent qualified variables, and also\n   qualified constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QName",
           "package": "haskell-src-exts",
@@ -23988,6 +25957,7 @@
         "index": {
           "description": "This type is used to represent qualified variables and also qualified constructors",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QName",
           "package": "haskell-src-exts",
@@ -24002,6 +25972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly qualified infix operators (\u003cem\u003eqop\u003c/em\u003e), appearing in expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QOp",
           "package": "haskell-src-exts",
@@ -24011,6 +25982,7 @@
         "index": {
           "description": "Possibly qualified infix operators qop appearing in expressions",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QOp",
           "package": "haskell-src-exts",
@@ -24025,6 +25997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single constructor declaration within a data type declaration,\n   which may have an existential quantification binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QualConDecl",
           "package": "haskell-src-exts",
@@ -24034,6 +26007,7 @@
         "index": {
           "description": "single constructor declaration within data type declaration which may have an existential quantification binding",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QualConDecl",
           "package": "haskell-src-exts",
@@ -24048,6 +26022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general \u003cem\u003etransqual\u003c/em\u003e in a list comprehension,\n   which could potentially be a transform of the kind\n   enabled by TransformListComp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QualStmt",
           "package": "haskell-src-exts",
@@ -24057,6 +26032,7 @@
         "index": {
           "description": "general transqual in list comprehension which could potentially be transform of the kind enabled by TransformListComp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QualStmt",
           "package": "haskell-src-exts",
@@ -24071,6 +26047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity in a regular pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPat",
           "package": "haskell-src-exts",
@@ -24080,6 +26057,7 @@
         "index": {
           "description": "An entity in regular pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPat",
           "package": "haskell-src-exts",
@@ -24094,6 +26072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular pattern operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPatOp",
           "package": "haskell-src-exts",
@@ -24103,6 +26082,7 @@
         "index": {
           "description": "regular pattern operator",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPatOp",
           "package": "haskell-src-exts",
@@ -24117,6 +26097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right hand side of a function or pattern binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Rhs",
           "package": "haskell-src-exts",
@@ -24126,6 +26107,7 @@
         "index": {
           "description": "The right hand side of function or pattern binding",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Rhs",
           "package": "haskell-src-exts",
@@ -24140,6 +26122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe body of a RULES pragma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Rule",
           "package": "haskell-src-exts",
@@ -24149,6 +26132,7 @@
         "index": {
           "description": "The body of RULES pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Rule",
           "package": "haskell-src-exts",
@@ -24163,6 +26147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables used in a RULES pragma, optionally annotated with types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RuleVar",
           "package": "haskell-src-exts",
@@ -24172,6 +26157,7 @@
         "index": {
           "description": "Variables used in RULES pragma optionally annotated with types",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RuleVar",
           "package": "haskell-src-exts",
@@ -24186,6 +26172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe safety of a foreign function call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Safety",
           "package": "haskell-src-exts",
@@ -24195,6 +26182,7 @@
         "index": {
           "description": "The safety of foreign function call",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Safety",
           "package": "haskell-src-exts",
@@ -24209,6 +26197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructors with special syntax.\n These names are never qualified, and always refer to builtin type or\n data constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpecialCon",
           "package": "haskell-src-exts",
@@ -24218,6 +26207,7 @@
         "index": {
           "description": "Constructors with special syntax These names are never qualified and always refer to builtin type or data constructors",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpecialCon",
           "package": "haskell-src-exts",
@@ -24232,6 +26222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA template haskell splice expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Splice",
           "package": "haskell-src-exts",
@@ -24241,6 +26232,7 @@
         "index": {
           "description": "template haskell splice expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Splice",
           "package": "haskell-src-exts",
@@ -24255,6 +26247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single position in the source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SrcLoc",
           "package": "haskell-src-exts",
@@ -24264,6 +26257,7 @@
         "index": {
           "description": "single position in the source",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SrcLoc",
           "package": "haskell-src-exts",
@@ -24278,6 +26272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA statement, representing both a \u003cem\u003estmt\u003c/em\u003e in a \u003ccode\u003edo\u003c/code\u003e-expression,\n   an ordinary \u003cem\u003equal\u003c/em\u003e in a list comprehension, as well as a \u003cem\u003estmt\u003c/em\u003e\n   in a pattern guard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Stmt",
           "package": "haskell-src-exts",
@@ -24287,6 +26282,7 @@
         "index": {
           "description": "statement representing both stmt in do expression an ordinary qual in list comprehension as well as stmt in pattern guard",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Stmt",
           "package": "haskell-src-exts",
@@ -24301,6 +26297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecognised tools for OPTIONS pragmas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Tool",
           "package": "haskell-src-exts",
@@ -24310,6 +26307,7 @@
         "index": {
           "description": "Recognised tools for OPTIONS pragmas",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Tool",
           "package": "haskell-src-exts",
@@ -24324,6 +26322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type variable declaration, optionally with an explicit kind annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyVarBind",
           "package": "haskell-src-exts",
@@ -24333,6 +26332,7 @@
         "index": {
           "description": "type variable declaration optionally with an explicit kind annotation",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyVarBind",
           "package": "haskell-src-exts",
@@ -24347,6 +26347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type qualified with a context.\n   An unqualified type has an empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Type",
           "package": "haskell-src-exts",
@@ -24356,6 +26357,7 @@
         "index": {
           "description": "type qualified with context An unqualified type has an empty context",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Type",
           "package": "haskell-src-exts",
@@ -24370,6 +26372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning text to optionally use in the module header of e.g.\n   a deprecated module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "WarningText",
           "package": "haskell-src-exts",
@@ -24379,6 +26382,7 @@
         "index": {
           "description": "Warning text to optionally use in the module header of e.g deprecated module",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "WarningText",
           "package": "haskell-src-exts",
@@ -24393,6 +26397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn xml attribute, which is a name-expression pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XAttr",
           "package": "haskell-src-exts",
@@ -24402,6 +26407,7 @@
         "index": {
           "description": "An xml attribute which is name-expression pair",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XAttr",
           "package": "haskell-src-exts",
@@ -24416,6 +26422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of an xml element or attribute,\n   possibly qualified with a namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XName",
           "package": "haskell-src-exts",
@@ -24425,6 +26432,7 @@
         "index": {
           "description": "The name of an xml element or attribute possibly qualified with namespace",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XName",
           "package": "haskell-src-exts",
@@ -24438,6 +26446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ActiveFrom",
           "package": "haskell-src-exts",
@@ -24447,6 +26456,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ActiveFrom",
           "package": "haskell-src-exts",
@@ -24460,6 +26470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ActiveUntil",
           "package": "haskell-src-exts",
@@ -24469,6 +26480,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ActiveUntil",
           "package": "haskell-src-exts",
@@ -24482,6 +26494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Alt",
           "package": "haskell-src-exts",
@@ -24491,6 +26504,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Alt",
           "package": "haskell-src-exts",
@@ -24504,6 +26518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AlwaysActive",
           "package": "haskell-src-exts",
@@ -24513,6 +26528,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AlwaysActive",
           "package": "haskell-src-exts",
@@ -24527,6 +26543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation for a declared name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Ann",
           "package": "haskell-src-exts",
@@ -24537,6 +26554,7 @@
         "index": {
           "description": "An annotation for declared name",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Ann",
           "package": "haskell-src-exts",
@@ -24551,6 +26569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANN pragma with module scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AnnModulePragma",
           "package": "haskell-src-exts",
@@ -24561,6 +26580,7 @@
         "index": {
           "description": "ANN pragma with module scope",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AnnModulePragma",
           "package": "haskell-src-exts",
@@ -24575,6 +26595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ANN pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AnnPragma",
           "package": "haskell-src-exts",
@@ -24585,6 +26606,7 @@
         "index": {
           "description": "An ANN pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AnnPragma",
           "package": "haskell-src-exts",
@@ -24599,6 +26621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "App",
           "package": "haskell-src-exts",
@@ -24609,6 +26632,7 @@
         "index": {
           "description": "ordinary application",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "App",
           "package": "haskell-src-exts",
@@ -24623,6 +26647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft-associative operator (declared with \u003ccode\u003einfixl\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AssocLeft",
           "package": "haskell-src-exts",
@@ -24633,6 +26658,7 @@
         "index": {
           "description": "left-associative operator declared with infixl",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AssocLeft",
           "package": "haskell-src-exts",
@@ -24647,6 +26673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-associative operator (declared with \u003ccode\u003einfix\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AssocNone",
           "package": "haskell-src-exts",
@@ -24657,6 +26684,7 @@
         "index": {
           "description": "non-associative operator declared with infix",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AssocNone",
           "package": "haskell-src-exts",
@@ -24671,6 +26699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright-associative operator (declared with \u003ccode\u003einfixr\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AssocRight",
           "package": "haskell-src-exts",
@@ -24681,6 +26710,7 @@
         "index": {
           "description": "right-associative operator declared with infixr",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "AssocRight",
           "package": "haskell-src-exts",
@@ -24695,6 +26725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ordinary binding group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "BDecls",
           "package": "haskell-src-exts",
@@ -24705,6 +26736,7 @@
         "index": {
           "description": "An ordinary binding group",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "BDecls",
           "normalized": "BDecls[Decl]",
@@ -24721,6 +26753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estrict component, marked with \"\u003ccode\u003e!\u003c/code\u003e\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "BangedTy",
           "package": "haskell-src-exts",
@@ -24731,6 +26764,7 @@
         "index": {
           "description": "strict component marked with",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "BangedTy",
           "package": "haskell-src-exts",
@@ -24745,6 +26779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemplate haskell bracket expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "BracketExp",
           "package": "haskell-src-exts",
@@ -24755,6 +26790,7 @@
         "index": {
           "description": "template haskell bracket expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "BracketExp",
           "package": "haskell-src-exts",
@@ -24768,6 +26804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CApi",
           "package": "haskell-src-exts",
@@ -24777,6 +26814,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CApi",
           "package": "haskell-src-exts",
@@ -24790,6 +26828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CCall",
           "package": "haskell-src-exts",
@@ -24799,6 +26838,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CCall",
           "package": "haskell-src-exts",
@@ -24812,6 +26852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CPlusPlus",
           "package": "haskell-src-exts",
@@ -24821,6 +26862,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CPlusPlus",
           "package": "haskell-src-exts",
@@ -24835,6 +26877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecase\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eof\u003c/code\u003e \u003cem\u003ealts\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Case",
           "package": "haskell-src-exts",
@@ -24845,6 +26888,7 @@
         "index": {
           "description": "case exp of alts",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Case",
           "normalized": "Case Exp[Alt]",
@@ -24861,6 +26905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echaracter literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Char",
           "package": "haskell-src-exts",
@@ -24871,6 +26916,7 @@
         "index": {
           "description": "character literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Char",
           "package": "haskell-src-exts",
@@ -24885,6 +26931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary class assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClassA",
           "package": "haskell-src-exts",
@@ -24895,6 +26942,7 @@
         "index": {
           "description": "ordinary class assertion",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClassA",
           "normalized": "ClassA QName[Type]",
@@ -24911,6 +26959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of a type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClassDecl",
           "package": "haskell-src-exts",
@@ -24921,6 +26970,7 @@
         "index": {
           "description": "declaration of type class",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClassDecl",
           "normalized": "ClassDecl SrcLoc Context Name[TyVarBind][FunDep][ClassDecl]",
@@ -24937,6 +26987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeclaration of an associated data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClsDataFam",
           "package": "haskell-src-exts",
@@ -24947,6 +26998,7 @@
         "index": {
           "description": "declaration of an associated data type",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClsDataFam",
           "normalized": "ClsDataFam SrcLoc Context Name[TyVarBind](Maybe Kind)",
@@ -24963,6 +27015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClsDecl",
           "package": "haskell-src-exts",
@@ -24973,6 +27026,7 @@
         "index": {
           "description": "ordinary declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClsDecl",
           "package": "haskell-src-exts",
@@ -24987,6 +27041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault choice for an associated type synonym\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClsTyDef",
           "package": "haskell-src-exts",
@@ -24997,6 +27052,7 @@
         "index": {
           "description": "default choice for an associated type synonym",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClsTyDef",
           "package": "haskell-src-exts",
@@ -25011,6 +27067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeclaration of an associated type synonym\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClsTyFam",
           "package": "haskell-src-exts",
@@ -25021,6 +27078,7 @@
         "index": {
           "description": "declaration of an associated type synonym",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ClsTyFam",
           "normalized": "ClsTyFam SrcLoc Name[TyVarBind](Maybe Kind)",
@@ -25037,6 +27095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Con",
           "package": "haskell-src-exts",
@@ -25047,6 +27106,7 @@
         "index": {
           "description": "data constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Con",
           "package": "haskell-src-exts",
@@ -25061,6 +27121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ConDecl",
           "package": "haskell-src-exts",
@@ -25071,6 +27132,7 @@
         "index": {
           "description": "ordinary data constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ConDecl",
           "normalized": "ConDecl Name[BangType]",
@@ -25087,6 +27149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of a data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ConName",
           "package": "haskell-src-exts",
@@ -25097,6 +27160,7 @@
         "index": {
           "description": "name of data constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ConName",
           "package": "haskell-src-exts",
@@ -25111,6 +27175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructor operator (\u003cem\u003econop\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ConOp",
           "package": "haskell-src-exts",
@@ -25121,6 +27186,7 @@
         "index": {
           "description": "constructor operator conop",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ConOp",
           "package": "haskell-src-exts",
@@ -25135,6 +27201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist data constructor \u003ccode\u003e(:)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Cons",
           "package": "haskell-src-exts",
@@ -25145,6 +27212,7 @@
         "index": {
           "description": "list data constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Cons",
           "package": "haskell-src-exts",
@@ -25159,6 +27227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCORE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CorePragma",
           "package": "haskell-src-exts",
@@ -25169,6 +27238,7 @@
         "index": {
           "description": "CORE pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "CorePragma",
           "package": "haskell-src-exts",
@@ -25183,6 +27253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data OR newtype declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataDecl",
           "package": "haskell-src-exts",
@@ -25193,6 +27264,7 @@
         "index": {
           "description": "data OR newtype declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataDecl",
           "normalized": "DataDecl SrcLoc DataOrNew Context Name[TyVarBind][QualConDecl][Deriving]",
@@ -25209,6 +27281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data family declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataFamDecl",
           "package": "haskell-src-exts",
@@ -25219,6 +27292,7 @@
         "index": {
           "description": "data family declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataFamDecl",
           "normalized": "DataFamDecl SrcLoc Context Name[TyVarBind](Maybe Kind)",
@@ -25235,6 +27309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data family instance declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataInsDecl",
           "package": "haskell-src-exts",
@@ -25245,6 +27320,7 @@
         "index": {
           "description": "data family instance declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataInsDecl",
           "normalized": "DataInsDecl SrcLoc DataOrNew Type[QualConDecl][Deriving]",
@@ -25260,6 +27336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataType",
           "package": "haskell-src-exts",
@@ -25269,6 +27346,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DataType",
           "package": "haskell-src-exts",
@@ -25283,6 +27361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeclaration bracket: \u003ccode\u003e[d| ... |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DeclBracket",
           "package": "haskell-src-exts",
@@ -25293,6 +27372,7 @@
         "index": {
           "description": "declaration bracket",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DeclBracket",
           "normalized": "DeclBracket[Decl]",
@@ -25309,6 +27389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of default types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DefaultDecl",
           "package": "haskell-src-exts",
@@ -25319,6 +27400,7 @@
         "index": {
           "description": "declaration of default types",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DefaultDecl",
           "normalized": "DefaultDecl SrcLoc[Type]",
@@ -25335,6 +27417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DEPRECATED pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DeprPragmaDecl",
           "package": "haskell-src-exts",
@@ -25345,6 +27428,7 @@
         "index": {
           "description": "DEPRECATED pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DeprPragmaDecl",
           "normalized": "DeprPragmaDecl SrcLoc[([Name],String)]",
@@ -25360,6 +27444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DeprText",
           "package": "haskell-src-exts",
@@ -25369,6 +27454,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DeprText",
           "package": "haskell-src-exts",
@@ -25383,6 +27469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standalone deriving declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DerivDecl",
           "package": "haskell-src-exts",
@@ -25393,6 +27480,7 @@
         "index": {
           "description": "standalone deriving declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DerivDecl",
           "normalized": "DerivDecl SrcLoc Context QName[Type]",
@@ -25409,6 +27497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edo\u003c/code\u003e-expression:\n   the last statement in the list\n   should be an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Do",
           "package": "haskell-src-exts",
@@ -25419,6 +27508,7 @@
         "index": {
           "description": "do expression the last statement in the list should be an expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Do",
           "normalized": "Do[Stmt]",
@@ -25434,6 +27524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DotNet",
           "package": "haskell-src-exts",
@@ -25443,6 +27534,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "DotNet",
           "package": "haskell-src-exts",
@@ -25457,6 +27549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT\u003c/code\u003e:\n   a class or datatype exported abstractly,\n   or a type synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EAbs",
           "package": "haskell-src-exts",
@@ -25467,6 +27560,7 @@
         "index": {
           "description": "class or datatype exported abstractly or type synonym",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EAbs",
           "package": "haskell-src-exts",
@@ -25481,6 +27575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emodule M\u003c/code\u003e:\n   re-export a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EModuleContents",
           "package": "haskell-src-exts",
@@ -25491,6 +27586,7 @@
         "index": {
           "description": "module re-export module",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EModuleContents",
           "package": "haskell-src-exts",
@@ -25505,6 +27601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(..)\u003c/code\u003e:\n   a class exported with all of its methods, or\n   a datatype exported with all of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EThingAll",
           "package": "haskell-src-exts",
@@ -25515,6 +27612,7 @@
         "index": {
           "description": "class exported with all of its methods or datatype exported with all of its constructors",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EThingAll",
           "package": "haskell-src-exts",
@@ -25529,6 +27627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(C_1,...,C_n)\u003c/code\u003e:\n   a class exported with some of its methods, or\n   a datatype exported with some of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EThingWith",
           "package": "haskell-src-exts",
@@ -25539,6 +27638,7 @@
         "index": {
           "description": "class exported with some of its methods or datatype exported with some of its constructors",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EThingWith",
           "normalized": "EThingWith QName[CName]",
@@ -25555,6 +27655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EVar",
           "package": "haskell-src-exts",
@@ -25565,6 +27666,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EVar",
           "package": "haskell-src-exts",
@@ -25579,6 +27681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunbounded arithmetic sequence,\n   incrementing by 1: \u003ccode\u003e[from ..]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EnumFrom",
           "package": "haskell-src-exts",
@@ -25589,6 +27692,7 @@
         "index": {
           "description": "unbounded arithmetic sequence incrementing by from",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EnumFrom",
           "package": "haskell-src-exts",
@@ -25603,6 +27707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunbounded arithmetic sequence,\n   with first two elements given \u003ccode\u003e[from, then ..]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EnumFromThen",
           "package": "haskell-src-exts",
@@ -25613,6 +27718,7 @@
         "index": {
           "description": "unbounded arithmetic sequence with first two elements given from then",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EnumFromThen",
           "package": "haskell-src-exts",
@@ -25627,6 +27733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebounded arithmetic sequence,\n   with first two elements given \u003ccode\u003e[from, then .. to]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EnumFromThenTo",
           "package": "haskell-src-exts",
@@ -25637,6 +27744,7 @@
         "index": {
           "description": "bounded arithmetic sequence with first two elements given from then to",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EnumFromThenTo",
           "package": "haskell-src-exts",
@@ -25651,6 +27759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebounded arithmetic sequence,\n   incrementing by 1 \u003ccode\u003e[from .. to]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EnumFromTo",
           "package": "haskell-src-exts",
@@ -25661,6 +27770,7 @@
         "index": {
           "description": "bounded arithmetic sequence incrementing by from to",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EnumFromTo",
           "package": "haskell-src-exts",
@@ -25675,6 +27785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype equality constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EqualP",
           "package": "haskell-src-exts",
@@ -25685,6 +27796,7 @@
         "index": {
           "description": "type equality constraint",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "EqualP",
           "package": "haskell-src-exts",
@@ -25699,6 +27811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpression bracket: \u003ccode\u003e[| ... |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ExpBracket",
           "package": "haskell-src-exts",
@@ -25709,6 +27822,7 @@
         "index": {
           "description": "expression bracket",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ExpBracket",
           "package": "haskell-src-exts",
@@ -25723,6 +27837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpression with explicit type signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ExpTypeSig",
           "package": "haskell-src-exts",
@@ -25733,6 +27848,7 @@
         "index": {
           "description": "expression with explicit type signature",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ExpTypeSig",
           "package": "haskell-src-exts",
@@ -25747,6 +27863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field pun\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FieldPun",
           "package": "haskell-src-exts",
@@ -25757,6 +27874,7 @@
         "index": {
           "description": "record field pun",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FieldPun",
           "package": "haskell-src-exts",
@@ -25771,6 +27889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary label-expresion pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FieldUpdate",
           "package": "haskell-src-exts",
@@ -25781,6 +27900,7 @@
         "index": {
           "description": "ordinary label-expresion pair",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FieldUpdate",
           "package": "haskell-src-exts",
@@ -25795,6 +27915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field wildcard\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FieldWildcard",
           "package": "haskell-src-exts",
@@ -25805,6 +27926,7 @@
         "index": {
           "description": "record field wildcard",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FieldWildcard",
           "package": "haskell-src-exts",
@@ -25819,6 +27941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA foreign export declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ForExp",
           "package": "haskell-src-exts",
@@ -25829,6 +27952,7 @@
         "index": {
           "description": "foreign export declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ForExp",
           "package": "haskell-src-exts",
@@ -25843,6 +27967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA foreign import declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ForImp",
           "package": "haskell-src-exts",
@@ -25853,6 +27978,7 @@
         "index": {
           "description": "foreign import declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ForImp",
           "package": "haskell-src-exts",
@@ -25867,6 +27993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efloating point literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Frac",
           "package": "haskell-src-exts",
@@ -25877,6 +28004,7 @@
         "index": {
           "description": "floating point literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Frac",
           "package": "haskell-src-exts",
@@ -25891,6 +28019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of function binding clauses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FunBind",
           "package": "haskell-src-exts",
@@ -25901,6 +28030,7 @@
         "index": {
           "description": "set of function binding clauses",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FunBind",
           "normalized": "FunBind[Match]",
@@ -25917,6 +28047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction type constructor \u003ccode\u003e-\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FunCon",
           "package": "haskell-src-exts",
@@ -25927,6 +28058,7 @@
         "index": {
           "description": "function type constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FunCon",
           "package": "haskell-src-exts",
@@ -25940,6 +28072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FunDep",
           "package": "haskell-src-exts",
@@ -25949,6 +28082,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "FunDep",
           "normalized": "FunDep[Name][Name]",
@@ -25965,6 +28099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data OR newtype declaration, GADT style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GDataDecl",
           "package": "haskell-src-exts",
@@ -25975,6 +28110,7 @@
         "index": {
           "description": "data OR newtype declaration GADT style",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GDataDecl",
           "normalized": "GDataDecl SrcLoc DataOrNew Context Name[TyVarBind](Maybe Kind)[GadtDecl][Deriving]",
@@ -25991,6 +28127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data family instance declaration, GADT style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GDataInsDecl",
           "package": "haskell-src-exts",
@@ -26001,6 +28138,7 @@
         "index": {
           "description": "data family instance declaration GADT style",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GDataInsDecl",
           "normalized": "GDataInsDecl SrcLoc DataOrNew Type(Maybe Kind)[GadtDecl][Deriving]",
@@ -26016,6 +28154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GadtDecl",
           "package": "haskell-src-exts",
@@ -26025,6 +28164,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GadtDecl",
           "package": "haskell-src-exts",
@@ -26039,6 +28179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGENERATED pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GenPragma",
           "package": "haskell-src-exts",
@@ -26049,6 +28190,7 @@
         "index": {
           "description": "GENERATED pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GenPragma",
           "normalized": "GenPragma String(Int,Int)(Int,Int)Exp",
@@ -26065,6 +28207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea generator: \u003cem\u003epat\u003c/em\u003e \u003ccode\u003e\u003c-\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Generator",
           "package": "haskell-src-exts",
@@ -26075,6 +28218,7 @@
         "index": {
           "description": "generator pat exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Generator",
           "package": "haskell-src-exts",
@@ -26089,6 +28233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003ccode\u003egroup\u003c/code\u003e \u003ccode\u003eby\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GroupBy",
           "package": "haskell-src-exts",
@@ -26099,6 +28244,7 @@
         "index": {
           "description": "then group by exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GroupBy",
           "package": "haskell-src-exts",
@@ -26113,6 +28259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003ccode\u003egroup\u003c/code\u003e \u003ccode\u003eby\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eusing\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GroupByUsing",
           "package": "haskell-src-exts",
@@ -26123,6 +28270,7 @@
         "index": {
           "description": "then group by exp using exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GroupByUsing",
           "package": "haskell-src-exts",
@@ -26137,6 +28285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003ccode\u003egroup\u003c/code\u003e \u003ccode\u003eusing\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GroupUsing",
           "package": "haskell-src-exts",
@@ -26147,6 +28296,7 @@
         "index": {
           "description": "then group using exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GroupUsing",
           "package": "haskell-src-exts",
@@ -26160,6 +28310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedAlt",
           "package": "haskell-src-exts",
@@ -26169,6 +28320,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedAlt",
           "normalized": "GuardedAlt SrcLoc[Stmt]Exp",
@@ -26185,6 +28337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003egdpat\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedAlts",
           "package": "haskell-src-exts",
@@ -26195,6 +28348,7 @@
         "index": {
           "description": "gdpat",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedAlts",
           "normalized": "GuardedAlts[GuardedAlt]",
@@ -26210,6 +28364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedRhs",
           "package": "haskell-src-exts",
@@ -26219,6 +28374,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedRhs",
           "normalized": "GuardedRhs SrcLoc[Stmt]Exp",
@@ -26235,6 +28391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eguarded right hand side (\u003cem\u003egdrhs\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedRhss",
           "package": "haskell-src-exts",
@@ -26245,6 +28402,7 @@
         "index": {
           "description": "guarded right hand side gdrhs",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "GuardedRhss",
           "normalized": "GuardedRhss[GuardedRhs]",
@@ -26261,6 +28419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT\u003c/code\u003e:\n   the name of a class, datatype or type synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IAbs",
           "package": "haskell-src-exts",
@@ -26271,6 +28430,7 @@
         "index": {
           "description": "the name of class datatype or type synonym",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IAbs",
           "package": "haskell-src-exts",
@@ -26284,6 +28444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPBind",
           "package": "haskell-src-exts",
@@ -26293,6 +28454,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPBind",
           "package": "haskell-src-exts",
@@ -26307,6 +28469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binding group for implicit parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPBinds",
           "package": "haskell-src-exts",
@@ -26317,6 +28480,7 @@
         "index": {
           "description": "binding group for implicit parameters",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPBinds",
           "normalized": "IPBinds[IPBind]",
@@ -26333,6 +28497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e?\u003cem\u003eident\u003c/em\u003e, non-linear implicit parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPDup",
           "package": "haskell-src-exts",
@@ -26343,6 +28508,7 @@
         "index": {
           "description": "ident non-linear implicit parameter",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPDup",
           "package": "haskell-src-exts",
@@ -26357,6 +28523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e%\u003cem\u003eident\u003c/em\u003e, linear implicit parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPLin",
           "package": "haskell-src-exts",
@@ -26367,6 +28534,7 @@
         "index": {
           "description": "ident linear implicit parameter",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPLin",
           "package": "haskell-src-exts",
@@ -26381,6 +28549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimplicit parameter variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPVar",
           "package": "haskell-src-exts",
@@ -26391,6 +28560,7 @@
         "index": {
           "description": "implicit parameter variable",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IPVar",
           "package": "haskell-src-exts",
@@ -26405,6 +28575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimplicit parameter assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IParam",
           "package": "haskell-src-exts",
@@ -26415,6 +28586,7 @@
         "index": {
           "description": "implicit parameter assertion",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IParam",
           "package": "haskell-src-exts",
@@ -26429,6 +28601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(..)\u003c/code\u003e:\n   a class imported with all of its methods, or\n   a datatype imported with all of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IThingAll",
           "package": "haskell-src-exts",
@@ -26439,6 +28612,7 @@
         "index": {
           "description": "class imported with all of its methods or datatype imported with all of its constructors",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IThingAll",
           "package": "haskell-src-exts",
@@ -26453,6 +28627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(C_1,...,C_n)\u003c/code\u003e:\n   a class imported with some of its methods, or\n   a datatype imported with some of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IThingWith",
           "package": "haskell-src-exts",
@@ -26463,6 +28638,7 @@
         "index": {
           "description": "class imported with some of its methods or datatype imported with some of its constructors",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IThingWith",
           "normalized": "IThingWith Name[CName]",
@@ -26479,6 +28655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IVar",
           "package": "haskell-src-exts",
@@ -26489,6 +28666,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IVar",
           "package": "haskell-src-exts",
@@ -26503,6 +28681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable splice: \u003ccode\u003e$var\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IdSplice",
           "package": "haskell-src-exts",
@@ -26513,6 +28692,7 @@
         "index": {
           "description": "variable splice var",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "IdSplice",
           "package": "haskell-src-exts",
@@ -26527,6 +28707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003evarid\u003c/em\u003e or \u003cem\u003econid\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Ident",
           "package": "haskell-src-exts",
@@ -26537,6 +28718,7 @@
         "index": {
           "description": "varid or conid",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Ident",
           "package": "haskell-src-exts",
@@ -26551,6 +28733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eif\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003ethen\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eelse\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "If",
           "package": "haskell-src-exts",
@@ -26561,6 +28744,7 @@
         "index": {
           "description": "if exp then exp else exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "If",
           "package": "haskell-src-exts",
@@ -26574,6 +28758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ImportDecl",
           "package": "haskell-src-exts",
@@ -26583,6 +28768,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ImportDecl",
           "package": "haskell-src-exts",
@@ -26597,6 +28783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclass assertion where the class name is given infix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InfixA",
           "package": "haskell-src-exts",
@@ -26607,6 +28794,7 @@
         "index": {
           "description": "class assertion where the class name is given infix",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InfixA",
           "package": "haskell-src-exts",
@@ -26621,6 +28809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InfixApp",
           "package": "haskell-src-exts",
@@ -26631,6 +28820,7 @@
         "index": {
           "description": "infix application",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InfixApp",
           "package": "haskell-src-exts",
@@ -26645,6 +28835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InfixConDecl",
           "package": "haskell-src-exts",
@@ -26655,6 +28846,7 @@
         "index": {
           "description": "infix data constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InfixConDecl",
           "package": "haskell-src-exts",
@@ -26669,6 +28861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of operator fixity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InfixDecl",
           "package": "haskell-src-exts",
@@ -26679,6 +28872,7 @@
         "index": {
           "description": "declaration of operator fixity",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InfixDecl",
           "normalized": "InfixDecl SrcLoc Assoc Int[Op]",
@@ -26695,6 +28889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn INLINE CONLIKE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InlineConlikeSig",
           "package": "haskell-src-exts",
@@ -26705,6 +28900,7 @@
         "index": {
           "description": "An INLINE CONLIKE pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InlineConlikeSig",
           "package": "haskell-src-exts",
@@ -26719,6 +28915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn INLINE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InlineSig",
           "package": "haskell-src-exts",
@@ -26729,6 +28926,7 @@
         "index": {
           "description": "An INLINE pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InlineSig",
           "package": "haskell-src-exts",
@@ -26743,6 +28941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean associated data type implementation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InsData",
           "package": "haskell-src-exts",
@@ -26753,6 +28952,7 @@
         "index": {
           "description": "an associated data type implementation",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InsData",
           "normalized": "InsData SrcLoc DataOrNew Type[QualConDecl][Deriving]",
@@ -26769,6 +28969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InsDecl",
           "package": "haskell-src-exts",
@@ -26779,6 +28980,7 @@
         "index": {
           "description": "ordinary declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InsDecl",
           "package": "haskell-src-exts",
@@ -26793,6 +28995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean associated data type implemented using GADT style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InsGData",
           "package": "haskell-src-exts",
@@ -26803,6 +29006,7 @@
         "index": {
           "description": "an associated data type implemented using GADT style",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InsGData",
           "normalized": "InsGData SrcLoc DataOrNew Type(Maybe Kind)[GadtDecl][Deriving]",
@@ -26819,6 +29023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean associated type definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InsType",
           "package": "haskell-src-exts",
@@ -26829,6 +29034,7 @@
         "index": {
           "description": "an associated type definition",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InsType",
           "package": "haskell-src-exts",
@@ -26843,6 +29049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn declaration of a type class instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InstDecl",
           "package": "haskell-src-exts",
@@ -26853,6 +29060,7 @@
         "index": {
           "description": "An declaration of type class instance",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InstDecl",
           "normalized": "InstDecl SrcLoc Context QName[Type][InstDecl]",
@@ -26869,6 +29077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SPECIALISE instance pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InstSig",
           "package": "haskell-src-exts",
@@ -26879,6 +29088,7 @@
         "index": {
           "description": "SPECIALISE instance pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "InstSig",
           "normalized": "InstSig SrcLoc Context QName[Type]",
@@ -26895,6 +29105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Int",
           "package": "haskell-src-exts",
@@ -26905,6 +29116,7 @@
         "index": {
           "description": "integer literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Int",
           "package": "haskell-src-exts",
@@ -26918,6 +29130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Js",
           "package": "haskell-src-exts",
@@ -26927,6 +29140,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Js",
           "package": "haskell-src-exts",
@@ -26940,6 +29154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Jvm",
           "package": "haskell-src-exts",
@@ -26949,6 +29164,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Jvm",
           "package": "haskell-src-exts",
@@ -26963,6 +29179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e!\u003c/code\u003e, the kind of unboxed types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindBang",
           "package": "haskell-src-exts",
@@ -26973,6 +29190,7 @@
         "index": {
           "description": "the kind of unboxed types",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindBang",
           "package": "haskell-src-exts",
@@ -26987,6 +29205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e-\u003e\u003c/code\u003e, the kind of a type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindFn",
           "package": "haskell-src-exts",
@@ -26997,6 +29216,7 @@
         "index": {
           "description": "the kind of type constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindFn",
           "package": "haskell-src-exts",
@@ -27011,6 +29231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea kind surrounded by parentheses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindParen",
           "package": "haskell-src-exts",
@@ -27021,6 +29242,7 @@
         "index": {
           "description": "kind surrounded by parentheses",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindParen",
           "package": "haskell-src-exts",
@@ -27035,6 +29257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e*\u003c/code\u003e, the kind of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindStar",
           "package": "haskell-src-exts",
@@ -27045,6 +29268,7 @@
         "index": {
           "description": "the kind of types",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindStar",
           "package": "haskell-src-exts",
@@ -27059,6 +29283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea kind variable (as of yet unsupported by compilers)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindVar",
           "package": "haskell-src-exts",
@@ -27069,6 +29294,7 @@
         "index": {
           "description": "kind variable as of yet unsupported by compilers",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindVar",
           "package": "haskell-src-exts",
@@ -27083,6 +29309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable binding with kind annotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindedVar",
           "package": "haskell-src-exts",
@@ -27093,6 +29320,7 @@
         "index": {
           "description": "variable binding with kind annotation",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "KindedVar",
           "package": "haskell-src-exts",
@@ -27107,6 +29335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elambda expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Lambda",
           "package": "haskell-src-exts",
@@ -27117,6 +29346,7 @@
         "index": {
           "description": "lambda expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Lambda",
           "normalized": "Lambda SrcLoc[Pat]Exp",
@@ -27133,6 +29363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLANGUAGE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LanguagePragma",
           "package": "haskell-src-exts",
@@ -27143,6 +29374,7 @@
         "index": {
           "description": "LANGUAGE pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LanguagePragma",
           "normalized": "LanguagePragma SrcLoc[Name]",
@@ -27159,6 +29391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earrow application (from left): \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e-\u003c\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LeftArrApp",
           "package": "haskell-src-exts",
@@ -27169,6 +29402,7 @@
         "index": {
           "description": "arrow application from left exp exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LeftArrApp",
           "package": "haskell-src-exts",
@@ -27183,6 +29417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehigher-order arrow application (from left): \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e-\u003c\u003c\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LeftArrHighApp",
           "package": "haskell-src-exts",
@@ -27193,6 +29428,7 @@
         "index": {
           "description": "higher-order arrow application from left exp exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LeftArrHighApp",
           "package": "haskell-src-exts",
@@ -27207,6 +29443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft section \u003ccode\u003e(\u003c/code\u003e\u003cem\u003eexp\u003c/em\u003e \u003cem\u003eqop\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LeftSection",
           "package": "haskell-src-exts",
@@ -27217,6 +29454,7 @@
         "index": {
           "description": "left section exp qop",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LeftSection",
           "package": "haskell-src-exts",
@@ -27231,6 +29469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal declarations with \u003ccode\u003elet\u003c/code\u003e ... \u003ccode\u003ein\u003c/code\u003e ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Let",
           "package": "haskell-src-exts",
@@ -27241,6 +29480,7 @@
         "index": {
           "description": "local declarations with let in",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Let",
           "package": "haskell-src-exts",
@@ -27255,6 +29495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal bindings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LetStmt",
           "package": "haskell-src-exts",
@@ -27265,6 +29506,7 @@
         "index": {
           "description": "local bindings",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "LetStmt",
           "package": "haskell-src-exts",
@@ -27279,6 +29521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "List",
           "package": "haskell-src-exts",
@@ -27289,6 +29532,7 @@
         "index": {
           "description": "list expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "List",
           "normalized": "List[Exp]",
@@ -27305,6 +29549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary list comprehension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ListComp",
           "package": "haskell-src-exts",
@@ -27315,6 +29560,7 @@
         "index": {
           "description": "ordinary list comprehension",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ListComp",
           "normalized": "ListComp Exp[QualStmt]",
@@ -27331,6 +29577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist type constructor \u003ccode\u003e[]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ListCon",
           "package": "haskell-src-exts",
@@ -27341,6 +29588,7 @@
         "index": {
           "description": "list type constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ListCon",
           "package": "haskell-src-exts",
@@ -27355,6 +29603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliteral constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Lit",
           "package": "haskell-src-exts",
@@ -27365,6 +29614,7 @@
         "index": {
           "description": "literal constant",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Lit",
           "package": "haskell-src-exts",
@@ -27379,6 +29629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emdo\u003c/code\u003e-expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "MDo",
           "package": "haskell-src-exts",
@@ -27389,6 +29640,7 @@
         "index": {
           "description": "mdo expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "MDo",
           "normalized": "MDo[Stmt]",
@@ -27404,6 +29656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Match",
           "package": "haskell-src-exts",
@@ -27413,6 +29666,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Match",
           "normalized": "Match SrcLoc Name[Pat](Maybe Type)Rhs Binds",
@@ -27428,6 +29682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Module",
           "package": "haskell-src-exts",
@@ -27437,6 +29692,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Module",
           "normalized": "Module SrcLoc ModuleName[ModulePragma](Maybe WarningText)(Maybe[ExportSpec])[ImportDecl][Decl]",
@@ -27453,6 +29709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation for the defining module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ModuleAnn",
           "package": "haskell-src-exts",
@@ -27463,6 +29720,7 @@
         "index": {
           "description": "An annotation for the defining module",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ModuleAnn",
           "package": "haskell-src-exts",
@@ -27476,6 +29734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ModuleName",
           "package": "haskell-src-exts",
@@ -27485,6 +29744,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ModuleName",
           "package": "haskell-src-exts",
@@ -27499,6 +29759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegation expression \u003ccode\u003e-\u003cem\u003eexp\u003c/em\u003e\u003c/code\u003e (unary minus)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "NegApp",
           "package": "haskell-src-exts",
@@ -27509,6 +29770,7 @@
         "index": {
           "description": "negation expression exp unary minus",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "NegApp",
           "package": "haskell-src-exts",
@@ -27522,6 +29784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "NewType",
           "package": "haskell-src-exts",
@@ -27531,6 +29794,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "NewType",
           "package": "haskell-src-exts",
@@ -27545,6 +29809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOPTIONS pragma, possibly qualified with a tool, e.g. OPTIONS_GHC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "OptionsPragma",
           "package": "haskell-src-exts",
@@ -27555,6 +29820,7 @@
         "index": {
           "description": "OPTIONS pragma possibly qualified with tool e.g OPTIONS GHC",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "OptionsPragma",
           "package": "haskell-src-exts",
@@ -27569,6 +29835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata constructor and argument patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PApp",
           "package": "haskell-src-exts",
@@ -27579,6 +29846,7 @@
         "index": {
           "description": "data constructor and argument patterns",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PApp",
           "normalized": "PApp QName[Pat]",
@@ -27595,6 +29863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e@\u003c/code\u003e-pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PAsPat",
           "package": "haskell-src-exts",
@@ -27605,6 +29874,7 @@
         "index": {
           "description": "pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PAsPat",
           "package": "haskell-src-exts",
@@ -27619,6 +29889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estrict (bang) pattern: \u003ccode\u003ef !x = ...\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PBangPat",
           "package": "haskell-src-exts",
@@ -27629,6 +29900,7 @@
         "index": {
           "description": "strict bang pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PBangPat",
           "package": "haskell-src-exts",
@@ -27643,6 +29915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicit generics style type argument e.g. \u003ccode\u003ef {| Int |} x = ...\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PExplTypeArg",
           "package": "haskell-src-exts",
@@ -27653,6 +29926,7 @@
         "index": {
           "description": "Explicit generics style type argument e.g Int",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PExplTypeArg",
           "package": "haskell-src-exts",
@@ -27667,6 +29941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary label-pattern pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PFieldPat",
           "package": "haskell-src-exts",
@@ -27677,6 +29952,7 @@
         "index": {
           "description": "ordinary label-pattern pair",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PFieldPat",
           "package": "haskell-src-exts",
@@ -27691,6 +29967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field pun\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PFieldPun",
           "package": "haskell-src-exts",
@@ -27701,6 +29978,7 @@
         "index": {
           "description": "record field pun",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PFieldPun",
           "package": "haskell-src-exts",
@@ -27715,6 +29993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field wildcard\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PFieldWildcard",
           "package": "haskell-src-exts",
@@ -27725,6 +30004,7 @@
         "index": {
           "description": "record field wildcard",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PFieldWildcard",
           "package": "haskell-src-exts",
@@ -27739,6 +30019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epattern with an infix data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PInfixApp",
           "package": "haskell-src-exts",
@@ -27749,6 +30030,7 @@
         "index": {
           "description": "pattern with an infix data constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PInfixApp",
           "package": "haskell-src-exts",
@@ -27763,6 +30045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirrefutable pattern: \u003ccode\u003e~\u003cem\u003epat\u003c/em\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PIrrPat",
           "package": "haskell-src-exts",
@@ -27773,6 +30056,7 @@
         "index": {
           "description": "irrefutable pattern pat",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PIrrPat",
           "package": "haskell-src-exts",
@@ -27787,6 +30071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PList",
           "package": "haskell-src-exts",
@@ -27797,6 +30082,7 @@
         "index": {
           "description": "list pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PList",
           "normalized": "PList[Pat]",
@@ -27813,6 +30099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliteral constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PLit",
           "package": "haskell-src-exts",
@@ -27823,6 +30110,7 @@
         "index": {
           "description": "literal constant",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PLit",
           "package": "haskell-src-exts",
@@ -27837,6 +30125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003en+k pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PNPlusK",
           "package": "haskell-src-exts",
@@ -27847,6 +30136,7 @@
         "index": {
           "description": "pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PNPlusK",
           "package": "haskell-src-exts",
@@ -27861,6 +30151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegated pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PNeg",
           "package": "haskell-src-exts",
@@ -27871,6 +30162,7 @@
         "index": {
           "description": "negated pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PNeg",
           "package": "haskell-src-exts",
@@ -27885,6 +30177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparenthesized pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PParen",
           "package": "haskell-src-exts",
@@ -27895,6 +30188,7 @@
         "index": {
           "description": "parenthesized pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PParen",
           "package": "haskell-src-exts",
@@ -27909,6 +30203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equasi quote patter: \u003ccode\u003e[$\u003cem\u003ename\u003c/em\u003e| \u003cem\u003estring\u003c/em\u003e |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PQuasiQuote",
           "package": "haskell-src-exts",
@@ -27919,6 +30214,7 @@
         "index": {
           "description": "quasi quote patter name string",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PQuasiQuote",
           "package": "haskell-src-exts",
@@ -27933,6 +30229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregular list pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PRPat",
           "package": "haskell-src-exts",
@@ -27943,6 +30240,7 @@
         "index": {
           "description": "regular list pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PRPat",
           "normalized": "PRPat[RPat]",
@@ -27959,6 +30257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabelled pattern, record style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PRec",
           "package": "haskell-src-exts",
@@ -27969,6 +30268,7 @@
         "index": {
           "description": "labelled pattern record style",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PRec",
           "normalized": "PRec QName[PatField]",
@@ -27985,6 +30285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PTuple",
           "package": "haskell-src-exts",
@@ -27995,6 +30296,7 @@
         "index": {
           "description": "tuple pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PTuple",
           "normalized": "PTuple Boxed[Pat]",
@@ -28011,6 +30313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PVar",
           "package": "haskell-src-exts",
@@ -28021,6 +30324,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PVar",
           "package": "haskell-src-exts",
@@ -28035,6 +30339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eview patterns of the form \u003ccode\u003e(\u003cem\u003eexp\u003c/em\u003e -\u003e \u003cem\u003epat\u003c/em\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PViewPat",
           "package": "haskell-src-exts",
@@ -28045,6 +30350,7 @@
         "index": {
           "description": "view patterns of the form exp pat",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PViewPat",
           "package": "haskell-src-exts",
@@ -28059,6 +30365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewildcard pattern: \u003ccode\u003e_\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PWildCard",
           "package": "haskell-src-exts",
@@ -28069,6 +30376,7 @@
         "index": {
           "description": "wildcard pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PWildCard",
           "package": "haskell-src-exts",
@@ -28082,6 +30390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXAttr",
           "package": "haskell-src-exts",
@@ -28091,6 +30400,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXAttr",
           "package": "haskell-src-exts",
@@ -28105,6 +30415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML singleton element pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXETag",
           "package": "haskell-src-exts",
@@ -28115,6 +30426,7 @@
         "index": {
           "description": "XML singleton element pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXETag",
           "normalized": "PXETag SrcLoc XName[PXAttr](Maybe Pat)",
@@ -28131,6 +30443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML embedded pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXPatTag",
           "package": "haskell-src-exts",
@@ -28141,6 +30454,7 @@
         "index": {
           "description": "XML embedded pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXPatTag",
           "package": "haskell-src-exts",
@@ -28155,6 +30469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML PCDATA pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXPcdata",
           "package": "haskell-src-exts",
@@ -28165,6 +30480,7 @@
         "index": {
           "description": "XML PCDATA pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXPcdata",
           "package": "haskell-src-exts",
@@ -28179,6 +30495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML regular list pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXRPats",
           "package": "haskell-src-exts",
@@ -28189,6 +30506,7 @@
         "index": {
           "description": "XML regular list pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXRPats",
           "normalized": "PXRPats[RPat]",
@@ -28205,6 +30523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML element pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXTag",
           "package": "haskell-src-exts",
@@ -28215,6 +30534,7 @@
         "index": {
           "description": "XML element pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PXTag",
           "normalized": "PXTag SrcLoc XName[PXAttr](Maybe Pat)[Pat]",
@@ -28231,6 +30551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparallel list comprehension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ParComp",
           "package": "haskell-src-exts",
@@ -28241,6 +30562,7 @@
         "index": {
           "description": "parallel list comprehension",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ParComp",
           "normalized": "ParComp Exp[[QualStmt]]",
@@ -28257,6 +30579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparenthesised expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Paren",
           "package": "haskell-src-exts",
@@ -28267,6 +30590,7 @@
         "index": {
           "description": "parenthesised expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Paren",
           "package": "haskell-src-exts",
@@ -28281,6 +30605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparenthesised expression splice: \u003ccode\u003e$(\u003cem\u003eexp\u003c/em\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ParenSplice",
           "package": "haskell-src-exts",
@@ -28291,6 +30616,7 @@
         "index": {
           "description": "parenthesised expression splice exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ParenSplice",
           "package": "haskell-src-exts",
@@ -28305,6 +30631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern binding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PatBind",
           "package": "haskell-src-exts",
@@ -28315,6 +30642,7 @@
         "index": {
           "description": "pattern binding",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PatBind",
           "package": "haskell-src-exts",
@@ -28329,6 +30657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epattern bracket: \u003ccode\u003e[p| ... |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PatBracket",
           "package": "haskell-src-exts",
@@ -28339,6 +30668,7 @@
         "index": {
           "description": "pattern bracket",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PatBracket",
           "package": "haskell-src-exts",
@@ -28353,6 +30683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epattern with type signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PatTypeSig",
           "package": "haskell-src-exts",
@@ -28363,6 +30694,7 @@
         "index": {
           "description": "pattern with type signature",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PatTypeSig",
           "package": "haskell-src-exts",
@@ -28377,6 +30709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterruptible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PlayInterruptible",
           "package": "haskell-src-exts",
@@ -28387,6 +30720,7 @@
         "index": {
           "description": "interruptible",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PlayInterruptible",
           "package": "haskell-src-exts",
@@ -28401,6 +30735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsafe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PlayRisky",
           "package": "haskell-src-exts",
@@ -28411,6 +30746,7 @@
         "index": {
           "description": "unsafe",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PlayRisky",
           "package": "haskell-src-exts",
@@ -28425,6 +30761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esafe (\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e) or threadsafe (\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PlaySafe",
           "package": "haskell-src-exts",
@@ -28435,6 +30772,7 @@
         "index": {
           "description": "safe False or threadsafe True",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PlaySafe",
           "package": "haskell-src-exts",
@@ -28449,6 +30787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed character literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimChar",
           "package": "haskell-src-exts",
@@ -28459,6 +30798,7 @@
         "index": {
           "description": "unboxed character literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimChar",
           "package": "haskell-src-exts",
@@ -28473,6 +30813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed double literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimDouble",
           "package": "haskell-src-exts",
@@ -28483,6 +30824,7 @@
         "index": {
           "description": "unboxed double literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimDouble",
           "package": "haskell-src-exts",
@@ -28497,6 +30839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed float literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimFloat",
           "package": "haskell-src-exts",
@@ -28507,6 +30850,7 @@
         "index": {
           "description": "unboxed float literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimFloat",
           "package": "haskell-src-exts",
@@ -28521,6 +30865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed integer literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimInt",
           "package": "haskell-src-exts",
@@ -28531,6 +30876,7 @@
         "index": {
           "description": "unboxed integer literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimInt",
           "package": "haskell-src-exts",
@@ -28545,6 +30891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed string literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimString",
           "package": "haskell-src-exts",
@@ -28555,6 +30902,7 @@
         "index": {
           "description": "unboxed string literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimString",
           "package": "haskell-src-exts",
@@ -28569,6 +30917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed word literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimWord",
           "package": "haskell-src-exts",
@@ -28579,6 +30928,7 @@
         "index": {
           "description": "unboxed word literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "PrimWord",
           "package": "haskell-src-exts",
@@ -28593,6 +30943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earrows proc: \u003ccode\u003eproc\u003c/code\u003e \u003cem\u003epat\u003c/em\u003e \u003ccode\u003e-\u003e\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Proc",
           "package": "haskell-src-exts",
@@ -28603,6 +30954,7 @@
         "index": {
           "description": "arrows proc proc pat exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Proc",
           "package": "haskell-src-exts",
@@ -28617,6 +30969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructor operator (\u003cem\u003eqconop\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QConOp",
           "package": "haskell-src-exts",
@@ -28627,6 +30980,7 @@
         "index": {
           "description": "constructor operator qconop",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QConOp",
           "package": "haskell-src-exts",
@@ -28641,6 +30995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable operator (\u003cem\u003eqvarop\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QVarOp",
           "package": "haskell-src-exts",
@@ -28651,6 +31006,7 @@
         "index": {
           "description": "variable operator qvarop",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QVarOp",
           "package": "haskell-src-exts",
@@ -28665,6 +31021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename qualified with a module name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Qual",
           "package": "haskell-src-exts",
@@ -28675,6 +31032,7 @@
         "index": {
           "description": "name qualified with module name",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Qual",
           "package": "haskell-src-exts",
@@ -28688,6 +31046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QualConDecl",
           "package": "haskell-src-exts",
@@ -28697,6 +31056,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QualConDecl",
           "normalized": "QualConDecl SrcLoc[TyVarBind]Context ConDecl",
@@ -28713,6 +31073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean ordinary statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QualStmt",
           "package": "haskell-src-exts",
@@ -28723,6 +31084,7 @@
         "index": {
           "description": "an ordinary statement",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QualStmt",
           "package": "haskell-src-exts",
@@ -28737,6 +31099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean \u003cem\u003eexp\u003c/em\u003e by itself: in a \u003ccode\u003edo\u003c/code\u003e-expression,\n   an action whose result is discarded;\n   in a list comprehension and pattern guard,\n   a guard expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Qualifier",
           "package": "haskell-src-exts",
@@ -28747,6 +31110,7 @@
         "index": {
           "description": "an exp by itself in do expression an action whose result is discarded in list comprehension and pattern guard guard expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Qualifier",
           "package": "haskell-src-exts",
@@ -28761,6 +31125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equasi-quotaion: \u003ccode\u003e[$\u003cem\u003ename\u003c/em\u003e| \u003cem\u003estring\u003c/em\u003e |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QuasiQuote",
           "package": "haskell-src-exts",
@@ -28771,6 +31136,7 @@
         "index": {
           "description": "quasi-quotaion name string",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "QuasiQuote",
           "package": "haskell-src-exts",
@@ -28785,6 +31151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elinear variable binding, e.g. foo@(1 | 2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPAs",
           "package": "haskell-src-exts",
@@ -28795,6 +31162,7 @@
         "index": {
           "description": "linear variable binding e.g foo",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPAs",
           "package": "haskell-src-exts",
@@ -28809,6 +31177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-linear variable binding, e.g. (foo@:(1 | 2))*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPCAs",
           "package": "haskell-src-exts",
@@ -28819,6 +31188,7 @@
         "index": {
           "description": "non-linear variable binding e.g foo",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPCAs",
           "package": "haskell-src-exts",
@@ -28833,6 +31203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echoice pattern, e.g. (1 | 2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPEither",
           "package": "haskell-src-exts",
@@ -28843,6 +31214,7 @@
         "index": {
           "description": "choice pattern e.g",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPEither",
           "package": "haskell-src-exts",
@@ -28857,6 +31229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eguarded pattern, e.g. (| p | p \u003c 3 |)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPGuard",
           "package": "haskell-src-exts",
@@ -28867,6 +31240,7 @@
         "index": {
           "description": "guarded pattern e.g",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPGuard",
           "normalized": "RPGuard Pat[Stmt]",
@@ -28883,6 +31257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoperator pattern, e.g. pat*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPOp",
           "package": "haskell-src-exts",
@@ -28893,6 +31268,7 @@
         "index": {
           "description": "operator pattern e.g pat",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPOp",
           "package": "haskell-src-exts",
@@ -28907,6 +31283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e?\u003c/code\u003e = 0 or 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPOpt",
           "package": "haskell-src-exts",
@@ -28917,6 +31294,7 @@
         "index": {
           "description": "or",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPOpt",
           "package": "haskell-src-exts",
@@ -28931,6 +31309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e?!\u003c/code\u003e = 0 or 1, greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPOptG",
           "package": "haskell-src-exts",
@@ -28941,6 +31320,7 @@
         "index": {
           "description": "or greedy",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPOptG",
           "package": "haskell-src-exts",
@@ -28955,6 +31335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparenthesised pattern, e.g. (2*)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPParen",
           "package": "haskell-src-exts",
@@ -28965,6 +31346,7 @@
         "index": {
           "description": "parenthesised pattern e.g",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPParen",
           "package": "haskell-src-exts",
@@ -28979,6 +31361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean ordinary pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPPat",
           "package": "haskell-src-exts",
@@ -28989,6 +31372,7 @@
         "index": {
           "description": "an ordinary pattern",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPPat",
           "package": "haskell-src-exts",
@@ -29003,6 +31387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e+\u003c/code\u003e = 1 or more\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPPlus",
           "package": "haskell-src-exts",
@@ -29013,6 +31398,7 @@
         "index": {
           "description": "or more",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPPlus",
           "package": "haskell-src-exts",
@@ -29027,6 +31413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e+!\u003c/code\u003e = 1 or more, greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPPlusG",
           "package": "haskell-src-exts",
@@ -29037,6 +31424,7 @@
         "index": {
           "description": "or more greedy",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPPlusG",
           "package": "haskell-src-exts",
@@ -29051,6 +31439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esequence pattern, e.g. (| 1, 2, 3 |)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPSeq",
           "package": "haskell-src-exts",
@@ -29061,6 +31450,7 @@
         "index": {
           "description": "sequence pattern e.g",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPSeq",
           "normalized": "RPSeq[RPat]",
@@ -29077,6 +31467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e*\u003c/code\u003e = 0 or more\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPStar",
           "package": "haskell-src-exts",
@@ -29087,6 +31478,7 @@
         "index": {
           "description": "or more",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPStar",
           "package": "haskell-src-exts",
@@ -29101,6 +31493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e*!\u003c/code\u003e = 0 or more, greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPStarG",
           "package": "haskell-src-exts",
@@ -29111,6 +31504,7 @@
         "index": {
           "description": "or more greedy",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RPStarG",
           "package": "haskell-src-exts",
@@ -29125,6 +31519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord construction expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RecConstr",
           "package": "haskell-src-exts",
@@ -29135,6 +31530,7 @@
         "index": {
           "description": "record construction expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RecConstr",
           "normalized": "RecConstr QName[FieldUpdate]",
@@ -29151,6 +31547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RecDecl",
           "package": "haskell-src-exts",
@@ -29161,6 +31558,7 @@
         "index": {
           "description": "record constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RecDecl",
           "normalized": "RecDecl Name[([Name],BangType)]",
@@ -29177,6 +31575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea recursive binding group for arrows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RecStmt",
           "package": "haskell-src-exts",
@@ -29187,6 +31586,7 @@
         "index": {
           "description": "recursive binding group for arrows",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RecStmt",
           "normalized": "RecStmt[Stmt]",
@@ -29203,6 +31603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord update expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RecUpdate",
           "package": "haskell-src-exts",
@@ -29213,6 +31614,7 @@
         "index": {
           "description": "record update expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RecUpdate",
           "normalized": "RecUpdate Exp[FieldUpdate]",
@@ -29229,6 +31631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earrow application (from right): \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e\u003e-\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RightArrApp",
           "package": "haskell-src-exts",
@@ -29239,6 +31642,7 @@
         "index": {
           "description": "arrow application from right exp exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RightArrApp",
           "package": "haskell-src-exts",
@@ -29253,6 +31657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehigher-order arrow application (from right): \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e\u003e\u003e-\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RightArrHighApp",
           "package": "haskell-src-exts",
@@ -29263,6 +31668,7 @@
         "index": {
           "description": "higher-order arrow application from right exp exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RightArrHighApp",
           "package": "haskell-src-exts",
@@ -29277,6 +31683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright section \u003ccode\u003e(\u003c/code\u003e\u003cem\u003eqop\u003c/em\u003e \u003cem\u003eexp\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RightSection",
           "package": "haskell-src-exts",
@@ -29287,6 +31694,7 @@
         "index": {
           "description": "right section qop exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RightSection",
           "package": "haskell-src-exts",
@@ -29300,6 +31708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Rule",
           "package": "haskell-src-exts",
@@ -29309,6 +31718,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Rule",
           "normalized": "Rule String Activation(Maybe[RuleVar])Exp Exp",
@@ -29325,6 +31735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA RULES pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RulePragmaDecl",
           "package": "haskell-src-exts",
@@ -29335,6 +31746,7 @@
         "index": {
           "description": "RULES pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RulePragmaDecl",
           "normalized": "RulePragmaDecl SrcLoc[Rule]",
@@ -29350,6 +31762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RuleVar",
           "package": "haskell-src-exts",
@@ -29359,6 +31772,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "RuleVar",
           "package": "haskell-src-exts",
@@ -29373,6 +31787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSCC pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SCCPragma",
           "package": "haskell-src-exts",
@@ -29383,6 +31798,7 @@
         "index": {
           "description": "SCC pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SCCPragma",
           "package": "haskell-src-exts",
@@ -29397,6 +31813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SPECIALISE INLINE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpecInlineSig",
           "package": "haskell-src-exts",
@@ -29407,6 +31824,7 @@
         "index": {
           "description": "SPECIALISE INLINE pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpecInlineSig",
           "normalized": "SpecInlineSig SrcLoc Bool Activation QName[Type]",
@@ -29423,6 +31841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SPECIALISE pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpecSig",
           "package": "haskell-src-exts",
@@ -29433,6 +31852,7 @@
         "index": {
           "description": "SPECIALISE pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpecSig",
           "normalized": "SpecSig SrcLoc Activation QName[Type]",
@@ -29449,6 +31869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuilt-in constructor with special syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Special",
           "package": "haskell-src-exts",
@@ -29459,6 +31880,7 @@
         "index": {
           "description": "built-in constructor with special syntax",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Special",
           "package": "haskell-src-exts",
@@ -29473,6 +31895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Template Haskell splicing declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpliceDecl",
           "package": "haskell-src-exts",
@@ -29483,6 +31906,7 @@
         "index": {
           "description": "Template Haskell splicing declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpliceDecl",
           "package": "haskell-src-exts",
@@ -29497,6 +31921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemplate haskell splice expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpliceExp",
           "package": "haskell-src-exts",
@@ -29507,6 +31932,7 @@
         "index": {
           "description": "template haskell splice expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "SpliceExp",
           "package": "haskell-src-exts",
@@ -29520,6 +31946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "StdCall",
           "package": "haskell-src-exts",
@@ -29529,6 +31956,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "StdCall",
           "package": "haskell-src-exts",
@@ -29543,6 +31971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "String",
           "package": "haskell-src-exts",
@@ -29553,6 +31982,7 @@
         "index": {
           "description": "string literal",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "String",
           "package": "haskell-src-exts",
@@ -29567,6 +31997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003evarsym\u003c/em\u003e or \u003cem\u003econsym\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Symbol",
           "package": "haskell-src-exts",
@@ -29577,6 +32008,7 @@
         "index": {
           "description": "varsym or consym",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Symbol",
           "package": "haskell-src-exts",
@@ -29591,6 +32023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eby\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ThenBy",
           "package": "haskell-src-exts",
@@ -29601,6 +32034,7 @@
         "index": {
           "description": "then exp by exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ThenBy",
           "package": "haskell-src-exts",
@@ -29615,6 +32049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ethen\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ThenTrans",
           "package": "haskell-src-exts",
@@ -29625,6 +32060,7 @@
         "index": {
           "description": "then exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ThenTrans",
           "package": "haskell-src-exts",
@@ -29639,6 +32075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Tuple",
           "package": "haskell-src-exts",
@@ -29649,6 +32086,7 @@
         "index": {
           "description": "tuple expression",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Tuple",
           "normalized": "Tuple Boxed[Exp]",
@@ -29665,6 +32103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003en\u003c/em\u003e-ary tuple type and data\n   constructors \u003ccode\u003e(,)\u003c/code\u003e etc, possibly boxed \u003ccode\u003e(#,#)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TupleCon",
           "package": "haskell-src-exts",
@@ -29675,6 +32114,7 @@
         "index": {
           "description": "ary tuple type and data constructors etc possibly boxed",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TupleCon",
           "package": "haskell-src-exts",
@@ -29689,6 +32129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple section expression, e.g. \u003ccode\u003e(,,3)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TupleSection",
           "package": "haskell-src-exts",
@@ -29699,6 +32140,7 @@
         "index": {
           "description": "tuple section expression e.g",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TupleSection",
           "normalized": "TupleSection Boxed[Maybe Exp]",
@@ -29715,6 +32157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplication of a type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyApp",
           "package": "haskell-src-exts",
@@ -29725,6 +32168,7 @@
         "index": {
           "description": "application of type constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyApp",
           "package": "haskell-src-exts",
@@ -29739,6 +32183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enamed type or type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyCon",
           "package": "haskell-src-exts",
@@ -29749,6 +32194,7 @@
         "index": {
           "description": "named type or type constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyCon",
           "package": "haskell-src-exts",
@@ -29763,6 +32209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equalified type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyForall",
           "package": "haskell-src-exts",
@@ -29773,6 +32220,7 @@
         "index": {
           "description": "qualified type",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyForall",
           "normalized": "TyForall(Maybe[TyVarBind])Context Type",
@@ -29789,6 +32237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyFun",
           "package": "haskell-src-exts",
@@ -29799,6 +32248,7 @@
         "index": {
           "description": "function type",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyFun",
           "package": "haskell-src-exts",
@@ -29813,6 +32263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyInfix",
           "package": "haskell-src-exts",
@@ -29823,6 +32274,7 @@
         "index": {
           "description": "infix type constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyInfix",
           "package": "haskell-src-exts",
@@ -29837,6 +32289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype with explicit kind signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyKind",
           "package": "haskell-src-exts",
@@ -29847,6 +32300,7 @@
         "index": {
           "description": "type with explicit kind signature",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyKind",
           "package": "haskell-src-exts",
@@ -29861,6 +32315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist syntax, e.g. [a], as opposed to [] a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyList",
           "package": "haskell-src-exts",
@@ -29871,6 +32326,7 @@
         "index": {
           "description": "list syntax e.g as opposed to",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyList",
           "package": "haskell-src-exts",
@@ -29885,6 +32341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype surrounded by parentheses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyParen",
           "package": "haskell-src-exts",
@@ -29895,6 +32352,7 @@
         "index": {
           "description": "type surrounded by parentheses",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyParen",
           "package": "haskell-src-exts",
@@ -29909,6 +32367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple type, possibly boxed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyTuple",
           "package": "haskell-src-exts",
@@ -29919,6 +32378,7 @@
         "index": {
           "description": "tuple type possibly boxed",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyTuple",
           "normalized": "TyTuple Boxed[Type]",
@@ -29935,6 +32395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyVar",
           "package": "haskell-src-exts",
@@ -29945,6 +32406,7 @@
         "index": {
           "description": "type variable",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TyVar",
           "package": "haskell-src-exts",
@@ -29959,6 +32421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e''T\u003c/code\u003e for template haskell reifying of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypQuote",
           "package": "haskell-src-exts",
@@ -29969,6 +32432,7 @@
         "index": {
           "description": "for template haskell reifying of types",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypQuote",
           "package": "haskell-src-exts",
@@ -29983,6 +32447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation for a declared type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeAnn",
           "package": "haskell-src-exts",
@@ -29993,6 +32458,7 @@
         "index": {
           "description": "An annotation for declared type",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeAnn",
           "package": "haskell-src-exts",
@@ -30007,6 +32473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype bracket: \u003ccode\u003e[t| ... |]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeBracket",
           "package": "haskell-src-exts",
@@ -30017,6 +32484,7 @@
         "index": {
           "description": "type bracket",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeBracket",
           "package": "haskell-src-exts",
@@ -30031,6 +32499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeDecl",
           "package": "haskell-src-exts",
@@ -30041,6 +32510,7 @@
         "index": {
           "description": "type declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeDecl",
           "normalized": "TypeDecl SrcLoc Name[TyVarBind]Type",
@@ -30057,6 +32527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type family declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeFamDecl",
           "package": "haskell-src-exts",
@@ -30067,6 +32538,7 @@
         "index": {
           "description": "type family declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeFamDecl",
           "normalized": "TypeFamDecl SrcLoc Name[TyVarBind](Maybe Kind)",
@@ -30083,6 +32555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type family instance declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeInsDecl",
           "package": "haskell-src-exts",
@@ -30093,6 +32566,7 @@
         "index": {
           "description": "type family instance declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeInsDecl",
           "package": "haskell-src-exts",
@@ -30107,6 +32581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type signature declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeSig",
           "package": "haskell-src-exts",
@@ -30117,6 +32592,7 @@
         "index": {
           "description": "type signature declaration",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypeSig",
           "normalized": "TypeSig SrcLoc[Name]Type",
@@ -30132,6 +32608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypedRuleVar",
           "package": "haskell-src-exts",
@@ -30141,6 +32618,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "TypedRuleVar",
           "package": "haskell-src-exts",
@@ -30155,6 +32633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-strict component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnBangedTy",
           "package": "haskell-src-exts",
@@ -30165,6 +32644,7 @@
         "index": {
           "description": "non-strict component",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnBangedTy",
           "package": "haskell-src-exts",
@@ -30179,6 +32659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e-\u003e\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnGuardedAlt",
           "package": "haskell-src-exts",
@@ -30189,6 +32670,7 @@
         "index": {
           "description": "exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnGuardedAlt",
           "package": "haskell-src-exts",
@@ -30203,6 +32685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunguarded right hand side (\u003cem\u003eexp\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnGuardedRhs",
           "package": "haskell-src-exts",
@@ -30213,6 +32696,7 @@
         "index": {
           "description": "unguarded right hand side exp",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnGuardedRhs",
           "package": "haskell-src-exts",
@@ -30227,6 +32711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunqualified local name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnQual",
           "package": "haskell-src-exts",
@@ -30237,6 +32722,7 @@
         "index": {
           "description": "unqualified local name",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnQual",
           "package": "haskell-src-exts",
@@ -30251,6 +32737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed singleton tuple constructor \u003ccode\u003e(# #)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnboxedSingleCon",
           "package": "haskell-src-exts",
@@ -30261,6 +32748,7 @@
         "index": {
           "description": "unboxed singleton tuple constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnboxedSingleCon",
           "package": "haskell-src-exts",
@@ -30275,6 +32763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunit type and data constructor \u003ccode\u003e()\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnitCon",
           "package": "haskell-src-exts",
@@ -30285,6 +32774,7 @@
         "index": {
           "description": "unit type and data constructor",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnitCon",
           "package": "haskell-src-exts",
@@ -30299,6 +32789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eordinary variable binding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnkindedVar",
           "package": "haskell-src-exts",
@@ -30309,6 +32800,7 @@
         "index": {
           "description": "ordinary variable binding",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnkindedVar",
           "package": "haskell-src-exts",
@@ -30323,6 +32815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunboxed component, marked with an UNPACK pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnpackedTy",
           "package": "haskell-src-exts",
@@ -30333,6 +32826,7 @@
         "index": {
           "description": "unboxed component marked with an UNPACK pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "UnpackedTy",
           "package": "haskell-src-exts",
@@ -30347,6 +32841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Var",
           "package": "haskell-src-exts",
@@ -30357,6 +32852,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "Var",
           "package": "haskell-src-exts",
@@ -30371,6 +32867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of a method or field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "VarName",
           "package": "haskell-src-exts",
@@ -30381,6 +32878,7 @@
         "index": {
           "description": "name of method or field",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "VarName",
           "package": "haskell-src-exts",
@@ -30395,6 +32893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable operator (\u003cem\u003evarop\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "VarOp",
           "package": "haskell-src-exts",
@@ -30405,6 +32904,7 @@
         "index": {
           "description": "variable operator varop",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "VarOp",
           "package": "haskell-src-exts",
@@ -30419,6 +32919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e'x\u003c/code\u003e for template haskell reifying of expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "VarQuote",
           "package": "haskell-src-exts",
@@ -30429,6 +32930,7 @@
         "index": {
           "description": "for template haskell reifying of expressions",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "VarQuote",
           "package": "haskell-src-exts",
@@ -30443,6 +32945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WARNING pragma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "WarnPragmaDecl",
           "package": "haskell-src-exts",
@@ -30453,6 +32956,7 @@
         "index": {
           "description": "WARNING pragma",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "WarnPragmaDecl",
           "normalized": "WarnPragmaDecl SrcLoc[([Name],String)]",
@@ -30468,6 +32972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "WarnText",
           "package": "haskell-src-exts",
@@ -30477,6 +32982,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "WarnText",
           "package": "haskell-src-exts",
@@ -30490,6 +32996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XAttr",
           "package": "haskell-src-exts",
@@ -30499,6 +33006,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XAttr",
           "package": "haskell-src-exts",
@@ -30513,6 +33021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echildren of an xml element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XChildTag",
           "package": "haskell-src-exts",
@@ -30523,6 +33032,7 @@
         "index": {
           "description": "children of an xml element",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XChildTag",
           "normalized": "XChildTag SrcLoc[Exp]",
@@ -30538,6 +33048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XDomName",
           "package": "haskell-src-exts",
@@ -30547,6 +33058,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XDomName",
           "package": "haskell-src-exts",
@@ -30561,6 +33073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty xml element, with attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XETag",
           "package": "haskell-src-exts",
@@ -30571,6 +33084,7 @@
         "index": {
           "description": "empty xml element with attributes",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XETag",
           "normalized": "XETag SrcLoc XName[XAttr](Maybe Exp)",
@@ -30587,6 +33101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eescaped haskell expression inside xml\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XExpTag",
           "package": "haskell-src-exts",
@@ -30597,6 +33112,7 @@
         "index": {
           "description": "escaped haskell expression inside xml",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XExpTag",
           "package": "haskell-src-exts",
@@ -30610,6 +33126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XName",
           "package": "haskell-src-exts",
@@ -30619,6 +33136,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XName",
           "package": "haskell-src-exts",
@@ -30633,6 +33151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePCDATA child element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XPcdata",
           "package": "haskell-src-exts",
@@ -30643,6 +33162,7 @@
         "index": {
           "description": "PCDATA child element",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XPcdata",
           "package": "haskell-src-exts",
@@ -30657,6 +33177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exml element, with attributes and children\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XTag",
           "package": "haskell-src-exts",
@@ -30667,6 +33188,7 @@
         "index": {
           "description": "xml element with attributes and children",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "XTag",
           "normalized": "XTag SrcLoc XName[XAttr](Maybe Exp)[Exp]",
@@ -30682,6 +33204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "as_name",
           "package": "haskell-src-exts",
@@ -30691,6 +33214,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "as_name",
           "package": "haskell-src-exts",
@@ -30703,6 +33227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "bang_name",
           "package": "haskell-src-exts",
@@ -30712,6 +33237,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "bang_name",
           "package": "haskell-src-exts",
@@ -30724,6 +33250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ccall_name",
           "package": "haskell-src-exts",
@@ -30733,6 +33260,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "ccall_name",
           "package": "haskell-src-exts",
@@ -30745,6 +33273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "cplusplus_name",
           "package": "haskell-src-exts",
@@ -30754,6 +33283,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "cplusplus_name",
           "package": "haskell-src-exts",
@@ -30766,6 +33296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "dot_name",
           "package": "haskell-src-exts",
@@ -30775,6 +33306,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "dot_name",
           "package": "haskell-src-exts",
@@ -30787,6 +33319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "dotnet_name",
           "package": "haskell-src-exts",
@@ -30796,6 +33329,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "dotnet_name",
           "package": "haskell-src-exts",
@@ -30808,6 +33342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "export_name",
           "package": "haskell-src-exts",
@@ -30817,6 +33352,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "export_name",
           "package": "haskell-src-exts",
@@ -30829,6 +33365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "family_name",
           "package": "haskell-src-exts",
@@ -30838,6 +33375,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "family_name",
           "package": "haskell-src-exts",
@@ -30850,6 +33388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "forall_name",
           "package": "haskell-src-exts",
@@ -30859,6 +33398,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "forall_name",
           "package": "haskell-src-exts",
@@ -30871,6 +33411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "fun_tycon",
           "package": "haskell-src-exts",
@@ -30880,6 +33421,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "fun_tycon",
           "package": "haskell-src-exts",
@@ -30892,6 +33434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "fun_tycon_name",
           "package": "haskell-src-exts",
@@ -30901,6 +33444,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "fun_tycon_name",
           "package": "haskell-src-exts",
@@ -30913,6 +33457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "hiding_name",
           "package": "haskell-src-exts",
@@ -30922,6 +33467,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "hiding_name",
           "package": "haskell-src-exts",
@@ -30935,6 +33481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional alias name in an \u003ccode\u003eas\u003c/code\u003e clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importAs",
           "package": "haskell-src-exts",
@@ -30945,6 +33492,7 @@
         "index": {
           "description": "optional alias name in an as clause",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importAs",
           "package": "haskell-src-exts",
@@ -30959,6 +33507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eposition of the \u003ccode\u003eimport\u003c/code\u003e keyword.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importLoc",
           "package": "haskell-src-exts",
@@ -30969,6 +33518,7 @@
         "index": {
           "description": "position of the import keyword",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importLoc",
           "package": "haskell-src-exts",
@@ -30983,6 +33533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of the module imported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importModule",
           "package": "haskell-src-exts",
@@ -30993,6 +33544,7 @@
         "index": {
           "description": "name of the module imported",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importModule",
           "package": "haskell-src-exts",
@@ -31007,6 +33559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported with explicit package name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importPkg",
           "package": "haskell-src-exts",
@@ -31017,6 +33570,7 @@
         "index": {
           "description": "imported with explicit package name",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importPkg",
           "package": "haskell-src-exts",
@@ -31031,6 +33585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported \u003ccode\u003equalified\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importQualified",
           "package": "haskell-src-exts",
@@ -31041,6 +33596,7 @@
         "index": {
           "description": "imported qualified",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importQualified",
           "package": "haskell-src-exts",
@@ -31055,6 +33611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional list of import specifications.\n The \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the names are excluded\n by \u003ccode\u003ehiding\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importSpecs",
           "package": "haskell-src-exts",
@@ -31065,6 +33622,7 @@
         "index": {
           "description": "optional list of import specifications The Bool is True if the names are excluded by hiding",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importSpecs",
           "normalized": "Maybe(Bool,[ImportSpec])",
@@ -31081,6 +33639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported with \u003ccode\u003e{-# SOURCE #-}\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importSrc",
           "package": "haskell-src-exts",
@@ -31091,6 +33650,7 @@
         "index": {
           "description": "imported with SOURCE",
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "importSrc",
           "package": "haskell-src-exts",
@@ -31104,6 +33664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "js_name",
           "package": "haskell-src-exts",
@@ -31113,6 +33674,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "js_name",
           "package": "haskell-src-exts",
@@ -31125,6 +33687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "jvm_name",
           "package": "haskell-src-exts",
@@ -31134,6 +33697,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "jvm_name",
           "package": "haskell-src-exts",
@@ -31146,6 +33710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "list_cons_name",
           "package": "haskell-src-exts",
@@ -31155,6 +33720,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "list_cons_name",
           "package": "haskell-src-exts",
@@ -31167,6 +33733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "list_tycon",
           "package": "haskell-src-exts",
@@ -31176,6 +33743,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "list_tycon",
           "package": "haskell-src-exts",
@@ -31188,6 +33756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "list_tycon_name",
           "package": "haskell-src-exts",
@@ -31197,6 +33766,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "list_tycon_name",
           "package": "haskell-src-exts",
@@ -31209,6 +33779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "main_mod",
           "package": "haskell-src-exts",
@@ -31218,6 +33789,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "main_mod",
           "package": "haskell-src-exts",
@@ -31230,6 +33802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "main_name",
           "package": "haskell-src-exts",
@@ -31239,6 +33812,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "main_name",
           "package": "haskell-src-exts",
@@ -31251,6 +33825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "minus_name",
           "package": "haskell-src-exts",
@@ -31260,6 +33835,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "minus_name",
           "package": "haskell-src-exts",
@@ -31272,6 +33848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "prelude_mod",
           "package": "haskell-src-exts",
@@ -31281,6 +33858,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "prelude_mod",
           "package": "haskell-src-exts",
@@ -31293,6 +33871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "qualified_name",
           "package": "haskell-src-exts",
@@ -31302,6 +33881,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "qualified_name",
           "package": "haskell-src-exts",
@@ -31314,6 +33894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "safe_name",
           "package": "haskell-src-exts",
@@ -31323,6 +33904,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "safe_name",
           "package": "haskell-src-exts",
@@ -31335,6 +33917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "star_name",
           "package": "haskell-src-exts",
@@ -31344,6 +33927,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "star_name",
           "package": "haskell-src-exts",
@@ -31356,6 +33940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "stdcall_name",
           "package": "haskell-src-exts",
@@ -31365,6 +33950,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "stdcall_name",
           "package": "haskell-src-exts",
@@ -31377,6 +33963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "threadsafe_name",
           "package": "haskell-src-exts",
@@ -31386,6 +33973,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "threadsafe_name",
           "package": "haskell-src-exts",
@@ -31398,6 +33986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "tuple_con",
           "package": "haskell-src-exts",
@@ -31407,6 +33996,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "tuple_con",
           "normalized": "Boxed-\u003eInt-\u003eExp",
@@ -31421,6 +34011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "tuple_con_name",
           "package": "haskell-src-exts",
@@ -31430,6 +34021,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "tuple_con_name",
           "normalized": "Boxed-\u003eInt-\u003eQName",
@@ -31444,6 +34036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "tuple_tycon",
           "package": "haskell-src-exts",
@@ -31453,6 +34046,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "tuple_tycon",
           "normalized": "Boxed-\u003eInt-\u003eType",
@@ -31467,6 +34061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "tuple_tycon_name",
           "package": "haskell-src-exts",
@@ -31476,6 +34071,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "tuple_tycon_name",
           "normalized": "Boxed-\u003eInt-\u003eQName",
@@ -31490,6 +34086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unboxed_singleton_con",
           "package": "haskell-src-exts",
@@ -31499,6 +34096,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unboxed_singleton_con",
           "package": "haskell-src-exts",
@@ -31511,6 +34109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unboxed_singleton_con_name",
           "package": "haskell-src-exts",
@@ -31520,6 +34119,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unboxed_singleton_con_name",
           "package": "haskell-src-exts",
@@ -31532,6 +34132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unboxed_singleton_tycon",
           "package": "haskell-src-exts",
@@ -31541,6 +34142,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unboxed_singleton_tycon",
           "package": "haskell-src-exts",
@@ -31553,6 +34155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unboxed_singleton_tycon_name",
           "package": "haskell-src-exts",
@@ -31562,6 +34165,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unboxed_singleton_tycon_name",
           "package": "haskell-src-exts",
@@ -31574,6 +34178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unit_con",
           "package": "haskell-src-exts",
@@ -31583,6 +34188,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unit_con",
           "package": "haskell-src-exts",
@@ -31595,6 +34201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unit_con_name",
           "package": "haskell-src-exts",
@@ -31604,6 +34211,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unit_con_name",
           "package": "haskell-src-exts",
@@ -31616,6 +34224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unit_tycon",
           "package": "haskell-src-exts",
@@ -31625,6 +34234,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unit_tycon",
           "package": "haskell-src-exts",
@@ -31637,6 +34247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unit_tycon_name",
           "package": "haskell-src-exts",
@@ -31646,6 +34257,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unit_tycon_name",
           "package": "haskell-src-exts",
@@ -31658,6 +34270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unsafe_name",
           "package": "haskell-src-exts",
@@ -31667,6 +34280,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Syntax",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts.Syntax",
           "name": "unsafe_name",
           "package": "haskell-src-exts",
@@ -31680,6 +34294,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn umbrella module for the various functionality\n of the package. Also provides some convenient\n functionality for dealing directly with source files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "Exts",
           "package": "haskell-src-exts",
@@ -31689,6 +34304,7 @@
         "index": {
           "description": "An umbrella module for the various functionality of the package Also provides some convenient functionality for dealing directly with source files",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "Exts",
           "package": "haskell-src-exts",
@@ -31703,6 +34319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file on disk, using the default parse mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "parseFile",
           "package": "haskell-src-exts",
@@ -31713,6 +34330,7 @@
         "index": {
           "description": "Parse source file on disk using the default parse mode",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(ParseResult Module)",
@@ -31729,6 +34347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file from a string using the default parse mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "parseFileContents",
           "package": "haskell-src-exts",
@@ -31739,6 +34358,7 @@
         "index": {
           "description": "Parse source file from string using the default parse mode",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "parseFileContents",
           "normalized": "String-\u003eParseResult Module",
@@ -31755,6 +34375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file from a string using a custom parse mode and retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "parseFileContentsWithComments",
           "package": "haskell-src-exts",
@@ -31765,6 +34386,7 @@
         "index": {
           "description": "Parse source file from string using custom parse mode and retaining comments",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "parseFileContentsWithComments",
           "normalized": "ParseMode-\u003eString-\u003eParseResult(Module,[Comment])",
@@ -31781,6 +34403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file from a string, with an extra set of extensions to know about\n   on top of what the file itself declares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "parseFileContentsWithExts",
           "package": "haskell-src-exts",
@@ -31791,6 +34414,7 @@
         "index": {
           "description": "Parse source file from string with an extra set of extensions to know about on top of what the file itself declares",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "parseFileContentsWithExts",
           "normalized": "[Extension]-\u003eString-\u003eParseResult Module",
@@ -31807,6 +34431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file from a string using a custom parse mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "parseFileContentsWithMode",
           "package": "haskell-src-exts",
@@ -31817,6 +34442,7 @@
         "index": {
           "description": "Parse source file from string using custom parse mode",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "parseFileContentsWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult Module",
@@ -31833,6 +34459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file on disk, supplying a custom parse mode, and retaining comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "parseFileWithComments",
           "package": "haskell-src-exts",
@@ -31843,6 +34470,7 @@
         "index": {
           "description": "Parse source file on disk supplying custom parse mode and retaining comments",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "parseFileWithComments",
           "normalized": "ParseMode-\u003eFilePath-\u003eIO(ParseResult(Module,[Comment]))",
@@ -31859,6 +34487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file on disk, with an extra set of extensions to know about\n   on top of what the file itself declares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "parseFileWithExts",
           "package": "haskell-src-exts",
@@ -31869,6 +34498,7 @@
         "index": {
           "description": "Parse source file on disk with an extra set of extensions to know about on top of what the file itself declares",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "parseFileWithExts",
           "normalized": "[Extension]-\u003eFilePath-\u003eIO(ParseResult Module)",
@@ -31885,6 +34515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source file on disk, supplying a custom parse mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "parseFileWithMode",
           "package": "haskell-src-exts",
@@ -31895,6 +34526,7 @@
         "index": {
           "description": "Parse source file on disk supplying custom parse mode",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "parseFileWithMode",
           "normalized": "ParseMode-\u003eFilePath-\u003eIO(ParseResult Module)",
@@ -31911,6 +34543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGather the extensions declared in LANGUAGE pragmas\n   at the top of the file. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n   parse of the pragmas fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:29 UTC 2014",
           "module": "Language.Haskell.Exts",
           "name": "readExtensions",
           "package": "haskell-src-exts",
@@ -31921,6 +34554,7 @@
         "index": {
           "description": "Gather the extensions declared in LANGUAGE pragmas at the top of the file Returns Nothing if the parse of the pragmas fails",
           "hierarchy": "Language Haskell Exts",
+          "indexed": "2014-03-11T18:31:29",
           "module": "Language.Haskell.Exts",
           "name": "readExtensions",
           "normalized": "String-\u003eMaybe(Maybe Language,[Extension])",

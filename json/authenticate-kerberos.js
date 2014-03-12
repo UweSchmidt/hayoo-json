@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "authenticate-kerberos"
+        "phrase": "authenticate-kerberos",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for using a kerberos authentication service.\n\u003c/p\u003e\u003cp\u003ePlease note that all configuration should have been done\n manually on the machine prior to running the code.\n\u003c/p\u003e\u003cp\u003eOn linux machines the configuration might be in \u003cem\u003eetc\u003c/em\u003ekrb5.conf.\n It's worth checking if the Kerberos service provider (e.g. your university)\n already provide a complete configuration file.\n\u003c/p\u003e\u003cp\u003eBe certain that you can manually login from a shell by typing\n\u003c/p\u003e\u003cpre\u003e kinit username\n\u003c/pre\u003e\u003cp\u003eIf you fill in your password and the program returns no error code,\n then your kerberos configuration is setup properly.\n Only then can this module be of any use.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:05 UTC 2014",
           "module": "Web.Authenticate.Kerberos",
           "name": "Kerberos",
           "package": "authenticate-kerberos",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module for using kerberos authentication service Please note that all configuration should have been done manually on the machine prior to running the code On linux machines the configuration might be in etc krb5.conf It worth checking if the Kerberos service provider e.g your university already provide complete configuration file Be certain that you can manually login from shell by typing kinit username If you fill in your password and the program returns no error code then your kerberos configuration is setup properly Only then can this module be of any use",
           "hierarchy": "Web Authenticate Kerberos",
+          "indexed": "2014-03-11T17:15:05",
           "module": "Web.Authenticate.Kerberos",
           "name": "Kerberos",
           "package": "authenticate-kerberos",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccurreable results of a Kerberos login\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:05 UTC 2014",
           "module": "Web.Authenticate.Kerberos",
           "name": "KerberosAuthResult",
           "package": "authenticate-kerberos",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Occurreable results of Kerberos login",
           "hierarchy": "Web Authenticate Kerberos",
+          "indexed": "2014-03-11T17:15:05",
           "module": "Web.Authenticate.Kerberos",
           "name": "KerberosAuthResult",
           "package": "authenticate-kerberos",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:05 UTC 2014",
           "module": "Web.Authenticate.Kerberos",
           "name": "NoSuchUser",
           "package": "authenticate-kerberos",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Kerberos",
+          "indexed": "2014-03-11T17:15:05",
           "module": "Web.Authenticate.Kerberos",
           "name": "NoSuchUser",
           "package": "authenticate-kerberos",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:05 UTC 2014",
           "module": "Web.Authenticate.Kerberos",
           "name": "Ok",
           "package": "authenticate-kerberos",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Kerberos",
+          "indexed": "2014-03-11T17:15:05",
           "module": "Web.Authenticate.Kerberos",
           "name": "Ok",
           "package": "authenticate-kerberos",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:05 UTC 2014",
           "module": "Web.Authenticate.Kerberos",
           "name": "TimeOut",
           "package": "authenticate-kerberos",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Kerberos",
+          "indexed": "2014-03-11T17:15:05",
           "module": "Web.Authenticate.Kerberos",
           "name": "TimeOut",
           "package": "authenticate-kerberos",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:05 UTC 2014",
           "module": "Web.Authenticate.Kerberos",
           "name": "UnknownError",
           "package": "authenticate-kerberos",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Kerberos",
+          "indexed": "2014-03-11T17:15:05",
           "module": "Web.Authenticate.Kerberos",
           "name": "UnknownError",
           "package": "authenticate-kerberos",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:05 UTC 2014",
           "module": "Web.Authenticate.Kerberos",
           "name": "WrongPassword",
           "package": "authenticate-kerberos",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate Kerberos",
+          "indexed": "2014-03-11T17:15:05",
           "module": "Web.Authenticate.Kerberos",
           "name": "WrongPassword",
           "package": "authenticate-kerberos",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the username and password, try login to Kerberos service\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:05 UTC 2014",
           "module": "Web.Authenticate.Kerberos",
           "name": "loginKerberos",
           "package": "authenticate-kerberos",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Given the username and password try login to Kerberos service",
           "hierarchy": "Web Authenticate Kerberos",
+          "indexed": "2014-03-11T17:15:05",
           "module": "Web.Authenticate.Kerberos",
           "name": "loginKerberos",
           "normalized": "Text-\u003eText-\u003eIO KerberosAuthResult",

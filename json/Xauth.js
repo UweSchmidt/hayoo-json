@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Xauth"
+        "phrase": "Xauth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "Xauth",
           "package": "Xauth",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "Xauth",
           "package": "Xauth",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "Xauth",
           "package": "Xauth",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "Xauth",
           "package": "Xauth",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "Xauth",
           "package": "Xauth",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "Xauth",
           "package": "Xauth",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "familyKrb5Principal",
           "package": "Xauth",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "familyKrb5Principal",
           "package": "Xauth",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "familyLocal",
           "package": "Xauth",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "familyLocal",
           "package": "Xauth",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "familyLocalHost",
           "package": "Xauth",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "familyLocalHost",
           "package": "Xauth",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "familyNetname",
           "package": "Xauth",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "familyNetname",
           "package": "Xauth",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "familyWild",
           "package": "Xauth",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "familyWild",
           "package": "Xauth",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "getAuthByAddr",
           "package": "Xauth",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "getAuthByAddr",
           "normalized": "CUShort-\u003e[CChar]-\u003e[CChar]-\u003e[CChar]-\u003eIO(Maybe Xauth)",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "xauthData",
           "package": "Xauth",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "xauthData",
           "normalized": "[CChar]",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:37 UTC 2014",
           "module": "Graphics.X11.Xauth",
           "name": "xauthName",
           "package": "Xauth",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xauth",
+          "indexed": "2014-03-11T17:05:37",
           "module": "Graphics.X11.Xauth",
           "name": "xauthName",
           "normalized": "[CChar]",

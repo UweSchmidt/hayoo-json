@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zeromq4-haskell"
+        "phrase": "zeromq4-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }

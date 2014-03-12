@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HackMail"
+        "phrase": "HackMail",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette \nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : Portable\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Checksum",
           "name": "Checksum",
           "package": "HackMail",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability Portable",
           "hierarchy": "HackMail Control Checksum",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Checksum",
           "name": "Checksum",
           "package": "HackMail",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Checksum",
           "name": "checksum",
           "package": "HackMail",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Checksum",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Checksum",
           "name": "checksum",
           "normalized": "String-\u003eString",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.DaemonMode",
           "name": "DaemonMode",
           "package": "HackMail",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control DaemonMode",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.DaemonMode",
           "name": "DaemonMode",
           "package": "HackMail",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "Misc",
           "package": "HackMail",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "Misc",
           "package": "HackMail",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "appBoth",
           "package": "HackMail",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "appBoth",
           "normalized": "(a-\u003eb,c-\u003ed)-\u003ea-\u003ec-\u003e(b,d)",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "appDouble",
           "package": "HackMail",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "appDouble",
           "normalized": "(a-\u003eb,a-\u003eb)-\u003ea-\u003e(b,b)",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "both",
           "package": "HackMail",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "both",
           "normalized": "a b c-\u003ea(b,b)(c,c)",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "double",
           "package": "HackMail",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "double",
           "normalized": "a b c-\u003ea b(c,c)",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "maybeAnd",
           "package": "HackMail",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "maybeAnd",
           "normalized": "Maybe a-\u003eMaybe a-\u003eMaybe(a,a)",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "maybeIf",
           "package": "HackMail",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "maybeIf",
           "normalized": "Maybe a-\u003eMaybe a-\u003eMaybe a-\u003eMaybe a",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "maybeOr",
           "package": "HackMail",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "maybeOr",
           "normalized": "Maybe a-\u003eMaybe a-\u003eMaybe(a,a)",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "maybeToBool",
           "package": "HackMail",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "maybeToBool",
           "normalized": "Maybe a-\u003eBool",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Control.Misc",
           "name": "pairToList",
           "package": "HackMail",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "HackMail Control Misc",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Control.Misc",
           "name": "pairToList",
           "normalized": "([a],[a])-\u003e[a]",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette\nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : Portable \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "Deliverable",
           "package": "HackMail",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability Portable",
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "Deliverable",
           "package": "HackMail",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "DEMail",
           "package": "HackMail",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "DEMail",
           "package": "HackMail",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main class which abstracts over delivery of datatype to somewhere in the file system.\n It also abstracts over construction. Due to some weirdity w.r.t. Hint, this, and all instancing\n datatypes, must derive Typeable. A bit of boilerplate, but deriving generally handles it easily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "Deliverable",
           "package": "HackMail",
@@ -374,6 +405,7 @@
         "index": {
           "description": "The main class which abstracts over delivery of datatype to somewhere in the file system It also abstracts over construction Due to some weirdity w.r.t Hint this and all instancing datatypes must derive Typeable bit of boilerplate but deriving generally handles it easily",
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "Deliverable",
           "package": "HackMail",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "FlatEmail",
           "package": "HackMail",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "FlatEmail",
           "package": "HackMail",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "MaildirEmail",
           "package": "HackMail",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "MaildirEmail",
           "package": "HackMail",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "ToDelivery",
           "package": "HackMail",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "ToDelivery",
           "package": "HackMail",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "DE",
           "package": "HackMail",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "DE",
           "package": "HackMail",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "Flat",
           "package": "HackMail",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "Flat",
           "package": "HackMail",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "MD",
           "package": "HackMail",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "MD",
           "package": "HackMail",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "Wrap",
           "package": "HackMail",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "Wrap",
           "normalized": "a-\u003eToDelivery",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "construct",
           "package": "HackMail",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "construct",
           "normalized": "Email-\u003ePath-\u003ea",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "deliverIO",
           "package": "HackMail",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "deliverIO",
           "normalized": "a-\u003eIO()",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "delivery",
           "package": "HackMail",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "delivery",
           "normalized": "ToDelivery-\u003eIO()",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "email",
           "package": "HackMail",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "email",
           "package": "HackMail",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "getDeliveryPath",
           "package": "HackMail",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "getDeliveryPath",
           "normalized": "DEMail-\u003eFilePath",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Deliverable",
           "name": "path",
           "package": "HackMail",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Deliverable",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Deliverable",
           "name": "path",
           "package": "HackMail",
@@ -677,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette\nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : Portable\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Email",
           "name": "Email",
           "package": "HackMail",
@@ -686,6 +745,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability Portable",
           "hierarchy": "HackMail Data Email",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Email",
           "name": "Email",
           "package": "HackMail",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Email",
           "name": "emailChecksum",
           "package": "HackMail",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Email",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Email",
           "name": "emailChecksum",
           "normalized": "Email-\u003eString",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Email",
           "name": "grabTokVal",
           "package": "HackMail",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Email",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Email",
           "name": "grabTokVal",
           "normalized": "Email-\u003eHeaderTok-\u003eMaybe String",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Email",
           "name": "grabTokValUnsafe",
           "package": "HackMail",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Email",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Email",
           "name": "grabTokValUnsafe",
           "normalized": "Email-\u003eHeaderTok-\u003eString",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Email",
           "name": "writeEmail",
           "package": "HackMail",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Email",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Email",
           "name": "writeEmail",
           "normalized": "Email-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.FilterConf",
           "name": "FilterConf",
           "package": "HackMail",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data FilterConf",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.FilterConf",
           "name": "FilterConf",
           "package": "HackMail",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "MainTypes",
           "package": "HackMail",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "MainTypes",
           "package": "HackMail",
@@ -838,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type mostly used in Hackmain.hs, stores some information about paths. Only here to avoid nasty\n mutually recursive modules. (TODO: Move this and associated functions another module?) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "Config",
           "package": "HackMail",
@@ -847,6 +920,7 @@
         "index": {
           "description": "type mostly used in Hackmain.hs stores some information about paths Only here to avoid nasty mutually recursive modules TODO Move this and associated functions another module",
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "Config",
           "package": "HackMail",
@@ -861,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple type to contain the email context. May become bigger, to store configuration details,\n etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "Filter",
           "package": "HackMail",
@@ -870,6 +945,7 @@
         "index": {
           "description": "simple type to contain the email context May become bigger to store configuration details etc",
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "Filter",
           "package": "HackMail",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "Options",
           "package": "HackMail",
@@ -891,6 +968,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "Options",
           "package": "HackMail",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "Conf",
           "package": "HackMail",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "Conf",
           "package": "HackMail",
@@ -926,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "Filter",
           "package": "HackMail",
@@ -935,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "Filter",
           "normalized": "Filter(ReaderT(Config,Email)IO a)",
@@ -950,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "Opt",
           "package": "HackMail",
@@ -959,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "Opt",
           "package": "HackMail",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "altFMainLoc",
           "package": "HackMail",
@@ -981,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "altFMainLoc",
           "package": "HackMail",
@@ -994,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "daemonMode",
           "package": "HackMail",
@@ -1003,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "daemonMode",
           "package": "HackMail",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "filterMain",
           "package": "HackMail",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "filterMain",
           "normalized": "Filter()",
@@ -1040,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "filterMainLoc",
           "package": "HackMail",
@@ -1049,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "filterMainLoc",
           "package": "HackMail",
@@ -1062,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "getOpts",
           "package": "HackMail",
@@ -1071,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "getOpts",
           "normalized": "[String]-\u003eOptions",
@@ -1086,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "inboxLoc",
           "package": "HackMail",
@@ -1095,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "inboxLoc",
           "package": "HackMail",
@@ -1108,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "incomingMailLoc",
           "package": "HackMail",
@@ -1117,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "incomingMailLoc",
           "package": "HackMail",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.MainTypes",
           "name": "runFilter",
           "package": "HackMail",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data MainTypes",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.MainTypes",
           "name": "runFilter",
           "normalized": "Filter a-\u003e(Config,Email)-\u003eIO a",
@@ -1155,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette\nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : Portable \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "ParseEmail",
           "package": "HackMail",
@@ -1164,6 +1265,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability Portable",
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "ParseEmail",
           "package": "HackMail",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "Body",
           "package": "HackMail",
@@ -1185,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "Body",
           "package": "HackMail",
@@ -1198,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "Email",
           "package": "HackMail",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "Email",
           "package": "HackMail",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "Header",
           "package": "HackMail",
@@ -1227,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "Header",
           "package": "HackMail",
@@ -1240,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "HeaderTok",
           "package": "HackMail",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "HeaderTok",
           "package": "HackMail",
@@ -1261,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "BCC",
           "package": "HackMail",
@@ -1270,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "BCC",
           "package": "HackMail",
@@ -1283,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "Body",
           "package": "HackMail",
@@ -1292,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "Body",
           "normalized": "Body[String]",
@@ -1307,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "CC",
           "package": "HackMail",
@@ -1316,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "CC",
           "package": "HackMail",
@@ -1329,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "DATE",
           "package": "HackMail",
@@ -1338,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "DATE",
           "package": "HackMail",
@@ -1351,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "Email",
           "package": "HackMail",
@@ -1360,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "Email",
           "package": "HackMail",
@@ -1373,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "FROM",
           "package": "HackMail",
@@ -1382,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "FROM",
           "package": "HackMail",
@@ -1395,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "HDR",
           "package": "HackMail",
@@ -1404,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "HDR",
           "package": "HackMail",
@@ -1417,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "INREPLYTO",
           "package": "HackMail",
@@ -1426,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "INREPLYTO",
           "package": "HackMail",
@@ -1439,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "KEYWORDS",
           "package": "HackMail",
@@ -1448,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "KEYWORDS",
           "package": "HackMail",
@@ -1461,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "MESSAGEID",
           "package": "HackMail",
@@ -1470,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "MESSAGEID",
           "package": "HackMail",
@@ -1483,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "REFERENCES",
           "package": "HackMail",
@@ -1492,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "REFERENCES",
           "package": "HackMail",
@@ -1505,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "REPLYTO",
           "package": "HackMail",
@@ -1514,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "REPLYTO",
           "package": "HackMail",
@@ -1527,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "SENDER",
           "package": "HackMail",
@@ -1536,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "SENDER",
           "package": "HackMail",
@@ -1549,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "STOP",
           "package": "HackMail",
@@ -1558,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "STOP",
           "package": "HackMail",
@@ -1571,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "SUBJECT",
           "package": "HackMail",
@@ -1580,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "SUBJECT",
           "package": "HackMail",
@@ -1593,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "TO",
           "package": "HackMail",
@@ -1602,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "TO",
           "package": "HackMail",
@@ -1615,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "XFIELD",
           "package": "HackMail",
@@ -1624,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "XFIELD",
           "package": "HackMail",
@@ -1637,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "matchHdr",
           "package": "HackMail",
@@ -1646,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "matchHdr",
           "normalized": "String-\u003eHeaderTok",
@@ -1661,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "parseEmail",
           "package": "HackMail",
@@ -1670,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "parseEmail",
           "normalized": "[Char]-\u003eEither ParseError Email",
@@ -1685,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.ParseEmail",
           "name": "parseEmailFromFile",
           "package": "HackMail",
@@ -1694,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data ParseEmail",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.ParseEmail",
           "name": "parseEmailFromFile",
           "normalized": "SourceName-\u003eIO(Either ParseError Email)",
@@ -1710,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette\nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : Not portable (*nix style only) \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "Path",
           "package": "HackMail",
@@ -1719,6 +1870,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability Not portable nix style only",
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "Path",
           "package": "HackMail",
@@ -1732,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "Path",
           "package": "HackMail",
@@ -1740,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "Path",
           "package": "HackMail",
@@ -1753,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "VPath",
           "package": "HackMail",
@@ -1761,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "VPath",
           "package": "HackMail",
@@ -1774,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "(+/+)",
           "package": "HackMail",
@@ -1783,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "(+/+) +/+",
           "normalized": "Path-\u003ePath-\u003ePath",
@@ -1797,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": ":/:",
           "package": "HackMail",
@@ -1806,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": ":/:",
           "package": "HackMail",
@@ -1818,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "P",
           "package": "HackMail",
@@ -1827,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "P",
           "package": "HackMail",
@@ -1839,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "Root",
           "package": "HackMail",
@@ -1848,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "Root",
           "package": "HackMail",
@@ -1861,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "liftToPath1",
           "package": "HackMail",
@@ -1870,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "liftToPath1",
           "normalized": "(VPath-\u003eVPath)-\u003ePath-\u003ePath",
@@ -1885,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "liftToPath2",
           "package": "HackMail",
@@ -1894,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "liftToPath2",
           "normalized": "(VPath-\u003eVPath-\u003eVPath)-\u003ePath-\u003ePath-\u003ePath",
@@ -1909,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "mkDeliverablePath",
           "package": "HackMail",
@@ -1918,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "mkDeliverablePath",
           "normalized": "Path-\u003eFileName-\u003eFilePath",
@@ -1933,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "parse",
           "package": "HackMail",
@@ -1942,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "parse",
           "normalized": "FilePath-\u003ePath",
@@ -1956,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "parseV",
           "package": "HackMail",
@@ -1965,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "parseV",
           "normalized": "FilePath-\u003eVPath",
@@ -1979,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "pathExists",
           "package": "HackMail",
@@ -1988,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "pathExists",
           "normalized": "Path-\u003eIO Bool",
@@ -2003,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "relative",
           "package": "HackMail",
@@ -2012,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "relative",
           "package": "HackMail",
@@ -2024,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "splitOn",
           "package": "HackMail",
@@ -2033,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "splitOn",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -2048,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "toFilePath",
           "package": "HackMail",
@@ -2057,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "toFilePath",
           "normalized": "Path-\u003eFilePath",
@@ -2072,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Data.Path",
           "name": "virtualPath",
           "package": "HackMail",
@@ -2081,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "HackMail Data Path",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Data.Path",
           "name": "virtualPath",
           "package": "HackMail",
@@ -2095,6 +2279,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette\nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : not portable \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Hackmain",
           "name": "Hackmain",
           "package": "HackMail",
@@ -2104,6 +2289,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability not portable",
           "hierarchy": "HackMail Hackmain",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Hackmain",
           "name": "Hackmain",
           "package": "HackMail",
@@ -2117,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Hackmain",
           "name": "buildConf",
           "package": "HackMail",
@@ -2126,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "HackMail Hackmain",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Hackmain",
           "name": "buildConf",
           "package": "HackMail",
@@ -2139,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Hackmain",
           "name": "configFolderPathIO",
           "package": "HackMail",
@@ -2148,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "HackMail Hackmain",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Hackmain",
           "name": "configFolderPathIO",
           "package": "HackMail",
@@ -2161,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Hackmain",
           "name": "daemon_mode",
           "package": "HackMail",
@@ -2170,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "HackMail Hackmain",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Hackmain",
           "name": "daemon_mode",
           "normalized": "Options-\u003eConfig-\u003eIO()",
@@ -2184,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Hackmain",
           "name": "getExt",
           "package": "HackMail",
@@ -2193,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "HackMail Hackmain",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Hackmain",
           "name": "getExt",
           "normalized": "Bool-\u003eBool-\u003e(a,a)-\u003ea",
@@ -2208,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Hackmain",
           "name": "getFilterMainStuff",
           "package": "HackMail",
@@ -2217,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "HackMail Hackmain",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Hackmain",
           "name": "getFilterMainStuff",
           "normalized": "FilePath-\u003eInterpreter(Path,Filter())",
@@ -2232,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Hackmain",
           "name": "pipe_mode",
           "package": "HackMail",
@@ -2241,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "HackMail Hackmain",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Hackmain",
           "name": "pipe_mode",
           "normalized": "Options-\u003eConfig-\u003eIO()",
@@ -2255,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:27 UTC 2014",
           "module": "HackMail.Hackmain",
           "name": "runUnsafeInterpreter",
           "package": "HackMail",
@@ -2264,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "HackMail Hackmain",
+          "indexed": "2014-03-11T16:47:27",
           "module": "HackMail.Hackmain",
           "name": "runUnsafeInterpreter",
           "normalized": "Interpreter a-\u003eIO a",

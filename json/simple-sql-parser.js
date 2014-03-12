@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-sql-parser"
+        "phrase": "simple-sql-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the module with the parser functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "Parser",
           "package": "simple-sql-parser",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is the module with the parser functions",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "Parser",
           "package": "simple-sql-parser",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType to represent parse errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "ParseError",
           "package": "simple-sql-parser",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type to represent parse errors",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "ParseError",
           "package": "simple-sql-parser",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "ParseError",
           "package": "simple-sql-parser",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "ParseError",
           "package": "simple-sql-parser",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a query expr, trailing semicolon optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "parseQueryExpr",
           "package": "simple-sql-parser",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Parses query expr trailing semicolon optional",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "parseQueryExpr",
           "normalized": "FilePath-\u003eMaybe(Int,Int)-\u003eString-\u003eEither ParseError QueryExpr",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a list of query expressions, with semi colons between\n them. The final semicolon is optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "parseQueryExprs",
           "package": "simple-sql-parser",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Parses list of query expressions with semi colons between them The final semicolon is optional",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "parseQueryExprs",
           "normalized": "FilePath-\u003eMaybe(Int,Int)-\u003eString-\u003eEither ParseError[QueryExpr]",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a value expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "parseValueExpr",
           "package": "simple-sql-parser",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Parses value expression",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "parseValueExpr",
           "normalized": "FilePath-\u003eMaybe(Int,Int)-\u003eString-\u003eEither ParseError ValueExpr",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtains the error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "peErrorString",
           "package": "simple-sql-parser",
@@ -172,6 +185,7 @@
         "index": {
           "description": "contains the error message",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "peErrorString",
           "package": "simple-sql-parser",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilename location for the error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "peFilename",
           "package": "simple-sql-parser",
@@ -196,6 +211,7 @@
         "index": {
           "description": "filename location for the error",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "peFilename",
           "package": "simple-sql-parser",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformatted error with the position, error\n message and source context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "peFormattedError",
           "package": "simple-sql-parser",
@@ -220,6 +237,7 @@
         "index": {
           "description": "formatted error with the position error message and source context",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "peFormattedError",
           "package": "simple-sql-parser",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline number and column number location for the error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "pePosition",
           "package": "simple-sql-parser",
@@ -244,6 +263,7 @@
         "index": {
           "description": "line number and column number location for the error",
           "hierarchy": "Language SQL SimpleSQL Parser",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Parser",
           "name": "pePosition",
           "normalized": "(Int,Int)",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese is the pretty printing functions, which produce SQL\n source from ASTs. The code attempts to format the output in a\n readable way.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Pretty",
           "name": "Pretty",
           "package": "simple-sql-parser",
@@ -269,6 +290,7 @@
         "index": {
           "description": "These is the pretty printing functions which produce SQL source from ASTs The code attempts to format the output in readable way",
           "hierarchy": "Language SQL SimpleSQL Pretty",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Pretty",
           "name": "Pretty",
           "package": "simple-sql-parser",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a query expr ast to concrete syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Pretty",
           "name": "prettyQueryExpr",
           "package": "simple-sql-parser",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Convert query expr ast to concrete syntax",
           "hierarchy": "Language SQL SimpleSQL Pretty",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Pretty",
           "name": "prettyQueryExpr",
           "normalized": "QueryExpr-\u003eString",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of query exprs to concrete syntax. A semi colon\n is inserted after each query expr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Pretty",
           "name": "prettyQueryExprs",
           "package": "simple-sql-parser",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Convert list of query exprs to concrete syntax semi colon is inserted after each query expr",
           "hierarchy": "Language SQL SimpleSQL Pretty",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Pretty",
           "name": "prettyQueryExprs",
           "normalized": "[QueryExpr]-\u003eString",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value expr ast to concrete syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Pretty",
           "name": "prettyValueExpr",
           "package": "simple-sql-parser",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Convert value expr ast to concrete syntax",
           "hierarchy": "Language SQL SimpleSQL Pretty",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Pretty",
           "name": "prettyValueExpr",
           "normalized": "ValueExpr-\u003eString",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe AST for SQL queries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Syntax",
           "package": "simple-sql-parser",
@@ -370,6 +399,7 @@
         "index": {
           "description": "The AST for SQL queries",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Syntax",
           "package": "simple-sql-parser",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an alias for a table valued expression, used in with\n queries and in from alias, e.g. select a from t u, select a from t u(b),\n with a(c) as select 1, select * from a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Alias",
           "package": "simple-sql-parser",
@@ -393,6 +424,7 @@
         "index": {
           "description": "Represents an alias for table valued expression used in with queries and in from alias e.g select from select from with as select select from",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Alias",
           "package": "simple-sql-parser",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery expression set operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "CombineOp",
           "package": "simple-sql-parser",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Query expression set operators",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "CombineOp",
           "package": "simple-sql-parser",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponding, an option for the set operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Corresponding",
           "package": "simple-sql-parser",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Corresponding an option for the set operators",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Corresponding",
           "package": "simple-sql-parser",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe direction for a column in order by.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Direction",
           "package": "simple-sql-parser",
@@ -462,6 +499,7 @@
         "index": {
           "description": "The direction for column in order by",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Direction",
           "package": "simple-sql-parser",
@@ -476,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the frame clause of a window\n this can be [range | rows] frame_start\n or [range | rows] between frame_start and frame_end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Frame",
           "package": "simple-sql-parser",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Represents the frame clause of window this can be range rows frame start or range rows between frame start and frame end",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Frame",
           "package": "simple-sql-parser",
@@ -499,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents the start or end of a frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FramePos",
           "package": "simple-sql-parser",
@@ -508,6 +549,7 @@
         "index": {
           "description": "represents the start or end of frame",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FramePos",
           "package": "simple-sql-parser",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents whether a window frame clause is over rows or ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameRows",
           "package": "simple-sql-parser",
@@ -531,6 +574,7 @@
         "index": {
           "description": "Represents whether window frame clause is over rows or ranges",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameRows",
           "package": "simple-sql-parser",
@@ -545,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an item in a group by clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "GroupingExpr",
           "package": "simple-sql-parser",
@@ -554,6 +599,7 @@
         "index": {
           "description": "Represents an item in group by clause",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "GroupingExpr",
           "package": "simple-sql-parser",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for 'expr in (value expression list)', and 'expr in\n (subquery)' syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "InPredValue",
           "package": "simple-sql-parser",
@@ -577,6 +624,7 @@
         "index": {
           "description": "Used for expr in value expression list and expr in subquery syntax",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "InPredValue",
           "package": "simple-sql-parser",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe join condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinCondition",
           "package": "simple-sql-parser",
@@ -600,6 +649,7 @@
         "index": {
           "description": "The join condition",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinCondition",
           "package": "simple-sql-parser",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a join.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinType",
           "package": "simple-sql-parser",
@@ -623,6 +674,7 @@
         "index": {
           "description": "The type of join",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinType",
           "package": "simple-sql-parser",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an identifier name, which can be quoted or unquoted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Name",
           "package": "simple-sql-parser",
@@ -646,6 +699,7 @@
         "index": {
           "description": "Represents an identifier name which can be quoted or unquoted",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Name",
           "package": "simple-sql-parser",
@@ -660,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents 'nulls first' or 'nulls last' in an order by clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NullsOrder",
           "package": "simple-sql-parser",
@@ -669,6 +724,7 @@
         "index": {
           "description": "Represents nulls first or nulls last in an order by clause",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NullsOrder",
           "package": "simple-sql-parser",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a query expression, which can be:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e a regular select;\n\u003c/li\u003e\u003cli\u003e a set operator (union, except, intersect);\n\u003c/li\u003e\u003cli\u003e a common table expression (with);\n\u003c/li\u003e\u003cli\u003e a table value constructor (values (1,2),(3,4)); or\n\u003c/li\u003e\u003cli\u003e an explicit table (table t).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "QueryExpr",
           "package": "simple-sql-parser",
@@ -692,6 +749,7 @@
         "index": {
           "description": "Represents query expression which can be regular select set operator union except intersect common table expression with table value constructor values or an explicit table table",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "QueryExpr",
           "package": "simple-sql-parser",
@@ -706,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the Distinct or All keywords, which can be used\n before a select list, in an aggregate/window function\n application, or in a query expression set operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SetQuantifier",
           "package": "simple-sql-parser",
@@ -715,6 +774,7 @@
         "index": {
           "description": "Represents the Distinct or All keywords which can be used before select list in an aggregate window function application or in query expression set operator",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SetQuantifier",
           "package": "simple-sql-parser",
@@ -729,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents one field in an order by list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SortSpec",
           "package": "simple-sql-parser",
@@ -738,6 +799,7 @@
         "index": {
           "description": "Represents one field in an order by list",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SortSpec",
           "package": "simple-sql-parser",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subquery in a value expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SubQueryExprType",
           "package": "simple-sql-parser",
@@ -761,6 +824,7 @@
         "index": {
           "description": "subquery in value expression",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SubQueryExprType",
           "package": "simple-sql-parser",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a entry in the csv of tables in the from clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TableRef",
           "package": "simple-sql-parser",
@@ -784,6 +849,7 @@
         "index": {
           "description": "Represents entry in the csv of tables in the from clause",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TableRef",
           "package": "simple-sql-parser",
@@ -798,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a type name, used in casts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TypeName",
           "package": "simple-sql-parser",
@@ -807,6 +874,7 @@
         "index": {
           "description": "Represents type name used in casts",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TypeName",
           "package": "simple-sql-parser",
@@ -821,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a value expression. This is used for the expressions\n in select lists. It is also used for expressions in where, group\n by, having, order by and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "ValueExpr",
           "package": "simple-sql-parser",
@@ -830,6 +899,7 @@
         "index": {
           "description": "Represents value expression This is used for the expressions in select lists It is also used for expressions in where group by having order by and so on",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "ValueExpr",
           "package": "simple-sql-parser",
@@ -844,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaggregate application, which adds distinct or all, and\n order by, to regular function application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "AggregateApp",
           "package": "simple-sql-parser",
@@ -854,6 +925,7 @@
         "index": {
           "description": "aggregate application which adds distinct or all and order by to regular function application",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "AggregateApp",
           "package": "simple-sql-parser",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Alias",
           "package": "simple-sql-parser",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Alias",
           "normalized": "Alias Name(Maybe[Name])",
@@ -891,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "All",
           "package": "simple-sql-parser",
@@ -900,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "All",
           "package": "simple-sql-parser",
@@ -914,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction application (anything that looks like c style\n function application syntactically)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "App",
           "package": "simple-sql-parser",
@@ -924,6 +1001,7 @@
         "index": {
           "description": "function application anything that looks like style function application syntactically",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "App",
           "normalized": "App Name[ValueExpr]",
@@ -939,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Asc",
           "package": "simple-sql-parser",
@@ -948,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Asc",
           "package": "simple-sql-parser",
@@ -962,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix binary operators. This is used for symbol operators\n (a + b), keyword operators (a and b) and multiple keyword\n operators (a is similar to b)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "BinOp",
           "package": "simple-sql-parser",
@@ -972,6 +1053,7 @@
         "index": {
           "description": "Infix binary operators This is used for symbol operators keyword operators and and multiple keyword operators is similar to",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "BinOp",
           "package": "simple-sql-parser",
@@ -986,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecase expression. both flavours supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Case",
           "package": "simple-sql-parser",
@@ -996,6 +1079,7 @@
         "index": {
           "description": "case expression both flavours supported",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Case",
           "package": "simple-sql-parser",
@@ -1010,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecast(a as typename)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Cast",
           "package": "simple-sql-parser",
@@ -1020,6 +1105,7 @@
         "index": {
           "description": "cast as typename",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Cast",
           "package": "simple-sql-parser",
@@ -1033,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "CombineQueryExpr",
           "package": "simple-sql-parser",
@@ -1042,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "CombineQueryExpr",
           "package": "simple-sql-parser",
@@ -1055,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Corresponding",
           "package": "simple-sql-parser",
@@ -1064,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Corresponding",
           "package": "simple-sql-parser",
@@ -1077,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Cube",
           "package": "simple-sql-parser",
@@ -1086,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Cube",
           "normalized": "Cube[GroupingExpr]",
@@ -1101,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Current",
           "package": "simple-sql-parser",
@@ -1110,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Current",
           "package": "simple-sql-parser",
@@ -1123,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Desc",
           "package": "simple-sql-parser",
@@ -1132,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Desc",
           "package": "simple-sql-parser",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Distinct",
           "package": "simple-sql-parser",
@@ -1154,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Distinct",
           "package": "simple-sql-parser",
@@ -1167,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Except",
           "package": "simple-sql-parser",
@@ -1176,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Except",
           "package": "simple-sql-parser",
@@ -1189,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Following",
           "package": "simple-sql-parser",
@@ -1198,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Following",
           "package": "simple-sql-parser",
@@ -1211,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameBetween",
           "package": "simple-sql-parser",
@@ -1220,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameBetween",
           "package": "simple-sql-parser",
@@ -1233,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameFrom",
           "package": "simple-sql-parser",
@@ -1242,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameFrom",
           "package": "simple-sql-parser",
@@ -1255,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameRange",
           "package": "simple-sql-parser",
@@ -1264,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameRange",
           "package": "simple-sql-parser",
@@ -1277,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameRows",
           "package": "simple-sql-parser",
@@ -1286,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "FrameRows",
           "package": "simple-sql-parser",
@@ -1299,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "GroupingParens",
           "package": "simple-sql-parser",
@@ -1308,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "GroupingParens",
           "normalized": "GroupingParens[GroupingExpr]",
@@ -1323,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "GroupingSets",
           "package": "simple-sql-parser",
@@ -1332,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "GroupingSets",
           "normalized": "GroupingSets[GroupingExpr]",
@@ -1348,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eidentifier without dots\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Iden",
           "package": "simple-sql-parser",
@@ -1358,6 +1473,7 @@
         "index": {
           "description": "identifier without dots",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Iden",
           "package": "simple-sql-parser",
@@ -1372,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ein list literal and in subquery, if the bool is false it\n means not in was used ('a not in (1,2)')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "In",
           "package": "simple-sql-parser",
@@ -1382,6 +1499,7 @@
         "index": {
           "description": "in list literal and in subquery if the bool is false it means not in was used not in",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "In",
           "package": "simple-sql-parser",
@@ -1395,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "InList",
           "package": "simple-sql-parser",
@@ -1404,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "InList",
           "normalized": "InList[ValueExpr]",
@@ -1419,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "InQueryExpr",
           "package": "simple-sql-parser",
@@ -1428,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "InQueryExpr",
           "package": "simple-sql-parser",
@@ -1441,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Intersect",
           "package": "simple-sql-parser",
@@ -1450,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Intersect",
           "package": "simple-sql-parser",
@@ -1464,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext of interval literal, units of interval precision,\n e.g. interval 3 days (3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "IntervalLit",
           "package": "simple-sql-parser",
@@ -1474,6 +1599,7 @@
         "index": {
           "description": "text of interval literal units of interval precision e.g interval days",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "IntervalLit",
           "package": "simple-sql-parser",
@@ -1487,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JCross",
           "package": "simple-sql-parser",
@@ -1496,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JCross",
           "package": "simple-sql-parser",
@@ -1509,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JFull",
           "package": "simple-sql-parser",
@@ -1518,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JFull",
           "package": "simple-sql-parser",
@@ -1531,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JInner",
           "package": "simple-sql-parser",
@@ -1540,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JInner",
           "package": "simple-sql-parser",
@@ -1553,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JLeft",
           "package": "simple-sql-parser",
@@ -1562,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JLeft",
           "package": "simple-sql-parser",
@@ -1575,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JRight",
           "package": "simple-sql-parser",
@@ -1584,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JRight",
           "package": "simple-sql-parser",
@@ -1598,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enatural join was used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinNatural",
           "package": "simple-sql-parser",
@@ -1608,6 +1745,7 @@
         "index": {
           "description": "natural join was used",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinNatural",
           "package": "simple-sql-parser",
@@ -1622,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eon expr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinOn",
           "package": "simple-sql-parser",
@@ -1632,6 +1771,7 @@
         "index": {
           "description": "on expr",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinOn",
           "package": "simple-sql-parser",
@@ -1646,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eusing (column list)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinUsing",
           "package": "simple-sql-parser",
@@ -1656,6 +1797,7 @@
         "index": {
           "description": "using column list",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "JoinUsing",
           "normalized": "JoinUsing[Name]",
@@ -1671,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Name",
           "package": "simple-sql-parser",
@@ -1680,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Name",
           "package": "simple-sql-parser",
@@ -1693,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NullsFirst",
           "package": "simple-sql-parser",
@@ -1702,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NullsFirst",
           "package": "simple-sql-parser",
@@ -1715,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NullsLast",
           "package": "simple-sql-parser",
@@ -1724,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NullsLast",
           "package": "simple-sql-parser",
@@ -1737,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NullsOrderDefault",
           "package": "simple-sql-parser",
@@ -1746,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NullsOrderDefault",
           "package": "simple-sql-parser",
@@ -1760,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea numeric literal optional decimal point, e+-\n integral exponent, e.g\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 10\n\u003c/li\u003e\u003cli\u003e 10.\n\u003c/li\u003e\u003cli\u003e .1\n\u003c/li\u003e\u003cli\u003e 10.1\n\u003c/li\u003e\u003cli\u003e 1e5\n\u003c/li\u003e\u003cli\u003e 12.34e-6\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NumLit",
           "package": "simple-sql-parser",
@@ -1770,6 +1921,7 @@
         "index": {
           "description": "numeric literal optional decimal point integral exponent e.g e5 e-6",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "NumLit",
           "package": "simple-sql-parser",
@@ -1784,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a ? in a parameterized query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Parameter",
           "package": "simple-sql-parser",
@@ -1794,6 +1947,7 @@
         "index": {
           "description": "Represents in parameterized query",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Parameter",
           "package": "simple-sql-parser",
@@ -1807,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Parens",
           "package": "simple-sql-parser",
@@ -1816,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Parens",
           "package": "simple-sql-parser",
@@ -1830,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostfix unary operators. This is used for symbol\n operators, keyword operators and multiple keyword operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "PostfixOp",
           "package": "simple-sql-parser",
@@ -1840,6 +1997,7 @@
         "index": {
           "description": "Postfix unary operators This is used for symbol operators keyword operators and multiple keyword operators",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "PostfixOp",
           "package": "simple-sql-parser",
@@ -1853,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "PrecScaleTypeName",
           "package": "simple-sql-parser",
@@ -1862,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "PrecScaleTypeName",
           "package": "simple-sql-parser",
@@ -1875,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "PrecTypeName",
           "package": "simple-sql-parser",
@@ -1884,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "PrecTypeName",
           "package": "simple-sql-parser",
@@ -1897,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Preceding",
           "package": "simple-sql-parser",
@@ -1906,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Preceding",
           "package": "simple-sql-parser",
@@ -1920,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix unary operators. This is used for symbol\n operators, keyword operators and multiple keyword operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "PrefixOp",
           "package": "simple-sql-parser",
@@ -1930,6 +2095,7 @@
         "index": {
           "description": "Prefix unary operators This is used for symbol operators keyword operators and multiple keyword operators",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "PrefixOp",
           "package": "simple-sql-parser",
@@ -1943,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "QName",
           "package": "simple-sql-parser",
@@ -1952,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "QName",
           "package": "simple-sql-parser",
@@ -1965,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Respectively",
           "package": "simple-sql-parser",
@@ -1974,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Respectively",
           "package": "simple-sql-parser",
@@ -1987,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Rollup",
           "package": "simple-sql-parser",
@@ -1996,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Rollup",
           "normalized": "Rollup[GroupingExpr]",
@@ -2011,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Select",
           "package": "simple-sql-parser",
@@ -2020,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Select",
           "package": "simple-sql-parser",
@@ -2033,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SimpleGroup",
           "package": "simple-sql-parser",
@@ -2042,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SimpleGroup",
           "package": "simple-sql-parser",
@@ -2055,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SortSpec",
           "package": "simple-sql-parser",
@@ -2064,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SortSpec",
           "package": "simple-sql-parser",
@@ -2078,6 +2256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for ternary, mixfix and other non orthodox\n operators. Currently used for row constructors, and for\n between.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SpecialOp",
           "package": "simple-sql-parser",
@@ -2088,6 +2267,7 @@
         "index": {
           "description": "Used for ternary mixfix and other non orthodox operators Currently used for row constructors and for between",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SpecialOp",
           "normalized": "SpecialOp Name[ValueExpr]",
@@ -2104,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for the operators which look like functions\n except the arguments are separated by keywords instead\n of commas. The maybe is for the first unnamed argument\n if it is present, and the list is for the keyword argument\n pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SpecialOpK",
           "package": "simple-sql-parser",
@@ -2114,6 +2295,7 @@
         "index": {
           "description": "Used for the operators which look like functions except the arguments are separated by keywords instead of commas The maybe is for the first unnamed argument if it is present and the list is for the keyword argument pairs",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SpecialOpK",
           "normalized": "SpecialOpK Name(Maybe ValueExpr)[(String,ValueExpr)]",
@@ -2130,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall (query expr)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqAll",
           "package": "simple-sql-parser",
@@ -2140,6 +2323,7 @@
         "index": {
           "description": "all query expr",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqAll",
           "package": "simple-sql-parser",
@@ -2154,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eany (query expr)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqAny",
           "package": "simple-sql-parser",
@@ -2164,6 +2349,7 @@
         "index": {
           "description": "any query expr",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqAny",
           "package": "simple-sql-parser",
@@ -2178,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexists (query expr)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqExists",
           "package": "simple-sql-parser",
@@ -2188,6 +2375,7 @@
         "index": {
           "description": "exists query expr",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqExists",
           "package": "simple-sql-parser",
@@ -2202,6 +2390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esome (query expr)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqSome",
           "package": "simple-sql-parser",
@@ -2212,6 +2401,7 @@
         "index": {
           "description": "some query expr",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqSome",
           "package": "simple-sql-parser",
@@ -2226,6 +2416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea scalar subquery\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqSq",
           "package": "simple-sql-parser",
@@ -2236,6 +2427,7 @@
         "index": {
           "description": "scalar subquery",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SqSq",
           "package": "simple-sql-parser",
@@ -2250,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estar, as in select *, t.*, count(*)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Star",
           "package": "simple-sql-parser",
@@ -2260,6 +2453,7 @@
         "index": {
           "description": "star as in select count",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Star",
           "package": "simple-sql-parser",
@@ -2274,6 +2468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring literal, currently only basic strings between\n single quotes with a single quote escaped using ''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "StringLit",
           "package": "simple-sql-parser",
@@ -2284,6 +2479,7 @@
         "index": {
           "description": "string literal currently only basic strings between single quotes with single quote escaped using",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "StringLit",
           "package": "simple-sql-parser",
@@ -2298,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexists, all, any, some subqueries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SubQueryExpr",
           "package": "simple-sql-parser",
@@ -2308,6 +2505,7 @@
         "index": {
           "description": "exists all any some subqueries",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "SubQueryExpr",
           "package": "simple-sql-parser",
@@ -2322,6 +2520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom a as b(c,d)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRAlias",
           "package": "simple-sql-parser",
@@ -2332,6 +2531,7 @@
         "index": {
           "description": "from as",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRAlias",
           "package": "simple-sql-parser",
@@ -2346,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom function(args)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRFunction",
           "package": "simple-sql-parser",
@@ -2356,6 +2557,7 @@
         "index": {
           "description": "from function args",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRFunction",
           "normalized": "TRFunction Name[ValueExpr]",
@@ -2372,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom a join b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRJoin",
           "package": "simple-sql-parser",
@@ -2382,6 +2585,7 @@
         "index": {
           "description": "from join",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRJoin",
           "package": "simple-sql-parser",
@@ -2396,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom lateral t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRLateral",
           "package": "simple-sql-parser",
@@ -2406,6 +2611,7 @@
         "index": {
           "description": "from lateral",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRLateral",
           "package": "simple-sql-parser",
@@ -2420,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom (a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRParens",
           "package": "simple-sql-parser",
@@ -2430,6 +2637,7 @@
         "index": {
           "description": "from",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRParens",
           "package": "simple-sql-parser",
@@ -2444,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom (query expr)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRQueryExpr",
           "package": "simple-sql-parser",
@@ -2454,6 +2663,7 @@
         "index": {
           "description": "from query expr",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRQueryExpr",
           "package": "simple-sql-parser",
@@ -2468,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRSimple",
           "package": "simple-sql-parser",
@@ -2478,6 +2689,7 @@
         "index": {
           "description": "from",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TRSimple",
           "package": "simple-sql-parser",
@@ -2491,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Table",
           "package": "simple-sql-parser",
@@ -2500,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Table",
           "package": "simple-sql-parser",
@@ -2513,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TypeName",
           "package": "simple-sql-parser",
@@ -2522,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TypeName",
           "package": "simple-sql-parser",
@@ -2536,6 +2752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprefix 'typed literal', e.g. int '42'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TypedLit",
           "package": "simple-sql-parser",
@@ -2546,6 +2763,7 @@
         "index": {
           "description": "prefix typed literal e.g int",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "TypedLit",
           "package": "simple-sql-parser",
@@ -2559,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "UnboundedFollowing",
           "package": "simple-sql-parser",
@@ -2568,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "UnboundedFollowing",
           "package": "simple-sql-parser",
@@ -2581,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "UnboundedPreceding",
           "package": "simple-sql-parser",
@@ -2590,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "UnboundedPreceding",
           "package": "simple-sql-parser",
@@ -2603,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Union",
           "package": "simple-sql-parser",
@@ -2612,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Union",
           "package": "simple-sql-parser",
@@ -2625,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Values",
           "package": "simple-sql-parser",
@@ -2634,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "Values",
           "normalized": "Values[[ValueExpr]]",
@@ -2650,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewindow application, which adds over (partition by a order\n by b) to regular function application. Explicit frames are\n not currently supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "WindowApp",
           "package": "simple-sql-parser",
@@ -2660,6 +2887,7 @@
         "index": {
           "description": "window application which adds over partition by order by to regular function application Explicit frames are not currently supported",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "WindowApp",
           "package": "simple-sql-parser",
@@ -2673,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "With",
           "package": "simple-sql-parser",
@@ -2682,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "With",
           "package": "simple-sql-parser",
@@ -2696,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eargs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "aggArgs",
           "package": "simple-sql-parser",
@@ -2706,6 +2937,7 @@
         "index": {
           "description": "args",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "aggArgs",
           "normalized": "[ValueExpr]",
@@ -2722,6 +2954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edistinct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "aggDistinct",
           "package": "simple-sql-parser",
@@ -2732,6 +2965,7 @@
         "index": {
           "description": "distinct",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "aggDistinct",
           "package": "simple-sql-parser",
@@ -2746,6 +2980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaggregate function name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "aggName",
           "package": "simple-sql-parser",
@@ -2756,6 +2991,7 @@
         "index": {
           "description": "aggregate function name",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "aggName",
           "package": "simple-sql-parser",
@@ -2770,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eorder by\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "aggOrderBy",
           "package": "simple-sql-parser",
@@ -2780,6 +3017,7 @@
         "index": {
           "description": "order by",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "aggOrderBy",
           "normalized": "[SortSpec]",
@@ -2796,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eelse value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "caseElse",
           "package": "simple-sql-parser",
@@ -2806,6 +3045,7 @@
         "index": {
           "description": "else value",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "caseElse",
           "package": "simple-sql-parser",
@@ -2820,6 +3060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "caseTest",
           "package": "simple-sql-parser",
@@ -2830,6 +3071,7 @@
         "index": {
           "description": "test value",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "caseTest",
           "package": "simple-sql-parser",
@@ -2844,6 +3086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhen branches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "caseWhens",
           "package": "simple-sql-parser",
@@ -2854,6 +3097,7 @@
         "index": {
           "description": "when branches",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "caseWhens",
           "normalized": "[([ValueExpr],ValueExpr)]",
@@ -2870,6 +3114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliteral text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "ilLiteral",
           "package": "simple-sql-parser",
@@ -2880,6 +3125,7 @@
         "index": {
           "description": "literal text",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "ilLiteral",
           "package": "simple-sql-parser",
@@ -2894,6 +3140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecision\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "ilPrecision",
           "package": "simple-sql-parser",
@@ -2904,6 +3151,7 @@
         "index": {
           "description": "precision",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "ilPrecision",
           "package": "simple-sql-parser",
@@ -2918,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "ilUnits",
           "package": "simple-sql-parser",
@@ -2928,6 +3177,7 @@
         "index": {
           "description": "units",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "ilUnits",
           "package": "simple-sql-parser",
@@ -2942,6 +3192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper/'default' value for query exprs to make creating query\n expr values a little easier. It is defined like this:\n\u003c/p\u003e\u003cpre\u003e makeSelect :: QueryExpr\n makeSelect = Select {qeSetQuantifier = All\n                     ,qeSelectList = []\n                     ,qeFrom = []\n                     ,qeWhere = Nothing\n                     ,qeGroupBy = []\n                     ,qeHaving = Nothing\n                     ,qeOrderBy = []\n                     ,qeOffset = Nothing\n                     ,qeFetchFirst = Nothing}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "makeSelect",
           "package": "simple-sql-parser",
@@ -2952,6 +3203,7 @@
         "index": {
           "description": "Helper default value for query exprs to make creating query expr values little easier It is defined like this makeSelect QueryExpr makeSelect Select qeSetQuantifier All qeSelectList qeFrom qeWhere Nothing qeGroupBy qeHaving Nothing qeOrderBy qeOffset Nothing qeFetchFirst Nothing",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "makeSelect",
           "package": "simple-sql-parser",
@@ -2965,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qe0",
           "package": "simple-sql-parser",
@@ -2974,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qe0",
           "package": "simple-sql-parser",
@@ -2986,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qe1",
           "package": "simple-sql-parser",
@@ -2995,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qe1",
           "package": "simple-sql-parser",
@@ -3007,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeCombOp",
           "package": "simple-sql-parser",
@@ -3016,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeCombOp",
           "package": "simple-sql-parser",
@@ -3029,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeCorresponding",
           "package": "simple-sql-parser",
@@ -3038,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeCorresponding",
           "package": "simple-sql-parser",
@@ -3051,6 +3311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeFetchFirst",
           "package": "simple-sql-parser",
@@ -3060,6 +3321,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeFetchFirst",
           "package": "simple-sql-parser",
@@ -3073,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeFrom",
           "package": "simple-sql-parser",
@@ -3082,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeFrom",
           "normalized": "[TableRef]",
@@ -3097,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeGroupBy",
           "package": "simple-sql-parser",
@@ -3106,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeGroupBy",
           "normalized": "[GroupingExpr]",
@@ -3121,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeHaving",
           "package": "simple-sql-parser",
@@ -3130,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeHaving",
           "package": "simple-sql-parser",
@@ -3143,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeOffset",
           "package": "simple-sql-parser",
@@ -3152,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeOffset",
           "package": "simple-sql-parser",
@@ -3165,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeOrderBy",
           "package": "simple-sql-parser",
@@ -3174,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeOrderBy",
           "normalized": "[SortSpec]",
@@ -3189,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeQueryExpression",
           "package": "simple-sql-parser",
@@ -3198,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeQueryExpression",
           "package": "simple-sql-parser",
@@ -3212,6 +3486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe expressions and the column aliases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeSelectList",
           "package": "simple-sql-parser",
@@ -3222,6 +3497,7 @@
         "index": {
           "description": "the expressions and the column aliases",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeSelectList",
           "normalized": "[(ValueExpr,Maybe Name)]",
@@ -3237,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeSetQuantifier",
           "package": "simple-sql-parser",
@@ -3246,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeSetQuantifier",
           "package": "simple-sql-parser",
@@ -3259,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeViews",
           "package": "simple-sql-parser",
@@ -3268,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeViews",
           "normalized": "[(Alias,QueryExpr)]",
@@ -3283,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeWhere",
           "package": "simple-sql-parser",
@@ -3292,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeWhere",
           "package": "simple-sql-parser",
@@ -3305,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeWithRecursive",
           "package": "simple-sql-parser",
@@ -3314,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "qeWithRecursive",
           "package": "simple-sql-parser",
@@ -3328,6 +3612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eargs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnArgs",
           "package": "simple-sql-parser",
@@ -3338,6 +3623,7 @@
         "index": {
           "description": "args",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnArgs",
           "normalized": "[ValueExpr]",
@@ -3354,6 +3640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eframe clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnFrame",
           "package": "simple-sql-parser",
@@ -3364,6 +3651,7 @@
         "index": {
           "description": "frame clause",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnFrame",
           "package": "simple-sql-parser",
@@ -3378,6 +3666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewindow function name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnName",
           "package": "simple-sql-parser",
@@ -3388,6 +3677,7 @@
         "index": {
           "description": "window function name",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnName",
           "package": "simple-sql-parser",
@@ -3402,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eorder by\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnOrderBy",
           "package": "simple-sql-parser",
@@ -3412,6 +3703,7 @@
         "index": {
           "description": "order by",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnOrderBy",
           "normalized": "[SortSpec]",
@@ -3428,6 +3720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartition by\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:14 UTC 2014",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnPartition",
           "package": "simple-sql-parser",
@@ -3438,6 +3731,7 @@
         "index": {
           "description": "partition by",
           "hierarchy": "Language SQL SimpleSQL Syntax",
+          "indexed": "2014-03-11T20:03:14",
           "module": "Language.SQL.SimpleSQL.Syntax",
           "name": "wnPartition",
           "normalized": "[ValueExpr]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "collections-base-instances"
+        "phrase": "collections-base-instances",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Collections.BaseInstances",
           "name": "BaseInstances",
           "package": "collections-base-instances",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Collections BaseInstances",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Collections.BaseInstances",
           "name": "BaseInstances",
           "package": "collections-base-instances",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map of integers to values \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Collections.BaseInstances",
           "name": "IntMap",
           "package": "collections-base-instances",
@@ -48,6 +51,7 @@
         "index": {
           "description": "map of integers to values",
           "hierarchy": "Data Collections BaseInstances",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Collections.BaseInstances",
           "name": "IntMap",
           "package": "collections-base-instances",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Collections.BaseInstances",
           "name": "IntSet",
           "package": "collections-base-instances",
@@ -70,6 +75,7 @@
         "index": {
           "description": "set of integers",
           "hierarchy": "Data Collections BaseInstances",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Collections.BaseInstances",
           "name": "IntSet",
           "package": "collections-base-instances",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral-purpose finite sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Collections.BaseInstances",
           "name": "Seq",
           "package": "collections-base-instances",
@@ -92,6 +99,7 @@
         "index": {
           "description": "General-purpose finite sequences",
           "hierarchy": "Data Collections BaseInstances",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Collections.BaseInstances",
           "name": "Seq",
           "package": "collections-base-instances",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Collections.BaseInstances",
           "name": "StdMap",
           "package": "collections-base-instances",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Collections BaseInstances",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Collections.BaseInstances",
           "name": "StdMap",
           "package": "collections-base-instances",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Collections.BaseInstances",
           "name": "StdSet",
           "package": "collections-base-instances",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Collections BaseInstances",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Collections.BaseInstances",
           "name": "StdSet",
           "package": "collections-base-instances",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Map.List",
           "name": "List",
           "package": "collections-base-instances",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Data Map List",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Map.List",
           "name": "List",
           "package": "collections-base-instances",
@@ -169,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView a list (actually any \u003ccode\u003e\u003ca\u003eSequence\u003c/a\u003e\u003c/code\u003e) of \u003ccode\u003e(key,value)\u003c/code\u003e pairs as a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e collection.\n\u003c/p\u003e\u003cp\u003eThis allows to feed sequences into algorithms that require a map without building a full-fledged map.\n Most of the time this will be used only when the parameter list is known to be very small, such that\n conversion to a Map would be to costly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Map.List",
           "name": "AssocList",
           "package": "collections-base-instances",
@@ -178,6 +193,7 @@
         "index": {
           "description": "View list actually any Sequence of key value pairs as Map collection This allows to feed sequences into algorithms that require map without building full-fledged map Most of the time this will be used only when the parameter list is known to be very small such that conversion to Map would be to costly",
           "hierarchy": "Data Map List",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Map.List",
           "name": "AssocList",
           "package": "collections-base-instances",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Map.List",
           "name": "AssocList",
           "package": "collections-base-instances",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data Map List",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Map.List",
           "name": "AssocList",
           "package": "collections-base-instances",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Set.List",
           "name": "List",
           "package": "collections-base-instances",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Set List",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Set.List",
           "name": "List",
           "package": "collections-base-instances",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView a list of as a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e collection.\n\u003c/p\u003e\u003cp\u003eThis allows to feed sequences into algorithms that require a Set without building a full-fledged Set.\n Most of the time this will be used only when the parameter list is known to be very small, such that\n conversion to a Set would be to costly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Set.List",
           "name": "SetList",
           "package": "collections-base-instances",
@@ -244,6 +265,7 @@
         "index": {
           "description": "View list of as Set collection This allows to feed sequences into algorithms that require Set without building full-fledged Set Most of the time this will be used only when the parameter list is known to be very small such that conversion to Set would be to costly",
           "hierarchy": "Data Set List",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Set.List",
           "name": "SetList",
           "package": "collections-base-instances",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Set.List",
           "name": "SetList",
           "package": "collections-base-instances",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Data Set List",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Set.List",
           "name": "SetList",
           "package": "collections-base-instances",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:57 UTC 2014",
           "module": "Data.Set.List",
           "name": "fromSetList",
           "package": "collections-base-instances",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Set List",
+          "indexed": "2014-03-11T17:35:57",
           "module": "Data.Set.List",
           "name": "fromSetList",
           "package": "collections-base-instances",

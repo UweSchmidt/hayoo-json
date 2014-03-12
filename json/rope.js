@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rope"
+        "phrase": "rope",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Annotated",
           "package": "rope",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Annotated",
           "package": "rope",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eRope\u003c/code\u003e \u003ccode\u003eAnnotation\u003c/code\u003e product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": ":*:",
           "package": "rope",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Rope Annotation product",
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": ":*:",
           "package": "rope",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": ":\u003c\u003e",
           "package": "rope",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": ":\u003c\u003e",
           "package": "rope",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": ":\u003e",
           "package": "rope",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": ":\u003e",
           "package": "rope",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Ann",
           "package": "rope",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Ann",
           "package": "rope",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Branded",
           "package": "rope",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Branded",
           "package": "rope",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "BreakableAnn",
           "package": "rope",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "BreakableAnn",
           "package": "rope",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Cons",
           "package": "rope",
@@ -172,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Cons",
           "package": "rope",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Drop",
           "package": "rope",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Drop",
           "package": "rope",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Dropped",
           "package": "rope",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Dropped",
           "package": "rope",
@@ -227,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Init",
           "package": "rope",
@@ -235,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Init",
           "package": "rope",
@@ -248,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Inited",
           "package": "rope",
@@ -256,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Inited",
           "package": "rope",
@@ -269,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "MonoidalAnn",
           "package": "rope",
@@ -277,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "MonoidalAnn",
           "package": "rope",
@@ -290,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Nil",
           "package": "rope",
@@ -298,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Nil",
           "package": "rope",
@@ -311,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "PackableAnn",
           "package": "rope",
@@ -319,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "PackableAnn",
           "package": "rope",
@@ -332,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Return",
           "package": "rope",
@@ -340,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Return",
           "package": "rope",
@@ -353,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Snoc",
           "package": "rope",
@@ -361,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Snoc",
           "package": "rope",
@@ -374,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Tail",
           "package": "rope",
@@ -382,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Tail",
           "package": "rope",
@@ -395,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Tailed",
           "package": "rope",
@@ -403,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Tailed",
           "package": "rope",
@@ -416,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Take",
           "package": "rope",
@@ -424,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Take",
           "package": "rope",
@@ -437,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Taken",
           "package": "rope",
@@ -445,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Taken",
           "package": "rope",
@@ -458,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "Unit",
           "package": "rope",
@@ -466,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "Unit",
           "package": "rope",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "append",
           "package": "rope",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "append",
           "normalized": "Ann a b-\u003eAnn a c-\u003eAnn a(b c)",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "break",
           "package": "rope",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003eAnn b c-\u003e(d e Ann b(Take f c)-\u003eAnn b(Drop f c)-\u003eg)-\u003eg",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "cons",
           "package": "rope",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "cons",
           "normalized": "a-\u003eAnn b c-\u003e(d e Ann b(Cons f a c)-\u003eg)-\u003eg",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "drop",
           "package": "rope",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "drop",
           "normalized": "Int-\u003eAnn a b-\u003e(c d Ann a(Drop e b)-\u003ef)-\u003ef",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "dropWhile",
           "package": "rope",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eAnn b c-\u003e(d e Ann b(Drop f c)-\u003eg)-\u003eg",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "empty",
           "package": "rope",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "empty",
           "package": "rope",
@@ -734,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "pack",
           "package": "rope",
@@ -743,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "pack",
           "normalized": "a-\u003e(b c Ann d(Return e)-\u003ef)-\u003ef",
@@ -757,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "runAnn",
           "package": "rope",
@@ -766,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "runAnn",
           "normalized": "Ann a b-\u003e(c d Ann a e-\u003ef)-\u003ef",
@@ -805,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "snoc",
           "package": "rope",
@@ -814,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "snoc",
           "normalized": "Ann a b-\u003ec-\u003e(d e Ann a(Snoc b f c)-\u003eg)-\u003eg",
@@ -828,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "span",
           "package": "rope",
@@ -837,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "span",
           "normalized": "(a-\u003eBool)-\u003eAnn b c-\u003e(d e Ann b(Take f c)-\u003eAnn b(Drop f c)-\u003eg)-\u003eg",
@@ -851,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "splitAt",
           "package": "rope",
@@ -860,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "splitAt",
           "normalized": "Int-\u003eAnn a b-\u003e(c d Ann a(Take e b)-\u003eAnn a(Drop e b)-\u003ef)-\u003ef",
@@ -875,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "take",
           "package": "rope",
@@ -884,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "take",
           "normalized": "Int-\u003eAnn a b-\u003e(c d Ann a(Take e b)-\u003ef)-\u003ef",
@@ -898,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "takeWhile",
           "package": "rope",
@@ -907,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eAnn b c-\u003e(d e Ann b(Take f c)-\u003eg)-\u003eg",
@@ -922,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "uncons",
           "package": "rope",
@@ -931,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "uncons",
           "normalized": "Ann a b-\u003eMaybe(c,Ann a(Tail c b))",
@@ -969,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotated",
           "name": "unsnoc",
           "package": "rope",
@@ -978,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotated",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotated",
           "name": "unsnoc",
           "normalized": "Ann a b-\u003eMaybe(Ann a(Init b c),c)",
@@ -992,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation.Product",
           "name": "Product",
           "package": "rope",
@@ -1000,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotation Product",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation.Product",
           "name": "Product",
           "package": "rope",
@@ -1014,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eRope\u003c/code\u003e \u003ccode\u003eAnnotation\u003c/code\u003e product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation.Product",
           "name": ":*:",
           "package": "rope",
@@ -1023,6 +1100,7 @@
         "index": {
           "description": "Rope Annotation product",
           "hierarchy": "Data Rope Annotation Product",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation.Product",
           "name": ":*:",
           "package": "rope",
@@ -1035,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation.Unit",
           "name": "Unit",
           "package": "rope",
@@ -1043,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotation Unit",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation.Unit",
           "name": "Unit",
           "package": "rope",
@@ -1056,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation.Unit",
           "name": "Unit",
           "package": "rope",
@@ -1064,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotation Unit",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation.Unit",
           "name": "Unit",
           "package": "rope",
@@ -1077,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "Annotation",
           "package": "rope",
@@ -1085,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "Annotation",
           "package": "rope",
@@ -1098,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "BreakableAnn",
           "package": "rope",
@@ -1106,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "BreakableAnn",
           "package": "rope",
@@ -1119,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "MonoidalAnn",
           "package": "rope",
@@ -1127,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "MonoidalAnn",
           "package": "rope",
@@ -1140,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "PackableAnn",
           "package": "rope",
@@ -1148,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "PackableAnn",
           "package": "rope",
@@ -1162,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eappend two annotations, based on their corresponding ropes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "appendAnn",
           "package": "rope",
@@ -1172,6 +1263,7 @@
         "index": {
           "description": "append two annotations based on their corresponding ropes",
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "appendAnn",
           "normalized": "Rope-\u003ea b-\u003eRope-\u003ea c-\u003ea d",
@@ -1188,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRope\u003c/a\u003e\u003c/code\u003e contains n more bytes on the left than the one used to build the \u003ccode\u003eAnnotation\u003c/code\u003e, update the \u003ccode\u003eAnnotation\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "consAnn",
           "package": "rope",
@@ -1198,6 +1291,7 @@
         "index": {
           "description": "The Rope contains more bytes on the left than the one used to build the Annotation update the Annotation",
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "consAnn",
           "normalized": "Int-\u003eRope-\u003ea b-\u003ea c",
@@ -1214,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrop the first n bytes from the \u003ccode\u003eAnnotation\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "dropAnn",
           "package": "rope",
@@ -1224,6 +1319,7 @@
         "index": {
           "description": "drop the first bytes from the Annotation",
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "dropAnn",
           "normalized": "Int-\u003eRope-\u003ea b-\u003ea c",
@@ -1240,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild an empty \u003ccode\u003eAnnotation\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "emptyAnn",
           "package": "rope",
@@ -1250,6 +1347,7 @@
         "index": {
           "description": "build an empty Annotation",
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "emptyAnn",
           "package": "rope",
@@ -1264,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct an \u003ccode\u003eAnnotation\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eRope\u003c/a\u003e\u003c/code\u003e out of whole cloth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "packAnn",
           "package": "rope",
@@ -1274,6 +1373,7 @@
         "index": {
           "description": "construct an Annotation from Rope out of whole cloth",
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "packAnn",
           "normalized": "Rope-\u003ea b",
@@ -1290,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRope\u003c/a\u003e\u003c/code\u003e has been updated to contains n more bytes on the right than the one used to build the \u003ccode\u003eAnnotation\u003c/code\u003e, update the \u003ccode\u003eAnnotation\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "snocAnn",
           "package": "rope",
@@ -1300,6 +1401,7 @@
         "index": {
           "description": "The Rope has been updated to contains more bytes on the right than the one used to build the Annotation update the Annotation",
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "snocAnn",
           "normalized": "Int-\u003eRope-\u003ea b-\u003ea c",
@@ -1316,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit an \u003ccode\u003eAnnotation\u003c/code\u003e about a \u003ccode\u003e\u003ca\u003eRope\u003c/a\u003e\u003c/code\u003e into two annotations, one about the first n bytes, the other about the remainder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "splitAtAnn",
           "package": "rope",
@@ -1326,6 +1429,7 @@
         "index": {
           "description": "split an Annotation about Rope into two annotations one about the first bytes the other about the remainder",
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "splitAtAnn",
           "normalized": "Int-\u003eRope-\u003ea b-\u003e(a c,a d)",
@@ -1342,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etruncate the \u003ccode\u003eAnnotation\u003c/code\u003e to \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Annotation",
           "name": "takeAnn",
           "package": "rope",
@@ -1352,6 +1457,7 @@
         "index": {
           "description": "truncate the Annotation to length",
           "hierarchy": "Data Rope Annotation",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Annotation",
           "name": "takeAnn",
           "normalized": "Int-\u003eRope-\u003ea b-\u003ea c",
@@ -1367,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "Body",
           "package": "rope",
@@ -1375,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "Body",
           "package": "rope",
@@ -1388,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "Body",
           "package": "rope",
@@ -1396,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "Body",
           "package": "rope",
@@ -1409,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "Chunk",
           "package": "rope",
@@ -1417,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "Chunk",
           "package": "rope",
@@ -1430,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "Offset",
           "package": "rope",
@@ -1438,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "Offset",
           "package": "rope",
@@ -1451,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "Chunk",
           "package": "rope",
@@ -1460,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "Chunk",
           "package": "rope",
@@ -1473,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "Offset",
           "package": "rope",
@@ -1482,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "Offset",
           "package": "rope",
@@ -1495,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "consBody",
           "package": "rope",
@@ -1504,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "consBody",
           "normalized": "ByteString-\u003eBody-\u003eBody",
@@ -1519,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "getOffset",
           "package": "rope",
@@ -1528,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "getOffset",
           "package": "rope",
@@ -1541,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "measureBody",
           "package": "rope",
@@ -1550,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "measureBody",
           "normalized": "FingerTree Offset a-\u003eInt",
@@ -1565,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "packBody",
           "package": "rope",
@@ -1574,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "packBody",
           "normalized": "ByteString-\u003eFingerTree Offset Chunk",
@@ -1589,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "snocBody",
           "package": "rope",
@@ -1598,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "snocBody",
           "normalized": "Body-\u003eByteString-\u003eBody",
@@ -1613,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Body",
           "name": "unchunk",
           "package": "rope",
@@ -1622,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Body",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Body",
           "name": "unchunk",
           "package": "rope",
@@ -1634,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded.Comonad",
           "name": "Comonad",
           "package": "rope",
@@ -1642,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded Comonad",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded.Comonad",
           "name": "Comonad",
           "package": "rope",
@@ -1655,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded.Comonad",
           "name": "Comonad",
           "package": "rope",
@@ -1663,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded Comonad",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded.Comonad",
           "name": "Comonad",
           "package": "rope",
@@ -1676,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded.Comonad",
           "name": "duplicate",
           "package": "rope",
@@ -1685,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded Comonad",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded.Comonad",
           "name": "duplicate",
           "normalized": "a b-\u003ea(a b)",
@@ -1699,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded.Comonad",
           "name": "extend",
           "package": "rope",
@@ -1708,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded Comonad",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded.Comonad",
           "name": "extend",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ea c",
@@ -1722,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded.Comonad",
           "name": "extract",
           "package": "rope",
@@ -1731,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded Comonad",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded.Comonad",
           "name": "extract",
           "normalized": "a b-\u003eb",
@@ -1745,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "Branded",
           "package": "rope",
@@ -1753,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "Branded",
           "package": "rope",
@@ -1766,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "Branded",
           "package": "rope",
@@ -1774,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "Branded",
           "package": "rope",
@@ -1787,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "UBR",
           "package": "rope",
@@ -1795,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "UBR",
           "package": "rope",
@@ -1808,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "Unsafe",
           "package": "rope",
@@ -1816,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "Unsafe",
           "package": "rope",
@@ -1829,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "Branded",
           "package": "rope",
@@ -1838,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "Branded",
           "package": "rope",
@@ -1851,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "context",
           "package": "rope",
@@ -1860,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "context",
           "package": "rope",
@@ -1872,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "execBranded",
           "package": "rope",
@@ -1881,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "execBranded",
           "normalized": "Branded a b c-\u003eb",
@@ -1896,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "extractBranded",
           "package": "rope",
@@ -1905,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "extractBranded",
           "package": "rope",
@@ -1918,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Branded",
           "name": "runBranded",
           "package": "rope",
@@ -1927,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Branded",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Branded",
           "name": "runBranded",
           "normalized": "Branded a b c-\u003e(c,b)",
@@ -1942,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "Internal",
           "package": "rope",
@@ -1950,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "Internal",
           "package": "rope",
@@ -1963,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "Breakable",
           "package": "rope",
@@ -1971,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "Breakable",
           "package": "rope",
@@ -1984,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "Packable",
           "package": "rope",
@@ -1992,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "Packable",
           "package": "rope",
@@ -2005,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "Rope",
           "package": "rope",
@@ -2013,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "Rope",
           "package": "rope",
@@ -2026,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "Unpackable",
           "package": "rope",
@@ -2034,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "Unpackable",
           "package": "rope",
@@ -2047,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "Rope",
           "package": "rope",
@@ -2056,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "Rope",
           "package": "rope",
@@ -2069,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "body",
           "package": "rope",
@@ -2078,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "body",
           "package": "rope",
@@ -2090,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "break",
           "package": "rope",
@@ -2099,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003eRope-\u003e(Rope,Rope)",
@@ -2113,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "cons",
           "package": "rope",
@@ -2122,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "cons",
           "normalized": "a-\u003eRope-\u003eRope",
@@ -2160,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "dropWhile",
           "package": "rope",
@@ -2169,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eRope-\u003eRope",
@@ -2206,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "findIndexOrEnd",
           "package": "rope",
@@ -2215,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "findIndexOrEnd",
           "normalized": "(Word-\u003eBool)-\u003eByteString-\u003eInt",
@@ -2405,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "head",
           "package": "rope",
@@ -2414,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "head",
           "normalized": "Rope-\u003ea",
@@ -2428,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "last",
           "package": "rope",
@@ -2437,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "last",
           "normalized": "Rope-\u003ea",
@@ -2499,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "pack",
           "package": "rope",
@@ -2508,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "pack",
           "normalized": "a-\u003eRope",
@@ -2522,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "snoc",
           "package": "rope",
@@ -2531,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "snoc",
           "normalized": "Rope-\u003ea-\u003eRope",
@@ -2545,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "span",
           "package": "rope",
@@ -2554,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "span",
           "normalized": "(a-\u003eBool)-\u003eRope-\u003e(Rope,Rope)",
@@ -2617,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "takeWhile",
           "package": "rope",
@@ -2626,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eRope-\u003eRope",
@@ -2716,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "uncons",
           "package": "rope",
@@ -2725,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "uncons",
           "normalized": "Rope-\u003eMaybe(a,Rope)",
@@ -2739,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "unpack",
           "package": "rope",
@@ -2748,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "unpack",
           "normalized": "Rope-\u003e[a]",
@@ -2762,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "unsnoc",
           "package": "rope",
@@ -2771,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "unsnoc",
           "normalized": "Rope-\u003eMaybe(Rope,a)",
@@ -2785,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Internal",
           "name": "w2c",
           "package": "rope",
@@ -2794,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Internal",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Internal",
           "name": "w2c",
           "normalized": "Word-\u003eChar",
@@ -2808,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "Unsafe",
           "package": "rope",
@@ -2816,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "Unsafe",
           "package": "rope",
@@ -2829,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "Ann",
           "package": "rope",
@@ -2837,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "Ann",
           "package": "rope",
@@ -2850,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "Branded",
           "package": "rope",
@@ -2858,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "Branded",
           "package": "rope",
@@ -2871,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "BreakableAnn",
           "package": "rope",
@@ -2879,6 +3086,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "BreakableAnn",
           "package": "rope",
@@ -2892,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "MonoidalAnn",
           "package": "rope",
@@ -2900,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "MonoidalAnn",
           "package": "rope",
@@ -2913,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "Packable",
           "package": "rope",
@@ -2921,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "Packable",
           "package": "rope",
@@ -2934,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "PackableAnn",
           "package": "rope",
@@ -2942,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "PackableAnn",
           "package": "rope",
@@ -2955,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "Unsafe",
           "package": "rope",
@@ -2963,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "Unsafe",
           "package": "rope",
@@ -2976,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "append",
           "package": "rope",
@@ -2985,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "append",
           "normalized": "Ann a b-\u003eAnn a c-\u003eAnn a Unsafe",
@@ -2999,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "break",
           "package": "rope",
@@ -3008,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003eAnn b c-\u003e(Ann b Unsafe,Ann b Unsafe)",
@@ -3022,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "cons",
           "package": "rope",
@@ -3031,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "cons",
           "normalized": "a-\u003eAnn b c-\u003eAnn b Unsafe",
@@ -3045,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "drop",
           "package": "rope",
@@ -3054,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "drop",
           "normalized": "Int-\u003eAnn a b-\u003eAnn a Unsafe",
@@ -3068,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "dropWhile",
           "package": "rope",
@@ -3077,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eAnn b c-\u003eAnn b Unsafe",
@@ -3092,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "empty",
           "package": "rope",
@@ -3101,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "empty",
           "package": "rope",
@@ -3113,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "pack",
           "package": "rope",
@@ -3122,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "pack",
           "normalized": "a-\u003eAnn b Unsafe",
@@ -3136,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "snoc",
           "package": "rope",
@@ -3145,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "snoc",
           "normalized": "Ann a b-\u003ec-\u003eAnn a Unsafe",
@@ -3159,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "span",
           "package": "rope",
@@ -3168,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "span",
           "normalized": "(a-\u003eBool)-\u003eAnn b c-\u003e(Ann b Unsafe,Ann b Unsafe)",
@@ -3182,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "splitAt",
           "package": "rope",
@@ -3191,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "splitAt",
           "normalized": "Int-\u003eAnn a b-\u003e(Ann a Unsafe,Ann a Unsafe)",
@@ -3206,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "take",
           "package": "rope",
@@ -3215,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "take",
           "normalized": "Int-\u003eAnn a b-\u003eAnn a Unsafe",
@@ -3229,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "takeWhile",
           "package": "rope",
@@ -3238,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eAnn b c-\u003eAnn b Unsafe",
@@ -3253,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "uncons",
           "package": "rope",
@@ -3262,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "uncons",
           "normalized": "Ann a b-\u003eMaybe(c,Ann a Unsafe)",
@@ -3276,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope.Unsafe",
           "name": "unsnoc",
           "package": "rope",
@@ -3285,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Data Rope Unsafe",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope.Unsafe",
           "name": "unsnoc",
           "normalized": "Ann a b-\u003eMaybe(Ann a Unsafe,c)",
@@ -3299,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "Rope",
           "package": "rope",
@@ -3307,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "Rope",
           "package": "rope",
@@ -3320,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "Breakable",
           "package": "rope",
@@ -3328,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "Breakable",
           "package": "rope",
@@ -3341,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "Packable",
           "package": "rope",
@@ -3349,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "Packable",
           "package": "rope",
@@ -3362,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "Rope",
           "package": "rope",
@@ -3370,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "Rope",
           "package": "rope",
@@ -3383,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "Unpackable",
           "package": "rope",
@@ -3391,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "Unpackable",
           "package": "rope",
@@ -3404,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "break",
           "package": "rope",
@@ -3413,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003eRope-\u003e(Rope,Rope)",
@@ -3427,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "cons",
           "package": "rope",
@@ -3436,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "cons",
           "normalized": "a-\u003eRope-\u003eRope",
@@ -3450,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "dropWhile",
           "package": "rope",
@@ -3459,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eRope-\u003eRope",
@@ -3474,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "head",
           "package": "rope",
@@ -3483,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "head",
           "normalized": "Rope-\u003ea",
@@ -3497,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "last",
           "package": "rope",
@@ -3506,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "last",
           "normalized": "Rope-\u003ea",
@@ -3520,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "pack",
           "package": "rope",
@@ -3529,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "pack",
           "normalized": "a-\u003eRope",
@@ -3543,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "snoc",
           "package": "rope",
@@ -3552,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "snoc",
           "normalized": "Rope-\u003ea-\u003eRope",
@@ -3566,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "span",
           "package": "rope",
@@ -3575,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "span",
           "normalized": "(a-\u003eBool)-\u003eRope-\u003e(Rope,Rope)",
@@ -3589,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "takeWhile",
           "package": "rope",
@@ -3598,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eRope-\u003eRope",
@@ -3613,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "uncons",
           "package": "rope",
@@ -3622,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "uncons",
           "normalized": "Rope-\u003eMaybe(a,Rope)",
@@ -3636,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "unpack",
           "package": "rope",
@@ -3645,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "unpack",
           "normalized": "Rope-\u003e[a]",
@@ -3659,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:06 UTC 2014",
           "module": "Data.Rope",
           "name": "unsnoc",
           "package": "rope",
@@ -3668,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T19:55:06",
           "module": "Data.Rope",
           "name": "unsnoc",
           "normalized": "Rope-\u003eMaybe(Rope,a)",

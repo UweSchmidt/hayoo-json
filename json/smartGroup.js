@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "smartGroup"
+        "phrase": "smartGroup",
+        "type": "phrase"
       },
       "type": "context"
     }

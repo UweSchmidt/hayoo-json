@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HipmunkPlayground"
+        "phrase": "HipmunkPlayground",
+        "type": "phrase"
       },
       "type": "context"
     }

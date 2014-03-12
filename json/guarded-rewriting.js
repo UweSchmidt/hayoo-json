@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "guarded-rewriting"
+        "phrase": "guarded-rewriting",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the top module for the rewriting library. All functionality is\n implemented in this module. For examples of how to use the library, see\n the included files in the directory examples, or the benchmark in the\n directory performance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Rewriting",
           "package": "guarded-rewriting",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is the top module for the rewriting library All functionality is implemented in this module For examples of how to use the library see the included files in the directory examples or the benchmark in the directory performance",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Rewriting",
           "package": "guarded-rewriting",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Diffable",
           "package": "guarded-rewriting",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Diff",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Diffable",
           "package": "guarded-rewriting",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level validation for the datatypes to be rewritten: there can be no\n recursive calls on the leftmost constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Empty",
           "package": "guarded-rewriting",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type level validation for the datatypes to be rewritten there can be no recursive calls on the leftmost constructor",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Empty",
           "package": "guarded-rewriting",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchemes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Extensible",
           "package": "guarded-rewriting",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Schemes",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Extensible",
           "package": "guarded-rewriting",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "False",
           "package": "guarded-rewriting",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "False",
           "package": "guarded-rewriting",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Finite",
           "package": "guarded-rewriting",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Finite",
           "package": "guarded-rewriting",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "HasRec",
           "package": "guarded-rewriting",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "HasRec",
           "package": "guarded-rewriting",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatching\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Matchable",
           "package": "guarded-rewriting",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Matching",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Matchable",
           "package": "guarded-rewriting",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Nillable",
           "package": "guarded-rewriting",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Nillable",
           "package": "guarded-rewriting",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRewritable\u003c/a\u003e\u003c/code\u003e class is used to signal types that can be rewritten and \n to ``tie the recursive knot'' of the generic functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Rewritable",
           "package": "guarded-rewriting",
@@ -227,6 +246,7 @@
         "index": {
           "description": "The Rewritable class is used to signal types that can be rewritten and to tie the recursive knot of the generic functions",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Rewritable",
           "package": "guarded-rewriting",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Rule",
           "package": "guarded-rewriting",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Rules",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Rule",
           "package": "guarded-rewriting",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSampling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Sampleable",
           "package": "guarded-rewriting",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Sampling",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Sampleable",
           "package": "guarded-rewriting",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstituting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Substitutable",
           "package": "guarded-rewriting",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Substituting",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Substitutable",
           "package": "guarded-rewriting",
@@ -310,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Template",
           "package": "guarded-rewriting",
@@ -319,6 +346,7 @@
         "index": {
           "description": "Templates",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Template",
           "package": "guarded-rewriting",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "True",
           "package": "guarded-rewriting",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "True",
           "package": "guarded-rewriting",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e allows a concrete representation of a type to\n be calculated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Typeable",
           "package": "guarded-rewriting",
@@ -362,6 +393,7 @@
         "index": {
           "description": "The class Typeable allows concrete representation of type to be calculated",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Typeable",
           "package": "guarded-rewriting",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidating synthesised rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Validatable",
           "package": "guarded-rewriting",
@@ -385,6 +418,7 @@
         "index": {
           "description": "Validating synthesised rules",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Validatable",
           "package": "guarded-rewriting",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "(+-\u003e)",
           "package": "guarded-rewriting",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "(+-\u003e) +-\u003e",
           "normalized": "a-\u003ea-\u003eTemplate a",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "(//)",
           "package": "guarded-rewriting",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "(//) //",
           "normalized": "Template a-\u003eBool-\u003eTemplate a",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "Template",
           "package": "guarded-rewriting",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "Template",
           "package": "guarded-rewriting",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "diff'",
           "package": "guarded-rewriting",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "diff'",
           "normalized": "Ext a b-\u003eExt a b-\u003eMaybe(Ext a(c*b))",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "empty",
           "package": "guarded-rewriting",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "empty",
           "package": "guarded-rewriting",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "empty'",
           "package": "guarded-rewriting",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "empty'",
           "package": "guarded-rewriting",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "hasRec'",
           "package": "guarded-rewriting",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "hasRec'",
           "normalized": "a-\u003eBool",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "left'",
           "package": "guarded-rewriting",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "left'",
           "package": "guarded-rewriting",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "match'",
           "package": "guarded-rewriting",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "match'",
           "normalized": "Ext a b-\u003ea-\u003ec(Subst b)",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "record",
           "package": "guarded-rewriting",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "record",
           "normalized": "Ext a b-\u003eRecord b-\u003eRecord b",
@@ -623,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite a term. The term is unchanged if the rule cannot be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "rewrite",
           "package": "guarded-rewriting",
@@ -633,6 +688,7 @@
         "index": {
           "description": "Rewrite term The term is unchanged if the rule cannot be applied",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "rewrite",
           "normalized": "Rule a-\u003ea-\u003ea",
@@ -648,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite a term. Monad \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e is used if the rule cannot be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "rewriteM",
           "package": "guarded-rewriting",
@@ -658,6 +715,7 @@
         "index": {
           "description": "Rewrite term Monad fail is used if the rule cannot be applied",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "rewriteM",
           "normalized": "Rule a-\u003ea-\u003eb a",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "right'",
           "package": "guarded-rewriting",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "right'",
           "package": "guarded-rewriting",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "subst'",
           "package": "guarded-rewriting",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "subst'",
           "normalized": "Subst a-\u003eExt b a-\u003ec b",
@@ -717,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynthesise a function into a rewrite rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "synthesise",
           "package": "guarded-rewriting",
@@ -727,6 +790,7 @@
         "index": {
           "description": "Synthesise function into rewrite rule",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "synthesise",
           "normalized": "a-\u003eRule(Obj a)",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "toExt",
           "package": "guarded-rewriting",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "toExt",
           "normalized": "a-\u003eExt a U",
@@ -766,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate a rewrite rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:58 UTC 2014",
           "module": "Generics.Instant.Rewriting",
           "name": "validate",
           "package": "guarded-rewriting",
@@ -776,6 +843,7 @@
         "index": {
           "description": "Validate rewrite rule",
           "hierarchy": "Generics Instant Rewriting",
+          "indexed": "2014-03-11T18:23:58",
           "module": "Generics.Instant.Rewriting",
           "name": "validate",
           "normalized": "Rule a-\u003eBool",

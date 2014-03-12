@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec"
+        "phrase": "hspec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to Hspec's internals.  It is less stable than\n other parts of the API.  For most users \u003ca\u003eTest.Hspec\u003c/a\u003e is more suitable!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Core",
           "package": "hspec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides access to Hspec internals It is less stable than other parts of the API For most users Test.Hspec is more suitable",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Core",
           "package": "hspec",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for examples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Example",
           "package": "hspec",
@@ -51,6 +54,7 @@
         "index": {
           "description": "type class for examples",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Example",
           "package": "hspec",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Item",
           "package": "hspec",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Item",
           "package": "hspec",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Params",
           "package": "hspec",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Params",
           "package": "hspec",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Progress",
           "package": "hspec",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Progress",
           "package": "hspec",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of running an example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Result",
           "package": "hspec",
@@ -137,6 +148,7 @@
         "index": {
           "description": "The result of running an example",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Result",
           "package": "hspec",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA writer monad for \u003ccode\u003e\u003ca\u003eSpecTree\u003c/a\u003e\u003c/code\u003e forests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "SpecM",
           "package": "hspec",
@@ -160,6 +173,7 @@
         "index": {
           "description": "writer monad for SpecTree forests",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "SpecM",
           "package": "hspec",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal representation of a spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "SpecTree",
           "package": "hspec",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Internal representation of spec",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "SpecTree",
           "package": "hspec",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use `[SpecTree]` instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Specs",
           "package": "hspec",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Deprecated use SpecTree instead",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Specs",
           "package": "hspec",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Fail",
           "package": "hspec",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Fail",
           "package": "hspec",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Item",
           "package": "hspec",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Item",
           "package": "hspec",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Params",
           "package": "hspec",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Params",
           "package": "hspec",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Pending",
           "package": "hspec",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Pending",
           "package": "hspec",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "SpecGroup",
           "package": "hspec",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "SpecGroup",
           "normalized": "SpecGroup String[SpecTree]",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "SpecItem",
           "package": "hspec",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "SpecItem",
           "package": "hspec",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "Success",
           "package": "hspec",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "Success",
           "package": "hspec",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003edescribe\u003c/code\u003e function combines a list of specs into a larger spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "describe",
           "package": "hspec",
@@ -386,6 +419,7 @@
         "index": {
           "description": "The describe function combines list of specs into larger spec",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "describe",
           "normalized": "String-\u003e[SpecTree]-\u003eSpecTree",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "evaluateExample",
           "package": "hspec",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "evaluateExample",
           "normalized": "a-\u003eParams-\u003e(IO()-\u003eIO())-\u003eIO Result",
@@ -452,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use \u003ccode\u003e\u003ca\u003ehspecWith\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "hHspec",
           "package": "hspec",
@@ -462,6 +499,7 @@
         "index": {
           "description": "Deprecated use hspecWith instead",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "hHspec",
           "normalized": "Handle-\u003e[SpecTree]-\u003eIO Summary",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use \u003ccode\u003e\u003ca\u003ehspec\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "hspec",
           "package": "hspec",
@@ -488,6 +527,7 @@
         "index": {
           "description": "Deprecated use hspec instead",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "hspec",
           "normalized": "[SpecTree]-\u003eIO()",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use \u003ccode\u003e\u003ca\u003ehspecWith\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "hspecB",
           "package": "hspec",
@@ -513,6 +554,7 @@
         "index": {
           "description": "Deprecated use hspecWith instead",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "hspecB",
           "normalized": "[SpecTree]-\u003eIO Bool",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use \u003ccode\u003e\u003ca\u003ehspec\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "hspecX",
           "package": "hspec",
@@ -538,6 +581,7 @@
         "index": {
           "description": "Deprecated use hspec instead",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "hspecX",
           "normalized": "[SpecTree]-\u003eIO()",
@@ -553,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a spec item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "it",
           "package": "hspec",
@@ -563,6 +608,7 @@
         "index": {
           "description": "Create spec item",
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "it",
           "normalized": "String-\u003ea-\u003eSpecTree",
@@ -577,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "itemExample",
           "package": "hspec",
@@ -586,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "itemExample",
           "normalized": "Params-\u003e(IO()-\u003eIO())-\u003eIO Result",
@@ -601,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "itemIsParallelizable",
           "package": "hspec",
@@ -610,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "itemIsParallelizable",
           "package": "hspec",
@@ -623,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "itemRequirement",
           "package": "hspec",
@@ -632,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "itemRequirement",
           "package": "hspec",
@@ -645,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "mapSpecItem",
           "package": "hspec",
@@ -654,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "mapSpecItem",
           "normalized": "(Item-\u003eItem)-\u003eSpec-\u003eSpec",
@@ -669,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "modifyParams",
           "package": "hspec",
@@ -678,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "modifyParams",
           "normalized": "(Params-\u003eParams)-\u003eSpec-\u003eSpec",
@@ -693,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "paramsQuickCheckArgs",
           "package": "hspec",
@@ -702,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "paramsQuickCheckArgs",
           "package": "hspec",
@@ -715,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "paramsReportProgress",
           "package": "hspec",
@@ -724,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "paramsReportProgress",
           "normalized": "Progress-\u003eIO()",
@@ -739,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Core",
           "name": "paramsSmallCheckDepth",
           "package": "hspec",
@@ -748,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Core",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Core",
           "name": "paramsSmallCheckDepth",
           "package": "hspec",
@@ -789,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains formatters that can be used with\n \u003ccode\u003e\u003ca\u003ehspecWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "Formatters",
           "package": "hspec",
@@ -798,6 +861,7 @@
         "index": {
           "description": "This module contains formatters that can be used with hspecWith",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "Formatters",
           "package": "hspec",
@@ -811,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "FailureRecord",
           "package": "hspec",
@@ -819,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "FailureRecord",
           "package": "hspec",
@@ -832,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "FormatM",
           "package": "hspec",
@@ -840,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "FormatM",
           "package": "hspec",
@@ -853,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "Formatter",
           "package": "hspec",
@@ -861,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "Formatter",
           "package": "hspec",
@@ -874,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "IsFormatter",
           "package": "hspec",
@@ -882,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "IsFormatter",
           "package": "hspec",
@@ -895,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "FailureRecord",
           "package": "hspec",
@@ -904,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "FailureRecord",
           "package": "hspec",
@@ -917,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "Formatter",
           "package": "hspec",
@@ -926,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "Formatter",
           "package": "hspec",
@@ -940,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluated after each failed example\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "exampleFailed",
           "package": "hspec",
@@ -950,6 +1027,7 @@
         "index": {
           "description": "evaluated after each failed example",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "exampleFailed",
           "normalized": "Path-\u003eEither SomeException String-\u003eFormatM()",
@@ -965,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "exampleGroupDone",
           "package": "hspec",
@@ -974,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "exampleGroupDone",
           "normalized": "FormatM()",
@@ -990,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluated before each test group\n\u003c/p\u003e\u003cp\u003eThe given number indicates the position within the parent group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "exampleGroupStarted",
           "package": "hspec",
@@ -1000,6 +1081,7 @@
         "index": {
           "description": "evaluated before each test group The given number indicates the position within the parent group",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "exampleGroupStarted",
           "normalized": "Int-\u003e[String]-\u003eString-\u003eFormatM()",
@@ -1016,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluated after each pending example\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "examplePending",
           "package": "hspec",
@@ -1026,6 +1109,7 @@
         "index": {
           "description": "evaluated after each pending example",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "examplePending",
           "normalized": "Path-\u003eMaybe String-\u003eFormatM()",
@@ -1042,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused to notify the progress of the currently evaluated example\n\u003c/p\u003e\u003cp\u003eNOTE: This is only called when interactive/color mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "exampleProgress",
           "package": "hspec",
@@ -1052,6 +1137,7 @@
         "index": {
           "description": "used to notify the progress of the currently evaluated example NOTE This is only called when interactive color mode",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "exampleProgress",
           "normalized": "Handle-\u003ePath-\u003eProgress-\u003eIO()",
@@ -1068,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluated after each successful example\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "exampleSucceeded",
           "package": "hspec",
@@ -1078,6 +1165,7 @@
         "index": {
           "description": "evaluated after each successful example",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "exampleSucceeded",
           "normalized": "Path-\u003eFormatM()",
@@ -1094,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluated after a test run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "failedFormatter",
           "package": "hspec",
@@ -1104,6 +1193,7 @@
         "index": {
           "description": "evaluated after test run",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "failedFormatter",
           "normalized": "FormatM()",
@@ -1119,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "failed_examples",
           "package": "hspec",
@@ -1128,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "failed_examples",
           "package": "hspec",
@@ -1140,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "failureRecordMessage",
           "package": "hspec",
@@ -1149,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "failureRecordMessage",
           "package": "hspec",
@@ -1162,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "failureRecordPath",
           "package": "hspec",
@@ -1171,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "failureRecordPath",
           "package": "hspec",
@@ -1185,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluated after \u003ccode\u003efailuresFormatter\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "footerFormatter",
           "package": "hspec",
@@ -1195,6 +1292,7 @@
         "index": {
           "description": "evaluated after failuresFormatter",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "footerFormatter",
           "normalized": "FormatM()",
@@ -1211,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an exception to a string.\n\u003c/p\u003e\u003cp\u003eThe type of the exception is included.  Here is an example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Control.Applicative\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Control.Exception\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeither formatException show \u003c$\u003e (try . evaluate) (1 `div` 0)\n\u003c/code\u003e\u003c/strong\u003e\"ArithException (divide by zero)\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "formatException",
           "package": "hspec",
@@ -1221,6 +1320,7 @@
         "index": {
           "description": "Convert an exception to string The type of the exception is included Here is an example import Control.Applicative import Control.Exception either formatException show try evaluate div ArithException divide by zero",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "formatException",
           "normalized": "SomeException-\u003eString",
@@ -1237,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the used CPU time since the test run has been started.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "getCPUTime",
           "package": "hspec",
@@ -1247,6 +1348,7 @@
         "index": {
           "description": "Get the used CPU time since the test run has been started",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "getCPUTime",
           "package": "hspec",
@@ -1261,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of failed examples encountered so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "getFailCount",
           "package": "hspec",
@@ -1271,6 +1374,7 @@
         "index": {
           "description": "Get the number of failed examples encountered so far",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "getFailCount",
           "package": "hspec",
@@ -1285,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of accumulated failure messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "getFailMessages",
           "package": "hspec",
@@ -1295,6 +1400,7 @@
         "index": {
           "description": "Get the list of accumulated failure messages",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "getFailMessages",
           "normalized": "FormatM[FailureRecord]",
@@ -1311,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of pending examples encountered so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "getPendingCount",
           "package": "hspec",
@@ -1321,6 +1428,7 @@
         "index": {
           "description": "Get the number of pending examples encountered so far",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "getPendingCount",
           "package": "hspec",
@@ -1335,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the passed real time since the test run has been started.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "getRealTime",
           "package": "hspec",
@@ -1345,6 +1454,7 @@
         "index": {
           "description": "Get the passed real time since the test run has been started",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "getRealTime",
           "package": "hspec",
@@ -1359,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of successful examples encountered so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "getSuccessCount",
           "package": "hspec",
@@ -1369,6 +1480,7 @@
         "index": {
           "description": "Get the number of successful examples encountered so far",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "getSuccessCount",
           "package": "hspec",
@@ -1383,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the total number of examples encountered so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "getTotalCount",
           "package": "hspec",
@@ -1393,6 +1506,7 @@
         "index": {
           "description": "Get the total number of examples encountered so far",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "getTotalCount",
           "package": "hspec",
@@ -1406,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "headerFormatter",
           "package": "hspec",
@@ -1415,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "headerFormatter",
           "normalized": "FormatM()",
@@ -1431,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend an empty line to the report.\n\u003c/p\u003e\u003cp\u003eCalling this multiple times has the same effect as calling it once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "newParagraph",
           "package": "hspec",
@@ -1441,6 +1558,7 @@
         "index": {
           "description": "Append an empty line to the report Calling this multiple times has the same effect as calling it once",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "newParagraph",
           "normalized": "FormatM()",
@@ -1456,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "progress",
           "package": "hspec",
@@ -1465,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "progress",
           "package": "hspec",
@@ -1477,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "silent",
           "package": "hspec",
@@ -1486,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "silent",
           "package": "hspec",
@@ -1498,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "specdoc",
           "package": "hspec",
@@ -1507,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "specdoc",
           "package": "hspec",
@@ -1519,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "toFormatter",
           "package": "hspec",
@@ -1528,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "toFormatter",
           "normalized": "a-\u003eIO Formatter",
@@ -1544,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe random seed that is used for QuickCheck.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "usedSeed",
           "package": "hspec",
@@ -1554,6 +1681,7 @@
         "index": {
           "description": "The random seed that is used for QuickCheck",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "usedSeed",
           "package": "hspec",
@@ -1568,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet output color to red, run given action, and finally restore the default\n color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "withFailColor",
           "package": "hspec",
@@ -1578,6 +1707,7 @@
         "index": {
           "description": "Set output color to red run given action and finally restore the default color",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "withFailColor",
           "normalized": "FormatM a-\u003eFormatM a",
@@ -1594,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet output color to yellow, run given action, and finally restore the\n default color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "withPendingColor",
           "package": "hspec",
@@ -1604,6 +1735,7 @@
         "index": {
           "description": "Set output color to yellow run given action and finally restore the default color",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "withPendingColor",
           "normalized": "FormatM a-\u003eFormatM a",
@@ -1620,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet output to color green, run given action, and finally restore the\n default color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "withSuccessColor",
           "package": "hspec",
@@ -1630,6 +1763,7 @@
         "index": {
           "description": "Set output to color green run given action and finally restore the default color",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "withSuccessColor",
           "normalized": "FormatM a-\u003eFormatM a",
@@ -1646,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend some output to the report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "write",
           "package": "hspec",
@@ -1656,6 +1791,7 @@
         "index": {
           "description": "Append some output to the report",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "write",
           "normalized": "String-\u003eFormatM()",
@@ -1671,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003ewrite\u003c/a\u003e\u003c/code\u003e, but adds a newline character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Formatters",
           "name": "writeLine",
           "package": "hspec",
@@ -1681,6 +1818,7 @@
         "index": {
           "description": "The same as write but adds newline character",
           "hierarchy": "Test Hspec Formatters",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Formatters",
           "name": "writeLine",
           "normalized": "String-\u003eFormatM()",
@@ -1696,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.HUnit",
           "name": "HUnit",
           "package": "hspec",
@@ -1704,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec HUnit",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.HUnit",
           "name": "HUnit",
           "package": "hspec",
@@ -1718,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a HUnit test suite to a spec.  This can be used to run existing\n HUnit tests with Hspec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.HUnit",
           "name": "fromHUnitTest",
           "package": "hspec",
@@ -1728,6 +1869,7 @@
         "index": {
           "description": "Convert HUnit test suite to spec This can be used to run existing HUnit tests with Hspec",
           "hierarchy": "Test Hspec HUnit",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.HUnit",
           "name": "fromHUnitTest",
           "normalized": "Test-\u003eSpec",
@@ -1744,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use \u003ca\u003eTest.Hspec\u003c/a\u003e, \u003ca\u003eTest.Hspec.Runner\u003c/a\u003e or \u003ca\u003eTest.Hspec.Core\u003c/a\u003e instead\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "Monadic",
           "package": "hspec",
@@ -1753,6 +1896,7 @@
         "index": {
           "description": "Deprecated use Test.Hspec Test.Hspec.Runner or Test.Hspec.Core instead",
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "Monadic",
           "package": "hspec",
@@ -1767,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for examples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "Example",
           "package": "hspec",
@@ -1776,6 +1921,7 @@
         "index": {
           "description": "type class for examples",
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "Example",
           "package": "hspec",
@@ -1789,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "Spec",
           "package": "hspec",
@@ -1797,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "Spec",
           "package": "hspec",
@@ -1810,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "Specs",
           "package": "hspec",
@@ -1818,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "Specs",
           "package": "hspec",
@@ -1832,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummary of a test run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "Summary",
           "package": "hspec",
@@ -1841,6 +1992,7 @@
         "index": {
           "description": "Summary of test run",
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "Summary",
           "package": "hspec",
@@ -1929,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "descriptions",
           "package": "hspec",
@@ -1938,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "descriptions",
           "normalized": "[Spec]-\u003eSpec",
@@ -1952,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "hHspec",
           "package": "hspec",
@@ -1961,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "hHspec",
           "normalized": "Handle-\u003eSpec-\u003eIO Summary",
@@ -2002,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "hspecB",
           "package": "hspec",
@@ -2011,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "hspecB",
           "normalized": "Spec-\u003eIO Bool",
@@ -2025,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Monadic",
           "name": "hspecX",
           "package": "hspec",
@@ -2034,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Monadic",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Monadic",
           "name": "hspecX",
           "normalized": "Spec-\u003eIO()",
@@ -2144,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.QuickCheck",
           "name": "QuickCheck",
           "package": "hspec",
@@ -2152,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec QuickCheck",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.QuickCheck",
           "name": "QuickCheck",
           "package": "hspec",
@@ -2166,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a modified \u003ccode\u003e\u003ca\u003emaxDiscardRatio\u003c/a\u003e\u003c/code\u003e for given spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.QuickCheck",
           "name": "modifyMaxDiscardRatio",
           "package": "hspec",
@@ -2176,6 +2339,7 @@
         "index": {
           "description": "Use modified maxDiscardRatio for given spec",
           "hierarchy": "Test Hspec QuickCheck",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.QuickCheck",
           "name": "modifyMaxDiscardRatio",
           "normalized": "(Int-\u003eInt)-\u003eSpec-\u003eSpec",
@@ -2192,6 +2356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a modified \u003ccode\u003e\u003ca\u003emaxSize\u003c/a\u003e\u003c/code\u003e for given spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.QuickCheck",
           "name": "modifyMaxSize",
           "package": "hspec",
@@ -2202,6 +2367,7 @@
         "index": {
           "description": "Use modified maxSize for given spec",
           "hierarchy": "Test Hspec QuickCheck",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.QuickCheck",
           "name": "modifyMaxSize",
           "normalized": "(Int-\u003eInt)-\u003eSpec-\u003eSpec",
@@ -2218,6 +2384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a modified \u003ccode\u003e\u003ca\u003emaxSuccess\u003c/a\u003e\u003c/code\u003e for given spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.QuickCheck",
           "name": "modifyMaxSuccess",
           "package": "hspec",
@@ -2228,6 +2395,7 @@
         "index": {
           "description": "Use modified maxSuccess for given spec",
           "hierarchy": "Test Hspec QuickCheck",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.QuickCheck",
           "name": "modifyMaxSuccess",
           "normalized": "(Int-\u003eInt)-\u003eSpec-\u003eSpec",
@@ -2244,6 +2412,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e prop \"..\" $\n   ..\n\u003c/pre\u003e\u003cp\u003eis a shortcut for\n\u003c/p\u003e\u003cpre\u003e it \"..\" $ property $\n   ..\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.QuickCheck",
           "name": "prop",
           "package": "hspec",
@@ -2254,6 +2423,7 @@
         "index": {
           "description": "prop is shortcut for it property",
           "hierarchy": "Test Hspec QuickCheck",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.QuickCheck",
           "name": "prop",
           "normalized": "String-\u003ea-\u003eSpec",
@@ -2268,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.QuickCheck",
           "name": "property",
           "package": "hspec",
@@ -2276,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec QuickCheck",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.QuickCheck",
           "name": "property",
           "normalized": "a-\u003eProperty",
@@ -2290,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "Runner",
           "package": "hspec",
@@ -2298,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "Runner",
           "package": "hspec",
@@ -2311,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "ColorMode",
           "package": "hspec",
@@ -2319,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "ColorMode",
           "package": "hspec",
@@ -2332,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "Config",
           "package": "hspec",
@@ -2340,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "Config",
           "package": "hspec",
@@ -2354,6 +2532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple that represents the location of an example within a spec.\n\u003c/p\u003e\u003cp\u003eIt consists of a list of group descriptions and a requirement description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "Path",
           "package": "hspec",
@@ -2363,6 +2542,7 @@
         "index": {
           "description": "tuple that represents the location of an example within spec It consists of list of group descriptions and requirement description",
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "Path",
           "package": "hspec",
@@ -2377,6 +2557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummary of a test run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "Summary",
           "package": "hspec",
@@ -2386,6 +2567,7 @@
         "index": {
           "description": "Summary of test run",
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "Summary",
           "package": "hspec",
@@ -2399,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "ColorAlways",
           "package": "hspec",
@@ -2408,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "ColorAlways",
           "package": "hspec",
@@ -2421,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "ColorAuto",
           "package": "hspec",
@@ -2430,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "ColorAuto",
           "package": "hspec",
@@ -2443,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "ColorNever",
           "package": "hspec",
@@ -2452,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "ColorNever",
           "package": "hspec",
@@ -2465,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "Config",
           "package": "hspec",
@@ -2474,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "Config",
           "package": "hspec",
@@ -2488,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a filter predicate to config.  If there is already a filter predicate,\n then combine them with \u003ccode\u003e\u003ca\u003e||\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configAddFilter",
           "package": "hspec",
@@ -2498,6 +2689,7 @@
         "index": {
           "description": "Add filter predicate to config If there is already filter predicate then combine them with",
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configAddFilter",
           "normalized": "(Path-\u003eBool)-\u003eConfig-\u003eConfig",
@@ -2513,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configColorMode",
           "package": "hspec",
@@ -2522,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configColorMode",
           "package": "hspec",
@@ -2535,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configDryRun",
           "package": "hspec",
@@ -2544,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configDryRun",
           "package": "hspec",
@@ -2557,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configFastFail",
           "package": "hspec",
@@ -2566,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configFastFail",
           "package": "hspec",
@@ -2580,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that is used to filter the spec before it is run.  Only examples\n that satisfy the predicate are run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configFilterPredicate",
           "package": "hspec",
@@ -2590,6 +2789,7 @@
         "index": {
           "description": "predicate that is used to filter the spec before it is run Only examples that satisfy the predicate are run",
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configFilterPredicate",
           "normalized": "Maybe(Path-\u003eBool)",
@@ -2605,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configFormatter",
           "package": "hspec",
@@ -2614,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configFormatter",
           "package": "hspec",
@@ -2627,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configHandle",
           "package": "hspec",
@@ -2636,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configHandle",
           "package": "hspec",
@@ -2649,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configHtmlOutput",
           "package": "hspec",
@@ -2658,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configHtmlOutput",
           "package": "hspec",
@@ -2671,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configPrintCpuTime",
           "package": "hspec",
@@ -2680,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configPrintCpuTime",
           "package": "hspec",
@@ -2693,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configQuickCheckArgs",
           "package": "hspec",
@@ -2702,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configQuickCheckArgs",
           "package": "hspec",
@@ -2715,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "configSmallCheckDepth",
           "package": "hspec",
@@ -2724,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "configSmallCheckDepth",
           "package": "hspec",
@@ -2737,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "defaultConfig",
           "package": "hspec",
@@ -2746,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "defaultConfig",
           "package": "hspec",
@@ -2760,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun given spec and returns a summary of the test run.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: \u003ccode\u003e\u003ca\u003ehspecResult\u003c/a\u003e\u003c/code\u003e does not exit with \u003ccode\u003e\u003ca\u003eexitFailure\u003c/a\u003e\u003c/code\u003e on failing spec\n items.  If you need this, you have to check the \u003ccode\u003e\u003ca\u003eSummary\u003c/a\u003e\u003c/code\u003e yourself and act\n accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "hspecResult",
           "package": "hspec",
@@ -2770,6 +2985,7 @@
         "index": {
           "description": "Run given spec and returns summary of the test run Note hspecResult does not exit with exitFailure on failing spec items If you need this you have to check the Summary yourself and act accordingly",
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "hspecResult",
           "normalized": "Spec-\u003eIO Summary",
@@ -2786,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun given spec with custom options and returns a summary of the test run.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: \u003ccode\u003e\u003ca\u003ehspecWith\u003c/a\u003e\u003c/code\u003e does not exit with \u003ccode\u003e\u003ca\u003eexitFailure\u003c/a\u003e\u003c/code\u003e on failing spec\n items.  If you need this, you have to check the \u003ccode\u003e\u003ca\u003eSummary\u003c/a\u003e\u003c/code\u003e yourself and act\n accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "hspecWith",
           "package": "hspec",
@@ -2796,6 +3013,7 @@
         "index": {
           "description": "Run given spec with custom options and returns summary of the test run Note hspecWith does not exit with exitFailure on failing spec items If you need this you have to check the Summary yourself and act accordingly",
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "hspecWith",
           "normalized": "Config-\u003eSpec-\u003eIO Summary",
@@ -2812,6 +3030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is used by \u003ccode\u003ehspec-discover\u003c/code\u003e.  It is not part of the public\n API and may change at any time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec.Runner",
           "name": "hspecWithFormatter",
           "package": "hspec",
@@ -2822,6 +3041,7 @@
         "index": {
           "description": "This function is used by hspec-discover It is not part of the public API and may change at any time",
           "hierarchy": "Test Hspec Runner",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec.Runner",
           "name": "hspecWithFormatter",
           "normalized": "a-\u003eSpec-\u003eIO()",
@@ -2838,6 +3058,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHspec is a testing library for Haskell.\n\u003c/p\u003e\u003cp\u003eThis is the library reference for Hspec.\n The \u003ca\u003eUser's Manual\u003c/a\u003e contains more in-depth\n documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "Hspec",
           "package": "hspec",
@@ -2847,6 +3068,7 @@
         "index": {
           "description": "Hspec is testing library for Haskell This is the library reference for Hspec The User Manual contains more in-depth documentation",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "Hspec",
           "package": "hspec",
@@ -2861,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for examples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "Example",
           "package": "hspec",
@@ -2870,6 +3093,7 @@
         "index": {
           "description": "type class for examples",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "Example",
           "package": "hspec",
@@ -2883,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "Spec",
           "package": "hspec",
@@ -2891,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "Spec",
           "package": "hspec",
@@ -2905,6 +3131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a custom action after every spec item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "after",
           "package": "hspec",
@@ -2915,6 +3142,7 @@
         "index": {
           "description": "Run custom action after every spec item",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "after",
           "normalized": "IO()-\u003eSpec-\u003eSpec",
@@ -2930,6 +3158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a custom action before and/or after every spec item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "around",
           "package": "hspec",
@@ -2940,6 +3169,7 @@
         "index": {
           "description": "Run custom action before and or after every spec item",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "around",
           "normalized": "(IO()-\u003eIO())-\u003eSpec-\u003eSpec",
@@ -2955,6 +3185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a custom action before every spec item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "before",
           "package": "hspec",
@@ -2965,6 +3196,7 @@
         "index": {
           "description": "Run custom action before every spec item",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "before",
           "normalized": "IO()-\u003eSpec-\u003eSpec",
@@ -2980,6 +3212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a type restricted version of \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e.  It can be used to get better\n error messages on type mismatches.\n\u003c/p\u003e\u003cp\u003eCompare e.g.\n\u003c/p\u003e\u003cpre\u003e it \"exposes some behavior\" $ example $ do\n   putStrLn\n\u003c/pre\u003e\u003cp\u003ewith\n\u003c/p\u003e\u003cpre\u003e it \"exposes some behavior\" $ do\n   putStrLn\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "example",
           "package": "hspec",
@@ -2990,6 +3223,7 @@
         "index": {
           "description": "This is type restricted version of id It can be used to get better error messages on type mismatches Compare e.g it exposes some behavior example do putStrLn with it exposes some behavior do putStrLn",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "example",
           "normalized": "Expectation-\u003eExpectation",
@@ -3005,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun examples of given spec in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "parallel",
           "package": "hspec",
@@ -3015,6 +3250,7 @@
         "index": {
           "description": "Run examples of given spec in parallel",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "parallel",
           "normalized": "Spec-\u003eSpec",
@@ -3030,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies a pending example with a reason for why it's pending.\n\u003c/p\u003e\u003cpre\u003e describe \"fancyFormatter\" $ do\n   it \"can format text in a way that everyone likes\" $\n     pendingWith \"waiting for clarification from the designers\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:43 UTC 2014",
           "module": "Test.Hspec",
           "name": "pendingWith",
           "package": "hspec",
@@ -3040,6 +3277,7 @@
         "index": {
           "description": "Specifies pending example with reason for why it pending describe fancyFormatter do it can format text in way that everyone likes pendingWith waiting for clarification from the designers",
           "hierarchy": "Test Hspec",
+          "indexed": "2014-03-11T18:49:43",
           "module": "Test.Hspec",
           "name": "pendingWith",
           "normalized": "String-\u003eExpectation",

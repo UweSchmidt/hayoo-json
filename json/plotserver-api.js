@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "plotserver-api"
+        "phrase": "plotserver-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Api",
           "name": "Api",
           "package": "plotserver-api",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Api",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Api",
           "name": "Api",
           "package": "plotserver-api",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Api",
           "name": "plotCat",
           "package": "plotserver-api",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Api",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Api",
           "name": "plotCat",
           "normalized": "PlotConfig-\u003eString-\u003eIO(Either String PlotData)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Api",
           "name": "plotDelete",
           "package": "plotserver-api",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Api",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Api",
           "name": "plotDelete",
           "normalized": "PlotConfig-\u003eString-\u003eIO(Either String PlotData)",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Api",
           "name": "plotUpdate",
           "package": "plotserver-api",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Api",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Api",
           "name": "plotUpdate",
           "normalized": "PlotConfig-\u003eString-\u003ePlotDataRow-\u003eIO(Either String PlotData)",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Api",
           "name": "plotUrl",
           "package": "plotserver-api",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Api",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Api",
           "name": "plotUrl",
           "normalized": "PlotConfig-\u003eString-\u003eString",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "Types",
           "package": "plotserver-api",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "Types",
           "package": "plotserver-api",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "PlotConfig",
           "package": "plotserver-api",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "PlotConfig",
           "package": "plotserver-api",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "PlotData",
           "package": "plotserver-api",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "PlotData",
           "package": "plotserver-api",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "PlotDataRow",
           "package": "plotserver-api",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "PlotDataRow",
           "package": "plotserver-api",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "PlotConfig",
           "package": "plotserver-api",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "PlotConfig",
           "package": "plotserver-api",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "PlotData",
           "package": "plotserver-api",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "PlotData",
           "normalized": "PlotData[PlotDataRow]",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "password",
           "package": "plotserver-api",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "password",
           "package": "plotserver-api",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "server",
           "package": "plotserver-api",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "server",
           "package": "plotserver-api",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:15 UTC 2014",
           "module": "Plotserver.Types",
           "name": "username",
           "package": "plotserver-api",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Plotserver Types",
+          "indexed": "2014-03-11T19:40:15",
           "module": "Plotserver.Types",
           "name": "username",
           "package": "plotserver-api",

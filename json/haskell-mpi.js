@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-mpi"
+        "phrase": "haskell-mpi",
+        "type": "phrase"
       },
       "type": "context"
     }

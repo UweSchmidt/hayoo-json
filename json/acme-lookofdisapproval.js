@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-lookofdisapproval"
+        "phrase": "acme-lookofdisapproval",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:16 UTC 2014",
           "module": "Acme.LookOfDisapproval",
           "name": "LookOfDisapproval",
           "package": "acme-lookofdisapproval",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Acme LookOfDisapproval",
+          "indexed": "2014-03-11T17:07:16",
           "module": "Acme.LookOfDisapproval",
           "name": "LookOfDisapproval",
           "package": "acme-lookofdisapproval",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop and display an error message. Exactly as \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:16 UTC 2014",
           "module": "Acme.LookOfDisapproval",
           "name": "ಠ_ಠ",
           "package": "acme-lookofdisapproval",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Stop and display an error message Exactly as error does",
           "hierarchy": "Acme LookOfDisapproval",
+          "indexed": "2014-03-11T17:07:16",
           "module": "Acme.LookOfDisapproval",
           "name": "ಠ_ಠ",
           "normalized": "String-\u003ea",

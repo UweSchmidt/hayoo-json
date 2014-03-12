@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "while-lang-parser"
+        "phrase": "while-lang-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides parsing of while-language code.\n Supports reading either a file or stdin, resulting in an AST.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Parser",
           "name": "Parser",
           "package": "while-lang-parser",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides parsing of while-language code Supports reading either file or stdin resulting in an AST",
           "hierarchy": "Language While Parser",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Parser",
           "name": "Parser",
           "package": "while-lang-parser",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the specified file and return either failure or the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Parser",
           "name": "loadFile",
           "package": "while-lang-parser",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Parse the specified file and return either failure or the program",
           "hierarchy": "Language While Parser",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Parser",
           "name": "loadFile",
           "normalized": "FilePath-\u003eIO(Either String Stm)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse stdin and return either failure or the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Parser",
           "name": "loadStdin",
           "package": "while-lang-parser",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Parse stdin and return either failure or the program",
           "hierarchy": "Language While Parser",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Parser",
           "name": "loadStdin",
           "package": "while-lang-parser",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides shared type definitions forming the parsed AST.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Types",
           "package": "while-lang-parser",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Provides shared type definitions forming the parsed AST",
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Types",
           "package": "while-lang-parser",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArithmetic expressions, including integer division.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Aexp",
           "package": "while-lang-parser",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Arithmetic expressions including integer division",
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Aexp",
           "package": "while-lang-parser",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Bexp",
           "package": "while-lang-parser",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Boolean expressions",
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Bexp",
           "package": "while-lang-parser",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatements, including try-catch clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Stm",
           "package": "while-lang-parser",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Statements including try-catch clauses",
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Stm",
           "package": "while-lang-parser",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables type alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Varname",
           "package": "while-lang-parser",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Variables type alias",
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Varname",
           "package": "while-lang-parser",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Aadd",
           "package": "while-lang-parser",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Aadd",
           "package": "while-lang-parser",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Adiv",
           "package": "while-lang-parser",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Adiv",
           "package": "while-lang-parser",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Amul",
           "package": "while-lang-parser",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Amul",
           "package": "while-lang-parser",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Asub",
           "package": "while-lang-parser",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Asub",
           "package": "while-lang-parser",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Band",
           "package": "while-lang-parser",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Band",
           "package": "while-lang-parser",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Beq",
           "package": "while-lang-parser",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Beq",
           "package": "while-lang-parser",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Bfalse",
           "package": "while-lang-parser",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Bfalse",
           "package": "while-lang-parser",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Bleq",
           "package": "while-lang-parser",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Bleq",
           "package": "while-lang-parser",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Bneg",
           "package": "while-lang-parser",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Bneg",
           "package": "while-lang-parser",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Btrue",
           "package": "while-lang-parser",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Btrue",
           "package": "while-lang-parser",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Numeral",
           "package": "while-lang-parser",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Numeral",
           "package": "while-lang-parser",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Sass",
           "package": "while-lang-parser",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Sass",
           "package": "while-lang-parser",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Scomp",
           "package": "while-lang-parser",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Scomp",
           "package": "while-lang-parser",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Sif",
           "package": "while-lang-parser",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Sif",
           "package": "while-lang-parser",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Sskip",
           "package": "while-lang-parser",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Sskip",
           "package": "while-lang-parser",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Stry",
           "package": "while-lang-parser",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Stry",
           "package": "while-lang-parser",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Swhile",
           "package": "while-lang-parser",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Swhile",
           "package": "while-lang-parser",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:55 UTC 2014",
           "module": "Language.While.Types",
           "name": "Variable",
           "package": "while-lang-parser",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Language While Types",
+          "indexed": "2014-03-11T20:38:55",
           "module": "Language.While.Types",
           "name": "Variable",
           "package": "while-lang-parser",

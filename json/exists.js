@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "exists"
+        "phrase": "exists",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a type-level combinator for combining constraint constructors.\n\u003c/p\u003e\u003cp\u003eThis is useful because you can't otherwise write an \u003ccode\u003e\u003ccode\u003e\u003ca\u003eExists\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e type or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eExistential\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance referencing more than one at the same time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Control.Constraint.Combine",
           "name": "Combine",
           "package": "exists",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains type-level combinator for combining constraint constructors This is useful because you can otherwise write an Exists type or Existential instance referencing more than one at the same time",
           "hierarchy": "Control Constraint Combine",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Control.Constraint.Combine",
           "name": "Combine",
           "package": "exists",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two constraint constructors of kind \u003ccode\u003e&#967; -\u003e \u003ccode\u003e\u003ca\u003eConstraint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, where \u003ccode\u003e&#967;\u003c/code\u003e is any kind.\n\u003c/p\u003e\u003cp\u003eThis is the same as\n\u003c/p\u003e\u003cpre\u003e type (c :&: d) a = (c a, d a)\n\u003c/pre\u003e\u003cp\u003eexcept that it can be partially applied.\n\u003c/p\u003e\u003cpre\u003e f :: ((Eq :&: Enum :&: Bounded) a) =\u003e a -\u003e Bool\n\u003c/pre\u003e\u003cp\u003eis equivalent to\n\u003c/p\u003e\u003cpre\u003e f :: (Eq a, Enum a, Bounded a) =\u003e a -\u003e Bool\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Control.Constraint.Combine",
           "name": ":&:",
           "package": "exists",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Combine two constraint constructors of kind Constraint where is any kind This is the same as type except that it can be partially applied Eq Enum Bounded Bool is equivalent to Eq Enum Bounded Bool",
           "hierarchy": "Control Constraint Combine",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Control.Constraint.Combine",
           "name": ":&:",
           "package": "exists",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ccode\u003e\u003ca\u003e:&:\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Control.Constraint.Combine",
           "name": "And",
           "package": "exists",
@@ -73,6 +78,7 @@
         "index": {
           "description": "The same as",
           "hierarchy": "Control Constraint Combine",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Control.Constraint.Combine",
           "name": "And",
           "package": "exists",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty constraint, which implies nothing.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003e:&:\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEmpty\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e form a type-level monoid with \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEmpty\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e as the identity element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Control.Constraint.Combine",
           "name": "Empty",
           "package": "exists",
@@ -96,6 +103,7 @@
         "index": {
           "description": "An empty constraint which implies nothing and Empty form type-level monoid with Empty as the identity element",
           "hierarchy": "Control Constraint Combine",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Control.Constraint.Combine",
           "name": "Empty",
           "package": "exists",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseless existential datatypes holding evidence of no constraint.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Anything",
           "name": "Anything",
           "package": "exists",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Useless existential datatypes holding evidence of no constraint",
           "hierarchy": "Data Anything",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Anything",
           "name": "Anything",
           "package": "exists",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype containing anything. You can't do anything with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Anything",
           "name": "Anything",
           "package": "exists",
@@ -142,6 +153,7 @@
         "index": {
           "description": "datatype containing anything You can do anything with it",
           "hierarchy": "Data Anything",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Anything",
           "name": "Anything",
           "package": "exists",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype containing any \u003ccode\u003e* -\u003e *\u003c/code\u003e kinded type constructor applied to \u003ccode\u003ea\u003c/code\u003e. You can't do anything with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Anything",
           "name": "Anything1",
           "package": "exists",
@@ -165,6 +178,7 @@
         "index": {
           "description": "datatype containing any kinded type constructor applied to You can do anything with it",
           "hierarchy": "Data Anything",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Anything",
           "name": "Anything1",
           "package": "exists",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Anything",
           "name": "Anything",
           "package": "exists",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data Anything",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Anything",
           "name": "Anything",
           "normalized": "a-\u003eAnything",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Anything",
           "name": "Anything1",
           "package": "exists",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Anything",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Anything",
           "name": "Anything1",
           "normalized": "a b-\u003eAnything b",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCPS-transformed versions of \u003ccode\u003eExists\u003c/code\u003e and \u003ccode\u003eExists1\u003c/code\u003e, provided for completeness and curiosity.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.CPS",
           "name": "CPS",
           "package": "exists",
@@ -236,6 +255,7 @@
         "index": {
           "description": "CPS-transformed versions of Exists and Exists1 provided for completeness and curiosity",
           "hierarchy": "Data Exists CPS",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.CPS",
           "name": "CPS",
           "package": "exists",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.CPS",
           "name": "Exists",
           "package": "exists",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Exists CPS",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.CPS",
           "name": "Exists",
           "package": "exists",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.CPS",
           "name": "Exists1",
           "package": "exists",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Exists CPS",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.CPS",
           "name": "Exists1",
           "package": "exists",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.CPS",
           "name": "Exists",
           "package": "exists",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Exists CPS",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.CPS",
           "name": "Exists",
           "package": "exists",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.CPS",
           "name": "Exists1",
           "package": "exists",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data Exists CPS",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.CPS",
           "name": "Exists1",
           "package": "exists",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.CPS",
           "name": "withExists",
           "package": "exists",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Exists CPS",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.CPS",
           "name": "withExists",
           "normalized": "a-\u003eb)-\u003eb",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.CPS",
           "name": "withExists1",
           "package": "exists",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Exists CPS",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.CPS",
           "name": "withExists1",
           "normalized": "a b-\u003ec)-\u003ec",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault functions which can be used as method implementations when writing type class instances for existential datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "Defaults",
           "package": "exists",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Default functions which can be used as method implementations when writing type class instances for existential datatypes",
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "Defaults",
           "package": "exists",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "contramapDefault",
           "package": "exists",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "contramapDefault",
           "normalized": "(a-\u003eb)-\u003ec b-\u003ec a",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "fmapDefault",
           "package": "exists",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "fmapDefault",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "foldDefault",
           "package": "exists",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "foldDefault",
           "normalized": "a b-\u003eb",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "foldMapDefault",
           "package": "exists",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "foldMapDefault",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "foldl1Default",
           "package": "exists",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "foldl1Default",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "foldlDefault",
           "package": "exists",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "foldlDefault",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "foldr1Default",
           "package": "exists",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "foldr1Default",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "foldrDefault",
           "package": "exists",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "foldrDefault",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -598,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "mapMDefault",
           "package": "exists",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "mapMDefault",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "sequenceADefault",
           "package": "exists",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "sequenceADefault",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "sequenceDefault",
           "package": "exists",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "sequenceDefault",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "showDefault",
           "package": "exists",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "showDefault",
           "normalized": "a-\u003eString",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "showsPrecDefault",
           "package": "exists",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "showsPrecDefault",
           "normalized": "Int-\u003ea-\u003eShowS",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists.Defaults",
           "name": "traverseDefault",
           "package": "exists",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data Exists Defaults",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists.Defaults",
           "name": "traverseDefault",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -743,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExistential datatypes holding evidence of constraints, and type classes for existential datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "Exists",
           "package": "exists",
@@ -752,6 +815,7 @@
         "index": {
           "description": "Existential datatypes holding evidence of constraints and type classes for existential datatypes",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "Exists",
           "package": "exists",
@@ -765,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "Constraint",
           "package": "exists",
@@ -772,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "Constraint",
           "package": "exists",
@@ -786,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class to abstract over existential datatypes.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e data EShow where\n      EShow :: Show a =\u003e a -\u003e EShow\n\n instance Existential EShow where\n     type ConstraintOf EShow = Show\n     exists = EShow\n     apply f (EShow a) = f a\n\n foo :: EShow\n foo = exists (Just 9 :: Maybe Int)\n\n main = apply print foo -- prints \"Just 9\"\n\u003c/pre\u003e\u003cp\u003eNote that had we given \u003ccode\u003efoo\u003c/code\u003e the type signature\n\u003c/p\u003e\u003cpre\u003e foo :: (Existential e, ConstraintOf e ~ Show) =\u003e e\n\u003c/pre\u003e\u003cp\u003eGHC would have given us an error message, because the instance of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eExistential\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to use would have been ambiguous. (The \u003ccode\u003e\u003ccode\u003e\u003ca\u003eapply\u003c/a\u003e\u003c/code\u003e f . \u003ccode\u003e\u003ca\u003eexists\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e problem is the same as the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e problem.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "Existential",
           "package": "exists",
@@ -795,6 +862,7 @@
         "index": {
           "description": "type class to abstract over existential datatypes Example data EShow where EShow Show EShow instance Existential EShow where type ConstraintOf EShow Show exists EShow apply EShow foo EShow foo exists Just Maybe Int main apply print foo prints Just Note that had we given foo the type signature foo Existential ConstraintOf Show GHC would have given us an error message because the instance of Existential to use would have been ambiguous The apply exists problem is the same as the show read problem",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "Existential",
           "package": "exists",
@@ -809,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eExistential\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e for kind \u003ccode\u003e* -\u003e *\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "Existential1",
           "package": "exists",
@@ -818,6 +887,7 @@
         "index": {
           "description": "version of Existential for kind",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "Existential1",
           "package": "exists",
@@ -832,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for convenience.\n\u003c/p\u003e\u003cpre\u003e foo :: ExistentialWith Show e =\u003e e -\u003e IO ()\n\u003c/pre\u003e\u003cp\u003eis equivalent to\n\u003c/p\u003e\u003cpre\u003e foo :: (Existential e, ConstraintOf e ~ Show) =\u003e e -\u003e IO ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "ExistentialWith",
           "package": "exists",
@@ -841,6 +912,7 @@
         "index": {
           "description": "An alias for convenience foo ExistentialWith Show IO is equivalent to foo Existential ConstraintOf Show IO",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "ExistentialWith",
           "package": "exists",
@@ -855,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for convenience. A version of \u003ccode\u003e\u003ca\u003eExistentialWith\u003c/a\u003e\u003c/code\u003e for kind \u003ccode\u003e* -\u003e *\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "ExistentialWith1",
           "package": "exists",
@@ -864,6 +937,7 @@
         "index": {
           "description": "An alias for convenience version of ExistentialWith for kind",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "ExistentialWith1",
           "package": "exists",
@@ -878,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype which holds a value of a type satisfying the constraint \u003ccode\u003ec\u003c/code\u003e, hiding the type, and evidence for the constraint, so that it can be retrieved by pattern matching later.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e foo :: Exists Show\n foo = Exists (Just 9 :: Maybe Int)\n\n printExists :: Exists Show -\u003e IO ()\n printExists (Exists e) = print e\n\n main = printExists foo -- prints \"Just 9\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "Exists",
           "package": "exists",
@@ -887,6 +962,7 @@
         "index": {
           "description": "datatype which holds value of type satisfying the constraint hiding the type and evidence for the constraint so that it can be retrieved by pattern matching later Example foo Exists Show foo Exists Just Maybe Int printExists Exists Show IO printExists Exists print main printExists foo prints Just",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "Exists",
           "package": "exists",
@@ -901,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e* -\u003e *\u003c/code\u003e kinded version of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eExists\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e which holds a value of a type constructor applied to a type, hiding the type constructor, and evidence for a constraint on the type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "Exists1",
           "package": "exists",
@@ -910,6 +987,7 @@
         "index": {
           "description": "kinded version of Exists which holds value of type constructor applied to type hiding the type constructor and evidence for constraint on the type constructor",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "Exists1",
           "package": "exists",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "Exists",
           "package": "exists",
@@ -932,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "Exists",
           "normalized": "a-\u003eExists b",
@@ -947,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "Exists1",
           "package": "exists",
@@ -956,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "Exists1",
           "normalized": "a b-\u003eExists c b",
@@ -972,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function requiring the constraint to the held value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "apply",
           "package": "exists",
@@ -982,6 +1065,7 @@
         "index": {
           "description": "Apply function requiring the constraint to the held value",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "apply",
           "normalized": "a-\u003eb)-\u003ec-\u003eb",
@@ -997,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function requiring the constraint to the held value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "apply1",
           "package": "exists",
@@ -1007,6 +1092,7 @@
         "index": {
           "description": "Apply function requiring the constraint to the held value",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "apply1",
           "normalized": "a b-\u003ec)-\u003ed b-\u003ec",
@@ -1022,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct \u003ccode\u003ee\u003c/code\u003e from a value of a type satisfying the constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "exists",
           "package": "exists",
@@ -1032,6 +1119,7 @@
         "index": {
           "description": "Construct from value of type satisfying the constraint",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "exists",
           "normalized": "a-\u003eb",
@@ -1047,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct \u003ccode\u003ee\u003c/code\u003e from a value of a type constructor applied to a type, where the type constructor satisfies the constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "exists1",
           "package": "exists",
@@ -1057,6 +1146,7 @@
         "index": {
           "description": "Construct from value of type constructor applied to type where the type constructor satisfies the constraint",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "exists1",
           "normalized": "a b-\u003ec b",
@@ -1072,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate between different existential datatypes holding evidence for the same constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "translate",
           "package": "exists",
@@ -1082,6 +1173,7 @@
         "index": {
           "description": "Translate between different existential datatypes holding evidence for the same constraint",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "translate",
           "normalized": "a-\u003ea",
@@ -1097,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate between different existential datatypes holding evidence for the same constraint on a \u003ccode\u003e* -\u003e *\u003c/code\u003e kinded type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:07 UTC 2014",
           "module": "Data.Exists",
           "name": "translate1",
           "package": "exists",
@@ -1107,6 +1200,7 @@
         "index": {
           "description": "Translate between different existential datatypes holding evidence for the same constraint on kinded type constructor",
           "hierarchy": "Data Exists",
+          "indexed": "2014-03-11T18:05:07",
           "module": "Data.Exists",
           "name": "translate1",
           "normalized": "a b-\u003ea b",

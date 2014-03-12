@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk-traymanager"
+        "phrase": "gtk-traymanager",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a TrayManager - an integral part of a\n Linux system tray widget, though it is not itself a widget.  This\n package exports a single GObject (for use with gtk2hs) that\n implements the freedesktop.org system tray specification (it\n handles receiving events and translating them into convenient\n signals, along with the messy work of dealing with XEMBED).\n\u003c/p\u003e\u003cp\u003eThe basic usage of the object is to:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Instantiate the object with \u003ccode\u003e\u003ca\u003etrayManagerNew\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Have it manage a specific screen with \u003ccode\u003e\u003ca\u003etrayManagerManageScreen\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Set up handlers for the events exposed by the tray (e.g., \u003ccode\u003e\u003ca\u003etrayIconAdded\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eAs an example, a functional system tray widget looks something like:\n\u003c/p\u003e\u003cpre\u003e import Graphics.UI.Gtk\n import Graphics.UI.Gtk.Misc.TrayManager\n systrayNew = do\n   box \u003c- hBoxNew False 5\n   trayManager \u003c- rayManagerNew\n   Just screen \u003c- screenGetDefault\n   trayManagerManageScreen trayManager screen\n   on trayManager trayIconAdded $ \\w -\u003e do\n     widgetShowAll w\n     boxPackStart box w PackNatural 0\n\u003c/pre\u003e\u003cp\u003eNote that the widgets made available in the event handlers are not\n shown by default; you need to explicitly show them if you want that\n (and you probably do).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "TrayManager",
           "package": "gtk-traymanager",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements TrayManager an integral part of Linux system tray widget though it is not itself widget This package exports single GObject for use with gtk2hs that implements the freedesktop.org system tray specification it handles receiving events and translating them into convenient signals along with the messy work of dealing with XEMBED The basic usage of the object is to Instantiate the object with trayManagerNew Have it manage specific screen with trayManagerManageScreen Set up handlers for the events exposed by the tray e.g trayIconAdded As an example functional system tray widget looks something like import Graphics.UI.Gtk import Graphics.UI.Gtk.Misc.TrayManager systrayNew do box hBoxNew False trayManager rayManagerNew Just screen screenGetDefault trayManagerManageScreen trayManager screen on trayManager trayIconAdded do widgetShowAll boxPackStart box PackNatural Note that the widgets made available in the event handlers are not shown by default you need to explicitly show them if you want that and you probably do",
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "TrayManager",
           "package": "gtk-traymanager",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "TrayManager",
           "package": "gtk-traymanager",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "TrayManager",
           "package": "gtk-traymanager",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "TrayManagerChild",
           "package": "gtk-traymanager",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "TrayManagerChild",
           "package": "gtk-traymanager",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "TrayManagerClass",
           "package": "gtk-traymanager",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "TrayManagerClass",
           "package": "gtk-traymanager",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "castToTrayManager",
           "package": "gtk-traymanager",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "castToTrayManager",
           "normalized": "a-\u003eTrayManager",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "gTypeTrayManager",
           "package": "gtk-traymanager",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "gTypeTrayManager",
           "package": "gtk-traymanager",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "toTrayManager",
           "package": "gtk-traymanager",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "toTrayManager",
           "normalized": "a-\u003eTrayManager",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signal emitted when a new tray icon is added.  These are\n delivered even for systray icons that already exist when the tray\n manager is created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayIconAdded",
           "package": "gtk-traymanager",
@@ -185,6 +200,7 @@
         "index": {
           "description": "The signal emitted when new tray icon is added These are delivered even for systray icons that already exist when the tray manager is created",
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayIconAdded",
           "normalized": "Signal a(Widget-\u003eIO())",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis signal is emitted when a tray icon is removed by its parent\n application.  No action is really necessary here (the icon is\n removed without any intervention).  You could do something here if\n you wanted, though.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayIconRemoved",
           "package": "gtk-traymanager",
@@ -211,6 +228,7 @@
         "index": {
           "description": "This signal is emitted when tray icon is removed by its parent application No action is really necessary here the icon is removed without any intervention You could do something here if you wanted though",
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayIconRemoved",
           "normalized": "Signal a(Widget-\u003eIO())",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e??\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayLostSelection",
           "package": "gtk-traymanager",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayLostSelection",
           "normalized": "Signal a(IO())",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayManagerCheckRunning",
           "package": "gtk-traymanager",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayManagerCheckRunning",
           "normalized": "Screen-\u003eIO Bool",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayManagerGetChildTitle",
           "package": "gtk-traymanager",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayManagerGetChildTitle",
           "normalized": "TrayManager-\u003eTrayManagerChild-\u003eIO String",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayManagerManageScreen",
           "package": "gtk-traymanager",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayManagerManageScreen",
           "normalized": "TrayManager-\u003eScreen-\u003eIO Bool",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayManagerNew",
           "package": "gtk-traymanager",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayManagerNew",
           "package": "gtk-traymanager",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilarly, the applciation can send this to cancel a previous\n persistent message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayMessageCanceled",
           "package": "gtk-traymanager",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Similarly the applciation can send this to cancel previous persistent message",
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayMessageCanceled",
           "normalized": "Signal a(Widget-\u003eInt-\u003eIO())",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis signal is emitted when the application that displayed an\n icon wants a semi-persistent notification displayed for its icon.\n The standard doesn't seem to require that these be honored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:54 UTC 2014",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayMessageSent",
           "package": "gtk-traymanager",
@@ -382,6 +413,7 @@
         "index": {
           "description": "This signal is emitted when the application that displayed an icon wants semi-persistent notification displayed for its icon The standard doesn seem to require that these be honored",
           "hierarchy": "Graphics UI Gtk Misc TrayManager",
+          "indexed": "2014-03-11T18:22:54",
           "module": "Graphics.UI.Gtk.Misc.TrayManager",
           "name": "trayMessageSent",
           "normalized": "Signal a(Widget-\u003eString-\u003eInt-\u003eInt-\u003eIO())",

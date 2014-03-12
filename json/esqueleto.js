@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "esqueleto"
+        "phrase": "esqueleto",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an internal module, anything exported by this module\n may change without a major version bump.  Please use only\n \u003ca\u003eDatabase.Esqueleto\u003c/a\u003e if possible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Language",
           "package": "esqueleto",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is an internal module anything exported by this module may change without major version bump Please use only Database.Esqueleto if possible",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Language",
           "package": "esqueleto",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents a \u003ccode\u003eCROSS JOIN\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e for an example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "CrossJoin",
           "package": "esqueleto",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data type that represents CROSS JOIN see LeftOuterJoin for an example",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "CrossJoin",
           "package": "esqueleto",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinally tagless representation of \u003ccode\u003eesqueleto\u003c/code\u003e's EDSL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Esqueleto",
           "package": "esqueleto",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Finally tagless representation of esqueleto EDSL",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Esqueleto",
           "package": "esqueleto",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Class that implements the tuple \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e magic (see\n \u003ccode\u003e\u003ca\u003efromStart\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "From",
           "package": "esqueleto",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Internal Class that implements the tuple from magic see fromStart",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "From",
           "package": "esqueleto",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Class that implements the \u003ccode\u003eJOIN\u003c/code\u003e \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e magic\n (see \u003ccode\u003e\u003ca\u003efromStart\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "FromPreprocess",
           "package": "esqueleto",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Internal Class that implements the JOIN from magic see fromStart",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "FromPreprocess",
           "package": "esqueleto",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents a \u003ccode\u003eFULL OUTER JOIN\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e for an example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "FullOuterJoin",
           "package": "esqueleto",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Data type that represents FULL OUTER JOIN see LeftOuterJoin for an example",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "FullOuterJoin",
           "package": "esqueleto",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents an \u003ccode\u003eINNER JOIN\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e for an example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "InnerJoin",
           "package": "esqueleto",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Data type that represents an INNER JOIN see LeftOuterJoin for an example",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "InnerJoin",
           "package": "esqueleto",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used by \u003ccode\u003einsertSelect\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Insertion",
           "package": "esqueleto",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Phantom type used by insertSelect",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Insertion",
           "package": "esqueleto",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Functions that operate on types (that should be)\n of kind \u003ccode\u003e\u003ca\u003eJoinKind\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "IsJoinKind",
           "package": "esqueleto",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Internal Functions that operate on types that should be of kind JoinKind",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "IsJoinKind",
           "package": "esqueleto",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) A kind of \u003ccode\u003eJOIN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "JoinKind",
           "package": "esqueleto",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Internal kind of JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "JoinKind",
           "package": "esqueleto",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents a \u003ccode\u003eLEFT OUTER JOIN\u003c/code\u003e. For example,\n\u003c/p\u003e\u003cpre\u003e\n select $\n from $ \\(person `\u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e` pet) -\u003e\n   ...\n\u003c/pre\u003e\u003cp\u003eis translated into\n\u003c/p\u003e\u003cpre\u003e\n SELECT ...\n FROM Person LEFT OUTER JOIN Pet\n ...\n\u003c/pre\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "LeftOuterJoin",
           "package": "esqueleto",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Data type that represents LEFT OUTER JOIN For example select from person LeftOuterJoin pet is translated into SELECT FROM Person LEFT OUTER JOIN Pet See also from",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "LeftOuterJoin",
           "package": "esqueleto",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown whenever \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e is used to create an \u003ccode\u003eON\u003c/code\u003e\n clause but no matching \u003ccode\u003eJOIN\u003c/code\u003e is found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "OnClauseWithoutMatchingJoinException",
           "package": "esqueleto",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Exception thrown whenever on is used to create an ON clause but no matching JOIN is found",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "OnClauseWithoutMatchingJoinException",
           "package": "esqueleto",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used by \u003ccode\u003e\u003ca\u003eorderBy\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003easc\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edesc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "OrderBy",
           "package": "esqueleto",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Phantom type used by orderBy asc and desc",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "OrderBy",
           "package": "esqueleto",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Phantom type used to process \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003efromStart\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "PreprocessedFrom",
           "package": "esqueleto",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Internal Phantom type used to process from see fromStart",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "PreprocessedFrom",
           "package": "esqueleto",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents a \u003ccode\u003eRIGHT OUTER JOIN\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e for an example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "RightOuterJoin",
           "package": "esqueleto",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Data type that represents RIGHT OUTER JOIN see LeftOuterJoin for an example",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "RightOuterJoin",
           "package": "esqueleto",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper type for for any \u003ccode\u003eexpr (Value a)\u003c/code\u003e for all a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "SomeValue",
           "package": "esqueleto",
@@ -373,6 +404,7 @@
         "index": {
           "description": "wrapper type for for any expr Value for all",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "SomeValue",
           "package": "esqueleto",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of things that can be converted into a list of SomeValue. It has\n instances for tuples and is the reason why groupBy can take tuples, like\n \u003ccode\u003egroupBy (foo ^. FooId, foo ^. FooName, foo ^. FooType)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "ToSomeValues",
           "package": "esqueleto",
@@ -396,6 +429,7 @@
         "index": {
           "description": "class of things that can be converted into list of SomeValue It has instances for tuples and is the reason why groupBy can take tuples like groupBy foo FooId foo FooName foo FooType",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "ToSomeValues",
           "package": "esqueleto",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type for a \u003ccode\u003eSET\u003c/code\u003e operation on an entity of the given\n type (see \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e and '(=.)').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Update",
           "package": "esqueleto",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Phantom type for SET operation on an entity of the given type see set and",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Update",
           "package": "esqueleto",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single value (as opposed to a whole entity).  You may use\n \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e^.\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e or \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e?.\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e to get a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eEntity\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Value",
           "package": "esqueleto",
@@ -442,6 +479,7 @@
         "index": {
           "description": "single value as opposed to whole entity You may use or to get Value from an Entity",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "Value",
           "package": "esqueleto",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of single values.  There's a limited set of funcitons\n able to work with this data type (such as \u003ccode\u003e\u003ca\u003esubList_select\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003evalList\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ein_\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eexists\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "ValueList",
           "package": "esqueleto",
@@ -465,6 +504,7 @@
         "index": {
           "description": "list of single values There limited set of funcitons able to work with this data type such as subList select valList in and exists",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "ValueList",
           "package": "esqueleto",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(||.)",
           "package": "esqueleto",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(||.) ||.",
           "normalized": "a(Value Bool)-\u003ea(Value Bool)-\u003ea(Value Bool)",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(!=.)",
           "package": "esqueleto",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(!=.) !=.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe string \u003ccode\u003e\u003ccode\u003e\u003ca\u003e%\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  May be useful while using \u003ccode\u003e\u003ca\u003elike\u003c/a\u003e\u003c/code\u003e and\n concatenation (\u003ccode\u003e\u003ca\u003econcat_\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003e++.\u003c/a\u003e\u003c/code\u003e, depending on your\n database).  Note that you always to type the parenthesis,\n for example:\n\u003c/p\u003e\u003cpre\u003e\n name ``'like'`` (%) ++. val \u003ca\u003eJohn\u003c/a\u003e ++. (%)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(%)",
           "package": "esqueleto",
@@ -535,6 +580,7 @@
         "index": {
           "description": "The string May be useful while using like and concatenation concat or depending on your database Note that you always to type the parenthesis for example name like val John",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(%) %",
           "package": "esqueleto",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(&&.)",
           "package": "esqueleto",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(&&.) &&.",
           "normalized": "a(Value Bool)-\u003ea(Value Bool)-\u003ea(Value Bool)",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(*=.)",
           "package": "esqueleto",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(*=.) *=.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(*.)",
           "package": "esqueleto",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(*.) *.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e||\u003c/code\u003e string concatenation operator (named after\n Haskell's \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e in order to avoid naming clash with \u003ccode\u003e\u003ca\u003e||.\u003c/a\u003e\u003c/code\u003e).\n Supported by SQLite and PostgreSQL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(++.)",
           "package": "esqueleto",
@@ -627,6 +680,7 @@
         "index": {
           "description": "The string concatenation operator named after Haskell in order to avoid naming clash with Supported by SQLite and PostgreSQL",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(++.) ++.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(+=.)",
           "package": "esqueleto",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(+=.) +=.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(+.)",
           "package": "esqueleto",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(+.) +.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -687,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(-=.)",
           "package": "esqueleto",
@@ -696,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(-=.) -=.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(-.)",
           "package": "esqueleto",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(-.) -.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(/=.)",
           "package": "esqueleto",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(/=.) /=.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(/.)",
           "package": "esqueleto",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(/.) /.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003ePersistField\u003c/a\u003e\u003c/code\u003e constructor to \u003ccode\u003eexpr Value\u003c/code\u003e arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003c#)",
           "package": "esqueleto",
@@ -790,6 +857,7 @@
         "index": {
           "description": "Apply PersistField constructor to expr Value arguments",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003c#) \u003c#",
           "normalized": "(a-\u003eb)-\u003ec(Value a)-\u003ec(Insertion b)",
@@ -805,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply extra \u003ccode\u003eexpr Value\u003c/code\u003e arguments to a \u003ccode\u003e\u003ca\u003ePersistField\u003c/a\u003e\u003c/code\u003e constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003c&\u003e)",
           "package": "esqueleto",
@@ -815,6 +884,7 @@
         "index": {
           "description": "Apply extra expr Value arguments to PersistField constructor",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "a(Insertion(b-\u003ec))-\u003ea(Value b)-\u003ea(Insertion c)",
@@ -829,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003c=.)",
           "package": "esqueleto",
@@ -838,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003c=.) \u003c=.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003c.)",
           "package": "esqueleto",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003c.) \u003c.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -875,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(==.)",
           "package": "esqueleto",
@@ -884,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(==.) ==.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -898,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(=.)",
           "package": "esqueleto",
@@ -907,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(=.) =.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -921,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003e=.)",
           "package": "esqueleto",
@@ -930,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003e=.) \u003e=.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -944,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003e.)",
           "package": "esqueleto",
@@ -953,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(\u003e.) \u003e.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -968,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject a field of an entity that may be null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(?.)",
           "package": "esqueleto",
@@ -978,6 +1061,7 @@
         "index": {
           "description": "Project field of an entity that may be null",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(?.) ?.",
           "normalized": "a(Maybe(Entity b))-\u003eEntityField b c-\u003ea(Value(Maybe c))",
@@ -993,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject a field of an entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(^.)",
           "package": "esqueleto",
@@ -1003,6 +1088,7 @@
         "index": {
           "description": "Project field of an entity",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "(^.) ^.",
           "normalized": "a(Entity b)-\u003eEntityField b c-\u003ea(Value c)",
@@ -1041,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eCROSS JOIN\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "CrossJoinKind",
           "package": "esqueleto",
@@ -1051,6 +1138,7 @@
         "index": {
           "description": "CROSS JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "CrossJoinKind",
           "package": "esqueleto",
@@ -1088,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eFULL OUTER JOIN\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "FullOuterJoinKind",
           "package": "esqueleto",
@@ -1098,6 +1187,7 @@
         "index": {
           "description": "FULL OUTER JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "FullOuterJoinKind",
           "package": "esqueleto",
@@ -1135,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eINNER JOIN\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "InnerJoinKind",
           "package": "esqueleto",
@@ -1145,6 +1236,7 @@
         "index": {
           "description": "INNER JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "InnerJoinKind",
           "package": "esqueleto",
@@ -1182,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eLEFT OUTER JOIN\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "LeftOuterJoinKind",
           "package": "esqueleto",
@@ -1192,6 +1285,7 @@
         "index": {
           "description": "LEFT OUTER JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "LeftOuterJoinKind",
           "package": "esqueleto",
@@ -1252,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eRIGHT OUTER JOIN\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "RightOuterJoinKind",
           "package": "esqueleto",
@@ -1262,6 +1357,7 @@
         "index": {
           "description": "RIGHT OUTER JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "RightOuterJoinKind",
           "package": "esqueleto",
@@ -1275,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "SomeValue",
           "package": "esqueleto",
@@ -1284,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "SomeValue",
           "normalized": "a(Value b)-\u003eSomeValue a",
@@ -1346,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAscending order of this field or expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "asc",
           "package": "esqueleto",
@@ -1356,6 +1455,7 @@
         "index": {
           "description": "Ascending order of this field or expression",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "asc",
           "normalized": "a(Value b)-\u003ea OrderBy",
@@ -1370,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "avg_",
           "package": "esqueleto",
@@ -1379,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "avg_",
           "normalized": "a(Value b)-\u003ea(Value(Maybe c))",
@@ -1393,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "ceiling_",
           "package": "esqueleto",
@@ -1402,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "ceiling_",
           "normalized": "a(Value b)-\u003ea(Value c)",
@@ -1417,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCONCAT\u003c/code\u003e function with a variable number of\n parameters.  Supported by MySQL and PostgreSQL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "concat_",
           "package": "esqueleto",
@@ -1427,6 +1532,7 @@
         "index": {
           "description": "The CONCAT function with variable number of parameters Supported by MySQL and PostgreSQL",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "concat_",
           "normalized": "[a(Value b)]-\u003ea(Value b)",
@@ -1442,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCOUNT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "count",
           "package": "esqueleto",
@@ -1452,6 +1559,7 @@
         "index": {
           "description": "COUNT",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "count",
           "normalized": "a(Value b)-\u003ea(Value c)",
@@ -1467,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCOUNT(*)\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "countRows",
           "package": "esqueleto",
@@ -1477,6 +1586,7 @@
         "index": {
           "description": "COUNT value",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "countRows",
           "package": "esqueleto",
@@ -1491,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescending order of this field or expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "desc",
           "package": "esqueleto",
@@ -1501,6 +1612,7 @@
         "index": {
           "description": "Descending order of this field or expression",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "desc",
           "normalized": "a(Value b)-\u003ea OrderBy",
@@ -1516,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEXISTS\u003c/code\u003e operator.  For example:\n\u003c/p\u003e\u003cpre\u003e\n select $\n from $ \\person -\u003e do\n where_ $ exists $\n          from $ \\post -\u003e do\n          where_ (post ^. BlogPostAuthorId ==. person ^. PersonId)\n return person\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "exists",
           "package": "esqueleto",
@@ -1526,6 +1639,7 @@
         "index": {
           "description": "EXISTS operator For example select from person do where exists from post do where post BlogPostAuthorId person PersonId return person",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "exists",
           "normalized": "a()-\u003eb(Value Bool)",
@@ -1540,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "floor_",
           "package": "esqueleto",
@@ -1549,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "floor_",
           "normalized": "a(Value b)-\u003ea(Value c)",
@@ -1590,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Finish a \u003ccode\u003eJOIN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "fromFinish",
           "package": "esqueleto",
@@ -1600,6 +1717,7 @@
         "index": {
           "description": "Internal Finish JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "fromFinish",
           "normalized": "a(PreprocessedFrom b)-\u003ec b",
@@ -1616,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Do a \u003ccode\u003eJOIN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "fromJoin",
           "package": "esqueleto",
@@ -1626,6 +1745,7 @@
         "index": {
           "description": "Internal Do JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "fromJoin",
           "normalized": "a(PreprocessedFrom b)-\u003ea(PreprocessedFrom c)-\u003ed(a(PreprocessedFrom(e b c)))",
@@ -1642,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Start a \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e query with an entity. \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e\n does two kinds of magic using \u003ccode\u003e\u003ca\u003efromStart\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efromJoin\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efromFinish\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e  The simple but tedious magic of allowing tuples to be\n   used.\n\u003c/li\u003e\u003cli\u003e  The more advanced magic of creating \u003ccode\u003eJOIN\u003c/code\u003es.  The\n   \u003ccode\u003eJOIN\u003c/code\u003e is processed from right to left.  The rightmost\n   entity of the \u003ccode\u003eJOIN\u003c/code\u003e is created with \u003ccode\u003e\u003ca\u003efromStart\u003c/a\u003e\u003c/code\u003e.  Each\n   \u003ccode\u003eJOIN\u003c/code\u003e step is then translated into a call to \u003ccode\u003e\u003ca\u003efromJoin\u003c/a\u003e\u003c/code\u003e.\n   In the end, \u003ccode\u003e\u003ca\u003efromFinish\u003c/a\u003e\u003c/code\u003e is called to materialize the\n   \u003ccode\u003eJOIN\u003c/code\u003e.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "fromStart",
           "package": "esqueleto",
@@ -1652,6 +1773,7 @@
         "index": {
           "description": "Internal Start from query with an entity from does two kinds of magic using fromStart fromJoin and fromFinish The simple but tedious magic of allowing tuples to be used The more advanced magic of creating JOIN The JOIN is processed from right to left The rightmost entity of the JOIN is created with fromStart Each JOIN step is then translated into call to fromJoin In the end fromFinish is called to materialize the JOIN",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "fromStart",
           "package": "esqueleto",
@@ -1666,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Same as \u003ccode\u003e\u003ca\u003efromStart\u003c/a\u003e\u003c/code\u003e, but entity may be missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "fromStartMaybe",
           "package": "esqueleto",
@@ -1676,6 +1799,7 @@
         "index": {
           "description": "Internal Same as fromStart but entity may be missing",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "fromStartMaybe",
           "package": "esqueleto",
@@ -1690,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eGROUP BY\u003c/code\u003e clause. You can enclose multiple columns\n in a tuple.\n\u003c/p\u003e\u003cpre\u003e\n select $ from \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar) -\u003e do\n   on (foo ^. FooBarId ==. bar ^. BarId)\n   groupBy (bar ^. BarId, bar ^. BarName)\n   return (bar ^. BarId, bar ^. BarName, countRows)\n\u003c/pre\u003e\u003cp\u003eWith groupBy you can sort by aggregate functions, like so (we\n used \u003ccode\u003elet\u003c/code\u003e to restrict the more general \u003ccode\u003e\u003ca\u003ecountRows\u003c/a\u003e\u003c/code\u003e to\n \u003ccode\u003eSqlExpr (Value Int)\u003c/code\u003e to avoid ambiguity):\n\u003c/p\u003e\u003cpre\u003e\n r \u003c- select $ from \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar) -\u003e do\n   on (foo ^. FooBarId ==. bar ^. BarId)\n   groupBy $ bar ^. BarName\n   let countRows' = countRows\n   orderBy [asc countRows']\n   return (bar ^. BarName, countRows')\n forM_ r $ \\((Value name), (Value count)) -\u003e do\n   print name\n   print (count :: Int)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "groupBy",
           "package": "esqueleto",
@@ -1700,6 +1825,7 @@
         "index": {
           "description": "GROUP BY clause You can enclose multiple columns in tuple select from foo InnerJoin bar do on foo FooBarId bar BarId groupBy bar BarId bar BarName return bar BarId bar BarName countRows With groupBy you can sort by aggregate functions like so we used let to restrict the more general countRows to SqlExpr Value Int to avoid ambiguity select from foo InnerJoin bar do on foo FooBarId bar BarId groupBy bar BarName let countRows countRows orderBy asc countRows return bar BarName countRows forM Value name Value count do print name print count Int",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "groupBy",
           "normalized": "a-\u003eb()",
@@ -1716,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eHAVING\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 1.2.2\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "having",
           "package": "esqueleto",
@@ -1726,6 +1853,7 @@
         "index": {
           "description": "HAVING Since",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "having",
           "normalized": "a(Value Bool)-\u003eb()",
@@ -1741,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eIN\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "in_",
           "package": "esqueleto",
@@ -1751,6 +1880,7 @@
         "index": {
           "description": "IN operator",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "in_",
           "normalized": "a(Value b)-\u003ea(ValueList b)-\u003ea(Value Bool)",
@@ -1766,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eIS NULL\u003c/code\u003e comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "isNothing",
           "package": "esqueleto",
@@ -1776,6 +1907,7 @@
         "index": {
           "description": "IS NULL comparison",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "isNothing",
           "normalized": "a(Value(Maybe b))-\u003ea(Value Bool)",
@@ -1792,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin nested \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003es in a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e into one. This is useful when\n calling aggregate functions on nullable fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "joinV",
           "package": "esqueleto",
@@ -1802,6 +1935,7 @@
         "index": {
           "description": "Join nested Maybe in Value into one This is useful when calling aggregate functions on nullable fields",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "joinV",
           "normalized": "a(Value(Maybe(Maybe b)))-\u003ea(Value(Maybe b))",
@@ -1817,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, promotes a value of type \u003ccode\u003etyp\u003c/code\u003e into\n one of type \u003ccode\u003eMaybe typ\u003c/code\u003e.  It should hold that \u003ccode\u003eval . Just\n === just . val\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "just",
           "package": "esqueleto",
@@ -1827,6 +1962,7 @@
         "index": {
           "description": "Analogous to Just promotes value of type typ into one of type Maybe typ It should hold that val Just just val",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "just",
           "normalized": "a(Value b)-\u003ea(Value(Maybe b))",
@@ -1842,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLIKE\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "like",
           "package": "esqueleto",
@@ -1852,6 +1989,7 @@
         "index": {
           "description": "LIKE operator",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "like",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -1867,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLIMIT\u003c/code\u003e.  Limit the number of returned rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "limit",
           "package": "esqueleto",
@@ -1877,6 +2016,7 @@
         "index": {
           "description": "LIMIT Limit the number of returned rows",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "limit",
           "normalized": "Int-\u003ea()",
@@ -1891,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "max_",
           "package": "esqueleto",
@@ -1900,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "max_",
           "normalized": "a(Value b)-\u003ea(Value(Maybe b))",
@@ -1914,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "min_",
           "package": "esqueleto",
@@ -1923,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "min_",
           "normalized": "a(Value b)-\u003ea(Value(Maybe b))",
@@ -1938,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNOT EXISTS\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "notExists",
           "package": "esqueleto",
@@ -1948,6 +2093,7 @@
         "index": {
           "description": "NOT EXISTS operator",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "notExists",
           "normalized": "a()-\u003eb(Value Bool)",
@@ -1964,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNOT IN\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "notIn",
           "package": "esqueleto",
@@ -1974,6 +2121,7 @@
         "index": {
           "description": "NOT IN operator",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "notIn",
           "normalized": "a(Value b)-\u003ea(ValueList b)-\u003ea(Value Bool)",
@@ -1989,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "not_",
           "package": "esqueleto",
@@ -1998,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "not_",
           "normalized": "a(Value Bool)-\u003ea(Value Bool)",
@@ -2013,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNULL\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "nothing",
           "package": "esqueleto",
@@ -2023,6 +2174,7 @@
         "index": {
           "description": "NULL value",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "nothing",
           "package": "esqueleto",
@@ -2036,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eOFFSET\u003c/code\u003e.  Usually used with \u003ccode\u003e\u003ca\u003elimit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "offset",
           "package": "esqueleto",
@@ -2046,6 +2199,7 @@
         "index": {
           "description": "OFFSET Usually used with limit",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "offset",
           "normalized": "Int-\u003ea()",
@@ -2061,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eON\u003c/code\u003e clause: restrict the a \u003ccode\u003eJOIN\u003c/code\u003e's result.  The \u003ccode\u003eON\u003c/code\u003e\n clause will be applied to the \u003cem\u003elast\u003c/em\u003e \u003ccode\u003eJOIN\u003c/code\u003e that does not\n have an \u003ccode\u003eON\u003c/code\u003e clause yet.  If there are no \u003ccode\u003eJOIN\u003c/code\u003es without\n \u003ccode\u003eON\u003c/code\u003e clauses (either because you didn't do any \u003ccode\u003eJOIN\u003c/code\u003e, or\n because all \u003ccode\u003eJOIN\u003c/code\u003es already have their own \u003ccode\u003eON\u003c/code\u003e clauses), a\n runtime exception \u003ccode\u003e\u003ca\u003eOnClauseWithoutMatchingJoinException\u003c/a\u003e\u003c/code\u003e is\n thrown.  \u003ccode\u003eON\u003c/code\u003e clauses are optional when doing \u003ccode\u003eJOIN\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eOn the simple case of doing just one \u003ccode\u003eJOIN\u003c/code\u003e, for example\n\u003c/p\u003e\u003cpre\u003e\n select $\n from $ \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar) -\u003e do\n   on (foo ^. FooId ==. bar ^. BarFooId)\n   ...\n\u003c/pre\u003e\u003cp\u003ethere's no ambiguity and the rules above just mean that\n you're allowed to call \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e only once (as in SQL).  If you\n have many joins, then the \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003es are applied on the \u003cem\u003ereverse\u003c/em\u003e\n order that the \u003ccode\u003eJOIN\u003c/code\u003es appear.  For example:\n\u003c/p\u003e\u003cpre\u003e\n select $\n from $ \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` baz) -\u003e do\n   on (baz ^. BazId ==. bar ^. BarBazId)\n   on (foo ^. FooId ==. bar ^. BarFooId)\n   ...\n\u003c/pre\u003e\u003cp\u003eThe order is \u003cem\u003ereversed\u003c/em\u003e in order to improve composability.\n For example, consider \u003ccode\u003equery1\u003c/code\u003e and \u003ccode\u003equery2\u003c/code\u003e below:\n\u003c/p\u003e\u003cpre\u003e\n let query1 =\n       from $ \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar) -\u003e do\n         on (foo ^. FooId ==. bar ^. BarFooId)\n     query2 =\n       from $ \\(mbaz `\u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e` quux) -\u003e do\n         return (mbaz ?. BazName, quux)\n     test1 =      (,) \u003c$\u003e query1 \u003c*\u003e query2\n     test2 = flip (,) \u003c$\u003e query2 \u003c*\u003e query1\n\u003c/pre\u003e\u003cp\u003eIf the order was \u003cem\u003enot\u003c/em\u003e reversed, then \u003ccode\u003etest2\u003c/code\u003e would be\n broken: \u003ccode\u003equery1\u003c/code\u003e's \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e would refer to \u003ccode\u003equery2\u003c/code\u003e's\n \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "on",
           "package": "esqueleto",
@@ -2071,6 +2226,7 @@
         "index": {
           "description": "ON clause restrict the JOIN result The ON clause will be applied to the last JOIN that does not have an ON clause yet If there are no JOIN without ON clauses either because you didn do any JOIN or because all JOIN already have their own ON clauses runtime exception OnClauseWithoutMatchingJoinException is thrown ON clauses are optional when doing JOIN On the simple case of doing just one JOIN for example select from foo InnerJoin bar do on foo FooId bar BarFooId there no ambiguity and the rules above just mean that you re allowed to call on only once as in SQL If you have many joins then the on are applied on the reverse order that the JOIN appear For example select from foo InnerJoin bar InnerJoin baz do on baz BazId bar BarBazId on foo FooId bar BarFooId The order is reversed in order to improve composability For example consider query1 and query2 below let query1 from foo InnerJoin bar do on foo FooId bar BarFooId query2 from mbaz LeftOuterJoin quux do return mbaz BazName quux test1 query1 query2 test2 flip query2 query1 If the order was not reversed then test2 would be broken query1 on would refer to query2 LeftOuterJoin",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "on",
           "normalized": "a(Value Bool)-\u003eb()",
@@ -2086,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eORDER BY\u003c/code\u003e clause. See also \u003ccode\u003e\u003ca\u003easc\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edesc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "orderBy",
           "package": "esqueleto",
@@ -2096,6 +2253,7 @@
         "index": {
           "description": "ORDER BY clause See also asc and desc",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "orderBy",
           "normalized": "[a OrderBy]-\u003eb()",
@@ -2111,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "random_",
           "package": "esqueleto",
@@ -2120,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "random_",
           "package": "esqueleto",
@@ -2133,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Reify a \u003ccode\u003eJoinKind\u003c/code\u003e from a \u003ccode\u003eJOIN\u003c/code\u003e.  This\n function is non-strict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "reifyJoinKind",
           "package": "esqueleto",
@@ -2143,6 +2304,7 @@
         "index": {
           "description": "Internal Reify JoinKind from JOIN This function is non-strict",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "reifyJoinKind",
           "normalized": "a b c-\u003eJoinKind",
@@ -2158,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "round_",
           "package": "esqueleto",
@@ -2167,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "round_",
           "normalized": "a(Value b)-\u003ea(Value c)",
@@ -2182,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSET\u003c/code\u003e clause used on \u003ccode\u003eUPDATE\u003c/code\u003es.  Note that while it's not\n a type error to use this function on a \u003ccode\u003eSELECT\u003c/code\u003e, it will\n most certainly result in a runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "set",
           "package": "esqueleto",
@@ -2192,6 +2357,7 @@
         "index": {
           "description": "SET clause used on UPDATE Note that while it not type error to use this function on SELECT it will most certainly result in runtime error",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "set",
           "normalized": "a(Entity b)-\u003e[a(Update b)]-\u003ec()",
@@ -2207,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) \u003ccode\u003esmartJoin a b\u003c/code\u003e is a \u003ccode\u003eJOIN\u003c/code\u003e of the correct kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "smartJoin",
           "package": "esqueleto",
@@ -2217,6 +2384,7 @@
         "index": {
           "description": "Internal smartJoin is JOIN of the correct kind",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "smartJoin",
           "normalized": "a-\u003eb-\u003ec a b",
@@ -2233,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a subquery \u003ccode\u003eSELECT\u003c/code\u003e in an expression.  Returns a\n list of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "subList_select",
           "package": "esqueleto",
@@ -2243,6 +2412,7 @@
         "index": {
           "description": "Execute subquery SELECT in an expression Returns list of values",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "subList_select",
           "normalized": "a(b(Value c))-\u003eb(ValueList c)",
@@ -2259,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003esublist_select\u003c/code\u003e but using \u003ccode\u003eSELECT DISTINCT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "subList_selectDistinct",
           "package": "esqueleto",
@@ -2269,6 +2440,7 @@
         "index": {
           "description": "Same as sublist select but using SELECT DISTINCT",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "subList_selectDistinct",
           "normalized": "a(b(Value c))-\u003eb(ValueList c)",
@@ -2285,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a subquery \u003ccode\u003eSELECT\u003c/code\u003e in an expression.  Returns a\n simple value so should be used only when the \u003ccode\u003eSELECT\u003c/code\u003e query\n is guaranteed to return just one row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "sub_select",
           "package": "esqueleto",
@@ -2295,6 +2468,7 @@
         "index": {
           "description": "Execute subquery SELECT in an expression Returns simple value so should be used only when the SELECT query is guaranteed to return just one row",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "sub_select",
           "normalized": "a(b(Value c))-\u003eb(Value c)",
@@ -2310,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esub_select\u003c/a\u003e\u003c/code\u003e but using \u003ccode\u003eSELECT DISTINCT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "sub_selectDistinct",
           "package": "esqueleto",
@@ -2320,6 +2495,7 @@
         "index": {
           "description": "Same as sub select but using SELECT DISTINCT",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "sub_selectDistinct",
           "normalized": "a(b(Value c))-\u003eb(Value c)",
@@ -2335,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "sum_",
           "package": "esqueleto",
@@ -2344,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "sum_",
           "normalized": "a(Value b)-\u003ea(Value(Maybe c))",
@@ -2358,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "toSomeValues",
           "package": "esqueleto",
@@ -2367,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "toSomeValues",
           "normalized": "a-\u003e[SomeValue b]",
@@ -2383,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a constant value from Haskell-land to the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "val",
           "package": "esqueleto",
@@ -2393,6 +2574,7 @@
         "index": {
           "description": "Lift constant value from Haskell-land to the query",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "val",
           "normalized": "a-\u003eb(Value a)",
@@ -2408,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a list of constant value from Haskell-land to the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "valList",
           "package": "esqueleto",
@@ -2418,6 +2601,7 @@
         "index": {
           "description": "Lift list of constant value from Haskell-land to the query",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "valList",
           "normalized": "[a]-\u003eb(ValueList a)",
@@ -2434,6 +2618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eWHERE\u003c/code\u003e clause: restrict the query's result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "where_",
           "package": "esqueleto",
@@ -2444,6 +2629,7 @@
         "index": {
           "description": "WHERE clause restrict the query result",
           "hierarchy": "Database Esqueleto Internal Language",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Language",
           "name": "where_",
           "normalized": "a(Value Bool)-\u003eb()",
@@ -2459,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an internal module, anything exported by this module\n may change without a major version bump.  Please use only\n \u003ca\u003eDatabase.Esqueleto\u003c/a\u003e if possible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "Sql",
           "package": "esqueleto",
@@ -2468,6 +2655,7 @@
         "index": {
           "description": "This is an internal module anything exported by this module may change without major version bump Please use only Database.Esqueleto if possible",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "Sql",
           "package": "esqueleto",
@@ -2482,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation needed to escape and use identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "IdentInfo",
           "package": "esqueleto",
@@ -2491,6 +2680,7 @@
         "index": {
           "description": "Information needed to escape and use identifiers",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "IdentInfo",
           "package": "esqueleto",
@@ -2505,6 +2695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of identifiers already in use and supply of temporary\n identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "IdentState",
           "package": "esqueleto",
@@ -2514,6 +2705,7 @@
         "index": {
           "description": "List of identifiers already in use and supply of temporary identifiers",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "IdentState",
           "package": "esqueleto",
@@ -2528,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Mode of query being converted by \u003ccode\u003e\u003ca\u003etoRawSql\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "Mode",
           "package": "esqueleto",
@@ -2537,6 +2730,7 @@
         "index": {
           "description": "Internal Mode of query being converted by toRawSql",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "Mode",
           "package": "esqueleto",
@@ -2551,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraint synonym for \u003ccode\u003epersistent\u003c/code\u003e entities whose backend\n is \u003ccode\u003e\u003ca\u003eSqlPersistT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SqlEntity",
           "package": "esqueleto",
@@ -2560,6 +2755,7 @@
         "index": {
           "description": "Constraint synonym for persistent entities whose backend is SqlPersistT",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SqlEntity",
           "package": "esqueleto",
@@ -2574,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression on the SQL backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SqlExpr",
           "package": "esqueleto",
@@ -2583,6 +2780,7 @@
         "index": {
           "description": "An expression on the SQL backend",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SqlExpr",
           "package": "esqueleto",
@@ -2597,6 +2795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQL backend for \u003ccode\u003eesqueleto\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eSqlPersistT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SqlQuery",
           "package": "esqueleto",
@@ -2606,6 +2805,7 @@
         "index": {
           "description": "SQL backend for esqueleto using SqlPersistT",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SqlQuery",
           "package": "esqueleto",
@@ -2620,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Class for mapping results coming from \u003ccode\u003e\u003ca\u003eSqlQuery\u003c/a\u003e\u003c/code\u003e\n into actual results.\n\u003c/p\u003e\u003cp\u003eThis looks very similar to \u003ccode\u003eRawSql\u003c/code\u003e, and it is!  However,\n there are some crucial differences and ultimately they're\n different classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SqlSelect",
           "package": "esqueleto",
@@ -2629,6 +2830,7 @@
         "index": {
           "description": "Internal Class for mapping results coming from SqlQuery into actual results This looks very similar to RawSql and it is However there are some crucial differences and ultimately they re different classes",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SqlSelect",
           "package": "esqueleto",
@@ -2642,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "UnsafeSqlFunctionArgument",
           "package": "esqueleto",
@@ -2650,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "UnsafeSqlFunctionArgument",
           "package": "esqueleto",
@@ -2663,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "DELETE",
           "package": "esqueleto",
@@ -2672,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "DELETE",
           "package": "esqueleto",
@@ -2686,6 +2892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMode\u003c/a\u003e\u003c/code\u003e should be either \u003ccode\u003e\u003ca\u003eSELECT\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eSELECT_DISTINCT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "INSERT_INTO",
           "package": "esqueleto",
@@ -2696,6 +2903,7 @@
         "index": {
           "description": "Mode should be either SELECT or SELECT DISTINCT",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "INSERT_INTO",
           "package": "esqueleto",
@@ -2709,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SELECT",
           "package": "esqueleto",
@@ -2718,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SELECT",
           "package": "esqueleto",
@@ -2731,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SELECT_DISTINCT",
           "package": "esqueleto",
@@ -2740,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "SELECT_DISTINCT",
           "package": "esqueleto",
@@ -2753,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "UPDATE",
           "package": "esqueleto",
@@ -2762,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "UPDATE",
           "package": "esqueleto",
@@ -2828,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "initialIdentState",
           "package": "esqueleto",
@@ -2837,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "initialIdentState",
           "package": "esqueleto",
@@ -2905,6 +3121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Execute an \u003ccode\u003eesqueleto\u003c/code\u003e statement inside\n \u003ccode\u003epersistent\u003c/code\u003e's \u003ccode\u003e\u003ca\u003eSqlPersistT\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "rawEsqueleto",
           "package": "esqueleto",
@@ -2915,6 +3132,7 @@
         "index": {
           "description": "Internal Execute an esqueleto statement inside persistent SqlPersistT monad",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "rawEsqueleto",
           "normalized": "Mode-\u003eSqlQuery a-\u003eSqlPersistT b Int",
@@ -2931,6 +3149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Execute an \u003ccode\u003eesqueleto\u003c/code\u003e \u003ccode\u003eSELECT\u003c/code\u003e \u003ccode\u003e\u003ca\u003eSqlQuery\u003c/a\u003e\u003c/code\u003e inside\n \u003ccode\u003epersistent\u003c/code\u003e's \u003ccode\u003e\u003ca\u003eSqlPersistT\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "rawSelectSource",
           "package": "esqueleto",
@@ -2941,6 +3160,7 @@
         "index": {
           "description": "Internal Execute an esqueleto SELECT SqlQuery inside persistent SqlPersistT monad",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "rawSelectSource",
           "normalized": "Mode-\u003eSqlQuery a-\u003eSqlPersistT b(Source(ResourceT(SqlPersistT b))c)",
@@ -2957,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Run a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e of rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "runSource",
           "package": "esqueleto",
@@ -2967,6 +3188,7 @@
         "index": {
           "description": "Internal Run Source of rows",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "runSource",
           "normalized": "Source(ResourceT(SqlPersistT a))b-\u003eSqlPersistT a[b]",
@@ -3090,6 +3312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate \u003ccode\u003eINSERT INTO\u003c/code\u003e clause instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "sqlInsertInto",
           "package": "esqueleto",
@@ -3100,6 +3323,7 @@
         "index": {
           "description": "Create INSERT INTO clause instead",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "sqlInsertInto",
           "normalized": "IdentInfo-\u003ea-\u003e(Builder,[PersistValue])",
@@ -3116,6 +3340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of columns that will be consumed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "sqlSelectColCount",
           "package": "esqueleto",
@@ -3126,6 +3351,7 @@
         "index": {
           "description": "Number of columns that will be consumed",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "sqlSelectColCount",
           "normalized": "Proxy a-\u003eInt",
@@ -3142,6 +3368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the variable part of the \u003ccode\u003eSELECT\u003c/code\u003e query and\n returns the list of \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003es that will be given to\n \u003ccode\u003e\u003ca\u003erawQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "sqlSelectCols",
           "package": "esqueleto",
@@ -3152,6 +3379,7 @@
         "index": {
           "description": "Creates the variable part of the SELECT query and returns the list of PersistValue that will be given to rawQuery",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "sqlSelectCols",
           "normalized": "IdentInfo-\u003ea-\u003e(Builder,[PersistValue])",
@@ -3168,6 +3396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a row of the result into the data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "sqlSelectProcessRow",
           "package": "esqueleto",
@@ -3178,6 +3407,7 @@
         "index": {
           "description": "Transform row of the result into the data type",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "sqlSelectProcessRow",
           "normalized": "[PersistValue]-\u003eEither Text a",
@@ -3194,6 +3424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Pretty prints a \u003ccode\u003e\u003ca\u003eSqlQuery\u003c/a\u003e\u003c/code\u003e into a SQL query.\n\u003c/p\u003e\u003cp\u003eNote: if you're curious about the SQL query being generated by\n \u003ccode\u003eesqueleto\u003c/code\u003e, instead of manually using this function (which is\n possible but tedious), you may just turn on query logging of\n \u003ccode\u003epersistent\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "toRawSql",
           "package": "esqueleto",
@@ -3204,6 +3435,7 @@
         "index": {
           "description": "Internal Pretty prints SqlQuery into SQL query Note if you re curious about the SQL query being generated by esqueleto instead of manually using this function which is possible but tedious you may just turn on query logging of persistent",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "toRawSql",
           "normalized": "Mode-\u003eIdentInfo-\u003eSqlQuery a-\u003e(Builder,[PersistValue])",
@@ -3220,6 +3452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Create a custom binary operator.  You \u003cem\u003eshould\u003c/em\u003e\n \u003cem\u003enot\u003c/em\u003e use this function directly since its type is very\n general, you should always use it with an explicit type\n signature.  For example:\n\u003c/p\u003e\u003cpre\u003e\n (==.) :: SqlExpr (Value a) -\u003e SqlExpr (Value a) -\u003e SqlExpr (Value Bool)\n (==.) = unsafeSqlBinOp \u003ca\u003e = \u003c/a\u003e\n\u003c/pre\u003e\u003cp\u003eIn the example above, we constraint the arguments to be of the\n same type and constraint the result to be a boolean value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "unsafeSqlBinOp",
           "package": "esqueleto",
@@ -3230,6 +3463,7 @@
         "index": {
           "description": "Internal Create custom binary operator You should not use this function directly since its type is very general you should always use it with an explicit type signature For example SqlExpr Value SqlExpr Value SqlExpr Value Bool unsafeSqlBinOp In the example above we constraint the arguments to be of the same type and constraint the result to be boolean value",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "unsafeSqlBinOp",
           "normalized": "Builder-\u003eSqlExpr(Value a)-\u003eSqlExpr(Value b)-\u003eSqlExpr(Value c)",
@@ -3246,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) A raw SQL function.  Once again, the same warning\n from \u003ccode\u003e\u003ca\u003eunsafeSqlBinOp\u003c/a\u003e\u003c/code\u003e applies to this function as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "unsafeSqlFunction",
           "package": "esqueleto",
@@ -3256,6 +3491,7 @@
         "index": {
           "description": "Internal raw SQL function Once again the same warning from unsafeSqlBinOp applies to this function as well",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "unsafeSqlFunction",
           "normalized": "Builder-\u003ea-\u003eSqlExpr(Value b)",
@@ -3272,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) A raw SQL value.  The same warning from\n \u003ccode\u003e\u003ca\u003eunsafeSqlBinOp\u003c/a\u003e\u003c/code\u003e applies to this function as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "unsafeSqlValue",
           "package": "esqueleto",
@@ -3282,6 +3519,7 @@
         "index": {
           "description": "Internal raw SQL value The same warning from unsafeSqlBinOp applies to this function as well",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "unsafeSqlValue",
           "normalized": "Builder-\u003eSqlExpr(Value a)",
@@ -3351,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal) Coerce a value's type from 'SqlExpr (Value a)' to\n 'SqlExpr (Value b)'.  You should \u003cem\u003enot\u003c/em\u003e use this function\n unless you know what you're doing!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "veryUnsafeCoerceSqlExprValue",
           "package": "esqueleto",
@@ -3361,6 +3600,7 @@
         "index": {
           "description": "Internal Coerce value type from SqlExpr Value to SqlExpr Value You should not use this function unless you know what you re doing",
           "hierarchy": "Database Esqueleto Internal Sql",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto.Internal.Sql",
           "name": "veryUnsafeCoerceSqlExprValue",
           "normalized": "SqlExpr(Value a)-\u003eSqlExpr(Value b)",
@@ -3377,6 +3617,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eesqueleto\u003c/code\u003e EDSL (embedded domain specific language).\n This module replaces \u003ccode\u003eDatabase.Persist\u003c/code\u003e, so instead of\n importing that module you should just import this one:\n\u003c/p\u003e\u003cpre\u003e\n -- For a module using just esqueleto.\n import Database.Esqueleto\n\u003c/pre\u003e\u003cp\u003eIf you need to use \u003ccode\u003epersistent\u003c/code\u003e's default support for queries\n as well, either import it qualified:\n\u003c/p\u003e\u003cpre\u003e\n -- For a module that mostly uses esqueleto.\n import Database.Esqueleto\n import qualified Database.Persistent as P\n\u003c/pre\u003e\u003cp\u003eor import \u003ccode\u003eesqueleto\u003c/code\u003e itself qualified:\n\u003c/p\u003e\u003cpre\u003e\n -- For a module uses esqueleto just on some queries.\n import Database.Persistent\n import qualified Database.Esqueleto as E\n\u003c/pre\u003e\u003cp\u003eOther than identifier name clashes, \u003ccode\u003eesqueleto\u003c/code\u003e does not\n conflict with \u003ccode\u003epersistent\u003c/code\u003e in any way.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "Esqueleto",
           "package": "esqueleto",
@@ -3386,6 +3627,7 @@
         "index": {
           "description": "The esqueleto EDSL embedded domain specific language This module replaces Database.Persist so instead of importing that module you should just import this one For module using just esqueleto import Database.Esqueleto If you need to use persistent default support for queries as well either import it qualified For module that mostly uses esqueleto import Database.Esqueleto import qualified Database.Persistent as or import esqueleto itself qualified For module uses esqueleto just on some queries import Database.Persistent import qualified Database.Esqueleto as Other than identifier name clashes esqueleto does not conflict with persistent in any way",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "Esqueleto",
           "package": "esqueleto",
@@ -3400,6 +3642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents a \u003ccode\u003eCROSS JOIN\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e for an example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "CrossJoin",
           "package": "esqueleto",
@@ -3409,6 +3652,7 @@
         "index": {
           "description": "Data type that represents CROSS JOIN see LeftOuterJoin for an example",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "CrossJoin",
           "package": "esqueleto",
@@ -3423,6 +3667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinally tagless representation of \u003ccode\u003eesqueleto\u003c/code\u003e's EDSL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "Esqueleto",
           "package": "esqueleto",
@@ -3432,6 +3677,7 @@
         "index": {
           "description": "Finally tagless representation of esqueleto EDSL",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "Esqueleto",
           "package": "esqueleto",
@@ -3446,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents a \u003ccode\u003eFULL OUTER JOIN\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e for an example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "FullOuterJoin",
           "package": "esqueleto",
@@ -3455,6 +3702,7 @@
         "index": {
           "description": "Data type that represents FULL OUTER JOIN see LeftOuterJoin for an example",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "FullOuterJoin",
           "package": "esqueleto",
@@ -3469,6 +3717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents an \u003ccode\u003eINNER JOIN\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e for an example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "InnerJoin",
           "package": "esqueleto",
@@ -3478,6 +3727,7 @@
         "index": {
           "description": "Data type that represents an INNER JOIN see LeftOuterJoin for an example",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "InnerJoin",
           "package": "esqueleto",
@@ -3492,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents a \u003ccode\u003eLEFT OUTER JOIN\u003c/code\u003e. For example,\n\u003c/p\u003e\u003cpre\u003e\n select $\n from $ \\(person `\u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e` pet) -\u003e\n   ...\n\u003c/pre\u003e\u003cp\u003eis translated into\n\u003c/p\u003e\u003cpre\u003e\n SELECT ...\n FROM Person LEFT OUTER JOIN Pet\n ...\n\u003c/pre\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "LeftOuterJoin",
           "package": "esqueleto",
@@ -3501,6 +3752,7 @@
         "index": {
           "description": "Data type that represents LEFT OUTER JOIN For example select from person LeftOuterJoin pet is translated into SELECT FROM Person LEFT OUTER JOIN Pet See also from",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "LeftOuterJoin",
           "package": "esqueleto",
@@ -3515,6 +3767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown whenever \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e is used to create an \u003ccode\u003eON\u003c/code\u003e\n clause but no matching \u003ccode\u003eJOIN\u003c/code\u003e is found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "OnClauseWithoutMatchingJoinException",
           "package": "esqueleto",
@@ -3524,6 +3777,7 @@
         "index": {
           "description": "Exception thrown whenever on is used to create an ON clause but no matching JOIN is found",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "OnClauseWithoutMatchingJoinException",
           "package": "esqueleto",
@@ -3538,6 +3792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used by \u003ccode\u003e\u003ca\u003eorderBy\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003easc\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edesc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "OrderBy",
           "package": "esqueleto",
@@ -3547,6 +3802,7 @@
         "index": {
           "description": "Phantom type used by orderBy asc and desc",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "OrderBy",
           "package": "esqueleto",
@@ -3561,6 +3817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents a \u003ccode\u003eRIGHT OUTER JOIN\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e for an example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "RightOuterJoin",
           "package": "esqueleto",
@@ -3570,6 +3827,7 @@
         "index": {
           "description": "Data type that represents RIGHT OUTER JOIN see LeftOuterJoin for an example",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "RightOuterJoin",
           "package": "esqueleto",
@@ -3584,6 +3842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraint synonym for \u003ccode\u003epersistent\u003c/code\u003e entities whose backend\n is \u003ccode\u003e\u003ca\u003eSqlPersistT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "SqlEntity",
           "package": "esqueleto",
@@ -3593,6 +3852,7 @@
         "index": {
           "description": "Constraint synonym for persistent entities whose backend is SqlPersistT",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "SqlEntity",
           "package": "esqueleto",
@@ -3607,6 +3867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression on the SQL backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "SqlExpr",
           "package": "esqueleto",
@@ -3616,6 +3877,7 @@
         "index": {
           "description": "An expression on the SQL backend",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "SqlExpr",
           "package": "esqueleto",
@@ -3630,6 +3892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQL backend for \u003ccode\u003eesqueleto\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eSqlPersistT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "SqlQuery",
           "package": "esqueleto",
@@ -3639,6 +3902,7 @@
         "index": {
           "description": "SQL backend for esqueleto using SqlPersistT",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "SqlQuery",
           "package": "esqueleto",
@@ -3653,6 +3917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single value (as opposed to a whole entity).  You may use\n \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e^.\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e or \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e?.\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e to get a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eEntity\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "Value",
           "package": "esqueleto",
@@ -3662,6 +3927,7 @@
         "index": {
           "description": "single value as opposed to whole entity You may use or to get Value from an Entity",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "Value",
           "package": "esqueleto",
@@ -3676,6 +3942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of single values.  There's a limited set of funcitons\n able to work with this data type (such as \u003ccode\u003e\u003ca\u003esubList_select\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003evalList\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ein_\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eexists\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "ValueList",
           "package": "esqueleto",
@@ -3685,6 +3952,7 @@
         "index": {
           "description": "list of single values There limited set of funcitons able to work with this data type such as subList select valList in and exists",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "ValueList",
           "package": "esqueleto",
@@ -3698,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(||.)",
           "package": "esqueleto",
@@ -3707,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(||.) ||.",
           "normalized": "a(Value Bool)-\u003ea(Value Bool)-\u003ea(Value Bool)",
@@ -3721,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(!=.)",
           "package": "esqueleto",
@@ -3730,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(!=.) !=.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -3745,6 +4017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe string \u003ccode\u003e\u003ccode\u003e\u003ca\u003e%\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  May be useful while using \u003ccode\u003e\u003ca\u003elike\u003c/a\u003e\u003c/code\u003e and\n concatenation (\u003ccode\u003e\u003ca\u003econcat_\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003e++.\u003c/a\u003e\u003c/code\u003e, depending on your\n database).  Note that you always to type the parenthesis,\n for example:\n\u003c/p\u003e\u003cpre\u003e\n name ``'like'`` (%) ++. val \u003ca\u003eJohn\u003c/a\u003e ++. (%)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(%)",
           "package": "esqueleto",
@@ -3755,6 +4028,7 @@
         "index": {
           "description": "The string May be useful while using like and concatenation concat or depending on your database Note that you always to type the parenthesis for example name like val John",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(%) %",
           "package": "esqueleto",
@@ -3767,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(&&.)",
           "package": "esqueleto",
@@ -3776,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(&&.) &&.",
           "normalized": "a(Value Bool)-\u003ea(Value Bool)-\u003ea(Value Bool)",
@@ -3790,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(*=.)",
           "package": "esqueleto",
@@ -3799,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(*=.) *=.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -3813,6 +4091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(*.)",
           "package": "esqueleto",
@@ -3822,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(*.) *.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -3837,6 +4117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e||\u003c/code\u003e string concatenation operator (named after\n Haskell's \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e in order to avoid naming clash with \u003ccode\u003e\u003ca\u003e||.\u003c/a\u003e\u003c/code\u003e).\n Supported by SQLite and PostgreSQL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(++.)",
           "package": "esqueleto",
@@ -3847,6 +4128,7 @@
         "index": {
           "description": "The string concatenation operator named after Haskell in order to avoid naming clash with Supported by SQLite and PostgreSQL",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(++.) ++.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -3861,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(+=.)",
           "package": "esqueleto",
@@ -3870,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(+=.) +=.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -3884,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(+.)",
           "package": "esqueleto",
@@ -3893,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(+.) +.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -3907,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(-=.)",
           "package": "esqueleto",
@@ -3916,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(-=.) -=.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -3930,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(-.)",
           "package": "esqueleto",
@@ -3939,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(-.) -.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -3953,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(/=.)",
           "package": "esqueleto",
@@ -3962,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(/=.) /=.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -3976,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(/.)",
           "package": "esqueleto",
@@ -3985,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(/.) /.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value b)",
@@ -4000,6 +4294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003ePersistField\u003c/a\u003e\u003c/code\u003e constructor to \u003ccode\u003eexpr Value\u003c/code\u003e arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(\u003c#)",
           "package": "esqueleto",
@@ -4010,6 +4305,7 @@
         "index": {
           "description": "Apply PersistField constructor to expr Value arguments",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(\u003c#) \u003c#",
           "normalized": "(a-\u003eb)-\u003ec(Value a)-\u003ec(Insertion b)",
@@ -4025,6 +4321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply extra \u003ccode\u003eexpr Value\u003c/code\u003e arguments to a \u003ccode\u003e\u003ca\u003ePersistField\u003c/a\u003e\u003c/code\u003e constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(\u003c&\u003e)",
           "package": "esqueleto",
@@ -4035,6 +4332,7 @@
         "index": {
           "description": "Apply extra expr Value arguments to PersistField constructor",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "a(Insertion(b-\u003ec))-\u003ea(Value b)-\u003ea(Insertion c)",
@@ -4049,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(\u003c=.)",
           "package": "esqueleto",
@@ -4058,6 +4357,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(\u003c=.) \u003c=.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -4072,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(\u003c.)",
           "package": "esqueleto",
@@ -4081,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(\u003c.) \u003c.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -4095,6 +4397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(==.)",
           "package": "esqueleto",
@@ -4104,6 +4407,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(==.) ==.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -4118,6 +4422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(=.)",
           "package": "esqueleto",
@@ -4127,6 +4432,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(=.) =.",
           "normalized": "EntityField a b-\u003ec(Value b)-\u003ec(Update a)",
@@ -4141,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(\u003e=.)",
           "package": "esqueleto",
@@ -4150,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(\u003e=.) \u003e=.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -4164,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(\u003e.)",
           "package": "esqueleto",
@@ -4173,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(\u003e.) \u003e.",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -4188,6 +4498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject a field of an entity that may be null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(?.)",
           "package": "esqueleto",
@@ -4198,6 +4509,7 @@
         "index": {
           "description": "Project field of an entity that may be null",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(?.) ?.",
           "normalized": "a(Maybe(Entity b))-\u003eEntityField b c-\u003ea(Value(Maybe c))",
@@ -4213,6 +4525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject a field of an entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "(^.)",
           "package": "esqueleto",
@@ -4223,6 +4536,7 @@
         "index": {
           "description": "Project field of an entity",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "(^.) ^.",
           "normalized": "a(Entity b)-\u003eEntityField b c-\u003ea(Value c)",
@@ -4238,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAscending order of this field or expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "asc",
           "package": "esqueleto",
@@ -4248,6 +4563,7 @@
         "index": {
           "description": "Ascending order of this field or expression",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "asc",
           "normalized": "a(Value b)-\u003ea OrderBy",
@@ -4262,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "avg_",
           "package": "esqueleto",
@@ -4271,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "avg_",
           "normalized": "a(Value b)-\u003ea(Value(Maybe c))",
@@ -4285,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "ceiling_",
           "package": "esqueleto",
@@ -4294,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "ceiling_",
           "normalized": "a(Value b)-\u003ea(Value c)",
@@ -4309,6 +4629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCONCAT\u003c/code\u003e function with a variable number of\n parameters.  Supported by MySQL and PostgreSQL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "concat_",
           "package": "esqueleto",
@@ -4319,6 +4640,7 @@
         "index": {
           "description": "The CONCAT function with variable number of parameters Supported by MySQL and PostgreSQL",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "concat_",
           "normalized": "[a(Value b)]-\u003ea(Value b)",
@@ -4334,6 +4656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCOUNT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "count",
           "package": "esqueleto",
@@ -4344,6 +4667,7 @@
         "index": {
           "description": "COUNT",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "count",
           "normalized": "a(Value b)-\u003ea(Value c)",
@@ -4359,6 +4683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCOUNT(*)\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "countRows",
           "package": "esqueleto",
@@ -4369,6 +4694,7 @@
         "index": {
           "description": "COUNT value",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "countRows",
           "package": "esqueleto",
@@ -4383,6 +4709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e that does not\n clash with \u003ccode\u003eesqueleto\u003c/code\u003e's \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "deleteKey",
           "package": "esqueleto",
@@ -4393,6 +4720,7 @@
         "index": {
           "description": "Synonym for delete that does not clash with esqueleto delete",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "deleteKey",
           "normalized": "Key a-\u003eb()",
@@ -4409,6 +4737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescending order of this field or expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "desc",
           "package": "esqueleto",
@@ -4419,6 +4748,7 @@
         "index": {
           "description": "Descending order of this field or expression",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "desc",
           "normalized": "a(Value b)-\u003ea OrderBy",
@@ -4434,6 +4764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEXISTS\u003c/code\u003e operator.  For example:\n\u003c/p\u003e\u003cpre\u003e\n select $\n from $ \\person -\u003e do\n where_ $ exists $\n          from $ \\post -\u003e do\n          where_ (post ^. BlogPostAuthorId ==. person ^. PersonId)\n return person\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "exists",
           "package": "esqueleto",
@@ -4444,6 +4775,7 @@
         "index": {
           "description": "EXISTS operator For example select from person do where exists from post do where post BlogPostAuthorId person PersonId return person",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "exists",
           "normalized": "a()-\u003eb(Value Bool)",
@@ -4458,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "floor_",
           "package": "esqueleto",
@@ -4467,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "floor_",
           "normalized": "a(Value b)-\u003ea(Value c)",
@@ -4482,6 +4816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eGROUP BY\u003c/code\u003e clause. You can enclose multiple columns\n in a tuple.\n\u003c/p\u003e\u003cpre\u003e\n select $ from \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar) -\u003e do\n   on (foo ^. FooBarId ==. bar ^. BarId)\n   groupBy (bar ^. BarId, bar ^. BarName)\n   return (bar ^. BarId, bar ^. BarName, countRows)\n\u003c/pre\u003e\u003cp\u003eWith groupBy you can sort by aggregate functions, like so (we\n used \u003ccode\u003elet\u003c/code\u003e to restrict the more general \u003ccode\u003e\u003ca\u003ecountRows\u003c/a\u003e\u003c/code\u003e to\n \u003ccode\u003eSqlExpr (Value Int)\u003c/code\u003e to avoid ambiguity):\n\u003c/p\u003e\u003cpre\u003e\n r \u003c- select $ from \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar) -\u003e do\n   on (foo ^. FooBarId ==. bar ^. BarId)\n   groupBy $ bar ^. BarName\n   let countRows' = countRows\n   orderBy [asc countRows']\n   return (bar ^. BarName, countRows')\n forM_ r $ \\((Value name), (Value count)) -\u003e do\n   print name\n   print (count :: Int)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "groupBy",
           "package": "esqueleto",
@@ -4492,6 +4827,7 @@
         "index": {
           "description": "GROUP BY clause You can enclose multiple columns in tuple select from foo InnerJoin bar do on foo FooBarId bar BarId groupBy bar BarId bar BarName return bar BarId bar BarName countRows With groupBy you can sort by aggregate functions like so we used let to restrict the more general countRows to SqlExpr Value Int to avoid ambiguity select from foo InnerJoin bar do on foo FooBarId bar BarId groupBy bar BarName let countRows countRows orderBy asc countRows return bar BarName countRows forM Value name Value count do print name print count Int",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "groupBy",
           "normalized": "a-\u003eb()",
@@ -4508,6 +4844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eHAVING\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 1.2.2\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "having",
           "package": "esqueleto",
@@ -4518,6 +4855,7 @@
         "index": {
           "description": "HAVING Since",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "having",
           "normalized": "a(Value Bool)-\u003eb()",
@@ -4533,6 +4871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eIN\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "in_",
           "package": "esqueleto",
@@ -4543,6 +4882,7 @@
         "index": {
           "description": "IN operator",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "in_",
           "normalized": "a(Value b)-\u003ea(ValueList b)-\u003ea(Value Bool)",
@@ -4558,6 +4898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eIS NULL\u003c/code\u003e comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "isNothing",
           "package": "esqueleto",
@@ -4568,6 +4909,7 @@
         "index": {
           "description": "IS NULL comparison",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "isNothing",
           "normalized": "a(Value(Maybe b))-\u003ea(Value Bool)",
@@ -4584,6 +4926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin nested \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003es in a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e into one. This is useful when\n calling aggregate functions on nullable fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "joinV",
           "package": "esqueleto",
@@ -4594,6 +4937,7 @@
         "index": {
           "description": "Join nested Maybe in Value into one This is useful when calling aggregate functions on nullable fields",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "joinV",
           "normalized": "a(Value(Maybe(Maybe b)))-\u003ea(Value(Maybe b))",
@@ -4609,6 +4953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, promotes a value of type \u003ccode\u003etyp\u003c/code\u003e into\n one of type \u003ccode\u003eMaybe typ\u003c/code\u003e.  It should hold that \u003ccode\u003eval . Just\n === just . val\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "just",
           "package": "esqueleto",
@@ -4619,6 +4964,7 @@
         "index": {
           "description": "Analogous to Just promotes value of type typ into one of type Maybe typ It should hold that val Just just val",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "just",
           "normalized": "a(Value b)-\u003ea(Value(Maybe b))",
@@ -4634,6 +4980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLIKE\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "like",
           "package": "esqueleto",
@@ -4644,6 +4991,7 @@
         "index": {
           "description": "LIKE operator",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "like",
           "normalized": "a(Value b)-\u003ea(Value b)-\u003ea(Value Bool)",
@@ -4659,6 +5007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLIMIT\u003c/code\u003e.  Limit the number of returned rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "limit",
           "package": "esqueleto",
@@ -4669,6 +5018,7 @@
         "index": {
           "description": "LIMIT Limit the number of returned rows",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "limit",
           "normalized": "Int-\u003ea()",
@@ -4683,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "max_",
           "package": "esqueleto",
@@ -4692,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "max_",
           "normalized": "a(Value b)-\u003ea(Value(Maybe b))",
@@ -4706,6 +5058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "min_",
           "package": "esqueleto",
@@ -4715,6 +5068,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "min_",
           "normalized": "a(Value b)-\u003ea(Value(Maybe b))",
@@ -4730,6 +5084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNOT EXISTS\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "notExists",
           "package": "esqueleto",
@@ -4740,6 +5095,7 @@
         "index": {
           "description": "NOT EXISTS operator",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "notExists",
           "normalized": "a()-\u003eb(Value Bool)",
@@ -4756,6 +5112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNOT IN\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "notIn",
           "package": "esqueleto",
@@ -4766,6 +5123,7 @@
         "index": {
           "description": "NOT IN operator",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "notIn",
           "normalized": "a(Value b)-\u003ea(ValueList b)-\u003ea(Value Bool)",
@@ -4781,6 +5139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "not_",
           "package": "esqueleto",
@@ -4790,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "not_",
           "normalized": "a(Value Bool)-\u003ea(Value Bool)",
@@ -4805,6 +5165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNULL\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "nothing",
           "package": "esqueleto",
@@ -4815,6 +5176,7 @@
         "index": {
           "description": "NULL value",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "nothing",
           "package": "esqueleto",
@@ -4828,6 +5190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eOFFSET\u003c/code\u003e.  Usually used with \u003ccode\u003e\u003ca\u003elimit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "offset",
           "package": "esqueleto",
@@ -4838,6 +5201,7 @@
         "index": {
           "description": "OFFSET Usually used with limit",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "offset",
           "normalized": "Int-\u003ea()",
@@ -4853,6 +5217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eON\u003c/code\u003e clause: restrict the a \u003ccode\u003eJOIN\u003c/code\u003e's result.  The \u003ccode\u003eON\u003c/code\u003e\n clause will be applied to the \u003cem\u003elast\u003c/em\u003e \u003ccode\u003eJOIN\u003c/code\u003e that does not\n have an \u003ccode\u003eON\u003c/code\u003e clause yet.  If there are no \u003ccode\u003eJOIN\u003c/code\u003es without\n \u003ccode\u003eON\u003c/code\u003e clauses (either because you didn't do any \u003ccode\u003eJOIN\u003c/code\u003e, or\n because all \u003ccode\u003eJOIN\u003c/code\u003es already have their own \u003ccode\u003eON\u003c/code\u003e clauses), a\n runtime exception \u003ccode\u003e\u003ca\u003eOnClauseWithoutMatchingJoinException\u003c/a\u003e\u003c/code\u003e is\n thrown.  \u003ccode\u003eON\u003c/code\u003e clauses are optional when doing \u003ccode\u003eJOIN\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eOn the simple case of doing just one \u003ccode\u003eJOIN\u003c/code\u003e, for example\n\u003c/p\u003e\u003cpre\u003e\n select $\n from $ \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar) -\u003e do\n   on (foo ^. FooId ==. bar ^. BarFooId)\n   ...\n\u003c/pre\u003e\u003cp\u003ethere's no ambiguity and the rules above just mean that\n you're allowed to call \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e only once (as in SQL).  If you\n have many joins, then the \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003es are applied on the \u003cem\u003ereverse\u003c/em\u003e\n order that the \u003ccode\u003eJOIN\u003c/code\u003es appear.  For example:\n\u003c/p\u003e\u003cpre\u003e\n select $\n from $ \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` baz) -\u003e do\n   on (baz ^. BazId ==. bar ^. BarBazId)\n   on (foo ^. FooId ==. bar ^. BarFooId)\n   ...\n\u003c/pre\u003e\u003cp\u003eThe order is \u003cem\u003ereversed\u003c/em\u003e in order to improve composability.\n For example, consider \u003ccode\u003equery1\u003c/code\u003e and \u003ccode\u003equery2\u003c/code\u003e below:\n\u003c/p\u003e\u003cpre\u003e\n let query1 =\n       from $ \\(foo `\u003ccode\u003e\u003ca\u003eInnerJoin\u003c/a\u003e\u003c/code\u003e` bar) -\u003e do\n         on (foo ^. FooId ==. bar ^. BarFooId)\n     query2 =\n       from $ \\(mbaz `\u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e` quux) -\u003e do\n         return (mbaz ?. BazName, quux)\n     test1 =      (,) \u003c$\u003e query1 \u003c*\u003e query2\n     test2 = flip (,) \u003c$\u003e query2 \u003c*\u003e query1\n\u003c/pre\u003e\u003cp\u003eIf the order was \u003cem\u003enot\u003c/em\u003e reversed, then \u003ccode\u003etest2\u003c/code\u003e would be\n broken: \u003ccode\u003equery1\u003c/code\u003e's \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e would refer to \u003ccode\u003equery2\u003c/code\u003e's\n \u003ccode\u003e\u003ca\u003eLeftOuterJoin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "on",
           "package": "esqueleto",
@@ -4863,6 +5228,7 @@
         "index": {
           "description": "ON clause restrict the JOIN result The ON clause will be applied to the last JOIN that does not have an ON clause yet If there are no JOIN without ON clauses either because you didn do any JOIN or because all JOIN already have their own ON clauses runtime exception OnClauseWithoutMatchingJoinException is thrown ON clauses are optional when doing JOIN On the simple case of doing just one JOIN for example select from foo InnerJoin bar do on foo FooId bar BarFooId there no ambiguity and the rules above just mean that you re allowed to call on only once as in SQL If you have many joins then the on are applied on the reverse order that the JOIN appear For example select from foo InnerJoin bar InnerJoin baz do on baz BazId bar BarBazId on foo FooId bar BarFooId The order is reversed in order to improve composability For example consider query1 and query2 below let query1 from foo InnerJoin bar do on foo FooId bar BarFooId query2 from mbaz LeftOuterJoin quux do return mbaz BazName quux test1 query1 query2 test2 flip query2 query1 If the order was not reversed then test2 would be broken query1 on would refer to query2 LeftOuterJoin",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "on",
           "normalized": "a(Value Bool)-\u003eb()",
@@ -4878,6 +5244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eORDER BY\u003c/code\u003e clause. See also \u003ccode\u003e\u003ca\u003easc\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edesc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "orderBy",
           "package": "esqueleto",
@@ -4888,6 +5255,7 @@
         "index": {
           "description": "ORDER BY clause See also asc and desc",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "orderBy",
           "normalized": "[a OrderBy]-\u003eb()",
@@ -4903,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "random_",
           "package": "esqueleto",
@@ -4912,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "random_",
           "package": "esqueleto",
@@ -4924,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "round_",
           "package": "esqueleto",
@@ -4933,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "round_",
           "normalized": "a(Value b)-\u003ea(Value c)",
@@ -4948,6 +5320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSET\u003c/code\u003e clause used on \u003ccode\u003eUPDATE\u003c/code\u003es.  Note that while it's not\n a type error to use this function on a \u003ccode\u003eSELECT\u003c/code\u003e, it will\n most certainly result in a runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "set",
           "package": "esqueleto",
@@ -4958,6 +5331,7 @@
         "index": {
           "description": "SET clause used on UPDATE Note that while it not type error to use this function on SELECT it will most certainly result in runtime error",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "set",
           "normalized": "a(Entity b)-\u003e[a(Update b)]-\u003ec()",
@@ -4973,6 +5347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a subquery \u003ccode\u003eSELECT\u003c/code\u003e in an expression.  Returns a\n list of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "subList_select",
           "package": "esqueleto",
@@ -4983,6 +5358,7 @@
         "index": {
           "description": "Execute subquery SELECT in an expression Returns list of values",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "subList_select",
           "normalized": "a(b(Value c))-\u003eb(ValueList c)",
@@ -4999,6 +5375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003esublist_select\u003c/code\u003e but using \u003ccode\u003eSELECT DISTINCT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "subList_selectDistinct",
           "package": "esqueleto",
@@ -5009,6 +5386,7 @@
         "index": {
           "description": "Same as sublist select but using SELECT DISTINCT",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "subList_selectDistinct",
           "normalized": "a(b(Value c))-\u003eb(ValueList c)",
@@ -5025,6 +5403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a subquery \u003ccode\u003eSELECT\u003c/code\u003e in an expression.  Returns a\n simple value so should be used only when the \u003ccode\u003eSELECT\u003c/code\u003e query\n is guaranteed to return just one row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "sub_select",
           "package": "esqueleto",
@@ -5035,6 +5414,7 @@
         "index": {
           "description": "Execute subquery SELECT in an expression Returns simple value so should be used only when the SELECT query is guaranteed to return just one row",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "sub_select",
           "normalized": "a(b(Value c))-\u003eb(Value c)",
@@ -5050,6 +5430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esub_select\u003c/a\u003e\u003c/code\u003e but using \u003ccode\u003eSELECT DISTINCT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "sub_selectDistinct",
           "package": "esqueleto",
@@ -5060,6 +5441,7 @@
         "index": {
           "description": "Same as sub select but using SELECT DISTINCT",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "sub_selectDistinct",
           "normalized": "a(b(Value c))-\u003eb(Value c)",
@@ -5075,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "sum_",
           "package": "esqueleto",
@@ -5084,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "sum_",
           "normalized": "a(Value b)-\u003ea(Value(Maybe c))",
@@ -5099,6 +5483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a constant value from Haskell-land to the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "val",
           "package": "esqueleto",
@@ -5109,6 +5494,7 @@
         "index": {
           "description": "Lift constant value from Haskell-land to the query",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "val",
           "normalized": "a-\u003eb(Value a)",
@@ -5124,6 +5510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a list of constant value from Haskell-land to the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "valList",
           "package": "esqueleto",
@@ -5134,6 +5521,7 @@
         "index": {
           "description": "Lift list of constant value from Haskell-land to the query",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "valList",
           "normalized": "[a]-\u003eb(ValueList a)",
@@ -5150,6 +5538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evalkey i = val (Key (PersistInt64 i))\u003c/code\u003e\n (\u003ca\u003ehttps://github.com/meteficha/esqueleto/issues/9\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "valkey",
           "package": "esqueleto",
@@ -5160,6 +5549,7 @@
         "index": {
           "description": "valkey val Key PersistInt64 https github.com meteficha esqueleto issues",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "valkey",
           "normalized": "Int-\u003ea(Value(Key b))",
@@ -5175,6 +5565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eWHERE\u003c/code\u003e clause: restrict the query's result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:07 UTC 2014",
           "module": "Database.Esqueleto",
           "name": "where_",
           "package": "esqueleto",
@@ -5185,6 +5576,7 @@
         "index": {
           "description": "WHERE clause restrict the query result",
           "hierarchy": "Database Esqueleto",
+          "indexed": "2014-03-11T18:04:07",
           "module": "Database.Esqueleto",
           "name": "where_",
           "normalized": "a(Value Bool)-\u003eb()",

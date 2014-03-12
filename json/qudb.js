@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "qudb"
+        "phrase": "qudb",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mlist"
+        "phrase": "mlist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList.Control",
           "name": "Control",
           "package": "mlist",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data MList Control",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList.Control",
           "name": "Control",
           "package": "mlist",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList.Control",
           "name": "forever",
           "package": "mlist",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data MList Control",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList.Control",
           "name": "forever",
           "normalized": "a b-\u003eMList a b",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList.Control",
           "name": "while",
           "package": "mlist",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data MList Control",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList.Control",
           "name": "while",
           "normalized": "a Bool-\u003ea b-\u003eMList a b",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList.IO",
           "name": "IO",
           "package": "mlist",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data MList IO",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList.IO",
           "name": "IO",
           "package": "mlist",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList.IO",
           "name": "hGetLines",
           "package": "mlist",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data MList IO",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList.IO",
           "name": "hGetLines",
           "normalized": "Handle-\u003eMList IO String",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList.Memo",
           "name": "Memo",
           "package": "mlist",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data MList Memo",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList.Memo",
           "name": "Memo",
           "package": "mlist",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList.Memo",
           "name": "memo",
           "package": "mlist",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data MList Memo",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList.Memo",
           "name": "memo",
           "normalized": "MList IO a-\u003eIO(MList IO a)",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "MList",
           "package": "mlist",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "MList",
           "package": "mlist",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "MList",
           "package": "mlist",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "MList",
           "package": "mlist",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "MListItem",
           "package": "mlist",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "MListItem",
           "package": "mlist",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "MCons",
           "package": "mlist",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "MCons",
           "package": "mlist",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "MList",
           "package": "mlist",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "MList",
           "package": "mlist",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "MNil",
           "package": "mlist",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "MNil",
           "package": "mlist",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "append",
           "package": "mlist",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "append",
           "normalized": "MList a b-\u003eMList a b-\u003eMList a b",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "concat",
           "package": "mlist",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "concat",
           "normalized": "MList a(MList a b)-\u003eMList a b",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "condense",
           "package": "mlist",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "condense",
           "normalized": "MList a(a b)-\u003eMList a b",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "cons",
           "package": "mlist",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "cons",
           "normalized": "a-\u003eMList b a-\u003eMList b a",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "cycle",
           "package": "mlist",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "cycle",
           "normalized": "MList a b-\u003eMList a b",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "empty",
           "package": "mlist",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "empty",
           "package": "mlist",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "execute",
           "package": "mlist",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "execute",
           "normalized": "MList a b-\u003ea()",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "fromList",
           "package": "mlist",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "fromList",
           "normalized": "[a]-\u003eMList b a",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "map",
           "package": "mlist",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eMList c a-\u003eMList c b",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "mfoldr",
           "package": "mlist",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "mfoldr",
           "normalized": "(a-\u003eb c-\u003eb c)-\u003eb c-\u003eMList b a-\u003eb c",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "mfoldr'",
           "package": "mlist",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "mfoldr'",
           "normalized": "(a-\u003eMList b c-\u003eMList b c)-\u003eMList b c-\u003eMList b a-\u003eMList b c",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "mfor",
           "package": "mlist",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "mfor",
           "normalized": "MList a b-\u003e(b-\u003ea c)-\u003eMList a c",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "mmap",
           "package": "mlist",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "mmap",
           "normalized": "(a-\u003eb c)-\u003eMList b a-\u003eMList b c",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "mmerge",
           "package": "mlist",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "mmerge",
           "normalized": "a(MList a b)-\u003eMList a b",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "mrepeat",
           "package": "mlist",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "mrepeat",
           "normalized": "a b-\u003eMList a b",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "mreplicate",
           "package": "mlist",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "mreplicate",
           "normalized": "a-\u003eb c-\u003eMList b c",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "msequence",
           "package": "mlist",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "msequence",
           "normalized": "MList a(a b)-\u003ea[b]",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "msequence_",
           "package": "mlist",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "msequence_",
           "normalized": "MList a(a b)-\u003ea()",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "repeat",
           "package": "mlist",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "repeat",
           "normalized": "a-\u003eMList b a",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "replicate",
           "package": "mlist",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "replicate",
           "normalized": "a-\u003eb-\u003eMList c b",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "singleton",
           "package": "mlist",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "singleton",
           "normalized": "a-\u003eMList b a",
@@ -785,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "take",
           "package": "mlist",
@@ -794,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "take",
           "normalized": "a-\u003eMList b c-\u003eMList b c",
@@ -808,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "toList",
           "package": "mlist",
@@ -817,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "toList",
           "normalized": "MList a b-\u003ea[b]",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "unMList",
           "package": "mlist",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "unMList",
           "package": "mlist",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:50 UTC 2014",
           "module": "Data.MList",
           "name": "zipWith",
           "package": "mlist",
@@ -863,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Data MList",
+          "indexed": "2014-03-11T19:18:50",
           "module": "Data.MList",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eMList d a-\u003eMList d b-\u003eMList d c",

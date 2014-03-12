@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diffarray"
+        "phrase": "diffarray",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctional arrays with constant-time update.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:50 UTC 2014",
           "module": "Data.Array.Diff",
           "name": "Diff",
           "package": "diffarray",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functional arrays with constant-time update",
           "hierarchy": "Data Array Diff",
+          "indexed": "2014-03-11T17:54:50",
           "module": "Data.Array.Diff",
           "name": "Diff",
           "package": "diffarray",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFully polymorphic lazy boxed diff array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:50 UTC 2014",
           "module": "Data.Array.Diff",
           "name": "DiffArray",
           "package": "diffarray",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Fully polymorphic lazy boxed diff array",
           "hierarchy": "Data Array Diff",
+          "indexed": "2014-03-11T17:54:50",
           "module": "Data.Array.Diff",
           "name": "DiffArray",
           "package": "diffarray",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict unboxed diff array, working only for elements\n of primitive types but more compact and usually faster than \u003ccode\u003e\u003ca\u003eDiffArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:50 UTC 2014",
           "module": "Data.Array.Diff",
           "name": "DiffUArray",
           "package": "diffarray",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Strict unboxed diff array working only for elements of primitive types but more compact and usually faster than DiffArray",
           "hierarchy": "Data Array Diff",
+          "indexed": "2014-03-11T17:54:50",
           "module": "Data.Array.Diff",
           "name": "DiffUArray",
           "package": "diffarray",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arbitrary \u003ccode\u003e\u003ca\u003eMArray\u003c/a\u003e\u003c/code\u003e type living in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad can be converted\n to a diff array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:50 UTC 2014",
           "module": "Data.Array.Diff",
           "name": "IOToDiffArray",
           "package": "diffarray",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An arbitrary MArray type living in the IO monad can be converted to diff array",
           "hierarchy": "Data Array Diff",
+          "indexed": "2014-03-11T17:54:50",
           "module": "Data.Array.Diff",
           "name": "IOToDiffArray",
           "package": "diffarray",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:50 UTC 2014",
           "module": "Data.Array.Diff",
           "name": "newDiffArray",
           "package": "diffarray",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Array Diff",
+          "indexed": "2014-03-11T17:54:50",
           "module": "Data.Array.Diff",
           "name": "newDiffArray",
           "normalized": "(a,a)-\u003e[(Int,b)]-\u003eIO(IOToDiffArray c a b)",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:50 UTC 2014",
           "module": "Data.Array.Diff",
           "name": "readDiffArray",
           "package": "diffarray",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Data Array Diff",
+          "indexed": "2014-03-11T17:54:50",
           "module": "Data.Array.Diff",
           "name": "readDiffArray",
           "normalized": "IOToDiffArray a b c-\u003eInt-\u003eIO c",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:50 UTC 2014",
           "module": "Data.Array.Diff",
           "name": "replaceDiffArray",
           "package": "diffarray",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data Array Diff",
+          "indexed": "2014-03-11T17:54:50",
           "module": "Data.Array.Diff",
           "name": "replaceDiffArray",
           "normalized": "IOToDiffArray a b c-\u003e[(Int,c)]-\u003eIO(IOToDiffArray a b c)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TV"
+        "phrase": "TV",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome common interaction vocabulary \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "Common",
           "package": "TV",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Some common interaction vocabulary",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "Common",
           "package": "TV",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInputs that work over all \u003ccode\u003eCommonInsOuts\u003c/code\u003e typecons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "CInput",
           "package": "TV",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Inputs that work over all CommonInsOuts typecons",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "CInput",
           "package": "TV",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCInput\u003c/a\u003e\u003c/code\u003e with initial value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "CInputI",
           "package": "TV",
@@ -74,6 +79,7 @@
         "index": {
           "description": "CInput with initial value",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "CInputI",
           "package": "TV",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs that work over all \u003ccode\u003e\u003ca\u003eCommonOuts\u003c/a\u003e\u003c/code\u003e typecons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "COutput",
           "package": "TV",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Outputs that work over all CommonOuts typecons",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "COutput",
           "package": "TV",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient type synonym for TVs that work over all \u003ccode\u003eCommonInsOuts\u003c/code\u003e typecons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "CTV",
           "package": "TV",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Convenient type synonym for TVs that work over all CommonInsOuts typecons",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "CTV",
           "package": "TV",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class captures some useful operations available in some input\n types, and allows definition of some \"\u003ccode\u003eCommon\u003c/code\u003e\" \u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "CommonIns",
           "package": "TV",
@@ -143,6 +154,7 @@
         "index": {
           "description": "This class captures some useful operations available in some input types and allows definition of some Common Input",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "CommonIns",
           "package": "TV",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class captures some useful operations available in some arrows\n and allows definition of some \"\u003ccode\u003eCommon\u003c/code\u003e\" \u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003es, \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003es, and\n TVs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "CommonOuts",
           "package": "TV",
@@ -166,6 +179,7 @@
         "index": {
           "description": "This class captures some useful operations available in some arrows and allows definition of some Common Input Output and TVs",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "CommonOuts",
           "package": "TV",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBool input with default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "boolIn",
           "package": "TV",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Bool input with default",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "boolIn",
           "package": "TV",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "boolOut",
           "package": "TV",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Output bool",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "boolOut",
           "package": "TV",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput a bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "getBool",
           "package": "TV",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Input bool",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "getBool",
           "normalized": "Bool-\u003ea Bool",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead-based input.  Initial value is also used as a default for\n failed parse.  Define as \u003ccode\u003e\u003ca\u003egetReadF\u003c/a\u003e\u003c/code\u003e when \u003ccode\u003esrc\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n Requires \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e as well as \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e, for displaying the initial value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "getRead",
           "package": "TV",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Read-based input Initial value is also used as default for failed parse Define as getReadF when src is Functor Requires Show as well as Read for displaying the initial value",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "getRead",
           "normalized": "a-\u003eb a",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetRead\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "getReadF",
           "package": "TV",
@@ -290,6 +313,7 @@
         "index": {
           "description": "getRead for Functor",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "getReadF",
           "normalized": "a-\u003eb a",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput a string (with default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "getString",
           "package": "TV",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Input string with default",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "getString",
           "normalized": "String-\u003ea String",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e.  Well, not quite, since the IO\n version uses \u003ccode\u003e\u003ca\u003egetLine\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e.  See also\n \u003ccode\u003e\u003ca\u003einteractOut\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "interactLine",
           "package": "TV",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Output version of interact Well not quite since the IO version uses getLine instead of getContents See also interactOut",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "interactLine",
           "normalized": "String-\u003eCOutput(String-\u003eString)",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead+Show of \u003ccode\u003e\u003ca\u003einteractLine\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "interactLineRS",
           "package": "TV",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Read Show of interactLine",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "interactLineRS",
           "normalized": "a-\u003eOutput b c(a-\u003ed)",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "putBool",
           "package": "TV",
@@ -393,6 +424,7 @@
         "index": {
           "description": "Output bool",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "putBool",
           "package": "TV",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows based outout.  Define as \u003ccode\u003e\u003ca\u003eputShowC\u003c/a\u003e\u003c/code\u003e when \u003ccode\u003esnk\u003c/code\u003e is a\n \u003ccode\u003e\u003ca\u003eContraFunctor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "putShow",
           "package": "TV",
@@ -417,6 +450,7 @@
         "index": {
           "description": "Shows based outout Define as putShowC when snk is ContraFunctor",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "putShow",
           "package": "TV",
@@ -430,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "putShowC",
           "package": "TV",
@@ -439,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "putShowC",
           "package": "TV",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "putString",
           "package": "TV",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Output string",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "putString",
           "package": "TV",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead with default value.  If the input doesn't parse as a value of\n the expected type, or it's ambiguous, yield the default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "readD",
           "package": "TV",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Read with default value If the input doesn parse as value of the expected type or it ambiguous yield the default value",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "readD",
           "normalized": "a-\u003eString-\u003ea",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput a readable value.  Use default when read fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "readIn",
           "package": "TV",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Input readable value Use default when read fails",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "readIn",
           "package": "TV",
@@ -526,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy Read+Show wrapper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "readShow",
           "package": "TV",
@@ -535,6 +578,7 @@
         "index": {
           "description": "Handy Read Show wrapper",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "readShow",
           "normalized": "Output a b(String-\u003eString)-\u003ec-\u003eOutput a b(c-\u003ed)",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a showable value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "showOut",
           "package": "TV",
@@ -561,6 +606,7 @@
         "index": {
           "description": "Output showable value",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "showOut",
           "package": "TV",
@@ -575,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString input with default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "stringIn",
           "package": "TV",
@@ -585,6 +632,7 @@
         "index": {
           "description": "String input with default",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "stringIn",
           "package": "TV",
@@ -599,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Common",
           "name": "stringOut",
           "package": "TV",
@@ -609,6 +658,7 @@
         "index": {
           "description": "Output string",
           "hierarchy": "Interface TV Common",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Common",
           "name": "stringOut",
           "package": "TV",
@@ -623,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault inputs and outputs\n\u003c/p\u003e\u003cp\u003eTODO: Provide \u003ccode\u003e[a]\u003c/code\u003e instances for DefaultIn and DefaultOut using the\n trick for Show \u003ccode\u003e[a]\u003c/code\u003e.  See \u003ca\u003eInterface.TV.DefaultsList\u003c/a\u003e for a first\n attempt.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Defaults",
           "name": "Defaults",
           "package": "TV",
@@ -632,6 +683,7 @@
         "index": {
           "description": "Default inputs and outputs TODO Provide instances for DefaultIn and DefaultOut using the trick for Show See Interface.TV.DefaultsList for first attempt",
           "hierarchy": "Interface TV Defaults",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Defaults",
           "name": "Defaults",
           "package": "TV",
@@ -646,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that provide a default input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Defaults",
           "name": "DefaultIn",
           "package": "TV",
@@ -655,6 +708,7 @@
         "index": {
           "description": "Class of types that provide default input",
           "hierarchy": "Interface TV Defaults",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Defaults",
           "name": "DefaultIn",
           "package": "TV",
@@ -669,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that provide a default output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Defaults",
           "name": "DefaultOut",
           "package": "TV",
@@ -678,6 +733,7 @@
         "index": {
           "description": "Class of types that provide default output",
           "hierarchy": "Interface TV Defaults",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Defaults",
           "name": "DefaultOut",
           "package": "TV",
@@ -692,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default input for a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Defaults",
           "name": "defaultIn",
           "package": "TV",
@@ -702,6 +759,7 @@
         "index": {
           "description": "The default input for type",
           "hierarchy": "Interface TV Defaults",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Defaults",
           "name": "defaultIn",
           "package": "TV",
@@ -716,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default output for a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Defaults",
           "name": "defaultOut",
           "package": "TV",
@@ -726,6 +785,7 @@
         "index": {
           "description": "The default output for type",
           "hierarchy": "Interface TV Defaults",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Defaults",
           "name": "defaultOut",
           "package": "TV",
@@ -740,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMake IO play with TV\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "IO",
           "package": "TV",
@@ -749,6 +810,7 @@
         "index": {
           "description": "Make IO play with TV",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "IO",
           "package": "TV",
@@ -763,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "contentsIn",
           "package": "TV",
@@ -773,6 +836,7 @@
         "index": {
           "description": "Input version of getContents",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "contentsIn",
           "package": "TV",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "fileIn",
           "package": "TV",
@@ -797,6 +862,7 @@
         "index": {
           "description": "Input version of readFile",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "fileIn",
           "normalized": "FilePath-\u003eInput IO String",
@@ -813,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "fileOut",
           "package": "TV",
@@ -823,6 +890,7 @@
         "index": {
           "description": "Output version of writeFile",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "fileOut",
           "normalized": "FilePath-\u003eOutput IO OI String",
@@ -839,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity function, with \u003ccode\u003e\u003ca\u003efileIn\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003estringOut\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "fromFile",
           "package": "TV",
@@ -849,6 +918,7 @@
         "index": {
           "description": "Identity function with fileIn and stringOut",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "fromFile",
           "normalized": "FilePath-\u003eTV IO OI(String-\u003eString)",
@@ -865,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent of \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e.  See also \u003ccode\u003e\u003ca\u003einteractLine\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "interactOut",
           "package": "TV",
@@ -875,6 +946,7 @@
         "index": {
           "description": "Equivalent of interact See also interactLine",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "interactOut",
           "normalized": "Output IO OI(String-\u003eString)",
@@ -891,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead+Show of \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "interactRS",
           "package": "TV",
@@ -900,6 +973,7 @@
         "index": {
           "description": "Read Show of interact",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "interactRS",
           "normalized": "a-\u003eOutput IO OI(a-\u003eb)",
@@ -916,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-disambiguating alias for \u003ccode\u003e\u003ca\u003erunTV\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "runIO",
           "package": "TV",
@@ -926,6 +1001,7 @@
         "index": {
           "description": "Type-disambiguating alias for runTV",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "runIO",
           "package": "TV",
@@ -940,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity function, with stringIn' and \u003ccode\u003e\u003ca\u003efileOut\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.IO",
           "name": "toFile",
           "package": "TV",
@@ -950,6 +1027,7 @@
         "index": {
           "description": "Identity function with stringIn and fileOut",
           "hierarchy": "Interface TV IO",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.IO",
           "name": "toFile",
           "normalized": "FilePath-\u003eTV IO OI(String-\u003eString)",
@@ -966,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInputs -- means of obtaining values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "Input",
           "package": "TV",
@@ -975,6 +1054,7 @@
         "index": {
           "description": "Inputs means of obtaining values",
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "Input",
           "package": "TV",
@@ -989,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003eInput\u003c/em\u003e describes a way to obtain a functional value from a user.\n Used in \u003ccode\u003eOutput\u003c/code\u003e for making function visualizations.\n The constructors: primitive, pairing, and title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "Input",
           "package": "TV",
@@ -998,6 +1079,7 @@
         "index": {
           "description": "An Input describes way to obtain functional value from user Used in Output for making function visualizations The constructors primitive pairing and title",
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "Input",
           "package": "TV",
@@ -1011,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "IPair",
           "package": "TV",
@@ -1020,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "IPair",
           "normalized": "Input a b-\u003eInput a c-\u003eInput a(b,c)",
@@ -1035,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "IPrim",
           "package": "TV",
@@ -1044,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "IPrim",
           "normalized": "a b-\u003eInput a b",
@@ -1059,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "ITitle",
           "package": "TV",
@@ -1068,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "ITitle",
           "normalized": "String-\u003eInput a b-\u003eInput a b",
@@ -1084,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDissect a pair-valued input into two inputs.  Loses outer \u003ccode\u003e\u003ca\u003eiTitle\u003c/a\u003e\u003c/code\u003es.\n Must be a (possibly titled) pair-style input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "asIPair",
           "package": "TV",
@@ -1094,6 +1183,7 @@
         "index": {
           "description": "Dissect pair-valued input into two inputs Loses outer iTitle Must be possibly titled pair-style input",
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "asIPair",
           "normalized": "Input a(b,c)-\u003e(Input a b,Input a c)",
@@ -1110,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "iPair",
           "package": "TV",
@@ -1120,6 +1211,7 @@
         "index": {
           "description": "Input pair",
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "iPair",
           "normalized": "Input a b-\u003eInput a c-\u003eInput a(b,c)",
@@ -1136,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput primitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "iPrim",
           "package": "TV",
@@ -1146,6 +1239,7 @@
         "index": {
           "description": "Input primitive",
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "iPrim",
           "normalized": "a b-\u003eInput a b",
@@ -1162,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle (label) an input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "iTitle",
           "package": "TV",
@@ -1172,6 +1267,7 @@
         "index": {
           "description": "Title label an input",
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "iTitle",
           "normalized": "String-\u003eInput a b-\u003eInput a b",
@@ -1187,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Input",
           "name": "input",
           "package": "TV",
@@ -1196,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Input",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Input",
           "name": "input",
           "normalized": "Input a b-\u003ea b",
@@ -1211,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e transformations, as a deep arrow.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.OFun",
           "name": "OFun",
           "package": "TV",
@@ -1220,6 +1319,7 @@
         "index": {
           "description": "Output transformations as deep arrow",
           "hierarchy": "Interface TV OFun",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.OFun",
           "name": "OFun",
           "package": "TV",
@@ -1234,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput functions as a \u003ccode\u003e\u003ca\u003eDeepArrow\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.OFun",
           "name": "OFun",
           "package": "TV",
@@ -1243,6 +1344,7 @@
         "index": {
           "description": "Output functions as DeepArrow",
           "hierarchy": "Interface TV OFun",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.OFun",
           "name": "OFun",
           "package": "TV",
@@ -1257,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.OFun",
           "name": "OX",
           "package": "TV",
@@ -1266,6 +1369,7 @@
         "index": {
           "description": "Output functions",
           "hierarchy": "Interface TV OFun",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.OFun",
           "name": "OX",
           "package": "TV",
@@ -1280,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003ewrapF\u003c/code\u003e, but for outputs and reversed orientation.\n Specialization of \u003ccode\u003ewrapAO\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.OFun",
           "name": "wrapO",
           "package": "TV",
@@ -1290,6 +1395,7 @@
         "index": {
           "description": "Like wrapF but for outputs and reversed orientation Specialization of wrapAO",
           "hierarchy": "Interface TV OFun",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.OFun",
           "name": "wrapO",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eOX e f(c-\u003eb)(d-\u003ea)",
@@ -1305,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOutputs (interfaces) -- means of presenting values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "Output",
           "package": "TV",
@@ -1314,6 +1421,7 @@
         "index": {
           "description": "Outputs interfaces means of presenting values",
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "Output",
           "package": "TV",
@@ -1328,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003eOutput\u003c/em\u003e describes a way to present a functional value, perhaps\n interactively.  It is the user-interface half of a tangible value.\n The constructors: primitive, function, pairing, and title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "Output",
           "package": "TV",
@@ -1337,6 +1446,7 @@
         "index": {
           "description": "An Output describes way to present functional value perhaps interactively It is the user-interface half of tangible value The constructors primitive function pairing and title",
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "Output",
           "package": "TV",
@@ -1350,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "OLambda",
           "package": "TV",
@@ -1359,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "OLambda",
           "normalized": "Input a b-\u003eOutput a c d-\u003eOutput a c(b-\u003ed)",
@@ -1374,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "OPair",
           "package": "TV",
@@ -1383,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "OPair",
           "normalized": "Output a b c-\u003eOutput a b d-\u003eOutput a b(c,d)",
@@ -1398,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "OPrim",
           "package": "TV",
@@ -1407,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "OPrim",
           "normalized": "a b-\u003eOutput c a b",
@@ -1422,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "OTitle",
           "package": "TV",
@@ -1431,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "OTitle",
           "normalized": "String-\u003eOutput a b c-\u003eOutput a b c",
@@ -1447,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDissect a function-valued output into input & output.  Loses outer \u003ccode\u003e\u003ca\u003eoTitle\u003c/a\u003e\u003c/code\u003es.\n Must be a (possibly titled) pair-style input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "asOLambda",
           "package": "TV",
@@ -1457,6 +1576,7 @@
         "index": {
           "description": "Dissect function-valued output into input output Loses outer oTitle Must be possibly titled pair-style input",
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "asOLambda",
           "normalized": "Output a b(c-\u003ed)-\u003e(Input a c,Output a b d)",
@@ -1472,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "asOPair",
           "package": "TV",
@@ -1481,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "asOPair",
           "normalized": "Output a b(c,d)-\u003e(Output a b c,Output a b d)",
@@ -1497,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisualize a function.  Akin to \u003cem\u003elambda\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "oLambda",
           "package": "TV",
@@ -1507,6 +1630,7 @@
         "index": {
           "description": "Visualize function Akin to lambda",
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "oLambda",
           "normalized": "Input a b-\u003eOutput a c d-\u003eOutput a c(b-\u003ed)",
@@ -1523,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisualize a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "oPair",
           "package": "TV",
@@ -1533,6 +1658,7 @@
         "index": {
           "description": "Visualize pair",
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "oPair",
           "normalized": "Output a b c-\u003eOutput a b d-\u003eOutput a b(c,d)",
@@ -1549,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput primitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "oPrim",
           "package": "TV",
@@ -1559,6 +1686,7 @@
         "index": {
           "description": "Output primitive",
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "oPrim",
           "normalized": "a b-\u003eOutput c a b",
@@ -1575,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle (label) an output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "oTitle",
           "package": "TV",
@@ -1585,6 +1714,7 @@
         "index": {
           "description": "Title label an output",
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "oTitle",
           "normalized": "String-\u003eOutput a b c-\u003eOutput a b c",
@@ -1600,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Output",
           "name": "output",
           "package": "TV",
@@ -1609,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Output",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Output",
           "name": "output",
           "normalized": "Output a b c-\u003eb c",
@@ -1624,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTangible values -- interface (output) and value, combined & separable\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Tangible",
           "name": "Tangible",
           "package": "TV",
@@ -1633,6 +1766,7 @@
         "index": {
           "description": "Tangible values interface output and value combined separable",
           "hierarchy": "Interface TV Tangible",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Tangible",
           "name": "Tangible",
           "package": "TV",
@@ -1647,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful to define disambiguating type-specializations of \u003ccode\u003e\u003ca\u003erunTV\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Tangible",
           "name": "RunTV",
           "package": "TV",
@@ -1656,6 +1791,7 @@
         "index": {
           "description": "Useful to define disambiguating type-specializations of runTV",
           "hierarchy": "Interface TV Tangible",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Tangible",
           "name": "RunTV",
           "package": "TV",
@@ -1670,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTangible values (TVs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Tangible",
           "name": "TV",
           "package": "TV",
@@ -1679,6 +1816,7 @@
         "index": {
           "description": "Tangible values TVs",
           "hierarchy": "Interface TV Tangible",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Tangible",
           "name": "TV",
           "package": "TV",
@@ -1693,6 +1831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrow on \u003ccode\u003e\u003ca\u003eTV\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Tangible",
           "name": "TVFun",
           "package": "TV",
@@ -1702,6 +1841,7 @@
         "index": {
           "description": "Arrow on TV",
           "hierarchy": "Interface TV Tangible",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Tangible",
           "name": "TVFun",
           "package": "TV",
@@ -1716,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eTV\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Tangible",
           "name": "runTV",
           "package": "TV",
@@ -1726,6 +1867,7 @@
         "index": {
           "description": "Run TV",
           "hierarchy": "Interface TV Tangible",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Tangible",
           "name": "runTV",
           "package": "TV",
@@ -1740,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eTV\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Tangible",
           "name": "tv",
           "package": "TV",
@@ -1750,6 +1893,7 @@
         "index": {
           "description": "Make TV",
           "hierarchy": "Interface TV Tangible",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Tangible",
           "name": "tv",
           "normalized": "Output a b c-\u003ec-\u003eTV a b c",
@@ -1765,6 +1909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDissect a \u003ccode\u003e\u003ca\u003eTV\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV.Tangible",
           "name": "unTv",
           "package": "TV",
@@ -1775,6 +1920,7 @@
         "index": {
           "description": "Dissect TV",
           "hierarchy": "Interface TV Tangible",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV.Tangible",
           "name": "unTv",
           "normalized": "TV a b c-\u003e(Output a b c,c)",
@@ -1791,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePackage up the various TV modules into one.  Also re-exports\n DeepArrow modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:56 UTC 2014",
           "module": "Interface.TV",
           "name": "TV",
           "package": "TV",
@@ -1800,6 +1947,7 @@
         "index": {
           "description": "Package up the various TV modules into one Also re-exports DeepArrow modules",
           "hierarchy": "Interface TV",
+          "indexed": "2014-03-11T17:01:56",
           "module": "Interface.TV",
           "name": "TV",
           "package": "TV",

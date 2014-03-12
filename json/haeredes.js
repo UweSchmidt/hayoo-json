@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haeredes"
+        "phrase": "haeredes",
+        "type": "phrase"
       },
       "type": "context"
     }

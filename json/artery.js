@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "artery"
+        "phrase": "artery",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "Artery",
           "package": "artery",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "Artery",
           "package": "artery",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eArtery\u003c/a\u003e\u003c/code\u003e is a device that produces a value from the input every beat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "Artery",
           "package": "artery",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Artery is device that produces value from the input every beat",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "Artery",
           "package": "artery",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "Artery",
           "package": "artery",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "Artery",
           "package": "artery",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'delay n' propagates a signal n beat behind. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "delay",
           "package": "artery",
@@ -95,6 +102,7 @@
         "index": {
           "description": "delay propagates signal beat behind",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "delay",
           "normalized": "Int-\u003ea-\u003eArtery b a a",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay a beat. The first argument is the default value for the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "delay1",
           "package": "artery",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Delay beat The first argument is the default value for the output",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "delay1",
           "normalized": "a-\u003eArtery b a a",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given action every beat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "effectful",
           "package": "artery",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Run the given action every beat",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "effectful",
           "normalized": "(a-\u003eb c)-\u003eArtery b a c",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e, but the feedback will be delayed a beat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "feedback",
           "package": "artery",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Analogous to loop but the feedback will be delayed beat",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "feedback",
           "normalized": "a-\u003eArtery b(c,a)(d,a)-\u003eArtery b c d",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "fromList",
           "package": "artery",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "fromList",
           "normalized": "[a]-\u003eArtery b c a",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePump up the \u003ccode\u003e\u003ca\u003eArtery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "runArtery",
           "package": "artery",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Pump up the Artery",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "runArtery",
           "normalized": "Artery a b c-\u003eb-\u003ea(c,Artery a b c)",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "runList",
           "package": "artery",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "runList",
           "normalized": "Artery a b c-\u003e[b]-\u003ea[c]",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce values by accumulating inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "scan",
           "package": "artery",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Produce values by accumulating inputs",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "scan",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eArtery c a b",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003escan\u003c/a\u003e\u003c/code\u003e, but it allows monadic accumulators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "scanM",
           "package": "artery",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Analogous to scan but it allows monadic accumulators",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "scanM",
           "normalized": "(a-\u003eb-\u003ec b)-\u003eb-\u003eArtery c a b",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given stateful action every beat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "stateful",
           "package": "artery",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Run the given stateful action every beat",
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "stateful",
           "normalized": "(a-\u003eStateT b c d)-\u003eb-\u003eArtery c a d",
@@ -333,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:54 UTC 2014",
           "module": "Control.Artery",
           "name": "unArtery",
           "package": "artery",
@@ -342,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Control Artery",
+          "indexed": "2014-03-11T17:12:54",
           "module": "Control.Artery",
           "name": "unArtery",
           "normalized": "a b c-\u003e(d-\u003eArtery e c d-\u003ee f)-\u003ee f",

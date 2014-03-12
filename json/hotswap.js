@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hotswap"
+        "phrase": "hotswap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "Hotswap",
           "package": "hotswap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "Hotswap",
           "package": "hotswap",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "Plugin",
           "package": "hotswap",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "Plugin",
           "package": "hotswap",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "Plugin",
           "package": "hotswap",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "Plugin",
           "package": "hotswap",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new plugin, expecting a type. Don't use this to reload plugins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "newPlugin",
           "package": "hotswap",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Create new plugin expecting type Don use this to reload plugins",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "newPlugin",
           "normalized": "FilePath-\u003e[FilePath]-\u003eString-\u003eIO(Plugin a)",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoaded data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "pluginData",
           "package": "hotswap",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Loaded data",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "pluginData",
           "package": "hotswap",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the symbol to find.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "pluginDataName",
           "package": "hotswap",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Name of the symbol to find",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "pluginDataName",
           "package": "hotswap",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "pluginIncludes",
           "package": "hotswap",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Include paths",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "pluginIncludes",
           "normalized": "[FilePath]",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoaded module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "pluginModule",
           "package": "hotswap",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Loaded module",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "pluginModule",
           "package": "hotswap",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "pluginObject",
           "package": "hotswap",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Path to object",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "pluginObject",
           "package": "hotswap",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the contents of the \u003ccode\u003e\u003ca\u003epluginData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "putPlugin",
           "package": "hotswap",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Replace the contents of the pluginData",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "putPlugin",
           "normalized": "Plugin a-\u003ea-\u003eIO()",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the \u003ccode\u003e\u003ca\u003epluginData\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "readPlugin",
           "package": "hotswap",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Read the pluginData IORef",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "readPlugin",
           "normalized": "Plugin a-\u003eIO a",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReload a plugin in-place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "reloadPlugin",
           "package": "hotswap",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Reload plugin in-place",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "reloadPlugin",
           "normalized": "Plugin a-\u003eIO()",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erunPlugin\u003c/a\u003e\u003c/code\u003e runs an 'IO a' returning \u003ccode\u003e\u003ca\u003ePlugin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "runPlugin",
           "package": "hotswap",
@@ -319,6 +344,7 @@
         "index": {
           "description": "runPlugin runs an IO returning Plugin",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "runPlugin",
           "normalized": "Plugin(IO a)-\u003eIO a",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eusePlugin\u003c/a\u003e\u003c/code\u003e provides a simple way to use plugins of type 'Plugin (a -\u003e b)', ie, only \n single argumented ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "usePlugin",
           "package": "hotswap",
@@ -345,6 +372,7 @@
         "index": {
           "description": "usePlugin provides simple way to use plugins of type Plugin ie only single argumented ones",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "usePlugin",
           "normalized": "Plugin(a-\u003eb)-\u003ea-\u003eIO b",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eusePlugin\u003c/a\u003e\u003c/code\u003e for plugins returning IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "usePluginIO",
           "package": "hotswap",
@@ -371,6 +400,7 @@
         "index": {
           "description": "usePlugin for plugins returning IO",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "usePluginIO",
           "normalized": "Plugin(a-\u003eIO b)-\u003ea-\u003eIO b",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithPlugin\u003c/a\u003e\u003c/code\u003e provides a way to run a function on a plugin, modifying the plugin in-place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "withPlugin",
           "package": "hotswap",
@@ -397,6 +428,7 @@
         "index": {
           "description": "withPlugin provides way to run function on plugin modifying the plugin in-place",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "withPlugin",
           "normalized": "Plugin a-\u003e(a-\u003ea)-\u003eIO()",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithPlugin\u003c/a\u003e\u003c/code\u003e for functions returning IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:29 UTC 2014",
           "module": "System.Plugins.Hotswap",
           "name": "withPluginIO",
           "package": "hotswap",
@@ -423,6 +456,7 @@
         "index": {
           "description": "withPlugin for functions returning IO",
           "hierarchy": "System Plugins Hotswap",
+          "indexed": "2014-03-11T18:44:29",
           "module": "System.Plugins.Hotswap",
           "name": "withPluginIO",
           "normalized": "Plugin a-\u003e(a-\u003eIO a)-\u003eIO()",

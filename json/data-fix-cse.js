@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-fix-cse"
+        "phrase": "data-fix-cse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements common subexpression elimination (CSE) with hashconsig algorithm as described in\n the paper 'Implementing Explicit and Finding Implicit Sharing in EDSLs' by Oleg Kiselyov. \n You can define your datatype as a fixpoint type. Then the only thing you need to perform CSE\n is to define an instance of the class \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e for your datatype.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "Cse",
           "package": "data-fix-cse",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implements common subexpression elimination CSE with hashconsig algorithm as described in the paper Implementing Explicit and Finding Implicit Sharing in EDSLs by Oleg Kiselyov You can define your datatype as fixpoint type Then the only thing you need to perform CSE is to define an instance of the class Traversable for your datatype",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "Cse",
           "package": "data-fix-cse",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirected acyclic graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "Dag",
           "package": "data-fix-cse",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Directed acyclic graphs",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "Dag",
           "package": "data-fix-cse",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith explicit sharing you provide user with the special function that\n encodes let-bindings for your EDSL (\u003ccode\u003e\u003ca\u003eLetBind\u003c/a\u003e\u003c/code\u003e). You should not use \u003ccode\u003e\u003ca\u003eLetLift\u003c/a\u003e\u003c/code\u003e case.\n It's reserverd for the CSE algorithm. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "Let",
           "package": "data-fix-cse",
@@ -74,6 +79,7 @@
         "index": {
           "description": "With explicit sharing you provide user with the special function that encodes let-bindings for your EDSL LetBind You should not use LetLift case It reserverd for the CSE algorithm",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "Let",
           "package": "data-fix-cse",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "VarName",
           "package": "data-fix-cse",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "VarName",
           "package": "data-fix-cse",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "LetBind",
           "package": "data-fix-cse",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "LetBind",
           "normalized": "LetBind a(a-\u003ea)",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "LetExp",
           "package": "data-fix-cse",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "LetExp",
           "package": "data-fix-cse",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "LetLift",
           "package": "data-fix-cse",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "LetLift",
           "package": "data-fix-cse",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms common subexpression elimination with implicit sharing.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "cse",
           "package": "data-fix-cse",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Performs common subexpression elimination with implicit sharing",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "cse",
           "normalized": "Fix a-\u003eDag a",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf plain lists are enough for your case. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "fromDag",
           "package": "data-fix-cse",
@@ -212,6 +229,7 @@
         "index": {
           "description": "If plain lists are enough for your case",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "fromDag",
           "normalized": "Dag a-\u003e[(VarName,a VarName)]",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatamorphism for fixpoint types wrapped in the type \u003ccode\u003e\u003ca\u003eLet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "letCata",
           "package": "data-fix-cse",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Catamorphism for fixpoint types wrapped in the type Let",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "letCata",
           "normalized": "(a b-\u003eb)-\u003eFix(Let a)-\u003eb",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic catamorphism for fixpoint types wrapped in the type \u003ccode\u003e\u003ca\u003eLet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "letCataM",
           "package": "data-fix-cse",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Monadic catamorphism for fixpoint types wrapped in the type Let",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "letCataM",
           "normalized": "(a b-\u003ec b)-\u003eFix(Let a)-\u003ec b",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms common subexpression elimination with explicit sharing.  \n To make sharing explicit you can use the datatype \u003ccode\u003e\u003ca\u003eLet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "letCse",
           "package": "data-fix-cse",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Performs common subexpression elimination with explicit sharing To make sharing explicit you can use the datatype Let",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "letCse",
           "normalized": "Fix(Let a)-\u003eDag a",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to make explicit let-bindings.\n For exampe:\n\u003c/p\u003e\u003cpre\u003e newtype T = T { unT :: Fix (Let f) }\n \n let_ :: T -\u003e (T -\u003e T) -\u003e T\n let_ = letWrapper T unT\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:48:27 UTC 2014",
           "module": "Data.Fix.Cse",
           "name": "letWrapper",
           "package": "data-fix-cse",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Helper function to make explicit let-bindings For exampe newtype unT Fix Let let let letWrapper unT",
           "hierarchy": "Data Fix Cse",
+          "indexed": "2014-03-11T17:48:27",
           "module": "Data.Fix.Cse",
           "name": "letWrapper",
           "normalized": "(Fix(Let a)-\u003eb)-\u003e(b-\u003eFix(Let a))-\u003eb-\u003e(b-\u003eb)-\u003eb",

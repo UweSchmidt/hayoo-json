@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "azure-service-api"
+        "phrase": "azure-service-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "ServiceManagement",
           "package": "azure-service-api",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "ServiceManagement",
           "package": "azure-service-api",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAzure setup \n\u003c/p\u003e\u003cp\u003eThe documentation of \u003ca\u003edistributed-process-azure\u003c/a\u003e explains in detail how\n to obtain the SSL client certificate and the private key for your Azure\n account.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eazureSetup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "AzureSetup",
           "package": "azure-service-api",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Azure setup The documentation of distributed-process-azure explains in detail how to obtain the SSL client certificate and the private key for your Azure account See also azureSetup",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "AzureSetup",
           "package": "azure-service-api",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cloud service is a bunch of virtual machines that are part of the same\n network (i.e., can talk to each other directly using standard TCP \n connections).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "CloudService",
           "package": "azure-service-api",
@@ -72,6 +77,7 @@
         "index": {
           "description": "cloud service is bunch of virtual machines that are part of the same network i.e can talk to each other directly using standard TCP connections",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "CloudService",
           "package": "azure-service-api",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobally accessible endpoint for a virtual machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "Endpoint",
           "package": "azure-service-api",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Globally accessible endpoint for virtual machine",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "Endpoint",
           "package": "azure-service-api",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "VirtualMachine",
           "package": "azure-service-api",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Virtual machine",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "VirtualMachine",
           "package": "azure-service-api",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "AzureSetup",
           "package": "azure-service-api",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "AzureSetup",
           "package": "azure-service-api",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize Azure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "azureSetup",
           "package": "azure-service-api",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Initialize Azure",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "azureSetup",
           "normalized": "String-\u003eString-\u003eString-\u003eIO AzureSetup",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase URL (generally \u003ca\u003ehttps://management.core.windows.net\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "baseUrl",
           "package": "azure-service-api",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Base URL generally https management.core.windows.net",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "baseUrl",
           "package": "azure-service-api",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSSL client certificate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "certificate",
           "package": "azure-service-api",
@@ -213,6 +230,7 @@
         "index": {
           "description": "SSL client certificate",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "certificate",
           "package": "azure-service-api",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "cloudServiceName",
           "package": "azure-service-api",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Name of the service",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "cloudServiceName",
           "normalized": "CloudService-\u003eString",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual machines that are part of this cloud service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "cloudServiceVMs",
           "package": "azure-service-api",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Virtual machines that are part of this cloud service",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "cloudServiceVMs",
           "normalized": "CloudService-\u003e[VirtualMachine]",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind available cloud services \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "cloudServices",
           "package": "azure-service-api",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Find available cloud services",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "cloudServices",
           "normalized": "AzureSetup-\u003eIO[CloudService]",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the endpoint (typical example: \u003ccode\u003eSSH\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "endpointName",
           "package": "azure-service-api",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Name of the endpoint typical example SSH",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "endpointName",
           "normalized": "Endpoint-\u003eString",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort number (typical examples are 22 or high numbered ports such as 53749) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "endpointPort",
           "package": "azure-service-api",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Port number typical examples are or high numbered ports such as",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "endpointPort",
           "normalized": "Endpoint-\u003eString",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual IP address (that is, globally accessible IP address).\n\u003c/p\u003e\u003cp\u003eThis corresponds to the IP address associated with the Cloud Service\n (i.e., that would be returned by a DNS lookup for \u003ccode\u003ename.cloudapp.net\u003c/code\u003e, \n where \u003ccode\u003ename\u003c/code\u003e is the name of the Cloud Service).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "endpointVip",
           "package": "azure-service-api",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Virtual IP address that is globally accessible IP address This corresponds to the IP address associated with the Cloud Service i.e that would be returned by DNS lookup for name.cloudapp.net where name is the name of the Cloud Service",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "endpointVip",
           "normalized": "Endpoint-\u003eString",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRSA private key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "privateKey",
           "package": "azure-service-api",
@@ -392,6 +423,7 @@
         "index": {
           "description": "RSA private key",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "privateKey",
           "package": "azure-service-api",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAzure subscription ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "subscriptionId",
           "package": "azure-service-api",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Azure subscription ID",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "subscriptionId",
           "package": "azure-service-api",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobally accessible endpoints to the virtual machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "vmInputEndpoints",
           "package": "azure-service-api",
@@ -440,6 +475,7 @@
         "index": {
           "description": "Globally accessible endpoints to the virtual machine",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "vmInputEndpoints",
           "normalized": "VirtualMachine-\u003e[Endpoint]",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003einternal\u003c/em\u003e IP address of the virtual machine (that is, the \n IP address on the Cloud Service). For the globally accessible IP\n address see \u003ccode\u003e\u003ca\u003evmInputEndpoints\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "vmIpAddress",
           "package": "azure-service-api",
@@ -466,6 +503,7 @@
         "index": {
           "description": "The internal IP address of the virtual machine that is the IP address on the Cloud Service For the globally accessible IP address see vmInputEndpoints",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "vmIpAddress",
           "normalized": "VirtualMachine-\u003eString",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the virtual machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "vmName",
           "package": "azure-service-api",
@@ -492,6 +531,7 @@
         "index": {
           "description": "Name of the virtual machine",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "vmName",
           "normalized": "VirtualMachine-\u003eString",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the endpoint with name \u003ccode\u003eSSH\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:58 UTC 2014",
           "module": "Network.Azure.ServiceManagement",
           "name": "vmSshEndpoint",
           "package": "azure-service-api",
@@ -518,6 +559,7 @@
         "index": {
           "description": "Find the endpoint with name SSH",
           "hierarchy": "Network Azure ServiceManagement",
+          "indexed": "2014-03-11T17:15:58",
           "module": "Network.Azure.ServiceManagement",
           "name": "vmSshEndpoint",
           "normalized": "VirtualMachine-\u003eMaybe Endpoint",

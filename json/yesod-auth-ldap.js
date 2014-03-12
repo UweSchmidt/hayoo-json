@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-auth-ldap"
+        "phrase": "yesod-auth-ldap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "LDAP",
           "package": "yesod-auth-ldap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "LDAP",
           "package": "yesod-auth-ldap",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "LDAPConfig",
           "package": "yesod-auth-ldap",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "LDAPConfig",
           "package": "yesod-auth-ldap",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "LDAPConfig",
           "package": "yesod-auth-ldap",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "LDAPConfig",
           "package": "yesod-auth-ldap",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "baseDN",
           "package": "yesod-auth-ldap",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "baseDN",
           "package": "yesod-auth-ldap",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "genericAuthLDAP",
           "package": "yesod-auth-ldap",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "genericAuthLDAP",
           "normalized": "LDAPConfig-\u003eAuthPlugin a",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a user gives username x, f(x) will be passed to Yesod\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "identifierModifier",
           "package": "yesod-auth-ldap",
@@ -139,6 +150,7 @@
         "index": {
           "description": "When user gives username will be passed to Yesod",
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "identifierModifier",
           "normalized": "Text-\u003e[LDAPEntry]-\u003eText",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "initDN",
           "package": "yesod-auth-ldap",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "initDN",
           "package": "yesod-auth-ldap",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "initPass",
           "package": "yesod-auth-ldap",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "initPass",
           "package": "yesod-auth-ldap",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "ldapHost",
           "package": "yesod-auth-ldap",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "ldapHost",
           "package": "yesod-auth-ldap",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "ldapPort'",
           "package": "yesod-auth-ldap",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "ldapPort'",
           "package": "yesod-auth-ldap",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "ldapScope",
           "package": "yesod-auth-ldap",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "ldapScope",
           "package": "yesod-auth-ldap",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuring the second bind, the username must be converted to a valid DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "nameToDN",
           "package": "yesod-auth-ldap",
@@ -275,6 +298,7 @@
         "index": {
           "description": "During the second bind the username must be converted to valid DN",
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "nameToDN",
           "normalized": "Text-\u003eString",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a user gives username x, f(x) will be passed to LDAP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:14 UTC 2014",
           "module": "Yesod.Auth.LDAP",
           "name": "usernameModifier",
           "package": "yesod-auth-ldap",
@@ -301,6 +326,7 @@
         "index": {
           "description": "When user gives username will be passed to LDAP",
           "hierarchy": "Yesod Auth LDAP",
+          "indexed": "2014-03-11T20:45:14",
           "module": "Yesod.Auth.LDAP",
           "name": "usernameModifier",
           "normalized": "Text-\u003eText",

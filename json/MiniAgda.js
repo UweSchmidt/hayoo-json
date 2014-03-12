@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MiniAgda"
+        "phrase": "MiniAgda",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "old-locale"
+        "phrase": "old-locale",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the ability to adapt to local conventions.\n At present, it supports only time and date information as used by\n System.Time.calendarTimeToString from the System.Time module in the\n old-time package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "Locale",
           "package": "old-locale",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the ability to adapt to local conventions At present it supports only time and date information as used by System.Time.calendarTimeToString from the System.Time module in the old-time package",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "Locale",
           "package": "old-locale",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "TimeLocale",
           "package": "old-locale",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "TimeLocale",
           "package": "old-locale",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "TimeLocale",
           "package": "old-locale",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "TimeLocale",
           "package": "old-locale",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAM/PM symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "amPm",
           "package": "old-locale",
@@ -95,6 +102,7 @@
         "index": {
           "description": "AM PM symbols",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "amPm",
           "normalized": "(String,String)",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformatting strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "dateFmt",
           "package": "old-locale",
@@ -121,6 +130,7 @@
         "index": {
           "description": "formatting strings",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "dateFmt",
           "package": "old-locale",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformatting strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "dateTimeFmt",
           "package": "old-locale",
@@ -145,6 +156,7 @@
         "index": {
           "description": "formatting strings",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "dateTimeFmt",
           "package": "old-locale",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "defaultTimeLocale",
           "package": "old-locale",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "defaultTimeLocale",
           "package": "old-locale",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "intervals",
           "package": "old-locale",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "intervals",
           "normalized": "[(String,String)]",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormally, ISO-8601 just defines YYYY-MM-DD\n but we can add a time spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "iso8601DateFormat",
           "package": "old-locale",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Normally ISO-8601 just defines YYYY-MM-DD but we can add time spec",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "iso8601DateFormat",
           "normalized": "Maybe String-\u003eString",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efull and abbreviated months\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "months",
           "package": "old-locale",
@@ -240,6 +259,7 @@
         "index": {
           "description": "full and abbreviated months",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "months",
           "normalized": "[(String,String)]",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "rfc822DateFormat",
           "package": "old-locale",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "rfc822DateFormat",
           "package": "old-locale",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformatting strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "time12Fmt",
           "package": "old-locale",
@@ -287,6 +310,7 @@
         "index": {
           "description": "formatting strings",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "time12Fmt",
           "package": "old-locale",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformatting strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "timeFmt",
           "package": "old-locale",
@@ -311,6 +336,7 @@
         "index": {
           "description": "formatting strings",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "timeFmt",
           "package": "old-locale",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efull and abbreviated week days\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:27 UTC 2014",
           "module": "System.Locale",
           "name": "wDays",
           "package": "old-locale",
@@ -335,6 +362,7 @@
         "index": {
           "description": "full and abbreviated week days",
           "hierarchy": "System Locale",
+          "indexed": "2014-03-11T19:31:27",
           "module": "System.Locale",
           "name": "wDays",
           "normalized": "[(String,String)]",

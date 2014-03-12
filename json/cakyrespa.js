@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cakyrespa"
+        "phrase": "cakyrespa",
+        "type": "phrase"
       },
       "type": "context"
     }

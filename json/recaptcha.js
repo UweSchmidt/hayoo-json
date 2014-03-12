@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "recaptcha"
+        "phrase": "recaptcha",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:54 UTC 2014",
           "module": "Network.Captcha.ReCaptcha",
           "name": "ReCaptcha",
           "package": "recaptcha",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Captcha ReCaptcha",
+          "indexed": "2014-03-11T19:49:54",
           "module": "Network.Captcha.ReCaptcha",
           "name": "ReCaptcha",
           "package": "recaptcha",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns HTML element to be inserted in the form for which a CAPTCHA is wanted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:54 UTC 2014",
           "module": "Network.Captcha.ReCaptcha",
           "name": "captchaFields",
           "package": "recaptcha",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Returns HTML element to be inserted in the form for which CAPTCHA is wanted",
           "hierarchy": "Network Captcha ReCaptcha",
+          "indexed": "2014-03-11T19:49:54",
           "module": "Network.Captcha.ReCaptcha",
           "name": "captchaFields",
           "normalized": "String-\u003eMaybe String-\u003eHtml",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify a CAPTCHA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:54 UTC 2014",
           "module": "Network.Captcha.ReCaptcha",
           "name": "validateCaptcha",
           "package": "recaptcha",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Verify CAPTCHA",
           "hierarchy": "Network Captcha ReCaptcha",
+          "indexed": "2014-03-11T19:49:54",
           "module": "Network.Captcha.ReCaptcha",
           "name": "validateCaptcha",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eIO(Either String())",

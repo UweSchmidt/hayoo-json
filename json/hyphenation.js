@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hyphenation"
+        "phrase": "hyphenation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Exception",
           "name": "Exception",
           "package": "hyphenation",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Exception",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Exception",
           "name": "Exception",
           "package": "hyphenation",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenation exceptions are special cases that should use the specified hyphenation points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Exception",
           "name": "Exceptions",
           "package": "hyphenation",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Hyphenation exceptions are special cases that should use the specified hyphenation points",
           "hierarchy": "Text Hyphenation Exception",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Exception",
           "name": "Exceptions",
           "package": "hyphenation",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an exception to the exception table.\n if it is already present, this will restrict the set of hyphenations to the\n intersection of the set provided and the set present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Exception",
           "name": "addException",
           "package": "hyphenation",
@@ -73,6 +78,7 @@
         "index": {
           "description": "add an exception to the exception table if it is already present this will restrict the set of hyphenations to the intersection of the set provided and the set present",
           "hierarchy": "Text Hyphenation Exception",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Exception",
           "name": "addException",
           "normalized": "String-\u003eExceptions-\u003eExceptions",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to find a matching hyphenation exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Exception",
           "name": "lookupException",
           "package": "hyphenation",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Try to find matching hyphenation exception",
           "hierarchy": "Text Hyphenation Exception",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Exception",
           "name": "lookupException",
           "normalized": "String-\u003eExceptions-\u003eMaybe[Int]",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one exception per line from an input string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Exception",
           "name": "parseExceptions",
           "package": "hyphenation",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Parse one exception per line from an input string",
           "hierarchy": "Text Hyphenation Exception",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Exception",
           "name": "parseExceptions",
           "normalized": "String-\u003eExceptions",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an exception string to a score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Exception",
           "name": "scoreException",
           "package": "hyphenation",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Convert an exception string to score",
           "hierarchy": "Text Hyphenation Exception",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Exception",
           "name": "scoreException",
           "normalized": "String-\u003e[Int]",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHyphenation based on the Knuth-Liang algorithm as used by TeX.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "Hyphenator",
           "package": "hyphenation",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Hyphenation based on the Knuth-Liang algorithm as used by TeX",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "Hyphenator",
           "package": "hyphenation",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eHyphenator\u003c/code\u003e is combination of an alphabet normalization scheme, a set of \u003ccode\u003e\u003ca\u003ePatterns\u003c/a\u003e\u003c/code\u003e, a set of \u003ccode\u003e\u003ca\u003eExceptions\u003c/a\u003e\u003c/code\u003e to those patterns\n and a number of characters at each end to skip hyphenating.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "Hyphenator",
           "package": "hyphenation",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Hyphenator is combination of an alphabet normalization scheme set of Patterns set of Exceptions to those patterns and number of characters at each end to skip hyphenating",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "Hyphenator",
           "package": "hyphenation",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "Hyphenator",
           "package": "hyphenation",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "Hyphenator",
           "package": "hyphenation",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default, do not insert hyphens in the first two characters\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edefaultLeftMin\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "defaultLeftMin",
           "package": "hyphenation",
@@ -245,6 +264,7 @@
         "index": {
           "description": "By default do not insert hyphens in the first two characters defaultLeftMin",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "defaultLeftMin",
           "package": "hyphenation",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default, do not insert hyphens in the last three characters.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edefaultRightMin\n\u003c/code\u003e\u003c/strong\u003e3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "defaultRightMin",
           "package": "hyphenation",
@@ -269,6 +290,7 @@
         "index": {
           "description": "By default do not insert hyphens in the last three characters defaultRightMin",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "defaultRightMin",
           "package": "hyphenation",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehyphenate a single word using the specified Hyphenator. Returns a set of candidate breakpoints by decomposing the input\n into substrings.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Text.Hyphenation\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehyphenate english_US \"supercalifragilisticexpialadocious\"\n\u003c/code\u003e\u003c/strong\u003e[\"su\",\"per\",\"cal\",\"ifrag\",\"ilis\",\"tic\",\"ex\",\"pi\",\"al\",\"ado\",\"cious\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehyphenate english_US \"hyphenation\"\n\u003c/code\u003e\u003c/strong\u003e[\"hy\",\"phen\",\"ation\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenate",
           "package": "hyphenation",
@@ -293,6 +316,7 @@
         "index": {
           "description": "hyphenate single word using the specified Hyphenator Returns set of candidate breakpoints by decomposing the input into substrings import Text.Hyphenation hyphenate english US supercalifragilisticexpialadocious su per cal ifrag ilis tic ex pi al ado cious hyphenate english US hyphenation hy phen ation",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenate",
           "normalized": "Hyphenator-\u003eString-\u003e[String]",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea normalization function applied to input characters before applying patterns or exceptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorChars",
           "package": "hyphenation",
@@ -318,6 +343,7 @@
         "index": {
           "description": "normalization function applied to input characters before applying patterns or exceptions",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorChars",
           "normalized": "Char-\u003eChar",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexceptions to the general hyphenation rules, hyphenated manually\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorExceptions",
           "package": "hyphenation",
@@ -344,6 +371,7 @@
         "index": {
           "description": "exceptions to the general hyphenation rules hyphenated manually",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorExceptions",
           "package": "hyphenation",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number of characters as the start of a word to skip hyphenating, by default: 2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorLeftMin",
           "package": "hyphenation",
@@ -368,6 +397,7 @@
         "index": {
           "description": "the number of characters as the start of word to skip hyphenating by default",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorLeftMin",
           "package": "hyphenation",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehyphenation patterns stored in a trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorPatterns",
           "package": "hyphenation",
@@ -392,6 +423,7 @@
         "index": {
           "description": "hyphenation patterns stored in trie",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorPatterns",
           "package": "hyphenation",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number of characters at the end of the word to skip hyphenating, by default: 3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorRightMin",
           "package": "hyphenation",
@@ -416,6 +449,7 @@
         "index": {
           "description": "the number of characters at the end of the word to skip hyphenating by default",
           "hierarchy": "Text Hyphenation Hyphenator",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Hyphenator",
           "name": "hyphenatorRightMin",
           "package": "hyphenation",
@@ -429,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Language",
           "package": "hyphenation",
@@ -437,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Language",
           "package": "hyphenation",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strongly typed set of available languages you can use for hyphenation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Language",
           "package": "hyphenation",
@@ -460,6 +497,7 @@
         "index": {
           "description": "strongly typed set of available languages you can use for hyphenation",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Language",
           "package": "hyphenation",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Afrikaans",
           "package": "hyphenation",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Afrikaans",
           "package": "hyphenation",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Basque",
           "package": "hyphenation",
@@ -504,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Basque",
           "package": "hyphenation",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Bengali",
           "package": "hyphenation",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Bengali",
           "package": "hyphenation",
@@ -539,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Bulgarian",
           "package": "hyphenation",
@@ -548,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Bulgarian",
           "package": "hyphenation",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Catalan",
           "package": "hyphenation",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Catalan",
           "package": "hyphenation",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Chinese",
           "package": "hyphenation",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Chinese",
           "package": "hyphenation",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Coptic",
           "package": "hyphenation",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Coptic",
           "package": "hyphenation",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Croatian",
           "package": "hyphenation",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Croatian",
           "package": "hyphenation",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Czech",
           "package": "hyphenation",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Czech",
           "package": "hyphenation",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Danish",
           "package": "hyphenation",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Danish",
           "package": "hyphenation",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Dutch",
           "package": "hyphenation",
@@ -702,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Dutch",
           "package": "hyphenation",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "English_GB",
           "package": "hyphenation",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "English_GB",
           "package": "hyphenation",
@@ -737,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "English_US",
           "package": "hyphenation",
@@ -746,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "English_US",
           "package": "hyphenation",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Esperanto",
           "package": "hyphenation",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Esperanto",
           "package": "hyphenation",
@@ -781,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Estonian",
           "package": "hyphenation",
@@ -790,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Estonian",
           "package": "hyphenation",
@@ -803,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Ethiopic",
           "package": "hyphenation",
@@ -812,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Ethiopic",
           "package": "hyphenation",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFarsi\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Finnish",
           "package": "hyphenation",
@@ -836,6 +907,7 @@
         "index": {
           "description": "Farsi",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Finnish",
           "package": "hyphenation",
@@ -849,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "French",
           "package": "hyphenation",
@@ -858,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "French",
           "package": "hyphenation",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Friulan",
           "package": "hyphenation",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Friulan",
           "package": "hyphenation",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Galician",
           "package": "hyphenation",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Galician",
           "package": "hyphenation",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "German_1901",
           "package": "hyphenation",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "German_1901",
           "package": "hyphenation",
@@ -937,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "German_1996",
           "package": "hyphenation",
@@ -946,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "German_1996",
           "package": "hyphenation",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "German_Swiss",
           "package": "hyphenation",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "German_Swiss",
           "package": "hyphenation",
@@ -981,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Greek_Ancient",
           "package": "hyphenation",
@@ -990,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Greek_Ancient",
           "package": "hyphenation",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Greek_Mono",
           "package": "hyphenation",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Greek_Mono",
           "package": "hyphenation",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Greek_Poly",
           "package": "hyphenation",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Greek_Poly",
           "package": "hyphenation",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Gujarati",
           "package": "hyphenation",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Gujarati",
           "package": "hyphenation",
@@ -1069,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Hindi",
           "package": "hyphenation",
@@ -1078,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Hindi",
           "package": "hyphenation",
@@ -1091,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Hungarian",
           "package": "hyphenation",
@@ -1100,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Hungarian",
           "package": "hyphenation",
@@ -1113,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Icelandic",
           "package": "hyphenation",
@@ -1122,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Icelandic",
           "package": "hyphenation",
@@ -1135,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Indonesian",
           "package": "hyphenation",
@@ -1144,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Indonesian",
           "package": "hyphenation",
@@ -1157,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Interlingua",
           "package": "hyphenation",
@@ -1166,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Interlingua",
           "package": "hyphenation",
@@ -1179,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Irish",
           "package": "hyphenation",
@@ -1188,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Irish",
           "package": "hyphenation",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Italian",
           "package": "hyphenation",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Italian",
           "package": "hyphenation",
@@ -1223,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Kannada",
           "package": "hyphenation",
@@ -1232,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Kannada",
           "package": "hyphenation",
@@ -1245,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Kurmanji",
           "package": "hyphenation",
@@ -1254,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Kurmanji",
           "package": "hyphenation",
@@ -1267,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Lao",
           "package": "hyphenation",
@@ -1276,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Lao",
           "package": "hyphenation",
@@ -1289,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Latin",
           "package": "hyphenation",
@@ -1298,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Latin",
           "package": "hyphenation",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Latvian",
           "package": "hyphenation",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Latvian",
           "package": "hyphenation",
@@ -1333,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Lithuanian",
           "package": "hyphenation",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Lithuanian",
           "package": "hyphenation",
@@ -1355,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Malayalam",
           "package": "hyphenation",
@@ -1364,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Malayalam",
           "package": "hyphenation",
@@ -1377,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Marathi",
           "package": "hyphenation",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Marathi",
           "package": "hyphenation",
@@ -1399,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Mongolian",
           "package": "hyphenation",
@@ -1408,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Mongolian",
           "package": "hyphenation",
@@ -1421,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Norwegian_Bokmal",
           "package": "hyphenation",
@@ -1430,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Norwegian_Bokmal",
           "package": "hyphenation",
@@ -1443,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Norwegian_Nynorsk",
           "package": "hyphenation",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Norwegian_Nynorsk",
           "package": "hyphenation",
@@ -1465,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Oriya",
           "package": "hyphenation",
@@ -1474,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Oriya",
           "package": "hyphenation",
@@ -1487,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Panjabi",
           "package": "hyphenation",
@@ -1496,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Panjabi",
           "package": "hyphenation",
@@ -1509,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Piedmontese",
           "package": "hyphenation",
@@ -1518,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Piedmontese",
           "package": "hyphenation",
@@ -1531,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Polish",
           "package": "hyphenation",
@@ -1540,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Polish",
           "package": "hyphenation",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Portuguese",
           "package": "hyphenation",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Portuguese",
           "package": "hyphenation",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Romanian",
           "package": "hyphenation",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Romanian",
           "package": "hyphenation",
@@ -1597,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Romansh",
           "package": "hyphenation",
@@ -1606,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Romansh",
           "package": "hyphenation",
@@ -1619,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Russian",
           "package": "hyphenation",
@@ -1628,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Russian",
           "package": "hyphenation",
@@ -1641,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Sanskrit",
           "package": "hyphenation",
@@ -1650,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Sanskrit",
           "package": "hyphenation",
@@ -1663,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Serbian_Cyrillic",
           "package": "hyphenation",
@@ -1672,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Serbian_Cyrillic",
           "package": "hyphenation",
@@ -1685,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Serbocroatian_Cyrillic",
           "package": "hyphenation",
@@ -1694,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Serbocroatian_Cyrillic",
           "package": "hyphenation",
@@ -1707,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Serbocroatian_Latin",
           "package": "hyphenation",
@@ -1716,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Serbocroatian_Latin",
           "package": "hyphenation",
@@ -1729,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Slovak",
           "package": "hyphenation",
@@ -1738,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Slovak",
           "package": "hyphenation",
@@ -1751,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Slovenian",
           "package": "hyphenation",
@@ -1760,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Slovenian",
           "package": "hyphenation",
@@ -1773,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Spanish",
           "package": "hyphenation",
@@ -1782,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Spanish",
           "package": "hyphenation",
@@ -1795,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Swedish",
           "package": "hyphenation",
@@ -1804,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Swedish",
           "package": "hyphenation",
@@ -1817,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Tamil",
           "package": "hyphenation",
@@ -1826,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Tamil",
           "package": "hyphenation",
@@ -1839,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Telugu",
           "package": "hyphenation",
@@ -1848,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Telugu",
           "package": "hyphenation",
@@ -1861,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Thai",
           "package": "hyphenation",
@@ -1870,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Thai",
           "package": "hyphenation",
@@ -1883,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Turkish",
           "package": "hyphenation",
@@ -1892,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Turkish",
           "package": "hyphenation",
@@ -1905,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Turkmen",
           "package": "hyphenation",
@@ -1914,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Turkmen",
           "package": "hyphenation",
@@ -1927,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Ukrainian",
           "package": "hyphenation",
@@ -1936,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Ukrainian",
           "package": "hyphenation",
@@ -1949,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Uppersorbian",
           "package": "hyphenation",
@@ -1958,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Uppersorbian",
           "package": "hyphenation",
@@ -1971,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "Welsh",
           "package": "hyphenation",
@@ -1980,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "Welsh",
           "package": "hyphenation",
@@ -1994,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "afrikaans",
           "package": "hyphenation",
@@ -2004,6 +2181,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "afrikaans",
           "package": "hyphenation",
@@ -2017,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "basque",
           "package": "hyphenation",
@@ -2027,6 +2206,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "basque",
           "package": "hyphenation",
@@ -2040,6 +2220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "bengali",
           "package": "hyphenation",
@@ -2050,6 +2231,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "bengali",
           "package": "hyphenation",
@@ -2063,6 +2245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "bulgarian",
           "package": "hyphenation",
@@ -2073,6 +2256,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "bulgarian",
           "package": "hyphenation",
@@ -2086,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "catalan",
           "package": "hyphenation",
@@ -2096,6 +2281,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "catalan",
           "package": "hyphenation",
@@ -2109,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "chinese",
           "package": "hyphenation",
@@ -2119,6 +2306,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "chinese",
           "package": "hyphenation",
@@ -2132,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "coptic",
           "package": "hyphenation",
@@ -2142,6 +2331,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "coptic",
           "package": "hyphenation",
@@ -2155,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "croatian",
           "package": "hyphenation",
@@ -2165,6 +2356,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "croatian",
           "package": "hyphenation",
@@ -2178,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "czech",
           "package": "hyphenation",
@@ -2188,6 +2381,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "czech",
           "package": "hyphenation",
@@ -2201,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "danish",
           "package": "hyphenation",
@@ -2211,6 +2406,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "danish",
           "package": "hyphenation",
@@ -2224,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "dutch",
           "package": "hyphenation",
@@ -2234,6 +2431,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "dutch",
           "package": "hyphenation",
@@ -2247,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehyphenate english_GB \"supercalifragilisticexpialadocious\"\n\u003c/code\u003e\u003c/strong\u003e[\"su\",\"per\",\"cal\",\"i\",\"fra\",\"gil\",\"istic\",\"ex\",\"pi\",\"alado\",\"cious\"]\n\u003c/pre\u003e\u003cp\u003efavors UK hyphenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "english_GB",
           "package": "hyphenation",
@@ -2257,6 +2456,7 @@
         "index": {
           "description": "hyphenate english GB supercalifragilisticexpialadocious su per cal fra gil istic ex pi alado cious favors UK hyphenation",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "english_GB",
           "package": "hyphenation",
@@ -2271,6 +2471,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehyphenate english_US \"supercalifragilisticexpialadocious\"\n\u003c/code\u003e\u003c/strong\u003e[\"su\",\"per\",\"cal\",\"ifrag\",\"ilis\",\"tic\",\"ex\",\"pi\",\"al\",\"ado\",\"cious\"]\n\u003c/pre\u003e\u003cp\u003efavors US hyphenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "english_US",
           "package": "hyphenation",
@@ -2281,6 +2482,7 @@
         "index": {
           "description": "hyphenate english US supercalifragilisticexpialadocious su per cal ifrag ilis tic ex pi al ado cious favors US hyphenation",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "english_US",
           "package": "hyphenation",
@@ -2295,6 +2497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "esperanto",
           "package": "hyphenation",
@@ -2305,6 +2508,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "esperanto",
           "package": "hyphenation",
@@ -2318,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "estonian",
           "package": "hyphenation",
@@ -2328,6 +2533,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "estonian",
           "package": "hyphenation",
@@ -2341,6 +2547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "ethiopic",
           "package": "hyphenation",
@@ -2351,6 +2558,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "ethiopic",
           "package": "hyphenation",
@@ -2364,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "finnish",
           "package": "hyphenation",
@@ -2374,6 +2583,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "finnish",
           "package": "hyphenation",
@@ -2387,6 +2597,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehyphenate french \"anticonstitutionnellement\"\n\u003c/code\u003e\u003c/strong\u003e[\"an\",\"ti\",\"cons\",\"ti\",\"tu\",\"tion\",\"nel\",\"le\",\"ment\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "french",
           "package": "hyphenation",
@@ -2397,6 +2608,7 @@
         "index": {
           "description": "hyphenate french anticonstitutionnellement an ti cons ti tu tion nel le ment",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "french",
           "package": "hyphenation",
@@ -2410,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "friulan",
           "package": "hyphenation",
@@ -2420,6 +2633,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "friulan",
           "package": "hyphenation",
@@ -2433,6 +2647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "galician",
           "package": "hyphenation",
@@ -2443,6 +2658,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "galician",
           "package": "hyphenation",
@@ -2456,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "german_1901",
           "package": "hyphenation",
@@ -2466,6 +2683,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "german_1901",
           "package": "hyphenation",
@@ -2479,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "german_1996",
           "package": "hyphenation",
@@ -2489,6 +2708,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "german_1996",
           "package": "hyphenation",
@@ -2502,6 +2722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "german_Swiss",
           "package": "hyphenation",
@@ -2512,6 +2733,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "german_Swiss",
           "package": "hyphenation",
@@ -2526,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "greek_Ancient",
           "package": "hyphenation",
@@ -2536,6 +2759,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "greek_Ancient",
           "package": "hyphenation",
@@ -2550,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "greek_Mono",
           "package": "hyphenation",
@@ -2560,6 +2785,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "greek_Mono",
           "package": "hyphenation",
@@ -2574,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "greek_Poly",
           "package": "hyphenation",
@@ -2584,6 +2811,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "greek_Poly",
           "package": "hyphenation",
@@ -2598,6 +2826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "gujarati",
           "package": "hyphenation",
@@ -2608,6 +2837,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "gujarati",
           "package": "hyphenation",
@@ -2621,6 +2851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "hindi",
           "package": "hyphenation",
@@ -2631,6 +2862,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "hindi",
           "package": "hyphenation",
@@ -2644,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "hungarian",
           "package": "hyphenation",
@@ -2654,6 +2887,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "hungarian",
           "package": "hyphenation",
@@ -2667,6 +2901,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehyphenate icelandic \"va\\240lahei\\240avegavinnuverkf\\230rageymslusk\\250r\"\n\u003c/code\u003e\u003c/strong\u003e[\"va\\240la\",\"hei\\240a\",\"vega\",\"vinnu\",\"verk\",\"f\\230ra\",\"geymslu\",\"sk\\250r\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "icelandic",
           "package": "hyphenation",
@@ -2677,6 +2912,7 @@
         "index": {
           "description": "hyphenate icelandic va lahei avegavinnuverkf rageymslusk va la hei vega vinnu verk ra geymslu sk",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "icelandic",
           "package": "hyphenation",
@@ -2690,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "indonesian",
           "package": "hyphenation",
@@ -2700,6 +2937,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "indonesian",
           "package": "hyphenation",
@@ -2713,6 +2951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "interlingua",
           "package": "hyphenation",
@@ -2723,6 +2962,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "interlingua",
           "package": "hyphenation",
@@ -2736,6 +2976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "irish",
           "package": "hyphenation",
@@ -2746,6 +2987,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "irish",
           "package": "hyphenation",
@@ -2759,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "italian",
           "package": "hyphenation",
@@ -2769,6 +3012,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "italian",
           "package": "hyphenation",
@@ -2782,6 +3026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "kannada",
           "package": "hyphenation",
@@ -2792,6 +3037,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "kannada",
           "package": "hyphenation",
@@ -2805,6 +3051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "kurmanji",
           "package": "hyphenation",
@@ -2815,6 +3062,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "kurmanji",
           "package": "hyphenation",
@@ -2828,6 +3076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe infix portion of the data file names used for this language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "languageAffix",
           "package": "hyphenation",
@@ -2838,6 +3087,7 @@
         "index": {
           "description": "the infix portion of the data file names used for this language",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "languageAffix",
           "normalized": "Language-\u003eString",
@@ -2854,6 +3104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad (and cache) the hyphenator for a given language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "languageHyphenator",
           "package": "hyphenation",
@@ -2864,6 +3115,7 @@
         "index": {
           "description": "Load and cache the hyphenator for given language",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "languageHyphenator",
           "normalized": "Language-\u003eHyphenator",
@@ -2880,6 +3132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "lao",
           "package": "hyphenation",
@@ -2890,6 +3143,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "lao",
           "package": "hyphenation",
@@ -2903,6 +3157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "latin",
           "package": "hyphenation",
@@ -2913,6 +3168,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "latin",
           "package": "hyphenation",
@@ -2926,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "latvian",
           "package": "hyphenation",
@@ -2936,6 +3193,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "latvian",
           "package": "hyphenation",
@@ -2949,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "lithuanian",
           "package": "hyphenation",
@@ -2959,6 +3218,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "lithuanian",
           "package": "hyphenation",
@@ -2972,6 +3232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a built-in language file from the data directory where cabal installed this package.\n\u003c/p\u003e\u003cp\u003e(e.g. \u003ccode\u003ehyphenateLanguage \"en-us\"\u003c/code\u003e opens \u003ccode\u003e\"/Users/ekmett/.cabal/share/hyphenation-0.2/ghc-7.4.1/hyph-en-us.hyp.txt\"\u003c/code\u003e\n among others when run on the author's local machine)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "loadHyphenator",
           "package": "hyphenation",
@@ -2982,6 +3243,7 @@
         "index": {
           "description": "Read built-in language file from the data directory where cabal installed this package e.g hyphenateLanguage en-us opens Users ekmett cabal share hyphenation-0.2 ghc-7.4.1 hyph-en-us.hyp.txt among others when run on the author local machine",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "loadHyphenator",
           "normalized": "String-\u003eIO Hyphenator",
@@ -2998,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "malayalam",
           "package": "hyphenation",
@@ -3008,6 +3271,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "malayalam",
           "package": "hyphenation",
@@ -3021,6 +3285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "marathi",
           "package": "hyphenation",
@@ -3031,6 +3296,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "marathi",
           "package": "hyphenation",
@@ -3044,6 +3310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "mongolian",
           "package": "hyphenation",
@@ -3054,6 +3321,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "mongolian",
           "package": "hyphenation",
@@ -3067,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "norwegian_Bokmal",
           "package": "hyphenation",
@@ -3077,6 +3346,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "norwegian_Bokmal",
           "package": "hyphenation",
@@ -3091,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "norwegian_Nynorsk",
           "package": "hyphenation",
@@ -3101,6 +3372,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "norwegian_Nynorsk",
           "package": "hyphenation",
@@ -3115,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "oriya",
           "package": "hyphenation",
@@ -3125,6 +3398,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "oriya",
           "package": "hyphenation",
@@ -3138,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "panjabi",
           "package": "hyphenation",
@@ -3148,6 +3423,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "panjabi",
           "package": "hyphenation",
@@ -3161,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "piedmontese",
           "package": "hyphenation",
@@ -3171,6 +3448,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "piedmontese",
           "package": "hyphenation",
@@ -3184,6 +3462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "polish",
           "package": "hyphenation",
@@ -3194,6 +3473,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "polish",
           "package": "hyphenation",
@@ -3207,6 +3487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "portuguese",
           "package": "hyphenation",
@@ -3217,6 +3498,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "portuguese",
           "package": "hyphenation",
@@ -3230,6 +3512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "romanian",
           "package": "hyphenation",
@@ -3240,6 +3523,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "romanian",
           "package": "hyphenation",
@@ -3253,6 +3537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "romansh",
           "package": "hyphenation",
@@ -3263,6 +3548,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "romansh",
           "package": "hyphenation",
@@ -3276,6 +3562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "russian",
           "package": "hyphenation",
@@ -3286,6 +3573,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "russian",
           "package": "hyphenation",
@@ -3299,6 +3587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "sanskrit",
           "package": "hyphenation",
@@ -3309,6 +3598,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "sanskrit",
           "package": "hyphenation",
@@ -3322,6 +3612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "serbian_Cyrillic",
           "package": "hyphenation",
@@ -3332,6 +3623,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "serbian_Cyrillic",
           "package": "hyphenation",
@@ -3346,6 +3638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "serbocroatian_Cyrillic",
           "package": "hyphenation",
@@ -3356,6 +3649,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "serbocroatian_Cyrillic",
           "package": "hyphenation",
@@ -3370,6 +3664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "serbocroatian_Latin",
           "package": "hyphenation",
@@ -3380,6 +3675,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "serbocroatian_Latin",
           "package": "hyphenation",
@@ -3394,6 +3690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "slovak",
           "package": "hyphenation",
@@ -3404,6 +3701,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "slovak",
           "package": "hyphenation",
@@ -3417,6 +3715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "slovenian",
           "package": "hyphenation",
@@ -3427,6 +3726,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "slovenian",
           "package": "hyphenation",
@@ -3440,6 +3740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "spanish",
           "package": "hyphenation",
@@ -3450,6 +3751,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "spanish",
           "package": "hyphenation",
@@ -3463,6 +3765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "swedish",
           "package": "hyphenation",
@@ -3473,6 +3776,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "swedish",
           "package": "hyphenation",
@@ -3486,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "tamil",
           "package": "hyphenation",
@@ -3496,6 +3801,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "tamil",
           "package": "hyphenation",
@@ -3509,6 +3815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "telugu",
           "package": "hyphenation",
@@ -3519,6 +3826,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "telugu",
           "package": "hyphenation",
@@ -3532,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "thai",
           "package": "hyphenation",
@@ -3542,6 +3851,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "thai",
           "package": "hyphenation",
@@ -3555,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "turkish",
           "package": "hyphenation",
@@ -3565,6 +3876,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "turkish",
           "package": "hyphenation",
@@ -3578,6 +3890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "turkmen",
           "package": "hyphenation",
@@ -3588,6 +3901,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "turkmen",
           "package": "hyphenation",
@@ -3601,6 +3915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "ukrainian",
           "package": "hyphenation",
@@ -3611,6 +3926,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "ukrainian",
           "package": "hyphenation",
@@ -3624,6 +3940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "uppersorbian",
           "package": "hyphenation",
@@ -3634,6 +3951,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "uppersorbian",
           "package": "hyphenation",
@@ -3647,6 +3965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenators for a wide array of languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Language",
           "name": "welsh",
           "package": "hyphenation",
@@ -3657,6 +3976,7 @@
         "index": {
           "description": "Hyphenators for wide array of languages",
           "hierarchy": "Text Hyphenation Language",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Language",
           "name": "welsh",
           "package": "hyphenation",
@@ -3669,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Pattern",
           "name": "Pattern",
           "package": "hyphenation",
@@ -3677,6 +3998,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenation Pattern",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Pattern",
           "name": "Pattern",
           "package": "hyphenation",
@@ -3691,6 +4013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenation patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Pattern",
           "name": "Patterns",
           "package": "hyphenation",
@@ -3700,6 +4023,7 @@
         "index": {
           "description": "Hyphenation patterns",
           "hierarchy": "Text Hyphenation Pattern",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Pattern",
           "name": "Patterns",
           "package": "hyphenation",
@@ -3714,6 +4038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a Knuth-Liang hyphenation pattern into the trie\n\u003c/p\u003e\u003col\u003e\u003cli\u003e \u003ccode\u003e.\u003c/code\u003e denotes the start or end of the input\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e0-9\u003c/code\u003e are used to denote hyphenation or dehyphenation depending on whether or not they are even (no hyphen) or odd (hyphen allowed).\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003ePatterns are overlaid and the maximum value at each location is used.\n this allows you to implement a finite number of precedences between hyphenation rules\n\u003c/p\u003e\u003cp\u003e(e.g. \u003ccode\u003e3foo.\u003c/code\u003e indicates that the suffix '-foo' should be hyphenated with precedence 3.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Pattern",
           "name": "insertPattern",
           "package": "hyphenation",
@@ -3724,6 +4049,7 @@
         "index": {
           "description": "Insert Knuth-Liang hyphenation pattern into the trie denotes the start or end of the input are used to denote hyphenation or dehyphenation depending on whether or not they are even no hyphen or odd hyphen allowed Patterns are overlaid and the maximum value at each location is used this allows you to implement finite number of precedences between hyphenation rules e.g foo indicates that the suffix foo should be hyphenated with precedence",
           "hierarchy": "Text Hyphenation Pattern",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Pattern",
           "name": "insertPattern",
           "normalized": "String-\u003ePatterns-\u003ePatterns",
@@ -3740,6 +4066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTallies the hyphenation scores for a word considering all tails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Pattern",
           "name": "lookupPattern",
           "package": "hyphenation",
@@ -3750,6 +4077,7 @@
         "index": {
           "description": "Tallies the hyphenation scores for word considering all tails",
           "hierarchy": "Text Hyphenation Pattern",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Pattern",
           "name": "lookupPattern",
           "normalized": "String-\u003ePatterns-\u003e[Int]",
@@ -3766,6 +4094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one pattern per line from an input string\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ehyph-utf8\u003c/code\u003e supplies these files UTF-8 encoded in the \u003ccode\u003etxt\u003c/code\u003e folder with a \u003ccode\u003e.pat.txt\u003c/code\u003e extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Pattern",
           "name": "parsePatterns",
           "package": "hyphenation",
@@ -3776,6 +4105,7 @@
         "index": {
           "description": "Parse one pattern per line from an input string hyph-utf8 supplies these files UTF-8 encoded in the txt folder with pat.txt extension",
           "hierarchy": "Text Hyphenation Pattern",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Pattern",
           "name": "parsePatterns",
           "normalized": "String-\u003ePatterns",
@@ -3792,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Pattern string to a Score\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation.Pattern",
           "name": "scorePattern",
           "package": "hyphenation",
@@ -3802,6 +4133,7 @@
         "index": {
           "description": "Convert Pattern string to Score",
           "hierarchy": "Text Hyphenation Pattern",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation.Pattern",
           "name": "scorePattern",
           "normalized": "String-\u003e[Int]",
@@ -3818,6 +4150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHyphenation based on the Knuth-Liang algorithm as used by TeX.\n\u003c/p\u003e\u003cp\u003eThe implementation is based on Ned Batchelder's public domain \u003ccode\u003ehyphenate.py\u003c/code\u003e\n and simplified to remove the need for a manual exception list.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:26 UTC 2014",
           "module": "Text.Hyphenation",
           "name": "Hyphenation",
           "package": "hyphenation",
@@ -3827,6 +4160,7 @@
         "index": {
           "description": "Hyphenation based on the Knuth-Liang algorithm as used by TeX The implementation is based on Ned Batchelder public domain hyphenate.py and simplified to remove the need for manual exception list",
           "hierarchy": "Text Hyphenation",
+          "indexed": "2014-03-11T18:55:26",
           "module": "Text.Hyphenation",
           "name": "Hyphenation",
           "package": "hyphenation",

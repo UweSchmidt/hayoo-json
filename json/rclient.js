@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rclient"
+        "phrase": "rclient",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows you to issue R commands from Haskell to be executed via Rserve and get the results back in Haskell data types. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "Client",
           "package": "rclient",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module allows you to issue commands from Haskell to be executed via Rserve and get the results back in Haskell data types",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "Client",
           "package": "rclient",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RConn",
           "package": "rclient",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RConn",
           "package": "rclient",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentations for the types transmitted on the Rserve protocol, refer to Rserve documentation for details\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RSEXP",
           "package": "rclient",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Representations for the types transmitted on the Rserve protocol refer to Rserve documentation for details",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RSEXP",
           "package": "rclient",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "Result",
           "package": "rclient",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "Result",
           "package": "rclient",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ResultUnpack instances are used to extract R data structures from the Result container. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "ResultUnpack",
           "package": "rclient",
@@ -116,6 +125,7 @@
         "index": {
           "description": "The ResultUnpack instances are used to extract data structures from the Result container",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "ResultUnpack",
           "package": "rclient",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RserveError",
           "package": "rclient",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RserveError",
           "package": "rclient",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RArrayBool",
           "package": "rclient",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RArrayBool",
           "normalized": "RArrayBool[Bool]",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RArrayComplex",
           "package": "rclient",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RArrayComplex",
           "normalized": "RArrayComplex[(Double,Double)]",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RArrayDouble",
           "package": "rclient",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RArrayDouble",
           "normalized": "RArrayDouble[Double]",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RArrayInt",
           "package": "rclient",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RArrayInt",
           "normalized": "RArrayInt[Int]",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RArrayString",
           "package": "rclient",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RArrayString",
           "normalized": "RArrayString[String]",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RBool",
           "package": "rclient",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RBool",
           "package": "rclient",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RClos",
           "package": "rclient",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RClos",
           "package": "rclient",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RConn",
           "package": "rclient",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RConn",
           "package": "rclient",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RDouble",
           "package": "rclient",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RDouble",
           "package": "rclient",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RInt",
           "package": "rclient",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RInt",
           "package": "rclient",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RListTag",
           "package": "rclient",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RListTag",
           "normalized": "RListTag[(RSEXP,RSEXP)]",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RNULL",
           "package": "rclient",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RNULL",
           "package": "rclient",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RSEXPWithAttrib",
           "package": "rclient",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RSEXPWithAttrib",
           "package": "rclient",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RString",
           "package": "rclient",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RString",
           "package": "rclient",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RSym",
           "package": "rclient",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RSym",
           "package": "rclient",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RUnknown",
           "package": "rclient",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RUnknown",
           "package": "rclient",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "RVector",
           "package": "rclient",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "RVector",
           "normalized": "RVector[RSEXP]",
@@ -539,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassign a RSEXP value to a symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "assign",
           "package": "rclient",
@@ -549,6 +596,7 @@
         "index": {
           "description": "assign RSEXP value to symbol",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "assign",
           "normalized": "RConn-\u003eString-\u003eRSEXP-\u003eIO Result",
@@ -564,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "closeFile",
           "package": "rclient",
@@ -574,6 +623,7 @@
         "index": {
           "description": "close file",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "closeFile",
           "normalized": "RConn-\u003eString-\u003eIO Result",
@@ -590,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to Rserve server \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "connect",
           "package": "rclient",
@@ -599,6 +650,7 @@
         "index": {
           "description": "Connect to Rserve server",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "connect",
           "normalized": "String-\u003eInt-\u003eIO RConn",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "createFile",
           "package": "rclient",
@@ -624,6 +677,7 @@
         "index": {
           "description": "create file",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "createFile",
           "normalized": "RConn-\u003eString-\u003eIO Result",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate an R expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "eval",
           "package": "rclient",
@@ -650,6 +705,7 @@
         "index": {
           "description": "evaluate an expression",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "eval",
           "normalized": "RConn-\u003eString-\u003eIO Result",
@@ -665,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elogin to Rserve, not normally required, for authenticated sessions only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "login",
           "package": "rclient",
@@ -674,6 +731,7 @@
         "index": {
           "description": "login to Rserve not normally required for authenticated sessions only",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "login",
           "normalized": "RConn-\u003eString-\u003eString-\u003eIO Result",
@@ -689,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "openFile",
           "package": "rclient",
@@ -699,6 +758,7 @@
         "index": {
           "description": "open file",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "openFile",
           "normalized": "RConn-\u003eString-\u003eIO Result",
@@ -715,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead-evaluate-print-loop for interacting with Rserve session. \nin ghci, load this module and run this command to test and play with Rserve\nthis is useful to check the actual types returned by Rserve, e.g.\n\u003c/p\u003e\u003cp\u003e$ ghci\n\u003c/p\u003e\u003cp\u003ePrelude\u003e:m Network.Rserve.Client\n\u003c/p\u003e\u003cp\u003ePrelude Network.Rserve.Client\u003e rRepl\n\u003c/p\u003e\u003cp\u003e\u003ec(1,2,3)\n\u003c/p\u003e\u003cp\u003eJust (RArrayDouble [1.0,2.0,3.0])\n\u003c/p\u003e\u003cp\u003e\u003esummary(rnorm(100))\n\u003c/p\u003e\u003cp\u003eJust (RSEXPWithAttrib (RListTag [(RArrayString [\"Min.\",\"1st Qu.\",\"Median\",\"Mean\",\"3rd Qu.\",\"Max.\"],RSym \"names\"),(RArrayString [\"table\"],RSym \"class\")]) (RArrayDouble [-2.914,-0.5481,0.1618,0.1491,0.9279,3.001]))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "rRepl",
           "package": "rclient",
@@ -725,6 +786,7 @@
         "index": {
           "description": "Read-evaluate-print-loop for interacting with Rserve session in ghci load this module and run this command to test and play with Rserve this is useful to check the actual types returned by Rserve e.g ghci Prelude Network.Rserve.Client Prelude Network.Rserve.Client rRepl Just RArrayDouble summary rnorm Just RSEXPWithAttrib RListTag RArrayString Min st Qu Median Mean rd Qu Max RSym names RArrayString table RSym class RArrayDouble",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "rRepl",
           "normalized": "IO()",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "rcAttributes",
           "package": "rclient",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "rcAttributes",
           "normalized": "[String]",
@@ -764,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "rcHandle",
           "package": "rclient",
@@ -773,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "rcHandle",
           "package": "rclient",
@@ -786,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "rcProtocol",
           "package": "rclient",
@@ -795,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "rcProtocol",
           "package": "rclient",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "rcRserveSig",
           "package": "rclient",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "rcRserveSig",
           "package": "rclient",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "rcRserveVersion",
           "package": "rclient",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "rcRserveVersion",
           "package": "rclient",
@@ -853,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "removeFile",
           "package": "rclient",
@@ -863,6 +936,7 @@
         "index": {
           "description": "remove file",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "removeFile",
           "normalized": "RConn-\u003eString-\u003eIO Result",
@@ -879,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshutdown the Rserve server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "shutdown",
           "package": "rclient",
@@ -889,6 +964,7 @@
         "index": {
           "description": "shutdown the Rserve server",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "shutdown",
           "normalized": "RConn-\u003eIO()",
@@ -903,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpack",
           "package": "rclient",
@@ -912,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpack",
           "normalized": "Result-\u003eMaybe a",
@@ -927,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RArrayBool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayBool",
           "package": "rclient",
@@ -937,6 +1016,7 @@
         "index": {
           "description": "unpack Result containing an RArrayBool",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayBool",
           "normalized": "Result-\u003eMaybe[Bool]",
@@ -953,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RArrayComplex\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayComplex",
           "package": "rclient",
@@ -963,6 +1044,7 @@
         "index": {
           "description": "unpack Result containing an RArrayComplex",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayComplex",
           "normalized": "Result-\u003eMaybe[(Double,Double)]",
@@ -979,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RArrayDouble\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayDouble",
           "package": "rclient",
@@ -989,6 +1072,7 @@
         "index": {
           "description": "unpack Result containing an RArrayDouble",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayDouble",
           "normalized": "Result-\u003eMaybe[Double]",
@@ -1005,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RArrayInt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayInt",
           "package": "rclient",
@@ -1015,6 +1100,7 @@
         "index": {
           "description": "unpack Result containing an RArrayInt",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayInt",
           "normalized": "Result-\u003eMaybe[Int]",
@@ -1031,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RArrayString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayString",
           "package": "rclient",
@@ -1041,6 +1128,7 @@
         "index": {
           "description": "unpack Result containing an RArrayString",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRArrayString",
           "normalized": "Result-\u003eMaybe[String]",
@@ -1057,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RBool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRBool",
           "package": "rclient",
@@ -1067,6 +1156,7 @@
         "index": {
           "description": "unpack Result containing an RBool",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRBool",
           "normalized": "Result-\u003eMaybe Bool",
@@ -1083,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RDouble\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRDouble",
           "package": "rclient",
@@ -1093,6 +1184,7 @@
         "index": {
           "description": "unpack Result containing an RDouble",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRDouble",
           "normalized": "Result-\u003eMaybe Double",
@@ -1109,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RInt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRInt",
           "package": "rclient",
@@ -1119,6 +1212,7 @@
         "index": {
           "description": "unpack Result containing an RInt",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRInt",
           "normalized": "Result-\u003eMaybe Int",
@@ -1135,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RListTag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRListTag",
           "package": "rclient",
@@ -1145,6 +1240,7 @@
         "index": {
           "description": "unpack Result containing an RListTag",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRListTag",
           "normalized": "Result-\u003eMaybe[(RSEXP,RSEXP)]",
@@ -1161,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RSEXPWithAttrib\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRSEXPWithAttrib",
           "package": "rclient",
@@ -1171,6 +1268,7 @@
         "index": {
           "description": "unpack Result containing an RSEXPWithAttrib",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRSEXPWithAttrib",
           "normalized": "Result-\u003eMaybe(RSEXP,RSEXP)",
@@ -1187,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRString",
           "package": "rclient",
@@ -1197,6 +1296,7 @@
         "index": {
           "description": "unpack Result containing an RString",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRString",
           "normalized": "Result-\u003eMaybe String",
@@ -1213,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RSym\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRSym",
           "package": "rclient",
@@ -1223,6 +1324,7 @@
         "index": {
           "description": "unpack Result containing an RSym",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRSym",
           "normalized": "Result-\u003eMaybe String",
@@ -1239,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpack a Result containing an RVector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "unpackRVector",
           "package": "rclient",
@@ -1249,6 +1352,7 @@
         "index": {
           "description": "unpack Result containing an RVector",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "unpackRVector",
           "normalized": "Result-\u003eMaybe[RSEXP]",
@@ -1265,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate an R expression, discarding any result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "voidEval",
           "package": "rclient",
@@ -1275,6 +1380,7 @@
         "index": {
           "description": "evaluate an expression discarding any result",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "voidEval",
           "normalized": "RConn-\u003eString-\u003eIO()",
@@ -1291,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite content to a file accessible to the Rserve session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:54 UTC 2014",
           "module": "Network.Rserve.Client",
           "name": "writeFile",
           "package": "rclient",
@@ -1301,6 +1408,7 @@
         "index": {
           "description": "write content to file accessible to the Rserve session",
           "hierarchy": "Network Rserve Client",
+          "indexed": "2014-03-11T19:48:54",
           "module": "Network.Rserve.Client",
           "name": "writeFile",
           "normalized": "RConn-\u003eByteString-\u003eIO Result",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ls-usb"
+        "phrase": "ls-usb",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hubigraph"
+        "phrase": "hubigraph",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Base",
           "package": "hubigraph",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Base",
           "package": "hubigraph",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Attr",
           "package": "hubigraph",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Attr",
           "package": "hubigraph",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Color",
           "package": "hubigraph",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Color",
           "package": "hubigraph",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EAttr",
           "package": "hubigraph",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EAttr",
           "package": "hubigraph",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Edge",
           "package": "hubigraph",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Edge",
           "package": "hubigraph",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EdgeID",
           "package": "hubigraph",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EdgeID",
           "package": "hubigraph",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Hubigraph",
           "package": "hubigraph",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Hubigraph",
           "package": "hubigraph",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Shape",
           "package": "hubigraph",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Shape",
           "package": "hubigraph",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Stroke",
           "package": "hubigraph",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Stroke",
           "package": "hubigraph",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "StyleID",
           "package": "hubigraph",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "StyleID",
           "package": "hubigraph",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Ubigraph",
           "package": "hubigraph",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Ubigraph",
           "package": "hubigraph",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VAttr",
           "package": "hubigraph",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VAttr",
           "package": "hubigraph",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VertexID",
           "package": "hubigraph",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VertexID",
           "package": "hubigraph",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Cone",
           "package": "hubigraph",
@@ -300,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Cone",
           "package": "hubigraph",
@@ -313,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Cube",
           "package": "hubigraph",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Cube",
           "package": "hubigraph",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Dashed",
           "package": "hubigraph",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Dashed",
           "package": "hubigraph",
@@ -357,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Dodecahedron",
           "package": "hubigraph",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Dodecahedron",
           "package": "hubigraph",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Dotted",
           "package": "hubigraph",
@@ -388,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Dotted",
           "package": "hubigraph",
@@ -401,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrow",
           "package": "hubigraph",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrow",
           "package": "hubigraph",
@@ -423,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrowLength",
           "package": "hubigraph",
@@ -432,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrowLength",
           "package": "hubigraph",
@@ -445,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrowPosition",
           "package": "hubigraph",
@@ -454,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrowPosition",
           "package": "hubigraph",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrowRadius",
           "package": "hubigraph",
@@ -476,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrowRadius",
           "package": "hubigraph",
@@ -489,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrowReverse",
           "package": "hubigraph",
@@ -498,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EArrowReverse",
           "package": "hubigraph",
@@ -511,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EColor",
           "package": "hubigraph",
@@ -520,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EColor",
           "package": "hubigraph",
@@ -533,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EFontcolor",
           "package": "hubigraph",
@@ -542,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EFontcolor",
           "package": "hubigraph",
@@ -555,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EFontfamily",
           "package": "hubigraph",
@@ -564,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EFontfamily",
           "package": "hubigraph",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EFontsize",
           "package": "hubigraph",
@@ -586,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EFontsize",
           "package": "hubigraph",
@@ -599,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "ELabel",
           "package": "hubigraph",
@@ -608,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "ELabel",
           "package": "hubigraph",
@@ -621,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EOriented",
           "package": "hubigraph",
@@ -630,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EOriented",
           "package": "hubigraph",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EShowstrain",
           "package": "hubigraph",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EShowstrain",
           "package": "hubigraph",
@@ -665,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "ESpline",
           "package": "hubigraph",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "ESpline",
           "package": "hubigraph",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EStrength",
           "package": "hubigraph",
@@ -696,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EStrength",
           "package": "hubigraph",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EStroke",
           "package": "hubigraph",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EStroke",
           "package": "hubigraph",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EVisible",
           "package": "hubigraph",
@@ -740,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EVisible",
           "package": "hubigraph",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "EWidth",
           "package": "hubigraph",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "EWidth",
           "package": "hubigraph",
@@ -775,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Icosahedron",
           "package": "hubigraph",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Icosahedron",
           "package": "hubigraph",
@@ -797,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "None",
           "package": "hubigraph",
@@ -806,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "None",
           "package": "hubigraph",
@@ -819,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Octahedron",
           "package": "hubigraph",
@@ -828,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Octahedron",
           "package": "hubigraph",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Solid",
           "package": "hubigraph",
@@ -850,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Solid",
           "package": "hubigraph",
@@ -863,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Sphere",
           "package": "hubigraph",
@@ -872,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Sphere",
           "package": "hubigraph",
@@ -885,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Tetrahedron",
           "package": "hubigraph",
@@ -894,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Tetrahedron",
           "package": "hubigraph",
@@ -907,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Torus",
           "package": "hubigraph",
@@ -916,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Torus",
           "package": "hubigraph",
@@ -929,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "Ubigraph",
           "package": "hubigraph",
@@ -938,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "Ubigraph",
           "package": "hubigraph",
@@ -951,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VCallback",
           "package": "hubigraph",
@@ -960,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VCallback",
           "package": "hubigraph",
@@ -973,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VColor",
           "package": "hubigraph",
@@ -982,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VColor",
           "package": "hubigraph",
@@ -995,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VFontcolor",
           "package": "hubigraph",
@@ -1004,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VFontcolor",
           "package": "hubigraph",
@@ -1017,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VFontfamily",
           "package": "hubigraph",
@@ -1026,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VFontfamily",
           "package": "hubigraph",
@@ -1039,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VFontsize",
           "package": "hubigraph",
@@ -1048,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VFontsize",
           "package": "hubigraph",
@@ -1061,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VLabel",
           "package": "hubigraph",
@@ -1070,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VLabel",
           "package": "hubigraph",
@@ -1083,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VShape",
           "package": "hubigraph",
@@ -1092,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VShape",
           "package": "hubigraph",
@@ -1105,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VShapedetail",
           "package": "hubigraph",
@@ -1114,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VShapedetail",
           "package": "hubigraph",
@@ -1127,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VSize",
           "package": "hubigraph",
@@ -1136,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VSize",
           "package": "hubigraph",
@@ -1149,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "VVisible",
           "package": "hubigraph",
@@ -1158,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "VVisible",
           "package": "hubigraph",
@@ -1171,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "initHubigraph",
           "package": "hubigraph",
@@ -1180,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "initHubigraph",
           "normalized": "String-\u003ea Ubigraph",
@@ -1195,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "runHubigraph",
           "package": "hubigraph",
@@ -1204,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "runHubigraph",
           "normalized": "ReaderT a b c-\u003ea-\u003eb c",
@@ -1219,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "server",
           "package": "hubigraph",
@@ -1228,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "server",
           "package": "hubigraph",
@@ -1240,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Base",
           "name": "toPair",
           "package": "hubigraph",
@@ -1249,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Base",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Base",
           "name": "toPair",
           "normalized": "a-\u003e(String,String)",
@@ -1264,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "Style",
           "package": "hubigraph",
@@ -1272,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "Style",
           "package": "hubigraph",
@@ -1285,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "changeEStyle",
           "package": "hubigraph",
@@ -1294,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "changeEStyle",
           "normalized": "StyleID-\u003eEdgeID-\u003eHubigraph Bool",
@@ -1309,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "changeVStyle",
           "package": "hubigraph",
@@ -1318,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "changeVStyle",
           "normalized": "StyleID-\u003eVertexID-\u003eHubigraph Bool",
@@ -1333,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "newEStyle",
           "package": "hubigraph",
@@ -1342,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "newEStyle",
           "normalized": "StyleID-\u003eHubigraph StyleID",
@@ -1357,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "newEStyleWithID",
           "package": "hubigraph",
@@ -1366,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "newEStyleWithID",
           "normalized": "StyleID-\u003eStyleID-\u003eHubigraph Bool",
@@ -1381,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "newVStyle",
           "package": "hubigraph",
@@ -1390,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "newVStyle",
           "normalized": "StyleID-\u003eHubigraph StyleID",
@@ -1405,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "newVStyleWithID",
           "package": "hubigraph",
@@ -1414,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "newVStyleWithID",
           "normalized": "StyleID-\u003eStyleID-\u003eHubigraph Bool",
@@ -1429,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "setEStyleAttr",
           "package": "hubigraph",
@@ -1438,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "setEStyleAttr",
           "normalized": "EAttr-\u003eStyleID-\u003eHubigraph Bool",
@@ -1453,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph.Style",
           "name": "setVStyleAttr",
           "package": "hubigraph",
@@ -1462,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph Style",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph.Style",
           "name": "setVStyleAttr",
           "normalized": "VAttr-\u003eStyleID-\u003eHubigraph Bool",
@@ -1477,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "Ubigraph",
           "package": "hubigraph",
@@ -1485,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "Ubigraph",
           "package": "hubigraph",
@@ -1498,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "clear",
           "package": "hubigraph",
@@ -1507,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "clear",
           "package": "hubigraph",
@@ -1519,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "newEdge",
           "package": "hubigraph",
@@ -1528,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "newEdge",
           "normalized": "Edge-\u003eHubigraph EdgeID",
@@ -1543,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "newEdgeWithID",
           "package": "hubigraph",
@@ -1552,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "newEdgeWithID",
           "normalized": "EdgeID-\u003eEdge-\u003eHubigraph Bool",
@@ -1567,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "newVertex",
           "package": "hubigraph",
@@ -1576,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "newVertex",
           "package": "hubigraph",
@@ -1589,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "newVertexWithID",
           "package": "hubigraph",
@@ -1598,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "newVertexWithID",
           "normalized": "VertexID-\u003eHubigraph Bool",
@@ -1613,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "removeEdge",
           "package": "hubigraph",
@@ -1622,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "removeEdge",
           "normalized": "EdgeID-\u003eHubigraph Bool",
@@ -1637,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "removeVertex",
           "package": "hubigraph",
@@ -1646,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "removeVertex",
           "normalized": "VertexID-\u003eHubigraph Bool",
@@ -1661,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "setEAttr",
           "package": "hubigraph",
@@ -1670,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "setEAttr",
           "normalized": "EAttr-\u003eEdgeID-\u003eHubigraph Bool",
@@ -1685,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:22 UTC 2014",
           "module": "Graphics.Ubigraph",
           "name": "setVAttr",
           "package": "hubigraph",
@@ -1694,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ubigraph",
+          "indexed": "2014-03-11T18:53:22",
           "module": "Graphics.Ubigraph",
           "name": "setVAttr",
           "normalized": "VAttr-\u003eVertexID-\u003eHubigraph Bool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "imm"
+        "phrase": "imm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Boot",
           "name": "Boot",
           "package": "imm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Imm Boot",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Boot",
           "name": "Boot",
           "package": "imm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Boot",
           "name": "ConfigFeed",
           "package": "imm",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Imm Boot",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Boot",
           "name": "ConfigFeed",
           "package": "imm",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain function to call in the configuration file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Boot",
           "name": "imm",
           "package": "imm",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Main function to call in the configuration file",
           "hierarchy": "Imm Boot",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Boot",
           "name": "imm",
           "normalized": "[ConfigFeed]-\u003eIO()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "Config",
           "package": "imm",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "Config",
           "package": "imm",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "BodyFormat",
           "package": "imm",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "BodyFormat",
           "package": "imm",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe only exported constructor is through \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "Config",
           "package": "imm",
@@ -137,6 +148,7 @@
         "index": {
           "description": "The only exported constructor is through Default class",
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "Config",
           "package": "imm",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "FromFormat",
           "package": "imm",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "FromFormat",
           "package": "imm",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "SubjectFormat",
           "package": "imm",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "SubjectFormat",
           "package": "imm",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "BodyFormat",
           "package": "imm",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "BodyFormat",
           "package": "imm",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "FromFormat",
           "package": "imm",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "FromFormat",
           "package": "imm",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "SubjectFormat",
           "package": "imm",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "SubjectFormat",
           "package": "imm",
@@ -259,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the Haskell code to write in the configuration file to add feeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "addFeeds",
           "package": "imm",
@@ -269,6 +292,7 @@
         "index": {
           "description": "Return the Haskell code to write in the configuration file to add feeds",
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "addFeeds",
           "normalized": "[(String,[String])]-\u003ea()",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "dateParsers",
           "package": "imm",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "dateParsers",
           "normalized": "Lens' Config[String-\u003eMaybe UTCTime]",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "decoder",
           "package": "imm",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "decoder",
           "package": "imm",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "fileDatabase",
           "package": "imm",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "fileDatabase",
           "package": "imm",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "formatBody",
           "package": "imm",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "formatBody",
           "package": "imm",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "formatFrom",
           "package": "imm",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "formatFrom",
           "package": "imm",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "formatSubject",
           "package": "imm",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "formatSubject",
           "package": "imm",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "maildir",
           "package": "imm",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "maildir",
           "package": "imm",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Config",
           "name": "withConfig",
           "package": "imm",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Imm Config",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Config",
           "name": "withConfig",
           "normalized": "(Config-\u003eConfig)-\u003eReaderT Config a b-\u003ea b",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "Core",
           "package": "imm",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "Core",
           "package": "imm",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "FeedConfig",
           "package": "imm",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "FeedConfig",
           "package": "imm",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "FeedList",
           "package": "imm",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "FeedList",
           "package": "imm",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "check",
           "package": "imm",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "check",
           "normalized": "(Config-\u003eConfig)-\u003eFeedConfig-\u003eIO()",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "dispatch",
           "package": "imm",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "dispatch",
           "normalized": "(Config-\u003eConfig)-\u003eAction-\u003eFeedList-\u003eIO()",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "importOPML",
           "package": "imm",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "importOPML",
           "normalized": "String-\u003ea()",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "markAsRead",
           "package": "imm",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "markAsRead",
           "normalized": "(Config-\u003eConfig)-\u003eFeedConfig-\u003eIO()",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "markAsUnread",
           "package": "imm",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "markAsUnread",
           "normalized": "(Config-\u003eConfig)-\u003eFeedConfig-\u003eIO()",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "showStatus",
           "package": "imm",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "showStatus",
           "normalized": "(Config-\u003eConfig)-\u003eFeedConfig-\u003eIO()",
@@ -668,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite mails for each new item, and update the last check time in state file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Core",
           "name": "update",
           "package": "imm",
@@ -678,6 +737,7 @@
         "index": {
           "description": "Write mails for each new item and update the last check time in state file",
           "hierarchy": "Imm Core",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Core",
           "name": "update",
           "normalized": "(Config-\u003eConfig)-\u003eFeedConfig-\u003eIO()",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "Database",
           "package": "imm",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "Database",
           "package": "imm",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "DatabaseReader",
           "package": "imm",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "DatabaseReader",
           "package": "imm",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "DatabaseState",
           "package": "imm",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "DatabaseState",
           "package": "imm",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "DatabaseWriter",
           "package": "imm",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "DatabaseWriter",
           "package": "imm",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "FeedID",
           "package": "imm",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "FeedID",
           "package": "imm",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "FileDatabase",
           "package": "imm",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "FileDatabase",
           "package": "imm",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "directory",
           "package": "imm",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "directory",
           "package": "imm",
@@ -840,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove state file as if no update was ever done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "forget",
           "package": "imm",
@@ -850,6 +925,7 @@
         "index": {
           "description": "Remove state file as if no update was ever done",
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "forget",
           "normalized": "FeedID-\u003ea()",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "getDataFile",
           "package": "imm",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "getDataFile",
           "normalized": "Lens' FileDatabase(FeedID-\u003eFilePath)",
@@ -889,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the last check time in the state file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "getLastCheck",
           "package": "imm",
@@ -899,6 +978,7 @@
         "index": {
           "description": "Read the last check time in the state file",
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "getLastCheck",
           "normalized": "FeedID-\u003ea UTCTime",
@@ -915,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the last update time in the data file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Database",
           "name": "storeLastCheck",
           "package": "imm",
@@ -925,6 +1006,7 @@
         "index": {
           "description": "Write the last update time in the data file",
           "hierarchy": "Imm Database",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Database",
           "name": "storeLastCheck",
           "normalized": "FeedID-\u003eUTCTime-\u003ea()",
@@ -940,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "Error",
           "package": "imm",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "Error",
           "package": "imm",
@@ -961,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "ImmError",
           "package": "imm",
@@ -969,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "ImmError",
           "package": "imm",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "HTTPError",
           "package": "imm",
@@ -991,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "HTTPError",
           "package": "imm",
@@ -1004,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "IOE",
           "package": "imm",
@@ -1013,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "IOE",
           "package": "imm",
@@ -1026,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "OtherError",
           "package": "imm",
@@ -1035,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "OtherError",
           "package": "imm",
@@ -1048,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "ParseFeedError",
           "package": "imm",
@@ -1057,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "ParseFeedError",
           "package": "imm",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "ParseItemDateError",
           "package": "imm",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "ParseItemDateError",
           "package": "imm",
@@ -1092,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "ParseTimeError",
           "package": "imm",
@@ -1101,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "ParseTimeError",
           "package": "imm",
@@ -1114,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "ParseUriError",
           "package": "imm",
@@ -1123,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "ParseUriError",
           "package": "imm",
@@ -1136,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "TLSError",
           "package": "imm",
@@ -1145,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "TLSError",
           "package": "imm",
@@ -1158,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "TimeOut",
           "package": "imm",
@@ -1167,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "TimeOut",
           "package": "imm",
@@ -1180,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "UnicodeError",
           "package": "imm",
@@ -1189,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "UnicodeError",
           "package": "imm",
@@ -1203,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad-agnostic version of Data.Text.Encoding.decodeUtf8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "decodeUtf8",
           "package": "imm",
@@ -1213,6 +1320,7 @@
         "index": {
           "description": "Monad-agnostic version of Data.Text.Encoding.decodeUtf8",
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "decodeUtf8",
           "normalized": "ByteString-\u003ea Text",
@@ -1228,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "localError",
           "package": "imm",
@@ -1237,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "localError",
           "normalized": "String-\u003ea()-\u003ea()",
@@ -1253,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad-agnostic version of \u003ccode\u003e\u003ca\u003eparseTime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "parseTime",
           "package": "imm",
@@ -1263,6 +1374,7 @@
         "index": {
           "description": "Monad-agnostic version of parseTime",
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "parseTime",
           "normalized": "String-\u003ea UTCTime",
@@ -1279,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad-agnostic version of \u003ccode\u003e\u003ca\u003eparseURI\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "parseURI",
           "package": "imm",
@@ -1289,6 +1402,7 @@
         "index": {
           "description": "Monad-agnostic version of parseURI",
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "parseURI",
           "normalized": "String-\u003ea URI",
@@ -1305,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad-agnostic version of \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "timeout",
           "package": "imm",
@@ -1315,6 +1430,7 @@
         "index": {
           "description": "Monad-agnostic version of timeout",
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "timeout",
           "normalized": "Int-\u003eIO a-\u003eb a",
@@ -1330,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad-agnostic version of \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "try",
           "package": "imm",
@@ -1340,6 +1457,7 @@
         "index": {
           "description": "Monad-agnostic version of try",
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "try",
           "normalized": "IO a-\u003eb a",
@@ -1354,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Error",
           "name": "withError",
           "package": "imm",
@@ -1363,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Imm Error",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Error",
           "name": "withError",
           "normalized": "String-\u003eErrorT a b()-\u003eb()",
@@ -1378,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "Feed",
           "package": "imm",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "Feed",
           "package": "imm",
@@ -1399,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "Action",
           "package": "imm",
@@ -1407,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "Action",
           "package": "imm",
@@ -1420,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "FeedParser",
           "package": "imm",
@@ -1428,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "FeedParser",
           "package": "imm",
@@ -1441,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "ImmFeed",
           "package": "imm",
@@ -1449,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "ImmFeed",
           "package": "imm",
@@ -1462,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "Check",
           "package": "imm",
@@ -1471,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "Check",
           "package": "imm",
@@ -1484,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "MarkAsRead",
           "package": "imm",
@@ -1493,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "MarkAsRead",
           "package": "imm",
@@ -1506,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "MarkAsUnread",
           "package": "imm",
@@ -1515,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "MarkAsUnread",
           "package": "imm",
@@ -1528,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "ShowStatus",
           "package": "imm",
@@ -1537,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "ShowStatus",
           "package": "imm",
@@ -1550,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "Update",
           "package": "imm",
@@ -1559,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "Update",
           "package": "imm",
@@ -1573,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the list of unread items for given feed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "check",
           "package": "imm",
@@ -1583,6 +1722,7 @@
         "index": {
           "description": "Count the list of unread items for given feed",
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "check",
           "normalized": "ImmFeed-\u003ea()",
@@ -1597,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "describe",
           "package": "imm",
@@ -1606,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "describe",
           "normalized": "Feed-\u003eString",
@@ -1620,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "describeItem",
           "package": "imm",
@@ -1629,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "describeItem",
           "normalized": "Item-\u003eString",
@@ -1645,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve, decode and parse the given resource as a feed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "download",
           "package": "imm",
@@ -1655,6 +1800,7 @@
         "index": {
           "description": "Retrieve decode and parse the given resource as feed",
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "download",
           "normalized": "URI-\u003ea ImmFeed",
@@ -1669,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "extractHtml",
           "package": "imm",
@@ -1678,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "extractHtml",
           "normalized": "EntryContent-\u003eString",
@@ -1693,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "getDate",
           "package": "imm",
@@ -1702,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "getDate",
           "normalized": "Item-\u003ea UTCTime",
@@ -1718,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is missing from \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e, probably because it is difficult to define where the content is located in a generic way for Atom\u003cem\u003eRSS 1.x\u003c/em\u003eRSS 2.x feeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "getItemContent",
           "package": "imm",
@@ -1728,6 +1879,7 @@
         "index": {
           "description": "This function is missing from Query probably because it is difficult to define where the content is located in generic way for Atom RSS RSS feeds",
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "getItemContent",
           "normalized": "Item-\u003eString",
@@ -1744,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimply set the last check time to now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "markAsRead",
           "package": "imm",
@@ -1754,6 +1907,7 @@
         "index": {
           "description": "Simply set the last check time to now",
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "markAsRead",
           "normalized": "URI-\u003ea()",
@@ -1770,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimply remove the state file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "markAsUnread",
           "package": "imm",
@@ -1780,6 +1935,7 @@
         "index": {
           "description": "Simply remove the state file",
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "markAsUnread",
           "normalized": "URI-\u003ea()",
@@ -1796,6 +1952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad-agnostic version of \u003ccode\u003e\u003ca\u003eparseFeedString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "parse",
           "package": "imm",
@@ -1806,6 +1963,7 @@
         "index": {
           "description": "Monad-agnostic version of parseFeedString",
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "parse",
           "normalized": "String-\u003ea Feed",
@@ -1820,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "parseDate",
           "package": "imm",
@@ -1829,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "parseDate",
           "normalized": "String-\u003ea(Maybe UTCTime)",
@@ -1845,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e describing the last update for a given feed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "showStatus",
           "package": "imm",
@@ -1855,6 +2016,7 @@
         "index": {
           "description": "Return String describing the last update for given feed",
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "showStatus",
           "normalized": "URI-\u003ea String",
@@ -1871,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation of the feed type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Feed",
           "name": "showType",
           "package": "imm",
@@ -1881,6 +2044,7 @@
         "index": {
           "description": "Provide String representation of the feed type",
           "hierarchy": "Imm Feed",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Feed",
           "name": "showType",
           "normalized": "Feed-\u003eString",
@@ -1896,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "HTTP",
           "package": "imm",
@@ -1904,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "HTTP",
           "package": "imm",
@@ -1917,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "Decoder",
           "package": "imm",
@@ -1925,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "Decoder",
           "package": "imm",
@@ -1938,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "converter",
           "package": "imm",
@@ -1947,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "converter",
           "package": "imm",
@@ -1959,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "decode",
           "package": "imm",
@@ -1968,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "decode",
           "normalized": "ByteString-\u003ea Text",
@@ -1983,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egetRaw\u003c/a\u003e\u003c/code\u003e with additional decoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "get",
           "package": "imm",
@@ -1993,6 +2166,7 @@
         "index": {
           "description": "Same as getRaw with additional decoding",
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "get",
           "normalized": "URI-\u003ea Text",
@@ -2008,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an HTTP GET request and return the response body as raw \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "getRaw",
           "package": "imm",
@@ -2018,6 +2193,7 @@
         "index": {
           "description": "Perform an HTTP GET request and return the response body as raw ByteString",
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "getRaw",
           "normalized": "URI-\u003ea ByteString",
@@ -2034,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad-agnostic version of \u003ccode\u003e\u003ca\u003eparseUrl\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "parseURL",
           "package": "imm",
@@ -2044,6 +2221,7 @@
         "index": {
           "description": "Monad-agnostic version of parseUrl",
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "parseURL",
           "normalized": "String-\u003ea(Request b)",
@@ -2060,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an HTTP request for given URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "request",
           "package": "imm",
@@ -2070,6 +2249,7 @@
         "index": {
           "description": "Build an HTTP request for given URI",
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "request",
           "normalized": "String-\u003ea(Request b)",
@@ -2085,6 +2265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad-agnostic version of \u003ccode\u003e\u003ca\u003ewithManager\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.HTTP",
           "name": "withManager'",
           "package": "imm",
@@ -2095,6 +2276,7 @@
         "index": {
           "description": "Monad-agnostic version of withManager",
           "hierarchy": "Imm HTTP",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.HTTP",
           "name": "withManager'",
           "normalized": "(Manager-\u003eResourceT IO a)-\u003eb a",
@@ -2110,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "Mail",
           "package": "imm",
@@ -2118,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "Mail",
           "package": "imm",
@@ -2131,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "Format",
           "package": "imm",
@@ -2139,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "Format",
           "package": "imm",
@@ -2152,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "Mail",
           "package": "imm",
@@ -2160,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "Mail",
           "package": "imm",
@@ -2173,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "MailFormatter",
           "package": "imm",
@@ -2181,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "MailFormatter",
           "package": "imm",
@@ -2194,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "Mail",
           "package": "imm",
@@ -2203,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "Mail",
           "package": "imm",
@@ -2216,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "_body",
           "package": "imm",
@@ -2225,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "_body",
           "package": "imm",
@@ -2237,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "_charset",
           "package": "imm",
@@ -2246,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "_charset",
           "package": "imm",
@@ -2258,6 +2454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "_contentDisposition",
           "package": "imm",
@@ -2267,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "_contentDisposition",
           "package": "imm",
@@ -2280,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "_date",
           "package": "imm",
@@ -2289,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "_date",
           "package": "imm",
@@ -2301,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "_from",
           "package": "imm",
@@ -2310,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "_from",
           "package": "imm",
@@ -2322,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "_mime",
           "package": "imm",
@@ -2331,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "_mime",
           "package": "imm",
@@ -2343,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "_returnPath",
           "package": "imm",
@@ -2352,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "_returnPath",
           "package": "imm",
@@ -2365,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "_subject",
           "package": "imm",
@@ -2374,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "_subject",
           "package": "imm",
@@ -2386,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "body",
           "package": "imm",
@@ -2395,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "body",
           "package": "imm",
@@ -2408,6 +2618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild mail from a given feed, using builders functions from \u003ccode\u003eSettings\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "build",
           "package": "imm",
@@ -2418,6 +2629,7 @@
         "index": {
           "description": "Build mail from given feed using builders functions from Settings",
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "build",
           "normalized": "TimeZone-\u003e(Item,Feed)-\u003ea Mail",
@@ -2432,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "charset",
           "package": "imm",
@@ -2441,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "charset",
           "package": "imm",
@@ -2453,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "contentDisposition",
           "package": "imm",
@@ -2462,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "contentDisposition",
           "package": "imm",
@@ -2475,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "date",
           "package": "imm",
@@ -2484,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "date",
           "package": "imm",
@@ -2496,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "formatBody",
           "package": "imm",
@@ -2505,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "formatBody",
           "package": "imm",
@@ -2518,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "formatFrom",
           "package": "imm",
@@ -2527,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "formatFrom",
           "package": "imm",
@@ -2540,6 +2762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "formatSubject",
           "package": "imm",
@@ -2549,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "formatSubject",
           "package": "imm",
@@ -2562,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "from",
           "package": "imm",
@@ -2571,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "from",
           "package": "imm",
@@ -2583,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "mime",
           "package": "imm",
@@ -2592,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "mime",
           "package": "imm",
@@ -2604,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "returnPath",
           "package": "imm",
@@ -2613,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "returnPath",
           "package": "imm",
@@ -2626,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Mail",
           "name": "subject",
           "package": "imm",
@@ -2635,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Imm Mail",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Mail",
           "name": "subject",
           "package": "imm",
@@ -2647,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Maildir",
           "name": "Maildir",
           "package": "imm",
@@ -2655,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Imm Maildir",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Maildir",
           "name": "Maildir",
           "package": "imm",
@@ -2668,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Maildir",
           "name": "Maildir",
           "package": "imm",
@@ -2676,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Imm Maildir",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Maildir",
           "name": "Maildir",
           "package": "imm",
@@ -2689,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Maildir",
           "name": "MaildirWriter",
           "package": "imm",
@@ -2697,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Imm Maildir",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Maildir",
           "name": "MaildirWriter",
           "package": "imm",
@@ -2711,6 +2949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an allegedly unique filename; useful to add new mail files in a maildir.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Maildir",
           "name": "getUniqueName",
           "package": "imm",
@@ -2721,6 +2960,7 @@
         "index": {
           "description": "Return an allegedly unique filename useful to add new mail files in maildir",
           "hierarchy": "Imm Maildir",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Maildir",
           "name": "getUniqueName",
           "package": "imm",
@@ -2735,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a maildir with subdirectories cur, new and tmp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Maildir",
           "name": "init",
           "package": "imm",
@@ -2745,6 +2986,7 @@
         "index": {
           "description": "Build maildir with subdirectories cur new and tmp",
           "hierarchy": "Imm Maildir",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Maildir",
           "name": "init",
           "normalized": "a()",
@@ -2760,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a mail to the maildir\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Maildir",
           "name": "write",
           "package": "imm",
@@ -2770,6 +3013,7 @@
         "index": {
           "description": "Add mail to the maildir",
           "hierarchy": "Imm Maildir",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Maildir",
           "name": "write",
           "normalized": "Mail-\u003ea()",
@@ -2784,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Util",
           "name": "Util",
           "package": "imm",
@@ -2792,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Imm Util",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Util",
           "name": "Util",
           "package": "imm",
@@ -2806,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e with first argument in IO to build platform-dependent paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Util",
           "name": "(\u003e/\u003e)",
           "package": "imm",
@@ -2816,6 +3063,7 @@
         "index": {
           "description": "Like with first argument in IO to build platform-dependent paths",
           "hierarchy": "Imm Util",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Util",
           "name": "(\u003e/\u003e) \u003e/\u003e",
           "normalized": "IO FilePath-\u003eFilePath-\u003ea FilePath",
@@ -2831,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut to \u003ccode\u003e\u003ca\u003eliftBase\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e as base monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm.Util",
           "name": "io",
           "package": "imm",
@@ -2841,6 +3090,7 @@
         "index": {
           "description": "Shortcut to liftBase with IO as base monad",
           "hierarchy": "Imm Util",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm.Util",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -2855,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm",
           "name": "Imm",
           "package": "imm",
@@ -2863,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Imm",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm",
           "name": "Imm",
           "package": "imm",
@@ -2877,6 +3129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an OPML string and return a list of tuples (category title, feed URIs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:01 UTC 2014",
           "module": "Imm",
           "name": "read",
           "package": "imm",
@@ -2887,6 +3140,7 @@
         "index": {
           "description": "Parse an OPML string and return list of tuples category title feed URIs",
           "hierarchy": "Imm",
+          "indexed": "2014-03-11T18:57:01",
           "module": "Imm",
           "name": "read",
           "normalized": "String-\u003eMaybe[(String,[String])]",

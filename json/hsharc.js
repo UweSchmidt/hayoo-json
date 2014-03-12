@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsharc"
+        "phrase": "hsharc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSHARC XML file IO.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "SHARC",
           "package": "hsharc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "SHARC XML file IO",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "SHARC",
           "package": "hsharc",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SHARC instrument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "Instrument",
           "package": "hsharc",
@@ -51,6 +54,7 @@
         "index": {
           "description": "SHARC instrument",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "Instrument",
           "package": "hsharc",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SHARC note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "Note",
           "package": "hsharc",
@@ -74,6 +79,7 @@
         "index": {
           "description": "SHARC note",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "Note",
           "package": "hsharc",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SHARC partial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "Partial",
           "package": "hsharc",
@@ -97,6 +104,7 @@
         "index": {
           "description": "SHARC partial",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "Partial",
           "package": "hsharc",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "Instrument",
           "package": "hsharc",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "Instrument",
           "package": "hsharc",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "Note",
           "package": "hsharc",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "Note",
           "package": "hsharc",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "Partial",
           "package": "hsharc",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "Partial",
           "package": "hsharc",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "amplitude",
           "package": "hsharc",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "amplitude",
           "package": "hsharc",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "frequency",
           "package": "hsharc",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "frequency",
           "package": "hsharc",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the minimum and maximum amplitudes of all \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003es at all\n \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003es of an \u003ccode\u003e\u003ca\u003eInstrument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "instrument_amplitude_minmax",
           "package": "hsharc",
@@ -229,6 +248,7 @@
         "index": {
           "description": "Find the minimum and maximum amplitudes of all Partial at all Note of an Instrument",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "instrument_amplitude_minmax",
           "normalized": "Instrument-\u003e(Double,Double)",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "instrument_id",
           "package": "hsharc",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "instrument_id",
           "package": "hsharc",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalise an \u003ccode\u003e\u003ca\u003eInstrument\u003c/a\u003e\u003c/code\u003e so the maximum amplitude of any\n \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e1.0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "instrument_normalise",
           "package": "hsharc",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Normalise an Instrument so the maximum amplitude of any Partial is",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "instrument_normalise",
           "normalized": "Instrument-\u003eInstrument",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the minimum and maximum amplitudes of all \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003es at a\n \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "note_amplitude_minmax",
           "package": "hsharc",
@@ -300,6 +325,7 @@
         "index": {
           "description": "Find the minimum and maximum amplitudes of all Partial at Note",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "note_amplitude_minmax",
           "normalized": "Note-\u003e(Double,Double)",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of partials at a \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "note_n_partials",
           "package": "hsharc",
@@ -325,6 +352,7 @@
         "index": {
           "description": "The number of partials at Note",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "note_n_partials",
           "normalized": "Note-\u003eInt",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalise a \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e so the maximum amplitude of any \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e is\n \u003ccode\u003e1.0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "note_normalise",
           "package": "hsharc",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Normalise Note so the maximum amplitude of any Partial is",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "note_normalise",
           "normalized": "Note-\u003eNote",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a linear scalar to the amplitudes of all \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003es at a \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "note_scale_amplitude",
           "package": "hsharc",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Apply linear scalar to the amplitudes of all Partial at Note",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "note_scale_amplitude",
           "normalized": "Double-\u003eNote-\u003eNote",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e into (\u003cem\u003efrequency\u003c/em\u003e,\u003cem\u003eamplitude\u003c/em\u003e,\u003cem\u003ephase\u003c/em\u003e) triples.\n\u003c/p\u003e\u003cpre\u003e note_spectra (Note 440 [Partial 3 0.1 pi]) == [(1320,0.1,pi)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "note_spectra",
           "package": "hsharc",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Translate Note into frequency amplitude phase triples note spectra Note Partial pi pi",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "note_spectra",
           "normalized": "Note-\u003e[(Double,Double,Double)]",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "notes",
           "package": "hsharc",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "notes",
           "normalized": "[Note]",
@@ -438,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ccode\u003einstrument\u003c/code\u003e \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "parse_instrument",
           "package": "hsharc",
@@ -448,6 +485,7 @@
         "index": {
           "description": "Parse an instrument Element",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "parse_instrument",
           "normalized": "Element-\u003eInstrument",
@@ -463,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003enote\u003c/code\u003e \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "parse_note",
           "package": "hsharc",
@@ -473,6 +512,7 @@
         "index": {
           "description": "Parse note Element",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "parse_note",
           "normalized": "Element-\u003eNote",
@@ -488,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ccode\u003ea\u003c/code\u003e \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "parse_partial",
           "package": "hsharc",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Parse an Element",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "parse_partial",
           "normalized": "Element-\u003ePartial",
@@ -513,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe root \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e of a SHARC xml graphs is a \u003ccode\u003etree\u003c/code\u003e, which\n parses to a list of \u003ccode\u003e\u003ca\u003eInstrument\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "parse_tree",
           "package": "hsharc",
@@ -523,6 +566,7 @@
         "index": {
           "description": "The root Element of SHARC xml graphs is tree which parses to list of Instrument",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "parse_tree",
           "normalized": "Element-\u003e[Instrument]",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "partial",
           "package": "hsharc",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "partial",
           "package": "hsharc",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the frequency of a \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e given the fundamental frequency.\n\u003c/p\u003e\u003cpre\u003e partial_frequency 440 (Partial 3 0.1 0) == 1320\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "partial_frequency",
           "package": "hsharc",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Calculate the frequency of Partial given the fundamental frequency partial frequency Partial",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "partial_frequency",
           "normalized": "Double-\u003ePartial-\u003eDouble",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a linear scalar to the amplitude of a \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "partial_scale_amplitude",
           "package": "hsharc",
@@ -594,6 +643,7 @@
         "index": {
           "description": "Apply linear scalar to the amplitude of Partial",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "partial_scale_amplitude",
           "normalized": "Double-\u003ePartial-\u003ePartial",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the \u003ccode\u003e(frequency,amplitude,phase)\u003c/code\u003e triple of a\n \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e given the fundamental frequency.\n\u003c/p\u003e\u003cpre\u003e partial_triple 440 (Partial 3 0.1 pi) == (1320,0.1,pi)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "partial_triple",
           "package": "hsharc",
@@ -619,6 +670,7 @@
         "index": {
           "description": "Calculate the frequency amplitude phase triple of Partial given the fundamental frequency partial triple Partial pi pi",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "partial_triple",
           "normalized": "Double-\u003ePartial-\u003e(Double,Double,Double)",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "partials",
           "package": "hsharc",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "partials",
           "normalized": "[Partial]",
@@ -656,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "phase",
           "package": "hsharc",
@@ -665,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "phase",
           "package": "hsharc",
@@ -678,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a SHARC XML file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:39 UTC 2014",
           "module": "Sound.Analysis.SHARC",
           "name": "read_sharc",
           "package": "hsharc",
@@ -688,6 +745,7 @@
         "index": {
           "description": "Read SHARC XML file",
           "hierarchy": "Sound Analysis SHARC",
+          "indexed": "2014-03-11T18:48:39",
           "module": "Sound.Analysis.SHARC",
           "name": "read_sharc",
           "normalized": "FilePath-\u003eIO(Either String[Instrument])",

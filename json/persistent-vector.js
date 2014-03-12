@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-vector"
+        "phrase": "persistent-vector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a port of the persistent vector from clojure to Haskell.\n It is spine-strict and lazy in the elements.\n\u003c/p\u003e\u003cp\u003eThe implementation is based on array mapped tries.  The complexity\n bounds given are mostly O(1), but only if you are willing to accept\n that the tree cannot have height greater than 7 on 32 bit systems\n and maybe 8 on 64 bit systems.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "Persistent",
           "package": "persistent-vector",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is port of the persistent vector from clojure to Haskell It is spine-strict and lazy in the elements The implementation is based on array mapped tries The complexity bounds given are mostly but only if you are willing to accept that the tree cannot have height greater than on bit systems and maybe on bit systems",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "Persistent",
           "package": "persistent-vector",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersistent vectors based on array mapped tries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "Vector",
           "package": "persistent-vector",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Persistent vectors based on array mapped tries",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "Vector",
           "package": "persistent-vector",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Bulk update.\n\u003c/p\u003e\u003cpre\u003e v // updates\n\u003c/pre\u003e\u003cp\u003eFor each (index, element) pair in \u003ccode\u003eupdates\u003c/code\u003e, modify \u003ccode\u003ev\u003c/code\u003e such that\n the \u003ccode\u003eindex\u003c/code\u003eth position of \u003ccode\u003ev\u003c/code\u003e is \u003ccode\u003eelement\u003c/code\u003e.\n Indices in \u003ccode\u003eupdates\u003c/code\u003e that are not in \u003ccode\u003ev\u003c/code\u003e are ignored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "(//)",
           "package": "persistent-vector",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Bulk update updates For each index element pair in updates modify such that the index th position of is element Indices in updates that are not in are ignored",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "(//) //",
           "normalized": "Vector a-\u003e[(Int,a)]-\u003eVector a",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Drop \u003ccode\u003ei\u003c/code\u003e elements from the front of the vector.\n\u003c/p\u003e\u003cp\u003eNote that this is just a wrapper around slice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "drop",
           "package": "persistent-vector",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Drop elements from the front of the vector Note that this is just wrapper around slice",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "drop",
           "normalized": "Int-\u003eVector a-\u003eVector a",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) The empty vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "empty",
           "package": "persistent-vector",
@@ -125,6 +134,7 @@
         "index": {
           "description": "The empty vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "empty",
           "package": "persistent-vector",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Filter according to the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "filter",
           "package": "persistent-vector",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Filter according to the predicate",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eVector a-\u003eVector a",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Strict left fold over the vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "foldl'",
           "package": "persistent-vector",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Strict left fold over the vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVector b-\u003ea",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Right fold over the vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "foldr",
           "package": "persistent-vector",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Right fold over the vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVector a-\u003eb",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Construct a vector from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "fromList",
           "package": "persistent-vector",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Construct vector from list",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "fromList",
           "normalized": "[a]-\u003eVector a",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Bounds-checked indexing into a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "index",
           "package": "persistent-vector",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Bounds-checked indexing into vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "index",
           "normalized": "Vector a-\u003eInt-\u003eMaybe a",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Get the length of the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "length",
           "package": "persistent-vector",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Get the length of the vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "length",
           "normalized": "Vector a-\u003eInt",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Map over the vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "map",
           "package": "persistent-vector",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Map over the vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVector a-\u003eVector b",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Test to see if the vector is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "null",
           "package": "persistent-vector",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Test to see if the vector is empty",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "null",
           "normalized": "Vector a-\u003eBool",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Return the elements that do and do not obey the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "partition",
           "package": "persistent-vector",
@@ -349,6 +376,7 @@
         "index": {
           "description": "Return the elements that do and do not obey the predicate",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eVector a-\u003e(Vector a,Vector a)",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Reverse a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "reverse",
           "package": "persistent-vector",
@@ -374,6 +403,7 @@
         "index": {
           "description": "Reverse vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "reverse",
           "normalized": "Vector a-\u003eVector a",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Force a sliced vector to drop any unneeded space and\n references.\n\u003c/p\u003e\u003cp\u003eThis is a no-op for an un-sliced vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "shrink",
           "package": "persistent-vector",
@@ -399,6 +430,7 @@
         "index": {
           "description": "Force sliced vector to drop any unneeded space and references This is no-op for an un-sliced vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "shrink",
           "normalized": "Vector a-\u003eVector a",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Construct a vector with a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "singleton",
           "package": "persistent-vector",
@@ -424,6 +457,7 @@
         "index": {
           "description": "Construct vector with single element",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "singleton",
           "normalized": "a-\u003eVector a",
@@ -439,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Return a slice of \u003ccode\u003ev\u003c/code\u003e of length \u003ccode\u003elength\u003c/code\u003e starting at index\n \u003ccode\u003estart\u003c/code\u003e.  The returned vector may have fewer than \u003ccode\u003elength\u003c/code\u003e elements\n if the bounds are off on either side (the start is negative or\n length takes it past the end).\n\u003c/p\u003e\u003cp\u003eA slice of negative or zero length is the empty vector.\n\u003c/p\u003e\u003cpre\u003e slice start length v\n\u003c/pre\u003e\u003cp\u003eNote that a slice retains all of the references that the vector it\n is derived from has.  They are not reachable via any traversals and\n are not counted towards its size, but this may lead to references\n living longer than intended.  If is important to you that this not\n happen, call \u003ccode\u003e\u003ca\u003eshrink\u003c/a\u003e\u003c/code\u003e on the return value of \u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e to drop unused\n space and references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "slice",
           "package": "persistent-vector",
@@ -449,6 +484,7 @@
         "index": {
           "description": "Return slice of of length length starting at index start The returned vector may have fewer than length elements if the bounds are off on either side the start is negative or length takes it past the end slice of negative or zero length is the empty vector slice start length Note that slice retains all of the references that the vector it is derived from has They are not reachable via any traversals and are not counted towards its size but this may lead to references living longer than intended If is important to you that this not happen call shrink on the return value of slice to drop unused space and references",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "slice",
           "normalized": "Int-\u003eInt-\u003eVector a-\u003eVector a",
@@ -464,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Append an element to the end of the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "snoc",
           "package": "persistent-vector",
@@ -474,6 +511,7 @@
         "index": {
           "description": "Append an element to the end of the vector",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "snoc",
           "normalized": "Vector a-\u003ea-\u003eVector a",
@@ -489,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Split the vector at the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "splitAt",
           "package": "persistent-vector",
@@ -499,6 +538,7 @@
         "index": {
           "description": "Split the vector at the given position",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "splitAt",
           "normalized": "Int-\u003eVector a-\u003e(Vector a,Vector a)",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Take the first \u003ccode\u003ei\u003c/code\u003e elements of the vector.\n\u003c/p\u003e\u003cp\u003eNote that this is just a wrapper around slice and the resulting\n slice retains references that are inaccessible.  Use \u003ccode\u003e\u003ca\u003eshrink\u003c/a\u003e\u003c/code\u003e if\n this is undesirable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "take",
           "package": "persistent-vector",
@@ -525,6 +566,7 @@
         "index": {
           "description": "Take the first elements of the vector Note that this is just wrapper around slice and the resulting slice retains references that are inaccessible Use shrink if this is undesirable",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "take",
           "normalized": "Int-\u003eVector a-\u003eVector a",
@@ -540,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Unchecked indexing into a vector.\n\u003c/p\u003e\u003cp\u003eNote that out-of-bounds indexing might not even crash - it will\n usually just return nonsense values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "unsafeIndex",
           "package": "persistent-vector",
@@ -550,6 +593,7 @@
         "index": {
           "description": "Unchecked indexing into vector Note that out-of-bounds indexing might not even crash it will usually just return nonsense values",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "unsafeIndex",
           "normalized": "Vector a-\u003eInt-\u003ea",
@@ -566,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Update a single element at \u003ccode\u003eix\u003c/code\u003e with new value \u003ccode\u003eelt\u003c/code\u003e in\n \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e update ix elt v\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:38:07 UTC 2014",
           "module": "Data.Vector.Persistent",
           "name": "update",
           "package": "persistent-vector",
@@ -576,6 +621,7 @@
         "index": {
           "description": "Update single element at ix with new value elt in update ix elt",
           "hierarchy": "Data Vector Persistent",
+          "indexed": "2014-03-11T19:38:07",
           "module": "Data.Vector.Persistent",
           "name": "update",
           "normalized": "Int-\u003ea-\u003eVector a-\u003eVector a",

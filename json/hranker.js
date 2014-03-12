@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hranker"
+        "phrase": "hranker",
+        "type": "phrase"
       },
       "type": "context"
     }

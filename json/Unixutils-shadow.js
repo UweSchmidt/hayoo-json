@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Unixutils-shadow"
+        "phrase": "Unixutils-shadow",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003esupport for \u003cem\u003eetc\u003c/em\u003eshadow\n\u003c/p\u003e\u003cp\u003eTODO: This module is modelled after System.Posix.User but lacks many \n of the #ifdefs. Those are probably important.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:22 UTC 2014",
           "module": "System.Unix.Shadow",
           "name": "Shadow",
           "package": "Unixutils-shadow",
@@ -28,6 +29,7 @@
         "index": {
           "description": "support for etc shadow TODO This module is modelled after System.Posix.User but lacks many of the ifdefs Those are probably important",
           "hierarchy": "System Unix Shadow",
+          "indexed": "2014-03-11T17:03:22",
           "module": "System.Unix.Shadow",
           "name": "Shadow",
           "package": "Unixutils-shadow",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry returned by \u003ccode\u003e\u003ca\u003egetSUserEntryForName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eTODO: add other fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:22 UTC 2014",
           "module": "System.Unix.Shadow",
           "name": "SUserEntry",
           "package": "Unixutils-shadow",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Entry returned by getSUserEntryForName TODO add other fields",
           "hierarchy": "System Unix Shadow",
+          "indexed": "2014-03-11T17:03:22",
           "module": "System.Unix.Shadow",
           "name": "SUserEntry",
           "package": "Unixutils-shadow",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:22 UTC 2014",
           "module": "System.Unix.Shadow",
           "name": "SUserEntry",
           "package": "Unixutils-shadow",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "System Unix Shadow",
+          "indexed": "2014-03-11T17:03:22",
           "module": "System.Unix.Shadow",
           "name": "SUserEntry",
           "package": "Unixutils-shadow",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetSUserEntryForName name\u003c/code\u003e calls \u003ccode\u003egetspnam\u003c/code\u003e to obtain\n   the \u003ccode\u003eSUserEntry\u003c/code\u003e information associated with the user login\n   \u003ccode\u003ename\u003c/code\u003e.p\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:22 UTC 2014",
           "module": "System.Unix.Shadow",
           "name": "getSUserEntryForName",
           "package": "Unixutils-shadow",
@@ -97,6 +104,7 @@
         "index": {
           "description": "getSUserEntryForName name calls getspnam to obtain the SUserEntry information associated with the user login name",
           "hierarchy": "System Unix Shadow",
+          "indexed": "2014-03-11T17:03:22",
           "module": "System.Unix.Shadow",
           "name": "getSUserEntryForName",
           "normalized": "String-\u003eIO SUserEntry",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTextual name of this user (pw_name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:22 UTC 2014",
           "module": "System.Unix.Shadow",
           "name": "sUserName",
           "package": "Unixutils-shadow",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Textual name of this user pw name",
           "hierarchy": "System Unix Shadow",
+          "indexed": "2014-03-11T17:03:22",
           "module": "System.Unix.Shadow",
           "name": "sUserName",
           "package": "Unixutils-shadow",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePassword -- may be empty or fake if shadow is in use (pw_passwd)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:22 UTC 2014",
           "module": "System.Unix.Shadow",
           "name": "sUserPassword",
           "package": "Unixutils-shadow",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Password may be empty or fake if shadow is in use pw passwd",
           "hierarchy": "System Unix Shadow",
+          "indexed": "2014-03-11T17:03:22",
           "module": "System.Unix.Shadow",
           "name": "sUserPassword",
           "package": "Unixutils-shadow",

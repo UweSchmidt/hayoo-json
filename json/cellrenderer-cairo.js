@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cellrenderer-cairo"
+        "phrase": "cellrenderer-cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenders a cell\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "CellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Renders cell",
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "CellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Cairo-based CellRenderer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "CellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Cairo-based CellRenderer",
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "CellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "CellRendererCairoClass",
           "package": "cellrenderer-cairo",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "CellRendererCairoClass",
           "package": "cellrenderer-cairo",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "castToCellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "castToCellRendererCairo",
           "normalized": "a-\u003eCellRendererCairo",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current rendering function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "cellRenderer",
           "package": "cellrenderer-cairo",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The current rendering function",
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "cellRenderer",
           "normalized": "WriteAttr a(Rectangle-\u003eRender())",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new CellRendererCairo object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "cellRendererCairoNew",
           "package": "cellrenderer-cairo",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Create new CellRendererCairo object",
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "cellRendererCairoNew",
           "package": "cellrenderer-cairo",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the rendering function used by a \u003ccode\u003e\u003ca\u003eCellRendererCairo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "cellRendererSetRenderer",
           "package": "cellrenderer-cairo",
@@ -170,6 +183,7 @@
         "index": {
           "description": "set the rendering function used by CellRendererCairo",
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "cellRendererSetRenderer",
           "normalized": "a-\u003e(Rectangle-\u003eRender())-\u003eIO()",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "gTypeCellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "gTypeCellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "toCellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "toCellRendererCairo",
           "normalized": "a-\u003eCellRendererCairo",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:49 UTC 2014",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "withCellRendererCairo",
           "package": "cellrenderer-cairo",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk ModelView CellRendererCairo",
+          "indexed": "2014-03-11T17:30:49",
           "module": "Graphics.UI.Gtk.ModelView.CellRendererCairo",
           "name": "withCellRendererCairo",
           "normalized": "CellRendererCairo-\u003e(Ptr CellRendererCairo-\u003eIO a)-\u003eIO a",

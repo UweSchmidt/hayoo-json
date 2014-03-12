@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dph-examples"
+        "phrase": "dph-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

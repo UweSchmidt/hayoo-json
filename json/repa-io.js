@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repa-io"
+        "phrase": "repa-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReading and writing arrays as uncompressed 24 or 32 bit Windows BMP files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.BMP",
           "name": "BMP",
           "package": "repa-io",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Reading and writing arrays as uncompressed or bit Windows BMP files",
           "hierarchy": "Data Array Repa IO BMP",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.BMP",
           "name": "BMP",
           "package": "repa-io",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead RGB components from a BMP file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.BMP",
           "name": "readImageFromBMP",
           "package": "repa-io",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Read RGB components from BMP file",
           "hierarchy": "Data Array Repa IO BMP",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.BMP",
           "name": "readImageFromBMP",
           "normalized": "FilePath-\u003eIO(Either Error(Array U DIM(Word,Word,Word)))",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite RGB components to a BMP file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.BMP",
           "name": "writeImageToBMP",
           "package": "repa-io",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Write RGB components to BMP file",
           "hierarchy": "Data Array Repa IO BMP",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.BMP",
           "name": "writeImageToBMP",
           "normalized": "FilePath-\u003eArray U DIM(Word,Word,Word)-\u003eIO()",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReading and writing Repa arrays as binary files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Binary",
           "name": "Binary",
           "package": "repa-io",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Reading and writing Repa arrays as binary files",
           "hierarchy": "Data Array Repa IO Binary",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Binary",
           "name": "Binary",
           "package": "repa-io",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an array from a file.\n   Data appears in host byte order.\n   If the file size does match the provided shape then \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Binary",
           "name": "readArrayFromStorableFile",
           "package": "repa-io",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Read an array from file Data appears in host byte order If the file size does match the provided shape then error",
           "hierarchy": "Data Array Repa IO Binary",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Binary",
           "name": "readArrayFromStorableFile",
           "normalized": "FilePath-\u003ea-\u003eIO(Array F a b)",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an array to a file.\n   Data appears in host byte order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Binary",
           "name": "writeArrayToStorableFile",
           "package": "repa-io",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Write an array to file Data appears in host byte order",
           "hierarchy": "Data Array Repa IO Binary",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Binary",
           "name": "writeArrayToStorableFile",
           "normalized": "FilePath-\u003eArray a b c-\u003eIO()",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write matrices as ASCII text files.\n\u003c/p\u003e\u003cp\u003eThe file format is like:\n\u003c/p\u003e\u003cpre\u003e\n\tMATRIX\t\t\t-- header\n\t100 100\t\t\t-- width and height\n\t1.23 1.56 1.23 ...\t-- data, separated by whitespace\n\t....\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Matrix",
           "name": "Matrix",
           "package": "repa-io",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Read and write matrices as ASCII text files The file format is like MATRIX header width and height data separated by whitespace",
           "hierarchy": "Data Array Repa IO Matrix",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Matrix",
           "name": "Matrix",
           "package": "repa-io",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a matrix from a text file.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e WARNING: This is implemented fairly naively, just using \u003ccode\u003eStrings\u003c/code\u003e \n     under the covers. It will be slow for large data files.\n\u003c/li\u003e\u003cli\u003e It also doesn't do graceful error handling.\n     If the file has the wrong format you'll get a confusing \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Matrix",
           "name": "readMatrixFromTextFile",
           "package": "repa-io",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Read matrix from text file WARNING This is implemented fairly naively just using Strings under the covers It will be slow for large data files It also doesn do graceful error handling If the file has the wrong format you ll get confusing error",
           "hierarchy": "Data Array Repa IO Matrix",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Matrix",
           "name": "readMatrixFromTextFile",
           "normalized": "FilePath-\u003eIO(Array U DIM a)",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a matrix as a text file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Matrix",
           "name": "writeMatrixToTextFile",
           "package": "repa-io",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Write matrix as text file",
           "hierarchy": "Data Array Repa IO Matrix",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Matrix",
           "name": "writeMatrixToTextFile",
           "normalized": "FilePath-\u003eArray a DIM b-\u003eIO()",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTiming utilities used for benchmarks in the \u003ccode\u003erepa-examples\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "Timing",
           "package": "repa-io",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Timing utilities used for benchmarks in the repa-examples package",
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "Timing",
           "package": "repa-io",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract representation of process time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "Time",
           "package": "repa-io",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Abstract representation of process time",
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "Time",
           "package": "repa-io",
@@ -289,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "cpuTime",
           "package": "repa-io",
@@ -298,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "cpuTime",
           "normalized": "TimeUnit-\u003eTime-\u003eInteger",
@@ -313,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "microseconds",
           "package": "repa-io",
@@ -322,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "microseconds",
           "package": "repa-io",
@@ -334,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "milliseconds",
           "package": "repa-io",
@@ -343,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "milliseconds",
           "package": "repa-io",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract second time from the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "minus",
           "package": "repa-io",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Subtract second time from the first",
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "minus",
           "normalized": "Time-\u003eTime-\u003eTime",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "plus",
           "package": "repa-io",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Add two times",
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "plus",
           "normalized": "Time-\u003eTime-\u003eTime",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print the times, in milliseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "prettyTime",
           "package": "repa-io",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Pretty print the times in milliseconds",
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "prettyTime",
           "normalized": "Time-\u003eString",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a time as a string, in milliseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "showTime",
           "package": "repa-io",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Show time as string in milliseconds",
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "showTime",
           "normalized": "Time-\u003eString",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime some IO action.\n   Make sure to deepseq the result before returning it from the action. If you\n   don't do this then there's a good chance that you'll just pass a suspension\n   out of the action, and the computation time will be zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "time",
           "package": "repa-io",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Time some IO action Make sure to deepseq the result before returning it from the action If you don do this then there good chance that you ll just pass suspension out of the action and the computation time will be zero",
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "time",
           "normalized": "IO a-\u003eIO(a,Time)",
@@ -482,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "wallTime",
           "package": "repa-io",
@@ -491,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Timing",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Timing",
           "name": "wallTime",
           "normalized": "TimeUnit-\u003eTime-\u003eInteger",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write vectors as ASCII text files.\n\u003c/p\u003e\u003cp\u003eThe file format is like:\n\u003c/p\u003e\u003cpre\u003e\n\tVECTOR\t\t\t-- header\n\t100\t\t\t-- length of vector\n\t1.23 1.56 1.23 ...\t-- data, separated by whitespace\n\t....\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Vector",
           "name": "Vector",
           "package": "repa-io",
@@ -516,6 +557,7 @@
         "index": {
           "description": "Read and write vectors as ASCII text files The file format is like VECTOR header length of vector data separated by whitespace",
           "hierarchy": "Data Array Repa IO Vector",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Vector",
           "name": "Vector",
           "package": "repa-io",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a vector from a text file.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e WARNING: This is implemented fairly naively, just using \u003ccode\u003eStrings\u003c/code\u003e \n     under the covers. It will be slow for large data files.\n\u003c/li\u003e\u003cli\u003e It also doesn't do graceful error handling.\n     If the file has the wrong format you'll get a confusing \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Vector",
           "name": "readVectorFromTextFile",
           "package": "repa-io",
@@ -540,6 +583,7 @@
         "index": {
           "description": "Read vector from text file WARNING This is implemented fairly naively just using Strings under the covers It will be slow for large data files It also doesn do graceful error handling If the file has the wrong format you ll get confusing error",
           "hierarchy": "Data Array Repa IO Vector",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Vector",
           "name": "readVectorFromTextFile",
           "normalized": "FilePath-\u003eIO(Array U DIM a)",
@@ -556,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a vector as a text file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:06 UTC 2014",
           "module": "Data.Array.Repa.IO.Vector",
           "name": "writeVectorToTextFile",
           "package": "repa-io",
@@ -566,6 +611,7 @@
         "index": {
           "description": "Write vector as text file",
           "hierarchy": "Data Array Repa IO Vector",
+          "indexed": "2014-03-11T19:53:06",
           "module": "Data.Array.Repa.IO.Vector",
           "name": "writeVectorToTextFile",
           "normalized": "Array a DIM b-\u003eFilePath-\u003eIO()",

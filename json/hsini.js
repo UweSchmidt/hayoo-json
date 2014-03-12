@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsini"
+        "phrase": "hsini",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for configurations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Reader",
           "name": "Reader",
           "package": "hsini",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parser for configurations",
           "hierarchy": "Data Ini Reader",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Reader",
           "name": "Reader",
           "package": "hsini",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Reader",
           "name": "IniParseResult",
           "package": "hsini",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Reader",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Reader",
           "name": "IniParseResult",
           "package": "hsini",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Reader",
           "name": "IniReaderError",
           "package": "hsini",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Reader",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Reader",
           "name": "IniReaderError",
           "package": "hsini",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Reader",
           "name": "IniOtherError",
           "package": "hsini",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Reader",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Reader",
           "name": "IniOtherError",
           "package": "hsini",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Reader",
           "name": "IniParserError",
           "package": "hsini",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Reader",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Reader",
           "name": "IniParserError",
           "package": "hsini",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Reader",
           "name": "IniSyntaxError",
           "package": "hsini",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Reader",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Reader",
           "name": "IniSyntaxError",
           "package": "hsini",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for a configuration contained in a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Reader",
           "name": "parse",
           "package": "hsini",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Parser for configuration contained in String",
           "hierarchy": "Data Ini Reader",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Reader",
           "name": "parse",
           "normalized": "String-\u003eIniParseResult Config",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Types",
           "name": "Types",
           "package": "hsini",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Types",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Types",
           "name": "Types",
           "package": "hsini",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Types",
           "name": "Config",
           "package": "hsini",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Types",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Types",
           "name": "Config",
           "package": "hsini",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Types",
           "name": "OptionName",
           "package": "hsini",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Types",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Types",
           "name": "OptionName",
           "package": "hsini",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Types",
           "name": "OptionValue",
           "package": "hsini",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Types",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Types",
           "name": "OptionValue",
           "package": "hsini",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Types",
           "name": "Section",
           "package": "hsini",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Types",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Types",
           "name": "Section",
           "package": "hsini",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Types",
           "name": "SectionName",
           "package": "hsini",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Types",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Types",
           "name": "SectionName",
           "package": "hsini",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Types",
           "name": "cfgFromList",
           "package": "hsini",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Types",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Types",
           "name": "cfgFromList",
           "normalized": "[(SectionName,[(OptionName,OptionValue)])]-\u003eConfig",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini.Types",
           "name": "cfgToList",
           "package": "hsini",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data Ini Types",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini.Types",
           "name": "cfgToList",
           "normalized": "Config-\u003e[(SectionName,[(OptionName,OptionValue)])]",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA representation of configuration options.  It consists of \u003cem\u003esections\u003c/em\u003e,\n each which can contain 0 or more \u003cem\u003eoptions\u003c/em\u003e.  Each options is a \u003cem\u003ekey\u003c/em\u003e,\n \u003cem\u003evalue\u003c/em\u003e pair.\n\u003c/p\u003e\u003cp\u003eThis module contains the API for constructing, manipulating, and querying\n configurations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "Ini",
           "package": "hsini",
@@ -358,6 +389,7 @@
         "index": {
           "description": "representation of configuration options It consists of sections each which can contain or more options Each options is key value pair This module contains the API for constructing manipulating and querying configurations",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "Ini",
           "package": "hsini",
@@ -372,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all options and their values of a section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "allItems",
           "package": "hsini",
@@ -382,6 +415,7 @@
         "index": {
           "description": "Returns all options and their values of section",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "allItems",
           "normalized": "SectionName-\u003eConfig-\u003e[(OptionName,OptionValue)]",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the option if it exists.  Empty sections are pruned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "delOption",
           "package": "hsini",
@@ -408,6 +443,7 @@
         "index": {
           "description": "Removes the option if it exists Empty sections are pruned",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "delOption",
           "normalized": "SectionName-\u003eOptionName-\u003eConfig-\u003eConfig",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the section if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "delSection",
           "package": "hsini",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Removes the section if it exists",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "delSection",
           "normalized": "SectionName-\u003eConfig-\u003eConfig",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an empty configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "emptyConfig",
           "package": "hsini",
@@ -460,6 +499,7 @@
         "index": {
           "description": "Constructs an empty configuration",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "emptyConfig",
           "package": "hsini",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value of the option, if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "getOption",
           "package": "hsini",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Returns the value of the option if it exists",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "getOption",
           "normalized": "SectionName-\u003eOptionName-\u003eConfig-\u003eMaybe OptionValue",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the section with the given name if it exists in the configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "getSection",
           "package": "hsini",
@@ -510,6 +553,7 @@
         "index": {
           "description": "Returns the section with the given name if it exists in the configuration",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "getSection",
           "normalized": "SectionName-\u003eConfig-\u003eMaybe Section",
@@ -526,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e if the names section has the option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "hasOption",
           "package": "hsini",
@@ -536,6 +581,7 @@
         "index": {
           "description": "Returns True if the names section has the option",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "hasOption",
           "normalized": "SectionName-\u003eOptionName-\u003eConfig-\u003eBool",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e iff the configuration has a section with that name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "hasSection",
           "package": "hsini",
@@ -562,6 +609,7 @@
         "index": {
           "description": "Returns True iff the configuration has section with that name",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "hasSection",
           "normalized": "SectionName-\u003eConfig-\u003eBool",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all options in the section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "options",
           "package": "hsini",
@@ -588,6 +637,7 @@
         "index": {
           "description": "Returns list of all options in the section",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "options",
           "normalized": "SectionName-\u003eConfig-\u003e[OptionName]",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of the names of all section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "sections",
           "package": "hsini",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Returns list of the names of all section",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "sections",
           "normalized": "Config-\u003e[SectionName]",
@@ -628,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the value of the option, adding it if it doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:46 UTC 2014",
           "module": "Data.Ini",
           "name": "setOption",
           "package": "hsini",
@@ -638,6 +691,7 @@
         "index": {
           "description": "Sets the value of the option adding it if it doesn exist",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:48:46",
           "module": "Data.Ini",
           "name": "setOption",
           "normalized": "SectionName-\u003eOptionName-\u003eOptionValue-\u003eConfig-\u003eConfig",

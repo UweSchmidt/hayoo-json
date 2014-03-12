@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pandoc"
+        "phrase": "pandoc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures and functions for representing parser and writer\noptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Options",
           "package": "pandoc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data structures and functions for representing parser and writer options",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Options",
           "package": "pandoc",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "CiteMethod",
           "package": "pandoc",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "CiteMethod",
           "package": "pandoc",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "EPUBVersion",
           "package": "pandoc",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "EPUBVersion",
           "package": "pandoc",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndividually selectable syntax extensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Extension",
           "package": "pandoc",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Individually selectable syntax extensions",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Extension",
           "package": "pandoc",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "HTMLMathMethod",
           "package": "pandoc",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "HTMLMathMethod",
           "package": "pandoc",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarieties of HTML slide shows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "HTMLSlideVariant",
           "package": "pandoc",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Varieties of HTML slide shows",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "HTMLSlideVariant",
           "package": "pandoc",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethods for obfuscating email addresses in HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "ObfuscationMethod",
           "package": "pandoc",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Methods for obfuscating email addresses in HTML",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "ObfuscationMethod",
           "package": "pandoc",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "ReaderOptions",
           "package": "pandoc",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "ReaderOptions",
           "package": "pandoc",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for writers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "WriterOptions",
           "package": "pandoc",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Options for writers",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "WriterOptions",
           "package": "pandoc",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Biblatex",
           "package": "pandoc",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Biblatex",
           "package": "pandoc",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Citeproc",
           "package": "pandoc",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Citeproc",
           "package": "pandoc",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "DZSlides",
           "package": "pandoc",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "DZSlides",
           "package": "pandoc",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "EPUB2",
           "package": "pandoc",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "EPUB2",
           "package": "pandoc",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "EPUB3",
           "package": "pandoc",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "EPUB3",
           "package": "pandoc",
@@ -328,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePHP markdown extra abbreviation definitions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_abbreviations",
           "package": "pandoc",
@@ -338,6 +367,7 @@
         "index": {
           "description": "PHP markdown extra abbreviation definitions",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_abbreviations",
           "package": "pandoc",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all non-alphanumerics escapable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_all_symbols_escapable",
           "package": "pandoc",
@@ -362,6 +393,7 @@
         "index": {
           "description": "Make all non-alphanumerics escapable",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_all_symbols_escapable",
           "package": "pandoc",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eascii-only identifiers for headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_ascii_identifiers",
           "package": "pandoc",
@@ -386,6 +419,7 @@
         "index": {
           "description": "ascii-only identifiers for headers",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_ascii_identifiers",
           "package": "pandoc",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomatic identifiers for headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_auto_identifiers",
           "package": "pandoc",
@@ -410,6 +445,7 @@
         "index": {
           "description": "Automatic identifiers for headers",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_auto_identifiers",
           "package": "pandoc",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all absolute URIs into links\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_autolink_bare_uris",
           "package": "pandoc",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Make all absolute URIs into links",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_autolink_bare_uris",
           "package": "pandoc",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGithub style ``` code blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_backtick_code_blocks",
           "package": "pandoc",
@@ -458,6 +497,7 @@
         "index": {
           "description": "Github style code blocks",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_backtick_code_blocks",
           "package": "pandoc",
@@ -472,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire blank line before a blockquote\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_blank_before_blockquote",
           "package": "pandoc",
@@ -482,6 +523,7 @@
         "index": {
           "description": "Require blank line before blockquote",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_blank_before_blockquote",
           "package": "pandoc",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire blank line before a header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_blank_before_header",
           "package": "pandoc",
@@ -506,6 +549,7 @@
         "index": {
           "description": "Require blank line before header",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_blank_before_header",
           "package": "pandoc",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc/citeproc citations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_citations",
           "package": "pandoc",
@@ -530,6 +575,7 @@
         "index": {
           "description": "Pandoc citeproc citations",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_citations",
           "package": "pandoc",
@@ -544,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition lists as in pandoc, mmd, php\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_definition_lists",
           "package": "pandoc",
@@ -554,6 +601,7 @@
         "index": {
           "description": "Definition lists as in pandoc mmd php",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_definition_lists",
           "package": "pandoc",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTreat a backslash at EOL as linebreak\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_escaped_line_breaks",
           "package": "pandoc",
@@ -578,6 +627,7 @@
         "index": {
           "description": "Treat backslash at EOL as linebreak",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_escaped_line_breaks",
           "package": "pandoc",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarkdown-style numbered examples\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_example_lists",
           "package": "pandoc",
@@ -602,6 +653,7 @@
         "index": {
           "description": "Markdown-style numbered examples",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_example_lists",
           "package": "pandoc",
@@ -616,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable fancy list numbers and delimiters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_fancy_lists",
           "package": "pandoc",
@@ -626,6 +679,7 @@
         "index": {
           "description": "Enable fancy list numbers and delimiters",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_fancy_lists",
           "package": "pandoc",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow attributes on fenced code blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_fenced_code_attributes",
           "package": "pandoc",
@@ -650,6 +705,7 @@
         "index": {
           "description": "Allow attributes on fenced code blocks",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_fenced_code_attributes",
           "package": "pandoc",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse fenced code blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_fenced_code_blocks",
           "package": "pandoc",
@@ -674,6 +731,7 @@
         "index": {
           "description": "Parse fenced code blocks",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_fenced_code_blocks",
           "package": "pandoc",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc\u003cem\u003ePHP\u003c/em\u003eMMD style footnotes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_footnotes",
           "package": "pandoc",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Pandoc PHP MMD style footnotes",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_footnotes",
           "package": "pandoc",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrid tables (pandoc, reST)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_grid_tables",
           "package": "pandoc",
@@ -722,6 +783,7 @@
         "index": {
           "description": "Grid tables pandoc reST",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_grid_tables",
           "package": "pandoc",
@@ -736,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll newlines become hard line breaks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_hard_line_breaks",
           "package": "pandoc",
@@ -746,6 +809,7 @@
         "index": {
           "description": "All newlines become hard line breaks",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_hard_line_breaks",
           "package": "pandoc",
@@ -760,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicit header attributes {#id .class k=v}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_header_attributes",
           "package": "pandoc",
@@ -770,6 +835,7 @@
         "index": {
           "description": "Explicit header attributes id class",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_header_attributes",
           "package": "pandoc",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewlines in paragraphs are ignored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_ignore_line_breaks",
           "package": "pandoc",
@@ -794,6 +861,7 @@
         "index": {
           "description": "Newlines in paragraphs are ignored",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_ignore_line_breaks",
           "package": "pandoc",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA paragraph with just an image is a figure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_implicit_figures",
           "package": "pandoc",
@@ -818,6 +887,7 @@
         "index": {
           "description": "paragraph with just an image is figure",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_implicit_figures",
           "package": "pandoc",
@@ -832,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplicit reference links for headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_implicit_header_references",
           "package": "pandoc",
@@ -842,6 +913,7 @@
         "index": {
           "description": "Implicit reference links for headers",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_implicit_header_references",
           "package": "pandoc",
@@ -856,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow attributes on inline code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_inline_code_attributes",
           "package": "pandoc",
@@ -866,6 +939,7 @@
         "index": {
           "description": "Allow attributes on inline code",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_inline_code_attributes",
           "package": "pandoc",
@@ -880,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc-style inline notes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_inline_notes",
           "package": "pandoc",
@@ -890,6 +965,7 @@
         "index": {
           "description": "Pandoc-style inline notes",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_inline_notes",
           "package": "pandoc",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTreat underscore inside word as literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_intraword_underscores",
           "package": "pandoc",
@@ -914,6 +991,7 @@
         "index": {
           "description": "Treat underscore inside word as literal",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_intraword_underscores",
           "package": "pandoc",
@@ -928,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse LaTeX macro definitions (for math only)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_latex_macros",
           "package": "pandoc",
@@ -938,6 +1017,7 @@
         "index": {
           "description": "Parse LaTeX macro definitions for math only",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_latex_macros",
           "package": "pandoc",
@@ -952,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRST style line blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_line_blocks",
           "package": "pandoc",
@@ -962,6 +1043,7 @@
         "index": {
           "description": "RST style line blocks",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_line_blocks",
           "package": "pandoc",
@@ -976,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMMD style reference link attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_link_attributes",
           "package": "pandoc",
@@ -986,6 +1069,7 @@
         "index": {
           "description": "MMD style reference link attributes",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_link_attributes",
           "package": "pandoc",
@@ -1000,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow lists without preceding blank\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_lists_without_preceding_blankline",
           "package": "pandoc",
@@ -1010,6 +1095,7 @@
         "index": {
           "description": "Allow lists without preceding blank",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_lists_without_preceding_blankline",
           "package": "pandoc",
@@ -1024,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable literate Haskell conventions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_literate_haskell",
           "package": "pandoc",
@@ -1034,6 +1121,7 @@
         "index": {
           "description": "Enable literate Haskell conventions",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_literate_haskell",
           "package": "pandoc",
@@ -1048,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret text inside HTML as markdown\n   iff container has attribute \u003ccode\u003emarkdown\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_markdown_attribute",
           "package": "pandoc",
@@ -1058,6 +1147,7 @@
         "index": {
           "description": "Interpret text inside HTML as markdown iff container has attribute markdown",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_markdown_attribute",
           "package": "pandoc",
@@ -1072,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret as markdown inside HTML blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_markdown_in_html_blocks",
           "package": "pandoc",
@@ -1082,6 +1173,7 @@
         "index": {
           "description": "Interpret as markdown inside HTML blocks",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_markdown_in_html_blocks",
           "package": "pandoc",
@@ -1096,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultimarkdown style header identifiers [myid]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_mmd_header_identifiers",
           "package": "pandoc",
@@ -1106,6 +1199,7 @@
         "index": {
           "description": "Multimarkdown style header identifiers myid",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_mmd_header_identifiers",
           "package": "pandoc",
@@ -1120,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultimarkdown metadata block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_mmd_title_block",
           "package": "pandoc",
@@ -1130,6 +1225,7 @@
         "index": {
           "description": "Multimarkdown metadata block",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_mmd_title_block",
           "package": "pandoc",
@@ -1144,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc-style multiline tables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_multiline_tables",
           "package": "pandoc",
@@ -1154,6 +1251,7 @@
         "index": {
           "description": "Pandoc-style multiline tables",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_multiline_tables",
           "package": "pandoc",
@@ -1168,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc title block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_pandoc_title_block",
           "package": "pandoc",
@@ -1178,6 +1277,7 @@
         "index": {
           "description": "Pandoc title block",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_pandoc_title_block",
           "package": "pandoc",
@@ -1192,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePipe tables (as in PHP markdown extra)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_pipe_tables",
           "package": "pandoc",
@@ -1202,6 +1303,7 @@
         "index": {
           "description": "Pipe tables as in PHP markdown extra",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_pipe_tables",
           "package": "pandoc",
@@ -1216,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow raw HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_raw_html",
           "package": "pandoc",
@@ -1226,6 +1329,7 @@
         "index": {
           "description": "Allow raw HTML",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_raw_html",
           "package": "pandoc",
@@ -1240,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow raw TeX (other than math)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_raw_tex",
           "package": "pandoc",
@@ -1250,6 +1355,7 @@
         "index": {
           "description": "Allow raw TeX other than math",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_raw_tex",
           "package": "pandoc",
@@ -1264,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc-style simple tables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_simple_tables",
           "package": "pandoc",
@@ -1274,6 +1381,7 @@
         "index": {
           "description": "Pandoc-style simple tables",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_simple_tables",
           "package": "pandoc",
@@ -1288,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake start number of ordered list significant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_startnum",
           "package": "pandoc",
@@ -1298,6 +1407,7 @@
         "index": {
           "description": "Make start number of ordered list significant",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_startnum",
           "package": "pandoc",
@@ -1312,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrikeout using ~~this~~ syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_strikeout",
           "package": "pandoc",
@@ -1322,6 +1433,7 @@
         "index": {
           "description": "Strikeout using this syntax",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_strikeout",
           "package": "pandoc",
@@ -1336,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscript using ~this~ syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_subscript",
           "package": "pandoc",
@@ -1346,6 +1459,7 @@
         "index": {
           "description": "Subscript using this syntax",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_subscript",
           "package": "pandoc",
@@ -1360,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuperscript using ^this^ syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_superscript",
           "package": "pandoc",
@@ -1370,6 +1485,7 @@
         "index": {
           "description": "Superscript using this syntax",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_superscript",
           "package": "pandoc",
@@ -1384,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc-style table captions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_table_captions",
           "package": "pandoc",
@@ -1394,6 +1511,7 @@
         "index": {
           "description": "Pandoc-style table captions",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_table_captions",
           "package": "pandoc",
@@ -1408,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTeX math between $..$ or $$..$$\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_tex_math_dollars",
           "package": "pandoc",
@@ -1418,6 +1537,7 @@
         "index": {
           "description": "TeX math between or",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_tex_math_dollars",
           "package": "pandoc",
@@ -1432,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTeX math btw \\(..\\) \\[..\\]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_tex_math_double_backslash",
           "package": "pandoc",
@@ -1442,6 +1563,7 @@
         "index": {
           "description": "TeX math btw",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_tex_math_double_backslash",
           "package": "pandoc",
@@ -1456,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTeX math btw (..) [..]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_tex_math_single_backslash",
           "package": "pandoc",
@@ -1466,6 +1589,7 @@
         "index": {
           "description": "TeX math btw",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_tex_math_single_backslash",
           "package": "pandoc",
@@ -1480,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYAML metadata block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Ext_yaml_metadata_block",
           "package": "pandoc",
@@ -1490,6 +1615,7 @@
         "index": {
           "description": "YAML metadata block",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Ext_yaml_metadata_block",
           "package": "pandoc",
@@ -1503,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "GladTeX",
           "package": "pandoc",
@@ -1512,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "GladTeX",
           "package": "pandoc",
@@ -1525,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "JavascriptObfuscation",
           "package": "pandoc",
@@ -1534,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "JavascriptObfuscation",
           "package": "pandoc",
@@ -1547,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "JsMath",
           "package": "pandoc",
@@ -1556,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "JsMath",
           "package": "pandoc",
@@ -1569,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "LaTeXMathML",
           "package": "pandoc",
@@ -1578,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "LaTeXMathML",
           "package": "pandoc",
@@ -1591,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "MathJax",
           "package": "pandoc",
@@ -1600,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "MathJax",
           "package": "pandoc",
@@ -1613,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "MathML",
           "package": "pandoc",
@@ -1622,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "MathML",
           "package": "pandoc",
@@ -1635,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "Natbib",
           "package": "pandoc",
@@ -1644,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "Natbib",
           "package": "pandoc",
@@ -1657,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "NoObfuscation",
           "package": "pandoc",
@@ -1666,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "NoObfuscation",
           "package": "pandoc",
@@ -1679,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "NoSlides",
           "package": "pandoc",
@@ -1688,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "NoSlides",
           "package": "pandoc",
@@ -1701,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "PlainMath",
           "package": "pandoc",
@@ -1710,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "PlainMath",
           "package": "pandoc",
@@ -1723,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "ReaderOptions",
           "package": "pandoc",
@@ -1732,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "ReaderOptions",
           "package": "pandoc",
@@ -1745,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "ReferenceObfuscation",
           "package": "pandoc",
@@ -1754,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "ReferenceObfuscation",
           "package": "pandoc",
@@ -1767,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "RevealJsSlides",
           "package": "pandoc",
@@ -1776,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "RevealJsSlides",
           "package": "pandoc",
@@ -1789,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "S5Slides",
           "package": "pandoc",
@@ -1798,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "S5Slides",
           "package": "pandoc",
@@ -1811,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "SlideousSlides",
           "package": "pandoc",
@@ -1820,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "SlideousSlides",
           "package": "pandoc",
@@ -1833,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "SlidySlides",
           "package": "pandoc",
@@ -1842,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "SlidySlides",
           "package": "pandoc",
@@ -1855,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "WebTeX",
           "package": "pandoc",
@@ -1864,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "WebTeX",
           "package": "pandoc",
@@ -1877,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "WriterOptions",
           "package": "pandoc",
@@ -1886,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "WriterOptions",
           "package": "pandoc",
@@ -1900,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "def",
           "package": "pandoc",
@@ -1909,6 +2072,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "def",
           "package": "pandoc",
@@ -1921,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "githubMarkdownExtensions",
           "package": "pandoc",
@@ -1930,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "githubMarkdownExtensions",
           "package": "pandoc",
@@ -1944,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the given extension is enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "isEnabled",
           "package": "pandoc",
@@ -1954,6 +2121,7 @@
         "index": {
           "description": "Returns True if the given extension is enabled",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "isEnabled",
           "normalized": "Extension-\u003eWriterOptions-\u003eBool",
@@ -1969,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "multimarkdownExtensions",
           "package": "pandoc",
@@ -1978,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "multimarkdownExtensions",
           "package": "pandoc",
@@ -1991,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "pandocExtensions",
           "package": "pandoc",
@@ -2000,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "pandocExtensions",
           "package": "pandoc",
@@ -2013,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "phpMarkdownExtraExtensions",
           "package": "pandoc",
@@ -2022,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "phpMarkdownExtraExtensions",
           "package": "pandoc",
@@ -2036,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply macros to TeX math\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerApplyMacros",
           "package": "pandoc",
@@ -2046,6 +2221,7 @@
         "index": {
           "description": "Apply macros to TeX math",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerApplyMacros",
           "package": "pandoc",
@@ -2060,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of columns in terminal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerColumns",
           "package": "pandoc",
@@ -2070,6 +2247,7 @@
         "index": {
           "description": "Number of columns in terminal",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerColumns",
           "package": "pandoc",
@@ -2084,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault extension for images\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerDefaultImageExtension",
           "package": "pandoc",
@@ -2094,6 +2273,7 @@
         "index": {
           "description": "Default extension for images",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerDefaultImageExtension",
           "package": "pandoc",
@@ -2108,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntax extensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerExtensions",
           "package": "pandoc",
@@ -2118,6 +2299,7 @@
         "index": {
           "description": "Syntax extensions",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerExtensions",
           "package": "pandoc",
@@ -2132,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault classes for\n indented code blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerIndentedCodeClasses",
           "package": "pandoc",
@@ -2142,6 +2325,7 @@
         "index": {
           "description": "Default classes for indented code blocks",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerIndentedCodeClasses",
           "normalized": "[String]",
@@ -2158,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse pandoc \u003c= 1.8.2.1 behavior\n   in parsing dashes; -- is em-dash;\n   - before numerial is en-dash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerOldDashes",
           "package": "pandoc",
@@ -2168,6 +2353,7 @@
         "index": {
           "description": "Use pandoc behavior in parsing dashes is em-dash before numerial is en-dash",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerOldDashes",
           "package": "pandoc",
@@ -2182,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse raw HTML, LaTeX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerParseRaw",
           "package": "pandoc",
@@ -2192,6 +2379,7 @@
         "index": {
           "description": "Parse raw HTML LaTeX",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerParseRaw",
           "package": "pandoc",
@@ -2206,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart punctuation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerSmart",
           "package": "pandoc",
@@ -2216,6 +2405,7 @@
         "index": {
           "description": "Smart punctuation",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerSmart",
           "package": "pandoc",
@@ -2230,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandalone document with header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerStandalone",
           "package": "pandoc",
@@ -2240,6 +2431,7 @@
         "index": {
           "description": "Standalone document with header",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerStandalone",
           "package": "pandoc",
@@ -2254,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFOR TRANSITION ONLY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerStrict",
           "package": "pandoc",
@@ -2264,6 +2457,7 @@
         "index": {
           "description": "FOR TRANSITION ONLY",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerStrict",
           "package": "pandoc",
@@ -2278,6 +2472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTab stop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "readerTabStop",
           "package": "pandoc",
@@ -2288,6 +2483,7 @@
         "index": {
           "description": "Tab stop",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "readerTabStop",
           "package": "pandoc",
@@ -2301,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "strictExtensions",
           "package": "pandoc",
@@ -2310,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "strictExtensions",
           "package": "pandoc",
@@ -2324,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce beamer LaTeX slide show\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerBeamer",
           "package": "pandoc",
@@ -2334,6 +2533,7 @@
         "index": {
           "description": "Produce beamer LaTeX slide show",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerBeamer",
           "package": "pandoc",
@@ -2348,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ca\u003echapter\u003c/a\u003e for top-level sects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerChapters",
           "package": "pandoc",
@@ -2358,6 +2559,7 @@
         "index": {
           "description": "Use chapter for top-level sects",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerChapters",
           "package": "pandoc",
@@ -2372,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to print cites\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerCiteMethod",
           "package": "pandoc",
@@ -2382,6 +2585,7 @@
         "index": {
           "description": "How to print cites",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerCiteMethod",
           "package": "pandoc",
@@ -2396,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters in a line (for text wrapping)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerColumns",
           "package": "pandoc",
@@ -2406,6 +2611,7 @@
         "index": {
           "description": "Characters in line for text wrapping",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerColumns",
           "package": "pandoc",
@@ -2420,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to obfuscate emails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerEmailObfuscation",
           "package": "pandoc",
@@ -2430,6 +2637,7 @@
         "index": {
           "description": "How to obfuscate emails",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerEmailObfuscation",
           "package": "pandoc",
@@ -2444,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader level for chapters (separate files)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubChapterLevel",
           "package": "pandoc",
@@ -2454,6 +2663,7 @@
         "index": {
           "description": "Header level for chapters separate files",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubChapterLevel",
           "package": "pandoc",
@@ -2468,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaths to fonts to embed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubFonts",
           "package": "pandoc",
@@ -2478,6 +2689,7 @@
         "index": {
           "description": "Paths to fonts to embed",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubFonts",
           "normalized": "[FilePath]",
@@ -2494,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetadata to include in EPUB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubMetadata",
           "package": "pandoc",
@@ -2504,6 +2717,7 @@
         "index": {
           "description": "Metadata to include in EPUB",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubMetadata",
           "package": "pandoc",
@@ -2518,6 +2732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEPUB stylesheet specified at command line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubStylesheet",
           "package": "pandoc",
@@ -2528,6 +2743,7 @@
         "index": {
           "description": "EPUB stylesheet specified at command line",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubStylesheet",
           "package": "pandoc",
@@ -2542,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing or EPUB version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubVersion",
           "package": "pandoc",
@@ -2552,6 +2769,7 @@
         "index": {
           "description": "Nothing or EPUB version",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerEpubVersion",
           "package": "pandoc",
@@ -2566,6 +2784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarkdown extensions that can be used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerExtensions",
           "package": "pandoc",
@@ -2576,6 +2795,7 @@
         "index": {
           "description": "Markdown extensions that can be used",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerExtensions",
           "package": "pandoc",
@@ -2590,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to print math in HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerHTMLMathMethod",
           "package": "pandoc",
@@ -2600,6 +2821,7 @@
         "index": {
           "description": "How to print math in HTML",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerHTMLMathMethod",
           "package": "pandoc",
@@ -2614,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight source code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerHighlight",
           "package": "pandoc",
@@ -2624,6 +2847,7 @@
         "index": {
           "description": "Highlight source code",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerHighlight",
           "package": "pandoc",
@@ -2638,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle to use for highlighting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerHighlightStyle",
           "package": "pandoc",
@@ -2648,6 +2873,7 @@
         "index": {
           "description": "Style to use for highlighting",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerHighlightStyle",
           "package": "pandoc",
@@ -2662,6 +2888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce HTML5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerHtml5",
           "package": "pandoc",
@@ -2672,6 +2899,7 @@
         "index": {
           "description": "Produce HTML5",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerHtml5",
           "package": "pandoc",
@@ -2686,6 +2914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eq\u003c/a\u003e\u003c/code\u003e tags for quotes in HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerHtmlQTags",
           "package": "pandoc",
@@ -2696,6 +2925,7 @@
         "index": {
           "description": "Use tags for quotes in HTML",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerHtmlQTags",
           "package": "pandoc",
@@ -2710,6 +2940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix for section & note ids in HTML\n and for footnote marks in markdown\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerIdentifierPrefix",
           "package": "pandoc",
@@ -2720,6 +2951,7 @@
         "index": {
           "description": "Prefix for section note ids in HTML and for footnote marks in markdown",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerIdentifierPrefix",
           "package": "pandoc",
@@ -2734,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore footnotes (used in making toc)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerIgnoreNotes",
           "package": "pandoc",
@@ -2744,6 +2977,7 @@
         "index": {
           "description": "Ignore footnotes used in making toc",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerIgnoreNotes",
           "package": "pandoc",
@@ -2758,6 +2992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if lists should be incremental\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerIncremental",
           "package": "pandoc",
@@ -2768,6 +3003,7 @@
         "index": {
           "description": "True if lists should be incremental",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerIncremental",
           "package": "pandoc",
@@ -2782,6 +3018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse listings package for code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerListings",
           "package": "pandoc",
@@ -2792,6 +3029,7 @@
         "index": {
           "description": "Use listings package for code",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerListings",
           "package": "pandoc",
@@ -2806,6 +3044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarting number for section, subsection, ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerNumberOffset",
           "package": "pandoc",
@@ -2816,6 +3055,7 @@
         "index": {
           "description": "Starting number for section subsection",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerNumberOffset",
           "normalized": "[Int]",
@@ -2832,6 +3072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber sections in LaTeX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerNumberSections",
           "package": "pandoc",
@@ -2842,6 +3083,7 @@
         "index": {
           "description": "Number sections in LaTeX",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerNumberSections",
           "package": "pandoc",
@@ -2856,6 +3098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePtah to reference DOCX if specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerReferenceDocx",
           "package": "pandoc",
@@ -2866,6 +3109,7 @@
         "index": {
           "description": "Ptah to reference DOCX if specified",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerReferenceDocx",
           "package": "pandoc",
@@ -2880,6 +3124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse reference links in writing markdown, rst\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerReferenceLinks",
           "package": "pandoc",
@@ -2890,6 +3135,7 @@
         "index": {
           "description": "Use reference links in writing markdown rst",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerReferenceLinks",
           "package": "pandoc",
@@ -2904,6 +3150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to reference ODT if specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerReferenceODT",
           "package": "pandoc",
@@ -2914,6 +3161,7 @@
         "index": {
           "description": "Path to reference ODT if specified",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerReferenceODT",
           "package": "pandoc",
@@ -2928,6 +3176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut sections in div tags in HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerSectionDivs",
           "package": "pandoc",
@@ -2938,6 +3187,7 @@
         "index": {
           "description": "Put sections in div tags in HTML",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerSectionDivs",
           "package": "pandoc",
@@ -2952,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse setext headers for levels 1-2 in markdown\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerSetextHeaders",
           "package": "pandoc",
@@ -2962,6 +3213,7 @@
         "index": {
           "description": "Use setext headers for levels in markdown",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerSetextHeaders",
           "package": "pandoc",
@@ -2976,6 +3228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce header level of slides\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerSlideLevel",
           "package": "pandoc",
@@ -2986,6 +3239,7 @@
         "index": {
           "description": "Force header level of slides",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerSlideLevel",
           "package": "pandoc",
@@ -3000,6 +3254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre we writing S5, Slidy or Slideous?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerSlideVariant",
           "package": "pandoc",
@@ -3010,6 +3265,7 @@
         "index": {
           "description": "Are we writing S5 Slidy or Slideous",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerSlideVariant",
           "package": "pandoc",
@@ -3024,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute URL + directory of 1st source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerSourceURL",
           "package": "pandoc",
@@ -3034,6 +3291,7 @@
         "index": {
           "description": "Absolute URL directory of st source file",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerSourceURL",
           "package": "pandoc",
@@ -3048,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude header and footer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerStandalone",
           "package": "pandoc",
@@ -3058,6 +3317,7 @@
         "index": {
           "description": "Include header and footer",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerStandalone",
           "package": "pandoc",
@@ -3072,6 +3332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of levels to include in TOC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerTOCDepth",
           "package": "pandoc",
@@ -3082,6 +3343,7 @@
         "index": {
           "description": "Number of levels to include in TOC",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerTOCDepth",
           "package": "pandoc",
@@ -3096,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTabstop for conversion btw spaces and tabs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerTabStop",
           "package": "pandoc",
@@ -3106,6 +3369,7 @@
         "index": {
           "description": "Tabstop for conversion btw spaces and tabs",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerTabStop",
           "package": "pandoc",
@@ -3120,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude table of contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerTableOfContents",
           "package": "pandoc",
@@ -3130,6 +3395,7 @@
         "index": {
           "description": "Include table of contents",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerTableOfContents",
           "package": "pandoc",
@@ -3144,6 +3410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse tex ligatures quotes, dashes in latex\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerTeXLigatures",
           "package": "pandoc",
@@ -3154,6 +3421,7 @@
         "index": {
           "description": "Use tex ligatures quotes dashes in latex",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerTeXLigatures",
           "package": "pandoc",
@@ -3168,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate to use in standalone mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerTemplate",
           "package": "pandoc",
@@ -3178,6 +3447,7 @@
         "index": {
           "description": "Template to use in standalone mode",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerTemplate",
           "package": "pandoc",
@@ -3192,6 +3462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath of user data directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerUserDataDir",
           "package": "pandoc",
@@ -3202,6 +3473,7 @@
         "index": {
           "description": "Path of user data directory",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerUserDataDir",
           "package": "pandoc",
@@ -3216,6 +3488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables to set in template\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerVariables",
           "package": "pandoc",
@@ -3226,6 +3499,7 @@
         "index": {
           "description": "Variables to set in template",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerVariables",
           "normalized": "[(String,String)]",
@@ -3242,6 +3516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap text to line length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Options",
           "name": "writerWrapText",
           "package": "pandoc",
@@ -3252,6 +3527,7 @@
         "index": {
           "description": "Wrap text to line length",
           "hierarchy": "Text Pandoc Options",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Options",
           "name": "writerWrapText",
           "package": "pandoc",
@@ -3266,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of LaTeX documents to PDF.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.PDF",
           "name": "PDF",
           "package": "pandoc",
@@ -3275,6 +3552,7 @@
         "index": {
           "description": "Conversion of LaTeX documents to PDF",
           "hierarchy": "Text Pandoc PDF",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.PDF",
           "name": "PDF",
           "package": "pandoc",
@@ -3288,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.PDF",
           "name": "makePDF",
           "package": "pandoc",
@@ -3296,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc PDF",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.PDF",
           "name": "makePDF",
           "normalized": "String-\u003e(WriterOptions-\u003ePandoc-\u003eString)-\u003eWriterOptions-\u003ePandoc-\u003eIO(Either ByteString ByteString)",
@@ -3312,6 +3592,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA prettyprinting library for the production of text documents,\nincluding wrapped text, indentated blocks, and tables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "Pretty",
           "package": "pandoc",
@@ -3321,6 +3602,7 @@
         "index": {
           "description": "prettyprinting library for the production of text documents including wrapped text indentated blocks and tables",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "Pretty",
           "package": "pandoc",
@@ -3334,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "Doc",
           "package": "pandoc",
@@ -3342,6 +3625,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "Doc",
           "package": "pandoc",
@@ -3356,6 +3640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ea $$ b\u003c/code\u003e puts \u003ccode\u003ea\u003c/code\u003e above \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "($$)",
           "package": "pandoc",
@@ -3366,6 +3651,7 @@
         "index": {
           "description": "puts above",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "($$) $$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -3381,6 +3667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ea $$ b\u003c/code\u003e puts \u003ccode\u003ea\u003c/code\u003e above \u003ccode\u003eb\u003c/code\u003e, with a blank line between.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "($+$)",
           "package": "pandoc",
@@ -3391,6 +3678,7 @@
         "index": {
           "description": "puts above with blank line between",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "($+$) $+$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -3406,6 +3694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a list of \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003es, putting breakable spaces\n between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "(\u003c+\u003e)",
           "package": "pandoc",
@@ -3416,6 +3705,7 @@
         "index": {
           "description": "Concatenate list of Doc putting breakable spaces between them",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -3431,6 +3721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "(\u003c\u003e)",
           "package": "pandoc",
@@ -3440,6 +3731,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -3455,6 +3747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebeforeNonBlank d\u003c/code\u003e conditionally includes \u003ccode\u003ed\u003c/code\u003e unless it is\n followed by blank space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "beforeNonBlank",
           "package": "pandoc",
@@ -3465,6 +3758,7 @@
         "index": {
           "description": "beforeNonBlank conditionally includes unless it is followed by blank space",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "beforeNonBlank",
           "normalized": "Doc-\u003eDoc",
@@ -3481,6 +3775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a blank line unless one exists already.\n (\u003ccode\u003eblankline \u003ca/\u003e blankline\u003c/code\u003e has the same effect as \u003ccode\u003eblankline\u003c/code\u003e.\n If you want multiple blank lines, use \u003ccode\u003etext \u003ca\u003e\\n\\n\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "blankline",
           "package": "pandoc",
@@ -3491,6 +3786,7 @@
         "index": {
           "description": "Inserts blank line unless one exists already blankline blankline has the same effect as blankline If you want multiple blank lines use text",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "blankline",
           "package": "pandoc",
@@ -3504,6 +3800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e in curly braces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "braces",
           "package": "pandoc",
@@ -3514,6 +3811,7 @@
         "index": {
           "description": "Puts Doc in curly braces",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "braces",
           "normalized": "Doc-\u003eDoc",
@@ -3529,6 +3827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e in square brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "brackets",
           "package": "pandoc",
@@ -3539,6 +3838,7 @@
         "index": {
           "description": "Puts Doc in square brackets",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "brackets",
           "normalized": "Doc-\u003eDoc",
@@ -3554,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a list of \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "cat",
           "package": "pandoc",
@@ -3564,6 +3865,7 @@
         "index": {
           "description": "Concatenate list of Doc",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "cat",
           "normalized": "[Doc]-\u003eDoc",
@@ -3579,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elblock\u003c/a\u003e\u003c/code\u003e but aligned centered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "cblock",
           "package": "pandoc",
@@ -3589,6 +3892,7 @@
         "index": {
           "description": "Like lblock but aligned centered",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "cblock",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -3604,6 +3908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "char",
           "package": "pandoc",
@@ -3614,6 +3919,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "char",
           "normalized": "Char-\u003eDoc",
@@ -3629,6 +3935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns width of a character in a monospace font:  0 for a combining\n character, 1 for a regular character, 2 for an East Asian wide character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "charWidth",
           "package": "pandoc",
@@ -3639,6 +3946,7 @@
         "index": {
           "description": "Returns width of character in monospace font for combining character for regular character for an East Asian wide character",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "charWidth",
           "normalized": "Char-\u003eInt",
@@ -3655,6 +3963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChomps trailing blank space off of a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "chomp",
           "package": "pandoc",
@@ -3665,6 +3974,7 @@
         "index": {
           "description": "Chomps trailing blank space off of Doc",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "chomp",
           "normalized": "Doc-\u003eDoc",
@@ -3680,6 +3990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA carriage return.  Does nothing if we're at the beginning of\n a line; otherwise inserts a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "cr",
           "package": "pandoc",
@@ -3690,6 +4001,7 @@
         "index": {
           "description": "carriage return Does nothing if we re at the beginning of line otherwise inserts newline",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "cr",
           "package": "pandoc",
@@ -3703,6 +4015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e in double quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "doubleQuotes",
           "package": "pandoc",
@@ -3713,6 +4026,7 @@
         "index": {
           "description": "Wraps Doc in double quotes",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "doubleQuotes",
           "normalized": "Doc-\u003eDoc",
@@ -3729,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "empty",
           "package": "pandoc",
@@ -3739,6 +4054,7 @@
         "index": {
           "description": "The empty document",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "empty",
           "package": "pandoc",
@@ -3752,6 +4068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e flush against the left margin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "flush",
           "package": "pandoc",
@@ -3762,6 +4079,7 @@
         "index": {
           "description": "Makes Doc flush against the left margin",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "flush",
           "normalized": "Doc-\u003eDoc",
@@ -3777,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hanging indent. \u003ccode\u003ehang ind start doc\u003c/code\u003e prints \u003ccode\u003estart\u003c/code\u003e,\n then \u003ccode\u003edoc\u003c/code\u003e, leaving an indent of \u003ccode\u003eind\u003c/code\u003e spaces on every\n line but the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "hang",
           "package": "pandoc",
@@ -3787,6 +4106,7 @@
         "index": {
           "description": "hanging indent hang ind start doc prints start then doc leaving an indent of ind spaces on every line but the first",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "hang",
           "normalized": "Int-\u003eDoc-\u003eDoc-\u003eDoc",
@@ -3802,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ecat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "hcat",
           "package": "pandoc",
@@ -3812,6 +4133,7 @@
         "index": {
           "description": "Same as cat",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "hcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -3827,6 +4149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the height of a block or other \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "height",
           "package": "pandoc",
@@ -3837,6 +4160,7 @@
         "index": {
           "description": "Returns the height of block or other Doc",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "height",
           "normalized": "Doc-\u003eInt",
@@ -3852,6 +4176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ecat\u003c/a\u003e\u003c/code\u003e, but putting breakable spaces between the\n \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "hsep",
           "package": "pandoc",
@@ -3862,6 +4187,7 @@
         "index": {
           "description": "Same as cat but putting breakable spaces between the Doc",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "hsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -3877,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncloses a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e inside a start and end \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "inside",
           "package": "pandoc",
@@ -3887,6 +4214,7 @@
         "index": {
           "description": "Encloses Doc inside start and end Doc",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "inside",
           "normalized": "Doc-\u003eDoc-\u003eDoc-\u003eDoc",
@@ -3902,6 +4230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the document is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "isEmpty",
           "package": "pandoc",
@@ -3912,6 +4241,7 @@
         "index": {
           "description": "True if the document is empty",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "isEmpty",
           "normalized": "Doc-\u003eBool",
@@ -3928,6 +4258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elblock n d\u003c/code\u003e is a block of width \u003ccode\u003en\u003c/code\u003e characters, with\n text derived from \u003ccode\u003ed\u003c/code\u003e and aligned to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "lblock",
           "package": "pandoc",
@@ -3938,6 +4269,7 @@
         "index": {
           "description": "lblock is block of width characters with text derived from and aligned to the left",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "lblock",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -3953,6 +4285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndents a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e by the specified number of spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "nest",
           "package": "pandoc",
@@ -3963,6 +4296,7 @@
         "index": {
           "description": "Indents Doc by the specified number of spaces",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "nest",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -3978,6 +4312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves leading blank lines from a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "nestle",
           "package": "pandoc",
@@ -3988,6 +4323,7 @@
         "index": {
           "description": "Removes leading blank lines from Doc",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "nestle",
           "normalized": "Doc-\u003eDoc",
@@ -4003,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e non-reflowable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "nowrap",
           "package": "pandoc",
@@ -4013,6 +4350,7 @@
         "index": {
           "description": "Makes Doc non-reflowable",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "nowrap",
           "normalized": "Doc-\u003eDoc",
@@ -4028,6 +4366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the width of a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "offset",
           "package": "pandoc",
@@ -4038,6 +4377,7 @@
         "index": {
           "description": "Returns the width of Doc",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "offset",
           "normalized": "Doc-\u003eInt",
@@ -4053,6 +4393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e in parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "parens",
           "package": "pandoc",
@@ -4063,6 +4404,7 @@
         "index": {
           "description": "Puts Doc in parentheses",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "parens",
           "normalized": "Doc-\u003eDoc",
@@ -4078,6 +4420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the specified string as a prefix for every line of\n the inside document (except the first, if not at the beginning\n of the line).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "prefixed",
           "package": "pandoc",
@@ -4088,6 +4431,7 @@
         "index": {
           "description": "Uses the specified string as prefix for every line of the inside document except the first if not at the beginning of the line",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "prefixed",
           "normalized": "String-\u003eDoc-\u003eDoc",
@@ -4103,6 +4447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e in single quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "quotes",
           "package": "pandoc",
@@ -4113,6 +4458,7 @@
         "index": {
           "description": "Wraps Doc in single quotes",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "quotes",
           "normalized": "Doc-\u003eDoc",
@@ -4128,6 +4474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elblock\u003c/a\u003e\u003c/code\u003e but aligned to the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "rblock",
           "package": "pandoc",
@@ -4138,6 +4485,7 @@
         "index": {
           "description": "Like lblock but aligned to the right",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "rblock",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -4153,6 +4501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet real length of string, taking into account combining and double-wide\n characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "realLength",
           "package": "pandoc",
@@ -4163,6 +4512,7 @@
         "index": {
           "description": "Get real length of string taking into account combining and double-wide characters",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "realLength",
           "normalized": "String-\u003eInt",
@@ -4179,6 +4529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003erender (Just n)\u003c/code\u003e will use\n a line length of \u003ccode\u003en\u003c/code\u003e to reflow text on breakable spaces.\n \u003ccode\u003erender Nothing\u003c/code\u003e will not reflow text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "render",
           "package": "pandoc",
@@ -4189,6 +4540,7 @@
         "index": {
           "description": "Renders Doc render Just will use line length of to reflow text on breakable spaces render Nothing will not reflow text",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "render",
           "normalized": "Maybe Int-\u003eDoc-\u003ea",
@@ -4204,6 +4556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA breaking (reflowable) space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "space",
           "package": "pandoc",
@@ -4214,6 +4567,7 @@
         "index": {
           "description": "breaking reflowable space",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "space",
           "package": "pandoc",
@@ -4227,6 +4581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "text",
           "package": "pandoc",
@@ -4237,6 +4592,7 @@
         "index": {
           "description": "literal string",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "text",
           "normalized": "String-\u003eDoc",
@@ -4252,6 +4608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "vcat",
           "package": "pandoc",
@@ -4262,6 +4619,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "vcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -4277,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e$+$\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Pretty",
           "name": "vsep",
           "package": "pandoc",
@@ -4287,6 +4646,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Text Pandoc Pretty",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Pretty",
           "name": "vsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -4302,6 +4662,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eByteString variant of \u003ccode\u003e\u003ca\u003ereadProcessWithExitCode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Process",
           "name": "Process",
           "package": "pandoc",
@@ -4311,6 +4672,7 @@
         "index": {
           "description": "ByteString variant of readProcessWithExitCode",
           "hierarchy": "Text Pandoc Process",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Process",
           "name": "Process",
           "package": "pandoc",
@@ -4325,6 +4687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003ereadProcessWithExitCode\u003c/a\u003e\u003c/code\u003e that uses lazy bytestrings\ninstead of strings and allows setting environment variables.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ereadProcessWithExitCode\u003c/code\u003e creates an external process, reads its\nstandard output and standard error strictly, waits until the process\nterminates, and then returns the \u003ccode\u003e\u003ca\u003eExitCode\u003c/a\u003e\u003c/code\u003e of the process,\nthe standard output, and the standard error.\n\u003c/p\u003e\u003cp\u003eIf an asynchronous exception is thrown to the thread executing\n\u003ccode\u003ereadProcessWithExitCode\u003c/code\u003e. The forked process will be terminated and\n\u003ccode\u003ereadProcessWithExitCode\u003c/code\u003e will wait (block) until the process has been\nterminated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Process",
           "name": "pipeProcess",
           "package": "pandoc",
@@ -4334,6 +4697,7 @@
         "index": {
           "description": "Version of readProcessWithExitCode that uses lazy bytestrings instead of strings and allows setting environment variables readProcessWithExitCode creates an external process reads its standard output and standard error strictly waits until the process terminates and then returns the ExitCode of the process the standard output and the standard error If an asynchronous exception is thrown to the thread executing readProcessWithExitCode The forked process will be terminated and readProcessWithExitCode will wait block until the process has been terminated",
           "hierarchy": "Text Pandoc Process",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Process",
           "name": "pipeProcess",
           "normalized": "Maybe[(String,String)]-\u003eFilePath-\u003e[String]-\u003eByteString-\u003eIO(ExitCode,ByteString,ByteString)",
@@ -4349,6 +4713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.DocBook",
           "name": "DocBook",
           "package": "pandoc",
@@ -4357,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Readers DocBook",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.DocBook",
           "name": "DocBook",
           "package": "pandoc",
@@ -4396,6 +4762,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of HTML to \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "HTML",
           "package": "pandoc",
@@ -4405,6 +4772,7 @@
         "index": {
           "description": "Conversion of HTML to Pandoc document",
           "hierarchy": "Text Pandoc Readers HTML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "HTML",
           "package": "pandoc",
@@ -4419,6 +4787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a stretch of HTML in balanced tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "htmlInBalanced",
           "package": "pandoc",
@@ -4429,6 +4798,7 @@
         "index": {
           "description": "Matches stretch of HTML in balanced tags",
           "hierarchy": "Text Pandoc Readers HTML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "htmlInBalanced",
           "normalized": "(Tag String-\u003eBool)-\u003eParser[Char]ParserState String",
@@ -4445,6 +4815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a tag meeting a certain condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "htmlTag",
           "package": "pandoc",
@@ -4455,6 +4826,7 @@
         "index": {
           "description": "Matches tag meeting certain condition",
           "hierarchy": "Text Pandoc Readers HTML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "htmlTag",
           "normalized": "(Tag String-\u003eBool)-\u003eParser[Char]a(Tag String,String)",
@@ -4470,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "isBlockTag",
           "package": "pandoc",
@@ -4479,6 +4852,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Readers HTML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "isBlockTag",
           "normalized": "Tag String-\u003eBool",
@@ -4494,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "isCommentTag",
           "package": "pandoc",
@@ -4503,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Readers HTML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "isCommentTag",
           "normalized": "Tag String-\u003eBool",
@@ -4518,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "isInlineTag",
           "package": "pandoc",
@@ -4527,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Readers HTML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "isInlineTag",
           "normalized": "Tag String-\u003eBool",
@@ -4542,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "isTextTag",
           "package": "pandoc",
@@ -4551,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Readers HTML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.HTML",
           "name": "isTextTag",
           "normalized": "Tag String-\u003eBool",
@@ -4593,6 +4973,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of Haddock markup to \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.Haddock",
           "name": "Haddock",
           "package": "pandoc",
@@ -4602,6 +4983,7 @@
         "index": {
           "description": "Conversion of Haddock markup to Pandoc document",
           "hierarchy": "Text Pandoc Readers Haddock",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.Haddock",
           "name": "Haddock",
           "package": "pandoc",
@@ -4642,6 +5024,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of LaTeX to \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.LaTeX",
           "name": "LaTeX",
           "package": "pandoc",
@@ -4651,6 +5034,7 @@
         "index": {
           "description": "Conversion of LaTeX to Pandoc document",
           "hierarchy": "Text Pandoc Readers LaTeX",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.LaTeX",
           "name": "LaTeX",
           "package": "pandoc",
@@ -4665,6 +5049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace \u003ca\u003einclude\u003c/a\u003e commands with file contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.LaTeX",
           "name": "handleIncludes",
           "package": "pandoc",
@@ -4675,6 +5060,7 @@
         "index": {
           "description": "Replace include commands with file contents",
           "hierarchy": "Text Pandoc Readers LaTeX",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.LaTeX",
           "name": "handleIncludes",
           "normalized": "String-\u003eIO String",
@@ -4690,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.LaTeX",
           "name": "rawLaTeXBlock",
           "package": "pandoc",
@@ -4699,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Readers LaTeX",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.LaTeX",
           "name": "rawLaTeXBlock",
           "normalized": "Parser[Char]ParserState String",
@@ -4714,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.LaTeX",
           "name": "rawLaTeXInline",
           "package": "pandoc",
@@ -4723,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Readers LaTeX",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.LaTeX",
           "name": "rawLaTeXInline",
           "normalized": "Parser[Char]ParserState Inline",
@@ -4765,6 +5155,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of markdown-formatted plain text to \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.Markdown",
           "name": "Markdown",
           "package": "pandoc",
@@ -4774,6 +5165,7 @@
         "index": {
           "description": "Conversion of markdown-formatted plain text to Pandoc document",
           "hierarchy": "Text Pandoc Readers Markdown",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.Markdown",
           "name": "Markdown",
           "package": "pandoc",
@@ -4814,6 +5206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead markdown from an input string and return a pair of a Pandoc document\n and a list of warnings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.Markdown",
           "name": "readMarkdownWithWarnings",
           "package": "pandoc",
@@ -4823,6 +5216,7 @@
         "index": {
           "description": "Read markdown from an input string and return pair of Pandoc document and list of warnings",
           "hierarchy": "Text Pandoc Readers Markdown",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.Markdown",
           "name": "readMarkdownWithWarnings",
           "normalized": "ReaderOptions-\u003eString-\u003e(Pandoc,[String])",
@@ -4839,6 +5233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of mediawiki text to \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.MediaWiki",
           "name": "MediaWiki",
           "package": "pandoc",
@@ -4848,6 +5243,7 @@
         "index": {
           "description": "Conversion of mediawiki text to Pandoc document",
           "hierarchy": "Text Pandoc Readers MediaWiki",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.MediaWiki",
           "name": "MediaWiki",
           "package": "pandoc",
@@ -4888,6 +5284,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of a string representation of a pandoc type (\u003ccode\u003ePandoc\u003c/code\u003e,\n\u003ccode\u003e[Block]\u003c/code\u003e, \u003ccode\u003eBlock\u003c/code\u003e, \u003ccode\u003e[Inline]\u003c/code\u003e, or \u003ccode\u003eInline\u003c/code\u003e) to a \u003ccode\u003ePandoc\u003c/code\u003e document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.Native",
           "name": "Native",
           "package": "pandoc",
@@ -4897,6 +5294,7 @@
         "index": {
           "description": "Conversion of string representation of pandoc type Pandoc Block Block Inline or Inline to Pandoc document",
           "hierarchy": "Text Pandoc Readers Native",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.Native",
           "name": "Native",
           "package": "pandoc",
@@ -4936,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.OPML",
           "name": "OPML",
           "package": "pandoc",
@@ -4944,6 +5343,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Readers OPML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.OPML",
           "name": "OPML",
           "package": "pandoc",
@@ -4983,6 +5383,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion from reStructuredText to \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.RST",
           "name": "RST",
           "package": "pandoc",
@@ -4992,6 +5393,7 @@
         "index": {
           "description": "Conversion from reStructuredText to Pandoc document",
           "hierarchy": "Text Pandoc Readers RST",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.RST",
           "name": "RST",
           "package": "pandoc",
@@ -5032,6 +5434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of TeX math to a list of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e inline elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.TeXMath",
           "name": "TeXMath",
           "package": "pandoc",
@@ -5041,6 +5444,7 @@
         "index": {
           "description": "Conversion of TeX math to list of Pandoc inline elements",
           "hierarchy": "Text Pandoc Readers TeXMath",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.TeXMath",
           "name": "TeXMath",
           "package": "pandoc",
@@ -5055,6 +5459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use readTeXMath' from Text.Pandoc.JSON instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eConverts a raw TeX math formula to a list of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e inlines.\n Defaults to raw formula between \u003ccode\u003e$\u003c/code\u003e characters if entire formula\n can't be converted.  (This is provided for backwards compatibility;\n it is better to use \u003ccode\u003ereadTeXMath'\u003c/code\u003e, which properly distinguishes\n between display and inline math.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.TeXMath",
           "name": "readTeXMath",
           "package": "pandoc",
@@ -5064,6 +5469,7 @@
         "index": {
           "description": "Deprecated Use readTeXMath from Text.Pandoc.JSON instead Converts raw TeX math formula to list of Pandoc inlines Defaults to raw formula between characters if entire formula can be converted This is provided for backwards compatibility it is better to use readTeXMath which properly distinguishes between display and inline math",
           "hierarchy": "Text Pandoc Readers TeXMath",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.TeXMath",
           "name": "readTeXMath",
           "normalized": "String-\u003e[Inline]",
@@ -5080,6 +5486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a raw TeX math formula to a list of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e inlines.\n Defaults to raw formula between \u003ccode\u003e$\u003c/code\u003e or \u003ccode\u003e$$\u003c/code\u003e characters if entire formula\n can't be converted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.TeXMath",
           "name": "readTeXMath'",
           "package": "pandoc",
@@ -5089,6 +5496,7 @@
         "index": {
           "description": "Converts raw TeX math formula to list of Pandoc inlines Defaults to raw formula between or characters if entire formula can be converted",
           "hierarchy": "Text Pandoc Readers TeXMath",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.TeXMath",
           "name": "readTeXMath'",
           "normalized": "MathType-\u003eString-\u003e[Inline]",
@@ -5105,6 +5513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion from Textile to \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document, based on the spec\navailable at http:\u003cem/\u003eredcloth.org/textile.\n\u003c/p\u003e\u003cp\u003eImplemented and parsed:\n - Paragraphs\n - Code blocks\n - Lists\n - blockquote\n - Inlines : strong, emph, cite, code, deleted, superscript,\n   subscript, links\n - footnotes\n - HTML-specific and CSS-specific attributes on headers\n\u003c/p\u003e\u003cp\u003eLeft to be implemented:\n - dimension sign\n - all caps\n - continued blocks (ex bq..)\n\u003c/p\u003e\u003cp\u003eTODO : refactor common patterns across readers :\n - more ...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Readers.Textile",
           "name": "Textile",
           "package": "pandoc",
@@ -5114,6 +5523,7 @@
         "index": {
           "description": "Conversion from Textile to Pandoc document based on the spec available at http redcloth.org textile Implemented and parsed Paragraphs Code blocks Lists blockquote Inlines strong emph cite code deleted superscript subscript links footnotes HTML-specific and CSS-specific attributes on headers Left to be implemented dimension sign all caps continued blocks ex bq TODO refactor common patterns across readers more",
           "hierarchy": "Text Pandoc Readers Textile",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Readers.Textile",
           "name": "Textile",
           "package": "pandoc",
@@ -5154,6 +5564,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for converting an HTML file into one that can be viewed\noffline, by incorporating linked images, CSS, and scripts into\nthe HTML using data URIs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.SelfContained",
           "name": "SelfContained",
           "package": "pandoc",
@@ -5163,6 +5574,7 @@
         "index": {
           "description": "Functions for converting an HTML file into one that can be viewed offline by incorporating linked images CSS and scripts into the HTML using data URIs",
           "hierarchy": "Text Pandoc SelfContained",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.SelfContained",
           "name": "SelfContained",
           "package": "pandoc",
@@ -5177,6 +5589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert HTML into self-contained HTML, incorporating images,\n scripts, and CSS using data: URIs.  Items specified using absolute\n URLs will be downloaded; those specified using relative URLs will\n be sought first relative to the working directory, then relative\n to the user data directory (if the first parameter is \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e\n a directory), and finally relative to pandoc's default data\n directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.SelfContained",
           "name": "makeSelfContained",
           "package": "pandoc",
@@ -5187,6 +5600,7 @@
         "index": {
           "description": "Convert HTML into self-contained HTML incorporating images scripts and CSS using data URIs Items specified using absolute URLs will be downloaded those specified using relative URLs will be sought first relative to the working directory then relative to the user data directory if the first parameter is Just directory and finally relative to pandoc default data directory",
           "hierarchy": "Text Pandoc SelfContained",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.SelfContained",
           "name": "makeSelfContained",
           "normalized": "Maybe FilePath-\u003eString-\u003eIO String",
@@ -5203,6 +5617,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions and definitions used by the various Pandoc modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "Shared",
           "package": "pandoc",
@@ -5212,6 +5627,7 @@
         "index": {
           "description": "Utility functions and definitions used by the various Pandoc modules",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "Shared",
           "package": "pandoc",
@@ -5226,6 +5642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure for defining hierarchical Pandoc documents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "Element",
           "package": "pandoc",
@@ -5235,6 +5652,7 @@
         "index": {
           "description": "Data structure for defining hierarchical Pandoc documents",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "Element",
           "package": "pandoc",
@@ -5248,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "Blk",
           "package": "pandoc",
@@ -5257,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "Blk",
           "package": "pandoc",
@@ -5270,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "Sec",
           "package": "pandoc",
@@ -5279,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "Sec",
           "normalized": "Sec Int[Int]Attr[Inline][Element]",
@@ -5295,6 +5717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a field of a \u003ccode\u003e\u003ca\u003eMeta\u003c/a\u003e\u003c/code\u003e object.  If the field already has a value,\n convert it into a list with the new value appended to the old value(s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "addMetaField",
           "package": "pandoc",
@@ -5305,6 +5728,7 @@
         "index": {
           "description": "Set field of Meta object If the field already has value convert it into list with the new value appended to the old value",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "addMetaField",
           "normalized": "String-\u003ea-\u003eMeta-\u003eMeta",
@@ -5321,6 +5745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an association list of backslash escapes for the\n designated characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "backslashEscapes",
           "package": "pandoc",
@@ -5330,6 +5755,7 @@
         "index": {
           "description": "Returns an association list of backslash escapes for the designated characters",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "backslashEscapes",
           "normalized": "[Char]-\u003e[(Char,String)]",
@@ -5346,6 +5772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange CamelCase word to hyphenated lowercase (e.g., camel-case).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "camelCaseToHyphenated",
           "package": "pandoc",
@@ -5356,6 +5783,7 @@
         "index": {
           "description": "Change CamelCase word to hyphenated lowercase e.g camel-case",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "camelCaseToHyphenated",
           "normalized": "String-\u003eString",
@@ -5372,6 +5800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange final list item from \u003ccode\u003ePara\u003c/code\u003e to \u003ccode\u003ePlain\u003c/code\u003e if the list contains\n no other \u003ccode\u003ePara\u003c/code\u003e blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "compactify",
           "package": "pandoc",
@@ -5381,6 +5810,7 @@
         "index": {
           "description": "Change final list item from Para to Plain if the list contains no other Para blocks",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "compactify",
           "normalized": "[[Block]]-\u003e[[Block]]",
@@ -5396,6 +5826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange final list item from \u003ccode\u003ePara\u003c/code\u003e to \u003ccode\u003ePlain\u003c/code\u003e if the list contains\n no other \u003ccode\u003ePara\u003c/code\u003e blocks.  Like compactify, but operates on \u003ccode\u003eBlocks\u003c/code\u003e rather\n than \u003ccode\u003e[Block]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "compactify'",
           "package": "pandoc",
@@ -5405,6 +5836,7 @@
         "index": {
           "description": "Change final list item from Para to Plain if the list contains no other Para blocks Like compactify but operates on Blocks rather than Block",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "compactify'",
           "normalized": "[Blocks]-\u003e[Blocks]",
@@ -5419,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "err",
           "package": "pandoc",
@@ -5428,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "err",
           "normalized": "Int-\u003eString-\u003eIO a",
@@ -5443,6 +5877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape a string of characters, using an association list of\n characters and strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "escapeStringUsing",
           "package": "pandoc",
@@ -5453,6 +5888,7 @@
         "index": {
           "description": "Escape string of characters using an association list of characters and strings",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "escapeStringUsing",
           "normalized": "[(Char,String)]-\u003eString-\u003eString",
@@ -5469,6 +5905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape whitespace in URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "escapeURI",
           "package": "pandoc",
@@ -5479,6 +5916,7 @@
         "index": {
           "description": "Escape whitespace in URI",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "escapeURI",
           "normalized": "String-\u003eString",
@@ -5495,6 +5933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch an image or other item from the local filesystem or the net.\n Returns raw content and maybe mime type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "fetchItem",
           "package": "pandoc",
@@ -5505,6 +5944,7 @@
         "index": {
           "description": "Fetch an image or other item from the local filesystem or the net Returns raw content and maybe mime type",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "fetchItem",
           "normalized": "Maybe String-\u003eString-\u003eIO(Either SomeException(ByteString,Maybe String))",
@@ -5521,6 +5961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift header levels up or down.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "headerShift",
           "package": "pandoc",
@@ -5531,6 +5972,7 @@
         "index": {
           "description": "Shift header levels up or down",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "headerShift",
           "normalized": "Int-\u003ePandoc-\u003ePandoc",
@@ -5547,6 +5989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert list of Pandoc blocks into (hierarchical) list of Elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "hierarchicalize",
           "package": "pandoc",
@@ -5557,6 +6000,7 @@
         "index": {
           "description": "Convert list of Pandoc blocks into hierarchical list of Elements",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "hierarchicalize",
           "normalized": "[Block]-\u003e[Element]",
@@ -5572,6 +6016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an IO action in a directory, returning to starting directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "inDirectory",
           "package": "pandoc",
@@ -5582,6 +6027,7 @@
         "index": {
           "description": "Perform an IO action in directory returning to starting directory",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "inDirectory",
           "normalized": "FilePath-\u003eIO a-\u003eIO a",
@@ -5598,6 +6044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if block is a Header block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "isHeaderBlock",
           "package": "pandoc",
@@ -5608,6 +6055,7 @@
         "index": {
           "description": "True if block is Header block",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "isHeaderBlock",
           "normalized": "Block-\u003eBool",
@@ -5624,6 +6072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetect if a list is tight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "isTightList",
           "package": "pandoc",
@@ -5634,6 +6083,7 @@
         "index": {
           "description": "Detect if list is tight",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "isTightList",
           "normalized": "[[Block]]-\u003eBool",
@@ -5650,6 +6100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate \u003ccode\u003e\u003ca\u003eMeta\u003c/a\u003e\u003c/code\u003e from old-style title, authors, date.  This is\n provided to ease the transition from the old API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "makeMeta",
           "package": "pandoc",
@@ -5660,6 +6111,7 @@
         "index": {
           "description": "Create Meta from old-style title authors date This is provided to ease the transition from the old API",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "makeMeta",
           "normalized": "[Inline]-\u003e[[Inline]]-\u003e[Inline]-\u003eMeta",
@@ -5676,6 +6128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize \u003ccode\u003ePandoc\u003c/code\u003e document, consolidating doubled \u003ccode\u003e\u003ca\u003eSpace\u003c/a\u003e\u003c/code\u003es,\n combining adjacent \u003ccode\u003e\u003ca\u003eStr\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eEmph\u003c/a\u003e\u003c/code\u003es, remove \u003ccode\u003e\u003ca\u003eNull\u003c/a\u003e\u003c/code\u003es and\n empty elements, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "normalize",
           "package": "pandoc",
@@ -5686,6 +6139,7 @@
         "index": {
           "description": "Normalize Pandoc document consolidating doubled Space combining adjacent Str and Emph remove Null and empty elements etc",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "normalize",
           "normalized": "a-\u003ea",
@@ -5701,6 +6155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a date and convert (if possible) to \u003ca\u003eYYYY-MM-DD\u003c/a\u003e format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "normalizeDate",
           "package": "pandoc",
@@ -5711,6 +6166,7 @@
         "index": {
           "description": "Parse date and convert if possible to YYYY-MM-DD format",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "normalizeDate",
           "normalized": "String-\u003eMaybe String",
@@ -5727,6 +6183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize a list of inline elements: remove leading and trailing\n \u003ccode\u003eSpace\u003c/code\u003e elements, collapse double \u003ccode\u003eSpace\u003c/code\u003es into singles, and\n remove empty Str elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "normalizeSpaces",
           "package": "pandoc",
@@ -5737,6 +6194,7 @@
         "index": {
           "description": "Normalize list of inline elements remove leading and trailing Space elements collapse double Space into singles and remove empty Str elements",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "normalizeSpaces",
           "normalized": "[Inline]-\u003e[Inline]",
@@ -5753,6 +6211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from a URL and return raw data and maybe mime type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "openURL",
           "package": "pandoc",
@@ -5763,6 +6222,7 @@
         "index": {
           "description": "Read from URL and return raw data and maybe mime type",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "openURL",
           "normalized": "String-\u003eIO(Either SomeException(ByteString,Maybe String))",
@@ -5779,6 +6239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate infinite lazy list of markers for an ordered list,\n depending on list attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "orderedListMarkers",
           "package": "pandoc",
@@ -5789,6 +6250,7 @@
         "index": {
           "description": "Generate infinite lazy list of markers for an ordered list depending on list attributes",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "orderedListMarkers",
           "normalized": "(Int,ListNumberStyle,ListNumberDelim)-\u003e[String]",
@@ -5805,6 +6267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead file from specified user data directory or, if not found there, from\n Cabal data directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "readDataFile",
           "package": "pandoc",
@@ -5815,6 +6278,7 @@
         "index": {
           "description": "Read file from specified user data directory or if not found there from Cabal data directory",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "readDataFile",
           "normalized": "Maybe FilePath-\u003eFilePath-\u003eIO ByteString",
@@ -5831,6 +6295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ereadDataFile\u003c/a\u003e\u003c/code\u003e but returns a String instead of a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "readDataFileUTF8",
           "package": "pandoc",
@@ -5841,6 +6306,7 @@
         "index": {
           "description": "Same as readDataFile but returns String instead of ByteString",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "readDataFileUTF8",
           "normalized": "Maybe FilePath-\u003eFilePath-\u003eIO String",
@@ -5857,6 +6323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender HTML tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "renderTags'",
           "package": "pandoc",
@@ -5867,6 +6334,7 @@
         "index": {
           "description": "Render HTML tags",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "renderTags'",
           "normalized": "[Tag String]-\u003eString",
@@ -5882,6 +6350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "safeRead",
           "package": "pandoc",
@@ -5891,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "safeRead",
           "normalized": "String-\u003ea b",
@@ -5907,6 +6377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit list by groups of one or more sep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "splitBy",
           "package": "pandoc",
@@ -5917,6 +6388,7 @@
         "index": {
           "description": "Split list by groups of one or more sep",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "splitBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -5932,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "splitByIndices",
           "package": "pandoc",
@@ -5941,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "splitByIndices",
           "normalized": "[Int]-\u003e[a]-\u003e[[a]]",
@@ -5957,6 +6431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit string into chunks divided at specified indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "splitStringByIndices",
           "package": "pandoc",
@@ -5967,6 +6442,7 @@
         "index": {
           "description": "Split string into chunks divided at specified indices",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "splitStringByIndices",
           "normalized": "[Int]-\u003e[Char]-\u003e[[Char]]",
@@ -5983,6 +6459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert pandoc structure to a string with formatting removed.\n Footnotes are skipped (since we don't want their contents in link\n labels).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "stringify",
           "package": "pandoc",
@@ -5993,6 +6470,7 @@
         "index": {
           "description": "Convert pandoc structure to string with formatting removed Footnotes are skipped since we don want their contents in link labels",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "stringify",
           "normalized": "a-\u003eString",
@@ -6008,6 +6486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip leading and trailing characters from string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "stripFirstAndLast",
           "package": "pandoc",
@@ -6018,6 +6497,7 @@
         "index": {
           "description": "Strip leading and trailing characters from string",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "stripFirstAndLast",
           "normalized": "String-\u003eString",
@@ -6034,6 +6514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip trailing newlines from string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "stripTrailingNewlines",
           "package": "pandoc",
@@ -6044,6 +6525,7 @@
         "index": {
           "description": "Strip trailing newlines from string",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "stripTrailingNewlines",
           "normalized": "String-\u003eString",
@@ -6060,6 +6542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace each occurrence of one sublist in a list with another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "substitute",
           "package": "pandoc",
@@ -6070,6 +6553,7 @@
         "index": {
           "description": "Replace each occurrence of one sublist in list with another",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "substitute",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -6085,6 +6569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert tabs to spaces and filter out DOS line endings.\n Tabs will be preserved if tab stop is set to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "tabFilter",
           "package": "pandoc",
@@ -6094,6 +6579,7 @@
         "index": {
           "description": "Convert tabs to spaces and filter out DOS line endings Tabs will be preserved if tab stop is set to",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "tabFilter",
           "normalized": "Int-\u003eString-\u003eString",
@@ -6110,6 +6596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert number \u003c 4000 to uppercase roman numeral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "toRomanNumeral",
           "package": "pandoc",
@@ -6120,6 +6607,7 @@
         "index": {
           "description": "Convert number to uppercase roman numeral",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "toRomanNumeral",
           "normalized": "Int-\u003eString",
@@ -6136,6 +6624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove leading and trailing space (including newlines) from string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "trim",
           "package": "pandoc",
@@ -6146,6 +6635,7 @@
         "index": {
           "description": "Remove leading and trailing space including newlines from string",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -6161,6 +6651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove leading space (including newlines) from string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "triml",
           "package": "pandoc",
@@ -6171,6 +6662,7 @@
         "index": {
           "description": "Remove leading space including newlines from string",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "triml",
           "normalized": "String-\u003eString",
@@ -6186,6 +6678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove trailing space (including newlines) from string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "trimr",
           "package": "pandoc",
@@ -6196,6 +6689,7 @@
         "index": {
           "description": "Remove trailing space including newlines from string",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "trimr",
           "normalized": "String-\u003eString",
@@ -6211,6 +6705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a unique identifier from a list of inlines.\n Second argument is a list of already used identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "uniqueIdent",
           "package": "pandoc",
@@ -6221,6 +6716,7 @@
         "index": {
           "description": "Generate unique identifier from list of inlines Second argument is list of already used identifiers",
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "uniqueIdent",
           "normalized": "[Inline]-\u003e[String]-\u003eString",
@@ -6236,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Shared",
           "name": "warn",
           "package": "pandoc",
@@ -6245,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Shared",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Shared",
           "name": "warn",
           "normalized": "String-\u003eIO()",
@@ -6260,6 +6758,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple templating system with variable substitution and conditionals.\nThe following program illustrates its use:\n\u003c/p\u003e\u003cpre\u003e \n import Data.Text\n import Data.Aeson\n import Text.Pandoc.Templates\n\n data Employee = Employee { firstName :: String\n                          , lastName  :: String\n                          , salary    :: Maybe Int }\n instance ToJSON Employee where\n   toJSON e = object [ \"name\" .= object [ \"first\" .= firstName e\n                                        , \"last\"  .= lastName e ]\n                     , \"salary\" .= salary e ]\n\n employees :: [Employee]\n employees = [ Employee \"John\" \"Doe\" Nothing\n             , Employee \"Omar\" \"Smith\" (Just 30000)\n             , Employee \"Sara\" \"Chen\" (Just 60000) ]\n\n template :: Template\n template = either error id $ compileTemplate\n   \"$for(employee)$Hi, $employee.name.first$. $if(employee.salary)$You make $employee.salary$.$else$No salary data.$endif$$sep$\\n$endfor$\"\n\n main = putStrLn $ renderTemplate template $ object [\"employee\" .= employees ]\n\u003c/pre\u003e\u003cp\u003eA slot for an interpolated variable is a variable name surrounded\nby dollar signs.  To include a literal \u003ccode\u003e$\u003c/code\u003e in your template, use\n\u003ccode\u003e$$\u003c/code\u003e.  Variable names must begin with a letter and can contain letters,\nnumbers, \u003ccode\u003e_\u003c/code\u003e, \u003ccode\u003e-\u003c/code\u003e, and \u003ccode\u003e.\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe values of variables are determined by a JSON object that is\npassed as a parameter to \u003ccode\u003erenderTemplate\u003c/code\u003e.  So, for example,\n\u003ccode\u003etitle\u003c/code\u003e will return the value of the \u003ccode\u003etitle\u003c/code\u003e field, and\n\u003ccode\u003eemployee.salary\u003c/code\u003e will return the value of the \u003ccode\u003esalary\u003c/code\u003e field\nof the object that is the value of the \u003ccode\u003eemployee\u003c/code\u003e field.\n\u003c/p\u003e\u003cp\u003eThe value of a variable will be indented to the same level as the\nvariable.\n\u003c/p\u003e\u003cp\u003eA conditional begins with \u003ccode\u003e$if(variable_name)$\u003c/code\u003e and ends with \u003ccode\u003e$endif$\u003c/code\u003e.\nIt may optionally contain an \u003ccode\u003e$else$\u003c/code\u003e section.  The if section is\nused if \u003ccode\u003evariable_name\u003c/code\u003e has a non-null value, otherwise the else section\nis used.\n\u003c/p\u003e\u003cp\u003eConditional keywords should not be indented, or unexpected spacing\nproblems may occur.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e$for$\u003c/code\u003e keyword can be used to iterate over an array.  If\nthe value of the associated variable is not an array, a single\niteration will be performed on its value.\n\u003c/p\u003e\u003cp\u003eYou may optionally specify separators using \u003ccode\u003e$sep$\u003c/code\u003e, as in the\nexample above.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "Templates",
           "package": "pandoc",
@@ -6269,6 +6768,7 @@
         "index": {
           "description": "simple templating system with variable substitution and conditionals The following program illustrates its use import Data.Text import Data.Aeson import Text.Pandoc.Templates data Employee Employee firstName String lastName String salary Maybe Int instance ToJSON Employee where toJSON object name object first firstName last lastName salary salary employees Employee employees Employee John Doe Nothing Employee Omar Smith Just Employee Sara Chen Just template Template template either error id compileTemplate for employee Hi employee.name.first if employee.salary You make employee.salary else No salary data endif sep endfor main putStrLn renderTemplate template object employee employees slot for an interpolated variable is variable name surrounded by dollar signs To include literal in your template use Variable names must begin with letter and can contain letters numbers and The values of variables are determined by JSON object that is passed as parameter to renderTemplate So for example title will return the value of the title field and employee.salary will return the value of the salary field of the object that is the value of the employee field The value of variable will be indented to the same level as the variable conditional begins with if variable name and ends with endif It may optionally contain an else section The if section is used if variable name has non-null value otherwise the else section is used Conditional keywords should not be indented or unexpected spacing problems may occur The for keyword can be used to iterate over an array If the value of the associated variable is not an array single iteration will be performed on its value You may optionally specify separators using sep as in the example above",
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "Templates",
           "package": "pandoc",
@@ -6282,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "Template",
           "package": "pandoc",
@@ -6290,6 +6791,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "Template",
           "package": "pandoc",
@@ -6303,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "TemplateTarget",
           "package": "pandoc",
@@ -6311,6 +6814,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "TemplateTarget",
           "package": "pandoc",
@@ -6324,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "compileTemplate",
           "package": "pandoc",
@@ -6333,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "compileTemplate",
           "normalized": "Text-\u003eEither String Template",
@@ -6349,6 +6855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet default template for the specified writer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "getDefaultTemplate",
           "package": "pandoc",
@@ -6358,6 +6865,7 @@
         "index": {
           "description": "Get default template for the specified writer",
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "getDefaultTemplate",
           "normalized": "Maybe FilePath-\u003eString-\u003eIO(Either IOException String)",
@@ -6373,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "renderTemplate",
           "package": "pandoc",
@@ -6382,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "renderTemplate",
           "normalized": "Template-\u003ea-\u003eb",
@@ -6398,6 +6908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erenderTemplate\u003c/a\u003e\u003c/code\u003e, but compiles the template first,\n raising an error if compilation fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "renderTemplate'",
           "package": "pandoc",
@@ -6408,6 +6919,7 @@
         "index": {
           "description": "Like renderTemplate but compiles the template first raising an error if compilation fails",
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "renderTemplate'",
           "normalized": "String-\u003ea-\u003eb",
@@ -6423,6 +6935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "toTarget",
           "package": "pandoc",
@@ -6432,6 +6945,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "toTarget",
           "normalized": "Text-\u003ea",
@@ -6447,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Templates",
           "name": "varListToJSON",
           "package": "pandoc",
@@ -6456,6 +6971,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Templates",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Templates",
           "name": "varListToJSON",
           "normalized": "[(String,String)]-\u003eValue",
@@ -6472,6 +6988,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUTF-8 aware string IO functions that will work with GHC 6.10, 6.12, or 7.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "UTF8",
           "package": "pandoc",
@@ -6481,6 +6998,7 @@
         "index": {
           "description": "UTF-8 aware string IO functions that will work with GHC or",
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "UTF8",
           "package": "pandoc",
@@ -6494,6 +7012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "decodeArg",
           "package": "pandoc",
@@ -6503,6 +7022,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "decodeArg",
           "normalized": "String-\u003eString",
@@ -6518,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "encodePath",
           "package": "pandoc",
@@ -6527,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "encodePath",
           "normalized": "FilePath-\u003eFilePath",
@@ -6542,6 +7064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "fromString",
           "package": "pandoc",
@@ -6551,6 +7074,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "fromString",
           "normalized": "String-\u003eByteString",
@@ -6566,6 +7090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "fromStringLazy",
           "package": "pandoc",
@@ -6575,6 +7100,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "fromStringLazy",
           "normalized": "String-\u003eByteString",
@@ -6590,6 +7116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "getContents",
           "package": "pandoc",
@@ -6599,6 +7126,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "getContents",
           "package": "pandoc",
@@ -6612,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "hGetContents",
           "package": "pandoc",
@@ -6621,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO String",
@@ -6636,6 +7166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "hPutStr",
           "package": "pandoc",
@@ -6645,6 +7176,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "hPutStr",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -6660,6 +7192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "hPutStrLn",
           "package": "pandoc",
@@ -6669,6 +7202,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -6684,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "putStr",
           "package": "pandoc",
@@ -6693,6 +7228,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "putStr",
           "normalized": "String-\u003eIO()",
@@ -6708,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "putStrLn",
           "package": "pandoc",
@@ -6717,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "putStrLn",
           "normalized": "String-\u003eIO()",
@@ -6732,6 +7270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "readFile",
           "package": "pandoc",
@@ -6741,6 +7280,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO String",
@@ -6757,6 +7297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert UTF8-encoded ByteString to String, also\n removing '\\r' characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "toString",
           "package": "pandoc",
@@ -6767,6 +7308,7 @@
         "index": {
           "description": "Convert UTF8-encoded ByteString to String also removing characters",
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "toString",
           "normalized": "ByteString-\u003eString",
@@ -6783,6 +7325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert UTF8-encoded ByteString to String, also\n removing '\\r' characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "toStringLazy",
           "package": "pandoc",
@@ -6793,6 +7336,7 @@
         "index": {
           "description": "Convert UTF8-encoded ByteString to String also removing characters",
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "toStringLazy",
           "normalized": "ByteString-\u003eString",
@@ -6808,6 +7352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.UTF8",
           "name": "writeFile",
           "package": "pandoc",
@@ -6817,6 +7362,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc UTF8",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.UTF8",
           "name": "writeFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -6833,6 +7379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to asciidoc.\n\u003c/p\u003e\u003cp\u003eNote that some information may be lost in conversion, due to\nexpressive limitations of asciidoc.  Footnotes and table cells with\nparagraphs (or other block items) are not possible in asciidoc.\nIf pandoc encounters one of these, it will insert a message indicating\nthat it has omitted the construct.\n\u003c/p\u003e\u003cp\u003eAsciiDoc:  \u003ca\u003ehttp://www.methods.co.nz/asciidoc/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.AsciiDoc",
           "name": "AsciiDoc",
           "package": "pandoc",
@@ -6842,6 +7389,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to asciidoc Note that some information may be lost in conversion due to expressive limitations of asciidoc Footnotes and table cells with paragraphs or other block items are not possible in asciidoc If pandoc encounters one of these it will insert message indicating that it has omitted the construct AsciiDoc http www.methods.co.nz asciidoc",
           "hierarchy": "Text Pandoc Writers AsciiDoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.AsciiDoc",
           "name": "AsciiDoc",
           "package": "pandoc",
@@ -6883,6 +7431,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e format into ConTeXt.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.ConTeXt",
           "name": "ConTeXt",
           "package": "pandoc",
@@ -6892,6 +7441,7 @@
         "index": {
           "description": "Conversion of Pandoc format into ConTeXt",
           "hierarchy": "Text Pandoc Writers ConTeXt",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.ConTeXt",
           "name": "ConTeXt",
           "package": "pandoc",
@@ -6933,6 +7483,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to custom markup using\na lua writer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Custom",
           "name": "Custom",
           "package": "pandoc",
@@ -6942,6 +7493,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to custom markup using lua writer",
           "hierarchy": "Text Pandoc Writers Custom",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Custom",
           "name": "Custom",
           "package": "pandoc",
@@ -6983,6 +7535,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to Docbook XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Docbook",
           "name": "Docbook",
           "package": "pandoc",
@@ -6992,6 +7545,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to Docbook XML",
           "hierarchy": "Text Pandoc Writers Docbook",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Docbook",
           "name": "Docbook",
           "package": "pandoc",
@@ -7033,6 +7587,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to docx.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Docx",
           "name": "Docx",
           "package": "pandoc",
@@ -7042,6 +7597,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to docx",
           "hierarchy": "Text Pandoc Writers Docx",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Docx",
           "name": "Docx",
           "package": "pandoc",
@@ -7082,6 +7638,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to EPUB.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.EPUB",
           "name": "EPUB",
           "package": "pandoc",
@@ -7091,6 +7648,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to EPUB",
           "hierarchy": "Text Pandoc Writers EPUB",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.EPUB",
           "name": "EPUB",
           "package": "pandoc",
@@ -7131,6 +7689,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to FB2 (FictionBook2) format.\n\u003c/p\u003e\u003cp\u003eFictionBook is an XML-based e-book format. For more information see:\n\u003ca\u003ehttp://www.fictionbook.org/index.php/Eng:XML_Schema_Fictionbook_2.1\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.FB2",
           "name": "FB2",
           "package": "pandoc",
@@ -7140,6 +7699,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to FB2 FictionBook2 format FictionBook is an XML-based e-book format For more information see http www.fictionbook.org index.php Eng XML Schema Fictionbook",
           "hierarchy": "Text Pandoc Writers FB2",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.FB2",
           "name": "FB2",
           "package": "pandoc",
@@ -7180,6 +7740,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to HTML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.HTML",
           "name": "HTML",
           "package": "pandoc",
@@ -7189,6 +7750,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to HTML",
           "hierarchy": "Text Pandoc Writers HTML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.HTML",
           "name": "HTML",
           "package": "pandoc",
@@ -7257,6 +7819,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e format into LaTeX.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.LaTeX",
           "name": "LaTeX",
           "package": "pandoc",
@@ -7266,6 +7829,7 @@
         "index": {
           "description": "Conversion of Pandoc format into LaTeX",
           "hierarchy": "Text Pandoc Writers LaTeX",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.LaTeX",
           "name": "LaTeX",
           "package": "pandoc",
@@ -7307,6 +7871,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to groff man page format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Man",
           "name": "Man",
           "package": "pandoc",
@@ -7316,6 +7881,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to groff man page format",
           "hierarchy": "Text Pandoc Writers Man",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Man",
           "name": "Man",
           "package": "pandoc",
@@ -7357,6 +7923,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to markdown-formatted plain text.\n\u003c/p\u003e\u003cp\u003eMarkdown:  \u003ca\u003ehttp://daringfireball.net/projects/markdown/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Markdown",
           "name": "Markdown",
           "package": "pandoc",
@@ -7366,6 +7933,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to markdown-formatted plain text Markdown http daringfireball.net projects markdown",
           "hierarchy": "Text Pandoc Writers Markdown",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Markdown",
           "name": "Markdown",
           "package": "pandoc",
@@ -7434,6 +8002,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to MediaWiki markup.\n\u003c/p\u003e\u003cp\u003eMediaWiki:  \u003ca\u003ehttp://www.mediawiki.org/wiki/MediaWiki\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.MediaWiki",
           "name": "MediaWiki",
           "package": "pandoc",
@@ -7443,6 +8012,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to MediaWiki markup MediaWiki http www.mediawiki.org wiki MediaWiki",
           "hierarchy": "Text Pandoc Writers MediaWiki",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.MediaWiki",
           "name": "MediaWiki",
           "package": "pandoc",
@@ -7484,6 +8054,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of a \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document to a string representation.\n\u003c/p\u003e\u003cp\u003eNote:  If \u003ccode\u003ewriterStandalone\u003c/code\u003e is \u003ccode\u003eFalse\u003c/code\u003e, only the document body\nis represented; otherwise, the full \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document, including the\nmetadata.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Native",
           "name": "Native",
           "package": "pandoc",
@@ -7493,6 +8064,7 @@
         "index": {
           "description": "Conversion of Pandoc document to string representation Note If writerStandalone is False only the document body is represented otherwise the full Pandoc document including the metadata",
           "hierarchy": "Text Pandoc Writers Native",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Native",
           "name": "Native",
           "package": "pandoc",
@@ -7534,6 +8106,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to ODT.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.ODT",
           "name": "ODT",
           "package": "pandoc",
@@ -7543,6 +8116,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to ODT",
           "hierarchy": "Text Pandoc Writers ODT",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.ODT",
           "name": "ODT",
           "package": "pandoc",
@@ -7583,6 +8157,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to OPML XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.OPML",
           "name": "OPML",
           "package": "pandoc",
@@ -7592,6 +8167,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to OPML XML",
           "hierarchy": "Text Pandoc Writers OPML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.OPML",
           "name": "OPML",
           "package": "pandoc",
@@ -7633,6 +8209,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to OpenDocument XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.OpenDocument",
           "name": "OpenDocument",
           "package": "pandoc",
@@ -7642,6 +8219,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to OpenDocument XML",
           "hierarchy": "Text Pandoc Writers OpenDocument",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.OpenDocument",
           "name": "OpenDocument",
           "package": "pandoc",
@@ -7683,6 +8261,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to Emacs Org-Mode.\n\u003c/p\u003e\u003cp\u003eOrg-Mode:  \u003ca\u003ehttp://orgmode.org\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Org",
           "name": "Org",
           "package": "pandoc",
@@ -7692,6 +8271,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to Emacs Org-Mode Org-Mode http orgmode.org",
           "hierarchy": "Text Pandoc Writers Org",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Org",
           "name": "Org",
           "package": "pandoc",
@@ -7733,6 +8313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to reStructuredText.\n\u003c/p\u003e\u003cp\u003ereStructuredText:  \u003ca\u003ehttp://docutils.sourceforge.net/rst.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.RST",
           "name": "RST",
           "package": "pandoc",
@@ -7742,6 +8323,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to reStructuredText reStructuredText http docutils.sourceforge.net rst.html",
           "hierarchy": "Text Pandoc Writers RST",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.RST",
           "name": "RST",
           "package": "pandoc",
@@ -7783,6 +8365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to RTF (rich text format).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.RTF",
           "name": "RTF",
           "package": "pandoc",
@@ -7792,6 +8375,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to RTF rich text format",
           "hierarchy": "Text Pandoc Writers RTF",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.RTF",
           "name": "RTF",
           "package": "pandoc",
@@ -7833,6 +8417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Pandoc to a string in rich text format, with\n images embedded as encoded binary data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.RTF",
           "name": "writeRTFWithEmbeddedImages",
           "package": "pandoc",
@@ -7843,6 +8428,7 @@
         "index": {
           "description": "Convert Pandoc to string in rich text format with images embedded as encoded binary data",
           "hierarchy": "Text Pandoc Writers RTF",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.RTF",
           "name": "writeRTFWithEmbeddedImages",
           "normalized": "WriterOptions-\u003ePandoc-\u003eIO String",
@@ -7859,6 +8445,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e format into Texinfo.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Texinfo",
           "name": "Texinfo",
           "package": "pandoc",
@@ -7868,6 +8455,7 @@
         "index": {
           "description": "Conversion of Pandoc format into Texinfo",
           "hierarchy": "Text Pandoc Writers Texinfo",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Texinfo",
           "name": "Texinfo",
           "package": "pandoc",
@@ -7909,6 +8497,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents to Textile markup.\n\u003c/p\u003e\u003cp\u003eTextile:  \u003ca\u003ehttp://thresholdstate.com/articles/4312/the-textile-reference-manual\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.Writers.Textile",
           "name": "Textile",
           "package": "pandoc",
@@ -7918,6 +8507,7 @@
         "index": {
           "description": "Conversion of Pandoc documents to Textile markup Textile http thresholdstate.com articles the-textile-reference-manual",
           "hierarchy": "Text Pandoc Writers Textile",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.Writers.Textile",
           "name": "Textile",
           "package": "pandoc",
@@ -7959,6 +8549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for escaping and formatting XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "XML",
           "package": "pandoc",
@@ -7968,6 +8559,7 @@
         "index": {
           "description": "Functions for escaping and formatting XML",
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "XML",
           "package": "pandoc",
@@ -7982,6 +8574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape one character as needed for XML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "escapeCharForXML",
           "package": "pandoc",
@@ -7992,6 +8585,7 @@
         "index": {
           "description": "Escape one character as needed for XML",
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "escapeCharForXML",
           "normalized": "Char-\u003eString",
@@ -8008,6 +8602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape string as needed for XML.  Entity references are not preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "escapeStringForXML",
           "package": "pandoc",
@@ -8018,6 +8613,7 @@
         "index": {
           "description": "Escape string as needed for XML Entity references are not preserved",
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "escapeStringForXML",
           "normalized": "String-\u003eString",
@@ -8033,6 +8629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "fromEntities",
           "package": "pandoc",
@@ -8042,6 +8639,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "fromEntities",
           "normalized": "String-\u003eString",
@@ -8058,6 +8656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut the supplied contents between start and end tags of tagType,\n   with specified attributes and (if specified) indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "inTags",
           "package": "pandoc",
@@ -8068,6 +8667,7 @@
         "index": {
           "description": "Put the supplied contents between start and end tags of tagType with specified attributes and if specified indentation",
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "inTags",
           "normalized": "Bool-\u003eString-\u003e[(String,String)]-\u003eDoc-\u003eDoc",
@@ -8084,6 +8684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut the supplied contents in indented block btw start and end tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "inTagsIndented",
           "package": "pandoc",
@@ -8094,6 +8695,7 @@
         "index": {
           "description": "Put the supplied contents in indented block btw start and end tags",
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "inTagsIndented",
           "normalized": "String-\u003eDoc-\u003eDoc",
@@ -8110,6 +8712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut the supplied contents between start and end tags of tagType.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "inTagsSimple",
           "package": "pandoc",
@@ -8120,6 +8723,7 @@
         "index": {
           "description": "Put the supplied contents between start and end tags of tagType",
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "inTagsSimple",
           "normalized": "String-\u003eDoc-\u003eDoc",
@@ -8136,6 +8740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a self-closing tag of tagType with specified attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "selfClosingTag",
           "package": "pandoc",
@@ -8146,6 +8751,7 @@
         "index": {
           "description": "Return self-closing tag of tagType with specified attributes",
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "selfClosingTag",
           "normalized": "String-\u003e[(String,String)]-\u003eDoc",
@@ -8162,6 +8768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape all non-ascii characters using numerical entities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc.XML",
           "name": "toEntities",
           "package": "pandoc",
@@ -8172,6 +8779,7 @@
         "index": {
           "description": "Escape all non-ascii characters using numerical entities",
           "hierarchy": "Text Pandoc XML",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc.XML",
           "name": "toEntities",
           "normalized": "String-\u003eString",
@@ -8188,6 +8796,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis helper module exports the main writers, readers, and data\nstructure definitions from the Pandoc libraries.\n\u003c/p\u003e\u003cp\u003eA typical application will chain together a reader and a writer\nto convert strings from one format to another.  For example, the\nfollowing simple program will act as a filter converting markdown\nfragments to reStructuredText, using reference-style links instead of\ninline links:\n\u003c/p\u003e\u003cpre\u003e module Main where\n import Text.Pandoc\n\n markdownToRST :: String -\u003e String\n markdownToRST =\n   (writeRST def {writerReferenceLinks = True}) . readMarkdown def\n\n main = getContents \u003e\u003e= putStrLn . markdownToRST\n\u003c/pre\u003e\u003cp\u003eNote:  all of the readers assume that the input text has \u003ccode\u003e'\\n'\u003c/code\u003e\nline endings.  So if you get your input text from a web form,\nyou should remove \u003ccode\u003e'\\r'\u003c/code\u003e characters using \u003ccode\u003efilter (/='\\r')\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "Pandoc",
           "package": "pandoc",
@@ -8197,6 +8806,7 @@
         "index": {
           "description": "This helper module exports the main writers readers and data structure definitions from the Pandoc libraries typical application will chain together reader and writer to convert strings from one format to another For example the following simple program will act as filter converting markdown fragments to reStructuredText using reference-style links instead of inline links module Main where import Text.Pandoc markdownToRST String String markdownToRST writeRST def writerReferenceLinks True readMarkdown def main getContents putStrLn markdownToRST Note all of the readers assume that the input text has line endings So if you get your input text from web form you should remove characters using filter",
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "Pandoc",
           "package": "pandoc",
@@ -8211,6 +8821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated.  Use \u003ccode\u003etoJSONFilter\u003c/code\u003e from \u003ccode\u003eText.Pandoc.JSON\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "ToJsonFilter",
           "package": "pandoc",
@@ -8220,6 +8831,7 @@
         "index": {
           "description": "Deprecated Use toJSONFilter from Text.Pandoc.JSON instead",
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "ToJsonFilter",
           "package": "pandoc",
@@ -8233,6 +8845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "Writer",
           "package": "pandoc",
@@ -8241,6 +8854,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "Writer",
           "package": "pandoc",
@@ -8254,6 +8868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "IOByteStringWriter",
           "package": "pandoc",
@@ -8263,6 +8878,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "IOByteStringWriter",
           "normalized": "IOByteStringWriter(WriterOptions-\u003ePandoc-\u003eIO ByteString)",
@@ -8278,6 +8894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "IOStringWriter",
           "package": "pandoc",
@@ -8287,6 +8904,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "IOStringWriter",
           "normalized": "IOStringWriter(WriterOptions-\u003ePandoc-\u003eIO String)",
@@ -8302,6 +8920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "PureStringWriter",
           "package": "pandoc",
@@ -8311,6 +8930,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "PureStringWriter",
           "normalized": "PureStringWriter(WriterOptions-\u003ePandoc-\u003eString)",
@@ -8327,6 +8947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve reader based on formatSpec (format+extensions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "getReader",
           "package": "pandoc",
@@ -8337,6 +8958,7 @@
         "index": {
           "description": "Retrieve reader based on formatSpec format extensions",
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "getReader",
           "normalized": "String-\u003eEither String(ReaderOptions-\u003eString-\u003eIO Pandoc)",
@@ -8353,6 +8975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve writer based on formatSpec (format+extensions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "getWriter",
           "package": "pandoc",
@@ -8363,6 +8986,7 @@
         "index": {
           "description": "Retrieve writer based on formatSpec format extensions",
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "getWriter",
           "normalized": "String-\u003eEither String Writer",
@@ -8379,6 +9003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion number of pandoc library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "pandocVersion",
           "package": "pandoc",
@@ -8389,6 +9014,7 @@
         "index": {
           "description": "Version number of pandoc library",
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "pandocVersion",
           "package": "pandoc",
@@ -8402,6 +9028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "readJSON",
           "package": "pandoc",
@@ -8411,6 +9038,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "readJSON",
           "normalized": "ReaderOptions-\u003eString-\u003ePandoc",
@@ -8427,6 +9055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociation list of formats and readers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "readers",
           "package": "pandoc",
@@ -8437,6 +9066,7 @@
         "index": {
           "description": "Association list of formats and readers",
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "readers",
           "normalized": "[(String,ReaderOptions-\u003eString-\u003eIO Pandoc)]",
@@ -8452,6 +9082,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003etoJSONFilter\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eJSON\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "toJsonFilter",
           "package": "pandoc",
@@ -8462,6 +9093,7 @@
         "index": {
           "description": "Deprecated Use toJSONFilter from JSON instead",
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "toJsonFilter",
           "normalized": "a-\u003eIO()",
@@ -8477,6 +9109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "writeJSON",
           "package": "pandoc",
@@ -8486,6 +9119,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "writeJSON",
           "normalized": "WriterOptions-\u003ePandoc-\u003eString",
@@ -8502,6 +9136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociation list of formats and writers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:50 UTC 2014",
           "module": "Text.Pandoc",
           "name": "writers",
           "package": "pandoc",
@@ -8512,6 +9147,7 @@
         "index": {
           "description": "Association list of formats and writers",
           "hierarchy": "Text Pandoc",
+          "indexed": "2014-03-11T19:33:50",
           "module": "Text.Pandoc",
           "name": "writers",
           "normalized": "[(String,Writer)]",

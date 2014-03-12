@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "formlets-hsp"
+        "phrase": "formlets-hsp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "Formlets",
           "package": "formlets-hsp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "Formlets",
           "package": "formlets-hsp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "checkboxes",
           "package": "formlets-hsp",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "checkboxes",
           "normalized": "[(a,String)]-\u003e[a]-\u003eForm[XMLGenT b(XML b)]c[a]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "div",
           "package": "formlets-hsp",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "div",
           "normalized": "a-\u003eForm b c d-\u003eForm[XMLGenT c(XML c)]c d",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "file",
           "package": "formlets-hsp",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "file",
           "normalized": "Form[XMLGenT a(XML a)]b File",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "fset",
           "package": "formlets-hsp",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "fset",
           "normalized": "Form[XMLGenT a(XML a)]b c-\u003e[Attr d e]-\u003eForm[XMLGenT a(XML a)]b c",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "hidden",
           "package": "formlets-hsp",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "hidden",
           "normalized": "Maybe String-\u003eForm[XMLGenT a(XML a)]b String",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "input",
           "package": "formlets-hsp",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "input",
           "normalized": "Maybe String-\u003eForm[XMLGenT a(XML a)]b String",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "label",
           "package": "formlets-hsp",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "label",
           "normalized": "String-\u003eForm[XMLGenT a(XML a)]b()",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "password",
           "package": "formlets-hsp",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "password",
           "normalized": "Maybe String-\u003eForm[XMLGenT a(XML a)]b String",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "radio",
           "package": "formlets-hsp",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "radio",
           "normalized": "[(a,String)]-\u003eMaybe a-\u003eForm[XMLGenT b(XML b)]c(Maybe a)",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "select",
           "package": "formlets-hsp",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "select",
           "normalized": "Maybe a-\u003e[(a,String)]-\u003eForm[XMLGenT b(XML b)]c(Maybe a)",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "selectMulti",
           "package": "formlets-hsp",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "selectMulti",
           "normalized": "[(a,String)]-\u003eForm[XMLGenT b(XML b)]c[a]",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "span",
           "package": "formlets-hsp",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "span",
           "normalized": "a-\u003eForm b c d-\u003eForm[XMLGenT c(XML c)]c d",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "submit",
           "package": "formlets-hsp",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "submit",
           "normalized": "String-\u003eForm[XMLGenT a(XML a)]b Bool",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "textarea",
           "package": "formlets-hsp",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "textarea",
           "normalized": "(String-\u003eRect)-\u003eMaybe String-\u003eForm[XMLGenT a(XML a)]b String",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:35 UTC 2014",
           "module": "HSP.Formlets",
           "name": "withAttrs",
           "package": "formlets-hsp",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "HSP Formlets",
+          "indexed": "2014-03-11T18:11:35",
           "module": "HSP.Formlets",
           "name": "withAttrs",
           "normalized": "[Attr a b]-\u003eForm[XMLGenT c(XML c)]d e-\u003eForm[XMLGenT c(XML c)]d e",

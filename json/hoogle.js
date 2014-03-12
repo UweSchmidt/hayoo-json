@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoogle"
+        "phrase": "hoogle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Hoogle API. To perform a search you call \u003ccode\u003e\u003ca\u003esearch\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eDatabase\u003c/a\u003e\u003c/code\u003e (obtained by \u003ccode\u003e\u003ca\u003eloadDatabase\u003c/a\u003e\u003c/code\u003e) and a\n   \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e (obtained by \u003ccode\u003e\u003ca\u003eparseQuery\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Hoogle",
           "package": "hoogle",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Hoogle API To perform search you call search with Database obtained by loadDatabase and Query obtained by parseQuery",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Hoogle",
           "package": "hoogle",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Hoogle database, containing a set of functions/items which can be searched. The \u003ccode\u003e\u003ca\u003eDatabase\u003c/a\u003e\u003c/code\u003e type is used\n   for a variety of purposes:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eCreation\u003c/dt\u003e\u003cdd\u003e A database is created by merging existing databases with the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e,\n   or by creating a new \u003ccode\u003e\u003ca\u003eDatabase\u003c/a\u003e\u003c/code\u003e from an input file with \u003ccode\u003e\u003ca\u003ecreateDatabase\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003eSerialization\u003c/dt\u003e\u003cdd\u003e A database is saved to disk with \u003ccode\u003e\u003ca\u003esaveDatabase\u003c/a\u003e\u003c/code\u003e and loaded from disk with \u003ccode\u003e\u003ca\u003eloadDatabase\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003eSearching\u003c/dt\u003e\u003cdd\u003e A database is searched using \u003ccode\u003e\u003ca\u003esearch\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Database",
           "package": "hoogle",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Hoogle database containing set of functions items which can be searched The Database type is used for variety of purposes Creation database is created by merging existing databases with the Monoid instance and mappend or by creating new Database from an input file with createDatabase Serialization database is saved to disk with saveDatabase and loaded from disk with loadDatabase Searching database is searched using search",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Database",
           "package": "hoogle",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "ItemKind",
           "package": "hoogle",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "ItemKind",
           "package": "hoogle",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe languages supported by Hoogle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Language",
           "package": "hoogle",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The languages supported by Hoogle",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Language",
           "package": "hoogle",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing a parse error. All indecies are 1-based.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "ParseError",
           "package": "hoogle",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Data type representing parse error All indecies are based",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "ParseError",
           "package": "hoogle",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query, representing a user input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Query",
           "package": "hoogle",
@@ -141,6 +152,7 @@
         "index": {
           "description": "query representing user input",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Query",
           "package": "hoogle",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Result",
           "package": "hoogle",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Result",
           "package": "hoogle",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA score, representing how close a match is. Lower scores are better.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Score",
           "package": "hoogle",
@@ -185,6 +200,7 @@
         "index": {
           "description": "score representing how close match is Lower scores are better",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Score",
           "package": "hoogle",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "TagStr",
           "package": "hoogle",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "TagStr",
           "package": "hoogle",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA URL, or internet address. These addresses will usually start with either\n   \u003ccode\u003ehttp://\u003c/code\u003e or \u003ccode\u003efile://\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "URL",
           "package": "hoogle",
@@ -229,6 +248,7 @@
         "index": {
           "description": "URL or internet address These addresses will usually start with either http or file",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "URL",
           "package": "hoogle",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "ClassItem",
           "package": "hoogle",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "ClassItem",
           "package": "hoogle",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "DataCtorItem",
           "package": "hoogle",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "DataCtorItem",
           "package": "hoogle",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "FunctionItem",
           "package": "hoogle",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "FunctionItem",
           "package": "hoogle",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell language (\u003ca\u003ehttp://haskell.org/\u003c/a\u003e), along with many GHC specific extensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Haskell",
           "package": "hoogle",
@@ -319,6 +346,7 @@
         "index": {
           "description": "The Haskell language http haskell.org along with many GHC specific extensions",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Haskell",
           "package": "hoogle",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "InstanceItem",
           "package": "hoogle",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "InstanceItem",
           "package": "hoogle",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "ModuleItem",
           "package": "hoogle",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "ModuleItem",
           "package": "hoogle",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "PackageItem",
           "package": "hoogle",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "PackageItem",
           "package": "hoogle",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "ParseError",
           "package": "hoogle",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "ParseError",
           "package": "hoogle",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Result",
           "package": "hoogle",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Result",
           "package": "hoogle",
@@ -443,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Str",
           "package": "hoogle",
@@ -453,6 +492,7 @@
         "index": {
           "description": "Plain text",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Str",
           "package": "hoogle",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBold text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "TagBold",
           "package": "hoogle",
@@ -477,6 +518,7 @@
         "index": {
           "description": "Bold text",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "TagBold",
           "package": "hoogle",
@@ -491,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColored text. Index into a 0-based palette. Text without any \u003ccode\u003e\u003ca\u003eTagColor\u003c/a\u003e\u003c/code\u003e should be black.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "TagColor",
           "package": "hoogle",
@@ -501,6 +544,7 @@
         "index": {
           "description": "Colored text Index into based palette Text without any TagColor should be black",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "TagColor",
           "package": "hoogle",
@@ -515,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnderlined/italic text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "TagEmph",
           "package": "hoogle",
@@ -525,6 +570,7 @@
         "index": {
           "description": "Underlined italic text",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "TagEmph",
           "package": "hoogle",
@@ -539,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hyperlink to a URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "TagLink",
           "package": "hoogle",
@@ -549,6 +596,7 @@
         "index": {
           "description": "hyperlink to URL",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "TagLink",
           "package": "hoogle",
@@ -563,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of tags one after another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "Tags",
           "package": "hoogle",
@@ -573,6 +622,7 @@
         "index": {
           "description": "list of tags one after another",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "Tags",
           "normalized": "Tags[TagStr]",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "TypeCtorItem",
           "package": "hoogle",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "TypeCtorItem",
           "package": "hoogle",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "TypeSynonymItem",
           "package": "hoogle",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "TypeSynonymItem",
           "package": "hoogle",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "UnclassifiedItem",
           "package": "hoogle",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "UnclassifiedItem",
           "package": "hoogle",
@@ -655,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColumn number on which the error occured, 1 for the first character of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "columnNo",
           "package": "hoogle",
@@ -665,6 +722,7 @@
         "index": {
           "description": "Column number on which the error occured for the first character of line",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "columnNo",
           "package": "hoogle",
@@ -679,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a query string and a database return a list of the possible completions for the search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "completions",
           "package": "hoogle",
@@ -689,6 +748,7 @@
         "index": {
           "description": "Given query string and database return list of the possible completions for the search",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "completions",
           "normalized": "Database-\u003eString-\u003e[String]",
@@ -704,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a database from an input definition. Source files for Hoogle databases are usually\n   stored in UTF8 format, and should be read using \u003ccode\u003e\u003ca\u003ehSetEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eutf8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "createDatabase",
           "package": "hoogle",
@@ -713,6 +774,7 @@
         "index": {
           "description": "Create database from an input definition Source files for Hoogle databases are usually stored in UTF8 format and should be read using hSetEncoding and utf8",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "createDatabase",
           "normalized": "HackageURL-\u003eLanguage-\u003e[Database]-\u003eString-\u003eFilePath-\u003eIO[ParseError]",
@@ -729,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation for the entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "docs",
           "package": "hoogle",
@@ -739,6 +802,7 @@
         "index": {
           "description": "Documentation for the entry",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "docs",
           "package": "hoogle",
@@ -752,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError message caused by the parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "errorMessage",
           "package": "hoogle",
@@ -762,6 +827,7 @@
         "index": {
           "description": "Error message caused by the parse error",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "errorMessage",
           "package": "hoogle",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine number on which the error occured, 1 for the first line of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "lineNo",
           "package": "hoogle",
@@ -786,6 +853,7 @@
         "index": {
           "description": "Line number on which the error occured for the first line of file",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "lineNo",
           "package": "hoogle",
@@ -800,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a database from a file. If the database was not saved with the same version of Hoogle,\n   it will probably throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "loadDatabase",
           "package": "hoogle",
@@ -810,6 +879,7 @@
         "index": {
           "description": "Load database from file If the database was not saved with the same version of Hoogle it will probably throw an error",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "loadDatabase",
           "normalized": "FilePath-\u003eIO Database",
@@ -825,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "locations",
           "package": "hoogle",
@@ -834,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "locations",
           "normalized": "[(URL,[(URL,String)])]",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "mergeDatabase",
           "package": "hoogle",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "mergeDatabase",
           "normalized": "[FilePath]-\u003eFilePath-\u003eIO()",
@@ -873,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput string which caused the error - sometimes with a \u003ccode\u003e\u003ca\u003eTagEmph\u003c/a\u003e\u003c/code\u003e to indicate which part was incorrect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "parseInput",
           "package": "hoogle",
@@ -883,6 +958,7 @@
         "index": {
           "description": "Input string which caused the error sometimes with TagEmph to indicate which part was incorrect",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "parseInput",
           "package": "hoogle",
@@ -897,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a query for a given language, returning either a parse error, or a query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "parseQuery",
           "package": "hoogle",
@@ -907,6 +984,7 @@
         "index": {
           "description": "Parse query for given language returning either parse error or query",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "parseQuery",
           "normalized": "Language-\u003eString-\u003eEither ParseError Query",
@@ -923,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a query, return the list of packages that should be searched. Each package will be\n   the name of a database, without any file path or extension included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "queryDatabases",
           "package": "hoogle",
@@ -933,6 +1012,7 @@
         "index": {
           "description": "Given query return the list of packages that should be searched Each package will be the name of database without any file path or extension included",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "queryDatabases",
           "normalized": "Query-\u003e[String]",
@@ -949,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a query, set whether it is an exact query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "queryExact",
           "package": "hoogle",
@@ -959,6 +1040,7 @@
         "index": {
           "description": "Given query set whether it is an exact query",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "queryExact",
           "normalized": "Maybe ItemKind-\u003eQuery-\u003eQuery",
@@ -975,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn those packages which are explicitly excluded (paired with \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e)\n   or included (paired with \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e) in the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "queryPackages",
           "package": "hoogle",
@@ -985,6 +1068,7 @@
         "index": {
           "description": "Return those packages which are explicitly excluded paired with False or included paired with True in the query",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "queryPackages",
           "normalized": "Query-\u003e[(Bool,String)]",
@@ -1001,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the state of a package within a query. \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e means delete the package,\n   \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e for add it, and \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e for remove it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "querySetPackage",
           "package": "hoogle",
@@ -1011,6 +1096,7 @@
         "index": {
           "description": "Set the state of package within query Nothing means delete the package Just True for add it and Just False for remove it",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "querySetPackage",
           "normalized": "Maybe Bool-\u003eString-\u003eQuery-\u003eQuery",
@@ -1027,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a query, in particular using \u003ccode\u003e\u003ca\u003eTagColor\u003c/a\u003e\u003c/code\u003e for any type signature argument positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "renderQuery",
           "package": "hoogle",
@@ -1037,6 +1124,7 @@
         "index": {
           "description": "Render query in particular using TagColor for any type signature argument positions",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "renderQuery",
           "normalized": "Query-\u003eTagStr",
@@ -1053,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave a database to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "saveDatabase",
           "package": "hoogle",
@@ -1063,6 +1152,7 @@
         "index": {
           "description": "Save database to file",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "saveDatabase",
           "normalized": "FilePath-\u003eDatabase-\u003eIO()",
@@ -1079,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a set of scores, where the first is lower than the second, returns details for how to rank scores.\n   This function is in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad since it may require randomness, and it may output status messages while solving,\n   particularly if in Verbose mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "scoring",
           "package": "hoogle",
@@ -1089,6 +1180,7 @@
         "index": {
           "description": "Given set of scores where the first is lower than the second returns details for how to rank scores This function is in the IO monad since it may require randomness and it may output status messages while solving particularly if in Verbose mode",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "scoring",
           "normalized": "[(Score,Score)]-\u003eIO String",
@@ -1104,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a search. The results are returned lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "search",
           "package": "hoogle",
@@ -1114,6 +1207,7 @@
         "index": {
           "description": "Perform search The results are returned lazily",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "search",
           "normalized": "Database-\u003eQuery-\u003e[(Score,Result)]",
@@ -1129,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendered view for the entry, including name\u003cem\u003ekeywords\u003c/em\u003etype as appropriate, colors matching \u003ccode\u003erenderQuery\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "self",
           "package": "hoogle",
@@ -1139,6 +1234,7 @@
         "index": {
           "description": "Rendered view for the entry including name keywords type as appropriate colors matching renderQuery",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "self",
           "package": "hoogle",
@@ -1152,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow debugging information on some parts of the database. If the second argument\n   is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e the whole database will be shown. Otherwise, the listed parts will be shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "showDatabase",
           "package": "hoogle",
@@ -1162,6 +1259,7 @@
         "index": {
           "description": "Show debugging information on some parts of the database If the second argument is Nothing the whole database will be shown Otherwise the listed parts will be shown",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "showDatabase",
           "normalized": "Database-\u003eMaybe[String]-\u003eString",
@@ -1178,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a \u003ccode\u003e\u003ca\u003eTagStr\u003c/a\u003e\u003c/code\u003e on a console with ANSI escape sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "showTagANSI",
           "package": "hoogle",
@@ -1188,6 +1287,7 @@
         "index": {
           "description": "Show TagStr on console with ANSI escape sequences",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "showTagANSI",
           "normalized": "TagStr-\u003eString",
@@ -1204,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a \u003ccode\u003e\u003ca\u003eTagStr\u003c/a\u003e\u003c/code\u003e as HTML, using CSS classes for color styling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "showTagHTML",
           "package": "hoogle",
@@ -1214,6 +1315,7 @@
         "index": {
           "description": "Show TagStr as HTML using CSS classes for color styling",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "showTagHTML",
           "normalized": "TagStr-\u003eString",
@@ -1230,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow TagStr with an override for specific tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "showTagHTMLWith",
           "package": "hoogle",
@@ -1240,6 +1343,7 @@
         "index": {
           "description": "Show TagStr with an override for specific tags",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "showTagHTMLWith",
           "normalized": "(TagStr-\u003eMaybe String)-\u003eTagStr-\u003eString",
@@ -1256,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a \u003ccode\u003e\u003ca\u003eTagStr\u003c/a\u003e\u003c/code\u003e as a string, without any formatting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "showTagText",
           "package": "hoogle",
@@ -1266,6 +1371,7 @@
         "index": {
           "description": "Show TagStr as string without any formatting",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "showTagText",
           "normalized": "TagStr-\u003eString",
@@ -1282,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a query and a database optionally give a list of what the user might have meant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:52 UTC 2014",
           "module": "Hoogle",
           "name": "suggestions",
           "package": "hoogle",
@@ -1292,6 +1399,7 @@
         "index": {
           "description": "Given query and database optionally give list of what the user might have meant",
           "hierarchy": "Hoogle",
+          "indexed": "2014-03-11T18:43:52",
           "module": "Hoogle",
           "name": "suggestions",
           "normalized": "Database-\u003eQuery-\u003eMaybe TagStr",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bloxorz"
+        "phrase": "bloxorz",
+        "type": "phrase"
       },
       "type": "context"
     }

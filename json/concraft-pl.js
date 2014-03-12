@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "concraft-pl"
+        "phrase": "concraft-pl",
+        "type": "phrase"
       },
       "type": "context"
     }

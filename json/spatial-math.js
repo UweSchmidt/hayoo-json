@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spatial-math"
+        "phrase": "spatial-math",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "SpatialMath",
           "package": "spatial-math",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "SpatialMath",
           "package": "spatial-math",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3-2-1 Euler angle rotation sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "Euler",
           "package": "spatial-math",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Euler angle rotation sequence",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "Euler",
           "package": "spatial-math",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3x3 matrix with row-major representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "M33",
           "package": "spatial-math",
@@ -71,6 +76,7 @@
         "index": {
           "description": "x3 matrix with row-major representation",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "M33",
           "package": "spatial-math",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuaternions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "Quaternion",
           "package": "spatial-math",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Quaternions",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "Quaternion",
           "package": "spatial-math",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3-dimensional vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "V3",
           "package": "spatial-math",
@@ -114,6 +123,7 @@
         "index": {
           "description": "dimensional vector",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "V3",
           "package": "spatial-math",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "Euler",
           "package": "spatial-math",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "Euler",
           "package": "spatial-math",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "Quaternion",
           "package": "spatial-math",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "Quaternion",
           "package": "spatial-math",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "V3",
           "package": "spatial-math",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "V3",
           "package": "spatial-math",
@@ -190,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert DCM to euler angles\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edcmOfEuler321 $ Euler {eYaw = 0.0, ePitch = 0, eRoll = 0}\n\u003c/code\u003e\u003c/strong\u003eV3 (V3 1.0 0.0 0.0) (V3 0.0 1.0 0.0) (V3 0.0 0.0 1.0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edcmOfEuler321 $ Euler {eYaw = pi/2, ePitch = 0, eRoll = 0}\n\u003c/code\u003e\u003c/strong\u003eV3 (V3 2.220446049250313e-16 1.0 0.0) (V3 (-1.0) 2.220446049250313e-16 0.0) (V3 0.0 0.0 1.0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edcmOfEuler321 $ Euler {eYaw = pi/4, ePitch = 0, eRoll = 0}\n\u003c/code\u003e\u003c/strong\u003eV3 (V3 0.7071067811865475 0.7071067811865476 0.0) (V3 (-0.7071067811865476) 0.7071067811865475 0.0) (V3 0.0 0.0 1.0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "dcmOfEuler321",
           "package": "spatial-math",
@@ -200,6 +217,7 @@
         "index": {
           "description": "Convert DCM to euler angles dcmOfEuler321 Euler eYaw ePitch eRoll V3 V3 V3 V3 dcmOfEuler321 Euler eYaw pi ePitch eRoll V3 V3 e-16 V3 e-16 V3 dcmOfEuler321 Euler eYaw pi ePitch eRoll V3 V3 V3 V3",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "dcmOfEuler321",
           "normalized": "Euler a-\u003eM a",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a quaternion to a DCM\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edcmOfQuat $ Quaternion 1.0 (V3 0.0 0.0 0.0)\n\u003c/code\u003e\u003c/strong\u003eV3 (V3 1.0 0.0 0.0) (V3 0.0 1.0 0.0) (V3 0.0 0.0 1.0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet s = sqrt(2)/2 in dcmOfQuat $ Quaternion s (V3 0.0 0.0 s)\n\u003c/code\u003e\u003c/strong\u003eV3 (V3 0.0 1.0000000000000002 0.0) (V3 (-1.0000000000000002) 0.0 0.0) (V3 0.0 0.0 1.0000000000000002)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edcmOfQuat $ Quaternion 0.9238795325112867 (V3 0.0 0.0 0.3826834323650898)\n\u003c/code\u003e\u003c/strong\u003eV3 (V3 0.7071067811865475 0.7071067811865476 0.0) (V3 (-0.7071067811865476) 0.7071067811865475 0.0) (V3 0.0 0.0 1.0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "dcmOfQuat",
           "package": "spatial-math",
@@ -226,6 +245,7 @@
         "index": {
           "description": "convert quaternion to DCM dcmOfQuat Quaternion V3 V3 V3 V3 V3 let sqrt in dcmOfQuat Quaternion V3 V3 V3 V3 V3 dcmOfQuat Quaternion V3 V3 V3 V3 V3",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "dcmOfQuat",
           "normalized": "Quaternion a-\u003eM a",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "dcmOfQuatB2A",
           "package": "spatial-math",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "dcmOfQuatB2A",
           "normalized": "Quaternion a-\u003eM a",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "ePitch",
           "package": "spatial-math",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "ePitch",
           "package": "spatial-math",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "eRoll",
           "package": "spatial-math",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "eRoll",
           "package": "spatial-math",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "eYaw",
           "package": "spatial-math",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "eYaw",
           "package": "spatial-math",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert DCM to euler angles\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeuler321OfDcm $ V3 (V3 1 0 0) (V3 0 1 0) (V3 0 0 1)\n\u003c/code\u003e\u003c/strong\u003eEuler {eYaw = 0.0, ePitch = -0.0, eRoll = 0.0}\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeuler321OfDcm $ V3 (V3 0 1 0) (V3 (-1) 0 0) (V3 0 0 1)\n\u003c/code\u003e\u003c/strong\u003eEuler {eYaw = 1.5707963267948966, ePitch = -0.0, eRoll = 0.0}\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet s = sqrt(2)/2 in euler321OfDcm $ V3 (V3 s s 0) (V3 (-s) s 0) (V3 0 0 1)\n\u003c/code\u003e\u003c/strong\u003eEuler {eYaw = 0.7853981633974483, ePitch = -0.0, eRoll = 0.0}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "euler321OfDcm",
           "package": "spatial-math",
@@ -342,6 +371,7 @@
         "index": {
           "description": "Convert DCM to euler angles euler321OfDcm V3 V3 V3 V3 Euler eYaw ePitch eRoll euler321OfDcm V3 V3 V3 V3 Euler eYaw ePitch eRoll let sqrt in euler321OfDcm V3 V3 V3 V3 Euler eYaw ePitch eRoll",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "euler321OfDcm",
           "normalized": "M a-\u003eEuler a",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert quaternion to Euler angles\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeuler321OfQuat (Quaternion 1.0 (V3 0.0 0.0 0.0))\n\u003c/code\u003e\u003c/strong\u003eEuler {eYaw = 0.0, ePitch = -0.0, eRoll = 0.0}\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeuler321OfQuat (Quaternion (sqrt(2)/2) (V3 (sqrt(2)/2) 0.0 0.0))\n\u003c/code\u003e\u003c/strong\u003eEuler {eYaw = 0.0, ePitch = -0.0, eRoll = 1.5707963267948966}\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeuler321OfQuat (Quaternion (sqrt(2)/2) (V3 0.0 (sqrt(2)/2) 0.0))\n\u003c/code\u003e\u003c/strong\u003eEuler {eYaw = 0.0, ePitch = 1.5707963267948966, eRoll = 0.0}\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeuler321OfQuat (Quaternion (sqrt(2)/2) (V3 0.0 0.0 (sqrt(2)/2)))\n\u003c/code\u003e\u003c/strong\u003eEuler {eYaw = 1.5707963267948966, ePitch = -0.0, eRoll = 0.0}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "euler321OfQuat",
           "package": "spatial-math",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Convert quaternion to Euler angles euler321OfQuat Quaternion V3 Euler eYaw ePitch eRoll euler321OfQuat Quaternion sqrt V3 sqrt Euler eYaw ePitch eRoll euler321OfQuat Quaternion sqrt V3 sqrt Euler eYaw ePitch eRoll euler321OfQuat Quaternion sqrt V3 sqrt Euler eYaw ePitch eRoll",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "euler321OfQuat",
           "normalized": "Quaternion a-\u003eEuler a",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a DCM to a quaternion\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equatOfDcm $ V3 (V3 1 0 0) (V3 0 1 0) (V3 0 0 1)\n\u003c/code\u003e\u003c/strong\u003eQuaternion 1.0 (V3 0.0 0.0 0.0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equatOfDcm $ V3 (V3 0 1 0) (V3 (-1) 0 0) (V3 0 0 1)\n\u003c/code\u003e\u003c/strong\u003eQuaternion 0.7071067811865476 (V3 0.0 0.0 0.7071067811865475)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet s = sqrt(2)/2 in quatOfDcm $ V3 (V3 s s 0) (V3 (-s) s 0) (V3 0 0 1)\n\u003c/code\u003e\u003c/strong\u003eQuaternion 0.9238795325112867 (V3 0.0 0.0 0.3826834323650898)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "quatOfDcm",
           "package": "spatial-math",
@@ -394,6 +427,7 @@
         "index": {
           "description": "convert DCM to quaternion quatOfDcm V3 V3 V3 V3 Quaternion V3 quatOfDcm V3 V3 V3 V3 Quaternion V3 let sqrt in quatOfDcm V3 V3 V3 V3 Quaternion V3",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "quatOfDcm",
           "normalized": "M a-\u003eQuaternion a",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "quatOfDcmB2A",
           "package": "spatial-math",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "quatOfDcmB2A",
           "normalized": "M a-\u003eQuaternion a",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Euler angles to quaternion\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equatOfEuler321 (Euler 0 0 0)\n\u003c/code\u003e\u003c/strong\u003eQuaternion 1.0 (V3 0.0 0.0 0.0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equatOfEuler321 (Euler (pi/2) 0 0)\n\u003c/code\u003e\u003c/strong\u003eQuaternion 0.7071067811865476 (V3 0.0 0.0 0.7071067811865475)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equatOfEuler321 (Euler 0 (pi/2) 0)\n\u003c/code\u003e\u003c/strong\u003eQuaternion 0.7071067811865476 (V3 0.0 0.7071067811865475 0.0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equatOfEuler321 (Euler 0 0 (pi/2))\n\u003c/code\u003e\u003c/strong\u003eQuaternion 0.7071067811865476 (V3 0.7071067811865475 0.0 0.0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "quatOfEuler321",
           "package": "spatial-math",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Convert Euler angles to quaternion quatOfEuler321 Euler Quaternion V3 quatOfEuler321 Euler pi Quaternion V3 quatOfEuler321 Euler pi Quaternion V3 quatOfEuler321 Euler pi Quaternion V3",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "quatOfEuler321",
           "normalized": "Euler a-\u003eQuaternion a",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evec_b = R_a2b * vec_a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotVecByDcm",
           "package": "spatial-math",
@@ -470,6 +509,7 @@
         "index": {
           "description": "vec a2b vec",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotVecByDcm",
           "normalized": "M a-\u003eV a-\u003eV a",
@@ -486,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evec_a = R_a2b^T * vec_b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotVecByDcmB2A",
           "package": "spatial-math",
@@ -496,6 +537,7 @@
         "index": {
           "description": "vec a2b vec",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotVecByDcmB2A",
           "normalized": "M a-\u003eV a-\u003eV a",
@@ -511,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotVecByEuler",
           "package": "spatial-math",
@@ -520,6 +563,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotVecByEuler",
           "normalized": "Euler a-\u003eV a-\u003eV a",
@@ -535,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotVecByEulerB2A",
           "package": "spatial-math",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotVecByEulerB2A",
           "normalized": "Euler a-\u003eV a-\u003eV a",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evec_b = q_a2b * vec_a * q_a2b^(-1)\n   vec_b = R(q_a2b) * vec_a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotVecByQuat",
           "package": "spatial-math",
@@ -570,6 +617,7 @@
         "index": {
           "description": "vec a2b vec a2b vec a2b vec",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotVecByQuat",
           "normalized": "Quaternion a-\u003eV a-\u003eV a",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotVecByQuatB2A",
           "package": "spatial-math",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotVecByQuatB2A",
           "normalized": "Quaternion a-\u003eV a-\u003eV a",
@@ -610,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a vector about the X axis\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erotateXyzAboutX (V3 0 1 0) (pi/2)\n\u003c/code\u003e\u003c/strong\u003eV3 0.0 6.123233995736766e-17 1.0\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erotateXyzAboutX (V3 0 0 1) (pi/2)\n\u003c/code\u003e\u003c/strong\u003eV3 0.0 (-1.0) 6.123233995736766e-17\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotateXyzAboutX",
           "package": "spatial-math",
@@ -620,6 +671,7 @@
         "index": {
           "description": "Rotate vector about the axis rotateXyzAboutX V3 pi V3 e-17 rotateXyzAboutX V3 pi V3 e-17",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotateXyzAboutX",
           "normalized": "V a-\u003ea-\u003eV a",
@@ -636,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a vector about the Y axis\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erotateXyzAboutY (V3 0 0 1) (pi/2)\n\u003c/code\u003e\u003c/strong\u003eV3 1.0 0.0 6.123233995736766e-17\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erotateXyzAboutY (V3 1 0 0) (pi/2)\n\u003c/code\u003e\u003c/strong\u003eV3 6.123233995736766e-17 0.0 (-1.0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotateXyzAboutY",
           "package": "spatial-math",
@@ -646,6 +699,7 @@
         "index": {
           "description": "Rotate vector about the axis rotateXyzAboutY V3 pi V3 e-17 rotateXyzAboutY V3 pi V3 e-17",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotateXyzAboutY",
           "normalized": "V a-\u003ea-\u003eV a",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a vector about the Z axis\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erotateXyzAboutZ (V3 1 0 0) (pi/2)\n\u003c/code\u003e\u003c/strong\u003eV3 6.123233995736766e-17 1.0 0.0\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erotateXyzAboutZ (V3 0 1 0) (pi/2)\n\u003c/code\u003e\u003c/strong\u003eV3 (-1.0) 6.123233995736766e-17 0.0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:53 UTC 2014",
           "module": "SpatialMath",
           "name": "rotateXyzAboutZ",
           "package": "spatial-math",
@@ -672,6 +727,7 @@
         "index": {
           "description": "Rotate vector about the axis rotateXyzAboutZ V3 pi V3 e-17 rotateXyzAboutZ V3 pi V3 e-17",
           "hierarchy": "SpatialMath",
+          "indexed": "2014-03-11T20:07:53",
           "module": "SpatialMath",
           "name": "rotateXyzAboutZ",
           "normalized": "V a-\u003ea-\u003eV a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-app-static"
+        "phrase": "wai-app-static",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStatic file serving for WAI.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "Static",
           "package": "wai-app-static",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Static file serving for WAI",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "Static",
           "package": "wai-app-static",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the settings available to users for tweaking wai-app-static.\n\u003c/p\u003e\u003cp\u003eNote that you should use the settings type approach for modifying values.\n See \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "StaticSettings",
           "package": "wai-app-static",
@@ -51,6 +54,7 @@
         "index": {
           "description": "All of the settings available to users for tweaking wai-app-static Note that you should use the settings type approach for modifying values See http www.yesodweb.com book settings-types for more information",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "StaticSettings",
           "package": "wai-app-static",
@@ -144,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the mime type of the given file. Note that this function\n lives in \u003ccode\u003eIO\u003c/code\u003e in case you want to perform more complicated mimetype\n analysis, such as via the \u003ccode\u003efile\u003c/code\u003e utility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "ssGetMimeType",
           "package": "wai-app-static",
@@ -154,6 +159,7 @@
         "index": {
           "description": "Determine the mime type of the given file Note that this function lives in IO in case you want to perform more complicated mimetype analysis such as via the file utility",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "ssGetMimeType",
           "normalized": "StaticSettings-\u003eFile-\u003eIO MimeType",
@@ -170,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list of filenames to be used for indices. If the user\n requests a folder, and a file with the given name is found in that\n folder, that file is served. This supercedes any directory listing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "ssIndices",
           "package": "wai-app-static",
@@ -180,6 +187,7 @@
         "index": {
           "description": "Ordered list of filenames to be used for indices If the user requests folder and file with the given name is found in that folder that file is served This supercedes any directory listing",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "ssIndices",
           "normalized": "StaticSettings-\u003e[Piece]",
@@ -196,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to perform a directory listing. Optional. Will be used when the\n user requested a folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "ssListing",
           "package": "wai-app-static",
@@ -206,6 +215,7 @@
         "index": {
           "description": "How to perform directory listing Optional Will be used when the user requested folder",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "ssListing",
           "normalized": "StaticSettings-\u003eMaybe Listing",
@@ -222,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a single file or folder. This is how you can control storage\n backend (filesystem, embedded, etc) and where to lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "ssLookupFile",
           "package": "wai-app-static",
@@ -232,6 +243,7 @@
         "index": {
           "description": "Lookup single file or folder This is how you can control storage backend filesystem embedded etc and where to lookup",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "ssLookupFile",
           "normalized": "StaticSettings-\u003ePieces-\u003eIO LookupResult",
@@ -248,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue to provide for max age in the cache-control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "ssMaxAge",
           "package": "wai-app-static",
@@ -258,6 +271,7 @@
         "index": {
           "description": "Value to provide for max age in the cache-control",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "ssMaxAge",
           "normalized": "StaticSettings-\u003eMaxAge",
@@ -274,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a requested path and a new destination, construct a string\n that will go there. Default implementation will use relative paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "ssMkRedirect",
           "package": "wai-app-static",
@@ -284,6 +299,7 @@
         "index": {
           "description": "Given requested path and new destination construct string that will go there Default implementation will use relative paths",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "ssMkRedirect",
           "normalized": "StaticSettings-\u003ePieces-\u003eByteString-\u003eByteString",
@@ -300,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eTrue\u003c/code\u003e, send a redirect to the user when a folder is requested\n and an index page should be displayed. When \u003ccode\u003eFalse\u003c/code\u003e, display the\n content immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "ssRedirectToIndex",
           "package": "wai-app-static",
@@ -310,6 +327,7 @@
         "index": {
           "description": "If True send redirect to the user when folder is requested and an index page should be displayed When False display the content immediately",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "ssRedirectToIndex",
           "normalized": "StaticSettings-\u003eBool",
@@ -326,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a \u003ccode\u003eStaticSettings\u003c/code\u003e into a WAI application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "Network.Wai.Application.Static",
           "name": "staticApp",
           "package": "wai-app-static",
@@ -336,6 +355,7 @@
         "index": {
           "description": "Turn StaticSettings into WAI application",
           "hierarchy": "Network Wai Application Static",
+          "indexed": "2014-03-11T20:35:49",
           "module": "Network.Wai.Application.Static",
           "name": "staticApp",
           "normalized": "StaticSettings-\u003eApplication",
@@ -377,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Listing",
           "name": "Listing",
           "package": "wai-app-static",
@@ -385,6 +406,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Listing",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Listing",
           "name": "Listing",
           "package": "wai-app-static",
@@ -399,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a default directory listing, suitable for most apps.\n\u003c/p\u003e\u003cp\u003eCode below taken from Happstack: \u003ca\u003ehttp://patch-tag.com/r/mae/happstack/snapshot/current/content/pretty/happstack-server/src/Happstack/Server/FileServe/BuildingBlocks.hs\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Listing",
           "name": "defaultListing",
           "package": "wai-app-static",
@@ -409,6 +432,7 @@
         "index": {
           "description": "Provides default directory listing suitable for most apps Code below taken from Happstack http patch-tag.com mae happstack snapshot current content pretty happstack-server src Happstack Server FileServe BuildingBlocks.hs",
           "hierarchy": "WaiAppStatic Listing",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Listing",
           "name": "defaultListing",
           "package": "wai-app-static",
@@ -422,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "Embedded",
           "package": "wai-app-static",
@@ -430,6 +455,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Storage Embedded",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "Embedded",
           "package": "wai-app-static",
@@ -444,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed at compile time to hold data about an entry to embed into the compiled executable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "EmbeddableEntry",
           "package": "wai-app-static",
@@ -453,6 +480,7 @@
         "index": {
           "description": "Used at compile time to hold data about an entry to embed into the compiled executable",
           "hierarchy": "WaiAppStatic Storage Embedded",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "EmbeddableEntry",
           "package": "wai-app-static",
@@ -467,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Etag is used to return 304 Not Modified responses so the client does not need\n   to download resources a second time.  Usually the etag is built from a hash of\n   the content.  To disable Etags, you can pass the empty string.  This will cause the\n   content to be redownloaded on every request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "Etag",
           "package": "wai-app-static",
@@ -476,6 +505,7 @@
         "index": {
           "description": "An Etag is used to return Not Modified responses so the client does not need to download resources second time Usually the etag is built from hash of the content To disable Etags you can pass the empty string This will cause the content to be redownloaded on every request",
           "hierarchy": "WaiAppStatic Storage Embedded",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "Etag",
           "package": "wai-app-static",
@@ -489,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "EmbeddableEntry",
           "package": "wai-app-static",
@@ -498,6 +529,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Storage Embedded",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "EmbeddableEntry",
           "package": "wai-app-static",
@@ -512,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe content itself.  The content can be given as a tag and bytestring,\n   in which case the content will be embedded directly into the execuatble.\n   Alternatively, the content can be given as a template haskell expression\n   returning \u003ccode\u003eIO (\u003ccode\u003e\u003ca\u003eEtag\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e in which case this action will\n   be executed on every request to reload the content (this is useful\n   for a debugging mode).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "eContent",
           "package": "wai-app-static",
@@ -522,6 +555,7 @@
         "index": {
           "description": "The content itself The content can be given as tag and bytestring in which case the content will be embedded directly into the execuatble Alternatively the content can be given as template haskell expression returning IO Etag ByteString in which case this action will be executed on every request to reload the content this is useful for debugging mode",
           "hierarchy": "WaiAppStatic Storage Embedded",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "eContent",
           "normalized": "Either(Etag,ByteString)ExpQ",
@@ -538,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe location where this resource should be served from.  The\n   location can contain forward slashes (/) to simulate directories,\n   but must not end with a forward slash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "eLocation",
           "package": "wai-app-static",
@@ -548,6 +583,7 @@
         "index": {
           "description": "The location where this resource should be served from The location can contain forward slashes to simulate directories but must not end with forward slash",
           "hierarchy": "WaiAppStatic Storage Embedded",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "eLocation",
           "package": "wai-app-static",
@@ -562,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mime type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "eMimeType",
           "package": "wai-app-static",
@@ -572,6 +609,7 @@
         "index": {
           "description": "The mime type",
           "hierarchy": "WaiAppStatic Storage Embedded",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "eMimeType",
           "package": "wai-app-static",
@@ -586,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eStaticSettings\u003c/a\u003e\u003c/code\u003e at compile time that embeds resources directly into the compiled\n   executable.  The embedded resources are precompressed (depending on mime type)\n   so that during runtime the resource can be served very quickly.\n\u003c/p\u003e\u003cp\u003eBecause of GHC Template Haskell stage restrictions, you must define\n   the entries in a different module than where you create the \u003ccode\u003e\u003ca\u003eStaticSettings\u003c/a\u003e\u003c/code\u003e.\n   For example,\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell, QuasiQuotes, OverloadedStrings #-}\n module A (mkEmbedded) where\n \n import WaiAppStatic.Storage.Embedded\n import Crypto.Hash.MD5 (hashlazy)\n import qualified Data.ByteString.Lazy as BL\n import qualified Data.ByteString.Base64 as B64\n import qualified Data.Text as T\n import qualified Data.Text.Encoding as T\n \n hash :: BL.ByteString -\u003e T.Text\n hash = T.take 8 . T.decodeUtf8 . B64.encode . hashlazy\n \n mkEmbedded :: IO [EmbeddableEntry]\n mkEmbedded = do\n     file \u003c- BL.readFile \"test.css\"\n     let emb = EmbeddableEntry {\n                   eLocation = \"somedir/test.css\"\n                 , eMimeType = \"text/css\"\n                 , eContent  = Left (hash file, file)\n                 }\n \n     let reload = EmbeddableEntry {\n                      eLocation = \"anotherdir/test2.txt\"\n                    , eMimeType = \"text/plain\"\n                    , eContent  = Right [| BL.readFile \"test2.txt\" \u003e\u003e= \\c -\u003e return (hash c, c) |]\n                    }\n \n     return [emb, reload]\n\u003c/pre\u003e\u003cp\u003eThe above \u003ccode\u003emkEmbedded\u003c/code\u003e will be executed at compile time.  It loads the contents of test.css and\n computes the hash of test.css for the etag.  The content will be available at the URL somedir/test.css.\n Internally, \u003ccode\u003eembedApp\u003c/code\u003e below will attempt to compress the content at compile time. The compression will\n only happen if the compressed content is shorter than the original and the mime type is either text or\n javascript.  If the content is compressed, at runtime the precomputed compressed content will be served\n with the appropriate HTTP header. If \u003ccode\u003eembedApp\u003c/code\u003e decides not to compress the content, it will be\n served directly.\n\u003c/p\u003e\u003cp\u003eSecondly, \u003ccode\u003emkEmbedded\u003c/code\u003e creates a reloadable entry.  This will be available at the URL anotherdir/test2.txt.\n Whenver a request comes in for anotherdir/test2.txt, the action inside the quasiquote in eContent will\n be executed.  This will re-read the test2.txt file and recompute its hash.\n\u003c/p\u003e\u003cp\u003eFinally, here is a module which uses the above action to create a \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell #-}\n module B where\n \n import A\n import Network.Wai (Application)\n import Network.Wai.Application.Static (staticApp)\n import WaiAppStatic.Storage.Embedded\n import Network.Wai.Handler.Warp (run)\n \n myApp :: Application\n myApp = staticApp $(mkSettings mkEmbedded)\n \n main :: IO ()\n main = run 3000 myApp\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "mkSettings",
           "package": "wai-app-static",
@@ -596,6 +635,7 @@
         "index": {
           "description": "Create StaticSettings at compile time that embeds resources directly into the compiled executable The embedded resources are precompressed depending on mime type so that during runtime the resource can be served very quickly Because of GHC Template Haskell stage restrictions you must define the entries in different module than where you create the StaticSettings For example LANGUAGE TemplateHaskell QuasiQuotes OverloadedStrings module mkEmbedded where import WaiAppStatic.Storage.Embedded import Crypto.Hash.MD5 hashlazy import qualified Data.ByteString.Lazy as BL import qualified Data.ByteString.Base64 as B64 import qualified Data.Text as import qualified Data.Text.Encoding as hash BL.ByteString T.Text hash T.take T.decodeUtf8 B64.encode hashlazy mkEmbedded IO EmbeddableEntry mkEmbedded do file BL.readFile test.css let emb EmbeddableEntry eLocation somedir test.css eMimeType text css eContent Left hash file file let reload EmbeddableEntry eLocation anotherdir test2.txt eMimeType text plain eContent Right BL.readFile test2.txt return hash return emb reload The above mkEmbedded will be executed at compile time It loads the contents of test.css and computes the hash of test.css for the etag The content will be available at the URL somedir test.css Internally embedApp below will attempt to compress the content at compile time The compression will only happen if the compressed content is shorter than the original and the mime type is either text or javascript If the content is compressed at runtime the precomputed compressed content will be served with the appropriate HTTP header If embedApp decides not to compress the content it will be served directly Secondly mkEmbedded creates reloadable entry This will be available at the URL anotherdir test2.txt Whenver request comes in for anotherdir test2.txt the action inside the quasiquote in eContent will be executed This will re-read the test2.txt file and recompute its hash Finally here is module which uses the above action to create Application LANGUAGE TemplateHaskell module where import import Network.Wai Application import Network.Wai.Application.Static staticApp import WaiAppStatic.Storage.Embedded import Network.Wai.Handler.Warp run myApp Application myApp staticApp mkSettings mkEmbedded main IO main run myApp",
           "hierarchy": "WaiAppStatic Storage Embedded",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Embedded",
           "name": "mkSettings",
           "normalized": "IO[EmbeddableEntry]-\u003eExpQ",
@@ -612,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess files on the filesystem.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Filesystem",
           "name": "Filesystem",
           "package": "wai-app-static",
@@ -621,6 +662,7 @@
         "index": {
           "description": "Access files on the filesystem",
           "hierarchy": "WaiAppStatic Storage Filesystem",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Filesystem",
           "name": "Filesystem",
           "package": "wai-app-static",
@@ -635,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to calculate etags. Can perform filesystem reads on each call, or use\n some caching mechanism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Storage.Filesystem",
           "name": "ETagLookup",
           "package": "wai-app-static",
@@ -644,6 +687,7 @@
         "index": {
           "description": "How to calculate etags Can perform filesystem reads on each call or use some caching mechanism",
           "hierarchy": "WaiAppStatic Storage Filesystem",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Storage.Filesystem",
           "name": "ETagLookup",
           "package": "wai-app-static",
@@ -657,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "Types",
           "package": "wai-app-static",
@@ -665,6 +710,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "Types",
           "package": "wai-app-static",
@@ -679,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on an individual file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "File",
           "package": "wai-app-static",
@@ -688,6 +735,7 @@
         "index": {
           "description": "Information on an individual file",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "File",
           "package": "wai-app-static",
@@ -702,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent contents of a single folder, which can be itself either a file\n or a folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "Folder",
           "package": "wai-app-static",
@@ -711,6 +760,7 @@
         "index": {
           "description": "Represent contents of single folder which can be itself either file or folder",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "Folder",
           "package": "wai-app-static",
@@ -725,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust the name of a folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "FolderName",
           "package": "wai-app-static",
@@ -734,6 +785,7 @@
         "index": {
           "description": "Just the name of folder",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "FolderName",
           "package": "wai-app-static",
@@ -748,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to construct a directory listing page for the given request path and\n the resulting folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "Listing",
           "package": "wai-app-static",
@@ -757,6 +810,7 @@
         "index": {
           "description": "How to construct directory listing page for the given request path and the resulting folder",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "Listing",
           "package": "wai-app-static",
@@ -771,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of looking up a file in some storage backend.\n\u003c/p\u003e\u003cp\u003eThe lookup is either a file or folder, or does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "LookupResult",
           "package": "wai-app-static",
@@ -780,6 +835,7 @@
         "index": {
           "description": "Result of looking up file in some storage backend The lookup is either file or folder or does not exist",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "LookupResult",
           "package": "wai-app-static",
@@ -794,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for the max-age component of the cache-control response header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "MaxAge",
           "package": "wai-app-static",
@@ -803,6 +860,7 @@
         "index": {
           "description": "Values for the max-age component of the cache-control response header",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "MaxAge",
           "package": "wai-app-static",
@@ -817,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn individual component of a path, or of a filepath.\n\u003c/p\u003e\u003cp\u003eThis is the core type used by wai-app-static for doing lookups. It provides\n a smart constructor to avoid the possibility of constructing unsafe path\n segments (though \u003ccode\u003eunsafeToPiece\u003c/code\u003e can get around that as necessary).\n\u003c/p\u003e\u003cp\u003eIndividual file lookup backends must know how to convert from a \u003ccode\u003ePiece\u003c/code\u003e to\n their storage system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "Piece",
           "package": "wai-app-static",
@@ -826,6 +885,7 @@
         "index": {
           "description": "An individual component of path or of filepath This is the core type used by wai-app-static for doing lookups It provides smart constructor to avoid the possibility of constructing unsafe path segments though unsafeToPiece can get around that as necessary Individual file lookup backends must know how to convert from Piece to their storage system",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "Piece",
           "package": "wai-app-static",
@@ -840,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest coming from a user. Corresponds to \u003ccode\u003epathInfo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "Pieces",
           "package": "wai-app-static",
@@ -849,6 +910,7 @@
         "index": {
           "description": "Request coming from user Corresponds to pathInfo",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "Pieces",
           "package": "wai-app-static",
@@ -863,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the settings available to users for tweaking wai-app-static.\n\u003c/p\u003e\u003cp\u003eNote that you should use the settings type approach for modifying values.\n See \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "StaticSettings",
           "package": "wai-app-static",
@@ -872,6 +935,7 @@
         "index": {
           "description": "All of the settings available to users for tweaking wai-app-static Note that you should use the settings type approach for modifying values See http www.yesodweb.com book settings-types for more information",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "StaticSettings",
           "package": "wai-app-static",
@@ -885,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "File",
           "package": "wai-app-static",
@@ -894,6 +959,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "File",
           "package": "wai-app-static",
@@ -907,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "Folder",
           "package": "wai-app-static",
@@ -916,6 +983,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "Folder",
           "package": "wai-app-static",
@@ -929,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "LRFile",
           "package": "wai-app-static",
@@ -938,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "LRFile",
           "package": "wai-app-static",
@@ -951,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "LRFolder",
           "package": "wai-app-static",
@@ -960,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "LRFolder",
           "package": "wai-app-static",
@@ -973,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "LRNotFound",
           "package": "wai-app-static",
@@ -982,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "LRNotFound",
           "package": "wai-app-static",
@@ -996,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eessentially infinite caching; in reality, probably one year\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "MaxAgeForever",
           "package": "wai-app-static",
@@ -1006,6 +1081,7 @@
         "index": {
           "description": "essentially infinite caching in reality probably one year",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "MaxAgeForever",
           "package": "wai-app-static",
@@ -1020,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset to the given number of seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "MaxAgeSeconds",
           "package": "wai-app-static",
@@ -1030,6 +1107,7 @@
         "index": {
           "description": "set to the given number of seconds",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "MaxAgeSeconds",
           "package": "wai-app-static",
@@ -1044,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno cache-control set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "NoMaxAge",
           "package": "wai-app-static",
@@ -1054,6 +1133,7 @@
         "index": {
           "description": "no cache-control set",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "NoMaxAge",
           "package": "wai-app-static",
@@ -1067,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "StaticSettings",
           "package": "wai-app-static",
@@ -1076,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "StaticSettings",
           "package": "wai-app-static",
@@ -1090,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a hash of the contents of this file, such as for etag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "fileGetHash",
           "package": "wai-app-static",
@@ -1100,6 +1183,7 @@
         "index": {
           "description": "Calculate hash of the contents of this file such as for etag",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "fileGetHash",
           "package": "wai-app-static",
@@ -1114,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast modified time, used for both display in listings and if-modified-since.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "fileGetModified",
           "package": "wai-app-static",
@@ -1124,6 +1209,7 @@
         "index": {
           "description": "Last modified time used for both display in listings and if-modified-since",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "fileGetModified",
           "package": "wai-app-static",
@@ -1138,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of file in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "fileGetSize",
           "package": "wai-app-static",
@@ -1148,6 +1235,7 @@
         "index": {
           "description": "Size of file in bytes",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "fileGetSize",
           "package": "wai-app-static",
@@ -1162,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast component of the filename.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "fileName",
           "package": "wai-app-static",
@@ -1172,6 +1261,7 @@
         "index": {
           "description": "Last component of the filename",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "fileName",
           "package": "wai-app-static",
@@ -1186,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to construct a WAI response for this file. Some files are stored\n on the filesystem and can use \u003ccode\u003eResponseFile\u003c/code\u003e, while others are stored\n in memory and should use \u003ccode\u003eResponseBuilder\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "fileToResponse",
           "package": "wai-app-static",
@@ -1196,6 +1287,7 @@
         "index": {
           "description": "How to construct WAI response for this file Some files are stored on the filesystem and can use ResponseFile while others are stored in memory and should use ResponseBuilder",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "fileToResponse",
           "normalized": "Status-\u003eResponseHeaders-\u003eResponse",
@@ -1211,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "folderContents",
           "package": "wai-app-static",
@@ -1220,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "folderContents",
           "normalized": "[Either FolderName File]",
@@ -1235,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "fromPiece",
           "package": "wai-app-static",
@@ -1244,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "fromPiece",
           "normalized": "Piece-\u003eText",
@@ -1260,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the mime type of the given file. Note that this function\n lives in \u003ccode\u003eIO\u003c/code\u003e in case you want to perform more complicated mimetype\n analysis, such as via the \u003ccode\u003efile\u003c/code\u003e utility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "ssGetMimeType",
           "package": "wai-app-static",
@@ -1270,6 +1367,7 @@
         "index": {
           "description": "Determine the mime type of the given file Note that this function lives in IO in case you want to perform more complicated mimetype analysis such as via the file utility",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "ssGetMimeType",
           "normalized": "File-\u003eIO MimeType",
@@ -1286,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list of filenames to be used for indices. If the user\n requests a folder, and a file with the given name is found in that\n folder, that file is served. This supercedes any directory listing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "ssIndices",
           "package": "wai-app-static",
@@ -1296,6 +1395,7 @@
         "index": {
           "description": "Ordered list of filenames to be used for indices If the user requests folder and file with the given name is found in that folder that file is served This supercedes any directory listing",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "ssIndices",
           "normalized": "[Piece]",
@@ -1312,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to perform a directory listing. Optional. Will be used when the\n user requested a folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "ssListing",
           "package": "wai-app-static",
@@ -1322,6 +1423,7 @@
         "index": {
           "description": "How to perform directory listing Optional Will be used when the user requested folder",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "ssListing",
           "package": "wai-app-static",
@@ -1336,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a single file or folder. This is how you can control storage\n backend (filesystem, embedded, etc) and where to lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "ssLookupFile",
           "package": "wai-app-static",
@@ -1346,6 +1449,7 @@
         "index": {
           "description": "Lookup single file or folder This is how you can control storage backend filesystem embedded etc and where to lookup",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "ssLookupFile",
           "normalized": "Pieces-\u003eIO LookupResult",
@@ -1362,6 +1466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue to provide for max age in the cache-control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "ssMaxAge",
           "package": "wai-app-static",
@@ -1372,6 +1477,7 @@
         "index": {
           "description": "Value to provide for max age in the cache-control",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "ssMaxAge",
           "package": "wai-app-static",
@@ -1386,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a requested path and a new destination, construct a string\n that will go there. Default implementation will use relative paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "ssMkRedirect",
           "package": "wai-app-static",
@@ -1396,6 +1503,7 @@
         "index": {
           "description": "Given requested path and new destination construct string that will go there Default implementation will use relative paths",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "ssMkRedirect",
           "normalized": "Pieces-\u003eByteString-\u003eByteString",
@@ -1412,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eTrue\u003c/code\u003e, send a redirect to the user when a folder is requested\n and an index page should be displayed. When \u003ccode\u003eFalse\u003c/code\u003e, display the\n content immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "ssRedirectToIndex",
           "package": "wai-app-static",
@@ -1422,6 +1531,7 @@
         "index": {
           "description": "If True send redirect to the user when folder is requested and an index page should be displayed When False display the content immediately",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "ssRedirectToIndex",
           "package": "wai-app-static",
@@ -1436,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefer usage of etag caching to last-modified caching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "ssUseHash",
           "package": "wai-app-static",
@@ -1446,6 +1557,7 @@
         "index": {
           "description": "Prefer usage of etag caching to last-modified caching",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "ssUseHash",
           "package": "wai-app-static",
@@ -1460,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for a \u003ccode\u003ePiece\u003c/code\u003e. Won't allow unsafe components, such as\n pieces beginning with a period or containing a slash. This \u003cem\u003ewill\u003c/em\u003e, however,\n allow null pieces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "toPiece",
           "package": "wai-app-static",
@@ -1470,6 +1583,7 @@
         "index": {
           "description": "Smart constructor for Piece Won allow unsafe components such as pieces beginning with period or containing slash This will however allow null pieces",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "toPiece",
           "normalized": "Text-\u003eMaybe Piece",
@@ -1486,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003etoPiece\u003c/code\u003e on a list.\n\u003c/p\u003e\u003cpre\u003e toPieces = mapM toPiece\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "toPieces",
           "package": "wai-app-static",
@@ -1496,6 +1611,7 @@
         "index": {
           "description": "Call toPiece on list toPieces mapM toPiece",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "toPieces",
           "normalized": "[Text]-\u003eMaybe Pieces",
@@ -1512,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003ePiece\u003c/code\u003e without input validation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:49 UTC 2014",
           "module": "WaiAppStatic.Types",
           "name": "unsafeToPiece",
           "package": "wai-app-static",
@@ -1522,6 +1639,7 @@
         "index": {
           "description": "Construct Piece without input validation",
           "hierarchy": "WaiAppStatic Types",
+          "indexed": "2014-03-11T20:35:49",
           "module": "WaiAppStatic.Types",
           "name": "unsafeToPiece",
           "normalized": "Text-\u003ePiece",

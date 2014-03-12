@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "path-pieces"
+        "phrase": "path-pieces",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "PathPieces",
           "package": "path-pieces",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "PathPieces",
           "package": "path-pieces",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "PathMultiPiece",
           "package": "path-pieces",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "PathMultiPiece",
           "package": "path-pieces",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "PathPiece",
           "package": "path-pieces",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "PathPiece",
           "package": "path-pieces",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use fromPathMultiPiece instead of fromMultiPiece\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "fromMultiPiece",
           "package": "path-pieces",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Deprecated Use fromPathMultiPiece instead of fromMultiPiece",
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "fromMultiPiece",
           "normalized": "[Text]-\u003eMaybe a",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "fromPathMultiPiece",
           "package": "path-pieces",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "fromPathMultiPiece",
           "normalized": "[Text]-\u003eMaybe a",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "fromPathPiece",
           "package": "path-pieces",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "fromPathPiece",
           "normalized": "Text-\u003eMaybe a",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use fromPathPiece instead of fromSinglePiece\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "fromSinglePiece",
           "package": "path-pieces",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Deprecated Use fromPathPiece instead of fromSinglePiece",
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "fromSinglePiece",
           "normalized": "Text-\u003eMaybe a",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use toPathMultiPiece instead of toMultiPiece\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "toMultiPiece",
           "package": "path-pieces",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Deprecated Use toPathMultiPiece instead of toMultiPiece",
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "toMultiPiece",
           "normalized": "a-\u003e[Text]",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "toPathMultiPiece",
           "package": "path-pieces",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "toPathMultiPiece",
           "normalized": "a-\u003e[Text]",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "toPathPiece",
           "package": "path-pieces",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "toPathPiece",
           "normalized": "a-\u003eText",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use toPathPiece instead of toSinglePiece\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:51 UTC 2014",
           "module": "Web.PathPieces",
           "name": "toSinglePiece",
           "package": "path-pieces",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Deprecated Use toPathPiece instead of toSinglePiece",
           "hierarchy": "Web PathPieces",
+          "indexed": "2014-03-11T19:35:51",
           "module": "Web.PathPieces",
           "name": "toSinglePiece",
           "normalized": "a-\u003eText",

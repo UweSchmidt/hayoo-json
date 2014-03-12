@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "liquidhaskell"
+        "phrase": "liquidhaskell",
+        "type": "phrase"
       },
       "type": "context"
     }

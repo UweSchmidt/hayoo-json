@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CSPM-FiringRules"
+        "phrase": "CSPM-FiringRules",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBrute-force computation of all possible transitions of a process.\n Enumerates all events in \u003ccode\u003e\u003ca\u003eSigma\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "EnumerateEvents",
           "package": "CSPM-FiringRules",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Brute-force computation of all possible transitions of process Enumerates all events in Sigma",
           "hierarchy": "CSPM FiringRules EnumerateEvents",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "EnumerateEvents",
           "package": "CSPM-FiringRules",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute all possible transitions (via an event from Sigma) for a process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "computeTransitions",
           "package": "CSPM-FiringRules",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Compute all possible transitions via an event from Sigma for process",
           "hierarchy": "CSPM FiringRules EnumerateEvents",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "computeTransitions",
           "normalized": "Sigma a-\u003eProcess a-\u003eSearch(Rule a)",
@@ -67,6 +71,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "eventTransitions",
           "package": "CSPM-FiringRules",
@@ -76,6 +81,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules EnumerateEvents",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "eventTransitions",
           "normalized": "Sigma a-\u003eProcess a-\u003eSearch(RuleEvent a)",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "tauTransitions",
           "package": "CSPM-FiringRules",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules EnumerateEvents",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "tauTransitions",
           "normalized": "Process a-\u003eSearch(RuleTau a)",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "tickTransitions",
           "package": "CSPM-FiringRules",
@@ -124,6 +133,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules EnumerateEvents",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEvents",
           "name": "tickTransitions",
           "normalized": "Process a-\u003eSearch(RuleTick a)",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReexport of the functions from EnumerateEvents with a List interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "EnumerateEventsList",
           "package": "CSPM-FiringRules",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Reexport of the functions from EnumerateEvents with List interface",
           "hierarchy": "CSPM FiringRules EnumerateEventsList",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "EnumerateEventsList",
           "package": "CSPM-FiringRules",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute all possible transitions (via an event from Sigma) for a Process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "computeTransitions",
           "package": "CSPM-FiringRules",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Compute all possible transitions via an event from Sigma for Process",
           "hierarchy": "CSPM FiringRules EnumerateEventsList",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "computeTransitions",
           "normalized": "Sigma a-\u003eProcess a-\u003e[Rule a]",
@@ -188,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "eventTransitions",
           "package": "CSPM-FiringRules",
@@ -197,6 +212,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules EnumerateEventsList",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "eventTransitions",
           "normalized": "Sigma a-\u003eProcess a-\u003e[RuleEvent a]",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "tauTransitions",
           "package": "CSPM-FiringRules",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules EnumerateEventsList",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "tauTransitions",
           "normalized": "Process a-\u003e[RuleTau a]",
@@ -236,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "tickTransitions",
           "package": "CSPM-FiringRules",
@@ -245,6 +264,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules EnumerateEventsList",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.EnumerateEventsList",
           "name": "tickTransitions",
           "normalized": "Process a-\u003e[RuleTick a]",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReexport of the functions from FieldConstraintsSearch with a List interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "FieldConstraints",
           "package": "CSPM-FiringRules",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Reexport of the functions from FieldConstraintsSearch with List interface",
           "hierarchy": "CSPM FiringRules FieldConstraints",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "FieldConstraints",
           "package": "CSPM-FiringRules",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute all possible transitions of the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "computeTransitions",
           "package": "CSPM-FiringRules",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Compute all possible transitions of the process",
           "hierarchy": "CSPM FiringRules FieldConstraints",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "computeTransitions",
           "normalized": "Sigma a-\u003eProcess a-\u003e[Rule a]",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute all (event)- transitions of the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "eventTransitions",
           "package": "CSPM-FiringRules",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Compute all event transitions of the process",
           "hierarchy": "CSPM FiringRules FieldConstraints",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "eventTransitions",
           "normalized": "Sigma a-\u003eProcess a-\u003e[RuleEvent a]",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute all tau-transitions of the process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "tauTransitions",
           "package": "CSPM-FiringRules",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Compute all tau-transitions of the process",
           "hierarchy": "CSPM FiringRules FieldConstraints",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "tauTransitions",
           "normalized": "Process a-\u003e[RuleTau a]",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute all tick-transitions of the process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "tickTransitions",
           "package": "CSPM-FiringRules",
@@ -372,6 +401,7 @@
         "index": {
           "description": "Compute all tick-transitions of the process",
           "hierarchy": "CSPM FiringRules FieldConstraints",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraints",
           "name": "tickTransitions",
           "normalized": "Process a-\u003e[RuleTick a]",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eField-wise generation of transitions.\n Uses some kind of abstract interpretation/constraint propagation to avoid\n enumeration of \u003ccode\u003eSigma\u003c/code\u003e in some cases.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "FieldConstraintsSearch",
           "package": "CSPM-FiringRules",
@@ -397,6 +428,7 @@
         "index": {
           "description": "Field-wise generation of transitions Uses some kind of abstract interpretation constraint propagation to avoid enumeration of Sigma in some cases",
           "hierarchy": "CSPM FiringRules FieldConstraintsSearch",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "FieldConstraintsSearch",
           "package": "CSPM-FiringRules",
@@ -410,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "computeTransitions",
           "package": "CSPM-FiringRules",
@@ -419,6 +452,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules FieldConstraintsSearch",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "computeTransitions",
           "normalized": "Sigma a-\u003eProcess a-\u003eSearch(Rule a)",
@@ -434,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "eventTransitions",
           "package": "CSPM-FiringRules",
@@ -443,6 +478,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules FieldConstraintsSearch",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "eventTransitions",
           "normalized": "EventSet a-\u003eProcess a-\u003eSearch(RuleEvent a)",
@@ -458,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "tauTransitions",
           "package": "CSPM-FiringRules",
@@ -467,6 +504,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules FieldConstraintsSearch",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "tauTransitions",
           "normalized": "Process a-\u003eSearch(RuleTau a)",
@@ -482,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "tickTransitions",
           "package": "CSPM-FiringRules",
@@ -491,6 +530,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules FieldConstraintsSearch",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.FieldConstraintsSearch",
           "name": "tickTransitions",
           "normalized": "Process a-\u003eSearch(RuleTick a)",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome helper classes.\n (Might be deleted or moved somewhere else some time.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "HelperClasses",
           "package": "CSPM-FiringRules",
@@ -516,6 +557,7 @@
         "index": {
           "description": "Some helper classes Might be deleted or moved somewhere else some time",
           "hierarchy": "CSPM FiringRules HelperClasses",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "HelperClasses",
           "package": "CSPM-FiringRules",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCSP1\u003c/a\u003e\u003c/code\u003e means that implementation i supports the base language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "CSP1",
           "package": "CSPM-FiringRules",
@@ -539,6 +582,7 @@
         "index": {
           "description": "CSP1 means that implementation supports the base language",
           "hierarchy": "CSPM FiringRules HelperClasses",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "CSP1",
           "package": "CSPM-FiringRules",
@@ -553,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCSP2\u003c/a\u003e\u003c/code\u003e means that implementation i supports the base language and multi-field events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "CSP2",
           "package": "CSPM-FiringRules",
@@ -562,6 +607,7 @@
         "index": {
           "description": "CSP2 means that implementation supports the base language and multi-field events",
           "hierarchy": "CSPM FiringRules HelperClasses",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "CSP2",
           "package": "CSPM-FiringRules",
@@ -576,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation i supports \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "EqOrd",
           "package": "CSPM-FiringRules",
@@ -585,6 +632,7 @@
         "index": {
           "description": "Implementation supports Eq and Ord",
           "hierarchy": "CSPM FiringRules HelperClasses",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "EqOrd",
           "package": "CSPM-FiringRules",
@@ -599,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation i supports \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "FShow",
           "package": "CSPM-FiringRules",
@@ -608,6 +657,7 @@
         "index": {
           "description": "Implementation supports Show",
           "hierarchy": "CSPM FiringRules HelperClasses",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.HelperClasses",
           "name": "FShow",
           "package": "CSPM-FiringRules",
@@ -622,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines data types for (CSP) proof trees.\n A proof tree shows that a particular transition is valid\n with respect to the firing rules semantics.\n\u003c/p\u003e\u003cp\u003e(For more info on the firing rule semantics \n see: The Theory and Practice of Concurrency A.W. Roscoe 1999.)\n\u003c/p\u003e\u003cp\u003eWe use three separate data types:\n \u003ccode\u003e\u003ca\u003eRuleTau\u003c/a\u003e\u003c/code\u003e stores a proof tree for a tau rule,\n \u003ccode\u003e\u003ca\u003eRuleTick\u003c/a\u003e\u003c/code\u003e stores a proof tree for a tick rule and\n \u003ccode\u003e\u003ca\u003eRuleEvent\u003c/a\u003e\u003c/code\u003e stores a proof tree for an event from Sigma.\n\u003c/p\u003e\u003cp\u003eThere is a one-to-one correspondence between\n each constructor of the data types \u003ccode\u003e\u003ca\u003eRuleTau\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRuleTick\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRuleEvent\u003c/a\u003e\u003c/code\u003e\n and one fireing rule.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "Rules",
           "package": "CSPM-FiringRules",
@@ -631,6 +682,7 @@
         "index": {
           "description": "This module defines data types for CSP proof trees proof tree shows that particular transition is valid with respect to the firing rules semantics For more info on the firing rule semantics see The Theory and Practice of Concurrency A.W Roscoe We use three separate data types RuleTau stores proof tree for tau rule RuleTick stores proof tree for tick rule and RuleEvent stores proof tree for an event from Sigma There is one-to-one correspondence between each constructor of the data types RuleTau RuleTick RuleEvent and one fireing rule",
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "Rules",
           "package": "CSPM-FiringRules",
@@ -644,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "EventRepAPart",
           "package": "CSPM-FiringRules",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "EventRepAPart",
           "package": "CSPM-FiringRules",
@@ -666,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sum-type for tau, tick and regular proof trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "Rule",
           "package": "CSPM-FiringRules",
@@ -675,6 +730,7 @@
         "index": {
           "description": "sum-type for tau tick and regular proof trees",
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "Rule",
           "package": "CSPM-FiringRules",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of regular proof trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "RuleEvent",
           "package": "CSPM-FiringRules",
@@ -698,6 +755,7 @@
         "index": {
           "description": "Representation of regular proof trees",
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "RuleEvent",
           "package": "CSPM-FiringRules",
@@ -712,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of tau proof trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "RuleTau",
           "package": "CSPM-FiringRules",
@@ -721,6 +780,7 @@
         "index": {
           "description": "Representation of tau proof trees",
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "RuleTau",
           "package": "CSPM-FiringRules",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of tick proof trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "RuleTick",
           "package": "CSPM-FiringRules",
@@ -744,6 +805,7 @@
         "index": {
           "description": "Representation of tick proof trees",
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "RuleTick",
           "package": "CSPM-FiringRules",
@@ -757,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelBoth",
           "package": "CSPM-FiringRules",
@@ -766,6 +829,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelBoth",
           "package": "CSPM-FiringRules",
@@ -779,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelL",
           "package": "CSPM-FiringRules",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelL",
           "package": "CSPM-FiringRules",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelOmega",
           "package": "CSPM-FiringRules",
@@ -810,6 +877,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelOmega",
           "package": "CSPM-FiringRules",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelR",
           "package": "CSPM-FiringRules",
@@ -832,6 +901,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelR",
           "package": "CSPM-FiringRules",
@@ -845,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelTauL",
           "package": "CSPM-FiringRules",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelTauL",
           "package": "CSPM-FiringRules",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelTauR",
           "package": "CSPM-FiringRules",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelTauR",
           "package": "CSPM-FiringRules",
@@ -889,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelTickL",
           "package": "CSPM-FiringRules",
@@ -898,6 +973,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelTickL",
           "package": "CSPM-FiringRules",
@@ -911,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelTickR",
           "package": "CSPM-FiringRules",
@@ -920,6 +997,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "AParallelTickR",
           "package": "CSPM-FiringRules",
@@ -933,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ChaosEvent",
           "package": "CSPM-FiringRules",
@@ -942,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ChaosEvent",
           "package": "CSPM-FiringRules",
@@ -955,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ChaosStop",
           "package": "CSPM-FiringRules",
@@ -964,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ChaosStop",
           "package": "CSPM-FiringRules",
@@ -977,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "EventRule",
           "package": "CSPM-FiringRules",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "EventRule",
           "package": "CSPM-FiringRules",
@@ -999,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExceptionOccurs",
           "package": "CSPM-FiringRules",
@@ -1008,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExceptionOccurs",
           "package": "CSPM-FiringRules",
@@ -1021,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExceptionTauL",
           "package": "CSPM-FiringRules",
@@ -1030,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExceptionTauL",
           "package": "CSPM-FiringRules",
@@ -1043,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExceptionTauR",
           "package": "CSPM-FiringRules",
@@ -1052,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExceptionTauR",
           "package": "CSPM-FiringRules",
@@ -1065,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceL",
           "package": "CSPM-FiringRules",
@@ -1074,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceL",
           "package": "CSPM-FiringRules",
@@ -1087,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceR",
           "package": "CSPM-FiringRules",
@@ -1096,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceR",
           "package": "CSPM-FiringRules",
@@ -1109,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceTauL",
           "package": "CSPM-FiringRules",
@@ -1118,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceTauL",
           "package": "CSPM-FiringRules",
@@ -1131,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceTauR",
           "package": "CSPM-FiringRules",
@@ -1140,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceTauR",
           "package": "CSPM-FiringRules",
@@ -1153,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceTickL",
           "package": "CSPM-FiringRules",
@@ -1162,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceTickL",
           "package": "CSPM-FiringRules",
@@ -1175,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceTickR",
           "package": "CSPM-FiringRules",
@@ -1184,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ExtChoiceTickR",
           "package": "CSPM-FiringRules",
@@ -1197,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "HPrefix",
           "package": "CSPM-FiringRules",
@@ -1206,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "HPrefix",
           "package": "CSPM-FiringRules",
@@ -1219,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "Hidden",
           "package": "CSPM-FiringRules",
@@ -1228,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "Hidden",
           "package": "CSPM-FiringRules",
@@ -1241,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "HiddenTick",
           "package": "CSPM-FiringRules",
@@ -1250,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "HiddenTick",
           "package": "CSPM-FiringRules",
@@ -1263,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "HideTau",
           "package": "CSPM-FiringRules",
@@ -1272,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "HideTau",
           "package": "CSPM-FiringRules",
@@ -1285,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveL",
           "package": "CSPM-FiringRules",
@@ -1294,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveL",
           "package": "CSPM-FiringRules",
@@ -1307,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveOmega",
           "package": "CSPM-FiringRules",
@@ -1316,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveOmega",
           "package": "CSPM-FiringRules",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveR",
           "package": "CSPM-FiringRules",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveR",
           "package": "CSPM-FiringRules",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveTauL",
           "package": "CSPM-FiringRules",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveTauL",
           "package": "CSPM-FiringRules",
@@ -1373,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveTauR",
           "package": "CSPM-FiringRules",
@@ -1382,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveTauR",
           "package": "CSPM-FiringRules",
@@ -1395,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveTickL",
           "package": "CSPM-FiringRules",
@@ -1404,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveTickL",
           "package": "CSPM-FiringRules",
@@ -1417,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveTickR",
           "package": "CSPM-FiringRules",
@@ -1426,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterleaveTickR",
           "package": "CSPM-FiringRules",
@@ -1439,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InternalChoiceL",
           "package": "CSPM-FiringRules",
@@ -1448,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InternalChoiceL",
           "package": "CSPM-FiringRules",
@@ -1461,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InternalChoiceR",
           "package": "CSPM-FiringRules",
@@ -1470,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InternalChoiceR",
           "package": "CSPM-FiringRules",
@@ -1483,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterruptOccurs",
           "package": "CSPM-FiringRules",
@@ -1492,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterruptOccurs",
           "package": "CSPM-FiringRules",
@@ -1505,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterruptTauL",
           "package": "CSPM-FiringRules",
@@ -1514,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterruptTauL",
           "package": "CSPM-FiringRules",
@@ -1527,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterruptTauR",
           "package": "CSPM-FiringRules",
@@ -1536,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterruptTauR",
           "package": "CSPM-FiringRules",
@@ -1549,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterruptTick",
           "package": "CSPM-FiringRules",
@@ -1558,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "InterruptTick",
           "package": "CSPM-FiringRules",
@@ -1571,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkEventL",
           "package": "CSPM-FiringRules",
@@ -1580,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkEventL",
           "package": "CSPM-FiringRules",
@@ -1593,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkEventR",
           "package": "CSPM-FiringRules",
@@ -1602,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkEventR",
           "package": "CSPM-FiringRules",
@@ -1615,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkLinked",
           "package": "CSPM-FiringRules",
@@ -1624,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkLinked",
           "package": "CSPM-FiringRules",
@@ -1637,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkParallelTick",
           "package": "CSPM-FiringRules",
@@ -1646,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkParallelTick",
           "package": "CSPM-FiringRules",
@@ -1659,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkTauL",
           "package": "CSPM-FiringRules",
@@ -1668,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkTauL",
           "package": "CSPM-FiringRules",
@@ -1681,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkTauR",
           "package": "CSPM-FiringRules",
@@ -1690,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkTauR",
           "package": "CSPM-FiringRules",
@@ -1703,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkTickL",
           "package": "CSPM-FiringRules",
@@ -1712,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkTickL",
           "package": "CSPM-FiringRules",
@@ -1725,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkTickR",
           "package": "CSPM-FiringRules",
@@ -1734,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "LinkTickR",
           "package": "CSPM-FiringRules",
@@ -1747,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "NoException",
           "package": "CSPM-FiringRules",
@@ -1756,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "NoException",
           "package": "CSPM-FiringRules",
@@ -1769,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "NoInterrupt",
           "package": "CSPM-FiringRules",
@@ -1778,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "NoInterrupt",
           "package": "CSPM-FiringRules",
@@ -1791,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "NotHidden",
           "package": "CSPM-FiringRules",
@@ -1800,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "NotHidden",
           "package": "CSPM-FiringRules",
@@ -1813,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "NotShareL",
           "package": "CSPM-FiringRules",
@@ -1822,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "NotShareL",
           "package": "CSPM-FiringRules",
@@ -1835,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "NotShareR",
           "package": "CSPM-FiringRules",
@@ -1844,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "NotShareR",
           "package": "CSPM-FiringRules",
@@ -1857,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "Rename",
           "package": "CSPM-FiringRules",
@@ -1866,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "Rename",
           "package": "CSPM-FiringRules",
@@ -1879,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "RenameNotInDomain",
           "package": "CSPM-FiringRules",
@@ -1888,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "RenameNotInDomain",
           "package": "CSPM-FiringRules",
@@ -1901,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "RenamingTau",
           "package": "CSPM-FiringRules",
@@ -1910,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "RenamingTau",
           "package": "CSPM-FiringRules",
@@ -1923,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "RenamingTick",
           "package": "CSPM-FiringRules",
@@ -1932,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "RenamingTick",
           "package": "CSPM-FiringRules",
@@ -1945,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "RepAParallelEvent",
           "package": "CSPM-FiringRules",
@@ -1954,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "RepAParallelEvent",
           "normalized": "RepAParallelEvent[EventRepAPart a]",
@@ -1969,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "RepAParallelOmega",
           "package": "CSPM-FiringRules",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "RepAParallelOmega",
           "normalized": "RepAParallelOmega[EventSet a]",
@@ -1993,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "SeqNormal",
           "package": "CSPM-FiringRules",
@@ -2002,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "SeqNormal",
           "package": "CSPM-FiringRules",
@@ -2015,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "SeqTau",
           "package": "CSPM-FiringRules",
@@ -2024,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "SeqTau",
           "package": "CSPM-FiringRules",
@@ -2037,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "SeqTick",
           "package": "CSPM-FiringRules",
@@ -2046,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "SeqTick",
           "package": "CSPM-FiringRules",
@@ -2059,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareOmega",
           "package": "CSPM-FiringRules",
@@ -2068,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareOmega",
           "package": "CSPM-FiringRules",
@@ -2081,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareTauL",
           "package": "CSPM-FiringRules",
@@ -2090,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareTauL",
           "package": "CSPM-FiringRules",
@@ -2103,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareTauR",
           "package": "CSPM-FiringRules",
@@ -2112,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareTauR",
           "package": "CSPM-FiringRules",
@@ -2125,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareTickL",
           "package": "CSPM-FiringRules",
@@ -2134,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareTickL",
           "package": "CSPM-FiringRules",
@@ -2147,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareTickR",
           "package": "CSPM-FiringRules",
@@ -2156,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "ShareTickR",
           "package": "CSPM-FiringRules",
@@ -2169,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "Shared",
           "package": "CSPM-FiringRules",
@@ -2178,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "Shared",
           "package": "CSPM-FiringRules",
@@ -2191,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "SkipTick",
           "package": "CSPM-FiringRules",
@@ -2200,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "SkipTick",
           "package": "CSPM-FiringRules",
@@ -2213,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "TauRepAParallel",
           "package": "CSPM-FiringRules",
@@ -2222,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "TauRepAParallel",
           "normalized": "TauRepAParallel[Either(EventSet a,Process a)(EventSet a,RuleTau a)]",
@@ -2237,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "TauRule",
           "package": "CSPM-FiringRules",
@@ -2246,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "TauRule",
           "package": "CSPM-FiringRules",
@@ -2259,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "TickRule",
           "package": "CSPM-FiringRules",
@@ -2268,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "TickRule",
           "package": "CSPM-FiringRules",
@@ -2281,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "TimeoutNo",
           "package": "CSPM-FiringRules",
@@ -2290,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "TimeoutNo",
           "package": "CSPM-FiringRules",
@@ -2303,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "TimeoutOccurs",
           "package": "CSPM-FiringRules",
@@ -2312,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "TimeoutOccurs",
           "package": "CSPM-FiringRules",
@@ -2325,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "TimeoutTauR",
           "package": "CSPM-FiringRules",
@@ -2334,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "TimeoutTauR",
           "package": "CSPM-FiringRules",
@@ -2347,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "TimeoutTick",
           "package": "CSPM-FiringRules",
@@ -2356,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "TimeoutTick",
           "package": "CSPM-FiringRules",
@@ -2369,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "TraceSwitchOn",
           "package": "CSPM-FiringRules",
@@ -2378,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "TraceSwitchOn",
           "package": "CSPM-FiringRules",
@@ -2392,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this a proof tree for a tau-transition ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Rules",
           "name": "isTauRule",
           "package": "CSPM-FiringRules",
@@ -2402,6 +2613,7 @@
         "index": {
           "description": "Is this proof tree for tau-transition",
           "hierarchy": "CSPM FiringRules Rules",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Rules",
           "name": "isTauRule",
           "normalized": "Rule a-\u003eBool",
@@ -2418,6 +2630,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition of the Search Monad.\n Currently just a small wrapper around the tree-monad package\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Search",
           "name": "Search",
           "package": "CSPM-FiringRules",
@@ -2427,6 +2640,7 @@
         "index": {
           "description": "Definition of the Search Monad Currently just small wrapper around the tree-monad package",
           "hierarchy": "CSPM FiringRules Search",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Search",
           "name": "Search",
           "package": "CSPM-FiringRules",
@@ -2440,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Search",
           "name": "Search",
           "package": "CSPM-FiringRules",
@@ -2448,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "CSPM FiringRules Search",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Search",
           "name": "Search",
           "package": "CSPM-FiringRules",
@@ -2462,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a list to the search monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Search",
           "name": "anyOf",
           "package": "CSPM-FiringRules",
@@ -2472,6 +2689,7 @@
         "index": {
           "description": "Lift list to the search monad",
           "hierarchy": "CSPM FiringRules Search",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Search",
           "name": "anyOf",
           "normalized": "[a]-\u003eSearch a",
@@ -2488,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the search monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Search",
           "name": "runSearch",
           "package": "CSPM-FiringRules",
@@ -2498,6 +2717,7 @@
         "index": {
           "description": "Run the search monad",
           "hierarchy": "CSPM FiringRules Search",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Search",
           "name": "runSearch",
           "normalized": "Search a-\u003e[a]",
@@ -2514,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuickCheck tests for the proof tree generators in\n module CSPM.FiringRules.EnumerateEvents and\n CSPM.FiringRules.FieldConstraints.\n These QuickCheck properties check for soundness, completeness\n and that both proof tree generators yield the same result.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Test.Test",
           "name": "Test",
           "package": "CSPM-FiringRules",
@@ -2523,6 +2744,7 @@
         "index": {
           "description": "QuickCheck tests for the proof tree generators in module CSPM.FiringRules.EnumerateEvents and CSPM.FiringRules.FieldConstraints These QuickCheck properties check for soundness completeness and that both proof tree generators yield the same result",
           "hierarchy": "CSPM FiringRules Test Test",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Test.Test",
           "name": "Test",
           "package": "CSPM-FiringRules",
@@ -2537,6 +2759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a number of QuickCheck tests (with fixed seed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Test.Test",
           "name": "main",
           "package": "CSPM-FiringRules",
@@ -2547,6 +2770,7 @@
         "index": {
           "description": "Run number of QuickCheck tests with fixed seed",
           "hierarchy": "CSPM FiringRules Test Test",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Test.Test",
           "name": "main",
           "normalized": "IO()",
@@ -2562,6 +2786,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA very rudimentary process tracer for debugging and testing.\n Prints the current process and the possible transitions to stdout\n and lets the user select a transition by typing to stdin.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Trace",
           "name": "Trace",
           "package": "CSPM-FiringRules",
@@ -2571,6 +2796,7 @@
         "index": {
           "description": "very rudimentary process tracer for debugging and testing Prints the current process and the possible transitions to stdout and lets the user select transition by typing to stdin",
           "hierarchy": "CSPM FiringRules Trace",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Trace",
           "name": "Trace",
           "package": "CSPM-FiringRules",
@@ -2585,6 +2811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simplistic interactive CSP-M tracer.\n It prints all events offered by a Proccess to stdout and\n promts the user for the event to perform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Trace",
           "name": "trace",
           "package": "CSPM-FiringRules",
@@ -2595,6 +2822,7 @@
         "index": {
           "description": "simplistic interactive CSP-M tracer It prints all events offered by Proccess to stdout and promts the user for the event to perform",
           "hierarchy": "CSPM FiringRules Trace",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Trace",
           "name": "trace",
           "normalized": "Sigma a-\u003eProcess a-\u003eIO()",
@@ -2610,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA checker for the firing rules semantics of CSPM.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eviewRuleMaybe\u003c/a\u003e\u003c/code\u003e checks that a proof tree is valid\n with respect to the firing rules semantics of CSPM.\n It checks that the proof tree is syntactically valid\n and that all side conditions hold.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRule\u003c/a\u003e\u003c/code\u003e data type stores proof trees in a compressed form.\n \u003ccode\u003e\u003ca\u003eviewRuleMaybe\u003c/a\u003e\u003c/code\u003e constructs an explicit representation of the transition.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eviewRule\u003c/a\u003e\u003c/code\u003e calls \u003ccode\u003e\u003ca\u003eviewRuleMaybe\u003c/a\u003e\u003c/code\u003e and throws an exception if\n the proof tree was not valid.\n The proof tree generators in this package only generate valid proof trees.\n \u003ccode\u003e\u003ca\u003eviewRule\u003c/a\u003e\u003c/code\u003e is used to check that assertion.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "Verifier",
           "package": "CSPM-FiringRules",
@@ -2619,6 +2848,7 @@
         "index": {
           "description": "checker for the firing rules semantics of CSPM viewRuleMaybe checks that proof tree is valid with respect to the firing rules semantics of CSPM It checks that the proof tree is syntactically valid and that all side conditions hold The Rule data type stores proof trees in compressed form viewRuleMaybe constructs an explicit representation of the transition viewRule calls viewRuleMaybe and throws an exception if the proof tree was not valid The proof tree generators in this package only generate valid proof trees viewRule is used to check that assertion",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "Verifier",
           "package": "CSPM-FiringRules",
@@ -2633,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eviewRule\u003c/a\u003e\u003c/code\u003e but just return the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewEvent",
           "package": "CSPM-FiringRules",
@@ -2643,6 +2874,7 @@
         "index": {
           "description": "Like viewRule but just return the event",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewEvent",
           "normalized": "Rule a-\u003eTTE a",
@@ -2659,6 +2891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eviewRule\u003c/a\u003e\u003c/code\u003e but just return the successor process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewProcAfter",
           "package": "CSPM-FiringRules",
@@ -2669,6 +2902,7 @@
         "index": {
           "description": "Like viewRule but just return the successor process",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewProcAfter",
           "normalized": "Rule a-\u003eProcess a",
@@ -2685,6 +2919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eviewRule\u003c/a\u003e\u003c/code\u003e but just return the predecessor process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewProcBefore",
           "package": "CSPM-FiringRules",
@@ -2695,6 +2930,7 @@
         "index": {
           "description": "Like viewRule but just return the predecessor process",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewProcBefore",
           "normalized": "Rule a-\u003eProcess a",
@@ -2711,6 +2947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs an explict representation of the transition\n  from the proof tree of the transition.\n  The transition as a triple\n  (predecessor \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e, Event, successor \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e).\n  If the proof tree is invalid it throws an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRule",
           "package": "CSPM-FiringRules",
@@ -2721,6 +2958,7 @@
         "index": {
           "description": "This function constructs an explict representation of the transition from the proof tree of the transition The transition as triple predecessor Process Event successor Process If the proof tree is invalid it throws an exception",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRule",
           "normalized": "Rule a-\u003e(Process a,TTE a,Process a)",
@@ -2737,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck a regular rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRuleEvent",
           "package": "CSPM-FiringRules",
@@ -2747,6 +2986,7 @@
         "index": {
           "description": "Check regular rule",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRuleEvent",
           "normalized": "RuleEvent a-\u003eMaybe(Process a,Event a,Process a)",
@@ -2763,6 +3003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eviewRule\u003c/a\u003e\u003c/code\u003e but returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e in case of an invalid proof tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRuleMaybe",
           "package": "CSPM-FiringRules",
@@ -2773,6 +3014,7 @@
         "index": {
           "description": "Like viewRule but returns Nothing in case of an invalid proof tree",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRuleMaybe",
           "normalized": "Rule a-\u003eMaybe(Process a,TTE a,Process a)",
@@ -2789,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck a tau rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRuleTau",
           "package": "CSPM-FiringRules",
@@ -2799,6 +3042,7 @@
         "index": {
           "description": "Check tau rule",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRuleTau",
           "normalized": "RuleTau a-\u003eMaybe(Process a,Process a)",
@@ -2815,6 +3059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck a tick rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRuleTick",
           "package": "CSPM-FiringRules",
@@ -2825,6 +3070,7 @@
         "index": {
           "description": "Check tick rule",
           "hierarchy": "CSPM FiringRules Verifier",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Verifier",
           "name": "viewRuleTick",
           "normalized": "RuleTick a-\u003eMaybe(Process a)",
@@ -2841,6 +3087,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReflect the version number of this library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Version",
           "name": "Version",
           "package": "CSPM-FiringRules",
@@ -2850,6 +3097,7 @@
         "index": {
           "description": "Reflect the version number of this library",
           "hierarchy": "CSPM FiringRules Version",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Version",
           "name": "Version",
           "package": "CSPM-FiringRules",
@@ -2864,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the CSPM-FiringRules library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:48 UTC 2014",
           "module": "CSPM.FiringRules.Version",
           "name": "firingRulesVersion",
           "package": "CSPM-FiringRules",
@@ -2874,6 +3123,7 @@
         "index": {
           "description": "The version of the CSPM-FiringRules library",
           "hierarchy": "CSPM FiringRules Version",
+          "indexed": "2014-03-11T16:35:48",
           "module": "CSPM.FiringRules.Version",
           "name": "firingRulesVersion",
           "package": "CSPM-FiringRules",

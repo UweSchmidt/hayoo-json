@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CCA"
+        "phrase": "CCA",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "CCNF",
           "package": "CCA",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "CCNF",
           "package": "CCA",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "ASyn",
           "package": "CCA",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "ASyn",
           "package": "CCA",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "assoc",
           "package": "CCA",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "assoc",
           "normalized": "((a,a),a)-\u003e(a,(a,a))",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "cross",
           "package": "CCA",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "cross",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "dup",
           "package": "CCA",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "dup",
           "normalized": "a-\u003e(a,a)",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "juggle",
           "package": "CCA",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "juggle",
           "normalized": "((a,a),a)-\u003e((a,a),a)",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "mirror",
           "package": "CCA",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "mirror",
           "normalized": "Either a b-\u003eEither b a",
@@ -224,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "pprNorm",
           "package": "CCA",
@@ -233,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "pprNorm",
           "normalized": "ASyn a a-\u003eQ Exp",
@@ -248,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "pprNormOpt",
           "package": "CCA",
@@ -257,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "pprNormOpt",
           "normalized": "ASyn a a-\u003eQ Exp",
@@ -272,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "printCCA",
           "package": "CCA",
@@ -281,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "printCCA",
           "normalized": "ASyn a a-\u003eIO()",
@@ -296,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "swap",
           "package": "CCA",
@@ -305,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "swap",
           "normalized": "(a,a)-\u003e(a,a)",
@@ -319,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "tagT",
           "package": "CCA",
@@ -328,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "tagT",
           "normalized": "(Either a a,a)-\u003eEither(a,a)(a,a)",
@@ -342,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "trace",
           "package": "CCA",
@@ -351,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "trace",
           "normalized": "((a,a)-\u003e(a,a))-\u003ea-\u003ea",
@@ -365,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "unassoc",
           "package": "CCA",
@@ -374,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "unassoc",
           "normalized": "(a,(a,a))-\u003e((a,a),a)",
@@ -388,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "untag",
           "package": "CCA",
@@ -397,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "untag",
           "normalized": "Either a a-\u003ea",
@@ -411,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.CCNF",
           "name": "untagT",
           "package": "CCA",
@@ -420,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Control CCA CCNF",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.CCNF",
           "name": "untagT",
           "normalized": "Either(a,b)(c,b)-\u003e(Either a c,b)",
@@ -434,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.Types",
           "name": "Types",
           "package": "CCA",
@@ -442,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Control CCA Types",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.Types",
           "name": "Types",
           "package": "CCA",
@@ -455,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.Types",
           "name": "ArrowInit",
           "package": "CCA",
@@ -463,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Control CCA Types",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.Types",
           "name": "ArrowInit",
           "package": "CCA",
@@ -476,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.Types",
           "name": "arr'",
           "package": "CCA",
@@ -485,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Control CCA Types",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.Types",
           "name": "arr'",
           "normalized": "ExpQ-\u003e(a-\u003eb)-\u003ec a b",
@@ -499,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.Types",
           "name": "init",
           "package": "CCA",
@@ -508,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Control CCA Types",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.Types",
           "name": "init",
           "normalized": "a-\u003eb a a",
@@ -522,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.Types",
           "name": "init'",
           "package": "CCA",
@@ -531,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Control CCA Types",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.Types",
           "name": "init'",
           "normalized": "ExpQ-\u003ea-\u003eb a a",
@@ -545,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA.Types",
           "name": "loopD",
           "package": "CCA",
@@ -554,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Control CCA Types",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA.Types",
           "name": "loopD",
           "normalized": "a-\u003e((b,a)-\u003e(c,a))-\u003ed b c",
@@ -568,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "CCA",
           "package": "CCA",
@@ -576,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "CCA",
           "package": "CCA",
@@ -590,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic arrow class.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e, satisfying the laws\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e id = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (f \u003e\u003e\u003e g) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e f) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e (f \u003e\u003e\u003e g) = \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e \u003e\u003e\u003e f\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e *** g) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e *** g) \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f) \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eassoc\u003c/code\u003e = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eassoc\u003c/code\u003e \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cpre\u003e assoc ((a,b),c) = (a,(b,c))\n\u003c/pre\u003e\u003cp\u003eThe other combinators have sensible default definitions,\n which may be overridden for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "Arrow",
           "package": "CCA",
@@ -598,6 +645,7 @@
         "index": {
           "description": "The basic arrow class Minimal complete definition arr and first satisfying the laws arr id id arr arr arr first arr arr first first first first first arr fst arr fst first arr id arr id first first first arr assoc arr assoc first where assoc The other combinators have sensible default definitions which may be overridden for efficiency",
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "Arrow",
           "package": "CCA",
@@ -611,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "ArrowInit",
           "package": "CCA",
@@ -619,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "ArrowInit",
           "package": "CCA",
@@ -633,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e operator expresses computations in which an output value\n is fed back as input, although the computation occurs only once.\n It underlies the \u003ccode\u003erec\u003c/code\u003e value recursion construct in arrow notation.\n \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003cem\u003eextension\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e f) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\\ b -\u003e \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e (\\ (c,d) -\u003e f (b,d))))\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003eleft tightening\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e h \u003e\u003e\u003e f) = h \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003eright tightening\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e (f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e h) = \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e h\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003esliding\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e (f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e *** k)) = \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e *** k) \u003e\u003e\u003e f)\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003evanishing\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e f) = \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e unassoc \u003e\u003e\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e assoc)\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003esuperposing\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e f) = \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e assoc \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e unassoc)\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cpre\u003e assoc ((a,b),c) = (a,(b,c))\n unassoc (a,(b,c)) = ((a,b),c)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "ArrowLoop",
           "package": "CCA",
@@ -641,6 +692,7 @@
         "index": {
           "description": "The loop operator expresses computations in which an output value is fed back as input although the computation occurs only once It underlies the rec value recursion construct in arrow notation loop should satisfy the following laws extension loop arr arr fst fix left tightening loop first loop right tightening loop first loop sliding loop arr id loop arr id vanishing loop loop loop arr unassoc arr assoc superposing second loop loop arr assoc second arr unassoc where assoc unassoc",
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "ArrowLoop",
           "package": "CCA",
@@ -655,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFanout: send the input to both argument arrows and combine\n   their output.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "(&&&)",
           "package": "CCA",
@@ -664,6 +717,7 @@
         "index": {
           "description": "Fanout send the input to both argument arrows and combine their output The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "(&&&) &&&",
           "normalized": "a b c-\u003ea b d-\u003ea b(c,d)",
@@ -679,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the input between the two argument arrows and combine\n   their output.  Note that this is in general not a functor.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "(***)",
           "package": "CCA",
@@ -688,6 +743,7 @@
         "index": {
           "description": "Split the input between the two argument arrows and combine their output Note that this is in general not functor The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "(***) ***",
           "normalized": "a b c-\u003ea d e-\u003ea(b,d)(c,e)",
@@ -703,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "(\u003c\u003c\u003c)",
           "package": "CCA",
@@ -712,6 +769,7 @@
         "index": {
           "description": "Right-to-left composition",
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -727,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "(\u003e\u003e\u003e)",
           "package": "CCA",
@@ -736,6 +795,7 @@
         "index": {
           "description": "Left-to-right composition",
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -750,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "arr",
           "package": "CCA",
@@ -759,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "arr",
           "normalized": "ExpQ-\u003eExpQ",
@@ -773,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "arr'",
           "package": "CCA",
@@ -782,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "arr'",
           "normalized": "ExpQ-\u003e(a-\u003eb)-\u003ec a b",
@@ -796,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "constant",
           "package": "CCA",
@@ -805,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "constant",
           "normalized": "a-\u003eb()a",
@@ -820,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the first component of the input through the argument\n   arrow, and copy the rest unchanged to the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "first",
           "package": "CCA",
@@ -829,6 +896,7 @@
         "index": {
           "description": "Send the first component of the input through the argument arrow and copy the rest unchanged to the output",
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "first",
           "normalized": "a b c-\u003ea(b,d)(c,d)",
@@ -843,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "init",
           "package": "CCA",
@@ -852,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "init",
           "normalized": "ExpQ-\u003eExpQ",
@@ -866,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "init'",
           "package": "CCA",
@@ -875,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "init'",
           "normalized": "ExpQ-\u003ea-\u003eb a a",
@@ -889,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "loop",
           "package": "CCA",
@@ -897,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "loop",
           "normalized": "a(b,c)(d,c)-\u003ea b d",
@@ -912,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mirror image of \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Control.CCA",
           "name": "second",
           "package": "CCA",
@@ -921,6 +996,7 @@
         "index": {
           "description": "mirror image of first The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Control CCA",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Control.CCA",
           "name": "second",
           "normalized": "a b c-\u003ea(d,b)(d,c)",
@@ -935,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Language.Haskell.TH.Instances",
           "name": "Instances",
           "package": "CCA",
@@ -943,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Instances",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Language.Haskell.TH.Instances",
           "name": "Instances",
           "package": "CCA",
@@ -956,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:27 UTC 2014",
           "module": "Language.Haskell.TH.Instances",
           "name": "fromInt",
           "package": "CCA",
@@ -965,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Instances",
+          "indexed": "2014-03-11T16:35:27",
           "module": "Language.Haskell.TH.Instances",
           "name": "fromInt",
           "normalized": "Int-\u003eInt #",

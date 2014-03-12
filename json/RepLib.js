@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RepLib"
+        "phrase": "RepLib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract Reps for Common Abstract Datatypes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.AbstractReps",
           "name": "AbstractReps",
           "package": "RepLib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Abstract Reps for Common Abstract Datatypes",
           "hierarchy": "Generics RepLib AbstractReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.AbstractReps",
           "name": "AbstractReps",
           "package": "RepLib",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.AbstractReps",
           "name": "rMap",
           "package": "RepLib",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib AbstractReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.AbstractReps",
           "name": "rMap",
           "package": "RepLib",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.AbstractReps",
           "name": "rMap1",
           "package": "RepLib",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib AbstractReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.AbstractReps",
           "name": "rMap1",
           "package": "RepLib",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.AbstractReps",
           "name": "rSet",
           "package": "RepLib",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib AbstractReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.AbstractReps",
           "name": "rSet",
           "package": "RepLib",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.AbstractReps",
           "name": "rSet1",
           "package": "RepLib",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib AbstractReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.AbstractReps",
           "name": "rSet1",
           "package": "RepLib",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAutomatically derive representations and instance declarations\n for user defined datatypes.\n The typical use is\n \u003ccode\u003e\n     $(derive [''MyType1, ''MyType2])\n \u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Derive",
           "name": "Derive",
           "package": "RepLib",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Automatically derive representations and instance declarations for user defined datatypes The typical use is derive MyType1 MyType2",
           "hierarchy": "Generics RepLib Derive",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Derive",
           "name": "Derive",
           "package": "RepLib",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate representations (both basic and parameterized) for a list of\n   types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Derive",
           "name": "derive",
           "package": "RepLib",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Generate representations both basic and parameterized for list of types",
           "hierarchy": "Generics RepLib Derive",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Derive",
           "name": "derive",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate abstract representations for a list of types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Derive",
           "name": "derive_abstract",
           "package": "RepLib",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Generate abstract representations for list of types",
           "hierarchy": "Generics RepLib Derive",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Derive",
           "name": "derive_abstract",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library of type-indexed functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "Lib",
           "package": "RepLib",
@@ -212,6 +229,7 @@
         "index": {
           "description": "library of type-indexed functions",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "Lib",
           "package": "RepLib",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenumerate the elements of a type, in DFS order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "Enumerate",
           "package": "RepLib",
@@ -235,6 +254,7 @@
         "index": {
           "description": "enumerate the elements of type in DFS order",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "Enumerate",
           "package": "RepLib",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "EnumerateD",
           "package": "RepLib",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "EnumerateD",
           "package": "RepLib",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the functions below are defined using instances\n of the following class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "Fold",
           "package": "RepLib",
@@ -279,6 +302,7 @@
         "index": {
           "description": "All of the functions below are defined using instances of the following class",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "Fold",
           "package": "RepLib",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd together all of the \u003ccode\u003eInt\u003c/code\u003es in a datastructure\n For example:\n gsum ( 1 , True, (\u003ca\u003ea\u003c/a\u003e, Maybe 3, []) , Nothing)\n 4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "GSum",
           "package": "RepLib",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Add together all of the Int in datastructure For example gsum True Maybe Nothing",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "GSum",
           "package": "RepLib",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "GSumD",
           "package": "RepLib",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "GSumD",
           "package": "RepLib",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate elements of a type up to a certain depth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "Generate",
           "package": "RepLib",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Generate elements of type up to certain depth",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "Generate",
           "package": "RepLib",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "GenerateD",
           "package": "RepLib",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "GenerateD",
           "package": "RepLib",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general version of fold left, use for Fold class below\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "Lreduce",
           "package": "RepLib",
@@ -390,6 +423,7 @@
         "index": {
           "description": "general version of fold left use for Fold class below",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "Lreduce",
           "package": "RepLib",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "LreduceD",
           "package": "RepLib",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "LreduceD",
           "package": "RepLib",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general version of fold right, use for Fold class below\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "Rreduce",
           "package": "RepLib",
@@ -434,6 +471,7 @@
         "index": {
           "description": "general version of fold right use for Fold class below",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "Rreduce",
           "package": "RepLib",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "RreduceD",
           "package": "RepLib",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "RreduceD",
           "package": "RepLib",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an element, return smaller elements of the same type\n for example, to automatically find small counterexamples when testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "Shrink",
           "package": "RepLib",
@@ -478,6 +519,7 @@
         "index": {
           "description": "Given an element return smaller elements of the same type for example to automatically find small counterexamples when testing",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "Shrink",
           "package": "RepLib",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "ShrinkD",
           "package": "RepLib",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "ShrinkD",
           "package": "RepLib",
@@ -513,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a zero element of a type\n \u003ccode\u003e\n ( zero  :: ((Int, Maybe Int), Float))\n ((0, Nothing), 0.0)\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "Zero",
           "package": "RepLib",
@@ -522,6 +567,7 @@
         "index": {
           "description": "Create zero element of type zero Int Maybe Int Float Nothing",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "Zero",
           "package": "RepLib",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "ZeroD",
           "package": "RepLib",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "ZeroD",
           "package": "RepLib",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "EnumerateD",
           "package": "RepLib",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "EnumerateD",
           "package": "RepLib",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "GSumD",
           "package": "RepLib",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "GSumD",
           "package": "RepLib",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "GenerateD",
           "package": "RepLib",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "GenerateD",
           "package": "RepLib",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "LreduceD",
           "package": "RepLib",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "LreduceD",
           "package": "RepLib",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "RreduceD",
           "package": "RepLib",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "RreduceD",
           "package": "RepLib",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "ShrinkD",
           "package": "RepLib",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "ShrinkD",
           "package": "RepLib",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "ZD",
           "package": "RepLib",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "ZD",
           "package": "RepLib",
@@ -711,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose all functions in the datastructure together\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "comp",
           "package": "RepLib",
@@ -721,6 +784,7 @@
         "index": {
           "description": "Compose all functions in the datastructure together",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "comp",
           "normalized": "a(b-\u003eb)-\u003eb-\u003eb",
@@ -736,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount number of \u003ccode\u003ea\u003c/code\u003es that appear in the argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "count",
           "package": "RepLib",
@@ -746,6 +811,7 @@
         "index": {
           "description": "Count number of that appear in the argument",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "count",
           "normalized": "a b-\u003eInt",
@@ -761,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a bindary operation left over a datastructure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "crush",
           "package": "RepLib",
@@ -771,6 +838,7 @@
         "index": {
           "description": "Fold bindary operation left over datastructure",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "crush",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eb a-\u003ea",
@@ -786,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively force the evaluation of the first\n argument. For example,\n \u003ccode\u003e\n  deepSeq ( x , y ) z where\n    x = ...\n    y = ...\n \u003c/code\u003e\n will evaluate both \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e then return \u003ccode\u003ez\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "deepSeq",
           "package": "RepLib",
@@ -796,6 +865,7 @@
         "index": {
           "description": "Recursively force the evaluation of the first argument For example deepSeq where will evaluate both and then return",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "deepSeq",
           "normalized": "a-\u003eb-\u003eb",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "deepSeqR",
           "package": "RepLib",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "deepSeqR",
           "normalized": "R a-\u003ea-\u003eb-\u003eb",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "enumerate",
           "package": "RepLib",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "enumerate",
           "normalized": "[a]",
@@ -858,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "enumerateD",
           "package": "RepLib",
@@ -867,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "enumerateD",
           "normalized": "[a]",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "enumerateR1",
           "package": "RepLib",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "enumerateR1",
           "normalized": "R EnumerateD a-\u003e[a]",
@@ -905,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "flatten",
           "package": "RepLib",
@@ -915,6 +994,7 @@
         "index": {
           "description": "Convert to list",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "flatten",
           "normalized": "a b-\u003e[b]",
@@ -929,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "foldLeft",
           "package": "RepLib",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "foldLeft",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "foldRight",
           "package": "RepLib",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "foldRight",
           "normalized": "(a-\u003eb-\u003eb)-\u003ec a-\u003eb-\u003eb",
@@ -978,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure property holds of all data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gall",
           "package": "RepLib",
@@ -988,6 +1073,7 @@
         "index": {
           "description": "Ensure property holds of all data",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gall",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eBool",
@@ -1003,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure all booleans are true\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gand",
           "package": "RepLib",
@@ -1013,6 +1100,7 @@
         "index": {
           "description": "Ensure all booleans are true",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gand",
           "normalized": "a Bool-\u003eBool",
@@ -1028,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure property holds of some element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gany",
           "package": "RepLib",
@@ -1038,6 +1127,7 @@
         "index": {
           "description": "Ensure property holds of some element",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gany",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eBool",
@@ -1053,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate all lists in the datastructure together\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gconcat",
           "package": "RepLib",
@@ -1063,6 +1154,7 @@
         "index": {
           "description": "Concatenate all lists in the datastructure together",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gconcat",
           "normalized": "a[b]-\u003e[b]",
@@ -1078,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs an element stored in a datastructure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gelem",
           "package": "RepLib",
@@ -1088,6 +1181,7 @@
         "index": {
           "description": "Is an element stored in datastructure",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gelem",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -1102,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "generate",
           "package": "RepLib",
@@ -1111,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "generate",
           "normalized": "Int-\u003e[a]",
@@ -1125,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "generateD",
           "package": "RepLib",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "generateD",
           "normalized": "Int-\u003e[a]",
@@ -1148,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "generateR1",
           "package": "RepLib",
@@ -1157,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "generateR1",
           "normalized": "R GenerateD a-\u003eInt-\u003e[a]",
@@ -1172,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure at least one boolean is true\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gor",
           "package": "RepLib",
@@ -1182,6 +1283,7 @@
         "index": {
           "description": "Ensure at least one boolean is true",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gor",
           "normalized": "a Bool-\u003eBool",
@@ -1197,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply all elements together\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gproduct",
           "package": "RepLib",
@@ -1207,6 +1310,7 @@
         "index": {
           "description": "Multiply all elements together",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gproduct",
           "normalized": "a b-\u003eb",
@@ -1221,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gsum",
           "package": "RepLib",
@@ -1230,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gsum",
           "normalized": "a-\u003eInt",
@@ -1244,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gsumD",
           "package": "RepLib",
@@ -1253,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gsumD",
           "normalized": "a-\u003eInt",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "gsumR1",
           "package": "RepLib",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "gsumR1",
           "normalized": "R GSumD a-\u003ea-\u003eInt",
@@ -1290,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "lreduce",
           "package": "RepLib",
@@ -1299,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "lreduce",
           "normalized": "a-\u003eb-\u003ea",
@@ -1313,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "lreduceD",
           "package": "RepLib",
@@ -1322,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "lreduceD",
           "normalized": "a-\u003eb-\u003ea",
@@ -1336,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "lreduceR1",
           "package": "RepLib",
@@ -1345,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "lreduceR1",
           "normalized": "R(LreduceD a)b-\u003ea-\u003eb-\u003ea",
@@ -1360,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce the evaluation of *datatypes* to their normal\n forms. Other types are left alone and not forced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "rnf",
           "package": "RepLib",
@@ -1370,6 +1487,7 @@
         "index": {
           "description": "Force the evaluation of datatypes to their normal forms Other types are left alone and not forced",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "rnf",
           "normalized": "a-\u003ea",
@@ -1384,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "rnfR",
           "package": "RepLib",
@@ -1393,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "rnfR",
           "normalized": "R a-\u003ea-\u003ea",
@@ -1407,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "rreduce",
           "package": "RepLib",
@@ -1416,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "rreduce",
           "normalized": "a-\u003eb-\u003eb",
@@ -1430,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "rreduceD",
           "package": "RepLib",
@@ -1439,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "rreduceD",
           "normalized": "a-\u003eb-\u003eb",
@@ -1453,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "rreduceR1",
           "package": "RepLib",
@@ -1462,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "rreduceR1",
           "normalized": "R(RreduceD a)b-\u003eb-\u003ea-\u003ea",
@@ -1476,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "shrink",
           "package": "RepLib",
@@ -1485,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "shrink",
           "normalized": "a-\u003e[a]",
@@ -1499,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "shrinkD",
           "package": "RepLib",
@@ -1508,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "shrinkD",
           "normalized": "a-\u003e[a]",
@@ -1523,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce all children of a datastructure with the same type.  Note\n that subtrees is available for all representable types. For those\n that are not recursive datatypes, subtrees will always return the\n empty list. But, these trivial instances are convenient to have for\n the Shrink operation below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "subtrees",
           "package": "RepLib",
@@ -1533,6 +1664,7 @@
         "index": {
           "description": "Produce all children of datastructure with the same type Note that subtrees is available for all representable types For those that are not recursive datatypes subtrees will always return the empty list But these trivial instances are convenient to have for the Shrink operation below",
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "subtrees",
           "normalized": "a-\u003e[a]",
@@ -1547,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "zero",
           "package": "RepLib",
@@ -1556,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "zero",
           "package": "RepLib",
@@ -1568,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "zeroD",
           "package": "RepLib",
@@ -1577,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "zeroD",
           "package": "RepLib",
@@ -1589,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Lib",
           "name": "zeroR1",
           "package": "RepLib",
@@ -1598,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Lib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Lib",
           "name": "zeroR1",
           "normalized": "R ZeroD a-\u003ea",
@@ -1613,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module PreludeLib contains generic operations to derive members of the standard\n prelude classess: Eq, Bounded, Compare, Show  (TODO: add Enum and Read)\n\u003c/p\u003e\u003cp\u003eAlthough these classes may already be automatically derived via the\n \u003ca\u003ederiving\u003c/a\u003e mechanism, this module is included for two reasons:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Deriving only works when datatypes are defined. This library\n allows instances of these classes to be generated anywhere. For\n example, suppose some other module contains the definition of the\n datatype T and exposes all of its constructors, but, frustratingly,\n does not derive an instance of the Show class.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eYou could define a Show instance of \u003ccode\u003eT\u003c/code\u003e in your own module with the\n   following code:\n\u003c/p\u003e\u003cpre\u003e import RepLib\n\n (repr1 ''T)  -- make the Rep1 instance of T available\n\n instance Show T where\n   showsPrec = showsPrecR1 rep1   -- showsPrecR1 is defined in this module\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e This library also serves as a model for generic functions that are\n slight modifications to these prelude operations. For example, if you\n wanted to define reverse lexicographic ordering or an XML pretty\n printer for datatypes, you might start here. This library is also a\n good place to start learning how to define your own generic\n operations, because the behavior of these operations should match the\n deriving mechanism specified by Haskell 98.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "PreludeLib",
           "package": "RepLib",
@@ -1622,6 +1761,7 @@
         "index": {
           "description": "The module PreludeLib contains generic operations to derive members of the standard prelude classess Eq Bounded Compare Show TODO add Enum and Read Although these classes may already be automatically derived via the deriving mechanism this module is included for two reasons Deriving only works when datatypes are defined This library allows instances of these classes to be generated anywhere For example suppose some other module contains the definition of the datatype and exposes all of its constructors but frustratingly does not derive an instance of the Show class You could define Show instance of in your own module with the following code import RepLib repr1 make the Rep1 instance of available instance Show where showsPrec showsPrecR1 rep1 showsPrecR1 is defined in this module This library also serves as model for generic functions that are slight modifications to these prelude operations For example if you wanted to define reverse lexicographic ordering or an XML pretty printer for datatypes you might start here This library is also good place to start learning how to define your own generic operations because the behavior of these operations should match the deriving mechanism specified by Haskell",
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "PreludeLib",
           "package": "RepLib",
@@ -1635,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "BoundedD",
           "package": "RepLib",
@@ -1643,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "BoundedD",
           "package": "RepLib",
@@ -1656,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "EqD",
           "package": "RepLib",
@@ -1664,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "EqD",
           "package": "RepLib",
@@ -1677,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "OrdD",
           "package": "RepLib",
@@ -1685,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "OrdD",
           "package": "RepLib",
@@ -1698,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "ShowD",
           "package": "RepLib",
@@ -1706,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "ShowD",
           "package": "RepLib",
@@ -1720,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal completion of the Ord class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "compareR1",
           "package": "RepLib",
@@ -1730,6 +1879,7 @@
         "index": {
           "description": "Minimal completion of the Ord class",
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "compareR1",
           "normalized": "R OrdD a-\u003ea-\u003ea-\u003eOrdering",
@@ -1745,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolymorphic equality, given an R1 representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "eqR1",
           "package": "RepLib",
@@ -1755,6 +1906,7 @@
         "index": {
           "description": "Polymorphic equality given an R1 representation",
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "eqR1",
           "normalized": "R EqD a-\u003ea-\u003ea-\u003eBool",
@@ -1770,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo generate the Bounded class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "maxBoundR1",
           "package": "RepLib",
@@ -1780,6 +1933,7 @@
         "index": {
           "description": "To generate the Bounded class",
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "maxBoundR1",
           "normalized": "R BoundedD a-\u003ea",
@@ -1796,6 +1950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo generate the Bounded class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "minBoundR1",
           "package": "RepLib",
@@ -1806,6 +1961,7 @@
         "index": {
           "description": "To generate the Bounded class",
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "minBoundR1",
           "normalized": "R BoundedD a-\u003ea",
@@ -1822,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal completion of the show class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeLib",
           "name": "showsPrecR1",
           "package": "RepLib",
@@ -1832,6 +1989,7 @@
         "index": {
           "description": "Minimal completion of the show class",
           "hierarchy": "Generics RepLib PreludeLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeLib",
           "name": "showsPrecR1",
           "normalized": "R ShowD a-\u003eInt-\u003ea-\u003eShowS",
@@ -1848,6 +2006,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentations for Prelude types, necessary to (automatically) derive\n representations of user defined types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "PreludeReps",
           "package": "RepLib",
@@ -1857,6 +2016,7 @@
         "index": {
           "description": "Representations for Prelude types necessary to automatically derive representations of user defined types",
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "PreludeReps",
           "package": "RepLib",
@@ -1870,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rBool",
           "package": "RepLib",
@@ -1879,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rBool",
           "package": "RepLib",
@@ -1892,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rBool1",
           "package": "RepLib",
@@ -1901,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rBool1",
           "normalized": "a b()-\u003e()-\u003eR c Bool",
@@ -1916,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rEither",
           "package": "RepLib",
@@ -1925,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rEither",
           "package": "RepLib",
@@ -1938,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rEither1",
           "package": "RepLib",
@@ -1947,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rEither1",
           "normalized": "a b-\u003ea c-\u003eR a(Either b c)",
@@ -1962,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rMaybe",
           "package": "RepLib",
@@ -1971,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rMaybe",
           "package": "RepLib",
@@ -1984,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rMaybe1",
           "package": "RepLib",
@@ -1993,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rMaybe1",
           "normalized": "()-\u003ea b-\u003eR a(Maybe b)",
@@ -2008,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rOrdering",
           "package": "RepLib",
@@ -2017,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rOrdering",
           "package": "RepLib",
@@ -2030,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rOrdering1",
           "package": "RepLib",
@@ -2039,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rOrdering1",
           "normalized": "a b()-\u003e()-\u003e()-\u003eR c Ordering",
@@ -2054,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup3",
           "package": "RepLib",
@@ -2063,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup3",
           "normalized": "R((,,)a b c)",
@@ -2078,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup3_1",
           "package": "RepLib",
@@ -2087,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup3_1",
           "normalized": "(a b,a c,a d)-\u003eR a((,,)b c d)",
@@ -2102,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup4",
           "package": "RepLib",
@@ -2111,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup4",
           "normalized": "R((,,,)a b c d)",
@@ -2126,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup4_1",
           "package": "RepLib",
@@ -2135,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup4_1",
           "normalized": "(a b,a c,a d,a e)-\u003eR a((,,,)b c d e)",
@@ -2150,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup5",
           "package": "RepLib",
@@ -2159,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup5",
           "normalized": "R((,,,,)a b c d e)",
@@ -2174,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup5_1",
           "package": "RepLib",
@@ -2183,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup5_1",
           "normalized": "(a b,a c,a d,a e,a f)-\u003eR a((,,,,)b c d e f)",
@@ -2198,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup6",
           "package": "RepLib",
@@ -2207,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup6",
           "normalized": "R((,,,,,)a b c d e f)",
@@ -2222,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup6_1",
           "package": "RepLib",
@@ -2231,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup6_1",
           "normalized": "(a b,a c,a d,a e,a f,a g)-\u003eR a((,,,,,)b c d e f g)",
@@ -2246,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup7",
           "package": "RepLib",
@@ -2255,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup7",
           "normalized": "R((,,,,,,)a b c d e f g)",
@@ -2270,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup7_1",
           "package": "RepLib",
@@ -2279,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib PreludeReps",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.PreludeReps",
           "name": "rTup7_1",
           "normalized": "(a b,a c,a d,a e,a f,a g,a h)-\u003eR a((,,,,,,)b c d e f g h)",
@@ -2295,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic data structure and class for representation types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "R",
           "package": "RepLib",
@@ -2304,6 +2501,7 @@
         "index": {
           "description": "Basic data structure and class for representation types",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "R",
           "package": "RepLib",
@@ -2317,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCons for a list of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": ":*:",
           "package": "RepLib",
@@ -2326,6 +2525,7 @@
         "index": {
           "description": "Cons for list of types",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": ":*:",
           "package": "RepLib",
@@ -2339,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a data constructor includes an\n embedding between the datatype and a list of other types\n as well as the representation of that list of other types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Con",
           "package": "RepLib",
@@ -2348,6 +2549,7 @@
         "index": {
           "description": "Representation of data constructor includes an embedding between the datatype and list of other types as well as the representation of that list of other types",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Con",
           "package": "RepLib",
@@ -2362,6 +2564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a datatype, including its\n fully qualified name and representation of\n its type arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "DT",
           "package": "RepLib",
@@ -2371,6 +2574,7 @@
         "index": {
           "description": "Information about datatype including its fully qualified name and representation of its type arguments",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "DT",
           "package": "RepLib",
@@ -2385,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn embedding between a list of types \u003ccode\u003el\u003c/code\u003e and\n a datatype \u003ccode\u003ea\u003c/code\u003e, based on a particular data constructor.\n The to function is a wrapper for the constructor, the\n from function pattern matches on the constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Emb",
           "package": "RepLib",
@@ -2394,6 +2599,7 @@
         "index": {
           "description": "An embedding between list of types and datatype based on particular data constructor The to function is wrapper for the constructor the from function pattern matches on the constructor",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Emb",
           "package": "RepLib",
@@ -2407,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Fixity",
           "package": "RepLib",
@@ -2415,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Fixity",
           "package": "RepLib",
@@ -2429,6 +2637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA heterogeneous list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "MTup",
           "package": "RepLib",
@@ -2438,6 +2647,7 @@
         "index": {
           "description": "heterogeneous list",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "MTup",
           "package": "RepLib",
@@ -2452,6 +2662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty list of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Nil",
           "package": "RepLib",
@@ -2461,6 +2672,7 @@
         "index": {
           "description": "An empty list of types",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Nil",
           "package": "RepLib",
@@ -2475,6 +2687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003eR a\u003c/code\u003e is a representation of a type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "R",
           "package": "RepLib",
@@ -2484,6 +2697,7 @@
         "index": {
           "description": "value of type is representation of type",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "R",
           "package": "RepLib",
@@ -2497,6 +2711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of representable types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Rep",
           "package": "RepLib",
@@ -2506,6 +2721,7 @@
         "index": {
           "description": "class of representable types",
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Rep",
           "package": "RepLib",
@@ -2519,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": ":*:",
           "package": "RepLib",
@@ -2528,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": ":*:",
           "package": "RepLib",
@@ -2540,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": ":+:",
           "package": "RepLib",
@@ -2549,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": ":+:",
           "normalized": "a b-\u003eMTup a c-\u003eMTup a(b*c)",
@@ -2563,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Abstract",
           "package": "RepLib",
@@ -2572,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Abstract",
           "normalized": "DT-\u003eR a",
@@ -2587,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Arrow",
           "package": "RepLib",
@@ -2596,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Arrow",
           "normalized": "R a-\u003eR b-\u003eR(a-\u003eb)",
@@ -2611,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Char",
           "package": "RepLib",
@@ -2620,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Char",
           "package": "RepLib",
@@ -2633,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Con",
           "package": "RepLib",
@@ -2642,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Con",
           "normalized": "Emb a b-\u003eMTup c a-\u003eCon c b",
@@ -2657,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "DT",
           "package": "RepLib",
@@ -2666,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "DT",
           "package": "RepLib",
@@ -2679,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Data",
           "package": "RepLib",
@@ -2688,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Data",
           "normalized": "DT-\u003e[Con R a]-\u003eR a",
@@ -2703,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Double",
           "package": "RepLib",
@@ -2712,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Double",
           "package": "RepLib",
@@ -2725,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Emb",
           "package": "RepLib",
@@ -2734,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Emb",
           "package": "RepLib",
@@ -2747,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Equal",
           "package": "RepLib",
@@ -2756,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Equal",
           "normalized": "R a-\u003eR b-\u003eR(a b)",
@@ -2771,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Float",
           "package": "RepLib",
@@ -2780,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Float",
           "package": "RepLib",
@@ -2793,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "IO",
           "package": "RepLib",
@@ -2802,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "IO",
           "normalized": "R a-\u003eR(IO a)",
@@ -2817,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "IOError",
           "package": "RepLib",
@@ -2826,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "IOError",
           "package": "RepLib",
@@ -2839,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Infix",
           "package": "RepLib",
@@ -2848,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Infix",
           "package": "RepLib",
@@ -2861,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Infixl",
           "package": "RepLib",
@@ -2870,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Infixl",
           "package": "RepLib",
@@ -2883,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Infixr",
           "package": "RepLib",
@@ -2892,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Infixr",
           "package": "RepLib",
@@ -2905,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Int",
           "package": "RepLib",
@@ -2914,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Int",
           "package": "RepLib",
@@ -2927,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Integer",
           "package": "RepLib",
@@ -2936,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Integer",
           "package": "RepLib",
@@ -2949,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "MNil",
           "package": "RepLib",
@@ -2958,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "MNil",
           "package": "RepLib",
@@ -2971,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Nil",
           "package": "RepLib",
@@ -2980,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Nil",
           "package": "RepLib",
@@ -2993,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Nonfix",
           "package": "RepLib",
@@ -3002,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Nonfix",
           "package": "RepLib",
@@ -3015,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "Rational",
           "package": "RepLib",
@@ -3024,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "Rational",
           "package": "RepLib",
@@ -3037,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "fixity",
           "package": "RepLib",
@@ -3046,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "fixity",
           "package": "RepLib",
@@ -3058,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "from",
           "package": "RepLib",
@@ -3067,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "from",
           "normalized": "a-\u003eMaybe b",
@@ -3081,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "labels",
           "package": "RepLib",
@@ -3090,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "labels",
           "normalized": "Maybe[String]",
@@ -3104,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "name",
           "package": "RepLib",
@@ -3113,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "name",
           "package": "RepLib",
@@ -3125,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "prec",
           "package": "RepLib",
@@ -3134,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "prec",
           "package": "RepLib",
@@ -3146,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "rConsEmb",
           "package": "RepLib",
@@ -3155,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "rConsEmb",
           "normalized": "Emb(a*([a]*Nil))[a]",
@@ -3170,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "rList",
           "package": "RepLib",
@@ -3179,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "rList",
           "normalized": "R[a]",
@@ -3194,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "rNilEmb",
           "package": "RepLib",
@@ -3203,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "rNilEmb",
           "normalized": "Emb Nil[a]",
@@ -3218,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "rPairEmb",
           "package": "RepLib",
@@ -3227,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "rPairEmb",
           "normalized": "Emb(a*(b*Nil))(a,b)",
@@ -3242,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "rTup2",
           "package": "RepLib",
@@ -3251,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "rTup2",
           "normalized": "R(a,b)",
@@ -3266,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "rUnit",
           "package": "RepLib",
@@ -3275,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "rUnit",
           "normalized": "R()",
@@ -3290,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "rUnitEmb",
           "package": "RepLib",
@@ -3299,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "rUnitEmb",
           "normalized": "Emb Nil()",
@@ -3314,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "rep",
           "package": "RepLib",
@@ -3323,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "rep",
           "package": "RepLib",
@@ -3335,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R",
           "name": "to",
           "package": "RepLib",
@@ -3344,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R",
           "name": "to",
           "normalized": "a-\u003eb",
@@ -3358,6 +3648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "R1",
           "package": "RepLib",
@@ -3366,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "R1",
           "package": "RepLib",
@@ -3378,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "R1",
           "package": "RepLib",
@@ -3386,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "R1",
           "package": "RepLib",
@@ -3398,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Rep1",
           "package": "RepLib",
@@ -3406,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Rep1",
           "package": "RepLib",
@@ -3419,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Sat",
           "package": "RepLib",
@@ -3427,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Sat",
           "package": "RepLib",
@@ -3440,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Abstract1",
           "package": "RepLib",
@@ -3449,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Abstract1",
           "normalized": "DT-\u003eR a b",
@@ -3464,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Arrow1",
           "package": "RepLib",
@@ -3473,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Arrow1",
           "normalized": "a b-\u003ea c-\u003eR a(b-\u003ec)",
@@ -3488,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Char1",
           "package": "RepLib",
@@ -3497,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Char1",
           "package": "RepLib",
@@ -3510,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Data1",
           "package": "RepLib",
@@ -3519,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Data1",
           "normalized": "DT-\u003e[Con a b]-\u003eR a b",
@@ -3534,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Double1",
           "package": "RepLib",
@@ -3543,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Double1",
           "package": "RepLib",
@@ -3556,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Equal1",
           "package": "RepLib",
@@ -3565,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Equal1",
           "normalized": "a b-\u003ea c-\u003eR a(b c)",
@@ -3580,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Float1",
           "package": "RepLib",
@@ -3589,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Float1",
           "package": "RepLib",
@@ -3602,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "IO1",
           "package": "RepLib",
@@ -3611,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "IO1",
           "normalized": "a b-\u003eR a(IO b)",
@@ -3626,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "IOError1",
           "package": "RepLib",
@@ -3635,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "IOError1",
           "package": "RepLib",
@@ -3648,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Int1",
           "package": "RepLib",
@@ -3657,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Int1",
           "package": "RepLib",
@@ -3670,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Integer1",
           "package": "RepLib",
@@ -3679,6 +3998,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Integer1",
           "package": "RepLib",
@@ -3692,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "Rational1",
           "package": "RepLib",
@@ -3701,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "Rational1",
           "package": "RepLib",
@@ -3714,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "dict",
           "package": "RepLib",
@@ -3723,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "dict",
           "package": "RepLib",
@@ -3736,6 +4060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess a representation, given a proxy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "getRepC",
           "package": "RepLib",
@@ -3746,6 +4071,7 @@
         "index": {
           "description": "Access representation given proxy",
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "getRepC",
           "normalized": "a b-\u003eR b",
@@ -3761,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "rList1",
           "package": "RepLib",
@@ -3770,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "rList1",
           "normalized": "a b-\u003ea[b]-\u003eR a[b]",
@@ -3785,6 +4113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "rTup2_1",
           "package": "RepLib",
@@ -3794,6 +4123,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "rTup2_1",
           "normalized": "a b-\u003ea c-\u003eR a(b,c)",
@@ -3809,6 +4139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "rep1",
           "package": "RepLib",
@@ -3818,6 +4149,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "rep1",
           "package": "RepLib",
@@ -3831,6 +4163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a parameterized rep to a vanilla rep\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.R1",
           "name": "toR",
           "package": "RepLib",
@@ -3841,6 +4174,7 @@
         "index": {
           "description": "Transform parameterized rep to vanilla rep",
           "hierarchy": "Generics RepLib R1",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.R1",
           "name": "toR",
           "normalized": "R a b-\u003eR b",
@@ -3856,6 +4190,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuxiliary operations to aid in the definition of type-indexed functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "RepAux",
           "package": "RepLib",
@@ -3865,6 +4200,7 @@
         "index": {
           "description": "Auxiliary operations to aid in the definition of type-indexed functions",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "RepAux",
           "package": "RepLib",
@@ -3879,6 +4215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSYB style monadic map type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "MapM",
           "package": "RepLib",
@@ -3888,6 +4225,7 @@
         "index": {
           "description": "SYB style monadic map type",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "MapM",
           "package": "RepLib",
@@ -3901,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "MapM1",
           "package": "RepLib",
@@ -3909,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "MapM1",
           "package": "RepLib",
@@ -3923,6 +4263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSYB style query type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Query",
           "package": "RepLib",
@@ -3932,6 +4273,7 @@
         "index": {
           "description": "SYB style query type",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Query",
           "package": "RepLib",
@@ -3945,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Query1",
           "package": "RepLib",
@@ -3953,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Query1",
           "package": "RepLib",
@@ -3966,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Spine",
           "package": "RepLib",
@@ -3974,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Spine",
           "package": "RepLib",
@@ -3988,6 +4334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SYB style traversal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Traversal",
           "package": "RepLib",
@@ -3997,6 +4344,7 @@
         "index": {
           "description": "SYB style traversal",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Traversal",
           "package": "RepLib",
@@ -4010,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Traversal1",
           "package": "RepLib",
@@ -4018,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Traversal1",
           "package": "RepLib",
@@ -4031,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Typed",
           "package": "RepLib",
@@ -4039,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Typed",
           "package": "RepLib",
@@ -4053,6 +4405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datastructure to store the results of findCon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Val",
           "package": "RepLib",
@@ -4062,6 +4415,7 @@
         "index": {
           "description": "datastructure to store the results of findCon",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Val",
           "package": "RepLib",
@@ -4075,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": ":\u003c\u003e",
           "package": "RepLib",
@@ -4084,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": ":\u003c\u003e",
           "normalized": "Spine(a-\u003eb)-\u003eTyped a-\u003eSpine b",
@@ -4098,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": ":::",
           "package": "RepLib",
@@ -4107,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": ":::",
           "package": "RepLib",
@@ -4119,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Constr",
           "package": "RepLib",
@@ -4128,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Constr",
           "normalized": "a-\u003eSpine a",
@@ -4143,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "Val",
           "package": "RepLib",
@@ -4152,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "Val",
           "normalized": "Emb a b-\u003eMTup c a-\u003ea-\u003eVal c b",
@@ -4168,6 +4530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type-safe cast operation, implicit arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "cast",
           "package": "RepLib",
@@ -4178,6 +4541,7 @@
         "index": {
           "description": "The type-safe cast operation implicit arguments",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "cast",
           "normalized": "a-\u003eMaybe b",
@@ -4193,6 +4557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type-safe cast operation, explicit arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "castR",
           "package": "RepLib",
@@ -4203,6 +4568,7 @@
         "index": {
           "description": "The type-safe cast operation explicit arguments",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "castR",
           "normalized": "R a-\u003eR b-\u003ea-\u003eMaybe b",
@@ -4218,6 +4584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeterogeneous Ordering\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "compareR",
           "package": "RepLib",
@@ -4228,6 +4595,7 @@
         "index": {
           "description": "Heterogeneous Ordering",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "compareR",
           "normalized": "R a-\u003eR b-\u003eOrdering",
@@ -4243,6 +4611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if two reps are for the same type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "eqR",
           "package": "RepLib",
@@ -4253,6 +4622,7 @@
         "index": {
           "description": "Determine if two reps are for the same type",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "eqR",
           "normalized": "R a-\u003eR b-\u003eBool",
@@ -4268,6 +4638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of constructor representations for a datatype,\n determine which constructor formed the datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "findCon",
           "package": "RepLib",
@@ -4278,6 +4649,7 @@
         "index": {
           "description": "Given list of constructor representations for datatype determine which constructor formed the datatype",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "findCon",
           "normalized": "[Con a b]-\u003eb-\u003eVal a b",
@@ -4294,6 +4666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fold left for heterogeneous lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "foldl_l",
           "package": "RepLib",
@@ -4304,6 +4677,7 @@
         "index": {
           "description": "fold left for heterogeneous lists",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "foldl_l",
           "normalized": "a b-\u003ec-\u003eb-\u003ec)-\u003ec-\u003eMTup a d-\u003ed-\u003ec",
@@ -4319,6 +4693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fold right operation for heterogeneous lists, that folds a function\n expecting a type type representation across each element of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "foldr_l",
           "package": "RepLib",
@@ -4329,6 +4704,7 @@
         "index": {
           "description": "fold right operation for heterogeneous lists that folds function expecting type type representation across each element of the list",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "foldr_l",
           "normalized": "a b-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eMTup a d-\u003ed-\u003ec",
@@ -4343,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "fromSpine",
           "package": "RepLib",
@@ -4352,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "fromSpine",
           "normalized": "Spine a-\u003ea",
@@ -4368,6 +4746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a heterogeneous list from metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "fromTup",
           "package": "RepLib",
@@ -4378,6 +4757,7 @@
         "index": {
           "description": "Generate heterogeneous list from metadata",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "fromTup",
           "normalized": "a b-\u003eb)-\u003eMTup a c-\u003ec",
@@ -4394,6 +4774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a heterogeneous list from metadata, in a monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "fromTupM",
           "package": "RepLib",
@@ -4404,6 +4785,7 @@
         "index": {
           "description": "Generate heterogeneous list from metadata in monad",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "fromTupM",
           "normalized": "a b-\u003ec b)-\u003eMTup a d-\u003ec d",
@@ -4420,6 +4802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeibniz equality between types, implicit representations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "gcast",
           "package": "RepLib",
@@ -4430,6 +4813,7 @@
         "index": {
           "description": "Leibniz equality between types implicit representations",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "gcast",
           "normalized": "a b-\u003eMaybe(a c)",
@@ -4445,6 +4829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeibniz equality between types, explicit representations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "gcastR",
           "package": "RepLib",
@@ -4455,6 +4840,7 @@
         "index": {
           "description": "Leibniz equality between types explicit representations",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "gcastR",
           "normalized": "a b c d R b-\u003eR c-\u003ee b-\u003eMaybe(e c)",
@@ -4469,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapM",
           "package": "RepLib",
@@ -4478,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapM",
           "normalized": "MapM a-\u003eb-\u003ea b",
@@ -4492,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapM1",
           "package": "RepLib",
@@ -4501,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapM1",
           "normalized": "MapM a b-\u003ec-\u003eb c",
@@ -4515,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapQ",
           "package": "RepLib",
@@ -4524,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapQ",
           "normalized": "Query a-\u003eb-\u003e[a]",
@@ -4538,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapQ1",
           "package": "RepLib",
@@ -4547,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapQ1",
           "normalized": "Query a b-\u003ec-\u003e[b]",
@@ -4562,6 +4956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a traversal across the kids of a data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapT",
           "package": "RepLib",
@@ -4572,6 +4967,7 @@
         "index": {
           "description": "Map traversal across the kids of data structure",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapT",
           "normalized": "Traversal-\u003ea-\u003ea",
@@ -4586,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapT1",
           "package": "RepLib",
@@ -4595,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "gmapT1",
           "normalized": "Traversal a-\u003eb-\u003eb",
@@ -4610,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emapM for heterogeneous lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "mapM_l",
           "package": "RepLib",
@@ -4620,6 +5019,7 @@
         "index": {
           "description": "mapM for heterogeneous lists",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "mapM_l",
           "normalized": "a b-\u003eb-\u003ec b)-\u003eMTup a d-\u003ed-\u003ec d",
@@ -4635,6 +5035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a heterogeneous list in to a standard list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "mapQ_l",
           "package": "RepLib",
@@ -4645,6 +5046,7 @@
         "index": {
           "description": "Transform heterogeneous list in to standard list",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "mapQ_l",
           "normalized": "a b-\u003eb-\u003ec)-\u003eMTup a d-\u003ed-\u003e[c]",
@@ -4660,6 +5062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map for heterogeneous lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "map_l",
           "package": "RepLib",
@@ -4670,6 +5073,7 @@
         "index": {
           "description": "map for heterogeneous lists",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "map_l",
           "normalized": "a b-\u003eb-\u003eb)-\u003eMTup a c-\u003ec-\u003ec",
@@ -4685,6 +5089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a normal lists from metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "toList",
           "package": "RepLib",
@@ -4695,6 +5100,7 @@
         "index": {
           "description": "Generate normal lists from metadata",
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "toList",
           "normalized": "a b-\u003ec)-\u003eMTup a d-\u003e[c]",
@@ -4710,6 +5116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.RepAux",
           "name": "toSpine",
           "package": "RepLib",
@@ -4719,6 +5126,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib RepAux",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.RepAux",
           "name": "toSpine",
           "normalized": "a-\u003eSpine a",
@@ -4734,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "Aliases",
           "package": "RepLib",
@@ -4742,6 +5151,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "Aliases",
           "package": "RepLib",
@@ -4756,6 +5166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe general scheme underlying generic functions\n   assumed by gfoldl; there are isomorphisms such as\n   GenericT = Generic T.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "Generic",
           "package": "RepLib",
@@ -4765,6 +5176,7 @@
         "index": {
           "description": "The general scheme underlying generic functions assumed by gfoldl there are isomorphisms such as GenericT Generic",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "Generic",
           "package": "RepLib",
@@ -4779,6 +5191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapped generic functions;\n   recall: [Generic c] would be legal but [Generic' c] not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "Generic'",
           "package": "RepLib",
@@ -4788,6 +5201,7 @@
         "index": {
           "description": "Wrapped generic functions recall Generic would be legal but Generic not",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "Generic'",
           "package": "RepLib",
@@ -4802,6 +5216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric builders\n   i.e., produce an \"a\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericB",
           "package": "RepLib",
@@ -4811,6 +5226,7 @@
         "index": {
           "description": "Generic builders i.e produce an",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericB",
           "package": "RepLib",
@@ -4825,6 +5241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric monadic transformations,\n   i.e., take an \"a\" and compute an \"a\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericM",
           "package": "RepLib",
@@ -4834,6 +5251,7 @@
         "index": {
           "description": "Generic monadic transformations i.e take an and compute an",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericM",
           "package": "RepLib",
@@ -4847,6 +5265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericM'",
           "package": "RepLib",
@@ -4855,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericM'",
           "package": "RepLib",
@@ -4869,6 +5289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric queries of type \"r\",\n   i.e., take any \"a\" and return an \"r\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericQ",
           "package": "RepLib",
@@ -4878,6 +5299,7 @@
         "index": {
           "description": "Generic queries of type i.e take any and return an",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericQ",
           "package": "RepLib",
@@ -4891,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericQ'",
           "package": "RepLib",
@@ -4899,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericQ'",
           "package": "RepLib",
@@ -4913,6 +5337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric readers, say monadic builders,\n   i.e., produce an \"a\" with the help of a monad \"m\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericR",
           "package": "RepLib",
@@ -4922,6 +5347,7 @@
         "index": {
           "description": "Generic readers say monadic builders i.e produce an with the help of monad",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericR",
           "package": "RepLib",
@@ -4936,6 +5362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric transformations,\n   i.e., take an \"a\" and return an \"a\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericT",
           "package": "RepLib",
@@ -4945,6 +5372,7 @@
         "index": {
           "description": "Generic transformations i.e take an and return an",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericT",
           "package": "RepLib",
@@ -4959,6 +5387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther first-class polymorphic wrappers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericT'",
           "package": "RepLib",
@@ -4968,6 +5397,7 @@
         "index": {
           "description": "Other first-class polymorphic wrappers",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GenericT'",
           "package": "RepLib",
@@ -4981,6 +5411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GM",
           "package": "RepLib",
@@ -4990,6 +5421,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GM",
           "package": "RepLib",
@@ -5003,6 +5435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GQ",
           "package": "RepLib",
@@ -5012,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GQ",
           "package": "RepLib",
@@ -5025,6 +5459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GT",
           "package": "RepLib",
@@ -5034,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "GT",
           "package": "RepLib",
@@ -5047,6 +5483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "Generic'",
           "package": "RepLib",
@@ -5056,6 +5493,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "Generic'",
           "package": "RepLib",
@@ -5070,6 +5508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoice for monadic transformations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "choiceMp",
           "package": "RepLib",
@@ -5080,6 +5519,7 @@
         "index": {
           "description": "Choice for monadic transformations",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "choiceMp",
           "normalized": "GenericM a-\u003eGenericM a-\u003eGenericM a",
@@ -5096,6 +5536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoice for monadic queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "choiceQ",
           "package": "RepLib",
@@ -5106,6 +5547,7 @@
         "index": {
           "description": "Choice for monadic queries",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "choiceQ",
           "normalized": "GenericQ(a b)-\u003eGenericQ(a b)-\u003eGenericQ(a b)",
@@ -5121,6 +5563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlexible type extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "ext0",
           "package": "RepLib",
@@ -5131,6 +5574,7 @@
         "index": {
           "description": "Flexible type extension",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "ext0",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -5146,6 +5590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extB",
           "package": "RepLib",
@@ -5156,6 +5601,7 @@
         "index": {
           "description": "Extend generic builder",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extB",
           "normalized": "a-\u003eb-\u003ea",
@@ -5171,6 +5617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic monadic transformation by a type-specific case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extM",
           "package": "RepLib",
@@ -5181,6 +5628,7 @@
         "index": {
           "description": "Extend generic monadic transformation by type-specific case",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extM",
           "normalized": "(a-\u003eb a)-\u003e(c-\u003eb c)-\u003ea-\u003eb a",
@@ -5196,6 +5644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic MonadPlus transformation by a type-specific case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extMp",
           "package": "RepLib",
@@ -5206,6 +5655,7 @@
         "index": {
           "description": "Extend generic MonadPlus transformation by type-specific case",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extMp",
           "normalized": "(a-\u003eb a)-\u003e(c-\u003eb c)-\u003ea-\u003eb a",
@@ -5222,6 +5672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic query by a type-specific case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extQ",
           "package": "RepLib",
@@ -5232,6 +5683,7 @@
         "index": {
           "description": "Extend generic query by type-specific case",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extQ",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003ea-\u003eb",
@@ -5247,6 +5699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic reader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extR",
           "package": "RepLib",
@@ -5257,6 +5710,7 @@
         "index": {
           "description": "Extend generic reader",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extR",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -5272,6 +5726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic transformation by a type-specific case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extT",
           "package": "RepLib",
@@ -5282,6 +5737,7 @@
         "index": {
           "description": "Extend generic transformation by type-specific case",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "extT",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -5297,6 +5753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic monadic transformation;\n   start from a type-specific case;\n   resort to return otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkM",
           "package": "RepLib",
@@ -5307,6 +5764,7 @@
         "index": {
           "description": "Make generic monadic transformation start from type-specific case resort to return otherwise",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkM",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",
@@ -5322,6 +5780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic monadic transformation for MonadPlus;\n   use \"const mzero\" (i.e., failure) instead of return as default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkMp",
           "package": "RepLib",
@@ -5332,6 +5791,7 @@
         "index": {
           "description": "Make generic monadic transformation for MonadPlus use const mzero i.e failure instead of return as default",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkMp",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",
@@ -5348,6 +5808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic query;\n   start from a type-specific case;\n   return a constant otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkQ",
           "package": "RepLib",
@@ -5358,6 +5819,7 @@
         "index": {
           "description": "Make generic query start from type-specific case return constant otherwise",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkQ",
           "normalized": "a-\u003e(b-\u003ea)-\u003ec-\u003ea",
@@ -5373,6 +5835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic builder;\n   start from a type-specific ase;\n   resort to no build (i.e., mzero) otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkR",
           "package": "RepLib",
@@ -5383,6 +5846,7 @@
         "index": {
           "description": "Make generic builder start from type-specific ase resort to no build i.e mzero otherwise",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkR",
           "normalized": "a b-\u003ea c",
@@ -5398,6 +5862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic transformation;\n   start from a type-specific case;\n   preserve the term otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkT",
           "package": "RepLib",
@@ -5408,6 +5873,7 @@
         "index": {
           "description": "Make generic transformation start from type-specific case preserve the term otherwise",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "mkT",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -5423,6 +5889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-biased choice on maybies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "orElse",
           "package": "RepLib",
@@ -5433,6 +5900,7 @@
         "index": {
           "description": "Left-biased choice on maybies",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "orElse",
           "normalized": "Maybe a-\u003eMaybe a-\u003eMaybe a",
@@ -5449,6 +5917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecover from the failure of monadic transformation by identity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "recoverMp",
           "package": "RepLib",
@@ -5459,6 +5928,7 @@
         "index": {
           "description": "Recover from the failure of monadic transformation by identity",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "recoverMp",
           "normalized": "GenericM a-\u003eGenericM a",
@@ -5475,6 +5945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecover from the failure of monadic query by a constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "recoverQ",
           "package": "RepLib",
@@ -5485,6 +5956,7 @@
         "index": {
           "description": "Recover from the failure of monadic query by constant",
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "recoverQ",
           "normalized": "a-\u003eGenericQ(b a)-\u003eGenericQ(b a)",
@@ -5499,6 +5971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "unGM",
           "package": "RepLib",
@@ -5508,6 +5981,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "unGM",
           "normalized": "a-\u003eb a",
@@ -5523,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "unGQ",
           "package": "RepLib",
@@ -5532,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "unGQ",
           "package": "RepLib",
@@ -5545,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "unGT",
           "package": "RepLib",
@@ -5554,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "unGT",
           "normalized": "a-\u003ea",
@@ -5569,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "unGeneric'",
           "package": "RepLib",
@@ -5578,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib SYB Aliases",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Aliases",
           "name": "unGeneric'",
           "package": "RepLib",
@@ -5592,6 +6072,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerived from Data.Generics.Schemes\n Only modification: \u003ca\u003eData\u003c/a\u003e class becomes \u003ca\u003eRep\u003c/a\u003e class\n   otherwise import our version of the libraries\n For now,  missing \u003ca\u003esomewhere\u003c/a\u003e (lacking mapMp)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "Schemes",
           "package": "RepLib",
@@ -5601,6 +6082,7 @@
         "index": {
           "description": "Derived from Data.Generics.Schemes Only modification Data class becomes Rep class otherwise import our version of the libraries For now missing somewhere lacking mapMp",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "Schemes",
           "package": "RepLib",
@@ -5615,6 +6097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic transformation at least somewhere\n somewhere :: MonadPlus m =\u003e GenericM m -\u003e GenericM m\n\u003c/p\u003e\u003cp\u003eSummarise all nodes in top-down, left-to-right order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everything",
           "package": "RepLib",
@@ -5625,6 +6108,7 @@
         "index": {
           "description": "Apply monadic transformation at least somewhere somewhere MonadPlus GenericM GenericM Summarise all nodes in top-down left-to-right order",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everything",
           "normalized": "(a-\u003ea-\u003ea)-\u003eGenericQ a-\u003eGenericQ a",
@@ -5640,6 +6124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation everywhere in bottom-up manner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everywhere",
           "package": "RepLib",
@@ -5650,6 +6135,7 @@
         "index": {
           "description": "Apply transformation everywhere in bottom-up manner",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everywhere",
           "normalized": "a-\u003ea",
@@ -5665,6 +6151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation everywhere in top-down manner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everywhere'",
           "package": "RepLib",
@@ -5675,6 +6162,7 @@
         "index": {
           "description": "Apply transformation everywhere in top-down manner",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everywhere'",
           "normalized": "a-\u003ea",
@@ -5690,6 +6178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation on everywhere with an extra stop condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everywhereBut",
           "package": "RepLib",
@@ -5700,6 +6189,7 @@
         "index": {
           "description": "Variation on everywhere with an extra stop condition",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everywhereBut",
           "normalized": "GenericQ Bool-\u003eGenericT-\u003eGenericT",
@@ -5716,6 +6206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variation on everywhere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everywhereM",
           "package": "RepLib",
@@ -5726,6 +6217,7 @@
         "index": {
           "description": "Monadic variation on everywhere",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "everywhereM",
           "normalized": "GenericM a-\u003eGenericM a",
@@ -5741,6 +6233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the number of all suitable nodes in a given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gcount",
           "package": "RepLib",
@@ -5751,6 +6244,7 @@
         "index": {
           "description": "Determine the number of all suitable nodes in given term",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gcount",
           "normalized": "GenericQ Bool-\u003eGenericQ Int",
@@ -5766,6 +6260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine depth of the given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gdepth",
           "package": "RepLib",
@@ -5776,6 +6271,7 @@
         "index": {
           "description": "Determine depth of the given term",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gdepth",
           "package": "RepLib",
@@ -5789,6 +6285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind (unambiguously) an immediate subterm of a given type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gfindtype",
           "package": "RepLib",
@@ -5799,6 +6296,7 @@
         "index": {
           "description": "Find unambiguously an immediate subterm of given type",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gfindtype",
           "normalized": "a-\u003eMaybe b",
@@ -5814,6 +6312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of immediate subterms of the given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "glength",
           "package": "RepLib",
@@ -5824,6 +6323,7 @@
         "index": {
           "description": "Count the number of immediate subterms of the given term",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "glength",
           "package": "RepLib",
@@ -5837,6 +6337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the number of all nodes in a given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gnodecount",
           "package": "RepLib",
@@ -5847,6 +6348,7 @@
         "index": {
           "description": "Determine the number of all nodes in given term",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gnodecount",
           "package": "RepLib",
@@ -5860,6 +6362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute size of an arbitrary data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gsize",
           "package": "RepLib",
@@ -5870,6 +6373,7 @@
         "index": {
           "description": "Compute size of an arbitrary data structure",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gsize",
           "normalized": "a-\u003eInt",
@@ -5885,6 +6389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the number of nodes of a given type in a given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gtypecount",
           "package": "RepLib",
@@ -5895,6 +6400,7 @@
         "index": {
           "description": "Determine the number of nodes of given type in given term",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "gtypecount",
           "normalized": "a-\u003eGenericQ Int",
@@ -5910,6 +6416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all entities that meet a predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "listify",
           "package": "RepLib",
@@ -5920,6 +6427,7 @@
         "index": {
           "description": "Get list of all entities that meet predicate",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "listify",
           "normalized": "(a-\u003eBool)-\u003eGenericQ[a]",
@@ -5935,6 +6443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a subterm by means of a maybe-typed filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "something",
           "package": "RepLib",
@@ -5945,6 +6454,7 @@
         "index": {
           "description": "Look up subterm by means of maybe-typed filter",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "something",
           "normalized": "GenericQ(Maybe a)-\u003eGenericQ(Maybe a)",
@@ -5960,6 +6470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom-up synthesis of a data structure;\n   1st argument z is the initial element for the synthesis;\n   2nd argument o is for reduction of results from subterms;\n   3rd argument f updates the synthesised data according to the given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "synthesize",
           "package": "RepLib",
@@ -5970,6 +6481,7 @@
         "index": {
           "description": "Bottom-up synthesis of data structure st argument is the initial element for the synthesis nd argument is for reduction of results from subterms rd argument updates the synthesised data according to the given term",
           "hierarchy": "Generics RepLib SYB Schemes",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.SYB.Schemes",
           "name": "synthesize",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003eGenericQ(a-\u003ea)-\u003eGenericQ a",
@@ -5984,6 +6496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "Unify",
           "package": "RepLib",
@@ -5992,6 +6505,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "Unify",
           "package": "RepLib",
@@ -6005,6 +6519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "HasVar",
           "package": "RepLib",
@@ -6013,6 +6528,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "HasVar",
           "package": "RepLib",
@@ -6026,6 +6542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "Occurs",
           "package": "RepLib",
@@ -6034,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "Occurs",
           "package": "RepLib",
@@ -6047,6 +6565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "Proxy",
           "package": "RepLib",
@@ -6055,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "Proxy",
           "package": "RepLib",
@@ -6068,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "Subst",
           "package": "RepLib",
@@ -6076,6 +6597,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "Subst",
           "package": "RepLib",
@@ -6089,6 +6611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "UConstraint",
           "package": "RepLib",
@@ -6097,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "UConstraint",
           "package": "RepLib",
@@ -6110,6 +6634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "UM",
           "package": "RepLib",
@@ -6118,6 +6643,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "UM",
           "package": "RepLib",
@@ -6131,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "UnificationState",
           "package": "RepLib",
@@ -6139,6 +6666,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "UnificationState",
           "package": "RepLib",
@@ -6152,6 +6680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "Unify",
           "package": "RepLib",
@@ -6160,6 +6689,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "Unify",
           "package": "RepLib",
@@ -6173,6 +6703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "UnifyError",
           "package": "RepLib",
@@ -6181,6 +6712,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "UnifyError",
           "package": "RepLib",
@@ -6194,6 +6726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "UnifySubD",
           "package": "RepLib",
@@ -6202,6 +6735,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "UnifySubD",
           "package": "RepLib",
@@ -6215,6 +6749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "UC",
           "package": "RepLib",
@@ -6224,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "UC",
           "package": "RepLib",
@@ -6237,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "UState",
           "package": "RepLib",
@@ -6246,6 +6783,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "UState",
           "package": "RepLib",
@@ -6259,6 +6797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "UnifySubD",
           "package": "RepLib",
@@ -6268,6 +6807,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "UnifySubD",
           "package": "RepLib",
@@ -6281,6 +6821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "addConstraintsRL1",
           "package": "RepLib",
@@ -6290,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "addConstraintsRL1",
           "normalized": "MTup(UnifySubD a b)c-\u003eProxy(a,b)-\u003ec-\u003ec-\u003eUM a b()",
@@ -6305,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "dequeueConstraint",
           "package": "RepLib",
@@ -6314,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "dequeueConstraint",
           "package": "RepLib",
@@ -6327,6 +6871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "extendSubstitution",
           "package": "RepLib",
@@ -6336,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "extendSubstitution",
           "normalized": "(a,b)-\u003eUM a b()",
@@ -6351,6 +6897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "is_var",
           "package": "RepLib",
@@ -6360,6 +6907,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "is_var",
           "normalized": "a-\u003eMaybe b",
@@ -6374,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "occursCheck",
           "package": "RepLib",
@@ -6383,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "occursCheck",
           "normalized": "a-\u003eProxy b-\u003ec-\u003eBool",
@@ -6398,6 +6948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "occursCheckD",
           "package": "RepLib",
@@ -6407,6 +6958,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "occursCheckD",
           "normalized": "a-\u003eProxy b-\u003ec-\u003eBool",
@@ -6422,6 +6974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "occursCheckR1",
           "package": "RepLib",
@@ -6431,6 +6984,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "occursCheckR1",
           "normalized": "R(UnifySubD a b)c-\u003ea-\u003eProxy b-\u003ec-\u003eBool",
@@ -6446,6 +7000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "queueConstraint",
           "package": "RepLib",
@@ -6455,6 +7010,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "queueConstraint",
           "normalized": "UConstraint a b-\u003eUM a b()",
@@ -6470,6 +7026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "solveUnification",
           "package": "RepLib",
@@ -6479,6 +7036,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "solveUnification",
           "normalized": "[(a,a)]-\u003eMaybe[(b,a)]",
@@ -6494,6 +7052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "solveUnification'",
           "package": "RepLib",
@@ -6503,6 +7062,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "solveUnification'",
           "normalized": "Proxy(a,b)-\u003e[(c,c)]-\u003eMaybe[(a,b)]",
@@ -6518,6 +7078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "subst",
           "package": "RepLib",
@@ -6527,6 +7088,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "subst",
           "normalized": "a-\u003eb-\u003ec-\u003ec",
@@ -6541,6 +7103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "substD",
           "package": "RepLib",
@@ -6550,6 +7113,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "substD",
           "normalized": "a-\u003eb-\u003ec-\u003ec",
@@ -6564,6 +7128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "substR1",
           "package": "RepLib",
@@ -6573,6 +7138,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "substR1",
           "normalized": "R(UnifySubD a b)c-\u003ea-\u003eb-\u003ec-\u003ec",
@@ -6587,6 +7153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "uConstraints",
           "package": "RepLib",
@@ -6596,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "uConstraints",
           "normalized": "[UConstraint a b]",
@@ -6611,6 +7179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "uSubst",
           "package": "RepLib",
@@ -6620,6 +7189,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "uSubst",
           "normalized": "[(a,b)]",
@@ -6635,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "unifyStep",
           "package": "RepLib",
@@ -6644,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "unifyStep",
           "normalized": "Proxy(a,b)-\u003ec-\u003ec-\u003eUM a b()",
@@ -6659,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "unifyStepD",
           "package": "RepLib",
@@ -6668,6 +7241,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "unifyStepD",
           "normalized": "Proxy(a,b)-\u003ec-\u003ec-\u003eUM a b()",
@@ -6683,6 +7257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "unifyStepEq",
           "package": "RepLib",
@@ -6692,6 +7267,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "unifyStepEq",
           "normalized": "a-\u003ea-\u003eUM b c()",
@@ -6708,6 +7284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric unifyStep. almost identical to polymorphic equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "unifyStepR1",
           "package": "RepLib",
@@ -6718,6 +7295,7 @@
         "index": {
           "description": "Generic unifyStep almost identical to polymorphic equality",
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "unifyStepR1",
           "normalized": "R(UnifySubD a b)c-\u003eProxy(a,b)-\u003ec-\u003ec-\u003eUM a b()",
@@ -6733,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib.Unify",
           "name": "var",
           "package": "RepLib",
@@ -6742,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib Unify",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib.Unify",
           "name": "var",
           "normalized": "a-\u003eb",
@@ -6756,6 +7336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib",
           "name": "RepLib",
           "package": "RepLib",
@@ -6764,6 +7345,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib",
           "name": "RepLib",
           "package": "RepLib",
@@ -6778,6 +7360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType equality. A value of \u003ccode\u003ea :=: b\u003c/code\u003e is a proof that types \u003ccode\u003ea\u003c/code\u003e and\n \u003ccode\u003eb\u003c/code\u003e are equal. By pattern matching on \u003ccode\u003eRefl\u003c/code\u003e this fact is\n introduced to the type checker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib",
           "name": ":=:",
           "package": "RepLib",
@@ -6786,6 +7369,7 @@
         "index": {
           "description": "Type equality value of is proof that types and are equal By pattern matching on Refl this fact is introduced to the type checker",
           "hierarchy": "Generics RepLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib",
           "name": ":=:",
           "package": "RepLib",
@@ -6799,6 +7383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for constructing equality proofs. This is as close\n as we can get to decidable equality on types. Note that \u003ccode\u003ef\u003c/code\u003e must be\n a GADT to be able to define \u003ccode\u003e\u003ca\u003eeqT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib",
           "name": "EqT",
           "package": "RepLib",
@@ -6807,6 +7392,7 @@
         "index": {
           "description": "type class for constructing equality proofs This is as close as we can get to decidable equality on types Note that must be GADT to be able to define eqT",
           "hierarchy": "Generics RepLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib",
           "name": "EqT",
           "package": "RepLib",
@@ -6820,6 +7406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib",
           "name": "Refl",
           "package": "RepLib",
@@ -6828,6 +7415,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib",
           "name": "Refl",
           "package": "RepLib",
@@ -6841,6 +7429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:48 UTC 2014",
           "module": "Generics.RepLib",
           "name": "eqT",
           "package": "RepLib",
@@ -6849,6 +7438,7 @@
         },
         "index": {
           "hierarchy": "Generics RepLib",
+          "indexed": "2014-03-11T16:58:48",
           "module": "Generics.RepLib",
           "name": "eqT",
           "normalized": "a b-\u003ea c-\u003eMaybe(b c)",

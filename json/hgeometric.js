@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgeometric"
+        "phrase": "hgeometric",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eArea\u003c/a\u003e\u003c/code\u003e calculation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Area",
           "name": "Area",
           "package": "hgeometric",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Area calculation",
           "hierarchy": "Algebra Geometric Area",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Area",
           "name": "Area",
           "package": "hgeometric",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the \u003ccode\u003e\u003ca\u003earea\u003c/a\u003e\u003c/code\u003e of an geometric object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Area",
           "name": "Area",
           "package": "hgeometric",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Calculates the area of an geometric object",
           "hierarchy": "Algebra Geometric Area",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Area",
           "name": "Area",
           "package": "hgeometric",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Area",
           "name": "area",
           "package": "hgeometric",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Area",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Area",
           "name": "area",
           "normalized": "a-\u003eDouble",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eClip\u003c/a\u003e\u003c/code\u003e operations to \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eStrip\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "Clip",
           "package": "hgeometric",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Clip operations to Polygon and Strip",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "Clip",
           "package": "hgeometric",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "Clip",
           "package": "hgeometric",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "Clip",
           "package": "hgeometric",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e: a \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e with the area in both the first and the\n second \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "(/\\)",
           "package": "hgeometric",
@@ -142,6 +153,7 @@
         "index": {
           "description": "intersection Polygon with the area in both the first and the second Polygon",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "(/\\) /\\",
           "normalized": "Polygon-\u003ePolygon-\u003ea",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003exor\u003c/a\u003e\u003c/code\u003e: Returns a \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e with the area in the first or the second\n \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e, but not in both.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "(\u003c+\u003e)",
           "package": "hgeometric",
@@ -167,6 +180,7 @@
         "index": {
           "description": "xor Returns Polygon with the area in the first or the second Polygon but not in both",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Polygon-\u003ePolygon-\u003ea",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e: Returns a \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e with the area in the first or the second\n \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "(\\/)",
           "package": "hgeometric",
@@ -192,6 +207,7 @@
         "index": {
           "description": "union Returns Polygon with the area in the first or the second Polygon",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "(\\/) \\/",
           "normalized": "Polygon-\u003ePolygon-\u003ea",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e: Returns a \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e with the area in the first \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e\n and not in the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "(\\\\)",
           "package": "hgeometric",
@@ -217,6 +234,7 @@
         "index": {
           "description": "difference Returns Polygon with the area in the first Polygon and not in the second",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "(\\\\) \\\\",
           "normalized": "Polygon-\u003ePolygon-\u003ea",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003e\\\\\u003c/a\u003e\u003c/code\u003e, which does not use \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "difference",
           "package": "hgeometric",
@@ -242,6 +261,7 @@
         "index": {
           "description": "An IO version of which does not use unsafePerformIO",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "difference",
           "normalized": "Polygon-\u003ePolygon-\u003eIO a",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003e/\\\u003c/a\u003e\u003c/code\u003e, which does not use \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "intersection",
           "package": "hgeometric",
@@ -267,6 +288,7 @@
         "index": {
           "description": "An IO version of which does not use unsafePerformIO",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "intersection",
           "normalized": "Polygon-\u003ePolygon-\u003eIO a",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003e\\/\u003c/a\u003e\u003c/code\u003e, which does not use \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "union",
           "package": "hgeometric",
@@ -292,6 +315,7 @@
         "index": {
           "description": "An IO version of which does not use unsafePerformIO",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "union",
           "normalized": "Polygon-\u003ePolygon-\u003eIO a",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e, which does not use \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Clip",
           "name": "xor",
           "package": "hgeometric",
@@ -317,6 +342,7 @@
         "index": {
           "description": "An IO version of which does not use unsafePerformIO",
           "hierarchy": "Algebra Geometric Clip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Clip",
           "name": "xor",
           "normalized": "Polygon-\u003ePolygon-\u003eIO a",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic geometric types used by \u003ccode\u003eAlgebra.Geometric.Polygon.Polygon\u003c/code\u003e and\n \u003ccode\u003eAlgebra.Geometric.Strip.Strip\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Contour",
           "name": "Contour",
           "package": "hgeometric",
@@ -341,6 +368,7 @@
         "index": {
           "description": "Basic geometric types used by Algebra.Geometric.Polygon.Polygon and Algebra.Geometric.Strip.Strip",
           "hierarchy": "Algebra Geometric Contour",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Contour",
           "name": "Contour",
           "package": "hgeometric",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of 2D Points. A \u003ccode\u003e\u003ca\u003eContour\u003c/a\u003e\u003c/code\u003e is the border of a\n \u003ccode\u003eAlgebra.Geometric.Polygon.Polygon\u003c/code\u003e or the internal border of a hole in a\n \u003ccode\u003eAlgebra.Geometric.Polygon.Polygon\u003c/code\u003e. In a \u003ccode\u003eAlgebra.Geometric.Strip.Strip\u003c/code\u003e,\n it is the border of each division of the \u003ccode\u003eAlgebra.Geometric.Strip.Strip\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Contour",
           "name": "Contour",
           "package": "hgeometric",
@@ -364,6 +393,7 @@
         "index": {
           "description": "list of Points Contour is the border of Algebra.Geometric.Polygon.Polygon or the internal border of hole in Algebra.Geometric.Polygon.Polygon In Algebra.Geometric.Strip.Strip it is the border of each division of the Algebra.Geometric.Strip.Strip",
           "hierarchy": "Algebra Geometric Contour",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Contour",
           "name": "Contour",
           "package": "hgeometric",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D Point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Contour",
           "name": "Vertex",
           "package": "hgeometric",
@@ -387,6 +418,7 @@
         "index": {
           "description": "Point",
           "hierarchy": "Algebra Geometric Contour",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Contour",
           "name": "Vertex",
           "package": "hgeometric",
@@ -400,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Contour",
           "name": "ContourC",
           "package": "hgeometric",
@@ -409,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Contour",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Contour",
           "name": "ContourC",
           "package": "hgeometric",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Contour",
           "name": "VertexC",
           "package": "hgeometric",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Contour",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Contour",
           "name": "VertexC",
           "package": "hgeometric",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Contour",
           "name": "contourList",
           "package": "hgeometric",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Contour",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Contour",
           "name": "contourList",
           "normalized": "[Vertex]",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Contour",
           "name": "vertexX",
           "package": "hgeometric",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Contour",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Contour",
           "name": "vertexX",
           "package": "hgeometric",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Contour",
           "name": "vertexY",
           "package": "hgeometric",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Contour",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Contour",
           "name": "vertexY",
           "package": "hgeometric",
@@ -511,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for reading and writing a \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e in a file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Polygon.File",
           "name": "File",
           "package": "hgeometric",
@@ -520,6 +563,7 @@
         "index": {
           "description": "Support for reading and writing Polygon in file",
           "hierarchy": "Algebra Geometric Polygon File",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Polygon.File",
           "name": "File",
           "package": "hgeometric",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a file into a \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e. If the file isn't accessible, then\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Polygon.File",
           "name": "readPolygon",
           "package": "hgeometric",
@@ -544,6 +589,7 @@
         "index": {
           "description": "Reads file into Polygon If the file isn accessible then Nothing is returned",
           "hierarchy": "Algebra Geometric Polygon File",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Polygon.File",
           "name": "readPolygon",
           "normalized": "FilePath-\u003eBool-\u003eIO(Maybe Polygon)",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e was successfully written, then this function returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Polygon.File",
           "name": "writePolygon",
           "package": "hgeometric",
@@ -570,6 +617,7 @@
         "index": {
           "description": "If the Polygon was successfully written then this function returns True and False otherwise",
           "hierarchy": "Algebra Geometric Polygon File",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Polygon.File",
           "name": "writePolygon",
           "normalized": "String-\u003eBool-\u003ePolygon-\u003eIO Bool",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e data type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Polygon",
           "name": "Polygon",
           "package": "hgeometric",
@@ -595,6 +644,7 @@
         "index": {
           "description": "Polygon data type",
           "hierarchy": "Algebra Geometric Polygon",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Polygon",
           "name": "Polygon",
           "package": "hgeometric",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e, which support holes and disjoint areas. Each \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e in the\n tuple tells if the \u003ccode\u003e\u003ca\u003eContour\u003c/a\u003e\u003c/code\u003e is the border of a hole (\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e) or of a\n \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Polygon",
           "name": "Polygon",
           "package": "hgeometric",
@@ -618,6 +669,7 @@
         "index": {
           "description": "Polygon which support holes and disjoint areas Each Bool in the tuple tells if the Contour is the border of hole True or of Polygon False",
           "hierarchy": "Algebra Geometric Polygon",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Polygon",
           "name": "Polygon",
           "package": "hgeometric",
@@ -631,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Polygon",
           "name": "PolygonC",
           "package": "hgeometric",
@@ -640,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Polygon",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Polygon",
           "name": "PolygonC",
           "package": "hgeometric",
@@ -653,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Polygon",
           "name": "polygonSet",
           "package": "hgeometric",
@@ -662,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Polygon",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Polygon",
           "name": "polygonSet",
           "normalized": "Set(Bool,Contour)",
@@ -678,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eStrip\u003c/a\u003e\u003c/code\u003e data type and convertions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Strip",
           "name": "Strip",
           "package": "hgeometric",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Strip data type and convertions",
           "hierarchy": "Algebra Geometric Strip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Strip",
           "name": "Strip",
           "package": "hgeometric",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eStrip\u003c/a\u003e\u003c/code\u003e is an alternative form of representing a \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e composed\n by \u003ccode\u003e\u003ca\u003eContour\u003c/a\u003e\u003c/code\u003es that are not holes. It's a good idea to use it to draw filled\n figures, and to use \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e to draw the \u003ccode\u003e\u003ca\u003eContour\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Strip",
           "name": "Strip",
           "package": "hgeometric",
@@ -710,6 +769,7 @@
         "index": {
           "description": "Strip is an alternative form of representing Polygon composed by Contour that are not holes It good idea to use it to draw filled figures and to use Polygon to draw the Contour",
           "hierarchy": "Algebra Geometric Strip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Strip",
           "name": "Strip",
           "package": "hgeometric",
@@ -723,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Strip",
           "name": "StripC",
           "package": "hgeometric",
@@ -732,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Strip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Strip",
           "name": "StripC",
           "package": "hgeometric",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003ePolygon\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eStrip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Strip",
           "name": "polygonToStrip",
           "package": "hgeometric",
@@ -756,6 +819,7 @@
         "index": {
           "description": "Converts Polygon to Strip",
           "hierarchy": "Algebra Geometric Strip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Strip",
           "name": "polygonToStrip",
           "normalized": "Polygon-\u003eStrip",
@@ -772,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003epolygonToStrip\u003c/a\u003e\u003c/code\u003e, which does not use \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Strip",
           "name": "safePolygonToStrip",
           "package": "hgeometric",
@@ -782,6 +847,7 @@
         "index": {
           "description": "An IO version of polygonToStrip which does not use unsafePerformIO",
           "hierarchy": "Algebra Geometric Strip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Strip",
           "name": "safePolygonToStrip",
           "normalized": "Polygon-\u003eIO Strip",
@@ -797,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric.Strip",
           "name": "stripSet",
           "package": "hgeometric",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Algebra Geometric Strip",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric.Strip",
           "name": "stripSet",
           "package": "hgeometric",
@@ -820,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeometric data types and operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:29 UTC 2014",
           "module": "Algebra.Geometric",
           "name": "Geometric",
           "package": "hgeometric",
@@ -829,6 +898,7 @@
         "index": {
           "description": "Geometric data types and operations",
           "hierarchy": "Algebra Geometric",
+          "indexed": "2014-03-11T18:38:29",
           "module": "Algebra.Geometric",
           "name": "Geometric",
           "package": "hgeometric",

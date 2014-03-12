@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yaop"
+        "phrase": "yaop",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "Actions",
           "package": "yaop",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "Actions",
           "package": "yaop",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "Action",
           "package": "yaop",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "Action",
           "package": "yaop",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "Application",
           "package": "yaop",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "Application",
           "package": "yaop",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "Action",
           "package": "yaop",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "Action",
           "package": "yaop",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "Application",
           "package": "yaop",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "Application",
           "package": "yaop",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "actAction",
           "package": "yaop",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "actAction",
           "normalized": "a-\u003eb-\u003e[String]-\u003eIO()",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "actDefOpts",
           "package": "yaop",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "actDefOpts",
           "package": "yaop",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "actLongDesc",
           "package": "yaop",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "actLongDesc",
           "package": "yaop",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "actName",
           "package": "yaop",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "actName",
           "package": "yaop",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "actOptDesc",
           "package": "yaop",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "actOptDesc",
           "normalized": "OptM a()",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "actShortDesc",
           "package": "yaop",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "actShortDesc",
           "package": "yaop",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "appActions",
           "package": "yaop",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "appActions",
           "normalized": "[Action a]",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "appGlobalDefs",
           "package": "yaop",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "appGlobalDefs",
           "package": "yaop",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "appGlobalDesc",
           "package": "yaop",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "appGlobalDesc",
           "normalized": "OptM a()",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "appLongDesc",
           "package": "yaop",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "appLongDesc",
           "package": "yaop",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "appName",
           "package": "yaop",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "appName",
           "package": "yaop",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns application: parses args, looks up an action and runs it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP.Actions",
           "name": "runApplication",
           "package": "yaop",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Runs application parses args looks up an action and runs it",
           "hierarchy": "System Console YAOP Actions",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP.Actions",
           "name": "runApplication",
           "normalized": "Application a-\u003e[String]-\u003eIO()",
@@ -402,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYAOP is a library for options parsings that uses base\n \u003ccode\u003e\u003ca\u003eGetOpt\u003c/a\u003e\u003c/code\u003e as a backend.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell #-}\n\n import System\n import System.Environment\n import System.Console.YAOP\n\n import Data.List\n import Data.Maybe\n\n -- | Options that are not mapped to data\n withoutData = dummy =: option [] [\"action\"] NoA \"Do some action\" (\\_ _ -\u003e putStrLn \"IO Action\")\n\n -- | Options data structure. Should use record syntax, may have more than one constructor\n data Options = Options { optFileName :: FilePath\n                        , optCount :: Int\n                        , optStuff :: [Either Int String]\n                        } deriving (Show)\n\n -- | Default options\n defOptions = Options {optFileName = \"default.txt\", optCount = 0, optStuff = []}\n\n -- | This triggers YAOP's accessors generator, e.g.\n -- @modM_optFileName :: Monad m =\u003e (FilePath -\u003e m FilePath) -\u003e Options -\u003e m Options@\n $(deriveModM ''Options)\n\n -- | Here we define a list of options that are mapped to Options\n optDesc = do\n   modM_optFileName =: option ['f'] [\"filename\"] (ReqA \"FN\")\n                       \"Set some filename\"\n                       (\\arg x -\u003e print arg \u003e\u003e return (fromMaybe \"\" arg))\n   modM_optCount    =: option ['c'] [\"count\"] (OptA \"N\")\n                       \"Set some count\"\n                       (\\arg x -\u003e return $ fromMaybe 100 (read `fmap` arg))\n   modM_optStuff    =: option ['s'] [\"stuff\"] NoA\n                       \"Push \\\"foo\\\" to a list\"\n                        (\\arg x -\u003e return (Right \"foo\" : x))\n\n bothDesc = withoutData \u003e\u003e optDesc\n\n main = do\n   (opts,args) \u003c- parseOptions bothDesc defOptions defaultParsingConf =\u003c\u003c getArgs\n   print opts\n   print args\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "YAOP",
           "package": "yaop",
@@ -411,6 +446,7 @@
         "index": {
           "description": "YAOP is library for options parsings that uses base GetOpt as backend LANGUAGE TemplateHaskell import System import System.Environment import System.Console.YAOP import Data.List import Data.Maybe Options that are not mapped to data withoutData dummy option action NoA Do some action putStrLn IO Action Options data structure Should use record syntax may have more than one constructor data Options Options optFileName FilePath optCount Int optStuff Either Int String deriving Show Default options defOptions Options optFileName default.txt optCount optStuff This triggers YAOP accessors generator e.g modM optFileName Monad FilePath FilePath Options Options deriveModM Options Here we define list of options that are mapped to Options optDesc do modM optFileName option filename ReqA FN Set some filename arg print arg return fromMaybe arg modM optCount option count OptA Set some count arg return fromMaybe read fmap arg modM optStuff option stuff NoA Push foo to list arg return Right foo bothDesc withoutData optDesc main do opts args parseOptions bothDesc defOptions defaultParsingConf getArgs print opts print args",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "YAOP",
           "package": "yaop",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies if argument is required, optional or not necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "ArgReq",
           "package": "yaop",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Specifies if argument is required optional or not necessary",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "ArgReq",
           "package": "yaop",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "Opt",
           "package": "yaop",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "Opt",
           "package": "yaop",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "OptM",
           "package": "yaop",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "OptM",
           "package": "yaop",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "ParsingConf",
           "package": "yaop",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "ParsingConf",
           "package": "yaop",
@@ -511,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply selector to options combinator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "(=:)",
           "package": "yaop",
@@ -520,6 +565,7 @@
         "index": {
           "description": "Apply selector to options combinator",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "(=:) =:",
           "normalized": "((a-\u003eIO a)-\u003eb-\u003eIO b)-\u003eOptM a()-\u003eOptM b()",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "NoA",
           "package": "yaop",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "NoA",
           "package": "yaop",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "OptA",
           "package": "yaop",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "OptA",
           "package": "yaop",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "ParsingConf",
           "package": "yaop",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "ParsingConf",
           "package": "yaop",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "ReqA",
           "package": "yaop",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "ReqA",
           "package": "yaop",
@@ -623,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault option parsing configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "defaultParsingConf",
           "package": "yaop",
@@ -633,6 +688,7 @@
         "index": {
           "description": "Default option parsing configuration",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "defaultParsingConf",
           "package": "yaop",
@@ -647,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate functions with \u003ccode\u003e(a -\u003e m a) -\u003e rec -\u003e rec\u003c/code\u003e type for all\n fields of the specified record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "deriveModM",
           "package": "yaop",
@@ -657,6 +714,7 @@
         "index": {
           "description": "Generate functions with rec rec type for all fields of the specified record",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "deriveModM",
           "normalized": "Name-\u003eQ[Dec]",
@@ -673,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy selector, selects nothing. Useful for some \u003ccode\u003e--help\u003c/code\u003e options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "dummy",
           "package": "yaop",
@@ -683,6 +742,7 @@
         "index": {
           "description": "Dummy selector selects nothing Useful for some help options",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "dummy",
           "normalized": "(()-\u003ea b)-\u003ec-\u003ea c",
@@ -698,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic action over the first element, useful as selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "firstM",
           "package": "yaop",
@@ -708,6 +769,7 @@
         "index": {
           "description": "Monadic action over the first element useful as selector",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "firstM",
           "normalized": "(a-\u003eb a)-\u003e(a,a)-\u003eb(a,a)",
@@ -723,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart option constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "option",
           "package": "yaop",
@@ -732,6 +795,7 @@
         "index": {
           "description": "Smart option constructor",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "option",
           "normalized": "String-\u003e[String]-\u003eArgReq-\u003eString-\u003e(Maybe String-\u003ea-\u003eIO a)-\u003eOptM a()",
@@ -747,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun parser, return configured options environment and arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "parseOptions",
           "package": "yaop",
@@ -756,6 +821,7 @@
         "index": {
           "description": "Run parser return configured options environment and arguments",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "parseOptions",
           "normalized": "OptM a()-\u003ea-\u003eParsingConf-\u003e[String]-\u003eIO(a,[String])",
@@ -772,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra help information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "pcHelpExtraInfo",
           "package": "yaop",
@@ -782,6 +849,7 @@
         "index": {
           "description": "Extra help information",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "pcHelpExtraInfo",
           "package": "yaop",
@@ -796,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of help message flag, default: \u003ccode\u003e\"help\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "pcHelpFlag",
           "package": "yaop",
@@ -806,6 +875,7 @@
         "index": {
           "description": "Name of help message flag default help",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "pcHelpFlag",
           "package": "yaop",
@@ -820,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e means \u003ccode\u003e\u003ca\u003eGetOpt\u003c/a\u003e\u003c/code\u003e's \u003ccode\u003ePermute\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e means \u003ccode\u003eRequireOrder\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "pcPermuteArgs",
           "package": "yaop",
@@ -830,6 +901,7 @@
         "index": {
           "description": "True means GetOpt Permute False means RequireOrder",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "pcPermuteArgs",
           "package": "yaop",
@@ -844,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsage message header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "pcUsageHeader",
           "package": "yaop",
@@ -854,6 +927,7 @@
         "index": {
           "description": "Usage message header",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "pcUsageHeader",
           "package": "yaop",
@@ -868,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic action over the second element, useful as selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:40 UTC 2014",
           "module": "System.Console.YAOP",
           "name": "secondM",
           "package": "yaop",
@@ -878,6 +953,7 @@
         "index": {
           "description": "Monadic action over the second element useful as selector",
           "hierarchy": "System Console YAOP",
+          "indexed": "2014-03-11T20:44:40",
           "module": "System.Console.YAOP",
           "name": "secondM",
           "normalized": "(a-\u003eb a)-\u003e(a,a)-\u003eb(a,a)",

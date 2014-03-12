@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-pure"
+        "phrase": "yesod-pure",
+        "type": "phrase"
       },
       "type": "context"
     }

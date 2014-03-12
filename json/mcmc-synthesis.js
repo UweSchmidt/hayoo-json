@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mcmc-synthesis"
+        "phrase": "mcmc-synthesis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "Distribution",
           "package": "mcmc-synthesis",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "Distribution",
           "package": "mcmc-synthesis",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a discrete probability distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "Distr",
           "package": "mcmc-synthesis",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents discrete probability distribution",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "Distr",
           "package": "mcmc-synthesis",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "Distr",
           "package": "mcmc-synthesis",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "Distr",
           "package": "mcmc-synthesis",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA distribution from an (item, weight) list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "categorical",
           "package": "mcmc-synthesis",
@@ -95,6 +102,7 @@
         "index": {
           "description": "distribution from an item weight list",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "categorical",
           "normalized": "[(a,Double)]-\u003eDistr a",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA distribution containing a single item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "constant",
           "package": "mcmc-synthesis",
@@ -120,6 +129,7 @@
         "index": {
           "description": "distribution containing single item",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "constant",
           "normalized": "a-\u003eDistr a",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the log probability of a given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "logProbability",
           "package": "mcmc-synthesis",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Compute the log probability of given value",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "logProbability",
           "normalized": "a-\u003eDouble",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven (distribution, weight) pairs, mix the distributions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "mix",
           "package": "mcmc-synthesis",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Given distribution weight pairs mix the distributions",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "mix",
           "normalized": "[(Distr a,Double)]-\u003eDistr a",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegative infinity, the log of 0 probability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "negativeInfinity",
           "package": "mcmc-synthesis",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Negative infinity the log of probability",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "negativeInfinity",
           "package": "mcmc-synthesis",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA distribution over some integral type, inclusively between the 2\n values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "randInt",
           "package": "mcmc-synthesis",
@@ -220,6 +237,7 @@
         "index": {
           "description": "distribution over some integral type inclusively between the values",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "randInt",
           "normalized": "(a,a)-\u003eDistr a",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate n independent draws from a distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "replicate",
           "package": "mcmc-synthesis",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Generate independent draws from distribution",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "replicate",
           "normalized": "Int-\u003eDistr a-\u003eDistr[a]",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample a random item from the distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "sample",
           "package": "mcmc-synthesis",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Sample random item from the distribution",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "sample",
           "package": "mcmc-synthesis",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes (log . sum . map exp), with more numeric precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "sumByLogs",
           "package": "mcmc-synthesis",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Computes log sum map exp with more numeric precision",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "sumByLogs",
           "normalized": "[Double]-\u003eDouble",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Distribution",
           "name": "uniform",
           "package": "mcmc-synthesis",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Uniform distribution",
           "hierarchy": "Language Synthesis Distribution",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Distribution",
           "name": "uniform",
           "normalized": "[a]-\u003eDistr a",
@@ -334,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.MCMC",
           "name": "MCMC",
           "package": "mcmc-synthesis",
@@ -342,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis MCMC",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.MCMC",
           "name": "MCMC",
           "package": "mcmc-synthesis",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the Metropolis-Hastings algorithm to sample a list of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.MCMC",
           "name": "mhList",
           "package": "mcmc-synthesis",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Use the Metropolis-Hastings algorithm to sample list of values",
           "hierarchy": "Language Synthesis MCMC",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.MCMC",
           "name": "mhList",
           "normalized": "a-\u003e(a-\u003e(b,Double))-\u003e(a-\u003eDistr a)-\u003eRand c[(a,b,Double)]",
@@ -380,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Mutations",
           "name": "Mutations",
           "package": "mcmc-synthesis",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Mutations",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Mutations",
           "name": "Mutations",
           "package": "mcmc-synthesis",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Mutations",
           "name": "Mutation",
           "package": "mcmc-synthesis",
@@ -409,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Mutations",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Mutations",
           "name": "Mutation",
           "package": "mcmc-synthesis",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven (mutation, weight) list, mixes the mutations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Mutations",
           "name": "mix",
           "package": "mcmc-synthesis",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Given mutation weight list mixes the mutations",
           "hierarchy": "Language Synthesis Mutations",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Mutations",
           "name": "mix",
           "normalized": "[(Mutation a,Double)]-\u003eMutation a",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a distribution over instructions, mutates a random instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Mutations",
           "name": "mutateInstruction",
           "package": "mcmc-synthesis",
@@ -458,6 +495,7 @@
         "index": {
           "description": "Given distribution over instructions mutates random instruction",
           "hierarchy": "Language Synthesis Mutations",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Mutations",
           "name": "mutateInstruction",
           "normalized": "Distr a-\u003eMutation[a]",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Mutations",
           "name": "mutateInstructionAt",
           "package": "mcmc-synthesis",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Mutations",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Mutations",
           "name": "mutateInstructionAt",
           "normalized": "Distr a-\u003eInt-\u003e[a]-\u003eDistr[a]",
@@ -497,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Mutations",
           "name": "mutateInstructionsAt",
           "package": "mcmc-synthesis",
@@ -506,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Mutations",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Mutations",
           "name": "mutateInstructionsAt",
           "normalized": "Distr a-\u003e[Int]-\u003e[a]-\u003eDistr[a]",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps 2 random instructions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Mutations",
           "name": "swapInstructions",
           "package": "mcmc-synthesis",
@@ -532,6 +575,7 @@
         "index": {
           "description": "Swaps random instructions",
           "hierarchy": "Language Synthesis Mutations",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Mutations",
           "name": "swapInstructions",
           "normalized": "Mutation[a]",
@@ -547,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "Synthesis",
           "package": "mcmc-synthesis",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "Synthesis",
           "package": "mcmc-synthesis",
@@ -568,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "Mutation",
           "package": "mcmc-synthesis",
@@ -576,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "Mutation",
           "package": "mcmc-synthesis",
@@ -590,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type specifies which program to synthesize. It comes with a\n specification, which is a program that already works, some inputs\n and a distance function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "Problem",
           "package": "mcmc-synthesis",
@@ -599,6 +648,7 @@
         "index": {
           "description": "This type specifies which program to synthesize It comes with specification which is program that already works some inputs and distance function",
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "Problem",
           "package": "mcmc-synthesis",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA score is anything that can be mapped to a double.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "Score",
           "package": "mcmc-synthesis",
@@ -622,6 +673,7 @@
         "index": {
           "description": "score is anything that can be mapped to double",
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "Score",
           "package": "mcmc-synthesis",
@@ -635,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "Problem",
           "package": "mcmc-synthesis",
@@ -644,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "Problem",
           "package": "mcmc-synthesis",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "jump",
           "package": "mcmc-synthesis",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "jump",
           "package": "mcmc-synthesis",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "prior",
           "package": "mcmc-synthesis",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "prior",
           "package": "mcmc-synthesis",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven (value, score) pairs, return a running list of the best pair so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "runningBest",
           "package": "mcmc-synthesis",
@@ -710,6 +769,7 @@
         "index": {
           "description": "Given value score pairs return running list of the best pair so far",
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "runningBest",
           "normalized": "[(a,b)]-\u003e[(a,b)]",
@@ -725,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "score",
           "package": "mcmc-synthesis",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "score",
           "normalized": "a-\u003eb",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a prior distribution, score function, mutation distribution, generate\n a list of (program, score) values through MH sampling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "synthesizeMhList",
           "package": "mcmc-synthesis",
@@ -759,6 +822,7 @@
         "index": {
           "description": "Given prior distribution score function mutation distribution generate list of program score values through MH sampling",
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "synthesizeMhList",
           "normalized": "Problem a b-\u003eRand c[(a,b)]",
@@ -774,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:43 UTC 2014",
           "module": "Language.Synthesis.Synthesis",
           "name": "toScore",
           "package": "mcmc-synthesis",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Language Synthesis Synthesis",
+          "indexed": "2014-03-11T19:15:43",
           "module": "Language.Synthesis.Synthesis",
           "name": "toScore",
           "normalized": "a-\u003eDouble",

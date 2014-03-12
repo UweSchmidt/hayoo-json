@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ArrayRef"
+        "phrase": "ArrayRef",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "WithLocking",
           "package": "ArrayRef",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "WithLocking",
           "package": "ArrayRef",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "Locking",
           "package": "ArrayRef",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "Locking",
           "package": "ArrayRef",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "Add lock to object to ensure it's proper use in concurrent threads\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "addLocking",
           "package": "ArrayRef",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Add lock to object to ensure it proper use in concurrent threads",
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "addLocking",
           "normalized": "a-\u003eIO(WithLocking a)",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "Lift 1-parameter action to operation on locked variable\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock1",
           "package": "ArrayRef",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Lift parameter action to operation on locked variable",
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock1",
           "normalized": "(a-\u003eIO b)-\u003ec-\u003eIO b",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "Lift 2-parameter action to operation on locked variable\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock2",
           "package": "ArrayRef",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Lift parameter action to operation on locked variable",
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock2",
           "normalized": "(a-\u003eb-\u003eIO c)-\u003ed-\u003eb-\u003eIO c",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "Lift 3-parameter action to operation on locked variable\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock3",
           "package": "ArrayRef",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Lift parameter action to operation on locked variable",
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock3",
           "normalized": "(a-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003eb-\u003eb-\u003eIO c",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "Lift 4-parameter action to operation on locked variable\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock4",
           "package": "ArrayRef",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Lift parameter action to operation on locked variable",
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock4",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003eb-\u003eb-\u003eb-\u003eIO c",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "Lift 5-parameter action to operation on locked variable\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock5",
           "package": "ArrayRef",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Lift parameter action to operation on locked variable",
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "liftLock5",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "Perform action while exclusively locking wrapped object\n (faster analog of using \u003ctt\u003e\u003ca\u003ewithMVar\u003c/a\u003e\u003c/tt\u003e for the same purpose)\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "lock",
           "package": "ArrayRef",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Perform action while exclusively locking wrapped object faster analog of using withMVar for the same purpose",
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "lock",
           "normalized": "a-\u003e(b-\u003eIO c)-\u003eIO c",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "Run \u003ctt\u003eaction\u003c/tt\u003e with locked version of object\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Concurrent.LockingBZ",
           "name": "withLocking",
           "package": "ArrayRef",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Run action with locked version of object",
           "hierarchy": "Control Concurrent LockingBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Concurrent.LockingBZ",
           "name": "withLocking",
           "normalized": "a-\u003e(WithLocking a-\u003eIO b)-\u003eIO b",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "Type functions which converts universal ST or IO types to IO-specific ones\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Monad.STorIO",
           "name": "IOSpecific",
           "package": "ArrayRef",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Type functions which converts universal ST or IO types to IO-specific ones",
           "hierarchy": "Control Monad STorIO",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Monad.STorIO",
           "name": "IOSpecific",
           "package": "ArrayRef",
@@ -290,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Monad.STorIO",
           "name": "IOSpecific2",
           "package": "ArrayRef",
@@ -298,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STorIO",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Monad.STorIO",
           "name": "IOSpecific2",
           "package": "ArrayRef",
@@ -311,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Monad.STorIO",
           "name": "IOSpecific3",
           "package": "ArrayRef",
@@ -319,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STorIO",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Monad.STorIO",
           "name": "IOSpecific3",
           "package": "ArrayRef",
@@ -332,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Control.Monad.STorIO",
           "name": "STorIO",
           "package": "ArrayRef",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STorIO",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Control.Monad.STorIO",
           "name": "STorIO",
           "package": "ArrayRef",
@@ -378,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Boxed",
           "name": "Array",
           "package": "ArrayRef",
@@ -386,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Boxed",
           "name": "Array",
           "package": "ArrayRef",
@@ -400,6 +430,7 @@
       "document": {
         "description": {
           "description": "Boxed mutable arrays in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Boxed",
           "name": "IOArray",
           "package": "ArrayRef",
@@ -409,6 +440,7 @@
         "index": {
           "description": "Boxed mutable arrays in IO monad",
           "hierarchy": "Data ArrayBZ Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Boxed",
           "name": "IOArray",
           "package": "ArrayRef",
@@ -423,6 +455,7 @@
       "document": {
         "description": {
           "description": "Boxed mutable arrays in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Boxed",
           "name": "STArray",
           "package": "ArrayRef",
@@ -432,6 +465,7 @@
         "index": {
           "description": "Boxed mutable arrays in ST monad",
           "hierarchy": "Data ArrayBZ Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Boxed",
           "name": "STArray",
           "package": "ArrayRef",
@@ -446,6 +480,7 @@
       "document": {
         "description": {
           "description": "Fully polymorphic lazy boxed diff array.\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Diff",
           "name": "DiffArray",
           "package": "ArrayRef",
@@ -455,6 +490,7 @@
         "index": {
           "description": "Fully polymorphic lazy boxed diff array",
           "hierarchy": "Data ArrayBZ Diff",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Diff",
           "name": "DiffArray",
           "package": "ArrayRef",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "Strict unboxed diff array, working only for elements\n of primitive types but more compact and usually faster than \u003ctt\u003e\u003ca\u003eDiffArray\u003c/a\u003e\u003c/tt\u003e.\nModule \u003ca\u003eData.ArrayBZ.Internals.IArray\u003c/a\u003e provides the interface\n of diff arrays. They are instances of class \u003ctt\u003e\u003ca\u003eIArray\u003c/a\u003e\u003c/tt\u003e.\nThese are really internal functions, but you will need them\n to make further \u003ctt\u003e\u003ca\u003eIArray\u003c/a\u003e\u003c/tt\u003e instances of various diff array types\n (for either more \u003ctt\u003e\u003ca\u003eMArray\u003c/a\u003e\u003c/tt\u003e types or more unboxed element types).\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Diff",
           "name": "DiffUArray",
           "package": "ArrayRef",
@@ -478,6 +515,7 @@
         "index": {
           "description": "Strict unboxed diff array working only for elements of primitive types but more compact and usually faster than DiffArray Module Data.ArrayBZ.Internals.IArray provides the interface of diff arrays They are instances of class IArray These are really internal functions but you will need them to make further IArray instances of various diff array types for either more MArray types or more unboxed element types",
           "hierarchy": "Data ArrayBZ Diff",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Diff",
           "name": "DiffUArray",
           "package": "ArrayRef",
@@ -492,6 +530,7 @@
       "document": {
         "description": {
           "description": "Type synonyms for the two most important IO array types.\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Diff",
           "name": "IOToDiffArray",
           "package": "ArrayRef",
@@ -501,6 +540,7 @@
         "index": {
           "description": "Type synonyms for the two most important IO array types",
           "hierarchy": "Data ArrayBZ Diff",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Diff",
           "name": "IOToDiffArray",
           "package": "ArrayRef",
@@ -514,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Diff",
           "name": "newDiffArray",
           "package": "ArrayRef",
@@ -523,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Diff",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Diff",
           "name": "newDiffArray",
           "normalized": "(a,a)-\u003e[(Int,b)]-\u003eIO(IOToDiffArray c a b)",
@@ -538,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Diff",
           "name": "readDiffArray",
           "package": "ArrayRef",
@@ -547,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Diff",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Diff",
           "name": "readDiffArray",
           "normalized": "IOToDiffArray a b c-\u003eInt-\u003eIO c",
@@ -562,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Diff",
           "name": "replaceDiffArray",
           "package": "ArrayRef",
@@ -571,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Diff",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Diff",
           "name": "replaceDiffArray",
           "normalized": "IOToDiffArray a b c-\u003e[(Int,c)]-\u003eIO(IOToDiffArray a b c)",
@@ -586,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "Dynamic",
           "package": "ArrayRef",
@@ -594,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "Dynamic",
           "package": "ArrayRef",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "Dynamic arrays in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicIO",
           "package": "ArrayRef",
@@ -617,6 +666,7 @@
         "index": {
           "description": "Dynamic arrays in IO monad",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicIO",
           "package": "ArrayRef",
@@ -631,6 +681,7 @@
       "document": {
         "description": {
           "description": "Dynamic version of IOArray\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicIOArray",
           "package": "ArrayRef",
@@ -640,6 +691,7 @@
         "index": {
           "description": "Dynamic version of IOArray",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicIOArray",
           "package": "ArrayRef",
@@ -654,6 +706,7 @@
       "document": {
         "description": {
           "description": "Dynamic version of IOUArray\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicIOUArray",
           "package": "ArrayRef",
@@ -663,6 +716,7 @@
         "index": {
           "description": "Dynamic version of IOUArray",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicIOUArray",
           "package": "ArrayRef",
@@ -677,6 +731,7 @@
       "document": {
         "description": {
           "description": "Dynamic arrays in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicST",
           "package": "ArrayRef",
@@ -686,6 +741,7 @@
         "index": {
           "description": "Dynamic arrays in ST monad",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicST",
           "package": "ArrayRef",
@@ -700,6 +756,7 @@
       "document": {
         "description": {
           "description": "Dynamic version of STArray\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicSTArray",
           "package": "ArrayRef",
@@ -709,6 +766,7 @@
         "index": {
           "description": "Dynamic version of STArray",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicSTArray",
           "package": "ArrayRef",
@@ -723,6 +781,7 @@
       "document": {
         "description": {
           "description": "Dynamic version of STUArray\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicSTUArray",
           "package": "ArrayRef",
@@ -732,6 +791,7 @@
         "index": {
           "description": "Dynamic version of STUArray",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "DynamicSTUArray",
           "package": "ArrayRef",
@@ -746,6 +806,7 @@
       "document": {
         "description": {
           "description": "This type represents function that calculates new array bounds when it needs to grow\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "GrowBoundsF",
           "package": "ArrayRef",
@@ -755,6 +816,7 @@
         "index": {
           "description": "This type represents function that calculates new array bounds when it needs to grow",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "GrowBoundsF",
           "package": "ArrayRef",
@@ -769,6 +831,7 @@
       "document": {
         "description": {
           "description": "Grow minimally - only to include new index in array bounds. This growing\n method is compatible with any bounds type\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "growMinimally",
           "package": "ArrayRef",
@@ -779,6 +842,7 @@
         "index": {
           "description": "Grow minimally only to include new index in array bounds This growing method is compatible with any bounds type",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "growMinimally",
           "normalized": "(a,a)-\u003ea-\u003e(a,a)",
@@ -795,6 +859,7 @@
       "document": {
         "description": {
           "description": "Grow number of elements at least 2 times. This growing method is compatible\n only with bounds belonging to class Num\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "growTwoTimes",
           "package": "ArrayRef",
@@ -805,6 +870,7 @@
         "index": {
           "description": "Grow number of elements at least times This growing method is compatible only with bounds belonging to class Num",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "growTwoTimes",
           "normalized": "(a,a)-\u003ea-\u003e(a,a)",
@@ -821,6 +887,7 @@
       "document": {
         "description": {
           "description": "Create new dynamic array with default value for new cells set to \u003ctt\u003e\u003ca\u003einit\u003c/a\u003e\u003c/tt\u003e.\n   f is a growing strategy and may be \u003ctt\u003e\u003ca\u003enoGrow\u003c/a\u003e\u003c/tt\u003e, \u003ctt\u003e\u003ca\u003egrowMinimally\u003c/a\u003e\u003c/tt\u003e\n    or \u003ctt\u003e\u003ca\u003egrowTwoTimes\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "newDynamicArray",
           "package": "ArrayRef",
@@ -831,6 +898,7 @@
         "index": {
           "description": "Create new dynamic array with default value for new cells set to init is growing strategy and may be noGrow growMinimally or growTwoTimes",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "newDynamicArray",
           "normalized": "GrowBoundsF a-\u003e(a,a)-\u003eb-\u003ec(Dynamic d e a b)",
@@ -847,6 +915,7 @@
       "document": {
         "description": {
           "description": "Create new dynamic array where all new cells will remain uninitialized.\n   f is a growing strategy and may be \u003ctt\u003e\u003ca\u003enoGrow\u003c/a\u003e\u003c/tt\u003e, \u003ctt\u003e\u003ca\u003egrowMinimally\u003c/a\u003e\u003c/tt\u003e\n    or \u003ctt\u003e\u003ca\u003egrowTwoTimes\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "newDynamicArray_",
           "package": "ArrayRef",
@@ -857,6 +926,7 @@
         "index": {
           "description": "Create new dynamic array where all new cells will remain uninitialized is growing strategy and may be noGrow growMinimally or growTwoTimes",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "newDynamicArray_",
           "normalized": "GrowBoundsF a-\u003e(a,a)-\u003eb(Dynamic c d a e)",
@@ -873,6 +943,7 @@
       "document": {
         "description": {
           "description": "No automatic growing at all. This \u003ca\u003egrowing\u003c/a\u003e method is compatible with any\n bounds type\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "noGrow",
           "package": "ArrayRef",
@@ -883,6 +954,7 @@
         "index": {
           "description": "No automatic growing at all This growing method is compatible with any bounds type",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "noGrow",
           "normalized": "a-\u003ea-\u003eb",
@@ -899,6 +971,7 @@
       "document": {
         "description": {
           "description": "Extend/shrink dynamic array to new bounds\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "resizeDynamicArray",
           "package": "ArrayRef",
@@ -909,6 +982,7 @@
         "index": {
           "description": "Extend shrink dynamic array to new bounds",
           "hierarchy": "Data ArrayBZ Dynamic",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Dynamic",
           "name": "resizeDynamicArray",
           "normalized": "Dynamic a b c a-\u003e(c,c)-\u003ea()",
@@ -924,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.IArray",
           "name": "Array",
           "package": "ArrayRef",
@@ -932,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.IArray",
           "name": "Array",
           "package": "ArrayRef",
@@ -997,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.IArray",
           "name": "HasBounds",
           "package": "ArrayRef",
@@ -1005,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.IArray",
           "name": "HasBounds",
           "package": "ArrayRef",
@@ -1018,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.IArray",
           "name": "IArray",
           "package": "ArrayRef",
@@ -1026,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.IArray",
           "name": "IArray",
           "package": "ArrayRef",
@@ -1302,6 +1382,7 @@
       "document": {
         "description": {
           "description": "Boxed mutable arrays in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.IO",
           "name": "IOArray",
           "package": "ArrayRef",
@@ -1311,6 +1392,7 @@
         "index": {
           "description": "Boxed mutable arrays in IO monad",
           "hierarchy": "Data ArrayBZ IO",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.IO",
           "name": "IOArray",
           "package": "ArrayRef",
@@ -1325,6 +1407,7 @@
       "document": {
         "description": {
           "description": "Unboxed mutable arrays in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.IO",
           "name": "IOUArray",
           "package": "ArrayRef",
@@ -1334,6 +1417,7 @@
         "index": {
           "description": "Unboxed mutable arrays in IO monad",
           "hierarchy": "Data ArrayBZ IO",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.IO",
           "name": "IOUArray",
           "package": "ArrayRef",
@@ -1375,6 +1459,7 @@
       "document": {
         "description": {
           "description": "Handle to read from\nArray in which to place the values\nNumber of \u003ctt\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/tt\u003es to read\nReturns: the number of \u003ctt\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/tt\u003es actually\n read, which might be smaller than the number requested\n if the end of file was reached.\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.IO",
           "name": "hGetArray",
           "package": "ArrayRef",
@@ -1385,6 +1470,7 @@
         "index": {
           "description": "Handle to read from Array in which to place the values Number of Word8 to read Returns the number of Word8 actually read which might be smaller than the number requested if the end of file was reached",
           "hierarchy": "Data ArrayBZ IO",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.IO",
           "name": "hGetArray",
           "normalized": "Handle-\u003eIOUArray Int Word-\u003eInt-\u003eIO Int",
@@ -1401,6 +1487,7 @@
       "document": {
         "description": {
           "description": "Handle to write to\nArray to write from\nNumber of \u003ctt\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/tt\u003es to write\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.IO",
           "name": "hPutArray",
           "package": "ArrayRef",
@@ -1411,6 +1498,7 @@
         "index": {
           "description": "Handle to write to Array to write from Number of Word8 to write",
           "hierarchy": "Data ArrayBZ IO",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.IO",
           "name": "hPutArray",
           "normalized": "Handle-\u003eIOUArray Int Word-\u003eInt-\u003eIO()",
@@ -1426,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "Array",
           "package": "ArrayRef",
@@ -1434,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "Array",
           "package": "ArrayRef",
@@ -1447,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "BoxedMutableArray",
           "package": "ArrayRef",
@@ -1455,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "BoxedMutableArray",
           "package": "ArrayRef",
@@ -1469,6 +1561,7 @@
       "document": {
         "description": {
           "description": "Boxed mutable arrays in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "IOArray",
           "package": "ArrayRef",
@@ -1478,6 +1571,7 @@
         "index": {
           "description": "Boxed mutable arrays in IO monad",
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "IOArray",
           "package": "ArrayRef",
@@ -1492,6 +1586,7 @@
       "document": {
         "description": {
           "description": "Boxed mutable arrays in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "STArray",
           "package": "ArrayRef",
@@ -1501,6 +1596,7 @@
         "index": {
           "description": "Boxed mutable arrays in ST monad",
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "STArray",
           "package": "ArrayRef",
@@ -1514,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "doAccum",
           "package": "ArrayRef",
@@ -1523,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "doAccum",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Int,a)]-\u003eb c a-\u003ea()",
@@ -1538,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "doReplace",
           "package": "ArrayRef",
@@ -1547,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "doReplace",
           "normalized": "[(Int,a)]-\u003eb c a-\u003ed()",
@@ -1562,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "freezeBA",
           "package": "ArrayRef",
@@ -1571,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "freezeBA",
           "normalized": "BoxedMutableArray a a a-\u003ea(Array a a)",
@@ -1587,6 +1689,7 @@
       "document": {
         "description": {
           "description": "Freeze/thaw rules for IOArray\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "freezeIOArray",
           "package": "ArrayRef",
@@ -1597,6 +1700,7 @@
         "index": {
           "description": "Freeze thaw rules for IOArray",
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "freezeIOArray",
           "normalized": "IOArray a b-\u003eIO(Array a b)",
@@ -1613,6 +1717,7 @@
       "document": {
         "description": {
           "description": "Freeze/thaw rules for STArray\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "freezeSTArray",
           "package": "ArrayRef",
@@ -1623,6 +1728,7 @@
         "index": {
           "description": "Freeze thaw rules for STArray",
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "freezeSTArray",
           "normalized": "STArray a b c-\u003eST a(Array b c)",
@@ -1638,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "iOArrayTc",
           "package": "ArrayRef",
@@ -1647,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "iOArrayTc",
           "package": "ArrayRef",
@@ -1661,6 +1769,7 @@
       "document": {
         "description": {
           "description": "Number of array elements\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "sizeOfBA",
           "package": "ArrayRef",
@@ -1671,6 +1780,7 @@
         "index": {
           "description": "Number of array elements",
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "sizeOfBA",
           "normalized": "a a b-\u003eInt",
@@ -1686,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "stArrayTc",
           "package": "ArrayRef",
@@ -1695,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "stArrayTc",
           "package": "ArrayRef",
@@ -1708,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "thawBA",
           "package": "ArrayRef",
@@ -1717,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "thawBA",
           "normalized": "Array a a-\u003ea(BoxedMutableArray b a a)",
@@ -1732,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "thawIOArray",
           "package": "ArrayRef",
@@ -1741,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "thawIOArray",
           "normalized": "Array a b-\u003eIO(IOArray a b)",
@@ -1756,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "thawSTArray",
           "package": "ArrayRef",
@@ -1765,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "thawSTArray",
           "normalized": "Array a b-\u003eST c(STArray c a b)",
@@ -1780,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeFreezeBA",
           "package": "ArrayRef",
@@ -1789,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeFreezeBA",
           "normalized": "BoxedMutableArray a a a-\u003ea(Array a a)",
@@ -1804,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeFreezeIOArray",
           "package": "ArrayRef",
@@ -1813,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeFreezeIOArray",
           "normalized": "IOArray a b-\u003eIO(Array a b)",
@@ -1828,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeFreezeSTArray",
           "package": "ArrayRef",
@@ -1837,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeFreezeSTArray",
           "normalized": "STArray a b c-\u003eST a(Array b c)",
@@ -1852,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeThawBA",
           "package": "ArrayRef",
@@ -1861,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeThawBA",
           "normalized": "Array a a-\u003ea(BoxedMutableArray b a a)",
@@ -1876,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeThawIOArray",
           "package": "ArrayRef",
@@ -1885,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeThawIOArray",
           "normalized": "Array a b-\u003eIO(IOArray a b)",
@@ -1900,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeThawSTArray",
           "package": "ArrayRef",
@@ -1909,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "unsafeThawSTArray",
           "normalized": "Array a b-\u003eST c(STArray c a b)",
@@ -1924,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "withArrayCopy",
           "package": "ArrayRef",
@@ -1933,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "withArrayCopy",
           "normalized": "Array a a-\u003e(BoxedMutableArray b a a-\u003ea a)-\u003ea(Array a a)",
@@ -1948,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "withNewArray",
           "package": "ArrayRef",
@@ -1957,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Boxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Boxed",
           "name": "withNewArray",
           "normalized": "(a,a)-\u003eb-\u003e(BoxedMutableArray c a b-\u003ec c)-\u003ec(Array a b)",
@@ -1972,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "HasBounds",
           "package": "ArrayRef",
@@ -1980,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "HasBounds",
           "package": "ArrayRef",
@@ -1993,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "IArray",
           "package": "ArrayRef",
@@ -2001,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "IArray",
           "package": "ArrayRef",
@@ -2014,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "cmpIArray",
           "package": "ArrayRef",
@@ -2023,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "cmpIArray",
           "normalized": "a b c-\u003ea b c-\u003eOrdering",
@@ -2038,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "cmpIntIArray",
           "package": "ArrayRef",
@@ -2047,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "cmpIntIArray",
           "normalized": "a Int b-\u003ea Int b-\u003eOrdering",
@@ -2062,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "eqIArray",
           "package": "ArrayRef",
@@ -2071,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "eqIArray",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -2086,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "showsIArray",
           "package": "ArrayRef",
@@ -2095,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "showsIArray",
           "normalized": "Int-\u003ea b c-\u003eShowS",
@@ -2110,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeAccum",
           "package": "ArrayRef",
@@ -2119,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeAccum",
           "normalized": "(a-\u003eb-\u003ea)-\u003ec d a-\u003e[(Int,b)]-\u003ec d a",
@@ -2134,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeAccumArray",
           "package": "ArrayRef",
@@ -2143,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeAccumArray",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e(c,c)-\u003e[(Int,b)]-\u003ed c a",
@@ -2158,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeArray",
           "package": "ArrayRef",
@@ -2167,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeArray",
           "normalized": "(a,a)-\u003e[(Int,b)]-\u003ec a b",
@@ -2182,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeAt",
           "package": "ArrayRef",
@@ -2191,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeAt",
           "normalized": "a b c-\u003eInt-\u003ec",
@@ -2206,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeReplace",
           "package": "ArrayRef",
@@ -2215,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals IArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.IArray",
           "name": "unsafeReplace",
           "normalized": "a b c-\u003e[(Int,c)]-\u003ea b c",
@@ -2230,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "HasMutableBounds",
           "package": "ArrayRef",
@@ -2238,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals MArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "HasMutableBounds",
           "package": "ArrayRef",
@@ -2251,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "MArray",
           "package": "ArrayRef",
@@ -2259,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals MArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "MArray",
           "package": "ArrayRef",
@@ -2273,6 +2433,7 @@
       "document": {
         "description": {
           "description": "Value used to initialize undefined array elements\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "arrEleBottom",
           "package": "ArrayRef",
@@ -2283,6 +2444,7 @@
         "index": {
           "description": "Value used to initialize undefined array elements",
           "hierarchy": "Data ArrayBZ Internals MArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "arrEleBottom",
           "package": "ArrayRef",
@@ -2643,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "unsafeRead",
           "package": "ArrayRef",
@@ -2652,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals MArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "unsafeRead",
           "normalized": "a b c-\u003eInt-\u003ed c",
@@ -2694,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "unsafeWrite",
           "package": "ArrayRef",
@@ -2703,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals MArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.MArray",
           "name": "unsafeWrite",
           "normalized": "a b c-\u003eInt-\u003ec-\u003ed()",
@@ -2744,6 +2910,7 @@
       "document": {
         "description": {
           "description": "Unboxed mutable arrays in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "IOUArray",
           "package": "ArrayRef",
@@ -2753,6 +2920,7 @@
         "index": {
           "description": "Unboxed mutable arrays in IO monad",
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "IOUArray",
           "package": "ArrayRef",
@@ -2767,6 +2935,7 @@
       "document": {
         "description": {
           "description": "Unboxed mutable arrays in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "STUArray",
           "package": "ArrayRef",
@@ -2776,6 +2945,7 @@
         "index": {
           "description": "Unboxed mutable arrays in ST monad",
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "STUArray",
           "package": "ArrayRef",
@@ -2789,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "UArray",
           "package": "ArrayRef",
@@ -2797,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "UArray",
           "package": "ArrayRef",
@@ -2810,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "UnboxedMutableArray",
           "package": "ArrayRef",
@@ -2818,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "UnboxedMutableArray",
           "package": "ArrayRef",
@@ -2885,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "doAccum",
           "package": "ArrayRef",
@@ -2894,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "doAccum",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Int,a)]-\u003eb c a-\u003ea()",
@@ -2909,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "doReplace",
           "package": "ArrayRef",
@@ -2918,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "doReplace",
           "normalized": "[(Int,a)]-\u003eb c a-\u003ed()",
@@ -2934,6 +3112,7 @@
       "document": {
         "description": {
           "description": "Freeze/thaw rules for IOUArray\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "freezeIOUArray",
           "package": "ArrayRef",
@@ -2944,6 +3123,7 @@
         "index": {
           "description": "Freeze thaw rules for IOUArray",
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "freezeIOUArray",
           "normalized": "IOUArray a b-\u003eIO(UArray a b)",
@@ -2960,6 +3140,7 @@
       "document": {
         "description": {
           "description": "Freeze/thaw rules for STUArray\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "freezeSTUArray",
           "package": "ArrayRef",
@@ -2970,6 +3151,7 @@
         "index": {
           "description": "Freeze thaw rules for STUArray",
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "freezeSTUArray",
           "normalized": "STUArray a b c-\u003eST a(UArray b c)",
@@ -2985,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "freezeUA",
           "package": "ArrayRef",
@@ -2994,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "freezeUA",
           "normalized": "UnboxedMutableArray a a a-\u003ea(UArray a a)",
@@ -3009,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "iOUArrayTc",
           "package": "ArrayRef",
@@ -3018,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "iOUArrayTc",
           "package": "ArrayRef",
@@ -3032,6 +3218,7 @@
       "document": {
         "description": {
           "description": "Array size in bytes\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "sizeOfUA",
           "package": "ArrayRef",
@@ -3042,6 +3229,7 @@
         "index": {
           "description": "Array size in bytes",
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "sizeOfUA",
           "normalized": "UArray a b-\u003eInt",
@@ -3057,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "sizeOfUMA",
           "package": "ArrayRef",
@@ -3066,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "sizeOfUMA",
           "normalized": "UnboxedMutableArray a b c-\u003eInt",
@@ -3081,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "stUArrayTc",
           "package": "ArrayRef",
@@ -3090,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "stUArrayTc",
           "package": "ArrayRef",
@@ -3103,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "thawIOUArray",
           "package": "ArrayRef",
@@ -3112,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "thawIOUArray",
           "normalized": "UArray a b-\u003eIO(IOUArray a b)",
@@ -3127,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "thawSTUArray",
           "package": "ArrayRef",
@@ -3136,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "thawSTUArray",
           "normalized": "UArray a b-\u003eST c(STUArray c a b)",
@@ -3151,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "thawUA",
           "package": "ArrayRef",
@@ -3160,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "thawUA",
           "normalized": "UArray a a-\u003ea(UnboxedMutableArray b a a)",
@@ -3175,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "uArrayTc",
           "package": "ArrayRef",
@@ -3184,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "uArrayTc",
           "package": "ArrayRef",
@@ -3197,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeFreezeIOUArray",
           "package": "ArrayRef",
@@ -3206,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeFreezeIOUArray",
           "normalized": "IOUArray a b-\u003eIO(UArray a b)",
@@ -3221,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeFreezeSTUArray",
           "package": "ArrayRef",
@@ -3230,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeFreezeSTUArray",
           "normalized": "STUArray a b c-\u003eST a(UArray b c)",
@@ -3245,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeFreezeUA",
           "package": "ArrayRef",
@@ -3254,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeFreezeUA",
           "normalized": "UnboxedMutableArray a a a-\u003ea(UArray a a)",
@@ -3269,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeThawIOUArray",
           "package": "ArrayRef",
@@ -3278,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeThawIOUArray",
           "normalized": "UArray a b-\u003eIO(IOUArray a b)",
@@ -3293,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeThawSTUArray",
           "package": "ArrayRef",
@@ -3302,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeThawSTUArray",
           "normalized": "UArray a b-\u003eST c(STUArray c a b)",
@@ -3317,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeThawUA",
           "package": "ArrayRef",
@@ -3326,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "unsafeThawUA",
           "normalized": "UArray a a-\u003ea(UnboxedMutableArray b a a)",
@@ -3341,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "withArrayCopy",
           "package": "ArrayRef",
@@ -3350,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "withArrayCopy",
           "normalized": "UArray a a-\u003e(UnboxedMutableArray b a a-\u003ea a)-\u003ea(UArray a a)",
@@ -3365,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "withNewArray",
           "package": "ArrayRef",
@@ -3374,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Internals Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Internals.Unboxed",
           "name": "withNewArray",
           "normalized": "(a,a)-\u003eb-\u003e(UnboxedMutableArray c a b-\u003ec c)-\u003ec(UArray a b)",
@@ -3389,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.MArray",
           "name": "HasBounds",
           "package": "ArrayRef",
@@ -3397,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ MArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.MArray",
           "name": "HasBounds",
           "package": "ArrayRef",
@@ -3410,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.MArray",
           "name": "HasMutableBounds",
           "package": "ArrayRef",
@@ -3418,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ MArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.MArray",
           "name": "HasMutableBounds",
           "package": "ArrayRef",
@@ -3431,6 +3651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.MArray",
           "name": "MArray",
           "package": "ArrayRef",
@@ -3439,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ MArray",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.MArray",
           "name": "MArray",
           "package": "ArrayRef",
@@ -3453,6 +3675,7 @@
       "document": {
         "description": {
           "description": "Boxed mutable arrays in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.ST",
           "name": "STArray",
           "package": "ArrayRef",
@@ -3462,6 +3685,7 @@
         "index": {
           "description": "Boxed mutable arrays in ST monad",
           "hierarchy": "Data ArrayBZ ST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.ST",
           "name": "STArray",
           "package": "ArrayRef",
@@ -3476,6 +3700,7 @@
       "document": {
         "description": {
           "description": "Unboxed mutable arrays in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.ST",
           "name": "STUArray",
           "package": "ArrayRef",
@@ -3485,6 +3710,7 @@
         "index": {
           "description": "Unboxed mutable arrays in ST monad",
           "hierarchy": "Data ArrayBZ ST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.ST",
           "name": "STUArray",
           "package": "ArrayRef",
@@ -3499,6 +3725,7 @@
       "document": {
         "description": {
           "description": "A safe way to create and work with a mutable array before returning an\n immutable array for later perusal.  This function avoids copying\n the array before returning it - it uses \u003ctt\u003e\u003ca\u003eunsafeFreeze\u003c/a\u003e\u003c/tt\u003e internally, but\n this wrapper is a safe interface to that function.\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.ST",
           "name": "runSTArray",
           "package": "ArrayRef",
@@ -3509,6 +3736,7 @@
         "index": {
           "description": "safe way to create and work with mutable array before returning an immutable array for later perusal This function avoids copying the array before returning it it uses unsafeFreeze internally but this wrapper is safe interface to that function",
           "hierarchy": "Data ArrayBZ ST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.ST",
           "name": "runSTArray",
           "normalized": "(a b ST c(STArray c d e))-\u003eArray d e",
@@ -3525,6 +3753,7 @@
       "document": {
         "description": {
           "description": "A safe way to create and work with an unboxed mutable array before\n returning an immutable array for later perusal.  This function\n avoids copying the array before returning it - it uses\n \u003ctt\u003e\u003ca\u003eunsafeFreeze\u003c/a\u003e\u003c/tt\u003e internally, but this wrapper is a safe interface to\n that function.\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.ST",
           "name": "runSTUArray",
           "package": "ArrayRef",
@@ -3535,6 +3764,7 @@
         "index": {
           "description": "safe way to create and work with an unboxed mutable array before returning an immutable array for later perusal This function avoids copying the array before returning it it uses unsafeFreeze internally but this wrapper is safe interface to that function",
           "hierarchy": "Data ArrayBZ ST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.ST",
           "name": "runSTUArray",
           "normalized": "(a b ST c(STUArray c d e))-\u003eUArray d e",
@@ -3551,6 +3781,7 @@
       "document": {
         "description": {
           "description": "Module \u003ca\u003eData.ArrayBZ.Internals.MArray\u003c/a\u003e provides the interface of storable arrays.\n They are instances of class \u003ctt\u003e\u003ca\u003eMArray\u003c/a\u003e\u003c/tt\u003e (with the \u003ctt\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/tt\u003e monad).\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Storable",
           "name": "StorableArray",
           "package": "ArrayRef",
@@ -3560,6 +3791,7 @@
         "index": {
           "description": "Module Data.ArrayBZ.Internals.MArray provides the interface of storable arrays They are instances of class MArray with the IO monad",
           "hierarchy": "Data ArrayBZ Storable",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Storable",
           "name": "StorableArray",
           "package": "ArrayRef",
@@ -3574,6 +3806,7 @@
       "document": {
         "description": {
           "description": "If you want to use it afterwards, ensure that you\n \u003ctt\u003e\u003ca\u003etouchStorableArray\u003c/a\u003e\u003c/tt\u003e after the last use of the pointer,\n so the array is not freed too early.\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Storable",
           "name": "touchStorableArray",
           "package": "ArrayRef",
@@ -3584,6 +3817,7 @@
         "index": {
           "description": "If you want to use it afterwards ensure that you touchStorableArray after the last use of the pointer so the array is not freed too early",
           "hierarchy": "Data ArrayBZ Storable",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Storable",
           "name": "touchStorableArray",
           "normalized": "StorableArray a b-\u003eIO()",
@@ -3600,6 +3834,7 @@
       "document": {
         "description": {
           "description": "Construct a \u003ctt\u003e\u003ca\u003eStorableArray\u003c/a\u003e\u003c/tt\u003e from an arbitrary \u003ctt\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/tt\u003e.  It is\n the caller's responsibility to ensure that the \u003ctt\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/tt\u003e points to\n an area of memory sufficient for the specified bounds.\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Storable",
           "name": "unsafeForeignPtrToStorableArray",
           "package": "ArrayRef",
@@ -3610,6 +3845,7 @@
         "index": {
           "description": "Construct StorableArray from an arbitrary ForeignPtr It is the caller responsibility to ensure that the ForeignPtr points to an area of memory sufficient for the specified bounds",
           "hierarchy": "Data ArrayBZ Storable",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Storable",
           "name": "unsafeForeignPtrToStorableArray",
           "normalized": "ForeignPtr a-\u003e(b,b)-\u003eIO(StorableArray b a)",
@@ -3626,6 +3862,7 @@
       "document": {
         "description": {
           "description": "The pointer to the array contents is obtained by \u003ctt\u003e\u003ca\u003ewithStorableArray\u003c/a\u003e\u003c/tt\u003e.\n The idea is similar to \u003ctt\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/tt\u003e (used internally here).\n The pointer should be used only during execution of the \u003ctt\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/tt\u003e action\n retured by the function passed as argument to \u003ctt\u003e\u003ca\u003ewithStorableArray\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Storable",
           "name": "withStorableArray",
           "package": "ArrayRef",
@@ -3636,6 +3873,7 @@
         "index": {
           "description": "The pointer to the array contents is obtained by withStorableArray The idea is similar to ForeignPtr used internally here The pointer should be used only during execution of the IO action retured by the function passed as argument to withStorableArray",
           "hierarchy": "Data ArrayBZ Storable",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Storable",
           "name": "withStorableArray",
           "normalized": "StorableArray a b-\u003e(Ptr b-\u003eIO c)-\u003eIO c",
@@ -3652,6 +3890,7 @@
       "document": {
         "description": {
           "description": "Unboxed mutable arrays in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Unboxed",
           "name": "IOUArray",
           "package": "ArrayRef",
@@ -3661,6 +3900,7 @@
         "index": {
           "description": "Unboxed mutable arrays in IO monad",
           "hierarchy": "Data ArrayBZ Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Unboxed",
           "name": "IOUArray",
           "package": "ArrayRef",
@@ -3675,6 +3915,7 @@
       "document": {
         "description": {
           "description": "Unboxed mutable arrays in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Unboxed",
           "name": "STUArray",
           "package": "ArrayRef",
@@ -3684,6 +3925,7 @@
         "index": {
           "description": "Unboxed mutable arrays in ST monad",
           "hierarchy": "Data ArrayBZ Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Unboxed",
           "name": "STUArray",
           "package": "ArrayRef",
@@ -3697,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.ArrayBZ.Unboxed",
           "name": "UArray",
           "package": "ArrayRef",
@@ -3705,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Data ArrayBZ Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.ArrayBZ.Unboxed",
           "name": "UArray",
           "package": "ArrayRef",
@@ -3718,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.HasDefaultValue",
           "name": "HasDefaultValue",
           "package": "ArrayRef",
@@ -3726,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Data HasDefaultValue",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.HasDefaultValue",
           "name": "HasDefaultValue",
           "package": "ArrayRef",
@@ -3739,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.HasDefaultValue",
           "name": "defaultValue",
           "package": "ArrayRef",
@@ -3748,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Data HasDefaultValue",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.HasDefaultValue",
           "name": "defaultValue",
           "package": "ArrayRef",
@@ -3761,6 +4009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.LazyST",
           "name": "STURef",
           "package": "ArrayRef",
@@ -3769,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "Data Ref LazyST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.LazyST",
           "name": "STURef",
           "package": "ArrayRef",
@@ -3782,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.LazyST",
           "name": "modifySTURef",
           "package": "ArrayRef",
@@ -3791,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Data Ref LazyST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.LazyST",
           "name": "modifySTURef",
           "normalized": "STURef a b-\u003e(b-\u003eb)-\u003eST a()",
@@ -3806,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.LazyST",
           "name": "newSTURef",
           "package": "ArrayRef",
@@ -3815,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Data Ref LazyST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.LazyST",
           "name": "newSTURef",
           "normalized": "a-\u003eST b(STURef b a)",
@@ -3830,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.LazyST",
           "name": "readSTURef",
           "package": "ArrayRef",
@@ -3839,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Data Ref LazyST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.LazyST",
           "name": "readSTURef",
           "normalized": "STURef a b-\u003eST a b",
@@ -3854,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.LazyST",
           "name": "writeSTURef",
           "package": "ArrayRef",
@@ -3863,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Data Ref LazyST",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.LazyST",
           "name": "writeSTURef",
           "normalized": "STURef a b-\u003eb-\u003eST a()",
@@ -3878,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "IOURef",
           "package": "ArrayRef",
@@ -3886,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "IOURef",
           "package": "ArrayRef",
@@ -3899,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "STURef",
           "package": "ArrayRef",
@@ -3907,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "STURef",
           "package": "ArrayRef",
@@ -3920,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "ioURefTc",
           "package": "ArrayRef",
@@ -3929,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "ioURefTc",
           "package": "ArrayRef",
@@ -3943,6 +4207,7 @@
       "document": {
         "description": {
           "description": "Modify contents of an \u003ctt\u003e\u003ca\u003eIOURef\u003c/a\u003e\u003c/tt\u003e by applying pure function to it\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "modifyIOURef",
           "package": "ArrayRef",
@@ -3953,6 +4218,7 @@
         "index": {
           "description": "Modify contents of an IOURef by applying pure function to it",
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "modifyIOURef",
           "normalized": "IOURef a-\u003e(a-\u003ea)-\u003eIO()",
@@ -3969,6 +4235,7 @@
       "document": {
         "description": {
           "description": "Modify contents of an \u003ctt\u003e\u003ca\u003eSTURef\u003c/a\u003e\u003c/tt\u003e by applying pure function to it\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "modifySTURef",
           "package": "ArrayRef",
@@ -3979,6 +4246,7 @@
         "index": {
           "description": "Modify contents of an STURef by applying pure function to it",
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "modifySTURef",
           "normalized": "STURef a b-\u003e(b-\u003eb)-\u003eST a()",
@@ -3995,6 +4263,7 @@
       "document": {
         "description": {
           "description": "Create new unboxed reference in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "newIOURef",
           "package": "ArrayRef",
@@ -4005,6 +4274,7 @@
         "index": {
           "description": "Create new unboxed reference in IO monad",
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "newIOURef",
           "normalized": "a-\u003eIO(IOURef a)",
@@ -4021,6 +4291,7 @@
       "document": {
         "description": {
           "description": "Create new unboxed reference in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "newSTURef",
           "package": "ArrayRef",
@@ -4031,6 +4302,7 @@
         "index": {
           "description": "Create new unboxed reference in ST monad",
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "newSTURef",
           "normalized": "a-\u003eST b(STURef b a)",
@@ -4047,6 +4319,7 @@
       "document": {
         "description": {
           "description": "Read current value of unboxed reference in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "readIOURef",
           "package": "ArrayRef",
@@ -4057,6 +4330,7 @@
         "index": {
           "description": "Read current value of unboxed reference in IO monad",
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "readIOURef",
           "normalized": "IOURef a-\u003eIO a",
@@ -4073,6 +4347,7 @@
       "document": {
         "description": {
           "description": "Read current value of unboxed reference in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "readSTURef",
           "package": "ArrayRef",
@@ -4083,6 +4358,7 @@
         "index": {
           "description": "Read current value of unboxed reference in ST monad",
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "readSTURef",
           "normalized": "STURef a b-\u003eST a b",
@@ -4098,6 +4374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "stURefTc",
           "package": "ArrayRef",
@@ -4107,6 +4384,7 @@
         },
         "index": {
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "stURefTc",
           "package": "ArrayRef",
@@ -4121,6 +4399,7 @@
       "document": {
         "description": {
           "description": "Change value of unboxed reference in IO monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "writeIOURef",
           "package": "ArrayRef",
@@ -4131,6 +4410,7 @@
         "index": {
           "description": "Change value of unboxed reference in IO monad",
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "writeIOURef",
           "normalized": "IOURef a-\u003ea-\u003eIO()",
@@ -4147,6 +4427,7 @@
       "document": {
         "description": {
           "description": "Change value of unboxed reference in ST monad\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Unboxed",
           "name": "writeSTURef",
           "package": "ArrayRef",
@@ -4157,6 +4438,7 @@
         "index": {
           "description": "Change value of unboxed reference in ST monad",
           "hierarchy": "Data Ref Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Unboxed",
           "name": "writeSTURef",
           "normalized": "STURef a b-\u003eb-\u003eST a()",
@@ -4172,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "Ref",
           "package": "ArrayRef",
@@ -4180,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "Ref",
           "package": "ArrayRef",
@@ -4193,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "URef",
           "package": "ArrayRef",
@@ -4201,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "URef",
           "package": "ArrayRef",
@@ -4215,6 +4501,7 @@
       "document": {
         "description": {
           "description": "Modify the contents of an \u003ctt\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/tt\u003e by applying pure function to it\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "modifyRef",
           "package": "ArrayRef",
@@ -4225,6 +4512,7 @@
         "index": {
           "description": "Modify the contents of an Ref by applying pure function to it",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "modifyRef",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -4241,6 +4529,7 @@
       "document": {
         "description": {
           "description": "Modify the contents of an \u003ctt\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/tt\u003e by applying monadic computation to it\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "modifyRefM",
           "package": "ArrayRef",
@@ -4251,6 +4540,7 @@
         "index": {
           "description": "Modify the contents of an Ref by applying monadic computation to it",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "modifyRefM",
           "normalized": "a b-\u003e(b-\u003ec b)-\u003ec()",
@@ -4267,6 +4557,7 @@
       "document": {
         "description": {
           "description": "Modify the contents of an \u003ctt\u003e\u003ca\u003eURef\u003c/a\u003e\u003c/tt\u003e by applying pure function to it\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "modifyURef",
           "package": "ArrayRef",
@@ -4277,6 +4568,7 @@
         "index": {
           "description": "Modify the contents of an URef by applying pure function to it",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "modifyURef",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -4293,6 +4585,7 @@
       "document": {
         "description": {
           "description": "Modify the contents of an \u003ctt\u003e\u003ca\u003eURef\u003c/a\u003e\u003c/tt\u003e by applying monadic computation to it\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "modifyURefM",
           "package": "ArrayRef",
@@ -4303,6 +4596,7 @@
         "index": {
           "description": "Modify the contents of an URef by applying monadic computation to it",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "modifyURefM",
           "normalized": "a b-\u003e(b-\u003ec b)-\u003ec()",
@@ -4319,6 +4613,7 @@
       "document": {
         "description": {
           "description": "Create a new \u003ctt\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/tt\u003e with given initial value\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "newRef",
           "package": "ArrayRef",
@@ -4329,6 +4624,7 @@
         "index": {
           "description": "Create new Ref with given initial value",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "newRef",
           "normalized": "a-\u003eb(c a)",
@@ -4345,6 +4641,7 @@
       "document": {
         "description": {
           "description": "Create a new \u003ctt\u003e\u003ca\u003eURef\u003c/a\u003e\u003c/tt\u003e with given initial value\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "newURef",
           "package": "ArrayRef",
@@ -4355,6 +4652,7 @@
         "index": {
           "description": "Create new URef with given initial value",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "newURef",
           "normalized": "a-\u003eb(c a)",
@@ -4371,6 +4669,7 @@
       "document": {
         "description": {
           "description": "Read the value of an \u003ctt\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "readRef",
           "package": "ArrayRef",
@@ -4381,6 +4680,7 @@
         "index": {
           "description": "Read the value of an Ref",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "readRef",
           "normalized": "a b-\u003ec b",
@@ -4397,6 +4697,7 @@
       "document": {
         "description": {
           "description": "Read the value of an \u003ctt\u003e\u003ca\u003eURef\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "readURef",
           "package": "ArrayRef",
@@ -4407,6 +4708,7 @@
         "index": {
           "description": "Read the value of an URef",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "readURef",
           "normalized": "a b-\u003ec b",
@@ -4423,6 +4725,7 @@
       "document": {
         "description": {
           "description": "Write new value into an \u003ctt\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "writeRef",
           "package": "ArrayRef",
@@ -4433,6 +4736,7 @@
         "index": {
           "description": "Write new value into an Ref",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "writeRef",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -4449,6 +4753,7 @@
       "document": {
         "description": {
           "description": "Write new value into an \u003ctt\u003e\u003ca\u003eURef\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Ref.Universal",
           "name": "writeURef",
           "package": "ArrayRef",
@@ -4459,6 +4764,7 @@
         "index": {
           "description": "Write new value into an URef",
           "hierarchy": "Data Ref Universal",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Ref.Universal",
           "name": "writeURef",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -4475,11 +4781,13 @@
       "document": {
         "description": {
           "description": "References (mutable vars)\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "source": "http://hackage.haskell.org/package/ArrayRef/docs/Data-Ref.html",
           "type": "unknown"
         },
         "index": {
           "description": "References mutable vars",
+          "indexed": "2014-03-11T16:33:35",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/ArrayRef/docs/Data-Ref.html"
@@ -4489,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "+=",
           "package": "ArrayRef",
@@ -4498,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "+=",
           "normalized": "a-\u003eb-\u003ec()",
@@ -4512,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "-=",
           "package": "ArrayRef",
@@ -4521,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "-=",
           "normalized": "a-\u003eb-\u003ec()",
@@ -4535,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": ".\u003c-",
           "package": "ArrayRef",
@@ -4544,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": ".\u003c-",
           "normalized": "a-\u003e(b-\u003ec b)-\u003ec()",
@@ -4558,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": ".=",
           "package": "ArrayRef",
@@ -4567,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": ".=",
           "normalized": "a-\u003e(b-\u003eb)-\u003ec()",
@@ -4581,6 +4897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "=:",
           "package": "ArrayRef",
@@ -4590,6 +4907,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "=:",
           "normalized": "a-\u003eb-\u003ec()",
@@ -4604,6 +4922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "Mutable",
           "package": "ArrayRef",
@@ -4612,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "Mutable",
           "package": "ArrayRef",
@@ -4625,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "hashUpdate",
           "package": "ArrayRef",
@@ -4634,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "hashUpdate",
           "normalized": "HashTable a b-\u003ea-\u003eb-\u003eIO Bool",
@@ -4650,6 +4972,7 @@
       "document": {
         "description": {
           "description": "Modify the contents of an \u003ctt\u003e\u003ca\u003eMutable\u003c/a\u003e\u003c/tt\u003e by applying pure function to it\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "modifyVar",
           "package": "ArrayRef",
@@ -4660,6 +4983,7 @@
         "index": {
           "description": "Modify the contents of an Mutable by applying pure function to it",
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "modifyVar",
           "normalized": "a-\u003e(b-\u003eb)-\u003ec()",
@@ -4676,6 +5000,7 @@
       "document": {
         "description": {
           "description": "Modify the contents of an \u003ctt\u003e\u003ca\u003eMutable\u003c/a\u003e\u003c/tt\u003e by applying monadic computation to it\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "modifyVarM",
           "package": "ArrayRef",
@@ -4686,6 +5011,7 @@
         "index": {
           "description": "Modify the contents of an Mutable by applying monadic computation to it",
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "modifyVarM",
           "normalized": "a-\u003e(b-\u003ec b)-\u003ec()",
@@ -4702,6 +5028,7 @@
       "document": {
         "description": {
           "description": "Read the value of an \u003ctt\u003e\u003ca\u003eMutable\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "readVar",
           "package": "ArrayRef",
@@ -4712,6 +5039,7 @@
         "index": {
           "description": "Read the value of an Mutable",
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "readVar",
           "normalized": "a-\u003eb c",
@@ -4727,6 +5055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "ref",
           "package": "ArrayRef",
@@ -4736,6 +5065,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "ref",
           "normalized": "a-\u003eb(c a)",
@@ -4750,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "uref",
           "package": "ArrayRef",
@@ -4759,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "uref",
           "normalized": "a-\u003eb(c a)",
@@ -4773,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "val",
           "package": "ArrayRef",
@@ -4782,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "val",
           "normalized": "a-\u003eb c",
@@ -4797,6 +5131,7 @@
       "document": {
         "description": {
           "description": "Write new value into an \u003ctt\u003e\u003ca\u003eMutable\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.SyntaxSugar",
           "name": "writeVar",
           "package": "ArrayRef",
@@ -4807,6 +5142,7 @@
         "index": {
           "description": "Write new value into an Mutable",
           "hierarchy": "Data SyntaxSugar",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.SyntaxSugar",
           "name": "writeVar",
           "normalized": "a-\u003eb-\u003ec()",
@@ -4822,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Unboxed",
           "name": "MUVec",
           "package": "ArrayRef",
@@ -4830,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "Data Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Unboxed",
           "name": "MUVec",
           "package": "ArrayRef",
@@ -4843,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Unboxed",
           "name": "UVec",
           "package": "ArrayRef",
@@ -4851,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "Data Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Unboxed",
           "name": "UVec",
           "package": "ArrayRef",
@@ -4864,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Unboxed",
           "name": "Unboxed",
           "package": "ArrayRef",
@@ -4872,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "Data Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Unboxed",
           "name": "Unboxed",
           "package": "ArrayRef",
@@ -4886,6 +5228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional operations on byte vectors\n\u003c/p\u003e\u003cp\u003eAlloc the mutable byte vector having elems elements of required type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "Data.Unboxed",
           "name": "allocUnboxed",
           "package": "ArrayRef",
@@ -4896,6 +5239,7 @@
         "index": {
           "description": "Additional operations on byte vectors Alloc the mutable byte vector having elems elements of required type",
           "hierarchy": "Data Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "Data.Unboxed",
           "name": "allocUnboxed",
           "normalized": "a-\u003eb(MUVec c d)",
@@ -5181,6 +5525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "MVec",
           "package": "ArrayRef",
@@ -5189,6 +5534,7 @@
         },
         "index": {
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "MVec",
           "package": "ArrayRef",
@@ -5202,6 +5548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "Vec",
           "package": "ArrayRef",
@@ -5210,6 +5557,7 @@
         },
         "index": {
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "Vec",
           "package": "ArrayRef",
@@ -5224,6 +5572,7 @@
       "document": {
         "description": {
           "description": "Alloc the mutable vector\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "allocBoxed",
           "package": "ArrayRef",
@@ -5234,6 +5583,7 @@
         "index": {
           "description": "Alloc the mutable vector",
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "allocBoxed",
           "normalized": "a-\u003eb-\u003ec(MVec d b)",
@@ -5250,6 +5600,7 @@
       "document": {
         "description": {
           "description": "Mutable-\u003eimmutable vector conversion which takes a copy of contents\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "freezeBoxed",
           "package": "ArrayRef",
@@ -5260,6 +5611,7 @@
         "index": {
           "description": "Mutable immutable vector conversion which takes copy of contents",
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "freezeBoxed",
           "normalized": "MVec a b-\u003eInt-\u003eb-\u003ec(Vec b)",
@@ -5275,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "fromI#",
           "package": "ArrayRef",
@@ -5284,6 +5637,7 @@
         },
         "index": {
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "fromI#",
           "normalized": "a-\u003eInt #",
@@ -5299,6 +5653,7 @@
       "document": {
         "description": {
           "description": "Read the value from immutable vector at given index\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "indexBoxed",
           "package": "ArrayRef",
@@ -5309,6 +5664,7 @@
         "index": {
           "description": "Read the value from immutable vector at given index",
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "indexBoxed",
           "normalized": "Vec a-\u003eb-\u003ea",
@@ -5325,6 +5681,7 @@
       "document": {
         "description": {
           "description": "Read the value from mutable vector at given index\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "readBoxed",
           "package": "ArrayRef",
@@ -5335,6 +5692,7 @@
         "index": {
           "description": "Read the value from mutable vector at given index",
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "readBoxed",
           "normalized": "MVec a b-\u003ec-\u003ed b",
@@ -5351,6 +5709,7 @@
       "document": {
         "description": {
           "description": "Immutable-\u003emutable vector conversion which takes a copy of contents\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "thawBoxed",
           "package": "ArrayRef",
@@ -5361,6 +5720,7 @@
         "index": {
           "description": "Immutable mutable vector conversion which takes copy of contents",
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "thawBoxed",
           "normalized": "Vec a-\u003eInt-\u003ea-\u003eb(MVec c a)",
@@ -5377,6 +5737,7 @@
       "document": {
         "description": {
           "description": "Mutable-\u003eimmutable vector on-place conversion\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "unsafeFreezeBoxed",
           "package": "ArrayRef",
@@ -5387,6 +5748,7 @@
         "index": {
           "description": "Mutable immutable vector on-place conversion",
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "unsafeFreezeBoxed",
           "normalized": "MVec a b-\u003ec(Vec b)",
@@ -5403,6 +5765,7 @@
       "document": {
         "description": {
           "description": "Immutable-\u003emutable vector on-place conversion\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "unsafeThawBoxed",
           "package": "ArrayRef",
@@ -5413,6 +5776,7 @@
         "index": {
           "description": "Immutable mutable vector on-place conversion",
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "unsafeThawBoxed",
           "normalized": "Vec a-\u003eb(MVec c a)",
@@ -5429,6 +5793,7 @@
       "document": {
         "description": {
           "description": "Write the value to mutable vector at given index\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.ArrBZ",
           "name": "writeBoxed",
           "package": "ArrayRef",
@@ -5439,6 +5804,7 @@
         "index": {
           "description": "Write the value to mutable vector at given index",
           "hierarchy": "GHC ArrBZ",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.ArrBZ",
           "name": "writeBoxed",
           "normalized": "MVec a b-\u003ec-\u003eb-\u003ed()",
@@ -5455,6 +5821,7 @@
       "document": {
         "description": {
           "description": "Type functions which converts universal ST or IO types to IO-specific ones\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "IOSpecific",
           "package": "ArrayRef",
@@ -5464,6 +5831,7 @@
         "index": {
           "description": "Type functions which converts universal ST or IO types to IO-specific ones",
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "IOSpecific",
           "package": "ArrayRef",
@@ -5477,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "IOSpecific2",
           "package": "ArrayRef",
@@ -5485,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "IOSpecific2",
           "package": "ArrayRef",
@@ -5498,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "IOSpecific3",
           "package": "ArrayRef",
@@ -5506,6 +5877,7 @@
         },
         "index": {
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "IOSpecific3",
           "package": "ArrayRef",
@@ -5519,6 +5891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "MUVec",
           "package": "ArrayRef",
@@ -5527,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "MUVec",
           "package": "ArrayRef",
@@ -5540,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "UVec",
           "package": "ArrayRef",
@@ -5548,6 +5923,7 @@
         },
         "index": {
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "UVec",
           "package": "ArrayRef",
@@ -5561,6 +5937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "STorIO",
           "package": "ArrayRef",
@@ -5569,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "STorIO",
           "package": "ArrayRef",
@@ -5582,6 +5960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "Unboxed",
           "package": "ArrayRef",
@@ -5590,6 +5969,7 @@
         },
         "index": {
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "Unboxed",
           "package": "ArrayRef",
@@ -5604,6 +5984,7 @@
       "document": {
         "description": {
           "description": "Alloc the mutable byte vector\n",
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "allocUnboxedBytes",
           "package": "ArrayRef",
@@ -5614,6 +5995,7 @@
         "index": {
           "description": "Alloc the mutable byte vector",
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "allocUnboxedBytes",
           "normalized": "a-\u003eb(MUVec c d)",
@@ -5629,6 +6011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "fromI#",
           "package": "ArrayRef",
@@ -5638,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "fromI#",
           "normalized": "a-\u003eInt #",
@@ -5652,6 +6036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:35 UTC 2014",
           "module": "GHC.Unboxed",
           "name": "memcpy",
           "package": "ArrayRef",
@@ -5661,6 +6046,7 @@
         },
         "index": {
           "hierarchy": "GHC Unboxed",
+          "indexed": "2014-03-11T16:33:35",
           "module": "GHC.Unboxed",
           "name": "memcpy",
           "normalized": "MutableByteArray # RealWorld-\u003eByteArray #-\u003eInt #-\u003eIO()",

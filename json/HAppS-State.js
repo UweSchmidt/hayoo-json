@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HAppS-State"
+        "phrase": "HAppS-State",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": ":+:",
           "package": "HAppS-State",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": ":+:",
           "package": "HAppS-State",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "Collect",
           "package": "HAppS-State",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "Collect",
           "package": "HAppS-State",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "Collection",
           "package": "HAppS-State",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "Collection",
           "package": "HAppS-State",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "ComponentTree",
           "package": "HAppS-State",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "ComponentTree",
           "package": "HAppS-State",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "ComponentVersions",
           "package": "HAppS-State",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "ComponentVersions",
           "package": "HAppS-State",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "Dependencies",
           "package": "HAppS-State",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "Dependencies",
           "package": "HAppS-State",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "End",
           "package": "HAppS-State",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "End",
           "package": "HAppS-State",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "Method",
           "package": "HAppS-State",
@@ -172,6 +187,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "Method",
           "package": "HAppS-State",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "MethodMap",
           "package": "HAppS-State",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "MethodMap",
           "package": "HAppS-State",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "Component",
           "package": "HAppS-State",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "Component",
           "package": "HAppS-State",
@@ -227,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "Methods",
           "package": "HAppS-State",
@@ -235,6 +256,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "Methods",
           "package": "HAppS-State",
@@ -248,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "QueryEvent",
           "package": "HAppS-State",
@@ -256,6 +279,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "QueryEvent",
           "package": "HAppS-State",
@@ -269,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "SubHandlers",
           "package": "HAppS-State",
@@ -277,6 +302,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "SubHandlers",
           "package": "HAppS-State",
@@ -290,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "UpdateEvent",
           "package": "HAppS-State",
@@ -298,6 +325,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "UpdateEvent",
           "package": "HAppS-State",
@@ -311,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "collectHandlers",
           "package": "HAppS-State",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "collectHandlers",
           "normalized": "Proxy a-\u003e(ComponentTree,ComponentVersions,[IO()])",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "collectHandlers'",
           "package": "HAppS-State",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "collectHandlers'",
           "normalized": "Proxy a-\u003eCollect()",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "initialValue",
           "package": "HAppS-State",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "initialValue",
           "package": "HAppS-State",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "methods",
           "package": "HAppS-State",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "methods",
           "normalized": "Proxy a-\u003e[Method a]",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "onLoad",
           "package": "HAppS-State",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "onLoad",
           "normalized": "Proxy a-\u003eIO()",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentSystem",
           "name": "subHandlers",
           "package": "HAppS-State",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentSystem",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentSystem",
           "name": "subHandlers",
           "normalized": "a-\u003eCollect()",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.ComponentTH",
           "name": "mkMethods",
           "package": "HAppS-State",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "HAppS State ComponentTH",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.ComponentTH",
           "name": "mkMethods",
           "normalized": "Name-\u003e[Name]-\u003eQ[Dec]",
@@ -477,6 +519,7 @@
       "document": {
         "description": {
           "description": "Wait for a signal.\n   On unix, a signal is sigINT or sigTERM. On windows, the signal\n   is entering e.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Control",
           "name": "waitForTermination",
           "package": "HAppS-State",
@@ -487,6 +530,7 @@
         "index": {
           "description": "Wait for signal On unix signal is sigINT or sigTERM On windows the signal is entering",
           "hierarchy": "HAppS State Control",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Control",
           "name": "waitForTermination",
           "normalized": "IO()",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Saver",
           "name": "ReaderStream",
           "package": "HAppS-State",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Saver",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Saver",
           "name": "ReaderStream",
           "package": "HAppS-State",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Saver",
           "name": "Saver",
           "package": "HAppS-State",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Saver",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Saver",
           "name": "Saver",
           "package": "HAppS-State",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Saver",
           "name": "WriterStream",
           "package": "HAppS-State",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Saver",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Saver",
           "name": "WriterStream",
           "package": "HAppS-State",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Saver",
           "name": "createReader",
           "package": "HAppS-State",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Saver",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Saver",
           "name": "createReader",
           "normalized": "Saver-\u003eString-\u003eInt-\u003eIO(ReaderStream a)",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Saver",
           "name": "createWriter",
           "package": "HAppS-State",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Saver",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Saver",
           "name": "createWriter",
           "normalized": "Saver-\u003eString-\u003eInt-\u003eIO(WriterStream a)",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EH",
           "package": "HAppS-State",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EH",
           "package": "HAppS-State",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EmitInternal",
           "package": "HAppS-State",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EmitInternal",
           "package": "HAppS-State",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EvLoaders",
           "package": "HAppS-State",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EvLoaders",
           "package": "HAppS-State",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EvLoaders'",
           "package": "HAppS-State",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EvLoaders'",
           "package": "HAppS-State",
@@ -697,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "Event",
           "package": "HAppS-State",
@@ -705,6 +768,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "Event",
           "package": "HAppS-State",
@@ -718,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EventHandler",
           "package": "HAppS-State",
@@ -726,6 +791,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EventHandler",
           "package": "HAppS-State",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EventItem",
           "package": "HAppS-State",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EventItem",
           "package": "HAppS-State",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EventLogEntry",
           "package": "HAppS-State",
@@ -768,6 +837,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EventLogEntry",
           "package": "HAppS-State",
@@ -781,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EventMap",
           "package": "HAppS-State",
@@ -789,6 +860,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EventMap",
           "package": "HAppS-State",
@@ -802,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "EventQueue",
           "package": "HAppS-State",
@@ -810,6 +883,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "EventQueue",
           "package": "HAppS-State",
@@ -823,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "ExceptionT",
           "package": "HAppS-State",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "ExceptionT",
           "package": "HAppS-State",
@@ -844,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "GetCheckpointState",
           "package": "HAppS-State",
@@ -852,6 +929,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "GetCheckpointState",
           "package": "HAppS-State",
@@ -865,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "GetState",
           "package": "HAppS-State",
@@ -873,6 +952,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "GetState",
           "package": "HAppS-State",
@@ -886,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "HR",
           "package": "HAppS-State",
@@ -894,6 +975,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "HR",
           "package": "HAppS-State",
@@ -907,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "IHR",
           "package": "HAppS-State",
@@ -915,6 +998,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "IHR",
           "package": "HAppS-State",
@@ -928,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "OperationMode",
           "package": "HAppS-State",
@@ -936,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "OperationMode",
           "package": "HAppS-State",
@@ -949,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "ProcessQueue",
           "package": "HAppS-State",
@@ -957,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "ProcessQueue",
           "package": "HAppS-State",
@@ -970,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "Res",
           "package": "HAppS-State",
@@ -978,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "Res",
           "package": "HAppS-State",
@@ -991,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "RunHandler",
           "package": "HAppS-State",
@@ -999,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "RunHandler",
           "package": "HAppS-State",
@@ -1012,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "Runner",
           "package": "HAppS-State",
@@ -1020,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "Runner",
           "package": "HAppS-State",
@@ -1033,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "SetCheckpointState",
           "package": "HAppS-State",
@@ -1041,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "SetCheckpointState",
           "package": "HAppS-State",
@@ -1054,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "SetNewState",
           "package": "HAppS-State",
@@ -1062,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "SetNewState",
           "package": "HAppS-State",
@@ -1075,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "TxConfig",
           "package": "HAppS-State",
@@ -1083,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "TxConfig",
           "package": "HAppS-State",
@@ -1096,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "TxControl",
           "package": "HAppS-State",
@@ -1104,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "TxControl",
           "package": "HAppS-State",
@@ -1117,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "TxRun",
           "package": "HAppS-State",
@@ -1125,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "TxRun",
           "package": "HAppS-State",
@@ -1138,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "TypeString",
           "package": "HAppS-State",
@@ -1146,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "TypeString",
           "package": "HAppS-State",
@@ -1159,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "addTxId",
           "package": "HAppS-State",
@@ -1168,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "addTxId",
           "normalized": "TxRun a-\u003eTxContext-\u003eSTM TxContext",
@@ -1183,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "allStateTypes",
           "package": "HAppS-State",
@@ -1192,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "allStateTypes",
           "normalized": "Proxy a-\u003e[TypeString]",
@@ -1207,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "checkDiff",
           "package": "HAppS-State",
@@ -1216,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "checkDiff",
           "normalized": "a-\u003ea-\u003eIO(Maybe a)",
@@ -1231,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "componentIO",
           "package": "HAppS-State",
@@ -1240,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "componentIO",
           "normalized": "Proxy a-\u003e[IO()]",
@@ -1255,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "componentVersions",
           "package": "HAppS-State",
@@ -1264,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "componentVersions",
           "normalized": "Proxy a-\u003eMap String[ByteString]",
@@ -1279,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "createEventMap",
           "package": "HAppS-State",
@@ -1288,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "createEventMap",
           "normalized": "MVar TxControl-\u003eProxy a-\u003eIO EventMap",
@@ -1303,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "createNewTxRun",
           "package": "HAppS-State",
@@ -1312,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "createNewTxRun",
           "package": "HAppS-State",
@@ -1325,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "emitEvent",
           "package": "HAppS-State",
@@ -1334,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "emitEvent",
           "normalized": "a-\u003eIO b",
@@ -1349,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "emitEvent'",
           "package": "HAppS-State",
@@ -1358,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "emitEvent'",
           "normalized": "TypeString-\u003ea-\u003eIO b",
@@ -1373,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "emitFunc",
           "package": "HAppS-State",
@@ -1382,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "emitFunc",
           "normalized": "EventMap-\u003eTypeString-\u003ea-\u003eIO b",
@@ -1397,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "emitRef",
           "package": "HAppS-State",
@@ -1406,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "emitRef",
           "package": "HAppS-State",
@@ -1419,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "eventStreamRef",
           "package": "HAppS-State",
@@ -1428,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "eventStreamRef",
           "package": "HAppS-State",
@@ -1441,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "eventTString",
           "package": "HAppS-State",
@@ -1450,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "eventTString",
           "normalized": "a-\u003eTypeString",
@@ -1465,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "extraEvents",
           "package": "HAppS-State",
@@ -1474,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "extraEvents",
           "normalized": "TxRun a-\u003eEventMap",
@@ -1489,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "getEpochMilli",
           "package": "HAppS-State",
@@ -1498,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "getEpochMilli",
           "package": "HAppS-State",
@@ -1580,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "getState",
           "package": "HAppS-State",
@@ -1589,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "getState",
           "normalized": "TypeString-\u003eIO ByteString",
@@ -1627,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "globalRandomGen",
           "package": "HAppS-State",
@@ -1636,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "globalRandomGen",
           "package": "HAppS-State",
@@ -1649,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "handleEvent",
           "package": "HAppS-State",
@@ -1658,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "handleEvent",
           "normalized": "(a-\u003eEnv-\u003eEv b c-\u003eSTM d)-\u003e(a-\u003ed-\u003eIO(Maybe a,c))-\u003e(Either ExceptionT c-\u003eIO())-\u003eEv b c-\u003eRunHandler a e",
@@ -1673,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "handleQuery",
           "package": "HAppS-State",
@@ -1682,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "handleQuery",
           "normalized": "(Either ExceptionT a-\u003eIO())-\u003eQuery b a-\u003eRunHandler b c",
@@ -1697,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "handleUpdate",
           "package": "HAppS-State",
@@ -1706,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "handleUpdate",
           "normalized": "(Either ExceptionT a-\u003eIO())-\u003eUpdate b a-\u003eRunHandler b c",
@@ -1721,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "initEventStream",
           "package": "HAppS-State",
@@ -1730,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "initEventStream",
           "normalized": "IO()",
@@ -1745,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "lookupEventHandler",
           "package": "HAppS-State",
@@ -1754,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "lookupEventHandler",
           "normalized": "TypeString-\u003eEventMap-\u003eIO EventHandler",
@@ -1769,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "newTxContext",
           "package": "HAppS-State",
@@ -1778,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "newTxContext",
           "package": "HAppS-State",
@@ -1814,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "pushEventItem",
           "package": "HAppS-State",
@@ -1823,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "pushEventItem",
           "normalized": "TxContext-\u003ea-\u003eIO()",
@@ -1864,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "quickQuery'",
           "package": "HAppS-State",
@@ -1873,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "quickQuery'",
           "normalized": "TxRun a-\u003eHR a-\u003eIO()",
@@ -1888,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "runColdEvent",
           "package": "HAppS-State",
@@ -1897,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "runColdEvent",
           "normalized": "TxContext-\u003eObject-\u003eIO()",
@@ -1912,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "runColdEventFunc",
           "package": "HAppS-State",
@@ -1921,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "runColdEventFunc",
           "normalized": "TxContext-\u003eObject-\u003eEventMap-\u003eIO()",
@@ -1936,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "runObjectEvent",
           "package": "HAppS-State",
@@ -1945,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "runObjectEvent",
           "normalized": "Object-\u003eIO Object",
@@ -1960,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "runObjectEventFunc",
           "package": "HAppS-State",
@@ -1969,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "runObjectEventFunc",
           "normalized": "Object-\u003eEventMap-\u003eIO Object",
@@ -1984,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "runTxLoop",
           "package": "HAppS-State",
@@ -1993,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "runTxLoop",
           "normalized": "MVar(WriterStream EventLogEntry)-\u003eProcessQueue a-\u003ea-\u003eIO()",
@@ -2008,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "setEvLoadersQueue",
           "package": "HAppS-State",
@@ -2017,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "setEvLoadersQueue",
           "normalized": "ProcessQueue a-\u003eEvLoaders' a-\u003eEvLoaders",
@@ -2032,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "setNewEventMap",
           "package": "HAppS-State",
@@ -2041,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "setNewEventMap",
           "normalized": "EventMap-\u003eIO()",
@@ -2056,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State.Transaction",
           "name": "setNewState",
           "package": "HAppS-State",
@@ -2065,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "HAppS State Transaction",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State.Transaction",
           "name": "setNewState",
           "normalized": "TypeString-\u003eByteString-\u003eIO()",
@@ -2107,6 +2279,7 @@
       "document": {
         "description": {
           "description": "ACID computations that work with any state and event types.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "AnyEv",
           "package": "HAppS-State",
@@ -2116,6 +2289,7 @@
         "index": {
           "description": "ACID computations that work with any state and event types",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "AnyEv",
           "package": "HAppS-State",
@@ -2129,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "EpochMilli",
           "package": "HAppS-State",
@@ -2137,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "EpochMilli",
           "package": "HAppS-State",
@@ -2150,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "Ev",
           "package": "HAppS-State",
@@ -2158,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "Ev",
           "package": "HAppS-State",
@@ -2171,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "EventItem",
           "package": "HAppS-State",
@@ -2179,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "EventItem",
           "package": "HAppS-State",
@@ -2192,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "Query",
           "package": "HAppS-State",
@@ -2200,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "Query",
           "package": "HAppS-State",
@@ -2213,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "Saver",
           "package": "HAppS-State",
@@ -2221,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "Saver",
           "package": "HAppS-State",
@@ -2234,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "TxConfig",
           "package": "HAppS-State",
@@ -2242,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "TxConfig",
           "package": "HAppS-State",
@@ -2255,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "TxControl",
           "package": "HAppS-State",
@@ -2263,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "TxControl",
           "package": "HAppS-State",
@@ -2276,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "TxId",
           "package": "HAppS-State",
@@ -2284,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "TxId",
           "package": "HAppS-State",
@@ -2297,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "Update",
           "package": "HAppS-State",
@@ -2305,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "Update",
           "package": "HAppS-State",
@@ -2318,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "CatchEv",
           "package": "HAppS-State",
@@ -2326,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "CatchEv",
           "package": "HAppS-State",
@@ -2340,6 +2534,7 @@
       "document": {
         "description": {
           "description": "Currying version of \u003ctt\u003e\u003ca\u003esetQueryType\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "asQuery",
           "package": "HAppS-State",
@@ -2350,6 +2545,7 @@
         "index": {
           "description": "Currying version of setQueryType",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "asQuery",
           "normalized": "Query a b-\u003eProxy a-\u003eQuery a b",
@@ -2366,6 +2562,7 @@
       "document": {
         "description": {
           "description": "Currying version of \u003ctt\u003e\u003ca\u003esetUpdateType\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "asUpdate",
           "package": "HAppS-State",
@@ -2376,6 +2573,7 @@
         "index": {
           "description": "Currying version of setUpdateType",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "asUpdate",
           "normalized": "Update a b-\u003eProxy a-\u003eUpdate a b",
@@ -2392,6 +2590,7 @@
       "document": {
         "description": {
           "description": "Specialized version of \u003ctt\u003e\u003ca\u003eask\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "askState",
           "package": "HAppS-State",
@@ -2402,6 +2601,7 @@
         "index": {
           "description": "Specialized version of ask",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "askState",
           "package": "HAppS-State",
@@ -2415,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "catchEv",
           "package": "HAppS-State",
@@ -2424,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "catchEv",
           "normalized": "Ev a b-\u003e(SomeException-\u003eb)-\u003eEv a b",
@@ -2439,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "closeTxControl",
           "package": "HAppS-State",
@@ -2448,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "closeTxControl",
           "normalized": "MVar TxControl-\u003eIO()",
@@ -2463,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "createCheckpoint",
           "package": "HAppS-State",
@@ -2472,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "createCheckpoint",
           "normalized": "MVar TxControl-\u003eIO()",
@@ -2488,6 +2694,7 @@
       "document": {
         "description": {
           "description": "Get a random number.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "getRandom",
           "package": "HAppS-State",
@@ -2498,6 +2705,7 @@
         "index": {
           "description": "Get random number",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "getRandom",
           "package": "HAppS-State",
@@ -2512,6 +2720,7 @@
       "document": {
         "description": {
           "description": "Get a random number inside the range.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "getRandomR",
           "package": "HAppS-State",
@@ -2522,6 +2731,7 @@
         "index": {
           "description": "Get random number inside the range",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "getRandomR",
           "normalized": "(a,a)-\u003eAnyEv a",
@@ -2538,6 +2748,7 @@
       "document": {
         "description": {
           "description": "Specialized version of \u003ctt\u003e\u003ca\u003eget\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "getState",
           "package": "HAppS-State",
@@ -2548,6 +2759,7 @@
         "index": {
           "description": "Specialized version of get",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "getState",
           "package": "HAppS-State",
@@ -2562,6 +2774,7 @@
       "document": {
         "description": {
           "description": "Infer updating functions for a record \u003ctt\u003ea_foo :: component -\u003e record -\u003e record\u003c/tt\u003e and\n   \u003ctt\u003ewithFoo = localState foo a_foo\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "inferRecordUpdaters",
           "package": "HAppS-State",
@@ -2572,6 +2785,7 @@
         "index": {
           "description": "Infer updating functions for record foo component record record and withFoo localState foo foo",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "inferRecordUpdaters",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2588,6 +2802,7 @@
       "document": {
         "description": {
           "description": "Lift an STM action into Ev.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "liftSTM",
           "package": "HAppS-State",
@@ -2598,6 +2813,7 @@
         "index": {
           "description": "Lift an STM action into Ev",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "liftSTM",
           "normalized": "STM a-\u003eAnyEv a",
@@ -2614,6 +2830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation with a local environment.\n\u003c/p\u003e\u003cp\u003eRun a computation with local state. Changes to state will be visible to outside.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "localState",
           "package": "HAppS-State",
@@ -2624,6 +2841,7 @@
         "index": {
           "description": "Run computation with local environment Run computation with local state Changes to state will be visible to outside",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "localState",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003eEv(StateT b STM)c-\u003eEv(StateT a STM)c",
@@ -2640,6 +2858,7 @@
       "document": {
         "description": {
           "description": "Run a computation with local state.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "localStateReader",
           "package": "HAppS-State",
@@ -2650,6 +2869,7 @@
         "index": {
           "description": "Run computation with local state",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "localStateReader",
           "normalized": "(a-\u003eb)-\u003eEv(ReaderT b STM)c-\u003eEv(ReaderT a STM)c",
@@ -2666,6 +2886,7 @@
       "document": {
         "description": {
           "description": "Specialized version of \u003ctt\u003e\u003ca\u003eput\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "putState",
           "package": "HAppS-State",
@@ -2676,6 +2897,7 @@
         "index": {
           "description": "Specialized version of put",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "putState",
           "normalized": "a-\u003eUpdate a()",
@@ -2692,6 +2914,7 @@
       "document": {
         "description": {
           "description": "Execute a Query action in the Update monad.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "runQuery",
           "package": "HAppS-State",
@@ -2702,6 +2925,7 @@
         "index": {
           "description": "Execute Query action in the Update monad",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "runQuery",
           "normalized": "Query a b-\u003eUpdate a b",
@@ -2718,6 +2942,7 @@
       "document": {
         "description": {
           "description": "Run a transaction system \n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "runTxSystem",
           "package": "HAppS-State",
@@ -2728,6 +2953,7 @@
         "index": {
           "description": "Run transaction system",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "runTxSystem",
           "normalized": "Saver-\u003eProxy a-\u003eIO(MVar TxControl)",
@@ -2743,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "runTxSystem'",
           "package": "HAppS-State",
@@ -2752,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "runTxSystem'",
           "normalized": "Bool-\u003eSaver-\u003eProxy a-\u003eIO(MVar TxControl)",
@@ -2768,6 +2996,7 @@
       "document": {
         "description": {
           "description": "Select a part of the environment.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "sel",
           "package": "HAppS-State",
@@ -2778,6 +3007,7 @@
         "index": {
           "description": "Select part of the environment",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "sel",
           "normalized": "(Env-\u003ea)-\u003eAnyEv a",
@@ -2793,6 +3023,7 @@
       "document": {
         "description": {
           "description": "Use a proxy to force the type of a query action.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "setQueryType",
           "package": "HAppS-State",
@@ -2803,6 +3034,7 @@
         "index": {
           "description": "Use proxy to force the type of query action",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "setQueryType",
           "normalized": "Proxy a-\u003eQuery a()",
@@ -2819,6 +3051,7 @@
       "document": {
         "description": {
           "description": "Use a proxy to force the type of an update action.\n",
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "setUpdateType",
           "package": "HAppS-State",
@@ -2829,6 +3062,7 @@
         "index": {
           "description": "Use proxy to force the type of an update action",
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "setUpdateType",
           "normalized": "Proxy a-\u003eUpdate a()",
@@ -2844,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "shutdownSystem",
           "package": "HAppS-State",
@@ -2853,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "shutdownSystem",
           "normalized": "MVar TxControl-\u003eIO()",
@@ -2868,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:18 UTC 2014",
           "module": "HAppS.State",
           "name": "unsafeIOToEv",
           "package": "HAppS-State",
@@ -2877,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "HAppS State",
+          "indexed": "2014-03-11T16:44:18",
           "module": "HAppS.State",
           "name": "unsafeIOToEv",
           "normalized": "IO a-\u003eAnyEv a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "curry-frontend"
+        "phrase": "curry-frontend",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:46 UTC 2014",
           "module": "Curry.Files.CymakePath",
           "name": "CymakePath",
           "package": "curry-frontend",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Curry Files CymakePath",
+          "indexed": "2014-03-11T17:45:46",
           "module": "Curry.Files.CymakePath",
           "name": "CymakePath",
           "package": "curry-frontend",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the version number of cymake\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:46 UTC 2014",
           "module": "Curry.Files.CymakePath",
           "name": "cymakeVersion",
           "package": "curry-frontend",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Retrieve the version number of cymake",
           "hierarchy": "Curry Files CymakePath",
+          "indexed": "2014-03-11T17:45:46",
           "module": "Curry.Files.CymakePath",
           "name": "cymakeVersion",
           "package": "curry-frontend",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the location of the cymake executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:46 UTC 2014",
           "module": "Curry.Files.CymakePath",
           "name": "getCymake",
           "package": "curry-frontend",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Retrieve the location of the cymake executable",
           "hierarchy": "Curry Files CymakePath",
+          "indexed": "2014-03-11T17:45:46",
           "module": "Curry.Files.CymakePath",
           "name": "getCymake",
           "package": "curry-frontend",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cqrs"
+        "phrase": "cqrs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule to import for the \u003ca\u003eCommand\u003c/a\u003e side of the application. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "Command",
           "package": "cqrs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module to import for the Command side of the application",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "Command",
           "package": "cqrs",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for aggregates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "Aggregate",
           "package": "cqrs",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Type class for aggregates",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "Aggregate",
           "package": "cqrs",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAggregate root reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "AggregateRef",
           "package": "cqrs",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Aggregate root reference",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "AggregateRef",
           "package": "cqrs",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent stores are the backend used for reading and storing all the\n information about recorded events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "EventStoreBackend",
           "package": "cqrs",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Event stores are the backend used for reading and storing all the information about recorded events",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "EventStoreBackend",
           "package": "cqrs",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for applying events to aggregates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "Eventable",
           "package": "cqrs",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Type class for applying events to aggregates",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "Eventable",
           "package": "cqrs",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Globally Unique IDentifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "GUID",
           "package": "cqrs",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Globally Unique IDentifier",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "GUID",
           "package": "cqrs",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepository consisting of an event store and an event bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "Repository",
           "package": "cqrs",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Repository consisting of an event store and an event bus",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "Repository",
           "package": "cqrs",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnitOfWork monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "UnitOfWorkT",
           "package": "cqrs",
@@ -185,6 +200,7 @@
         "index": {
           "description": "UnitOfWork monad transformer",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "UnitOfWorkT",
           "package": "cqrs",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an event to the aggregate and return the updated aggregate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "applyEvent",
           "package": "cqrs",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Apply an event to the aggregate and return the updated aggregate",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "applyEvent",
           "normalized": "Maybe a-\u003eb-\u003eMaybe a",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd aggregate root. The aggregate root will be created upon\n transaction commit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "createAggregate",
           "package": "cqrs",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Add aggregate root The aggregate root will be created upon transaction commit",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "createAggregate",
           "normalized": "GUID-\u003eUnitOfWorkT a IO(AggregateRef b a)",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate or load aggregate. The aggregate root will be created (if necessary)\n upon transaction commit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "createOrLoadAggregate",
           "package": "cqrs",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Create or load aggregate The aggregate root will be created if necessary upon transaction commit",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "createOrLoadAggregate",
           "normalized": "GUID-\u003eUnitOfWorkT a IO(AggregateRef b a)",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind aggregate root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "findAggregate",
           "package": "cqrs",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Find aggregate root",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "findAggregate",
           "normalized": "GUID-\u003eUnitOfWorkT a IO(Maybe(AggregateRef b a,b))",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad aggregate root. The aggregate root must exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "loadAggregate",
           "package": "cqrs",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Load aggregate root The aggregate root must exist",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "loadAggregate",
           "normalized": "GUID-\u003eUnitOfWorkT a IO(AggregateRef b a,b)",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new random GUID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "newGUID",
           "package": "cqrs",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Create new random GUID",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "newGUID",
           "package": "cqrs",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublish event for an aggregate root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "publishEvent",
           "package": "cqrs",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Publish event for an aggregate root",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "publishEvent",
           "normalized": "AggregateRef a b-\u003eb-\u003eUnitOfWorkT b c()",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun transaction against an event store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Command",
           "name": "runUnitOfWorkT",
           "package": "cqrs",
@@ -387,6 +418,7 @@
         "index": {
           "description": "Run transaction against an event store",
           "hierarchy": "Data CQRS Command",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Command",
           "name": "runUnitOfWorkT",
           "normalized": "Repository a b-\u003eUnitOfWorkT a IO c-\u003eIO c",
@@ -403,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMemory-based event store backend. Used primarily\n for testing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Memory",
           "name": "Memory",
           "package": "cqrs",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Memory-based event store backend Used primarily for testing",
           "hierarchy": "Data CQRS EventStore Backend Memory",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.EventStore.Backend.Memory",
           "name": "Memory",
           "package": "cqrs",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory-based event store backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Memory",
           "name": "MemoryEventStoreBackend",
           "package": "cqrs",
@@ -435,6 +470,7 @@
         "index": {
           "description": "Memory-based event store backend",
           "hierarchy": "Data CQRS EventStore Backend Memory",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.EventStore.Backend.Memory",
           "name": "MemoryEventStoreBackend",
           "package": "cqrs",
@@ -449,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePool of memory event store backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Memory",
           "name": "createBackendPool",
           "package": "cqrs",
@@ -459,6 +496,7 @@
         "index": {
           "description": "Pool of memory event store backends",
           "hierarchy": "Data CQRS EventStore Backend Memory",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.EventStore.Backend.Memory",
           "name": "createBackendPool",
           "normalized": "Int-\u003eIO(Pool MemoryEventStoreBackend)",
@@ -474,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "GUID",
           "package": "cqrs",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.GUID",
           "name": "GUID",
           "package": "cqrs",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "Query",
           "package": "cqrs",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "Query",
           "package": "cqrs",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent stores are the backend used for reading and storing all the\n information about recorded events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "EventStoreBackend",
           "package": "cqrs",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Event stores are the backend used for reading and storing all the information about recorded events",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "EventStoreBackend",
           "package": "cqrs",
@@ -539,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Globally Unique IDentifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "GUID",
           "package": "cqrs",
@@ -547,6 +592,7 @@
         "index": {
           "description": "Globally Unique IDentifier",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "GUID",
           "package": "cqrs",
@@ -561,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersisted Event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "PersistedEvent",
           "package": "cqrs",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Persisted Event",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "PersistedEvent",
           "package": "cqrs",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepository consisting of an event store and an event bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "Repository",
           "package": "cqrs",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Repository consisting of an event store and an event bus",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "Repository",
           "package": "cqrs",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "PersistedEvent",
           "package": "cqrs",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "PersistedEvent",
           "package": "cqrs",
@@ -627,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all events which satisfy criteria and stream\n all new events from repository. All events which arrive\n while enumerating are buffered until enumeration completes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "enumerateAndStreamEvents",
           "package": "cqrs",
@@ -637,6 +690,7 @@
         "index": {
           "description": "Enumerate all events which satisfy criteria and stream all new events from repository All events which arrive while enumerating are buffered until enumeration completes",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "enumerateAndStreamEvents",
           "normalized": "Repository a b-\u003eSource(ResourceT IO)[PersistedEvent a]",
@@ -653,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all events which satisfy certain criteria from event\n store associated with repository.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "enumerateEventStore",
           "package": "cqrs",
@@ -663,6 +718,7 @@
         "index": {
           "description": "Enumerate all events which satisfy certain criteria from event store associated with repository",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "enumerateEventStore",
           "normalized": "Repository a b-\u003eSource(ResourceT IO)[PersistedEvent a]",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUID of the aggregate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "peAggregateGUID",
           "package": "cqrs",
@@ -688,6 +745,7 @@
         "index": {
           "description": "GUID of the aggregate",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "peAggregateGUID",
           "package": "cqrs",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "peEvent",
           "package": "cqrs",
@@ -711,6 +770,7 @@
         "index": {
           "description": "Event",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "peEvent",
           "package": "cqrs",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence number within the aggregate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Query",
           "name": "peSequenceNumber",
           "package": "cqrs",
@@ -734,6 +795,7 @@
         "index": {
           "description": "Sequence number within the aggregate",
           "hierarchy": "Data CQRS Query",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Query",
           "name": "peSequenceNumber",
           "package": "cqrs",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Repository",
           "name": "Repository",
           "package": "cqrs",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS Repository",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Repository",
           "name": "Repository",
           "package": "cqrs",
@@ -769,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepository consisting of an event store and an event bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Repository",
           "name": "Repository",
           "package": "cqrs",
@@ -778,6 +843,7 @@
         "index": {
           "description": "Repository consisting of an event store and an event bus",
           "hierarchy": "Data CQRS Repository",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Repository",
           "name": "Repository",
           "package": "cqrs",
@@ -792,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepository settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Repository",
           "name": "Settings",
           "package": "cqrs",
@@ -801,6 +868,7 @@
         "index": {
           "description": "Repository settings",
           "hierarchy": "Data CQRS Repository",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Repository",
           "name": "Settings",
           "package": "cqrs",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault repository settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Repository",
           "name": "defaultSettings",
           "package": "cqrs",
@@ -825,6 +894,7 @@
         "index": {
           "description": "Default repository settings",
           "hierarchy": "Data CQRS Repository",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Repository",
           "name": "defaultSettings",
           "package": "cqrs",
@@ -839,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a repository from a pool of event store backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Repository",
           "name": "newRepository",
           "package": "cqrs",
@@ -849,6 +920,7 @@
         "index": {
           "description": "Create repository from pool of event store backends",
           "hierarchy": "Data CQRS Repository",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Repository",
           "name": "newRepository",
           "normalized": "Settings-\u003ePool a-\u003eIO(Repository b a)",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Repository",
           "name": "settingsSnapshotFrequency",
           "package": "cqrs",
@@ -873,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS Repository",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Repository",
           "name": "settingsSnapshotFrequency",
           "normalized": "Settings-\u003eMaybe Int",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:16 UTC 2014",
           "module": "Data.CQRS.Serializable",
           "name": "Serializable",
           "package": "cqrs",
@@ -896,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS Serializable",
+          "indexed": "2014-03-11T17:42:16",
           "module": "Data.CQRS.Serializable",
           "name": "Serializable",
           "package": "cqrs",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uniform-pair"
+        "phrase": "uniform-pair",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUniform pairs. Because these pairs memoize functions (from Bool)--i.e.,\n they're representable functors--these instances provided are fully determined\n by the corresponding instances for functions, thanks to the type class\n morphism principle.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:59 UTC 2014",
           "module": "Data.UniformPair",
           "name": "UniformPair",
           "package": "uniform-pair",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Uniform pairs Because these pairs memoize functions from Bool i.e they re representable functors--these instances provided are fully determined by the corresponding instances for functions thanks to the type class morphism principle",
           "hierarchy": "Data UniformPair",
+          "indexed": "2014-03-11T20:29:59",
           "module": "Data.UniformPair",
           "name": "UniformPair",
           "package": "uniform-pair",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:59 UTC 2014",
           "module": "Data.UniformPair",
           "name": "Pair",
           "package": "uniform-pair",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Uniform pairs",
           "hierarchy": "Data UniformPair",
+          "indexed": "2014-03-11T20:29:59",
           "module": "Data.UniformPair",
           "name": "Pair",
           "package": "uniform-pair",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:59 UTC 2014",
           "module": "Data.UniformPair",
           "name": ":#",
           "package": "uniform-pair",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data UniformPair",
+          "indexed": "2014-03-11T20:29:59",
           "module": "Data.UniformPair",
           "name": ":#",
           "package": "uniform-pair",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:59 UTC 2014",
           "module": "Data.UniformPair",
           "name": "compareSwap",
           "package": "uniform-pair",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data UniformPair",
+          "indexed": "2014-03-11T20:29:59",
           "module": "Data.UniformPair",
           "name": "compareSwap",
           "normalized": "Pair a-\u003ePair a",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:59 UTC 2014",
           "module": "Data.UniformPair",
           "name": "firstP",
           "package": "uniform-pair",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data UniformPair",
+          "indexed": "2014-03-11T20:29:59",
           "module": "Data.UniformPair",
           "name": "firstP",
           "normalized": "(a-\u003ea)-\u003ePair a-\u003ePair a",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:59 UTC 2014",
           "module": "Data.UniformPair",
           "name": "fstP",
           "package": "uniform-pair",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data UniformPair",
+          "indexed": "2014-03-11T20:29:59",
           "module": "Data.UniformPair",
           "name": "fstP",
           "normalized": "Pair a-\u003ea",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:59 UTC 2014",
           "module": "Data.UniformPair",
           "name": "secondP",
           "package": "uniform-pair",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data UniformPair",
+          "indexed": "2014-03-11T20:29:59",
           "module": "Data.UniformPair",
           "name": "secondP",
           "normalized": "(a-\u003ea)-\u003ePair a-\u003ePair a",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:59 UTC 2014",
           "module": "Data.UniformPair",
           "name": "sndP",
           "package": "uniform-pair",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data UniformPair",
+          "indexed": "2014-03-11T20:29:59",
           "module": "Data.UniformPair",
           "name": "sndP",
           "normalized": "Pair a-\u003ea",

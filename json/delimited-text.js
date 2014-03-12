@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "delimited-text"
+        "phrase": "delimited-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse text files containing lines with records separated by character\n delimiters.\n\u003c/p\u003e\u003cp\u003eAt this time parsing is only supported for lazy \u003ccode\u003eByteString\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:46 UTC 2014",
           "module": "Text.Delimited",
           "name": "Delimited",
           "package": "delimited-text",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parse text files containing lines with records separated by character delimiters At this time parsing is only supported for lazy ByteString",
           "hierarchy": "Text Delimited",
+          "indexed": "2014-03-11T17:52:46",
           "module": "Text.Delimited",
           "name": "Delimited",
           "package": "delimited-text",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA delimited file is a series of variable length records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:46 UTC 2014",
           "module": "Text.Delimited",
           "name": "Content",
           "package": "delimited-text",
@@ -51,6 +54,7 @@
         "index": {
           "description": "delimited file is series of variable length records",
           "hierarchy": "Text Delimited",
+          "indexed": "2014-03-11T17:52:46",
           "module": "Text.Delimited",
           "name": "Content",
           "package": "delimited-text",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA field is a strict ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:46 UTC 2014",
           "module": "Text.Delimited",
           "name": "Field",
           "package": "delimited-text",
@@ -74,6 +79,7 @@
         "index": {
           "description": "field is strict ByteString",
           "hierarchy": "Text Delimited",
+          "indexed": "2014-03-11T17:52:46",
           "module": "Text.Delimited",
           "name": "Field",
           "package": "delimited-text",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record is a series of fields.\n Each record is located on a separate line, delimited by a line break (CRLF).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:46 UTC 2014",
           "module": "Text.Delimited",
           "name": "Record",
           "package": "delimited-text",
@@ -97,6 +104,7 @@
         "index": {
           "description": "record is series of fields Each record is located on separate line delimited by line break CRLF",
           "hierarchy": "Text Delimited",
+          "indexed": "2014-03-11T17:52:46",
           "module": "Text.Delimited",
           "name": "Record",
           "package": "delimited-text",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:46 UTC 2014",
           "module": "Text.Delimited",
           "name": "Result",
           "package": "delimited-text",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Result type",
           "hierarchy": "Text Delimited",
+          "indexed": "2014-03-11T17:52:46",
           "module": "Text.Delimited",
           "name": "Result",
           "package": "delimited-text",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse records separated by newlines from a ByteString.\n Record fields are separated by any of the characters in \u003ccode\u003edelims\u003c/code\u003e. There is\n no way of escaping delimiters, so record fields may not contain any of the\n characters in \u003ccode\u003edelims\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:46 UTC 2014",
           "module": "Text.Delimited",
           "name": "decode",
           "package": "delimited-text",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Parse records separated by newlines from ByteString Record fields are separated by any of the characters in delims There is no way of escaping delimiters so record fields may not contain any of the characters in delims",
           "hierarchy": "Text Delimited",
+          "indexed": "2014-03-11T17:52:46",
           "module": "Text.Delimited",
           "name": "decode",
           "normalized": "[Char]-\u003eByteString-\u003eResult Content",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode records separated by newlines to a ByteString.\n Record fields are separated by \u003ccode\u003edelim\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:46 UTC 2014",
           "module": "Text.Delimited",
           "name": "encode",
           "package": "delimited-text",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Encode records separated by newlines to ByteString Record fields are separated by delim",
           "hierarchy": "Text Delimited",
+          "indexed": "2014-03-11T17:52:46",
           "module": "Text.Delimited",
           "name": "encode",
           "normalized": "Char-\u003eContent-\u003eByteString",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a ByteString, apply a function to each \u003ccode\u003e\u003ca\u003eRecord\u003c/a\u003e\u003c/code\u003e and encode the content.\n Delimiters may contain multiple characters but only the first is used for\n encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:46 UTC 2014",
           "module": "Text.Delimited",
           "name": "interact",
           "package": "delimited-text",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Decode ByteString apply function to each Record and encode the content Delimiters may contain multiple characters but only the first is used for encoding",
           "hierarchy": "Text Delimited",
+          "indexed": "2014-03-11T17:52:46",
           "module": "Text.Delimited",
           "name": "interact",
           "normalized": "(Record-\u003eRecord)-\u003e[Char]-\u003eByteString-\u003eResult ByteString",

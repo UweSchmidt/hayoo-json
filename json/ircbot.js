@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ircbot"
+        "phrase": "ircbot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotMonad",
           "package": "ircbot",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotMonad",
           "package": "ircbot",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotEnv",
           "package": "ircbot",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotEnv",
           "package": "ircbot",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotMonad",
           "package": "ircbot",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotMonad",
           "package": "ircbot",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotPartT",
           "package": "ircbot",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotPartT",
           "package": "ircbot",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotEnv",
           "package": "ircbot",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotEnv",
           "package": "ircbot",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotPartT",
           "package": "ircbot",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "BotPartT",
           "package": "ircbot",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "askBotEnv",
           "package": "ircbot",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "askBotEnv",
           "package": "ircbot",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "askMessage",
           "package": "ircbot",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "askMessage",
           "package": "ircbot",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "askOutChan",
           "package": "ircbot",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "askOutChan",
           "package": "ircbot",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "botName",
           "package": "ircbot",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "botName",
           "package": "ircbot",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "cmdPrefix",
           "package": "ircbot",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "cmdPrefix",
           "package": "ircbot",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "localMessage",
           "package": "ircbot",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "localMessage",
           "normalized": "(Message-\u003eMessage)-\u003ea b-\u003ea b",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "logFn",
           "package": "ircbot",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "logFn",
           "package": "ircbot",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "logM",
           "package": "ircbot",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "logM",
           "normalized": "LogLevel-\u003eByteString-\u003ea()",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "mapBotPartT",
           "package": "ircbot",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "mapBotPartT",
           "normalized": "(a b-\u003ec d)-\u003eBotPartT a b-\u003eBotPartT c d",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "maybeZero",
           "package": "ircbot",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "maybeZero",
           "normalized": "Maybe a-\u003eb a",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "message",
           "package": "ircbot",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "message",
           "package": "ircbot",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "outChan",
           "package": "ircbot",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "outChan",
           "package": "ircbot",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "runBotPartT",
           "package": "ircbot",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "runBotPartT",
           "normalized": "BotPartT a b-\u003eBotEnv-\u003ea b",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "sendMessage",
           "package": "ircbot",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "sendMessage",
           "normalized": "Message-\u003ea()",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "unBotPartT",
           "package": "ircbot",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "unBotPartT",
           "package": "ircbot",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "whoami",
           "package": "ircbot",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot BotMonad",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.BotMonad",
           "name": "whoami",
           "package": "ircbot",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "Commands",
           "package": "ircbot",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "Commands",
           "package": "ircbot",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "HostName",
           "package": "ircbot",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "HostName",
           "package": "ircbot",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "Ping",
           "package": "ircbot",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "Ping",
           "package": "ircbot",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "Pong",
           "package": "ircbot",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "Pong",
           "package": "ircbot",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "PrivMsg",
           "package": "ircbot",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "PrivMsg",
           "package": "ircbot",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "ToMessage",
           "package": "ircbot",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "ToMessage",
           "package": "ircbot",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "Ping",
           "package": "ircbot",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "Ping",
           "package": "ircbot",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "Pong",
           "package": "ircbot",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "Pong",
           "package": "ircbot",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "PrivMsg",
           "package": "ircbot",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "PrivMsg",
           "package": "ircbot",
@@ -700,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the receiver of a message\n\u003c/p\u003e\u003cp\u003eif multiple receivers, it returns only the first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "askReceiver",
           "package": "ircbot",
@@ -710,6 +773,7 @@
         "index": {
           "description": "returns the receiver of message if multiple receivers it returns only the first",
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "askReceiver",
           "package": "ircbot",
@@ -724,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the nickname of the user who sent the message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "askSenderNickName",
           "package": "ircbot",
@@ -734,6 +799,7 @@
         "index": {
           "description": "get the nickname of the user who sent the message",
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "askSenderNickName",
           "package": "ircbot",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "cmd",
           "package": "ircbot",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "cmd",
           "normalized": "Command-\u003ea()",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "msg",
           "package": "ircbot",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "msg",
           "package": "ircbot",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "ping",
           "package": "ircbot",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "ping",
           "package": "ircbot",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "prefix",
           "package": "ircbot",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "prefix",
           "package": "ircbot",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "privMsg",
           "package": "ircbot",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "privMsg",
           "package": "ircbot",
@@ -855,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "receivers",
           "package": "ircbot",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "receivers",
           "normalized": "[ByteString]",
@@ -879,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efigure out who to reply to for a given \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIf message was sent to a #channel reply to the channel. Otherwise reply to the sender.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "replyTo",
           "package": "ircbot",
@@ -889,6 +968,7 @@
         "index": {
           "description": "figure out who to reply to for given Message If message was sent to channel reply to the channel Otherwise reply to the sender",
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "replyTo",
           "package": "ircbot",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "sendCommand",
           "package": "ircbot",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "sendCommand",
           "normalized": "a-\u003eb()",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "toMessage",
           "package": "ircbot",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "toMessage",
           "normalized": "a-\u003eMessage",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Commands",
           "name": "toPrivMsg",
           "package": "ircbot",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Commands",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Commands",
           "name": "toPrivMsg",
           "normalized": "Message-\u003eMaybe PrivMsg",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "Core",
           "package": "ircbot",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "Core",
           "package": "ircbot",
@@ -996,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBot configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "BotConf",
           "package": "ircbot",
@@ -1005,6 +1094,7 @@
         "index": {
           "description": "Bot configuration",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "BotConf",
           "package": "ircbot",
@@ -1018,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "User",
           "package": "ircbot",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "User",
           "package": "ircbot",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "BotConf",
           "package": "ircbot",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "BotConf",
           "package": "ircbot",
@@ -1085,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional channel logging function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "channelLogger",
           "package": "ircbot",
@@ -1095,6 +1190,7 @@
         "index": {
           "description": "optional channel logging function",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "channelLogger",
           "normalized": "Maybe(Chan Message-\u003eIO())",
@@ -1111,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echannel to join\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "channels",
           "package": "ircbot",
@@ -1121,6 +1218,7 @@
         "index": {
           "description": "channel to join",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "channels",
           "package": "ircbot",
@@ -1134,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommand prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "commandPrefix",
           "package": "ircbot",
@@ -1144,6 +1243,7 @@
         "index": {
           "description": "command prefix",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "commandPrefix",
           "package": "ircbot",
@@ -1158,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirc server to connect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "host",
           "package": "ircbot",
@@ -1168,6 +1269,7 @@
         "index": {
           "description": "irc server to connect",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "host",
           "package": "ircbot",
@@ -1205,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(burst length, delay in microseconds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "limits",
           "package": "ircbot",
@@ -1215,6 +1318,7 @@
         "index": {
           "description": "burst length delay in microseconds",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "limits",
           "normalized": "Maybe(Int,Int)",
@@ -1230,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapp logging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "logger",
           "package": "ircbot",
@@ -1240,6 +1345,7 @@
         "index": {
           "description": "app logging",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "logger",
           "package": "ircbot",
@@ -1253,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirc nick\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "nick",
           "package": "ircbot",
@@ -1263,6 +1370,7 @@
         "index": {
           "description": "irc nick",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "nick",
           "package": "ircbot",
@@ -1275,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "nullBotConf",
           "package": "ircbot",
@@ -1284,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "nullBotConf",
           "package": "ircbot",
@@ -1321,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirc port to connect to (usually, 'PortNumber 6667')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "port",
           "package": "ircbot",
@@ -1331,6 +1442,7 @@
         "index": {
           "description": "irc port to connect to usually PortNumber",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "port",
           "package": "ircbot",
@@ -1392,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimpleBot connects to the server and handles messages using the supplied BotPartTs\n\u003c/p\u003e\u003cp\u003ethe 'Chan Message' for the optional logging function will include\n all received and sent messages. This means that the bots output\n will be included in the logs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "simpleBot",
           "package": "ircbot",
@@ -1401,6 +1514,7 @@
         "index": {
           "description": "simpleBot connects to the server and handles messages using the supplied BotPartTs the Chan Message for the optional logging function will include all received and sent messages This means that the bots output will be included in the logs",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "simpleBot",
           "normalized": "BotConf-\u003e[BotPartT IO()]-\u003eIO([ThreadId],IO())",
@@ -1417,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimpleBot' connects to the server and handles messages using the supplied BotPartTs\n\u003c/p\u003e\u003cp\u003ethe 'Chan Message' for the optional logging function will include\n all received and sent messages. This means that the bots output\n will be included in the logs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "simpleBot'",
           "package": "ircbot",
@@ -1426,6 +1541,7 @@
         "index": {
           "description": "simpleBot connects to the server and handles messages using the supplied BotPartTs the Chan Message for the optional logging function will include all received and sent messages This means that the bots output will be included in the logs",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "simpleBot'",
           "normalized": "Maybe(Chan Message-\u003eIO())-\u003eLogger-\u003eMaybe(Int,Int)-\u003eHostName-\u003ePortID-\u003eByteString-\u003eString-\u003eUser-\u003e[BotPartT IO()]-\u003eIO([ThreadId],IO())",
@@ -1442,6 +1558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirc user info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Core",
           "name": "user",
           "package": "ircbot",
@@ -1452,6 +1569,7 @@
         "index": {
           "description": "irc user info",
           "hierarchy": "Network IRC Bot Core",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Core",
           "name": "user",
           "package": "ircbot",
@@ -1488,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "ErrorCodes",
           "package": "ircbot",
@@ -1496,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot ErrorCodes",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "ErrorCodes",
           "package": "ircbot",
@@ -1509,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "erroneusNickname",
           "package": "ircbot",
@@ -1518,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot ErrorCodes",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "erroneusNickname",
           "package": "ircbot",
@@ -1531,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "nickCollision",
           "package": "ircbot",
@@ -1540,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot ErrorCodes",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "nickCollision",
           "package": "ircbot",
@@ -1553,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "nicknameInUse",
           "package": "ircbot",
@@ -1562,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot ErrorCodes",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "nicknameInUse",
           "package": "ircbot",
@@ -1575,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "noNicknameGiven",
           "package": "ircbot",
@@ -1584,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot ErrorCodes",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.ErrorCodes",
           "name": "noNicknameGiven",
           "package": "ircbot",
@@ -1598,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple rate limiter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "Limiter",
           "package": "ircbot",
@@ -1607,6 +1736,7 @@
         "index": {
           "description": "simple rate limiter",
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "Limiter",
           "package": "ircbot",
@@ -1620,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "Limiter",
           "package": "ircbot",
@@ -1628,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "Limiter",
           "package": "ircbot",
@@ -1641,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "Limiter",
           "package": "ircbot",
@@ -1650,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "Limiter",
           "package": "ircbot",
@@ -1664,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute this before sending\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limit",
           "package": "ircbot",
@@ -1674,6 +1809,7 @@
         "index": {
           "description": "Execute this before sending",
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limit",
           "normalized": "Limiter-\u003eIO()",
@@ -1688,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limitsDelay",
           "package": "ircbot",
@@ -1697,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limitsDelay",
           "package": "ircbot",
@@ -1710,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limitsIn",
           "package": "ircbot",
@@ -1719,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limitsIn",
           "package": "ircbot",
@@ -1732,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limitsOut",
           "package": "ircbot",
@@ -1741,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limitsOut",
           "package": "ircbot",
@@ -1754,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limitsThreadId",
           "package": "ircbot",
@@ -1763,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "limitsThreadId",
           "package": "ircbot",
@@ -1777,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new rate limit control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Limiter",
           "name": "newLimiter",
           "package": "ircbot",
@@ -1786,6 +1931,7 @@
         "index": {
           "description": "Construct new rate limit control",
           "hierarchy": "Network IRC Bot Limiter",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Limiter",
           "name": "newLimiter",
           "normalized": "Int-\u003eInt-\u003eIO Limiter",
@@ -1801,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Log",
           "name": "Log",
           "package": "ircbot",
@@ -1809,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Log",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Log",
           "name": "Log",
           "package": "ircbot",
@@ -1822,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Log",
           "name": "LogLevel",
           "package": "ircbot",
@@ -1830,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Log",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Log",
           "name": "LogLevel",
           "package": "ircbot",
@@ -1843,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Log",
           "name": "Logger",
           "package": "ircbot",
@@ -1851,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Log",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Log",
           "name": "Logger",
           "package": "ircbot",
@@ -1864,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Log",
           "name": "Debug",
           "package": "ircbot",
@@ -1873,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Log",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Log",
           "name": "Debug",
           "package": "ircbot",
@@ -1886,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Log",
           "name": "Important",
           "package": "ircbot",
@@ -1895,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Log",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Log",
           "name": "Important",
           "package": "ircbot",
@@ -1908,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Log",
           "name": "Normal",
           "package": "ircbot",
@@ -1917,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Log",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Log",
           "name": "Normal",
           "package": "ircbot",
@@ -1930,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Log",
           "name": "nullLogger",
           "package": "ircbot",
@@ -1939,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Log",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Log",
           "name": "nullLogger",
           "package": "ircbot",
@@ -1952,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Log",
           "name": "stdoutLogger",
           "package": "ircbot",
@@ -1961,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Log",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Log",
           "name": "stdoutLogger",
           "normalized": "LogLevel-\u003eLogger",
@@ -1976,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Parsec",
           "name": "Parsec",
           "package": "ircbot",
@@ -1984,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Parsec",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Parsec",
           "name": "Parsec",
           "package": "ircbot",
@@ -1998,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparser that checks for the \u003ccode\u003e\u003ca\u003ecmdPrefix\u003c/a\u003e\u003c/code\u003e (from the \u003ccode\u003e\u003ca\u003eBotEnv\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Parsec",
           "name": "botPrefix",
           "package": "ircbot",
@@ -2008,6 +2173,7 @@
         "index": {
           "description": "parser that checks for the cmdPrefix from the BotEnv",
           "hierarchy": "Network IRC Bot Parsec",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Parsec",
           "name": "botPrefix",
           "normalized": "ParsecT ByteString()a()",
@@ -2023,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Parsec",
           "name": "mapParsecT",
           "package": "ircbot",
@@ -2032,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Parsec",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Parsec",
           "name": "mapParsecT",
           "normalized": "(a(Consumed(a(Reply b c d)))-\u003ee(Consumed(e(Reply b c f))))-\u003eParsecT b c a d-\u003eParsecT b c e f",
@@ -2048,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a positive integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Parsec",
           "name": "nat",
           "package": "ircbot",
@@ -2058,6 +2227,7 @@
         "index": {
           "description": "parse positive integer",
           "hierarchy": "Network IRC Bot Parsec",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Parsec",
           "name": "nat",
           "normalized": "ParsecT ByteString()a Integer",
@@ -2073,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a bot part by using Parsec to parse the command\n\u003c/p\u003e\u003cp\u003eThe argument to \u003ccode\u003e\u003ca\u003eparsecPart\u003c/a\u003e\u003c/code\u003e is a parser function.\n\u003c/p\u003e\u003cp\u003eThe argument to that parsec function is the \u003ccode\u003etarget\u003c/code\u003e that the response should be sent to.\n\u003c/p\u003e\u003cp\u003eThe parser will receive the \u003ccode\u003e\u003ca\u003emsg\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003ePrivMsg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003esee \u003ccode\u003edicePart\u003c/code\u003e for an example usage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Parsec",
           "name": "parsecPart",
           "package": "ircbot",
@@ -2083,6 +2254,7 @@
         "index": {
           "description": "create bot part by using Parsec to parse the command The argument to parsecPart is parser function The argument to that parsec function is the target that the response should be sent to The parser will receive the msg from the PrivMsg see dicePart for an example usage",
           "hierarchy": "Network IRC Bot Parsec",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Parsec",
           "name": "parsecPart",
           "normalized": "ParsecT ByteString()a b-\u003ea b",
@@ -2098,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Parsec",
           "name": "reportError",
           "package": "ircbot",
@@ -2107,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Parsec",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Parsec",
           "name": "reportError",
           "normalized": "ByteString-\u003eParseError-\u003ea()",
@@ -2122,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Parsec",
           "name": "showErrorMessages",
           "package": "ircbot",
@@ -2131,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Parsec",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Parsec",
           "name": "showErrorMessages",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eString-\u003e[Message]-\u003e[String]",
@@ -2146,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Channels",
           "name": "Channels",
           "package": "ircbot",
@@ -2154,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Channels",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Channels",
           "name": "Channels",
           "package": "ircbot",
@@ -2167,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Channels",
           "name": "channelsPart",
           "package": "ircbot",
@@ -2176,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Channels",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Channels",
           "name": "channelsPart",
           "normalized": "TVar(Set ByteString)-\u003ea()",
@@ -2191,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Channels",
           "name": "initChannelsPart",
           "package": "ircbot",
@@ -2200,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Channels",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Channels",
           "name": "initChannelsPart",
           "normalized": "Set ByteString-\u003eIO(TVar(Set ByteString),a())",
@@ -2215,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Channels",
           "name": "joinChannel",
           "package": "ircbot",
@@ -2224,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Channels",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Channels",
           "name": "joinChannel",
           "normalized": "ByteString-\u003eTVar(Set ByteString)-\u003ea()",
@@ -2239,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Dice",
           "name": "Dice",
           "package": "ircbot",
@@ -2247,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Dice",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Dice",
           "name": "Dice",
           "package": "ircbot",
@@ -2260,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Dice",
           "name": "diceCommand",
           "package": "ircbot",
@@ -2269,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Dice",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Dice",
           "name": "diceCommand",
           "normalized": "ParsecT ByteString()a()",
@@ -2284,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Dice",
           "name": "dicePart",
           "package": "ircbot",
@@ -2293,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Dice",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Dice",
           "name": "dicePart",
           "normalized": "a()",
@@ -2308,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Hello",
           "name": "Hello",
           "package": "ircbot",
@@ -2316,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Hello",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Hello",
           "name": "Hello",
           "package": "ircbot",
@@ -2329,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Hello",
           "name": "helloCommand",
           "package": "ircbot",
@@ -2338,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Hello",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Hello",
           "name": "helloCommand",
           "normalized": "ParsecT ByteString()a()",
@@ -2353,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Hello",
           "name": "helloPart",
           "package": "ircbot",
@@ -2362,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Hello",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Hello",
           "name": "helloPart",
           "normalized": "a()",
@@ -2377,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.NickUser",
           "name": "NickUser",
           "package": "ircbot",
@@ -2385,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part NickUser",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.NickUser",
           "name": "NickUser",
           "package": "ircbot",
@@ -2398,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.NickUser",
           "name": "changeNickUser",
           "package": "ircbot",
@@ -2407,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part NickUser",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.NickUser",
           "name": "changeNickUser",
           "normalized": "ByteString-\u003eMaybe User-\u003ea()",
@@ -2422,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.NickUser",
           "name": "nickUserPart",
           "package": "ircbot",
@@ -2431,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part NickUser",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.NickUser",
           "name": "nickUserPart",
           "normalized": "a()",
@@ -2446,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Ping",
           "name": "Ping",
           "package": "ircbot",
@@ -2454,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Ping",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Ping",
           "name": "Ping",
           "package": "ircbot",
@@ -2467,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Part.Ping",
           "name": "pingPart",
           "package": "ircbot",
@@ -2476,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Part Ping",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Part.Ping",
           "name": "pingPart",
           "normalized": "a()",
@@ -2491,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.PosixLogger",
           "name": "PosixLogger",
           "package": "ircbot",
@@ -2499,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot PosixLogger",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.PosixLogger",
           "name": "PosixLogger",
           "package": "ircbot",
@@ -2512,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.PosixLogger",
           "name": "fdWrites",
           "package": "ircbot",
@@ -2521,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot PosixLogger",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.PosixLogger",
           "name": "fdWrites",
           "normalized": "Fd-\u003eByteString-\u003eIO()",
@@ -2536,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.PosixLogger",
           "name": "posixLogger",
           "package": "ircbot",
@@ -2545,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot PosixLogger",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.PosixLogger",
           "name": "posixLogger",
           "normalized": "Maybe FilePath-\u003eByteString-\u003eChan Message-\u003eIO()",
@@ -2560,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Types",
           "name": "Types",
           "package": "ircbot",
@@ -2568,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Types",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Types",
           "name": "Types",
           "package": "ircbot",
@@ -2581,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot.Types",
           "name": "User",
           "package": "ircbot",
@@ -2589,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot Types",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot.Types",
           "name": "User",
           "package": "ircbot",
@@ -2602,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:45 UTC 2014",
           "module": "Network.IRC.Bot",
           "name": "Bot",
           "package": "ircbot",
@@ -2610,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Bot",
+          "indexed": "2014-03-11T18:59:45",
           "module": "Network.IRC.Bot",
           "name": "Bot",
           "package": "ircbot",

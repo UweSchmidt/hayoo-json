@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "laborantin-hs"
+        "phrase": "laborantin-hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.CLI",
           "name": "CLI",
           "package": "laborantin-hs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Laborantin CLI",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.CLI",
           "name": "CLI",
           "package": "laborantin-hs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.CLI",
           "name": "defaultMain",
           "package": "laborantin-hs",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Laborantin CLI",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.CLI",
           "name": "defaultMain",
           "normalized": "[ScenarioDescription EnvIO]-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "DSL",
           "package": "laborantin-hs",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "DSL",
           "package": "laborantin-hs",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the offline analysis hook for this scenario\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "analyze",
           "package": "laborantin-hs",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Define the offline analysis hook for this scenario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "analyze",
           "normalized": "Step a()-\u003eState(ScenarioDescription a)()",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all ancestors for a given scenario name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "ancestors",
           "package": "laborantin-hs",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Get all ancestors for given scenario name",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "ancestors",
           "normalized": "Text-\u003eStep a[Execution a]",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all ancestors for a given scenario name and matching a query expressed as a string.\n Current implementation silences errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "ancestorsMatching",
           "package": "laborantin-hs",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Get all ancestors for given scenario name and matching query expressed as string Current implementation silences errors",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "ancestorsMatching",
           "normalized": "Text-\u003eText-\u003eStep a[Execution a]",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all ancestors for a given scenario name and matching a TExpr Bool query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "ancestorsMatchingTExpr",
           "package": "laborantin-hs",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Get all ancestors for given scenario name and matching TExpr Bool query",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "ancestorsMatchingTExpr",
           "normalized": "Text-\u003eTExpr Bool-\u003eStep a[Execution a]",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends a chunk of data to the result. \n\u003c/p\u003e\u003cp\u003eImplementations will return their specific results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "appendResult",
           "package": "laborantin-hs",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Appends chunk of data to the result Implementations will return their specific results",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "appendResult",
           "normalized": "FilePath-\u003eText-\u003eStep a()",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulate an array of \u003ccode\u003e\u003ca\u003estr\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enum\u003c/a\u003e\u003c/code\u003e values as a \u003ccode\u003e\u003ca\u003eParameterValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "arr",
           "package": "laborantin-hs",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Encapsulate an array of str or num values as ParameterValue",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "arr",
           "normalized": "[ParameterValue]-\u003eParameterValue",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns current backend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "backend",
           "package": "laborantin-hs",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Returns current backend",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "backend",
           "package": "laborantin-hs",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet verification action for the dependency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "check",
           "package": "laborantin-hs",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Set verification action for the dependency",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "check",
           "normalized": "(Execution a-\u003ea Bool)-\u003eState(Dependency a)()",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a line of data to the logger (debug mode)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "dbg",
           "package": "laborantin-hs",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Sends line of data to the logger debug mode",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "dbg",
           "normalized": "Text-\u003eStep a()",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDSL entry point to build a 'Dependency a' within a scenario.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "dependency",
           "package": "laborantin-hs",
@@ -320,6 +345,7 @@
         "index": {
           "description": "DSL entry point to build Dependency within scenario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "dependency",
           "normalized": "Text-\u003eState(Dependency a)()-\u003eState(ScenarioDescription a)()",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach a description to the \u003ccode\u003eParameter\u003c/code\u003e / \u003ccode\u003eScnario\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "describe",
           "package": "laborantin-hs",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Attach description to the Parameter Scnario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "describe",
           "normalized": "Text-\u003eState a()",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterrupts the scenario by throwing an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "err",
           "package": "laborantin-hs",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Interrupts the scenario by throwing an error",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "err",
           "normalized": "String-\u003eStep a()",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an execution variable and tries to cast it from it's Dynamic\n representation.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the variable is missing or if it could not\n be cast to the wanted type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "getVar",
           "package": "laborantin-hs",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Get an execution variable and tries to cast it from it Dynamic representation Returns Nothing if the variable is missing or if it could not be cast to the wanted type",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "getVar",
           "normalized": "Text-\u003ea(Maybe b)",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eLogHandler\u003c/a\u003e\u003c/code\u003e object for this scenario.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "logger",
           "package": "laborantin-hs",
@@ -420,6 +453,7 @@
         "index": {
           "description": "Return LogHandler object for this scenario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "logger",
           "package": "laborantin-hs",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulate an integer value as a \u003ccode\u003e\u003ca\u003eParameterValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "num",
           "package": "laborantin-hs",
@@ -443,6 +478,7 @@
         "index": {
           "description": "Encapsulate an integer value as ParameterValue",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "num",
           "normalized": "Integer-\u003eParameterValue",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the parameter with given name.\n Throw an error if the parameter is missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "param",
           "package": "laborantin-hs",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Get the parameter with given name Throw an error if the parameter is missing",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "param",
           "normalized": "Text-\u003eStep a ParameterValue",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDSL entry point to build a \u003ccode\u003e\u003ca\u003eParameterDescription\u003c/a\u003e\u003c/code\u003e within a scenario.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "parameter",
           "package": "laborantin-hs",
@@ -492,6 +531,7 @@
         "index": {
           "description": "DSL entry point to build ParameterDescription within scenario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "parameter",
           "normalized": "Text-\u003eState ParameterDescription()-\u003eState(ScenarioDescription a)()",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulate a range as a \u003ccode\u003e\u003ca\u003eParameterValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "range",
           "package": "laborantin-hs",
@@ -517,6 +558,7 @@
         "index": {
           "description": "Encapsulate range as ParameterValue",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "range",
           "normalized": "Rational-\u003eRational-\u003eRational-\u003eParameterValue",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the recovery hook for this scenario\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "recover",
           "package": "laborantin-hs",
@@ -542,6 +585,7 @@
         "index": {
           "description": "Define the recovery hook for this scenario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "recover",
           "normalized": "(ExecutionError-\u003eStep a())-\u003eState(ScenarioDescription a)()",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the TExpr Bool to load ancestor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "require",
           "package": "laborantin-hs",
@@ -567,6 +612,7 @@
         "index": {
           "description": "Defines the TExpr Bool to load ancestor",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "require",
           "normalized": "ScenarioDescription a-\u003eText-\u003eState(ScenarioDescription a)()",
@@ -582,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the TExpr Bool to load ancestor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "requireTExpr",
           "package": "laborantin-hs",
@@ -592,6 +639,7 @@
         "index": {
           "description": "Defines the TExpr Bool to load ancestor",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "requireTExpr",
           "normalized": "ScenarioDescription a-\u003eTExpr Bool-\u003eState(ScenarioDescription a)()",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet resolution action for the dependency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "resolve",
           "package": "laborantin-hs",
@@ -618,6 +667,7 @@
         "index": {
           "description": "Set resolution action for the dependency",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "resolve",
           "normalized": "((Execution a,Backend a)-\u003ea(Execution a))-\u003eState(Dependency a)()",
@@ -633,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e object for the given name.\n\u003c/p\u003e\u003cp\u003eImplementations will return their specific results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "result",
           "package": "laborantin-hs",
@@ -643,6 +694,7 @@
         "index": {
           "description": "Returns Result object for the given name Implementations will return their specific results",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "result",
           "normalized": "FilePath-\u003eStep a(Result a)",
@@ -658,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the main run hook for this scenario\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "run",
           "package": "laborantin-hs",
@@ -668,6 +721,7 @@
         "index": {
           "description": "Define the main run hook for this scenario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "run",
           "normalized": "Step a()-\u003eState(ScenarioDescription a)()",
@@ -683,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDSL entry point to build a \u003ccode\u003e\u003ca\u003eScenarioDescription\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "scenario",
           "package": "laborantin-hs",
@@ -693,6 +748,7 @@
         "index": {
           "description": "DSL entry point to build ScenarioDescription",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "scenario",
           "normalized": "Text-\u003eState(ScenarioDescription a)()-\u003eScenarioDescription a",
@@ -708,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns current execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "self",
           "package": "laborantin-hs",
@@ -718,6 +775,7 @@
         "index": {
           "description": "Returns current execution",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "self",
           "package": "laborantin-hs",
@@ -731,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an execution variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "setVar",
           "package": "laborantin-hs",
@@ -740,6 +799,7 @@
         "index": {
           "description": "Set an execution variable",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "setVar",
           "normalized": "Text-\u003ea-\u003eb()",
@@ -756,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the setup hook for this scenario\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "setup",
           "package": "laborantin-hs",
@@ -766,6 +827,7 @@
         "index": {
           "description": "Define the setup hook for this scenario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "setup",
           "normalized": "Step a()-\u003eState(ScenarioDescription a)()",
@@ -781,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulate a Text as a \u003ccode\u003e\u003ca\u003eParameterValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "str",
           "package": "laborantin-hs",
@@ -791,6 +854,7 @@
         "index": {
           "description": "Encapsulate Text as ParameterValue",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "str",
           "normalized": "Text-\u003eParameterValue",
@@ -806,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the teardown hook for this scenario\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "teardown",
           "package": "laborantin-hs",
@@ -816,6 +881,7 @@
         "index": {
           "description": "Define the teardown hook for this scenario",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "teardown",
           "normalized": "Step a()-\u003eState(ScenarioDescription a)()",
@@ -831,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet default values for the paramater\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "values",
           "package": "laborantin-hs",
@@ -841,6 +908,7 @@
         "index": {
           "description": "Set default values for the paramater",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "values",
           "normalized": "[ParameterValue]-\u003eState ParameterDescription()",
@@ -856,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite (overwrite) the result in its entirety.\n\u003c/p\u003e\u003cp\u003eImplementations will return their specific results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.DSL",
           "name": "writeResult",
           "package": "laborantin-hs",
@@ -865,6 +934,7 @@
         "index": {
           "description": "Write overwrite the result in its entirety Implementations will return their specific results",
           "hierarchy": "Laborantin DSL",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.DSL",
           "name": "writeResult",
           "normalized": "FilePath-\u003eText-\u003eStep a()",
@@ -880,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Implementation",
           "name": "Implementation",
           "package": "laborantin-hs",
@@ -888,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Implementation",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Implementation",
           "name": "Implementation",
           "package": "laborantin-hs",
@@ -902,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault monad for \u003ccode\u003e\u003ca\u003edefaultBackend\u003c/a\u003e\u003c/code\u003e.\n   EnvIO carries a \u003ccode\u003e\u003ca\u003eDynEnv\u003c/a\u003e\u003c/code\u003e in a state and allows you to perform IO actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Implementation",
           "name": "EnvIO",
           "package": "laborantin-hs",
@@ -911,6 +984,7 @@
         "index": {
           "description": "Default monad for defaultBackend EnvIO carries DynEnv in state and allows you to perform IO actions",
           "hierarchy": "Laborantin Implementation",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Implementation",
           "name": "EnvIO",
           "package": "laborantin-hs",
@@ -925,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault backend for the \u003ccode\u003e\u003ca\u003eEnvIO\u003c/a\u003e\u003c/code\u003e monad.  This backend uses the filesystem\n as storage and UUIDs for scenario instances (supposes that UUID collision\n cannot happen).\n\u003c/p\u003e\u003cp\u003eParameters, logfiles, and result data all are stored in a unique directory named\n .\u003cem\u003e\u003cscenario-name\u003e\u003c/em\u003e\u003ca\u003euuid\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eResults are individual files in this directory. There is no namespacing\n hence avoid the following names: 'execution.json', 'execution-log.txt', and\n 'execution-log.xml'. These three files are the scenario execution metadata\n and logs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Implementation",
           "name": "defaultBackend",
           "package": "laborantin-hs",
@@ -935,6 +1010,7 @@
         "index": {
           "description": "Default backend for the EnvIO monad This backend uses the filesystem as storage and UUIDs for scenario instances supposes that UUID collision cannot happen Parameters logfiles and result data all are stored in unique directory named scenario-name uuid Results are individual files in this directory There is no namespacing hence avoid the following names execution.json execution-log.txt and execution-log.xml These three files are the scenario execution metadata and logs",
           "hierarchy": "Laborantin Implementation",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Implementation",
           "name": "defaultBackend",
           "package": "laborantin-hs",
@@ -949,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault logger for the \u003ccode\u003e\u003ca\u003eEnvIO\u003c/a\u003e\u003c/code\u003e monad (see \u003ccode\u003e\u003ca\u003edefaultBackend\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Implementation",
           "name": "defaultLog",
           "package": "laborantin-hs",
@@ -959,6 +1036,7 @@
         "index": {
           "description": "Default logger for the EnvIO monad see defaultBackend",
           "hierarchy": "Laborantin Implementation",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Implementation",
           "name": "defaultLog",
           "normalized": "Execution a-\u003eLogHandler EnvIO",
@@ -975,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault result handler for the \u003ccode\u003e\u003ca\u003eEnvIO\u003c/a\u003e\u003c/code\u003e monad (see \u003ccode\u003e\u003ca\u003edefaultBackend\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Implementation",
           "name": "defaultResult",
           "package": "laborantin-hs",
@@ -985,6 +1064,7 @@
         "index": {
           "description": "Default result handler for the EnvIO monad see defaultBackend",
           "hierarchy": "Laborantin Implementation",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Implementation",
           "name": "defaultResult",
           "normalized": "Execution a-\u003eFilePath-\u003eResult EnvIO",
@@ -1001,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Implementation",
           "name": "liftIO",
           "package": "laborantin-hs",
@@ -1010,6 +1091,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Laborantin Implementation",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Implementation",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -1026,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an EnvIO action in IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Implementation",
           "name": "runEnvIO",
           "package": "laborantin-hs",
@@ -1036,6 +1119,7 @@
         "index": {
           "description": "Execute an EnvIO action in IO",
           "hierarchy": "Laborantin Implementation",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Implementation",
           "name": "runEnvIO",
           "normalized": "IO a-\u003eIO a",
@@ -1051,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Query",
           "name": "Query",
           "package": "laborantin-hs",
@@ -1059,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Query",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Query",
           "name": "Query",
           "package": "laborantin-hs",
@@ -1073,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpands a ParameterSpace to all values that could match a TExpr Bool.\n\u003c/p\u003e\u003cp\u003eCurrently only supports countably finite expansions of parameters. \n That is TExpr Bool such as (\u003ccode\u003esc.param \u003ca\u003eparam\u003c/a\u003e \u003e 32) are ignored.\n Instead (\u003c/code\u003esc.param \u003ca\u003eparam\u003c/a\u003e in [\u003ca\u003efoo\u003c/a\u003e, \u003ca\u003ebar\u003c/a\u003e]) gets expanded to (\u003ca\u003eparam\u003c/a\u003e, [StringParam \u003ca\u003efoo\u003c/a\u003e, StringParam \u003ca\u003ebar\u003c/a\u003e])\n Supported expensions are  And \u003cem\u003e Or \u003c/em\u003e Eq / Contains.\n\u003c/p\u003e\u003cp\u003eThe idea is that you can generate a list of Execution to run by first\n expanding all possible points in the ParameterSpace modified by the TExpr,\n and then filter these possible points using a same TExpr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Query",
           "name": "expandParamSpace",
           "package": "laborantin-hs",
@@ -1083,6 +1170,7 @@
         "index": {
           "description": "Expands ParameterSpace to all values that could match TExpr Bool Currently only supports countably finite expansions of parameters That is TExpr Bool such as sc.param param are ignored Instead sc.param param in foo bar gets expanded to param StringParam foo StringParam bar Supported expensions are And Or Eq Contains The idea is that you can generate list of Execution to run by first expanding all possible points in the ParameterSpace modified by the TExpr and then filter these possible points using same TExpr",
           "hierarchy": "Laborantin Query",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Query",
           "name": "expandParamSpace",
           "normalized": "ParameterSpace-\u003eTExpr Bool-\u003eParameterSpace",
@@ -1098,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Query",
           "name": "matchTExpr",
           "package": "laborantin-hs",
@@ -1107,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Query",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Query",
           "name": "matchTExpr",
           "normalized": "TExpr Bool-\u003eExecution a-\u003eBool",
@@ -1122,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Query",
           "name": "matchTExpr'",
           "package": "laborantin-hs",
@@ -1131,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Query",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Query",
           "name": "matchTExpr'",
           "normalized": "TExpr Bool-\u003eScenarioDescription a-\u003eParameterSet-\u003eBool",
@@ -1146,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Query",
           "name": "simplifyOneBoolLevel",
           "package": "laborantin-hs",
@@ -1155,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Query",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Query",
           "name": "simplifyOneBoolLevel",
           "normalized": "TExpr Bool-\u003eTExpr Bool",
@@ -1170,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Types",
           "package": "laborantin-hs",
@@ -1178,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Types",
           "package": "laborantin-hs",
@@ -1192,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Action wraps a monadic computation inside a step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Action",
           "package": "laborantin-hs",
@@ -1201,6 +1298,7 @@
         "index": {
           "description": "An Action wraps monadic computation inside step",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Action",
           "package": "laborantin-hs",
@@ -1214,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "AnalysisError",
           "package": "laborantin-hs",
@@ -1222,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "AnalysisError",
           "package": "laborantin-hs",
@@ -1236,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Backend captures all functions that an object must provide to run\n Laborantin experiments.\n\u003c/p\u003e\u003cp\u003eSuch functions give ways to prepare, run, analyze, and finalize executions.\n As well as provide support for logging info, storing,\n finding, and deleting prior results.\n\u003c/p\u003e\u003cp\u003eWe prefer such a design over a typeclass to simplify overall design and\n unclutter type definitions everywhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Backend",
           "package": "laborantin-hs",
@@ -1245,6 +1346,7 @@
         "index": {
           "description": "Backend captures all functions that an object must provide to run Laborantin experiments Such functions give ways to prepare run analyze and finalize executions As well as provide support for logging info storing finding and deleting prior results We prefer such design over typeclass to simplify overall design and unclutter type definitions everywhere",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Backend",
           "package": "laborantin-hs",
@@ -1259,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Dependency is a lose but flexible way of expressing dependencies for\n experiments.\n\u003c/p\u003e\u003cp\u003eDependencies can check whether they are fullfilled, and try to solve.\n The main goal for the design of Dependency dCheck and dSolve hooks is to let\n a Dependency run experiments and add them as ancestors *before* starting any\n Step. Types may slightly vary in the future.\n\u003c/p\u003e\u003cp\u003eDependencies can do anything that a ScenarioDescription allows (hence they\n are parametrized with the same monad as the ScenarioDescription owning a\n Dependency). However, Dependency check and Dependency resolution do not live\n in a Step m . That is they do not have access to, and cannot modify, the\n DynEnv. Thus, this limits the possibility to read execution parameters from\n within the dCheck and dSolve.\n\u003c/p\u003e\u003cp\u003eTo compensate for this limitation, the dCheck hook accepts the Execution as\n parameter and the dSolve hook accepts both the Execution and the Backend as\n parameter, and get a chance to return a modified Execution object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Dependency",
           "package": "laborantin-hs",
@@ -1268,6 +1371,7 @@
         "index": {
           "description": "Dependency is lose but flexible way of expressing dependencies for experiments Dependencies can check whether they are fullfilled and try to solve The main goal for the design of Dependency dCheck and dSolve hooks is to let Dependency run experiments and add them as ancestors before starting any Step Types may slightly vary in the future Dependencies can do anything that ScenarioDescription allows hence they are parametrized with the same monad as the ScenarioDescription owning Dependency However Dependency check and Dependency resolution do not live in Step That is they do not have access to and cannot modify the DynEnv Thus this limits the possibility to read execution parameters from within the dCheck and dSolve To compensate for this limitation the dCheck hook accepts the Execution as parameter and the dSolve hook accepts both the Execution and the Backend as parameter and get chance to return modified Execution object",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Dependency",
           "package": "laborantin-hs",
@@ -1282,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynEnv is a map between Text keys and Dynamic values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "DynEnv",
           "package": "laborantin-hs",
@@ -1291,6 +1396,7 @@
         "index": {
           "description": "DynEnv is map between Text keys and Dynamic values",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "DynEnv",
           "package": "laborantin-hs",
@@ -1305,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Execution represents an ongoing or past experiment result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Execution",
           "package": "laborantin-hs",
@@ -1314,6 +1421,7 @@
         "index": {
           "description": "An Execution represents an ongoing or past experiment result",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Execution",
           "package": "laborantin-hs",
@@ -1327,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ExecutionError",
           "package": "laborantin-hs",
@@ -1335,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ExecutionError",
           "package": "laborantin-hs",
@@ -1348,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ExecutionStatus",
           "package": "laborantin-hs",
@@ -1356,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ExecutionStatus",
           "package": "laborantin-hs",
@@ -1369,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Finalizer",
           "package": "laborantin-hs",
@@ -1377,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Finalizer",
           "package": "laborantin-hs",
@@ -1390,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "LogHandler",
           "package": "laborantin-hs",
@@ -1398,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "LogHandler",
           "package": "laborantin-hs",
@@ -1412,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ParameterDescription description carries information for a single\n parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ParameterDescription",
           "package": "laborantin-hs",
@@ -1421,6 +1538,7 @@
         "index": {
           "description": "ParameterDescription description carries information for single parameter",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ParameterDescription",
           "package": "laborantin-hs",
@@ -1435,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ParameterSet (slightly different from a ParameterSpace) is a mapping\n between parameter names and a single ParameterValue.\n\u003c/p\u003e\u003cp\u003eYou can see a ParameterSet as a datapoint within a (multidimensional)\n ParameterSpace.\n\u003c/p\u003e\u003cp\u003eThus, to keep things clearer, we recommend that executions use only text and\n numbers as ParameterValues.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ParameterSet",
           "package": "laborantin-hs",
@@ -1444,6 +1563,7 @@
         "index": {
           "description": "ParameterSet slightly different from ParameterSpace is mapping between parameter names and single ParameterValue You can see ParameterSet as datapoint within multidimensional ParameterSpace Thus to keep things clearer we recommend that executions use only text and numbers as ParameterValues",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ParameterSet",
           "package": "laborantin-hs",
@@ -1458,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ParameterSpace maps parameter names to their descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ParameterSpace",
           "package": "laborantin-hs",
@@ -1467,6 +1588,7 @@
         "index": {
           "description": "ParameterSpace maps parameter names to their descriptions",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ParameterSpace",
           "package": "laborantin-hs",
@@ -1481,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo parameter values type should be enough for command-line demands: text\n and numbers.\n\u003c/p\u003e\u003cp\u003eHowever, we provide two other constructors (Array and Range) for the\n ParameterDescriptions in the DSL.\n\u003c/p\u003e\u003cp\u003eExecutions should use text and numbers only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ParameterValue",
           "package": "laborantin-hs",
@@ -1490,6 +1613,7 @@
         "index": {
           "description": "Two parameter values type should be enough for command-line demands text and numbers However we provide two other constructors Array and Range for the ParameterDescriptions in the DSL Executions should use text and numbers only",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ParameterValue",
           "package": "laborantin-hs",
@@ -1504,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackends must generate results that are easy to operate. They represent\n files with read\u003cem\u003ewrite\u003c/em\u003eappend operations as execution steps.\n\u003c/p\u003e\u003cp\u003eNote that Backend might not implement all three of read, write, append\n operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Result",
           "package": "laborantin-hs",
@@ -1513,6 +1638,7 @@
         "index": {
           "description": "Backends must generate results that are easy to operate They represent files with read write append operations as execution steps Note that Backend might not implement all three of read write append operations",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Result",
           "package": "laborantin-hs",
@@ -1527,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Scenario description carries all information to run an experiment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ScenarioDescription",
           "package": "laborantin-hs",
@@ -1536,6 +1663,7 @@
         "index": {
           "description": "Scenario description carries all information to run an experiment",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ScenarioDescription",
           "package": "laborantin-hs",
@@ -1550,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA step is a stateful operation for a Scenario phase.\n It carries a modifiable DynEnv between hooks and handle ExecutionErrors.\n In addition, you can read (but not modify) the Backend and the Execution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Step",
           "package": "laborantin-hs",
@@ -1559,6 +1688,7 @@
         "index": {
           "description": "step is stateful operation for Scenario phase It carries modifiable DynEnv between hooks and handle ExecutionErrors In addition you can read but not modify the Backend and the Execution",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Step",
           "package": "laborantin-hs",
@@ -1573,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn StoredExecution is a stripped-down version of an Execution.\n\u003c/p\u003e\u003cp\u003eAs it represents an experiment stored on disk, it does not need to carry the\n ScenarioDescription object (otherwise it would become harder to create\n instances such as FromJSON for Executions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "StoredExecution",
           "package": "laborantin-hs",
@@ -1582,6 +1713,7 @@
         "index": {
           "description": "An StoredExecution is stripped-down version of an Execution As it represents an experiment stored on disk it does not need to carry the ScenarioDescription object otherwise it would become harder to create instances such as FromJSON for Executions",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "StoredExecution",
           "package": "laborantin-hs",
@@ -1595,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "TExpr",
           "package": "laborantin-hs",
@@ -1603,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "TExpr",
           "package": "laborantin-hs",
@@ -1616,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UExpr",
           "package": "laborantin-hs",
@@ -1624,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UExpr",
           "package": "laborantin-hs",
@@ -1637,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Action",
           "package": "laborantin-hs",
@@ -1646,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Action",
           "package": "laborantin-hs",
@@ -1659,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "AnalysisError",
           "package": "laborantin-hs",
@@ -1668,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "AnalysisError",
           "package": "laborantin-hs",
@@ -1681,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "And",
           "package": "laborantin-hs",
@@ -1690,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "And",
           "normalized": "TExpr Bool-\u003eTExpr Bool-\u003eTExpr Bool",
@@ -1705,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Array",
           "package": "laborantin-hs",
@@ -1714,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Array",
           "normalized": "Array[ParameterValue]",
@@ -1729,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "B",
           "package": "laborantin-hs",
@@ -1738,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "B",
           "normalized": "Bool-\u003eTExpr Bool",
@@ -1752,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Backend",
           "package": "laborantin-hs",
@@ -1761,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Backend",
           "package": "laborantin-hs",
@@ -1774,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Contains",
           "package": "laborantin-hs",
@@ -1783,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Contains",
           "normalized": "TExpr a-\u003eTExpr[a]-\u003eTExpr Bool",
@@ -1798,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Dep",
           "package": "laborantin-hs",
@@ -1807,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Dep",
           "package": "laborantin-hs",
@@ -1820,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Eq",
           "package": "laborantin-hs",
@@ -1829,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Eq",
           "normalized": "TExpr a-\u003eTExpr a-\u003eTExpr Bool",
@@ -1844,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Exec",
           "package": "laborantin-hs",
@@ -1853,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Exec",
           "package": "laborantin-hs",
@@ -1866,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ExecutionError",
           "package": "laborantin-hs",
@@ -1875,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ExecutionError",
           "package": "laborantin-hs",
@@ -1888,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Failure",
           "package": "laborantin-hs",
@@ -1897,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Failure",
           "package": "laborantin-hs",
@@ -1910,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Gt",
           "package": "laborantin-hs",
@@ -1919,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Gt",
           "normalized": "TExpr a-\u003eTExpr a-\u003eTExpr Bool",
@@ -1934,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "L",
           "package": "laborantin-hs",
@@ -1943,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "L",
           "normalized": "[TExpr a]-\u003eTExpr[a]",
@@ -1957,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "LogHandler",
           "package": "laborantin-hs",
@@ -1966,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "LogHandler",
           "package": "laborantin-hs",
@@ -1979,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "N",
           "package": "laborantin-hs",
@@ -1988,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "N",
           "normalized": "Rational-\u003eTExpr Rational",
@@ -2002,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "NCoerce",
           "package": "laborantin-hs",
@@ -2011,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "NCoerce",
           "normalized": "TExpr(Text,Maybe ParameterValue)-\u003eTExpr Rational",
@@ -2026,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Not",
           "package": "laborantin-hs",
@@ -2035,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Not",
           "normalized": "TExpr Bool-\u003eTExpr Bool",
@@ -2050,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "NumberParam",
           "package": "laborantin-hs",
@@ -2059,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "NumberParam",
           "package": "laborantin-hs",
@@ -2072,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Or",
           "package": "laborantin-hs",
@@ -2081,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Or",
           "normalized": "TExpr Bool-\u003eTExpr Bool-\u003eTExpr Bool",
@@ -2096,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "PDesc",
           "package": "laborantin-hs",
@@ -2105,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "PDesc",
           "package": "laborantin-hs",
@@ -2118,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Plus",
           "package": "laborantin-hs",
@@ -2127,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Plus",
           "normalized": "TExpr Rational-\u003eTExpr Rational-\u003eTExpr Rational",
@@ -2142,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Range",
           "package": "laborantin-hs",
@@ -2151,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Range",
           "package": "laborantin-hs",
@@ -2164,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Result",
           "package": "laborantin-hs",
@@ -2173,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Result",
           "package": "laborantin-hs",
@@ -2186,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Running",
           "package": "laborantin-hs",
@@ -2195,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Running",
           "package": "laborantin-hs",
@@ -2208,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "S",
           "package": "laborantin-hs",
@@ -2217,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "S",
           "normalized": "Text-\u003eTExpr Text",
@@ -2231,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "SCoerce",
           "package": "laborantin-hs",
@@ -2240,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "SCoerce",
           "normalized": "TExpr(Text,Maybe ParameterValue)-\u003eTExpr Text",
@@ -2255,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "SDesc",
           "package": "laborantin-hs",
@@ -2264,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "SDesc",
           "package": "laborantin-hs",
@@ -2277,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ScName",
           "package": "laborantin-hs",
@@ -2286,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ScName",
           "package": "laborantin-hs",
@@ -2299,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ScParam",
           "package": "laborantin-hs",
@@ -2308,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ScParam",
           "normalized": "Text-\u003eTExpr(Text,Maybe ParameterValue)",
@@ -2323,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ScStatus",
           "package": "laborantin-hs",
@@ -2332,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ScStatus",
           "package": "laborantin-hs",
@@ -2345,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ScTimestamp",
           "package": "laborantin-hs",
@@ -2354,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ScTimestamp",
           "package": "laborantin-hs",
@@ -2367,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "SilentNCoerce",
           "package": "laborantin-hs",
@@ -2376,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "SilentNCoerce",
           "normalized": "TExpr(Text,Maybe ParameterValue)-\u003eTExpr Rational",
@@ -2391,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "SilentSCoerce",
           "package": "laborantin-hs",
@@ -2400,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "SilentSCoerce",
           "normalized": "TExpr(Text,Maybe ParameterValue)-\u003eTExpr Text",
@@ -2415,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Stored",
           "package": "laborantin-hs",
@@ -2424,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Stored",
           "package": "laborantin-hs",
@@ -2437,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "StringParam",
           "package": "laborantin-hs",
@@ -2446,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "StringParam",
           "package": "laborantin-hs",
@@ -2459,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Success",
           "package": "laborantin-hs",
@@ -2468,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Success",
           "package": "laborantin-hs",
@@ -2481,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "T",
           "package": "laborantin-hs",
@@ -2490,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "T",
           "normalized": "UTCTime-\u003eTExpr UTCTime",
@@ -2504,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "TBind",
           "package": "laborantin-hs",
@@ -2513,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "TBind",
           "normalized": "String-\u003e(a-\u003eTExpr b)-\u003eTExpr a-\u003eTExpr b",
@@ -2528,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "Times",
           "package": "laborantin-hs",
@@ -2537,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "Times",
           "normalized": "TExpr Rational-\u003eTExpr Rational-\u003eTExpr Rational",
@@ -2552,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UAnd",
           "package": "laborantin-hs",
@@ -2561,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UAnd",
           "package": "laborantin-hs",
@@ -2574,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UB",
           "package": "laborantin-hs",
@@ -2583,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UB",
           "package": "laborantin-hs",
@@ -2596,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UContains",
           "package": "laborantin-hs",
@@ -2605,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UContains",
           "package": "laborantin-hs",
@@ -2618,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UDiv",
           "package": "laborantin-hs",
@@ -2627,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UDiv",
           "package": "laborantin-hs",
@@ -2640,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UEq",
           "package": "laborantin-hs",
@@ -2649,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UEq",
           "package": "laborantin-hs",
@@ -2662,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UGt",
           "package": "laborantin-hs",
@@ -2671,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UGt",
           "package": "laborantin-hs",
@@ -2684,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UGte",
           "package": "laborantin-hs",
@@ -2693,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UGte",
           "package": "laborantin-hs",
@@ -2706,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UL",
           "package": "laborantin-hs",
@@ -2715,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UL",
           "normalized": "UL[UExpr]",
@@ -2730,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ULt",
           "package": "laborantin-hs",
@@ -2739,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ULt",
           "package": "laborantin-hs",
@@ -2752,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ULte",
           "package": "laborantin-hs",
@@ -2761,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ULte",
           "package": "laborantin-hs",
@@ -2774,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UMinus",
           "package": "laborantin-hs",
@@ -2783,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UMinus",
           "package": "laborantin-hs",
@@ -2796,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UN",
           "package": "laborantin-hs",
@@ -2805,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UN",
           "package": "laborantin-hs",
@@ -2818,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UNot",
           "package": "laborantin-hs",
@@ -2827,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UNot",
           "package": "laborantin-hs",
@@ -2840,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UOr",
           "package": "laborantin-hs",
@@ -2849,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UOr",
           "package": "laborantin-hs",
@@ -2862,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UPlus",
           "package": "laborantin-hs",
@@ -2871,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UPlus",
           "package": "laborantin-hs",
@@ -2884,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "US",
           "package": "laborantin-hs",
@@ -2893,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "US",
           "package": "laborantin-hs",
@@ -2906,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UScName",
           "package": "laborantin-hs",
@@ -2915,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UScName",
           "package": "laborantin-hs",
@@ -2928,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UScParam",
           "package": "laborantin-hs",
@@ -2937,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UScParam",
           "package": "laborantin-hs",
@@ -2950,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UScStatus",
           "package": "laborantin-hs",
@@ -2959,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UScStatus",
           "package": "laborantin-hs",
@@ -2972,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UScTimestamp",
           "package": "laborantin-hs",
@@ -2981,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UScTimestamp",
           "package": "laborantin-hs",
@@ -2994,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UT",
           "package": "laborantin-hs",
@@ -3003,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UT",
           "package": "laborantin-hs",
@@ -3016,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "UTimes",
           "package": "laborantin-hs",
@@ -3025,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "UTimes",
           "package": "laborantin-hs",
@@ -3038,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bAnalyze",
           "package": "laborantin-hs",
@@ -3047,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bAnalyze",
           "normalized": "Execution a-\u003eStep a()",
@@ -3062,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bFinalizeExecution",
           "package": "laborantin-hs",
@@ -3071,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bFinalizeExecution",
           "normalized": "Execution a-\u003eFinalizer a-\u003ea()",
@@ -3086,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bLoad",
           "package": "laborantin-hs",
@@ -3095,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bLoad",
           "normalized": "[ScenarioDescription a]-\u003eTExpr Bool-\u003ea[Execution a]",
@@ -3110,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bLogger",
           "package": "laborantin-hs",
@@ -3119,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bLogger",
           "normalized": "Execution a-\u003eStep a(LogHandler a)",
@@ -3134,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bName",
           "package": "laborantin-hs",
@@ -3143,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bName",
           "package": "laborantin-hs",
@@ -3156,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bPrepareExecution",
           "package": "laborantin-hs",
@@ -3165,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bPrepareExecution",
           "normalized": "ScenarioDescription a-\u003eParameterSet-\u003ea(Execution a,Finalizer a)",
@@ -3180,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bRecover",
           "package": "laborantin-hs",
@@ -3189,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bRecover",
           "normalized": "ExecutionError-\u003eExecution a-\u003eStep a()",
@@ -3204,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bRemove",
           "package": "laborantin-hs",
@@ -3213,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bRemove",
           "normalized": "Execution a-\u003ea()",
@@ -3228,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bResult",
           "package": "laborantin-hs",
@@ -3237,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bResult",
           "normalized": "Execution a-\u003eFilePath-\u003eStep a(Result a)",
@@ -3252,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bRun",
           "package": "laborantin-hs",
@@ -3261,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bRun",
           "normalized": "Execution a-\u003eStep a()",
@@ -3276,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bSetup",
           "package": "laborantin-hs",
@@ -3285,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bSetup",
           "normalized": "Execution a-\u003eStep a()",
@@ -3300,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "bTeardown",
           "package": "laborantin-hs",
@@ -3309,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "bTeardown",
           "normalized": "Execution a-\u003eStep a()",
@@ -3324,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "dCheck",
           "package": "laborantin-hs",
@@ -3333,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "dCheck",
           "normalized": "Execution a-\u003ea Bool",
@@ -3348,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "dDesc",
           "package": "laborantin-hs",
@@ -3357,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "dDesc",
           "package": "laborantin-hs",
@@ -3370,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "dName",
           "package": "laborantin-hs",
@@ -3379,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "dName",
           "package": "laborantin-hs",
@@ -3392,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "dSolve",
           "package": "laborantin-hs",
@@ -3401,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "dSolve",
           "normalized": "(Execution a,Backend a)-\u003ea(Execution a)",
@@ -3416,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "eAncestors",
           "package": "laborantin-hs",
@@ -3425,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "eAncestors",
           "normalized": "[Execution a]",
@@ -3440,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "eParamSet",
           "package": "laborantin-hs",
@@ -3449,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "eParamSet",
           "package": "laborantin-hs",
@@ -3462,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "ePath",
           "package": "laborantin-hs",
@@ -3471,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "ePath",
           "package": "laborantin-hs",
@@ -3484,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "eScenario",
           "package": "laborantin-hs",
@@ -3493,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "eScenario",
           "package": "laborantin-hs",
@@ -3506,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "eStatus",
           "package": "laborantin-hs",
@@ -3515,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "eStatus",
           "package": "laborantin-hs",
@@ -3528,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "eTimeStamps",
           "package": "laborantin-hs",
@@ -3537,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "eTimeStamps",
           "normalized": "(UTCTime,UTCTime)",
@@ -3552,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "emptyEnv",
           "package": "laborantin-hs",
@@ -3561,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "emptyEnv",
           "package": "laborantin-hs",
@@ -3574,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "emptyParameter",
           "package": "laborantin-hs",
@@ -3583,6 +3890,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "emptyParameter",
           "package": "laborantin-hs",
@@ -3596,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "emptyScenario",
           "package": "laborantin-hs",
@@ -3605,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "emptyScenario",
           "package": "laborantin-hs",
@@ -3619,6 +3929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpands a ParameterValue to a list of ParameterValues.\n  Mainly flattens ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "expandValue",
           "package": "laborantin-hs",
@@ -3629,6 +3940,7 @@
         "index": {
           "description": "Expands ParameterValue to list of ParameterValues Mainly flattens ranges",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "expandValue",
           "normalized": "ParameterValue-\u003e[ParameterValue]",
@@ -3644,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "lLog",
           "package": "laborantin-hs",
@@ -3653,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "lLog",
           "normalized": "Text-\u003eStep a()",
@@ -3669,6 +3983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two ParameterSpace by extending all dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "mergeParamSpaces",
           "package": "laborantin-hs",
@@ -3679,6 +3994,7 @@
         "index": {
           "description": "Merges two ParameterSpace by extending all dimensions",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "mergeParamSpaces",
           "normalized": "ParameterSpace-\u003eParameterSpace-\u003eParameterSpace",
@@ -3694,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "pAppend",
           "package": "laborantin-hs",
@@ -3703,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "pAppend",
           "normalized": "Text-\u003eStep a()",
@@ -3718,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "pDesc",
           "package": "laborantin-hs",
@@ -3727,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "pDesc",
           "package": "laborantin-hs",
@@ -3740,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "pName",
           "package": "laborantin-hs",
@@ -3749,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "pName",
           "package": "laborantin-hs",
@@ -3762,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "pPath",
           "package": "laborantin-hs",
@@ -3771,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "pPath",
           "package": "laborantin-hs",
@@ -3784,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "pRead",
           "package": "laborantin-hs",
@@ -3793,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "pRead",
           "package": "laborantin-hs",
@@ -3806,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "pValues",
           "package": "laborantin-hs",
@@ -3815,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "pValues",
           "normalized": "[ParameterValue]",
@@ -3830,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "pWrite",
           "package": "laborantin-hs",
@@ -3839,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "pWrite",
           "normalized": "Text-\u003eStep a()",
@@ -3855,6 +4185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an exhaustive list of ParameterSet (i.e., all data points) to\n cover a (multidimensional) ParameterSpace.\n\u003c/p\u003e\u003cp\u003eBasically a Cartesian product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "paramSets",
           "package": "laborantin-hs",
@@ -3865,6 +4196,7 @@
         "index": {
           "description": "Returns an exhaustive list of ParameterSet i.e all data points to cover multidimensional ParameterSpace Basically Cartesian product",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "paramSets",
           "normalized": "ParameterSpace-\u003e[ParameterSet]",
@@ -3880,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "sDeps",
           "package": "laborantin-hs",
@@ -3889,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "sDeps",
           "normalized": "[Dependency a]",
@@ -3904,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "sDesc",
           "package": "laborantin-hs",
@@ -3913,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "sDesc",
           "package": "laborantin-hs",
@@ -3926,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "sHooks",
           "package": "laborantin-hs",
@@ -3935,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "sHooks",
           "package": "laborantin-hs",
@@ -3948,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "sName",
           "package": "laborantin-hs",
@@ -3957,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "sName",
           "package": "laborantin-hs",
@@ -3970,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "sParams",
           "package": "laborantin-hs",
@@ -3979,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "sParams",
           "package": "laborantin-hs",
@@ -3992,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "sQuery",
           "package": "laborantin-hs",
@@ -4001,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "sQuery",
           "package": "laborantin-hs",
@@ -4014,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "sRecoveryAction",
           "package": "laborantin-hs",
@@ -4023,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "sRecoveryAction",
           "normalized": "Maybe(ExecutionError-\u003eAction a)",
@@ -4038,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "seAncestors",
           "package": "laborantin-hs",
@@ -4047,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "seAncestors",
           "normalized": "[(FilePath,Text)]",
@@ -4062,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "seParamSet",
           "package": "laborantin-hs",
@@ -4071,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "seParamSet",
           "package": "laborantin-hs",
@@ -4084,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "sePath",
           "package": "laborantin-hs",
@@ -4093,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "sePath",
           "package": "laborantin-hs",
@@ -4106,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "seStatus",
           "package": "laborantin-hs",
@@ -4115,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "seStatus",
           "package": "laborantin-hs",
@@ -4128,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "seTimeStamps",
           "package": "laborantin-hs",
@@ -4137,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "seTimeStamps",
           "normalized": "(UTCTime,UTCTime)",
@@ -4152,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "unAction",
           "package": "laborantin-hs",
@@ -4161,6 +4518,7 @@
         },
         "index": {
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "unAction",
           "normalized": "Step a()",
@@ -4177,6 +4535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a single dimension of the ParameterSpace to be the list of\n ParameterValue s in 3rd parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin.Types",
           "name": "updateParam",
           "package": "laborantin-hs",
@@ -4187,6 +4546,7 @@
         "index": {
           "description": "Updates single dimension of the ParameterSpace to be the list of ParameterValue in rd parameter",
           "hierarchy": "Laborantin Types",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin.Types",
           "name": "updateParam",
           "normalized": "ParameterSpace-\u003eText-\u003e[ParameterValue]-\u003eParameterSpace",
@@ -4202,6 +4562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin",
           "name": "Laborantin",
           "package": "laborantin-hs",
@@ -4210,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Laborantin",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin",
           "name": "Laborantin",
           "package": "laborantin-hs",
@@ -4224,6 +4586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpands parameters given a TExpr and a ScenarioDescription into a list of\n parameter spaces (sort of cartesian product of all possible params)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin",
           "name": "expandParameterSets",
           "package": "laborantin-hs",
@@ -4234,6 +4597,7 @@
         "index": {
           "description": "Expands parameters given TExpr and ScenarioDescription into list of parameter spaces sort of cartesian product of all possible params",
           "hierarchy": "Laborantin",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin",
           "name": "expandParameterSets",
           "normalized": "ScenarioDescription a-\u003eTExpr Bool-\u003e[ParameterSet]",
@@ -4250,6 +4614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads executions of given ScenarioDescription and matching a given query\n using a specific backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin",
           "name": "load",
           "package": "laborantin-hs",
@@ -4260,6 +4625,7 @@
         "index": {
           "description": "Loads executions of given ScenarioDescription and matching given query using specific backend",
           "hierarchy": "Laborantin",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin",
           "name": "load",
           "normalized": "Backend a-\u003e[ScenarioDescription a]-\u003eTExpr Bool-\u003ea[Execution a]",
@@ -4275,6 +4641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike matchingParameterSets but also remove existing ParameterSet given as\n third parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin",
           "name": "missingParameterSets",
           "package": "laborantin-hs",
@@ -4285,6 +4652,7 @@
         "index": {
           "description": "Like matchingParameterSets but also remove existing ParameterSet given as third parameter",
           "hierarchy": "Laborantin",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin",
           "name": "missingParameterSets",
           "normalized": "ScenarioDescription a-\u003eTExpr Bool-\u003e[ParameterSet]-\u003e[ParameterSet]",
@@ -4301,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a list of execution actions for a given\n (scenario, parameter-query, existing) ancestors.\n\u003c/p\u003e\u003cp\u003eThis function returns one action per ParameterSet which is required by the\n parameter-query and not yet present in the existing list of executions.\n\u003c/p\u003e\u003cp\u003eFor instance, if the scenario has one parameter \u003ccode\u003efoo\u003c/code\u003e; the query wants \u003ccode\u003efoo\u003c/code\u003e\n in [1,2,3,4]; and there is one execution with \u003ccode\u003efoo\u003c/code\u003e == 2; then this function\n returns 3 actions (for parameters 1, 3, and 4).\n\u003c/p\u003e\u003cp\u003eA user can then run these actions in sequence (or concurrently if it makes\n sense).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin",
           "name": "prepare",
           "package": "laborantin-hs",
@@ -4311,6 +4680,7 @@
         "index": {
           "description": "Prepare list of execution actions for given scenario parameter-query existing ancestors This function returns one action per ParameterSet which is required by the parameter-query and not yet present in the existing list of executions For instance if the scenario has one parameter foo the query wants foo in and there is one execution with foo then this function returns actions for parameters and user can then run these actions in sequence or concurrently if it makes sense",
           "hierarchy": "Laborantin",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin",
           "name": "prepare",
           "normalized": "Backend a-\u003eTExpr Bool-\u003e[Execution a]-\u003eScenarioDescription a-\u003e[a(Execution a)]",
@@ -4326,6 +4696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an execution using a specific backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin",
           "name": "remove",
           "package": "laborantin-hs",
@@ -4336,6 +4707,7 @@
         "index": {
           "description": "Remove an execution using specific backend",
           "hierarchy": "Laborantin",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin",
           "name": "remove",
           "normalized": "Backend a-\u003eExecution a-\u003ea()",
@@ -4351,6 +4723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the analysis hooks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:46 UTC 2014",
           "module": "Laborantin",
           "name": "runAnalyze",
           "package": "laborantin-hs",
@@ -4361,6 +4734,7 @@
         "index": {
           "description": "Runs the analysis hooks",
           "hierarchy": "Laborantin",
+          "indexed": "2014-03-11T19:03:46",
           "module": "Laborantin",
           "name": "runAnalyze",
           "normalized": "Backend a-\u003eExecution a-\u003ea(Either AnalysisError())",

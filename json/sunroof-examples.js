@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sunroof-examples"
+        "phrase": "sunroof-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cmath"
+        "phrase": "cmath",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "Double",
           "package": "cmath",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "Double",
           "package": "cmath",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe acos function computes the principal value of the arc cosine of x\n in the range [0, pi]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "acos",
           "package": "cmath",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The acos function computes the principal value of the arc cosine of in the range pi",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "acos",
           "normalized": "Double-\u003eDouble",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe acosh function computes the inverse hyperbolic cosine of the real argument x. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "acosh",
           "package": "cmath",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The acosh function computes the inverse hyperbolic cosine of the real argument",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "acosh",
           "normalized": "Double-\u003eDouble",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe asin function computes the principal value of the arc sine of x in\n the range [-pi\u003cem\u003e2, +pi\u003c/em\u003e2].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "asin",
           "package": "cmath",
@@ -100,6 +107,7 @@
         "index": {
           "description": "The asin function computes the principal value of the arc sine of in the range pi pi",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "asin",
           "normalized": "Double-\u003eDouble",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe asinh function computes the inverse hyperbolic sine of the real argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "asinh",
           "package": "cmath",
@@ -125,6 +134,7 @@
         "index": {
           "description": "The asinh function computes the inverse hyperbolic sine of the real argument",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "asinh",
           "normalized": "Double-\u003eDouble",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe atan function computes the principal value of the arc tangent of x\n in the range [-pi\u003cem\u003e2, +pi\u003c/em\u003e2].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "atan",
           "package": "cmath",
@@ -150,6 +161,7 @@
         "index": {
           "description": "The atan function computes the principal value of the arc tangent of in the range pi pi",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "atan",
           "normalized": "Double-\u003eDouble",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe atan2 function computes the principal value of the arc tangent of\n y/x, using the signs of both arguments to determine the quadrant of the\n return value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "atan2",
           "package": "cmath",
@@ -175,6 +188,7 @@
         "index": {
           "description": "The atan2 function computes the principal value of the arc tangent of using the signs of both arguments to determine the quadrant of the return value",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "atan2",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe atanh function computes the inverse hyperbolic tangent of the real argument x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "atanh",
           "package": "cmath",
@@ -200,6 +215,7 @@
         "index": {
           "description": "The atanh function computes the inverse hyperbolic tangent of the real argument",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "atanh",
           "normalized": "Double-\u003eDouble",
@@ -214,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_acos",
           "package": "cmath",
@@ -223,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_acos",
           "normalized": "CDouble-\u003eCDouble",
@@ -237,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_acosh",
           "package": "cmath",
@@ -246,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_acosh",
           "normalized": "CDouble-\u003eCDouble",
@@ -260,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_asin",
           "package": "cmath",
@@ -269,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_asin",
           "normalized": "CDouble-\u003eCDouble",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_asinh",
           "package": "cmath",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_asinh",
           "normalized": "CDouble-\u003eCDouble",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_atan",
           "package": "cmath",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_atan",
           "normalized": "CDouble-\u003eCDouble",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_atan2",
           "package": "cmath",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_atan2",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_atanh",
           "package": "cmath",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_atanh",
           "normalized": "CDouble-\u003eCDouble",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_cbrt",
           "package": "cmath",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_cbrt",
           "normalized": "CDouble-\u003eCDouble",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_ceil",
           "package": "cmath",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_ceil",
           "normalized": "CDouble-\u003eCDouble",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_copysign",
           "package": "cmath",
@@ -430,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_copysign",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_cos",
           "package": "cmath",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_cos",
           "normalized": "CDouble-\u003eCDouble",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_cosh",
           "package": "cmath",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_cosh",
           "normalized": "CDouble-\u003eCDouble",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_erf",
           "package": "cmath",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_erf",
           "normalized": "CDouble-\u003eCDouble",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_erfc",
           "package": "cmath",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_erfc",
           "normalized": "CDouble-\u003eCDouble",
@@ -536,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_exp",
           "package": "cmath",
@@ -545,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_exp",
           "normalized": "CDouble-\u003eCDouble",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_fabs",
           "package": "cmath",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_fabs",
           "normalized": "CDouble-\u003eCDouble",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_finite",
           "package": "cmath",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_finite",
           "normalized": "CDouble-\u003eCInt",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_floor",
           "package": "cmath",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_floor",
           "normalized": "CDouble-\u003eCDouble",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_fmod",
           "package": "cmath",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_fmod",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_frexp",
           "package": "cmath",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_frexp",
           "normalized": "CDouble-\u003ePtr CInt-\u003eIO Double",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_gamma",
           "package": "cmath",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_gamma",
           "normalized": "CDouble-\u003eCDouble",
@@ -697,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_hypot",
           "package": "cmath",
@@ -706,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_hypot",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -720,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_ilogb",
           "package": "cmath",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_ilogb",
           "normalized": "CDouble-\u003eCInt",
@@ -743,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_isinf",
           "package": "cmath",
@@ -752,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_isinf",
           "normalized": "CDouble-\u003eCInt",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_isnan",
           "package": "cmath",
@@ -775,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_isnan",
           "normalized": "CDouble-\u003eCInt",
@@ -789,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_j0",
           "package": "cmath",
@@ -798,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_j0",
           "normalized": "CDouble-\u003eCDouble",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_j1",
           "package": "cmath",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_j1",
           "normalized": "CDouble-\u003eCDouble",
@@ -835,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_ldexp",
           "package": "cmath",
@@ -844,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_ldexp",
           "normalized": "CDouble-\u003eCInt-\u003eDouble",
@@ -858,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_lgamma",
           "package": "cmath",
@@ -867,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_lgamma",
           "normalized": "CDouble-\u003eCDouble",
@@ -881,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_log",
           "package": "cmath",
@@ -890,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_log",
           "normalized": "CDouble-\u003eCDouble",
@@ -904,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_log10",
           "package": "cmath",
@@ -913,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_log10",
           "normalized": "CDouble-\u003eCDouble",
@@ -927,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_logb",
           "package": "cmath",
@@ -936,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_logb",
           "normalized": "CDouble-\u003eCDouble",
@@ -950,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_modf",
           "package": "cmath",
@@ -959,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_modf",
           "normalized": "CDouble-\u003ePtr CDouble-\u003eIO CDouble",
@@ -973,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_nextafter",
           "package": "cmath",
@@ -982,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_nextafter",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_pow",
           "package": "cmath",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_pow",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1019,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_remainder",
           "package": "cmath",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_remainder",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1042,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_rint",
           "package": "cmath",
@@ -1051,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_rint",
           "normalized": "CDouble-\u003eCDouble",
@@ -1065,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_round",
           "package": "cmath",
@@ -1074,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_round",
           "normalized": "CDouble-\u003eCDouble",
@@ -1088,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_scalb",
           "package": "cmath",
@@ -1097,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_scalb",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_significand",
           "package": "cmath",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_significand",
           "normalized": "CDouble-\u003eCDouble",
@@ -1134,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_sin",
           "package": "cmath",
@@ -1143,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_sin",
           "normalized": "CDouble-\u003eCDouble",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_sinh",
           "package": "cmath",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_sinh",
           "normalized": "CDouble-\u003eCDouble",
@@ -1180,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_sqrt",
           "package": "cmath",
@@ -1189,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_sqrt",
           "normalized": "CDouble-\u003eCDouble",
@@ -1203,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_tan",
           "package": "cmath",
@@ -1212,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_tan",
           "normalized": "CDouble-\u003eCDouble",
@@ -1226,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_tanh",
           "package": "cmath",
@@ -1235,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_tanh",
           "normalized": "CDouble-\u003eCDouble",
@@ -1249,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_trunc",
           "package": "cmath",
@@ -1258,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_trunc",
           "normalized": "CDouble-\u003eCDouble",
@@ -1272,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_y0",
           "package": "cmath",
@@ -1281,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_y0",
           "normalized": "CDouble-\u003eCDouble",
@@ -1295,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_y1",
           "package": "cmath",
@@ -1304,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_y1",
           "normalized": "CDouble-\u003eCDouble",
@@ -1318,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "c_yn",
           "package": "cmath",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "c_yn",
           "normalized": "CInt-\u003eCDouble-\u003eCDouble",
@@ -1342,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cbrt function computes the cube root of x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "cbrt",
           "package": "cmath",
@@ -1352,6 +1467,7 @@
         "index": {
           "description": "The cbrt function computes the cube root of",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "cbrt",
           "normalized": "Double-\u003eDouble",
@@ -1367,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ceil function returns the smallest integral value greater than or equal to x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "ceil",
           "package": "cmath",
@@ -1377,6 +1494,7 @@
         "index": {
           "description": "The ceil function returns the smallest integral value greater than or equal to",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "ceil",
           "normalized": "Double-\u003eDouble",
@@ -1392,6 +1510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecopysign x y returns x with its sign changed to y's.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "copysign",
           "package": "cmath",
@@ -1402,6 +1521,7 @@
         "index": {
           "description": "copysign returns with its sign changed to",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "copysign",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -1417,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cos function computes the cosine of x (measured in radians).\n A large magnitude argument may yield a result with little or no significance.  For a\n discussion of error due to roundoff, see math(3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "cos",
           "package": "cmath",
@@ -1427,6 +1548,7 @@
         "index": {
           "description": "The cos function computes the cosine of measured in radians large magnitude argument may yield result with little or no significance For discussion of error due to roundoff see math",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "cos",
           "normalized": "Double-\u003eDouble",
@@ -1442,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cosh function computes the hyperbolic cosine of x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "cosh",
           "package": "cmath",
@@ -1452,6 +1575,7 @@
         "index": {
           "description": "The cosh function computes the hyperbolic cosine of",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "cosh",
           "normalized": "Double-\u003eDouble",
@@ -1467,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe erf calculates the error function of x. The error function is defined as:\n\u003c/p\u003e\u003cpre\u003e erf(x) = 2/sqrt(pi)*integral from 0 to x of exp(-t*t) dt.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "erf",
           "package": "cmath",
@@ -1477,6 +1602,7 @@
         "index": {
           "description": "The erf calculates the error function of The error function is defined as erf sqrt pi integral from to of exp dt",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "erf",
           "normalized": "Double-\u003eDouble",
@@ -1492,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe erfc function calculates the complementary error function of x;\n that is erfc() subtracts the result of the error function erf(x) from\n 1.0.  This is useful, since for large x places disappear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "erfc",
           "package": "cmath",
@@ -1502,6 +1629,7 @@
         "index": {
           "description": "The erfc function calculates the complementary error function of that is erfc subtracts the result of the error function erf from This is useful since for large places disappear",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "erfc",
           "normalized": "Double-\u003eDouble",
@@ -1517,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exp() function computes the exponential value of the given argument x. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "exp",
           "package": "cmath",
@@ -1527,6 +1656,7 @@
         "index": {
           "description": "The exp function computes the exponential value of the given argument",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "exp",
           "normalized": "Double-\u003eDouble",
@@ -1542,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fabs function computes the absolute value of a floating-point number x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "fabs",
           "package": "cmath",
@@ -1552,6 +1683,7 @@
         "index": {
           "description": "The fabs function computes the absolute value of floating-point number",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "fabs",
           "normalized": "Double-\u003eDouble",
@@ -1567,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinite returns the value 1 just when -Infinity \u003c x \u003c +Infinity; otherwise\n a zero is returned (when |x| = Infinity or x is NaN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "finite",
           "package": "cmath",
@@ -1577,6 +1710,7 @@
         "index": {
           "description": "finite returns the value just when Infinity Infinity otherwise zero is returned when Infinity or is NaN",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "finite",
           "normalized": "Double-\u003eInt",
@@ -1592,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe floor function returns the largest integral value less than or equal to x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "floor",
           "package": "cmath",
@@ -1602,6 +1737,7 @@
         "index": {
           "description": "The floor function returns the largest integral value less than or equal to",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "floor",
           "normalized": "Double-\u003eDouble",
@@ -1617,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fmod function computes the floating-point remainder of x / y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "fmod",
           "package": "cmath",
@@ -1627,6 +1764,7 @@
         "index": {
           "description": "The fmod function computes the floating-point remainder of",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "fmod",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -1642,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrexp convert floating-point number to fractional and integral components\n frexp is not defined in the Haskell 98 report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "frexp",
           "package": "cmath",
@@ -1652,6 +1791,7 @@
         "index": {
           "description": "frexp convert floating-point number to fractional and integral components frexp is not defined in the Haskell report",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "frexp",
           "normalized": "Double-\u003e(Double,Int)",
@@ -1667,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe gamma function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "gamma",
           "package": "cmath",
@@ -1677,6 +1818,7 @@
         "index": {
           "description": "The gamma function",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "gamma",
           "normalized": "Double-\u003eDouble",
@@ -1692,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hypot function function computes the sqrt(x*x+y*y) in such a way that\n underflow will not happen, and overflow occurs only if the final result\n deserves it.  \n\u003c/p\u003e\u003cpre\u003e hypot(Infinity, v) = hypot(v, Infinity) = +Infinity for all v, including NaN.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "hypot",
           "package": "cmath",
@@ -1702,6 +1845,7 @@
         "index": {
           "description": "The hypot function function computes the sqrt in such way that underflow will not happen and overflow occurs only if the final result deserves it hypot Infinity hypot Infinity Infinity for all including NaN",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "hypot",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -1717,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eilogb() returns x's exponent n, in integer format.\n    ilogb(+-Infinity) re- turns INT_MAX and ilogb(0) returns INT_MIN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "ilogb",
           "package": "cmath",
@@ -1727,6 +1872,7 @@
         "index": {
           "description": "ilogb returns exponent in integer format ilogb Infinity re turns INT MAX and ilogb returns INT MIN",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "ilogb",
           "normalized": "Double-\u003eInt",
@@ -1742,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe isinf function returns 1 if the number n is Infinity, otherwise 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "isinf",
           "package": "cmath",
@@ -1752,6 +1899,7 @@
         "index": {
           "description": "The isinf function returns if the number is Infinity otherwise",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "isinf",
           "normalized": "Double-\u003eInt",
@@ -1767,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe isnan function returns 1 if the number n is ``not-a-number'',\n otherwise 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "isnan",
           "package": "cmath",
@@ -1777,6 +1926,7 @@
         "index": {
           "description": "The isnan function returns if the number is not-a-number otherwise",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "isnan",
           "normalized": "Double-\u003eInt",
@@ -1792,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe functions j0() and j1() compute the Bessel function of the\n first kind of the order 0 and the order 1, respectively, for the real\n value x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "j0",
           "package": "cmath",
@@ -1802,6 +1953,7 @@
         "index": {
           "description": "The functions j0 and j1 compute the Bessel function of the first kind of the order and the order respectively for the real value",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "j0",
           "normalized": "Double-\u003eDouble",
@@ -1817,6 +1969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe functions j0() and j1() compute the Bessel function of the\n first kind of the order 0 and the order 1, respectively, for the real\n value x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "j1",
           "package": "cmath",
@@ -1827,6 +1980,7 @@
         "index": {
           "description": "The functions j0 and j1 compute the Bessel function of the first kind of the order and the order respectively for the real value",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "j1",
           "normalized": "Double-\u003eDouble",
@@ -1842,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ldexp function multiplies a floating-point number by an integral power of 2.\n ldexp is not defined in the Haskell 98 report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "ldexp",
           "package": "cmath",
@@ -1852,6 +2007,7 @@
         "index": {
           "description": "The ldexp function multiplies floating-point number by an integral power of ldexp is not defined in the Haskell report",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "ldexp",
           "normalized": "Double-\u003eInt-\u003eDouble",
@@ -1867,6 +2023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elgamma(x) returns ln|| (x)|.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "lgamma",
           "package": "cmath",
@@ -1877,6 +2034,7 @@
         "index": {
           "description": "lgamma returns ln",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "lgamma",
           "normalized": "Double-\u003eDouble",
@@ -1892,6 +2050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe log() function computes the value of the natural logarithm of argument x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "log",
           "package": "cmath",
@@ -1902,6 +2061,7 @@
         "index": {
           "description": "The log function computes the value of the natural logarithm of argument",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "log",
           "normalized": "Double-\u003eDouble",
@@ -1917,6 +2077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe log10 function computes the value of the logarithm of argument x to base 10.\n log10 is not defined in the Haskell 98 report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "log10",
           "package": "cmath",
@@ -1927,6 +2088,7 @@
         "index": {
           "description": "The log10 function computes the value of the logarithm of argument to base log10 is not defined in the Haskell report",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "log10",
           "normalized": "Double-\u003eDouble",
@@ -1942,6 +2104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elogb x returns x's exponent n, a signed integer converted to\n double-precision floating-point.  \n\u003c/p\u003e\u003cpre\u003e logb(+-Infinity) = +Infinity;\n logb(0) = -Infinity with a division by zero exception.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "logb",
           "package": "cmath",
@@ -1952,6 +2115,7 @@
         "index": {
           "description": "logb returns exponent signed integer converted to double-precision floating-point logb Infinity Infinity logb Infinity with division by zero exception",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "logb",
           "normalized": "Double-\u003eDouble",
@@ -1967,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe modf function breaks the argument value into integral and fractional\n parts, each of which has the same sign as the argument.\n modf is not defined in the Haskell 98 report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "modf",
           "package": "cmath",
@@ -1977,6 +2142,7 @@
         "index": {
           "description": "The modf function breaks the argument value into integral and fractional parts each of which has the same sign as the argument modf is not defined in the Haskell report",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "modf",
           "normalized": "Double-\u003e(Double,Double)",
@@ -1992,6 +2158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enextafter returns the next machine representable number from x in direction y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "nextafter",
           "package": "cmath",
@@ -2002,6 +2169,7 @@
         "index": {
           "description": "nextafter returns the next machine representable number from in direction",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "nextafter",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2017,6 +2185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pow function computes the value of x to the exponent y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "pow",
           "package": "cmath",
@@ -2027,6 +2196,7 @@
         "index": {
           "description": "The pow function computes the value of to the exponent",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "pow",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2042,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremainder returns the remainder r := x - n*y where n is the integer\n nearest the exact value of x\u003cem\u003ey; moreover if |n - x\u003c/em\u003ey| = 1/2 then n is even.\n Consequently, the remainder is computed exactly and |r| \u003c= |y|/2.  But\n remainder(x, 0) and remainder(Infinity, 0) are invalid operations that produce\n a NaN.  --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "remainder",
           "package": "cmath",
@@ -2052,6 +2223,7 @@
         "index": {
           "description": "remainder returns the remainder where is the integer nearest the exact value of moreover if then is even Consequently the remainder is computed exactly and But remainder and remainder Infinity are invalid operations that produce NaN",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "remainder",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2067,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rint() function returns the integral value (represented as a\n double precision number) nearest to x according to the prevailing\n rounding mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "rint",
           "package": "cmath",
@@ -2077,6 +2250,7 @@
         "index": {
           "description": "The rint function returns the integral value represented as double precision number nearest to according to the prevailing rounding mode",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "rint",
           "normalized": "Double-\u003eDouble",
@@ -2092,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe round function returns the nearest integral value to x; if x lies\n halfway between two integral values, then these functions return the integral\n value with the larger absolute value (i.e., it rounds away from zero).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "round",
           "package": "cmath",
@@ -2102,6 +2277,7 @@
         "index": {
           "description": "The round function returns the nearest integral value to if lies halfway between two integral values then these functions return the integral value with the larger absolute value i.e it rounds away from zero",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "round",
           "normalized": "Double-\u003eDouble",
@@ -2117,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escalb(x, n) returns x*(2**n) computed by exponent manipulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "scalb",
           "package": "cmath",
@@ -2127,6 +2304,7 @@
         "index": {
           "description": "scalb returns computed by exponent manipulation",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "scalb",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2142,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esignificand(x) returns sig, where x := sig * 2**n with 1 \u003c= sig \u003c 2.\n significand(x) is not defined when x is 0, +-Infinity, or NaN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "significand",
           "package": "cmath",
@@ -2152,6 +2331,7 @@
         "index": {
           "description": "significand returns sig where sig with sig significand is not defined when is Infinity or NaN",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "significand",
           "normalized": "Double-\u003eDouble",
@@ -2167,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sin function computes the sine of x (measured in radians). \n A large magnitude argument may yield a result with little or no\n significance.  For a discussion of error due to roundoff, see math(3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "sin",
           "package": "cmath",
@@ -2177,6 +2358,7 @@
         "index": {
           "description": "The sin function computes the sine of measured in radians large magnitude argument may yield result with little or no significance For discussion of error due to roundoff see math",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "sin",
           "normalized": "Double-\u003eDouble",
@@ -2192,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sinh function computes the hyperbolic sine of x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "sinh",
           "package": "cmath",
@@ -2202,6 +2385,7 @@
         "index": {
           "description": "The sinh function computes the hyperbolic sine of",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "sinh",
           "normalized": "Double-\u003eDouble",
@@ -2217,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sqrt function computes the non-negative square root of x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "sqrt",
           "package": "cmath",
@@ -2227,6 +2412,7 @@
         "index": {
           "description": "The sqrt function computes the non-negative square root of",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "sqrt",
           "normalized": "Double-\u003eDouble",
@@ -2242,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tan function computes the tangent of x (measured in radians). \n A large magnitude argument may yield a result with little or no\n significance.  For a discussion of error due to roundoff, see math(3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "tan",
           "package": "cmath",
@@ -2252,6 +2439,7 @@
         "index": {
           "description": "The tan function computes the tangent of measured in radians large magnitude argument may yield result with little or no significance For discussion of error due to roundoff see math",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "tan",
           "normalized": "Double-\u003eDouble",
@@ -2267,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tanh function computes the hyperbolic tangent of x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "tanh",
           "package": "cmath",
@@ -2277,6 +2466,7 @@
         "index": {
           "description": "The tanh function computes the hyperbolic tangent of",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "tanh",
           "normalized": "Double-\u003eDouble",
@@ -2292,6 +2482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fmod function computes the floating-point remainder of x / y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "trunc",
           "package": "cmath",
@@ -2302,6 +2493,7 @@
         "index": {
           "description": "The fmod function computes the floating-point remainder of",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "trunc",
           "normalized": "Double-\u003eDouble",
@@ -2317,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe functions y0() and y1() compute the linearly independent Bessel\n function of the second kind of the order 0 and the order 1,\n respectively, for the positive integer value x (expressed as a double)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "y0",
           "package": "cmath",
@@ -2327,6 +2520,7 @@
         "index": {
           "description": "The functions y0 and y1 compute the linearly independent Bessel function of the second kind of the order and the order respectively for the positive integer value expressed as double",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "y0",
           "normalized": "Double-\u003eDouble",
@@ -2342,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe functions y0() and y1() compute the linearly independent Bessel\n function of the second kind of the order 0 and the order 1,\n respectively, for the positive integer value x (expressed as a double)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "y1",
           "package": "cmath",
@@ -2352,6 +2547,7 @@
         "index": {
           "description": "The functions y0 and y1 compute the linearly independent Bessel function of the second kind of the order and the order respectively for the positive integer value expressed as double",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "y1",
           "normalized": "Double-\u003eDouble",
@@ -2367,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyn() computes the Bessel function of the second kind for the\n integer Bessel0 n for the positive integer value x (expressed as a\n double).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:51 UTC 2014",
           "module": "Foreign.C.Math.Double",
           "name": "yn",
           "package": "cmath",
@@ -2377,6 +2574,7 @@
         "index": {
           "description": "yn computes the Bessel function of the second kind for the integer Bessel0 for the positive integer value expressed as double",
           "hierarchy": "Foreign C Math Double",
+          "indexed": "2014-03-11T17:34:51",
           "module": "Foreign.C.Math.Double",
           "name": "yn",
           "normalized": "Int-\u003eDouble-\u003eDouble",

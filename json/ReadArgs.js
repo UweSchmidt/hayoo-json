@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ReadArgs"
+        "phrase": "ReadArgs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "ReadArgs",
           "package": "ReadArgs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "ReadArgs",
           "package": "ReadArgs",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse :& to construct arbitrary length tuples of any parsable arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": ":&",
           "package": "ReadArgs",
@@ -49,6 +52,7 @@
         "index": {
           "description": "use to construct arbitrary length tuples of any parsable arguments",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": ":&",
           "package": "ReadArgs",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea class for types that can be parsed from exactly one command line argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "Arguable",
           "package": "ReadArgs",
@@ -71,6 +76,7 @@
         "index": {
           "description": "class for types that can be parsed from exactly one command line argument",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "Arguable",
           "package": "ReadArgs",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea class for types that can be parsed from some number of command line\n arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "Argument",
           "package": "ReadArgs",
@@ -94,6 +101,7 @@
         "index": {
           "description": "class for types that can be parsed from some number of command line arguments",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "Argument",
           "package": "ReadArgs",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea class for tuples of types that can be parsed from the entire list\n of arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "ArgumentTuple",
           "package": "ReadArgs",
@@ -117,6 +126,7 @@
         "index": {
           "description": "class for tuples of types that can be parsed from the entire list of arguments",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "ArgumentTuple",
           "package": "ReadArgs",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea wrapper type to indicate a non-greedy list or maybe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "NonGreedy",
           "package": "ReadArgs",
@@ -140,6 +151,7 @@
         "index": {
           "description": "wrapper type to indicate non-greedy list or maybe",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "NonGreedy",
           "package": "ReadArgs",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": ":&",
           "package": "ReadArgs",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": ":&",
           "package": "ReadArgs",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "NonGreedy",
           "package": "ReadArgs",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "NonGreedy",
           "package": "ReadArgs",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eargName's argument will usually be undefined, so when defining instances of\n Arguable, it should be lazy in its argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "argName",
           "package": "ReadArgs",
@@ -207,6 +224,7 @@
         "index": {
           "description": "argName argument will usually be undefined so when defining instances of Arguable it should be lazy in its argument",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "argName",
           "normalized": "a-\u003eString",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename's argument will usually be undefined, so when defining instances of\n Arguable, it should be lazy in its argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "name",
           "package": "ReadArgs",
@@ -233,6 +252,7 @@
         "index": {
           "description": "name argument will usually be undefined so when defining instances of Arguable it should be lazy in its argument",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "name",
           "normalized": "a-\u003eString",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "parse",
           "package": "ReadArgs",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "parse",
           "normalized": "String-\u003eMaybe a",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "parseArg",
           "package": "ReadArgs",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "parseArg",
           "normalized": "[String]-\u003e[(a,[String])]",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "parseArgsFrom",
           "package": "ReadArgs",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "parseArgsFrom",
           "normalized": "[String]-\u003eMaybe a",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse the desired argument tuple from the command line or \n  print a simple usage statment and quit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "readArgs",
           "package": "ReadArgs",
@@ -329,6 +356,7 @@
         "index": {
           "description": "parse the desired argument tuple from the command line or print simple usage statment and quit",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "readArgs",
           "package": "ReadArgs",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread args from the given strings or \n  print a simple usage statment and quit\n  (so you can do option parsing first)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "readArgsFrom",
           "package": "ReadArgs",
@@ -353,6 +382,7 @@
         "index": {
           "description": "read args from the given strings or print simple usage statment and quit so you can do option parsing first",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "readArgsFrom",
           "normalized": "[String]-\u003eIO a",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "unNonGreedy",
           "package": "ReadArgs",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "unNonGreedy",
           "package": "ReadArgs",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eusageFor's argument will usually be undefined, so when defining instances of\n Arguable, it should be lazy in its argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:41 UTC 2014",
           "module": "ReadArgs",
           "name": "usageFor",
           "package": "ReadArgs",
@@ -401,6 +434,7 @@
         "index": {
           "description": "usageFor argument will usually be undefined so when defining instances of Arguable it should be lazy in its argument",
           "hierarchy": "ReadArgs",
+          "indexed": "2014-03-11T16:58:41",
           "module": "ReadArgs",
           "name": "usageFor",
           "normalized": "a-\u003eString",

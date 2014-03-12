@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gloss"
+        "phrase": "gloss",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious ray casting algorithms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Algorithms.RayCast",
           "name": "RayCast",
           "package": "gloss",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Various ray casting algorithms",
           "hierarchy": "Graphics Gloss Algorithms RayCast",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Algorithms.RayCast",
           "name": "RayCast",
           "package": "gloss",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe quadtree contains cells of unit extent (NetHack style).\n   Given a line segement (P1-P2) through the tree, get the cell \n   closest to P1 that intersects the segment, if any.\n\u003c/p\u003e\u003cp\u003eTODO: This currently uses a naive algorithm. It just calls \n         \u003ccode\u003e\u003ca\u003etraceSegIntoCellularQuadTree\u003c/a\u003e\u003c/code\u003e and sorts the results\n         to get the one closest to P1. It'd be better to do a \n         proper walk over the tree in the direction of the ray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Algorithms.RayCast",
           "name": "castSegIntoCellularQuadTree",
           "package": "gloss",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The quadtree contains cells of unit extent NetHack style Given line segement P1-P2 through the tree get the cell closest to P1 that intersects the segment if any TODO This currently uses naive algorithm It just calls traceSegIntoCellularQuadTree and sorts the results to get the one closest to P1 It be better to do proper walk over the tree in the direction of the ray",
           "hierarchy": "Graphics Gloss Algorithms RayCast",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Algorithms.RayCast",
           "name": "castSegIntoCellularQuadTree",
           "normalized": "Point-\u003ePoint-\u003eExtent-\u003eQuadTree a-\u003eMaybe(Point,Extent,a)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe quadtree contains cells of unit extent (NetHack style).\n   Given a line segment (P1-P2) through the tree, return the list of cells \n   that intersect the segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Algorithms.RayCast",
           "name": "traceSegIntoCellularQuadTree",
           "package": "gloss",
@@ -76,6 +81,7 @@
         "index": {
           "description": "The quadtree contains cells of unit extent NetHack style Given line segment P1-P2 through the tree return the list of cells that intersect the segment",
           "hierarchy": "Graphics Gloss Algorithms RayCast",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Algorithms.RayCast",
           "name": "traceSegIntoCellularQuadTree",
           "normalized": "Point-\u003ePoint-\u003eExtent-\u003eQuadTree a-\u003e[(Point,Extent,a)]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePredefined and custom colors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "Color",
           "package": "gloss",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Predefined and custom colors",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "Color",
           "package": "gloss",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract color value.\n\tWe keep the type abstract so we can be sure that the components\n\tare in the required range. To make a custom color use \u003ccode\u003e\u003ca\u003emakeColor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "Color",
           "package": "gloss",
@@ -124,6 +133,7 @@
         "index": {
           "description": "An abstract color value We keep the type abstract so we can be sure that the components are in the required range To make custom color use makeColor",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "Color",
           "package": "gloss",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd RGB components of a color component-wise, then normalise\n\tthem to the highest resulting one. The alpha components are averaged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "addColors",
           "package": "gloss",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Add RGB components of color component-wise then normalise them to the highest resulting one The alpha components are averaged",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "addColors",
           "normalized": "Color-\u003eColor-\u003eColor",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "aquamarine",
           "package": "gloss",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "aquamarine",
           "package": "gloss",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "azure",
           "package": "gloss",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "azure",
           "package": "gloss",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "black",
           "package": "gloss",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "black",
           "package": "gloss",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "blue",
           "package": "gloss",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "blue",
           "package": "gloss",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a brighter version of a color, scaling towards white.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "bright",
           "package": "gloss",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Make brighter version of color scaling towards white",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "bright",
           "normalized": "Color-\u003eColor",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "chartreuse",
           "package": "gloss",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "chartreuse",
           "package": "gloss",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "cyan",
           "package": "gloss",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "cyan",
           "package": "gloss",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDarken a color, adding black.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "dark",
           "package": "gloss",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Darken color adding black",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "dark",
           "normalized": "Color-\u003eColor",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a dimmer version of a color, scaling towards black.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "dim",
           "package": "gloss",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Make dimmer version of color scaling towards black",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "dim",
           "normalized": "Color-\u003eColor",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "green",
           "package": "gloss",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "green",
           "package": "gloss",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA greyness of a given magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "greyN",
           "package": "gloss",
@@ -395,6 +428,7 @@
         "index": {
           "description": "greyness of given magnitude",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "greyN",
           "normalized": "Float-\u003eColor",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLighten a color, adding white.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "light",
           "package": "gloss",
@@ -420,6 +455,7 @@
         "index": {
           "description": "Lighten color adding white",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "light",
           "normalized": "Color-\u003eColor",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "magenta",
           "package": "gloss",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "magenta",
           "package": "gloss",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a custom color. All components are clamped to the range  [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "makeColor",
           "package": "gloss",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Make custom color All components are clamped to the range",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "makeColor",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eFloat-\u003eColor",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a custom color. \n   You promise that all components are clamped to the range [0..1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "makeColor'",
           "package": "gloss",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Make custom color You promise that all components are clamped to the range",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "makeColor'",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eFloat-\u003eColor",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a custom color. All components are clamped to the range [0..255].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "makeColor8",
           "package": "gloss",
@@ -516,6 +559,7 @@
         "index": {
           "description": "Make custom color All components are clamped to the range",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "makeColor8",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eColor",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix two colors with the given ratios.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "mixColors",
           "package": "gloss",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Mix two colors with the given ratios",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "mixColors",
           "normalized": "Float-\u003eFloat-\u003eColor-\u003eColor-\u003eColor",
@@ -556,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "orange",
           "package": "gloss",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "orange",
           "package": "gloss",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a custom color.\n   Components should be in the range [0..1] but this is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "rawColor",
           "package": "gloss",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Make custom color Components should be in the range but this is not checked",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "rawColor",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eFloat-\u003eColor",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "red",
           "package": "gloss",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "red",
           "package": "gloss",
@@ -624,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the RGBA components of a color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "rgbaOfColor",
           "package": "gloss",
@@ -634,6 +687,7 @@
         "index": {
           "description": "Take the RGBA components of color",
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "rgbaOfColor",
           "normalized": "Color-\u003e(Float,Float,Float,Float)",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "rose",
           "package": "gloss",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "rose",
           "package": "gloss",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "violet",
           "package": "gloss",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "violet",
           "package": "gloss",
@@ -691,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "white",
           "package": "gloss",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "white",
           "package": "gloss",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Color",
           "name": "yellow",
           "package": "gloss",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Color",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Color",
           "name": "yellow",
           "package": "gloss",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Display",
           "name": "Display",
           "package": "gloss",
@@ -741,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Display",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Display",
           "name": "Display",
           "package": "gloss",
@@ -755,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes how Gloss should display its output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Display",
           "name": "Display",
           "package": "gloss",
@@ -764,6 +829,7 @@
         "index": {
           "description": "Describes how Gloss should display its output",
           "hierarchy": "Graphics Gloss Data Display",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Display",
           "name": "Display",
           "package": "gloss",
@@ -832,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresents an integral rectangular area of the 2D plane.\n   Using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es (instead of \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003es) for the bounds means we can safely\n   compare extents for equality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "Extent",
           "package": "gloss",
@@ -841,6 +908,7 @@
         "index": {
           "description": "Represents an integral rectangular area of the plane Using Int instead of Float for the bounds means we can safely compare extents for equality",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "Extent",
           "package": "gloss",
@@ -855,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integral coordinate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "Coord",
           "package": "gloss",
@@ -864,6 +933,7 @@
         "index": {
           "description": "An integral coordinate",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "Coord",
           "package": "gloss",
@@ -878,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular area of the 2D plane.\n   We keep the type abstract to ensure that invalid extents cannot be\n   constructed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "Extent",
           "package": "gloss",
@@ -887,6 +958,7 @@
         "index": {
           "description": "rectangular area of the plane We keep the type abstract to ensure that invalid extents cannot be constructed",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "Extent",
           "package": "gloss",
@@ -901,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the coordinate that lies at the center of an extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "centerCoordOfExtent",
           "package": "gloss",
@@ -911,6 +984,7 @@
         "index": {
           "description": "Get the coordinate that lies at the center of an extent",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "centerCoordOfExtent",
           "normalized": "Extent-\u003e(Int,Int)",
@@ -927,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a coordinate lies inside an extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "coordInExtent",
           "package": "gloss",
@@ -937,6 +1012,7 @@
         "index": {
           "description": "Check whether coordinate lies inside an extent",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "coordInExtent",
           "normalized": "Extent-\u003eCoord-\u003eBool",
@@ -953,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut one quadrant out of an extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "cutQuadOfExtent",
           "package": "gloss",
@@ -963,6 +1040,7 @@
         "index": {
           "description": "Cut one quadrant out of an extent",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "cutQuadOfExtent",
           "normalized": "Quad-\u003eExtent-\u003eExtent",
@@ -979,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a line segment (P1-P2) intersects the outer edge of an extent then\n   return the intersection point, that is closest to P1, if any.\n   If P1 is inside the extent then \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n                   P2\n                  /\n            ----/-\n            | /  |\n            +    |\n           /------\n         / \n        P1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "intersectSegExtent",
           "package": "gloss",
@@ -989,6 +1068,7 @@
         "index": {
           "description": "If line segment P1-P2 intersects the outer edge of an extent then return the intersection point that is closest to P1 if any If P1 is inside the extent then Nothing P2 P1",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "intersectSegExtent",
           "normalized": "Point-\u003ePoint-\u003eExtent-\u003eMaybe Point",
@@ -1005,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if an extent is a square with a width and height of 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "isUnitExtent",
           "package": "gloss",
@@ -1015,6 +1096,7 @@
         "index": {
           "description": "Check if an extent is square with width and height of",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "isUnitExtent",
           "normalized": "Extent-\u003eBool",
@@ -1031,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an extent.\n\tThe north value must be \u003e south, and east \u003e west, else \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "makeExtent",
           "package": "gloss",
@@ -1040,6 +1123,7 @@
         "index": {
           "description": "Construct an extent The north value must be south and east west else error",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "makeExtent",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eExtent",
@@ -1056,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstuct a path to a particular coordinate in an extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "pathToCoord",
           "package": "gloss",
@@ -1066,6 +1151,7 @@
         "index": {
           "description": "Constuct path to particular coordinate in an extent",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "pathToCoord",
           "normalized": "Extent-\u003eCoord-\u003eMaybe[Quad]",
@@ -1082,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a point lies inside an extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "pointInExtent",
           "package": "gloss",
@@ -1092,6 +1179,7 @@
         "index": {
           "description": "Check whether point lies inside an extent",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "pointInExtent",
           "normalized": "Extent-\u003ePoint-\u003eBool",
@@ -1108,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the quadrant that this coordinate lies in, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "quadOfCoord",
           "package": "gloss",
@@ -1118,6 +1207,7 @@
         "index": {
           "description": "Get the quadrant that this coordinate lies in if any",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "quadOfCoord",
           "normalized": "Extent-\u003eCoord-\u003eMaybe Quad",
@@ -1134,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the width and height of an extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "sizeOfExtent",
           "package": "gloss",
@@ -1144,6 +1235,7 @@
         "index": {
           "description": "Get the width and height of an extent",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "sizeOfExtent",
           "normalized": "Extent-\u003e(Int,Int)",
@@ -1160,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA square extent of a given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "squareExtent",
           "package": "gloss",
@@ -1170,6 +1263,7 @@
         "index": {
           "description": "square extent of given size",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "squareExtent",
           "normalized": "Int-\u003eExtent",
@@ -1186,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the NSEW components of an extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "takeExtent",
           "package": "gloss",
@@ -1196,6 +1291,7 @@
         "index": {
           "description": "Take the NSEW components of an extent",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "takeExtent",
           "normalized": "Extent-\u003e(Int,Int,Int,Int)",
@@ -1212,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a line segment's endpoints are inside an extent, or if it\n   intersects with the boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "touchesSegExtent",
           "package": "gloss",
@@ -1222,6 +1319,7 @@
         "index": {
           "description": "Check whether line segment endpoints are inside an extent or if it intersects with the boundary",
           "hierarchy": "Graphics Gloss Data Extent",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Extent",
           "name": "touchesSegExtent",
           "normalized": "Point-\u003ePoint-\u003eExtent-\u003eBool",
@@ -1238,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for representing pictures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Picture",
           "package": "gloss",
@@ -1247,6 +1346,7 @@
         "index": {
           "description": "Data types for representing pictures",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Picture",
           "package": "gloss",
@@ -1261,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract 32-bit RGBA bitmap data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "BitmapData",
           "package": "gloss",
@@ -1270,6 +1371,7 @@
         "index": {
           "description": "Abstract bit RGBA bitmap data",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "BitmapData",
           "package": "gloss",
@@ -1284,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path through the x-y plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Path",
           "package": "gloss",
@@ -1293,6 +1396,7 @@
         "index": {
           "description": "path through the x-y plane",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Path",
           "package": "gloss",
@@ -1307,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D picture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Picture",
           "package": "gloss",
@@ -1316,6 +1421,7 @@
         "index": {
           "description": "picture",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Picture",
           "package": "gloss",
@@ -1330,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point on the x-y plane.\n   Points can also be treated as \u003ccode\u003eVector\u003c/code\u003es, so \u003ca\u003eGraphics.Gloss.Data.Vector\u003c/a\u003e\n   may also be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Point",
           "package": "gloss",
@@ -1339,6 +1446,7 @@
         "index": {
           "description": "point on the x-y plane Points can also be treated as Vector so Graphics.Gloss.Data.Vector may also be useful",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Point",
           "package": "gloss",
@@ -1353,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector can be treated as a point, and vis-versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Vector",
           "package": "gloss",
@@ -1362,6 +1471,7 @@
         "index": {
           "description": "vector can be treated as point and vis-versa",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Vector",
           "package": "gloss",
@@ -1376,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circular arc drawn counter-clockwise between two angles \n  (in degrees) at the given radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Arc",
           "package": "gloss",
@@ -1386,6 +1497,7 @@
         "index": {
           "description": "circular arc drawn counter-clockwise between two angles in degrees at the given radius",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Arc",
           "package": "gloss",
@@ -1400,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bitmap image with a width, height and some 32-bit RGBA\n   bitmap data.\n\u003c/p\u003e\u003cp\u003eThe boolean flag controls whether Gloss should cache the data\n  between frames for speed. If you are programatically generating\n  the image for each frame then use \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e. If you have loaded it\n  from a file then use \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Bitmap",
           "package": "gloss",
@@ -1410,6 +1523,7 @@
         "index": {
           "description": "bitmap image with width height and some bit RGBA bitmap data The boolean flag controls whether Gloss should cache the data between frames for speed If you are programatically generating the image for each frame then use False If you have loaded it from file then use True",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Bitmap",
           "package": "gloss",
@@ -1424,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA blank picture, with nothing in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Blank",
           "package": "gloss",
@@ -1434,6 +1549,7 @@
         "index": {
           "description": "blank picture with nothing in it",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Blank",
           "package": "gloss",
@@ -1448,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circle with the given radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Circle",
           "package": "gloss",
@@ -1458,6 +1575,7 @@
         "index": {
           "description": "circle with the given radius",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Circle",
           "package": "gloss",
@@ -1472,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture drawn with this color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Color",
           "package": "gloss",
@@ -1482,6 +1601,7 @@
         "index": {
           "description": "picture drawn with this color",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Color",
           "package": "gloss",
@@ -1496,6 +1616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line along an arbitrary path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Line",
           "package": "gloss",
@@ -1506,6 +1627,7 @@
         "index": {
           "description": "line along an arbitrary path",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Line",
           "package": "gloss",
@@ -1520,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture consisting of several others.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Pictures",
           "package": "gloss",
@@ -1530,6 +1653,7 @@
         "index": {
           "description": "picture consisting of several others",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Pictures",
           "normalized": "Pictures[Picture]",
@@ -1546,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convex polygon filled with a solid color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Polygon",
           "package": "gloss",
@@ -1556,6 +1681,7 @@
         "index": {
           "description": "convex polygon filled with solid color",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Polygon",
           "package": "gloss",
@@ -1570,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture rotated clockwise by the given angle (in degrees).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Rotate",
           "package": "gloss",
@@ -1580,6 +1707,7 @@
         "index": {
           "description": "picture rotated clockwise by the given angle in degrees",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Rotate",
           "package": "gloss",
@@ -1594,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture scaled by the given x and y factors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Scale",
           "package": "gloss",
@@ -1604,6 +1733,7 @@
         "index": {
           "description": "picture scaled by the given and factors",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Scale",
           "package": "gloss",
@@ -1618,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome text to draw with a vector font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Text",
           "package": "gloss",
@@ -1628,6 +1759,7 @@
         "index": {
           "description": "Some text to draw with vector font",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Text",
           "package": "gloss",
@@ -1642,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circular arc drawn counter-clockwise between two angles \n  (in degrees), with the given radius  and thickness.\n   If the thickness is 0 then this is equivalent to \u003ccode\u003e\u003ca\u003eArc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "ThickArc",
           "package": "gloss",
@@ -1652,6 +1785,7 @@
         "index": {
           "description": "circular arc drawn counter-clockwise between two angles in degrees with the given radius and thickness If the thickness is then this is equivalent to Arc",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "ThickArc",
           "package": "gloss",
@@ -1666,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circle with the given thickness and radius.\n   If the thickness is 0 then this is equivalent to \u003ccode\u003e\u003ca\u003eCircle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "ThickCircle",
           "package": "gloss",
@@ -1676,6 +1811,7 @@
         "index": {
           "description": "circle with the given thickness and radius If the thickness is then this is equivalent to Circle",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "ThickCircle",
           "package": "gloss",
@@ -1690,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture translated by the given x and y coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Translate",
           "package": "gloss",
@@ -1700,6 +1837,7 @@
         "index": {
           "description": "picture translated by the given and coordinates",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "Translate",
           "package": "gloss",
@@ -1714,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circular arc drawn counter-clockwise between two angles (in degrees) \n   at the given radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "arc",
           "package": "gloss",
@@ -1724,6 +1863,7 @@
         "index": {
           "description": "circular arc drawn counter-clockwise between two angles in degrees at the given radius",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "arc",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003ePicture",
@@ -1739,6 +1879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA solid arc, drawn counter-clockwise between two angles at the given radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "arcSolid",
           "package": "gloss",
@@ -1749,6 +1890,7 @@
         "index": {
           "description": "solid arc drawn counter-clockwise between two angles at the given radius",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "arcSolid",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003ePicture",
@@ -1765,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bitmap image with a width, height and a Vector holding the \n   32-bit RGBA bitmap data.\n\u003c/p\u003e\u003cp\u003eThe boolean flag controls whether Gloss should cache the data\n  between frames for speed.\n  If you are programatically generating the image for\n  each frame then use \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.  \n  If you have loaded it from a file then use \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "bitmap",
           "package": "gloss",
@@ -1775,6 +1918,7 @@
         "index": {
           "description": "bitmap image with width height and Vector holding the bit RGBA bitmap data The boolean flag controls whether Gloss should cache the data between frames for speed If you are programatically generating the image for each frame then use False If you have loaded it from file then use True",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "bitmap",
           "normalized": "Int-\u003eInt-\u003eBitmapData-\u003eBool-\u003ePicture",
@@ -1790,6 +1934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(size). Copy a \u003ccode\u003e\u003ca\u003eBMP\u003c/a\u003e\u003c/code\u003e file into a bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "bitmapOfBMP",
           "package": "gloss",
@@ -1800,6 +1945,7 @@
         "index": {
           "description": "size Copy BMP file into bitmap",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "bitmapOfBMP",
           "normalized": "BMP-\u003ePicture",
@@ -1816,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(size). Copy a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e of RGBA data into a bitmap with the given\n   width and height.\n\u003c/p\u003e\u003cp\u003eThe boolean flag controls whether Gloss should cache the data\n   between frames for speed. If you are programatically generating\n   the image for each frame then use \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e. If you have loaded it\n   from a file then use \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "bitmapOfByteString",
           "package": "gloss",
@@ -1826,6 +1973,7 @@
         "index": {
           "description": "size Copy ByteString of RGBA data into bitmap with the given width and height The boolean flag controls whether Gloss should cache the data between frames for speed If you are programatically generating the image for each frame then use False If you have loaded it from file then use True",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "bitmapOfByteString",
           "normalized": "Int-\u003eInt-\u003eByteString-\u003eBool-\u003ePicture",
@@ -1842,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Use a \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e of RGBA data as a bitmap with the given\n   width and height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "bitmapOfForeignPtr",
           "package": "gloss",
@@ -1852,6 +2001,7 @@
         "index": {
           "description": "Use ForeignPtr of RGBA data as bitmap with the given width and height",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "bitmapOfForeignPtr",
           "normalized": "Int-\u003eInt-\u003eForeignPtr Word-\u003eBool-\u003ePicture",
@@ -1868,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA blank picture, with nothing in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "blank",
           "package": "gloss",
@@ -1878,6 +2029,7 @@
         "index": {
           "description": "blank picture with nothing in it",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "blank",
           "package": "gloss",
@@ -1891,6 +2043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circle with the given radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "circle",
           "package": "gloss",
@@ -1901,6 +2054,7 @@
         "index": {
           "description": "circle with the given radius",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "circle",
           "normalized": "Float-\u003ePicture",
@@ -1916,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA solid circle with the given radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "circleSolid",
           "package": "gloss",
@@ -1926,6 +2081,7 @@
         "index": {
           "description": "solid circle with the given radius",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "circleSolid",
           "normalized": "Float-\u003ePicture",
@@ -1942,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture drawn with this color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "color",
           "package": "gloss",
@@ -1952,6 +2109,7 @@
         "index": {
           "description": "picture drawn with this color",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "color",
           "normalized": "Color-\u003ePicture-\u003ePicture",
@@ -1967,6 +2125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line along an arbitrary path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "line",
           "package": "gloss",
@@ -1977,6 +2136,7 @@
         "index": {
           "description": "line along an arbitrary path",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "line",
           "normalized": "Path-\u003ePicture",
@@ -1992,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closed loop along a path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "lineLoop",
           "package": "gloss",
@@ -2002,6 +2163,7 @@
         "index": {
           "description": "closed loop along path",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "lineLoop",
           "normalized": "Path-\u003ePicture",
@@ -2018,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad an uncompressed 24 or 32bit RGBA BMP file as a bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "loadBMP",
           "package": "gloss",
@@ -2028,6 +2191,7 @@
         "index": {
           "description": "Load an uncompressed or bit RGBA BMP file as bitmap",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "loadBMP",
           "normalized": "FilePath-\u003eIO Picture",
@@ -2044,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture consisting of several others.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "pictures",
           "package": "gloss",
@@ -2054,6 +2219,7 @@
         "index": {
           "description": "picture consisting of several others",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "pictures",
           "normalized": "[Picture]-\u003ePicture",
@@ -2069,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convex polygon filled with a solid color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "polygon",
           "package": "gloss",
@@ -2079,6 +2246,7 @@
         "index": {
           "description": "convex polygon filled with solid color",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "polygon",
           "normalized": "Path-\u003ePicture",
@@ -2094,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path representing a rectangle centered about the origin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectanglePath",
           "package": "gloss",
@@ -2103,6 +2272,7 @@
         "index": {
           "description": "path representing rectangle centered about the origin",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectanglePath",
           "normalized": "Float-\u003eFloat-\u003ePath",
@@ -2119,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA solid rectangle centered about the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleSolid",
           "package": "gloss",
@@ -2129,6 +2300,7 @@
         "index": {
           "description": "solid rectangle centered about the origin",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleSolid",
           "normalized": "Float-\u003eFloat-\u003ePicture",
@@ -2145,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path representing a rectangle in the y \u003e 0 half of the x-y plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleUpperPath",
           "package": "gloss",
@@ -2155,6 +2328,7 @@
         "index": {
           "description": "path representing rectangle in the half of the x-y plane",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleUpperPath",
           "normalized": "Float-\u003eFloat-\u003ePath",
@@ -2171,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA solid rectangle in the y \u003e 0 half of the x-y plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleUpperSolid",
           "package": "gloss",
@@ -2181,6 +2356,7 @@
         "index": {
           "description": "solid rectangle in the half of the x-y plane",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleUpperSolid",
           "normalized": "Float-\u003eFloat-\u003ePicture",
@@ -2197,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wireframe rectangle in the y \u003e 0 half of the x-y plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleUpperWire",
           "package": "gloss",
@@ -2207,6 +2384,7 @@
         "index": {
           "description": "wireframe rectangle in the half of the x-y plane",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleUpperWire",
           "normalized": "Float-\u003eFloat-\u003ePicture",
@@ -2223,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wireframe rectangle centered about the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleWire",
           "package": "gloss",
@@ -2233,6 +2412,7 @@
         "index": {
           "description": "wireframe rectangle centered about the origin",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rectangleWire",
           "normalized": "Float-\u003eFloat-\u003ePicture",
@@ -2249,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture rotated clockwise by the given angle (in degrees).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rotate",
           "package": "gloss",
@@ -2259,6 +2440,7 @@
         "index": {
           "description": "picture rotated clockwise by the given angle in degrees",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "rotate",
           "normalized": "Float-\u003ePicture-\u003ePicture",
@@ -2274,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture scaled by the given x and y factors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "scale",
           "package": "gloss",
@@ -2284,6 +2467,7 @@
         "index": {
           "description": "picture scaled by the given and factors",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "scale",
           "normalized": "Float-\u003eFloat-\u003ePicture-\u003ePicture",
@@ -2299,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wireframe sector of a circle. \n   An arc is draw counter-clockwise from the first to the second angle at\n   the given radius. Lines are drawn from the origin to the ends of the arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "sectorWire",
           "package": "gloss",
@@ -2309,6 +2494,7 @@
         "index": {
           "description": "wireframe sector of circle An arc is draw counter-clockwise from the first to the second angle at the given radius Lines are drawn from the origin to the ends of the arc",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "sectorWire",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003ePicture",
@@ -2325,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome text to draw with a vector font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "text",
           "package": "gloss",
@@ -2335,6 +2522,7 @@
         "index": {
           "description": "Some text to draw with vector font",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "text",
           "normalized": "String-\u003ePicture",
@@ -2350,6 +2538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circular arc drawn counter-clockwise between two angles (in degrees),\n   with the given radius  and thickness.\n   If the thickness is 0 then this is equivalent to \u003ccode\u003e\u003ca\u003eArc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "thickArc",
           "package": "gloss",
@@ -2360,6 +2549,7 @@
         "index": {
           "description": "circular arc drawn counter-clockwise between two angles in degrees with the given radius and thickness If the thickness is then this is equivalent to Arc",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "thickArc",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eFloat-\u003ePicture",
@@ -2376,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circle with the given thickness and radius.\n   If the thickness is 0 then this is equivalent to \u003ccode\u003e\u003ca\u003eCircle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "thickCircle",
           "package": "gloss",
@@ -2386,6 +2577,7 @@
         "index": {
           "description": "circle with the given thickness and radius If the thickness is then this is equivalent to Circle",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "thickCircle",
           "normalized": "Float-\u003eFloat-\u003ePicture",
@@ -2402,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture translated by the given x and y coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "translate",
           "package": "gloss",
@@ -2412,6 +2605,7 @@
         "index": {
           "description": "picture translated by the given and coordinates",
           "hierarchy": "Graphics Gloss Data Picture",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Picture",
           "name": "translate",
           "normalized": "Float-\u003eFloat-\u003ePicture-\u003ePicture",
@@ -2426,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Point",
           "name": "Point",
           "package": "gloss",
@@ -2434,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Point",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Point",
           "name": "Point",
           "package": "gloss",
@@ -2448,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point on the x-y plane.\n   Points can also be treated as \u003ccode\u003eVector\u003c/code\u003es, so \u003ca\u003eGraphics.Gloss.Data.Vector\u003c/a\u003e\n   may also be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Point",
           "name": "Point",
           "package": "gloss",
@@ -2457,6 +2654,7 @@
         "index": {
           "description": "point on the x-y plane Points can also be treated as Vector so Graphics.Gloss.Data.Vector may also be useful",
           "hierarchy": "Graphics Gloss Data Point",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Point",
           "name": "Point",
           "package": "gloss",
@@ -2471,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a point lies within a rectangular box that is oriented\n   on the x-y plane. The points P1-P2 are opposing points of the box,\n   but need not be in a particular order.\n\u003c/p\u003e\u003cpre\u003e\n    P2 +-------+\n       |       |\n       | + P0  |\n       |       |\n       +-------+ P1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Point",
           "name": "pointInBox",
           "package": "gloss",
@@ -2481,6 +2680,7 @@
         "index": {
           "description": "Test whether point lies within rectangular box that is oriented on the x-y plane The points P1-P2 are opposing points of the box but need not be in particular order P2 P0 P1",
           "hierarchy": "Graphics Gloss Data Point",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Point",
           "name": "pointInBox",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003eBool",
@@ -2496,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "Quad",
           "package": "gloss",
@@ -2504,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data Quad",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "Quad",
           "package": "gloss",
@@ -2518,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a Quadrant in the 2D plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "Quad",
           "package": "gloss",
@@ -2527,6 +2730,7 @@
         "index": {
           "description": "Represents Quadrant in the plane",
           "hierarchy": "Graphics Gloss Data Quad",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "Quad",
           "package": "gloss",
@@ -2541,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNorth East\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "NE",
           "package": "gloss",
@@ -2551,6 +2756,7 @@
         "index": {
           "description": "North East",
           "hierarchy": "Graphics Gloss Data Quad",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "NE",
           "package": "gloss",
@@ -2565,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNorth West\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "NW",
           "package": "gloss",
@@ -2575,6 +2782,7 @@
         "index": {
           "description": "North West",
           "hierarchy": "Graphics Gloss Data Quad",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "NW",
           "package": "gloss",
@@ -2589,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSouth East\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "SE",
           "package": "gloss",
@@ -2599,6 +2808,7 @@
         "index": {
           "description": "South East",
           "hierarchy": "Graphics Gloss Data Quad",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "SE",
           "package": "gloss",
@@ -2613,6 +2823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSouth West\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "SW",
           "package": "gloss",
@@ -2623,6 +2834,7 @@
         "index": {
           "description": "South West",
           "hierarchy": "Graphics Gloss Data Quad",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "SW",
           "package": "gloss",
@@ -2637,6 +2849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all quadrants. Same as \u003ccode\u003e[NW .. SE]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "allQuads",
           "package": "gloss",
@@ -2647,6 +2860,7 @@
         "index": {
           "description": "list of all quadrants Same as NW SE",
           "hierarchy": "Graphics Gloss Data Quad",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Quad",
           "name": "allQuads",
           "normalized": "[Quad]",
@@ -2663,6 +2877,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA QuadTree can be used to recursively divide up 2D space into quadrants.\n   The smallest division corresponds to an unit \u003ccode\u003e\u003ca\u003eExtent\u003c/a\u003e\u003c/code\u003e, so the total depth \n   of the tree will depend on what sized \u003ccode\u003e\u003ca\u003eExtent\u003c/a\u003e\u003c/code\u003e you start with.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "QuadTree",
           "package": "gloss",
@@ -2672,6 +2887,7 @@
         "index": {
           "description": "QuadTree can be used to recursively divide up space into quadrants The smallest division corresponds to an unit Extent so the total depth of the tree will depend on what sized Extent you start with",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "QuadTree",
           "package": "gloss",
@@ -2686,6 +2902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe quad tree structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "QuadTree",
           "package": "gloss",
@@ -2695,6 +2912,7 @@
         "index": {
           "description": "The quad tree structure",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "QuadTree",
           "package": "gloss",
@@ -2709,6 +2927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA leaf containint some value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "TLeaf",
           "package": "gloss",
@@ -2719,6 +2938,7 @@
         "index": {
           "description": "leaf containint some value",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "TLeaf",
           "package": "gloss",
@@ -2733,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "TNil",
           "package": "gloss",
@@ -2743,6 +2964,7 @@
         "index": {
           "description": "An empty node",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "TNil",
           "package": "gloss",
@@ -2757,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node with four children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "TNode",
           "package": "gloss",
@@ -2767,6 +2990,7 @@
         "index": {
           "description": "node with four children",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "TNode",
           "package": "gloss",
@@ -2781,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node with \u003ccode\u003e\u003ca\u003eTNil\u003c/a\u003e\u003c/code\u003e. for all its branches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "emptyNode",
           "package": "gloss",
@@ -2791,6 +3016,7 @@
         "index": {
           "description": "node with TNil for all its branches",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "emptyNode",
           "package": "gloss",
@@ -2805,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTNil\u003c/a\u003e\u003c/code\u003e tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "emptyTree",
           "package": "gloss",
@@ -2815,6 +3042,7 @@
         "index": {
           "description": "TNil tree",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "emptyTree",
           "package": "gloss",
@@ -2829,6 +3057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a QuadTree into a list of its contained values, with coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "flattenQuadTree",
           "package": "gloss",
@@ -2838,6 +3067,7 @@
         "index": {
           "description": "Flatten QuadTree into list of its contained values with coordinates",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "flattenQuadTree",
           "normalized": "Extent-\u003eQuadTree a-\u003e[(Coord,a)]",
@@ -2854,6 +3084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a QuadTree into a list of its contained values, with coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "flattenQuadTreeWithExtents",
           "package": "gloss",
@@ -2863,6 +3094,7 @@
         "index": {
           "description": "Flatten QuadTree into list of its contained values with coordinates",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "flattenQuadTreeWithExtents",
           "normalized": "Extent-\u003eQuadTree a-\u003e[(Extent,a)]",
@@ -2879,6 +3111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value into the node containing this coordinate.\n   The node is created at maximum depth, corresponding to an unit \u003ccode\u003e\u003ca\u003eExtent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "insertByCoord",
           "package": "gloss",
@@ -2889,6 +3122,7 @@
         "index": {
           "description": "Insert value into the node containing this coordinate The node is created at maximum depth corresponding to an unit Extent",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "insertByCoord",
           "normalized": "Extent-\u003eCoord-\u003ea-\u003eQuadTree a-\u003eMaybe(QuadTree a)",
@@ -2905,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value into the tree at the position given by a path.\n   If the path intersects an existing \u003ccode\u003e\u003ca\u003eTLeaf\u003c/a\u003e\u003c/code\u003e then return the original tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "insertByPath",
           "package": "gloss",
@@ -2915,6 +3150,7 @@
         "index": {
           "description": "Insert value into the tree at the position given by path If the path intersects an existing TLeaf then return the original tree",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "insertByPath",
           "normalized": "[Quad]-\u003ea-\u003eQuadTree a-\u003eQuadTree a",
@@ -2931,6 +3167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to a quadrant of a node.\n   If the tree does not have an outer node then return the original tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "liftToQuad",
           "package": "gloss",
@@ -2941,6 +3178,7 @@
         "index": {
           "description": "Apply function to quadrant of node If the tree does not have an outer node then return the original tree",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "liftToQuad",
           "normalized": "Quad-\u003e(QuadTree a-\u003eQuadTree a)-\u003eQuadTree a-\u003eQuadTree a",
@@ -2957,6 +3195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a node if a tree given a coordinate which it contains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "lookupByCoord",
           "package": "gloss",
@@ -2966,6 +3205,7 @@
         "index": {
           "description": "Lookup node if tree given coordinate which it contains",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "lookupByCoord",
           "normalized": "Extent-\u003eCoord-\u003eQuadTree a-\u003eMaybe a",
@@ -2982,6 +3222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup an element based given a path to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "lookupByPath",
           "package": "gloss",
@@ -2992,6 +3233,7 @@
         "index": {
           "description": "Lookup an element based given path to it",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "lookupByPath",
           "normalized": "[Quad]-\u003eQuadTree a-\u003eMaybe a",
@@ -3008,6 +3250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a node based on a path to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "lookupNodeByPath",
           "package": "gloss",
@@ -3018,6 +3261,7 @@
         "index": {
           "description": "Lookup node based on path to it",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "lookupNodeByPath",
           "normalized": "[Quad]-\u003eQuadTree a-\u003eMaybe(QuadTree a)",
@@ -3034,6 +3278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a quadrant from a node.\n   If the tree does not have an outer node then \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "takeQuadOfTree",
           "package": "gloss",
@@ -3044,6 +3289,7 @@
         "index": {
           "description": "Get quadrant from node If the tree does not have an outer node then Nothing",
           "hierarchy": "Graphics Gloss Data QuadTree",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.QuadTree",
           "name": "takeQuadOfTree",
           "normalized": "Quad-\u003eQuadTree a-\u003eMaybe(QuadTree a)",
@@ -3060,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeometric functions concerning vectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "Vector",
           "package": "gloss",
@@ -3069,6 +3316,7 @@
         "index": {
           "description": "Geometric functions concerning vectors",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "Vector",
           "package": "gloss",
@@ -3083,6 +3331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector can be treated as a point, and vis-versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "Vector",
           "package": "gloss",
@@ -3092,6 +3341,7 @@
         "index": {
           "description": "vector can be treated as point and vis-versa",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "Vector",
           "package": "gloss",
@@ -3106,6 +3356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the inner angle (in radians) between two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "angleVV",
           "package": "gloss",
@@ -3116,6 +3367,7 @@
         "index": {
           "description": "Compute the inner angle in radians between two vectors",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "angleVV",
           "normalized": "Vector-\u003eVector-\u003eFloat",
@@ -3132,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle of this vector, relative to the +ve x-axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "argV",
           "package": "gloss",
@@ -3142,6 +3395,7 @@
         "index": {
           "description": "The angle of this vector relative to the ve x-axis",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "argV",
           "normalized": "Vector-\u003eFloat",
@@ -3157,6 +3411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe determinant of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "detV",
           "package": "gloss",
@@ -3167,6 +3422,7 @@
         "index": {
           "description": "The determinant of two vectors",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "detV",
           "normalized": "Vector-\u003eVector-\u003eFloat",
@@ -3182,6 +3438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dot product of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "dotV",
           "package": "gloss",
@@ -3192,6 +3449,7 @@
         "index": {
           "description": "The dot product of two vectors",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "dotV",
           "normalized": "Vector-\u003eVector-\u003eFloat",
@@ -3207,6 +3465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe magnitude of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "magV",
           "package": "gloss",
@@ -3217,6 +3476,7 @@
         "index": {
           "description": "The magnitude of vector",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "magV",
           "normalized": "Vector-\u003eFloat",
@@ -3232,6 +3492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply a vector by a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "mulSV",
           "package": "gloss",
@@ -3242,6 +3503,7 @@
         "index": {
           "description": "Multiply vector by scalar",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "mulSV",
           "normalized": "Float-\u003eVector-\u003eVector",
@@ -3258,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalise a vector, so it has a magnitude of 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "normaliseV",
           "package": "gloss",
@@ -3268,6 +3531,7 @@
         "index": {
           "description": "Normalise vector so it has magnitude of",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "normaliseV",
           "normalized": "Vector-\u003eVector",
@@ -3283,6 +3547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a vector by an angle (in radians). +ve angle is counter-clockwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "rotateV",
           "package": "gloss",
@@ -3293,6 +3558,7 @@
         "index": {
           "description": "Rotate vector by an angle in radians ve angle is counter-clockwise",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "rotateV",
           "normalized": "Float-\u003eVector-\u003eVector",
@@ -3308,6 +3574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a unit vector at a given angle relative to the +ve x-axis.\n\tThe provided angle is in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "unitVectorAtAngle",
           "package": "gloss",
@@ -3318,6 +3585,7 @@
         "index": {
           "description": "Produce unit vector at given angle relative to the ve x-axis The provided angle is in radians",
           "hierarchy": "Graphics Gloss Data Vector",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.Vector",
           "name": "unitVectorAtAngle",
           "normalized": "Float-\u003eVector",
@@ -3333,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewPort",
           "name": "ViewPort",
           "package": "gloss",
@@ -3341,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewPort",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewPort",
           "name": "ViewPort",
           "package": "gloss",
@@ -3355,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e represents the global transformation applied to the displayed picture.\n      When the user pans, zooms, or rotates the display then this changes the \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewPort",
           "name": "ViewPort",
           "package": "gloss",
@@ -3364,6 +3635,7 @@
         "index": {
           "description": "The ViewPort represents the global transformation applied to the displayed picture When the user pans zooms or rotates the display then this changes the ViewPort",
           "hierarchy": "Graphics Gloss Data ViewPort",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewPort",
           "name": "ViewPort",
           "package": "gloss",
@@ -3455,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial state of the viewport.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewPort",
           "name": "viewPortInit",
           "package": "gloss",
@@ -3465,6 +3738,7 @@
         "index": {
           "description": "The initial state of the viewport",
           "hierarchy": "Graphics Gloss Data ViewPort",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewPort",
           "name": "viewPortInit",
           "package": "gloss",
@@ -3555,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "ViewState",
           "package": "gloss",
@@ -3563,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "ViewState",
           "package": "gloss",
@@ -3577,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commands suported by the view controller.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "Command",
           "package": "gloss",
@@ -3586,6 +3863,7 @@
         "index": {
           "description": "The commands suported by the view controller",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "Command",
           "package": "gloss",
@@ -3599,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CommandConfig",
           "package": "gloss",
@@ -3607,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CommandConfig",
           "package": "gloss",
@@ -3621,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e represents the global transformation applied to the displayed picture.\n      When the user pans, zooms, or rotates the display then this changes the \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "ViewPort",
           "package": "gloss",
@@ -3630,6 +3911,7 @@
         "index": {
           "description": "The ViewPort represents the global transformation applied to the displayed picture When the user pans zooms or rotates the display then this changes the ViewPort",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "ViewPort",
           "package": "gloss",
@@ -3644,6 +3926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState for controlling the viewport.\n      These are used by the viewport control component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "ViewState",
           "package": "gloss",
@@ -3653,6 +3936,7 @@
         "index": {
           "description": "State for controlling the viewport These are used by the viewport control component",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "ViewState",
           "package": "gloss",
@@ -3666,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpCClockwise",
           "package": "gloss",
@@ -3675,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpCClockwise",
           "package": "gloss",
@@ -3688,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpClockwise",
           "package": "gloss",
@@ -3697,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpClockwise",
           "package": "gloss",
@@ -3710,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpDown",
           "package": "gloss",
@@ -3719,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpDown",
           "package": "gloss",
@@ -3732,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpLeft",
           "package": "gloss",
@@ -3741,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpLeft",
           "package": "gloss",
@@ -3754,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpRight",
           "package": "gloss",
@@ -3763,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpRight",
           "package": "gloss",
@@ -3776,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpUp",
           "package": "gloss",
@@ -3785,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpUp",
           "package": "gloss",
@@ -3798,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpZoomIn",
           "package": "gloss",
@@ -3807,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpZoomIn",
           "package": "gloss",
@@ -3820,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpZoomOut",
           "package": "gloss",
@@ -3829,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CBumpZoomOut",
           "package": "gloss",
@@ -3842,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CRestore",
           "package": "gloss",
@@ -3851,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CRestore",
           "package": "gloss",
@@ -3864,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CRotate",
           "package": "gloss",
@@ -3873,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CRotate",
           "package": "gloss",
@@ -3886,6 +4190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CTranslate",
           "package": "gloss",
@@ -3895,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "CTranslate",
           "package": "gloss",
@@ -3908,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "ViewState",
           "package": "gloss",
@@ -3917,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "ViewState",
           "package": "gloss",
@@ -3931,6 +4239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default commands.  Left click pans, wheel zooms, right click\n   rotates, \u003ca\u003er\u003c/a\u003e key resets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "defaultCommandConfig",
           "package": "gloss",
@@ -3941,6 +4250,7 @@
         "index": {
           "description": "The default commands Left click pans wheel zooms right click rotates key resets",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "defaultCommandConfig",
           "package": "gloss",
@@ -3955,6 +4265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an event to a \u003ccode\u003e\u003ca\u003eViewState\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "updateViewStateWithEvent",
           "package": "gloss",
@@ -3965,6 +4276,7 @@
         "index": {
           "description": "Apply an event to ViewState",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "updateViewStateWithEvent",
           "normalized": "Event-\u003eViewState-\u003eViewState",
@@ -3981,6 +4293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eupdateViewStateWithEvent\u003c/a\u003e\u003c/code\u003e, but returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no update\n   was needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "updateViewStateWithEventMaybe",
           "package": "gloss",
@@ -3991,6 +4304,7 @@
         "index": {
           "description": "Like updateViewStateWithEvent but returns Nothing if no update was needed",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "updateViewStateWithEventMaybe",
           "normalized": "Event-\u003eViewState-\u003eMaybe ViewState",
@@ -4007,6 +4321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe command list for the viewport controller.\n      These can be safely overwridden at any time by deleting\n      or adding entries to the list.\n      Entries at the front of the list take precedence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateCommands",
           "package": "gloss",
@@ -4017,6 +4332,7 @@
         "index": {
           "description": "The command list for the viewport controller These can be safely overwridden at any time by deleting or adding entries to the list Entries at the front of the list take precedence",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateCommands",
           "normalized": "(Map Command[(Key,Maybe Modifiers)])",
@@ -4033,6 +4349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial view state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateInit",
           "package": "gloss",
@@ -4043,6 +4360,7 @@
         "index": {
           "description": "The initial view state",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateInit",
           "package": "gloss",
@@ -4057,6 +4375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial view state, with user defined config.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateInitWithConfig",
           "package": "gloss",
@@ -4067,6 +4386,7 @@
         "index": {
           "description": "Initial view state with user defined config",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateInitWithConfig",
           "normalized": "CommandConfig-\u003eViewState",
@@ -4083,6 +4403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many degrees to rotate the world by for each pixel of x motion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateRotateFactor",
           "package": "gloss",
@@ -4093,6 +4414,7 @@
         "index": {
           "description": "How many degrees to rotate the world by for each pixel of motion",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateRotateFactor",
           "package": "gloss",
@@ -4107,6 +4429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuring viewport rotation,  \n      where the mouse was clicked on the window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateRotateMark",
           "package": "gloss",
@@ -4117,6 +4440,7 @@
         "index": {
           "description": "During viewport rotation where the mouse was clicked on the window",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateRotateMark",
           "normalized": "(Maybe(Float,Float))",
@@ -4133,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow much to scale the world by for each step of the mouse wheel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateScaleStep",
           "package": "gloss",
@@ -4143,6 +4468,7 @@
         "index": {
           "description": "How much to scale the world by for each step of the mouse wheel",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateScaleStep",
           "package": "gloss",
@@ -4157,6 +4483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuring viewport translation,\n      where the mouse was clicked on the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateTranslateMark",
           "package": "gloss",
@@ -4167,6 +4494,7 @@
         "index": {
           "description": "During viewport translation where the mouse was clicked on the window",
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateTranslateMark",
           "normalized": "(Maybe(Float,Float))",
@@ -4182,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateViewPort",
           "package": "gloss",
@@ -4191,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Data ViewState",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Data.ViewState",
           "name": "viewStateViewPort",
           "package": "gloss",
@@ -4205,6 +4535,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeometric functions concerning angles. If not otherwise specified, all angles are in radians.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Angle",
           "name": "Angle",
           "package": "gloss",
@@ -4214,6 +4545,7 @@
         "index": {
           "description": "Geometric functions concerning angles If not otherwise specified all angles are in radians",
           "hierarchy": "Graphics Gloss Geometry Angle",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Angle",
           "name": "Angle",
           "package": "gloss",
@@ -4228,6 +4560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert degrees to radians\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Angle",
           "name": "degToRad",
           "package": "gloss",
@@ -4238,6 +4571,7 @@
         "index": {
           "description": "Convert degrees to radians",
           "hierarchy": "Graphics Gloss Geometry Angle",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Angle",
           "name": "degToRad",
           "normalized": "Float-\u003eFloat",
@@ -4254,6 +4588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalise an angle to be between 0 and 2*pi radians\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Angle",
           "name": "normaliseAngle",
           "package": "gloss",
@@ -4264,6 +4599,7 @@
         "index": {
           "description": "Normalise an angle to be between and pi radians",
           "hierarchy": "Graphics Gloss Geometry Angle",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Angle",
           "name": "normaliseAngle",
           "normalized": "Float-\u003eFloat",
@@ -4280,6 +4616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert radians to degrees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Angle",
           "name": "radToDeg",
           "package": "gloss",
@@ -4290,6 +4627,7 @@
         "index": {
           "description": "Convert radians to degrees",
           "hierarchy": "Graphics Gloss Geometry Angle",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Angle",
           "name": "radToDeg",
           "normalized": "Float-\u003eFloat",
@@ -4306,6 +4644,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeometric functions concerning lines and segments.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003eLine\u003c/code\u003e is taken to be infinite in length, while a \u003ccode\u003eSeg\u003c/code\u003e is finite length\n   line segment represented by its two endpoints. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "Line",
           "package": "gloss",
@@ -4315,6 +4654,7 @@
         "index": {
           "description": "Geometric functions concerning lines and segments Line is taken to be infinite in length while Seg is finite length line segment represented by its two endpoints",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "Line",
           "package": "gloss",
@@ -4329,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an infinite line which intersects \u003ccode\u003eP1\u003c/code\u003e and \u003ccode\u003eP1\u003c/code\u003e,\n\treturn the point on that line that is closest to \u003ccode\u003eP3\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "closestPointOnLine",
           "package": "gloss",
@@ -4338,6 +4679,7 @@
         "index": {
           "description": "Given an infinite line which intersects P1 and P1 return the point on that line that is closest to P3",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "closestPointOnLine",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003ePoint",
@@ -4354,6 +4696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an infinite line which intersects P1 and P2,\n\tlet P4 be the point on the line that is closest to P3.\n\u003c/p\u003e\u003cp\u003eReturn an indication of where on the line P4 is relative to P1 and P2.\n\u003c/p\u003e\u003cpre\u003e\n      if P4 == P1 then 0\n      if P4 == P2 then 1\n      if P4 is halfway between P1 and P2 then 0.5\n\u003c/pre\u003e\u003cpre\u003e\n        |\n       P1\n        | \n     P4 +---- P3      \n        |\n       P2\n        |\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "closestPointOnLineParam",
           "package": "gloss",
@@ -4363,6 +4706,7 @@
         "index": {
           "description": "Given an infinite line which intersects P1 and P2 let P4 be the point on the line that is closest to P3 Return an indication of where on the line P4 is relative to P1 and P2 if P4 P1 then if P4 P2 then if P4 is halfway between P1 and P2 then P1 P4 P3 P2",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "closestPointOnLineParam",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003eFloat",
@@ -4379,6 +4723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven four points specifying two lines, get the point where the two lines\n   cross, if any. Note that the lines extend off to infinity, so the\n   intersection point might not line between either of the two pairs of points.\n\u003c/p\u003e\u003cpre\u003e\n     \\      /\n      P1  P4\n       \\ /\n        +\n       / \\\n      P3  P2\n     /     \\\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectLineLine",
           "package": "gloss",
@@ -4388,6 +4733,7 @@
         "index": {
           "description": "Given four points specifying two lines get the point where the two lines cross if any Note that the lines extend off to infinity so the intersection point might not line between either of the two pairs of points P1 P4 P3 P2",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectLineLine",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003ePoint-\u003eMaybe Point",
@@ -4404,6 +4750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the point where a segment crosses a horizontal line, if any.\n\u003c/p\u003e\u003cpre\u003e \n                + P1\n               /\n       -------+---------\n             /        y0\n         P2 +\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegHorzLine",
           "package": "gloss",
@@ -4413,6 +4760,7 @@
         "index": {
           "description": "Get the point where segment crosses horizontal line if any P1 y0 P2",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegHorzLine",
           "normalized": "Point-\u003ePoint-\u003eFloat-\u003eMaybe Point",
@@ -4429,6 +4777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if an arbitrary segment intersects a horizontal segment.\n\u003c/p\u003e\u003cpre\u003e\n                 + P2\n                /\n (xa, y3)  +---+----+ (xb, y3)\n              /\n          P1 +\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegHorzSeg",
           "package": "gloss",
@@ -4438,6 +4787,7 @@
         "index": {
           "description": "Check if an arbitrary segment intersects horizontal segment P2 xa y3 xb y3 P1",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegHorzSeg",
           "normalized": "Point-\u003ePoint-\u003eFloat-\u003eFloat-\u003eFloat-\u003eMaybe Point",
@@ -4454,6 +4804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the point where a segment \u003ccode\u003eP1-P2\u003c/code\u003e crosses an infinite line \u003ccode\u003eP3-P4\u003c/code\u003e,\n   if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegLine",
           "package": "gloss",
@@ -4463,6 +4814,7 @@
         "index": {
           "description": "Get the point where segment P1-P2 crosses an infinite line P3-P4 if any",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegLine",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003ePoint-\u003eMaybe Point",
@@ -4479,6 +4831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the point where a segment \u003ccode\u003eP1-P2\u003c/code\u003e crosses another segement \u003ccode\u003eP3-P4\u003c/code\u003e,\n   if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegSeg",
           "package": "gloss",
@@ -4488,6 +4841,7 @@
         "index": {
           "description": "Get the point where segment P1-P2 crosses another segement P3-P4 if any",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegSeg",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003ePoint-\u003eMaybe Point",
@@ -4504,6 +4858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the point where a segment crosses a vertical line, if any.\n\u003c/p\u003e\u003cpre\u003e\n              |\n              |   + P1\n              | /\n              +\n            / |\n       P2 +   |\n              | x0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegVertLine",
           "package": "gloss",
@@ -4513,6 +4868,7 @@
         "index": {
           "description": "Get the point where segment crosses vertical line if any P1 P2 x0",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegVertLine",
           "normalized": "Point-\u003ePoint-\u003eFloat-\u003eMaybe Point",
@@ -4529,6 +4885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if an arbitrary segment intersects a vertical segment.\n\u003c/p\u003e\u003cpre\u003e\n      (x3, yb) +\n               |   + P1\n               | /\n               +\n             / |\n        P2 +   |\n               + (x3, ya)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegVertSeg",
           "package": "gloss",
@@ -4538,6 +4895,7 @@
         "index": {
           "description": "Check if an arbitrary segment intersects vertical segment x3 yb P1 P2 x3 ya",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "intersectSegVertSeg",
           "normalized": "Point-\u003ePoint-\u003eFloat-\u003eFloat-\u003eFloat-\u003eMaybe Point",
@@ -4554,6 +4912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if line segment (P1-P2) clears a box (P3-P4) by being well outside it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "segClearsBox",
           "package": "gloss",
@@ -4563,6 +4922,7 @@
         "index": {
           "description": "Check if line segment P1-P2 clears box P3-P4 by being well outside it",
           "hierarchy": "Graphics Gloss Geometry Line",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry.Line",
           "name": "segClearsBox",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003ePoint-\u003eBool",
@@ -4578,6 +4938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Geometry",
           "name": "Geometry",
           "package": "gloss",
@@ -4586,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Geometry",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Geometry",
           "name": "Geometry",
           "package": "gloss",
@@ -4600,6 +4962,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplay mode is for drawing a static picture.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Animate",
           "name": "Animate",
           "package": "gloss",
@@ -4609,6 +4972,7 @@
         "index": {
           "description": "Display mode is for drawing static picture",
           "hierarchy": "Graphics Gloss Interface IO Animate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Animate",
           "name": "Animate",
           "package": "gloss",
@@ -4623,6 +4987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eanimateIO\u003c/a\u003e\u003c/code\u003e but don't allow the display to be panned around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Animate",
           "name": "animateFixedIO",
           "package": "gloss",
@@ -4632,6 +4997,7 @@
         "index": {
           "description": "Like animateIO but don allow the display to be panned around",
           "hierarchy": "Graphics Gloss Interface IO Animate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Animate",
           "name": "animateFixedIO",
           "normalized": "Display-\u003eColor-\u003e(Float-\u003eIO Picture)-\u003eIO()",
@@ -4648,6 +5014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new window and display the given animation.\n\u003c/p\u003e\u003cp\u003eOnce the window is open you can use the same commands as with \u003ccode\u003edisplay\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Animate",
           "name": "animateIO",
           "package": "gloss",
@@ -4657,6 +5024,7 @@
         "index": {
           "description": "Open new window and display the given animation Once the window is open you can use the same commands as with display",
           "hierarchy": "Graphics Gloss Interface IO Animate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Animate",
           "name": "animateIO",
           "normalized": "Display-\u003eColor-\u003e(Float-\u003eIO Picture)-\u003eIO()",
@@ -4673,6 +5041,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis game mode lets you manage your own input. Pressing ESC will still abort the program,\n   but you don't get automatic pan and zoom controls like with \u003ccode\u003edisplayInWindow\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "Game",
           "package": "gloss",
@@ -4682,6 +5051,7 @@
         "index": {
           "description": "This game mode lets you manage your own input Pressing ESC will still abort the program but you don get automatic pan and zoom controls like with displayInWindow",
           "hierarchy": "Graphics Gloss Interface IO Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "Game",
           "package": "gloss",
@@ -4696,6 +5066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible input events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "Event",
           "package": "gloss",
@@ -4705,6 +5076,7 @@
         "index": {
           "description": "Possible input events",
           "hierarchy": "Graphics Gloss Interface IO Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "Event",
           "package": "gloss",
@@ -4718,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "Key",
           "package": "gloss",
@@ -4726,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface IO Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "Key",
           "package": "gloss",
@@ -4739,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "KeyState",
           "package": "gloss",
@@ -4747,6 +5122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface IO Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "KeyState",
           "package": "gloss",
@@ -4760,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "Modifiers",
           "package": "gloss",
@@ -4768,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface IO Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "Modifiers",
           "package": "gloss",
@@ -4781,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "MouseButton",
           "package": "gloss",
@@ -4789,6 +5168,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface IO Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "MouseButton",
           "package": "gloss",
@@ -4802,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "SpecialKey",
           "package": "gloss",
@@ -4810,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface IO Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "SpecialKey",
           "package": "gloss",
@@ -6599,6 +6981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay a game in a window, using IO actions to build the pictures. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "playIO",
           "package": "gloss",
@@ -6608,6 +6991,7 @@
         "index": {
           "description": "Play game in window using IO actions to build the pictures",
           "hierarchy": "Graphics Gloss Interface IO Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Game",
           "name": "playIO",
           "normalized": "Display-\u003eColor-\u003eInt-\u003ea-\u003e(a-\u003eIO Picture)-\u003e(Event-\u003ea-\u003eIO a)-\u003e(Float-\u003ea-\u003eIO a)-\u003eIO()",
@@ -6646,6 +7030,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulate mode is for producing an animation of some model who's picture\n   changes over finite time steps. The behavior of the model can also depent\n   on the current \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Simulate",
           "name": "Simulate",
           "package": "gloss",
@@ -6655,6 +7040,7 @@
         "index": {
           "description": "Simulate mode is for producing an animation of some model who picture changes over finite time steps The behavior of the model can also depent on the current ViewPort",
           "hierarchy": "Graphics Gloss Interface IO Simulate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Simulate",
           "name": "Simulate",
           "package": "gloss",
@@ -6669,6 +7055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e represents the global transformation applied to the displayed picture.\n      When the user pans, zooms, or rotates the display then this changes the \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Simulate",
           "name": "ViewPort",
           "package": "gloss",
@@ -6678,6 +7065,7 @@
         "index": {
           "description": "The ViewPort represents the global transformation applied to the displayed picture When the user pans zooms or rotates the display then this changes the ViewPort",
           "hierarchy": "Graphics Gloss Interface IO Simulate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Simulate",
           "name": "ViewPort",
           "package": "gloss",
@@ -6691,6 +7079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.IO.Simulate",
           "name": "simulateIO",
           "package": "gloss",
@@ -6699,6 +7088,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface IO Simulate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.IO.Simulate",
           "name": "simulateIO",
           "normalized": "Display-\u003eColor-\u003eInt-\u003ea-\u003e(a-\u003eIO Picture)-\u003e(ViewPort-\u003eFloat-\u003ea-\u003eIO a)-\u003eIO()",
@@ -6715,6 +7105,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplay mode is for drawing a static picture.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Animate",
           "name": "Animate",
           "package": "gloss",
@@ -6724,6 +7115,7 @@
         "index": {
           "description": "Display mode is for drawing static picture",
           "hierarchy": "Graphics Gloss Interface Pure Animate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Animate",
           "name": "Animate",
           "package": "gloss",
@@ -6763,6 +7155,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplay mode is for drawing a static picture.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Display",
           "name": "Display",
           "package": "gloss",
@@ -6772,6 +7165,7 @@
         "index": {
           "description": "Display mode is for drawing static picture",
           "hierarchy": "Graphics Gloss Interface Pure Display",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Display",
           "name": "Display",
           "package": "gloss",
@@ -6811,6 +7205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis game mode lets you manage your own input. Pressing ESC will still abort the program,\n   but you don't get automatic pan and zoom controls like with \u003ccode\u003edisplayInWindow\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "Game",
           "package": "gloss",
@@ -6820,6 +7215,7 @@
         "index": {
           "description": "This game mode lets you manage your own input Pressing ESC will still abort the program but you don get automatic pan and zoom controls like with displayInWindow",
           "hierarchy": "Graphics Gloss Interface Pure Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "Game",
           "package": "gloss",
@@ -6834,6 +7230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible input events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "Event",
           "package": "gloss",
@@ -6843,6 +7240,7 @@
         "index": {
           "description": "Possible input events",
           "hierarchy": "Graphics Gloss Interface Pure Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "Event",
           "package": "gloss",
@@ -6856,6 +7254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "Key",
           "package": "gloss",
@@ -6864,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface Pure Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "Key",
           "package": "gloss",
@@ -6877,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "KeyState",
           "package": "gloss",
@@ -6885,6 +7286,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface Pure Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "KeyState",
           "package": "gloss",
@@ -6898,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "Modifiers",
           "package": "gloss",
@@ -6906,6 +7309,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface Pure Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "Modifiers",
           "package": "gloss",
@@ -6919,6 +7323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "MouseButton",
           "package": "gloss",
@@ -6927,6 +7332,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface Pure Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "MouseButton",
           "package": "gloss",
@@ -6940,6 +7346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "SpecialKey",
           "package": "gloss",
@@ -6948,6 +7355,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface Pure Game",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Game",
           "name": "SpecialKey",
           "package": "gloss",
@@ -6987,6 +7395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulate mode is for producing an animation of some model who's picture\n   changes over finite time steps. The behavior of the model can also depent\n   on the current \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Simulate",
           "name": "Simulate",
           "package": "gloss",
@@ -6996,6 +7405,7 @@
         "index": {
           "description": "Simulate mode is for producing an animation of some model who picture changes over finite time steps The behavior of the model can also depent on the current ViewPort",
           "hierarchy": "Graphics Gloss Interface Pure Simulate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Simulate",
           "name": "Simulate",
           "package": "gloss",
@@ -7010,6 +7420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e represents the global transformation applied to the displayed picture.\n      When the user pans, zooms, or rotates the display then this changes the \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss.Interface.Pure.Simulate",
           "name": "ViewPort",
           "package": "gloss",
@@ -7019,6 +7430,7 @@
         "index": {
           "description": "The ViewPort represents the global transformation applied to the displayed picture When the user pans zooms or rotates the display then this changes the ViewPort",
           "hierarchy": "Graphics Gloss Interface Pure Simulate",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss.Interface.Pure.Simulate",
           "name": "ViewPort",
           "package": "gloss",
@@ -7058,6 +7470,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGloss hides the pain of drawing simple vector graphics behind a nice data type and\n\ta few display functions. \n\u003c/p\u003e\u003cp\u003eGetting something on the screen is as easy as:\n\u003c/p\u003e\u003cpre\u003e\n    import Graphics.Gloss\n    main = \u003ccode\u003e\u003ca\u003edisplay\u003c/a\u003e\u003c/code\u003e (InWindow \"Nice Window\" (200, 200) (10, 10)) \u003ccode\u003e\u003ca\u003ewhite\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eCircle\u003c/a\u003e\u003c/code\u003e 80)\n\u003c/pre\u003e\u003cp\u003eOnce the window is open you can use the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Quit - esc-key.\n\u003c/li\u003e\u003cli\u003e Move Viewport - left-click drag, arrow keys.\n\u003c/li\u003e\u003cli\u003e Rotate Viewport - right-click drag, control-left-click drag, or home/end-keys.\n\u003c/li\u003e\u003cli\u003e Zoom Viewport - mouse wheel, or page up/down-keys.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAnimations can be constructed similarly using the \u003ccode\u003e\u003ca\u003eanimate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you want to run a simulation based around finite time steps then try\n   \u003ccode\u003e\u003ca\u003esimulate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you want to manage your own key/mouse events then use \u003ccode\u003e\u003ca\u003eplay\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eGloss uses OpenGL under the hood, but you don't have to worry about any of that.\n\u003c/p\u003e\u003cp\u003eGloss programs should be compiled with \u003ccode\u003e-threaded\u003c/code\u003e, otherwise the GHC runtime\n   will limit the frame-rate to around 20Hz.\n\u003c/p\u003e\u003cp\u003eTo build gloss using the GLFW window manager instead of GLUT use\n        \u003ccode\u003ecabal install gloss --flags=\"GLFW -GLUT\"\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003eRelease Notes:\n\nFor 1.8.0\n  Thanks to Francesco Mazzoli\n   * Factored out ViewPort and ViewState handling into user visible modules.\n\nFor 1.7.0:\n   * Tweaked circle level-of-detail reduction code.\n   * Increased frame rate cap to 100hz.\n   Thanks to Doug Burke\n   * Primitives for drawing arcs and sectors.\n   Thanks to Thomas DuBuisson\n   * IO versions of animate, simplate and play.\n\nFor 1.6.0:\n   Thanks to Anthony Cowley\n   * Full screen display mode.\n\nFor 1.5.0:\n   * O(1) Conversion of ForeignPtrs to bitmaps.\n   * An extra flag on the Bitmap constructor allows bitmaps to be cached\n     in texture memory between frames.\n\u003c/pre\u003e\u003cp\u003eFor more information, check out \u003ca\u003ehttp://gloss.ouroborus.net\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss",
           "name": "Gloss",
           "package": "gloss",
@@ -7067,6 +7480,7 @@
         "index": {
           "description": "Gloss hides the pain of drawing simple vector graphics behind nice data type and few display functions Getting something on the screen is as easy as import Graphics.Gloss main display InWindow Nice Window white Circle Once the window is open you can use the following Quit esc-key Move Viewport left-click drag arrow keys Rotate Viewport right-click drag control-left-click drag or home end-keys Zoom Viewport mouse wheel or page up down-keys Animations can be constructed similarly using the animate If you want to run simulation based around finite time steps then try simulate If you want to manage your own key mouse events then use play Gloss uses OpenGL under the hood but you don have to worry about any of that Gloss programs should be compiled with threaded otherwise the GHC runtime will limit the frame-rate to around Hz To build gloss using the GLFW window manager instead of GLUT use cabal install gloss flags GLFW GLUT Release Notes For Thanks to Francesco Mazzoli Factored out ViewPort and ViewState handling into user visible modules For Tweaked circle level-of-detail reduction code Increased frame rate cap to hz Thanks to Doug Burke Primitives for drawing arcs and sectors Thanks to Thomas DuBuisson IO versions of animate simplate and play For Thanks to Anthony Cowley Full screen display mode For Conversion of ForeignPtrs to bitmaps An extra flag on the Bitmap constructor allows bitmaps to be cached in texture memory between frames For more information check out http gloss.ouroborus.net",
           "hierarchy": "Graphics Gloss",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss",
           "name": "Gloss",
           "package": "gloss",
@@ -7081,6 +7495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes how Gloss should display its output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:14 UTC 2014",
           "module": "Graphics.Gloss",
           "name": "Display",
           "package": "gloss",
@@ -7090,6 +7505,7 @@
         "index": {
           "description": "Describes how Gloss should display its output",
           "hierarchy": "Graphics Gloss",
+          "indexed": "2014-03-11T18:18:14",
           "module": "Graphics.Gloss",
           "name": "Display",
           "package": "gloss",

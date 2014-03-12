@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cryptohash-cryptoapi"
+        "phrase": "cryptohash-cryptoapi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCryptohash API exported through crypto-api.\n\u003c/p\u003e\u003cp\u003eNote: Current version (0.10) of crypto-api suffers a small performance problem.\n see \u003ca\u003ehttp://tab.snarc.org/others/benchmark-cryptohash-0.8.html\u003c/a\u003e.\n Hopefully, future versions will fix this.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "CryptoAPI",
           "package": "cryptohash-cryptoapi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Cryptohash API exported through crypto-api Note Current version of crypto-api suffers small performance problem see http tab.snarc.org others benchmark-cryptohash-0.8.html Hopefully future versions will fix this",
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "CryptoAPI",
           "package": "cryptohash-cryptoapi",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Hash class is intended as the generic interface\n targeted by maintainers of Haskell digest implementations.\n Using this generic interface, higher level functions\n such as \u003ccode\u003e\u003ca\u003ehash\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ehash'\u003c/a\u003e\u003c/code\u003e provide a useful API\n for comsumers of hash implementations.\n\u003c/p\u003e\u003cp\u003eAny instantiated implementation must handle unaligned data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Hash",
           "package": "cryptohash-cryptoapi",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The Hash class is intended as the generic interface targeted by maintainers of Haskell digest implementations Using this generic interface higher level functions such as hash and hash provide useful API for comsumers of hash implementations Any instantiated implementation must handle unaligned data",
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Hash",
           "package": "cryptohash-cryptoapi",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "MD2",
           "package": "cryptohash-cryptoapi",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "MD2",
           "package": "cryptohash-cryptoapi",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "MD4",
           "package": "cryptohash-cryptoapi",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "MD4",
           "package": "cryptohash-cryptoapi",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "MD5",
           "package": "cryptohash-cryptoapi",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "MD5",
           "package": "cryptohash-cryptoapi",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "RIPEMD160",
           "package": "cryptohash-cryptoapi",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "RIPEMD160",
           "package": "cryptohash-cryptoapi",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA1",
           "package": "cryptohash-cryptoapi",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA1",
           "package": "cryptohash-cryptoapi",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA224",
           "package": "cryptohash-cryptoapi",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA224",
           "package": "cryptohash-cryptoapi",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA256",
           "package": "cryptohash-cryptoapi",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA256",
           "package": "cryptohash-cryptoapi",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA384",
           "package": "cryptohash-cryptoapi",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA384",
           "package": "cryptohash-cryptoapi",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA512",
           "package": "cryptohash-cryptoapi",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "SHA512",
           "package": "cryptohash-cryptoapi",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Skein256_256",
           "package": "cryptohash-cryptoapi",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Skein256_256",
           "package": "cryptohash-cryptoapi",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Skein512_512",
           "package": "cryptohash-cryptoapi",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Skein512_512",
           "package": "cryptohash-cryptoapi",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Tiger",
           "package": "cryptohash-cryptoapi",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Tiger",
           "package": "cryptohash-cryptoapi",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Whirlpool",
           "package": "cryptohash-cryptoapi",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "Whirlpool",
           "package": "cryptohash-cryptoapi",
@@ -336,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "blockLength",
           "package": "cryptohash-cryptoapi",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "blockLength",
           "package": "cryptohash-cryptoapi",
@@ -357,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "finalize",
           "package": "cryptohash-cryptoapi",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "finalize",
           "package": "cryptohash-cryptoapi",
@@ -378,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a lazy ByteString, creating a digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "hash",
           "package": "cryptohash-cryptoapi",
@@ -387,6 +422,7 @@
         "index": {
           "description": "Hash lazy ByteString creating digest",
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "hash",
           "normalized": "ByteString-\u003ea",
@@ -402,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a strict ByteString, creating a digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "hash'",
           "package": "cryptohash-cryptoapi",
@@ -411,6 +448,7 @@
         "index": {
           "description": "Hash strict ByteString creating digest",
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "hash'",
           "normalized": "ByteString-\u003ea",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "initialCtx",
           "package": "cryptohash-cryptoapi",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "initialCtx",
           "package": "cryptohash-cryptoapi",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "outputLength",
           "package": "cryptohash-cryptoapi",
@@ -454,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "outputLength",
           "package": "cryptohash-cryptoapi",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:13 UTC 2014",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "updateCtx",
           "package": "cryptohash-cryptoapi",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash CryptoAPI",
+          "indexed": "2014-03-11T17:44:13",
           "module": "Crypto.Hash.CryptoAPI",
           "name": "updateCtx",
           "package": "cryptohash-cryptoapi",

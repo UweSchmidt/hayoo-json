@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "curl-aeson"
+        "phrase": "curl-aeson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for communicating with JSON over HTTP connection.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "Aeson",
           "package": "curl-aeson",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for communicating with JSON over HTTP connection",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "Aeson",
           "package": "curl-aeson",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis exception is is thrown when Curl doesn't finish cleanly or\n the parsing of JSON response fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "CurlAesonException",
           "package": "curl-aeson",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This exception is is thrown when Curl doesn finish cleanly or the parsing of JSON response fails",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "CurlAesonException",
           "package": "curl-aeson",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for writing parsers for JSON objects which are\n not needed to be parsed completely.\n\u003c/p\u003e\u003cp\u003eIn this example we are parsing JSON from\n \u003ca\u003ehttp://json.org/example.html\u003c/a\u003e.  Note the use of the\n \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension which enables \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e values\n to be written as string literals.\n\u003c/p\u003e\u003cpre\u003ep (\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e o) = \u003ccode\u003epure\u003c/code\u003e obj\u003ccode\u003e\u003ca\u003e...\u003c/a\u003e\u003c/code\u003e\"glossary\"\u003ccode\u003e\u003ca\u003e...\u003c/a\u003e\u003c/code\u003e\"title\"\np _ = \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "(...)",
           "package": "curl-aeson",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Helper function for writing parsers for JSON objects which are not needed to be parsed completely In this example we are parsing JSON from http json.org example.html Note the use of the OverloadedStrings language extension which enables Text values to be written as string literals Object pure obj glossary title mzero",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "(...) ...",
           "normalized": "Parser Object-\u003eText-\u003eParser a",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "CurlAesonException",
           "package": "curl-aeson",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "CurlAesonException",
           "package": "curl-aeson",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle cookie of given key and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "cookie",
           "package": "curl-aeson",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Single cookie of given key and value",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "cookie",
           "normalized": "String-\u003eString-\u003eCurlOption",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend single HTTP request.\n\u003c/p\u003e\u003cp\u003eThe request automatically has \u003ccode\u003eContent-type: application/json\u003c/code\u003e\n header if you pass any data. This function is lenient on response\n content type: everything is accepted as long as it is parseable\n with \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you need authentication, you need to pass session cookie or\n other means of authentication tokens via \u003ccode\u003e\u003ca\u003eCurlOption\u003c/a\u003e\u003c/code\u003e list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "curlAeson",
           "package": "curl-aeson",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Send single HTTP request The request automatically has Content-type application json header if you pass any data This function is lenient on response content type everything is accepted as long as it is parseable with decode If you need authentication you need to pass session cookie or other means of authentication tokens via CurlOption list",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "curlAeson",
           "normalized": "(Value-\u003eParser a)-\u003eString-\u003eURLString-\u003e[CurlOption]-\u003eMaybe b-\u003eIO a",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for doing just a HTTP GET request and parsing the output to\n any FromJSON instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "curlAesonGet",
           "package": "curl-aeson",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Shorthand for doing just HTTP GET request and parsing the output to any FromJSON instance",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "curlAesonGet",
           "normalized": "URLString-\u003eIO a",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for doing just a HTTP GET request and parsing the\n output with given parser \u003cem\u003ep\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "curlAesonGetWith",
           "package": "curl-aeson",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Shorthand for doing just HTTP GET request and parsing the output with given parser",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "curlAesonGetWith",
           "normalized": "(Value-\u003eParser a)-\u003eURLString-\u003eIO a",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "curlCode",
           "package": "curl-aeson",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "curlCode",
           "package": "curl-aeson",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "curlOpts",
           "package": "curl-aeson",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "curlOpts",
           "normalized": "[CurlOption]",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "errorMsg",
           "package": "curl-aeson",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "errorMsg",
           "package": "curl-aeson",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo avoid ambiguity in type checker you may pass this value instead\n of Nothing to \u003ccode\u003e\u003ca\u003ecurlAeson\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "noData",
           "package": "curl-aeson",
@@ -291,6 +314,7 @@
         "index": {
           "description": "To avoid ambiguity in type checker you may pass this value instead of Nothing to curlAeson",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "noData",
           "package": "curl-aeson",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful for just giving the JSON as string when it is static\n anyway and doesn't need to be programmatically crafted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "rawJson",
           "package": "curl-aeson",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Useful for just giving the JSON as string when it is static anyway and doesn need to be programmatically crafted",
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "rawJson",
           "normalized": "String-\u003eMaybe Value",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "received",
           "package": "curl-aeson",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "received",
           "package": "curl-aeson",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:29 UTC 2014",
           "module": "Network.Curl.Aeson",
           "name": "url",
           "package": "curl-aeson",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Aeson",
+          "indexed": "2014-03-11T17:45:29",
           "module": "Network.Curl.Aeson",
           "name": "url",
           "package": "curl-aeson",

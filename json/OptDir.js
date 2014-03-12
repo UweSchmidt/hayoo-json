@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OptDir"
+        "phrase": "OptDir",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe OptDir type for representing optimization directions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:08 UTC 2014",
           "module": "Data.OptDir",
           "name": "OptDir",
           "package": "OptDir",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The OptDir type for representing optimization directions",
           "hierarchy": "Data OptDir",
+          "indexed": "2014-03-11T16:56:08",
           "module": "Data.OptDir",
           "name": "OptDir",
           "package": "OptDir",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eOptDir\u003c/a\u003e\u003c/code\u003e type represents optimization directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:08 UTC 2014",
           "module": "Data.OptDir",
           "name": "OptDir",
           "package": "OptDir",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The OptDir type represents optimization directions",
           "hierarchy": "Data OptDir",
+          "indexed": "2014-03-11T16:56:08",
           "module": "Data.OptDir",
           "name": "OptDir",
           "package": "OptDir",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:08 UTC 2014",
           "module": "Data.OptDir",
           "name": "OptMax",
           "package": "OptDir",
@@ -75,6 +80,7 @@
         "index": {
           "description": "maximization",
           "hierarchy": "Data OptDir",
+          "indexed": "2014-03-11T16:56:08",
           "module": "Data.OptDir",
           "name": "OptMax",
           "package": "OptDir",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimization \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:08 UTC 2014",
           "module": "Data.OptDir",
           "name": "OptMin",
           "package": "OptDir",
@@ -99,6 +106,7 @@
         "index": {
           "description": "minimization",
           "hierarchy": "Data OptDir",
+          "indexed": "2014-03-11T16:56:08",
           "module": "Data.OptDir",
           "name": "OptMin",
           "package": "OptDir",

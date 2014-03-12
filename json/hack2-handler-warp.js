@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack2-handler-warp"
+        "phrase": "hack2-handler-warp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:09 UTC 2014",
           "module": "Hack2.Handler.Warp",
           "name": "Warp",
           "package": "hack2-handler-warp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler Warp",
+          "indexed": "2014-03-11T18:26:09",
           "module": "Hack2.Handler.Warp",
           "name": "Warp",
           "package": "hack2-handler-warp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:09 UTC 2014",
           "module": "Hack2.Handler.Warp",
           "name": "ServerConfig",
           "package": "hack2-handler-warp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler Warp",
+          "indexed": "2014-03-11T18:26:09",
           "module": "Hack2.Handler.Warp",
           "name": "ServerConfig",
           "package": "hack2-handler-warp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:09 UTC 2014",
           "module": "Hack2.Handler.Warp",
           "name": "ServerConfig",
           "package": "hack2-handler-warp",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler Warp",
+          "indexed": "2014-03-11T18:26:09",
           "module": "Hack2.Handler.Warp",
           "name": "ServerConfig",
           "package": "hack2-handler-warp",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:09 UTC 2014",
           "module": "Hack2.Handler.Warp",
           "name": "hackAppToWaiApp",
           "package": "hack2-handler-warp",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler Warp",
+          "indexed": "2014-03-11T18:26:09",
           "module": "Hack2.Handler.Warp",
           "name": "hackAppToWaiApp",
           "normalized": "Application-\u003eApplication",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:09 UTC 2014",
           "module": "Hack2.Handler.Warp",
           "name": "port",
           "package": "hack2-handler-warp",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler Warp",
+          "indexed": "2014-03-11T18:26:09",
           "module": "Hack2.Handler.Warp",
           "name": "port",
           "package": "hack2-handler-warp",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:09 UTC 2014",
           "module": "Hack2.Handler.Warp",
           "name": "run",
           "package": "hack2-handler-warp",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler Warp",
+          "indexed": "2014-03-11T18:26:09",
           "module": "Hack2.Handler.Warp",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:09 UTC 2014",
           "module": "Hack2.Handler.Warp",
           "name": "runWithConfig",
           "package": "hack2-handler-warp",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler Warp",
+          "indexed": "2014-03-11T18:26:09",
           "module": "Hack2.Handler.Warp",
           "name": "runWithConfig",
           "normalized": "ServerConfig-\u003eApplication-\u003eIO()",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:09 UTC 2014",
           "module": "Hack2.Handler.Warp",
           "name": "runWithWarpSettings",
           "package": "hack2-handler-warp",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler Warp",
+          "indexed": "2014-03-11T18:26:09",
           "module": "Hack2.Handler.Warp",
           "name": "runWithWarpSettings",
           "normalized": "Settings-\u003eApplication-\u003eIO()",

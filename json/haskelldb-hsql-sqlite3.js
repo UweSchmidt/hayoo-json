@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb-hsql-sqlite3"
+        "phrase": "haskelldb-hsql-sqlite3",
+        "type": "phrase"
       },
       "type": "context"
     }

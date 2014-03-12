@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "typical"
+        "phrase": "typical",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "Misc",
           "package": "typical",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "Misc",
           "package": "typical",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "HCompare",
           "package": "typical",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "HCompare",
           "package": "typical",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "HEQ",
           "package": "typical",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "HEQ",
           "package": "typical",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "HGT",
           "package": "typical",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "HGT",
           "package": "typical",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "HLT",
           "package": "typical",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "HLT",
           "package": "typical",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "HEQ",
           "package": "typical",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "HEQ",
           "package": "typical",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "HGT",
           "package": "typical",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "HGT",
           "package": "typical",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "HLT",
           "package": "typical",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "HLT",
           "package": "typical",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical.Misc",
           "name": "hCompare",
           "package": "typical",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Data Typical Misc",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical.Misc",
           "name": "hCompare",
           "normalized": "a-\u003eb-\u003ec",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "Typical",
           "package": "typical",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "Typical",
           "package": "typical",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": ":#:",
           "package": "typical",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": ":#:",
           "package": "typical",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "B0",
           "package": "typical",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "B0",
           "package": "typical",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "B1",
           "package": "typical",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "B1",
           "package": "typical",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "CalcRes",
           "package": "typical",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "CalcRes",
           "package": "typical",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HAdd",
           "package": "typical",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HAdd",
           "package": "typical",
@@ -336,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HApply",
           "package": "typical",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HApply",
           "package": "typical",
@@ -357,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HCmpHNat",
           "package": "typical",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HCmpHNat",
           "package": "typical",
@@ -378,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HDiv2",
           "package": "typical",
@@ -386,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HDiv2",
           "package": "typical",
@@ -399,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HHead",
           "package": "typical",
@@ -407,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HHead",
           "package": "typical",
@@ -420,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HMergeBy",
           "package": "typical",
@@ -428,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HMergeBy",
           "package": "typical",
@@ -441,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HMul",
           "package": "typical",
@@ -449,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HMul",
           "package": "typical",
@@ -462,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HMulSub",
           "package": "typical",
@@ -470,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HMulSub",
           "package": "typical",
@@ -483,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HNat",
           "package": "typical",
@@ -491,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HNat",
           "package": "typical",
@@ -504,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HNil",
           "package": "typical",
@@ -512,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HNil",
           "package": "typical",
@@ -525,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HOrd",
           "package": "typical",
@@ -533,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HOrd",
           "package": "typical",
@@ -546,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HSplitAt",
           "package": "typical",
@@ -554,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HSplitAt",
           "package": "typical",
@@ -567,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HSub",
           "package": "typical",
@@ -575,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HSub",
           "package": "typical",
@@ -588,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HTail",
           "package": "typical",
@@ -596,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HTail",
           "package": "typical",
@@ -609,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "N1",
           "package": "typical",
@@ -617,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "N1",
           "package": "typical",
@@ -629,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "N2",
           "package": "typical",
@@ -637,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "N2",
           "package": "typical",
@@ -649,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "N3",
           "package": "typical",
@@ -657,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "N3",
           "package": "typical",
@@ -669,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "N4",
           "package": "typical",
@@ -677,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "N4",
           "package": "typical",
@@ -689,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": ":#:",
           "package": "typical",
@@ -698,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": ":#:",
           "package": "typical",
@@ -710,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "B0",
           "package": "typical",
@@ -719,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "B0",
           "package": "typical",
@@ -731,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "B1",
           "package": "typical",
@@ -740,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "B1",
           "package": "typical",
@@ -752,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HCmpHNat",
           "package": "typical",
@@ -761,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HCmpHNat",
           "package": "typical",
@@ -774,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "HNil",
           "package": "typical",
@@ -783,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "HNil",
           "package": "typical",
@@ -796,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "calcRes",
           "package": "typical",
@@ -805,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "calcRes",
           "normalized": "a-\u003eb-\u003ec",
@@ -820,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hAdd",
           "package": "typical",
@@ -829,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hAdd",
           "normalized": "a-\u003ea-\u003eb",
@@ -844,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hApply",
           "package": "typical",
@@ -853,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hApply",
           "normalized": "a-\u003eb-\u003ec",
@@ -868,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hDiv2",
           "package": "typical",
@@ -877,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hDiv2",
           "normalized": "a-\u003eb",
@@ -892,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hHead",
           "package": "typical",
@@ -901,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hHead",
           "normalized": "a-\u003eb",
@@ -916,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hMergeBy",
           "package": "typical",
@@ -925,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hMergeBy",
           "normalized": "a-\u003eb-\u003ec-\u003ed",
@@ -940,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hMul",
           "package": "typical",
@@ -949,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hMul",
           "normalized": "a-\u003eb-\u003ec",
@@ -964,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hMulSub",
           "package": "typical",
@@ -973,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hMulSub",
           "normalized": "a-\u003eb-\u003ec",
@@ -988,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hOrd",
           "package": "typical",
@@ -997,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hOrd",
           "normalized": "a-\u003eb-\u003ec-\u003e(d,e,f)",
@@ -1012,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hSplitAt",
           "package": "typical",
@@ -1021,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hSplitAt",
           "normalized": "a-\u003eb-\u003e(c,d)",
@@ -1036,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hSub",
           "package": "typical",
@@ -1045,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hSub",
           "normalized": "a-\u003ea-\u003eb",
@@ -1060,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "hTail",
           "package": "typical",
@@ -1069,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "hTail",
           "normalized": "a-\u003eb",
@@ -1084,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "n1",
           "package": "typical",
@@ -1093,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "n1",
           "package": "typical",
@@ -1105,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "n2",
           "package": "typical",
@@ -1114,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "n2",
           "package": "typical",
@@ -1126,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "n3",
           "package": "typical",
@@ -1135,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "n3",
           "package": "typical",
@@ -1147,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "n4",
           "package": "typical",
@@ -1156,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "n4",
           "package": "typical",
@@ -1168,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:20 UTC 2014",
           "module": "Data.Typical",
           "name": "x",
           "package": "typical",
@@ -1177,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Data Typical",
+          "indexed": "2014-03-11T20:28:20",
           "module": "Data.Typical",
           "name": "x",
           "package": "typical",

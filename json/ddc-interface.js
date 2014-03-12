@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-interface"
+        "phrase": "ddc-interface",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "Input",
           "package": "ddc-interface",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "Input",
           "package": "ddc-interface",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow we're reading the current expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "Input",
           "package": "ddc-interface",
@@ -49,6 +52,7 @@
         "index": {
           "description": "How we re reading the current expression",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "Input",
           "package": "ddc-interface",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat interface is being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputInterface",
           "package": "ddc-interface",
@@ -72,6 +77,7 @@
         "index": {
           "description": "What interface is being used",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputInterface",
           "package": "ddc-interface",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputState",
           "package": "ddc-interface",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputState",
           "package": "ddc-interface",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead input as a block terminated by a double semicolon (;;)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputBlock",
           "package": "ddc-interface",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Read input as block terminated by double semicolon",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputBlock",
           "package": "ddc-interface",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead input from a file specified on the prompt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputFile",
           "package": "ddc-interface",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Read input from file specified on the prompt",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputFile",
           "package": "ddc-interface",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead commands from unix command-line args.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputInterfaceArgs",
           "package": "ddc-interface",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Read commands from unix command-line args",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputInterfaceArgs",
           "package": "ddc-interface",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead commands from the file with this name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputInterfaceBatch",
           "package": "ddc-interface",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Read commands from the file with this name",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputInterfaceBatch",
           "package": "ddc-interface",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead commands interactively from the console.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputInterfaceConsole",
           "package": "ddc-interface",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Read commands interactively from the console",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputInterfaceConsole",
           "package": "ddc-interface",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead input line-by-line, using a backslash at the end of the\n   line to continue to the next.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputLine",
           "package": "ddc-interface",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Read input line-by-line using backslash at the end of the line to continue to the next",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputLine",
           "package": "ddc-interface",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "InputState",
           "package": "ddc-interface",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "InputState",
           "package": "ddc-interface",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "inputAcc",
           "package": "ddc-interface",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "inputAcc",
           "package": "ddc-interface",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "inputCommand",
           "package": "ddc-interface",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "inputCommand",
           "normalized": "Maybe(Maybe a,Int)",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "inputLine",
           "package": "ddc-interface",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "inputLine",
           "normalized": "InputInterface-\u003eInputState a-\u003eString-\u003eIO(InputState a,Maybe(Source,Maybe a,String))",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "inputLineNumber",
           "package": "ddc-interface",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "inputLineNumber",
           "package": "ddc-interface",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "inputMode",
           "package": "ddc-interface",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "inputMode",
           "package": "ddc-interface",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "inputParseCommand",
           "package": "ddc-interface",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "inputParseCommand",
           "normalized": "String-\u003eMaybe(a,String)",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the input mode from the front of a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Input",
           "name": "readInput",
           "package": "ddc-interface",
@@ -421,6 +456,7 @@
         "index": {
           "description": "Read the input mode from the front of string",
           "hierarchy": "DDC Interface Input",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Input",
           "name": "readInput",
           "normalized": "String-\u003e(Input,String)",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Source",
           "name": "Source",
           "package": "ddc-interface",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "DDC Interface Source",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Source",
           "name": "Source",
           "package": "ddc-interface",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere some source code was obtained from.\n\u003c/p\u003e\u003cp\u003eThis is used when generating error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Source",
           "name": "Source",
           "package": "ddc-interface",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Where some source code was obtained from This is used when generating error messages",
           "hierarchy": "DDC Interface Source",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Source",
           "name": "Source",
           "package": "ddc-interface",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupplied on the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Source",
           "name": "SourceArgs",
           "package": "ddc-interface",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Supplied on the command line",
           "hierarchy": "DDC Interface Source",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Source",
           "name": "SourceArgs",
           "package": "ddc-interface",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart of a \u003ccode\u003e.dcx\u003c/code\u003e batch file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Source",
           "name": "SourceBatch",
           "package": "ddc-interface",
@@ -515,6 +558,7 @@
         "index": {
           "description": "Part of dcx batch file",
           "hierarchy": "DDC Interface Source",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Source",
           "name": "SourceBatch",
           "package": "ddc-interface",
@@ -529,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped into the console.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Source",
           "name": "SourceConsole",
           "package": "ddc-interface",
@@ -539,6 +584,7 @@
         "index": {
           "description": "Typed into the console",
           "hierarchy": "DDC Interface Source",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Source",
           "name": "SourceConsole",
           "package": "ddc-interface",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead directly from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Source",
           "name": "SourceFile",
           "package": "ddc-interface",
@@ -563,6 +610,7 @@
         "index": {
           "description": "Read directly from file",
           "hierarchy": "DDC Interface Source",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Source",
           "name": "SourceFile",
           "package": "ddc-interface",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the starting source line number to report for this source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Source",
           "name": "lineStartOfSource",
           "package": "ddc-interface",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Get the starting source line number to report for this source",
           "hierarchy": "DDC Interface Source",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Source",
           "name": "lineStartOfSource",
           "normalized": "Source-\u003eInt",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of a source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:56 UTC 2014",
           "module": "DDC.Interface.Source",
           "name": "nameOfSource",
           "package": "ddc-interface",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Get the name of source",
           "hierarchy": "DDC Interface Source",
+          "indexed": "2014-03-11T17:51:56",
           "module": "DDC.Interface.Source",
           "name": "nameOfSource",
           "normalized": "Source-\u003eString",

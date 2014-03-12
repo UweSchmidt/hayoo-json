@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spool"
+        "phrase": "spool",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert between \u003ccode\u003eByteString\u003c/code\u003e and \u003ccode\u003eVector.Storable\u003c/code\u003e\n without copying.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:47 UTC 2014",
           "module": "Data.Vector.Storable.ByteString",
           "name": "ByteString",
           "package": "spool",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convert between ByteString and Vector.Storable without copying",
           "hierarchy": "Data Vector Storable ByteString",
+          "indexed": "2014-03-11T20:08:47",
           "module": "Data.Vector.Storable.ByteString",
           "name": "ByteString",
           "package": "spool",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function can produce \u003ccode\u003e\u003ccode\u003eVector\u003c/code\u003e\u003c/code\u003es which do not obey\n architectural alignment requirements.  On \u003ccode\u003ex86\u003c/code\u003e this should\n not be an issue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:47 UTC 2014",
           "module": "Data.Vector.Storable.ByteString",
           "name": "byteStringToVector",
           "package": "spool",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Convert ByteString to Vector This function can produce Vector which do not obey architectural alignment requirements On x86 this should not be an issue",
           "hierarchy": "Data Vector Storable ByteString",
+          "indexed": "2014-03-11T20:08:47",
           "module": "Data.Vector.Storable.ByteString",
           "name": "byteStringToVector",
           "normalized": "ByteString-\u003eVector a",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:47 UTC 2014",
           "module": "Data.Vector.Storable.ByteString",
           "name": "vectorToByteString",
           "package": "spool",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Convert Vector to ByteString",
           "hierarchy": "Data Vector Storable ByteString",
+          "indexed": "2014-03-11T20:08:47",
           "module": "Data.Vector.Storable.ByteString",
           "name": "vectorToByteString",
           "normalized": "Vector a-\u003eByteString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pdf-toolbox-core"
+        "phrase": "pdf-toolbox-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eError used by API\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "Error",
           "package": "pdf-toolbox-core",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Error used by API",
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "Error",
           "package": "pdf-toolbox-core",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPI uses this for error handling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "PdfE",
           "package": "pdf-toolbox-core",
@@ -51,6 +54,7 @@
         "index": {
           "description": "API uses this for error handling",
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "PdfE",
           "package": "pdf-toolbox-core",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "PdfError",
           "package": "pdf-toolbox-core",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Errors",
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "PdfError",
           "package": "pdf-toolbox-core",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "AnnotatedError",
           "package": "pdf-toolbox-core",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "AnnotatedError",
           "package": "pdf-toolbox-core",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "IOError",
           "package": "pdf-toolbox-core",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "IOError",
           "package": "pdf-toolbox-core",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "ParseError",
           "package": "pdf-toolbox-core",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Parser error",
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "ParseError",
           "normalized": "ParseError[String]String",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething unexpected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "UnexpectedError",
           "package": "pdf-toolbox-core",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Something unexpected",
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "UnexpectedError",
           "package": "pdf-toolbox-core",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap any \u003ccode\u003e\u003ca\u003ePdfError\u003c/a\u003e\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eAnnotatedError\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eUsefull when you want to add high-level description to\n error, returned by low-level function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "annotateError",
           "package": "pdf-toolbox-core",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Wrap any PdfError into AnnotatedError Usefull when you want to add high-level description to error returned by low-level function",
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "annotateError",
           "normalized": "String-\u003ePdfE a b-\u003ePdfE a b",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eannotateError\u003c/a\u003e\u003c/code\u003e with fliped arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "annotatingError",
           "package": "pdf-toolbox-core",
@@ -218,6 +235,7 @@
         "index": {
           "description": "annotateError with fliped arguments",
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "annotatingError",
           "normalized": "PdfE a b-\u003eString-\u003ePdfE a b",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch exception if any and convert to \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "tryPdfIO",
           "package": "pdf-toolbox-core",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Catch exception if any and convert to IOError",
           "hierarchy": "Pdf Toolbox Core Error",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Error",
           "name": "tryPdfIO",
           "normalized": "IO a-\u003ePdfE b a",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInput stream with random access\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS",
           "package": "pdf-toolbox-core",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Input stream with random access",
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS",
           "package": "pdf-toolbox-core",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential input stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "IS",
           "package": "pdf-toolbox-core",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Sequential input stream",
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "IS",
           "package": "pdf-toolbox-core",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom access Input Stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS",
           "package": "pdf-toolbox-core",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Random access Input Stream",
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS",
           "package": "pdf-toolbox-core",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal state of \u003ccode\u003e\u003ca\u003eRIS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS'",
           "package": "pdf-toolbox-core",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Internal state of RIS",
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS'",
           "package": "pdf-toolbox-core",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS",
           "package": "pdf-toolbox-core",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS",
           "package": "pdf-toolbox-core",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS'",
           "package": "pdf-toolbox-core",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "RIS'",
           "package": "pdf-toolbox-core",
@@ -450,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet sequential input stream, that is valid until the next \u003ccode\u003e\u003ca\u003eseek\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "inputStream",
           "package": "pdf-toolbox-core",
@@ -460,6 +493,7 @@
         "index": {
           "description": "Get sequential input stream that is valid until the next seek",
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "inputStream",
           "normalized": "RIS-\u003eIO IS",
@@ -475,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "risInputStream",
           "package": "pdf-toolbox-core",
@@ -484,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "risInputStream",
           "package": "pdf-toolbox-core",
@@ -497,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "risPos",
           "package": "pdf-toolbox-core",
@@ -506,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "risPos",
           "package": "pdf-toolbox-core",
@@ -519,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "risSeek",
           "package": "pdf-toolbox-core",
@@ -528,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "risSeek",
           "normalized": "Int-\u003eIO(IO(Maybe ByteString))",
@@ -543,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "risSize",
           "package": "pdf-toolbox-core",
@@ -552,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "risSize",
           "package": "pdf-toolbox-core",
@@ -566,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "seek",
           "package": "pdf-toolbox-core",
@@ -576,6 +619,7 @@
         "index": {
           "description": "Seek the stream",
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "seek",
           "normalized": "RIS-\u003eInt-\u003eIO()",
@@ -591,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bytes in the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "size",
           "package": "pdf-toolbox-core",
@@ -601,6 +646,7 @@
         "index": {
           "description": "Number of bytes in the stream",
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "size",
           "normalized": "RIS-\u003eIO Int",
@@ -616,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent position in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "tell",
           "package": "pdf-toolbox-core",
@@ -626,6 +673,7 @@
         "index": {
           "description": "Current position in bytes",
           "hierarchy": "Pdf Toolbox Core IO RIS",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO.RIS",
           "name": "tell",
           "normalized": "RIS-\u003eIO Int",
@@ -641,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic IO operations for PDF\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "IO",
           "package": "pdf-toolbox-core",
@@ -650,6 +699,7 @@
         "index": {
           "description": "Basic IO operations for PDF",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "IO",
           "package": "pdf-toolbox-core",
@@ -664,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential input stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "IS",
           "package": "pdf-toolbox-core",
@@ -673,6 +724,7 @@
         "index": {
           "description": "Sequential input stream",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "IS",
           "package": "pdf-toolbox-core",
@@ -686,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "MonadIO",
           "package": "pdf-toolbox-core",
@@ -693,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "MonadIO",
           "package": "pdf-toolbox-core",
@@ -707,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom access Input Stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "RIS",
           "package": "pdf-toolbox-core",
@@ -716,6 +771,7 @@
         "index": {
           "description": "Random access Input Stream",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "RIS",
           "package": "pdf-toolbox-core",
@@ -730,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ereadExactly\u003c/a\u003e\u003c/code\u003e, but ignores the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "dropExactly",
           "package": "pdf-toolbox-core",
@@ -740,6 +797,7 @@
         "index": {
           "description": "Same as readExactly but ignores the result",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "dropExactly",
           "normalized": "Int-\u003eIS-\u003ePdfE a()",
@@ -756,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert random access stream to sequential\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "inputStream",
           "package": "pdf-toolbox-core",
@@ -766,6 +825,7 @@
         "index": {
           "description": "Convert random access stream to sequential",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "inputStream",
           "normalized": "RIS-\u003ePdfE a IS",
@@ -781,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "liftIO",
           "package": "pdf-toolbox-core",
@@ -789,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -805,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse from \u003ccode\u003e\u003ca\u003eIS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "parse",
           "package": "pdf-toolbox-core",
@@ -815,6 +878,7 @@
         "index": {
           "description": "Parse from IS",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "parse",
           "normalized": "Parser a-\u003eIS-\u003ePdfE b a",
@@ -830,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ereadExactly\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "readExactly",
           "package": "pdf-toolbox-core",
@@ -840,6 +905,7 @@
         "index": {
           "description": "See readExactly",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "readExactly",
           "normalized": "Int-\u003eIS-\u003ePdfE a ByteString",
@@ -856,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange input position in \u003ccode\u003e\u003ca\u003eRIS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "seek",
           "package": "pdf-toolbox-core",
@@ -866,6 +933,7 @@
         "index": {
           "description": "Change input position in RIS",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "seek",
           "normalized": "RIS-\u003eInt-\u003ePdfE a()",
@@ -881,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal number of bytes in \u003ccode\u003e\u003ca\u003eRIS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "size",
           "package": "pdf-toolbox-core",
@@ -891,6 +960,7 @@
         "index": {
           "description": "Total number of bytes in RIS",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "size",
           "normalized": "RIS-\u003ePdfE a Int",
@@ -906,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003etakeBytes\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "takeBytes",
           "package": "pdf-toolbox-core",
@@ -916,6 +987,7 @@
         "index": {
           "description": "See takeBytes",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "takeBytes",
           "normalized": "Int-\u003eIS-\u003ePdfE a IS",
@@ -932,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent input position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "tell",
           "package": "pdf-toolbox-core",
@@ -942,6 +1015,7 @@
         "index": {
           "description": "Current input position",
           "hierarchy": "Pdf Toolbox Core IO",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.IO",
           "name": "tell",
           "normalized": "RIS-\u003ePdfE a Int",
@@ -957,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRender \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e to bytestring\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "Builder",
           "package": "pdf-toolbox-core",
@@ -966,6 +1041,7 @@
         "index": {
           "description": "Render Object to bytestring",
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "Builder",
           "package": "pdf-toolbox-core",
@@ -979,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildArray",
           "package": "pdf-toolbox-core",
@@ -988,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildArray",
           "normalized": "Array-\u003eBuilder",
@@ -1003,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildBoolean",
           "package": "pdf-toolbox-core",
@@ -1012,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildBoolean",
           "normalized": "Boolean-\u003eBuilder",
@@ -1027,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildDict",
           "package": "pdf-toolbox-core",
@@ -1036,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildDict",
           "normalized": "Dict-\u003eBuilder",
@@ -1052,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild indirect object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildIndirectObject",
           "package": "pdf-toolbox-core",
@@ -1062,6 +1145,7 @@
         "index": {
           "description": "Build indirect object",
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildIndirectObject",
           "normalized": "Ref-\u003eObject ByteString-\u003eBuilder",
@@ -1077,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildName",
           "package": "pdf-toolbox-core",
@@ -1086,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildName",
           "normalized": "Name-\u003eBuilder",
@@ -1101,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildNumber",
           "package": "pdf-toolbox-core",
@@ -1110,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildNumber",
           "normalized": "Number-\u003eBuilder",
@@ -1126,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender inline object (without \"obj/endobj\").\n It is \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e to supply \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e, because it could not\n be inlined, but should always be an indirect object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildObject",
           "package": "pdf-toolbox-core",
@@ -1136,6 +1225,7 @@
         "index": {
           "description": "Render inline object without obj endobj It is error to supply Stream because it could not be inlined but should always be an indirect object",
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildObject",
           "normalized": "Object a-\u003eBuilder",
@@ -1151,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildRef",
           "package": "pdf-toolbox-core",
@@ -1160,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildRef",
           "normalized": "Ref-\u003eBuilder",
@@ -1175,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildStr",
           "package": "pdf-toolbox-core",
@@ -1184,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildStr",
           "normalized": "Str-\u003eBuilder",
@@ -1199,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildStream",
           "package": "pdf-toolbox-core",
@@ -1208,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Builder",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Builder",
           "name": "buildStream",
           "normalized": "Stream ByteString-\u003eBuilder",
@@ -1224,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule contains definitions of pdf objects\n\u003c/p\u003e\u003cp\u003eSee PDF1.7:7.3\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Types",
           "package": "pdf-toolbox-core",
@@ -1233,6 +1330,7 @@
         "index": {
           "description": "Module contains definitions of pdf objects See PDF1.7",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Types",
           "package": "pdf-toolbox-core",
@@ -1247,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Array",
           "package": "pdf-toolbox-core",
@@ -1256,6 +1355,7 @@
         "index": {
           "description": "An array",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Array",
           "package": "pdf-toolbox-core",
@@ -1270,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"true\" or \"false\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Boolean",
           "package": "pdf-toolbox-core",
@@ -1279,6 +1380,7 @@
         "index": {
           "description": "true or false",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Boolean",
           "package": "pdf-toolbox-core",
@@ -1293,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of key/value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Dict",
           "package": "pdf-toolbox-core",
@@ -1302,6 +1405,7 @@
         "index": {
           "description": "Set of key value pairs",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Dict",
           "package": "pdf-toolbox-core",
@@ -1316,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames usually are used as keys in dictionaries\n\u003c/p\u003e\u003cp\u003eThey starts with '/', but we strip it out, see \u003ccode\u003e\u003ca\u003eparseName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Name",
           "package": "pdf-toolbox-core",
@@ -1325,6 +1430,7 @@
         "index": {
           "description": "Names usually are used as keys in dictionaries They starts with but we strip it out see parseName",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Name",
           "package": "pdf-toolbox-core",
@@ -1339,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger or real \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Number",
           "package": "pdf-toolbox-core",
@@ -1348,6 +1455,7 @@
         "index": {
           "description": "Integer or real",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Number",
           "package": "pdf-toolbox-core",
@@ -1362,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny pdf object\n\u003c/p\u003e\u003cp\u003eIt is parameterized by \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Object",
           "package": "pdf-toolbox-core",
@@ -1371,6 +1480,7 @@
         "index": {
           "description": "Any pdf object It is parameterized by Stream content",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Object",
           "package": "pdf-toolbox-core",
@@ -1385,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject reference, contains object index and generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Ref",
           "package": "pdf-toolbox-core",
@@ -1394,6 +1505,7 @@
         "index": {
           "description": "Object reference contains object index and generation",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Ref",
           "package": "pdf-toolbox-core",
@@ -1408,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence of zero or more bytes\n\u003c/p\u003e\u003cp\u003eRepresents both the literal and hexadecimal strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Str",
           "package": "pdf-toolbox-core",
@@ -1417,6 +1530,7 @@
         "index": {
           "description": "Sequence of zero or more bytes Represents both the literal and hexadecimal strings",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Str",
           "package": "pdf-toolbox-core",
@@ -1431,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains stream dictionary and a payload\n\u003c/p\u003e\u003cp\u003eThe payload could be offset within pdf file, actual content,\n content stream or nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Stream",
           "package": "pdf-toolbox-core",
@@ -1440,6 +1555,7 @@
         "index": {
           "description": "Contains stream dictionary and payload The payload could be offset within pdf file actual content content stream or nothing",
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Stream",
           "package": "pdf-toolbox-core",
@@ -1453,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Array",
           "package": "pdf-toolbox-core",
@@ -1462,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Array",
           "normalized": "Array[Object()]",
@@ -1477,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Boolean",
           "package": "pdf-toolbox-core",
@@ -1486,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Boolean",
           "package": "pdf-toolbox-core",
@@ -1499,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Dict",
           "package": "pdf-toolbox-core",
@@ -1508,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Dict",
           "normalized": "Dict[(Name,Object())]",
@@ -1523,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Name",
           "package": "pdf-toolbox-core",
@@ -1532,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Name",
           "package": "pdf-toolbox-core",
@@ -1545,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "NumInt",
           "package": "pdf-toolbox-core",
@@ -1554,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "NumInt",
           "package": "pdf-toolbox-core",
@@ -1567,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "NumReal",
           "package": "pdf-toolbox-core",
@@ -1576,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "NumReal",
           "package": "pdf-toolbox-core",
@@ -1589,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OArray",
           "package": "pdf-toolbox-core",
@@ -1598,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OArray",
           "package": "pdf-toolbox-core",
@@ -1611,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OBoolean",
           "package": "pdf-toolbox-core",
@@ -1620,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OBoolean",
           "package": "pdf-toolbox-core",
@@ -1633,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "ODict",
           "package": "pdf-toolbox-core",
@@ -1642,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "ODict",
           "package": "pdf-toolbox-core",
@@ -1655,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OName",
           "package": "pdf-toolbox-core",
@@ -1664,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OName",
           "package": "pdf-toolbox-core",
@@ -1677,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "ONull",
           "package": "pdf-toolbox-core",
@@ -1686,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "ONull",
           "package": "pdf-toolbox-core",
@@ -1699,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "ONumber",
           "package": "pdf-toolbox-core",
@@ -1708,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "ONumber",
           "package": "pdf-toolbox-core",
@@ -1721,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "ORef",
           "package": "pdf-toolbox-core",
@@ -1730,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "ORef",
           "package": "pdf-toolbox-core",
@@ -1743,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OStr",
           "package": "pdf-toolbox-core",
@@ -1752,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OStr",
           "package": "pdf-toolbox-core",
@@ -1765,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OStream",
           "package": "pdf-toolbox-core",
@@ -1774,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "OStream",
           "package": "pdf-toolbox-core",
@@ -1787,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Ref",
           "package": "pdf-toolbox-core",
@@ -1796,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Ref",
           "package": "pdf-toolbox-core",
@@ -1809,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Str",
           "package": "pdf-toolbox-core",
@@ -1818,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Str",
           "package": "pdf-toolbox-core",
@@ -1831,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Stream",
           "package": "pdf-toolbox-core",
@@ -1840,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Types",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Types",
           "name": "Stream",
           "package": "pdf-toolbox-core",
@@ -1854,6 +2006,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtils relayted to pdf objects\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "Util",
           "package": "pdf-toolbox-core",
@@ -1863,6 +2016,7 @@
         "index": {
           "description": "Utils relayted to pdf objects",
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "Util",
           "package": "pdf-toolbox-core",
@@ -1877,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows you to cast \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e to specific type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "FromObject",
           "package": "pdf-toolbox-core",
@@ -1886,6 +2041,7 @@
         "index": {
           "description": "Allows you to cast Object to specific type",
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "FromObject",
           "package": "pdf-toolbox-core",
@@ -1899,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "deleteValueForKey",
           "package": "pdf-toolbox-core",
@@ -1908,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "deleteValueForKey",
           "normalized": "Name-\u003eDict-\u003eDict",
@@ -1923,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "fromObject",
           "package": "pdf-toolbox-core",
@@ -1932,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "fromObject",
           "normalized": "Object a-\u003ePdfE b c",
@@ -1947,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "intValue",
           "package": "pdf-toolbox-core",
@@ -1956,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "intValue",
           "normalized": "Number-\u003ePdfE a Int",
@@ -1971,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "lookupDict",
           "package": "pdf-toolbox-core",
@@ -1980,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "lookupDict",
           "normalized": "Name-\u003eDict-\u003ePdfE a(Object())",
@@ -1995,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "lookupDict'",
           "package": "pdf-toolbox-core",
@@ -2004,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "lookupDict'",
           "normalized": "Name-\u003eDict-\u003eMaybe(Object())",
@@ -2020,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to all stream contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "mapObject",
           "package": "pdf-toolbox-core",
@@ -2030,6 +2197,7 @@
         "index": {
           "description": "Apply function to all stream contents",
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "mapObject",
           "normalized": "(a-\u003eb)-\u003eObject a-\u003eObject b",
@@ -2045,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "realValue",
           "package": "pdf-toolbox-core",
@@ -2054,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "realValue",
           "normalized": "Number-\u003ePdfE a Double",
@@ -2069,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "setValueForKey",
           "package": "pdf-toolbox-core",
@@ -2078,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "setValueForKey",
           "normalized": "Name-\u003eObject()-\u003eDict-\u003eDict",
@@ -2093,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toArray",
           "package": "pdf-toolbox-core",
@@ -2102,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toArray",
           "normalized": "Object a-\u003ePdfE b Array",
@@ -2117,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toBoolean",
           "package": "pdf-toolbox-core",
@@ -2126,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toBoolean",
           "normalized": "Object a-\u003ePdfE b Boolean",
@@ -2141,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toDict",
           "package": "pdf-toolbox-core",
@@ -2150,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toDict",
           "normalized": "Object a-\u003ePdfE b Dict",
@@ -2165,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toName",
           "package": "pdf-toolbox-core",
@@ -2174,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toName",
           "normalized": "Object a-\u003ePdfE b Name",
@@ -2189,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toNumber",
           "package": "pdf-toolbox-core",
@@ -2198,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toNumber",
           "normalized": "Object a-\u003ePdfE b Number",
@@ -2213,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toRef",
           "package": "pdf-toolbox-core",
@@ -2222,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toRef",
           "normalized": "Object a-\u003ePdfE b Ref",
@@ -2237,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toStr",
           "package": "pdf-toolbox-core",
@@ -2246,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toStr",
           "normalized": "Object a-\u003ePdfE b Str",
@@ -2261,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toStream",
           "package": "pdf-toolbox-core",
@@ -2270,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Object Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Object.Util",
           "name": "toStream",
           "normalized": "Object a-\u003ePdfE b(Stream a)",
@@ -2286,6 +2474,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains parsers for pdf objects\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "Object",
           "package": "pdf-toolbox-core",
@@ -2295,6 +2484,7 @@
         "index": {
           "description": "This module contains parsers for pdf objects",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "Object",
           "package": "pdf-toolbox-core",
@@ -2309,6 +2499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the character can appear in \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "isRegularChar",
           "package": "pdf-toolbox-core",
@@ -2319,6 +2510,7 @@
         "index": {
           "description": "Whether the character can appear in Name",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "isRegularChar",
           "normalized": "Char-\u003eBool",
@@ -2335,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseArray \"[1 (string) /Name []]\"\n\u003c/code\u003e\u003c/strong\u003eRight (Array [ONumber (NumInt 1),OStr (Str \"string\"),OName (Name \"Name\"),OArray (Array [])])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseArray",
           "package": "pdf-toolbox-core",
@@ -2345,6 +2538,7 @@
         "index": {
           "description": "parseOnly parseArray string Name Right Array ONumber NumInt OStr Str string OName Name Name OArray Array",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseArray",
           "package": "pdf-toolbox-core",
@@ -2359,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseBoolean \"true\"\n\u003c/code\u003e\u003c/strong\u003eRight (Boolean True)\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseBoolean \"false\"\n\u003c/code\u003e\u003c/strong\u003eRight (Boolean False)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseBoolean",
           "package": "pdf-toolbox-core",
@@ -2369,6 +2564,7 @@
         "index": {
           "description": "parseOnly parseBoolean true Right Boolean True parseOnly parseBoolean false Right Boolean False",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseBoolean",
           "package": "pdf-toolbox-core",
@@ -2383,6 +2579,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseDict \"\u003c\u003c/Key1(some string)/Key2 123\u003e\u003e\"\n\u003c/code\u003e\u003c/strong\u003eRight (Dict [(Name \"Key1\",OStr (Str \"some string\")),(Name \"Key2\",ONumber (NumInt 123))])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseDict",
           "package": "pdf-toolbox-core",
@@ -2393,6 +2590,7 @@
         "index": {
           "description": "parseOnly parseDict Key1 some string Key2 Right Dict Name Key1 OStr Str some string Name Key2 ONumber NumInt",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseDict",
           "package": "pdf-toolbox-core",
@@ -2407,6 +2605,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseHexStr \"\u003c68656C6C6F\u003e\"\n\u003c/code\u003e\u003c/strong\u003eRight (Str \"hello\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseHexStr",
           "package": "pdf-toolbox-core",
@@ -2417,6 +2616,7 @@
         "index": {
           "description": "parseOnly parseHexStr C6C6F Right Str hello",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseHexStr",
           "package": "pdf-toolbox-core",
@@ -2431,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse object. Input position should point\n to offset defined in XRef\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseIndirectObject \"1 2 obj\\n12\"\n\u003c/code\u003e\u003c/strong\u003eRight (Ref 1 2,ONumber (NumInt 12))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseIndirectObject",
           "package": "pdf-toolbox-core",
@@ -2441,6 +2642,7 @@
         "index": {
           "description": "Parse object Input position should point to offset defined in XRef parseOnly parseIndirectObject obj n12 Right Ref ONumber NumInt",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseIndirectObject",
           "normalized": "Parser(Ref,Object())",
@@ -2457,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseName \"/Name\"\n\u003c/code\u003e\u003c/strong\u003eRight (Name \"Name\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseName",
           "package": "pdf-toolbox-core",
@@ -2467,6 +2670,7 @@
         "index": {
           "description": "parseOnly parseName Name Right Name Name",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseName",
           "package": "pdf-toolbox-core",
@@ -2481,6 +2685,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseNumber \"123\"\n\u003c/code\u003e\u003c/strong\u003eRight (NumInt 123)\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseNumber \"12.3\"\n\u003c/code\u003e\u003c/strong\u003eRight (NumReal 12.3)\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseNumber \".01\"\n\u003c/code\u003e\u003c/strong\u003eRight (NumReal 1.0e-2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseNumber",
           "package": "pdf-toolbox-core",
@@ -2491,6 +2696,7 @@
         "index": {
           "description": "parseOnly parseNumber Right NumInt parseOnly parseNumber Right NumReal parseOnly parseNumber Right NumReal e-2",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseNumber",
           "package": "pdf-toolbox-core",
@@ -2505,6 +2711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt parses any \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e except \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e\n cos for \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e we need offset of data in file\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseObject \"/Name\"\n\u003c/code\u003e\u003c/strong\u003eRight (OName (Name \"Name\"))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseObject",
           "package": "pdf-toolbox-core",
@@ -2515,6 +2722,7 @@
         "index": {
           "description": "It parses any Object except Stream cos for Stream we need offset of data in file parseOnly parseObject Name Right OName Name Name",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseObject",
           "normalized": "Parser(Object())",
@@ -2531,6 +2739,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseRef \"0 2 R\"\n\u003c/code\u003e\u003c/strong\u003eRight (Ref 0 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseRef",
           "package": "pdf-toolbox-core",
@@ -2541,6 +2750,7 @@
         "index": {
           "description": "parseOnly parseRef Right Ref",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseRef",
           "package": "pdf-toolbox-core",
@@ -2555,6 +2765,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly parseStr \"(hello)\"\n\u003c/code\u003e\u003c/strong\u003eRight (Str \"hello\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseStr",
           "package": "pdf-toolbox-core",
@@ -2565,6 +2776,7 @@
         "index": {
           "description": "parseOnly parseStr hello Right Str hello",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseStr",
           "package": "pdf-toolbox-core",
@@ -2579,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumes input till stream's data\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eparseDict\u003c/a\u003e\u003c/code\u003e then \u003ccode\u003e\u003ca\u003eparseTillStreamData\u003c/a\u003e\u003c/code\u003e\n to determine whether the object is dictionary or stream.\n If \u003ccode\u003e\u003ca\u003eparseTillStreamData\u003c/a\u003e\u003c/code\u003e fails, then it is a dictionary.\n Otherwise it is stream, and current position in input data\n will point to stream's data start\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse (parseDict \u003e\u003e= \\dict -\u003e parseTillStreamData \u003e\u003e return dict) \"\u003c\u003c/Key 123\u003e\u003e\\nstream\\n1234\\nendstream\"\n\u003c/code\u003e\u003c/strong\u003eDone \"1234\\nendstream\" Dict [(Name \"Key\",ONumber (NumInt 123))]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseTillStreamData",
           "package": "pdf-toolbox-core",
@@ -2589,6 +2802,7 @@
         "index": {
           "description": "Consumes input till stream data Use parseDict then parseTillStreamData to determine whether the object is dictionary or stream If parseTillStreamData fails then it is dictionary Otherwise it is stream and current position in input data will point to stream data start parse parseDict dict parseTillStreamData return dict Key nstream n1234 nendstream Done nendstream Dict Name Key ONumber NumInt",
           "hierarchy": "Pdf Toolbox Core Parsers Object",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Object",
           "name": "parseTillStreamData",
           "normalized": "Parser()",
@@ -2605,6 +2819,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtils\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Util",
           "name": "Util",
           "package": "pdf-toolbox-core",
@@ -2614,6 +2829,7 @@
         "index": {
           "description": "Utils",
           "hierarchy": "Pdf Toolbox Core Parsers Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Util",
           "name": "Util",
           "package": "pdf-toolbox-core",
@@ -2628,6 +2844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn pdf file EOL could be \"\\n\", \"\\r\" or \"\\n\\r\"\n\u003c/p\u003e\u003cp\u003eAlso space (0x20) is usually ok before EOL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.Util",
           "name": "endOfLine",
           "package": "pdf-toolbox-core",
@@ -2638,6 +2855,7 @@
         "index": {
           "description": "In pdf file EOL could be or Also space x20 is usually ok before EOL",
           "hierarchy": "Pdf Toolbox Core Parsers Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.Util",
           "name": "endOfLine",
           "normalized": "Parser()",
@@ -2654,6 +2872,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsers for XRef\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "XRef",
           "package": "pdf-toolbox-core",
@@ -2663,6 +2882,7 @@
         "index": {
           "description": "Parsers for XRef",
           "hierarchy": "Pdf Toolbox Core Parsers XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "XRef",
           "package": "pdf-toolbox-core",
@@ -2677,6 +2897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse subsection header, return (the first object index, number of object)\n\u003c/p\u003e\u003cp\u003eInput position will point to the first object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "parseSubsectionHeader",
           "package": "pdf-toolbox-core",
@@ -2687,6 +2908,7 @@
         "index": {
           "description": "Parse subsection header return the first object index number of object Input position will point to the first object",
           "hierarchy": "Pdf Toolbox Core Parsers XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "parseSubsectionHeader",
           "normalized": "Parser(Int,Int)",
@@ -2703,6 +2925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse XRef table entry. Returns offset, generation and whether the object is free.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "parseTableEntry",
           "package": "pdf-toolbox-core",
@@ -2713,6 +2936,7 @@
         "index": {
           "description": "Parse XRef table entry Returns offset generation and whether the object is free",
           "hierarchy": "Pdf Toolbox Core Parsers XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "parseTableEntry",
           "normalized": "Parser(Int,Int,Bool)",
@@ -2729,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse trailer located after XRef table\n\u003c/p\u003e\u003cp\u003eInput position should point to the \"trailer\" keyword\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "parseTrailerAfterTable",
           "package": "pdf-toolbox-core",
@@ -2739,6 +2964,7 @@
         "index": {
           "description": "Parse trailer located after XRef table Input position should point to the trailer keyword",
           "hierarchy": "Pdf Toolbox Core Parsers XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "parseTrailerAfterTable",
           "package": "pdf-toolbox-core",
@@ -2753,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset of the very last xref table\n\u003c/p\u003e\u003cp\u003eBefore calling it, make sure your are currently somewhere near\n the end of pdf file. Otherwice it can eat all the memory.\n E.g. examine only the last 1KB\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly startXRef \"anything...startxref\\n222\\n%%EOF...blah\\nstartxref\\n123\\n%%EOF\"\n\u003c/code\u003e\u003c/strong\u003eRight 123\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "startXRef",
           "package": "pdf-toolbox-core",
@@ -2763,6 +2990,7 @@
         "index": {
           "description": "Offset of the very last xref table Before calling it make sure your are currently somewhere near the end of pdf file Otherwice it can eat all the memory E.g examine only the last KB parseOnly startXRef anything...startxref n222 EOF...blah nstartxref n123 EOF Right",
           "hierarchy": "Pdf Toolbox Core Parsers XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "startXRef",
           "package": "pdf-toolbox-core",
@@ -2777,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen current input position points to xref stream\n (or doesn't point to xref at all), the parser will fail.\n When it points to xref table, the parser will succeed\n and input position will point to the first xref subsection\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly tableXRef \"xref\\n\"\n\u003c/code\u003e\u003c/strong\u003eRight ()\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseOnly tableXRef \"not xref\"\n\u003c/code\u003e\u003c/strong\u003eLeft \"Failed reading: takeWith\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "tableXRef",
           "package": "pdf-toolbox-core",
@@ -2787,6 +3016,7 @@
         "index": {
           "description": "When current input position points to xref stream or doesn point to xref at all the parser will fail When it points to xref table the parser will succeed and input position will point to the first xref subsection parseOnly tableXRef xref Right parseOnly tableXRef not xref Left Failed reading takeWith",
           "hierarchy": "Pdf Toolbox Core Parsers XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Parsers.XRef",
           "name": "tableXRef",
           "normalized": "Parser()",
@@ -2803,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFlate decode filter\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.FlateDecode",
           "name": "FlateDecode",
           "package": "pdf-toolbox-core",
@@ -2812,6 +3043,7 @@
         "index": {
           "description": "Flate decode filter",
           "hierarchy": "Pdf Toolbox Core Stream Filter FlateDecode",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.FlateDecode",
           "name": "FlateDecode",
           "package": "pdf-toolbox-core",
@@ -2826,6 +3058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVary basic implementation. Only PNG-UP prediction is implemented\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.FlateDecode",
           "name": "flateDecode",
           "package": "pdf-toolbox-core",
@@ -2836,6 +3069,7 @@
         "index": {
           "description": "Vary basic implementation Only PNG-UP prediction is implemented",
           "hierarchy": "Pdf Toolbox Core Stream Filter FlateDecode",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.FlateDecode",
           "name": "flateDecode",
           "package": "pdf-toolbox-core",
@@ -2850,6 +3084,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStream filter\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "Type",
           "package": "pdf-toolbox-core",
@@ -2859,6 +3094,7 @@
         "index": {
           "description": "Stream filter",
           "hierarchy": "Pdf Toolbox Core Stream Filter Type",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "Type",
           "package": "pdf-toolbox-core",
@@ -2873,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException that should be thrown by the decoder in case of any error\n User code could catch it when reading from decoded stream content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "DecodeException",
           "package": "pdf-toolbox-core",
@@ -2882,6 +3119,7 @@
         "index": {
           "description": "Exception that should be thrown by the decoder in case of any error User code could catch it when reading from decoded stream content",
           "hierarchy": "Pdf Toolbox Core Stream Filter Type",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "DecodeException",
           "package": "pdf-toolbox-core",
@@ -2896,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "StreamFilter",
           "package": "pdf-toolbox-core",
@@ -2905,6 +3144,7 @@
         "index": {
           "description": "Stream filter",
           "hierarchy": "Pdf Toolbox Core Stream Filter Type",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "StreamFilter",
           "package": "pdf-toolbox-core",
@@ -2918,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "DecodeException",
           "package": "pdf-toolbox-core",
@@ -2927,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Stream Filter Type",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "DecodeException",
           "package": "pdf-toolbox-core",
@@ -2940,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "StreamFilter",
           "package": "pdf-toolbox-core",
@@ -2949,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core Stream Filter Type",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "StreamFilter",
           "package": "pdf-toolbox-core",
@@ -2963,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecode params -\u003e content -\u003e decoded content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "filterDecode",
           "package": "pdf-toolbox-core",
@@ -2973,6 +3218,7 @@
         "index": {
           "description": "decode params content decoded content",
           "hierarchy": "Pdf Toolbox Core Stream Filter Type",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "filterDecode",
           "normalized": "Maybe Dict-\u003eIS-\u003eIO IS",
@@ -2989,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \"Filter\" key value in stream dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "filterName",
           "package": "pdf-toolbox-core",
@@ -2999,6 +3246,7 @@
         "index": {
           "description": "as Filter key value in stream dictionary",
           "hierarchy": "Pdf Toolbox Core Stream Filter Type",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream.Filter.Type",
           "name": "filterName",
           "package": "pdf-toolbox-core",
@@ -3013,6 +3261,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStream related tools\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "Stream",
           "package": "pdf-toolbox-core",
@@ -3022,6 +3271,7 @@
         "index": {
           "description": "Stream related tools",
           "hierarchy": "Pdf Toolbox Core Stream",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "Stream",
           "package": "pdf-toolbox-core",
@@ -3036,6 +3286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "StreamFilter",
           "package": "pdf-toolbox-core",
@@ -3045,6 +3296,7 @@
         "index": {
           "description": "Stream filter",
           "hierarchy": "Pdf Toolbox Core Stream",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "StreamFilter",
           "package": "pdf-toolbox-core",
@@ -3059,6 +3311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode stream content\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIS\u003c/a\u003e\u003c/code\u003e is valid only until the next \u003ccode\u003e\u003ca\u003eRIS\u003c/a\u003e\u003c/code\u003e operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "decodeStream",
           "package": "pdf-toolbox-core",
@@ -3069,6 +3322,7 @@
         "index": {
           "description": "Decode stream content The IS is valid only until the next RIS operation",
           "hierarchy": "Pdf Toolbox Core Stream",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "decodeStream",
           "normalized": "[StreamFilter]-\u003e(IS-\u003eIO IS)-\u003eStream IS-\u003ePdfE a(Stream IS)",
@@ -3085,6 +3339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoded stream content\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIS\u003c/a\u003e\u003c/code\u003e is valid only until the next \u003ccode\u003e\u003ca\u003eseek\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNote: \"Length\" could be an indirect object, that is why\n we cann't read it ourself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "decodedStreamContent",
           "package": "pdf-toolbox-core",
@@ -3094,6 +3349,7 @@
         "index": {
           "description": "Decoded stream content The IS is valid only until the next seek Note Length could be an indirect object that is why we cann read it ourself",
           "hierarchy": "Pdf Toolbox Core Stream",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "decodedStreamContent",
           "normalized": "RIS-\u003e[StreamFilter]-\u003e(IS-\u003eIO IS)-\u003eInt-\u003eStream Int-\u003ePdfE a(Stream IS)",
@@ -3110,6 +3366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll stream filters implemented by the toolbox\n\u003c/p\u003e\u003cp\u003eRight now it contains only FlateDecode filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "knownFilters",
           "package": "pdf-toolbox-core",
@@ -3120,6 +3377,7 @@
         "index": {
           "description": "All stream filters implemented by the toolbox Right now it contains only FlateDecode filter",
           "hierarchy": "Pdf Toolbox Core Stream",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "knownFilters",
           "normalized": "[StreamFilter]",
@@ -3136,6 +3394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw content of stream.\n Filters are not applyed\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIS\u003c/a\u003e\u003c/code\u003e is valid only until the next \u003ccode\u003e\u003ca\u003eseek\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNote: \"Length\" could be an indirect object, but we don't want\n to read indirect objects here. So we require length to be provided\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "rawStreamContent",
           "package": "pdf-toolbox-core",
@@ -3145,6 +3404,7 @@
         "index": {
           "description": "Raw content of stream Filters are not applyed The IS is valid only until the next seek Note Length could be an indirect object but we don want to read indirect objects here So we require length to be provided",
           "hierarchy": "Pdf Toolbox Core Stream",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "rawStreamContent",
           "normalized": "RIS-\u003eInt-\u003eStream Int-\u003ePdfE a(Stream IS)",
@@ -3161,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e at the current position in the \u003ccode\u003e\u003ca\u003eRIS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "readStream",
           "package": "pdf-toolbox-core",
@@ -3171,6 +3432,7 @@
         "index": {
           "description": "Read Stream at the current position in the RIS",
           "hierarchy": "Pdf Toolbox Core Stream",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Stream",
           "name": "readStream",
           "normalized": "RIS-\u003ePdfE a(Stream Int)",
@@ -3187,6 +3449,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnclassified tools\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Util",
           "name": "Util",
           "package": "pdf-toolbox-core",
@@ -3196,6 +3459,7 @@
         "index": {
           "description": "Unclassified tools",
           "hierarchy": "Pdf Toolbox Core Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Util",
           "name": "Util",
           "package": "pdf-toolbox-core",
@@ -3210,6 +3474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead object from object stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Util",
           "name": "readCompressedObject",
           "package": "pdf-toolbox-core",
@@ -3219,6 +3484,7 @@
         "index": {
           "description": "Read object from object stream",
           "hierarchy": "Pdf Toolbox Core Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Util",
           "name": "readCompressedObject",
           "normalized": "IS-\u003eInt-\u003eInt-\u003ePdfE a(Object())",
@@ -3235,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead indirect object at the specified offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Util",
           "name": "readObjectAtOffset",
           "package": "pdf-toolbox-core",
@@ -3244,6 +3511,7 @@
         "index": {
           "description": "Read indirect object at the specified offset",
           "hierarchy": "Pdf Toolbox Core Util",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Util",
           "name": "readObjectAtOffset",
           "normalized": "RIS-\u003eInt-\u003eInt-\u003ePdfE a(Object Int)",
@@ -3260,6 +3528,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrite PDF files\n\u003c/p\u003e\u003cp\u003eIt could be used to generate new PDF file\n or to incrementally update the existent one\n\u003c/p\u003e\u003cp\u003eTo generate new file, first call \u003ccode\u003e\u003ca\u003ewritePdfHeader\u003c/a\u003e\u003c/code\u003e,\n then a number of \u003ccode\u003e\u003ca\u003ewriteObject\u003c/a\u003e\u003c/code\u003e and finally \u003ccode\u003e\u003ca\u003ewriteXRefTable\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eTo incrementally update PDF file just ommit the\n \u003ccode\u003e\u003ca\u003ewritePdfHeader\u003c/a\u003e\u003c/code\u003e and append the result to the existent file\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "Writer",
           "package": "pdf-toolbox-core",
@@ -3269,6 +3538,7 @@
         "index": {
           "description": "Write PDF files It could be used to generate new PDF file or to incrementally update the existent one To generate new file first call writePdfHeader then number of writeObject and finally writeXRefTable To incrementally update PDF file just ommit the writePdfHeader and append the result to the existent file",
           "hierarchy": "Pdf Toolbox Core Writer",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "Writer",
           "package": "pdf-toolbox-core",
@@ -3283,6 +3553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "PdfWriter",
           "package": "pdf-toolbox-core",
@@ -3292,6 +3563,7 @@
         "index": {
           "description": "The monad",
           "hierarchy": "Pdf Toolbox Core Writer",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "PdfWriter",
           "package": "pdf-toolbox-core",
@@ -3306,6 +3578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "deleteObject",
           "package": "pdf-toolbox-core",
@@ -3316,6 +3589,7 @@
         "index": {
           "description": "Delete object",
           "hierarchy": "Pdf Toolbox Core Writer",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "deleteObject",
           "normalized": "Ref-\u003eInt-\u003ePdfWriter a()",
@@ -3332,6 +3606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute writer action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "runPdfWriter",
           "package": "pdf-toolbox-core",
@@ -3341,6 +3616,7 @@
         "index": {
           "description": "Execute writer action",
           "hierarchy": "Pdf Toolbox Core Writer",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "runPdfWriter",
           "normalized": "OutputStream ByteString-\u003ePdfWriter a b-\u003ea b",
@@ -3357,6 +3633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "writeObject",
           "package": "pdf-toolbox-core",
@@ -3367,6 +3644,7 @@
         "index": {
           "description": "Write object",
           "hierarchy": "Pdf Toolbox Core Writer",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "writeObject",
           "normalized": "Ref-\u003eObject ByteString-\u003ePdfWriter a()",
@@ -3383,6 +3661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite PDF header. Used for generating new PDF files.\n Should be the first call. Not used fo incremental updates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "writePdfHeader",
           "package": "pdf-toolbox-core",
@@ -3393,6 +3672,7 @@
         "index": {
           "description": "Write PDF header Used for generating new PDF files Should be the first call Not used fo incremental updates",
           "hierarchy": "Pdf Toolbox Core Writer",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "writePdfHeader",
           "normalized": "PdfWriter a()",
@@ -3409,6 +3689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite xref table. Should be the last call.\n Used for generating and incremental updates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "writeXRefTable",
           "package": "pdf-toolbox-core",
@@ -3418,6 +3699,7 @@
         "index": {
           "description": "Write xref table Should be the last call Used for generating and incremental updates",
           "hierarchy": "Pdf Toolbox Core Writer",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.Writer",
           "name": "writeXRefTable",
           "normalized": "Int-\u003eDict-\u003ePdfWriter a()",
@@ -3434,6 +3716,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCross reference\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRef",
           "package": "pdf-toolbox-core",
@@ -3443,6 +3726,7 @@
         "index": {
           "description": "Cross reference",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRef",
           "package": "pdf-toolbox-core",
@@ -3457,6 +3741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry in cross reference stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "StreamEntry",
           "package": "pdf-toolbox-core",
@@ -3466,6 +3751,7 @@
         "index": {
           "description": "Entry in cross reference stream",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "StreamEntry",
           "package": "pdf-toolbox-core",
@@ -3480,6 +3766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry in cross reference table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "TableEntry",
           "package": "pdf-toolbox-core",
@@ -3489,6 +3776,7 @@
         "index": {
           "description": "Entry in cross reference table",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "TableEntry",
           "package": "pdf-toolbox-core",
@@ -3503,6 +3791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRef",
           "package": "pdf-toolbox-core",
@@ -3512,6 +3801,7 @@
         "index": {
           "description": "Cross reference",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRef",
           "package": "pdf-toolbox-core",
@@ -3526,6 +3816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry in cross reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefEntry",
           "package": "pdf-toolbox-core",
@@ -3535,6 +3826,7 @@
         "index": {
           "description": "Entry in cross reference",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefEntry",
           "package": "pdf-toolbox-core",
@@ -3549,6 +3841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject number of object stream and index within the object stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "StreamEntryCompressed",
           "package": "pdf-toolbox-core",
@@ -3559,6 +3852,7 @@
         "index": {
           "description": "Object number of object stream and index within the object stream",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "StreamEntryCompressed",
           "package": "pdf-toolbox-core",
@@ -3573,6 +3867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject number and generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "StreamEntryFree",
           "package": "pdf-toolbox-core",
@@ -3583,6 +3878,7 @@
         "index": {
           "description": "Object number and generation",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "StreamEntryFree",
           "package": "pdf-toolbox-core",
@@ -3597,6 +3893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject offset (in bytes from the beginning of file) and generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "StreamEntryUsed",
           "package": "pdf-toolbox-core",
@@ -3607,6 +3904,7 @@
         "index": {
           "description": "Object offset in bytes from the beginning of file and generation",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "StreamEntryUsed",
           "package": "pdf-toolbox-core",
@@ -3620,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "TableEntry",
           "package": "pdf-toolbox-core",
@@ -3629,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "TableEntry",
           "package": "pdf-toolbox-core",
@@ -3643,6 +3943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset and stream with content offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefStream",
           "package": "pdf-toolbox-core",
@@ -3653,6 +3954,7 @@
         "index": {
           "description": "Offset and stream with content offset",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefStream",
           "package": "pdf-toolbox-core",
@@ -3666,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefStreamEntry",
           "package": "pdf-toolbox-core",
@@ -3675,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefStreamEntry",
           "package": "pdf-toolbox-core",
@@ -3689,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefTable",
           "package": "pdf-toolbox-core",
@@ -3699,6 +4004,7 @@
         "index": {
           "description": "Offset",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefTable",
           "package": "pdf-toolbox-core",
@@ -3712,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefTableEntry",
           "package": "pdf-toolbox-core",
@@ -3721,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "XRefTableEntry",
           "package": "pdf-toolbox-core",
@@ -3735,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the stream starts with \"xref\" keyword.\n The keyword iyself is consumed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "isTable",
           "package": "pdf-toolbox-core",
@@ -3745,6 +4054,7 @@
         "index": {
           "description": "Check whether the stream starts with xref keyword The keyword iyself is consumed",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "isTable",
           "normalized": "IS-\u003ePdfE a Bool",
@@ -3761,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the last cross reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "lastXRef",
           "package": "pdf-toolbox-core",
@@ -3771,6 +4082,7 @@
         "index": {
           "description": "Find the last cross reference",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "lastXRef",
           "normalized": "RIS-\u003ePdfE a XRef",
@@ -3787,6 +4099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead xref entry for the indirect object from xref stream\n\u003c/p\u003e\u003cp\u003eSee pdf1.7 spec: 7.5.8 Cross-Reference Streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "lookupStreamEntry",
           "package": "pdf-toolbox-core",
@@ -3796,6 +4109,7 @@
         "index": {
           "description": "Read xref entry for the indirect object from xref stream See pdf1.7 spec Cross-Reference Streams",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "lookupStreamEntry",
           "normalized": "Stream IS-\u003eRef-\u003ePdfE a(Maybe StreamEntry)",
@@ -3812,6 +4126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead xref entry for the indirect object from xref table\n\u003c/p\u003e\u003cp\u003eRIS position should point to the begining of the next\n line after \"xref\" keyword\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "lookupTableEntry",
           "package": "pdf-toolbox-core",
@@ -3821,6 +4136,7 @@
         "index": {
           "description": "Read xref entry for the indirect object from xref table RIS position should point to the begining of the next line after xref keyword",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "lookupTableEntry",
           "normalized": "RIS-\u003eRef-\u003ePdfE a(Maybe TableEntry)",
@@ -3837,6 +4153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind prev cross reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "prevXRef",
           "package": "pdf-toolbox-core",
@@ -3847,6 +4164,7 @@
         "index": {
           "description": "Find prev cross reference",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "prevXRef",
           "normalized": "RIS-\u003eXRef-\u003ePdfE a(Maybe XRef)",
@@ -3862,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "teGen",
           "package": "pdf-toolbox-core",
@@ -3871,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "teGen",
           "package": "pdf-toolbox-core",
@@ -3884,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "teIsFree",
           "package": "pdf-toolbox-core",
@@ -3893,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "teIsFree",
           "package": "pdf-toolbox-core",
@@ -3906,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "teOffset",
           "package": "pdf-toolbox-core",
@@ -3915,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "teOffset",
           "package": "pdf-toolbox-core",
@@ -3929,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead trailer for the xref\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "trailer",
           "package": "pdf-toolbox-core",
@@ -3939,6 +4264,7 @@
         "index": {
           "description": "Read trailer for the xref",
           "hierarchy": "Pdf Toolbox Core XRef",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core.XRef",
           "name": "trailer",
           "normalized": "RIS-\u003eXRef-\u003ePdfE a Dict",
@@ -3954,6 +4280,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow level tools for processing PDF file\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:33 UTC 2014",
           "module": "Pdf.Toolbox.Core",
           "name": "Core",
           "package": "pdf-toolbox-core",
@@ -3963,6 +4290,7 @@
         "index": {
           "description": "Low level tools for processing PDF file",
           "hierarchy": "Pdf Toolbox Core",
+          "indexed": "2014-03-11T19:36:33",
           "module": "Pdf.Toolbox.Core",
           "name": "Core",
           "package": "pdf-toolbox-core",

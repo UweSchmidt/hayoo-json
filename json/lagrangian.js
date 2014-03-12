@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lagrangian"
+        "phrase": "lagrangian",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumerically solve convex lagrange multiplier problems with conjugate gradient descent. \n\u003c/p\u003e\u003cp\u003eHere is an example from the Wikipedia page on Lagrange multipliers.\n  Maximize f(x, y) = x + y, subject to the constraint x^2 + y^2 = 1 \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emaximize 0.00001 (\\[x, y] -\u003e x + y) [(\\[x, y] -\u003e x^2 + y^2) \u003c=\u003e 1] 2\n\u003c/code\u003e\u003c/strong\u003eRight ([0.707,0.707], [-0.707])\n\u003c/pre\u003e\u003cp\u003eThe first elements of the result pair are the arguments for the objective function at the minimum. \n  The second elements are the lagrange multipliers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "Lagrangian",
           "package": "lagrangian",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Numerically solve convex lagrange multiplier problems with conjugate gradient descent Here is an example from the Wikipedia page on Lagrange multipliers Maximize subject to the constraint maximize Right The first elements of the result pair are the arguments for the objective function at the minimum The second elements are the lagrange multipliers",
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "Lagrangian",
           "package": "lagrangian",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "AD2",
           "package": "lagrangian",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "AD2",
           "package": "lagrangian",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constraint of the form \u003ccode\u003eg(x, y, ...) = c\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003e\u003c=\u003e\u003c/a\u003e\u003c/code\u003e for constructing a \u003ccode\u003e\u003ca\u003eConstraint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "Constraint",
           "package": "lagrangian",
@@ -72,6 +77,7 @@
         "index": {
           "description": "constraint of the form See for constructing Constraint",
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "Constraint",
           "package": "lagrangian",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper for working with the rank 2 types constraint functions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "FU",
           "package": "lagrangian",
@@ -95,6 +102,7 @@
         "index": {
           "description": "newtype wrapper for working with the rank types constraint functions",
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "FU",
           "package": "lagrangian",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a \u003ccode\u003e\u003ca\u003eConstraint\u003c/a\u003e\u003c/code\u003e from a function and a constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "(\u003c=\u003e)",
           "package": "lagrangian",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Build Constraint from function and constant",
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "(\u003c=\u003e) \u003c=\u003e",
           "normalized": "[AD a b c]-\u003eAD a b c)-\u003ec-\u003eConstraint c",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "FU",
           "package": "lagrangian",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "FU",
           "package": "lagrangian",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWARNING. Experimental.\n   This is not a true feasibility test for the function. I am not sure \n   exactly how to implement that. This just checks the feasiblility at a point.\n   If this ever returns false, \u003ccode\u003esolve\u003c/code\u003e can fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "feasible",
           "package": "lagrangian",
@@ -166,6 +179,7 @@
         "index": {
           "description": "WARNING Experimental This is not true feasibility test for the function am not sure exactly how to implement that This just checks the feasiblility at point If this ever returns false solve can fail",
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "feasible",
           "normalized": "[AD a b Double]-\u003eAD a b Double)-\u003e[Constraint Double]-\u003e[Double]-\u003eBool",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinding the maximum is the same as the minimum with the objective function inverted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "maximize",
           "package": "lagrangian",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Finding the maximum is the same as the minimum with the objective function inverted",
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "maximize",
           "normalized": "[AD a b Double]-\u003eAD a b Double)-\u003e[Constraint Double]-\u003eInt-\u003eEither(Result,Statistics)(Vector Double,Vector Double)",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the lagrangian multiplier solver. It is assumed that the \n   objective function and all of the constraints take in the \n   same amount of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "minimize",
           "package": "lagrangian",
@@ -214,6 +231,7 @@
         "index": {
           "description": "This is the lagrangian multiplier solver It is assumed that the objective function and all of the constraints take in the same amount of arguments",
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "minimize",
           "normalized": "[AD a b Double]-\u003eAD a b Double)-\u003e[Constraint Double]-\u003eInt-\u003eEither(Result,Statistics)(Vector Double,Vector Double)",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:54 UTC 2014",
           "module": "Numeric.AD.Lagrangian",
           "name": "unFU",
           "package": "lagrangian",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Numeric AD Lagrangian",
+          "indexed": "2014-03-11T19:03:54",
           "module": "Numeric.AD.Lagrangian",
           "name": "unFU",
           "normalized": "[AD a b c]-\u003eAD a b c",

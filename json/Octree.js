@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Octree"
+        "phrase": "Octree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "Octree",
           "package": "Octree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "Octree",
           "package": "Octree",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for nodes within Octree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "Octree",
           "package": "Octree",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Datatype for nodes within Octree",
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "Octree",
           "package": "Octree",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "Vector3",
           "package": "Octree",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "Vector3",
           "package": "Octree",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "Vector3",
           "package": "Octree",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "Vector3",
           "package": "Octree",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "depth",
           "package": "Octree",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "depth",
           "normalized": "Octree a-\u003eInt",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edistance between two vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "dist",
           "package": "Octree",
@@ -137,6 +148,7 @@
         "index": {
           "description": "distance between two vectors",
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "dist",
           "normalized": "Vector-\u003eVector-\u003eDouble",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an Octree from a list of (index, payload) tuples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "fromList",
           "package": "Octree",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Creates an Octree from list of index payload tuples",
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "fromList",
           "normalized": "[(Vector,a)]-\u003eOctree a",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a point into an Octree.\n | NOTE: insert accepts duplicate points, but lookup would not find them - use withinRange in such case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "insert",
           "package": "Octree",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Inserts point into an Octree NOTE insert accepts duplicate points but lookup would not find them use withinRange in such case",
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "insert",
           "normalized": "(Vector,a)-\u003eOctree a-\u003eOctree a",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds a given point, if it is in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "lookup",
           "package": "Octree",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Finds given point if it is in the tree",
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "lookup",
           "normalized": "Octree a-\u003eVector-\u003eMaybe(Vector,a)",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds nearest neighbour for a given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "nearest",
           "package": "Octree",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Finds nearest neighbour for given point",
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "nearest",
           "normalized": "Octree a-\u003eVector-\u003eMaybe(Vector,a)",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "size",
           "package": "Octree",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "size",
           "normalized": "Octree a-\u003eInt",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an Octree from list, trying to keep split points near centers\n | of mass for each subtree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "toList",
           "package": "Octree",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Creates an Octree from list trying to keep split points near centers of mass for each subtree",
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "toList",
           "normalized": "Octree a-\u003e[(Vector,a)]",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "v3x",
           "package": "Octree",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "v3x",
           "package": "Octree",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "v3y",
           "package": "Octree",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "v3y",
           "package": "Octree",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "v3z",
           "package": "Octree",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "v3z",
           "package": "Octree",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all points within Octree that are within a given distance from argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:05 UTC 2014",
           "module": "Data.Octree",
           "name": "withinRange",
           "package": "Octree",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Returns all points within Octree that are within given distance from argument",
           "hierarchy": "Data Octree",
+          "indexed": "2014-03-11T16:55:05",
           "module": "Data.Octree",
           "name": "withinRange",
           "normalized": "Octree a-\u003eScalar-\u003eVector-\u003e[(Vector,a)]",

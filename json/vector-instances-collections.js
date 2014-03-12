@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-instances-collections"
+        "phrase": "vector-instances-collections",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:27 UTC 2014",
           "module": "Data.Vector.Instances.Collections",
           "name": "Collections",
           "package": "vector-instances-collections",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Instances Collections",
+          "indexed": "2014-03-11T20:34:27",
           "module": "Data.Vector.Instances.Collections",
           "name": "Collections",
           "package": "vector-instances-collections",

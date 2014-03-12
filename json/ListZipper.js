@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ListZipper"
+        "phrase": "ListZipper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "Zipper",
           "package": "ListZipper",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "Zipper",
           "package": "ListZipper",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "Zipper",
           "package": "ListZipper",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "Zipper",
           "package": "ListZipper",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "Zip",
           "package": "ListZipper",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "Zip",
           "normalized": "Zip[a][a]",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebeginp z\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the zipper is at the start.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "beginp",
           "package": "ListZipper",
@@ -95,6 +102,7 @@
         "index": {
           "description": "beginp returns True if the zipper is at the start",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "beginp",
           "normalized": "Zipper a-\u003eBool",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecursor z\u003c/code\u003e returns the targeted element in \u003ccode\u003ez\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function is not total, but the invariant is that\n \u003ccode\u003eendp z == False\u003c/code\u003e means that you can safely call\n \u003ccode\u003ecursor z\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "cursor",
           "package": "ListZipper",
@@ -120,6 +129,7 @@
         "index": {
           "description": "cursor returns the targeted element in This function is not total but the invariant is that endp False means that you can safely call cursor",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "cursor",
           "normalized": "Zipper a-\u003ea",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edelete z\u003c/code\u003e removes the element at the cursor (if any).\n Safe to call on an empty zipper.\n forall x z. delete (insert x z) == z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "delete",
           "package": "ListZipper",
@@ -145,6 +156,7 @@
         "index": {
           "description": "delete removes the element at the cursor if any Safe to call on an empty zipper forall delete insert",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "delete",
           "normalized": "Zipper a-\u003eZipper a",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "duplicatez",
           "package": "ListZipper",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "duplicatez",
           "normalized": "Zipper a-\u003eZipper(Zipper a)",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eempty\u003c/code\u003e is an empty zipper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "empty",
           "package": "ListZipper",
@@ -193,6 +208,7 @@
         "index": {
           "description": "empty is an empty zipper",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "empty",
           "package": "ListZipper",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eemptyp z\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the zipper is completely empty.\n forall z. emptyp z == beginp z && endp z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "emptyp",
           "package": "ListZipper",
@@ -216,6 +233,7 @@
         "index": {
           "description": "emptyp returns True if the zipper is completely empty forall emptyp beginp endp",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "emptyp",
           "normalized": "Zipper a-\u003eBool",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "end",
           "package": "ListZipper",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "end",
           "normalized": "Zipper a-\u003eZipper a",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eendp z\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the zipper is at the end.\n It is not safe to call \u003ccode\u003ecursor\u003c/code\u003e on \u003ccode\u003ez\u003c/code\u003e if \u003ccode\u003eendp z\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "endp",
           "package": "ListZipper",
@@ -264,6 +285,7 @@
         "index": {
           "description": "endp returns True if the zipper is at the end It is not safe to call cursor on if endp returns True",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "endp",
           "normalized": "Zipper a-\u003eBool",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "extendz",
           "package": "ListZipper",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "extendz",
           "normalized": "(Zipper a-\u003eb)-\u003eZipper a-\u003eZipper b",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eextractz\u003c/code\u003e, \u003ccode\u003eextendz\u003c/code\u003e, and \u003ccode\u003eduplicatez\u003c/code\u003e can be used to\n implement Copointed and Comonad from category-extras.  I didn't\n add the instances here so as not to introduce a dependency\n on that package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "extractz",
           "package": "ListZipper",
@@ -312,6 +337,7 @@
         "index": {
           "description": "extractz extendz and duplicatez can be used to implement Copointed and Comonad from category-extras didn add the instances here so as not to introduce dependency on that package",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "extractz",
           "normalized": "Zipper a-\u003ea",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoldlz f x zip\u003c/code\u003e calls f with the zipper focused on\n each element in order, starting with the current.\n You are guaranteed that f can safely call \u003ca\u003ecursor\u003c/a\u003e on\n its argument; the zipper won't be at the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "foldlz",
           "package": "ListZipper",
@@ -337,6 +364,7 @@
         "index": {
           "description": "foldlz zip calls with the zipper focused on each element in order starting with the current You are guaranteed that can safely call cursor on its argument the zipper won be at the end",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "foldlz",
           "normalized": "(a-\u003eZipper b-\u003ea)-\u003ea-\u003eZipper b-\u003ea",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoldlz'\u003c/code\u003e is foldlz with a strict accumulator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "foldlz'",
           "package": "ListZipper",
@@ -362,6 +391,7 @@
         "index": {
           "description": "foldlz is foldlz with strict accumulator",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "foldlz'",
           "normalized": "(a-\u003eZipper b-\u003ea)-\u003ea-\u003eZipper b-\u003ea",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoldrz f x zip\u003c/code\u003e calls \u003ccode\u003ef\u003c/code\u003e with the zipper focused on\n each element in order, starting with the current.\n You are guaranteed that f can safely call \u003ca\u003ecursor\u003c/a\u003e on\n its argument; the zipper won't be at the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "foldrz",
           "package": "ListZipper",
@@ -387,6 +418,7 @@
         "index": {
           "description": "foldrz zip calls with the zipper focused on each element in order starting with the current You are guaranteed that can safely call cursor on its argument the zipper won be at the end",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "foldrz",
           "normalized": "(Zipper a-\u003eb-\u003eb)-\u003eb-\u003eZipper a-\u003eb",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromList xs\u003c/code\u003e returns a zipper containing the elements of xs,\n focused on the first element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "fromList",
           "package": "ListZipper",
@@ -412,6 +445,7 @@
         "index": {
           "description": "fromList xs returns zipper containing the elements of xs focused on the first element",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "fromList",
           "normalized": "[a]-\u003eZipper a",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromListEnd xs\u003c/code\u003e returns a zipper containing the elements of xs,\n focused just off the right end of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "fromListEnd",
           "package": "ListZipper",
@@ -438,6 +473,7 @@
         "index": {
           "description": "fromListEnd xs returns zipper containing the elements of xs focused just off the right end of the list",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "fromListEnd",
           "normalized": "[a]-\u003eZipper a",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einsert x z\u003c/code\u003e adds x at the cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "insert",
           "package": "ListZipper",
@@ -464,6 +501,7 @@
         "index": {
           "description": "insert adds at the cursor",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "insert",
           "normalized": "a-\u003eZipper a-\u003eZipper a",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eleft z\u003c/code\u003e returns the zipper with the focus\n shifted left one element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "left",
           "package": "ListZipper",
@@ -489,6 +528,7 @@
         "index": {
           "description": "left returns the zipper with the focus shifted left one element",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "left",
           "normalized": "Zipper a-\u003eZipper a",
@@ -504,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epop z\u003c/code\u003e removes the element before the cursor (if any).\n Safe to call on an empty zipper.\n forall x z. pop (push x z) == z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "pop",
           "package": "ListZipper",
@@ -514,6 +555,7 @@
         "index": {
           "description": "pop removes the element before the cursor if any Safe to call on an empty zipper forall pop push",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "pop",
           "normalized": "Zipper a-\u003eZipper a",
@@ -529,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epush x z\u003c/code\u003e inserts x into the zipper, and advances\n the cursor past it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "push",
           "package": "ListZipper",
@@ -539,6 +582,7 @@
         "index": {
           "description": "push inserts into the zipper and advances the cursor past it",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "push",
           "normalized": "a-\u003eZipper a-\u003eZipper a",
@@ -554,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereplace a z\u003c/code\u003e changes the current element in the zipper\n to the passed in value.  If there is no current element,\n the zipper is unchanged.  If you want to add the element\n in that case instead, use \u003ccode\u003einsert a (delete z)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "replace",
           "package": "ListZipper",
@@ -564,6 +609,7 @@
         "index": {
           "description": "replace changes the current element in the zipper to the passed in value If there is no current element the zipper is unchanged If you want to add the element in that case instead use insert delete",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "replace",
           "normalized": "a-\u003eZipper a-\u003eZipper a",
@@ -579,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereversez z\u003c/code\u003e returns the zipper with the elements in\n the reverse order.  O(1).  The cursor is moved to the\n previous element, so if the cursor was at the start,\n it's now off the right end, and if it was off the\n right end, it's now at the start of the reversed list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "reversez",
           "package": "ListZipper",
@@ -589,6 +636,7 @@
         "index": {
           "description": "reversez returns the zipper with the elements in the reverse order The cursor is moved to the previous element so if the cursor was at the start it now off the right end and if it was off the right end it now at the start of the reversed list",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "reversez",
           "normalized": "Zipper a-\u003eZipper a",
@@ -604,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eright z\u003c/code\u003e returns the zipper with the focus\n shifted right one element; this can move the\n cursor off the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "right",
           "package": "ListZipper",
@@ -614,6 +663,7 @@
         "index": {
           "description": "right returns the zipper with the focus shifted right one element this can move the cursor off the end",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "right",
           "normalized": "Zipper a-\u003eZipper a",
@@ -629,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esafeCursor\u003c/code\u003e is like \u003ccode\u003ecursor\u003c/code\u003e but total.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "safeCursor",
           "package": "ListZipper",
@@ -639,6 +690,7 @@
         "index": {
           "description": "safeCursor is like cursor but total",
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "safeCursor",
           "normalized": "Zipper a-\u003eMaybe a",
@@ -654,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "start",
           "package": "ListZipper",
@@ -663,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "start",
           "normalized": "Zipper a-\u003eZipper a",
@@ -677,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:54 UTC 2014",
           "module": "Data.List.Zipper",
           "name": "toList",
           "package": "ListZipper",
@@ -686,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Data List Zipper",
+          "indexed": "2014-03-11T16:51:54",
           "module": "Data.List.Zipper",
           "name": "toList",
           "normalized": "Zipper a-\u003e[a]",

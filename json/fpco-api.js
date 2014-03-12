@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fpco-api"
+        "phrase": "fpco-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert a Haskell value to a (JSON representation of a) Fay value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Convert",
           "name": "Convert",
           "package": "fpco-api",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convert Haskell value to JSON representation of Fay value",
           "hierarchy": "FP API Convert",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Convert",
           "name": "Convert",
           "package": "fpco-api",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value representing a Fay value to a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Convert",
           "name": "readFromFay'",
           "package": "fpco-api",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Convert value representing Fay value to Haskell value",
           "hierarchy": "FP API Convert",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Convert",
           "name": "readFromFay'",
           "normalized": "Value-\u003eMaybe a",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell value to a value representing a Fay value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Convert",
           "name": "showToFay'",
           "package": "fpco-api",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Convert Haskell value to value representing Fay value",
           "hierarchy": "FP API Convert",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Convert",
           "name": "showToFay'",
           "normalized": "a-\u003eMaybe Value",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunction for running arbitrary IDE API commands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "Run",
           "package": "fpco-api",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Function for running arbitrary IDE API commands",
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "Run",
           "package": "fpco-api",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple command configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "ClientConfig",
           "package": "fpco-api",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Simple command configuration",
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "ClientConfig",
           "package": "fpco-api",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly used internally for encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "Command",
           "package": "fpco-api",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Only used internally for encoding",
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "Command",
           "package": "fpco-api",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "CommandException",
           "package": "fpco-api",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "CommandException",
           "package": "fpco-api",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad that can get info for sending commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "MonadClient",
           "package": "fpco-api",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Monad that can get info for sending commands",
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "MonadClient",
           "package": "fpco-api",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "CC",
           "package": "fpco-api",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "CC",
           "package": "fpco-api",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "CommandException",
           "package": "fpco-api",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "CommandException",
           "package": "fpco-api",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "IdeCommand",
           "package": "fpco-api",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "IdeCommand",
           "package": "fpco-api",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "ccCookie",
           "package": "fpco-api",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "ccCookie",
           "package": "fpco-api",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "ccManager",
           "package": "fpco-api",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "ccManager",
           "package": "fpco-api",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "ccToken",
           "package": "fpco-api",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "ccToken",
           "package": "fpco-api",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "ccUrl",
           "package": "fpco-api",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "ccUrl",
           "package": "fpco-api",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "ccUserAgent",
           "package": "fpco-api",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "ccUserAgent",
           "package": "fpco-api",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "getClientConfig",
           "package": "fpco-api",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "getClientConfig",
           "package": "fpco-api",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Run",
           "name": "runCommand",
           "package": "fpco-api",
@@ -415,6 +450,7 @@
         "index": {
           "description": "Run the given command",
           "hierarchy": "FP API Run",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Run",
           "name": "runCommand",
           "normalized": "(Returns' a-\u003eIdeCommand)-\u003eb a",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Types",
           "package": "fpco-api",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Types",
           "package": "fpco-api",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "AutoCompleteInput",
           "package": "fpco-api",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "AutoCompleteInput",
           "package": "fpco-api",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA background job stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BgJob",
           "package": "fpco-api",
@@ -482,6 +523,7 @@
         "index": {
           "description": "background job stanza",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BgJob",
           "package": "fpco-api",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BranchesList",
           "package": "fpco-api",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BranchesList",
           "package": "fpco-api",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BuildId",
           "package": "fpco-api",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BuildId",
           "package": "fpco-api",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BuildResult",
           "package": "fpco-api",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BuildResult",
           "package": "fpco-api",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CanFail",
           "package": "fpco-api",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CanFail",
           "package": "fpco-api",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CompileChanged",
           "package": "fpco-api",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CompileChanged",
           "package": "fpco-api",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CompileId",
           "package": "fpco-api",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CompileId",
           "package": "fpco-api",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DefinitionSource",
           "package": "fpco-api",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DefinitionSource",
           "package": "fpco-api",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA deployment configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Deployment",
           "package": "fpco-api",
@@ -652,6 +709,7 @@
         "index": {
           "description": "deployment configuration",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Deployment",
           "package": "fpco-api",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DeploymentManagerInfo",
           "package": "fpco-api",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DeploymentManagerInfo",
           "package": "fpco-api",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "EitherSpan",
           "package": "fpco-api",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "EitherSpan",
           "package": "fpco-api",
@@ -708,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GHC environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Environment",
           "package": "fpco-api",
@@ -717,6 +780,7 @@
         "index": {
           "description": "GHC environment",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Environment",
           "package": "fpco-api",
@@ -731,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA date of expiration, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ExpiryTime",
           "package": "fpco-api",
@@ -740,6 +805,7 @@
         "index": {
           "description": "date of expiration if any",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ExpiryTime",
           "package": "fpco-api",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayBgJobId",
           "package": "fpco-api",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayBgJobId",
           "package": "fpco-api",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayDeploymentId",
           "package": "fpco-api",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayDeploymentId",
           "package": "fpco-api",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayFileName",
           "package": "fpco-api",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayFileName",
           "package": "fpco-api",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayManualMergeId",
           "package": "fpco-api",
@@ -824,6 +897,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayManualMergeId",
           "package": "fpco-api",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayModuleId",
           "package": "fpco-api",
@@ -845,6 +920,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayModuleId",
           "package": "fpco-api",
@@ -858,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayModuleName",
           "package": "fpco-api",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayModuleName",
           "package": "fpco-api",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayProjectId",
           "package": "fpco-api",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayProjectId",
           "package": "fpco-api",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayRunConfigId",
           "package": "fpco-api",
@@ -908,6 +989,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayRunConfigId",
           "package": "fpco-api",
@@ -922,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA token for the tutorial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayTutorialToken",
           "package": "fpco-api",
@@ -931,6 +1014,7 @@
         "index": {
           "description": "token for the tutorial",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayTutorialToken",
           "package": "fpco-api",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayWebAppId",
           "package": "fpco-api",
@@ -952,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayWebAppId",
           "package": "fpco-api",
@@ -965,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FileChanged",
           "package": "fpco-api",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FileChanged",
           "package": "fpco-api",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FileContent",
           "package": "fpco-api",
@@ -994,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FileContent",
           "package": "fpco-api",
@@ -1007,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FileInfo",
           "package": "fpco-api",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FileInfo",
           "package": "fpco-api",
@@ -1028,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetSettingsOutput",
           "package": "fpco-api",
@@ -1036,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetSettingsOutput",
           "package": "fpco-api",
@@ -1050,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of checking out a branch (or ref, in future).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitCheckoutResult",
           "package": "fpco-api",
@@ -1059,6 +1154,7 @@
         "index": {
           "description": "Result of checking out branch or ref in future",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitCheckoutResult",
           "package": "fpco-api",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitHistory",
           "package": "fpco-api",
@@ -1080,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitHistory",
           "package": "fpco-api",
@@ -1093,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitHistoryItem",
           "package": "fpco-api",
@@ -1101,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitHistoryItem",
           "package": "fpco-api",
@@ -1114,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitMergeConflictsResult",
           "package": "fpco-api",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitMergeConflictsResult",
           "package": "fpco-api",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitPullResult",
           "package": "fpco-api",
@@ -1143,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitPullResult",
           "package": "fpco-api",
@@ -1156,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitResolvedResult",
           "package": "fpco-api",
@@ -1164,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitResolvedResult",
           "package": "fpco-api",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HoogleId",
           "package": "fpco-api",
@@ -1185,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HoogleId",
           "package": "fpco-api",
@@ -1198,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HoogleResult",
           "package": "fpco-api",
@@ -1206,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HoogleResult",
           "package": "fpco-api",
@@ -1220,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn html reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HtmlReply",
           "package": "fpco-api",
@@ -1229,6 +1340,7 @@
         "index": {
           "description": "An html reply",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HtmlReply",
           "package": "fpco-api",
@@ -1242,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IdInfo",
           "package": "fpco-api",
@@ -1250,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IdInfo",
           "package": "fpco-api",
@@ -1263,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IdeCommand",
           "package": "fpco-api",
@@ -1271,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IdeCommand",
           "package": "fpco-api",
@@ -1284,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IdeLicense",
           "package": "fpco-api",
@@ -1292,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IdeLicense",
           "package": "fpco-api",
@@ -1306,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues passed to the client when initially loading the IDE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "InitialProjectInfo",
           "package": "fpco-api",
@@ -1315,6 +1434,7 @@
         "index": {
           "description": "Values passed to the client when initially loading the IDE",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "InitialProjectInfo",
           "package": "fpco-api",
@@ -1329,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a target that we're running a web service? We're not sure that\n it's not, but if the port is open, we're confident that it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IsWebResult",
           "package": "fpco-api",
@@ -1338,6 +1459,7 @@
         "index": {
           "description": "Is target that we re running web service We re not sure that it not but if the port is open we re confident that it is",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IsWebResult",
           "package": "fpco-api",
@@ -1352,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYaml text for a Keter config.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "KeterYaml",
           "package": "fpco-api",
@@ -1361,6 +1484,7 @@
         "index": {
           "description": "Yaml text for Keter config",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "KeterYaml",
           "package": "fpco-api",
@@ -1374,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LaunchInfoSnapshot",
           "package": "fpco-api",
@@ -1382,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LaunchInfoSnapshot",
           "package": "fpco-api",
@@ -1395,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LogLevel",
           "package": "fpco-api",
@@ -1403,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LogLevel",
           "package": "fpco-api",
@@ -1416,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MaybeStartToken",
           "package": "fpco-api",
@@ -1424,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MaybeStartToken",
           "package": "fpco-api",
@@ -1437,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MaybeText",
           "package": "fpco-api",
@@ -1445,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MaybeText",
           "package": "fpco-api",
@@ -1458,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MergeConflict",
           "package": "fpco-api",
@@ -1466,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MergeConflict",
           "package": "fpco-api",
@@ -1479,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MergeModifyKind",
           "package": "fpco-api",
@@ -1487,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MergeModifyKind",
           "package": "fpco-api",
@@ -1500,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MergeModifyPair",
           "package": "fpco-api",
@@ -1508,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MergeModifyPair",
           "package": "fpco-api",
@@ -1521,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MessageTag",
           "package": "fpco-api",
@@ -1529,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MessageTag",
           "package": "fpco-api",
@@ -1542,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleIncluded",
           "package": "fpco-api",
@@ -1550,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleIncluded",
           "package": "fpco-api",
@@ -1563,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleLink",
           "package": "fpco-api",
@@ -1571,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleLink",
           "package": "fpco-api",
@@ -1585,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new background job.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NewBgJob",
           "package": "fpco-api",
@@ -1594,6 +1739,7 @@
         "index": {
           "description": "Make new background job",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NewBgJob",
           "package": "fpco-api",
@@ -1607,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NewDeployment",
           "package": "fpco-api",
@@ -1615,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NewDeployment",
           "package": "fpco-api",
@@ -1629,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new run configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NewRunConfig",
           "package": "fpco-api",
@@ -1638,6 +1787,7 @@
         "index": {
           "description": "Make new run configuration",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NewRunConfig",
           "package": "fpco-api",
@@ -1651,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NewWebApp",
           "package": "fpco-api",
@@ -1659,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NewWebApp",
           "package": "fpco-api",
@@ -1672,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PackageId",
           "package": "fpco-api",
@@ -1680,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PackageId",
           "package": "fpco-api",
@@ -1693,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PackageLink",
           "package": "fpco-api",
@@ -1701,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PackageLink",
           "package": "fpco-api",
@@ -1714,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PortListeningResult",
           "package": "fpco-api",
@@ -1722,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PortListeningResult",
           "package": "fpco-api",
@@ -1735,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProcId",
           "package": "fpco-api",
@@ -1743,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProcId",
           "package": "fpco-api",
@@ -1756,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProcessStatusSnapshot",
           "package": "fpco-api",
@@ -1764,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProcessStatusSnapshot",
           "package": "fpco-api",
@@ -1778,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents intermediate progress information during compilation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Progress",
           "package": "fpco-api",
@@ -1787,6 +1950,7 @@
         "index": {
           "description": "This type represents intermediate progress information during compilation",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Progress",
           "package": "fpco-api",
@@ -1800,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectMessagesFilter",
           "package": "fpco-api",
@@ -1808,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectMessagesFilter",
           "package": "fpco-api",
@@ -1821,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectMessagesOutput",
           "package": "fpco-api",
@@ -1829,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectMessagesOutput",
           "package": "fpco-api",
@@ -1842,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectMessagesRequest",
           "package": "fpco-api",
@@ -1850,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectMessagesRequest",
           "package": "fpco-api",
@@ -1864,6 +2034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the state of a starting project. Each request can either\n indicate that there is more data coming, or that this is the final status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectStartStatus",
           "package": "fpco-api",
@@ -1873,6 +2044,7 @@
         "index": {
           "description": "Indicates the state of starting project Each request can either indicate that there is more data coming or that this is the final status",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectStartStatus",
           "package": "fpco-api",
@@ -1886,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectState",
           "package": "fpco-api",
@@ -1894,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectState",
           "package": "fpco-api",
@@ -1907,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectStatusSnapshot",
           "package": "fpco-api",
@@ -1915,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectStatusSnapshot",
           "package": "fpco-api",
@@ -1928,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Publicize",
           "package": "fpco-api",
@@ -1936,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Publicize",
           "package": "fpco-api",
@@ -1950,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA randomly generated host name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RandomHostName",
           "package": "fpco-api",
@@ -1959,6 +2138,7 @@
         "index": {
           "description": "randomly generated host name",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RandomHostName",
           "package": "fpco-api",
@@ -1972,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RemotesList",
           "package": "fpco-api",
@@ -1980,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RemotesList",
           "package": "fpco-api",
@@ -1993,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenameFileOutput",
           "package": "fpco-api",
@@ -2001,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenameFileOutput",
           "package": "fpco-api",
@@ -2014,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenameType",
           "package": "fpco-api",
@@ -2022,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenameType",
           "package": "fpco-api",
@@ -2035,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ReparseSettingsOutput",
           "package": "fpco-api",
@@ -2043,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ReparseSettingsOutput",
           "package": "fpco-api",
@@ -2056,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Returns'",
           "package": "fpco-api",
@@ -2064,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Returns'",
           "package": "fpco-api",
@@ -2078,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA run configuration for a project.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunConfig",
           "package": "fpco-api",
@@ -2087,6 +2278,7 @@
         "index": {
           "description": "run configuration for project",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunConfig",
           "package": "fpco-api",
@@ -2100,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunGhciOutput",
           "package": "fpco-api",
@@ -2108,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunGhciOutput",
           "package": "fpco-api",
@@ -2121,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerBuildStatus",
           "package": "fpco-api",
@@ -2129,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerBuildStatus",
           "package": "fpco-api",
@@ -2142,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerCompileStatus",
           "package": "fpco-api",
@@ -2150,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerCompileStatus",
           "package": "fpco-api",
@@ -2163,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerMessage",
           "package": "fpco-api",
@@ -2171,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerMessage",
           "package": "fpco-api",
@@ -2184,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerMessageEnvelope",
           "package": "fpco-api",
@@ -2192,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerMessageEnvelope",
           "package": "fpco-api",
@@ -2205,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerOpeningStatus",
           "package": "fpco-api",
@@ -2213,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerOpeningStatus",
           "package": "fpco-api",
@@ -2226,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SaveFileOutput",
           "package": "fpco-api",
@@ -2234,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SaveFileOutput",
           "package": "fpco-api",
@@ -2247,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchId",
           "package": "fpco-api",
@@ -2255,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchId",
           "package": "fpco-api",
@@ -2268,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchQuery",
           "package": "fpco-api",
@@ -2276,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchQuery",
           "package": "fpco-api",
@@ -2289,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchResult",
           "package": "fpco-api",
@@ -2297,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchResult",
           "package": "fpco-api",
@@ -2310,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetExtension",
           "package": "fpco-api",
@@ -2318,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetExtension",
           "package": "fpco-api",
@@ -2331,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetSettingsInput",
           "package": "fpco-api",
@@ -2339,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetSettingsInput",
           "package": "fpco-api",
@@ -2353,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error or warning in a source module.\n\u003c/p\u003e\u003cp\u003eMost errors are associated with a span of text, but some have only a\n location point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SourceInfo",
           "package": "fpco-api",
@@ -2362,6 +2579,7 @@
         "index": {
           "description": "An error or warning in source module Most errors are associated with span of text but some have only location point",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SourceInfo",
           "package": "fpco-api",
@@ -2376,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeverity of a piece of info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SourceInfoKind",
           "package": "fpco-api",
@@ -2385,6 +2604,7 @@
         "index": {
           "description": "Severity of piece of info",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SourceInfoKind",
           "package": "fpco-api",
@@ -2398,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SourceSpan",
           "package": "fpco-api",
@@ -2406,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SourceSpan",
           "package": "fpco-api",
@@ -2420,6 +2642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible stanza types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Stanza",
           "package": "fpco-api",
@@ -2429,6 +2652,7 @@
         "index": {
           "description": "Possible stanza types",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Stanza",
           "package": "fpco-api",
@@ -2442,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "StatusHash",
           "package": "fpco-api",
@@ -2450,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "StatusHash",
           "package": "fpco-api",
@@ -2464,6 +2690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple text reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TextReply",
           "package": "fpco-api",
@@ -2473,6 +2700,7 @@
         "index": {
           "description": "simple text reply",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TextReply",
           "package": "fpco-api",
@@ -2487,6 +2715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThemes supported by the IDE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Theme",
           "package": "fpco-api",
@@ -2496,6 +2725,7 @@
         "index": {
           "description": "Themes supported by the IDE",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Theme",
           "package": "fpco-api",
@@ -2509,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TopLevelIdentifier",
           "package": "fpco-api",
@@ -2517,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TopLevelIdentifier",
           "package": "fpco-api",
@@ -2530,6 +2762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TopLevelIdentifiers",
           "package": "fpco-api",
@@ -2538,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TopLevelIdentifiers",
           "package": "fpco-api",
@@ -2552,6 +2786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken for a tutorial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TutorialConcurrentToken",
           "package": "fpco-api",
@@ -2561,6 +2796,7 @@
         "index": {
           "description": "Token for tutorial",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TutorialConcurrentToken",
           "package": "fpco-api",
@@ -2574,6 +2810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TypeInfo",
           "package": "fpco-api",
@@ -2582,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TypeInfo",
           "package": "fpco-api",
@@ -2595,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "UploadedBuild",
           "package": "fpco-api",
@@ -2603,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "UploadedBuild",
           "package": "fpco-api",
@@ -2617,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of trying to use a hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "UseHostName",
           "package": "fpco-api",
@@ -2626,6 +2867,7 @@
         "index": {
           "description": "Result of trying to use hostname",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "UseHostName",
           "package": "fpco-api",
@@ -2640,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA web app stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "WebApp",
           "package": "fpco-api",
@@ -2649,6 +2892,7 @@
         "index": {
           "description": "web app stanza",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "WebApp",
           "package": "fpco-api",
@@ -2662,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "AddFile",
           "package": "fpco-api",
@@ -2671,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "AddFile",
           "package": "fpco-api",
@@ -2684,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Added",
           "package": "fpco-api",
@@ -2693,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Added",
           "package": "fpco-api",
@@ -2706,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "AutoCompleteInput",
           "package": "fpco-api",
@@ -2715,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "AutoCompleteInput",
           "package": "fpco-api",
@@ -2728,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "AutoCompleteResults",
           "package": "fpco-api",
@@ -2737,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "AutoCompleteResults",
           "normalized": "AutoCompleteResults(Maybe AutoCompleteInput)[Text]",
@@ -2752,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BgJob",
           "package": "fpco-api",
@@ -2761,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BgJob",
           "package": "fpco-api",
@@ -2774,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BgJobStanza",
           "package": "fpco-api",
@@ -2783,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BgJobStanza",
           "package": "fpco-api",
@@ -2796,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BranchFromCommit",
           "package": "fpco-api",
@@ -2805,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BranchFromCommit",
           "normalized": "BranchFromCommit Text Text FayProjectId(Returns'())",
@@ -2820,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BranchesList",
           "package": "fpco-api",
@@ -2829,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BranchesList",
           "normalized": "BranchesList Text[Text]",
@@ -2844,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BuildId",
           "package": "fpco-api",
@@ -2853,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BuildId",
           "package": "fpco-api",
@@ -2866,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "BuildResult",
           "package": "fpco-api",
@@ -2875,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "BuildResult",
           "package": "fpco-api",
@@ -2888,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CheckHostName",
           "package": "fpco-api",
@@ -2897,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CheckHostName",
           "package": "fpco-api",
@@ -2910,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CheckoutBranch",
           "package": "fpco-api",
@@ -2919,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CheckoutBranch",
           "package": "fpco-api",
@@ -2932,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CloseAllProjects",
           "package": "fpco-api",
@@ -2941,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CloseAllProjects",
           "normalized": "CloseAllProjects(Returns'())",
@@ -2956,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CommitToGit",
           "package": "fpco-api",
@@ -2965,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CommitToGit",
           "normalized": "CommitToGit Text FayProjectId(Returns'())",
@@ -2980,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CompileBinary",
           "package": "fpco-api",
@@ -2989,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CompileBinary",
           "normalized": "CompileBinary FayFileName[(Text,Text)]FayProjectId(Returns' BuildId)",
@@ -3004,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CompileChanged",
           "package": "fpco-api",
@@ -3013,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CompileChanged",
           "package": "fpco-api",
@@ -3026,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CompileId",
           "package": "fpco-api",
@@ -3035,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CompileId",
           "package": "fpco-api",
@@ -3048,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "CreateBranch",
           "package": "fpco-api",
@@ -3057,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "CreateBranch",
           "normalized": "CreateBranch Text Text FayProjectId(Returns'())",
@@ -3072,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DefinitionBinder",
           "package": "fpco-api",
@@ -3081,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DefinitionBinder",
           "package": "fpco-api",
@@ -3094,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DefinitionImported",
           "package": "fpco-api",
@@ -3103,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DefinitionImported",
           "package": "fpco-api",
@@ -3116,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DefinitionLocal",
           "package": "fpco-api",
@@ -3125,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DefinitionLocal",
           "package": "fpco-api",
@@ -3138,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DefinitionTextSpan",
           "package": "fpco-api",
@@ -3147,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DefinitionTextSpan",
           "package": "fpco-api",
@@ -3160,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DefinitionWiredIn",
           "package": "fpco-api",
@@ -3169,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DefinitionWiredIn",
           "package": "fpco-api",
@@ -3182,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DeleteBranch",
           "package": "fpco-api",
@@ -3191,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DeleteBranch",
           "normalized": "DeleteBranch Text FayProjectId(Returns'())",
@@ -3206,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DeleteFile",
           "package": "fpco-api",
@@ -3215,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DeleteFile",
           "package": "fpco-api",
@@ -3228,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DeleteProject",
           "package": "fpco-api",
@@ -3237,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DeleteProject",
           "normalized": "DeleteProject Text FayProjectId(Returns'())",
@@ -3252,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Deleted",
           "package": "fpco-api",
@@ -3261,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Deleted",
           "package": "fpco-api",
@@ -3274,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Deployment",
           "package": "fpco-api",
@@ -3283,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Deployment",
           "package": "fpco-api",
@@ -3296,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "DeploymentManagerInfo",
           "package": "fpco-api",
@@ -3305,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "DeploymentManagerInfo",
           "package": "fpco-api",
@@ -3318,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Environment",
           "package": "fpco-api",
@@ -3327,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Environment",
           "package": "fpco-api",
@@ -3340,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ExpiryTime",
           "package": "fpco-api",
@@ -3349,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ExpiryTime",
           "package": "fpco-api",
@@ -3362,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Failure",
           "package": "fpco-api",
@@ -3371,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Failure",
           "package": "fpco-api",
@@ -3384,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayBgJobId",
           "package": "fpco-api",
@@ -3393,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayBgJobId",
           "package": "fpco-api",
@@ -3406,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayCompileResults",
           "package": "fpco-api",
@@ -3415,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayCompileResults",
           "package": "fpco-api",
@@ -3428,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayDeploymentId",
           "package": "fpco-api",
@@ -3437,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayDeploymentId",
           "package": "fpco-api",
@@ -3450,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayFileName",
           "package": "fpco-api",
@@ -3459,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayFileName",
           "package": "fpco-api",
@@ -3472,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayManualMergeId",
           "package": "fpco-api",
@@ -3481,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayManualMergeId",
           "package": "fpco-api",
@@ -3494,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayModuleId",
           "package": "fpco-api",
@@ -3503,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayModuleId",
           "package": "fpco-api",
@@ -3516,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayModuleName",
           "package": "fpco-api",
@@ -3525,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayModuleName",
           "package": "fpco-api",
@@ -3538,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayProjectId",
           "package": "fpco-api",
@@ -3547,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayProjectId",
           "package": "fpco-api",
@@ -3560,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayRunConfigId",
           "package": "fpco-api",
@@ -3569,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayRunConfigId",
           "package": "fpco-api",
@@ -3582,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FayWebAppId",
           "package": "fpco-api",
@@ -3591,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FayWebAppId",
           "package": "fpco-api",
@@ -3604,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FileChanged",
           "package": "fpco-api",
@@ -3613,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FileChanged",
           "package": "fpco-api",
@@ -3626,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FileContent",
           "package": "fpco-api",
@@ -3635,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FileContent",
           "package": "fpco-api",
@@ -3648,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "FileInfo",
           "package": "fpco-api",
@@ -3657,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "FileInfo",
           "package": "fpco-api",
@@ -3670,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GCRDirty",
           "package": "fpco-api",
@@ -3679,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GCRDirty",
           "package": "fpco-api",
@@ -3692,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GCROk",
           "package": "fpco-api",
@@ -3701,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GCROk",
           "package": "fpco-api",
@@ -3714,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GPRDirtyTree",
           "package": "fpco-api",
@@ -3723,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GPRDirtyTree",
           "package": "fpco-api",
@@ -3736,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GPRManualMerge",
           "package": "fpco-api",
@@ -3745,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GPRManualMerge",
           "package": "fpco-api",
@@ -3758,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GPRSuccess",
           "package": "fpco-api",
@@ -3767,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GPRSuccess",
           "package": "fpco-api",
@@ -3780,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GRRStillUnresolved",
           "package": "fpco-api",
@@ -3789,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GRRStillUnresolved",
           "normalized": "GRRStillUnresolved[MergeConflict]",
@@ -3804,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GRRSuccess",
           "package": "fpco-api",
@@ -3813,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GRRSuccess",
           "package": "fpco-api",
@@ -3826,6 +4174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GenerateConfiguration",
           "package": "fpco-api",
@@ -3835,6 +4184,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GenerateConfiguration",
           "normalized": "GenerateConfiguration(Returns'())",
@@ -3850,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetAllFiles",
           "package": "fpco-api",
@@ -3859,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetAllFiles",
           "normalized": "GetAllFiles FayProjectId(Returns'[(FayFileName,ModuleIncluded)])",
@@ -3874,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetAutocompletions",
           "package": "fpco-api",
@@ -3883,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetAutocompletions",
           "normalized": "GetAutocompletions AutoCompleteInput FayProjectId(Returns'())",
@@ -3898,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetConfigurationProject",
           "package": "fpco-api",
@@ -3907,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetConfigurationProject",
           "package": "fpco-api",
@@ -3920,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetDefinitionSource",
           "package": "fpco-api",
@@ -3929,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetDefinitionSource",
           "normalized": "GetDefinitionSource SourceSpan FayProjectId(Returns'())",
@@ -3944,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetDeploymentManagerInfo",
           "package": "fpco-api",
@@ -3953,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetDeploymentManagerInfo",
           "package": "fpco-api",
@@ -3966,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetFile",
           "package": "fpco-api",
@@ -3975,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetFile",
           "package": "fpco-api",
@@ -3988,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetFileToken",
           "package": "fpco-api",
@@ -3997,6 +4360,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetFileToken",
           "package": "fpco-api",
@@ -4010,6 +4374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetGitHistory",
           "package": "fpco-api",
@@ -4019,6 +4384,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetGitHistory",
           "package": "fpco-api",
@@ -4032,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetGithubUrl",
           "package": "fpco-api",
@@ -4041,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetGithubUrl",
           "package": "fpco-api",
@@ -4054,6 +4422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetInitialProjectInfo",
           "package": "fpco-api",
@@ -4063,6 +4432,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetInitialProjectInfo",
           "package": "fpco-api",
@@ -4076,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetKeterYaml",
           "package": "fpco-api",
@@ -4085,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetKeterYaml",
           "package": "fpco-api",
@@ -4098,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetNewBgJob",
           "package": "fpco-api",
@@ -4107,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetNewBgJob",
           "package": "fpco-api",
@@ -4120,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetNewDeployment",
           "package": "fpco-api",
@@ -4129,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetNewDeployment",
           "package": "fpco-api",
@@ -4142,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetNewRunConfig",
           "package": "fpco-api",
@@ -4151,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetNewRunConfig",
           "package": "fpco-api",
@@ -4164,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetNewWebApp",
           "package": "fpco-api",
@@ -4173,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetNewWebApp",
           "package": "fpco-api",
@@ -4186,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetProjectId",
           "package": "fpco-api",
@@ -4195,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetProjectId",
           "package": "fpco-api",
@@ -4208,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetProjectMessages",
           "package": "fpco-api",
@@ -4217,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetProjectMessages",
           "package": "fpco-api",
@@ -4230,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetRandomHostName",
           "package": "fpco-api",
@@ -4239,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetRandomHostName",
           "package": "fpco-api",
@@ -4252,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetSettings",
           "package": "fpco-api",
@@ -4261,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetSettings",
           "package": "fpco-api",
@@ -4274,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetSettingsOutput",
           "package": "fpco-api",
@@ -4283,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetSettingsOutput",
           "package": "fpco-api",
@@ -4296,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetTarget",
           "package": "fpco-api",
@@ -4305,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetTarget",
           "package": "fpco-api",
@@ -4318,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetTrialExpiry",
           "package": "fpco-api",
@@ -4327,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetTrialExpiry",
           "package": "fpco-api",
@@ -4340,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GetTypeInfo",
           "package": "fpco-api",
@@ -4349,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GetTypeInfo",
           "normalized": "GetTypeInfo SourceSpan Int FayProjectId(Returns'())",
@@ -4364,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitDiff",
           "package": "fpco-api",
@@ -4373,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitDiff",
           "package": "fpco-api",
@@ -4386,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitHistory",
           "package": "fpco-api",
@@ -4395,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitHistory",
           "normalized": "GitHistory[GitHistoryItem]",
@@ -4410,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitHistoryItem",
           "package": "fpco-api",
@@ -4419,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitHistoryItem",
           "package": "fpco-api",
@@ -4433,6 +4835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText == URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitMergeAbort",
           "package": "fpco-api",
@@ -4443,6 +4846,7 @@
         "index": {
           "description": "Text URL",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitMergeAbort",
           "package": "fpco-api",
@@ -4456,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitMergeConflictsResult",
           "package": "fpco-api",
@@ -4465,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitMergeConflictsResult",
           "normalized": "GitMergeConflictsResult[MergeConflict]",
@@ -4481,6 +4887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText == URL, Msg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitMergeDone",
           "package": "fpco-api",
@@ -4491,6 +4898,7 @@
         "index": {
           "description": "Text URL Msg",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitMergeDone",
           "package": "fpco-api",
@@ -4505,6 +4913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText == URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitPull",
           "package": "fpco-api",
@@ -4515,6 +4924,7 @@
         "index": {
           "description": "Text URL",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitPull",
           "package": "fpco-api",
@@ -4529,6 +4939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText == URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitPush",
           "package": "fpco-api",
@@ -4539,6 +4950,7 @@
         "index": {
           "description": "Text URL",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitPush",
           "normalized": "GitPush Text FayProjectId(Returns'())",
@@ -4554,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "GitResolveFile",
           "package": "fpco-api",
@@ -4563,6 +4976,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "GitResolveFile",
           "normalized": "GitResolveFile FayFileName FayProjectId(Returns'())",
@@ -4578,6 +4992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HoogleId",
           "package": "fpco-api",
@@ -4587,6 +5002,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HoogleId",
           "package": "fpco-api",
@@ -4600,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HoogleResult",
           "package": "fpco-api",
@@ -4609,6 +5026,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HoogleResult",
           "package": "fpco-api",
@@ -4622,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HoogleResults",
           "package": "fpco-api",
@@ -4631,6 +5050,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HoogleResults",
           "normalized": "HoogleResults Text[HoogleResult](Maybe Int)",
@@ -4647,6 +5067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name is in use by someone else, can't be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HostnameInUse",
           "package": "fpco-api",
@@ -4657,6 +5078,7 @@
         "index": {
           "description": "Host name is in use by someone else can be used",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HostnameInUse",
           "package": "fpco-api",
@@ -4671,6 +5093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HostnameInvalid",
           "package": "fpco-api",
@@ -4681,6 +5104,7 @@
         "index": {
           "description": "Invalid hostname",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HostnameInvalid",
           "package": "fpco-api",
@@ -4695,6 +5119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name was already or has now been registered and is now in use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HostnameOK",
           "package": "fpco-api",
@@ -4705,6 +5130,7 @@
         "index": {
           "description": "Host name was already or has now been registered and is now in use",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HostnameOK",
           "package": "fpco-api",
@@ -4719,6 +5145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCouldn't register the hostname due to quota.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HostnameQuotaExcess",
           "package": "fpco-api",
@@ -4729,6 +5156,7 @@
         "index": {
           "description": "Couldn register the hostname due to quota",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HostnameQuotaExcess",
           "package": "fpco-api",
@@ -4742,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "HtmlReply",
           "package": "fpco-api",
@@ -4751,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "HtmlReply",
           "package": "fpco-api",
@@ -4764,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ILCommunity",
           "package": "fpco-api",
@@ -4773,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ILCommunity",
           "package": "fpco-api",
@@ -4786,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ILPersonal",
           "package": "fpco-api",
@@ -4795,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ILPersonal",
           "package": "fpco-api",
@@ -4808,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ILProfessional",
           "package": "fpco-api",
@@ -4817,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ILProfessional",
           "package": "fpco-api",
@@ -4831,6 +5267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equery span, result span, source info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IdInfo",
           "package": "fpco-api",
@@ -4841,6 +5278,7 @@
         "index": {
           "description": "query span result span source info",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IdInfo",
           "package": "fpco-api",
@@ -4854,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IdInfoResults",
           "package": "fpco-api",
@@ -4863,6 +5302,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IdInfoResults",
           "package": "fpco-api",
@@ -4877,6 +5317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodule context, is it exact?, number to query, offset in result, number to yield, query contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IdeHoogleSearch",
           "package": "fpco-api",
@@ -4887,6 +5328,7 @@
         "index": {
           "description": "module context is it exact number to query offset in result number to yield query contents",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IdeHoogleSearch",
           "package": "fpco-api",
@@ -4900,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ImportedPackagesResults",
           "package": "fpco-api",
@@ -4909,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ImportedPackagesResults",
           "normalized": "ImportedPackagesResults[PackageId]",
@@ -4924,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "InitialProjectInfo",
           "package": "fpco-api",
@@ -4933,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "InitialProjectInfo",
           "package": "fpco-api",
@@ -4946,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IsProjectDirty",
           "package": "fpco-api",
@@ -4955,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IsProjectDirty",
           "package": "fpco-api",
@@ -4968,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "IsWeb",
           "package": "fpco-api",
@@ -4977,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "IsWeb",
           "package": "fpco-api",
@@ -4990,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "JustText",
           "package": "fpco-api",
@@ -4999,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "JustText",
           "package": "fpco-api",
@@ -5012,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "KeterYaml",
           "package": "fpco-api",
@@ -5021,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "KeterYaml",
           "package": "fpco-api",
@@ -5034,6 +5488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "KindError",
           "package": "fpco-api",
@@ -5043,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "KindError",
           "package": "fpco-api",
@@ -5056,6 +5512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "KindHint",
           "package": "fpco-api",
@@ -5065,6 +5522,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "KindHint",
           "package": "fpco-api",
@@ -5078,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "KindWarning",
           "package": "fpco-api",
@@ -5087,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "KindWarning",
           "package": "fpco-api",
@@ -5100,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LaunchInfoSnapshot",
           "package": "fpco-api",
@@ -5109,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LaunchInfoSnapshot",
           "package": "fpco-api",
@@ -5122,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LevelDebug",
           "package": "fpco-api",
@@ -5131,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LevelDebug",
           "package": "fpco-api",
@@ -5144,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LevelError",
           "package": "fpco-api",
@@ -5153,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LevelError",
           "package": "fpco-api",
@@ -5166,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LevelInfo",
           "package": "fpco-api",
@@ -5175,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LevelInfo",
           "package": "fpco-api",
@@ -5188,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LevelOther",
           "package": "fpco-api",
@@ -5197,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LevelOther",
           "package": "fpco-api",
@@ -5210,6 +5680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LevelWarn",
           "package": "fpco-api",
@@ -5219,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LevelWarn",
           "package": "fpco-api",
@@ -5232,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "LoadProjectState",
           "package": "fpco-api",
@@ -5241,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "LoadProjectState",
           "package": "fpco-api",
@@ -5254,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MergeConflict",
           "package": "fpco-api",
@@ -5263,6 +5738,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MergeConflict",
           "package": "fpco-api",
@@ -5276,6 +5752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MergeModifyPair",
           "package": "fpco-api",
@@ -5285,6 +5762,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MergeModifyPair",
           "package": "fpco-api",
@@ -5298,6 +5776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "MessageTag",
           "package": "fpco-api",
@@ -5307,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "MessageTag",
           "package": "fpco-api",
@@ -5320,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Modified",
           "package": "fpco-api",
@@ -5329,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Modified",
           "package": "fpco-api",
@@ -5342,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleExcluded",
           "package": "fpco-api",
@@ -5351,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleExcluded",
           "package": "fpco-api",
@@ -5364,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleHeaderFilenameMismatch",
           "package": "fpco-api",
@@ -5373,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleHeaderFilenameMismatch",
           "package": "fpco-api",
@@ -5386,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleIncluded",
           "package": "fpco-api",
@@ -5395,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleIncluded",
           "package": "fpco-api",
@@ -5408,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleLink",
           "package": "fpco-api",
@@ -5417,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleLink",
           "package": "fpco-api",
@@ -5430,6 +5920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleNameAmbiguous",
           "package": "fpco-api",
@@ -5439,6 +5930,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleNameAmbiguous",
           "package": "fpco-api",
@@ -5452,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleNotTextual",
           "package": "fpco-api",
@@ -5461,6 +5954,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleNotTextual",
           "package": "fpco-api",
@@ -5474,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ModuleWrongExtension",
           "package": "fpco-api",
@@ -5483,6 +5978,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ModuleWrongExtension",
           "package": "fpco-api",
@@ -5496,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Monokai",
           "package": "fpco-api",
@@ -5505,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Monokai",
           "package": "fpco-api",
@@ -5518,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NewBgJob",
           "package": "fpco-api",
@@ -5527,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NewBgJob",
           "normalized": "NewBgJob(FayBgJobId,BgJob)",
@@ -5542,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NewDeployment",
           "package": "fpco-api",
@@ -5551,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NewDeployment",
           "normalized": "NewDeployment(FayDeploymentId,Deployment)",
@@ -5566,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NewRunConfig",
           "package": "fpco-api",
@@ -5575,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NewRunConfig",
           "normalized": "NewRunConfig(FayRunConfigId,RunConfig)",
@@ -5590,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NewWebApp",
           "package": "fpco-api",
@@ -5599,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NewWebApp",
           "normalized": "NewWebApp(FayWebAppId,WebApp)",
@@ -5615,6 +6121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equery span\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NoIdInfo",
           "package": "fpco-api",
@@ -5625,6 +6132,7 @@
         "index": {
           "description": "query span",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NoIdInfo",
           "package": "fpco-api",
@@ -5638,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NoStartToken",
           "package": "fpco-api",
@@ -5647,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NoStartToken",
           "package": "fpco-api",
@@ -5660,6 +6170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NoText",
           "package": "fpco-api",
@@ -5669,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NoText",
           "package": "fpco-api",
@@ -5682,6 +6194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NotPublic",
           "package": "fpco-api",
@@ -5691,6 +6204,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NotPublic",
           "package": "fpco-api",
@@ -5704,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "NotSureIfWeb",
           "package": "fpco-api",
@@ -5713,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "NotSureIfWeb",
           "package": "fpco-api",
@@ -5726,6 +6242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PMFilterAll",
           "package": "fpco-api",
@@ -5735,6 +6252,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PMFilterAll",
           "package": "fpco-api",
@@ -5748,6 +6266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PMFilterNone",
           "package": "fpco-api",
@@ -5757,6 +6276,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PMFilterNone",
           "package": "fpco-api",
@@ -5770,6 +6290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PMFilterOnOrBefore",
           "package": "fpco-api",
@@ -5779,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PMFilterOnOrBefore",
           "package": "fpco-api",
@@ -5792,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PMRImmediateStatusNoMessages",
           "package": "fpco-api",
@@ -5801,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PMRImmediateStatusNoMessages",
           "package": "fpco-api",
@@ -5814,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PMRImmediateStatusWithMessages",
           "package": "fpco-api",
@@ -5823,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PMRImmediateStatusWithMessages",
           "package": "fpco-api",
@@ -5836,6 +6362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PMRNextStatusWithMessages",
           "package": "fpco-api",
@@ -5845,6 +6372,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PMRNextStatusWithMessages",
           "package": "fpco-api",
@@ -5858,6 +6386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PSSFinal",
           "package": "fpco-api",
@@ -5867,6 +6396,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PSSFinal",
           "package": "fpco-api",
@@ -5880,6 +6410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PSSUpdate",
           "package": "fpco-api",
@@ -5889,6 +6420,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PSSUpdate",
           "package": "fpco-api",
@@ -5902,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PackageId",
           "package": "fpco-api",
@@ -5911,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PackageId",
           "package": "fpco-api",
@@ -5924,6 +6458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PackageLink",
           "package": "fpco-api",
@@ -5933,6 +6468,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PackageLink",
           "package": "fpco-api",
@@ -5946,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Panda",
           "package": "fpco-api",
@@ -5955,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Panda",
           "package": "fpco-api",
@@ -5968,6 +6506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PortIsListening",
           "package": "fpco-api",
@@ -5977,6 +6516,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PortIsListening",
           "package": "fpco-api",
@@ -5990,6 +6530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PortNotAllocated",
           "package": "fpco-api",
@@ -5999,6 +6540,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PortNotAllocated",
           "package": "fpco-api",
@@ -6012,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "PortNotListening",
           "package": "fpco-api",
@@ -6021,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "PortNotListening",
           "package": "fpco-api",
@@ -6034,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProcId",
           "package": "fpco-api",
@@ -6043,6 +6588,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProcId",
           "package": "fpco-api",
@@ -6056,6 +6602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProcessNotRunning",
           "package": "fpco-api",
@@ -6065,6 +6612,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProcessNotRunning",
           "package": "fpco-api",
@@ -6078,6 +6626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProcessOutput",
           "package": "fpco-api",
@@ -6087,6 +6636,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProcessOutput",
           "package": "fpco-api",
@@ -6100,6 +6650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProcessOutputError",
           "package": "fpco-api",
@@ -6109,6 +6660,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProcessOutputError",
           "package": "fpco-api",
@@ -6122,6 +6674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Progress",
           "package": "fpco-api",
@@ -6131,6 +6684,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Progress",
           "package": "fpco-api",
@@ -6144,6 +6698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectHasClosed",
           "package": "fpco-api",
@@ -6153,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectHasClosed",
           "package": "fpco-api",
@@ -6166,6 +6722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectMessage",
           "package": "fpco-api",
@@ -6175,6 +6732,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectMessage",
           "package": "fpco-api",
@@ -6188,6 +6746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectMessagesOutput",
           "package": "fpco-api",
@@ -6197,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectMessagesOutput",
           "normalized": "ProjectMessagesOutput ProjectMessagesFilter[(Maybe Int,RunnerMessage)]",
@@ -6212,6 +6772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProjectStatusSnapshot",
           "package": "fpco-api",
@@ -6221,6 +6782,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProjectStatusSnapshot",
           "package": "fpco-api",
@@ -6234,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ProperSpan",
           "package": "fpco-api",
@@ -6243,6 +6806,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ProperSpan",
           "package": "fpco-api",
@@ -6256,6 +6820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Publicize",
           "package": "fpco-api",
@@ -6265,6 +6830,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Publicize",
           "package": "fpco-api",
@@ -6278,6 +6844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RandomHostName",
           "package": "fpco-api",
@@ -6287,6 +6854,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RandomHostName",
           "package": "fpco-api",
@@ -6300,6 +6868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ReformatModule",
           "package": "fpco-api",
@@ -6309,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ReformatModule",
           "package": "fpco-api",
@@ -6322,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RemotesList",
           "package": "fpco-api",
@@ -6331,6 +6902,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RemotesList",
           "normalized": "RemotesList[(Text,Text)]",
@@ -6346,6 +6918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenameFile",
           "package": "fpco-api",
@@ -6355,6 +6928,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenameFile",
           "package": "fpco-api",
@@ -6368,6 +6942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenameFileOutput",
           "package": "fpco-api",
@@ -6377,6 +6952,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenameFileOutput",
           "package": "fpco-api",
@@ -6390,6 +6966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenameHeader",
           "package": "fpco-api",
@@ -6399,6 +6976,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenameHeader",
           "package": "fpco-api",
@@ -6412,6 +6990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenameHeaderAndImports",
           "package": "fpco-api",
@@ -6421,6 +7000,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenameHeaderAndImports",
           "package": "fpco-api",
@@ -6434,6 +7014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenameHeaderAndImportsForce",
           "package": "fpco-api",
@@ -6443,6 +7024,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenameHeaderAndImportsForce",
           "package": "fpco-api",
@@ -6456,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenamePlain",
           "package": "fpco-api",
@@ -6465,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenamePlain",
           "package": "fpco-api",
@@ -6478,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RenderFileMarkdown",
           "package": "fpco-api",
@@ -6487,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RenderFileMarkdown",
           "package": "fpco-api",
@@ -6500,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ReparseProjectSettings",
           "package": "fpco-api",
@@ -6509,6 +7096,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ReparseProjectSettings",
           "package": "fpco-api",
@@ -6522,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ReparseSuccessful",
           "package": "fpco-api",
@@ -6531,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ReparseSuccessful",
           "package": "fpco-api",
@@ -6544,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ResetProject",
           "package": "fpco-api",
@@ -6553,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ResetProject",
           "package": "fpco-api",
@@ -6566,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RestartBackend",
           "package": "fpco-api",
@@ -6575,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RestartBackend",
           "normalized": "RestartBackend FayProjectId(Returns'())",
@@ -6590,6 +7184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RevokeGithub",
           "package": "fpco-api",
@@ -6599,6 +7194,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RevokeGithub",
           "normalized": "RevokeGithub(Returns(CanFail()))",
@@ -6614,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunConfig",
           "package": "fpco-api",
@@ -6623,6 +7220,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunConfig",
           "package": "fpco-api",
@@ -6636,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunGhciOutput",
           "package": "fpco-api",
@@ -6645,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunGhciOutput",
           "package": "fpco-api",
@@ -6658,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunTarget",
           "package": "fpco-api",
@@ -6667,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunTarget",
           "package": "fpco-api",
@@ -6680,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerBuildDone",
           "package": "fpco-api",
@@ -6689,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerBuildDone",
           "package": "fpco-api",
@@ -6702,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerBuildFailed",
           "package": "fpco-api",
@@ -6711,6 +7316,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerBuildFailed",
           "package": "fpco-api",
@@ -6724,6 +7330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerBuildQueued",
           "package": "fpco-api",
@@ -6733,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerBuildQueued",
           "package": "fpco-api",
@@ -6746,6 +7354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerBuilding",
           "package": "fpco-api",
@@ -6755,6 +7364,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerBuilding",
           "package": "fpco-api",
@@ -6768,6 +7378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerCompileDone",
           "package": "fpco-api",
@@ -6777,6 +7388,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerCompileDone",
           "normalized": "RunnerCompileDone CompileId[SourceInfo]",
@@ -6792,6 +7404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerCompiling",
           "package": "fpco-api",
@@ -6801,6 +7414,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerCompiling",
           "package": "fpco-api",
@@ -6814,6 +7428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerMessageEnvelope",
           "package": "fpco-api",
@@ -6823,6 +7438,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerMessageEnvelope",
           "package": "fpco-api",
@@ -6836,6 +7452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerNotBuilding",
           "package": "fpco-api",
@@ -6845,6 +7462,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerNotBuilding",
           "package": "fpco-api",
@@ -6858,6 +7476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerNotCompiling",
           "package": "fpco-api",
@@ -6867,6 +7486,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerNotCompiling",
           "package": "fpco-api",
@@ -6880,6 +7500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerProjectOpen",
           "package": "fpco-api",
@@ -6889,6 +7510,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerProjectOpen",
           "package": "fpco-api",
@@ -6902,6 +7524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "RunnerProjectOpening",
           "package": "fpco-api",
@@ -6911,6 +7534,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "RunnerProjectOpening",
           "package": "fpco-api",
@@ -6924,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SaveFile",
           "package": "fpco-api",
@@ -6933,6 +7558,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SaveFile",
           "package": "fpco-api",
@@ -6946,6 +7572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SaveFileOutput",
           "package": "fpco-api",
@@ -6955,6 +7582,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SaveFileOutput",
           "package": "fpco-api",
@@ -6968,6 +7596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SaveProfile",
           "package": "fpco-api",
@@ -6977,6 +7606,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SaveProfile",
           "normalized": "SaveProfile Theme Int Bool(Returns'())",
@@ -6992,6 +7622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SaveProjectState",
           "package": "fpco-api",
@@ -7001,6 +7632,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SaveProjectState",
           "normalized": "SaveProjectState ProjectState Text FayProjectId(Returns'())",
@@ -7016,6 +7648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SdistTarball",
           "package": "fpco-api",
@@ -7025,6 +7658,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SdistTarball",
           "normalized": "SdistTarball FayProjectId(Returns'())",
@@ -7040,6 +7674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchId",
           "package": "fpco-api",
@@ -7049,6 +7684,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchId",
           "package": "fpco-api",
@@ -7062,6 +7698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchProject",
           "package": "fpco-api",
@@ -7071,6 +7708,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchProject",
           "normalized": "SearchProject SearchQuery Int Int Bool FayProjectId(Returns'())",
@@ -7086,6 +7724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchQueryPlain",
           "package": "fpco-api",
@@ -7095,6 +7734,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchQueryPlain",
           "package": "fpco-api",
@@ -7108,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchQueryRegex",
           "package": "fpco-api",
@@ -7117,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchQueryRegex",
           "package": "fpco-api",
@@ -7130,6 +7772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchResult",
           "package": "fpco-api",
@@ -7139,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchResult",
           "normalized": "SearchResult SourceSpan[Either Text Text]",
@@ -7154,6 +7798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SearchResults",
           "package": "fpco-api",
@@ -7163,6 +7808,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SearchResults",
           "normalized": "SearchResults[SearchResult]",
@@ -7178,6 +7824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetConfigurationJavascript",
           "package": "fpco-api",
@@ -7187,6 +7834,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetConfigurationJavascript",
           "normalized": "SetConfigurationJavascript Text(Returns'())",
@@ -7202,6 +7850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetDeployments",
           "package": "fpco-api",
@@ -7211,6 +7860,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetDeployments",
           "normalized": "SetDeployments[(FayDeploymentId,Deployment)]FayProjectId(Returns'())",
@@ -7226,6 +7876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetExtension",
           "package": "fpco-api",
@@ -7235,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetExtension",
           "package": "fpco-api",
@@ -7248,6 +7900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetModuleExclusion",
           "package": "fpco-api",
@@ -7257,6 +7910,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetModuleExclusion",
           "package": "fpco-api",
@@ -7270,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetProjectMetadata",
           "package": "fpco-api",
@@ -7279,6 +7934,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetProjectMetadata",
           "normalized": "SetProjectMetadata Text Text FayProjectId(Returns'())",
@@ -7294,6 +7950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetPublic",
           "package": "fpco-api",
@@ -7303,6 +7960,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetPublic",
           "package": "fpco-api",
@@ -7316,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetRemotes",
           "package": "fpco-api",
@@ -7325,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetRemotes",
           "normalized": "SetRemotes RemotesList FayProjectId(Returns'())",
@@ -7340,6 +8000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetRoot",
           "package": "fpco-api",
@@ -7349,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetRoot",
           "package": "fpco-api",
@@ -7362,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetRunConfigs",
           "package": "fpco-api",
@@ -7371,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetRunConfigs",
           "normalized": "SetRunConfigs[(FayRunConfigId,RunConfig)]FayProjectId(Returns'())",
@@ -7386,6 +8050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetSettings",
           "package": "fpco-api",
@@ -7395,6 +8060,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetSettings",
           "package": "fpco-api",
@@ -7408,6 +8074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetSettingsInput",
           "package": "fpco-api",
@@ -7417,6 +8084,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetSettingsInput",
           "package": "fpco-api",
@@ -7430,6 +8098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SetTarget",
           "package": "fpco-api",
@@ -7439,6 +8108,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SetTarget",
           "package": "fpco-api",
@@ -7452,6 +8122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SettingsAlreadyValid",
           "package": "fpco-api",
@@ -7461,6 +8132,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SettingsAlreadyValid",
           "package": "fpco-api",
@@ -7474,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ShowTrialSignup",
           "package": "fpco-api",
@@ -7483,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ShowTrialSignup",
           "package": "fpco-api",
@@ -7496,6 +8170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotNoProcess",
           "package": "fpco-api",
@@ -7505,6 +8180,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotNoProcess",
           "package": "fpco-api",
@@ -7518,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotProcessExited",
           "package": "fpco-api",
@@ -7527,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotProcessExited",
           "package": "fpco-api",
@@ -7540,6 +8218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotProcessForceCanceled",
           "package": "fpco-api",
@@ -7549,6 +8228,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotProcessForceCanceled",
           "package": "fpco-api",
@@ -7562,6 +8242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotProcessGhcException",
           "package": "fpco-api",
@@ -7571,6 +8252,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotProcessGhcException",
           "package": "fpco-api",
@@ -7584,6 +8266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotProcessLoadFailed",
           "package": "fpco-api",
@@ -7593,6 +8276,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotProcessLoadFailed",
           "package": "fpco-api",
@@ -7606,6 +8290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotProcessQueued",
           "package": "fpco-api",
@@ -7615,6 +8300,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotProcessQueued",
           "package": "fpco-api",
@@ -7628,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotProcessRunFailed",
           "package": "fpco-api",
@@ -7637,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotProcessRunFailed",
           "package": "fpco-api",
@@ -7650,6 +8338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotProcessRunning",
           "package": "fpco-api",
@@ -7659,6 +8348,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotProcessRunning",
           "package": "fpco-api",
@@ -7672,6 +8362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SnapshotProcessUserException",
           "package": "fpco-api",
@@ -7681,6 +8372,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SnapshotProcessUserException",
           "package": "fpco-api",
@@ -7694,6 +8386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SourceInfo",
           "package": "fpco-api",
@@ -7703,6 +8396,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SourceInfo",
           "package": "fpco-api",
@@ -7716,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SourceSpan",
           "package": "fpco-api",
@@ -7725,6 +8420,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SourceSpan",
           "package": "fpco-api",
@@ -7738,6 +8434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SshPublicKey",
           "package": "fpco-api",
@@ -7747,6 +8444,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SshPublicKey",
           "package": "fpco-api",
@@ -7760,6 +8458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "StartToken",
           "package": "fpco-api",
@@ -7769,6 +8468,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "StartToken",
           "package": "fpco-api",
@@ -7782,6 +8482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "StatusHash",
           "package": "fpco-api",
@@ -7791,6 +8492,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "StatusHash",
           "package": "fpco-api",
@@ -7804,6 +8506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "StatusSnapshot",
           "package": "fpco-api",
@@ -7813,6 +8516,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "StatusSnapshot",
           "package": "fpco-api",
@@ -7826,6 +8530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "SubExprsResults",
           "package": "fpco-api",
@@ -7835,6 +8540,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "SubExprsResults",
           "normalized": "SubExprsResults SourceSpan[[TypeInfo]]",
@@ -7850,6 +8556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Success",
           "package": "fpco-api",
@@ -7859,6 +8566,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Success",
           "package": "fpco-api",
@@ -7872,6 +8580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TextReply",
           "package": "fpco-api",
@@ -7881,6 +8590,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TextReply",
           "package": "fpco-api",
@@ -7894,6 +8604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TextSpan",
           "package": "fpco-api",
@@ -7903,6 +8614,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TextSpan",
           "package": "fpco-api",
@@ -7916,6 +8628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TopLevelIdentifier",
           "package": "fpco-api",
@@ -7925,6 +8638,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TopLevelIdentifier",
           "package": "fpco-api",
@@ -7938,6 +8652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TopLevelIdentifiers",
           "package": "fpco-api",
@@ -7947,6 +8662,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TopLevelIdentifiers",
           "normalized": "TopLevelIdentifiers[TopLevelIdentifier]",
@@ -7962,6 +8678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TutorialConcurrentToken'",
           "package": "fpco-api",
@@ -7971,6 +8688,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TutorialConcurrentToken'",
           "package": "fpco-api",
@@ -7984,6 +8702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TypeChanged",
           "package": "fpco-api",
@@ -7993,6 +8712,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TypeChanged",
           "package": "fpco-api",
@@ -8006,6 +8726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "TypeInfo",
           "package": "fpco-api",
@@ -8015,6 +8736,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "TypeInfo",
           "package": "fpco-api",
@@ -8028,6 +8750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "UploadBuild",
           "package": "fpco-api",
@@ -8037,6 +8760,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "UploadBuild",
           "package": "fpco-api",
@@ -8050,6 +8774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "UploadedBuild",
           "package": "fpco-api",
@@ -8059,6 +8784,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "UploadedBuild",
           "package": "fpco-api",
@@ -8072,6 +8798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "UserAuthedGithub",
           "package": "fpco-api",
@@ -8081,6 +8808,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "UserAuthedGithub",
           "package": "fpco-api",
@@ -8094,6 +8822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "UserState",
           "package": "fpco-api",
@@ -8103,6 +8832,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "UserState",
           "package": "fpco-api",
@@ -8116,6 +8846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "WarnImportRenaming",
           "package": "fpco-api",
@@ -8125,6 +8856,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "WarnImportRenaming",
           "normalized": "WarnImportRenaming[FayFileName]",
@@ -8140,6 +8872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "WebApp",
           "package": "fpco-api",
@@ -8149,6 +8882,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "WebApp",
           "package": "fpco-api",
@@ -8162,6 +8896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "WebAppStanza",
           "package": "fpco-api",
@@ -8171,6 +8906,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "WebAppStanza",
           "package": "fpco-api",
@@ -8184,6 +8920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Workspaces",
           "package": "fpco-api",
@@ -8193,6 +8930,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Workspaces",
           "package": "fpco-api",
@@ -8206,6 +8944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "Zenburn",
           "package": "fpco-api",
@@ -8215,6 +8954,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "Zenburn",
           "package": "fpco-api",
@@ -8228,6 +8968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "aciModuleName",
           "package": "fpco-api",
@@ -8237,6 +8978,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "aciModuleName",
           "package": "fpco-api",
@@ -8250,6 +8992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "aciPrefix",
           "package": "fpco-api",
@@ -8259,6 +9002,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "aciPrefix",
           "package": "fpco-api",
@@ -8272,6 +9016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "bgArgs",
           "package": "fpco-api",
@@ -8281,6 +9026,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "bgArgs",
           "normalized": "[Text]",
@@ -8296,6 +9042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "bgEnv",
           "package": "fpco-api",
@@ -8305,6 +9052,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "bgEnv",
           "normalized": "[(Text,Text)]",
@@ -8320,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "bgFileName",
           "package": "fpco-api",
@@ -8329,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "bgFileName",
           "package": "fpco-api",
@@ -8342,6 +9092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "bgRestartDelay",
           "package": "fpco-api",
@@ -8351,6 +9102,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "bgRestartDelay",
           "package": "fpco-api",
@@ -8364,6 +9116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "bgRestartLimit",
           "package": "fpco-api",
@@ -8373,6 +9126,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "bgRestartLimit",
           "package": "fpco-api",
@@ -8386,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "bgTitle",
           "package": "fpco-api",
@@ -8395,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "bgTitle",
           "package": "fpco-api",
@@ -8408,6 +9164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "brFileSize",
           "package": "fpco-api",
@@ -8417,6 +9174,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "brFileSize",
           "package": "fpco-api",
@@ -8430,6 +9188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "brMainModule",
           "package": "fpco-api",
@@ -8439,6 +9198,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "brMainModule",
           "package": "fpco-api",
@@ -8452,6 +9212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "brPathName",
           "package": "fpco-api",
@@ -8461,6 +9222,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "brPathName",
           "package": "fpco-api",
@@ -8474,6 +9236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ccCompileId",
           "package": "fpco-api",
@@ -8483,6 +9246,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ccCompileId",
           "package": "fpco-api",
@@ -8497,6 +9261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the \u003ccode\u003e\u003ca\u003eFileChanged\u003c/a\u003e\u003c/code\u003es that have a\n \u003ccode\u003e\u003ca\u003efiModule\u003c/a\u003e\u003c/code\u003e that's changed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ccFiles",
           "package": "fpco-api",
@@ -8507,6 +9272,7 @@
         "index": {
           "description": "All of the FileChanged that have fiModule that changed",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ccFiles",
           "normalized": "[FileChanged]",
@@ -8522,6 +9288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "depStanzas",
           "package": "fpco-api",
@@ -8531,6 +9298,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "depStanzas",
           "normalized": "[Stanza]",
@@ -8546,6 +9314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "depTitle",
           "package": "fpco-api",
@@ -8555,6 +9324,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "depTitle",
           "package": "fpco-api",
@@ -8568,6 +9338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "deployYaml",
           "package": "fpco-api",
@@ -8577,6 +9348,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "deployYaml",
           "package": "fpco-api",
@@ -8590,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "dfcContent",
           "package": "fpco-api",
@@ -8599,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "dfcContent",
           "package": "fpco-api",
@@ -8612,6 +9386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "dfcToken",
           "package": "fpco-api",
@@ -8621,6 +9396,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "dfcToken",
           "package": "fpco-api",
@@ -8634,6 +9410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "dmiHostname",
           "package": "fpco-api",
@@ -8643,6 +9420,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "dmiHostname",
           "package": "fpco-api",
@@ -8656,6 +9434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "envName",
           "package": "fpco-api",
@@ -8665,6 +9444,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "envName",
           "package": "fpco-api",
@@ -8678,6 +9458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "envTitle",
           "package": "fpco-api",
@@ -8687,6 +9468,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "envTitle",
           "package": "fpco-api",
@@ -8700,6 +9482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "envURL",
           "package": "fpco-api",
@@ -8709,6 +9492,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "envURL",
           "package": "fpco-api",
@@ -8722,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "fcModule",
           "package": "fpco-api",
@@ -8731,6 +9516,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "fcModule",
           "package": "fpco-api",
@@ -8744,6 +9530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "fcPath",
           "package": "fpco-api",
@@ -8753,6 +9540,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "fcPath",
           "package": "fpco-api",
@@ -8766,6 +9554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "fiModule",
           "package": "fpco-api",
@@ -8775,6 +9564,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "fiModule",
           "package": "fpco-api",
@@ -8788,6 +9578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "fiPath",
           "package": "fpco-api",
@@ -8797,6 +9588,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "fiPath",
           "package": "fpco-api",
@@ -8810,6 +9602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ghiAuthor",
           "package": "fpco-api",
@@ -8819,6 +9612,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ghiAuthor",
           "package": "fpco-api",
@@ -8832,6 +9626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ghiDate",
           "package": "fpco-api",
@@ -8841,6 +9636,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ghiDate",
           "package": "fpco-api",
@@ -8854,6 +9650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ghiHash",
           "package": "fpco-api",
@@ -8863,6 +9660,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ghiHash",
           "package": "fpco-api",
@@ -8876,6 +9674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ghiLog",
           "package": "fpco-api",
@@ -8885,6 +9684,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ghiLog",
           "package": "fpco-api",
@@ -8898,6 +9698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoCabalName",
           "package": "fpco-api",
@@ -8907,6 +9708,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoCabalName",
           "package": "fpco-api",
@@ -8920,6 +9722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoCabalVersion",
           "package": "fpco-api",
@@ -8929,6 +9732,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoCabalVersion",
           "package": "fpco-api",
@@ -8942,6 +9746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoEnvironment",
           "package": "fpco-api",
@@ -8951,6 +9756,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoEnvironment",
           "package": "fpco-api",
@@ -8964,6 +9770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoEnvironments",
           "package": "fpco-api",
@@ -8973,6 +9780,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoEnvironments",
           "normalized": "[Environment]",
@@ -8989,6 +9797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethree states: on, off, or default (== Nothing)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoExtensions",
           "package": "fpco-api",
@@ -8999,6 +9808,7 @@
         "index": {
           "description": "three states on off or default Nothing",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoExtensions",
           "normalized": "[(Text,Maybe Bool)]",
@@ -9014,6 +9824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoExtraPackages",
           "package": "fpco-api",
@@ -9023,6 +9834,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoExtraPackages",
           "package": "fpco-api",
@@ -9036,6 +9848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoFilters",
           "package": "fpco-api",
@@ -9045,6 +9858,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoFilters",
           "package": "fpco-api",
@@ -9058,6 +9872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoGhcArgs",
           "package": "fpco-api",
@@ -9067,6 +9882,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoGhcArgs",
           "normalized": "[Text]",
@@ -9082,6 +9898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoHiddenPackages",
           "package": "fpco-api",
@@ -9091,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoHiddenPackages",
           "package": "fpco-api",
@@ -9104,6 +9922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoModuleTemplate",
           "package": "fpco-api",
@@ -9113,6 +9932,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoModuleTemplate",
           "package": "fpco-api",
@@ -9126,6 +9946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "gsoRoot",
           "package": "fpco-api",
@@ -9135,6 +9956,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "gsoRoot",
           "package": "fpco-api",
@@ -9149,6 +9971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplain text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "hrBody",
           "package": "fpco-api",
@@ -9159,6 +9982,7 @@
         "index": {
           "description": "plain text",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "hrBody",
           "package": "fpco-api",
@@ -9172,6 +9996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "hrSources",
           "package": "fpco-api",
@@ -9181,6 +10006,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "hrSources",
           "normalized": "[(PackageLink,[ModuleLink])]",
@@ -9197,6 +10023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "hrTitle",
           "package": "fpco-api",
@@ -9207,6 +10034,7 @@
         "index": {
           "description": "HTML",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "hrTitle",
           "package": "fpco-api",
@@ -9220,6 +10048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "hrURL",
           "package": "fpco-api",
@@ -9229,6 +10058,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "hrURL",
           "package": "fpco-api",
@@ -9242,6 +10072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "infoKind",
           "package": "fpco-api",
@@ -9251,6 +10082,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "infoKind",
           "package": "fpco-api",
@@ -9264,6 +10096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "infoMsg",
           "package": "fpco-api",
@@ -9273,6 +10106,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "infoMsg",
           "package": "fpco-api",
@@ -9286,6 +10120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "infoSpan",
           "package": "fpco-api",
@@ -9295,6 +10130,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "infoSpan",
           "package": "fpco-api",
@@ -9308,6 +10144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiBranches",
           "package": "fpco-api",
@@ -9317,6 +10154,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiBranches",
           "package": "fpco-api",
@@ -9330,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiCanPublish",
           "package": "fpco-api",
@@ -9339,6 +10178,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiCanPublish",
           "package": "fpco-api",
@@ -9352,6 +10192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiDeployments",
           "package": "fpco-api",
@@ -9361,6 +10202,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiDeployments",
           "normalized": "[(FayDeploymentId,Deployment)]",
@@ -9376,6 +10218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiDesc",
           "package": "fpco-api",
@@ -9385,6 +10228,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiDesc",
           "package": "fpco-api",
@@ -9398,6 +10242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiFiles",
           "package": "fpco-api",
@@ -9407,6 +10252,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiFiles",
           "normalized": "[(FayFileName,ModuleIncluded)]",
@@ -9422,6 +10268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiFontSize",
           "package": "fpco-api",
@@ -9431,6 +10278,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiFontSize",
           "package": "fpco-api",
@@ -9445,6 +10293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL originally cloned from\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiGitUrl",
           "package": "fpco-api",
@@ -9455,6 +10304,7 @@
         "index": {
           "description": "URL originally cloned from",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiGitUrl",
           "package": "fpco-api",
@@ -9468,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiInvalidSettings",
           "package": "fpco-api",
@@ -9477,6 +10328,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiInvalidSettings",
           "package": "fpco-api",
@@ -9490,6 +10342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiLicense",
           "package": "fpco-api",
@@ -9499,6 +10352,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiLicense",
           "package": "fpco-api",
@@ -9512,6 +10366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiMergeConflicts",
           "package": "fpco-api",
@@ -9521,6 +10376,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiMergeConflicts",
           "normalized": "Maybe[MergeConflict]",
@@ -9536,6 +10392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiPublished",
           "package": "fpco-api",
@@ -9545,6 +10402,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiPublished",
           "package": "fpco-api",
@@ -9558,6 +10416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiRemotes",
           "package": "fpco-api",
@@ -9567,6 +10426,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiRemotes",
           "package": "fpco-api",
@@ -9580,6 +10440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiRunConfigs",
           "package": "fpco-api",
@@ -9589,6 +10450,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiRunConfigs",
           "normalized": "[(FayRunConfigId,RunConfig)]",
@@ -9604,6 +10466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiSearchWithRegex",
           "package": "fpco-api",
@@ -9613,6 +10476,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiSearchWithRegex",
           "package": "fpco-api",
@@ -9626,6 +10490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiState",
           "package": "fpco-api",
@@ -9635,6 +10500,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiState",
           "normalized": "[(ProjectState,Text)]",
@@ -9650,6 +10516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiTarget",
           "package": "fpco-api",
@@ -9659,6 +10526,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiTarget",
           "package": "fpco-api",
@@ -9672,6 +10540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiTheme",
           "package": "fpco-api",
@@ -9681,6 +10550,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiTheme",
           "package": "fpco-api",
@@ -9694,6 +10564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ipiTitle",
           "package": "fpco-api",
@@ -9703,6 +10574,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ipiTitle",
           "package": "fpco-api",
@@ -9716,6 +10588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "keterYaml",
           "package": "fpco-api",
@@ -9725,6 +10598,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "keterYaml",
           "package": "fpco-api",
@@ -9738,6 +10612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "liSnapApproot",
           "package": "fpco-api",
@@ -9747,6 +10622,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "liSnapApproot",
           "package": "fpco-api",
@@ -9761,6 +10637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimestamp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "liSnapLaunched",
           "package": "fpco-api",
@@ -9771,6 +10648,7 @@
         "index": {
           "description": "Timestamp",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "liSnapLaunched",
           "package": "fpco-api",
@@ -9784,6 +10662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "liSnapPort",
           "package": "fpco-api",
@@ -9793,6 +10672,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "liSnapPort",
           "package": "fpco-api",
@@ -9806,6 +10686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "mergeFile",
           "package": "fpco-api",
@@ -9815,6 +10696,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "mergeFile",
           "package": "fpco-api",
@@ -9828,6 +10710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "mergeState",
           "package": "fpco-api",
@@ -9837,6 +10720,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "mergeState",
           "package": "fpco-api",
@@ -9850,6 +10734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "mlName",
           "package": "fpco-api",
@@ -9859,6 +10744,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "mlName",
           "package": "fpco-api",
@@ -9872,6 +10758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "mlURL",
           "package": "fpco-api",
@@ -9881,6 +10768,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "mlURL",
           "package": "fpco-api",
@@ -9894,6 +10782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "mtJobId",
           "package": "fpco-api",
@@ -9903,6 +10792,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "mtJobId",
           "package": "fpco-api",
@@ -9916,6 +10806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "mtProjectId",
           "package": "fpco-api",
@@ -9925,6 +10816,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "mtProjectId",
           "package": "fpco-api",
@@ -9938,6 +10830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "packageName",
           "package": "fpco-api",
@@ -9947,6 +10840,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "packageName",
           "package": "fpco-api",
@@ -9960,6 +10854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "packageVersion",
           "package": "fpco-api",
@@ -9969,6 +10864,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "packageVersion",
           "package": "fpco-api",
@@ -9982,6 +10878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "plName",
           "package": "fpco-api",
@@ -9991,6 +10888,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "plName",
           "package": "fpco-api",
@@ -10004,6 +10902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "plURL",
           "package": "fpco-api",
@@ -10013,6 +10912,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "plURL",
           "package": "fpco-api",
@@ -10027,6 +10927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parsed message. For instance, in the case of progress messages\n during compilation, \u003ccode\u003eprogressOrigMsg\u003c/code\u003e might be\n\u003c/p\u003e\u003cpre\u003e [1 of 2] Compiling M (some/path/to/file.hs, some/other/path/to/file.o)\n\u003c/pre\u003e\u003cp\u003ewhile \u003ccode\u003e\u003ca\u003eprogressMsg\u003c/a\u003e\u003c/code\u003e will just be 'Compiling M'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "progressMsg",
           "package": "fpco-api",
@@ -10037,6 +10938,7 @@
         "index": {
           "description": "The parsed message For instance in the case of progress messages during compilation progressOrigMsg might be of Compiling some path to file.hs some other path to file.o while progressMsg will just be Compiling",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "progressMsg",
           "package": "fpco-api",
@@ -10051,6 +10953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe total number of steps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "progressNumSteps",
           "package": "fpco-api",
@@ -10061,6 +10964,7 @@
         "index": {
           "description": "The total number of steps",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "progressNumSteps",
           "package": "fpco-api",
@@ -10075,6 +10979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current step number\n\u003c/p\u003e\u003cp\u003eWhen these Progress messages are generated from progress updates from\n ghc, it is entirely possible that we might get step 4\u003cem\u003e26, 16\u003c/em\u003e26, 3/26;\n the steps may not be continuous, might even be out of order, and may\n not finish at X/X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "progressStep",
           "package": "fpco-api",
@@ -10085,6 +10990,7 @@
         "index": {
           "description": "The current step number When these Progress messages are generated from progress updates from ghc it is entirely possible that we might get step the steps may not be continuous might even be out of order and may not finish at",
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "progressStep",
           "package": "fpco-api",
@@ -10098,6 +11004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rbsId",
           "package": "fpco-api",
@@ -10107,6 +11014,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rbsId",
           "package": "fpco-api",
@@ -10120,6 +11028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rbsMsg",
           "package": "fpco-api",
@@ -10129,6 +11038,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rbsMsg",
           "package": "fpco-api",
@@ -10142,6 +11052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rbsProgress",
           "package": "fpco-api",
@@ -10151,6 +11062,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rbsProgress",
           "package": "fpco-api",
@@ -10164,6 +11076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rbsResult",
           "package": "fpco-api",
@@ -10173,6 +11086,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rbsResult",
           "package": "fpco-api",
@@ -10186,6 +11100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rcArgs",
           "package": "fpco-api",
@@ -10195,6 +11110,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rcArgs",
           "normalized": "[Text]",
@@ -10210,6 +11126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rcEnv",
           "package": "fpco-api",
@@ -10219,6 +11136,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rcEnv",
           "normalized": "[(Text,Text)]",
@@ -10234,6 +11152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rcMainFile",
           "package": "fpco-api",
@@ -10243,6 +11162,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rcMainFile",
           "package": "fpco-api",
@@ -10256,6 +11176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rcTitle",
           "package": "fpco-api",
@@ -10265,6 +11186,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rcTitle",
           "package": "fpco-api",
@@ -10278,6 +11200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rmPsLevel",
           "package": "fpco-api",
@@ -10287,6 +11210,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rmPsLevel",
           "package": "fpco-api",
@@ -10300,6 +11224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rmPsMessage",
           "package": "fpco-api",
@@ -10309,6 +11234,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rmPsMessage",
           "package": "fpco-api",
@@ -10322,6 +11248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rmeMessage",
           "package": "fpco-api",
@@ -10331,6 +11258,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rmeMessage",
           "package": "fpco-api",
@@ -10344,6 +11272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rmeMessageTag",
           "package": "fpco-api",
@@ -10353,6 +11282,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rmeMessageTag",
           "package": "fpco-api",
@@ -10366,6 +11296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "rmeSeqNumber",
           "package": "fpco-api",
@@ -10375,6 +11306,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "rmeSeqNumber",
           "package": "fpco-api",
@@ -10388,6 +11320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "snapBuildStatus",
           "package": "fpco-api",
@@ -10397,6 +11330,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "snapBuildStatus",
           "package": "fpco-api",
@@ -10410,6 +11344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "snapCompileStatus",
           "package": "fpco-api",
@@ -10419,6 +11354,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "snapCompileStatus",
           "package": "fpco-api",
@@ -10432,6 +11368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "snapOpeningStatus",
           "package": "fpco-api",
@@ -10441,6 +11378,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "snapOpeningStatus",
           "package": "fpco-api",
@@ -10454,6 +11392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "snapProcessStatus",
           "package": "fpco-api",
@@ -10463,6 +11402,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "snapProcessStatus",
           "package": "fpco-api",
@@ -10476,6 +11416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "spanFilePath",
           "package": "fpco-api",
@@ -10485,6 +11426,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "spanFilePath",
           "package": "fpco-api",
@@ -10498,6 +11440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "spanFromColumn",
           "package": "fpco-api",
@@ -10507,6 +11450,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "spanFromColumn",
           "package": "fpco-api",
@@ -10520,6 +11464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "spanFromLine",
           "package": "fpco-api",
@@ -10529,6 +11474,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "spanFromLine",
           "package": "fpco-api",
@@ -10542,6 +11488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "spanToColumn",
           "package": "fpco-api",
@@ -10551,6 +11498,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "spanToColumn",
           "package": "fpco-api",
@@ -10564,6 +11512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "spanToLine",
           "package": "fpco-api",
@@ -10573,6 +11522,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "spanToLine",
           "package": "fpco-api",
@@ -10586,6 +11536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ssiCabalName",
           "package": "fpco-api",
@@ -10595,6 +11546,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ssiCabalName",
           "package": "fpco-api",
@@ -10608,6 +11560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ssiCabalVersion",
           "package": "fpco-api",
@@ -10617,6 +11570,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ssiCabalVersion",
           "package": "fpco-api",
@@ -10630,6 +11584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ssiEnvironment",
           "package": "fpco-api",
@@ -10639,6 +11594,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ssiEnvironment",
           "package": "fpco-api",
@@ -10652,6 +11608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ssiExtensions",
           "package": "fpco-api",
@@ -10661,6 +11618,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ssiExtensions",
           "normalized": "[SetExtension]",
@@ -10676,6 +11634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ssiExtraPackages",
           "package": "fpco-api",
@@ -10685,6 +11644,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ssiExtraPackages",
           "package": "fpco-api",
@@ -10698,6 +11658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ssiGhcArgs",
           "package": "fpco-api",
@@ -10707,6 +11668,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ssiGhcArgs",
           "normalized": "[Text]",
@@ -10722,6 +11684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ssiHiddenPackages",
           "package": "fpco-api",
@@ -10731,6 +11694,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ssiHiddenPackages",
           "package": "fpco-api",
@@ -10744,6 +11708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ssiModuleTemplate",
           "package": "fpco-api",
@@ -10753,6 +11718,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ssiModuleTemplate",
           "package": "fpco-api",
@@ -10766,6 +11732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "tliColumn",
           "package": "fpco-api",
@@ -10775,6 +11742,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "tliColumn",
           "package": "fpco-api",
@@ -10788,6 +11756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "tliLine",
           "package": "fpco-api",
@@ -10797,6 +11766,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "tliLine",
           "package": "fpco-api",
@@ -10810,6 +11780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "tliName",
           "package": "fpco-api",
@@ -10819,6 +11790,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "tliName",
           "package": "fpco-api",
@@ -10832,6 +11804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ubExe",
           "package": "fpco-api",
@@ -10841,6 +11814,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ubExe",
           "package": "fpco-api",
@@ -10854,6 +11828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "ubUrl",
           "package": "fpco-api",
@@ -10863,6 +11838,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "ubUrl",
           "package": "fpco-api",
@@ -10876,6 +11852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unBuildId",
           "package": "fpco-api",
@@ -10885,6 +11862,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unBuildId",
           "package": "fpco-api",
@@ -10898,6 +11876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unCompileId",
           "package": "fpco-api",
@@ -10907,6 +11886,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unCompileId",
           "package": "fpco-api",
@@ -10920,6 +11900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unFayBgJobId",
           "package": "fpco-api",
@@ -10929,6 +11910,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unFayBgJobId",
           "package": "fpco-api",
@@ -10942,6 +11924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unFayDeploymentId",
           "package": "fpco-api",
@@ -10951,6 +11934,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unFayDeploymentId",
           "package": "fpco-api",
@@ -10964,6 +11948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unFayFileName",
           "package": "fpco-api",
@@ -10973,6 +11958,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unFayFileName",
           "package": "fpco-api",
@@ -10986,6 +11972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unFayManualMergeId",
           "package": "fpco-api",
@@ -10995,6 +11982,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unFayManualMergeId",
           "package": "fpco-api",
@@ -11008,6 +11996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unFayModuleName",
           "package": "fpco-api",
@@ -11017,6 +12006,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unFayModuleName",
           "package": "fpco-api",
@@ -11030,6 +12020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unFayProjectId",
           "package": "fpco-api",
@@ -11039,6 +12030,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unFayProjectId",
           "package": "fpco-api",
@@ -11052,6 +12044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unFayRunConfigId",
           "package": "fpco-api",
@@ -11061,6 +12054,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unFayRunConfigId",
           "package": "fpco-api",
@@ -11074,6 +12068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unFayWebAppId",
           "package": "fpco-api",
@@ -11083,6 +12078,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unFayWebAppId",
           "package": "fpco-api",
@@ -11096,6 +12092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unHoogleId",
           "package": "fpco-api",
@@ -11105,6 +12102,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unHoogleId",
           "package": "fpco-api",
@@ -11118,6 +12116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unHtmlReply",
           "package": "fpco-api",
@@ -11127,6 +12126,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unHtmlReply",
           "package": "fpco-api",
@@ -11140,6 +12140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unProcId",
           "package": "fpco-api",
@@ -11149,6 +12150,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unProcId",
           "package": "fpco-api",
@@ -11162,6 +12164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unRandomHostname",
           "package": "fpco-api",
@@ -11171,6 +12174,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unRandomHostname",
           "package": "fpco-api",
@@ -11184,6 +12188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unSearchId",
           "package": "fpco-api",
@@ -11193,6 +12198,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unSearchId",
           "package": "fpco-api",
@@ -11206,6 +12212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unTextReply",
           "package": "fpco-api",
@@ -11215,6 +12222,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unTextReply",
           "package": "fpco-api",
@@ -11228,6 +12236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "unTutorialConcurrentToken",
           "package": "fpco-api",
@@ -11237,6 +12246,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "unTutorialConcurrentToken",
           "package": "fpco-api",
@@ -11250,6 +12260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "wapArgs",
           "package": "fpco-api",
@@ -11259,6 +12270,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "wapArgs",
           "normalized": "[Text]",
@@ -11274,6 +12286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "wapEnv",
           "package": "fpco-api",
@@ -11283,6 +12296,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "wapEnv",
           "normalized": "[(Text,Text)]",
@@ -11298,6 +12312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "wapFileName",
           "package": "fpco-api",
@@ -11307,6 +12322,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "wapFileName",
           "package": "fpco-api",
@@ -11320,6 +12336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "wapHostname",
           "package": "fpco-api",
@@ -11329,6 +12346,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "wapHostname",
           "package": "fpco-api",
@@ -11342,6 +12360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "wapSsl",
           "package": "fpco-api",
@@ -11351,6 +12370,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "wapSsl",
           "package": "fpco-api",
@@ -11364,6 +12384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API.Types",
           "name": "wapTitle",
           "package": "fpco-api",
@@ -11373,6 +12394,7 @@
         },
         "index": {
           "hierarchy": "FP API Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API.Types",
           "name": "wapTitle",
           "package": "fpco-api",
@@ -11387,6 +12409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommands for the IDE API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "API",
           "package": "fpco-api",
@@ -11396,6 +12419,7 @@
         "index": {
           "description": "Commands for the IDE API",
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "API",
           "package": "fpco-api",
@@ -11409,6 +12433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "addFile",
           "package": "fpco-api",
@@ -11418,6 +12443,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "addFile",
           "normalized": "FileInfo-\u003eFayProjectId-\u003ea SaveFileOutput",
@@ -11433,6 +12459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "deleteFile",
           "package": "fpco-api",
@@ -11442,6 +12469,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "deleteFile",
           "normalized": "FayFileName-\u003eFayProjectId-\u003ea CompileChanged",
@@ -11457,6 +12485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "getAutocompletions",
           "package": "fpco-api",
@@ -11466,6 +12495,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "getAutocompletions",
           "normalized": "AutoCompleteInput-\u003eFayProjectId-\u003ea()",
@@ -11481,6 +12511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "getDefinitionSource",
           "package": "fpco-api",
@@ -11490,6 +12521,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "getDefinitionSource",
           "normalized": "SourceSpan-\u003eFayProjectId-\u003ea()",
@@ -11505,6 +12537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "getFile",
           "package": "fpco-api",
@@ -11514,6 +12547,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "getFile",
           "normalized": "FayFileName-\u003eFayProjectId-\u003ea FileContent",
@@ -11529,6 +12563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "getFileToken",
           "package": "fpco-api",
@@ -11538,6 +12573,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "getFileToken",
           "normalized": "FayFileName-\u003eFayProjectId-\u003ea FayTutorialToken",
@@ -11553,6 +12589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "getInitialProjectInfo",
           "package": "fpco-api",
@@ -11562,6 +12599,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "getInitialProjectInfo",
           "normalized": "FayProjectId-\u003ea InitialProjectInfo",
@@ -11577,6 +12615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "getProjectId",
           "package": "fpco-api",
@@ -11586,6 +12625,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "getProjectId",
           "normalized": "Text-\u003ea FayProjectId",
@@ -11601,6 +12641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "getProjectMessages",
           "package": "fpco-api",
@@ -11610,6 +12651,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "getProjectMessages",
           "normalized": "ProjectMessagesRequest-\u003eFayProjectId-\u003ea ProjectMessagesOutput",
@@ -11625,6 +12667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "getTypeInfo",
           "package": "fpco-api",
@@ -11634,6 +12677,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "getTypeInfo",
           "normalized": "SourceSpan-\u003eInt-\u003eFayProjectId-\u003ea()",
@@ -11649,6 +12693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "ideHoogleSearch",
           "package": "fpco-api",
@@ -11658,6 +12703,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "ideHoogleSearch",
           "normalized": "Maybe FayFileName-\u003eBool-\u003eInt-\u003eInt-\u003eInt-\u003eText-\u003eFayProjectId-\u003ea HoogleId",
@@ -11673,6 +12719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.API",
           "name": "saveFile",
           "package": "fpco-api",
@@ -11682,6 +12729,7 @@
         },
         "index": {
           "hierarchy": "FP API",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.API",
           "name": "saveFile",
           "normalized": "FayFileName-\u003eText-\u003eFayTutorialToken-\u003eFayProjectId-\u003ea SaveFileOutput",
@@ -11698,6 +12746,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServer configuration.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Config",
           "name": "Config",
           "package": "fpco-api",
@@ -11707,6 +12756,7 @@
         "index": {
           "description": "Server configuration",
           "hierarchy": "FP Server Config",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Config",
           "name": "Config",
           "package": "fpco-api",
@@ -11721,6 +12771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault port to accept commands on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Config",
           "name": "defaultPort",
           "package": "fpco-api",
@@ -11731,6 +12782,7 @@
         "index": {
           "description": "Default port to accept commands on",
           "hierarchy": "FP Server Config",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Config",
           "name": "defaultPort",
           "package": "fpco-api",
@@ -11745,6 +12797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault url to accept commands on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Config",
           "name": "defaultUrl",
           "package": "fpco-api",
@@ -11755,6 +12808,7 @@
         "index": {
           "description": "Default url to accept commands on",
           "hierarchy": "FP Server Config",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Config",
           "name": "defaultUrl",
           "package": "fpco-api",
@@ -11769,6 +12823,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSource spans and locations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Spans",
           "name": "Spans",
           "package": "fpco-api",
@@ -11778,6 +12833,7 @@
         "index": {
           "description": "Source spans and locations",
           "hierarchy": "FP Server Spans",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Spans",
           "name": "Spans",
           "package": "fpco-api",
@@ -11791,6 +12847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Spans",
           "name": "makeEitherLoc",
           "package": "fpco-api",
@@ -11800,6 +12857,7 @@
         },
         "index": {
           "hierarchy": "FP Server Spans",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Spans",
           "name": "makeEitherLoc",
           "normalized": "FilePath-\u003eEitherSpan-\u003eMaybe Loc",
@@ -11815,6 +12873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Spans",
           "name": "makeLoc",
           "package": "fpco-api",
@@ -11824,6 +12883,7 @@
         },
         "index": {
           "hierarchy": "FP Server Spans",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Spans",
           "name": "makeLoc",
           "normalized": "FilePath-\u003eSourceSpan-\u003eLoc",
@@ -11840,6 +12900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint either a useful span or a useless one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Spans",
           "name": "printEitherSpan",
           "package": "fpco-api",
@@ -11850,6 +12911,7 @@
         "index": {
           "description": "Print either useful span or useless one",
           "hierarchy": "FP Server Spans",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Spans",
           "name": "printEitherSpan",
           "normalized": "FilePath-\u003eEitherSpan-\u003eText",
@@ -11866,6 +12928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a span as Main.hs:1:23\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Spans",
           "name": "printSourceSpan",
           "package": "fpco-api",
@@ -11876,6 +12939,7 @@
         "index": {
           "description": "Print span as Main.hs",
           "hierarchy": "FP Server Spans",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Spans",
           "name": "printSourceSpan",
           "normalized": "FilePath-\u003eSourceSpan-\u003eText",
@@ -11891,6 +12955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Spans",
           "name": "toSpanType",
           "package": "fpco-api",
@@ -11900,6 +12965,7 @@
         },
         "index": {
           "hierarchy": "FP Server Spans",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Spans",
           "name": "toSpanType",
           "normalized": "TypeInfo-\u003eSpanType",
@@ -11916,6 +12982,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServer types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Types",
           "package": "fpco-api",
@@ -11925,6 +12992,7 @@
         "index": {
           "description": "Server types",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Types",
           "package": "fpco-api",
@@ -11939,6 +13007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA callback that will look at incoming messages and determine\n whether it's what it wants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Callback",
           "package": "fpco-api",
@@ -11948,6 +13017,7 @@
         "index": {
           "description": "callback that will look at incoming messages and determine whether it what it wants",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Callback",
           "package": "fpco-api",
@@ -11962,6 +13032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message from the compiler about code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "CompileMessage",
           "package": "fpco-api",
@@ -11971,6 +13042,7 @@
         "index": {
           "description": "message from the compiler about code",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "CompileMessage",
           "package": "fpco-api",
@@ -11985,6 +13057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Config",
           "package": "fpco-api",
@@ -11994,6 +13067,7 @@
         "index": {
           "description": "Configuration for server",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Config",
           "package": "fpco-api",
@@ -12007,6 +13081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "DefinitionLoc",
           "package": "fpco-api",
@@ -12015,6 +13090,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "DefinitionLoc",
           "package": "fpco-api",
@@ -12029,6 +13105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the callback done looking for what it wants?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Done",
           "package": "fpco-api",
@@ -12038,6 +13115,7 @@
         "index": {
           "description": "Is the callback done looking for what it wants",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Done",
           "package": "fpco-api",
@@ -12051,6 +13129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Loc",
           "package": "fpco-api",
@@ -12059,6 +13138,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Loc",
           "package": "fpco-api",
@@ -12072,6 +13152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ModuleId",
           "package": "fpco-api",
@@ -12080,6 +13161,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ModuleId",
           "package": "fpco-api",
@@ -12094,6 +13176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage from the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Msg",
           "package": "fpco-api",
@@ -12103,6 +13186,7 @@
         "index": {
           "description": "Message from the client",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Msg",
           "package": "fpco-api",
@@ -12117,6 +13201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReply to the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Reply",
           "package": "fpco-api",
@@ -12126,6 +13211,7 @@
         "index": {
           "description": "Reply to the client",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Reply",
           "package": "fpco-api",
@@ -12140,6 +13226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Server",
           "package": "fpco-api",
@@ -12149,6 +13236,7 @@
         "index": {
           "description": "Server monad",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Server",
           "package": "fpco-api",
@@ -12163,6 +13251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration for the server and some state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ServerReader",
           "package": "fpco-api",
@@ -12172,6 +13261,7 @@
         "index": {
           "description": "The configuration for the server and some state",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ServerReader",
           "package": "fpco-api",
@@ -12186,6 +13276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type info thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "SpanType",
           "package": "fpco-api",
@@ -12195,6 +13286,7 @@
         "index": {
           "description": "type info thing",
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "SpanType",
           "package": "fpco-api",
@@ -12208,6 +13300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Callback",
           "package": "fpco-api",
@@ -12217,6 +13310,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Callback",
           "normalized": "Callback(Maybe Int-\u003eRunnerMessage-\u003eServer Done)",
@@ -12232,6 +13326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "CompileMessage",
           "package": "fpco-api",
@@ -12241,6 +13336,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "CompileMessage",
           "package": "fpco-api",
@@ -12254,6 +13350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Config",
           "package": "fpco-api",
@@ -12263,6 +13360,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Config",
           "package": "fpco-api",
@@ -12276,6 +13374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "DefinitionImport",
           "package": "fpco-api",
@@ -12285,6 +13384,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "DefinitionImport",
           "package": "fpco-api",
@@ -12298,6 +13398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "DefinitionLoc",
           "package": "fpco-api",
@@ -12307,6 +13408,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "DefinitionLoc",
           "package": "fpco-api",
@@ -12320,6 +13422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "DefinitionUseless",
           "package": "fpco-api",
@@ -12329,6 +13432,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "DefinitionUseless",
           "package": "fpco-api",
@@ -12342,6 +13446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Done",
           "package": "fpco-api",
@@ -12351,6 +13456,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Done",
           "package": "fpco-api",
@@ -12364,6 +13470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "Loc",
           "package": "fpco-api",
@@ -12373,6 +13480,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "Loc",
           "package": "fpco-api",
@@ -12386,6 +13494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ModuleId",
           "package": "fpco-api",
@@ -12395,6 +13504,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ModuleId",
           "package": "fpco-api",
@@ -12408,6 +13518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgAutoComplete",
           "package": "fpco-api",
@@ -12417,6 +13528,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgAutoComplete",
           "package": "fpco-api",
@@ -12430,6 +13542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgCheckModule",
           "package": "fpco-api",
@@ -12439,6 +13552,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgCheckModule",
           "package": "fpco-api",
@@ -12452,6 +13566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgDownloadFiles",
           "package": "fpco-api",
@@ -12461,6 +13576,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgDownloadFiles",
           "package": "fpco-api",
@@ -12474,6 +13590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgGetDefinition",
           "package": "fpco-api",
@@ -12483,6 +13600,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgGetDefinition",
           "package": "fpco-api",
@@ -12496,6 +13614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgHoogleDb",
           "package": "fpco-api",
@@ -12505,6 +13624,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgHoogleDb",
           "package": "fpco-api",
@@ -12518,6 +13638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgHoogleIdent",
           "package": "fpco-api",
@@ -12527,6 +13648,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgHoogleIdent",
           "package": "fpco-api",
@@ -12540,6 +13662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgSaveModule",
           "package": "fpco-api",
@@ -12549,6 +13672,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgSaveModule",
           "package": "fpco-api",
@@ -12562,6 +13686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgTypeInfo",
           "package": "fpco-api",
@@ -12571,6 +13696,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgTypeInfo",
           "package": "fpco-api",
@@ -12584,6 +13710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "MsgWriteEmacsConfig",
           "package": "fpco-api",
@@ -12593,6 +13720,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "MsgWriteEmacsConfig",
           "package": "fpco-api",
@@ -12606,6 +13734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "NotDone",
           "package": "fpco-api",
@@ -12615,6 +13744,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "NotDone",
           "package": "fpco-api",
@@ -12628,6 +13758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyCompileInfos",
           "package": "fpco-api",
@@ -12637,6 +13768,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyCompileInfos",
           "normalized": "ReplyCompileInfos[SourceInfo]",
@@ -12652,6 +13784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyCompileMessages",
           "package": "fpco-api",
@@ -12661,6 +13794,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyCompileMessages",
           "normalized": "ReplyCompileMessages[CompileMessage]",
@@ -12676,6 +13810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyCompletions",
           "package": "fpco-api",
@@ -12685,6 +13820,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyCompletions",
           "normalized": "ReplyCompletions[Text]",
@@ -12700,6 +13836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyHoogleResult",
           "package": "fpco-api",
@@ -12709,6 +13846,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyHoogleResult",
           "package": "fpco-api",
@@ -12722,6 +13860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyHoogleResults",
           "package": "fpco-api",
@@ -12731,6 +13870,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyHoogleResults",
           "normalized": "ReplyHoogleResults[HoogleResult]",
@@ -12746,6 +13886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyLocation",
           "package": "fpco-api",
@@ -12755,6 +13896,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyLocation",
           "package": "fpco-api",
@@ -12768,6 +13910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyOK",
           "package": "fpco-api",
@@ -12777,6 +13920,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyOK",
           "normalized": "ReplyOK()",
@@ -12792,6 +13936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyPong",
           "package": "fpco-api",
@@ -12801,6 +13946,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyPong",
           "normalized": "ReplyPong()",
@@ -12816,6 +13962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplySaveStatus",
           "package": "fpco-api",
@@ -12825,6 +13972,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplySaveStatus",
           "package": "fpco-api",
@@ -12838,6 +13986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ReplyTypeInfo",
           "package": "fpco-api",
@@ -12847,6 +13996,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ReplyTypeInfo",
           "normalized": "ReplyTypeInfo[SpanType]",
@@ -12862,6 +14012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "ServerReader",
           "package": "fpco-api",
@@ -12871,6 +14022,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "ServerReader",
           "package": "fpco-api",
@@ -12884,6 +14036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "SpanType",
           "package": "fpco-api",
@@ -12893,6 +14046,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "SpanType",
           "package": "fpco-api",
@@ -12906,6 +14060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "configAgent",
           "package": "fpco-api",
@@ -12915,6 +14070,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "configAgent",
           "package": "fpco-api",
@@ -12928,6 +14084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "configDebug",
           "package": "fpco-api",
@@ -12937,6 +14094,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "configDebug",
           "package": "fpco-api",
@@ -12950,6 +14108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "configPort",
           "package": "fpco-api",
@@ -12959,6 +14118,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "configPort",
           "package": "fpco-api",
@@ -12972,6 +14132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "configStartServer",
           "package": "fpco-api",
@@ -12981,6 +14142,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "configStartServer",
           "package": "fpco-api",
@@ -12994,6 +14156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "configToken",
           "package": "fpco-api",
@@ -13003,6 +14166,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "configToken",
           "package": "fpco-api",
@@ -13016,6 +14180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "configUrl",
           "package": "fpco-api",
@@ -13025,6 +14190,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "configUrl",
           "package": "fpco-api",
@@ -13038,6 +14204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "serverCC",
           "package": "fpco-api",
@@ -13047,6 +14214,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "serverCC",
           "package": "fpco-api",
@@ -13060,6 +14228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "serverConfig",
           "package": "fpco-api",
@@ -13069,6 +14238,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "serverConfig",
           "package": "fpco-api",
@@ -13082,6 +14252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "serverPollers",
           "package": "fpco-api",
@@ -13091,6 +14262,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "serverPollers",
           "normalized": "MVar(Map FayProjectId[Callback])",
@@ -13106,6 +14278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server.Types",
           "name": "serverTokens",
           "package": "fpco-api",
@@ -13115,6 +14288,7 @@
         },
         "index": {
           "hierarchy": "FP Server Types",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server.Types",
           "name": "serverTokens",
           "package": "fpco-api",
@@ -13129,6 +14303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain entry point to the server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "Server",
           "package": "fpco-api",
@@ -13138,6 +14313,7 @@
         "index": {
           "description": "Main entry point to the server",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "Server",
           "package": "fpco-api",
@@ -13152,6 +14328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept a connection on the given socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "acceptConnection",
           "package": "fpco-api",
@@ -13162,6 +14339,7 @@
         "index": {
           "description": "Accept connection on the given socket",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "acceptConnection",
           "normalized": "Socket-\u003eServer()",
@@ -13178,6 +14356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies the given callbacks to the given message. Returns a new\n list of callbacks. If any of the callbacks are now done, they will\n be removed from the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "applyCallbacks",
           "package": "fpco-api",
@@ -13188,6 +14367,7 @@
         "index": {
           "description": "Applies the given callbacks to the given message Returns new list of callbacks If any of the callbacks are now done they will be removed from the list",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "applyCallbacks",
           "normalized": "[Callback]-\u003e(Maybe Int,RunnerMessage)-\u003eServer[Callback]",
@@ -13204,6 +14384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutocomplete the given prefix replying with a list of\n completions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "autoComplete",
           "package": "fpco-api",
@@ -13214,6 +14395,7 @@
         "index": {
           "description": "Autocomplete the given prefix replying with list of completions",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "autoComplete",
           "normalized": "Handle-\u003eFayProjectId-\u003eFilePath-\u003eText-\u003eServer()",
@@ -13230,6 +14412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the given module. Necessary for flycheck.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "checkModule",
           "package": "fpco-api",
@@ -13240,6 +14423,7 @@
         "index": {
           "description": "Check the given module Necessary for flycheck",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "checkModule",
           "normalized": "Handle-\u003eFayProjectId-\u003eFilePath-\u003eFilePath-\u003eFilePath-\u003eServer()",
@@ -13256,6 +14440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the given handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "close",
           "package": "fpco-api",
@@ -13266,6 +14451,7 @@
         "index": {
           "description": "Close the given handle",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "close",
           "normalized": "Handle-\u003eServer()",
@@ -13281,6 +14467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an API message to a more structurally convenient reply message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "convertMsg",
           "package": "fpco-api",
@@ -13291,6 +14478,7 @@
         "index": {
           "description": "Convert an API message to more structurally convenient reply message",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "convertMsg",
           "normalized": "FilePath-\u003eSourceInfo-\u003eCompileMessage",
@@ -13307,6 +14495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDownload all files in the project, overwriting any local copies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "downloadFiles",
           "package": "fpco-api",
@@ -13317,6 +14506,7 @@
         "index": {
           "description": "Download all files in the project overwriting any local copies",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "downloadFiles",
           "normalized": "Handle-\u003eEither Text FayProjectId-\u003eFilePath-\u003eServer()",
@@ -13333,6 +14523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the definition location of the identifier at the given span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "getDefinition",
           "package": "fpco-api",
@@ -13343,6 +14534,7 @@
         "index": {
           "description": "Get the definition location of the identifier at the given span",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "getDefinition",
           "normalized": "Handle-\u003eFayProjectId-\u003eFilePath-\u003eFilePath-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eServer()",
@@ -13359,6 +14551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the project ID from either a URL or a project ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "getFayProjectId",
           "package": "fpco-api",
@@ -13369,6 +14562,7 @@
         "index": {
           "description": "Get the project ID from either URL or project ID",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "getFayProjectId",
           "normalized": "Either Text FayProjectId-\u003eServer FayProjectId",
@@ -13385,6 +14579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet initial project information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "getIPI",
           "package": "fpco-api",
@@ -13395,6 +14590,7 @@
         "index": {
           "description": "Get initial project information",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "getIPI",
           "normalized": "FayProjectId-\u003eServer()",
@@ -13411,6 +14607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the token of the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "getToken",
           "package": "fpco-api",
@@ -13421,6 +14618,7 @@
         "index": {
           "description": "Get the token of the given file",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "getToken",
           "normalized": "MVar(Map FilePath FayTutorialToken)-\u003eFayProjectId-\u003eFilePath-\u003eFilePath-\u003eServer FayTutorialToken",
@@ -13437,6 +14635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle a line of input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "handleLine",
           "package": "fpco-api",
@@ -13447,6 +14646,7 @@
         "index": {
           "description": "Handle line of input",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "handleLine",
           "normalized": "Handle-\u003eServer()",
@@ -13463,6 +14663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle any incoming message from the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "handleMessage",
           "package": "fpco-api",
@@ -13473,6 +14674,7 @@
         "index": {
           "description": "Handle any incoming message from the client",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "handleMessage",
           "normalized": "Handle-\u003eMsg-\u003eServer()",
@@ -13489,6 +14691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHoogle search whole database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "hoogleDb",
           "package": "fpco-api",
@@ -13499,6 +14702,7 @@
         "index": {
           "description": "Hoogle search whole database",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "hoogleDb",
           "normalized": "Handle-\u003eFayProjectId-\u003eText-\u003eServer()",
@@ -13515,6 +14719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHoogle search for an identifier in a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "hoogleIdent",
           "package": "fpco-api",
@@ -13525,6 +14730,7 @@
         "index": {
           "description": "Hoogle search for an identifier in module",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "hoogleIdent",
           "normalized": "Handle-\u003eFayProjectId-\u003eString-\u003eText-\u003eServer()",
@@ -13541,6 +14747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a package:module pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "makeModuleId",
           "package": "fpco-api",
@@ -13551,6 +14758,7 @@
         "index": {
           "description": "Print package module pair",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "makeModuleId",
           "normalized": "FayModuleId-\u003eModuleId",
@@ -13567,6 +14775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoll for new messages and apply any queued callbacks to them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "poll",
           "package": "fpco-api",
@@ -13577,6 +14786,7 @@
         "index": {
           "description": "Poll for new messages and apply any queued callbacks to them",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "poll",
           "normalized": "FayProjectId-\u003eServer()",
@@ -13592,6 +14802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a poller from the polling list and any broadcast\n callbacks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "removePoller",
           "package": "fpco-api",
@@ -13602,6 +14813,7 @@
         "index": {
           "description": "Remove poller from the polling list and any broadcast callbacks",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "removePoller",
           "normalized": "FayProjectId-\u003eServer()",
@@ -13618,6 +14830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReply with the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "reply",
           "package": "fpco-api",
@@ -13628,6 +14841,7 @@
         "index": {
           "description": "Reply with the given value",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "reply",
           "normalized": "Handle-\u003ea-\u003eServer()",
@@ -13643,6 +14857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given Server command with the config. Good for testing in the repl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "runWithConfig",
           "package": "fpco-api",
@@ -13653,6 +14868,7 @@
         "index": {
           "description": "Run the given Server command with the config Good for testing in the repl",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "runWithConfig",
           "normalized": "Server a-\u003eConfig-\u003eIO a",
@@ -13669,6 +14885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave the given module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "saveTheModule",
           "package": "fpco-api",
@@ -13679,6 +14896,7 @@
         "index": {
           "description": "Save the given module",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "saveTheModule",
           "normalized": "Handle-\u003eFayProjectId-\u003eFilePath-\u003eFilePath-\u003eServer()",
@@ -13695,6 +14913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "startServer",
           "package": "fpco-api",
@@ -13705,6 +14924,7 @@
         "index": {
           "description": "Start the server",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "startServer",
           "normalized": "Bool-\u003eServer()",
@@ -13721,6 +14941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the trailing slash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "stripSlash",
           "package": "fpco-api",
@@ -13731,6 +14952,7 @@
         "index": {
           "description": "Strip the trailing slash",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "stripSlash",
           "normalized": "Text-\u003eText",
@@ -13747,6 +14969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet type info of span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "typeInfo",
           "package": "fpco-api",
@@ -13757,6 +14980,7 @@
         "index": {
           "description": "Get type info of span",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "typeInfo",
           "normalized": "Handle-\u003eFayProjectId-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eServer()",
@@ -13773,6 +14997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the contents of the given file from the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "updateFileContents",
           "package": "fpco-api",
@@ -13783,6 +15008,7 @@
         "index": {
           "description": "Update the contents of the given file from the server",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "updateFileContents",
           "normalized": "MVar(Map FilePath FayTutorialToken)-\u003eFayProjectId-\u003eFilePath-\u003eFilePath-\u003eServer()",
@@ -13799,6 +15025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the token of the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "updateToken",
           "package": "fpco-api",
@@ -13809,6 +15036,7 @@
         "index": {
           "description": "Update the token of the given file",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "updateToken",
           "normalized": "MVar(Map FilePath FayTutorialToken)-\u003eFilePath-\u003eFilePath-\u003eFayTutorialToken-\u003eServer()",
@@ -13825,6 +15053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart poller if there isn't already one running for the given\n project, and in any case add the given callback to the list. This\n blocks on the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "wait",
           "package": "fpco-api",
@@ -13834,6 +15063,7 @@
         "index": {
           "description": "Start poller if there isn already one running for the given project and in any case add the given callback to the list This blocks on the result",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "wait",
           "normalized": "FayProjectId-\u003eCallback-\u003eServer()",
@@ -13849,6 +15079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo something exclusively with tokens. Due to the fact that\n flychecking and buffer saving *can* occur simultaneously from\n Emacs, we don't want those two racing save capabilities.\n\u003c/p\u003e\u003cp\u003eOn the other hand it doesn't matter what order they occur because\n they'll be saving the same content. So we simply require that any\n command that uses module tokens needs to happen in an exclusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "withTokens",
           "package": "fpco-api",
@@ -13859,6 +15090,7 @@
         "index": {
           "description": "Do something exclusively with tokens Due to the fact that flychecking and buffer saving can occur simultaneously from Emacs we don want those two racing save capabilities On the other hand it doesn matter what order they occur because they ll be saving the same content So we simply require that any command that uses module tokens needs to happen in an exclusion",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "withTokens",
           "normalized": "(MVar(Map FilePath FayTutorialToken)-\u003eServer a)-\u003eServer a",
@@ -13875,6 +15107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite out the .dir-locals.el file for the project.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:42 UTC 2014",
           "module": "FP.Server",
           "name": "writeEmacsConfig",
           "package": "fpco-api",
@@ -13885,6 +15118,7 @@
         "index": {
           "description": "Write out the dir-locals.el file for the project",
           "hierarchy": "FP Server",
+          "indexed": "2014-03-11T18:11:42",
           "module": "FP.Server",
           "name": "writeEmacsConfig",
           "normalized": "Handle-\u003eEither Text FayProjectId-\u003eFilePath-\u003eServer()",

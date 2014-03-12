@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "click-clack"
+        "phrase": "click-clack",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Chart-gtk"
+        "phrase": "Chart-gtk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:26 UTC 2014",
           "module": "Graphics.Rendering.Chart.Gtk",
           "name": "Gtk",
           "package": "Chart-gtk",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Gtk",
+          "indexed": "2014-03-11T16:36:26",
           "module": "Graphics.Rendering.Chart.Gtk",
           "name": "Gtk",
           "package": "Chart-gtk",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new GTK window displaying a renderable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:26 UTC 2014",
           "module": "Graphics.Rendering.Chart.Gtk",
           "name": "createRenderableWindow",
           "package": "Chart-gtk",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Create new GTK window displaying renderable",
           "hierarchy": "Graphics Rendering Chart Gtk",
+          "indexed": "2014-03-11T16:36:26",
           "module": "Graphics.Rendering.Chart.Gtk",
           "name": "createRenderableWindow",
           "normalized": "Renderable a-\u003eInt-\u003eInt-\u003eIO Window",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a renderable in a gtk window.\n\u003c/p\u003e\u003cp\u003eNote that this is a convenience function that initialises GTK on\n it's first call, but not subsequent calls. Hence it's \n unlikely to be compatible with other code using gtk. In \n that case use createRenderableWindow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:26 UTC 2014",
           "module": "Graphics.Rendering.Chart.Gtk",
           "name": "renderableToWindow",
           "package": "Chart-gtk",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Display renderable in gtk window Note that this is convenience function that initialises GTK on it first call but not subsequent calls Hence it unlikely to be compatible with other code using gtk In that case use createRenderableWindow",
           "hierarchy": "Graphics Rendering Chart Gtk",
+          "indexed": "2014-03-11T16:36:26",
           "module": "Graphics.Rendering.Chart.Gtk",
           "name": "renderableToWindow",
           "normalized": "Renderable a-\u003eInt-\u003eInt-\u003eIO()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:26 UTC 2014",
           "module": "Graphics.Rendering.Chart.Gtk",
           "name": "updateCanvas",
           "package": "Chart-gtk",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Gtk",
+          "indexed": "2014-03-11T16:36:26",
           "module": "Graphics.Rendering.Chart.Gtk",
           "name": "updateCanvas",
           "normalized": "Renderable a-\u003eDrawingArea-\u003eIO Bool",

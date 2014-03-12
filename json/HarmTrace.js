@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HarmTrace"
+        "phrase": "HarmTrace",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Combining low-level features (VAMP plug-ins) with high-level\n knowledge (the HarmTrace harmony model)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Annotate",
           "name": "Annotate",
           "package": "HarmTrace",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Summary Combining low-level features VAMP plug-ins with high-level knowledge the HarmTrace harmony model",
           "hierarchy": "HarmTrace Audio Annotate",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Annotate",
           "name": "Annotate",
           "package": "HarmTrace",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an annotation out of a Chord candidate list by just picking the \n first chord. This annotator does smart grouping \n (see \u003ccode\u003e\u003ca\u003emergeByBeat\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Annotate",
           "name": "groupAnnotator",
           "package": "HarmTrace",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Creates an annotation out of Chord candidate list by just picking the first chord This annotator does smart grouping see mergeByBeat",
           "hierarchy": "HarmTrace Audio Annotate",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Annotate",
           "name": "groupAnnotator",
           "normalized": "GrammarEx-\u003eMaybe[TimedData Key]-\u003eAudioFeat-\u003eChordAnnotation",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMPTrEE (Model Propelled Transcription of Euphonic Enitities): \n a sophisticated, harmony and beat informed chord annotator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Annotate",
           "name": "mptreeAnnotator",
           "package": "HarmTrace",
@@ -78,6 +83,7 @@
         "index": {
           "description": "MPTrEE Model Propelled Transcription of Euphonic Enitities sophisticated harmony and beat informed chord annotator",
           "hierarchy": "HarmTrace Audio Annotate",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Annotate",
           "name": "mptreeAnnotator",
           "normalized": "GrammarEx-\u003eMaybe[TimedData Key]-\u003eAudioFeat-\u003eChordAnnotation",
@@ -93,6 +99,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Annotate",
           "name": "mptreeAnnotatorSTG",
           "package": "HarmTrace",
@@ -102,6 +109,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio Annotate",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Annotate",
           "name": "mptreeAnnotatorSTG",
           "normalized": "GrammarEx-\u003eMaybe[TimedData Key]-\u003eAudioFeat-\u003eChordAnnotation",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epreprocesses the raw audio data before using chord harmony model based\n chord selection. First, the beats and chroma are synchronised. Second, \n chord candidate lists are created. Third, smart, beat informed grouping of \n the chord candidates is performed. Fourth, the chord candidate lists are \n grouped in segments based on the key (obtained\n as provided by the user or as derived from the audio data). Last, the \n chord candidate lists are further segmented based on the occurrences of \n I and V chords.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Annotate",
           "name": "preProcessData",
           "package": "HarmTrace",
@@ -128,6 +137,7 @@
         "index": {
           "description": "preprocesses the raw audio data before using chord harmony model based chord selection First the beats and chroma are synchronised Second chord candidate lists are created Third smart beat informed grouping of the chord candidates is performed Fourth the chord candidate lists are grouped in segments based on the key obtained as provided by the user or as derived from the audio data Last the chord candidate lists are further segmented based on the occurrences of and chords",
           "hierarchy": "HarmTrace Audio Annotate",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Annotate",
           "name": "preProcessData",
           "normalized": "Maybe[TimedData Key]-\u003eAudioFeat-\u003e[ProbChordSeg]",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprints Segmetation statistics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Annotate",
           "name": "putSegStats",
           "package": "HarmTrace",
@@ -154,6 +165,7 @@
         "index": {
           "description": "prints Segmetation statistics",
           "hierarchy": "HarmTrace Audio Annotate",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Annotate",
           "name": "putSegStats",
           "normalized": "Maybe[TimedData Key]-\u003eAudioFeat-\u003eIO()",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most simple annotator, no grouping, no matching, \n just pick the best matching chord\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Annotate",
           "name": "simpleAnnotator",
           "package": "HarmTrace",
@@ -180,6 +193,7 @@
         "index": {
           "description": "The most simple annotator no grouping no matching just pick the best matching chord",
           "hierarchy": "HarmTrace Audio Annotate",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Annotate",
           "name": "simpleAnnotator",
           "normalized": "GrammarEx-\u003eMaybe[TimedData Key]-\u003eAudioFeat-\u003eChordAnnotation",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Parses textual ground-truth Chord annotations, such as the ones\n found at: \u003ca\u003ehttp://isophonics.net/content/reference-annotations\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.AnnotationParser",
           "name": "AnnotationParser",
           "package": "HarmTrace",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Summary Parses textual ground-truth Chord annotations such as the ones found at http isophonics.net content reference-annotations",
           "hierarchy": "HarmTrace Audio AnnotationParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.AnnotationParser",
           "name": "AnnotationParser",
           "package": "HarmTrace",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a chord annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.AnnotationParser",
           "name": "parseAnnotationData",
           "package": "HarmTrace",
@@ -229,6 +246,7 @@
         "index": {
           "description": "Parses chord annotation",
           "hierarchy": "HarmTrace Audio AnnotationParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.AnnotationParser",
           "name": "parseAnnotationData",
           "normalized": "Parser[TimedData ChordLabel]",
@@ -245,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.AnnotationParser",
           "name": "parseKeyAnnotationData",
           "package": "HarmTrace",
@@ -255,6 +274,7 @@
         "index": {
           "description": "Parses Key annotation",
           "hierarchy": "HarmTrace Audio AnnotationParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.AnnotationParser",
           "name": "parseKeyAnnotationData",
           "normalized": "Parser[TimedData Key]",
@@ -271,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Recognise audio chroma vectors into textual chord descriptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "ChromaChord",
           "package": "HarmTrace",
@@ -280,6 +301,7 @@
         "index": {
           "description": "Summary Recognise audio chroma vectors into textual chord descriptions",
           "hierarchy": "HarmTrace Audio ChromaChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "ChromaChord",
           "package": "HarmTrace",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronises the \u003ccode\u003e\u003ca\u003eChordinoData\u003c/a\u003e\u003c/code\u003e with the list of beats \n by grouping the \u003ccode\u003eChordinoLines\u003c/code\u003e of the \u003ccode\u003e\u003ca\u003eChordinoData\u003c/a\u003e\u003c/code\u003e in separate lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "beatSync",
           "package": "HarmTrace",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Synchronises the ChordinoData with the list of beats by grouping the ChordinoLines of the ChordinoData in separate lists",
           "hierarchy": "HarmTrace Audio ChromaChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "beatSync",
           "normalized": "BarTimeTrackData-\u003e[ChordinoLine]-\u003e[BeatChroma]",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaving a matrix of beat-synchronised bass and treble chromagrams and a \n chord dictionary, the probability of a chord sounding at a particular beat is\n estimated by calculating the Euclidean distance between the chord structures \n and the chroma feature. These distances are calculated for every chord \n candidate at every beat. Next, we sort the chord candidates by descending \n Euclidean distance. To obtain a relative measure of the fit \n between a chord candidate and the chroma vector in the range [0,1],\n the distances are normalised by dividing them by distance of the best \n matching chord candidate. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "createChordRanks",
           "package": "HarmTrace",
@@ -330,6 +355,7 @@
         "index": {
           "description": "Having matrix of beat-synchronised bass and treble chromagrams and chord dictionary the probability of chord sounding at particular beat is estimated by calculating the Euclidean distance between the chord structures and the chroma feature These distances are calculated for every chord candidate at every beat Next we sort the chord candidates by descending Euclidean distance To obtain relative measure of the fit between chord candidate and the chroma vector in the range the distances are normalised by dividing them by distance of the best matching chord candidate",
           "hierarchy": "HarmTrace Audio ChromaChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "createChordRanks",
           "normalized": "[BeatChroma]-\u003e[TimedData[ProbChord]]",
@@ -345,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "meanBeatSyncVectors",
           "package": "HarmTrace",
@@ -354,6 +381,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio ChromaChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "meanBeatSyncVectors",
           "normalized": "[BeatChroma]-\u003e[TimedData(Vector NumData)]",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges chord segments, adding a bias toward merging at the first\n and the third \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "mergeByOneAndThree",
           "package": "HarmTrace",
@@ -380,6 +409,7 @@
         "index": {
           "description": "Merges chord segments adding bias toward merging at the first and the third Beat",
           "hierarchy": "HarmTrace Audio ChromaChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.ChromaChord",
           "name": "mergeByOneAndThree",
           "normalized": "[TimedData[ProbChord]]-\u003e[TimedData[ProbChord]]",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Low-processing of chroma features for key-finding\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.ChromaKey",
           "name": "ChromaKey",
           "package": "HarmTrace",
@@ -405,6 +436,7 @@
         "index": {
           "description": "Summary Low-processing of chroma features for key-finding",
           "hierarchy": "HarmTrace Audio ChromaKey",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.ChromaKey",
           "name": "ChromaKey",
           "package": "HarmTrace",
@@ -419,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the beat synchronised key strenght for all \n 24 keys (ordered by \u003ccode\u003eKeyMap\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.ChromaKey",
           "name": "beatSyncKeyStrength",
           "package": "HarmTrace",
@@ -429,6 +462,7 @@
         "index": {
           "description": "Calculates the beat synchronised key strenght for all keys ordered by KeyMap",
           "hierarchy": "HarmTrace Audio ChromaKey",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.ChromaKey",
           "name": "beatSyncKeyStrength",
           "normalized": "BarTimeTrackData-\u003eChordinoData-\u003e[TimedData[NumData]]",
@@ -445,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key chroma map using a circle of fifths based ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.ChromaKey",
           "name": "keyMap",
           "package": "HarmTrace",
@@ -455,6 +490,7 @@
         "index": {
           "description": "key chroma map using circle of fifths based ordering",
           "hierarchy": "HarmTrace Audio ChromaKey",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.ChromaKey",
           "name": "keyMap",
           "normalized": "[Key]",
@@ -471,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Basic parsers for parsing VAMP csv files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "DataParser",
           "package": "HarmTrace",
@@ -480,6 +517,7 @@
         "index": {
           "description": "Summary Basic parsers for parsing VAMP csv files",
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "DataParser",
           "package": "HarmTrace",
@@ -494,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pBeat",
           "package": "HarmTrace",
@@ -504,6 +543,7 @@
         "index": {
           "description": "Parses Beat",
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pBeat",
           "package": "HarmTrace",
@@ -517,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pComma",
           "package": "HarmTrace",
@@ -526,6 +567,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pComma",
           "package": "HarmTrace",
@@ -539,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pLabel",
           "package": "HarmTrace",
@@ -548,6 +591,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pLabel",
           "package": "HarmTrace",
@@ -561,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pNumData",
           "package": "HarmTrace",
@@ -570,6 +615,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pNumData",
           "package": "HarmTrace",
@@ -583,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pParentheticalString",
           "package": "HarmTrace",
@@ -592,6 +639,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pParentheticalString",
           "normalized": "Char-\u003eParser String",
@@ -607,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pQuotedString",
           "package": "HarmTrace",
@@ -616,6 +665,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "pQuotedString",
           "package": "HarmTrace",
@@ -630,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses \u003ccode\u003e\u003ca\u003eBarTime\u003c/a\u003e\u003c/code\u003e data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "parseBarTimeData",
           "package": "HarmTrace",
@@ -640,6 +691,7 @@
         "index": {
           "description": "Parses BarTime data",
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "parseBarTimeData",
           "package": "HarmTrace",
@@ -654,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing beat time stamps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "parseBeatData",
           "package": "HarmTrace",
@@ -664,6 +717,7 @@
         "index": {
           "description": "Parsing beat time stamps",
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "parseBeatData",
           "package": "HarmTrace",
@@ -678,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChroma parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "parseChordinoData",
           "package": "HarmTrace",
@@ -688,6 +743,7 @@
         "index": {
           "description": "Chroma parsing",
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "parseChordinoData",
           "package": "HarmTrace",
@@ -701,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "parseChromaData",
           "package": "HarmTrace",
@@ -710,6 +767,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "parseChromaData",
           "normalized": "Parser[ChordinoLine]",
@@ -725,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.DataParser",
           "name": "shift",
           "package": "HarmTrace",
@@ -734,6 +793,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio DataParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.DataParser",
           "name": "shift",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -749,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: A module for evaluating chord and key annotations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "Evaluation",
           "package": "HarmTrace",
@@ -758,6 +819,7 @@
         "index": {
           "description": "Summary module for evaluating chord and key annotations",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "Evaluation",
           "package": "HarmTrace",
@@ -772,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculates the maximal achievable score given a ground truth annotation\n and a chord candidate list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "achievScore",
           "package": "HarmTrace",
@@ -782,6 +845,7 @@
         "index": {
           "description": "calculates the maximal achievable score given ground truth annotation and chord candidate list",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "achievScore",
           "normalized": "[TimedData ChordLabel]-\u003e[TimedData[ChordLabel]]-\u003eDouble",
@@ -798,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003echordChangeRatio\u003c/a\u003e\u003c/code\u003e is optimal if it is one, but it can be larger or \n smaller than 1. Therefore, calculating the average blurs the actual result.\n \u003ccode\u003e\u003ca\u003eavgDistToOne\u003c/a\u003e\u003c/code\u003e takes the absolute difference to 1.0 and averages these for a\n list of Doubles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "avgDistToOne",
           "package": "HarmTrace",
@@ -808,6 +873,7 @@
         "index": {
           "description": "The chordChangeRatio is optimal if it is one but it can be larger or smaller than Therefore calculating the average blurs the actual result avgDistToOne takes the absolute difference to and averages these for list of Doubles",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "avgDistToOne",
           "normalized": "[Double]-\u003eDouble",
@@ -823,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "chordChangeRatio",
           "package": "HarmTrace",
@@ -832,6 +899,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "chordChangeRatio",
           "normalized": "(ChordLabel-\u003eChordLabel-\u003eBool)-\u003e[TimedData ChordLabel]-\u003e[TimedData ChordLabel]-\u003eDouble",
@@ -848,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if both \u003ccode\u003e\u003ca\u003eChordLabel\u003c/a\u003e\u003c/code\u003es are equal at the chord class level: \n A chord is classified as being major, minor, dominant seventh, or dimished\n seventh. \u003ccode\u003e\u003ca\u003echordClassEq\u003c/a\u003e\u003c/code\u003e only returns True if the class of compared chords\n is the same. \u003ca\u003eNone Chords\u003c/a\u003e match only with other None Chords and \n with nothing else\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "chordClassEq",
           "package": "HarmTrace",
@@ -858,6 +927,7 @@
         "index": {
           "description": "Returns True if both ChordLabel are equal at the chord class level chord is classified as being major minor dominant seventh or dimished seventh chordClassEq only returns True if the class of compared chords is the same None Chords match only with other None Chords and with nothing else",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "chordClassEq",
           "normalized": "ChordLabel-\u003eChordLabel-\u003eBool",
@@ -874,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if both \u003ccode\u003e\u003ca\u003eChordLabel\u003c/a\u003e\u003c/code\u003es are equal at the triad level: they are\n either moth major or both minor. \u003ca\u003eNone Chords\u003c/a\u003e match only with other \u003ca\u003eNone\n Chords\u003c/a\u003e and with nothing else\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "chordTriadEq",
           "package": "HarmTrace",
@@ -884,6 +955,7 @@
         "index": {
           "description": "Returns True if both ChordLabel are equal at the triad level they are either moth major or both minor None Chords match only with other None Chords and with nothing else",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "chordTriadEq",
           "normalized": "ChordLabel-\u003eChordLabel-\u003eBool",
@@ -900,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003es of the \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003es are equal, but the one chord\n is Major and the other chord is Minor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "majMinEq",
           "package": "HarmTrace",
@@ -910,6 +983,7 @@
         "index": {
           "description": "Returns True if the Root of the Chord are equal but the one chord is Major and the other chord is Minor",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "majMinEq",
           "normalized": "ChordLabel-\u003eChordLabel-\u003eBool",
@@ -926,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoes the same thing as relCorrectOverlap, but it also prints the\n chords and uses a lower sample rate. N.B. the number output by \n \u003ccode\u003eprintRelCorrectOverlap\u003c/code\u003e might differ from the output of \n \u003ccode\u003e\u003ca\u003erelCorrectOverlap\u003c/a\u003e\u003c/code\u003e, because a different sample rate might be used (see\n \u003ccode\u003eConstants\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "printChordRCO",
           "package": "HarmTrace",
@@ -936,6 +1011,7 @@
         "index": {
           "description": "does the same thing as relCorrectOverlap but it also prints the chords and uses lower sample rate N.B the number output by printRelCorrectOverlap might differ from the output of relCorrectOverlap because different sample rate might be used see Constants",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "printChordRCO",
           "normalized": "(AudioFeat-\u003eChordAnnotation)-\u003e[TimedData Key]-\u003eAudioFeat-\u003e[TimedData ChordLabel]-\u003eIO Double",
@@ -952,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the relative correct overlap, which is the recall\n of matching frames, and defined as the nr of matching frames (sampled at\n an interval set in \u003ccode\u003e\u003ca\u003eConstants\u003c/a\u003e\u003c/code\u003e divided by all frames.\n This functions difers from \u003ccode\u003e\u003ca\u003erelCorrectOverlap\u003c/a\u003e\u003c/code\u003e in that it uses an\n equality function that is in IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "printRCO",
           "package": "HarmTrace",
@@ -962,6 +1039,7 @@
         "index": {
           "description": "Calculates the relative correct overlap which is the recall of matching frames and defined as the nr of matching frames sampled at an interval set in Constants divided by all frames This functions difers from relCorrectOverlap in that it uses an equality function that is in IO",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "printRCO",
           "normalized": "(a-\u003ea-\u003eIO Bool)-\u003e[TimedData a]-\u003e[TimedData a]-\u003eIO Double",
@@ -978,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the relative correct overlap, which is the recall\n of matching frames, and defined as the nr of matching frames (sampled at\n an 10 milisecond interval) divided by all frames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "relCorrectOverlap",
           "package": "HarmTrace",
@@ -988,6 +1067,7 @@
         "index": {
           "description": "Calculates the relative correct overlap which is the recall of matching frames and defined as the nr of matching frames sampled at an milisecond interval divided by all frames",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "relCorrectOverlap",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[TimedData a]-\u003e[TimedData a]-\u003eDouble",
@@ -1004,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a chord annotation sample the chord label at every 10 ms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "sample",
           "package": "HarmTrace",
@@ -1014,6 +1095,7 @@
         "index": {
           "description": "Given chord annotation sample the chord label at every ms",
           "hierarchy": "HarmTrace Audio Evaluation",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Evaluation",
           "name": "sample",
           "normalized": "[TimedData a]-\u003e[a]",
@@ -1029,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Key-finding from musical audio.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Key",
           "name": "Key",
           "package": "HarmTrace",
@@ -1038,6 +1121,7 @@
         "index": {
           "description": "Summary Key-finding from musical audio",
           "hierarchy": "HarmTrace Audio Key",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Key",
           "name": "Key",
           "package": "HarmTrace",
@@ -1052,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e key assignment, given \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e and chroma information.\n N.B. The beats and chroma do not have to be synchronised, they will be\n sychronised in the process of finding the key \n (see \u003ccode\u003e\u003ca\u003eChromaKey\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBeatSync\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Key",
           "name": "getBeatSyncKeyFromChroma",
           "package": "HarmTrace",
@@ -1062,6 +1147,7 @@
         "index": {
           "description": "Returns Key key assignment given Beat and chroma information N.B The beats and chroma do not have to be synchronised they will be sychronised in the process of finding the key see ChromaKey and BeatSync",
           "hierarchy": "HarmTrace Audio Key",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Key",
           "name": "getBeatSyncKeyFromChroma",
           "normalized": "AudioFeat-\u003e[TimedData Key]",
@@ -1078,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Some statistical functions used in processing audio.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "Statistical",
           "package": "HarmTrace",
@@ -1087,6 +1174,7 @@
         "index": {
           "description": "Summary Some statistical functions used in processing audio",
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "Statistical",
           "package": "HarmTrace",
@@ -1101,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list with all \u003ca\u003esliding windows\u003c/a\u003e of a particular size.\n The left and right edge of the list are filled with the first and last (size \n \u003cem\u003e2) items, respectively and the remainder is filled with the mode\u003c/em\u003emedian of\n the complete list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "getWindows",
           "package": "HarmTrace",
@@ -1111,6 +1200,7 @@
         "index": {
           "description": "Returns list with all sliding windows of particular size The left and right edge of the list are filled with the first and last size items respectively and the remainder is filled with the mode median of the complete list",
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "getWindows",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -1127,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to group, but in case a group is smaller than s, \n the group is filled with the same number of a's:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egroupMinSize 3 0 [1,2,2,3,3,3,4,4,4,4,5,5,5,5,5]\n\u003c/code\u003e\u003c/strong\u003e[[0],[0,0],[0,0,0],[4,4,4,4],[5,5,5,5,5]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "groupMinSize",
           "package": "HarmTrace",
@@ -1137,6 +1228,7 @@
         "index": {
           "description": "Similar to group but in case group is smaller than the group is filled with the same number of groupMinSize",
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "groupMinSize",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[[a]]",
@@ -1152,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "hasSize",
           "package": "HarmTrace",
@@ -1161,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "hasSize",
           "normalized": "Int-\u003e[a]-\u003eBool",
@@ -1177,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the mean of list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "listMean",
           "package": "HarmTrace",
@@ -1187,6 +1282,7 @@
         "index": {
           "description": "Returns the mean of list",
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "listMean",
           "normalized": "[NumData]-\u003eNumData",
@@ -1203,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the index of th maximal element of a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "maxListIndex",
           "package": "HarmTrace",
@@ -1213,6 +1310,7 @@
         "index": {
           "description": "Returns the index of th maximal element of list",
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "maxListIndex",
           "normalized": "[a]-\u003eInt",
@@ -1229,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the median of a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "median",
           "package": "HarmTrace",
@@ -1239,6 +1338,7 @@
         "index": {
           "description": "Returns the median of list",
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "median",
           "normalized": "[a]-\u003ea",
@@ -1254,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea median filter: see \u003ca\u003ehttp://en.wikipedia.org/wiki/Median_filter\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "medianFilter",
           "package": "HarmTrace",
@@ -1264,6 +1365,7 @@
         "index": {
           "description": "median filter see http en.wikipedia.org wiki Median filter",
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "medianFilter",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -1280,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mode: the element that occurs most often in the collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Audio.Statistical",
           "name": "mode",
           "package": "HarmTrace",
@@ -1290,6 +1393,7 @@
         "index": {
           "description": "The mode the element that occurs most often in the collection",
           "hierarchy": "HarmTrace Audio Statistical",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Audio.Statistical",
           "name": "mode",
           "normalized": "[a]-\u003ea",
@@ -1304,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Base.Instances",
           "name": "Instances",
           "package": "HarmTrace",
@@ -1312,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Base.Instances",
           "name": "Instances",
           "package": "HarmTrace",
@@ -1325,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "HAn",
           "package": "HarmTrace",
@@ -1333,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "HAn",
           "package": "HarmTrace",
@@ -1346,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "GetDur",
           "package": "HarmTrace",
@@ -1354,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "GetDur",
           "package": "HarmTrace",
@@ -1367,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "HAn",
           "package": "HarmTrace",
@@ -1375,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "HAn",
           "package": "HarmTrace",
@@ -1388,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "HFunc",
           "package": "HarmTrace",
@@ -1396,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "HFunc",
           "package": "HarmTrace",
@@ -1409,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Prep",
           "package": "HarmTrace",
@@ -1417,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Prep",
           "package": "HarmTrace",
@@ -1430,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "SetDur",
           "package": "HarmTrace",
@@ -1438,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "SetDur",
           "package": "HarmTrace",
@@ -1451,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Spec",
           "package": "HarmTrace",
@@ -1459,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Spec",
           "package": "HarmTrace",
@@ -1472,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Trans",
           "package": "HarmTrace",
@@ -1480,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Trans",
           "package": "HarmTrace",
@@ -1493,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Blues",
           "package": "HarmTrace",
@@ -1502,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Blues",
           "package": "HarmTrace",
@@ -1515,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "DiatDom",
           "package": "HarmTrace",
@@ -1524,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "DiatDom",
           "package": "HarmTrace",
@@ -1537,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "DimTrans",
           "package": "HarmTrace",
@@ -1546,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "DimTrans",
           "package": "HarmTrace",
@@ -1559,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "DimTrit",
           "package": "HarmTrace",
@@ -1568,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "DimTrit",
           "package": "HarmTrace",
@@ -1581,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Dom",
           "package": "HarmTrace",
@@ -1590,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Dom",
           "package": "HarmTrace",
@@ -1718,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "MinBorrow",
           "package": "HarmTrace",
@@ -1727,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "MinBorrow",
           "package": "HarmTrace",
@@ -1740,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "NoPrep",
           "package": "HarmTrace",
@@ -1749,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "NoPrep",
           "package": "HarmTrace",
@@ -1762,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "NoTrans",
           "package": "HarmTrace",
@@ -1771,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "NoTrans",
           "package": "HarmTrace",
@@ -1784,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "P",
           "package": "HarmTrace",
@@ -1793,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "P",
           "package": "HarmTrace",
@@ -1805,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "PD",
           "package": "HarmTrace",
@@ -1814,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "PD",
           "package": "HarmTrace",
@@ -1827,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "PT",
           "package": "HarmTrace",
@@ -1836,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "PT",
           "package": "HarmTrace",
@@ -1849,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Parallel",
           "package": "HarmTrace",
@@ -1858,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Parallel",
           "package": "HarmTrace",
@@ -1871,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "SecDom",
           "package": "HarmTrace",
@@ -1880,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "SecDom",
           "package": "HarmTrace",
@@ -1893,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "SecMin",
           "package": "HarmTrace",
@@ -1902,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "SecMin",
           "package": "HarmTrace",
@@ -1915,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Sub",
           "package": "HarmTrace",
@@ -1924,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Sub",
           "package": "HarmTrace",
@@ -1937,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Ton",
           "package": "HarmTrace",
@@ -1946,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Ton",
           "package": "HarmTrace",
@@ -1959,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Trit",
           "package": "HarmTrace",
@@ -1968,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "Trit",
           "package": "HarmTrace",
@@ -1981,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "getDur",
           "package": "HarmTrace",
@@ -1990,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "getDur",
           "normalized": "a-\u003eInt",
@@ -2005,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "setDur",
           "package": "HarmTrace",
@@ -2014,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAn",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAn",
           "name": "setDur",
           "normalized": "a-\u003eInt-\u003ea",
@@ -2029,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "HAnParser",
           "package": "HarmTrace",
@@ -2037,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAnParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "HAnParser",
           "package": "HarmTrace",
@@ -2050,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "pAnyStr",
           "package": "HarmTrace",
@@ -2059,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAnParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "pAnyStr",
           "package": "HarmTrace",
@@ -2072,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "pHFunc",
           "package": "HarmTrace",
@@ -2081,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAnParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "pHFunc",
           "package": "HarmTrace",
@@ -2094,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "pMode",
           "package": "HarmTrace",
@@ -2103,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAnParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "pMode",
           "package": "HarmTrace",
@@ -2116,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "pSpec",
           "package": "HarmTrace",
@@ -2125,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAnParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "pSpec",
           "package": "HarmTrace",
@@ -2138,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "parseHAn",
           "package": "HarmTrace",
@@ -2147,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree HAnParser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.HAnParser",
           "name": "parseHAn",
           "normalized": "a-\u003eHAn",
@@ -2162,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "PostProcess",
           "package": "HarmTrace",
@@ -2170,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "PostProcess",
           "package": "HarmTrace",
@@ -2183,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "PPOption",
           "package": "HarmTrace",
@@ -2191,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "PPOption",
           "package": "HarmTrace",
@@ -2204,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "ExpandChordDurations",
           "package": "HarmTrace",
@@ -2213,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "ExpandChordDurations",
           "package": "HarmTrace",
@@ -2226,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "MergeDelChords",
           "package": "HarmTrace",
@@ -2235,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "MergeDelChords",
           "package": "HarmTrace",
@@ -2248,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "RemoveInsertions",
           "package": "HarmTrace",
@@ -2257,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "RemoveInsertions",
           "package": "HarmTrace",
@@ -2270,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "RemovePDPT",
           "package": "HarmTrace",
@@ -2279,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "RemovePDPT",
           "package": "HarmTrace",
@@ -2292,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "expandChordDurations",
           "package": "HarmTrace",
@@ -2301,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "expandChordDurations",
           "normalized": "Tree HAn-\u003eTree HAn",
@@ -2316,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "mergeDelChords",
           "package": "HarmTrace",
@@ -2325,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "mergeDelChords",
           "normalized": "Key-\u003e[Error Int]-\u003e[ChordLabel]-\u003eTree HAn-\u003eTree HAn",
@@ -2340,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "removeInsertions",
           "package": "HarmTrace",
@@ -2349,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "removeInsertions",
           "normalized": "Tree HAn-\u003eTree HAn",
@@ -2364,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "removePDPT",
           "package": "HarmTrace",
@@ -2373,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree PostProcess",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.PostProcess",
           "name": "removePDPT",
           "normalized": "Tree HAn-\u003eTree HAn",
@@ -2388,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "ToHAnTree",
           "package": "HarmTrace",
@@ -2396,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree ToHAnTree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "ToHAnTree",
           "package": "HarmTrace",
@@ -2409,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "GTree",
           "package": "HarmTrace",
@@ -2417,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree ToHAnTree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "GTree",
           "package": "HarmTrace",
@@ -2430,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "HAn",
           "package": "HarmTrace",
@@ -2438,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree ToHAnTree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "HAn",
           "package": "HarmTrace",
@@ -2451,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "emptyHAnTree",
           "package": "HarmTrace",
@@ -2460,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree ToHAnTree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "emptyHAnTree",
           "package": "HarmTrace",
@@ -2473,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "gTree",
           "package": "HarmTrace",
@@ -2482,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree ToHAnTree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "gTree",
           "normalized": "a-\u003e[Tree HAn]",
@@ -2497,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "gTreeDefault",
           "package": "HarmTrace",
@@ -2506,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree ToHAnTree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "gTreeDefault",
           "normalized": "a-\u003e[Tree HAn]",
@@ -2521,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "gTreeHead",
           "package": "HarmTrace",
@@ -2530,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree ToHAnTree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.ToHAnTree",
           "name": "gTreeHead",
           "normalized": "a-\u003eTree HAn",
@@ -2545,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "Tree",
           "package": "HarmTrace",
@@ -2553,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "Tree",
           "package": "HarmTrace",
@@ -2566,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "Tree",
           "package": "HarmTrace",
@@ -2574,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "Tree",
           "package": "HarmTrace",
@@ -2587,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "Node",
           "package": "HarmTrace",
@@ -2596,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "Node",
           "package": "HarmTrace",
@@ -2609,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "avgDepth",
           "package": "HarmTrace",
@@ -2618,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "avgDepth",
           "normalized": "Tree a-\u003eFloat",
@@ -2633,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "avgDepthF",
           "package": "HarmTrace",
@@ -2642,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "avgDepthF",
           "normalized": "[Tree a]-\u003eFloat",
@@ -2657,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "collectLeafs",
           "package": "HarmTrace",
@@ -2666,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "collectLeafs",
           "normalized": "Tree a-\u003e[Tree a]",
@@ -2681,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "depth",
           "package": "HarmTrace",
@@ -2690,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "depth",
           "normalized": "Tree a-\u003eInt",
@@ -2704,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "depth'",
           "package": "HarmTrace",
@@ -2713,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "depth'",
           "normalized": "Int-\u003eTree a-\u003e[Int]",
@@ -2727,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "depthF",
           "package": "HarmTrace",
@@ -2736,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "depthF",
           "normalized": "[Tree a]-\u003eInt",
@@ -2750,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "findClose",
           "package": "HarmTrace",
@@ -2759,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "findClose",
           "normalized": "String-\u003eInt",
@@ -2774,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "findClose'",
           "package": "HarmTrace",
@@ -2783,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "findClose'",
           "normalized": "String-\u003eInt-\u003eInt-\u003eInt",
@@ -2798,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getChild",
           "package": "HarmTrace",
@@ -2807,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getChild",
           "normalized": "[Tree a]",
@@ -2822,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getChildPns",
           "package": "HarmTrace",
@@ -2831,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getChildPns",
           "normalized": "Tree a-\u003e[Int]",
@@ -2846,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getLabel",
           "package": "HarmTrace",
@@ -2855,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getLabel",
           "package": "HarmTrace",
@@ -2868,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getPn",
           "package": "HarmTrace",
@@ -2877,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getPn",
           "package": "HarmTrace",
@@ -2890,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getPns",
           "package": "HarmTrace",
@@ -2899,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getPns",
           "normalized": "[Tree a]-\u003e[Int]",
@@ -2914,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getSubTree",
           "package": "HarmTrace",
@@ -2923,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "getSubTree",
           "normalized": "Tree a-\u003eInt-\u003eTree a",
@@ -2938,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "isLf",
           "package": "HarmTrace",
@@ -2947,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "isLf",
           "normalized": "Tree a-\u003eBool",
@@ -2962,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "matchToTree",
           "package": "HarmTrace",
@@ -2971,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "matchToTree",
           "normalized": "Tree a-\u003e[Int]-\u003e[Tree a]",
@@ -2986,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "pot",
           "package": "HarmTrace",
@@ -2995,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "pot",
           "normalized": "Tree a-\u003e[Tree a]",
@@ -3009,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "pot'",
           "package": "HarmTrace",
@@ -3018,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "pot'",
           "normalized": "Tree a-\u003e[Tree a]",
@@ -3032,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "potPret",
           "package": "HarmTrace",
@@ -3041,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "potPret",
           "normalized": "Tree a-\u003e[Tree a]",
@@ -3056,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "preToPost",
           "package": "HarmTrace",
@@ -3065,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "preToPost",
           "normalized": "Tree a-\u003eInt-\u003eInt",
@@ -3080,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "pret",
           "package": "HarmTrace",
@@ -3089,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "pret",
           "normalized": "Tree a-\u003e[Tree a]",
@@ -3103,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "pret'",
           "package": "HarmTrace",
@@ -3112,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "pret'",
           "normalized": "Tree a-\u003e[Tree a]",
@@ -3126,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "remove",
           "package": "HarmTrace",
@@ -3135,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "remove",
           "normalized": "a-\u003eTree a-\u003eTree a",
@@ -3149,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "removeBy",
           "package": "HarmTrace",
@@ -3158,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "removeBy",
           "normalized": "(a-\u003eBool)-\u003eTree a-\u003eTree a",
@@ -3173,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "removeBy'",
           "package": "HarmTrace",
@@ -3182,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "removeBy'",
           "normalized": "(a-\u003eBool)-\u003eTree a-\u003e[Tree a]",
@@ -3197,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "setPost",
           "package": "HarmTrace",
@@ -3206,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "setPost",
           "normalized": "Tree a-\u003eTree a",
@@ -3221,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "setPre",
           "package": "HarmTrace",
@@ -3230,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "setPre",
           "normalized": "Tree a-\u003eTree a",
@@ -3245,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "size",
           "package": "HarmTrace",
@@ -3254,6 +3521,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "size",
           "normalized": "Tree a-\u003eInt",
@@ -3268,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "sizeF",
           "package": "HarmTrace",
@@ -3277,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "sizeF",
           "normalized": "[Tree a]-\u003eInt",
@@ -3291,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "strTree",
           "package": "HarmTrace",
@@ -3300,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace HAnTree Tree",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.HAnTree.Tree",
           "name": "strTree",
           "normalized": "String-\u003eTree String",
@@ -3315,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Alignment",
           "name": "Alignment",
           "package": "HarmTrace",
@@ -3323,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Alignment",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Alignment",
           "name": "Alignment",
           "package": "HarmTrace",
@@ -3336,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Alignment",
           "name": "alignChordLab",
           "package": "HarmTrace",
@@ -3345,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Alignment",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Alignment",
           "name": "alignChordLab",
           "normalized": "Key-\u003eKey-\u003e[ChordLabel]-\u003e[ChordLabel]-\u003e([SimChord],Float,Vector(Vector Int))",
@@ -3360,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Alignment",
           "name": "alignHAnChord",
           "package": "HarmTrace",
@@ -3369,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Alignment",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Alignment",
           "name": "alignHAnChord",
           "normalized": "Tree HAn-\u003eTree HAn-\u003e([HChord],Float,Vector(Vector Int))",
@@ -3384,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Alignment",
           "name": "getAlignDist",
           "package": "HarmTrace",
@@ -3393,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Alignment",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Alignment",
           "name": "getAlignDist",
           "normalized": "Key-\u003eKey-\u003e[ChordLabel]-\u003e[ChordLabel]-\u003eFloat",
@@ -3408,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Alignment",
           "name": "getHAnDist",
           "package": "HarmTrace",
@@ -3417,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Alignment",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Alignment",
           "name": "getHAnDist",
           "normalized": "Tree HAn-\u003eTree HAn-\u003eFloat",
@@ -3432,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Alignment",
           "name": "pPrintV",
           "package": "HarmTrace",
@@ -3441,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Alignment",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Alignment",
           "name": "pPrintV",
           "normalized": "Vector(Vector a)-\u003eIO()",
@@ -3456,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "GuptaNishimura",
           "package": "HarmTrace",
@@ -3464,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching GuptaNishimura",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "GuptaNishimura",
           "package": "HarmTrace",
@@ -3477,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "getLCES",
           "package": "HarmTrace",
@@ -3486,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching GuptaNishimura",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "getLCES",
           "normalized": "Tree HAn-\u003eTree HAn-\u003e([Tree HAn],Int)",
@@ -3501,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "getLCESdepth",
           "package": "HarmTrace",
@@ -3510,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching GuptaNishimura",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "getLCESdepth",
           "normalized": "Tree HAn-\u003eTree HAn-\u003eFloat",
@@ -3525,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "getLCESsim",
           "package": "HarmTrace",
@@ -3534,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching GuptaNishimura",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "getLCESsim",
           "normalized": "Tree HAn-\u003eTree HAn-\u003eFloat",
@@ -3549,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "getLCESsize",
           "package": "HarmTrace",
@@ -3558,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching GuptaNishimura",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.GuptaNishimura",
           "name": "getLCESsize",
           "normalized": "Tree HAn-\u003eTree HAn-\u003eFloat",
@@ -3573,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.HChord",
           "name": "HChord",
           "package": "HarmTrace",
@@ -3581,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching HChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.HChord",
           "name": "HChord",
           "package": "HarmTrace",
@@ -3594,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.HChord",
           "name": "HChord",
           "package": "HarmTrace",
@@ -3602,6 +3899,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching HChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.HChord",
           "name": "HChord",
           "package": "HarmTrace",
@@ -3615,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.HChord",
           "name": "Sim",
           "package": "HarmTrace",
@@ -3623,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching HChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.HChord",
           "name": "Sim",
           "package": "HarmTrace",
@@ -3636,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.HChord",
           "name": "toHChords",
           "package": "HarmTrace",
@@ -3645,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching HChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.HChord",
           "name": "toHChords",
           "normalized": "Tree HAn-\u003e[HChord]",
@@ -3660,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Sim",
           "name": "Sim",
           "package": "HarmTrace",
@@ -3668,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Sim",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Sim",
           "name": "Sim",
           "package": "HarmTrace",
@@ -3681,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Sim",
           "name": "Sim",
           "package": "HarmTrace",
@@ -3689,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Sim",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Sim",
           "name": "Sim",
           "package": "HarmTrace",
@@ -3702,6 +4008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Sim",
           "name": "div1",
           "package": "HarmTrace",
@@ -3711,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Sim",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Sim",
           "name": "div1",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -3725,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Sim",
           "name": "maxSim",
           "package": "HarmTrace",
@@ -3734,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Sim",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Sim",
           "name": "maxSim",
           "normalized": "[a]-\u003eInt",
@@ -3749,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Sim",
           "name": "sim",
           "package": "HarmTrace",
@@ -3758,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Sim",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Sim",
           "name": "sim",
           "normalized": "a-\u003ea-\u003eInt",
@@ -3772,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.SimpleChord",
           "name": "SimpleChord",
           "package": "HarmTrace",
@@ -3780,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching SimpleChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.SimpleChord",
           "name": "SimpleChord",
           "package": "HarmTrace",
@@ -3793,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.SimpleChord",
           "name": "Sim",
           "package": "HarmTrace",
@@ -3801,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching SimpleChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.SimpleChord",
           "name": "Sim",
           "package": "HarmTrace",
@@ -3814,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.SimpleChord",
           "name": "SimChord",
           "package": "HarmTrace",
@@ -3822,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching SimpleChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.SimpleChord",
           "name": "SimChord",
           "package": "HarmTrace",
@@ -3835,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.SimpleChord",
           "name": "toSimChords",
           "package": "HarmTrace",
@@ -3844,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching SimpleChord",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.SimpleChord",
           "name": "toSimChords",
           "normalized": "ChordDegree-\u003e[SimChord]",
@@ -3859,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Standard",
           "name": "Standard",
           "package": "HarmTrace",
@@ -3867,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Standard",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Standard",
           "name": "Standard",
           "package": "HarmTrace",
@@ -3880,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Standard",
           "name": "diffChords",
           "package": "HarmTrace",
@@ -3889,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Standard",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Standard",
           "name": "diffChords",
           "normalized": "[a]-\u003e[a]-\u003eString",
@@ -3904,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Matching.Standard",
           "name": "diffChordsLen",
           "package": "HarmTrace",
@@ -3913,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Matching Standard",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Matching.Standard",
           "name": "diffChordsLen",
           "normalized": "[a]-\u003e[a]-\u003eFloat",
@@ -3928,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "ChordTokens",
           "package": "HarmTrace",
@@ -3936,6 +4263,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "ChordTokens",
           "package": "HarmTrace",
@@ -3949,6 +4277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "ChordToken",
           "package": "HarmTrace",
@@ -3957,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "ChordToken",
           "package": "HarmTrace",
@@ -3970,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "ParseStatus",
           "package": "HarmTrace",
@@ -3978,6 +4309,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "ParseStatus",
           "package": "HarmTrace",
@@ -3991,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "PieceToken",
           "package": "HarmTrace",
@@ -3999,6 +4332,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "PieceToken",
           "package": "HarmTrace",
@@ -4012,6 +4346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "ChordToken",
           "package": "HarmTrace",
@@ -4021,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "ChordToken",
           "package": "HarmTrace",
@@ -4034,6 +4370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "Deleted",
           "package": "HarmTrace",
@@ -4043,6 +4380,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "Deleted",
           "package": "HarmTrace",
@@ -4056,6 +4394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "Inserted",
           "package": "HarmTrace",
@@ -4065,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "Inserted",
           "package": "HarmTrace",
@@ -4078,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "NotParsed",
           "package": "HarmTrace",
@@ -4087,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "NotParsed",
           "package": "HarmTrace",
@@ -4100,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "Parsed",
           "package": "HarmTrace",
@@ -4109,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "Parsed",
           "package": "HarmTrace",
@@ -4122,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "PieceToken",
           "package": "HarmTrace",
@@ -4131,6 +4476,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "PieceToken",
           "normalized": "PieceToken Key[ChordToken]",
@@ -4146,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "chordNumReps",
           "package": "HarmTrace",
@@ -4155,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "chordNumReps",
           "package": "HarmTrace",
@@ -4168,6 +4516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "chords",
           "package": "HarmTrace",
@@ -4177,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "chords",
           "normalized": "[ChordLabel]",
@@ -4191,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "classType",
           "package": "HarmTrace",
@@ -4200,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "classType",
           "package": "HarmTrace",
@@ -4213,6 +4565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "dur",
           "package": "HarmTrace",
@@ -4222,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "dur",
           "package": "HarmTrace",
@@ -4234,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "root",
           "package": "HarmTrace",
@@ -4243,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "root",
           "package": "HarmTrace",
@@ -4255,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "status",
           "package": "HarmTrace",
@@ -4264,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "status",
           "package": "HarmTrace",
@@ -4277,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges duplicate chords and transforms absolute chord labels into key\n relative tokens that can be parsed by the HarmTrace model \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "toKeyRelTok",
           "package": "HarmTrace",
@@ -4287,6 +4646,7 @@
         "index": {
           "description": "Merges duplicate chords and transforms absolute chord labels into key relative tokens that can be parsed by the HarmTrace model",
           "hierarchy": "HarmTrace Models ChordTokens",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.ChordTokens",
           "name": "toKeyRelTok",
           "normalized": "Key-\u003e[ChordLabel]-\u003e[ChordToken]",
@@ -4303,6 +4663,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Adhoc instances for the jazz model\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Instances",
           "package": "HarmTrace",
@@ -4312,6 +4673,7 @@
         "index": {
           "description": "Summary Adhoc instances for the jazz model",
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Instances",
           "package": "HarmTrace",
@@ -4325,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "DMajBorrow_D_24_bor_",
           "package": "HarmTrace",
@@ -4333,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "DMajBorrow_D_24_bor_",
           "package": "HarmTrace",
@@ -4346,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "DMinBorrow_Dm_24_bor_",
           "package": "HarmTrace",
@@ -4354,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "DMinBorrow_Dm_24_bor_",
           "package": "HarmTrace",
@@ -4367,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_1_",
           "package": "HarmTrace",
@@ -4375,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_1_",
           "package": "HarmTrace",
@@ -4388,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_2_",
           "package": "HarmTrace",
@@ -4396,6 +4765,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_2_",
           "package": "HarmTrace",
@@ -4409,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_3_",
           "package": "HarmTrace",
@@ -4417,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_3_",
           "package": "HarmTrace",
@@ -4430,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_4_",
           "package": "HarmTrace",
@@ -4438,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_4_",
           "package": "HarmTrace",
@@ -4451,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_8_bor_",
           "package": "HarmTrace",
@@ -4459,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_D_8_bor_",
           "package": "HarmTrace",
@@ -4472,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_Dm_4_",
           "package": "HarmTrace",
@@ -4480,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_Dm_4_",
           "package": "HarmTrace",
@@ -4493,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_Dm_8_bor_",
           "package": "HarmTrace",
@@ -4501,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Dom_Dm_8_bor_",
           "package": "HarmTrace",
@@ -4514,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "GetDegree",
           "package": "HarmTrace",
@@ -4522,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "GetDegree",
           "package": "HarmTrace",
@@ -4535,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Phrase_PD_",
           "package": "HarmTrace",
@@ -4543,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Phrase_PD_",
           "package": "HarmTrace",
@@ -4556,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Phrase_PT_",
           "package": "HarmTrace",
@@ -4564,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Phrase_PT_",
           "package": "HarmTrace",
@@ -4577,6 +4963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepDMajBorrow_",
           "package": "HarmTrace",
@@ -4585,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepDMajBorrow_",
           "package": "HarmTrace",
@@ -4598,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepDMinBorrow_",
           "package": "HarmTrace",
@@ -4606,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepDMinBorrow_",
           "package": "HarmTrace",
@@ -4619,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepDom_",
           "package": "HarmTrace",
@@ -4627,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepDom_",
           "package": "HarmTrace",
@@ -4640,6 +5032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepPhrase_",
           "package": "HarmTrace",
@@ -4648,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepPhrase_",
           "package": "HarmTrace",
@@ -4661,6 +5055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepSDom_",
           "package": "HarmTrace",
@@ -4669,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepSDom_",
           "package": "HarmTrace",
@@ -4682,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepSMajBorrow_",
           "package": "HarmTrace",
@@ -4690,6 +5087,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepSMajBorrow_",
           "package": "HarmTrace",
@@ -4703,6 +5101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepSMinBorrow_",
           "package": "HarmTrace",
@@ -4711,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepSMinBorrow_",
           "package": "HarmTrace",
@@ -4724,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepTMajBorrow_",
           "package": "HarmTrace",
@@ -4732,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepTMajBorrow_",
           "package": "HarmTrace",
@@ -4745,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepTMinBorrow_",
           "package": "HarmTrace",
@@ -4753,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepTMinBorrow_",
           "package": "HarmTrace",
@@ -4766,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepTon_",
           "package": "HarmTrace",
@@ -4774,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "RepTon_",
           "package": "HarmTrace",
@@ -4787,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_1_par_",
           "package": "HarmTrace",
@@ -4795,6 +5202,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_1_par_",
           "package": "HarmTrace",
@@ -4808,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_2_par_",
           "package": "HarmTrace",
@@ -4816,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_2_par_",
           "package": "HarmTrace",
@@ -4829,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_3_",
           "package": "HarmTrace",
@@ -4837,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_3_",
           "package": "HarmTrace",
@@ -4850,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_4_",
           "package": "HarmTrace",
@@ -4858,6 +5271,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_4_",
           "package": "HarmTrace",
@@ -4871,6 +5285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_5_bor_",
           "package": "HarmTrace",
@@ -4879,6 +5294,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_S_5_bor_",
           "package": "HarmTrace",
@@ -4892,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_Sm_3_",
           "package": "HarmTrace",
@@ -4900,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_Sm_3_",
           "package": "HarmTrace",
@@ -4913,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_Sm_4_",
           "package": "HarmTrace",
@@ -4921,6 +5340,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_Sm_4_",
           "package": "HarmTrace",
@@ -4934,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_Sm_5_bor_",
           "package": "HarmTrace",
@@ -4942,6 +5363,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_Sm_5_bor_",
           "package": "HarmTrace",
@@ -4955,6 +5377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_Sm_6_",
           "package": "HarmTrace",
@@ -4963,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SDom_Sm_6_",
           "package": "HarmTrace",
@@ -4976,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SMajBorrow_S_20_bor_",
           "package": "HarmTrace",
@@ -4984,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SMajBorrow_S_20_bor_",
           "package": "HarmTrace",
@@ -4997,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SMinBorrow_Sm_20_bor_",
           "package": "HarmTrace",
@@ -5005,6 +5432,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SMinBorrow_Sm_20_bor_",
           "package": "HarmTrace",
@@ -5018,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SMinBorrow_Sm_22_bor_",
           "package": "HarmTrace",
@@ -5026,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "SMinBorrow_Sm_22_bor_",
           "package": "HarmTrace",
@@ -5039,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "TMajBorrow_T_21_bor_",
           "package": "HarmTrace",
@@ -5047,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "TMajBorrow_T_21_bor_",
           "package": "HarmTrace",
@@ -5060,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "TMajBorrow_T_23_bor_",
           "package": "HarmTrace",
@@ -5068,6 +5501,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "TMajBorrow_T_23_bor_",
           "package": "HarmTrace",
@@ -5081,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "TMinBorrow_Tm_21_bor_",
           "package": "HarmTrace",
@@ -5089,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "TMinBorrow_Tm_21_bor_",
           "package": "HarmTrace",
@@ -5102,6 +5538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "TMinBorrow_Tm_23_bor_",
           "package": "HarmTrace",
@@ -5110,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "TMinBorrow_Tm_23_bor_",
           "package": "HarmTrace",
@@ -5123,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_T_1_",
           "package": "HarmTrace",
@@ -5131,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_T_1_",
           "package": "HarmTrace",
@@ -5144,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_T_2_",
           "package": "HarmTrace",
@@ -5152,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_T_2_",
           "package": "HarmTrace",
@@ -5165,6 +5607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_T_3_par_",
           "package": "HarmTrace",
@@ -5173,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_T_3_par_",
           "package": "HarmTrace",
@@ -5186,6 +5630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_T_6_bor_",
           "package": "HarmTrace",
@@ -5194,6 +5639,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_T_6_bor_",
           "package": "HarmTrace",
@@ -5207,6 +5653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_Tm_1_",
           "package": "HarmTrace",
@@ -5215,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_Tm_1_",
           "package": "HarmTrace",
@@ -5228,6 +5676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_Tm_2_",
           "package": "HarmTrace",
@@ -5236,6 +5685,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_Tm_2_",
           "package": "HarmTrace",
@@ -5249,6 +5699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_Tm_3_par_",
           "package": "HarmTrace",
@@ -5257,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_Tm_3_par_",
           "package": "HarmTrace",
@@ -5270,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_Tm_6_bor_",
           "package": "HarmTrace",
@@ -5278,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "Ton_Tm_6_bor_",
           "package": "HarmTrace",
@@ -5291,6 +5745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "getDeg",
           "package": "HarmTrace",
@@ -5300,6 +5755,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "getDeg",
           "normalized": "a-\u003e(ScaleDegree,Int)",
@@ -5315,6 +5771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "pChord",
           "package": "HarmTrace",
@@ -5324,6 +5781,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "pChord",
           "normalized": "ScaleDegree-\u003eClassType-\u003ePMusic(Surface_Chord a b(Su c))",
@@ -5339,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "toGTree",
           "package": "HarmTrace",
@@ -5348,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "toGTree",
           "normalized": "(Int-\u003eScaleDegree-\u003eTrans)-\u003eInt-\u003ea-\u003e[Tree HAn]",
@@ -5363,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "toGTreeSplit",
           "package": "HarmTrace",
@@ -5372,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "toGTreeSplit",
           "normalized": "(Int-\u003eScaleDegree-\u003ePrep)-\u003ea-\u003eb-\u003e[Tree HAn]",
@@ -5387,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "toSDVal",
           "package": "HarmTrace",
@@ -5396,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "toSDVal",
           "normalized": "a-\u003eScaleDegree",
@@ -5411,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "toTransSDVal",
           "package": "HarmTrace",
@@ -5420,6 +5885,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Instances",
           "name": "toTransSDVal",
           "normalized": "Int-\u003ea-\u003eScaleDegree",
@@ -5436,6 +5902,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: The jazz parser\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Main",
           "name": "Main",
           "package": "HarmTrace",
@@ -5445,6 +5912,7 @@
         "index": {
           "description": "Summary The jazz parser",
           "hierarchy": "HarmTrace Models Jazz Main",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Main",
           "name": "Main",
           "package": "HarmTrace",
@@ -5458,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Main",
           "name": "pJazz",
           "package": "HarmTrace",
@@ -5467,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Main",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Main",
           "name": "pJazz",
           "normalized": "Key-\u003ePMusic[Piece]",
@@ -5483,6 +5953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: The jazz model\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Model",
           "package": "HarmTrace",
@@ -5492,6 +5963,7 @@
         "index": {
           "description": "Summary The jazz model",
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Model",
           "package": "HarmTrace",
@@ -5505,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Base_Final",
           "package": "HarmTrace",
@@ -5513,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Base_Final",
           "package": "HarmTrace",
@@ -5526,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Base_SD",
           "package": "HarmTrace",
@@ -5534,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Base_SD",
           "package": "HarmTrace",
@@ -5547,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "DMajBorrow",
           "package": "HarmTrace",
@@ -5555,6 +6032,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "DMajBorrow",
           "package": "HarmTrace",
@@ -5568,6 +6046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "DMinBorrow",
           "package": "HarmTrace",
@@ -5576,6 +6055,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "DMinBorrow",
           "package": "HarmTrace",
@@ -5633,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "DimClass",
           "package": "HarmTrace",
@@ -5641,6 +6122,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "DimClass",
           "package": "HarmTrace",
@@ -5654,6 +6136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dom",
           "package": "HarmTrace",
@@ -5662,6 +6145,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dom",
           "package": "HarmTrace",
@@ -5675,6 +6159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "DomClass",
           "package": "HarmTrace",
@@ -5683,6 +6168,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "DomClass",
           "package": "HarmTrace",
@@ -5696,6 +6182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Final",
           "package": "HarmTrace",
@@ -5704,6 +6191,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Final",
           "package": "HarmTrace",
@@ -5717,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "FinalDimTrans",
           "package": "HarmTrace",
@@ -5725,6 +6214,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "FinalDimTrans",
           "package": "HarmTrace",
@@ -5738,6 +6228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "I",
           "package": "HarmTrace",
@@ -5746,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "I",
           "package": "HarmTrace",
@@ -5758,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "II",
           "package": "HarmTrace",
@@ -5766,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "II",
           "package": "HarmTrace",
@@ -5779,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "III",
           "package": "HarmTrace",
@@ -5787,6 +6282,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "III",
           "package": "HarmTrace",
@@ -5800,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IIIb",
           "package": "HarmTrace",
@@ -5808,6 +6305,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IIIb",
           "package": "HarmTrace",
@@ -5821,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IIIs",
           "package": "HarmTrace",
@@ -5829,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IIIs",
           "package": "HarmTrace",
@@ -5842,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IIb",
           "package": "HarmTrace",
@@ -5850,6 +6351,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IIb",
           "package": "HarmTrace",
@@ -5885,6 +6387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IIs",
           "package": "HarmTrace",
@@ -5893,6 +6396,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IIs",
           "package": "HarmTrace",
@@ -5906,6 +6410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IV",
           "package": "HarmTrace",
@@ -5914,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IV",
           "package": "HarmTrace",
@@ -5927,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IVb",
           "package": "HarmTrace",
@@ -5935,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IVb",
           "package": "HarmTrace",
@@ -5948,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IVs",
           "package": "HarmTrace",
@@ -5956,6 +6465,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "IVs",
           "package": "HarmTrace",
@@ -5969,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Ib",
           "package": "HarmTrace",
@@ -5977,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Ib",
           "package": "HarmTrace",
@@ -5990,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Imp",
           "package": "HarmTrace",
@@ -5998,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Imp",
           "package": "HarmTrace",
@@ -6011,6 +6525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Is",
           "package": "HarmTrace",
@@ -6019,6 +6534,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Is",
           "package": "HarmTrace",
@@ -6032,6 +6548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "MajClass",
           "package": "HarmTrace",
@@ -6040,6 +6557,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "MajClass",
           "package": "HarmTrace",
@@ -6053,6 +6571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "MajMode",
           "package": "HarmTrace",
@@ -6061,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "MajMode",
           "package": "HarmTrace",
@@ -6074,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "MinClass",
           "package": "HarmTrace",
@@ -6082,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "MinClass",
           "package": "HarmTrace",
@@ -6095,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "MinMode",
           "package": "HarmTrace",
@@ -6103,6 +6626,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "MinMode",
           "package": "HarmTrace",
@@ -6138,6 +6662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Phrase",
           "package": "HarmTrace",
@@ -6146,6 +6671,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Phrase",
           "package": "HarmTrace",
@@ -6159,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Piece",
           "package": "HarmTrace",
@@ -6167,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Piece",
           "package": "HarmTrace",
@@ -6180,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "SD",
           "package": "HarmTrace",
@@ -6188,6 +6717,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "SD",
           "package": "HarmTrace",
@@ -6201,6 +6731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "SDom",
           "package": "HarmTrace",
@@ -6209,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "SDom",
           "package": "HarmTrace",
@@ -6222,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "SMajBorrow",
           "package": "HarmTrace",
@@ -6230,6 +6763,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "SMajBorrow",
           "package": "HarmTrace",
@@ -6243,6 +6777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "SMinBorrow",
           "package": "HarmTrace",
@@ -6251,6 +6786,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "SMinBorrow",
           "package": "HarmTrace",
@@ -6264,6 +6800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Surface_Chord",
           "package": "HarmTrace",
@@ -6272,6 +6809,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Surface_Chord",
           "package": "HarmTrace",
@@ -6285,6 +6823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "TMajBorrow",
           "package": "HarmTrace",
@@ -6293,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "TMajBorrow",
           "package": "HarmTrace",
@@ -6306,6 +6846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "TMinBorrow",
           "package": "HarmTrace",
@@ -6314,6 +6855,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "TMinBorrow",
           "package": "HarmTrace",
@@ -6327,6 +6869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "ToClass",
           "package": "HarmTrace",
@@ -6335,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "ToClass",
           "package": "HarmTrace",
@@ -6348,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "ToDegree",
           "package": "HarmTrace",
@@ -6356,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "ToDegree",
           "package": "HarmTrace",
@@ -6369,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Ton",
           "package": "HarmTrace",
@@ -6377,6 +6924,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Ton",
           "package": "HarmTrace",
@@ -6390,6 +6938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "TritMinVSub",
           "package": "HarmTrace",
@@ -6398,6 +6947,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "TritMinVSub",
           "package": "HarmTrace",
@@ -6433,6 +6983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "V",
           "package": "HarmTrace",
@@ -6441,6 +6992,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "V",
           "package": "HarmTrace",
@@ -6475,6 +7027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VI",
           "package": "HarmTrace",
@@ -6483,6 +7036,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VI",
           "package": "HarmTrace",
@@ -6496,6 +7050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VII",
           "package": "HarmTrace",
@@ -6504,6 +7059,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VII",
           "package": "HarmTrace",
@@ -6517,6 +7073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VIIb",
           "package": "HarmTrace",
@@ -6525,6 +7082,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VIIb",
           "package": "HarmTrace",
@@ -6538,6 +7096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VIIs",
           "package": "HarmTrace",
@@ -6546,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VIIs",
           "package": "HarmTrace",
@@ -6559,6 +7119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VIb",
           "package": "HarmTrace",
@@ -6567,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VIb",
           "package": "HarmTrace",
@@ -6580,6 +7142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VIs",
           "package": "HarmTrace",
@@ -6588,6 +7151,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "VIs",
           "package": "HarmTrace",
@@ -6623,6 +7187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Vb",
           "package": "HarmTrace",
@@ -6631,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Vb",
           "package": "HarmTrace",
@@ -6644,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Vs",
           "package": "HarmTrace",
@@ -6652,6 +7219,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Vs",
           "package": "HarmTrace",
@@ -6665,6 +7233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Base_Final",
           "package": "HarmTrace",
@@ -6674,6 +7243,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Base_Final",
           "normalized": "FinalDimTrans a b-\u003eBase_Final a b(Su c)",
@@ -6689,6 +7259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Base_SD",
           "package": "HarmTrace",
@@ -6698,6 +7269,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Base_SD",
           "normalized": "TritMinVSub a b-\u003eBase_SD a b(Su c)",
@@ -6713,6 +7285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_Diat",
           "package": "HarmTrace",
@@ -6722,6 +7295,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_Diat",
           "normalized": "Base_SD(DiatV a)MinClass b-\u003eBase_SD a MinClass b-\u003eBase_SD a MinClass(Su b)",
@@ -6737,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_DiatM",
           "package": "HarmTrace",
@@ -6746,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_DiatM",
           "normalized": "Base_SD(DiatVM a)MajClass b-\u003eBase_SD a MajClass b-\u003eBase_SD a MajClass(Su b)",
@@ -6761,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_DiatM'",
           "package": "HarmTrace",
@@ -6770,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_DiatM'",
           "normalized": "Base_SD(DiatVM a)MajClass b-\u003eBase_SD a MinClass b-\u003eBase_SD a MinClass(Su b)",
@@ -6785,6 +7363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_Vdom",
           "package": "HarmTrace",
@@ -6794,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_Vdom",
           "normalized": "Base_SD(VDom a)DomClass b-\u003eBase_SD a c b-\u003eBase_SD a c(Su b)",
@@ -6809,6 +7389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_Vmin",
           "package": "HarmTrace",
@@ -6818,6 +7399,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Cons_Vmin",
           "normalized": "Base_SD(VMin a)MinClass b-\u003eBase_SD a DomClass b-\u003eBase_SD a DomClass(Su b)",
@@ -6833,6 +7415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_1",
           "package": "HarmTrace",
@@ -6842,6 +7425,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_1",
           "normalized": "SDom a-\u003eDom a-\u003eDom a",
@@ -6856,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_2",
           "package": "HarmTrace",
@@ -6865,6 +7450,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_2",
           "normalized": "SD a V DomClass-\u003eDom a",
@@ -6879,6 +7465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_24_bor",
           "package": "HarmTrace",
@@ -6888,6 +7475,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_24_bor",
           "package": "HarmTrace",
@@ -6900,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_3",
           "package": "HarmTrace",
@@ -6909,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_3",
           "normalized": "SD a V MajClass-\u003eDom a",
@@ -6923,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_4",
           "package": "HarmTrace",
@@ -6932,6 +7523,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_4",
           "normalized": "SD MajMode VII MinClass-\u003eDom MajMode",
@@ -6946,6 +7538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_8_bor",
           "package": "HarmTrace",
@@ -6955,6 +7548,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "D_8_bor",
           "normalized": "DMinBorrow-\u003eDom MajMode",
@@ -6969,6 +7563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dim_Chord_Trns",
           "package": "HarmTrace",
@@ -6978,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dim_Chord_Trns",
           "normalized": "Surface_Chord(MinThird a)DimClass b-\u003eSurface_Chord a DimClass(Su b)",
@@ -6993,6 +7589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dm_24_bor",
           "package": "HarmTrace",
@@ -7002,6 +7599,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dm_24_bor",
           "package": "HarmTrace",
@@ -7015,6 +7613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dm_4",
           "package": "HarmTrace",
@@ -7024,6 +7623,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dm_4",
           "normalized": "SD MinMode VIIb MajClass-\u003eDom MinMode",
@@ -7039,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dm_8_bor",
           "package": "HarmTrace",
@@ -7048,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Dm_8_bor",
           "normalized": "DMajBorrow-\u003eDom MinMode",
@@ -7063,6 +7665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Final_Dim_V",
           "package": "HarmTrace",
@@ -7072,6 +7675,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Final_Dim_V",
           "normalized": "Base_Final(IIbDim a)DimClass b-\u003eBase_Final a DomClass(Su b)",
@@ -7087,6 +7691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Final_Tritone",
           "package": "HarmTrace",
@@ -7096,6 +7701,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Final_Tritone",
           "normalized": "Base_Final(Tritone a)DomClass b-\u003eBase_Final a DomClass(Su b)",
@@ -7111,6 +7717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "PD",
           "package": "HarmTrace",
@@ -7120,6 +7727,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "PD",
           "normalized": "Dom a-\u003ePhrase a",
@@ -7135,6 +7743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "PT",
           "package": "HarmTrace",
@@ -7144,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "PT",
           "normalized": "Ton a-\u003ePhrase a",
@@ -7159,6 +7769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Piece",
           "package": "HarmTrace",
@@ -7168,6 +7779,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Piece",
           "normalized": "a b Piece[Phrase b]",
@@ -7183,6 +7795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_1_par",
           "package": "HarmTrace",
@@ -7192,6 +7805,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_1_par",
           "normalized": "SD a II MinClass-\u003eSDom a",
@@ -7206,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_20_bor",
           "package": "HarmTrace",
@@ -7215,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_20_bor",
           "package": "HarmTrace",
@@ -7227,6 +7843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_2_par",
           "package": "HarmTrace",
@@ -7236,6 +7853,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_2_par",
           "normalized": "SD a II DomClass-\u003eFinal II MinClass-\u003eSDom a",
@@ -7250,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_3",
           "package": "HarmTrace",
@@ -7259,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_3",
           "normalized": "SD MajMode IV MajClass-\u003eSDom MajMode",
@@ -7273,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_4",
           "package": "HarmTrace",
@@ -7282,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_4",
           "normalized": "SD MajMode III MinClass-\u003eFinal IV MajClass-\u003eSDom MajMode",
@@ -7296,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_5_bor",
           "package": "HarmTrace",
@@ -7305,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "S_5_bor",
           "normalized": "SMinBorrow-\u003eSDom MajMode",
@@ -7319,6 +7943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_20_bor",
           "package": "HarmTrace",
@@ -7328,6 +7953,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_20_bor",
           "package": "HarmTrace",
@@ -7341,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_22_bor",
           "package": "HarmTrace",
@@ -7350,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_22_bor",
           "package": "HarmTrace",
@@ -7363,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_3",
           "package": "HarmTrace",
@@ -7372,6 +8001,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_3",
           "normalized": "SD MinMode IV MinClass-\u003eSDom MinMode",
@@ -7387,6 +8017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_4",
           "package": "HarmTrace",
@@ -7396,6 +8027,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_4",
           "normalized": "SD MinMode IIIb MajClass-\u003eFinal IV MinClass-\u003eSDom MinMode",
@@ -7411,6 +8043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_5_bor",
           "package": "HarmTrace",
@@ -7420,6 +8053,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_5_bor",
           "normalized": "SMajBorrow-\u003eSDom MinMode",
@@ -7435,6 +8069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_6",
           "package": "HarmTrace",
@@ -7444,6 +8079,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Sm_6",
           "normalized": "SD MinMode IIb MajClass-\u003eSDom MinMode",
@@ -7459,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Surface_Chord",
           "package": "HarmTrace",
@@ -7468,6 +8105,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Surface_Chord",
           "normalized": "ChordToken-\u003eSurface_Chord a b(Su c)",
@@ -7483,6 +8121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_1",
           "package": "HarmTrace",
@@ -7492,6 +8131,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_1",
           "normalized": "Final I MajClass-\u003eTon MajMode",
@@ -7506,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_2",
           "package": "HarmTrace",
@@ -7515,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_2",
           "normalized": "Final I MajClass-\u003eFinal IV MajClass-\u003eFinal I MajClass-\u003eTon MajMode",
@@ -7529,6 +8171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_21_bor",
           "package": "HarmTrace",
@@ -7538,6 +8181,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_21_bor",
           "package": "HarmTrace",
@@ -7550,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_23_bor",
           "package": "HarmTrace",
@@ -7559,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_23_bor",
           "package": "HarmTrace",
@@ -7571,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_3_par",
           "package": "HarmTrace",
@@ -7580,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_3_par",
           "normalized": "Final III MinClass-\u003eTon MajMode",
@@ -7594,6 +8242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_6_bor",
           "package": "HarmTrace",
@@ -7603,6 +8252,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "T_6_bor",
           "normalized": "TMinBorrow-\u003eTon MajMode",
@@ -7617,6 +8267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_1",
           "package": "HarmTrace",
@@ -7626,6 +8277,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_1",
           "normalized": "SD MinMode I MinClass-\u003eTon MinMode",
@@ -7641,6 +8293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_2",
           "package": "HarmTrace",
@@ -7650,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_2",
           "normalized": "Final I MinClass-\u003eFinal IV MinClass-\u003eFinal I MinClass-\u003eTon MinMode",
@@ -7665,6 +8319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_21_bor",
           "package": "HarmTrace",
@@ -7674,6 +8329,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_21_bor",
           "package": "HarmTrace",
@@ -7687,6 +8343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_23_bor",
           "package": "HarmTrace",
@@ -7696,6 +8353,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_23_bor",
           "package": "HarmTrace",
@@ -7709,6 +8367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_3_par",
           "package": "HarmTrace",
@@ -7718,6 +8377,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_3_par",
           "normalized": "Final IIIb MajClass-\u003eTon MinMode",
@@ -7733,6 +8393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_6_bor",
           "package": "HarmTrace",
@@ -7742,6 +8403,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "Tm_6_bor",
           "normalized": "TMajBorrow-\u003eTon MinMode",
@@ -7757,6 +8419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "allTypes",
           "package": "HarmTrace",
@@ -7766,6 +8429,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "allTypes",
           "normalized": "[Name]",
@@ -7781,6 +8445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "toClass",
           "package": "HarmTrace",
@@ -7790,6 +8455,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "toClass",
           "normalized": "a-\u003eClassType",
@@ -7805,6 +8471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "toDegree",
           "package": "HarmTrace",
@@ -7814,6 +8481,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Jazz Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Jazz.Model",
           "name": "toDegree",
           "normalized": "a-\u003eScaleDegree",
@@ -7830,6 +8498,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: All the models\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Models",
           "name": "Models",
           "package": "HarmTrace",
@@ -7839,6 +8508,7 @@
         "index": {
           "description": "Summary All the models",
           "hierarchy": "HarmTrace Models Models",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Models",
           "name": "Models",
           "package": "HarmTrace",
@@ -7852,6 +8522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Models",
           "name": "Grammar",
           "package": "HarmTrace",
@@ -7860,6 +8531,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Models",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Models",
           "name": "Grammar",
           "package": "HarmTrace",
@@ -7873,6 +8545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Models",
           "name": "GrammarEx",
           "package": "HarmTrace",
@@ -7881,6 +8554,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Models",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Models",
           "name": "GrammarEx",
           "package": "HarmTrace",
@@ -7894,6 +8568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Models",
           "name": "GrammarEx",
           "package": "HarmTrace",
@@ -7903,6 +8578,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Models",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Models",
           "name": "GrammarEx",
           "normalized": "Grammar a-\u003eGrammarEx",
@@ -7918,6 +8594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Models",
           "name": "Jazz",
           "package": "HarmTrace",
@@ -7927,6 +8604,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Models",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Models",
           "name": "Jazz",
           "package": "HarmTrace",
@@ -7940,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Models",
           "name": "Pop",
           "package": "HarmTrace",
@@ -7949,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Models",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Models",
           "name": "Pop",
           "package": "HarmTrace",
@@ -7963,6 +8643,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Semi-generic parser for chords\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Parser",
           "name": "Parser",
           "package": "HarmTrace",
@@ -7972,6 +8653,7 @@
         "index": {
           "description": "Summary Semi-generic parser for chords",
           "hierarchy": "HarmTrace Models Parser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Parser",
           "name": "Parser",
           "package": "HarmTrace",
@@ -7986,6 +8668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea type synoniome for a harmonic analysis of a piece of music\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Parser",
           "name": "PMusic",
           "package": "HarmTrace",
@@ -7995,6 +8678,7 @@
         "index": {
           "description": "type synoniome for harmonic analysis of piece of music",
           "hierarchy": "HarmTrace Models Parser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Parser",
           "name": "PMusic",
           "package": "HarmTrace",
@@ -8008,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Parser",
           "name": "ParseG",
           "package": "HarmTrace",
@@ -8016,6 +8701,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Parser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Parser",
           "name": "ParseG",
           "package": "HarmTrace",
@@ -8029,6 +8715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Parser",
           "name": "parseG",
           "package": "HarmTrace",
@@ -8038,6 +8725,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Parser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Parser",
           "name": "parseG",
           "package": "HarmTrace",
@@ -8051,6 +8739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault generic parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Parser",
           "name": "parseGdefault",
           "package": "HarmTrace",
@@ -8061,6 +8750,7 @@
         "index": {
           "description": "default generic parser",
           "hierarchy": "HarmTrace Models Parser",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Parser",
           "name": "parseGdefault",
           "package": "HarmTrace",
@@ -8074,6 +8764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Instances",
           "package": "HarmTrace",
@@ -8082,6 +8773,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Instances",
           "package": "HarmTrace",
@@ -8095,6 +8787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "DMajBorrow_D_24_bor_",
           "package": "HarmTrace",
@@ -8103,6 +8796,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "DMajBorrow_D_24_bor_",
           "package": "HarmTrace",
@@ -8116,6 +8810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "DMinBorrow_Dm_24_bor_",
           "package": "HarmTrace",
@@ -8124,6 +8819,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "DMinBorrow_Dm_24_bor_",
           "package": "HarmTrace",
@@ -8137,6 +8833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_1_",
           "package": "HarmTrace",
@@ -8145,6 +8842,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_1_",
           "package": "HarmTrace",
@@ -8158,6 +8856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_2_",
           "package": "HarmTrace",
@@ -8166,6 +8865,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_2_",
           "package": "HarmTrace",
@@ -8179,6 +8879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_3_",
           "package": "HarmTrace",
@@ -8187,6 +8888,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_3_",
           "package": "HarmTrace",
@@ -8200,6 +8902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_4_",
           "package": "HarmTrace",
@@ -8208,6 +8911,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_4_",
           "package": "HarmTrace",
@@ -8221,6 +8925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_8_bor_",
           "package": "HarmTrace",
@@ -8229,6 +8934,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_D_8_bor_",
           "package": "HarmTrace",
@@ -8242,6 +8948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_Dm_4_",
           "package": "HarmTrace",
@@ -8250,6 +8957,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_Dm_4_",
           "package": "HarmTrace",
@@ -8263,6 +8971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_Dm_8_bor_",
           "package": "HarmTrace",
@@ -8271,6 +8980,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Dom_Dm_8_bor_",
           "package": "HarmTrace",
@@ -8284,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "GetDegree",
           "package": "HarmTrace",
@@ -8292,6 +9003,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "GetDegree",
           "package": "HarmTrace",
@@ -8305,6 +9017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Phrase_PD_",
           "package": "HarmTrace",
@@ -8313,6 +9026,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Phrase_PD_",
           "package": "HarmTrace",
@@ -8326,6 +9040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Phrase_PT_",
           "package": "HarmTrace",
@@ -8334,6 +9049,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Phrase_PT_",
           "package": "HarmTrace",
@@ -8347,6 +9063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepDMajBorrow_",
           "package": "HarmTrace",
@@ -8355,6 +9072,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepDMajBorrow_",
           "package": "HarmTrace",
@@ -8368,6 +9086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepDMinBorrow_",
           "package": "HarmTrace",
@@ -8376,6 +9095,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepDMinBorrow_",
           "package": "HarmTrace",
@@ -8389,6 +9109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepDom_",
           "package": "HarmTrace",
@@ -8397,6 +9118,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepDom_",
           "package": "HarmTrace",
@@ -8410,6 +9132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepPhrase_",
           "package": "HarmTrace",
@@ -8418,6 +9141,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepPhrase_",
           "package": "HarmTrace",
@@ -8431,6 +9155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepSDom_",
           "package": "HarmTrace",
@@ -8439,6 +9164,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepSDom_",
           "package": "HarmTrace",
@@ -8452,6 +9178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepSMajBorrow_",
           "package": "HarmTrace",
@@ -8460,6 +9187,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepSMajBorrow_",
           "package": "HarmTrace",
@@ -8473,6 +9201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepSMinBorrow_",
           "package": "HarmTrace",
@@ -8481,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepSMinBorrow_",
           "package": "HarmTrace",
@@ -8494,6 +9224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepTMajBorrow_",
           "package": "HarmTrace",
@@ -8502,6 +9233,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepTMajBorrow_",
           "package": "HarmTrace",
@@ -8515,6 +9247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepTMinBorrow_",
           "package": "HarmTrace",
@@ -8523,6 +9256,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepTMinBorrow_",
           "package": "HarmTrace",
@@ -8536,6 +9270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepTon_",
           "package": "HarmTrace",
@@ -8544,6 +9279,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "RepTon_",
           "package": "HarmTrace",
@@ -8557,6 +9293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_1_par_",
           "package": "HarmTrace",
@@ -8565,6 +9302,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_1_par_",
           "package": "HarmTrace",
@@ -8578,6 +9316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_2_par_",
           "package": "HarmTrace",
@@ -8586,6 +9325,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_2_par_",
           "package": "HarmTrace",
@@ -8599,6 +9339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_3_",
           "package": "HarmTrace",
@@ -8607,6 +9348,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_3_",
           "package": "HarmTrace",
@@ -8620,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_3_bls_",
           "package": "HarmTrace",
@@ -8628,6 +9371,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_3_bls_",
           "package": "HarmTrace",
@@ -8641,6 +9385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_4_",
           "package": "HarmTrace",
@@ -8649,6 +9394,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_4_",
           "package": "HarmTrace",
@@ -8662,6 +9408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_5_par_",
           "package": "HarmTrace",
@@ -8670,6 +9417,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_5_par_",
           "package": "HarmTrace",
@@ -8683,6 +9431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_7_",
           "package": "HarmTrace",
@@ -8691,6 +9440,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_7_",
           "package": "HarmTrace",
@@ -8704,6 +9454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_9_bor_",
           "package": "HarmTrace",
@@ -8712,6 +9463,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_S_9_bor_",
           "package": "HarmTrace",
@@ -8725,6 +9477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_3_",
           "package": "HarmTrace",
@@ -8733,6 +9486,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_3_",
           "package": "HarmTrace",
@@ -8746,6 +9500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_4_",
           "package": "HarmTrace",
@@ -8754,6 +9509,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_4_",
           "package": "HarmTrace",
@@ -8767,6 +9523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_5_par_",
           "package": "HarmTrace",
@@ -8775,6 +9532,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_5_par_",
           "package": "HarmTrace",
@@ -8788,6 +9546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_6_",
           "package": "HarmTrace",
@@ -8796,6 +9555,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_6_",
           "package": "HarmTrace",
@@ -8809,6 +9569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_7_",
           "package": "HarmTrace",
@@ -8817,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_7_",
           "package": "HarmTrace",
@@ -8830,6 +9592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_9_bor_",
           "package": "HarmTrace",
@@ -8838,6 +9601,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SDom_Sm_9_bor_",
           "package": "HarmTrace",
@@ -8851,6 +9615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SMajBorrow_S_20_bor_",
           "package": "HarmTrace",
@@ -8859,6 +9624,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SMajBorrow_S_20_bor_",
           "package": "HarmTrace",
@@ -8872,6 +9638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SMinBorrow_Sm_20_bor_",
           "package": "HarmTrace",
@@ -8880,6 +9647,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SMinBorrow_Sm_20_bor_",
           "package": "HarmTrace",
@@ -8893,6 +9661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SMinBorrow_Sm_22_bor_",
           "package": "HarmTrace",
@@ -8901,6 +9670,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "SMinBorrow_Sm_22_bor_",
           "package": "HarmTrace",
@@ -8914,6 +9684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "TMajBorrow_T_21_bor_",
           "package": "HarmTrace",
@@ -8922,6 +9693,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "TMajBorrow_T_21_bor_",
           "package": "HarmTrace",
@@ -8935,6 +9707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "TMinBorrow_Tm_21_bor_",
           "package": "HarmTrace",
@@ -8943,6 +9716,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "TMinBorrow_Tm_21_bor_",
           "package": "HarmTrace",
@@ -8956,6 +9730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_T_0_",
           "package": "HarmTrace",
@@ -8964,6 +9739,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_T_0_",
           "package": "HarmTrace",
@@ -8977,6 +9753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_T_1_",
           "package": "HarmTrace",
@@ -8985,6 +9762,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_T_1_",
           "package": "HarmTrace",
@@ -8998,6 +9776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_T_4_bls_",
           "package": "HarmTrace",
@@ -9006,6 +9785,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_T_4_bls_",
           "package": "HarmTrace",
@@ -9019,6 +9799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_T_6_bor_",
           "package": "HarmTrace",
@@ -9027,6 +9808,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_T_6_bor_",
           "package": "HarmTrace",
@@ -9040,6 +9822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_Tm_1_",
           "package": "HarmTrace",
@@ -9048,6 +9831,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_Tm_1_",
           "package": "HarmTrace",
@@ -9061,6 +9845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_Tm_6_bor_",
           "package": "HarmTrace",
@@ -9069,6 +9854,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "Ton_Tm_6_bor_",
           "package": "HarmTrace",
@@ -9082,6 +9868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "getDeg",
           "package": "HarmTrace",
@@ -9091,6 +9878,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "getDeg",
           "normalized": "a-\u003e(ScaleDegree,Int)",
@@ -9106,6 +9894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "pChord",
           "package": "HarmTrace",
@@ -9115,6 +9904,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "pChord",
           "normalized": "ScaleDegree-\u003eClassType-\u003ePMusic(Surface_Chord a b(Su c))",
@@ -9130,6 +9920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "toGTree",
           "package": "HarmTrace",
@@ -9139,6 +9930,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "toGTree",
           "normalized": "(Int-\u003eScaleDegree-\u003eTrans)-\u003eInt-\u003ea-\u003e[Tree HAn]",
@@ -9154,6 +9946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "toGTreeSplit",
           "package": "HarmTrace",
@@ -9163,6 +9956,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "toGTreeSplit",
           "normalized": "(Int-\u003eScaleDegree-\u003ePrep)-\u003ea-\u003eb-\u003e[Tree HAn]",
@@ -9178,6 +9972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "toSDVal",
           "package": "HarmTrace",
@@ -9187,6 +9982,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "toSDVal",
           "normalized": "a-\u003eScaleDegree",
@@ -9202,6 +9998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "toTransSDVal",
           "package": "HarmTrace",
@@ -9211,6 +10008,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Instances",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Instances",
           "name": "toTransSDVal",
           "normalized": "Int-\u003ea-\u003eScaleDegree",
@@ -9226,6 +10024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Main",
           "name": "Main",
           "package": "HarmTrace",
@@ -9234,6 +10033,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Main",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Main",
           "name": "Main",
           "package": "HarmTrace",
@@ -9247,6 +10047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Main",
           "name": "pPop",
           "package": "HarmTrace",
@@ -9256,6 +10057,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Main",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Main",
           "name": "pPop",
           "normalized": "Key-\u003ePMusic[Piece]",
@@ -9271,6 +10073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Model",
           "package": "HarmTrace",
@@ -9279,6 +10082,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Model",
           "package": "HarmTrace",
@@ -9292,6 +10096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Base_Final",
           "package": "HarmTrace",
@@ -9300,6 +10105,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Base_Final",
           "package": "HarmTrace",
@@ -9313,6 +10119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Base_SD",
           "package": "HarmTrace",
@@ -9321,6 +10128,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Base_SD",
           "package": "HarmTrace",
@@ -9334,6 +10142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "DMajBorrow",
           "package": "HarmTrace",
@@ -9342,6 +10151,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "DMajBorrow",
           "package": "HarmTrace",
@@ -9355,6 +10165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "DMinBorrow",
           "package": "HarmTrace",
@@ -9363,6 +10174,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "DMinBorrow",
           "package": "HarmTrace",
@@ -9376,6 +10188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "DimClass",
           "package": "HarmTrace",
@@ -9384,6 +10197,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "DimClass",
           "package": "HarmTrace",
@@ -9397,6 +10211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Dom",
           "package": "HarmTrace",
@@ -9405,6 +10220,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Dom",
           "package": "HarmTrace",
@@ -9418,6 +10234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "DomClass",
           "package": "HarmTrace",
@@ -9426,6 +10243,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "DomClass",
           "package": "HarmTrace",
@@ -9439,6 +10257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Final",
           "package": "HarmTrace",
@@ -9447,6 +10266,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Final",
           "package": "HarmTrace",
@@ -9460,6 +10280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "FinalDimTrans",
           "package": "HarmTrace",
@@ -9468,6 +10289,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "FinalDimTrans",
           "package": "HarmTrace",
@@ -9481,6 +10303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "I",
           "package": "HarmTrace",
@@ -9489,6 +10312,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "I",
           "package": "HarmTrace",
@@ -9501,6 +10325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "II",
           "package": "HarmTrace",
@@ -9509,6 +10334,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "II",
           "package": "HarmTrace",
@@ -9522,6 +10348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "III",
           "package": "HarmTrace",
@@ -9530,6 +10357,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "III",
           "package": "HarmTrace",
@@ -9543,6 +10371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IIIb",
           "package": "HarmTrace",
@@ -9551,6 +10380,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IIIb",
           "package": "HarmTrace",
@@ -9564,6 +10394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IIIs",
           "package": "HarmTrace",
@@ -9572,6 +10403,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IIIs",
           "package": "HarmTrace",
@@ -9585,6 +10417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IIb",
           "package": "HarmTrace",
@@ -9593,6 +10426,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IIb",
           "package": "HarmTrace",
@@ -9606,6 +10440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IIs",
           "package": "HarmTrace",
@@ -9614,6 +10449,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IIs",
           "package": "HarmTrace",
@@ -9627,6 +10463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IV",
           "package": "HarmTrace",
@@ -9635,6 +10472,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IV",
           "package": "HarmTrace",
@@ -9648,6 +10486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IVb",
           "package": "HarmTrace",
@@ -9656,6 +10495,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IVb",
           "package": "HarmTrace",
@@ -9669,6 +10509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IVs",
           "package": "HarmTrace",
@@ -9677,6 +10518,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "IVs",
           "package": "HarmTrace",
@@ -9690,6 +10532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Ib",
           "package": "HarmTrace",
@@ -9698,6 +10541,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Ib",
           "package": "HarmTrace",
@@ -9711,6 +10555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Imp",
           "package": "HarmTrace",
@@ -9719,6 +10564,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Imp",
           "package": "HarmTrace",
@@ -9732,6 +10578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Is",
           "package": "HarmTrace",
@@ -9740,6 +10587,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Is",
           "package": "HarmTrace",
@@ -9753,6 +10601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "MajClass",
           "package": "HarmTrace",
@@ -9761,6 +10610,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "MajClass",
           "package": "HarmTrace",
@@ -9774,6 +10624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "MajMode",
           "package": "HarmTrace",
@@ -9782,6 +10633,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "MajMode",
           "package": "HarmTrace",
@@ -9795,6 +10647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "MinClass",
           "package": "HarmTrace",
@@ -9803,6 +10656,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "MinClass",
           "package": "HarmTrace",
@@ -9816,6 +10670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "MinMode",
           "package": "HarmTrace",
@@ -9824,6 +10679,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "MinMode",
           "package": "HarmTrace",
@@ -9837,6 +10693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Phrase",
           "package": "HarmTrace",
@@ -9845,6 +10702,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Phrase",
           "package": "HarmTrace",
@@ -9858,6 +10716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Piece",
           "package": "HarmTrace",
@@ -9866,6 +10725,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Piece",
           "package": "HarmTrace",
@@ -9879,6 +10739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "SD",
           "package": "HarmTrace",
@@ -9887,6 +10748,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "SD",
           "package": "HarmTrace",
@@ -9900,6 +10762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "SDom",
           "package": "HarmTrace",
@@ -9908,6 +10771,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "SDom",
           "package": "HarmTrace",
@@ -9921,6 +10785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "SMajBorrow",
           "package": "HarmTrace",
@@ -9929,6 +10794,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "SMajBorrow",
           "package": "HarmTrace",
@@ -9942,6 +10808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "SMinBorrow",
           "package": "HarmTrace",
@@ -9950,6 +10817,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "SMinBorrow",
           "package": "HarmTrace",
@@ -9963,6 +10831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Surface_Chord",
           "package": "HarmTrace",
@@ -9971,6 +10840,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Surface_Chord",
           "package": "HarmTrace",
@@ -9984,6 +10854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "TMajBorrow",
           "package": "HarmTrace",
@@ -9992,6 +10863,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "TMajBorrow",
           "package": "HarmTrace",
@@ -10005,6 +10877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "TMinBorrow",
           "package": "HarmTrace",
@@ -10013,6 +10886,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "TMinBorrow",
           "package": "HarmTrace",
@@ -10026,6 +10900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "ToClass",
           "package": "HarmTrace",
@@ -10034,6 +10909,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "ToClass",
           "package": "HarmTrace",
@@ -10047,6 +10923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "ToDegree",
           "package": "HarmTrace",
@@ -10055,6 +10932,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "ToDegree",
           "package": "HarmTrace",
@@ -10068,6 +10946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Ton",
           "package": "HarmTrace",
@@ -10076,6 +10955,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Ton",
           "package": "HarmTrace",
@@ -10089,6 +10969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "TritMinVSub",
           "package": "HarmTrace",
@@ -10097,6 +10978,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "TritMinVSub",
           "package": "HarmTrace",
@@ -10110,6 +10992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "V",
           "package": "HarmTrace",
@@ -10118,6 +11001,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "V",
           "package": "HarmTrace",
@@ -10130,6 +11014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VI",
           "package": "HarmTrace",
@@ -10138,6 +11023,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VI",
           "package": "HarmTrace",
@@ -10151,6 +11037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VII",
           "package": "HarmTrace",
@@ -10159,6 +11046,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VII",
           "package": "HarmTrace",
@@ -10172,6 +11060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VIIb",
           "package": "HarmTrace",
@@ -10180,6 +11069,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VIIb",
           "package": "HarmTrace",
@@ -10193,6 +11083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VIIs",
           "package": "HarmTrace",
@@ -10201,6 +11092,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VIIs",
           "package": "HarmTrace",
@@ -10214,6 +11106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VIb",
           "package": "HarmTrace",
@@ -10222,6 +11115,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VIb",
           "package": "HarmTrace",
@@ -10235,6 +11129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VIs",
           "package": "HarmTrace",
@@ -10243,6 +11138,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "VIs",
           "package": "HarmTrace",
@@ -10256,6 +11152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Vb",
           "package": "HarmTrace",
@@ -10264,6 +11161,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Vb",
           "package": "HarmTrace",
@@ -10277,6 +11175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Vs",
           "package": "HarmTrace",
@@ -10285,6 +11184,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Vs",
           "package": "HarmTrace",
@@ -10298,6 +11198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Base_Final",
           "package": "HarmTrace",
@@ -10307,6 +11208,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Base_Final",
           "normalized": "FinalDimTrans a b-\u003eBase_Final a b(Su c)",
@@ -10322,6 +11224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Base_SD",
           "package": "HarmTrace",
@@ -10331,6 +11234,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Base_SD",
           "normalized": "TritMinVSub a b-\u003eBase_SD a b(Su c)",
@@ -10346,6 +11250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_Diat",
           "package": "HarmTrace",
@@ -10355,6 +11260,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_Diat",
           "normalized": "Base_SD(DiatV a)MinClass b-\u003eBase_SD a MinClass b-\u003eBase_SD a MinClass(Su b)",
@@ -10370,6 +11276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_DiatM",
           "package": "HarmTrace",
@@ -10379,6 +11286,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_DiatM",
           "normalized": "Base_SD(DiatVM a)MajClass b-\u003eBase_SD a MajClass b-\u003eBase_SD a MajClass(Su b)",
@@ -10394,6 +11302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_DiatM'",
           "package": "HarmTrace",
@@ -10403,6 +11312,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_DiatM'",
           "normalized": "Base_SD(DiatVM a)MajClass b-\u003eBase_SD a MinClass b-\u003eBase_SD a MinClass(Su b)",
@@ -10418,6 +11328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_Vdom",
           "package": "HarmTrace",
@@ -10427,6 +11338,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_Vdom",
           "normalized": "Base_SD(VDom a)DomClass b-\u003eBase_SD a c b-\u003eBase_SD a c(Su b)",
@@ -10442,6 +11354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_Vmin",
           "package": "HarmTrace",
@@ -10451,6 +11364,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Cons_Vmin",
           "normalized": "Base_SD(VMin a)MinClass b-\u003eBase_SD a DomClass b-\u003eBase_SD a DomClass(Su b)",
@@ -10466,6 +11380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_1",
           "package": "HarmTrace",
@@ -10475,6 +11390,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_1",
           "normalized": "SDom a-\u003eDom a-\u003eDom a",
@@ -10489,6 +11405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_2",
           "package": "HarmTrace",
@@ -10498,6 +11415,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_2",
           "normalized": "SD a V DomClass-\u003eDom a",
@@ -10512,6 +11430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_24_bor",
           "package": "HarmTrace",
@@ -10521,6 +11440,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_24_bor",
           "package": "HarmTrace",
@@ -10533,6 +11453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_3",
           "package": "HarmTrace",
@@ -10542,6 +11463,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_3",
           "normalized": "SD a V MajClass-\u003eDom a",
@@ -10556,6 +11478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_4",
           "package": "HarmTrace",
@@ -10565,6 +11488,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_4",
           "normalized": "SD MajMode VII MinClass-\u003eDom MajMode",
@@ -10579,6 +11503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_8_bor",
           "package": "HarmTrace",
@@ -10588,6 +11513,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "D_8_bor",
           "normalized": "DMinBorrow-\u003eDom MajMode",
@@ -10602,6 +11528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Dm_24_bor",
           "package": "HarmTrace",
@@ -10611,6 +11538,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Dm_24_bor",
           "package": "HarmTrace",
@@ -10624,6 +11552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Dm_4",
           "package": "HarmTrace",
@@ -10633,6 +11562,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Dm_4",
           "normalized": "SD MinMode VIIb MajClass-\u003eDom MinMode",
@@ -10648,6 +11578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Dm_8_bor",
           "package": "HarmTrace",
@@ -10657,6 +11588,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Dm_8_bor",
           "normalized": "DMajBorrow-\u003eDom MinMode",
@@ -10672,6 +11604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "PD",
           "package": "HarmTrace",
@@ -10681,6 +11614,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "PD",
           "normalized": "Dom a-\u003ePhrase a",
@@ -10696,6 +11630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "PT",
           "package": "HarmTrace",
@@ -10705,6 +11640,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "PT",
           "normalized": "Ton a-\u003ePhrase a",
@@ -10720,6 +11656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Piece",
           "package": "HarmTrace",
@@ -10729,6 +11666,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Piece",
           "normalized": "a b Piece[Phrase b]",
@@ -10744,6 +11682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_1_par",
           "package": "HarmTrace",
@@ -10753,6 +11692,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_1_par",
           "normalized": "SD a II MinClass-\u003eSDom a",
@@ -10767,6 +11707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_20_bor",
           "package": "HarmTrace",
@@ -10776,6 +11717,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_20_bor",
           "package": "HarmTrace",
@@ -10788,6 +11730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_2_par",
           "package": "HarmTrace",
@@ -10797,6 +11740,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_2_par",
           "normalized": "SD a II DomClass-\u003eFinal II MinClass-\u003eSDom a",
@@ -10811,6 +11755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_3",
           "package": "HarmTrace",
@@ -10820,6 +11765,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_3",
           "normalized": "SD MajMode IV MajClass-\u003eSDom MajMode",
@@ -10834,6 +11780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_3_bls",
           "package": "HarmTrace",
@@ -10843,6 +11790,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_3_bls",
           "normalized": "Final IV DomClass-\u003eSDom a",
@@ -10857,6 +11805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_4",
           "package": "HarmTrace",
@@ -10866,6 +11815,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_4",
           "normalized": "SD MajMode III MinClass-\u003eFinal IV MajClass-\u003eSDom MajMode",
@@ -10880,6 +11830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_5_par",
           "package": "HarmTrace",
@@ -10889,6 +11840,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_5_par",
           "normalized": "SD MajMode VI MinClass-\u003eSDom MajMode",
@@ -10903,6 +11855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_7",
           "package": "HarmTrace",
@@ -10912,6 +11865,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_7",
           "normalized": "SD MajMode III MinClass-\u003eFinal II MinClass-\u003eSDom MajMode",
@@ -10926,6 +11880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_9_bor",
           "package": "HarmTrace",
@@ -10935,6 +11890,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "S_9_bor",
           "normalized": "SMinBorrow-\u003eSDom MajMode",
@@ -10949,6 +11905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_20_bor",
           "package": "HarmTrace",
@@ -10958,6 +11915,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_20_bor",
           "package": "HarmTrace",
@@ -10971,6 +11929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_22_bor",
           "package": "HarmTrace",
@@ -10980,6 +11939,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_22_bor",
           "package": "HarmTrace",
@@ -10993,6 +11953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_3",
           "package": "HarmTrace",
@@ -11002,6 +11963,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_3",
           "normalized": "SD MinMode IV MinClass-\u003eSDom MinMode",
@@ -11017,6 +11979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_4",
           "package": "HarmTrace",
@@ -11026,6 +11989,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_4",
           "normalized": "SD MinMode IIIb MajClass-\u003eFinal IV MinClass-\u003eSDom MinMode",
@@ -11041,6 +12005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_5_par",
           "package": "HarmTrace",
@@ -11050,6 +12015,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_5_par",
           "normalized": "SD MinMode VIb MajClass-\u003eSDom MinMode",
@@ -11065,6 +12031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_6",
           "package": "HarmTrace",
@@ -11074,6 +12041,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_6",
           "normalized": "SD MinMode IIb MajClass-\u003eSDom MinMode",
@@ -11089,6 +12057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_7",
           "package": "HarmTrace",
@@ -11098,6 +12067,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_7",
           "normalized": "SD MinMode IIIb MajClass-\u003eFinal II MinClass-\u003eSDom MinMode",
@@ -11113,6 +12083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_9_bor",
           "package": "HarmTrace",
@@ -11122,6 +12093,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Sm_9_bor",
           "normalized": "SMajBorrow-\u003eSDom MinMode",
@@ -11137,6 +12109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Surface_Chord",
           "package": "HarmTrace",
@@ -11146,6 +12119,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Surface_Chord",
           "normalized": "ChordToken-\u003eSurface_Chord a b(Su c)",
@@ -11161,6 +12135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_0",
           "package": "HarmTrace",
@@ -11170,6 +12145,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_0",
           "normalized": "SDom a-\u003eTon a-\u003eTon a",
@@ -11184,6 +12160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_1",
           "package": "HarmTrace",
@@ -11193,6 +12170,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_1",
           "normalized": "Final I MajClass-\u003eTon MajMode",
@@ -11207,6 +12185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_21_bor",
           "package": "HarmTrace",
@@ -11216,6 +12195,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_21_bor",
           "package": "HarmTrace",
@@ -11228,6 +12208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_4_bls",
           "package": "HarmTrace",
@@ -11237,6 +12218,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_4_bls",
           "normalized": "Final I DomClass-\u003eTon a",
@@ -11251,6 +12233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_6_bor",
           "package": "HarmTrace",
@@ -11260,6 +12243,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "T_6_bor",
           "normalized": "TMinBorrow-\u003eTon MajMode",
@@ -11274,6 +12258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Tm_1",
           "package": "HarmTrace",
@@ -11283,6 +12268,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Tm_1",
           "normalized": "SD MinMode I MinClass-\u003eTon MinMode",
@@ -11298,6 +12284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Tm_21_bor",
           "package": "HarmTrace",
@@ -11307,6 +12294,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Tm_21_bor",
           "package": "HarmTrace",
@@ -11320,6 +12308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Tm_6_bor",
           "package": "HarmTrace",
@@ -11329,6 +12318,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "Tm_6_bor",
           "normalized": "TMajBorrow-\u003eTon MinMode",
@@ -11344,6 +12334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "allTypes",
           "package": "HarmTrace",
@@ -11353,6 +12344,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "allTypes",
           "normalized": "[Name]",
@@ -11368,6 +12360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "toClass",
           "package": "HarmTrace",
@@ -11377,6 +12370,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "toClass",
           "normalized": "a-\u003eClassType",
@@ -11392,6 +12386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "toDegree",
           "package": "HarmTrace",
@@ -11401,6 +12396,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models Pop Model",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.Pop.Model",
           "name": "toDegree",
           "normalized": "a-\u003eScaleDegree",
@@ -11416,6 +12412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "TypeLevel",
           "package": "HarmTrace",
@@ -11424,6 +12421,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "TypeLevel",
           "package": "HarmTrace",
@@ -11437,6 +12435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "Su",
           "package": "HarmTrace",
@@ -11445,6 +12444,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "Su",
           "package": "HarmTrace",
@@ -11458,6 +12458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T0",
           "package": "HarmTrace",
@@ -11466,6 +12467,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T0",
           "package": "HarmTrace",
@@ -11478,6 +12480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T1",
           "package": "HarmTrace",
@@ -11486,6 +12489,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T1",
           "package": "HarmTrace",
@@ -11498,6 +12502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T10",
           "package": "HarmTrace",
@@ -11506,6 +12511,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T10",
           "package": "HarmTrace",
@@ -11518,6 +12524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T11",
           "package": "HarmTrace",
@@ -11526,6 +12533,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T11",
           "package": "HarmTrace",
@@ -11538,6 +12546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T12",
           "package": "HarmTrace",
@@ -11546,6 +12555,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T12",
           "package": "HarmTrace",
@@ -11558,6 +12568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T13",
           "package": "HarmTrace",
@@ -11566,6 +12577,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T13",
           "package": "HarmTrace",
@@ -11578,6 +12590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T14",
           "package": "HarmTrace",
@@ -11586,6 +12599,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T14",
           "package": "HarmTrace",
@@ -11598,6 +12612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T15",
           "package": "HarmTrace",
@@ -11606,6 +12621,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T15",
           "package": "HarmTrace",
@@ -11618,6 +12634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T16",
           "package": "HarmTrace",
@@ -11626,6 +12643,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T16",
           "package": "HarmTrace",
@@ -11638,6 +12656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T17",
           "package": "HarmTrace",
@@ -11646,6 +12665,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T17",
           "package": "HarmTrace",
@@ -11658,6 +12678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T18",
           "package": "HarmTrace",
@@ -11666,6 +12687,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T18",
           "package": "HarmTrace",
@@ -11678,6 +12700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T19",
           "package": "HarmTrace",
@@ -11686,6 +12709,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T19",
           "package": "HarmTrace",
@@ -11698,6 +12722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T2",
           "package": "HarmTrace",
@@ -11706,6 +12731,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T2",
           "package": "HarmTrace",
@@ -11718,6 +12744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T20",
           "package": "HarmTrace",
@@ -11726,6 +12753,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T20",
           "package": "HarmTrace",
@@ -11738,6 +12766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T3",
           "package": "HarmTrace",
@@ -11746,6 +12775,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T3",
           "package": "HarmTrace",
@@ -11758,6 +12788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T4",
           "package": "HarmTrace",
@@ -11766,6 +12797,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T4",
           "package": "HarmTrace",
@@ -11778,6 +12810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T5",
           "package": "HarmTrace",
@@ -11786,6 +12819,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T5",
           "package": "HarmTrace",
@@ -11798,6 +12832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T6",
           "package": "HarmTrace",
@@ -11806,6 +12841,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T6",
           "package": "HarmTrace",
@@ -11818,6 +12854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T7",
           "package": "HarmTrace",
@@ -11826,6 +12863,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T7",
           "package": "HarmTrace",
@@ -11838,6 +12876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T8",
           "package": "HarmTrace",
@@ -11846,6 +12885,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T8",
           "package": "HarmTrace",
@@ -11858,6 +12898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T9",
           "package": "HarmTrace",
@@ -11866,6 +12907,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "T9",
           "package": "HarmTrace",
@@ -11878,6 +12920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "ToNat",
           "package": "HarmTrace",
@@ -11886,6 +12929,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "ToNat",
           "package": "HarmTrace",
@@ -11899,6 +12943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "Ze",
           "package": "HarmTrace",
@@ -11907,6 +12952,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "Ze",
           "package": "HarmTrace",
@@ -11920,6 +12966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:36 UTC 2014",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "toNat",
           "package": "HarmTrace",
@@ -11929,6 +12976,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Models TypeLevel",
+          "indexed": "2014-03-11T16:47:36",
           "module": "HarmTrace.Models.TypeLevel",
           "name": "toNat",
           "normalized": "a-\u003eInt",

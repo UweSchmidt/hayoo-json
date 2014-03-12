@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "threadmanager"
+        "phrase": "threadmanager",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntended to be imported qualified, as in\n\u003c/p\u003e\u003cpre\u003e\n import qualified Control.Concurrent.ThreadManager as TM\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "ThreadManager",
           "package": "threadmanager",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Intended to be imported qualified as in import qualified Control.Concurrent.ThreadManager as TM",
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "ThreadManager",
           "package": "threadmanager",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "ThreadManager",
           "package": "threadmanager",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "ThreadManager",
           "package": "threadmanager",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "ThreadStatus",
           "package": "threadmanager",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "ThreadStatus",
           "package": "threadmanager",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "Finished",
           "package": "threadmanager",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "Finished",
           "package": "threadmanager",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "Running",
           "package": "threadmanager",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "Running",
           "package": "threadmanager",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "Threw",
           "package": "threadmanager",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "Threw",
           "package": "threadmanager",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a managed thread. Uses \u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "fork",
           "package": "threadmanager",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Make managed thread Uses forkIO",
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "fork",
           "normalized": "ThreadManager-\u003eIO()-\u003eIO ThreadId",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the given number of managed threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "forkn",
           "package": "threadmanager",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Make the given number of managed threads",
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "forkn",
           "normalized": "ThreadManager-\u003eInt-\u003eIO()-\u003eIO[ThreadId]",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the status of a managed thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "getStatus",
           "package": "threadmanager",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Get the status of managed thread",
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "getStatus",
           "normalized": "ThreadManager-\u003eThreadId-\u003eIO(Maybe ThreadStatus)",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a thread manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "make",
           "package": "threadmanager",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Make thread manager",
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "make",
           "package": "threadmanager",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock until a specific managed thread terminates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "waitFor",
           "package": "threadmanager",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Block until specific managed thread terminates",
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "waitFor",
           "normalized": "ThreadManager-\u003eThreadId-\u003eIO(Maybe ThreadStatus)",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock until all managed threads terminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:48 UTC 2014",
           "module": "Control.Concurrent.ThreadManager",
           "name": "waitForAll",
           "package": "threadmanager",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Block until all managed threads terminate",
           "hierarchy": "Control Concurrent ThreadManager",
+          "indexed": "2014-03-11T20:21:48",
           "module": "Control.Concurrent.ThreadManager",
           "name": "waitForAll",
           "normalized": "ThreadManager-\u003eIO()",

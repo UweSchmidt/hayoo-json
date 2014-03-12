@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dom-selector"
+        "phrase": "dom-selector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eScraping (innerHTML/innerText) and modification (node removal) functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "Scraping",
           "package": "dom-selector",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Scraping innerHTML innerText and modification node removal functions",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "Scraping",
           "package": "dom-selector",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "GetAttribute",
           "package": "dom-selector",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "GetAttribute",
           "package": "dom-selector",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for getting lazy text representation of HTML element(s). This can be used for \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCursor\u003c/a\u003e\u003c/code\u003e, [Node], and [Cursor].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "GetInner",
           "package": "dom-selector",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Type class for getting lazy text representation of HTML element This can be used for Node Cursor Node and Cursor",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "GetInner",
           "package": "dom-selector",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns element classes. If node is not an element or does not have a class, returns an empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "eclass",
           "package": "dom-selector",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Returns element classes If node is not an element or does not have class returns an empty list",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "eclass",
           "normalized": "a-\u003e[Text]",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an element id. If node is not an element or does not have an id, returns Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "eid",
           "package": "dom-selector",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Returns an element id If node is not an element or does not have an id returns Nothing",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "eid",
           "normalized": "a-\u003eMaybe Text",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag name of element node. Returns Nothing if the node is not an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "ename",
           "package": "dom-selector",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Tag name of element node Returns Nothing if the node is not an element",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "ename",
           "normalized": "a-\u003eMaybe Text",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches a meta with a specified name under a cursor, and gets a ''content'' field. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "getMeta",
           "package": "dom-selector",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Searches meta with specified name under cursor and gets content field",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "getMeta",
           "normalized": "Text-\u003ea-\u003e[Text]",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e''innerHtml'' of the element(s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "innerHtml",
           "package": "dom-selector",
@@ -197,6 +212,7 @@
         "index": {
           "description": "innerHtml of the element",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "innerHtml",
           "normalized": "a-\u003eText",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e''innerText'' of the element(s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "innerText",
           "package": "dom-selector",
@@ -223,6 +240,7 @@
         "index": {
           "description": "innerText of the element",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "innerText",
           "normalized": "a-\u003eText",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the node contains any descendant (and self) node that satisfies predicate.\n To return false, this function needs to traverse all descendant elements, so this is not efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "nodeHaving",
           "package": "dom-selector",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Checks whether the node contains any descendant and self node that satisfies predicate To return false this function needs to traverse all descendant elements so this is not efficient",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "nodeHaving",
           "normalized": "(Node-\u003eBool)-\u003eNode-\u003eBool",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves descendant nodes that satisfy predicate, and returns a new updated \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n This is a general function, and internally used for other remove* functions in this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "remove",
           "package": "dom-selector",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Removes descendant nodes that satisfy predicate and returns new updated Node This is general function and internally used for other remove functions in this module",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "remove",
           "normalized": "(Node-\u003eBool)-\u003eNode-\u003eNode",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eremove\u003c/a\u003e\u003c/code\u003e, but with a limit of depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "removeDepth",
           "package": "dom-selector",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Similar to remove but with limit of depth",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "removeDepth",
           "normalized": "(Node-\u003eBool)-\u003eInt-\u003eNode-\u003eNode",
@@ -316,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all descendant nodes that match any of query strings.\n ''removeQuery'' in ver 0.1 was merged into this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "removeQueries",
           "package": "dom-selector",
@@ -326,6 +351,7 @@
         "index": {
           "description": "Remove all descendant nodes that match any of query strings removeQuery in ver was merged into this",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "removeQueries",
           "normalized": "[String]-\u003e[Node]-\u003e[Node]",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use removeQueries instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eRemove all descendant nodes that match a query string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "removeQuery",
           "package": "dom-selector",
@@ -352,6 +379,7 @@
         "index": {
           "description": "Deprecated Use removeQueries instead Remove all descendant nodes that match query string",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "removeQuery",
           "normalized": "String-\u003e[Node]-\u003e[Node]",
@@ -368,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all descendant nodes with specified tag names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "removeTags",
           "package": "dom-selector",
@@ -378,6 +407,7 @@
         "index": {
           "description": "Remove all descendant nodes with specified tag names",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "removeTags",
           "normalized": "[String]-\u003e[Node]-\u003e[Node]",
@@ -394,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove descendant nodes that match specified tag, id, and class (similar to \u003ccode\u003e\u003ca\u003eremove\u003c/a\u003e\u003c/code\u003e, but more specific.)\n  If you pass an empty string to tag or id, that does not filter tag or id (Read the source code for details).\n\u003c/p\u003e\u003cpre\u003e\n rmElem ''div'' ''div-id'' [''div-class'', ''div-class2''] nodes = newnodes\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "rmElem",
           "package": "dom-selector",
@@ -404,6 +435,7 @@
         "index": {
           "description": "Remove descendant nodes that match specified tag id and class similar to remove but more specific If you pass an empty string to tag or id that does not filter tag or id Read the source code for details rmElem div div-id div-class div-class2 nodes newnodes",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "rmElem",
           "normalized": "String-\u003eString-\u003e[String]-\u003e[Node]-\u003e[Node]",
@@ -420,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e''toHtml'' of the element(s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Scraping",
           "name": "toHtml",
           "package": "dom-selector",
@@ -430,6 +463,7 @@
         "index": {
           "description": "toHtml of the element",
           "hierarchy": "Text XML Scraping",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Scraping",
           "name": "toHtml",
           "normalized": "a-\u003eText",
@@ -445,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Parser",
           "name": "Parser",
           "package": "dom-selector",
@@ -453,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Parser",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Parser",
           "name": "Parser",
           "package": "dom-selector",
@@ -467,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a jQuery selector string and return a list of \u003ccode\u003e\u003ca\u003eJQSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Parser",
           "name": "parseJQ",
           "package": "dom-selector",
@@ -477,6 +514,7 @@
         "index": {
           "description": "Parse jQuery selector string and return list of JQSelector",
           "hierarchy": "Text XML Selector Parser",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Parser",
           "name": "parseJQ",
           "normalized": "String-\u003e[JQSelector]",
@@ -492,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.TH",
           "name": "TH",
           "package": "dom-selector",
@@ -500,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector TH",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.TH",
           "name": "TH",
           "package": "dom-selector",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiQuoter for CSS selector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.TH",
           "name": "jq",
           "package": "dom-selector",
@@ -524,6 +565,7 @@
         "index": {
           "description": "QuasiQuoter for CSS selector",
           "hierarchy": "Text XML Selector TH",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.TH",
           "name": "jq",
           "package": "dom-selector",
@@ -537,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e from jQuery selector QQ.\n\u003c/p\u003e\u003cpre\u003ehtml = innerHtml $ cursor $| queryT [jq| ul.foo \u003e li#bar |]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.TH",
           "name": "queryT",
           "package": "dom-selector",
@@ -547,6 +590,7 @@
         "index": {
           "description": "Get Axis from jQuery selector QQ html innerHtml cursor queryT jq ul.foo li bar",
           "hierarchy": "Text XML Selector TH",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.TH",
           "name": "queryT",
           "normalized": "[JQSelector]-\u003eAxis",
@@ -561,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Test",
           "name": "Test",
           "package": "dom-selector",
@@ -569,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Test",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Test",
           "name": "Test",
           "package": "dom-selector",
@@ -583,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickCheck for a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Test",
           "name": "prop_parseJQ",
           "package": "dom-selector",
@@ -593,6 +640,7 @@
         "index": {
           "description": "QuickCheck for parser",
           "hierarchy": "Text XML Selector Test",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Test",
           "name": "prop_parseJQ",
           "normalized": "[JQSelector]-\u003eBool",
@@ -608,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Types",
           "package": "dom-selector",
@@ -616,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Types",
           "package": "dom-selector",
@@ -629,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "AttrRel",
           "package": "dom-selector",
@@ -637,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "AttrRel",
           "package": "dom-selector",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJQSelector represents one token of jquery selector. One JQSelector corresponds to \"div#content\", \"a[href='/index.html']\", etc. You can get a list of JQSelector by \u003ccode\u003eparseJQ\u003c/code\u003e, and show them by \u003ccode\u003eshowJQ\u003c/code\u003e\n As long as you use \u003ccode\u003equery\u003c/code\u003e, you don't need to handle this type directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "JQSelector",
           "package": "dom-selector",
@@ -660,6 +713,7 @@
         "index": {
           "description": "JQSelector represents one token of jquery selector One JQSelector corresponds to div content href index.html etc You can get list of JQSelector by parseJQ and show them by showJQ As long as you use query you don need to handle this type directly",
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "JQSelector",
           "package": "dom-selector",
@@ -674,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelationship to the preceding selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "RelPrev",
           "package": "dom-selector",
@@ -683,6 +738,7 @@
         "index": {
           "description": "Relationship to the preceding selector",
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "RelPrev",
           "package": "dom-selector",
@@ -696,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "TagAttr",
           "package": "dom-selector",
@@ -704,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "TagAttr",
           "package": "dom-selector",
@@ -717,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Begin",
           "package": "dom-selector",
@@ -726,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Begin",
           "package": "dom-selector",
@@ -739,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Child",
           "package": "dom-selector",
@@ -748,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Child",
           "package": "dom-selector",
@@ -761,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Contains",
           "package": "dom-selector",
@@ -770,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Contains",
           "package": "dom-selector",
@@ -783,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "ContainsWord",
           "package": "dom-selector",
@@ -792,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "ContainsWord",
           "package": "dom-selector",
@@ -805,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Descendant",
           "package": "dom-selector",
@@ -814,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Descendant",
           "package": "dom-selector",
@@ -827,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "End",
           "package": "dom-selector",
@@ -836,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "End",
           "package": "dom-selector",
@@ -849,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Equal",
           "package": "dom-selector",
@@ -858,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Equal",
           "package": "dom-selector",
@@ -871,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Exists",
           "package": "dom-selector",
@@ -880,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Exists",
           "package": "dom-selector",
@@ -893,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "JQSelector",
           "package": "dom-selector",
@@ -902,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "JQSelector",
           "package": "dom-selector",
@@ -915,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Next",
           "package": "dom-selector",
@@ -924,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Next",
           "package": "dom-selector",
@@ -937,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "NotEqual",
           "package": "dom-selector",
@@ -946,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "NotEqual",
           "package": "dom-selector",
@@ -959,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "Sibling",
           "package": "dom-selector",
@@ -968,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "Sibling",
           "package": "dom-selector",
@@ -981,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "TagAttr",
           "package": "dom-selector",
@@ -990,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "TagAttr",
           "package": "dom-selector",
@@ -1003,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "attrName",
           "package": "dom-selector",
@@ -1012,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "attrName",
           "package": "dom-selector",
@@ -1025,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "attrRel",
           "package": "dom-selector",
@@ -1034,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "attrRel",
           "package": "dom-selector",
@@ -1047,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "attrVal",
           "package": "dom-selector",
@@ -1056,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "attrVal",
           "package": "dom-selector",
@@ -1069,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "jqTagAttr",
           "package": "dom-selector",
@@ -1078,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "jqTagAttr",
           "normalized": "[TagAttr]",
@@ -1093,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "jqTagClass",
           "package": "dom-selector",
@@ -1102,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "jqTagClass",
           "normalized": "[String]",
@@ -1117,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "jqTagId",
           "package": "dom-selector",
@@ -1126,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "jqTagId",
           "package": "dom-selector",
@@ -1139,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "jqTagName",
           "package": "dom-selector",
@@ -1148,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "jqTagName",
           "package": "dom-selector",
@@ -1161,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "relPrev",
           "package": "dom-selector",
@@ -1170,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "relPrev",
           "package": "dom-selector",
@@ -1183,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector.Types",
           "name": "relToStr",
           "package": "dom-selector",
@@ -1192,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector Types",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector.Types",
           "name": "relToStr",
           "normalized": "AttrRel-\u003eString",
@@ -1208,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module has query functions for traversing DOM. \u003ccode\u003equeryT\u003c/code\u003e, a quasiquote version, is also available in \u003ca\u003eText.XML.Selector.TH\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "Selector",
           "package": "dom-selector",
@@ -1217,6 +1320,7 @@
         "index": {
           "description": "This module has query functions for traversing DOM queryT quasiquote version is also available in Text.XML.Selector.TH module",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "Selector",
           "package": "dom-selector",
@@ -1231,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAxis for choosing elements by a class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "byClass",
           "package": "dom-selector",
@@ -1241,6 +1346,7 @@
         "index": {
           "description": "Axis for choosing elements by class",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "byClass",
           "normalized": "String-\u003eAxis",
@@ -1257,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAxis for choosing elements by an id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "byId",
           "package": "dom-selector",
@@ -1267,6 +1374,7 @@
         "index": {
           "description": "Axis for choosing elements by an id",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "byId",
           "normalized": "String-\u003eAxis",
@@ -1282,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "headm",
           "package": "dom-selector",
@@ -1291,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "headm",
           "normalized": "[a]-\u003eMaybe a",
@@ -1305,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "maybeText",
           "package": "dom-selector",
@@ -1314,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "maybeText",
           "normalized": "Text-\u003eMaybe Text",
@@ -1330,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the next sibling. Note that this is not a Axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "next",
           "package": "dom-selector",
@@ -1340,6 +1453,7 @@
         "index": {
           "description": "Gets the next sibling Note that this is not Axis",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "next",
           "normalized": "Cursor-\u003eMaybe Cursor",
@@ -1355,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e from jQuery selector string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "query",
           "package": "dom-selector",
@@ -1365,6 +1480,7 @@
         "index": {
           "description": "Get Axis from jQuery selector string",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "query",
           "normalized": "String-\u003eAxis",
@@ -1380,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn Just (the first element of query results). If no element matches, it returns Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "query1",
           "package": "dom-selector",
@@ -1390,6 +1507,7 @@
         "index": {
           "description": "Return Just the first element of query results If no element matches it returns Nothing",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "query1",
           "normalized": "String-\u003eCursor-\u003eMaybe Cursor",
@@ -1405,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn if a node matches a selector given by string\n |Only first token is used (i.e. no hierarchy is enabled.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "queryMatchNode",
           "package": "dom-selector",
@@ -1415,6 +1534,7 @@
         "index": {
           "description": "Return if node matches selector given by string Only first token is used i.e no hierarchy is enabled",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "queryMatchNode",
           "normalized": "String-\u003eNode-\u003eBool",
@@ -1430,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "searchTree",
           "package": "dom-selector",
@@ -1439,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "searchTree",
           "normalized": "[JQSelector]-\u003eAxis",
@@ -1455,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn if an element matches a selector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "selectorMatch",
           "package": "dom-selector",
@@ -1465,6 +1588,7 @@
         "index": {
           "description": "Return if an element matches selector",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "selectorMatch",
           "normalized": "JQSelector-\u003eElement-\u003eBool",
@@ -1481,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a parsed selector.\n (parseJQ . showJQ) == id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:52 UTC 2014",
           "module": "Text.XML.Selector",
           "name": "showJQ",
           "package": "dom-selector",
@@ -1491,6 +1616,7 @@
         "index": {
           "description": "Show parsed selector parseJQ showJQ id",
           "hierarchy": "Text XML Selector",
+          "indexed": "2014-03-11T17:57:52",
           "module": "Text.XML.Selector",
           "name": "showJQ",
           "normalized": "[JQSelector]-\u003eString",

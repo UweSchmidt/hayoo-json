@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "indexed-extras"
+        "phrase": "indexed-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "Cont",
           "package": "indexed-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "Cont",
           "package": "indexed-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxCont",
           "package": "indexed-extras",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxCont",
           "package": "indexed-extras",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxContT",
           "package": "indexed-extras",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxContT",
           "package": "indexed-extras",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxMonadCont",
           "package": "indexed-extras",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxMonadCont",
           "package": "indexed-extras",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxCont",
           "package": "indexed-extras",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxCont",
           "package": "indexed-extras",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxContT",
           "package": "indexed-extras",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "IxContT",
           "package": "indexed-extras",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "reset",
           "package": "indexed-extras",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "reset",
           "normalized": "a b c c-\u003ea d d b",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "runIxCont",
           "package": "indexed-extras",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "runIxCont",
           "normalized": "IxCont a b c-\u003e(c-\u003eb)-\u003ea",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "runIxContT",
           "package": "indexed-extras",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "runIxContT",
           "normalized": "(a-\u003eb c)-\u003eb d",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "runIxContT_",
           "package": "indexed-extras",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "runIxContT_",
           "normalized": "IxContT a b c c-\u003ea b",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "runIxCont_",
           "package": "indexed-extras",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "runIxCont_",
           "normalized": "IxCont a b b-\u003ea",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.Cont",
           "name": "shift",
           "package": "indexed-extras",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Cont",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.Cont",
           "name": "shift",
           "normalized": "(a b(c-\u003ed e e f)-\u003ed g h h)-\u003ed g f c",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "State",
           "package": "indexed-extras",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "State",
           "package": "indexed-extras",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "IxMonadState",
           "package": "indexed-extras",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "IxMonadState",
           "package": "indexed-extras",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "IxState",
           "package": "indexed-extras",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "IxState",
           "package": "indexed-extras",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "IxStateT",
           "package": "indexed-extras",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "IxStateT",
           "package": "indexed-extras",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "IxState",
           "package": "indexed-extras",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "IxState",
           "package": "indexed-extras",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "IxStateT",
           "package": "indexed-extras",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "IxStateT",
           "package": "indexed-extras",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "iget",
           "package": "indexed-extras",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "iget",
           "package": "indexed-extras",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "igets",
           "package": "indexed-extras",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "igets",
           "normalized": "(a-\u003eb)-\u003ec a a b",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "imodify",
           "package": "indexed-extras",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "imodify",
           "normalized": "(a-\u003eb)-\u003ec a b()",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "iput",
           "package": "indexed-extras",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "iput",
           "normalized": "a-\u003eb c a()",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "runIxState",
           "package": "indexed-extras",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "runIxState",
           "normalized": "a-\u003e(b,c)",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:34 UTC 2014",
           "module": "Control.Monad.Indexed.State",
           "name": "runIxStateT",
           "package": "indexed-extras",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed State",
+          "indexed": "2014-03-11T18:57:34",
           "module": "Control.Monad.Indexed.State",
           "name": "runIxStateT",
           "normalized": "a-\u003eb(c,d)",

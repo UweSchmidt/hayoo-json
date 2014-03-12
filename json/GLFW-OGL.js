@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GLFW-OGL"
+        "phrase": "GLFW-OGL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to GLFW - An OpenGL Framework. \n\u003c/p\u003e\u003cp\u003eIt provides an alternative to GLUT for OpenGL based Haskell programs,\n    and currently supports GLFW API version 2.6 \u003ca\u003ehttp://glfw.sourceforge.net\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "GLFW",
           "package": "GLFW-OGL",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interface to GLFW An OpenGL Framework It provides an alternative to GLUT for OpenGL based Haskell programs and currently supports GLFW API version http glfw.sourceforge.net",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "GLFW",
           "package": "GLFW-OGL",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild-in bitmap font used in \u003ccode\u003e\u003ca\u003erenderString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "BitmapFont",
           "package": "GLFW-OGL",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Build-in bitmap font used in renderString",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "BitmapFont",
           "package": "GLFW-OGL",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback type for \u003ccode\u003e\u003ca\u003echarCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "CharCallback",
           "package": "GLFW-OGL",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Callback type for charCallback",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "CharCallback",
           "package": "GLFW-OGL",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBit depth of GL display buffers, used in \u003ccode\u003e\u003ca\u003eopenWindow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayBits",
           "package": "GLFW-OGL",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Bit depth of GL display buffers used in openWindow",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayBits",
           "package": "GLFW-OGL",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoystick is represent a number from 0 to 15 (note the difference from the\n   GLFW C library).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Joystick",
           "package": "GLFW-OGL",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Joystick is represent number from to note the difference from the GLFW library",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Joystick",
           "package": "GLFW-OGL",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoystick parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "JoystickParam",
           "package": "GLFW-OGL",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Joystick parameters",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "JoystickParam",
           "package": "GLFW-OGL",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey is represented by either a character key or a special key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Key",
           "package": "GLFW-OGL",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Key is represented by either character key or special key",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Key",
           "package": "GLFW-OGL",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey or button state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KeyButtonState",
           "package": "GLFW-OGL",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Key or button state",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KeyButtonState",
           "package": "GLFW-OGL",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback type for \u003ccode\u003e\u003ca\u003ekeyCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KeyCallback",
           "package": "GLFW-OGL",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Callback type for keyCallback",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KeyCallback",
           "package": "GLFW-OGL",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse button is represented by left, right, middle or a number\n   from 0 to 7 (note the difference from the GLFW C library).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MouseButton",
           "package": "GLFW-OGL",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Mouse button is represented by left right middle or number from to note the difference from the GLFW library",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MouseButton",
           "package": "GLFW-OGL",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback type for \u003ccode\u003e\u003ca\u003emouseButtonCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MouseButtonCallback",
           "package": "GLFW-OGL",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Callback type for mouseButtonCallback",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MouseButtonCallback",
           "package": "GLFW-OGL",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback type for \u003ccode\u003e\u003ca\u003emousePosCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MousePosCallback",
           "package": "GLFW-OGL",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Callback type for mousePosCallback",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MousePosCallback",
           "package": "GLFW-OGL",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback type for \u003ccode\u003e\u003ca\u003emouseWheelCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MouseWheelCallback",
           "package": "GLFW-OGL",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Callback type for mouseWheelCallback",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MouseWheelCallback",
           "package": "GLFW-OGL",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial features used in \u003ccode\u003e\u003ca\u003eenableSpecial\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edisableSpecial\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "SpecialFeature",
           "package": "GLFW-OGL",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Special features used in enableSpecial and disableSpecial",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "SpecialFeature",
           "package": "GLFW-OGL",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial key is a key not represented in the 32 - 127 printable ASCII range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "SpecialKey",
           "package": "GLFW-OGL",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Special key is key not represented in the printable ASCII range",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "SpecialKey",
           "package": "GLFW-OGL",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTexture flag used in \u003ccode\u003e\u003ca\u003eloadTexture2D\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eloadMemoryTexture2D\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "TextureFlag",
           "package": "GLFW-OGL",
@@ -373,6 +404,7 @@
         "index": {
           "description": "Texture flag used in loadTexture2D and loadMemoryTexture2D",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "TextureFlag",
           "package": "GLFW-OGL",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion is represented by (major, minor, revision), used\n   in gettable variable \u003ccode\u003e\u003ca\u003eversion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Version",
           "package": "GLFW-OGL",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Version is represented by major minor revision used in gettable variable version",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Version",
           "package": "GLFW-OGL",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVideo modes used in gettable variables \u003ccode\u003e\u003ca\u003evideoModes\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edesktopMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "VideoMode",
           "package": "GLFW-OGL",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Video modes used in gettable variables videoModes and desktopMode",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "VideoMode",
           "package": "GLFW-OGL",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback type for \u003ccode\u003e\u003ca\u003ewindowCloseCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowCloseCallback",
           "package": "GLFW-OGL",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Callback type for windowCloseCallback",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowCloseCallback",
           "package": "GLFW-OGL",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindow hints, used in settable variable \u003ccode\u003e\u003ca\u003eopenWindowHint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowHint",
           "package": "GLFW-OGL",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Window hints used in settable variable openWindowHint",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowHint",
           "package": "GLFW-OGL",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindow or Fullscreen mode, used in \u003ccode\u003e\u003ca\u003eopenWindow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowMode",
           "package": "GLFW-OGL",
@@ -488,6 +529,7 @@
         "index": {
           "description": "Window or Fullscreen mode used in openWindow",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowMode",
           "package": "GLFW-OGL",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindow parameters used in gettable variable \u003ccode\u003e\u003ca\u003ewindowParam\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowParam",
           "package": "GLFW-OGL",
@@ -511,6 +554,7 @@
         "index": {
           "description": "Window parameters used in gettable variable windowParam",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowParam",
           "package": "GLFW-OGL",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback type for \u003ccode\u003e\u003ca\u003ewindowRefreshCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowRefreshCallback",
           "package": "GLFW-OGL",
@@ -534,6 +579,7 @@
         "index": {
           "description": "Callback type for windowRefreshCallback",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowRefreshCallback",
           "package": "GLFW-OGL",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback type for \u003ccode\u003e\u003ca\u003ewindowSizeCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowSizeCallback",
           "package": "GLFW-OGL",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Callback type for windowSizeCallback",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "WindowSizeCallback",
           "package": "GLFW-OGL",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Accelerated",
           "package": "GLFW-OGL",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Accelerated",
           "package": "GLFW-OGL",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AccumAlphaButs",
           "package": "GLFW-OGL",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AccumAlphaButs",
           "package": "GLFW-OGL",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AccumBlueBits",
           "package": "GLFW-OGL",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AccumBlueBits",
           "package": "GLFW-OGL",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AccumGreenBits",
           "package": "GLFW-OGL",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AccumGreenBits",
           "package": "GLFW-OGL",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AccumRedBits",
           "package": "GLFW-OGL",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AccumRedBits",
           "package": "GLFW-OGL",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Active",
           "package": "GLFW-OGL",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Active",
           "package": "GLFW-OGL",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AlphaBits",
           "package": "GLFW-OGL",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AlphaBits",
           "package": "GLFW-OGL",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AlphaMap",
           "package": "GLFW-OGL",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AlphaMap",
           "package": "GLFW-OGL",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AutoPollEvent",
           "package": "GLFW-OGL",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AutoPollEvent",
           "package": "GLFW-OGL",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AuxBuffers",
           "package": "GLFW-OGL",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "AuxBuffers",
           "package": "GLFW-OGL",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Axes",
           "package": "GLFW-OGL",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Axes",
           "package": "GLFW-OGL",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "BACKSPACE",
           "package": "GLFW-OGL",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "BACKSPACE",
           "package": "GLFW-OGL",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "BlueBits",
           "package": "GLFW-OGL",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "BlueBits",
           "package": "GLFW-OGL",
@@ -856,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "BuildMipMaps",
           "package": "GLFW-OGL",
@@ -865,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "BuildMipMaps",
           "package": "GLFW-OGL",
@@ -878,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ButtonLeft",
           "package": "GLFW-OGL",
@@ -887,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ButtonLeft",
           "package": "GLFW-OGL",
@@ -900,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ButtonMiddle",
           "package": "GLFW-OGL",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ButtonMiddle",
           "package": "GLFW-OGL",
@@ -922,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ButtonNo",
           "package": "GLFW-OGL",
@@ -931,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ButtonNo",
           "package": "GLFW-OGL",
@@ -944,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ButtonRight",
           "package": "GLFW-OGL",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ButtonRight",
           "package": "GLFW-OGL",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Buttons",
           "package": "GLFW-OGL",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Buttons",
           "package": "GLFW-OGL",
@@ -988,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "CharKey",
           "package": "GLFW-OGL",
@@ -997,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "CharKey",
           "package": "GLFW-OGL",
@@ -1010,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DEL",
           "package": "GLFW-OGL",
@@ -1019,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DEL",
           "package": "GLFW-OGL",
@@ -1032,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DOWN",
           "package": "GLFW-OGL",
@@ -1041,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DOWN",
           "package": "GLFW-OGL",
@@ -1054,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DepthBits",
           "package": "GLFW-OGL",
@@ -1063,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DepthBits",
           "package": "GLFW-OGL",
@@ -1076,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayAlphaBits",
           "package": "GLFW-OGL",
@@ -1085,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayAlphaBits",
           "package": "GLFW-OGL",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayDepthBits",
           "package": "GLFW-OGL",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayDepthBits",
           "package": "GLFW-OGL",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayRGBBits",
           "package": "GLFW-OGL",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayRGBBits",
           "package": "GLFW-OGL",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayStencilBits",
           "package": "GLFW-OGL",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "DisplayStencilBits",
           "package": "GLFW-OGL",
@@ -1164,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "END",
           "package": "GLFW-OGL",
@@ -1173,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "END",
           "package": "GLFW-OGL",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ENTER",
           "package": "GLFW-OGL",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ENTER",
           "package": "GLFW-OGL",
@@ -1208,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ESC",
           "package": "GLFW-OGL",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "ESC",
           "package": "GLFW-OGL",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F1",
           "package": "GLFW-OGL",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F1",
           "package": "GLFW-OGL",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F10",
           "package": "GLFW-OGL",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F10",
           "package": "GLFW-OGL",
@@ -1272,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F11",
           "package": "GLFW-OGL",
@@ -1281,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F11",
           "package": "GLFW-OGL",
@@ -1293,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F12",
           "package": "GLFW-OGL",
@@ -1302,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F12",
           "package": "GLFW-OGL",
@@ -1314,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F13",
           "package": "GLFW-OGL",
@@ -1323,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F13",
           "package": "GLFW-OGL",
@@ -1335,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F14",
           "package": "GLFW-OGL",
@@ -1344,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F14",
           "package": "GLFW-OGL",
@@ -1356,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F15",
           "package": "GLFW-OGL",
@@ -1365,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F15",
           "package": "GLFW-OGL",
@@ -1377,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F16",
           "package": "GLFW-OGL",
@@ -1386,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F16",
           "package": "GLFW-OGL",
@@ -1398,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F17",
           "package": "GLFW-OGL",
@@ -1407,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F17",
           "package": "GLFW-OGL",
@@ -1419,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F18",
           "package": "GLFW-OGL",
@@ -1428,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F18",
           "package": "GLFW-OGL",
@@ -1440,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F19",
           "package": "GLFW-OGL",
@@ -1449,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F19",
           "package": "GLFW-OGL",
@@ -1461,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F2",
           "package": "GLFW-OGL",
@@ -1470,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F2",
           "package": "GLFW-OGL",
@@ -1482,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F20",
           "package": "GLFW-OGL",
@@ -1491,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F20",
           "package": "GLFW-OGL",
@@ -1503,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F21",
           "package": "GLFW-OGL",
@@ -1512,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F21",
           "package": "GLFW-OGL",
@@ -1524,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F22",
           "package": "GLFW-OGL",
@@ -1533,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F22",
           "package": "GLFW-OGL",
@@ -1545,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F23",
           "package": "GLFW-OGL",
@@ -1554,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F23",
           "package": "GLFW-OGL",
@@ -1566,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F24",
           "package": "GLFW-OGL",
@@ -1575,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F24",
           "package": "GLFW-OGL",
@@ -1587,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F25",
           "package": "GLFW-OGL",
@@ -1596,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F25",
           "package": "GLFW-OGL",
@@ -1608,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F3",
           "package": "GLFW-OGL",
@@ -1617,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F3",
           "package": "GLFW-OGL",
@@ -1629,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F4",
           "package": "GLFW-OGL",
@@ -1638,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F4",
           "package": "GLFW-OGL",
@@ -1650,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F5",
           "package": "GLFW-OGL",
@@ -1659,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F5",
           "package": "GLFW-OGL",
@@ -1671,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F6",
           "package": "GLFW-OGL",
@@ -1680,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F6",
           "package": "GLFW-OGL",
@@ -1692,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F7",
           "package": "GLFW-OGL",
@@ -1701,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F7",
           "package": "GLFW-OGL",
@@ -1713,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F8",
           "package": "GLFW-OGL",
@@ -1722,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F8",
           "package": "GLFW-OGL",
@@ -1734,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F9",
           "package": "GLFW-OGL",
@@ -1743,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "F9",
           "package": "GLFW-OGL",
@@ -1755,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "FSAASamples",
           "package": "GLFW-OGL",
@@ -1764,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "FSAASamples",
           "package": "GLFW-OGL",
@@ -1778,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8x16 fixed width font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Fixed8x16",
           "package": "GLFW-OGL",
@@ -1788,6 +1949,7 @@
         "index": {
           "description": "x16 fixed width font",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Fixed8x16",
           "package": "GLFW-OGL",
@@ -1801,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "FullScreen",
           "package": "GLFW-OGL",
@@ -1810,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "FullScreen",
           "package": "GLFW-OGL",
@@ -1823,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "GreenBits",
           "package": "GLFW-OGL",
@@ -1832,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "GreenBits",
           "package": "GLFW-OGL",
@@ -1845,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "HOME",
           "package": "GLFW-OGL",
@@ -1854,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "HOME",
           "package": "GLFW-OGL",
@@ -1867,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "INSERT",
           "package": "GLFW-OGL",
@@ -1876,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "INSERT",
           "package": "GLFW-OGL",
@@ -1889,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Iconified",
           "package": "GLFW-OGL",
@@ -1898,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Iconified",
           "package": "GLFW-OGL",
@@ -1911,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Joystick",
           "package": "GLFW-OGL",
@@ -1920,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Joystick",
           "package": "GLFW-OGL",
@@ -1933,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_0",
           "package": "GLFW-OGL",
@@ -1942,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_0",
           "package": "GLFW-OGL",
@@ -1955,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_1",
           "package": "GLFW-OGL",
@@ -1964,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_1",
           "package": "GLFW-OGL",
@@ -1977,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_2",
           "package": "GLFW-OGL",
@@ -1986,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_2",
           "package": "GLFW-OGL",
@@ -1999,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_3",
           "package": "GLFW-OGL",
@@ -2008,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_3",
           "package": "GLFW-OGL",
@@ -2021,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_4",
           "package": "GLFW-OGL",
@@ -2030,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_4",
           "package": "GLFW-OGL",
@@ -2043,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_5",
           "package": "GLFW-OGL",
@@ -2052,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_5",
           "package": "GLFW-OGL",
@@ -2065,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_6",
           "package": "GLFW-OGL",
@@ -2074,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_6",
           "package": "GLFW-OGL",
@@ -2087,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_7",
           "package": "GLFW-OGL",
@@ -2096,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_7",
           "package": "GLFW-OGL",
@@ -2109,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_8",
           "package": "GLFW-OGL",
@@ -2118,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_8",
           "package": "GLFW-OGL",
@@ -2131,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_9",
           "package": "GLFW-OGL",
@@ -2140,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_9",
           "package": "GLFW-OGL",
@@ -2153,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_ADD",
           "package": "GLFW-OGL",
@@ -2162,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_ADD",
           "package": "GLFW-OGL",
@@ -2175,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_DECIMAL",
           "package": "GLFW-OGL",
@@ -2184,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_DECIMAL",
           "package": "GLFW-OGL",
@@ -2197,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_DIVIDE",
           "package": "GLFW-OGL",
@@ -2206,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_DIVIDE",
           "package": "GLFW-OGL",
@@ -2219,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_ENTER",
           "package": "GLFW-OGL",
@@ -2228,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_ENTER",
           "package": "GLFW-OGL",
@@ -2241,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_EQUAL",
           "package": "GLFW-OGL",
@@ -2250,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_EQUAL",
           "package": "GLFW-OGL",
@@ -2263,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_MULTIPLY",
           "package": "GLFW-OGL",
@@ -2272,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_MULTIPLY",
           "package": "GLFW-OGL",
@@ -2285,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_SUBTRACT",
           "package": "GLFW-OGL",
@@ -2294,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KP_SUBTRACT",
           "package": "GLFW-OGL",
@@ -2307,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KeyRepeat",
           "package": "GLFW-OGL",
@@ -2316,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "KeyRepeat",
           "package": "GLFW-OGL",
@@ -2329,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "LALT",
           "package": "GLFW-OGL",
@@ -2338,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "LALT",
           "package": "GLFW-OGL",
@@ -2351,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "LCTRL",
           "package": "GLFW-OGL",
@@ -2360,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "LCTRL",
           "package": "GLFW-OGL",
@@ -2373,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "LEFT",
           "package": "GLFW-OGL",
@@ -2382,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "LEFT",
           "package": "GLFW-OGL",
@@ -2395,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "LSHIFT",
           "package": "GLFW-OGL",
@@ -2404,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "LSHIFT",
           "package": "GLFW-OGL",
@@ -2417,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MouseCursor",
           "package": "GLFW-OGL",
@@ -2426,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "MouseCursor",
           "package": "GLFW-OGL",
@@ -2439,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "NoRescale",
           "package": "GLFW-OGL",
@@ -2448,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "NoRescale",
           "package": "GLFW-OGL",
@@ -2461,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "NoResize",
           "package": "GLFW-OGL",
@@ -2470,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "NoResize",
           "package": "GLFW-OGL",
@@ -2483,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Opened",
           "package": "GLFW-OGL",
@@ -2492,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Opened",
           "package": "GLFW-OGL",
@@ -2505,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "OriginUL",
           "package": "GLFW-OGL",
@@ -2514,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "OriginUL",
           "package": "GLFW-OGL",
@@ -2527,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "PAGEDOWN",
           "package": "GLFW-OGL",
@@ -2536,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "PAGEDOWN",
           "package": "GLFW-OGL",
@@ -2549,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "PAGEUP",
           "package": "GLFW-OGL",
@@ -2558,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "PAGEUP",
           "package": "GLFW-OGL",
@@ -2571,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Present",
           "package": "GLFW-OGL",
@@ -2580,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Present",
           "package": "GLFW-OGL",
@@ -2593,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Press",
           "package": "GLFW-OGL",
@@ -2602,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Press",
           "package": "GLFW-OGL",
@@ -2615,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RALT",
           "package": "GLFW-OGL",
@@ -2624,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RALT",
           "package": "GLFW-OGL",
@@ -2637,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RCTRL",
           "package": "GLFW-OGL",
@@ -2646,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RCTRL",
           "package": "GLFW-OGL",
@@ -2659,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RIGHT",
           "package": "GLFW-OGL",
@@ -2668,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RIGHT",
           "package": "GLFW-OGL",
@@ -2681,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RSHIFT",
           "package": "GLFW-OGL",
@@ -2690,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RSHIFT",
           "package": "GLFW-OGL",
@@ -2703,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RedBits",
           "package": "GLFW-OGL",
@@ -2712,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RedBits",
           "package": "GLFW-OGL",
@@ -2725,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RefreshRate",
           "package": "GLFW-OGL",
@@ -2734,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "RefreshRate",
           "package": "GLFW-OGL",
@@ -2747,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Release",
           "package": "GLFW-OGL",
@@ -2756,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Release",
           "package": "GLFW-OGL",
@@ -2769,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "SpecialKey",
           "package": "GLFW-OGL",
@@ -2778,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "SpecialKey",
           "package": "GLFW-OGL",
@@ -2791,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "StencilBits",
           "package": "GLFW-OGL",
@@ -2800,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "StencilBits",
           "package": "GLFW-OGL",
@@ -2813,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Stereo",
           "package": "GLFW-OGL",
@@ -2822,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Stereo",
           "package": "GLFW-OGL",
@@ -2835,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "StickyKey",
           "package": "GLFW-OGL",
@@ -2844,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "StickyKey",
           "package": "GLFW-OGL",
@@ -2857,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "StickyMouseButton",
           "package": "GLFW-OGL",
@@ -2866,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "StickyMouseButton",
           "package": "GLFW-OGL",
@@ -2879,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "SystemKey",
           "package": "GLFW-OGL",
@@ -2888,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "SystemKey",
           "package": "GLFW-OGL",
@@ -2901,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "TAB",
           "package": "GLFW-OGL",
@@ -2910,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "TAB",
           "package": "GLFW-OGL",
@@ -2923,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "UNKNOWN",
           "package": "GLFW-OGL",
@@ -2932,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "UNKNOWN",
           "package": "GLFW-OGL",
@@ -2945,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "UP",
           "package": "GLFW-OGL",
@@ -2954,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "UP",
           "package": "GLFW-OGL",
@@ -2967,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "VideoMode",
           "package": "GLFW-OGL",
@@ -2976,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "VideoMode",
           "package": "GLFW-OGL",
@@ -2989,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Window",
           "package": "GLFW-OGL",
@@ -2998,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "Window",
           "package": "GLFW-OGL",
@@ -3012,6 +3284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function that will be called when there is a character event,\n   i.e., everytime a key that results in a printable Unicode character is\n   pressed or released. Characters are affected by modifiers (such as SHIFT\n   or ALT).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "charCallback",
           "package": "GLFW-OGL",
@@ -3022,6 +3295,7 @@
         "index": {
           "description": "Set the callback function that will be called when there is character event i.e everytime key that results in printable Unicode character is pressed or released Characters are affected by modifiers such as SHIFT or ALT",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "charCallback",
           "package": "GLFW-OGL",
@@ -3036,6 +3310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the open Window and destroys the associated OpenGL context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "closeWindow",
           "package": "GLFW-OGL",
@@ -3046,6 +3321,7 @@
         "index": {
           "description": "Close the open Window and destroys the associated OpenGL context",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "closeWindow",
           "normalized": "IO()",
@@ -3062,6 +3338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eVideoMode\u003c/a\u003e\u003c/code\u003e of current desktop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "desktopMode",
           "package": "GLFW-OGL",
@@ -3072,6 +3349,7 @@
         "index": {
           "description": "Get the VideoMode of current desktop",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "desktopMode",
           "package": "GLFW-OGL",
@@ -3086,6 +3364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable a \u003ccode\u003e\u003ca\u003eSpecialFeature\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "disableSpecial",
           "package": "GLFW-OGL",
@@ -3096,6 +3375,7 @@
         "index": {
           "description": "Disable SpecialFeature",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "disableSpecial",
           "normalized": "SpecialFeature-\u003eIO()",
@@ -3112,6 +3392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable a \u003ccode\u003e\u003ca\u003eSpecialFeature\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "enableSpecial",
           "package": "GLFW-OGL",
@@ -3122,6 +3403,7 @@
         "index": {
           "description": "Enable SpecialFeature",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "enableSpecial",
           "normalized": "SpecialFeature-\u003eIO()",
@@ -3138,6 +3420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the extension is supported, otherwise False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "extensionSupported",
           "package": "GLFW-OGL",
@@ -3148,6 +3431,7 @@
         "index": {
           "description": "Return True if the extension is supported otherwise False",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "extensionSupported",
           "normalized": "String-\u003eIO Bool",
@@ -3164,6 +3448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eKeyButtonState\u003c/a\u003e\u003c/code\u003e, either \u003ccode\u003e\u003ca\u003eRelease\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ePress\u003c/a\u003e\u003c/code\u003e, of the indicated key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "getKey",
           "package": "GLFW-OGL",
@@ -3174,6 +3459,7 @@
         "index": {
           "description": "Return KeyButtonState either Release or Press of the indicated key",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "getKey",
           "normalized": "a-\u003eIO KeyButtonState",
@@ -3190,6 +3476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eKeyButtonState\u003c/a\u003e\u003c/code\u003e, either \u003ccode\u003e\u003ca\u003eRelease\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ePress\u003c/a\u003e\u003c/code\u003e, of the indicated mouse\n   button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "getMouseButton",
           "package": "GLFW-OGL",
@@ -3200,6 +3487,7 @@
         "index": {
           "description": "Return KeyButtonState either Release or Press of the indicated mouse button",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "getMouseButton",
           "normalized": "MouseButton-\u003eIO KeyButtonState",
@@ -3216,6 +3504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIconify the Window which can later by retored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "iconifyWindow",
           "package": "GLFW-OGL",
@@ -3226,6 +3515,7 @@
         "index": {
           "description": "Iconify the Window which can later by retored",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "iconifyWindow",
           "normalized": "IO()",
@@ -3242,6 +3532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize GLFW library before use, returns True if successful\n   or False otherwise.\n\u003c/p\u003e\u003cp\u003eBefore any GLFW functions can be used, GLFW must be initialized\n   to ensure proper functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "initialize",
           "package": "GLFW-OGL",
@@ -3252,6 +3543,7 @@
         "index": {
           "description": "Initialize GLFW library before use returns True if successful or False otherwise Before any GLFW functions can be used GLFW must be initialized to ensure proper functionality",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "initialize",
           "package": "GLFW-OGL",
@@ -3265,6 +3557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet joystick button states. The returned list contains the states\n   for all available buttons for the given joystick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "joystickButtons",
           "package": "GLFW-OGL",
@@ -3275,6 +3568,7 @@
         "index": {
           "description": "Get joystick button states The returned list contains the states for all available buttons for the given joystick",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "joystickButtons",
           "normalized": "Joystick-\u003eGettableStateVar[KeyButtonState]",
@@ -3291,6 +3585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet joystick parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "joystickParam",
           "package": "GLFW-OGL",
@@ -3301,6 +3596,7 @@
         "index": {
           "description": "Get joystick parameters",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "joystickParam",
           "normalized": "Joystick-\u003eJoystickParam-\u003eGettableStateVar Int",
@@ -3317,6 +3613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet joystick positions. The returned list contains the positions\n   for all available axes for the given joystick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "joystickPos",
           "package": "GLFW-OGL",
@@ -3327,6 +3624,7 @@
         "index": {
           "description": "Get joystick positions The returned list contains the positions for all available axes for the given joystick",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "joystickPos",
           "normalized": "Joystick-\u003eGettableStateVar[Int]",
@@ -3343,6 +3641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function that will be called when there is a key event,\n   i.e., everytime the state of a single key is changed. The reported keys\n   are unaffected by any modifiers (such as SHIFT or ALT).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "keyCallback",
           "package": "GLFW-OGL",
@@ -3353,6 +3652,7 @@
         "index": {
           "description": "Set the callback function that will be called when there is key event i.e everytime the state of single key is changed The reported keys are unaffected by any modifiers such as SHIFT or ALT",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "keyCallback",
           "package": "GLFW-OGL",
@@ -3367,6 +3667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an image from the memory buffer (the given byte string) and\n   upload the image to OpenGL texture memory. The rest is similar\n   to \u003ccode\u003e\u003ca\u003eloadTexture2D\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "loadMemoryTexture2D",
           "package": "GLFW-OGL",
@@ -3377,6 +3678,7 @@
         "index": {
           "description": "Read an image from the memory buffer the given byte string and upload the image to OpenGL texture memory The rest is similar to loadTexture2D",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "loadMemoryTexture2D",
           "normalized": "String-\u003e[TextureFlag]-\u003eGL Bool",
@@ -3393,6 +3695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an image from a file specified by the given string and\n   upload the image to OpenGL texture memory.\n\u003c/p\u003e\u003cp\u003eIf BuildMipMaps flag is given, all mipmap levels for the loaded\n   texture are generated and uploaded to texture memory.\n\u003c/p\u003e\u003cp\u003eUnless the OriginUL flag is given, the origin of the texture is\n   the lower left corner of the loaded image. If OriginUL is given,\n   however, the first pixel is the upper left corner.\n\u003c/p\u003e\u003cp\u003eFor single component images (i.e. gray scale), the texture is uploaded\n   as an alpha mask if the flag AlphaMap is set, otherwise it's uploaded\n   as a luminance texture.\n\u003c/p\u003e\u003cp\u003eIt only supports the Truevision Targa verson 1 file (.tga). Supported \n   pixel formats are: 8-bit gray scale, 8-bit paletted (24/32-bit color), \n   24-bit true color and 32-bit true color + alpha.\n\u003c/p\u003e\u003cp\u003ePaletted images are translated into true color or tru color + alpha\n   pixel formats.\n\u003c/p\u003e\u003cp\u003eThe read texture is always rescaled to the nearest larger 2^m x 2^n\n   resolution using bilinear interpolation if necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "loadTexture2D",
           "package": "GLFW-OGL",
@@ -3403,6 +3706,7 @@
         "index": {
           "description": "Read an image from file specified by the given string and upload the image to OpenGL texture memory If BuildMipMaps flag is given all mipmap levels for the loaded texture are generated and uploaded to texture memory Unless the OriginUL flag is given the origin of the texture is the lower left corner of the loaded image If OriginUL is given however the first pixel is the upper left corner For single component images i.e gray scale the texture is uploaded as an alpha mask if the flag AlphaMap is set otherwise it uploaded as luminance texture It only supports the Truevision Targa verson file tga Supported pixel formats are bit gray scale bit paletted bit color bit true color and bit true color alpha Paletted images are translated into true color or tru color alpha pixel formats The read texture is always rescaled to the nearest larger resolution using bilinear interpolation if necessary",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "loadTexture2D",
           "normalized": "String-\u003e[TextureFlag]-\u003eGL Bool",
@@ -3419,6 +3723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function that will be called when there is a mouse button event,\n   i.e., everytime a mouse button is pressed or released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mouseButtonCallback",
           "package": "GLFW-OGL",
@@ -3429,6 +3734,7 @@
         "index": {
           "description": "Set the callback function that will be called when there is mouse button event i.e everytime mouse button is pressed or released",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mouseButtonCallback",
           "package": "GLFW-OGL",
@@ -3443,6 +3749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet or get the mouse position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mousePos",
           "package": "GLFW-OGL",
@@ -3453,6 +3760,7 @@
         "index": {
           "description": "Set or get the mouse position",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mousePos",
           "package": "GLFW-OGL",
@@ -3467,6 +3775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function that will be called when there is a mouse motion\n   event, i.e., everytime they mouse is moved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mousePosCallback",
           "package": "GLFW-OGL",
@@ -3477,6 +3786,7 @@
         "index": {
           "description": "Set the callback function that will be called when there is mouse motion event i.e everytime they mouse is moved",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mousePosCallback",
           "package": "GLFW-OGL",
@@ -3491,6 +3801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet or get the mouse wheel position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mouseWheel",
           "package": "GLFW-OGL",
@@ -3501,6 +3812,7 @@
         "index": {
           "description": "Set or get the mouse wheel position",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mouseWheel",
           "package": "GLFW-OGL",
@@ -3515,6 +3827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function that will be called when there is a mouse wheel\n   event, i.e., everytime the mouse wheel is turned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mouseWheelCallback",
           "package": "GLFW-OGL",
@@ -3525,6 +3838,7 @@
         "index": {
           "description": "Set the callback function that will be called when there is mouse wheel event i.e everytime the mouse wheel is turned",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "mouseWheelCallback",
           "package": "GLFW-OGL",
@@ -3539,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the Window of the given size and other parameters, returns True if\n   successful or False otherwise. \n\u003c/p\u003e\u003cp\u003eGLFW applications can only open one Window, which is assumed to be the\n   default place where renderings take place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "openWindow",
           "package": "GLFW-OGL",
@@ -3549,6 +3864,7 @@
         "index": {
           "description": "Open the Window of the given size and other parameters returns True if successful or False otherwise GLFW applications can only open one Window which is assumed to be the default place where renderings take place",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "openWindow",
           "normalized": "Size-\u003e[DisplayBits]-\u003eWindowMode-\u003eIO Bool",
@@ -3565,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Window hints, i.e., additional Window properties, before openWindow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "openWindowHint",
           "package": "GLFW-OGL",
@@ -3575,6 +3892,7 @@
         "index": {
           "description": "Set the Window hints i.e additional Window properties before openWindow",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "openWindowHint",
           "normalized": "SettableStateVar(WindowHint,Int)",
@@ -3591,6 +3909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoll events, such as user input and window events. Upon calling this\n   function, all window states, keyboard states and mouse states are updated.\n   If any related callback functions are registered, these are called during the\n   call of \u003ccode\u003e\u003ca\u003epollEvents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "pollEvents",
           "package": "GLFW-OGL",
@@ -3601,6 +3920,7 @@
         "index": {
           "description": "Poll events such as user input and window events Upon calling this function all window states keyboard states and mouse states are updated If any related callback functions are registered these are called during the call of pollEvents",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "pollEvents",
           "normalized": "IO()",
@@ -3617,6 +3937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a text string using the given \u003ccode\u003e\u003ca\u003eBitmapFont\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eText is rendered through texture, and is only possible with alpha enabled. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "renderString",
           "package": "GLFW-OGL",
@@ -3627,6 +3948,7 @@
         "index": {
           "description": "Render text string using the given BitmapFont Text is rendered through texture and is only possible with alpha enabled",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "renderString",
           "normalized": "BitmapFont-\u003eString-\u003eGL()",
@@ -3643,6 +3965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestore the Window after iconification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "restoreWindow",
           "package": "GLFW-OGL",
@@ -3653,6 +3976,7 @@
         "index": {
           "description": "Restore the Window after iconification",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "restoreWindow",
           "normalized": "IO()",
@@ -3669,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut the calling thread to sleep for the requested period of time in seconds.\n\u003c/p\u003e\u003cp\u003eThe time is generally in the range 1ms to 20ms, depending on thread scheduling\n   time slot intervals etc. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "sleep",
           "package": "GLFW-OGL",
@@ -3679,6 +4004,7 @@
         "index": {
           "description": "Put the calling thread to sleep for the requested period of time in seconds The time is generally in the range ms to ms depending on thread scheduling time slot intervals etc",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "sleep",
           "normalized": "Double-\u003eIO()",
@@ -3694,6 +4020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap the back and front color buffers of the Window. If \u003ccode\u003e\u003ca\u003eAutoPollEvent\u003c/a\u003e\u003c/code\u003e\n   is enabled by \u003ccode\u003e\u003ca\u003eenableSpecial\u003c/a\u003e\u003c/code\u003e (which is the default), it also polls for\n   new events before the swapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "swapBuffers",
           "package": "GLFW-OGL",
@@ -3704,6 +4031,7 @@
         "index": {
           "description": "Swap the back and front color buffers of the Window If AutoPollEvent is enabled by enableSpecial which is the default it also polls for new events before the swapping",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "swapBuffers",
           "normalized": "GL()",
@@ -3720,6 +4048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the minimum number of monitor retraces between each each buffer swap\n   performed by \u003ccode\u003e\u003ca\u003eswapBuffers\u003c/a\u003e\u003c/code\u003e. If set to zero, buffer swaps will not be\n   synchronized to the vertical refresh of the monitor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "swapInterval",
           "package": "GLFW-OGL",
@@ -3730,6 +4059,7 @@
         "index": {
           "description": "Set the minimum number of monitor retraces between each each buffer swap performed by swapBuffers If set to zero buffer swaps will not be synchronized to the vertical refresh of the monitor",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "swapInterval",
           "package": "GLFW-OGL",
@@ -3743,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "terminate",
           "package": "GLFW-OGL",
@@ -3752,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "terminate",
           "normalized": "IO()",
@@ -3767,6 +4099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet or set the value of the high precision timer. The time is measured\n   in seconds as a double precision floasting point number. \n\u003c/p\u003e\u003cp\u003eUnless the timer has been set by the programmer, the time is measured\n   as the number of seconds that have passed since \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e was called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "time",
           "package": "GLFW-OGL",
@@ -3777,6 +4110,7 @@
         "index": {
           "description": "Get or set the value of the high precision timer The time is measured in seconds as double precision floasting point number Unless the timer has been set by the programmer the time is measured as the number of seconds that have passed since initialize was called",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "time",
           "package": "GLFW-OGL",
@@ -3790,6 +4124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the supported GLFW C library version numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "version",
           "package": "GLFW-OGL",
@@ -3800,6 +4135,7 @@
         "index": {
           "description": "Returns the supported GLFW library version numbers",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "version",
           "package": "GLFW-OGL",
@@ -3812,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoBlueBits",
           "package": "GLFW-OGL",
@@ -3821,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoBlueBits",
           "package": "GLFW-OGL",
@@ -3834,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoGreenBits",
           "package": "GLFW-OGL",
@@ -3843,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoGreenBits",
           "package": "GLFW-OGL",
@@ -3856,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoHeight",
           "package": "GLFW-OGL",
@@ -3865,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoHeight",
           "package": "GLFW-OGL",
@@ -3879,6 +4221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of deteced \u003ccode\u003e\u003ca\u003eVideoMode\u003c/a\u003e\u003c/code\u003es, the max number of which is limited\n   to 256 for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoModes",
           "package": "GLFW-OGL",
@@ -3889,6 +4232,7 @@
         "index": {
           "description": "Get list of deteced VideoMode the max number of which is limited to for now",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoModes",
           "normalized": "GettableStateVar[VideoMode]",
@@ -3904,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoRedBits",
           "package": "GLFW-OGL",
@@ -3913,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoRedBits",
           "package": "GLFW-OGL",
@@ -3926,6 +4272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoWidth",
           "package": "GLFW-OGL",
@@ -3935,6 +4282,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "videoWidth",
           "package": "GLFW-OGL",
@@ -3949,6 +4297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for events, such as user input and window events. The calling thread\n   will be put to sleep until any event appears in the event queue.\n   When events are ready, the events will be processed just as they are \n   processed by \u003ccode\u003e\u003ca\u003epollEvents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "waitEvents",
           "package": "GLFW-OGL",
@@ -3959,6 +4308,7 @@
         "index": {
           "description": "Wait for events such as user input and window events The calling thread will be put to sleep until any event appears in the event queue When events are ready the events will be processed just as they are processed by pollEvents",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "waitEvents",
           "normalized": "IO()",
@@ -3975,6 +4325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function that will be called when the Window is closed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowCloseCallback",
           "package": "GLFW-OGL",
@@ -3985,6 +4336,7 @@
         "index": {
           "description": "Set the callback function that will be called when the Window is closed",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowCloseCallback",
           "package": "GLFW-OGL",
@@ -3999,6 +4351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of Window parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowParam",
           "package": "GLFW-OGL",
@@ -4009,6 +4362,7 @@
         "index": {
           "description": "Get the value of Window parameters",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowParam",
           "normalized": "WindowParam-\u003eGettableStateVar Int",
@@ -4025,6 +4379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function that will be called when the Window client area\n   needs to be refreshed, which occurs when any part of the window client\n   area is damaged and needs to be repainted (for instance, if a part \n   of the window that was previously occluded by another window has become\n   visible).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowRefreshCallback",
           "package": "GLFW-OGL",
@@ -4035,6 +4390,7 @@
         "index": {
           "description": "Set the callback function that will be called when the Window client area needs to be refreshed which occurs when any part of the window client area is damaged and needs to be repainted for instance if part of the window that was previously occluded by another window has become visible",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowRefreshCallback",
           "package": "GLFW-OGL",
@@ -4049,6 +4405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet or set the size of the opened Window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowSize",
           "package": "GLFW-OGL",
@@ -4059,6 +4416,7 @@
         "index": {
           "description": "Get or set the size of the opened Window",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowSize",
           "package": "GLFW-OGL",
@@ -4073,6 +4431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function that will be called every time the Window size changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowSizeCallback",
           "package": "GLFW-OGL",
@@ -4083,6 +4442,7 @@
         "index": {
           "description": "Set the callback function that will be called every time the Window size changes",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowSizeCallback",
           "package": "GLFW-OGL",
@@ -4097,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the title of the opened Window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:14 UTC 2014",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowTitle",
           "package": "GLFW-OGL",
@@ -4107,6 +4468,7 @@
         "index": {
           "description": "Set the title of the opened Window",
           "hierarchy": "Graphics UI OGL GLFW",
+          "indexed": "2014-03-11T16:42:14",
           "module": "Graphics.UI.OGL.GLFW",
           "name": "windowTitle",
           "package": "GLFW-OGL",

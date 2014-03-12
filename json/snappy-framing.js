@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snappy-framing"
+        "phrase": "snappy-framing",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Framing",
           "package": "snappy-framing",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Framing",
           "package": "snappy-framing",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Checksum",
           "package": "snappy-framing",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Checksum",
           "package": "snappy-framing",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Chunk",
           "package": "snappy-framing",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Chunk",
           "package": "snappy-framing",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "DecodeError",
           "package": "snappy-framing",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "DecodeError",
           "package": "snappy-framing",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Compressed",
           "package": "snappy-framing",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Compressed",
           "package": "snappy-framing",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Skippable",
           "package": "snappy-framing",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Skippable",
           "package": "snappy-framing",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "StreamIdentifier",
           "package": "snappy-framing",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "StreamIdentifier",
           "package": "snappy-framing",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Uncompressed",
           "package": "snappy-framing",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Uncompressed",
           "package": "snappy-framing",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Unskippable",
           "package": "snappy-framing",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "Unskippable",
           "package": "snappy-framing",
@@ -213,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a masked CRC32C checksum of the input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "checksum",
           "package": "snappy-framing",
@@ -223,6 +242,7 @@
         "index": {
           "description": "Compute masked CRC32C checksum of the input",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "checksum",
           "normalized": "ByteString-\u003eChecksum",
@@ -238,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decode",
           "package": "snappy-framing",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Decode lazy ByteString into Chunk",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decode",
           "normalized": "ByteString-\u003e(Either DecodeError Chunk,Maybe ByteString)",
@@ -263,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decode'",
           "package": "snappy-framing",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Decode strict ByteString into Chunk",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decode'",
           "normalized": "ByteString-\u003e(Either DecodeError Chunk,Maybe ByteString)",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode drawing input from the given monadic action as needed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decodeM",
           "package": "snappy-framing",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Decode drawing input from the given monadic action as needed",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decodeM",
           "normalized": "a(Maybe ByteString)-\u003ea(Either DecodeError Chunk,Maybe ByteString)",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003everify\u003c/a\u003e\u003c/code\u003e the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decodeVerify",
           "package": "snappy-framing",
@@ -322,6 +349,7 @@
         "index": {
           "description": "Decode lazy ByteString into Chunk and verify the result",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decodeVerify",
           "normalized": "ByteString-\u003e(Either DecodeError Chunk,Maybe ByteString)",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003everify\u003c/a\u003e\u003c/code\u003e the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decodeVerify'",
           "package": "snappy-framing",
@@ -348,6 +377,7 @@
         "index": {
           "description": "Decode strict ByteString into Chunk and verify the result",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decodeVerify'",
           "normalized": "ByteString-\u003e(Either DecodeError Chunk,Maybe ByteString)",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edecodeM\u003c/a\u003e\u003c/code\u003e, but \u003ccode\u003e\u003ca\u003everify\u003c/a\u003e\u003c/code\u003e the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decodeVerifyM",
           "package": "snappy-framing",
@@ -374,6 +405,7 @@
         "index": {
           "description": "Like decodeM but verify the result",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "decodeVerifyM",
           "normalized": "a(Maybe ByteString)-\u003ea(Either DecodeError Chunk,Maybe ByteString)",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIf the input is longer than \u003ccode\u003eminCompressible\u003c/code\u003e bytes, the resulting chunk is\n \u003ccode\u003e\u003ca\u003eCompressed\u003c/a\u003e\u003c/code\u003e otherwise \u003ccode\u003e\u003ca\u003eUncompressed\u003c/a\u003e\u003c/code\u003e. If the input size exceeds\n \u003ccode\u003emaxUncompressed\u003c/code\u003e bytes, the leftover input is returned in a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "encode",
           "package": "snappy-framing",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Encode lazy ByteString into Chunk If the input is longer than minCompressible bytes the resulting chunk is Compressed otherwise Uncompressed If the input size exceeds maxUncompressed bytes the leftover input is returned in Just",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "encode",
           "normalized": "ByteString-\u003e(Chunk,Maybe ByteString)",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIf the input is longer than \u003ccode\u003eminCompressible\u003c/code\u003e bytes, the resulting chunk is\n \u003ccode\u003e\u003ca\u003eCompressed\u003c/a\u003e\u003c/code\u003e otherwise \u003ccode\u003e\u003ca\u003eUncompressed\u003c/a\u003e\u003c/code\u003e. If the input size exceeds\n \u003ccode\u003emaxUncompressed\u003c/code\u003e bytes, the leftover input is returned in a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "encode'",
           "package": "snappy-framing",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Encode strict ByteString into Chunk If the input is longer than minCompressible bytes the resulting chunk is Compressed otherwise Uncompressed If the input size exceeds maxUncompressed bytes the leftover input is returned in Just",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "encode'",
           "normalized": "ByteString-\u003e(Chunk,Maybe ByteString)",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a stream identifier (start-of-stream marker)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "streamIdentifier",
           "package": "snappy-framing",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Yield stream identifier start-of-stream marker",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "streamIdentifier",
           "package": "snappy-framing",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the input is an \u003ccode\u003e\u003ca\u003eUnskippable\u003c/a\u003e\u003c/code\u003e chunk, or the checksum\n verification fails (if the input is a \u003ccode\u003e\u003ca\u003eCompressed\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eUncompressed\u003c/a\u003e\u003c/code\u003e chunk).\n Otherwise, the input \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e is returned in a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. Note that \u003ccode\u003e\u003ca\u003eCompressed\u003c/a\u003e\u003c/code\u003e\n chunks are decompressed into \u003ccode\u003e\u003ca\u003eUncompressed\u003c/a\u003e\u003c/code\u003e chunks on the fly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:32 UTC 2014",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "verify",
           "package": "snappy-framing",
@@ -474,6 +513,7 @@
         "index": {
           "description": "Verify Chunk Returns Nothing if the input is an Unskippable chunk or the checksum verification fails if the input is Compressed or Uncompressed chunk Otherwise the input Chunk is returned in Just Note that Compressed chunks are decompressed into Uncompressed chunks on the fly",
           "hierarchy": "Codec Compression Snappy Framing",
+          "indexed": "2014-03-11T20:06:32",
           "module": "Codec.Compression.Snappy.Framing",
           "name": "verify",
           "normalized": "Chunk-\u003eMaybe Chunk",

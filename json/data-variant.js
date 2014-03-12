@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-variant"
+        "phrase": "data-variant",
+        "type": "phrase"
       },
       "type": "context"
     }

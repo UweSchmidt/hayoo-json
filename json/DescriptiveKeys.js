@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DescriptiveKeys"
+        "phrase": "DescriptiveKeys",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpecify your key-bindings with a description and zero or more tags,\n then add a key-binding to search through them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKeys",
           "package": "DescriptiveKeys",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Specify your key-bindings with description and zero or more tags then add key-binding to search through them",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKeys",
           "package": "DescriptiveKeys",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe action to take to describe key-bindings from a string user-input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescribeKeys",
           "package": "DescriptiveKeys",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The action to take to describe key-bindings from string user-input",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescribeKeys",
           "package": "DescriptiveKeys",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps an optional string to denote a description for a key-binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Description",
           "package": "DescriptiveKeys",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Wraps an optional string to denote description for key-binding",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Description",
           "package": "DescriptiveKeys",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data structure that denotes an annotated key-binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKey",
           "package": "DescriptiveKeys",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The data structure that denotes an annotated key-binding",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKey",
           "package": "DescriptiveKeys",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of descriptive key-bindings that have access to the \u003ccode\u003e\u003ca\u003eXConfig\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKeys",
           "package": "DescriptiveKeys",
@@ -120,6 +129,7 @@
         "index": {
           "description": "list of descriptive key-bindings that have access to the XConfig",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKeys",
           "package": "DescriptiveKeys",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pretty-printer for descriptive key-bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKeysPP",
           "package": "DescriptiveKeys",
@@ -143,6 +154,7 @@
         "index": {
           "description": "pretty-printer for descriptive key-bindings",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKeysPP",
           "package": "DescriptiveKeys",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe attributes required to do the final configuration of the descriptive key-bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "HelpPromptConfig",
           "package": "DescriptiveKeys",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The attributes required to do the final configuration of the descriptive key-bindings",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "HelpPromptConfig",
           "package": "DescriptiveKeys",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to produce a set of tags from a string, which will likely come from user-input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "SearchTags",
           "package": "DescriptiveKeys",
@@ -189,6 +204,7 @@
         "index": {
           "description": "How to produce set of tags from string which will likely come from user-input",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "SearchTags",
           "package": "DescriptiveKeys",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe prompt text when searching\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "SearchTextPrompt",
           "package": "DescriptiveKeys",
@@ -212,6 +229,7 @@
         "index": {
           "description": "The prompt text when searching",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "SearchTextPrompt",
           "package": "DescriptiveKeys",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a string to create a tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Tag",
           "package": "DescriptiveKeys",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Wraps string to create tag",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Tag",
           "package": "DescriptiveKeys",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Tags",
           "package": "DescriptiveKeys",
@@ -258,6 +279,7 @@
         "index": {
           "description": "set of tags",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Tags",
           "package": "DescriptiveKeys",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescribeKeys",
           "package": "DescriptiveKeys",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescribeKeys",
           "package": "DescriptiveKeys",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Description",
           "package": "DescriptiveKeys",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Description",
           "package": "DescriptiveKeys",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKey",
           "package": "DescriptiveKeys",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKey",
           "package": "DescriptiveKeys",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKeysPP",
           "package": "DescriptiveKeys",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "DescriptiveKeysPP",
           "normalized": "DescriptiveKeysPP([DescriptiveKey]-\u003eString)",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "HelpPromptConfig",
           "package": "DescriptiveKeys",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "HelpPromptConfig",
           "package": "DescriptiveKeys",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "SearchTags",
           "package": "DescriptiveKeys",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "SearchTags",
           "package": "DescriptiveKeys",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "SearchTextPrompt",
           "package": "DescriptiveKeys",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "SearchTextPrompt",
           "package": "DescriptiveKeys",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Tag",
           "package": "DescriptiveKeys",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "Tag",
           "package": "DescriptiveKeys",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "action",
           "package": "DescriptiveKeys",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "action",
           "normalized": "X()",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all the tags for a given list of key-bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "allTags",
           "package": "DescriptiveKeys",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Returns all the tags for given list of key-bindings",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "allTags",
           "normalized": "XConfig Layout-\u003eDescriptiveKeys-\u003eTags",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default that opens \u003ccode\u003exmessage\u003c/code\u003e and uses the default pretty-printer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultDescribeKeys",
           "package": "DescriptiveKeys",
@@ -509,6 +552,7 @@
         "index": {
           "description": "default that opens xmessage and uses the default pretty-printer",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultDescribeKeys",
           "normalized": "DescriptiveKeys-\u003eXConfig Layout-\u003eDescribeKeys",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default key-binding that has no description or tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultDescriptiveKey",
           "package": "DescriptiveKeys",
@@ -535,6 +580,7 @@
         "index": {
           "description": "default key-binding that has no description or tags",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultDescriptiveKey",
           "normalized": "ButtonMask-\u003eKeySym-\u003eX()-\u003eDescriptiveKey",
@@ -551,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plain-text pretty-printer that takes particular care of mod/mask keys and spacing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultDescriptiveKeysPP",
           "package": "DescriptiveKeys",
@@ -561,6 +608,7 @@
         "index": {
           "description": "plain-text pretty-printer that takes particular care of mod mask keys and spacing",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultDescriptiveKeysPP",
           "package": "DescriptiveKeys",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the help prompt on the given \u003ccode\u003e\u003ca\u003eXPConfig\u003c/a\u003e\u003c/code\u003e and sets the \u003ccode\u003e\u003ca\u003ekeys\u003c/a\u003e\u003c/code\u003e attribute with a default\n key-binding of mod-F1, default search text prompt and using \u003ccode\u003exmessage\u003c/code\u003e to provide the descriptive response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultHelpPromptAndSet",
           "package": "DescriptiveKeys",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Sets the help prompt on the given XPConfig and sets the keys attribute with default key-binding of mod-F1 default search text prompt and using xmessage to provide the descriptive response",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultHelpPromptAndSet",
           "normalized": "DescriptiveKeys-\u003eXPConfig-\u003eXConfig a-\u003eXConfig a",
@@ -601,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a string by spaces to produce a set of tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultSearchTags",
           "package": "DescriptiveKeys",
@@ -611,6 +662,7 @@
         "index": {
           "description": "Splits string by spaces to produce set of tags",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultSearchTags",
           "package": "DescriptiveKeys",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default search prompt, \u003ccode\u003eSearch key-bindings\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultSearchTextPrompt",
           "package": "DescriptiveKeys",
@@ -635,6 +688,7 @@
         "index": {
           "description": "The default search prompt Search key-bindings",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "defaultSearchTextPrompt",
           "package": "DescriptiveKeys",
@@ -649,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe action to take after string user-input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "describeHelp",
           "package": "DescriptiveKeys",
@@ -659,6 +714,7 @@
         "index": {
           "description": "The action to take after string user-input",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "describeHelp",
           "package": "DescriptiveKeys",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "describeKeys",
           "package": "DescriptiveKeys",
@@ -681,6 +738,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "describeKeys",
           "normalized": "String-\u003eX()",
@@ -696,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "description",
           "package": "DescriptiveKeys",
@@ -705,6 +764,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "description",
           "package": "DescriptiveKeys",
@@ -718,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe descriptive key-bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "descriptiveHelp",
           "package": "DescriptiveKeys",
@@ -728,6 +789,7 @@
         "index": {
           "description": "The descriptive key-bindings",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "descriptiveHelp",
           "package": "DescriptiveKeys",
@@ -742,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a list of descriptive key-bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "descriptiveKeys",
           "package": "DescriptiveKeys",
@@ -752,6 +815,7 @@
         "index": {
           "description": "Construct list of descriptive key-bindings",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "descriptiveKeys",
           "normalized": "(XConfig Layout-\u003e[DescriptiveKey])-\u003eDescriptiveKeys",
@@ -768,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves all descriptive key-bindings that are not in the given set of tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "filterTags",
           "package": "DescriptiveKeys",
@@ -778,6 +843,7 @@
         "index": {
           "description": "Removes all descriptive key-bindings that are not in the given set of tags",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "filterTags",
           "normalized": "Tags-\u003eDescriptiveKeys-\u003eDescriptiveKeys",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the help prompt on the given \u003ccode\u003e\u003ca\u003eXPConfig\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "helpPrompt",
           "package": "DescriptiveKeys",
@@ -804,6 +871,7 @@
         "index": {
           "description": "Sets the help prompt on the given XPConfig",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "helpPrompt",
           "normalized": "(XConfig Layout-\u003eHelpPromptConfig)-\u003eXConfig a-\u003eXConfig a",
@@ -820,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the help prompt on the given \u003ccode\u003e\u003ca\u003eXPConfig\u003c/a\u003e\u003c/code\u003e and sets the \u003ccode\u003e\u003ca\u003ekeys\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "helpPromptAndSet",
           "package": "DescriptiveKeys",
@@ -830,6 +899,7 @@
         "index": {
           "description": "Sets the help prompt on the given XPConfig and sets the keys attribute",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "helpPromptAndSet",
           "normalized": "DescriptiveKeys-\u003eXPConfig-\u003e(ButtonMask,KeySym)-\u003eSearchTextPrompt-\u003e(XConfig Layout-\u003eDescribeKeys)-\u003eXConfig a-\u003eXConfig a",
@@ -846,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe key-binding to prompt the user to search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "keyHelp",
           "package": "DescriptiveKeys",
@@ -856,6 +927,7 @@
         "index": {
           "description": "The key-binding to prompt the user to search",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "keyHelp",
           "normalized": "(ButtonMask,KeySym)",
@@ -871,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "mask",
           "package": "DescriptiveKeys",
@@ -880,6 +953,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "mask",
           "package": "DescriptiveKeys",
@@ -892,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "searchTags",
           "package": "DescriptiveKeys",
@@ -901,6 +976,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "searchTags",
           "normalized": "String-\u003eTags",
@@ -917,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe search text prompt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "searchTextHelp",
           "package": "DescriptiveKeys",
@@ -927,6 +1004,7 @@
         "index": {
           "description": "The search text prompt",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "searchTextHelp",
           "package": "DescriptiveKeys",
@@ -941,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the \u003ccode\u003e\u003ca\u003ekeys\u003c/a\u003e\u003c/code\u003e property of the given \u003ccode\u003e\u003ca\u003eXConfig\u003c/a\u003e\u003c/code\u003e with the given descriptive key-bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "setDescriptiveKeys",
           "package": "DescriptiveKeys",
@@ -951,6 +1030,7 @@
         "index": {
           "description": "Sets the keys property of the given XConfig with the given descriptive key-bindings",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "setDescriptiveKeys",
           "normalized": "DescriptiveKeys-\u003eXConfig a-\u003eXConfig a",
@@ -966,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "sym",
           "package": "DescriptiveKeys",
@@ -975,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "sym",
           "package": "DescriptiveKeys",
@@ -987,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "tags",
           "package": "DescriptiveKeys",
@@ -996,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "tags",
           "package": "DescriptiveKeys",
@@ -1009,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a list of descriptive key-bindings by specifying the description as a string\n and the tags as a list of strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "wKeys",
           "package": "DescriptiveKeys",
@@ -1019,6 +1104,7 @@
         "index": {
           "description": "Construct list of descriptive key-bindings by specifying the description as string and the tags as list of strings",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "wKeys",
           "normalized": "(XConfig Layout-\u003e[(KeyMask,KeySym,X(),String,[String])])-\u003eDescriptiveKeys",
@@ -1035,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eXPConfig\u003c/a\u003e\u003c/code\u003e that is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:45 UTC 2014",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "xpConfigHelp",
           "package": "DescriptiveKeys",
@@ -1045,6 +1132,7 @@
         "index": {
           "description": "The XPConfig that is used",
           "hierarchy": "XMonad Config DescriptiveKeys",
+          "indexed": "2014-03-11T16:38:45",
           "module": "XMonad.Config.DescriptiveKeys",
           "name": "xpConfigHelp",
           "package": "DescriptiveKeys",

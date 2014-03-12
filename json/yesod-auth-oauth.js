@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-auth-oauth"
+        "phrase": "yesod-auth-oauth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:16 UTC 2014",
           "module": "Yesod.Auth.OAuth",
           "name": "OAuth",
           "package": "yesod-auth-oauth",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OAuth",
+          "indexed": "2014-03-11T20:45:16",
           "module": "Yesod.Auth.OAuth",
           "name": "OAuth",
           "package": "yesod-auth-oauth",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:16 UTC 2014",
           "module": "Yesod.Auth.OAuth",
           "name": "authOAuth",
           "package": "yesod-auth-oauth",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OAuth",
+          "indexed": "2014-03-11T20:45:16",
           "module": "Yesod.Auth.OAuth",
           "name": "authOAuth",
           "normalized": "OAuth-\u003e(Credential-\u003eIO(Creds a))-\u003eAuthPlugin a",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:16 UTC 2014",
           "module": "Yesod.Auth.OAuth",
           "name": "authTumblr",
           "package": "yesod-auth-oauth",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OAuth",
+          "indexed": "2014-03-11T20:45:16",
           "module": "Yesod.Auth.OAuth",
           "name": "authTumblr",
           "normalized": "ByteString-\u003eByteString-\u003eAuthPlugin a",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:16 UTC 2014",
           "module": "Yesod.Auth.OAuth",
           "name": "authTwitter",
           "package": "yesod-auth-oauth",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OAuth",
+          "indexed": "2014-03-11T20:45:16",
           "module": "Yesod.Auth.OAuth",
           "name": "authTwitter",
           "normalized": "ByteString-\u003eByteString-\u003eAuthPlugin a",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:16 UTC 2014",
           "module": "Yesod.Auth.OAuth",
           "name": "oauthUrl",
           "package": "yesod-auth-oauth",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OAuth",
+          "indexed": "2014-03-11T20:45:16",
           "module": "Yesod.Auth.OAuth",
           "name": "oauthUrl",
           "normalized": "Text-\u003eAuthRoute",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:16 UTC 2014",
           "module": "Yesod.Auth.OAuth",
           "name": "tumblrUrl",
           "package": "yesod-auth-oauth",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OAuth",
+          "indexed": "2014-03-11T20:45:16",
           "module": "Yesod.Auth.OAuth",
           "name": "tumblrUrl",
           "package": "yesod-auth-oauth",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:16 UTC 2014",
           "module": "Yesod.Auth.OAuth",
           "name": "twitterUrl",
           "package": "yesod-auth-oauth",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OAuth",
+          "indexed": "2014-03-11T20:45:16",
           "module": "Yesod.Auth.OAuth",
           "name": "twitterUrl",
           "package": "yesod-auth-oauth",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Elm"
+        "phrase": "Elm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "Dependencies",
           "package": "Elm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "Dependencies",
           "package": "Elm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "Deps",
           "package": "Elm",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "Deps",
           "package": "Elm",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "MiniDeps",
           "package": "Elm",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "MiniDeps",
           "package": "Elm",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "Deps",
           "package": "Elm",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "Deps",
           "package": "Elm",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "Mini",
           "package": "Elm",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "Mini",
           "normalized": "Mini[(Name,Version)]",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "dependencies",
           "package": "Elm",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "dependencies",
           "normalized": "[(Name,Version)]",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "depsAt",
           "package": "Elm",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "depsAt",
           "normalized": "FilePath-\u003eErrorT String IO Deps",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "description",
           "package": "Elm",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "description",
           "package": "Elm",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "elmVersion",
           "package": "Elm",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "elmVersion",
           "package": "Elm",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "exposed",
           "package": "Elm",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "exposed",
           "normalized": "[String]",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "get",
           "package": "Elm",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "get",
           "normalized": "Object-\u003eText-\u003e[Char]-\u003eParser a",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "getDependencies",
           "package": "Elm",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "getDependencies",
           "normalized": "Object-\u003eParser[(Name,Version)]",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "license",
           "package": "Elm",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "license",
           "package": "Elm",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "name",
           "package": "Elm",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "name",
           "package": "Elm",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "repo",
           "package": "Elm",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "repo",
           "package": "Elm",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "repoToName",
           "package": "Elm",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "repoToName",
           "normalized": "String-\u003eEither String Name",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "summary",
           "package": "Elm",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "summary",
           "package": "Elm",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "version",
           "package": "Elm",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "version",
           "package": "Elm",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Dependencies",
           "name": "withDeps",
           "package": "Elm",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Dependencies",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Dependencies",
           "name": "withDeps",
           "normalized": "(Deps-\u003ea)-\u003eFilePath-\u003eErrorT String IO a",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "Documentation",
           "package": "Elm",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "Documentation",
           "package": "Elm",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "Content",
           "package": "Elm",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "Content",
           "package": "Elm",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "Document",
           "package": "Elm",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "Document",
           "package": "Elm",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "Entry",
           "package": "Elm",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "Entry",
           "package": "Elm",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "Doc",
           "package": "Elm",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "Doc",
           "package": "Elm",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "Entry",
           "package": "Elm",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "Entry",
           "package": "Elm",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "Markdown",
           "package": "Elm",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "Markdown",
           "package": "Elm",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "Value",
           "package": "Elm",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "Value",
           "package": "Elm",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "assocPrec",
           "package": "Elm",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "assocPrec",
           "normalized": "Maybe(String,Int)",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "comment",
           "package": "Elm",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "comment",
           "package": "Elm",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "entries",
           "package": "Elm",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "entries",
           "normalized": "[Entry]",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "moduleName",
           "package": "Elm",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "moduleName",
           "package": "Elm",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "name",
           "package": "Elm",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "name",
           "package": "Elm",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "raw",
           "package": "Elm",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "raw",
           "package": "Elm",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Documentation",
           "name": "structure",
           "package": "Elm",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Documentation",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Documentation",
           "name": "structure",
           "package": "Elm",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "Name",
           "package": "Elm",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "Name",
           "package": "Elm",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "Name",
           "package": "Elm",
@@ -794,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "Name",
           "package": "Elm",
@@ -807,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "Name",
           "package": "Elm",
@@ -816,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "Name",
           "package": "Elm",
@@ -829,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "errorMsg",
           "package": "Elm",
@@ -838,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "errorMsg",
           "normalized": "[Char]-\u003eString",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "fromString",
           "package": "Elm",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "fromString",
           "normalized": "String-\u003eMaybe Name",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "fromString'",
           "package": "Elm",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "fromString'",
           "normalized": "String-\u003eErrorT String IO Name",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "project",
           "package": "Elm",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "project",
           "package": "Elm",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "toFilePath",
           "package": "Elm",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "toFilePath",
           "normalized": "Name-\u003eFilePath",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Name",
           "name": "user",
           "package": "Elm",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Name",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Name",
           "name": "user",
           "package": "Elm",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Paths",
           "name": "Paths",
           "package": "Elm",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Paths",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Paths",
           "name": "Paths",
           "package": "Elm",
@@ -989,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of directory for all of a project's dependencies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Paths",
           "name": "dependencyDirectory",
           "package": "Elm",
@@ -999,6 +1088,7 @@
         "index": {
           "description": "Name of directory for all of project dependencies",
           "hierarchy": "Elm Internal Paths",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Paths",
           "name": "dependencyDirectory",
           "package": "Elm",
@@ -1013,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the dependency file, specifying dependencies and\n  other metadata for building and sharing projects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Paths",
           "name": "dependencyFile",
           "package": "Elm",
@@ -1023,6 +1114,7 @@
         "index": {
           "description": "Name of the dependency file specifying dependencies and other metadata for building and sharing projects",
           "hierarchy": "Elm Internal Paths",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Paths",
           "name": "dependencyFile",
           "package": "Elm",
@@ -1037,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe absolute path to Elm's core library documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Paths",
           "name": "docs",
           "package": "Elm",
@@ -1047,6 +1140,7 @@
         "index": {
           "description": "The absolute path to Elm core library documentation",
           "hierarchy": "Elm Internal Paths",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Paths",
           "name": "docs",
           "package": "Elm",
@@ -1060,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe absolute path to Elm's runtime system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Paths",
           "name": "runtime",
           "package": "Elm",
@@ -1070,6 +1165,7 @@
         "index": {
           "description": "The absolute path to Elm runtime system",
           "hierarchy": "Elm Internal Paths",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Paths",
           "name": "runtime",
           "package": "Elm",
@@ -1083,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports functions for compiling Elm to JS.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Utils",
           "name": "Utils",
           "package": "Elm",
@@ -1092,6 +1189,7 @@
         "index": {
           "description": "This module exports functions for compiling Elm to JS",
           "hierarchy": "Elm Internal Utils",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Utils",
           "name": "Utils",
           "package": "Elm",
@@ -1106,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function compiles Elm code to JavaScript. It will return either\n  an error message or the compiled JS code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Utils",
           "name": "compile",
           "package": "Elm",
@@ -1116,6 +1215,7 @@
         "index": {
           "description": "This function compiles Elm code to JavaScript It will return either an error message or the compiled JS code",
           "hierarchy": "Elm Internal Utils",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Utils",
           "name": "compile",
           "normalized": "String-\u003eEither String String",
@@ -1131,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function extracts the module name of a given source program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Utils",
           "name": "moduleName",
           "package": "Elm",
@@ -1141,6 +1242,7 @@
         "index": {
           "description": "This function extracts the module name of given source program",
           "hierarchy": "Elm Internal Utils",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Utils",
           "name": "moduleName",
           "normalized": "String-\u003eMaybe String",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Version",
           "name": "Version",
           "package": "Elm",
@@ -1164,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Version",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Version",
           "name": "Version",
           "package": "Elm",
@@ -1177,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Version",
           "name": "Version",
           "package": "Elm",
@@ -1185,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Version",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Version",
           "name": "Version",
           "package": "Elm",
@@ -1198,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Version",
           "name": "V",
           "package": "Elm",
@@ -1207,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Version",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Version",
           "name": "V",
           "normalized": "V[Int]String",
@@ -1221,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Version",
           "name": "elmVersion",
           "package": "Elm",
@@ -1230,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Version",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Version",
           "name": "elmVersion",
           "package": "Elm",
@@ -1243,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Version",
           "name": "fromString",
           "package": "Elm",
@@ -1252,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Version",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Version",
           "name": "fromString",
           "normalized": "String-\u003eMaybe Version",
@@ -1267,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:56 UTC 2014",
           "module": "Elm.Internal.Version",
           "name": "tagless",
           "package": "Elm",
@@ -1276,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Elm Internal Version",
+          "indexed": "2014-03-11T16:39:56",
           "module": "Elm.Internal.Version",
           "name": "tagless",
           "normalized": "Version-\u003eBool",

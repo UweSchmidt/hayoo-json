@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "helisp"
+        "phrase": "helisp",
+        "type": "phrase"
       },
       "type": "context"
     }

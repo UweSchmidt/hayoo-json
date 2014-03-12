@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "angel"
+        "phrase": "angel",
+        "type": "phrase"
       },
       "type": "context"
     }

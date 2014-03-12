@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hslackbuilder"
+        "phrase": "hslackbuilder",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-http"
+        "phrase": "hxt-http",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003elibcurl input\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:29 UTC 2014",
           "module": "Text.XML.HXT.HTTP",
           "name": "HTTP",
           "package": "hxt-http",
@@ -28,6 +29,7 @@
         "index": {
           "description": "libcurl input",
           "hierarchy": "Text XML HXT HTTP",
+          "indexed": "2014-03-11T18:54:29",
           "module": "Text.XML.HXT.HTTP",
           "name": "HTTP",
           "package": "hxt-http",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:29 UTC 2014",
           "module": "Text.XML.HXT.HTTP",
           "name": "getHTTPNativeContents",
           "package": "hxt-http",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT HTTP",
+          "indexed": "2014-03-11T18:54:29",
           "module": "Text.XML.HXT.HTTP",
           "name": "getHTTPNativeContents",
           "package": "hxt-http",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:29 UTC 2014",
           "module": "Text.XML.HXT.HTTP",
           "name": "httpOptions",
           "package": "hxt-http",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT HTTP",
+          "indexed": "2014-03-11T18:54:29",
           "module": "Text.XML.HXT.HTTP",
           "name": "httpOptions",
           "normalized": "[OptDescr SysConfig]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:29 UTC 2014",
           "module": "Text.XML.HXT.HTTP",
           "name": "withHTTP",
           "package": "hxt-http",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT HTTP",
+          "indexed": "2014-03-11T18:54:29",
           "module": "Text.XML.HXT.HTTP",
           "name": "withHTTP",
           "normalized": "Attributes-\u003eSysConfig",

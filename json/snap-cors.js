@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snap-cors"
+        "phrase": "snap-cors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdd \u003ca\u003eCORS\u003c/a\u003e (cross-origin resource sharing)\n headers to a Snap application. CORS headers can be added either conditionally\n or unconditionally to the entire site, or you can apply CORS headers to a\n single route.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "CORS",
           "package": "snap-cors",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Add CORS cross-origin resource sharing headers to Snap application CORS headers can be added either conditionally or unconditionally to the entire site or you can apply CORS headers to single route",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "CORS",
           "package": "snap-cors",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the options to use when building CORS headers for a response. Most\n of these options are \u003ccode\u003e\u003ca\u003eHandler\u003c/a\u003e\u003c/code\u003e actions to allow you to conditionally\n determine the setting of each header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "CORSOptions",
           "package": "snap-cors",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Specify the options to use when building CORS headers for response Most of these options are Handler actions to allow you to conditionally determine the setting of each header",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "CORSOptions",
           "package": "snap-cors",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "HashableMethod",
           "package": "snap-cors",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "HashableMethod",
           "package": "snap-cors",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003enewtype\u003c/code\u003e over \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eHashable\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "HashableURI",
           "package": "snap-cors",
@@ -95,6 +102,7 @@
         "index": {
           "description": "newtype over URI with Hashable instance",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "HashableURI",
           "package": "snap-cors",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to specify the contents of the \u003ccode\u003eAccess-Control-Allow-Origin\u003c/code\u003e header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "OriginList",
           "package": "snap-cors",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Used to specify the contents of the Access-Control-Allow-Origin header",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "OriginList",
           "package": "snap-cors",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of origins. RFC 6454 specifies that origins are a scheme, host and\n port, so the \u003ccode\u003e\u003ca\u003eOriginSet\u003c/a\u003e\u003c/code\u003e wrapper around a \u003ccode\u003e\u003ca\u003eHashSet\u003c/a\u003e\u003c/code\u003e ensures that each\n \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e constists of nothing more than this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "OriginSet",
           "package": "snap-cors",
@@ -141,6 +152,7 @@
         "index": {
           "description": "set of origins RFC specifies that origins are scheme host and port so the OriginSet wrapper around HashSet ensures that each URI constists of nothing more than this",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "OriginSet",
           "package": "snap-cors",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "CORSOptions",
           "package": "snap-cors",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "CORSOptions",
           "package": "snap-cors",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow any origin to access this resource. Corresponds to\n \u003ccode\u003eAccess-Control-Allow-Origin: *\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "Everywhere",
           "package": "snap-cors",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Allow any origin to access this resource Corresponds to Access-Control-Allow-Origin",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "Everywhere",
           "package": "snap-cors",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "HashableMethod",
           "package": "snap-cors",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "HashableMethod",
           "package": "snap-cors",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "HashableURI",
           "package": "snap-cors",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "HashableURI",
           "package": "snap-cors",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not allow cross-origin requests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "Nowhere",
           "package": "snap-cors",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Do not allow cross-origin requests",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "Nowhere",
           "package": "snap-cors",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow cross-origin requests from these origins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "Origins",
           "package": "snap-cors",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Allow cross-origin requests from these origins",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "Origins",
           "package": "snap-cors",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply CORS headers to a specific request. This is useful if you only have\n a single action that needs CORS headers, and you don't want to pay for\n conditional checks on every request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "applyCORS",
           "package": "snap-cors",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Apply CORS headers to specific request This is useful if you only have single action that needs CORS headers and you don want to pay for conditional checks on every request",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "applyCORS",
           "normalized": "CORSOptions a-\u003ea()-\u003ea()",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not to allow exposing the response when the omit credentials\n flag is unset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "corsAllowCredentials",
           "package": "snap-cors",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Whether or not to allow exposing the response when the omit credentials flag is unset",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "corsAllowCredentials",
           "package": "snap-cors",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich origins are allowed to make cross-origin requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "corsAllowOrigin",
           "package": "snap-cors",
@@ -353,6 +382,7 @@
         "index": {
           "description": "Which origins are allowed to make cross-origin requests",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "corsAllowOrigin",
           "package": "snap-cors",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action to determine which of the request headers are allowed.\n This action is supplied the parsed contents of\n \u003ccode\u003eAccess-Control-Request-Headers\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "corsAllowedHeaders",
           "package": "snap-cors",
@@ -377,6 +408,7 @@
         "index": {
           "description": "An action to determine which of the request headers are allowed This action is supplied the parsed contents of Access-Control-Request-Headers",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "corsAllowedHeaders",
           "normalized": "HashSet String-\u003ea(HashSet String)",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of request methods that are allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "corsAllowedMethods",
           "package": "snap-cors",
@@ -403,6 +436,7 @@
         "index": {
           "description": "list of request methods that are allowed",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "corsAllowedMethods",
           "package": "snap-cors",
@@ -417,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of headers that are exposed to clients. This allows clients to\n read the values of these headers, if the response includes them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "corsExposeHeaders",
           "package": "snap-cors",
@@ -427,6 +462,7 @@
         "index": {
           "description": "list of headers that are exposed to clients This allows clients to read the values of these headers if the response includes them",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "corsExposeHeaders",
           "package": "snap-cors",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiberal default options. Specifies that:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e All origins may make cross-origin requests\n * \u003ccode\u003eallow-credentials\u003c/code\u003e is true.\n * No extra headers beyond simple headers are exposed.\n * \u003ccode\u003eGET\u003c/code\u003e, \u003ccode\u003ePOST\u003c/code\u003e, \u003ccode\u003ePUT\u003c/code\u003e, \u003ccode\u003eDELETE\u003c/code\u003e and \u003ccode\u003eHEAD\u003c/code\u003e are all allowed.\n * All request headers are allowed.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAll options are determined unconditionally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "defaultOptions",
           "package": "snap-cors",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Liberal default options Specifies that All origins may make cross-origin requests allow-credentials is true No extra headers beyond simple headers are exposed GET POST PUT DELETE and HEAD are all allowed All request headers are allowed All options are determined unconditionally",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "defaultOptions",
           "package": "snap-cors",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "mkOriginSet",
           "package": "snap-cors",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "mkOriginSet",
           "normalized": "[URI]-\u003eOriginSet",
@@ -488,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "origins",
           "package": "snap-cors",
@@ -497,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "origins",
           "normalized": "OriginSet-\u003eHashSet HashableURI",
@@ -512,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply CORS for every request, unconditionally.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ewrapCors\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003ewrapCORSWithOptions\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "wrapCORS",
           "package": "snap-cors",
@@ -522,6 +565,7 @@
         "index": {
           "description": "Apply CORS for every request unconditionally wrapCors wrapCORSWithOptions defaultOptions",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "wrapCORS",
           "normalized": "Initializer a b()",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize CORS for all requests with specific options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:06 UTC 2014",
           "module": "Snap.CORS",
           "name": "wrapCORSWithOptions",
           "package": "snap-cors",
@@ -548,6 +593,7 @@
         "index": {
           "description": "Initialize CORS for all requests with specific options",
           "hierarchy": "Snap CORS",
+          "indexed": "2014-03-11T20:05:06",
           "module": "Snap.CORS",
           "name": "wrapCORSWithOptions",
           "normalized": "CORSOptions(Handler a b)-\u003eInitializer a b()",

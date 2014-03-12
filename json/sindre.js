@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sindre"
+        "phrase": "sindre",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the Xft library based on the \u003ccode\u003eX11-xft\u003c/code\u003e binding by\n Clemens Fruhwirth.  This library builds upon the X11 binding to\n Xlib (\u003ca\u003eGraphics.X11\u003c/a\u003e) and cannot be used with any other.  A tiny\n part of Xrender is also exposed, as no Haskell interface exists as\n of this writing.\n\u003c/p\u003e\u003cp\u003eThe spirit of this binding is to hide away the fact that the\n underlying implementation is accessed via the FFI, and create a\n Haskell-like interface that does not expose many artifacts of the C\n implementation.  To that end, the only numeric types exposed are\n high-level (no \u003ccode\u003e\u003ca\u003eCInt\u003c/a\u003e\u003c/code\u003es), and facilities for integrating resource\n cleanup with the Haskell garbage collector have been defined (see\n \u003ccode\u003e\u003ca\u003eXftMgr\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eAnother priority has been robustness.  Many naively written FFI\n bindings to not properly check the return values of the C functions\n they call.  In particular, null pointers are often assumed to never\n exist, and oftentimes impossible to check by the user as the\n underlying pointer is not visible across the module boundary.  In\n this binding, any Xft function that can return null has been\n translated into a Haskell function that returns a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eTwo kinds of allocator functions are provided: some that use the\n nomenclature \u003ccode\u003enew\u003c/code\u003e and some that uses \u003ccode\u003eopen\u003c/code\u003e (for example\n \u003ccode\u003e\u003ca\u003enewColorName\u003c/a\u003e\u003c/code\u003e versus \u003ccode\u003e\u003ca\u003eopenColorName\u003c/a\u003e\u003c/code\u003e).  The former require that\n you explicitly call the corresponding deallocator (\u003ccode\u003e\u003ca\u003efreeColor\u003c/a\u003e\u003c/code\u003e in\n this case), while the latter takes an \u003ccode\u003e\u003ca\u003eXftMgr\u003c/a\u003e\u003c/code\u003e as an additional\n argument, and automatically calls the deallocator when the value is\n garbage-collected.  It is an error to call a deallocator on an\n automatically managed value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "Xft",
           "package": "sindre",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interface to the Xft library based on the X11-xft binding by Clemens Fruhwirth This library builds upon the X11 binding to Xlib Graphics.X11 and cannot be used with any other tiny part of Xrender is also exposed as no Haskell interface exists as of this writing The spirit of this binding is to hide away the fact that the underlying implementation is accessed via the FFI and create Haskell-like interface that does not expose many artifacts of the implementation To that end the only numeric types exposed are high-level no CInt and facilities for integrating resource cleanup with the Haskell garbage collector have been defined see XftMgr Another priority has been robustness Many naively written FFI bindings to not properly check the return values of the functions they call In particular null pointers are often assumed to never exist and oftentimes impossible to check by the user as the underlying pointer is not visible across the module boundary In this binding any Xft function that can return null has been translated into Haskell function that returns Maybe value Two kinds of allocator functions are provided some that use the nomenclature new and some that uses open for example newColorName versus openColorName The former require that you explicitly call the corresponding deallocator freeColor in this case while the latter takes an XftMgr as an additional argument and automatically calls the deallocator when the value is garbage-collected It is an error to call deallocator on an automatically managed value",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "Xft",
           "package": "sindre",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Xft colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "Color",
           "package": "sindre",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An Xft colour",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "Color",
           "package": "sindre",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Xft drawable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "Draw",
           "package": "sindre",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An Xft drawable",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "Draw",
           "package": "sindre",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Xft font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "Font",
           "package": "sindre",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An Xft font",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "Font",
           "package": "sindre",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of some glyph(s).  Note that there's a difference\n between the logical size, which may include some blank pixels, and\n the actual bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "GlyphInfo",
           "package": "sindre",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The size of some glyph Note that there difference between the logical size which may include some blank pixels and the actual bitmap",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "GlyphInfo",
           "package": "sindre",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eXRenderColor\u003c/code\u003e from the XRender library.  Note that the\n colour channels are only interpreted as 16-bit numbers when\n actually used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "RenderColor",
           "package": "sindre",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The XRenderColor from the XRender library Note that the colour channels are only interpreted as bit numbers when actually used",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "RenderColor",
           "package": "sindre",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA central staging point for Xft object creation.  All Xft object\n creation functions take as argument an \u003ccode\u003e\u003ca\u003eXftMgr\u003c/a\u003e\u003c/code\u003e value that keeps\n track of lifetime information.  You are required to manually free\n the \u003ccode\u003e\u003ca\u003eXftMgr\u003c/a\u003e\u003c/code\u003e via \u003ccode\u003e\u003ca\u003efreeXftMgr\u003c/a\u003e\u003c/code\u003e when you are done with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "XftMgr",
           "package": "sindre",
@@ -166,6 +179,7 @@
         "index": {
           "description": "central staging point for Xft object creation All Xft object creation functions take as argument an XftMgr value that keeps track of lifetime information You are required to manually free the XftMgr via freeXftMgr when you are done with it",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "XftMgr",
           "package": "sindre",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "GlyphInfo",
           "package": "sindre",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "GlyphInfo",
           "package": "sindre",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "RenderColor",
           "package": "sindre",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "RenderColor",
           "package": "sindre",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "alpha",
           "package": "sindre",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "alpha",
           "package": "sindre",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ascent (vertical distance upwards from the baseline) of a\n character in the font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "ascent",
           "package": "sindre",
@@ -255,6 +276,7 @@
         "index": {
           "description": "The ascent vertical distance upwards from the baseline of character in the font",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "ascent",
           "normalized": "Font-\u003ea",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "blue",
           "package": "sindre",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "blue",
           "package": "sindre",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the X11 drawable underlying the Xft drawable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "changeDraw",
           "package": "sindre",
@@ -301,6 +326,7 @@
         "index": {
           "description": "Change the X11 drawable underlying the Xft drawable",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "changeDraw",
           "normalized": "Draw-\u003eDrawable-\u003eIO()",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe colormap for the Xft drawable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "colormap",
           "package": "sindre",
@@ -327,6 +354,7 @@
         "index": {
           "description": "The colormap for the Xft drawable",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "colormap",
           "normalized": "Draw-\u003eColormap",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe descent (vertical distance downwards from the baseline) of a\n character in the font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "descent",
           "package": "sindre",
@@ -352,6 +381,7 @@
         "index": {
           "description": "The descent vertical distance downwards from the baseline of character in the font",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "descent",
           "normalized": "Font-\u003ea",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe display for the Xft drawable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "display",
           "package": "sindre",
@@ -377,6 +408,7 @@
         "index": {
           "description": "The display for the Xft drawable",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "display",
           "normalized": "Draw-\u003eDisplay",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a sequence of glyphs on the given drawable in the specified\n colour and font.  Drawing begins at the baseline of the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "drawGlyphs",
           "package": "sindre",
@@ -402,6 +435,7 @@
         "index": {
           "description": "Draw sequence of glyphs on the given drawable in the specified colour and font Drawing begins at the baseline of the string",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "drawGlyphs",
           "normalized": "Draw-\u003eColor-\u003eFont-\u003ea-\u003eb-\u003e[c]-\u003eIO()",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edrawRect d c x y w h\u003c/code\u003e draws a solid rectangle on \u003ccode\u003ed\u003c/code\u003e with colour\n \u003ccode\u003ec\u003c/code\u003e, with its upper left corner at \u003ccode\u003e(x,y)\u003c/code\u003e, width \u003ccode\u003ew\u003c/code\u003e and height\n \u003ccode\u003eh\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "drawRect",
           "package": "sindre",
@@ -428,6 +463,7 @@
         "index": {
           "description": "drawRect draws solid rectangle on with colour with its upper left corner at width and height",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "drawRect",
           "normalized": "Draw-\u003eColor-\u003ea-\u003eb-\u003ec-\u003ed-\u003eIO()",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a string on the given drawable in the specified colour and\n font.  Drawing begins at the baseline of the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "drawString",
           "package": "sindre",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Draw string on the given drawable in the specified colour and font Drawing begins at the baseline of the string",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "drawString",
           "normalized": "Draw-\u003eColor-\u003eFont-\u003ea-\u003eb-\u003eString-\u003eIO()",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe X11 drawable underlying the Xft drawable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "drawable",
           "package": "sindre",
@@ -480,6 +519,7 @@
         "index": {
           "description": "The X11 drawable underlying the Xft drawable",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "drawable",
           "normalized": "Draw-\u003eDrawable",
@@ -495,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree a colour that has been allocated with \u003ccode\u003e\u003ca\u003enewColorName\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enewColorValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "freeColor",
           "package": "sindre",
@@ -505,6 +546,7 @@
         "index": {
           "description": "Free colour that has been allocated with newColorName or newColorValue",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "freeColor",
           "normalized": "Display-\u003eVisual-\u003eColormap-\u003eColor-\u003eIO()",
@@ -521,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree a \u003ccode\u003e\u003ca\u003eDraw\u003c/a\u003e\u003c/code\u003e created with \u003ccode\u003e\u003ca\u003enewDraw\u003c/a\u003e\u003c/code\u003e.  Do not free \u003ccode\u003e\u003ca\u003eDraw\u003c/a\u003e\u003c/code\u003es\n created with \u003ccode\u003e\u003ca\u003eopenDraw\u003c/a\u003e\u003c/code\u003e, these are automatically managed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "freeDraw",
           "package": "sindre",
@@ -531,6 +574,7 @@
         "index": {
           "description": "Free Draw created with newDraw Do not free Draw created with openDraw these are automatically managed",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "freeDraw",
           "normalized": "Draw-\u003eIO()",
@@ -547,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the given Xft font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "freeFont",
           "package": "sindre",
@@ -557,6 +602,7 @@
         "index": {
           "description": "Close the given Xft font",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "freeFont",
           "normalized": "Display-\u003eFont-\u003eIO()",
@@ -573,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree the manager and reclaim any objects associated with it.\n After an \u003ccode\u003e\u003ca\u003eXftMgr\u003c/a\u003e\u003c/code\u003e has been freed, it is invalid to use any objects\n created through it.  The lock must currently be held by the thread\n calling \u003ccode\u003e\u003ca\u003efreeXftMgr\u003c/a\u003e\u003c/code\u003e, and it will be repeatedly released and\n reacquired throughout deallocating any remaining objects in the\n manager.  When the command returns, the lock will once again be\n held.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "freeXftMgr",
           "package": "sindre",
@@ -583,6 +630,7 @@
         "index": {
           "description": "Free the manager and reclaim any objects associated with it After an XftMgr has been freed it is invalid to use any objects created through it The lock must currently be held by the thread calling freeXftMgr and it will be repeatedly released and reacquired throughout deallocating any remaining objects in the manager When the command returns the lock will once again be held",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "freeXftMgr",
           "normalized": "XftMgr-\u003eIO()",
@@ -598,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "glyphHeight",
           "package": "sindre",
@@ -607,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "glyphHeight",
           "package": "sindre",
@@ -620,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "glyphImageHeight",
           "package": "sindre",
@@ -629,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "glyphImageHeight",
           "package": "sindre",
@@ -642,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "glyphImageWidth",
           "package": "sindre",
@@ -651,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "glyphImageWidth",
           "package": "sindre",
@@ -664,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "glyphImageX",
           "package": "sindre",
@@ -673,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "glyphImageX",
           "package": "sindre",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "glyphImageY",
           "package": "sindre",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "glyphImageY",
           "package": "sindre",
@@ -708,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "glyphWidth",
           "package": "sindre",
@@ -717,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "glyphWidth",
           "package": "sindre",
@@ -730,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "green",
           "package": "sindre",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "green",
           "package": "sindre",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ascent plus descent of a character in the font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "height",
           "package": "sindre",
@@ -762,6 +825,7 @@
         "index": {
           "description": "The ascent plus descent of character in the font",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "height",
           "normalized": "Font-\u003ea",
@@ -777,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLock the file underlying the Xft font.  I am not certain when you\n would need this.  The return value is supposed to be an \u003ccode\u003eFT_TYPE\u003c/code\u003e\n from Freetype, but that binding has not been written yet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "lockFace",
           "package": "sindre",
@@ -787,6 +852,7 @@
         "index": {
           "description": "Lock the file underlying the Xft font am not certain when you would need this The return value is supposed to be an FT TYPE from Freetype but that binding has not been written yet",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "lockFace",
           "normalized": "Font-\u003eIO()",
@@ -803,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe greatest horizontal width of a character in the font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "maxAdvanceWidth",
           "package": "sindre",
@@ -813,6 +880,7 @@
         "index": {
           "description": "The greatest horizontal width of character in the font",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "maxAdvanceWidth",
           "normalized": "Font-\u003ea",
@@ -829,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new Xft colour based on a name.  The name may be either\n a human-readable colour such as \u003ca\u003ered\u003c/a\u003e, \u003ca\u003ewhite\u003c/a\u003e or \u003ca\u003edarkslategray\u003c/a\u003e\n (all core X colour names are supported) or a hexidecimal name such\n as \u003ca/\u003e.  Names are not case-sensitive.  Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\n the given name is not recognised as a colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "newColorName",
           "package": "sindre",
@@ -839,6 +908,7 @@
         "index": {
           "description": "Create new Xft colour based on name The name may be either human-readable colour such as red white or darkslategray all core colour names are supported or hexidecimal name such as Names are not case-sensitive Returns Nothing if the given name is not recognised as colour",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "newColorName",
           "normalized": "Display-\u003eVisual-\u003eColormap-\u003eString-\u003eIO(Maybe Color)",
@@ -855,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003enewColorName\u003c/a\u003e\u003c/code\u003e, but instead of a name, an XRender color value\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "newColorValue",
           "package": "sindre",
@@ -865,6 +936,7 @@
         "index": {
           "description": "As newColorName but instead of name an XRender color value is used",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "newColorValue",
           "normalized": "Display-\u003eVisual-\u003eColormap-\u003eRenderColor-\u003eIO(Maybe Color)",
@@ -881,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new Xft drawable on the given display, using the\n provided \u003ccode\u003e\u003ca\u003eDrawable\u003c/a\u003e\u003c/code\u003e to draw on.  Will return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n call to \u003ccode\u003eXftDrawCreate\u003c/code\u003e fails, which it will usually only do if\n memory cannot be allocated.  The \u003ccode\u003e\u003ca\u003eDraw\u003c/a\u003e\u003c/code\u003e has to be manually freed\n with \u003ccode\u003e\u003ca\u003efreeDraw\u003c/a\u003e\u003c/code\u003e once you are done with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "newDraw",
           "package": "sindre",
@@ -891,6 +964,7 @@
         "index": {
           "description": "Create new Xft drawable on the given display using the provided Drawable to draw on Will return Nothing if the call to XftDrawCreate fails which it will usually only do if memory cannot be allocated The Draw has to be manually freed with freeDraw once you are done with it",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "newDraw",
           "normalized": "Display-\u003eDrawable-\u003eVisual-\u003eColormap-\u003eIO(Maybe Draw)",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehaves as \u003ccode\u003e\u003ca\u003enewDraw\u003c/a\u003e\u003c/code\u003e, except that it uses a \u003ccode\u003e\u003ca\u003ePixmap\u003c/a\u003e\u003c/code\u003e of the given depth\n instead of a \u003ccode\u003e\u003ca\u003eDrawable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "newDrawAlpha",
           "package": "sindre",
@@ -917,6 +992,7 @@
         "index": {
           "description": "Behaves as newDraw except that it uses Pixmap of the given depth instead of Drawable",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "newDrawAlpha",
           "normalized": "Display-\u003ePixmap-\u003ea-\u003eIO(Maybe Draw)",
@@ -933,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehaves as \u003ccode\u003e\u003ca\u003enewDraw\u003c/a\u003e\u003c/code\u003e, except that it uses a \u003ccode\u003e\u003ca\u003ePixmap\u003c/a\u003e\u003c/code\u003e of color\n depth 1 instead of a \u003ccode\u003e\u003ca\u003eDrawable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "newDrawBitmap",
           "package": "sindre",
@@ -943,6 +1020,7 @@
         "index": {
           "description": "Behaves as newDraw except that it uses Pixmap of color depth instead of Drawable",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "newDrawBitmap",
           "normalized": "Display-\u003ePixmap-\u003eIO(Maybe Draw)",
@@ -959,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewFontName dpy scr s\u003c/code\u003e, where \u003ccode\u003es\u003c/code\u003e is a Fontconfig pattern\n string, finds the best match for \u003ccode\u003es\u003c/code\u003e and returns a font that can be\n used to draw on the given screen.  This function very rarely\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, and seems to return some default font even if\n you feed it utter garbage (or an empty string).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "newFontName",
           "package": "sindre",
@@ -969,6 +1048,7 @@
         "index": {
           "description": "newFontName dpy scr where is Fontconfig pattern string finds the best match for and returns font that can be used to draw on the given screen This function very rarely returns Nothing and seems to return some default font even if you feed it utter garbage or an empty string",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "newFontName",
           "normalized": "Display-\u003eScreen-\u003eString-\u003eIO(Maybe Font)",
@@ -985,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003enewFontName\u003c/a\u003e\u003c/code\u003e, except that the name should be an X Logical\n Font Description (the usual fourteen elements produced by\n \u003ccode\u003exfontsel\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "newFontXlfd",
           "package": "sindre",
@@ -995,6 +1076,7 @@
         "index": {
           "description": "As newFontName except that the name should be an Logical Font Description the usual fourteen elements produced by xfontsel",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "newFontXlfd",
           "normalized": "Display-\u003eScreen-\u003eString-\u003eIO(Maybe Font)",
@@ -1011,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eXftMgr\u003c/a\u003e\u003c/code\u003e whose objects will be used on the given screen\n and display.  As Xlib is not re-entrant, a synchronisation\n mechanism must be used, so the \u003ccode\u003e\u003ca\u003eXftMgr\u003c/a\u003e\u003c/code\u003e includes actions for\n obtaining and releasing atomic access to the display via two \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n actions.  These will be executed before and after objects allocated\n via the manager are released.  It is recommended to use an\n \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e to implement a mutex for synchronising\n the access, but if you are absolutely certain that there will not\n be any concurrent attempts to access the display, the actions can\n merely be \u003ccode\u003ereturn ()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "newXftMgr",
           "package": "sindre",
@@ -1020,6 +1103,7 @@
         "index": {
           "description": "Create an XftMgr whose objects will be used on the given screen and display As Xlib is not re-entrant synchronisation mechanism must be used so the XftMgr includes actions for obtaining and releasing atomic access to the display via two IO actions These will be executed before and after objects allocated via the manager are released It is recommended to use an MVar to implement mutex for synchronising the access but if you are absolutely certain that there will not be any concurrent attempts to access the display the actions can merely be return",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "newXftMgr",
           "normalized": "Display-\u003eScreen-\u003eIO()-\u003eIO()-\u003eIO XftMgr",
@@ -1036,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003enewColorName\u003c/a\u003e\u003c/code\u003e, but automatically freed through the given Xft\n manager when no longer accessible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "openColorName",
           "package": "sindre",
@@ -1046,6 +1131,7 @@
         "index": {
           "description": "As newColorName but automatically freed through the given Xft manager when no longer accessible",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "openColorName",
           "normalized": "XftMgr-\u003eVisual-\u003eColormap-\u003eString-\u003eIO(Maybe Color)",
@@ -1062,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003enewColorValue\u003c/a\u003e\u003c/code\u003e, but automatically freed through the given Xft\n manager when no longer accessible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "openColorValue",
           "package": "sindre",
@@ -1072,6 +1159,7 @@
         "index": {
           "description": "As newColorValue but automatically freed through the given Xft manager when no longer accessible",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "openColorValue",
           "normalized": "XftMgr-\u003eVisual-\u003eColormap-\u003eRenderColor-\u003eIO(Maybe Color)",
@@ -1088,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003enewDraw\u003c/a\u003e\u003c/code\u003e, but automatically freed when no longer used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "openDraw",
           "package": "sindre",
@@ -1098,6 +1187,7 @@
         "index": {
           "description": "As newDraw but automatically freed when no longer used",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "openDraw",
           "normalized": "XftMgr-\u003eDrawable-\u003eVisual-\u003eColormap-\u003eIO(Maybe Draw)",
@@ -1114,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003enewDrawBitmap\u003c/a\u003e\u003c/code\u003e, but automatically freed when no longer used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "openDrawAlpha",
           "package": "sindre",
@@ -1124,6 +1215,7 @@
         "index": {
           "description": "As newDrawBitmap but automatically freed when no longer used",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "openDrawAlpha",
           "normalized": "XftMgr-\u003eDrawable-\u003ea-\u003eIO(Maybe Draw)",
@@ -1140,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003enewDrawBitmap\u003c/a\u003e\u003c/code\u003e, but automatically freed when no longer used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "openDrawBitmap",
           "package": "sindre",
@@ -1150,6 +1243,7 @@
         "index": {
           "description": "As newDrawBitmap but automatically freed when no longer used",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "openDrawBitmap",
           "normalized": "XftMgr-\u003eDrawable-\u003eIO(Maybe Draw)",
@@ -1166,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003enewFontName\u003c/a\u003e\u003c/code\u003e, but automatically freed when no longer used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "openFontName",
           "package": "sindre",
@@ -1176,6 +1271,7 @@
         "index": {
           "description": "As newFontName but automatically freed when no longer used",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "openFontName",
           "normalized": "XftMgr-\u003eString-\u003eIO(Maybe Font)",
@@ -1192,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003enewFontXfld\u003c/code\u003e, but automatically freed when no longer used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "openFontXlfd",
           "package": "sindre",
@@ -1202,6 +1299,7 @@
         "index": {
           "description": "As newFontXfld but automatically freed when no longer used",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "openFontXlfd",
           "normalized": "XftMgr-\u003eString-\u003eIO(Maybe Font)",
@@ -1218,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core X11 colour contained in an Xft colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "pixel",
           "package": "sindre",
@@ -1228,6 +1327,7 @@
         "index": {
           "description": "The core X11 colour contained in an Xft colour",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "pixel",
           "normalized": "Color-\u003ePixel",
@@ -1242,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "red",
           "package": "sindre",
@@ -1251,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "red",
           "package": "sindre",
@@ -1264,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that the 'glyphWidth'/'glyphHeight' fields are the number of\n pixels you should advance after drawing a string of this size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "textExtents",
           "package": "sindre",
@@ -1274,6 +1377,7 @@
         "index": {
           "description": "Note that the glyphWidth glyphHeight fields are the number of pixels you should advance after drawing string of this size",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "textExtents",
           "normalized": "Display-\u003eFont-\u003eString-\u003eIO GlyphInfo",
@@ -1290,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for calling \u003ccode\u003e\u003ca\u003etextExtents\u003c/a\u003e\u003c/code\u003e and picking out the\n \u003ccode\u003e\u003ca\u003eglyphHeight\u003c/a\u003e\u003c/code\u003e field of the \u003ccode\u003e\u003ca\u003eGlyphInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "textHeight",
           "package": "sindre",
@@ -1300,6 +1405,7 @@
         "index": {
           "description": "Shortcut for calling textExtents and picking out the glyphHeight field of the GlyphInfo",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "textHeight",
           "normalized": "Display-\u003eFont-\u003eString-\u003eIO a",
@@ -1316,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for calling \u003ccode\u003e\u003ca\u003etextExtents\u003c/a\u003e\u003c/code\u003e and picking out the\n \u003ccode\u003e\u003ca\u003eglyphWidth\u003c/a\u003e\u003c/code\u003e field of the \u003ccode\u003e\u003ca\u003eGlyphInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "textWidth",
           "package": "sindre",
@@ -1326,6 +1433,7 @@
         "index": {
           "description": "Shortcut for calling textExtents and picking out the glyphWidth field of the GlyphInfo",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "textWidth",
           "normalized": "Display-\u003eFont-\u003eString-\u003eIO a",
@@ -1342,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlock a face locked by \u003ccode\u003elockFontFace\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "unlockFace",
           "package": "sindre",
@@ -1352,6 +1461,7 @@
         "index": {
           "description": "Unlock face locked by lockFontFace",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "unlockFace",
           "normalized": "Font-\u003eIO()",
@@ -1368,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe visual for the Xft drawable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "visual",
           "package": "sindre",
@@ -1378,6 +1489,7 @@
         "index": {
           "description": "The visual for the Xft drawable",
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Graphics.X11.Xft",
           "name": "visual",
           "normalized": "Draw-\u003eVisual",
@@ -1393,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransforming a Sindre program into a callable function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "Compiler",
           "package": "sindre",
@@ -1402,6 +1515,7 @@
         "index": {
           "description": "Transforming Sindre program into callable function",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "Compiler",
           "package": "sindre",
@@ -1416,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from class names to constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "ClassMap",
           "package": "sindre",
@@ -1425,6 +1540,7 @@
         "index": {
           "description": "Mapping from class names to constructors",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "ClassMap",
           "package": "sindre",
@@ -1439,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad inside which compilation takes place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "Compiler",
           "package": "sindre",
@@ -1448,6 +1565,7 @@
         "index": {
           "description": "Monad inside which compilation takes place",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "Compiler",
           "package": "sindre",
@@ -1462,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that, given an initial value, the name of itself if any,\n and a list of children, yields a computation that constructs a new\n widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "Constructor",
           "package": "sindre",
@@ -1471,6 +1590,7 @@
         "index": {
           "description": "Function that given an initial value the name of itself if any and list of children yields computation that constructs new widget",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "Constructor",
           "package": "sindre",
@@ -1485,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad in which widget construction takes place.  You can only\n execute this by defining a \u003ccode\u003e\u003ca\u003eConstructor\u003c/a\u003e\u003c/code\u003e that is then used in a\n Sindre program (see also \u003ccode\u003e\u003ca\u003eClassMap\u003c/a\u003e\u003c/code\u003e).  An example usage could be:\n\u003c/p\u003e\u003cpre\u003e\n myWidget :: \u003ccode\u003e\u003ca\u003eConstructor\u003c/a\u003e\u003c/code\u003e MyBackEnd\n myWidget w k cs : do\n   -- ConstructorM is an instance of \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e, so we can provide\n   -- defaults or fallbacks for missing parameters.\n   arg \u003ca\u003e- 'param' \\\"myParam\\\" \u003c|\u003c/a\u003e return 12\n   \u003cem\u003erest of construction\u003c/em\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "ConstructorM",
           "package": "sindre",
@@ -1494,6 +1615,7 @@
         "index": {
           "description": "The monad in which widget construction takes place You can only execute this by defining Constructor that is then used in Sindre program see also ClassMap An example usage could be myWidget Constructor MyBackEnd myWidget cs do ConstructorM is an instance of Alternative so we can provide defaults or fallbacks for missing parameters arg param myParam return rest of construction",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "ConstructorM",
           "package": "sindre",
@@ -1508,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from function names to built-in functions.  These must\n first be executed in the \u003ccode\u003e\u003ca\u003eCompiler\u003c/a\u003e\u003c/code\u003e monad as they may have specific\n requirements of the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "FuncMap",
           "package": "sindre",
@@ -1517,6 +1640,7 @@
         "index": {
           "description": "Mapping from function names to built-in functions These must first be executed in the Compiler monad as they may have specific requirements of the environment",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "FuncMap",
           "package": "sindre",
@@ -1531,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from names of global variables to computations that yield\n their initial values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "GlobMap",
           "package": "sindre",
@@ -1540,6 +1665,7 @@
         "index": {
           "description": "Mapping from names of global variables to computations that yield their initial values",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "GlobMap",
           "package": "sindre",
@@ -1554,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from object names to object constructor functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "ObjectMap",
           "package": "sindre",
@@ -1563,6 +1690,7 @@
         "index": {
           "description": "Mapping from object names to object constructor functions",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "ObjectMap",
           "package": "sindre",
@@ -1577,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that a given backend can convert to from \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es.\n In effect, a monadic version of \u003ccode\u003e\u003ca\u003eMold\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "Param",
           "package": "sindre",
@@ -1586,6 +1715,7 @@
         "index": {
           "description": "Class of types that given backend can convert to from Value In effect monadic version of Mold",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "Param",
           "package": "sindre",
@@ -1600,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebadValue k v\u003c/code\u003e signals that parameter \u003ccode\u003ek\u003c/code\u003e is present with value\n \u003ccode\u003ev\u003c/code\u003e, but that \u003ccode\u003ev\u003c/code\u003e is an invalid value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "badValue",
           "package": "sindre",
@@ -1610,6 +1741,7 @@
         "index": {
           "description": "badValue signals that parameter is present with value but that is an invalid value",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "badValue",
           "normalized": "String-\u003eValue-\u003eConstructorM a b",
@@ -1626,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a Sindre program and its environment, compile the program\n and return a pair of command-line options accepted by the program,\n and a startup function.  The program can be executed by calling the\n startup function with the command-like arguments and an initial\n value for the root widget.  If compilation fails, an IO exception\n is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "compileSindre",
           "package": "sindre",
@@ -1636,6 +1769,7 @@
         "index": {
           "description": "Given Sindre program and its environment compile the program and return pair of command-line options accepted by the program and startup function The program can be executed by calling the startup function with the command-like arguments and an initial value for the root widget If compilation fails an IO exception is raised",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "compileSindre",
           "normalized": "Program-\u003eClassMap a-\u003eObjectMap a-\u003eFuncMap a-\u003eGlobMap a-\u003e([SindreOption],Arguments-\u003ea ExitCode)",
@@ -1652,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to convert the given Sindre value to the relevant\n Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "moldM",
           "package": "sindre",
@@ -1662,6 +1797,7 @@
         "index": {
           "description": "Attempt to convert the given Sindre value to the relevant Haskell value",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "moldM",
           "normalized": "Value-\u003ea(Maybe b)",
@@ -1677,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enoParam k\u003c/code\u003e signals that parameter \u003ccode\u003ek\u003c/code\u003e is missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "noParam",
           "package": "sindre",
@@ -1687,6 +1824,7 @@
         "index": {
           "description": "noParam signals that parameter is missing",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "noParam",
           "normalized": "String-\u003eConstructorM a b",
@@ -1703,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003eparam\u003c/a\u003e\u003c/code\u003e, but \u003ccode\u003e\u003ca\u003emold\u003c/a\u003e\u003c/code\u003e is always used for conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "param",
           "package": "sindre",
@@ -1713,6 +1852,7 @@
         "index": {
           "description": "As param but mold is always used for conversion",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "param",
           "normalized": "Identifier-\u003eConstructorM a b",
@@ -1728,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ek \u003ccode\u003e\u003ca\u003eparamAs\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e yields the value of the widget parameter \u003ccode\u003ek\u003c/code\u003e,\n using \u003ccode\u003ef\u003c/code\u003e to convert it to the proper Haskell type.  If \u003ccode\u003ef\u003c/code\u003e returns\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebadValue\u003c/a\u003e\u003c/code\u003e k \u003c/code\u003e is called.  If \u003ccode\u003ek\u003c/code\u003e does not exist,\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003enoParam\u003c/a\u003e\u003c/code\u003e k\u003c/code\u003e is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "paramAs",
           "package": "sindre",
@@ -1738,6 +1879,7 @@
         "index": {
           "description": "paramAs yields the value of the widget parameter using to convert it to the proper Haskell type If returns Nothing badValue is called If does not exist noParam is called",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "paramAs",
           "normalized": "Identifier-\u003e(Value-\u003eMaybe a)-\u003eConstructorM b a",
@@ -1754,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003eparamM\u003c/a\u003e\u003c/code\u003e, but \u003ccode\u003e\u003ca\u003emoldM\u003c/a\u003e\u003c/code\u003e is always used for conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "paramM",
           "package": "sindre",
@@ -1764,6 +1907,7 @@
         "index": {
           "description": "As paramM but moldM is always used for conversion",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "paramM",
           "normalized": "Identifier-\u003eConstructorM a b",
@@ -1779,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a variable name, return a computation that can be used to\n set the value of the variable when executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "setValue",
           "package": "sindre",
@@ -1789,6 +1934,7 @@
         "index": {
           "description": "Given variable name return computation that can be used to set the value of the variable when executed",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "setValue",
           "normalized": "Identifier-\u003eCompiler a(Value-\u003eExecution a())",
@@ -1805,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a variable name, return a computation that will yield the\n value of the variable when executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Compiler",
           "name": "value",
           "package": "sindre",
@@ -1815,6 +1962,7 @@
         "index": {
           "description": "Given variable name return computation that will yield the value of the variable when executed",
           "hierarchy": "Sindre Compiler",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Compiler",
           "name": "value",
           "normalized": "Identifier-\u003eCompiler a(Execution a Value)",
@@ -1830,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser and definition of the dzen2-inspired formatting language\n used by Sindre.  A format string is a sequence of commands changing\n drawing option parameters, and things to draw.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "Formatting",
           "package": "sindre",
@@ -1839,6 +1988,7 @@
         "index": {
           "description": "Parser and definition of the dzen2-inspired formatting language used by Sindre format string is sequence of commands changing drawing option parameters and things to draw",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "Formatting",
           "package": "sindre",
@@ -1853,6 +2003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA formatting command is either a change to the drawing state, or\n a string to be printed at the current location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "Format",
           "package": "sindre",
@@ -1862,6 +2013,7 @@
         "index": {
           "description": "formatting command is either change to the drawing state or string to be printed at the current location",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "Format",
           "package": "sindre",
@@ -1876,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of formatting commands, interpreted left-to-right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "FormatString",
           "package": "sindre",
@@ -1885,6 +2038,7 @@
         "index": {
           "description": "list of formatting commands interpreted left-to-right",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "FormatString",
           "package": "sindre",
@@ -1899,6 +2053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the background in the given colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "Bg",
           "package": "sindre",
@@ -1909,6 +2064,7 @@
         "index": {
           "description": "Draw the background in the given colour",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "Bg",
           "package": "sindre",
@@ -1923,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the background in the default colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "DefBg",
           "package": "sindre",
@@ -1933,6 +2090,7 @@
         "index": {
           "description": "Draw the background in the default colour",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "DefBg",
           "package": "sindre",
@@ -1947,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw text in the default colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "DefFg",
           "package": "sindre",
@@ -1957,6 +2116,7 @@
         "index": {
           "description": "Draw text in the default colour",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "DefFg",
           "package": "sindre",
@@ -1971,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw text in the given colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "Fg",
           "package": "sindre",
@@ -1981,6 +2142,7 @@
         "index": {
           "description": "Draw text in the given colour",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "Fg",
           "package": "sindre",
@@ -1995,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "Text",
           "package": "sindre",
@@ -2005,6 +2168,7 @@
         "index": {
           "description": "Draw the given string",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "Text",
           "package": "sindre",
@@ -2019,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a format string, returning either an error message or the\n result of the parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "parseFormatString",
           "package": "sindre",
@@ -2029,6 +2194,7 @@
         "index": {
           "description": "Parse format string returning either an error message or the result of the parse",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "parseFormatString",
           "normalized": "Text-\u003eEither String FormatString",
@@ -2045,6 +2211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first background colour preceding any default background\n colour or text entry specified in the format string, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "startBg",
           "package": "sindre",
@@ -2055,6 +2222,7 @@
         "index": {
           "description": "The first background colour preceding any default background colour or text entry specified in the format string if any",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "startBg",
           "normalized": "FormatString-\u003eMaybe String",
@@ -2071,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe human-readable part of a format string, with formatting\n directives stripped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "textContents",
           "package": "sindre",
@@ -2081,6 +2250,7 @@
         "index": {
           "description": "The human-readable part of format string with formatting directives stripped",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "textContents",
           "normalized": "FormatString-\u003eText",
@@ -2097,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrettyprint a \u003ccode\u003e\u003ca\u003eFormatString\u003c/a\u003e\u003c/code\u003e to a string that, when parsed by\n \u003ccode\u003e\u003ca\u003eparseFormatString\u003c/a\u003e\u003c/code\u003e, results in the original \u003ccode\u003e\u003ca\u003eFormatString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Formatting",
           "name": "unparseFormatString",
           "package": "sindre",
@@ -2107,6 +2278,7 @@
         "index": {
           "description": "Prettyprint FormatString to string that when parsed by parseFormatString results in the original FormatString",
           "hierarchy": "Sindre Formatting",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Formatting",
           "name": "unparseFormatString",
           "normalized": "FormatString-\u003eText",
@@ -2122,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.KeyVal",
           "name": "KeyVal",
           "package": "sindre",
@@ -2130,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Sindre KeyVal",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.KeyVal",
           "name": "KeyVal",
           "package": "sindre",
@@ -2144,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression \u003ccode\u003eperm \u003c||\u003e p\u003c/code\u003e adds parser \u003ccode\u003ep\u003c/code\u003e to the permutation\n parser \u003ccode\u003eperm\u003c/code\u003e. The parser \u003ccode\u003ep\u003c/code\u003e is not allowed to accept empty input -\n use the optional combinator (\u003ccode\u003e\u003ca\u003e\u003c|?\u003e\u003c/a\u003e\u003c/code\u003e) instead. Returns a\n new permutation parser that includes \u003ccode\u003ep\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.KeyVal",
           "name": "(\u003c||\u003e)",
           "package": "sindre",
@@ -2153,6 +2328,7 @@
         "index": {
           "description": "The expression perm adds parser to the permutation parser perm The parser is not allowed to accept empty input use the optional combinator instead Returns new permutation parser that includes",
           "hierarchy": "Sindre KeyVal",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.KeyVal",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "PermParser a(b-\u003ec)-\u003ea b-\u003ePermParser a c",
@@ -2168,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression \u003ccode\u003eperm \u003c||\u003e (x,p)\u003c/code\u003e adds parser \u003ccode\u003ep\u003c/code\u003e to the\n permutation parser \u003ccode\u003eperm\u003c/code\u003e. The parser \u003ccode\u003ep\u003c/code\u003e is optional - if it can\n not be applied, the default value \u003ccode\u003ex\u003c/code\u003e will be used instead. Returns\n a new permutation parser that includes the optional parser \u003ccode\u003ep\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.KeyVal",
           "name": "(\u003c|?\u003e)",
           "package": "sindre",
@@ -2177,6 +2354,7 @@
         "index": {
           "description": "The expression perm adds parser to the permutation parser perm The parser is optional if it can not be applied the default value will be used instead Returns new permutation parser that includes the optional parser",
           "hierarchy": "Sindre KeyVal",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.KeyVal",
           "name": "(\u003c|?\u003e) \u003c|?\u003e",
           "normalized": "PermParser a(b-\u003ec)-\u003e(b,a b)-\u003ePermParser a c",
@@ -2192,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression \u003ccode\u003ef \u003c$$\u003e p\u003c/code\u003e creates a fresh permutation parser\n consisting of parser \u003ccode\u003ep\u003c/code\u003e. The the final result of the permutation\n parser is the function \u003ccode\u003ef\u003c/code\u003e applied to the return value of \u003ccode\u003ep\u003c/code\u003e. The\n parser \u003ccode\u003ep\u003c/code\u003e is not allowed to accept empty input - use the optional\n combinator (\u003ccode\u003e\u003ca\u003e\u003c$?\u003e\u003c/a\u003e\u003c/code\u003e) instead.\n\u003c/p\u003e\u003cp\u003eIf the function \u003ccode\u003ef\u003c/code\u003e takes more than one parameter, the type variable\n \u003ccode\u003eb\u003c/code\u003e is instantiated to a functional type which combines nicely with\n the adds parser \u003ccode\u003ep\u003c/code\u003e to the (\u003ccode\u003e\u003ca\u003e\u003c||\u003e\u003c/a\u003e\u003c/code\u003e) combinator. This\n results in stylized code where a permutation parser starts with a\n combining function \u003ccode\u003ef\u003c/code\u003e followed by the parsers. The function \u003ccode\u003ef\u003c/code\u003e\n gets its parameters in the order in which the parsers are specified,\n but actual input can be in any order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.KeyVal",
           "name": "(\u003c$$\u003e)",
           "package": "sindre",
@@ -2201,6 +2380,7 @@
         "index": {
           "description": "The expression creates fresh permutation parser consisting of parser The the final result of the permutation parser is the function applied to the return value of The parser is not allowed to accept empty input use the optional combinator instead If the function takes more than one parameter the type variable is instantiated to functional type which combines nicely with the adds parser to the combinator This results in stylized code where permutation parser starts with combining function followed by the parsers The function gets its parameters in the order in which the parsers are specified but actual input can be in any order",
           "hierarchy": "Sindre KeyVal",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.KeyVal",
           "name": "(\u003c$$\u003e) \u003c$$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ePermParser c b",
@@ -2216,6 +2396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression \u003ccode\u003ef \u003c$?\u003e (x,p)\u003c/code\u003e creates a fresh permutation parser\n consisting of parser \u003ccode\u003ep\u003c/code\u003e. The the final result of the permutation\n parser is the function \u003ccode\u003ef\u003c/code\u003e applied to the return value of \u003ccode\u003ep\u003c/code\u003e. The\n parser \u003ccode\u003ep\u003c/code\u003e is optional - if it can not be applied, the default value\n \u003ccode\u003ex\u003c/code\u003e will be used instead. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.KeyVal",
           "name": "(\u003c$?\u003e)",
           "package": "sindre",
@@ -2225,6 +2406,7 @@
         "index": {
           "description": "The expression creates fresh permutation parser consisting of parser The the final result of the permutation parser is the function applied to the return value of The parser is optional if it can not be applied the default value will be used instead",
           "hierarchy": "Sindre KeyVal",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.KeyVal",
           "name": "(\u003c$?\u003e) \u003c$?\u003e",
           "normalized": "(a-\u003eb)-\u003e(a,c a)-\u003ePermParser c b",
@@ -2240,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a key-value string wrapper constructed via the permutation\n parser combinators from \u003ccode\u003e\u003ca\u003ePerm\u003c/a\u003e\u003c/code\u003e and the parsers \u003ccode\u003evalue\u003c/code\u003e\n and \u003ccode\u003evalues\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.KeyVal",
           "name": "parseKV",
           "package": "sindre",
@@ -2250,6 +2433,7 @@
         "index": {
           "description": "Parse key-value string wrapper constructed via the permutation parser combinators from Perm and the parsers value and values",
           "hierarchy": "Sindre KeyVal",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.KeyVal",
           "name": "parseKV",
           "normalized": "PermParser Parser a-\u003eText-\u003eEither String a",
@@ -2266,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evalue k\u003c/code\u003e is a parser for the single-valued key \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.KeyVal",
           "name": "value",
           "package": "sindre",
@@ -2276,6 +2461,7 @@
         "index": {
           "description": "value is parser for the single-valued key",
           "hierarchy": "Sindre KeyVal",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.KeyVal",
           "name": "value",
           "normalized": "Text-\u003eParser Text",
@@ -2291,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evalues k\u003c/code\u003e is a parser for the list-valued key \u003ccode\u003ek\u003c/code\u003e.  At least a\n single value is required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.KeyVal",
           "name": "values",
           "package": "sindre",
@@ -2301,6 +2488,7 @@
         "index": {
           "description": "values is parser for the list-valued key At least single value is required",
           "hierarchy": "Sindre KeyVal",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.KeyVal",
           "name": "values",
           "normalized": "Text-\u003eParser[Text]",
@@ -2316,6 +2504,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary routines and helper functions for the Sindre programming\n language.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Lib",
           "name": "Lib",
           "package": "sindre",
@@ -2325,6 +2514,7 @@
         "index": {
           "description": "Library routines and helper functions for the Sindre programming language",
           "hierarchy": "Sindre Lib",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Lib",
           "name": "Lib",
           "package": "sindre",
@@ -2339,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience class for writing \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Lib",
           "name": "KeyLike",
           "package": "sindre",
@@ -2348,6 +2539,7 @@
         "index": {
           "description": "Convenience class for writing Chord values",
           "hierarchy": "Sindre Lib",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Lib",
           "name": "KeyLike",
           "package": "sindre",
@@ -2362,6 +2554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class making it easy to adapt Haskell functions as Sindre\n functions that take and return \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Lib",
           "name": "LiftFunction",
           "package": "sindre",
@@ -2371,6 +2564,7 @@
         "index": {
           "description": "class making it easy to adapt Haskell functions as Sindre functions that take and return Value",
           "hierarchy": "Sindre Lib",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Lib",
           "name": "LiftFunction",
           "package": "sindre",
@@ -2385,6 +2579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of modifiers and either a \u003ccode\u003echar\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e,\n yield a \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e.  If given a character, the Chord will contain a\n \u003ccode\u003e\u003ca\u003eCharKey\u003c/a\u003e\u003c/code\u003e, if given a string, it will contain a \u003ccode\u003e\u003ca\u003eCtrlKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Lib",
           "name": "chord",
           "package": "sindre",
@@ -2395,6 +2590,7 @@
         "index": {
           "description": "Given list of modifiers and either char or String yield Chord If given character the Chord will contain CharKey if given string it will contain CtrlKey",
           "hierarchy": "Sindre Lib",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Lib",
           "name": "chord",
           "normalized": "[KeyModifier]-\u003ea-\u003eChord",
@@ -2410,6 +2606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efunction f\u003c/code\u003e is a monadic function that accepts a list of\n \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es and returns a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e.  If the list does not contain the\n number, or type, of arguments expected by \u003ccode\u003ef\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e will be\n called with an appropriate error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Lib",
           "name": "function",
           "package": "sindre",
@@ -2420,6 +2617,7 @@
         "index": {
           "description": "function is monadic function that accepts list of Value and returns Value If the list does not contain the number or type of arguments expected by fail will be called with an appropriate error message",
           "hierarchy": "Sindre Lib",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Lib",
           "name": "function",
           "normalized": "a-\u003e[Value]-\u003eb c Value",
@@ -2435,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of impure functions that only work in IO backends.\n Includes the \u003ccode\u003esystem\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Lib",
           "name": "ioFunctions",
           "package": "sindre",
@@ -2445,6 +2644,7 @@
         "index": {
           "description": "set of impure functions that only work in IO backends Includes the system function",
           "hierarchy": "Sindre Lib",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Lib",
           "name": "ioFunctions",
           "package": "sindre",
@@ -2459,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal variables that require an IO backend.  Includes the\n \u003ccode\u003eENVIRON\u003c/code\u003e global.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Lib",
           "name": "ioGlobals",
           "package": "sindre",
@@ -2469,6 +2670,7 @@
         "index": {
           "description": "Global variables that require an IO backend Includes the ENVIRON global",
           "hierarchy": "Sindre Lib",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Lib",
           "name": "ioGlobals",
           "package": "sindre",
@@ -2483,6 +2685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of pure functions that can work with any Sindre backend.\n Includes the functions \u003ccode\u003eabs\u003c/code\u003e, \u003ccode\u003eatan2\u003c/code\u003e, \u003ccode\u003ecos\u003c/code\u003e, \u003ccode\u003esin\u003c/code\u003e, \u003ccode\u003eexp\u003c/code\u003e, \u003ccode\u003elog\u003c/code\u003e,\n \u003ccode\u003eint\u003c/code\u003e, \u003ccode\u003esqrt\u003c/code\u003e, \u003ccode\u003elength\u003c/code\u003e, \u003ccode\u003esubstr\u003c/code\u003e, \u003ccode\u003eindex\u003c/code\u003e, \u003ccode\u003ematch\u003c/code\u003e, \u003ccode\u003esub\u003c/code\u003e, \u003ccode\u003egsub\u003c/code\u003e,\n \u003ccode\u003etolower\u003c/code\u003e, and \u003ccode\u003etoupper\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Lib",
           "name": "stdFunctions",
           "package": "sindre",
@@ -2493,6 +2696,7 @@
         "index": {
           "description": "set of pure functions that can work with any Sindre backend Includes the functions abs atan2 cos sin exp log int sqrt length substr index match sub gsub tolower and toupper",
           "hierarchy": "Sindre Lib",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Lib",
           "name": "stdFunctions",
           "package": "sindre",
@@ -2507,6 +2711,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSindre, a programming language for writing simple GUIs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Main",
           "name": "Main",
           "package": "sindre",
@@ -2516,6 +2721,7 @@
         "index": {
           "description": "Sindre programming language for writing simple GUIs",
           "hierarchy": "Sindre Main",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Main",
           "name": "Main",
           "package": "sindre",
@@ -2529,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Main",
           "name": "classMap",
           "package": "sindre",
@@ -2538,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Sindre Main",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Main",
           "name": "classMap",
           "package": "sindre",
@@ -2551,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Main",
           "name": "emptyProgram",
           "package": "sindre",
@@ -2560,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Sindre Main",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Main",
           "name": "emptyProgram",
           "package": "sindre",
@@ -2573,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Main",
           "name": "funcMap",
           "package": "sindre",
@@ -2582,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Sindre Main",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Main",
           "name": "funcMap",
           "package": "sindre",
@@ -2595,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Main",
           "name": "globMap",
           "package": "sindre",
@@ -2604,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Sindre Main",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Main",
           "name": "globMap",
           "package": "sindre",
@@ -2617,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Main",
           "name": "objectMap",
           "package": "sindre",
@@ -2626,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Sindre Main",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Main",
           "name": "objectMap",
           "package": "sindre",
@@ -2640,6 +2856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main Sindre entry point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Main",
           "name": "sindreMain",
           "package": "sindre",
@@ -2650,6 +2867,7 @@
         "index": {
           "description": "The main Sindre entry point",
           "hierarchy": "Sindre Main",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Main",
           "name": "sindreMain",
           "normalized": "Program-\u003eClassMap SindreX M-\u003eObjectMap SindreX M-\u003eFuncMap SindreX M-\u003eGlobMap SindreX M-\u003e[String]-\u003eIO()",
@@ -2666,6 +2884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for the Sindre programming language.  The documentation for\n this module does not include a description of the language syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Parser",
           "name": "Parser",
           "package": "sindre",
@@ -2675,6 +2894,7 @@
         "index": {
           "description": "Parser for the Sindre programming language The documentation for this module does not include description of the language syntax",
           "hierarchy": "Sindre Parser",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Parser",
           "name": "Parser",
           "package": "sindre",
@@ -2689,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse an integer according to the Sindre syntax, ignoring\n trailing whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Parser",
           "name": "parseInteger",
           "package": "sindre",
@@ -2699,6 +2920,7 @@
         "index": {
           "description": "Try to parse an integer according to the Sindre syntax ignoring trailing whitespace",
           "hierarchy": "Sindre Parser",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Parser",
           "name": "parseInteger",
           "normalized": "String-\u003eMaybe Double",
@@ -2715,6 +2937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseSindre prog filename string\u003c/code\u003e extends the \u003ccode\u003e\u003ca\u003eProgram\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eprog\u003c/code\u003e\n with the declarations in the given Sindre source code.  In case of\n mutually-exclusive definitions (such as the \u003ccode\u003eBEGIN\u003c/code\u003e block, or\n identically named functions), the new definitions in \u003ccode\u003estring\u003c/code\u003e take\n precedence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Parser",
           "name": "parseSindre",
           "package": "sindre",
@@ -2725,6 +2948,7 @@
         "index": {
           "description": "parseSindre prog filename string extends the Program prog with the declarations in the given Sindre source code In case of mutually-exclusive definitions such as the BEGIN block or identically named functions the new definitions in string take precedence",
           "hierarchy": "Sindre Parser",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Parser",
           "name": "parseSindre",
           "normalized": "Program-\u003eSourceName-\u003eString-\u003eEither ParseError Program",
@@ -2741,6 +2965,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinitions for the Sindre runtime environment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "Runtime",
           "package": "sindre",
@@ -2750,6 +2975,7 @@
         "index": {
           "description": "Definitions for the Sindre runtime environment",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "Runtime",
           "package": "sindre",
@@ -2763,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "DataSlot",
           "package": "sindre",
@@ -2771,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "DataSlot",
           "package": "sindre",
@@ -2784,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "EventHandler",
           "package": "sindre",
@@ -2792,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "EventHandler",
           "package": "sindre",
@@ -2805,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "Execution",
           "package": "sindre",
@@ -2813,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "Execution",
           "package": "sindre",
@@ -2827,6 +3059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque notion of a field.  These are for internal use in the\n Sindre runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "Field",
           "package": "sindre",
@@ -2836,6 +3069,7 @@
         "index": {
           "description": "An opaque notion of field These are for internal use in the Sindre runtime",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "Field",
           "package": "sindre",
@@ -2850,6 +3084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typed description of a field, which may be read-write or\n read-only.  When constructing the actual widget, you must turn\n these into real \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003es by using the \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e function.  A\n description of a field consists of a name and monadic actions for\n reading and optionally writing to the field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "FieldDesc",
           "package": "sindre",
@@ -2859,6 +3094,7 @@
         "index": {
           "description": "typed description of field which may be read-write or read-only When constructing the actual widget you must turn these into real Field by using the field function description of field consists of name and monadic actions for reading and optionally writing to the field",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "FieldDesc",
           "package": "sindre",
@@ -2873,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA method takes as arguments a list of \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es and returns\n another \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e.  You probably do not want to call these directly\n from Haskell code, as they are dynamically typed.  See\n \u003ccode\u003e\u003ca\u003efunction\u003c/a\u003e\u003c/code\u003e for a convenient way to turn a Haskell\n function into a suitable method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "Method",
           "package": "sindre",
@@ -2882,6 +3119,7 @@
         "index": {
           "description": "method takes as arguments list of Value and returns another Value You probably do not want to call these directly from Haskell code as they are dynamically typed See function for convenient way to turn Haskell function into suitable method",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "Method",
           "package": "sindre",
@@ -2895,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "Mold",
           "package": "sindre",
@@ -2903,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "Mold",
           "package": "sindre",
@@ -2917,6 +3157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad that can be used as the layer beneath \u003ccode\u003e\u003ca\u003eSindre\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "MonadBackend",
           "package": "sindre",
@@ -2926,6 +3167,7 @@
         "index": {
           "description": "monad that can be used as the layer beneath Sindre",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "MonadBackend",
           "package": "sindre",
@@ -2940,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMonadSindre im m\u003c/code\u003e is the class of monads \u003ccode\u003em\u003c/code\u003e that run on top of\n \u003ccode\u003e\u003ca\u003eSindre\u003c/a\u003e\u003c/code\u003e with backend \u003ccode\u003eim\u003c/code\u003e, and can thus access Sindre\n functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "MonadSindre",
           "package": "sindre",
@@ -2949,6 +3192,7 @@
         "index": {
           "description": "MonadSindre im is the class of monads that run on top of Sindre with backend im and can thus access Sindre functionality",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "MonadSindre",
           "package": "sindre",
@@ -2963,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer describing a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "NewObject",
           "package": "sindre",
@@ -2972,6 +3217,7 @@
         "index": {
           "description": "Container describing newly created object",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "NewObject",
           "package": "sindre",
@@ -2986,6 +3232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer describing a newly created widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "NewWidget",
           "package": "sindre",
@@ -2995,6 +3242,7 @@
         "index": {
           "description": "Container describing newly created widget",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "NewWidget",
           "package": "sindre",
@@ -3008,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "ObjectM",
           "package": "sindre",
@@ -3016,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "ObjectM",
           "package": "sindre",
@@ -3030,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main monad in which a Sindre program executes.  More\n specialised monads, such as \u003ccode\u003e\u003ca\u003eExecution\u003c/a\u003e\u003c/code\u003e are used for specific\n purposes, but they all run on top of the Sindre monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "Sindre",
           "package": "sindre",
@@ -3039,6 +3290,7 @@
         "index": {
           "description": "The main monad in which Sindre program executes More specialised monads such as Execution are used for specific purposes but they all run on top of the Sindre monad",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "Sindre",
           "package": "sindre",
@@ -3052,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "SindreEnv",
           "package": "sindre",
@@ -3060,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "SindreEnv",
           "package": "sindre",
@@ -3073,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "ReadOnlyField",
           "package": "sindre",
@@ -3082,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "ReadOnlyField",
           "package": "sindre",
@@ -3095,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "ReadWriteField",
           "package": "sindre",
@@ -3104,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "ReadWriteField",
           "normalized": "ReadWriteField Identifier(ObjectM a b c)(c-\u003eObjectM a b())",
@@ -3119,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "SindreEnv",
           "package": "sindre",
@@ -3128,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "SindreEnv",
           "package": "sindre",
@@ -3141,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "arguments",
           "package": "sindre",
@@ -3150,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "arguments",
           "package": "sindre",
@@ -3163,6 +3425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a backend operation into this monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "back",
           "package": "sindre",
@@ -3173,6 +3436,7 @@
         "index": {
           "description": "Lift backend operation into this monad",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "back",
           "normalized": "a b-\u003ec a b",
@@ -3187,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "breakHere",
           "package": "sindre",
@@ -3196,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "breakHere",
           "normalized": "Execution a()-\u003eExecution a()",
@@ -3211,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "broadcast",
           "package": "sindre",
@@ -3220,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "broadcast",
           "normalized": "Event-\u003eObjectM a b()",
@@ -3234,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "callMethodByRef",
           "package": "sindre",
@@ -3243,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "callMethodByRef",
           "normalized": "ObjectRef-\u003eIdentifier-\u003e[Value]-\u003eExecution a Value",
@@ -3258,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "changed",
           "package": "sindre",
@@ -3267,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "changed",
           "normalized": "Identifier-\u003eValue-\u003eValue-\u003eObjectM a b()",
@@ -3281,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "compose",
           "package": "sindre",
@@ -3290,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "compose",
           "normalized": "WidgetRef-\u003ea b SpaceNeed",
@@ -3304,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "contHere",
           "package": "sindre",
@@ -3313,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "contHere",
           "normalized": "Execution a()-\u003eExecution a()",
@@ -3328,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "doBreak",
           "package": "sindre",
@@ -3337,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "doBreak",
           "normalized": "Execution a()",
@@ -3352,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "doCont",
           "package": "sindre",
@@ -3361,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "doCont",
           "normalized": "Execution a()",
@@ -3376,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "doNext",
           "package": "sindre",
@@ -3385,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "doNext",
           "normalized": "Execution a()",
@@ -3400,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "doReturn",
           "package": "sindre",
@@ -3409,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "doReturn",
           "normalized": "Value-\u003eExecution a()",
@@ -3424,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "draw",
           "package": "sindre",
@@ -3433,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "draw",
           "normalized": "WidgetRef-\u003eMaybe Rectangle-\u003ea b SpaceUse",
@@ -3447,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "enterScope",
           "package": "sindre",
@@ -3456,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "enterScope",
           "normalized": "[Value]-\u003eExecution a b-\u003eExecution a b",
@@ -3471,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "eventLoop",
           "package": "sindre",
@@ -3480,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "eventLoop",
           "normalized": "EventHandler a-\u003eSindre a()",
@@ -3495,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "evtQueue",
           "package": "sindre",
@@ -3504,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "evtQueue",
           "package": "sindre",
@@ -3517,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "execFrame",
           "package": "sindre",
@@ -3526,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "execFrame",
           "package": "sindre",
@@ -3540,6 +3834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eexecSindre e m\u003c/code\u003e executes the action \u003ccode\u003em\u003c/code\u003e in environment \u003ccode\u003ee\u003c/code\u003e,\n returning the exit code of \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "execSindre",
           "package": "sindre",
@@ -3550,6 +3845,7 @@
         "index": {
           "description": "execSindre executes the action in environment returning the exit code of",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "execSindre",
           "normalized": "SindreEnv a-\u003eSindre a b-\u003ea ExitCode",
@@ -3565,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "execute",
           "package": "sindre",
@@ -3574,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "execute",
           "normalized": "Execution a Value-\u003eSindre a Value",
@@ -3588,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "execute_",
           "package": "sindre",
@@ -3597,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "execute_",
           "normalized": "Execution a b-\u003eSindre a()",
@@ -3612,6 +3912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a Haskell-typed high-level field description into a\n \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e-typed field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "field",
           "package": "sindre",
@@ -3622,6 +3923,7 @@
         "index": {
           "description": "Turn Haskell-typed high-level field description into Value typed field",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "field",
           "normalized": "FieldDesc a b c-\u003eField a b",
@@ -3636,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "fieldName",
           "package": "sindre",
@@ -3645,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "fieldName",
           "normalized": "FieldDesc a b c-\u003eIdentifier",
@@ -3660,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "fullRedraw",
           "package": "sindre",
@@ -3669,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "fullRedraw",
           "normalized": "a b()",
@@ -3684,6 +3990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "getBackEvent",
           "package": "sindre",
@@ -3693,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "getBackEvent",
           "package": "sindre",
@@ -3706,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "getField",
           "package": "sindre",
@@ -3715,6 +4024,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "getField",
           "normalized": "FieldDesc a b c-\u003eObjectM a b c",
@@ -3730,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "getFieldByRef",
           "package": "sindre",
@@ -3739,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "getFieldByRef",
           "normalized": "ObjectRef-\u003eIdentifier-\u003eExecution a Value",
@@ -3754,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "globalVal",
           "package": "sindre",
@@ -3763,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "globalVal",
           "normalized": "Key-\u003eSindre a Value",
@@ -3778,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "globals",
           "package": "sindre",
@@ -3787,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "globals",
           "package": "sindre",
@@ -3799,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "instObject",
           "package": "sindre",
@@ -3808,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "instObject",
           "normalized": "NewObject a-\u003eDataSlot a",
@@ -3823,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "instWidget",
           "package": "sindre",
@@ -3832,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "instWidget",
           "normalized": "NewWidget a-\u003eConstraints-\u003eDataSlot a",
@@ -3847,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "kbdFocus",
           "package": "sindre",
@@ -3856,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "kbdFocus",
           "package": "sindre",
@@ -3869,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "lexicalVal",
           "package": "sindre",
@@ -3878,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "lexicalVal",
           "normalized": "Key-\u003eExecution a Value",
@@ -3893,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "mold",
           "package": "sindre",
@@ -3902,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "mold",
           "normalized": "Value-\u003eMaybe a",
@@ -3916,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "needsRedraw",
           "package": "sindre",
@@ -3925,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "needsRedraw",
           "package": "sindre",
@@ -3938,6 +4266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "newEnv",
           "package": "sindre",
@@ -3947,6 +4276,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "newEnv",
           "normalized": "WidgetRef-\u003eArguments-\u003eSindreEnv a",
@@ -3962,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "newObject",
           "package": "sindre",
@@ -3971,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "newObject",
           "normalized": "a-\u003eMap Identifier(Method a b)-\u003e[Field a b]-\u003e(Event-\u003eObjectM a b())-\u003eNewObject b",
@@ -3986,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "newWidget",
           "package": "sindre",
@@ -3995,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "newWidget",
           "normalized": "a-\u003eMap Identifier(Method a b)-\u003e[Field a b]-\u003e(Event-\u003eObjectM a b())-\u003eObjectM a b SpaceNeed-\u003e(Rectangle-\u003eObjectM a b SpaceUse)-\u003eNewWidget b",
@@ -4010,6 +4344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "nextHere",
           "package": "sindre",
@@ -4019,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "nextHere",
           "normalized": "Execution a()-\u003eExecution a()",
@@ -4034,6 +4370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "objects",
           "package": "sindre",
@@ -4043,6 +4380,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "objects",
           "package": "sindre",
@@ -4055,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "printVal",
           "package": "sindre",
@@ -4064,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "printVal",
           "normalized": "String-\u003ea()",
@@ -4080,6 +4420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediately return from \u003ccode\u003e\u003ca\u003eexecSindre\u003c/a\u003e\u003c/code\u003e, returning the given exit\n code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "quitSindre",
           "package": "sindre",
@@ -4090,6 +4431,7 @@
         "index": {
           "description": "Immediately return from execSindre returning the given exit code",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "quitSindre",
           "normalized": "ExitCode-\u003eSindre a()",
@@ -4105,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "recvEventByRef",
           "package": "sindre",
@@ -4114,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "recvEventByRef",
           "normalized": "WidgetRef-\u003eEvent-\u003eExecution a()",
@@ -4129,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "redraw",
           "package": "sindre",
@@ -4138,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "redraw",
           "normalized": "ObjectM a b()",
@@ -4152,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "redrawRegion",
           "package": "sindre",
@@ -4161,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "redrawRegion",
           "normalized": "[Rectangle]-\u003eSindre a()",
@@ -4176,6 +4524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "redrawRoot",
           "package": "sindre",
@@ -4185,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "redrawRoot",
           "normalized": "Sindre a()",
@@ -4200,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "returnHere",
           "package": "sindre",
@@ -4209,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "returnHere",
           "normalized": "Execution a Value-\u003eExecution a Value",
@@ -4224,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "rootWidget",
           "package": "sindre",
@@ -4233,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "rootWidget",
           "normalized": "(Maybe(RootPosition a),WidgetRef)",
@@ -4248,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "setFieldByRef",
           "package": "sindre",
@@ -4257,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "setFieldByRef",
           "normalized": "ObjectRef-\u003eIdentifier-\u003eValue-\u003eExecution a Value",
@@ -4272,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "setGlobal",
           "package": "sindre",
@@ -4281,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "setGlobal",
           "normalized": "Key-\u003eValue-\u003eSindre a()",
@@ -4296,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "setLexical",
           "package": "sindre",
@@ -4305,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "setLexical",
           "normalized": "Key-\u003eValue-\u003eExecution a()",
@@ -4320,6 +4680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "setRootPosition",
           "package": "sindre",
@@ -4329,6 +4690,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "setRootPosition",
           "normalized": "Value-\u003eSindre a()",
@@ -4344,6 +4706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "setScope",
           "package": "sindre",
@@ -4353,6 +4716,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "setScope",
           "normalized": "[Value]-\u003eExecution a b-\u003eExecution a b",
@@ -4369,6 +4733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eSindre\u003c/a\u003e\u003c/code\u003e operation into this monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "sindre",
           "package": "sindre",
@@ -4379,6 +4744,7 @@
         "index": {
           "description": "Lift Sindre operation into this monad",
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "sindre",
           "normalized": "Sindre a b-\u003ec a b",
@@ -4393,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "unmold",
           "package": "sindre",
@@ -4402,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "unmold",
           "normalized": "a-\u003eValue",
@@ -4416,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Runtime",
           "name": "waitForBackEvent",
           "package": "sindre",
@@ -4425,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Sindre Runtime",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Runtime",
           "name": "waitForBackEvent",
           "package": "sindre",
@@ -4439,6 +4809,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral definitions for the Sindre programming language.  The\n documentation for this module does not include a description of the\n language semantics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Sindre",
           "package": "sindre",
@@ -4448,6 +4819,7 @@
         "index": {
           "description": "General definitions for the Sindre programming language The documentation for this module does not include description of the language semantics",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Sindre",
           "package": "sindre",
@@ -4462,6 +4834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReaction to an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Action",
           "package": "sindre",
@@ -4471,6 +4844,7 @@
         "index": {
           "description": "Reaction to an event",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Action",
           "package": "sindre",
@@ -4485,6 +4859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruction on how to align a smaller interval within a larger\n interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Align",
           "package": "sindre",
@@ -4494,6 +4869,7 @@
         "index": {
           "description": "Instruction on how to align smaller interval within larger interval",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Align",
           "package": "sindre",
@@ -4508,6 +4884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments passed to the Sindre program from the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Arguments",
           "package": "sindre",
@@ -4517,6 +4894,7 @@
         "index": {
           "description": "The arguments passed to the Sindre program from the command line",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Arguments",
           "package": "sindre",
@@ -4531,6 +4909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of a set of modifier keys and a primary key,\n representing a complete piece of keyboard input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Chord",
           "package": "sindre",
@@ -4540,6 +4919,7 @@
         "index": {
           "description": "combination of set of modifier keys and primary key representing complete piece of keyboard input",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Chord",
           "package": "sindre",
@@ -4554,6 +4934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternally-imposed optional minimum and maximum values for width\n and height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Constraints",
           "package": "sindre",
@@ -4563,6 +4944,7 @@
         "index": {
           "description": "Externally-imposed optional minimum and maximum values for width and height",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Constraints",
           "package": "sindre",
@@ -4577,6 +4959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA size constraint in one dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "DimNeed",
           "package": "sindre",
@@ -4586,6 +4969,7 @@
         "index": {
           "description": "size constraint in one dimension",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "DimNeed",
           "package": "sindre",
@@ -4600,6 +4984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that happened in the world.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Event",
           "package": "sindre",
@@ -4609,6 +4994,7 @@
         "index": {
           "description": "Something that happened in the world",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Event",
           "package": "sindre",
@@ -4623,6 +5009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe origin of an event.  This is used when determining where to\n handle it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "EventSource",
           "package": "sindre",
@@ -4632,6 +5019,7 @@
         "index": {
           "description": "The origin of an event This is used when determining where to handle it",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "EventSource",
           "package": "sindre",
@@ -4646,6 +5034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe syntax of Sindre expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Expr",
           "package": "sindre",
@@ -4655,6 +5044,7 @@
         "index": {
           "description": "The syntax of Sindre expressions",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Expr",
           "package": "sindre",
@@ -4669,6 +5059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function consists of lexically bound parameters and a body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Function",
           "package": "sindre",
@@ -4678,6 +5069,7 @@
         "index": {
           "description": "function consists of lexically bound parameters and body",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Function",
           "package": "sindre",
@@ -4692,6 +5084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Sindre GUI is a recursive tree, with each node representing a\n single widget and consisting of the following fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "GUI",
           "package": "sindre",
@@ -4701,6 +5094,7 @@
         "index": {
           "description": "Sindre GUI is recursive tree with each node representing single widget and consisting of the following fields",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "GUI",
           "package": "sindre",
@@ -4715,6 +5109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of names (such as variables and classes) in the syntax\n tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Identifier",
           "package": "sindre",
@@ -4724,6 +5119,7 @@
         "index": {
           "description": "The type of names such as variables and classes in the syntax tree",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Identifier",
           "package": "sindre",
@@ -4738,6 +5134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a key corresponding to a visible character, or a control\n key not associated with any character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Key",
           "package": "sindre",
@@ -4747,6 +5144,7 @@
         "index": {
           "description": "Either key corresponding to visible character or control key not associated with any character",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Key",
           "package": "sindre",
@@ -4761,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA keyboard modifier key.  The precise meaning (and location) of\n these is somewhat platform-dependent.  Note that the \u003ccode\u003eShift\u003c/code\u003e\n modifier should not be passed along if the associated key is a\n \u003ccode\u003eCharKey\u003c/code\u003e, as \u003ccode\u003eShift\u003c/code\u003e will already have been handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "KeyModifier",
           "package": "sindre",
@@ -4770,6 +5169,7 @@
         "index": {
           "description": "keyboard modifier key The precise meaning and location of these is somewhat platform-dependent Note that the Shift modifier should not be passed along if the associated key is CharKey as Shift will already have been handled",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "KeyModifier",
           "package": "sindre",
@@ -4784,6 +5184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level reference to an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "ObjectNum",
           "package": "sindre",
@@ -4793,6 +5194,7 @@
         "index": {
           "description": "Low-level reference to an object",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "ObjectNum",
           "package": "sindre",
@@ -4807,6 +5209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh-level reference to an object, containing its class and name\n (if any) as well.  For non-widgets, the object name is the same as\n the object class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "ObjectRef",
           "package": "sindre",
@@ -4816,6 +5219,7 @@
         "index": {
           "description": "High-level reference to an object containing its class and name if any as well For non-widgets the object name is the same as the object class",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "ObjectRef",
           "package": "sindre",
@@ -4830,6 +5234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a value with source position information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "P",
           "package": "sindre",
@@ -4839,6 +5244,7 @@
         "index": {
           "description": "Wrap value with source position information",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "P",
           "package": "sindre",
@@ -4852,6 +5258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of an event used to indicate how to handle\n different events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Pattern",
           "package": "sindre",
@@ -4861,6 +5268,7 @@
         "index": {
           "description": "description of an event used to indicate how to handle different events",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Pattern",
           "package": "sindre",
@@ -4875,6 +5283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete Sindre program.  Note that this is intentionally\n defined such that some invalid programs, like those with duplicate\n definitions can be represented - the compiler (see\n \u003ca\u003eSindre.Compiler\u003c/a\u003e) should detect and handle such errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Program",
           "package": "sindre",
@@ -4884,6 +5293,7 @@
         "index": {
           "description": "complete Sindre program Note that this is intentionally defined such that some invalid programs like those with duplicate definitions can be represented the compiler see Sindre.Compiler should detect and handle such errors",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Program",
           "package": "sindre",
@@ -4898,6 +5308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangle represented as its upper-left corner, width and\n height.  You should never create rectangles with negative\n dimensions, and the functions in this module make no guarantee to\n their behaviour if you do.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Rectangle",
           "package": "sindre",
@@ -4907,6 +5318,7 @@
         "index": {
           "description": "rectangle represented as its upper-left corner width and height You should never create rectangles with negative dimensions and the functions in this module make no guarantee to their behaviour if you do",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Rectangle",
           "package": "sindre",
@@ -4921,6 +5333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command line argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "SindreOption",
           "package": "sindre",
@@ -4930,6 +5343,7 @@
         "index": {
           "description": "command line argument",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "SindreOption",
           "package": "sindre",
@@ -4944,6 +5358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of sets of sources, values of this type can be used\n to pattern-match \u003ccode\u003eEventSource\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "SourcePat",
           "package": "sindre",
@@ -4953,6 +5368,7 @@
         "index": {
           "description": "Description of sets of sources values of this type can be used to pattern-match EventSource",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "SourcePat",
           "package": "sindre",
@@ -4967,6 +5383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position in a source file, consisting of a file name,\n one-indexed line number, and one-indexed column number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "SourcePos",
           "package": "sindre",
@@ -4976,6 +5393,7 @@
         "index": {
           "description": "position in source file consisting of file name one-indexed line number and one-indexed column number",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "SourcePos",
           "package": "sindre",
@@ -4990,6 +5408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize constraints in both dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "SpaceNeed",
           "package": "sindre",
@@ -4999,6 +5418,7 @@
         "index": {
           "description": "Size constraints in both dimensions",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "SpaceNeed",
           "package": "sindre",
@@ -5013,6 +5433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of space actually used by a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "SpaceUse",
           "package": "sindre",
@@ -5022,6 +5443,7 @@
         "index": {
           "description": "The amount of space actually used by widget",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "SpaceUse",
           "package": "sindre",
@@ -5036,6 +5458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe syntax of Sindre statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Stmt",
           "package": "sindre",
@@ -5045,6 +5468,7 @@
         "index": {
           "description": "The syntax of Sindre statements",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Stmt",
           "package": "sindre",
@@ -5059,6 +5483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamically typed run-time value in the Sindre language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Value",
           "package": "sindre",
@@ -5068,6 +5493,7 @@
         "index": {
           "description": "Dynamically typed run-time value in the Sindre language",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Value",
           "package": "sindre",
@@ -5082,6 +5508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh-level reference to a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "WidgetRef",
           "package": "sindre",
@@ -5091,6 +5518,7 @@
         "index": {
           "description": "High-level reference to widget",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "WidgetRef",
           "package": "sindre",
@@ -5105,6 +5533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign towards the center of the interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "AlignCenter",
           "package": "sindre",
@@ -5115,6 +5544,7 @@
         "index": {
           "description": "Align towards the center of the interval",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "AlignCenter",
           "package": "sindre",
@@ -5129,6 +5559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign towards negative infinity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "AlignNeg",
           "package": "sindre",
@@ -5139,6 +5570,7 @@
         "index": {
           "description": "Align towards negative infinity",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "AlignNeg",
           "package": "sindre",
@@ -5153,6 +5585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign towards positive infinity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "AlignPos",
           "package": "sindre",
@@ -5163,6 +5596,7 @@
         "index": {
           "description": "Align towards positive infinity",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "AlignPos",
           "package": "sindre",
@@ -5176,6 +5610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Assign",
           "package": "sindre",
@@ -5185,6 +5620,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Assign",
           "package": "sindre",
@@ -5199,6 +5635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe source is something within the\n bowels of the active backend,\n probably from the external world.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "BackendSrc",
           "package": "sindre",
@@ -5209,6 +5646,7 @@
         "index": {
           "description": "The source is something within the bowels of the active backend probably from the external world",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "BackendSrc",
           "package": "sindre",
@@ -5222,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Break",
           "package": "sindre",
@@ -5231,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Break",
           "package": "sindre",
@@ -5245,6 +5685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnicode character associated with the key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "CharKey",
           "package": "sindre",
@@ -5255,6 +5696,7 @@
         "index": {
           "description": "Unicode character associated with the key",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "CharKey",
           "package": "sindre",
@@ -5269,6 +5711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch if the event is a chord.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "ChordPattern",
           "package": "sindre",
@@ -5279,6 +5722,7 @@
         "index": {
           "description": "Match if the event is chord",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "ChordPattern",
           "package": "sindre",
@@ -5292,6 +5736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Concat",
           "package": "sindre",
@@ -5301,6 +5746,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Concat",
           "package": "sindre",
@@ -5314,6 +5760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Cond",
           "package": "sindre",
@@ -5323,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Cond",
           "package": "sindre",
@@ -5336,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Continue",
           "package": "sindre",
@@ -5345,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Continue",
           "package": "sindre",
@@ -5358,6 +5808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Control",
           "package": "sindre",
@@ -5367,6 +5818,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Control",
           "package": "sindre",
@@ -5381,6 +5833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the control key, using X11\n key names (for example \u003ccode\u003eBackSpace\u003c/code\u003e or\n \u003ccode\u003eReturn\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "CtrlKey",
           "package": "sindre",
@@ -5391,6 +5844,7 @@
         "index": {
           "description": "Name of the control key using X11 key names for example BackSpace or Return",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "CtrlKey",
           "package": "sindre",
@@ -5404,6 +5858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Dict",
           "package": "sindre",
@@ -5413,6 +5868,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Dict",
           "package": "sindre",
@@ -5426,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Divided",
           "package": "sindre",
@@ -5435,6 +5892,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Divided",
           "package": "sindre",
@@ -5448,6 +5906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Do",
           "package": "sindre",
@@ -5457,6 +5916,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Do",
           "normalized": "Do[P Stmt](P Expr)",
@@ -5472,6 +5932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Equal",
           "package": "sindre",
@@ -5481,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Equal",
           "package": "sindre",
@@ -5495,6 +5957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExactly this many pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Exact",
           "package": "sindre",
@@ -5505,6 +5968,7 @@
         "index": {
           "description": "Exactly this many pixels",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Exact",
           "package": "sindre",
@@ -5518,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Exit",
           "package": "sindre",
@@ -5527,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Exit",
           "package": "sindre",
@@ -5540,6 +6006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Expr",
           "package": "sindre",
@@ -5549,6 +6016,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Expr",
           "package": "sindre",
@@ -5562,6 +6030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "FieldOf",
           "package": "sindre",
@@ -5571,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "FieldOf",
           "package": "sindre",
@@ -5585,6 +6055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eFieldSrc obj f\u003c/code\u003e designates that the source of\n the event is the property \u003ccode\u003ef\u003c/code\u003e of \u003ccode\u003eobj\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "FieldSrc",
           "package": "sindre",
@@ -5595,6 +6066,7 @@
         "index": {
           "description": "FieldSrc obj designates that the source of the event is the property of obj",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "FieldSrc",
           "package": "sindre",
@@ -5608,6 +6080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Focus",
           "package": "sindre",
@@ -5617,6 +6090,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Focus",
           "package": "sindre",
@@ -5630,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "For",
           "package": "sindre",
@@ -5639,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "For",
           "normalized": "For(P Expr)(P Expr)(P Expr)[P Stmt]",
@@ -5654,6 +6130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Funcall",
           "package": "sindre",
@@ -5663,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Funcall",
           "normalized": "Funcall Identifier[P Expr]",
@@ -5678,6 +6156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Function",
           "package": "sindre",
@@ -5687,6 +6166,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Function",
           "normalized": "Function[Identifier][P Stmt]",
@@ -5702,6 +6182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "GUI",
           "package": "sindre",
@@ -5711,6 +6192,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "GUI",
           "package": "sindre",
@@ -5725,6 +6207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor \u003ccode\u003eGenericSource cn k fk\u003c/code\u003e, the source must be\n of class \u003ccode\u003ecn\u003c/code\u003e.  If \u003ccode\u003efk\u003c/code\u003e is \u003ccode\u003eJust fk'\u003c/code\u003e, the source\n must also be the field named \u003ccode\u003efk'\u003c/code\u003e.  The variable\n named \u003ccode\u003ek\u003c/code\u003e should be bound to the actual object if\n this pattern matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "GenericSource",
           "package": "sindre",
@@ -5735,6 +6218,7 @@
         "index": {
           "description": "For GenericSource cn fk the source must be of class cn If fk is Just fk the source must also be the field named fk The variable named should be bound to the actual object if this pattern matches",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "GenericSource",
           "package": "sindre",
@@ -5748,6 +6232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Hyper",
           "package": "sindre",
@@ -5757,6 +6242,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Hyper",
           "package": "sindre",
@@ -5770,6 +6256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "If",
           "package": "sindre",
@@ -5779,6 +6266,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "If",
           "normalized": "If(P Expr)[P Stmt][P Stmt]",
@@ -5794,6 +6282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "KeyPress",
           "package": "sindre",
@@ -5803,6 +6292,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "KeyPress",
           "package": "sindre",
@@ -5816,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "LessEql",
           "package": "sindre",
@@ -5825,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "LessEql",
           "package": "sindre",
@@ -5838,6 +6330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "LessThan",
           "package": "sindre",
@@ -5847,6 +6340,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "LessThan",
           "package": "sindre",
@@ -5860,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Literal",
           "package": "sindre",
@@ -5869,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Literal",
           "package": "sindre",
@@ -5882,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Lookup",
           "package": "sindre",
@@ -5891,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Lookup",
           "package": "sindre",
@@ -5905,6 +6403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt most this many pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Max",
           "package": "sindre",
@@ -5915,6 +6414,7 @@
         "index": {
           "description": "At most this many pixels",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Max",
           "package": "sindre",
@@ -5928,6 +6428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Meta",
           "package": "sindre",
@@ -5937,6 +6438,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Meta",
           "package": "sindre",
@@ -5950,6 +6452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Methcall",
           "package": "sindre",
@@ -5959,6 +6462,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Methcall",
           "normalized": "Methcall(P Expr)Identifier[P Expr]",
@@ -5975,6 +6479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt minimum this many pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Min",
           "package": "sindre",
@@ -5985,6 +6490,7 @@
         "index": {
           "description": "At minimum this many pixels",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Min",
           "package": "sindre",
@@ -5998,6 +6504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Minus",
           "package": "sindre",
@@ -6007,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Minus",
           "package": "sindre",
@@ -6020,6 +6528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Modulo",
           "package": "sindre",
@@ -6029,6 +6538,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Modulo",
           "package": "sindre",
@@ -6042,6 +6552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "NamedEvent",
           "package": "sindre",
@@ -6051,6 +6562,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "NamedEvent",
           "package": "sindre",
@@ -6065,6 +6577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor \u003ccode\u003eNamedSource k fk\u003c/code\u003e, the source must be the\n object named \u003ccode\u003ek\u003c/code\u003e.  If \u003ccode\u003efk\u003c/code\u003e is \u003ccode\u003eJust fk'\u003c/code\u003e, the source\n must also be the field named \u003ccode\u003efk'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "NamedSource",
           "package": "sindre",
@@ -6075,6 +6588,7 @@
         "index": {
           "description": "For NamedSource fk the source must be the object named If fk is Just fk the source must also be the field named fk",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "NamedSource",
           "package": "sindre",
@@ -6088,6 +6602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Next",
           "package": "sindre",
@@ -6097,6 +6612,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Next",
           "package": "sindre",
@@ -6110,6 +6626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Not",
           "package": "sindre",
@@ -6119,6 +6636,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Not",
           "package": "sindre",
@@ -6132,6 +6650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Number",
           "package": "sindre",
@@ -6141,6 +6660,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Number",
           "package": "sindre",
@@ -6155,6 +6675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe source is the given object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "ObjectSrc",
           "package": "sindre",
@@ -6165,6 +6686,7 @@
         "index": {
           "description": "The source is the given object",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "ObjectSrc",
           "package": "sindre",
@@ -6179,6 +6701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch if either pattern\n matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "OrPattern",
           "package": "sindre",
@@ -6189,6 +6712,7 @@
         "index": {
           "description": "Match if either pattern matches",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "OrPattern",
           "package": "sindre",
@@ -6202,6 +6726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "P",
           "package": "sindre",
@@ -6211,6 +6736,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "P",
           "package": "sindre",
@@ -6223,6 +6749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Plus",
           "package": "sindre",
@@ -6232,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Plus",
           "package": "sindre",
@@ -6245,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "PostDec",
           "package": "sindre",
@@ -6254,6 +6783,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "PostDec",
           "package": "sindre",
@@ -6267,6 +6797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "PostInc",
           "package": "sindre",
@@ -6276,6 +6807,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "PostInc",
           "package": "sindre",
@@ -6289,6 +6821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Print",
           "package": "sindre",
@@ -6298,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Print",
           "normalized": "Print[P Expr]",
@@ -6313,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Program",
           "package": "sindre",
@@ -6322,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Program",
           "package": "sindre",
@@ -6335,6 +6871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "RaisedTo",
           "package": "sindre",
@@ -6344,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "RaisedTo",
           "package": "sindre",
@@ -6357,6 +6895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Rectangle",
           "package": "sindre",
@@ -6366,6 +6905,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Rectangle",
           "package": "sindre",
@@ -6379,6 +6919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Reference",
           "package": "sindre",
@@ -6388,6 +6929,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Reference",
           "package": "sindre",
@@ -6401,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Return",
           "package": "sindre",
@@ -6410,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Return",
           "package": "sindre",
@@ -6423,6 +6967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Shift",
           "package": "sindre",
@@ -6432,6 +6977,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Shift",
           "package": "sindre",
@@ -6446,6 +6992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSourcedPattern src ev vars\u003c/code\u003e matches if \u003ccode\u003esrc\u003c/code\u003e\n matches the event source (see \u003ccode\u003e\u003ca\u003eSourcePat\u003c/a\u003e\u003c/code\u003e) an \u003ccode\u003eev\u003c/code\u003e\n matches the event name.  \u003ccode\u003evars\u003c/code\u003e should be bound to\n the values in the payload of the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "SourcedPattern",
           "package": "sindre",
@@ -6456,6 +7003,7 @@
         "index": {
           "description": "SourcedPattern src ev vars matches if src matches the event source see SourcePat an ev matches the event name vars should be bound to the values in the payload of the event",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "SourcedPattern",
           "package": "sindre",
@@ -6470,6 +7018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute these statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "StmtAction",
           "package": "sindre",
@@ -6480,6 +7029,7 @@
         "index": {
           "description": "Execute these statements",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "StmtAction",
           "normalized": "StmtAction[P Stmt]",
@@ -6495,6 +7045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "StringV",
           "package": "sindre",
@@ -6504,6 +7055,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "StringV",
           "package": "sindre",
@@ -6517,6 +7069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Super",
           "package": "sindre",
@@ -6526,6 +7079,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Super",
           "package": "sindre",
@@ -6539,6 +7093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Times",
           "package": "sindre",
@@ -6548,6 +7103,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Times",
           "package": "sindre",
@@ -6562,6 +7118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs many or as few pixels as necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Unlimited",
           "package": "sindre",
@@ -6572,6 +7129,7 @@
         "index": {
           "description": "As many or as few pixels as necessary",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Unlimited",
           "package": "sindre",
@@ -6585,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "Var",
           "package": "sindre",
@@ -6594,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "Var",
           "package": "sindre",
@@ -6607,6 +7167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "While",
           "package": "sindre",
@@ -6616,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "While",
           "normalized": "While(P Expr)[P Stmt]",
@@ -6632,6 +7194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eadjustRect (walign, halign) bigrect smallrect\u003c/code\u003e returns a\n rectangle with the same dimensions as \u003ccode\u003esmallrect\u003c/code\u003e aligned within\n \u003ccode\u003ebigrect\u003c/code\u003e in both dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "adjustRect",
           "package": "sindre",
@@ -6642,6 +7205,7 @@
         "index": {
           "description": "adjustRect walign halign bigrect smallrect returns rectangle with the same dimensions as smallrect aligned within bigrect in both dimensions",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "adjustRect",
           "normalized": "(Align,Align)-\u003eRectangle-\u003eRectangle-\u003eRectangle",
@@ -6658,6 +7222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ealign a lower x upper\u003c/code\u003e, where \u003ccode\u003elower\u003c=upper\u003c/code\u003e, aligns a\n subinterval of length \u003ccode\u003ex\u003c/code\u003e in the interval \u003ccode\u003elower\u003c/code\u003e to \u003ccode\u003eupper\u003c/code\u003e,\n returning the coordinate at which the aligned subinterval starts.\n For example,\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ealign AlignCenter 2 4 10\n\u003c/code\u003e\u003c/strong\u003e4\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ealign AlignNeg 2 4 10\n\u003c/code\u003e\u003c/strong\u003e2\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ealign AlignPos 2 4 10\n\u003c/code\u003e\u003c/strong\u003e6\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "align",
           "package": "sindre",
@@ -6668,6 +7233,7 @@
         "index": {
           "description": "align lower upper where lower upper aligns subinterval of length in the interval lower to upper returning the coordinate at which the aligned subinterval starts For example align AlignCenter align AlignNeg align AlignPos",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "align",
           "normalized": "Align-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -6683,6 +7249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex \u003ccode\u003e\u003ca\u003eat\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e gives a value containing \u003ccode\u003ex\u003c/code\u003e, but with the same source\n position as \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "at",
           "package": "sindre",
@@ -6693,6 +7260,7 @@
         "index": {
           "description": "at gives value containing but with the same source position as",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "at",
           "normalized": "a-\u003eP b-\u003eP a",
@@ -6708,6 +7276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003econstrainNeed need constraints\u003c/code\u003e reduces the space requirement\n given by \u003ccode\u003eneed\u003c/code\u003e in order to fulfill \u003ccode\u003econstraints\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "constrainNeed",
           "package": "sindre",
@@ -6718,6 +7287,7 @@
         "index": {
           "description": "constrainNeed need constraints reduces the space requirement given by need in order to fulfill constraints",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "constrainNeed",
           "normalized": "SpaceNeed-\u003eConstraints-\u003eSpaceNeed",
@@ -6734,6 +7304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "eventName",
           "package": "sindre",
@@ -6744,6 +7315,7 @@
         "index": {
           "description": "The name of the event",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "eventName",
           "package": "sindre",
@@ -6758,6 +7330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere it's from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "eventSource",
           "package": "sindre",
@@ -6768,6 +7341,7 @@
         "index": {
           "description": "Where it from",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "eventSource",
           "package": "sindre",
@@ -6782,6 +7356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe payload of the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "eventValue",
           "package": "sindre",
@@ -6792,6 +7367,7 @@
         "index": {
           "description": "The payload of the event",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "eventValue",
           "normalized": "[Value]",
@@ -6808,6 +7384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonical false value, see \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCanonical true value, see \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "falsity",
           "package": "sindre",
@@ -6818,6 +7395,7 @@
         "index": {
           "description": "Canonical false value see true Canonical true value see true",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "falsity",
           "package": "sindre",
@@ -6831,6 +7409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efitRect rect need\u003c/code\u003e yields a rectangle as large as possible, but\n no larger than \u003ccode\u003erect\u003c/code\u003e, that tries to fulfill the constraints\n \u003ccode\u003eneed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "fitRect",
           "package": "sindre",
@@ -6841,6 +7420,7 @@
         "index": {
           "description": "fitRect rect need yields rectangle as large as possible but no larger than rect that tries to fulfill the constraints need",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "fitRect",
           "normalized": "Rectangle-\u003eSpaceNeed-\u003eRectangle",
@@ -6857,6 +7437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default position when no other is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "nowhere",
           "package": "sindre",
@@ -6867,6 +7448,7 @@
         "index": {
           "description": "default position when no other is available",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "nowhere",
           "package": "sindre",
@@ -6879,6 +7461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "patternEvent",
           "package": "sindre",
@@ -6888,6 +7471,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "patternEvent",
           "package": "sindre",
@@ -6901,6 +7485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "patternSource",
           "package": "sindre",
@@ -6910,6 +7495,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "patternSource",
           "package": "sindre",
@@ -6923,6 +7509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "patternVars",
           "package": "sindre",
@@ -6932,6 +7519,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "patternVars",
           "normalized": "[Identifier]",
@@ -6948,6 +7536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrettyprint a source position in a human-readable form.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eposition (\"foobar.sindre\", 5, 15)\n\u003c/code\u003e\u003c/strong\u003e\"foobar.sindre:5:15: \"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "position",
           "package": "sindre",
@@ -6958,6 +7547,7 @@
         "index": {
           "description": "Prettyprint source position in human-readable form position foobar.sindre foobar.sindre",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "position",
           "normalized": "SourcePos-\u003eString",
@@ -6972,6 +7562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "programActions",
           "package": "sindre",
@@ -6981,6 +7572,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "programActions",
           "normalized": "[P(Pattern,Action)]",
@@ -6997,6 +7589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contents of the \u003ccode\u003eBEGIN\u003c/code\u003e block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "programBegin",
           "package": "sindre",
@@ -7007,6 +7600,7 @@
         "index": {
           "description": "The contents of the BEGIN block",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "programBegin",
           "normalized": "[P Stmt]",
@@ -7022,6 +7616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "programFunctions",
           "package": "sindre",
@@ -7031,6 +7626,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "programFunctions",
           "normalized": "[P(Identifier,Function)]",
@@ -7046,6 +7642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "programGUI",
           "package": "sindre",
@@ -7055,6 +7652,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "programGUI",
           "normalized": "(Maybe(P Expr),GUI)",
@@ -7070,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "programGlobals",
           "package": "sindre",
@@ -7079,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "programGlobals",
           "normalized": "[P(Identifier,P Expr)]",
@@ -7094,6 +7694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "programOptions",
           "package": "sindre",
@@ -7103,6 +7704,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "programOptions",
           "normalized": "[P(Identifier,(SindreOption,Maybe Value))]",
@@ -7118,6 +7720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "rectHeight",
           "package": "sindre",
@@ -7127,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "rectHeight",
           "package": "sindre",
@@ -7141,6 +7745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip the x and y coordinates and width and height of a rectangle,\n in a sense rotating it ninety degrees.  Note that \u003ccode\u003erectTranspose\n . rectTranspose = id\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "rectTranspose",
           "package": "sindre",
@@ -7151,6 +7756,7 @@
         "index": {
           "description": "Flip the and coordinates and width and height of rectangle in sense rotating it ninety degrees Note that rectTranspose rectTranspose id",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "rectTranspose",
           "normalized": "Rectangle-\u003eRectangle",
@@ -7166,6 +7772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "rectWidth",
           "package": "sindre",
@@ -7175,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "rectWidth",
           "package": "sindre",
@@ -7188,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "rectX",
           "package": "sindre",
@@ -7197,6 +7806,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "rectX",
           "package": "sindre",
@@ -7209,6 +7819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "rectY",
           "package": "sindre",
@@ -7218,6 +7829,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "rectY",
           "package": "sindre",
@@ -7230,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "sourcePos",
           "package": "sindre",
@@ -7239,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "sourcePos",
           "package": "sindre",
@@ -7253,6 +7867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esplitHoriz rect dims\u003c/code\u003e splits \u003ccode\u003erect\u003c/code\u003e horizontally into a number\n of non-overlapping equal-width rectangles stacked on top of each\n other.  \u003ccode\u003edims\u003c/code\u003e is a list of height requirements that the function\n will attempt to fulfill as best it is able.  The union of the list\n of returned rectangles will always be equal to \u003ccode\u003erect\u003c/code\u003e.  No\n rectangle will ever have negative dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "splitHoriz",
           "package": "sindre",
@@ -7263,6 +7878,7 @@
         "index": {
           "description": "splitHoriz rect dims splits rect horizontally into number of non-overlapping equal-width rectangles stacked on top of each other dims is list of height requirements that the function will attempt to fulfill as best it is able The union of the list of returned rectangles will always be equal to rect No rectangle will ever have negative dimensions",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "splitHoriz",
           "normalized": "Rectangle-\u003e[DimNeed]-\u003e[Rectangle]",
@@ -7279,6 +7895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003esplitHoriz\u003c/code\u003e, but splits vertically instead of horizontally,\n so the rectangles will be next to each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "splitVert",
           "package": "sindre",
@@ -7289,6 +7906,7 @@
         "index": {
           "description": "As splitHoriz but splits vertically instead of horizontally so the rectangles will be next to each other",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "splitVert",
           "normalized": "Rectangle-\u003e[DimNeed]-\u003e[Rectangle]",
@@ -7305,6 +7923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estring s\u003c/code\u003e returns a Sindre string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "string",
           "package": "sindre",
@@ -7315,6 +7934,7 @@
         "index": {
           "description": "string returns Sindre string",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "string",
           "normalized": "String-\u003eValue",
@@ -7330,6 +7950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etrue v\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003ev\u003c/code\u003e is interpreted as a true value in\n Sindre, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "true",
           "package": "sindre",
@@ -7340,6 +7961,7 @@
         "index": {
           "description": "true returns True if is interpreted as true value in Sindre False otherwise",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "true",
           "normalized": "Value-\u003eBool",
@@ -7355,6 +7977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonical false value, see \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCanonical true value, see \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "truth",
           "package": "sindre",
@@ -7365,6 +7988,7 @@
         "index": {
           "description": "Canonical false value see true Canonical true value see true",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "truth",
           "package": "sindre",
@@ -7377,6 +8001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "unP",
           "package": "sindre",
@@ -7386,6 +8011,7 @@
         },
         "index": {
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "unP",
           "package": "sindre",
@@ -7399,6 +8025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments passed to the widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "widgetArgs",
           "package": "sindre",
@@ -7409,6 +8036,7 @@
         "index": {
           "description": "The arguments passed to the widget",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "widgetArgs",
           "package": "sindre",
@@ -7423,6 +8051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChildren of the widget, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "widgetChildren",
           "package": "sindre",
@@ -7433,6 +8062,7 @@
         "index": {
           "description": "Children of the widget if any",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "widgetChildren",
           "normalized": "[(Maybe(P Expr),GUI)]",
@@ -7449,6 +8079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of the widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "widgetClass",
           "package": "sindre",
@@ -7459,6 +8090,7 @@
         "index": {
           "description": "Class of the widget",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "widgetClass",
           "package": "sindre",
@@ -7473,6 +8105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the widget, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Sindre",
           "name": "widgetName",
           "package": "sindre",
@@ -7483,6 +8116,7 @@
         "index": {
           "description": "Name of the widget if any",
           "hierarchy": "Sindre Sindre",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Sindre",
           "name": "widgetName",
           "package": "sindre",
@@ -7497,6 +8131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious utility bits and pieces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "Util",
           "package": "sindre",
@@ -7506,6 +8141,7 @@
         "index": {
           "description": "Various utility bits and pieces",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "Util",
           "package": "sindre",
@@ -7520,6 +8156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBound a value by minimum and maximum values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "clamp",
           "package": "sindre",
@@ -7530,6 +8167,7 @@
         "index": {
           "description": "Bound value by minimum and maximum values",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "clamp",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -7545,6 +8183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for 'map toLower'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "downcase",
           "package": "sindre",
@@ -7555,6 +8194,7 @@
         "index": {
           "description": "Short-hand for map toLower",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "downcase",
           "normalized": "String-\u003eString",
@@ -7570,6 +8210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for 'liftIO . hPutStrLn stderr'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "err",
           "package": "sindre",
@@ -7580,6 +8221,7 @@
         "index": {
           "description": "Short-hand for liftIO hPutStrLn stderr",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "err",
           "normalized": "String-\u003ea()",
@@ -7595,6 +8237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for \u003ccode\u003e\u003ca\u003efromIntegral\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "fi",
           "package": "sindre",
@@ -7605,6 +8248,7 @@
         "index": {
           "description": "Short-hand for fromIntegral",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "fi",
           "normalized": "a-\u003eb",
@@ -7620,6 +8264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion scheme as in http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eHSV_color_space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "hsv2rgb",
           "package": "sindre",
@@ -7630,6 +8275,7 @@
         "index": {
           "description": "Conversion scheme as in http en.wikipedia.org wiki HSV color space",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "hsv2rgb",
           "normalized": "(Integer,a,a)-\u003e(a,a,a)",
@@ -7645,6 +8291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003ewhen\u003c/code\u003e, but with two branches.  A lifted \u003ccode\u003eif\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "ifM",
           "package": "sindre",
@@ -7655,6 +8302,7 @@
         "index": {
           "description": "Like when but with two branches lifted if",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "ifM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -7670,6 +8318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "io",
           "package": "sindre",
@@ -7680,6 +8329,7 @@
         "index": {
           "description": "Short-hand for liftIO",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -7695,6 +8345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapAccumLM\u003c/a\u003e\u003c/code\u003e function behaves like a combination of \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003efoldlM\u003c/code\u003e; it applies a monadic function to each element of a list,\n passing an accumulating parameter from left to right, and returning\n a final value of this accumulator together with the new list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "mapAccumLM",
           "package": "sindre",
@@ -7705,6 +8356,7 @@
         "index": {
           "description": "The mapAccumLM function behaves like combination of mapM and foldlM it applies monadic function to each element of list passing an accumulating parameter from left to right and returning final value of this accumulator together with the new list",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "mapAccumLM",
           "normalized": "(a-\u003eb-\u003ec(a,d))-\u003ea-\u003e[b]-\u003ec(a,[d])",
@@ -7721,6 +8373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut double quotes around the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "quote",
           "package": "sindre",
@@ -7731,6 +8384,7 @@
         "index": {
           "description": "Put double quotes around the given string",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "quote",
           "normalized": "String-\u003eString",
@@ -7746,6 +8400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for 'map toUpper'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "upcase",
           "package": "sindre",
@@ -7756,6 +8411,7 @@
         "index": {
           "description": "Short-hand for map toUpper",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "upcase",
           "normalized": "String-\u003eString",
@@ -7771,6 +8427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend and append first argument to second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Util",
           "name": "wrap",
           "package": "sindre",
@@ -7781,6 +8438,7 @@
         "index": {
           "description": "Prepend and append first argument to second argument",
           "hierarchy": "Sindre Util",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Util",
           "name": "wrap",
           "normalized": "String-\u003eString-\u003eString",
@@ -7796,6 +8454,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePortable Sindre gadgets and helper functions that can be used by\n any backend.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "Widgets",
           "package": "sindre",
@@ -7805,6 +8464,7 @@
         "index": {
           "description": "Portable Sindre gadgets and helper functions that can be used by any backend",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "Widgets",
           "package": "sindre",
@@ -7819,6 +8479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of using \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e to apply a user-provided pattern to a\n string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "Match",
           "package": "sindre",
@@ -7828,6 +8489,7 @@
         "index": {
           "description": "The result of using match to apply user-provided pattern to string",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "Match",
           "package": "sindre",
@@ -7841,6 +8503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "ExactMatch",
           "package": "sindre",
@@ -7850,6 +8513,7 @@
         },
         "index": {
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "ExactMatch",
           "package": "sindre",
@@ -7863,6 +8527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "InfixMatch",
           "package": "sindre",
@@ -7872,6 +8537,7 @@
         },
         "index": {
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "InfixMatch",
           "package": "sindre",
@@ -7885,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "PrefixMatch",
           "package": "sindre",
@@ -7894,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "PrefixMatch",
           "package": "sindre",
@@ -7908,6 +8576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echangeField field m\u003c/code\u003e applies \u003ccode\u003em\u003c/code\u003e to the current value of the\n field \u003ccode\u003efield\u003c/code\u003e, updates \u003ccode\u003efield\u003c/code\u003e with the value returned by \u003ccode\u003em\u003c/code\u003e, and\n returns the new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "changeField",
           "package": "sindre",
@@ -7918,6 +8587,7 @@
         "index": {
           "description": "changeField field applies to the current value of the field field updates field with the value returned by and returns the new value",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "changeField",
           "normalized": "FieldDesc a b c-\u003e(c-\u003eObjectM a b c)-\u003eObjectM a b c",
@@ -7934,6 +8604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003echangeField\u003c/a\u003e\u003c/code\u003e, but without a return value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "changeField_",
           "package": "sindre",
@@ -7944,6 +8615,7 @@
         "index": {
           "description": "Like changeField but without return value",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "changeField_",
           "normalized": "FieldDesc a b c-\u003e(c-\u003eObjectM a b c)-\u003eObjectM a b()",
@@ -7960,6 +8632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echangingFields fields m\u003c/code\u003e evaluates \u003ccode\u003em\u003c/code\u003e, then emits field change\n events for those fields whose names are in \u003ccode\u003efields\u003c/code\u003e that changed\n while evaluating \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "changingField",
           "package": "sindre",
@@ -7970,6 +8643,7 @@
         "index": {
           "description": "changingFields fields evaluates then emits field change events for those fields whose names are in fields that changed while evaluating",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "changingField",
           "normalized": "FieldDesc a b c-\u003eObjectM a b d-\u003eObjectM a b d",
@@ -7986,6 +8660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efilterMatches f pat l\u003c/code\u003e returns only those elements of \u003ccode\u003el\u003c/code\u003e that\n match \u003ccode\u003epat\u003c/code\u003e, using \u003ccode\u003ef\u003c/code\u003e to convert each element to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  The\n result will be ordered equivalently to \u003ccode\u003el\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "filterMatches",
           "package": "sindre",
@@ -7996,6 +8671,7 @@
         "index": {
           "description": "filterMatches pat returns only those elements of that match pat using to convert each element to Text The result will be ordered equivalently to",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "filterMatches",
           "normalized": "(a-\u003eText)-\u003eText-\u003e[a]-\u003e[a]",
@@ -8012,6 +8688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ematch pat s\u003c/code\u003e applies the pattern \u003ccode\u003epat\u003c/code\u003e to \u003ccode\u003es\u003c/code\u003e and returns a\n \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e describing the kind of match if any, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n otherwise.  The pattern is interpreted as tokens delimited by\n whitespace, and each token must be present somewhere in \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "match",
           "package": "sindre",
@@ -8022,6 +8699,7 @@
         "index": {
           "description": "match pat applies the pattern pat to and returns Match describing the kind of match if any or Nothing otherwise The pattern is interpreted as tokens delimited by whitespace and each token must be present somewhere in",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "match",
           "normalized": "Text-\u003eText-\u003eMaybe Match",
@@ -8037,6 +8715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget that arranges its children in a horizontal row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "mkHorizontally",
           "package": "sindre",
@@ -8047,6 +8726,7 @@
         "index": {
           "description": "widget that arranges its children in horizontal row",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "mkHorizontally",
           "package": "sindre",
@@ -8061,6 +8741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget that arranges its children in a vertical column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "mkVertically",
           "package": "sindre",
@@ -8071,6 +8752,7 @@
         "index": {
           "description": "widget that arranges its children in vertical column",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "mkVertically",
           "package": "sindre",
@@ -8085,6 +8767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esortMatches f pat l\u003c/code\u003e returns only those elements of \u003ccode\u003el\u003c/code\u003e that\n match \u003ccode\u003epat\u003c/code\u003e, using \u003ccode\u003ef\u003c/code\u003e to convert each element to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  The\n result will be reordered such that exact matches come first, then\n prefixes, then infixes, although original order will be maintained\n within these three groups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.Widgets",
           "name": "sortMatches",
           "package": "sindre",
@@ -8095,6 +8778,7 @@
         "index": {
           "description": "sortMatches pat returns only those elements of that match pat using to convert each element to Text The result will be reordered such that exact matches come first then prefixes then infixes although original order will be maintained within these three groups",
           "hierarchy": "Sindre Widgets",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.Widgets",
           "name": "sortMatches",
           "normalized": "(a-\u003eText)-\u003eText-\u003e[a]-\u003e[a]",
@@ -8111,6 +8795,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eX11 backend for Sindre.  For internationalised keyboard input to\n work, make sure the locale is correctly set.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "X11",
           "package": "sindre",
@@ -8120,6 +8805,7 @@
         "index": {
           "description": "X11 backend for Sindre For internationalised keyboard input to work make sure the locale is correctly set",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "X11",
           "package": "sindre",
@@ -8132,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "Drawer",
           "package": "sindre",
@@ -8140,6 +8827,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "Drawer",
           "package": "sindre",
@@ -8154,6 +8842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe read-only configuration of the X11 backend, created during\n backend initialisation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "SindreX11Conf",
           "package": "sindre",
@@ -8163,6 +8852,7 @@
         "index": {
           "description": "The read-only configuration of the X11 backend created during backend initialisation",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "SindreX11Conf",
           "package": "sindre",
@@ -8177,6 +8867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSindre backend using Xlib.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "SindreX11M",
           "package": "sindre",
@@ -8186,6 +8877,7 @@
         "index": {
           "description": "Sindre backend using Xlib",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "SindreX11M",
           "package": "sindre",
@@ -8200,6 +8892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions regarding visual appearance of widgets (colors and\n fonts).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "VisualOpts",
           "package": "sindre",
@@ -8209,6 +8902,7 @@
         "index": {
           "description": "Options regarding visual appearance of widgets colors and fonts",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "VisualOpts",
           "package": "sindre",
@@ -8222,6 +8916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "X11Field",
           "package": "sindre",
@@ -8230,6 +8925,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "X11Field",
           "package": "sindre",
@@ -8243,6 +8939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "Drawer",
           "package": "sindre",
@@ -8252,6 +8949,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "Drawer",
           "package": "sindre",
@@ -8265,6 +8963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "VisualOpts",
           "package": "sindre",
@@ -8274,6 +8973,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "VisualOpts",
           "package": "sindre",
@@ -8287,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "allocColor",
           "package": "sindre",
@@ -8296,6 +8997,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "allocColor",
           "normalized": "XftMgr-\u003eString-\u003ea Color",
@@ -8311,6 +9013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "background",
           "package": "sindre",
@@ -8320,6 +9023,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "background",
           "package": "sindre",
@@ -8332,6 +9036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "bg",
           "package": "sindre",
@@ -8341,6 +9046,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "bg",
           "package": "sindre",
@@ -8353,6 +9059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "drawText",
           "package": "sindre",
@@ -8362,6 +9069,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "drawText",
           "normalized": "Color-\u003eFont-\u003ea-\u003eb-\u003ec-\u003eString-\u003eSindreX M()",
@@ -8377,6 +9085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "drawerBgColor",
           "package": "sindre",
@@ -8386,6 +9095,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "drawerBgColor",
           "package": "sindre",
@@ -8399,6 +9109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "drawerFgColor",
           "package": "sindre",
@@ -8408,6 +9119,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "drawerFgColor",
           "package": "sindre",
@@ -8421,6 +9133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "drawerFont",
           "package": "sindre",
@@ -8430,6 +9143,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "drawerFont",
           "package": "sindre",
@@ -8444,6 +9158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function that makes it easier it write consistent widgets\n in the X11 backend.  The widget is automatically filled with its\n (nonfocus) background color.  You are supposed to use this in the\n \u003ccode\u003edrawI\u003c/code\u003e method of a \u003ccode\u003eWidget\u003c/code\u003e instance definition.  An example:\n\u003c/p\u003e\u003cpre\u003e\n drawI = drawing myWidgetWin myWidgetVisual $ r fg bg ffg fbg -\u003e do\n   fg drawString 0 5 \"foreground\"\n   bg drawString 0 15 \"background\"\n   ffg drawString 0 25 \"focus foreground\"\n   fbg drawString 0 35 \"focus background\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "drawing",
           "package": "sindre",
@@ -8453,6 +9168,7 @@
         "index": {
           "description": "Helper function that makes it easier it write consistent widgets in the X11 backend The widget is automatically filled with its nonfocus background color You are supposed to use this in the drawI method of Widget instance definition An example drawI drawing myWidgetWin myWidgetVisual fg bg ffg fbg do fg drawString foreground bg drawString background ffg drawString focus foreground fbg drawString focus background",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "drawing",
           "normalized": "VisualOpts-\u003e(Rectangle-\u003eDrawer-\u003eDrawer-\u003eObjectM a SindreX M[Rectangle])-\u003eRectangle-\u003eObjectM a SindreX M SpaceUse",
@@ -8468,6 +9184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003edrawing\u003c/code\u003e that assumes the entire rectangle is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "drawing'",
           "package": "sindre",
@@ -8478,6 +9195,7 @@
         "index": {
           "description": "Variant of drawing that assumes the entire rectangle is used",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "drawing'",
           "normalized": "VisualOpts-\u003e(Rectangle-\u003eDrawer-\u003eDrawer-\u003eObjectM a SindreX M())-\u003eRectangle-\u003eObjectM a SindreX M SpaceUse",
@@ -8492,6 +9210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "fg",
           "package": "sindre",
@@ -8501,6 +9220,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "fg",
           "package": "sindre",
@@ -8513,6 +9233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "focusBackground",
           "package": "sindre",
@@ -8522,6 +9243,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "focusBackground",
           "package": "sindre",
@@ -8535,6 +9257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "focusForeground",
           "package": "sindre",
@@ -8544,6 +9267,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "focusForeground",
           "package": "sindre",
@@ -8557,6 +9281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "font",
           "package": "sindre",
@@ -8566,6 +9291,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "font",
           "package": "sindre",
@@ -8578,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "foreground",
           "package": "sindre",
@@ -8587,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "foreground",
           "package": "sindre",
@@ -8600,6 +9328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA blank widget, showing only background color, that can use as\n much or as little room as necessary.  Useful for constraining the\n layout of other widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "mkBlank",
           "package": "sindre",
@@ -8610,6 +9339,7 @@
         "index": {
           "description": "blank widget showing only background color that can use as much or as little room as necessary Useful for constraining the layout of other widgets",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "mkBlank",
           "package": "sindre",
@@ -8624,6 +9354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple dial using an arc segment to indicate the value compared\n to the max value.  Accepts \u003ccode\u003emax\u003c/code\u003e and \u003ccode\u003evalue\u003c/code\u003e parameters (both\n integers, default values 12 and 0), and a single field: \u003ccode\u003evalue\u003c/code\u003e.\n \u003ccode\u003e\u003ca\u003en\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ep\u003c/a\u003e\u003c/code\u003e are used to increase and decrease the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "mkDial",
           "package": "sindre",
@@ -8634,6 +9365,7 @@
         "index": {
           "description": "simple dial using an arc segment to indicate the value compared to the max value Accepts max and value parameters both integers default values and and single field value and are used to increase and decrease the value",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "mkDial",
           "package": "sindre",
@@ -8648,6 +9380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal dmenu-style list containing a list of elements, one of\n which is the \"selected\" element.  If the parameter \u003ccode\u003ei\u003c/code\u003e is given a\n true value, element matching will be case-insensitive.  The\n following methods are supported:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003einsert(string)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Split \u003ccode\u003estring\u003c/code\u003e into lines and add each line as\n an element.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eclear()\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Delete all elements.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efilter(string)\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Only display those elements that contain \u003ccode\u003estring\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003enext()\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Move selection right.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eprev()\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Move selection left.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efirst()\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Move to leftmost element.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003elast()\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Move to rightmost element.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe field \u003ccode\u003eselected\u003c/code\u003e is the selected element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "mkHList",
           "package": "sindre",
@@ -8658,6 +9391,7 @@
         "index": {
           "description": "Horizontal dmenu-style list containing list of elements one of which is the selected element If the parameter is given true value element matching will be case-insensitive The following methods are supported insert string Split string into lines and add each line as an element clear Delete all elements filter string Only display those elements that contain string next Move selection right prev Move selection left first Move to leftmost element last Move to rightmost element The field selected is the selected element",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "mkHList",
           "package": "sindre",
@@ -8672,6 +9406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn input stream object wrapping the given \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.  Input is\n purely event-driven and line-oriented: the event \u003ccode\u003elines\u003c/code\u003e is sent\n (roughly) for each sequence of lines that can be read without\n blocking, with the payload being a single string value containing\n the lines read since the last time the event was sent.  When end of\n file is reached, the \u003ccode\u003eeof\u003c/code\u003e event (no payload) is sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "mkInStream",
           "package": "sindre",
@@ -8682,6 +9417,7 @@
         "index": {
           "description": "An input stream object wrapping the given Handle Input is purely event-driven and line-oriented the event lines is sent roughly for each sequence of lines that can be read without blocking with the payload being single string value containing the lines read since the last time the event was sent When end of file is reached the eof event no payload is sent",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "mkInStream",
           "normalized": "Handle-\u003eObjectRef-\u003eSindreX M(NewObject SindreX M)",
@@ -8698,6 +9434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel displaying the text contained in the field \u003ccode\u003elabel\u003c/code\u003e, which\n is also accepted as a widget parameter (defaults to the empty\n string).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "mkLabel",
           "package": "sindre",
@@ -8708,6 +9445,7 @@
         "index": {
           "description": "Label displaying the text contained in the field label which is also accepted as widget parameter defaults to the empty string",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "mkLabel",
           "package": "sindre",
@@ -8722,6 +9460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-line text field, whose single field \u003ccode\u003evalue\u003c/code\u003e (also a\n parameter, defaults to the empty string) is the contents of the\n editing buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "mkTextField",
           "package": "sindre",
@@ -8732,6 +9471,7 @@
         "index": {
           "description": "Single-line text field whose single field value also parameter defaults to the empty string is the contents of the editing buffer",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "mkTextField",
           "package": "sindre",
@@ -8746,6 +9486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003emkHList\u003c/a\u003e\u003c/code\u003e, except the list is vertical.  The parameter \u003ccode\u003elines\u003c/code\u003e\n (default value 10) is the number of lines shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "mkVList",
           "package": "sindre",
@@ -8756,6 +9497,7 @@
         "index": {
           "description": "As mkHList except the list is vertical The parameter lines default value is the number of lines shown",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "mkVList",
           "package": "sindre",
@@ -8769,6 +9511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "setBgColor",
           "package": "sindre",
@@ -8778,6 +9521,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "setBgColor",
           "normalized": "Drawer-\u003eColor-\u003eIO Drawer",
@@ -8793,6 +9537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "setFgColor",
           "package": "sindre",
@@ -8802,6 +9547,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "setFgColor",
           "normalized": "Drawer-\u003eColor-\u003eIO Drawer",
@@ -8818,6 +9564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute Sindre in the X11 backend as an ordinary client visible\n to the window manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "sindreX11",
           "package": "sindre",
@@ -8827,6 +9574,7 @@
         "index": {
           "description": "Execute Sindre in the X11 backend as an ordinary client visible to the window manager",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "sindreX11",
           "normalized": "String-\u003eSindreX M ExitCode-\u003eIO ExitCode",
@@ -8842,6 +9590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute Sindre in the X11 backend as a dock/statusbar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "sindreX11dock",
           "package": "sindre",
@@ -8851,6 +9600,7 @@
         "index": {
           "description": "Execute Sindre in the X11 backend as dock statusbar",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "sindreX11dock",
           "normalized": "String-\u003eSindreX M ExitCode-\u003eIO ExitCode",
@@ -8866,6 +9616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute Sindre in the X11 backend, grabbing control of the entire\n display and staying on top.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "sindreX11override",
           "package": "sindre",
@@ -8875,6 +9626,7 @@
         "index": {
           "description": "Execute Sindre in the X11 backend grabbing control of the entire display and staying on top",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "sindreX11override",
           "normalized": "String-\u003eSindreX M ExitCode-\u003eIO ExitCode",
@@ -8889,6 +9641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "textExtents",
           "package": "sindre",
@@ -8898,6 +9651,7 @@
         },
         "index": {
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "textExtents",
           "normalized": "Font-\u003eString-\u003eSindreX M(Int,Int)",
@@ -8914,6 +9668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead visual options from either widget parameters or the X\n resources database using \u003ccode\u003e\u003ca\u003exopt\u003c/a\u003e\u003c/code\u003e, or a combination.  The following\n graphical components are read:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eForeground color\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e From \u003ccode\u003efg\u003c/code\u003e parameter or \u003ccode\u003eforeground\u003c/code\u003e X\n  property.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eBackground color\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e From \u003ccode\u003ebg\u003c/code\u003e parameter or \u003ccode\u003ebackground\u003c/code\u003e X\n  property.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eFocus foreground color\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e From \u003ccode\u003effg\u003c/code\u003e parameter or\n  \u003ccode\u003efocusForeground\u003c/code\u003e X property.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eFocus background color\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e From \u003ccode\u003efbg\u003c/code\u003e parameter or\n  \u003ccode\u003efocusBackground\u003c/code\u003e X property.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "visualOpts",
           "package": "sindre",
@@ -8924,6 +9679,7 @@
         "index": {
           "description": "Read visual options from either widget parameters or the resources database using xopt or combination The following graphical components are read Foreground color From fg parameter or foreground property Background color From bg parameter or background property Focus foreground color From ffg parameter or focusForeground property Focus background color From fbg parameter or focusBackground property",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "visualOpts",
           "normalized": "WidgetRef-\u003eConstructorM SindreX M VisualOpts",
@@ -8940,6 +9696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a lookup in the X resources database for a given\n property.  The class used is \u003ccode\u003e\u003cem\u003eSindre\u003c/em\u003e.\u003cem\u003eclass\u003c/em\u003e.\u003cem\u003eproperty\u003c/em\u003e\u003c/code\u003e and the\n name is \u003ccode\u003e\u003cem\u003eprogname\u003c/em\u003e.\u003cem\u003ename\u003c/em\u003e.\u003cem\u003eproperty\u003c/em\u003e\u003c/code\u003e, where \u003cem\u003eprogname\u003c/em\u003e is the\n value of \u003ccode\u003e\u003ca\u003egetProgName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:45 UTC 2014",
           "module": "Sindre.X11",
           "name": "xopt",
           "package": "sindre",
@@ -8949,6 +9706,7 @@
         "index": {
           "description": "Performs lookup in the resources database for given property The class used is Sindre class property and the name is progname name property where progname is the value of getProgName",
           "hierarchy": "Sindre X11",
+          "indexed": "2014-03-11T20:03:45",
           "module": "Sindre.X11",
           "name": "xopt",
           "normalized": "Maybe String-\u003eString-\u003eString-\u003eConstructorM SindreX M a",

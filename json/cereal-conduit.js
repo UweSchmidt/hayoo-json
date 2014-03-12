@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cereal-conduit"
+        "phrase": "cereal-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "Internal",
           "package": "cereal-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Cereal Internal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "Internal",
           "package": "cereal-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat should we do if the Get fails?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "ConduitErrorHandler",
           "package": "cereal-conduit",
@@ -49,6 +52,7 @@
         "index": {
           "description": "What should we do if the Get fails",
           "hierarchy": "Data Conduit Cereal Internal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "ConduitErrorHandler",
           "package": "cereal-conduit",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "SinkErrorHandler",
           "package": "cereal-conduit",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Cereal Internal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "SinkErrorHandler",
           "package": "cereal-conduit",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat should we do if the stream is done before the Get is done?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "SinkTerminationHandler",
           "package": "cereal-conduit",
@@ -93,6 +100,7 @@
         "index": {
           "description": "What should we do if the stream is done before the Get is done",
           "hierarchy": "Data Conduit Cereal Internal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "SinkTerminationHandler",
           "package": "cereal-conduit",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a conduitGet with the specified \u003ccode\u003eErrorHandler\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "mkConduitGet",
           "package": "cereal-conduit",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Construct conduitGet with the specified ErrorHandler",
           "hierarchy": "Data Conduit Cereal Internal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "mkConduitGet",
           "normalized": "ConduitErrorHandler a b-\u003eGet b-\u003eConduit ByteString a b",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a sinkGet with the specified \u003ccode\u003eErrorHandler\u003c/code\u003e and \u003ccode\u003eTerminationHandler\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "mkSinkGet",
           "package": "cereal-conduit",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Construct sinkGet with the specified ErrorHandler and TerminationHandler",
           "hierarchy": "Data Conduit Cereal Internal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal.Internal",
           "name": "mkSinkGet",
           "normalized": "SinkErrorHandler a b-\u003eSinkTerminationHandler a b-\u003eGet b-\u003eConsumer ByteString a b",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTurn a \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003eSink\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003eSource\u003c/code\u003e\n These functions are built upno the Data.Conduit.Cereal.Internal functions with default\n implementations of \u003ccode\u003eErrorHandler\u003c/code\u003e and \u003ccode\u003eTerminationHandler\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe default \u003ccode\u003eErrorHandler\u003c/code\u003e and \u003ccode\u003eTerminationHandler\u003c/code\u003e both throw a \u003ccode\u003e\u003ca\u003eGetException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal",
           "name": "Cereal",
           "package": "cereal-conduit",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Turn Get into Sink and Put into Source These functions are built upno the Data.Conduit.Cereal.Internal functions with default implementations of ErrorHandler and TerminationHandler The default ErrorHandler and TerminationHandler both throw GetException",
           "hierarchy": "Data Conduit Cereal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal",
           "name": "Cereal",
           "package": "cereal-conduit",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal",
           "name": "GetException",
           "package": "cereal-conduit",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Cereal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal",
           "name": "GetException",
           "package": "cereal-conduit",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e repeatedly on the input stream, producing an output stream of whatever the \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal",
           "name": "conduitGet",
           "package": "cereal-conduit",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Run Get repeatedly on the input stream producing an output stream of whatever the Get outputs",
           "hierarchy": "Data Conduit Cereal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal",
           "name": "conduitGet",
           "normalized": "Get a-\u003eConduit ByteString b a",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003ePutter\u003c/a\u003e\u003c/code\u003e repeatedly on the input stream, producing a concatenated \u003ccode\u003eByteString\u003c/code\u003e stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal",
           "name": "conduitPut",
           "package": "cereal-conduit",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Run Putter repeatedly on the input stream producing concatenated ByteString stream",
           "hierarchy": "Data Conduit Cereal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal",
           "name": "conduitPut",
           "normalized": "Putter a-\u003eConduit a b ByteString",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003eSink\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e will be streamed bytes until it returns \u003ccode\u003e\u003ca\u003eDone\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e succeed it will return the data read and unconsumed part of the input stream.\n If the \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e fails due to deserialization error or early termination of the input stream it raise an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal",
           "name": "sinkGet",
           "package": "cereal-conduit",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Convert Get into Sink The Get will be streamed bytes until it returns Done or Fail If Get succeed it will return the data read and unconsumed part of the input stream If the Get fails due to deserialization error or early termination of the input stream it raise an error",
           "hierarchy": "Data Conduit Cereal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal",
           "name": "sinkGet",
           "normalized": "Get a-\u003eConsumer ByteString b a",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003eSource\u003c/code\u003e. Runs in constant memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:54 UTC 2014",
           "module": "Data.Conduit.Cereal",
           "name": "sourcePut",
           "package": "cereal-conduit",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Convert Put into Source Runs in constant memory",
           "hierarchy": "Data Conduit Cereal",
+          "indexed": "2014-03-11T17:30:54",
           "module": "Data.Conduit.Cereal",
           "name": "sourcePut",
           "normalized": "Put-\u003eProducer a ByteString",

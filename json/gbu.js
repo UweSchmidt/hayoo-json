@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gbu"
+        "phrase": "gbu",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraph embedding algorithm is based on one of a graph planarity testing which \n   described in the book \"Graph Drawing. Algorithms for the Visualization of Graphs\".\n   Its authors are Giuseppe Di Battista, Peter Eades, Roberto Tamassia and Ioannis G. Tollis.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.Embedding",
           "name": "Embedding",
           "package": "gbu",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Graph embedding algorithm is based on one of graph planarity testing which described in the book Graph Drawing Algorithms for the Visualization of Graphs Its authors are Giuseppe Di Battista Peter Eades Roberto Tamassia and Ioannis Tollis",
           "hierarchy": "Data Graph Embedding",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.Embedding",
           "name": "Embedding",
           "package": "gbu",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eembedDiGraph\u003c/a\u003e\u003c/code\u003e function embeds a planar directed graph into a plane. The source graph \n must be biconnected if throw off edges' directions and also any two nodes v and w can have \n either edge (v,w) or (w,v) but not both.\n\u003c/p\u003e\u003cp\u003eEdge's label of an embedded graph consists of a pair integers. First element is a position \n of the edge in its source node and second one is a position of the edge in its destination node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.Embedding",
           "name": "embedDiGraph",
           "package": "gbu",
@@ -52,6 +55,7 @@
         "index": {
           "description": "The embedDiGraph function embeds planar directed graph into plane The source graph must be biconnected if throw off edges directions and also any two nodes and can have either edge or but not both Edge label of an embedded graph consists of pair integers First element is position of the edge in its source node and second one is position of the edge in its destination node",
           "hierarchy": "Data Graph Embedding",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.Embedding",
           "name": "embedDiGraph",
           "normalized": "Gr a b-\u003eGr a(Int,Int)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eembedGraph\u003c/a\u003e\u003c/code\u003e function embeds a planar biconnected undirected graph into a plane.  \n  Edge's label of an embedded graph is a position of the edge in its source node.\n\u003c/p\u003e\u003cp\u003eIn undirected graph each edge is presented a pair of directed edges. Therefore\n  it's enough each edge keeps only its position in the source node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.Embedding",
           "name": "embedGraph",
           "package": "gbu",
@@ -78,6 +83,7 @@
         "index": {
           "description": "The embedGraph function embeds planar biconnected undirected graph into plane Edge label of an embedded graph is position of the edge in its source node In undirected graph each edge is presented pair of directed edges Therefore it enough each edge keeps only its position in the source node",
           "hierarchy": "Data Graph Embedding",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.Embedding",
           "name": "embedGraph",
           "normalized": "Gr a b-\u003eGr a Int",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eadditional functions for the graph structure defined in fgl library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "InductivePlus",
           "package": "gbu",
@@ -103,6 +110,7 @@
         "index": {
           "description": "additional functions for the graph structure defined in fgl library",
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "InductivePlus",
           "package": "gbu",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eit finds and returns the path consiting of edges from first node to second one.\n If the path doesn't exist then the function returns the empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "findPaths",
           "package": "gbu",
@@ -127,6 +136,7 @@
         "index": {
           "description": "it finds and returns the path consiting of edges from first node to second one If the path doesn exist then the function returns the empty list",
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "findPaths",
           "normalized": "Node-\u003eNode-\u003eGr a b-\u003e[Path]",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe function version of setELabel for an undirected graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "getELabel",
           "package": "gbu",
@@ -153,6 +164,7 @@
         "index": {
           "description": "the function version of setELabel for an undirected graph",
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "getELabel",
           "normalized": "(Node,Node)-\u003eGr a b-\u003eb",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe function extracts a label of v node from the graph g\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "getVLabel",
           "package": "gbu",
@@ -179,6 +192,7 @@
         "index": {
           "description": "the function extracts label of node from the graph",
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "getVLabel",
           "normalized": "Node-\u003eGr a b-\u003ea",
@@ -194,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "isEdge",
           "package": "gbu",
@@ -203,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "isEdge",
           "normalized": "(Node,Node)-\u003eGr a b-\u003eBool",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe function merges two graphs. E.i. if first graph hasn't got vertex v \n   but second one has got it then the node is inserted into first graph with \n   same label. Edges are processed too.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "mergeTwoGraphs",
           "package": "gbu",
@@ -229,6 +246,7 @@
         "index": {
           "description": "the function merges two graphs E.i if first graph hasn got vertex but second one has got it then the node is inserted into first graph with same label Edges are processed too",
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "mergeTwoGraphs",
           "normalized": "Gr a b-\u003eGr a b-\u003eGr a b",
@@ -244,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "setELabel",
           "package": "gbu",
@@ -253,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "setELabel",
           "normalized": "(Node,Node,a)-\u003ea-\u003eGr b a-\u003eGr b a",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe function updates a label of v node in the graph g\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "setVLabel",
           "package": "gbu",
@@ -278,6 +299,7 @@
         "index": {
           "description": "the function updates label of node in the graph",
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "setVLabel",
           "normalized": "(Node,a)-\u003ea-\u003eGr a b-\u003eGr a b",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe function updates a label of v node in the graph g\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:11 UTC 2014",
           "module": "Data.Graph.InductivePlus",
           "name": "setVLabel'",
           "package": "gbu",
@@ -304,6 +327,7 @@
         "index": {
           "description": "the function updates label of node in the graph",
           "hierarchy": "Data Graph InductivePlus",
+          "indexed": "2014-03-11T18:14:11",
           "module": "Data.Graph.InductivePlus",
           "name": "setVLabel'",
           "normalized": "Node-\u003ea-\u003eGr a b-\u003eGr a b",

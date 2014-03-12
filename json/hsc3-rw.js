@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3-rw"
+        "phrase": "hsc3-rw",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "Parsec",
           "package": "hsc3-rw",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "Parsec",
           "package": "hsc3-rw",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "Binding",
           "package": "hsc3-rw",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "Binding",
           "package": "hsc3-rw",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "HP",
           "package": "hsc3-rw",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "HP",
           "package": "hsc3-rw",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "Name_Supply",
           "package": "hsc3-rw",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "Name_Supply",
           "package": "hsc3-rw",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "H",
           "package": "hsc3-rw",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "H",
           "package": "hsc3-rw",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "J",
           "package": "hsc3-rw",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "J",
           "package": "hsc3-rw",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "S",
           "package": "hsc3-rw",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "S",
           "package": "hsc3-rw",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "from_list1",
           "package": "hsc3-rw",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "from_list1",
           "normalized": "[HP]-\u003eHP",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplifying constructor (do not use \u003ccode\u003e\u003ca\u003eJ\u003c/a\u003e\u003c/code\u003e directly).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_cons",
           "package": "hsc3-rw",
@@ -199,6 +216,7 @@
         "index": {
           "description": "Simplifying constructor do not use directly",
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_cons",
           "normalized": "HP-\u003eHP-\u003eHP",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_do_next_binding",
           "package": "hsc3-rw",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_do_next_binding",
           "normalized": "Name_Supply-\u003eHP-\u003eMaybe(Name_Supply,Binding,HP)",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_find_next_binding",
           "package": "hsc3-rw",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_find_next_binding",
           "normalized": "Name_Supply-\u003eHP-\u003eMaybe(Name_Supply,Binding)",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_parse",
           "package": "hsc3-rw",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_parse",
           "normalized": "String-\u003eHP",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_parser",
           "package": "hsc3-rw",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_parser",
           "package": "hsc3-rw",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_print",
           "package": "hsc3-rw",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_print",
           "normalized": "HP-\u003eString",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_replace",
           "package": "hsc3-rw",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_replace",
           "normalized": "Binding-\u003eHP-\u003eHP",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_simplify",
           "package": "hsc3-rw",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "hp_simplify",
           "normalized": "HP-\u003eHP",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "next_nm",
           "package": "hsc3-rw",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Parsec",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Parsec",
           "name": "next_nm",
           "normalized": "Name_Supply-\u003e(String,Name_Supply)",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "Polyparse",
           "package": "hsc3-rw",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "Polyparse",
           "package": "hsc3-rw",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "Binding",
           "package": "hsc3-rw",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "Binding",
           "package": "hsc3-rw",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "HP",
           "package": "hsc3-rw",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "HP",
           "package": "hsc3-rw",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "HP_Char",
           "package": "hsc3-rw",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "HP_Char",
           "package": "hsc3-rw",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "HP_String",
           "package": "hsc3-rw",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "HP_String",
           "package": "hsc3-rw",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "Name_Supply",
           "package": "hsc3-rw",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "Name_Supply",
           "package": "hsc3-rw",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "ST",
           "package": "hsc3-rw",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "ST",
           "package": "hsc3-rw",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_hash_paren",
           "package": "hsc3-rw",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_hash_paren",
           "package": "hsc3-rw",
@@ -564,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly count parens in #().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_next",
           "package": "hsc3-rw",
@@ -574,6 +625,7 @@
         "index": {
           "description": "Only count parens in",
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_next",
           "normalized": "HP(Char,Maybe Int)",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_next_binding",
           "package": "hsc3-rw",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_next_binding",
           "normalized": "Name_Supply-\u003eHP_String-\u003eMaybe(Name_Supply,Binding,HP_String)",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_parse",
           "package": "hsc3-rw",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_parse",
           "normalized": "String-\u003eHP_String",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_print",
           "package": "hsc3-rw",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_print",
           "normalized": "HP_String-\u003eString",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_st",
           "package": "hsc3-rw",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "hp_st",
           "package": "hsc3-rw",
@@ -679,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft biased \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e variant.\n\u003c/p\u003e\u003cpre\u003e max_by last \"cat\" \"mouse\" == \"cat\"\n max_by last \"aa\" \"za\" == \"aa\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "max_by",
           "package": "hsc3-rw",
@@ -689,6 +750,7 @@
         "index": {
           "description": "Left biased max variant max by last cat mouse cat max by last aa za aa",
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "max_by",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003ea",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "replace_first",
           "package": "hsc3-rw",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "replace_first",
           "normalized": "a-\u003ea-\u003e[a]-\u003e[a]",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "safe_head",
           "package": "hsc3-rw",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "safe_head",
           "normalized": "[a]-\u003eMaybe a",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "un_hash_paren",
           "package": "hsc3-rw",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW HP Polyparse",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP.Polyparse",
           "name": "un_hash_paren",
           "normalized": "String-\u003eString",
@@ -773,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHash parentheses.  A simple minded haskell pre-processor that\n extends the haskell \u003cem\u003edo\u003c/em\u003e syntax by rewriting \u003ccode\u003e#\u003c/code\u003e parenthesised\n elements of a right hand side expression as monadic bindings.\n The basic pre-processor is \u003ccode\u003e\u003ca\u003ehp_rewrite\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "HP",
           "package": "hsc3-rw",
@@ -782,6 +851,7 @@
         "index": {
           "description": "Hash parentheses simple minded haskell pre-processor that extends the haskell do syntax by rewriting parenthesised elements of right hand side expression as monadic bindings The basic pre-processor is hp rewrite",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "HP",
           "package": "hsc3-rw",
@@ -796,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes \u003cem\u003es\u003c/em\u003e have a \u003cem\u003ehash parenthesis\u003c/em\u003e expression.\n\u003c/p\u003e\u003cpre\u003e has_hash_paren \"  a \u003c- f #(b) #(c)\" == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "has_hash_paren",
           "package": "hsc3-rw",
@@ -806,6 +877,7 @@
         "index": {
           "description": "Does have hash parenthesis expression has hash paren True",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "has_hash_paren",
           "normalized": "String-\u003eBool",
@@ -821,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess one line of \u003cem\u003ehash-parenthesis\u003c/em\u003e re-writes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_analyse",
           "package": "hsc3-rw",
@@ -831,6 +904,7 @@
         "index": {
           "description": "Process one line of hash-parenthesis re-writes",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_analyse",
           "normalized": "Name_Supply-\u003eString-\u003e(Name_Supply,([Binding],HP))",
@@ -846,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003ehp_analyse\u003c/a\u003e\u003c/code\u003e for examining intermediate state.\n\u003c/p\u003e\u003cpre\u003e let r = ([(\"_hp_0\",\"b\"),(\"_hp_1\",\"c (d e)\")],\"  a \u003c- f _hp_0 _hp_1\")\n in hp_analyse' hp_names \"  a \u003c- f #(b) #(c (d e))\" == r\n\u003c/pre\u003e\u003cpre\u003e let r = ([(\"_hp_0\",\"a\")],\"  return (f _hp_0)\")\n in hp_analyse' hp_names \"  return (f #(a))\" == r\n\u003c/pre\u003e\u003cpre\u003e let r = ([(\"_hp_0\",\"a\"),(\"_hp_1\",\"d e\"),(\"_hp_2\",\"c _hp_1 f\"),(\"_hp_3\",\"b _hp_2 g\")]\n         ,\"c \u003c- f (_hp_0,_hp_3) h\")\n in hp_analyse' hp_names \"c \u003c- f (#(a),#(b #(c #(d e) f) g)) h\" == r\n\u003c/pre\u003e\u003cpre\u003e let r = ([(\"_hp_0\",\"v w\")],\"  return (h (_hp_0 * 2))\")\n in hp_analyse' hp_names \"  return (h (#(v w) * 2))\" == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_analyse'",
           "package": "hsc3-rw",
@@ -856,6 +931,7 @@
         "index": {
           "description": "Variant of hp analyse for examining intermediate state let hp hp hp hp in hp analyse hp names let hp return hp in hp analyse hp names return let hp hp hp hp hp hp hp hp in hp analyse hp names let hp return hp in hp analyse hp names return",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_analyse'",
           "normalized": "Name_Supply-\u003eString-\u003e([Binding],String)",
@@ -871,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-construct \u003ccode\u003e\u003ca\u003ehp_analyse\u003c/a\u003e\u003c/code\u003e output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_build",
           "package": "hsc3-rw",
@@ -881,6 +958,7 @@
         "index": {
           "description": "Re-construct hp analyse output",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_build",
           "normalized": "([Binding],HP)-\u003e[String]",
@@ -896,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn indent of \u003cem\u003es\u003c/em\u003e if it \u003ccode\u003e\u003ca\u003ehas_hash_paren\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e hp_indent \"  a \u003c- f #(b) #(c)\" == Just 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_indent",
           "package": "hsc3-rw",
@@ -906,6 +985,7 @@
         "index": {
           "description": "Return indent of if it has hash paren hp indent Just",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_indent",
           "normalized": "String-\u003eMaybe Int",
@@ -921,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName supply for introduced variables.\n\u003c/p\u003e\u003cpre\u003e hp_names !! 9 == \"_hp_9\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_names",
           "package": "hsc3-rw",
@@ -931,6 +1012,7 @@
         "index": {
           "description": "Name supply for introduced variables hp names hp",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_names",
           "package": "hsc3-rw",
@@ -944,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote which lines are \u003cem\u003econtinued\u003c/em\u003e hash parenethsis lines.\n\u003c/p\u003e\u003cpre\u003e hp_non_inline [\"f = do\"\n               ,\"  a #(b)\"\n               ,\"    #(c)\"\n               ,\"    #(d)\"\n               ,\"  p #(q) #(r)\"] == [False,False,True,True,False]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_non_inline",
           "package": "hsc3-rw",
@@ -954,6 +1037,7 @@
         "index": {
           "description": "Note which lines are continued hash parenethsis lines hp non inline do False False True True False",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_non_inline",
           "normalized": "[String]-\u003e[Bool]",
@@ -969,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a line for \u003cem\u003ehash parentheses\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_process",
           "package": "hsc3-rw",
@@ -979,6 +1064,7 @@
         "index": {
           "description": "Process line for hash parentheses",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_process",
           "normalized": "Name_Supply-\u003eString-\u003e(Name_Supply,[String])",
@@ -994,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit inline \u003cem\u003edo\u003c/em\u003e line into separate lines.\n\u003c/p\u003e\u003cpre\u003e let r = [\"  let a = do \"\n         ,\"             f #(b) #(c)\"]\n in hp_remove_inline_do \"  let a = do f #(b) #(c)\" == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_remove_inline_do",
           "package": "hsc3-rw",
@@ -1004,6 +1091,7 @@
         "index": {
           "description": "Split inline do line into separate lines let let do in hp remove inline do let do",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_remove_inline_do",
           "normalized": "String-\u003e[String]",
@@ -1019,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003cem\u003ehash parenthesis\u003c/em\u003e rewriter.\n\u003c/p\u003e\u003cpre\u003e let {i = [\"main = do\"\n          ,\"  let a = f #(b) (#(c) * 2)\"\n          ,\"  d \u003c- e\"\n          ,\"  p \u003c- g #(q r)\"\n          ,\"         #(s #(t u))\"\n          ,\"  return (h (#(v w) * 2))\"]\n     ;r = [\"main = do\"\n          ,\"  _hp_0 \u003c- b\"\n          ,\"  _hp_1 \u003c- c\"\n          ,\"  let a = f _hp_0 (_hp_1 * 2)\"\n          ,\"  d \u003c- e\"\n          ,\"  _hp_2 \u003c- q r\"\n          ,\"  _hp_3 \u003c- t u\"\n          ,\"  _hp_4 \u003c- s _hp_3\"\n          ,\"  p \u003c- g _hp_2 _hp_4\"\n          ,\"  _hp_5 \u003c- v w\"\n          ,\"  return (h (_hp_5 * 2))\"]}\n in hp_rewrite i == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_rewrite",
           "package": "hsc3-rw",
@@ -1029,6 +1118,7 @@
         "index": {
           "description": "Run hash parenthesis rewriter let main do let return main do hp hp let hp hp hp hp hp hp hp hp hp return hp in hp rewrite",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_rewrite",
           "normalized": "[String]-\u003e[String]",
@@ -1044,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArguments as required by \u003ccode\u003eghc -F -pgmF\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_rewrite_ghcF",
           "package": "hsc3-rw",
@@ -1054,6 +1145,7 @@
         "index": {
           "description": "Arguments as required by ghc pgmF",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_rewrite_ghcF",
           "normalized": "IO()",
@@ -1069,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-layout to put broken \u003cem\u003ehash parenthesis\u003c/em\u003e lines onto one line.\n\u003c/p\u003e\u003cpre\u003e let r = [\"f = do\"\n         ,\"  a #(b) #(c) #(d)\"\n         ,\"  p #(q) #(r)\"]\n in hp_uncontinue [\"f = do\"\n                  ,\"  a #(b)\"\n                  ,\"    #(c)\"\n                  ,\"    #(d)\"\n                  ,\"  p #(q) #(r)\"] == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_uncontinue",
           "package": "hsc3-rw",
@@ -1079,6 +1172,7 @@
         "index": {
           "description": "Re-layout to put broken hash parenthesis lines onto one line let do in hp uncontinue do",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "hp_uncontinue",
           "normalized": "[String]-\u003e[String]",
@@ -1094,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn indentation of line.\n\u003c/p\u003e\u003cpre\u003e indent_of \"  a \u003c- b\" == \"  \"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "indent_of",
           "package": "hsc3-rw",
@@ -1104,6 +1199,7 @@
         "index": {
           "description": "Return indentation of line indent of",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "indent_of",
           "normalized": "String-\u003eString",
@@ -1119,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete indentation of line.\n\u003c/p\u003e\u003cpre\u003e remove_indent \"  a \u003c- b\"  == \"a \u003c- b\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "remove_indent",
           "package": "hsc3-rw",
@@ -1129,6 +1226,7 @@
         "index": {
           "description": "Delete indentation of line remove indent",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "remove_indent",
           "normalized": "String-\u003eString",
@@ -1144,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003esplitOn\u003c/code\u003e requiring one match only.\n\u003c/p\u003e\u003cpre\u003e split_on_1 \" \u003c- \" \"  a \u003c- f #(b) #(c)\" == Just (\"  a\",\"f #(b) #(c)\")\n split_on_1 \" do \" \"  let a = do f #(b) #(c)\" == Just (\"  let a =\",\"f #(b) #(c)\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.HP",
           "name": "split_on_1",
           "package": "hsc3-rw",
@@ -1154,6 +1253,7 @@
         "index": {
           "description": "Variant of splitOn requiring one match only split on Just split on do let do Just let",
           "hierarchy": "Sound SC3 RW HP",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.HP",
           "name": "split_on_1",
           "normalized": "[a]-\u003e[a]-\u003eMaybe([a],[a])",
@@ -1169,6 +1269,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRewrite character ifdentifiers for \u003ccode\u003eUGen.ID\u003c/code\u003e graphs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "ID",
           "package": "hsc3-rw",
@@ -1178,6 +1279,7 @@
         "index": {
           "description": "Rewrite character ifdentifiers for UGen.ID graphs",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "ID",
           "package": "hsc3-rw",
@@ -1192,6 +1294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndefinite sequence of character identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "Name_Supply",
           "package": "hsc3-rw",
@@ -1201,6 +1304,7 @@
         "index": {
           "description": "Indefinite sequence of character identifiers",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "Name_Supply",
           "package": "hsc3-rw",
@@ -1215,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable of greek letters (upper-case,lower-case,name).\n\u003c/p\u003e\u003cpre\u003e length greek_letters == 24\n (['&#913;' .. '&#929;'] ++ ['&#931;' .. '&#937;']) == map (\\(c,_,_) -\u003e c) greek_letters\n (['&#945;' .. '&#961;'] ++ ['&#963;' .. '&#969;']) == map (\\(_,c,_) -\u003e c) greek_letters\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "greek_letters",
           "package": "hsc3-rw",
@@ -1225,6 +1330,7 @@
         "index": {
           "description": "Table of greek letters upper-case lower-case name length greek letters map greek letters map greek letters",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "greek_letters",
           "normalized": "[(Char,Char,String)]",
@@ -1240,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egreek_letters\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eName_Supply\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e take 4 greek_letters_nm == ['&#945;' .. '&#948;']\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "greek_letters_nm",
           "package": "hsc3-rw",
@@ -1250,6 +1357,7 @@
         "index": {
           "description": "greek letters as Name Supply take greek letters nm",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "greek_letters_nm",
           "package": "hsc3-rw",
@@ -1263,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erewrite\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003erepeat\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e&#945;\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e hsc3_id_clear \"'&#945;','.','&#946;'\" == \"'&#945;','.','&#945;'\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "hsc3_id_clear",
           "package": "hsc3-rw",
@@ -1273,6 +1382,7 @@
         "index": {
           "description": "rewrite repeat hsc3 id clear",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "hsc3_id_clear",
           "normalized": "String-\u003eString",
@@ -1288,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erewrite\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egreek_letters_nm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e hsc3_id_rewrite \"'a','.','a'\" == \"'&#945;','.','&#946;'\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "hsc3_id_rewrite",
           "package": "hsc3-rw",
@@ -1298,6 +1409,7 @@
         "index": {
           "description": "rewrite greek letters nm hsc3 id rewrite",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "hsc3_id_rewrite",
           "normalized": "String-\u003eString",
@@ -1313,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile based (inplace) variant of \u003ccode\u003e\u003ca\u003ehsc3_id_rewrite\u003c/a\u003e\u003c/code\u003e.  Copies file\n to \u003ccode\u003e~\u003c/code\u003e suffix and replaces initial file.\n\u003c/p\u003e\u003cpre\u003e let fn = \"/home/rohan/sw/hsc3-graphs/gr/resonant-dust.hs\"\n in hsc3_id_rewrite_file fn\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "hsc3_id_rewrite_inplace",
           "package": "hsc3-rw",
@@ -1323,6 +1436,7 @@
         "index": {
           "description": "File based inplace variant of hsc3 id rewrite Copies file to suffix and replaces initial file let fn home rohan sw hsc3-graphs gr resonant-dust.hs in hsc3 id rewrite file fn",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "hsc3_id_rewrite_inplace",
           "normalized": "FilePath-\u003eIO()",
@@ -1338,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile based (haskell pre-processor) variant of \u003ccode\u003e\u003ca\u003ehsc3_id_rewrite\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "hsc3_id_rewrite_preprocessor",
           "package": "hsc3-rw",
@@ -1348,6 +1463,7 @@
         "index": {
           "description": "File based haskell pre-processor variant of hsc3 id rewrite",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "hsc3_id_rewrite_preprocessor",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -1363,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite each haskell \u003cem\u003eletter\u003c/em\u003e character literal at string \u003cem\u003el\u003c/em\u003e\n with values from the character supply \u003cem\u003es\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e rewrite ['&#945;'..] \"'a',' ',foldl','a'\" == \"'&#945;',' ',foldl','&#946;'\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.ID",
           "name": "rewrite",
           "package": "hsc3-rw",
@@ -1373,6 +1490,7 @@
         "index": {
           "description": "Rewrite each haskell letter character literal at string with values from the character supply rewrite foldl foldl",
           "hierarchy": "Sound SC3 RW ID",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.ID",
           "name": "rewrite",
           "normalized": "Name_Supply-\u003eString-\u003eString",
@@ -1388,6 +1506,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRewrite expressions and modules attaching tags to numeric literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "Tag",
           "package": "hsc3-rw",
@@ -1397,6 +1516,7 @@
         "index": {
           "description": "Rewrite expressions and modules attaching tags to numeric literals",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "Tag",
           "package": "hsc3-rw",
@@ -1410,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "Parser",
           "package": "hsc3-rw",
@@ -1418,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "Parser",
           "package": "hsc3-rw",
@@ -1431,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "RW",
           "package": "hsc3-rw",
@@ -1439,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "RW",
           "package": "hsc3-rw",
@@ -1452,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "RW_Opt",
           "package": "hsc3-rw",
@@ -1460,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "RW_Opt",
           "package": "hsc3-rw",
@@ -1473,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "RW_st",
           "package": "hsc3-rw",
@@ -1481,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "RW_st",
           "package": "hsc3-rw",
@@ -1494,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "Tr",
           "package": "hsc3-rw",
@@ -1502,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "Tr",
           "package": "hsc3-rw",
@@ -1515,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "Tr_m",
           "package": "hsc3-rw",
@@ -1523,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "Tr_m",
           "package": "hsc3-rw",
@@ -1537,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e and apply \u003ccode\u003e\u003ca\u003eRW\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "apply_rw",
           "package": "hsc3-rw",
@@ -1547,6 +1680,7 @@
         "index": {
           "description": "Parse String using Parser and apply RW",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "apply_rw",
           "normalized": "RW_Opt-\u003eParser a-\u003eRW a b c-\u003eTr_m b",
@@ -1561,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "apply_rw_pure",
           "package": "hsc3-rw",
@@ -1570,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "apply_rw_pure",
           "normalized": "RW_Opt-\u003eParser a-\u003e(a-\u003eb)-\u003eTr",
@@ -1584,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "apply_rw_st",
           "package": "hsc3-rw",
@@ -1593,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "apply_rw_st",
           "normalized": "RW_Opt-\u003eParser a-\u003eRW_st a b-\u003eTr",
@@ -1608,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e at numeric literals, else \u003cem\u003eg\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "at_num_lit",
           "package": "hsc3-rw",
@@ -1618,6 +1757,7 @@
         "index": {
           "description": "Apply at numeric literals else",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "at_num_lit",
           "normalized": "(Exp-\u003ea)-\u003e(Exp-\u003ea)-\u003eExp-\u003ea",
@@ -1633,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e at \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e \u003cem\u003ee\u003c/em\u003e if it is tagged, else \u003cem\u003eg\u003c/em\u003e.  If the tag is\n within a \u003ccode\u003e\u003ca\u003eParen\u003c/a\u003e\u003c/code\u003e then it is discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "at_tagged",
           "package": "hsc3-rw",
@@ -1643,6 +1784,7 @@
         "index": {
           "description": "Apply at Exp if it is tagged else If the tag is within Paren then it is discarded",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "at_tagged",
           "normalized": "(String-\u003eExp-\u003eExp)-\u003e(Exp-\u003eExp)-\u003eExp-\u003eExp",
@@ -1657,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_html",
           "package": "hsc3-rw",
@@ -1666,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_html",
           "normalized": "String-\u003eString",
@@ -1681,6 +1825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric literal at \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e else \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_num_lit",
           "package": "hsc3-rw",
@@ -1691,6 +1836,7 @@
         "index": {
           "description": "Numeric literal at Exp else Nothing",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_num_lit",
           "normalized": "Exp-\u003eMaybe Literal",
@@ -1706,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let r = \"sinOsc AR (tag \\\"c1\\\" 440) (tag \\\"c2\\\" 0) * tag \\\"c3\\\" 0.1\"\n in exp_rw \"sinOsc AR 440 0 * 0.1\" == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_rw",
           "package": "hsc3-rw",
@@ -1716,6 +1863,7 @@
         "index": {
           "description": "Rewrite Exp let sinOsc AR tag c1 tag c2 tag c3 in exp rw sinOsc AR",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_rw",
           "normalized": "String-\u003eString",
@@ -1731,6 +1879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform re-written form to \u003ccode\u003eHTML\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let e = \"sinOsc AR 440 0 * 0.1\"\n in exp_rw_html (exp_rw e)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_rw_html",
           "package": "hsc3-rw",
@@ -1741,6 +1890,7 @@
         "index": {
           "description": "Transform re-written form to HTML let sinOsc AR in exp rw html exp rw",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_rw_html",
           "normalized": "String-\u003eString",
@@ -1756,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003eexp_rw\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_un_rw",
           "package": "hsc3-rw",
@@ -1766,6 +1917,7 @@
         "index": {
           "description": "Inverse of exp rw",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "exp_un_rw",
           "normalized": "String-\u003eString",
@@ -1780,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "html_framework",
           "package": "hsc3-rw",
@@ -1789,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "html_framework",
           "normalized": "String-\u003eString-\u003eString",
@@ -1804,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003ccode\u003e\u003ca\u003eFrac\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_frac_lit",
           "package": "hsc3-rw",
@@ -1814,6 +1969,7 @@
         "index": {
           "description": "Make Frac Lit",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_frac_lit",
           "normalized": "a-\u003eExp",
@@ -1829,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_int_lit",
           "package": "hsc3-rw",
@@ -1839,6 +1996,7 @@
         "index": {
           "description": "Make Int Lit",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_int_lit",
           "normalized": "a-\u003eExp",
@@ -1853,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_span_id",
           "package": "hsc3-rw",
@@ -1862,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_span_id",
           "normalized": "String-\u003e[Exp]-\u003eExp",
@@ -1877,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e mk_str_lit \"c1\" == Lit (String \"c1\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_str_lit",
           "package": "hsc3-rw",
@@ -1887,6 +2048,7 @@
         "index": {
           "description": "Make String Lit mk str lit c1 Lit String c1",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_str_lit",
           "normalized": "String-\u003eExp",
@@ -1902,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e mk_var \"tag\" == Var (UnQual (Ident \"tag\"))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_var",
           "package": "hsc3-rw",
@@ -1912,6 +2075,7 @@
         "index": {
           "description": "Make Var Exp for String mk var tag Var UnQual Ident tag",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "mk_var",
           "normalized": "String-\u003eExp",
@@ -1926,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "module_html",
           "package": "hsc3-rw",
@@ -1935,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "module_html",
           "normalized": "String-\u003eString",
@@ -1950,6 +2116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite \u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let m = [\"import Sound.SC3\"\n         ,\"o = sinOsc AR (midiCPS 65.00) 0.00\"\n         ,\"a = dbAmp (-12.00)\"\n         ,\"main = audition (out 0.00 (o * a))\"]\n in module_rw (unlines m)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "module_rw",
           "package": "hsc3-rw",
@@ -1960,6 +2127,7 @@
         "index": {
           "description": "Rewrite Module let import Sound.SC3 sinOsc AR midiCPS dbAmp main audition out in module rw unlines",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "module_rw",
           "normalized": "String-\u003eString",
@@ -1975,6 +2143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003eexp_rw_html\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let m = \"o = sinOsc AR 440 0 * 0.1\\nmain = audition (out 0 o)\"\n in module_rw_html (module_rw m)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "module_rw_html",
           "package": "hsc3-rw",
@@ -1985,6 +2154,7 @@
         "index": {
           "description": "Module variant of exp rw html let sinOsc AR nmain audition out in module rw html module rw",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "module_rw_html",
           "normalized": "String-\u003eString",
@@ -2000,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty source location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "nil_src_loc",
           "package": "hsc3-rw",
@@ -2010,6 +2181,7 @@
         "index": {
           "description": "Empty source location",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "nil_src_loc",
           "package": "hsc3-rw",
@@ -2023,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRW_Opt\u003c/a\u003e\u003c/code\u003e for html.  The \u003cem\u003espan\u003c/em\u003e code generates long lines...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "rw_html_opt",
           "package": "hsc3-rw",
@@ -2033,6 +2206,7 @@
         "index": {
           "description": "RW Opt for html The span code generates long lines",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "rw_html_opt",
           "package": "hsc3-rw",
@@ -2045,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "span_exp_auto",
           "package": "hsc3-rw",
@@ -2054,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "span_exp_auto",
           "normalized": "Exp-\u003eState Int Exp",
@@ -2069,6 +2245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eat_num_lit\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003etag_exp_auto\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "span_num_lit",
           "package": "hsc3-rw",
@@ -2079,6 +2256,7 @@
         "index": {
           "description": "at num lit of tag exp auto",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "span_num_lit",
           "normalized": "Exp-\u003eState Int Exp",
@@ -2094,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag an \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "tag_exp",
           "package": "hsc3-rw",
@@ -2104,6 +2283,7 @@
         "index": {
           "description": "Tag an Exp with String",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "tag_exp",
           "normalized": "String-\u003eExp-\u003eExp",
@@ -2119,6 +2299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003etag_exp\u003c/a\u003e\u003c/code\u003e that derives the the tag name using a\n \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "tag_exp_auto",
           "package": "hsc3-rw",
@@ -2129,6 +2310,7 @@
         "index": {
           "description": "Variant of tag exp that derives the the tag name using State counter",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "tag_exp_auto",
           "normalized": "Exp-\u003eState Int Exp",
@@ -2144,6 +2326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eat_num_lit\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003etag_exp_auto\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "tag_num_lit",
           "package": "hsc3-rw",
@@ -2154,6 +2337,7 @@
         "index": {
           "description": "at num lit of tag exp auto",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "tag_num_lit",
           "normalized": "Exp-\u003eState Int Exp",
@@ -2168,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "tag_to_span",
           "package": "hsc3-rw",
@@ -2177,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "tag_to_span",
           "normalized": "Exp-\u003eExp",
@@ -2192,6 +2378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003etag_exp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let z = mk_int_lit (0::Integer)\n in untag_exp (Paren (tag_exp \"c1\" z)) == z\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:30 UTC 2014",
           "module": "Sound.SC3.RW.Tag",
           "name": "untag_exp",
           "package": "hsc3-rw",
@@ -2202,6 +2389,7 @@
         "index": {
           "description": "Inverse of tag exp let mk int lit Integer in untag exp Paren tag exp c1",
           "hierarchy": "Sound SC3 RW Tag",
+          "indexed": "2014-03-11T18:47:30",
           "module": "Sound.SC3.RW.Tag",
           "name": "untag_exp",
           "normalized": "Exp-\u003eExp",

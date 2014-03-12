@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsql-postgresql"
+        "phrase": "hsql-postgresql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Core",
           "name": "Core",
           "package": "hsql-postgresql",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Core",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Core",
           "name": "Core",
           "package": "hsql-postgresql",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Core",
           "name": "execute",
           "package": "hsql-postgresql",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Core",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Core",
           "name": "execute",
           "normalized": "PGconn-\u003eString-\u003eIO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Core",
           "name": "fetch",
           "package": "hsql-postgresql",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Core",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Core",
           "name": "fetch",
           "normalized": "MVar Int-\u003eInt-\u003eIO Bool",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Core",
           "name": "getColValue",
           "package": "hsql-postgresql",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Core",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Core",
           "name": "getColValue",
           "normalized": "PGresult-\u003eMVar Int-\u003eInt-\u003eInt-\u003eColDef-\u003e(ColDef-\u003eCString-\u003eInt-\u003eIO a)-\u003eIO a",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert string by newCString, if provided, else return of nullPtr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Core",
           "name": "newCStringElseNullPtr",
           "package": "hsql-postgresql",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Convert string by newCString if provided else return of nullPtr",
           "hierarchy": "DB HSQL PG Core",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Core",
           "name": "newCStringElseNullPtr",
           "normalized": "Maybe String-\u003eIO CString",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Core",
           "name": "query",
           "package": "hsql-postgresql",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Core",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Core",
           "name": "query",
           "normalized": "Connection-\u003ePGconn-\u003eString-\u003eIO Statement",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the functions of the the foreign code environment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "Functions",
           "package": "hsql-postgresql",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Interface to the functions of the the foreign code environment",
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "Functions",
           "package": "hsql-postgresql",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "PGconn",
           "package": "hsql-postgresql",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "PGconn",
           "package": "hsql-postgresql",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "PGresult",
           "package": "hsql-postgresql",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "PGresult",
           "package": "hsql-postgresql",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pgFName",
           "package": "hsql-postgresql",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pgFName",
           "normalized": "PGresult-\u003eInt-\u003eIO CString",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pgNFields",
           "package": "hsql-postgresql",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pgNFields",
           "normalized": "PGresult-\u003eIO Int",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqErrorMessage",
           "package": "hsql-postgresql",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqErrorMessage",
           "normalized": "PGconn-\u003eIO CString",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqExec",
           "package": "hsql-postgresql",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqExec",
           "normalized": "PGconn-\u003eCString-\u003eIO PGresult",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqFMod",
           "package": "hsql-postgresql",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqFMod",
           "normalized": "PGresult-\u003eInt-\u003eIO Int",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqFNumber",
           "package": "hsql-postgresql",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqFNumber",
           "normalized": "PGresult-\u003eCString-\u003eIO Int",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqFType",
           "package": "hsql-postgresql",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqFType",
           "normalized": "PGresult-\u003eInt-\u003eIO Oid",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqFinish",
           "package": "hsql-postgresql",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqFinish",
           "normalized": "PGconn-\u003eIO()",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqGetisnull",
           "package": "hsql-postgresql",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqGetisnull",
           "normalized": "PGresult-\u003eInt-\u003eInt-\u003eIO Int",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqGetvalue",
           "package": "hsql-postgresql",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqGetvalue",
           "normalized": "PGresult-\u003eInt-\u003eInt-\u003eIO CString",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqNTuples",
           "package": "hsql-postgresql",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqNTuples",
           "normalized": "PGresult-\u003eIO Int",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqResStatus",
           "package": "hsql-postgresql",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqResStatus",
           "normalized": "ExecStatusType-\u003eIO CString",
@@ -511,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqResultErrorMessage",
           "package": "hsql-postgresql",
@@ -520,6 +563,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqResultErrorMessage",
           "normalized": "PGresult-\u003eIO CString",
@@ -535,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqResultStatus",
           "package": "hsql-postgresql",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqResultStatus",
           "normalized": "PGresult-\u003eIO ExecStatusType",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRefer to PostgreSQL manual, chapter 30, `libpq - C library' \n    (e.g. http:\u003cem/\u003ewww.postgresql.org\u003cem\u003edocs\u003c/em\u003e8.3\u003cem\u003einteractive\u003c/em\u003elibpq.html)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqSetdbLogin",
           "package": "hsql-postgresql",
@@ -570,6 +617,7 @@
         "index": {
           "description": "Refer to PostgreSQL manual chapter libpq library e.g http www.postgresql.org docs interactive libpq.html",
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqSetdbLogin",
           "normalized": "CString-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eIO PGconn",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqStatus",
           "package": "hsql-postgresql",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "pqStatus",
           "normalized": "PGconn-\u003eIO ConnStatusType",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Functions",
           "name": "strlen",
           "package": "hsql-postgresql",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Functions",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Functions",
           "name": "strlen",
           "normalized": "CString-\u003eIO Int",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSQL queries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Sql",
           "name": "Sql",
           "package": "hsql-postgresql",
@@ -642,6 +695,7 @@
         "index": {
           "description": "SQL queries",
           "hierarchy": "DB HSQL PG Sql",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Sql",
           "name": "Sql",
           "package": "hsql-postgresql",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretrieval of the field defs for a table name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Sql",
           "name": "sqlAllFieldDefsForTableName",
           "package": "hsql-postgresql",
@@ -666,6 +721,7 @@
         "index": {
           "description": "retrieval of the field defs for table name",
           "hierarchy": "DB HSQL PG Sql",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Sql",
           "name": "sqlAllFieldDefsForTableName",
           "normalized": "a-\u003eString",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretrieval of the names of all tables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Sql",
           "name": "sqlAllTableNames",
           "package": "hsql-postgresql",
@@ -692,6 +749,7 @@
         "index": {
           "description": "retrieval of the names of all tables",
           "hierarchy": "DB HSQL PG Sql",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Sql",
           "name": "sqlAllTableNames",
           "package": "hsql-postgresql",
@@ -705,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Status",
           "name": "Status",
           "package": "hsql-postgresql",
@@ -713,6 +772,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Status",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Status",
           "name": "Status",
           "package": "hsql-postgresql",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Status",
           "name": "ConnStatusType",
           "package": "hsql-postgresql",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Status",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Status",
           "name": "ConnStatusType",
           "package": "hsql-postgresql",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Status",
           "name": "ExecStatusType",
           "package": "hsql-postgresql",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Status",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Status",
           "name": "ExecStatusType",
           "package": "hsql-postgresql",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Status",
           "name": "connectionOk",
           "package": "hsql-postgresql",
@@ -777,6 +842,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Status",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Status",
           "name": "connectionOk",
           "package": "hsql-postgresql",
@@ -790,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Status",
           "name": "pgCommandOk",
           "package": "hsql-postgresql",
@@ -799,6 +866,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Status",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Status",
           "name": "pgCommandOk",
           "package": "hsql-postgresql",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Status",
           "name": "pgFatalError",
           "package": "hsql-postgresql",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Status",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Status",
           "name": "pgFatalError",
           "package": "hsql-postgresql",
@@ -834,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Status",
           "name": "pgTuplesOk",
           "package": "hsql-postgresql",
@@ -843,6 +914,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Status",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Status",
           "name": "pgTuplesOk",
           "package": "hsql-postgresql",
@@ -856,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Type",
           "name": "Type",
           "package": "hsql-postgresql",
@@ -864,6 +937,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Type",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Type",
           "name": "Type",
           "package": "hsql-postgresql",
@@ -877,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Type",
           "name": "Oid",
           "package": "hsql-postgresql",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Type",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Type",
           "name": "Oid",
           "package": "hsql-postgresql",
@@ -898,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "DB.HSQL.PG.Type",
           "name": "mkSqlType",
           "package": "hsql-postgresql",
@@ -907,6 +984,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL PG Type",
+          "indexed": "2014-03-11T18:50:35",
           "module": "DB.HSQL.PG.Type",
           "name": "mkSqlType",
           "normalized": "Oid-\u003eInt-\u003eSqlType",
@@ -922,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "Database.HSQL.PostgreSQL",
           "name": "PostgreSQL",
           "package": "hsql-postgresql",
@@ -930,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL PostgreSQL",
+          "indexed": "2014-03-11T18:50:35",
           "module": "Database.HSQL.PostgreSQL",
           "name": "PostgreSQL",
           "package": "hsql-postgresql",
@@ -944,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a new connection to the database server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "Database.HSQL.PostgreSQL",
           "name": "connect",
           "package": "hsql-postgresql",
@@ -953,6 +1034,7 @@
         "index": {
           "description": "Makes new connection to the database server",
           "hierarchy": "Database HSQL PostgreSQL",
+          "indexed": "2014-03-11T18:50:35",
           "module": "Database.HSQL.PostgreSQL",
           "name": "connect",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eIO Connection",
@@ -968,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a new connection to the database server,\n with specification of port, options & tty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:35 UTC 2014",
           "module": "Database.HSQL.PostgreSQL",
           "name": "connectWithOptions",
           "package": "hsql-postgresql",
@@ -977,6 +1060,7 @@
         "index": {
           "description": "Makes new connection to the database server with specification of port options tty",
           "hierarchy": "Database HSQL PostgreSQL",
+          "indexed": "2014-03-11T18:50:35",
           "module": "Database.HSQL.PostgreSQL",
           "name": "connectWithOptions",
           "normalized": "String-\u003eMaybe String-\u003eMaybe String-\u003eMaybe String-\u003eString-\u003eString-\u003eString-\u003eIO Connection",

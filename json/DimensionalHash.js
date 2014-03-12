@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DimensionalHash"
+        "phrase": "DimensionalHash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:55 UTC 2014",
           "module": "Data.DimensionalHash",
           "name": "DimensionalHash",
           "package": "DimensionalHash",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data DimensionalHash",
+          "indexed": "2014-03-11T16:38:55",
           "module": "Data.DimensionalHash",
           "name": "DimensionalHash",
           "package": "DimensionalHash",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:55 UTC 2014",
           "module": "Data.DimensionalHash",
           "name": "MortonNumber",
           "package": "DimensionalHash",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data DimensionalHash",
+          "indexed": "2014-03-11T16:38:55",
           "module": "Data.DimensionalHash",
           "name": "MortonNumber",
           "package": "DimensionalHash",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively compute the hash.\t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:55 UTC 2014",
           "module": "Data.DimensionalHash",
           "name": "dimensionalHash",
           "package": "DimensionalHash",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Recursively compute the hash",
           "hierarchy": "Data DimensionalHash",
+          "indexed": "2014-03-11T16:38:55",
           "module": "Data.DimensionalHash",
           "name": "dimensionalHash",
           "normalized": "[a]-\u003ea",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the list is hashable\n A list is hashable IIF for every element x :\n x \u003e (maxSize list)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:55 UTC 2014",
           "module": "Data.DimensionalHash",
           "name": "isHashable",
           "package": "DimensionalHash",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Returns true if the list is hashable list is hashable IIF for every element maxSize list",
           "hierarchy": "Data DimensionalHash",
+          "indexed": "2014-03-11T16:38:55",
           "module": "Data.DimensionalHash",
           "name": "isHashable",
           "normalized": "[a]-\u003eBool",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute max size (in bit) for an element of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:55 UTC 2014",
           "module": "Data.DimensionalHash",
           "name": "maxBitSize",
           "package": "DimensionalHash",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Compute max size in bit for an element of the list",
           "hierarchy": "Data DimensionalHash",
+          "indexed": "2014-03-11T16:38:55",
           "module": "Data.DimensionalHash",
           "name": "maxBitSize",
           "normalized": "[a]-\u003eInt",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute maximum size for an element of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:55 UTC 2014",
           "module": "Data.DimensionalHash",
           "name": "maxSize",
           "package": "DimensionalHash",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Compute maximum size for an element of the list",
           "hierarchy": "Data DimensionalHash",
+          "indexed": "2014-03-11T16:38:55",
           "module": "Data.DimensionalHash",
           "name": "maxSize",
           "normalized": "[a]-\u003eInt",

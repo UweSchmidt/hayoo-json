@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HsPerl5"
+        "phrase": "HsPerl5",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "Perl5",
           "package": "HsPerl5",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "Perl5",
           "package": "HsPerl5",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerl 5's calling context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "Context",
           "package": "HsPerl5",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Perl calling context",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "Context",
           "package": "HsPerl5",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData types that can be casted from a Perl 5 value (SV).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "FromSV",
           "package": "HsPerl5",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Data types that can be casted from Perl value SV",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "FromSV",
           "package": "HsPerl5",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "SV",
           "package": "HsPerl5",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "SV",
           "package": "HsPerl5",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData types that can be casted into a Perl 5 value (SV).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "ToSV",
           "package": "HsPerl5",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Data types that can be casted into Perl value SV",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "ToSV",
           "package": "HsPerl5",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "(.!)",
           "package": "HsPerl5",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "(.!) .!",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "(.$)",
           "package": "HsPerl5",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "(.$) .$",
           "normalized": "SV-\u003ea-\u003eb-\u003eIO c",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "(.$!)",
           "package": "HsPerl5",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "(.$!) .$!",
           "normalized": "SV-\u003ea-\u003eb-\u003eIO()",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "(.:)",
           "package": "HsPerl5",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "(.:) .:",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "Item",
           "package": "HsPerl5",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "Item",
           "package": "HsPerl5",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "List",
           "package": "HsPerl5",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "List",
           "package": "HsPerl5",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "Void",
           "package": "HsPerl5",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "Void",
           "package": "HsPerl5",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a Perl 5 method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "callMethod",
           "package": "HsPerl5",
@@ -298,6 +323,7 @@
         "index": {
           "description": "Call Perl method",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "callMethod",
           "normalized": "a-\u003eb-\u003ec-\u003eIO d",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a Perl 5 subroutine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "callSub",
           "package": "HsPerl5",
@@ -324,6 +351,7 @@
         "index": {
           "description": "Call Perl subroutine",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "callSub",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a snippet of Perl 5 code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "eval",
           "package": "HsPerl5",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Evaluate snippet of Perl code",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "eval",
           "normalized": "String-\u003eIO a",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eeval\u003c/a\u003e\u003c/code\u003e but always in void context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "eval_",
           "package": "HsPerl5",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Same as eval but always in void context",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "eval_",
           "normalized": "String-\u003eIO()",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "fromSV",
           "package": "HsPerl5",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "fromSV",
           "normalized": "SV-\u003eIO a",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "toSV",
           "package": "HsPerl5",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "toSV",
           "normalized": "a-\u003eIO SV",
@@ -438,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a module.  Returns a prototype object representing the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "use",
           "package": "HsPerl5",
@@ -448,6 +485,7 @@
         "index": {
           "description": "Use module Returns prototype object representing the module",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "use",
           "normalized": "String-\u003eIO SV",
@@ -463,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation within the context of a Perl 5 interpreter. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:14 UTC 2014",
           "module": "Language.Perl5",
           "name": "withPerl5",
           "package": "HsPerl5",
@@ -473,6 +512,7 @@
         "index": {
           "description": "Run computation within the context of Perl interpreter",
           "hierarchy": "Language Perl5",
+          "indexed": "2014-03-11T16:49:14",
           "module": "Language.Perl5",
           "name": "withPerl5",
           "normalized": "IO a-\u003eIO a",

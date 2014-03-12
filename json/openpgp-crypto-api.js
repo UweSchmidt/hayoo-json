@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "openpgp-crypto-api"
+        "phrase": "openpgp-crypto-api",
+        "type": "phrase"
       },
       "type": "context"
     }

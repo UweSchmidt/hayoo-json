@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yall"
+        "phrase": "yall",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "Iso",
           "package": "yall",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "Iso",
           "package": "yall",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea partial Isomorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": ":\u003c~\u003e",
           "package": "yall",
@@ -49,6 +52,7 @@
         "index": {
           "description": "partial Isomorphism",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": ":\u003c~\u003e",
           "package": "yall",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epure Iso\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": ":\u003c-\u003e",
           "package": "yall",
@@ -71,6 +76,7 @@
         "index": {
           "description": "pure Iso",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": ":\u003c-\u003e",
           "package": "yall",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Isomorphism or one-to-one mapping between types. These are very similar\n to a \u003ccode\u003eLens\u003c/code\u003e, but are not dependent on context, making them more flexible. The\n functions also alow a Monadic context, supporting partial isomorphisms, and \n other interesting functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "Iso",
           "package": "yall",
@@ -93,6 +100,7 @@
         "index": {
           "description": "An Isomorphism or one-to-one mapping between types These are very similar to Lens but are not dependent on context making them more flexible The functions also alow Monadic context supporting partial isomorphisms and other interesting functionality",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "Iso",
           "package": "yall",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for a more \u003ccode\u003e(-\u003e)\u003c/code\u003e-like Functor instances\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "IsoPure",
           "package": "yall",
@@ -116,6 +125,7 @@
         "index": {
           "description": "wrapper for more like Functor instances",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "IsoPure",
           "package": "yall",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply the forward function\n\u003c/p\u003e\u003cpre\u003e i $- a = runIdentity $ apply i a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "($-)",
           "package": "yall",
@@ -140,6 +151,7 @@
         "index": {
           "description": "apply the forward function runIdentity apply",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "($-) $-",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply the backward function\n\u003c/p\u003e\u003cpre\u003e i -$ b = runIdentity $ unapply i b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "(-$)",
           "package": "yall",
@@ -165,6 +178,7 @@
         "index": {
           "description": "apply the backward function runIdentity unapply",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "(-$) -$",
           "normalized": "(a-\u003eb)-\u003eb-\u003ea",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "Iso",
           "package": "yall",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "Iso",
           "package": "yall",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "IsoPure",
           "package": "yall",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "IsoPure",
           "package": "yall",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "apply",
           "package": "yall",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "apply",
           "normalized": "a-\u003eb c",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e on the empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "consI",
           "package": "yall",
@@ -257,6 +278,7 @@
         "index": {
           "description": "Calls fail on the empty list",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "consI",
           "normalized": "Iso a b(c,[c])[c]",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "curryI",
           "package": "yall",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "curryI",
           "normalized": "Iso a b((c,d)-\u003ee)(c-\u003ed-\u003ee)",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "distributeI",
           "package": "yall",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "distributeI",
           "normalized": "Iso a b(c,Either d e)(Either(c,d)(c,e))",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "enumI",
           "package": "yall",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "enumI",
           "package": "yall",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "factorI",
           "package": "yall",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "factorI",
           "normalized": "Iso a b(Either(c,d)(c,e))(c,Either d e)",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap and make polymorphic an \u003ccode\u003e\u003ca\u003eIsoPure\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "fromPure",
           "package": "yall",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Unwrap and make polymorphic an IsoPure",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "fromPure",
           "normalized": "IsoPure a b-\u003eIso c d a b",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more categorical \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e, with wrapping / unwrapping for convenience. See\n also the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ifmap = fromPure . C.fmap . IsoPure\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "ifmap",
           "package": "yall",
@@ -398,6 +431,7 @@
         "index": {
           "description": "more categorical fmap with wrapping unwrapping for convenience See also the Functor instances for Iso ifmap fromPure C.fmap IsoPure",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "ifmap",
           "normalized": "Iso Identity Identity a b-\u003eIso c d(e a)(e b)",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "incrementByI",
           "package": "yall",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "incrementByI",
           "normalized": "a-\u003eIso b c a a",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "incrementI",
           "package": "yall",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "incrementI",
           "package": "yall",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "integerI",
           "package": "yall",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "integerI",
           "package": "yall",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also an Iso wrapped in \u003ccode\u003eDual\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "inverseI",
           "package": "yall",
@@ -489,6 +530,7 @@
         "index": {
           "description": "See also an Iso wrapped in Dual",
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "inverseI",
           "normalized": "Iso a b c d-\u003eIso b a d c",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "iso",
           "package": "yall",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "iso",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eIso c d a b",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "isoPure",
           "package": "yall",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "isoPure",
           "package": "yall",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "linesI",
           "package": "yall",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "linesI",
           "normalized": "Iso a b String[String]",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "rationalI",
           "package": "yall",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "rationalI",
           "package": "yall",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "showI",
           "package": "yall",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "showI",
           "package": "yall",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "unapply",
           "package": "yall",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "unapply",
           "normalized": "a-\u003eb c",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "wordsI",
           "package": "yall",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "wordsI",
           "normalized": "Iso a b String[String]",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Iso",
           "name": "zipI",
           "package": "yall",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Iso",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Iso",
           "name": "zipI",
           "normalized": "Iso a b([c],[d])[(c,d)]",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "Lens",
           "package": "yall",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "Lens",
           "package": "yall",
@@ -704,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea lens that can fail in the Maybe monad on the outer type. Suitable for a\n normal lens on a multi-constructor type. The more general \u003ccode\u003e\u003ca\u003esetM\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetM\u003c/a\u003e\u003c/code\u003e, etc.\n can be used with this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": ":~\u003e",
           "package": "yall",
@@ -713,6 +774,7 @@
         "index": {
           "description": "lens that can fail in the Maybe monad on the outer type Suitable for normal lens on multi-constructor type The more general setM getM etc can be used with this type",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": ":~\u003e",
           "package": "yall",
@@ -726,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea simple lens, suitable for single-constructor types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": ":-\u003e",
           "package": "yall",
@@ -735,6 +798,7 @@
         "index": {
           "description": "simple lens suitable for single-constructor types",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": ":-\u003e",
           "package": "yall",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "Lens",
           "package": "yall",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "Lens",
           "package": "yall",
@@ -769,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elenses in which \u003ccode\u003em\u003c/code\u003e == \u003ccode\u003ew\u003c/code\u003e and we would like to \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e the two in get/set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "LensJoin",
           "package": "yall",
@@ -778,6 +845,7 @@
         "index": {
           "description": "lenses in which and we would like to join the two in get set",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "LensJoin",
           "package": "yall",
@@ -792,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elenses in which set/get should \u003ccode\u003elift\u003c/code\u003e the inner monad \u003ccode\u003ew\u003c/code\u003e to \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "LensLift",
           "package": "yall",
@@ -801,6 +870,7 @@
         "index": {
           "description": "lenses in which set get should lift the inner monad to",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "LensLift",
           "package": "yall",
@@ -815,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens in which the setter returns its result in the trivial \u003ccode\u003eIdentity\u003c/code\u003e\n monad. This is appropriate e.g. for traditional partial lenses on sum types,\n where there is a potential that the lens could fail only on the \u003cem\u003eouter\u003c/em\u003e\n constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "LensM",
           "package": "yall",
@@ -824,6 +895,7 @@
         "index": {
           "description": "lens in which the setter returns its result in the trivial Identity monad This is appropriate e.g for traditional partial lenses on sum types where there is potential that the lens could fail only on the outer constructor",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "LensM",
           "package": "yall",
@@ -838,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elenses in which only the setter \u003ccode\u003ew\u003c/code\u003e is monadic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "LensW",
           "package": "yall",
@@ -847,6 +920,7 @@
         "index": {
           "description": "lenses in which only the setter is monadic",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "LensW",
           "package": "yall",
@@ -861,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for our basic (monadic) lens operations. Minimal complete\n definition is \u003ccode\u003e\u003ca\u003egetM\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esetM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "Lenses",
           "package": "yall",
@@ -870,6 +945,7 @@
         "index": {
           "description": "class for our basic monadic lens operations Minimal complete definition is getM and setM",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "Lenses",
           "package": "yall",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "(|||)",
           "package": "yall",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "(|||) |||",
           "normalized": "Lens a b c d-\u003eLens a b e d-\u003eLens a b(Either c e)d",
@@ -907,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (^$) = get\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "(^$)",
           "package": "yall",
@@ -917,6 +996,7 @@
         "index": {
           "description": "get",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "(^$) ^$",
           "normalized": "Lens a Identity b c-\u003eb-\u003ec",
@@ -932,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e ma ^\u003e\u003e= l = ma \u003e\u003e= getM l\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "(^\u003e\u003e=)",
           "package": "yall",
@@ -942,6 +1023,7 @@
         "index": {
           "description": "ma ma getM",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "(^\u003e\u003e=) ^\u003e\u003e=",
           "normalized": "a b-\u003ec a b d-\u003ea d",
@@ -956,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "LJoin",
           "package": "yall",
@@ -965,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "LJoin",
           "package": "yall",
@@ -978,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "LLift",
           "package": "yall",
@@ -987,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "LLift",
           "package": "yall",
@@ -1000,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "LW",
           "package": "yall",
@@ -1009,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "LW",
           "package": "yall",
@@ -1022,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "Lens",
           "package": "yall",
@@ -1031,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "Lens",
           "package": "yall",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "distributeL",
           "package": "yall",
@@ -1053,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "distributeL",
           "normalized": "Lens a b(c,Either d e)(Either(c,d)(c,e))",
@@ -1068,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecodiag from Cartesian\n\u003c/p\u003e\u003cpre\u003e eitherL = id ||| id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "eitherL",
           "package": "yall",
@@ -1078,6 +1171,7 @@
         "index": {
           "description": "codiag from Cartesian eitherL id id",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "eitherL",
           "package": "yall",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "factorL",
           "package": "yall",
@@ -1099,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "factorL",
           "normalized": "Lens a b(Either(c,d)(c,e))(c,Either d e)",
@@ -1113,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "fstL",
           "package": "yall",
@@ -1122,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "fstL",
           "normalized": "Lens a b(c,d)c",
@@ -1137,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the getter function of a pure lens\n\u003c/p\u003e\u003cpre\u003e get l = runIdentity . getM l\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "get",
           "package": "yall",
@@ -1147,6 +1246,7 @@
         "index": {
           "description": "Run the getter function of pure lens get runIdentity getM",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "get",
           "normalized": "Lens a Identity b c-\u003eb-\u003ec",
@@ -1161,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "getM",
           "package": "yall",
@@ -1170,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "getM",
           "normalized": "a b c d-\u003ec-\u003eb d",
@@ -1185,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an isomorphism \u003ccode\u003ei\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e. When \u003ccode\u003eapply i . unapply i =\n unapply i . apply i = id\u003c/code\u003e, the resulting lens will be well-behaved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "isoL",
           "package": "yall",
@@ -1195,6 +1298,7 @@
         "index": {
           "description": "Convert an isomorphism to Lens When apply unapply unapply apply id the resulting lens will be well-behaved",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "isoL",
           "normalized": "Iso a b c d-\u003eLens a b c d",
@@ -1236,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a monadic lens from a getter and setter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "lensM",
           "package": "yall",
@@ -1246,6 +1351,7 @@
         "index": {
           "description": "Create monadic lens from getter and setter",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "lensM",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb(c-\u003ea))-\u003eLensM b a c",
@@ -1261,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a monadic Lens from a setter and getter.\n\u003c/p\u003e\u003cpre\u003e lensMW g s = Lens $ \\a-\u003e liftM2 (,) (s a) (g a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "lensMW",
           "package": "yall",
@@ -1271,6 +1378,7 @@
         "index": {
           "description": "Create monadic Lens from setter and getter lensMW Lens liftM2",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "lensMW",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb(c-\u003ed a))-\u003eLens d b a c",
@@ -1310,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "modifyM",
           "package": "yall",
@@ -1319,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "modifyM",
           "normalized": "a b c d-\u003e(d-\u003ed)-\u003ec-\u003eb c",
@@ -1334,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a Lens an isomorphism between a value \u003ccode\u003ea\u003c/code\u003e and a tuple of a\n value \u003ccode\u003eb\u003c/code\u003e with some \"residual\" value \u003ccode\u003er\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "residualL",
           "package": "yall",
@@ -1344,6 +1455,7 @@
         "index": {
           "description": "Convert to Lens an isomorphism between value and tuple of value with some residual value",
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "residualL",
           "normalized": "Iso a b c(d,e)-\u003eLens a b c d",
@@ -1358,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "runLens",
           "package": "yall",
@@ -1367,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "runLens",
           "normalized": "a-\u003eb(c-\u003ed a,c)",
@@ -1408,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "setM",
           "package": "yall",
@@ -1417,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "setM",
           "normalized": "a b c d-\u003ec-\u003ed-\u003eb c",
@@ -1431,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall.Lens",
           "name": "sndL",
           "package": "yall",
@@ -1440,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Data Yall Lens",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall.Lens",
           "name": "sndL",
           "normalized": "Lens a b(c,d)d",
@@ -1454,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall",
           "name": "Yall",
           "package": "yall",
@@ -1462,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Data Yall",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall",
           "name": "Yall",
           "package": "yall",
@@ -1476,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea lens that can fail in the Maybe monad on the outer type. Suitable for a\n normal lens on a multi-constructor type. The more general \u003ccode\u003e\u003ca\u003esetM\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetM\u003c/a\u003e\u003c/code\u003e, etc.\n can be used with this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall",
           "name": ":~\u003e",
           "package": "yall",
@@ -1485,6 +1606,7 @@
         "index": {
           "description": "lens that can fail in the Maybe monad on the outer type Suitable for normal lens on multi-constructor type The more general setM getM etc can be used with this type",
           "hierarchy": "Data Yall",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall",
           "name": ":~\u003e",
           "package": "yall",
@@ -1498,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea simple lens, suitable for single-constructor types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall",
           "name": ":-\u003e",
           "package": "yall",
@@ -1507,6 +1630,7 @@
         "index": {
           "description": "simple lens suitable for single-constructor types",
           "hierarchy": "Data Yall",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall",
           "name": ":-\u003e",
           "package": "yall",
@@ -1520,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the getter function of a pure lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall",
           "name": "get",
           "package": "yall",
@@ -1530,6 +1655,7 @@
         "index": {
           "description": "Run the getter function of pure lens",
           "hierarchy": "Data Yall",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall",
           "name": "get",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -1545,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to run the getter function on a value \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall",
           "name": "getM",
           "package": "yall",
@@ -1555,6 +1682,7 @@
         "index": {
           "description": "Try to run the getter function on value",
           "hierarchy": "Data Yall",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall",
           "name": "getM",
           "normalized": "(a b)-\u003ea-\u003eMaybe b",
@@ -1570,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a partial lens from a getter and setter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall",
           "name": "lensM",
           "package": "yall",
@@ -1580,6 +1709,7 @@
         "index": {
           "description": "Create partial lens from getter and setter",
           "hierarchy": "Data Yall",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall",
           "name": "lensM",
           "normalized": "(a-\u003eMaybe b)-\u003e(a-\u003eMaybe(b-\u003ea))-\u003ea b",
@@ -1595,6 +1725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to modify the inner type of a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall",
           "name": "modifyM",
           "package": "yall",
@@ -1605,6 +1736,7 @@
         "index": {
           "description": "try to modify the inner type of value",
           "hierarchy": "Data Yall",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall",
           "name": "modifyM",
           "normalized": "(a b)-\u003e(b-\u003eb)-\u003ea-\u003eMaybe a",
@@ -1620,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to run the setter function on an outer and new inner value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:20 UTC 2014",
           "module": "Data.Yall",
           "name": "setM",
           "package": "yall",
@@ -1630,6 +1763,7 @@
         "index": {
           "description": "try to run the setter function on an outer and new inner value",
           "hierarchy": "Data Yall",
+          "indexed": "2014-03-11T20:44:20",
           "module": "Data.Yall",
           "name": "setM",
           "normalized": "(a b)-\u003ea-\u003eb-\u003eMaybe a",

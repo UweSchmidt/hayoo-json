@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HPDF"
+        "phrase": "HPDF",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF Actions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Action",
           "name": "Action",
           "package": "HPDF",
@@ -28,6 +29,7 @@
         "index": {
           "description": "PDF Actions",
           "hierarchy": "Graphics PDF Action",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Action",
           "name": "Action",
           "package": "HPDF",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Action",
           "name": "Action",
           "package": "HPDF",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Action",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Action",
           "name": "Action",
           "package": "HPDF",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction of going to an URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Action",
           "name": "GoToURL",
           "package": "HPDF",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Action of going to an URL",
           "hierarchy": "Graphics PDF Action",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Action",
           "name": "GoToURL",
           "package": "HPDF",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Action",
           "name": "GoToURL",
           "package": "HPDF",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Action",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Action",
           "name": "GoToURL",
           "package": "HPDF",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF Annotations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "Annotation",
           "package": "HPDF",
@@ -117,6 +126,7 @@
         "index": {
           "description": "PDF Annotations",
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "Annotation",
           "package": "HPDF",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "PDFLink",
           "package": "HPDF",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "PDFLink",
           "package": "HPDF",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "TextAnnotation",
           "package": "HPDF",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "TextAnnotation",
           "package": "HPDF",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "TextIcon",
           "package": "HPDF",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "TextIcon",
           "package": "HPDF",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "URLLink",
           "package": "HPDF",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "URLLink",
           "package": "HPDF",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "Comment",
           "package": "HPDF",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "Comment",
           "package": "HPDF",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "Help",
           "package": "HPDF",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "Help",
           "package": "HPDF",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "Insert",
           "package": "HPDF",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "Insert",
           "package": "HPDF",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "Key",
           "package": "HPDF",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "Key",
           "package": "HPDF",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "NewParagraph",
           "package": "HPDF",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "NewParagraph",
           "package": "HPDF",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "Note",
           "package": "HPDF",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "Note",
           "package": "HPDF",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "PDFLink",
           "package": "HPDF",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "PDFLink",
           "normalized": "PDFLink PDFString[PDFFloat](PDFReference PDFPage)PDFFloat PDFFloat Bool",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "Paragraph",
           "package": "HPDF",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "Paragraph",
           "package": "HPDF",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "TextAnnotation",
           "package": "HPDF",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "TextAnnotation",
           "normalized": "TextAnnotation PDFString[PDFFloat]TextIcon",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "URLLink",
           "package": "HPDF",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "URLLink",
           "normalized": "URLLink PDFString[PDFFloat]String Bool",
@@ -441,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new annotation object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Annotation",
           "name": "newAnnotation",
           "package": "HPDF",
@@ -451,6 +490,7 @@
         "index": {
           "description": "Create new annotation object",
           "hierarchy": "Graphics PDF Annotation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Annotation",
           "name": "newAnnotation",
           "normalized": "a-\u003eDraw()",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eColors for a PDF document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "Colors",
           "package": "HPDF",
@@ -476,6 +517,7 @@
         "index": {
           "description": "Colors for PDF document",
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "Colors",
           "package": "HPDF",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PDF color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "Color",
           "package": "HPDF",
@@ -499,6 +542,7 @@
         "index": {
           "description": "PDF color",
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "Color",
           "package": "HPDF",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "Hsv",
           "package": "HPDF",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "Hsv",
           "package": "HPDF",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "Rgb",
           "package": "HPDF",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "Rgb",
           "package": "HPDF",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "black",
           "package": "HPDF",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "black",
           "package": "HPDF",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "blue",
           "package": "HPDF",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "blue",
           "package": "HPDF",
@@ -599,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect the filling color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "fillColor",
           "package": "HPDF",
@@ -608,6 +661,7 @@
         "index": {
           "description": "Select the filling color",
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "fillColor",
           "normalized": "Color-\u003ea()",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "green",
           "package": "HPDF",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "green",
           "package": "HPDF",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "hsvToRgb",
           "package": "HPDF",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "hsvToRgb",
           "normalized": "(Double,Double,Double)-\u003e(Double,Double,Double)",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "red",
           "package": "HPDF",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "red",
           "package": "HPDF",
@@ -690,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet alpha value for transparency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "setFillAlpha",
           "package": "HPDF",
@@ -700,6 +761,7 @@
         "index": {
           "description": "Set alpha value for transparency",
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "setFillAlpha",
           "normalized": "Double-\u003eDraw()",
@@ -716,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInit the PDF color space to RGB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "setRGBColorSpace",
           "package": "HPDF",
@@ -726,6 +789,7 @@
         "index": {
           "description": "Init the PDF color space to RGB",
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "setRGBColorSpace",
           "normalized": "Draw()",
@@ -742,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet alpha value for transparency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "setStrokeAlpha",
           "package": "HPDF",
@@ -752,6 +817,7 @@
         "index": {
           "description": "Set alpha value for transparency",
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "setStrokeAlpha",
           "normalized": "Double-\u003eDraw()",
@@ -768,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect the drawing color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "strokeColor",
           "package": "HPDF",
@@ -777,6 +844,7 @@
         "index": {
           "description": "Select the drawing color",
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "strokeColor",
           "normalized": "Color-\u003ea()",
@@ -792,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Colors",
           "name": "white",
           "package": "HPDF",
@@ -801,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Colors",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Colors",
           "name": "white",
           "package": "HPDF",
@@ -814,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCoordinates for a PDF document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "Coordinates",
           "package": "HPDF",
@@ -823,6 +894,7 @@
         "index": {
           "description": "Coordinates for PDF document",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "Coordinates",
           "package": "HPDF",
@@ -837,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "Angle",
           "package": "HPDF",
@@ -846,6 +919,7 @@
         "index": {
           "description": "Angle",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "Angle",
           "package": "HPDF",
@@ -860,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transformation matrix. An affine transformation a b c d e f\n\u003c/p\u003e\u003cpre\u003e\n a b 0\n c d 0\n e f 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "Matrix",
           "package": "HPDF",
@@ -869,6 +944,7 @@
         "index": {
           "description": "transformation matrix An affine transformation",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "Matrix",
           "package": "HPDF",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "Point",
           "package": "HPDF",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "Point",
           "package": "HPDF",
@@ -904,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle in degrees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "Degree",
           "package": "HPDF",
@@ -914,6 +993,7 @@
         "index": {
           "description": "Angle in degrees",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "Degree",
           "package": "HPDF",
@@ -927,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "Matrix",
           "package": "HPDF",
@@ -936,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "Matrix",
           "package": "HPDF",
@@ -950,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle in radians\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "Radian",
           "package": "HPDF",
@@ -960,6 +1043,7 @@
         "index": {
           "description": "Angle in radians",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "Radian",
           "package": "HPDF",
@@ -974,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot product of two points\n 'dot (x :+ y) (a :+ b) == x * a  +  y * b'\n 'dot z w == magnitude z * magnitude w * cos (phase z - phase w)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "dot",
           "package": "HPDF",
@@ -984,6 +1069,7 @@
         "index": {
           "description": "Dot product of two points dot dot magnitude magnitude cos phase phase",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "dot",
           "normalized": "Complex a-\u003eComplex a-\u003ea",
@@ -999,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "identity",
           "package": "HPDF",
@@ -1009,6 +1096,7 @@
         "index": {
           "description": "Identity matrix",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "identity",
           "package": "HPDF",
@@ -1022,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies a matrix as three points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "pointMatrix",
           "package": "HPDF",
@@ -1031,6 +1120,7 @@
         "index": {
           "description": "Specifies matrix as three points",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "pointMatrix",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003eMatrix",
@@ -1047,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprojects the first point onto the second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "project",
           "package": "HPDF",
@@ -1057,6 +1148,7 @@
         "index": {
           "description": "projects the first point onto the second",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "project",
           "normalized": "Complex a-\u003eComplex a-\u003eComplex a",
@@ -1072,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprojects a point onto the x-axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "projectX",
           "package": "HPDF",
@@ -1082,6 +1175,7 @@
         "index": {
           "description": "projects point onto the x-axis",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "projectX",
           "normalized": "Complex a-\u003eComplex a",
@@ -1097,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprojects a point onto the y-axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "projectY",
           "package": "HPDF",
@@ -1107,6 +1202,7 @@
         "index": {
           "description": "projects point onto the y-axis",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "projectY",
           "normalized": "Complex a-\u003eComplex a",
@@ -1122,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotation matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "rotate",
           "package": "HPDF",
@@ -1131,6 +1228,7 @@
         "index": {
           "description": "Rotation matrix",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "rotate",
           "normalized": "Angle-\u003eMatrix",
@@ -1146,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScaling matrix          \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "scale",
           "package": "HPDF",
@@ -1155,6 +1254,7 @@
         "index": {
           "description": "Scaling matrix",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "scale",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003eMatrix",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "scalePt",
           "package": "HPDF",
@@ -1178,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "scalePt",
           "normalized": "a-\u003eComplex a-\u003eComplex a",
@@ -1193,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "spiral",
           "package": "HPDF",
@@ -1202,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "spiral",
           "normalized": "Point-\u003eMatrix",
@@ -1216,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "toRadian",
           "package": "HPDF",
@@ -1225,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "toRadian",
           "normalized": "Angle-\u003ePDFFloat",
@@ -1241,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a matrix to a point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "transform",
           "package": "HPDF",
@@ -1251,6 +1358,7 @@
         "index": {
           "description": "Applies matrix to point",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "transform",
           "normalized": "Matrix-\u003ePoint-\u003ePoint",
@@ -1266,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslation matrix\n 'transform (translate z) w == z + w'             \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Coordinates",
           "name": "translate",
           "package": "HPDF",
@@ -1276,6 +1385,7 @@
         "index": {
           "description": "Translation matrix transform translate",
           "hierarchy": "Graphics PDF Coordinates",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Coordinates",
           "name": "translate",
           "normalized": "Point-\u003eMatrix",
@@ -1291,6 +1401,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManagement of the PDF structure\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Document",
           "package": "HPDF",
@@ -1300,6 +1411,7 @@
         "index": {
           "description": "Management of the PDF structure",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Document",
           "package": "HPDF",
@@ -1314,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe drawing monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Draw",
           "package": "HPDF",
@@ -1323,6 +1436,7 @@
         "index": {
           "description": "The drawing monad",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Draw",
           "package": "HPDF",
@@ -1337,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFDocumentInfo",
           "package": "HPDF",
@@ -1346,6 +1461,7 @@
         "index": {
           "description": "Document metadata",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFDocumentInfo",
           "package": "HPDF",
@@ -1360,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument page layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFDocumentPageLayout",
           "package": "HPDF",
@@ -1369,6 +1486,7 @@
         "index": {
           "description": "Document page layout",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFDocumentPageLayout",
           "package": "HPDF",
@@ -1383,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument page mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFDocumentPageMode",
           "package": "HPDF",
@@ -1392,6 +1511,7 @@
         "index": {
           "description": "Document page mode",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFDocumentPageMode",
           "package": "HPDF",
@@ -1405,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFGlobals",
           "package": "HPDF",
@@ -1413,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFGlobals",
           "package": "HPDF",
@@ -1427,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of a transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransDimension",
           "package": "HPDF",
@@ -1436,6 +1559,7 @@
         "index": {
           "description": "Dimension of transition",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransDimension",
           "package": "HPDF",
@@ -1450,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection of a transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransDirection",
           "package": "HPDF",
@@ -1459,6 +1584,7 @@
         "index": {
           "description": "Direction of transition",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransDirection",
           "package": "HPDF",
@@ -1473,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection of a transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransDirection2",
           "package": "HPDF",
@@ -1482,6 +1609,7 @@
         "index": {
           "description": "Direction of transition",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransDirection2",
           "package": "HPDF",
@@ -1496,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransition style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransStyle",
           "package": "HPDF",
@@ -1505,6 +1634,7 @@
         "index": {
           "description": "Transition style",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransStyle",
           "package": "HPDF",
@@ -1519,6 +1649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PDF Transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransition",
           "package": "HPDF",
@@ -1528,6 +1659,7 @@
         "index": {
           "description": "PDF Transition",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransition",
           "package": "HPDF",
@@ -1542,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eViewer preferences\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFViewerPreferences",
           "package": "HPDF",
@@ -1551,6 +1684,7 @@
         "index": {
           "description": "Viewer preferences",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFViewerPreferences",
           "package": "HPDF",
@@ -1564,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFXForm",
           "package": "HPDF",
@@ -1572,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFXForm",
           "package": "HPDF",
@@ -1586,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PDF Xobject which can be drawn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFXObject",
           "package": "HPDF",
@@ -1595,6 +1732,7 @@
         "index": {
           "description": "PDF Xobject which can be drawn",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFXObject",
           "package": "HPDF",
@@ -1608,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Blinds",
           "package": "HPDF",
@@ -1617,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Blinds",
           "package": "HPDF",
@@ -1631,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWipe only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "BottomToTop",
           "package": "HPDF",
@@ -1641,6 +1782,7 @@
         "index": {
           "description": "Wipe only",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "BottomToTop",
           "package": "HPDF",
@@ -1654,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Box",
           "package": "HPDF",
@@ -1663,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Box",
           "package": "HPDF",
@@ -1676,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Dissolve",
           "package": "HPDF",
@@ -1685,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Dissolve",
           "package": "HPDF",
@@ -1698,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "FullScreen",
           "package": "HPDF",
@@ -1707,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "FullScreen",
           "package": "HPDF",
@@ -1720,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Glitter",
           "package": "HPDF",
@@ -1729,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Glitter",
           "package": "HPDF",
@@ -1742,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Horizontal",
           "package": "HPDF",
@@ -1751,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Horizontal",
           "package": "HPDF",
@@ -1764,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Inward",
           "package": "HPDF",
@@ -1773,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Inward",
           "package": "HPDF",
@@ -1786,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "LeftToRight",
           "package": "HPDF",
@@ -1795,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "LeftToRight",
           "package": "HPDF",
@@ -1808,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "OneColumn",
           "package": "HPDF",
@@ -1817,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "OneColumn",
           "package": "HPDF",
@@ -1830,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Outward",
           "package": "HPDF",
@@ -1839,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Outward",
           "package": "HPDF",
@@ -1852,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFDocumentInfo",
           "package": "HPDF",
@@ -1861,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFDocumentInfo",
           "package": "HPDF",
@@ -1874,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransition",
           "package": "HPDF",
@@ -1883,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFTransition",
           "package": "HPDF",
@@ -1896,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "PDFViewerPreferences",
           "package": "HPDF",
@@ -1905,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "PDFViewerPreferences",
           "package": "HPDF",
@@ -1919,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWipe only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "RightToLeft",
           "package": "HPDF",
@@ -1929,6 +2096,7 @@
         "index": {
           "description": "Wipe only",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "RightToLeft",
           "package": "HPDF",
@@ -1942,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "SinglePage",
           "package": "HPDF",
@@ -1951,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "SinglePage",
           "package": "HPDF",
@@ -1964,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Split",
           "package": "HPDF",
@@ -1973,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Split",
           "package": "HPDF",
@@ -1987,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlitter only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "TopLeftToBottomRight",
           "package": "HPDF",
@@ -1997,6 +2170,7 @@
         "index": {
           "description": "Glitter only",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "TopLeftToBottomRight",
           "package": "HPDF",
@@ -2010,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "TopToBottom",
           "package": "HPDF",
@@ -2019,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "TopToBottom",
           "package": "HPDF",
@@ -2032,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "TwoColumnLeft",
           "package": "HPDF",
@@ -2041,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "TwoColumnLeft",
           "package": "HPDF",
@@ -2054,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "TwoColumnRight",
           "package": "HPDF",
@@ -2063,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "TwoColumnRight",
           "package": "HPDF",
@@ -2076,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "TwoPageLeft",
           "package": "HPDF",
@@ -2085,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "TwoPageLeft",
           "package": "HPDF",
@@ -2098,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "TwoPageRight",
           "package": "HPDF",
@@ -2107,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "TwoPageRight",
           "package": "HPDF",
@@ -2120,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "UseNone",
           "package": "HPDF",
@@ -2129,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "UseNone",
           "package": "HPDF",
@@ -2142,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "UseOutlines",
           "package": "HPDF",
@@ -2151,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "UseOutlines",
           "package": "HPDF",
@@ -2164,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "UseThumbs",
           "package": "HPDF",
@@ -2173,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "UseThumbs",
           "package": "HPDF",
@@ -2186,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Vertical",
           "package": "HPDF",
@@ -2195,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Vertical",
           "package": "HPDF",
@@ -2208,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "Wipe",
           "package": "HPDF",
@@ -2217,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "Wipe",
           "package": "HPDF",
@@ -2231,6 +2425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new page to a PDF document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "addPage",
           "package": "HPDF",
@@ -2240,6 +2435,7 @@
         "index": {
           "description": "Add new page to PDF document",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "addPage",
           "normalized": "Maybe PDFRect-\u003ePDF(PDFReference PDFPage)",
@@ -2255,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "addPageWithTransition",
           "package": "HPDF",
@@ -2263,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "addPageWithTransition",
           "normalized": "Maybe PDFRect-\u003eMaybe PDFFloat-\u003eMaybe PDFTransition-\u003ePDF(PDFReference PDFPage)",
@@ -2278,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "author",
           "package": "HPDF",
@@ -2287,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "author",
           "package": "HPDF",
@@ -2299,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "bounds",
           "package": "HPDF",
@@ -2308,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "bounds",
           "normalized": "PDFReference a-\u003eb(PDFFloat,PDFFloat)",
@@ -2323,6 +2525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCenter window on screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "centerWindow",
           "package": "HPDF",
@@ -2333,6 +2536,7 @@
         "index": {
           "description": "Center window on screen",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "centerWindow",
           "package": "HPDF",
@@ -2346,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "compressed",
           "package": "HPDF",
@@ -2355,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "compressed",
           "package": "HPDF",
@@ -2368,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a PDF XObject\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "createPDFXForm",
           "package": "HPDF",
@@ -2377,6 +2584,7 @@
         "index": {
           "description": "Create PDF XObject",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "createPDFXForm",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003eDraw a-\u003ePDF(PDFReference PDFXForm)",
@@ -2393,6 +2601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay the docu,ent title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "displayDoctitle",
           "package": "HPDF",
@@ -2403,6 +2612,7 @@
         "index": {
           "description": "Display the docu ent title",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "displayDoctitle",
           "package": "HPDF",
@@ -2417,6 +2627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw on a given page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "drawWithPage",
           "package": "HPDF",
@@ -2426,6 +2637,7 @@
         "index": {
           "description": "Draw on given page",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "drawWithPage",
           "normalized": "PDFReference PDFPage-\u003eDraw a-\u003ePDF a",
@@ -2441,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "drawXObject",
           "package": "HPDF",
@@ -2450,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "drawXObject",
           "normalized": "PDFReference a-\u003eDraw()",
@@ -2466,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty drawing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "emptyDrawing",
           "package": "HPDF",
@@ -2476,6 +2691,7 @@
         "index": {
           "description": "An empty drawing",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "emptyDrawing",
           "normalized": "Draw()",
@@ -2492,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFit window to screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "fitWindow",
           "package": "HPDF",
@@ -2502,6 +2719,7 @@
         "index": {
           "description": "Fit window to screen",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "fitWindow",
           "package": "HPDF",
@@ -2516,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo hide the menubar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "hideMenuBar",
           "package": "HPDF",
@@ -2526,6 +2745,7 @@
         "index": {
           "description": "To hide the menubar",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "hideMenuBar",
           "package": "HPDF",
@@ -2540,6 +2760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo hide the toolbar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "hideToolbar",
           "package": "HPDF",
@@ -2550,6 +2771,7 @@
         "index": {
           "description": "To hide the toolbar",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "hideToolbar",
           "package": "HPDF",
@@ -2564,6 +2786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo hide the window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "hideWindowUI",
           "package": "HPDF",
@@ -2574,6 +2797,7 @@
         "index": {
           "description": "To hide the window",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "hideWindowUI",
           "package": "HPDF",
@@ -2588,6 +2812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay mode when exiting the full screen mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "nonFullScreenPageMode",
           "package": "HPDF",
@@ -2598,6 +2823,7 @@
         "index": {
           "description": "Display mode when exiting the full screen mode",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "nonFullScreenPageMode",
           "package": "HPDF",
@@ -2611,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "pageLayout",
           "package": "HPDF",
@@ -2620,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "pageLayout",
           "package": "HPDF",
@@ -2633,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "pageMode",
           "package": "HPDF",
@@ -2642,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "pageMode",
           "package": "HPDF",
@@ -2656,6 +2886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo information for the document  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "standardDocInfo",
           "package": "HPDF",
@@ -2666,6 +2897,7 @@
         "index": {
           "description": "No information for the document",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "standardDocInfo",
           "package": "HPDF",
@@ -2679,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "standardViewerPrefs",
           "package": "HPDF",
@@ -2688,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "standardViewerPrefs",
           "package": "HPDF",
@@ -2701,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "subject",
           "package": "HPDF",
@@ -2710,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "subject",
           "package": "HPDF",
@@ -2722,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "viewerPreferences",
           "package": "HPDF",
@@ -2731,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "viewerPreferences",
           "package": "HPDF",
@@ -2745,6 +2983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw in a new drawing context without perturbing the previous context\n that is restored after the draw       \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Document",
           "name": "withNewContext",
           "package": "HPDF",
@@ -2755,6 +2994,7 @@
         "index": {
           "description": "Draw in new drawing context without perturbing the previous context that is restored after the draw",
           "hierarchy": "Graphics PDF Document",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Document",
           "name": "withNewContext",
           "normalized": "Draw a-\u003eDraw a",
@@ -2771,6 +3011,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuick documentation for the PDF library.\n\u003c/p\u003e\u003cp\u003eFor detailed examples, download the tar.gz package from Hackage and look at the\ntest.hs in folder Test.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Documentation",
           "name": "Documentation",
           "package": "HPDF",
@@ -2780,6 +3021,7 @@
         "index": {
           "description": "Quick documentation for the PDF library For detailed examples download the tar.gz package from Hackage and look at the test.hs in folder Test",
           "hierarchy": "Graphics PDF Documentation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Documentation",
           "name": "Documentation",
           "package": "HPDF",
@@ -2794,6 +3036,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHyphenate a string\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Hyphenate",
           "name": "Hyphenate",
           "package": "HPDF",
@@ -2803,6 +3046,7 @@
         "index": {
           "description": "Hyphenate string",
           "hierarchy": "Graphics PDF Hyphenate",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Hyphenate",
           "name": "Hyphenate",
           "package": "HPDF",
@@ -2817,6 +3061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenation databases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Hyphenate",
           "name": "HyphenationDatabase",
           "package": "HPDF",
@@ -2826,6 +3071,7 @@
         "index": {
           "description": "Hyphenation databases",
           "hierarchy": "Graphics PDF Hyphenate",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Hyphenate",
           "name": "HyphenationDatabase",
           "package": "HPDF",
@@ -2839,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Hyphenate",
           "name": "MapString",
           "package": "HPDF",
@@ -2847,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Hyphenate",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Hyphenate",
           "name": "MapString",
           "package": "HPDF",
@@ -2860,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Hyphenate",
           "name": "CustomLanguage",
           "package": "HPDF",
@@ -2869,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Hyphenate",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Hyphenate",
           "name": "CustomLanguage",
           "normalized": "CustomLanguage(MapString[Int])(MapString[Int])",
@@ -2884,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Hyphenate",
           "name": "English",
           "package": "HPDF",
@@ -2893,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Hyphenate",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Hyphenate",
           "name": "English",
           "normalized": "English(Maybe(MapString[Int]))",
@@ -2909,6 +3161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenate a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Hyphenate",
           "name": "hyphenate",
           "package": "HPDF",
@@ -2918,6 +3171,7 @@
         "index": {
           "description": "Hyphenate string",
           "hierarchy": "Graphics PDF Hyphenate",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Hyphenate",
           "name": "hyphenate",
           "normalized": "HyphenationDatabase-\u003eString-\u003e[String]",
@@ -2933,6 +3187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a custom language for hyphenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Hyphenate",
           "name": "mkCustomLanguage",
           "package": "HPDF",
@@ -2942,6 +3197,7 @@
         "index": {
           "description": "Create custom language for hyphenation",
           "hierarchy": "Graphics PDF Hyphenate",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Hyphenate",
           "name": "mkCustomLanguage",
           "normalized": "[String]-\u003e[String]-\u003eHyphenationDatabase",
@@ -2957,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Hyphenate",
           "name": "mkExceptions",
           "package": "HPDF",
@@ -2966,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Hyphenate",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Hyphenate",
           "name": "mkExceptions",
           "normalized": "[String]-\u003eMapString[Int]",
@@ -2982,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF Images\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Image",
           "name": "Image",
           "package": "HPDF",
@@ -2991,6 +3250,7 @@
         "index": {
           "description": "PDF Images",
           "hierarchy": "Graphics PDF Image",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Image",
           "name": "Image",
           "package": "HPDF",
@@ -3005,6 +3265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Jpeg file   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Image",
           "name": "JpegFile",
           "package": "HPDF",
@@ -3014,6 +3275,7 @@
         "index": {
           "description": "Jpeg file",
           "hierarchy": "Graphics PDF Image",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Image",
           "name": "JpegFile",
           "package": "HPDF",
@@ -3028,6 +3290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Jpeg PDF object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Image",
           "name": "PDFJpeg",
           "package": "HPDF",
@@ -3037,6 +3300,7 @@
         "index": {
           "description": "Jpeg PDF object",
           "hierarchy": "Graphics PDF Image",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Image",
           "name": "PDFJpeg",
           "package": "HPDF",
@@ -3051,6 +3315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA raw image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Image",
           "name": "RawImage",
           "package": "HPDF",
@@ -3060,6 +3325,7 @@
         "index": {
           "description": "raw image",
           "hierarchy": "Graphics PDF Image",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Image",
           "name": "RawImage",
           "package": "HPDF",
@@ -3074,6 +3340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse an abstract description of a Jpeg to return a PDFReference that can be used to manipulate the Jpeg in the context\n of the PDF document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Image",
           "name": "createPDFJpeg",
           "package": "HPDF",
@@ -3084,6 +3351,7 @@
         "index": {
           "description": "Use an abstract description of Jpeg to return PDFReference that can be used to manipulate the Jpeg in the context of the PDF document",
           "hierarchy": "Graphics PDF Image",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Image",
           "name": "createPDFJpeg",
           "normalized": "JpegFile-\u003ePDF(PDFReference PDFJpeg)",
@@ -3099,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Image",
           "name": "createPDFRawImage",
           "package": "HPDF",
@@ -3107,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Image",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Image",
           "name": "createPDFRawImage",
           "normalized": "Double-\u003eDouble-\u003eBool-\u003eVector Word-\u003ePDF(PDFReference RawImage)",
@@ -3123,6 +3393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the JPEG bounds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Image",
           "name": "jpegBounds",
           "package": "HPDF",
@@ -3133,6 +3404,7 @@
         "index": {
           "description": "Get the JPEG bounds",
           "hierarchy": "Graphics PDF Image",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Image",
           "name": "jpegBounds",
           "normalized": "JpegFile-\u003e(PDFFloat,PDFFloat)",
@@ -3149,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a JPEG file and return an abstract description of its content or an error\n The read is not lazy. The whole image will be loaded into memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Image",
           "name": "readJpegFile",
           "package": "HPDF",
@@ -3159,6 +3432,7 @@
         "index": {
           "description": "Read JPEG file and return an abstract description of its content or an error The read is not lazy The whole image will be loaded into memory",
           "hierarchy": "Graphics PDF Image",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Image",
           "name": "readJpegFile",
           "normalized": "FilePath-\u003eIO(Either String JpegFile)",
@@ -3175,6 +3449,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF Navigation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Navigation",
           "name": "Navigation",
           "package": "HPDF",
@@ -3184,6 +3459,7 @@
         "index": {
           "description": "PDF Navigation",
           "hierarchy": "Graphics PDF Navigation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Navigation",
           "name": "Navigation",
           "package": "HPDF",
@@ -3197,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Navigation",
           "name": "OutlineStyle",
           "package": "HPDF",
@@ -3205,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Navigation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Navigation",
           "name": "OutlineStyle",
           "package": "HPDF",
@@ -3218,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Navigation",
           "name": "BoldOutline",
           "package": "HPDF",
@@ -3227,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Navigation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Navigation",
           "name": "BoldOutline",
           "package": "HPDF",
@@ -3240,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Navigation",
           "name": "ItalicOutline",
           "package": "HPDF",
@@ -3249,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Navigation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Navigation",
           "name": "ItalicOutline",
           "package": "HPDF",
@@ -3262,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Navigation",
           "name": "NormalOutline",
           "package": "HPDF",
@@ -3271,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Navigation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Navigation",
           "name": "NormalOutline",
           "package": "HPDF",
@@ -3285,6 +3569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new outline section pointing to the last created page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Navigation",
           "name": "newSection",
           "package": "HPDF",
@@ -3294,6 +3579,7 @@
         "index": {
           "description": "Create new outline section pointing to the last created page",
           "hierarchy": "Graphics PDF Navigation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Navigation",
           "name": "newSection",
           "normalized": "PDFString-\u003eMaybe Color-\u003eMaybe OutlineStyle-\u003ePDF()-\u003ePDF()",
@@ -3310,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new outline section pointing to a given page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Navigation",
           "name": "newSectionWithPage",
           "package": "HPDF",
@@ -3319,6 +3606,7 @@
         "index": {
           "description": "Create new outline section pointing to given page",
           "hierarchy": "Graphics PDF Navigation",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Navigation",
           "name": "newSectionWithPage",
           "normalized": "PDFString-\u003eMaybe Color-\u003eMaybe OutlineStyle-\u003ePDFReference PDFPage-\u003ePDF()-\u003ePDF()",
@@ -3335,6 +3623,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF Patterns\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "Pattern",
           "package": "HPDF",
@@ -3344,6 +3633,7 @@
         "index": {
           "description": "PDF Patterns",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "Pattern",
           "package": "HPDF",
@@ -3357,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "PDFColoredPattern",
           "package": "HPDF",
@@ -3365,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "PDFColoredPattern",
           "package": "HPDF",
@@ -3379,6 +3671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PDF Pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "PDFUncoloredPattern",
           "package": "HPDF",
@@ -3388,6 +3681,7 @@
         "index": {
           "description": "PDF Pattern",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "PDFUncoloredPattern",
           "package": "HPDF",
@@ -3402,6 +3696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTiling type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "TilingType",
           "package": "HPDF",
@@ -3411,6 +3706,7 @@
         "index": {
           "description": "Tiling type",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "TilingType",
           "package": "HPDF",
@@ -3424,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "ConstantSpacing",
           "package": "HPDF",
@@ -3433,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "ConstantSpacing",
           "package": "HPDF",
@@ -3446,6 +3744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "ConstantSpacingAndFaster",
           "package": "HPDF",
@@ -3455,6 +3754,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "ConstantSpacingAndFaster",
           "package": "HPDF",
@@ -3468,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "NoDistortion",
           "package": "HPDF",
@@ -3477,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "NoDistortion",
           "package": "HPDF",
@@ -3491,6 +3793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a colored tiling pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "createColoredTiling",
           "package": "HPDF",
@@ -3500,6 +3803,7 @@
         "index": {
           "description": "Create colored tiling pattern",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "createColoredTiling",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003eTilingType-\u003eDraw a-\u003ePDF(PDFReference PDFColoredPattern)",
@@ -3516,6 +3820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an uncolored tiling pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "createUncoloredTiling",
           "package": "HPDF",
@@ -3525,6 +3830,7 @@
         "index": {
           "description": "Create an uncolored tiling pattern",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "createUncoloredTiling",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003eTilingType-\u003eDraw a-\u003ePDF(PDFReference PDFUncoloredPattern)",
@@ -3541,6 +3847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the fill pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "setColoredFillPattern",
           "package": "HPDF",
@@ -3551,6 +3858,7 @@
         "index": {
           "description": "Set the fill pattern",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "setColoredFillPattern",
           "normalized": "PDFReference PDFColoredPattern-\u003eDraw()",
@@ -3567,6 +3875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the stroke pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "setColoredStrokePattern",
           "package": "HPDF",
@@ -3577,6 +3886,7 @@
         "index": {
           "description": "Set the stroke pattern",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "setColoredStrokePattern",
           "normalized": "PDFReference PDFColoredPattern-\u003eDraw()",
@@ -3593,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the fill pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "setUncoloredFillPattern",
           "package": "HPDF",
@@ -3603,6 +3914,7 @@
         "index": {
           "description": "Set the fill pattern",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "setUncoloredFillPattern",
           "normalized": "PDFReference PDFUncoloredPattern-\u003eColor-\u003eDraw()",
@@ -3619,6 +3931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the stroke pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Pattern",
           "name": "setUncoloredStrokePattern",
           "package": "HPDF",
@@ -3629,6 +3942,7 @@
         "index": {
           "description": "Set the stroke pattern",
           "hierarchy": "Graphics PDF Pattern",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Pattern",
           "name": "setUncoloredStrokePattern",
           "normalized": "PDFReference PDFUncoloredPattern-\u003eColor-\u003eDraw()",
@@ -3645,6 +3959,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF shading\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shading",
           "name": "Shading",
           "package": "HPDF",
@@ -3654,6 +3969,7 @@
         "index": {
           "description": "PDF shading",
           "hierarchy": "Graphics PDF Shading",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shading",
           "name": "Shading",
           "package": "HPDF",
@@ -3668,6 +3984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shading                             \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shading",
           "name": "PDFShading",
           "package": "HPDF",
@@ -3677,6 +3994,7 @@
         "index": {
           "description": "shading",
           "hierarchy": "Graphics PDF Shading",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shading",
           "name": "PDFShading",
           "package": "HPDF",
@@ -3690,6 +4008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shading",
           "name": "AxialShading",
           "package": "HPDF",
@@ -3699,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shading",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shading",
           "name": "AxialShading",
           "package": "HPDF",
@@ -3712,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shading",
           "name": "RadialShading",
           "package": "HPDF",
@@ -3721,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shading",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shading",
           "name": "RadialShading",
           "package": "HPDF",
@@ -3735,6 +4057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill clipping region with a shading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shading",
           "name": "applyShading",
           "package": "HPDF",
@@ -3745,6 +4068,7 @@
         "index": {
           "description": "Fill clipping region with shading",
           "hierarchy": "Graphics PDF Shading",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shading",
           "name": "applyShading",
           "normalized": "PDFShading-\u003eDraw()",
@@ -3760,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shading",
           "name": "paintWithShading",
           "package": "HPDF",
@@ -3768,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shading",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shading",
           "name": "paintWithShading",
           "normalized": "PDFShading-\u003eDraw a-\u003eDraw()",
@@ -3784,6 +4110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF Shapes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Shapes",
           "package": "HPDF",
@@ -3793,6 +4120,7 @@
         "index": {
           "description": "PDF Shapes",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Shapes",
           "package": "HPDF",
@@ -3806,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Arc",
           "package": "HPDF",
@@ -3814,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Arc",
           "package": "HPDF",
@@ -3828,6 +4158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine cap styles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "CapStyle",
           "package": "HPDF",
@@ -3837,6 +4168,7 @@
         "index": {
           "description": "Line cap styles",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "CapStyle",
           "package": "HPDF",
@@ -3850,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Circle",
           "package": "HPDF",
@@ -3858,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Circle",
           "package": "HPDF",
@@ -3871,6 +4205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "DashPattern",
           "package": "HPDF",
@@ -3879,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "DashPattern",
           "package": "HPDF",
@@ -3892,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Ellipse",
           "package": "HPDF",
@@ -3900,6 +4237,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Ellipse",
           "package": "HPDF",
@@ -3914,6 +4252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine join styles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "JoinStyle",
           "package": "HPDF",
@@ -3923,6 +4262,7 @@
         "index": {
           "description": "Line join styles",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "JoinStyle",
           "package": "HPDF",
@@ -3936,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Line",
           "package": "HPDF",
@@ -3944,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Line",
           "package": "HPDF",
@@ -3957,6 +4299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Polygon",
           "package": "HPDF",
@@ -3965,6 +4308,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Polygon",
           "package": "HPDF",
@@ -3978,6 +4322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Rectangle",
           "package": "HPDF",
@@ -3986,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Rectangle",
           "package": "HPDF",
@@ -3999,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "RoundRectangle",
           "package": "HPDF",
@@ -4007,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "RoundRectangle",
           "package": "HPDF",
@@ -4020,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Shape",
           "package": "HPDF",
@@ -4028,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Shape",
           "package": "HPDF",
@@ -4041,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Arc",
           "package": "HPDF",
@@ -4050,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Arc",
           "package": "HPDF",
@@ -4063,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "BevelJoin",
           "package": "HPDF",
@@ -4072,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "BevelJoin",
           "package": "HPDF",
@@ -4085,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "ButtCap",
           "package": "HPDF",
@@ -4094,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "ButtCap",
           "package": "HPDF",
@@ -4107,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Circle",
           "package": "HPDF",
@@ -4116,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Circle",
           "package": "HPDF",
@@ -4129,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "DashPattern",
           "package": "HPDF",
@@ -4138,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "DashPattern",
           "normalized": "DashPattern[PDFFloat]PDFFloat",
@@ -4153,6 +4513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Ellipse",
           "package": "HPDF",
@@ -4162,6 +4523,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Ellipse",
           "package": "HPDF",
@@ -4175,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Line",
           "package": "HPDF",
@@ -4184,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Line",
           "package": "HPDF",
@@ -4197,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "MiterJoin",
           "package": "HPDF",
@@ -4206,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "MiterJoin",
           "package": "HPDF",
@@ -4219,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Polygon",
           "package": "HPDF",
@@ -4228,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Polygon",
           "normalized": "Polygon[Point]",
@@ -4243,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "Rectangle",
           "package": "HPDF",
@@ -4252,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "Rectangle",
           "package": "HPDF",
@@ -4265,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "RoundCap",
           "package": "HPDF",
@@ -4274,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "RoundCap",
           "package": "HPDF",
@@ -4287,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "RoundJoin",
           "package": "HPDF",
@@ -4296,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "RoundJoin",
           "package": "HPDF",
@@ -4309,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "RoundRectangle",
           "package": "HPDF",
@@ -4318,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "RoundRectangle",
           "package": "HPDF",
@@ -4331,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "SquareCap",
           "package": "HPDF",
@@ -4340,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "SquareCap",
           "package": "HPDF",
@@ -4354,6 +4732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a cubic Bezier curve to the current path. The curve extends \n from the current point to the point (x3 , y3), using (x1 , y1 ) and \n (x2, y2) as the Bezier control points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "addBezierCubic",
           "package": "HPDF",
@@ -4364,6 +4743,7 @@
         "index": {
           "description": "Append cubic Bezier curve to the current path The curve extends from the current point to the point x3 y3 using x1 y1 and x2 y2 as the Bezier control points",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "addBezierCubic",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003eDraw()",
@@ -4379,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "addLineToPath",
           "package": "HPDF",
@@ -4388,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "addLineToPath",
           "normalized": "Point-\u003eDraw()",
@@ -4404,6 +4786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a polygon to current path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "addPolygonToPath",
           "package": "HPDF",
@@ -4414,6 +4797,7 @@
         "index": {
           "description": "Add polygon to current path",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "addPolygonToPath",
           "normalized": "[Point]-\u003eDraw()",
@@ -4429,6 +4813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "addShape",
           "package": "HPDF",
@@ -4438,6 +4823,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "addShape",
           "normalized": "a-\u003eDraw()",
@@ -4454,6 +4840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate a circular arc by one cubic bezier curve.\n larger arc angles mean larger distortions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "arcto",
           "package": "HPDF",
@@ -4463,6 +4850,7 @@
         "index": {
           "description": "Approximate circular arc by one cubic bezier curve larger arc angles mean larger distortions",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "arcto",
           "normalized": "Angle-\u003ePoint-\u003eDraw()",
@@ -4478,6 +4866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin a new path at a position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "beginPath",
           "package": "HPDF",
@@ -4488,6 +4877,7 @@
         "index": {
           "description": "Begin new path at position",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "beginPath",
           "normalized": "Point-\u003eDraw()",
@@ -4504,6 +4894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose current path \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "closePath",
           "package": "HPDF",
@@ -4514,6 +4905,7 @@
         "index": {
           "description": "Close current path",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "closePath",
           "normalized": "Draw()",
@@ -4529,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "curveto",
           "package": "HPDF",
@@ -4538,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "curveto",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003eDraw()",
@@ -4552,6 +4946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "fill",
           "package": "HPDF",
@@ -4561,6 +4956,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "fill",
           "normalized": "a-\u003eDraw()",
@@ -4575,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "fillAndStroke",
           "package": "HPDF",
@@ -4584,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "fillAndStroke",
           "normalized": "a-\u003eDraw()",
@@ -4599,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "fillAndStrokeEO",
           "package": "HPDF",
@@ -4608,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "fillAndStrokeEO",
           "normalized": "a-\u003eDraw()",
@@ -4624,6 +5024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill current path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "fillAndStrokePath",
           "package": "HPDF",
@@ -4634,6 +5035,7 @@
         "index": {
           "description": "Fill current path",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "fillAndStrokePath",
           "normalized": "Draw()",
@@ -4650,6 +5052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill current path using even odd rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "fillAndStrokePathEO",
           "package": "HPDF",
@@ -4660,6 +5063,7 @@
         "index": {
           "description": "Fill current path using even odd rule",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "fillAndStrokePathEO",
           "normalized": "Draw()",
@@ -4675,6 +5079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "fillEO",
           "package": "HPDF",
@@ -4684,6 +5089,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "fillEO",
           "normalized": "a-\u003eDraw()",
@@ -4700,6 +5106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill current path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "fillPath",
           "package": "HPDF",
@@ -4710,6 +5117,7 @@
         "index": {
           "description": "Fill current path",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "fillPath",
           "normalized": "Draw()",
@@ -4726,6 +5134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill current path using even odd rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "fillPathEO",
           "package": "HPDF",
@@ -4736,6 +5145,7 @@
         "index": {
           "description": "Fill current path using even odd rule",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "fillPathEO",
           "normalized": "Draw()",
@@ -4752,6 +5162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a line from current point to the one specified by lineto\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "lineto",
           "package": "HPDF",
@@ -4762,6 +5173,7 @@
         "index": {
           "description": "Draw line from current point to the one specified by lineto",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "lineto",
           "normalized": "Point-\u003eDraw()",
@@ -4777,6 +5189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove pen to a given point without drawing anything\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "moveto",
           "package": "HPDF",
@@ -4787,6 +5200,7 @@
         "index": {
           "description": "Move pen to given point without drawing anything",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "moveto",
           "normalized": "Point-\u003eDraw()",
@@ -4802,6 +5216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet clipping path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "setAsClipPath",
           "package": "HPDF",
@@ -4812,6 +5227,7 @@
         "index": {
           "description": "Set clipping path",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "setAsClipPath",
           "normalized": "Draw()",
@@ -4828,6 +5244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet clipping path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "setAsClipPathEO",
           "package": "HPDF",
@@ -4838,6 +5255,7 @@
         "index": {
           "description": "Set clipping path",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "setAsClipPathEO",
           "normalized": "Draw()",
@@ -4854,6 +5272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "setDash",
           "package": "HPDF",
@@ -4864,6 +5283,7 @@
         "index": {
           "description": "Set the dash pattern",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "setDash",
           "normalized": "DashPattern-\u003ea()",
@@ -4880,6 +5300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet line cap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "setLineCap",
           "package": "HPDF",
@@ -4890,6 +5311,7 @@
         "index": {
           "description": "Set line cap",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "setLineCap",
           "normalized": "CapStyle-\u003ea()",
@@ -4906,6 +5328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet line join\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "setLineJoin",
           "package": "HPDF",
@@ -4916,6 +5339,7 @@
         "index": {
           "description": "Set line join",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "setLineJoin",
           "normalized": "JoinStyle-\u003ea()",
@@ -4932,6 +5356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet pen width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "setMiterLimit",
           "package": "HPDF",
@@ -4942,6 +5367,7 @@
         "index": {
           "description": "Set pen width",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "setMiterLimit",
           "normalized": "PDFFloat-\u003ea()",
@@ -4958,6 +5384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo dash pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "setNoDash",
           "package": "HPDF",
@@ -4968,6 +5395,7 @@
         "index": {
           "description": "No dash pattern",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "setNoDash",
           "normalized": "a()",
@@ -4984,6 +5412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet pen width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "setWidth",
           "package": "HPDF",
@@ -4994,6 +5423,7 @@
         "index": {
           "description": "Set pen width",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "setWidth",
           "normalized": "PDFFloat-\u003ea()",
@@ -5009,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "stroke",
           "package": "HPDF",
@@ -5018,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "stroke",
           "normalized": "a-\u003eDraw()",
@@ -5033,6 +5465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw current path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Shapes",
           "name": "strokePath",
           "package": "HPDF",
@@ -5043,6 +5476,7 @@
         "index": {
           "description": "Draw current path",
           "hierarchy": "Graphics PDF Shapes",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Shapes",
           "name": "strokePath",
           "normalized": "Draw()",
@@ -5059,6 +5493,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF Text\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Text",
           "package": "HPDF",
@@ -5068,6 +5503,7 @@
         "index": {
           "description": "PDF Text",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Text",
           "package": "HPDF",
@@ -5081,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "FontName",
           "package": "HPDF",
@@ -5089,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "FontName",
           "package": "HPDF",
@@ -5102,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "PDFFont",
           "package": "HPDF",
@@ -5110,6 +5549,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "PDFFont",
           "package": "HPDF",
@@ -5124,6 +5564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe text monad \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "PDFText",
           "package": "HPDF",
@@ -5133,6 +5574,7 @@
         "index": {
           "description": "The text monad",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "PDFText",
           "package": "HPDF",
@@ -5147,6 +5589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering mode for text display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "TextMode",
           "package": "HPDF",
@@ -5156,6 +5599,7 @@
         "index": {
           "description": "Rendering mode for text display",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "TextMode",
           "package": "HPDF",
@@ -5170,6 +5614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnscaled unit (not scaled by the font size)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "UnscaledUnit",
           "package": "HPDF",
@@ -5179,6 +5624,7 @@
         "index": {
           "description": "Unscaled unit not scaled by the font size",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "UnscaledUnit",
           "package": "HPDF",
@@ -5192,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "AddToClip",
           "package": "HPDF",
@@ -5201,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "AddToClip",
           "package": "HPDF",
@@ -5214,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Courier",
           "package": "HPDF",
@@ -5223,6 +5672,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Courier",
           "package": "HPDF",
@@ -5236,6 +5686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Courier_Bold",
           "package": "HPDF",
@@ -5245,6 +5696,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Courier_Bold",
           "package": "HPDF",
@@ -5258,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Courier_BoldOblique",
           "package": "HPDF",
@@ -5267,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Courier_BoldOblique",
           "package": "HPDF",
@@ -5280,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Courier_Oblique",
           "package": "HPDF",
@@ -5289,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Courier_Oblique",
           "package": "HPDF",
@@ -5302,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "FillAndStrokeText",
           "package": "HPDF",
@@ -5311,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "FillAndStrokeText",
           "package": "HPDF",
@@ -5324,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "FillAndStrokeTextAndAddToClip",
           "package": "HPDF",
@@ -5333,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "FillAndStrokeTextAndAddToClip",
           "package": "HPDF",
@@ -5346,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "FillText",
           "package": "HPDF",
@@ -5355,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "FillText",
           "package": "HPDF",
@@ -5368,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "FillTextAndAddToClip",
           "package": "HPDF",
@@ -5377,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "FillTextAndAddToClip",
           "package": "HPDF",
@@ -5390,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Helvetica",
           "package": "HPDF",
@@ -5399,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Helvetica",
           "package": "HPDF",
@@ -5412,6 +5878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Helvetica_Bold",
           "package": "HPDF",
@@ -5421,6 +5888,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Helvetica_Bold",
           "package": "HPDF",
@@ -5434,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Helvetica_BoldOblique",
           "package": "HPDF",
@@ -5443,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Helvetica_BoldOblique",
           "package": "HPDF",
@@ -5456,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Helvetica_Oblique",
           "package": "HPDF",
@@ -5465,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Helvetica_Oblique",
           "package": "HPDF",
@@ -5478,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "InvisibleText",
           "package": "HPDF",
@@ -5487,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "InvisibleText",
           "package": "HPDF",
@@ -5500,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "PDFFont",
           "package": "HPDF",
@@ -5509,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "PDFFont",
           "package": "HPDF",
@@ -5522,6 +5998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "StrokeText",
           "package": "HPDF",
@@ -5531,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "StrokeText",
           "package": "HPDF",
@@ -5544,6 +6022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "StrokeTextAndAddToClip",
           "package": "HPDF",
@@ -5553,6 +6032,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "StrokeTextAndAddToClip",
           "package": "HPDF",
@@ -5566,6 +6046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Symbol",
           "package": "HPDF",
@@ -5575,6 +6056,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Symbol",
           "package": "HPDF",
@@ -5588,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Times_Bold",
           "package": "HPDF",
@@ -5597,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Times_Bold",
           "package": "HPDF",
@@ -5610,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Times_BoldItalic",
           "package": "HPDF",
@@ -5619,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Times_BoldItalic",
           "package": "HPDF",
@@ -5632,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Times_Italic",
           "package": "HPDF",
@@ -5641,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Times_Italic",
           "package": "HPDF",
@@ -5654,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "Times_Roman",
           "package": "HPDF",
@@ -5663,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "Times_Roman",
           "package": "HPDF",
@@ -5676,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "ZapfDingbats",
           "package": "HPDF",
@@ -5685,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "ZapfDingbats",
           "package": "HPDF",
@@ -5699,6 +6191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the additional char space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "charSpace",
           "package": "HPDF",
@@ -5709,6 +6202,7 @@
         "index": {
           "description": "Set the additional char space",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "charSpace",
           "normalized": "UnscaledUnit-\u003ePDFText()",
@@ -5724,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "charWidth",
           "package": "HPDF",
@@ -5733,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "charWidth",
           "normalized": "PDFFont-\u003eChar-\u003ePDFFloat",
@@ -5749,6 +6245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay some text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "displayText",
           "package": "HPDF",
@@ -5759,6 +6256,7 @@
         "index": {
           "description": "Display some text",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "displayText",
           "normalized": "PDFString-\u003ePDFText()",
@@ -5775,6 +6273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a text in the draw monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "drawText",
           "package": "HPDF",
@@ -5785,6 +6284,7 @@
         "index": {
           "description": "Draw text in the draw monad",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "drawText",
           "normalized": "PDFText a-\u003eDraw a",
@@ -5800,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "getDescent",
           "package": "HPDF",
@@ -5809,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "getDescent",
           "normalized": "PDFFont-\u003ePDFFloat",
@@ -5824,6 +6326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "getHeight",
           "package": "HPDF",
@@ -5833,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "getHeight",
           "normalized": "PDFFont-\u003ePDFFloat",
@@ -5849,6 +6353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet leading value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "leading",
           "package": "HPDF",
@@ -5859,6 +6364,7 @@
         "index": {
           "description": "Set leading value",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "leading",
           "normalized": "UnscaledUnit-\u003ePDFText()",
@@ -5874,6 +6380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose the text rendering mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "renderMode",
           "package": "HPDF",
@@ -5884,6 +6391,7 @@
         "index": {
           "description": "Choose the text rendering mode",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "renderMode",
           "normalized": "TextMode-\u003ePDFText()",
@@ -5899,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "ripText",
           "package": "HPDF",
@@ -5907,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "ripText",
           "normalized": "PDFFont-\u003ePDFString-\u003e[(PDFFloat,Char)]",
@@ -5923,6 +6433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the rise value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "rise",
           "package": "HPDF",
@@ -5933,6 +6444,7 @@
         "index": {
           "description": "Set the rise value",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "rise",
           "normalized": "UnscaledUnit-\u003ePDFText()",
@@ -5948,6 +6460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a font to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "setFont",
           "package": "HPDF",
@@ -5958,6 +6471,7 @@
         "index": {
           "description": "Select font to use",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "setFont",
           "normalized": "PDFFont-\u003ePDFText()",
@@ -5974,6 +6488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text transformation matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "setTextMatrix",
           "package": "HPDF",
@@ -5984,6 +6499,7 @@
         "index": {
           "description": "Set the text transformation matrix",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "setTextMatrix",
           "normalized": "Matrix-\u003ePDFText()",
@@ -6000,6 +6516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a new line (leading value must have been set)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "startNewLine",
           "package": "HPDF",
@@ -6010,6 +6527,7 @@
         "index": {
           "description": "Start new line leading value must have been set",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "startNewLine",
           "normalized": "PDFText()",
@@ -6026,6 +6544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility function to quickly display one line of text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "text",
           "package": "HPDF",
@@ -6036,6 +6555,7 @@
         "index": {
           "description": "Utility function to quickly display one line of text",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "text",
           "normalized": "PDFFont-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFString-\u003ePDFText()",
@@ -6051,6 +6571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet scaling factor for text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "textScale",
           "package": "HPDF",
@@ -6061,6 +6582,7 @@
         "index": {
           "description": "Set scaling factor for text",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "textScale",
           "normalized": "PDFFloat-\u003ePDFText()",
@@ -6077,6 +6599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet position for the text beginning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "textStart",
           "package": "HPDF",
@@ -6087,6 +6610,7 @@
         "index": {
           "description": "Set position for the text beginning",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "textStart",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003ePDFText()",
@@ -6102,6 +6626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "textWidth",
           "package": "HPDF",
@@ -6111,6 +6636,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "textWidth",
           "normalized": "PDFFont-\u003ePDFString-\u003ePDFFloat",
@@ -6127,6 +6653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a PDF string from an Haskell one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "toPDFString",
           "package": "HPDF",
@@ -6137,6 +6664,7 @@
         "index": {
           "description": "Create PDF string from an Haskell one",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "toPDFString",
           "normalized": "String-\u003ePDFString",
@@ -6153,6 +6681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the additional word space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Text",
           "name": "wordSpace",
           "package": "HPDF",
@@ -6163,6 +6692,7 @@
         "index": {
           "description": "Set the additional word space",
           "hierarchy": "Graphics PDF Text",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Text",
           "name": "wordSpace",
           "normalized": "UnscaledUnit-\u003ePDFText()",
@@ -6179,6 +6709,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExperimental typesetting. It is a work in progress\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Typesetting",
           "package": "HPDF",
@@ -6188,6 +6719,7 @@
         "index": {
           "description": "Experimental typesetting It is work in progress",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Typesetting",
           "package": "HPDF",
@@ -6202,6 +6734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA box is an object with dimensions and used in the typesetting process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Box",
           "package": "HPDF",
@@ -6211,6 +6744,7 @@
         "index": {
           "description": "box is an object with dimensions and used in the typesetting process",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Box",
           "package": "HPDF",
@@ -6225,6 +6759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of a box : width, height and descent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "BoxDimension",
           "package": "HPDF",
@@ -6234,6 +6769,7 @@
         "index": {
           "description": "Dimension of box width height and descent",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "BoxDimension",
           "package": "HPDF",
@@ -6248,6 +6784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to compare two style without taking into account the style state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "ComparableStyle",
           "package": "HPDF",
@@ -6257,6 +6794,7 @@
         "index": {
           "description": "Used to compare two style without taking into account the style state",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "ComparableStyle",
           "package": "HPDF",
@@ -6271,6 +6809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer for vboxes (x,y,width,maxheight,height,currenty,current z, tolerance para)\n tolerance para means a paragraph is not started if too close from the bottom edge of the box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Container",
           "package": "HPDF",
@@ -6280,6 +6819,7 @@
         "index": {
           "description": "Container for vboxes width maxheight height currenty current tolerance para tolerance para means paragraph is not started if too close from the bottom edge of the box",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Container",
           "package": "HPDF",
@@ -6294,6 +6834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA box that can be displayed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "DisplayableBox",
           "package": "HPDF",
@@ -6303,6 +6844,7 @@
         "index": {
           "description": "box that can be displayed",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "DisplayableBox",
           "package": "HPDF",
@@ -6316,6 +6858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Justification",
           "package": "HPDF",
@@ -6324,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Justification",
           "package": "HPDF",
@@ -6338,6 +6882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA letter which can be anything. Sizes are widths and for glue the dilation and compression factors\n For the generic letter, height and descent are also provided\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Letter",
           "package": "HPDF",
@@ -6347,6 +6892,7 @@
         "index": {
           "description": "letter which can be anything Sizes are widths and for glue the dilation and compression factors For the generic letter height and descent are also provided",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Letter",
           "package": "HPDF",
@@ -6361,6 +6907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA MonadStyle where some typesetting operators can be used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "MonadStyle",
           "package": "HPDF",
@@ -6370,6 +6917,7 @@
         "index": {
           "description": "MonadStyle where some typesetting operators can be used",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "MonadStyle",
           "package": "HPDF",
@@ -6383,6 +6931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Orientation",
           "package": "HPDF",
@@ -6391,6 +6940,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Orientation",
           "package": "HPDF",
@@ -6404,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Para",
           "package": "HPDF",
@@ -6412,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Para",
           "package": "HPDF",
@@ -6426,6 +6978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParagraph style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "ParagraphStyle",
           "package": "HPDF",
@@ -6435,6 +6988,7 @@
         "index": {
           "description": "Paragraph style",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "ParagraphStyle",
           "package": "HPDF",
@@ -6449,6 +7003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard styles for paragraphs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "StandardParagraphStyle",
           "package": "HPDF",
@@ -6458,6 +7013,7 @@
         "index": {
           "description": "Standard styles for paragraphs",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "StandardParagraphStyle",
           "package": "HPDF",
@@ -6472,6 +7028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard styles for sentences\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "StandardStyle",
           "package": "HPDF",
@@ -6481,6 +7038,7 @@
         "index": {
           "description": "Standard styles for sentences",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "StandardStyle",
           "package": "HPDF",
@@ -6495,6 +7053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle of text  (sentences and words). Minimum definition textStyle      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Style",
           "package": "HPDF",
@@ -6504,6 +7063,7 @@
         "index": {
           "description": "Style of text sentences and words Minimum definition textStyle",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Style",
           "package": "HPDF",
@@ -6518,6 +7078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat kind of style drawing function is required for a word\n when word styling is enabled              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "StyleFunction",
           "package": "HPDF",
@@ -6527,6 +7088,7 @@
         "index": {
           "description": "What kind of style drawing function is required for word when word styling is enabled",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "StyleFunction",
           "package": "HPDF",
@@ -6540,6 +7102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "TM",
           "package": "HPDF",
@@ -6548,6 +7111,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "TM",
           "package": "HPDF",
@@ -6562,6 +7126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText style used by PDF operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "TextStyle",
           "package": "HPDF",
@@ -6571,6 +7136,7 @@
         "index": {
           "description": "Text style used by PDF operators",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "TextStyle",
           "package": "HPDF",
@@ -6584,6 +7150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "VBox",
           "package": "HPDF",
@@ -6592,6 +7159,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "VBox",
           "package": "HPDF",
@@ -6605,6 +7173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "VerState",
           "package": "HPDF",
@@ -6613,6 +7182,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "VerState",
           "package": "HPDF",
@@ -6627,6 +7197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "AChar",
           "package": "HPDF",
@@ -6637,6 +7208,7 @@
         "index": {
           "description": "char",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "AChar",
           "package": "HPDF",
@@ -6650,6 +7222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Centered",
           "package": "HPDF",
@@ -6659,6 +7232,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Centered",
           "package": "HPDF",
@@ -6673,6 +7247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust style a glue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "DrawGlue",
           "package": "HPDF",
@@ -6683,6 +7258,7 @@
         "index": {
           "description": "Must style glue",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "DrawGlue",
           "package": "HPDF",
@@ -6697,6 +7273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust style a word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "DrawWord",
           "package": "HPDF",
@@ -6707,6 +7284,7 @@
         "index": {
           "description": "Must style word",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "DrawWord",
           "package": "HPDF",
@@ -6720,6 +7298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "E",
           "package": "HPDF",
@@ -6729,6 +7308,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "E",
           "package": "HPDF",
@@ -6742,6 +7322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphen point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "FlaggedPenalty",
           "package": "HPDF",
@@ -6752,6 +7333,7 @@
         "index": {
           "description": "Hyphen point",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "FlaggedPenalty",
           "package": "HPDF",
@@ -6765,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Font",
           "package": "HPDF",
@@ -6774,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Font",
           "package": "HPDF",
@@ -6787,6 +7371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "FullJustification",
           "package": "HPDF",
@@ -6796,6 +7381,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "FullJustification",
           "package": "HPDF",
@@ -6810,6 +7396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA glue with style to know if it is part of the same sentence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Glue",
           "package": "HPDF",
@@ -6820,6 +7407,7 @@
         "index": {
           "description": "glue with style to know if it is part of the same sentence",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Glue",
           "package": "HPDF",
@@ -6834,6 +7422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA kern : non dilatable and non breakable glue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Kern",
           "package": "HPDF",
@@ -6844,6 +7433,7 @@
         "index": {
           "description": "kern non dilatable and non breakable glue",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Kern",
           "package": "HPDF",
@@ -6857,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "LeftJustification",
           "package": "HPDF",
@@ -6866,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "LeftJustification",
           "package": "HPDF",
@@ -6880,6 +7472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny box as a letter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Letter",
           "package": "HPDF",
@@ -6890,6 +7483,7 @@
         "index": {
           "description": "Any box as letter",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Letter",
           "package": "HPDF",
@@ -6903,6 +7497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "N",
           "package": "HPDF",
@@ -6912,6 +7507,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "N",
           "package": "HPDF",
@@ -6924,6 +7520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "NE",
           "package": "HPDF",
@@ -6933,6 +7530,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "NE",
           "package": "HPDF",
@@ -6946,6 +7544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "NW",
           "package": "HPDF",
@@ -6955,6 +7554,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "NW",
           "package": "HPDF",
@@ -6968,6 +7568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "NormalParagraph",
           "package": "HPDF",
@@ -6977,6 +7578,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "NormalParagraph",
           "package": "HPDF",
@@ -6991,6 +7593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePenalty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "Penalty",
           "package": "HPDF",
@@ -7001,6 +7604,7 @@
         "index": {
           "description": "Penalty",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "Penalty",
           "package": "HPDF",
@@ -7014,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "RightJustification",
           "package": "HPDF",
@@ -7023,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "RightJustification",
           "package": "HPDF",
@@ -7036,6 +7642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "S",
           "package": "HPDF",
@@ -7045,6 +7652,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "S",
           "package": "HPDF",
@@ -7057,6 +7665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "SE",
           "package": "HPDF",
@@ -7066,6 +7675,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "SE",
           "package": "HPDF",
@@ -7079,6 +7689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "SW",
           "package": "HPDF",
@@ -7088,6 +7699,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "SW",
           "package": "HPDF",
@@ -7101,6 +7713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "TextStyle",
           "package": "HPDF",
@@ -7110,6 +7723,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "TextStyle",
           "package": "HPDF",
@@ -7123,6 +7737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "VerState",
           "package": "HPDF",
@@ -7132,6 +7747,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "VerState",
           "package": "HPDF",
@@ -7145,6 +7761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "W",
           "package": "HPDF",
@@ -7154,6 +7771,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "W",
           "package": "HPDF",
@@ -7167,6 +7785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a box using the current mode (horizontal or vertical. The current style is always applied to the added box)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "addBox",
           "package": "HPDF",
@@ -7177,6 +7796,7 @@
         "index": {
           "description": "Add box using the current mode horizontal or vertical The current style is always applied to the added box",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "addBox",
           "package": "HPDF",
@@ -7191,6 +7811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a penalty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "addPenalty",
           "package": "HPDF",
@@ -7201,6 +7822,7 @@
         "index": {
           "description": "Add penalty",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "addPenalty",
           "normalized": "Int-\u003ePara a()",
@@ -7217,6 +7839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value (12,0.17,0.0)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "baselineskip",
           "package": "HPDF",
@@ -7227,6 +7850,7 @@
         "index": {
           "description": "Default value",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "baselineskip",
           "normalized": "(PDFFloat,PDFFloat,PDFFloat)",
@@ -7242,6 +7866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance between box top and box baseline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "boxAscent",
           "package": "HPDF",
@@ -7252,6 +7877,7 @@
         "index": {
           "description": "Distance between box top and box baseline",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "boxAscent",
           "normalized": "a-\u003ePDFFloat",
@@ -7268,6 +7894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance between box bottom and box baseline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "boxDescent",
           "package": "HPDF",
@@ -7278,6 +7905,7 @@
         "index": {
           "description": "Distance between box bottom and box baseline",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "boxDescent",
           "normalized": "a-\u003ePDFFloat",
@@ -7294,6 +7922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBox height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "boxHeight",
           "package": "HPDF",
@@ -7304,6 +7933,7 @@
         "index": {
           "description": "Box height",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "boxHeight",
           "normalized": "a-\u003ePDFFloat",
@@ -7320,6 +7950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBox width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "boxWidth",
           "package": "HPDF",
@@ -7330,6 +7961,7 @@
         "index": {
           "description": "Box width",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "boxWidth",
           "package": "HPDF",
@@ -7344,6 +7976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the content height of the container with glue dilatation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerContentHeight",
           "package": "HPDF",
@@ -7354,6 +7987,7 @@
         "index": {
           "description": "Get the content height of the container with glue dilatation",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerContentHeight",
           "normalized": "Container a b-\u003ePDFFloat",
@@ -7370,6 +8004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the minimum left border of the container content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerContentLeftBorder",
           "package": "HPDF",
@@ -7380,6 +8015,7 @@
         "index": {
           "description": "Get the minimum left border of the container content",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerContentLeftBorder",
           "normalized": "Container a b-\u003ePDFFloat",
@@ -7396,6 +8032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the rectangle containing the text after formatting and glue dilatation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerContentRectangle",
           "package": "HPDF",
@@ -7406,6 +8043,7 @@
         "index": {
           "description": "Return the rectangle containing the text after formatting and glue dilatation",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerContentRectangle",
           "normalized": "Container a b-\u003eRectangle",
@@ -7422,6 +8060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the maximum right border of the container content (maybe bigger than container width due to overfull lines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerContentRightBorder",
           "package": "HPDF",
@@ -7432,6 +8071,7 @@
         "index": {
           "description": "Get the maximum right border of the container content maybe bigger than container width due to overfull lines",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerContentRightBorder",
           "normalized": "Container a b-\u003ePDFFloat",
@@ -7448,6 +8088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current height of the container without glue dilatation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerCurrentHeight",
           "package": "HPDF",
@@ -7458,6 +8099,7 @@
         "index": {
           "description": "Get the current height of the container without glue dilatation",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerCurrentHeight",
           "normalized": "Container a b-\u003ePDFFloat",
@@ -7474,6 +8116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the height of the container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerHeight",
           "package": "HPDF",
@@ -7484,6 +8127,7 @@
         "index": {
           "description": "Get the height of the container",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerHeight",
           "normalized": "Container a b-\u003ePDFFloat",
@@ -7500,6 +8144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the width of the container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerWidth",
           "package": "HPDF",
@@ -7510,6 +8155,7 @@
         "index": {
           "description": "Get the width of the container",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerWidth",
           "normalized": "Container a b-\u003ePDFFloat",
@@ -7526,6 +8172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer horizontal position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerX",
           "package": "HPDF",
@@ -7536,6 +8183,7 @@
         "index": {
           "description": "Container horizontal position",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerX",
           "normalized": "Container a b-\u003ePDFFloat",
@@ -7551,6 +8199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer vertical position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerY",
           "package": "HPDF",
@@ -7561,6 +8210,7 @@
         "index": {
           "description": "Container vertical position",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "containerY",
           "normalized": "Container a b-\u003ePDFFloat",
@@ -7575,6 +8225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "currentParagraphStyle",
           "package": "HPDF",
@@ -7584,6 +8235,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "currentParagraphStyle",
           "package": "HPDF",
@@ -7598,6 +8250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current text style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "currentStyle",
           "package": "HPDF",
@@ -7608,6 +8261,7 @@
         "index": {
           "description": "Get the current text style",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "currentStyle",
           "package": "HPDF",
@@ -7622,6 +8276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault vertical state\n\u003c/p\u003e\u003cpre\u003e Default values\n baselineskip = (12,0.17,0.0)\n lineskip = (3.0,0.33,0.0)\n lineskiplimit = 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "defaultVerState",
           "package": "HPDF",
@@ -7632,6 +8287,7 @@
         "index": {
           "description": "Default vertical state Default values baselineskip lineskip lineskiplimit",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "defaultVerState",
           "normalized": "a-\u003eVerState a",
@@ -7648,6 +8304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a formatted text in a given bounding rectangle with a given default paragraph style, a given default text style. No clipping\n is taking place. Drawing stop when the last line is crossing the bounding rectangle in vertical direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "displayFormattedText",
           "package": "HPDF",
@@ -7657,6 +8314,7 @@
         "index": {
           "description": "Display formatted text in given bounding rectangle with given default paragraph style given default text style No clipping is taking place Drawing stop when the last line is crossing the bounding rectangle in vertical direction",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "displayFormattedText",
           "normalized": "Rectangle-\u003ea-\u003eb-\u003eTM a b c-\u003eDraw c",
@@ -7673,6 +8331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a text box with relative position. Useful for labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "drawTextBox",
           "package": "HPDF",
@@ -7682,6 +8341,7 @@
         "index": {
           "description": "Draw text box with relative position Useful for labels",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "drawTextBox",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003eOrientation-\u003ea-\u003eb-\u003eTM a b c-\u003e(Rectangle,Draw())",
@@ -7697,6 +8357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "endPara",
           "package": "HPDF",
@@ -7706,6 +8367,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "endPara",
           "normalized": "Para a()",
@@ -7722,6 +8384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a container with lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "fillContainer",
           "package": "HPDF",
@@ -7731,6 +8394,7 @@
         "index": {
           "description": "Fill container with lines",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "fillContainer",
           "normalized": "VerState a-\u003eContainer a b-\u003e[VBox a b]-\u003e(Draw(),Container a b,[VBox a b])",
@@ -7747,6 +8411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a newline and end the current paragraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "forceNewLine",
           "package": "HPDF",
@@ -7757,6 +8422,7 @@
         "index": {
           "description": "For newline and end the current paragraph",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "forceNewLine",
           "normalized": "Para a()",
@@ -7772,6 +8438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getBaseLineSkip",
           "package": "HPDF",
@@ -7781,6 +8448,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getBaseLineSkip",
           "normalized": "TM a b(PDFFloat,PDFFloat,PDFFloat)",
@@ -7797,6 +8465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the list of Vboxes for a text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getBoxes",
           "package": "HPDF",
@@ -7806,6 +8475,7 @@
         "index": {
           "description": "Return the list of Vboxes for text",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getBoxes",
           "normalized": "a-\u003eb-\u003eTM a b c-\u003e[VBox a b]",
@@ -7821,6 +8491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getFirstPassTolerance",
           "package": "HPDF",
@@ -7830,6 +8501,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getFirstPassTolerance",
           "package": "HPDF",
@@ -7843,6 +8515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getFitnessDemerit",
           "package": "HPDF",
@@ -7852,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getFitnessDemerit",
           "package": "HPDF",
@@ -7865,6 +8539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getHyphenDemerit",
           "package": "HPDF",
@@ -7874,6 +8549,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getHyphenDemerit",
           "package": "HPDF",
@@ -7887,6 +8563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getHyphenPenaltyValue",
           "package": "HPDF",
@@ -7896,6 +8573,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getHyphenPenaltyValue",
           "package": "HPDF",
@@ -7909,6 +8587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getLinePenalty",
           "package": "HPDF",
@@ -7918,6 +8597,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getLinePenalty",
           "package": "HPDF",
@@ -7931,6 +8611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getLineSkip",
           "package": "HPDF",
@@ -7940,6 +8621,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getLineSkip",
           "normalized": "TM a b(PDFFloat,PDFFloat,PDFFloat)",
@@ -7955,6 +8637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getLineSkipLimit",
           "package": "HPDF",
@@ -7964,6 +8647,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getLineSkipLimit",
           "package": "HPDF",
@@ -7978,6 +8662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current paragraph style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getParaStyle",
           "package": "HPDF",
@@ -7988,6 +8673,7 @@
         "index": {
           "description": "Get the current paragraph style",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getParaStyle",
           "package": "HPDF",
@@ -8001,6 +8687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "getSecondPassTolerance",
           "package": "HPDF",
@@ -8010,6 +8697,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "getSecondPassTolerance",
           "package": "HPDF",
@@ -8024,6 +8712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a glue using the current style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "glue",
           "package": "HPDF",
@@ -8034,6 +8723,7 @@
         "index": {
           "description": "Add glue using the current style",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "glue",
           "package": "HPDF",
@@ -8047,6 +8737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to style the interline glues added in a paragraph by the line breaking algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "interline",
           "package": "HPDF",
@@ -8057,6 +8748,7 @@
         "index": {
           "description": "How to style the interline glues added in paragraph by the line breaking algorithm",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "interline",
           "package": "HPDF",
@@ -8069,6 +8761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "isSameStyleAs",
           "package": "HPDF",
@@ -8078,6 +8771,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "isSameStyleAs",
           "normalized": "a-\u003ea-\u003eBool",
@@ -8094,6 +8788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a kern (space that can be dilated or compressed and on which no line breaking can occur)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "kern",
           "package": "HPDF",
@@ -8104,6 +8799,7 @@
         "index": {
           "description": "add kern space that can be dilated or compressed and on which no line breaking can occur",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "kern",
           "normalized": "PDFFloat-\u003ePara a()",
@@ -8119,6 +8815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal shift of the line position relatively to the left egde of the paragraph bounding box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "linePosition",
           "package": "HPDF",
@@ -8129,6 +8826,7 @@
         "index": {
           "description": "Horizontal shift of the line position relatively to the left egde of the paragraph bounding box",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "linePosition",
           "package": "HPDF",
@@ -8143,6 +8841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth of the line of the paragraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "lineWidth",
           "package": "HPDF",
@@ -8153,6 +8852,7 @@
         "index": {
           "description": "Width of the line of the paragraph",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "lineWidth",
           "package": "HPDF",
@@ -8167,6 +8867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value (3.0,0.33,0.0)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "lineskip",
           "package": "HPDF",
@@ -8177,6 +8878,7 @@
         "index": {
           "description": "Default value",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "lineskip",
           "normalized": "(PDFFloat,PDFFloat,PDFFloat)",
@@ -8192,6 +8894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value 2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "lineskiplimit",
           "package": "HPDF",
@@ -8202,6 +8905,7 @@
         "index": {
           "description": "Default value",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "lineskiplimit",
           "package": "HPDF",
@@ -8215,6 +8919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a empty container to constraint the amount of line that can be displayed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "mkContainer",
           "package": "HPDF",
@@ -8224,6 +8929,7 @@
         "index": {
           "description": "Create empty container to constraint the amount of line that can be displayed",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "mkContainer",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003eContainer a b",
@@ -8240,6 +8946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a drawing box. A box object containing a Draw value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "mkDrawBox",
           "package": "HPDF",
@@ -8250,6 +8957,7 @@
         "index": {
           "description": "Make drawing box box object containing Draw value",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "mkDrawBox",
           "normalized": "Draw()-\u003eDrawBox",
@@ -8266,6 +8974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a letter from any box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "mkLetter",
           "package": "HPDF",
@@ -8275,6 +8984,7 @@
         "index": {
           "description": "Make letter from any box",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "mkLetter",
           "normalized": "BoxDimension-\u003eMaybe a-\u003eb-\u003eLetter a",
@@ -8291,6 +9001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new paragraph to the text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "paragraph",
           "package": "HPDF",
@@ -8301,6 +9012,7 @@
         "index": {
           "description": "Add new paragraph to the text",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "paragraph",
           "normalized": "Para a b-\u003eTM c a b",
@@ -8316,6 +9028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the content of a paragraph before the line breaking algorithm is run. It may also change the style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "paragraphChange",
           "package": "HPDF",
@@ -8326,6 +9039,7 @@
         "index": {
           "description": "Change the content of paragraph before the line breaking algorithm is run It may also change the style",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "paragraphChange",
           "package": "HPDF",
@@ -8340,6 +9054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the paragraph bounding box and the paragraph draw command to apply additional effects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "paragraphStyle",
           "package": "HPDF",
@@ -8350,6 +9065,7 @@
         "index": {
           "description": "Get the paragraph bounding box and the paragraph draw command to apply additional effects",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "paragraphStyle",
           "package": "HPDF",
@@ -8363,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "penWidth",
           "package": "HPDF",
@@ -8372,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "penWidth",
           "package": "HPDF",
@@ -8386,6 +9104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale the compression factor of glues\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "scaleCompression",
           "package": "HPDF",
@@ -8396,6 +9115,7 @@
         "index": {
           "description": "Scale the compression factor of glues",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "scaleCompression",
           "package": "HPDF",
@@ -8410,6 +9130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale the dilation factor of glues\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "scaleDilatation",
           "package": "HPDF",
@@ -8420,6 +9141,7 @@
         "index": {
           "description": "Scale the dilation factor of glues",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "scaleDilatation",
           "package": "HPDF",
@@ -8434,6 +9156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScaling factor for normal space size (scale also the dilation and compression factors)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "scaleSpace",
           "package": "HPDF",
@@ -8444,6 +9167,7 @@
         "index": {
           "description": "Scaling factor for normal space size scale also the dilation and compression factors",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "scaleSpace",
           "package": "HPDF",
@@ -8458,6 +9182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the look of a sentence (sequence of words using the same style on a line)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "sentenceStyle",
           "package": "HPDF",
@@ -8468,6 +9193,7 @@
         "index": {
           "description": "Modify the look of sentence sequence of words using the same style on line",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "sentenceStyle",
           "package": "HPDF",
@@ -8481,6 +9207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setBaseLineSkip",
           "package": "HPDF",
@@ -8490,6 +9217,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setBaseLineSkip",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003eTM a b()",
@@ -8505,6 +9233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setFirstPassTolerance",
           "package": "HPDF",
@@ -8514,6 +9243,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setFirstPassTolerance",
           "normalized": "PDFFloat-\u003eTM a b()",
@@ -8529,6 +9259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setFitnessDemerit",
           "package": "HPDF",
@@ -8538,6 +9269,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setFitnessDemerit",
           "normalized": "PDFFloat-\u003eTM a b()",
@@ -8553,6 +9285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setHyphenDemerit",
           "package": "HPDF",
@@ -8562,6 +9295,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setHyphenDemerit",
           "normalized": "PDFFloat-\u003eTM a b()",
@@ -8577,6 +9311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setHyphenPenaltyValue",
           "package": "HPDF",
@@ -8586,6 +9321,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setHyphenPenaltyValue",
           "normalized": "Int-\u003eTM a b()",
@@ -8601,6 +9337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setJustification",
           "package": "HPDF",
@@ -8609,6 +9346,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setJustification",
           "normalized": "Justification-\u003eTM a b()",
@@ -8624,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setLinePenalty",
           "package": "HPDF",
@@ -8633,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setLinePenalty",
           "normalized": "PDFFloat-\u003eTM a b()",
@@ -8648,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setLineSkip",
           "package": "HPDF",
@@ -8657,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setLineSkip",
           "normalized": "PDFFloat-\u003ePDFFloat-\u003ePDFFloat-\u003eTM a b()",
@@ -8672,6 +9414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setLineSkipLimit",
           "package": "HPDF",
@@ -8681,6 +9424,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setLineSkipLimit",
           "normalized": "PDFFloat-\u003eTM a b()",
@@ -8697,6 +9441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the current paragraph style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setParaStyle",
           "package": "HPDF",
@@ -8707,6 +9452,7 @@
         "index": {
           "description": "Change the current paragraph style",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setParaStyle",
           "normalized": "a-\u003eTM a b()",
@@ -8722,6 +9468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setSecondPassTolerance",
           "package": "HPDF",
@@ -8731,6 +9478,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setSecondPassTolerance",
           "normalized": "PDFFloat-\u003eTM a b()",
@@ -8747,6 +9495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current text style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "setStyle",
           "package": "HPDF",
@@ -8757,6 +9506,7 @@
         "index": {
           "description": "Set the current text style",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "setStyle",
           "normalized": "a-\u003eb()",
@@ -8772,6 +9522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "startPara",
           "package": "HPDF",
@@ -8781,6 +9532,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "startPara",
           "normalized": "Para a()",
@@ -8797,6 +9549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "strokeBox",
           "package": "HPDF",
@@ -8807,6 +9560,7 @@
         "index": {
           "description": "Draw box",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "strokeBox",
           "package": "HPDF",
@@ -8821,6 +9575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA style may change the descent of lines\n\u003c/p\u003e\u003cpre\u003e Default implementation\n styleDescent = getDescent . textFont . textStyle\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "styleDescent",
           "package": "HPDF",
@@ -8831,6 +9586,7 @@
         "index": {
           "description": "style may change the descent of lines Default implementation styleDescent getDescent textFont textStyle",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "styleDescent",
           "normalized": "a-\u003ePDFFloat",
@@ -8847,6 +9603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA style may change the height of words\n\u003c/p\u003e\u003cpre\u003e Default implementation\n styleHeight = getHeight . textFont . textStyle\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "styleHeight",
           "package": "HPDF",
@@ -8857,6 +9614,7 @@
         "index": {
           "description": "style may change the height of words Default implementation styleHeight getHeight textFont textStyle",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "styleHeight",
           "normalized": "a-\u003ePDFFloat",
@@ -8872,6 +9630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "textFillColor",
           "package": "HPDF",
@@ -8881,6 +9640,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "textFillColor",
           "package": "HPDF",
@@ -8894,6 +9654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "textFont",
           "package": "HPDF",
@@ -8903,6 +9664,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "textFont",
           "package": "HPDF",
@@ -8916,6 +9678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "textMode",
           "package": "HPDF",
@@ -8925,6 +9688,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "textMode",
           "package": "HPDF",
@@ -8938,6 +9702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "textStrokeColor",
           "package": "HPDF",
@@ -8947,6 +9712,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "textStrokeColor",
           "package": "HPDF",
@@ -8960,6 +9726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "textStyle",
           "package": "HPDF",
@@ -8969,6 +9736,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "textStyle",
           "normalized": "a-\u003eTextStyle",
@@ -8985,6 +9753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a text line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "txt",
           "package": "HPDF",
@@ -8995,6 +9764,7 @@
         "index": {
           "description": "Add text line",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "txt",
           "normalized": "String-\u003ePara a()",
@@ -9010,6 +9780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a glue with no style (it is just a translation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "unstyledGlue",
           "package": "HPDF",
@@ -9020,6 +9791,7 @@
         "index": {
           "description": "Add glue with no style it is just translation",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "unstyledGlue",
           "package": "HPDF",
@@ -9034,6 +9806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA style may contain data changed from word to word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "updateStyle",
           "package": "HPDF",
@@ -9044,6 +9817,7 @@
         "index": {
           "description": "style may contain data changed from word to word",
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "updateStyle",
           "normalized": "a-\u003ea",
@@ -9059,6 +9833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF.Typesetting",
           "name": "wordStyle",
           "package": "HPDF",
@@ -9068,6 +9843,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Typesetting",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF.Typesetting",
           "name": "wordStyle",
           "package": "HPDF",
@@ -9082,6 +9858,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneration of PDF documents\n A PDF library with support for several pages, page transitions, outlines, annotations, compression, \n colors, shapes, patterns, jpegs, fonts, typesetting ... Have a look at the \u003ca\u003eGraphics.PDF.Documentation\u003c/a\u003e \n module to see how to use it. Or, download the package and look at the test.hs file \n in the Test folder. That file is giving an example of each feature.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "PDF",
           "package": "HPDF",
@@ -9091,6 +9868,7 @@
         "index": {
           "description": "Generation of PDF documents PDF library with support for several pages page transitions outlines annotations compression colors shapes patterns jpegs fonts typesetting Have look at the Graphics.PDF.Documentation module to see how to use it Or download the package and look at the test.hs file in the Test folder That file is giving an example of each feature",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "PDF",
           "package": "HPDF",
@@ -9105,6 +9883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDF Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "PDF",
           "package": "HPDF",
@@ -9114,6 +9893,7 @@
         "index": {
           "description": "The PDF Monad",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "PDF",
           "package": "HPDF",
@@ -9128,6 +9908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA real number in a PDF document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "PDFFloat",
           "package": "HPDF",
@@ -9137,6 +9918,7 @@
         "index": {
           "description": "real number in PDF document",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "PDFFloat",
           "package": "HPDF",
@@ -9151,6 +9933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PDF Page object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "PDFPage",
           "package": "HPDF",
@@ -9160,6 +9943,7 @@
         "index": {
           "description": "PDF Page object",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "PDFPage",
           "package": "HPDF",
@@ -9174,6 +9958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PDF rectangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "PDFRect",
           "package": "HPDF",
@@ -9183,6 +9968,7 @@
         "index": {
           "description": "PDF rectangle",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "PDFRect",
           "package": "HPDF",
@@ -9197,6 +9983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to a PDF object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "PDFReference",
           "package": "HPDF",
@@ -9206,6 +9993,7 @@
         "index": {
           "description": "reference to PDF object",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "PDFReference",
           "package": "HPDF",
@@ -9220,6 +10008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PDFString containing a strict bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "PDFString",
           "package": "HPDF",
@@ -9229,6 +10018,7 @@
         "index": {
           "description": "PDFString containing strict bytestring",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "PDFString",
           "package": "HPDF",
@@ -9243,6 +10033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all pages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "Pages",
           "package": "HPDF",
@@ -9252,6 +10043,7 @@
         "index": {
           "description": "List of all pages",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "Pages",
           "package": "HPDF",
@@ -9265,6 +10057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "PDFRect",
           "package": "HPDF",
@@ -9274,6 +10067,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "PDFRect",
           "package": "HPDF",
@@ -9288,6 +10082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation matrix to the current coordinate frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "applyMatrix",
           "package": "HPDF",
@@ -9298,6 +10093,7 @@
         "index": {
           "description": "Apply transformation matrix to the current coordinate frame",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "applyMatrix",
           "normalized": "Matrix-\u003eDraw()",
@@ -9314,6 +10110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a lazy bytestring for the PDF     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "pdfByteString",
           "package": "HPDF",
@@ -9323,6 +10120,7 @@
         "index": {
           "description": "Generate lazy bytestring for the PDF",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "pdfByteString",
           "normalized": "PDFDocumentInfo-\u003ePDFRect-\u003ePDF a-\u003eIO ByteString",
@@ -9339,6 +10137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a PDF document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:03 UTC 2014",
           "module": "Graphics.PDF",
           "name": "runPdf",
           "package": "HPDF",
@@ -9348,6 +10147,7 @@
         "index": {
           "description": "Generates PDF document",
           "hierarchy": "Graphics PDF",
+          "indexed": "2014-03-11T16:46:03",
           "module": "Graphics.PDF",
           "name": "runPdf",
           "normalized": "String-\u003ePDFDocumentInfo-\u003ePDFRect-\u003ePDF a-\u003eIO()",

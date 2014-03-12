@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sundown"
+        "phrase": "sundown",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWarning: you should not need to use this module, if you're storing your text\nsanely. Use \u003ca\u003eText.Sundown.Html.String\u003c/a\u003e or \u003ca\u003eText.Sundown.Html.Text\u003c/a\u003e so that you\nwon't have to worry about text encoding.\n\u003c/p\u003e\u003cp\u003eIf you really want to use \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es directly, make sure that they are UTF-8.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.ByteString",
           "name": "ByteString",
           "package": "sundown",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Warning you should not need to use this module if you re storing your text sanely Use Text.Sundown.Html.String or Text.Sundown.Html.Text so that you won have to worry about text encoding If you really want to use ByteString directly make sure that they are UTF-8",
           "hierarchy": "Text Sundown Html ByteString",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.ByteString",
           "name": "ByteString",
           "package": "sundown",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of switches to enable or disable markdown features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.ByteString",
           "name": "Extensions",
           "package": "sundown",
@@ -51,6 +54,7 @@
         "index": {
           "description": "set of switches to enable or disable markdown features",
           "hierarchy": "Text Sundown Html ByteString",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.ByteString",
           "name": "Extensions",
           "package": "sundown",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.ByteString",
           "name": "HtmlRenderMode",
           "package": "sundown",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html ByteString",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.ByteString",
           "name": "HtmlRenderMode",
           "package": "sundown",
@@ -670,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing the markdown, returns the Html code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.ByteString",
           "name": "renderHtml",
           "package": "sundown",
@@ -679,6 +686,7 @@
         "index": {
           "description": "Parses ByteString containing the markdown returns the Html code",
           "hierarchy": "Text Sundown Html ByteString",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.ByteString",
           "name": "renderHtml",
           "normalized": "Extensions-\u003eHtmlRenderMode-\u003eBool-\u003eMaybe Int-\u003eByteString-\u003eByteString",
@@ -695,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts punctuation in Html entities,\n \u003ca\u003ehttp://daringfireball.net/projects/smartypants/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.ByteString",
           "name": "smartypants",
           "package": "sundown",
@@ -705,6 +714,7 @@
         "index": {
           "description": "Converts punctuation in Html entities http daringfireball.net projects smartypants",
           "hierarchy": "Text Sundown Html ByteString",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.ByteString",
           "name": "smartypants",
           "normalized": "ByteString-\u003eByteString",
@@ -719,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.String",
           "name": "String",
           "package": "sundown",
@@ -727,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html String",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.String",
           "name": "String",
           "package": "sundown",
@@ -741,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of switches to enable or disable markdown features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.String",
           "name": "Extensions",
           "package": "sundown",
@@ -750,6 +763,7 @@
         "index": {
           "description": "set of switches to enable or disable markdown features",
           "hierarchy": "Text Sundown Html String",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.String",
           "name": "Extensions",
           "package": "sundown",
@@ -763,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.String",
           "name": "HtmlRenderMode",
           "package": "sundown",
@@ -771,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html String",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.String",
           "name": "HtmlRenderMode",
           "package": "sundown",
@@ -785,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e containing the markdown, returns the Html code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.String",
           "name": "renderHtml",
           "package": "sundown",
@@ -794,6 +811,7 @@
         "index": {
           "description": "Parses String containing the markdown returns the Html code",
           "hierarchy": "Text Sundown Html String",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.String",
           "name": "renderHtml",
           "normalized": "Extensions-\u003eHtmlRenderMode-\u003eBool-\u003eMaybe Int-\u003eString-\u003eString",
@@ -810,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts punctuation in Html entities,\n \u003ca\u003ehttp://daringfireball.net/projects/smartypants/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.String",
           "name": "smartypants",
           "package": "sundown",
@@ -820,6 +839,7 @@
         "index": {
           "description": "Converts punctuation in Html entities http daringfireball.net projects smartypants",
           "hierarchy": "Text Sundown Html String",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.String",
           "name": "smartypants",
           "normalized": "String-\u003eString",
@@ -834,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.Text",
           "name": "Text",
           "package": "sundown",
@@ -842,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html Text",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.Text",
           "name": "Text",
           "package": "sundown",
@@ -856,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of switches to enable or disable markdown features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.Text",
           "name": "Extensions",
           "package": "sundown",
@@ -865,6 +888,7 @@
         "index": {
           "description": "set of switches to enable or disable markdown features",
           "hierarchy": "Text Sundown Html Text",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.Text",
           "name": "Extensions",
           "package": "sundown",
@@ -878,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.Text",
           "name": "HtmlRenderMode",
           "package": "sundown",
@@ -886,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html Text",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.Text",
           "name": "HtmlRenderMode",
           "package": "sundown",
@@ -900,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e containing the markdown, returns the Html code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.Text",
           "name": "renderHtml",
           "package": "sundown",
@@ -909,6 +936,7 @@
         "index": {
           "description": "Parses Text containing the markdown returns the Html code",
           "hierarchy": "Text Sundown Html Text",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.Text",
           "name": "renderHtml",
           "normalized": "Extensions-\u003eHtmlRenderMode-\u003eBool-\u003eMaybe Int-\u003eText-\u003eText",
@@ -925,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts punctuation in Html entities,\n \u003ca\u003ehttp://daringfireball.net/projects/smartypants/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html.Text",
           "name": "smartypants",
           "package": "sundown",
@@ -935,6 +964,7 @@
         "index": {
           "description": "Converts punctuation in Html entities http daringfireball.net projects smartypants",
           "hierarchy": "Text Sundown Html Text",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html.Text",
           "name": "smartypants",
           "normalized": "Text-\u003eText",
@@ -950,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule exposing a generic class to convert to/from UTF8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es, and the\ncorresponding generic markdown functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "Html",
           "package": "sundown",
@@ -959,6 +990,7 @@
         "index": {
           "description": "Module exposing generic class to convert to from UTF8 ByteString and the corresponding generic markdown functions",
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "Html",
           "package": "sundown",
@@ -973,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of switches to enable or disable markdown features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "Extensions",
           "package": "sundown",
@@ -982,6 +1015,7 @@
         "index": {
           "description": "set of switches to enable or disable markdown features",
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "Extensions",
           "package": "sundown",
@@ -996,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an UTF8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to something.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "FromBS",
           "package": "sundown",
@@ -1005,6 +1040,7 @@
         "index": {
           "description": "Converts an UTF8 ByteString to something",
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "FromBS",
           "package": "sundown",
@@ -1018,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "HtmlRenderMode",
           "package": "sundown",
@@ -1026,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "HtmlRenderMode",
           "package": "sundown",
@@ -1040,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts something to an UTF8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "ToBS",
           "package": "sundown",
@@ -1049,6 +1088,7 @@
         "index": {
           "description": "Converts something to an UTF8 ByteString",
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "ToBS",
           "package": "sundown",
@@ -1062,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "fromBS",
           "package": "sundown",
@@ -1071,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "fromBS",
           "normalized": "ByteString-\u003ea",
@@ -1087,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses markdown, returns the Html.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "renderHtml",
           "package": "sundown",
@@ -1096,6 +1139,7 @@
         "index": {
           "description": "Parses markdown returns the Html",
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "renderHtml",
           "normalized": "Extensions-\u003eHtmlRenderMode-\u003eBool-\u003eMaybe Int-\u003ea-\u003eb",
@@ -1111,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "smartypants",
           "package": "sundown",
@@ -1120,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "smartypants",
           "normalized": "a-\u003eb",
@@ -1134,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown.Html",
           "name": "toBS",
           "package": "sundown",
@@ -1143,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Text Sundown Html",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown.Html",
           "name": "toBS",
           "normalized": "a-\u003eByteString",
@@ -1159,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to the github fork of the sundown library - previously known as\nupskirt: \u003ca\u003ehttps://github.com/tanoku/sundown\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eTo actually get output, you have to use one of the \u003ccode\u003eText.Sundown.Html\u003c/code\u003e modules:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eText.Sundown.Html.String\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eText.Sundown.Html.Text\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eText.Sundown.Html.ByteString\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eExample usage:\n\u003c/p\u003e\u003cpre\u003e import Text.Sundown.Renderers.Html.String\n import System (getArgs)\n import Control.Monad (liftM)\n\n main :: IO ()\n main = do\n   input \u003c- liftM (!! 0) getArgs \u003e\u003e= readFile\n   putStrLn $ renderHtml input allExtensions noHtmlModes Nothing\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown",
           "name": "Sundown",
           "package": "sundown",
@@ -1168,6 +1217,7 @@
         "index": {
           "description": "Bindings to the github fork of the sundown library previously known as upskirt https github.com tanoku sundown To actually get output you have to use one of the Text.Sundown.Html modules Text.Sundown.Html.String Text.Sundown.Html.Text Text.Sundown.Html.ByteString Example usage import Text.Sundown.Renderers.Html.String import System getArgs import Control.Monad liftM main IO main do input liftM getArgs readFile putStrLn renderHtml input allExtensions noHtmlModes Nothing",
           "hierarchy": "Text Sundown",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown",
           "name": "Sundown",
           "package": "sundown",
@@ -1182,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of switches to enable or disable markdown features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:43 UTC 2014",
           "module": "Text.Sundown",
           "name": "Extensions",
           "package": "sundown",
@@ -1191,6 +1242,7 @@
         "index": {
           "description": "set of switches to enable or disable markdown features",
           "hierarchy": "Text Sundown",
+          "indexed": "2014-03-11T20:13:43",
           "module": "Text.Sundown",
           "name": "Extensions",
           "package": "sundown",

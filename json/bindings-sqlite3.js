@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-sqlite3"
+        "phrase": "bindings-sqlite3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/intro.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "Sqlite3",
           "package": "bindings-sqlite3",
@@ -28,6 +29,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref intro.html",
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "Sqlite3",
           "package": "bindings-sqlite3",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3",
           "package": "bindings-sqlite3",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3",
           "package": "bindings-sqlite3",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_backup",
           "package": "bindings-sqlite3",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_backup",
           "package": "bindings-sqlite3",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_blob",
           "package": "bindings-sqlite3",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_blob",
           "package": "bindings-sqlite3",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_context",
           "package": "bindings-sqlite3",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_context",
           "package": "bindings-sqlite3",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_destructor_type",
           "package": "bindings-sqlite3",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_destructor_type",
           "package": "bindings-sqlite3",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_file",
           "package": "bindings-sqlite3",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_file",
           "package": "bindings-sqlite3",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_constraint",
           "package": "bindings-sqlite3",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_constraint",
           "package": "bindings-sqlite3",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_constraint_usage",
           "package": "bindings-sqlite3",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_constraint_usage",
           "package": "bindings-sqlite3",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_info",
           "package": "bindings-sqlite3",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_info",
           "package": "bindings-sqlite3",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_orderby",
           "package": "bindings-sqlite3",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_orderby",
           "package": "bindings-sqlite3",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_int64",
           "package": "bindings-sqlite3",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_int64",
           "package": "bindings-sqlite3",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_io_methods",
           "package": "bindings-sqlite3",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_io_methods",
           "package": "bindings-sqlite3",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mem_methods",
           "package": "bindings-sqlite3",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mem_methods",
           "package": "bindings-sqlite3",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_module",
           "package": "bindings-sqlite3",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_module",
           "package": "bindings-sqlite3",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mutex",
           "package": "bindings-sqlite3",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mutex",
           "package": "bindings-sqlite3",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mutex_methods",
           "package": "bindings-sqlite3",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mutex_methods",
           "package": "bindings-sqlite3",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache",
           "package": "bindings-sqlite3",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache",
           "package": "bindings-sqlite3",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache_methods2",
           "package": "bindings-sqlite3",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache_methods2",
           "package": "bindings-sqlite3",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache_page",
           "package": "bindings-sqlite3",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache_page",
           "package": "bindings-sqlite3",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_stmt",
           "package": "bindings-sqlite3",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_stmt",
           "package": "bindings-sqlite3",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_syscall_ptr",
           "package": "bindings-sqlite3",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_syscall_ptr",
           "package": "bindings-sqlite3",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_uint64",
           "package": "bindings-sqlite3",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_uint64",
           "package": "bindings-sqlite3",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_value",
           "package": "bindings-sqlite3",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_value",
           "package": "bindings-sqlite3",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vfs",
           "package": "bindings-sqlite3",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vfs",
           "package": "bindings-sqlite3",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vtab",
           "package": "bindings-sqlite3",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vtab",
           "package": "bindings-sqlite3",
@@ -566,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vtab_cursor",
           "package": "bindings-sqlite3",
@@ -574,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vtab_cursor",
           "package": "bindings-sqlite3",
@@ -587,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3",
           "package": "bindings-sqlite3",
@@ -596,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3",
           "package": "bindings-sqlite3",
@@ -609,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_backup",
           "package": "bindings-sqlite3",
@@ -618,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_backup",
           "package": "bindings-sqlite3",
@@ -631,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_blob",
           "package": "bindings-sqlite3",
@@ -640,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_blob",
           "package": "bindings-sqlite3",
@@ -653,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_context",
           "package": "bindings-sqlite3",
@@ -662,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_context",
           "package": "bindings-sqlite3",
@@ -675,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_file",
           "package": "bindings-sqlite3",
@@ -684,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_file",
           "package": "bindings-sqlite3",
@@ -697,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_constraint",
           "package": "bindings-sqlite3",
@@ -706,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_constraint",
           "package": "bindings-sqlite3",
@@ -719,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_constraint_usage",
           "package": "bindings-sqlite3",
@@ -728,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_constraint_usage",
           "package": "bindings-sqlite3",
@@ -741,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_info",
           "package": "bindings-sqlite3",
@@ -750,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_info",
           "package": "bindings-sqlite3",
@@ -763,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_orderby",
           "package": "bindings-sqlite3",
@@ -772,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_index_orderby",
           "package": "bindings-sqlite3",
@@ -785,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_io_methods",
           "package": "bindings-sqlite3",
@@ -794,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_io_methods",
           "package": "bindings-sqlite3",
@@ -807,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mem_methods",
           "package": "bindings-sqlite3",
@@ -816,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mem_methods",
           "package": "bindings-sqlite3",
@@ -829,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_module",
           "package": "bindings-sqlite3",
@@ -838,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_module",
           "package": "bindings-sqlite3",
@@ -851,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mutex",
           "package": "bindings-sqlite3",
@@ -860,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mutex",
           "package": "bindings-sqlite3",
@@ -873,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mutex_methods",
           "package": "bindings-sqlite3",
@@ -882,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_mutex_methods",
           "package": "bindings-sqlite3",
@@ -895,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache",
           "package": "bindings-sqlite3",
@@ -904,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache",
           "package": "bindings-sqlite3",
@@ -917,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache_methods2",
           "package": "bindings-sqlite3",
@@ -926,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache_methods2",
           "package": "bindings-sqlite3",
@@ -939,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache_page",
           "package": "bindings-sqlite3",
@@ -948,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_pcache_page",
           "package": "bindings-sqlite3",
@@ -961,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_stmt",
           "package": "bindings-sqlite3",
@@ -970,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_stmt",
           "package": "bindings-sqlite3",
@@ -983,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_value",
           "package": "bindings-sqlite3",
@@ -992,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_value",
           "package": "bindings-sqlite3",
@@ -1005,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vfs",
           "package": "bindings-sqlite3",
@@ -1014,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vfs",
           "package": "bindings-sqlite3",
@@ -1027,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vtab",
           "package": "bindings-sqlite3",
@@ -1036,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vtab",
           "package": "bindings-sqlite3",
@@ -1049,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vtab_cursor",
           "package": "bindings-sqlite3",
@@ -1058,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "C'sqlite3_vtab_cursor",
           "package": "bindings-sqlite3",
@@ -1071,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE3_TEXT",
           "package": "bindings-sqlite3",
@@ -1080,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE3_TEXT",
           "package": "bindings-sqlite3",
@@ -1093,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ABORT",
           "package": "bindings-sqlite3",
@@ -1102,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ABORT",
           "package": "bindings-sqlite3",
@@ -1115,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ABORT_ROLLBACK",
           "package": "bindings-sqlite3",
@@ -1124,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ABORT_ROLLBACK",
           "package": "bindings-sqlite3",
@@ -1137,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ACCESS_EXISTS",
           "package": "bindings-sqlite3",
@@ -1146,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ACCESS_EXISTS",
           "package": "bindings-sqlite3",
@@ -1159,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ACCESS_READ",
           "package": "bindings-sqlite3",
@@ -1168,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ACCESS_READ",
           "package": "bindings-sqlite3",
@@ -1181,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ACCESS_READWRITE",
           "package": "bindings-sqlite3",
@@ -1190,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ACCESS_READWRITE",
           "package": "bindings-sqlite3",
@@ -1203,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ALTER_TABLE",
           "package": "bindings-sqlite3",
@@ -1212,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ALTER_TABLE",
           "package": "bindings-sqlite3",
@@ -1225,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ANALYZE",
           "package": "bindings-sqlite3",
@@ -1234,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ANALYZE",
           "package": "bindings-sqlite3",
@@ -1247,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ANY",
           "package": "bindings-sqlite3",
@@ -1256,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ANY",
           "package": "bindings-sqlite3",
@@ -1269,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ATTACH",
           "package": "bindings-sqlite3",
@@ -1278,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ATTACH",
           "package": "bindings-sqlite3",
@@ -1291,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_AUTH",
           "package": "bindings-sqlite3",
@@ -1300,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_AUTH",
           "package": "bindings-sqlite3",
@@ -1313,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_BLOB",
           "package": "bindings-sqlite3",
@@ -1322,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_BLOB",
           "package": "bindings-sqlite3",
@@ -1335,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_BUSY",
           "package": "bindings-sqlite3",
@@ -1344,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_BUSY",
           "package": "bindings-sqlite3",
@@ -1357,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_BUSY_RECOVERY",
           "package": "bindings-sqlite3",
@@ -1366,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_BUSY_RECOVERY",
           "package": "bindings-sqlite3",
@@ -1379,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CANTOPEN",
           "package": "bindings-sqlite3",
@@ -1388,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CANTOPEN",
           "package": "bindings-sqlite3",
@@ -1401,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CANTOPEN_FULLPATH",
           "package": "bindings-sqlite3",
@@ -1410,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CANTOPEN_FULLPATH",
           "package": "bindings-sqlite3",
@@ -1423,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CANTOPEN_ISDIR",
           "package": "bindings-sqlite3",
@@ -1432,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CANTOPEN_ISDIR",
           "package": "bindings-sqlite3",
@@ -1445,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CANTOPEN_NOTEMPDIR",
           "package": "bindings-sqlite3",
@@ -1454,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CANTOPEN_NOTEMPDIR",
           "package": "bindings-sqlite3",
@@ -1467,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CHECKPOINT_FULL",
           "package": "bindings-sqlite3",
@@ -1476,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CHECKPOINT_FULL",
           "package": "bindings-sqlite3",
@@ -1489,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CHECKPOINT_PASSIVE",
           "package": "bindings-sqlite3",
@@ -1498,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CHECKPOINT_PASSIVE",
           "package": "bindings-sqlite3",
@@ -1511,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CHECKPOINT_RESTART",
           "package": "bindings-sqlite3",
@@ -1520,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CHECKPOINT_RESTART",
           "package": "bindings-sqlite3",
@@ -1533,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_COVERING_INDEX_SCAN",
           "package": "bindings-sqlite3",
@@ -1542,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_COVERING_INDEX_SCAN",
           "package": "bindings-sqlite3",
@@ -1555,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_GETMALLOC",
           "package": "bindings-sqlite3",
@@ -1564,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_GETMALLOC",
           "package": "bindings-sqlite3",
@@ -1577,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_GETMUTEX",
           "package": "bindings-sqlite3",
@@ -1586,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_GETMUTEX",
           "package": "bindings-sqlite3",
@@ -1599,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_GETPCACHE",
           "package": "bindings-sqlite3",
@@ -1608,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_GETPCACHE",
           "package": "bindings-sqlite3",
@@ -1621,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_GETPCACHE2",
           "package": "bindings-sqlite3",
@@ -1630,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_GETPCACHE2",
           "package": "bindings-sqlite3",
@@ -1643,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_HEAP",
           "package": "bindings-sqlite3",
@@ -1652,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_HEAP",
           "package": "bindings-sqlite3",
@@ -1665,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_LOG",
           "package": "bindings-sqlite3",
@@ -1674,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_LOG",
           "package": "bindings-sqlite3",
@@ -1687,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_LOOKASIDE",
           "package": "bindings-sqlite3",
@@ -1696,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_LOOKASIDE",
           "package": "bindings-sqlite3",
@@ -1709,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MALLOC",
           "package": "bindings-sqlite3",
@@ -1718,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MALLOC",
           "package": "bindings-sqlite3",
@@ -1731,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MEMSTATUS",
           "package": "bindings-sqlite3",
@@ -1740,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MEMSTATUS",
           "package": "bindings-sqlite3",
@@ -1753,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MMAP_SIZE",
           "package": "bindings-sqlite3",
@@ -1762,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MMAP_SIZE",
           "package": "bindings-sqlite3",
@@ -1775,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MULTITHREAD",
           "package": "bindings-sqlite3",
@@ -1784,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MULTITHREAD",
           "package": "bindings-sqlite3",
@@ -1797,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MUTEX",
           "package": "bindings-sqlite3",
@@ -1806,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_MUTEX",
           "package": "bindings-sqlite3",
@@ -1819,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_PAGECACHE",
           "package": "bindings-sqlite3",
@@ -1828,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_PAGECACHE",
           "package": "bindings-sqlite3",
@@ -1841,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_PCACHE",
           "package": "bindings-sqlite3",
@@ -1850,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_PCACHE",
           "package": "bindings-sqlite3",
@@ -1863,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_PCACHE2",
           "package": "bindings-sqlite3",
@@ -1872,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_PCACHE2",
           "package": "bindings-sqlite3",
@@ -1885,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_SCRATCH",
           "package": "bindings-sqlite3",
@@ -1894,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_SCRATCH",
           "package": "bindings-sqlite3",
@@ -1907,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_SERIALIZED",
           "package": "bindings-sqlite3",
@@ -1916,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_SERIALIZED",
           "package": "bindings-sqlite3",
@@ -1929,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_SINGLETHREAD",
           "package": "bindings-sqlite3",
@@ -1938,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_SINGLETHREAD",
           "package": "bindings-sqlite3",
@@ -1951,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_SQLLOG",
           "package": "bindings-sqlite3",
@@ -1960,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_SQLLOG",
           "package": "bindings-sqlite3",
@@ -1973,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_URI",
           "package": "bindings-sqlite3",
@@ -1982,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONFIG_URI",
           "package": "bindings-sqlite3",
@@ -1995,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT",
           "package": "bindings-sqlite3",
@@ -2004,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT",
           "package": "bindings-sqlite3",
@@ -2017,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_CHECK",
           "package": "bindings-sqlite3",
@@ -2026,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_CHECK",
           "package": "bindings-sqlite3",
@@ -2039,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_COMMITHOOK",
           "package": "bindings-sqlite3",
@@ -2048,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_COMMITHOOK",
           "package": "bindings-sqlite3",
@@ -2061,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_FOREIGNKEY",
           "package": "bindings-sqlite3",
@@ -2070,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_FOREIGNKEY",
           "package": "bindings-sqlite3",
@@ -2083,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_FUNCTION",
           "package": "bindings-sqlite3",
@@ -2092,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_FUNCTION",
           "package": "bindings-sqlite3",
@@ -2105,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_NOTNULL",
           "package": "bindings-sqlite3",
@@ -2114,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_NOTNULL",
           "package": "bindings-sqlite3",
@@ -2127,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_PRIMARYKEY",
           "package": "bindings-sqlite3",
@@ -2136,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_PRIMARYKEY",
           "package": "bindings-sqlite3",
@@ -2149,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2158,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2171,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_UNIQUE",
           "package": "bindings-sqlite3",
@@ -2180,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_UNIQUE",
           "package": "bindings-sqlite3",
@@ -2193,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_VTAB",
           "package": "bindings-sqlite3",
@@ -2202,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CONSTRAINT_VTAB",
           "package": "bindings-sqlite3",
@@ -2215,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_COPY",
           "package": "bindings-sqlite3",
@@ -2224,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_COPY",
           "package": "bindings-sqlite3",
@@ -2237,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CORRUPT",
           "package": "bindings-sqlite3",
@@ -2246,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CORRUPT",
           "package": "bindings-sqlite3",
@@ -2259,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CORRUPT_VTAB",
           "package": "bindings-sqlite3",
@@ -2268,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CORRUPT_VTAB",
           "package": "bindings-sqlite3",
@@ -2281,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_INDEX",
           "package": "bindings-sqlite3",
@@ -2290,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_INDEX",
           "package": "bindings-sqlite3",
@@ -2303,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TABLE",
           "package": "bindings-sqlite3",
@@ -2312,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TABLE",
           "package": "bindings-sqlite3",
@@ -2325,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TEMP_INDEX",
           "package": "bindings-sqlite3",
@@ -2334,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TEMP_INDEX",
           "package": "bindings-sqlite3",
@@ -2347,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TEMP_TABLE",
           "package": "bindings-sqlite3",
@@ -2356,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TEMP_TABLE",
           "package": "bindings-sqlite3",
@@ -2369,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TEMP_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2378,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TEMP_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2391,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TEMP_VIEW",
           "package": "bindings-sqlite3",
@@ -2400,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TEMP_VIEW",
           "package": "bindings-sqlite3",
@@ -2413,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2422,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2435,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_VIEW",
           "package": "bindings-sqlite3",
@@ -2444,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_VIEW",
           "package": "bindings-sqlite3",
@@ -2457,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_VTABLE",
           "package": "bindings-sqlite3",
@@ -2466,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_CREATE_VTABLE",
           "package": "bindings-sqlite3",
@@ -2479,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBCONFIG_ENABLE_FKEY",
           "package": "bindings-sqlite3",
@@ -2488,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBCONFIG_ENABLE_FKEY",
           "package": "bindings-sqlite3",
@@ -2501,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBCONFIG_ENABLE_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2510,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBCONFIG_ENABLE_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2523,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBCONFIG_LOOKASIDE",
           "package": "bindings-sqlite3",
@@ -2532,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBCONFIG_LOOKASIDE",
           "package": "bindings-sqlite3",
@@ -2545,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_CACHE_HIT",
           "package": "bindings-sqlite3",
@@ -2554,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_CACHE_HIT",
           "package": "bindings-sqlite3",
@@ -2567,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_CACHE_MISS",
           "package": "bindings-sqlite3",
@@ -2576,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_CACHE_MISS",
           "package": "bindings-sqlite3",
@@ -2589,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_CACHE_USED",
           "package": "bindings-sqlite3",
@@ -2598,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_CACHE_USED",
           "package": "bindings-sqlite3",
@@ -2611,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_CACHE_WRITE",
           "package": "bindings-sqlite3",
@@ -2620,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_CACHE_WRITE",
           "package": "bindings-sqlite3",
@@ -2633,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_LOOKASIDE_HIT",
           "package": "bindings-sqlite3",
@@ -2642,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_LOOKASIDE_HIT",
           "package": "bindings-sqlite3",
@@ -2655,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_LOOKASIDE_MISS_FULL",
           "package": "bindings-sqlite3",
@@ -2664,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_LOOKASIDE_MISS_FULL",
           "package": "bindings-sqlite3",
@@ -2677,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_LOOKASIDE_MISS_SIZE",
           "package": "bindings-sqlite3",
@@ -2686,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_LOOKASIDE_MISS_SIZE",
           "package": "bindings-sqlite3",
@@ -2699,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_LOOKASIDE_USED",
           "package": "bindings-sqlite3",
@@ -2708,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_LOOKASIDE_USED",
           "package": "bindings-sqlite3",
@@ -2721,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_MAX",
           "package": "bindings-sqlite3",
@@ -2730,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_MAX",
           "package": "bindings-sqlite3",
@@ -2743,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_SCHEMA_USED",
           "package": "bindings-sqlite3",
@@ -2752,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_SCHEMA_USED",
           "package": "bindings-sqlite3",
@@ -2765,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_STMT_USED",
           "package": "bindings-sqlite3",
@@ -2774,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DBSTATUS_STMT_USED",
           "package": "bindings-sqlite3",
@@ -2787,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DELETE",
           "package": "bindings-sqlite3",
@@ -2796,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DELETE",
           "package": "bindings-sqlite3",
@@ -2809,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DENY",
           "package": "bindings-sqlite3",
@@ -2818,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DENY",
           "package": "bindings-sqlite3",
@@ -2831,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DETACH",
           "package": "bindings-sqlite3",
@@ -2840,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DETACH",
           "package": "bindings-sqlite3",
@@ -2853,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DONE",
           "package": "bindings-sqlite3",
@@ -2862,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DONE",
           "package": "bindings-sqlite3",
@@ -2875,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_INDEX",
           "package": "bindings-sqlite3",
@@ -2884,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_INDEX",
           "package": "bindings-sqlite3",
@@ -2897,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TABLE",
           "package": "bindings-sqlite3",
@@ -2906,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TABLE",
           "package": "bindings-sqlite3",
@@ -2919,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TEMP_INDEX",
           "package": "bindings-sqlite3",
@@ -2928,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TEMP_INDEX",
           "package": "bindings-sqlite3",
@@ -2941,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TEMP_TABLE",
           "package": "bindings-sqlite3",
@@ -2950,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TEMP_TABLE",
           "package": "bindings-sqlite3",
@@ -2963,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TEMP_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2972,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TEMP_TRIGGER",
           "package": "bindings-sqlite3",
@@ -2985,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TEMP_VIEW",
           "package": "bindings-sqlite3",
@@ -2994,6 +3267,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TEMP_VIEW",
           "package": "bindings-sqlite3",
@@ -3007,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TRIGGER",
           "package": "bindings-sqlite3",
@@ -3016,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_TRIGGER",
           "package": "bindings-sqlite3",
@@ -3029,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_VIEW",
           "package": "bindings-sqlite3",
@@ -3038,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_VIEW",
           "package": "bindings-sqlite3",
@@ -3051,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_VTABLE",
           "package": "bindings-sqlite3",
@@ -3060,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_DROP_VTABLE",
           "package": "bindings-sqlite3",
@@ -3073,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_EMPTY",
           "package": "bindings-sqlite3",
@@ -3082,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_EMPTY",
           "package": "bindings-sqlite3",
@@ -3095,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ERROR",
           "package": "bindings-sqlite3",
@@ -3104,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ERROR",
           "package": "bindings-sqlite3",
@@ -3117,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FAIL",
           "package": "bindings-sqlite3",
@@ -3126,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FAIL",
           "package": "bindings-sqlite3",
@@ -3139,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_BUSYHANDLER",
           "package": "bindings-sqlite3",
@@ -3148,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_BUSYHANDLER",
           "package": "bindings-sqlite3",
@@ -3161,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_CHUNK_SIZE",
           "package": "bindings-sqlite3",
@@ -3170,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_CHUNK_SIZE",
           "package": "bindings-sqlite3",
@@ -3183,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_FILE_POINTER",
           "package": "bindings-sqlite3",
@@ -3192,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_FILE_POINTER",
           "package": "bindings-sqlite3",
@@ -3205,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_LOCKSTATE",
           "package": "bindings-sqlite3",
@@ -3214,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_LOCKSTATE",
           "package": "bindings-sqlite3",
@@ -3227,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_MMAP_SIZE",
           "package": "bindings-sqlite3",
@@ -3236,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_MMAP_SIZE",
           "package": "bindings-sqlite3",
@@ -3249,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_OVERWRITE",
           "package": "bindings-sqlite3",
@@ -3258,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_OVERWRITE",
           "package": "bindings-sqlite3",
@@ -3271,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_PERSIST_WAL",
           "package": "bindings-sqlite3",
@@ -3280,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_PERSIST_WAL",
           "package": "bindings-sqlite3",
@@ -3293,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_POWERSAFE_OVERWRITE",
           "package": "bindings-sqlite3",
@@ -3302,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_POWERSAFE_OVERWRITE",
           "package": "bindings-sqlite3",
@@ -3315,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_PRAGMA",
           "package": "bindings-sqlite3",
@@ -3324,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_PRAGMA",
           "package": "bindings-sqlite3",
@@ -3337,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_SIZE_HINT",
           "package": "bindings-sqlite3",
@@ -3346,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_SIZE_HINT",
           "package": "bindings-sqlite3",
@@ -3359,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_SYNC_OMITTED",
           "package": "bindings-sqlite3",
@@ -3368,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_SYNC_OMITTED",
           "package": "bindings-sqlite3",
@@ -3381,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_TEMPFILENAME",
           "package": "bindings-sqlite3",
@@ -3390,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_TEMPFILENAME",
           "package": "bindings-sqlite3",
@@ -3403,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_VFSNAME",
           "package": "bindings-sqlite3",
@@ -3412,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_VFSNAME",
           "package": "bindings-sqlite3",
@@ -3425,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_WIN32_AV_RETRY",
           "package": "bindings-sqlite3",
@@ -3434,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FCNTL_WIN32_AV_RETRY",
           "package": "bindings-sqlite3",
@@ -3447,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FLOAT",
           "package": "bindings-sqlite3",
@@ -3456,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FLOAT",
           "package": "bindings-sqlite3",
@@ -3469,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FORMAT",
           "package": "bindings-sqlite3",
@@ -3478,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FORMAT",
           "package": "bindings-sqlite3",
@@ -3491,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FULL",
           "package": "bindings-sqlite3",
@@ -3500,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FULL",
           "package": "bindings-sqlite3",
@@ -3513,6 +3833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FUNCTION",
           "package": "bindings-sqlite3",
@@ -3522,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_FUNCTION",
           "package": "bindings-sqlite3",
@@ -3535,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_GET_LOCKPROXYFILE",
           "package": "bindings-sqlite3",
@@ -3544,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_GET_LOCKPROXYFILE",
           "package": "bindings-sqlite3",
@@ -3557,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IGNORE",
           "package": "bindings-sqlite3",
@@ -3566,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IGNORE",
           "package": "bindings-sqlite3",
@@ -3579,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_EQ",
           "package": "bindings-sqlite3",
@@ -3588,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_EQ",
           "package": "bindings-sqlite3",
@@ -3601,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_GE",
           "package": "bindings-sqlite3",
@@ -3610,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_GE",
           "package": "bindings-sqlite3",
@@ -3623,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_GT",
           "package": "bindings-sqlite3",
@@ -3632,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_GT",
           "package": "bindings-sqlite3",
@@ -3645,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_LE",
           "package": "bindings-sqlite3",
@@ -3654,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_LE",
           "package": "bindings-sqlite3",
@@ -3667,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_LT",
           "package": "bindings-sqlite3",
@@ -3676,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_LT",
           "package": "bindings-sqlite3",
@@ -3689,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_MATCH",
           "package": "bindings-sqlite3",
@@ -3698,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INDEX_CONSTRAINT_MATCH",
           "package": "bindings-sqlite3",
@@ -3711,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INSERT",
           "package": "bindings-sqlite3",
@@ -3720,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INSERT",
           "package": "bindings-sqlite3",
@@ -3733,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INTEGER",
           "package": "bindings-sqlite3",
@@ -3742,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INTEGER",
           "package": "bindings-sqlite3",
@@ -3755,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INTERNAL",
           "package": "bindings-sqlite3",
@@ -3764,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INTERNAL",
           "package": "bindings-sqlite3",
@@ -3777,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INTERRUPT",
           "package": "bindings-sqlite3",
@@ -3786,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_INTERRUPT",
           "package": "bindings-sqlite3",
@@ -3799,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC",
           "package": "bindings-sqlite3",
@@ -3808,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC",
           "package": "bindings-sqlite3",
@@ -3821,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC16K",
           "package": "bindings-sqlite3",
@@ -3830,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC16K",
           "package": "bindings-sqlite3",
@@ -3843,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC1K",
           "package": "bindings-sqlite3",
@@ -3852,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC1K",
           "package": "bindings-sqlite3",
@@ -3865,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC2K",
           "package": "bindings-sqlite3",
@@ -3874,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC2K",
           "package": "bindings-sqlite3",
@@ -3887,6 +4241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC32K",
           "package": "bindings-sqlite3",
@@ -3896,6 +4251,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC32K",
           "package": "bindings-sqlite3",
@@ -3909,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC4K",
           "package": "bindings-sqlite3",
@@ -3918,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC4K",
           "package": "bindings-sqlite3",
@@ -3931,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC512",
           "package": "bindings-sqlite3",
@@ -3940,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC512",
           "package": "bindings-sqlite3",
@@ -3953,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC64K",
           "package": "bindings-sqlite3",
@@ -3962,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC64K",
           "package": "bindings-sqlite3",
@@ -3975,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC8K",
           "package": "bindings-sqlite3",
@@ -3984,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_ATOMIC8K",
           "package": "bindings-sqlite3",
@@ -3997,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_POWERSAFE_OVERWRITE",
           "package": "bindings-sqlite3",
@@ -4006,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_POWERSAFE_OVERWRITE",
           "package": "bindings-sqlite3",
@@ -4019,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_SAFE_APPEND",
           "package": "bindings-sqlite3",
@@ -4028,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_SAFE_APPEND",
           "package": "bindings-sqlite3",
@@ -4041,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_SEQUENTIAL",
           "package": "bindings-sqlite3",
@@ -4050,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_SEQUENTIAL",
           "package": "bindings-sqlite3",
@@ -4063,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_UNDELETABLE_WHEN_OPEN",
           "package": "bindings-sqlite3",
@@ -4072,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOCAP_UNDELETABLE_WHEN_OPEN",
           "package": "bindings-sqlite3",
@@ -4085,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR",
           "package": "bindings-sqlite3",
@@ -4094,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR",
           "package": "bindings-sqlite3",
@@ -4107,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_ACCESS",
           "package": "bindings-sqlite3",
@@ -4116,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_ACCESS",
           "package": "bindings-sqlite3",
@@ -4129,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_BLOCKED",
           "package": "bindings-sqlite3",
@@ -4138,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_BLOCKED",
           "package": "bindings-sqlite3",
@@ -4151,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_CHECKRESERVEDLOCK",
           "package": "bindings-sqlite3",
@@ -4160,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_CHECKRESERVEDLOCK",
           "package": "bindings-sqlite3",
@@ -4173,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_CLOSE",
           "package": "bindings-sqlite3",
@@ -4182,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_CLOSE",
           "package": "bindings-sqlite3",
@@ -4195,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_DELETE",
           "package": "bindings-sqlite3",
@@ -4204,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_DELETE",
           "package": "bindings-sqlite3",
@@ -4217,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_DELETE_NOENT",
           "package": "bindings-sqlite3",
@@ -4226,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_DELETE_NOENT",
           "package": "bindings-sqlite3",
@@ -4239,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_DIR_CLOSE",
           "package": "bindings-sqlite3",
@@ -4248,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_DIR_CLOSE",
           "package": "bindings-sqlite3",
@@ -4261,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_DIR_FSYNC",
           "package": "bindings-sqlite3",
@@ -4270,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_DIR_FSYNC",
           "package": "bindings-sqlite3",
@@ -4283,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_FSTAT",
           "package": "bindings-sqlite3",
@@ -4292,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_FSTAT",
           "package": "bindings-sqlite3",
@@ -4305,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_FSYNC",
           "package": "bindings-sqlite3",
@@ -4314,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_FSYNC",
           "package": "bindings-sqlite3",
@@ -4327,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_LOCK",
           "package": "bindings-sqlite3",
@@ -4336,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_LOCK",
           "package": "bindings-sqlite3",
@@ -4349,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_MMAP",
           "package": "bindings-sqlite3",
@@ -4358,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_MMAP",
           "package": "bindings-sqlite3",
@@ -4371,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_NOMEM",
           "package": "bindings-sqlite3",
@@ -4380,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_NOMEM",
           "package": "bindings-sqlite3",
@@ -4393,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_RDLOCK",
           "package": "bindings-sqlite3",
@@ -4402,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_RDLOCK",
           "package": "bindings-sqlite3",
@@ -4415,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_READ",
           "package": "bindings-sqlite3",
@@ -4424,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_READ",
           "package": "bindings-sqlite3",
@@ -4437,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SEEK",
           "package": "bindings-sqlite3",
@@ -4446,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SEEK",
           "package": "bindings-sqlite3",
@@ -4459,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHMLOCK",
           "package": "bindings-sqlite3",
@@ -4468,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHMLOCK",
           "package": "bindings-sqlite3",
@@ -4481,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHMMAP",
           "package": "bindings-sqlite3",
@@ -4490,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHMMAP",
           "package": "bindings-sqlite3",
@@ -4503,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHMOPEN",
           "package": "bindings-sqlite3",
@@ -4512,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHMOPEN",
           "package": "bindings-sqlite3",
@@ -4525,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHMSIZE",
           "package": "bindings-sqlite3",
@@ -4534,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHMSIZE",
           "package": "bindings-sqlite3",
@@ -4547,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHORT_READ",
           "package": "bindings-sqlite3",
@@ -4556,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_SHORT_READ",
           "package": "bindings-sqlite3",
@@ -4569,6 +4985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_TRUNCATE",
           "package": "bindings-sqlite3",
@@ -4578,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_TRUNCATE",
           "package": "bindings-sqlite3",
@@ -4591,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_UNLOCK",
           "package": "bindings-sqlite3",
@@ -4600,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_UNLOCK",
           "package": "bindings-sqlite3",
@@ -4613,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_WRITE",
           "package": "bindings-sqlite3",
@@ -4622,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_IOERR_WRITE",
           "package": "bindings-sqlite3",
@@ -4635,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LAST_ERRNO",
           "package": "bindings-sqlite3",
@@ -4644,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LAST_ERRNO",
           "package": "bindings-sqlite3",
@@ -4657,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_ATTACHED",
           "package": "bindings-sqlite3",
@@ -4666,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_ATTACHED",
           "package": "bindings-sqlite3",
@@ -4679,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_COLUMN",
           "package": "bindings-sqlite3",
@@ -4688,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_COLUMN",
           "package": "bindings-sqlite3",
@@ -4701,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_COMPOUND_SELECT",
           "package": "bindings-sqlite3",
@@ -4710,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_COMPOUND_SELECT",
           "package": "bindings-sqlite3",
@@ -4723,6 +5153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_EXPR_DEPTH",
           "package": "bindings-sqlite3",
@@ -4732,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_EXPR_DEPTH",
           "package": "bindings-sqlite3",
@@ -4745,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_FUNCTION_ARG",
           "package": "bindings-sqlite3",
@@ -4754,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_FUNCTION_ARG",
           "package": "bindings-sqlite3",
@@ -4767,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_LENGTH",
           "package": "bindings-sqlite3",
@@ -4776,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_LENGTH",
           "package": "bindings-sqlite3",
@@ -4789,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_LIKE_PATTERN_LENGTH",
           "package": "bindings-sqlite3",
@@ -4798,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_LIKE_PATTERN_LENGTH",
           "package": "bindings-sqlite3",
@@ -4811,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_SQL_LENGTH",
           "package": "bindings-sqlite3",
@@ -4820,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_SQL_LENGTH",
           "package": "bindings-sqlite3",
@@ -4833,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_TRIGGER_DEPTH",
           "package": "bindings-sqlite3",
@@ -4842,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_TRIGGER_DEPTH",
           "package": "bindings-sqlite3",
@@ -4855,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_VARIABLE_NUMBER",
           "package": "bindings-sqlite3",
@@ -4864,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_VARIABLE_NUMBER",
           "package": "bindings-sqlite3",
@@ -4877,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_VDBE_OP",
           "package": "bindings-sqlite3",
@@ -4886,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LIMIT_VDBE_OP",
           "package": "bindings-sqlite3",
@@ -4899,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCKED",
           "package": "bindings-sqlite3",
@@ -4908,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCKED",
           "package": "bindings-sqlite3",
@@ -4921,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCKED_SHAREDCACHE",
           "package": "bindings-sqlite3",
@@ -4930,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCKED_SHAREDCACHE",
           "package": "bindings-sqlite3",
@@ -4943,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_EXCLUSIVE",
           "package": "bindings-sqlite3",
@@ -4952,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_EXCLUSIVE",
           "package": "bindings-sqlite3",
@@ -4965,6 +5417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_NONE",
           "package": "bindings-sqlite3",
@@ -4974,6 +5427,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_NONE",
           "package": "bindings-sqlite3",
@@ -4987,6 +5441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_PENDING",
           "package": "bindings-sqlite3",
@@ -4996,6 +5451,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_PENDING",
           "package": "bindings-sqlite3",
@@ -5009,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_RESERVED",
           "package": "bindings-sqlite3",
@@ -5018,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_RESERVED",
           "package": "bindings-sqlite3",
@@ -5031,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_SHARED",
           "package": "bindings-sqlite3",
@@ -5040,6 +5499,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_LOCK_SHARED",
           "package": "bindings-sqlite3",
@@ -5053,6 +5513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MISMATCH",
           "package": "bindings-sqlite3",
@@ -5062,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MISMATCH",
           "package": "bindings-sqlite3",
@@ -5075,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MISUSE",
           "package": "bindings-sqlite3",
@@ -5084,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MISUSE",
           "package": "bindings-sqlite3",
@@ -5097,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_FAST",
           "package": "bindings-sqlite3",
@@ -5106,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_FAST",
           "package": "bindings-sqlite3",
@@ -5119,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_RECURSIVE",
           "package": "bindings-sqlite3",
@@ -5128,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_RECURSIVE",
           "package": "bindings-sqlite3",
@@ -5141,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_LRU",
           "package": "bindings-sqlite3",
@@ -5150,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_LRU",
           "package": "bindings-sqlite3",
@@ -5163,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_LRU2",
           "package": "bindings-sqlite3",
@@ -5172,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_LRU2",
           "package": "bindings-sqlite3",
@@ -5185,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_MASTER",
           "package": "bindings-sqlite3",
@@ -5194,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_MASTER",
           "package": "bindings-sqlite3",
@@ -5207,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_MEM",
           "package": "bindings-sqlite3",
@@ -5216,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_MEM",
           "package": "bindings-sqlite3",
@@ -5229,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_MEM2",
           "package": "bindings-sqlite3",
@@ -5238,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_MEM2",
           "package": "bindings-sqlite3",
@@ -5251,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_OPEN",
           "package": "bindings-sqlite3",
@@ -5260,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_OPEN",
           "package": "bindings-sqlite3",
@@ -5273,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_PMEM",
           "package": "bindings-sqlite3",
@@ -5282,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_PMEM",
           "package": "bindings-sqlite3",
@@ -5295,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_PRNG",
           "package": "bindings-sqlite3",
@@ -5304,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_MUTEX_STATIC_PRNG",
           "package": "bindings-sqlite3",
@@ -5317,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOLFS",
           "package": "bindings-sqlite3",
@@ -5326,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOLFS",
           "package": "bindings-sqlite3",
@@ -5339,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOMEM",
           "package": "bindings-sqlite3",
@@ -5348,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOMEM",
           "package": "bindings-sqlite3",
@@ -5361,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTADB",
           "package": "bindings-sqlite3",
@@ -5370,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTADB",
           "package": "bindings-sqlite3",
@@ -5383,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTFOUND",
           "package": "bindings-sqlite3",
@@ -5392,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTFOUND",
           "package": "bindings-sqlite3",
@@ -5405,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTICE",
           "package": "bindings-sqlite3",
@@ -5414,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTICE",
           "package": "bindings-sqlite3",
@@ -5427,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTICE_RECOVER_ROLLBACK",
           "package": "bindings-sqlite3",
@@ -5436,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTICE_RECOVER_ROLLBACK",
           "package": "bindings-sqlite3",
@@ -5449,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTICE_RECOVER_WAL",
           "package": "bindings-sqlite3",
@@ -5458,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NOTICE_RECOVER_WAL",
           "package": "bindings-sqlite3",
@@ -5471,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NULL",
           "package": "bindings-sqlite3",
@@ -5480,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_NULL",
           "package": "bindings-sqlite3",
@@ -5493,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OK",
           "package": "bindings-sqlite3",
@@ -5502,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OK",
           "package": "bindings-sqlite3",
@@ -5515,6 +6017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_AUTOPROXY",
           "package": "bindings-sqlite3",
@@ -5524,6 +6027,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_AUTOPROXY",
           "package": "bindings-sqlite3",
@@ -5537,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_CREATE",
           "package": "bindings-sqlite3",
@@ -5546,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_CREATE",
           "package": "bindings-sqlite3",
@@ -5559,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_DELETEONCLOSE",
           "package": "bindings-sqlite3",
@@ -5568,6 +6075,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_DELETEONCLOSE",
           "package": "bindings-sqlite3",
@@ -5581,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_EXCLUSIVE",
           "package": "bindings-sqlite3",
@@ -5590,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_EXCLUSIVE",
           "package": "bindings-sqlite3",
@@ -5603,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_FULLMUTEX",
           "package": "bindings-sqlite3",
@@ -5612,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_FULLMUTEX",
           "package": "bindings-sqlite3",
@@ -5625,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_MAIN_DB",
           "package": "bindings-sqlite3",
@@ -5634,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_MAIN_DB",
           "package": "bindings-sqlite3",
@@ -5647,6 +6161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_MAIN_JOURNAL",
           "package": "bindings-sqlite3",
@@ -5656,6 +6171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_MAIN_JOURNAL",
           "package": "bindings-sqlite3",
@@ -5669,6 +6185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_MASTER_JOURNAL",
           "package": "bindings-sqlite3",
@@ -5678,6 +6195,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_MASTER_JOURNAL",
           "package": "bindings-sqlite3",
@@ -5691,6 +6209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_MEMORY",
           "package": "bindings-sqlite3",
@@ -5700,6 +6219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_MEMORY",
           "package": "bindings-sqlite3",
@@ -5713,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_NOMUTEX",
           "package": "bindings-sqlite3",
@@ -5722,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_NOMUTEX",
           "package": "bindings-sqlite3",
@@ -5735,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_PRIVATECACHE",
           "package": "bindings-sqlite3",
@@ -5744,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_PRIVATECACHE",
           "package": "bindings-sqlite3",
@@ -5757,6 +6281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_READONLY",
           "package": "bindings-sqlite3",
@@ -5766,6 +6291,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_READONLY",
           "package": "bindings-sqlite3",
@@ -5779,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_READWRITE",
           "package": "bindings-sqlite3",
@@ -5788,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_READWRITE",
           "package": "bindings-sqlite3",
@@ -5801,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_SHAREDCACHE",
           "package": "bindings-sqlite3",
@@ -5810,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_SHAREDCACHE",
           "package": "bindings-sqlite3",
@@ -5823,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_SUBJOURNAL",
           "package": "bindings-sqlite3",
@@ -5832,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_SUBJOURNAL",
           "package": "bindings-sqlite3",
@@ -5845,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_TEMP_DB",
           "package": "bindings-sqlite3",
@@ -5854,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_TEMP_DB",
           "package": "bindings-sqlite3",
@@ -5867,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_TEMP_JOURNAL",
           "package": "bindings-sqlite3",
@@ -5876,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_TEMP_JOURNAL",
           "package": "bindings-sqlite3",
@@ -5889,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_TRANSIENT_DB",
           "package": "bindings-sqlite3",
@@ -5898,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_TRANSIENT_DB",
           "package": "bindings-sqlite3",
@@ -5911,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_URI",
           "package": "bindings-sqlite3",
@@ -5920,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_URI",
           "package": "bindings-sqlite3",
@@ -5933,6 +6473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_WAL",
           "package": "bindings-sqlite3",
@@ -5942,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_OPEN_WAL",
           "package": "bindings-sqlite3",
@@ -5955,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_PERM",
           "package": "bindings-sqlite3",
@@ -5964,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_PERM",
           "package": "bindings-sqlite3",
@@ -5977,6 +6521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_PRAGMA",
           "package": "bindings-sqlite3",
@@ -5986,6 +6531,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_PRAGMA",
           "package": "bindings-sqlite3",
@@ -5999,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_PROTOCOL",
           "package": "bindings-sqlite3",
@@ -6008,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_PROTOCOL",
           "package": "bindings-sqlite3",
@@ -6021,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_RANGE",
           "package": "bindings-sqlite3",
@@ -6030,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_RANGE",
           "package": "bindings-sqlite3",
@@ -6043,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READ",
           "package": "bindings-sqlite3",
@@ -6052,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READ",
           "package": "bindings-sqlite3",
@@ -6065,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READONLY",
           "package": "bindings-sqlite3",
@@ -6074,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READONLY",
           "package": "bindings-sqlite3",
@@ -6087,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READONLY_CANTLOCK",
           "package": "bindings-sqlite3",
@@ -6096,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READONLY_CANTLOCK",
           "package": "bindings-sqlite3",
@@ -6109,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READONLY_RECOVERY",
           "package": "bindings-sqlite3",
@@ -6118,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READONLY_RECOVERY",
           "package": "bindings-sqlite3",
@@ -6131,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READONLY_ROLLBACK",
           "package": "bindings-sqlite3",
@@ -6140,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_READONLY_ROLLBACK",
           "package": "bindings-sqlite3",
@@ -6153,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_REINDEX",
           "package": "bindings-sqlite3",
@@ -6162,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_REINDEX",
           "package": "bindings-sqlite3",
@@ -6175,6 +6737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_REPLACE",
           "package": "bindings-sqlite3",
@@ -6184,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_REPLACE",
           "package": "bindings-sqlite3",
@@ -6197,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ROLLBACK",
           "package": "bindings-sqlite3",
@@ -6206,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ROLLBACK",
           "package": "bindings-sqlite3",
@@ -6219,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ROW",
           "package": "bindings-sqlite3",
@@ -6228,6 +6795,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_ROW",
           "package": "bindings-sqlite3",
@@ -6241,6 +6809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SAVEPOINT",
           "package": "bindings-sqlite3",
@@ -6250,6 +6819,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SAVEPOINT",
           "package": "bindings-sqlite3",
@@ -6263,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SCHEMA",
           "package": "bindings-sqlite3",
@@ -6272,6 +6843,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SCHEMA",
           "package": "bindings-sqlite3",
@@ -6285,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SELECT",
           "package": "bindings-sqlite3",
@@ -6294,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SELECT",
           "package": "bindings-sqlite3",
@@ -6307,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SET_LOCKPROXYFILE",
           "package": "bindings-sqlite3",
@@ -6316,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SET_LOCKPROXYFILE",
           "package": "bindings-sqlite3",
@@ -6329,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_EXCLUSIVE",
           "package": "bindings-sqlite3",
@@ -6338,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_EXCLUSIVE",
           "package": "bindings-sqlite3",
@@ -6351,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_LOCK",
           "package": "bindings-sqlite3",
@@ -6360,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_LOCK",
           "package": "bindings-sqlite3",
@@ -6373,6 +6953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_NLOCK",
           "package": "bindings-sqlite3",
@@ -6382,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_NLOCK",
           "package": "bindings-sqlite3",
@@ -6395,6 +6977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_SHARED",
           "package": "bindings-sqlite3",
@@ -6404,6 +6987,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_SHARED",
           "package": "bindings-sqlite3",
@@ -6417,6 +7001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_UNLOCK",
           "package": "bindings-sqlite3",
@@ -6426,6 +7011,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SHM_UNLOCK",
           "package": "bindings-sqlite3",
@@ -6439,6 +7025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SOURCE_ID",
           "package": "bindings-sqlite3",
@@ -6448,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SOURCE_ID",
           "package": "bindings-sqlite3",
@@ -6461,6 +7049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATIC",
           "package": "bindings-sqlite3",
@@ -6470,6 +7059,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATIC",
           "package": "bindings-sqlite3",
@@ -6483,6 +7073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_MALLOC_COUNT",
           "package": "bindings-sqlite3",
@@ -6492,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_MALLOC_COUNT",
           "package": "bindings-sqlite3",
@@ -6505,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_MALLOC_SIZE",
           "package": "bindings-sqlite3",
@@ -6514,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_MALLOC_SIZE",
           "package": "bindings-sqlite3",
@@ -6527,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_MEMORY_USED",
           "package": "bindings-sqlite3",
@@ -6536,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_MEMORY_USED",
           "package": "bindings-sqlite3",
@@ -6549,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_PAGECACHE_OVERFLOW",
           "package": "bindings-sqlite3",
@@ -6558,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_PAGECACHE_OVERFLOW",
           "package": "bindings-sqlite3",
@@ -6571,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_PAGECACHE_SIZE",
           "package": "bindings-sqlite3",
@@ -6580,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_PAGECACHE_SIZE",
           "package": "bindings-sqlite3",
@@ -6593,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_PAGECACHE_USED",
           "package": "bindings-sqlite3",
@@ -6602,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_PAGECACHE_USED",
           "package": "bindings-sqlite3",
@@ -6615,6 +7217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_PARSER_STACK",
           "package": "bindings-sqlite3",
@@ -6624,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_PARSER_STACK",
           "package": "bindings-sqlite3",
@@ -6637,6 +7241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_SCRATCH_OVERFLOW",
           "package": "bindings-sqlite3",
@@ -6646,6 +7251,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_SCRATCH_OVERFLOW",
           "package": "bindings-sqlite3",
@@ -6659,6 +7265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_SCRATCH_SIZE",
           "package": "bindings-sqlite3",
@@ -6668,6 +7275,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_SCRATCH_SIZE",
           "package": "bindings-sqlite3",
@@ -6681,6 +7289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_SCRATCH_USED",
           "package": "bindings-sqlite3",
@@ -6690,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STATUS_SCRATCH_USED",
           "package": "bindings-sqlite3",
@@ -6703,6 +7313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STMTSTATUS_AUTOINDEX",
           "package": "bindings-sqlite3",
@@ -6712,6 +7323,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STMTSTATUS_AUTOINDEX",
           "package": "bindings-sqlite3",
@@ -6725,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STMTSTATUS_FULLSCAN_STEP",
           "package": "bindings-sqlite3",
@@ -6734,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STMTSTATUS_FULLSCAN_STEP",
           "package": "bindings-sqlite3",
@@ -6747,6 +7361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STMTSTATUS_SORT",
           "package": "bindings-sqlite3",
@@ -6756,6 +7371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_STMTSTATUS_SORT",
           "package": "bindings-sqlite3",
@@ -6769,6 +7385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SYNC_DATAONLY",
           "package": "bindings-sqlite3",
@@ -6778,6 +7395,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SYNC_DATAONLY",
           "package": "bindings-sqlite3",
@@ -6791,6 +7409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SYNC_FULL",
           "package": "bindings-sqlite3",
@@ -6800,6 +7419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SYNC_FULL",
           "package": "bindings-sqlite3",
@@ -6813,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SYNC_NORMAL",
           "package": "bindings-sqlite3",
@@ -6822,6 +7443,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_SYNC_NORMAL",
           "package": "bindings-sqlite3",
@@ -6835,6 +7457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_ALWAYS",
           "package": "bindings-sqlite3",
@@ -6844,6 +7467,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_ALWAYS",
           "package": "bindings-sqlite3",
@@ -6857,6 +7481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_ASSERT",
           "package": "bindings-sqlite3",
@@ -6866,6 +7491,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_ASSERT",
           "package": "bindings-sqlite3",
@@ -6879,6 +7505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_BENIGN_MALLOC_HOOKS",
           "package": "bindings-sqlite3",
@@ -6888,6 +7515,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_BENIGN_MALLOC_HOOKS",
           "package": "bindings-sqlite3",
@@ -6901,6 +7529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_BITVEC_TEST",
           "package": "bindings-sqlite3",
@@ -6910,6 +7539,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_BITVEC_TEST",
           "package": "bindings-sqlite3",
@@ -6923,6 +7553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_EXPLAIN_STMT",
           "package": "bindings-sqlite3",
@@ -6932,6 +7563,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_EXPLAIN_STMT",
           "package": "bindings-sqlite3",
@@ -6945,6 +7577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_FAULT_INSTALL",
           "package": "bindings-sqlite3",
@@ -6954,6 +7587,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_FAULT_INSTALL",
           "package": "bindings-sqlite3",
@@ -6967,6 +7601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_FIRST",
           "package": "bindings-sqlite3",
@@ -6976,6 +7611,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_FIRST",
           "package": "bindings-sqlite3",
@@ -6989,6 +7625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_ISKEYWORD",
           "package": "bindings-sqlite3",
@@ -6998,6 +7635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_ISKEYWORD",
           "package": "bindings-sqlite3",
@@ -7011,6 +7649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_LAST",
           "package": "bindings-sqlite3",
@@ -7020,6 +7659,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_LAST",
           "package": "bindings-sqlite3",
@@ -7033,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_LOCALTIME_FAULT",
           "package": "bindings-sqlite3",
@@ -7042,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_LOCALTIME_FAULT",
           "package": "bindings-sqlite3",
@@ -7055,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_OPTIMIZATIONS",
           "package": "bindings-sqlite3",
@@ -7064,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_OPTIMIZATIONS",
           "package": "bindings-sqlite3",
@@ -7077,6 +7721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_PENDING_BYTE",
           "package": "bindings-sqlite3",
@@ -7086,6 +7731,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_PENDING_BYTE",
           "package": "bindings-sqlite3",
@@ -7099,6 +7745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_PRNG_RESET",
           "package": "bindings-sqlite3",
@@ -7108,6 +7755,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_PRNG_RESET",
           "package": "bindings-sqlite3",
@@ -7121,6 +7769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_PRNG_RESTORE",
           "package": "bindings-sqlite3",
@@ -7130,6 +7779,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_PRNG_RESTORE",
           "package": "bindings-sqlite3",
@@ -7143,6 +7793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_PRNG_SAVE",
           "package": "bindings-sqlite3",
@@ -7152,6 +7803,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_PRNG_SAVE",
           "package": "bindings-sqlite3",
@@ -7165,6 +7817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_RESERVE",
           "package": "bindings-sqlite3",
@@ -7174,6 +7827,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_RESERVE",
           "package": "bindings-sqlite3",
@@ -7187,6 +7841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_SCRATCHMALLOC",
           "package": "bindings-sqlite3",
@@ -7196,6 +7851,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TESTCTRL_SCRATCHMALLOC",
           "package": "bindings-sqlite3",
@@ -7209,6 +7865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TEXT",
           "package": "bindings-sqlite3",
@@ -7218,6 +7875,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TEXT",
           "package": "bindings-sqlite3",
@@ -7231,6 +7889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TOOBIG",
           "package": "bindings-sqlite3",
@@ -7240,6 +7899,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TOOBIG",
           "package": "bindings-sqlite3",
@@ -7253,6 +7913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TRANSACTION",
           "package": "bindings-sqlite3",
@@ -7262,6 +7923,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TRANSACTION",
           "package": "bindings-sqlite3",
@@ -7275,6 +7937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TRANSIENT",
           "package": "bindings-sqlite3",
@@ -7284,6 +7947,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_TRANSIENT",
           "package": "bindings-sqlite3",
@@ -7297,6 +7961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UPDATE",
           "package": "bindings-sqlite3",
@@ -7306,6 +7971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UPDATE",
           "package": "bindings-sqlite3",
@@ -7319,6 +7985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF16",
           "package": "bindings-sqlite3",
@@ -7328,6 +7995,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF16",
           "package": "bindings-sqlite3",
@@ -7341,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF16BE",
           "package": "bindings-sqlite3",
@@ -7350,6 +8019,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF16BE",
           "package": "bindings-sqlite3",
@@ -7363,6 +8033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF16LE",
           "package": "bindings-sqlite3",
@@ -7372,6 +8043,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF16LE",
           "package": "bindings-sqlite3",
@@ -7385,6 +8057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF16_ALIGNED",
           "package": "bindings-sqlite3",
@@ -7394,6 +8067,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF16_ALIGNED",
           "package": "bindings-sqlite3",
@@ -7407,6 +8081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF8",
           "package": "bindings-sqlite3",
@@ -7416,6 +8091,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_UTF8",
           "package": "bindings-sqlite3",
@@ -7429,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_VERSION",
           "package": "bindings-sqlite3",
@@ -7438,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_VERSION",
           "package": "bindings-sqlite3",
@@ -7451,6 +8129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_VERSION_NUMBER",
           "package": "bindings-sqlite3",
@@ -7460,6 +8139,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_VERSION_NUMBER",
           "package": "bindings-sqlite3",
@@ -7473,6 +8153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_VTAB_CONSTRAINT_SUPPORT",
           "package": "bindings-sqlite3",
@@ -7482,6 +8163,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_VTAB_CONSTRAINT_SUPPORT",
           "package": "bindings-sqlite3",
@@ -7495,6 +8177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_WARNING",
           "package": "bindings-sqlite3",
@@ -7504,6 +8187,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'SQLITE_WARNING",
           "package": "bindings-sqlite3",
@@ -7517,6 +8201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_aggregate_context",
           "package": "bindings-sqlite3",
@@ -7526,6 +8211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_aggregate_context",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -7540,6 +8226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_auto_extension",
           "package": "bindings-sqlite3",
@@ -7549,6 +8236,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_auto_extension",
           "normalized": "FunPtr(IO())-\u003eIO CInt",
@@ -7563,6 +8251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_finish",
           "package": "bindings-sqlite3",
@@ -7572,6 +8261,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_finish",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -7586,6 +8276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_init",
           "package": "bindings-sqlite3",
@@ -7595,6 +8286,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_init",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003ePtr C'sqlite-\u003eCString-\u003eIO(Ptr C'sqlite a)",
@@ -7609,6 +8301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_pagecount",
           "package": "bindings-sqlite3",
@@ -7618,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_pagecount",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -7632,6 +8326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_remaining",
           "package": "bindings-sqlite3",
@@ -7641,6 +8336,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_remaining",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -7655,6 +8351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_step",
           "package": "bindings-sqlite3",
@@ -7664,6 +8361,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_backup_step",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CInt",
@@ -7678,6 +8376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_blob",
           "package": "bindings-sqlite3",
@@ -7687,6 +8386,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_blob",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt",
@@ -7701,6 +8401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_double",
           "package": "bindings-sqlite3",
@@ -7710,6 +8411,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_double",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eCDouble-\u003eIO CInt",
@@ -7724,6 +8426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_int",
           "package": "bindings-sqlite3",
@@ -7733,6 +8436,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_int",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -7747,6 +8451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_int64",
           "package": "bindings-sqlite3",
@@ -7756,6 +8461,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_int64",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eC'sqlite b-\u003eIO CInt",
@@ -7770,6 +8476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_null",
           "package": "bindings-sqlite3",
@@ -7779,6 +8486,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_null",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CInt",
@@ -7793,6 +8501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_parameter_count",
           "package": "bindings-sqlite3",
@@ -7802,6 +8511,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_parameter_count",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -7816,6 +8526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_parameter_index",
           "package": "bindings-sqlite3",
@@ -7825,6 +8536,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_parameter_index",
           "normalized": "Ptr C'sqlite a-\u003eCString-\u003eIO CInt",
@@ -7839,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_parameter_name",
           "package": "bindings-sqlite3",
@@ -7848,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_parameter_name",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CString",
@@ -7862,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_text",
           "package": "bindings-sqlite3",
@@ -7871,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_text",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt",
@@ -7885,6 +8601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_text16",
           "package": "bindings-sqlite3",
@@ -7894,6 +8611,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_text16",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt",
@@ -7908,6 +8626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_value",
           "package": "bindings-sqlite3",
@@ -7917,6 +8636,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_value",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003ePtr C'sqlite b-\u003eIO CInt",
@@ -7931,6 +8651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_zeroblob",
           "package": "bindings-sqlite3",
@@ -7940,6 +8661,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_bind_zeroblob",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -7954,6 +8676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_bytes",
           "package": "bindings-sqlite3",
@@ -7963,6 +8686,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_bytes",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -7977,6 +8701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_close",
           "package": "bindings-sqlite3",
@@ -7986,6 +8711,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_close",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -8000,6 +8726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_open",
           "package": "bindings-sqlite3",
@@ -8009,6 +8736,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_open",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCString-\u003eCString-\u003eC'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO CInt",
@@ -8023,6 +8751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_read",
           "package": "bindings-sqlite3",
@@ -8032,6 +8761,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_read",
           "normalized": "Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -8046,6 +8776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_reopen",
           "package": "bindings-sqlite3",
@@ -8055,6 +8786,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_reopen",
           "normalized": "Ptr C'sqlite a-\u003eC'sqlite b-\u003eIO CInt",
@@ -8069,6 +8801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_write",
           "package": "bindings-sqlite3",
@@ -8078,6 +8811,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_blob_write",
           "normalized": "Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -8092,6 +8826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_busy_handler",
           "package": "bindings-sqlite3",
@@ -8101,6 +8836,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_busy_handler",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCInt-\u003eIO CInt)-\u003ePtr()-\u003eIO CInt",
@@ -8115,6 +8851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_busy_timeout",
           "package": "bindings-sqlite3",
@@ -8124,6 +8861,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_busy_timeout",
           "normalized": "Ptr C'sqlite-\u003eCInt-\u003eIO CInt",
@@ -8138,6 +8876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_changes",
           "package": "bindings-sqlite3",
@@ -8147,6 +8886,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_changes",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -8161,6 +8901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_clear_bindings",
           "package": "bindings-sqlite3",
@@ -8170,6 +8911,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_clear_bindings",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -8184,6 +8926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_close",
           "package": "bindings-sqlite3",
@@ -8193,6 +8936,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_close",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -8207,6 +8951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_close_v2",
           "package": "bindings-sqlite3",
@@ -8216,6 +8961,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_close_v2",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -8230,6 +8976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_collation_needed",
           "package": "bindings-sqlite3",
@@ -8239,6 +8986,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_collation_needed",
           "normalized": "Ptr C'sqlite-\u003ePtr()-\u003eFunPtr(Ptr()-\u003ePtr C'sqlite-\u003eCInt-\u003eCString-\u003eIO())-\u003eIO CInt",
@@ -8253,6 +9001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_collation_needed16",
           "package": "bindings-sqlite3",
@@ -8262,6 +9011,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_collation_needed16",
           "normalized": "Ptr C'sqlite-\u003ePtr()-\u003eFunPtr(Ptr()-\u003ePtr C'sqlite-\u003eCInt-\u003ePtr()-\u003eIO())-\u003eIO CInt",
@@ -8276,6 +9026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_blob",
           "package": "bindings-sqlite3",
@@ -8285,6 +9036,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_blob",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -8299,6 +9051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_bytes",
           "package": "bindings-sqlite3",
@@ -8308,6 +9061,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_bytes",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CInt",
@@ -8322,6 +9076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_bytes16",
           "package": "bindings-sqlite3",
@@ -8331,6 +9086,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_bytes16",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CInt",
@@ -8345,6 +9101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_count",
           "package": "bindings-sqlite3",
@@ -8354,6 +9111,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_count",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -8368,6 +9126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_database_name",
           "package": "bindings-sqlite3",
@@ -8377,6 +9136,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_database_name",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CString",
@@ -8391,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_database_name16",
           "package": "bindings-sqlite3",
@@ -8400,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_database_name16",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -8414,6 +9176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_decltype",
           "package": "bindings-sqlite3",
@@ -8423,6 +9186,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_decltype",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CString",
@@ -8437,6 +9201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_decltype16",
           "package": "bindings-sqlite3",
@@ -8446,6 +9211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_decltype16",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -8460,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_double",
           "package": "bindings-sqlite3",
@@ -8469,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_double",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CDouble",
@@ -8483,6 +9251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_int",
           "package": "bindings-sqlite3",
@@ -8492,6 +9261,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_int",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CInt",
@@ -8506,6 +9276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_int64",
           "package": "bindings-sqlite3",
@@ -8515,6 +9286,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_int64",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO C'sqlite b",
@@ -8529,6 +9301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_name",
           "package": "bindings-sqlite3",
@@ -8538,6 +9311,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_name",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CString",
@@ -8552,6 +9326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_name16",
           "package": "bindings-sqlite3",
@@ -8561,6 +9336,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_name16",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -8575,6 +9351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_origin_name",
           "package": "bindings-sqlite3",
@@ -8584,6 +9361,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_origin_name",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CString",
@@ -8598,6 +9376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_origin_name16",
           "package": "bindings-sqlite3",
@@ -8607,6 +9386,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_origin_name16",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -8621,6 +9401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_table_name",
           "package": "bindings-sqlite3",
@@ -8630,6 +9411,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_table_name",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CString",
@@ -8644,6 +9426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_table_name16",
           "package": "bindings-sqlite3",
@@ -8653,6 +9436,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_table_name16",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -8667,6 +9451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_text",
           "package": "bindings-sqlite3",
@@ -8676,6 +9461,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_text",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr CUChar)",
@@ -8690,6 +9476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_text16",
           "package": "bindings-sqlite3",
@@ -8699,6 +9486,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_text16",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -8713,6 +9501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_type",
           "package": "bindings-sqlite3",
@@ -8722,6 +9511,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_type",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CInt",
@@ -8736,6 +9526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_value",
           "package": "bindings-sqlite3",
@@ -8745,6 +9536,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_column_value",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr C'sqlite b)",
@@ -8759,6 +9551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_commit_hook",
           "package": "bindings-sqlite3",
@@ -8768,6 +9561,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_commit_hook",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eIO CInt)-\u003ePtr()-\u003eIO(Ptr())",
@@ -8782,6 +9576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_complete",
           "package": "bindings-sqlite3",
@@ -8791,6 +9586,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_complete",
           "normalized": "CString-\u003eIO CInt",
@@ -8805,6 +9601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_complete16",
           "package": "bindings-sqlite3",
@@ -8814,6 +9611,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_complete16",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -8828,6 +9626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_context_db_handle",
           "package": "bindings-sqlite3",
@@ -8837,6 +9636,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_context_db_handle",
           "normalized": "Ptr C'sqlite a-\u003eIO(Ptr C'sqlite)",
@@ -8851,6 +9651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_collation",
           "package": "bindings-sqlite3",
@@ -8860,6 +9661,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_collation",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eCInt-\u003ePtr()-\u003eCInt-\u003ePtr()-\u003eIO CInt)-\u003eIO CInt",
@@ -8874,6 +9676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_collation16",
           "package": "bindings-sqlite3",
@@ -8883,6 +9686,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_collation16",
           "normalized": "Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eCInt-\u003ePtr()-\u003eCInt-\u003ePtr()-\u003eIO CInt)-\u003eIO CInt",
@@ -8897,6 +9701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_collation_v2",
           "package": "bindings-sqlite3",
@@ -8906,6 +9711,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_collation_v2",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eCInt-\u003ePtr()-\u003eCInt-\u003ePtr()-\u003eIO CInt)-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt",
@@ -8920,6 +9726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_function",
           "package": "bindings-sqlite3",
@@ -8929,6 +9736,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_function",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eIO())-\u003eIO CInt",
@@ -8943,6 +9751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_function16",
           "package": "bindings-sqlite3",
@@ -8952,6 +9761,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_function16",
           "normalized": "Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eIO())-\u003eIO CInt",
@@ -8966,6 +9776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_function_v2",
           "package": "bindings-sqlite3",
@@ -8975,6 +9786,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_function_v2",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eIO())-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt",
@@ -8989,6 +9801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_module",
           "package": "bindings-sqlite3",
@@ -8998,6 +9811,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_module",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003ePtr C'sqlite a-\u003ePtr()-\u003eIO CInt",
@@ -9012,6 +9826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_module_v2",
           "package": "bindings-sqlite3",
@@ -9021,6 +9836,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_create_module_v2",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003ePtr C'sqlite a-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt",
@@ -9035,6 +9851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_data_count",
           "package": "bindings-sqlite3",
@@ -9044,6 +9861,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_data_count",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -9058,6 +9876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_filename",
           "package": "bindings-sqlite3",
@@ -9067,6 +9886,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_filename",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eIO CString",
@@ -9081,6 +9901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_handle",
           "package": "bindings-sqlite3",
@@ -9090,6 +9911,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_handle",
           "normalized": "Ptr C'sqlite a-\u003eIO(Ptr C'sqlite)",
@@ -9104,6 +9926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_mutex",
           "package": "bindings-sqlite3",
@@ -9113,6 +9936,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_mutex",
           "normalized": "Ptr C'sqlite-\u003eIO(Ptr C'sqlite a)",
@@ -9127,6 +9951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_readonly",
           "package": "bindings-sqlite3",
@@ -9136,6 +9961,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_readonly",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eIO CInt",
@@ -9150,6 +9976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_release_memory",
           "package": "bindings-sqlite3",
@@ -9159,6 +9986,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_release_memory",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -9173,6 +10001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_status",
           "package": "bindings-sqlite3",
@@ -9182,6 +10011,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_db_status",
           "normalized": "Ptr C'sqlite-\u003eCInt-\u003ePtr CInt-\u003ePtr CInt-\u003eCInt-\u003eIO CInt",
@@ -9196,6 +10026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_declare_vtab",
           "package": "bindings-sqlite3",
@@ -9205,6 +10036,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_declare_vtab",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eIO CInt",
@@ -9219,6 +10051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_enable_load_extension",
           "package": "bindings-sqlite3",
@@ -9228,6 +10061,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_enable_load_extension",
           "normalized": "Ptr C'sqlite-\u003eCInt-\u003eIO CInt",
@@ -9242,6 +10076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_enable_shared_cache",
           "package": "bindings-sqlite3",
@@ -9251,6 +10086,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_enable_shared_cache",
           "normalized": "CInt-\u003eIO CInt",
@@ -9265,6 +10101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_errcode",
           "package": "bindings-sqlite3",
@@ -9274,6 +10111,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_errcode",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -9288,6 +10126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_errmsg",
           "package": "bindings-sqlite3",
@@ -9297,6 +10136,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_errmsg",
           "normalized": "Ptr C'sqlite-\u003eIO CString",
@@ -9311,6 +10151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_errmsg16",
           "package": "bindings-sqlite3",
@@ -9320,6 +10161,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_errmsg16",
           "normalized": "Ptr C'sqlite-\u003eIO(Ptr())",
@@ -9334,6 +10176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_errstr",
           "package": "bindings-sqlite3",
@@ -9343,6 +10186,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_errstr",
           "normalized": "CInt-\u003eIO CString",
@@ -9357,6 +10201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_exec",
           "package": "bindings-sqlite3",
@@ -9366,6 +10211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_exec",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eFunPtr(Ptr()-\u003eCInt-\u003ePtr CString-\u003ePtr CString-\u003eIO CInt)-\u003ePtr()-\u003ePtr CString-\u003eIO CInt",
@@ -9380,6 +10226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_extended_errcode",
           "package": "bindings-sqlite3",
@@ -9389,6 +10236,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_extended_errcode",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -9403,6 +10251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_extended_result_codes",
           "package": "bindings-sqlite3",
@@ -9412,6 +10261,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_extended_result_codes",
           "normalized": "Ptr C'sqlite-\u003eCInt-\u003eIO CInt",
@@ -9426,6 +10276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_file'pMethods",
           "package": "bindings-sqlite3",
@@ -9435,6 +10286,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_file'pMethods",
           "package": "bindings-sqlite3",
@@ -9448,6 +10300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_file_control",
           "package": "bindings-sqlite3",
@@ -9457,6 +10310,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_file_control",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr()-\u003eIO CInt",
@@ -9471,6 +10325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_finalize",
           "package": "bindings-sqlite3",
@@ -9480,6 +10335,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_finalize",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -9494,6 +10350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_free",
           "package": "bindings-sqlite3",
@@ -9503,6 +10360,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_free",
           "normalized": "Ptr()-\u003eIO()",
@@ -9517,6 +10375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_free_table",
           "package": "bindings-sqlite3",
@@ -9526,6 +10385,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_free_table",
           "normalized": "Ptr CString-\u003eIO()",
@@ -9540,6 +10400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_get_autocommit",
           "package": "bindings-sqlite3",
@@ -9549,6 +10410,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_get_autocommit",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -9563,6 +10425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_get_auxdata",
           "package": "bindings-sqlite3",
@@ -9572,6 +10435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_get_auxdata",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr())",
@@ -9586,6 +10450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_get_table",
           "package": "bindings-sqlite3",
@@ -9595,6 +10460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_get_table",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003ePtr(Ptr CString)-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CString-\u003eIO CInt",
@@ -9609,6 +10475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint'iColumn",
           "package": "bindings-sqlite3",
@@ -9618,6 +10485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint'iColumn",
           "package": "bindings-sqlite3",
@@ -9631,6 +10499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint'op",
           "package": "bindings-sqlite3",
@@ -9640,6 +10509,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint'op",
           "package": "bindings-sqlite3",
@@ -9652,6 +10522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint'usable",
           "package": "bindings-sqlite3",
@@ -9661,6 +10532,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint'usable",
           "package": "bindings-sqlite3",
@@ -9673,6 +10545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint_usage'argvIndex",
           "package": "bindings-sqlite3",
@@ -9682,6 +10555,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint_usage'argvIndex",
           "package": "bindings-sqlite3",
@@ -9695,6 +10569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint_usage'omit",
           "package": "bindings-sqlite3",
@@ -9704,6 +10579,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_constraint_usage'omit",
           "package": "bindings-sqlite3",
@@ -9716,6 +10592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'aConstraint",
           "package": "bindings-sqlite3",
@@ -9725,6 +10602,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'aConstraint",
           "package": "bindings-sqlite3",
@@ -9738,6 +10616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'aConstraintUsage",
           "package": "bindings-sqlite3",
@@ -9747,6 +10626,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'aConstraintUsage",
           "package": "bindings-sqlite3",
@@ -9760,6 +10640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'aOrderBy",
           "package": "bindings-sqlite3",
@@ -9769,6 +10650,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'aOrderBy",
           "package": "bindings-sqlite3",
@@ -9782,6 +10664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'estimatedCost",
           "package": "bindings-sqlite3",
@@ -9791,6 +10674,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'estimatedCost",
           "package": "bindings-sqlite3",
@@ -9804,6 +10688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'idxNum",
           "package": "bindings-sqlite3",
@@ -9813,6 +10698,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'idxNum",
           "package": "bindings-sqlite3",
@@ -9826,6 +10712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'idxStr",
           "package": "bindings-sqlite3",
@@ -9835,6 +10722,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'idxStr",
           "package": "bindings-sqlite3",
@@ -9848,6 +10736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'nConstraint",
           "package": "bindings-sqlite3",
@@ -9857,6 +10746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'nConstraint",
           "package": "bindings-sqlite3",
@@ -9870,6 +10760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'nOrderBy",
           "package": "bindings-sqlite3",
@@ -9879,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'nOrderBy",
           "package": "bindings-sqlite3",
@@ -9892,6 +10784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'needToFreeIdxStr",
           "package": "bindings-sqlite3",
@@ -9901,6 +10794,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'needToFreeIdxStr",
           "package": "bindings-sqlite3",
@@ -9914,6 +10808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'orderByConsumed",
           "package": "bindings-sqlite3",
@@ -9923,6 +10818,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_info'orderByConsumed",
           "package": "bindings-sqlite3",
@@ -9936,6 +10832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_orderby'desc",
           "package": "bindings-sqlite3",
@@ -9945,6 +10842,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_orderby'desc",
           "package": "bindings-sqlite3",
@@ -9957,6 +10855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_orderby'iColumn",
           "package": "bindings-sqlite3",
@@ -9966,6 +10865,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_index_orderby'iColumn",
           "package": "bindings-sqlite3",
@@ -9979,6 +10879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_initialize",
           "package": "bindings-sqlite3",
@@ -9988,6 +10889,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_initialize",
           "package": "bindings-sqlite3",
@@ -10000,6 +10902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_interrupt",
           "package": "bindings-sqlite3",
@@ -10009,6 +10912,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_interrupt",
           "normalized": "Ptr C'sqlite-\u003eIO()",
@@ -10023,6 +10927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'iVersion",
           "package": "bindings-sqlite3",
@@ -10032,6 +10937,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'iVersion",
           "package": "bindings-sqlite3",
@@ -10045,6 +10951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xCheckReservedLock",
           "package": "bindings-sqlite3",
@@ -10054,6 +10961,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xCheckReservedLock",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr CInt-\u003eIO CInt)",
@@ -10069,6 +10977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xClose",
           "package": "bindings-sqlite3",
@@ -10078,6 +10987,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xClose",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -10093,6 +11003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xDeviceCharacteristics",
           "package": "bindings-sqlite3",
@@ -10102,6 +11013,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xDeviceCharacteristics",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -10117,6 +11029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xFetch",
           "package": "bindings-sqlite3",
@@ -10126,6 +11039,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xFetch",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eC'sqlite b-\u003eCInt-\u003ePtr(Ptr())-\u003eIO CInt)",
@@ -10141,6 +11055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xFileControl",
           "package": "bindings-sqlite3",
@@ -10150,6 +11065,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xFileControl",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr()-\u003eIO CInt)",
@@ -10165,6 +11081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xFileSize",
           "package": "bindings-sqlite3",
@@ -10174,6 +11091,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xFileSize",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eIO CInt)",
@@ -10189,6 +11107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xLock",
           "package": "bindings-sqlite3",
@@ -10198,6 +11117,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xLock",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -10213,6 +11133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xRead",
           "package": "bindings-sqlite3",
@@ -10222,6 +11143,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xRead",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eC'sqlite b-\u003eIO CInt)",
@@ -10237,6 +11159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xSectorSize",
           "package": "bindings-sqlite3",
@@ -10246,6 +11169,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xSectorSize",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -10261,6 +11185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xShmBarrier",
           "package": "bindings-sqlite3",
@@ -10270,6 +11195,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xShmBarrier",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -10285,6 +11211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xShmLock",
           "package": "bindings-sqlite3",
@@ -10294,6 +11221,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xShmLock",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -10309,6 +11237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xShmMap",
           "package": "bindings-sqlite3",
@@ -10318,6 +11247,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xShmMap",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCInt-\u003eCInt-\u003ePtr(Ptr())-\u003eIO CInt)",
@@ -10333,6 +11263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xShmUnmap",
           "package": "bindings-sqlite3",
@@ -10342,6 +11273,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xShmUnmap",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -10357,6 +11289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xSync",
           "package": "bindings-sqlite3",
@@ -10366,6 +11299,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xSync",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -10381,6 +11315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xTruncate",
           "package": "bindings-sqlite3",
@@ -10390,6 +11325,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xTruncate",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eC'sqlite b-\u003eIO CInt)",
@@ -10405,6 +11341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xUnfetch",
           "package": "bindings-sqlite3",
@@ -10414,6 +11351,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xUnfetch",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eC'sqlite b-\u003ePtr()-\u003eIO CInt)",
@@ -10429,6 +11367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xUnlock",
           "package": "bindings-sqlite3",
@@ -10438,6 +11377,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xUnlock",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -10453,6 +11393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xWrite",
           "package": "bindings-sqlite3",
@@ -10462,6 +11403,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_io_methods'xWrite",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eC'sqlite b-\u003eIO())",
@@ -10477,6 +11419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_last_insert_rowid",
           "package": "bindings-sqlite3",
@@ -10486,6 +11429,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_last_insert_rowid",
           "normalized": "Ptr C'sqlite-\u003eIO C'sqlite a",
@@ -10500,6 +11444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_libversion",
           "package": "bindings-sqlite3",
@@ -10509,6 +11454,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_libversion",
           "package": "bindings-sqlite3",
@@ -10521,6 +11467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_libversion_number",
           "package": "bindings-sqlite3",
@@ -10530,6 +11477,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_libversion_number",
           "package": "bindings-sqlite3",
@@ -10542,6 +11490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_limit",
           "package": "bindings-sqlite3",
@@ -10551,6 +11500,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_limit",
           "normalized": "Ptr C'sqlite-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -10565,6 +11515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_load_extension",
           "package": "bindings-sqlite3",
@@ -10574,6 +11525,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_load_extension",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCString-\u003ePtr CString-\u003eIO CInt",
@@ -10588,6 +11540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_malloc",
           "package": "bindings-sqlite3",
@@ -10597,6 +11550,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_malloc",
           "normalized": "CInt-\u003eIO(Ptr())",
@@ -10611,6 +11565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'pAppData",
           "package": "bindings-sqlite3",
@@ -10620,6 +11575,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'pAppData",
           "normalized": "Ptr()",
@@ -10635,6 +11591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xFree",
           "package": "bindings-sqlite3",
@@ -10644,6 +11601,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xFree",
           "normalized": "FunPtr(Ptr()-\u003eIO())",
@@ -10659,6 +11617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xInit",
           "package": "bindings-sqlite3",
@@ -10668,6 +11627,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xInit",
           "normalized": "FunPtr(Ptr()-\u003eIO CInt)",
@@ -10683,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xMalloc",
           "package": "bindings-sqlite3",
@@ -10692,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xMalloc",
           "normalized": "FunPtr(CInt-\u003eIO(Ptr()))",
@@ -10707,6 +11669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xRealloc",
           "package": "bindings-sqlite3",
@@ -10716,6 +11679,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xRealloc",
           "normalized": "FunPtr(Ptr()-\u003eCInt-\u003eIO(Ptr()))",
@@ -10731,6 +11695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xRoundup",
           "package": "bindings-sqlite3",
@@ -10740,6 +11705,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xRoundup",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -10755,6 +11721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xShutdown",
           "package": "bindings-sqlite3",
@@ -10764,6 +11731,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xShutdown",
           "normalized": "FunPtr(Ptr()-\u003eIO())",
@@ -10779,6 +11747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xSize",
           "package": "bindings-sqlite3",
@@ -10788,6 +11757,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mem_methods'xSize",
           "normalized": "FunPtr(Ptr()-\u003eIO CInt)",
@@ -10803,6 +11773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_memory_highwater",
           "package": "bindings-sqlite3",
@@ -10812,6 +11783,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_memory_highwater",
           "normalized": "CInt-\u003eIO C'sqlite a",
@@ -10826,6 +11798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_memory_used",
           "package": "bindings-sqlite3",
@@ -10835,6 +11808,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_memory_used",
           "package": "bindings-sqlite3",
@@ -10847,6 +11821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'iVersion",
           "package": "bindings-sqlite3",
@@ -10856,6 +11831,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'iVersion",
           "package": "bindings-sqlite3",
@@ -10869,6 +11845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xBegin",
           "package": "bindings-sqlite3",
@@ -10878,6 +11855,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xBegin",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -10893,6 +11871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xBestIndex",
           "package": "bindings-sqlite3",
@@ -10902,6 +11881,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xBestIndex",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eIO CInt)",
@@ -10917,6 +11897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xClose",
           "package": "bindings-sqlite3",
@@ -10926,6 +11907,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xClose",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -10941,6 +11923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xColumn",
           "package": "bindings-sqlite3",
@@ -10950,6 +11933,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xColumn",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eCInt-\u003eIO CInt)",
@@ -10965,6 +11949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xCommit",
           "package": "bindings-sqlite3",
@@ -10974,6 +11959,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xCommit",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -10989,6 +11975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xConnect",
           "package": "bindings-sqlite3",
@@ -10998,6 +11985,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xConnect",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr CString-\u003ePtr(Ptr C'sqlite a)-\u003ePtr CString-\u003eIO CInt)",
@@ -11013,6 +12001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xCreate",
           "package": "bindings-sqlite3",
@@ -11022,6 +12011,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xCreate",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr CString-\u003ePtr(Ptr C'sqlite a)-\u003ePtr CString-\u003eIO CInt)",
@@ -11037,6 +12027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xDestroy",
           "package": "bindings-sqlite3",
@@ -11046,6 +12037,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xDestroy",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11061,6 +12053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xDisconnect",
           "package": "bindings-sqlite3",
@@ -11070,6 +12063,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xDisconnect",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11085,6 +12079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xEof",
           "package": "bindings-sqlite3",
@@ -11094,6 +12089,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xEof",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11109,6 +12105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xFilter",
           "package": "bindings-sqlite3",
@@ -11118,6 +12115,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xFilter",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO CInt)",
@@ -11133,6 +12131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xFindFunction",
           "package": "bindings-sqlite3",
@@ -11142,6 +12141,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xFindFunction",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003ePtr(Ptr C'sqlite c)-\u003ePtr(Ptr())-\u003eIO()))-\u003ePtr(Ptr())-\u003eIO CInt)",
@@ -11157,6 +12157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xNext",
           "package": "bindings-sqlite3",
@@ -11166,6 +12167,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xNext",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11181,6 +12183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xOpen",
           "package": "bindings-sqlite3",
@@ -11190,6 +12193,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xOpen",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr(Ptr C'sqlite b)-\u003eIO CInt)",
@@ -11205,6 +12209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRelease",
           "package": "bindings-sqlite3",
@@ -11214,6 +12219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRelease",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -11229,6 +12235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRename",
           "package": "bindings-sqlite3",
@@ -11238,6 +12245,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRename",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eIO CInt)",
@@ -11253,6 +12261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRollback",
           "package": "bindings-sqlite3",
@@ -11262,6 +12271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRollback",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11277,6 +12287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRollbackTo",
           "package": "bindings-sqlite3",
@@ -11286,6 +12297,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRollbackTo",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -11301,6 +12313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRowid",
           "package": "bindings-sqlite3",
@@ -11310,6 +12323,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xRowid",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eIO CInt)",
@@ -11325,6 +12339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xSavepoint",
           "package": "bindings-sqlite3",
@@ -11334,6 +12349,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xSavepoint",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -11349,6 +12365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xSync",
           "package": "bindings-sqlite3",
@@ -11358,6 +12375,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xSync",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11373,6 +12391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xUpdate",
           "package": "bindings-sqlite3",
@@ -11382,6 +12401,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_module'xUpdate",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003ePtr C'sqlite c-\u003eIO CInt)",
@@ -11397,6 +12417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_alloc",
           "package": "bindings-sqlite3",
@@ -11406,6 +12427,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_alloc",
           "normalized": "CInt-\u003eIO(Ptr C'sqlite a)",
@@ -11420,6 +12442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_enter",
           "package": "bindings-sqlite3",
@@ -11429,6 +12452,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_enter",
           "normalized": "Ptr C'sqlite a-\u003eIO()",
@@ -11443,6 +12467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_free",
           "package": "bindings-sqlite3",
@@ -11452,6 +12477,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_free",
           "normalized": "Ptr C'sqlite a-\u003eIO()",
@@ -11466,6 +12492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_leave",
           "package": "bindings-sqlite3",
@@ -11475,6 +12502,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_leave",
           "normalized": "Ptr C'sqlite a-\u003eIO()",
@@ -11489,6 +12517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexAlloc",
           "package": "bindings-sqlite3",
@@ -11498,6 +12527,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexAlloc",
           "normalized": "FunPtr(CInt-\u003eIO(Ptr C'sqlite a))",
@@ -11513,6 +12543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexEnd",
           "package": "bindings-sqlite3",
@@ -11522,6 +12553,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexEnd",
           "package": "bindings-sqlite3",
@@ -11535,6 +12567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexEnter",
           "package": "bindings-sqlite3",
@@ -11544,6 +12577,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexEnter",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -11559,6 +12593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexFree",
           "package": "bindings-sqlite3",
@@ -11568,6 +12603,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexFree",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -11583,6 +12619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexHeld",
           "package": "bindings-sqlite3",
@@ -11592,6 +12629,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexHeld",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11607,6 +12645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexInit",
           "package": "bindings-sqlite3",
@@ -11616,6 +12655,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexInit",
           "package": "bindings-sqlite3",
@@ -11629,6 +12669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexLeave",
           "package": "bindings-sqlite3",
@@ -11638,6 +12679,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexLeave",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -11653,6 +12695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexNotheld",
           "package": "bindings-sqlite3",
@@ -11662,6 +12705,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexNotheld",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11677,6 +12721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexTry",
           "package": "bindings-sqlite3",
@@ -11686,6 +12731,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_methods'xMutexTry",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -11701,6 +12747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_try",
           "package": "bindings-sqlite3",
@@ -11710,6 +12757,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_mutex_try",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -11724,6 +12772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_next_stmt",
           "package": "bindings-sqlite3",
@@ -11733,6 +12782,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_next_stmt",
           "normalized": "Ptr C'sqlite-\u003ePtr C'sqlite a-\u003eIO(Ptr C'sqlite a)",
@@ -11747,6 +12797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_open",
           "package": "bindings-sqlite3",
@@ -11756,6 +12807,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_open",
           "normalized": "CString-\u003ePtr(Ptr C'sqlite)-\u003eIO CInt",
@@ -11770,6 +12822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_open16",
           "package": "bindings-sqlite3",
@@ -11779,6 +12832,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_open16",
           "normalized": "Ptr()-\u003ePtr(Ptr C'sqlite)-\u003eIO CInt",
@@ -11793,6 +12847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_open_v2",
           "package": "bindings-sqlite3",
@@ -11802,6 +12857,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_open_v2",
           "normalized": "CString-\u003ePtr(Ptr C'sqlite)-\u003eCInt-\u003eCString-\u003eIO CInt",
@@ -11816,6 +12872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_os_end",
           "package": "bindings-sqlite3",
@@ -11825,6 +12882,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_os_end",
           "package": "bindings-sqlite3",
@@ -11837,6 +12895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_os_init",
           "package": "bindings-sqlite3",
@@ -11846,6 +12905,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_os_init",
           "package": "bindings-sqlite3",
@@ -11858,6 +12918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_overload_function",
           "package": "bindings-sqlite3",
@@ -11867,6 +12928,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_overload_function",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003eIO CInt",
@@ -11881,6 +12943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'iVersion",
           "package": "bindings-sqlite3",
@@ -11890,6 +12953,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'iVersion",
           "package": "bindings-sqlite3",
@@ -11903,6 +12967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'pArg",
           "package": "bindings-sqlite3",
@@ -11912,6 +12977,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'pArg",
           "normalized": "Ptr()",
@@ -11927,6 +12993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xCachesize",
           "package": "bindings-sqlite3",
@@ -11936,6 +13003,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xCachesize",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO())",
@@ -11951,6 +13019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xCreate",
           "package": "bindings-sqlite3",
@@ -11960,6 +13029,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xCreate",
           "normalized": "FunPtr(CInt-\u003eCInt-\u003eCInt-\u003eIO(Ptr C'sqlite a))",
@@ -11975,6 +13045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xDestroy",
           "package": "bindings-sqlite3",
@@ -11984,6 +13055,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xDestroy",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -11999,6 +13071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xFetch",
           "package": "bindings-sqlite3",
@@ -12008,6 +13081,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xFetch",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCUInt-\u003eCInt-\u003eIO(Ptr C'sqlite b))",
@@ -12023,6 +13097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xInit",
           "package": "bindings-sqlite3",
@@ -12032,6 +13107,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xInit",
           "normalized": "FunPtr(Ptr()-\u003eIO CInt)",
@@ -12047,6 +13123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xPagecount",
           "package": "bindings-sqlite3",
@@ -12056,6 +13133,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xPagecount",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -12071,6 +13149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xRekey",
           "package": "bindings-sqlite3",
@@ -12080,6 +13159,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xRekey",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eCUInt-\u003eCUInt-\u003eIO())",
@@ -12095,6 +13175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xShrink",
           "package": "bindings-sqlite3",
@@ -12104,6 +13185,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xShrink",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -12119,6 +13201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xShutdown",
           "package": "bindings-sqlite3",
@@ -12128,6 +13211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xShutdown",
           "normalized": "FunPtr(Ptr()-\u003eIO())",
@@ -12143,6 +13227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xTruncate",
           "package": "bindings-sqlite3",
@@ -12152,6 +13237,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xTruncate",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCUInt-\u003eIO())",
@@ -12167,6 +13253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xUnpin",
           "package": "bindings-sqlite3",
@@ -12176,6 +13263,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_methods2'xUnpin",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eCInt-\u003eIO())",
@@ -12191,6 +13279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_page'pBuf",
           "package": "bindings-sqlite3",
@@ -12200,6 +13289,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_page'pBuf",
           "normalized": "Ptr()",
@@ -12215,6 +13305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_page'pExtra",
           "package": "bindings-sqlite3",
@@ -12224,6 +13315,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_pcache_page'pExtra",
           "normalized": "Ptr()",
@@ -12239,6 +13331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_prepare",
           "package": "bindings-sqlite3",
@@ -12248,6 +13341,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_prepare",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr(Ptr C'sqlite a)-\u003ePtr CString-\u003eIO CInt",
@@ -12262,6 +13356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_prepare16",
           "package": "bindings-sqlite3",
@@ -12271,6 +13366,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_prepare16",
           "normalized": "Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr(Ptr C'sqlite a)-\u003ePtr(Ptr())-\u003eIO CInt",
@@ -12285,6 +13381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_prepare16_v2",
           "package": "bindings-sqlite3",
@@ -12294,6 +13391,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_prepare16_v2",
           "normalized": "Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr(Ptr C'sqlite a)-\u003ePtr(Ptr())-\u003eIO CInt",
@@ -12308,6 +13406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_prepare_v2",
           "package": "bindings-sqlite3",
@@ -12317,6 +13416,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_prepare_v2",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr(Ptr C'sqlite a)-\u003ePtr CString-\u003eIO CInt",
@@ -12331,6 +13431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_profile",
           "package": "bindings-sqlite3",
@@ -12340,6 +13441,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_profile",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCString-\u003eC'sqlite a-\u003eIO())-\u003ePtr()-\u003eIO(Ptr())",
@@ -12354,6 +13456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_progress_handler",
           "package": "bindings-sqlite3",
@@ -12363,6 +13466,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_progress_handler",
           "normalized": "Ptr C'sqlite-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO CInt)-\u003ePtr()-\u003eIO()",
@@ -12377,6 +13481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_randomness",
           "package": "bindings-sqlite3",
@@ -12386,6 +13491,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_randomness",
           "normalized": "CInt-\u003ePtr()-\u003eIO()",
@@ -12400,6 +13506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_realloc",
           "package": "bindings-sqlite3",
@@ -12409,6 +13516,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_realloc",
           "normalized": "Ptr()-\u003eCInt-\u003eIO(Ptr())",
@@ -12423,6 +13531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_release_memory",
           "package": "bindings-sqlite3",
@@ -12432,6 +13541,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_release_memory",
           "normalized": "CInt-\u003eIO CInt",
@@ -12446,6 +13556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_reset",
           "package": "bindings-sqlite3",
@@ -12455,6 +13566,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_reset",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -12469,6 +13581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_reset_auto_extension",
           "package": "bindings-sqlite3",
@@ -12478,6 +13591,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_reset_auto_extension",
           "normalized": "IO()",
@@ -12492,6 +13606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_blob",
           "package": "bindings-sqlite3",
@@ -12501,6 +13616,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_blob",
           "normalized": "Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO()",
@@ -12515,6 +13631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_double",
           "package": "bindings-sqlite3",
@@ -12524,6 +13641,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_double",
           "normalized": "Ptr C'sqlite a-\u003eCDouble-\u003eIO()",
@@ -12538,6 +13656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error",
           "package": "bindings-sqlite3",
@@ -12547,6 +13666,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error",
           "normalized": "Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003eIO()",
@@ -12561,6 +13681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error16",
           "package": "bindings-sqlite3",
@@ -12570,6 +13691,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error16",
           "normalized": "Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eIO()",
@@ -12584,6 +13706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error_code",
           "package": "bindings-sqlite3",
@@ -12593,6 +13716,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error_code",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO()",
@@ -12607,6 +13731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error_nomem",
           "package": "bindings-sqlite3",
@@ -12616,6 +13741,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error_nomem",
           "normalized": "Ptr C'sqlite a-\u003eIO()",
@@ -12630,6 +13756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error_toobig",
           "package": "bindings-sqlite3",
@@ -12639,6 +13766,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_error_toobig",
           "normalized": "Ptr C'sqlite a-\u003eIO()",
@@ -12653,6 +13781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_int",
           "package": "bindings-sqlite3",
@@ -12662,6 +13791,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_int",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO()",
@@ -12676,6 +13806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_int64",
           "package": "bindings-sqlite3",
@@ -12685,6 +13816,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_int64",
           "normalized": "Ptr C'sqlite a-\u003eC'sqlite b-\u003eIO()",
@@ -12699,6 +13831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_null",
           "package": "bindings-sqlite3",
@@ -12708,6 +13841,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_null",
           "normalized": "Ptr C'sqlite a-\u003eIO()",
@@ -12722,6 +13856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_text",
           "package": "bindings-sqlite3",
@@ -12731,6 +13866,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_text",
           "normalized": "Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO()",
@@ -12745,6 +13881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_text16",
           "package": "bindings-sqlite3",
@@ -12754,6 +13891,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_text16",
           "normalized": "Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO()",
@@ -12768,6 +13906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_text16be",
           "package": "bindings-sqlite3",
@@ -12777,6 +13916,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_text16be",
           "normalized": "Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO()",
@@ -12791,6 +13931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_text16le",
           "package": "bindings-sqlite3",
@@ -12800,6 +13941,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_text16le",
           "normalized": "Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO()",
@@ -12814,6 +13956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_value",
           "package": "bindings-sqlite3",
@@ -12823,6 +13966,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_value",
           "normalized": "Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eIO()",
@@ -12837,6 +13981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_zeroblob",
           "package": "bindings-sqlite3",
@@ -12846,6 +13991,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_result_zeroblob",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO()",
@@ -12860,6 +14006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_rollback_hook",
           "package": "bindings-sqlite3",
@@ -12869,6 +14016,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_rollback_hook",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eIO())-\u003ePtr()-\u003eIO(Ptr())",
@@ -12883,6 +14031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_set_authorizer",
           "package": "bindings-sqlite3",
@@ -12892,6 +14041,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_set_authorizer",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCInt-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eIO CInt)-\u003ePtr()-\u003eIO CInt",
@@ -12906,6 +14056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_set_auxdata",
           "package": "bindings-sqlite3",
@@ -12915,6 +14066,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_set_auxdata",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO()",
@@ -12929,6 +14081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_shutdown",
           "package": "bindings-sqlite3",
@@ -12938,6 +14091,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_shutdown",
           "package": "bindings-sqlite3",
@@ -12950,6 +14104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_sleep",
           "package": "bindings-sqlite3",
@@ -12959,6 +14114,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_sleep",
           "normalized": "CInt-\u003eIO CInt",
@@ -12973,6 +14129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_soft_heap_limit64",
           "package": "bindings-sqlite3",
@@ -12982,6 +14139,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_soft_heap_limit64",
           "normalized": "C'sqlite a-\u003eIO C'sqlite a",
@@ -12996,6 +14154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_sourceid",
           "package": "bindings-sqlite3",
@@ -13005,6 +14164,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_sourceid",
           "package": "bindings-sqlite3",
@@ -13017,6 +14177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_sql",
           "package": "bindings-sqlite3",
@@ -13026,6 +14187,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_sql",
           "normalized": "Ptr C'sqlite a-\u003eIO CString",
@@ -13040,6 +14202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_status",
           "package": "bindings-sqlite3",
@@ -13049,6 +14212,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_status",
           "normalized": "CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eCInt-\u003eIO CInt",
@@ -13063,6 +14227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_step",
           "package": "bindings-sqlite3",
@@ -13072,6 +14237,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_step",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -13086,6 +14252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_stmt_busy",
           "package": "bindings-sqlite3",
@@ -13095,6 +14262,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_stmt_busy",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -13109,6 +14277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_stmt_readonly",
           "package": "bindings-sqlite3",
@@ -13118,6 +14287,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_stmt_readonly",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -13132,6 +14302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_stmt_status",
           "package": "bindings-sqlite3",
@@ -13141,6 +14312,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_stmt_status",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -13155,6 +14327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_strglob",
           "package": "bindings-sqlite3",
@@ -13164,6 +14337,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_strglob",
           "normalized": "CString-\u003eCString-\u003eIO CInt",
@@ -13178,6 +14352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_stricmp",
           "package": "bindings-sqlite3",
@@ -13187,6 +14362,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_stricmp",
           "normalized": "CString-\u003eCString-\u003eIO CInt",
@@ -13201,6 +14377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_strnicmp",
           "package": "bindings-sqlite3",
@@ -13210,6 +14387,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_strnicmp",
           "normalized": "CString-\u003eCString-\u003eCInt-\u003eIO CInt",
@@ -13224,6 +14402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_table_column_metadata",
           "package": "bindings-sqlite3",
@@ -13233,6 +14412,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_table_column_metadata",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCString-\u003eCString-\u003ePtr CString-\u003ePtr CString-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -13247,6 +14427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_threadsafe",
           "package": "bindings-sqlite3",
@@ -13256,6 +14437,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_threadsafe",
           "package": "bindings-sqlite3",
@@ -13268,6 +14450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_total_changes",
           "package": "bindings-sqlite3",
@@ -13277,6 +14460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_total_changes",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -13291,6 +14475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_trace",
           "package": "bindings-sqlite3",
@@ -13300,6 +14485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_trace",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCString-\u003eIO())-\u003ePtr()-\u003eIO(Ptr())",
@@ -13314,6 +14500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_unlock_notify",
           "package": "bindings-sqlite3",
@@ -13323,6 +14510,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_unlock_notify",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr(Ptr())-\u003eCInt-\u003eIO())-\u003ePtr()-\u003eIO CInt",
@@ -13337,6 +14525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_update_hook",
           "package": "bindings-sqlite3",
@@ -13346,6 +14535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_update_hook",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCInt-\u003eCString-\u003eCString-\u003eC'sqlite a-\u003eIO())-\u003ePtr()-\u003eIO(Ptr())",
@@ -13360,6 +14550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_uri_boolean",
           "package": "bindings-sqlite3",
@@ -13369,6 +14560,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_uri_boolean",
           "normalized": "CString-\u003eCString-\u003eCInt-\u003eIO CInt",
@@ -13383,6 +14575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_uri_int64",
           "package": "bindings-sqlite3",
@@ -13392,6 +14585,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_uri_int64",
           "normalized": "CString-\u003eCString-\u003eC'sqlite a-\u003eIO C'sqlite a",
@@ -13406,6 +14600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_uri_parameter",
           "package": "bindings-sqlite3",
@@ -13415,6 +14610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_uri_parameter",
           "normalized": "CString-\u003eCString-\u003eIO CString",
@@ -13429,6 +14625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_user_data",
           "package": "bindings-sqlite3",
@@ -13438,6 +14635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_user_data",
           "normalized": "Ptr C'sqlite a-\u003eIO(Ptr())",
@@ -13452,6 +14650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_blob",
           "package": "bindings-sqlite3",
@@ -13461,6 +14660,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_blob",
           "normalized": "Ptr C'sqlite a-\u003eIO(Ptr())",
@@ -13475,6 +14675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_bytes",
           "package": "bindings-sqlite3",
@@ -13484,6 +14685,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_bytes",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -13498,6 +14700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_bytes16",
           "package": "bindings-sqlite3",
@@ -13507,6 +14710,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_bytes16",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -13521,6 +14725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_double",
           "package": "bindings-sqlite3",
@@ -13530,6 +14735,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_double",
           "normalized": "Ptr C'sqlite a-\u003eIO CDouble",
@@ -13544,6 +14750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_int",
           "package": "bindings-sqlite3",
@@ -13553,6 +14760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_int",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -13567,6 +14775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_int64",
           "package": "bindings-sqlite3",
@@ -13576,6 +14785,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_int64",
           "normalized": "Ptr C'sqlite a-\u003eIO C'sqlite b",
@@ -13590,6 +14800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_numeric_type",
           "package": "bindings-sqlite3",
@@ -13599,6 +14810,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_numeric_type",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -13613,6 +14825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_text",
           "package": "bindings-sqlite3",
@@ -13622,6 +14835,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_text",
           "normalized": "Ptr C'sqlite a-\u003eIO(Ptr CUChar)",
@@ -13636,6 +14850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_text16",
           "package": "bindings-sqlite3",
@@ -13645,6 +14860,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_text16",
           "normalized": "Ptr C'sqlite a-\u003eIO(Ptr())",
@@ -13659,6 +14875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_text16be",
           "package": "bindings-sqlite3",
@@ -13668,6 +14885,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_text16be",
           "normalized": "Ptr C'sqlite a-\u003eIO(Ptr())",
@@ -13682,6 +14900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_text16le",
           "package": "bindings-sqlite3",
@@ -13691,6 +14910,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_text16le",
           "normalized": "Ptr C'sqlite a-\u003eIO(Ptr())",
@@ -13705,6 +14925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_type",
           "package": "bindings-sqlite3",
@@ -13714,6 +14935,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_value_type",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -13728,6 +14950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_version",
           "package": "bindings-sqlite3",
@@ -13737,6 +14960,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_version",
           "package": "bindings-sqlite3",
@@ -13749,6 +14973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'iVersion",
           "package": "bindings-sqlite3",
@@ -13758,6 +14983,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'iVersion",
           "package": "bindings-sqlite3",
@@ -13771,6 +14997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'mxPathname",
           "package": "bindings-sqlite3",
@@ -13780,6 +15007,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'mxPathname",
           "package": "bindings-sqlite3",
@@ -13793,6 +15021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'pAppData",
           "package": "bindings-sqlite3",
@@ -13802,6 +15031,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'pAppData",
           "normalized": "Ptr()",
@@ -13817,6 +15047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'pNext",
           "package": "bindings-sqlite3",
@@ -13826,6 +15057,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'pNext",
           "package": "bindings-sqlite3",
@@ -13839,6 +15071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'szOsFile",
           "package": "bindings-sqlite3",
@@ -13848,6 +15081,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'szOsFile",
           "package": "bindings-sqlite3",
@@ -13861,6 +15095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xAccess",
           "package": "bindings-sqlite3",
@@ -13870,6 +15105,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xAccess",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003ePtr CInt-\u003eIO CInt)",
@@ -13885,6 +15121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xCurrentTime",
           "package": "bindings-sqlite3",
@@ -13894,6 +15131,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xCurrentTime",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr CDouble-\u003eIO CInt)",
@@ -13909,6 +15147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xCurrentTimeInt64",
           "package": "bindings-sqlite3",
@@ -13918,6 +15157,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xCurrentTimeInt64",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eIO CInt)",
@@ -13933,6 +15173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDelete",
           "package": "bindings-sqlite3",
@@ -13942,6 +15183,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDelete",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003eIO CInt)",
@@ -13957,6 +15199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDlClose",
           "package": "bindings-sqlite3",
@@ -13966,6 +15209,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDlClose",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eIO())",
@@ -13981,6 +15225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDlError",
           "package": "bindings-sqlite3",
@@ -13990,6 +15235,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDlError",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eIO())",
@@ -14005,6 +15251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDlOpen",
           "package": "bindings-sqlite3",
@@ -14014,6 +15261,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDlOpen",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eIO(Ptr()))",
@@ -14029,6 +15277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDlSym",
           "package": "bindings-sqlite3",
@@ -14038,6 +15287,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xDlSym",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCString-\u003eIO(FunPtr(IO())))",
@@ -14053,6 +15303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xFullPathname",
           "package": "bindings-sqlite3",
@@ -14062,6 +15313,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xFullPathname",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003eCString-\u003eIO CInt)",
@@ -14077,6 +15329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xGetLastError",
           "package": "bindings-sqlite3",
@@ -14086,6 +15339,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xGetLastError",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eIO CInt)",
@@ -14101,6 +15355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xGetSystemCall",
           "package": "bindings-sqlite3",
@@ -14110,6 +15365,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xGetSystemCall",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eIO C'sqlite b)",
@@ -14125,6 +15381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xNextSystemCall",
           "package": "bindings-sqlite3",
@@ -14134,6 +15391,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xNextSystemCall",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eIO CString)",
@@ -14149,6 +15407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xOpen",
           "package": "bindings-sqlite3",
@@ -14158,6 +15417,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xOpen",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003ePtr C'sqlite b-\u003eCInt-\u003ePtr CInt-\u003eIO CInt)",
@@ -14173,6 +15433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xRandomness",
           "package": "bindings-sqlite3",
@@ -14182,6 +15443,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xRandomness",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eIO CInt)",
@@ -14197,6 +15459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xSetSystemCall",
           "package": "bindings-sqlite3",
@@ -14206,6 +15469,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xSetSystemCall",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eC'sqlite b-\u003eIO CInt)",
@@ -14221,6 +15485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xSleep",
           "package": "bindings-sqlite3",
@@ -14230,6 +15495,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'xSleep",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -14245,6 +15511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'zName",
           "package": "bindings-sqlite3",
@@ -14254,6 +15521,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs'zName",
           "package": "bindings-sqlite3",
@@ -14267,6 +15535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs_find",
           "package": "bindings-sqlite3",
@@ -14276,6 +15545,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs_find",
           "normalized": "CString-\u003eIO(Ptr C'sqlite a)",
@@ -14290,6 +15560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs_register",
           "package": "bindings-sqlite3",
@@ -14299,6 +15570,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs_register",
           "normalized": "Ptr C'sqlite a-\u003eCInt-\u003eIO CInt",
@@ -14313,6 +15585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs_unregister",
           "package": "bindings-sqlite3",
@@ -14322,6 +15595,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vfs_unregister",
           "normalized": "Ptr C'sqlite a-\u003eIO CInt",
@@ -14336,6 +15610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vtab'pModule",
           "package": "bindings-sqlite3",
@@ -14345,6 +15620,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vtab'pModule",
           "package": "bindings-sqlite3",
@@ -14358,6 +15634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vtab'zErrMsg",
           "package": "bindings-sqlite3",
@@ -14367,6 +15644,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vtab'zErrMsg",
           "package": "bindings-sqlite3",
@@ -14380,6 +15658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vtab_cursor'pVtab",
           "package": "bindings-sqlite3",
@@ -14389,6 +15668,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vtab_cursor'pVtab",
           "package": "bindings-sqlite3",
@@ -14402,6 +15682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vtab_on_conflict",
           "package": "bindings-sqlite3",
@@ -14411,6 +15692,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_vtab_on_conflict",
           "normalized": "Ptr C'sqlite-\u003eIO CInt",
@@ -14425,6 +15707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_wal_autocheckpoint",
           "package": "bindings-sqlite3",
@@ -14434,6 +15717,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_wal_autocheckpoint",
           "normalized": "Ptr C'sqlite-\u003eCInt-\u003eIO CInt",
@@ -14448,6 +15732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_wal_checkpoint",
           "package": "bindings-sqlite3",
@@ -14457,6 +15742,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_wal_checkpoint",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eIO CInt",
@@ -14471,6 +15757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_wal_checkpoint_v2",
           "package": "bindings-sqlite3",
@@ -14480,6 +15767,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_wal_checkpoint_v2",
           "normalized": "Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -14494,6 +15782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_wal_hook",
           "package": "bindings-sqlite3",
@@ -14503,6 +15792,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "c'sqlite3_wal_hook",
           "normalized": "Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003ePtr C'sqlite-\u003eCString-\u003eCInt-\u003eIO CInt)-\u003ePtr()-\u003eIO(Ptr())",
@@ -14517,6 +15807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "mK'sqlite3_destructor_type",
           "package": "bindings-sqlite3",
@@ -14526,6 +15817,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "mK'sqlite3_destructor_type",
           "normalized": "C'sqlite a-\u003ePtr()-\u003eIO()",
@@ -14541,6 +15833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "mK'sqlite3_syscall_ptr",
           "package": "bindings-sqlite3",
@@ -14550,6 +15843,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "mK'sqlite3_syscall_ptr",
           "normalized": "C'sqlite a-\u003eIO()",
@@ -14565,6 +15859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "mk'sqlite3_destructor_type",
           "package": "bindings-sqlite3",
@@ -14574,6 +15869,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "mk'sqlite3_destructor_type",
           "normalized": "(Ptr()-\u003eIO())-\u003eIO C'sqlite a",
@@ -14588,6 +15884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "mk'sqlite3_syscall_ptr",
           "package": "bindings-sqlite3",
@@ -14597,6 +15894,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "mk'sqlite3_syscall_ptr",
           "normalized": "IO()-\u003eIO C'sqlite a",
@@ -14611,6 +15909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_aggregate_context",
           "package": "bindings-sqlite3",
@@ -14620,6 +15919,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_aggregate_context",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -14634,6 +15934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_auto_extension",
           "package": "bindings-sqlite3",
@@ -14643,6 +15944,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_auto_extension",
           "normalized": "FunPtr(FunPtr(IO())-\u003eIO CInt)",
@@ -14657,6 +15959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_finish",
           "package": "bindings-sqlite3",
@@ -14666,6 +15969,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_finish",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -14680,6 +15984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_init",
           "package": "bindings-sqlite3",
@@ -14689,6 +15994,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_init",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003ePtr C'sqlite-\u003eCString-\u003eIO(Ptr C'sqlite a))",
@@ -14703,6 +16009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_pagecount",
           "package": "bindings-sqlite3",
@@ -14712,6 +16019,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_pagecount",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -14726,6 +16034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_remaining",
           "package": "bindings-sqlite3",
@@ -14735,6 +16044,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_remaining",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -14749,6 +16059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_step",
           "package": "bindings-sqlite3",
@@ -14758,6 +16069,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_backup_step",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -14772,6 +16084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_blob",
           "package": "bindings-sqlite3",
@@ -14781,6 +16094,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_blob",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt)",
@@ -14795,6 +16109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_double",
           "package": "bindings-sqlite3",
@@ -14804,6 +16119,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_double",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCDouble-\u003eIO CInt)",
@@ -14818,6 +16134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_int",
           "package": "bindings-sqlite3",
@@ -14827,6 +16144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_int",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -14841,6 +16159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_int64",
           "package": "bindings-sqlite3",
@@ -14850,6 +16169,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_int64",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eC'sqlite b-\u003eIO CInt)",
@@ -14864,6 +16184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_null",
           "package": "bindings-sqlite3",
@@ -14873,6 +16194,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_null",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -14887,6 +16209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_parameter_count",
           "package": "bindings-sqlite3",
@@ -14896,6 +16219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_parameter_count",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -14910,6 +16234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_parameter_index",
           "package": "bindings-sqlite3",
@@ -14919,6 +16244,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_parameter_index",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eIO CInt)",
@@ -14933,6 +16259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_parameter_name",
           "package": "bindings-sqlite3",
@@ -14942,6 +16269,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_parameter_name",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CString)",
@@ -14956,6 +16284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_text",
           "package": "bindings-sqlite3",
@@ -14965,6 +16294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_text",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt)",
@@ -14979,6 +16309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_text16",
           "package": "bindings-sqlite3",
@@ -14988,6 +16319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_text16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt)",
@@ -15002,6 +16334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_value",
           "package": "bindings-sqlite3",
@@ -15011,6 +16344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_value",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr C'sqlite b-\u003eIO CInt)",
@@ -15025,6 +16359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_zeroblob",
           "package": "bindings-sqlite3",
@@ -15034,6 +16369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_bind_zeroblob",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -15048,6 +16384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_bytes",
           "package": "bindings-sqlite3",
@@ -15057,6 +16394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_bytes",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -15071,6 +16409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_close",
           "package": "bindings-sqlite3",
@@ -15080,6 +16419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_close",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -15094,6 +16434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_open",
           "package": "bindings-sqlite3",
@@ -15103,6 +16444,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_open",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCString-\u003eCString-\u003eC'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO CInt)",
@@ -15117,6 +16459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_read",
           "package": "bindings-sqlite3",
@@ -15126,6 +16469,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_read",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -15140,6 +16484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_reopen",
           "package": "bindings-sqlite3",
@@ -15149,6 +16494,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_reopen",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eC'sqlite b-\u003eIO CInt)",
@@ -15163,6 +16509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_write",
           "package": "bindings-sqlite3",
@@ -15172,6 +16519,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_blob_write",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -15186,6 +16534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_busy_handler",
           "package": "bindings-sqlite3",
@@ -15195,6 +16544,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_busy_handler",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCInt-\u003eIO CInt)-\u003ePtr()-\u003eIO CInt)",
@@ -15209,6 +16559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_busy_timeout",
           "package": "bindings-sqlite3",
@@ -15218,6 +16569,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_busy_timeout",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCInt-\u003eIO CInt)",
@@ -15232,6 +16584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_changes",
           "package": "bindings-sqlite3",
@@ -15241,6 +16594,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_changes",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -15255,6 +16609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_clear_bindings",
           "package": "bindings-sqlite3",
@@ -15264,6 +16619,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_clear_bindings",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -15278,6 +16634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_close",
           "package": "bindings-sqlite3",
@@ -15287,6 +16644,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_close",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -15301,6 +16659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_close_v2",
           "package": "bindings-sqlite3",
@@ -15310,6 +16669,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_close_v2",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -15324,6 +16684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_collation_needed",
           "package": "bindings-sqlite3",
@@ -15333,6 +16694,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_collation_needed",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eFunPtr(Ptr()-\u003ePtr C'sqlite-\u003eCInt-\u003eCString-\u003eIO())-\u003eIO CInt)",
@@ -15347,6 +16709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_collation_needed16",
           "package": "bindings-sqlite3",
@@ -15356,6 +16719,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_collation_needed16",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eFunPtr(Ptr()-\u003ePtr C'sqlite-\u003eCInt-\u003ePtr()-\u003eIO())-\u003eIO CInt)",
@@ -15370,6 +16734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_blob",
           "package": "bindings-sqlite3",
@@ -15379,6 +16744,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_blob",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -15393,6 +16759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_bytes",
           "package": "bindings-sqlite3",
@@ -15402,6 +16769,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_bytes",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -15416,6 +16784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_bytes16",
           "package": "bindings-sqlite3",
@@ -15425,6 +16794,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_bytes16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -15439,6 +16809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_count",
           "package": "bindings-sqlite3",
@@ -15448,6 +16819,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_count",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -15462,6 +16834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_database_name",
           "package": "bindings-sqlite3",
@@ -15471,6 +16844,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_database_name",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CString)",
@@ -15485,6 +16859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_database_name16",
           "package": "bindings-sqlite3",
@@ -15494,6 +16869,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_database_name16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -15508,6 +16884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_decltype",
           "package": "bindings-sqlite3",
@@ -15517,6 +16894,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_decltype",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CString)",
@@ -15531,6 +16909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_decltype16",
           "package": "bindings-sqlite3",
@@ -15540,6 +16919,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_decltype16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -15554,6 +16934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_double",
           "package": "bindings-sqlite3",
@@ -15563,6 +16944,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_double",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CDouble)",
@@ -15577,6 +16959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_int",
           "package": "bindings-sqlite3",
@@ -15586,6 +16969,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_int",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -15600,6 +16984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_int64",
           "package": "bindings-sqlite3",
@@ -15609,6 +16994,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_int64",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO C'sqlite b)",
@@ -15623,6 +17009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_name",
           "package": "bindings-sqlite3",
@@ -15632,6 +17019,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_name",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CString)",
@@ -15646,6 +17034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_name16",
           "package": "bindings-sqlite3",
@@ -15655,6 +17044,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_name16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -15669,6 +17059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_origin_name",
           "package": "bindings-sqlite3",
@@ -15678,6 +17069,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_origin_name",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CString)",
@@ -15692,6 +17084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_origin_name16",
           "package": "bindings-sqlite3",
@@ -15701,6 +17094,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_origin_name16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -15715,6 +17109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_table_name",
           "package": "bindings-sqlite3",
@@ -15724,6 +17119,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_table_name",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CString)",
@@ -15738,6 +17134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_table_name16",
           "package": "bindings-sqlite3",
@@ -15747,6 +17144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_table_name16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -15761,6 +17159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_text",
           "package": "bindings-sqlite3",
@@ -15770,6 +17169,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_text",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr CUChar))",
@@ -15784,6 +17184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_text16",
           "package": "bindings-sqlite3",
@@ -15793,6 +17194,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_text16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -15807,6 +17209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_type",
           "package": "bindings-sqlite3",
@@ -15816,6 +17219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_type",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -15830,6 +17234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_value",
           "package": "bindings-sqlite3",
@@ -15839,6 +17244,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_column_value",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr C'sqlite b))",
@@ -15853,6 +17259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_commit_hook",
           "package": "bindings-sqlite3",
@@ -15862,6 +17269,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_commit_hook",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eIO CInt)-\u003ePtr()-\u003eIO(Ptr()))",
@@ -15876,6 +17284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_complete",
           "package": "bindings-sqlite3",
@@ -15885,6 +17294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_complete",
           "normalized": "FunPtr(CString-\u003eIO CInt)",
@@ -15899,6 +17309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_complete16",
           "package": "bindings-sqlite3",
@@ -15908,6 +17319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_complete16",
           "normalized": "FunPtr(Ptr()-\u003eIO CInt)",
@@ -15922,6 +17334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_context_db_handle",
           "package": "bindings-sqlite3",
@@ -15931,6 +17344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_context_db_handle",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO(Ptr C'sqlite))",
@@ -15945,6 +17359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_collation",
           "package": "bindings-sqlite3",
@@ -15954,6 +17369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_collation",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eCInt-\u003ePtr()-\u003eCInt-\u003ePtr()-\u003eIO CInt)-\u003eIO CInt)",
@@ -15968,6 +17384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_collation16",
           "package": "bindings-sqlite3",
@@ -15977,6 +17394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_collation16",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eCInt-\u003ePtr()-\u003eCInt-\u003ePtr()-\u003eIO CInt)-\u003eIO CInt)",
@@ -15991,6 +17409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_collation_v2",
           "package": "bindings-sqlite3",
@@ -16000,6 +17419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_collation_v2",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eCInt-\u003ePtr()-\u003eCInt-\u003ePtr()-\u003eIO CInt)-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt)",
@@ -16014,6 +17434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_function",
           "package": "bindings-sqlite3",
@@ -16023,6 +17444,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_function",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eIO())-\u003eIO CInt)",
@@ -16037,6 +17459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_function16",
           "package": "bindings-sqlite3",
@@ -16046,6 +17469,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_function16",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eIO())-\u003eIO CInt)",
@@ -16060,6 +17484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_function_v2",
           "package": "bindings-sqlite3",
@@ -16069,6 +17494,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_function_v2",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr(Ptr C'sqlite b)-\u003eIO())-\u003eFunPtr(Ptr C'sqlite a-\u003eIO())-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt)",
@@ -16083,6 +17509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_module",
           "package": "bindings-sqlite3",
@@ -16092,6 +17519,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_module",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003ePtr C'sqlite a-\u003ePtr()-\u003eIO CInt)",
@@ -16106,6 +17534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_module_v2",
           "package": "bindings-sqlite3",
@@ -16115,6 +17544,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_create_module_v2",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003ePtr C'sqlite a-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO CInt)",
@@ -16129,6 +17559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_data_count",
           "package": "bindings-sqlite3",
@@ -16138,6 +17569,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_data_count",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -16152,6 +17584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_data_directory",
           "package": "bindings-sqlite3",
@@ -16161,6 +17594,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_data_directory",
           "package": "bindings-sqlite3",
@@ -16173,6 +17607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_filename",
           "package": "bindings-sqlite3",
@@ -16182,6 +17617,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_filename",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eIO CString)",
@@ -16196,6 +17632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_handle",
           "package": "bindings-sqlite3",
@@ -16205,6 +17642,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_handle",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO(Ptr C'sqlite))",
@@ -16219,6 +17657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_mutex",
           "package": "bindings-sqlite3",
@@ -16228,6 +17667,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_mutex",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO(Ptr C'sqlite a))",
@@ -16242,6 +17682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_readonly",
           "package": "bindings-sqlite3",
@@ -16251,6 +17692,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_readonly",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eIO CInt)",
@@ -16265,6 +17707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_release_memory",
           "package": "bindings-sqlite3",
@@ -16274,6 +17717,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_release_memory",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -16288,6 +17732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_status",
           "package": "bindings-sqlite3",
@@ -16297,6 +17742,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_db_status",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCInt-\u003ePtr CInt-\u003ePtr CInt-\u003eCInt-\u003eIO CInt)",
@@ -16311,6 +17757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_declare_vtab",
           "package": "bindings-sqlite3",
@@ -16320,6 +17767,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_declare_vtab",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eIO CInt)",
@@ -16334,6 +17782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_enable_load_extension",
           "package": "bindings-sqlite3",
@@ -16343,6 +17792,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_enable_load_extension",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCInt-\u003eIO CInt)",
@@ -16357,6 +17807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_enable_shared_cache",
           "package": "bindings-sqlite3",
@@ -16366,6 +17817,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_enable_shared_cache",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -16380,6 +17832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_errcode",
           "package": "bindings-sqlite3",
@@ -16389,6 +17842,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_errcode",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -16403,6 +17857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_errmsg",
           "package": "bindings-sqlite3",
@@ -16412,6 +17867,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_errmsg",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CString)",
@@ -16426,6 +17882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_errmsg16",
           "package": "bindings-sqlite3",
@@ -16435,6 +17892,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_errmsg16",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO(Ptr()))",
@@ -16449,6 +17907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_errstr",
           "package": "bindings-sqlite3",
@@ -16458,6 +17917,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_errstr",
           "normalized": "FunPtr(CInt-\u003eIO CString)",
@@ -16472,6 +17932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_exec",
           "package": "bindings-sqlite3",
@@ -16481,6 +17942,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_exec",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eFunPtr(Ptr()-\u003eCInt-\u003ePtr CString-\u003ePtr CString-\u003eIO CInt)-\u003ePtr()-\u003ePtr CString-\u003eIO CInt)",
@@ -16495,6 +17957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_extended_errcode",
           "package": "bindings-sqlite3",
@@ -16504,6 +17967,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_extended_errcode",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -16518,6 +17982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_extended_result_codes",
           "package": "bindings-sqlite3",
@@ -16527,6 +17992,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_extended_result_codes",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCInt-\u003eIO CInt)",
@@ -16541,6 +18007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_file'pMethods",
           "package": "bindings-sqlite3",
@@ -16550,6 +18017,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_file'pMethods",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr C'sqlite b)",
@@ -16565,6 +18033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_file_control",
           "package": "bindings-sqlite3",
@@ -16574,6 +18043,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_file_control",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr()-\u003eIO CInt)",
@@ -16588,6 +18058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_finalize",
           "package": "bindings-sqlite3",
@@ -16597,6 +18068,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_finalize",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -16611,6 +18083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_free",
           "package": "bindings-sqlite3",
@@ -16620,6 +18093,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_free",
           "normalized": "FunPtr(Ptr()-\u003eIO())",
@@ -16634,6 +18108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_free_table",
           "package": "bindings-sqlite3",
@@ -16643,6 +18118,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_free_table",
           "normalized": "FunPtr(Ptr CString-\u003eIO())",
@@ -16657,6 +18133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_get_autocommit",
           "package": "bindings-sqlite3",
@@ -16666,6 +18143,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_get_autocommit",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -16680,6 +18158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_get_auxdata",
           "package": "bindings-sqlite3",
@@ -16689,6 +18168,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_get_auxdata",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO(Ptr()))",
@@ -16703,6 +18183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_get_table",
           "package": "bindings-sqlite3",
@@ -16712,6 +18193,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_get_table",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003ePtr(Ptr CString)-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CString-\u003eIO CInt)",
@@ -16726,6 +18208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint'iColumn",
           "package": "bindings-sqlite3",
@@ -16735,6 +18218,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint'iColumn",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -16750,6 +18234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint'op",
           "package": "bindings-sqlite3",
@@ -16759,6 +18244,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint'op",
           "normalized": "Ptr C'sqlite a-\u003ePtr CUChar",
@@ -16773,6 +18259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint'usable",
           "package": "bindings-sqlite3",
@@ -16782,6 +18269,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint'usable",
           "normalized": "Ptr C'sqlite a-\u003ePtr CUChar",
@@ -16796,6 +18284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint_usage'argvIndex",
           "package": "bindings-sqlite3",
@@ -16805,6 +18294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint_usage'argvIndex",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -16820,6 +18310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint_usage'omit",
           "package": "bindings-sqlite3",
@@ -16829,6 +18320,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_constraint_usage'omit",
           "normalized": "Ptr C'sqlite a-\u003ePtr CUChar",
@@ -16843,6 +18335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'aConstraint",
           "package": "bindings-sqlite3",
@@ -16852,6 +18345,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'aConstraint",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr C'sqlite b)",
@@ -16867,6 +18361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'aConstraintUsage",
           "package": "bindings-sqlite3",
@@ -16876,6 +18371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'aConstraintUsage",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr C'sqlite b)",
@@ -16891,6 +18387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'aOrderBy",
           "package": "bindings-sqlite3",
@@ -16900,6 +18397,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'aOrderBy",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr C'sqlite b)",
@@ -16915,6 +18413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'estimatedCost",
           "package": "bindings-sqlite3",
@@ -16924,6 +18423,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'estimatedCost",
           "normalized": "Ptr C'sqlite a-\u003ePtr CDouble",
@@ -16939,6 +18439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'idxNum",
           "package": "bindings-sqlite3",
@@ -16948,6 +18449,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'idxNum",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -16963,6 +18465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'idxStr",
           "package": "bindings-sqlite3",
@@ -16972,6 +18475,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'idxStr",
           "normalized": "Ptr C'sqlite a-\u003ePtr CString",
@@ -16987,6 +18491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'nConstraint",
           "package": "bindings-sqlite3",
@@ -16996,6 +18501,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'nConstraint",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -17011,6 +18517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'nOrderBy",
           "package": "bindings-sqlite3",
@@ -17020,6 +18527,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'nOrderBy",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -17035,6 +18543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'needToFreeIdxStr",
           "package": "bindings-sqlite3",
@@ -17044,6 +18553,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'needToFreeIdxStr",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -17059,6 +18569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'orderByConsumed",
           "package": "bindings-sqlite3",
@@ -17068,6 +18579,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_info'orderByConsumed",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -17083,6 +18595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_orderby'desc",
           "package": "bindings-sqlite3",
@@ -17092,6 +18605,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_orderby'desc",
           "normalized": "Ptr C'sqlite a-\u003ePtr CUChar",
@@ -17106,6 +18620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_orderby'iColumn",
           "package": "bindings-sqlite3",
@@ -17115,6 +18630,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_index_orderby'iColumn",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -17130,6 +18646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_initialize",
           "package": "bindings-sqlite3",
@@ -17139,6 +18656,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_initialize",
           "package": "bindings-sqlite3",
@@ -17151,6 +18669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_interrupt",
           "package": "bindings-sqlite3",
@@ -17160,6 +18679,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_interrupt",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO())",
@@ -17174,6 +18694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'iVersion",
           "package": "bindings-sqlite3",
@@ -17183,6 +18704,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'iVersion",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -17198,6 +18720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xCheckReservedLock",
           "package": "bindings-sqlite3",
@@ -17207,6 +18730,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xCheckReservedLock",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr CInt-\u003eIO CInt))",
@@ -17222,6 +18746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xClose",
           "package": "bindings-sqlite3",
@@ -17231,6 +18756,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xClose",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -17246,6 +18772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xDeviceCharacteristics",
           "package": "bindings-sqlite3",
@@ -17255,6 +18782,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xDeviceCharacteristics",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -17270,6 +18798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xFetch",
           "package": "bindings-sqlite3",
@@ -17279,6 +18808,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xFetch",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eC'sqlite c-\u003eCInt-\u003ePtr(Ptr())-\u003eIO CInt))",
@@ -17294,6 +18824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xFileControl",
           "package": "bindings-sqlite3",
@@ -17303,6 +18834,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xFileControl",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003ePtr()-\u003eIO CInt))",
@@ -17318,6 +18850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xFileSize",
           "package": "bindings-sqlite3",
@@ -17327,6 +18860,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xFileSize",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr C'sqlite c-\u003eIO CInt))",
@@ -17342,6 +18876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xLock",
           "package": "bindings-sqlite3",
@@ -17351,6 +18886,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xLock",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eIO CInt))",
@@ -17366,6 +18902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xRead",
           "package": "bindings-sqlite3",
@@ -17375,6 +18912,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xRead",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr()-\u003eCInt-\u003eC'sqlite c-\u003eIO CInt))",
@@ -17390,6 +18928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xSectorSize",
           "package": "bindings-sqlite3",
@@ -17399,6 +18938,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xSectorSize",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -17414,6 +18954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xShmBarrier",
           "package": "bindings-sqlite3",
@@ -17423,6 +18964,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xShmBarrier",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO()))",
@@ -17438,6 +18980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xShmLock",
           "package": "bindings-sqlite3",
@@ -17447,6 +18990,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xShmLock",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO CInt))",
@@ -17462,6 +19006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xShmMap",
           "package": "bindings-sqlite3",
@@ -17471,6 +19016,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xShmMap",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eCInt-\u003eCInt-\u003ePtr(Ptr())-\u003eIO CInt))",
@@ -17486,6 +19032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xShmUnmap",
           "package": "bindings-sqlite3",
@@ -17495,6 +19042,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xShmUnmap",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eIO CInt))",
@@ -17510,6 +19058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xSync",
           "package": "bindings-sqlite3",
@@ -17519,6 +19068,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xSync",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eIO CInt))",
@@ -17534,6 +19084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xTruncate",
           "package": "bindings-sqlite3",
@@ -17543,6 +19094,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xTruncate",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eC'sqlite c-\u003eIO CInt))",
@@ -17558,6 +19110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xUnfetch",
           "package": "bindings-sqlite3",
@@ -17567,6 +19120,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xUnfetch",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eC'sqlite c-\u003ePtr()-\u003eIO CInt))",
@@ -17582,6 +19136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xUnlock",
           "package": "bindings-sqlite3",
@@ -17591,6 +19146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xUnlock",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eIO CInt))",
@@ -17606,6 +19162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xWrite",
           "package": "bindings-sqlite3",
@@ -17615,6 +19172,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_io_methods'xWrite",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr()-\u003eCInt-\u003eC'sqlite c-\u003eIO()))",
@@ -17630,6 +19188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_last_insert_rowid",
           "package": "bindings-sqlite3",
@@ -17639,6 +19198,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_last_insert_rowid",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO C'sqlite a)",
@@ -17653,6 +19213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_libversion",
           "package": "bindings-sqlite3",
@@ -17662,6 +19223,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_libversion",
           "package": "bindings-sqlite3",
@@ -17674,6 +19236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_libversion_number",
           "package": "bindings-sqlite3",
@@ -17683,6 +19246,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_libversion_number",
           "package": "bindings-sqlite3",
@@ -17695,6 +19259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_limit",
           "package": "bindings-sqlite3",
@@ -17704,6 +19269,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_limit",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -17718,6 +19284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_load_extension",
           "package": "bindings-sqlite3",
@@ -17727,6 +19294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_load_extension",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCString-\u003ePtr CString-\u003eIO CInt)",
@@ -17741,6 +19309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_malloc",
           "package": "bindings-sqlite3",
@@ -17750,6 +19319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_malloc",
           "normalized": "FunPtr(CInt-\u003eIO(Ptr()))",
@@ -17764,6 +19334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'pAppData",
           "package": "bindings-sqlite3",
@@ -17773,6 +19344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'pAppData",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr())",
@@ -17788,6 +19360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xFree",
           "package": "bindings-sqlite3",
@@ -17797,6 +19370,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xFree",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr()-\u003eIO()))",
@@ -17812,6 +19386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xInit",
           "package": "bindings-sqlite3",
@@ -17821,6 +19396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xInit",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr()-\u003eIO CInt))",
@@ -17836,6 +19412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xMalloc",
           "package": "bindings-sqlite3",
@@ -17845,6 +19422,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xMalloc",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(CInt-\u003eIO(Ptr())))",
@@ -17860,6 +19438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xRealloc",
           "package": "bindings-sqlite3",
@@ -17869,6 +19448,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xRealloc",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr()-\u003eCInt-\u003eIO(Ptr())))",
@@ -17884,6 +19464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xRoundup",
           "package": "bindings-sqlite3",
@@ -17893,6 +19474,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xRoundup",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(CInt-\u003eIO CInt))",
@@ -17908,6 +19490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xShutdown",
           "package": "bindings-sqlite3",
@@ -17917,6 +19500,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xShutdown",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr()-\u003eIO()))",
@@ -17932,6 +19516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xSize",
           "package": "bindings-sqlite3",
@@ -17941,6 +19526,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mem_methods'xSize",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr()-\u003eIO CInt))",
@@ -17956,6 +19542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_memory_highwater",
           "package": "bindings-sqlite3",
@@ -17965,6 +19552,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_memory_highwater",
           "normalized": "FunPtr(CInt-\u003eIO C'sqlite a)",
@@ -17979,6 +19567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_memory_used",
           "package": "bindings-sqlite3",
@@ -17988,6 +19577,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_memory_used",
           "package": "bindings-sqlite3",
@@ -18000,6 +19590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'iVersion",
           "package": "bindings-sqlite3",
@@ -18009,6 +19600,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'iVersion",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -18024,6 +19616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xBegin",
           "package": "bindings-sqlite3",
@@ -18033,6 +19626,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xBegin",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18048,6 +19642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xBestIndex",
           "package": "bindings-sqlite3",
@@ -18057,6 +19652,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xBestIndex",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr C'sqlite c-\u003eIO CInt))",
@@ -18072,6 +19668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xClose",
           "package": "bindings-sqlite3",
@@ -18081,6 +19678,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xClose",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18096,6 +19694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xColumn",
           "package": "bindings-sqlite3",
@@ -18105,6 +19704,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xColumn",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr C'sqlite c-\u003eCInt-\u003eIO CInt))",
@@ -18120,6 +19720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xCommit",
           "package": "bindings-sqlite3",
@@ -18129,6 +19730,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xCommit",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18144,6 +19746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xConnect",
           "package": "bindings-sqlite3",
@@ -18153,6 +19756,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xConnect",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr CString-\u003ePtr(Ptr C'sqlite b)-\u003ePtr CString-\u003eIO CInt))",
@@ -18168,6 +19772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xCreate",
           "package": "bindings-sqlite3",
@@ -18177,6 +19782,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xCreate",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr CString-\u003ePtr(Ptr C'sqlite b)-\u003ePtr CString-\u003eIO CInt))",
@@ -18192,6 +19798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xDestroy",
           "package": "bindings-sqlite3",
@@ -18201,6 +19808,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xDestroy",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18216,6 +19824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xDisconnect",
           "package": "bindings-sqlite3",
@@ -18225,6 +19834,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xDisconnect",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18240,6 +19850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xEof",
           "package": "bindings-sqlite3",
@@ -18249,6 +19860,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xEof",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18264,6 +19876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xFilter",
           "package": "bindings-sqlite3",
@@ -18273,6 +19886,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xFilter",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eCString-\u003eCInt-\u003ePtr(Ptr C'sqlite c)-\u003eIO CInt))",
@@ -18288,6 +19902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xFindFunction",
           "package": "bindings-sqlite3",
@@ -18297,6 +19912,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xFindFunction",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eCString-\u003ePtr(FunPtr(Ptr C'sqlite c-\u003eCInt-\u003ePtr(Ptr C'sqlite d)-\u003ePtr(Ptr())-\u003eIO()))-\u003ePtr(Ptr())-\u003eIO CInt))",
@@ -18312,6 +19928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xNext",
           "package": "bindings-sqlite3",
@@ -18321,6 +19938,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xNext",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18336,6 +19954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xOpen",
           "package": "bindings-sqlite3",
@@ -18345,6 +19964,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xOpen",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr(Ptr C'sqlite c)-\u003eIO CInt))",
@@ -18360,6 +19980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRelease",
           "package": "bindings-sqlite3",
@@ -18369,6 +19990,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRelease",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eIO CInt))",
@@ -18384,6 +20006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRename",
           "package": "bindings-sqlite3",
@@ -18393,6 +20016,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRename",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCString-\u003eIO CInt))",
@@ -18408,6 +20032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRollback",
           "package": "bindings-sqlite3",
@@ -18417,6 +20042,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRollback",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18432,6 +20058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRollbackTo",
           "package": "bindings-sqlite3",
@@ -18441,6 +20068,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRollbackTo",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eIO CInt))",
@@ -18456,6 +20084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRowid",
           "package": "bindings-sqlite3",
@@ -18465,6 +20094,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xRowid",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr C'sqlite c-\u003eIO CInt))",
@@ -18480,6 +20110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xSavepoint",
           "package": "bindings-sqlite3",
@@ -18489,6 +20120,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xSavepoint",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eIO CInt))",
@@ -18504,6 +20136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xSync",
           "package": "bindings-sqlite3",
@@ -18513,6 +20146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xSync",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18528,6 +20162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xUpdate",
           "package": "bindings-sqlite3",
@@ -18537,6 +20172,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_module'xUpdate",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003ePtr(Ptr C'sqlite c)-\u003ePtr C'sqlite d-\u003eIO CInt))",
@@ -18552,6 +20188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_alloc",
           "package": "bindings-sqlite3",
@@ -18561,6 +20198,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_alloc",
           "normalized": "FunPtr(CInt-\u003eIO(Ptr C'sqlite a))",
@@ -18575,6 +20213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_enter",
           "package": "bindings-sqlite3",
@@ -18584,6 +20223,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_enter",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -18598,6 +20238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_free",
           "package": "bindings-sqlite3",
@@ -18607,6 +20248,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_free",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -18621,6 +20263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_leave",
           "package": "bindings-sqlite3",
@@ -18630,6 +20273,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_leave",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -18644,6 +20288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexAlloc",
           "package": "bindings-sqlite3",
@@ -18653,6 +20298,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexAlloc",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(CInt-\u003eIO(Ptr C'sqlite b)))",
@@ -18668,6 +20314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexEnd",
           "package": "bindings-sqlite3",
@@ -18677,6 +20324,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexEnd",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(IO CInt))",
@@ -18692,6 +20340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexEnter",
           "package": "bindings-sqlite3",
@@ -18701,6 +20350,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexEnter",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO()))",
@@ -18716,6 +20366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexFree",
           "package": "bindings-sqlite3",
@@ -18725,6 +20376,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexFree",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO()))",
@@ -18740,6 +20392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexHeld",
           "package": "bindings-sqlite3",
@@ -18749,6 +20402,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexHeld",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18764,6 +20418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexInit",
           "package": "bindings-sqlite3",
@@ -18773,6 +20428,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexInit",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(IO CInt))",
@@ -18788,6 +20444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexLeave",
           "package": "bindings-sqlite3",
@@ -18797,6 +20454,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexLeave",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO()))",
@@ -18812,6 +20470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexNotheld",
           "package": "bindings-sqlite3",
@@ -18821,6 +20480,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexNotheld",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18836,6 +20496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexTry",
           "package": "bindings-sqlite3",
@@ -18845,6 +20506,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_methods'xMutexTry",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -18860,6 +20522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_try",
           "package": "bindings-sqlite3",
@@ -18869,6 +20532,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_mutex_try",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -18883,6 +20547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_next_stmt",
           "package": "bindings-sqlite3",
@@ -18892,6 +20557,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_next_stmt",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr C'sqlite a-\u003eIO(Ptr C'sqlite a))",
@@ -18906,6 +20572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_open",
           "package": "bindings-sqlite3",
@@ -18915,6 +20582,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_open",
           "normalized": "FunPtr(CString-\u003ePtr(Ptr C'sqlite)-\u003eIO CInt)",
@@ -18929,6 +20597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_open16",
           "package": "bindings-sqlite3",
@@ -18938,6 +20607,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_open16",
           "normalized": "FunPtr(Ptr()-\u003ePtr(Ptr C'sqlite)-\u003eIO CInt)",
@@ -18952,6 +20622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_open_v2",
           "package": "bindings-sqlite3",
@@ -18961,6 +20632,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_open_v2",
           "normalized": "FunPtr(CString-\u003ePtr(Ptr C'sqlite)-\u003eCInt-\u003eCString-\u003eIO CInt)",
@@ -18975,6 +20647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_os_end",
           "package": "bindings-sqlite3",
@@ -18984,6 +20657,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_os_end",
           "package": "bindings-sqlite3",
@@ -18996,6 +20670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_os_init",
           "package": "bindings-sqlite3",
@@ -19005,6 +20680,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_os_init",
           "package": "bindings-sqlite3",
@@ -19017,6 +20693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_overload_function",
           "package": "bindings-sqlite3",
@@ -19026,6 +20703,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_overload_function",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003eIO CInt)",
@@ -19040,6 +20718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'iVersion",
           "package": "bindings-sqlite3",
@@ -19049,6 +20728,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'iVersion",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -19064,6 +20744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'pArg",
           "package": "bindings-sqlite3",
@@ -19073,6 +20754,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'pArg",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr())",
@@ -19088,6 +20770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xCachesize",
           "package": "bindings-sqlite3",
@@ -19097,6 +20780,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xCachesize",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCInt-\u003eIO()))",
@@ -19112,6 +20796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xCreate",
           "package": "bindings-sqlite3",
@@ -19121,6 +20806,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xCreate",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(CInt-\u003eCInt-\u003eCInt-\u003eIO(Ptr C'sqlite b)))",
@@ -19136,6 +20822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xDestroy",
           "package": "bindings-sqlite3",
@@ -19145,6 +20832,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xDestroy",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO()))",
@@ -19160,6 +20848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xFetch",
           "package": "bindings-sqlite3",
@@ -19169,6 +20858,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xFetch",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCUInt-\u003eCInt-\u003eIO(Ptr C'sqlite c)))",
@@ -19184,6 +20874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xInit",
           "package": "bindings-sqlite3",
@@ -19193,6 +20884,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xInit",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr()-\u003eIO CInt))",
@@ -19208,6 +20900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xPagecount",
           "package": "bindings-sqlite3",
@@ -19217,6 +20910,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xPagecount",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO CInt))",
@@ -19232,6 +20926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xRekey",
           "package": "bindings-sqlite3",
@@ -19241,6 +20936,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xRekey",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr C'sqlite c-\u003eCUInt-\u003eCUInt-\u003eIO()))",
@@ -19256,6 +20952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xShrink",
           "package": "bindings-sqlite3",
@@ -19265,6 +20962,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xShrink",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eIO()))",
@@ -19280,6 +20978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xShutdown",
           "package": "bindings-sqlite3",
@@ -19289,6 +20988,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xShutdown",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr()-\u003eIO()))",
@@ -19304,6 +21004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xTruncate",
           "package": "bindings-sqlite3",
@@ -19313,6 +21014,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xTruncate",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003eCUInt-\u003eIO()))",
@@ -19328,6 +21030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xUnpin",
           "package": "bindings-sqlite3",
@@ -19337,6 +21040,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_methods2'xUnpin",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite b-\u003ePtr C'sqlite c-\u003eCInt-\u003eIO()))",
@@ -19352,6 +21056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_page'pBuf",
           "package": "bindings-sqlite3",
@@ -19361,6 +21066,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_page'pBuf",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr())",
@@ -19376,6 +21082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_page'pExtra",
           "package": "bindings-sqlite3",
@@ -19385,6 +21092,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_pcache_page'pExtra",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr())",
@@ -19400,6 +21108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_prepare",
           "package": "bindings-sqlite3",
@@ -19409,6 +21118,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_prepare",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr(Ptr C'sqlite a)-\u003ePtr CString-\u003eIO CInt)",
@@ -19423,6 +21133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_prepare16",
           "package": "bindings-sqlite3",
@@ -19432,6 +21143,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_prepare16",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr(Ptr C'sqlite a)-\u003ePtr(Ptr())-\u003eIO CInt)",
@@ -19446,6 +21158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_prepare16_v2",
           "package": "bindings-sqlite3",
@@ -19455,6 +21168,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_prepare16_v2",
           "normalized": "FunPtr(Ptr C'sqlite-\u003ePtr()-\u003eCInt-\u003ePtr(Ptr C'sqlite a)-\u003ePtr(Ptr())-\u003eIO CInt)",
@@ -19469,6 +21183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_prepare_v2",
           "package": "bindings-sqlite3",
@@ -19478,6 +21193,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_prepare_v2",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr(Ptr C'sqlite a)-\u003ePtr CString-\u003eIO CInt)",
@@ -19492,6 +21208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_profile",
           "package": "bindings-sqlite3",
@@ -19501,6 +21218,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_profile",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCString-\u003eC'sqlite a-\u003eIO())-\u003ePtr()-\u003eIO(Ptr()))",
@@ -19515,6 +21233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_progress_handler",
           "package": "bindings-sqlite3",
@@ -19524,6 +21243,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_progress_handler",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO CInt)-\u003ePtr()-\u003eIO())",
@@ -19538,6 +21258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_randomness",
           "package": "bindings-sqlite3",
@@ -19547,6 +21268,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_randomness",
           "normalized": "FunPtr(CInt-\u003ePtr()-\u003eIO())",
@@ -19561,6 +21283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_realloc",
           "package": "bindings-sqlite3",
@@ -19570,6 +21293,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_realloc",
           "normalized": "FunPtr(Ptr()-\u003eCInt-\u003eIO(Ptr()))",
@@ -19584,6 +21308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_release_memory",
           "package": "bindings-sqlite3",
@@ -19593,6 +21318,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_release_memory",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -19607,6 +21333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_reset",
           "package": "bindings-sqlite3",
@@ -19616,6 +21343,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_reset",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -19630,6 +21358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_reset_auto_extension",
           "package": "bindings-sqlite3",
@@ -19639,6 +21368,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_reset_auto_extension",
           "normalized": "FunPtr(IO())",
@@ -19653,6 +21383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_blob",
           "package": "bindings-sqlite3",
@@ -19662,6 +21393,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_blob",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO())",
@@ -19676,6 +21408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_double",
           "package": "bindings-sqlite3",
@@ -19685,6 +21418,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_double",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCDouble-\u003eIO())",
@@ -19699,6 +21433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error",
           "package": "bindings-sqlite3",
@@ -19708,6 +21443,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003eIO())",
@@ -19722,6 +21458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error16",
           "package": "bindings-sqlite3",
@@ -19731,6 +21468,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eIO())",
@@ -19745,6 +21483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error_code",
           "package": "bindings-sqlite3",
@@ -19754,6 +21493,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error_code",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO())",
@@ -19768,6 +21508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error_nomem",
           "package": "bindings-sqlite3",
@@ -19777,6 +21518,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error_nomem",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -19791,6 +21533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error_toobig",
           "package": "bindings-sqlite3",
@@ -19800,6 +21543,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_error_toobig",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -19814,6 +21558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_int",
           "package": "bindings-sqlite3",
@@ -19823,6 +21568,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_int",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO())",
@@ -19837,6 +21583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_int64",
           "package": "bindings-sqlite3",
@@ -19846,6 +21593,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_int64",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eC'sqlite b-\u003eIO())",
@@ -19860,6 +21608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_null",
           "package": "bindings-sqlite3",
@@ -19869,6 +21618,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_null",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO())",
@@ -19883,6 +21633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_text",
           "package": "bindings-sqlite3",
@@ -19892,6 +21643,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_text",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO())",
@@ -19906,6 +21658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_text16",
           "package": "bindings-sqlite3",
@@ -19915,6 +21668,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_text16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO())",
@@ -19929,6 +21683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_text16be",
           "package": "bindings-sqlite3",
@@ -19938,6 +21693,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_text16be",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO())",
@@ -19952,6 +21708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_text16le",
           "package": "bindings-sqlite3",
@@ -19961,6 +21718,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_text16le",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO())",
@@ -19975,6 +21733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_value",
           "package": "bindings-sqlite3",
@@ -19984,6 +21743,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_value",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eIO())",
@@ -19998,6 +21758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_zeroblob",
           "package": "bindings-sqlite3",
@@ -20007,6 +21768,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_result_zeroblob",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO())",
@@ -20021,6 +21783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_rollback_hook",
           "package": "bindings-sqlite3",
@@ -20030,6 +21793,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_rollback_hook",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eIO())-\u003ePtr()-\u003eIO(Ptr()))",
@@ -20044,6 +21808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_set_authorizer",
           "package": "bindings-sqlite3",
@@ -20053,6 +21818,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_set_authorizer",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCInt-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eIO CInt)-\u003ePtr()-\u003eIO CInt)",
@@ -20067,6 +21833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_set_auxdata",
           "package": "bindings-sqlite3",
@@ -20076,6 +21843,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_set_auxdata",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003ePtr()-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO())",
@@ -20090,6 +21858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_shutdown",
           "package": "bindings-sqlite3",
@@ -20099,6 +21868,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_shutdown",
           "package": "bindings-sqlite3",
@@ -20111,6 +21881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_sleep",
           "package": "bindings-sqlite3",
@@ -20120,6 +21891,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_sleep",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -20134,6 +21906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_soft_heap_limit64",
           "package": "bindings-sqlite3",
@@ -20143,6 +21916,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_soft_heap_limit64",
           "normalized": "FunPtr(C'sqlite a-\u003eIO C'sqlite a)",
@@ -20157,6 +21931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_sourceid",
           "package": "bindings-sqlite3",
@@ -20166,6 +21941,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_sourceid",
           "package": "bindings-sqlite3",
@@ -20178,6 +21954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_sql",
           "package": "bindings-sqlite3",
@@ -20187,6 +21964,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_sql",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CString)",
@@ -20201,6 +21979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_status",
           "package": "bindings-sqlite3",
@@ -20210,6 +21989,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_status",
           "normalized": "FunPtr(CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eCInt-\u003eIO CInt)",
@@ -20224,6 +22004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_step",
           "package": "bindings-sqlite3",
@@ -20233,6 +22014,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_step",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -20247,6 +22029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_stmt_busy",
           "package": "bindings-sqlite3",
@@ -20256,6 +22039,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_stmt_busy",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -20270,6 +22054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_stmt_readonly",
           "package": "bindings-sqlite3",
@@ -20279,6 +22064,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_stmt_readonly",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -20293,6 +22079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_stmt_status",
           "package": "bindings-sqlite3",
@@ -20302,6 +22089,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_stmt_status",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -20316,6 +22104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_strglob",
           "package": "bindings-sqlite3",
@@ -20325,6 +22114,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_strglob",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CInt)",
@@ -20339,6 +22129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_stricmp",
           "package": "bindings-sqlite3",
@@ -20348,6 +22139,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_stricmp",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CInt)",
@@ -20362,6 +22154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_strnicmp",
           "package": "bindings-sqlite3",
@@ -20371,6 +22164,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_strnicmp",
           "normalized": "FunPtr(CString-\u003eCString-\u003eCInt-\u003eIO CInt)",
@@ -20385,6 +22179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_table_column_metadata",
           "package": "bindings-sqlite3",
@@ -20394,6 +22189,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_table_column_metadata",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCString-\u003eCString-\u003ePtr CString-\u003ePtr CString-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt)",
@@ -20408,6 +22204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_temp_directory",
           "package": "bindings-sqlite3",
@@ -20417,6 +22214,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_temp_directory",
           "package": "bindings-sqlite3",
@@ -20429,6 +22227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_threadsafe",
           "package": "bindings-sqlite3",
@@ -20438,6 +22237,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_threadsafe",
           "package": "bindings-sqlite3",
@@ -20450,6 +22250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_total_changes",
           "package": "bindings-sqlite3",
@@ -20459,6 +22260,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_total_changes",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -20473,6 +22275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_trace",
           "package": "bindings-sqlite3",
@@ -20482,6 +22285,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_trace",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCString-\u003eIO())-\u003ePtr()-\u003eIO(Ptr()))",
@@ -20496,6 +22300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_unlock_notify",
           "package": "bindings-sqlite3",
@@ -20505,6 +22310,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_unlock_notify",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr(Ptr())-\u003eCInt-\u003eIO())-\u003ePtr()-\u003eIO CInt)",
@@ -20519,6 +22325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_update_hook",
           "package": "bindings-sqlite3",
@@ -20528,6 +22335,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_update_hook",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003eCInt-\u003eCString-\u003eCString-\u003eC'sqlite a-\u003eIO())-\u003ePtr()-\u003eIO(Ptr()))",
@@ -20542,6 +22350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_uri_boolean",
           "package": "bindings-sqlite3",
@@ -20551,6 +22360,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_uri_boolean",
           "normalized": "FunPtr(CString-\u003eCString-\u003eCInt-\u003eIO CInt)",
@@ -20565,6 +22375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_uri_int64",
           "package": "bindings-sqlite3",
@@ -20574,6 +22385,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_uri_int64",
           "normalized": "FunPtr(CString-\u003eCString-\u003eC'sqlite a-\u003eIO C'sqlite a)",
@@ -20588,6 +22400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_uri_parameter",
           "package": "bindings-sqlite3",
@@ -20597,6 +22410,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_uri_parameter",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CString)",
@@ -20611,6 +22425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_user_data",
           "package": "bindings-sqlite3",
@@ -20620,6 +22435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_user_data",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO(Ptr()))",
@@ -20634,6 +22450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_blob",
           "package": "bindings-sqlite3",
@@ -20643,6 +22460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_blob",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO(Ptr()))",
@@ -20657,6 +22475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_bytes",
           "package": "bindings-sqlite3",
@@ -20666,6 +22485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_bytes",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -20680,6 +22500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_bytes16",
           "package": "bindings-sqlite3",
@@ -20689,6 +22510,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_bytes16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -20703,6 +22525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_double",
           "package": "bindings-sqlite3",
@@ -20712,6 +22535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_double",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CDouble)",
@@ -20726,6 +22550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_int",
           "package": "bindings-sqlite3",
@@ -20735,6 +22560,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_int",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -20749,6 +22575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_int64",
           "package": "bindings-sqlite3",
@@ -20758,6 +22585,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_int64",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO C'sqlite b)",
@@ -20772,6 +22600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_numeric_type",
           "package": "bindings-sqlite3",
@@ -20781,6 +22610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_numeric_type",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -20795,6 +22625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_text",
           "package": "bindings-sqlite3",
@@ -20804,6 +22635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_text",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO(Ptr CUChar))",
@@ -20818,6 +22650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_text16",
           "package": "bindings-sqlite3",
@@ -20827,6 +22660,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_text16",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO(Ptr()))",
@@ -20841,6 +22675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_text16be",
           "package": "bindings-sqlite3",
@@ -20850,6 +22685,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_text16be",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO(Ptr()))",
@@ -20864,6 +22700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_text16le",
           "package": "bindings-sqlite3",
@@ -20873,6 +22710,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_text16le",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO(Ptr()))",
@@ -20887,6 +22725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_type",
           "package": "bindings-sqlite3",
@@ -20896,6 +22735,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_value_type",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -20910,6 +22750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'iVersion",
           "package": "bindings-sqlite3",
@@ -20919,6 +22760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'iVersion",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -20934,6 +22776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'mxPathname",
           "package": "bindings-sqlite3",
@@ -20943,6 +22786,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'mxPathname",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -20958,6 +22802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'pAppData",
           "package": "bindings-sqlite3",
@@ -20967,6 +22812,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'pAppData",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr())",
@@ -20982,6 +22828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'pNext",
           "package": "bindings-sqlite3",
@@ -20991,6 +22838,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'pNext",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr C'sqlite a)",
@@ -21006,6 +22854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'szOsFile",
           "package": "bindings-sqlite3",
@@ -21015,6 +22864,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'szOsFile",
           "normalized": "Ptr C'sqlite a-\u003ePtr CInt",
@@ -21030,6 +22880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xAccess",
           "package": "bindings-sqlite3",
@@ -21039,6 +22890,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xAccess",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003ePtr CInt-\u003eIO CInt))",
@@ -21054,6 +22906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xCurrentTime",
           "package": "bindings-sqlite3",
@@ -21063,6 +22916,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xCurrentTime",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003ePtr CDouble-\u003eIO CInt))",
@@ -21078,6 +22932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xCurrentTimeInt64",
           "package": "bindings-sqlite3",
@@ -21087,6 +22942,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xCurrentTimeInt64",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003ePtr C'sqlite b-\u003eIO CInt))",
@@ -21102,6 +22958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDelete",
           "package": "bindings-sqlite3",
@@ -21111,6 +22968,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDelete",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003eIO CInt))",
@@ -21126,6 +22984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDlClose",
           "package": "bindings-sqlite3",
@@ -21135,6 +22994,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDlClose",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eIO()))",
@@ -21150,6 +23010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDlError",
           "package": "bindings-sqlite3",
@@ -21159,6 +23020,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDlError",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eIO()))",
@@ -21174,6 +23036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDlOpen",
           "package": "bindings-sqlite3",
@@ -21183,6 +23046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDlOpen",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCString-\u003eIO(Ptr())))",
@@ -21198,6 +23062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDlSym",
           "package": "bindings-sqlite3",
@@ -21207,6 +23072,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xDlSym",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003ePtr()-\u003eCString-\u003eIO(FunPtr(IO()))))",
@@ -21222,6 +23088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xFullPathname",
           "package": "bindings-sqlite3",
@@ -21231,6 +23098,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xFullPathname",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCString-\u003eCInt-\u003eCString-\u003eIO CInt))",
@@ -21246,6 +23114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xGetLastError",
           "package": "bindings-sqlite3",
@@ -21255,6 +23124,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xGetLastError",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eIO CInt))",
@@ -21270,6 +23140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xGetSystemCall",
           "package": "bindings-sqlite3",
@@ -21279,6 +23150,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xGetSystemCall",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCString-\u003eIO C'sqlite b))",
@@ -21294,6 +23166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xNextSystemCall",
           "package": "bindings-sqlite3",
@@ -21303,6 +23176,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xNextSystemCall",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCString-\u003eIO CString))",
@@ -21318,6 +23192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xOpen",
           "package": "bindings-sqlite3",
@@ -21327,6 +23202,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xOpen",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCString-\u003ePtr C'sqlite b-\u003eCInt-\u003ePtr CInt-\u003eIO CInt))",
@@ -21342,6 +23218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xRandomness",
           "package": "bindings-sqlite3",
@@ -21351,6 +23228,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xRandomness",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eCString-\u003eIO CInt))",
@@ -21366,6 +23244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xSetSystemCall",
           "package": "bindings-sqlite3",
@@ -21375,6 +23254,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xSetSystemCall",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCString-\u003eC'sqlite b-\u003eIO CInt))",
@@ -21390,6 +23270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xSleep",
           "package": "bindings-sqlite3",
@@ -21399,6 +23280,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'xSleep",
           "normalized": "Ptr C'sqlite a-\u003ePtr(FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt))",
@@ -21414,6 +23296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'zName",
           "package": "bindings-sqlite3",
@@ -21423,6 +23306,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs'zName",
           "normalized": "Ptr C'sqlite a-\u003ePtr CString",
@@ -21438,6 +23322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs_find",
           "package": "bindings-sqlite3",
@@ -21447,6 +23332,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs_find",
           "normalized": "FunPtr(CString-\u003eIO(Ptr C'sqlite a))",
@@ -21461,6 +23347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs_register",
           "package": "bindings-sqlite3",
@@ -21470,6 +23357,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs_register",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eCInt-\u003eIO CInt)",
@@ -21484,6 +23372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs_unregister",
           "package": "bindings-sqlite3",
@@ -21493,6 +23382,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vfs_unregister",
           "normalized": "FunPtr(Ptr C'sqlite a-\u003eIO CInt)",
@@ -21507,6 +23397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vtab'pModule",
           "package": "bindings-sqlite3",
@@ -21516,6 +23407,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vtab'pModule",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr C'sqlite b)",
@@ -21531,6 +23423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vtab'zErrMsg",
           "package": "bindings-sqlite3",
@@ -21540,6 +23433,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vtab'zErrMsg",
           "normalized": "Ptr C'sqlite a-\u003ePtr CString",
@@ -21555,6 +23449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vtab_cursor'pVtab",
           "package": "bindings-sqlite3",
@@ -21564,6 +23459,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vtab_cursor'pVtab",
           "normalized": "Ptr C'sqlite a-\u003ePtr(Ptr C'sqlite b)",
@@ -21579,6 +23475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vtab_on_conflict",
           "package": "bindings-sqlite3",
@@ -21588,6 +23485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_vtab_on_conflict",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eIO CInt)",
@@ -21602,6 +23500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_wal_autocheckpoint",
           "package": "bindings-sqlite3",
@@ -21611,6 +23510,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_wal_autocheckpoint",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCInt-\u003eIO CInt)",
@@ -21625,6 +23525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_wal_checkpoint",
           "package": "bindings-sqlite3",
@@ -21634,6 +23535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_wal_checkpoint",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eIO CInt)",
@@ -21648,6 +23550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_wal_checkpoint_v2",
           "package": "bindings-sqlite3",
@@ -21657,6 +23560,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_wal_checkpoint_v2",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eCString-\u003eCInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt)",
@@ -21671,6 +23575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:49 UTC 2014",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_wal_hook",
           "package": "bindings-sqlite3",
@@ -21680,6 +23585,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sqlite3",
+          "indexed": "2014-03-11T17:21:49",
           "module": "Bindings.Sqlite3",
           "name": "p'sqlite3_wal_hook",
           "normalized": "FunPtr(Ptr C'sqlite-\u003eFunPtr(Ptr()-\u003ePtr C'sqlite-\u003eCString-\u003eCInt-\u003eIO CInt)-\u003ePtr()-\u003eIO(Ptr()))",

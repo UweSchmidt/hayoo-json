@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http2"
+        "phrase": "http2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHPACK: encoding and decoding a header set.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "HPACK",
           "package": "http2",
@@ -28,6 +29,7 @@
         "index": {
           "description": "HPACK encoding and decoding header set",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "HPACK",
           "package": "http2",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eByte stream in HTTP request/response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "ByteStream",
           "package": "http2",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Byte stream in HTTP request response",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "ByteStream",
           "package": "http2",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompression algorithms for HPACK encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "CompressionAlgo",
           "package": "http2",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Compression algorithms for HPACK encoding",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "CompressionAlgo",
           "package": "http2",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for HPACK encoding/decoding.\n   This is destructive!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "Context",
           "package": "http2",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Context for HPACK encoding decoding This is destructive",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "Context",
           "package": "http2",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors for decoder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "DecodeError",
           "package": "http2",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Errors for decoder",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "DecodeError",
           "package": "http2",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrategy for HPACK encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "EncodeStrategy",
           "package": "http2",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Strategy for HPACK encoding",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "EncodeStrategy",
           "package": "http2",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHPACK decoding, from \u003ccode\u003e\u003ca\u003eByteStream\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eHeaderSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "HPACKDecoding",
           "package": "http2",
@@ -166,6 +179,7 @@
         "index": {
           "description": "HPACK decoding from ByteStream to HeaderSet",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "HPACKDecoding",
           "package": "http2",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHPACK encoding, from \u003ccode\u003e\u003ca\u003eHeaderSet\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "HPACKEncoding",
           "package": "http2",
@@ -189,6 +204,7 @@
         "index": {
           "description": "HPACK encoding from HeaderSet to ByteStream",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "HPACKEncoding",
           "package": "http2",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "Header",
           "package": "http2",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Header",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "Header",
           "package": "http2",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "HeaderName",
           "package": "http2",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Header name",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "HeaderName",
           "package": "http2",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "HeaderSet",
           "package": "http2",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Header set",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "HeaderSet",
           "package": "http2",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "HeaderValue",
           "package": "http2",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Header value",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "HeaderValue",
           "package": "http2",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex for table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "Index",
           "package": "http2",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Index for table",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "Index",
           "package": "http2",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "Size",
           "package": "http2",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Size in bytes",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "Size",
           "package": "http2",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculating difference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "Diff",
           "package": "http2",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Calculating difference",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "Diff",
           "package": "http2",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader block is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "EmptyBlock",
           "package": "http2",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Header block is empty",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "EmptyBlock",
           "package": "http2",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoded string has no length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "EmptyEncodedString",
           "package": "http2",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Encoded string has no length",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "EmptyEncodedString",
           "package": "http2",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "EncodeStrategy",
           "package": "http2",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "EncodeStrategy",
           "package": "http2",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEos appears in the middle of huffman string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "EosInTheMiddle",
           "package": "http2",
@@ -445,6 +482,7 @@
         "index": {
           "description": "Eos appears in the middle of huffman string",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "EosInTheMiddle",
           "package": "http2",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-eos appears in the end of huffman string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "IllegalEos",
           "package": "http2",
@@ -469,6 +508,7 @@
         "index": {
           "description": "Non-eos appears in the end of huffman string",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "IllegalEos",
           "package": "http2",
@@ -483,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex is out of range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "IndexOverrun",
           "package": "http2",
@@ -493,6 +534,7 @@
         "index": {
           "description": "Index is out of range",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "IndexOverrun",
           "package": "http2",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing indices only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "Linear",
           "package": "http2",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Using indices only",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "Linear",
           "package": "http2",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo compression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "Naive",
           "package": "http2",
@@ -541,6 +586,7 @@
         "index": {
           "description": "No compression",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "Naive",
           "package": "http2",
@@ -555,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing the static table only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "Static",
           "package": "http2",
@@ -565,6 +612,7 @@
         "index": {
           "description": "Using the static table only",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "Static",
           "package": "http2",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEos of huffman string is more than 7 bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "TooLongEos",
           "package": "http2",
@@ -589,6 +638,7 @@
         "index": {
           "description": "Eos of huffman string is more than bits",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "TooLongEos",
           "package": "http2",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich compression algorithm is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "compressionAlgo",
           "package": "http2",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Which compression algorithm is used",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "compressionAlgo",
           "package": "http2",
@@ -627,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting the low level format for HTTP request to \u003ccode\u003e\u003ca\u003eHeaderSet\u003c/a\u003e\u003c/code\u003e.\n   \u003ccode\u003e\u003ca\u003eDecodeError\u003c/a\u003e\u003c/code\u003e would be thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "decodeHeader",
           "package": "http2",
@@ -637,6 +690,7 @@
         "index": {
           "description": "Converting the low level format for HTTP request to HeaderSet DecodeError would be thrown",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "decodeHeader",
           "package": "http2",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003e\u003ca\u003eEncodeStrategy\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003ecompressionAlgo\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eLinear\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003euseHuffman\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "defaultEncodeStrategy",
           "package": "http2",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Default EncodeStrategy compressionAlgo is Linear and useHuffman is True",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "defaultEncodeStrategy",
           "package": "http2",
@@ -675,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting \u003ccode\u003e\u003ca\u003eHeaderSet\u003c/a\u003e\u003c/code\u003e for HTTP request to the low level format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "encodeHeader",
           "package": "http2",
@@ -685,6 +742,7 @@
         "index": {
           "description": "Converting HeaderSet for HTTP request to the low level format",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "encodeHeader",
           "normalized": "EncodeStrategy-\u003eHPACKEncoding",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating a new \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n   The first argument is the size of a header table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "newContextForDecoding",
           "package": "http2",
@@ -711,6 +770,7 @@
         "index": {
           "description": "Creating new Context The first argument is the size of header table",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "newContextForDecoding",
           "normalized": "Size-\u003eIO Context",
@@ -727,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating a new \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n   The first argument is the size of a header table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "newContextForEncoding",
           "package": "http2",
@@ -737,6 +798,7 @@
         "index": {
           "description": "Creating new Context The first argument is the size of header table",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "newContextForEncoding",
           "normalized": "Size-\u003eIO Context",
@@ -753,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not to use Huffman encoding for strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:09 UTC 2014",
           "module": "Network.HPACK",
           "name": "useHuffman",
           "package": "http2",
@@ -763,6 +826,7 @@
         "index": {
           "description": "Whether or not to use Huffman encoding for strings",
           "hierarchy": "Network HPACK",
+          "indexed": "2014-03-11T18:53:09",
           "module": "Network.HPACK",
           "name": "useHuffman",
           "package": "http2",

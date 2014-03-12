@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-typescript"
+        "phrase": "language-typescript",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "Lexer",
           "package": "language-typescript",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "Lexer",
           "package": "language-typescript",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "angles",
           "package": "language-typescript",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "angles",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "braces",
           "package": "language-typescript",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "braces",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "brackets",
           "package": "language-typescript",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "brackets",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "charLiteral",
           "package": "language-typescript",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "charLiteral",
           "package": "language-typescript",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "colon",
           "package": "language-typescript",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "colon",
           "package": "language-typescript",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "comma",
           "package": "language-typescript",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "comma",
           "package": "language-typescript",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "commaSep",
           "package": "language-typescript",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "commaSep",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity[b]",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "commaSep1",
           "package": "language-typescript",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "commaSep1",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity[b]",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "decimal",
           "package": "language-typescript",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "decimal",
           "package": "language-typescript",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "dot",
           "package": "language-typescript",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "dot",
           "package": "language-typescript",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "float",
           "package": "language-typescript",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "float",
           "package": "language-typescript",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "hexadecimal",
           "package": "language-typescript",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "hexadecimal",
           "package": "language-typescript",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "identifier",
           "package": "language-typescript",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "identifier",
           "package": "language-typescript",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "integer",
           "package": "language-typescript",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "integer",
           "package": "language-typescript",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "lexeme",
           "package": "language-typescript",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "lexeme",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "natural",
           "package": "language-typescript",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "natural",
           "package": "language-typescript",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "naturalOrFloat",
           "package": "language-typescript",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "naturalOrFloat",
           "package": "language-typescript",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "octal",
           "package": "language-typescript",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "octal",
           "package": "language-typescript",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "operator",
           "package": "language-typescript",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "operator",
           "package": "language-typescript",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "parens",
           "package": "language-typescript",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "parens",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "reserved",
           "package": "language-typescript",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "reserved",
           "normalized": "String-\u003eParsecT String a Identity()",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "reservedOp",
           "package": "language-typescript",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "reservedOp",
           "normalized": "String-\u003eParsecT String a Identity()",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "semi",
           "package": "language-typescript",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "semi",
           "package": "language-typescript",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "semiSep",
           "package": "language-typescript",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "semiSep",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity[b]",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "semiSep1",
           "package": "language-typescript",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "semiSep1",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity[b]",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "squares",
           "package": "language-typescript",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "squares",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "stringLiteral",
           "package": "language-typescript",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "stringLiteral",
           "package": "language-typescript",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "symbol",
           "package": "language-typescript",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "symbol",
           "normalized": "String-\u003eParsecT String a Identity String",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Lexer",
           "name": "whiteSpace",
           "package": "language-typescript",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Lexer",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Lexer",
           "name": "whiteSpace",
           "normalized": "ParsecT String a Identity()",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Parser",
           "name": "Parser",
           "package": "language-typescript",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Parser",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Parser",
           "name": "Parser",
           "package": "language-typescript",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Parser",
           "name": "declarationSourceFile",
           "package": "language-typescript",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Parser",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Parser",
           "name": "declarationSourceFile",
           "normalized": "ParsecT String a Identity[DeclarationElement]",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Parser",
           "name": "nextIdentifier",
           "package": "language-typescript",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Parser",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Parser",
           "name": "nextIdentifier",
           "package": "language-typescript",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Pretty",
           "name": "Pretty",
           "package": "language-typescript",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Pretty",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Pretty",
           "name": "Pretty",
           "package": "language-typescript",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Pretty",
           "name": "renderDeclarationSourceFile",
           "package": "language-typescript",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Pretty",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Pretty",
           "name": "renderDeclarationSourceFile",
           "normalized": "[DeclarationElement]-\u003eString",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Types",
           "package": "language-typescript",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Types",
           "package": "language-typescript",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Ambient",
           "package": "language-typescript",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Ambient",
           "package": "language-typescript",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientClassBodyElement",
           "package": "language-typescript",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientClassBodyElement",
           "package": "language-typescript",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientExternalModuleElement",
           "package": "language-typescript",
@@ -868,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientExternalModuleElement",
           "package": "language-typescript",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Comment",
           "package": "language-typescript",
@@ -889,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Comment",
           "package": "language-typescript",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "CommentPlaceholder",
           "package": "language-typescript",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "CommentPlaceholder",
           "package": "language-typescript",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "DeclarationElement",
           "package": "language-typescript",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "DeclarationElement",
           "package": "language-typescript",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "EntityName",
           "package": "language-typescript",
@@ -952,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "EntityName",
           "package": "language-typescript",
@@ -965,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Exported",
           "package": "language-typescript",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Exported",
           "package": "language-typescript",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "IndexSignature",
           "package": "language-typescript",
@@ -994,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "IndexSignature",
           "package": "language-typescript",
@@ -1007,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Interface",
           "package": "language-typescript",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Interface",
           "package": "language-typescript",
@@ -1028,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ModuleName",
           "package": "language-typescript",
@@ -1036,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ModuleName",
           "package": "language-typescript",
@@ -1049,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Optional",
           "package": "language-typescript",
@@ -1057,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Optional",
           "package": "language-typescript",
@@ -1070,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Parameter",
           "package": "language-typescript",
@@ -1078,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Parameter",
           "package": "language-typescript",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ParameterListAndReturnType",
           "package": "language-typescript",
@@ -1099,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ParameterListAndReturnType",
           "package": "language-typescript",
@@ -1112,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "PredefinedType",
           "package": "language-typescript",
@@ -1120,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "PredefinedType",
           "package": "language-typescript",
@@ -1133,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "PublicOrPrivate",
           "package": "language-typescript",
@@ -1141,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "PublicOrPrivate",
           "package": "language-typescript",
@@ -1154,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Static",
           "package": "language-typescript",
@@ -1162,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Static",
           "package": "language-typescript",
@@ -1175,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "StringOrNumber",
           "package": "language-typescript",
@@ -1183,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "StringOrNumber",
           "package": "language-typescript",
@@ -1196,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Type",
           "package": "language-typescript",
@@ -1204,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Type",
           "package": "language-typescript",
@@ -1217,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeBody",
           "package": "language-typescript",
@@ -1225,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeBody",
           "package": "language-typescript",
@@ -1238,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeMember",
           "package": "language-typescript",
@@ -1246,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeMember",
           "package": "language-typescript",
@@ -1259,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeName",
           "package": "language-typescript",
@@ -1267,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeName",
           "package": "language-typescript",
@@ -1280,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeParameter",
           "package": "language-typescript",
@@ -1288,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeParameter",
           "package": "language-typescript",
@@ -1301,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeRef",
           "package": "language-typescript",
@@ -1309,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeRef",
           "package": "language-typescript",
@@ -1322,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientClassDeclaration",
           "package": "language-typescript",
@@ -1331,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientClassDeclaration",
           "normalized": "AmbientClassDeclaration CommentPlaceholder String(Maybe[TypeParameter])(Maybe[TypeRef])(Maybe[TypeRef])[(CommentPlaceholder,AmbientClassBodyElement)]",
@@ -1346,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientConstructorDeclaration",
           "package": "language-typescript",
@@ -1355,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientConstructorDeclaration",
           "normalized": "AmbientConstructorDeclaration[Parameter]",
@@ -1370,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientDeclaration",
           "package": "language-typescript",
@@ -1379,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientDeclaration",
           "package": "language-typescript",
@@ -1392,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientEnumDeclaration",
           "package": "language-typescript",
@@ -1401,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientEnumDeclaration",
           "normalized": "AmbientEnumDeclaration CommentPlaceholder String[(String,Maybe Integer)]",
@@ -1416,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientExternalModuleDeclaration",
           "package": "language-typescript",
@@ -1425,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientExternalModuleDeclaration",
           "normalized": "AmbientExternalModuleDeclaration CommentPlaceholder String[AmbientExternalModuleElement]",
@@ -1440,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientFunctionDeclaration",
           "package": "language-typescript",
@@ -1449,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientFunctionDeclaration",
           "package": "language-typescript",
@@ -1462,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientIndexSignature",
           "package": "language-typescript",
@@ -1471,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientIndexSignature",
           "package": "language-typescript",
@@ -1484,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientInterfaceDeclaration",
           "package": "language-typescript",
@@ -1493,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientInterfaceDeclaration",
           "package": "language-typescript",
@@ -1506,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientMemberDeclaration",
           "package": "language-typescript",
@@ -1515,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientMemberDeclaration",
           "package": "language-typescript",
@@ -1528,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientModuleDeclaration",
           "package": "language-typescript",
@@ -1537,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientModuleDeclaration",
           "normalized": "AmbientModuleDeclaration CommentPlaceholder[String][Ambient]",
@@ -1552,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientModuleElement",
           "package": "language-typescript",
@@ -1561,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientModuleElement",
           "package": "language-typescript",
@@ -1574,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientModuleExternalImportDeclaration",
           "package": "language-typescript",
@@ -1583,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientModuleExternalImportDeclaration",
           "package": "language-typescript",
@@ -1596,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AmbientVariableDeclaration",
           "package": "language-typescript",
@@ -1605,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AmbientVariableDeclaration",
           "package": "language-typescript",
@@ -1618,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "AnyType",
           "package": "language-typescript",
@@ -1627,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "AnyType",
           "package": "language-typescript",
@@ -1640,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ArrayType",
           "package": "language-typescript",
@@ -1649,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ArrayType",
           "package": "language-typescript",
@@ -1662,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "BooleanType",
           "package": "language-typescript",
@@ -1671,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "BooleanType",
           "package": "language-typescript",
@@ -1684,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "CallSignature",
           "package": "language-typescript",
@@ -1693,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "CallSignature",
           "package": "language-typescript",
@@ -1706,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Comment",
           "package": "language-typescript",
@@ -1715,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Comment",
           "package": "language-typescript",
@@ -1728,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ConstructSignature",
           "package": "language-typescript",
@@ -1737,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ConstructSignature",
           "normalized": "ConstructSignature(Maybe[TypeParameter])[Parameter](Maybe Type)",
@@ -1752,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ConstructorType",
           "package": "language-typescript",
@@ -1761,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ConstructorType",
           "normalized": "ConstructorType(Maybe[TypeParameter])[Parameter]Type",
@@ -1776,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "EntityName",
           "package": "language-typescript",
@@ -1785,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "EntityName",
           "package": "language-typescript",
@@ -1798,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ExportAssignment",
           "package": "language-typescript",
@@ -1807,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ExportAssignment",
           "package": "language-typescript",
@@ -1820,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ExportDeclaration",
           "package": "language-typescript",
@@ -1829,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ExportDeclaration",
           "package": "language-typescript",
@@ -1842,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Exported",
           "package": "language-typescript",
@@ -1851,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Exported",
           "package": "language-typescript",
@@ -1864,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ExternalImportDeclaration",
           "package": "language-typescript",
@@ -1873,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ExternalImportDeclaration",
           "package": "language-typescript",
@@ -1886,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "FunctionType",
           "package": "language-typescript",
@@ -1895,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "FunctionType",
           "normalized": "FunctionType(Maybe[TypeParameter])[Parameter]Type",
@@ -1910,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ImportDeclaration",
           "package": "language-typescript",
@@ -1919,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ImportDeclaration",
           "package": "language-typescript",
@@ -1932,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "IndexSignature",
           "package": "language-typescript",
@@ -1941,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "IndexSignature",
           "package": "language-typescript",
@@ -1954,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Interface",
           "package": "language-typescript",
@@ -1963,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Interface",
           "normalized": "Interface CommentPlaceholder String(Maybe[TypeParameter])(Maybe[TypeRef])TypeBody",
@@ -1978,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "InterfaceDeclaration",
           "package": "language-typescript",
@@ -1987,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "InterfaceDeclaration",
           "package": "language-typescript",
@@ -2000,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "MethodSignature",
           "package": "language-typescript",
@@ -2009,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "MethodSignature",
           "package": "language-typescript",
@@ -2022,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ModuleName",
           "package": "language-typescript",
@@ -2031,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ModuleName",
           "normalized": "ModuleName[String]",
@@ -2046,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Number",
           "package": "language-typescript",
@@ -2055,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Number",
           "package": "language-typescript",
@@ -2068,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "NumberType",
           "package": "language-typescript",
@@ -2077,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "NumberType",
           "package": "language-typescript",
@@ -2090,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ObjectType",
           "package": "language-typescript",
@@ -2099,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ObjectType",
           "package": "language-typescript",
@@ -2112,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Optional",
           "package": "language-typescript",
@@ -2121,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Optional",
           "package": "language-typescript",
@@ -2134,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "ParameterListAndReturnType",
           "package": "language-typescript",
@@ -2143,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "ParameterListAndReturnType",
           "normalized": "ParameterListAndReturnType(Maybe[TypeParameter])[Parameter](Maybe Type)",
@@ -2158,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Predefined",
           "package": "language-typescript",
@@ -2167,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Predefined",
           "package": "language-typescript",
@@ -2180,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Private",
           "package": "language-typescript",
@@ -2189,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Private",
           "package": "language-typescript",
@@ -2202,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "PropertySignature",
           "package": "language-typescript",
@@ -2211,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "PropertySignature",
           "package": "language-typescript",
@@ -2224,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Public",
           "package": "language-typescript",
@@ -2233,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Public",
           "package": "language-typescript",
@@ -2246,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "RequiredOrOptionalParameter",
           "package": "language-typescript",
@@ -2255,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "RequiredOrOptionalParameter",
           "package": "language-typescript",
@@ -2268,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "RestParameter",
           "package": "language-typescript",
@@ -2277,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "RestParameter",
           "package": "language-typescript",
@@ -2290,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "Static",
           "package": "language-typescript",
@@ -2299,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "Static",
           "package": "language-typescript",
@@ -2312,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "String",
           "package": "language-typescript",
@@ -2321,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "String",
           "package": "language-typescript",
@@ -2334,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "StringType",
           "package": "language-typescript",
@@ -2343,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "StringType",
           "package": "language-typescript",
@@ -2356,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeBody",
           "package": "language-typescript",
@@ -2365,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeBody",
           "normalized": "TypeBody[(CommentPlaceholder,TypeMember)]",
@@ -2380,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeIndexSignature",
           "package": "language-typescript",
@@ -2389,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeIndexSignature",
           "package": "language-typescript",
@@ -2402,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeName",
           "package": "language-typescript",
@@ -2411,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeName",
           "package": "language-typescript",
@@ -2424,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeParameter",
           "package": "language-typescript",
@@ -2433,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeParameter",
           "package": "language-typescript",
@@ -2446,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeRef",
           "package": "language-typescript",
@@ -2455,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeRef",
           "normalized": "TypeRef TypeName(Maybe[Type])",
@@ -2470,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "TypeReference",
           "package": "language-typescript",
@@ -2479,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "TypeReference",
           "package": "language-typescript",
@@ -2492,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "VoidType",
           "package": "language-typescript",
@@ -2501,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "VoidType",
           "package": "language-typescript",
@@ -2514,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "commentOther",
           "package": "language-typescript",
@@ -2523,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "commentOther",
           "normalized": "[(String,String)]",
@@ -2538,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript.Types",
           "name": "commentText",
           "package": "language-typescript",
@@ -2547,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript Types",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript.Types",
           "name": "commentText",
           "normalized": "[String]",
@@ -2562,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:18 UTC 2014",
           "module": "Language.TypeScript",
           "name": "TypeScript",
           "package": "language-typescript",
@@ -2570,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Language TypeScript",
+          "indexed": "2014-03-11T19:06:18",
           "module": "Language.TypeScript",
           "name": "TypeScript",
           "package": "language-typescript",

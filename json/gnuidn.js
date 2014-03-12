@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gnuidn"
+        "phrase": "gnuidn",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "IDNA",
           "package": "gnuidn",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "IDNA",
           "package": "gnuidn",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "Error",
           "package": "gnuidn",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "Error",
           "package": "gnuidn",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "Flags",
           "package": "gnuidn",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "Flags",
           "package": "gnuidn",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "Flags",
           "package": "gnuidn",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "Flags",
           "package": "gnuidn",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow unassigned Unicode code points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "allowUnassigned",
           "package": "gnuidn",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Allow unassigned Unicode code points",
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "allowUnassigned",
           "package": "gnuidn",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003edefaultFlags = Flags True False\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "defaultFlags",
           "package": "gnuidn",
@@ -138,6 +149,7 @@
         "index": {
           "description": "defaultFlags Flags True False",
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "defaultFlags",
           "package": "gnuidn",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Unicode domain name to an ASCII \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The domain\n name may contain several labels, separated by periods.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003etoASCII\u003c/code\u003e never alters a sequence of code points that are all in the\n ASCII range to begin with (although it could fail). Applying \u003ccode\u003etoASCII\u003c/code\u003e\n multiple times gives the same result as applying it once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "toASCII",
           "package": "gnuidn",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Convert Unicode domain name to an ASCII ByteString The domain name may contain several labels separated by periods toASCII never alters sequence of code points that are all in the ASCII range to begin with although it could fail Applying toASCII multiple times gives the same result as applying it once",
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "toASCII",
           "normalized": "Flags-\u003eText-\u003eEither Error ByteString",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a possibly ACE-encoded domain name to Unicode. The domain\n name may contain several labels, separated by dots.\n\u003c/p\u003e\u003cp\u003eAside from memory allocation failure, \u003ccode\u003etoUnicode\u003c/code\u003e always succeeds.\n If the input cannot be decoded, it is returned unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "toUnicode",
           "package": "gnuidn",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Convert possibly ACE-encoded domain name to Unicode The domain name may contain several labels separated by dots Aside from memory allocation failure toUnicode always succeeds If the input cannot be decoded it is returned unchanged",
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "toUnicode",
           "normalized": "Flags-\u003eByteString-\u003eText",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck output to make sure it is a STD3-conforming host name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.IDNA",
           "name": "verifySTD3",
           "package": "gnuidn",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Check output to make sure it is STD3-conforming host name",
           "hierarchy": "Data Text IDN IDNA",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.IDNA",
           "name": "verifySTD3",
           "package": "gnuidn",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePunycode is a simple and efficient transfer encoding syntax designed\n for use with Internationalized Domain Names in Applications (IDNA). It\n uniquely and reversibly transforms a Unicode string into ASCII. ASCII\n characters in the Unicode string are represented literally, and non-ASCII\n characters are represented by ASCII characters that are allowed in host\n name labels (letters, digits, and hyphens).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.Punycode",
           "name": "Punycode",
           "package": "gnuidn",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Punycode is simple and efficient transfer encoding syntax designed for use with Internationalized Domain Names in Applications IDNA It uniquely and reversibly transforms Unicode string into ASCII ASCII characters in the Unicode string are represented literally and non-ASCII characters are represented by ASCII characters that are allowed in host name labels letters digits and hyphens",
           "hierarchy": "Data Text IDN Punycode",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.Punycode",
           "name": "Punycode",
           "package": "gnuidn",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into unicode. The second component of the\n result is a case predicate; it indicates whether a particular character\n position of the result string should be upper-cased.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the input is invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.Punycode",
           "name": "decode",
           "package": "gnuidn",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Decode ByteString into unicode The second component of the result is case predicate it indicates whether particular character position of the result string should be upper-cased Returns Nothing if the input is invalid",
           "hierarchy": "Data Text IDN Punycode",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.Punycode",
           "name": "decode",
           "normalized": "ByteString-\u003eMaybe(Text,Integer-\u003eBool)",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode unicode into an ASCII-only \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. If provided, the\n case predicate indicates whether to uppercase the corresponding character\n after decoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.Punycode",
           "name": "encode",
           "package": "gnuidn",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Encode unicode into an ASCII-only ByteString If provided the case predicate indicates whether to uppercase the corresponding character after decoding",
           "hierarchy": "Data Text IDN Punycode",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.Punycode",
           "name": "encode",
           "normalized": "Text-\u003eMaybe(Integer-\u003eBool)-\u003eByteString",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "StringPrep",
           "package": "gnuidn",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "StringPrep",
           "package": "gnuidn",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "Error",
           "package": "gnuidn",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "Error",
           "package": "gnuidn",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "Flags",
           "package": "gnuidn",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "Flags",
           "package": "gnuidn",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "Profile",
           "package": "gnuidn",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "Profile",
           "package": "gnuidn",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "Flags",
           "package": "gnuidn",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "Flags",
           "package": "gnuidn",
@@ -407,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf false, \u003ccode\u003e\u003ca\u003estringprep\u003c/a\u003e\u003c/code\u003e will return an error if the input\n contains characters not assigned to the profile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "allowUnassigned",
           "package": "gnuidn",
@@ -417,6 +452,7 @@
         "index": {
           "description": "If false stringprep will return an error if the input contains characters not assigned to the profile",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "allowUnassigned",
           "package": "gnuidn",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003edefaultFlags = Flags True True False\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "defaultFlags",
           "package": "gnuidn",
@@ -441,6 +478,7 @@
         "index": {
           "description": "defaultFlags Flags True True False",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "defaultFlags",
           "package": "gnuidn",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable the BIDI step. Usually the profile specifies BIDI and\n NFKC settings, and applications should not override it unless in\n special situations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "enableBidi",
           "package": "gnuidn",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Enable the BIDI step Usually the profile specifies BIDI and NFKC settings and applications should not override it unless in special situations",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "enableBidi",
           "package": "gnuidn",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable the NFKC normalization, as well as selecting the NFKC\n case folding tables. Usually the profile specifies BIDI and NFKC\n settings, and applications should not override it unless in\n special situations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "enableNFKC",
           "package": "gnuidn",
@@ -489,6 +530,7 @@
         "index": {
           "description": "Enable the NFKC normalization as well as selecting the NFKC case folding tables Usually the profile specifies BIDI and NFKC settings and applications should not override it unless in special situations",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "enableNFKC",
           "package": "gnuidn",
@@ -503,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eiSCSI (RFC 3722)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "iscsi",
           "package": "gnuidn",
@@ -513,6 +556,7 @@
         "index": {
           "description": "iSCSI RFC",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "iscsi",
           "package": "gnuidn",
@@ -526,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKerberos 5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "kerberos5",
           "package": "gnuidn",
@@ -536,6 +581,7 @@
         "index": {
           "description": "Kerberos",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "kerberos5",
           "package": "gnuidn",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNameprep (RFC 3491)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "nameprep",
           "package": "gnuidn",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Nameprep RFC",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "nameprep",
           "package": "gnuidn",
@@ -572,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSASLprep (RFC 4013)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "sasl",
           "package": "gnuidn",
@@ -582,6 +631,7 @@
         "index": {
           "description": "SASLprep RFC",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "sasl",
           "package": "gnuidn",
@@ -595,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraft SASL ANONYMOUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "saslAnonymous",
           "package": "gnuidn",
@@ -605,6 +656,7 @@
         "index": {
           "description": "Draft SASL ANONYMOUS",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "saslAnonymous",
           "package": "gnuidn",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "stringprep",
           "package": "gnuidn",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "stringprep",
           "normalized": "Profile-\u003eFlags-\u003eText-\u003eEither Error Text",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "trace",
           "package": "gnuidn",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "trace",
           "package": "gnuidn",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXMPP node (RFC 3920)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "xmppNode",
           "package": "gnuidn",
@@ -673,6 +730,7 @@
         "index": {
           "description": "XMPP node RFC",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "xmppNode",
           "package": "gnuidn",
@@ -687,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXMPP resource (RFC 3920)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:50 UTC 2014",
           "module": "Data.Text.IDN.StringPrep",
           "name": "xmppResource",
           "package": "gnuidn",
@@ -697,6 +756,7 @@
         "index": {
           "description": "XMPP resource RFC",
           "hierarchy": "Data Text IDN StringPrep",
+          "indexed": "2014-03-11T18:18:50",
           "module": "Data.Text.IDN.StringPrep",
           "name": "xmppResource",
           "package": "gnuidn",

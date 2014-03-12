@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tdd-util"
+        "phrase": "tdd-util",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eTest.Util.Framework\u003c/a\u003e is a super-module that re-exports other modules\n pertaining to TDD, so that they can be imported under a single module.\n\u003c/p\u003e\u003cp\u003eHUnit's \u003ccode\u003eTest\u003c/code\u003e type is renamed to \u003ccode\u003e\u003ca\u003eHTest\u003c/a\u003e\u003c/code\u003e, and test-framework's to \u003ccode\u003e\u003ca\u003eTTest\u003c/a\u003e\u003c/code\u003e.\n The same renaming scheme, with the addition that \u003ccode\u003eQ\u003c/code\u003e is prepended for\n QuickCheck, has been applied to the following names:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eTest\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eassert\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eState\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003etest\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e is renamed to \u003ccode\u003e\u003ca\u003eSingleResult\u003c/a\u003e\u003c/code\u003e; \u003ccode\u003e\u003ca\u003ereason\u003c/a\u003e\u003c/code\u003e\n in this module cannot be renamed, so it is unfortunately not exported.\n\u003c/p\u003e\u003cp\u003eUnfortunately, Haskell's design makes it inconvenient to rename classes.\n In this module, \u003ccode\u003e\u003ca\u003eTestable\u003c/a\u003e\u003c/code\u003e is not re-exported from any module.\n\u003c/p\u003e\u003cp\u003eQuickCheck-2.6's new \u003ca\u003eTest.QuickCheck.Test.interrupted\u003c/a\u003e is not exported\n under a name that does not conflict with\n \u003ca\u003eTest.QuickCheck.Property.interrupted\u003c/a\u003e, from either modules\n (\u003ca\u003eTest.QuickCheck.Test\u003c/a\u003e and \u003ca\u003eTest.QuickCheck\u003c/a\u003e), since its existence would depend on\n the version of QuickCheck.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util.Framework",
           "name": "Framework",
           "package": "tdd-util",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Test.Util.Framework is super-module that re-exports other modules pertaining to TDD so that they can be imported under single module HUnit Test type is renamed to HTest and test-framework to TTest The same renaming scheme with the addition that is prepended for QuickCheck has been applied to the following names Test assert State test Result is renamed to SingleResult reason in this module cannot be renamed so it is unfortunately not exported Unfortunately Haskell design makes it inconvenient to rename classes In this module Testable is not re-exported from any module QuickCheck-2.6 new Test.QuickCheck.Test.interrupted is not exported under name that does not conflict with Test.QuickCheck.Property.interrupted from either modules Test.QuickCheck.Test and Test.QuickCheck since its existence would depend on the version of QuickCheck",
           "hierarchy": "Test Util Framework",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util.Framework",
           "name": "Framework",
           "package": "tdd-util",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eTest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util.Framework",
           "name": "HTest",
           "package": "tdd-util",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Alias for Test",
           "hierarchy": "Test Util Framework",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util.Framework",
           "name": "HTest",
           "package": "tdd-util",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util.Framework",
           "name": "QState",
           "package": "tdd-util",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Alias for State",
           "hierarchy": "Test Util Framework",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util.Framework",
           "name": "QState",
           "package": "tdd-util",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util.Framework",
           "name": "SingleResult",
           "package": "tdd-util",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Alias for Result",
           "hierarchy": "Test Util Framework",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util.Framework",
           "name": "SingleResult",
           "package": "tdd-util",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eTest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util.Framework",
           "name": "TTest",
           "package": "tdd-util",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Alias for Test",
           "hierarchy": "Test Util Framework",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util.Framework",
           "name": "TTest",
           "package": "tdd-util",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eassert\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util.Framework",
           "name": "qAssert",
           "package": "tdd-util",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Alias for assert",
           "hierarchy": "Test Util Framework",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util.Framework",
           "name": "qAssert",
           "normalized": "Bool-\u003ePropertyM a()",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003etest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util.Framework",
           "name": "qTest",
           "package": "tdd-util",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Alias for test",
           "hierarchy": "Test Util Framework",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util.Framework",
           "name": "qTest",
           "normalized": "QState-\u003e(StdGen-\u003eInt-\u003eProp)-\u003eIO Result",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing utilities for testing with \u003ccode\u003etest-framework\u003c/code\u003e, \u003ccode\u003eHUnit\u003c/code\u003e,\n and \u003ccode\u003etestable\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "Util",
           "package": "tdd-util",
@@ -195,6 +210,7 @@
         "index": {
           "description": "module containing utilities for testing with test-framework HUnit and testable",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "Util",
           "package": "tdd-util",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of exceptions for \u003ca\u003eTests.Util\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "TestUtilException",
           "package": "tdd-util",
@@ -218,6 +235,7 @@
         "index": {
           "description": "class of exceptions for Tests.Util",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "TestUtilException",
           "package": "tdd-util",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "TimeLimitExceeded",
           "package": "tdd-util",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "TimeLimitExceeded",
           "package": "tdd-util",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etimeoutMicrosoconds\u003c/code\u003e was invoked with an integer that would cause the\n input given to \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e to overflow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "TimeoutOverflow",
           "package": "tdd-util",
@@ -262,6 +283,7 @@
         "index": {
           "description": "timeoutMicrosoconds was invoked with an integer that would cause the input given to timeout to overflow",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "TimeoutOverflow",
           "package": "tdd-util",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "TestUtilException",
           "package": "tdd-util",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "TestUtilException",
           "normalized": "a-\u003eTestUtilException",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "TimeLimitExceeded",
           "package": "tdd-util",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "TimeLimitExceeded",
           "package": "tdd-util",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "TimeoutOverflow",
           "package": "tdd-util",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "TimeoutOverflow",
           "package": "tdd-util",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the function that directly threw the exception (\u003ccode\u003e\u003ca\u003eassertMicroseconds\u003c/a\u003e\u003c/code\u003e, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "_timelimitExceeded_callerName",
           "package": "tdd-util",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Name of the function that directly threw the exception assertMicroseconds etc",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "_timelimitExceeded_callerName",
           "package": "tdd-util",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "_timelimitExceeded_message",
           "package": "tdd-util",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Optional error message",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "_timelimitExceeded_message",
           "package": "tdd-util",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe timelimit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "_timelimitExceeded_microseconds",
           "package": "tdd-util",
@@ -402,6 +435,7 @@
         "index": {
           "description": "The timelimit",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "_timelimitExceeded_microseconds",
           "package": "tdd-util",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum bound of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e as an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "_timeoutOverflow_inputBound",
           "package": "tdd-util",
@@ -426,6 +461,7 @@
         "index": {
           "description": "Maximum bound of Int as an Integer",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "_timeoutOverflow_inputBound",
           "package": "tdd-util",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "_timeoutOverflow_message",
           "package": "tdd-util",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Optional error message",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "_timeoutOverflow_message",
           "package": "tdd-util",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput given to \u003ccode\u003e\u003ca\u003etimeoutMicroseconds\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "_timeoutOverflow_microseconds",
           "package": "tdd-util",
@@ -474,6 +513,7 @@
         "index": {
           "description": "Input given to timeoutMicroseconds",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "_timeoutOverflow_microseconds",
           "package": "tdd-util",
@@ -488,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert that a computation runs within an approximate time limit.\n\u003c/p\u003e\u003cp\u003eIf the computation does not finish within the given time limit, a\n \u003ccode\u003e\u003ca\u003eTimeLimitExceeded\u003c/a\u003e\u003c/code\u003e exception is thrown.\n\u003c/p\u003e\u003cp\u003eFor more control, see the more fundamental \u003ccode\u003e\u003ca\u003etimeoutMicroseconds\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "assertMicroseconds",
           "package": "tdd-util",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Assert that computation runs within an approximate time limit If the computation does not finish within the given time limit TimeLimitExceeded exception is thrown For more control see the more fundamental timeoutMicroseconds function",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "assertMicroseconds",
           "normalized": "Integer-\u003eIO a-\u003eIO a",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert that an exception is not thrown.\n\u003c/p\u003e\u003cp\u003eWhen an exception is thrown, the input function, or a default one, is\n given the exception and the resulting string is output.\n\u003c/p\u003e\u003cp\u003eFor more control, see the more fundamental \u003ccode\u003e\u003ca\u003eisExceptionThrown\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "assertNotThrown",
           "package": "tdd-util",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Assert that an exception is not thrown When an exception is thrown the input function or default one is given the exception and the resulting string is output For more control see the more fundamental isExceptionThrown",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "assertNotThrown",
           "normalized": "Maybe(a-\u003eString)-\u003eb()-\u003eb()",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert that a process finishes within an approximate time limit.\n\u003c/p\u003e\u003cp\u003eIf the computation does not finish within the given time limit, a\n \u003ccode\u003e\u003ca\u003eTimeLimitExceeded\u003c/a\u003e\u003c/code\u003e exception is thrown.\n\u003c/p\u003e\u003cp\u003eFor more control, see the more fundamental \u003ccode\u003e\u003ca\u003etimeoutProcessMicroseconds\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "assertProcessMicroseconds",
           "package": "tdd-util",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Assert that process finishes within an approximate time limit If the computation does not finish within the given time limit TimeLimitExceeded exception is thrown For more control see the more fundamental timeoutProcessMicroseconds function",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "assertProcessMicroseconds",
           "normalized": "Integer-\u003eProcessHandle-\u003eIO()",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert that an exception is thrown.\n\u003c/p\u003e\u003cp\u003eWhen an exception is not thrown, the input \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, or otherwise a\n default string, is output.\n\u003c/p\u003e\u003cp\u003eFor more control, see the more fundamental \u003ccode\u003e\u003ca\u003eisExceptionThrown\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "assertThrown",
           "package": "tdd-util",
@@ -575,6 +622,7 @@
         "index": {
           "description": "Assert that an exception is thrown When an exception is not thrown the input String or otherwise default string is output For more control see the more fundamental isExceptionThrown",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "assertThrown",
           "normalized": "Maybe String-\u003eProxy a-\u003eb()-\u003eb()",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around \u003ccode\u003esystem-posix-riderct\u003c/code\u003e's redirectStderr to redirect\n stdout during the execution of a\n computation and capture the output, restoring the handle upon completion.\n This may be useful for writing unit tests against some parts of a program\n that interface with the outside world, such as logging and the CLI frontend.\n\u003c/p\u003e\u003cp\u003eNB: Since the standard file streams are redirected into a \u003ccode\u003eKnob\u003c/code\u003e, all tests\n that invoke \u003ccode\u003ecatchHandle\u003c/code\u003e must be run in isolation from each other, since\n only one test can read the handle's output at a time.  The author recommends\n structuring tests such that all such tests under a test tree that uses\n test-framework's \u003ccode\u003e\u003ca\u003emutuallyExclusive\u003c/a\u003e\u003c/code\u003e function and whose child nodes all do\n the same.  Both \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e can be captured at the same time,\n however.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "catchStderr",
           "package": "tdd-util",
@@ -601,6 +650,7 @@
         "index": {
           "description": "wrapper around system-posix-riderct redirectStderr to redirect stdout during the execution of computation and capture the output restoring the handle upon completion This may be useful for writing unit tests against some parts of program that interface with the outside world such as logging and the CLI frontend NB Since the standard file streams are redirected into Knob all tests that invoke catchHandle must be run in isolation from each other since only one test can read the handle output at time The author recommends structuring tests such that all such tests under test tree that uses test-framework mutuallyExclusive function and whose child nodes all do the same Both stdout and stderr can be captured at the same time however",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "catchStderr",
           "normalized": "IO a-\u003eIO(a,ByteString)",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around \u003ccode\u003esystem-posix-riderct\u003c/code\u003e's redirectStdout to redirect\n stdout during the execution of a\n computation and capture the output, restoring the handle upon completion.\n This may be useful for writing unit tests against some parts of a program\n that interface with the outside world, such as logging and the CLI frontend.\n\u003c/p\u003e\u003cp\u003eNB: Since the standard file streams are redirected into a \u003ccode\u003eKnob\u003c/code\u003e, all tests\n that invoke \u003ccode\u003ecatchHandle\u003c/code\u003e must be run in isolation from each other, since\n only one test can read the handle's output at a time.  The author recommends\n structuring tests such that all such tests under a test tree that uses\n test-framework's \u003ccode\u003e\u003ca\u003emutuallyExclusive\u003c/a\u003e\u003c/code\u003e function and whose child nodes all do\n the same.  Both \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e can be captured at the same time,\n however.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "catchStdout",
           "package": "tdd-util",
@@ -627,6 +678,7 @@
         "index": {
           "description": "wrapper around system-posix-riderct redirectStdout to redirect stdout during the execution of computation and capture the output restoring the handle upon completion This may be useful for writing unit tests against some parts of program that interface with the outside world such as logging and the CLI frontend NB Since the standard file streams are redirected into Knob all tests that invoke catchHandle must be run in isolation from each other since only one test can read the handle output at time The author recommends structuring tests such that all such tests under test tree that uses test-framework mutuallyExclusive function and whose child nodes all do the same Both stdout and stderr can be captured at the same time however",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "catchStdout",
           "normalized": "IO a-\u003eIO(a,ByteString)",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether an exception was caught, and return it if so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "isExceptionThrown",
           "package": "tdd-util",
@@ -653,6 +706,7 @@
         "index": {
           "description": "Determine whether an exception was caught and return it if so",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "isExceptionThrown",
           "normalized": "a b-\u003ea(Either c b)",
@@ -668,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "testUtilExceptionFromException",
           "package": "tdd-util",
@@ -677,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "testUtilExceptionFromException",
           "normalized": "SomeException-\u003eMaybe a",
@@ -692,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "testUtilExceptionToException",
           "package": "tdd-util",
@@ -701,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "testUtilExceptionToException",
           "normalized": "a-\u003eSomeException",
@@ -717,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime a computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timeMicroseconds",
           "package": "tdd-util",
@@ -727,6 +786,7 @@
         "index": {
           "description": "Time computation",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timeMicroseconds",
           "normalized": "a b-\u003ea(b,Integer)",
@@ -742,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timelimitExceeded_callerName",
           "package": "tdd-util",
@@ -751,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timelimitExceeded_callerName",
           "package": "tdd-util",
@@ -764,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timelimitExceeded_message",
           "package": "tdd-util",
@@ -773,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timelimitExceeded_message",
           "package": "tdd-util",
@@ -786,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timelimitExceeded_microseconds",
           "package": "tdd-util",
@@ -795,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timelimitExceeded_microseconds",
           "package": "tdd-util",
@@ -809,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation within an approximate time limit.\n\u003c/p\u003e\u003cp\u003eThis is currently a wrapper for \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e that checks for\n overflows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timeoutMicroseconds",
           "package": "tdd-util",
@@ -819,6 +886,7 @@
         "index": {
           "description": "Run computation within an approximate time limit This is currently wrapper for timeout that checks for overflows",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timeoutMicroseconds",
           "normalized": "Integer-\u003eIO a-\u003eIO(Maybe a)",
@@ -834,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timeoutOverflow_inputBound",
           "package": "tdd-util",
@@ -843,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timeoutOverflow_inputBound",
           "package": "tdd-util",
@@ -856,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timeoutOverflow_message",
           "package": "tdd-util",
@@ -865,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timeoutOverflow_message",
           "package": "tdd-util",
@@ -878,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timeoutOverflow_microseconds",
           "package": "tdd-util",
@@ -887,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timeoutOverflow_microseconds",
           "package": "tdd-util",
@@ -901,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an approximate time limit, from the current time, to a process by\n its handle.\n\u003c/p\u003e\u003cp\u003eIf the process finishes approximately within the given time limit, \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e\n its exit code is returned.  Otherwise, it is killed and \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned.\n\u003c/p\u003e\u003cp\u003eThis function requires a threaded runtime system to work properly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:00 UTC 2014",
           "module": "Test.Util",
           "name": "timeoutProcessMicroseconds",
           "package": "tdd-util",
@@ -911,6 +986,7 @@
         "index": {
           "description": "Apply an approximate time limit from the current time to process by its handle If the process finishes approximately within the given time limit Just its exit code is returned Otherwise it is killed and Nothing is returned This function requires threaded runtime system to work properly",
           "hierarchy": "Test Util",
+          "indexed": "2014-03-11T20:18:00",
           "module": "Test.Util",
           "name": "timeoutProcessMicroseconds",
           "normalized": "Integer-\u003eProcessHandle-\u003eIO(Maybe ExitCode)",

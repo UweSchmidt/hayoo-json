@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HPlot"
+        "phrase": "HPlot",
+        "type": "phrase"
       },
       "type": "context"
     }

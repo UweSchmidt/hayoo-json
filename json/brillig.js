@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "brillig"
+        "phrase": "brillig",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "Brill",
           "package": "brillig",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "Brill",
           "package": "brillig",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "DeltaHistogram",
           "package": "brillig",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "DeltaHistogram",
           "package": "brillig",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "Replacement",
           "package": "brillig",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "Replacement",
           "package": "brillig",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "TCount",
           "package": "brillig",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "TCount",
           "package": "brillig",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "TagPair",
           "package": "brillig",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "TagPair",
           "package": "brillig",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "Transform",
           "package": "brillig",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "Transform",
           "package": "brillig",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "Replacement",
           "package": "brillig",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "Replacement",
           "package": "brillig",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "TagPair",
           "package": "brillig",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "TagPair",
           "package": "brillig",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "Transform",
           "package": "brillig",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "Transform",
           "package": "brillig",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "actual",
           "package": "brillig",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "actual",
           "package": "brillig",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "bestInstance",
           "package": "brillig",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "bestInstance",
           "normalized": "Replacement-\u003eDeltaHistogram-\u003eTransform",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "bestTransform",
           "package": "brillig",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "bestTransform",
           "normalized": "Set Tag-\u003e[TagPair]-\u003eTransform",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "brilltag",
           "package": "brillig",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "brilltag",
           "normalized": "[Transform]-\u003e[Tagged Text]-\u003e[Tagged Text]",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "context",
           "package": "brillig",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "context",
           "normalized": "[Tag]",
@@ -326,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehow many times a replacement follows each context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "deltaHistogram",
           "package": "brillig",
@@ -336,6 +365,7 @@
         "index": {
           "description": "how many times replacement follows each context",
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "deltaHistogram",
           "normalized": "[TagPair]-\u003eDeltaHistogram",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "from",
           "package": "brillig",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "from",
           "package": "brillig",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "learnConverge",
           "package": "brillig",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "learnConverge",
           "normalized": "Int-\u003e[Tag]-\u003e[Tag]-\u003e[Transform]",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "learnN",
           "package": "brillig",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "learnN",
           "normalized": "Int-\u003e[Tag]-\u003e[Tag]-\u003e[Transform]",
@@ -418,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot iteratively applying and relearning!  Just doing one pass for now\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "learnOne",
           "package": "brillig",
@@ -427,6 +464,7 @@
         "index": {
           "description": "Not iteratively applying and relearning Just doing one pass for now",
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "learnOne",
           "normalized": "[Tag]-\u003e[Tag]-\u003eTransform",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "plusPair",
           "package": "brillig",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "plusPair",
           "normalized": "(a,a)-\u003e(a,a)-\u003e(a,a)",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "proposed",
           "package": "brillig",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "proposed",
           "package": "brillig",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "replace",
           "package": "brillig",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "replace",
           "package": "brillig",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "replacements",
           "package": "brillig",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "replacements",
           "normalized": "Set Tag-\u003eSet Replacement",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "score",
           "package": "brillig",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "score",
           "normalized": "Replacement-\u003eMap TagPair Int-\u003eInt",
@@ -555,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a single transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "tagOne",
           "package": "brillig",
@@ -565,6 +614,7 @@
         "index": {
           "description": "Apply single transformation",
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "tagOne",
           "normalized": "Transform-\u003e[Tag]-\u003e[Tag]",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "to",
           "package": "brillig",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "to",
           "package": "brillig",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Brill",
           "name": "tscore",
           "package": "brillig",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Brill",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Brill",
           "name": "tscore",
           "package": "brillig",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Unigram",
           "name": "Unigram",
           "package": "brillig",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Unigram",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Unigram",
           "name": "Unigram",
           "package": "brillig",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Unigram",
           "name": "best",
           "package": "brillig",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Unigram",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Unigram",
           "name": "best",
           "normalized": "[(Tag,Int)]-\u003eTag",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Unigram",
           "name": "mostfreq",
           "package": "brillig",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Unigram",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Unigram",
           "name": "mostfreq",
           "normalized": "Count-\u003eTag",
@@ -689,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Unigram",
           "name": "tag",
           "package": "brillig",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Unigram",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Unigram",
           "name": "tag",
           "normalized": "Count-\u003e[Text]-\u003e[Tagged Text]",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Util",
           "name": "Util",
           "package": "brillig",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Util",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Util",
           "name": "Util",
           "package": "brillig",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Util",
           "name": "histogram",
           "package": "brillig",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Util",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Util",
           "name": "histogram",
           "normalized": "[a]-\u003eMap a Int",
@@ -756,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig.Wrong",
           "name": "Wrong",
           "package": "brillig",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig Wrong",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig.Wrong",
           "name": "Wrong",
           "package": "brillig",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "Brillig",
           "package": "brillig",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "Brillig",
           "package": "brillig",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "Count",
           "package": "brillig",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "Count",
           "package": "brillig",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "Tag",
           "package": "brillig",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "Tag",
           "package": "brillig",
@@ -840,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "Tagged",
           "package": "brillig",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "Tagged",
           "package": "brillig",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "Tag",
           "package": "brillig",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "Tag",
           "package": "brillig",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "fromTag",
           "package": "brillig",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "fromTag",
           "package": "brillig",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "readTag",
           "package": "brillig",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "readTag",
           "normalized": "Text-\u003e(Text,Tag)",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "retag",
           "package": "brillig",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "retag",
           "normalized": "([Tag]-\u003e[Tag])-\u003e[Tagged Text]-\u003e[Tagged Text]",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:28 UTC 2014",
           "module": "NLP.Brillig",
           "name": "showTag",
           "package": "brillig",
@@ -961,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "NLP Brillig",
+          "indexed": "2014-03-11T17:25:28",
           "module": "NLP.Brillig",
           "name": "showTag",
           "normalized": "Tagged Text-\u003eText",

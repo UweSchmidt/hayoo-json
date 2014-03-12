@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-clock"
+        "phrase": "vector-clock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn approximate vector clock implementation in terms of\n \u003ca\u003eData.VectorClock.Simple\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "Approximate",
           "package": "vector-clock",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An approximate vector clock implementation in terms of Data.VectorClock.Simple",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "Approximate",
           "package": "vector-clock",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe relations two vector clocks may find themselves in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "Relation",
           "package": "vector-clock",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The relations two vector clocks may find themselves in",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "Relation",
           "package": "vector-clock",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn approximate vector clock is a normal vector clock, but several\n keys are mapped to the same value.  This can lead to \u003cem\u003efalse\u003c/em\u003e\n \u003cem\u003epositive\u003c/em\u003e \u003ccode\u003e\u003ca\u003erelation\u003c/a\u003e\u003c/code\u003es.  In other words, the fact that one vector\n clock causes another is no longer enough information to say that\n one message causes the other.  That said, experimental results show\n that approximate vector clocks have good results in practice; see\n the paper by R. Baldoni and M. Raynal for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "VectorClock",
           "package": "vector-clock",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An approximate vector clock is normal vector clock but several keys are mapped to the same value This can lead to false positive relation In other words the fact that one vector clock causes another is no longer enough information to say that one message causes the other That said experimental results show that approximate vector clocks have good results in practice see the paper by Baldoni and Raynal for details",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "VectorClock",
           "package": "vector-clock",
@@ -157,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(N, M))\u003c/em\u003e.  Short-hand for \u003ccode\u003erelation vc1 vc2 == Causes\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "causes",
           "package": "vector-clock",
@@ -167,6 +174,7 @@
         "index": {
           "description": "min Short-hand for relation vc1 vc2 Causes",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "causes",
           "normalized": "VectorClock a b-\u003eVectorClock a b-\u003eBool",
@@ -182,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(N, M))\u003c/em\u003e.  Combine two vector clocks entry-by-entry.  The\n size of the resulting vector clock is the maximum of the sizes of\n the given ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "combine",
           "package": "vector-clock",
@@ -191,6 +200,7 @@
         "index": {
           "description": "max Combine two vector clocks entry-by-entry The size of the resulting vector clock is the maximum of the sizes of the given ones",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "combine",
           "normalized": "(Int-\u003eMaybe a-\u003eMaybe a-\u003eMaybe a)-\u003eVectorClock b a-\u003eVectorClock b a-\u003eVectorClock b a",
@@ -206,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Delete an entry from the vector clock.  If the requested\n entry does not exist, does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "delete",
           "package": "vector-clock",
@@ -216,6 +227,7 @@
         "index": {
           "description": "Delete an entry from the vector clock If the requested entry does not exist does nothing",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "delete",
           "normalized": "a-\u003eVectorClock a b-\u003eVectorClock a b",
@@ -231,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(M)\u003c/em\u003e.  If \u003ccode\u003evc2 \u003ccode\u003e\u003ca\u003ecauses\u003c/a\u003e\u003c/code\u003e vc1\u003c/code\u003e, compute the smallest \u003ccode\u003evc3\u003c/code\u003e\n s.t. \u003ccode\u003emax vc3 vc2 == vc1\u003c/code\u003e.  Note that the \u003cem\u003efirst\u003c/em\u003e parameter is the\n newer vector clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "diff",
           "package": "vector-clock",
@@ -241,6 +254,7 @@
         "index": {
           "description": "If vc2 causes vc1 compute the smallest vc3 s.t max vc3 vc2 vc1 Note that the first parameter is the newer vector clock",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "diff",
           "normalized": "VectorClock a b-\u003eVectorClock a b-\u003eMaybe(VectorClock a b)",
@@ -256,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  The empty vector clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "empty",
           "package": "vector-clock",
@@ -265,6 +280,7 @@
         "index": {
           "description": "The empty vector clock",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "empty",
           "normalized": "Int-\u003eVectorClock a b",
@@ -280,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Insert each entry in the list one at a time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "fromList",
           "package": "vector-clock",
@@ -289,6 +306,7 @@
         "index": {
           "description": "Insert each entry in the list one at time",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "fromList",
           "normalized": "Int-\u003e[(a,b)]-\u003eVectorClock a b",
@@ -305,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Increment the entry for a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "inc",
           "package": "vector-clock",
@@ -315,6 +334,7 @@
         "index": {
           "description": "Increment the entry for key",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "inc",
           "normalized": "a-\u003eVectorClock a b-\u003eMaybe(VectorClock a b)",
@@ -356,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Insert or replace the entry for a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "insert",
           "package": "vector-clock",
@@ -366,6 +387,7 @@
         "index": {
           "description": "Insert or replace the entry for key",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eVectorClock a b-\u003eVectorClock a b",
@@ -381,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Lookup the value for a key in the vector clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "lookup",
           "package": "vector-clock",
@@ -391,6 +414,7 @@
         "index": {
           "description": "Lookup the value for key in the vector clock",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "lookup",
           "normalized": "a-\u003eVectorClock a b-\u003eMaybe b",
@@ -406,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(N, M))\u003c/em\u003e.  The maximum of the two vector clocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "max",
           "package": "vector-clock",
@@ -416,6 +441,7 @@
         "index": {
           "description": "max The maximum of the two vector clocks",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "max",
           "normalized": "VectorClock a b-\u003eVectorClock a b-\u003eVectorClock a b",
@@ -431,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Is the given key a key in an entry of the vector clock?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "member",
           "package": "vector-clock",
@@ -441,6 +468,7 @@
         "index": {
           "description": "Is the given key key in an entry of the vector clock",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "member",
           "normalized": "a-\u003eVectorClock a b-\u003eBool",
@@ -456,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  Is the vector clock empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "null",
           "package": "vector-clock",
@@ -466,6 +495,7 @@
         "index": {
           "description": "Is the vector clock empty",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "null",
           "normalized": "VectorClock a b-\u003eBool",
@@ -481,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(N, M))\u003c/em\u003e.  The relation between the two vector clocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "relation",
           "package": "vector-clock",
@@ -491,6 +522,7 @@
         "index": {
           "description": "min The relation between the two vector clocks",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "relation",
           "normalized": "VectorClock a b-\u003eVectorClock a b-\u003eRelation",
@@ -506,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  A vector clock with a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "singleton",
           "package": "vector-clock",
@@ -515,6 +548,7 @@
         "index": {
           "description": "vector clock with single element",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "singleton",
           "normalized": "Int-\u003ea-\u003eb-\u003eVectorClock a b",
@@ -530,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  The number of entries in the vector clock.  Note that\n this may be less than the \u003cem\u003esize\u003c/em\u003e at construction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "size",
           "package": "vector-clock",
@@ -540,6 +575,7 @@
         "index": {
           "description": "The number of entries in the vector clock Note that this may be less than the size at construction",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "size",
           "normalized": "VectorClock a b-\u003eInt",
@@ -555,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  All the entries in the vector clock.  Note that this is\n \u003cem\u003enot\u003c/em\u003e the inverse of \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e.  Note that the keys are returned\n \u003cem\u003ehashed\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "toList",
           "package": "vector-clock",
@@ -565,6 +602,7 @@
         "index": {
           "description": "All the entries in the vector clock Note that this is not the inverse of fromList Note that the keys are returned hashed",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "toList",
           "normalized": "VectorClock a b-\u003e[(Int,b)]",
@@ -581,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Check whether the vector clock is valid or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Approximate",
           "name": "valid",
           "package": "vector-clock",
@@ -591,6 +630,7 @@
         "index": {
           "description": "Check whether the vector clock is valid or not",
           "hierarchy": "Data VectorClock Approximate",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Approximate",
           "name": "valid",
           "normalized": "VectorClock a b-\u003eBool",
@@ -606,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA vector clock implementation in terms of simply-linked lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "Simple",
           "package": "vector-clock",
@@ -615,6 +656,7 @@
         "index": {
           "description": "vector clock implementation in terms of simply-linked lists",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "Simple",
           "package": "vector-clock",
@@ -629,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe relations two vector clocks may find themselves in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "Relation",
           "package": "vector-clock",
@@ -638,6 +681,7 @@
         "index": {
           "description": "The relations two vector clocks may find themselves in",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "Relation",
           "package": "vector-clock",
@@ -652,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector clock is, conceptually, an associtive list sorted by the\n value of the key, where each key appears only once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "VectorClock",
           "package": "vector-clock",
@@ -661,6 +706,7 @@
         "index": {
           "description": "vector clock is conceptually an associtive list sorted by the value of the key where each key appears only once",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "VectorClock",
           "package": "vector-clock",
@@ -675,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(N, M))\u003c/em\u003e.  Short-hand for \u003ccode\u003erelation vc1 vc2 == Causes\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "causes",
           "package": "vector-clock",
@@ -685,6 +732,7 @@
         "index": {
           "description": "min Short-hand for relation vc1 vc2 Causes",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "causes",
           "normalized": "VectorClock a b-\u003eVectorClock a b-\u003eBool",
@@ -700,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(N, M))\u003c/em\u003e.  Combine two vector clocks entry-by-entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "combine",
           "package": "vector-clock",
@@ -709,6 +758,7 @@
         "index": {
           "description": "max Combine two vector clocks entry-by-entry",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "combine",
           "normalized": "(a-\u003eMaybe b-\u003eMaybe b-\u003eMaybe b)-\u003eVectorClock a b-\u003eVectorClock a b-\u003eVectorClock a b",
@@ -724,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Delete an entry from the vector clock.  If the requested\n entry does not exist, does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "delete",
           "package": "vector-clock",
@@ -734,6 +785,7 @@
         "index": {
           "description": "Delete an entry from the vector clock If the requested entry does not exist does nothing",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "delete",
           "normalized": "a-\u003eVectorClock a b-\u003eVectorClock a b",
@@ -749,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(M)\u003c/em\u003e.  If \u003ccode\u003evc2 \u003ccode\u003e\u003ca\u003ecauses\u003c/a\u003e\u003c/code\u003e vc1\u003c/code\u003e, compute the smallest \u003ccode\u003evc3\u003c/code\u003e\n s.t. \u003ccode\u003emax vc3 vc2 == vc1\u003c/code\u003e.  Note that the \u003cem\u003efirst\u003c/em\u003e parameter is the\n newer vector clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "diff",
           "package": "vector-clock",
@@ -759,6 +812,7 @@
         "index": {
           "description": "If vc2 causes vc1 compute the smallest vc3 s.t max vc3 vc2 vc1 Note that the first parameter is the newer vector clock",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "diff",
           "normalized": "VectorClock a b-\u003eVectorClock a b-\u003eMaybe(VectorClock a b)",
@@ -774,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  The empty vector clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "empty",
           "package": "vector-clock",
@@ -784,6 +839,7 @@
         "index": {
           "description": "The empty vector clock",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "empty",
           "package": "vector-clock",
@@ -797,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Insert each entry in the list one at a time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "fromList",
           "package": "vector-clock",
@@ -807,6 +864,7 @@
         "index": {
           "description": "Insert each entry in the list one at time",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eVectorClock a b",
@@ -823,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Increment the entry for a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "inc",
           "package": "vector-clock",
@@ -833,6 +892,7 @@
         "index": {
           "description": "Increment the entry for key",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "inc",
           "normalized": "a-\u003eVectorClock a b-\u003eMaybe(VectorClock a b)",
@@ -848,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Insert or replace the entry for a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "insert",
           "package": "vector-clock",
@@ -858,6 +919,7 @@
         "index": {
           "description": "Insert or replace the entry for key",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eVectorClock a b-\u003eVectorClock a b",
@@ -873,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Lookup the value for a key in the vector clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "lookup",
           "package": "vector-clock",
@@ -883,6 +946,7 @@
         "index": {
           "description": "Lookup the value for key in the vector clock",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "lookup",
           "normalized": "a-\u003eVectorClock a b-\u003eMaybe b",
@@ -898,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(N, M))\u003c/em\u003e.  The maximum of the two vector clocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "max",
           "package": "vector-clock",
@@ -908,6 +973,7 @@
         "index": {
           "description": "max The maximum of the two vector clocks",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "max",
           "normalized": "VectorClock a b-\u003eVectorClock a b-\u003eVectorClock a b",
@@ -923,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Is the given key a key in an entry of the vector clock?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "member",
           "package": "vector-clock",
@@ -933,6 +1000,7 @@
         "index": {
           "description": "Is the given key key in an entry of the vector clock",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "member",
           "normalized": "a-\u003eVectorClock a b-\u003eBool",
@@ -948,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  Is the vector clock empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "null",
           "package": "vector-clock",
@@ -958,6 +1027,7 @@
         "index": {
           "description": "Is the vector clock empty",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "null",
           "normalized": "VectorClock a b-\u003eBool",
@@ -973,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(N, M))\u003c/em\u003e.  The relation between the two vector clocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "relation",
           "package": "vector-clock",
@@ -983,6 +1054,7 @@
         "index": {
           "description": "min The relation between the two vector clocks",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "relation",
           "normalized": "VectorClock a b-\u003eVectorClock a b-\u003eRelation",
@@ -998,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  A vector clock with a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "singleton",
           "package": "vector-clock",
@@ -1008,6 +1081,7 @@
         "index": {
           "description": "vector clock with single element",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eVectorClock a b",
@@ -1023,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  The number of entries in the vector clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "size",
           "package": "vector-clock",
@@ -1033,6 +1108,7 @@
         "index": {
           "description": "The number of entries in the vector clock",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "size",
           "normalized": "VectorClock a b-\u003eInt",
@@ -1048,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.  All the entries in the vector clock.  Note that this is\n \u003cem\u003enot\u003c/em\u003e the inverse of \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "toList",
           "package": "vector-clock",
@@ -1058,6 +1135,7 @@
         "index": {
           "description": "All the entries in the vector clock Note that this is not the inverse of fromList",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "toList",
           "normalized": "VectorClock a b-\u003e[(a,b)]",
@@ -1074,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(N)\u003c/em\u003e.  Check whether the vector clock is valid or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock.Simple",
           "name": "valid",
           "package": "vector-clock",
@@ -1084,6 +1163,7 @@
         "index": {
           "description": "Check whether the vector clock is valid or not",
           "hierarchy": "Data VectorClock Simple",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock.Simple",
           "name": "valid",
           "normalized": "VectorClock a b-\u003eBool",
@@ -1099,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA vector clock implementation.\n\u003c/p\u003e\u003cp\u003eThis module re-exports \u003ca\u003eData.VectorClock.Simple\u003c/a\u003e, which is the\n fully-featured vector clock library.  If you wish to use\n approximate vector clocks, which are significantly smaller and have\n bounded size, but are not exact, use \u003ca\u003eData.VectorClock.Approximate\u003c/a\u003e\n instead.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003eFundamentals of Distributed Computing: A Practical Tour of\n Vector Clock Systems\u003c/code\u003e by R. Baldoni and M. Raynal for an overview\n of vector clocks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:12 UTC 2014",
           "module": "Data.VectorClock",
           "name": "VectorClock",
           "package": "vector-clock",
@@ -1108,6 +1189,7 @@
         "index": {
           "description": "vector clock implementation This module re-exports Data.VectorClock.Simple which is the fully-featured vector clock library If you wish to use approximate vector clocks which are significantly smaller and have bounded size but are not exact use Data.VectorClock.Approximate instead See Fundamentals of Distributed Computing Practical Tour of Vector Clock Systems by Baldoni and Raynal for an overview of vector clocks",
           "hierarchy": "Data VectorClock",
+          "indexed": "2014-03-11T20:34:12",
           "module": "Data.VectorClock",
           "name": "VectorClock",
           "package": "vector-clock",

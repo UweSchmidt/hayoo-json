@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "setlocale"
+        "phrase": "setlocale",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "SetLocale",
           "package": "setlocale",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "SetLocale",
           "package": "setlocale",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type representing the various locale categories. See \u003ccode\u003eman 7 locale\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "Category",
           "package": "setlocale",
@@ -49,6 +52,7 @@
         "index": {
           "description": "type representing the various locale categories See man locale",
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "Category",
           "package": "setlocale",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "LC_ALL",
           "package": "setlocale",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "LC_ALL",
           "package": "setlocale",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "LC_COLLATE",
           "package": "setlocale",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "LC_COLLATE",
           "package": "setlocale",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "LC_CTYPE",
           "package": "setlocale",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "LC_CTYPE",
           "package": "setlocale",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "LC_MESSAGES",
           "package": "setlocale",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "LC_MESSAGES",
           "package": "setlocale",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "LC_MONETARY",
           "package": "setlocale",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "LC_MONETARY",
           "package": "setlocale",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "LC_NUMERIC",
           "package": "setlocale",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "LC_NUMERIC",
           "package": "setlocale",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "LC_TIME",
           "package": "setlocale",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "LC_TIME",
           "package": "setlocale",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eCategory\u003c/a\u003e\u003c/code\u003e to the corresponding system-specific \u003ccode\u003eLC_*\u003c/code\u003e code.\n You probably don't need this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "categoryToCInt",
           "package": "setlocale",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Convert Category to the corresponding system-specific LC code You probably don need this function",
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "categoryToCInt",
           "normalized": "Category-\u003eCInt",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell version of \u003ccode\u003esetlocale()\u003c/code\u003e. See \u003ccode\u003eman 3 setlocale\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:20 UTC 2014",
           "module": "System.Locale.SetLocale",
           "name": "setLocale",
           "package": "setlocale",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Haskell version of setlocale See man setlocale",
           "hierarchy": "System Locale SetLocale",
+          "indexed": "2014-03-11T20:00:20",
           "module": "System.Locale.SetLocale",
           "name": "setLocale",
           "normalized": "Category-\u003eMaybe String-\u003eIO(Maybe String)",

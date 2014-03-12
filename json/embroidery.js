@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "embroidery"
+        "phrase": "embroidery",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:24 UTC 2014",
           "module": "Codec.Binary.Embroidery",
           "name": "Embroidery",
           "package": "embroidery",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Embroidery",
+          "indexed": "2014-03-11T18:02:24",
           "module": "Codec.Binary.Embroidery",
           "name": "Embroidery",
           "package": "embroidery",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:24 UTC 2014",
           "module": "Codec.Binary.Embroidery",
           "name": "displayRendering",
           "package": "embroidery",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Embroidery",
+          "indexed": "2014-03-11T18:02:24",
           "module": "Codec.Binary.Embroidery",
           "name": "displayRendering",
           "normalized": "EmbFile-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:24 UTC 2014",
           "module": "Codec.Binary.Embroidery",
           "name": "importPES",
           "package": "embroidery",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Embroidery",
+          "indexed": "2014-03-11T18:02:24",
           "module": "Codec.Binary.Embroidery",
           "name": "importPES",
           "normalized": "FilePath-\u003eIO(Either String EmbFile)",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:24 UTC 2014",
           "module": "Codec.Binary.Embroidery",
           "name": "parsePES",
           "package": "embroidery",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Embroidery",
+          "indexed": "2014-03-11T18:02:24",
           "module": "Codec.Binary.Embroidery",
           "name": "parsePES",
           "package": "embroidery",

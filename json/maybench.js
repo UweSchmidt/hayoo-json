@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "maybench"
+        "phrase": "maybench",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3ACommand",
           "package": "maybench",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3ACommand",
           "package": "maybench",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3ACommandModifier",
           "package": "maybench",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3ACommandModifier",
           "package": "maybench",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3A\u003c@\u003e",
           "package": "maybench",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3A\u003c@\u003e",
           "normalized": "CommandModifier a-\u003eb-\u003eCommandModifier a",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3ACommandModifierClass",
           "package": "maybench",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3ACommandModifierClass",
           "package": "maybench",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3AaddArg",
           "package": "maybench",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3AaddArg",
           "normalized": "String-\u003eCommand-\u003eCommand",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3AaddArgs",
           "package": "maybench",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3AaddArgs",
           "normalized": "[String]-\u003eCommand-\u003eCommand",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3AmodifyCmd",
           "package": "maybench",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3AmodifyCmd",
           "normalized": "a-\u003eb(Command-\u003eCommand)",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3AupdateCmdArgs",
           "package": "maybench",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3AupdateCmdArgs",
           "normalized": "([String]-\u003e[String])-\u003eCommand-\u003eCommand",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3AupdateCmdInput",
           "package": "maybench",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3AupdateCmdInput",
           "normalized": "(String-\u003eString)-\u003eCommand-\u003eCommand",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Command",
           "name": "3AupdateCmdName",
           "package": "maybench",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Command",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Command",
           "name": "3AupdateCmdName",
           "normalized": "(String-\u003eString)-\u003eCommand-\u003eCommand",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Utils",
           "name": "3A\u003c++\u003e",
           "package": "maybench",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Utils",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Utils",
           "name": "3A\u003c++\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Utils",
           "name": "3A\u003c|",
           "package": "maybench",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Utils",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Utils",
           "name": "3A\u003c|",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Utils",
           "name": "3AConsLeft",
           "package": "maybench",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Utils",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Utils",
           "name": "3AConsLeft",
           "package": "maybench",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Utils",
           "name": "3AConsRight",
           "package": "maybench",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Utils",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Utils",
           "name": "3AConsRight",
           "package": "maybench",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Utils",
           "name": "3AfromList",
           "package": "maybench",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Utils",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Utils",
           "name": "3AfromList",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Utils",
           "name": "3Alist",
           "package": "maybench",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Utils",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Utils",
           "name": "3Alist",
           "normalized": "a-\u003e(b-\u003e[b]-\u003ea)-\u003e[b]-\u003ea",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench.Utils",
           "name": "3A|\u003e",
           "package": "maybench",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench Utils",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench.Utils",
           "name": "3A|\u003e",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3ABenchmark",
           "package": "maybench",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3ABenchmark",
           "package": "maybench",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3AaverageTime",
           "package": "maybench",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3AaverageTime",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eIO Double",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3AcompareTimes",
           "package": "maybench",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3AcompareTimes",
           "normalized": "(String,a)-\u003e(String,a)-\u003eMaybe String",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3Ahour",
           "package": "maybench",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3Ahour",
           "package": "maybench",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3AprintTimeDiff",
           "package": "maybench",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3AprintTimeDiff",
           "normalized": "(String,TimeDiff)-\u003eIO()",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3Arun",
           "package": "maybench",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3Arun",
           "normalized": "CommandModifier a-\u003ea(String,String)",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3ArunC",
           "package": "maybench",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3ArunC",
           "normalized": "Command-\u003ea(String,String)",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3ArunProcessWithInput",
           "package": "maybench",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3ArunProcessWithInput",
           "normalized": "FilePath-\u003e[String]-\u003eString-\u003eIO(String,String)",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3AsecondsToTimeDiff",
           "package": "maybench",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3AsecondsToTimeDiff",
           "normalized": "Int-\u003eTimeDiff",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3AshowTimeDiff",
           "package": "maybench",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3AshowTimeDiff",
           "normalized": "(String,TimeDiff)-\u003eString",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:36 UTC 2014",
           "module": "Test.Maybench",
           "name": "3AtimeDiffToSeconds",
           "package": "maybench",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Test Maybench",
+          "indexed": "2014-03-11T19:15:36",
           "module": "Test.Maybench",
           "name": "3AtimeDiffToSeconds",
           "normalized": "TimeDiff-\u003eInt",

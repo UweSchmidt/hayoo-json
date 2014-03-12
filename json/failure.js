@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "failure"
+        "phrase": "failure",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType classes for returning failures.\n\u003c/p\u003e\u003cp\u003eNote: This module used to contain a lot more functionality, but I believe it\n was unused functionality. If you want any of it back, just email me.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:15 UTC 2014",
           "module": "Control.Failure",
           "name": "Failure",
           "package": "failure",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type classes for returning failures Note This module used to contain lot more functionality but believe it was unused functionality If you want any of it back just email me",
           "hierarchy": "Control Failure",
+          "indexed": "2014-03-11T18:06:15",
           "module": "Control.Failure",
           "name": "Failure",
           "package": "failure",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:15 UTC 2014",
           "module": "Control.Failure",
           "name": "Failure",
           "package": "failure",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Failure",
+          "indexed": "2014-03-11T18:06:15",
           "module": "Control.Failure",
           "name": "Failure",
           "package": "failure",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a \u003ccode\u003e\u003ca\u003eSomeException\u003c/a\u003e\u003c/code\u003e via \u003ccode\u003e\u003ca\u003etoException\u003c/a\u003e\u003c/code\u003e before calling \u003ccode\u003e\u003ca\u003efailure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:15 UTC 2014",
           "module": "Control.Failure",
           "name": "exception",
           "package": "failure",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Convert to SomeException via toException before calling failure",
           "hierarchy": "Control Failure",
+          "indexed": "2014-03-11T18:06:15",
           "module": "Control.Failure",
           "name": "exception",
           "normalized": "a-\u003eb c",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:15 UTC 2014",
           "module": "Control.Failure",
           "name": "failure",
           "package": "failure",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Failure",
+          "indexed": "2014-03-11T18:06:15",
           "module": "Control.Failure",
           "name": "failure",
           "normalized": "a-\u003eb c",

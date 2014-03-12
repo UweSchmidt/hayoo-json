@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lio-eci11"
+        "phrase": "lio-eci11",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese functions support a simple base-32 encoding of binary data,\n in which 5 bytes of binary data are mapped onto 8 characters from\n the set {a, ..., k, m, n, p, ..., z, 2, ..., 9} (i.e., all\n lower-case letters and digits except for l, o, 0, and 9).\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003earmor32\u003c/a\u003e\u003c/code\u003e function encodes binary using this base-32 encoding,\n while \u003ccode\u003e\u003ca\u003edearmor32\u003c/a\u003e\u003c/code\u003e reverses the encoding.\n\u003c/p\u003e\u003cp\u003eBinary data is assumed to come from the \u003ca\u003eData.ByteString.Lazy\u003c/a\u003e type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Armor",
           "name": "Armor",
           "package": "lio-eci11",
@@ -28,6 +29,7 @@
         "index": {
           "description": "These functions support simple base-32 encoding of binary data in which bytes of binary data are mapped onto characters from the set i.e all lower-case letters and digits except for and The armor32 function encodes binary using this base-32 encoding while dearmor32 reverses the encoding Binary data is assumed to come from the Data.ByteString.Lazy type",
           "hierarchy": "LIO Armor",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Armor",
           "name": "Armor",
           "package": "lio-eci11",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Armor",
           "name": "a2b",
           "package": "lio-eci11",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "LIO Armor",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Armor",
           "name": "a2b",
           "package": "lio-eci11",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the caracter could have been in the output of\n \u003ccode\u003e\u003ca\u003earmor32\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Armor",
           "name": "a32Valid",
           "package": "lio-eci11",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Return True iff the caracter could have been in the output of armor32",
           "hierarchy": "LIO Armor",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Armor",
           "name": "a32Valid",
           "normalized": "Char-\u003eBool",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Armor",
           "name": "armor32",
           "package": "lio-eci11",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "LIO Armor",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Armor",
           "name": "armor32",
           "normalized": "ByteString-\u003eString",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Armor",
           "name": "b2a",
           "package": "lio-eci11",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "LIO Armor",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Armor",
           "name": "b2a",
           "package": "lio-eci11",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Armor",
           "name": "dearmor32",
           "package": "lio-eci11",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "LIO Armor",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Armor",
           "name": "dearmor32",
           "normalized": "String-\u003eByteString",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis file exports the subset of symbols in the \u003ca\u003eLIO.TCB\u003c/a\u003e module\n that are safe for untrusted code to access.  See the \u003ca\u003eLIO.TCB\u003c/a\u003e\n module for documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Base",
           "name": "Base",
           "package": "lio-eci11",
@@ -165,6 +178,7 @@
         "index": {
           "description": "This file exports the subset of symbols in the LIO.TCB module that are safe for untrusted code to access See the LIO.TCB module for documentation",
           "hierarchy": "LIO Base",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Base",
           "name": "Base",
           "package": "lio-eci11",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides bindings for the \u003ca\u003eDCLabel\u003c/a\u003e module, with some \nrenaming to resolve name clashes. The delegation of privilege and \nother trusted code is not exported by this module and code wishing to\nuse this should import \u003ca\u003eDCLabel.TCB\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.DCLabel",
           "name": "DCLabel",
           "package": "lio-eci11",
@@ -188,6 +203,7 @@
         "index": {
           "description": "This module provides bindings for the DCLabel module with some renaming to resolve name clashes The delegation of privilege and other trusted code is not exported by this module and code wishing to use this should import DCLabel.TCB",
           "hierarchy": "LIO DCLabel",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.DCLabel",
           "name": "DCLabel",
           "package": "lio-eci11",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad for LIO computations using \u003ccode\u003e\u003ca\u003eDCLabel\u003c/a\u003e\u003c/code\u003e as the label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.DCLabel",
           "name": "DC",
           "package": "lio-eci11",
@@ -211,6 +228,7 @@
         "index": {
           "description": "The monad for LIO computations using DCLabel as the label",
           "hierarchy": "LIO DCLabel",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.DCLabel",
           "name": "DC",
           "package": "lio-eci11",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ca\u003eDCLabel\u003c/a\u003e category set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.DCLabel",
           "name": "DCCatSet",
           "package": "lio-eci11",
@@ -234,6 +253,7 @@
         "index": {
           "description": "DCLabel category set",
           "hierarchy": "LIO DCLabel",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.DCLabel",
           "name": "DCCatSet",
           "package": "lio-eci11",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ca\u003eDCLabel\u003c/a\u003e (untrusted) privilege.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.DCLabel",
           "name": "DCPriv",
           "package": "lio-eci11",
@@ -257,6 +278,7 @@
         "index": {
           "description": "DCLabel untrusted privilege",
           "hierarchy": "LIO DCLabel",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.DCLabel",
           "name": "DCPriv",
           "package": "lio-eci11",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ca\u003eDCLabel\u003c/a\u003e privilege.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.DCLabel",
           "name": "DCPrivTCB",
           "package": "lio-eci11",
@@ -280,6 +303,7 @@
         "index": {
           "description": "DCLabel privilege",
           "hierarchy": "LIO DCLabel",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.DCLabel",
           "name": "DCPrivTCB",
           "package": "lio-eci11",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a computation in the LIO Monad, returning both the\n computation's result and the label of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.DCLabel",
           "name": "evalDC",
           "package": "lio-eci11",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Runs computation in the LIO Monad returning both the computation result and the label of the result",
           "hierarchy": "LIO DCLabel",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.DCLabel",
           "name": "evalDC",
           "normalized": "DC a-\u003eIO(a,DCLabel)",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module manages a file store in which a label is associated\n    with every file and directory.  The file store is grouped into\n    directories by label.  Files are stored under names like:\n\u003c/p\u003e\u003cpre\u003e LabelHash/OpaqueName\n\u003c/pre\u003e\u003cp\u003ewhere LabelHash is a SHA-224 hash of the label, and OpaqueName is\n    either a regular file (containing contents) or a directory\n    populated exclusively by symbolic links pointing back into\n    LabelHash directories.  Each LabelHash directory also has a file\n    called\n\u003c/p\u003e\u003cpre\u003e LabelHash/LABEL\n\u003c/pre\u003e\u003cp\u003ewhich actually contains the label of all the files in that directory.\n\u003c/p\u003e\u003cp\u003eThere is also a symbolic link \u003ccode\u003eroot\u003c/code\u003e, pointing to the root\n    directory.  For efficiency, \u003ccode\u003eLabelHash\u003c/code\u003e actually consists of\n    multiple directories.\n\u003c/p\u003e\u003cp\u003eThere are two externally-visible abstractions. The first is\n    \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, which refers to a file name in a user directory, of the\n    form:\n\u003c/p\u003e\u003cpre\u003e LabelHash/OpaqueName/UserName\n\u003c/pre\u003e\u003cp\u003eThere is also a special \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003erootDir\u003c/a\u003e\u003c/code\u003e, which refers to the\n    root directory.  Untrusted user code has access to the \u003ccode\u003e\u003ca\u003erootDir\u003c/a\u003e\u003c/code\u003e\n    \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, and can walk the tree from there using the \u003ccode\u003e\u003ca\u003elookupName\u003c/a\u003e\u003c/code\u003e\n    function.  The \u003ca\u003eLIO.Handle\u003c/a\u003e module contains functions \u003ccode\u003emkDir\u003c/code\u003e and\n    \u003ccode\u003emkLHandle\u003c/code\u003e which permit untrusted code to make new \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es as\n    well as to do handle-based IO on protected files.\n\u003c/p\u003e\u003cp\u003eThe second is \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, which refers to one of the \u003ccode\u003eOpaqueName\u003c/code\u003es\n    that \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es point to.  Currently, any functions that operate on\n    \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es are in the IO Monad so as not to be executable by\n    untrusted code.  This is important because in order to use a file,\n    someone must have the right to know know that the file exists, and\n    this requires read permission on the file's \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e.  It would be\n    insecure if untrusted code could execute openNode in the LIO\n    Monad.\n\u003c/p\u003e\u003cp\u003eNote that if a machine crashes, the code in this module could\n    leave the filesystem in an inconsistent state.  However, the code\n    tries to maitain the invariant that any inconsistencies will\n    either be:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e temporary files or directories whose names end with the\n         \"\u003ccode\u003e~\u003c/code\u003e\" character, or\n\u003c/li\u003e\u003cli\u003e  dangling symbolic links.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eBoth of these inconsistencies can be checked and cleaned up\n    locally without examining the whole file system.  The code tries\n    to fix up these inconsistencies on-the-fly as it encounters them.\n    However, it could possibly lieave some stranded temporary\n    \u003ccode\u003eLABEL...~\u003c/code\u003e files.  You could also end up with some weirdness like\n    a file that shows up in getDirectoryContents, but that you can't\n    open for reading.\n\u003c/p\u003e\u003cp\u003eTo keep from having to examine the whole file system to fix\n    errors, the code tries to maintain the invariant that if a\n    'Node'\\'s file name doesn't end with \u003ccode\u003e~\u003c/code\u003e, then there must be a\n    link pointing to it somewhere.  This is why the code uses a\n    separate \u003ccode\u003eNewNode\u003c/code\u003e type to represent a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e whose name ends \u003ccode\u003e~\u003c/code\u003e.\n    The function \u003ccode\u003e\u003ca\u003elinkNode\u003c/a\u003e\u003c/code\u003e renames the \u003ccode\u003eNewNode\u003c/code\u003e to a name without a\n    trailing \u003ccode\u003e~\u003c/code\u003e only after creating a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e that points to the\n    permenent \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e path.\n\u003c/p\u003e\u003cp\u003eAssuming a file system that preserves the order of metadata\n    operations, the code should mostly be okay to recover from any\n    crashes.  If using soft updates, which can re-order metadata\n    operations, you could end up with symbolic links that point\n    nowhere.\n\u003c/p\u003e\u003cp\u003eIn the worst case scenario if inconsistencies develop, you can\n    manually fix up the file system by deleting all danglinng symbolic\n    links and all files and directories ending \u003ccode\u003e~\u003c/code\u003e.  Make sure no\n    application is concurrently accessing the file system, however.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "FS",
           "package": "lio-eci11",
@@ -329,6 +356,7 @@
         "index": {
           "description": "This module manages file store in which label is associated with every file and directory The file store is grouped into directories by label Files are stored under names like LabelHash OpaqueName where LabelHash is SHA-224 hash of the label and OpaqueName is either regular file containing contents or directory populated exclusively by symbolic links pointing back into LabelHash directories Each LabelHash directory also has file called LabelHash LABEL which actually contains the label of all the files in that directory There is also symbolic link root pointing to the root directory For efficiency LabelHash actually consists of multiple directories There are two externally-visible abstractions The first is Name which refers to file name in user directory of the form LabelHash OpaqueName UserName There is also special Name rootDir which refers to the root directory Untrusted user code has access to the rootDir Name and can walk the tree from there using the lookupName function The LIO.Handle module contains functions mkDir and mkLHandle which permit untrusted code to make new Name as well as to do handle-based IO on protected files The second is Node which refers to one of the OpaqueName that Name point to Currently any functions that operate on Node are in the IO Monad so as not to be executable by untrusted code This is important because in order to use file someone must have the right to know know that the file exists and this requires read permission on the file Name It would be insecure if untrusted code could execute openNode in the LIO Monad Note that if machine crashes the code in this module could leave the filesystem in an inconsistent state However the code tries to maitain the invariant that any inconsistencies will either be temporary files or directories whose names end with the character or dangling symbolic links Both of these inconsistencies can be checked and cleaned up locally without examining the whole file system The code tries to fix up these inconsistencies on-the-fly as it encounters them However it could possibly lieave some stranded temporary LABEL files You could also end up with some weirdness like file that shows up in getDirectoryContents but that you can open for reading To keep from having to examine the whole file system to fix errors the code tries to maintain the invariant that if Node file name doesn end with then there must be link pointing to it somewhere This is why the code uses separate NewNode type to represent Node whose name ends The function linkNode renames the NewNode to name without trailing only after creating Name that points to the permenent Node path Assuming file system that preserves the order of metadata operations the code should mostly be okay to recover from any crashes If using soft updates which can re-order metadata operations you could end up with symbolic links that point nowhere In the worst case scenario if inconsistencies develop you can manually fix up the file system by deleting all danglinng symbolic links and all files and directories ending Make sure no application is concurrently accessing the file system however",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "FS",
           "package": "lio-eci11",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eName\u003c/code\u003e type represents user-chosen (non-opaque) filenames of\n symbolic links, either \u003ccode\u003e\"root\"\u003c/code\u003e or pathnames of the form\n \u003ccode\u003eLabelHash/OpaqueName/filename\u003c/code\u003e.  Intermediary components of the\n file name must not be symbolic links.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "Name",
           "package": "lio-eci11",
@@ -352,6 +381,7 @@
         "index": {
           "description": "The Name type represents user-chosen non-opaque filenames of symbolic links either root or pathnames of the form LabelHash OpaqueName filename Intermediary components of the file name must not be symbolic links",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "Name",
           "package": "lio-eci11",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eNode\u003c/code\u003e type represents filenames of the form\n \u003ccode\u003eLabelHash/OpaqueName\u003c/code\u003e.  These names must always point to regular\n files or directories (not symbolic links).  There must always exist\n a file \u003ccode\u003eLabalHash/LABEL\u003c/code\u003e specifying the label of a \u003ccode\u003eNode\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "Node",
           "package": "lio-eci11",
@@ -375,6 +406,7 @@
         "index": {
           "description": "The Node type represents filenames of the form LabelHash OpaqueName These names must always point to regular files or directories not symbolic links There must always exist file LabalHash LABEL specifying the label of Node",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "Node",
           "package": "lio-eci11",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThie function is a wrapper around \u003ccode\u003e\u003ca\u003egetDirectoryContents\u003c/a\u003e\u003c/code\u003e that\n tries to fixup errors analogously to \u003ccode\u003e\u003ca\u003eopenNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "getDirectoryContentsNode",
           "package": "lio-eci11",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Thie function is wrapper around getDirectoryContents that tries to fixup errors analogously to openNode",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "getDirectoryContentsNode",
           "normalized": "Node-\u003eIO[FilePath]",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the root directory for a particular label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "getRootDir",
           "package": "lio-eci11",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Get the root directory for particular label",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "getRootDir",
           "normalized": "a-\u003eName a",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "initFS",
           "package": "lio-eci11",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "initFS",
           "normalized": "a-\u003eIO()",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel protecting the name of a file.  Note that this is the label\n of the directory containing the file name, not the label of the\n Node that the file name designates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "labelOfName",
           "package": "lio-eci11",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Label protecting the name of file Note that this is the label of the directory containing the file name not the label of the Node that the file name designates",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "labelOfName",
           "normalized": "Name a-\u003eIO a",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel protecting the contents of a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "labelOfNode",
           "package": "lio-eci11",
@@ -501,6 +542,7 @@
         "index": {
           "description": "Label protecting the contents of node",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "labelOfNode",
           "normalized": "Node-\u003eIO a",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003eNewNode\u003c/code\u003e, turning it into a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.  Note\n that unlike the Unix file system, only a single link may be created\n to each node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "linkNode",
           "package": "lio-eci11",
@@ -527,6 +570,7 @@
         "index": {
           "description": "Assign Name to NewNode turning it into Node Note that unlike the Unix file system only single link may be created to each node",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "linkNode",
           "normalized": "NewNode-\u003eName a-\u003eIO Node",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks up a FilePath, turning it into a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, and raising to\n current label to reflect all directories traversed.  Note that this\n only looks up a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e; it does not ensure the \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e actually\n exists.  The intent is that you call \u003ccode\u003elookupName\u003c/code\u003e before creating\n or opening files.\n\u003c/p\u003e\u003cp\u003eNote that this function will touch bad parts of the file system if\n it is supplied with a malicous \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e.  Thus, it is important to\n keep the constructor of \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e private, so that the only way for\n user code to generate names is to start with \u003ccode\u003e\u003ca\u003erootDir\u003c/a\u003e\u003c/code\u003e and call\n \u003ccode\u003elookupName\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "lookupName",
           "package": "lio-eci11",
@@ -552,6 +597,7 @@
         "index": {
           "description": "Looks up FilePath turning it into Name and raising to current label to reflect all directories traversed Note that this only looks up Name it does not ensure the Name actually exists The intent is that you call lookupName before creating or opening files Note that this function will touch bad parts of the file system if it is supplied with malicous Name Thus it is important to keep the constructor of Name private so that the only way for user code to generate names is to start with rootDir and call lookupName",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "lookupName",
           "normalized": "a-\u003eName b-\u003eFilePath-\u003eLIO b c(Name b)",
@@ -567,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "lookupNode",
           "package": "lio-eci11",
@@ -575,6 +622,7 @@
         },
         "index": {
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "lookupNode",
           "normalized": "a-\u003eName b-\u003eFilePath-\u003eBool-\u003eLIO b c Node",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new Node in the appropriate directory for a given label.\n The node gets created with an extra ~ appended, and wrapped in the\n type \u003ccode\u003eNewNode\u003c/code\u003e to reflect this fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "mkNode",
           "package": "lio-eci11",
@@ -600,6 +649,7 @@
         "index": {
           "description": "Create new Node in the appropriate directory for given label The node gets created with an extra appended and wrapped in the type NewNode to reflect this fact",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "mkNode",
           "normalized": "a-\u003e(FilePath-\u003eString-\u003eIO(b,FilePath))-\u003eIO(b,NewNode)",
@@ -616,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around mkNode to create a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "mkNodeDir",
           "package": "lio-eci11",
@@ -626,6 +677,7 @@
         "index": {
           "description": "Wrapper around mkNode to create directory",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "mkNodeDir",
           "normalized": "a-\u003eIO NewNode",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around mkNode to create a regular file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "mkNodeReg",
           "package": "lio-eci11",
@@ -652,6 +705,7 @@
         "index": {
           "description": "Wrapper around mkNode to create regular file",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "mkNodeReg",
           "normalized": "IOMode-\u003ea-\u003eIO(Handle,NewNode)",
@@ -668,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a root directory for a particular label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "mkRootDir",
           "package": "lio-eci11",
@@ -678,6 +733,7 @@
         "index": {
           "description": "Creates root directory for particular label",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "mkRootDir",
           "normalized": "a-\u003eb-\u003eLIO b c(Name b)",
@@ -694,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a temporary directory in an existing directory (or\n label-specific root directory, if the \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e argument comes from\n \u003ccode\u003e\u003ca\u003egetRootDir\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "mkTmpDirL",
           "package": "lio-eci11",
@@ -703,6 +760,7 @@
         "index": {
           "description": "Creates temporary directory in an existing directory or label-specific root directory if the Name argument comes from getRootDir",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "mkTmpDirL",
           "normalized": "a-\u003eb-\u003eName b-\u003eString-\u003eLIO b c(FilePath,Name b)",
@@ -719,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e that a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e is pointing to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "nodeOfName",
           "package": "lio-eci11",
@@ -729,6 +788,7 @@
         "index": {
           "description": "Node that Name is pointing to",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "nodeOfName",
           "normalized": "Name a-\u003eIO Node",
@@ -745,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThie function just calls \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e on the filename in a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n However, on the off chance that the file system is in an\n inconsistent state (e.g., because of a crash during a call to\n \u003ccode\u003e\u003ca\u003elinkNode\u003c/a\u003e\u003c/code\u003e), it tries to finish creating a partially created\n \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "openNode",
           "package": "lio-eci11",
@@ -755,6 +816,7 @@
         "index": {
           "description": "Thie function just calls openFile on the filename in Node However on the off chance that the file system is in an inconsistent state e.g because of crash during call to linkNode it tries to finish creating partially created Node",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "openNode",
           "normalized": "Node-\u003eIOMode-\u003eIO Handle",
@@ -771,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the root directory for the default root label.  (There is\n a root directory for each label, but only one label is the\n default.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "rootDir",
           "package": "lio-eci11",
@@ -781,6 +844,7 @@
         "index": {
           "description": "Return the root directory for the default root label There is root directory for each label but only one label is the default",
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "rootDir",
           "package": "lio-eci11",
@@ -794,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.FS",
           "name": "tryPred",
           "package": "lio-eci11",
@@ -803,6 +868,7 @@
         },
         "index": {
           "hierarchy": "LIO FS",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.FS",
           "name": "tryPred",
           "normalized": "(a-\u003eBool)-\u003eIO b-\u003eIO(Either a b)",
@@ -819,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module abstracts the basic \u003ccode\u003eFileHandle\u003c/code\u003e methods provided by\n the system library, and provides an \u003ccode\u003e\u003ca\u003eLHandle\u003c/a\u003e\u003c/code\u003e (Labeled Handle) type\n that can be manipulated from within the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e Monad.  Two lower\n level functions, \u003ccode\u003e\u003ca\u003emkDir\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emkLHandle\u003c/a\u003e\u003c/code\u003e may be useful for\n functions that wish to open file names that are not relative to\n \u003ccode\u003e\u003ca\u003erootDir\u003c/a\u003e\u003c/code\u003e.  (There is no notion of changeable current working\n directory in the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e Monad.)\n\u003c/p\u003e\u003cp\u003eThe actual storage of labeled files is handled by the \u003ca\u003eLIO.FS\u003c/a\u003e\n module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "Handle",
           "package": "lio-eci11",
@@ -828,6 +895,7 @@
         "index": {
           "description": "This module abstracts the basic FileHandle methods provided by the system library and provides an LHandle Labeled Handle type that can be manipulated from within the LIO Monad Two lower level functions mkDir and mkLHandle may be useful for functions that wish to open file names that are not relative to rootDir There is no notion of changeable current working directory in the LIO Monad The actual storage of labeled files is handled by the LIO.FS module",
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "Handle",
           "package": "lio-eci11",
@@ -841,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "CloseOps",
           "package": "lio-eci11",
@@ -849,6 +918,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "CloseOps",
           "package": "lio-eci11",
@@ -862,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "DirectoryOps",
           "package": "lio-eci11",
@@ -870,6 +941,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "DirectoryOps",
           "package": "lio-eci11",
@@ -883,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "HandleOps",
           "package": "lio-eci11",
@@ -891,6 +964,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "HandleOps",
           "package": "lio-eci11",
@@ -905,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eSystem.IO.openFile\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "IOMode",
           "package": "lio-eci11",
@@ -913,6 +988,7 @@
         "index": {
           "description": "See System.IO.openFile",
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "IOMode",
           "package": "lio-eci11",
@@ -926,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "LHandle",
           "package": "lio-eci11",
@@ -934,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "LHandle",
           "package": "lio-eci11",
@@ -947,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "AppendMode",
           "package": "lio-eci11",
@@ -955,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "AppendMode",
           "package": "lio-eci11",
@@ -968,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "ReadMode",
           "package": "lio-eci11",
@@ -976,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "ReadMode",
           "package": "lio-eci11",
@@ -989,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "ReadWriteMode",
           "package": "lio-eci11",
@@ -997,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "ReadWriteMode",
           "package": "lio-eci11",
@@ -1010,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "WriteMode",
           "package": "lio-eci11",
@@ -1018,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "WriteMode",
           "package": "lio-eci11",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "createDirectory",
           "package": "lio-eci11",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "createDirectory",
           "normalized": "FilePath-\u003ea()",
@@ -1055,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "createDirectoryP",
           "package": "lio-eci11",
@@ -1064,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "createDirectoryP",
           "normalized": "a-\u003eFilePath-\u003eLIO b c()",
@@ -1079,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "createDirectoryPR",
           "package": "lio-eci11",
@@ -1088,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "createDirectoryPR",
           "normalized": "a-\u003eName b-\u003eFilePath-\u003eLIO b c()",
@@ -1103,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "getDirectoryContents",
           "package": "lio-eci11",
@@ -1112,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "getDirectoryContents",
           "normalized": "FilePath-\u003ea[FilePath]",
@@ -1127,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "hClose",
           "package": "lio-eci11",
@@ -1136,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "hClose",
           "normalized": "a-\u003eb()",
@@ -1151,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "hFlush",
           "package": "lio-eci11",
@@ -1160,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "hFlush",
           "normalized": "a-\u003eb()",
@@ -1175,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "hGet",
           "package": "lio-eci11",
@@ -1184,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "hGet",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -1199,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "hGetContents",
           "package": "lio-eci11",
@@ -1208,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "hGetContents",
           "normalized": "a-\u003eb c",
@@ -1223,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "hGetNonBlocking",
           "package": "lio-eci11",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "hGetNonBlocking",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -1247,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "hPut",
           "package": "lio-eci11",
@@ -1256,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "hPut",
           "normalized": "a-\u003eb-\u003ec()",
@@ -1271,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "hPutStrLn",
           "package": "lio-eci11",
@@ -1280,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "hPutStrLn",
           "normalized": "a-\u003eb-\u003ec()",
@@ -1295,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "hlabelOf",
           "package": "lio-eci11",
@@ -1304,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "hlabelOf",
           "normalized": "LHandle a b-\u003ea",
@@ -1319,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "mkDir",
           "package": "lio-eci11",
@@ -1327,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "mkDir",
           "normalized": "a-\u003eb-\u003eName b-\u003eFilePath-\u003eLIO b c()",
@@ -1342,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "mkLHandle",
           "package": "lio-eci11",
@@ -1350,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "mkLHandle",
           "normalized": "a-\u003eb-\u003eName b-\u003eFilePath-\u003eIOMode-\u003eLIO b c(LHandle b Handle)",
@@ -1365,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "openFile",
           "package": "lio-eci11",
@@ -1374,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "openFile",
           "normalized": "FilePath-\u003eIOMode-\u003ea b",
@@ -1389,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "openFileP",
           "package": "lio-eci11",
@@ -1398,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "openFileP",
           "normalized": "a-\u003eFilePath-\u003eIOMode-\u003eLIO b c(LHandle b Handle)",
@@ -1413,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "openFilePR",
           "package": "lio-eci11",
@@ -1422,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "openFilePR",
           "normalized": "a-\u003eName b-\u003eFilePath-\u003eIOMode-\u003eLIO b c(LHandle b Handle)",
@@ -1437,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "readFile",
           "package": "lio-eci11",
@@ -1446,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "readFile",
           "normalized": "FilePath-\u003ea b",
@@ -1461,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "writeFile",
           "package": "lio-eci11",
@@ -1470,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "writeFile",
           "normalized": "FilePath-\u003ea-\u003eb()",
@@ -1485,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "writeFileP",
           "package": "lio-eci11",
@@ -1494,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "writeFileP",
           "normalized": "a-\u003eFilePath-\u003eb-\u003eLIO c d()",
@@ -1509,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.Handle",
           "name": "writeFilePR",
           "package": "lio-eci11",
@@ -1518,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "LIO Handle",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.Handle",
           "name": "writeFilePR",
           "normalized": "a-\u003eName b-\u003eFilePath-\u003ec-\u003eLIO b d()",
@@ -1533,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HiStar",
           "package": "lio-eci11",
@@ -1541,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HiStar",
           "package": "lio-eci11",
@@ -1554,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HS",
           "package": "lio-eci11",
@@ -1562,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HS",
           "package": "lio-eci11",
@@ -1575,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSCategory",
           "package": "lio-eci11",
@@ -1583,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSCategory",
           "package": "lio-eci11",
@@ -1596,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSLabel",
           "package": "lio-eci11",
@@ -1604,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSLabel",
           "package": "lio-eci11",
@@ -1617,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSLevel",
           "package": "lio-eci11",
@@ -1625,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSLevel",
           "package": "lio-eci11",
@@ -1638,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSPrivs",
           "package": "lio-eci11",
@@ -1646,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSPrivs",
           "package": "lio-eci11",
@@ -1659,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSState",
           "package": "lio-eci11",
@@ -1667,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSState",
           "package": "lio-eci11",
@@ -1680,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSC",
           "package": "lio-eci11",
@@ -1689,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSC",
           "package": "lio-eci11",
@@ -1702,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSL",
           "package": "lio-eci11",
@@ -1711,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSL",
           "package": "lio-eci11",
@@ -1724,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSPrivs",
           "package": "lio-eci11",
@@ -1733,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSPrivs",
           "normalized": "HSPrivs[HSCategory]",
@@ -1748,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "HSState",
           "package": "lio-eci11",
@@ -1757,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "HSState",
           "package": "lio-eci11",
@@ -1770,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "L0",
           "package": "lio-eci11",
@@ -1779,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "L0",
           "package": "lio-eci11",
@@ -1791,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "L1",
           "package": "lio-eci11",
@@ -1800,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "L1",
           "package": "lio-eci11",
@@ -1812,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "L2",
           "package": "lio-eci11",
@@ -1821,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "L2",
           "package": "lio-eci11",
@@ -1833,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "L3",
           "package": "lio-eci11",
@@ -1842,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "L3",
           "package": "lio-eci11",
@@ -1854,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "assocs2",
           "package": "lio-eci11",
@@ -1863,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "assocs2",
           "normalized": "Map a b-\u003eMap a b-\u003e[(a,Maybe b,Maybe b)]",
@@ -1877,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "combineLabel",
           "package": "lio-eci11",
@@ -1886,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "combineLabel",
           "normalized": "(HSLevel-\u003eHSLevel-\u003eHSLevel)-\u003eHSLabel-\u003eHSLabel-\u003eHSLabel",
@@ -1901,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "evalHS",
           "package": "lio-eci11",
@@ -1910,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "evalHS",
           "normalized": "HS a-\u003eIO(a,HSLabel)",
@@ -1925,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "lapply",
           "package": "lio-eci11",
@@ -1934,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "lapply",
           "normalized": "HSLabel-\u003eHSCategory-\u003eHSLevel",
@@ -1948,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "lupdate",
           "package": "lio-eci11",
@@ -1957,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "lupdate",
           "normalized": "HSLabel-\u003eHSCategory-\u003eHSLevel-\u003eHSLabel",
@@ -1971,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "lupdates",
           "package": "lio-eci11",
@@ -1980,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "lupdates",
           "normalized": "HSLabel-\u003e[HSCategory]-\u003eHSLevel-\u003eHSLabel",
@@ -1994,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "mergeWith",
           "package": "lio-eci11",
@@ -2003,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "mergeWith",
           "normalized": "(Maybe a-\u003eMaybe b-\u003eMaybe c)-\u003eMap d a-\u003eMap d b-\u003eMap d c",
@@ -2018,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "newcat",
           "package": "lio-eci11",
@@ -2027,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "newcat",
           "normalized": "HSLevel-\u003eHS(HSPrivs,HSLabel)",
@@ -2041,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "nextCat",
           "package": "lio-eci11",
@@ -2050,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "nextCat",
           "package": "lio-eci11",
@@ -2063,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.HiStar",
           "name": "withDefaults",
           "package": "lio-eci11",
@@ -2072,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "LIO HiStar",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.HiStar",
           "name": "withDefaults",
           "normalized": "a-\u003ea-\u003e(a-\u003ea-\u003eb)-\u003eMaybe a-\u003eMaybe a-\u003eb",
@@ -2088,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the main module to be included by code using the Labeled\n   IO (LIO) library.  The core of the library is documented in the\n   \u003ca\u003eLIO.TCB\u003c/a\u003e module.  Note, however, that unprivileged code must not\n   be allowed to import \u003ca\u003eLIO.TCB\u003c/a\u003e--instead, a module \u003ca\u003eLIO.Base\u003c/a\u003e\n   exports just the safe symbols from \u003ca\u003eLIO.TCB\u003c/a\u003e.  This module,\n   \u003ca\u003eLIO.LIO\u003c/a\u003e, re-exports \u003ca\u003eLIO.Base\u003c/a\u003e as well as a few other handy\n   modules.  For many modules it should be the only import necessary.\n\u003c/p\u003e\u003cp\u003eCertain symbols in the LIO library supersede variants in the\n   standard Haskell libraries.  Thus, depending on the modules\n   imported and functions used, you may wish to import LIO with\n   commands like these:\n\u003c/p\u003e\u003cpre\u003e\n    import Prelude hiding (\u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e)\n    import Control.Exception hiding (\u003ccode\u003ethrowIO\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003ehandle\u003c/code\u003e, \u003ccode\u003eonException\u003c/code\u003e\n                                    , \u003ccode\u003ebracket\u003c/code\u003e, \u003ccode\u003eblock\u003c/code\u003e, \u003ccode\u003eunblock\u003c/code\u003e)\n    import LIO.LIO\n\u003c/pre\u003e\u003cp\u003eThe LIO variants of the system functions hidden in the above import\n   commands are designed to work in both the IO and LIO monads, making\n   it easier to have both types of code in the same module.\n\u003c/p\u003e\u003cp\u003eWarning:  For security, at a minimum untrusted code must not be\n        allowed to do any of the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Import \u003ca\u003eLIO.TCB\u003c/a\u003e,\n\u003c/li\u003e\u003cli\u003e Use any symbols with names ending \u003ccode\u003e...TCB\u003c/code\u003e,\n\u003c/li\u003e\u003cli\u003e Use the \u003ccode\u003eforeign\u003c/code\u003e keyword,\n\u003c/li\u003e\u003cli\u003e Use functions such as \u003ccode\u003eunsafePerformIO\u003c/code\u003e, \u003ccode\u003eunsafeInterleaveIO\u003c/code\u003e,\n            \u003ccode\u003einlinePerformIO\u003c/code\u003e,\n\u003c/li\u003e\u003cli\u003e Use language extensions such as Generalized Newtype\n            Deriving and Stand-alone Deriving to extend LIO types\n            (such as by deriving an instance of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e for \u003ccode\u003eLref\u003c/code\u003e,\n            or deriving an instance of the \u003ccode\u003e\u003ccode\u003eMonadTrans\u003c/code\u003e\u003c/code\u003e class for\n            \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e, which would allow untrusted code to bypass all\n            security with \u003ccode\u003elift\u003c/code\u003e),\n\u003c/li\u003e\u003cli\u003e Manually define \u003ccode\u003etypeOf\u003c/code\u003e methods (as this would cause the\n            supposedly safe \u003ccode\u003ecast\u003c/code\u003e method to make usafe casts); automatically\n            deriving \u003ccode\u003eTypeable\u003c/code\u003e should be safe.\n\u003c/li\u003e\u003cli\u003e Define new \u003ccode\u003eIx\u003c/code\u003e instances (which could produce out of bounds\n            array references).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIn general, pragmas and imports should be highly scrutinized.  For\n        example, most of the \u003ca\u003eForeign\u003c/a\u003e class of modules are probably\n        dangerous. With GHC 7.2, we will use the SafeHaskell extension \n        to enforce these.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIO",
           "name": "LIO",
           "package": "lio-eci11",
@@ -2097,6 +2276,7 @@
         "index": {
           "description": "This is the main module to be included by code using the Labeled IO LIO library The core of the library is documented in the LIO.TCB module Note however that unprivileged code must not be allowed to import LIO.TCB instead module LIO.Base exports just the safe symbols from LIO.TCB This module LIO.LIO re-exports LIO.Base as well as few other handy modules For many modules it should be the only import necessary Certain symbols in the LIO library supersede variants in the standard Haskell libraries Thus depending on the modules imported and functions used you may wish to import LIO with commands like these import Prelude hiding readFile writeFile catch import Control.Exception hiding throwIO catch handle onException bracket block unblock import LIO.LIO The LIO variants of the system functions hidden in the above import commands are designed to work in both the IO and LIO monads making it easier to have both types of code in the same module Warning For security at minimum untrusted code must not be allowed to do any of the following Import LIO.TCB Use any symbols with names ending TCB Use the foreign keyword Use functions such as unsafePerformIO unsafeInterleaveIO inlinePerformIO Use language extensions such as Generalized Newtype Deriving and Stand-alone Deriving to extend LIO types such as by deriving an instance of Show for Lref or deriving an instance of the MonadTrans class for LIO which would allow untrusted code to bypass all security with lift Manually define typeOf methods as this would cause the supposedly safe cast method to make usafe casts automatically deriving Typeable should be safe Define new Ix instances which could produce out of bounds array references In general pragmas and imports should be highly scrutinized For example most of the Foreign class of modules are probably dangerous With GHC we will use the SafeHaskell extension to enforce these",
           "hierarchy": "LIO LIO",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIO",
           "name": "LIO",
           "package": "lio-eci11",
@@ -2111,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements labeled IORefs.  The interface is analogous\n to \u003ca\u003eData.IORef\u003c/a\u003e, but the operations take place in the LIO monad.\n Moreover, reading the LIORef calls taint, while writing it calls\n wguard.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "LIORef",
           "package": "lio-eci11",
@@ -2120,6 +2301,7 @@
         "index": {
           "description": "This module implements labeled IORefs The interface is analogous to Data.IORef but the operations take place in the LIO monad Moreover reading the LIORef calls taint while writing it calls wguard",
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "LIORef",
           "package": "lio-eci11",
@@ -2133,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "LIORef",
           "package": "lio-eci11",
@@ -2141,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "LIORef",
           "package": "lio-eci11",
@@ -2154,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "atomicModifyLIORef",
           "package": "lio-eci11",
@@ -2163,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "atomicModifyLIORef",
           "normalized": "LIORef a b-\u003e(b-\u003e(b,c))-\u003eLIO a d c",
@@ -2178,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "atomicModifyLIORefP",
           "package": "lio-eci11",
@@ -2187,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "atomicModifyLIORefP",
           "normalized": "a-\u003eLIORef b c-\u003e(c-\u003e(c,d))-\u003eLIO b e d",
@@ -2202,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "atomicModifyLIORefTCB",
           "package": "lio-eci11",
@@ -2211,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "atomicModifyLIORefTCB",
           "normalized": "LIORef a b-\u003e(b-\u003e(b,c))-\u003eLIO a d c",
@@ -2226,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "labelOfLIORef",
           "package": "lio-eci11",
@@ -2235,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "labelOfLIORef",
           "normalized": "LIORef a b-\u003ea",
@@ -2250,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "newLIORef",
           "package": "lio-eci11",
@@ -2259,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "newLIORef",
           "normalized": "a-\u003eb-\u003eLIO a c(LIORef a b)",
@@ -2274,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "newLIORefP",
           "package": "lio-eci11",
@@ -2283,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "newLIORefP",
           "normalized": "a-\u003eb-\u003ec-\u003eLIO b d(LIORef b c)",
@@ -2298,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "newLIORefTCB",
           "package": "lio-eci11",
@@ -2307,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "newLIORefTCB",
           "normalized": "a-\u003eb-\u003eLIO a c(LIORef a b)",
@@ -2322,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "readLIORef",
           "package": "lio-eci11",
@@ -2331,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "readLIORef",
           "normalized": "LIORef a b-\u003eLIO a c b",
@@ -2346,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "readLIORefP",
           "package": "lio-eci11",
@@ -2355,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "readLIORefP",
           "normalized": "a-\u003eLIORef b c-\u003eLIO b d c",
@@ -2370,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "readLIORefTCB",
           "package": "lio-eci11",
@@ -2379,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "readLIORefTCB",
           "normalized": "LIORef a b-\u003eLIO a c b",
@@ -2394,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "writeLIORef",
           "package": "lio-eci11",
@@ -2403,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "writeLIORef",
           "normalized": "LIORef a b-\u003eb-\u003eLIO a c()",
@@ -2418,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "writeLIORefP",
           "package": "lio-eci11",
@@ -2427,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "writeLIORefP",
           "normalized": "a-\u003eLIORef b c-\u003ec-\u003eLIO b d()",
@@ -2442,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.LIORef",
           "name": "writeLIORefTCB",
           "package": "lio-eci11",
@@ -2451,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "LIO LIORef",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.LIORef",
           "name": "writeLIORefTCB",
           "normalized": "LIORef a b-\u003eb-\u003eLIO a c()",
@@ -2467,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module generalizes \u003ccode\u003ethrow\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e (from\n \u003ca\u003eControl.Exception\u003c/a\u003e) to methods that can be defined on multiple\n Monads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "MonadCatch",
           "package": "lio-eci11",
@@ -2476,6 +2687,7 @@
         "index": {
           "description": "This module generalizes throw and catch from Control.Exception to methods that can be defined on multiple Monads",
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "MonadCatch",
           "package": "lio-eci11",
@@ -2490,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMonadCatch\u003c/code\u003e is the class used to generalize the standard IO\n \u003ccode\u003ecatch\u003c/code\u003e and \u003ccode\u003ethrowIO\u003c/code\u003e functions to methods that can be defined in\n multiple monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "MonadCatch",
           "package": "lio-eci11",
@@ -2499,6 +2712,7 @@
         "index": {
           "description": "MonadCatch is the class used to generalize the standard IO catch and throwIO functions to methods that can be defined in multiple monads",
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "MonadCatch",
           "package": "lio-eci11",
@@ -2512,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "block",
           "package": "lio-eci11",
@@ -2521,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "block",
           "normalized": "a b-\u003ea b",
@@ -2535,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "bracket",
           "package": "lio-eci11",
@@ -2544,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "bracket",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -2558,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "catch",
           "package": "lio-eci11",
@@ -2567,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "catch",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -2581,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "genericBracket",
           "package": "lio-eci11",
@@ -2589,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "genericBracket",
           "normalized": "(a b-\u003ea c-\u003ea b)-\u003ea d-\u003e(d-\u003ea c)-\u003e(d-\u003ea b)-\u003ea b",
@@ -2604,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "handle",
           "package": "lio-eci11",
@@ -2613,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "handle",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -2627,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "onException",
           "package": "lio-eci11",
@@ -2636,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "onException",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -2651,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "throwIO",
           "package": "lio-eci11",
@@ -2660,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "throwIO",
           "normalized": "a-\u003eb c",
@@ -2675,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadCatch",
           "name": "unblock",
           "package": "lio-eci11",
@@ -2684,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadCatch",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadCatch",
           "name": "unblock",
           "normalized": "a b-\u003ea b",
@@ -2699,6 +2929,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a function \u003ccode\u003e\u003ca\u003eliftLIO\u003c/a\u003e\u003c/code\u003e for executing \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e\n computations from transformed versions of the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad.  There\n is also a method \u003ccode\u003eliftIO\u003c/code\u003e, which is a synonym for \u003ccode\u003e\u003ca\u003eliftLIO\u003c/a\u003e\u003c/code\u003e, to\n help with porting code that expects to run in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadLIO",
           "name": "MonadLIO",
           "package": "lio-eci11",
@@ -2708,6 +2939,7 @@
         "index": {
           "description": "This module provides function liftLIO for executing LIO computations from transformed versions of the LIO monad There is also method liftIO which is synonym for liftLIO to help with porting code that expects to run in the IO monad",
           "hierarchy": "LIO MonadLIO",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadLIO",
           "name": "MonadLIO",
           "package": "lio-eci11",
@@ -2721,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadLIO",
           "name": "MonadLIO",
           "package": "lio-eci11",
@@ -2729,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadLIO",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadLIO",
           "name": "MonadLIO",
           "package": "lio-eci11",
@@ -2742,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadLIO",
           "name": "liftIO",
           "package": "lio-eci11",
@@ -2751,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadLIO",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadLIO",
           "name": "liftIO",
           "normalized": "LIO a b c-\u003ed c",
@@ -2766,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.MonadLIO",
           "name": "liftLIO",
           "package": "lio-eci11",
@@ -2775,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "LIO MonadLIO",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.MonadLIO",
           "name": "liftLIO",
           "normalized": "LIO a b c-\u003ed c",
@@ -2791,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the core of the Labeled IO library for\n information flow control in Haskell.  It provides a monad, \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e,\n that is intended to be used as a replacement for the IO monad in\n untrusted code.  The idea is for untrusted code to provide a\n computation in the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad, which trusted code can then safely\n execute through the \u003ccode\u003e\u003ca\u003eevalLIO\u003c/a\u003e\u003c/code\u003e function.  (Though usually a wrapper\n function is employed depending on the type of labels used by an\n application.  For example, with \u003ca\u003eLIO.DCLabel\u003c/a\u003e, you would use\n \u003ccode\u003eevalDC\u003c/code\u003e to execute an untrusted computation, and with \u003ca\u003eLIO.HiStar\u003c/a\u003e\n labels, the function is \u003ccode\u003eevalHS\u003c/code\u003e.  There are also abbreviations for\n the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad type of a particular label--for instance \u003ccode\u003eDC\u003c/code\u003e or\n \u003ccode\u003eHS\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eA data structure \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e (labeled value) protects access to pure\n values.  Without the appropriate privileges, one cannot produce a\n pure value that depends on a secret \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e, or conversely produce a\n high-integrity \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e based on pure data.  The function \u003ccode\u003e\u003ca\u003etoLabeled\u003c/a\u003e\u003c/code\u003e\n allows one to seal off the results of an LIO computation inside an\n \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e without tainting the current flow of execution.  \u003ccode\u003e\u003ca\u003eunlabel\u003c/a\u003e\u003c/code\u003e\n conversely allows one to use the value stored within a \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAny code that imports this module is part of the\n \u003cem\u003eTrusted Computing Base\u003c/em\u003e (TCB) of the system.  Hence, untrusted\n code must be prevented from importing this module.  The exported\n symbols ending ...\u003ccode\u003eTCB\u003c/code\u003e can be used to violate label protections\n even from within pure code or the LIO Monad.  A safe subset of\n these symbols is exported by the \u003ca\u003eLIO.Base\u003c/a\u003e module, which is how\n untrusted code should access the core label functionality.\n (\u003ca\u003eLIO.Base\u003c/a\u003e is also re-exported by \u003ca\u003eLIO.LIO\u003c/a\u003e, the main gateway to\n this library.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "TCB",
           "package": "lio-eci11",
@@ -2800,6 +3039,7 @@
         "index": {
           "description": "This module implements the core of the Labeled IO library for information flow control in Haskell It provides monad LIO that is intended to be used as replacement for the IO monad in untrusted code The idea is for untrusted code to provide computation in the LIO monad which trusted code can then safely execute through the evalLIO function Though usually wrapper function is employed depending on the type of labels used by an application For example with LIO.DCLabel you would use evalDC to execute an untrusted computation and with LIO.HiStar labels the function is evalHS There are also abbreviations for the LIO monad type of particular label--for instance DC or HS data structure Labeled labeled value protects access to pure values Without the appropriate privileges one cannot produce pure value that depends on secret Labeled or conversely produce high-integrity Labeled based on pure data The function toLabeled allows one to seal off the results of an LIO computation inside an Labeled without tainting the current flow of execution unlabel conversely allows one to use the value stored within Labeled Any code that imports this module is part of the Trusted Computing Base TCB of the system Hence untrusted code must be prevented from importing this module The exported symbols ending TCB can be used to violate label protections even from within pure code or the LIO Monad safe subset of these symbols is exported by the LIO.Base module which is how untrusted code should access the core label functionality LIO.Base is also re-exported by LIO.LIO the main gateway to this library",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "TCB",
           "package": "lio-eci11",
@@ -2813,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LIO",
           "package": "lio-eci11",
@@ -2821,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LIO",
           "package": "lio-eci11",
@@ -2834,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LIOstate",
           "package": "lio-eci11",
@@ -2842,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LIOstate",
           "package": "lio-eci11",
@@ -2855,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "Label",
           "package": "lio-eci11",
@@ -2863,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "Label",
           "package": "lio-eci11",
@@ -2876,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LabelFault",
           "package": "lio-eci11",
@@ -2884,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LabelFault",
           "package": "lio-eci11",
@@ -2898,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLabeled\u003c/code\u003e is a type representing labeled data.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "Labeled",
           "package": "lio-eci11",
@@ -2907,6 +3156,7 @@
         "index": {
           "description": "Labeled is type representing labeled data",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "Labeled",
           "package": "lio-eci11",
@@ -2920,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "MintTCB",
           "package": "lio-eci11",
@@ -2928,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "MintTCB",
           "package": "lio-eci11",
@@ -2942,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMonadCatch\u003c/code\u003e is the class used to generalize the standard IO\n \u003ccode\u003ecatch\u003c/code\u003e and \u003ccode\u003ethrowIO\u003c/code\u003e functions to methods that can be defined in\n multiple monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "MonadCatch",
           "package": "lio-eci11",
@@ -2951,6 +3204,7 @@
         "index": {
           "description": "MonadCatch is the class used to generalize the standard IO catch and throwIO functions to methods that can be defined in multiple monads",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "MonadCatch",
           "package": "lio-eci11",
@@ -2965,6 +3219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003e instance that works for all \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003es and confers\n no downgrading privileges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "NoPrivs",
           "package": "lio-eci11",
@@ -2974,6 +3229,7 @@
         "index": {
           "description": "generic Priv instance that works for all Label and confers no downgrading privileges",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "NoPrivs",
           "package": "lio-eci11",
@@ -2988,6 +3244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor privileged code that needs to catch all exceptions in some\n cleanup function.  Note that for the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad, these methods do\n \u003cem\u003enot\u003c/em\u003e call \u003ccode\u003e\u003ca\u003erethrowTCB\u003c/a\u003e\u003c/code\u003e to label the exceptions.  It is assumed\n that you will use \u003ccode\u003e\u003ca\u003ertioTCB\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eioTCB\u003c/a\u003e\u003c/code\u003e for IO within the\n computation arguments of these methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "OnExceptionTCB",
           "package": "lio-eci11",
@@ -2997,6 +3254,7 @@
         "index": {
           "description": "For privileged code that needs to catch all exceptions in some cleanup function Note that for the LIO monad these methods do not call rethrowTCB to label the exceptions It is assumed that you will use rtioTCB instead of ioTCB for IO within the computation arguments of these methods",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "OnExceptionTCB",
           "package": "lio-eci11",
@@ -3010,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "POrd",
           "package": "lio-eci11",
@@ -3018,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "POrd",
           "package": "lio-eci11",
@@ -3031,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "POrdering",
           "package": "lio-eci11",
@@ -3039,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "POrdering",
           "package": "lio-eci11",
@@ -3052,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "Priv",
           "package": "lio-eci11",
@@ -3060,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "Priv",
           "package": "lio-eci11",
@@ -3074,6 +3338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePrivTCB\u003c/code\u003e is a method-less class whose only purpose is to be\n unavailable to unprivileged code.  Since \u003ccode\u003e(PrivTCB t) =\u003e\u003c/code\u003e is in the\n context of class \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003e and unprivileged code cannot create new\n instances of the \u003ccode\u003ePrivTCB\u003c/code\u003e class, this ensures unprivileged code\n cannot create new instances of the \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003e class either, even though\n the symbol \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003e is exported by \u003ca\u003eLIO.Base\u003c/a\u003e and visible to\n untrusted code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "PrivTCB",
           "package": "lio-eci11",
@@ -3083,6 +3348,7 @@
         "index": {
           "description": "PrivTCB is method-less class whose only purpose is to be unavailable to unprivileged code Since PrivTCB is in the context of class Priv and unprivileged code cannot create new instances of the PrivTCB class this ensures unprivileged code cannot create new instances of the Priv class either even though the symbol Priv is exported by LIO.Base and visible to untrusted code",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "PrivTCB",
           "package": "lio-eci11",
@@ -3097,6 +3363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is useful to have the dual of \u003ccode\u003e\u003ca\u003eShowTCB\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eReadTCB\u003c/code\u003e, that allows\n for the reading of \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003es that were written using \u003ccode\u003e\u003ca\u003eshowTCB\u003c/a\u003e\u003c/code\u003e. Only\n \u003ccode\u003ereadTCB\u003c/code\u003e (corresponding to \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e) and \u003ccode\u003ereadsPrecTCB\u003c/code\u003e (corresponding\n to \u003ccode\u003e\u003ca\u003ereadsPrec\u003c/a\u003e\u003c/code\u003e) are implemented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "ReadTCB",
           "package": "lio-eci11",
@@ -3106,6 +3373,7 @@
         "index": {
           "description": "It is useful to have the dual of ShowTCB ReadTCB that allows for the reading of Labeled that were written using showTCB Only readTCB corresponding to read and readsPrecTCB corresponding to readsPrec are implemented",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "ReadTCB",
           "package": "lio-eci11",
@@ -3120,6 +3388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt would be a security issue to make certain objects a member of\n the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class, but nonetheless it is useful to be able to\n examine such objects from within the debugger.  The \u003ccode\u003e\u003ca\u003eshowTCB\u003c/a\u003e\u003c/code\u003e\n method can be used to examine such objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "ShowTCB",
           "package": "lio-eci11",
@@ -3129,6 +3398,7 @@
         "index": {
           "description": "It would be security issue to make certain objects member of the Show class but nonetheless it is useful to be able to examine such objects from within the debugger The showTCB method can be used to examine such objects",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "ShowTCB",
           "package": "lio-eci11",
@@ -3142,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LIOstate",
           "package": "lio-eci11",
@@ -3151,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LIOstate",
           "package": "lio-eci11",
@@ -3165,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel would exceed clearance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LerrClearance",
           "package": "lio-eci11",
@@ -3175,6 +3448,7 @@
         "index": {
           "description": "Label would exceed clearance",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LerrClearance",
           "package": "lio-eci11",
@@ -3189,6 +3463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent label too high\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LerrHigh",
           "package": "lio-eci11",
@@ -3199,6 +3474,7 @@
         "index": {
           "description": "Current label too high",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LerrHigh",
           "package": "lio-eci11",
@@ -3213,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LerrInval",
           "package": "lio-eci11",
@@ -3223,6 +3500,7 @@
         "index": {
           "description": "Invalid request",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LerrInval",
           "package": "lio-eci11",
@@ -3237,6 +3515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequested label too low\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LerrLow",
           "package": "lio-eci11",
@@ -3247,6 +3526,7 @@
         "index": {
           "description": "Requested label too low",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LerrLow",
           "package": "lio-eci11",
@@ -3261,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsufficient privileges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "LerrPriv",
           "package": "lio-eci11",
@@ -3271,6 +3552,7 @@
         "index": {
           "description": "Insufficient privileges",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "LerrPriv",
           "package": "lio-eci11",
@@ -3284,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "NoPrivs",
           "package": "lio-eci11",
@@ -3293,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "NoPrivs",
           "package": "lio-eci11",
@@ -3307,6 +3591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqual\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "PEQ",
           "package": "lio-eci11",
@@ -3317,6 +3602,7 @@
         "index": {
           "description": "Equal",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "PEQ",
           "package": "lio-eci11",
@@ -3331,6 +3617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "PGT",
           "package": "lio-eci11",
@@ -3341,6 +3628,7 @@
         "index": {
           "description": "Greater than",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "PGT",
           "package": "lio-eci11",
@@ -3355,6 +3643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "PLT",
           "package": "lio-eci11",
@@ -3365,6 +3654,7 @@
         "index": {
           "description": "Less than",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "PLT",
           "package": "lio-eci11",
@@ -3379,6 +3669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncomparable (neither less than nor greater than)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "PNE",
           "package": "lio-eci11",
@@ -3389,6 +3680,7 @@
         "index": {
           "description": "Incomparable neither less than nor greater than",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "PNE",
           "package": "lio-eci11",
@@ -3403,6 +3695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsures the label argument is between the current IO label and\n current IO clearance.  Use this function in code that allocates\n objects--untrusted code shouldn't be able to create an object\n labeled \u003ccode\u003el\u003c/code\u003e unless \u003ccode\u003eaguard l\u003c/code\u003e does not throw an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "aguard",
           "package": "lio-eci11",
@@ -3413,6 +3706,7 @@
         "index": {
           "description": "Ensures the label argument is between the current IO label and current IO clearance Use this function in code that allocates objects--untrusted code shouldn be able to create an object labeled unless aguard does not throw an exception",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "aguard",
           "normalized": "a-\u003eLIO a b()",
@@ -3428,6 +3722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eaguardP\u003c/a\u003e\u003c/code\u003e, but takes privilege argument to be more permissive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "aguardP",
           "package": "lio-eci11",
@@ -3438,6 +3733,7 @@
         "index": {
           "description": "Like aguardP but takes privilege argument to be more permissive",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "aguardP",
           "normalized": "a-\u003eb-\u003eLIO b c()",
@@ -3452,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "block",
           "package": "lio-eci11",
@@ -3461,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "block",
           "normalized": "a b-\u003ea b",
@@ -3475,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "bracket",
           "package": "lio-eci11",
@@ -3484,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "bracket",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -3499,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike standard \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e, but with privileges to downgrade\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "bracketP",
           "package": "lio-eci11",
@@ -3509,6 +3810,7 @@
         "index": {
           "description": "Like standard bracket but with privileges to downgrade exception",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "bracketP",
           "normalized": "a-\u003eLIO b c d-\u003e(d-\u003eLIO b c e)-\u003e(d-\u003eLIO b c f)-\u003eLIO b c f",
@@ -3523,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "bracketTCB",
           "package": "lio-eci11",
@@ -3532,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "bracketTCB",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -3547,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "catch",
           "package": "lio-eci11",
@@ -3556,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "catch",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -3571,6 +3877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatches an exception, so long as the label at the point where the\n exception was thrown can flow to the label at which catchP is\n invoked, modulo the privileges specified.  Note that the handler\n receives an an extra first argument (before the exception), which\n is the label when the exception was thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "catchP",
           "package": "lio-eci11",
@@ -3580,6 +3887,7 @@
         "index": {
           "description": "Catches an exception so long as the label at the point where the exception was thrown can flow to the label at which catchP is invoked modulo the privileges specified Note that the handler receives an an extra first argument before the exception which is the label when the exception was thrown",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "catchP",
           "normalized": "a-\u003eLIO b c d-\u003e(b-\u003ee-\u003eLIO b c d)-\u003eLIO b c d",
@@ -3595,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a computation that would raise the current label, but\n discards the result so as to keep the label the same.  Used when\n one only cares about the side effects of a computation.  For\n instance, if \u003ccode\u003elog_handle\u003c/code\u003e is an \u003ccode\u003eLHandle\u003c/code\u003e with a high label, one\n can execute\n\u003c/p\u003e\u003cpre\u003e\n   discard ltop $ \u003ccode\u003ehputStrLn\u003c/code\u003e log_handle \"Log message\"\n\u003c/pre\u003e\u003cp\u003eto create a log message without affecting the current label.  (Of\n course, if \u003ccode\u003elog_handle\u003c/code\u003e is closed and this throws an exception, it\n may not be possible to catch the exception within the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad\n without sufficient privileges--see \u003ccode\u003e\u003ca\u003ecatchP\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "discard",
           "package": "lio-eci11",
@@ -3605,6 +3914,7 @@
         "index": {
           "description": "Executes computation that would raise the current label but discards the result so as to keep the label the same Used when one only cares about the side effects of computation For instance if log handle is an LHandle with high label one can execute discard ltop hputStrLn log handle Log message to create log message without affecting the current label Of course if log handle is closed and this throws an exception it may not be possible to catch the exception within the LIO monad without sufficient privileges--see catchP",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "discard",
           "normalized": "a-\u003eLIO a b c-\u003eLIO a b()",
@@ -3620,6 +3930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation that will execute a particular \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e\n computation.  Because untrusted code cannot execute \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n computations, this function should only be useful within trusted\n code.  No harm is done from exposing the \u003ccode\u003eevalLIO\u003c/code\u003e symbol to\n untrusted code.  (In general, untrusted code is free to produce\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations--it just can't execute them without access to\n \u003ccode\u003e\u003ca\u003eioTCB\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "evalLIO",
           "package": "lio-eci11",
@@ -3629,6 +3940,7 @@
         "index": {
           "description": "Produces an IO computation that will execute particular LIO computation Because untrusted code cannot execute IO computations this function should only be useful within trusted code No harm is done from exposing the evalLIO symbol to untrusted code In general untrusted code is free to produce IO computations--it just can execute them without access to ioTCB",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "evalLIO",
           "normalized": "LIO a b c-\u003eb-\u003eIO(c,a)",
@@ -3645,6 +3957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate in LIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "evaluate",
           "package": "lio-eci11",
@@ -3655,6 +3968,7 @@
         "index": {
           "description": "Evaluate in LIO",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "evaluate",
           "normalized": "a-\u003eLIO b c a",
@@ -3670,6 +3984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current value of the thread's clearance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "getClearance",
           "package": "lio-eci11",
@@ -3680,6 +3995,7 @@
         "index": {
           "description": "Returns the current value of the thread clearance",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "getClearance",
           "package": "lio-eci11",
@@ -3694,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current value of the thread's label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "getLabel",
           "package": "lio-eci11",
@@ -3704,6 +4021,7 @@
         "index": {
           "description": "Returns the current value of the thread label",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "getLabel",
           "package": "lio-eci11",
@@ -3718,6 +4036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns label-specific state of the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad.  This is the\n data specified as the second argument of \u003ccode\u003e\u003ca\u003eevalLIO\u003c/a\u003e\u003c/code\u003e, whose type is\n \u003ccode\u003es\u003c/code\u003e in the monad \u003ccode\u003eLIO l s\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "getTCB",
           "package": "lio-eci11",
@@ -3728,6 +4047,7 @@
         "index": {
           "description": "Returns label-specific state of the LIO monad This is the data specified as the second argument of evalLIO whose type is in the monad LIO",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "getTCB",
           "package": "lio-eci11",
@@ -3742,6 +4062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egreatest lower bound (meet) of two labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "glb",
           "package": "lio-eci11",
@@ -3752,6 +4073,7 @@
         "index": {
           "description": "greatest lower bound meet of two labels",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "glb",
           "normalized": "a-\u003ea-\u003ea",
@@ -3766,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "handle",
           "package": "lio-eci11",
@@ -3775,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "handle",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -3790,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003ecatchP\u003c/a\u003e\u003c/code\u003e with arguments swapped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "handleP",
           "package": "lio-eci11",
@@ -3799,6 +4124,7 @@
         "index": {
           "description": "Version of catchP with arguments swapped",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "handleP",
           "normalized": "a-\u003e(b-\u003ec-\u003eLIO b d e)-\u003eLIO b d e-\u003eLIO b d e",
@@ -3814,6 +4140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation into the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad.  Note that\n exceptions thrown within the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation cannot directly be\n caught within the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e computation.  Thus, if you are not inside a\n \u003ccode\u003e\u003ca\u003erethrowTCB\u003c/a\u003e\u003c/code\u003e block, you will generally want to use \u003ccode\u003e\u003ca\u003ertioTCB\u003c/a\u003e\u003c/code\u003e\n instead of \u003ccode\u003e\u003ca\u003eioTCB\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "ioTCB",
           "package": "lio-eci11",
@@ -3824,6 +4151,7 @@
         "index": {
           "description": "Lifts an IO computation into the LIO monad Note that exceptions thrown within the IO computation cannot directly be caught within the LIO computation Thus if you are not inside rethrowTCB block you will generally want to use rtioTCB instead of ioTCB",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "ioTCB",
           "normalized": "IO a-\u003eLIO b c a",
@@ -3840,6 +4168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to construct an \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e from a label and pure value.  If\n the current label is \u003ccode\u003elcurrent\u003c/code\u003e and the current clearance is\n \u003ccode\u003eccurrent\u003c/code\u003e, then the label \u003ccode\u003el\u003c/code\u003e specified must satisfy\n \u003ccode\u003elcurrent `\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e` l && l `\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e` ccurrent\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "label",
           "package": "lio-eci11",
@@ -3850,6 +4179,7 @@
         "index": {
           "description": "Function to construct an Labeled from label and pure value If the current label is lcurrent and the current clearance is ccurrent then the label specified must satisfy lcurrent leq leq ccurrent",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "label",
           "normalized": "a-\u003eb-\u003eLIO a c(Labeled a b)",
@@ -3865,6 +4195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns label of a \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "labelOf",
           "package": "lio-eci11",
@@ -3875,6 +4206,7 @@
         "index": {
           "description": "Returns label of Label type",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "labelOf",
           "normalized": "Labeled a b-\u003ea",
@@ -3891,6 +4223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e using privilege to allow the \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e's label\n to be below the current label.  If the current label is \u003ccode\u003elcurrent\u003c/code\u003e\n and the current clearance is \u003ccode\u003eccurrent\u003c/code\u003e, then the privilege \u003ccode\u003ep\u003c/code\u003e and\n label \u003ccode\u003el\u003c/code\u003e specified must satisfy\n \u003ccode\u003e(leqp p lcurrent l) && l `\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e` ccurrent\u003c/code\u003e.\n Note that privilege is not used to bypass the clearance.  You must\n use \u003ccode\u003e\u003ca\u003elowerClrP\u003c/a\u003e\u003c/code\u003e to raise the clearance first if you wish to\n create an \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e at a higher label than the current clearance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "labelP",
           "package": "lio-eci11",
@@ -3901,6 +4234,7 @@
         "index": {
           "description": "Constructs an Labeled using privilege to allow the Labeled label to be below the current label If the current label is lcurrent and the current clearance is ccurrent then the privilege and label specified must satisfy leqp lcurrent leq ccurrent Note that privilege is not used to bypass the clearance You must use lowerClrP to raise the clearance first if you wish to create an Labeled at higher label than the current clearance",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "labelP",
           "normalized": "a-\u003eb-\u003ec-\u003eLIO b d(Labeled b c)",
@@ -3915,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "labelState",
           "package": "lio-eci11",
@@ -3924,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "labelState",
           "package": "lio-eci11",
@@ -3937,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "labelTCB",
           "package": "lio-eci11",
@@ -3946,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "labelTCB",
           "normalized": "a-\u003eb-\u003eLabeled a b",
@@ -3962,6 +4300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebottom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "lbot",
           "package": "lio-eci11",
@@ -3972,6 +4311,7 @@
         "index": {
           "description": "bottom",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "lbot",
           "package": "lio-eci11",
@@ -3984,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "leq",
           "package": "lio-eci11",
@@ -3993,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "leq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4008,6 +4350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eleqp p l1 l2\u003c/code\u003e means that privileges \u003ccode\u003ep\u003c/code\u003e are sufficient to\n downgrade data from \u003ccode\u003el1\u003c/code\u003e to \u003ccode\u003el2\u003c/code\u003e.  Note that \u003ccode\u003e\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e l1 l2\u003c/code\u003e\n implies \u003ccode\u003e\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e p l1 l2\u003c/code\u003e for all \u003ccode\u003ep\u003c/code\u003e, but for some labels and\n privileges, \u003ccode\u003eleqp\u003c/code\u003e will hold even where \u003ccode\u003e\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e does not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "leqp",
           "package": "lio-eci11",
@@ -4018,6 +4361,7 @@
         "index": {
           "description": "leqp l1 l2 means that privileges are sufficient to downgrade data from l1 to l2 Note that leq l1 l2 implies leq l1 l2 for all but for some labels and privileges leqp will hold even where leq does not",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "leqp",
           "normalized": "a-\u003eb-\u003eb-\u003eBool",
@@ -4032,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "lioC",
           "package": "lio-eci11",
@@ -4041,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "lioC",
           "package": "lio-eci11",
@@ -4053,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "lioL",
           "package": "lio-eci11",
@@ -4062,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "lioL",
           "package": "lio-eci11",
@@ -4075,6 +4423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoughly speaking, the function\n\u003c/p\u003e\u003cpre\u003e result = lostar p label goal\n\u003c/pre\u003e\u003cp\u003ecomputes how close one can come to downgrading data labeled\n \u003ccode\u003elabel\u003c/code\u003e to \u003ccode\u003egoal\u003c/code\u003e given privileges \u003ccode\u003ep\u003c/code\u003e.  When \u003ccode\u003ep == \u003ccode\u003e\u003ca\u003eNoPrivs\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e,\n \u003ccode\u003eresult == \u003ccode\u003e\u003ca\u003elub\u003c/a\u003e\u003c/code\u003e label goal\u003c/code\u003e.  If \u003ccode\u003ep\u003c/code\u003e contains all possible\n privileges, then \u003ccode\u003eresult == goal\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMore specifically, \u003ccode\u003eresult\u003c/code\u003e is the greatest lower bound of the\n set of all labels \u003ccode\u003er\u003c/code\u003e satisfying:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e goal r\u003c/code\u003e, and\n\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eleqp\u003c/a\u003e\u003c/code\u003e p label r\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eOperationally, \u003ccode\u003elostar\u003c/code\u003e captures the minimum change required to\n the current label when viewing data labeled \u003ccode\u003elabel\u003c/code\u003e.  A common\n pattern is to use the result of \u003ccode\u003e\u003ca\u003egetLabel\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003egoal\u003c/code\u003e (i.e.,\n the goal is to use privileges \u003ccode\u003ep\u003c/code\u003e to avoid changing the label\n at all), and then compute \u003ccode\u003eresult\u003c/code\u003e based on the \u003ccode\u003elabel\u003c/code\u003e of data\n the code is about to observe.  For example, \u003ccode\u003e\u003ca\u003etaintP\u003c/a\u003e\u003c/code\u003e could be\n implemented as:\n\u003c/p\u003e\u003cpre\u003e\n    taintP p l = do lcurrent \u003c- \u003ccode\u003e\u003ca\u003egetLabel\u003c/a\u003e\u003c/code\u003e\n                    \u003ccode\u003e\u003ca\u003etaint\u003c/a\u003e\u003c/code\u003e (lostar p l lcurrent)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "lostar",
           "package": "lio-eci11",
@@ -4085,6 +4434,7 @@
         "index": {
           "description": "Roughly speaking the function result lostar label goal computes how close one can come to downgrading data labeled label to goal given privileges When NoPrivs result lub label goal If contains all possible privileges then result goal More specifically result is the greatest lower bound of the set of all labels satisfying leq goal and leqp label Operationally lostar captures the minimum change required to the current label when viewing data labeled label common pattern is to use the result of getLabel as goal i.e the goal is to use privileges to avoid changing the label at all and then compute result based on the label of data the code is about to observe For example taintP could be implemented as taintP do lcurrent getLabel taint lostar lcurrent",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "lostar",
           "package": "lio-eci11",
@@ -4098,6 +4448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce the current clearance.  One cannot raise the current label\n or create object with labels higher than the current clearance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "lowerClr",
           "package": "lio-eci11",
@@ -4108,6 +4459,7 @@
         "index": {
           "description": "Reduce the current clearance One cannot raise the current label or create object with labels higher than the current clearance",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "lowerClr",
           "normalized": "a-\u003eLIO a b()",
@@ -4124,6 +4476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise the current clearance (undoing the effects of \u003ccode\u003e\u003ca\u003elowerClr\u003c/a\u003e\u003c/code\u003e).\n This requires privileges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "lowerClrP",
           "package": "lio-eci11",
@@ -4134,6 +4487,7 @@
         "index": {
           "description": "Raise the current clearance undoing the effects of lowerClr This requires privileges",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "lowerClrP",
           "normalized": "a-\u003eb-\u003eLIO b c()",
@@ -4150,6 +4504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current clearance to anything, with no security check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "lowerClrTCB",
           "package": "lio-eci11",
@@ -4160,6 +4515,7 @@
         "index": {
           "description": "Set the current clearance to anything with no security check",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "lowerClrTCB",
           "normalized": "a-\u003eLIO a b()",
@@ -4176,6 +4532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "ltop",
           "package": "lio-eci11",
@@ -4186,6 +4543,7 @@
         "index": {
           "description": "top",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "ltop",
           "package": "lio-eci11",
@@ -4199,6 +4557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleast upper bound (join) of two labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "lub",
           "package": "lio-eci11",
@@ -4209,6 +4568,7 @@
         "index": {
           "description": "least upper bound join of two labels",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "lub",
           "normalized": "a-\u003ea-\u003ea",
@@ -4224,6 +4584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that mints new objects (such as instances of\n \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003e) in a way that only privileged code should be allowed to\n do.  Because the MintTCB method is only available to\n priviledged code, other modules imported by unpriviledged code\n can define instances of mintTCB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "mintTCB",
           "package": "lio-eci11",
@@ -4234,6 +4595,7 @@
         "index": {
           "description": "function that mints new objects such as instances of Priv in way that only privileged code should be allowed to do Because the MintTCB method is only available to priviledged code other modules imported by unpriviledged code can define instances of mintTCB",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "mintTCB",
           "normalized": "a-\u003eb",
@@ -4250,6 +4612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a fresh state to pass \u003ccode\u003e\u003ca\u003erunLIO\u003c/a\u003e\u003c/code\u003e when invoking it for the\n first time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "newstate",
           "package": "lio-eci11",
@@ -4260,6 +4623,7 @@
         "index": {
           "description": "Generate fresh state to pass runLIO when invoking it for the first time",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "newstate",
           "normalized": "a-\u003eLIOstate b a",
@@ -4274,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "o2po",
           "package": "lio-eci11",
@@ -4283,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "o2po",
           "normalized": "Ordering-\u003ePOrdering",
@@ -4297,6 +4663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "onException",
           "package": "lio-eci11",
@@ -4306,6 +4673,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "onException",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -4322,6 +4690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eonException\u003c/a\u003e\u003c/code\u003e cannot run its handler if the label was raised in\n the computation that threw the exception.  This variant allows\n privileges to be supplied, so as to catch exceptions thrown with a\n raised label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "onExceptionP",
           "package": "lio-eci11",
@@ -4331,6 +4700,7 @@
         "index": {
           "description": "onException cannot run its handler if the label was raised in the computation that threw the exception This variant allows privileges to be supplied so as to catch exceptions thrown with raised label",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "onExceptionP",
           "normalized": "a-\u003eLIO b c d-\u003eLIO b c e-\u003eLIO b c d",
@@ -4346,6 +4716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "onExceptionTCB",
           "package": "lio-eci11",
@@ -4355,6 +4726,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "onExceptionTCB",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -4370,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "pcompare",
           "package": "lio-eci11",
@@ -4379,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "pcompare",
           "normalized": "a-\u003ea-\u003ePOrdering",
@@ -4394,6 +4768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the label-specific state of the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad.  See \u003ccode\u003e\u003ca\u003egetTCB\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "putTCB",
           "package": "lio-eci11",
@@ -4404,6 +4779,7 @@
         "index": {
           "description": "Sets the label-specific state of the LIO monad See getTCB",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "putTCB",
           "normalized": "a-\u003eLIO b a()",
@@ -4419,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "readTCB",
           "package": "lio-eci11",
@@ -4428,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "readTCB",
           "normalized": "String-\u003ea",
@@ -4443,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "readsPrecTCB",
           "package": "lio-eci11",
@@ -4452,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "readsPrecTCB",
           "normalized": "Int-\u003eReadS a",
@@ -4468,6 +4848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivileged code that does IO operations may cause exceptions that\n should be caught by untrusted code in the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad.  Such\n operations should be wrapped by \u003ccode\u003erethrowTCB\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003ertioTCB\u003c/a\u003e\u003c/code\u003e, which\n uses \u003ccode\u003erethrowTCB\u003c/code\u003e) to ensure the exception is labeled.  Note that\n it is very important that the computation executed inside\n \u003ccode\u003erethrowTCB\u003c/code\u003e not in any way change the label, as otherwise\n \u003ccode\u003erethrowTCB\u003c/code\u003e would put the wrong label on the exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "rethrowTCB",
           "package": "lio-eci11",
@@ -4478,6 +4859,7 @@
         "index": {
           "description": "Privileged code that does IO operations may cause exceptions that should be caught by untrusted code in the LIO monad Such operations should be wrapped by rethrowTCB or rtioTCB which uses rethrowTCB to ensure the exception is labeled Note that it is very important that the computation executed inside rethrowTCB not in any way change the label as otherwise rethrowTCB would put the wrong label on the exception",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "rethrowTCB",
           "normalized": "LIO a b c-\u003eLIO a b c",
@@ -4494,6 +4876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation into the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad.  If the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n computation throws an exception, it labels the exception with the\n current label so that the exception can be caught with \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003ecatchP\u003c/a\u003e\u003c/code\u003e.  This function's name stands for \"re-throw io\", because\n the functionality is a combination of \u003ccode\u003e\u003ca\u003erethrowTCB\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eioTCB\u003c/a\u003e\u003c/code\u003e.\n Effectively\n\u003c/p\u003e\u003cpre\u003e\n   rtioTCB = \u003ccode\u003e\u003ca\u003erethrowTCB\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eioTCB\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "rtioTCB",
           "package": "lio-eci11",
@@ -4504,6 +4887,7 @@
         "index": {
           "description": "Lifts an IO computation into the LIO monad If the IO computation throws an exception it labels the exception with the current label so that the exception can be caught with catch or catchP This function name stands for re-throw io because the functionality is combination of rethrowTCB and ioTCB Effectively rtioTCB rethrowTCB ioTCB",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "rtioTCB",
           "normalized": "IO a-\u003eLIO b c a",
@@ -4520,6 +4904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an LIO action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "runLIO",
           "package": "lio-eci11",
@@ -4530,6 +4915,7 @@
         "index": {
           "description": "Execute an LIO action",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "runLIO",
           "normalized": "LIO a b c-\u003eLIOstate a b-\u003eIO(c,LIOstate a b)",
@@ -4546,6 +4932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current label is \u003ccode\u003eoldLabel\u003c/code\u003e and the current clearance is\n \u003ccode\u003eclearance\u003c/code\u003e, this function allows code to raise the label to any\n value \u003ccode\u003enewLabel\u003c/code\u003e such that\n \u003ccode\u003eoldLabel `\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e` newLabel && newLabel `\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e` clearance\u003c/code\u003e.\n Note that there is no \u003ccode\u003esetLabel\u003c/code\u003e variant without the \u003ccode\u003e...P\u003c/code\u003e because\n the \u003ccode\u003e\u003ca\u003etaint\u003c/a\u003e\u003c/code\u003e function provides essentially the same functionality\n that \u003ccode\u003esetLabel\u003c/code\u003e would.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "setLabelP",
           "package": "lio-eci11",
@@ -4556,6 +4943,7 @@
         "index": {
           "description": "If the current label is oldLabel and the current clearance is clearance this function allows code to raise the label to any value newLabel such that oldLabel leq newLabel newLabel leq clearance Note that there is no setLabel variant without the because the taint function provides essentially the same functionality that setLabel would",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "setLabelP",
           "normalized": "a-\u003eb-\u003eLIO b c()",
@@ -4572,6 +4960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current label to anything, with no security check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "setLabelTCB",
           "package": "lio-eci11",
@@ -4582,6 +4971,7 @@
         "index": {
           "description": "Set the current label to anything with no security check",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "setLabelTCB",
           "normalized": "a-\u003eLIO a b()",
@@ -4597,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "showTCB",
           "package": "lio-eci11",
@@ -4606,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "showTCB",
           "normalized": "a-\u003eString",
@@ -4622,6 +5014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003etaint l\u003c/code\u003e in trusted code before observing an object labeled\n \u003ccode\u003el\u003c/code\u003e.  This will raise the current label to a value \u003ccode\u003el'\u003c/code\u003e such that\n \u003ccode\u003el `\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e` l'\u003c/code\u003e, or throw \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLerrClearance\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if \u003ccode\u003el'\u003c/code\u003e would have to be\n higher than the current clearance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "taint",
           "package": "lio-eci11",
@@ -4632,6 +5025,7 @@
         "index": {
           "description": "Use taint in trusted code before observing an object labeled This will raise the current label to value such that leq or throw LerrClearance if would have to be higher than the current clearance",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "taint",
           "normalized": "a-\u003eLIO a b()",
@@ -4647,6 +5041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaises the label of a \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003elub\u003c/a\u003e\u003c/code\u003e of it's current label\n and the value supplied.  The label supplied must be less than the\n current clarance, though the resulting label may not be if the\n \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e is already above the current thread's clearance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "taintLabeled",
           "package": "lio-eci11",
@@ -4657,6 +5052,7 @@
         "index": {
           "description": "Raises the label of Labeled to the lub of it current label and the value supplied The label supplied must be less than the current clarance though the resulting label may not be if the Labeled is already above the current thread clearance",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "taintLabeled",
           "normalized": "a-\u003eLabeled a b-\u003eLIO a c(Labeled a b)",
@@ -4673,6 +5069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etaint\u003c/a\u003e\u003c/code\u003e, but use privileges to reduce the amount of taint\n required.  Note that unlike \u003ccode\u003e\u003ca\u003esetLabelP\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003etaintP\u003c/code\u003e will never lower\n the current label.  It simply uses privileges to avoid raising the\n label as high as \u003ccode\u003e\u003ca\u003etaint\u003c/a\u003e\u003c/code\u003e would raise it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "taintP",
           "package": "lio-eci11",
@@ -4682,6 +5079,7 @@
         "index": {
           "description": "Like taint but use privileges to reduce the amount of taint required Note that unlike setLabelP taintP will never lower the current label It simply uses privileges to avoid raising the label as high as taint would raise it",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "taintP",
           "normalized": "a-\u003eb-\u003eLIO b c()",
@@ -4696,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "throwIO",
           "package": "lio-eci11",
@@ -4705,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "throwIO",
           "normalized": "a-\u003eb c",
@@ -4721,6 +5121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etoLabeled\u003c/code\u003e is the dual of \u003ccode\u003eunlabel\u003c/code\u003e.  It allows one to invoke\n computations that would raise the current label, but without\n actually raising the label.  Instead, the result of the computation\n is packaged into a \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e with a supplied label.\n Thus, to get at the result of the\n computation one will have to call \u003ccode\u003e\u003ca\u003eunlabel\u003c/a\u003e\u003c/code\u003e and raise the label, but\n this can be postponed, or done inside some other call to \u003ccode\u003e\u003ca\u003etoLabeled\u003c/a\u003e\u003c/code\u003e.\n This suggestst that the provided label must be above the current\n label and below the current clearance.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003etoLabeled\u003c/code\u003e always restores the clearance to whatever it was\n when it was invoked, regardless of what occured in the computation\n producing the value of the \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e. \n This higlights one main use of clearance: to ensure that a \u003ccode\u003eLabeled\u003c/code\u003e\n computed does not exceed a particular label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "toLabeled",
           "package": "lio-eci11",
@@ -4731,6 +5132,7 @@
         "index": {
           "description": "toLabeled is the dual of unlabel It allows one to invoke computations that would raise the current label but without actually raising the label Instead the result of the computation is packaged into Labeled with supplied label Thus to get at the result of the computation one will have to call unlabel and raise the label but this can be postponed or done inside some other call to toLabeled This suggestst that the provided label must be above the current label and below the current clearance Note that toLabeled always restores the clearance to whatever it was when it was invoked regardless of what occured in the computation producing the value of the Labeled This higlights one main use of clearance to ensure that Labeled computed does not exceed particular label",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "toLabeled",
           "normalized": "a-\u003eLIO a b c-\u003eLIO a b(Labeled a c)",
@@ -4746,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "toLabeledP",
           "package": "lio-eci11",
@@ -4755,6 +5158,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "toLabeledP",
           "normalized": "a-\u003eb-\u003eLIO b c d-\u003eLIO b c(Labeled b d)",
@@ -4770,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "unblock",
           "package": "lio-eci11",
@@ -4779,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "unblock",
           "normalized": "a b-\u003ea b",
@@ -4794,6 +5200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWithin the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad, this function takes an \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e and returns\n the value.  Thus, in the \u003ccode\u003e\u003ca\u003eLIO\u003c/a\u003e\u003c/code\u003e monad one can say:\n\u003c/p\u003e\u003cpre\u003e x \u003c- unlabel (xv :: Labeled SomeLabelType Int)\n\u003c/pre\u003e\u003cp\u003eAnd now it is possible to use the value of \u003ccode\u003ex\u003c/code\u003e, which is the pure\n value of what was stored in \u003ccode\u003exv\u003c/code\u003e.  Of course, \u003ccode\u003eunlabel\u003c/code\u003e also raises\n the current label.  If raising the label would exceed the current\n clearance, then \u003ccode\u003eunlabel\u003c/code\u003e throws \u003ccode\u003e\u003ca\u003eLerrClearance\u003c/a\u003e\u003c/code\u003e.\n However, you can use \u003ccode\u003e\u003ca\u003elabelOf\u003c/a\u003e\u003c/code\u003e to check if \u003ccode\u003e\u003ca\u003eunlabel\u003c/a\u003e\u003c/code\u003e will suceed without\n throwing an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "unlabel",
           "package": "lio-eci11",
@@ -4804,6 +5211,7 @@
         "index": {
           "description": "Within the LIO monad this function takes an Labeled and returns the value Thus in the LIO monad one can say unlabel xv Labeled SomeLabelType Int And now it is possible to use the value of which is the pure value of what was stored in xv Of course unlabel also raises the current label If raising the label would exceed the current clearance then unlabel throws LerrClearance However you can use labelOf to check if unlabel will suceed without throwing an exception",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "unlabel",
           "normalized": "Labeled a b-\u003eLIO a c b",
@@ -4819,6 +5227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the value of an \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e just like \u003ccode\u003e\u003ca\u003eunlabel\u003c/a\u003e\u003c/code\u003e, but takes a\n privilege argument to minimize the amount the current label must be\n raised.  Will still throw \u003ccode\u003e\u003ca\u003eLerrClearance\u003c/a\u003e\u003c/code\u003e under the same\n circumstances as \u003ccode\u003e\u003ca\u003eunlabel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "unlabelP",
           "package": "lio-eci11",
@@ -4829,6 +5238,7 @@
         "index": {
           "description": "Extracts the value of an Labeled just like unlabel but takes privilege argument to minimize the amount the current label must be raised Will still throw LerrClearance under the same circumstances as unlabel",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "unlabelP",
           "normalized": "a-\u003eLabeled b c-\u003eLIO b d c",
@@ -4844,6 +5254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the value from an \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e, discarding the label and any\n protection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "unlabelTCB",
           "package": "lio-eci11",
@@ -4854,6 +5265,7 @@
         "index": {
           "description": "Extracts the value from an Labeled discarding the label and any protection",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "unlabelTCB",
           "normalized": "Labeled a b-\u003eb",
@@ -4870,6 +5282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003ewguard l\u003c/code\u003e in trusted code before modifying an object labeled\n \u003ccode\u003el\u003c/code\u003e.  If \u003ccode\u003el'\u003c/code\u003e is the current label, then this function ensures that\n \u003ccode\u003el' `\u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e` l\u003c/code\u003e before doing the same thing as \u003ccode\u003e\u003ccode\u003e\u003ca\u003etaint\u003c/a\u003e\u003c/code\u003e l\u003c/code\u003e.  Throws\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLerrHigh\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if the current label \u003ccode\u003el'\u003c/code\u003e is too high.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "wguard",
           "package": "lio-eci11",
@@ -4880,6 +5293,7 @@
         "index": {
           "description": "Use wguard in trusted code before modifying an object labeled If is the current label then this function ensures that leq before doing the same thing as taint Throws LerrHigh if the current label is too high",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "wguard",
           "normalized": "a-\u003eLIO a b()",
@@ -4895,6 +5309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewguard\u003c/a\u003e\u003c/code\u003e, but takes privilege argument to be more permissive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "wguardP",
           "package": "lio-eci11",
@@ -4905,6 +5320,7 @@
         "index": {
           "description": "Like wguard but takes privilege argument to be more permissive",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "wguardP",
           "normalized": "a-\u003eb-\u003eLIO b c()",
@@ -4920,6 +5336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowers the clearance of a computation, then restores the\n clearance to its previous value.  Useful to wrap around a\n computation if you want to be sure you can catch exceptions thrown\n by it.  Also useful to wrap around \u003ccode\u003e\u003ca\u003etoLabeled\u003c/a\u003e\u003c/code\u003e to ensure that the\n computation does not access data exceeding a particular label.  If\n \u003ccode\u003ewithClearance\u003c/code\u003e is given a label that can't flow to the current\n clearance, then the clearance is lowered to the greatest lower\n bound of the label supplied and the current clearance.\n\u003c/p\u003e\u003cp\u003eNote that if the computation inside \u003ccode\u003ewithClearance\u003c/code\u003e acquires any\n \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003es, it may still be able to raise its clearance above the\n supplied argument using \u003ccode\u003e\u003ca\u003elowerClrP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TCB",
           "name": "withClearance",
           "package": "lio-eci11",
@@ -4930,6 +5347,7 @@
         "index": {
           "description": "Lowers the clearance of computation then restores the clearance to its previous value Useful to wrap around computation if you want to be sure you can catch exceptions thrown by it Also useful to wrap around toLabeled to ensure that the computation does not access data exceeding particular label If withClearance is given label that can flow to the current clearance then the clearance is lowered to the greatest lower bound of the label supplied and the current clearance Note that if the computation inside withClearance acquires any Priv it may still be able to raise its clearance above the supplied argument using lowerClrP",
           "hierarchy": "LIO TCB",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TCB",
           "name": "withClearance",
           "normalized": "a-\u003eLIO a b c-\u003eLIO a b c",
@@ -4946,6 +5364,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module creates new files and directories with unique names.\n Its functionality is similary to C's mkstemp() and mkdtemp()\n functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "TmpFile",
           "package": "lio-eci11",
@@ -4955,6 +5374,7 @@
         "index": {
           "description": "This module creates new files and directories with unique names Its functionality is similary to mkstemp and mkdtemp functions",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "TmpFile",
           "package": "lio-eci11",
@@ -4969,6 +5389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlushes a Handle to disk with fsync()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "hSync",
           "package": "lio-eci11",
@@ -4979,6 +5400,7 @@
         "index": {
           "description": "Flushes Handle to disk with fsync",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "hSync",
           "normalized": "Handle-\u003eIO()",
@@ -4995,6 +5417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a function on temporary file names until the function\n does not throw AlreadyExistsError.  For example, \u003ccode\u003e\u003ca\u003emkTmpFile\u003c/a\u003e\u003c/code\u003e is\n defined as:\n\u003c/p\u003e\u003cpre\u003e mkTmpFile m d s = mkTmp (openFileExclusive m) d s\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "mkTmp",
           "package": "lio-eci11",
@@ -5004,6 +5427,7 @@
         "index": {
           "description": "Executes function on temporary file names until the function does not throw AlreadyExistsError For example mkTmpFile is defined as mkTmpFile mkTmp openFileExclusive",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "mkTmp",
           "normalized": "(FilePath-\u003eIO a)-\u003eFilePath-\u003eString-\u003eIO(a,FilePath)",
@@ -5020,6 +5444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new subdirectory with uniqe file name.  Returns the\n pathname of the new directory as the second element of a pair, just\n for consistency with the interface to \u003ccode\u003e\u003ca\u003emkTmpFile\u003c/a\u003e\u003c/code\u003e.  See\n \u003ccode\u003e\u003ca\u003emkTmpDir'\u003c/a\u003e\u003c/code\u003e if you don't want this behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "mkTmpDir",
           "package": "lio-eci11",
@@ -5029,6 +5454,7 @@
         "index": {
           "description": "Creates new subdirectory with uniqe file name Returns the pathname of the new directory as the second element of pair just for consistency with the interface to mkTmpFile See mkTmpDir if you don want this behavior",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "mkTmpDir",
           "normalized": "FilePath-\u003eString-\u003eIO((),FilePath)",
@@ -5045,6 +5471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emkTmpDir\u003c/a\u003e\u003c/code\u003e, but just returns the pathname of the new directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "mkTmpDir'",
           "package": "lio-eci11",
@@ -5054,6 +5481,7 @@
         "index": {
           "description": "Like mkTmpDir but just returns the pathname of the new directory",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "mkTmpDir'",
           "normalized": "FilePath-\u003eString-\u003eIO FilePath",
@@ -5070,6 +5498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new file with a unique name in a particular directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "mkTmpFile",
           "package": "lio-eci11",
@@ -5079,6 +5508,7 @@
         "index": {
           "description": "Creates new file with unique name in particular directory",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "mkTmpFile",
           "normalized": "IOMode-\u003eFilePath-\u003eString-\u003eIO(Handle,FilePath)",
@@ -5095,6 +5525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the file name returned by \u003ccode\u003e\u003ca\u003etmpName\u003c/a\u003e\u003c/code\u003e already exists,\n \u003ccode\u003enextTmpName\u003c/code\u003e modifies the file name to generate a new one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "nextTmpName",
           "package": "lio-eci11",
@@ -5105,6 +5536,7 @@
         "index": {
           "description": "When the file name returned by tmpName already exists nextTmpName modifies the file name to generate new one",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "nextTmpName",
           "normalized": "String-\u003eString",
@@ -5121,6 +5553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a file in exclusive mode, throwing AlreadyExistsError if\n the file name is already in use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "openFileExclusive",
           "package": "lio-eci11",
@@ -5131,6 +5564,7 @@
         "index": {
           "description": "Opens file in exclusive mode throwing AlreadyExistsError if the file name is already in use",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "openFileExclusive",
           "normalized": "IOMode-\u003eFilePath-\u003eIO Handle",
@@ -5147,6 +5581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an Integer into an array of bytes, in little-endian\n order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "serializele",
           "package": "lio-eci11",
@@ -5156,6 +5591,7 @@
         "index": {
           "description": "Serialize an Integer into an array of bytes in little-endian order",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "serializele",
           "normalized": "Int-\u003eInteger-\u003e[Word]",
@@ -5171,6 +5607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a temorary file name, based on the value of the current\n time of day clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "tmpName",
           "package": "lio-eci11",
@@ -5181,6 +5618,7 @@
         "index": {
           "description": "Return temorary file name based on the value of the current time of day clock",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "tmpName",
           "package": "lio-eci11",
@@ -5195,6 +5633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an array of bytes containing an Integer serialized in\n little-endian order, and return the Integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:30 UTC 2014",
           "module": "LIO.TmpFile",
           "name": "unserializele",
           "package": "lio-eci11",
@@ -5205,6 +5644,7 @@
         "index": {
           "description": "Take an array of bytes containing an Integer serialized in little-endian order and return the Integer",
           "hierarchy": "LIO TmpFile",
+          "indexed": "2014-03-11T19:10:30",
           "module": "LIO.TmpFile",
           "name": "unserializele",
           "normalized": "[Word]-\u003eInteger",

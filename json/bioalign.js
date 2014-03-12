@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bioalign"
+        "phrase": "bioalign",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures and helper functions for calculating alignments\n\u003c/p\u003e\u003cp\u003eThere are two ways to view an alignment: either as a list of edits\n   (i.e., insertions, deletions, or substitutions), or as a set of sequences\n   with inserted gaps.\n\u003c/p\u003e\u003cp\u003eThe edit list approach is perhaps more restrictive model but doesn't generalize\n   to multiple alignments.\n\u003c/p\u003e\u003cp\u003eThe gap approach is more general, and probably more commonly used by other software\n   (see e.g. the ACE file format).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "AlignData",
           "package": "bioalign",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data structures and helper functions for calculating alignments There are two ways to view an alignment either as list of edits i.e insertions deletions or substitutions or as set of sequences with inserted gaps The edit list approach is perhaps more restrictive model but doesn generalize to multiple alignments The gap approach is more general and probably more commonly used by other software see e.g the ACE file format",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "AlignData",
           "package": "bioalign",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Alignment",
           "package": "bioalign",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Alignment",
           "package": "bioalign",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sequence element type, used in alignments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Chr",
           "package": "bioalign",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The sequence element type used in alignments",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Chr",
           "package": "bioalign",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Edit is either the insertion, the deletion,\n   or the replacement of a character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Edit",
           "package": "bioalign",
@@ -95,6 +102,7 @@
         "index": {
           "description": "An Edit is either the insertion the deletion or the replacement of character",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Edit",
           "package": "bioalign",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alignment is a sequence of edits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "EditList",
           "package": "bioalign",
@@ -118,6 +127,7 @@
         "index": {
           "description": "An alignment is sequence of edits",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "EditList",
           "package": "bioalign",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Gaps",
           "package": "bioalign",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Gaps",
           "package": "bioalign",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Selector consists of a zero element, and a funcition\n   that chooses a possible Edit operation, and generates an updated result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Selector",
           "package": "bioalign",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Selector consists of zero element and funcition that chooses possible Edit operation and generates an updated result",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Selector",
           "package": "bioalign",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Sequence",
           "package": "bioalign",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Sequence",
           "package": "bioalign",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution matrix gives scores for replacing a character with another.\n   Typically, it will be symmetric.  It is type-tagged with the alphabet - Nuc or Amino.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "SubstMx",
           "package": "bioalign",
@@ -206,6 +223,7 @@
         "index": {
           "description": "substitution matrix gives scores for replacing character with another Typically it will be symmetric It is type-tagged with the alphabet Nuc or Amino",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "SubstMx",
           "package": "bioalign",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Del",
           "package": "bioalign",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Del",
           "package": "bioalign",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Ins",
           "package": "bioalign",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Ins",
           "package": "bioalign",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Repl",
           "package": "bioalign",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Repl",
           "package": "bioalign",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Seq",
           "package": "bioalign",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "Seq",
           "package": "bioalign",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a set of columns containing scores\n   This represents the columns of the alignment matrix, but will only require linear space\n   for score calculation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "columns",
           "package": "bioalign",
@@ -318,6 +345,7 @@
         "index": {
           "description": "Calculate set of columns containing scores This represents the columns of the alignment matrix but will only require linear space for score calculation",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "columns",
           "normalized": "Selector a-\u003ea-\u003eSequence-\u003eSequence-\u003e[[a]]",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an Edit based on SubstMx and gap penalty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "eval",
           "package": "bioalign",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Evaluate an Edit based on SubstMx and gap penalty",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "eval",
           "normalized": "SubstMx a b-\u003eb-\u003eEdit-\u003eb",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGaps are coded as \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003es, this function removes them, and returns\n   the sequence along with the list of gap positions.\n   note that gaps are positioned relative to the *gapped* sequence \n   (contrast to stmassembler/Cluster.hs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "extractGaps",
           "package": "bioalign",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Gaps are coded as this function removes them and returns the sequence along with the list of gap positions note that gaps are positioned relative to the gapped sequence contrast to stmassembler Cluster.hs",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "extractGaps",
           "normalized": "SeqData-\u003e(SeqData,Gaps)",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "insertGaps",
           "package": "bioalign",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "insertGaps",
           "normalized": "Char-\u003e(SeqData,Gaps)-\u003eSeqData",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the Edit is a Repl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "isRepl",
           "package": "bioalign",
@@ -418,6 +453,7 @@
         "index": {
           "description": "True if the Edit is Repl",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "isRepl",
           "normalized": "Edit-\u003eBool",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "on",
           "package": "bioalign",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "on",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a-\u003ea)-\u003ea-\u003ea-\u003ea",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "showalign",
           "package": "bioalign",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "showalign",
           "normalized": "EditList-\u003e[Char]",
@@ -480,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturn an alignment into sequences with \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e representing gaps\n (for checking, filtering out the \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e characters should return\n the original sequences, provided \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e isn't part of the sequence\n alphabet)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:11 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "toStrings",
           "package": "bioalign",
@@ -490,6 +531,7 @@
         "index": {
           "description": "turn an alignment into sequences with representing gaps for checking filtering out the characters should return the original sequences provided isn part of the sequence alphabet",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:11",
           "module": "Bio.Alignment.AlignData",
           "name": "toStrings",
           "normalized": "EditList-\u003e(String,String)",

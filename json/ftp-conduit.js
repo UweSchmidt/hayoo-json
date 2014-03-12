@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ftp-conduit"
+        "phrase": "ftp-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains code to use files on a remote FTP server as\n   Sources and Sinks.\n\u003c/p\u003e\u003cp\u003eUsing these functions looks like this:\n\u003c/p\u003e\u003cpre\u003e let uri = fromJust $ parseURI \"ftp://ftp.kernel.org/pub/README_ABOUT_BZ2_FILES\"\n runResourceT $ createSource uri $$ consume\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:03 UTC 2014",
           "module": "Network.FTP.Conduit",
           "name": "Conduit",
           "package": "ftp-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains code to use files on remote FTP server as Sources and Sinks Using these functions looks like this let uri fromJust parseURI ftp ftp.kernel.org pub README ABOUT BZ2 FILES runResourceT createSource uri consume",
           "hierarchy": "Network FTP Conduit",
+          "indexed": "2014-03-11T18:13:03",
           "module": "Network.FTP.Conduit",
           "name": "Conduit",
           "package": "ftp-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown if a FTP-level protocol exception happens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:03 UTC 2014",
           "module": "Network.FTP.Conduit",
           "name": "FTPException",
           "package": "ftp-conduit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Thrown if FTP-level protocol exception happens",
           "hierarchy": "Network FTP Conduit",
+          "indexed": "2014-03-11T18:13:03",
           "module": "Network.FTP.Conduit",
           "name": "FTPException",
           "package": "ftp-conduit",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:03 UTC 2014",
           "module": "Network.FTP.Conduit",
           "name": "GeneralError",
           "package": "ftp-conduit",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Network FTP Conduit",
+          "indexed": "2014-03-11T18:13:03",
           "module": "Network.FTP.Conduit",
           "name": "GeneralError",
           "package": "ftp-conduit",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:03 UTC 2014",
           "module": "Network.FTP.Conduit",
           "name": "IncorrectScheme",
           "package": "ftp-conduit",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Network FTP Conduit",
+          "indexed": "2014-03-11T18:13:03",
           "module": "Network.FTP.Conduit",
           "name": "IncorrectScheme",
           "package": "ftp-conduit",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:03 UTC 2014",
           "module": "Network.FTP.Conduit",
           "name": "SocketClosed",
           "package": "ftp-conduit",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network FTP Conduit",
+          "indexed": "2014-03-11T18:13:03",
           "module": "Network.FTP.Conduit",
           "name": "SocketClosed",
           "package": "ftp-conduit",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:03 UTC 2014",
           "module": "Network.FTP.Conduit",
           "name": "UnexpectedCode",
           "package": "ftp-conduit",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Network FTP Conduit",
+          "indexed": "2014-03-11T18:13:03",
           "module": "Network.FTP.Conduit",
           "name": "UnexpectedCode",
           "package": "ftp-conduit",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a conduit sink out of a \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e. Uses the \u003ccode\u003eSTOR\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:03 UTC 2014",
           "module": "Network.FTP.Conduit",
           "name": "createSink",
           "package": "ftp-conduit",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Create conduit sink out of URI Uses the STOR command",
           "hierarchy": "Network FTP Conduit",
+          "indexed": "2014-03-11T18:13:03",
           "module": "Network.FTP.Conduit",
           "name": "createSink",
           "normalized": "URI-\u003eSink ByteString a()",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a conduit source out of a \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e. Uses the \u003ccode\u003eRETR\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:03 UTC 2014",
           "module": "Network.FTP.Conduit",
           "name": "createSource",
           "package": "ftp-conduit",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Create conduit source out of URI Uses the RETR command",
           "hierarchy": "Network FTP Conduit",
+          "indexed": "2014-03-11T18:13:03",
           "module": "Network.FTP.Conduit",
           "name": "createSource",
           "normalized": "URI-\u003eSource a ByteString",

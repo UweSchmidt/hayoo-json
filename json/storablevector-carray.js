@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "storablevector-carray"
+        "phrase": "storablevector-carray",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:53 UTC 2014",
           "module": "Data.StorableVector.CArray",
           "name": "CArray",
           "package": "storablevector-carray",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector CArray",
+          "indexed": "2014-03-11T20:11:53",
           "module": "Data.StorableVector.CArray",
           "name": "CArray",
           "package": "storablevector-carray",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:53 UTC 2014",
           "module": "Data.StorableVector.CArray",
           "name": "from",
           "package": "storablevector-carray",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector CArray",
+          "indexed": "2014-03-11T20:11:53",
           "module": "Data.StorableVector.CArray",
           "name": "from",
           "normalized": "CArray Int a-\u003eVector a",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:53 UTC 2014",
           "module": "Data.StorableVector.CArray",
           "name": "to",
           "package": "storablevector-carray",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector CArray",
+          "indexed": "2014-03-11T20:11:53",
           "module": "Data.StorableVector.CArray",
           "name": "to",
           "normalized": "Vector a-\u003eCArray Int a",

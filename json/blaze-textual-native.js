@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blaze-textual-native"
+        "phrase": "blaze-textual-native",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:20 UTC 2014",
           "module": "Blaze.Text.Double",
           "name": "Double",
           "package": "blaze-textual-native",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Blaze Text Double",
+          "indexed": "2014-03-11T17:24:20",
           "module": "Blaze.Text.Double",
           "name": "Double",
           "package": "blaze-textual-native",
@@ -87,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:20 UTC 2014",
           "module": "Blaze.Text.Int",
           "name": "Int",
           "package": "blaze-textual-native",
@@ -95,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Blaze Text Int",
+          "indexed": "2014-03-11T17:24:20",
           "module": "Blaze.Text.Int",
           "name": "Int",
           "package": "blaze-textual-native",
@@ -108,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:20 UTC 2014",
           "module": "Blaze.Text.Int",
           "name": "digit",
           "package": "blaze-textual-native",
@@ -117,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Blaze Text Int",
+          "indexed": "2014-03-11T17:24:20",
           "module": "Blaze.Text.Int",
           "name": "digit",
           "normalized": "a-\u003eBuilder",
@@ -155,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:20 UTC 2014",
           "module": "Blaze.Text.Int",
           "name": "minus",
           "package": "blaze-textual-native",
@@ -164,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Blaze Text Int",
+          "indexed": "2014-03-11T17:24:20",
           "module": "Blaze.Text.Int",
           "name": "minus",
           "package": "blaze-textual-native",
@@ -176,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:20 UTC 2014",
           "module": "Blaze.Text",
           "name": "Text",
           "package": "blaze-textual-native",
@@ -184,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Blaze Text",
+          "indexed": "2014-03-11T17:24:20",
           "module": "Blaze.Text",
           "name": "Text",
           "package": "blaze-textual-native",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cltw"
+        "phrase": "cltw",
+        "type": "phrase"
       },
       "type": "context"
     }

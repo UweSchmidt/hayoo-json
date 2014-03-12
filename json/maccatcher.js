@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "maccatcher"
+        "phrase": "maccatcher",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA MAC address datatype, representing the six bytes of a MAC address, also\n    known as an OID, IAB or \"...Vendor Address, Vendor ID, NIC Address,\n    Ethernet Address and others.\", see\n    \u003ca\u003ehttp://standards.ieee.org/faqs/OUI.html#q4\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "Data.MAC",
           "name": "MAC",
           "package": "maccatcher",
@@ -28,6 +29,7 @@
         "index": {
           "description": "MAC address datatype representing the six bytes of MAC address also known as an OID IAB or Vendor Address Vendor ID NIC Address Ethernet Address and others see http standards.ieee.org faqs OUI.html q4",
           "hierarchy": "Data MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "Data.MAC",
           "name": "MAC",
           "package": "maccatcher",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "Data.MAC",
           "name": "MAC",
           "package": "maccatcher",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "Data.MAC",
           "name": "MAC",
           "package": "maccatcher",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "Data.MAC",
           "name": "MAC",
           "package": "maccatcher",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "Data.MAC",
           "name": "MAC",
           "package": "maccatcher",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSystem specific routines for determing the MAC address and macros to help\n    sort things out at compile time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "Fetch",
           "package": "maccatcher",
@@ -94,6 +101,7 @@
         "index": {
           "description": "System specific routines for determing the MAC address and macros to help sort things out at compile time",
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "Fetch",
           "package": "maccatcher",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain a list containing the name and MAC of all NICs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "fetchNICs",
           "package": "maccatcher",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Obtain list containing the name and MAC of all NICs",
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "fetchNICs",
           "normalized": "IO[(String,MAC)]",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003ccode\u003eifconfig\u003c/code\u003e or \u003ccode\u003eipconfig\u003c/code\u003e, as appropriate, capturing its output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "i_config",
           "package": "maccatcher",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Run ifconfig or ipconfig as appropriate capturing its output",
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "i_config",
           "package": "maccatcher",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the output of Linux or BSD \u003ccode\u003eifconfig\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "ifconfig",
           "package": "maccatcher",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Parses the output of Linux or BSD ifconfig",
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "ifconfig",
           "normalized": "Parser[(String,MAC)]",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the output of Windows \u003ccode\u003eipconfig\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "ipconfig",
           "package": "maccatcher",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Parses the output of Windows ipconfig",
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "ipconfig",
           "normalized": "Parser[(String,MAC)]",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "manyAnyTill",
           "package": "maccatcher",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "manyAnyTill",
           "normalized": "Parser Char-\u003eParser String",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "maybeMAC",
           "package": "maccatcher",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "maybeMAC",
           "normalized": "String-\u003eMaybe MAC",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "parse'",
           "package": "maccatcher",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "parse'",
           "normalized": "String-\u003eParser[a]-\u003eString-\u003e[a]",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "parseNIC_ifconfig",
           "package": "maccatcher",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "parseNIC_ifconfig",
           "normalized": "Parser(Maybe(String,MAC))",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "parseNIC_ipconfig",
           "package": "maccatcher",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "parseNIC_ipconfig",
           "normalized": "Parser(Maybe(String,MAC))",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "parseNICs",
           "package": "maccatcher",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "parseNICs",
           "normalized": "Parser(Maybe(String,MAC))-\u003eParser[(String,MAC)]",
@@ -349,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "skipManyAnyTill",
           "package": "maccatcher",
@@ -358,6 +387,7 @@
         },
         "index": {
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "skipManyAnyTill",
           "normalized": "Parser a-\u003eParser a",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC.Fetch",
           "name": "skipManyTill",
           "package": "maccatcher",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "System Info MAC Fetch",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC.Fetch",
           "name": "skipManyTill",
           "normalized": "Parser a-\u003eParser b-\u003eParser b",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eObtain a MAC address for the host system, on *NIX and Windows.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC",
           "name": "MAC",
           "package": "maccatcher",
@@ -407,6 +440,7 @@
         "index": {
           "description": "Obtain MAC address for the host system on NIX and Windows",
           "hierarchy": "System Info MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC",
           "name": "MAC",
           "package": "maccatcher",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch MAC address, using a cached value if it is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC",
           "name": "mac",
           "package": "maccatcher",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Fetch MAC address using cached value if it is available",
           "hierarchy": "System Info MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC",
           "name": "mac",
           "package": "maccatcher",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch MAC addresses, using a cached value if it is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC",
           "name": "macs",
           "package": "maccatcher",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Fetch MAC addresses using cached value if it is available",
           "hierarchy": "System Info MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC",
           "name": "macs",
           "normalized": "IO[MAC]",
@@ -469,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch a name-MAC pair, using a cached value if it is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC",
           "name": "nic",
           "package": "maccatcher",
@@ -479,6 +518,7 @@
         "index": {
           "description": "Fetch name-MAC pair using cached value if it is available",
           "hierarchy": "System Info MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC",
           "name": "nic",
           "normalized": "IO(Maybe(String,MAC))",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch name-MAC pairs, using a cached value if it is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC",
           "name": "nics",
           "package": "maccatcher",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Fetch name-MAC pairs using cached value if it is available",
           "hierarchy": "System Info MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC",
           "name": "nics",
           "normalized": "IO[(String,MAC)]",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicitly re-run the MAC reading operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:22 UTC 2014",
           "module": "System.Info.MAC",
           "name": "refresh",
           "package": "maccatcher",
@@ -529,6 +572,7 @@
         "index": {
           "description": "Explicitly re-run the MAC reading operation",
           "hierarchy": "System Info MAC",
+          "indexed": "2014-03-11T19:13:22",
           "module": "System.Info.MAC",
           "name": "refresh",
           "normalized": "IO[(String,MAC)]",

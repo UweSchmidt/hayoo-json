@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "harp"
+        "phrase": "harp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions that simulate the behavior of regular patterns\n using a Match monad for parsing lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "Match",
           "package": "harp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions that simulate the behavior of regular patterns using Match monad for parsing lists",
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "Match",
           "package": "harp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Match monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "Match",
           "package": "harp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Match monad",
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "Match",
           "package": "harp",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "(+++)",
           "package": "harp",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "(+++) +++",
           "normalized": "Match a b-\u003eMatch a b-\u003eMatch a b",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "baseMatch",
           "package": "harp",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "baseMatch",
           "normalized": "(a-\u003eMaybe b)-\u003eMatch a(a,b)",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "foldComp",
           "package": "harp",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "foldComp",
           "normalized": "[[a]-\u003e[a]]-\u003e[a]-\u003e[a]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "gManyMatch",
           "package": "harp",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "gManyMatch",
           "normalized": "Match a b-\u003eMatch a[b]",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "manyMatch",
           "package": "harp",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "manyMatch",
           "normalized": "Match a b-\u003eMatch a[b]",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "runMatch",
           "package": "harp",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "runMatch",
           "normalized": "Match a b-\u003e[a]-\u003eMaybe b",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "unzip0",
           "package": "harp",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "unzip0",
           "normalized": "[()]-\u003e()",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "unzip1",
           "package": "harp",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "unzip1",
           "normalized": "[a]-\u003e[a]",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "unzip2",
           "package": "harp",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "unzip2",
           "normalized": "[(a,b)]-\u003e([a],[b])",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip3\u003c/a\u003e\u003c/code\u003e function takes a list of triples and returns three\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "unzip3",
           "package": "harp",
@@ -286,6 +309,7 @@
         "index": {
           "description": "The unzip3 function takes list of triples and returns three lists analogous to unzip",
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "unzip3",
           "normalized": "[(a,b,c)]-\u003e([a],[b],[c])",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip4\u003c/a\u003e\u003c/code\u003e function takes a list of quadruples and returns four\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "unzip4",
           "package": "harp",
@@ -310,6 +335,7 @@
         "index": {
           "description": "The unzip4 function takes list of quadruples and returns four lists analogous to unzip",
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "unzip4",
           "normalized": "[(a,b,c,d)]-\u003e([a],[b],[c],[d])",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip5\u003c/a\u003e\u003c/code\u003e function takes a list of five-tuples and returns five\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "unzip5",
           "package": "harp",
@@ -334,6 +361,7 @@
         "index": {
           "description": "The unzip5 function takes list of five-tuples and returns five lists analogous to unzip",
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "unzip5",
           "normalized": "[(a,b,c,d,e)]-\u003e([a],[b],[c],[d],[e])",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip6\u003c/a\u003e\u003c/code\u003e function takes a list of six-tuples and returns six\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "unzip6",
           "package": "harp",
@@ -358,6 +387,7 @@
         "index": {
           "description": "The unzip6 function takes list of six-tuples and returns six lists analogous to unzip",
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "unzip6",
           "normalized": "[(a,b,c,d,e,f)]-\u003e([a],[b],[c],[d],[e],[f])",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip7\u003c/a\u003e\u003c/code\u003e function takes a list of seven-tuples and returns\n seven lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:30 UTC 2014",
           "module": "Harp.Match",
           "name": "unzip7",
           "package": "harp",
@@ -382,6 +413,7 @@
         "index": {
           "description": "The unzip7 function takes list of seven-tuples and returns seven lists analogous to unzip",
           "hierarchy": "Harp Match",
+          "indexed": "2014-03-11T18:29:30",
           "module": "Harp.Match",
           "name": "unzip7",
           "normalized": "[(a,b,c,d,e,f,g)]-\u003e([a],[b],[c],[d],[e],[f],[g])",

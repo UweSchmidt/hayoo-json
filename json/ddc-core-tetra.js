@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-core-tetra"
+        "phrase": "ddc-core-tetra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "Compounds",
           "package": "ddc-core-tetra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Tetra Compounds",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "Compounds",
           "package": "ddc-core-tetra",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "tBool",
           "package": "ddc-core-tetra",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Primitive Bool type",
           "hierarchy": "DDC Core Tetra Compounds",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "tBool",
           "package": "ddc-core-tetra",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "tInt",
           "package": "ddc-core-tetra",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Primitive Int type",
           "hierarchy": "DDC Core Tetra Compounds",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "tInt",
           "package": "ddc-core-tetra",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive \u003ccode\u003eNat\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "tNat",
           "package": "ddc-core-tetra",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Primitive Nat type",
           "hierarchy": "DDC Core Tetra Compounds",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "tNat",
           "package": "ddc-core-tetra",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive \u003ccode\u003eWordN\u003c/code\u003e type of the given width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "tWord",
           "package": "ddc-core-tetra",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Primitive WordN type of the given width",
           "hierarchy": "DDC Core Tetra Compounds",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Compounds",
           "name": "tWord",
           "normalized": "Int-\u003eType Name",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Env",
           "name": "Env",
           "package": "ddc-core-tetra",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Tetra Env",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Env",
           "name": "Env",
           "package": "ddc-core-tetra",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type definitions \n\u003c/p\u003e\u003cpre\u003e  Type                         Constructors\n  ----                ------------------------------\n  Bool                True False\n  Nat                 0 1 2 ...\n  Int                 ... -2i -1i 0i 1i 2i ...\n  Word{8,16,32,64}#   42w8 123w64 ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Env",
           "name": "primDataDefs",
           "package": "ddc-core-tetra",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Data type definitions Type Constructors Bool True False Nat Int Word w8 w64",
           "hierarchy": "DDC Core Tetra Env",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Env",
           "name": "primDataDefs",
           "package": "ddc-core-tetra",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind environment containing kinds of primitive data types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Env",
           "name": "primKindEnv",
           "package": "ddc-core-tetra",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Kind environment containing kinds of primitive data types",
           "hierarchy": "DDC Core Tetra Env",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Env",
           "name": "primKindEnv",
           "package": "ddc-core-tetra",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort environment containing sorts of primitive kinds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Env",
           "name": "primSortEnv",
           "package": "ddc-core-tetra",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Sort environment containing sorts of primitive kinds",
           "hierarchy": "DDC Core Tetra Env",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Env",
           "name": "primSortEnv",
           "package": "ddc-core-tetra",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType environment containing types of primitive operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Env",
           "name": "primTypeEnv",
           "package": "ddc-core-tetra",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Type environment containing types of primitive operators",
           "hierarchy": "DDC Core Tetra Env",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Env",
           "name": "primTypeEnv",
           "package": "ddc-core-tetra",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Prim",
           "name": "Prim",
           "package": "ddc-core-tetra",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Tetra Prim",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Prim",
           "name": "Prim",
           "package": "ddc-core-tetra",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of things used in Disciple Core Tetra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Prim",
           "name": "Name",
           "package": "ddc-core-tetra",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Names of things used in Disciple Core Tetra",
           "hierarchy": "DDC Core Tetra Prim",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Prim",
           "name": "Name",
           "package": "ddc-core-tetra",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive arithmetic, logic, and comparison opretors.\n   We expect the backend/machine to be able to implement these directly.\n\u003c/p\u003e\u003cp\u003eFor the Shift Right operator, the type that it is used at determines\n   whether it is an arithmetic (with sign-extension) or logical\n   (no sign-extension) shift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Prim",
           "name": "OpPrimArith",
           "package": "ddc-core-tetra",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Primitive arithmetic logic and comparison opretors We expect the backend machine to be able to implement these directly For the Shift Right operator the type that it is used at determines whether it is an arithmetic with sign-extension or logical no sign-extension shift",
           "hierarchy": "DDC Core Tetra Prim",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Prim",
           "name": "OpPrimArith",
           "package": "ddc-core-tetra",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable References.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Prim",
           "name": "OpPrimRef",
           "package": "ddc-core-tetra",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Mutable References",
           "hierarchy": "DDC Core Tetra Prim",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Prim",
           "name": "OpPrimRef",
           "package": "ddc-core-tetra",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Prim",
           "name": "TyConPrim",
           "package": "ddc-core-tetra",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Primitive type constructors",
           "hierarchy": "DDC Core Tetra Prim",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Prim",
           "name": "TyConPrim",
           "package": "ddc-core-tetra",
@@ -1293,6 +1323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the kind of a type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Prim",
           "name": "kindTyConPrim",
           "package": "ddc-core-tetra",
@@ -1303,6 +1334,7 @@
         "index": {
           "description": "Yield the kind of type constructor",
           "hierarchy": "DDC Core Tetra Prim",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Prim",
           "name": "kindTyConPrim",
           "normalized": "TyConPrim-\u003eKind Name",
@@ -1346,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the type of a primitive arithmetic operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Prim",
           "name": "typeOpPrimArith",
           "package": "ddc-core-tetra",
@@ -1356,6 +1389,7 @@
         "index": {
           "description": "Take the type of primitive arithmetic operator",
           "hierarchy": "DDC Core Tetra Prim",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Prim",
           "name": "typeOpPrimArith",
           "normalized": "OpPrimArith-\u003eType Name",
@@ -1372,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the type of a primitive arithmetic operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Prim",
           "name": "typeOpPrimRef",
           "package": "ddc-core-tetra",
@@ -1382,6 +1417,7 @@
         "index": {
           "description": "Take the type of primitive arithmetic operator",
           "hierarchy": "DDC Core Tetra Prim",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Prim",
           "name": "typeOpPrimRef",
           "normalized": "OpPrimRef-\u003eType Name",
@@ -1398,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLanguage profile for Disciple Core Tetra\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Profile",
           "name": "Profile",
           "package": "ddc-core-tetra",
@@ -1407,6 +1444,7 @@
         "index": {
           "description": "Language profile for Disciple Core Tetra",
           "hierarchy": "DDC Core Tetra Profile",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Profile",
           "name": "Profile",
           "package": "ddc-core-tetra",
@@ -1421,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new type variable name that is not in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Profile",
           "name": "freshT",
           "package": "ddc-core-tetra",
@@ -1431,6 +1470,7 @@
         "index": {
           "description": "Create new type variable name that is not in the given environment",
           "hierarchy": "DDC Core Tetra Profile",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Profile",
           "name": "freshT",
           "normalized": "Env Name-\u003eBind Name-\u003eState Int Name",
@@ -1446,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new value variable name that is not in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra.Profile",
           "name": "freshX",
           "package": "ddc-core-tetra",
@@ -1456,6 +1497,7 @@
         "index": {
           "description": "Create new value variable name that is not in the given environment",
           "hierarchy": "DDC Core Tetra Profile",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra.Profile",
           "name": "freshX",
           "normalized": "Env Name-\u003eBind Name-\u003eState Int Name",
@@ -1548,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra",
           "name": "Tetra",
           "package": "ddc-core-tetra",
@@ -1556,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Tetra",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra",
           "name": "Tetra",
           "package": "ddc-core-tetra",
@@ -1570,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of things used in Disciple Core Tetra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra",
           "name": "Name",
           "package": "ddc-core-tetra",
@@ -1579,6 +1624,7 @@
         "index": {
           "description": "Names of things used in Disciple Core Tetra",
           "hierarchy": "DDC Core Tetra",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra",
           "name": "Name",
           "package": "ddc-core-tetra",
@@ -1593,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive arithmetic, logic, and comparison opretors.\n   We expect the backend/machine to be able to implement these directly.\n\u003c/p\u003e\u003cp\u003eFor the Shift Right operator, the type that it is used at determines\n   whether it is an arithmetic (with sign-extension) or logical\n   (no sign-extension) shift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra",
           "name": "OpPrimArith",
           "package": "ddc-core-tetra",
@@ -1602,6 +1649,7 @@
         "index": {
           "description": "Primitive arithmetic logic and comparison opretors We expect the backend machine to be able to implement these directly For the Shift Right operator the type that it is used at determines whether it is an arithmetic with sign-extension or logical no sign-extension shift",
           "hierarchy": "DDC Core Tetra",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra",
           "name": "OpPrimArith",
           "package": "ddc-core-tetra",
@@ -1616,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable References.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra",
           "name": "OpPrimRef",
           "package": "ddc-core-tetra",
@@ -1625,6 +1674,7 @@
         "index": {
           "description": "Mutable References",
           "hierarchy": "DDC Core Tetra",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra",
           "name": "OpPrimRef",
           "package": "ddc-core-tetra",
@@ -1639,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:51 UTC 2014",
           "module": "DDC.Core.Tetra",
           "name": "TyConPrim",
           "package": "ddc-core-tetra",
@@ -1648,6 +1699,7 @@
         "index": {
           "description": "Primitive type constructors",
           "hierarchy": "DDC Core Tetra",
+          "indexed": "2014-03-11T17:51:51",
           "module": "DDC.Core.Tetra",
           "name": "TyConPrim",
           "package": "ddc-core-tetra",

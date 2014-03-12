@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pandoc-unlit"
+        "phrase": "pandoc-unlit",
+        "type": "phrase"
       },
       "type": "context"
     }

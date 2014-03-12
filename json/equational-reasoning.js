@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "equational-reasoning"
+        "phrase": "equational-reasoning",
+        "type": "phrase"
       },
       "type": "context"
     }

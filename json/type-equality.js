@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-equality"
+        "phrase": "type-equality",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType equality, coercion/cast and other operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "Equality",
           "package": "type-equality",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type equality coercion cast and other operations",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "Equality",
           "package": "type-equality",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType equality. A value of \u003ccode\u003ea :=: b\u003c/code\u003e is a proof that types \u003ccode\u003ea\u003c/code\u003e and\n \u003ccode\u003eb\u003c/code\u003e are equal. By pattern matching on \u003ccode\u003eRefl\u003c/code\u003e this fact is\n introduced to the type checker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": ":=:",
           "package": "type-equality",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type equality value of is proof that types and are equal By pattern matching on Refl this fact is introduced to the type checker",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": ":=:",
           "package": "type-equality",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for constructing equality proofs. This is as close\n as we can get to decidable equality on types. Note that \u003ccode\u003ef\u003c/code\u003e must be\n a GADT to be able to define \u003ccode\u003e\u003ca\u003eeqT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "EqT",
           "package": "type-equality",
@@ -73,6 +78,7 @@
         "index": {
           "description": "type class for constructing equality proofs This is as close as we can get to decidable equality on types Note that must be GADT to be able to define eqT",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "EqT",
           "package": "type-equality",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for constructing equality proofs for type\n constructor with two parameters. Can be useful when representing\n relations between types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "EqT2",
           "package": "type-equality",
@@ -96,6 +103,7 @@
         "index": {
           "description": "type class for constructing equality proofs for type constructor with two parameters Can be useful when representing relations between types",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "EqT2",
           "package": "type-equality",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for constructing equality proofs for type\n constructor with three parameters. If you find a use for this, let\n me know.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "EqT3",
           "package": "type-equality",
@@ -119,6 +128,7 @@
         "index": {
           "description": "type class for constructing equality proofs for type constructor with three parameters If you find use for this let me know",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "EqT3",
           "package": "type-equality",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "Refl",
           "package": "type-equality",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "Refl",
           "package": "type-equality",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce a type to another using an equality proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "coerce",
           "package": "type-equality",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Coerce type to another using an equality proof",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "coerce",
           "normalized": "(a b)-\u003ea-\u003eb",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality is congruential.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "cong",
           "package": "type-equality",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Equality is congruential",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "cong",
           "normalized": "(a b)-\u003ec a c b",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCongruence for type constructors with two parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "cong2",
           "package": "type-equality",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Congruence for type constructors with two parameters",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "cong2",
           "normalized": "(a b)-\u003e(c d)-\u003ee a c e b d",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCongruence for type constructors with three parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "cong3",
           "package": "type-equality",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Congruence for type constructors with three parameters",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "cong3",
           "normalized": "(a b)-\u003e(c d)-\u003e(e f)-\u003eg a c e g b d f",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "eqT",
           "package": "type-equality",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "eqT",
           "normalized": "a b-\u003ea c-\u003eMaybe(b c)",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "eqT2",
           "package": "type-equality",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "eqT2",
           "normalized": "a b c-\u003ea d e-\u003e(Maybe(b d),Maybe(c e))",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "eqT3",
           "package": "type-equality",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "eqT3",
           "normalized": "a b c d-\u003ea e f g-\u003e(Maybe(b e),Maybe(c f),Maybe(d g))",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality is substitutive. This is defined directly, but can also\n be defined as \u003ccode\u003e\u003ca\u003ecoerce\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003econg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "subst",
           "package": "type-equality",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Equality is substitutive This is defined directly but can also be defined as coerce cong",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "subst",
           "normalized": "(a b)-\u003ec a-\u003ec b",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitution inside nested type constructors. This is equivalent \n to \u003ccode\u003e\u003ca\u003ecoerce\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003econg\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003econg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "subst2",
           "package": "type-equality",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Substitution inside nested type constructors This is equivalent to coerce cong cong",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "subst2",
           "normalized": "(a b)-\u003ec(d a)-\u003ec(d b)",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality is symmetric.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "sym",
           "package": "type-equality",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Equality is symmetric",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "sym",
           "normalized": "(a b)-\u003eb a",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality is transitive. This is the same as (\u003e\u003e\u003e) from the \u003ccode\u003e\u003ca\u003eCategory\u003c/a\u003e\u003c/code\u003e\n instance, but also works in GHC 6.8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:11 UTC 2014",
           "module": "Data.Type.Equality",
           "name": "trans",
           "package": "type-equality",
@@ -409,6 +442,7 @@
         "index": {
           "description": "Equality is transitive This is the same as from the Category instance but also works in GHC",
           "hierarchy": "Data Type Equality",
+          "indexed": "2014-03-11T20:27:11",
           "module": "Data.Type.Equality",
           "name": "trans",
           "normalized": "(a b)-\u003e(b c)-\u003ea c",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-querystring"
+        "phrase": "http-querystring",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:52 UTC 2014",
           "module": "Network.HTTP.QueryString",
           "name": "QueryString",
           "package": "http-querystring",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP QueryString",
+          "indexed": "2014-03-11T18:52:52",
           "module": "Network.HTTP.QueryString",
           "name": "QueryString",
           "package": "http-querystring",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query string for HTTP.\n\u003c/p\u003e\u003cpre\u003e \"param1=value1&param2=value2\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:52:52 UTC 2014",
           "module": "Network.HTTP.QueryString",
           "name": "QueryString",
           "package": "http-querystring",
@@ -49,6 +52,7 @@
         "index": {
           "description": "query string for HTTP param1 value1 param2 value2",
           "hierarchy": "Network HTTP QueryString",
+          "indexed": "2014-03-11T18:52:52",
           "module": "Network.HTTP.QueryString",
           "name": "QueryString",
           "package": "http-querystring",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:52 UTC 2014",
           "module": "Network.HTTP.QueryString",
           "name": "parseQuery",
           "package": "http-querystring",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP QueryString",
+          "indexed": "2014-03-11T18:52:52",
           "module": "Network.HTTP.QueryString",
           "name": "parseQuery",
           "normalized": "ByteString-\u003eMaybe QueryString",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a parameter list to \u003ccode\u003e\u003ca\u003eQueryString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoString $ queryString [(\"param1\", \"value1\"), (\"param2\", \"value2\")]\n\u003c/code\u003e\u003c/strong\u003e\"param1=value1&param2=value2\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:52:52 UTC 2014",
           "module": "Network.HTTP.QueryString",
           "name": "queryString",
           "package": "http-querystring",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Convert parameter list to QueryString toString queryString param1 value1 param2 value2 param1 value1 param2 value2",
           "hierarchy": "Network HTTP QueryString",
+          "indexed": "2014-03-11T18:52:52",
           "module": "Network.HTTP.QueryString",
           "name": "queryString",
           "normalized": "[(ByteString,ByteString)]-\u003eQueryString",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a parameter map to \u003ccode\u003e\u003ca\u003eQueryString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport qualified Data.Map as Map\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoString $ queryStringFromMap $ Map.fromList [(\"param1\", \"value1\"), (\"param2\", \"value2\")]\n\u003c/code\u003e\u003c/strong\u003e\"param1=value1&param2=value2\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:52:52 UTC 2014",
           "module": "Network.HTTP.QueryString",
           "name": "queryStringFromMap",
           "package": "http-querystring",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Convert parameter map to QueryString import qualified Data.Map as Map toString queryStringFromMap Map.fromList param1 value1 param2 value2 param1 value1 param2 value2",
           "hierarchy": "Network HTTP QueryString",
+          "indexed": "2014-03-11T18:52:52",
           "module": "Network.HTTP.QueryString",
           "name": "queryStringFromMap",
           "normalized": "Map ByteString ByteString-\u003eQueryString",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:52 UTC 2014",
           "module": "Network.HTTP.QueryString",
           "name": "toString",
           "package": "http-querystring",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP QueryString",
+          "indexed": "2014-03-11T18:52:52",
           "module": "Network.HTTP.QueryString",
           "name": "toString",
           "normalized": "QueryString-\u003eByteString",

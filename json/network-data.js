@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-data"
+        "phrase": "network-data",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.CSum",
           "name": "CSum",
           "package": "network-data",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data CSum",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.CSum",
           "name": "CSum",
           "package": "network-data",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.CSum",
           "name": "CSum",
           "package": "network-data",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data CSum",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.CSum",
           "name": "CSum",
           "package": "network-data",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.CSum",
           "name": "csum16",
           "package": "network-data",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data CSum",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.CSum",
           "name": "csum16",
           "normalized": "ByteString-\u003eCSum",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.CSum",
           "name": "zeroCSum",
           "package": "network-data",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data CSum",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.CSum",
           "name": "zeroCSum",
           "package": "network-data",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Data.Ethernet module exports Ethernet header structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "Ethernet",
           "package": "network-data",
@@ -115,6 +124,7 @@
         "index": {
           "description": "The Data.Ethernet module exports Ethernet header structures",
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "Ethernet",
           "package": "network-data",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Ethernet hardware address or MAC address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "Ethernet",
           "package": "network-data",
@@ -138,6 +149,7 @@
         "index": {
           "description": "An Ethernet hardware address or MAC address",
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "Ethernet",
           "package": "network-data",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "EthernetHeader",
           "package": "network-data",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "EthernetHeader",
           "package": "network-data",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "Ethernet",
           "package": "network-data",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "Ethernet",
           "package": "network-data",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "EthernetHdr",
           "package": "network-data",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "EthernetHdr",
           "package": "network-data",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "destination",
           "package": "network-data",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "destination",
           "package": "network-data",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "etherType",
           "package": "network-data",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "etherType",
           "package": "network-data",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "source",
           "package": "network-data",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "source",
           "package": "network-data",
@@ -281,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo bytes of \u003ccode\u003eethertype\u003c/code\u003e if 802.1Q  tag is present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "vlanEthertype",
           "package": "network-data",
@@ -291,6 +316,7 @@
         "index": {
           "description": "Two bytes of ethertype if tag is present",
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "vlanEthertype",
           "package": "network-data",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Ethernet",
           "name": "vlanTag",
           "package": "network-data",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Data Ethernet",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Ethernet",
           "name": "vlanTag",
           "package": "network-data",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "Header",
           "package": "network-data",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "Header",
           "package": "network-data",
@@ -348,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of network addresses that assumes there is a \u003ccode\u003ebroadcast\u003c/code\u003e concept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "L3Address",
           "package": "network-data",
@@ -357,6 +388,7 @@
         "index": {
           "description": "class of network addresses that assumes there is broadcast concept",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "L3Address",
           "package": "network-data",
@@ -371,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of network headers that assumes a checksum is present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "L3Header",
           "package": "network-data",
@@ -380,6 +413,7 @@
         "index": {
           "description": "class of network headers that assumes checksum is present",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "L3Header",
           "package": "network-data",
@@ -394,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the checksum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "computeChecksum",
           "package": "network-data",
@@ -404,6 +439,7 @@
         "index": {
           "description": "Computes the checksum",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "computeChecksum",
           "normalized": "a-\u003eb",
@@ -420,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003edestination\u003c/code\u003e for the header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "dst",
           "package": "network-data",
@@ -430,6 +467,7 @@
         "index": {
           "description": "Returns destination for the header",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "dst",
           "normalized": "a-\u003eb",
@@ -445,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the checksum, returns a header with the proper checksum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "fillChecksum",
           "package": "network-data",
@@ -455,6 +494,7 @@
         "index": {
           "description": "Computes the checksum returns header with the proper checksum",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "fillChecksum",
           "normalized": "a-\u003ea",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the checksum from the header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "getChecksum",
           "package": "network-data",
@@ -481,6 +522,7 @@
         "index": {
           "description": "Returns the checksum from the header",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "getChecksum",
           "normalized": "a-\u003eb",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "globalBroadcast",
           "package": "network-data",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "globalBroadcast",
           "package": "network-data",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "localBroadcast",
           "package": "network-data",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "localBroadcast",
           "normalized": "a-\u003ea",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by various layer 4 protocols (UDP, TCP),\n a pseudo header is needed to compute the checksum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "pseudoHeader",
           "package": "network-data",
@@ -553,6 +600,7 @@
         "index": {
           "description": "Used by various layer protocols UDP TCP pseudo header is needed to compute the checksum",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "pseudoHeader",
           "normalized": "a-\u003eByteString",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the checksum in the header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "setChecksum",
           "package": "network-data",
@@ -579,6 +628,7 @@
         "index": {
           "description": "Sets the checksum in the header",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "setChecksum",
           "normalized": "a-\u003eb-\u003ea",
@@ -595,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003esource\u003c/code\u003e for the header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "src",
           "package": "network-data",
@@ -605,6 +656,7 @@
         "index": {
           "description": "Returns source for the header",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "src",
           "normalized": "a-\u003eb",
@@ -620,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True iff the checksum is valid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "valid",
           "package": "network-data",
@@ -630,6 +683,7 @@
         "index": {
           "description": "Returns True iff the checksum is valid",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "valid",
           "normalized": "a-\u003eBool",
@@ -645,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a header with all the same fields except the checksum is zeroed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.Header",
           "name": "zeroChecksum",
           "package": "network-data",
@@ -655,6 +710,7 @@
         "index": {
           "description": "Returns header with all the same fields except the checksum is zeroed",
           "hierarchy": "Data Header",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.Header",
           "name": "zeroChecksum",
           "normalized": "a-\u003ea",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Data.IP library exports IPv4 address and header structures.\n\u003c/p\u003e\u003cp\u003eFIXME:\n   There is currently no support for options fields of the IP header.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "IP",
           "package": "network-data",
@@ -680,6 +737,7 @@
         "index": {
           "description": "The Data.IP library exports IPv4 address and header structures FIXME There is currently no support for options fields of the IP header",
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "IP",
           "package": "network-data",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "IP",
           "package": "network-data",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "IP",
           "package": "network-data",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "IPHeader",
           "package": "network-data",
@@ -722,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "IPHeader",
           "package": "network-data",
@@ -736,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor IPv4 addresses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "IPv4",
           "package": "network-data",
@@ -745,6 +808,7 @@
         "index": {
           "description": "For IPv4 addresses",
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "IPv4",
           "package": "network-data",
@@ -759,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't fragment, more fragment and reserved flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "IPv4Flag",
           "package": "network-data",
@@ -768,6 +833,7 @@
         "index": {
           "description": "Don fragment more fragment and reserved flags",
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "IPv4Flag",
           "package": "network-data",
@@ -782,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis IPv4 header structure lacks support for options.  Ints are used\n for most integral data types and the binary instance hands the bit packing.\n\u003c/p\u003e\u003cp\u003eNo warning is provided if a value is trunkated when packed!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "IPv4Header",
           "package": "network-data",
@@ -791,6 +858,7 @@
         "index": {
           "description": "This IPv4 header structure lacks support for options Ints are used for most integral data types and the binary instance hands the bit packing No warning is provided if value is trunkated when packed",
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "IPv4Header",
           "package": "network-data",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "DF",
           "package": "network-data",
@@ -813,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "DF",
           "package": "network-data",
@@ -826,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "IPv4",
           "package": "network-data",
@@ -835,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "IPv4",
           "package": "network-data",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "IPv4Hdr",
           "package": "network-data",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "IPv4Hdr",
           "package": "network-data",
@@ -870,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "MF",
           "package": "network-data",
@@ -879,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "MF",
           "package": "network-data",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "Res",
           "package": "network-data",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "Res",
           "package": "network-data",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "checksum",
           "package": "network-data",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "checksum",
           "package": "network-data",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "destination",
           "package": "network-data",
@@ -944,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "destination",
           "package": "network-data",
@@ -957,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dummy header with zeroed fields except version, header length and TTL (255).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "dummyIPv4Header",
           "package": "network-data",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "dummy header with zeroed fields except version header length and TTL",
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "dummyIPv4Header",
           "package": "network-data",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "flags",
           "package": "network-data",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "flags",
           "normalized": "[IPv Flag]",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "fragmentOffset",
           "package": "network-data",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "fragmentOffset",
           "package": "network-data",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "hdrLength",
           "package": "network-data",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "hdrLength",
           "package": "network-data",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "ipID",
           "package": "network-data",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "ipID",
           "package": "network-data",
@@ -1069,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "protocol",
           "package": "network-data",
@@ -1078,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "protocol",
           "package": "network-data",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "source",
           "package": "network-data",
@@ -1099,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "source",
           "package": "network-data",
@@ -1111,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "tos",
           "package": "network-data",
@@ -1120,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "tos",
           "package": "network-data",
@@ -1132,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "totalLength",
           "package": "network-data",
@@ -1141,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "totalLength",
           "package": "network-data",
@@ -1154,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "ttl",
           "package": "network-data",
@@ -1163,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "ttl",
           "package": "network-data",
@@ -1175,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IP",
           "name": "version",
           "package": "network-data",
@@ -1184,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Data IP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IP",
           "name": "version",
           "package": "network-data",
@@ -1196,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "IPv6",
           "package": "network-data",
@@ -1204,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "IPv6",
           "package": "network-data",
@@ -1217,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "IPv6",
           "package": "network-data",
@@ -1225,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "IPv6",
           "package": "network-data",
@@ -1238,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "IPv6Header",
           "package": "network-data",
@@ -1246,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "IPv6Header",
           "package": "network-data",
@@ -1259,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "IPv6",
           "package": "network-data",
@@ -1268,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "IPv6",
           "package": "network-data",
@@ -1281,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "IPv6Hdr",
           "package": "network-data",
@@ -1290,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "IPv6Hdr",
           "package": "network-data",
@@ -1303,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "destination",
           "package": "network-data",
@@ -1312,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "destination",
           "package": "network-data",
@@ -1324,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "flowLabel",
           "package": "network-data",
@@ -1333,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "flowLabel",
           "package": "network-data",
@@ -1346,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "hopLimit",
           "package": "network-data",
@@ -1355,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "hopLimit",
           "package": "network-data",
@@ -1368,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "nextHeader",
           "package": "network-data",
@@ -1377,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "nextHeader",
           "package": "network-data",
@@ -1390,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "payloadLength",
           "package": "network-data",
@@ -1399,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "payloadLength",
           "package": "network-data",
@@ -1412,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "source",
           "package": "network-data",
@@ -1421,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "source",
           "package": "network-data",
@@ -1433,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "trafficClass",
           "package": "network-data",
@@ -1442,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "trafficClass",
           "package": "network-data",
@@ -1455,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.IPv6",
           "name": "version",
           "package": "network-data",
@@ -1464,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data IPv6",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.IPv6",
           "name": "version",
           "package": "network-data",
@@ -1476,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "TCP",
           "package": "network-data",
@@ -1484,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "TCP",
           "package": "network-data",
@@ -1497,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "TCPFlag",
           "package": "network-data",
@@ -1505,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "TCPFlag",
           "package": "network-data",
@@ -1518,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "TCPHeader",
           "package": "network-data",
@@ -1526,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "TCPHeader",
           "package": "network-data",
@@ -1539,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "TCPPort",
           "package": "network-data",
@@ -1547,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "TCPPort",
           "package": "network-data",
@@ -1560,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "ACK",
           "package": "network-data",
@@ -1569,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "ACK",
           "package": "network-data",
@@ -1582,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "CWR",
           "package": "network-data",
@@ -1591,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "CWR",
           "package": "network-data",
@@ -1604,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "ECE",
           "package": "network-data",
@@ -1613,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "ECE",
           "package": "network-data",
@@ -1626,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "FIN",
           "package": "network-data",
@@ -1635,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "FIN",
           "package": "network-data",
@@ -1648,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "PSH",
           "package": "network-data",
@@ -1657,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "PSH",
           "package": "network-data",
@@ -1670,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "RST",
           "package": "network-data",
@@ -1679,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "RST",
           "package": "network-data",
@@ -1692,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "SYN",
           "package": "network-data",
@@ -1701,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "SYN",
           "package": "network-data",
@@ -1714,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "TCPHdr",
           "package": "network-data",
@@ -1723,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "TCPHdr",
           "package": "network-data",
@@ -1736,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "TCPPort",
           "package": "network-data",
@@ -1745,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "TCPPort",
           "package": "network-data",
@@ -1758,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "URG",
           "package": "network-data",
@@ -1767,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "URG",
           "package": "network-data",
@@ -1780,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "ackNumber",
           "package": "network-data",
@@ -1789,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "ackNumber",
           "package": "network-data",
@@ -1802,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "checksum",
           "package": "network-data",
@@ -1811,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "checksum",
           "package": "network-data",
@@ -1823,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "dataOffset",
           "package": "network-data",
@@ -1832,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "dataOffset",
           "package": "network-data",
@@ -1845,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "dstPort",
           "package": "network-data",
@@ -1854,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "dstPort",
           "package": "network-data",
@@ -1867,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "flags",
           "package": "network-data",
@@ -1876,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "flags",
           "normalized": "[TCPFlag]",
@@ -1890,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "res",
           "package": "network-data",
@@ -1899,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "res",
           "package": "network-data",
@@ -1911,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "seqNumber",
           "package": "network-data",
@@ -1920,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "seqNumber",
           "package": "network-data",
@@ -1933,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "srcPort",
           "package": "network-data",
@@ -1942,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "srcPort",
           "package": "network-data",
@@ -1955,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "urgentPtr",
           "package": "network-data",
@@ -1964,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "urgentPtr",
           "package": "network-data",
@@ -1977,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.TCP",
           "name": "windowSize",
           "package": "network-data",
@@ -1986,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Data TCP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.TCP",
           "name": "windowSize",
           "package": "network-data",
@@ -1999,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "UDP",
           "package": "network-data",
@@ -2007,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "UDP",
           "package": "network-data",
@@ -2020,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "UDPHeader",
           "package": "network-data",
@@ -2028,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "UDPHeader",
           "package": "network-data",
@@ -2041,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "UDPPort",
           "package": "network-data",
@@ -2049,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "UDPPort",
           "package": "network-data",
@@ -2062,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "UDPHdr",
           "package": "network-data",
@@ -2071,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "UDPHdr",
           "package": "network-data",
@@ -2084,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "UDPPort",
           "package": "network-data",
@@ -2093,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "UDPPort",
           "package": "network-data",
@@ -2106,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "checksum",
           "package": "network-data",
@@ -2115,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "checksum",
           "package": "network-data",
@@ -2127,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "dstPort",
           "package": "network-data",
@@ -2136,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "dstPort",
           "package": "network-data",
@@ -2149,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "payloadLength",
           "package": "network-data",
@@ -2158,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "payloadLength",
           "package": "network-data",
@@ -2171,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:42 UTC 2014",
           "module": "Data.UDP",
           "name": "srcPort",
           "package": "network-data",
@@ -2180,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Data UDP",
+          "indexed": "2014-03-11T19:27:42",
           "module": "Data.UDP",
           "name": "srcPort",
           "package": "network-data",

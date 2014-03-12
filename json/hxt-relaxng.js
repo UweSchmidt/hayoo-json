@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-relaxng"
+        "phrase": "hxt-relaxng",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstants and basic arrows for Relax NG\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "BasicArrows",
           "package": "hxt-relaxng",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Constants and basic arrows for Relax NG",
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "BasicArrows",
           "package": "hxt-relaxng",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "addRngAttrChanges",
           "package": "hxt-relaxng",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "addRngAttrChanges",
           "normalized": "String-\u003ea XmlTree XmlTree",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "addRngAttrDescr",
           "package": "hxt-relaxng",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "addRngAttrDescr",
           "normalized": "String-\u003ea XmlTree XmlTree",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "addRngAttrName",
           "package": "hxt-relaxng",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "addRngAttrName",
           "normalized": "String-\u003ea XmlTree XmlTree",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "addRngAttrNs",
           "package": "hxt-relaxng",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "addRngAttrNs",
           "normalized": "String-\u003ea XmlTree XmlTree",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "checkRngName",
           "package": "hxt-relaxng",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "checkRngName",
           "normalized": "[String]-\u003ea XmlTree XmlTree",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrAttribute",
           "package": "hxt-relaxng",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrAttribute",
           "package": "hxt-relaxng",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrCombine",
           "package": "hxt-relaxng",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrCombine",
           "package": "hxt-relaxng",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrDatatypeLibrary",
           "package": "hxt-relaxng",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrDatatypeLibrary",
           "package": "hxt-relaxng",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrDescr",
           "package": "hxt-relaxng",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrDescr",
           "package": "hxt-relaxng",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrHref",
           "package": "hxt-relaxng",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrHref",
           "package": "hxt-relaxng",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrName",
           "package": "hxt-relaxng",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrName",
           "package": "hxt-relaxng",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrNs",
           "package": "hxt-relaxng",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrNs",
           "package": "hxt-relaxng",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrType",
           "package": "hxt-relaxng",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "getRngAttrType",
           "package": "hxt-relaxng",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttName",
           "package": "hxt-relaxng",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttName",
           "normalized": "String-\u003ea XmlTree XmlTree",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrAttribute",
           "package": "hxt-relaxng",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrAttribute",
           "package": "hxt-relaxng",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrCombine",
           "package": "hxt-relaxng",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrCombine",
           "package": "hxt-relaxng",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrDatatypeLibrary",
           "package": "hxt-relaxng",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrDatatypeLibrary",
           "package": "hxt-relaxng",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrHref",
           "package": "hxt-relaxng",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrHref",
           "package": "hxt-relaxng",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrName",
           "package": "hxt-relaxng",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrName",
           "package": "hxt-relaxng",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrNs",
           "package": "hxt-relaxng",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrNs",
           "package": "hxt-relaxng",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrRelaxSimplificationChanges",
           "package": "hxt-relaxng",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrRelaxSimplificationChanges",
           "package": "hxt-relaxng",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrType",
           "package": "hxt-relaxng",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngAttrType",
           "package": "hxt-relaxng",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngElemName",
           "package": "hxt-relaxng",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "hasRngElemName",
           "normalized": "String-\u003ea XmlTree XmlTree",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isAttributeListGroupInterleaveOneOrMore",
           "package": "hxt-relaxng",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isAttributeListGroupInterleaveOneOrMore",
           "package": "hxt-relaxng",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isAttributeRef",
           "package": "hxt-relaxng",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isAttributeRef",
           "package": "hxt-relaxng",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isAttributeRefTextListGroupInterleaveOneOrMoreEmpty",
           "package": "hxt-relaxng",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isAttributeRefTextListGroupInterleaveOneOrMoreEmpty",
           "package": "hxt-relaxng",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isAttributeRefTextListInterleave",
           "package": "hxt-relaxng",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isAttributeRefTextListInterleave",
           "package": "hxt-relaxng",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isChoiceGroupInterleave",
           "package": "hxt-relaxng",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isChoiceGroupInterleave",
           "package": "hxt-relaxng",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isChoiceGroupInterleaveOneOrMore",
           "package": "hxt-relaxng",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isChoiceGroupInterleaveOneOrMore",
           "package": "hxt-relaxng",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isDefineOneOrMoreZeroOrMoreOptionalListMixed",
           "package": "hxt-relaxng",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isDefineOneOrMoreZeroOrMoreOptionalListMixed",
           "package": "hxt-relaxng",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isExternalRefInclude",
           "package": "hxt-relaxng",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isExternalRefInclude",
           "package": "hxt-relaxng",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isGroupInterleave",
           "package": "hxt-relaxng",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isGroupInterleave",
           "package": "hxt-relaxng",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isNameAnyNameNsName",
           "package": "hxt-relaxng",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isNameAnyNameNsName",
           "package": "hxt-relaxng",
@@ -781,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isNameNsName",
           "package": "hxt-relaxng",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isNameNsName",
           "package": "hxt-relaxng",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isNameNsNameValue",
           "package": "hxt-relaxng",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isNameNsNameValue",
           "package": "hxt-relaxng",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAnyName",
           "package": "hxt-relaxng",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAnyName",
           "package": "hxt-relaxng",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrAttribute",
           "package": "hxt-relaxng",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrAttribute",
           "package": "hxt-relaxng",
@@ -869,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrCombine",
           "package": "hxt-relaxng",
@@ -878,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrCombine",
           "package": "hxt-relaxng",
@@ -891,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrDatatypeLibrary",
           "package": "hxt-relaxng",
@@ -900,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrDatatypeLibrary",
           "package": "hxt-relaxng",
@@ -913,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrHref",
           "package": "hxt-relaxng",
@@ -922,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrHref",
           "package": "hxt-relaxng",
@@ -935,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrName",
           "package": "hxt-relaxng",
@@ -944,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrName",
           "package": "hxt-relaxng",
@@ -957,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrNs",
           "package": "hxt-relaxng",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrNs",
           "package": "hxt-relaxng",
@@ -979,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrRelaxSimplificationChanges",
           "package": "hxt-relaxng",
@@ -988,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrRelaxSimplificationChanges",
           "package": "hxt-relaxng",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrType",
           "package": "hxt-relaxng",
@@ -1010,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttrType",
           "package": "hxt-relaxng",
@@ -1023,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttribute",
           "package": "hxt-relaxng",
@@ -1032,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngAttribute",
           "package": "hxt-relaxng",
@@ -1045,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngChoice",
           "package": "hxt-relaxng",
@@ -1054,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngChoice",
           "package": "hxt-relaxng",
@@ -1067,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngCombine",
           "package": "hxt-relaxng",
@@ -1076,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngCombine",
           "package": "hxt-relaxng",
@@ -1089,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngData",
           "package": "hxt-relaxng",
@@ -1098,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngData",
           "package": "hxt-relaxng",
@@ -1111,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngDefine",
           "package": "hxt-relaxng",
@@ -1120,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngDefine",
           "package": "hxt-relaxng",
@@ -1133,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngDiv",
           "package": "hxt-relaxng",
@@ -1142,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngDiv",
           "package": "hxt-relaxng",
@@ -1155,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngElement",
           "package": "hxt-relaxng",
@@ -1164,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngElement",
           "package": "hxt-relaxng",
@@ -1177,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngEmpty",
           "package": "hxt-relaxng",
@@ -1186,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngEmpty",
           "package": "hxt-relaxng",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngExcept",
           "package": "hxt-relaxng",
@@ -1208,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngExcept",
           "package": "hxt-relaxng",
@@ -1221,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngExternalRef",
           "package": "hxt-relaxng",
@@ -1230,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngExternalRef",
           "package": "hxt-relaxng",
@@ -1243,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngGrammar",
           "package": "hxt-relaxng",
@@ -1252,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngGrammar",
           "package": "hxt-relaxng",
@@ -1265,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngGroup",
           "package": "hxt-relaxng",
@@ -1274,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngGroup",
           "package": "hxt-relaxng",
@@ -1287,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngInclude",
           "package": "hxt-relaxng",
@@ -1296,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngInclude",
           "package": "hxt-relaxng",
@@ -1309,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngInterleave",
           "package": "hxt-relaxng",
@@ -1318,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngInterleave",
           "package": "hxt-relaxng",
@@ -1331,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngList",
           "package": "hxt-relaxng",
@@ -1340,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngList",
           "package": "hxt-relaxng",
@@ -1353,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngMixed",
           "package": "hxt-relaxng",
@@ -1362,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngMixed",
           "package": "hxt-relaxng",
@@ -1375,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngName",
           "package": "hxt-relaxng",
@@ -1384,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngName",
           "package": "hxt-relaxng",
@@ -1397,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngNotAllowed",
           "package": "hxt-relaxng",
@@ -1406,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngNotAllowed",
           "package": "hxt-relaxng",
@@ -1419,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngNsName",
           "package": "hxt-relaxng",
@@ -1428,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngNsName",
           "package": "hxt-relaxng",
@@ -1441,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngOneOrMore",
           "package": "hxt-relaxng",
@@ -1450,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngOneOrMore",
           "package": "hxt-relaxng",
@@ -1463,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngOptional",
           "package": "hxt-relaxng",
@@ -1472,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngOptional",
           "package": "hxt-relaxng",
@@ -1485,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngParam",
           "package": "hxt-relaxng",
@@ -1494,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngParam",
           "package": "hxt-relaxng",
@@ -1507,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngParentRef",
           "package": "hxt-relaxng",
@@ -1516,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngParentRef",
           "package": "hxt-relaxng",
@@ -1529,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngRef",
           "package": "hxt-relaxng",
@@ -1538,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngRef",
           "package": "hxt-relaxng",
@@ -1551,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngRelaxError",
           "package": "hxt-relaxng",
@@ -1560,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngRelaxError",
           "package": "hxt-relaxng",
@@ -1573,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngStart",
           "package": "hxt-relaxng",
@@ -1582,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngStart",
           "package": "hxt-relaxng",
@@ -1595,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngText",
           "package": "hxt-relaxng",
@@ -1604,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngText",
           "package": "hxt-relaxng",
@@ -1617,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngType",
           "package": "hxt-relaxng",
@@ -1626,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngType",
           "package": "hxt-relaxng",
@@ -1639,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngValue",
           "package": "hxt-relaxng",
@@ -1648,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngValue",
           "package": "hxt-relaxng",
@@ -1661,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngZeroOrMore",
           "package": "hxt-relaxng",
@@ -1670,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "isRngZeroOrMore",
           "package": "hxt-relaxng",
@@ -1683,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttr",
           "package": "hxt-relaxng",
@@ -1692,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttr",
           "normalized": "String-\u003ea b String-\u003ea b XmlTree",
@@ -1707,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttrContextBase",
           "package": "hxt-relaxng",
@@ -1716,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttrContextBase",
           "normalized": "a b String-\u003ea b XmlTree",
@@ -1731,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttrDefineOrigName",
           "package": "hxt-relaxng",
@@ -1740,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttrDefineOrigName",
           "normalized": "String-\u003ea b XmlTree",
@@ -1755,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttrName",
           "package": "hxt-relaxng",
@@ -1764,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttrName",
           "normalized": "String-\u003ea b XmlTree",
@@ -1779,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttrRelaxSimplificationChanges",
           "package": "hxt-relaxng",
@@ -1788,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngAttrRelaxSimplificationChanges",
           "normalized": "String-\u003ea b XmlTree",
@@ -1803,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngChoice",
           "package": "hxt-relaxng",
@@ -1812,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngChoice",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -1827,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngDefine",
           "package": "hxt-relaxng",
@@ -1836,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngDefine",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -1851,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngElement",
           "package": "hxt-relaxng",
@@ -1860,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngElement",
           "normalized": "String-\u003ea b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -1875,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngEmpty",
           "package": "hxt-relaxng",
@@ -1884,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngEmpty",
           "normalized": "a b XmlTree-\u003ea b XmlTree",
@@ -1899,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngGrammar",
           "package": "hxt-relaxng",
@@ -1908,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngGrammar",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -1923,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngGroup",
           "package": "hxt-relaxng",
@@ -1932,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngGroup",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -1947,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngInterleave",
           "package": "hxt-relaxng",
@@ -1956,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngInterleave",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -1971,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngName",
           "package": "hxt-relaxng",
@@ -1980,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngName",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -1995,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngNotAllowed",
           "package": "hxt-relaxng",
@@ -2004,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngNotAllowed",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -2019,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngOneOrMore",
           "package": "hxt-relaxng",
@@ -2028,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngOneOrMore",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -2043,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngRef",
           "package": "hxt-relaxng",
@@ -2052,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngRef",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -2067,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngRelaxError",
           "package": "hxt-relaxng",
@@ -2076,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngRelaxError",
           "package": "hxt-relaxng",
@@ -2089,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngStart",
           "package": "hxt-relaxng",
@@ -2098,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngStart",
           "normalized": "a b XmlTree-\u003ea b XmlTree-\u003ea b XmlTree",
@@ -2113,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngText",
           "package": "hxt-relaxng",
@@ -2122,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "mkRngText",
           "normalized": "a b XmlTree-\u003ea b XmlTree",
@@ -2137,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "noOfChildren",
           "package": "hxt-relaxng",
@@ -2146,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "noOfChildren",
           "normalized": "(Int-\u003eBool)-\u003ea XmlTree XmlTree",
@@ -2161,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "rmRngAttrNs",
           "package": "hxt-relaxng",
@@ -2170,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "rmRngAttrNs",
           "package": "hxt-relaxng",
@@ -2183,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "setRngName",
           "package": "hxt-relaxng",
@@ -2192,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "setRngName",
           "normalized": "String-\u003ea XmlTree XmlTree",
@@ -2207,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "setRngNameDiv",
           "package": "hxt-relaxng",
@@ -2216,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "setRngNameDiv",
           "package": "hxt-relaxng",
@@ -2229,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "setRngNameRef",
           "package": "hxt-relaxng",
@@ -2238,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG BasicArrows",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.BasicArrows",
           "name": "setRngNameRef",
           "package": "hxt-relaxng",
@@ -2252,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreates the \u003ccode\u003e\u003ca\u003ePattern\u003c/a\u003e\u003c/code\u003e datastructure from a simplified Relax NG schema.\n The created datastructure is used in the validation algorithm\n (see also: \u003ca\u003eText.XML.HXT.RelaxNG.Validation\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "CreatePattern",
           "package": "hxt-relaxng",
@@ -2261,6 +2460,7 @@
         "index": {
           "description": "Creates the Pattern datastructure from simplified Relax NG schema The created datastructure is used in the validation algorithm see also Text.XML.HXT.RelaxNG.Validation",
           "hierarchy": "Text XML HXT RelaxNG CreatePattern",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "CreatePattern",
           "package": "hxt-relaxng",
@@ -2275,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eNameClass\u003c/a\u003e\u003c/code\u003e from an \"anyName\"-, \"nsName\"- or  \"name\"-Pattern,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "createNameClass",
           "package": "hxt-relaxng",
@@ -2285,6 +2486,7 @@
         "index": {
           "description": "Creates NameClass from an anyName nsName or name Pattern",
           "hierarchy": "Text XML HXT RelaxNG CreatePattern",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "createNameClass",
           "package": "hxt-relaxng",
@@ -2299,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the \u003ccode\u003e\u003ca\u003ePattern\u003c/a\u003e\u003c/code\u003e datastructure from a simplified Relax NG schema.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "createPatternFromXmlTree",
           "package": "hxt-relaxng",
@@ -2309,6 +2512,7 @@
         "index": {
           "description": "Creates the Pattern datastructure from simplified Relax NG schema",
           "hierarchy": "Text XML HXT RelaxNG CreatePattern",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "createPatternFromXmlTree",
           "package": "hxt-relaxng",
@@ -2323,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple access arrows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "firstChild",
           "package": "hxt-relaxng",
@@ -2333,6 +2538,7 @@
         "index": {
           "description": "Simple access arrows",
           "hierarchy": "Text XML HXT RelaxNG CreatePattern",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "firstChild",
           "package": "hxt-relaxng",
@@ -2346,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "lastChild",
           "package": "hxt-relaxng",
@@ -2355,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG CreatePattern",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.CreatePattern",
           "name": "lastChild",
           "package": "hxt-relaxng",
@@ -2369,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatype library for the MySQL datatypes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibMysql",
           "name": "DataTypeLibMysql",
           "package": "hxt-relaxng",
@@ -2378,6 +2587,7 @@
         "index": {
           "description": "Datatype library for the MySQL datatypes",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibMysql",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibMysql",
           "name": "DataTypeLibMysql",
           "package": "hxt-relaxng",
@@ -2392,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main entry point to the MySQL datatype library.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDTC\u003c/a\u003e\u003c/code\u003e constructor exports the list of supported datatypes and params.\n It also exports the specialized functions to validate a XML instance value with\n respect to a datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibMysql",
           "name": "mysqlDatatypeLib",
           "package": "hxt-relaxng",
@@ -2402,6 +2613,7 @@
         "index": {
           "description": "The main entry point to the MySQL datatype library The DTC constructor exports the list of supported datatypes and params It also exports the specialized functions to validate XML instance value with respect to datatype",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibMysql",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibMysql",
           "name": "mysqlDatatypeLib",
           "package": "hxt-relaxng",
@@ -2416,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespace of the MySQL datatype library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibMysql",
           "name": "mysqlNS",
           "package": "hxt-relaxng",
@@ -2426,6 +2639,7 @@
         "index": {
           "description": "Namespace of the MySQL datatype library",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibMysql",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibMysql",
           "name": "mysqlNS",
           "package": "hxt-relaxng",
@@ -2440,6 +2654,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eexports helper functions for the integration of new datatype-libraries\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "DataTypeLibUtils",
           "package": "hxt-relaxng",
@@ -2449,6 +2664,7 @@
         "index": {
           "description": "exports helper functions for the integration of new datatype-libraries",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "DataTypeLibUtils",
           "package": "hxt-relaxng",
@@ -2462,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "CheckA",
           "package": "hxt-relaxng",
@@ -2470,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "CheckA",
           "package": "hxt-relaxng",
@@ -2483,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "CheckInteger",
           "package": "hxt-relaxng",
@@ -2491,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "CheckInteger",
           "package": "hxt-relaxng",
@@ -2504,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "CheckString",
           "package": "hxt-relaxng",
@@ -2512,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "CheckString",
           "package": "hxt-relaxng",
@@ -2526,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction table type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "FunctionTable",
           "package": "hxt-relaxng",
@@ -2535,6 +2758,7 @@
         "index": {
           "description": "Function table type",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "FunctionTable",
           "package": "hxt-relaxng",
@@ -2549,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform a simple check with a predicate p,\n   when the predicate holds, assert acts as identity,\n   else an error message is generated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "assert",
           "package": "hxt-relaxng",
@@ -2559,6 +2784,7 @@
         "index": {
           "description": "perform simple check with predicate when the predicate holds assert acts as identity else an error message is generated",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "assert",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eString)-\u003eCheckA a a",
@@ -2574,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform a simple check with a Maybe function, Nothing indicates error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "assertMaybe",
           "package": "hxt-relaxng",
@@ -2584,6 +2811,7 @@
         "index": {
           "description": "perform simple check with Maybe function Nothing indicates error",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "assertMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003e(a-\u003eString)-\u003eCheckA a b",
@@ -2600,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform a check, but convert the value before checking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "checkWith",
           "package": "hxt-relaxng",
@@ -2610,6 +2839,7 @@
         "index": {
           "description": "perform check but convert the value before checking",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "checkWith",
           "normalized": "(a-\u003eb)-\u003eCheckA b c-\u003eCheckA a a",
@@ -2625,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgDataLibQName",
           "package": "hxt-relaxng",
@@ -2634,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgDataLibQName",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -2649,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgDataTypeNotAllowed",
           "package": "hxt-relaxng",
@@ -2658,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgDataTypeNotAllowed",
           "normalized": "String-\u003eString-\u003e[(String,String)]-\u003eString-\u003eString",
@@ -2673,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgDataTypeNotAllowed0",
           "package": "hxt-relaxng",
@@ -2682,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgDataTypeNotAllowed0",
           "normalized": "String-\u003eString-\u003eString",
@@ -2697,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgDataTypeNotAllowed2",
           "package": "hxt-relaxng",
@@ -2706,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgDataTypeNotAllowed2",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eString",
@@ -2721,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgEqual",
           "package": "hxt-relaxng",
@@ -2730,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgEqual",
           "normalized": "DatatypeName-\u003eString-\u003eString-\u003eString",
@@ -2746,6 +2986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError Message for the equality test of two datatype values\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter  :  datatype\n\u003c/li\u003e\u003cli\u003e 2.parameter  :  datatype value\n\u003c/li\u003e\u003cli\u003e 3.parameter  :  datatype value\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eexample:\n\u003c/p\u003e\u003cpre\u003e errorMsgEqual \"Int\" \"21\" \"42\" -\u003e \"Datatype Int with value = 21 expected, but value = 42 found\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgParam",
           "package": "hxt-relaxng",
@@ -2756,6 +2997,7 @@
         "index": {
           "description": "Error Message for the equality test of two datatype values parameter datatype parameter datatype value parameter datatype value example errorMsgEqual Int Datatype Int with value expected but value found",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "errorMsgParam",
           "normalized": "LocalName-\u003eString-\u003eString-\u003eString",
@@ -2772,6 +3014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealways failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "failure",
           "package": "hxt-relaxng",
@@ -2782,6 +3025,7 @@
         "index": {
           "description": "always failure",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "failure",
           "normalized": "(a-\u003eString)-\u003eCheckA a b",
@@ -2797,6 +3041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction table for list tests,\n XML document value is first operand, schema value second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "fctTableList",
           "package": "hxt-relaxng",
@@ -2807,6 +3052,7 @@
         "index": {
           "description": "Function table for list tests XML document value is first operand schema value second",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "fctTableList",
           "package": "hxt-relaxng",
@@ -2821,6 +3067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction table for string tests,\n XML document value is first operand, schema value second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "fctTableString",
           "package": "hxt-relaxng",
@@ -2831,6 +3078,7 @@
         "index": {
           "description": "Function table for string tests XML document value is first operand schema value second",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "fctTableString",
           "package": "hxt-relaxng",
@@ -2845,6 +3093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etests whether a string value matches a numeric param\n\u003c/p\u003e\u003cp\u003evalid example:\n\u003c/p\u003e\u003cpre\u003e \u003cdata type=\"CHAR\"\u003e \u003cparam name=\"maxLength\"\u003e5\u003c/param\u003e \u003c/data\u003e\n\u003c/pre\u003e\u003cp\u003einvalid example:\n\u003c/p\u003e\u003cpre\u003e \u003cdata type=\"CHAR\"\u003e \u003cparam name=\"minLength\"\u003efoo\u003c/param\u003e \u003c/data\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "numParamValid",
           "package": "hxt-relaxng",
@@ -2855,6 +3104,7 @@
         "index": {
           "description": "tests whether string value matches numeric param valid example data type CHAR param name maxLength param data invalid example data type CHAR param name minLength foo param data",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "numParamValid",
           "normalized": "(Integer-\u003eInteger-\u003eBool)-\u003eString-\u003eString-\u003eBool",
@@ -2871,6 +3121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether a \"numeric\" datatype value is between the lower and upper\nbound of the datatype and matches all parameters.\n\u003c/p\u003e\u003cp\u003eFirst, the string value is parsed into a numeric representation.\nIf no error occur, all following tests are performed on the numeric value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter  :  datatype\n\u003c/li\u003e\u003cli\u003e 2.parameter  :  lower bound of the datatype range\n\u003c/li\u003e\u003cli\u003e 3.parameter  :  upper bound of the datatype range (-1 = no upper bound)\n\u003c/li\u003e\u003cli\u003e 4.parameter  :  list of parameters\n\u003c/li\u003e\u003cli\u003e 5.parameter  :  datatype value to be checked\n\u003c/li\u003e\u003cli\u003e return : Just \"Errormessage\" in case of an error, else Nothing\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "numberValid",
           "package": "hxt-relaxng",
@@ -2881,6 +3132,7 @@
         "index": {
           "description": "Tests whether numeric datatype value is between the lower and upper bound of the datatype and matches all parameters First the string value is parsed into numeric representation If no error occur all following tests are performed on the numeric value parameter datatype parameter lower bound of the datatype range parameter upper bound of the datatype range no upper bound parameter list of parameters parameter datatype value to be checked return Just Errormessage in case of an error else Nothing",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "numberValid",
           "normalized": "DatatypeName-\u003eInteger-\u003eInteger-\u003eParamList-\u003eCheckString",
@@ -2897,6 +3149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevery thing is fine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "ok",
           "package": "hxt-relaxng",
@@ -2907,6 +3160,7 @@
         "index": {
           "description": "every thing is fine",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "ok",
           "package": "hxt-relaxng",
@@ -2920,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a check and deliver Just an error message or Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "performCheck",
           "package": "hxt-relaxng",
@@ -2930,6 +3185,7 @@
         "index": {
           "description": "run check and deliver Just an error message or Nothing",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "performCheck",
           "normalized": "CheckA a b-\u003ea-\u003eMaybe String",
@@ -2945,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_length",
           "package": "hxt-relaxng",
@@ -2954,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_length",
           "package": "hxt-relaxng",
@@ -2966,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_maxExclusive",
           "package": "hxt-relaxng",
@@ -2975,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_maxExclusive",
           "package": "hxt-relaxng",
@@ -2988,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_maxInclusive",
           "package": "hxt-relaxng",
@@ -2997,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_maxInclusive",
           "package": "hxt-relaxng",
@@ -3010,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_maxLength",
           "package": "hxt-relaxng",
@@ -3019,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_maxLength",
           "package": "hxt-relaxng",
@@ -3032,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_minExclusive",
           "package": "hxt-relaxng",
@@ -3041,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_minExclusive",
           "package": "hxt-relaxng",
@@ -3054,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_minInclusive",
           "package": "hxt-relaxng",
@@ -3063,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_minInclusive",
           "package": "hxt-relaxng",
@@ -3076,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_minLength",
           "package": "hxt-relaxng",
@@ -3085,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "rng_minLength",
           "package": "hxt-relaxng",
@@ -3099,6 +3369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether a \"string\" datatype value is between the lower and\nupper bound of the datatype and matches all parameters.\n\u003c/p\u003e\u003cp\u003eAll tests are performed on the string value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter  :  datatype\n\u003c/li\u003e\u003cli\u003e 2.parameter  :  lower bound of the datatype range\n\u003c/li\u003e\u003cli\u003e 3.parameter  :  upper bound of the datatype range (-1 = no upper bound)\n\u003c/li\u003e\u003cli\u003e 4.parameter  :  list of parameters\n\u003c/li\u003e\u003cli\u003e 5.parameter  :  datatype value to be checked\n\u003c/li\u003e\u003cli\u003e return : Just \"Errormessage\" in case of an error, else Nothing\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "stringValid",
           "package": "hxt-relaxng",
@@ -3109,6 +3380,7 @@
         "index": {
           "description": "Tests whether string datatype value is between the lower and upper bound of the datatype and matches all parameters All tests are performed on the string value parameter datatype parameter lower bound of the datatype range parameter upper bound of the datatype range no upper bound parameter list of parameters parameter datatype value to be checked return Just Errormessage in case of an error else Nothing",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "stringValid",
           "normalized": "DatatypeName-\u003eInteger-\u003eInteger-\u003eParamList-\u003eCheckString",
@@ -3124,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "stringValidFT",
           "package": "hxt-relaxng",
@@ -3133,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibUtils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibUtils",
           "name": "stringValidFT",
           "normalized": "FunctionTable-\u003eDatatypeName-\u003eInteger-\u003eInteger-\u003eParamList-\u003eCheckString",
@@ -3149,6 +3423,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modul exports the list of supported datatype libraries.\n It also exports the main functions to validate an XML instance value\n with respect to a datatype.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibraries",
           "name": "DataTypeLibraries",
           "package": "hxt-relaxng",
@@ -3158,6 +3433,7 @@
         "index": {
           "description": "This modul exports the list of supported datatype libraries It also exports the main functions to validate an XML instance value with respect to datatype",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibraries",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibraries",
           "name": "DataTypeLibraries",
           "package": "hxt-relaxng",
@@ -3172,6 +3448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether a XML instance value matches a data-pattern.\n\u003c/p\u003e\u003cp\u003eThe following tests are performed:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1. :  does the uri exist in the list of supported datatype libraries\n\u003c/li\u003e\u003cli\u003e 2. :  does the library support the datatype\n\u003c/li\u003e\u003cli\u003e 3. :  does the XML instance value match the data-pattern\n\u003c/li\u003e\u003cli\u003e 4. :  does the XML instance value match all params\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe hard work is done by the specialized \u003ccode\u003e\u003ca\u003eDatatypeAllows\u003c/a\u003e\u003c/code\u003e function\n(see also: \u003ccode\u003e\u003ca\u003eDatatypeCheck\u003c/a\u003e\u003c/code\u003e) of the datatype library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibraries",
           "name": "datatypeAllows",
           "package": "hxt-relaxng",
@@ -3182,6 +3459,7 @@
         "index": {
           "description": "Tests whether XML instance value matches data-pattern The following tests are performed does the uri exist in the list of supported datatype libraries does the library support the datatype does the XML instance value match the data-pattern does the XML instance value match all params The hard work is done by the specialized DatatypeAllows function see also DatatypeCheck of the datatype library",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibraries",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibraries",
           "name": "datatypeAllows",
           "normalized": "Uri-\u003eDatatypeAllows",
@@ -3198,6 +3476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether a XML instance value matches a value-pattern.\n\u003c/p\u003e\u003cp\u003eThe following tests are performed:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1. :  does the uri exist in the list of supported datatype libraries\n\u003c/li\u003e\u003cli\u003e 2. :  does the library support the datatype\n\u003c/li\u003e\u003cli\u003e 3. :  does the XML instance value match the value-pattern\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe hard work is done by the specialized \u003ccode\u003e\u003ca\u003eDatatypeEqual\u003c/a\u003e\u003c/code\u003e function\n(see also: \u003ccode\u003e\u003ca\u003eDatatypeCheck\u003c/a\u003e\u003c/code\u003e) of the datatype library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibraries",
           "name": "datatypeEqual",
           "package": "hxt-relaxng",
@@ -3208,6 +3487,7 @@
         "index": {
           "description": "Tests whether XML instance value matches value-pattern The following tests are performed does the uri exist in the list of supported datatype libraries does the library support the datatype does the XML instance value match the value-pattern The hard work is done by the specialized DatatypeEqual function see also DatatypeCheck of the datatype library",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibraries",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibraries",
           "name": "datatypeEqual",
           "normalized": "Uri-\u003eDatatypeEqual",
@@ -3224,6 +3504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all supported datatype libraries which can be\n used within the Relax NG validator modul.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibraries",
           "name": "datatypeLibraries",
           "package": "hxt-relaxng",
@@ -3234,6 +3515,7 @@
         "index": {
           "description": "List of all supported datatype libraries which can be used within the Relax NG validator modul",
           "hierarchy": "Text XML HXT RelaxNG DataTypeLibraries",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypeLibraries",
           "name": "datatypeLibraries",
           "package": "hxt-relaxng",
@@ -3247,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DataTypes",
           "package": "hxt-relaxng",
@@ -3255,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DataTypes",
           "package": "hxt-relaxng",
@@ -3269,6 +3553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all supported datatypes and there allowed params\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "AllowedDatatypes",
           "package": "hxt-relaxng",
@@ -3278,6 +3563,7 @@
         "index": {
           "description": "List of all supported datatypes and there allowed params",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "AllowedDatatypes",
           "package": "hxt-relaxng",
@@ -3292,6 +3578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all supported params for a datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "AllowedParams",
           "package": "hxt-relaxng",
@@ -3301,6 +3588,7 @@
         "index": {
           "description": "List of all supported params for datatype",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "AllowedParams",
           "package": "hxt-relaxng",
@@ -3315,6 +3603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible content types of a Relax NG pattern.\n (see also chapter 7.2 in Relax NG specification)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ContentType",
           "package": "hxt-relaxng",
@@ -3324,6 +3613,7 @@
         "index": {
           "description": "Possible content types of Relax NG pattern see also chapter in Relax NG specification",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ContentType",
           "package": "hxt-relaxng",
@@ -3338,6 +3628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Context represents the context of an XML element.\n It consists of a base URI and a mapping from prefixes to namespace URIs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Context",
           "package": "hxt-relaxng",
@@ -3347,6 +3638,7 @@
         "index": {
           "description": "Context represents the context of an XML element It consists of base URI and mapping from prefixes to namespace URIs",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Context",
           "package": "hxt-relaxng",
@@ -3361,6 +3653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Datatype identifies a datatype by a datatype library name and a local name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Datatype",
           "package": "hxt-relaxng",
@@ -3370,6 +3663,7 @@
         "index": {
           "description": "Datatype identifies datatype by datatype library name and local name",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Datatype",
           "package": "hxt-relaxng",
@@ -3384,6 +3678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of all datatype libraries functions that tests whether\n a XML instance value matches a data-pattern.\n\u003c/p\u003e\u003cp\u003eReturns Just \"errorMessage\" in case of an error else Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeAllows",
           "package": "hxt-relaxng",
@@ -3393,6 +3688,7 @@
         "index": {
           "description": "Type of all datatype libraries functions that tests whether XML instance value matches data-pattern Returns Just errorMessage in case of an error else Nothing",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeAllows",
           "package": "hxt-relaxng",
@@ -3407,6 +3703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Constructor exports the list of supported datatypes for a library.\n It also exports the specialized datatype library functions to validate\n a XML instance value with respect to a datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeCheck",
           "package": "hxt-relaxng",
@@ -3416,6 +3713,7 @@
         "index": {
           "description": "The Constructor exports the list of supported datatypes for library It also exports the specialized datatype library functions to validate XML instance value with respect to datatype",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeCheck",
           "package": "hxt-relaxng",
@@ -3430,6 +3728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of all datatype libraries functions that tests whether\n a XML instance value matches a value-pattern.\n\u003c/p\u003e\u003cp\u003eReturns Just \"errorMessage\" in case of an error else Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeEqual",
           "package": "hxt-relaxng",
@@ -3439,6 +3738,7 @@
         "index": {
           "description": "Type of all datatype libraries functions that tests whether XML instance value matches value-pattern Returns Just errorMessage in case of an error else Nothing",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeEqual",
           "package": "hxt-relaxng",
@@ -3453,6 +3753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all supported datatype libraries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeLibraries",
           "package": "hxt-relaxng",
@@ -3462,6 +3763,7 @@
         "index": {
           "description": "List of all supported datatype libraries",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeLibraries",
           "package": "hxt-relaxng",
@@ -3476,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach datatype library is identified by a URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeLibrary",
           "package": "hxt-relaxng",
@@ -3485,6 +3788,7 @@
         "index": {
           "description": "Each datatype library is identified by URI",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeLibrary",
           "package": "hxt-relaxng",
@@ -3498,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeName",
           "package": "hxt-relaxng",
@@ -3506,6 +3811,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DatatypeName",
           "package": "hxt-relaxng",
@@ -3519,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Env",
           "package": "hxt-relaxng",
@@ -3527,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Env",
           "package": "hxt-relaxng",
@@ -3540,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ErrLevel",
           "package": "hxt-relaxng",
@@ -3548,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ErrLevel",
           "package": "hxt-relaxng",
@@ -3561,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ErrMessage",
           "package": "hxt-relaxng",
@@ -3569,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ErrMessage",
           "package": "hxt-relaxng",
@@ -3582,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "LocalName",
           "package": "hxt-relaxng",
@@ -3590,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "LocalName",
           "package": "hxt-relaxng",
@@ -3604,6 +3918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a name class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NameClass",
           "package": "hxt-relaxng",
@@ -3613,6 +3928,7 @@
         "index": {
           "description": "Represents name class",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NameClass",
           "package": "hxt-relaxng",
@@ -3626,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NamePair",
           "package": "hxt-relaxng",
@@ -3634,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NamePair",
           "package": "hxt-relaxng",
@@ -3647,6 +3965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NewName",
           "package": "hxt-relaxng",
@@ -3655,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NewName",
           "package": "hxt-relaxng",
@@ -3668,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "OldName",
           "package": "hxt-relaxng",
@@ -3676,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "OldName",
           "package": "hxt-relaxng",
@@ -3690,6 +4012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of parameters; each parameter is a pair consisting of a local name and a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ParamList",
           "package": "hxt-relaxng",
@@ -3699,6 +4022,7 @@
         "index": {
           "description": "List of parameters each parameter is pair consisting of local name and value",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ParamList",
           "package": "hxt-relaxng",
@@ -3712,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ParamName",
           "package": "hxt-relaxng",
@@ -3720,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ParamName",
           "package": "hxt-relaxng",
@@ -3734,6 +4060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a pattern after simplification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Pattern",
           "package": "hxt-relaxng",
@@ -3743,6 +4070,7 @@
         "index": {
           "description": "Represents pattern after simplification",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Pattern",
           "package": "hxt-relaxng",
@@ -3756,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Prefix",
           "package": "hxt-relaxng",
@@ -3764,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Prefix",
           "package": "hxt-relaxng",
@@ -3777,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "RefList",
           "package": "hxt-relaxng",
@@ -3785,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "RefList",
           "package": "hxt-relaxng",
@@ -3798,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Uri",
           "package": "hxt-relaxng",
@@ -3806,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Uri",
           "package": "hxt-relaxng",
@@ -3819,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "After",
           "package": "hxt-relaxng",
@@ -3828,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "After",
           "package": "hxt-relaxng",
@@ -3841,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "AnyName",
           "package": "hxt-relaxng",
@@ -3850,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "AnyName",
           "package": "hxt-relaxng",
@@ -3863,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "AnyNameExcept",
           "package": "hxt-relaxng",
@@ -3872,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "AnyNameExcept",
           "package": "hxt-relaxng",
@@ -3885,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Attribute",
           "package": "hxt-relaxng",
@@ -3894,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Attribute",
           "package": "hxt-relaxng",
@@ -3907,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "CTComplex",
           "package": "hxt-relaxng",
@@ -3916,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "CTComplex",
           "package": "hxt-relaxng",
@@ -3929,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "CTEmpty",
           "package": "hxt-relaxng",
@@ -3938,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "CTEmpty",
           "package": "hxt-relaxng",
@@ -3951,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "CTNone",
           "package": "hxt-relaxng",
@@ -3960,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "CTNone",
           "package": "hxt-relaxng",
@@ -3973,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "CTSimple",
           "package": "hxt-relaxng",
@@ -3982,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "CTSimple",
           "package": "hxt-relaxng",
@@ -3995,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Choice",
           "package": "hxt-relaxng",
@@ -4004,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Choice",
           "package": "hxt-relaxng",
@@ -4017,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DTC",
           "package": "hxt-relaxng",
@@ -4026,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DTC",
           "package": "hxt-relaxng",
@@ -4039,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Data",
           "package": "hxt-relaxng",
@@ -4048,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Data",
           "package": "hxt-relaxng",
@@ -4061,6 +4417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DataExcept",
           "package": "hxt-relaxng",
@@ -4070,6 +4427,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "DataExcept",
           "package": "hxt-relaxng",
@@ -4083,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Element",
           "package": "hxt-relaxng",
@@ -4092,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Element",
           "package": "hxt-relaxng",
@@ -4105,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Empty",
           "package": "hxt-relaxng",
@@ -4114,6 +4475,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Empty",
           "package": "hxt-relaxng",
@@ -4127,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ErrMsg",
           "package": "hxt-relaxng",
@@ -4136,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "ErrMsg",
           "normalized": "ErrMsg ErrLevel[String]",
@@ -4151,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Group",
           "package": "hxt-relaxng",
@@ -4160,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Group",
           "package": "hxt-relaxng",
@@ -4173,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Interleave",
           "package": "hxt-relaxng",
@@ -4182,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Interleave",
           "package": "hxt-relaxng",
@@ -4195,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "List",
           "package": "hxt-relaxng",
@@ -4204,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "List",
           "package": "hxt-relaxng",
@@ -4217,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NCError",
           "package": "hxt-relaxng",
@@ -4226,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NCError",
           "package": "hxt-relaxng",
@@ -4239,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Name",
           "package": "hxt-relaxng",
@@ -4248,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Name",
           "package": "hxt-relaxng",
@@ -4261,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NameClassChoice",
           "package": "hxt-relaxng",
@@ -4270,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NameClassChoice",
           "package": "hxt-relaxng",
@@ -4283,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NotAllowed",
           "package": "hxt-relaxng",
@@ -4292,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NotAllowed",
           "package": "hxt-relaxng",
@@ -4305,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NsName",
           "package": "hxt-relaxng",
@@ -4314,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NsName",
           "package": "hxt-relaxng",
@@ -4327,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NsNameExcept",
           "package": "hxt-relaxng",
@@ -4336,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "NsNameExcept",
           "package": "hxt-relaxng",
@@ -4349,6 +4731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "OneOrMore",
           "package": "hxt-relaxng",
@@ -4358,6 +4741,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "OneOrMore",
           "package": "hxt-relaxng",
@@ -4371,6 +4755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Text",
           "package": "hxt-relaxng",
@@ -4380,6 +4765,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Text",
           "package": "hxt-relaxng",
@@ -4393,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Value",
           "package": "hxt-relaxng",
@@ -4402,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "Value",
           "package": "hxt-relaxng",
@@ -4415,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "a_numberOfErrors",
           "package": "hxt-relaxng",
@@ -4424,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "a_numberOfErrors",
           "package": "hxt-relaxng",
@@ -4437,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "a_output_changes",
           "package": "hxt-relaxng",
@@ -4446,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "a_output_changes",
           "package": "hxt-relaxng",
@@ -4458,6 +4850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "a_relaxSimplificationChanges",
           "package": "hxt-relaxng",
@@ -4467,6 +4860,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "a_relaxSimplificationChanges",
           "package": "hxt-relaxng",
@@ -4481,6 +4875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for After\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "after",
           "package": "hxt-relaxng",
@@ -4491,6 +4886,7 @@
         "index": {
           "description": "smart constructor for After",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "after",
           "normalized": "Pattern-\u003ePattern-\u003ePattern",
@@ -4506,6 +4902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for Choice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "choice",
           "package": "hxt-relaxng",
@@ -4516,6 +4913,7 @@
         "index": {
           "description": "smart constructor for Choice",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "choice",
           "normalized": "Pattern-\u003ePattern-\u003ePattern",
@@ -4531,6 +4929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart of a context attribute value\n (see also: \u003ccode\u003eText.XML.HXT.RelaxNG.Simplification.simplificationStep1\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eThe value is always followed by the original attribute name and value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "contextAttributes",
           "package": "hxt-relaxng",
@@ -4541,6 +4940,7 @@
         "index": {
           "description": "Start of context attribute value see also Text.XML.HXT.RelaxNG.Simplification.simplificationStep1 The value is always followed by the original attribute name and value",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "contextAttributes",
           "package": "hxt-relaxng",
@@ -4554,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "contextAttributesDefault",
           "package": "hxt-relaxng",
@@ -4563,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "contextAttributesDefault",
           "package": "hxt-relaxng",
@@ -4577,6 +4979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart of base uri attribute value\n (see also: \u003ccode\u003esimplificationStep1\u003c/code\u003e in \u003ca\u003eText.XML.HXT.RelaxNG.Simplification\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "contextBaseAttr",
           "package": "hxt-relaxng",
@@ -4587,6 +4990,7 @@
         "index": {
           "description": "Start of base uri attribute value see also simplificationStep1 in Text.XML.HXT.RelaxNG.Simplification",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "contextBaseAttr",
           "package": "hxt-relaxng",
@@ -4600,6 +5004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "defineOrigName",
           "package": "hxt-relaxng",
@@ -4609,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "defineOrigName",
           "package": "hxt-relaxng",
@@ -4623,6 +5029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of all supported params for a datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "dtAllowedTypes",
           "package": "hxt-relaxng",
@@ -4633,6 +5040,7 @@
         "index": {
           "description": "list of all supported params for datatype",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "dtAllowedTypes",
           "package": "hxt-relaxng",
@@ -4647,6 +5055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction to test whether a value matches a data-pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "dtAllowsFct",
           "package": "hxt-relaxng",
@@ -4657,6 +5066,7 @@
         "index": {
           "description": "function to test whether value matches data-pattern",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "dtAllowsFct",
           "package": "hxt-relaxng",
@@ -4671,6 +5081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction to test whether a value matches a value-pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "dtEqualFct",
           "package": "hxt-relaxng",
@@ -4681,6 +5092,7 @@
         "index": {
           "description": "function to test whether value matches value-pattern",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "dtEqualFct",
           "package": "hxt-relaxng",
@@ -4695,6 +5107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for Group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "group",
           "package": "hxt-relaxng",
@@ -4705,6 +5118,7 @@
         "index": {
           "description": "smart constructor for Group",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "group",
           "normalized": "Pattern-\u003ePattern-\u003ePattern",
@@ -4720,6 +5134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for Interleave\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "interleave",
           "package": "hxt-relaxng",
@@ -4730,6 +5145,7 @@
         "index": {
           "description": "smart constructor for Interleave",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "interleave",
           "normalized": "Pattern-\u003ePattern-\u003ePattern",
@@ -4745,6 +5161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emerge error messages\n\u003c/p\u003e\u003cp\u003eIf error levels are different, the more important is taken,\n if level is 2 (max level) both error messages are taken\n else the 1. error mesage is taken\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "mergeNotAllowed",
           "package": "hxt-relaxng",
@@ -4755,6 +5172,7 @@
         "index": {
           "description": "merge error messages If error levels are different the more important is taken if level is max level both error messages are taken else the error mesage is taken",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "mergeNotAllowed",
           "normalized": "Pattern-\u003ePattern-\u003ePattern",
@@ -4771,6 +5189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for NotAllowed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "notAllowed",
           "package": "hxt-relaxng",
@@ -4781,6 +5200,7 @@
         "index": {
           "description": "smart constructor for NotAllowed",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "notAllowed",
           "normalized": "String-\u003ePattern",
@@ -4796,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "notAllowed1",
           "package": "hxt-relaxng",
@@ -4805,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "notAllowed1",
           "normalized": "String-\u003ePattern",
@@ -4820,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "notAllowed2",
           "package": "hxt-relaxng",
@@ -4829,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "notAllowed2",
           "normalized": "String-\u003ePattern",
@@ -4844,6 +5268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "notAllowedN",
           "package": "hxt-relaxng",
@@ -4853,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "notAllowedN",
           "normalized": "ErrLevel-\u003eString-\u003ePattern",
@@ -4869,6 +5295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for OneOrMore\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "oneOrMore",
           "package": "hxt-relaxng",
@@ -4879,6 +5306,7 @@
         "index": {
           "description": "smart constructor for OneOrMore",
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "oneOrMore",
           "normalized": "Pattern-\u003ePattern",
@@ -4894,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "relaxSchemaFile",
           "package": "hxt-relaxng",
@@ -4903,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "relaxSchemaFile",
           "package": "hxt-relaxng",
@@ -4916,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "relaxSchemaGrammarFile",
           "package": "hxt-relaxng",
@@ -4925,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "relaxSchemaGrammarFile",
           "package": "hxt-relaxng",
@@ -4938,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "showDatatype",
           "package": "hxt-relaxng",
@@ -4947,6 +5380,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG DataTypes",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.DataTypes",
           "name": "showDatatype",
           "normalized": "Datatype-\u003eString",
@@ -4963,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ebasic \u003ccode\u003e\u003ca\u003ePattern\u003c/a\u003e\u003c/code\u003e functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "PatternFunctions",
           "package": "hxt-relaxng",
@@ -4972,6 +5407,7 @@
         "index": {
           "description": "basic Pattern functions",
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "PatternFunctions",
           "package": "hxt-relaxng",
@@ -4986,6 +5422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of children pattern for each pattern,\n e.g. (Choice p1 p2) = [p1, p2]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "getChildrenPattern",
           "package": "hxt-relaxng",
@@ -4996,6 +5433,7 @@
         "index": {
           "description": "Returns list of children pattern for each pattern e.g Choice p1 p2 p1 p2",
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "getChildrenPattern",
           "normalized": "Pattern-\u003e[Pattern]",
@@ -5012,6 +5450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the nameclass of a element- or attribute pattern.\n Otherwise \u003ccode\u003e\u003ca\u003eNCError\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "getNameClassFromPattern",
           "package": "hxt-relaxng",
@@ -5022,6 +5461,7 @@
         "index": {
           "description": "Returns the nameclass of element or attribute pattern Otherwise NCError is returned",
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "getNameClassFromPattern",
           "normalized": "Pattern-\u003eNameClass",
@@ -5038,6 +5478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a string representation of the pattern name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "getPatternName",
           "package": "hxt-relaxng",
@@ -5048,6 +5489,7 @@
         "index": {
           "description": "Returns string representation of the pattern name",
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "getPatternName",
           "normalized": "Pattern-\u003eString",
@@ -5063,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxAfter",
           "package": "hxt-relaxng",
@@ -5072,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxAfter",
           "normalized": "Pattern-\u003eBool",
@@ -5087,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxAttribute",
           "package": "hxt-relaxng",
@@ -5096,6 +5541,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxAttribute",
           "normalized": "Pattern-\u003eBool",
@@ -5111,6 +5557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxChoice",
           "package": "hxt-relaxng",
@@ -5120,6 +5567,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxChoice",
           "normalized": "Pattern-\u003eBool",
@@ -5135,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxData",
           "package": "hxt-relaxng",
@@ -5144,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxData",
           "normalized": "Pattern-\u003eBool",
@@ -5159,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxDataExcept",
           "package": "hxt-relaxng",
@@ -5168,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxDataExcept",
           "normalized": "Pattern-\u003eBool",
@@ -5183,6 +5635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxElement",
           "package": "hxt-relaxng",
@@ -5192,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxElement",
           "normalized": "Pattern-\u003eBool",
@@ -5207,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxEmpty",
           "package": "hxt-relaxng",
@@ -5216,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxEmpty",
           "normalized": "Pattern-\u003eBool",
@@ -5231,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxGroup",
           "package": "hxt-relaxng",
@@ -5240,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxGroup",
           "normalized": "Pattern-\u003eBool",
@@ -5255,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxInterleave",
           "package": "hxt-relaxng",
@@ -5264,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxInterleave",
           "normalized": "Pattern-\u003eBool",
@@ -5279,6 +5739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxList",
           "package": "hxt-relaxng",
@@ -5288,6 +5749,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxList",
           "normalized": "Pattern-\u003eBool",
@@ -5303,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxNotAllowed",
           "package": "hxt-relaxng",
@@ -5312,6 +5775,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxNotAllowed",
           "normalized": "Pattern-\u003eBool",
@@ -5327,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxOneOrMore",
           "package": "hxt-relaxng",
@@ -5336,6 +5801,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxOneOrMore",
           "normalized": "Pattern-\u003eBool",
@@ -5351,6 +5817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxText",
           "package": "hxt-relaxng",
@@ -5360,6 +5827,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxText",
           "normalized": "Pattern-\u003eBool",
@@ -5375,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxValue",
           "package": "hxt-relaxng",
@@ -5384,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternFunctions",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternFunctions",
           "name": "isRelaxValue",
           "normalized": "Pattern-\u003eBool",
@@ -5399,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "PatternToString",
           "package": "hxt-relaxng",
@@ -5407,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG PatternToString",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "PatternToString",
           "package": "hxt-relaxng",
@@ -5421,6 +5893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a string representation of a nameclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "nameClassToString",
           "package": "hxt-relaxng",
@@ -5431,6 +5904,7 @@
         "index": {
           "description": "Returns string representation of nameclass",
           "hierarchy": "Text XML HXT RelaxNG PatternToString",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "nameClassToString",
           "normalized": "NameClass-\u003eString",
@@ -5447,6 +5921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a formated string representation of the pattern structure.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e Element {}foo (Choice (Choice ( Value = abc,\n datatypelibrary = http://relaxng.org/ns/structure/1.0, type = token,\n context (base-uri =file://test.rng,\n parameter: xml = http://www.w3.org/XML/1998/namespaces, foo = www.bar.baz),\n\u003c/pre\u003e\u003cp\u003eThe function can be used to display circular ref-pattern structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "patternToFormatedString",
           "package": "hxt-relaxng",
@@ -5457,6 +5932,7 @@
         "index": {
           "description": "Returns formated string representation of the pattern structure Example Element foo Choice Choice Value abc datatypelibrary http relaxng.org ns structure type token context base-uri file test.rng parameter xml http www.w3.org XML namespaces foo www.bar.baz The function can be used to display circular ref-pattern structures",
           "hierarchy": "Text XML HXT RelaxNG PatternToString",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "patternToFormatedString",
           "normalized": "SLA[NameClass]Pattern String",
@@ -5473,6 +5949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a tree representation of the pattern structure.\nThe hard work is done by \u003ccode\u003e\u003ca\u003eformatTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e +---element {}bar\n     |\n     +---group\n         |\n         +---oneOrMore\n         |   |\n         |   +---attribute AnyName\n         |       |\n         |       +---text\n         |\n         +---text\n\u003c/pre\u003e\u003cp\u003eThe function can be used to display circular ref-pattern structures.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e \u003cdefine name=\"baz\"\u003e\n   \u003celement name=\"baz\"\u003e\n     ... \u003cref name=\"baz\"/\u003e ...\n   \u003c/element\u003e\n \u003c/define\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "patternToStringTree",
           "package": "hxt-relaxng",
@@ -5483,6 +5960,7 @@
         "index": {
           "description": "Returns tree representation of the pattern structure The hard work is done by formatTree Example element bar group oneOrMore attribute AnyName text text The function can be used to display circular ref-pattern structures Example define name baz element name baz ref name baz element define",
           "hierarchy": "Text XML HXT RelaxNG PatternToString",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "patternToStringTree",
           "package": "hxt-relaxng",
@@ -5497,6 +5975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a formated string representation of the pattern structure.\n (see also: \u003ccode\u003e\u003ca\u003ecreatePatternFromXmlTree\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epatternToFormatedString\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "xmlTreeToPatternFormatedString",
           "package": "hxt-relaxng",
@@ -5507,6 +5986,7 @@
         "index": {
           "description": "Returns formated string representation of the pattern structure see also createPatternFromXmlTree and patternToFormatedString",
           "hierarchy": "Text XML HXT RelaxNG PatternToString",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "xmlTreeToPatternFormatedString",
           "package": "hxt-relaxng",
@@ -5521,6 +6001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a string representation of the pattern structure.\n(see also: \u003ccode\u003e\u003ca\u003ecreatePatternFromXmlTree\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e Element {}foo (Choice (Choice (Value (\"\",\"token\") \"abc\"\n (\"foo\",\"www.bar.baz\")]))(Data (\"http://www.mysql.com\",\"VARCHAR\")\n [(\"length\",\"2\"),(\"maxLength\",\"5\")])) (Element {}bar (Group (Element {}baz\n\u003c/pre\u003e\u003cp\u003eThe function can \u003ccode\u003enot\u003c/code\u003e be used to display circular ref-pattern structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "xmlTreeToPatternString",
           "package": "hxt-relaxng",
@@ -5531,6 +6012,7 @@
         "index": {
           "description": "Returns string representation of the pattern structure see also createPatternFromXmlTree Example Element foo Choice Choice Value token abc foo www.bar.baz Data http www.mysql.com VARCHAR length maxLength Element bar Group Element baz The function can not be used to display circular ref-pattern structures",
           "hierarchy": "Text XML HXT RelaxNG PatternToString",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "xmlTreeToPatternString",
           "package": "hxt-relaxng",
@@ -5545,6 +6027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a tree representation of the pattern structure.\n (see also: \u003ccode\u003e\u003ca\u003ecreatePatternFromXmlTree\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epatternToStringTree\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "xmlTreeToPatternStringTree",
           "package": "hxt-relaxng",
@@ -5555,6 +6038,7 @@
         "index": {
           "description": "Returns tree representation of the pattern structure see also createPatternFromXmlTree and patternToStringTree",
           "hierarchy": "Text XML HXT RelaxNG PatternToString",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.PatternToString",
           "name": "xmlTreeToPatternStringTree",
           "package": "hxt-relaxng",
@@ -5569,6 +6053,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDon't edit this module, it's generated by RelaxSchemaToXmlTree\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Schema",
           "name": "Schema",
           "package": "hxt-relaxng",
@@ -5578,6 +6063,7 @@
         "index": {
           "description": "Don edit this module it generated by RelaxSchemaToXmlTree",
           "hierarchy": "Text XML HXT RelaxNG Schema",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Schema",
           "name": "Schema",
           "package": "hxt-relaxng",
@@ -5591,6 +6077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Schema",
           "name": "relaxSchemaArrow",
           "package": "hxt-relaxng",
@@ -5600,6 +6087,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Schema",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Schema",
           "name": "relaxSchemaArrow",
           "package": "hxt-relaxng",
@@ -5613,6 +6101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Schema",
           "name": "relaxSchemaTree",
           "package": "hxt-relaxng",
@@ -5622,6 +6111,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Schema",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Schema",
           "name": "relaxSchemaTree",
           "package": "hxt-relaxng",
@@ -5636,6 +6126,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDon't edit this module, it's generated by RelaxSchemaToXmlTree\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SchemaGrammar",
           "name": "SchemaGrammar",
           "package": "hxt-relaxng",
@@ -5645,6 +6136,7 @@
         "index": {
           "description": "Don edit this module it generated by RelaxSchemaToXmlTree",
           "hierarchy": "Text XML HXT RelaxNG SchemaGrammar",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SchemaGrammar",
           "name": "SchemaGrammar",
           "package": "hxt-relaxng",
@@ -5658,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SchemaGrammar",
           "name": "relaxSchemaArrow",
           "package": "hxt-relaxng",
@@ -5667,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SchemaGrammar",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SchemaGrammar",
           "name": "relaxSchemaArrow",
           "package": "hxt-relaxng",
@@ -5680,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SchemaGrammar",
           "name": "relaxSchemaTree",
           "package": "hxt-relaxng",
@@ -5689,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SchemaGrammar",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SchemaGrammar",
           "name": "relaxSchemaTree",
           "package": "hxt-relaxng",
@@ -5703,6 +6199,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe modul creates the simplified form of a Relax NG schema.\n   See also chapter 4 of the Relax NG specification.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Simplification",
           "name": "Simplification",
           "package": "hxt-relaxng",
@@ -5712,6 +6209,7 @@
         "index": {
           "description": "The modul creates the simplified form of Relax NG schema See also chapter of the Relax NG specification",
           "hierarchy": "Text XML HXT RelaxNG Simplification",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Simplification",
           "name": "Simplification",
           "package": "hxt-relaxng",
@@ -5726,6 +6224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the simple form of a Relax NG schema\n\u003c/p\u003e\u003cp\u003eThe schema document has to be parsed with namespace propagation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Simplification",
           "name": "createSimpleForm",
           "package": "hxt-relaxng",
@@ -5736,6 +6235,7 @@
         "index": {
           "description": "Creates the simple form of Relax NG schema The schema document has to be parsed with namespace propagation",
           "hierarchy": "Text XML HXT RelaxNG Simplification",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Simplification",
           "name": "createSimpleForm",
           "normalized": "Bool-\u003eBool-\u003eBool-\u003eIOSArrow XmlTree XmlTree",
@@ -5752,6 +6252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of simplification errors or \u003ccode\u003e\u003ca\u003enone\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Simplification",
           "name": "getErrors",
           "package": "hxt-relaxng",
@@ -5762,6 +6263,7 @@
         "index": {
           "description": "Returns the list of simplification errors or none",
           "hierarchy": "Text XML HXT RelaxNG Simplification",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Simplification",
           "name": "getErrors",
           "package": "hxt-relaxng",
@@ -5775,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Simplification",
           "name": "resetStates",
           "package": "hxt-relaxng",
@@ -5784,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Simplification",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Simplification",
           "name": "resetStates",
           "package": "hxt-relaxng",
@@ -5798,6 +6302,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis helper module exports elements from the basic Relax NG libraries:\n   Validator, CreatePattern, PatternToString and DataTypes.\n   It is the main entry point to the Relax NG schema validator of the Haskell\n   XML Toolbox.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "SystemConfig",
           "package": "hxt-relaxng",
@@ -5807,6 +6312,7 @@
         "index": {
           "description": "This helper module exports elements from the basic Relax NG libraries Validator CreatePattern PatternToString and DataTypes It is the main entry point to the Relax NG schema validator of the Haskell XML Toolbox",
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "SystemConfig",
           "package": "hxt-relaxng",
@@ -5820,6 +6326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_check_restrictions",
           "package": "hxt-relaxng",
@@ -5829,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_check_restrictions",
           "package": "hxt-relaxng",
@@ -5841,6 +6349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_do_not_check_restrictions",
           "package": "hxt-relaxng",
@@ -5850,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_do_not_check_restrictions",
           "package": "hxt-relaxng",
@@ -5862,6 +6372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_do_not_collect_errors",
           "package": "hxt-relaxng",
@@ -5871,6 +6382,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_do_not_collect_errors",
           "package": "hxt-relaxng",
@@ -5883,6 +6395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_do_not_validate_externalRef",
           "package": "hxt-relaxng",
@@ -5892,6 +6405,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_do_not_validate_externalRef",
           "package": "hxt-relaxng",
@@ -5905,6 +6419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_do_not_validate_include",
           "package": "hxt-relaxng",
@@ -5914,6 +6429,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_do_not_validate_include",
           "package": "hxt-relaxng",
@@ -5926,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_relax_schema",
           "package": "hxt-relaxng",
@@ -5935,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_relax_schema",
           "package": "hxt-relaxng",
@@ -5947,6 +6465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_validate_externalRef",
           "package": "hxt-relaxng",
@@ -5956,6 +6475,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_validate_externalRef",
           "package": "hxt-relaxng",
@@ -5969,6 +6489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_validate_include",
           "package": "hxt-relaxng",
@@ -5978,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "a_validate_include",
           "package": "hxt-relaxng",
@@ -5991,6 +6513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eavailable Relax NG validation options\n\u003c/p\u003e\u003cp\u003edefines options\n \u003ccode\u003e\u003ca\u003ea_check_restrictions\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ea_validate_externalRef\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ea_validate_include\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ea_do_not_check_restrictions\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003ea_do_not_validate_externalRef\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ea_do_not_validate_include\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "relaxOptions",
           "package": "hxt-relaxng",
@@ -6001,6 +6524,7 @@
         "index": {
           "description": "available Relax NG validation options defines options check restrictions validate externalRef validate include do not check restrictions do not validate externalRef do not validate include",
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "relaxOptions",
           "normalized": "[OptDescr SysConfig]",
@@ -6016,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxCheckRestr",
           "package": "hxt-relaxng",
@@ -6025,6 +6550,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxCheckRestr",
           "normalized": "Bool-\u003eSysConfig",
@@ -6040,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxCollectErrors",
           "package": "hxt-relaxng",
@@ -6049,6 +6576,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxCollectErrors",
           "normalized": "Bool-\u003eSysConfig",
@@ -6064,6 +6592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxNG",
           "package": "hxt-relaxng",
@@ -6073,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxNG",
           "normalized": "String-\u003eSysConfig",
@@ -6088,6 +6618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxValidateExtRef",
           "package": "hxt-relaxng",
@@ -6097,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxValidateExtRef",
           "normalized": "Bool-\u003eSysConfig",
@@ -6112,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxValidateInclude",
           "package": "hxt-relaxng",
@@ -6121,6 +6654,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG SystemConfig",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.SystemConfig",
           "name": "withRelaxValidateInclude",
           "normalized": "Bool-\u003eSysConfig",
@@ -6137,6 +6671,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelper functions for RelaxNG validation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "Utils",
           "package": "hxt-relaxng",
@@ -6146,6 +6681,7 @@
         "index": {
           "description": "Helper functions for RelaxNG validation",
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "Utils",
           "package": "hxt-relaxng",
@@ -6160,6 +6696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether two URIs are equal after \u003ccode\u003e\u003ca\u003enormalizeURI\u003c/a\u003e\u003c/code\u003e is performed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "compareURI",
           "package": "hxt-relaxng",
@@ -6170,6 +6707,7 @@
         "index": {
           "description": "Tests whether two URIs are equal after normalizeURI is performed",
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "compareURI",
           "normalized": "String-\u003eString-\u003eBool",
@@ -6185,6 +6723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringList",
           "package": "hxt-relaxng",
@@ -6194,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringList",
           "normalized": "(String-\u003eString)-\u003eString-\u003e[String]-\u003eString",
@@ -6209,6 +6749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListArr",
           "package": "hxt-relaxng",
@@ -6218,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListArr",
           "normalized": "[String]-\u003eString",
@@ -6233,6 +6775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListId",
           "package": "hxt-relaxng",
@@ -6242,6 +6785,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListId",
           "normalized": "[String]-\u003eString",
@@ -6257,6 +6801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListPairs",
           "package": "hxt-relaxng",
@@ -6266,6 +6811,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListPairs",
           "normalized": "[(String,String)]-\u003eString",
@@ -6282,6 +6828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats a list of strings into a single string.\nThe first parameter formats the elements, the 2. is inserted\nbetween two elements.\n\u003c/p\u003e\u003cp\u003eexample:\n\u003c/p\u003e\u003cpre\u003e formatStringList show \", \" [\"foo\", \"bar\", \"baz\"] -\u003e \"foo\", \"bar\", \"baz\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListPatt",
           "package": "hxt-relaxng",
@@ -6292,6 +6839,7 @@
         "index": {
           "description": "Formats list of strings into single string The first parameter formats the elements the is inserted between two elements example formatStringList show foo bar baz foo bar baz",
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListPatt",
           "normalized": "[String]-\u003eString",
@@ -6307,6 +6855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListQuot",
           "package": "hxt-relaxng",
@@ -6316,6 +6865,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "formatStringListQuot",
           "normalized": "[String]-\u003eString",
@@ -6331,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "isName",
           "package": "hxt-relaxng",
@@ -6340,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "isName",
           "normalized": "String-\u003eBool",
@@ -6355,6 +6907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "isNmtoken",
           "package": "hxt-relaxng",
@@ -6364,6 +6917,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "isNmtoken",
           "normalized": "String-\u003eBool",
@@ -6380,6 +6934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether a string matches a number [-](0-9)*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "isNumber",
           "package": "hxt-relaxng",
@@ -6390,6 +6945,7 @@
         "index": {
           "description": "Tests whether string matches number",
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "isNumber",
           "normalized": "String-\u003eBool",
@@ -6406,6 +6962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether a URI matches the Relax NG anyURI symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "isRelaxAnyURI",
           "package": "hxt-relaxng",
@@ -6416,6 +6973,7 @@
         "index": {
           "description": "Tests whether URI matches the Relax NG anyURI symbol",
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "isRelaxAnyURI",
           "normalized": "String-\u003eBool",
@@ -6432,6 +6990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts all letters to the corresponding lower-case letter\n and removes a trailing \"/\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "normalizeURI",
           "package": "hxt-relaxng",
@@ -6442,6 +7001,7 @@
         "index": {
           "description": "Converts all letters to the corresponding lower-case letter and removes trailing",
           "hierarchy": "Text XML HXT RelaxNG Utils",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Utils",
           "name": "normalizeURI",
           "normalized": "String-\u003eString",
@@ -6458,6 +7018,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValidation of a XML document with respect to a valid Relax NG schema in simple form.\n   Copied and modified from \"An algorithm for RELAX NG validation\" by James Clark\n   (\u003ca\u003ehttp://www.thaiopensource.com/relaxng/derivative.html\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "Validation",
           "package": "hxt-relaxng",
@@ -6467,6 +7028,7 @@
         "index": {
           "description": "Validation of XML document with respect to valid Relax NG schema in simple form Copied and modified from An algorithm for RELAX NG validation by James Clark http www.thaiopensource.com relaxng derivative.html",
           "hierarchy": "Text XML HXT RelaxNG Validation",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "Validation",
           "package": "hxt-relaxng",
@@ -6481,6 +7043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etests whether a \u003ccode\u003e\u003ca\u003eNameClass\u003c/a\u003e\u003c/code\u003e contains a particular \u003ccode\u003e\u003ca\u003eQName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "contains",
           "package": "hxt-relaxng",
@@ -6491,6 +7054,7 @@
         "index": {
           "description": "tests whether NameClass contains particular QName",
           "hierarchy": "Text XML HXT RelaxNG Validation",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "contains",
           "normalized": "NameClass-\u003eQName-\u003eBool",
@@ -6506,6 +7070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormalize a document for validation with Relax NG: remove all namespace declaration attributes,\n   remove all processing instructions and merge all sequences of text nodes into a single text node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "normalizeForRelaxValidation",
           "package": "hxt-relaxng",
@@ -6516,6 +7081,7 @@
         "index": {
           "description": "normalize document for validation with Relax NG remove all namespace declaration attributes remove all processing instructions and merge all sequences of text nodes into single text node",
           "hierarchy": "Text XML HXT RelaxNG Validation",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "normalizeForRelaxValidation",
           "package": "hxt-relaxng",
@@ -6529,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "readForRelax",
           "package": "hxt-relaxng",
@@ -6538,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Validation",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "readForRelax",
           "normalized": "String-\u003eIOSArrow a XmlTree",
@@ -6554,6 +7122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidates a xml document with respect to a Relax NG schema\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter  :  the arrow for computing the Relax NG schema\n\u003c/li\u003e\u003cli\u003e 2.parameter  :  list of configuration options for reading and validating\n\u003c/li\u003e\u003cli\u003e 3.parameter  :  XML document URI\n\u003c/li\u003e\u003cli\u003e arrow-input  :  ignored\n\u003c/li\u003e\u003cli\u003e arrow-output :  list of errors or \u003ccode\u003e\u003ca\u003enone\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "validateDocWithRelax",
           "package": "hxt-relaxng",
@@ -6564,6 +7133,7 @@
         "index": {
           "description": "Validates xml document with respect to Relax NG schema parameter the arrow for computing the Relax NG schema parameter list of configuration options for reading and validating parameter XML document URI arrow-input ignored arrow-output list of errors or none",
           "hierarchy": "Text XML HXT RelaxNG Validation",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "validateDocWithRelax",
           "normalized": "IOSArrow XmlTree XmlTree-\u003eSysConfigList-\u003eString-\u003eIOSArrow XmlTree XmlTree",
@@ -6580,6 +7150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidates an XML document with respect to a Relax NG schema\n   and issues error messages.\n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003evalidateRelax'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter  :  Relax NG schema\n\u003c/li\u003e\u003cli\u003e arrow-input  :  XML document\n\u003c/li\u003e\u003cli\u003e arrow-output :  the document or in case of errors none\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "validateRelax",
           "package": "hxt-relaxng",
@@ -6590,6 +7161,7 @@
         "index": {
           "description": "Validates an XML document with respect to Relax NG schema and issues error messages See also validateRelax parameter Relax NG schema arrow-input XML document arrow-output the document or in case of errors none",
           "hierarchy": "Text XML HXT RelaxNG Validation",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "validateRelax",
           "normalized": "XmlTree-\u003eIOSArrow XmlTree XmlTree",
@@ -6606,6 +7178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidates an XML document with respect to a Relax NG schema\n   This arrow is pure. It does not need IO or any configuration parameters.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter  :  Relax NG schema\n\u003c/li\u003e\u003cli\u003e arrow-input  :  XML document\n\u003c/li\u003e\u003cli\u003e arrow-output :  the unchanged document or an error message\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "validateRelax'",
           "package": "hxt-relaxng",
@@ -6616,6 +7189,7 @@
         "index": {
           "description": "Validates an XML document with respect to Relax NG schema This arrow is pure It does not need IO or any configuration parameters parameter Relax NG schema arrow-input XML document arrow-output the unchanged document or an error message",
           "hierarchy": "Text XML HXT RelaxNG Validation",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "validateRelax'",
           "normalized": "XmlTree-\u003eLA XmlTree XmlTree",
@@ -6631,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "validateWithRelax",
           "package": "hxt-relaxng",
@@ -6640,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Validation",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validation",
           "name": "validateWithRelax",
           "normalized": "IOSArrow XmlTree XmlTree-\u003eIOSArrow XmlTree XmlTree",
@@ -6656,6 +7232,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the core functions from the basic validation und simplification libraries.\n It also exports some helper functions for easier access to the validation functionality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "Validator",
           "package": "hxt-relaxng",
@@ -6665,6 +7242,7 @@
         "index": {
           "description": "This module exports the core functions from the basic validation und simplification libraries It also exports some helper functions for easier access to the validation functionality",
           "hierarchy": "Text XML HXT RelaxNG Validator",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "Validator",
           "package": "hxt-relaxng",
@@ -6679,6 +7257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalidate an XML document with respect to a Relax NG schema\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter  : the valid and simplified schema as XML tree\n\u003c/li\u003e\u003cli\u003e arrow-input  : the document to be validated\n\u003c/li\u003e\u003cli\u003e arrow-output : the validated and unchanged document or the empty document with status information set in the root node\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateDocumentWithRelax",
           "package": "hxt-relaxng",
@@ -6689,6 +7268,7 @@
         "index": {
           "description": "validate an XML document with respect to Relax NG schema parameter the valid and simplified schema as XML tree arrow-input the document to be validated arrow-output the validated and unchanged document or the empty document with status information set in the root node",
           "hierarchy": "Text XML HXT RelaxNG Validator",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateDocumentWithRelax",
           "normalized": "XmlTree-\u003eIOSArrow XmlTree XmlTree",
@@ -6705,6 +7285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalidate a document with a Relax NG schema\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter  : the system configuration option list for validation\n\u003c/li\u003e\u003cli\u003e 2.parameter  : the URI of the Relax NG Schema\n\u003c/li\u003e\u003cli\u003e arrow-input  : the document to be validated, namespaces must have been processed\n\u003c/li\u003e\u003cli\u003e arrow-output : the input document, or in case of validation errors, an empty document with status information in the root\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003econfiguration options evaluated by validateDocumentWithRelaxSchema:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ewithRelaxCheckRestr\u003c/code\u003e      : check Relax NG schema restrictions when simplifying the schema (default: on)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ewithRelaxValidateExtRef\u003c/code\u003e  : validate a Relax NG schema referenced by a externalRef-Pattern (default: on)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ewithRelaxValidateInclude\u003c/code\u003e : validate a Relax NG schema referenced by a include-Pattern (default: on)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eexample:\n\u003c/p\u003e\u003cpre\u003e validateDocumentWithRelaxSchema [withRelaxCheckRestr yes, withRelaxValidateExtRef no] \"testSchema.rng\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateDocumentWithRelaxSchema",
           "package": "hxt-relaxng",
@@ -6715,6 +7296,7 @@
         "index": {
           "description": "validate document with Relax NG schema parameter the system configuration option list for validation parameter the URI of the Relax NG Schema arrow-input the document to be validated namespaces must have been processed arrow-output the input document or in case of validation errors an empty document with status information in the root configuration options evaluated by validateDocumentWithRelaxSchema withRelaxCheckRestr check Relax NG schema restrictions when simplifying the schema default on withRelaxValidateExtRef validate Relax NG schema referenced by externalRef-Pattern default on withRelaxValidateInclude validate Relax NG schema referenced by include-Pattern default on example validateDocumentWithRelaxSchema withRelaxCheckRestr yes withRelaxValidateExtRef no testSchema.rng",
           "hierarchy": "Text XML HXT RelaxNG Validator",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateDocumentWithRelaxSchema",
           "normalized": "SysConfigList-\u003eString-\u003eIOStateArrow a XmlTree XmlTree",
@@ -6730,6 +7312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateSchemaWithRelax",
           "package": "hxt-relaxng",
@@ -6739,6 +7322,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT RelaxNG Validator",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateSchemaWithRelax",
           "normalized": "String-\u003eIOSArrow XmlTree XmlTree",
@@ -6755,6 +7339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelax NG schema validation\n\u003c/p\u003e\u003cp\u003esee \u003ccode\u003e\u003ca\u003evalidateSchemaWithRelax\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003evalidateWithSpezification\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter :  Relax NG schema file\n\u003c/li\u003e\u003cli\u003e arrow-input  :  Relax NG Specification in simple form\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateSchemaWithSpezification",
           "package": "hxt-relaxng",
@@ -6765,6 +7350,7 @@
         "index": {
           "description": "Relax NG schema validation see validateSchemaWithRelax and validateWithSpezification parameter Relax NG schema file arrow-input Relax NG Specification in simple form",
           "hierarchy": "Text XML HXT RelaxNG Validator",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateSchemaWithSpezification",
           "normalized": "String-\u003eIOSArrow XmlTree XmlTree",
@@ -6781,6 +7367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument validation\n\u003c/p\u003e\u003cp\u003eValidates a xml document with respect to a Relax NG schema\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1.parameter :  XML document\n\u003c/li\u003e\u003cli\u003e 2.parameter :  Relax NG schema file\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateWithSpezification",
           "package": "hxt-relaxng",
@@ -6791,6 +7378,7 @@
         "index": {
           "description": "Document validation Validates xml document with respect to Relax NG schema parameter XML document parameter Relax NG schema file",
           "hierarchy": "Text XML HXT RelaxNG Validator",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.Validator",
           "name": "validateWithSpezification",
           "normalized": "String-\u003eString-\u003eIOSArrow XmlTree XmlTree",
@@ -6807,6 +7395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : $Id$\n\u003c/p\u003e\u003cp\u003eDatatype library for the W3C XML schema datatypes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.XMLSchema.DataTypeLibW3C",
           "name": "DataTypeLibW3C",
           "package": "hxt-relaxng",
@@ -6816,6 +7405,7 @@
         "index": {
           "description": "Version Id Datatype library for the W3C XML schema datatypes",
           "hierarchy": "Text XML HXT RelaxNG XMLSchema DataTypeLibW3C",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.XMLSchema.DataTypeLibW3C",
           "name": "DataTypeLibW3C",
           "package": "hxt-relaxng",
@@ -6830,6 +7420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main entry point to the W3C XML schema datatype library.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDTC\u003c/a\u003e\u003c/code\u003e constructor exports the list of supported datatypes and params.\n It also exports the specialized functions to validate a XML instance value with\n respect to a datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG.XMLSchema.DataTypeLibW3C",
           "name": "w3cDatatypeLib",
           "package": "hxt-relaxng",
@@ -6840,6 +7431,7 @@
         "index": {
           "description": "The main entry point to the W3C XML schema datatype library The DTC constructor exports the list of supported datatypes and params It also exports the specialized functions to validate XML instance value with respect to datatype",
           "hierarchy": "Text XML HXT RelaxNG XMLSchema DataTypeLibW3C",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG.XMLSchema.DataTypeLibW3C",
           "name": "w3cDatatypeLib",
           "package": "hxt-relaxng",
@@ -6854,6 +7446,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis helper module exports elements from the basic Relax NG libraries:\n   Validator, CreatePattern, PatternToString and DataTypes.\n   It is the main entry point to the Relax NG schema validator of the Haskell\n   XML Toolbox.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:35 UTC 2014",
           "module": "Text.XML.HXT.RelaxNG",
           "name": "RelaxNG",
           "package": "hxt-relaxng",
@@ -6863,6 +7456,7 @@
         "index": {
           "description": "This helper module exports elements from the basic Relax NG libraries Validator CreatePattern PatternToString and DataTypes It is the main entry point to the Relax NG schema validator of the Haskell XML Toolbox",
           "hierarchy": "Text XML HXT RelaxNG",
+          "indexed": "2014-03-11T18:54:35",
           "module": "Text.XML.HXT.RelaxNG",
           "name": "RelaxNG",
           "package": "hxt-relaxng",

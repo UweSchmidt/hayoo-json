@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unification-fd"
+        "phrase": "unification-fd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA continuation-passing variant of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e for short-circuiting\n at failure. This code is based on \u003ca\u003eControl.Monad.MaybeK\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "EitherK",
           "package": "unification-fd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "continuation-passing variant of Either for short-circuiting at failure This code is based on Control.Monad.MaybeK",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "EitherK",
           "package": "unification-fd",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA continuation-passing encoding of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e as an error monad;\n also known as \u003ccode\u003eCodensity (Either e)\u003c/code\u003e, if you're familiar with\n that terminology. N.B., this is not the 2-continuation implementation\n based on the Church encoding of \u003ccode\u003eEither\u003c/code\u003e. The latter tends to\n have worse performance than non-continuation based implementations.\n\u003c/p\u003e\u003cp\u003eThis is generally more efficient than using \u003ccode\u003eEither\u003c/code\u003e (or the\n MTL's \u003ccode\u003eError\u003c/code\u003e) for two reasons. First is that it right associates\n all binds, ensuring that bad associativity doesn't artificially\n introduce midpoints in short-circuiting to the nearest handler.\n Second is that it removes the need for intermediate case\n expressions.\n\u003c/p\u003e\u003cp\u003eAnother benefit over MTL's \u003ccode\u003eError\u003c/code\u003e is that it doesn't artificially\n restrict the error type. In fact, there's no reason why \u003ccode\u003ee\u003c/code\u003e must\n denote \"errors\" per se. This could also denote computations\n which short-circuit with the final answer, or similar methods\n of non-local control flow.\n\u003c/p\u003e\u003cp\u003eN.B., the \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instances are left-biased\n in \u003ccode\u003ea\u003c/code\u003e and monoidal in \u003ccode\u003ee\u003c/code\u003e. Thus, they are not commutative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "EitherK",
           "package": "unification-fd",
@@ -51,6 +54,7 @@
         "index": {
           "description": "continuation-passing encoding of Either as an error monad also known as Codensity Either if you re familiar with that terminology N.B this is not the continuation implementation based on the Church encoding of Either The latter tends to have worse performance than non-continuation based implementations This is generally more efficient than using Either or the MTL Error for two reasons First is that it right associates all binds ensuring that bad associativity doesn artificially introduce midpoints in short-circuiting to the nearest handler Second is that it removes the need for intermediate case expressions Another benefit over MTL Error is that it doesn artificially restrict the error type In fact there no reason why must denote errors per se This could also denote computations which short-circuit with the final answer or similar methods of non-local control flow N.B the Alternative and MonadPlus instances are left-biased in and monoidal in Thus they are not commutative",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "EitherK",
           "package": "unification-fd",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer version of \u003ccode\u003e\u003ca\u003eEitherK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "EitherKT",
           "package": "unification-fd",
@@ -74,6 +79,7 @@
         "index": {
           "description": "monad transformer version of EitherK",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "EitherKT",
           "package": "unification-fd",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle errors in the \u003ccode\u003eEitherK\u003c/code\u003e monad. N.B., this type is more\n general than that of \u003ccode\u003e\u003ca\u003ecatchError\u003c/a\u003e\u003c/code\u003e, allowing the type of the\n errors to change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "catchEitherK",
           "package": "unification-fd",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Handle errors in the EitherK monad N.B this type is more general than that of catchError allowing the type of the errors to change",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "catchEitherK",
           "normalized": "EitherK a b-\u003e(a-\u003eEitherK c b)-\u003eEitherK c b",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle errors in the \u003ccode\u003eEitherKT\u003c/code\u003e monad. N.B., this type is more\n general than that of \u003ccode\u003e\u003ca\u003ecatchError\u003c/a\u003e\u003c/code\u003e, allowing the type of the\n errors to change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "catchEitherKT",
           "package": "unification-fd",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Handle errors in the EitherKT monad N.B this type is more general than that of catchError allowing the type of the errors to change",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "catchEitherKT",
           "normalized": "EitherKT a b c-\u003e(a-\u003eEitherKT d b c)-\u003eEitherKT d b c",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eeither\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003eEitherK\u003c/code\u003e, for convenience. N.B.,\n using this function inserts a case match, reducing the range of\n short-circuiting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "eitherK",
           "package": "unification-fd",
@@ -150,6 +161,7 @@
         "index": {
           "description": "version of either on EitherK for convenience N.B using this function inserts case match reducing the range of short-circuiting",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "eitherK",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eEitherK a c-\u003eb",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an \u003ccode\u003eEitherK\u003c/code\u003e into an \u003ccode\u003eEitherKT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "liftEitherK",
           "package": "unification-fd",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Lift an EitherK into an EitherKT",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "liftEitherK",
           "normalized": "EitherK a b-\u003eEitherKT a c b",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower an \u003ccode\u003eEitherKT\u003c/code\u003e into an \u003ccode\u003eEitherK\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "lowerEitherK",
           "package": "unification-fd",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Lower an EitherKT into an EitherK",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "lowerEitherK",
           "normalized": "EitherKT a b c-\u003eb(EitherK a c)",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an \u003ccode\u003eEitherK\u003c/code\u003e and return the concrete \u003ccode\u003eEither\u003c/code\u003e encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "runEitherK",
           "package": "unification-fd",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Execute an EitherK and return the concrete Either encoding",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "runEitherK",
           "normalized": "EitherK a b-\u003eEither a b",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an \u003ccode\u003eEitherKT\u003c/code\u003e and return the concrete \u003ccode\u003eEither\u003c/code\u003e encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "runEitherKT",
           "package": "unification-fd",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Execute an EitherKT and return the concrete Either encoding",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "runEitherKT",
           "normalized": "EitherKT a b c-\u003eb(Either a c)",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an error in the \u003ccode\u003eEitherK\u003c/code\u003e monad. This is identical to\n \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "throwEitherK",
           "package": "unification-fd",
@@ -279,6 +300,7 @@
         "index": {
           "description": "Throw an error in the EitherK monad This is identical to throwError",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "throwEitherK",
           "normalized": "a-\u003eEitherK a b",
@@ -295,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an error in the \u003ccode\u003eEitherKT\u003c/code\u003e monad. This is identical to\n \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "throwEitherKT",
           "package": "unification-fd",
@@ -305,6 +328,7 @@
         "index": {
           "description": "Throw an error in the EitherKT monad This is identical to throwError",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "throwEitherKT",
           "normalized": "a-\u003eEitherKT a b c",
@@ -321,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an \u003ccode\u003eEither\u003c/code\u003e into an \u003ccode\u003eEitherK\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "toEitherK",
           "package": "unification-fd",
@@ -331,6 +356,7 @@
         "index": {
           "description": "Lift an Either into an EitherK",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "toEitherK",
           "normalized": "Either a b-\u003eEitherK a b",
@@ -347,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an \u003ccode\u003eEither\u003c/code\u003e into an \u003ccode\u003eEitherKT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.EitherK",
           "name": "toEitherKT",
           "package": "unification-fd",
@@ -357,6 +384,7 @@
         "index": {
           "description": "Lift an Either into an EitherKT",
           "hierarchy": "Control Monad EitherK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.EitherK",
           "name": "toEitherKT",
           "normalized": "Either a b-\u003eEitherKT a c b",
@@ -373,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA continuation-passing variant of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e for short-circuiting\n at failure. This is based largely on code from the Haskell Wiki\n (\u003ca\u003ehttp://www.haskell.org/haskellwiki/Performance/Monads\u003c/a\u003e) which\n was released under a simple permissive license\n (\u003ca\u003ehttp://www.haskell.org/haskellwiki/HaskellWiki:Copyrights\u003c/a\u003e).\n However, various changes and extensions have been made, which\n are subject to the BSD license of this package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "MaybeK",
           "package": "unification-fd",
@@ -382,6 +411,7 @@
         "index": {
           "description": "continuation-passing variant of Maybe for short-circuiting at failure This is based largely on code from the Haskell Wiki http www.haskell.org haskellwiki Performance Monads which was released under simple permissive license http www.haskell.org haskellwiki HaskellWiki Copyrights However various changes and extensions have been made which are subject to the BSD license of this package",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "MaybeK",
           "package": "unification-fd",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA continuation-passing encoding of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e; also known as\n \u003ccode\u003eCodensity Maybe\u003c/code\u003e, if you're familiar with that terminology.\n N.B., this is not the 2-continuation implementation based on the\n Church encoding of \u003ccode\u003eMaybe\u003c/code\u003e. The latter tends to have worse\n performance than non-continuation based implementations.\n\u003c/p\u003e\u003cp\u003eThis is generally more efficient than using \u003ccode\u003eMaybe\u003c/code\u003e for two\n reasons. First is that it right associates all binds, ensuring\n that bad associativity doesn't artificially introduce midpoints\n in short-circuiting to the nearest handler. Second is that it\n removes the need for intermediate case expressions.\n\u003c/p\u003e\u003cp\u003eN.B., the \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instances are left-biased\n in \u003ccode\u003ea\u003c/code\u003e. Thus, they are not commutative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "MaybeK",
           "package": "unification-fd",
@@ -405,6 +436,7 @@
         "index": {
           "description": "continuation-passing encoding of Maybe also known as Codensity Maybe if you re familiar with that terminology N.B this is not the continuation implementation based on the Church encoding of Maybe The latter tends to have worse performance than non-continuation based implementations This is generally more efficient than using Maybe for two reasons First is that it right associates all binds ensuring that bad associativity doesn artificially introduce midpoints in short-circuiting to the nearest handler Second is that it removes the need for intermediate case expressions N.B the Alternative and MonadPlus instances are left-biased in Thus they are not commutative",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "MaybeK",
           "package": "unification-fd",
@@ -419,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer version of \u003ccode\u003e\u003ca\u003eMaybeK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "MaybeKT",
           "package": "unification-fd",
@@ -428,6 +461,7 @@
         "index": {
           "description": "monad transformer version of MaybeK",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "MaybeKT",
           "package": "unification-fd",
@@ -442,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an \u003ccode\u003eMaybeK\u003c/code\u003e into an \u003ccode\u003eMaybeKT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "liftMaybeK",
           "package": "unification-fd",
@@ -452,6 +487,7 @@
         "index": {
           "description": "Lift an MaybeK into an MaybeKT",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "liftMaybeK",
           "normalized": "MaybeK a-\u003eMaybeKT b a",
@@ -468,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower an \u003ccode\u003eMaybeKT\u003c/code\u003e into an \u003ccode\u003eMaybeK\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "lowerMaybeK",
           "package": "unification-fd",
@@ -478,6 +515,7 @@
         "index": {
           "description": "Lower an MaybeKT into an MaybeK",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "lowerMaybeK",
           "normalized": "MaybeKT a b-\u003ea(MaybeK b)",
@@ -494,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e for convenience. This is almost identical\n to \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e but allows applying a continuation to \u003ccode\u003eJust\u003c/code\u003e values\n as well as handling \u003ccode\u003eNothing\u003c/code\u003e errors. If you only want to handle\n the errors, use \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "maybeK",
           "package": "unification-fd",
@@ -504,6 +543,7 @@
         "index": {
           "description": "version of maybe for convenience This is almost identical to mplus but allows applying continuation to Just values as well as handling Nothing errors If you only want to handle the errors use mplus instead",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "maybeK",
           "normalized": "a-\u003e(b-\u003ea)-\u003eMaybeK b-\u003ea",
@@ -519,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the \u003ccode\u003eMaybeK\u003c/code\u003e and return the concrete \u003ccode\u003eMaybe\u003c/code\u003e encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "runMaybeK",
           "package": "unification-fd",
@@ -529,6 +570,7 @@
         "index": {
           "description": "Execute the MaybeK and return the concrete Maybe encoding",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "runMaybeK",
           "normalized": "MaybeK a-\u003eMaybe a",
@@ -545,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a \u003ccode\u003eMaybeKT\u003c/code\u003e and return the concrete \u003ccode\u003eMaybe\u003c/code\u003e encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "runMaybeKT",
           "package": "unification-fd",
@@ -555,6 +598,7 @@
         "index": {
           "description": "Execute MaybeKT and return the concrete Maybe encoding",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "runMaybeKT",
           "normalized": "MaybeKT a b-\u003ea(Maybe b)",
@@ -571,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003eMaybe\u003c/code\u003e into \u003ccode\u003eMaybeK\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "toMaybeK",
           "package": "unification-fd",
@@ -581,6 +626,7 @@
         "index": {
           "description": "Lift Maybe into MaybeK",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "toMaybeK",
           "normalized": "Maybe a-\u003eMaybeK a",
@@ -597,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003eMaybe\u003c/code\u003e into an \u003ccode\u003eMaybeKT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.MaybeK",
           "name": "toMaybeKT",
           "package": "unification-fd",
@@ -607,6 +654,7 @@
         "index": {
           "description": "Lift Maybe into an MaybeKT",
           "hierarchy": "Control Monad MaybeK",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.MaybeK",
           "name": "toMaybeKT",
           "normalized": "Maybe a-\u003eMaybeKT b a",
@@ -623,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some extra functions for \u003ca\u003eControl.Monad.State.Lazy\u003c/a\u003e.\n This package really isn't the proper place for these, but we\n need them to be somewhere.\n\u003c/p\u003e\u003cp\u003eTODO: patch transformers/mtl-2 with these functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "UnificationExtras",
           "package": "unification-fd",
@@ -632,6 +681,7 @@
         "index": {
           "description": "This module defines some extra functions for Control.Monad.State.Lazy This package really isn the proper place for these but we need them to be somewhere TODO patch transformers mtl-2 with these functions",
           "hierarchy": "Control Monad State UnificationExtras",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "UnificationExtras",
           "package": "unification-fd",
@@ -646,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a reader into a state monad. More particularly, this\n allows disabling mutability in a local context within \u003ccode\u003eState\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "liftReader",
           "package": "unification-fd",
@@ -656,6 +707,7 @@
         "index": {
           "description": "Lift reader into state monad More particularly this allows disabling mutability in local context within State",
           "hierarchy": "Control Monad State UnificationExtras",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "liftReader",
           "normalized": "Reader a b-\u003eState a b",
@@ -672,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a reader into a state monad. More particularly, this\n allows disabling mutability in a local context within \u003ccode\u003eStateT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "liftReaderT",
           "package": "unification-fd",
@@ -682,6 +735,7 @@
         "index": {
           "description": "Lift reader into state monad More particularly this allows disabling mutability in local context within StateT",
           "hierarchy": "Control Monad State UnificationExtras",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "liftReaderT",
           "normalized": "ReaderT a b c-\u003eStateT a b c",
@@ -698,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a state action and undo the state changes at the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "localState",
           "package": "unification-fd",
@@ -708,6 +763,7 @@
         "index": {
           "description": "Run state action and undo the state changes at the end",
           "hierarchy": "Control Monad State UnificationExtras",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "localState",
           "normalized": "a b-\u003ea b",
@@ -724,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003emodify\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "modify'",
           "package": "unification-fd",
@@ -734,6 +791,7 @@
         "index": {
           "description": "strict version of modify",
           "hierarchy": "Control Monad State UnificationExtras",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Monad.State.UnificationExtras",
           "name": "modify'",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -749,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a state monad for functional pointers\n represented by integers as keys into an \u003ccode\u003eIntMap\u003c/code\u003e. This technique\n was independently discovered by Dijkstra et al. This module\n extends the approach by using a state monad transformer, which\n can be made into a backtracking state monad by setting the\n underlying monad to some \u003ccode\u003e\u003ca\u003eMonadLogic\u003c/a\u003e\u003c/code\u003e (part of the \u003ccode\u003elogict\u003c/code\u003e\n library, described by Kiselyov et al.).\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Atze Dijkstra, Arie Middelkoop, S. Doaitse Swierstra (2008)\n         \u003cem\u003eEfficient Functional Unification and Substitution\u003c/em\u003e,\n         Technical Report UU-CS-2008-027, Utrecht University.\n\u003c/li\u003e\u003cli\u003e Oleg Kiselyov, Chung-chieh Shan, Daniel P. Friedman, and\n         Amr Sabry (2005) \u003cem\u003eBacktracking, Interleaving, and\u003c/em\u003e\n         \u003cem\u003eTerminating Monad Transformers\u003c/em\u003e, ICFP.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.IntVar",
           "name": "IntVar",
           "package": "unification-fd",
@@ -758,6 +817,7 @@
         "index": {
           "description": "This module defines state monad for functional pointers represented by integers as keys into an IntMap This technique was independently discovered by Dijkstra et al This module extends the approach by using state monad transformer which can be made into backtracking state monad by setting the underlying monad to some MonadLogic part of the logict library described by Kiselyov et al Atze Dijkstra Arie Middelkoop Doaitse Swierstra Efficient Functional Unification and Substitution Technical Report UU-CS-2008-027 Utrecht University Oleg Kiselyov Chung-chieh Shan Daniel Friedman and Amr Sabry Backtracking Interleaving and Terminating Monad Transformers ICFP",
           "hierarchy": "Control Unification IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.IntVar",
           "name": "IntVar",
           "package": "unification-fd",
@@ -772,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinding state for \u003ccode\u003e\u003ca\u003eIntVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.IntVar",
           "name": "IntBindingState",
           "package": "unification-fd",
@@ -781,6 +842,7 @@
         "index": {
           "description": "Binding state for IntVar",
           "hierarchy": "Control Unification IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.IntVar",
           "name": "IntBindingState",
           "package": "unification-fd",
@@ -795,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for storing \u003ccode\u003e\u003ca\u003eIntVar\u003c/a\u003e\u003c/code\u003e bindings, implemented as a \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e.\n For a plain state monad, set \u003ccode\u003em = Identity\u003c/code\u003e; for a backtracking\n state monad, set \u003ccode\u003em = Logic\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.IntVar",
           "name": "IntBindingT",
           "package": "unification-fd",
@@ -804,6 +867,7 @@
         "index": {
           "description": "monad for storing IntVar bindings implemented as StateT For plain state monad set Identity for backtracking state monad set Logic",
           "hierarchy": "Control Unification IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.IntVar",
           "name": "IntBindingT",
           "package": "unification-fd",
@@ -818,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \"mutable\" unification variable implemented by an integer.\n This provides an entirely pure alternative to truly mutable\n alternatives (like \u003ccode\u003eSTVar\u003c/code\u003e), which can make backtracking easier.\n\u003c/p\u003e\u003cp\u003eN.B., because this implementation is pure, we can use it for\n both ranked and unranked monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.IntVar",
           "name": "IntVar",
           "package": "unification-fd",
@@ -827,6 +892,7 @@
         "index": {
           "description": "mutable unification variable implemented by an integer This provides an entirely pure alternative to truly mutable alternatives like STVar which can make backtracking easier N.B because this implementation is pure we can use it for both ranked and unranked monads",
           "hierarchy": "Control Unification IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.IntVar",
           "name": "IntVar",
           "package": "unification-fd",
@@ -864,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN.B., you should explicitly apply bindings before calling this\n function, or else the bindings will be lost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.IntVar",
           "name": "evalIntBindingT",
           "package": "unification-fd",
@@ -874,6 +941,7 @@
         "index": {
           "description": "N.B you should explicitly apply bindings before calling this function or else the bindings will be lost",
           "hierarchy": "Control Unification IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.IntVar",
           "name": "evalIntBindingT",
           "normalized": "IntBindingT a b c-\u003eb c",
@@ -889,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.IntVar",
           "name": "execIntBindingT",
           "package": "unification-fd",
@@ -898,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Control Unification IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.IntVar",
           "name": "execIntBindingT",
           "normalized": "IntBindingT a b c-\u003eb(IntBindingState a)",
@@ -913,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.IntVar",
           "name": "runIntBindingT",
           "package": "unification-fd",
@@ -922,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Control Unification IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.IntVar",
           "name": "runIntBindingT",
           "normalized": "IntBindingT a b c-\u003eb(c,IntBindingState a)",
@@ -938,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA ranked variant of \u003ca\u003eControl.Unification.IntVar\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "IntVar",
           "package": "unification-fd",
@@ -947,6 +1020,7 @@
         "index": {
           "description": "ranked variant of Control.Unification.IntVar",
           "hierarchy": "Control Unification Ranked IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "IntVar",
           "package": "unification-fd",
@@ -961,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRanked binding state for \u003ccode\u003e\u003ca\u003eIntVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "IntRBindingState",
           "package": "unification-fd",
@@ -970,6 +1045,7 @@
         "index": {
           "description": "Ranked binding state for IntVar",
           "hierarchy": "Control Unification Ranked IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "IntRBindingState",
           "package": "unification-fd",
@@ -984,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for storing \u003ccode\u003e\u003ca\u003eIntVar\u003c/a\u003e\u003c/code\u003e bindings, implemented as a \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e.\n For a plain state monad, set \u003ccode\u003em = Identity\u003c/code\u003e; for a backtracking\n state monad, set \u003ccode\u003em = Logic\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "IntRBindingT",
           "package": "unification-fd",
@@ -993,6 +1070,7 @@
         "index": {
           "description": "monad for storing IntVar bindings implemented as StateT For plain state monad set Identity for backtracking state monad set Logic",
           "hierarchy": "Control Unification Ranked IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "IntRBindingT",
           "package": "unification-fd",
@@ -1007,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \"mutable\" unification variable implemented by an integer.\n This provides an entirely pure alternative to truly mutable\n alternatives (like \u003ccode\u003eSTVar\u003c/code\u003e), which can make backtracking easier.\n\u003c/p\u003e\u003cp\u003eN.B., because this implementation is pure, we can use it for\n both ranked and unranked monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "IntVar",
           "package": "unification-fd",
@@ -1016,6 +1095,7 @@
         "index": {
           "description": "mutable unification variable implemented by an integer This provides an entirely pure alternative to truly mutable alternatives like STVar which can make backtracking easier N.B because this implementation is pure we can use it for both ranked and unranked monads",
           "hierarchy": "Control Unification Ranked IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "IntVar",
           "package": "unification-fd",
@@ -1030,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN.B., you should explicitly apply bindings before calling this\n function, or else the bindings will be lost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "evalIntRBindingT",
           "package": "unification-fd",
@@ -1040,6 +1121,7 @@
         "index": {
           "description": "N.B you should explicitly apply bindings before calling this function or else the bindings will be lost",
           "hierarchy": "Control Unification Ranked IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "evalIntRBindingT",
           "normalized": "IntRBindingT a b c-\u003eb c",
@@ -1055,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "execIntRBindingT",
           "package": "unification-fd",
@@ -1064,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Control Unification Ranked IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "execIntRBindingT",
           "normalized": "IntRBindingT a b c-\u003eb(IntRBindingState a)",
@@ -1079,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "runIntRBindingT",
           "package": "unification-fd",
@@ -1088,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Control Unification Ranked IntVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.IntVar",
           "name": "runIntRBindingT",
           "normalized": "IntRBindingT a b c-\u003eb(c,IntRBindingState a)",
@@ -1104,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA ranked variant of \u003ca\u003eControl.Unification.STVar\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.STVar",
           "name": "STVar",
           "package": "unification-fd",
@@ -1113,6 +1200,7 @@
         "index": {
           "description": "ranked variant of Control.Unification.STVar",
           "hierarchy": "Control Unification Ranked STVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.STVar",
           "name": "STVar",
           "package": "unification-fd",
@@ -1127,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for handling \u003ccode\u003e\u003ca\u003eSTRVar\u003c/a\u003e\u003c/code\u003e bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.STVar",
           "name": "STRBinding",
           "package": "unification-fd",
@@ -1136,6 +1225,7 @@
         "index": {
           "description": "monad for handling STRVar bindings",
           "hierarchy": "Control Unification Ranked STVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.STVar",
           "name": "STRBinding",
           "package": "unification-fd",
@@ -1150,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ranked unification variable implemented by \u003ccode\u003e\u003ca\u003eSTRef\u003c/a\u003e\u003c/code\u003es. In\n addition to the \u003ccode\u003eSTRef\u003c/code\u003e for the term itself, we also track the\n variable's ID (to support visited-sets) and rank (to support\n weighted path compression).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.STVar",
           "name": "STRVar",
           "package": "unification-fd",
@@ -1159,6 +1250,7 @@
         "index": {
           "description": "ranked unification variable implemented by STRef In addition to the STRef for the term itself we also track the variable ID to support visited-sets and rank to support weighted path compression",
           "hierarchy": "Control Unification Ranked STVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.STVar",
           "name": "STRVar",
           "package": "unification-fd",
@@ -1173,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e ranked binding monad. N.B., because \u003ccode\u003e\u003ca\u003eSTRVar\u003c/a\u003e\u003c/code\u003e are\n rank-2 quantified, this guarantees that the return value has no\n such references. However, in order to remove the references from\n terms, you'll need to explicitly apply the bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked.STVar",
           "name": "runSTRBinding",
           "package": "unification-fd",
@@ -1183,6 +1276,7 @@
         "index": {
           "description": "Run the ST ranked binding monad N.B because STRVar are rank-2 quantified this guarantees that the return value has no such references However in order to remove the references from terms you ll need to explicitly apply the bindings",
           "hierarchy": "Control Unification Ranked STVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked.STVar",
           "name": "runSTRBinding",
           "normalized": "(a b STRBinding c d)-\u003ed",
@@ -1199,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the API of \u003ca\u003eControl.Unification\u003c/a\u003e except\n using \u003ccode\u003e\u003ca\u003eRankedBindingMonad\u003c/a\u003e\u003c/code\u003e where appropriate. This module (and\n the binding implementations for it) are highly experimental and\n subject to change in future versions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Ranked",
           "name": "Ranked",
           "package": "unification-fd",
@@ -1208,6 +1303,7 @@
         "index": {
           "description": "This module provides the API of Control.Unification except using RankedBindingMonad where appropriate This module and the binding implementations for it are highly experimental and subject to change in future versions",
           "hierarchy": "Control Unification Ranked",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Ranked",
           "name": "Ranked",
           "package": "unification-fd",
@@ -1529,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an implementation of unification variables\n using the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.STVar",
           "name": "STVar",
           "package": "unification-fd",
@@ -1538,6 +1635,7 @@
         "index": {
           "description": "This module defines an implementation of unification variables using the ST monad",
           "hierarchy": "Control Unification STVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.STVar",
           "name": "STVar",
           "package": "unification-fd",
@@ -1552,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for handling \u003ccode\u003e\u003ca\u003eSTVar\u003c/a\u003e\u003c/code\u003e bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.STVar",
           "name": "STBinding",
           "package": "unification-fd",
@@ -1561,6 +1660,7 @@
         "index": {
           "description": "monad for handling STVar bindings",
           "hierarchy": "Control Unification STVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.STVar",
           "name": "STBinding",
           "package": "unification-fd",
@@ -1575,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnification variables implemented by \u003ccode\u003e\u003ca\u003eSTRef\u003c/a\u003e\u003c/code\u003es. In addition to\n the \u003ccode\u003eSTRef\u003c/code\u003e for the term itself, we also track the variable's\n ID (to support visited-sets).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.STVar",
           "name": "STVar",
           "package": "unification-fd",
@@ -1584,6 +1685,7 @@
         "index": {
           "description": "Unification variables implemented by STRef In addition to the STRef for the term itself we also track the variable ID to support visited-sets",
           "hierarchy": "Control Unification STVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.STVar",
           "name": "STVar",
           "package": "unification-fd",
@@ -1598,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e ranked binding monad. N.B., because \u003ccode\u003e\u003ca\u003eSTVar\u003c/a\u003e\u003c/code\u003e are\n rank-2 quantified, this guarantees that the return value has no\n such references. However, in order to remove the references from\n terms, you'll need to explicitly apply the bindings and ground\n the term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.STVar",
           "name": "runSTBinding",
           "package": "unification-fd",
@@ -1608,6 +1711,7 @@
         "index": {
           "description": "Run the ST ranked binding monad N.B because STVar are rank-2 quantified this guarantees that the return value has no such references However in order to remove the references from terms you ll need to explicitly apply the bindings and ground the term",
           "hierarchy": "Control Unification STVar",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.STVar",
           "name": "runSTBinding",
           "normalized": "(a b STBinding c d)-\u003ed",
@@ -1624,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the classes and primitive types used by\n unification and related functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "Types",
           "package": "unification-fd",
@@ -1633,6 +1738,7 @@
         "index": {
           "description": "This module defines the classes and primitive types used by unification and related functions",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "Types",
           "package": "unification-fd",
@@ -1647,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic class for generating, reading, and writing to bindings\n stored in a monad. These three functionalities could be split\n apart, but are combined in order to simplify contexts. Also,\n because most functions reading bindings will also perform path\n compression, there's no way to distinguish \"true\" mutation\n from mere path compression.\n\u003c/p\u003e\u003cp\u003eThe superclass constraints are there to simplify contexts, since\n we make the same assumptions everywhere we use \u003ccode\u003eBindingMonad\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "BindingMonad",
           "package": "unification-fd",
@@ -1656,6 +1763,7 @@
         "index": {
           "description": "The basic class for generating reading and writing to bindings stored in monad These three functionalities could be split apart but are combined in order to simplify contexts Also because most functions reading bindings will also perform path compression there no way to distinguish true mutation from mere path compression The superclass constraints are there to simplify contexts since we make the same assumptions everywhere we use BindingMonad",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "BindingMonad",
           "package": "unification-fd",
@@ -1670,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe target of variables for \u003ccode\u003e\u003ca\u003eRankedBindingMonad\u003c/a\u003e\u003c/code\u003es. In order\n to support weighted path compression, each variable is bound to\n both another term (possibly) and also a \"rank\" which is related\n to the length of the variable chain to the term it's ultimately\n bound to.\n\u003c/p\u003e\u003cp\u003eThe rank can be at most \u003ccode\u003elog V\u003c/code\u003e, where \u003ccode\u003eV\u003c/code\u003e is the total number\n of variables in the unification problem. Thus, A \u003ccode\u003eWord8\u003c/code\u003e is\n sufficient for \u003ccode\u003e2^(2^8)\u003c/code\u003e variables, which is far more than can\n be indexed by \u003ccode\u003e\u003ca\u003egetVarID\u003c/a\u003e\u003c/code\u003e even on 64-bit architectures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "Rank",
           "package": "unification-fd",
@@ -1679,6 +1788,7 @@
         "index": {
           "description": "The target of variables for RankedBindingMonad In order to support weighted path compression each variable is bound to both another term possibly and also rank which is related to the length of the variable chain to the term it ultimately bound to The rank can be at most log where is the total number of variables in the unification problem Thus Word8 is sufficient for variables which is far more than can be indexed by getVarID even on bit architectures",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "Rank",
           "package": "unification-fd",
@@ -1693,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn advanced class for \u003ccode\u003e\u003ca\u003eBindingMonad\u003c/a\u003e\u003c/code\u003es which also support\n weighted path compression. The weightedness adds non-trivial\n implementation complications; so even though weighted path\n compression is asymptotically optimal, the constant factors may\n make it worthwhile to stick with the unweighted path compression\n supported by \u003ccode\u003e\u003ca\u003eBindingMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "RankedBindingMonad",
           "package": "unification-fd",
@@ -1702,6 +1813,7 @@
         "index": {
           "description": "An advanced class for BindingMonad which also support weighted path compression The weightedness adds non-trivial implementation complications so even though weighted path compression is asymptotically optimal the constant factors may make it worthwhile to stick with the unweighted path compression supported by BindingMonad",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "RankedBindingMonad",
           "package": "unification-fd",
@@ -1716,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of terms generated by structures \u003ccode\u003et\u003c/code\u003e over variables\n \u003ccode\u003ev\u003c/code\u003e. The structure type should implement \u003ccode\u003e\u003ca\u003eUnifiable\u003c/a\u003e\u003c/code\u003e and the\n variable type should implement \u003ccode\u003e\u003ca\u003eVariable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance doesn't show the constructors, in order to\n improve legibility for large terms.\n\u003c/p\u003e\u003cp\u003eAll the category theoretic instances (\u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e,...) are provided because they are often useful;\n however, beware that since the implementations must be pure,\n they cannot read variables bound in the current context and\n therefore can create incoherent results. Therefore, you should\n apply the current bindings before using any of the functions\n provided by those classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "UTerm",
           "package": "unification-fd",
@@ -1725,6 +1838,7 @@
         "index": {
           "description": "The type of terms generated by structures over variables The structure type should implement Unifiable and the variable type should implement Variable The Show instance doesn show the constructors in order to improve legibility for large terms All the category theoretic instances Functor Foldable Traversable are provided because they are often useful however beware that since the implementations must be pure they cannot read variables bound in the current context and therefore can create incoherent results Therefore you should apply the current bindings before using any of the functions provided by those classes",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "UTerm",
           "package": "unification-fd",
@@ -1739,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn implementation of syntactically unifiable structure. The\n \u003ccode\u003eTraversable\u003c/code\u003e constraint is there because we also require terms\n to be functors and require the distributivity of \u003ccode\u003e\u003ca\u003esequence\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "Unifiable",
           "package": "unification-fd",
@@ -1748,6 +1863,7 @@
         "index": {
           "description": "An implementation of syntactically unifiable structure The Traversable constraint is there because we also require terms to be functors and require the distributivity of sequence or mapM",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "Unifiable",
           "package": "unification-fd",
@@ -1762,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible failure modes that could be encountered in\n unification and related functions. While many of the functions\n could be given more accurate types if we used ad-hoc combinations\n of these constructors (i.e., because they can only throw one of\n the errors), the extra complexity is not considered worth it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "UnificationFailure",
           "package": "unification-fd",
@@ -1771,6 +1888,7 @@
         "index": {
           "description": "The possible failure modes that could be encountered in unification and related functions While many of the functions could be given more accurate types if we used ad-hoc combinations of these constructors i.e because they can only throw one of the errors the extra complexity is not considered worth it",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "UnificationFailure",
           "package": "unification-fd",
@@ -1785,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn implementation of unification variables. The \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e requirement\n is to determine whether two variables are equal \u003cem\u003eas variables\u003c/em\u003e,\n without considering what they are bound to. We use \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e rather\n than having our own \u003ccode\u003eeqVar\u003c/code\u003e method so that clients can make use\n of library functions which commonly assume \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "Variable",
           "package": "unification-fd",
@@ -1794,6 +1913,7 @@
         "index": {
           "description": "An implementation of unification variables The Eq requirement is to determine whether two variables are equal as variables without considering what they are bound to We use Eq rather than having our own eqVar method so that clients can make use of library functions which commonly assume Eq",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "Variable",
           "package": "unification-fd",
@@ -1832,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "Rank",
           "package": "unification-fd",
@@ -1841,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "Rank",
           "package": "unification-fd",
@@ -1955,6 +2077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind a variable to a term, overriding any previous binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "bindVar",
           "package": "unification-fd",
@@ -1965,6 +2088,7 @@
         "index": {
           "description": "Bind variable to term overriding any previous binding",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "bindVar",
           "normalized": "a-\u003eUTerm b a-\u003ec()",
@@ -1981,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new free variable guaranteed to be fresh in\n \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "freeVar",
           "package": "unification-fd",
@@ -1991,6 +2116,7 @@
         "index": {
           "description": "Generate new free variable guaranteed to be fresh in",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "freeVar",
           "package": "unification-fd",
@@ -2031,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a unique identifier for this variable, in order to\n support the use of visited-sets instead of occurs-checks.\n This function must satisfy the following coherence law with\n respect to the \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ex == y\u003c/code\u003e if and only if \u003ccode\u003egetVarID x == getVarID y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "getVarID",
           "package": "unification-fd",
@@ -2041,6 +2168,7 @@
         "index": {
           "description": "Return unique identifier for this variable in order to support the use of visited-sets instead of occurs-checks This function must satisfy the following coherence law with respect to the Eq instance if and only if getVarID getVarID",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "getVarID",
           "normalized": "a-\u003eInt",
@@ -2057,6 +2185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind a variable to a term and increment the rank at the\n same time. The default implementation is:\n\u003c/p\u003e\u003cpre\u003e incrementBindVar t v = do { incrementRank v ; bindVar v t }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "incrementBindVar",
           "package": "unification-fd",
@@ -2067,6 +2196,7 @@
         "index": {
           "description": "Bind variable to term and increment the rank at the same time The default implementation is incrementBindVar do incrementRank bindVar",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "incrementBindVar",
           "normalized": "a-\u003eUTerm b a-\u003ec()",
@@ -2083,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrease the rank of a variable by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "incrementRank",
           "package": "unification-fd",
@@ -2093,6 +2224,7 @@
         "index": {
           "description": "Increase the rank of variable by one",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "incrementRank",
           "normalized": "a-\u003eb()",
@@ -2109,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a variable pointing to \u003ccode\u003eUTerm t v\u003c/code\u003e, return its\n rank and the term it's bound to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "lookupRankVar",
           "package": "unification-fd",
@@ -2119,6 +2252,7 @@
         "index": {
           "description": "Given variable pointing to UTerm return its rank and the term it bound to",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "lookupRankVar",
           "normalized": "a-\u003eb(Rank c a)",
@@ -2135,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a variable pointing to \u003ccode\u003eUTerm t v\u003c/code\u003e, return the\n term it's bound to, or \u003ccode\u003eNothing\u003c/code\u003e if the variable is unbound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "lookupVar",
           "package": "unification-fd",
@@ -2145,6 +2280,7 @@
         "index": {
           "description": "Given variable pointing to UTerm return the term it bound to or Nothing if the variable is unbound",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "lookupVar",
           "normalized": "a-\u003eb(Maybe(UTerm c a))",
@@ -2161,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new variable (fresh in \u003ccode\u003em\u003c/code\u003e) bound to the given\n term. The default implementation is:\n\u003c/p\u003e\u003cpre\u003e newVar t = do { v \u003c- freeVar ; bindVar v t ; return v }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "newVar",
           "package": "unification-fd",
@@ -2171,6 +2308,7 @@
         "index": {
           "description": "Generate new variable fresh in bound to the given term The default implementation is newVar do freeVar bindVar return",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "newVar",
           "normalized": "UTerm a b-\u003ec b",
@@ -2213,6 +2351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform one level of equality testing for terms. If the\n term constructors are unequal then return \u003ccode\u003eNothing\u003c/code\u003e; if they\n are equal, then return the one-level spine filled with\n resolved subterms and/or pairs of subterms to be recursively\n checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification.Types",
           "name": "zipMatch",
           "package": "unification-fd",
@@ -2223,6 +2362,7 @@
         "index": {
           "description": "Perform one level of equality testing for terms If the term constructors are unequal then return Nothing if they are equal then return the one-level spine filled with resolved subterms and or pairs of subterms to be recursively checked",
           "hierarchy": "Control Unification Types",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification.Types",
           "name": "zipMatch",
           "normalized": "a b-\u003ea b-\u003eMaybe(a(Either b(b,b)))",
@@ -2239,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides first-order structural unification over\n general structure types. It also provides the standard suite of\n functions accompanying unification (applying bindings, getting\n free variables, etc.).\n\u003c/p\u003e\u003cp\u003eThe implementation makes use of numerous optimization techniques.\n First, we use path compression everywhere (for weighted path\n compression see \u003ca\u003eControl.Unification.Ranked\u003c/a\u003e). Second, we replace\n the occurs-check with visited-sets. Third, we use a technique\n for aggressive opportunistic observable sharing; that is, we\n track as much sharing as possible in the bindings (without\n introducing new variables), so that we can compare bound variables\n directly and therefore eliminate redundant unifications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "Unification",
           "package": "unification-fd",
@@ -2248,6 +2389,7 @@
         "index": {
           "description": "This module provides first-order structural unification over general structure types It also provides the standard suite of functions accompanying unification applying bindings getting free variables etc The implementation makes use of numerous optimization techniques First we use path compression everywhere for weighted path compression see Control.Unification.Ranked Second we replace the occurs-check with visited-sets Third we use technique for aggressive opportunistic observable sharing that is we track as much sharing as possible in the bindings without introducing new variables so that we can compare bound variables directly and therefore eliminate redundant unifications",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "Unification",
           "package": "unification-fd",
@@ -2262,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic class for generating, reading, and writing to bindings\n stored in a monad. These three functionalities could be split\n apart, but are combined in order to simplify contexts. Also,\n because most functions reading bindings will also perform path\n compression, there's no way to distinguish \"true\" mutation\n from mere path compression.\n\u003c/p\u003e\u003cp\u003eThe superclass constraints are there to simplify contexts, since\n we make the same assumptions everywhere we use \u003ccode\u003eBindingMonad\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "BindingMonad",
           "package": "unification-fd",
@@ -2271,6 +2414,7 @@
         "index": {
           "description": "The basic class for generating reading and writing to bindings stored in monad These three functionalities could be split apart but are combined in order to simplify contexts Also because most functions reading bindings will also perform path compression there no way to distinguish true mutation from mere path compression The superclass constraints are there to simplify contexts since we make the same assumptions everywhere we use BindingMonad",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "BindingMonad",
           "package": "unification-fd",
@@ -2285,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of terms generated by structures \u003ccode\u003et\u003c/code\u003e over variables\n \u003ccode\u003ev\u003c/code\u003e. The structure type should implement \u003ccode\u003e\u003ca\u003eUnifiable\u003c/a\u003e\u003c/code\u003e and the\n variable type should implement \u003ccode\u003e\u003ca\u003eVariable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance doesn't show the constructors, in order to\n improve legibility for large terms.\n\u003c/p\u003e\u003cp\u003eAll the category theoretic instances (\u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e,...) are provided because they are often useful;\n however, beware that since the implementations must be pure,\n they cannot read variables bound in the current context and\n therefore can create incoherent results. Therefore, you should\n apply the current bindings before using any of the functions\n provided by those classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "UTerm",
           "package": "unification-fd",
@@ -2294,6 +2439,7 @@
         "index": {
           "description": "The type of terms generated by structures over variables The structure type should implement Unifiable and the variable type should implement Variable The Show instance doesn show the constructors in order to improve legibility for large terms All the category theoretic instances Functor Foldable Traversable are provided because they are often useful however beware that since the implementations must be pure they cannot read variables bound in the current context and therefore can create incoherent results Therefore you should apply the current bindings before using any of the functions provided by those classes",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "UTerm",
           "package": "unification-fd",
@@ -2308,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn implementation of syntactically unifiable structure. The\n \u003ccode\u003eTraversable\u003c/code\u003e constraint is there because we also require terms\n to be functors and require the distributivity of \u003ccode\u003e\u003ca\u003esequence\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "Unifiable",
           "package": "unification-fd",
@@ -2317,6 +2464,7 @@
         "index": {
           "description": "An implementation of syntactically unifiable structure The Traversable constraint is there because we also require terms to be functors and require the distributivity of sequence or mapM",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "Unifiable",
           "package": "unification-fd",
@@ -2331,6 +2479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible failure modes that could be encountered in\n unification and related functions. While many of the functions\n could be given more accurate types if we used ad-hoc combinations\n of these constructors (i.e., because they can only throw one of\n the errors), the extra complexity is not considered worth it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "UnificationFailure",
           "package": "unification-fd",
@@ -2340,6 +2489,7 @@
         "index": {
           "description": "The possible failure modes that could be encountered in unification and related functions While many of the functions could be given more accurate types if we used ad-hoc combinations of these constructors i.e because they can only throw one of the errors the extra complexity is not considered worth it",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "UnificationFailure",
           "package": "unification-fd",
@@ -2354,6 +2504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn implementation of unification variables. The \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e requirement\n is to determine whether two variables are equal \u003cem\u003eas variables\u003c/em\u003e,\n without considering what they are bound to. We use \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e rather\n than having our own \u003ccode\u003eeqVar\u003c/code\u003e method so that clients can make use\n of library functions which commonly assume \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "Variable",
           "package": "unification-fd",
@@ -2363,6 +2514,7 @@
         "index": {
           "description": "An implementation of unification variables The Eq requirement is to determine whether two variables are equal as variables without considering what they are bound to We use Eq rather than having our own eqVar method so that clients can make use of library functions which commonly assume Eq",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "Variable",
           "package": "unification-fd",
@@ -2377,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esubsumes\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "(\u003c:=)",
           "package": "unification-fd",
@@ -2386,6 +2539,7 @@
         "index": {
           "description": "subsumes",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "(\u003c:=) \u003c:=",
           "normalized": "UTerm a b-\u003eUTerm a b-\u003ec d Bool",
@@ -2401,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind a variable to a term, overriding any previous binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "bindVar",
           "package": "unification-fd",
@@ -2411,6 +2566,7 @@
         "index": {
           "description": "Bind variable to term overriding any previous binding",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "bindVar",
           "normalized": "a-\u003eUTerm b a-\u003ec()",
@@ -2427,6 +2583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new free variable guaranteed to be fresh in\n \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "freeVar",
           "package": "unification-fd",
@@ -2437,6 +2594,7 @@
         "index": {
           "description": "Generate new free variable guaranteed to be fresh in",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "freeVar",
           "package": "unification-fd",
@@ -2451,6 +2609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonicalize a chain of variables so they all point directly\n to the term at the end of the chain (or the free variable, if\n the chain is unbound), and return that end.\n\u003c/p\u003e\u003cp\u003eN.B., this is almost never the function you want. Cf., \u003ccode\u003e\u003ca\u003esemiprune\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "fullprune",
           "package": "unification-fd",
@@ -2461,6 +2620,7 @@
         "index": {
           "description": "Canonicalize chain of variables so they all point directly to the term at the end of the chain or the free variable if the chain is unbound and return that end N.B this is almost never the function you want Cf semiprune",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "fullprune",
           "normalized": "UTerm a b-\u003ec(UTerm a b)",
@@ -2476,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a unique identifier for this variable, in order to\n support the use of visited-sets instead of occurs-checks.\n This function must satisfy the following coherence law with\n respect to the \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ex == y\u003c/code\u003e if and only if \u003ccode\u003egetVarID x == getVarID y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "getVarID",
           "package": "unification-fd",
@@ -2486,6 +2647,7 @@
         "index": {
           "description": "Return unique identifier for this variable in order to support the use of visited-sets instead of occurs-checks This function must satisfy the following coherence law with respect to the Eq instance if and only if getVarID getVarID",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "getVarID",
           "normalized": "a-\u003eInt",
@@ -2502,6 +2664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a variable pointing to \u003ccode\u003eUTerm t v\u003c/code\u003e, return the\n term it's bound to, or \u003ccode\u003eNothing\u003c/code\u003e if the variable is unbound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "lookupVar",
           "package": "unification-fd",
@@ -2512,6 +2675,7 @@
         "index": {
           "description": "Given variable pointing to UTerm return the term it bound to or Nothing if the variable is unbound",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "lookupVar",
           "normalized": "a-\u003eb(Maybe(UTerm c a))",
@@ -2528,6 +2692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new variable (fresh in \u003ccode\u003em\u003c/code\u003e) bound to the given\n term. The default implementation is:\n\u003c/p\u003e\u003cpre\u003e newVar t = do { v \u003c- freeVar ; bindVar v t ; return v }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "newVar",
           "package": "unification-fd",
@@ -2538,6 +2703,7 @@
         "index": {
           "description": "Generate new variable fresh in bound to the given term The default implementation is newVar do freeVar bindVar return",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "newVar",
           "normalized": "UTerm a b-\u003ec b",
@@ -2554,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a variable appears free somewhere inside a term.\n Since occurs checks only make sense when we're about to bind the\n variable to the term, we do not bother checking for the possibility\n of the variable occuring bound in the term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "occursIn",
           "package": "unification-fd",
@@ -2564,6 +2731,7 @@
         "index": {
           "description": "Determine if variable appears free somewhere inside term Since occurs checks only make sense when we re about to bind the variable to the term we do not bother checking for the possibility of the variable occuring bound in the term",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "occursIn",
           "normalized": "a-\u003eUTerm b a-\u003ec Bool",
@@ -2580,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonicalize a chain of variables so they all point directly\n to the last variable in the chain, regardless of whether it is\n bound or not. This allows detecting many cases where multiple\n variables point to the same term, thereby allowing us to avoid\n re-unifying the term they point to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "semiprune",
           "package": "unification-fd",
@@ -2590,6 +2759,7 @@
         "index": {
           "description": "Canonicalize chain of variables so they all point directly to the last variable in the chain regardless of whether it is bound or not This allows detecting many cases where multiple variables point to the same term thereby allowing us to avoid re-unifying the term they point to",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "semiprune",
           "normalized": "UTerm a b-\u003ec(UTerm a b)",
@@ -2605,6 +2775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether the left term subsumes the right term. That\n is, whereas \u003ccode\u003e(tl =:= tr)\u003c/code\u003e will compute the most general substitution\n \u003ccode\u003es\u003c/code\u003e such that \u003ccode\u003e(s tl === s tr)\u003c/code\u003e, \u003ccode\u003e(tl \u003c:= tr)\u003c/code\u003e computes the most\n general substitution \u003ccode\u003es\u003c/code\u003e such that \u003ccode\u003e(s tl === tr)\u003c/code\u003e. This means\n that \u003ccode\u003etl\u003c/code\u003e is less defined than and consistent with \u003ccode\u003etr\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eN.B.\u003c/em\u003e, this function updates the monadic bindings just like\n \u003ccode\u003e\u003ca\u003eunify\u003c/a\u003e\u003c/code\u003e does. However, while the use cases for unification often\n want to keep the bindings around, the use cases for subsumption\n usually do not. Thus, you'll probably want to use a binding monad\n which supports backtracking in order to undo the changes.\n Unfortunately, leaving the monadic bindings unaltered and returning\n the necessary substitution directly imposes a performance penalty\n or else requires specifying too much about the implementation\n of variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "subsumes",
           "package": "unification-fd",
@@ -2614,6 +2785,7 @@
         "index": {
           "description": "Determine whether the left term subsumes the right term That is whereas tl tr will compute the most general substitution such that tl tr tl tr computes the most general substitution such that tl tr This means that tl is less defined than and consistent with tr N.B this function updates the monadic bindings just like unify does However while the use cases for unification often want to keep the bindings around the use cases for subsumption usually do not Thus you ll probably want to use binding monad which supports backtracking in order to undo the changes Unfortunately leaving the monadic bindings unaltered and returning the necessary substitution directly imposes performance penalty or else requires specifying too much about the implementation of variables",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "subsumes",
           "normalized": "UTerm a b-\u003eUTerm a b-\u003ec d Bool",
@@ -2629,6 +2801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eunify\u003c/a\u003e\u003c/code\u003e which uses \u003ccode\u003e\u003ca\u003eoccursIn\u003c/a\u003e\u003c/code\u003e instead of visited-sets.\n This should only be used when eager throwing of \u003ccode\u003e\u003ca\u003eOccursIn\u003c/a\u003e\u003c/code\u003e errors\n is absolutely essential (or for testing the correctness of\n \u003ccode\u003eunify\u003c/code\u003e). Performing the occurs-check is expensive. Not only is\n it slow, it's asymptotically slow since it can cause the same\n subterm to be traversed multiple times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "unifyOccurs",
           "package": "unification-fd",
@@ -2638,6 +2811,7 @@
         "index": {
           "description": "variant of unify which uses occursIn instead of visited-sets This should only be used when eager throwing of OccursIn errors is absolutely essential or for testing the correctness of unify Performing the occurs-check is expensive Not only is it slow it asymptotically slow since it can cause the same subterm to be traversed multiple times",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "unifyOccurs",
           "normalized": "UTerm a b-\u003eUTerm a b-\u003ec d(UTerm a b)",
@@ -2654,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform one level of equality testing for terms. If the\n term constructors are unequal then return \u003ccode\u003eNothing\u003c/code\u003e; if they\n are equal, then return the one-level spine filled with\n resolved subterms and/or pairs of subterms to be recursively\n checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Control.Unification",
           "name": "zipMatch",
           "package": "unification-fd",
@@ -2664,6 +2839,7 @@
         "index": {
           "description": "Perform one level of equality testing for terms If the term constructors are unequal then return Nothing if they are equal then return the one-level spine filled with resolved subterms and or pairs of subterms to be recursively checked",
           "hierarchy": "Control Unification",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Control.Unification",
           "name": "zipMatch",
           "normalized": "a b-\u003ea b-\u003eMaybe(a(Either b(b,b)))",
@@ -2680,6 +2856,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a fixed point operator on functor types.\n For Haskell the least and greatest fixed points coincide, so we\n needn't distinguish them. This abstract nonsense is helpful in\n conjunction with other category theoretic tricks like Swierstra's\n functor coproducts (not provided by this package). For more on\n the utility of two-level recursive types, see:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Tim Sheard (2001) \u003cem\u003eGeneric Unification via Two-Level Types\u003c/em\u003e\n         \u003cem\u003eand Paramterized Modules\u003c/em\u003e, Functional Pearl, ICFP.\n\u003c/li\u003e\u003cli\u003e Tim Sheard & Emir Pasalic (2004) \u003cem\u003eTwo-Level Types and\u003c/em\u003e\n         \u003cem\u003eParameterized Modules\u003c/em\u003e. JFP 14(5): 547--587. This is\n         an expanded version of Sheard (2001) with new examples.\n\u003c/li\u003e\u003cli\u003e Wouter Swierstra (2008) \u003cem\u003eData types a la carte\u003c/em\u003e, Functional\n         Pearl. JFP 18: 423--436.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "Fixedpoint",
           "package": "unification-fd",
@@ -2689,6 +2866,7 @@
         "index": {
           "description": "This module provides fixed point operator on functor types For Haskell the least and greatest fixed points coincide so we needn distinguish them This abstract nonsense is helpful in conjunction with other category theoretic tricks like Swierstra functor coproducts not provided by this package For more on the utility of two-level recursive types see Tim Sheard Generic Unification via Two-Level Types and Paramterized Modules Functional Pearl ICFP Tim Sheard Emir Pasalic Two-Level Types and Parameterized Modules JFP This is an expanded version of Sheard with new examples Wouter Swierstra Data types la carte Functional Pearl JFP",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "Fixedpoint",
           "package": "unification-fd",
@@ -2703,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eFix f\u003c/code\u003e is a fix point of the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e. Note that in\n Haskell the least and greatest fixed points coincide, so we don't\n need to distinguish between \u003ccode\u003eMu f\u003c/code\u003e and \u003ccode\u003eNu f\u003c/code\u003e. This type used\n to be called \u003ccode\u003eY\u003c/code\u003e, hence the naming convention for all the \u003ccode\u003eyfoo\u003c/code\u003e\n functions.\n\u003c/p\u003e\u003cp\u003eThis type lets us invoke category theory to get recursive types\n and operations over them without the type checker complaining\n about infinite types. The \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance doesn't print the\n constructors, for legibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "Fix",
           "package": "unification-fd",
@@ -2712,6 +2891,7 @@
         "index": {
           "description": "Fix is fix point of the Functor Note that in Haskell the least and greatest fixed points coincide so we don need to distinguish between Mu and Nu This type used to be called hence the naming convention for all the yfoo functions This type lets us invoke category theory to get recursive types and operations over them without the type checker complaining about infinite types The Show instance doesn print the constructors for legibility",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "Fix",
           "package": "unification-fd",
@@ -2725,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "Fix",
           "package": "unification-fd",
@@ -2734,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "Fix",
           "package": "unification-fd",
@@ -2748,6 +2930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure anamorphism generating the greatest fixed point of a\n functor. This function applies an \u003ccode\u003ef\u003c/code\u003e-coalgebra from the top\n down to expand a seed into a \u003ccode\u003eFix f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "ana",
           "package": "unification-fd",
@@ -2758,6 +2941,7 @@
         "index": {
           "description": "pure anamorphism generating the greatest fixed point of functor This function applies an coalgebra from the top down to expand seed into Fix",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "ana",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eFix b",
@@ -2773,6 +2957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn anamorphism for monadic \u003ccode\u003ef\u003c/code\u003e-coalgebras. Alas, this isn't\n wholly generic to \u003ccode\u003eFunctor\u003c/code\u003e since it requires distribution of\n \u003ccode\u003ef\u003c/code\u003e over \u003ccode\u003em\u003c/code\u003e (provided by \u003ccode\u003e\u003ca\u003esequence\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eN.B., this orders the side effects from the top down.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "anaM",
           "package": "unification-fd",
@@ -2783,6 +2968,7 @@
         "index": {
           "description": "An anamorphism for monadic coalgebras Alas this isn wholly generic to Functor since it requires distribution of over provided by sequence or mapM in Traversable N.B this orders the side effects from the top down",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "anaM",
           "normalized": "(a-\u003eb(c a))-\u003ea-\u003eb(Fix c)",
@@ -2798,6 +2984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a Church encoding of a fixed point into the data\n representation of the fixed point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "build",
           "package": "unification-fd",
@@ -2808,6 +2995,7 @@
         "index": {
           "description": "Take Church encoding of fixed point into the data representation of the fixed point",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "build",
           "normalized": "(a b(c d-\u003ed)-\u003ed)-\u003eFix c",
@@ -2823,6 +3011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure catamorphism over the least fixed point of a functor.\n This function applies the \u003ccode\u003ef\u003c/code\u003e-algebra from the bottom up over\n \u003ccode\u003eFix f\u003c/code\u003e to create some residual value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "cata",
           "package": "unification-fd",
@@ -2833,6 +3022,7 @@
         "index": {
           "description": "pure catamorphism over the least fixed point of functor This function applies the algebra from the bottom up over Fix to create some residual value",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "cata",
           "normalized": "(a b-\u003eb)-\u003eFix a-\u003eb",
@@ -2848,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA catamorphism for monadic \u003ccode\u003ef\u003c/code\u003e-algebras. Alas, this isn't wholly\n generic to \u003ccode\u003eFunctor\u003c/code\u003e since it requires distribution of \u003ccode\u003ef\u003c/code\u003e over\n \u003ccode\u003em\u003c/code\u003e (provided by \u003ccode\u003e\u003ca\u003esequence\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eN.B., this orders the side effects from the bottom up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "cataM",
           "package": "unification-fd",
@@ -2858,6 +3049,7 @@
         "index": {
           "description": "catamorphism for monadic algebras Alas this isn wholly generic to Functor since it requires distribution of over provided by sequence or mapM in Traversable N.B this orders the side effects from the bottom up",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "cataM",
           "normalized": "(a b-\u003ec b)-\u003eFix a-\u003ec b",
@@ -2873,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA higher-order map taking a natural transformation \u003ccode\u003e(f -\u003e g)\u003c/code\u003e\n and lifting it to operate on \u003ccode\u003eFix\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "hmap",
           "package": "unification-fd",
@@ -2883,6 +3076,7 @@
         "index": {
           "description": "higher-order map taking natural transformation and lifting it to operate on Fix",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "hmap",
           "normalized": "(a b c d-\u003ee d)-\u003eFix c-\u003eFix e",
@@ -2898,6 +3092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic variant of \u003ccode\u003e\u003ca\u003ehmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "hmapM",
           "package": "unification-fd",
@@ -2908,6 +3103,7 @@
         "index": {
           "description": "monadic variant of hmap",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "hmapM",
           "normalized": "(a b c d-\u003ee(f d))-\u003eFix c-\u003ee(Fix f)",
@@ -2923,6 +3119,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ehylo phi psi == cata phi . ana psi\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "hylo",
           "package": "unification-fd",
@@ -2933,6 +3130,7 @@
         "index": {
           "description": "hylo phi psi cata phi ana psi",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "hylo",
           "normalized": "(a b-\u003eb)-\u003e(c-\u003ea c)-\u003ec-\u003eb",
@@ -2948,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ehyloM phiM psiM == cataM phiM \u003c=\u003c anaM psiM\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "hyloM",
           "package": "unification-fd",
@@ -2958,6 +3157,7 @@
         "index": {
           "description": "hyloM phiM psiM cataM phiM anaM psiM",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "hyloM",
           "normalized": "(a b-\u003ec b)-\u003e(d-\u003ec(a d))-\u003ed-\u003ec b",
@@ -2972,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "unFix",
           "package": "unification-fd",
@@ -2981,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "unFix",
           "package": "unification-fd",
@@ -2995,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ecata\u003c/a\u003e\u003c/code\u003e which restricts the return type to being\n a new fixpoint. Though more restrictive, it can be helpful when\n you already have an algebra which expects the outermost \u003ccode\u003eFix\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you don't like either \u003ccode\u003efmap\u003c/code\u003e or \u003ccode\u003ecata\u003c/code\u003e, then maybe this is\n what you were thinking?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "ycata",
           "package": "unification-fd",
@@ -3005,6 +3208,7 @@
         "index": {
           "description": "variant of cata which restricts the return type to being new fixpoint Though more restrictive it can be helpful when you already have an algebra which expects the outermost Fix If you don like either fmap or cata then maybe this is what you were thinking",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "ycata",
           "normalized": "(Fix a-\u003eFix a)-\u003eFix a-\u003eFix a",
@@ -3020,6 +3224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variant of \u003ccode\u003e\u003ca\u003eycata\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "ycataM",
           "package": "unification-fd",
@@ -3030,6 +3235,7 @@
         "index": {
           "description": "Monadic variant of ycata",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "ycataM",
           "normalized": "(Fix a-\u003eb(Fix a))-\u003eFix a-\u003eb(Fix a)",
@@ -3045,6 +3251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e for endomorphisms on the fixed point. That\n is, this maps the function over the first layer of recursive\n structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "ymap",
           "package": "unification-fd",
@@ -3055,6 +3262,7 @@
         "index": {
           "description": "version of fmap for endomorphisms on the fixed point That is this maps the function over the first layer of recursive structure",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "ymap",
           "normalized": "(Fix a-\u003eFix a)-\u003eFix a-\u003eFix a",
@@ -3070,6 +3278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic variant of \u003ccode\u003e\u003ca\u003eymap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:56 UTC 2014",
           "module": "Data.Functor.Fixedpoint",
           "name": "ymapM",
           "package": "unification-fd",
@@ -3080,6 +3289,7 @@
         "index": {
           "description": "monadic variant of ymap",
           "hierarchy": "Data Functor Fixedpoint",
+          "indexed": "2014-03-11T20:29:56",
           "module": "Data.Functor.Fixedpoint",
           "name": "ymapM",
           "normalized": "(Fix a-\u003eb(Fix a))-\u003eFix a-\u003eb(Fix a)",

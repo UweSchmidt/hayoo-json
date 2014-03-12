@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "slidemews"
+        "phrase": "slidemews",
+        "type": "phrase"
       },
       "type": "context"
     }

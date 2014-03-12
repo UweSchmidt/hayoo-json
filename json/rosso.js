@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rosso"
+        "phrase": "rosso",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eControl.Monad\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Control.Monad.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Extends Control.Monad",
           "hierarchy": "Control Monad Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Control.Monad.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic generalisation of \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Control.Monad.Rosso1",
           "name": "concatMapM",
           "package": "rosso",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Monadic generalisation of concatMap",
           "hierarchy": "Control Monad Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Control.Monad.Rosso1",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic generalisation of 'if'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Control.Monad.Rosso1",
           "name": "ifM",
           "package": "rosso",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Monadic generalisation of if",
           "hierarchy": "Control Monad Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Control.Monad.Rosso1",
           "name": "ifM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003ereturn ()\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Control.Monad.Rosso1",
           "name": "nop",
           "package": "rosso",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Synonym for return",
           "hierarchy": "Control Monad Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Control.Monad.Rosso1",
           "name": "nop",
           "normalized": "a()",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewhen\u003c/a\u003e\u003c/code\u003e, but the condition is also monadic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Control.Monad.Rosso1",
           "name": "whenM",
           "package": "rosso",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Like when but the condition is also monadic",
           "hierarchy": "Control Monad Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Control.Monad.Rosso1",
           "name": "whenM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eData.Bool\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Bool.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Extends Data.Bool",
           "hierarchy": "Data Bool Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Bool.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExclusive OR.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Bool.Rosso1",
           "name": "xor",
           "package": "rosso",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Exclusive OR",
           "hierarchy": "Data Bool Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Bool.Rosso1",
           "name": "xor",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eData.Either\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Either.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Extends Data.Either",
           "hierarchy": "Data Either Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Either.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to the left component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Either.Rosso1",
           "name": "mapLeft",
           "package": "rosso",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Applies function to the left component",
           "hierarchy": "Data Either Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Either.Rosso1",
           "name": "mapLeft",
           "normalized": "(a-\u003eb)-\u003eEither a c-\u003eEither b c",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to the right component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Either.Rosso1",
           "name": "mapRight",
           "package": "rosso",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Applies function to the right component",
           "hierarchy": "Data Either Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Either.Rosso1",
           "name": "mapRight",
           "normalized": "(a-\u003eb)-\u003eEither c a-\u003eEither c b",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eData.List\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.List.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Extends Data.List",
           "hierarchy": "Data List Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.List.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollects together the list of values corresponding to each unique\n key in an association list. Entries in the output list are arranged\n in ascending order of key. The ordering of values corresponding to\n a given key is preserved from input to output.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ealistCollect [(7, 'a'), (3, 'a'), (5, 'x'), (3, 'a'), (3, 'b')]\n\u003c/code\u003e\u003c/strong\u003e[(3,\"aab\"),(5,\"x\"),(7,\"a\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.List.Rosso1",
           "name": "alistCollect",
           "package": "rosso",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Collects together the list of values corresponding to each unique key in an association list Entries in the output list are arranged in ascending order of key The ordering of values corresponding to given key is preserved from input to output alistCollect aab",
           "hierarchy": "Data List Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.List.Rosso1",
           "name": "alistCollect",
           "normalized": "[(a,b)]-\u003e[(a,[b])]",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of lists, each obtained by dropping a single\n element of the argument.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edropEachElem \"abcd\"\n\u003c/code\u003e\u003c/strong\u003e[\"bcd\",\"acd\",\"abd\",\"abc\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.List.Rosso1",
           "name": "dropEachElem",
           "package": "rosso",
@@ -325,6 +350,7 @@
         "index": {
           "description": "Returns list of lists each obtained by dropping single element of the argument dropEachElem abcd bcd acd abd abc",
           "hierarchy": "Data List Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.List.Rosso1",
           "name": "dropEachElem",
           "normalized": "[a]-\u003e[[a]]",
@@ -341,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003edropEachElem\u003c/a\u003e\u003c/code\u003e, but each output list is paired with the\n element that was dropped.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eextractEachElem \"abcd\"\n\u003c/code\u003e\u003c/strong\u003e[('a',\"bcd\"),('b',\"acd\"),('c',\"abd\"),('d',\"abc\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.List.Rosso1",
           "name": "extractEachElem",
           "package": "rosso",
@@ -351,6 +378,7 @@
         "index": {
           "description": "Similar to dropEachElem but each output list is paired with the element that was dropped extractEachElem abcd bcd acd abd abc",
           "hierarchy": "Data List Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.List.Rosso1",
           "name": "extractEachElem",
           "normalized": "[a]-\u003e[(a,[a])]",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorts, then groups the elements of a list, using a specified key\n function. The sorting process is stable, i.e. elements with equal\n keys remain in the same order.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esortAndGroupOn (`mod` 3) [1..10]\n\u003c/code\u003e\u003c/strong\u003e[[3,6,9],[1,4,7,10],[2,5,8]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.List.Rosso1",
           "name": "sortAndGroupOn",
           "package": "rosso",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Sorts then groups the elements of list using specified key function The sorting process is stable i.e elements with equal keys remain in the same order sortAndGroupOn mod",
           "hierarchy": "Data List Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.List.Rosso1",
           "name": "sortAndGroupOn",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[[a]]",
@@ -393,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters a list of values according to a list of corresponding\n boolean flags.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ezipFilter [False, True, False, True, True] [0..]\n\u003c/code\u003e\u003c/strong\u003e[1,3,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.List.Rosso1",
           "name": "zipFilter",
           "package": "rosso",
@@ -403,6 +434,7 @@
         "index": {
           "description": "Filters list of values according to list of corresponding boolean flags zipFilter False True False True True",
           "hierarchy": "Data List Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.List.Rosso1",
           "name": "zipFilter",
           "normalized": "[Bool]-\u003e[a]-\u003e[a]",
@@ -419,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eData.Map\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Map.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -428,6 +461,7 @@
         "index": {
           "description": "Extends Data.Map",
           "hierarchy": "Data Map Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Map.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -442,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimultaneous lookup and delete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Map.Rosso1",
           "name": "extract",
           "package": "rosso",
@@ -452,6 +487,7 @@
         "index": {
           "description": "Simultaneous lookup and delete",
           "hierarchy": "Data Map Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Map.Rosso1",
           "name": "extract",
           "normalized": "a-\u003eMap a b-\u003e(Maybe b,Map a b)",
@@ -467,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePasses down the list from left to right, inserting each entry\n into the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Map.Rosso1",
           "name": "insertMany",
           "package": "rosso",
@@ -477,6 +514,7 @@
         "index": {
           "description": "Passes down the list from left to right inserting each entry into the map",
           "hierarchy": "Data Map Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Map.Rosso1",
           "name": "insertMany",
           "normalized": "[(a,b)]-\u003eMap a b-\u003eMap a b",
@@ -493,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eData.Maybe\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Maybe.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -502,6 +541,7 @@
         "index": {
           "description": "Extends Data.Maybe",
           "hierarchy": "Data Maybe Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Maybe.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -516,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual of \u003ccode\u003e\u003ca\u003efromMaybe\u003c/a\u003e\u003c/code\u003e. Wraps the value in \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e if the predicate\n succeeds, otherwise returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Maybe.Rosso1",
           "name": "toMaybe",
           "package": "rosso",
@@ -526,6 +567,7 @@
         "index": {
           "description": "Dual of fromMaybe Wraps the value in Just if the predicate succeeds otherwise returns Nothing",
           "hierarchy": "Data Maybe Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Maybe.Rosso1",
           "name": "toMaybe",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -542,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eMultiMap\u003c/a\u003e\u003c/code\u003e data structure: similar to a map (\u003ca\u003eData.Map\u003c/a\u003e), but allows\n multiple values with the same key.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -551,6 +594,7 @@
         "index": {
           "description": "MultiMap data structure similar to map Data.Map but allows multiple values with the same key",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -564,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "MultiMap",
           "package": "rosso",
@@ -572,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "MultiMap",
           "package": "rosso",
@@ -586,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the list of values associated with a given key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "alter",
           "package": "rosso",
@@ -596,6 +643,7 @@
         "index": {
           "description": "Modifies the list of values associated with given key",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "alter",
           "normalized": "([a]-\u003e[a])-\u003eb-\u003eMultiMap b a-\u003eMultiMap b a",
@@ -611,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all of the key-value pairs in the multimap in ascending order\n of keys.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eassocs $ fromList [(1, \"ab\"), (4, \"cda\")]\n\u003c/code\u003e\u003c/strong\u003e[(1,'a'),(1,'b'),(4,'c'),(4,'d'),(4,'a')]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "assocs",
           "package": "rosso",
@@ -621,6 +670,7 @@
         "index": {
           "description": "Returns all of the key-value pairs in the multimap in ascending order of keys assocs fromList ab cda",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "assocs",
           "normalized": "MultiMap a b-\u003e[(a,b)]",
@@ -636,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes all the values associated with the given key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "deleteList",
           "package": "rosso",
@@ -646,6 +697,7 @@
         "index": {
           "description": "Deletes all the values associated with the given key",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "deleteList",
           "normalized": "a-\u003eMultiMap a b-\u003eMultiMap a b",
@@ -662,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all of the key-value pairs in the multimap in descending order\n of keys. The values are enumerated in the same order as with \u003ccode\u003e\u003ca\u003emaxView\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edescAssocs (fromList [(1, \"ab\"), (4, \"cda\")])\n\u003c/code\u003e\u003c/strong\u003e[(4,'c'),(4,'d'),(4,'a'),(1,'a'),(1,'b')]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "descAssocs",
           "package": "rosso",
@@ -672,6 +725,7 @@
         "index": {
           "description": "Returns all of the key-value pairs in the multimap in descending order of keys The values are enumerated in the same order as with maxView descAssocs fromList ab cda",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "descAssocs",
           "normalized": "MultiMap a b-\u003e[(a,b)]",
@@ -688,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all of the values in the multimap in descending order of\n their keys. The values are enumerated in the same order as with \u003ccode\u003e\u003ca\u003emaxView\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edescElems $ fromList [(1, \"aba\"), (2, \"adf\"), (3, \"z\")]\n\u003c/code\u003e\u003c/strong\u003e\"zadfaba\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "descElems",
           "package": "rosso",
@@ -698,6 +753,7 @@
         "index": {
           "description": "Returns all of the values in the multimap in descending order of their keys The values are enumerated in the same order as with maxView descElems fromList aba adf zadfaba",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "descElems",
           "normalized": "MultiMap a b-\u003e[b]",
@@ -714,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all of the values in the multimap in ascending order of\n their keys.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eelems $ fromList [(1, \"aba\"), (2, \"adf\"), (3, \"z\")]\n\u003c/code\u003e\u003c/strong\u003e\"abaadfz\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "elems",
           "package": "rosso",
@@ -724,6 +781,7 @@
         "index": {
           "description": "Returns all of the values in the multimap in ascending order of their keys elems fromList aba adf abaadfz",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "elems",
           "normalized": "MultiMap a b-\u003e[b]",
@@ -739,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "empty",
           "package": "rosso",
@@ -749,6 +808,7 @@
         "index": {
           "description": "The empty multimap",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "empty",
           "package": "rosso",
@@ -762,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each key that maps to a non-empty list of values, returns\n that key and its corresponding values as well as the multimap with\n those values removed. The keys are enumerated in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "extractEachListWithKey",
           "package": "rosso",
@@ -772,6 +833,7 @@
         "index": {
           "description": "For each key that maps to non-empty list of values returns that key and its corresponding values as well as the multimap with those values removed The keys are enumerated in ascending order",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "extractEachListWithKey",
           "normalized": "MultiMap a b-\u003e[((a,[b]),MultiMap a b)]",
@@ -788,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimultaneous lookup and deleteList.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "extractList",
           "package": "rosso",
@@ -798,6 +861,7 @@
         "index": {
           "description": "Simultaneous lookup and deleteList",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "extractList",
           "normalized": "a-\u003eMultiMap a b-\u003e([b],MultiMap a b)",
@@ -814,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an association list into a multimap. If the association\n list contains duplicate keys, then the corresponding lists of\n values become concatenated.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efromList [(4, \"dca\"), (1, \"aba\"), (2, \"b\"), (1, \"ac\"), (3, \"\")]\n\u003c/code\u003e\u003c/strong\u003efromList [(1,\"abaac\"),(2,\"b\"),(4,\"dca\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "fromList",
           "package": "rosso",
@@ -824,6 +889,7 @@
         "index": {
           "description": "Converts an association list into multimap If the association list contains duplicate keys then the corresponding lists of values become concatenated fromList dca aba ac fromList abaac dca",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "fromList",
           "normalized": "[(a,[b])]-\u003eMultiMap a b",
@@ -840,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a new key-value pair. If other entries already exist\n with the same key, then the new entry is inserted just before them.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003einsert 2 'a' $ fromList [(1, \"efg\"), (2, \"jzw\"), (3, \"abc\")]\n\u003c/code\u003e\u003c/strong\u003efromList [(1,\"efg\"),(2,\"ajzw\"),(3,\"abc\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "insert",
           "package": "rosso",
@@ -850,6 +917,7 @@
         "index": {
           "description": "Inserts new key-value pair If other entries already exist with the same key then the new entry is inserted just before them insert fromList efg jzw abc fromList efg ajzw abc",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eMultiMap a b-\u003eMultiMap a b",
@@ -865,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepends a list of values onto the entry with the given key.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003einsertList 7 \"hello\" $ fromList [(5, \"ab\"), (7, \"efg\")]\n\u003c/code\u003e\u003c/strong\u003efromList [(5,\"ab\"),(7,\"helloefg\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "insertList",
           "package": "rosso",
@@ -875,6 +944,7 @@
         "index": {
           "description": "Prepends list of values onto the entry with the given key insertList hello fromList ab efg fromList ab helloefg",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "insertList",
           "normalized": "a-\u003e[b]-\u003eMultiMap a b-\u003eMultiMap a b",
@@ -891,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePasses down the list from left to right, inserting each entry into\n the multimap.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003einsertMany [(1, 'a'), (5, 'a'), (1, 'a'), (1, 'b')] empty\n\u003c/code\u003e\u003c/strong\u003efromList [(1,\"baa\"),(5,\"a\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "insertMany",
           "package": "rosso",
@@ -901,6 +972,7 @@
         "index": {
           "description": "Passes down the list from left to right inserting each entry into the multimap insertMany empty fromList baa",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "insertMany",
           "normalized": "[(a,b)]-\u003eMultiMap a b-\u003eMultiMap a b",
@@ -917,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePasses down the given list from left to right invoking \u003ccode\u003e\u003ca\u003einsertList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "insertManyLists",
           "package": "rosso",
@@ -927,6 +1000,7 @@
         "index": {
           "description": "Passes down the given list from left to right invoking insertList",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "insertManyLists",
           "normalized": "[(a,[b])]-\u003eMultiMap a b-\u003eMultiMap a b",
@@ -943,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of values associated with the given key.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elookup 5 $ fromList [(1, \"abc\"), (5, \"aagf\"), (6, \"c\")]\n\u003c/code\u003e\u003c/strong\u003e\"aagf\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "lookup",
           "package": "rosso",
@@ -953,6 +1028,7 @@
         "index": {
           "description": "Returns the list of values associated with the given key lookup fromList abc aagf aagf",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "lookup",
           "normalized": "a-\u003eMultiMap a b-\u003e[b]",
@@ -968,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the multimap is empty, otherwise returns the\n first value associated with the maximal key of the multimap, and\n the multimap stripped of that value.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emaxView $ fromList [(1, \"ab\"), (2, \"efg\")]\n\u003c/code\u003e\u003c/strong\u003eJust ('e',fromList [(1,\"ab\"),(2,\"fg\")])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "maxView",
           "package": "rosso",
@@ -978,6 +1055,7 @@
         "index": {
           "description": "Returns Nothing if the multimap is empty otherwise returns the first value associated with the maximal key of the multimap and the multimap stripped of that value maxView fromList ab efg Just fromList ab fg",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "maxView",
           "normalized": "MultiMap a b-\u003eMaybe(b,MultiMap a b)",
@@ -994,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if the multimap is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "null",
           "package": "rosso",
@@ -1004,6 +1083,7 @@
         "index": {
           "description": "Tests if the multimap is empty",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "null",
           "normalized": "MultiMap a b-\u003eBool",
@@ -1019,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multimap with a single entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "singleton",
           "package": "rosso",
@@ -1029,6 +1110,7 @@
         "index": {
           "description": "multimap with single entry",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eMultiMap a b",
@@ -1044,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a multimap into an association list, with the keys in\n ascending order.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoList $ fromList [(4, \"dca\"), (1, \"aba\"), (2, \"b\"), (1, \"ac\"), (3, \"\")]\n\u003c/code\u003e\u003c/strong\u003e[(1,\"abaac\"),(2,\"b\"),(4,\"dca\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.MultiMap.Rosso1",
           "name": "toList",
           "package": "rosso",
@@ -1054,6 +1137,7 @@
         "index": {
           "description": "Converts multimap into an association list with the keys in ascending order toList fromList dca aba ac abaac dca",
           "hierarchy": "Data MultiMap Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.MultiMap.Rosso1",
           "name": "toList",
           "normalized": "MultiMap a b-\u003e[(a,[b])]",
@@ -1070,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eData.Set\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Set.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -1079,6 +1164,7 @@
         "index": {
           "description": "Extends Data.Set",
           "hierarchy": "Data Set Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Set.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -1093,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts each element of the list into the set in turn, from left\n to right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Set.Rosso1",
           "name": "insertMany",
           "package": "rosso",
@@ -1103,6 +1190,7 @@
         "index": {
           "description": "Inserts each element of the list into the set in turn from left to right",
           "hierarchy": "Data Set Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Set.Rosso1",
           "name": "insertMany",
           "normalized": "[a]-\u003eSet a-\u003eSet a",
@@ -1119,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eData.Tuple\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Tuple.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -1128,6 +1217,7 @@
         "index": {
           "description": "Extends Data.Tuple",
           "hierarchy": "Data Tuple Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Tuple.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -1142,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to the first component of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Tuple.Rosso1",
           "name": "mapFst",
           "package": "rosso",
@@ -1152,6 +1243,7 @@
         "index": {
           "description": "Applies function to the first component of pair",
           "hierarchy": "Data Tuple Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Tuple.Rosso1",
           "name": "mapFst",
           "normalized": "(a-\u003eb)-\u003e(a,c)-\u003e(b,c)",
@@ -1168,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to the second component of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Tuple.Rosso1",
           "name": "mapSnd",
           "package": "rosso",
@@ -1178,6 +1271,7 @@
         "index": {
           "description": "Applies function to the second component of pair",
           "hierarchy": "Data Tuple Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Tuple.Rosso1",
           "name": "mapSnd",
           "normalized": "(a-\u003eb)-\u003e(c,a)-\u003e(c,b)",
@@ -1194,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a pair of functions to a pair of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "Data.Tuple.Rosso1",
           "name": "pairApply",
           "package": "rosso",
@@ -1204,6 +1299,7 @@
         "index": {
           "description": "Applies pair of functions to pair of values",
           "hierarchy": "Data Tuple Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "Data.Tuple.Rosso1",
           "name": "pairApply",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(a,c)-\u003e(b,d)",
@@ -1220,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ca\u003eSystem.IO\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "System.IO.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -1229,6 +1326,7 @@
         "index": {
           "description": "Extends System.IO",
           "hierarchy": "System IO Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "System.IO.Rosso1",
           "name": "Rosso1",
           "package": "rosso",
@@ -1243,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e, but reads the entire contents of the file into\n the string, and then closes the file, before the computation\n completes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:10 UTC 2014",
           "module": "System.IO.Rosso1",
           "name": "readFileStrict",
           "package": "rosso",
@@ -1253,6 +1352,7 @@
         "index": {
           "description": "Like readFile but reads the entire contents of the file into the string and then closes the file before the computation completes",
           "hierarchy": "System IO Rosso1",
+          "indexed": "2014-03-11T19:55:10",
           "module": "System.IO.Rosso1",
           "name": "readFileStrict",
           "normalized": "FilePath-\u003eIO String",

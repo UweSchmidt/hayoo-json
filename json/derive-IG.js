@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "derive-IG"
+        "phrase": "derive-IG",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:22 UTC 2014",
           "module": "Generics.Instant.Derive",
           "name": "Derive",
           "package": "derive-IG",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Derive",
+          "indexed": "2014-03-11T17:53:22",
           "module": "Generics.Instant.Derive",
           "name": "Derive",
           "package": "derive-IG",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate Constructor and Representable instance for \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:22 UTC 2014",
           "module": "Generics.Instant.Derive",
           "name": "derive",
           "package": "derive-IG",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Generate Constructor and Representable instance for",
           "hierarchy": "Generics Instant Derive",
+          "indexed": "2014-03-11T17:53:22",
           "module": "Generics.Instant.Derive",
           "name": "derive",
           "normalized": "Name-\u003eQ[Dec]",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:22 UTC 2014",
           "module": "Generics.Instant.Derive",
           "name": "deriveCon",
           "package": "derive-IG",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Derive",
+          "indexed": "2014-03-11T17:53:22",
           "module": "Generics.Instant.Derive",
           "name": "deriveCon",
           "normalized": "Name-\u003eQ[Dec]",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:22 UTC 2014",
           "module": "Generics.Instant.Derive",
           "name": "deriveConWith",
           "package": "derive-IG",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Derive",
+          "indexed": "2014-03-11T17:53:22",
           "module": "Generics.Instant.Derive",
           "name": "deriveConWith",
           "normalized": "Name-\u003e[Maybe String]-\u003eQ[Dec]",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:22 UTC 2014",
           "module": "Generics.Instant.Derive",
           "name": "deriveRep",
           "package": "derive-IG",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Derive",
+          "indexed": "2014-03-11T17:53:22",
           "module": "Generics.Instant.Derive",
           "name": "deriveRep",
           "normalized": "Name-\u003eQ[Dec]",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:22 UTC 2014",
           "module": "Generics.Instant.Derive",
           "name": "deriveRepWith",
           "package": "derive-IG",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Derive",
+          "indexed": "2014-03-11T17:53:22",
           "module": "Generics.Instant.Derive",
           "name": "deriveRepWith",
           "normalized": "Name-\u003e[Maybe String]-\u003eQ[Dec]",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:22 UTC 2014",
           "module": "Generics.Instant.Derive",
           "name": "deriveWith",
           "package": "derive-IG",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Derive",
+          "indexed": "2014-03-11T17:53:22",
           "module": "Generics.Instant.Derive",
           "name": "deriveWith",
           "normalized": "Name-\u003e[Maybe String]-\u003eQ[Dec]",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:22 UTC 2014",
           "module": "Generics.Instant.Derive",
           "name": "derives",
           "package": "derive-IG",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Derive",
+          "indexed": "2014-03-11T17:53:22",
           "module": "Generics.Instant.Derive",
           "name": "derives",
           "normalized": "[Name]-\u003eQ[Dec]",

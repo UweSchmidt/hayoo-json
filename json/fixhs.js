@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixhs"
+        "phrase": "fixhs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "Coparser",
           "package": "fixhs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "Coparser",
           "package": "fixhs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "BuilderLike",
           "package": "fixhs",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "BuilderLike",
           "package": "fixhs",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "Coparser",
           "package": "fixhs",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "Coparser",
           "package": "fixhs",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "append",
           "package": "fixhs",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "append",
           "normalized": "a-\u003ea-\u003ea",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "concat",
           "package": "fixhs",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "concat",
           "normalized": "[a]-\u003ea",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "cons",
           "package": "fixhs",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "cons",
           "normalized": "Char-\u003ea-\u003ea",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "coparse",
           "package": "fixhs",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "coparse",
           "normalized": "a-\u003eb",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "decimal",
           "package": "fixhs",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "decimal",
           "normalized": "a-\u003eb",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "foldl",
           "package": "fixhs",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "foldl",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eb-\u003ea",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "foldl'",
           "package": "fixhs",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "foldl'",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eb-\u003ea",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "length",
           "package": "fixhs",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "pack",
           "package": "fixhs",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "pack",
           "normalized": "String-\u003ea",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "realFloat",
           "package": "fixhs",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "realFloat",
           "normalized": "a-\u003eb",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "singleton",
           "package": "fixhs",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "singleton",
           "normalized": "Char-\u003ea",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "snoc",
           "package": "fixhs",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "snoc",
           "normalized": "a-\u003eChar-\u003ea",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.Coparser",
           "name": "unpack",
           "package": "fixhs",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.Coparser",
           "name": "unpack",
           "normalized": "a-\u003eString",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Arbitrary",
           "name": "Arbitrary",
           "package": "fixhs",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Arbitrary",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Arbitrary",
           "name": "Arbitrary",
           "package": "fixhs",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Arbitrary",
           "name": "arbibtraryFIXGroup",
           "package": "fixhs",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Arbitrary",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Arbitrary",
           "name": "arbibtraryFIXGroup",
           "normalized": "FIXGroupSpec-\u003eGen FIXValue",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Arbitrary",
           "name": "arbibtraryFIXValues",
           "package": "fixhs",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Arbitrary",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Arbitrary",
           "name": "arbibtraryFIXValues",
           "normalized": "FIXTags-\u003eGen FIXValues",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Arbitrary",
           "name": "arbitraryFIXMessage",
           "package": "fixhs",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Arbitrary",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Arbitrary",
           "name": "arbitraryFIXMessage",
           "normalized": "FIXSpec-\u003eFIXMessageSpec-\u003eGen(FIXMessage FIXSpec)",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Common",
           "name": "Common",
           "package": "fixhs",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Common",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Common",
           "name": "Common",
           "package": "fixhs",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Coparser",
           "name": "Coparser",
           "package": "fixhs",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Coparser",
           "name": "Coparser",
           "package": "fixhs",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Coparser",
           "name": "coparse",
           "package": "fixhs",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Coparser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Coparser",
           "name": "coparse",
           "normalized": "a-\u003eb",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFIX messages\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "Message",
           "package": "fixhs",
@@ -571,6 +618,7 @@
         "index": {
           "description": "FIX messages",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "Message",
           "package": "fixhs",
@@ -584,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXGroupElement",
           "package": "fixhs",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXGroupElement",
           "package": "fixhs",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXGroupSpec",
           "package": "fixhs",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXGroupSpec",
           "package": "fixhs",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXMessage",
           "package": "fixhs",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXMessage",
           "package": "fixhs",
@@ -647,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXMessageSpec",
           "package": "fixhs",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXMessageSpec",
           "package": "fixhs",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXMessages",
           "package": "fixhs",
@@ -676,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXMessages",
           "package": "fixhs",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXSpec",
           "package": "fixhs",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXSpec",
           "package": "fixhs",
@@ -711,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA valid FIX field description. It is used to specify FIX messages using\n \u003ccode\u003e\u003ca\u003eFIXMessageSpec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXTag",
           "package": "fixhs",
@@ -720,6 +781,7 @@
         "index": {
           "description": "valid FIX field description It is used to specify FIX messages using FIXMessageSpec",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXTag",
           "package": "fixhs",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXTags",
           "package": "fixhs",
@@ -741,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXTags",
           "package": "fixhs",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXValue",
           "package": "fixhs",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXValue",
           "package": "fixhs",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXValues",
           "package": "fixhs",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXValues",
           "package": "fixhs",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "ListOfValues",
           "package": "fixhs",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "ListOfValues",
           "package": "fixhs",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FGSpec",
           "package": "fixhs",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FGSpec",
           "package": "fixhs",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXBool",
           "package": "fixhs",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXBool",
           "package": "fixhs",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXChar",
           "package": "fixhs",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXChar",
           "package": "fixhs",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXData",
           "package": "fixhs",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXData",
           "package": "fixhs",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXDateOnly",
           "package": "fixhs",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXDateOnly",
           "package": "fixhs",
@@ -927,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXDouble",
           "package": "fixhs",
@@ -936,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXDouble",
           "package": "fixhs",
@@ -949,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXGroup",
           "package": "fixhs",
@@ -958,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXGroup",
           "normalized": "FIXGroup Int[FIXGroupElement]",
@@ -973,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXGroupElement",
           "package": "fixhs",
@@ -982,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXGroupElement",
           "package": "fixhs",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXInt",
           "package": "fixhs",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXInt",
           "package": "fixhs",
@@ -1017,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXMessage",
           "package": "fixhs",
@@ -1026,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXMessage",
           "package": "fixhs",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXMonthYear",
           "package": "fixhs",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXMonthYear",
           "package": "fixhs",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXMultipleValueString",
           "package": "fixhs",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXMultipleValueString",
           "package": "fixhs",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXString",
           "package": "fixhs",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXString",
           "package": "fixhs",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXTag",
           "package": "fixhs",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXTag",
           "package": "fixhs",
@@ -1127,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXTimeOnly",
           "package": "fixhs",
@@ -1136,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXTimeOnly",
           "package": "fixhs",
@@ -1149,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FIXTimestamp",
           "package": "fixhs",
@@ -1158,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FIXTimestamp",
           "package": "fixhs",
@@ -1171,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FMSpec",
           "package": "fixhs",
@@ -1180,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FMSpec",
           "package": "fixhs",
@@ -1193,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "FSpec",
           "package": "fixhs",
@@ -1202,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "FSpec",
           "package": "fixhs",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "LoV",
           "package": "fixhs",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "LoV",
           "package": "fixhs",
@@ -1238,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA random generator for that particular types of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "arbitraryValue",
           "package": "fixhs",
@@ -1248,6 +1357,7 @@
         "index": {
           "description": "random generator for that particular types of fields",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "arbitraryValue",
           "package": "fixhs",
@@ -1261,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "checksum",
           "package": "fixhs",
@@ -1270,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "checksum",
           "normalized": "a-\u003eInt",
@@ -1285,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIX header tags \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "fsHeader",
           "package": "fixhs",
@@ -1295,6 +1408,7 @@
         "index": {
           "description": "FIX header tags",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "fsHeader",
           "package": "fixhs",
@@ -1309,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary of all FIX messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "fsMessages",
           "package": "fixhs",
@@ -1319,6 +1434,7 @@
         "index": {
           "description": "Dictionary of all FIX messages",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "fsMessages",
           "package": "fixhs",
@@ -1333,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary of all FIX tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "fsTags",
           "package": "fixhs",
@@ -1343,6 +1460,7 @@
         "index": {
           "description": "Dictionary of all FIX tags",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "fsTags",
           "package": "fixhs",
@@ -1357,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIX trailer tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "fsTrailer",
           "package": "fixhs",
@@ -1367,6 +1486,7 @@
         "index": {
           "description": "FIX trailer tags",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "fsTrailer",
           "package": "fixhs",
@@ -1381,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIX version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "fsVersion",
           "package": "fixhs",
@@ -1391,6 +1512,7 @@
         "index": {
           "description": "FIX version",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "fsVersion",
           "package": "fixhs",
@@ -1404,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "gsBody",
           "package": "fixhs",
@@ -1413,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "gsBody",
           "package": "fixhs",
@@ -1426,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "gsLength",
           "package": "fixhs",
@@ -1435,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "gsLength",
           "package": "fixhs",
@@ -1448,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "gsSeperator",
           "package": "fixhs",
@@ -1457,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "gsSeperator",
           "package": "fixhs",
@@ -1470,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "mBody",
           "package": "fixhs",
@@ -1479,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "mBody",
           "package": "fixhs",
@@ -1492,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "mContext",
           "package": "fixhs",
@@ -1501,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "mContext",
           "package": "fixhs",
@@ -1514,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "mHeader",
           "package": "fixhs",
@@ -1523,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "mHeader",
           "package": "fixhs",
@@ -1536,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "mTrailer",
           "package": "fixhs",
@@ -1545,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "mTrailer",
           "package": "fixhs",
@@ -1558,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "mType",
           "package": "fixhs",
@@ -1567,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "mType",
           "package": "fixhs",
@@ -1580,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "msBody",
           "package": "fixhs",
@@ -1589,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "msBody",
           "package": "fixhs",
@@ -1602,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "msHeader",
           "package": "fixhs",
@@ -1611,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "msHeader",
           "package": "fixhs",
@@ -1624,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "msName",
           "package": "fixhs",
@@ -1633,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "msName",
           "package": "fixhs",
@@ -1646,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "msTrailer",
           "package": "fixhs",
@@ -1655,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "msTrailer",
           "package": "fixhs",
@@ -1668,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "msType",
           "package": "fixhs",
@@ -1677,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "msType",
           "package": "fixhs",
@@ -1691,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the tag e.g. BeginString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "tName",
           "package": "fixhs",
@@ -1701,6 +1850,7 @@
         "index": {
           "description": "The name of the tag e.g BeginString",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "tName",
           "package": "fixhs",
@@ -1715,6 +1865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe numerical value of the tag e.g. 8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "tnum",
           "package": "fixhs",
@@ -1725,6 +1876,7 @@
         "index": {
           "description": "The numerical value of the tag e.g",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "tnum",
           "package": "fixhs",
@@ -1738,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe corresponding attoparsec parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Message",
           "name": "tparser",
           "package": "fixhs",
@@ -1748,6 +1901,7 @@
         "index": {
           "description": "The corresponding attoparsec parser",
           "hierarchy": "Data FIX Message",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Message",
           "name": "tparser",
           "package": "fixhs",
@@ -1760,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "Parser",
           "package": "fixhs",
@@ -1768,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "Parser",
           "package": "fixhs",
@@ -1781,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "groupP",
           "package": "fixhs",
@@ -1790,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "groupP",
           "normalized": "FIXGroupSpec-\u003eParser FIXValue",
@@ -1805,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the FIX specification deserialize the FIX message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "messageP",
           "package": "fixhs",
@@ -1815,6 +1974,7 @@
         "index": {
           "description": "Given the FIX specification deserialize the FIX message",
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "messageP",
           "normalized": "FIXSpec-\u003eByteString-\u003eParser(FIXMessage FIXSpec)",
@@ -1830,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the next FIX message (only text) in the stream. The checksum is\n validated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "nextP",
           "package": "fixhs",
@@ -1840,6 +2001,7 @@
         "index": {
           "description": "Match the next FIX message only text in the stream The checksum is validated",
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "nextP",
           "package": "fixhs",
@@ -1853,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the next FIX message (only text) in the stream. The checksum is NOT\n validated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "nextP'",
           "package": "fixhs",
@@ -1863,6 +2026,7 @@
         "index": {
           "description": "Match the next FIX message only text in the stream The checksum is NOT validated",
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "nextP'",
           "package": "fixhs",
@@ -1876,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "tBeginString",
           "package": "fixhs",
@@ -1885,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "tBeginString",
           "package": "fixhs",
@@ -1898,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "tBodyLength",
           "package": "fixhs",
@@ -1907,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "tBodyLength",
           "package": "fixhs",
@@ -1920,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "tCheckSum",
           "package": "fixhs",
@@ -1929,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "tCheckSum",
           "package": "fixhs",
@@ -1942,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "tMsgType",
           "package": "fixhs",
@@ -1951,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "tMsgType",
           "package": "fixhs",
@@ -1964,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXBool",
           "package": "fixhs",
@@ -1973,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXBool",
           "package": "fixhs",
@@ -1986,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXChar",
           "package": "fixhs",
@@ -1995,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXChar",
           "package": "fixhs",
@@ -2008,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXData",
           "package": "fixhs",
@@ -2017,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXData",
           "package": "fixhs",
@@ -2030,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXDateOnly",
           "package": "fixhs",
@@ -2039,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXDateOnly",
           "package": "fixhs",
@@ -2052,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXDouble",
           "package": "fixhs",
@@ -2061,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXDouble",
           "package": "fixhs",
@@ -2074,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXInt",
           "package": "fixhs",
@@ -2083,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXInt",
           "package": "fixhs",
@@ -2096,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXMonthYear",
           "package": "fixhs",
@@ -2105,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXMonthYear",
           "package": "fixhs",
@@ -2118,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXMultipleValueString",
           "package": "fixhs",
@@ -2127,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXMultipleValueString",
           "package": "fixhs",
@@ -2140,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXString",
           "package": "fixhs",
@@ -2149,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXString",
           "package": "fixhs",
@@ -2162,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXTimeOnly",
           "package": "fixhs",
@@ -2171,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXTimeOnly",
           "package": "fixhs",
@@ -2184,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Parser",
           "name": "toFIXTimestamp",
           "package": "fixhs",
@@ -2193,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Parser",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Parser",
           "name": "toFIXTimestamp",
           "package": "fixhs",
@@ -2206,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Spec.FIX40",
           "name": "FIX40",
           "package": "fixhs",
@@ -2214,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Spec FIX40",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Spec.FIX40",
           "name": "FIX40",
           "package": "fixhs",
@@ -2227,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Spec.FIX40",
           "name": "fix40",
           "package": "fixhs",
@@ -2236,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Spec FIX40",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Spec.FIX40",
           "name": "fix40",
           "package": "fixhs",
@@ -2248,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Spec.FIX41",
           "name": "FIX41",
           "package": "fixhs",
@@ -2256,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Spec FIX41",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Spec.FIX41",
           "name": "FIX41",
           "package": "fixhs",
@@ -2269,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Spec.FIX41",
           "name": "fix41",
           "package": "fixhs",
@@ -2278,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Spec FIX41",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Spec.FIX41",
           "name": "fix41",
           "package": "fixhs",
@@ -2290,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Spec.FIX42",
           "name": "FIX42",
           "package": "fixhs",
@@ -2298,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Spec FIX42",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Spec.FIX42",
           "name": "FIX42",
           "package": "fixhs",
@@ -2311,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.FIX.Spec.FIX42",
           "name": "fix42",
           "package": "fixhs",
@@ -2320,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Data FIX Spec FIX42",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.FIX.Spec.FIX42",
           "name": "fix42",
           "package": "fixhs",
@@ -2332,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.LookupTable",
           "name": "LookupTable",
           "package": "fixhs",
@@ -2340,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Data LookupTable",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.LookupTable",
           "name": "LookupTable",
           "package": "fixhs",
@@ -2353,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.LookupTable",
           "name": "LookupTable",
           "package": "fixhs",
@@ -2361,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Data LookupTable",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.LookupTable",
           "name": "LookupTable",
           "package": "fixhs",
@@ -2374,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.LookupTable",
           "name": "fromList",
           "package": "fixhs",
@@ -2383,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Data LookupTable",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.LookupTable",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003ec",
@@ -2398,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.LookupTable",
           "name": "insert",
           "package": "fixhs",
@@ -2407,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Data LookupTable",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.LookupTable",
           "name": "insert",
           "normalized": "a-\u003eb-\u003ec-\u003ec",
@@ -2421,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.LookupTable",
           "name": "lookup",
           "package": "fixhs",
@@ -2430,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Data LookupTable",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.LookupTable",
           "name": "lookup",
           "normalized": "a-\u003eb-\u003eMaybe c",
@@ -2444,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.LookupTable",
           "name": "new",
           "package": "fixhs",
@@ -2453,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Data LookupTable",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.LookupTable",
           "name": "new",
           "package": "fixhs",
@@ -2465,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:05 UTC 2014",
           "module": "Data.LookupTable",
           "name": "toList",
           "package": "fixhs",
@@ -2474,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Data LookupTable",
+          "indexed": "2014-03-11T18:10:05",
           "module": "Data.LookupTable",
           "name": "toList",
           "normalized": "a-\u003e[(b,c)]",

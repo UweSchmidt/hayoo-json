@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "smtp2mta"
+        "phrase": "smtp2mta",
+        "type": "phrase"
       },
       "type": "context"
     }

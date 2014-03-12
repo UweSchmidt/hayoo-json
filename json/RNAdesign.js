@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RNAdesign"
+        "phrase": "RNAdesign",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "Assignment",
           "package": "RNAdesign",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "Assignment",
           "package": "RNAdesign",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "Assignment",
           "package": "RNAdesign",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "Assignment",
           "package": "RNAdesign",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "Assignment",
           "package": "RNAdesign",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "Assignment",
           "package": "RNAdesign",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a graph with base pairing constraints, return a \u003ccode\u003eAssignments\u003c/code\u003e data\n structure that provides all legal assignments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "allCandidates",
           "package": "RNAdesign",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Given graph with base pairing constraints return Assignments data structure that provides all legal assignments",
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "allCandidates",
           "normalized": "Int-\u003eVector[Nuc]-\u003ea()()-\u003eAssignment",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "assignment",
           "package": "RNAdesign",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "assignment",
           "package": "RNAdesign",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "columns",
           "package": "RNAdesign",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "columns",
           "package": "RNAdesign",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "isExhaustive",
           "package": "RNAdesign",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "isExhaustive",
           "package": "RNAdesign",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "mkAssignments",
           "package": "RNAdesign",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "mkAssignments",
           "normalized": "Vector[Nuc]-\u003e[(Int,Int)]-\u003e[[Nuc]]",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "mkEL",
           "package": "RNAdesign",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "mkEL",
           "normalized": "[(Int,Int)]-\u003e[Int]",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "numAssignments",
           "package": "RNAdesign",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "numAssignments",
           "package": "RNAdesign",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "vps",
           "package": "RNAdesign",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Assignment",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Assignment",
           "name": "vps",
           "normalized": "[(Nuc,Nuc)]",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "CandidateChain",
           "package": "RNAdesign",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "CandidateChain",
           "package": "RNAdesign",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single candidate, with its sequence and the score, this sequence\n receives.  Candidates are ordered by their scores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "Candidate",
           "package": "RNAdesign",
@@ -296,6 +321,7 @@
         "index": {
           "description": "single candidate with its sequence and the score this sequence receives Candidates are ordered by their scores",
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "Candidate",
           "package": "RNAdesign",
@@ -310,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis structure defines a \u003ca\u003edesign problem\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "DesignProblem",
           "package": "RNAdesign",
@@ -319,6 +346,7 @@
         "index": {
           "description": "This structure defines design problem",
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "DesignProblem",
           "package": "RNAdesign",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe likelihood score we get.\n\u003c/p\u003e\u003cp\u003eTODO replace Score Likelihood / LogLikelihood (once we switch to the more\n generic MCMC library)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "Score",
           "package": "RNAdesign",
@@ -342,6 +371,7 @@
         "index": {
           "description": "The likelihood score we get TODO replace Score Likelihood LogLikelihood once we switch to the more generic MCMC library",
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "Score",
           "package": "RNAdesign",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "Candidate",
           "package": "RNAdesign",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "Candidate",
           "package": "RNAdesign",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "DesignProblem",
           "package": "RNAdesign",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "DesignProblem",
           "package": "RNAdesign",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "Score",
           "package": "RNAdesign",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "Score",
           "package": "RNAdesign",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "assignments",
           "package": "RNAdesign",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "assignments",
           "normalized": "[Assignment]",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "candidate",
           "package": "RNAdesign",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "candidate",
           "package": "RNAdesign",
@@ -466,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an initial, legal, candidate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "mkInitial",
           "package": "RNAdesign",
@@ -476,6 +517,7 @@
         "index": {
           "description": "Create an initial legal candidate",
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "mkInitial",
           "normalized": "(Primary-\u003eScore)-\u003eInt-\u003eDesignProblem-\u003eRand a Candidate",
@@ -492,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutate the current (or \u003ca\u003eold\u003c/a\u003e) sequence under the possible \u003ccode\u003e\u003ca\u003eassignment\u003c/a\u003e\u003c/code\u003es as\n prescribed by \u003ccode\u003e\u003ca\u003eAssignment\u003c/a\u003e\u003c/code\u003e. The modifying assignment is selected uniformly.\n The monadic \u003ccode\u003eold -\u003e new -\u003e Rand m Bool\u003c/code\u003e function chooses between the old and\n the new candidate. It can be used to, e.g., allow always choosing \u003ca\u003enew\u003c/a\u003e if\n it is better, but choosing \u003ca\u003enew\u003c/a\u003e as well if some stochastic value (hence\n dependence on \u003ccode\u003eRand m\u003c/code\u003e) indicates so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "mutateOneAssignmentWith",
           "package": "RNAdesign",
@@ -501,6 +544,7 @@
         "index": {
           "description": "Mutate the current or old sequence under the possible assignment as prescribed by Assignment The modifying assignment is selected uniformly The monadic old new Rand Bool function chooses between the old and the new candidate It can be used to e.g allow always choosing new if it is better but choosing new as well if some stochastic value hence dependence on Rand indicates so",
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "mutateOneAssignmentWith",
           "normalized": "(Primary-\u003eScore)-\u003e(Candidate-\u003eCandidate-\u003eRand a Bool)-\u003eCandidate-\u003eAssignment-\u003eRand a Candidate",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "score",
           "package": "RNAdesign",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "score",
           "package": "RNAdesign",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "structures",
           "package": "RNAdesign",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "structures",
           "normalized": "[D Secondary]",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "unScore",
           "package": "RNAdesign",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "unScore",
           "package": "RNAdesign",
@@ -583,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a stream of \u003ccode\u003e\u003ca\u003eCandidate\u003c/a\u003e\u003c/code\u003es from an initial candidate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "unfoldStream",
           "package": "RNAdesign",
@@ -593,6 +644,7 @@
         "index": {
           "description": "Create stream of Candidate from an initial candidate",
           "hierarchy": "BioInf RNAdesign CandidateChain",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.CandidateChain",
           "name": "unfoldStream",
           "normalized": "Int-\u003eInt-\u003eInt-\u003e(Primary-\u003eScore)-\u003e(Candidate-\u003eCandidate-\u003eRand a Bool)-\u003eDesignProblem-\u003eCandidate-\u003eStream(Rand a)Candidate",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Graph",
           "name": "Graph",
           "package": "RNAdesign",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign Graph",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Graph",
           "name": "Graph",
           "package": "RNAdesign",
@@ -630,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the graph into (simple, complex) components. The simple components\n can trivially be filled with any pair. The complex components require an Ear\n or Woffle decomposition. Simple components are acyclic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Graph",
           "name": "independentComponents",
           "package": "RNAdesign",
@@ -640,6 +695,7 @@
         "index": {
           "description": "Split the graph into simple complex components The simple components can trivially be filled with any pair The complex components require an Ear or Woffle decomposition Simple components are acyclic",
           "hierarchy": "BioInf RNAdesign Graph",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Graph",
           "name": "independentComponents",
           "normalized": "a()()-\u003e[a()()]",
@@ -656,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the one to many structures, create the independent graphs, where\n each graph describes a set of dependent edges in the basepairing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Graph",
           "name": "independentGraphs",
           "package": "RNAdesign",
@@ -666,6 +723,7 @@
         "index": {
           "description": "Given the one to many structures create the independent graphs where each graph describes set of dependent edges in the basepairing",
           "hierarchy": "BioInf RNAdesign Graph",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Graph",
           "name": "independentGraphs",
           "normalized": "[String]-\u003e[Gr()()]",
@@ -682,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if the given graph is bipartite, which is true if the even/odd BST\n trees contain no edges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Graph",
           "name": "isBipartite",
           "package": "RNAdesign",
@@ -692,6 +751,7 @@
         "index": {
           "description": "Tests if the given graph is bipartite which is true if the even odd BST trees contain no edges",
           "hierarchy": "BioInf RNAdesign Graph",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Graph",
           "name": "isBipartite",
           "normalized": "a b c-\u003eBool",
@@ -708,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of several graphs, created from secondary structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Graph",
           "name": "mkUnionGraph",
           "package": "RNAdesign",
@@ -718,6 +779,7 @@
         "index": {
           "description": "Union of several graphs created from secondary structure",
           "hierarchy": "BioInf RNAdesign Graph",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Graph",
           "name": "mkUnionGraph",
           "normalized": "[String]-\u003eGr()()",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a pairlist, generate the secondary structure graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Graph",
           "name": "pairlistToGraph",
           "package": "RNAdesign",
@@ -744,6 +807,7 @@
         "index": {
           "description": "Given pairlist generate the secondary structure graph",
           "hierarchy": "BioInf RNAdesign Graph",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Graph",
           "name": "pairlistToGraph",
           "normalized": "D Secondary-\u003eGr()()",
@@ -760,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven k graphs, each with nodes [1..n], provide the union of all edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.Graph",
           "name": "unions",
           "package": "RNAdesign",
@@ -770,6 +835,7 @@
         "index": {
           "description": "Given graphs each with nodes provide the union of all edges",
           "hierarchy": "BioInf RNAdesign Graph",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.Graph",
           "name": "unions",
           "normalized": "[Gr a b]-\u003eGr a b",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.LogMultinomial",
           "name": "LogMultinomial",
           "package": "RNAdesign",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign LogMultinomial",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.LogMultinomial",
           "name": "LogMultinomial",
           "package": "RNAdesign",
@@ -805,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.LogMultinomial",
           "name": "logMultinomial",
           "package": "RNAdesign",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign LogMultinomial",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.LogMultinomial",
           "name": "logMultinomial",
           "normalized": "Int-\u003eVector Double-\u003eVector Int-\u003eDouble",
@@ -830,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple parser designed to read the optimization string from an argument\n and together with the input computes the result of the the optimization\n query. Without \u003ccode\u003emkSingleOp\u003c/code\u003e and \u003ccode\u003emkMultiOp\u003c/code\u003e this just a trivial parser for\n simple arithmetic. The addional operations provide access to user-defined\n functions that can, for example, be used to calculate the energy of a\n sequence-structure pair. Those functions are not defined here but in the\n application that uses the parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.OptParser",
           "name": "OptParser",
           "package": "RNAdesign",
@@ -839,6 +910,7 @@
         "index": {
           "description": "simple parser designed to read the optimization string from an argument and together with the input computes the result of the the optimization query Without mkSingleOp and mkMultiOp this just trivial parser for simple arithmetic The addional operations provide access to user-defined functions that can for example be used to calculate the energy of sequence-structure pair Those functions are not defined here but in the application that uses the parser",
           "hierarchy": "BioInf RNAdesign OptParser",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.OptParser",
           "name": "OptParser",
           "package": "RNAdesign",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign.OptParser",
           "name": "parseOptString",
           "package": "RNAdesign",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign OptParser",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign.OptParser",
           "name": "parseOptString",
           "normalized": "NumSecStructs-\u003e[SingleOp]-\u003e[MultiOp]-\u003e[GlobalOp]-\u003e[PropOp]-\u003eString-\u003eDouble",
@@ -876,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign",
           "name": "RNAdesign",
           "package": "RNAdesign",
@@ -884,6 +959,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign",
           "name": "RNAdesign",
           "package": "RNAdesign",
@@ -897,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign",
           "name": "ensembleDefect",
           "package": "RNAdesign",
@@ -906,6 +983,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign",
           "name": "ensembleDefect",
           "normalized": "Vector a-\u003eD Secondary-\u003eDouble",
@@ -921,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign",
           "name": "lmn",
           "package": "RNAdesign",
@@ -930,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign",
           "name": "lmn",
           "normalized": "[Double]-\u003eVector Nuc-\u003eDouble",
@@ -945,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a set of structures, create the set of independent graphs and\n assignment possibilities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign",
           "name": "mkDesignProblem",
           "package": "RNAdesign",
@@ -955,6 +1036,7 @@
         "index": {
           "description": "Given set of structures create the set of independent graphs and assignment possibilities",
           "hierarchy": "BioInf RNAdesign",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign",
           "name": "mkDesignProblem",
           "normalized": "Int-\u003e[String]-\u003eString-\u003eDesignProblem",
@@ -970,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign",
           "name": "probabilityDefectAll",
           "package": "RNAdesign",
@@ -979,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign",
           "name": "probabilityDefectAll",
           "normalized": "Vector a-\u003e[D Secondary]-\u003eDouble",
@@ -995,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve the optimization task. Each possible optimization function is\n given here. Try to keep the functions defined here in sync with some\n (non-existent ;-) documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign",
           "name": "resolveOpt",
           "package": "RNAdesign",
@@ -1005,6 +1090,7 @@
         "index": {
           "description": "Resolve the optimization task Each possible optimization function is given here Try to keep the functions defined here in sync with some non-existent documentation",
           "hierarchy": "BioInf RNAdesign",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign",
           "name": "resolveOpt",
           "normalized": "String-\u003ea-\u003ePrimary-\u003e[D Secondary]-\u003eDouble",
@@ -1020,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:18 UTC 2014",
           "module": "BioInf.RNAdesign",
           "name": "scoreSequence",
           "package": "RNAdesign",
@@ -1029,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAdesign",
+          "indexed": "2014-03-11T16:58:18",
           "module": "BioInf.RNAdesign",
           "name": "scoreSequence",
           "normalized": "String-\u003eVienna-\u003eDesignProblem-\u003ePrimary-\u003eScore",

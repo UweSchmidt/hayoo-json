@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "trace-function-call"
+        "phrase": "trace-function-call",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSee the package page for a short tutorial.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:31 UTC 2014",
           "module": "Debug.Trace.FunctionCall",
           "name": "FunctionCall",
           "package": "trace-function-call",
@@ -28,6 +29,7 @@
         "index": {
           "description": "See the package page for short tutorial",
           "hierarchy": "Debug Trace FunctionCall",
+          "indexed": "2014-03-11T20:24:31",
           "module": "Debug.Trace.FunctionCall",
           "name": "FunctionCall",
           "package": "trace-function-call",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:31 UTC 2014",
           "module": "Debug.Trace.FunctionCall",
           "name": "Showable",
           "package": "trace-function-call",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace FunctionCall",
+          "indexed": "2014-03-11T20:24:31",
           "module": "Debug.Trace.FunctionCall",
           "name": "Showable",
           "package": "trace-function-call",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:31 UTC 2014",
           "module": "Debug.Trace.FunctionCall",
           "name": "Traceable",
           "package": "trace-function-call",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace FunctionCall",
+          "indexed": "2014-03-11T20:24:31",
           "module": "Debug.Trace.FunctionCall",
           "name": "Traceable",
           "package": "trace-function-call",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:31 UTC 2014",
           "module": "Debug.Trace.FunctionCall",
           "name": "showFunction",
           "package": "trace-function-call",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Debug Trace FunctionCall",
+          "indexed": "2014-03-11T20:24:31",
           "module": "Debug.Trace.FunctionCall",
           "name": "showFunction",
           "normalized": "a-\u003eString",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay the parameters and result of evaluating the function when its result is forced. The first argument is the name\n of the function, as it should appear in the debugging output. The second parameter is the original function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:31 UTC 2014",
           "module": "Debug.Trace.FunctionCall",
           "name": "traceFunction",
           "package": "trace-function-call",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Display the parameters and result of evaluating the function when its result is forced The first argument is the name of the function as it should appear in the debugging output The second parameter is the original function",
           "hierarchy": "Debug Trace FunctionCall",
+          "indexed": "2014-03-11T20:24:31",
           "module": "Debug.Trace.FunctionCall",
           "name": "traceFunction",
           "normalized": "String-\u003ea-\u003ea",

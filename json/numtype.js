@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "numtype"
+        "phrase": "numtype",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "NumType",
           "package": "numtype",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "NumType",
           "package": "numtype",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Div",
           "package": "numtype",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Div",
           "package": "numtype",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Mul",
           "package": "numtype",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Mul",
           "package": "numtype",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Neg",
           "package": "numtype",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Neg",
           "package": "numtype",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Neg1",
           "package": "numtype",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Neg1",
           "package": "numtype",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Neg2",
           "package": "numtype",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Neg2",
           "package": "numtype",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Neg3",
           "package": "numtype",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Neg3",
           "package": "numtype",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Neg4",
           "package": "numtype",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Neg4",
           "package": "numtype",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Neg5",
           "package": "numtype",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Neg5",
           "package": "numtype",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "NegType",
           "package": "numtype",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "NegType",
           "package": "numtype",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Negate",
           "package": "numtype",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Negate",
           "package": "numtype",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "NonZero",
           "package": "numtype",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "NonZero",
           "package": "numtype",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "NumType",
           "package": "numtype",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "NumType",
           "package": "numtype",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Pos",
           "package": "numtype",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Pos",
           "package": "numtype",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Pos1",
           "package": "numtype",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Pos1",
           "package": "numtype",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Pos2",
           "package": "numtype",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Pos2",
           "package": "numtype",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Pos3",
           "package": "numtype",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Pos3",
           "package": "numtype",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Pos4",
           "package": "numtype",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Pos4",
           "package": "numtype",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Pos5",
           "package": "numtype",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Pos5",
           "package": "numtype",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "PosType",
           "package": "numtype",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "PosType",
           "package": "numtype",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Succ",
           "package": "numtype",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Succ",
           "package": "numtype",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Sum",
           "package": "numtype",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Sum",
           "package": "numtype",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "Zero",
           "package": "numtype",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "Zero",
           "package": "numtype",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "(*)",
           "package": "numtype",
@@ -512,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "(*) *",
           "normalized": "a-\u003eb-\u003ec",
@@ -526,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "(+)",
           "package": "numtype",
@@ -535,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "(+) +",
           "normalized": "a-\u003eb-\u003ec",
@@ -549,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "(-)",
           "package": "numtype",
@@ -558,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "(-) -",
           "normalized": "a-\u003eb-\u003ec",
@@ -572,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "(/)",
           "package": "numtype",
@@ -581,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "(/) /",
           "normalized": "a-\u003eb-\u003ec",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "decr",
           "package": "numtype",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "decr",
           "normalized": "a-\u003eb",
@@ -618,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "incr",
           "package": "numtype",
@@ -627,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "incr",
           "normalized": "a-\u003eb",
@@ -641,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "neg1",
           "package": "numtype",
@@ -650,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "neg1",
           "package": "numtype",
@@ -662,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "neg2",
           "package": "numtype",
@@ -671,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "neg2",
           "package": "numtype",
@@ -683,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "neg3",
           "package": "numtype",
@@ -692,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "neg3",
           "package": "numtype",
@@ -704,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "neg4",
           "package": "numtype",
@@ -713,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "neg4",
           "package": "numtype",
@@ -725,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "neg5",
           "package": "numtype",
@@ -734,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "neg5",
           "package": "numtype",
@@ -746,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "negate",
           "package": "numtype",
@@ -755,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "negate",
           "normalized": "a-\u003eb",
@@ -769,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "pos1",
           "package": "numtype",
@@ -778,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "pos1",
           "package": "numtype",
@@ -790,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "pos2",
           "package": "numtype",
@@ -799,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "pos2",
           "package": "numtype",
@@ -811,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "pos3",
           "package": "numtype",
@@ -820,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "pos3",
           "package": "numtype",
@@ -832,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "pos4",
           "package": "numtype",
@@ -841,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "pos4",
           "package": "numtype",
@@ -853,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "pos5",
           "package": "numtype",
@@ -862,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "pos5",
           "package": "numtype",
@@ -874,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "toNum",
           "package": "numtype",
@@ -883,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "toNum",
           "normalized": "a-\u003eb",
@@ -898,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:52 UTC 2014",
           "module": "Numeric.NumType",
           "name": "zero",
           "package": "numtype",
@@ -907,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType",
+          "indexed": "2014-03-11T19:30:52",
           "module": "Numeric.NumType",
           "name": "zero",
           "package": "numtype",

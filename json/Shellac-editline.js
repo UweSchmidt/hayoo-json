@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Shellac-editline"
+        "phrase": "Shellac-editline",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:28 UTC 2014",
           "module": "System.Console.Shell.Backend.Editline",
           "name": "editlineBackend",
           "package": "Shellac-editline",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "System Console Shell Backend Editline",
+          "indexed": "2014-03-11T17:00:28",
           "module": "System.Console.Shell.Backend.Editline",
           "name": "editlineBackend",
           "normalized": "ShellBackend()",

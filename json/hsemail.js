@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsemail"
+        "phrase": "hsemail",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides parsers for the grammar defined in\n   RFC2234, \"Augmented BNF for Syntax Specifications:\n   ABNF\", \u003ca\u003ehttp://www.faqs.org/rfcs/rfc2234.html\u003c/a\u003e. The\n   terminal called \u003ccode\u003echar\u003c/code\u003e in the RFC is called \u003ccode\u003e\u003ca\u003echaracter\u003c/a\u003e\u003c/code\u003e\n   here to avoid conflicts with Parsec's \u003ccode\u003e\u003ca\u003echar\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "Rfc2234",
           "package": "hsemail",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides parsers for the grammar defined in RFC2234 Augmented BNF for Syntax Specifications ABNF http www.faqs.org rfcs rfc2234.html The terminal called char in the RFC is called character here to avoid conflicts with Parsec char function",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "Rfc2234",
           "package": "hsemail",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any character of the alphabet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "alpha",
           "package": "hsemail",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Match any character of the alphabet",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "alpha",
           "package": "hsemail",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch either \"1\" or \"0\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "bit",
           "package": "hsemail",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Match either or",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "bit",
           "package": "hsemail",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase-insensitive variant of Parsec's \u003ccode\u003e\u003ca\u003echar\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "caseChar",
           "package": "hsemail",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Case-insensitive variant of Parsec char function",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "caseChar",
           "normalized": "Char-\u003eCharParser a Char",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase-insensitive variant of Parsec's \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "caseString",
           "package": "hsemail",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Case-insensitive variant of Parsec string function",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "caseString",
           "normalized": "String-\u003eCharParser a()",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any 7-bit US-ASCII character except for NUL (ASCII value 0, that is).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "character",
           "package": "hsemail",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Match any bit US-ASCII character except for NUL ASCII value that is",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "character",
           "package": "hsemail",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the carriage return character \u003ccode\u003e\\r\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "cr",
           "package": "hsemail",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Match the carriage return character",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "cr",
           "package": "hsemail",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the Internet newline \u003ccode\u003e\\r\\n\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "crlf",
           "package": "hsemail",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Match the Internet newline",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "crlf",
           "package": "hsemail",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any US-ASCII control character. That is\n any character with a decimal value in the range of [0..31,127].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "ctl",
           "package": "hsemail",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Match any US-ASCII control character That is any character with decimal value in the range of",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "ctl",
           "package": "hsemail",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the double quote character \"\u003ccode\u003e\"\u003c/code\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "dquote",
           "package": "hsemail",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Match the double quote character",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "dquote",
           "package": "hsemail",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any character that is valid in a hexadecimal number;\n ['0'..'9'] and ['A'..'F','a'..'f'] that is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "hexdig",
           "package": "hsemail",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Match any character that is valid in hexadecimal number and that is",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "hexdig",
           "package": "hsemail",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the tab (\"\u003ccode\u003e\\t\u003c/code\u003e\") character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "htab",
           "package": "hsemail",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Match the tab character",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "htab",
           "package": "hsemail",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch returns the linefeed character \u003ccode\u003e\\n\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "lf",
           "package": "hsemail",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Match returns the linefeed character",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "lf",
           "package": "hsemail",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \"linear white-space\". That is any number of consecutive\n \u003ccode\u003e\u003ca\u003ewsp\u003c/a\u003e\u003c/code\u003e, optionally followed by a \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e and (at least) one more\n \u003ccode\u003e\u003ca\u003ewsp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "lwsp",
           "package": "hsemail",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Match linear white-space That is any number of consecutive wsp optionally followed by crlf and at least one more wsp",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "lwsp",
           "package": "hsemail",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a parser at least \u003ccode\u003en\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "manyN",
           "package": "hsemail",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Match parser at least times",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "manyN",
           "normalized": "Int-\u003eGenParser a b c-\u003eGenParser a b[c]",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a parser at least \u003ccode\u003en\u003c/code\u003e times, but no more than \u003ccode\u003em\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "manyNtoM",
           "package": "hsemail",
@@ -382,6 +413,7 @@
         "index": {
           "description": "Match parser at least times but no more than times",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "manyNtoM",
           "normalized": "Int-\u003eInt-\u003eGenParser a b c-\u003eGenParser a b[c]",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \u003cem\u003eany\u003c/em\u003e character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "octet",
           "package": "hsemail",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Match any character",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "octet",
           "package": "hsemail",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to generate \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e-based instances for\n the \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "parsec2read",
           "package": "hsemail",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Helper function to generate Parser based instances for the Read class",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "parsec2read",
           "normalized": "Parser a-\u003eString-\u003e[(a,String)]",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a \"quoted pair\". Any characters (excluding CR and\n LF) may be quoted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "quoted_pair",
           "package": "hsemail",
@@ -456,6 +493,7 @@
         "index": {
           "description": "Match quoted pair Any characters excluding CR and LF may be quoted",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "quoted_pair",
           "package": "hsemail",
@@ -469,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a quoted string. The specials \"\u003ccode\u003e\\\u003c/code\u003e\" and\n \"\u003ccode\u003e\"\u003c/code\u003e\" must be escaped inside a quoted string; CR and\n LF are not allowed at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "quoted_string",
           "package": "hsemail",
@@ -479,6 +518,7 @@
         "index": {
           "description": "Match quoted string The specials and must be escaped inside quoted string CR and LF are not allowed at all",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "quoted_string",
           "package": "hsemail",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "sp",
           "package": "hsemail",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Match the space",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "sp",
           "package": "hsemail",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any printable ASCII character. (The \"v\" stands for\n \"visible\".) That is any character in the decimal range of\n [33..126].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "vchar",
           "package": "hsemail",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Match any printable ASCII character The stands for visible That is any character in the decimal range of",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "vchar",
           "package": "hsemail",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch either \u003ccode\u003e\u003ca\u003esp\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ehtab\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "wsp",
           "package": "hsemail",
@@ -548,6 +593,7 @@
         "index": {
           "description": "Match either sp or htab",
           "hierarchy": "Text ParserCombinators Parsec Rfc2234",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2234",
           "name": "wsp",
           "package": "hsemail",
@@ -561,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports parser combinators for the grammar\n   described in RFC2821, \"Simple Mail Transfer Protocol\",\n   \u003ca\u003ehttp://www.faqs.org/rfcs/rfc2821.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Rfc2821",
           "package": "hsemail",
@@ -570,6 +617,7 @@
         "index": {
           "description": "This module exports parser combinators for the grammar described in RFC2821 Simple Mail Transfer Protocol http www.faqs.org rfcs rfc2821.html",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Rfc2821",
           "package": "hsemail",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Category",
           "package": "hsemail",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Category",
           "package": "hsemail",
@@ -604,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Event",
           "package": "hsemail",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Event",
           "package": "hsemail",
@@ -626,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general e-mail address has the form:\n \u003ccode\u003e\u003c[@route,...:]user@domain\u003e\u003c/code\u003e. This type, too,\n supports \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e. Note that a \"shown\" address\n is \u003cem\u003ealways\u003c/em\u003e enclosed in angular brackets. When comparing\n two mailboxes for equality, the hostname is case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Mailbox",
           "package": "hsemail",
@@ -635,6 +688,7 @@
         "index": {
           "description": "The most general e-mail address has the form route user@domain This type too supports show and read Note that shown address is always enclosed in angular brackets When comparing two mailboxes for equality the hostname is case-insensitive",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Mailbox",
           "package": "hsemail",
@@ -648,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SessionState",
           "package": "hsemail",
@@ -656,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SessionState",
           "package": "hsemail",
@@ -670,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esmtpCmd\u003c/a\u003e\u003c/code\u003e parser will create this data type from a\n string. Note that \u003cem\u003eall\u003c/em\u003e command parsers expect their\n input to be terminated with \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpCmd",
           "package": "hsemail",
@@ -679,6 +736,7 @@
         "index": {
           "description": "The smtpCmd parser will create this data type from string Note that all command parsers expect their input to be terminated with crlf",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpCmd",
           "package": "hsemail",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpCode",
           "package": "hsemail",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpCode",
           "package": "hsemail",
@@ -714,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SMTP parsers defined here correspond to the commands\n specified in RFC2821, so I won't document them\n individually.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpParser",
           "package": "hsemail",
@@ -723,6 +784,7 @@
         "index": {
           "description": "The SMTP parsers defined here correspond to the commands specified in RFC2821 so won document them individually",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpParser",
           "package": "hsemail",
@@ -737,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SMTP reply is a three-digit return code plus some waste of\n bandwidth called \"comments\". This is what the list of strings is\n for; one string per line in the reply. \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e will append an\n \"\u003ccode\u003e\\r\\n\u003c/code\u003e\" end-of-line marker to each entry in that list, so that\n the resulting string is ready to be sent back to the peer. For\n example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshow $ Reply (Code Success MailSystem 0) [\"worked\", \"like\", \"a charm\" ]\n\u003c/code\u003e\u003c/strong\u003e\"250-worked\\r\\n250-like\\r\\n250 a charm\\r\\n\"\n\u003c/pre\u003e\u003cp\u003eIf the message is an empty list \u003ccode\u003e[]\u003c/code\u003e, a default text will be constructed:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshow $ Reply (Code Success MailSystem 0) []\n\u003c/code\u003e\u003c/strong\u003e\"250 Success in category MailSystem\\r\\n\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpReply",
           "package": "hsemail",
@@ -746,6 +809,7 @@
         "index": {
           "description": "An SMTP reply is three-digit return code plus some waste of bandwidth called comments This is what the list of strings is for one string per line in the reply show will append an end-of-line marker to each entry in that list so that the resulting string is ready to be sent back to the peer For example show Reply Code Success MailSystem worked like charm worked n250-like n250 charm If the message is an empty list default text will be constructed show Reply Code Success MailSystem Success in category MailSystem",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpReply",
           "package": "hsemail",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpdFSM",
           "package": "hsemail",
@@ -767,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SmtpdFSM",
           "package": "hsemail",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SuccessCode",
           "package": "hsemail",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SuccessCode",
           "package": "hsemail",
@@ -801,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "AddRcptTo",
           "package": "hsemail",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "AddRcptTo",
           "package": "hsemail",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Code",
           "package": "hsemail",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Code",
           "package": "hsemail",
@@ -845,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Connection",
           "package": "hsemail",
@@ -854,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Connection",
           "package": "hsemail",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Data",
           "package": "hsemail",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Data",
           "package": "hsemail",
@@ -890,6 +966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for the user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Deliver",
           "package": "hsemail",
@@ -900,6 +977,7 @@
         "index": {
           "description": "reserved for the user",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Deliver",
           "package": "hsemail",
@@ -913,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Ehlo",
           "package": "hsemail",
@@ -922,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Ehlo",
           "package": "hsemail",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Expn",
           "package": "hsemail",
@@ -944,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Expn",
           "package": "hsemail",
@@ -958,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for the user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Greeting",
           "package": "hsemail",
@@ -968,6 +1051,7 @@
         "index": {
           "description": "reserved for the user",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Greeting",
           "package": "hsemail",
@@ -981,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveData",
           "package": "hsemail",
@@ -990,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveData",
           "package": "hsemail",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveHelo",
           "package": "hsemail",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveHelo",
           "package": "hsemail",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveMailFrom",
           "package": "hsemail",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveMailFrom",
           "package": "hsemail",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveQuit",
           "package": "hsemail",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveQuit",
           "package": "hsemail",
@@ -1069,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveRcptTo",
           "package": "hsemail",
@@ -1078,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "HaveRcptTo",
           "package": "hsemail",
@@ -1091,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Helo",
           "package": "hsemail",
@@ -1100,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Helo",
           "package": "hsemail",
@@ -1114,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMight be \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Help",
           "package": "hsemail",
@@ -1124,6 +1221,7 @@
         "index": {
           "description": "Might be",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Help",
           "package": "hsemail",
@@ -1137,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Information",
           "package": "hsemail",
@@ -1146,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Information",
           "package": "hsemail",
@@ -1159,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "IntermediateSuccess",
           "package": "hsemail",
@@ -1168,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "IntermediateSuccess",
           "package": "hsemail",
@@ -1182,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMight be \u003ccode\u003e\u003ca\u003enullPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "MailFrom",
           "package": "hsemail",
@@ -1192,6 +1295,7 @@
         "index": {
           "description": "Might be nullPath",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "MailFrom",
           "package": "hsemail",
@@ -1205,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "MailSystem",
           "package": "hsemail",
@@ -1214,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "MailSystem",
           "package": "hsemail",
@@ -1227,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Mailbox",
           "package": "hsemail",
@@ -1236,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Mailbox",
           "normalized": "Mailbox[String]String String",
@@ -1251,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "NeedHeloFirst",
           "package": "hsemail",
@@ -1260,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "NeedHeloFirst",
           "package": "hsemail",
@@ -1273,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "NeedMailFromFirst",
           "package": "hsemail",
@@ -1282,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "NeedMailFromFirst",
           "package": "hsemail",
@@ -1295,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "NeedRcptToFirst",
           "package": "hsemail",
@@ -1304,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "NeedRcptToFirst",
           "package": "hsemail",
@@ -1318,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional argument ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Noop",
           "package": "hsemail",
@@ -1328,6 +1443,7 @@
         "index": {
           "description": "Optional argument ignored",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Noop",
           "package": "hsemail",
@@ -1342,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTurn\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eSoml\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eSaml\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eVrfy\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eExpn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "NotImplemened",
           "package": "hsemail",
@@ -1352,6 +1469,7 @@
         "index": {
           "description": "Turn Send Soml Saml Vrfy and Expn",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "NotImplemened",
           "package": "hsemail",
@@ -1365,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "PermanentFailure",
           "package": "hsemail",
@@ -1374,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "PermanentFailure",
           "package": "hsemail",
@@ -1387,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "PreliminarySuccess",
           "package": "hsemail",
@@ -1396,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "PreliminarySuccess",
           "package": "hsemail",
@@ -1409,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Quit",
           "package": "hsemail",
@@ -1418,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Quit",
           "package": "hsemail",
@@ -1432,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMight be \u003ccode\u003e\u003ca\u003epostmaster\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "RcptTo",
           "package": "hsemail",
@@ -1442,6 +1567,7 @@
         "index": {
           "description": "Might be postmaster",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "RcptTo",
           "package": "hsemail",
@@ -1455,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Reply",
           "package": "hsemail",
@@ -1464,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Reply",
           "normalized": "Reply SmtpCode[String]",
@@ -1479,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "ResetState",
           "package": "hsemail",
@@ -1488,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "ResetState",
           "package": "hsemail",
@@ -1501,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Rset",
           "package": "hsemail",
@@ -1510,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Rset",
           "package": "hsemail",
@@ -1523,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Saml",
           "package": "hsemail",
@@ -1532,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Saml",
           "package": "hsemail",
@@ -1545,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayEhlo",
           "package": "hsemail",
@@ -1554,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayEhlo",
           "package": "hsemail",
@@ -1567,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayEhloAgain",
           "package": "hsemail",
@@ -1576,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayEhloAgain",
           "package": "hsemail",
@@ -1589,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayHelo",
           "package": "hsemail",
@@ -1598,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayHelo",
           "package": "hsemail",
@@ -1611,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayHeloAgain",
           "package": "hsemail",
@@ -1620,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayHeloAgain",
           "package": "hsemail",
@@ -1634,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered in case of \u003ccode\u003e\u003ca\u003eNoop\u003c/a\u003e\u003c/code\u003e or when \u003ccode\u003e\u003ca\u003eRset\u003c/a\u003e\u003c/code\u003e is\n used before we even have a state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayOK",
           "package": "hsemail",
@@ -1644,6 +1787,7 @@
         "index": {
           "description": "Triggered in case of Noop or when Rset is used before we even have state",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SayOK",
           "package": "hsemail",
@@ -1658,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parameter may be \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SeeksHelp",
           "package": "hsemail",
@@ -1668,6 +1813,7 @@
         "index": {
           "description": "The parameter may be",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SeeksHelp",
           "package": "hsemail",
@@ -1681,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Send",
           "package": "hsemail",
@@ -1690,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Send",
           "package": "hsemail",
@@ -1703,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SetMailFrom",
           "package": "hsemail",
@@ -1712,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SetMailFrom",
           "package": "hsemail",
@@ -1725,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Shutdown",
           "package": "hsemail",
@@ -1734,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Shutdown",
           "package": "hsemail",
@@ -1747,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Soml",
           "package": "hsemail",
@@ -1756,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Soml",
           "package": "hsemail",
@@ -1769,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "StartData",
           "package": "hsemail",
@@ -1778,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "StartData",
           "package": "hsemail",
@@ -1791,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Success",
           "package": "hsemail",
@@ -1800,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Success",
           "package": "hsemail",
@@ -1813,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Syntax",
           "package": "hsemail",
@@ -1822,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Syntax",
           "package": "hsemail",
@@ -1835,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SyntaxErrorIn",
           "package": "hsemail",
@@ -1844,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "SyntaxErrorIn",
           "package": "hsemail",
@@ -1857,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "TransientFailure",
           "package": "hsemail",
@@ -1866,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "TransientFailure",
           "package": "hsemail",
@@ -1879,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Turn",
           "package": "hsemail",
@@ -1888,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Turn",
           "package": "hsemail",
@@ -1901,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unknown",
           "package": "hsemail",
@@ -1910,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unknown",
           "package": "hsemail",
@@ -1923,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unrecognized",
           "package": "hsemail",
@@ -1932,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unrecognized",
           "package": "hsemail",
@@ -1945,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unspecified3",
           "package": "hsemail",
@@ -1954,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unspecified3",
           "package": "hsemail",
@@ -1967,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unspecified4",
           "package": "hsemail",
@@ -1976,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unspecified4",
           "package": "hsemail",
@@ -1989,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unused0",
           "package": "hsemail",
@@ -1998,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Unused0",
           "package": "hsemail",
@@ -2011,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Vrfy",
           "package": "hsemail",
@@ -2020,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "Vrfy",
           "package": "hsemail",
@@ -2034,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a valid command has been recognized, but the\n argument parser fails, then this type will be\n returned. The \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e contains the name of the\n command (in all upper-case) and the \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e\n is, obviously, the error description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "WrongArg",
           "package": "hsemail",
@@ -2044,6 +2223,7 @@
         "index": {
           "description": "When valid command has been recognized but the argument parser fails then this type will be returned The String contains the name of the command in all upper-case and the ParseError is obviously the error description",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "WrongArg",
           "package": "hsemail",
@@ -2057,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "a_d_l",
           "package": "hsemail",
@@ -2066,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "a_d_l",
           "normalized": "CharParser a[String]",
@@ -2081,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eTODO\u003c/em\u003e: Add IPv6 address and general literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "address_literal",
           "package": "hsemail",
@@ -2091,6 +2274,7 @@
         "index": {
           "description": "TODO Add IPv6 address and general literals",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "address_literal",
           "package": "hsemail",
@@ -2103,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "at_domain",
           "package": "hsemail",
@@ -2112,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "at_domain",
           "package": "hsemail",
@@ -2124,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "atom",
           "package": "hsemail",
@@ -2133,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "atom",
           "package": "hsemail",
@@ -2145,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "domain",
           "package": "hsemail",
@@ -2154,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "domain",
           "package": "hsemail",
@@ -2166,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "dot_string",
           "package": "hsemail",
@@ -2175,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "dot_string",
           "package": "hsemail",
@@ -2187,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "ehlo",
           "package": "hsemail",
@@ -2196,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "ehlo",
           "package": "hsemail",
@@ -2208,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "expn",
           "package": "hsemail",
@@ -2217,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "expn",
           "package": "hsemail",
@@ -2230,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the string \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e terminated no matter what.\n '\u003ccode\u003e\\n\u003c/code\u003e' is expanded, otherwise \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e is appended. Note\n that if the string was terminated incorrectly before, it\n still is. This function is useful when reading input with\n \u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e which removes the end-of-line\n delimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "fixCRLF",
           "package": "hsemail",
@@ -2240,6 +2437,7 @@
         "index": {
           "description": "Make the string crlf terminated no matter what is expanded otherwise crlf is appended Note that if the string was terminated incorrectly before it still is This function is useful when reading input with hGetLine which removes the end-of-line delimiter",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "fixCRLF",
           "normalized": "String-\u003eString",
@@ -2255,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "from_path",
           "package": "hsemail",
@@ -2264,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "from_path",
           "package": "hsemail",
@@ -2277,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor those who want to parse the \u003ccode\u003e\u003ca\u003eSmtpCmd\u003c/a\u003e\u003c/code\u003e themselves.\n Calling this function in \u003ccode\u003e\u003ca\u003eHaveQuit\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eHaveData\u003c/a\u003e\u003c/code\u003e will\n fail an assertion. If \u003ccode\u003e\u003ca\u003eassert\u003c/a\u003e\u003c/code\u003e is disabled, it will\n return respectively \u003ccode\u003e\u003ca\u003eShutdown\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eStartData\u003c/a\u003e\u003c/code\u003e again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "handleSmtpCmd",
           "package": "hsemail",
@@ -2287,6 +2488,7 @@
         "index": {
           "description": "For those who want to parse the SmtpCmd themselves Calling this function in HaveQuit or HaveData will fail an assertion If assert is disabled it will return respectively Shutdown and StartData again",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "handleSmtpCmd",
           "normalized": "SmtpCmd-\u003eSmtpdFSM",
@@ -2302,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "helo",
           "package": "hsemail",
@@ -2311,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "helo",
           "package": "hsemail",
@@ -2323,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "help",
           "package": "hsemail",
@@ -2332,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "help",
           "package": "hsemail",
@@ -2344,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "ipv4_literal",
           "package": "hsemail",
@@ -2353,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "ipv4_literal",
           "package": "hsemail",
@@ -2365,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "ipv4addr",
           "package": "hsemail",
@@ -2374,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "ipv4addr",
           "package": "hsemail",
@@ -2387,6 +2597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reply constitutes \"failure\" if the status code is\n either \u003ccode\u003e\u003ca\u003ePermanentFailure\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eTransientFailure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "isFailure",
           "package": "hsemail",
@@ -2397,6 +2608,7 @@
         "index": {
           "description": "reply constitutes failure if the status code is either PermanentFailure or TransientFailure",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "isFailure",
           "normalized": "SmtpReply-\u003eBool",
@@ -2413,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe replies \u003ccode\u003e221\u003c/code\u003e and \u003ccode\u003e421\u003c/code\u003e signify \u003ccode\u003e\u003ca\u003eShutdown\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "isShutdown",
           "package": "hsemail",
@@ -2423,6 +2636,7 @@
         "index": {
           "description": "The replies and signify Shutdown",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "isShutdown",
           "normalized": "SmtpReply-\u003eBool",
@@ -2439,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reply constitutes \"success\" if the status code is\n any of \u003ccode\u003e\u003ca\u003ePreliminarySuccess\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eSuccess\u003c/a\u003e\u003c/code\u003e, or\n \u003ccode\u003e\u003ca\u003eIntermediateSuccess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "isSuccess",
           "package": "hsemail",
@@ -2449,6 +2664,7 @@
         "index": {
           "description": "reply constitutes success if the status code is any of PreliminarySuccess Success or IntermediateSuccess",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "isSuccess",
           "normalized": "SmtpReply-\u003eBool",
@@ -2464,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "local_part",
           "package": "hsemail",
@@ -2473,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "local_part",
           "package": "hsemail",
@@ -2485,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "mail",
           "package": "hsemail",
@@ -2494,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "mail",
           "package": "hsemail",
@@ -2506,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "mailbox",
           "package": "hsemail",
@@ -2515,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "mailbox",
           "package": "hsemail",
@@ -2528,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a parser for a command without arguments.\n Expects \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "mkCmd0",
           "package": "hsemail",
@@ -2538,6 +2761,7 @@
         "index": {
           "description": "Construct parser for command without arguments Expects crlf",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "mkCmd0",
           "normalized": "String-\u003ea-\u003eCharParser b a",
@@ -2554,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a parser for a command with an argument, which\n the given parser will handle. The result of the argument\n parser will be applied to the type constructor before it\n is returned. Expects \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "mkCmd1",
           "package": "hsemail",
@@ -2564,6 +2789,7 @@
         "index": {
           "description": "Construct parser for command with an argument which the given parser will handle The result of the argument parser will be applied to the type constructor before it is returned Expects crlf",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "mkCmd1",
           "normalized": "String-\u003e(a-\u003eSmtpCmd)-\u003eCharParser b a-\u003eCharParser b SmtpCmd",
@@ -2580,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMay have an optional \u003ccode\u003e\u003ca\u003eword\u003c/a\u003e\u003c/code\u003e argument, but it is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "noop",
           "package": "hsemail",
@@ -2590,6 +2817,7 @@
         "index": {
           "description": "May have an optional word argument but it is ignored",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "noop",
           "package": "hsemail",
@@ -2603,6 +2831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enullPath\u003c/code\u003e \u003ccode\u003e=\u003c/code\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMailbox\u003c/a\u003e\u003c/code\u003e [] \"\" \"\" = \"\u003c\u003e\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "nullPath",
           "package": "hsemail",
@@ -2613,6 +2842,7 @@
         "index": {
           "description": "nullPath Mailbox",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "nullPath",
           "package": "hsemail",
@@ -2626,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "number",
           "package": "hsemail",
@@ -2635,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "number",
           "package": "hsemail",
@@ -2647,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "path",
           "package": "hsemail",
@@ -2656,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "path",
           "package": "hsemail",
@@ -2669,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epostmaster\u003c/code\u003e \u003ccode\u003e=\u003c/code\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMailbox\u003c/a\u003e\u003c/code\u003e [] \"postmaster\" \"\" = \"\u003cpostmaster\u003e\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "postmaster",
           "package": "hsemail",
@@ -2679,6 +2914,7 @@
         "index": {
           "description": "postmaster Mailbox postmaster postmaster",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "postmaster",
           "package": "hsemail",
@@ -2691,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "quit",
           "package": "hsemail",
@@ -2700,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "quit",
           "package": "hsemail",
@@ -2712,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "rcpt",
           "package": "hsemail",
@@ -2721,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "rcpt",
           "package": "hsemail",
@@ -2734,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eReply\u003c/a\u003e\u003c/code\u003e. Fails \u003ccode\u003e\u003ca\u003eassert\u003c/a\u003e\u003c/code\u003e if invalid numbers\n are given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "reply",
           "package": "hsemail",
@@ -2744,6 +2985,7 @@
         "index": {
           "description": "Construct Reply Fails assert if invalid numbers are given",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "reply",
           "normalized": "Int-\u003eInt-\u003eInt-\u003e[String]-\u003eSmtpReply",
@@ -2758,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "rset",
           "package": "hsemail",
@@ -2767,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "rset",
           "package": "hsemail",
@@ -2779,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "saml",
           "package": "hsemail",
@@ -2788,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "saml",
           "package": "hsemail",
@@ -2800,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "send",
           "package": "hsemail",
@@ -2809,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "send",
           "package": "hsemail",
@@ -2822,6 +3070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser recognizes any of the SMTP commands defined\n below. Note that \u003cem\u003eall\u003c/em\u003e command parsers expect their input\n to be terminated with \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "smtpCmd",
           "package": "hsemail",
@@ -2832,6 +3081,7 @@
         "index": {
           "description": "This parser recognizes any of the SMTP commands defined below Note that all command parsers expect their input to be terminated with crlf",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "smtpCmd",
           "package": "hsemail",
@@ -2846,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser name \"data\" was taken.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "smtpData",
           "package": "hsemail",
@@ -2856,6 +3107,7 @@
         "index": {
           "description": "The parser name data was taken",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "smtpData",
           "package": "hsemail",
@@ -2870,6 +3122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a line of SMTP dialogue and run \u003ccode\u003e\u003ca\u003ehandleSmtpCmd\u003c/a\u003e\u003c/code\u003e to\n determine the \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e. In case of syntax errors,\n \u003ccode\u003e\u003ca\u003eSyntaxErrorIn\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eUnrecognized\u003c/a\u003e\u003c/code\u003e will be returned.\n Inputs must be terminated with \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003efixCRLF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "smtpdFSM",
           "package": "hsemail",
@@ -2880,6 +3133,7 @@
         "index": {
           "description": "Parse line of SMTP dialogue and run handleSmtpCmd to determine the Event In case of syntax errors SyntaxErrorIn or Unrecognized will be returned Inputs must be terminated with crlf See fixCRLF",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "smtpdFSM",
           "normalized": "String-\u003eSmtpdFSM",
@@ -2895,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "snum",
           "package": "hsemail",
@@ -2904,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "snum",
           "package": "hsemail",
@@ -2916,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "soml",
           "package": "hsemail",
@@ -2925,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "soml",
           "package": "hsemail",
@@ -2937,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "subdomain",
           "package": "hsemail",
@@ -2946,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "subdomain",
           "package": "hsemail",
@@ -2958,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "to_path",
           "package": "hsemail",
@@ -2967,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "to_path",
           "package": "hsemail",
@@ -2979,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "tokenList",
           "package": "hsemail",
@@ -2988,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "tokenList",
           "normalized": "CharParser a String-\u003eChar-\u003eCharParser a String",
@@ -3003,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "turn",
           "package": "hsemail",
@@ -3012,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "turn",
           "package": "hsemail",
@@ -3024,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "vrfy",
           "package": "hsemail",
@@ -3033,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "vrfy",
           "package": "hsemail",
@@ -3046,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a useful addition: The parser accepts an \u003ccode\u003e\u003ca\u003eatom\u003c/a\u003e\u003c/code\u003e\n or a \u003ccode\u003e\u003ca\u003equoted_string\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "word",
           "package": "hsemail",
@@ -3056,6 +3325,7 @@
         "index": {
           "description": "This is useful addition The parser accepts an atom or quoted string",
           "hierarchy": "Text ParserCombinators Parsec Rfc2821",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2821",
           "name": "word",
           "package": "hsemail",
@@ -3069,6 +3339,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides parsers for the grammar defined in\n   RFC2822, \"Internet Message Format\",\n   \u003ca\u003ehttp://www.faqs.org/rfcs/rfc2822.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Rfc2822",
           "package": "hsemail",
@@ -3078,6 +3349,7 @@
         "index": {
           "description": "This module provides parsers for the grammar defined in RFC2822 Internet Message Format http www.faqs.org rfcs rfc2822.html",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Rfc2822",
           "package": "hsemail",
@@ -3092,6 +3364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type represents any of the header fields defined in this\n RFC. Each of the various instances contains with the return value\n of the corresponding parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Field",
           "package": "hsemail",
@@ -3101,6 +3374,7 @@
         "index": {
           "description": "This data type represents any of the header fields defined in this RFC Each of the various instances contains with the return value of the corresponding parser",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Field",
           "package": "hsemail",
@@ -3115,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type repesents a parsed Internet Message as defined in\n this RFC. It consists of an arbitrary number of header lines,\n represented in the \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e data type, and a message body, which may\n be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "GenericMessage",
           "package": "hsemail",
@@ -3124,6 +3399,7 @@
         "index": {
           "description": "This data type repesents parsed Internet Message as defined in this RFC It consists of an arbitrary number of header lines represented in the Field data type and message body which may be empty",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "GenericMessage",
           "package": "hsemail",
@@ -3137,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Message",
           "package": "hsemail",
@@ -3145,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Message",
           "package": "hsemail",
@@ -3159,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA NameAddr is composed of an optional realname a mandatory\n e-mail \u003ccode\u003e\u003ca\u003eaddress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "NameAddr",
           "package": "hsemail",
@@ -3168,6 +3447,7 @@
         "index": {
           "description": "NameAddr is composed of an optional realname mandatory e-mail address",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "NameAddr",
           "package": "hsemail",
@@ -3181,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Bcc",
           "package": "hsemail",
@@ -3190,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Bcc",
           "normalized": "Bcc[NameAddr]",
@@ -3205,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Cc",
           "package": "hsemail",
@@ -3214,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Cc",
           "normalized": "Cc[NameAddr]",
@@ -3229,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Comments",
           "package": "hsemail",
@@ -3238,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Comments",
           "package": "hsemail",
@@ -3251,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Date",
           "package": "hsemail",
@@ -3260,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Date",
           "package": "hsemail",
@@ -3273,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "From",
           "package": "hsemail",
@@ -3282,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "From",
           "normalized": "From[NameAddr]",
@@ -3297,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "InReplyTo",
           "package": "hsemail",
@@ -3306,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "InReplyTo",
           "normalized": "InReplyTo[String]",
@@ -3321,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Keywords",
           "package": "hsemail",
@@ -3330,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Keywords",
           "normalized": "Keywords[[String]]",
@@ -3345,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Message",
           "package": "hsemail",
@@ -3354,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Message",
           "normalized": "Message[Field]a",
@@ -3369,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "MessageID",
           "package": "hsemail",
@@ -3378,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "MessageID",
           "package": "hsemail",
@@ -3391,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "NameAddr",
           "package": "hsemail",
@@ -3400,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "NameAddr",
           "package": "hsemail",
@@ -3413,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ObsReceived",
           "package": "hsemail",
@@ -3422,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ObsReceived",
           "normalized": "ObsReceived[(String,String)]",
@@ -3437,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "OptionalField",
           "package": "hsemail",
@@ -3446,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "OptionalField",
           "package": "hsemail",
@@ -3459,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Received",
           "package": "hsemail",
@@ -3468,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Received",
           "normalized": "Received([(String,String)],CalendarTime)",
@@ -3483,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "References",
           "package": "hsemail",
@@ -3492,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "References",
           "normalized": "References[String]",
@@ -3507,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ReplyTo",
           "package": "hsemail",
@@ -3516,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ReplyTo",
           "normalized": "ReplyTo[NameAddr]",
@@ -3531,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentBcc",
           "package": "hsemail",
@@ -3540,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentBcc",
           "normalized": "ResentBcc[NameAddr]",
@@ -3555,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentCc",
           "package": "hsemail",
@@ -3564,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentCc",
           "normalized": "ResentCc[NameAddr]",
@@ -3579,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentDate",
           "package": "hsemail",
@@ -3588,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentDate",
           "package": "hsemail",
@@ -3601,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentFrom",
           "package": "hsemail",
@@ -3610,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentFrom",
           "normalized": "ResentFrom[NameAddr]",
@@ -3625,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentMessageID",
           "package": "hsemail",
@@ -3634,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentMessageID",
           "package": "hsemail",
@@ -3647,6 +3967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentReplyTo",
           "package": "hsemail",
@@ -3656,6 +3977,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentReplyTo",
           "normalized": "ResentReplyTo[NameAddr]",
@@ -3671,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentSender",
           "package": "hsemail",
@@ -3680,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentSender",
           "package": "hsemail",
@@ -3693,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentTo",
           "package": "hsemail",
@@ -3702,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ResentTo",
           "normalized": "ResentTo[NameAddr]",
@@ -3717,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ReturnPath",
           "package": "hsemail",
@@ -3726,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ReturnPath",
           "package": "hsemail",
@@ -3739,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Sender",
           "package": "hsemail",
@@ -3748,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Sender",
           "package": "hsemail",
@@ -3761,6 +4091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Subject",
           "package": "hsemail",
@@ -3770,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "Subject",
           "package": "hsemail",
@@ -3783,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "To",
           "package": "hsemail",
@@ -3792,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "To",
           "normalized": "To[NameAddr]",
@@ -3808,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \"address specification\". That is a \u003ccode\u003e\u003ca\u003elocal_part\u003c/a\u003e\u003c/code\u003e, followed\n by an \"\u003ccode\u003e@\u003c/code\u003e\" character, followed by a \u003ccode\u003e\u003ca\u003edomain\u003c/a\u003e\u003c/code\u003e. Return the complete\n address as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, ignoring any whitespace or any comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "addr_spec",
           "package": "hsemail",
@@ -3818,6 +4153,7 @@
         "index": {
           "description": "Parse an address specification That is local part followed by an character followed by domain Return the complete address as String ignoring any whitespace or any comments",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "addr_spec",
           "package": "hsemail",
@@ -3831,6 +4167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single \u003ccode\u003e\u003ca\u003emailbox\u003c/a\u003e\u003c/code\u003e or an address \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e and return the\n address(es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "address",
           "package": "hsemail",
@@ -3841,6 +4178,7 @@
         "index": {
           "description": "Parse single mailbox or an address group and return the address es",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "address",
           "normalized": "CharParser a[NameAddr]",
@@ -3856,6 +4194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of \u003ccode\u003e\u003ca\u003eaddress\u003c/a\u003e\u003c/code\u003e addresses, every two addresses being\n separated by a comma, and return the list of found address(es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "address_list",
           "package": "hsemail",
@@ -3866,6 +4205,7 @@
         "index": {
           "description": "Parse list of address addresses every two addresses being separated by comma and return the list of found address es",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "address_list",
           "normalized": "CharParser a[NameAddr]",
@@ -3881,6 +4221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ccode\u003e\u003ca\u003eangle_addr\u003c/a\u003e\u003c/code\u003e or an \u003ccode\u003e\u003ca\u003eobs_angle_addr\u003c/a\u003e\u003c/code\u003e and return the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "angle_addr",
           "package": "hsemail",
@@ -3891,6 +4232,7 @@
         "index": {
           "description": "Parse an angle addr or an obs angle addr and return the address",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "angle_addr",
           "package": "hsemail",
@@ -3904,6 +4246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any US-ASCII character except for control characters,\n \u003ccode\u003e\u003ca\u003especials\u003c/a\u003e\u003c/code\u003e, or space. \u003ccode\u003e\u003ca\u003eatom\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edot_atom\u003c/a\u003e\u003c/code\u003e are made up of this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "atext",
           "package": "hsemail",
@@ -3914,6 +4257,7 @@
         "index": {
           "description": "Match any US-ASCII character except for control characters specials or space atom and dot atom are made up of this",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "atext",
           "package": "hsemail",
@@ -3927,6 +4271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch one or more \u003ccode\u003e\u003ca\u003eatext\u003c/a\u003e\u003c/code\u003e characters and skip any preceeding or\n trailing \u003ccode\u003e\u003ca\u003ecfws\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "atom",
           "package": "hsemail",
@@ -3937,6 +4282,7 @@
         "index": {
           "description": "Match one or more atext characters and skip any preceeding or trailing cfws",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "atom",
           "package": "hsemail",
@@ -3950,6 +4296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eBcc:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003eaddress_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "bcc",
           "package": "hsemail",
@@ -3960,6 +4307,7 @@
         "index": {
           "description": "Parse Bcc header line and return the address list address es contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "bcc",
           "normalized": "CharParser a[NameAddr]",
@@ -3975,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message body is just an unstructured sequence of characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "body",
           "package": "hsemail",
@@ -3985,6 +4334,7 @@
         "index": {
           "description": "message body is just an unstructured sequence of characters",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "body",
           "package": "hsemail",
@@ -3998,6 +4348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eCc:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003eaddress_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "cc",
           "package": "hsemail",
@@ -4008,6 +4359,7 @@
         "index": {
           "description": "Parse Cc header line and return the address list address es contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "cc",
           "normalized": "CharParser a[NameAddr]",
@@ -4023,6 +4375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any combination of \u003ccode\u003e\u003ca\u003efws\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecomments\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "cfws",
           "package": "hsemail",
@@ -4033,6 +4386,7 @@
         "index": {
           "description": "Match any combination of fws and comments",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "cfws",
           "package": "hsemail",
@@ -4046,6 +4400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a \"comments\". That is any combination of \u003ccode\u003e\u003ca\u003ectext\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003equoted_pair\u003c/a\u003e\u003c/code\u003es, and \u003ccode\u003e\u003ca\u003efws\u003c/a\u003e\u003c/code\u003e between brackets. Comments may nest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "comment",
           "package": "hsemail",
@@ -4056,6 +4411,7 @@
         "index": {
           "description": "Match comments That is any combination of ctext quoted pair and fws between brackets Comments may nest",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "comment",
           "package": "hsemail",
@@ -4069,6 +4425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eComments:\u003c/code\u003e\" header line and return its contents verbatim.\n Please note that all whitespace and/or comments are preserved, i.e.\n the result of parsing \u003ccode\u003e\"Comments: foo\"\u003c/code\u003e is \u003ccode\u003e\" foo\"\u003c/code\u003e, not \u003ccode\u003e\"foo\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "comments",
           "package": "hsemail",
@@ -4079,6 +4436,7 @@
         "index": {
           "description": "Parse Comments header line and return its contents verbatim Please note that all whitespace and or comments are preserved i.e the result of parsing Comments foo is foo not foo",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "comments",
           "package": "hsemail",
@@ -4092,6 +4450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any non-whitespace, non-control character except for \"\u003ccode\u003e(\u003c/code\u003e\",\n \"\u003ccode\u003e)\u003c/code\u003e\", and \"\u003ccode\u003e\\\u003c/code\u003e\". This is used to describe the legal content of\n \u003ccode\u003e\u003ca\u003ecomment\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: This parser accepts 8-bit characters, even though this is\n not legal according to the RFC. Unfortunately, 8-bit content in\n comments has become fairly common in the real world, so we'll just\n accept the fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ctext",
           "package": "hsemail",
@@ -4102,6 +4461,7 @@
         "index": {
           "description": "Match any non-whitespace non-control character except for and This is used to describe the legal content of comment Note This parser accepts bit characters even though this is not legal according to the RFC Unfortunately bit content in comments has become fairly common in the real world so we ll just accept the fact",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ctext",
           "package": "hsemail",
@@ -4115,6 +4475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a date of the form \"\u003ccode\u003edd:mm:yyyy\u003c/code\u003e\" and return\n a tripple of the form (Int,Month,Int) - corresponding to\n (year,month,day).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "date",
           "package": "hsemail",
@@ -4125,6 +4486,7 @@
         "index": {
           "description": "This parser will match date of the form dd mm yyyy and return tripple of the form Int Month Int corresponding to year month day",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "date",
           "normalized": "CharParser a(Int,Month,Int)",
@@ -4140,6 +4502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a date and time specification of the form\n\u003c/p\u003e\u003cpre\u003e   Thu, 19 Dec 2002 20:35:46 +0200\n\u003c/pre\u003e\u003cp\u003ewhere the weekday specification \"\u003ccode\u003eThu,\u003c/code\u003e\" is optional. The parser\n returns a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e, which is set to the appropriate values.\n Note, though, that not all fields of \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e will\n necessarily be set correctly! Obviously, when no weekday has been\n provided, the parser will set this field to \u003ccode\u003e\u003ca\u003eMonday\u003c/a\u003e\u003c/code\u003e - regardless\n of whether the day actually is a monday or not. Similarly, the day\n of the year will always be returned as \u003ccode\u003e0\u003c/code\u003e. The timezone name will\n always be empty: \u003ccode\u003e\"\"\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNor will the \u003ccode\u003e\u003ca\u003edate_time\u003c/a\u003e\u003c/code\u003e parser perform \u003cem\u003eany\u003c/em\u003e consistency checking.\n It will accept\n\u003c/p\u003e\u003cpre\u003e    40 Apr 2002 13:12 +0100\n\u003c/pre\u003e\u003cp\u003eas a perfectly valid date.\n\u003c/p\u003e\u003cp\u003eIn order to get all fields set to meaningful values, and in order\n to verify the date's consistency, you will have to feed it into any\n of the conversion routines provided in \u003ca\u003eSystem.Time\u003c/a\u003e, such as\n \u003ccode\u003e\u003ca\u003etoClockTime\u003c/a\u003e\u003c/code\u003e. (When doing this, keep in mind that most functions\n return \u003cem\u003elocal time\u003c/em\u003e. This will not necessarily be the time you're\n expecting.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "date_time",
           "package": "hsemail",
@@ -4150,6 +4513,7 @@
         "index": {
           "description": "Parse date and time specification of the form Thu Dec where the weekday specification Thu is optional The parser returns CalendarTime which is set to the appropriate values Note though that not all fields of CalendarTime will necessarily be set correctly Obviously when no weekday has been provided the parser will set this field to Monday regardless of whether the day actually is monday or not Similarly the day of the year will always be returned as The timezone name will always be empty Nor will the date time parser perform any consistency checking It will accept Apr as perfectly valid date In order to get all fields set to meaningful values and in order to verify the date consistency you will have to feed it into any of the conversion routines provided in System.Time such as toClockTime When doing this keep in mind that most functions return local time This will not necessarily be the time you re expecting",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "date_time",
           "package": "hsemail",
@@ -4163,6 +4527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a 1 or 2-digit number (day of month), recognizing both\n standard and obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "day",
           "package": "hsemail",
@@ -4173,6 +4538,7 @@
         "index": {
           "description": "Match or digit number day of month recognizing both standard and obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "day",
           "package": "hsemail",
@@ -4186,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will the abbreviated weekday names (\"\u003ccode\u003eMon\u003c/code\u003e\", \"\u003ccode\u003eTue\u003c/code\u003e\", ...)\n and return the appropriate \u003ccode\u003e\u003ca\u003eDay\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "day_name",
           "package": "hsemail",
@@ -4196,6 +4563,7 @@
         "index": {
           "description": "This parser will the abbreviated weekday names Mon Tue and return the appropriate Day value",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "day_name",
           "package": "hsemail",
@@ -4208,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "day_of_month",
           "package": "hsemail",
@@ -4217,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "day_of_month",
           "package": "hsemail",
@@ -4230,6 +4600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser matches a \u003ccode\u003e\u003ca\u003eday_name\u003c/a\u003e\u003c/code\u003e or an \u003ccode\u003e\u003ca\u003eobs_day_of_week\u003c/a\u003e\u003c/code\u003e (optionally\n wrapped in folding whitespace) and return its \u003ccode\u003e\u003ca\u003eDay\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "day_of_week",
           "package": "hsemail",
@@ -4240,6 +4611,7 @@
         "index": {
           "description": "This parser matches day name or an obs day of week optionally wrapped in folding whitespace and return its Day value",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "day_of_week",
           "package": "hsemail",
@@ -4253,6 +4625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and return any characters that are legal in a\n \u003ccode\u003e\u003ca\u003edomain_literal\u003c/a\u003e\u003c/code\u003e. That is \u003ccode\u003e\u003ca\u003edtext\u003c/a\u003e\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003equoted_pair\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "dcontent",
           "package": "hsemail",
@@ -4263,6 +4636,7 @@
         "index": {
           "description": "Parse and return any characters that are legal in domain literal That is dtext or quoted pair",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "dcontent",
           "package": "hsemail",
@@ -4276,6 +4650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and return a \u003ccode\u003e\u003ca\u003ephrase\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "display_name",
           "package": "hsemail",
@@ -4286,6 +4661,7 @@
         "index": {
           "description": "Parse and return phrase",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "display_name",
           "package": "hsemail",
@@ -4299,6 +4675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and return a \"domain part\" of an \u003ccode\u003e\u003ca\u003eaddr_spec\u003c/a\u003e\u003c/code\u003e. That is either\n a \u003ccode\u003e\u003ca\u003edot_atom\u003c/a\u003e\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003edomain_literal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "domain",
           "package": "hsemail",
@@ -4309,6 +4686,7 @@
         "index": {
           "description": "Parse and return domain part of an addr spec That is either dot atom or domain literal",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "domain",
           "package": "hsemail",
@@ -4322,6 +4700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"domain literal\". That is a \"\u003ccode\u003e[\u003c/code\u003e\" character, followed by\n any amount of \u003ccode\u003e\u003ca\u003edcontent\u003c/a\u003e\u003c/code\u003e, followed by a terminating \"\u003ccode\u003e]\u003c/code\u003e\"\n character. The complete string is returned verbatim.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "domain_literal",
           "package": "hsemail",
@@ -4332,6 +4711,7 @@
         "index": {
           "description": "Parse domain literal That is character followed by any amount of dcontent followed by terminating character The complete string is returned verbatim",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "domain_literal",
           "package": "hsemail",
@@ -4345,6 +4725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \u003ccode\u003e\u003ca\u003edot_atom_text\u003c/a\u003e\u003c/code\u003e and skip any preceeding or trailing \u003ccode\u003e\u003ca\u003ecfws\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "dot_atom",
           "package": "hsemail",
@@ -4355,6 +4736,7 @@
         "index": {
           "description": "Match dot atom text and skip any preceeding or trailing cfws",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "dot_atom",
           "package": "hsemail",
@@ -4368,6 +4750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch two or more \u003ccode\u003e\u003ca\u003eatext\u003c/a\u003e\u003c/code\u003es interspersed by dots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "dot_atom_text",
           "package": "hsemail",
@@ -4378,6 +4761,7 @@
         "index": {
           "description": "Match two or more atext interspersed by dots",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "dot_atom_text",
           "package": "hsemail",
@@ -4391,6 +4775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and return any ASCII characters except \"\u003ccode\u003e[\u003c/code\u003e\", \"\u003ccode\u003e]\u003c/code\u003e\", and\n \"\u003ccode\u003e\\\u003c/code\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "dtext",
           "package": "hsemail",
@@ -4401,6 +4786,7 @@
         "index": {
           "description": "Parse and return any ASCII characters except and",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "dtext",
           "package": "hsemail",
@@ -4414,6 +4800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and return an arbitrary header field name. That is one or\n more \u003ccode\u003e\u003ca\u003eftext\u003c/a\u003e\u003c/code\u003e characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "field_name",
           "package": "hsemail",
@@ -4424,6 +4811,7 @@
         "index": {
           "description": "Parse and return an arbitrary header field name That is one or more ftext characters",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "field_name",
           "package": "hsemail",
@@ -4437,6 +4825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will parse an arbitrary number of header fields as\n defined in this RFC. For each field, an appropriate \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e value\n is created, all of them making up the \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e list that this parser\n returns.\n\u003c/p\u003e\u003cp\u003eIf you look at the implementation of this parser, you will find\n that it uses Parsec's \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e modifier around \u003cem\u003eall\u003c/em\u003e of the fields.\n The idea behind this is that fields, which contain syntax errors,\n fall back to the catch-all \u003ccode\u003e\u003ca\u003eoptional_field\u003c/a\u003e\u003c/code\u003e. Thus, this parser will\n hardly ever return a syntax error -- what conforms with the idea\n that any message that can possibly be accepted \u003cem\u003eshould\u003c/em\u003e be.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "fields",
           "package": "hsemail",
@@ -4447,6 +4836,7 @@
         "index": {
           "description": "This parser will parse an arbitrary number of header fields as defined in this RFC For each field an appropriate Field value is created all of them making up the Field list that this parser returns If you look at the implementation of this parser you will find that it uses Parsec try modifier around all of the fields The idea behind this is that fields which contain syntax errors fall back to the catch-all optional field Thus this parser will hardly ever return syntax error what conforms with the idea that any message that can possibly be accepted should be",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "fields",
           "normalized": "CharParser a[Field]",
@@ -4462,6 +4852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eFrom:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003emailbox_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "from",
           "package": "hsemail",
@@ -4472,6 +4863,7 @@
         "index": {
           "description": "Parse From header line and return the mailbox list address es contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "from",
           "normalized": "CharParser a[NameAddr]",
@@ -4487,6 +4879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch and return any ASCII character except for control\n characters, whitespace, and \"\u003ccode\u003e:\u003c/code\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ftext",
           "package": "hsemail",
@@ -4497,6 +4890,7 @@
         "index": {
           "description": "Match and return any ASCII character except for control characters whitespace and",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "ftext",
           "package": "hsemail",
@@ -4510,6 +4904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \"folding whitespace\". That is any combination of \u003ccode\u003e\u003ca\u003ewsp\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e followed by \u003ccode\u003e\u003ca\u003ewsp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "fws",
           "package": "hsemail",
@@ -4520,6 +4915,7 @@
         "index": {
           "description": "Match folding whitespace That is any combination of wsp and crlf followed by wsp",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "fws",
           "package": "hsemail",
@@ -4533,6 +4929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"group\" of addresses. That is a \u003ccode\u003e\u003ca\u003edisplay_name\u003c/a\u003e\u003c/code\u003e, followed\n by a colon, optionally followed by a \u003ccode\u003e\u003ca\u003emailbox_list\u003c/a\u003e\u003c/code\u003e, followed by a\n semicolon. The found address(es) are returned - what may be none.\n Here is an example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse group \"\" \"my group: user1@example.org, user2@example.org;\"\n\u003c/code\u003e\u003c/strong\u003eRight [NameAddr {nameAddr_name = Nothing, nameAddr_addr = \"user1@example.org\"},NameAddr {nameAddr_name = Nothing, nameAddr_addr = \"user2@example.org\"}]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "group",
           "package": "hsemail",
@@ -4543,6 +4940,7 @@
         "index": {
           "description": "Parse group of addresses That is display name followed by colon optionally followed by mailbox list followed by semicolon The found address es are returned what may be none Here is an example parse group my group user1@example.org user2@example.org Right NameAddr nameAddr name Nothing nameAddr addr user1@example.org NameAddr nameAddr name Nothing nameAddr addr user2@example.org",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "group",
           "normalized": "CharParser a[NameAddr]",
@@ -4558,6 +4956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a parser for a message header line from the\n header's name and a parser for the body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "header",
           "package": "hsemail",
@@ -4568,6 +4967,7 @@
         "index": {
           "description": "Construct parser for message header line from the header name and parser for the body",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "header",
           "normalized": "String-\u003eCharParser a b-\u003eCharParser a b",
@@ -4583,6 +4983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a two-digit number and return its integer\n value. No range checking is performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "hour",
           "package": "hsemail",
@@ -4593,6 +4994,7 @@
         "index": {
           "description": "This parser will match two-digit number and return its integer value No range checking is performed",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "hour",
           "package": "hsemail",
@@ -4606,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"left ID\" part of a \u003ccode\u003e\u003ca\u003emsg_id\u003c/a\u003e\u003c/code\u003e. This is almost identical to\n the \u003ccode\u003e\u003ca\u003elocal_part\u003c/a\u003e\u003c/code\u003e of an e-mail address, but with stricter rules\n about folding and whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "id_left",
           "package": "hsemail",
@@ -4616,6 +5019,7 @@
         "index": {
           "description": "Parse left ID part of msg id This is almost identical to the local part of an e-mail address but with stricter rules about folding and whitespace",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "id_left",
           "package": "hsemail",
@@ -4629,6 +5033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"right ID\" part of a \u003ccode\u003e\u003ca\u003emsg_id\u003c/a\u003e\u003c/code\u003e. This is almost identical to\n the \u003ccode\u003e\u003ca\u003edomain\u003c/a\u003e\u003c/code\u003e of an e-mail address, but with stricter rules about\n folding and whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "id_right",
           "package": "hsemail",
@@ -4639,6 +5044,7 @@
         "index": {
           "description": "Parse right ID part of msg id This is almost identical to the domain of an e-mail address but with stricter rules about folding and whitespace",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "id_right",
           "package": "hsemail",
@@ -4652,6 +5058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eIn-Reply-To:\u003c/code\u003e\" header line and return the list of\n \u003ccode\u003e\u003ca\u003emsg_id\u003c/a\u003e\u003c/code\u003es contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "in_reply_to",
           "package": "hsemail",
@@ -4662,6 +5069,7 @@
         "index": {
           "description": "Parse In-Reply-To header line and return the list of msg id contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "in_reply_to",
           "normalized": "CharParser a[String]",
@@ -4676,6 +5084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "item_name",
           "package": "hsemail",
@@ -4685,6 +5094,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "item_name",
           "package": "hsemail",
@@ -4697,6 +5107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "item_value",
           "package": "hsemail",
@@ -4706,6 +5117,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "item_value",
           "package": "hsemail",
@@ -4719,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eKeywords:\u003c/code\u003e\" header line and return the list of \u003ccode\u003e\u003ca\u003ephrase\u003c/a\u003e\u003c/code\u003es\n found. Please not that each phrase is again a list of \u003ccode\u003e\u003ca\u003eatom\u003c/a\u003e\u003c/code\u003es, as\n returned by the \u003ccode\u003e\u003ca\u003ephrase\u003c/a\u003e\u003c/code\u003e parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "keywords",
           "package": "hsemail",
@@ -4729,6 +5142,7 @@
         "index": {
           "description": "Parse Keywords header line and return the list of phrase found Please not that each phrase is again list of atom as returned by the phrase parser",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "keywords",
           "normalized": "CharParser a[[String]]",
@@ -4744,6 +5158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and return a \"local part\" of an \u003ccode\u003e\u003ca\u003eaddr_spec\u003c/a\u003e\u003c/code\u003e. That is either\n a \u003ccode\u003e\u003ca\u003edot_atom\u003c/a\u003e\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003equoted_string\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "local_part",
           "package": "hsemail",
@@ -4754,6 +5169,7 @@
         "index": {
           "description": "Parse and return local part of an addr spec That is either dot atom or quoted string",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "local_part",
           "package": "hsemail",
@@ -4767,6 +5183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003ename_addr\u003c/a\u003e\u003c/code\u003e or an \u003ccode\u003e\u003ca\u003eaddr_spec\u003c/a\u003e\u003c/code\u003e and return the\n address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "mailbox",
           "package": "hsemail",
@@ -4777,6 +5194,7 @@
         "index": {
           "description": "Parse name addr or an addr spec and return the address",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "mailbox",
           "package": "hsemail",
@@ -4790,6 +5208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of \u003ccode\u003e\u003ca\u003emailbox\u003c/a\u003e\u003c/code\u003e addresses, every two addresses being\n separated by a comma, and return the list of found address(es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "mailbox_list",
           "package": "hsemail",
@@ -4800,6 +5219,7 @@
         "index": {
           "description": "Parse list of mailbox addresses every two addresses being separated by comma and return the list of found address es",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "mailbox_list",
           "normalized": "CharParser a[NameAddr]",
@@ -4815,6 +5235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003eNothing\u003c/code\u003e if the given parser doesn't match. This\n combinator is included in the latest parsec distribution as\n \u003ccode\u003eoptionMaybe\u003c/code\u003e, but ghc-6.6.1 apparently doesn't have it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "maybeOption",
           "package": "hsemail",
@@ -4825,6 +5246,7 @@
         "index": {
           "description": "Return Nothing if the given parser doesn match This combinator is included in the latest parsec distribution as optionMaybe but ghc-6.6.1 apparently doesn have it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "maybeOption",
           "normalized": "GenParser a b c-\u003eGenParser a b(Maybe c)",
@@ -4841,6 +5263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a complete message as defined by this RFC and it broken down\n into the separate header fields and the message body. Header lines,\n which contain syntax errors, will not cause the parser to abort.\n Rather, these headers will appear as \u003ccode\u003e\u003ca\u003eOptionalField\u003c/a\u003e\u003c/code\u003es (which are\n unparsed) in the resulting \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e. A message must be really,\n really badly broken for this parser to fail.\n\u003c/p\u003e\u003cp\u003eThis behaviour was chosen because it is impossible to predict what\n the user of this module considers to be a fatal error;\n traditionally, parsers are very forgiving when it comes to Internet\n messages.\n\u003c/p\u003e\u003cp\u003eIf you want to implement a really strict parser, you'll have to put\n the appropriate parser together yourself. You'll find that this is\n rather easy to do. Refer to the \u003ccode\u003e\u003ca\u003efields\u003c/a\u003e\u003c/code\u003e parser for further details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "message",
           "package": "hsemail",
@@ -4851,6 +5274,7 @@
         "index": {
           "description": "Parse complete message as defined by this RFC and it broken down into the separate header fields and the message body Header lines which contain syntax errors will not cause the parser to abort Rather these headers will appear as OptionalField which are unparsed in the resulting Message message must be really really badly broken for this parser to fail This behaviour was chosen because it is impossible to predict what the user of this module considers to be fatal error traditionally parsers are very forgiving when it comes to Internet messages If you want to implement really strict parser you ll have to put the appropriate parser together yourself You ll find that this is rather easy to do Refer to the fields parser for further details",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "message",
           "package": "hsemail",
@@ -4864,6 +5288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eMessage-Id:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003emsg_id\u003c/a\u003e\u003c/code\u003e\n contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "message_id",
           "package": "hsemail",
@@ -4874,6 +5299,7 @@
         "index": {
           "description": "Parse Message-Id header line and return the msg id contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "message_id",
           "package": "hsemail",
@@ -4887,6 +5313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a two-digit number and return its integer\n value. No range checking is performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "minute",
           "package": "hsemail",
@@ -4897,6 +5324,7 @@
         "index": {
           "description": "This parser will match two-digit number and return its integer value No range checking is performed",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "minute",
           "package": "hsemail",
@@ -4910,6 +5338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a \u003ccode\u003e\u003ca\u003emonth_name\u003c/a\u003e\u003c/code\u003e, optionally wrapped in\n folding whitespace, or an \u003ccode\u003e\u003ca\u003eobs_month\u003c/a\u003e\u003c/code\u003e and return its \u003ccode\u003e\u003ca\u003eMonth\u003c/a\u003e\u003c/code\u003e\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "month",
           "package": "hsemail",
@@ -4920,6 +5349,7 @@
         "index": {
           "description": "This parser will match month name optionally wrapped in folding whitespace or an obs month and return its Month value",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "month",
           "package": "hsemail",
@@ -4933,6 +5363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will the abbreviated month names (\"\u003ccode\u003eJan\u003c/code\u003e\", \"\u003ccode\u003eFeb\u003c/code\u003e\", ...)\n and return the appropriate \u003ccode\u003e\u003ca\u003eMonth\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "month_name",
           "package": "hsemail",
@@ -4943,6 +5374,7 @@
         "index": {
           "description": "This parser will the abbreviated month names Jan Feb and return the appropriate Month value",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "month_name",
           "package": "hsemail",
@@ -4956,6 +5388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003emessage ID:\u003c/code\u003e\" and return it. A message ID is almost\n identical to an \u003ccode\u003e\u003ca\u003eangle_addr\u003c/a\u003e\u003c/code\u003e, but with stricter rules about folding\n and whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "msg_id",
           "package": "hsemail",
@@ -4966,6 +5399,7 @@
         "index": {
           "description": "Parse message ID and return it message ID is almost identical to an angle addr but with stricter rules about folding and whitespace",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "msg_id",
           "package": "hsemail",
@@ -4978,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "nameAddr_addr",
           "package": "hsemail",
@@ -4987,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "nameAddr_addr",
           "package": "hsemail",
@@ -5000,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "nameAddr_name",
           "package": "hsemail",
@@ -5009,6 +5446,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "nameAddr_name",
           "package": "hsemail",
@@ -5023,6 +5461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ccode\u003e\u003ca\u003eangle_addr\u003c/a\u003e\u003c/code\u003e, optionally prefaced with a \u003ccode\u003e\u003ca\u003edisplay_name\u003c/a\u003e\u003c/code\u003e,\n and return the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "name_addr",
           "package": "hsemail",
@@ -5033,6 +5472,7 @@
         "index": {
           "description": "Parse an angle addr optionally prefaced with display name and return the address",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "name_addr",
           "package": "hsemail",
@@ -5045,6 +5485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "name_val_list",
           "package": "hsemail",
@@ -5054,6 +5495,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "name_val_list",
           "normalized": "CharParser a[(String,String)]",
@@ -5068,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "name_val_pair",
           "package": "hsemail",
@@ -5077,6 +5520,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "name_val_pair",
           "normalized": "CharParser a(String,String)",
@@ -5092,6 +5536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one or more occurences of \u003ccode\u003e\u003ca\u003edtext\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003equoted_pair\u003c/a\u003e\u003c/code\u003e and\n return the concatenated string. This makes up the \u003ccode\u003e\u003ca\u003eid_right\u003c/a\u003e\u003c/code\u003e of a\n \u003ccode\u003e\u003ca\u003emsg_id\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "no_fold_literal",
           "package": "hsemail",
@@ -5102,6 +5547,7 @@
         "index": {
           "description": "Parse one or more occurences of dtext or quoted pair and return the concatenated string This makes up the id right of msg id",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "no_fold_literal",
           "package": "hsemail",
@@ -5115,6 +5561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one or more occurences of \u003ccode\u003e\u003ca\u003eqtext\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003equoted_pair\u003c/a\u003e\u003c/code\u003e and\n return the concatenated string. This makes up the \u003ccode\u003e\u003ca\u003eid_left\u003c/a\u003e\u003c/code\u003e of a\n \u003ccode\u003e\u003ca\u003emsg_id\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "no_fold_quote",
           "package": "hsemail",
@@ -5125,6 +5572,7 @@
         "index": {
           "description": "Parse one or more occurences of qtext or quoted pair and return the concatenated string This makes up the id left of msg id",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "no_fold_quote",
           "package": "hsemail",
@@ -5138,6 +5586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any US-ASCII non-whitespace control character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "no_ws_ctl",
           "package": "hsemail",
@@ -5148,6 +5597,7 @@
         "index": {
           "description": "Match any US-ASCII non-whitespace control character",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "no_ws_ctl",
           "package": "hsemail",
@@ -5161,6 +5611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser is identical to \u003ccode\u003e\u003ca\u003eobs_mbox_list\u003c/a\u003e\u003c/code\u003e but parses a list of\n \u003ccode\u003e\u003ca\u003eaddress\u003c/a\u003e\u003c/code\u003ees rather than \u003ccode\u003e\u003ca\u003emailbox\u003c/a\u003e\u003c/code\u003ees. The main difference is that an\n \u003ccode\u003e\u003ca\u003eaddress\u003c/a\u003e\u003c/code\u003e may contain \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003es. Please note that as of now, the\n parser will return a simple list of addresses; the grouping\n information is lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_addr_list",
           "package": "hsemail",
@@ -5171,6 +5622,7 @@
         "index": {
           "description": "This parser is identical to obs mbox list but parses list of address es rather than mailbox es The main difference is that an address may contain group Please note that as of now the parser will return simple list of addresses the grouping information is lost",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_addr_list",
           "normalized": "CharParser a[NameAddr]",
@@ -5186,6 +5638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser matches the \"obsolete angle address\" syntax, a construct that\n used to be called \"route address\" in earlier RFCs. It differs from a\n standard \u003ccode\u003e\u003ca\u003eangle_addr\u003c/a\u003e\u003c/code\u003e in two ways: (1) it allows far more\n liberal insertion of folding whitespace and comments and (2) the address may\n contain a \"route\" (which this parser ignores):\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse obs_angle_addr \"\" \"\u003c@example1.org,@example2.org:joe@example.org\u003e\"\n\u003c/code\u003e\u003c/strong\u003eRight \"\u003cjoe@example.org\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_angle_addr",
           "package": "hsemail",
@@ -5196,6 +5649,7 @@
         "index": {
           "description": "This parser matches the obsolete angle address syntax construct that used to be called route address in earlier RFCs It differs from standard angle addr in two ways it allows far more liberal insertion of folding whitespace and comments and the address may contain route which this parser ignores parse obs angle addr example1.org example2.org joe@example.org Right joe@example.org",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_angle_addr",
           "package": "hsemail",
@@ -5209,6 +5663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003ebcc\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_bcc",
           "package": "hsemail",
@@ -5219,6 +5674,7 @@
         "index": {
           "description": "Parse bcc header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_bcc",
           "normalized": "CharParser a[NameAddr]",
@@ -5234,6 +5690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003ecc\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_cc",
           "package": "hsemail",
@@ -5244,6 +5701,7 @@
         "index": {
           "description": "Parse cc header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_cc",
           "normalized": "CharParser a[NameAddr]",
@@ -5259,6 +5717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch and return the obsolete \"char\" syntax, which - unlike\n \u003ccode\u003e\u003ca\u003echaracter\u003c/a\u003e\u003c/code\u003e - did not allow \"carriage return\" and \"linefeed\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_char",
           "package": "hsemail",
@@ -5269,6 +5728,7 @@
         "index": {
           "description": "Match and return the obsolete char syntax which unlike character did not allow carriage return and linefeed",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_char",
           "package": "hsemail",
@@ -5282,6 +5742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003ecomments\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_comments",
           "package": "hsemail",
@@ -5292,6 +5753,7 @@
         "index": {
           "description": "Parse comments header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_comments",
           "package": "hsemail",
@@ -5305,6 +5767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eday\u003c/a\u003e\u003c/code\u003e but allow for the obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_day",
           "package": "hsemail",
@@ -5315,6 +5778,7 @@
         "index": {
           "description": "Parse day but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_day",
           "package": "hsemail",
@@ -5328,6 +5792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eday_name\u003c/a\u003e\u003c/code\u003e but allow for the obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_day_of_week",
           "package": "hsemail",
@@ -5338,6 +5803,7 @@
         "index": {
           "description": "Parse day name but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_day_of_week",
           "package": "hsemail",
@@ -5351,6 +5817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the obsolete syntax of a \u003ccode\u003e\u003ca\u003edomain\u003c/a\u003e\u003c/code\u003e, which allowed for more\n liberal insertion of folding whitespace and comments. The actual\n string is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_domain",
           "package": "hsemail",
@@ -5361,6 +5828,7 @@
         "index": {
           "description": "Parse the obsolete syntax of domain which allowed for more liberal insertion of folding whitespace and comments The actual string is returned",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_domain",
           "package": "hsemail",
@@ -5374,6 +5842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser parses a list of domain names, each of them prefaced\n with an \"at\". Multiple names are separated by a comma. The list of\n \u003ccode\u003e\u003ca\u003edomain\u003c/a\u003e\u003c/code\u003es is returned - and may be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_domain_list",
           "package": "hsemail",
@@ -5384,6 +5853,7 @@
         "index": {
           "description": "This parser parses list of domain names each of them prefaced with an at Multiple names are separated by comma The list of domain is returned and may be empty",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_domain_list",
           "normalized": "CharParser a[String]",
@@ -5398,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_fields",
           "package": "hsemail",
@@ -5407,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_fields",
           "normalized": "GenParser Char a[Field]",
@@ -5422,6 +5894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_from",
           "package": "hsemail",
@@ -5432,6 +5905,7 @@
         "index": {
           "description": "Parse from header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_from",
           "normalized": "CharParser a[NameAddr]",
@@ -5447,6 +5921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and return an \"obsolete fws\" token. That is at least one\n \u003ccode\u003e\u003ca\u003ewsp\u003c/a\u003e\u003c/code\u003e character, followed by an arbitrary number (including zero)\n of \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e followed by at least one more \u003ccode\u003e\u003ca\u003ewsp\u003c/a\u003e\u003c/code\u003e character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_fws",
           "package": "hsemail",
@@ -5457,6 +5932,7 @@
         "index": {
           "description": "Parse and return an obsolete fws token That is at least one wsp character followed by an arbitrary number including zero of crlf followed by at least one more wsp character",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_fws",
           "package": "hsemail",
@@ -5470,6 +5946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eheader\u003c/a\u003e\u003c/code\u003e, but allows the obsolete white-space rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_header",
           "package": "hsemail",
@@ -5480,6 +5957,7 @@
         "index": {
           "description": "Like header but allows the obsolete white-space rules",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_header",
           "normalized": "String-\u003eCharParser a b-\u003eCharParser a b",
@@ -5495,6 +5973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003ehour\u003c/a\u003e\u003c/code\u003e but allow for the obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_hour",
           "package": "hsemail",
@@ -5505,6 +5984,7 @@
         "index": {
           "description": "Parse hour but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_hour",
           "package": "hsemail",
@@ -5518,6 +5998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the \"left part\" of a message ID, but allows the obsolete\n syntax, which is identical to a \u003ccode\u003e\u003ca\u003elocal_part\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_id_left",
           "package": "hsemail",
@@ -5528,6 +6009,7 @@
         "index": {
           "description": "Parses the left part of message ID but allows the obsolete syntax which is identical to local part",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_id_left",
           "package": "hsemail",
@@ -5541,6 +6023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the \"right part\" of a message ID, but allows the obsolete\n syntax, which is identical to a \u003ccode\u003e\u003ca\u003edomain\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_id_right",
           "package": "hsemail",
@@ -5551,6 +6034,7 @@
         "index": {
           "description": "Parses the right part of message ID but allows the obsolete syntax which is identical to domain",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_id_right",
           "package": "hsemail",
@@ -5564,6 +6048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ccode\u003e\u003ca\u003ein_reply_to\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding and the obsolete phrase syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_in_reply_to",
           "package": "hsemail",
@@ -5574,6 +6059,7 @@
         "index": {
           "description": "Parse an in reply to header line but allow for the obsolete folding and the obsolete phrase syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_in_reply_to",
           "normalized": "CharParser a[String]",
@@ -5589,6 +6075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003ekeywords\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax. Also, this parser accepts \u003ccode\u003e\u003ca\u003eobs_phrase_list\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_keywords",
           "package": "hsemail",
@@ -5599,6 +6086,7 @@
         "index": {
           "description": "Parse keywords header line but allow for the obsolete folding syntax Also this parser accepts obs phrase list",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_keywords",
           "normalized": "CharParser a[String]",
@@ -5614,6 +6102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the obsolete syntax of a \u003ccode\u003e\u003ca\u003elocal_part\u003c/a\u003e\u003c/code\u003e, which allowed for\n more liberal insertion of folding whitespace and comments. The\n actual string is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_local_part",
           "package": "hsemail",
@@ -5624,6 +6113,7 @@
         "index": {
           "description": "Parse the obsolete syntax of local part which allowed for more liberal insertion of folding whitespace and comments The actual string is returned",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_local_part",
           "package": "hsemail",
@@ -5637,6 +6127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match the obsolete syntax for a \u003ccode\u003e\u003ca\u003emailbox_list\u003c/a\u003e\u003c/code\u003e.\n This one is quite weird: An \u003ccode\u003e\u003ca\u003eobs_mbox_list\u003c/a\u003e\u003c/code\u003e contains an arbitrary\n number of \u003ccode\u003e\u003ca\u003emailbox\u003c/a\u003e\u003c/code\u003ees - including none -, which are separated by\n commas. But you may have multiple consecutive commas without giving\n a \u003ccode\u003e\u003ca\u003emailbox\u003c/a\u003e\u003c/code\u003e. You may also have a valid \u003ccode\u003e\u003ca\u003eobs_mbox_list\u003c/a\u003e\u003c/code\u003e that\n contains \u003cem\u003eno\u003c/em\u003e \u003ccode\u003e\u003ca\u003emailbox\u003c/a\u003e\u003c/code\u003e at all. On the other hand, you \u003cem\u003emust\u003c/em\u003e have\n at least one comma. The following example is valid:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse obs_mbox_list \"\" \",\"\n\u003c/code\u003e\u003c/strong\u003eRight []\n\u003c/pre\u003e\u003cp\u003eBut this one is not:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse obs_mbox_list \"\" \"joe@example.org\"\n\u003c/code\u003e\u003c/strong\u003eLeft (line 1, column 16):\nunexpected end of input\nexpecting obsolete syntax for a list of mailboxes\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_mbox_list",
           "package": "hsemail",
@@ -5647,6 +6138,7 @@
         "index": {
           "description": "This parser will match the obsolete syntax for mailbox list This one is quite weird An obs mbox list contains an arbitrary number of mailbox es including none which are separated by commas But you may have multiple consecutive commas without giving mailbox You may also have valid obs mbox list that contains no mailbox at all On the other hand you must have at least one comma The following example is valid parse obs mbox list Right But this one is not parse obs mbox list joe@example.org Left line column unexpected end of input expecting obsolete syntax for list of mailboxes",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_mbox_list",
           "normalized": "CharParser a[NameAddr]",
@@ -5662,6 +6154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003emessage_id\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_message_id",
           "package": "hsemail",
@@ -5672,6 +6165,7 @@
         "index": {
           "description": "Parse message id header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_message_id",
           "package": "hsemail",
@@ -5685,6 +6179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eminute\u003c/a\u003e\u003c/code\u003e but allow for the obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_minute",
           "package": "hsemail",
@@ -5695,6 +6190,7 @@
         "index": {
           "description": "Parse minute but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_minute",
           "package": "hsemail",
@@ -5708,6 +6204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003emonth_name\u003c/a\u003e\u003c/code\u003e but allow for the obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_month",
           "package": "hsemail",
@@ -5718,6 +6215,7 @@
         "index": {
           "description": "Parse month name but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_month",
           "package": "hsemail",
@@ -5731,6 +6229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser is identical to \u003ccode\u003e\u003ca\u003eoptional_field\u003c/a\u003e\u003c/code\u003e but allows the more\n liberal line-folding syntax between the \"field_name\" and the \"field\n text\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_optional",
           "package": "hsemail",
@@ -5741,6 +6240,7 @@
         "index": {
           "description": "This parser is identical to optional field but allows the more liberal line-folding syntax between the field name and the field text",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_optional",
           "normalized": "CharParser a(String,String)",
@@ -5756,6 +6256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003edate\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_orig_date",
           "package": "hsemail",
@@ -5766,6 +6267,7 @@
         "index": {
           "description": "Parse date header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_orig_date",
           "package": "hsemail",
@@ -5779,6 +6281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \u003ccode\u003e\u003ca\u003eobs_angle_addr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_path",
           "package": "hsemail",
@@ -5789,6 +6292,7 @@
         "index": {
           "description": "Match obs angle addr",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_path",
           "package": "hsemail",
@@ -5802,6 +6306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the obsolete \"phrase\" syntax, which - unlike \u003ccode\u003e\u003ca\u003ephrase\u003c/a\u003e\u003c/code\u003e -\n allows dots between tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_phrase",
           "package": "hsemail",
@@ -5812,6 +6317,7 @@
         "index": {
           "description": "Match the obsolete phrase syntax which unlike phrase allows dots between tokens",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_phrase",
           "normalized": "CharParser a[String]",
@@ -5827,6 +6333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a  \"phrase list\" syntax and return the list of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es\n that make up the phrase. In contrast to a \u003ccode\u003e\u003ca\u003ephrase\u003c/a\u003e\u003c/code\u003e, the\n \u003ccode\u003e\u003ca\u003eobs_phrase_list\u003c/a\u003e\u003c/code\u003e separates the individual words by commas. This\n syntax is - as you will have guessed - obsolete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_phrase_list",
           "package": "hsemail",
@@ -5837,6 +6344,7 @@
         "index": {
           "description": "Match phrase list syntax and return the list of String that make up the phrase In contrast to phrase the obs phrase list separates the individual words by commas This syntax is as you will have guessed obsolete",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_phrase_list",
           "normalized": "CharParser a[String]",
@@ -5852,6 +6360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the obsolete \"quoted pair\" syntax, which - unlike\n \u003ccode\u003e\u003ca\u003equoted_pair\u003c/a\u003e\u003c/code\u003e - allowed \u003cem\u003eany\u003c/em\u003e ASCII character to be specified when\n quoted. The parser will return both, the backslash and the actual\n character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_qp",
           "package": "hsemail",
@@ -5862,6 +6371,7 @@
         "index": {
           "description": "Match the obsolete quoted pair syntax which unlike quoted pair allowed any ASCII character to be specified when quoted The parser will return both the backslash and the actual character",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_qp",
           "package": "hsemail",
@@ -5874,6 +6384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_received",
           "package": "hsemail",
@@ -5883,6 +6394,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_received",
           "normalized": "CharParser a[(String,String)]",
@@ -5898,6 +6410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003ereferences\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding and the obsolete phrase syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_references",
           "package": "hsemail",
@@ -5908,6 +6421,7 @@
         "index": {
           "description": "Parse references header line but allow for the obsolete folding and the obsolete phrase syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_references",
           "normalized": "CharParser a[String]",
@@ -5923,6 +6437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003ereply_to\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_reply_to",
           "package": "hsemail",
@@ -5933,6 +6448,7 @@
         "index": {
           "description": "Parse reply to header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_reply_to",
           "normalized": "CharParser a[NameAddr]",
@@ -5948,6 +6464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eresent_bcc\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_bcc",
           "package": "hsemail",
@@ -5958,6 +6475,7 @@
         "index": {
           "description": "Parse resent bcc header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_bcc",
           "normalized": "CharParser a[NameAddr]",
@@ -5973,6 +6491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eresent_cc\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_cc",
           "package": "hsemail",
@@ -5983,6 +6502,7 @@
         "index": {
           "description": "Parse resent cc header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_cc",
           "normalized": "CharParser a[NameAddr]",
@@ -5998,6 +6518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eresent_date\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_date",
           "package": "hsemail",
@@ -6008,6 +6529,7 @@
         "index": {
           "description": "Parse resent date header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_date",
           "package": "hsemail",
@@ -6021,6 +6543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eresent_from\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_from",
           "package": "hsemail",
@@ -6031,6 +6554,7 @@
         "index": {
           "description": "Parse resent from header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_from",
           "normalized": "CharParser a[NameAddr]",
@@ -6046,6 +6570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eresent_msg_id\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_mid",
           "package": "hsemail",
@@ -6056,6 +6581,7 @@
         "index": {
           "description": "Parse resent msg id header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_mid",
           "package": "hsemail",
@@ -6069,6 +6595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003eResent-Reply-To\u003c/code\u003e header line but allow for the\n obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_reply",
           "package": "hsemail",
@@ -6079,6 +6606,7 @@
         "index": {
           "description": "Parse Resent-Reply-To header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_reply",
           "normalized": "CharParser a[NameAddr]",
@@ -6094,6 +6622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eresent_sender\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_send",
           "package": "hsemail",
@@ -6104,6 +6633,7 @@
         "index": {
           "description": "Parse resent sender header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_send",
           "package": "hsemail",
@@ -6117,6 +6647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eresent_to\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_to",
           "package": "hsemail",
@@ -6127,6 +6658,7 @@
         "index": {
           "description": "Parse resent to header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_resent_to",
           "normalized": "CharParser a[NameAddr]",
@@ -6141,6 +6673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_return",
           "package": "hsemail",
@@ -6150,6 +6683,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_return",
           "package": "hsemail",
@@ -6163,6 +6697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser parses the \"route\" part of \u003ccode\u003e\u003ca\u003eobs_angle_addr\u003c/a\u003e\u003c/code\u003e and\n returns the list of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es that make up this route. Relies on\n \u003ccode\u003e\u003ca\u003eobs_domain_list\u003c/a\u003e\u003c/code\u003e for the actual parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_route",
           "package": "hsemail",
@@ -6173,6 +6708,7 @@
         "index": {
           "description": "This parser parses the route part of obs angle addr and returns the list of String that make up this route Relies on obs domain list for the actual parsing",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_route",
           "normalized": "CharParser a[String]",
@@ -6188,6 +6724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e but allow for the obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_second",
           "package": "hsemail",
@@ -6198,6 +6735,7 @@
         "index": {
           "description": "Parse second but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_second",
           "package": "hsemail",
@@ -6211,6 +6749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003esender\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_sender",
           "package": "hsemail",
@@ -6221,6 +6760,7 @@
         "index": {
           "description": "Parse sender header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_sender",
           "package": "hsemail",
@@ -6234,6 +6774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003esubject\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_subject",
           "package": "hsemail",
@@ -6244,6 +6785,7 @@
         "index": {
           "description": "Parse subject header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_subject",
           "package": "hsemail",
@@ -6257,6 +6799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the obsolete \"text\" syntax, which - unlike \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e - allowed\n \"carriage returns\" and \"linefeeds\". This is really weird; you\n better consult the RFC for details. The parser will return the\n complete string, including those special characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_text",
           "package": "hsemail",
@@ -6267,6 +6810,7 @@
         "index": {
           "description": "Match the obsolete text syntax which unlike text allowed carriage returns and linefeeds This is really weird you better consult the RFC for details The parser will return the complete string including those special characters",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_text",
           "package": "hsemail",
@@ -6280,6 +6824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eto\u003c/a\u003e\u003c/code\u003e header line but allow for the obsolete\n folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_to",
           "package": "hsemail",
@@ -6290,6 +6835,7 @@
         "index": {
           "description": "Parse to header line but allow for the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_to",
           "normalized": "CharParser a[NameAddr]",
@@ -6305,6 +6851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch and return the obsolete \"utext\" syntax, which is identical\n to \u003ccode\u003e\u003ca\u003eobs_text\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_utext",
           "package": "hsemail",
@@ -6315,6 +6862,7 @@
         "index": {
           "description": "Match and return the obsolete utext syntax which is identical to obs text",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_utext",
           "package": "hsemail",
@@ -6328,6 +6876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eyear\u003c/a\u003e\u003c/code\u003e but allow for a two-digit number (obsolete) and the\n obsolete folding syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_year",
           "package": "hsemail",
@@ -6338,6 +6887,7 @@
         "index": {
           "description": "Parse year but allow for two-digit number obsolete and the obsolete folding syntax",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_year",
           "package": "hsemail",
@@ -6351,6 +6901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the obsolete zone names and return the appropriate offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_zone",
           "package": "hsemail",
@@ -6361,6 +6912,7 @@
         "index": {
           "description": "Match the obsolete zone names and return the appropriate offset",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "obs_zone",
           "package": "hsemail",
@@ -6374,6 +6926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an arbitrary header field and return a tuple containing the\n \u003ccode\u003e\u003ca\u003efield_name\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunstructured\u003c/a\u003e\u003c/code\u003e text of the header. The name will\n \u003cem\u003enot\u003c/em\u003e contain the terminating colon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "optional_field",
           "package": "hsemail",
@@ -6384,6 +6937,7 @@
         "index": {
           "description": "Parse an arbitrary header field and return tuple containing the field name and unstructured text of the header The name will not contain the terminating colon",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "optional_field",
           "normalized": "CharParser a(String,String)",
@@ -6399,6 +6953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eDate:\u003c/code\u003e\" header line and return the date it contains a\n \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "orig_date",
           "package": "hsemail",
@@ -6409,6 +6964,7 @@
         "index": {
           "description": "Parse Date header line and return the date it contains CalendarTime",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "orig_date",
           "package": "hsemail",
@@ -6421,6 +6977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "path",
           "package": "hsemail",
@@ -6430,6 +6987,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "path",
           "package": "hsemail",
@@ -6443,6 +7001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch either one or more \u003ccode\u003e\u003ca\u003eword\u003c/a\u003e\u003c/code\u003es or an \u003ccode\u003e\u003ca\u003eobs_phrase\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "phrase",
           "package": "hsemail",
@@ -6453,6 +7012,7 @@
         "index": {
           "description": "Match either one or more word or an obs phrase",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "phrase",
           "normalized": "CharParser a[String]",
@@ -6468,6 +7028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch either \u003ccode\u003e\u003ca\u003eqtext\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003equoted_pair\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "qcontent",
           "package": "hsemail",
@@ -6478,6 +7039,7 @@
         "index": {
           "description": "Match either qtext or quoted pair",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "qcontent",
           "package": "hsemail",
@@ -6491,6 +7053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any non-whitespace, non-control US-ASCII character except\n for \"\u003ccode\u003e\\\u003c/code\u003e\" and \"\u003ccode\u003e\"\u003c/code\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "qtext",
           "package": "hsemail",
@@ -6501,6 +7064,7 @@
         "index": {
           "description": "Match any non-whitespace non-control US-ASCII character except for and",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "qtext",
           "package": "hsemail",
@@ -6514,6 +7078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a \"quoted pair\". All characters matched by \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e may be\n quoted. Note that the parsers returns \u003cem\u003eboth\u003c/em\u003e characters, the\n backslash and the actual content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "quoted_pair",
           "package": "hsemail",
@@ -6524,6 +7089,7 @@
         "index": {
           "description": "Match quoted pair All characters matched by text may be quoted Note that the parsers returns both characters the backslash and the actual content",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "quoted_pair",
           "package": "hsemail",
@@ -6537,6 +7103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any number of \u003ccode\u003e\u003ca\u003eqcontent\u003c/a\u003e\u003c/code\u003e between double quotes. Any \u003ccode\u003e\u003ca\u003ecfws\u003c/a\u003e\u003c/code\u003e\n preceeding or following the \"atom\" is skipped automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "quoted_string",
           "package": "hsemail",
@@ -6547,6 +7114,7 @@
         "index": {
           "description": "Match any number of qcontent between double quotes Any cfws preceeding or following the atom is skipped automatically",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "quoted_string",
           "package": "hsemail",
@@ -6559,6 +7127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "received",
           "package": "hsemail",
@@ -6568,6 +7137,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "received",
           "normalized": "CharParser a([(String,String)],CalendarTime)",
@@ -6583,6 +7153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eReferences:\u003c/code\u003e\" header line and return the list of\n \u003ccode\u003e\u003ca\u003emsg_id\u003c/a\u003e\u003c/code\u003es contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "references",
           "package": "hsemail",
@@ -6593,6 +7164,7 @@
         "index": {
           "description": "Parse References header line and return the list of msg id contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "references",
           "normalized": "CharParser a[String]",
@@ -6608,6 +7180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eReply-To:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003eaddress_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "reply_to",
           "package": "hsemail",
@@ -6618,6 +7191,7 @@
         "index": {
           "description": "Parse Reply-To header line and return the address list address es contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "reply_to",
           "normalized": "CharParser a[NameAddr]",
@@ -6633,6 +7207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eResent-Bcc:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003eaddress_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it. (This list may be empty.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_bcc",
           "package": "hsemail",
@@ -6643,6 +7218,7 @@
         "index": {
           "description": "Parse Resent-Bcc header line and return the address list address es contained in it This list may be empty",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_bcc",
           "normalized": "CharParser a[NameAddr]",
@@ -6658,6 +7234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eResent-Cc:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003eaddress_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_cc",
           "package": "hsemail",
@@ -6668,6 +7245,7 @@
         "index": {
           "description": "Parse Resent-Cc header line and return the address list address es contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_cc",
           "normalized": "CharParser a[NameAddr]",
@@ -6683,6 +7261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eResent-Date:\u003c/code\u003e\" header line and return the date it\n contains as \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_date",
           "package": "hsemail",
@@ -6693,6 +7272,7 @@
         "index": {
           "description": "Parse Resent-Date header line and return the date it contains as CalendarTime",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_date",
           "package": "hsemail",
@@ -6706,6 +7286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eResent-From:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003emailbox_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_from",
           "package": "hsemail",
@@ -6716,6 +7297,7 @@
         "index": {
           "description": "Parse Resent-From header line and return the mailbox list address es contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_from",
           "normalized": "CharParser a[NameAddr]",
@@ -6731,6 +7313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eResent-Message-ID:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003emsg_id\u003c/a\u003e\u003c/code\u003e\n contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_msg_id",
           "package": "hsemail",
@@ -6741,6 +7324,7 @@
         "index": {
           "description": "Parse Resent-Message-ID header line and return the msg id contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_msg_id",
           "package": "hsemail",
@@ -6754,6 +7338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eResent-Sender:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003emailbox_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_sender",
           "package": "hsemail",
@@ -6764,6 +7349,7 @@
         "index": {
           "description": "Parse Resent-Sender header line and return the mailbox list address es contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_sender",
           "package": "hsemail",
@@ -6777,6 +7363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eResent-To:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003emailbox\u003c/a\u003e\u003c/code\u003e\n address contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_to",
           "package": "hsemail",
@@ -6787,6 +7374,7 @@
         "index": {
           "description": "Parse Resent-To header line and return the mailbox address contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "resent_to",
           "normalized": "CharParser a[NameAddr]",
@@ -6801,6 +7389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "return_path",
           "package": "hsemail",
@@ -6810,6 +7399,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "return_path",
           "package": "hsemail",
@@ -6823,6 +7413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a two-digit number and return its integer\n value. No range checking takes place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "second",
           "package": "hsemail",
@@ -6833,6 +7424,7 @@
         "index": {
           "description": "This parser will match two-digit number and return its integer value No range checking takes place",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "second",
           "package": "hsemail",
@@ -6846,6 +7438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eSender:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003emailbox\u003c/a\u003e\u003c/code\u003e address\n contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "sender",
           "package": "hsemail",
@@ -6856,6 +7449,7 @@
         "index": {
           "description": "Parse Sender header line and return the mailbox address contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "sender",
           "package": "hsemail",
@@ -6869,6 +7463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any of the RFC's \"special\" characters: \u003ccode\u003e()\u003c\u003e[]:;@,.\\\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "specials",
           "package": "hsemail",
@@ -6879,6 +7474,7 @@
         "index": {
           "description": "Match any of the RFC special characters",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "specials",
           "package": "hsemail",
@@ -6892,6 +7488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eSubject:\u003c/code\u003e\" header line and return its contents verbatim.\n Please note that all whitespace and/or comments are preserved, i.e.\n the result of parsing \u003ccode\u003e\"Subject: foo\"\u003c/code\u003e is \u003ccode\u003e\" foo\"\u003c/code\u003e, not \u003ccode\u003e\"foo\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "subject",
           "package": "hsemail",
@@ -6902,6 +7499,7 @@
         "index": {
           "description": "Parse Subject header line and return its contents verbatim Please note that all whitespace and or comments are preserved i.e the result of parsing Subject foo is foo not foo",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "subject",
           "package": "hsemail",
@@ -6915,6 +7513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any US-ASCII character except for \u003ccode\u003er\u003c/code\u003e, \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "text",
           "package": "hsemail",
@@ -6925,6 +7524,7 @@
         "index": {
           "description": "Match any US-ASCII character except for",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "text",
           "package": "hsemail",
@@ -6938,6 +7538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a \u003ccode\u003e\u003ca\u003etime_of_day\u003c/a\u003e\u003c/code\u003e specification followed by a\n \u003ccode\u003e\u003ca\u003ezone\u003c/a\u003e\u003c/code\u003e. It returns the tuple (TimeDiff,Int) corresponding to the\n return values of either parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "time",
           "package": "hsemail",
@@ -6948,6 +7549,7 @@
         "index": {
           "description": "This parser will match time of day specification followed by zone It returns the tuple TimeDiff Int corresponding to the return values of either parser",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "time",
           "normalized": "CharParser a(TimeDiff,Int)",
@@ -6963,6 +7565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a time-of-day specification of \"\u003ccode\u003ehh:mm\u003c/code\u003e\" or\n \"\u003ccode\u003ehh:mm:ss\u003c/code\u003e\" and return the corrsponding time as a \u003ccode\u003e\u003ca\u003eTimeDiff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "time_of_day",
           "package": "hsemail",
@@ -6973,6 +7576,7 @@
         "index": {
           "description": "This parser will match time-of-day specification of hh mm or hh mm ss and return the corrsponding time as TimeDiff",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "time_of_day",
           "package": "hsemail",
@@ -6986,6 +7590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"\u003ccode\u003eTo:\u003c/code\u003e\" header line and return the \u003ccode\u003e\u003ca\u003eaddress_list\u003c/a\u003e\u003c/code\u003e\n address(es) contained in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "to",
           "package": "hsemail",
@@ -6996,6 +7601,7 @@
         "index": {
           "description": "Parse To header line and return the address list address es contained in it",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "to",
           "normalized": "CharParser a[NameAddr]",
@@ -7011,6 +7617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunfold\u003c/code\u003e \u003ccode\u003e=\u003c/code\u003e \u003ccode\u003ebetween (optional cfws) (optional cfws)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "unfold",
           "package": "hsemail",
@@ -7021,6 +7628,7 @@
         "index": {
           "description": "unfold between optional cfws optional cfws",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "unfold",
           "normalized": "CharParser a b-\u003eCharParser a b",
@@ -7036,6 +7644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any number of \u003ccode\u003e\u003ca\u003eutext\u003c/a\u003e\u003c/code\u003e tokens.\n\u003c/p\u003e\u003cp\u003e\"Unstructured text\" is used in free text fields such as \u003ccode\u003e\u003ca\u003esubject\u003c/a\u003e\u003c/code\u003e.\n Please note that any comments or whitespace that prefaces or\n follows the actual \u003ccode\u003e\u003ca\u003eutext\u003c/a\u003e\u003c/code\u003e is \u003cem\u003eincluded\u003c/em\u003e in the returned string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "unstructured",
           "package": "hsemail",
@@ -7046,6 +7655,7 @@
         "index": {
           "description": "Match any number of utext tokens Unstructured text is used in free text fields such as subject Please note that any comments or whitespace that prefaces or follows the actual utext is included in the returned string",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "unstructured",
           "package": "hsemail",
@@ -7059,6 +7669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any non-whitespace, non-control US-ASCII character except\n for \"\u003ccode\u003e\\\u003c/code\u003e\" and \"\u003ccode\u003e\"\u003c/code\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "utext",
           "package": "hsemail",
@@ -7069,6 +7680,7 @@
         "index": {
           "description": "Match any non-whitespace non-control US-ASCII character except for and",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "utext",
           "package": "hsemail",
@@ -7082,6 +7694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch either \u003ccode\u003e\u003ca\u003eatom\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003equoted_string\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "word",
           "package": "hsemail",
@@ -7092,6 +7705,7 @@
         "index": {
           "description": "Match either atom or quoted string",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "word",
           "package": "hsemail",
@@ -7105,6 +7719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a four digit number and return its integer\n value. No range checking is performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "year",
           "package": "hsemail",
@@ -7115,6 +7730,7 @@
         "index": {
           "description": "This parser will match four digit number and return its integer value No range checking is performed",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "year",
           "package": "hsemail",
@@ -7128,6 +7744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser will match a timezone specification of the form\n \"\u003ccode\u003e+hhmm\u003c/code\u003e\" or \"\u003ccode\u003e-hhmm\u003c/code\u003e\" and return the zone's offset to UTC in\n seconds as an integer. \u003ccode\u003e\u003ca\u003eobs_zone\u003c/a\u003e\u003c/code\u003e is matched as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:18 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "zone",
           "package": "hsemail",
@@ -7138,6 +7755,7 @@
         "index": {
           "description": "This parser will match timezone specification of the form hhmm or hhmm and return the zone offset to UTC in seconds as an integer obs zone is matched as well",
           "hierarchy": "Text ParserCombinators Parsec Rfc2822",
+          "indexed": "2014-03-11T18:48:18",
           "module": "Text.ParserCombinators.Parsec.Rfc2822",
           "name": "zone",
           "package": "hsemail",

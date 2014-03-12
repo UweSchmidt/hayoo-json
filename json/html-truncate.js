@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "html-truncate"
+        "phrase": "html-truncate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:47 UTC 2014",
           "module": "Text.HTML.Truncate",
           "name": "Truncate",
           "package": "html-truncate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Truncate",
+          "indexed": "2014-03-11T18:51:47",
           "module": "Text.HTML.Truncate",
           "name": "Truncate",
           "package": "html-truncate",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncate HTML, and ensure that tags are closed; Remove trailing empty tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:47 UTC 2014",
           "module": "Text.HTML.Truncate",
           "name": "truncateHtml",
           "package": "html-truncate",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Truncate HTML and ensure that tags are closed Remove trailing empty tags",
           "hierarchy": "Text HTML Truncate",
+          "indexed": "2014-03-11T18:51:47",
           "module": "Text.HTML.Truncate",
           "name": "truncateHtml",
           "normalized": "Int-\u003ea-\u003ea",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:47 UTC 2014",
           "module": "Text.HTML.Truncate",
           "name": "truncateHtml'",
           "package": "html-truncate",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Truncate",
+          "indexed": "2014-03-11T18:51:47",
           "module": "Text.HTML.Truncate",
           "name": "truncateHtml'",
           "normalized": "Int-\u003ea-\u003e(Int,a)",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncate to full words. If actual truncation occured, remove the last (usually cut-off) word, then remove trailing whitespace.\n | Returns the truncated string and the number of characters that remain to be truncated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:47 UTC 2014",
           "module": "Text.HTML.Truncate",
           "name": "truncateStringLike",
           "package": "html-truncate",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Truncate to full words If actual truncation occured remove the last usually cut-off word then remove trailing whitespace Returns the truncated string and the number of characters that remain to be truncated",
           "hierarchy": "Text HTML Truncate",
+          "indexed": "2014-03-11T18:51:47",
           "module": "Text.HTML.Truncate",
           "name": "truncateStringLike",
           "normalized": "Int-\u003ea-\u003e(Int,a)",

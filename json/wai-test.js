@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-test"
+        "phrase": "wai-test",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "Test",
           "package": "wai-test",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "Test",
           "package": "wai-test",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "SRequest",
           "package": "wai-test",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "SRequest",
           "package": "wai-test",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "SResponse",
           "package": "wai-test",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "SResponse",
           "package": "wai-test",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "Session",
           "package": "wai-test",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "Session",
           "package": "wai-test",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "SRequest",
           "package": "wai-test",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "SRequest",
           "package": "wai-test",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "SResponse",
           "package": "wai-test",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "SResponse",
           "package": "wai-test",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "assertBody",
           "package": "wai-test",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "assertBody",
           "normalized": "ByteString-\u003eSResponse-\u003eSession()",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "assertBodyContains",
           "package": "wai-test",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "assertBodyContains",
           "normalized": "ByteString-\u003eSResponse-\u003eSession()",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "assertContentType",
           "package": "wai-test",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "assertContentType",
           "normalized": "ByteString-\u003eSResponse-\u003eSession()",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "assertHeader",
           "package": "wai-test",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "assertHeader",
           "normalized": "CI ByteString-\u003eByteString-\u003eSResponse-\u003eSession()",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "assertNoHeader",
           "package": "wai-test",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "assertNoHeader",
           "normalized": "CI ByteString-\u003eSResponse-\u003eSession()",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "assertStatus",
           "package": "wai-test",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "assertStatus",
           "normalized": "Int-\u003eSResponse-\u003eSession()",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default, blank request.\n\u003c/p\u003e\u003cp\u003eSince 2.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "defaultRequest",
           "package": "wai-test",
@@ -300,6 +325,7 @@
         "index": {
           "description": "default blank request Since",
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "defaultRequest",
           "package": "wai-test",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "request",
           "package": "wai-test",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "request",
           "normalized": "Request-\u003eSession SResponse",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "runSession",
           "package": "wai-test",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "runSession",
           "normalized": "Session a-\u003eApplication-\u003eIO a",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet whole path (request path + query string).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "setPath",
           "package": "wai-test",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Set whole path request path query string",
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "setPath",
           "normalized": "Request-\u003eByteString-\u003eRequest",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "setRawPathInfo",
           "package": "wai-test",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "setRawPathInfo",
           "normalized": "Request-\u003eByteString-\u003eRequest",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "simpleBody",
           "package": "wai-test",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "simpleBody",
           "package": "wai-test",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "simpleHeaders",
           "package": "wai-test",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "simpleHeaders",
           "package": "wai-test",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "simpleRequest",
           "package": "wai-test",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "simpleRequest",
           "package": "wai-test",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "simpleRequestBody",
           "package": "wai-test",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "simpleRequestBody",
           "package": "wai-test",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "simpleStatus",
           "package": "wai-test",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "simpleStatus",
           "package": "wai-test",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:01 UTC 2014",
           "module": "Network.Wai.Test",
           "name": "srequest",
           "package": "wai-test",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Test",
+          "indexed": "2014-03-11T20:37:01",
           "module": "Network.Wai.Test",
           "name": "srequest",
           "normalized": "SRequest-\u003eSession SResponse",

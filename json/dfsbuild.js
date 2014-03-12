@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dfsbuild"
+        "phrase": "dfsbuild",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TimePiece"
+        "phrase": "TimePiece",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "Main",
           "package": "TimePiece",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "Main",
           "package": "TimePiece",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "Status",
           "package": "TimePiece",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "Status",
           "package": "TimePiece",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "Tiling",
           "package": "TimePiece",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "Tiling",
           "package": "TimePiece",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "MkTiling",
           "package": "TimePiece",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "MkTiling",
           "package": "TimePiece",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "Static",
           "package": "TimePiece",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "Static",
           "package": "TimePiece",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "ZoomIn",
           "package": "TimePiece",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "ZoomIn",
           "package": "TimePiece",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "ZoomOut",
           "package": "TimePiece",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "ZoomOut",
           "package": "TimePiece",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "_calculateTiling",
           "package": "TimePiece",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "_calculateTiling",
           "normalized": "CacheOnce String[Tiling]",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "calculateTiling",
           "package": "TimePiece",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "calculateTiling",
           "normalized": "String-\u003eIO[Tiling]",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "getCurrentTime",
           "package": "TimePiece",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "getCurrentTime",
           "package": "TimePiece",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "initZoomIn",
           "package": "TimePiece",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "initZoomIn",
           "normalized": "String-\u003eInt-\u003eInt-\u003eIO Status",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "loop",
           "package": "TimePiece",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "loop",
           "normalized": "Status-\u003e(Status-\u003eIO Status)-\u003eIO()",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "main",
           "package": "TimePiece",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "main",
           "normalized": "IO()",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "paintScreen",
           "package": "TimePiece",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "paintScreen",
           "normalized": "Surface-\u003eInt-\u003eInt-\u003eString-\u003eZoom-\u003eIO()",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "sHeight",
           "package": "TimePiece",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "sHeight",
           "package": "TimePiece",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "sSpeed",
           "package": "TimePiece",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "sSpeed",
           "package": "TimePiece",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "sTime",
           "package": "TimePiece",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "sTime",
           "package": "TimePiece",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "sWidth",
           "package": "TimePiece",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "sWidth",
           "package": "TimePiece",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "sZoom",
           "package": "TimePiece",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "sZoom",
           "package": "TimePiece",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "tEdge",
           "package": "TimePiece",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "tEdge",
           "package": "TimePiece",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "tSeeds",
           "package": "TimePiece",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "tSeeds",
           "normalized": "[Int]",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:28 UTC 2014",
           "module": "Main",
           "name": "tTiles",
           "package": "TimePiece",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T17:02:28",
           "module": "Main",
           "name": "tTiles",
           "package": "TimePiece",
